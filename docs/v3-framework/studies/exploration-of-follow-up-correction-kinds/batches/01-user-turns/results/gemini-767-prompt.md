@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the cutie-mark design thread and asks an unrelated general health question about showering after dinner, without commenting on the model's images or descriptions.

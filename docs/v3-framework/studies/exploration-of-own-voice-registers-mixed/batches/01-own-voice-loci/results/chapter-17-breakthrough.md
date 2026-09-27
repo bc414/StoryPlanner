@@ -1,0 +1,8 @@
+- passages:
+  - note 4756 | enumerated gloss | colon-headed list, terse noun and gerund phrases, no full sentences | naming the double meanings packed into the chapter title | apart
+  - note 5479 | prescriptive directive | short declarative opening, 'There should be', states a requirement rather than describing content | that two TwiJack scenes belong in the chapter | apart
+  - note 5479 | descriptive scene summary | present tense, third person, sequential markers 'First,' and 'Then later,' outlining action and purpose of each scene | what happens and why in each of the two scenes | apart
+- shifts:
+  - note 5479 | prescriptive directive | descriptive scene summary | drops the 'should be' requirement-language for present-tense narration of what Twilight and Applejack do, opening with 'First,'
+- registers: enumerated gloss; prescriptive directive; descriptive scene summary
+- whole: Across the two notes this item holds three registers - note 4756 stays in one all-list, gloss-naming register throughout, while note 5479 moves from a brief prescriptive directive into a present-tense descriptive summary of the two scenes, the shift and the two summary paragraphs each standing apart as their own stretches rather than blending together.

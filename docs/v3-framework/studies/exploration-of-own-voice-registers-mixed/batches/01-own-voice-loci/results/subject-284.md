@@ -1,0 +1,20 @@
+- passages:
+  - note 5092 | tier-label | heading form, name plus dollar amount in parens | naming tier 1 and its price | apart
+  - note 5092 | descriptive-analytic | fragment sentence naming ingredient logic | what makes the tier's restaurants what they are | apart
+  - note 5092 | glossing aside | parenthetical, informal broken phrasing | defining the quoted term 'Veblen' | run-in
+  - note 5093 | tier-label | heading form, name plus dollar amount in parens | naming tier 2 and its price | apart
+  - note 5093 | descriptive-analytic | two clipped fragments, no subject-verb-object fullness, jargon term | the tier's technique-on-common-goods logic | apart
+  - note 5094 | tier-label | heading form, name plus dollar amount in parens | naming tier 3 and its price | apart
+  - note 5094 | descriptive-analytic | run-on noun-phrase list, no main verb | volume, ingredient, and chef logic of the tier | apart
+  - note 5094 | catalog listing | bare comma list of proper names, no connecting prose | naming the tier's characteristic dishes | apart
+  - note 5095 | tier-label | heading form, name plus dismissive parenthetical tag | naming tier 4 and marking it a tourist trap | apart
+  - note 5095 | descriptive-critical | colloquial phrasing ('slapped on'), dismissive tone | how the tier's food is faked up for tourists | apart
+- shifts:
+  - note 5092 | tier-label | descriptive-analytic | line break, move from bare heading to a defining sentence
+  - note 5092 | descriptive-analytic | glossing aside | parenthesis opens, phrasing turns informal and grammatically loose
+  - note 5093 | tier-label | descriptive-analytic | line break, move from bare heading to clipped explanatory fragments with a jargon term
+  - note 5094 | tier-label | descriptive-analytic | line break, move from bare heading to a descriptive noun-phrase list
+  - note 5094 | descriptive-analytic | catalog listing | connecting prose drops away into a bare comma list of dish names
+  - note 5095 | tier-label | descriptive-critical | line break, move from heading to a colloquial, dismissive description
+- registers: tier-label; descriptive-analytic; glossing aside; catalog listing; descriptive-critical
+- whole: These four notes share a recurring two-part shape, a terse tier-label heading followed by a descriptive-analytic body that stands apart from it on its own line, but the bodies themselves diverge further, with one running into a parenthetical glossing aside inside its sentence, one dropping into a bare catalog list, and the last turning colloquial and critical, so the item's notes hold several registers arranged in a consistent frame rather than one uniform way of writing.

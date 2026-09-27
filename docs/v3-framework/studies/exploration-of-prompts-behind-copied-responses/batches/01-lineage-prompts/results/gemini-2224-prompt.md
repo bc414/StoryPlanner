@@ -1,0 +1,7 @@
+- asks:
+  - question | ask whether a company adopted outside innovations | asks if Google has made use of innovations from China | "Has Google made use of the innovations from China?"
+  - question | ask the same about a second company | asks the same about OpenAI | "What about Open AI?"
+- supplies:
+- shaping:
+- openness: Open: the message poses two bare questions without naming a suspected answer, source, or specific innovation, and without specifying how the reply should be framed.
+- subject: Whether Google and OpenAI have adopted AI-related innovations originating from China

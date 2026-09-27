@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model took conv:64 as a sample conversation and built a conversation-type scheme and reading method from it. The user says it is an atypical, very long conversation that is not really about the fabula, so it is a poor basis. | "that conversation is pretty abnormal too for being so long and not necessarily about my fabula" | flat, brief, with a reason given, in passing, and followed at once by a redirect to another conversation
+- about: The user turn rejects conv:64 as an unrepresentative example, because it is unusually long and off-fabula, and points the model to the Chrysalis Enhancement conversation instead.

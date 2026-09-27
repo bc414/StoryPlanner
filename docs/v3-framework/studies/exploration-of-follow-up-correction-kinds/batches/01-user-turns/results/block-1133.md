@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the Buffalo don't "speak" to animals like a fairy tale and only give them a logistical baseline. The user says the Buffalo do talk to animals the way canonical Fluttershy does, as a fairy-tale ability. The user adds that it works through nonverbal understanding of body language, not literal comprehension of animal sounds. | "I do imagine the buffalo talk to animals like how Fluttershy does in canon FiM" | Stated flatly as the author's own intent, with no apology. It is a clarification that keeps part of the model's framing, since it is nonverbal, and reverses the rest.
+- about: The user pushes back on one detail of the model's expansion, the claim that the Buffalo don't communicate with animals like a fairy tale, and says what they actually imagine: Fluttershy-style communication through body language.

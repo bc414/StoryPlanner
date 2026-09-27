@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the binding-logic discussion to attach their subject-type files from the v1 archive and v2 instances and asks for an analysis of them, without commenting on the model's previous turn.

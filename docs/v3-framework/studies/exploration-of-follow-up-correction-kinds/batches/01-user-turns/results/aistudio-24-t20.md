@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | the self-generated paradigm/bucket names and structure used to sort the notes (e.g. "Predator's Dilemma", "Concept Evolution", "Asset Specificity") do not match the taxonomy that is to be used | the enumerated "TARGET PARADIGMS & BUCKETS" list replacing the prior categories | stated flatly, as a fixed list to be applied going forward, without argument
+  - completeness of coverage | the sorting did not (or must not) leave notes unplaced outside a bucket or an explicit garbage bucket | "You MUST include at least 95% of the notes into at least one bucket or the garbage bucket" | stated as a strict, capitalized mandate, in passing before laying out the new task
+- about: The user turn discards the model's self-devised paradigm/bucket taxonomy, supplies two new source documents, and hands down a fixed set of target paradigms and buckets plus a strict completeness requirement for the next sorting pass.

@@ -1,0 +1,17 @@
+- steps:
+  - the author | brings plan and questions | the story's ending arc (white peace, changeling extradition, AJ's presidency, Celestia's secret, Henri Gourard's backstory) plus a set of design questions about Twilight's conditioning, AJ's role, and thematic ties | opening of the exchange
+  - the model | reframes the scope | names a genre progression (War to Politics to Revolutionary Epic) to structure the answer | start of the response
+  - the model | analyzes a character reveal | recasts Celestia's inaction as a deliberate sacrifice and traces how the reveal dismantles Twilight's need for her approval | early section, answering the conditioning question
+  - the model | analyzes a political arc | frames Applejack's path to the presidency around accountability and the fight over changeling citizenship | next section of the response
+  - the model | analyzes a secondary character's backstory | ties Henri Gourard's past as a reformed griffon supremacist to the fate of the changeling defectors | next section, answering the Henri question
+  - the model | analyzes a subplot's function | explains what the Aquileia campaign is meant to demonstrate about the republic versus the monarchy | next section, answering the anti-monarchy tie-in question
+  - the model | drafts an ending sequence | lays out the referendum, Applejack's presidency, and Twilight's post-Celestia role | later section of the response
+  - the model | drafts a closing scene | writes a dialogue-based epilogue at Sweet Apple Acres showing the burden of rule lifted | near the end of the response
+  - the model | adds a summarizing line | states that the political revolution mirrors the TwiJack relationship's shift from duty to partnership | closing line of the response
+- kept:
+  - note 4524 | the author's own words in this record | keeps the author's line about Celestia's retirement plan for Twilight, filed under the Twilight-breaking-from-Celestia subject
+  - note 4528 | the author's own words in this record | keeps the author's phrase about no one bearing a thousand years of rule, filed under the Rejecting-Destiny subject
+  - note 4527 | pasted whole from this reply | keeps the model's closing line equating the political revolution with the TwiJack relationship's shift, filed under the TwiJack subject
+  - note 4529 | pasted whole from this reply | keeps the model's bulleted breakdown of Twilight's de-conditioning, filed under the same Twilight-breaking-from-Celestia subject as note 4524
+- brought: The author brought a large ending-arc plot summary (white peace, changeling extradition, AJ's presidency, Celestia's hidden reason for stagnation, Henri Gourard's backstory) along with a cluster of open questions about how to connect Twilight's anxiety, AJ's role, and the republic's anti-monarchy theme to it.
+- loop: The author's plot summary and directorial questions prompted a thematic breakdown from the model, and the database kept two of the author's own phrasings as anchor notes under their subjects while also filing two verbatim passages from the model's answer under matching subject headers, so both the author's framing and the model's elaboration ended up preserved side by side in the plan.

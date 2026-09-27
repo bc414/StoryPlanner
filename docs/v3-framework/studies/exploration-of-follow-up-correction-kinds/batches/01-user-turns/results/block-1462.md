@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model treated Subject/Link as the fixed outer axis and only compared options for the second outer axis. The user wanted every arrangement of the four axes considered. | "Let's not assume subject and link are outer. I'm curious about all possible setups." | Stated flatly as a directive, softened by the user's curiosity, and followed by a hedged guess that every arrangement may be useful.
+- about: The user drops the model's assumption that Subject/Link is the outer axis and asks how many ways the four axes can be nested, and whether each arrangement is useful or some are inferior.

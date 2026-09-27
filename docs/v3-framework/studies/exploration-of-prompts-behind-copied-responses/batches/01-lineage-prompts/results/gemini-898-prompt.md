@@ -1,0 +1,10 @@
+- asks:
+  - propose and check | asks whether it's plausible that Twilight, ashamed of privately failing Celestia, would tell her friends she's shutting the school down for a different, more palatable reason (valuing their time) rather than admitting Celestia's rules made it useless | "maybe instead of saying... she says she shut it down because she valued her friends' time?"
+  - develop character beat | asks the model to consider/build on the idea that while the other four teachers were content once freed from strict rules, Applejack stayed privately unhappy because teaching the Elements of Harmony in a classroom still felt 'dishonest' to her | "Maybe the other 4 were happy... Applejack was still silently unhappy"
+- supplies:
+  - established plot point | Twilight's public, firm refusal to keep running the school with only one foreign student or only ponies | a couple sentences
+  - established plot point | Rainbow Dash's unilateral departure to learn to fly a plane and her secret Wonderbolts air-superiority training disguised as shows, meant to protect Equestria while keeping ponies innocent | a few sentences
+  - established canon detail | the 'by the book' teaching phase lasted only through School Daze parts 1 and 2, after which the teachers taught however they wanted | one sentence
+- shaping:
+- openness: Leans toward the answers it names, framing them as "maybe" hypotheses (Twilight's face-saving excuse to friends, Applejack's lingering private discontent) rather than leaving the question fully open.
+- subject: Working out why and how Twilight shut down the School of Friendship, and how her friends (especially Rainbow Dash and Applejack) reacted to or diverged from it

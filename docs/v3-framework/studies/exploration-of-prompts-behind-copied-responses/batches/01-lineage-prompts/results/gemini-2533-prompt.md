@@ -1,0 +1,11 @@
+- asks:
+  - interpretive question | asks whether the Storm King's "join or die" horde secretly functions to stop the Statthalters from looting the continent and using warlords as pawns | "is the Storm King's 'join or die' horde actually also a way to stop the Statthalters from looting the continent and playing them all for suckers?"
+  - speculative aside | raises whether the warlords are unaware of "changelings" because the Statthalters are disguised as other creatures | "Perhaps they don't even know about 'changelings' because the Statthalters are disguised as other creatures"
+  - comparative judgment | asks whether unity against external slavers is the primary or secondary motive of the horde compared to looting | "Would unity against external slavers be primary or secondary compared to looting?"
+  - confirmation/elaboration | asks the model to confirm or elaborate that this secondary unifying motive is what makes the horde structurally stronger than past warlord hordes | "Seems like secondary...it's something that makes the horde structurally stronger than any past warlord's horde?"
+  - review-and-synthesize request | asks the model to review the user's existing story plans and produce a synthesis incorporating the above ideas | "Please review my existing story plans and synthesize"
+- supplies:
+- shaping:
+  - produce an integrative synthesis rather than a standalone answer, tying the new hypothesis to material already established in the plans | "review my existing story plans and synthesize"
+- openness: The message leans toward an answer it names (unity against slavers as a secondary but structurally strengthening motive beneath looting) while also posing an open primary-vs-secondary question and asking the model to review and synthesize against existing plans to confirm it.
+- subject: Worldbuilding logic behind the Storm King's unifying horde, the Statthalters' exploitation of warlords via arms supply, and the concealment of changelings

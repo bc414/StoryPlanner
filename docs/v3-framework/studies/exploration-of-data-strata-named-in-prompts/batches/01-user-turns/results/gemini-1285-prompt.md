@@ -1,0 +1,4 @@
+- sources:
+  - my story plan | treat as the basis for the analysis; the tribe blocs and negotiation phases are to be read as they currently stand in it | the three blocs of tribes and the subsequent three phases of Tzinacatl negotiations that are currently in my story plan | referred-to
+- order:
+- about: The user asks the model to analyze the three tribe blocs and the three phases of Tzinacatl negotiations as they currently appear in their story plan.

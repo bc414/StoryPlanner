@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model cast the Aquileian move as passionate, well-meaning and out of touch with what it takes to get there, tied to wishful moral destinations. The user says Aquileians in the story dismantle rent seekers and stay individual, ego-driven and meritocratic rather than moving toward dignity or solidarity. | "Well actually, the Aquileians in my story dismantle the rent seekers but still stay individual and ego driven and meritocratic" | Offhand and tacked on at the end of a new question, as a restatement of the story's premise. It is not addressed to the model's earlier label and does not say it was wrong.
+- about: The user accepts Altman as the candidate who fits their values, then asks a new, broader question about why progressive figures like Hasan Piker act as they do. In doing so they restate what the Aquileians in their story are, which cuts against how the model had used the term.

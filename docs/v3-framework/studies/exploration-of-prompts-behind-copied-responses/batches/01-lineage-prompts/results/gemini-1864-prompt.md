@@ -1,0 +1,6 @@
+- asks:
+  - decide | asks which of two tool setups it should use to have an LLM reorganize its notes | "should I use Gemini website with just the notes json or should I use Notebook LM with the full context"
+- supplies:
+- shaping:
+- openness: asks for a choice between two named options — Gemini website with just the notes JSON, or NotebookLM with the full story-plan context indexed as a source.
+- subject: choosing which tool/workflow to use for having an LLM reorganize story-planning notes

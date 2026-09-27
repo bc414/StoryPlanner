@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the "inferiority complex" framing for Chrysalis is still accurate or needed, or whether her grievance can rest on the Acornage assimilation and the Griffenheim aristocratic bullying alone.

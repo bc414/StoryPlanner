@@ -24,6 +24,18 @@ namespace StoryPlanner.DocIntegrity;
 ///
 /// Where the files a section needs are absent, the section says absent, never empty. Whether a
 /// challenging entry is resolved is not derived: the record has no entry kind for it.
+///
+/// Every section reads through <see cref="Matches"/>, which resolves an artifact's pattern
+/// against the files on disk under one directory. Since <c>&lt;container&gt;</c> is never
+/// substituted, every batch-scoped class (definition, index, items, results) shares the same
+/// fixed-prefix directory regardless of which study asks for it, so <see cref="Build"/> walks
+/// that directory, and every study-scoped one, exactly once per render and caches the listing
+/// (<see cref="WalkResult"/>, <see cref="Walk"/>), rather than re-walking per artifact per study
+/// (2026-09-27). The walk itself is bounded the same way: it never descends into an
+/// <c>attempts</c> folder (the runner's per-call stream logs; no artifact class lives there) and
+/// it does not enumerate inside an <c>items</c> or <c>results</c> folder (directory classes with
+/// no file class inside), so a study with tens of thousands of attempt and item files costs the
+/// same to list as one with none.
 /// </summary>
 public static class StateBuilder
 {
@@ -75,18 +87,24 @@ public static class StateBuilder
         if (forced)
             sb.Append("> **UNVALIDATED** — written with `--force` while `check` still fails. Not authoritative.\n\n");
 
-        var questions = ReadQuestions(repoRoot, doc, out var questionsNote);
-        Studies(sb, repoRoot, doc);
-        Iterations(sb, repoRoot, doc);
-        PipelineDirections(sb, repoRoot, doc);
-        QuestionsSection(sb, repoRoot, doc, questions, questionsNote);
-        Hypotheses(sb, repoRoot, doc);
+        // One walk cache for the whole build (d-2026-09-27): every artifact class that resolves
+        // to the same fixed-prefix directory — which, for the batch-scoped classes, is every one
+        // of them, since <container> never gets substituted — shares that directory's single
+        // bounded walk instead of re-walking it once per study. See Walk.
+        var cache = new Dictionary<string, WalkResult>(StringComparer.Ordinal);
+
+        var questions = ReadQuestions(repoRoot, doc, cache, out var questionsNote);
+        Studies(sb, repoRoot, doc, cache);
+        Iterations(sb, repoRoot, doc, cache);
+        PipelineDirections(sb, repoRoot, doc, cache);
+        QuestionsSection(sb, repoRoot, doc, questions, questionsNote, cache);
+        Hypotheses(sb, repoRoot, doc, cache);
         return sb.ToString();
     }
 
     // ---- studies ----
 
-    static void Studies(StringBuilder sb, string repoRoot, SkillDocument doc)
+    static void Studies(StringBuilder sb, string repoRoot, SkillDocument doc, Dictionary<string, WalkResult> cache)
     {
         sb.Append("## Studies\n\n");
         var row = doc.Artifact(WellKnown.Studies);
@@ -135,19 +153,19 @@ public static class StateBuilder
             foreach (var a in scoped)
             {
                 ArtifactPath.TryParse(a.Path, out var ap, out _);
-                var count = CountMatches(repoRoot, ap!, folder);
+                var count = CountMatches(repoRoot, ap!, folder, cache);
                 present[a.Id] = count;
                 if (count == 0) continue;
                 any = true;
                 sb.Append($" {a.Id}");
                 if (count > 1) sb.Append($" ({count})");
                 if (a.Id == WellKnown.Candidates)
-                    foreach (var file in Matches(repoRoot, ap!, folder))
+                    foreach (var file in Matches(repoRoot, ap!, folder, cache))
                         sb.Append($" [{CandidateCounts(file)}]");
             }
             sb.Append(any ? "\n" : " none\n");
 
-            Batches(sb, repoRoot, doc, folder);
+            Batches(sb, repoRoot, doc, folder, cache);
 
             string? furthest = null;
             foreach (var p in processes)
@@ -172,7 +190,7 @@ public static class StateBuilder
     /// batches, the same way a study's are shown. An iteration is not in the registry; its
     /// existence and ordinal are read from the folder name.
     /// </summary>
-    static void Iterations(StringBuilder sb, string repoRoot, SkillDocument doc)
+    static void Iterations(StringBuilder sb, string repoRoot, SkillDocument doc, Dictionary<string, WalkResult> cache)
     {
         sb.Append("## Iterations\n\n");
         var dir = Path.Combine(repoRoot, "docs", "v3-framework", "iterations");
@@ -188,7 +206,7 @@ public static class StateBuilder
             sb.Append($"### {slug}\n\n");
             var (hypothesis, ordinal) = IterationParts(slug!);
             sb.Append($"- of hypothesis: {hypothesis ?? "?"} · iteration: {(ordinal?.ToString() ?? "?")}\n");
-            Batches(sb, repoRoot, doc, slug!);
+            Batches(sb, repoRoot, doc, slug!, cache);
             sb.Append('\n');
         }
     }
@@ -203,7 +221,7 @@ public static class StateBuilder
     /// marked where an accepting calibration beside it carries that hash; the last accepted
     /// version and the model the batches under it ran; and the folder's calibration batches.
     /// </summary>
-    static void PipelineDirections(StringBuilder sb, string repoRoot, SkillDocument doc)
+    static void PipelineDirections(StringBuilder sb, string repoRoot, SkillDocument doc, Dictionary<string, WalkResult> cache)
     {
         sb.Append("## Pipeline directions\n\n");
         foreach (var set in PipelineSets)
@@ -237,7 +255,7 @@ public static class StateBuilder
                     sb.Append($"- accepted: directions-{current.N} · model: {(models.Count == 0 ? "?" : string.Join(" ", models))}\n");
                 }
             }
-            Batches(sb, repoRoot, doc, set);
+            Batches(sb, repoRoot, doc, set, cache);
             sb.Append('\n');
         }
     }
@@ -264,11 +282,11 @@ public static class StateBuilder
     }
 
     /// <summary>The study's batches from their definitions: kind, directions version, executed (a calls file), tallied.</summary>
-    static void Batches(StringBuilder sb, string repoRoot, SkillDocument doc, string folder)
+    static void Batches(StringBuilder sb, string repoRoot, SkillDocument doc, string folder, Dictionary<string, WalkResult> cache)
     {
         var row = doc.Artifact(WellKnown.Definition);
         if (row is null || !ArtifactPath.TryParse(row.Path, out var ap, out _)) return;
-        var definitions = Matches(repoRoot, ap!, folder);
+        var definitions = Matches(repoRoot, ap!, folder, cache);
         if (definitions.Count == 0) { sb.Append("- batches: none\n"); return; }
         sb.Append("- batches:");
         foreach (var path in definitions)
@@ -324,31 +342,87 @@ public static class StateBuilder
 
     // ---- files on disk matching an artifact's pattern ----
 
+    /// <summary>
+    /// One directory's bounded listing: every file and directory reachable from it without
+    /// descending into an <c>attempts</c> folder — the runner's per-call stream logs; no
+    /// artifact class lives there (confirmed against SKILL.md § Artifacts and the patterns in
+    /// <see cref="ArtifactPath"/>) — and without enumerating inside an <c>items</c> or
+    /// <c>results</c> folder, the two directory classes, since no file class lives inside
+    /// either. Their own presence and non-emptiness is decided by the regex match in
+    /// <see cref="Matches"/>, not during the walk, so listing them here needs no more than
+    /// finding them.
+    /// </summary>
+    public sealed record WalkResult(IReadOnlyList<string> Files, IReadOnlyList<string> Dirs);
+
+    static WalkResult Walk(string absoluteDir)
+    {
+        var files = new List<string>();
+        var dirs = new List<string>();
+
+        void Visit(string dir)
+        {
+            IEnumerable<string> subdirs;
+            try { subdirs = Directory.EnumerateDirectories(dir); }
+            catch (IOException) { return; }
+            catch (UnauthorizedAccessException) { return; }
+
+            foreach (var sub in subdirs)
+            {
+                var name = Path.GetFileName(sub);
+                if (string.Equals(name, "attempts", StringComparison.OrdinalIgnoreCase)) continue;
+                dirs.Add(sub);
+                if (string.Equals(name, "items", StringComparison.OrdinalIgnoreCase) ||
+                    string.Equals(name, "results", StringComparison.OrdinalIgnoreCase)) continue;
+                Visit(sub);
+            }
+            try { files.AddRange(Directory.EnumerateFiles(dir)); }
+            catch (IOException) { }
+            catch (UnauthorizedAccessException) { }
+        }
+
+        Visit(absoluteDir);
+        return new WalkResult(files, dirs);
+    }
+
+    /// <summary>
+    /// Every file on disk an artifact's pattern matches. A fresh, one-call cache: callers inside
+    /// one <see cref="Build"/> use the cache-carrying overload below instead, so the same root
+    /// (which every batch-scoped class shares, since <c>&lt;container&gt;</c> is never
+    /// substituted) is walked once for the whole render rather than once per call.
+    /// </summary>
     public static IReadOnlyList<string> Matches(string repoRoot, ArtifactPath path, string? studyFolder)
+        => Matches(repoRoot, path, studyFolder, new Dictionary<string, WalkResult>(StringComparer.Ordinal));
+
+    static IReadOnlyList<string> Matches(string repoRoot, ArtifactPath path, string? studyFolder, Dictionary<string, WalkResult> cache)
     {
         if (path.NoSinglePattern) return [];
         var prefix = path.FixedPrefix(studyFolder);
         var dir = prefix.Length == 0 ? repoRoot : Path.Combine(repoRoot, prefix.Replace('/', Path.DirectorySeparatorChar));
         if (!Directory.Exists(dir)) return [];
 
+        if (!cache.TryGetValue(dir, out var walk))
+        {
+            walk = Walk(dir);
+            cache[dir] = walk;
+        }
+
         var regex = path.ToRegex(studyFolder);
-        var entries = path.IsDirectory
-            ? Directory.GetDirectories(dir, "*", SearchOption.AllDirectories)
-                .Where(d => Directory.EnumerateFiles(d, "*", SearchOption.AllDirectories).Any())
-            : Directory.GetFiles(dir, "*", SearchOption.AllDirectories);
+        IEnumerable<string> entries = path.IsDirectory ? walk.Dirs : walk.Files;
+        entries = entries.Where(e => regex.IsMatch(Path.GetRelativePath(repoRoot, e).Replace('\\', '/')));
+        if (path.IsDirectory)
+            entries = entries.Where(d => Directory.EnumerateFileSystemEntries(d, "*", SearchOption.AllDirectories).Any());
 
         return entries
-            .Where(e => regex.IsMatch(Path.GetRelativePath(repoRoot, e).Replace('\\', '/')))
             .OrderBy(e => e, StringComparer.Ordinal)
             .ToList();
     }
 
-    static int CountMatches(string repoRoot, ArtifactPath path, string? studyFolder)
-        => Matches(repoRoot, path, studyFolder).Count;
+    static int CountMatches(string repoRoot, ArtifactPath path, string? studyFolder, Dictionary<string, WalkResult> cache)
+        => Matches(repoRoot, path, studyFolder, cache).Count;
 
     // ---- questions ----
 
-    static IReadOnlyList<Question> ReadQuestions(string repoRoot, SkillDocument doc, out string? note)
+    static IReadOnlyList<Question> ReadQuestions(string repoRoot, SkillDocument doc, Dictionary<string, WalkResult> cache, out string? note)
     {
         note = null;
         var row = doc.Artifact(WellKnown.QuestionList);
@@ -357,7 +431,7 @@ public static class StateBuilder
             note = $"No `{WellKnown.QuestionList}` artifact row with a parseable path; the list cannot be located.";
             return [];
         }
-        var files = Matches(repoRoot, path!, null);
+        var files = Matches(repoRoot, path!, null, cache);
         if (files.Count == 0)
         {
             note = $"Question list absent: nothing matches `{path!.Pattern}`.";
@@ -402,13 +476,13 @@ public static class StateBuilder
         return result;
     }
 
-    static void QuestionsSection(StringBuilder sb, string repoRoot, SkillDocument doc, IReadOnlyList<Question> questions, string? note)
+    static void QuestionsSection(StringBuilder sb, string repoRoot, SkillDocument doc, IReadOnlyList<Question> questions, string? note, Dictionary<string, WalkResult> cache)
     {
         sb.Append("## Questions\n\n");
         if (note is not null) { sb.Append(note).Append("\n\n"); if (questions.Count == 0) return; }
 
-        var versions = ReadDirections(repoRoot, doc);
-        var verifications = ReadVerifications(repoRoot, doc);
+        var versions = ReadDirections(repoRoot, doc, cache);
+        var verifications = ReadVerifications(repoRoot, doc, cache);
 
         var open = questions.Where(q => q.IsOpen).ToList();
         sb.Append($"{open.Count} open, {questions.Count - open.Count} withdrawn.\n\n");
@@ -431,22 +505,23 @@ public static class StateBuilder
     /// frontmatter names; calibrated when a calibration file beside it, or one a definition
     /// names, is titled with its hash and accepts it.
     /// </summary>
-    public static IReadOnlyList<DirectionsVersion> ReadDirections(string repoRoot, SkillDocument doc)
+    public static IReadOnlyList<DirectionsVersion> ReadDirections(string repoRoot, SkillDocument doc, Dictionary<string, WalkResult>? cache = null)
     {
+        cache ??= new Dictionary<string, WalkResult>(StringComparer.Ordinal);
         var row = doc.Artifact(WellKnown.Directions);
         var calRow = doc.Artifact(WellKnown.Calibration);
         if (row is null || !ArtifactPath.TryParse(row.Path, out var path, out _)) return [];
 
         var accepted = new HashSet<string>(StringComparer.Ordinal); // hashes (possibly prefixes) with an accepting calibration
         if (calRow is not null && ArtifactPath.TryParse(calRow.Path, out var calPath, out _))
-            foreach (var file in Matches(repoRoot, calPath!, null))
+            foreach (var file in Matches(repoRoot, calPath!, null, cache))
             {
                 var cal = CalibrationFile.Read(file);
                 if (cal.TitleParsed && cal.Accepted) accepted.Add(cal.Hash!);
             }
         // The pipeline directions' calibrations, reached only by reference from definitions.
         if (doc.Artifact(WellKnown.Definition) is { } defRow && ArtifactPath.TryParse(defRow.Path, out var defPath, out _))
-            foreach (var file in Matches(repoRoot, defPath!, null))
+            foreach (var file in Matches(repoRoot, defPath!, null, cache))
             {
                 DefinitionFile d;
                 try { d = DefinitionFile.Read(file); } catch (IOException) { continue; }
@@ -457,7 +532,7 @@ public static class StateBuilder
                 }
             }
 
-        var files = Matches(repoRoot, path!, null).ToList();
+        var files = Matches(repoRoot, path!, null, cache).ToList();
         foreach (var set in PipelineSets)
         {
             var dir = Path.Combine(repoRoot, "docs", "v3-framework", PipelineContainer, set);
@@ -477,12 +552,12 @@ public static class StateBuilder
     sealed record Verification(string Study, IReadOnlyList<string> Questions);
 
     /// <summary>A question is answered when a standing finding names it (d-2026-09-09-16): read from every findings file the table locates.</summary>
-    static IReadOnlyList<Verification> ReadVerifications(string repoRoot, SkillDocument doc)
+    static IReadOnlyList<Verification> ReadVerifications(string repoRoot, SkillDocument doc, Dictionary<string, WalkResult> cache)
     {
         var row = doc.Artifact(WellKnown.Findings);
         if (row is null || !ArtifactPath.TryParse(row.Path, out var path, out _)) return [];
         var result = new List<Verification>();
-        foreach (var file in Matches(repoRoot, path!, null))
+        foreach (var file in Matches(repoRoot, path!, null, cache))
         {
             var questions = FindingsChecker.AnsweredQuestions(File.ReadAllText(file));
             var study = Path.GetFileName(Path.GetDirectoryName(file)!)!;
@@ -515,7 +590,7 @@ public static class StateBuilder
 
     // ---- hypotheses ----
 
-    static void Hypotheses(StringBuilder sb, string repoRoot, SkillDocument doc)
+    static void Hypotheses(StringBuilder sb, string repoRoot, SkillDocument doc, Dictionary<string, WalkResult> cache)
     {
         sb.Append("## Hypotheses\n\n");
         var row = doc.Artifact(WellKnown.HypothesisRecord) ?? doc.Artifacts.FirstOrDefault(a => WellKnown.HypothesisArtifacts.Contains(a.Id));
@@ -531,7 +606,7 @@ public static class StateBuilder
             return;
         }
 
-        var files = Matches(repoRoot, path, null);
+        var files = Matches(repoRoot, path, null, cache);
         if (files.Count == 0) { sb.Append($"No hypothesis files under `{prefix}/`.\n\n"); return; }
 
         sb.Append("Nothing here is authored: status and baselined are read from the entries below the last " +

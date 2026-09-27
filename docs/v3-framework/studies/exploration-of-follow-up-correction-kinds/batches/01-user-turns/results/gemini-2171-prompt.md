@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | How Star Energy gets the phosphate-rich soil: the model had the volunteers strip-mining the topsoil off farms and sterilizing them, whereas the user says the dirt comes from backup trenches dug across the farms and sent to the munitions factory | "aren't strip mining farms but they are digging backup trenches" | offered as a hypothetical alternative ("How about if..."), replacing the model's premise without saying it was wrong, and tied to AJ's speech as the reason
+- about: The user swaps the model's strip-mining premise for a trench-digging one, so that AJ's line about digging trenches is literal and Comet Shine wrongly assumes she is drawing on Fleur's chemistry when she means Honesty.

@@ -1,0 +1,4 @@
+- sources:
+  - regular Google ai pro with GitHub import | treated as already sufficient for development, so the local-model coding assistant the model proposed is not needed | more than enough for development | referred-to
+- order:
+- about: The user turns down the offered local coding-assistant setup because their existing Google AI Pro with GitHub import already covers development, and asks a follow-up question about how many parameters Google's and Anthropic's models have.

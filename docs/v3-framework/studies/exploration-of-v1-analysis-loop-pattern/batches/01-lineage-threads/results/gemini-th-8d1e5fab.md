@@ -1,0 +1,7 @@
+- steps:
+  - the author | continuation cue | a two-word request for more examples, with no new material of its own | opening the exchange, no context restated
+  - the model | catalog build | seven numbered pairings, each restating a known MLP show trope as a 'Doylist' fandom complaint and then restating the author's own db.md worldbuilding as the 'Watsonian' fix for it | main body of the response, item by item through Alicorn immortality, Twilight's early neuroses, the Wonderbolts, 'blank flank' slang, the Canterlot Wedding ending, the cider-machine fable, and Manehattan clothing
+  - the model | gap-flagging | three unresolved show elements offered as open questions for further materialist grounding: the Sonic Rainboom's mass cutie-mark effect, the Everfree Forest's unnatural ecology, and Tartarus as a containment facility | closing section headed 'What is Still Outstanding?'
+- kept:
+- brought: The author brought only a short prompt asking the model to continue surfacing more items of a kind it had evidently been generating already, without supplying any new plan text, question, or draft.
+- loop: The author's bare continuation cue led the model to mine the existing lore document for further examples and to surface unresolved gaps as new questions, but none of this catalog or its open questions was distilled back into the planning database in this stretch.

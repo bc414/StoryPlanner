@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model put competitive, profit-driven gig-economy weather-making (Storm Bonds, pegasi competing for the most devastating storm) into the wartime setting, whereas the plan holds the war as a commanded effort with no competition | There shouldn't be any competition during the war. The war has to be a commanded effort | flat statement of a constraint, stated as a rule of the story
+  - reading of the plan | The model placed the local, craft-based artisanal weather system inside the war; the user says it belongs after the white peace, when pegasi refuse to rebuild a central factory and want local weather creation | The artisanry can come after white peace | flat, given with a brief reason about pegasi motives and a redirect of where the idea belongs in the timeline
+- about: The user rejects the wartime market/competition framing of the proposed weather system, restricts it to a post-white-peace setting, and supplies the motive (pegasi rejecting a rebuilt central factory) for local weather creation.

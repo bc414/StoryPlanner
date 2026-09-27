@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's scenario has the detection spell reach the regiment only after the invasion, leaving an assimilated infiltrator in the ranks until then. The user says a rational army that knew its enemy would already have applied the spell across the army, so there would be no infiltrators in the ranks at all. | "Equestrians were not that incompetent and applied their detection spells across the army like a rational army would do" | Put as a hypothetical question about consequences. The disagreement is implied by the alternative it proposes, not stated as an objection, and it comes with no reproach or apology.
+- about: The user asks what would follow for the story if it dropped the infiltrator-in-the-ranks premise the model had just built on, and had a competent Equestrian army screen for changelings beforehand and lose through inexperience and a more mechanized enemy.

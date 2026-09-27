@@ -1,0 +1,11 @@
+- asks:
+  - question | asks whether the new no-unsolicited-synthesis rule should be set up as one of the framework's analytical lenses | "should this directive be one of the analytical lenses?"
+  - diagnostic claim | states a belief about why historical-allegory content appeared in the lore bible (user-prompted, not app-initiated) as the basis for the fix | "I believe the historical allegory stuff in my lore bible were a result of me asking"
+  - revise/draft | instructs the model to discard V8's direction, restart from V7, and produce a new V9 incorporating the fix | "Go back to using V7 as a baseline and craft a V9"
+- supplies:
+- shaping:
+  - use V7, not V8, as the starting point for the new draft | "Go back to using V7 as a baseline"
+  - output should be a distinct new version, labeled V9 | "craft a V9"
+  - the rule to bake in: real-world/historical synthesis should occur only when relevant or explicitly requested, not by default | "Only when relevant, or when I ask"
+- openness: Leans toward an answer it already names — that V8 overdoes real-world synthesis and V7 is the better baseline — while still posing one open question about whether the new rule should be formalized as an analytical lens.
+- subject: Revising a versioned prompt/framework (V8 to V9) for a fiction-planning AI so it only draws real-world/historical parallels when relevant or requested

@@ -1,0 +1,5 @@
+- sources:
+  - some earlier analysis | the author's wording swap ("historical materialism" to "materialist historicist world building") was taken from it; it is the origin of the replacement terms, not something to be checked here | tried to replace references to "historical materialism" with "materialist historicist world building" from some earlier analysis | referred-to
+  - my world building | the author's own material, offered tentatively for the model to assess: it seems to combine humanist-idealist and historical-materialist elements, and the model is asked to confirm or refine that | It seems like my world building takes elements from both | referred-to
+- order:
+- about: The author distances themselves from Marx's cynicism, notes they earlier reworded \"historical materialism\" as \"materialist historicist world building\", and asks whether their worldbuilding blends humanist-idealist and historical-materialist elements.

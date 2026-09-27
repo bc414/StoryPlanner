@@ -1,0 +1,6 @@
+- sources:
+  - My lore on Aquileia | treat as the established base: Discret hired Coltbert to empower the petty bourgeois to spite Verany, and the new ideas are built on top of it | My lore on Aquileia mentions how Discret hired Coltbert | referred-to
+  - Skyfall Marks (fiat currency already existing in the world) | a fact of the setting the model should take into account when placing fiat currency and war bonds | Also note that fiat currency exists in the world already | first-named
+  - the specific OC idea from the model's previous turn | set aside for now, not to be used in this discussion | Let's forget about a specific OC for now | referred-to
+- order:
+- about: The user drops the specific-OC suggestion and, building on their Aquileia lore and the existing Skyfall Marks, floats provisional ideas about Coltbert, fiat currency and war bonds, then asks whether Verany or Coltbert should originate war bonds and whether imperial or feudal states would run on a strict gold standard.

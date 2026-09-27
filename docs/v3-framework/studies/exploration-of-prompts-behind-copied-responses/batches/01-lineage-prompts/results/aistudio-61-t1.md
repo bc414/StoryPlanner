@@ -1,0 +1,11 @@
+- asks:
+  - propose/consider | asks the model to consider making the fund concept an in-universe institution implemented post-war by EEEE, Star Energy, and the Tzinacatl tribes as a continuation of war bonds | "Maybe this should actually be an in-universe thing that EEEE, Star Energy, and the medicinal Tzinacatl tribes implement post war"
+  - propose/consider | asks the model to consider an alternative where this fund structure was the actual pre-war organization of Star Energy Corporation and Tall Tale's economy, with Comet Shine merely being bad at marketing | "Or, what if this is the actual structure of Star Energy Corporation and Tall Tale's economy pre-command economy?"
+  - choose | asks whether Star Energy should really own all the industrial infrastructure, or only appear to because of a command economy residents voted for ahead of war | "Should they actual own all the industrial infrastructure? Or only look that way due to the command economy"
+- supplies:
+  - document | an attached document referenced but not captured in the record | placeholder only, contents unknown
+  - idea pitch | a detailed real-world concept for a "harmonic capitalism fund" meant to insulate middle-class savings from stock-market speculation, funding vetted non-rent-seeking startups with steady returns, capped individual investment, and a non-windfall salaried employee culture, contrasted with a "Skyfall style" of rent-seekers and grifters | several paragraphs
+- shaping:
+  - states as a requirement that Star Energy Corporation must be perceived by Applejack as a brutal monopoly owning the whole city of Tall Tale, framing the ownership question that follows | "I need Star Energy Corporation to be perceived by Applejack like a brutal monopoly that owns the whole city of Tall Tale"
+- openness: Offers two named alternative in-universe originations of the fund concept (post-war continuation of war bonds vs. the actual pre-war structure of Star Energy) and closes with an explicit either/or question about whether ownership is real or merely apparent, all under a stated constraint that Star Energy must read to Applejack as a monopoly.
+- subject: Integrating a "harmonic capitalism fund" concept into the story's Star Energy Corporation and Tall Tale's economy

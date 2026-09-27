@@ -1,0 +1,11 @@
+- steps:
+  - author | thematic synthesis | reframes the episode's conflict from anti-technology to anti-grift, links it to real-world 2022-2026 AI/labor panic and in-world factions | opening prompt (3004)
+  - model | validation and elaboration | structured breakdown of the reframing: misdiagnosed enemy, luddite-extinction risk, 'reveal the roots' permission structure, redefined integrity | response to 3004
+  - author | request for expanded taxonomy | asks for concrete forms of AI grift (plain-faced vs subtle) plus other harms: exploitation, broken society, eroded asset specificity/dignity | prompt 3005
+  - model | taxonomy construction | delineates consumer-facing grift vs institutional/subtle exploitation, defines liability/intent boundary between honest use and grift, defends traditionalist dignity, cites a supporting source | response to 3005
+  - author | request for historical analogy | asks how this compares to calculators and to intermediate technologies like Google/Wikipedia, and if there's more to add | prompt 3006
+  - model | historical trajectory analysis | frames calculators, search engines, and LLMs as three successive stages of offloading cognitive labor, tied to a Fabula/Syuzhet distinction, ending in a 'Senior Orchestrator' formulation | response to 3006
+- kept:
+  - note 4500 | pasted from this reply inside the author's own framing | keeps the model's three-stage calculator/search-engine/LLM accelerant progression, recast as an in-world allegory (Equestria/Celestia rejecting calculators for 'honest' hand-math) plus the poseur-vs-asset-specificity point, filed under the Luna Nova Rifle subject
+- brought: The author brought a personal thematic synthesis reframing the story's central conflict as being about grift and extraction rather than technology itself, drawn from their own reading of the real-world AI/labor debate.
+- loop: The author repeatedly pushes the model to widen and sharpen a theme they arrived with — from a raw synthesis, to a request for a grift taxonomy, to a request for historical analogy — and the plan keeps only the calculator/search/LLM analogy, folded into the author's own in-world framing, as material for the Luna Nova Rifle allegory.

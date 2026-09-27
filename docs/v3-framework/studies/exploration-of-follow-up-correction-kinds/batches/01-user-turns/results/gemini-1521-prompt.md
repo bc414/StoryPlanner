@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the King's notes as unbacked fiat paper that rots through inflation, when the notes are promised as redeemable one-for-one for a gold bit at the royal treasury | Discret's notes promise 1 note can be exchanged for 1 gold bit | stated flatly as a bare fact with no reproach, and the correction is implied by the request to redo the analysis
+- about: The user supplies the notes' gold convertibility, which contradicts the model's fiat-currency framing, and asks for the vino-standard analysis to be redone in light of it.

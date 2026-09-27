@@ -84,8 +84,10 @@ public class WriteHookTests
     // ---- outcome ----
 
     [Fact]
-    public void A_governed_write_that_checks_clean_is_silent_and_regenerates_both_generated_files()
+    public void A_governed_write_that_checks_clean_is_silent_and_regenerates_map_md_only()
     {
+        // state.md is expensive (a full walk of the study folders) and is no longer rebuilt by
+        // the hook (2026-09-27): only map.md follows a passing write; state.md waits for `render`.
         using var f = new MapFixture();
         var mapPath = Path.Combine(f.SkillFolder, Render.MapFile);
         var statePath = Path.Combine(f.SkillFolder, Render.StateFile);
@@ -96,9 +98,9 @@ public class WriteHookTests
         Assert.Equal(HookOutcomeKind.Silent, outcome.Kind);
         Assert.Equal(WriteHook.Silent, outcome.ExitCode);
         Assert.Equal("", outcome.Message);
-        Assert.Equal([mapPath, statePath], outcome.Regenerated);
+        Assert.Equal([mapPath], outcome.Regenerated);
         Assert.True(File.Exists(mapPath));
-        Assert.Contains("## Studies", File.ReadAllText(statePath));
+        Assert.False(File.Exists(statePath));
     }
 
     [Fact]
@@ -126,16 +128,18 @@ public class WriteHookTests
     }
 
     [Fact]
-    public void A_governed_file_write_that_passes_regenerates_the_governing_folder_s_files()
+    public void A_governed_file_write_that_passes_regenerates_the_governing_folder_s_map_only()
     {
         using var f = new MapFixture().WithStateTree();
         Directory.CreateDirectory(Path.Combine(f.RepoRoot, ".git"));
+        var mapPath = Path.Combine(f.SkillFolder, Render.MapFile);
         var statePath = Path.Combine(f.SkillFolder, Render.StateFile);
 
         var outcome = WriteHook.Run(EditPayload(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md")));
         Assert.Equal(HookOutcomeKind.Silent, outcome.Kind);
-        Assert.Contains(statePath, outcome.Regenerated);
-        Assert.Contains($"### {MapFixture.Study}", File.ReadAllText(statePath));
+        Assert.Contains(mapPath, outcome.Regenerated);
+        Assert.DoesNotContain(statePath, outcome.Regenerated);
+        Assert.False(File.Exists(statePath));
     }
 
     [Fact]

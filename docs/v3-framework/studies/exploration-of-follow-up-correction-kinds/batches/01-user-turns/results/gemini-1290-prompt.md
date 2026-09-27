@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the Republic as an existing formal political entity that the War Bonds and pledges are issued under; in the story there is no formal Republic yet and Celestia remains princess on paper | there is no formal notion of a Republic yet | flat statement of clarification, opened with 'To clarify', with the actual state of affairs given as reason
+  - reading of the plan | The model framed Applejack's honest pledges as a pragmatic diplomatic pitch on behalf of an existing state, missing that in the plan they are her unknowingly exercising sovereignty in the power vacuum left by a statue-like Celestia | Applejack's honesty and pledges are actually her exerting sovereignty without her knowing it | stated flatly as a re-framing of what the scene means, without complaint
+- about: The user corrects the model's assumption of an existing Republic by restating the political situation (Celestia nominally ruling, Applejack and Rarity filling the void) and recasting Applejack's pledges as unwitting sovereignty.

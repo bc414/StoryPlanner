@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn opens a fresh request for an analysis of two scenes, with the scenes themselves not present in the turn, and does not say anything is wrong with the model's preceding scene breakdown.

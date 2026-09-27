@@ -1,0 +1,5 @@
+- sources:
+  - this interpretation of MLP lore | the frame to analyze from: the model is to read the Republican Pact through the interpretation built so far in the conversation, taking it as the basis while adopting an outsider's view | If you were an outsider looking at this interpretation of MLP lore | referred-to
+  - the past eras | the baseline to contrast the 1011 ALB Republican Pact against, to find what differs structurally | different from the past eras | referred-to
+- order:
+- about: The user asks the model to take an outsider's view of the lore interpretation developed so far and explain what makes the 1011 ALB Republican Pact structurally different from earlier eras, and why world peace and the end of feudalism and rugged individualism are possible in it.

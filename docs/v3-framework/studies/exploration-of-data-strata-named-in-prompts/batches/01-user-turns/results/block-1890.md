@@ -1,0 +1,4 @@
+- sources:
+  - Banking entry (Category: SocietalDifferences), Notes 0 to 4 | material pasted in for the model to look at and decide where in the plan it belongs; treated as the author's own content to be sorted, not something to check or doubt | Where should these notes go? It has some ontology but also comparisons. Specific plot points? | first-named
+- order:
+- about: The user pastes their Banking entry, a set of five notes on gold standard, fiat and trust in different nations, and asks the model where in the planning structure it should be filed, whether as ontology, comparison or plot points.

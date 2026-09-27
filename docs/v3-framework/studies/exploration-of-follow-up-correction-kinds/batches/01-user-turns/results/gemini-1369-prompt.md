@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's account of Kemerskai's marriage as a wife who leaves over the revolution and is then reunited. The user says the plan's version, 35 years without time for her, is the grimmer and better one. | more grimdark than her divorcing him over the revolution | hedged as a personal feeling ('I feel like') and put as a comparison, with no explicit statement that the model was wrong
+  - fact of the world | The model's parallel for Applejack, that she reconciled with her parents and the contrast is Kemerskai's patricide. The user gives a different history: her parents saved her from stagnation, she resented them for it, and she then prepared a backlash. | her parents saved her from stagnation and she resented them for it | offered as a replacement parallel, framed as 'more thematically resonant' and stated plainly without a reason beyond that
+- about: The user pushes back on the model's version of Kemerskai's marriage and of the Applejack parallel, and substitutes their own versions of both, judged grimmer and more thematically resonant.

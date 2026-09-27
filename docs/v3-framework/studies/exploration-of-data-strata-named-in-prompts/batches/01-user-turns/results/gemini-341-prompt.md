@@ -1,0 +1,7 @@
+- sources:
+  - the wiki page for Stalliongrad (Equestria at War fandom wiki link) | use as the lore to connect with the story's themes, drawing on how the nation was formed and what its actual government is like | Here is the wiki page for Stalliongrad. Can you connect the lore in the wiki with my story's themes? | first-named
+  - my story's themes | the framework the wiki lore is to be connected to | connect the lore in the wiki with my story's themes | referred-to
+  - Nazi Germany and Soviet Union total war | historical analogy the author gives for how the Stalliongrad-Equestria alliance and its heavy losses should play out | Like the total war between Nazi Germany and the Soviet Union. | first-named
+  - the author's planned plot for Stalliongrad joining Equestria against the changelings | the author's own stated plan, given as the direction for the story that the lore should fit | They will join Equestria against the changelings for survival, stabilizing the northern front | first-named
+- order:
+- about: The user shares a wiki page for Stalliongrad and asks the model to link its lore (origins and actual government) to the story's themes, while stating the planned plot of Stalliongrad allying with Equestria against the changelings in a costly war modeled on the Nazi-Soviet conflict.

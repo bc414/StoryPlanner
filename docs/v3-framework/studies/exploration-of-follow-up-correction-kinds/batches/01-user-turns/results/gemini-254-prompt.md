@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates and agrees with the model's two-part thematic framing and Chrysalis's exit logic, adds their own account of why she had already lost the war, and then asks a new question about whether her Griffon-inferiority motive cheapens her as a visionary tyrant.

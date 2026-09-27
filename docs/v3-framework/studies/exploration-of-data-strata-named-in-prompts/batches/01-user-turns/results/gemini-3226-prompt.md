@@ -1,0 +1,4 @@
+- sources:
+  - The YouTube link (the Westwood meta narrative parody video) | the thing the model is asked to explain the context of; the subject of the question, to be identified and placed historically | Https://m.youtube.com/watch?v=v9nyCRljsX8 ; What was the context behind this Westwood meta narrative parody | first-named
+- order:
+- about: The user shares a video link and asks the model to explain the context of the Westwood parody in it, and to confirm or correct their guess about the order of EA's acquisition of Westwood and the making of Renegade.

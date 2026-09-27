@@ -1,0 +1,4 @@
+- sources:
+  - my actual story plans | treat as the authoritative material; the model is to read/review it before refining, in place of the invented version it just gave | Please review my actual story plans | referred-to
+- order:
+- about: The user asks the model to go read their real story plans and then rework the Synovial portions, implicitly rejecting the model's previous unsupported version.

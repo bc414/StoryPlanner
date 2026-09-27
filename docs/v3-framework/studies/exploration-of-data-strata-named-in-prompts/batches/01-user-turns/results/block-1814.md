@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how Anthropic fits into the open-weight, open-source and commons-compute landscape just laid out, without pointing the model at any body of material to draw on.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of the character development of Henri Gourard, without pointing at any material to draw on or avoid.

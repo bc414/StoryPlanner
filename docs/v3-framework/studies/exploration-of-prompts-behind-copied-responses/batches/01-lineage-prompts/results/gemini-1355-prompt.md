@@ -1,0 +1,11 @@
+- asks:
+  - revise | remove a previously planned scene where a mob storms the palace | "There's no mob storming the palace."
+  - establish | set that Synovial is recalled to fight in Equestria while Thranx refuses the recall | "Synovial is recalled to fight in equestria, Thranx refused."
+  - establish | set that VOPS is who kills Thranx | "VOPS killed him."
+  - establish | set that Eros lies to Grover about Thranx dying of disease, and that Grover can infer Chrysalis killed his mentor but chooses not to press Eros on it | "Eros has to lie to Grover that Thranx died of disease, but Grover can deduce Chrysalis killed his mentor and not push Eros on it."
+  - review | review how Eros is characterized in the story plans, checking that he comes across as teaching Grover to be a good Kaiser rather than indoctrinating him | "Please also review Eros's characterization in my story plans. He is teaching Grover to be a good Kaiser, not indoctrinating Grover"
+- supplies:
+- shaping:
+  - frame the characterization review around a specific distinction | "He is teaching Grover to be a good Kaiser, not indoctrinating Grover"
+- openness: Leans toward the answers it names: the plot changes (no mob, Synovial recalled and Thranx's refusal, VOPS killing Thranx, Eros's lie and Grover's silent deduction) are stated as settled, and the characterization review is anchored to the message's own claim that Eros teaches rather than indoctrinates.
+- subject: Revising plot details around Thranx's death and Eros's cover story, plus reviewing Eros's mentor-vs-indoctrinator characterization toward Grover

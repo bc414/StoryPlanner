@@ -1,0 +1,5 @@
+- sources:
+  - Violet_Enterprises_Nera.pdf, the explicit Pokemon fanfic | read all of it and analyze it against the earlier discussion | Be sure to read the whole document | first-named
+  - tropes/lineages/traditions discussed | the frame the fanfic is to be compared with; the earlier conversation's discussion of tropes, lineages and traditions | the tropes/lineages/traditions discussed | referred-to
+- order:
+- about: The user attaches an explicit Pokemon fanfic and asks the model to read all of it and analyze how it intersects with the tropes, lineages and traditions from the earlier discussion, especially herbivore males and knotting, plus other notable points.

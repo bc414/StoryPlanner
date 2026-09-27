@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the pink-love-as-coolant idea with an oxytocin analogy, recalls their existing "thymoluminescent" coinage, and asks for several options for a scientific term for the wings' effect, with a Grace-related prefix and a flight or stabilization suffix.

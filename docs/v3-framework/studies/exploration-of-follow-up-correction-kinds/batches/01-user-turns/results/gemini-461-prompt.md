@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the question to be about shortening descriptor text or using IDs versus names, and about trimming Notes arrays. The user meant shortening the names of the fields (keys) of the object serialized into JSON, such as Synopsis and ThreadTrajectory. | I meant shorten the fields of the object going into json, such as "Synopsis", "ThreadTrajectory" | flat, brief restatement of the intended meaning, with no apology or irritation
+- about: The user clarifies that their earlier question concerned shortening the JSON property names, not the descriptor content, Notes, or ID usage the model addressed.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's point that nitrogen comes from air and lightning and proposes a new division of the magic system, with earth ponies handling phosphorus and potassium, pegasi handling nitrogen, and cover crops added as a tradition.

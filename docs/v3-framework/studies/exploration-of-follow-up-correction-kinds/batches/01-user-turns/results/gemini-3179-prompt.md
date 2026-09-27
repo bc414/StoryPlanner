@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model-comparison thread by asking about DeepSeek as of 2026 and other similar models, without disputing anything in the GPT-4 assessment.

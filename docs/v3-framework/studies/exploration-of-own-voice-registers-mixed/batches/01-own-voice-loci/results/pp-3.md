@@ -1,0 +1,12 @@
+- passages:
+  - note 93 | terse present-tense scene-summary narration | bare declarative clauses, no dialogue, no comment | Henri fetching love rations and giving Fluttershy the old translator | apart
+  - note 94 | present-tense scene-summary narration with embedded quote | quoted line "wow, what a useful invention"; verbs says/remarks/boasts | Fluttershy's reaction to the translator and Henri's pride in learning Equestrian | apart
+  - note 94 | past-tense expository aside, hedged as opinion | tense drops to past; parenthetical "(in Henri's opinion)" | the political rationale behind the Herzlanders inventing the translator | apart
+  - note 95 | abstract evaluative commentary | opens "There is also the horror of...", no character or action named | the thematic point that the translator turns Equestrian names into objects | apart
+  - note 95 | present-tense scene-summary narration with embedded quotes/imperative | quoted "Hi, I'm Fluttershy"; unquoted imperative "Don't say that..." folded into the sentence | the actual translated exchange and Henri's warning | apart
+- shifts:
+  - note 93 | | |
+  - note 94 | present-tense scene-summary narration with embedded quote | past-tense expository aside, hedged as opinion | tense shifts from present to past at the new sentence, and the parenthetical "(in Henri's opinion)" marks the move from recounting speech to explaining background
+  - note 95 | abstract evaluative commentary | present-tense scene-summary narration with embedded quotes/imperative | the note moves from a stated thematic claim to a concrete recounted exchange at the sentence break
+- registers: present-tense scene-summary narration (with or without embedded quotes); past-tense expository/analytical aside; abstract evaluative commentary
+- whole: The notes are mostly written in one terse present-tense scene-summary register recounting actions and dialogue, but two of the three notes break from it into a separate sentence of authorial aside — one a past-tense hedged explanation of background politics, the other an abstract statement of a thematic point — with each break falling cleanly at a sentence boundary rather than blending into the surrounding narration.

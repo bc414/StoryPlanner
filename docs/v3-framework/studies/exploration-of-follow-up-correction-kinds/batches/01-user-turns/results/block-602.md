@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn leaves the model's field design unchallenged and moves to a new question: it gives the project's background and central proposition, explains that the OC and EaW backstories will be dramatized in separate prequel-sequel stories in third person limited, and asks for an analysis of how to manage that setup.

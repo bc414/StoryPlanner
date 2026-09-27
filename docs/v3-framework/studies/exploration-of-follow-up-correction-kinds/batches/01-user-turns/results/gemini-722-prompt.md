@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the proposed scene as given and asks a follow-up question about ordering: whether Henri's explanation of the nickname's origin should come before or after Applejack decides to have Rarity put it on the uniform.

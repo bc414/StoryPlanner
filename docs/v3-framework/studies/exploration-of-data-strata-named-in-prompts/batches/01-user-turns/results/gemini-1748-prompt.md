@@ -1,0 +1,4 @@
+- sources:
+  - the chapter Ambition (its debate between Gilded Trust and Applejack) | the scene the model is to work within when advising on Gilded Trust's debate strategy; treated as the setting, not ranked or checked against anything | During the debate with Applejack in the chapter Ambition | referred-to
+- order:
+- about: The user asks the model to suggest how Gilded Trust should try to win over voters afraid of buffalo and thestrals and appeal to family values and Aquileian promiscuity in the Ambition debate, while Applejack is likely to expose his affairs or club prostitution operation.

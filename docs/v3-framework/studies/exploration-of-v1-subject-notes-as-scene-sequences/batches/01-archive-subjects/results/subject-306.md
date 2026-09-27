@@ -1,0 +1,13 @@
+- passages:
+  - 5395 | statement about the subject | Defines the organization as a teleportion supply network linking hubs and bunkers | none | plain definitional description, no event or date
+  - 5395 | statement about the subject | Origin: Twilight developed it for hospitals and field tents in Ain Trotgourait after returning home from burnout, powered first by crystals and then by red love canisters | none | background account of how it came to be, no year or scene given
+  - 5395 | statement about the subject | It is adapted to the dreamwalking spell to deliver supplies straight to hostages, fulfilling Twilight's original aim of sending supplies perfectly | none | describes an adaptation and purpose, not a moment shown
+  - 5676 | statement about the subject | The teleportion network can teleport the crystals needed for return teleports, and can also teleport injured ponies | none | rule or capability of the network
+  - 5677 | statement about the subject | The supply hub is the single bottleneck; if it runs out of crystals or is overrun, the whole network fails | none | states a weakness or rule of the system
+  - 5799 | planning directive | Instruction to work Twilight's supply organization into Blueblood's plans | none | imperative note to the author, not a story event or fact
+  - 5799 | statement about the subject | The network can teleport ponies stranded in overrun bunkers back to the supply hub | none | says what the organization can do
+  - 5799 | statement about the subject | They stockpiled all their red power crystals for the wounded to escape rather than for offensive magical weapons, and the shields run on pink | none | describes a past choice and resource allocation as a standing fact
+  - 5799 | statement about the subject | The magical rifles are very unstable and power hungry, which excuses the lack of offensive weapons | none | authorial aside justifying a fact, opens with 'To be fair'
+  - 5799 | statement about the subject | They could have trained mages to use crystal enhancers but did not | none | states an unused option, a counterfactual about the organization
+- sequences:
+- whole: A small set of worldbuilding notes describing the Magical Supply Organization's origin, function, capabilities, weaknesses and resource choices, plus one directive to fold it into Blueblood's plans, with no dated scene beats and no sequences.

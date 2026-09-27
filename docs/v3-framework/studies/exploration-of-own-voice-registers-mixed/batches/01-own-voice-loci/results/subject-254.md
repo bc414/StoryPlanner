@@ -1,0 +1,9 @@
+- passages:
+  - 4374 | plot-summary declarative | simple present tense, third person, states an invention outright | a unicorn creating a spell that reveals changeling disguises | apart
+  - 4375 | plot-summary declarative | simple present tense, third person, states Chrysalis's action and its aim | Chrysalis using propaganda to rally changelings | run-in
+  - 4375 | self-querying aside | concessive 'even though' clause trailing into a question mark | doubt that many changelings actually go to the hives rather than Grenclyf | run-in
+  - 4376 | explanatory worldbuilding | third person, cause-and-effect framing, 'however' contrast within same explanatory mode | how changelings living among ponies avoided the predator's dilemma while keeping pony personas | apart
+- shifts:
+  - 4375 | plot-summary declarative | self-querying aside | shift marked by 'even though' concession and a closing question mark casting doubt on the stated premise
+- registers: plot-summary declarative; self-querying aside; explanatory worldbuilding
+- whole: Most of this item's notes sit in a plain plot-summary register, but one note shifts mid-sentence into a self-questioning aside without any break, while the remaining note stays wholly within its own steady explanatory register.

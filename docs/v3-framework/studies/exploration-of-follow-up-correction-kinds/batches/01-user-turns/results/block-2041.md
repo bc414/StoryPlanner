@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the magic-system discussion to ask for a new comparative analysis of Sanderson's works and frameworks against ASOIAF and their own TLTT, noting their unfamiliarity with his books, without challenging anything the model said.

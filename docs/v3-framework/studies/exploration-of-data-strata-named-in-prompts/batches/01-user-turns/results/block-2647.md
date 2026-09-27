@@ -1,0 +1,7 @@
+- sources:
+  - plans for Camp Fluttershy in chapter 6 | go back and review it, since it settles how communication works at the camp (dictionary translator that Henri discards, Aquileian volunteers, non-verbal communication) | Review the plans for Camp Fluttershy in chapter 6 | referred-to
+  - story timeline for the universal translator (Griffonian Republic, reaching Equestria post war, chapter 22+) | treat as fixed; it means the translators cannot exist during the chapter 6 wartime camp, correcting the earlier answer | Those are in the Griffonian Republic and don't reach Equestria until post war (chapter 22+) | first-named
+  - the chapter Fraternity, Kemerskai's speech | use as the worked example of the translator as a personal earpiece, not a loudspeaker | in the chapter Fraternity that is given audibly in Herzlander | referred-to
+  - the author's own statements about the characters and translator design (Henri and Minette's languages and backgrounds, earpiece intent) | treat as authoritative corrections of what the model assumed | my intention with the universal translator is that it's an earpiece | first-named
+- order:
+- about: The user corrects the model's assumption that universal translators exist at Camp Fluttershy by pointing to the story plan's timeline and chapter 6 plans, and clarifies that the translator is an individual earpiece, not a loudspeaker.

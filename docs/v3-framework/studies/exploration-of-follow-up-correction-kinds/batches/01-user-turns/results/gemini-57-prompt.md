@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user draws an inference from the model's explanation of how chat history accumulates and asks whether a sliding-window summarization approach would therefore be pointless, which is a follow-up question and not a correction.

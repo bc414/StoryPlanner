@@ -1,0 +1,9 @@
+- asks:
+  - identify | find subreddits dedicated to using AI for structural analysis of fiction/writing | "Are there any subreddits dedicated for this kind"
+  - filter | exclude any communities focused on AI-generated prose or roleplaying | "NOT generating prose or role playing"
+- supplies:
+- shaping:
+  - must exclude prose-generation and roleplaying focused communities | "NOT generating prose or role playing"
+  - must match the referenced use case of AI for structural analysis | "this kind of ai leveraging"
+- openness: Leaves the answer open, since it only names the inclusion criterion (structural analysis) and exclusion criteria (prose generation, roleplaying) without naming any candidate subreddits itself.
+- subject: Finding subreddits about using AI for structural/analytical purposes in fiction writing, as opposed to prose generation or roleplay

@@ -1,0 +1,15 @@
+- relations:
+  - 211|212|continues in time: the birth year and the age at the father's death fix the year of that death|Born in 1002 ALB / He is 5 years old when his father passes away|implicit
+  - 212|1258|cause and consequence: the father's death leaves a child ruler, and the next note has him growing up under a regent from that same year|his father passes away / grew up in Griffenheim with Eros as his regent|implicit
+  - 1258|513|instance of a general state: Eros as regent is the setting in which Eros holds power over the traitor and yields to the child|Eros as his regent / Eros is about to execute Eagleclaw|implicit
+  - 212|513|presupposition: the child emperor in the execution scene is only a child on the throne because his father died when he was 5|when his father passes away / child emperor's plea|implicit
+  - 513|214|continues in time: after the drive to be the best emperor, the plan has him become a history professor in the epilogue|works hard to be the best emperor history has ever seen / In the epilogue, he becomes a history professor|implicit
+- outward:
+  - 211|the era-dating system (ALB) held elsewhere in the world's lore|Born in 1002 ALB
+  - 212|the father's own story and death, which is not told here|when his father passes away
+  - 214|the epilogue of the project and the rest of the appearance plan|In the epilogue
+  - 242|Grover V and Grover IV, the earlier emperors of the line, who are described elsewhere|not sickly like his father (Grover V) and not hedonistic like his grandfather (Grover IV
+  - 513|Eros, Eagleclaw and "Aunty Gabriella", and the treason that led to the planned execution|Eros is about to execute Eagleclaw as a traitor
+  - 513|the griffons he owes a duty to, and the wider history of his reign|his duty to his griffons
+  - 1258|Griffenheim, Benito and the regency, as places and people held elsewhere|Griffenheim with Eros as his regent and an elderly Benito as his bodyguard
+- whole: Most of the notes join through the chain of birth, father's death, regency, the child's plea and the later professorship, though the characterization note about his forebears stands apart as its own entry.

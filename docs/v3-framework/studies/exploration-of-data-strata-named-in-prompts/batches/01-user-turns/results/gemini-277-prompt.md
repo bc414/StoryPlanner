@@ -1,0 +1,4 @@
+- sources:
+  - changeling history as revealed by Trimmel in chapter 15, and who in Equestria knows it (only Celestia) | treat as settled fact from the author's plan that corrects the model's earlier suggestion; the parallel must be drawn later and in reverse, by AJ | Actually, no one in Equestria knows changeling history except Celestia. Trimmel pulls back the curtain in chapter 15 | first-named
+- order:
+- about: The user corrects the model's suggestion that AJ draws the Changeling parallel in chapter 10, stating from their plan that only Celestia knows changeling history until Trimmel reveals it in chapter 15, so AJ will make the connection in reverse.

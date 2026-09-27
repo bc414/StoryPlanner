@@ -1,0 +1,5 @@
+- sources:
+  - my narrative | the story the Bitcoin commentary is to be worked into; treated as the place where the commentary must fit | weave a social commentary about Bitcoin into my narrative | referred-to
+  - my materialist framework and seeing | the established lens the model is to use to interpret what Bitcoin represents; treated as the governing frame for the answer | within the framing of my materialist framework and seeing | referred-to
+- order:
+- about: The user asks how to build a Bitcoin social commentary into their story, what Bitcoin means when read through their own materialist framework, and for a history of Bitcoin from its start to the present.

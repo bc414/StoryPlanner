@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two new follow-up history questions, about William of Orange's role and the Netherlands after Napoleon's fall, extending the discussion without disputing anything the model said.

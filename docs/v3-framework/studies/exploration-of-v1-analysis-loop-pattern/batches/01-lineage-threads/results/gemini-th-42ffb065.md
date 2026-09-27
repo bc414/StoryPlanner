@@ -1,0 +1,8 @@
+- steps:
+  - the author | poses a structural question | asks whether codex-category-to-principle mapping is one-to-one, and requests a superset of fields | opening of the stretch, referencing 'the document'
+  - the model | builds a taxonomy | confirms mapping is not one-to-one, then lays out a superset of metadata fields grouped under four Minerva functions with a usage rule | immediately after the author's question
+  - the author | pivots to a meta question | asks whether receiving a particular system message means the web app is using RAG or truncating context, unrelated to the story material | second exchange, after reading the model's taxonomy reply
+  - the model | explains platform mechanics | describes RAG/context-slicing and truncation in the consumer web app versus full-context handling in API/AI Studio, and offers a walkthrough of AI Studio | closing turn of the stretch
+- kept:
+- brought: The author brought a conceptual question about how Minerva's storytelling categories map onto codex-to-plot-point connections, referencing an existing reference document.
+- loop: The author brought an analytical question about the planning framework itself and got back a structured taxonomy, but the exchange then diverted into a question about the tool's own retrieval behavior, and nothing from either turn was carried into the planning database.

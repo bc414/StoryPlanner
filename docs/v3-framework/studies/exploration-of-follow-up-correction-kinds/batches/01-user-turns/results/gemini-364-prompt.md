@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the class-design topic to report a technical problem with the Gemini website not loading chat history, and asks how to restore the scrolling interface or export their data from My Activity.

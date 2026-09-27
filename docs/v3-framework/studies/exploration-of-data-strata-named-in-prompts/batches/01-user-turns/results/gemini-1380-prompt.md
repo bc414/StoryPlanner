@@ -1,0 +1,4 @@
+- sources:
+  - the other chapter names | use as the guideline for the conventions, patterns and vibes the new chapter title should follow | using the conventions patterns and vibes of the other chapter names as a guideline | referred-to
+- order:
+- about: The user announces they will split their chapter called Tempest in two and asks for name suggestions for the second half that fit the naming style of their other chapters.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user is thinking aloud about the design, proposing that comprador workers (who mine built-up deposits) and subsistence village farmers (who grow their own) be separate populations, as in TLTT's FJA/PNdA split, and hedging on whether dual-use minerals would merge them, without saying the model's account was wrong.

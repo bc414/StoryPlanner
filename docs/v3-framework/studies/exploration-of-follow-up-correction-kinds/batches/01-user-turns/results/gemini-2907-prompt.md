@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the thematic analysis to ask two new worldbuilding design questions: how the Aquileians would manufacture the thymoluminescent ink and stamp, and what the stamp should be named in French with its English meaning.

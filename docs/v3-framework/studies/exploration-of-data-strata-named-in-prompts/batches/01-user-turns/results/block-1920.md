@@ -1,0 +1,4 @@
+- sources:
+  - an earlier version of the plan | weight: presented as a candidate to be judged rather than settled — user asks the model to evaluate whether it works or not | marked by: "An earlier version of the plan had Fluttershy show up at the end of chapter 4 ... Does this work or not?" | first-named
+- order:
+- about: The user turn asks the model to evaluate a discarded/earlier plan beat for chapter 4's ending and floats a new alternative idea for chapter 5 for the model to weigh in on.

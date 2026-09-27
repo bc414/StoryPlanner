@@ -1,0 +1,5 @@
+- sources:
+  - the 2 I put | weight: include in the system prompt alongside the other axes, as material for the AI to choose from | marks it: "the 2 I put" | referred-to
+  - the 5 you made | weight: include in the system prompt alongside the other axes, as material for the AI to choose from | marks it: "the 5 you made" | referred-to
+- order:
+- about: The user asks whether all 7 axes (their original 2 plus the model's 5) can be placed together in the system prompt so the AI itself decides which ones to apply.

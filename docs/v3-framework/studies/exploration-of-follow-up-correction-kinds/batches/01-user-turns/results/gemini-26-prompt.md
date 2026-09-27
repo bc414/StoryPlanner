@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that the text file has no explicit chapter markers and is one continuous document; the file does mark chapters, with a leading '> ' and a colon, which its regex did not allow for | 'The chapters are delimited like this: "> Chapter 4:"' | flat statement, supplying the actual delimiter format as an example without explaining or blaming, and implicitly asking the model to retry
+- about: The user tells the model the real chapter-heading format in the file, which contradicts the model's conclusion that the file has no chapter markers, so that it can redo the chapter mapping.

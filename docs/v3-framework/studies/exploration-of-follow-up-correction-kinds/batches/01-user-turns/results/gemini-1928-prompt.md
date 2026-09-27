@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the return direction (Beijing to New York) of the flight the model just described, without challenging anything in the model's answer.

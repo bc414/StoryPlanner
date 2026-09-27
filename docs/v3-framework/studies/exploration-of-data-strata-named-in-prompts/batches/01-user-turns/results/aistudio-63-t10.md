@@ -1,0 +1,6 @@
+- sources:
+  - Canterlot Wedding | treat the show's cartoon-villain Chrysalis as a misleading surface, explained by her regressing to baser instincts after draining love, not as her true nature | she appeared like one in Canterlot Wedding because she got high on draining Cadance and Shining Armor's love | referred-to
+  - The Aquileian Mont Boree story | treat as the template Chrysalis is actually acting on, which Blueblood may or may not learn; the user asks the model to work out the impact either way | acting on the Aquileian Mont Boree story | referred-to
+  - The Predator's Dilemma paper | treat as a framework Chrysalis is actually acting on, which Blueblood may or may not learn; the user asks the model to work out the impact either way | The Predator's Dilemma paper | referred-to
+- order:
+- about: The user asks the model to expand and compare alternative routes by which Blueblood investigates Chrysalis and reaches Mudbeak, including a version where he pieces together her scheme from map patterns and is disbelieved, and asks what each would mean for the rest of the story.

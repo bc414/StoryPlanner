@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user simply accepts the model's offer to write a C# snippet for pushing the WPF app's JSON output to Google Drive, naming no source of data.

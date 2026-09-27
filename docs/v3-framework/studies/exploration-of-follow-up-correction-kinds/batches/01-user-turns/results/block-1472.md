@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user describes the nested Punnett-square arrangement of their track axes, with the reasons for putting the axes where they are, and asks for an analysis of whether it is the best configuration, which moves on to a new question and does not dispute the previous answer.

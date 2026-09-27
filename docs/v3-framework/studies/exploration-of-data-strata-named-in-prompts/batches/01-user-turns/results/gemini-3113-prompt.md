@@ -1,0 +1,5 @@
+- sources:
+  - Green isn't your Color | treated as true, the author's own account of how it began and is built; used as the precedent that the romance supports the plot, for the model to carry over to TLTT | Green isn't your Color was originally just supposed to be a Rarity and Fluttershy romance story | referred-to
+  - TLTT | the story plan the model is asked to test the same pattern against, whether Twilight and Applejack's romance also supports a main plot | Same case for Twilight and Applejack in TLTT? | referred-to
+- order:
+- about: The author reflects from memory that in Green isn't your Color the romance ended up serving a main plot, asks whether the same holds for Twilight and Applejack in TLTT, and adds that they prefer full story frameworks to short stories.

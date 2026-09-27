@@ -1,0 +1,8 @@
+- steps:
+  - author | lay out branch options | three alternative configurations of FJA/PNdA power-sharing, timing of an election, and who holds the presidency when Applejack arrives | opening turn of the exchange
+  - model | break down each option | scenario, internal dynamic, effect on Applejack's arrival, and pros/cons for each of the three approaches | first section of the response
+  - model | issue a verdict | picks the mid-story election-shift approach and gives reasons tied to pacing, ticking-clock stakes, and the Kemerskai relationship | middle section of the response, after the three breakdowns
+  - model | work out supporting mechanics | proposes how the new president could govern without FJA support (deals with minor parties) to reinforce the chosen approach | closing section of the response
+- kept:
+- brought: The author brought three alternative political-power configurations (differing on which party leads the coalition, who is president, and when an election shift occurs) and asked for a comparative analysis of their narrative effects.
+- loop: The author brought a branching decision from the plan for evaluation, and the model returned a structured comparison plus a recommendation and supporting mechanics, but nothing from this exchange was captured back into the planning database, leaving the decision open in the archive.

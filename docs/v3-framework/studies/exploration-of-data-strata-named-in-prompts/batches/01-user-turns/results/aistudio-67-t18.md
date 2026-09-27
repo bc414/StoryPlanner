@@ -1,0 +1,9 @@
+- sources:
+  - stagnation as a 1000 year baseline | the earlier plan's premise, to be replaced by a much shorter policy and its effects re-assessed | changing the stagnation from 1000 year baseline to a 40-50 year old policy | referred-to
+  - the author's new premises for the stagnation (tycoons starting around 981, gradual reforms 914 to 930, no industry influx in 930, industrialists sent to New Mareland) | the new direction the model should build on, but put forward as a proposal to be tested | Does this work? | first-named
+  - Chrysalis's shell company and Coltbert's parloirs as the way into the nursery | already-established plan elements, to be checked against the new timeline and possibly reordered so Coltbert came first | Actually Coltbert started it with the parloirs | referred-to
+  - Grover IV's Gilded Age and Grover III's rules of chivalry | in-world history to use as a model for how the new tycoons treat the old order | rugged individualists of Grover IV's Gilded Age view Grover III's rules of chivalry and rewrite them | referred-to
+  - the real John D Rockefeller | real-world analogy for tycoons recasting harmony as material progress | Like the real John D Rockefeller saying he made oil lighting safe | referred-to
+- order:
+  - the 40-50 year old policy | over the 1000 year baseline of the stagnation | changing the stagnation from 1000 year baseline to a 40-50 year old policy
+- about: The author reframes the Equestrian stagnation as a recent 40-50 year policy instead of a millennium-old one, works out how the new tycoon generation and Chrysalis's and Coltbert's penetration of the nursery fit that, and asks whether the revised setup works and what purposes it serves.

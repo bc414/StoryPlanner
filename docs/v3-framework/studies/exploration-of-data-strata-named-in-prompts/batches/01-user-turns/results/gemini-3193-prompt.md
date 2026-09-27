@@ -1,0 +1,5 @@
+- sources:
+  - the model's previous answer about Sonnet powering agentic and coding workflows and Opus not being strictly better | treated as newly learned information the user accepts, and the basis for the follow-up question | I didn't realize that opus is not strictly better than sonnet | referred-to
+  - the user's own impression that logic engines and coding are used far more by users than literary work | provisional belief offered as a hypothesis for the model to check as true or false, not as settled | My impression is that logic engines and coding are used way more | first-named
+- order:
+- about: The user, surprised by the prior claim that Opus is not strictly better than Sonnet, asks in which areas Opus is better and asks the model to check whether their impression that coding and logic use outweighs literary use is true.

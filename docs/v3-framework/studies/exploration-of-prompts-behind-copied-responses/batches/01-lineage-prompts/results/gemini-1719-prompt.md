@@ -1,0 +1,8 @@
+- asks:
+  - recall/review | asks the model to bring back into consideration the established lore about the Aquileian political parties before answering | "Reread my lore about the Aquileian parties"
+  - placement/classification | asks which of the three named parties a specific character, Dennis Discret, would belong to or align with | "Where does Dennis Discret go?"
+- supplies:
+  - party gloss | short definitions of the three Aquileian parties: FJA (farmers/artisans from Coltbert), PNdA (urban industrialists), MPA (bonapartists/fascists/thugs) | a few lines
+- shaping:
+- openness: Asks for a choice among the three named parties (FJA, PNdA, MPA) as to which one the character Dennis Discret belongs to.
+- subject: Placing a character (Dennis Discret) within a fictional setting's political party system (Aquileian FJA/PNdA/MPA)

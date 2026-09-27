@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's closing question about export timing and, building on its point that compute is the bottleneck, offers observations about Claude deferring free-tier requests and Gemini's thinking delays, asking whether these show cloud compute is limited and how providers prioritise load.

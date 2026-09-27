@@ -1,0 +1,12 @@
+- steps:
+  - author | brings plan | five-step human-in-the-loop workflow for turning raw notes into consolidated planner entries, plus a platform question | opening message
+  - model | validates and advises | approves the workflow, argues for a web app over the C# app, restructures the five steps, offers to write a build prompt | reply to opening message
+  - author | accepts and requests | asks the model to generate the exact master prompt for the AI Studio Build tab | second message
+  - model | drafts artifact | produces a master prompt for a web app that embeds both AI calls internally, explains what happens after generation, offers a C# deserialization outline | reply to that request
+  - author | redirects scope | corrects the design so the web app makes no API calls and the two prompts are perfected separately in Playground | third message
+  - model | revises artifact | produces a new master prompt for a pure offline JSON-editor/Kanban tool, restates the resulting workflow, again offers a C# outline | reply to the redirect
+  - author | drills into detail | asks for the most detailed system instruction for the first of the two prompts, the Cartographer | fourth message
+  - model | delivers specification | gives a detailed system instruction, model config settings, JSON schema, and a usage example for that prompt, offers to do the same for the second prompt | reply to that request
+- kept:
+- brought: The author brought a five-step human-in-the-loop workflow design for consolidating raw story notes into finalized planner entries, seeking validation of the architecture and platform choice.
+- loop: The author uses the conversation to iteratively narrow and specify a note-processing tool's architecture, each time taking the model's prior artifact and either accepting it, redirecting its scope, or demanding more implementation detail; since this whole exchange is tooling design rather than story content, none of it was traced back into the planning database.

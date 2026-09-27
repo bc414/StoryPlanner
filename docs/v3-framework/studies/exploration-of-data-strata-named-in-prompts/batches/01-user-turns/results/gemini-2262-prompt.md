@@ -1,0 +1,6 @@
+- sources:
+  - The timeline (Applejack and the mane 6 roughly 20 when season 1 starts) | treat as the fixed age premise the answer must fit; the user reasons from it to Applejack being 31 | The timeline assumes Applejack and the rest of the mane 6 are roughly 20 | referred-to
+  - canon FiM season 1 | used as the anchor point for dating the characters' ages, not as material to draw on | when season 1 of canon FiM starts | referred-to
+  - EaW (the great war in 1011) | treat as fixed for the date of the great war, which gives Applejack's age of 31 | The great war in EaW typically happens in 1011 | referred-to
+- order:
+- about: The user challenges the previous reply's idea that Applejack learns the truth about her parents late, using the timeline's ages and the war date to argue she should avoid the subject and her parents should tolerate it, and asks the model to expand on the psychology and tragedy of that.

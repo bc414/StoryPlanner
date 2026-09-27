@@ -1,0 +1,5 @@
+- sources:
+  - my lore on Red Love Addiction | treat as established fact and reason from it: plain red love is only about as intense as caffeine or adderall, and the drugs Chrysalis sold got their potency from Tzinacatl-derived additives | according to my lore on Red Love Addiction | referred-to
+  - the idea that Heinrich Kessler II gets arrested for being the head of the drug trade (from the model's previous turn) | accepted and kept as the base, with a new complication added on top | I like the idea that Henrich Kessler II gets arrested | referred-to
+- order:
+- about: The user accepts the model's Kessler-arrest resolution, then complicates it by using their own Red Love addiction lore to propose that Kessler's supply came laced with Tzinacatl jungle additives, which would bring in the Tzinacatl drug lords and deepen the ethical dilemma.

@@ -1,0 +1,4 @@
+- sources:
+  - all my systems | the set of systems in the author's fabula that the six axes would be assigned to across the board, as test data for whether coupling emerges | assigning all 6 to all my systems | referred-to
+- order:
+- about: The user asks whether the way to test the six axes for orthogonality is to score every one of their systems on all six and let any coupling show up, and adds that the axis terminology needs improving.

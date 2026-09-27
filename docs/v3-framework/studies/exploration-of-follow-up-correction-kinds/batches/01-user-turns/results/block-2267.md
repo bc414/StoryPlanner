@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Veeco and supply-chain parallel and asks a new question about where people in generic suburbs work and what they do, comparing two paradigms, and says they know only their own central NJ suburb.

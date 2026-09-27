@@ -1,0 +1,5 @@
+- sources:
+  - My consistent theme (the author's own stated design of Chrysalis, Equestria and Skyfall's economies) | treat as the settled premise for the story's economics and build on it instead of the model's framing | My consistent theme is that Chrysalis is a genius | referred-to
+  - Griffonian (human world equivalent) systems, including MEFO bills and Rockefeller Standard Oil | use as real-world models for how Chrysalis copies, corrupts and outdoes existing systems | studies Griffonian (human world equivalent) systems and corrupts them | referred-to
+- order:
+- about: The author restates their own core theme and lays out a three-way economic contrast (Equestria, Skyfall, Chrysalis), using real-world analogues, to steer the model's earlier account of the economics.

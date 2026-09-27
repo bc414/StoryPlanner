@@ -1,0 +1,4 @@
+- sources:
+  - Https://youtu.be/aRUhgrqnpGY?si=GW5tzf86WlY3N9dn | a YouTube video handed over as material for the model to work from, with no other instruction given | the bare link on its own | first-named
+- order:
+- about: The user sends only a new YouTube link, apparently for the model to process the way it did the previous video, with no instructions in words.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new story beat in which Fleur Bloom invents a crystal matrix that extends Tzinacatl echolocation, asks the model to name it, and asks whether it could be extended into sonar for detecting changeling submarines.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether venting nearly all the steam for weather has any industrial side-benefit beyond making clouds, building on the model's explanation without disputing it.

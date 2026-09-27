@@ -1,0 +1,3 @@
+- claims:
+  - normative maxim | No single person should be made to carry the weight of ruling for a thousand years; the cost of concentrated, long rule falls on the ruler as a burden | Nopony should have to bear the burden of a thousand years of rule | What ought to be true about who carries lasting rule? | partly
+- theme: It voices the ethical half of the proposition (concentrated power is a burden and should be spread) as a bare assertion. It does not argue that distribution is structurally superior, and it gives no evidence from the character's appearances.

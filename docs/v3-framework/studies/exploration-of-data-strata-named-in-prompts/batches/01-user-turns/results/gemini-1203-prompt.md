@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Applejack should be defensive of the princesses and lays out the next scene beats, in which Henri's arrival at the factory interrupts the conversation and he tells AJ he is there because the changelings are poseurs.

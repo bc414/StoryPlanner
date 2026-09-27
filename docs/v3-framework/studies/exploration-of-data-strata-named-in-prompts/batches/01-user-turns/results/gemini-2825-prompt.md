@@ -1,0 +1,4 @@
+- sources:
+  - this specific notebook | the model is to examine it to determine whether the idea originated there; treated as the candidate place of origin to check | Please peruse this specific notebook | referred-to
+- order:
+- about: The user asks the model to look through a specific notebook to find out whether the idea came from there.

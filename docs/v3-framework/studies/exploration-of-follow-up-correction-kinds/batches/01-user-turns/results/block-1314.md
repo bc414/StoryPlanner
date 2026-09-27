@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's diagnosis that the story hands conclusions through dialogue, and reflects on why they wrote it that way, attributing it to lacking a planner and to the design doc not being separable into showable notes.

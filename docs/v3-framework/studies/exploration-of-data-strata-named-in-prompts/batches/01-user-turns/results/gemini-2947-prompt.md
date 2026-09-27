@@ -1,0 +1,5 @@
+- sources:
+  - real life etymology of pinky promise (the model's general knowledge) | the model is asked to supply the real-world origin of the phrase from what it knows | What is the etymology of pinky promise in real life? | first-named
+  - the author's own statement about the story world's naming (Pinkie Promise as a play on Pinkie Pie; rhyme is universal but the name is used only by Pinkie's immediate friends) | offered as the author's tentative revision of the world, hedged as a supposition rather than settled | I suppose "Cross my heart, hope to fly, stick a cupcake in my eye!" Is a universal nursery rhyme | first-named
+- order:
+- about: The author asks for the real-world etymology of "pinky promise" and, while doing so, proposes that in their pony world the rhyme is universal but the name "Pinkie Promise" is used only by Pinkie Pie's close friends, which qualifies the previous reply's assumption of universal use.

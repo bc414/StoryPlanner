@@ -1,0 +1,6 @@
+- asks:
+  - analyse | examine a set of later chapters and assess how narrative perspective (point of view) is being handled in them | "Please analyze these later chapters for perspective"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open — it names only the topic to examine (perspective) and gives no target conclusion, criteria, or preferred stance.
+- subject: Point-of-view/perspective handling in the later chapters of the person's story

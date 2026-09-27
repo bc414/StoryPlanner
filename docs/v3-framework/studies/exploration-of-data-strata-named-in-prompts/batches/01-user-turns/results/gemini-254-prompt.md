@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the two-part thematic framing and their reasoning for why Chrysalis abandons Trimmel and loses the war, then asks for a judgment on whether making her motive rooted in inferiority to Griffons cheapens her as a visionary tyrant.

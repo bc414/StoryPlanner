@@ -1,0 +1,6 @@
+- sources:
+  - the show (changeling size as in the show) | treat as the reference for canon: changelings are the same size as the little ponies, so the model's size claim is wrong | The changelings have the same dimensions as the little ponies, just like in the show | first-named
+  - the model's previous answer in this conversation (the massive drone idea and the silk that resists bullets) | reject the massive-drone detail as unfounded; take the bullet-resistant silk as a premise to reason from and answer a question about | I'm not sure where this "massive" drone idea came from | referred-to
+- order:
+  - the show | over the model's previous answer about massive drones | The changelings have the same dimensions as the little ponies, just like in the show
+- about: The user corrects the model's invented detail about massive changeling drones by pointing to the show's canon of equal size, then asks why the whole uniform isn't made of silk if the silk resists bullets.

@@ -1,0 +1,9 @@
+- asks:
+  - explain | asks how Zecora leaving Equestria and remaining in Ain Trotgourait affects Twilight's psychological state at this point in the story | "How does Zecora leaving Equestria and staying behind in Ain Trotgourait affect Twilight's psychology here?"
+- supplies:
+  - decision note | the user's leaning toward "path 2" over "path 1," with the reason that path 1 already features Dr. Fauna | one sentence
+  - backstory premise | after Mount Aris, Twilight shuts down the School of Friendship, having realized it wasn't solving real problems because of Celestia's restrictions; notes Cozy Glow doesn't exist in this setup | two sentences
+  - origin detail | the original reason the group goes to Mount Aris: Rainbow Dash follows her student Silverstream there to protect a friend's home | one sentence
+- shaping:
+- openness: Leaves the psychological question fully open, asking only "how" it affects Twilight without naming a direction or options, while separately stating (not asking about) an already-made choice between two unnamed paths.
+- subject: My Little Pony fan-fiction worldbuilding: Twilight's psychology and School of Friendship backstory tied to the Mount Aris arc and Zecora's departure

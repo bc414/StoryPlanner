@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | The model wrote a long, multi-section essay, while the user wants short atomic notes in focused buckets that can all be seen and edited at once with minimal scrolling | "should not be too extensive. They are atomic notes" and "minimal scrolling or alternate views" | Flat, explanatory statement of the intended design, with reasons given and no reference to the model's output as a fault
+  - reading of the request | The model treated the message as story material to analyze and praise, when the user was asking for a note-organizing structure that sorts raw planning notes into orthogonal buckets | "The buckets are meant to separate the notes orthogonally" and "pick and choose and categorize into the buckets" | Indirect, restating the purpose of the workflow and why it is efficient, so the correction is implied by the description and not stated as a complaint
+- about: The user restates what their note system is for (short atomic notes, orthogonal buckets, one-view editing, sorting raw notes later), which redirects the model away from the long analytical essay it gave.

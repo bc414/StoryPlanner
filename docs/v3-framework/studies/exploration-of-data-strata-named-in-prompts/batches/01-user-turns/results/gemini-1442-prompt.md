@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | treat as established fact: Coltbert founded the parloirs in Manehattan as adult spaces within the Stagnation of Harmony, with empathetic details for Night culture and to induce demand for Aquileian exports; build the name suggestions on this | In my story plans, I established that | first-named
+  - my lore | treat as established canon: Gaudreau's Foyer des Jeunes d'aquilée (FJA) becomes the new Aquileian way of life under the Coltbert reforms of 981, then her party in 1007; the new name must fit these facts and share the initials FJA | In my lore, Gaudreau's social club Foyer des Jeunes d'aquilée and its acronym FJA | first-named
+- order:
+- about: The user supplies established lore about Coltbert's parloirs and Gaudreau's FJA club and asks the model for a few fancy French names with the initials FJA for the first and biggest Manehattan parloir, which later becomes EEEE!'s union hall.

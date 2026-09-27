@@ -1,0 +1,67 @@
+- steps:
+  - author | proposes structural change | delaying Twilight's love confession from an early battle chapter to a later domestic chapter | opening exchange on romance pacing
+  - model | analysis and verdict | pacing rationale mapping trauma vs safety onto the story's love-color system, plus interval-chapter options | reply to the delay proposal
+  - author | follow-up question | whether the couple can still sleep together innocently in the interim | right after the pacing verdict
+  - model | analysis | lore justification for innocent co-sleeping and a staged progression of sleeping positions across chapters | reply to the co-sleeping question
+  - author | corrects and extends | reframes a stay-awake drug lore point into a sleep-rotation solution and introduces a tank-spooning image | after the sleeping-arrangement analysis
+  - model | analysis with verdict | tactical contrast between drug-fueled and rest-based crews, three scene options, recommended option | reply to the tank-spooning idea
+  - author | corrects and clarifies | moves pillow origin to a POW rehab camp, relocates the tank battles later, reconsiders the sleep spell as risky and proposes a personal-invention justification, asks for pros and cons | after the tank-scene verdict
+  - model | analysis | spell mechanics, pros/cons list, integration scene and sample dialogue | reply to the sleep-spell revision
+  - author | topic prompt | asks for a discussion of magical engineering | new subject
+  - model | worldbuilding synthesis | mechanics, hardware components, invention timeline, thematic significance of the magic system | reply to the magical-engineering prompt
+  - author | brings plan summary and request | recounts planned war and subjugation events and asks for source-based refinement and integration | new subject on the Polar Bears
+  - model | analysis | subjugation terms, a wartime interlude, betrayal mechanics, chapter-integration summary | reply to the Polar Bear request
+  - author | asks confirming question | whether a warlord's submission was always a long-con toward eventual nationalization | after the Polar Bear analysis
+  - model | analysis | confirms and lays out a staged grift, asset-theft details, integration options | reply to the confirming question
+  - author | proposes mechanism and thematic parallel | links the deception to lie-detection lore and draws a mirror to the villain's own origin motive | after the staged-grift analysis
+  - model | analysis and verdict | mechanics of why the lie-detection fails, the thematic mirror, scene execution | reply to the deception-mechanism idea
+  - author | extends idea | proposes that a bloodless subjugation kept loyal officials believing they were helping modernize | after the deception analysis
+  - model | analysis | civilizing-mission dynamic, outsourced cruelty, a staged deception, betrayal payoff scene | reply to the loyalty idea
+  - author | asks follow-up question | how two allied characters should handle the warlord after a key battle, notes one character's shame | after the loyalty analysis
+  - model | analysis | the shamed character's arc, a confrontation scene, a containment-via-integration strategy | reply to the handling question
+  - author | proposes scene | a handshake and aid announcement that leaves the warlord shuddering and powerless | after the handling analysis
+  - model | analysis and verdict | explains why the aid offer strips the warlord's leverage, drafts the scene | reply to the handshake scene
+  - author | asks multi-part question | pros/cons of including two storybook characters, whether separate native creatures exist in source lore, how to reconcile a global-connection deviation with that lore | new subject on a jungle-tribe arc
+  - model | analysis | recommends retconning the pair as in-world fiction, addresses the native-creature question, proposes a three-bloc repurposing | reply to the tribe-arc question
+  - author | asks confirming question and decision | suspects a sun-worship lore detail was a developer invention, decides to use one tribe name for the whole species | after the retcon analysis
+  - model | analysis | confirms the suspicion, elaborates the consolidation's thematic advantage and a renaming scheme | reply to the consolidation decision
+  - author | proposes new idea | keep the storybook characters as in-world fiction, floats that the protagonist's mother is the author, adds the father's suppressed-science backstory and a reunion-chapter placement | after the consolidation analysis
+  - model | analysis | endorses, develops the mother-as-author and father-as-suppressed-scientist arcs, a parallel-reunion structure, scene concept | reply to the parentage idea
+  - author | extends idea and asks question | rival crime bosses adopt the fictional villain names; asks whether an artisan character should also impersonate the fictional hero | after the parentage analysis
+  - model | analysis with recommendation | argues against the artisan impersonation, proposes an alternate curator character, assigns the impersonation to the criminal bloc instead | reply to the impersonation question
+  - author | asks question | whether a sidekick character should already know about the mother's hidden authorship | after the impersonation recommendation
+  - model | analysis with recommendation | argues for withholding the knowledge until a later reunion, structures the reveal, offers alternatives | reply to the knowledge-timing question
+  - author | corrects and elaborates | clarifies the protagonist's own naivety rather than knowing lies, adds a warlord-defense backstory and a secret weapons-program detail, asks that fictional impostors be raised with the mother later | after the reveal-timing analysis
+  - model | analysis | integrates the new backstory catalyst, the sidekick's dual inspiration, jungle deconstruction beats, reunion confrontation lines | reply to the backstory elaboration
+  - author | refines idea | the storybooks never mention the region at all, criminals turned to tourism scams after an economic disruption, the in-story impostor is a shapeshifter actor | after the backstory integration
+  - model | analysis | absolves the mother of erasure, frames the tourism pivot as economic desperation, develops the actor's identity conflict | reply to the fictional-jungle refinement
+  - author | asks question | what the reunion conversation between the three characters should contain, restates a later book-writing payoff for the mother | after the identity-conflict analysis
+  - model | analysis | structures the reunion conversation into phases and plans the mother's later book tying to a political campaign | reply to the reunion-conversation question
+  - author | brings comparison and plan | states intent to subvert a companion work's use of dragons, recaps a leader's death and an heir's arc, proposes a shield-pairing mechanic for a coming offensive | new subject on the dragon arc
+  - model | analysis with verdict | breaks down the ego-versus-weaponry conflict, the shield-pairing doctrine, execution beats, alternative mechanics, recommended option | reply to the shield-pairing proposal
+  - author | raises a concern | worries the offensive reads as an unearned rescue, adds stakes about its vulnerability | after the shield-pairing verdict
+  - model | analysis and reassurance | argues the plan is earned setup rather than a cheat, frames the stakes and terrain logic, gives chapter beats | reply to the concern
+  - author | proposes addition | recurring reports of solo dragon deaths to justify the heir's arrival and ground the danger | after the reassurance
+  - model | analysis with verdict | structures incident examples, ties them to the heir's motivation and the offensive's later payoff | reply to the addition proposal
+  - author | asks for a retrospective report | requests tracing of how a national culture and its characters were developed | new subject
+  - model | retrospective synthesis | traces sociological, ideological, and character development, offers forward-looking scene options | reply to the retrospective request
+  - author | asks for a retrospective report | requests tracing of how a core thematic framework was conceived | new subject
+  - model | retrospective synthesis | traces a dialectical progression from opposed extremes through wartime distortion to final civic virtues, offers reveal-scene options | reply to the framework request
+  - author | asks for a retrospective report | requests tracing of how a recurring insult/theme was conceived | new subject
+  - model | retrospective synthesis | traces the theme's origin and its cultural, biological, and class applications, offers scene options | reply to the theme request
+  - author | asks a lore-comparison question | what a referenced companion work reveals about two related legacy characters | new subject
+  - model | source analysis | summarizes the two characters' portrayal and offers integration options for the current plan | reply to the legacy-character question
+  - author | asks a lore-comparison question | how much the companion work draws on an external influence | new subject
+  - model | source analysis with caveat | notes the sources don't confirm the external reference, cites a relevant line and ties it to the author's planned subversion | reply to the influence question
+- kept:
+  - note 466 | pasted whole from this reply | keeps the line that a villain mirrors the arrogant class she once hated, filed to a plot-point entry
+  - note 2899 | pasted from this reply with cuts | keeps the explanation of how a schemer's genuine admiration masks competitive ambition and how the target misreads it, filed to a link between a plot point and emotion-detection lore
+  - note 3516 | one sentence lifted from this reply | keeps a sentence about an entrance exam's purpose being humility rather than power, filed to a harmony/liberty link entry
+  - note 3252 | pasted from this reply inside the author's own framing | keeps loyal officials' self-justifying 'uplifters not conquerors' reasoning, recast as their own excuse, filed to a link entry
+  - note 5179 | the author's own words in this record | keeps the author's account of a mentor's rejection of a redeemed warlord and the protagonist shutting down her school, filed under a rebuilding-effort subject
+  - note 4273 | the author's own words in this record | keeps the author's detail about a ruler directing industrialists to hire a native tribe and flooding their market, filed under the tribe's subject entry
+  - note 4628 | the reply was quoting the plan | keeps prior plan detail about a market being flooded and a naive ruler's enforcement response, filed under an economic-scheme subject
+  - note 4736 | pasted from this reply with cuts | keeps the description of dragons as an initially chaotic, disconnected force of nature, filed under the dragon-lore subject
+  - note 4737 | pasted from this reply inside the author's own framing | keeps the heir's 'herding idiots' frustration, the elders' delusion, and detail of dragons being drained and harvested for armor, filed under the same dragon-lore subject
+- brought: Across the stretch the author brought a running mix of established plan details (romance pacing, sleep-arrangement lore, faction and character backstories, dragon and Aquileian arcs) plus outside source material (EaW flavor text, canon episode transcripts, a companion fan-work) to extend, correct, or interrogate, and late in the stretch shifted to asking the model to retrospectively trace how several of its own themes and characters had been built up over the whole planning process.
+- loop: The author repeatedly floats or revises a plan point or scene idea and the model turns it into structured, verdict-bearing analysis with mechanics and scene drafts; the planning database then keeps back small fragments of that exchange — a verdict line, a mechanism explanation, or the author's own restated plan detail — filed onto specific plot-point, link, and subject entries for later reuse, while most of the model's expansive option-lists and retrospective syntheses leave no trace in the kept notes.

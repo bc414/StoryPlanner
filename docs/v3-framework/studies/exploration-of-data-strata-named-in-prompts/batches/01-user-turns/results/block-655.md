@@ -1,0 +1,4 @@
+- sources:
+  - Sample2.md | treat as the material to read and draw examples from for each taxonomy category, and to check for text that sits outside the taxonomy; the user's own authored entities | Please peruse this separate sample of entities | first-named
+- order:
+- about: The user attaches a new sample of their own entities and asks the model to find examples in it for each category of the just-proposed taxonomy, say which categories have none, and flag any sample text that fits outside the taxonomy.

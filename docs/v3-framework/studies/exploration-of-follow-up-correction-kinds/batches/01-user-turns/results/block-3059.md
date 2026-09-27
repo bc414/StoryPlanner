@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new follow-up question, asking whether the WW2 meat grinder scene that Réni and Minette witness survives the new ontology and which notes in the v1 and v2 archives need checking, without disputing anything in the model's previous answer.

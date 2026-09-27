@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model framed Applejack's synthesis as 'the Right to be Ordinary' and worth being intrinsic. The user says the synthesis should carry a different takeaway: the difference between people content with passive pastimes and people driven to them because higher participation is structurally out of reach. | 'The takeaway for the reader should be' and 'That is what I want to come out of Applejack's synthesis' | Implicit redirection: the intended theme is stated flatly as what the user wants, without saying the model was wrong, and closed with a mild check question ('Does this work?').
+- about: The user replaces the model's thematic reading of Applejack's synthesis with the takeaway they actually intend, about structurally blocked participation versus contentment, and asks whether it works.

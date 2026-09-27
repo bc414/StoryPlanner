@@ -1,0 +1,6 @@
+- sources:
+  - this early brainstorming I had (the pasted notes on the Herzlander Vérany ideal, the Gaudreau way, Aquila, Skyfall and other cities) | early, provisional ideas to be analyzed, not settled canon; the model is to judge them against the plan | Give an analysis on this early brainstorming I had | first-named
+  - my current story plan | the standard the brainstorm is checked against, to sort each idea as already integrated or not yet integrated | whether these ideas are already integrated into my current story plan or not yet integrated | referred-to
+  - New York City and its suburbs in industrial America, 1950s and 1970s America | real-world history the model is asked to supply from its own general knowledge, as a comparison for Skyfall | What was New York City and its suburbs like during industrial America or 1950s or 1970s America with cars? | first-named
+- order:
+- about: The user pastes an early brainstorm on industrial cities, suburbs and countryside across the story's nations, asks the model to say which of its ideas are already in the current story plan and which are not, and asks what New York City and its suburbs were like in past American eras.

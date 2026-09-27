@@ -1,0 +1,8 @@
+- relations:
+  - 105 | 141 | 105 stages on the page, through Bright Mac's account of sales, what 141 asks the reader to infer: a limited market that sets rivals against each other | Pears sold more jam, the Apples missed those sales / A finite market leads to the predator's dilemma | implicit
+  - 105 | 107 | 105 states that the families cared more about the feud than about growing fruit; 107 gives the reason the reader should infer for that, that the feud is the only higher purpose apart from the fruit | cared more about the feud than growing fruit / the feud is the only thing that has higher purpose | implicit
+  - 107 | 106 | 107 gives the conditions (no external threats, low stakes) under which 106's general claim holds, that the feud takes the place of ambition when other outlets are absent | Without external threats or great causes / when all other avenues (growth, profit) are lobotomized | implicit
+  - 141 | 106 | 141's finite market is one way the profit and growth avenues that 106 calls closed off come to be closed | A finite market / all other avenues (growth, profit) are lobotomized | implicit
+- outward:
+  - 105 | the earlier history of the Apple and Pear feud and the two families' past, told as "back then" and held outside this item | how back then, sales were a zero sum game, leading to a feud
+- whole: ["The four written notes hang together as one line of thought on why the feud exists, with the on-page account in 105 supporting the inferences in 141, 107 and 106, while note 143 is empty."]

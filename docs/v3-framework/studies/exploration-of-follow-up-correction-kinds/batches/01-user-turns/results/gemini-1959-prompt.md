@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to produce a fresh synthesis that folds in newer insights about Grover 3 and wider Griffonian history, without saying anything in the earlier synthesis was wrong.

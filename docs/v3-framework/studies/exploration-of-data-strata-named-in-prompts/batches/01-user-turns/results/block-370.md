@@ -1,0 +1,6 @@
+- sources:
+  - the story plans | review them as the body of material to check the new Conscience-reveal addition against and analyze it thoroughly | "review the story plans" | referred-to
+  - Friendship is Magic part 2 (Twilight's anime-style declaration to Nightmare Moon) | use as the model the new declaration to Celestia deliberately parallels, with the audience addressed in both | "In Friendship is Magic part 2, Twilight's long animé style declaration" | referred-to
+  - Celestia's season 1 appearances | use as the style reference for how Celestia's chuckle and line should sound | "in the style of Celestia's season 1 appearances" | referred-to
+- order:
+- about: The user proposes placing Twilight's discovery of the sixth hidden element, Conscience, in the Dilemma chapter and having her pitch it to Celestia in the show's vocabulary at the start of Equity, while keeping the election-arc tension and the late reveal about the Stagnation of Harmony, and asks for a review of the story plans and a thorough analysis of this addition.

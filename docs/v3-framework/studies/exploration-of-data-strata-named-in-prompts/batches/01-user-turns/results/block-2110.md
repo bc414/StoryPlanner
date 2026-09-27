@@ -1,0 +1,8 @@
+- sources:
+  - The model's earlier three-way split of Aquileia | replace it; the user's five-part taxonomy is offered as the better one | Here is a better split | referred-to
+  - The user's own five-system taxonomy of Aquileian civ systems (Feudal Aquileia, Warlord Aquileia, Gerad Discret's Central Aquileian State, Coltbert's Aquileia, Verany's 1st Aquileian Republic) | adopt as the proposed structure, with the dates and boundaries the author gives | a complete taxonomy for the different systems which have different meanings which I am proposing | first-named
+  - Warlord Griffonia (The Honest Racket) | existing subject that is not to absorb Feudal Aquileia; it was meant to mean Herzland and should be made precise | I think the warlord griffonia was supposed to mean Herzland and needs to be made precise | referred-to
+  - Griffonian Republic | existing civ system that the 1st Aquileian Republic is kept separate from, because Aquileians differ from Herzlanders | It's separate from Griffonian Republic | referred-to
+- order:
+  - The user's five-system taxonomy over the model's earlier three-way split | Here is a better split
+- about: The user replaces the model's proposed three-way split of Aquileia with their own five-system taxonomy, giving dates, boundaries and reasons for each, and noting how it relates to the existing Warlord Griffonia and Griffonian Republic subjects.

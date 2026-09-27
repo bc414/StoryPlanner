@@ -1,0 +1,12 @@
+- asks:
+  - review | examine Luna's overall character arc as it stands across the plan | "please examine Luna's existing arc"
+  - review | revisit the story plans again in order, beginning from three named plot points | "Review the story plans again, starting with Luna's retreat order in Tall Tale... Combined Arms meeting"
+  - develop | sharpen/extend Luna's arc by working out and incorporating the proposed sequence (failed reassurance dreams, giving up, resuming with firmer promises, using nightly dreamwalking to sort victims from collaborators before the paradrop) | "To sharpen this further" and the proposal that follows, including "Perhaps she gave up which is deeply shameful?"
+- supplies:
+  - list | three named story-plan touchpoints to revisit: Luna's Tall Tale retreat order, her Manehattan nightmares, the Combined Arms meeting's Bluebell River Spearhead decision | a few lines
+  - sketch | the user's own proposed continuation of Luna's arc: giving up on hollow reassurance dreams, later resuming dreamwalking with firm promises, and using it to identify collaborators before the encirclement paradrop | a paragraph
+- shaping:
+  - proceed through the material in the given chronological order | "starting with... eventually... the Combined Arms meeting"
+  - factor in the stated timeline detail that encirclement is roughly four months after the initial plan | "which is probably 4 months after the initial plan"
+- openness: Leans toward an answer it names: the user lays out a specific proposed sequence for Luna's arc (guilt-driven withdrawal, firmer return, dreamwalk-based vetting of trusted ponies) and asks the model to examine and sharpen it rather than leaving the arc open-ended.
+- subject: Developing Princess Luna's dreamwalking arc and its role in vetting collaborators before the Canterlot paradrop

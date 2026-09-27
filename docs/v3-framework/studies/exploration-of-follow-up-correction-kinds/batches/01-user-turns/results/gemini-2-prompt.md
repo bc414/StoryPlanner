@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether comparable fandom-specific fiction sites exist for other fandoms, building on the description of Fimfiction without disputing anything in it.

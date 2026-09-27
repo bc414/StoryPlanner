@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model treated P&K's detection-spell ontology as a baseline TLTT must retain or diverge from, framing options around keeping P&K's mechanics (Option 1), when the user's project is to subvert P&K rather than adopt or accommodate its ontology | Keep in mind that I am subverting P&K, not adopting its ontology | flat, brief reminder stated as a constraint, with no reason or elaboration
+- about: The user briefly reminds the model that their project subverts P&K's ontology rather than adopting it, redirecting how the model framed the detection-spell options.

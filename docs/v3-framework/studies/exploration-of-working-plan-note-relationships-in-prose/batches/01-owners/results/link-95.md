@@ -1,0 +1,9 @@
+- relations:
+  - 2476|2477|the inference explains the action: her checking off an old goal is the performing against Gilded Lily's criteria that she cannot stop, and the missing celebration is the flat result of it|She cannot stop performing against the evaluation criteria; checks off the "30 years you'll own their assets"|implicit
+  - 2478|2476|the thematic note builds on the psychology: the evaluator being gone (Gilded Lily dead) is the condition that makes the performance meaningless, and the pyrrhic feel is the evidence|when the evaluator is gone and the goals are obsolete; even fourteen years after Gilded Lily passed away|implicit
+  - 2478|2477|the theme takes the checklist act as its instance: ticking off a stated goal, now late, is the performance against stated goals that no longer earns anything|performance against stated goals earns recognition; original checklist|implicit
+- outward:
+  - 2476|Gilded Lily, a character who set her evaluation criteria and died fourteen years earlier, held elsewhere|Gilded Lily installed; passed away
+  - 2477|the original checklist and the buyout deal with its 30-year asset ownership, set up elsewhere in the plan|the original checklist; "30 years you'll own their assets"
+  - 2478|the transactional parenting model, a background of how she was raised, not laid out in this item|the transactional parenting model's final lesson
+- whole: The three notes hang together as one small set: an action on the page, the psychology it shows, and the thematic lesson drawn from both.

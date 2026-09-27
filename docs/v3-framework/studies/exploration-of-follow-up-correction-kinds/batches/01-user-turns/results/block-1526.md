@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - register or format | The table's track identification: tracks were labelled by letter codes, and the user wants a descriptive name in the leftmost column with the plus-sign letter combination in parentheses beneath it | "give each track a name in the leftmost column" and the letters in parentheses under the name | flat directive, stated as a layout instruction
+  - register or format | The display questions and usage directives used the letter codes in their wording, and the user wants them written without the letters | "Don't use the letters in the display questions or usage directives anymore" | flat directive, with "anymore" showing it is a change from earlier practice
+  - register or format | Examples in the table entries, which the user wants left out to avoid overfitting and to keep the entries at first principles | "don't include an example because that will lead to overfitting. Stick to first principles" | flat directive with the reason given
+- about: The user asks for the full table covering every subject type, with first-pass display questions and usage directives, and sets format rules that reverse earlier habits (named tracks, no letter codes in the text, no examples).

@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2030 | Applejack's cutie mark story as it was previously told elsewhere in the work, the version this note calls a fairy tale | Applejack reveals her cutie mark story was a fairy tale version
+- whole: The owner holds only one note, so there is nothing in it to hang together or to separate.

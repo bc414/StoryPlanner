@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The company name the model invented, Eternal Harvest Exports, is rejected because it should relate to Sweet Apple Acres | The company name should have to do with Sweet Apple Acres | flat, stated as a requirement without a reason
+  - reading of the plan | The model's account of the Union plot, with the union striking over the parents' impossible pace, is rejected: the union has no issue with the parents' company and is instead trying to nationalize factories producing nothing for the war because their owners are hidden collaborators | the union has no issue with the parents' company. They are trying to nationalize factories who are actively producing nothing for the war | flat, direct statement of the actual premise, with a brief reason about hidden collaborators
+- about: The user pushes back on two elements of the model's proposal, the company name and the Union's motive in the nationalization plot, and restates what the Union is actually targeting.

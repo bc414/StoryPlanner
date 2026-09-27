@@ -1,0 +1,7 @@
+- relations:
+  - 1864|1863|1864 reads the invincibility the zeppelins project as a lie, and 1863 gives the grounds of that appearance (out of musket range, slow leaks, many compartments, warlords helpless) and the fact that the fleet explodes at Mount Aris; the thematic note presupposes these as its evidence|the zeppelins projected a lie of invincibility until the white phosphorus rounds exposed the lie|implicit
+  - 1864|1863|the exposure in 1864 is an instance of the fleet-wide explosion in 1863 when fighter planes with white phosphorus rounds attack|white phosphorus rounds exposed the lie spectacularly|explicit
+- outward:
+  - 1864|the theme's claim about truth and authentic conviction defeating intentional lies, held as a thematic proposition beyond this item|authentic conviction is required to defeat intentional lies
+  - 1863|the Storm King, the warlords, and the battle at Mount Aris as figures and events held elsewhere in the story|Storm King ... Mount Aris
+- whole: The two notes hang together, since the thematic note simply reads the invincibility-then-collapse arc laid out in the ontology note as evidence for its theme.

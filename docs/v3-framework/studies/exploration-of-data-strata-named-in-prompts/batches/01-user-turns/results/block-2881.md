@@ -1,0 +1,4 @@
+- sources:
+  - first principles analysis from math | the model is asked to answer from general mathematical reasoning, as a grounding for whether the axes must be orthogonal and whether a 2x2 with only 3 populated cells is still valid | what is the first principles analysis from math? | referred-to
+- order:
+- about: The user questions the orthogonality assumption behind the six axes and asks the model to give a mathematical first-principles account of whether a 2x2 with only three populated cells is still valid.

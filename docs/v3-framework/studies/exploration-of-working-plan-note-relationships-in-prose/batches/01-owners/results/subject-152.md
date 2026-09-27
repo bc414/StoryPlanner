@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2550 | a distributed, competition-based system and its losers, presumably a society or institution established elsewhere in the project | the distributed system's losers seek concentrated power
+  - 2550 | a preservation system and its losers, whose old identity was "failure", presumably a society or institution held elsewhere | The preservation system's losers seek erasure because their identity under the old system was "failure."
+- whole: Only one note is attached to this owner, so there is nothing to join it to and it reads as a single standalone thematic entry.

@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 101 | The crystal trade to Aquileia, kept from Celestia, which is a matter held elsewhere in the plan | hide the crystal trade to Aquileia from Celestia
+  - 101 | Celestia, a character who is not in this item and whose stance is only implied | from Celestia
+- whole: This owner holds a single note, so there is nothing in it to hang together or fall apart, and it stands as one entry.

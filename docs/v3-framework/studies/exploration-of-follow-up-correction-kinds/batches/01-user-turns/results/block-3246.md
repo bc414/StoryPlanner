@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Colthage audit and moves to a new question, asking how their zebra Great Lakes system compares to the real Great Lakes highlands analogy, where it differs, and whether those differences help or harm the story.

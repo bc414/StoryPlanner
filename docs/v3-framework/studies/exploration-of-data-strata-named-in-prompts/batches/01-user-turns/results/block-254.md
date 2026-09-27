@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's claim that one Manehattan company and SAA aid drove the GR economy, and asks the model to work out how large that impact would be and what different scales of impact would mean for the story and its history.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Dual State analysis and asks a fresh question, requesting more on Peter the Great's life and how it parallels Chrysalis, without disputing anything in the prior answer.

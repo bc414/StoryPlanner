@@ -1,0 +1,4 @@
+- sources:
+  - the author's own intent for the Oblivion chapter (what the user imagined, and what happens in the chapter) | treat as the authoritative account of why the title is subversive, correcting the model's reading of Oblivion as only the threat | I imagined the reason Oblivion is subversive | referred-to
+- order:
+- about: The user corrects the model's reading of the title Oblivion by restating their intended design, in which the reader expects war or destruction but the chapter delivers economic purpose as the cure.

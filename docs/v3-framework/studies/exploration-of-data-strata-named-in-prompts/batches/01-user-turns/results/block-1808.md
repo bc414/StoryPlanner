@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to bring OpenStreetMap into the discussion of non-extractive platforms and to add any other relevant examples, without pointing at any body of material to draw on or avoid.

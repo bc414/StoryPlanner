@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the perspective analysis to a new request, asking for a comparison of their six Pokemon-story protagonists with the MLP mane six, and adds background that the Pokemon cast was invented before they knew MLP.

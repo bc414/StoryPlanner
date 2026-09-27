@@ -1,0 +1,12 @@
+- steps:
+  - author | asks | whether Aquileians live in Manehattan and work at or open parloirs | opening prompt of the stretch
+  - model | maps a tiered system | three-tier hierarchy of nightlife venues (Aquileian-owned, Tzinacatl-run, Equestrian copies) plus spy-network and Rarity-rivalry implications | reply to the opening question
+  - author | supplies the full plan | attaches the entire story-plan export as a document | second prompt
+  - model | reviews then restarts | a structural/thematic critique of the whole plan, followed by the start of a fresh answer to the Aquileian question that cuts off mid-list | reply to the attached plan
+  - author | resubmits the same attachment | the identical plan export a second time | third prompt
+  - model | completes the framework | demographics table, class motivations, Celestia's tolerance logic, and integration steps for Aquileians in Manehattan | reply to the resubmitted plan
+  - author | confirms and generalizes | restates the 'service disguise blinds Celestia' logic, applies it to thestral therapists, and poses a parallel question about Skyfall expats | fourth prompt
+  - model | extends the same framework | parallel analysis of Skyfall expats: legal quarantine, shell-company/proxy loophole, tie to Chrysalis's economic infiltration and to Applejack's parents' backstory | reply to the Skyfall question
+- kept:
+- brought: The author brought a full export of the running story plan and a standing worldbuilding question about which foreign groups populate Manehattan's service economy, to test against factions already in the plan (parloirs, Tzinacatl, Skyfall, FJA).
+- loop: The author poses an open question about an unaddressed group's place in the setting, the model returns a structured sociological breakdown (function, demographics, motivation, relation to authority, narrative payoff), and the author confirms that framework and pattern-matches it onto a new group to restart the cycle; none of this exchange's output was traced into the planning database.

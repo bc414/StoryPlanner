@@ -1,0 +1,6 @@
+- sources:
+  - the model's earlier account of the GR flaw ("can't accommodate artisans") | treat as incomplete and correct it; the real flaw is reliance on a trauma engine of existential threat, and artisans are in fact allowed in tech startups | "more acute than just" | referred-to
+  - canon FiM (Gilda's exchange program in Cloudsdale, Cranky Doodle Donkey and Matilda as citizens, Gustav Le Grand as a chef) | use as supporting evidence that the soft-assimilation plan is consistent with the show | "align with canon FiM because" | referred-to
+  - real France's history of erasing regional dialects | use as a contrast: Aquileia did not do this, and its in-world attempts (Gerad Discret and Vérany) failed | "unlike real France" | referred-to
+- order:
+- about: The author corrects the model's account of the Griffonian Republic's flaw and adds that both Equestria and Aquileia practise soft assimilation, backing this with canon FiM examples and a contrast with real France.

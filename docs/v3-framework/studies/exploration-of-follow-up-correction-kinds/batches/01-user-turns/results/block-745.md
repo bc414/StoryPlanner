@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the two-panel, link-as-pivot design as given and asks a new design question: whether link note tracks should change presentation (read-only, de-emphasized or hidden) depending on whether the link is reached from the subject side or the plot point side.

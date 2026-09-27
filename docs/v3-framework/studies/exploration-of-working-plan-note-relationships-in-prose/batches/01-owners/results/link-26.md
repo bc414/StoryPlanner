@@ -1,0 +1,6 @@
+- relations:
+  - 496|497|note 497 gives the reason behind the behavior in note 496: what keeps Ember in the room when she is insulted and ready to leave is her friendship with the Mane 6|Ember is insulted and ready to leave / Only her explicit friendship with the Mane 6 keep her in the room|implicit
+- outward:
+  - 497|the Mane 6, a group of characters held elsewhere in the story, and Ember's friendship with them|her explicit friendship with the Mane 6
+  - 496|Canterlot and the plan to take it back, a place and event held elsewhere in the story|Dragons forbidden from attacking Canterlot because of collateral damage
+- whole: The two notes hang together as a pair: one stages Ember's insulted reaction on the page and the other explains what holds her there.

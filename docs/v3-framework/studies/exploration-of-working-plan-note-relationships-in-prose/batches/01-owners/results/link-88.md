@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2369|Gilded Trust, another organization whose demand of the workers is held elsewhere in the plan|what Gilded Trust is asking
+  - 2369|Comet Shine, a character who is present in the scene and explains to the workers; his own notes are held elsewhere|Comet Shine explains to the workers
+- whole: Only one note is held here, so there is nothing to join it to and the owner reads as a single standalone entry.

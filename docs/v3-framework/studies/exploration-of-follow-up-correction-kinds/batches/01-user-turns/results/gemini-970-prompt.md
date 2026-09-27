@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast Chrysalis as both OPEC and the US military enforcing the currency's use. The user places the fleet-and-shipping-protection role with Skyfall, which stole the Imperial fleet, and gives Chrysalis the opposite stance: a submarine blockader who destroys shipping by terror. | Skyfall stole the entire Imperial fleet... use fleet to protect shipping; she built a submarine fleet to blockade via terror | Gentle and indirect. It is framed as a refinement that adds story facts and ends with a check question, and never says the earlier mapping was wrong.
+- about: The user refines the petrodollar analogy by assigning the fleet and shipping protection to Skyfall and a terror-blockade submarine strategy to Chrysalis, then asks whether her black-market Red Love sales would be priced in Skyfall Marks and whether she profits by controlling supply.

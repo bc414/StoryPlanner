@@ -1,0 +1,17 @@
+- sources:
+  - The refined architectural design, the five layers (world truth, objective/omniscient timeline, character psychology, syuzhet plan, thematic argument) | audit and verify; judge whether it is the proper setup for TLTT and its prequels and why, not accept it as settled | verify and audit the refined architectural design | referred-to
+  - Methodology of published writers of epics | check whether the five layers were adapted from it | adapted from the methodology of published writers of epics | first-named
+  - Other written works, other fanfiction, other literary advice | compare against to draw distinctions from TLTT; use as parallels through first principles rather than as rules to follow | apply parallels and advice to my work without following rules | first-named
+  - The author's account of how he arrived at the current story plan (steps 1 to 11) | use as context to analyze how it shapes the current data, why he is doing things, and what comes next | I will provide context of how I arrived at the current story plan | first-named
+  - The Princess and the Kaiser and Pax Chrysalia | origin point of the project (fork point) and a cynical foil that TLTT is meant to contrast with | fork The Princess and the Kaiser at the point where Applejack decides to be a collaborator | first-named
+  - Equestria at War | inspiration and basis of the setting; its Hasbro-mandate handling is what TLTT reworks | I found Equestria at War | first-named
+  - The Lauren Faust vs Hasbro meta narrative | framing that shapes the themes and the in-universe Stagnation of Harmony and Celestia; not for bashing Hasbro | Applying the Lauren Faust vs Hasbro meta narrative | first-named
+  - The author's own Pokemon fanfics and the NotebookLM analysis of them | source of the author's stated preferences (materialism, agency over destiny, third person limited), treated as foundational and as the answer to where the five layers come from | Notebook LM to analyze my previous Pokemon fanfics | first-named
+  - The author's lived experience (demographic, politics, family refugee history, central NJ upbringing) | context that informs the themes and world building and should be taken into account in analysis | themes of the story are informed by my lived experiences | first-named
+  - The story planner data and entities (the story bible) | current state described as info dumps by subject, to be analyzed and reorganized | the entities are info dumps by subject | referred-to
+  - The story planner code base | synthesize with the project history and suggest improvements | synthesize with the code base | referred-to
+  - The Gemini system instructions | synthesize with the project history and suggest improvements | the Gemini system instructions | referred-to
+  - The workflow (Gemini for inspiration and lore expansion, Claude for full answers, reorganizing the planner first) | synthesize, suggest improvements, and analyze | and the workflow | referred-to
+  - Gemini's analysis output | treated as inspiration and never as definite; iterated on | never took what Gemini outputted as analysis as definite | first-named
+- order:
+- about: The user endorses the layered architecture, then asks the model to audit where the five layers come from and whether they suit TLTT and its prequels, to explain what makes the project an epic, and, using his supplied project history, to synthesize with the code base, system instructions and workflow and recommend improvements, next steps and a roadmap.

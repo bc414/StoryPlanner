@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's real-world claim that nitrocellulose smokeless powder was the standard WW2 propellant and gives Mach 2+ rounds is doubted and put back to the model for checking | Is the WW2 era standard propellant nitrocellulose? And this leads to Mach 2 speeds? | put as pointed yes/no questions, with the doubt implied rather than stated
+  - reading of the plan | The model's supply chain gives the Pegasi only ordinary WW2-level propellant from nitrogen fixation, which the Changelings would have too. It gives no edge and does not reach the Mach 4 the story's Pegasi are meant to have | changelings would be using WW2 standards from huge haber Bosch factories. How do the pegasi go from standard to Mach 4? | a reasoned objection ending in an open question, which shows the gap without saying the model was wrong
+- about: The user challenges the model's chemistry claims and points out that its explanation gives the Pegasi no advantage over Changeling WW2-standard industry, so it does not account for Mach 4.

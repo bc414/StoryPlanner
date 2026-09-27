@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's production-nationalism synthesis and builds on it, restating the FJA/PNdA cultural split under one harmonic capitalism model, proposing how the Second Republic's war bonds are financed, and adding background on Vérany's pan-Griffonian past and the PNdA's shift to nationalist industrialists.

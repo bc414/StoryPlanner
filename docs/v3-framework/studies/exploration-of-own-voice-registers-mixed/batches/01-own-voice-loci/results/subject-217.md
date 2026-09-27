@@ -1,0 +1,16 @@
+- passages:
+  - 4039 | declarative expository | present/past tense factual claims, third person | changeling origin, habitat, and evolved love-eating | apart
+  - 4039 | production/planning annotation | parenthetical, brief tag | note on how this lore gets revealed in-story | apart
+  - 4040 | declarative expository | causal past-tense chain, third person | jaegers preying on each other once threats gone, drones starving | apart
+  - 4333 | declarative expository | short factual assertions, third person | pattern of hive warfare, coined as sustainable/perpetual war | apart
+  - 4333 | reasoning aside with second-person address | 'no reason to', 'your enemies', justification form | logic for why jaegers target rivals not civilians | apart
+  - 4333 | declarative expository | short factual assertions, third person | red-love addiction mechanics, queens as apex predators | apart
+  - 4562 | declarative expository | past-tense narrative statements, third person | pre-historic hive life sustained by meat and friendship | apart
+- shifts:
+  - 4039 | declarative expository | production/planning annotation | parenthesis marks switch from world-fact to a note on narrative delivery
+  - 4333 | declarative expository | reasoning aside with second-person address | shift into 'no reason to... your enemies' justification phrasing
+  - 4333 | reasoning aside with second-person address | declarative expository | returns to plain third-person factual statements ('Draining red love gives...')
+  - 4040 | | |
+  - 4562 | | |
+- registers: declarative expository; reasoning aside with second-person address; production/planning annotation
+- whole: These notes sit mostly in one steady declarative-expository register, with two localized departures — a second-person reasoning aside in 4333 and a bracketed production note in 4039 — each set apart as its own passage rather than blended into the surrounding sentence.

@@ -1,0 +1,6 @@
+- asks:
+  - explain | give information about the novel 1984 | "Tell me about 1984 the book"
+- supplies:
+- shaping:
+- openness: open, the message names only the subject (the book 1984) and gives no direction on what aspects to cover or how to shape the reply
+- subject: the novel 1984 by George Orwell

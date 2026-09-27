@@ -1,0 +1,8 @@
+- steps:
+  - the author | asks | a factual question about which episode made the term Pinkie Promise official | opening of the conversation
+  - the model | answers | names an episode and describes the chant's debut | first reply
+  - the author | corrects | points out the named episode only has the chant, not the term itself, and identifies a later episode as the actual first use, then asks whether fandom or season 2 writers coined the term | second author turn
+  - the model | concedes and analyses | agrees with the correction, then lays out a theory of simultaneous invention between fandom usage and the writer who scripted the later episode | closing reply
+- kept:
+- brought: The author brought their own recollection of the show's episode order to correct the model's claim about when the term "Pinkie Promise" was first used on-screen.
+- loop: The author brought a continuity question and then a correction plus a follow-up about term origin, and the model supplied an answer and then a speculative account, but none of this exchange was carried into the planning database.

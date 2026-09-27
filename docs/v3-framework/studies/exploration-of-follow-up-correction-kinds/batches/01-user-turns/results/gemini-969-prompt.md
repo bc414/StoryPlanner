@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's story analysis and asks for a formal explanation of how the real oil and dollar system works, checking their own understanding of it, apparently to inform the fictional energy economy.

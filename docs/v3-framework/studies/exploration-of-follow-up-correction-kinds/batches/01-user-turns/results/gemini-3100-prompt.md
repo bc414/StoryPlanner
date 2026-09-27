@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of the Scootaloo plan as the template and asks for the same kind of analysis of a different canon-FiM plan, about Fluttershy and Rarity, and how it relates to TLTT.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for the etymology of the piezoelectric effect and for a suggestion of what visual glow the Idol of Boreas should give off in the presence of ambition, defining ambition as magic from a biological creature, without pointing at any body of material for the model to use or avoid.

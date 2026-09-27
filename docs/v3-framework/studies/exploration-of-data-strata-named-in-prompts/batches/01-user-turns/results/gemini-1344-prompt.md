@@ -1,0 +1,5 @@
+- sources:
+  - my earlier plan for Chrysalis betraying Eagleclaw, including that Eagleclaw was supposed to die | treated as the previous version of the plot, now being revised in light of the new dynamic; the user is weighing the new idea against it, not discarding it outright | I previously was planning on Chrysalis betraying Eagleclaw because | referred-to
+  - the best-friends dynamic where Eagleclaw knows Chrysalis is a changeling (the revision just discussed) | provisional; the user finds it devastating but questions whether it holds together, since best friends would surely know | if they are best friends it is too unlikely that Eagleclaw wouldn't know | referred-to
+- order:
+- about: The user reacts to the model's proposed revision by contrasting it with their earlier plan for Chrysalis's betrayal of Eagleclaw, and works through whether Eagleclaw should know the bug insult and reveal it early or stay silent under VOPS threat until the final testimony.

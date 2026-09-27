@@ -1,0 +1,7 @@
+- sources:
+  - situational awareness and the updraft to avoid being tailed (the model's earlier suggestions) | accepted as workable, keep them | makes sense | referred-to
+  - control of bullets (the model's earlier wind-bent bullet suggestion) | rejected as too much of a stretch, do not use | I don't think control of bullets works | referred-to
+  - Celestia's illusion of non-magical weapons (from the earlier discussion) | drop this constraint at the Wonderbolts' HQ | Don't worry about Celestia | referred-to
+  - modern chemistry (the model's general knowledge) | draw on it to work out how to carry far more than 15 seconds of ammo, including lighter ammo | using modern chemistry | referred-to
+- order:
+- about: The user accepts some of the model's fighter-tactics ideas and rejects bullet control, drops the Celestia constraint, adds that Aquileian aces work with the Wonderbolts, and redirects the model to how modern chemistry, Crystal Empire crystals and a stronger engine could give much more than 15 seconds of ammo.

@@ -1,0 +1,4 @@
+- sources:
+  - the "narrative loom" app plan that I just planned with you in this conversation | the model is to build the model classes from the plan the user made with it earlier in the current conversation | planned with you in this conversation | referred-to
+- order:
+- about: The user asks the model to produce the model classes for the Blazor app they say they already planned with it earlier in this conversation, for their Equestria at War fanfiction.

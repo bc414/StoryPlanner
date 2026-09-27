@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model read the Gemini file as if its lines ran in forward chronological order, so its account of where 'nursery' originated, which message came first and how it spread is built on the wrong ordering of the source | Keep in mind that the text file has the prompts in reverse chronological order | flat, stated as a background fact to be applied, with a direct instruction to redo the analysis
+  - reading of the plan | The model's diagnosis of the term's origin, its propagation path and its verdict that the term was never the user's and was entirely Gemini's invention, all of which depend on the sequence it assumed | do a reanalysis | flat, brief instruction to redo the whole diagnosis, implying the earlier conclusions cannot be trusted, with no explanation of what is wrong
+- about: The user tells the model that the source file is ordered newest-first, which undermines its origin story for 'nursery', and asks it to redo the analysis.

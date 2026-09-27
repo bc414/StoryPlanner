@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's warning scene has a Skyfall-connected tycoon, vaguely named and left as an unwitting intermediary, deliver a VOPS threat in 1003. The user treats this as unsettled: it is unclear who in the story's plans could know VOPS exists that early. | Who in my story plans would know that VOPS exists and can warn Blueblood this early? ... I'm wondering if there are any better options | Indirect and tentative. It is put as questions and a stated timeline constraint, with the user's own candidates offered, and the model's tycoon is never named or rejected outright.
+- about: The user asks the model to develop the VOPS warning scene in more detail, and in doing so questions who could plausibly deliver it in 1003 given what the story plans allow, offering their own candidates and asking for better ones.

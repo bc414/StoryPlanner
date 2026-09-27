@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's conclusion in their own words to check they have it right, then moves to a new, broader question about people who grow up with AI, what the future looks like, and whether they themselves learned anything new.

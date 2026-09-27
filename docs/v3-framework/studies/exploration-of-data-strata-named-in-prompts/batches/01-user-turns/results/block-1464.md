@@ -1,0 +1,6 @@
+- sources:
+  - this framework / the current axes (4 axes each with two values) | the thing under evaluation: check it for whether any axis has more than two meaningful values and whether other meaningful axes are missing | this setup of 4 axes each with two values | referred-to
+  - Allegorical | treat as already separate and outside the combinatorics; do not look there for more tracks | Allegorical sits completely separate | referred-to
+  - Garden Notes | treat as already separate and outside the combinatorics; do not look there for more tracks | so does Garden Notes | referred-to
+- order:
+- about: The user asks whether the four-axis, two-values-each framework is suitably exhaustive, asking the model to look for axes with more than two values or additional axes, while excluding things that can simply sit separately, such as Allegorical and Garden Notes.

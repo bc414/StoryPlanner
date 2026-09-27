@@ -1,0 +1,10 @@
+- sources:
+  - Scootaloo Story | treated as the author's own headcanon for a FiM fanfiction that predates TLTT, not as part of TLTT itself | The "Scootaloo Story" is just my headcanon for a FiM fanfiction before TLTT | referred-to
+  - TLTT, chapter 17 Breakthrough (Scootaloo gets the ailes de rosée spell matrix) | treat as the actual story content to build on; Scootaloo's flight there is the anchor for the new idea | In TLTT, Scootaloo actually gets a spell matrix to fly | referred-to
+  - TLTT, chapter 16 (Rainbow Dash's talk with Twilight Velvet, outgrowing Daring Do, reading the Count of Mont Borée) | treat as established story content to relate to the chapter 17 scene | Rainbow Dash is also reading the Count of Mont Borée after her talk with Twilight Velvet | referred-to
+  - TLTT, chapter 12 (Alouette tells Twilight she doesn't care if the love donator makes her flow stabilizer job obsolete) | treat as established story content to connect to the combined scene | Alouette telling Twilight at the end of chapter 12 | referred-to
+  - the db file | to be reviewed for the relevant parts before the analysis is given | Please review the relevant parts of the db file | referred-to
+  - canon FiM show (Scootaloo's arc) | reference for what readers who followed Scootaloo's arc would think, used to give the flightlessness theme its weight | what readers who followed Scootaloo's arc in the canon FiM show would think about | referred-to
+  - the author's own plans for Alouette (spell matrix made in 985 for the chasseurs and for her parents, mass production in 1011 via the love harvester) | provisional ideas, framed as what the author is thinking, to be analyzed | I'm thinking Alouette is the one who made the spell matrix for the chasseurs back in 985 | first-named
+- order:
+- about: The user offers a new plot idea tying Alouette Bleue to the ailes de rosée spell matrix and to chapters 12, 16 and 17, and asks the model to review the db file and analyze it, including a subtle in-universe way to point readers to the Scootableu username Easter egg.

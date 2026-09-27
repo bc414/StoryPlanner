@@ -1,0 +1,13 @@
+- asks:
+  - plausibility check | asks whether it is realistic for some level 1 conscripts to be illiterate and for the native changeling language to have no written form at all | "Is this realistic?"
+  - choice between named options | asks whether native changeling should stay unwritten or instead have an undeveloped script lacking words for industrial concepts | "Or should they have an undeveloped written language that doesn't have words for industrial concepts?"
+  - open brainstorm | asks what the language dynamics among prisoners would be at Camp Fluttershy given the stated use-cases of the three languages | "What will be the language dynamics at Camp Fluttershy?"
+  - factual/historical check | asks whether German POWs, as the real-world analogue being drawn on, learned English | "Did German POWs learn English?"
+- supplies:
+  - conscript demographics note | mix of level 1 conscripts (some illiterate) and demoted former level 2 workers (literate in Herzlander) making up the camp population | a short paragraph
+  - three-language system notes | Herzlander (imported elitist high/industrial/military language, most drones' likely literacy), native changeling (Xhosa-based, clicks, oral-only, family/low-status language), and Equestrian (target language of integration, tied to benefactors) | several short paragraphs
+  - Camp Fluttershy use-case notes | stated purpose of each language at the camp: native changeling for warmth/identity reclamation despite no written media, Herzlander as most-read/only language for some but marked as "language of Imperialism," Equestrian as a costly but rewarding integration effort | a few sentences per language
+  - supporting character/story details | cutie-mark-weaving drones likely needing Equestrian to talk with off-duty soldiers about their marks; Fluttershy's robotic Herzlander-to-Equestrian translator from Henri, and the idea she would learn native changeling herself | a few sentences
+- shaping:
+- openness: The message mixes stances across its questions: it asks for a straightforward realism check on illiteracy/unwritten language, poses an explicit choice between two named options for how native changeling's writing status should work, leaves the Camp Fluttershy language-dynamics question fully open for brainstorming, and asks a factual yes/no historical question about German POWs learning English.
+- subject: Realism and dynamics of the three in-world languages (Herzlander, native changeling, Equestrian) among changeling conscripts and prisoners at Camp Fluttershy

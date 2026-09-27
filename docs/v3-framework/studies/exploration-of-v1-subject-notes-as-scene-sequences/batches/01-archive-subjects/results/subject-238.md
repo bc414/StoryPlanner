@@ -1,0 +1,13 @@
+- passages:
+  - 4200 | statement about the subject | Gabriella Eagleclaw is an ambitious duchess and Grover V's older cousin; she was 16 when his father died while he was a child | 977 | describes her standing and age, with the year given as a reference point rather than a staged event
+  - 4200 | statement about the subject | her character: she resented Herzland's patriarchal culture, was shrewd, intellectual and passionate, with a big ego and the skills to match | none | descriptive traits in past tense, no event
+  - 4201 | scene beat with year | the Reich falls to the Republic and Eagleclaw at once begins planning a counter revolution | 978 | dated event followed by her reaction, 'immediately'
+  - 4201 | scene beat without year | Chrysalis approaches Eagleclaw and pledges full support: changeling infiltrators, and tanks led by Synovial (first changeling tanks copied from Reich ones); she appeals to Eagleclaw's ego and girlpower as a power queen | none | an approach and offer made to a person, following the planning; no date of its own
+  - 4201 | statement about the subject | Chrysalis's state at this point: finished her Herzlander education, bent on world conquest, seeing Eagleclaw as a powerful ally to manipulate | none | 'At this point' background on motive and standing, present-tense description
+  - 4212 | statement about the subject | Eagleclaw does not want Eros as the face of any counterrevolution because he hates the nobility | none | a stated position or attitude, not an event
+  - 4212 | scene beat without year | Chrysalis steers Eagleclaw toward bribing and allying with the industrialists instead | none | an action of steering, undated
+  - 4213 | statement about the subject | the industrialists' promise of 'clothes for all' was subconsciously read by the people as 'civil rights for all' | none | explanation of a misreading, no moment shown
+  - 4213 | scene beat without year | Chrysalis, as Eagleclaw's helper, offers the industrialists straight bribes instead of meeting the people's expectations, being easier | none | an act of offering bribes with a rationale; undated
+- sequences:
+  - 4201 | 3 beats: the Reich's fall and Eagleclaw's planning, then Chrysalis's approach with her offer | year 978 opening, 'immediately', then approach follows in order
+- whole: A small set of notes on Gabriella Eagleclaw's background and traits and on Chrysalis's manipulative role in steering her counterrevolution toward changeling aid and bribing industrialists, with a few dated or undated moments among the statements.

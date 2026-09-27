@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Names sex work, the parloir institution the scene explains, as the accelerant the theme concerns, so the scene carries the theme through it | "Sex work as the accelerant" | no | planning shorthand, a bare noun-phrase label with no verb
+- whole: A one-line label that assigns the scene's theme role by naming sex work as the accelerant, with no further explanation.

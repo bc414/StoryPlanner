@@ -1,0 +1,5 @@
+- sources:
+  - my existing plan for when Trimmel makes the realization about Synovial | model is to recall it and lay it out as the baseline to contrast with the new timeline; the user accepts that what it reports may be a guess, not confirmed | What is my existing plan for when Trimmel makes the realization about Synovial (a guess, not necessarily confirmed) | referred-to
+  - this new plan | the model's revised Trimmel timeline is to be contrasted with the existing plan; the user keeps parts of it (the life story speech) and objects to the early moral realization, so it is a proposal, not settled | how does it contrast with this new plan | referred-to
+- order:
+- about: The user asks the model to state their existing plan for Trimmel's realization about Synovial and contrast it with the newly proposed timeline, then pushes back on the early realization and suggests reordering the Fraternity scenes.

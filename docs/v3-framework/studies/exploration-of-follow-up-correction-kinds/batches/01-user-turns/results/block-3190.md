@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model left the conversations out of its comparison, admitting it did not search them and inferring their role from plan notes, when they were part of what was to be checked | Check conversations that have to do with Aquileia | flat, terse imperative that implies the omission without naming it or complaining
+- about: The user redirects the model to do the conversation-transcript search it skipped, asking it to check the conversations that concern Aquileia.

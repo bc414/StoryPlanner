@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, wanting the RAG versus full-context comparison tied to their story's Honesty vs Poseurs theme and to the contrast between early AI-slop monetizers and their own intended use of AI Studio, without disputing anything the model said.

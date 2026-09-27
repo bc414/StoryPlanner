@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is only a notice that a plan export was attached, with no message text, so it carries no statement about the model's Gascon comparison and corrects nothing.

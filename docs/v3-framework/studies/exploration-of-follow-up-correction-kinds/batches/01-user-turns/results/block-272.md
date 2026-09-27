@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the established EEEE! backstory by proposing a new element, a disguised tourist-cruise cloud carrier that escorts SAA shipments against Skyfall privateers and is sunk by Chrysalis's subs in the war's first week, and this replaces an earlier no-navy idea rather than anything the model said.

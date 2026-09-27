@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states, as their own plan, that Scootaloo's parents will be New Mareland exiles who sent their child back to Equestria, a brief redirect of the model's earlier explorer-expatriate proposal, and it points to no body of material.

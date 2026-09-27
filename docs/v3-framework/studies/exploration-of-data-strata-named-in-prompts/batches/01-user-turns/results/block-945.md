@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is asking the model to confirm a corrected mapping in which Gilded Trust stands for shareholder-without-say tech-style capitalism, the old corporations stand for wage-churn monopoly, and Star Energy and EEEE stand for member-owned and member-directed cooperatives.

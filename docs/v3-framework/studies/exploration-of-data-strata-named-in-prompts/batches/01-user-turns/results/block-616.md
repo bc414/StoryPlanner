@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model a design question about whether structural truth should be split into its own payload track apart from the reader-experience tracks, and whether a character or codex entry can appear with structural truth alone or always needs a reader-experience plan, without pointing at any body of material for the model to use.

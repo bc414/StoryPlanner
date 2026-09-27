@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - other: word choice / register of the proposed element name (audience legibility) | the model's chosen name Fidelity is rejected as too obscure, since the user did not link it to loyalty and reads it as accuracy or a financial firm; the model assumed the word would land clearly | "too obscure", "I didn't know Fidelity had anything to do with Loyalty until now" | stated plainly as an objection with a personal reason given, then followed by a request for alternatives
+- about: The user rejects the model's proposed element name Fidelity as too obscure and confusable with other meanings, and asks for other options.

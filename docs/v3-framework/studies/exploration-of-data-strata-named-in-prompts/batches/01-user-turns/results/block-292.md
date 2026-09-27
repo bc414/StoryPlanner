@@ -1,0 +1,4 @@
+- sources:
+  - the original choice to split Kesseler Sr. and Kesseler Jr. | treat as settled authorial intent that explains their arcs and the eventual payoff (Jr. becoming war-profiteer king, then arrested as a war criminal) | "I originally chose the split between Kesseler Sr. and Kesseler Jr. because..." | referred-to
+- order:
+- about: The turn corrects and expands several plot mechanics and backstory details of the model's Skyfall proxy-war proposal (Chrysalis's identity, the IP-theft grievance, the drug economy, import routes, and the reveal timeline via Blueblood and Ahuizotl), asserting the author's own version of events as the true continuity while recalling the original design rationale behind the Kesseler Sr./Jr. split.

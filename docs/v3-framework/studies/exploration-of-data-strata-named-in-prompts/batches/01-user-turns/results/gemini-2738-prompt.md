@@ -1,0 +1,6 @@
+- sources:
+  - the Combined Arms meeting (existing version) | the scene as currently planned, which the author is revising; the model should treat it as the thing being changed, not as fixed | "revision of the Combined Arms meeting" | referred-to
+  - this revision of the Combined Arms meeting (the beat list in the turn) | offered as a proposal for the model to react to and build on, tentative rather than settled | "How about this revision" | first-named
+- order:
+  - this revision of the Combined Arms meeting over the existing Combined Arms meeting | the author offers it as a revision to replace the earlier version of the scene
+- about: The user proposes a revised beat sequence for the Combined Arms meeting between Rainbow Dash and Twilight Velvet, in which Velvet admits ignorance of the real world and hands the job of writing that story to Dash, and asks the model to respond to it.

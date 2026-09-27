@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about which games would correspond to the default household-budget level in the model's hierarchy, and offers a tentative remark that Clash of Clans, despite being mass-market, is still an economic game.

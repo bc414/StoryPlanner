@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user questions whether the 2nd Aquileian Republic would really abandon the MPA's ex-thugs, contrasting it with the Griffonian Republic's "no griffon left behind" ethos, and works out how this would be revealed in Pridea and how it changes Applejack's and Twilight's view of the Aquileians and the eventual Equestrian Republic's ethos.

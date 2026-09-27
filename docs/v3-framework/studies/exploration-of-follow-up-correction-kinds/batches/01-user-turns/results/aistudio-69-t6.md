@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether the Tantabus could be tied to Luna's dream-altering spell as a self-propagating way of jumping from warlord to warlord and replacing dreams of conquest with dreams of friendship, offering this as an alternative origin idea rather than saying the model's account was wrong.

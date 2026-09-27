@@ -1,0 +1,7 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model placed the episode inside the war era and a Diamond Mountain geopolitical crisis, when the early seasons all fall before the war (war in 1011 ALB, season 1 at 1000 ALB) | Actually all of the early seasons happen in my timeline before the war | Flat statement of timeline fact with dates supplied as the reason
+  - fact of the world | The model made the Diamond Dogs a ruthless slaving guild and a state threat; the user says they are just goofy dogs living in Equestria | These really are just goofy dogs who live in Equestria | Flat, brief assertion
+  - fact of the world | The model treated the gems as strategic crystal resources or power crystals and Rarity as an intelligence asset; the user says they are fashion gems | these gems are not the power crystals, they are fashion gems | Flat, stated in passing as a clarification
+  - reading of the request | The model spent the answer on a militarized rewrite with Applejack as commander and Rarity as a diplomat, when the user wants the focus on Rarity's manipulation and its link to her idealizing Aquileian culture through the parloirs | What I'm more interested in is Rarity's manipulation and how it lines up with the lore | Redirects to the actual interest without irritation, framed as a preference
+- about: The user sets aside the model's war-thriller recontextualization by restating the timeline and the goofy dogs and fashion gems, then redirects to Rarity's manipulation and her idealization of Aquileian culture.

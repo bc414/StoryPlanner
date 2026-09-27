@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's Option A described Hearth's Warming as Windigos summoned by tribal disharmony, but the established truth is that labor strikes and disputes (unicorns stopped moving the sun, pegasi stopped managing weather) caused a blizzard, with no Windigos | I established that truth behind Hearth's Warming Eve is it wasn't windigos | flat restatement of established canon, given as a reason for refining the rule
+  - reading of the plan | The model's Option B framed ancient Manehattan as a municipal corporation with shareholders and a Board of Directors, which the user doesn't see as fitting the city's founding | I don't see how ancient Manehattan was built as a "corporation" | stated as doubt or disagreement, briefly, alongside partial approval of the other option
+- about: The user rejects the corporate-charter option as unfounded, keeps the Hearth's Warming option while correcting its Windigo premise with their established labor-strike blizzard canon, and asks for the rule to be refined.

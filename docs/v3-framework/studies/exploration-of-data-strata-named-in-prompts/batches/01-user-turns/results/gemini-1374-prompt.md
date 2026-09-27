@@ -1,0 +1,4 @@
+- sources:
+  - this Nova Griffonia flavor text for Equestria at War | the material to explain from; the model is to account for Teafeather's shooting and the start of the civil war based on what this text says | Explain why Governor Teafeather was shot in this Nova Griffonia flavor text | referred-to
+- order:
+- about: The user drops the Chrysalis character-arc discussion and asks the model to explain, from a specific Equestria at War flavor text for Nova Griffonia, why Governor Teafeather was shot and how that started the civil war.

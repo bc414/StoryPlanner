@@ -1,0 +1,8 @@
+- relations:
+  - 1250 | 1251 | 1251 states the reader-facing consequence of the inversion that 1250 announces: the surface reading of GR and Aquileia is overturned in synthesis | Readers think GR has the better economy... in synthesis it's the reverse | implicit
+  - 1251 | 1250 | 1251 gives the reason for the reversal in terms 1250 supplies: each side's strength taken to an extreme (GR as co-determination and social democracy, Aquileia as satirical ego-capitalism) | both take their strengths to the extreme | implicit
+- outward:
+  - 1250 | GR, Herzland and Aquileia, the two polities and their setups, held elsewhere in the plan | My ORIGINAL assertion for GR and Aquileia
+  - 1250 | the New Deal and standardization framing of GR, taken from wider lore | GR is much more than standarization and the New Deal
+  - 1251 | the readers' surface impression of GR's economy and Aquileia's culture, built up outside this item | Readers think GR has the better economy and Aquileia has the better culture
+- whole: The two notes hang together as one idea: 1250 revises the plan for how GR and Aquileia are framed, and 1251 states the resulting reader reversal.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's framing that RTS games and MLP were defanged by the same market force, then asks a new question about Empire at War players and reflects on how growing up with Westwood and Blizzard games shaped their thinking and why war games deserve the same regard as Harry Potter or Lord of the Rings.

@@ -1,0 +1,19 @@
+- relations:
+  - 1622 | 1618 | the history note gives the in-world truth that recontextualizes the canon event named in the canon-reference note | Hearth's Warming Eve in reality was labor strikes that caused a blizzard | explicit
+  - 1618 | 441 | the ponies' recited tale is the reminder of why cooperation is needed to survive, which is the survival harmony the ontology note names | ponies recite the tale as a reminder of why they must always cooperate to survive | implicit
+  - 441 | 1616 | the general statement that survival harmony is how ancient Equestria survived is spelled out as working rules: grassroots harmony, roles per tribe, local defence | "Survival Harmony" is how ancient Equestria survived / grassroots harmony between the four tribes | implicit
+  - 1616 | 884 | an instance of the general pegasus role: weather control plus defence from monsters, with the militancy given as the reason | pegasi control the weather ... defend from monsters / pegasi had to be militant | implicit
+  - 1616 | 1318 | the sun-and-moon work of the unicorns is expanded with its cost, exhaustion, and the miners who support it | unicorns at Canterlot move the sun and the moon / many unicorns had to move the sun and moon each day | implicit
+  - 1318 | 889 | the crystal mining that helps the unicorns is given a place: Canterlot is the mining operation | Other ponies had to mine crystals / Canterlot ... was the crystal mining operation | implicit
+  - 887 | 1616 | villages being self-sustaining with monsters roaming between explains why harmony is grassroots and only local; but the tribe count differs, three against four with thestrals | all three tribes, and monsters roamed in between / four tribes, but only to defend local settlements | implicit
+  - 1616 | 1310 | the local-defence rule is restated as holding for every settlement | only to defend local settlements from monsters / 100% of Equestrian settlements ... defend their homes from monsters | implicit
+  - 887 | 1310 | the claim that all villages were self-sustaining and defended against monsters is carried on as still true of all settlements | all the villages were self sustaining / 100% ... were still running on survival harmony | implicit
+  - 884 | 889 | Cloudsdale's origin as Canterlot's pegasus retinue defending against dragons is a further case of pegasi as a defending force | pegasi had to be militant / Cloudsdale was originally Canterlot's pegasus retinue | implicit
+  - 889 | 1616 | the large capital Canterlot with a defended retinue sits against the rule that harmony is only local; Canterlot's own defence is against dragons, not just monsters | Canterlot was the biggest capital / only to defend local settlements from monsters | implicit
+- outward:
+  - 1622 | the canon story of Hearth's Warming Eve in the show, held outside this item | Hearth's Warming Eve
+  - 1618 | the canon version of the Hearth's Warming Eve tale, and the monsters it recites | ponies recite the tale as a reminder
+  - 889 | dragons and Cloudsdale as a place or power held elsewhere | Cloudsdale was originally Canterlot's pegasus retinue, and they had to defend Canterlot from dragons
+  - 1318 | proto-crystal enhancers, a piece of lore held elsewhere | unicorns, who had proto-crystal enhancers
+  - 1310 | some earlier or later state of settlements, other than the one in this item, implied by "still" | were still running on survival harmony
+- whole: The notes hang together as a set around one picture of local, tribe-divided defence against monsters, with the canon and history notes tied to it through the tale's purpose, though the tribe count (three against four) and Canterlot's scale strain the fit.

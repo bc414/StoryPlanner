@@ -1,0 +1,18 @@
+- steps:
+  - the author | request comparison | asks how real Nazi Pervitin use relates to the plan's Red Love addiction mechanic for changeling conscripts | opens the thread
+  - the model | analysis | historical rundown of Pervitin's military use paired point-by-point with the Red Love/changeling-army mechanic, ending in a summary table | responds to the opening request
+  - the author | reaction | remarks that the Red Love addiction idea once seemed too far-fetched but the real drug is more horrifying | follows the first analysis
+  - the model | analysis (restated) | repeats the same Pervitin-to-Red-Love breakdown and comparison table | responds to the reaction
+  - the author | request assessment | asks how well the Pervitin story is known publicly and how decisive it was to the war's course | follows the restated analysis
+  - the model | analysis | traces the historiography of Pervitin from hidden fact to pop-history bestseller, verdicts its tactical vs strategic impact, links it to the changeling army's blitz-then-crash arc | responds to the assessment request
+  - the author | request profile | asks whether the soldiers who took the drug were zealots, brainwashed, or ordinary conscripts | follows the historiography answer
+  - the model | analysis | breaks down conscript vs volunteer vs true-believer demographics among drug-taking soldiers and maps it onto a conscript/officer divide in the story | responds to the profile request
+  - the author | request comparison | asks how German POWs were treated and how that bears on Fluttershy's POW arc | follows the demographic answer
+  - the model | analysis | lays out Allied POW treatment (comfortable camps, de-Nazification screening, withdrawal) as a template for Fluttershy's Pink Love rehabilitation camp | responds to the POW-treatment request
+  - the author | request follow-up | asks whether any Pervitin rehab was documented in WWII and what the history of methadone is | follows the POW-treatment answer
+  - the model | analysis | reports that no wartime rehab existed, recounts methadone's Nazi-era invention and later addiction-treatment use, maps it onto Pink Love as a methadone-like substitute | responds to the rehab/methadone question
+  - the author | request expansion | asks how the Soviets treated German POWs given the civilian extermination they suffered | follows the methadone answer
+  - the model | analysis | contrasts brutal Soviet POW treatment with Allied treatment and proposes a three-way political spectrum among story factions (Chrysalis/Crystal Empire/Republic) built on it | closes the thread responding to the Soviet-treatment question
+- kept:
+- brought: The author brought an existing plan element — the Red Love addiction mechanic for changeling conscripts and Fluttershy's POW rehabilitation arc — to be checked against and extended by real WWII history.
+- loop: The author repeatedly hands the model a piece of the existing plan (the Red Love mechanic, then the POW arc) and asks for historical grounding, and the model returns an extended point-by-point analogy each time, but no note from this exchange is traced into the planning database, so the loop here is pure research against the plan rather than material feeding back into it.

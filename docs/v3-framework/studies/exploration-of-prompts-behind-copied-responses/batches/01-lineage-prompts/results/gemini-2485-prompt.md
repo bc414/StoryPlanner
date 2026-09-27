@@ -1,0 +1,7 @@
+- asks:
+  - choose | decide whether a specific alternative wording should replace the current line about what the wings signify | phrased as "should it be..." comparing two versions
+- supplies:
+  - line pair | two candidate wordings for a sentence about what wings symbolize — one about keeping someone alive in your heart, one about keeping a hunter's spirit alive | a single sentence, given in two versions
+- shaping:
+- openness: The message asks for a choice between two named options — the existing line (\"who is keeping you alive in your heart\") and the proposed replacement (\"who is keeping your hunter's spirit alive\") — asking whether the swap should be made.
+- subject: Wording of a line explaining the symbolic meaning of wings (likely tied to a mourning or hunting tradition in the story)

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a plot beat in which AJ intercepts Rainbow Dash as she flies back to the air base after being shot down, with Twilight teleporting AJ there after AJ spots the rainbow trail.

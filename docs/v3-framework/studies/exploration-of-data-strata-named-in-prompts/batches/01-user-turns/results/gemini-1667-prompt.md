@@ -1,0 +1,4 @@
+- sources:
+  - this document | weight: questioned whether it is too large to fit in context and be reasoned about effectively, implying concern it may need to be reduced or handled differently | marked by: 'Is there too much content in this document to fit into the context window and reason about effectively?' | referred-to
+- order:
+- about: The user asks whether the story plan document is too large for the model's context window to handle well, and requests advice on how to improve results.

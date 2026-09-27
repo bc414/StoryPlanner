@@ -1,0 +1,3 @@
+- relations:
+- outward:
+- whole: Both notes are empty and unassigned to any track, so there is nothing in them to hang together and they read as two separate blank entries.

@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | The scene's work for the theme: the predatory kind of sexual ambition that AJ fears is turned into something that serves romance, so that wanting becomes a gift and not a taking. | "Predatory sexual ambition has been tamed to serve romance" | yes | a single declarative summary sentence in past-perfect, with no hedging and no scene detail
+- whole: The commentary is a one-line thesis saying the scene converts predatory sexual ambition into a romantic force, which restates in compressed form the reframing that the synopsis already lays out.

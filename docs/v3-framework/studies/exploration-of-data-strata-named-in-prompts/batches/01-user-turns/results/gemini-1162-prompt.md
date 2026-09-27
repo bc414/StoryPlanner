@@ -1,0 +1,4 @@
+- sources:
+  - the plans (for the jungle expedition of Applejack, Mali, Comet Shine and crew) | provisional, to be revised in light of the medicine tribes already being Aquileian allies; the expedition now visits known partners first, then Mali's tribe, then the drug tribes | I have to adjust the plans | referred-to
+- order:
+- about: The author corrects the model's premise by stating that the medicinal tribes are already Aquileian-aligned partners and suppliers, says the jungle expedition plans must be adjusted as a result, and asks whether those tribes already produce alchemical rubber for Star Energy.

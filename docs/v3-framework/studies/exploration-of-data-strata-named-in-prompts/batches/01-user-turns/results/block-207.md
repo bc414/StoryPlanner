@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to reveal Chrysalis's pre-Acornage backstory in an in media res Acornage opening, and proposes their own design of an orphanage allegory told at a sleepover, plus the biology-class and forging-class clues by which Eagleclaw deduces she is a changeling, without pointing the model at any body of material.

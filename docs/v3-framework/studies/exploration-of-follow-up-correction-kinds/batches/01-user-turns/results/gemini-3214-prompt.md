@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves the discussion from StarCraft to Warcraft, asking, from their Hearthstone and Warcraft 3 familiarity, whether corporate mandates also changed the storytelling as the series moved into World of Warcraft.

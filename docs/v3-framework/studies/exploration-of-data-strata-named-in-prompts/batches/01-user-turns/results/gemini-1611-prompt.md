@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks three follow-up questions about the steam-and-soot weather factory idea: whether running the plant at low efficiency has a side benefit, what makes clouds white or dark, and where lightning comes from, without pointing the model at any particular source.

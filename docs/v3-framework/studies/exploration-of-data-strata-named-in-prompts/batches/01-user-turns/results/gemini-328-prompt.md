@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user builds on the model's grey-out idea by adding their own lore details (Pinkie greying when she can't spread joy, changelings' eyes going grey, ponies and griffons losing coat or plumage colour and running on false hope) without pointing the model at any body of material.

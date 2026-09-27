@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to extend its research further back in time, to trace the conceptual precursors that existed before the name "Camp Fluttershy" was coined.

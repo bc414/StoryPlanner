@@ -1,0 +1,5 @@
+- sources:
+  - the first pass dump | inspect it for unnecessary info and use what it shows to decide script changes | Here is the first pass dump. Is there uneccessary info? | first-named
+  - the script | the packager script from the earlier turn, to be reviewed and modified based on what the dump shows | What should be modified in the script? | referred-to
+- order:
+- about: The user supplies the output of the packager script's first run and asks the model to find unnecessary content in it and say what to change in the script.

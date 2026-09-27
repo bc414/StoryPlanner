@@ -1,0 +1,51 @@
+- relations:
+  - 1817|1818|the real-world dialect and railway history is the model, and the in-world note is its instance: railways spread a standard elite speech that the lower classes resent|London English as elite dialect, "also railways" / "railways begin the process of evangelizing Griffenheim standard Herzlander"|implicit
+  - 473|1817|the Herzland-as-Britain analogy is filled out by the note on England's dialects, industrial revolution and railways|"Herzland = British early industrialization" / "The industrial revolution and the British empire"|implicit
+  - 473|1481|two different real-world periods are given for the same industrialization, early British and second industrial revolution, so the second narrows or shifts the first|"British early industrialization" / "the second industrial revolution"|implicit
+  - 1481|1479|the second industrial revolution is named as the analogy, and the technologies it consists of are listed as the system's rules|"second industrial revolution" / "haber-bosch process, oil processing, and electromechanical machines"|implicit
+  - 576|1481|the Gilded Age analogy and the second industrial revolution analogy describe the same era of accumulation|"Industrial Revolution/Gilded Age" / "second industrial revolution"|implicit
+  - 1154|1484|the swordsmith-to-zaibatsu analogy is dramatized in the shift from artisan pride to factory ownership|"magical swordsmiths is like Bushido Samurai" / "Artisan Pride" to "Capital Accumulation"|implicit
+  - 1154|1152|the swordsmith analogy rests on the griffon magical tech tree of enchanted armor named as canon|"Griffon magical swordsmiths" / "Enchanted Armor in the griffon-specific magical tech tree"|implicit
+  - 576|1482|the analogy note's vanishing Imperial Legions is the same event the history note dates as the legions withdrawing|"Imperial Legions" vanished / "imperial legions withdraw"|implicit
+  - 576|609|both give the same cause: with the monsters gone, risk and ambition turn from the wilderness to accumulation and Rugged Individualism|"With no monsters to fight" / "the arena for risk shifted from the physical wilderness to the economic market"|implicit
+  - 609|610|the two continue one argument, that risk moves to the market under Rugged Individualism, first for male griffons and then for females|"Rugged Individualism" / "risk shifts from the battlefield to the cutthroat, zero-sum market"|implicit
+  - 610|466|the zero-sum market is tied to the gold standard's zero-sum game, which gives the economic ground for the risk described|"zero-sum market" / "zero sum game created by the gold standard"|implicit
+  - 609|1148|both say that mass industry cuts the worker from the forge and turns the griffon's pride and ambition into capital accumulation, greed and hoarding|"alienates the worker from the forge" / "alienated from their labor"|implicit
+  - 1148|1149|the general claim that pride rots into greed is applied to owners who hoard the labour of thousands, giving apocalyptic greed and class warfare|"Greed and Hoarding" / "amplify their biological greed to apocalyptic levels"|implicit
+  - 1484|1148|both say griffon magic and pride depend on personal craftsmanship and that the Bessemer factory removes that outlet|"griffon magic requires personal ambition" / "artisan forge is replaced by the Bessemer factory"|implicit
+  - 1484|609|both say magic dies because mass production severs the ambition that enchantment needs and the culture turns to capital|"Mass production via the Bessemer process completely bypasses this" / "personal Ambition (Red Love) required to enchant steel is severed"|implicit
+  - 1492|1484|the material reason for industrializing, replacing artisan magic with volume, is played out as the culture shift to owning the factory|"replace asset specific artisan magic with interchangeable, soulless industrial volume" / "Power ... comes from owning the factory"|implicit
+  - 1492|1489|the creation note gives the setting and motive for the dated event of Grover IV lifting the ban on the Bessemer process|"getting permission from Grover IV to lift the bans" / "Grover IV removed the ban on the bessemer process"|explicit
+  - 1492|2628|the guano-running-out reason is qualified: industry can make nitrates but potash and phosphates still come from finite mines|"easy resources like guano ... started running out" / "still have to extract potash and phosphates from finite mines"|implicit
+  - 1492|1479|the industrial processes the griffons scale up are the same ones listed as the system's rules|"haber-bosch, and oil refining" / "fertilizer via haber-bosch process, oil processing"|implicit
+  - 1359|1492|flat land making the move to Haber-Bosch and Bessemer easy supports the ease of industrializing the creation note claims|"incredibly easy to transition" / "This is easier to them than hunting sea monsters"|implicit
+  - 1489|1486|the ban lifting is given a reason: Grover IV rejects his father's superstition and lets ambition run for national wealth|"removed the ban on the bessemer process" / "allowed griffons to be as ambitous as they wanted"|implicit
+  - 1486|1496|the son's rejection of his father's superstition answers the father's Archon-backed ban on engines|"rejected his father's superstition" / "Grover III ... work with the Archons to enforce morality"|implicit
+  - 1489|1496|both are Grover IV lifting a ban his predecessor set, one on Bessemer and one on internal combustion|"removed the ban on the bessemer process" / "Grover IV uncaps this ban"|implicit
+  - 1496|2008|the lifted engine ban leads to tractors, which displace farmers who become factory workers|"tractors displacing serfs" / "industrial fertilizer and diesel tractors"|implicit
+  - 1483|2008|the second restates the first: farmers displaced by fertilizer and tractors become bandits or factory workers|"displaced by industrial fertilizer and diesel tractors. They either become bandits"|implicit
+  - 1482|1483|serfs turning bandits when the legions leave leads to power passing to merchants who buy gunpowder against the bandits|"serfs become bandits" / "need to buy gunpowder to defeat bandits"|implicit
+  - 1496|1484|displaced serfs going to the city are the workers the industrialists hire and then justify exploiting|"exploited as cogs in a factory" / "They hire displaced serfs"|implicit
+  - 1483|2435|the knights, obsolete but extortionate, are recast in the second as CEOs, with squires as factory workers|"the knights are obsolete" / "the \"Knight\" becomes the \"CEO\""|implicit
+  - 1484|2435|the owners' claim that workers just need to work harder is the same fealty-and-overwork programming the second describes|"the others just need to work harder" / "work 16-hour shifts ... you too will one day own the factory"|implicit
+  - 2005|1484|the Archons' claim that factory wealth is soulless against forge magic matches the note that magic needs individual craftsmanship|"soulless compared to the individualized magic of the forge" / "griffon magic requires personal ambition"|implicit
+  - 2005|1486|the Emperor siding with the industrialists is the same alliance as his letting ambition run for wealth|"Grover IV is agreeing with them" / "allowed griffons to be as ambitous as they wanted"|implicit
+  - 2005|1496|the Archons' pushback on factory wealth continues their earlier moral stand against airplanes|"The Archons would fiercely push back" / "the Archons declared that airplanes were an affront"|implicit
+  - 1487|1483|the allegory of unregulated capitalism is shown by the system's lack of rights and safety laws|"Unregulated Capitalism" / "no rights and little safety laws"|implicit
+  - 1487|1149|unregulated capitalism as the real-world lesson matches the picture of exploitation and class warfare from unchecked hoarding|"Unregulated Capitalism" / "mass exploitation and class warfare"|implicit
+  - 1484|1149|both say owning the factory lets a griffon lord gain from the labour of many, which feeds cruelty and exploitation|"owning the factory" / "hoard the labor and output of thousands"|implicit
+- outward:
+  - 1152|canon of the EaW griffon magical tech tree, held outside this item|"Enchanted Armor in the griffon-specific magical tech tree in EaW"
+  - 1154|the real-world Bushido samurai swordmaking, the Meiji restoration and the zaibatsu|"Bushido Samurai making swords" / "Meiji restoration and Zaibatsus"
+  - 1817|real English history: dialects, empire and railways|"England was not a monoculture"
+  - 473|the setting Herzland, described elsewhere, and real British early industrialization|"Herzland = British early industrialization"
+  - 1818|the Griffenheim standard of Herzlander and the noble and peasant classes, elsewhere|"Griffenheim standard Herzlander"
+  - 1492|the Southern Zebrides guano source and the era of Grover III, held elsewhere|"guano from the Southern Zebrides" / "proven in Grover III's era"
+  - 609|the Skyfall Trade Federation, the Skyfall sweatshops, the MPA street gangs, the Honest Racket and the Red Love magic|"Skyfall Trade Federation" / "MPA street gangs" / "Honest Racket" / "Red Love"
+  - 610|Skyfall, Gilded Age Herzland and the Tycoon figure, held elsewhere|"In Skyfall and the Gilded Age Herzland, the Tycoon"
+  - 576|the Rot of Peace and the Imperial Legions as held in other lore|"The \"Rot of Peace.\"" / "Imperial Legions"
+  - 466|the Empire and its nobles, and the predator's dilemma held elsewhere|"The Empire uses a regid gold standard" / "predator's dilemma"
+  - 1484|Griffonia in EaW, the pre-industrial artisan society in canon|"Griffonia in EaW"
+  - 1496|the Archons, the Gods and Grover III's rule|"the Archons declared" / "Grover III"
+  - 2005|the Book of Boreas, the Archons and the Lion/Eagle dynamic, as lore held elsewhere|"Book of Boreas" / "\"Lion/Eagle\" dynamic"
+- whole: ["The notes hang together closely: most of them work out one story of monsters gone, Grover IV lifting the bans, artisan magic giving way to factory greed and displaced peasants, and the analogy and allegory notes label that story, though a few are stand-alone restatements or separate real-world parallels."]

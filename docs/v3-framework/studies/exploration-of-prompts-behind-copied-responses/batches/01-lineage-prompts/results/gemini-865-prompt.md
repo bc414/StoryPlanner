@@ -1,0 +1,9 @@
+- asks:
+  - analyse | pick out the pattern running through the listed episodes that explains the user's vague dissatisfaction with later-season Twilight | "analyze and synthesize my thoughts from the following episodes"
+  - synthesize | pull the separate episode observations together into one coherent articulation of the sentiment, so it can later be subverted deliberately | "want to subvert it properly ... analyze and synthesize"
+- supplies:
+  - episode critique list, naming | disliked-pattern episodes (No Second Prances, MLP the Movie, Shadow Play, Season 9 princess arc, All Bottled Up, The Mean 6, School of Friendship, cutie map episodes) where Twilight is made bureaucratic, regressed, or artificially incompetent so others can learn or she can be taught | a list of about eight episodes/arcs with a sentence or two of commentary each
+  - episode contrast list, naming | episodes the user felt showed Twilight as a genuinely good, organic teacher (MMMystery on the Friendship Express, Luna Eclipsed, Magic Duel, Applebuck Season, Testing Testing 1 2 3, The Cutie Remark) | a single line listing six titles
+- shaping:
+- openness: Leans toward an answer it already names: the user lays out their own thesis (writers kept making Twilight a bad teacher or regressing her to force lessons or let others shine) via the paired good/bad episode lists and asks the model to organize and confirm that reading rather than evaluate it from scratch.
+- subject: Critiquing how MLP:FIM's later seasons characterize Twilight Sparkle as friendship-teacher/princess versus her organic portrayal in earlier seasons, as groundwork for subverting the pattern in the user's own fiction.

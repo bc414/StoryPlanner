@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to move on from the previous bridging analysis and analyze how Rainbow Dash and Rarity interact with the Twilight and Applejack relationship, without pointing at any particular body of material.

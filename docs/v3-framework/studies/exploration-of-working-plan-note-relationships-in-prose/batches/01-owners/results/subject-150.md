@@ -1,0 +1,11 @@
+- relations:
+  - 2494 | 2244 | the backstory gives a concrete act of Chrysalis's rule (abolishing the caste system), which is an instance of the sweeping, visionary-tyrant rule he later credits her with | Chrysalis abolished the caste system shortly after his birth / She is a visionary tyrant with a vision | implicit
+- outward:
+  - 2494 | the changeling caste system (foragers and other castes) and Chrysalis's abolition of it, lore held elsewhere | forager caste, but Chrysalis abolished the caste system
+  - 2494 | the story TLTT, which the backstory is set before | before the start of TLTT (from the track question)
+  - 2244 | the history of the Aquileians and their failed attempt at rules in Skyfall | The Aquileians tried and failed
+  - 2244 | the drug deal scene, held elsewhere | after the drug deal
+  - 2244 | the proxy war and the position at the top of Skyfall | go and fight the proxy war
+  - 2244 | Skyfall's tycoons, and the other characters Applejack, Rainbow Dash and Rarity | All the tycoons only care about themselves
+  - 2244 | Rainbow Dash's past choice of her friends over the Shadowbolts | Like how she chose them instead of the Shadowbolts
+- whole: The two notes mostly stand as separate entries, with only a thin implicit tie through Chrysalis, since the backstory is a single fact and the appearance plan is a self-contained sequence of beats.

@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2404 | The Tableau de Chasse, a thing held elsewhere in the plan, which the seal stamps | It is the stamp for the Tableau de Chasse
+  - 2405 | Griffon messaging, a practice or lore held elsewhere, from which the magical theory derives | comes downstream of griffon messaging
+- whole: The two notes read as separate entries: one names what the seal stamps and the other says where its magical theory comes from, and neither's words bear on the other.

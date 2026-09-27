@@ -1,0 +1,10 @@
+- passages:
+  - note 47 | statement about the subject | the strong have a duty to fight on behalf of the weak | none | stated as a plain claim of duty, no event
+  - note 47 | statement about the subject | names the themes at work: "You must be strong to be merciful" and a parallel theme that the strong must bring relief to those suffering | none | "One theme is" and "a parallel theme"
+  - note 4163 | statement about the subject | thematic reading of the Storm King as a "paper tiger" who rose only through strong nations' apathy, as a critique of isolationism, mirroring real-world warlords in power vacuums and validating Twilight's frustration | none | interpretive commentary on portrayal, no dated moment
+  - note 4162 | statement about the subject | argument for interventionism over isolationism: past wrongs (South America, Middle East) are no reason to give up; reform first, then share technology | none | argumentative claim, "We must strive to be better"
+  - note 4345 | scene beat without year | the Republics mobilize their industrial and magical power to heal the enemy | none | written as an event that happens, no date given
+  - note 4345 | statement about the subject | interpretive claim that a strong society has a moral duty to lift people from despair rather than only punish, and that Harmonic Capitalism (Star Energy) can supply the jobs and purpose that prevent deaths of despair | none | "It argues" and "It proves"
+  - note 4181 | statement about the subject | a rule that importing Aquileian technology (trains, rifles, radios) also imports Aquileian psychology | none | general claim, "You cannot import"
+- sequences:
+- whole: Short authorial notes that argue the theme that isolationism is immoral and the strong owe help to the weak, mostly as thematic statements, with one bare plot beat of the Republics healing the enemy and no dated or ordered sequences.

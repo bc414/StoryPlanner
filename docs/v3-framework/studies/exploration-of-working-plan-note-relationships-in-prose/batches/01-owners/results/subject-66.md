@@ -1,0 +1,48 @@
+- relations:
+  - 1132|1117|the allegory applies the real-world Rat Park experiment as the model for its third remedy|"Build a 'Rat Park'" / "Rat Park" experiment|explicit
+  - 1117|1126|the general finding (addiction is a symptom of isolation and environment) is restated for the changelings as addiction being a symptom of an exploitative system, not a moral failing|"symptom of Isolation and Environment" / "a symptom of a deeply exploitative"|implicit
+  - 1132|1119|the theme note repeats the allegory's closing claim about healthy and exploitative economies, offering it as the theme the organization demonstrates|"A healthy economy creates healthy souls"|implicit
+  - 1119|1126|both hold that addiction and moral state come from material and economic conditions and not from personal fault or teaching|"material conditions drive morality" / "not a moral failing"|implicit
+  - 1132|1126|the allegory's call to call them sick and not criminals matches the claim that addiction is not the drone's moral failing|"call them Hungry (Sick)" / "not a moral failing"|implicit
+  - 1118|1117|the planned dramatization is an instance of the experiment: drug use in a miserable world, and craving stopping once connection is available|"stop craving the 'Red Love' because they are getting Pink Love (Connection)"|implicit
+  - 1118|1132|the stated mechanism for POWs losing the craving is the allegory's systemic-change step, where purpose and connection remove the wish for the drug|"their lives aren't painful anymore" / "they don't want the drug anymore"|implicit
+  - 1118|720|Pink Love is given as what ends the craving here and as what breaks the conditioning there, two accounts of its effect on the POWs|"Pink Love"|explicit
+  - 749|1118|the rehab plan qualifies the picture of easy, natural replacement: the medicine gives no high, and joy returns only through hard work and organic friendship, which is the connection the other note names|"forming genuine, organic friendships" / "Pink Love (Connection) naturally"|implicit
+  - 749|720|both set genuine Equestrian connection against the Hive's synthetic high, but one has a single dose of donated love break the conditioning and the other has no shortcut to joy|"synthetic high" / "state-mandated synthetic drug"|implicit
+  - 428|427|readers arrive expecting cruel bugnazis or a mindless swarm, and the other note plans to overturn this with smiling, euphoric soldiers|"cruel 'bugnazis'" / "silent, emotionless bugs"|implicit
+  - 426|428|the author's plan for the changelings to read as definitely evil before the twist is met by the readers' prior expectation of cruel changelings|"definitively evil" / "cruel 'bugnazis'"|implicit
+  - 426|1132|the author wants the evil made real so that the Fluttershy turn is a tragedy and not a preach point, which the sick-not-monsters reframing then relies on|"not an idealistic preach point" / "Stop calling them Monsters"|implicit
+  - 427|429|the euphoric soldiers are given an in-world reading as a dark image of Pinkie's forced cartoonish cheer|"smiling, euphoric" / "forced, cartoonish euphoria"|implicit
+  - 429|1118|both describe the conscripts' drug-driven euphoria set against a suffering reality|"disconnected from the material reality of their suffering" / "in a miserable world"|implicit
+  - 736|427|the Tier 3 suicide charges are the extreme case of soldiers driven to atrocity or death by a drug system that insulates them|"suicide charges" / "commit atrocities because their system"|implicit
+  - 1400|1404|the drones' broken state from unprotected emotion sense is what makes life outside agony for a drone|"unprotected emotion sense" / "without the ability to close their emotion sense"|implicit
+  - 1403|1404|the drones were told the outside is brutal, and the other note gives a real cause of pain outside, so the fear rests partly on fact|"outside is brutal" / "would be in agony"|implicit
+  - 1403|1400|drones' fear of leaving and their subservience are both put down to the way the hive treated them|"out of fear" / "so broken and subservient"|implicit
+  - 833|2599|the first rehabbed changelings become teachers, and the elders are encouraged to teach the next generation, so knowledge passes on from those already restored|"become the new harmonist teachers" / "teach new generation changelings"|implicit
+  - 1127|2599|weaving revives a lost art of the Ancient Hive Caretakers, and elders bring back old knowledge, both as cultural recovery|"resurrecting the lost art" / "bring back their old specialized knowledge"|implicit
+  - 1120|1242|Equestria's uniform shortage and the changeling silk that helps meet it is a specific case of the POWs' military value|"silk blankets" / "Changeling silk from Camp Fluttershy solves part of the problem"|implicit
+  - 1127|1242|the silk woven at the camp is both healing cultural work and a material supply for the war effort|"weave silk" / "Changeling silk from Camp Fluttershy"|implicit
+  - 1127|1406|the silk's colour change can be read as the silk soaking up Fluttershy's Grace while the black body stays the same|"acts as a massive sponge" / "altering the color of their silk"|implicit
+  - 2537|1118|providing for the changelings without conditions is the safe, connected environment in which craving fades|"provided for no matter what" / "their lives aren't painful anymore"|implicit
+  - 2537|749|the freedom to do what they want sits with the plan that joy has to be reached by their own work, without forcing a high|"learn to do what they want to do" / "un-automated work"|implicit
+- outward:
+  - 1132|the Drug Crisis/Changeling Predation, Canned Love, and the Republic/Harmonic Capitalism held elsewhere|"Canned Love" / "The Republic/Harmonic Capitalism"
+  - 1132|Chrysalis and Rockfeller as the exploitative system|"Chrysalis/Rockfeller"
+  - 1119|Chrysalis and Rockfeller as the exploitative economy|"Chrysalis/Rockfeller"
+  - 1118|the Red Love drug and the Hive's conscription|"Red Love"
+  - 1116|the Star Energy Agricultural Exposition Center in Tall Tale, a place elsewhere in the world|"Star Energy Agricultural Exposition Center in Tall Tale"
+  - 1406|Hasbro's canon that friendship changes a creature's body into a pastel shape|"Hasbro mandate"
+  - 427|Applejack, Twilight and the Equestrian volunteers, characters and a battle held elsewhere|"Applejack, Twilight, and the Equestrian volunteers"
+  - 429|Pinkie's earlier worldview and the drug jaeger-geist|"Pinkie's old worldview" / "jaeger-geist"
+  - 736|the other drug tiers, the synthetic components, and the attacks on Stalliongrad|"Tier 3" / "Stalliongrad"
+  - 749|the Tzinacatl medicine and the Hive's drugs|"The Tzinacatl medicine"
+  - 833|the tzinacatl medics and the harmonist teaching tradition|"tzinacatl medics" / "harmonist teachers"
+  - 720|Pink Love and the state-mandated synthetic drug|"donated, vibrant Pink Love"
+  - 1127|the Ancient Hive Caretakers and the Grace of Fluttershy|"Ancient Hive Caretakers"
+  - 1242|Equestria's pre-war wool, cotton and polyester industry and the war's demand for uniforms|"Prior to the war"
+  - 1120|the Vanhoover POWs and Chrysalis's army, held elsewhere|"the Vanhoover POWs"
+  - 1400|the factory where drones were kept|"at the factory"
+  - 1404|the setting called skyfall and the elite class who can access the world|"skyfall" / "Only elites"
+  - 1403|the hives the drones would not leave|"leave the hives"
+  - 2599|the changeling elders and their several cultures|"Elders who once feared each others' cultures"
+- whole: Most of these notes hang together around one argument: addiction and atrocity come from the drug system and the economy, and the camp's connection, dignity and work undo them. The notes on the drones' hive life (1400, 1403, 1404), the tier note (736), the setting note (1116) and the canon note (1406) mostly stand as separate entries.

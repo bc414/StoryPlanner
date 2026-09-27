@@ -1,0 +1,5 @@
+- sources:
+  - my 300k word story plan document | the material whose size the Llama models must be judged against; the model is to say whether they can handle it | whether they can handle my 300k word story plan document | referred-to
+  - my computer has an AMD graphics card (rx 6700 xt from 2023 bought at $329) | treat as a true hardware constraint the answer must fit, AMD not Nvidia | note my computer has an AMD graphics card, not Nvidia | first-named
+- order:
+- about: The user asks for an overview of Llama models and whether they could handle their 300k-word story plan, while stating their own hardware (an AMD RX 6700 XT) as a constraint to account for.

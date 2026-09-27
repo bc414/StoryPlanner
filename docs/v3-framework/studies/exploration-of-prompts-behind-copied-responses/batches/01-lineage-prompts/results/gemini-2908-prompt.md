@@ -1,0 +1,6 @@
+- asks:
+  - analyse | asks the model to work out whether/how an established anti-forgery system also covers theft of someone's tableau de chasse | "what about stealing someone else's tableau de chasse?"
+- supplies:
+- shaping:
+- openness: leaves the answer open — it poses a "what about" question about an edge case without proposing or ruling out any resolution
+- subject: a fictional anti-forgery/authentication system's gap regarding theft of a hunting record (tableau de chasse)

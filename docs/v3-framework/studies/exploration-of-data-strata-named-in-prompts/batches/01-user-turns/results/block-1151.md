@@ -1,0 +1,4 @@
+- sources:
+  - the original setup in Ain Trotgourait | treat as the true design of the teleportation network: crystals shipped to a central hub, then teleported locally to filtration sites, which replaces the model's assumed long-range mechanism | The original setup in Ain Trotgourait had the crystal empire deliver crystals by ship | referred-to
+- order:
+- about: The author corrects the model's proposed contradiction resolutions by stating their intended design from their own knowledge: Celestia as a legitimate establishment figure, local-range teleportation, Chrysalis cutting the drug supply deliberately, Celestia's chivalric frame of reference, and the Luna Nova Rifle being enabled by the love harvesters.

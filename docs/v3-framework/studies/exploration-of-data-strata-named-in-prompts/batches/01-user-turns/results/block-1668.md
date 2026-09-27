@@ -1,0 +1,9 @@
+- sources:
+  - the expansion just given (Character link at 8 tracks vs 6 for other subjects, plus the two POV-specific tracks for 10) | accepted as the correct, complete picture and the basis for the next analysis of why Character has extra tracks and whether other subjects could | "makes a lot more sense" | referred-to
+  - the beginning part of this Note Categorization Bootstrapping conversation, where characters were compressed to 6 | treated as incomplete and superseded, since it was missing stuff | "compressing characters to 6 and it was missing stuff" | referred-to
+  - the compressed parts of this conversation, Note Categorization Bootstrapping | the model is to explain the ways it can access and use them | "already compressed twice" | referred-to
+  - a transcript or the conversation itself | asked whether the model can read directly from it to reach earlier parts of this conversation | "Is there a transcript to access?" | referred-to
+  - "Character Reader Perception Gap in story design" | an earlier conversation the model was able to read; the pathway it used is the comparison for whether the earlier parts of this conversation are reachable | "You were able to access" | referred-to
+- order:
+  - the full 8/10-track expansion over the earlier 6-track compression | the user says the earlier compression was missing stuff and the full expansion makes more sense
+- about: The user accepts the model's expanded Character track structure, asks it to analyze why Character has extra tracks and whether other subject types have equivalents, and asks how the model can reach the compressed earlier parts of this conversation, as it did with another named conversation.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether their own working method is a new path built by synthesizing first principles rather than something found in an existing guide, and whether it could be presented as a guide in paratext.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a revised cause for the factory's destruction in their story, proposing that the trigger was the anti-kill rule being invoked once Chrysalis supplied guns, rather than the plantations displacing the jungle.

@@ -1,0 +1,5 @@
+- sources:
+  - the world bible coming out of the custom wpf program and sqlite database, a markdown document | treat as 300,000 words, correcting the earlier 20,000 figure, and check whether the prompt design needs to change given that size | actually a 300,000 word markdown document, not 20,000 | referred-to
+  - the model's understanding of the user's workflow and goals, built up in this conversation | draw on it to tailor the temperature and top P advice to how the user works | Use your understanding of my workflow and goals | referred-to
+- order:
+- about: The user corrects the stated size of their world bible to 300,000 words and asks whether that changes the prompt design, then asks for temperature and top P recommendations with explanations of the options, fitted to their workflow and goals.

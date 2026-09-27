@@ -1,0 +1,5 @@
+- sources:
+  - writing with no reference except a single document | use as a comparison baseline: contrast the per-character scan across plot points with working from one document alone | compare to the experience of writing with no reference except a single document | first-named
+  - what profession writers do | draw on general knowledge of professional writers' methods as a comparison for what the character scan achieves | compare to what profession writers do to achieve those things | first-named
+- order:
+- about: The user states what they think the character-connection entities are for (scanning one character's entries across plot points in chapter order) and asks the model to explain that purpose and why it matters, then compare it with single-document writing and with professional writers' practice.

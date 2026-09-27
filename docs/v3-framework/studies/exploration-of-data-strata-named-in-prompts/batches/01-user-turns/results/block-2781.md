@@ -1,0 +1,8 @@
+- sources:
+  - Faust version of the Mane 6 | treat as a characterization the author knows and draws on, used only where it serves the ASOIAF-adjacent goals; not examined for Twilight | understanding of both Faust and Hasbro versions of the mane 6 | referred-to
+  - Hasbro version of the Mane 6 | treat as a second characterization the author knows and draws on, used where it fits ASOIAF-style commentary | understanding of both Faust and Hasbro versions of the mane 6 | referred-to
+  - ASOIAF DNA | treat as the governing factor that decides which Mane 6 version appears in a scene, the one that serves the narrative goals | what determines their usage is the ASOIAF DNA | referred-to
+  - P&K | treat as the text whose scenes (sweatshop, balcony, Fluttershy and Rainbow, Twilight) are the evidence for the read | Twilight in P&K serves ASOIAF's | referred-to
+- order:
+  - ASOIAF DNA over Faust version and Hasbro version | what determines their usage is the ASOIAF DNA; which one he uses is the one that serves the ASOIAF adjacent narrative goals
+- about: The user replaces the model's analysis with his own reading that the author knows both Faust and Hasbro versions of the Mane 6 and picks between them according to what serves the ASOIAF-derived themes, and he goes through Rarity, Fluttershy and Twilight as examples.

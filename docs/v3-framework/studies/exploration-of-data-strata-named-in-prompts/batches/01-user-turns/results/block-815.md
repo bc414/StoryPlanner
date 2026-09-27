@@ -1,0 +1,5 @@
+- sources:
+  - the game ("in game" portrayals of Sunglider and of Kingfeather as a way to play the GR) | treat as established fact about these characters' roles and policies, and build the new Riks-architect idea on top of it | "In game, he is the idealist who believes in the revolution" | referred-to
+  - canon ("canonically") | treat as settled: Sunglider was an officer in the long march, and the ages that follow from that stand | "Sunglider canonically was an officer in the long march" | referred-to
+- order:
+- about: The user corrects the model's picture of GR party politics and coalition roles, then supplies ages and game-based character details for Sunglider, Kingfeather, Kemerskai and Astler, and floats Sunglider as architect of the Riks as a tentative idea.

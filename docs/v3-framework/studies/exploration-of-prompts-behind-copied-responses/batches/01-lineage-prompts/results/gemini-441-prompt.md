@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether longer responses can be obtained without using the canvas feature | "Is it possible to get longer responses outside of canvas?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a yes/no question about feature capability without proposing its own answer or naming specific alternatives to choose between.
+- subject: Whether longer AI responses are possible without using the canvas tool's length slider

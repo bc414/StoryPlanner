@@ -1,0 +1,4 @@
+- sources:
+  - my story plans (the timeline points and worldbuilding ideas listed in this message) | review them and synthesize them into a coherent whole; the items are the author's own plans, some floated tentatively with maybe and question phrasing | Please review my story plans and synthesize | first-named
+- order:
+- about: The user asks the model to review and synthesize a list of revised timeline and worldbuilding plans, covering the Canterlot Wedding, the slave-island liberation, the Statthalter role and taxes, and a Statthalter-run Canterlot occupation, some of which are tentative.

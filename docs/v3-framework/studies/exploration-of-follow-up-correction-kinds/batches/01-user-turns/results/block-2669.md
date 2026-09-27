@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's long analysis of Chinese and Japanese male frustration to ask a new question about the analysis of Chinese migrants who followed Pinduoduo instructions to fly to Quito, cross the Darién Gap and enter the US on foot around 2022.

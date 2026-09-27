@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the confirmed design discussion to a new concrete task, attaching v1 Applejack data and asking the model to apply the track/claim-type framework to it across Character, PlotPoint, and character-subject PlotPointSubjectLink records, explicitly widening the requested scope beyond the prior layers 1-5 to also include authorial and metatextual claim types.

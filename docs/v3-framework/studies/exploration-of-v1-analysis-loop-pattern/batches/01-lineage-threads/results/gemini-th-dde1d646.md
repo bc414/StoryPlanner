@@ -1,0 +1,42 @@
+- steps:
+  - author | brings the plan | full plan export attachment, no accompanying text | at the opening of the thread
+  - model | maps a historical framework onto the plot | Weimar Republic collapse mapped onto the 978 Revolution, with character and plot-point implications, plus an alternate draft version | first response, including a second draft appended after it
+  - author | brings the plan again | updated plan export attachment | next exchange
+  - model | answers an embedded question and reviews the whole plan | recommendation on how to play Kemerskai's estranged family, followed by a full literary analysis of the plan's themes and risks | second response
+  - author | supplies a piece of backstory and poses a question | Applejack's parents/farm history and a guess about Kemerskai's wife leaving for Vedina | following exchange
+  - model | builds a thematic mirror between two characters | structured comparison of Applejack's and Kemerskai's family choices, with dialogue and scene suggestions | third response
+  - author | adds a lore correction | the fact that Kemerskai's Republic conquered and 'liberated' Vedina | next exchange
+  - model | reworks the mirror around the new fact | revised family/political dynamic accounting for the conquest, keeping the parent-child mirror | fourth response
+  - author | brings outside canon material and more corrections | flavor-text facts that the son became a general and the wife reunion before Kemerskai's near-death, subverted by Equestrian healthcare | following exchange
+  - model | breaks down the canon facts and proposes a reading | 'Ghost of Victory Future' interpretation of the son, wife, and nephew | fifth response
+  - author | rejects one reading and reaffirms another | preference for decades of neglect over divorce, and reaffirmation that the resentment/backlash insight is more resonant | next exchange
+  - model | revises the family arc under the new constraint | reworked son/wife/nephew arc that keeps the resentment insight and lays out a chapter-level scene sequence | sixth response
+  - author | brings the plan again | plan export attachment | later exchange
+  - model | maps a historical general onto a side character | Rommel-derived traits mapped onto Trimmel's arc, scene by scene | seventh response
+  - author | brings the plan again | plan export attachment | next exchange
+  - model | drafts in-world content | seven propaganda poster/radio ideas paired with the underlying dramatic irony | eighth response
+  - author | brings the plan again | plan export attachment | following exchange
+  - model | tests a proposed character beat for consistency | verdict against a 'gives up' ending for Chrysalis, with contingency plans if the plan's premise held | ninth response
+  - author | revises the villain's arc | new goal of humiliating rivals rather than total conquest, with a hollow victory later revitalized by a colonial success | next exchange
+  - model | stages the arc into phases | four-phase psychological arc from victim to would-be world conqueror | tenth response
+  - author | asks a factual question about outside source material | why a specific governor was shot in the game's flavor text | following exchange
+  - model | reports what the source text actually says | notes that the game leaves the shooter and motive an unresolved mystery | eleventh response
+  - author | brings the plan again | plan export attachment | next exchange
+  - model | invents an in-story rationale for a game event | motive, tactics, and eventual strategic failure behind the assassination, folded into the villain's arc | twelfth response
+  - author | brings the plan again | plan export attachment | following exchange
+  - model | reviews the whole plan and answers an embedded question | restates the story's central dialectic, then maps real colonial powers onto the plan's factions | thirteenth response
+  - author | asks a follow-up mechanism question | how the debt-trap on local warlords works, offering two competing hypotheses | next exchange
+  - model | explains the mechanism in stages | three-phase debt-trap model with a table applying it to specific factions | fourteenth response
+  - author | brings the plan again | plan export attachment | later exchange
+  - model | maps a historical president onto an ally character and drafts insertable text | FDR/New Deal parallels for Kemerskai and the Republic, plus proposed additions formatted for the plan's world and story sections | fifteenth and final response
+- kept:
+  - note 3732 | pasted whole from this reply | keeps the warning line about not trusting the moderate monarchist, placed on the Kemerskai-party-scene link
+  - note 2951 | pasted whole from this reply | keeps the sentence that progress is resented by those it saves, placed on the Kemerskai-and-Applejack's-parents link
+  - note 2952 | pasted whole from this reply | keeps the parallel line about Applejack's parents saving her from stagnation, same link
+  - note 2953 | pasted whole from this reply | keeps the parallel line about Kemerskai's son resenting him for the same reason, same link
+  - note 2954 | pasted whole from this reply | keeps the paragraph framing this as preparation for backlash Applejack will later face, same link
+  - note 1135 | pasted whole from this reply | keeps the 'Silent Princess' poster visual and slogan, placed on the Defeatism-in-the-Media plot point
+  - note 540 | pasted from this reply inside the author's own framing | keeps the Universal-Translator/'Grandpa Kemerskai' paragraph, set alongside the author's own added material about Rosewing's arrest and trial, placed on the party plot point
+  - note 3481 | pasted whole from this reply | keeps the 'Constant Maintenance' philosophy paragraph, placed on the link between the party scene and the Stagnation-to-Harmonic-Republicanism theme
+- brought: Across the thread the author repeatedly brought the evolving plan document itself for review, interspersed with their own worldbuilding details, corrections to the model's prior readings, and outside canon or game-lore references, asking the model to analyze, reconcile, or extend them.
+- loop: The author supplies a plan draft, a worldbuilding detail, or a factual question, and the model returns a historical or thematic mapping, a staged character arc, or drafted in-world content; the author then either corrects the framing, adds a fact that forces a revision, or moves to a new topic, and only isolated fragments of the model's synthesis — a warning line, a run of parallel thematic sentences, a poster's text, a philosophy paragraph — get pasted back into specific plot-point and link entries in the planning database.

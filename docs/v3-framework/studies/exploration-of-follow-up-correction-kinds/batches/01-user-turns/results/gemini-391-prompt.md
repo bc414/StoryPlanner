@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's premise that Aquileia is locked into Skyfall, with the Skyfall navy blocking any other buyer or partner from the trade, is questioned as unexplained | Why would Aquileia not be able to find other partners? | as a bare question that implicitly challenges the claim, with no stated disagreement or reason
+- about: The user pushes back on the model's assumption that Aquileia has no alternative trading partners than Skyfall by asking it to justify that lock-in.

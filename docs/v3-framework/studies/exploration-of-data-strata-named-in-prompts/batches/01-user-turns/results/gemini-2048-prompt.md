@@ -1,0 +1,4 @@
+- sources:
+  - text of each entry in a bucket (an atomic thought) | use as the text the coverage map is run against, in place of having the AI output originals, disregarding pronouns that may have been changed | take the text of each entry in a bucket, ignore the pronouns which may have changed | referred-to
+- order:
+- about: The user declines the model's idea of having the AI also output originals and proposes instead running the character-level red/green coverage check on the bucket entries' own text, ignoring de-aliased pronouns, and asks whether that works.

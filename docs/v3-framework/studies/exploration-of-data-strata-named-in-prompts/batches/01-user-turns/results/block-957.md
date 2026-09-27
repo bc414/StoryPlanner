@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's picture of the setting by stating that the Skyfall artisans live in luxury like today's FAANG employees, that Skyfall is an uncoordinated anarcho-capitalist free-for-all, and that the food market is perfect competition in which the SAA cans are too small a share to matter.

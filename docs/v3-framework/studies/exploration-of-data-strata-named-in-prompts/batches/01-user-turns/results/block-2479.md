@@ -1,0 +1,4 @@
+- sources:
+  - subscriptions.csv (the attached file of YouTube subscriptions) | the material the model is to analyze and draw conclusions from | [Attached file: subscriptions.csv] What can you get from this? | first-named
+- order:
+- about: The user attaches their YouTube subscriptions export and asks the model what it can extract from it.

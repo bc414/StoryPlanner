@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model split changelings into a parasitic holed form and a reformed colorful/symbiotic form as in the show, but in the user's world the holed changelings are the only form | I'm not using the canon show's split between the holed changelings and the colorful ones | flat statement of the world rule, given as a plain corrective premise
+  - which material was drawn on | The model built its analysis on show canon (Thorax's reformation) and on earlier-established notes rather than the user's own plans about changing biology and evolution | Refer to my story plans about changing biology and evolution and reanalyze | directive, telling the model to go back to the user's plan material and redo the analysis
+- about: The user rejects the model's canon-based two-phase changeling framework, states that holed changelings are the only form in their world, and tells the model to redo the analysis from their own plans on biology and evolution.

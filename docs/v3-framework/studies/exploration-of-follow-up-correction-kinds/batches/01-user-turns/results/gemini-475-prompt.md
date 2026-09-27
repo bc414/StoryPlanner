@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting a review of the export schema for redundant fields or elements likely to confuse an LLM, without disputing anything the model said.

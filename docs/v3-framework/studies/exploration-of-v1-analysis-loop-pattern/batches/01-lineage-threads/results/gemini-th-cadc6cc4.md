@@ -1,0 +1,16 @@
+- steps:
+  - author | asks for historical overview | Rockefeller's dominance tactics and legacy | opening question
+  - model | supplies analysis | tactics playbook and dual legacy, mapped onto existing SAA/Rockfeller characters | first response
+  - author | narrows question | requests Rockefeller's personal character | second prompt
+  - model | supplies character profile | Rockefeller's personality traits mapped onto Bright Mac and Pear Butter | second response
+  - author | broadens question | asks personality, upbringing, and work-culture (cogs vs. family) together | third prompt
+  - model | supplies expanded profile | upbringing and labor-culture details mapped onto SAA's origin and workforce | third response
+  - author | redirects to new figure | requests the same treatment for Andrew Carnegie | fourth prompt
+  - model | supplies contrasting profile | Carnegie's psychology and labor history mapped onto Comet Shine and a union-conflict subplot | fourth response
+  - author | proposes own synthesis | assigns Rockefeller's good half to the parents, Carnegie's good half to Comet Shine, both bad halves to Rockfeller | fifth prompt
+  - model | elaborates the proposal | builds a three-archetype framework with conflict dynamics and Applejack's resolving synthesis | fifth response
+  - author | widens scope | asks for other tycoons, other virtues/vices, and the era's inciting incidents | sixth prompt
+  - model | supplies catalog | additional tycoon archetypes, a virtue/vice table, and historical trigger events mapped onto story events | sixth response
+- kept:
+- brought: The author brought pre-existing story elements (Applejack's parents/SAA, Comet Shine, the villain Rockfeller, the war setting) and used them as the target for historical mapping, at one point supplying an original three-way casting of Gilded Age virtues and vices across those characters.
+- loop: The author repeatedly brought historical research questions (narrowing, then pivoting to a new figure, then proposing an original synthesis, then widening scope) and the model returned progressively elaborated mappings of that history onto the existing cast; none of this research or the author's synthesis was captured into the planning database in this stretch, leaving the loop as pure exploratory research.

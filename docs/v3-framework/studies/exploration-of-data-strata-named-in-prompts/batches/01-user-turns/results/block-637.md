@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a confirming question about whether the planner's growing complexity is justified by the demands of high-quality writing, without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's literal-translation mechanic and asks whether it can be extended to explain how Chrysalis persuades ordinary drones to see ponies as prey, which is a new follow-up question that builds on the model's turn without disputing it.

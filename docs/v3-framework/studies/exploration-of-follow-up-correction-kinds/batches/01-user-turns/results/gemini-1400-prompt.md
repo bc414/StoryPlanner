@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's validated Kemerskai timeline as settled, states the narrative payoff (Henri's iron-marshal impression versus ten years of martial law and earnest reelection), proposes placing it in the Fraternity party scene, and asks for a review of the plans and for Applejack's takeaways and motivation to return and start the referendum.

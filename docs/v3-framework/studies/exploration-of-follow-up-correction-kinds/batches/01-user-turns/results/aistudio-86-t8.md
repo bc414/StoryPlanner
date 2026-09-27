@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of Chrysalis splitting Pink Love into an endorphin part and an oxytocin part, and asks a follow-up pharmacology question about how methadone differs from fentanyl and opium and whether fentanyl adds a joy component.

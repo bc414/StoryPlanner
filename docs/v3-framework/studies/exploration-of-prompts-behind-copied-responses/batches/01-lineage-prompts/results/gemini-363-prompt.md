@@ -1,0 +1,7 @@
+- asks:
+  - draft | generate the C# model classes for the planned Blazor app, translating the earlier design into code | "create the model classes for the ... app that I just planned with you"
+- supplies:
+  - reference to prior discussion | the design/plan for the "narrative loom" Blazor app worked out earlier in the same thread | not pasted here, only pointed to via "that I just planned with you in this conversation"
+- shaping:
+- openness: Leans toward an answer it names: it asks specifically for the model classes of the already-planned "narrative loom" app, not an open design question.
+- subject: Generating model classes for a planned Blazor app ("Narrative Loom") meant to help plan an Equestria at War fanfiction

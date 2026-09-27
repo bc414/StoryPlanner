@@ -1,0 +1,6 @@
+- sources:
+  - the db file | read and review it as the material to base the analysis on | Please review the db file | referred-to
+  - Moriset Discret's Aquileia under Coltbert Reforms (civ system) | the system the user's Aquileia notes keep getting filed under; to be compared with the 2nd Aquileian Republic as a possible same system | I find myself going to "Moriset Discret's Aquileia under Coltbert Reforms" as the civ system to file under | referred-to
+  - the 2nd Aquileian Republic | the user's provisional impression that it is the same system as the Moriset one with different aesthetics; to be checked against the db file | I feel like the 2nd Aquileian Republic is actually the same system with a different aesthetic | referred-to
+- order:
+- about: The user, after the model named a Zebrican system, asks it to review the db file and analyze whether the 2nd Aquileian Republic is really the same civ system as Moriset Discret's Aquileia under Coltbert Reforms.

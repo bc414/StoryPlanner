@@ -1,0 +1,5 @@
+- sources:
+  - Sonic Rainboom (the cloud-walking spell Twilight used) | treat as the canon precedent for the mechanism: the spell lets non-pegasi walk on clouds, so use it to justify passengers surviving on the clouds | Twilight used in Sonic Rainboom, lets non pegasi walk on clouds via the charitostatic effect | referred-to
+  - Wings of Dew | used as a comparison for the cloud-walking spell, treated as a similar known thing, with no further instruction | like Wings of Dew | referred-to
+- order:
+- about: The user revises the Cloud Carrier sinking so that only the cargo hold is lost while passengers survive on pegasus-made clouds, and grounds this in the cloud-walking spell from Sonic Rainboom.

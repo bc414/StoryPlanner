@@ -1,0 +1,38 @@
+- passages:
+  - 4260 | expository worldbuilding | causal 'That's why' explanation, third person | why Tzinacatl fight over Nightmare Moon's identity | apart
+  - 4273 | expository worldbuilding | plain past-tense recounting of Chrysalis's economic scheme | Chrysalis undermining the native drug trade | apart
+  - 4314 | expository worldbuilding | general third-person statement of long-standing fact | bat ponies joining industrial coastal life | apart
+  - 4315 | thematic synthesis | abstract terms 'rugged individualism', 'communal stagnation' | factories as ideological alternative to the tribe | apart
+  - 4315 | expository worldbuilding | concrete chronology, 'leave the jungle...factories shutdown' | traditionalist holdouts after the factories close | apart
+  - 4315 | clarifying rebuttal aside | 'They are not luddites' answering an unstated objection | defending the holdouts from a luddite label | apart
+  - 4315 | expository worldbuilding | plot-conditional 'When Star Energy offers...' | Star Energy's capital deal winning tribes over | apart
+  - 4453 | planning memo | imperative 'Need to figure out...get...names' | need to name and count the tribes | apart
+  - 4453 | catalog list | bare noun fragments with parenthetical codes (PNdA, FJA) | economic/ideological types of tribe | apart
+  - 4466 | expository worldbuilding | single causal sentence on geography | rivers causing tribal fragmentation | apart
+  - 4467 | planning memo | future-tense task, character named as tool ('Rainbow will map out') | assigning the mapping of trade routes | apart
+  - 4467 | expository worldbuilding | present-tense general account with a real-world analogy ('like the Amazon') | river geography and trade-route conflict points | apart
+  - 4557 | thematic synthesis | framing statement linking economics to theology | introducing the three tribe groups | apart
+  - 4557 | catalog list | label 'Group A:' plus terse fragments, one-word sentence 'Inland.' | Group A's isolationist traits | apart
+  - 4557 | theological gloss | 'Their theological stance is that...' paraphrase with parenthetical aside | Group A's belief about Nightmare Moon | apart
+  - 4557 | plain declarative fact | short unelaborated statement | Group A's self-given name | apart
+  - 4559 | catalog list | label 'Group C:' plus terse fragments | Group C's products and ethos | apart
+  - 4559 | expository worldbuilding | full sentences naming actors ('Coltbert', 'Star Energy') | Group C's historical/wartime involvement | apart
+  - 4559 | theological gloss | 'Their theological stance is that...' framing with exclamatory parenthetical | Group C's belief and self-given name | apart
+  - 4560 | informal brainstorm | comma-spliced, tentative reasoning ('However it's hard to compete...') | raft-selling and rubber economics of one tribe | apart
+  - 5539 | thematic synthesis | formal Latin pairing 'de jure'/'de facto', scare-quoted phrase | jungle's legal status versus cultural alienness | apart
+  - 5675 | planning memo | modal 'should be' prescriptive placement | siting New Horseleans on the export river | apart
+  - 5675 | plain declarative fact | short unelaborated statement | Trixie's origin | apart
+- shifts:
+  - 4315 | thematic synthesis | expository worldbuilding | drop from abstract vocabulary to concrete chronological events
+  - 4315 | expository worldbuilding | clarifying rebuttal aside | rebuttal phrasing 'They are not luddites'
+  - 4315 | clarifying rebuttal aside | expository worldbuilding | return to plot-conditional 'When Star Energy offers...'
+  - 4453 | planning memo | catalog list | drop from imperative framing to bare classificatory fragments
+  - 4467 | planning memo | expository worldbuilding | shift from future-tense task assignment to present-tense general explanation
+  - 4557 | thematic synthesis | catalog list | 'Group A:' label and telegraphic fragments
+  - 4557 | catalog list | theological gloss | full-sentence framing 'Their theological stance is that...' with parenthetical aside
+  - 4557 | theological gloss | plain declarative fact | drop of elaboration to bare naming statement
+  - 4559 | catalog list | expository worldbuilding | shift to full sentences naming acting parties 'Coltbert', 'Star Energy'
+  - 4559 | expository worldbuilding | theological gloss | 'Their theological stance is that...' framing with parenthetical asides
+  - 5675 | planning memo | plain declarative fact | drop from prescriptive geographic design to simple biographical assertion
+- registers: expository worldbuilding; thematic synthesis; clarifying rebuttal aside; planning memo; catalog list; theological gloss; plain declarative fact; informal brainstorm
+- whole: This item's notes move across eight distinct registers — plain causal worldbuilding, abstract thematic synthesis, terse catalog listing, theological paraphrase with authorial asides, task-planning memos, one rebuttal aside, and one informal brainstorm — and in every case these registers stand apart at sentence or line breaks rather than blending inside a single sentence.

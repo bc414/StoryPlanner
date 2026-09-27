@@ -1,0 +1,4 @@
+- passages:
+  - fabula content | The Tzinacatl clung to their traditional ways and lost their market to Chrysalis's competition. This is stated as a fact about the tribe's history and stagnation. | "stuck to their old ways, and were pushed out of their market by Chrysalis" | yes | plain past-tense expository statement, one compressed sentence
+  - bearing on theme | The tribe's shift from stagnation to change is presented as improvement. This casts the scene as an instance of stagnation evolving into something better. | "Now they are changing for the better" | no | terse expository summary in present tense, evaluative
+- whole: A two-sentence summary of the Tzinacatl's arc from stagnant tradition and market defeat by Chrysalis to change for the better, which ties the scene to the theme only through that arc.

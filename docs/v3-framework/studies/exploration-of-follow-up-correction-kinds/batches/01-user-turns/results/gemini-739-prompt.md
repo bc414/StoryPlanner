@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Google Docs attached to NotebookLM stay in sync, moving from the WPF-to-Drive upload method to how NotebookLM handles source updates, without saying anything in the model turn was wrong.

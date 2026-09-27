@@ -1,0 +1,8 @@
+- asks:
+  - propose | pitches a plot development where Star Energy, after arresting Rockefeller for collaborating with Chrysalis, rolls out the war-bond model to buffalo and oil workers under harmonic capitalism, marking Applejack's embrace of it, and implicitly invites the model to engage with/build on this idea | "I'm thinking once they arrest Rockfeller... Star Energy rolls out the war bond model"
+- supplies:
+  - plot background | established story facts: Manehattan war bonds set up in chapter 7 (Rarity and the union EEEE), and the upcoming chapter Loyalty's radio call between Applejack, Star Energy, and Rarity, plus the problem that Star Energy needs oil and must deal with Rockefeller | a paragraph
+- shaping:
+  - none given | no instruction about form, length, or stance of a reply
+- openness: Leans toward an answer it names: the message already lays out its own proposed sequence (arrest Rockefeller, roll out war bonds to buffalo/oil workers, Applejack embraces harmonic capitalism) and gives its own justification ("the command economy only works within Tall Tale").
+- subject: Plotting how Star Energy's oil crisis in the Loyalty chapter resolves via Rockefeller's arrest and the spread of the war-bond/harmonic-capitalism model, and Applejack's ideological shift

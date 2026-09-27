@@ -1,0 +1,13 @@
+- passages:
+  - Synopsis | scene content from a side | Twilight presses on with one more subject and Celestia, worn out, sighs and only wants the conversation finished, inviting her to speak | Twilight says one more thing, princess; Celestia sighs, exhausted and just wants things over with | none | none
+  - Synopsis | scene content from a side | Twilight opens the topic of sex and Celestia stiffens, then deflects the subject to Luna as the Princess of the Night whose area it is | We need to talk about sex. Celestia seizes up | none | none
+  - Synopsis | prose fragment | Dialogue lines drafted as spoken: Twilight's blunt opener and Celestia's deflection to Luna | You may talk to Luna about that. She is The Princess of the Night. | none | none
+  - Synopsis | belief or perception | Twilight's accusation that Celestia took something fundamental to biology, sex, and made it a boring chore | How could you turn something so fundamental to our biology into a boring chore? | none | truth absent; none named
+  - Synopsis | fact of the world | Serfdom existed with sexual abuse within it, as Celestia angrily tells it | Celestia angrily talks about serfdom and the sexual abuse | inside speech | none
+  - Synopsis | fact of the world | Industrialization is a form of serfdom carried on at industrial scale, in Celestia's account | industrialization is just industrialized serfdom | inside speech | none
+  - Synopsis | fact of the world | Sexual predation was set aside as a system because it had too many problems, given as Celestia's reason | Because sexual predation had too many problems | inside speech | none
+  - Synopsis | belief or perception | AJ's view that Celestia is suppressing ambition and sex and giving up all the potential they hold, put to Luna as a question about whether she is okay with it | AJ asks Luna if Luna is okay with this, that Celestia is suppressing ambition and sex and giving up all the potential they have | none | truth absent; none named
+  - Synopsis | scene content from a side | Rarity steps in to stop AJ, saying it is enough and unfair on Celestia, whom she pities | Rarity says darling, that's quite enough, it's not fair on the poor dear | none | none
+  - Synopsis | fact of the world | Luna states that she is fine with all of it | Luna says she is fine with it all | inside speech | none
+  - Synopsis | belief or perception | AJ does not accept Luna's claim to be fine | AJ says I don't believe it | none | truth absent; none named
+- mixed: The synopsis holds more than one kind: scene content from a side, prose-like dialogue lines, beliefs and perceptions, and facts of the world given inside Celestia's and Luna's speech. There are no links, no outcome and no stakes text.

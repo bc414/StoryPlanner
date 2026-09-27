@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's heavily specified, fixed per-category track sets treat getting the schema right up front as the goal, whereas the user says the point of the unified note structure is that tracks can be changed and visualized later, so exhaustive upfront design is misdirected | I'm getting stuck on getting everything right instead of building the UI; The point of making all text data a unified note structure is to allow changing tracks | Mild, self-framed pushback voiced as the user's own feeling of being stuck, with a stated reason, and not aimed at the model directly
+- about: The user steps back from the detailed category-by-category schema design, says they will build the UI and work with real data, and asks for practical rules for deciding when a new category is needed so the data doesn't end up mixed.

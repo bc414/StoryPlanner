@@ -1,0 +1,25 @@
+- passages:
+  - note 4806 | contrastive fragment list | short fragments, "vs" contrasts, no main verb | framing the magic system as science/hard-magic vs myth/deus-ex-machina | apart
+  - note 4806 | conversational aside | contraction "isn't"/"she's", colloquial "just a pony" | Twilight not being an infinite battery | apart
+  - note 4807 | analytic comparative sentence | single subordinate-clause sentence, evaluative "chilling empty promises" | Dreamscape Aid Network vs Luna's broken promises | apart
+  - note 4808 | contrastive fragment list | noun-phrase fragment, "instead of" contrast, no main verb | bottom-up democratized magic vs top-down imperialism | apart
+  - note 5452 | labeled cross-work comparison | colon-tagged per-work descriptors, terse | Chrysalis personality across p&k, TLTT, Pax | apart
+  - note 5452 | discursive explanatory analysis | full connected sentences, first-person "I am really doubling down" | origin of the changeling language and its reuse across the works | apart
+  - note 5452 | labeled cross-work comparison | colon-tagged per-work descriptors | Trimmel characterization across the three works | apart
+  - note 5452 | discursive explanatory analysis | multi-clause elaboration with parentheticals | how the magic system's logic differs across p&k, Pax, TLTT | apart
+  - note 5452 | conversational aside | trailing "though", brief casual claim | Pagala staying the same across timelines | apart
+  - note 5452 | labeled cross-work comparison | colon-tag with all-caps emphasis "CYNICAL" | Celestia's characterization in p&k | apart
+  - note 5452 | discursive explanatory analysis | full sentences, hedging "perhaps...implies", first-person "I believe" | Celestia's characterization in Pax and TLTT | apart
+  - note 5452 | discursive explanatory analysis | full sentences, first-person "I am rejecting", closing "Whereas..." clause | Twilight's arc and agency across all three works | apart
+- shifts:
+  - note 4806 | contrastive fragment list | conversational aside | shift to a complete sentence with a contraction and a personal claim about a character
+  - note 5452 | labeled cross-work comparison | discursive explanatory analysis | expansion into a full first-person sentence ("I am really doubling down"), loss of the colon-label pattern
+  - note 5452 | discursive explanatory analysis | labeled cross-work comparison | return of the colon-tagged per-work structure, loss of the first person
+  - note 5452 | labeled cross-work comparison | discursive explanatory analysis | expansion into multi-clause elaborated sentences past the initial label
+  - note 5452 | discursive explanatory analysis | conversational aside | drop to a short informal sentence ending in "though"
+  - note 5452 | conversational aside | labeled cross-work comparison | return to the colon-tag pattern with all-caps emphasis
+  - note 5452 | labeled cross-work comparison | discursive explanatory analysis | expansion into a full hedged sentence with first-person "I believe"
+  - note 4807 |  |  |
+  - note 4808 |  |  |
+- registers: contrastive fragment list; conversational aside; analytic comparative sentence; labeled cross-work comparison; discursive explanatory analysis
+- whole: This item holds several distinct registers — terse contrastive fragments, colon-tagged cross-work comparisons, a flowing analytic comparison, brief conversational asides, and fuller discursive explanation — and they alternate at sentence or paragraph boundaries within a note rather than ever blending inside a single sentence.

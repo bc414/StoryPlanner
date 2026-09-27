@@ -1,0 +1,10 @@
+- asks:
+  - idea pitch | presents a new plot twist and invites the model to take it in as a development of the story | "I have a hilarious iteration... How about if..."
+  - analysis | asks for an analysis of the refined claim that Celestia's naive worldview is applied selectively to Equestrians and not to outsiders like the buffalo | "Give an analysis of that"
+- supplies:
+  - plot idea | a new twist where arrested pony mercenaries face state rehab or deportation to New Mareland, which Rockfeller's recruits treat as a free one-way ticket to become capitalists there | a paragraph
+  - quoted statement | an existing line describing Celestia's belief that conflicts stem from mutual misunderstanding and her response of hosting "Amity Forums" for the buffalo | a sentence
+  - refinement claim | the user's own sharpened version of that idea, that Celestia's worldview is not naive but is deliberately confined to Equestrians and withheld from outsiders like the buffalo | a couple of sentences
+- shaping:
+- openness: leans toward the answer it names: it asks for analysis of its own stated refinement that Celestia's worldview is selectively, not naively, applied to Equestrians versus outsiders like the buffalo.
+- subject: a plot twist about pony mercenaries and forced emigration to New Mareland, and the hypocrisy behind Celestia's worldview toward Equestrians versus the buffalo

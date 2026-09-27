@@ -1,0 +1,6 @@
+- sources:
+  - Lore from EAW wiki (the pasted passage on the Bronzehill dogs, Grover II, Bronzekreuz, and the industrial decline after 978) | treat as established background lore about Bronzehill to build the analysis on | Lore from EAW wiki | first-named
+  - the author's own account of Grover V, Benito and the Bronzehill dogs and the Barkingian Guard | treat as given facts of the story that the model should take as the premise | Child Grover V was saved in 978 by his personal guard | first-named
+  - my current history of Herzland | existing baseline that the new Bronzehill material is to be measured against, to see what it changes | my current history of Herzland | referred-to
+- order:
+- about: The author supplies the Bronzehill dog lore, partly their own and partly pasted from the EAW wiki, and asks how a loyal second race in the hills next to Herzland changes their existing Herzland history and the societal structure of the Reich and the GR.

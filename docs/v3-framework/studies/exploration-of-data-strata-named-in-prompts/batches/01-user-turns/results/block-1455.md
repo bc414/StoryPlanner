@@ -1,0 +1,6 @@
+- sources:
+  - Punnett squares | offered as a candidate technique to borrow for laying out the four binary axes in two dimensions, a tentative suggestion to consider | Punnett squares?  | first-named
+  - Game theory | offered as a candidate source of 2d visualization methods, tentative and posed as a question | Game theory? | first-named
+  - dld (digital logic design) | offered as a candidate field to draw a visualization method from, tentative and left vague | Something from dld? | first-named
+- order:
+- about: The user asks the model for ways to lay out four binary axes in two dimensions, suggesting a few fields as possible sources of technique, in order to classify the 16 possible track types.

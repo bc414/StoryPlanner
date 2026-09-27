@@ -1,0 +1,36 @@
+- passages:
+  - note 8 | biographical chronicle | terse third-person past-tense facts and fragments | her farm origins, family, university visit | apart
+  - note 8 | worldbuilding explanation | parenthetical aside stating a setting rule | taboo on pony-development research before Colbert reforms | run-in
+  - note 8 | biographical chronicle | continued past-tense facts and fragments | her shift to revolutionary, mentor Coltbert, joining Star Energy, her political stance | apart
+  - note 8 | trait characterization | inverted sentence order, present tense, comparison to another character | her curious, optimistic, teaching nature | apart
+  - note 4372 | trait characterization | short blunt declarative sentences, direct comparison | her love of teaching and nerdiness | apart
+  - note 4484 | thematic analysis | abstract cause-effect statement about one character's influence on another | Twilight helping Fleur value the safety her parents gave her | apart
+  - note 4668 | planning directive | "should be", instruction on how to write her | her pre-reveal arrogance and dismissiveness toward Celestia | apart
+  - note 4668 | character interpretation | present-tense declarative claims, metaphor of a "nursery" | her sense of superiority and self-appointed mission to uplift Equestrians | apart
+  - note 4668 | analytical parallel | "So just as...", exclamation, explicit comparison | the mirrored mentor-shaping of Twilight and Fleur | apart
+  - note 4668 | planning directive | "should point this out and say", prescriptive about future dialogue | Twilight telling Fleur she needn't overexert herself anymore | apart
+  - note 5134 | meta-justification | denial of arbitrary placement, direct reference to "the author" | defending why Fleur is located in Tall Tale | apart
+  - note 5134 | worldbuilding explanation | dense economic/lore jargon, causal clause | the "tally stick" economy making Tall Tale ideal for her research | apart
+  - note 5418 | informal narrative anecdote | comma-spliced run-on, embedded quasi-direct speech | how she got her cutie mark against her parents' wishes | apart
+  - note 5418 | worldbuilding explanation | comma-spliced continuation into a general present-tense claim | the pony custom of treating cutie marks as destiny | run-in
+  - note 5418 | planning directive | "should be", brief prescriptive statement | specifying her cutie mark as a stack of books | apart
+  - note 5418 | biographical chronicle | past-tense factual explanation | her constant reading due to being confined to the farm | apart
+  - note 5418 | analytical parallel | "So... literally... hence", casual comparison, show reference | equating her to an "Aquileian Twilight" and her abrasive personality | apart
+  - note 5481 | planning directive | "should use", comparison to another character's phrase | Fleur using "Mon Amie" like Max's "My friend" | apart
+- shifts:
+  - note 8 | biographical chronicle | worldbuilding explanation | parenthesis opens, switch from personal event to general setting rule
+  - note 8 | worldbuilding explanation | biographical chronicle | parenthesis closes, narration of her actions resumes
+  - note 8 | biographical chronicle | trait characterization | shift from past-tense events to present-tense inverted description and explicit comparison
+  - note 4372 | | |
+  - note 4484 | | |
+  - note 4668 | planning directive | character interpretation | drops "should", states traits as settled present-tense fact
+  - note 4668 | character interpretation | analytical parallel | paragraph break, opens with "So just as...", exclamation
+  - note 4668 | analytical parallel | planning directive | returns to prescriptive "should", turns to planned dialogue content
+  - note 5134 | meta-justification | worldbuilding explanation | shifts from denying arbitrary choice to citing a specific in-world economic mechanism
+  - note 5418 | informal narrative anecdote | worldbuilding explanation | comma splice continues into a general present-tense claim about pony custom, no punctuation break
+  - note 5418 | worldbuilding explanation | planning directive | paragraph break, switch to "should be" prescriptive statement
+  - note 5418 | planning directive | biographical chronicle | drops "should", returns to past-tense factual explanation
+  - note 5418 | biographical chronicle | analytical parallel | paragraph break, opens with "So", comparative claim with show reference
+  - note 5481 | | |
+- registers: biographical chronicle; worldbuilding explanation; trait characterization; thematic analysis; planning directive; character interpretation; analytical parallel; meta-justification; informal narrative anecdote
+- whole: This item's notes move across several distinct registers—factual chronicle, worldbuilding asides, trait and interpretive characterization, thematic analysis, prescriptive planning directives, meta-justification, and one informal anecdote—and these mostly stand apart as separate sentences or paragraphs, with only a parenthetical aside and a couple of comma-spliced clauses running directly into a neighboring register without a break.

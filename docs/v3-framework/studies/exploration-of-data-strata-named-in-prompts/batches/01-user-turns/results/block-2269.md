@@ -1,0 +1,5 @@
+- sources:
+  - the author's own prior knowledge that Walmart is extractive and Costco cooperative | treat as a true premise the question builds on, not something to re-check | I know Walmart is famously extractive while Costco is famously cooperative | first-named
+  - the generic versus agglomerative suburb distinction from the earlier discussion | use as the frame for answering the question | non generic, agglomerative suburbs | referred-to
+- order:
+- about: The user takes the model's suburb-paradigm comparison and asks a follow-up question, whether Costco locates only in non-generic, agglomerative suburbs, while stating their prior belief about Walmart and Costco as the starting premise.

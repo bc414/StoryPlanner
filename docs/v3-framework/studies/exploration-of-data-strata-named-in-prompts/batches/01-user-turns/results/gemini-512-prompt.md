@@ -1,0 +1,4 @@
+- sources:
+  - the TwiJack thread | check it against the current thread's analysis to assess how much they overlap and whether they are the same or distinct | "How much overlap is there with the TwiJack thread? Are they the same thing or distinct?" | referred-to
+- order:
+- about: The user asks the model to compare the current (Twilight Breaking from Celestia) thread against the TwiJack thread to determine their degree of overlap and whether they are the same storyline or distinct ones.

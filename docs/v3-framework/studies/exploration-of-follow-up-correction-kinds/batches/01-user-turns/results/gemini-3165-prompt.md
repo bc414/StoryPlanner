@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn lays out the planner's code, data export, screenshots, and Minerva material and asks for a statement of the problem, what professionals do, how to arrange the fabula, and further nuances beyond epistemology, without saying anything in the preceding answer was wrong.

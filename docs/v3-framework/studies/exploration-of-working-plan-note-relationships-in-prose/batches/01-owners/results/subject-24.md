@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 192 | Another character, Pinkie Pie, and her cutie mark story, an event held elsewhere in the plan | Pinkie Pie's cutie mark story
+  - 192 | The University of Pridea and the city of Pridea, a place and institution that this item does not describe | University of Pridea
+- whole: The owner has only one note, so there is nothing to hang together or to separate; it stands as a single entry.

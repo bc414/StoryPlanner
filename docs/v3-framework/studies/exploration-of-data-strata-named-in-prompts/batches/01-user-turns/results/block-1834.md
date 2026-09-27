@@ -1,0 +1,6 @@
+- sources:
+  - plot points in chapter 7 | read thoroughly for information on the Manhattan system name, to find the name there instead of the model's proposals | Look thoroughly at the plot points in chapter 7 | referred-to
+  - chapter 9 | consult for the tycoons' system name | For the tycoons, look at chapter 9 | referred-to
+  - chapters 10-12 | check as possible further relevant details for the names | There may also be relevant details in chapters 10-12 | referred-to
+- order:
+- about: The user rejects all the model's proposed names and directs it to look in specific chapters of the story plan (7 for the Manhattan system, 9 for the tycoons, 10-12 for extra details) to find the names.

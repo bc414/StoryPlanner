@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model said the supplied material contains nothing on Applejack's parents' backstory and so skipped it; the user points to a Codex entry, a body of material the model did not use, that holds it (they became industrialists running a canning export company) | I had a Codex entry labeled "Applejack's Parents" | flat, brief statement of the existing entry, stated in passing with no explicit complaint
+- about: The user tells the model that the parents' backstory it said was missing does exist in a Codex entry, and gives its content, implicitly supplying what the model lacked.

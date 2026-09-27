@@ -1,0 +1,7 @@
+- asks:
+  - research | investigate whether the season 1 writers drew on an existing source for the nursery rhyme used in the episode, or invented it with no traceable origin | "research where the season 1 writers come up with the nursery rhyme...if there is any evidence of it, or did it just come out of nowhere"
+  - research | investigate the origin of the term "Pinkie Promise" | "where the term Pinkie Promise comes from"
+- supplies:
+- shaping:
+- openness: Leaves both answers open, though for the first ask it names two possible outcomes (an identifiable source vs. the rhyme coming from nowhere) between which the research should decide.
+- subject: Real-world origins of a nursery rhyme from the MLP:FiM episode "Green Isn't Your Color" and of the term "Pinkie Promise"

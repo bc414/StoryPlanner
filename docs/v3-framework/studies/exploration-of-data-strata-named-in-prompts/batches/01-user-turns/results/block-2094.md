@@ -1,0 +1,6 @@
+- sources:
+  - ponies | one half of what the species name should bridge, and part of the imagined art style | a name that bridges ponies and porygons | referred-to
+  - Porygon2 | the design the user is really aiming for, to be kept with pastel colour changes and used as the default look of the species | Porygon2 is really what I am going for | referred-to
+  - Porygon | the model for the warrior/industrial version of the species, with pastel colour changes | Porygon as the warrior/industrial version | referred-to
+- order:
+- about: The user asks for a species name that blends ponies and Porygons, and describes the intended pastel Flash-style look by pointing to Porygon2 as the base design and Porygon as the warrior/industrial variant.

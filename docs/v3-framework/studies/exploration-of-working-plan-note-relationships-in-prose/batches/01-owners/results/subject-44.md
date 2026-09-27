@@ -1,0 +1,16 @@
+- relations:
+  - 676 | 679 | 679 builds a role on the trait 676 gives: she stands for Resilience, so she is the one who teaches it | represents Resilience / mentor for teaching resilience | implicit
+  - 676 | 681 | 681 plays out on the page the morale and Resilience that 676 states as her nature: she opens as a beacon of resilience and optimism | Resilience... in her morale / shining beacon of resilience and opitmism | implicit
+  - 680 | 681 | 681 gives the grudge against ruthless industrialists (and the cheating early industrialists behind it) that 680's arc of reconciling with industrial poseurs works on | reconciling with industrial poseurs / unharmonic grudge against ruthless industrialists | implicit
+  - 675 | 676 | Both set her against Pinkie: energetic like Pinkie but made precise and grounded by work with counting, organizing and logistics; 676 gives the trait and 675 shows it in her speech | like Pinkie / works in logistics / counts and organizes material | implicit
+  - 677 | 678 | The tail streak in 677 is set to line up with the split in the stock and foil, which is the split tally stick of the cutie mark in 678; 677 presupposes 678's image | split in the stock and foil / tally stick... across the split | implicit
+  - 679 | 681 | 681 says she starts as a beacon of resilience, which is the ground for her being trusted as a mentor of resilience in 679 | mentor for teaching resilience / shining beacon of resilience | implicit
+- outward:
+  - 675 | Pinkie Pie and Applejack, other characters held elsewhere, used as points of comparison | like Pinkie Pie / Applejack is earthy and traditional
+  - 675 | Real-world Texan speech as the model for her accent | The inspiration is Texan
+  - 676 | Pinkie, another character, and Laughter, a theme or figure held elsewhere, of which she is the mature version | mature version of Laughter / energetic like Pinkie
+  - 677 | The story or book named TLTT, whose start is the reference point | at the start of TLTT
+  - 680 | Las Pegasus, a place and its industrial poseurs, held elsewhere | industrial poseurs like in Las Pegasus
+  - 681 | The changeling invasion, an event of the wider story | in the face of the changeling invasion
+  - 681 | The early industrialists, a history of weighted scales held elsewhere in the world's lore | early industrialists were cheats with weighted scales
+- whole: The notes hang together loosely: the Resilience, mentor, opinion and development notes lean on one another, and so do the look notes, but the accent note stands mostly apart, joined only through the Pinkie contrast.

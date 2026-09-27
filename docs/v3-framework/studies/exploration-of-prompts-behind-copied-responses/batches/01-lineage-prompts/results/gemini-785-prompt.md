@@ -1,0 +1,16 @@
+- asks:
+  - brainstorm | work out how to frame Chrysalis's policy shift (the 'flip') so it makes sense to her practical, results-oriented mind, given that magic-for-combat was already folded into the normal sustainable love-tax system | "how can I frame the flip for chrysalis's practical mind"
+  - check | determine whether Trimmel's belief that love-tax revenue is worth more to the state than forced pony labor counts as a loophole in the orders Chrysalis gave | "is this a loophole in chrysalis's orders?"
+  - brainstorm | define what Chrysalis's actual standing orders to the Statthalters/Bauleiters would have been | "What would Chrysalis's orders be?"
+  - feedback/validation | weigh in on whether Chrysalis would plausibly read Trimmel's request for the full air force and tanks as a bid for personal military glory rather than sound strategy, and whether Trimmel's resentment over Henri targeting his Jaeger peers is what really drives him | "Maybe Chrysalis thinks Trimmel only wants military glory"
+  - choice | decide whether the Falldale harvesting (Pagala replacing Ixodida) should be placed between the first and second battle or after the second battle when Trimmel is moved to Manehattan | "Should the harvesting of Falldale...happen between the first and second battle or after the second battle"
+- supplies:
+  - worldbuilding recap | pink love (friendship) vs red love (magic) system and how Bauleiter taxes collect both from pony labor and army needs | a paragraph
+  - story reference | Trimmel's reasoning to Applejack in the 'Preparation' scene about rushing to Vanhoover to execute the Statthalters after Elvir's surrender | a few sentences
+  - military doctrine outline | description of Trimmel's Auftragstaktik-based elite army, the Aquileian-led Tall Tale defense, and the stakes of killing or capturing Rainbow, Twilight and Applejack | a paragraph
+  - character motivation note | idea that Trimmel resents Henri for precision-targeting his Jaeger peers, and that Chrysalis attributes his stance mainly to this resentment | a couple sentences
+  - plot placement options | two possible timings for the Falldale harvest/Pagala-Ixodida swap, each with reasoning for and against | a paragraph
+- shaping:
+  - keep Chrysalis's reasoning internally rational even if factually wrong | "she doesn't have to be correct but she has to be rational"
+- openness: Mostly open brainstorming (how to frame the flip, what the orders would be, whether Trimmel's real motive is glory/resentment) mixed with one check-type question (is this a loophole) and one explicit choice between two named timings for the Falldale harvest.
+- subject: Chrysalis's rational motives for shifting Statthalter policy from labor/integration to extraction, and where the Falldale harvesting event should fall relative to the two battles

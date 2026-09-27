@@ -1,0 +1,15 @@
+- steps:
+  - author | attaches material | an unspecified document | at the outset, before any text message
+  - author | brings a worldbuilding premise | the fertilizer-plant-to-munitions conversion, cutie-mark branding on fertilizer, and the tractor/truck/tank production split | opening the conversation
+  - model | returns a multi-angle analysis | chemistry rationale for the conversion, terroir-based economic logic, vehicle-production causality, a psychological read on Applejack, and open questions | responding to the factory premise
+  - author | poses a pacing question | asks why Applejack's grasp of Comet Shine's ethos is delayed until the Town Hall | after the factory analysis, without addressing it further
+  - model | returns a psychological/causal analysis | trauma-based heuristics, siege-economy reasoning, foil characters, thematic stakes, and open questions | responding to the pacing question
+  - author | corrects the model's account | separates two distinct turning points (Town Hall vs. the Trimmel conversation in 'Honor') and specifies what changes emotionally at each | after the pacing analysis
+  - model | revises into a two-stage structure | a staged ideological arc for Applejack, the shifting meaning of her Honesty, and uniform symbolism, plus open questions | responding to the correction
+- kept:
+  - note 5575 | the author's own words in this record | keeps the author's premise on the factory conversion and branding practice, filed under Subject 'Harmonic Capitalism'
+  - note 5576 | pasted whole from this reply | keeps the bulk of the model's psychological/causal analysis of Applejack's delayed acceptance, filed under Subject 'Harmonic Capitalism'
+  - note 2610 | pasted whole from this reply | keeps one sentence on Applejack shedding the title of Honesty for a new one, filed under Link 'Applejack takes Rarity's uniform × Applejack'
+  - note 5577 | pasted from this reply inside the author's own framing | keeps a three-stage summary of Applejack's arc, filed under Subject 'Applejack'
+- brought: The author brought two worldbuilding premises for the model to analyze in turn: a factory-conversion/branding detail, and a correction distinguishing two separate turning points in a character's arc.
+- loop: The author feeds in raw premises and, when the model's read runs together what the author sees as distinct, a correction that resplits it; the model answers each with a structured multi-angle analysis, and the archive keeps both sides — the author's own premise wording and the model's analysis, whole or reframed — as lore and character notes.

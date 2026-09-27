@@ -1,0 +1,9 @@
+- asks:
+  - check | asks whether the stated claim that France was a decentralized realm with the king merely the strongest warlord (until Louis XIV) is correct | "So France is a decentralized state where the king is just the biggest warlord before Louis XIV?"
+  - check | asks whether the stated claim that England centralized because of the Magna Carta and the House of Lords/Commons is correct | "did they centralize because of the Magna Carta and the house of lords and house of commons?"
+  - explain | asks how the Black Death affected the political developments just discussed | "How did the Black Death affect things?"
+- supplies:
+  - worldbuilding note | demographic makeup of Aquileia (griffon/pony ratio, serf composition, differing treatment of ponies) and a university's findings on earth pony magic acting as slow, pride-scaling biological fertilizer versus active unicorn/pegasus magic | a paragraph
+- shaping:
+- openness: Leans toward the answers it names for France and England, asking the model to confirm or elaborate on those specific claims, then poses the Black Death question openly without suggesting an answer.
+- subject: Worldbuilding demographics/magic-system clarification alongside real-world medieval European political centralization (France, England, Black Death) used as reference for the fictional setting

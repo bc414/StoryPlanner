@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user picks Le Tableau de Chasse for the scorecard, explaining its double meaning as hunting log and trophies in the story's market, then asks for an analysis of English and French phrasings of the spell's name.

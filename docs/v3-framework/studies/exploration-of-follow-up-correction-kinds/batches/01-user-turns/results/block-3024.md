@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the Chrysalis succession chain to a new design question about Gilded Lily, asking whether her long-horizon business patience paired with a hard-partying early death holds together and whether her Acornage years should be hustling or seething, with the text repeated several times.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual history question about what motivated or fueled individual soldiers during the Rape of Nanjing, extending the WWII-parallel discussion, without pointing at any body of material to use or avoid.

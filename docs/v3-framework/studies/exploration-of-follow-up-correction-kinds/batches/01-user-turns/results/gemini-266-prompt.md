@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the finale analysis to new plot questions: how to explain Celestia ignoring the buffalo plea, whether AJ should withdraw SECEF from Griffonia after Synovial's defeat, and how sparing Synovial as a convicted war criminal contrasts him with Chrysalis.

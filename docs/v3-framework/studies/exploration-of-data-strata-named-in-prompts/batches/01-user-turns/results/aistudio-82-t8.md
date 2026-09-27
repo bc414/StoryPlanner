@@ -1,0 +1,5 @@
+- sources:
+  - the above notes about Celestia's view of the debate between Applejack and Gilded Trust | pasted in for the model to check; the author asks whether they are now obsolete, so they are treated as possibly outdated, not settled | Are these above notes about Celestia's view of the debate | first-named
+  - Celestia's backstory/psychology timeline of stagnation of harmony change | the newer revision to Celestia's backstory, which the notes are to be checked against for whether it makes them obsolete | after Celestia's backstory/psychology timeline of stagnation of harmony change | referred-to
+- order:
+- about: The user pastes earlier notes on why Celestia skips the Applejack and Gilded Trust debate and asks whether the recent change to her stagnation backstory and psychology has made them obsolete.

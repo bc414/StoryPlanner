@@ -1,0 +1,4 @@
+- sources:
+  - the full story | the complete text the model is to read and summarize, treated as the whole story | "This is the full story." | referred-to
+- order:
+- about: The user says the file just counted is the whole story and asks the model to summarize it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reacts personally to the GRRM account, doubts their own bias, and asks follow-up questions about how audiences take the books and show, and whether Martin lost conviction or was captured commercially, without disputing anything the model said.

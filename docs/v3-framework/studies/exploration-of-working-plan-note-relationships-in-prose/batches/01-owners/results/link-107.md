@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2559 | the original concept of a garden for play, which the kindergarten twists; the concept is held elsewhere and not in this item | the twisted version of the original concept of a garden for play
+  - 2559 | the drones Chrysalis means to nurture, who are characters or a population not described in this item | her kindergarten will nurture the drones
+- whole: Only a single note is present, so there is no set to hang together or fall apart, and the note stands alone.

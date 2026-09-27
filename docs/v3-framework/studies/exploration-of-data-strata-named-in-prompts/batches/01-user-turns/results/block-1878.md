@@ -1,0 +1,4 @@
+- sources:
+  - MEFO Bills and Simplified Herzlander, already classed as Technology | treat as settled precedent; use it as the comparison for whether Elements of Liberty, another invented framework, should also be Technology | MEFO Bills and Simplified Herzlander were deemed as "Technology" | referred-to
+- order:
+- about: The user questions the previous classification, suggesting the Predator's Dilemma may be a theme rather than a subject and that Elements of Liberty may be the subject or a Technology because agents invent it, and asks whether the Technology category needs a broader name.

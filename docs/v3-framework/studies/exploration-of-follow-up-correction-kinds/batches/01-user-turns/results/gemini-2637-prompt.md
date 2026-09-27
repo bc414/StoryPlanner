@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's framing of the Sleep Spell as a non-cheating, materially costly, trust-building Pink Love override, and a thematic victory, is challenged. The user holds that the spell still bypasses stress by cutting off consciousness, so the established theme of Equestrian avoidance is left out of the model's account. | "So does this thematic statement still apply?" and "It doesn't resolve the stress; it just magically severs the nervous system's consciousness" | Put as a question that carries the counter-claim inside it. There is no explicit disagreement, apology or irritation, and the user restates the earlier theme as the test.
+- about: The user checks whether the model's reframing of the Sleep Spell as trust-based and biologically honest still fits the earlier theme of Equestrian avoidance, and restates that theme as the measure.

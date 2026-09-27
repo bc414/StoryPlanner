@@ -1,0 +1,22 @@
+- passages:
+  - note 4379 | capsule verdict | short, blunt, present-tense assessment, 'basically a poseur' | Starlight's role as Our Town cult leader | apart
+  - note 4380 | concept-linking statement | present tense, ties an action to a coined term, 'harmonic capitalism' | Starlight embracing special talents | apart
+  - note 5162 | plot narrative | historical-present recounting, 'quarentines herself...because' | Starlight isolating herself at the war's start | apart
+  - note 5162 | plot narrative | historical-present clause, 'after...is defeated...hears' | fall of Vanhoover and the bauleiter's pitch | apart
+  - note 5162 | concept-linking statement | parenthetical gloss '(being a cog)' and comparison 'like Our Town propaganda' | likening the bauleiter's pitch to Our Town propaganda | run-in
+  - note 5162 | plot narrative | resumed clause, 'she desperately wants to fight back, but now Twilight is holding her back' | Starlight's wish to fight and Twilight restraining her | run-in
+  - note 5164 | motive critique | past continuous with evaluative adjectives, 'sanitized, docile, predictable' | Twilight micromanaging Starlight's redemption | apart
+  - note 5164 | causal explanation | 'because' clause tying Celestia's choice to her own history | Celestia letting Twilight reform Starlight | apart
+  - note 5397 | telegraphic fragment | elliptical clause with no connecting grammar | manifesto found at age ten after Sunburst left | apart
+  - note 5397 | telegraphic fragment | fragment opening 'And', incomplete sentence | studying combat magic | apart
+  - note 5397 | causal explanation | full sentence with 'because', present tense 'rejects' | Starlight rejecting the Aquileian seal philosophy | apart
+  - note 5397 | factual declarative | short simple past-tense statement with technical term 'asset specificity' | inventing the spell to remove asset specificity | apart
+  - note 5622 | deliberative questioning | three consecutive questions, self-addressed | whether the cutie-mark-swap plot fits TLTT | apart
+- shifts:
+  - note 5162 | plot narrative | concept-linking statement | marked by parenthetical '(being a cog)' and comparison 'like Our Town propaganda'
+  - note 5162 | concept-linking statement | plot narrative | marked by return to a plain subject-verb clause, 'she desperately wants to fight back'
+  - note 5164 | motive critique | causal explanation | marked by a new sentence built on 'because' shifting subject to Celestia
+  - note 5397 | telegraphic fragment | causal explanation | marked by a full sentence with 'because' and present-tense 'rejects'
+  - note 5397 | causal explanation | factual declarative | marked by a short plain sentence with no causal clause, 'She invented...'
+- registers: capsule verdict; concept-linking statement; plot narrative; motive critique; causal explanation; telegraphic fragment; factual declarative; deliberative questioning
+- whole: This item holds several distinct registers, with most notes staying in one register from start to end while three notes (5162, 5164, 5397) shift registers partway through, sometimes with a plain break between sentences and once, in 5162, with one register running into another inside a single sentence.

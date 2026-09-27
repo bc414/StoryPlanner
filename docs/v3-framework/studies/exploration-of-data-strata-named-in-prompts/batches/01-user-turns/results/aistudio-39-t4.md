@@ -1,0 +1,5 @@
+- sources:
+  - the chapter Sabotage, its Town Hall scene | treat as the fixed point in the story plan where Applejack's misperception ends; the analysis must be built to lead to it and not move it | This perception continues until the Town Hall in the chapter Sabotage | referred-to
+  - the author's own account of Applejack and Comet Shine in this turn | treat as settled premise (she hates him as the sign her agrarian world is dead, and he is right), to be explained and not questioned | Applejack initially hates Comet Shine not because he is a tyrant | first-named
+- order:
+- about: The author states a fixed character dynamic and pacing point in the story (Applejack misreads Comet Shine until the Town Hall in Sabotage) and asks the model for an analysis of the narrative reasons it takes that long for her to understand him.

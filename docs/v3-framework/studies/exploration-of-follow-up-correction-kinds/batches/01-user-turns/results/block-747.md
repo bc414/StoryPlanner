@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the UI design thread and asks for a detailed report of the uncontradicted conclusions from the whole conversation, to serve as Project Knowledge for new chats about the story's design.

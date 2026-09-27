@@ -1,0 +1,14 @@
+- passages:
+  - note 4264 | narrative summary | past tense, recounts motive and orders | Fluttershy's forced trip to Tall Tale to retrieve Twilight | apart
+  - note 4280 | plain expository statement | present tense, brief declarative | Changeling POWs' regard for Fluttershy as a kind queen | apart
+  - note 5190 | narrative summary | past tense, cites episode title and backstory | when and how Fluttershy learned The Stare | apart
+  - note 5190 | analytical/interpretive claim | present tense, short thematic declaratives, uses term 'Grace' | meaning of The Stare and Fluttershy's arc from top-down authority to letting others choose | apart
+  - note 5689 | analytical/interpretive claim | present tense, parenthetical citation, causal connector 'so that's why' | Fluttershy's exposure to predation making her least innocent | apart
+  - note 5689 | speculative questioning | question marks, hedge 'Maybe' | whether Winter Wrap Up animal care is performative | apart
+  - note 5689 | plain expository statement | present tense, comma splice, flat factual claim | Canterlot's spell-based, utilitarian Winter Wrap Up | apart
+- shifts:
+  - note 5190 | narrative summary | analytical/interpretive claim | shift from past-tense episode recap to present-tense thematic claims about meaning and arc
+  - note 5689 | analytical/interpretive claim | speculative questioning | paragraph break, shift to question marks and hedge 'Maybe'
+  - note 5689 | speculative questioning | plain expository statement | paragraph break, return to flat declarative opening 'Canonically,'
+- registers: narrative summary; plain expository statement; analytical/interpretive claim; speculative questioning
+- whole: This item's notes are written in several registers—plain narrative summary, flat expository statement, analytical/interpretive claim, and speculative questioning—with some notes holding to one throughout and others moving between them, always at a clear sentence or paragraph break rather than blending within a single sentence.

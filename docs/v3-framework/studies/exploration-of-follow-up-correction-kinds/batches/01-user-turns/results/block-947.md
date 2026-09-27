@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model framed the debate as a climax where Applejack's speech destroys Gilded Trust and treated it as the decisive rhetorical blow, while the user's design has the debate as cathartic and funny but barely moving the needle, with real change coming from state-level implementation. | "actually it shouldn't move the needle by too much" | Stated as the user's own intended design, introduced with "actually" and then turned into a hedged self-check question about whether it contradicts the roar, not as an outright rebuke.
+- about: The user pushes back on the model's decisive-climax framing of the debate by restating their design, in which the debate is cathartic but ineffective and state-level implementation does the real work, and asks whether this fits with the roar theme.

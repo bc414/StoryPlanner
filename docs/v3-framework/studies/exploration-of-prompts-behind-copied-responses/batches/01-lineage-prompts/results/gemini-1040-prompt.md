@@ -1,0 +1,8 @@
+- asks:
+  - decision weighing | asks whether the character Henrich Kesseler II should end up assassinated by the group VOPS, and to lay out the narrative pros and cons of that outcome | "Should Henrich Kesseler II ultimately get assassinated by VOPS anyway? What are the narrative impact pros and cons?"
+  - consistency check | asks whether, under the licensed production arrangement where Kesseler's engineers run the Manehattan factory, the red love shipments still cover the 15% royalty | "do the red love shipments continue to pay for the 15% royalty?"
+- supplies:
+- shaping:
+  - Structure the assassination answer as pros and cons | "What are the narrative impact pros and cons?"
+- openness: Mixed: the assassination question is left open, asking the model to weigh both sides rather than pick one, while the royalty question asks the model to confirm or check a specific stated arrangement (whether the shipments continue to pay the 15% royalty).
+- subject: Plot decision on a character's assassination and a licensing/royalty detail for a factory arrangement in the story world

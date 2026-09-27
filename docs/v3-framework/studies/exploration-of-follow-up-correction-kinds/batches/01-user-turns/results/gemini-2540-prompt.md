@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's island-fiefdom setup by asking whether Chrysalis must ignore Statthalter abuses to stay motivated, adding a side trade in luxuries, and drawing conclusions about her limited control over her elites and the Jaegers' politics, then asks for a thorough review of the plans.

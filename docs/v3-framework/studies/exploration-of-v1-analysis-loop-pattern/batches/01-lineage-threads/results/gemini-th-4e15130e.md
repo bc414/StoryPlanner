@@ -1,0 +1,8 @@
+- steps:
+  - the author | lays out backstory | recounts the arc from the first revolution's collapse through the counterrevolution and Coltbert's rival paper to the reforms he devises | opening of the single prompt
+  - the author | poses a request | asks for an analysis of part 2, the free social club mixing griffons, griffonesses, stallions and mares | middle of the same prompt
+  - the author | adds a constraint | appends a biological/magical rule about cross-species safety versus same-species risk and Coltbert's monopoly on the contraception spell | closing lines of the prompt, introduced with 'Also'
+  - the model | returns a thematic breakdown | a four-part analysis covering the tax-driven redistribution mechanism, the shift from private tableau to open market status, Coltbert's position as gatekeeper of intimacy, and the contrast with the starving city, closed with a summary framing | the single reply
+- kept:
+- brought: The author brought forward a large stretch of already-worked political and economic lore for the story's middle part and used it to frame a targeted request for analysis, then tacked on a further worldbuilding rule about reproduction and magic to sharpen that request.
+- loop: The author supplied an already-elaborated stretch of plan plus a pointed analytical question and an added constraint, and the model returned a structured thematic reading of that material back to the author, but in this stretch none of that reading was traced into the planning database, so the loop closes at the reply without a recorded return into the plan.

@@ -1,0 +1,31 @@
+- passages:
+  - note 20 | label | fragment noun-phrases, no full subject-verb clause | what the item is and who made it | apart
+  - note 4025 | contrastive explanation | 'but it doesn't...Instead, it contains...' negation-then-statement structure | how the rifle fires, contrasted with a gun | apart
+  - note 4026 | narrative lore | past tense, named actors, historical 'reference to' clause | how the rifle got its name 1000 years ago | apart
+  - note 4026 | emotional-state statement | present tense, single clause naming a feeling | Luna's shame at the name | apart
+  - note 4026 | thematic commentary | 'literally using...as bullets', present-tense generalizing claim | the symbolic meaning of firing with her old ambition | apart
+  - note 4027 | factual statement | short complete declarative sentence | typical power source of the rifle | apart
+  - note 4028 | mechanism description | plain present-tense descriptive sentences | the secondary crystal power source and its matrix | apart
+  - note 4028 | conditional scenario | 'If a soldier runs out...they can' hypothetical clause | emergency draining of own love for ammo | apart
+  - note 4028 | mechanism description | plain present-tense descriptive sentence | routing of red love to matrix and pink love to canister | apart
+  - note 4028 | procedural/institutional note | passive 'is expected to be donated', purpose clause | canister's afterlife supporting POW rehab | apart
+  - note 4072 | mechanism description | narrative present-tense sentences naming Twilight's actions | how the draining crystal and valve feed the barrel | apart
+  - note 4072 | notation legend | parallel letter-equals-noun clauses, no verbs of action | defining I, R, P valve labels | apart
+  - note 4072 | mechanism description | return to full descriptive sentences | input component and miniaturizing the harvester into the rifle | apart
+  - note 4073 | conditional configuration spec | 'When X, I is..., R to..., P is empty because' | valve state with a full red canister | apart
+  - note 4074 | conditional configuration spec | 'When X, the user switches...I faces...Now the rifle will...' | valve state and resulting behavior with no red love left | apart
+  - note 4109 | brainstorming/interrogative | rhetorical questions, first/second person, 'We still don't know', trailing question marks | how a hoofed pony triggers the rifle | apart
+  - note 4109 | design description | declarative future-tense statement, no question form, opens with 'But' | canister attaching to saddlebags, giving it a look | apart
+  - note 4109 | thematic commentary | 'The subversion is that...' naming statement | peacetime civilian use of the war canister | apart
+- shifts:
+  - note 4026 | narrative lore | emotional-state statement | tense shifts past to present, subject moves from the naming event to Luna's current feeling
+  - note 4026 | emotional-state statement | thematic commentary | shifts to metaphor 'literally using...as bullets' and a generalized present-tense claim about the weapon's meaning
+  - note 4028 | mechanism description | conditional scenario | shifts to 'If...they can' hypothetical construction
+  - note 4028 | conditional scenario | mechanism description | returns to a plain descriptive statement about routing
+  - note 4028 | mechanism description | procedural/institutional note | shifts to passive 'is expected to be donated' and a rehab purpose clause
+  - note 4072 | mechanism description | notation legend | shifts to parallel letter-equals-noun definitions with no action verbs
+  - note 4072 | notation legend | mechanism description | returns to full narrative sentences describing components
+  - note 4109 | brainstorming/interrogative | design description | drops question marks, opens with 'But' into a confident declarative statement
+  - note 4109 | design description | thematic commentary | shifts to the naming statement 'The subversion is that...'
+- registers: label; factual statement; contrastive explanation; narrative lore; emotional-state statement; thematic commentary; mechanism description; conditional scenario; procedural/institutional note; notation legend; conditional configuration spec; brainstorming/interrogative; design description
+- whole: This item's notes move through many distinct registers - terse catalog labels, contrastive technical explanation, mechanism description, notation legends, conditional device-state specs, narrative lore, a character's emotional aside, thematic commentary, and an informal question-and-answer brainstorm - and every shift falls at a sentence break rather than blending inside one sentence.

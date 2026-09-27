@@ -1,0 +1,37 @@
+- relations:
+  - 574|1996|the analogy note names the in-world mechanism that the ontology note spells out: legitimacy from slaying external monsters, the 'honest racket'|Honest Racket; Legitimacy via Monster Slaying / honest racket|implicit
+  - 1994|1996|general real-world model (feudalism justified by protection from outside threats) and its in-world instance (knights slay monsters for serfs' harvest share)|protection from magical beasts; in exchange for protection|implicit
+  - 574|1994|two parallel analogies for the same legitimacy-by-protection-from-an-external-threat logic (Rome, then medieval feudalism)|the threat was external; justified by protection|implicit
+  - 1995|1998|the broad prior condition (feudalism everywhere before Grover III) and the legendary warlord conquest that belongs to the Grover line|Before Grover III; Kaiser Grover|implicit
+  - 1998|1999|continuation in time: after the kaisers' subjugation of griffon lands, they run out of griffons to subjugate and turn to the Riverlands|subjugated Wingbardy and Aquileia; no more griffons to subjugate|implicit
+  - 1999|1996|the later conflict is an instance of the racket in ontology, with monster loot as the motive and rival lords running the same scheme|same 'honest racket'; monster loot|explicit
+  - 574|1999|the Grover-era racket described in the analogy carries on into the kaisers' expansion and the crusades built on monster loot|Honest Racket; honest racket|implicit
+  - 1997|1999|cause and later result: knights drove the beasts into the Scheißwald, and later the kaisers lack easy monsters to slay|drive all the magical beasts into the Scheißwald; no more ... easy monsters to slay|implicit
+  - 1997|1996|effect of the racket: knights slaying beasts, here on a large scale, clearing the plain|knights ... drive all the magical beasts|implicit
+  - 1997|1157|the same geographic fact (Herzland a flat plain) drives two different consequences, one for knights and one for serf flight|flat plain|implicit
+  - 607|1996|presupposes the racket: the risk-taking of monster hunting and the safe zone are the basis for the gender argument|Honest Racket; monster-hunting|explicit
+  - 607|1995|dates the safe-zone capital argument to the period before Grover III, which the history note gives as feudal|pre-Grover III era; Before Grover III|explicit
+  - 607|613|both root patriarchy in lineage and paternity; the first supplies the deep biological mechanism, the second the short feudal statement|paternity uncertainty; Inheritance Anxiety|implicit
+  - 607|1042|two different causal accounts of patriarchy, one from risk-aversion and paternity, the other from pregnancy's asymmetric consequences|not a product of male physical dominance; abusive patriarchy by nature of biology|implicit
+  - 613|1042|both explain patriarchy from biology, and the note on men having no consequences echoes unpunished male sexuality|Male sexuality is uncontrolled; Men have no consequences|implicit
+  - 1042|1046|the second recasts serf abuse as domination and a political statement, narrowing the earlier biological-consequence reading|It isn't just lust; abuse of serfs|implicit
+  - 607|1046|chastity as male monopoly on reproduction and abuse as owning serf biology are both ownership of biology, but for different classes|monopoly over the female's reproductive capacity; I own your biology|implicit
+  - 1218|1046|unclothed serfs marked as open property is the visible sign of the serfs-as-biological-property claim|open property; Biological Property|implicit
+  - 1172|1046|knights treat peasants as owned things to abuse, the same ownership pride that the abuse note calls political|peasants to abuse; Serfs are Biological Property|implicit
+  - 1172|1996|knights guard and keep their own peasants as a power base, matching the protection-for-harvest bargain|powerbase; pay 50% of their harvest|implicit
+  - 2420|2421|the upward path from serf to squire is the base of the proto-meritocracy that the plan note explains and dramatizes|chosen as a squire; spearman to squire to knight|implicit
+  - 2420|270|the conscripted serfs with unenchanted spears in lines are the same army described in the military note|conscripted ... serfs; lines of conscripted serfs|implicit
+  - 2434|2421|plan note gives the reason and the reach of the Shared Seal rule and how culture blinds squires to horizontal solidarity|shared seals; squires don't think ... peers|explicit
+  - 2420|2434|the squire route leads to the knight-teaches-squire forge where the Shared Seal appears|chosen as a squire; Knight teaches the Squire|implicit
+- outward:
+  - 574|Roman antiquity as real-world inspiration, and the Grover I and II line held elsewhere|Grover I and II = Antiquity/Rome
+  - 1994|real-world feudalism and its threats (Vikings, Magyars), plus the manticores and timberwolves of the setting|Vikings, Magyars, Bandits; Manticores and Timberwolves
+  - 1995|the Grover III era and other regions of Griffonia, described elsewhere|Before Grover III; across Griffonia
+  - 1998|Kaiser Grover, the Idol of Boreas, and the regions of Wingbardy and Aquileia|Idol of Boreas; Wingbardy and Aquileia
+  - 1999|the Riverlands pony lords, the crusades and the Treaty of Coltstream|Riverlands pony lords; Treaty of Coltstream
+  - 1997|other griffon regions and the Scheißwald Forest|other griffon regions; Scheißwald Forest
+  - 2421|Skyfall, the Republican Revolution and the bourgeoisie, plus the magical messaging system|Skyfall; Republican Revolution; magical messaging system
+  - 607|the Archons of Boreas and their Lion and Eagle dogma, Griffon Magic, and the later Grover III era|Archons of Boreas; Lion; Eagle; pre-Grover III
+  - 1157|Aquileia and its terrain and wind|Aquileia has wind
+  - 270|Redcoat-style musket armies and the grand battleplan|like Redcoats; grand battleplan
+- whole: The notes hang together in clusters (the honest racket and its history, the patriarchy and property-in-biology thread, and the squire/seal culture) but the clusters link only loosely, and a few entries stand alone, such as the military, flight and wind notes.

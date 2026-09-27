@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of totalitarian collapse and reflects on Russia's return to a terror state, then extends it with questions about Western capitalism's role, population decline, and whether a second-generation problem from their story is emerging in China.

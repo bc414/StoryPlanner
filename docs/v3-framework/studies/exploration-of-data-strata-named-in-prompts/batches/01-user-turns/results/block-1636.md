@@ -1,0 +1,5 @@
+- sources:
+  - inspiration from real world (analogical) | treated as its own distinct kind of inspiration, to be kept separate from source-material inspiration even if their design uses overlap | feels like they warrant a separation | referred-to
+  - inspiration from source material | treated as its own distinct kind of inspiration, kept separate from real-world analogy, and noted as fantasy rather than real-world analogy | source material is also fantasy | referred-to
+- order:
+- about: The user pushes back on folding source evidence into other tracks, arguing that real-world analogical inspiration and source-material inspiration feel distinct, and asks the model for further reasons why they differ.

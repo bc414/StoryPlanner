@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to elaborate on the historical evolution from muskets to rifles to machine guns, without pointing at any particular body of material to draw on.

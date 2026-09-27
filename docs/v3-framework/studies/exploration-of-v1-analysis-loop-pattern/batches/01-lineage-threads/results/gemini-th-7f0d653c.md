@@ -1,0 +1,21 @@
+- steps:
+  - author | propose | new plan beat: Twilight's crystal-dependent civic infrastructure collapses when Colthage occupies the city | opening prompt of the thread
+  - model | elaborate | thematic/psychological analysis of the supply-chain mechanic, contrast with Zecora, closes with a clarifying question about a dual blockade | first model reply
+  - author | correct | swaps occupation for a Chrysalis submarine blockade, keeps the city free under hippogriff stewardship, asks for the psychological effect | second author turn
+  - model | elaborate | analysis of how the blockade reframes Twilight's guilt and kills the MSO project, bridges to the Tall Tale rescue scene | second model reply
+  - author | correct | removes encirclement, has Star Energy and Aquileian aces hold the line, supplies Applejack's trigger line about Vanhoover | third author turn
+  - model | elaborate | analysis of the static-defense illusion, the Vanhoover epiphany, a hammer-and-anvil battlefield dynamic, closes with a pacing question | third model reply
+  - author | correct | replaces the held line with an elastic defense where Applejack is overrun, asks for a reanalysis against the existing story plans | fourth author turn
+  - model | reanalyze | revised account of Twilight's breaking point using the rescue-from-the-mud image, quoting lines from the author's own plan | fourth model reply
+  - author | pose question | asks how the Storm King's horde could obtain hydrogen or helium for its airship armada | fifth author turn
+  - model | analyze | lays out several materialist gas-sourcing methods tied to the setting's colonial extraction economy, references an existing open lore question, closes with an aesthetic question | fifth model reply
+  - author | pose question | asks a real-world historical question about how WWI zeppelins operated over the English Channel | sixth author turn
+  - model | research/explain | breaks down historical zeppelin altitude, compartmentalization, and incendiary-round vulnerability, then maps it onto the story's air battle | sixth model reply
+  - author | synthesize | restates the historical mechanic as the story's own rule: altitude and slow leaks protect the fleet from muskets but not from phosphorus rounds | seventh author turn
+  - model | validate | confirms the mechanic, ties it to existing phosphorus and crystal-bullet lore, adds thematic framing about the horde's collapse, closes asking which pilot lands the strike | seventh model reply
+- kept:
+  - note 3128 | pasted from this reply inside the author's own framing | keeps the model's reframing of Twilight's guilt as a methodology failure and the symptom-vs-root-cause point about Celestia's conditioning, filed to the Ain Trotgourait/Tall Tale link
+  - note 3127 | the author's own words in this record | keeps the author's explanation of why Applejack's Vanhoover line reaches Twilight through her memory of the zebras, filed to the same link
+  - note 5145 | the author's own words in this record | keeps the author's synthesized zeppelin-vs-phosphorus mechanic, filed to the Battle of Mount Aris subject
+- brought: The author brought forward an established worldbuilding detail (Aquileian research requiring stable magic flow from high-grade Crystal Empire gems) to construct a new plan beat about the fragility of Twilight's civic infrastructure.
+- loop: The author repeatedly proposed and then corrected the mechanism behind a plot beat (why Twilight's systems fail, how Tall Tale's line holds or breaks, how the Storm King's airships work), with the model supplying thematic and tactical elaboration after each version; only the versions the author phrased in their own words, or folded the model's phrasing into their own framing, were saved back into the plan, landing on the Ain Trotgourait/Tall Tale link and the Mount Aris battle entry.

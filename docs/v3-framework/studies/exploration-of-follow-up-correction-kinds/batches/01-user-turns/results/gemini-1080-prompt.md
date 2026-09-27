@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Tammany Hall model for the existing mayor (renaming it "Tammarey Hall"), asks a factual history question about whether Tammany served or opposed the wealthy tycoons, and adds a new plot direction that Manehattan's leaders should be influenced by Skyfall and Chrysalis.

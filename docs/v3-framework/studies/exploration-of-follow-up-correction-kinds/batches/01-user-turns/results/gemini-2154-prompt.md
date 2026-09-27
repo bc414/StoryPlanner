@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model treated the managed weather and seasonal system as planet-wide, a life-support system for the whole planet, but in the world it operates only inside Equestria's borders and the rest of the world has fixed climates set by latitude and geology | The weather system only exists within Equestria's borders. The rest of the world is stuck with whatever perpetual climate | stated flatly as a restriction of scope, with no mention of the model's wording, and closed with a mild check question, 'Does this make sense?'
+- about: The user narrows the model's planet-wide account of the engineered seasons to Equestria alone, sets out how the rest of the world's climate works, and asks whether that holds together.

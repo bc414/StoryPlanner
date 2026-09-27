@@ -1,0 +1,7 @@
+- relations:
+  - 1877 | 1219 | 1877 proposes a juxtaposition on the page with the nakedness that 1219 sets up, Reni starting unclothed and covering his nakedness as a claim to Inviolability | Can juxtapose with Coltbert seeing the naked Equestrians; Reni starts with no clothes | implicit
+- outward:
+  - 1219 | Verany, whose clothes Reni buys into for all propaganda, and the propaganda held elsewhere | this is why Reni buys into Verany's clothes for all propaganda
+  - 1219 | Inviolability, a concept or lore held elsewhere in the story | visually claiming Inviolability
+  - 1877 | Coltbert and the Equestrians, a character and a group in another scene or part of the story | Coltbert seeing the naked Equestrians
+- whole: The two notes hang together loosely: the second is a short pointer that contrasts with the nakedness and clothing theme of the first, though it names characters the item doesn't hold.

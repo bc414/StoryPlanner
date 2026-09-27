@@ -1,0 +1,4 @@
+- sources:
+  - WW2 era standard propellant / WW2 standards (real-world history) | used as the real-world baseline the model should check its nitrocellulose and Mach 2 claims against, and as the level the changelings' Haber-Bosch industry sits at | Is the WW2 era standard propellant nitrocellulose? ... changelings would be using WW2 standards | referred-to
+- order:
+- about: The user questions the accuracy of the model's claim that WW2-standard nitrocellulose gives Mach 2 and asks how the pegasi could exceed the changelings' WW2-level baseline to reach Mach 4.

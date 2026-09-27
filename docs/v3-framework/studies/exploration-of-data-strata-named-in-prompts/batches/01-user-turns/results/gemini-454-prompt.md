@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the ReferenceHandler.Ignore suggested earlier does not compile, asks whether a missing extension or wrong using statements is the cause, and asks whether ReferenceHandler.IgnoreCycles should be used instead.

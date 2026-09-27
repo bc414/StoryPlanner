@@ -1,0 +1,8 @@
+- asks:
+  - confirm/validate | asks whether it's plausible that the thestrals running the Manehattan parloirs would have shed the arrogance of their homeland, as the reason they'd welcome the displaced factory workers | "perhaps the thestrals there have shed the arrogance back home?"
+  - pitch for reaction/build-on | lays out a chained sequence of worldbuilding decisions (fire timing, parloir history and nature, Skyfall-trained factory owners, union merger into EEEE!) as if presenting them for the model to take in and work with | repeated "Let's say", "I'm thinking", "This is because"
+- supplies:
+  - worldbuilding sketch | own draft of interlocking plot/lore points: 988 factory fire and worker displacement to Manehattan, parloirs established in 981 as elegant non-prostitution social clubs importing Aquileian goods and medicine, thestrals possibly shedding home-tribe arrogance, Skyfall-trained Equestrian capitalists backed by Chrysalis opening factories, separate pony/thestral unions merging via the parloirs into EEEE! as combined workers' union and civil rights group | several paragraphs
+- shaping:
+- openness: Leans toward an answer it already names, since most of the scenario is presented as decided ('Let's say', 'I'm thinking'), with one point ­— whether the thestrals shed their homeland arrogance — floated as an open rhetorical question for confirmation.
+- subject: Worldbuilding for a My Little Pony fanfic: Manehattan's parloirs, post-fire worker displacement, and the pony-thestral union merger into EEEE!

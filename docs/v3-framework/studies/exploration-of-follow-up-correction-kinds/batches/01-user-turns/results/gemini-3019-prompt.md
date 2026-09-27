@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model said the French term wasn't established and built candidates from the Lore Bible alone, but the term already exists as the official French localization of a national spirit in the game, Equestria at War | The Stagnation of Harmony is the name of a national spirit in Equestria at War. The French localization is "Harmonie Stagnante" | flat statement of fact, supplying the missing source without comment on the model's miss
+  - reading of the request | The model treated the question as coining a new in-world French term for Coltbert, when the user was after the game's existing localization and how it compares to a literal rendering | Please evaluate the French grammar usage between this localization vs La Stagnation de l'Harmonie | redirect by a plain instruction that reframes the task as a grammatical comparison; no apology or irritation
+- about: The user supplies the official game localization the model said was missing and redirects the model from inventing candidate terms to a grammar comparison of it against the model's literal version, plus an English equivalent and implications.

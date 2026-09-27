@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | the model treated the question as a request for a general thematic/role analysis of Mali's arc, when the user wanted concrete guidance on inserting Mali into two specific named scenes | "I meant how to integrate Mali with the trench scene and the tent scene" | stated flatly and briefly, restating intent rather than expressing frustration
+- about: The user turn clarifies that the prior broad thematic analysis missed the actual ask, which was for concrete integration of Mali into two specific existing scenes (trench, tent).

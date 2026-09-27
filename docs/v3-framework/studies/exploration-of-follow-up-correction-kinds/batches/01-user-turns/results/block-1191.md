@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: model's reading of the user's motivation | The model said the user is driven by the architecture problem and pulled toward Fabula logic. The user places the source of the worldbuilding in wanting to write a compelling romance, with the rigorous plot serving as justification for it. | "comes down to me wanting to write a compelling romance" and "needing some rigorous overarching plot that justifies the high stakes romance" | offered as a personal realization with a hedge ("I think"). It reframes the model's diagnosis without naming it as wrong, and gives no reason beyond the account itself.
+- about: The user offers a self-realization that their worldbuilding rigor is in service of wanting to write a compelling romance, which recasts the model's account of what drives them.

@@ -1,0 +1,4 @@
+- sources:
+  - micro character development for Applejack, planned as a side detail of a canon FiM setting story about Rarity and Fluttershy | treat as the author's own settled plan, and as the foundation of Applejack's arc from wartime 'hard truth' honesty to mature statesmare; the model is told to read it that way | 'seems to be the foundation of Applejack's element maturing' | referred-to
+- order:
+- about: The author confirms and expands on the model's analysis by saying that a small Applejack beat planned as a side detail in a Rarity and Fluttershy story is the basis for her later growth from blunt 'hard truth' honesty to a mature statesmare.

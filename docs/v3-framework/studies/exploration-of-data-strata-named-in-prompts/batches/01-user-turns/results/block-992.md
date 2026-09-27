@@ -1,0 +1,5 @@
+- sources:
+  - the term Resilience, coined early on when deciding on Elements of Liberty (author's recollection of that earlier evaluation of terms) | believed by the author to have come from a thoughtful evaluation, but treated as open to re-checking rather than settled | I believe it came out of a thoughtful evaluation of terms but I want to understand if it is correct now | referred-to
+  - the author's present understanding of the failure mode (Cynicism) | used as the new yardstick against which the earlier term choice is to be re-tested | now that I understand precisely what the failure mode is | referred-to
+- order:
+- about: The user asks the model to re-test whether Resilience is the right opposite pole to Cynicism among the Elements of Liberty, in light of their now clearer grasp of the failure mode, and to list and justify the runner-up alternative terms.

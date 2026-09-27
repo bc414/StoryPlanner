@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks Honor over the model's recommended Merit as the chapter title and backs the choice by laying out Trimmel's role as the radio voice, the Vraks origin, and the respectful ending, so the turn is a decision with supporting detail and not a correction.

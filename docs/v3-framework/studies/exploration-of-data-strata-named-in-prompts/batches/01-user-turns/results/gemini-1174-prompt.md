@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out new story details for their worldbuilding (a 988 factory burning, parlours in Manehattan since 981, pony capitalists, and the founding of the EEEE union), building on the previous idea without pointing the model at any body of material.

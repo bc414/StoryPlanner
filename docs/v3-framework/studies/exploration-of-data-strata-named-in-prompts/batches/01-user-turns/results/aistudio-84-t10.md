@@ -1,0 +1,5 @@
+- sources:
+  - Lauren Faust's fabula | the model is to explain what Magic meant there, and use that as the base for extrapolating to the author's own fabula | What did Magic mean in Lauren Faust's fabula | referred-to
+  - mine (the author's own fabula) | the target of the extrapolation; the model is to carry Faust's meaning of Magic over into it | how can that be extrapolated to mine | referred-to
+- order:
+- about: The user asks the model to explain what Magic meant in Lauren Faust's original fabula and then extrapolate that meaning to their own fabula, in place of the model's previous materialist definition of Magic.

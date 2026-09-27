@@ -1,0 +1,5 @@
+- sources:
+  - Mount Aris as a part of the backstory | treat as settled story fact: the School of Friendship shuts down afterward, and the friends went to protect a friend's home when Rainbow Dash followed Silverstream; the model should reason from this | A core consequence of Mount Aris as a part of the backstory; The original reason they go to Mount Aris | referred-to
+  - my setup | treat as true for this story: Cozy Glow does not exist, so the model should not assume her | Cozy Glow doesn't exist in my setup | referred-to
+- order:
+- about: The user picks the Ain Trotgourait path for Zecora, restates backstory facts about Mount Aris and the School of Friendship's closure, and asks how Zecora staying in Zebrica would affect Twilight's psychology.

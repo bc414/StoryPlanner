@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about what the pony's mane and tail would offer the griffon, extending the model's symbiosis analysis without disputing anything in it.

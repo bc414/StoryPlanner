@@ -1,0 +1,3 @@
+- claims:
+  - design commitment | In this world, a dragon's fire gets hotter the more the dragon cares about others. This is stated as a fixed law of dragon biology, and it stretches the protective instinct to caring in general | Caring about others makes the fire stronger | What does dragon biology make of caring, and does it raise fire's strength? | partly
+- theme: It supplies evidence for the proposition. It states the mechanism, that care raises output, which is the kind of fact the theme's claim about cooperation beating extraction rests on. It does not argue the proposition, and it does not set care against greed or extraction.

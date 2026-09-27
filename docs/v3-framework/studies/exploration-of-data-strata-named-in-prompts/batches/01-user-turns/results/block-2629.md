@@ -1,0 +1,6 @@
+- sources:
+  - the story plan (the universal translator, universal intent vectors, the charitostatic effect) | read the relevant parts again before analysing, and treat as the basis for how the in-story translator works | Reread the relevant parts of the story plan before giving an analysis | referred-to
+  - this conversation (the author's own use of it to understand Japanese and Chinese web novel ecosystems) | offered as the author's own real-life example that LLMs can break the hold of standardized language; the author admits it may sound naive | I just did it in this conversation | referred-to
+  - the author's own understanding of real-life LLM translation (needs unbiased training and a large corpus; good for English-Japanese, possibly biased for English-Chinese, possibly incomplete for Xhosa) | the author's tentative claim from memory, hedged and not settled, for the analysis to test against the story plan | probably works pretty well between English and Japanese | first-named
+- order:
+- about: The user asks whether the language-as-tech-accelerant idea and the in-story universal translator parallel real LLM translation, offers their own hedged view of how well LLMs translate across languages, and tells the model to reread the relevant story-plan sections before analysing.

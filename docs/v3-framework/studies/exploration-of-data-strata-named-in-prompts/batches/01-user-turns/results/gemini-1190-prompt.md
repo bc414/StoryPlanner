@@ -1,0 +1,4 @@
+- sources:
+  - My planned outcome (the author's own plan for how the Town Hall ends) | the author's stated intended result for the Town Hall; the model should take it as the outcome to build toward | My planned outcome is for all the buffalo to go with Comet Shine | first-named
+- order:
+- about: The author states from their own plan how the Town Hall should end, with all buffalo and 80% of pony workers going to Comet Shine and the other 20% of ponies joining Gilded Trust's oil company.

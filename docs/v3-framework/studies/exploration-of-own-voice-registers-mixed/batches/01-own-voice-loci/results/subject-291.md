@@ -1,0 +1,14 @@
+- passages:
+  - 5171 | narrative-summary | present tense, verbs of action (accompanies, remembers, greets, spread smiles) | Pinkie greeting zebras by name in the city | apart
+  - 5171 | analytic-justification | "This worked as genuine morale because..." causal explanation | why the greeting-morale effort succeeded given military protection and rebuilding | apart
+  - 5172 | historical-exposition | present/perfect tense, dates tied to the Great War, "so" causal link | occupation of the city and the later white peace with Colthage | apart
+  - 5179 | narrative-summary | third-person statement of decree and reason ("is not welcome... because she is a warlord") | Celestia's ruling against Tempest Shadow | apart
+  - 5179 | interior-motivational | "is shattered by the idea", "still believes", "won't give up" | Twilight's emotional reaction and belief driving her resolve | apart
+  - 5179 | narrative-summary | "So Twilight shuts down... to prove Celestia wrong", listed actions | Twilight closing the school and moving to the city | apart
+  - 5189 | narrative-summary | past tense sequence with cause-effect connectors ("But the moment... leaving...") | Twilight's burnout, her lab work, and the blockade undoing it | apart
+- shifts:
+  - 5171 | narrative-summary | analytic-justification | shift from depicting Pinkie's street greetings to a causal claim about why it "worked"
+  - 5179 | narrative-summary | interior-motivational | shift from stating Celestia's decree to describing Twilight being "shattered" and her belief-driven resolve
+  - 5179 | interior-motivational | narrative-summary | shift back to action-listing with "So Twilight shuts down..."
+- registers: narrative-summary; analytic-justification; historical-exposition; interior-motivational
+- whole: The item's notes move across several registers - plain narrative-summary of events, an analytic-justification aside, a historical-exposition of the war's timeline, and an interior-motivational passage on Twilight's feelings and belief - but each shift falls at a sentence break so the registers stand apart rather than blending within a sentence.

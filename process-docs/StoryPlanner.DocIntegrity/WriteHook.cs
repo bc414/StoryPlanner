@@ -99,9 +99,11 @@ public sealed record HookOutcome(HookOutcomeKind Kind, int ExitCode, string Mess
 /// if its class has a schema, that too; a governed file anywhere else has its schema checked.
 /// A failing report goes back to the session as feedback: the harness shows a hook's stderr to
 /// the model only on exit code 2, so that is the code for feedback; every other case is exit 0
-/// and silence. On a pass the governing folder's generated files are rewritten, so
-/// <c>map.md</c> is a function of the tables and <c>state.md</c> of the governed files at every
-/// moment, and a session, which is denied those files by path, never has to remember them.
+/// and silence. On a pass the governing folder's <c>map.md</c> is rewritten, so it is a
+/// function of the tables at every moment, and a session, which is denied it by path, never has
+/// to remember it. <c>state.md</c> is not rebuilt here — walking the study folders is too slow
+/// to pay on every write (2026-09-27) — so it is rewritten whole only by the <c>render</c> verb,
+/// on demand, and may lag.
 ///
 /// This is enforcement at the boundary where the model's text becomes a file. It sees Edit and
 /// Write and nothing else: a write through the shell never reaches it, which is why CLAUDE.md
@@ -151,8 +153,8 @@ public static class WriteHook
         }
 
         // Outside every skill folder: the file's schema, by its path or by a reference that
-        // resolves to it, and on a pass the governing folder's generated files, so state.md
-        // follows a governed write the moment it checks clean.
+        // resolves to it, and on a pass the governing folder's map.md, so it follows a governed
+        // write the moment it checks clean. state.md does not follow here either; see Regenerate.
         var governed = ArtifactScope.Locate(payload.FilePath);
         if (governed is null)
         {
@@ -171,12 +173,16 @@ public static class WriteHook
         return refusedAfter ?? outcome with { Regenerated = written };
     }
 
+    /// <summary>
+    /// map.md only (2026-09-27): state.md's cost is a full walk of the study folders, too slow
+    /// to pay at every write, so the hook leaves it to the <c>render</c> verb, on demand.
+    /// </summary>
     static IReadOnlyList<string> Regenerate(string folder, ValidationReport report, out HookOutcome? refused)
     {
         refused = null;
         try
         {
-            return Render.Write(GovernedSkill.RepoRootOf(folder), folder, SkillReader.Read(folder), report, forced: false);
+            return Render.Write(GovernedSkill.RepoRootOf(folder), folder, SkillReader.Read(folder), report, forced: false, includeState: false);
         }
         catch (MapFormatException ex)
         {

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a new, focused analysis of one scene, Fluttershy using The Stare on Celestia and blurting out that Celestia can't make a friend before crying, and does not say anything in the earlier overview was wrong.

@@ -1,0 +1,5 @@
+- sources:
+  - RAW NOTES (the list of note entries) | material to be sorted into the target buckets; the notes are the content to work from | RAW NOTES: | first-named
+  - TARGET PARADIGMS & BUCKETS | the fixed set of paradigms and bucket names the notes are to be sorted into | TARGET PARADIGMS & BUCKETS: | first-named
+- order:
+- about: The user pastes a fresh batch of raw story-theme notes together with a revised list of target paradigms and buckets, so the model can sort the notes into those buckets.

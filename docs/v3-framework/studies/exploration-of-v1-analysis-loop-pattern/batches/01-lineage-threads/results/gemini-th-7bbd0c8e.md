@@ -1,0 +1,13 @@
+- steps:
+  - the author | states established mechanics | recaps already-decided extractor subversion, pink love donation and concentration rules | opening of the message
+  - the author | poses a question | asks how Chrysalis's true motivation, hidden even from Trimmel, should be revealed in the narrative | middle of the message
+  - the author | proposes a scenario | suggests using Synovial in jail during the siege of Vesalipolis, dragged out by Allied leaders before the love paradrop, as the vehicle for the reveal | end of the message
+  - the model | frames the payoff | casts the extractor repurposing as the thematic key resolving 'technology is moral, not evil' | opening of the response
+  - the model | details a mechanism | explains the old torture function versus a new donation-booth function of the extractors and the resulting sweet concentrate | technology section
+  - the model | characterizes a motive | casts Synovial as a spiteful historian who talks not to help but to destroy Chrysalis's myth | Synovial's-role section
+  - the model | drafts a scene | writes a full interrogation dialogue with a flashback revealing Chrysalis's humiliation by Griffon aristocracy as her true motive | interrogation-scene section
+  - the model | derives a strategy | connects the revealed motive to a 'bypass her, love the drones' strategy for Applejack | strategy-logic section
+  - the model | summarizes the arc | closes with a three-point recap of tech, intel, and strategy tying the reveal to the ending | summary section
+- kept:
+- brought: The author brought forward already-established mechanics for the love extractors and pink-love donation, plus a specific proposed scenario (Synovial's jailhouse interrogation) for revealing Chrysalis's hidden motivation.
+- loop: The author supplies settled mechanics and a proposed reveal scenario as a question; the model expands it into a full thematic framework, scene draft, and strategic payoff, but the archive shows no notes traced from this exchange, so none of that elaboration was captured into the planning database at this point.

@@ -1,0 +1,17 @@
+- passages:
+  - note 4240 | thesis-abstract | terse general claim, abstract nouns 'Patriarchy'/'Inheritance Anxiety' | why patriarchy arises | apart
+  - note 4240 | causal-mechanism | bulleted list, 'Therefore'/'because' connectors, concrete feudal scenario | how land/lineage control produces unequal sexual rules | apart
+  - note 5375 | demographic-worldbuilding | flat declarative, invented demographic labels (FJA/PNdA), causal 'because' | why Aquileia's birthrate falls and who is left behind | apart
+  - note 5375 | satirical-critical | informal modern slang term 'manosphere grift' dropped into worldbuilding sentence | how other nations weaponize Aquileia's demographics as propaganda | apart
+  - note 5375 | comparative-evaluative | ranking claim with parenthetical qualifier ('less than... but more than...') | Griffonian Republic's childcare and birthrate compared to others | apart
+  - note 5380 | thesis-abstract | short flat claim of tradeoff | Aquileia trading family love for efficiency | apart
+  - note 5380 | comparative-evaluative | claim with parenthetical concession ('even though...') | GR's family/chastity norms despite mixed-gender labor | apart
+  - note 5380 | prescriptive-synthesis | 'So' connector, normative verb 'needs' | what Equestria ought to do about family structure | apart
+- shifts:
+  - note 4240 | thesis-abstract | causal-mechanism | move from abstract term to concrete feudal example, marked by bullets and 'In a feudal system'
+  - note 5375 | demographic-worldbuilding | satirical-critical | shift into modern political-slang vocabulary 'manosphere grift' naming a propaganda motive
+  - note 5375 | satirical-critical | comparative-evaluative | drops slang, returns to descriptive ranking with parenthetical comparison
+  - note 5380 | thesis-abstract | comparative-evaluative | moves from single flat claim to a qualified comparison carrying a parenthetical concession
+  - note 5380 | comparative-evaluative | prescriptive-synthesis | 'So' marks turn from describing other nations to prescribing what Equestria needs
+- registers: thesis-abstract; causal-mechanism; demographic-worldbuilding; satirical-critical; comparative-evaluative; prescriptive-synthesis
+- whole: Across its three notes this item moves through several distinct registers — abstract thesis, concrete causal mechanism, flat demographic worldbuilding, a brief satirical-critical aside, comparative ranking, and a closing prescriptive synthesis — with each shift falling at a sentence boundary (never inside one sentence) so the registers stand apart from one another even as they build toward a single argument.

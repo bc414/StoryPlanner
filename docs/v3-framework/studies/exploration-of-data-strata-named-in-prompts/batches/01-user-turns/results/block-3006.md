@@ -1,0 +1,7 @@
+- sources:
+  - the worldbuilding rule I established to prevent authorial fiat (Chrysalis drives everything, not random mythical events) | treat as overfit and outdated; the user is demoting it as a general rule, not to be applied as the governing principle | is overfit | referred-to
+  - the real rule that comes out: material conditions drive everything | treat as the corrected governing rule that the analysis should test and develop across the plan | The real rule that comes out is that material conditions drive everything | first-named
+  - the causal chain from Grover 3 to Grover 4 to Stagnation to New Mareland to Gilded Lily to Chrysalis and so on | use as the body of story-plan material to analyze, as the evidence that material conditions, not Chrysalis, drive the sequence | From Grover 3 to Grover 4 to Stagnation to New Mareland to Gilded Lily to Chrysalis | referred-to
+- order:
+  - material conditions drive everything over the Chrysalis-drives-everything rule | the user calls the earlier rule overfit and says the real rule is material conditions
+- about: The user is revising a worldbuilding rule they previously set, saying that Chrysalis-as-driver was overfit and that material conditions are the true driver across the plan's chain of eras and characters, and asks the model for an analysis of this.

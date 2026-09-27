@@ -1,0 +1,4 @@
+- sources:
+  - this society (the Stagnation of Harmony as just analyzed in the conversation) | treat as the established premise and reason from it to the volunteers' mentality and motives | Given this society | referred-to
+- order:
+- about: The user asks the model to reason from the society just described to the mentality and enlistment motives of the volunteers in the army that failed against the changelings.

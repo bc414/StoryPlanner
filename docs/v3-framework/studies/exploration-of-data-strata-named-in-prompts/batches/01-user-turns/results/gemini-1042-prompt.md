@@ -1,0 +1,5 @@
+- sources:
+  - the Kessler Valve setup just laid out in the conversation ("this") | taken as established; the user builds on it, treating Kessler as the world's sole valve supplier | this kind of makes Kessler the TSMC of the world | referred-to
+  - TSMC and computers today | used as an analogy for how the post-war magical economy would work, and held as conditional rather than settled | if the post war magical economy is like computers today | first-named
+- order:
+- about: The user reacts to the valve-dependency setup by comparing Kessler to TSMC and asks whether the Equestrian Republic could build its own valve from first principles once the war is over.

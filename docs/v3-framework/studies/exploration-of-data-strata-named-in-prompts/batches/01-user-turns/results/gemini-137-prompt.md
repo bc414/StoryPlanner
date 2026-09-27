@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user directs the model to rewrite the Chapter 18 confrontation as a back-and-forth in which Applejack draws Celestia into admitting what she knows of Vraks and Trimmel, and supplies the beats of that exchange leading up to the "Chrysalis did meritocracy better than you" line.

@@ -1,0 +1,27 @@
+- relations:
+  - 311 | 1071 | the motive (ego, and the finding that genuine equity beats extraction) is carried out in the concrete business model he builds | Comet Shine driven by ego; honest business, selling high quality tractors to individual earth pony farmers | implicit
+  - 1071 | 1073 | continuation in time: after the tractor business, he extends the same model to loans that let workers buy out failing firms | then started providing honest loans ... adopt the same harmonic capitalism business model | explicit
+  - 311 | 1073 | the wish to outdo the other tycoons is acted out as buying out the rival tycoons | bigger tycoon than the rest; buy out the poseur tycoons | implicit
+  - 1071 | 461 | 461 gives the rule and purpose of tally sticks that 1071 says Comet Shine used in place of gold and Marks | Comet Shine used the local tally sticks; Tally sticks were a way to circumvent the gold standard | implicit
+  - 312 | 313 | 313 overturns the belief the reader is led into in 312, that the system came from Aquileia, and gives the true origin | misled to believe Harmonic Capitalism came straight from Aquileia; actually always a synthesis ... by the Equestrians | implicit
+  - 313 | 310 | 313 restates the synthesis of 310 with its named ingredients (Equestrian harmony, Aquileian asset specificity) | synthesis of Equestrian harmony and Aquileian asset specificity; synthesis of stagnant harmony and ambitious industry | implicit
+  - 1886 | 313 | both plan the reader's opinion changing over story order towards the true vision of the system | evolves into the harmonic capitalism vision; After meeting Coltbert, the reader will realize | implicit
+  - 1886 | 1880 | the wartime production role of Star Energy (arsenal) and the war integration that serves as proving ground for the system in peacetime | Arsenal of Democracy; economic integration during the war is the proving ground | implicit
+  - 1886 | 1829 | the corporation as not simply evil is an instance of industry as an amplifier of the user's morals | the Corporation is evil. Here, Star Energy ... is the Arsenal of Democracy; Industry is neither inherently good nor evil | implicit
+  - 309 | 522 | 522 gives a concrete instance of how Harmonic Capitalism breaks the cycle toward peace, by healing the enemy with jobs and purpose | Harmonic Capitalism is the way to break the cycle; provide the Jobs and Purpose | implicit
+  - 522 | 1881 | 522 is an instance of the general principle of using power (industrial and magical) to protect connection and mercy | mobilize their massive industrial and magical power to Heal the enemy; tools of Power ... Connection (Community/Mercy) | implicit
+  - 1829 | 1881 | both treat industry/power as a tool whose worth depends on the use it is put to | good creatures can also use industry; Using the tools of Power (Industry/War) to protect the bonds of Connection | implicit
+  - 478 | 310 | the tagline compresses the working synthesis of harmony and industry into its purpose | Capitalism for Good; synthesis of stagnant harmony and ambitious industry | implicit
+- outward:
+  - 1887 | real-world systems (Social Market Economy, Distributism) held outside the story | Social Market Economy" or "Distributism" in real life
+  - 311 | the tycoons Comet Shine wanted to outdo, and the extraction they practiced | bigger tycoon than the rest; soulless extraction
+  - 1071 | the currency and money systems of the world (gold bits, Skyfall Marks) and the Tall Tale setting | instead of gold bits or Skyfall Marks
+  - 1073 | the flailing companies and their poseur tycoons | workers of flailing companies to buy out the poseur tycoons
+  - 312 | Aquileia, a place held elsewhere | came straight from Aquileia
+  - 313 | the character Coltbert, Aquileia's ego culture, and the other Equestrian learners | After meeting Coltbert; Flowing Current, Applejack's Parents
+  - 1886 | Star Energy and the war/cyberpunk setting and genre conventions | Usually in cyberpunk/war stories, the Corporation is evil
+  - 1880 | the Buffalo, Tzinacatl and Temberik peoples and the war | Buffalo, Tzinacatl and Temberik economic integration during the war
+  - 461 | the gold standard and big harvests in Tall Tale | circumvent the gold standard for big harvests
+  - 309 | Applejack and the Predator's Dilemma episodes | Applejack encounters multiple examples of The Predator's Dilemma
+  - 522 | the Republics, their enemy, and deaths of despair | The Republics mobilize their massive industrial and magical power to Heal the enemy
+- whole: Mostly a set that hangs together, with a small origin-story chain (311, 1071, 1073) and a chain of reader and theme notes (312, 313, 1886, 522, 1881, 1829) that bear on each other, though several entries (1887, 478, 461, 1880) stand largely on their own.

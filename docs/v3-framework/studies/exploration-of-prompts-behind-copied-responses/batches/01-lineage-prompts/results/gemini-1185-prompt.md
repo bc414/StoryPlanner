@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm/pitch | proposes a specific plot beat (Gilded Trust offering to give or sell buffalo guns to help defend against Rockefeller) and invites the model to react to or develop it | phrased as 'How about if Gilded Trust offered to give or sell the buffalo guns...'
+  - justify | offers in-story reasoning for why the offer would make sense, tying it to an established prior conflict | 'Since he's already been in a fire fight with Rockfeller over the last oil wells. The enemy of my enemy is my friend.'
+- supplies:
+  - idea | a short plot beat about Gilded Trust offering weapons to a group under threat from Rockefeller, which is declined in favor of animal sabotage though the gesture is appreciated | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it names: the user proposes the specific offer and also states how it resolves (declined, animal sabotage chosen instead, sentiment appreciated), presenting the beat largely as decided while inviting the model's take.
+- subject: A plot beat about Gilded Trust offering buffalo guns to allies against Rockefeller in an ongoing story conflict

@@ -1,0 +1,7 @@
+- asks:
+  - check | asks the model to look through a specific notebook and determine whether it is the source of an idea | "peruse this specific notebook to determine if this is where I came up with the idea"
+- supplies:
+  - document | a specific notebook referenced by the user as the possible origin of an idea | referenced only; no content of the notebook appears in the message text
+- shaping:
+- openness: The message asks the model to check a specific claim — whether a named notebook is where the user came up with "the idea" — rather than leaving the answer open or offering named options.
+- subject: Verifying whether a particular notebook is the source of an idea

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Mali arc analysis and asks for new ideas: a few interactions in the first half of the story where Mali drops Aquileian words to Henri as hints of her familiarity with Aquileian passion.

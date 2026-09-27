@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking how to explain the mechanism of Celestia ascending a pony to alicorn within their unified magic theory, without disputing anything in the model's analysis.

@@ -1,0 +1,14 @@
+- relations:
+  - 2504|2506|2506 gives the how and the contrast for the aim 2504 states: the same pitch, the goal of unity and prosperity followed by the promise to provide for every changeling with no griffon-style fights|unite and bring peace and prosperity to the hives / She'll provide for every changeling|implicit
+  - 2506|2507|2507 is the reader's inference from what 2506 shows her saying: her communal claims and her scorn for griffons are read as sincere belief|changelings are communal / actually believes in communal changeling cooperation and thinks changelings are better than griffons|implicit
+  - 2504|2505|2505 is the reader's belief update drawn from what 2504 shows: her stated aim of peace and prosperity replaces the picture of a harvester-minded jaeger|bring peace and prosperity to the hives / original goal was to bring peace and prosperity to the hives|implicit
+  - 2507|2505|2507 gives the reading of sincerity that 2505 depends on: if she is a real harmonist, her original goal was peace, and violence must have come from something later|She's... a harmonist / Something else made her violent and vindictive|implicit
+  - 2505|2510|2505 names transactional parenting as something that hardened her, while 2510 revises the transactional view of her parents, so the two pull against each other about how the parents relate to her|transactional parenting / not just a money bag|implicit
+  - 2504|2510|2510 presupposes the vision stated in 2504: the parents' wish to be part of her vision is a response to the pitch she makes|want to be part of her vision / unite and bring peace and prosperity to the hives|implicit
+- outward:
+  - 2505|earlier characterization of Chrysalis as an apex jaeger who strapped enemy nobility to love harvesters, held in other material|Readers previously think Chrysalis as an apex jaeger always planned on strapping the enemy nobility to love harvesters
+  - 2505|the academy bullies and her parenting history, events not in this item|the bullies at the academy, transactional parenting
+  - 2510|the earlier story TLTT and its reading of the parents as bought|The reader from TLTT thinks Chrysalis bought her parents as a transaction
+  - 2510|other characters Gilded Lily and Silver Sterling, who are not otherwise described here|Chrysalis, Gilded Lily and Silver Sterling acting more like an adopted family
+  - 2506|the griffons as a people and their conflicts, held elsewhere|squabbling, greedy griffons hate each other
+- whole: These notes hang together as a set: the two staged speech notes feed the inference and belief-update notes, with the parents note tied in mainly through the shared vision and the question of transaction.

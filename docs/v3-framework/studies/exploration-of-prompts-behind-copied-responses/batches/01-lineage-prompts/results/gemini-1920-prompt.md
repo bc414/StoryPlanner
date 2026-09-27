@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether a proposed conclusion follows from an unseen prior point in the discussion | "would this mean verifiable 'real history' didn't start until the printing press?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message proposes that verifiable real history began only with the printing press and asks the model to confirm whether that inference holds.
+- subject: Whether the reliability/verifiability of recorded history began with the invention of the printing press

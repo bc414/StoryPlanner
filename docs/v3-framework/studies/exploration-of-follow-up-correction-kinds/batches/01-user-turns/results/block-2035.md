@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds an observation that PtK and FoE both centre original protagonists with the fate of the Mane 6 as the mystery, while their own plan uses the Mane 6 in canon Equestria, and asks for a new analysis of how the works differ, without disputing anything the model said.

@@ -1,0 +1,10 @@
+- sources:
+  - current reading order of TLTT -> Minette -> Chrysalis | treat as the existing fixed sequence into which the Blueblood story must be slotted, and use it to compare theme and tone | Within the current reading order of TLTT -> Minette -> Chrysalis | referred-to
+  - the other three stories (TLTT, Minette, Chrysalis) | use as the comparison set for the Blueblood story's thematic resonance and tone | compared to the other three | referred-to
+  - canon FiM, season 1 finale The Best Night Ever | use as the baseline for who Blueblood is in the show, a parody of a gentleman | In canon FiM he is the parody of a gentleman | first-named
+  - Equestria at War | use as the baseline for Blueblood's role there, an Equestrian Field Marshal | In Equestria at War he is an Equestrian Field Marshal | first-named
+  - the author's plan for how Blueblood became a Field Marshal | treat as already worked out by the author, the backing for the new Blueblood story | I planned out how he got there | first-named
+  - notes on the Imperial General Blueblood recruits (Mudbeak) | use as the author's supplied plan for the story and draw on it when placing it and judging tone; these are planned beats, not finished text | And also some notes on an Imperial General Blueblood recruits | first-named
+  - Princess and the Kaiser tragic arc | treat as the existing arc of Mudbeak that the new plan overturns, so use it as the point of contrast | This is a total subversion of his Princess and the Kaiser tragic arc | referred-to
+- order:
+- about: The user asks where a planned Prince Blueblood story fits in the TLTT -> Minette -> Chrysalis reading order and how its theme and tone compare with the other three, and supplies notes on the Mudbeak recruitment plot that overturns Mudbeak's arc in Princess and the Kaiser.

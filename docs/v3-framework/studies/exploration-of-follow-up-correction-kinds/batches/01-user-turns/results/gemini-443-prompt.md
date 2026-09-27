@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model set Canvas and the thinking/Pro mode against each other as separate engines to choose between, when the user was asking about using both switched on together | It is not one or the other, I can have both | Flat statement of the user's own setup, opened as a what-if question and followed by a plain rebuttal of the either/or framing
+- about: The user pushes back on the either/or framing of Canvas versus the thinking mode by saying they have both enabled at once, and asks what that combination does.

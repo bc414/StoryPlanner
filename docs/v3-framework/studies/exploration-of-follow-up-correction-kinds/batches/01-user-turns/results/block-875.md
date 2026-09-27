@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's framing of the Paradrop as the peak of Aquileian ego-capitalism and builds on it, asking what the Mane 6's alignment with the Aquileians means in the 2008-2026 allegory, what "one pillar, not the full synthesis" says about the present day, and for a full map of factions, events and their allegories.

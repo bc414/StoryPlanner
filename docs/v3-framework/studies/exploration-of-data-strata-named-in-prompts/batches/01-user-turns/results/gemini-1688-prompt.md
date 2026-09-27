@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author states worldbuilding decisions about who gets conscripted (those who missed factory quotas, including frost gen and few motivated iron gen) and that all conscripts are given drugs to fight because emotion sense is debilitating without jaeger training, without pointing at any body of material.

@@ -1,0 +1,6 @@
+- asks:
+  - explain/distinguish | asks whether there is a difference between how limited-perspective bias shows up in italicized thoughts versus in the surrounding narration, and to explain that difference | "Is there a distinction between the limited bias being in italic thoughts vs in the narration itself?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a yes/no-plus-explain question without naming or leaning toward a particular answer, leaving it to the model to determine whether such a distinction exists and what it is.
+- subject: Where limited-perspective bias resides — in italicized character thoughts versus in the narrative voice itself

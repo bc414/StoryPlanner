@@ -1,0 +1,7 @@
+- asks:
+  - evaluate | whether Chrysalis's belief that she is liberating the ponies from Celestia's "Stagnation of Harmony" would be a legitimate (internally coherent) delusion for her to hold | "Would Chrysalis have a legitimate delusional belief"
+- supplies:
+  - premise/idea | a scenario in which ponies are repressed under Celestia's rule and seek out adult experiences at "Coltbert's parloirs," offered as the evidence behind Chrysalis's belief | a single sentence
+- shaping:
+- openness: Leans toward an answer it names: the message states as given that ponies are repressed and seek out Coltbert's parloirs, and asks the model to confirm that this supports Chrysalis's belief being a legitimate delusion.
+- subject: Whether the villain Chrysalis's self-justifying belief that she is liberating ponies from Celestia's enforced harmony counts as a legitimate delusion, given ponies' repression and their seeking out Coltbert's parloirs.

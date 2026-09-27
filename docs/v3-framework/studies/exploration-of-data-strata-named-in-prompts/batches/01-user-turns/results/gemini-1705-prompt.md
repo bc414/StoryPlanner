@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user muses that industrial steel and aluminum refining feels as magical as electronics and asks the model for other everyday modern things that would seem like magic against olden times, without pointing at any body of material to use or avoid.

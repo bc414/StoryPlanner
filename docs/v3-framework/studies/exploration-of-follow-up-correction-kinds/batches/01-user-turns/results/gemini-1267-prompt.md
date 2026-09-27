@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is only an attached plan export of about 130,745 words with no written text, so it supplies material and says nothing about the model's format comparison.

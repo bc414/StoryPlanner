@@ -1,0 +1,14 @@
+- passages:
+  - 4434 | statement about the subject | The shadow market stays as it is: thestrals earn lower wages and industrialists profit, thestrals put up with it for self-sufficiency, and EEEE helps them into the proper economy | none | states what is left intact and why, no event
+  - 4435 | statement about the subject | Celestia does nothing about anti-thestral racism, and EEEE!'s core mission is education and empathy, as its name says | none | plain assertion about Celestia's inaction and EEEE!'s purpose
+  - 4436 | statement about the subject | Defines 'thestral mistrust' as the thestrals' own reluctance | none | clarifying gloss opening the note
+  - 4436 | scene beat without a year | Twilight's plan to invite thestrals to the school of friendship and hold Equestria-wide friendship activities is shot down by Celestia as too disruptive, like her plan to bring all creatures to the school | none | past event told in summary, no date given
+  - 4436 | statement about the subject | Celestia is used to a thousand years for change, very incremental, which is why the changeling invasion breaks her whole ruling model | none | parenthetical explanation of her outlook
+  - 4436 | statement about the subject | EEEE's clubs and meetings bring all kinds of ponies together in a two-way cultural exchange, beyond bat ponies and including southwest frontier ponies | none | describes what EEEE does and is like
+  - 4436 | open casting idea | Tentative thoughts on further participants in the exchange: maybe changelings from Acornage, definitely crystal ponies | none | hedged wording, 'Maybe even', 'Definitely'
+  - 4437 | statement about the subject | The final event at the end of the token reforms gives the gist of Celestia's worldview | none | introductory framing line before the excerpt
+  - 4437 | scene beat without a year | Celestia, after a minute of silence, tells Luna that this is the burden they bear, that caution may keep the land standing, and that change will come though maybe not this generation | none | drafted prose and dialogue, 'stood silent for a minute before speaking'
+  - 4437 | scene beat without a year | Luna closes her eyes trembling, then nods holding back disappointment, seeing her sister's centuries of wisdom and the night's dreams melting before the sun | none | drafted prose narration following the speech, 'Luna nodded'
+- sequences:
+  - 4437 | two beats in one closing exchange: Celestia's silence and speech, then Luna's trembling and nod | prose narration in order, 'before speaking', then Luna's reactions
+- whole: A set of design notes on why the token reforms for thestrals fall short, covering the shadow market, racism, thestral mistrust and Celestia's incremental worldview, and how EEEE! answers them, ending with a drafted closing scene between Celestia and Luna.

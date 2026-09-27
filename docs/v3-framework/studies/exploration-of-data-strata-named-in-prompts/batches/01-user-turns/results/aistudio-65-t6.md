@@ -1,0 +1,7 @@
+- sources:
+  - the "software hack" / crystal pony specificity idea (the model's previous proposal for Sombra's magic) | treat as provisional and probably unnecessary; the author is leaning toward dropping it and wants Sombra's magic to work on unicorns too | "maybe I don't need a "software hack" or crystal pony specificity?" | referred-to
+  - love harvesters invented from 981 to 986, before the return of the Crystal Empire | treat as fixed timeline fact that the new design must fit, and a reason to drop the crystal-pony-only mechanism | "the love harvesters invented from 981 to 986 predate the return of the Crystal Empire" | referred-to
+  - the crystal heart works the same way for all creatures, replicated into portable tactical friendship shields | treat as established world fact that the magic design must be consistent with | "The crystal heart works the same way for all creatures" | referred-to
+- order:
+  - love harvesters timeline (981 to 986) over the crystal-pony "software hack" idea | the timeline is given as the reason the hack may be unneeded, "So maybe I don't need"
+- about: The author pushes back on the model's crystal-pony-specific \"software hack\" explanation, citing the timeline and how the crystal heart works, and proposes a simpler version in which Luna adapts the crystallers' emotion-filtering spell to her charitostatic dreamwalking as an ambition sink, while Penumbra Spark could only drain locally.

@@ -1,0 +1,5 @@
+- sources:
+  - the Internet in June 2026, blog posts and articles | search or draw on it to find further pieces by software engineers using AI for creative writing, and similar pieces from other disciplines with the same mindset | are there any other blog posts or articles accept the Internet in June 2026 | first-named
+  - the preceding discussion (the vibe coding analogy and the author's AI-as-tooling approach) | use as the frame for what to look for in the search | With this in mind | referred-to
+- order:
+- about: The user asks the model to look for more blog posts and articles on the Internet as of June 2026 about software engineers, and then people in other disciplines with the same mentality, approaching creative writing with AI, using the earlier discussion as the frame.

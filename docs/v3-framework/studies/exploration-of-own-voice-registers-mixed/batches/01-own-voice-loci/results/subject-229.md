@@ -1,0 +1,19 @@
+- passages:
+  - note 4135 | analytic-frame summary | present tense, "This phase is characterized by" framing | Chrysalis manipulating nobles and extracting wealth to fund her rise | apart
+  - note 4137 | dated chronicle entry | title-colon date label followed by terse summary sentence | the 978 Revolution overthrowing the monarchy | apart
+  - note 4138 | dated chronicle entry | title-colon date label, terse summary clause | the 981 Counterrevolution restoring Eagleclaw | run-in
+  - note 4138 | parenthetical aside | parentheses inserting a hidden causal note | Chrysalis secretly orchestrating the event | run-in
+  - note 4140 | casual factual note | short plain declaratives, real-world comparison "just like in world war 2" | telegraph/radio invention and vacuum-tube tech level | apart
+  - note 4156 | biographical timeline | past tense, chronological third-person clauses, shorthand "+" | Grover V's rescue, reign, weakness, and death | apart
+  - note 4156 | parenthetical aside | parentheses adding a meta timeline reference | marking 1007 as the start of EAW | run-in
+  - note 4156 | biographical timeline | past tense, third-person clause resuming after aside | Grover VI's upbringing under Eros and Benito | apart
+  - note 4193 | present-tense narrative synopsis | present tense, connective clauses "But...as..." | Eagleclaw's regency, decline, and deal with Chrysalis | apart
+  - note 4229 | informal analytic narrative | present tense, slash shorthand "themselves/nobles" | industrialists shifting focus and funding Chrysalis | apart
+  - note 4229 | telegraphic fragment | verbless terse addition | arms manufacturing added to the list | apart
+- shifts:
+  - note 4138 | dated chronicle entry | parenthetical aside | parentheses adding a secret-orchestration detail
+  - note 4156 | biographical timeline | parenthetical aside | parentheses inserting "(the start of EAW)"
+  - note 4156 | parenthetical aside | biographical timeline | return to a plain clause about Grover VI's upbringing
+  - note 4229 | informal analytic narrative | telegraphic fragment | drops subject and verb for a terse list item "Also arms manufacturing"
+- registers: analytic-frame summary; dated chronicle entry; parenthetical aside; casual factual note; biographical timeline; present-tense narrative synopsis; informal analytic narrative; telegraphic fragment
+- whole: This item's notes are written in several distinct registers — terse dated chronicle entries, a biographical timeline, a present-tense narrative synopsis, a casual factual note, an informal analytic narrative with a telegraphic fragment, and an analytic-frame summary — most standing apart as whole notes, with only the parenthetical asides fusing into the surrounding sentence without a break.

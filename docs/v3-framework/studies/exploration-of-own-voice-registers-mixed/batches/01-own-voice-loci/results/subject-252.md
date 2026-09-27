@@ -1,0 +1,10 @@
+- passages:
+  - note 4370 | query | interrogative sentence posing a problem directly | why Vanhoover does not starve | apart
+  - note 4370 | explanatory-narrative | plain declarative past-tense clause with causal 'so' | Bauleiters letting ponies keep farms for pride | apart
+  - note 4370 | explanatory-narrative | short declarative clauses noting soil condition, informal grammar | leftover loam not replenishing | apart
+  - note 4370 | technical-causal | long sentence with real-world science vocabulary and 'which...but...leaving' causal chain | fertilizer lacking P and K leaving ponies weak | apart
+- shifts:
+  - note 4370 | query | explanatory-narrative | shift from a direct question to a declarative statement explaining in-world policy
+  - note 4370 | explanatory-narrative | technical-causal | shift marked by introduction of real-world scientific terms (Haber-Bosch, nitrogen, P and K) and a chained cause-effect sentence structure
+- registers: query; explanatory-narrative; technical-causal
+- whole: This single note moves through three distinct registers set apart line by line, opening with a self-posed question, settling into plain declarative worldbuilding statements, and ending in a more technical causal explanation loaded with real-world scientific vocabulary.

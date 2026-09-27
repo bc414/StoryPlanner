@@ -1,0 +1,7 @@
+- sources:
+  - comments and intents about Celestia's total paralysis (earlier notes and the model's prior analysis) | treat as outdated, do not build on them | "some of the comments and intents about total paralysis are outdated" | referred-to
+  - the author's current plan for Celestia from the chapter "Breakthrough" (she helps run the dreamscape rescue operations) | the author's current direction, use it in place of the paralysis angle | "starting from the chapter "Breakthrough" where Celestia helps run the dreamscape rescue operations" | first-named
+  - the notion that Celestia can't process the rapid industrialization and moral collapse | still valid, keep applying it | "still applies" | referred-to
+- order:
+  - Celestia's role in the war effort from the chapter "Breakthrough" | over the earlier total paralysis angle: "moving away from the "total paralysis" angle and instead having Celestia be part of the war effort"
+- about: The user poses two new what-if variations on the SECEF permission scene (Applejack asks but supplies the pressure-valve reasoning, or informs Luna instead) while telling the model that its earlier assumption of Celestia's total paralysis is outdated because she now helps run the dreamscape rescue from "Breakthrough" onward.

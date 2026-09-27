@@ -1,0 +1,5 @@
+- sources:
+  - The model's general knowledge of what the typical (American) reader thinks of when reading "Poser" | asked to report the typical reader's association and whether American audiences will understand "Poseur" | "What comes to mind when the typical person reads" | referred-to
+  - The author's own understanding and associations with the term (fraud who is posturing, wannabe fascists, no knowledge of the skating sense) | offered as the author's personal, limited experience of the word, to be weighed against what typical readers think | "I know nothing about the term being used for skating" | first-named
+- order:
+- about: The user says they favor \"Poseur\" for Henri's French-language-origin dialogue, and asks the model what typical American readers picture when they see \"Poser\" and whether they'd understand it, offering their own non-skater reading of the word for comparison.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model treated the user's question as being about Costco's customer selection and the material limits of cooperation, when the user was asking about the moral-superiority narrative around Costco and who spreads it and gains from it | But the narrative about Costco being morally superior to Walmart is prevelant. By who? Who benefits | Stated flatly, then restated as pointed questions that steer back to the original interest
+  - other: attribution of the user's position | The model's account carries a suggestion that Costco's selective siting exposes something uncomfortable about it. The user disowns any view of Costco as a hidden cynical extractor | I don't think Costco is secretly a huge cynical extractor | Brief flat disclaimer, given in passing before the real question
+- about: The user gently disowns the cynical-Costco reading the model's answer implied and redirects to their actual question, which is who promotes the Costco-is-morally-better-than-Walmart narrative and who benefits from it.

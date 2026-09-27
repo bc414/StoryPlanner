@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the naming discussion and asks a new question about why Lauren Faust made weather control by ponies part of My Little Pony: Friendship is Magic, asking for a deep look at showrunner philosophy.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes a beat-by-beat draft of the Chapter 6 "Kindness" confession scene, following the love donation and teleport, and asks for analysis and feedback and for how Applejack responds to Twilight's confession, without disputing anything in the model's earlier reply.

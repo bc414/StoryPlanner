@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated the hive wars and ancient harmonic hives as Standardized on the Economy axis and built its four-flip, Economy-is-the-only-kept-axis argument on that. The user doubts the assignment and asks whether they should be Asset Specific, and what the axis actually means given the assigned systems | Should the hive wars and ancient harmonic hives be asset specific instead of standardized economy? | Put as a question. It doubts the premise without saying the model is wrong, and asks the model to re-examine what the axis means against the assignments and system contents.
+- about: The user questions whether the Standardized economy label on the hive wars and harmonic hives holds, which the model's whole analysis relied on, and asks for a re-examination of what the Economy axis means.

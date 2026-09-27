@@ -1,0 +1,14 @@
+- relations:
+  - 1647|1648|The later note continues the earlier in time and reverses it: he abandoned the Republic, then is made to repair the social fabric he abandoned|"repairing the social fabric he abandoned"|implicit
+  - 1648|1650|Continuation in time: after forging the linguistic bridge he serves his sentence and is released as Chief Architect of the achievement|"Chief Architect of the Republic’s greatest technological and cultural achievement"|implicit
+  - 1650|1649|The reader-response note plans the expectation that the fact in the history note overturns: readers expect death or gulag, but he is released and honored|"released not as a broken dissident" / "not rotting in a gulag"|implicit
+  - 1647|1649|The reader's assumption that rebels are executed presupposes his having turned against the Republic, which the history note gives as his abandonment|"Readers initially believe rebels get the death sentence"|implicit
+  - 1648|1649|The forced work on the bridge is the outcome that defies the reader's assumption of execution or a gulag, since he is put to use instead|"Rosewing is not rotting in a gulag"|implicit
+- outward:
+  - 1647|The Republic, the polity he abandoned, described elsewhere in the world|"abandoned the Republic"
+  - 1647|His platoon, a military unit and its members not present here|"I only trust my platoon"
+  - 1648|Kemerskai, another character or power who compels him, not described here|"Kemerskai forces Rosewing"
+  - 1648|The linguistic bridge, a national project held elsewhere|"linguistic bridge that connects the entire nation"
+  - 1649|Other societies' models of punishment (Soviet/Changeling, Imperial) held as lore elsewhere|"the Soviet/Changeling model" / "the Imperial model"
+  - 1650|His sentence and the offence behind it, not set out in this item|"has served his sentence"
+- whole: ["The notes hang together as one arc: abandonment, forced repair, release as Chief Architect, and a reader-expectation note that this outcome subverts."]

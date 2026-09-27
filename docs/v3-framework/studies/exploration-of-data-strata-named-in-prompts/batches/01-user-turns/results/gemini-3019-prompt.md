@@ -1,0 +1,4 @@
+- sources:
+  - Equestria at War, the national spirit "The Stagnation of Harmony" and its French localization "Harmonie Stagnante" | treat as the given, established name and French wording; the model is to evaluate its own suggested phrase against this localization | The Stagnation of Harmony is the name of a national spirit in Equestria at War. The French localization is "Harmonie Stagnante" | first-named
+- order:
+- about: The user corrects the model by supplying the published game's name and French localization of the term and asks it to compare the grammar of that localization with its own suggested phrase and explain the English equivalents and implications.

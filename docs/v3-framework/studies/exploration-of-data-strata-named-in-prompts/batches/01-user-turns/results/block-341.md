@@ -1,0 +1,7 @@
+- sources:
+  - the confession scene and first kiss at the end of chapter 6 "Kindness" | a part of the story plan that exists; the model is to analyze it, since it earlier treated the escalation as unplotted | There is a confession scene and first kiss, it is at the end of chapter 6 "Kindness" | first-named
+  - the scene titled "We Are Monsters" in the chapter "Honor" | a part of the story plan that exists and is important; the model is to analyze it | another important scene titled "We Are Monsters" in the chapter "Honor" | first-named
+  - the letters during the separation phase, chapters 10-12 | a part of the story plan that exists; the model is to analyze it | During the separation phase from chapters 10-12 they send letters to each other | first-named
+  - the friendship letters from seasons 1-3 of canon FiM | a published show used as the style model for the separation-phase letters | in the style of the friendship letters from seasons 1-3 of canon FiM | referred-to
+- order:
+- about: The user corrects the model's claim that the romance's escalation was unplotted by pointing to three further scenes in the story plan (the chapter 6 confession and first kiss, \"We Are Monsters\" in \"Honor\", and the chapters 10-12 letters modelled on early canon friendship letters) and asks for them to be analyzed too.

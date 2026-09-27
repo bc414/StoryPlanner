@@ -1,0 +1,4 @@
+- sources:
+  - wings of dew | use the existing spell as the template or model for the new spells: cast once on another creature, then sustained by the target's own red and pink love without the caster | in a similar manner to the wings of dew | referred-to
+- order:
+- about: The user asks the model to brainstorm new unicorn spells that copy the pattern of the existing Wings of Dew spell, cast on another creature and then powered by that target's red and pink love without the caster.

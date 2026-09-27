@@ -1,0 +1,8 @@
+- asks:
+  - continue/complete a list | asks the model to supply the remaining items in a set of historical parallels to AI development that had apparently been started | "Give the rest of"
+- supplies:
+- shaping:
+  - continue an existing list rather than starting fresh | "the rest of"
+  - keep to the topic of historical parallels to AI development | "human history parallels to AI development"
+- openness: Leans toward completing a known but unseen list: the message assumes prior parallels were already given and asks for the remainder, without specifying which ones are missing.
+- subject: Historical parallels to AI development

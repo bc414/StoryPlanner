@@ -1,0 +1,3 @@
+- passages:
+  - fabula content | States as a fact of the story's world that every one of the mane six had a foreign influence in their backgrounds. It names no theme term and does not say how this bears on balance, harmony or ambition. | All of them had foreign influence | no | planning shorthand, a single flat declarative sentence with no elaboration
+- whole: A one-line planning note that generalises a claim about the whole cast, that all of them had foreign influence, and it leaves the connection to the theme unstated.

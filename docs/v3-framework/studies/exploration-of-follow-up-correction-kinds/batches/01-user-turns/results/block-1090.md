@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the framework from the model's analysis of the American Left and asks for the same analysis applied to the American Right, adding a new request without disputing anything the model said.

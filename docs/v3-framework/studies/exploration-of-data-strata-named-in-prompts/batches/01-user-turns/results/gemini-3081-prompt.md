@@ -1,0 +1,4 @@
+- sources:
+  - canon (the show's depiction of the buffalo and Appleloosans sharing the land and integrating) | treat as true; the eventual outcome in the author's plan follows what the show depicts | as shown in canon | referred-to
+- order:
+- about: The user is adding to the story plan by describing Rockfeller's earlier, Skyfall-armed displacement of the buffalo, Celestia's failure to fix the cause, and Appleloosa's legal land claim, while keeping the eventual buffalo-pony integration as it is in canon.

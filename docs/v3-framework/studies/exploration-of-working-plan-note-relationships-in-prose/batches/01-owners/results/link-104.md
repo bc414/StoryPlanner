@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2546|Chrysalis, a character who is not part of this item's notes, and her circumstances of having been failed by a system|They recognize that Chrysalis is burning with ambition
+  - 2546|The past of the two characters ("them"), whose ambition was failed by a system that promised to reward it, held elsewhere|because that's what happened to them
+  - 2546|The system that promised to reward ambition but didn't, a piece of world lore not given here|a system that promised to reward ambition but didn't
+- whole: By this owner there is only one note, so there is nothing to hang together; it stands as a single entry that points outward to Chrysalis and to the system.

@@ -1,0 +1,5 @@
+- sources:
+  - modern China | real-world comparison case the model is asked to set the Zarca/Colthage design against | How does this compare to modern China | referred-to
+  - earlier analysis | the model's prior analysis in the conversation, to be compared against and built on with the new points | and earlier analysis, and what else is there to consider | referred-to
+- order:
+- about: The user lays out their own contrast between Chrysalis's and Zarca's economic and social systems in the story, and asks the model to compare it with modern China and the earlier analysis and to flag what else should be considered.

@@ -1,0 +1,5 @@
+- questions:
+  - Whether to update the property and value names in the planner to match the new terminology | ignored | The user turn moves to a new request instead of addressing this | none
+  - Whether to do a final verification pass on all 37 systems | ignored | The user turn moves to a new request instead of addressing this | none
+- shape: Redirects away from the model's proposal, issuing a new instruction to run a different kind of analysis (all one-off comparisons) using the story planner
+- settles:

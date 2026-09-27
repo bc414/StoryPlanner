@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn abandons the bootstrapping topic entirely and instead proposes a new workflow for consolidating story notes via JSON export to NotebookLM to reduce token count, asking whether this approach is sound or if something better exists.

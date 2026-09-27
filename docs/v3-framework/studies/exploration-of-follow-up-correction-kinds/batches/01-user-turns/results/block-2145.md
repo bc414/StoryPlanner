@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: categorization judgment on where the mechanic belongs | The model spread the griffon-pony reproductive incompatibility across many notes as a shared World Law mechanic on Griffon Biology and advised against a subject of its own. The user first says it merits its own subject, then that it is not theme evidence but a cause of Aquileian society, so it may belong only in Aquileia. | "deserves its own subject" then "Or maybe not" and "maybe it only goes in Aquileia" | Tentative and self-revising. The user thinks aloud, states a reason, reverses, and hedges with maybe, with no flat rejection of the model's advice.
+- about: The user reacts to the model's cross-cutting flag by weighing whether the griffon-pony incompatibility should be its own subject, then leans toward treating it as only a causal fact of Aquileia.

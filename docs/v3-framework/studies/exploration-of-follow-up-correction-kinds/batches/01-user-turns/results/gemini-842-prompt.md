@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to the next chapter and asks for a perspective analysis with Max as a likely focus, with battle and non-battle scenes treated separately, without objecting to anything in the model's previous analysis.

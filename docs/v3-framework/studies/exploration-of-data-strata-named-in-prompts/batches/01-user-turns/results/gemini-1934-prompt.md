@@ -1,0 +1,4 @@
+- sources:
+  - a story plan | the material the user wants analysed; the model is asked to suggest tools that would analyse it, not to draw facts from it | for narrative and literary analysis for a story plan | referred-to
+- order:
+- about: The user asks the model to name tools comparable to, or a next step after, NotebookLM for narrative and literary analysis of their story plan.

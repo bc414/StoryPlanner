@@ -1,0 +1,8 @@
+- steps:
+  - the author | asks | a factual question about other HOI4 mods with newly built maps, using Equestria at War as the comparison point | opening of the stretch
+  - the model | answers | a list of four total-conversion mods with new/altered maps, each briefly described | immediately after the question
+  - the author | follow-up asks | a comparative question about which total-conversion mods are most popular and where Equestria at War ranks among them | second turn
+  - the model | answers | a ranked list of top mods plus a qualitative assessment placing Equestria at War in the top tier on stated grounds | closing of the stretch
+- kept:
+- brought: none
+- loop: The author brought outside curiosity about the mod landscape rather than anything from the plan, and the model returned informational surveys and rankings; nothing from either exchange was carried into the planning database.

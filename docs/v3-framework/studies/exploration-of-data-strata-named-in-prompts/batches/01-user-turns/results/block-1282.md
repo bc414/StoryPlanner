@@ -1,0 +1,8 @@
+- sources:
+  - The Cutie Map Part 2 transcript (mlp.fandom.com wiki) | review it as the reference for what happens in the episode; the model is to read it and use it as the basis for the revision | review the transcript of the episode here | first-named
+  - The Cutie Re-Mark Part 2 transcript (mlp.fandom.com wiki) | use it as the model for why Starlight joins Twilight; her decision-making there should be mirrored so her canon psychology holds | why starlight joins Twilight should reflect the same decision making in | first-named
+  - canon episode events (town ponies already regained their cutie marks and used them to catch Starlight) | treat as the canon baseline that the user's proposal builds on and departs from only in the capture and cave escape | The town ponies already got their cutie marks back | first-named
+  - The user's own proposal (Double Diamond and others catch Starlight instead of her escaping into a cave) | provisional suggestion offered for the model to adopt in the revision | I'm proposing Double Diamond and the others catch Starlight | first-named
+  - Starlight's canon psychological truth for TLTT | must be kept intact in the revised scene | so that her canon psychological truth is intact for TLTT | first-named
+- order:
+- about: The user directs the model to read two canon episode transcripts and revise the Our Town confrontation so the town ponies capture Starlight and her reason for joining Twilight matches her canon decision-making, preserving her canon psychology for the story.

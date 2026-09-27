@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a newly established piece of lore, the hippogriff/seapony foal-delivery bedtime story, and moves on to ask for an analysis of the Battle of Mount Aris as the loss of innocence for three characters, without disputing anything the model said about Sunset.

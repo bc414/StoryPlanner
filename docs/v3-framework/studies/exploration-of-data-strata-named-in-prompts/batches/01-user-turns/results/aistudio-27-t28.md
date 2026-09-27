@@ -1,0 +1,6 @@
+- sources:
+  - existing Fabula (the established fabula) | keep as the baseline the model does not drop for unrelated things not yet discussed, but not a source to be held to with zero contradictions when changes are under discussion | zero contradictions with the existing Fabula; not completely drop the established fabula for unrelated things | referred-to
+  - previous turns (discussion of ways to change the Fabula) | take into account; changes being discussed there count and may depart from the existing Fabula | If the previous turns are discussing ways to change the Fabula, those should be taken into account | referred-to
+- order:
+  - previous turns (changes discussed in them) | existing Fabula | those should be taken into account
+- about: The user pushes back on the draft's zero-contradiction rule, saying changes to the Fabula discussed in earlier turns must be honored while the established Fabula should still not be dropped for unrelated, undiscussed things.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user follows up on the Dutch parallel with a batch of background questions (the seven provinces, breaking from Spain, the Burgundian inheritance, domestic gunpowder, when the Eighty Years' War fell) and asks for a full breakdown, without disputing anything the model said.

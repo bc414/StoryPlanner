@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turns from the Syrian conflict discussion back to their fiction, recalling their earlier inspirations for the Storm King's horde and asking whether ISIS and Al Qaeda are the strongest modern parallels and what others exist, which is a new question and not a correction of the model.

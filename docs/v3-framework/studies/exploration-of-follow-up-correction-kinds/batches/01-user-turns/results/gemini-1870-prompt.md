@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's seven-part version compressed the material and dropped nuance and detail, when the task was only to reorganize it and remove duplicates | "do not throw out any nuance. All details of the original must be present" | Flat directive to redo it, with the constraint stated as a rule and no apology or explanation, implying the earlier version cut too much
+- about: The user asks for the reorganized write-up to be redone so that it keeps every detail of the original source and changes only its organization and duplicated content.

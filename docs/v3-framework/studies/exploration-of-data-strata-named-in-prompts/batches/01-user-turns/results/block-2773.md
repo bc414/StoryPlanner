@@ -1,0 +1,11 @@
+- sources:
+  - P&K (the story, its Fluttershy and Pinkie portrayal) | treat the user's account of it as the correct one: Fluttershy is broken and retreated from society, Pinkie broken and catatonic; treat as ASOIAF collision | In P&K Fluttershy is mentioned as completely retreated from society, broken | referred-to
+  - Pax (Pax Chrysalia) | treat the user's account as correct: Fluttershy's appearance belongs here, and it has extensive Twilight as princess of friendship after her recovery | putting Pax Fluttershy in the P&K section; extensive Twilight as the princess of friendship | referred-to
+  - Maud describing Pinkie after the war (P&K scene) | treat as evidence that leans toward Hasbro ontology rather than Faust, offered tentatively | Maud describing Pinkie after the war send to hint at Hasbro ontology | referred-to
+  - the user's own reading and perception of the stories | present as the user's own view, put forward for the model to confirm or correct on Hasbro Mandate leakage, Fluttershy, Pinkie and Rarity | my perception of Hasbro Mandate leakage; My reading of Fluttershy | referred-to
+  - Faust layer (Faust Rarity) | reference standard the characters are classed against; P&K Rarity is offered as Faust Rarity buckling, put as a question to confirm | Faust Rarity buckling under ASOIAF | referred-to
+  - Hasbro Mandate / Hasbro ontology | reference standard for flattened characterization; user suspects its leakage is mostly limited to Twilight, with a hint of it in Maud's Pinkie | Hasbro Mandate leakage is mostly constrained to Twilight | referred-to
+  - the model's previous turn (its sorting of Fluttershy and the other characters between P&K and Pax) | treat as containing an error to be corrected | You mixed up Fluttershy | referred-to
+- order:
+  - the user's own account of P&K and Pax | over the model's previous turn | You mixed up Fluttershy, putting Pax Fluttershy in the P&K section
+- about: The user corrects the model's mix-up of Fluttershy between P&K and Pax, restates what those stories show for Fluttershy, Pinkie and Twilight, and asks whether Hasbro Mandate leakage is mostly limited to Twilight and whether P&K Rarity is Faust Rarity buckling under ASOIAF.

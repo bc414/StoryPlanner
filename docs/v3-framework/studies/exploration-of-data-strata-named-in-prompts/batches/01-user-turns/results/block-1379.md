@@ -1,0 +1,5 @@
+- sources:
+  - the user's own recollection of the ending | tentative memory that conflicts with the model's account; offered as something to be confirmed or corrected, not as settled | I thought Jangga kneeled at the end for some reason? | referred-to
+  - the model's earlier claim that Saeroyi kneels to Jangga | put in doubt; the user asks the model to verify whether it is accurate | Did sareoyi actually kneel to Jangga? | referred-to
+- order:
+- about: The user questions a plot detail the model gave about the show's ending, saying from memory that it was Jangga who kneeled, and asks the model to confirm which is right.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new premise (Aquileian sea-monster hunting in 983, Chrysalis's submarine fleet draining monsters' red love for drug surplus while claiming it came from warlords) and asks for its narrative and motivational effects, while suggesting the wealth is needed to undercut her bullies' noble empires.

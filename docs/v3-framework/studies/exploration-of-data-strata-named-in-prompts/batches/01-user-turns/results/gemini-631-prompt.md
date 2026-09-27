@@ -1,0 +1,5 @@
+- sources:
+  - This analysis (the model's preceding analysis of the food-and-love premise) | Treat as not matching what the author wants; its food-plus-love conclusion is not adopted, and the author redirects to a different choice | This analysis is saying they should need food and love, not just love | referred-to
+  - The author's own premise about Changeling evolution (frozen north, too little food, evolved love for some calories) | Treat as the working premise to reason from when weighing whether industrialized Changelings could live on food alone | In pre-industrial times, there isn't enough food in the frozen north | first-named
+- order:
+- about: The user pushes back on the model's food-plus-love analysis and, from their own stated evolutionary premise, asks what benefits there would be in making Changelings able to live on food alone.

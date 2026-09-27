@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to revisit its assessment of Mikie Sherrill by considering her ethics reform and solar permitting reform policies, without pointing to any body of material to draw on or avoid.

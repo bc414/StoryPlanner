@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates a fixed point of their plan (AJ's cutie mark story tied to going to Manehattan with her parents) and uses it to float a new variation, a first permanent move that might later lead to New Mareland, asking for the narrative implications.

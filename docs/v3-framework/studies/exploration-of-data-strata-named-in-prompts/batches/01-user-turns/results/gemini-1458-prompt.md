@@ -1,0 +1,4 @@
+- sources:
+  - Luna as a magical innovator 1000 years ago before Nightmare Moon, and Celestia halting magical innovation afterward (what the author says they established) | treat as settled backstory and build the dream-teleportation plan on it | I established that Luna was a magical innovator 1000 years ago | referred-to
+- order:
+- about: The author builds on the model's dream-supply-line idea by anchoring it in established backstory about Luna, and reworks it so the princesses actively run the comfort-aid program, then recoil when Applejack demands rifle delivery, with Luna agreeing but resolving to pull the plug once Equestria is secure.

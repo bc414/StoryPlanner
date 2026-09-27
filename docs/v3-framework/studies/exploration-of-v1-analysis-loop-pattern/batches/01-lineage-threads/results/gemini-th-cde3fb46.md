@@ -1,0 +1,16 @@
+- steps:
+  - author | verdict | approves the statue metaphor, rejects the archive-packing idea as too cruel | opening of the author's message
+  - author | recap | notes how the intervention chapter has grown to involve all six ponies, not just Rainbow | early in the author's message
+  - author | problem-framing | asks how to keep AJ's insistence on the Ponyville meeting from reading as anti-Celestia | mid-message, pivot to the craft question
+  - author | plan-addition | proposes the meeting be genuinely about Canterlot, with the Bluebell River plan emerging organically from Maud/Rasti/Fluttershy's intel, plus a stated hard truth about worsening the hostage situation to win the north | rest of the author's message
+  - model | scene draft | writes the Rarity/Twilight/Rainbow exchange revealing Celestia as a 'statue', reframing her inaction as trauma not malice | opening of the model's reply, section on the statue metaphor
+  - model | motivation check | explains why AJ still insists on inviting Celestia under the 'frozen' framing | second section of the reply
+  - model | beat breakdown | lays out a four-phase sequence (fixation, reality check, pivot, hard choice) turning the Canterlot assault plan into the River Spearhead, with sample dialogue per phase | middle section of the reply, 'organic pivot' analysis
+  - model | payoff linkage | ties the near-miss Canterlot attack to Trimmel's later reveal, framing it as proof of his read on pony sentimentality | fourth section, 'validating Trimmel's trap'
+  - model | recap | summarizes the whole chapter-8-to-13 flow in a short outline | closing summary of the reply
+- kept:
+  - note 1539 | the author's own words | keeps the author's stated hard truth about worsening the hostage crisis to save the Crystal Empire and northern towns, filed under the 'What About Canterlot?' plot point, with an added framing line
+  - note 983 | pasted whole from this reply | keeps the model's Trimmel-payoff section (his prediction, the near-miss, his resulting respect for AJ), filed under the 'Trimmel unveils the Chrysalis bait' plot point
+  - note 1541 | pasted whole from this reply | keeps the model's closing 'hard choice' line of AJ turning from Canterlot, with the destination edited from 'North' to 'Maredin', filed under the 'What About Canterlot?' plot point
+- brought: The author brought a developing scene concept (an AJ-led intervention exposing Celestia's fate) along with a specific structural problem, asking how to keep the Ponyville war-council meeting from reading as anti-Celestia while having the Bluebell River strategy emerge organically from the group's own intel.
+- loop: The author brings a scene-level craft problem plus a self-authored moral premise (the hard truth about trading hostages for strategic gain); the model returns a phased scene design and a retrospective payoff linking it to a later chapter; the plan keeps the author's own premise verbatim on one plot point and pastes two of the model's resolution beats — the Trimmel payoff and the final turning-away line — onto two plot points, editing one detail in transcription.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user picks "Honor" as the title noun over the model's other options and explains, from their own account of the plot, how Trimmel's tell-all chapter, his earlier role as a radio voice offering honorable surrender, and his respectful move into a POW camp all fit that word.

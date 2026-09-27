@@ -1,0 +1,6 @@
+- sources:
+  - Rarity's Aquileian roots | treat as the true in-story origin of what Fluttershy already has, the answer to why she is ready while others must learn | It comes back to Rarity's Aquileian roots | referred-to
+  - the episode Putting Your Hoof Down | use as the published episode where the transfer to Fluttershy happened early, and build the analysis on it | the episode Putting Your Hoof Down where this was transferred to Fluttershy early on | referred-to
+  - the preceding discussion of the spell matrix and technology revolution | treat as the settled premise that resolves the question about Applejack, Twilight and Fluttershy | So this solves the great question | referred-to
+- order:
+- about: The user takes the preceding worldbuilding discussion as solving why Applejack and Twilight must learn from naivety while Fluttershy is already ready, ties that to Rarity's Aquileian roots and the episode Putting Your Hoof Down, and asks the model for an analysis.

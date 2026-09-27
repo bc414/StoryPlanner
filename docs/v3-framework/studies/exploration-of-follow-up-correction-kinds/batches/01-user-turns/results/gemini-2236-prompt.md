@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new feature request, asking how to add drag-and-drop of a note from the Categorizer View onto any Note Collection Viewer, without commenting on or disputing the model's refactoring advice.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user says they only loosely remember how their Gemini JSON reader works and asks the model to explain in more detail how to use the newly provided exporter and helper classes with it, which is a request for clarification and not a correction.

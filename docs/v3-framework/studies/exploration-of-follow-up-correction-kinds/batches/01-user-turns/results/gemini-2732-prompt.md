@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Chrysalis regime discussion and starts a new question about Daring Do, stating their plan for her as a fictional book series by Twilight Velvet and asking whether canon names the books' jungle.

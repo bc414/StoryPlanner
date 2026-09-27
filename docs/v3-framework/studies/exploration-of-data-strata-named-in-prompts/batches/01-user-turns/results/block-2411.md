@@ -1,0 +1,5 @@
+- sources:
+  - Applejack's side of chapters 10-12 | treat as established plan: its whole point was already integrating the Tzinacatl into the war effort, so the model's assumption of an intelligence gap is wrong | The whole point of Applejack's side of chapters 10-12 was already about integrating the Tzinacatl into the war effort | referred-to
+  - chapter 15 | treat as settled plot: Canterlot falls and the changelings reach the jungle, which supply the reasons for backup supply lines and military coordination | which it does in chapter 15 | referred-to
+- order:
+- about: The user corrects the model's revision by saying Metzli's conviction comes from being treated as sovereign and asked what the Tzinacatl bring, and that the Equestrian Army already knows about the traditionalists, backing this with the plan for chapters 10-12 and 15.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about why Anthropic dropped long-context pricing (TPU availability on GCP versus Nvidia-only hosting, or other reasons) and whether the change covers both the API and consumer free and Pro plan limits, without pointing at any body of material to draw on.

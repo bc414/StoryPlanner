@@ -1,0 +1,19 @@
+- steps:
+  - author | request | asks for next-chapter summary, new open questions, and specifically distinct one-off (not broad/repeated) links to earlier chapters | opening prompt of the exchange
+  - model | primary summary | recaps an Omake/alt-timeline chapter (Twilight vs. Nightmare Moon debate), flags it as non-canon rather than the true next chapter, lists open questions, and names one-off echoes to specific earlier chapters | main response
+  - model | alternate regeneration | summarizes chapter 38, open questions, and one-off links to earlier chapters | draft 1 of the response
+  - model | alternate regeneration | summarizes chapter 37, open questions, and one-off links to earlier chapters | draft 2 of the response
+  - model | alternate regeneration | summarizes chapter 36, open questions, and one-off links to earlier chapters | draft 3 of the response
+  - model | alternate regeneration | summarizes chapter 35, open questions, and one-off links to earlier chapters | draft 4 of the response
+  - model | alternate regeneration | summarizes chapter 34, open questions, and one-off links to earlier chapters | draft 5 of the response
+  - model | alternate regeneration | summarizes chapter 33, open questions, and one-off links to earlier chapters | draft 6 of the response
+  - model | alternate regeneration | summarizes chapter 32, open questions, and one-off links to earlier chapters | draft 7 of the response
+  - model | alternate regeneration | summarizes chapter 31, open questions, and one-off links to earlier chapters | draft 8 of the response
+  - model | alternate regeneration | summarizes chapter 30, open questions, and one-off links to earlier chapters | draft 9 of the response
+  - model | alternate regeneration | summarizes chapter 29, open questions, and one-off links to earlier chapters | draft 10 of the response
+  - model | alternate regeneration | summarizes chapter 28, open questions, and one-off links to earlier chapters | draft 11 of the response
+  - model | alternate regeneration | summarizes chapter 27, open questions, and one-off links to earlier chapters | draft 12 of the response
+  - model | alternate regeneration | summarizes chapter 26, open questions, and one-off links to earlier chapters | draft 13 of the response, closing the stretch
+- kept:
+- brought: none
+- loop: The author asks for a next-chapter recap paired with specific, non-repeating cross-chapter links; the model answers this same request many times over, each regeneration landing on a different chapter of the backlog (38 down to 26) before the kept response settles on a non-canon Omake chapter, and none of these summaries, questions, or link-lists get carried into the planning database.

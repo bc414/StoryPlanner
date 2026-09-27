@@ -1,0 +1,55 @@
+- steps:
+  - author | stress-test | asks whether an established dual-catalyst magic theory extends coherently to unicorns, pegasi, griffons | opening message of the thread
+  - model | analyze | maps Red/Pink catalysts onto each active-magic race's biological hardware, ends with a consultant question | reply
+  - author | propose-and-flag | pitches Fleur inventing crop-specific fertilizer matrices, flags a possible contradiction with asset specificity | next message
+  - model | validate-and-explain | works out a chemical mechanism for the cutie-mark discount, recommends keeping the idea | reply
+  - author | refine-and-synthesize | asks whether the invention should be active spells or star-spade tools, then states own three-race magic formula | next message
+  - model | elaborate-and-recommend | proposes inventing both tool types, suggests a capping line of dialogue | reply
+  - author | propose-timeline | hypothesizes an energy-bottleneck reason the Star Spade predates a farming matrix, and a military reason for Wings of Dew | next message
+  - model | validate-and-extend | supplies thermodynamic justification and a numbered timeline | reply
+  - author | add-constraint | introduces Haber-Bosch fertilizer as the pre-war alternative that explains the bottleneck | next message
+  - model | elaborate-and-summarize | builds an economic case and a three-tiered agricultural-economy summary | reply
+  - author | propose-origin | lays out a 2nd-gen-royalist origin story and timeline for griffon asset specificity | next message
+  - model | analyze-and-clarify | corrects a demographic detail, works out mechanics and integration into Coltbert's Game, ends with a question | reply
+  - author | clarify-and-contrast | states the machine doesn't obsolesce and griffons can swap talents unlike locked-in ponies | next message
+  - model | analyze | draws out comparative-advantage implications, poses stress-test questions | reply
+  - author | pose-lore-question | asks why pirate Dennis Discret spared the University of Pridea, and requests its origin story tied to Grover III | next message
+  - model | analyze | supplies pirate motivation, Coltbert's pitch, and a founding story for the university | reply
+  - author | repeat-with-request | reposts the same question, adding a request to review the story plans first | next message
+  - model | restate-analysis | delivers the same analysis again with the review framing | reply
+  - author | extend-idea | proposes that Pridea's artisans pre-arrange tribute to Dennis via Coltbert to secure protection | next message
+  - model | analyze | works out artisan motivation, the pitch mechanics, and geopolitical fallout, ends with a question | reply
+  - author | propose-demographics | offers a two-phase theory for Pridea's rising pony population, requests review | next message
+  - model | analyze-by-phase | validates each phase, draws thematic payoffs, poses a stress-test question | reply
+  - author | propose-premise | proposes that sentience requires both predator ambition and herbivore solidarity | next message
+  - model | analyze-and-validate | extends the premise into evolutionary and geopolitical categories, poses a stress-test question | reply
+  - author | state-thesis | states in own words that balance must be actively maintained against industrial/magical accelerants | next message
+  - model | analyze-and-connect | ties the thesis to existing factions and mechanisms, poses stress-test questions | reply
+  - author | propose-mechanism | details a technical T1/T2 spell-matrix bootstrapping process for griffon-unicorn collaboration | next message
+  - model | analyze-and-stress-test | validates the mechanism's thematic fit, raises several clarifying engineering questions | reply
+  - author | extend-scale | proposes naval expansion and the Crystal Empire's return as Aquileian resource strategy | next message
+  - model | analyze-by-phase | validates the escalation, raises geopolitical and logistical stress-test questions | reply
+  - author | add-backstory | proposes Celestia's ignored orders and Twilight's failed crystal tax as the cause of Fleur's dislike of Twilight, requests review | next message
+  - model | analyze-and-validate | confirms the character friction is materially grounded, raises logistical clarifying questions | closing reply of the thread
+- kept:
+  - note 3576 | pasted whole from this reply | keeps the line contrasting easily-industrialized Red magic with sustainable Pink magic, filed under a link between the Charitostatic Effect theory and earth pony magic/balance
+  - note 4470 | the author's own words in this record | keeps the author's phrasing of earth pony magic as dynamic weathering with a crop discount, filed under Subject "Earth Pony Magic"
+  - note 5490 | the author's own words in this record | keeps the author's full three-race unified magic formula, filed under Subject "Unified Theory of Magic"
+  - note 1417 | pasted whole from this reply | keeps the opening line introducing the three-tiered agricultural economy, filed under the Fleur-in-Appleloosa plot point
+  - note 1418 | pasted whole from this reply | keeps the description of the Industrial Baseline/Haber-Bosch tier, same plot point
+  - note 1419 | pasted whole from this reply | keeps the description of the Emancipator/spell-matrix tier, same plot point
+  - note 1420 | pasted whole from this reply | keeps the description of the Artisanal Pinnacle/Star Spade tier, same plot point
+  - note 5410 | the author's own words in this record | keeps the author's origin timeline for griffon asset specificity, filed under Subject "Griffon Biology and Magic"
+  - note 3391 | one sentence lifted from this reply | keeps the single line equating a self-built machine to a cutie mark and naming Skyfall/Herzland as soulless, filed under a link between griffon industry and griffon biology/magic
+  - note 5492 | pasted from this reply inside the author's own framing | keeps the summary of Skyfall's self-defeating university burning and Pridea's survival, filed under Subject "1st Aquilean Revolution"
+  - note 5495 | pasted from this reply inside the author's own framing | keeps the mechanics of Coltbert's pre-arranged tribute deal with Dennis, filed under Subject "Pridea"
+  - note 5494 | pasted from this reply inside the author's own framing | keeps the Phase 1 demographic analysis of coerced pony population under Grover III's era, filed under Subject "Pridea"
+  - note 4122 | pasted from this reply inside the author's own framing | keeps the predator/herbivore/sentience definitions and the society-as-tension line, filed under Subject "Life Forces of Sentient Creatures"
+  - note 4126 | the author's own words in this record | keeps the author's balance-and-accelerants thesis verbatim, filed under Subject "Life Forces of Sentient Creatures"
+  - note 5202 | the author's own words in this record | keeps the author's T1/T2 bootstrapping mechanism description, filed under Subject "Magical Engineering"
+  - note 3202 | the author's own words in this record | keeps the author's account of Twilight's crystal-tax backstory, filed under a link between the crystal-tax reflection and Ain Trotgourait's rebuilding
+  - note 1584 | pasted whole from this reply | keeps the analysis of why Fleur's condescension toward Twilight's tax is justified, same link record
+  - note 3203 | pasted whole from this reply | keeps the analysis of Twilight's flawed systems idealism, same link record
+  - note 4085 | pasted from this reply inside the author's own framing | keeps the worldbuilding detail of customs officials misclassifying crystal shipments, filed under Subject "Crystal Trade"
+- brought: The author brought an already-built framework of dates, characters, and magic mechanics from prior planning (Grover III's reign, the Wings of Dew, the Star Spade, the Coltbert Reforms, pink/red love catalysts) and used each message to extend, test, or add a new piece to that framework.
+- loop: The author repeatedly brings a new lore extension or a self-authored formulation, often naming a possible inconsistency or asking for review against existing plans; the model returns a systematizing analysis that validates, elaborates, and often closes with stress-test questions the author does not answer. The planning database keeps the author's own phrasing wherever the author states the idea outright, and keeps the model's summarizing or framed passages where the model produces a clean synthesis (tiered lists, timelines, motivation write-ups), while the model's open stress-test questions are left unkept.

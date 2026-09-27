@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's offer to search past chats by asking when they settled on a structure of one main story with separate prequel-sequels for The Lioness of Tall Tale.

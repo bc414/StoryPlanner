@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model read the uneven counts of assigned values as a deliberate design pattern (most factions embodying the problems the Equestrian Republic resolves). The user says the assigned values are only the ones they are confident about, and that a blank can mean uncertainty or a neutral value, so the counts are not a full picture of intent. | "Of the ones that I filled in, those are the values I'm pretty certain of. If a value is empty it could mean I'm uncertain" | Implicit and unstated as disagreement: a clarification of what the data means, given as background for the next request, with no reference to the model's inference.
+- about: The user explains what filled and blank property values mean in their grid, and uses that to redirect the model from a simple look-up of the subjects to an analysis of their confident assignments against the system notes and the axes conversation's deliberations.

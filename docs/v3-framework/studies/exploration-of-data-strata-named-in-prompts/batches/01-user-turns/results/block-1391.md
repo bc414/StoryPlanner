@@ -1,0 +1,5 @@
+- sources:
+  - Boys Over Flowers (the KDrama the user watched next) | material to draw on for a comparison; the model is asked to say how it compares | How does that kdrama compare? | first-named
+  - City Hunter (earlier drama, same actor) | reference point already discussed; Boys Over Flowers is placed against it by release order and shared actor | made before City Hunter featuring the same actor | referred-to
+- order:
+- about: The user reports the next KDrama they watched, Boys Over Flowers, noting its shared actor and earlier release than City Hunter, and asks the model how it compares.

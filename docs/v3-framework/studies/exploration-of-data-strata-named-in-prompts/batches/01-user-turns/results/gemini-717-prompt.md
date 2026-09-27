@@ -1,0 +1,8 @@
+- sources:
+  - look at you vs look through you framing (the model's previous proposal in this conversation) | treat as cohesive and acceptable but too abstract; the starting point to be revised or supplemented, not thrown out | "cohesive, but it's a bit abstract" | referred-to
+  - the collaborator nightmare (P&K timeline) | draw on as the thing to be revised, using the nature of its collaboration dream | "revise the collaborator nightmare" | referred-to
+  - the nature of the collaboration dream of the P&K timeline | use as a basis for the new examples | "the nature of the collaboration dream of the P&K timeline" | referred-to
+  - the backstory of Trimmel's defeat | use as material for the revised examples | "using the backstory of Trimmel's defeat" | referred-to
+  - what Trimmel wants to tell Applejack (his parting message) | use as material and revise it, so the examples carry his intended message | "what he wants to tell Applejack" | referred-to
+- order:
+- about: The user accepts the model's look-at versus look-through framing as cohesive but finds it abstract, and asks for several alternative revisions of the collaborator nightmare and Trimmel's parting message built from Trimmel's defeat, his message to Applejack, and the P&K collaboration dream.

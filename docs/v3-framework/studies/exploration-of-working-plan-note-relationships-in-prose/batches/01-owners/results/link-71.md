@@ -1,0 +1,7 @@
+- relations:
+  - 2063|2064|note 2064 states as a general thematic proposition what note 2063 dramatizes as a specific instance: the machinery Applejack sees as soulless is, by Flowing Current's account, used cooperatively rather than for profit, so the same machines can serve extraction or cooperation|"The same machines can be used for extraction or cooperation" against machinery from the Griffonian Republic, "not profit maxxing like the Skyfall-aligned tycoons"|implicit
+- outward:
+  - 2063|Applejack's parents' factory and her earlier feelings about it, held elsewhere in the story|Applejack says she always hated all the "soulless" machinery at her parents' factory
+  - 2063|The Griffonian Republic, its schematics and machinery, as lore held elsewhere|all that machinery came from the Griffonian Republic or repaired using GR schematics
+  - 2063|The Skyfall-aligned tycoons, a profit-driven faction not described in this item|not profit maxxing like the Skyfall-aligned tycoons
+- whole: The two notes hang together: the page-design note shows a concrete exchange about machinery, and the thematic note gives the proposition that exchange serves as evidence for.

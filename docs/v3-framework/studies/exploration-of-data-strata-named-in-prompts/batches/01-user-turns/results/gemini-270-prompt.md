@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers two plot ideas for the story: that Trimmel's candid public speech and Applejack's talk of honesty would let the media and public accept the total war explanation, and that SECEF should hand its weapons to the allied army while withdrawing itself and its doctrine.

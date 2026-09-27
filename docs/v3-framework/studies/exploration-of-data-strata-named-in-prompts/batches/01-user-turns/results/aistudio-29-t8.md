@@ -1,0 +1,6 @@
+- sources:
+  - real world herbivores (cellulose digestion) | treated as a real-world pattern that the author says does not fit ponies, so not to be used as the template for pony diet | Real world herbivores optimize for cellulose digestion, but I don't imagine the ponies | first-named
+  - the author's own imagined pony diet (cognitively demanding ponies, not cellulose-heavy, close to a vegetarian society with equine touches like hay) | the author's working premise for pony diet, stated as their own picture; the model builds on it | I imagine their diet being much closer to a vegetarian society like Indians | first-named
+  - India / Indian vegetarian society (and other similarly vegetarian regions) | real-world reference the author wants explained and extended, as the analogue for the ponies' diet | Why is India vegetarian compared to the rest of the world, and what other areas are like that? | first-named
+- order:
+- about: The author sets aside the model's cellulose-digestion framing for ponies, offers their own idea of a pony diet modelled on Indian vegetarianism, and asks the model to explain why India is vegetarian and which other regions are similar.

@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1869 | her feelings of powerlessness, which come from events or circumstances not stated in this note | attempting to cope with her feelings of powerlessness
+- whole: This owner holds a single note, so there is nothing in it to join to another note and it stands as one entry.

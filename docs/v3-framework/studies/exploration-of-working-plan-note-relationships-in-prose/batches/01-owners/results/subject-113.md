@@ -1,0 +1,19 @@
+- relations:
+  - 132|135|purpose behind the activity: 135 gives the ethos that explains why the company buys Equestrian surplus and ships it to Griffonia|leftover or third-rate crops ... export to Griffonia / excess of Equestria to bring life to Griffonia|implicit
+  - 135|2065|the theme note reads the ethos as a moral and economic act: sending Equestrian excess to Griffonia is the subsidy of a foreign democracy|use excess ... to bring life to Griffonia / subsidize a foreign democracy|implicit
+  - 134|2065|solidarity across families is taken up as the basis of the founders' strategy, 'Trust and Solidarity'|solidarity across all families / Trust and Solidarity|implicit
+  - 134|133|tension: the leaderboard ranks families against each other by tonnage, which sits uneasily with standardization meant to dissolve divisions between families|dissolve artificial divisions / ranking the families on tonnage|implicit
+  - 131|154|origin of the company: 154 tells how Pear Butter's cutie mark led her to the canning guild, and the 'parents' plan a transition, matching the couple who own the company in 131|Bright Mac and Pear Butter's industrial canning company / Pear Butter studies preserving|implicit
+  - 132|154|instance and detail of the canning and export activity: 154 lists early exports and can technology, and 132 states the general activity of canning and exporting|can them into rations and export / Early exports were hard cider, apple sauce|implicit
+  - 156|135|the stated aim of ending world hunger is echoed in the ethos of bringing life to Griffonia; growth serves the ethos|solve world hunger / bring life to Griffonia|implicit
+  - 156|133|same year, 990: the leaderboard is a mechanism that would drive the industrial growth and recruitment named in 156|need a lot of industrial growth and recruitment / leaderboard ranking the families on tonnage|implicit
+  - 155|135|reader response and revision: the reader is to begin with the company as soulless and extractive, and the ethos of profits going to education and hospitals is what would overturn that|soulless and extractive / practical education and hospitals|implicit
+  - 155|131|delivery on the page of what 131 states: the canning company is hinted at and then revealed in chapter 7|hints of the canning company ... Revealed in chapter 7 / industrial canning company in Manehattan|implicit
+- outward:
+  - 131|the characters Bright Mac and Pear Butter, and Sweet Apple Acres, held elsewhere|Bright Mac and Pear Butter's ... same acronym as Sweet Apple Acres
+  - 132|Equestria's farms and Griffonia as places held elsewhere in the world|from all farms across Equestria ... export to Griffonia
+  - 133|Aquileian Royal Fairs and the tableau de chasse, lore of another culture or practice|Inspired by Aquileian Royal Fairs and the tableau de chasse
+  - 154|the Manehattan canning guild and the couple's plan, an institution and figures held elsewhere|canning guild in Manehattan
+  - 155|chapter 7, Apple Bloom's point of view, and another story with a dystopian canning line|Revealed in chapter 7 from Apple Bloom's point of view / To Where and Back Again
+  - 2065|the Predator's Dilemma, a concept held elsewhere in the plan|insulated from the Predator's Dilemma
+- whole: The notes hang together as one loosely knit set around the surplus-canning-for-Griffonia mission, with the ethos, theme, history and reader plan leaning on each other, though the family leaderboard sits in tension with the solidarity note and the history notes are largely separate entries.

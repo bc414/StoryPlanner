@@ -1,0 +1,17 @@
+- steps:
+  - author | premise-pitch | canon episode (Cider Squeezy) recontextualization request, Flim & Flam as parents' classmates | opening of the excerpt
+  - model | recontextualization | five-part breakdown casting Flim & Flam as 'Skyfall Rejects', machine as ideology symbol, competition as proxy war | reply to the premise-pitch
+  - author | added-detail | correction/refinement: machine worked until brothers raised power and dropped quality control | follow-up prompt
+  - model | refined-analysis | reworks episode around QC-switch as the moral hinge distinguishing brothers from parents | reply to added-detail
+  - author | thesis-statement | states AJ's core belief (industry makes corruption easy) and links it to Star Energy, Comet Shine, Fleur Bloom | follow-up prompt
+  - model | synthesis | organizes thesis into named philosophy and four-phase arc, declares it ready to execute | reply to thesis-statement
+  - author | new-question | asks for symbolism of AJ eating her parents' rations while fleeing | follow-up prompt
+  - model | symbol-analysis | three-layer reading of the ration scene (physical, emotional, durability) | reply to new-question
+  - author | extension-question | asks to connect ration scene to imposter syndrome via cutie-mark backstory | follow-up prompt
+  - model | psychological-analysis | frames imposter syndrome as fear of becoming what she rejected, several sub-mechanisms | reply to extension-question
+  - author | reframing-correction | rejects self-betrayal framing, redirects to fraud/lying-to-others framing tied to Honesty | follow-up prompt
+  - model | reworked-analysis | rebuilds imposter-syndrome reading around masquerade/fraud, redoes points under new framing | closing reply of the excerpt
+- kept:
+  - note 2862 | pasted from this reply inside the author's own framing | keeps the model's formulation of AJ's core belief (industry creates distance/corruption, handshake vs black-box, Flim & Flam validation, efficiency=soullessness) plus the Henri/Herzlander link, placed on the Comet Shine × Applejack's Parents link
+- brought: The author brings pre-established worldbuilding (a canon episode premise, the parents' Skyfall-cohort backstory, Star Energy, Comet Shine, Fleur Bloom, and Applejack's cutie-mark story) into the conversation to test and refine Applejack's ideological arc.
+- loop: The author repeatedly brings a canon premise or a sharpening correction to the model's prior framing, the model returns an elaborated or reworked analysis, and one resulting formulation of Applejack's core belief about industry and corruption was pasted, in the author's own framing, into the planning database on the link connecting her to Comet Shine and her parents.

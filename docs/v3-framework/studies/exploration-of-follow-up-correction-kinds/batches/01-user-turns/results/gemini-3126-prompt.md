@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented Pinkie's ruthless utilitarian, tyrannical profile as her essential character, without applying the plan's rule that Faust's original personalities are the truth and the later show's mandated traits are Stagnation of Harmony influence being broken down | "I use Lauren Faust's original personalities for the mane 6 as the truth" | put as a question about whether the characterization made a distinction, stating the plan's premise indirectly instead of saying the analysis was wrong
+- about: The user restates the plan's rule that Faust-original personalities are true and later show traits are Stagnation influence, and asks whether Pinkie's GIYC characterization reflects that, which implicitly questions the previous analysis's framing of her.

@@ -1,0 +1,10 @@
+- steps:
+  - author | introduces an economic plot mechanic | donated love reused as the cartel drug's base ingredient, tied to Chrysalis's original tactic, with a request to cross-check existing pump-and-dump/flood-wave notes | opening of the compound prompt
+  - author | recasts the war's moral framing | states the war is not "clean" since conscripts are knowingly sacrificed, and grounds this in morale preservation and asset specificity | continuing within the same prompt
+  - author | reports existing material | notes that scenes of Fluttershy confronting Applejack and then Rarity are already written | mid-prompt aside
+  - author | extends a character's position | adds that Pinkie Pie would support the drug trade given her history with Réni and Minette and memory of the naive, non-specific Vanhoover army | closing of the prompt
+  - model | validates and elaborates thematically | walks through the donated-love irony, the asset-specificity doctrine, Pinkie's pragmatism, and the Fluttershy schism in turn, ending with a summary verdict on Equestria's moral compromise | single reply following the prompt
+- kept:
+  - note 2331, on Link "War Council Meeting to get everyone up to speed × Pinkie Pie" | pasted from this reply inside the author's own framing | keeps the model's elaboration on Pinkie's grim, resilience-based acceptance of the drug trade, filed into her character entry under the war council scene link
+- brought: The author brought a cluster of linked worldbuilding refinements from the ongoing war plot: an economic mechanic for the drug trade, a doctrinal justification for the draft policy, a status check on existing scenes, and a character position to add.
+- loop: The author fed the model a cluster of linked refinements (an economic mechanic, a doctrinal justification, a status update on existing scenes, and a character position), and the model returned a matching four-part thematic elaboration plus an overall verdict; of all that, the plan retained only the elaboration on Pinkie Pie's stance, filed under her entry for the war council scene, while the rest of the exchange left no direct trace in the database.

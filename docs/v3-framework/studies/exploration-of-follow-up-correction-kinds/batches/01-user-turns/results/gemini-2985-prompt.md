@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model steered toward setting up a local offline coding assistant on the GPU, and the user says their existing cloud subscription with GitHub import already covers development, so the local setup isn't needed | The regular Google ai pro with GitHub import is more than enough for development | flat statement of sufficiency, with no apology or irritation, made in passing before moving on to a new question
+- about: The user waves off the offered local-coding-assistant setup as unnecessary and then moves on to ask, for context, how many parameters Google's and Anthropic's models have.

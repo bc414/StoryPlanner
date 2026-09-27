@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's Jaeger-versus-conscript picture by adding a Statthalter tier, who master and weaponize or enjoy Emotion Sense, and proposes that junior Statthalters let superiors drain them, then asks whether that matches real Bushido.

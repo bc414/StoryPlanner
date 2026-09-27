@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn consists only of an attached plan export (116,825 words) with no written text, so it supplies material without commenting on or correcting the model's Legend suggestion.

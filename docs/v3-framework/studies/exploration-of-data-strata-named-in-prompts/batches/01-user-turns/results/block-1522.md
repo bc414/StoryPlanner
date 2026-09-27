@@ -1,0 +1,7 @@
+- sources:
+  - the principle that subject links are only created when a subject is doing thematic work (from this conversation) | treat as a settled, ironclad design principle, either newly discovered or newly articulated | seems like an ironclad design principle that has been discovered | referred-to
+  - V1 | precedent from the author's earlier design that the new principle matches: character plot point links were made only when the character delivered something meaningful, and theme links duplicated text until themes became a track on the character link | something I was already doing in V1 | referred-to
+  - metatextual | status uncertain; user has forgotten its purpose and asks whether it is obsolete or was split up, and whether it applies at S-scope only or L-scope too | I forgot what the deal was with metatextual | referred-to
+  - allegorical and garden notes | possible successors that metatextual may have been separated into; unconfirmed, and the user asks the model to confirm whether that is so and at which scope they apply | separated into allegorical and garden notes | referred-to
+- order:
+- about: The user affirms the model's principle that subject links exist only when doing thematic work, ties it to their V1 practice, and asks the model to clarify whether the metatextual note type was superseded by allegorical and garden notes and at which scopes those apply.

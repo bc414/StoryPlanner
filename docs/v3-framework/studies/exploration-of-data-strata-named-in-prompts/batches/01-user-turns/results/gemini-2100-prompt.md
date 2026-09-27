@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds to the model's idea of chefs feeding the city by stating their own plan for the master chefs' serf origins, their priority of rural over Aquileian city over Skyfall, and the reformed thugs' later role in conquering Skyfall, without pointing at any body of material.

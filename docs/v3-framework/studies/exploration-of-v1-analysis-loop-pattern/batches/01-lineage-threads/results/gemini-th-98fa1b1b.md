@@ -1,0 +1,39 @@
+- steps:
+  - author | open question | asks what narrative perspective to use and why | start of conversation
+  - model | recommendation | proposes third-person limited multi-POV with named anchor characters | reply to opening question
+  - author | request formal rules | asks for formal instructions, prohibitions, switch-timing, and the third-person spectrum | follow-up
+  - model | rule-set | gives camera-in-head rule, hard-fail list, switch-timing guidance, spectrum table | reply
+  - author | bring draft | attaches a prequel story and asks for a perspective analysis of it | after rules established
+  - model | draft critique | names the POV technique used (baton-pass limited), flags filter words and one omniscient slip | reply to prequel
+  - author | bring draft | attaches first five chapters of an old Pokemon story, asks for perspective analysis | new material
+  - model | draft critique | diagnoses omniscient-leaning narration, head-hopping, info-dumping, gives fixes | reply
+  - author | request continuation | asks for the same analysis on later chapters of the same story | follow-up
+  - model | draft critique | tracks stylistic evolution, flags drone-shot openings and roundtable scenes, contrasts strong vs weak anchoring | reply
+  - author | propose own theory | states an understanding of how to keep nuance via bias rather than zooming out, asks for refinement | reflection on prior critiques
+  - model | confirm and refine | validates the theory and formalizes it as a 'bias filter' mechanism with worked examples | reply
+  - author | ask question | asks how obvious the narrator's identity should be to the reader | new question
+  - model | rule-set | gives first-sentence anchoring, voice-signature, and scene-break rules | reply
+  - author | repeat question | asks the identical question again | immediately after
+  - model | rule-set repeated | restates the rules with an added exception for withheld-identity scenes | reply
+  - author | bring casting plan | lists own POV decisions for the main cast, asks about mentors, secondary figures, and antagonists, and about one-off narrators | after POV rules settled
+  - model | verdict table | assigns POV status to each named character and gives rules for one-off narrators | reply
+  - author | ask theory question | asks whether POV should go to the character changing while others are merely observed, or if it's more nuanced | new conceptual question
+  - model | refine theory | rejects the simple rule and introduces a 'highest cognitive dissonance' principle across arc types | reply
+  - author | bring draft | attaches a chapter of the old story (a character meeting scene), asks for perspective analysis | shift back to text
+  - model | draft critique | analyzes camera drift in the fight and the dialogue-vs-internal-assessment gap | reply, based on a misreading of the plot
+  - author | correct model | corrects the model's misreading of the chapter's events and narrows the request to one scene | after critique
+  - model | revised critique | reanalyzes the conversation scene with the corrections, briefly redoes the battle critique | reply
+  - author | bring draft | asks for analysis of the next chapter, flags a shift of focus to another character and a battle/non-battle split | follow-up
+  - model | draft critique | separates non-battle and battle perspective patterns and applies both to the new story's characters | reply
+  - author | ask comparative question | asks how the six characters of the old story map onto the new story's main cast | new angle on same material
+  - model | comparative analysis | maps each old character onto an archetype from the new cast | reply
+  - author | correct and add context | corrects several character traits and points out a reversed relationship-role between the two stories | after mapping
+  - model | revised comparative analysis | revises the mapping and analyzes what the reversal implies for perspective mechanics | reply
+  - author | bring old plan | shares unfinished plans for a breakup/reconciliation arc from the old story, states this is not the route for the new one | new plan material
+  - model | analysis and contrast strategy | breaks down the breakup/reconciliation mechanics and gives strategies to avoid repeating the pattern in the new story | reply
+  - author | ask for literary analysis | asks for a literary analysis of the old story's unfinished plans and its themes | final question
+  - model | thematic analysis | gives a literary reading of the old story's themes and structure | final reply
+- kept:
+  - note 815 | the author's own words in this record | keeps the author's mention of a meta author's-note technique listing fanfic references for readers to guess, filed under a plot point about a post-reunion negative conversation between the two leads
+- brought: The author brought old drafts (a prequel and an unfinished Pokemon novel), their own POV-casting decisions for the new story's cast, and corrections to the model's readings of their material, using all of it to test and refine perspective rules for the new story.
+- loop: The author repeatedly brings a question or a piece of existing writing and the model returns a rule or a diagnosis; the author then applies that rule to their own casting and old drafts, correcting the model's misreadings along the way, but only one resulting line — a technique for a meta author's-note aside — actually lands in the planning database, attached to an unrelated plot point about a post-reunion scene.

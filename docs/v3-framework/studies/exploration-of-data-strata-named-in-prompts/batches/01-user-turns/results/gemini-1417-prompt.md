@@ -1,0 +1,5 @@
+- sources:
+  - the history of Poland (the entire history including modern day) | draw inspiration from it, using all periods through to the present as material for the story | draw inspiration from the history of Poland (the entire history including modern day) | first-named
+  - my story plans | the existing plans that the Polish-history inspiration is to be applied to and analysed against | in my story plans | referred-to
+- order:
+- about: The user asks for an analysis of how the whole history of Poland, including the present day, could serve as inspiration within their existing story plans.

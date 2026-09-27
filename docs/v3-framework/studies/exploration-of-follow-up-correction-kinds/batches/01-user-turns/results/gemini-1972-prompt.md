@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about why the linguistically privileged elites do not turn their knowledge into revolt and what their upbringing does to their psychology, building on the model's account without disputing it.

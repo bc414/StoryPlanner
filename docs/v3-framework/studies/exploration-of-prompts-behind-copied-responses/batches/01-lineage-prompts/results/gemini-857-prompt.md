@@ -1,0 +1,7 @@
+- asks:
+  - none | the message contains no stated instruction, question, or task beyond presenting an attachment; it does not say what the model should do with the material | the turn consists solely of "[Plan export attached — 127,971 words, 0 chars]" with no accompanying request text
+- supplies:
+  - plan export | a full export of the user's fiction planning material, described as 127,971 words | placeholder only — the document's actual content was not captured (shown as 0 chars), so its content is unknown
+- shaping:
+- openness: completely open — the message states no question, preference, or instruction, only attaches a document, so there is nothing to lean toward, choose between, or check
+- subject: an attached plan export for a long work of fiction, with no accompanying instruction

@@ -1,0 +1,4 @@
+- passages:
+  - fabula content | The Federalist faction, the true believers, took the slogan "clothes" to mean dignity, reading it philosophically | "The Federalists (True Believers): They thought "Clothes" meant Dignity." | yes | labeled expository statement, faction name with a bracketed epithet and a colon, then a plain past-tense claim
+  - fabula content | The Industrialists, the cynics, meant "clothes" literally. They wanted to sell textiles to the whole population instead of only the 1% nobility | "The Industrialists (Cynics): They meant "Clothes" literally." | yes | parallel bullet with the same label-colon form, a short declarative contrast, with the market figures given as a tally (100% vs 1%)
+- whole: The commentary is a two-bullet statement of in-world fact contrasting how the Federalists and the Industrialists each understood the \"clothes for all\" slogan, and it restates the synopsis's pitch without mentioning the theme or the scene's bearing on it.

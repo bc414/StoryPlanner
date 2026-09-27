@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question widening the topic beyond America and China to ask about AI innovations from other countries, without disputing anything in the model's answer.

@@ -1,0 +1,6 @@
+- asks:
+  - explain | give information about Brightspeed, described as an internet utility company | "Tell me about Brightspeed the internet utility company"
+- supplies:
+- shaping:
+- openness: Fully open — the message just asks for general information with no named angle, format, or claim to check.
+- subject: The company Brightspeed, an internet utility provider

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn lays out the three stories' tones and asks which reading order is better, along with an instruction to flag missing context. It reads as the original question that the model turn answers, and it does not respond to, dispute or amend anything in that answer.

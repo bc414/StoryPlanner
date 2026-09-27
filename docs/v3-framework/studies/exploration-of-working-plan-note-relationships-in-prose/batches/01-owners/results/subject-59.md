@@ -1,0 +1,23 @@
+- relations:
+  - 168 | 169 | the general statement (scaling up to bigger and bigger poseurs) continues from the origin as chasseurs in time | They started as the chasseurs / kept scaling up to bigger and bigger poseurs | implicit
+  - 166 | 1365 | the second narrows the general drive to tear down frauds into a specific target and reason: mass-market poseurs and dilution of passion | tear down the world's frauds / destroy the "mass-market poseur" | implicit
+  - 166 | 169 | the burning desire to tear down frauds is the reason for what they do, hunting ever bigger poseurs | tear down the world's frauds / bigger and bigger poseurs | implicit
+  - 1365 | 169 | hatred of mass production and monopolies gives the reason they go after bigger poseurs | mass-market poseur / bigger and bigger poseurs | implicit
+  - 169 | 172 | the Aquileian kingdom's hunt for poseurs in 1006 is an instance of the scaling up to bigger poseurs | bringing the Royal Navy and air force ace pilots in order to hunt poseurs | implicit
+  - 168 | 170 | later activity phase follows the earlier one in time | 981..990 chasseurs hunting warlords / 990..995 Taming the MPA Thugs | implicit
+  - 170 | 171 | later activity phase follows the earlier one in time | Taming the MPA Thugs / The Aquileian Cartel in Skyfall | implicit
+  - 171 | 173 | later activity phase follows the earlier one in time | The Aquileian Cartel in Skyfall / Foreign Volunteers fighting proxy wars | implicit
+  - 172 | 173 | the 1006 royal intervention is followed by the 1007-1011 proxy-war period | The Kingdom of Aquileia actually answers Queen Novo's call / Foreign Volunteers fighting proxy wars | implicit
+  - 173 | 174 | the 1011 pilots and engineers in the Great War are the endpoint or instance of the foreign volunteers' fighting through 1011 | Foreign Volunteers fighting proxy wars / ace pilots and magical engineers who fight ... in The Great War | implicit
+  - 172 | 174 | ace pilots appear first in 1006 and again in 1011, continuing in time | air force ace pilots / The ace pilots and magical engineers | implicit
+  - 252 | 168 | the author's wish to reward a balance of ambition and grace like the chasseurs relies on the chasseurs as the origin who show individual initiative | like the chasseurs / individual initiative | implicit
+  - 252 | 169 | the author's note takes the chasseurs as the model that the organization's origin supplies | like the chasseurs / They started as the chasseurs | implicit
+- outward:
+  - 170 | a group called the MPA Thugs, held elsewhere in the world | Taming the MPA Thugs
+  - 171 | the Aquileian Cartel and the place Skyfall, held elsewhere | The Aquileian Cartel in Skyfall
+  - 172 | Queen Novo, her call, the Storm King and his horde, and the Kingdom of Aquileia | answers Queen Novo's call ... the Storm King's horde
+  - 173 | Chrysalis and the proxy wars against her | proxy wars against Chrysalis
+  - 174 | The Crystal Empire, Equestria and the Great War | fight for The Crystal Empire and Equestria in The Great War
+  - 860 | Equestrians and Herzlanders as peoples elsewhere, and the Aquileian naming customs | Equestrians perceive them as "fancy" while Herzlanders perceive them as "snobby"
+  - 168 | the chasseurs' warlord targets and mission command / mobile warfare doctrine held elsewhere | origin of bottom up misison command/mobile warfare
+- whole: By content the notes hang together in two clusters, a chronological run of history and activity notes and a linked group on the drive to tear down poseurs, while the naming-perception note stands apart.

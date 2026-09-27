@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the backstory analysis alone and moves to a worldbuilding design question: whether the royal martial clubs for training voltigeurs should be separate from Gaudreau's FJA social club, and how a royal volunteer academy and the martial clubs should relate in time.

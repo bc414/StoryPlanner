@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new plot twist, that Red Love is raw magic able to power the Luna Nova Rifles, and asks the model to work out how this changes the petrodollar-style economy it just laid out.

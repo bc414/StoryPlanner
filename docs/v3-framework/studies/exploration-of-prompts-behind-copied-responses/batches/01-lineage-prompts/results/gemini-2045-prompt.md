@@ -1,0 +1,9 @@
+- asks:
+  - advise | asks whether the "prompt 1" system instruction should also include content about internal bucket ordering | "Should the prompt 1 system instruction also include some stuff about internal bucket ordering?"
+  - constrain/revise | directs that bucket names be capped at 5 words, replacing a prior 8-word version deemed too verbose | "I only want 5 words max for the buckets, 8 was too much fluff and redundancy"
+- supplies:
+- shaping:
+  - length limit: bucket names must be 5 words maximum | "5 words max for the buckets"
+  - reply should avoid the fluff/redundancy of the prior 8-word version that caused cognitive load | "8 was too much fluff and redundancy which led to cognitive load for the human"
+- openness: Mixed: the bucket-ordering question is left genuinely open for the model to weigh in on ("Should... also include"), while the bucket-length matter is stated as a fixed requirement the model must apply (5 words max), not a question.
+- subject: Revising a "prompt 1" system instruction's rules for naming buckets — a word-count cap and whether to add guidance on internal bucket ordering

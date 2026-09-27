@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the analysis of the Griffonia-as-foundry premise and asks a new question about whether Equestria at War lore mentions changeling draining spells in ways that bear on their story plans.

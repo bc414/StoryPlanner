@@ -1,0 +1,5 @@
+- sources:
+  - the notes, on this area | consult them to check the user's two hunches (Industrial Severyana's profile, and whether Grover V's weak rule means Distributed power) | Check notes on this area | referred-to
+  - the russian revolution and tsarist russia | treat as the real-world basis of Industrial Severyana, a guide to how it should be profiled | It's clearly based on the russian revolution and tsarist russia | referred-to
+- order:
+- about: The user offers two tentative reprofiling ideas (Industrial Severyana as Grover IV-like but Stratified or closer to Grover V, and Grover V possibly Distributed because he is weak) and asks the model to check the notes before deciding.

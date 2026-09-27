@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's offer and asks it to write the schema for Prompt A, without pointing at any body of material.

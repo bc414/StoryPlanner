@@ -1,0 +1,5 @@
+- sources:
+  - the framework | the lens the model is to apply when placing each listed country in its 2026 position | how these countries fit into the framework in 2026 | referred-to
+  - countries already mentioned in the conversation | what has been covered so far; the model should pick further African and South East Asian countries not on it | countries that I haven't yet mentioned | referred-to
+- order:
+- about: The user asks the model to extend the existing stage framework to a further set of countries (European, Nordic, East Asian, India, Brazil, China) and to suggest other notable African and South East Asian countries not yet discussed.

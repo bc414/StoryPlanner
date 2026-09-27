@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether any epic works combine massive materialist worldbuilding with only sparse on-page backstory, expanded through prequel-sequels, and points the model at no particular body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether L'Élan du Chasseur is legitimate in chapters 4 and 5 and then fades, and lays out their own planned arc for Rainbow Dash, Réni, Minette and Pinkie across chapters 8 to 11, without pointing at any body of material for the model to use or avoid.

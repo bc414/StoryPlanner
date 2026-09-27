@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model judged every candidate element mainly by how well it answers the trauma engine, treating that one delivery goal as the yardstick for the sixth element, when the user meant it as only one input among several | it doesn't have to, nor is it the only thing | mild and self-owned: restates their own earlier framing to narrow it, then turns it into a question asking for the other aspects the element should serve
+- about: The user softly pushes back on the trauma-engine-centred way the options were evaluated and asks the model to widen the criteria by naming the other functions the sixth element should serve.

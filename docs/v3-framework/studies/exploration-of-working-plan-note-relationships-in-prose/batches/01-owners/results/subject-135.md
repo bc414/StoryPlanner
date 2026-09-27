@@ -1,0 +1,19 @@
+- relations:
+  - 642 | 644 | 644 spells out on the page-level how the gentler redesign in 642 is built (bed, pillow, softer spell) | Twilight, Fleur, Starlight, and Fluttershy redesigned... / Fluttershy replaced the wooden board with a comfy bed | explicit
+  - 642 | 646 | 646 gives the cause of the painlessness 642 credits to slowness: donation takes longer, so it is the pace and not only the spell | slow and gentle, reducing the discomfort / Love donation takes longer than extraction | implicit
+  - 646 | 644 | 646 narrows 644's account that Starlight's spell made it less painful, adding that the spell is not the only reason | It's not just starlight's spell that makes it painless / Starlight made the draining spell less painful | explicit
+  - 642 | 1698 | 642's harvester is an instance of the general shift 1698 states, magic drawn renewably from live creatures | love harvester... fuels the Equestrian Army / magic is now renewable from live creatures | implicit
+  - 1699 | 642 | 1699 gives the arc from torture tool to defense to civilian use; 642's gentler harvester supplying the army against Chrysalis is a step in that reclaiming | reclaimed into the Luna Nova Rifle for justice / fuels the Equestrian Army against Chrysalis | implicit
+  - 1699 | 644 | 644's replacement of the wooden board and spike with a comfy bed reverses the torture form that 1699 names as the technology's origin | torture+combat drugs / replaced the wooden board with a comfy bed | implicit
+  - 1699 | 1698 | 1699 calls the harvester the foundation of magical engineering, which matches the magical revolution of renewable magic in 1698 | foundation of magical engineering / The magical revolution | implicit
+  - 645 | 646 | 645 follows on after donation: baked goods restore some friendship to patients once the love has been taken | for patients to eat afterwards / Love donation takes longer than extraction | implicit
+  - 645 | 642 | 645 offsets the cost of the drain that 642 says is made less uncomfortable, by restoring some of the friendship | restore some of their friendship / getting their love drained | implicit
+- outward:
+  - 642 | Chrysalis and the war between her and the Equestrian Army, held elsewhere | fuels the Equestrian Army against Chrysalis
+  - 642 | Fleur and the other named characters, who have their own places elsewhere in the plan | Twilight, Fleur, Starlight, and Fluttershy redesigned
+  - 644 | The POWs, the captive changelings and their story | The POWs help design the bed and the pillows
+  - 1698 | Crystals holding the stored magic of historical predators, world lore held elsewhere | crystals which carry the stored magic of historical predators
+  - 1699 | The Luna Nova Rifle, a separate technology | reclaimed into the Luna Nova Rifle for justice
+  - 1699 | Chrysalis's own original love harvester and its use for torture | it all started from Chrysalis's love harvester
+  - 645 | Pinkie and her pink love, a character and lore held elsewhere | Pinkie makes baked goods infused with pink love
+- whole: The notes hang together as one set, with the design notes (642, 644, 646, 645) closely bound to each other and the world-level notes (1698, 1699) attached more loosely by shared subject matter.

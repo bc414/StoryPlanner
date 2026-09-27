@@ -1,0 +1,6 @@
+- asks:
+  - advice-seeking | asks, implicitly, for help addressing the worry that food is drying out in the air fryer before it's cooked through inside | "I'm concerned that it's dried out too much in the air fryer before being fully cooked on the inside"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it states a worry about dryness versus doneness and a constraint (the father's zero tolerance for rawness) but names no solution or option to choose between.
+- subject: Worry about air-fried food being dried out yet still undercooked inside, given a family member's intolerance for rawness

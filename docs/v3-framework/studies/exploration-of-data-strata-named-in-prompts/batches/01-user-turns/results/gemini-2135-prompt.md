@@ -1,0 +1,5 @@
+- sources:
+  - Chrysalis's arms scheme and the Bluebell River Spearhead (the stockpile of outdated guns, the cut-off changeling veterans, the conscript human-wave attacks) | treated as the current story plan that the user is extending with a new imagined detail; the model is to build on it, and the user frames the new part as their own idea | To add to the horror, I imagine Chrysalis will still have a bunch of outdated guns in stock from this scheme | referred-to
+  - Russian tsarist and Soviet armies of WW1 and WW2 | real-world history the model is asked to draw on to say whether mass conscription with too few weapons actually happened, as a check on the story idea | Is this true of the Russian tsarist or Soviet armies of WW1 and WW2? They had mass conscription but not enough weapons? | first-named
+- order:
+- about: The user adds a grim plot idea to the ongoing plan (Chrysalis's leftover obsolete guns arming changeling conscripts in human-wave attacks on the Bluebell River Spearhead) and asks the model to check it against the historical record of Russian armies in the two world wars.

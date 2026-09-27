@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user changes topic from the story discussion to a programming question, asking for pros and cons of XML versus JSON, and for other alternatives, for serializing their ToolDefinition classes and TreeNode graph to a file.

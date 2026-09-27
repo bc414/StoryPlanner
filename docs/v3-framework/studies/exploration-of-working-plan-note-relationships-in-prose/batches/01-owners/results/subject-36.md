@@ -1,0 +1,16 @@
+- relations:
+  - 562|560|the two describe the same rise to control: 562 gives the purchase of Las Pegasus's government, 560 gives the purchase of rivals and the Las Pegasus refineries, so the two stack up as stages of one consolidation of power|bought out Las Pegasus's government / The refineries in Las Pegasus are also his|implicit
+  - 564|560|564 gives the stated rationale for what 560 lists as done, since 'eliminating the chaos of competition' is the justification for buying out and pushing aside rivals|A monopoly isn't greed; it's efficiency / bought out all the other oil startups|implicit
+  - 559|564|559 extends the violence in 564: 564 says he brutalizes the Buffalo and justifies it, and 559 adds that the mercenaries threaten his own workers as well|not just the buffalo / brutalizing the Buffalo|implicit
+  - 559|560|both show him using force and threat as a business tool; 560 has it aimed at competitors and 559 at workers and the buffalo|uses mercenaries to threaten his workers / through threats, deals, and extortion|implicit
+  - 1445|561|1445 illustrates 561: the quiet, cold and calculating manner is shown as an HR manager's soft corporate manner rather than a warlord's|does not act like a warlord / quiet, cold and calculating|implicit
+  - 1445|564|564's pitch is an instance of 1445's vocabulary, with 'Modern Harmony', 'efficiency', 'perfect order' and a community-minded appeal in the HR-manager style|words like "Synergy," "Community," and "Harmonic Abundance" / Modern Harmony|implicit
+  - 561|564|the cold, calculating quiet of 561 fits the reasoned, orderly pitch and justification in 564, which is argued rather than shouted|quiet, cold and calculating / bring perfect order|implicit
+  - 1445|559|these pull against each other: the mild HR-manager surface in 1445 sits beside the mercenary threats against workers in 559, so the polite words cover the force|HR manager / uses mercenaries to threaten his workers|implicit
+- outward:
+  - 562|the Skyfall money, a source of funds defined elsewhere in the lore|using Skyfall money
+  - 562|Las Pegasus, a place and its government held elsewhere|Las Pegasus's government
+  - 559|the buffalo, a group he is already known to threaten, held elsewhere|not just the buffalo
+  - 564|Celestia, the Griffons, Equestria and the Buffalo as parts of the wider world and its politics|Celestia's Harmony means we all stay poor
+  - 561|the story TLTT, and a boisterous version of him, presumably an earlier or other portrayal, held elsewhere|He isn't boisterous
+- whole: Rockfeller's notes hang together loosely as one portrait of a cold, corporate-mannered oil monopolist whose conquests, rationale and violence reinforce each other, though a few entries (the Las Pegasus government purchase and the mercenary threats) stand as separate facts.

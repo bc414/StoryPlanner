@@ -1,0 +1,4 @@
+- sources:
+  - the same thing (the Applejack-jealous-of-Fleur beat just discussed in this conversation) | use as a template and mirror it, with Twilight as the jealous one and AJ as the one spending time with someone else | What is the same thing in reverse? | referred-to
+- order:
+- about: The user asks the model to invert the just-proposed jealousy dynamic, brainstorming who Twilight might be jealous of over Applejack's time and floating Mali as a candidate.

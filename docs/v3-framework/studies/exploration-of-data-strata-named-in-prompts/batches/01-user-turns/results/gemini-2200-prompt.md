@@ -1,0 +1,4 @@
+- sources:
+  - the "second generation" problem I identified with Gerad Discret/Coltbert and Chrysalis with Thorax and Hans Kessel | treat as the author's own established story analysis; use it as the pattern to test against China's one-child-policy generation, not as something to re-derive | What about the "second generation" problem I identified | referred-to
+- order:
+- about: The user reacts to the model's geopolitical analysis with follow-up questions about Russia's post-Soviet trajectory, population decline, and China's one-child generation, asking whether the author's own earlier second-generation pattern from the story applies to those real cases.

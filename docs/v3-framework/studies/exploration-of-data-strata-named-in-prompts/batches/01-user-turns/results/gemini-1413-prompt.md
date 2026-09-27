@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the model is to review them and base its analysis of the election arc on them | "review my story plans and analyze" | referred-to
+  - My Equestria's electoral setup as the author states it here (Aquileian PR model, compulsory voting, opening polls of 45% Celestia, 30% Applejack, 25% Gilded Trust, Applejack winning a majority by the end) | treat as the given facts of the story, to be analyzed | "My Equestria uses the Aquileian pr model with compulsory voting and starts polling at" | first-named
+- order:
+- about: The user gives the electoral system and polling numbers of their own Equestria, which differ from the model's hypothetical example, and asks the model to review their story plans and analyze how Applejack goes from 30% to a majority.

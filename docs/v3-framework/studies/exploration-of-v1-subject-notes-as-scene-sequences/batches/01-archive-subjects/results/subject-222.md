@@ -1,0 +1,12 @@
+- passages:
+  - 23 | scene beat without a year | Twilight and Fleur redesign the love harvester so it is more efficient and drains love with less discomfort | none | written as an action done by named characters, past tense, no date
+  - 4066 | statement about the subject | how love donation works for pro-war ponies: they give ammo against changelings, must also give friendship that funds rehab, and are compelled into mercy | none | general description of the arrangement, no moment or date
+  - 4067 | statement about the subject | the effect of pairing friendship with magic: militant and war-weary ponies both drift toward freedom and liberty over time | none | describes a general social dynamic ("slowly shift"), not an event
+  - 4096 | scene beat without a year | Fluttershy swaps the wooden board for a comfy bed and the spike for a changeling-silk stuffed animal a pony hugs | none | "Fluttershy replaced", a done action with no date
+  - 4096 | statement about the subject | how the device is built: the draining crystal sits inside the pillow and the valve tubes exit from the tail of the cuddly animal | none | present-tense description of the design
+  - 4096 | statement about the subject | the POWs help design the beds and pillows and make them from colorful, artistic changeling silk | none | describes an ongoing arrangement, present tense
+  - 4096 | scene beat without a year | Starlight makes the draining spell less painful | none | "Starlight made", a done action with no date
+  - 4097 | statement about the subject | Pinkie's practice of baking goods infused with pink love for patients to eat afterward to help restore some friendship | none | describes a standing practice, present tense
+  - 5457 | statement about the subject | love donation takes longer than extraction, and its painlessness is not only due to Starlight's spell | none | comparison and explanation of how the process is, no moment
+- sequences:
+- whole: A small set of undated notes about the love donation process, mixing a few design actions by named characters (Twilight, Fleur, Fluttershy, Starlight) with statements about how donation works, its equipment, its comforts and its social effects, with no note running as an ordered sequence.

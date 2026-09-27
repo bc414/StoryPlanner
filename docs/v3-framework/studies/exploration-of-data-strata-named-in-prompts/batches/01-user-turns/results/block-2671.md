@@ -1,0 +1,5 @@
+- sources:
+  - the story plan (its sparse info for Wingbardy and New Mareland) | model is told to check it to see how Wingbardy and New Mareland would integrate | check the story plan for the sparse info for Wingbardy and New Mareland | referred-to
+  - My initial plan for New Mareland post TLTT | author's stated original intent for New Mareland (reusing TLTT tech for extraction); the basis for Wingbardy's role as an extractive adversary | My initial plan for New Mareland post TLTT is them taking the tech developed during TLTT | referred-to
+- order:
+- about: The user proposes moving the harshest modern-China-derived realities out of Chrysalis's material and into Wingbardy, an unplanned-sequel setting outside the main story, asks the model to check the story plan's sparse Wingbardy and New Mareland entries for integration, and outlines Wingbardy as a stable extractive adversary defeated by unconditional dignity rather than war.

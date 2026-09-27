@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about how billing works for AI Studio's Playground, specifying that they mean manual chat and not API calls, without disputing anything the model said.

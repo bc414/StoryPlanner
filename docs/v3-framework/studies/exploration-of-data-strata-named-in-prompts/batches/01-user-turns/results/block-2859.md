@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author endorses the self-sufficiency versus integration framing, supports it with historical analogies and stability claims about several in-world systems, and asks whether it should be a sixth axis, without replacing the slavery versus assimilation axis, or whether it just lines up with unconditional dignity.

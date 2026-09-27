@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reacts with astonishment to the model's claim that they are working in a largely uncharted, undiscovered area, without disputing anything the model said.

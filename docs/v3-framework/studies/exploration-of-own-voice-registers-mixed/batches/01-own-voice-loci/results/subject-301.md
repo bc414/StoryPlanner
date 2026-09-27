@@ -1,0 +1,7 @@
+- passages:
+  - note 5290 | clipped conceptual labeling | colon after a named phrase, no main verb, terse phrasing | naming the "Go! Feed!" order as a military flaw | apart
+  - note 5290 | analytic example-citing | short declarative sentence naming a specific example by name | noting that even novice, repressed jaegers obey the order, including Thorax | apart
+  - note 5294 | causal worldbuilding exposition | long chained clauses with "because," "and," "so," plus economic jargon ("yields," "harvesters," "MEFO ponzi scheme," "trajectory") | explaining the economic and political chain of causes behind Chrysalis's move on Canterlot and her ongoing schemes | apart
+- shifts:
+- registers: clipped conceptual labeling; analytic example-citing; causal worldbuilding exposition
+- whole: Across its two notes this item holds three registers total, but each single note stays in one manner throughout, moving from a terse labeling-plus-example notation in note 5290 to a continuous causal, jargon-laden explanatory exposition in note 5294, the passages within each note standing apart only at plain sentence breaks rather than shifting mid-sentence.

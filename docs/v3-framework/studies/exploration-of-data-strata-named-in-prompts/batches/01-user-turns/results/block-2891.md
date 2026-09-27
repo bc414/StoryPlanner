@@ -1,0 +1,4 @@
+- sources:
+  - axis 6 | treat as provisional and still being defined; the author is proposing one pole (permanent stratification) and asking the model to supply the opposite pole | I'm thinking one pole of axis 6 is permanent stratification | referred-to
+- order:
+- about: The author is working out the poles of axis 6 in their framework, giving permanent stratification as one pole and asking what the opposite is, while contrasting unconditional dignity with transactional dignity.

@@ -1,0 +1,6 @@
+- sources:
+  - Porygon2 (the smooth design) | use as the visual reference for the species' default, civilian form | Their default state is smooth like Porygon2 | referred-to
+  - Porygon (the jagged design) | use as the visual reference for the jagged form of tribal warriors, and the form foreign powers mostly see | not jagged like Porygon | referred-to
+  - MLP:FiM | use as the reference for the art style, with pastel colors | art style would be pastel colors like MLP:FiM | referred-to
+- order:
+- about: The user adds design details for the species, giving smooth civilian and jagged warrior forms with foreign powers seeing only the jagged one, and a pastel art style, using Porygon2, Porygon and MLP:FiM as visual references.

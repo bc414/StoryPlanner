@@ -1,0 +1,7 @@
+- asks:
+  - propose/choose | asks whether Chrysalis pays Skyfall's private prisons to ship inmates to the hives, or instead runs the love harvesters directly inside Skyfall | "How about if... Chrysalis pays Skyfall private prisons for their inmates to ship to the hives? Or runs the love harvesters in Skyfall?"
+  - propose | puts forward a retcon for the Winter Revolution: because the Boyars fled dramatically to Skyfall, Chrysalis never relocated the love harvesters to the gulags, which were in fact never built | "Chrysalis never moved the love harvesters to the gulags (which were never built)"
+- supplies:
+- shaping:
+- openness: Leans toward named alternatives: offers a two-way choice for the pre-Severyana harvester arrangement (pay prisons vs. run harvesters in Skyfall) and states a specific retcon for the Winter Revolution period, backed by a stated rationale (Chrysalis not wanting her tech outside her borders).
+- subject: Worldbuilding continuity for Chrysalis's love-harvester logistics and a Winter Revolution-era retcon involving the Boyars, Skyfall, and the never-built gulags

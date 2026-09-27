@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offer and asks it to go ahead and produce the Prompt A schema, without correcting anything.

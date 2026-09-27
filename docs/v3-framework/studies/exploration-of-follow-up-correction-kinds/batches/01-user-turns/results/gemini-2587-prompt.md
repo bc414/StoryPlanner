@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's "apps" framing and asks a new question, the etymology of "application" and how to disguise it in French or Aquileian-sounding terms as an in-world name for swappable spell crystals, without disputing anything the model said.

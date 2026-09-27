@@ -1,0 +1,4 @@
+- sources:
+  - EaW gameplay (canonically Wingbardy has aluminum and rubber for planes) | treated as canon and used as grounds for making Wingbardy the premier airplane-proliferating nation | canonically they have aluminum and rubber for planes in EaW gameplay | referred-to
+- order:
+- about: The user revises the model's airplane-heresy scheme by proposing that the chivalry and flight-restriction element be dropped from the religion that reaches the printing press, and by naming Wingbardy as the leading airplane nation on the strength of its resources in Equestria at War gameplay.

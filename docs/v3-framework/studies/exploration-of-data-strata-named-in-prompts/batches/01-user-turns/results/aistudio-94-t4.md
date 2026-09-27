@@ -1,0 +1,5 @@
+- sources:
+  - these above notes (Applejack's "name ANY target" offer, Henri's ecstatic reaction, Henri in awe of Twilight and Starlight yet in command, shock that Starlight can fly) | treat as outdated, no longer to be relied on | "these above notes are obsolete" | first-named
+  - a scene Pinkie Brings Cakes (Pinkie pulls a red love canister out of her mane) | existing planned scene, offered as the case to test who should be baffled by its cartoon physics; the user settles on Fleur rather than Henri | "there is a scene Pinkie Brings Cakes" | first-named
+- order:
+- about: The user marks their earlier notes about Henri's awe as obsolete, then tests the Pinkie Brings Cakes scene and decides Fleur, who views magic as a science, should be the baffled and annoyed one instead of Henri.

@@ -1,0 +1,4 @@
+- sources:
+  - The way I've written it (the author's own story plan as currently written) | treat as the established basis to be tested; the model is asked to judge whether its implied timelines are justifiable, not to change it | The way I've written it, it seems like Equestria leaped forward in a year | referred-to
+- order:
+- about: The user asks the model to assess whether the story's premise of Equestria industrializing in one year, against Chrysalis's 30 years and the griffons' 200, is plausible given the ponies' existing harmony and harmonic capitalism.

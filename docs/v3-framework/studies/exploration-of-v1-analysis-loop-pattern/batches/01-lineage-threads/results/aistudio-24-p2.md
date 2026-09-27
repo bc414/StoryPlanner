@@ -1,0 +1,14 @@
+- steps:
+  - author | brought | raw lore notes on Aquileia's feudal-to-imperial history plus a target paradigm/bucket taxonomy | at the outset of the stretch
+  - model | sorted | the history notes into chronology, system-mechanics, demographics, and dialectic buckets with consolidated summaries and a garbage catch-all | immediately after the first upload
+  - author | brought | a new document of notes on Coltbert's economic theory plus a fresh taxonomy | after the first sort was returned
+  - model | sorted | the Coltbert-theory notes into system-mechanics, concept-evolution, dialectics, and demographics buckets with summaries | immediately after the second upload
+  - author | brought | a third document of notes, unaccompanied by any taxonomy or instruction | after the second sort
+  - author | brought | a further document of notes, again without taxonomy | right after the previous attachment
+  - author | corrected | imposed a 95%-coverage requirement on note-sorting and supplied the taxonomy for the pending batch | immediately after the two bare attachments
+  - model | sorted | the pending batch into the specified chronology, demographics, mechanics, and dialectics buckets, honoring the coverage rule and separating one authorial directive | after the correction
+  - author | brought | a further set of raw notes pasted inline as a list, covering the story's dialectical/thematic framing, plus a new taxonomy | after the third sort
+  - model | sorted | the thematic notes into dialectics, meta-narrative, chronology, mechanics, and orphan-concept buckets, again isolating one directive | at the close of the stretch
+- kept:
+- brought: Across the stretch the author repeatedly handed the model fresh dumps of raw planning notes, sometimes as attachments and once pasted inline, each paired with a target taxonomy of paradigms and buckets, and once added an explicit rule that nearly all notes must be placed.
+- loop: The loop is pure sorting-and-handoff: the author supplies a batch of raw notes with a taxonomy, the model files every note into a bucket with a consolidated summary (and a directive/garbage catch-all), and the author immediately moves to the next batch rather than reacting to the sort — and none of this stretch's output is shown to have been drawn into the planning database.

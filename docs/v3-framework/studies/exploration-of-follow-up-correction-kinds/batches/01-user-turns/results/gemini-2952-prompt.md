@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the term "Pinkie Promise" first became official in "Green Isn't Your Color"; the user says that episode introduces only the nursery rhyme/oath, not the term itself, which first appears in-universe in The Last Roundup | Green isn't your color debuts the nursery rhyme, but not the actual term "Pinkie Promise" | stated flatly as a factual correction, with a proposed alternative episode hedged ("It seems like") and then followed by a further question
+- about: The user corrects the model's claim about which episode first used the term \"Pinkie Promise\" and then moves on to ask whether the fandom or the season 2 writers coined the term.

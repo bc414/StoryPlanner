@@ -1,0 +1,10 @@
+- asks:
+  - brainstorm/develop | build out the idea that Celestia becomes a mare of few words tied to one particular trait, including a scene where she softly says Rarity's name at their first dialogue appearance, and a backstory where she got an early report on events in Vanhoover before leaving Canterlot for Manehattan | "I like the idea that Celestia becomes a mare of little words... Maybe she says Rarity's name softly... Perhaps she received an early report"
+  - factual research/check | determine whether Aquileian-style surnames tied to terroir or region have a real-world basis, specifically in France or elsewhere | "Is this true in real France or the rest of the world?"
+  - connect/elaborate | tie the terroir-surname convention into the story's 'harmonic capitalism' theme as a griffon parallel to ponies' cutie marks | "This ties into the harmonic capitalism theme nicely"
+- supplies:
+  - character idea | a proposed trait for Celestia (few words), a specific gesture (softly saying Rarity's name on first appearing with dialogue), and a possible backstory beat (an early report from Vanhoover before she left Canterlot for Manehattan) | a few sentences
+  - worldbuilding concept | the notion that Aquileian griffon surnames are tied to terroir/region, paralleling cutie marks in the story's 'harmonic capitalism' theme | a sentence or two
+- shaping:
+- openness: Mixed: it leans toward and asks for elaboration of the Celestia idea it already likes and sketches, while the terroir-surname question is left genuinely open, asking the model to verify against real-world practice.
+- subject: Developing a Celestia characterization/scene idea and researching real-world terroir-based surnames for Aquileian griffon worldbuilding tied to the story's harmonic capitalism theme

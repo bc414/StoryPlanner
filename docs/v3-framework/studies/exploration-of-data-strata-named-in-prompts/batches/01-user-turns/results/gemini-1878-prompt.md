@@ -1,0 +1,4 @@
+- sources:
+  - the character's backstory as the author lays it out here (born to two servants on a minor lord's estate, made clothes for the Lord young, freed, became a chasseur) | treat as the planned premise the naming answer must fit; the author frames it as a plan, not as fixed canon | I'm planning on this character being born the daughter of two servants | first-named
+- order:
+- about: The author gives the model the planned backstory of the character, a servant's daughter who sewed for a lord and later became a chasseur, and asks how French serf-servants would name their children and whether they would have last names.

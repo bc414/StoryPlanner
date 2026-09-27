@@ -1,0 +1,9 @@
+- asks:
+  - sort | arrange the events found in the attached document into chronological order | "chronological ordering of events"
+  - sort | separate out and list whatever in the document is not historical/event-based, as a following section | "followed by non-history concepts"
+- supplies:
+  - attachment | an attached document, subject matter unknown since it was never captured | whole document, extent unknown
+- shaping:
+  - two-part output structure: chronological event list first, then a separate section for non-history concepts | "Give a chronological ordering of events, followed by non-history concepts"
+- openness: leans toward a specific output structure it names (chronological events, then non-history concepts) while leaving what falls into each category open to the model's reading of the attached document
+- subject: directive to sort material from an attached planning document into chronological events and separate non-history concepts

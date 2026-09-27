@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: redirection of the story design | the meeting mechanism, in which Ahuizotl asks Ch'aska to teach him Quechua and she is the Quechua-speaking teacher, is replaced by both of them being learners of Nahuatl nuance who meet through that shared aim | "Actually how about if both Ch'aska and Ahuizotl are trying to learn more Nahuatl nuances which is how they meet?" | tentative counter-proposal put as a question, opened with "Actually", with no reason given and no explicit rejection of the earlier version
+- about: The user offers a short alternative for how Ch'aska and Ahuizotl meet, making both of them Nahuatl learners in place of the model's Quechua-teaching setup.

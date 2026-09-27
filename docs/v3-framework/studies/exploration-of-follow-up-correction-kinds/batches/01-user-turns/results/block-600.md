@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis as a base, admits their own gap in third person limited and free indirect discourse, and asks for a fuller explanation of what payloads should hold, how to use them to design the prose, and which fields would suit a beginner best.

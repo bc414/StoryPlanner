@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | re-read them and check the refinement against them | "review my story plans again" | referred-to
+  - this refinement (the slow-extraction and victim-bottleneck idea given in the turn) | the material to be analyzed; a proposed change to the plans, not yet settled | "analyze this refinement" | first-named
+- order:
+- about: The user asks the model to re-review their story plans and analyze a new refinement, in which victims rather than harvester parts are the bottleneck, so slow 24/7 extraction feeds the harvesters while the slaver islands and the Olenia occupation drain bodies quickly.

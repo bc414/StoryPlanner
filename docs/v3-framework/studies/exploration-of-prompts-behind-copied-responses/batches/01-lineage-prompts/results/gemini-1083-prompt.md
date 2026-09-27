@@ -1,0 +1,8 @@
+- asks:
+  - revise | asks the model to rework the villain scheme ideas so they are subtle rather than overtly evil | "I need things to be less blatant and generic evil and more subtle"
+- supplies:
+- shaping:
+  - tone/stance: villain scheme should be subtle and elegant, not blatant or generic | "less blatant and generic evil and more subtle"
+  - benchmark: quality should match a named prior example of a cleverly indirect economic scheme | "the elegance of the scheme to drain equestria of bits by abusing the gold standard"
+- openness: Leans toward an answer it names: new scheme ideas should match the subtle, economically-clever style of the referenced gold-standard bit-draining scheme rather than being blatantly evil.
+- subject: Making a villain's scheme in an Equestria (MLP) story more subtle, using a prior gold-standard/bits-draining plot as the model of elegance

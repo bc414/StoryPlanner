@@ -1,0 +1,18 @@
+- steps:
+  - author | pitch | describes an outgrown planning-doc workflow and proposes a custom app's entities (PlotPoint, Thread, Chapter) with specific design questions and a tech-choice question | opening message of the stretch
+  - model | design response | answers the posed questions, proposes a relational data model, a phased build plan, an ordering-logic code snippet, and a comparison against existing tools with a verdict | reply to the opening pitch
+  - author | request expansion | asks for additional ideas outside what's already been covered | follow-up prompt
+  - model | brainstorm | offers five extra concepts (world-date split, causality links, character-state tracking, tension metric, compiler/export) with a recommendation and a follow-up offer | reply to the expansion request
+  - author | commit and extend | confirms wanting the causality feature, asks whether it should be a self-referencing list, and adds a new requirement for a character-development view | follow-up prompt
+  - model | schema elaboration | delivers the self-referencing dependency design, a character-development payload model, EF Core configuration, and view-implementation suggestions | reply to the extension request
+  - author | follow-up question | asks whether the plot-point/theme relationship should also carry a payload | follow-up prompt
+  - model | pattern extension | applies the payload pattern to themes with intensity/aspect/commentary fields and a heatmap rationale | reply to the payload question
+  - author | correction | rejects arbitrary numeric intensity values and asks for enum-based representations for both theme and character fields | follow-up prompt
+  - model | refinement | replaces numeric fields with named enums for theme prominence and character role/impact, and explains resulting filtering benefits | reply to the correction
+  - author | topic pivot | shifts from schema work to personal reflection, linking a character's backstory detail to their own life and asking how media proliferation relates to a story theme | new-topic prompt
+  - model | thematic analysis | draws an extended parallel between modern media/algorithms and the story's harmony-stagnation theme, then poses a question back about the author's own disposition | reply to the pivot
+  - author | redirect | corrects the model's reading of the author's stated trait and refocuses the request onto theme-to-reality connections rather than personal psychology | follow-up prompt
+  - model | thematic analysis continuation | expands the theme-to-reality connections (creator/consumer divide, connected isolation, foresight burden, fractured truth) and suggests folding them into the chapter plan by element | reply to the redirect
+- kept:
+- brought: The author brought in a specific character backstory detail (Fleur's parents' advice to stay safe) together with their own personal biography and self-assessed disposition, to ask for a thematic parallel with a story concept.
+- loop: The author moved between two registers — iteratively refining a data-model design (accepting, correcting, and extending the model's schema proposals) and then pivoting to open-ended thematic/personal reflection — with the model answering each in kind, but nothing from this exchange was drawn back into the planning database's notes.

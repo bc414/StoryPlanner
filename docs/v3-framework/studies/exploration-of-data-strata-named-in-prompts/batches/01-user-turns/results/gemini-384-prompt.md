@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether it is plausible for urban proletarian workers in their fictional world to back the bourgeois PNdA rather than the FJA or the Marxist PAT, and how griffon and pony biology could explain why PNdA and FJA dominate while the communist party stays fringe.

@@ -1,0 +1,13 @@
+- asks:
+  - review | review the sketched lore about Skyfall's shipping protection racket and the Aquileian royal escort fleet | "Please review my lore about Skyfall's protection racket on shipping and Moriset Discret's grand Aquileian fleet"
+  - explain | work out how Aquileian luxury goods would logistically reach Skyfall given the racket | "How would Aquileian luxuries make it to Skyfall?"
+  - predict | judge whether the decentralized Skyfall shipping companies would accept the Aquileian fleet escorting merchant ships without resistance | "Would the decentralized shipping companies let the Aquileian fleet escort merchant ships to Skyfall without a fuss?"
+  - predict | judge whether an independent pier owner would sideline the Skyfall shipping companies to dock the more profitable Aquileian royal fleet instead | "Would a pier owner ignore the Skyfall shipping companies and let the Aquileian royal fleet dock"
+  - analyze | give an overall analysis tying these questions together | "Please give analysis"
+- supplies:
+  - setting sketch | named elements of the world: Skyfall's shipping protection racket, the Aquileian royal fleet, Baron Dennis Discret (Moriset Discret) | a couple of sentences naming entities, no pasted lore text
+- shaping:
+  - reply should take the form of an analysis | "Please give analysis"
+  - reasoning premise offered for the model to weigh into the pier-owner question | "everything is for sale and capital has no loyalty"
+- openness: Leaves the review and the "how would luxuries arrive" question open, but for the two yes/no predictions it supplies its own reasoning ("everything is for sale and capital has no loyalty") that leans toward profit-driven actors defecting from local loyalty.
+- subject: Economic and political plausibility of a shipping protection racket versus a royal escort fleet competing for the same ports in a fictional setting

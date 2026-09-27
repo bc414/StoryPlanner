@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether a biplane truly has four wings arranged as two pairs, as it proposes | "does a biplane actually have 4 wings/two pairs?"
+- supplies:
+- shaping:
+- openness: check what it states — the message names a specific claim (biplanes have 4 wings/two pairs) and asks the model to confirm or correct it, rather than leaving the question fully open
+- subject: whether a biplane's wing structure counts as four wings in two pairs

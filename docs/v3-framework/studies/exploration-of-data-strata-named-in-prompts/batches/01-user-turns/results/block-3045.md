@@ -1,0 +1,18 @@
+- sources:
+  - later Hasbro mandate and fandom assertions derived from that about earth pony strength | do not follow; rejected as a basis for earth pony strength | I'm not following later Hasbro mandate and fandom assertions | referred-to
+  - TLTT (the author's story, earth pony physique) | treat as true: earth ponies are built like pegasi and unicorns, strength comes only from ordinary training, and earth pony magic is the P and K weathering process, not strength | Earth ponies in TLTT are physically built just like pegasi and unicorns | referred-to
+  - my notes (the notes the model quoted on earth pony magic) | partly right, partly wrong: the soil-sediment specificity is kept as the starting point, but the tie of specific ratios to cutie mark is a fallacy and should not be used | specific ratios tied to cutie mark is the fallacy | referred-to
+  - Twilight's research | treat as true in-story ground truth: any earth pony can do anything, and the cutie mark is only a point-in-time expression | Twilight's research says any earth pony can do anything | referred-to
+  - the ground truth about cutie marks (not a discount) | treat as the real state of the world; the discount reading is not it | The ground truth is NOT a discount | referred-to
+  - the Aquileian view introduced in chapter 8 of TLTT / Fleur's theory | treat as a second-reader prior belief and an in-story justification for the asset-specific transactional system, not as the truth; the real ground truth undermines it | That is the 2nd reader prior belief | referred-to
+  - the political axes of the fabula, the narrative property values in the story planner | the frame the cutie mark ground truth is to be read against, for why wallflowers are transactional rather than unconditional | political axes of the fabula, the narrative property values | referred-to
+  - my benevolent industrialization backstory | the premise the post-revolutionary result must follow from | given my benevolent industrialization backstory | referred-to
+  - Stalin's historical path | do not draw on it as the model for post-revolutionary Stalliongrad; the model kept defaulting to it | you're again pulling from Stalin's historical path | referred-to
+  - an armchair communist's ideal | the alternative the user contrasts with Stalin; it would preserve the alliance with farmers, and the model is to weigh it against the materialist result | not an armchair communist's ideal | first-named
+  - real Russian history of Lenin's alliance with the rural farmers and Stalin's betrayal, plus Trotsky | historical reference for the model to confirm and use to work out the materialist historicist outcome; Trotsky may or may not be informative | Lenin made an alliance with the rural farmers, right? | first-named
+- order:
+  - TLTT (the author's story, earth pony physique) | later Hasbro mandate and fandom assertions | I'm not following later Hasbro mandate
+  - Twilight's research | my notes (cutie mark ratio reading) | Twilight's research says any earth pony can do anything
+  - the ground truth about cutie marks (not a discount) | the Aquileian view / Fleur's theory | The real ground truth undermines the Aquileian justification
+  - an armchair communist's ideal / materialist result from the benevolent backstory | Stalin's historical path | not Stalin's historical path and not an armchair communist's ideal
+- about: The user corrects the model's earth pony magic and cutie mark reading against the author's own story rules, rejects the Hasbro strength canon and the Stalin-derived model of post-revolutionary Stalliongrad, and asks whether earth pony magic applies to rock and mining and what a materialist outcome of the benevolent industrialization backstory would be for the farmer alliance.

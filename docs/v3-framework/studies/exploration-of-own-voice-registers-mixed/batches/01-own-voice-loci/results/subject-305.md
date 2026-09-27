@@ -1,0 +1,8 @@
+- passages:
+  - note 5351 | explanatory third-person present-tense narration | general statement narrowing to a named character mid-sentence | Chrysalis's classmates selling off assets, and her own liquidation of equipment | apart
+  - note 5387 | encyclopedic in-world lore statement | states a fictional publication's date and theme as settled fact | the parody novel's serialization and its critique of capitalism | apart
+  - note 5387 | deliberative worldbuilding reasoning | opens from a real-world fact and uses "So... should be" to reach a design choice | placing Mount Boreas as an island off Wingbardy | apart
+- shifts:
+  - note 5387 | encyclopedic in-world lore statement | deliberative worldbuilding reasoning | paragraph break; turn from stating a fictional-world fact to reasoning from a real-world fact toward a "should be" decision
+- registers: explanatory third-person present-tense narration; encyclopedic in-world lore statement; deliberative worldbuilding reasoning
+- whole: This item holds several registers: note 5351 stays in one explanatory narrating register throughout, while note 5387 breaks, at a visible paragraph gap, from a flat encyclopedic lore-statement into a deliberative reasoning register that works from real-world fact to fictional design.

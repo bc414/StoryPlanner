@@ -1,0 +1,6 @@
+- sources:
+  - EaW canon | the model is to say from it whether Vaspier is hedonistic or only brutally ideologically driven; it is the reference the author's version is measured against | in EaW canon is Vaspier hedonistic or only brutally ideologically driven | referred-to
+  - Some fanfics | a contrasting depiction of Vaspier as hedonistic; the author notes it and does not adopt it | Some fanfics depict Vaspier as hedonistic | first-named
+  - the author's own plan for Vaspier (soulless, 2nd gen, true believer) | the author's current intended depiction, held as provisional and open to being a deliberate subversion of canon | I'm going to depict him as soulless | first-named
+- order:
+- about: The author corrects two plot points from the model's previous analysis (what Trimmel knew in 995, and who burned the Tzinacatl factory) and then asks whether Vaspier is hedonistic in EaW canon, in contrast to some fanfics and to the soulless true-believer version the author plans, and whether that departure could count as subversion.

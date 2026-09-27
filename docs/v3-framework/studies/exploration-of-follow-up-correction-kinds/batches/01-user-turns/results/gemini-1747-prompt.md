@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Celestia's motive for staying away: the model framed her absence as a deliberate act of trust and respect for the voters' sovereignty, and had her come to accept Applejack. The user says she doubts Applejack and wants to go back to stagnation. | She does not believe in Applejack yet, she wants a return to stagnation | Flat assertion of the character's true motive, tucked into a question asking for her reasoning, with no explicit disagreement and no reason given
+- about: The user asks for Celestia's in-story reasoning for skipping the debate and, in the same breath, supplies the motive themselves, which is doubt in Applejack and a wish to return to stagnation, in place of the trust-based reading the model gave.

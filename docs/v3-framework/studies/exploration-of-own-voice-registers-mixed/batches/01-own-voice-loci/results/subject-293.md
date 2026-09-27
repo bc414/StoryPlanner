@@ -1,0 +1,40 @@
+- passages:
+  - 5167 | plot-summary narration | present-tense narrated action, named characters | interview revealing Star Swirl's claim about the Tree of Harmony's origin | apart
+  - 5167 | mechanism/expository explanation | habitual 'whenever...it detects/comes up with', generic subject 'it' | how the Tree responds to love spikes and the origin of Rainbow Power/Cutie Map | apart
+  - 5167 | plot-summary narration | resumed named-character subject, connective 'So' | Trimmel's use of the intel and the invasion's failure to trigger the tree | apart
+  - 5168 | analytical commentary | evaluative claims, verb 'think', modal 'would' | pillars' feudal mindset and its flawed consequence, compared to Grover III | apart
+  - 5168 | plot-summary narration | plain past-tense action statement after paragraph break | pillars planting the tree and its mechanical consequence | apart
+  - 5169 | analogical explanation | simile 'is like', quoted term 'King's Peace' | Star Swirl and the Tree of Harmony compared to an enforced top-down peace | apart
+  - 5170 | mechanism/expository explanation | relative clause describing habitual function | cutie map addressing symptoms rather than the root cause | apart
+  - 5231 | plot-summary narration | past tense, named characters as subject | Celestia and Luna's upbringing context | apart
+  - 5231 | mechanism/expository explanation | present tense, general listing of roles | tribal roles and cooperative defense structure | apart
+  - 5236 | demythologizing lore-fact | past tense 'in reality was' | true origin of the Hearth's Warming Eve legend | run-in
+  - 5236 | mechanism/expository explanation | contrastive 'but', present-tense general purpose | in-universe purpose of retelling the tale | run-in
+  - 5238 | plot-summary narration | past tense sequential action | crystal mining resolved by Star Swirl's alicorn spell | apart
+  - 5440 | plot-summary narration | past tense specific event | ponies historically clearing the monsters | run-in
+  - 5440 | mechanism/expository explanation | causal 'because', present-tense general trait | herbivore diet and agriculture enabling that clearing | run-in
+  - 5440 | mechanism/expository explanation | present tense general fact on a new line | griffons and changelings eating monsters | apart
+  - 5475 | heading/label | verbless fragment title | naming the topic 'pillars of old equestria' | apart
+  - 5475 | listing assertion | terse present-tense 'X is/are in Y' | Rockhoof, Flash Magnus, and Stygian's roles or placements | apart
+  - 5475 | plot-summary narration | past tense plus temporal clause 'when she leaves' | Star Swirl's research with Twilight and its continuation | apart
+  - 5475 | listing assertion | terse present-tense 'X is in Y' | Somnambula's placement in Maregypt | apart
+  - 5475 | tentative note-to-self | declarative with trailing question mark | uncertainty about Mistmane's role as medic | apart
+  - 5475 | tentative note-to-self | fragments with trailing question marks | uncertainty about Mage Meadowbrook's location or allegiance | apart
+  - 5475 | self-address meta-commentary | first person 'I', admission 'forgot' | author's reminder that this lore needs review | apart
+- shifts:
+  - 5167 | plot-summary narration | mechanism/expository explanation | shift to habitual present tense and generic subject 'it'
+  - 5167 | mechanism/expository explanation | plot-summary narration | return to named character 'Trimmel' with connective 'So'
+  - 5168 | analytical commentary | plot-summary narration | paragraph break with shift to plain past-tense action 'planted'
+  - 5169 | | |
+  - 5170 | | |
+  - 5231 | plot-summary narration | mechanism/expository explanation | shift from past-tense named characters to present-tense general role list
+  - 5236 | demythologizing lore-fact | mechanism/expository explanation | contrastive 'but' shifting to present-tense general purpose within the same sentence
+  - 5238 | | |
+  - 5440 | plot-summary narration | mechanism/expository explanation | causal 'because' introducing a general present-tense trait within the same sentence
+  - 5475 | heading/label | listing assertion | shift from verbless title to full declarative sentences with a verb
+  - 5475 | listing assertion | plot-summary narration | shift to past tense with temporal clause 'when she leaves'
+  - 5475 | plot-summary narration | listing assertion | return to simple present-tense declarative without narrative development
+  - 5475 | listing assertion | tentative note-to-self | appended question mark introducing doubt
+  - 5475 | tentative note-to-self | self-address meta-commentary | shift to first-person admission 'I forgot'
+- registers: plot-summary narration; mechanism/expository explanation; analytical commentary; analogical explanation; demythologizing lore-fact; heading/label; listing assertion; tentative note-to-self; self-address meta-commentary
+- whole: These nine notes are written in several distinct registers—narrated plot summary, general mechanism explanation, evaluative commentary, external analogy, demythologized legend, bare heading, listing assertion, tentative self-questioning, and first-person self-address—and while most of these sit apart as separate sentences or lines, in two notes a narrative or legendary clause runs straight into an explanatory one within the same sentence via 'because' or 'but'.

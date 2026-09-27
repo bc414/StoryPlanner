@@ -1,0 +1,6 @@
+- sources:
+  - latest data from April 2026 | use as the current basis for revising the assessment; treat as true that Jules and Antigravity are actual released products | update your assessment of the Gemini tools that are included using latest data from April 2026, where Jules and Antigravity are actual released products | first-named
+  - your assessment (the model's earlier assessment of the Gemini tools) | treat as outdated and to be revised, especially the claim that Jules and Antigravity are not real products | Please update your assessment of the Gemini tools | referred-to
+- order:
+  - latest data from April 2026 | over your assessment | update your assessment ... using latest data from April 2026
+- about: The user asks the model to redo its assessment of the Gemini tools using April 2026 information in which Jules and Antigravity exist as released products, to consider Gemini CLI as a possible Claude Code equivalent, and to confirm whether AI Studio is Google's counterpart to Claude's default consumer behavior.

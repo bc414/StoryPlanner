@@ -1,0 +1,18 @@
+- passages:
+  - note 5566 | terse label | fragment, no verb, noun phrase only | Caramel Marks's origin | apart
+  - note 5567 | blunt statement of fact | past tense, single short clause, no elaboration | violence done to the wealthy | apart
+  - note 5569 | brainstorming question | two clipped questions ending in '?', infinitive phrasing | possible resistance tactics | apart
+  - note 5570 | causal/temporal plot statement | 'so' linking geography to a forced obligation | Baltimare's proximity forcing Applejack's involvement | apart
+  - note 5571 | causal/temporal plot statement | 'After X's fall' clause opening a present-tense result | post-Stalliongrad cooperation with Equestria | apart
+  - note 5572 | plain worldbuilding assertion | present tense, flat description of ideology | Baltimare's strict Marxism and cog mentality | apart
+  - note 5572 | plain worldbuilding assertion | present tense, third-party judgment reported | Aquileian tribes calling the party soulless | apart
+  - note 5572 | plain worldbuilding assertion | present tense, two linked declaratives | CMCs' horror and Manehattan's asset-specific system | apart
+  - note 5572 | causal/temporal plot statement | sentence opens with 'So', consequence drawn | CMCs telling Baltimare ponies to go elsewhere | apart
+  - note 5572 | plain worldbuilding assertion | present tense, declarative cause-effect without connector word | Stalliongrad's fall humbling Baltimare ponies | apart
+  - note 5572 | self-revising aside | opens with 'Actually', refers back to and amends the prior claim | alienated natives leaving, further humbling Baltimare | apart
+- shifts:
+  - note 5572 | plain worldbuilding assertion | causal/temporal plot statement | sentence opens with 'So', drawing a consequence from the preceding description
+  - note 5572 | causal/temporal plot statement | plain worldbuilding assertion | paragraph break, returns to flat declarative after the causal sentence
+  - note 5572 | plain worldbuilding assertion | self-revising aside | 'Actually' opens the sentence, amending the immediately preceding claim
+- registers: terse label; blunt statement of fact; brainstorming question; causal/temporal plot statement; plain worldbuilding assertion; self-revising aside
+- whole: This item holds several distinct registers — bare labels, blunt past-tense statements, open questions, causal plot-logic sentences, flat present-tense worldbuilding claims, and one self-correcting aside — each occupying its own note or stretch and standing apart from the others, with only note 5572 shifting between registers internally at its paragraph breaks and connector words.

@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether the letter 'r' is the most complex letter in the sense of having distinct articulatory mechanics grouped under one written symbol, or whether other letters exceed it in this kind of complexity | 'Is r the most complex letter... or are there more complex letters?'
+- supplies:
+- shaping:
+- openness: The message names a specific candidate answer ('r') and asks the model to confirm or refute it, while leaving open the possibility that other letters could be identified as more complex.
+- subject: Phonetic/articulatory complexity of alphabetic letters, specifically whether 'r' uniquely bundles multiple distinct sound-mechanics under one symbol

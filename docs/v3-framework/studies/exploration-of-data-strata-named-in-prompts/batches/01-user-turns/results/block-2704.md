@@ -1,0 +1,5 @@
+- sources:
+  - The Boys (the published show) | the model is to describe it in general, as material to explain and then compare with the plan | tell me more about The Boys in general | referred-to
+  - my story plan | the model is to compare The Boys against it and draw the parallels | how it parallels my story plan | referred-to
+- order:
+- about: The user asks what the abbreviation CW stands for, then asks for a general overview of The Boys and a comparison of it with their own story plan.

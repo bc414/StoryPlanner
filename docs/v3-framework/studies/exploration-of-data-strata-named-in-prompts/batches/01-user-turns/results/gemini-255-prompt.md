@@ -1,0 +1,4 @@
+- sources:
+  - the new unified theory of magic | treat as established in the plan and consistent with the new twist; it accounts for Celestia's grey ambition (false hope) and her limited ability to intervene | the new unified theory of magic does explain that Celestia's ambition turned grey | referred-to
+- order:
+- about: The user proposes a new twist, in which Celestia reveals the changelings' harmonic origins and that the Stagnation of Harmony was her response to their fall, and works out how this fits with Chrysalis's rise, Celestia's guilt and limited help, and the coalition winning without divine intervention.

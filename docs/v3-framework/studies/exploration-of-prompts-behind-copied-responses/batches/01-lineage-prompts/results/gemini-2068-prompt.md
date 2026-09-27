@@ -1,0 +1,6 @@
+- asks:
+  - explain | describe what the temperature parameter does mechanically to a model's inference process | "What does temperature actually do to the model's inferencing?"
+- supplies:
+- shaping:
+- openness: Fully open — the message poses a plain conceptual question with no named answer, no options to choose between, and nothing to verify, just asking what temperature 'actually' does.
+- subject: How the temperature parameter affects an LLM's inference/sampling behavior

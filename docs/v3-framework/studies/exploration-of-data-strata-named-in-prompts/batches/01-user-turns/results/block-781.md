@@ -1,0 +1,7 @@
+- sources:
+  - The model's previous account of the Griffon paired seals and messenger system | partly corrected: keep the malfunction-on-broken-loyalty idea and the lords-must-treat-squires-well consequence, replace the forging mechanism with joint forging by lord and squire | "Actually I think the lord and the squire have to forge the seals together" | referred-to
+  - Grover III's reign dates (854 ALB to 914 ALB) | treat as fixed timeline fact used to place Star Swirl and the unicorn messaging | "Grover III's rule was from 854 ALB to 914 ALB" | first-named
+  - Star Swirl as teacher of Celestia and Luna, alive before Luna's banishment | treat as established background to build on | "Star Swirl was alive before Luna's banishment because he was their teacher" | referred-to
+  - Real-world history of telecommunications and industrialization (telegraph, Bessemer, Haber-Bosch, globalizing Western firms, outsourcing labor) | use as the historical parallel, and the author asks the model to confirm it | "That's how telecommunications were used to globalize Western firms, outsource labor and spread extraction, right?" | first-named
+- order:
+- about: The user revises the model's Griffon seal and messaging worldbuilding, adding forging-together mechanics, timeline placement, a unicorn origin, a Skyfall DRM and crystal-scarcity link, and a real-history parallel, and reasons about blacklisting and mercenaries in an an-cap state.

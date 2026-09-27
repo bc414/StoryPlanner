@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's previous analysis, saying its claims seem highly inaccurate or made up, without pointing to any body of material to check against or use.

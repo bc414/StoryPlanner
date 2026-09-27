@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Gilded Bits work like stock backed by Gilded Trust's assets, how they should relate to the later Equestrian war bonds, and whether Gilded Trust would hold the bonds while paying workers in Gilded Bits, and adds that the Gilded Bits come first, around 1001, with the bonds following in 1011.

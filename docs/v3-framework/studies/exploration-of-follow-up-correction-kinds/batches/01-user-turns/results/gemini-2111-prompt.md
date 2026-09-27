@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Astler and Cloudbury worldbuilding analysis and asks a batch of new real-world questions about whether rural French home cooking survives in Paris, whether French food is just butter and salt, and how Vietnamese food fares in France, without saying anything about the model's answer.

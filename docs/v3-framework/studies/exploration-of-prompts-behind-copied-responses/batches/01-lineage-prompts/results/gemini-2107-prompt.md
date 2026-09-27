@@ -1,0 +1,12 @@
+- asks:
+  - evaluate | asks whether Sickleclaw is a good character to reveal a particular culinary nuance through | "Is Sickleclaw a good character to reveal this culinary nuance through?"
+  - review | asks for review of the story plan in which Applejack and crew seek out Sickleclaw after meeting Kemerskai to verify Kemerskai's honesty | "Review my story plans about how Applejack and crew seek out Sickleclaw after meeting Kemerskai"
+  - review | asks for review of Sickleclaw's role as it appears in attached flavor texts | "review Sickleclaw's role in the attached flavor texts"
+  - check | asks to confirm the stated characterization of Sickleclaw as an agrarian communalist | "I believe he is an agrarian communalist"
+- supplies:
+  - story-plan description | Applejack and crew seeking out Sickleclaw after meeting Kemerskai, a defector who later reintegrated, to verify Kemerskai's honesty | a sentence or two describing the plan
+  - attached flavor texts | Sickleclaw's role/characterization | an attached document, amount unspecified
+- shaping:
+  - keep Sickleclaw distinct from a different character, Rikard Astler, when reviewing | "Do not confuse Sickleclaw with Rikard Astler"
+- openness: Mixed: the suitability question about Sickleclaw and the culinary nuance is left open, while the message leans toward and asks the model to check its own stated characterization of him as "an agrarian communalist."
+- subject: Whether Sickleclaw suits revealing a culinary nuance, and review of his characterization and role in a Kemerskai-verification story plan and attached flavor texts

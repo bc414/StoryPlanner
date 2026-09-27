@@ -1,0 +1,5 @@
+- sources:
+  - my expansion of Filli Vanilli which forms chapter 2 of the story | the material to be analyzed; the model is to read and analyze it as the chapter text | analyze my expansion of Filli Vanilli which forms chapter 2 | first-named
+  - TLTT's themes and character arcs | the frame against which the chapter is to be related; treated as the established story plan | how it relates to TLTT's themes and character arcs | referred-to
+- order:
+- about: The user asks the model to analyze their chapter 2 expansion of Filli Vanilli and relate it to the themes and character arcs of their story TLTT.

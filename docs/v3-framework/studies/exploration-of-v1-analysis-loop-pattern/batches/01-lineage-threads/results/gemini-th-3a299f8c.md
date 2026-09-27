@@ -1,0 +1,20 @@
+- steps:
+  - the author | asks a comparison question | Gems in Gemini vs Gems from Labs, and which suits narrative/literary analysis | opening of the stretch
+  - the model | answers with a breakdown and recommendation | definitions of both, then a suggested split between exploratory chat use and pipeline/extraction use, ending with an offer to map a workflow | first response
+  - the author | asks a second comparison question | Gems from Labs vs AI Studio | second exchange
+  - the model | answers with a breakdown | no-code app builder vs developer API environment, ending with an offer to go deeper on either | second response
+  - the author | asks for elaboration | requests more detail on Opal specifically | third exchange
+  - the model | explains a single tool in depth | Opal's node architecture and a recent agentic update, illustrated with a hypothetical extraction pipeline, ending with an offer to map nodes | third response
+  - the author | asks a targeted technical question | whether Opal and Antigravity share backend/internal overlap at Google | fourth exchange
+  - the model | answers the overlap question | explains shared infrastructure versus different use-cases (workflow builder vs coding IDE), ending with an offer to go deeper on either | fourth response
+  - the author | broadens the survey | asks about Jules and NotebookLM plus other lesser-known Google AI products | fifth exchange
+  - the model | surveys several more tools | explains Jules, NotebookLM, and a list of Labs experiments, ending with an offer to explore two of them further | fifth response
+  - the author | asks an organizational/historical question | headcount at Google on Gemini work, comparison to competitors, and whether DeepMind and Brain divisions have merged into Labs | sixth exchange
+  - the model | answers with historical and organizational detail | headcount estimates, the Brain/DeepMind merger history, and where Labs fits, ending with an offer to compare training approaches | sixth response
+  - the author | accepts the model's offered next topic | brief agreement to continue into training architecture comparison | seventh exchange
+  - the model | delivers a technical comparison | contrasts Gemini's and GPT's training architecture, memory handling, and reasoning approach, ending with an offer to cover hardware | seventh response
+  - the author | asks for elaboration | requests the hardware comparison the model offered | eighth exchange
+  - the model | delivers a technical comparison | contrasts TPU and GPU architecture, networking, power, and business lock-in implications, ending with an offer to cover software frameworks | eighth response
+- kept:
+- brought: none
+- loop: none — the author ran a chain of informational questions about Google's AI tooling and organizational landscape, each answer prompting a further drill-down or an accepted follow-up offer, but no note in the planning database is traced to this stretch, so nothing from this exchange was captured back into the plan.

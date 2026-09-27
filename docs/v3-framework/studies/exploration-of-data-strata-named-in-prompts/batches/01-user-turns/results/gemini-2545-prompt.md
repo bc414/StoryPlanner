@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | review them and produce a synthesis analysis, including the newly stated corrections (direct draining alongside harvesters, exempt loyal servants, the Aquileian bank-collapse backfire) | Please review my story plans and give a synthesis analysis | referred-to
+- order:
+- about: The user corrects the model's account of the Statthalters' feeding practices and of Chrysalis's economic sabotage of Aquileia, adds that the collapse backfires by producing a Republican Pact with Griffonia, and asks the model to review their story plans and give a synthesis analysis.

@@ -1,0 +1,14 @@
+- passages:
+  - note 5096 | historical-explanatory exposition | past tense, third person, no address, states claims about a real country's history | English peasant food culture destroyed by industrialization and rationing | apart
+  - note 5096 | first-person authorial planning | shifts to "I'm putting," names in-world terms Herzland, EaW, Long March, Cloudbury, Griffonian Republic | linking Herzland's industrialization to the refugees' lost food memories | apart
+  - note 5096 | catalog/list | colon-led header followed by a bare comma-separated list, no verbs | naming the lost English traditions: meat pies, cheddar, cask ale, pottage | apart
+  - note 5097 | label/title phrase | short dash-joined phrase, no verb, functions as a heading | naming the German paradigm as engineering of survival | apart
+  - note 5097 | historical-explanatory exposition | full subject-verb sentence, past tense, states a general historical claim | German peasants as preservationists surviving winters | apart
+  - note 5097 | catalog/list of techniques | fragments and short clauses naming methods, little connecting prose | sauerkraut fermentation, cold-smoked salted sausage, dense rye/pumpernickel sourdough | apart
+- shifts:
+  - note 5096 | historical-explanatory exposition | first-person authorial planning | switch to first person "I'm putting," introduction of fictional-world names (Herzland, EaW, Cloudbury, Griffonian Republic)
+  - note 5096 | first-person authorial planning | catalog/list | switch to a colon-led header and a bare comma list with no verbs
+  - note 5097 | label/title phrase | historical-explanatory exposition | switch from a verbless dash-phrase heading to a full subject-verb historical sentence
+  - note 5097 | historical-explanatory exposition | catalog/list of techniques | switch from a complete narrative sentence to itemized, largely verbless technique fragments
+- registers: historical-explanatory exposition; first-person authorial planning; catalog/list; label/title phrase
+- whole: Both notes move through several distinct registers — exposition, personal planning or a title, then a list — with each shift falling at a clear break between sentences or lines rather than blending within one sentence.

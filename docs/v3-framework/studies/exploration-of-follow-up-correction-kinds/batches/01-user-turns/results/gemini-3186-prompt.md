@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting to know whether R1 can work directly against the SQL database or whether ID-tagged published files would serve it better, without disputing anything the model said.

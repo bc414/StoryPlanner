@@ -1,0 +1,5 @@
+- sources:
+  - Scene 17.2 design (Establishing the Dreamscape Aid Network), pasted with Synopsis, Characters, Themes and Codex fields | material to be worked on: decompose it and redistribute its content across separate scenes; the author calls it less bloated but likely still too broad | Here is a less bloated scene but likely still too broad and should be split into separate scenes | first-named
+  - the principles (the scene-design and decomposition principles from the preceding model turn) | to be applied to the pasted scene when splitting it and moving its data | how to apply the principles | referred-to
+- order:
+- about: The user pastes another scene design (17.2, the Dreamscape Aid Network) as a less bloated but still too broad example and asks how its data should be split across scenes and how the earlier principles apply to it.

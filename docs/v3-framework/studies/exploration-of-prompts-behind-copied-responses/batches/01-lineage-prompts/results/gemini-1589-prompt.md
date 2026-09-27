@@ -1,0 +1,13 @@
+- asks:
+  - connect | asks the model to work out how a new plot idea (Cadance secretly enlisting empathetic 'parloir' owners to help crystal ponies process trauma) fits the user's stated themes and alicorn lore | 'to adhere to my themes of Bottom Up > Top Down and my lore about how Cadance and non-Celestia/Luna alicorns... Cadance would enlist help'
+  - link | asks the model to tie this secret trauma-processing plan to the previously established 'dreamscape aid network' | 'This can also be connected with the dreamscape aid network'
+  - decide | asks whether Luna should be let in on the secret, or whether her knowing would undercut her being 'cowardly/traumatized' enough to later give the retreat order at Tall Tale | 'So should Luna know or would that make her not "cowardly/traumatized" enough to do the retreat order in Tall Tale?'
+  - reason through | asks the model to work out how Luna's fresh Nightmare Moon trauma should govern this decision | 'I think Luna's trauma in becoming Nightmare Moon... should dictate things'
+- supplies:
+  - idea pitch, worldbuilding concept | Cadance secretly recruiting empathetic 'parloir' owners to help millions of crystal ponies process trauma, hidden from Celestia | a few sentences
+  - canon note, population discrepancy | show depicts Crystal City as a few dozen blocks while the Equestria at War game gives it a population in the millions | one sentence
+  - backstory reference, character trauma | Luna's transformation into Nightmare Moon and the resulting trauma, framed as still fresh to her despite 1000 years passing | one sentence
+  - plot reference, existing story beat | Luna's later 'retreat order' at Tall Tale, referenced as an established point needing her characterization to support it | one sentence
+- shaping:
+- openness: The message poses a direct choice (should Luna know or not) while already leaning toward its own answer that Luna's Nightmare Moon trauma should decide it.
+- subject: Whether Luna should know about Cadance's secret crystal-pony trauma-therapy network, and how her Nightmare Moon trauma should shape that answer

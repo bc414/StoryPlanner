@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a new task, a consolidated report of all insights in the conversation, including any compaction transcript, without saying anything is wrong in the model's preceding analysis.

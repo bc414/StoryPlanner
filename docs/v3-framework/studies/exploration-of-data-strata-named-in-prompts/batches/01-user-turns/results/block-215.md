@@ -1,0 +1,8 @@
+- sources:
+  - outlines of Minette and Reni backstory | material the user supplies now for the model to draw on in analyzing Minette's story | Here are outlines of Minette and Reni backstory | first-named
+  - the lore for Aquileia | material the user supplies now for the model to draw on in the analysis | and the lore for Aquileia | first-named
+  - TLTT | comparison story for tone and themes; its revelation structure for history before Applejack is the model for what Minette's story needs | compared to TLTT and Chrysalis's story | referred-to
+  - Chrysalis's story | comparison story for tone and themes; one of the three pillars | compared to TLTT and Chrysalis's story | referred-to
+  - Minette's story | the subject of the analysis, judged to need a revelation structure for the history before her | Minette's story probably needs the same revelation structure | referred-to
+- order:
+- about: The user supplies outlines of Minette and Reni's backstory and the Aquileia lore and asks for a full tone-and-themes analysis of Minette's story against TLTT and Chrysalis's story, saying the volume and depth of lore is why those three are the main pillars and stories like Blueblood are supporting.

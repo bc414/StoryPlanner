@@ -1,0 +1,14 @@
+- steps:
+  - author | refines mechanic | proposes intent vectors be constant/low-energy, glow as cold light, drop shaking | opening prompt of the stretch
+  - model | elaborates mechanism + verdict | avalanche-crystal explanation, agrees to cut shaking, offers infrasonic-glare alternative, geopolitical reading, closing question | first model reply
+  - author | further dials down effect | says glow should be mild and scale with ambition, rest is Archon propaganda | second prompt
+  - model | reframes as propaganda analysis | 'Wizard of Oz' framing, Republic-discovery angle, ties to Applejack's arc, offers next-step branch | second model reply
+  - author | asks naming question | is 'arcanoluminescence' the right term for the effect | third prompt
+  - model | evaluates term + offers alternatives | rejects arcano- for tone, gives split Republic/Archon term lists, recommends Thymoluminescence with sample dialogue, asks for reaction | third model reply
+  - author | extends naming question | asks for a term for the universal translator's intent-to-sound effect | fourth prompt
+  - model | proposes unified taxonomy | introduces Thymodynamics umbrella, offers Thymoacoustics/VAT/Semantophonics/Volosonics options, recommends a specific hierarchy, asks for fit | fourth model reply
+  - author | corrects the taxonomy | distinguishes Thymo (ambition) from Volo (general communicative intent) as the better split | fifth prompt
+  - model | builds out the correction | defines Thymodynamics vs Volodynamics as parallel branches, geopolitical and narrative implications, closing question | fifth model reply
+- kept:
+- brought: The author brought an existing but unsettled magic-system mechanic (intent vectors and the Idol of Boreas's effect) that needed toning down and naming.
+- loop: The author repeatedly brings small refinements and naming questions about one existing mechanic, and the model returns escalating systematized terminology and implications each time, but none of this iteration was captured into the plan database in this stretch — the loop is one of live brainstorming and course-correction that this archive shows leaving no trace.

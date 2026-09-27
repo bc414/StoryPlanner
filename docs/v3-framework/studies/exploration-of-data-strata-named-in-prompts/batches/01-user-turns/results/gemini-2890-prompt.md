@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user describes a worldbuilding element of their story, a synthetic oxytocin drug given to changeling conscripts and its withdrawal, and asks the model to break down the pros and cons of adding a reduced-critical-thinking effect, without pointing at any body of material for the model to use or avoid.

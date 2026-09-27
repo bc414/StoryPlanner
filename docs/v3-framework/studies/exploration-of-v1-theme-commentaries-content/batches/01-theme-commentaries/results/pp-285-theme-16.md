@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | States the scene's contribution as a character change: Pinkie comes out of it more resilient, which is the only link the commentary draws to the subversion theme and it leaves the P&K contrast unspoken | "Pinkie learns to be resilient" | no | terse planning shorthand, a single present-tense declarative with no elaboration
+- whole: A one-line claim that the scene is where Pinkie learns resilience, offered as the scene's link to the P&K Subversion theme without saying how.

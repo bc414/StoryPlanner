@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the synthesis, credits its rooting in honesty to Applejack's influence, and asks an open question about whether "Poser" is the right label for Chrysalis and the supremacists, what alternatives exist, and which would land best with a modern online readership.

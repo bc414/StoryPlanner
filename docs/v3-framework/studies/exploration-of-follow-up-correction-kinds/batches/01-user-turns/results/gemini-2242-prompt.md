@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model steered the user toward using Gemini to write story scenes and offered a story-writing Gem, assuming a creative-writing use the user says they do not intend; they want planning, analysis, real-world parallels and literary technique | "I do not plan on using Gemini to generate story text, only for planning and analysis" | flat statement of intent, added as an aside after a new question, with no complaint or apology
+- about: The user asks a new comparison question (raw document versus attached notebook in Gemini Chat) and adds, in passing, that they will use Gemini only for planning and analysis rather than generating story text, which sets aside the model's writing-oriented framing.

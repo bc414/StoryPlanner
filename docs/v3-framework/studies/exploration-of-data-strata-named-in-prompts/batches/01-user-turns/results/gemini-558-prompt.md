@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks three follow-up factual questions, on what Adderall does, whether oxytocin exists in synthetic form, and how social media algorithms overlap with the brain chemistry of the various drugs, without pointing the model at any particular body of material.

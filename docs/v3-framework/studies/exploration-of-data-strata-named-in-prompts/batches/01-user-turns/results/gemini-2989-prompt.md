@@ -1,0 +1,5 @@
+- sources:
+  - how people have actually used the tools (AI for roleplay and creative writing, and the prominent models and self-identified users, from ChatGPT's launch in November 2022 to March 2026) | treat as the evidence base that grounds the assessment of the assertions about authors and roleplay users | grounded in how people have actually used the tools | first-named
+  - the public perception of these users (roleplay and creative-writing AI users, November 2022 to March 2026) | treat as a second body of evidence to ground the assessment of the assertions | the public perception of these users | first-named
+- order:
+- about: The user asks the model to assess their claims that real authors handle both delivery and story logic while AI roleplay and creative-writing users mostly care about delivery, grounded in actual usage and public perception from November 2022 to March 2026.

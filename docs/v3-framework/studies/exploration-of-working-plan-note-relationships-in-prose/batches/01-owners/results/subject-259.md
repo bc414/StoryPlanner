@@ -1,0 +1,32 @@
+- relations:
+  - 2078|2080|the real-world model and its in-world instance: the Yam relay system stands behind Grover II being likened to Genghis Khan with a competent communications system|Mongol Yam system / like Genghis Khan|implicit
+  - 2078|2425|real-world parallel and the in-world use it inspires: a conquering power gaining a communications edge|Mongol Yam system / Command, Control, and Communications advantage|implicit
+  - 2089|2082|real-world analogue of the outcome: communications turned to extraction and away from ordinary people, as unbanned telegraphs lack justice to serve the common griffon|spread extraction / no systemic justice to keep it in service of the common griffon|implicit
+  - 2074|2076|same named technology: one states what Messenger Enchantments do, the other plans how their sprite looks|Messenger Enchantments|explicit
+  - 2080|2425|instance and general statement: Grover II's invasion of the Riverlands is one case of the warlords conquering the continent on a messaging advantage|invade the Riverlands / conquer the continent|implicit
+  - 2080|2097|cause and consequence: the best warriors had the most loyal squires who could message them, and the system fails if lords mistreat squires|most loyal squires / treat their squires well otherwise their messaging systems would fail|implicit
+  - 2084|2097|mechanism and its consequence: seals forged jointly with both signatures explain why the system depends on how lords treat squires|forge a pair of enchanted seals together / messaging systems would fail|implicit
+  - 2084|2096|explanation of the mechanism: the scientists study the shared forging and find it is friendship rather than fealty|shared forging / friendship thing, not a fealty thing|implicit
+  - 2096|2080|revision of the myth: Grover III's finding overturns the reading of squire loyalty as fealty, and he means to expose the Archons' lies|expose the archons' lies / Archons' religious texts|implicit
+  - 2096|2093|same claim from two tracks: the effect is friendship but griffon hierarchy disguised it as fealty|friendship, not fealty / disguise it as "Fealty"|implicit
+  - 2093|2097|presupposition: a hierarchy that must disguise cooperation as fealty is one where lords must still treat squires well for the system to work|disguise it as "Fealty" / treat their squires well|implicit
+  - 2080|2427|plan for reader response: readers hold the Boreas myth of Grover I and II, then learn the materialist messaging reality that 2080 states|Grover I and II conquered the continent / materialist reality|implicit
+  - 2425|2427|delivery of a fact to the reader: the warlords' conquest by messaging is what the reader first sees as blessed by Boreas|conquered the continent / Idol of Boreas blessing|implicit
+  - 2088|2096|same reign and date: Grover III keeps the artisan-apprentice messaging and his scientists study its shared forging|Grover III maintained / Grover III's scientists studied|implicit
+  - 2088|2082|reversal in time: the telegraph ban of Grover III is lifted by Grover IV|Telegraphs were banned / unbans the telegraph|explicit
+  - 2082|2083|continuation: after telegraphs are legal, outlaw pirates still cannot use them and fall back on the raw charitostatic effect|unbans the telegraph / can't use telegraphs|implicit
+  - 2082|2088|consequence in time: griffon magical messaging is made obsolete after the ban that had protected it is lifted|becoming obsolete / maintained the same magical communication|implicit
+  - 2083|2093|instance of the general claim: the pirates coordinate by an unhidden charitostatic effect labelled Honor Among Thieves, while griffon society hid it as fealty|raw charitostatic effect / disguise it|implicit
+- outward:
+  - 2074|canon Messenger Enchantments and armies' radios from the source show|Many armies use radios
+  - 2075|canon magical early warning systems against attacks|Magical Early Warning Systems
+  - 2076|canon characters Spike and Celestia and their scrolls|scrolls that Spike and Celestia exchange
+  - 2077|Star Swirl, ancient Equestrian unicorns and their settlements and monsters|Star Swirl and other ancient Equestrian unicorns
+  - 2078|the real-world Mongol postal relay|The Mongol Yam system
+  - 2089|real-world history of telecommunications and Western firms|how telecommunications were used to globalize Western firms
+  - 2080|Archons' religious texts, the Riverlands, and Genghis Khan|Archons' religious texts
+  - 2083|Pirates of Haukland and Skyfall shipping, held elsewhere|Pirates of Haukland
+  - 2425|Aquileians, Wingbardians and Riverlands ponies as peoples held elsewhere|Aquileians/Wingbardians/Riverlands ponies
+  - 2427|the Idol of Boreas and Grover I held elsewhere|Idol of Boreas
+  - 2096|the archons and their lies, held elsewhere|expose the archons' lies
+- whole: The notes hang together as a set, with a clear chain from the squire-lord sealing mechanism through the conquest, the Grover III to IV reversals and the reader's reveal, though the canon and analogy notes on early warning, unicorns and telecoms stand fairly apart.

@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2151 | Chrysalis's blockade of the ponies' economy, an event held in some other scene or plotline | after she blockaded their economy
+  - 2151 | The Hearth's Warming myth and its founding pioneers, lore of Equestria's origins held elsewhere | recreating the material conditions of the Hearth's Warming myth
+  - 2151 | The ponies' turning on or cooperating with one another, a group of characters not in this item | the ponies grow up and work together like the pioneers who founded Equestria
+- whole: This owner holds a single note, so there is no set to hang together or fall apart.

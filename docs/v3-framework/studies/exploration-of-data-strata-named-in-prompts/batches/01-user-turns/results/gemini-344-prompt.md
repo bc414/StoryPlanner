@@ -1,0 +1,5 @@
+- sources:
+  - the Vasily compromise / open-borders cold-peace arrangement, as "this" | the proposal just made in the conversation is taken as the thing to be measured against real history, asking why it did not work | "Why did this not work" | referred-to
+  - 1945, the real-world historical moment | used as the real-world comparison point that the model should explain the failure against, drawing on general historical knowledge | "in 1945" | referred-to
+- order:
+- about: The user asks the model to explain why the friendly-rival, open-borders arrangement it just proposed for the fictional Stalliongrad did not happen with the real Soviet Union in 1945.

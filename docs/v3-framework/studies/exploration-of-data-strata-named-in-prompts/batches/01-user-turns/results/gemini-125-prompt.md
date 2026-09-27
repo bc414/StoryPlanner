@@ -1,0 +1,6 @@
+- sources:
+  - hoi4 (Hearts of Iron IV) vocabulary | do not use; the wanted nouns must come from outside it | non hoi4 idea nouns | referred-to
+  - Trimmel's chapter | the thing the new nouns should resonate with; the theme to match | resonate with Trimmel's chapter | referred-to
+  - the walkthrough of his backstory | the second thing the nouns should resonate with; treat as the material already laid out | the walkthrough of his backstory | referred-to
+- order:
+- about: The user asks the model to suggest abstract idea-nouns from outside Hearts of Iron IV that fit Trimmel's chapter and the backstory walkthrough already given, presumably as alternative chapter-title vocabulary.

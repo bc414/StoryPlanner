@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user questions whether manosphere followers hold a deep identity and would read a Game of Thrones-style pony war story, endorses the second-or-third-intervention framing with a Lenin and Trotsky analogy, and pushes back on the model's claim that Love Island's cast is central, arguing that producers' casting, rules and editorial framing matter more.

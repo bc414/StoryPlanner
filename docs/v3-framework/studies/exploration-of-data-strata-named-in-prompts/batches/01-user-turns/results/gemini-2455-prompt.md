@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's assumption that Tall Tale is encircled, revises the plot so Star Energy and the Aquileian ace fliers hold the line instead of Twilight's magic, and proposes that AJ's line about Vanhoover suffering is what triggers Twilight to fight.

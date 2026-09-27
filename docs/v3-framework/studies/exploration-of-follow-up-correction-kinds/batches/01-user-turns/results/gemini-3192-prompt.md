@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the reading-list topic and asks a new question about how Claude Sonnet and Opus compare for their existing system-prompt task under a $20 Pro subscription's usage limits.

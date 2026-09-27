@@ -1,0 +1,6 @@
+- claims:
+  - restatement | Bauleiters take natural red love as a stimulant to drive their work | Bauleiters taking natural red love as a stimulant | What do Bauleiters take, and why? | no
+  - design commitment | Among Bauleiters, a person's worth is settled as depending on how they perform, so worth is conditional on output | since their worth is tied to performance | On what basis is a Bauleiter's worth judged? | partly
+  - reading | Stimulant use, combined with worth being tied to performance, produces an intellectual arms race in which each Bauleiter must out-innovate the others | leads to an intellectual arms race | What does the stimulant use lead to, and why? | partly
+  - design commitment | This arms race is the source of the story's predator's dilemma, which is asserted as a link but not explained | That's what fuels the predator's dilemma | What larger dynamic does this organizational pattern feed? | no
+- theme: It names the theme without arguing it. The note shows a conditional-worth arrangement, where worth depends on performance, and this is the opposite of the proposition. It never says how this affects dignity or cooperation, so it gives only indirect, partial evidence and leaves the reader to draw the link.

@@ -1,0 +1,7 @@
+- sources:
+  - the author's own knowledge of district lines (Montgomery Township moved from the 7th to the 12th in 2022; Altman ran in the 7th in 2024 and the 12th in 2026) | offered from personal knowledge as a fact to answer the controversy, with the model asked to confirm or weigh it | my own township used to be in the 7th district and was moved to the 12th district in 2022 | first-named
+  - the author's recollection of an Israeli party leader's remark that something has gone very wrong with the global left | offered from memory, party name forgotten, as support for the author's view | I forgot the party name but I remember one of its leaders saying | first-named
+  - the author's own view of Israel and Gaza, including the predator's dilemma | the author's own stated position, used as the lens against which to judge Hamawy and Altman | The way I view Israel and Gaza is something probably no one in America articulates | referred-to
+  - the structural thinking inference proxy from the earlier analysis | treated as still valid and the basis for evaluating candidates, despite the side points | the point still stands about structural thinking inference proxy | referred-to
+- order:
+- about: The user defends Sue Altman's district switch from personal knowledge, lays out their own view of Israel and Gaza, and asks whether Hamawy's stance is tuned to mass-market narratives and how Altman compares.

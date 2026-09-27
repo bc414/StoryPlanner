@@ -1,0 +1,13 @@
+- asks:
+  - explain | account for how a bourgeois class could exist in a setting described as a feudal monarchy | "If Aquileia was a feudal monarchy, where did the bourgeois in the city come from?"
+  - compare | judge whether this class-origin story resembles the real French Revolution(s) | "Is this a similar story to the real French revolution(s)?"
+  - list | supply the concrete historical parallels from actual French history that support the comparison | "Give the parallels from real French History"
+  - inquire | ask whether bourgeois universities existed alongside factories as another source of bourgeois growth | "Besides factories is there also bourgeois universities?"
+  - inquire | ask whether such universities were the origin of the bourgeois middle class | "Is that where the bourgeois middle class came from?"
+  - explain | describe the admission process or criteria for entry into these universities | "How were they admitted?"
+- supplies:
+  - premise | a stated worldbuilding fact that the fictional city/setting Aquileia is a feudal monarchy | one sentence
+- shaping:
+  - grounding in real history | asks the parallels to come from actual French history rather than general theory | "parallels from real French History"
+- openness: The message poses linked hypotheses—that Aquileia's bourgeois rise mirrors the French Revolution, and that universities alongside factories were a source of the bourgeois class—and asks the model to check and substantiate these against real historical detail rather than leaving the questions fully open.
+- subject: Origins of the bourgeois/middle class in the fictional setting Aquileia, compared to real French history

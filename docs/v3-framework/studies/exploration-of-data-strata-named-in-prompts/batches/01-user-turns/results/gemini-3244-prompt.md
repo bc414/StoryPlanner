@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question checking whether the Google Cloud free trial credits can be used to run Claude through Vertex AI, without pointing the model at any body of material to draw on.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, apparently looking at the Apps Script editor where a default myFunction sits beside the pasted script, asks what to do with each of the two functions, which is a practical follow-up question rather than a challenge to anything the model said.

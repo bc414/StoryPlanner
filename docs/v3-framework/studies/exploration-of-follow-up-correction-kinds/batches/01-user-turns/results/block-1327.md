@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, saying they have never seen the MCU films, asks for a background history and explanation of how the franchise's characters and the Avengers fit together, so they can follow the analogy the model just gave.

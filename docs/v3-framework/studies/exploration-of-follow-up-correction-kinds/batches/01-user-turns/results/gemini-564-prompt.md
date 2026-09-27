@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's conclusion in plain, casual terms as a question, asking for confirmation that Fluttershy's gentle approach is supported by Rat Park science, without disputing anything.

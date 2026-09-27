@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's transactional-parenting framing by proposing a backstory in which the parents were capable capitalists denied startup capital, and asks about historical precedents, material-conditions fit, legal inheritance by Chrysalis, and a bidirectional skills partnership, without disputing anything the model said.

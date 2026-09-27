@@ -1,0 +1,5 @@
+- sources:
+  - this entire conversation | mine all of it for insights and report on them comprehensively, including ones later replaced | all insights made during this entire conversation | referred-to
+  - transcripts | search them (grep) as an extra place to find insights, if they exist | grep transcripts if they exist | first-named
+- order:
+- about: The user asks the model to produce a comprehensive report of every insight from the whole conversation, searching any transcripts too, and to document which insights were later superseded.

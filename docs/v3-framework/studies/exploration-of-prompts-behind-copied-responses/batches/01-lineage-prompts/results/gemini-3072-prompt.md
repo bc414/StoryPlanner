@@ -1,0 +1,6 @@
+- asks:
+  - advise | asks how to keep a planned critique of the "Stagnation of Harmony" from coming across as too cynical | "How do I avoid making my critique... too cynical?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a plain how-to question without naming any candidate approaches or options to choose between.
+- subject: Avoiding excessive cynicism when critiquing the "Stagnation of Harmony" (a concept in the user's fiction)

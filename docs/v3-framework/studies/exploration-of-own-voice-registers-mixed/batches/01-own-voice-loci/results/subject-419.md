@@ -1,0 +1,10 @@
+- passages:
+  - note 47 | thesis-assertion | short declarative moral claim, no hedging | duty of the strong to fight for the weak | apart
+  - note 47 | theme-labeling commentary | "One theme is", "This is a parallel theme", quoted maxims | naming two thematic maxims about strength and mercy/relief | apart
+  - note 4162 | meta-descriptive framing | "This is an argument against...and for..." | stating what kind of argument the note makes | apart
+  - note 4162 | first-person-plural persuasive argument | "we", "must", parenthetical asides | rebutting isolationist reasoning and urging continued effort and reform | apart
+- shifts:
+  - note 47 | thesis-assertion | theme-labeling commentary | turn from stating the claim directly to naming it as a quoted thematic maxim, with a parallel maxim named the same way
+  - note 4162 | meta-descriptive framing | first-person-plural persuasive argument | turn from describing the argument in the third person to making the argument itself in first-person plural with imperative "must"
+- registers: thesis-assertion; theme-labeling commentary; meta-descriptive framing; first-person-plural persuasive argument
+- whole: This place holds several registers, since note 47 turns from a bare declarative claim to commentary naming quoted thematic maxims, and note 4162 turns from a descriptive framing sentence to a first-person-plural persuasive argument, with each pair of passages standing apart as separate sentences rather than blending together.

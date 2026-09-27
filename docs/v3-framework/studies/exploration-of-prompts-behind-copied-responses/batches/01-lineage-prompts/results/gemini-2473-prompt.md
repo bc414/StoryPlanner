@@ -1,0 +1,9 @@
+- asks:
+  - analyse | work out whether Celestia would grant asylum to Novo given her established habit of keeping dangerous things out | "would celestia even offer asylum to Novo or not"
+  - reasoning-check | weigh in on whether the Hippogriffs' harmonic nature is undercut by the fact they'd tell pony hosts their home was destroyed | "they would start telling the pony hosts how their home was destroyed"
+- supplies:
+  - character trait | Celestia's established practice of keeping dangerous things out | one clause
+  - worldbuilding fact | Hippogriffs are harmonic but would recount their home's destruction to pony hosts | one clause
+- shaping:
+- openness: Frames the question as a yes-or-no choice named in the message itself (\"offer asylum to Novo or not\"), while supplying competing considerations for the model to weigh rather than stating a preferred answer.
+- subject: Whether Celestia would grant Novo and the Hippogriffs asylum, given her guardedness and their harmonic but destabilizing nature

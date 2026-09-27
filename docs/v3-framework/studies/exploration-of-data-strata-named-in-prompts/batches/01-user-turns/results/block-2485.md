@@ -1,0 +1,6 @@
+- sources:
+  - Steam account data (the Steam data the model just described) | asked whether it can show playtime distribution and density across years; treated as a candidate source whose capability is being probed, not yet relied on | Can it tell the distribution and density of playtime across years? | referred-to
+  - topline hours (total playtime figures the user already knows) | accepted as already known but treated as too thin; not what is wanted | I know the topline hours, but that isn't as rich | referred-to
+- order:
+  - playtime distribution across years over topline hours | the user says topline hours are not as rich as knowing when the hours were clocked
+- about: The user asks a follow-up on whether Steam's data can show when playtime was accumulated year by year, since total hours alone are less useful to them.

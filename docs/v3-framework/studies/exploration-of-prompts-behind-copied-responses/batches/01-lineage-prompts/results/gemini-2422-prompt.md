@@ -1,0 +1,7 @@
+- asks:
+  - clarify | supply a piece of established backdrop for the model to take as settled going forward | 'To clarify the backdrop'
+- supplies:
+  - worldbuilding fact | a policy detail: by the end of chapter 7 ('Generosity'), Manehattan requires every pony to contribute to the war effort via their special talent | a single sentence
+- shaping:
+- openness: States a specific backdrop fact as settled/given rather than leaving it open or offering options, framed explicitly as a clarification ('to clarify the backdrop... Manehattan is already mandating...').
+- subject: A worldbuilding/plot backdrop detail about wartime mandates in Manehattan as of chapter 7 of the story.

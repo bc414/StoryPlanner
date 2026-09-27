@@ -1,0 +1,5 @@
+- sources:
+  - the new insights | use as the material for explaining the mechanic; build the explanation from what was just laid out about conscience and the charitostatic effect | "using the new insights" | referred-to
+  - the mechanic I came up with (donated pink and red love are more magically effective than extracted) | treat as the author's settled premise; the model is to explain it, not question it | "I came up with the mechanic that donated pink and red love are more magically effective than extracted" | first-named
+- order:
+- about: The user states a mechanic of their own, that donated love is more magically effective than extracted love, and asks the model to explain it with the insights just given and to say how conscience relates.

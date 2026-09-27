@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's closing question by saying they want to focus on the philosophy of money, its implications for society design, and understanding how the world really works, without pointing at any body of material for the model to use or avoid.

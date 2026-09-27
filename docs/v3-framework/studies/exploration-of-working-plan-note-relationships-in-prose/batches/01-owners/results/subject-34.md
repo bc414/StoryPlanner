@@ -1,0 +1,14 @@
+- relations:
+  - 293|1522|continues in time: he joined the night guard, then left it for good after seven years|joining the night guard in 1000 ALB / left the night guard permanently|implicit
+  - 292|294|the name's meaning is echoed by a value he shares with Applejack, so the name and the later bond point the same way|Rasti means "Honesty" / shared values of community, hard work and honesty|implicit
+  - 291|294|his role as elected communal leader fits the community value he shares with Applejack, which gives a reason why he would come to like her|elected communal leader of the Temberik council / shared values of community|implicit
+  - 292|293|contrast between his own name, which means honesty, and the Equestrian name forced on him|Rasti means "Honesty" / made him use an Equestrian name "Midnight Oil"|implicit
+- outward:
+  - 292|the Kurmanji language and its real-world word for honesty, as the source of the name|Rasti means "Honesty" in Kurmanji
+  - 293|Celestia, a character held elsewhere, who imposed the name|Celestia made him use an Equestrian name
+  - 293|the night guard, an institution of the wider world, and the dating system ALB|joining the night guard in 1000 ALB
+  - 293|the story TLTT, whose start the backstory is measured against|before the start of TLTT
+  - 1522|the place Diyarbecolt, held elsewhere|returned to Diyarbecolt, jaded
+  - 294|Lioness Applejack, another character not in this item|He grows to like Lioness Applejack
+  - 291|the Temberik council, a community body held elsewhere|elected communal leader of the Temberik council
+- whole: Rasti's notes mostly read as separate entries, apart from the two backstory notes that continue each other in time and a few loose thematic echoes of honesty and community across the name, leadership and Applejack notes.

@@ -1,0 +1,7 @@
+- asks:
+  - ask | requests the model to consider or address the idea that Poland is an apple exporter, and presumably weigh in on how it fits the ongoing topic | "What about Poland being an apple exporter?"
+- supplies:
+  - idea | a single fact or detail: Poland as an apple exporter | a short phrase
+- shaping:
+- openness: Open: the message only raises the point "what about Poland being an apple exporter" without naming a preferred answer, options to choose between, or a claim to verify.
+- subject: Poland's status as an apple exporter, raised in some unspecified prior context

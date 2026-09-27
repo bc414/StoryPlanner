@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's finding about the Japanese author's tool choices and asks a follow-up: the author's work scope and scale, whether commercial or hobbyist, how established they are, and their background.

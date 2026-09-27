@@ -1,0 +1,5 @@
+- passages:
+  - bearing on the theme | Labels Fluttershy as a Top Down enforcer, so the scene's peaceful, consent-based camp sits against the theme with a coercive authority underneath it, complicating the bottom-up reading | Fluttershy is a Top Down enforcer | no | terse declarative label, planning shorthand
+  - fabula content | Fluttershy's way of keeping order is The Stare, which raises the cost of predation until predation is not worth it; this is stated as how she works in the world | She uses The Stare to make the consequences of predation too great | no | flat expository statement of fact
+  - note to self | A half-formed association between Fluttershy's deterrence and Eros, left unexplained and unfinished, a thought to come back to | It's like... Eros. | no | trailing fragment with an ellipsis, a musing
+- whole: A three-sentence note that casts Fluttershy as a top-down enforcer who deters predation with The Stare, which complicates the theme, and ends on an unexplained Eros comparison.

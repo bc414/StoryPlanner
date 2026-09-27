@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Zecora rhyming proposal to ask a new, broader question about which other Doylist aspects of MLP they have already translated into Watsonian explanations and which remain outstanding, without disputing anything in the model's response.

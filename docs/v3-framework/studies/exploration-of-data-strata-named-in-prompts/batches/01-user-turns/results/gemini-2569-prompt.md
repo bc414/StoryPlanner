@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether subsistence-level Zebrican villages would use Skyfall Marks rather than a local currency, how that compares with functioning states like Ireland, Naples, the Philippines or Nepal, and whether African and Southeast Asian colonies had to use British and French currency, without pointing the model at any particular body of material.

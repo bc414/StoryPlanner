@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the history answer on Loyalists without comment and moves to a plot problem in their story: how to keep Applejack unaware of the sexual side of Aquileian culture once Rarity meets Mali in the jungle.

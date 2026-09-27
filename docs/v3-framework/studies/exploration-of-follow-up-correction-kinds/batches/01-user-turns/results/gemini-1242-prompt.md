@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the corporate-model economics thread and asks for a fresh description and analysis of Equestria's pre-war "Stagnation of Harmony" under Celestia's thousand-year rule, without commenting on the previous answer.

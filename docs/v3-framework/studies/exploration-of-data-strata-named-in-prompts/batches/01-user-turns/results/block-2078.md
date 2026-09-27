@@ -1,0 +1,5 @@
+- sources:
+  - TLTT's story about Grover 3 to 4, Stalliongrad and the Stagnation of harmony rejecting industry and then being forced into industry by the great war | used as the reference case to test the user's reading that the game mechanics are about introducing accelerants; treated as the model for that dynamic | Like TLTT's story about Grover 3 to 4 and Stalliongrad | referred-to
+  - the distinction of villages versus company towns (the current conversation's design so far) | taken as the established design premise from which the user draws a new interpretation about accelerants | So the distinction of villages versus company towns makes the game mechanics really about | referred-to
+- order:
+- about: The user proposes, as a question seeking confirmation, that the village versus company town distinction makes the game's mechanics about introducing accelerants, and backs the idea by comparing it to a story arc in TLTT.

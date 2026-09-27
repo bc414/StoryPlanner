@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the shadow-funding question and asks a new planning question about whether Celestia should attend the Applejack and Gilded Trust debate in the Ambition chapter, requesting pros, cons and which choice serves the themes best.

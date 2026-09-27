@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks why a Great Lakes zebra mare would marry an older stallion if all zebras can use spirits for agriculture equally, and what rights and agency mares and women in gerontocratic societies have, without pointing the model at any body of material.

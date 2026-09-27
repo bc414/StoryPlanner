@@ -1,0 +1,7 @@
+- sources:
+  - the model's analysis on preconditions | accepted as making sense and used as the basis for the author's own reasoning about the setting | This analysis on preconditions makes sense | referred-to
+  - WW2 allegory in the story plan | treated as an earlier stage the author has moved away from, superseded | gradually moved away from WW2 allegory | referred-to
+  - present day allegory in the story plan | the current direction of the plan, what the story now maps onto | into present day allegory | referred-to
+- order:
+  - present day allegory over WW2 allegory | the author moved away from the WW2 framing into the present-day one as the plan was iterated
+- about: The author accepts the model's preconditions analysis and uses it to explain why their story plan shifted from a WW2 allegory, where the preconditions were absent, to a present-day allegory, where they exist but are under attack.

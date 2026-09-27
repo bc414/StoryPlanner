@@ -1,0 +1,6 @@
+- sources:
+  - canon recontextualization track | author judges it needs no designing and should not be treated as a design track, since the effect arises on its own for the reader | canon recontextualization doesn't need to be designed | referred-to
+  - my ontology and reveals | treated as sufficient basis: the reader's recontextualization follows from them, so nothing more is authored for it | It happens to a reader based on my ontology and reveals | referred-to
+  - source evidence | weight left open; author asks what design purpose it serves, if any, for the story | what is the purpose of source evidence for design of my story | referred-to
+- order:
+- about: The user pushes back on the proposed Canon Recontextualization track as unnecessary for story design because it follows from their ontology and reveals, and asks what Source Evidence is actually for.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model treated the question as a general survey of tree/DAG numbering schemes for databases and code (ending on a C# implementation offer), when the user wanted a chronology label for backstory codex entries that works at a glance for them and for LLMs, with parallel and strictly-later entries | restating the actual purpose: "I want a way to label my backstory codex entries to establish their chronology" | implicit and flat, a plain restatement of the goal with no mention of the earlier answer being off
+- about: The user restates their real need, a readable chronology labeling for backstory codex entries that handles parallel and sequential entries, which reframes the model's generic data-structure survey without explicitly rejecting it.

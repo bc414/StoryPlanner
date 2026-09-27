@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: staging of the planned scene | the proposed Celestia epiphany in Scene 4 as an internal thought, which the user wants spoken aloud to Luna in a corner | "Instead of it being an internal thought" | put as a plain preference ("I think ... should"), brief, no reason given, tacked on after two other questions
+- about: The user mostly extends the plan, adding a forgotten Aquileian ally and asking about two more possible characters (Fleur Bloom, a changeling POW), and also redirects the model's Scene 4 so the \"Friendship is Combined Arms\" line is spoken to Luna instead of thought.

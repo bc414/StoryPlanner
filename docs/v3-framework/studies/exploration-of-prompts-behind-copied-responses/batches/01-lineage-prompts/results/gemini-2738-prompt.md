@@ -1,0 +1,7 @@
+- asks:
+  - react/evaluate | asks what the model thinks of this revised version of the scene | "How about this revision of the Combined Arms meeting"
+- supplies:
+  - scene revision | a beat-by-beat dialogue summary of a scene between Rainbow Dash and Twilight Velvet, covering the fake Daring Do stories made by the Tzinacatl, Twilight Velvet's awareness of the flaw in their society and pride in Twilight's friends' real connections with changelings, buffalo, and thestrals, and her admission she doesn't know the real world and that Rainbow Dash should write that story | a short paragraph
+- shaping:
+- openness: Left open — "How about this revision" is a general prompt for reaction, without naming a preferred verdict or specific options to choose between.
+- subject: A revised dialogue scene between Rainbow Dash and Twilight Velvet about fake Daring Do lore, cultural insularity, and who should tell the "real" story

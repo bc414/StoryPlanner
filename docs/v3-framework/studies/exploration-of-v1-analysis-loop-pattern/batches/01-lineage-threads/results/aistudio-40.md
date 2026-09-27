@@ -1,0 +1,19 @@
+- steps:
+  - author | supplies | an attached document, contents uncaptured | opening of the record
+  - author | brainstorms | Fleur Bloom's motive to study science, a possible cutie-mark idea, a Twilight-parallel hunch | first message with content
+  - model | analyzes | the Fleur/Twilight structural parallel, a materialist account of her cutie mark and scientific rise, her psychological arc | reply to the brainstorm
+  - model | poses follow-up questions | how present-day Twilight would read Fleur, and the postwar economic fallout of her discovery | end of that same reply
+  - author | expands | adds that Fleur disliked farming, that her parents used books to keep her home, and that Coltbert's pride-theory triggers her realization | next turn
+  - model | analyzes | reworks the farming-ineptitude detail into a magic-and-alienation mechanism, ties it to the cutie mark's appearance and to her later invention work | reply to the expansion
+  - model | poses follow-up questions | how her parents react to her later success, and how she'd feel meeting Applejack | end of that reply
+  - author | asks | requests historical-figure analogues for Fleur, naming Haber and Curie and asking for French candidates | next turn
+  - model | proposes | maps Fleur onto Haber, Lavoisier, du Pont, and Curie, each tied to a facet of her arc | reply to the request
+  - model | poses follow-up questions | how Fleur rationalizes consuming ancestral soil for weapons, and how she'd react to Pinkie's unquantifiable magic | end of final reply
+- kept:
+  - note 5128 | pasted from this reply with cuts | keeps the author's stated motive for Fleur's science pursuit and the model's causation/correlation framing of Coltbert's work, filed under the Fleur Bloom subject
+  - note 5418 | the author's own words in this record | keeps a compact statement of the cutie-mark-on-a-university-trip incident, the 'stack of books' mark, and the Aquileian-Twilight label, filed under Fleur Bloom
+  - note 4115 | pasted from this reply inside the author's own framing | keeps the extended parents'-trauma-to-cutie-mark sequence, blending the author's plot beats with the model's phrasing on ambition and departure, filed as a running biography under Fleur Bloom
+  - note 5578 | pasted whole from this reply | keeps the model's paragraph connecting Fleur's blocked-magic childhood to her later Star Spade design, filed under Fleur Bloom
+  - note 4798 | pasted whole from this reply | keeps the model's Haber analogy paragraph on outsider-status ambition, filed under Fleur Bloom
+- brought: The author brought an attached background document plus prior fragments of Fleur Bloom's setting (her parents' history, the Coltbert reforms) that the model and later notes build on as established fact.
+- loop: The author feeds partial character ideas, added plot detail, and a request for historical models; the model returns thematic analysis and figure mappings each time, and the planning database repeatedly extracts whole or lightly-cut paragraphs from those analyses -- plus one compressed restatement in the author's own words -- to accumulate as the standing biography and thematic justification for Fleur Bloom.

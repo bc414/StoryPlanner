@@ -1,0 +1,21 @@
+- relations:
+  - 2238|2287|2287 presupposes the trade-first identity stated in 2238 and gives the traditionalists' criticism and the tribes' reaction to it|traditionalists call them bad faith actors for not participating in the flower wars properly; flower war system being secondary|implicit
+  - 2238|848|848 is an instance of the export-trade identity that 2238 states generally|export medicine and contraceptives to the global market; medicinal exporters and importers|implicit
+  - 2287|2213|2213 shows how the tribes take part in the war in their own way, which bears on the charge in 2287 that they do not participate properly|participation in the cocoltic yaoyotl, don't fight on land with blowdarts; not participating in the flower wars properly|implicit
+  - 2235|2303|2303 gives the reason and the war-time form of the efficiency-within-ecology approach stated in 2235|processing efficiency within the existing ecological framework; increase export product per unit of input while maintaining artisan quality|implicit
+  - 2303|2238|Coltbert's advice to let product excellence earn its worth fits and supports the trade-and-export identity in 2238|Product excellence will earn what it's worth; producing things the rest of the world values|implicit
+  - 744|746|746 plans the on-page brewing that shows the medicine-making from engineered plants stated in 744|Friendship Plants engineered by Mage Meadowbrook to make medicine; brew it into a medicine using these specific jungle vines|implicit
+  - 746|2235|Jungle vines used in the brewing in 746 are the jungle ecology that 2235 says is sustainably harvested for medicine|specific jungle vines; sustainable harvesting of jungle ecology for their medicine|implicit
+  - 2235|848|848 states the export that 2235 describes as being done with efficiency and artisan quality|export medicine and contraceptives; export product per unit of input|implicit
+  - 2213|2303|The war fought against clear cutting in 2213 contrasts with and is the setting for the ecological approach 2303 gives for the war period|Chrysalis's clear cutting operation; During the war, ... within the existing ecological framework|implicit
+  - 744|2235|Both say how the medicine is made; the engineered plants of 744 are the input that 2235 says is harvested sustainably and stretched by tech and magic|Friendship Plants to make medicine; use Aquileian tech/magic to increase export product|implicit
+- outward:
+  - 2276|Celestia and Grover III, the Aquileian house pony serfs and the destination New Horseleans, all held elsewhere|Celestia and Grover III covertly authorized; bring them to New Horseleans
+  - 2238|The Aquileian global economy and the traditional flower war system as a wider world|living within the Aquileian global economy; traditional flower war system
+  - 2287|The traditionalists, another group, and the flower wars|The traditionalists call the medicinal tribes bad faith actors
+  - 2213|Skyfall privateers and mercenaries, Chrysalis's clear cutting operation, the Aquileian Royal Navy and the cocoltic yaoyotl war|enlist the help of the Aquileian Royal Navy to fight Skyfall privateers
+  - 746|Equestrian donors of Pink Love, a substance from elsewhere|take the donated Pink Love from Equestrians
+  - 744|Mage Meadowbrook, who engineered the Friendship Plants|engineered by Mage Meadowbrook
+  - 2303|Coltbert as adviser, and Star energy, an entity or force held elsewhere|Coltbert told them don't scale up operations; Star energy's approach
+  - 2235|Aquileian technology and magic as a body of lore held elsewhere|use Aquileian tech/magic
+- whole: The notes hang together loosely as a set: most join through the medicine-making and export trade, and the identity and criticism notes join each other, but the serf-rescue note (2276) joins none of the others.

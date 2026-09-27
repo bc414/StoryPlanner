@@ -1,0 +1,5 @@
+- sources:
+  - current codex entry on the predator's dilemma (attached) | use as the worked example to evaluate; its mixed contents are to be distributed across the codex categories | I am attaching the current codex entry on the predator's dilemma, which has a lot of mixed stuff that must be distributed | first-named
+  - a framing the user remembers hearing (math as the language of the universe's laws, economics as the study of behavioral reality like biology of molecules) | treat as a tentative idea the user is reasoning from, not settled; used to test whether economics belongs with physics and biology | I remember hearing a framing that math is the language | first-named
+- order:
+- about: The user pushes back on the model's proposed category names, explaining what they mean by an abstract system and by a world-ontology category covering physics, biology, magic and possibly economics, and asks the model to use the attached Predator's Dilemma codex entry to settle the four or more codex categories.

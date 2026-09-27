@@ -1,0 +1,10 @@
+- asks:
+  - choice | asks whether Cadance and Shining Armor should already know about the parloirs before the Crystal Empire's sovereignty returns, or only learn of them after Mali suggests she can help | "should Cadance and Shining Armor be familiar with the parloirs before the crystal empire soveignty or only learn after Mali suggests she can help"
+  - evaluate | asks for a reaction to the reasoning that knowing beforehand lets Cadance's love-spell victory over Chrysalis be explained via prior experimentation with Aquileian scholars, removing a deus ex machina while keeping Celestia in denial | "a pro of knowing before hand is I can try to come up with some explanation for Cadance's love spell... which removes the deux ex machina"
+  - evaluate | asks for a reaction to the reasoning that learning only afterward gives an organic causality for Cadance and Shining Armor leaving the nursery when confronted with the crystal ponies' crisis | "a pro of only learning that aspect of adult life after faced with an adult crisis... would be an organic causality"
+  - check plausibility | asks whether it is too naive to have Cadance and Shining Armor go from total inexperience straight into that adult crisis | "but maybe it's too naive that they would go from total inexperience"
+- supplies:
+  - own reasoning | the user's own listed pros for each of the two timing options regarding the parloirs, Cadance's love spell, and the nursery departure | a short paragraph
+- shaping:
+- openness: Asks for a choice between two named options (Cadance/Shining Armor knowing about the parloirs before vs. only after the Crystal Empire crisis), while also flagging a specific plausibility worry about the second option for the model to weigh in on.
+- subject: Timing of when Cadance and Shining Armor learn about the parloirs relative to the Crystal Empire crisis, and how this affects explaining Cadance's love-spell defeat of Chrysalis

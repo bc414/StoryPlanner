@@ -1,0 +1,14 @@
+- asks:
+  - brainstorm | generate three alternative versions of the "friendship lesson" that incorporate a specified set of nuances | "give me 3 options of the friendship lesson that involves all the nuances"
+  - check | asks whether it is plausible for no character except Fluttershy to register the tension over Skyfall's fate until she raises it via "The Stare" | "Does this work, can the tension about Skyfall's fate not appear on any character's conscience until Fluttershy?"
+- supplies:
+- shaping:
+  - tone should be fully optimistic and should not mention the dirty work of dumping drugs into Skyfall | "It can be fully optimistic... shouldn't even mention doing the dirty work of dumping drugs into Skyfall"
+  - must address giving the drug dealers capital as part of the resolution | "giving the drug dealers capital"
+  - must address healing internal tensions between "family members" instead of infighting | "healing internal tensions between 'family members' instead of infighting"
+  - must involve finding a way to use everyone's special talents for the war effort, i.e. combined arms | "finding a way to involve everyone's special talents for the war effort (combined arms)"
+  - leaves room for additional unnamed elements beyond the ones listed | "and others"
+  - Comet Shine, as a former Skyfall student, should assert that everyone there is in a voluntary rat race to become CEO, explaining the absence of unions or artisans | "he should assert that every creature there is in a voluntary rat race, wanting to be the next CEO, that's why they don't have unions or artisans"
+  - frames Skyfall as viewed by the group as a monolithic place of 'merchants of death' funding Chrysalis's war, as backdrop for the check question | "Since they view Skyfall as a monolithic place full of merchants of death who are funding Chrysalis's war"
+- openness: Mixed: leans toward a named set of content requirements for the three lesson options (optimism, capital, healing tensions, combined arms, Comet Shine's rat-race framing) while separately asking the model to check whether the named plot mechanic (only Fluttershy noticing the Skyfall tension until The Stare) works.
+- subject: Revising a "friendship lesson" plot beat and a character-awareness mechanic involving Fluttershy, Comet Shine, and the Skyfall drug-dealer faction in a war narrative.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user checks their understanding of the proposed vacuum constraint on the Luna Nova Rifle's three-way valve, offering their own reasoning that the raw magic mix meets no resistance but air would disrupt the red and pink love separation, without pointing at any body of material to draw on.

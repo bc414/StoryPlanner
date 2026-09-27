@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is telling the model that the letters only occur while Applejack and Twilight are apart, and says they prefer the optimistic drug-trade letter because it would be the last one, written as Applejack returns to Tall Tale after the final negotiation with the drug-affected tribes.

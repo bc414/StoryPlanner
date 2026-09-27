@@ -1,0 +1,7 @@
+- sources:
+  - v1 archive | review in full as evidence for grounding the economic axis's pole definitions, given equal standing with the other two layers | across ALL of v1 archive, v2, and conversations | referred-to
+  - v2 | review in full as evidence for grounding the economic axis's pole definitions, given equal standing with the other two layers | across ALL of v1 archive, v2, and conversations | referred-to
+  - conversations | review in full as evidence for grounding the economic axis's pole definitions, given equal standing with the other two layers | across ALL of v1 archive, v2, and conversations | referred-to
+  - ASOIAF conventions | treat as a suspected origin of grimdark tropes in the hive wars design; do not rely on it, replace with materialist historicist causality | may be carrying over grimdark tropes from ASOIAF conventions | referred-to
+- order:
+- about: The user asks the model to re-examine the economic differences between two groups of polities across all three layers of the archive, to separate the economy axis from the axes it was conflated with, and to apply the result to redesigning the changeling petty hive wars on materialist causal grounds instead of borrowed grimdark conventions.

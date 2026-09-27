@@ -1,0 +1,4 @@
+- sources:
+  - the requirements about including every part of the input data in the output at least once, or in the garbage, or the authorial rule | treated as binding requirements that the drafted Phase 2 prompt must reflect; the draft is faulted for omitting them | totally missing the requirements about including every part of the input data | referred-to
+- order:
+- about: The user rejects the model's Phase 2 prompt because it omits the previously stated requirement that every part of the input must appear in the output at least once, either in a bucket, in garbage, or under the authorial rule.

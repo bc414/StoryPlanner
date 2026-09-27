@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers their own story revisions: the other characters misread Ahuizotl's claims as an excuse for the drug tribes' absence from the war, Chrysalis's ownership of Equestria no longer matters because the war economy runs on Hearth's Warming Bonds, and Trimmel has put her on Celestia's throne as bait, while she is unhappy because her statthalters are out of her control.

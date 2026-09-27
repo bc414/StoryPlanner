@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's question about Wingbardy by stating their own plan for it: a subject of Herzland from 705 to 972 that then develops better planes, and a constitutional monarchy with a Senate that explains why it has no revolution.

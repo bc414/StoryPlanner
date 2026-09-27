@@ -1,0 +1,9 @@
+- steps:
+  - author | reframes prior discussion, brings a full drafted plot outline | Applejack's story arc (appointment, defeat, Tall Tale, Twilight rescue, Celestia's white peace, move to Aquileia) presented as the real subplot | opens the exchange
+  - author | poses an interpretive request | asks how the outline fits FJA aspirations | end of the same message
+  - model | produces a section-by-section ideological analysis | maps each plot beat (appointment, Tall Tale, Henri/Twilight climax, Celestia's peace, Aquileia move) onto FJA doctrine and monarchy-vs-republic themes | body of the response
+  - model | closes with a summary verdict and offers next moves | names the arc a 'Messianic Fulfillment', then offers to detail the Tall Tale Accords or the magical weapons | end of the response
+- kept:
+  - note 2346 | one sentence lifted from this reply | keeps the model's framing of Applejack as a success story: appointed general by status not competence, whose self-esteem collapse against professional changelings marks the death of stagnant harmony; filed at a Link node between the Gaudreau-informs-Applejack event and Applejack
+- brought: The author brought a newly drafted plot outline for Applejack's arc, presenting it as the true subplot behind the earlier Aquileian-history discussion, and asked the model to analyze how it fits the FJA's aspirations.
+- loop: The author supplies a character/plot draft and asks for ideological validation; the model returns an extended thematic analysis casting the character's arc in the story's political terms, and the database keeps a single condensed sentence of that framing as a characterization note attached to a link between two story elements.

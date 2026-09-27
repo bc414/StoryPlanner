@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to propose an Aquileian/French name for the Wings of Dew spell, following the Cœur de Cristal naming discussion, without pointing at any body of material to draw on or avoid.

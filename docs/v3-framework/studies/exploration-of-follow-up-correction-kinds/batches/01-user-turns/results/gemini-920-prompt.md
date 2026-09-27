@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Chapter 2 name-drop analysis to ask for an analysis of a separate piece of backstory, Chrysalis's Skyfall shell companies recruiting ambitious Equestrians as future wartime collaborators, without disputing anything the model said.

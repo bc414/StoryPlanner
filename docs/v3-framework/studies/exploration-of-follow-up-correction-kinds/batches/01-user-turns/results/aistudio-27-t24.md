@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model treated Gemini 1.5 Pro as the target model and tailored the formatting advice to it, though that model is no longer available and the target is Gemini 3.1 Pro | I don't want 1.5 Pro to be the target (it is no longer available) | flat statement with the reason given (unavailability), plus a reframing of the model's identity and date
+  - reading of the request | The model polished the prompt and praised it without checking whether prompt-engineering needs have changed for a newer model, which the user wants researched and explained | Please research any difference in prompt engineering requirements to reflect changes in model capabilities and make sure this prompt will still work | directive, stated as a task to redo, not as a complaint
+- about: The user redirects the prompt-refinement work to the correct target model (Gemini 3.1 Pro, March 2026), asks for research on how newer-model prompt requirements change and whether the prompt still works, and adds a question about whether "e.g." signals a non-exhaustive list.

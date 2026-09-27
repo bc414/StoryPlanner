@@ -1,0 +1,4 @@
+- sources:
+  - a prequel I wrote | the text to be analyzed for its narrative perspective; the model is to read it and judge the perspective used | Here is a prequel I wrote. Please analyze the perspective I used | first-named
+- order:
+- about: The user hands over a prequel they wrote and asks the model to analyze which narrative perspective it uses.

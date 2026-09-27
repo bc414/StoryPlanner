@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated the backstory entries as eras or epochs to be ordered (Epoch prefixes, tiers spanning eras), when the History entries are the eras and the backstory entries are plotlines within the single era just before the main plot | The History codex entries are different eras. But the backstory codex entries all occur within the immediate preceding era | Flat clarification of what the material is, stated as a distinction, with no apology or irritation
+  - reading of the request | The model took the ordering problem to be about sequencing eras and events; the user says the aim is to order multiple plotlines of varying lengths that precede the main story | So I'm not trying to order eras, I'm trying to order various plotlines happening preceeding the main story and these plot lines can have varying lengths | Direct restatement of the goal, put as a plain negation followed by the actual aim
+- about: The user clarifies that the backstory entries are plotlines of varying length within one era before the main plot rather than separate eras, which redirects the model's timeline-ordering proposal.

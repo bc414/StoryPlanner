@@ -1,0 +1,41 @@
+- steps:
+  - author | opens design question | asks what magic crystal ponies should have, given already-established earth pony and buffalo systems | first exchange of the thread
+  - model | proposes a system | drafts a piezoelectric/resonance magic parallel to earth pony chemistry and buffalo mechanics | reply to the opening question
+  - author | extends the question | asks how the new system relates to changeling emotion-sense and love-to-calorie metabolism, citing a shared frozen-north origin and Flurry Heart | second exchange
+  - model | builds a comparative framework | maps changelings and crystal ponies as predator/symbiote evolutionary branches and explains Flurry Heart through it | reply
+  - author | sharpens the ask | requests an explicit verdict on giving crystal ponies the same caloric conversion and emotion sense as changelings minus the drain ability, tying it to crystallization | third exchange
+  - model | delivers a verdict and mechanism | confirms the parallel, casts crystallization as caloric surplus, and splits sense types into receptive vs reflective | reply
+  - author | injects a new constraint | brings in prior lore that changelings were once harmonic and only became predators after overhunting caused a Predator's Dilemma, asks to reevaluate | fourth exchange
+  - model | revises the framework | reframes crystal ponies as the changelings' uncorrupted control group under the new constraint | reply
+  - author | draws a canon parallel | points out the show's own pairing of changelings, the Crystal Empire, and Thorax's intro episode as evidence this isn't coincidence | fifth exchange
+  - model | affirms and extends | validates the observation and ties Cadance, Chrysalis, and the Crystal Heart into one triptych | reply
+  - author | brings in a plot element from the source material | introduces the 'crystal ponies fight harder' premise from the forked story and asks for a hard-magic explanation compatible with their emotion sense | sixth exchange
+  - model | supplies a combat mechanism | proposes a resonant feedback/signal-dominance explanation for why hope overrides fear in formation | reply
+  - author | applies the mechanism to plot | extends the framework to explain Statthalter vs Jaeger deployment, Shining Armor's retreat, and Flurry Heart's role at the Crystal Heart | seventh exchange
+  - model | validates tactical consistency | analyzes the deployment logic, the retreat-and-compression strategy, and Flurry Heart's filtering function | reply
+  - author | asks a comparative what-if | questions whether ancient changeling hives could have resisted via solidarity alone, tying it to omnivore vs herbivore diet | eighth exchange
+  - model | analyzes the counterfactual | confirms the irony, explains diet-driven divergence, and distinguishes ancient from modern Jaeger roles | reply
+  - author | requests plan review and application | asks whether the hope-solidarity mechanism can be dramatized in a specific chapter where Camp Fluttershy takes in traumatized pony patients | ninth exchange
+  - model | drafts a chapter-level mechanism | explains an ambient-dilution/absorption model and stages it as beats for the chapter | reply carrying the mechanism into notes on a plot-point/subject Link
+  - author | asks a new application | asks whether EEEE!'s parloirs should also become a POW rehab center, given the organization's name evokes empathy | tenth exchange
+  - model | proposes a differentiated function | distinguishes the parloir's role from Camp Fluttershy and sketches mechanics and a NIMBY-style conflict | reply
+  - author | brings in established naming lore | supplies the Coltbert/parloir/FJA backstory and asks for French name candidates that satisfy the acronym and the irony | eleventh exchange
+  - model | offers naming options | gives three candidate names with layered meanings and recommends one | reply
+  - author | redirects the naming | rejects the option that names Aquileia outright, citing Equestrian isolationism, and asks for alternatives | twelfth exchange
+  - model | offers revised naming options | gives new candidates avoiding an overt Aquileian reference and recommends the Avant-garde option | reply carrying the chosen name into two plan entries
+  - author | poses a scenario question while restating own lore | asks for pros and cons of turning the FJA into a Fluttershy-style rehab camp, recapping the siege-stabilization and Stalliongrad-gulag lore | thirteenth exchange
+  - model | delivers pros/cons and a recommendation | analyzes thematic fit, political risk, and capacity limits, then proposes an officer-class compromise | reply
+  - author | corrects the model's recommendation | rejects the officer-class idea, insists EEEE! would take conscripts as fellow workers, and adds red/pink-love economy and capacity-timing detail | fourteenth exchange
+  - model | revises the analysis | affirms the conscript focus and analyzes the love-economy tie-in and the tragedy of capacity outpaced by the front's collapse | reply
+- kept:
+  - note 3316 | pasted whole from this reply | keeps the described pony-arrival-expectation beat verbatim, filed on the Link between the Camp Fluttershy rehab plot point and Changeling Emotion Sense
+  - note 3317 | pasted whole from this reply | keeps the changeling's flinch-then-approach reaction beat verbatim, on the same Link
+  - note 3318 | pasted whole from this reply | keeps the modeled line of in-scene dialogue verbatim, on the same Link
+  - note 3319 | pasted whole from this reply | keeps the sentence naming empathy-not-numbness as what breaks the trauma loop, on the same Link
+  - note 3320 | pasted whole from this reply | keeps the contrasting sentence on how crystal ponies push fear outward, on the same Link
+  - note 3321 | pasted from this reply with cuts | keeps a trimmed version of the sentence on changelings absorbing and detoxifying fear, on the same Link
+  - note 1393 | one sentence lifted from this reply | keeps the chosen club name as a detail on the Manehattan Rallies plot point, noting a character's in-story recognition of the acronym
+  - note 4752 | one sentence lifted from this reply | keeps the same chosen club name as a detail on the Parloir Operator subject entry
+  - note 795 | the author's own words in this record | keeps the author's restated detail about prisoners being transferred to Stalliongrad and the city's demand for retribution, filed on the Fluttershy-gives-Celestia-The-Stare plot point
+- brought: The author brought pieces of an already-built story bible into each exchange — the earth pony/buffalo magic rules, changeling biology and Predator's Dilemma history, the Sombra/Crystal Empire timeline, a plot beat borrowed from the forked source story, and the Coltbert/parloir naming backstory — using each to ask the model to extend, reconcile, or apply the existing system to a new question or chapter.
+- loop: The loop runs from the author supplying an established lore fragment or plot requirement, through the model proposing or revising a systemic explanation, to the author redirecting, correcting, or applying that explanation to a further plot point across many turns; only a narrow slice of this — a handful of chapter-beat sentences from one reply and a chosen name from another, plus the author's own restated plot detail — ends up copied into the plan's Link, plot-point, and subject entries.

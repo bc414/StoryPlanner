@@ -1,0 +1,10 @@
+- sources:
+  - "Spike the Great and Powerful" bit from canon FiM (how the crystal ponies love him) | canon material to work into the story, used to make Spike important in the siege | How can I tie in the "Spike the Great and Powerful" bit from canon FiM | referred-to
+  - canon episode "The Times they are a Changeling" | canon episode to be kept almost entirely intact, adapted only where the plan requires | can be kept almost entirely intact | referred-to
+  - this new setup (Spike placed in the crystal empire instead of following Twilight around) | treat as the current settled arrangement that makes the canon episode usable | now that I have placed Spike in the crystal empire | referred-to
+  - my current plans / my current plan (Flurry Heart finds Thorax via her emotion sense, at five, after escaping the crystal city to the frozen north) | the author's own plan to synthesize the canon material with, and which overrides canon where they differ | How can I synthesize with my current plans? | referred-to
+  - canon (Flurry Heart still an infant during the Changeling episode) | reference point that the plan departs from; the infant age and the accidental discovery by Spike are not kept | In canon, that episode happened while Flurry Heart is still an infant | referred-to
+  - "Secret of my Excess" | canon episode supplying Spike's past trauma of accidentally being a monster, to be used as the basis of his empathy with Thorax | past trauma about accidentally being a monster (Secret of my Excess) | referred-to
+- order:
+  - my current plan (five-year-old Flurry Heart discovering Thorax) over canon episode (Spike finding Thorax, Flurry Heart an infant) | perhaps the discovery is by Flurry Heart instead of Spike of just happening to find Thorax
+- about: The user asks how to fold canon Spike material (crystal ponies' love, \"The Times they are a Changeling\", \"Secret of my Excess\") into their siege plot, adapting canon to their own plan where Flurry Heart is five and finds Thorax herself while Spike becomes the first to accept him.

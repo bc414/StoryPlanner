@@ -1,0 +1,79 @@
+- steps:
+  - author | supplies draft notes for synthesis | fragmented notes on EEEE!, SAA-GR trade, parloir culture | opening exchange
+  - model | synthesizes fragments into structured analysis | genetic code of EEEE!, martial-law investment, parloir paradox, game-theory table, Applejack payoff | reply to opening notes
+  - author | supplies draft notes for synthesis | notes on Gerad's two-child cap and open-door exit policy | next exchange
+  - model | synthesizes into structured analysis | HR logic of the cap, loyalty-decay curve, bureaucrat-vs-tyrant table, Coltbert's freedom | reply
+  - author | asks a comparative extension question | parallel between Coltbert's case and Chrysalis/Thorax/Kessel, her mitigation and its failure | follow-up question
+  - model | builds comparative analysis | trauma-loyalty parallel, mitigation protocol, pressure-cooker failure of Thorax and Kessel | reply
+  - author | brings backstory detail plus a proposed revision | tax-standardization bureaucracy, replacing the courtly 'napkin' model with a fascist bootcamp | next message
+  - model | evaluates viability of the proposed revision | phased tax-then-academy timeline, resulting Iron-Statist/Warlord factions | reply
+  - author | issues corrections to the model's draft | mixed pony/griffon auditors, cohabitation with wives, statthalter origin, timing question, war-trigger event | corrective message
+  - model | revises the analysis around the corrections | domestic pressure-cooker mechanics, IJA-style statthalter hierarchy, graduate model for Iron Statists | reply
+  - author | supplies draft notes for synthesis | Pan-Griffonian trade threat to farmers, property-vs-liberty framing of the 2nd Republic, mercantilism-as-feudalism | next message
+  - model | synthesizes into structured analysis | trade death-sentence logic, deed psychology, property-war reframing, mercantilism table | reply
+  - author | asks a verification question | historical accuracy of the serfdom depiction | next message
+  - model | confirms and grounds the depiction in real history | hereditary tenure, skilled-labor terroir parallel, collapse of tax legitimacy | reply
+  - author | extends with mechanical follow-up questions plus new plot claims | 972 transition mechanics, Gerad as apex predator, Chrysalis's harvester evolution | next message
+  - model | works out the mechanics of the transition | auditor-to-steward shift, serf-experience change, zookeeper-vs-butcher framing | reply
+  - author | poses two practical worldbuilding questions | whether warlords keep a cut, local vs foreign deployment of auditors | next message
+  - model | answers both with mechanisms and trade-offs | stipend system, rule-of-avoidance deployment pros and cons | reply
+  - author | supplies draft notes for synthesis | chasseur tactics against the knightly code, Henri's poseur logic, Trimmel's radicalization | next message
+  - model | synthesizes into structured analysis | chasseur doctrine, Henri's application, Trimmel's tragic mirror | reply
+  - author | poses an open design question with options | myth vs observed-superstition vs empirical status of earth pony magic across eras | next message
+  - model | recommends an option and traces it through eras | pinkie-sense model followed from warlord era to Fleur Bloom | reply
+  - author | complicates the question with new constraints | Grover III's science, Equestria's isolation, why/how Coltbert is first, his travel logistics | next message
+  - model | answers the constraint and drafts a travel sequence | griffon/equestrian blind spots, funded grand tour, return timing | reply
+  - author | refines the travel plan | Coltbert departs after finishing his conquests, returns on the eve of counterrevolution; introduces Vinovia/Gaudreau as an observable case with a timeline | next message
+  - model | integrates the refinement into a timeline | departure motivation, tiered magic system, Vinovia as the anomaly Coltbert studies | reply
+  - author | asks a targeted follow-up question | whether pride would spike in Vinovia during Verany's six months | next message
+  - model | answers with a qualified verdict | relative spike vs full miracle, defensive-pride vs proprietor-pride distinction | reply
+  - author | supplies draft notes tying worldbuilding to a broader thesis | Gerad's delegation model from Grover III, Chrysalis's trauma cap, claim about stagnation's necessity | next message
+  - model | synthesizes into a unified theory | trauma-loyalty engine, safety-decay across generations, vindication of stagnation | reply
+  - author | extends the theory to the real world and asks a historical question | Western moral surplus and its decline since 1980, request for historical precedents | next message
+  - model | answers the historical question and reframes a character | Song-Dynasty/Pax-Romana comparison, Western stagnation as anomaly, Celestia as tragic guardian | reply
+  - author | brings a new allegory | nuclear weapons/Luna's spell parallel, reason for omitting nukes, MAD as lie, love-as-solar-power idea | next message
+  - model | develops the allegory | fissile feedback loop, Fukushima-style regulation, distributed-grid thesis | reply
+  - author | extends the allegory further | Cold War Skyfall-vs-Aquileia framing, nationalism's expiration after victory | next message
+  - model | develops the extended allegory | ideological cold-war description, trap of victory, wrong-lessons taxonomy, correct-lesson synthesis | reply
+  - author | proposes a meta-framework | FiM morals vs 'elements of liberty', Faust vs Hasbro, outgrowing Celestia | next message
+  - model | builds out the meta-framework | Celestia-as-mandate, element-by-element maturity table, educational arc | reply
+  - author | brings a character reinterpretation | Rarity's canon coldness toward Spike explained as misapplied Aquileian taming tactic, proposes a scene with Coltbert | next message
+  - model | drafts the scene and its logic | cargo-cult misunderstanding, sample dialogue, transformation | reply
+  - author | corrects the model's framing | Rarity already reformed per canon episode so the question is why not whether, and the tactic's origin must be parloir folklore not direct observation | corrective message
+  - model | redrafts the scene and reasoning per the correction | broken-telephone origin, retained posture after reformed greed, revised dialogue | reply
+  - author | brings a plot turn plus a real-world analogy and asks if it holds | Verany's cartel/union turn compared to UAW vs corrupt NYC unions | next message
+  - model | validates and analyzes the turn | poseur's death, cartel-as-union mechanics, corrupt-union foil | reply
+  - author | asks a critical follow-up question | accuracy of the NYC/Cuomo comparison, requests better parallels | next message
+  - model | offers alternative historical analogues | Mafia Commission, Zaibatsu, Tammany Hall | reply
+  - author | proposes a mechanical refinement and asks if it holds | pre-negotiated barter payment in food rather than currency | next message
+  - model | validates and analyzes the mechanic | contract tangibility, incentive alignment, patriot-discount effect | reply
+  - author | asks a timeline-justification question and proposes an ending | why 1008 for the 2nd Republic, Moriset demoted to a peer-review seat, bloodless bank-run coup | next message
+  - model | works out the justification and the ending | generational-maturity phases, bank-run coup mechanics, Moriset as brand mascot | reply
+  - author | revises established characterization | Fleur and Henri shift from anti-monarchists to necessary wartime egotists later deconstructed | closing message
+  - model | builds out the revised characterizations | Fleur as missionary of meritocracy, Henri as anti-poseur zealot, war/peace arcs for both | reply
+- kept:
+  - note 3343 | pasted whole from this reply | keeps the parloir-paradox passage on why Manehattan parloirs differ from Pridea, filed under a Parloirs/Pre-War Manehattan link
+  - note 3346 | pasted whole from this reply | keeps the moral-investment/cultural-exchange passage on SAA's trade with GR, filed under an Applejack's Parents link
+  - note 3347 | pasted from this reply with cuts | keeps the narrative-payoff reveal about Applejack's parents, filed under an Applejack's Parents link
+  - note 4788 | pasted whole from this reply | keeps the 'Coltbert's Deviancy as a Product of Freedom' section, filed under the Coltbert subject
+  - note 4838 | pasted from this reply inside the author's own framing | keeps a dialectics summary of the Agency-vs-Enclosure parallel between Coltbert and Thorax/Kessel, filed under Pre-1st Revolution Aquileia
+  - note 4789 | pasted whole from this reply | keeps the Pan-Griffonian death-sentence and deed-psychology sections, filed under the 1st Revolution/Counterrevolution subject
+  - note 4832 | one sentence lifted from this reply | keeps a summary sentence on the 'King's Math' tax-efficiency logic, filed under Pre-1st Revolution Aquileia
+  - note 4827 | pasted from this reply inside the author's own framing | keeps a demographics summary of the Royalists combined with the stranger-auditor logic, filed under Pre-1st Revolution Aquileia
+  - note 4791 | the reply was quoting the plan | holds a version of the chasseur/Henri/Trimmel analysis with a differing ending, filed under Knightly Code / Rules of War
+  - note 4790 | pasted from this reply inside the author's own framing | keeps the first-theorist and journey sections with a revised timeline, filed under the Coltbert subject
+  - note 4883 | one sentence lifted from this reply | keeps a thesis sentence on Stagnant Harmony as a moral-surplus incubator, filed under Stagnation-to-Republicanism subject
+  - note 4897 | pasted from this reply inside the author's own framing | keeps a mechanics summary of the safety-decay 2nd-generation problem across characters and its solutions, filed under the same subject
+  - note 4888 | pasted from this reply inside the author's own framing | keeps the Western hyper-empathy anomaly summary with an added homogeneity caveat, filed under the same subject
+  - note 4934 | pasted from this reply inside the author's own framing | keeps a summary sentence on the post-scarcity stagnation being historically unique, filed under Being a Student of History
+  - note 4933 | the author's own words in this record | holds the core-theme statement on the nuke-already-existed premise and bottom-up alternative, filed under Weapons of Mass Destruction
+  - note 3999 | pasted from this reply inside the author's own framing | keeps the fissile-feedback-loop analysis of Luna's transformation, filed under Luna's Banishment
+  - note 4000 | pasted from this reply inside the author's own framing | keeps the Fukushima-regulation analogy for Celestia's banishment plus an added non-intervention note, filed under Luna's Banishment
+  - note 4269 | pasted whole from this reply | keeps the top-down-nuke/bottom-up and MAD-is-a-lie sections, filed under Luna's Banishment
+  - note 4796 | pasted whole from this reply | keeps the Celestia-as-mandate/Faustian-vision passage, filed under Lauren Faust's Original Themes
+  - note 4797 | pasted whole from this reply | keeps the full Verany cartel-turn analysis, filed under the Theodore Verany subject
+  - note 4945 | one sentence lifted from this reply | keeps a summary sentence on corrupt vs strategic unions, filed under the EEEE! subject
+  - note 4961 | one sentence lifted from this reply | keeps a summary sentence on the barter/terroir economic mechanic, filed under Coltbert Reforms Temp
+  - note 4795 | pasted from this reply with cuts | keeps the passage on Fleur and Henri treating intimacy as transaction and being antagonists to Celestia's philosophy, filed under the Fleur Bloom subject
+- brought: Across this stretch the author repeatedly brings fragments of the plan (draft note dumps on a subject), corrections to the model's prior drafts, targeted worldbuilding or historical-accuracy questions, and real-world analogies (UAW/Cuomo, nuclear deterrence, Cold War, Faust vs Hasbro) for the model to systematize into consistent lore.
+- loop: The author brings loose notes, corrections, or an analogy plus a question; the model returns a structured synthesis, table, or scene draft that reconciles them into consistent lore; the author then either corrects/redirects that synthesis or moves to a new topic, and the planning database keeps selected passages or single summary sentences, sometimes recast in the author's own words, filed under the relevant subject or link pages.

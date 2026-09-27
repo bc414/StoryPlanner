@@ -1,0 +1,7 @@
+- sources:
+  - my old planning notes when the stagnation of harmony was 1000 years old | treat as outdated; the reason the causal logic is not yet separated, and the 1000-year figure is only the initial reader perception to be corrected later | My old planning notes when the stagnation of harmony was 1000 years old is why this causal logic is not separated yet | referred-to
+  - the canon FiM setting post Hasbro Mandate, seasons 4-9 | use as the reference for what the Stagnation of Harmony, information control and noble lies amount to, which the turn says Celestia learned from Grover III | basically, the canon FiM setting post Hasbro Mandate, seasons 4-9 | referred-to
+  - Equestrian ontology/working rules | treat as the author's independently developed system, now to be connected causally to the Griffonian one | I developed Equestrian ontology/working rules and Herzland/Griffonian Empire civ system ontology/working rules independently | referred-to
+  - Herzland/Griffonian Empire civ system ontology/working rules | treat as the author's independently developed system, now to be connected causally to the Equestrian one | realized they could be interconnected | referred-to
+- order:
+- about: The author corrects the model's reconstruction of Celestia and Grover III's pre-summit knowledge, reverses the causal direction so each learns from the other and the Stagnation of Harmony follows from Grover III, and asks the model to help separate what Celestia carries from Luna's failure from what she carries from Grover III's failure.

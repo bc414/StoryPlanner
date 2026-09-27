@@ -1,0 +1,9 @@
+- asks:
+  - explain | give a general overview of the Llama model family | "Give an overview of the llama models"
+  - assess | determine whether Llama models can handle/process the user's 300k word story plan document | "whether they can handle my 300k word story plan document"
+- supplies:
+- shaping:
+  - factor in that the document in question is 300,000 words | "my 300k word story plan document"
+  - factor in that the user's hardware is an AMD RX 6700 XT (not Nvidia), bought in 2023 for $329, used for gaming | "my computer has an AMD graphics card, not Nvidia (rx 6700 xt from 2023 bought at $329 for playing games, not some massively overpriced Nvidia card)"
+- openness: Leans toward asking the model to check/assess two stated facts (a 300k-word document and an AMD RX 6700 XT GPU) against Llama model capabilities, while the "overview" portion is left open-ended.
+- subject: Overview of Llama LLMs and whether they can handle a 300k-word story plan document given the user's AMD (non-Nvidia) GPU

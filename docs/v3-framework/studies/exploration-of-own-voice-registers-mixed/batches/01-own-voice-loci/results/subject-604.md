@@ -1,0 +1,22 @@
+- passages:
+  - 53 | capsule-summary | terse third-person "How X and Y..." statement | Twilight and Fleur's industrial use of unicorn magic | apart
+  - 4069 | capsule-summary | short indicative statement of universal usability | who can use the Luna Nova rifle and what powers it | apart
+  - 4070 | technical-expository | present-tense technical description, vocabulary like "isometerizes" | Star Energy's hybrid tractor and its spell matrix | apart
+  - 4480 | narrative-backstory | third-person account of situation and motive, word "definitely" | Twilight's move to Star Energy after using magic for destruction | apart
+  - 4480 | institutional-aside | "Meanwhile" transition shifting focus to another party | Star Energy researchers' prior knowledge of crystals | apart
+  - 4480 | self-explanatory-reasoning | "So that's how" concluding causal phrase | why Twilight advances magic so fast at Star Energy | apart
+  - 5557 | directive-planning | "should" instruction, third-person scene direction | Fleur giving Twilight a calculator | apart
+  - 5557 | rhetorical-aside-question | parenthetical question mark, first-person research query | how WW2-era scientists worked without calculators | run-in
+  - 5557 | directive-planning | third-person scene description leading into speech | Twilight panicking about learning once matrices exist | apart
+  - 5557 | unquoted-direct-speech | no quotation marks, "we"/"you" pronouns after "Fleur says" | calculators not excusing skipping arithmetic | run-in
+  - 5668 | technical-expository | in-world description with "(software)"/"(hardware)" labels | crystallers' filtering spell versus need for Skyfall valves | apart
+  - 5668 | real-world-analogy | real brand names, "It's like" comparison breaking story frame | comparing the monopoly to Nvidia/Apple and TSMC | apart
+- shifts:
+  - 4480 | narrative-backstory | institutional-aside | "Meanwhile" transition to researchers' knowledge
+  - 4480 | institutional-aside | self-explanatory-reasoning | "So that's how" summarizing conclusion
+  - 5557 | directive-planning | rhetorical-aside-question | parenthetical question interrupts the instruction
+  - 5557 | rhetorical-aside-question | directive-planning | new paragraph "Later on" resumes scene planning
+  - 5557 | directive-planning | unquoted-direct-speech | "Fleur says" introduces unquoted speech with "we"/"you"
+  - 5668 | technical-expository | real-world-analogy | shift to real brand names and "It's like"
+- registers: capsule-summary; technical-expository; narrative-backstory; institutional-aside; self-explanatory-reasoning; directive-planning; rhetorical-aside-question; unquoted-direct-speech; real-world-analogy
+- whole: This item's six notes are written in several distinct registers - short capsule summaries, technical-expository description, narrative-backstory reasoning, directive planning with an embedded rhetorical aside and unquoted speech, and one turn to real-world analogy - which mostly stand apart from each other as separate sentences or paragraphs, with only the parenthetical aside and the reported speech running in without a break inside a single sentence.

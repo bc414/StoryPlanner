@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about whether the context window covers the whole chat or a single prompt, and whether splitting the 2-million-word text into halves would work, without disputing anything the model said.

@@ -1,0 +1,7 @@
+- asks:
+  - check | whether the laid-out chain of trade/political reasoning (Aquileian fleet protection, FJA ties, Applejack's parents exporting to both Aquileia and Skyfall, Chrysalis's inability to pressure Skyfall or deploy submarines before formal war) holds together and is internally consistent | ends with "Does this make sense?"
+- supplies:
+  - reasoning/claims | a chain of worldbuilding logic about faction relationships: Aquileia's fleet protecting equestrian exports, the FJA's ties to parloir customers and companies like Star Energy, Applejack's parents exporting to Aquileia while also selling to and insuring through Skyfall, Skyfall's lack of unity and non-dictatorial pragmatism, and Chrysalis's inability to pressure Skyfall's navy or release submarines before a formal war on Equestria | a paragraph
+- shaping:
+- openness: asks the model to check what it states: the message presents its own reasoning as settled and only asks the model to confirm it makes sense
+- subject: worldbuilding logic for faction trade relationships and wartime constraints (Aquileia, Skyfall, Chrysalis, FJA, Applejack's parents) in the story plan

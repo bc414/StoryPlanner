@@ -1,0 +1,8 @@
+- steps:
+  - the author | constrains | a business-model rule: the company's product is export-only to Griffonia, never sold to ponies domestically | opening of the exchange (944 prompt)
+  - the model | elaborates | a multi-part narrative analysis building on the constraint: why the parents aren't social pariahs, a wartime plot pivot for a later chapter, a symbolic reading of a character eating the product, and a summary profile of the company | 944 response
+  - the author | adds | a new founding premise: the company was built from ponies of several different clans, and names two canon relatives as part of that founding | 945 prompt
+  - the model | elaborates | a further narrative analysis extending the multi-clan premise: role division within the company, a 'coalition against tribalism' theme, a reinterpretation of an established character backstory episode, a rationale for why the named relatives would join, and a summary of the company's leadership structure | 945 response
+- kept:
+- brought: The author brought two additions to an already-established company backstory involving the parent characters — an export-only sales constraint and a multi-clan founding premise incorporating canon relative characters — for the model to work into the existing plan.
+- loop: The author supplies a single constraint or premise on top of already-established lore, and the model returns an expansive multi-section elaboration (economics, plot function, symbolism, structure) each time, but no note from the planning database is traced back to either exchange in this stretch, so nothing from this back-and-forth is shown entering the plan directly.

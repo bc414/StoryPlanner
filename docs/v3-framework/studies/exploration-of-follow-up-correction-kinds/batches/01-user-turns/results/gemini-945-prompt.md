@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model named only Bright Mac and Pear Butter as founders and presented the company as their venture. The user says it was formed by ponies from many clans, which brings in Aunt and Uncle Orange. | I think the company would be made up of ponies from all different clans... fundamental to its formation. And hence aunt and uncle orange | Hedged assertion ("I think"), backed by a reason (the cross-clan makeup is fundamental to formation), then a consequence drawn briefly ("hence") that adds the Oranges, with no reference to the model's version.
+- about: The user amends the model's finalized SAA backstory by saying the company's founding rested on a multi-clan group, like the Apple and Pear pairing, and so should include Aunt and Uncle Orange.

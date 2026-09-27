@@ -1,0 +1,7 @@
+- asks:
+  - check | asks whether the described character arc and its meaning make logical sense and hold together with the story's themes | "Does this make sense and supports the themes?"
+- supplies:
+  - material, arc/interpretation summary | clarifies what the 'us' line was meant to signify (Celestia picking Applejack as General only for being an element bearer, not competence) and traces Applejack's arc from despair in chapter 1, through resolve in chapters 2-3, to learning generalship and governorship in chapters 5-10, culminating in new resentment toward Celestia over her unilateral peace declaration | a paragraph
+- shaping:
+- openness: Check: the message states a specific reading of the character arc and its thematic function, then asks the model to confirm whether it holds up.
+- subject: Applejack's character arc and its thematic coherence regarding legitimacy, resentment, and Celestia's authority

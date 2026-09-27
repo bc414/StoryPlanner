@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a worldbuilding idea, that the Storm King's join-or-die horde doubles as unity against the external Statthalter slavers, and asks whether that motive is primary or secondary to looting and whether it makes his horde structurally stronger, without pointing at any body of material for the model to use.

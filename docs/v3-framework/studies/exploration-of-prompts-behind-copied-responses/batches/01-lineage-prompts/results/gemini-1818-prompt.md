@@ -1,0 +1,6 @@
+- asks:
+  - analyze | reanalyze how the griffon serfs are perceived, incorporating the historical context of the first failed bourgeois revolution and the royalist Coltbert Reforms | 'Reanalyze the perception of the griffon serfs with the context of...'
+- supplies:
+- shaping:
+- openness: Leaves the answer open, asking the model to work out a reinterpretation of the griffon serfs' perception rather than naming a conclusion or offering options to choose between.
+- subject: Reinterpreting the social perception of griffon serfs in light of a failed bourgeois revolution and royalist reforms within the user's story world

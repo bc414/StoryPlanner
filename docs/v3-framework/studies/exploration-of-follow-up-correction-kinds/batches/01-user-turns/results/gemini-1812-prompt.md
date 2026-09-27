@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's conquest story treated Griffons as a ruling minority over a pony peasantry (Franks over Gauls, planters over field hands). The user gives the actual makeup of Aquileia: mostly griffon, with ponies a minority, and most serfs are griffon peasants who work beside ponies. | To clarify, Aquileia is 80% griffon and only 20% pony. Most serfs are also griffon peasants alongside ponies. | Flat restatement of the facts, introduced as a clarification. No blame, no apology, and no reason offered beyond the figures. It leaves the model to work out what the correction changes.
+- about: The user corrects the model's picture of Aquileia's population, adds lore on how earth pony magic works, then moves on to ask how real French and English centralization and the Black Death compare.

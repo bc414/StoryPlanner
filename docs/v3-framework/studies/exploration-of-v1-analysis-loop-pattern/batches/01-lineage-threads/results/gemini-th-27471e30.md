@@ -1,0 +1,21 @@
+- steps:
+  - author | question | asks how the union handles domestic drug fallout from the wartime blockade | opening message of the exchange
+  - model | scenario-building | lays out the drug-crisis setup, the union's internal response tactics, and ties it to Applejack's export decision | reply to the opening question
+  - author | analogy-drawing | draws a parallel to Black America and asks about intersecting history of Black union labor | follow-up after the scenario reply
+  - model | historical-mapping | supplies Great Migration and AFL/CIO/Randolph history mapped onto the union-versus-cartel conflict | reply to the analogy request
+  - author | synthesis-proposal | proposes a short-term buyout versus long-term capital-investment resolution, distinguishing it from gentrification or imperialism | follow-up after the historical mapping
+  - model | confirmation-elaboration | confirms and elaborates the triage-versus-cure framework and offers to draft a friendship letter | reply to the synthesis proposal
+  - author | request-with-constraints | asks for three letter options, specifying the letter stay optimistic with the Skyfall harm hidden until Fluttershy's Stare, and adds a Comet Shine rationalization detail | follow-up after the offer
+  - model | option-generation | delivers the Comet Shine rationalization setup plus three draft letters and an account of why the Skyfall harm stays unnoticed | reply to the constrained request
+  - author | selection-with-rationale | picks the family-feud letter option and narrows it to Tribe D specifically, citing worldbuilding detail about the vice trade | follow-up after the three options
+  - model | finalization | reaffirms the chosen angle, polishes the letter, and ties it forward to the coming Stare scene | reply to the selection
+  - author | new-request | asks for a different context or letter about doing dirty work for a friend, open to either Applejack or Twilight | follow-up after the finalized letter
+  - model | alternative-options | proposes three dirty-work letter scenarios and recommends pairing a Twilight rifle letter with Applejack's untouched optimism | reply to the new request
+  - author | placement-constraint | clarifies the letters are confined to the separation period and confirms the drug-trade letter is the final one marking Applejack's return | follow-up after the alternative options
+  - model | closure-analysis | explains why ending the separation on this letter works dramatically and delivers a refined final version of the letter text | reply to the placement constraint
+- kept:
+  - note 1692 | pasted whole from this reply | keeps the Comet Shine rationalization framing Skyfall as a voluntary rat race, filed under Applejack's tribe-investment plot point
+  - note 1742 | one sentence lifted from this reply | keeps a line about unresolved tribal wars and allied arrogance, filed under a separate letter-about-tribal-petty-wars plot point
+  - note 1697 | one sentence lifted from this reply | keeps the finalized family-feud drug-trade letter text, filed under the plot point for Applejack's letter authorizing the drug trade
+- brought: The author brought a worldbuilding question about how the union handles a wartime drug-trade crisis, drawing on established elements (Tribe D, Tzinacatl migration, the blockade) to open the exchange.
+- loop: The author repeatedly brings a worldbuilding question or a constraint on how a scene should work (a real-world parallel, a thematic synthesis to confirm, rules for a letter's tone and reveal timing, a selection among drafted options), and the model answers with expanding analysis or generated draft text; the planning database keeps condensed fragments of the model's rationalization passages and letter drafts, filing them as short entries under the specific plot points they belong to, alongside one differently-toned draft of the same letter.

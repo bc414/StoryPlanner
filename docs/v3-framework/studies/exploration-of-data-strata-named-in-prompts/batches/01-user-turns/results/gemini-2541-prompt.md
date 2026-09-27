@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new plot development, a Statthalter island slave revolt that leads to an unsanctioned FJA pirate war and the 1008 bank run, and asks the model to weigh its timing against the battle of Mount Aris and to consider why Chrysalis would tolerate it, without pointing the model at any body of material.

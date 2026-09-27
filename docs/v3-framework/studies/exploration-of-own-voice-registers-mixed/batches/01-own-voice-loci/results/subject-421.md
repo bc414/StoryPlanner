@@ -1,0 +1,12 @@
+- passages:
+  - note 49 | abstract-thesis | timeless present tense, no subject noun, moral+structural claim | claim that distributed power is better | apart
+  - note 4261 | historical-narrative | past tense, proper nouns, sequence of army types | evolution of Herzlander armies from serfs to musket volleys | apart
+  - note 4261 | analytical-labeling | short demonstrative sentences 'That's...'/'It's...', present tense | naming the prior description as the traditional/grand-battleplan model | run-in
+  - note 4261 | historical-narrative | past/present tense, dated range, proper noun army and campaign | FJA's rifles and individual initiative in reconquest wars | apart
+  - note 4261 | analytical-labeling | demonstrative 'This is the origin of...', present tense, term-coining | linking the FJA example to bottom up mission command/mobile warfare | run-in
+- shifts:
+  - note 4261 | historical-narrative | analytical-labeling | switch from past-tense descriptive sentences to short present-tense demonstrative sentences ('That's...', 'It's...') naming what was just described
+  - note 4261 | analytical-labeling | historical-narrative | new paragraph opens with a fresh proper-noun subject (FJA) and a dated range, returning to concrete descriptive detail
+  - note 4261 | historical-narrative | analytical-labeling | switch to a demonstrative present-tense sentence ('This is the origin of...') that names the preceding detail as the source of a concept
+- registers: abstract-thesis; historical-narrative; analytical-labeling
+- whole: The item holds one note in a single abstract-thesis register and another that alternates twice, without paragraph breaks within each pair, between concrete historical-narrative description and short analytical-labeling sentences that name what the description stands for.

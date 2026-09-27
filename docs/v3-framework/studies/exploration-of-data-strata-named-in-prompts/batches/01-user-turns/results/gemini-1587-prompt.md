@@ -1,0 +1,5 @@
+- sources:
+  - canon backstory of the crystal ponies and Sombra | the published show's account, to be laid out as the baseline the model should report | "canon backstory of the crystal ponies and Sombra" | referred-to
+  - EaW twists | the setting's own changes or departures from canon, to be reported in addition to the canon account | "any EaW twists" | referred-to
+- order:
+- about: The user asks the model to lay out the canon history of the Crystal Ponies and Sombra and to add whatever twists EaW puts on it.

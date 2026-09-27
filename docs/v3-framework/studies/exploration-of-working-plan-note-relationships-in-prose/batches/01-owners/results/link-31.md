@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 587|Fleur, a character who speaks the line, and Celestia's past governance of ponies, both held outside this item|Fleur says Celestia "nurtured away ambition"
+- whole: This owner holds only a single note, so there is nothing in it to hang together or fall apart, and it stands as one entry.

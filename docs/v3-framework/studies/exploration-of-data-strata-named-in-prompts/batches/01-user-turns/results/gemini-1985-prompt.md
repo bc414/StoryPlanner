@@ -1,0 +1,6 @@
+- sources:
+  - a json of raw notes | the material to be sorted; its verbatim text is chunked into atomic thoughts and placed into buckets, with nothing deleted or consolidated by the AI | feed in a json of raw notes | referred-to
+  - an additional natural language description of what logical ordering of the major concepts I want | proposed extra guidance supplied alongside the notes, telling the model how to order the major concepts (chronological history, world rules, thematic analysis); asked whether it can go in the same call or needs separate prompts | additional natural language description of what logical ordering | first-named
+  - the determined major concepts from part 1 | the set of top-level buckets settled first, into which the verbatim chunks are then sorted; anything that does not fit goes to a miscellaneous bucket; the user may want to review them before sorting | anything that doesn't fit the determined major concepts from part 1 | referred-to
+- order:
+- about: The user asks whether a raw-notes JSON plus a natural-language ordering description can go into one system instruction or needs separate prompts per note type, and whether major-concept creation should be a separate reviewable step from sorting, while restating a pure-sorter design in which they alone control consolidation.

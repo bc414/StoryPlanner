@@ -1,0 +1,6 @@
+- sources:
+  - P&K | treat as established canon that the Tzinacatl have jungle-based alchemy with magical ingredients, and build the raft idea on it | P&K established that the Tzinacatl have alchemy using magical ingredients from their jungle | referred-to
+  - Applejack's belief in Celestia's implicit trust, as the author has already told the model | hold as a settled premise for the whole war; the model must keep it in mind and not contradict it | Remember that Applejack believes she is operating under Celestia's implicit trust the ENTIRE duration of the war | referred-to
+  - my planning (the author's plan for the story, including no explicit Republic until after the white peace announcement and the quiet Celestia strategy scene) | check it against the trust premise and report any contradictions | Is there anything in my planning that contradicts this line of thinking/planning | referred-to
+- order:
+- about: The author develops the Tempest chapter (Rainbow's weather critique, a possible Tzinacatl attack, magical-plant rafts as a bridge to the skeptics) and asks the model to check the plan for contradictions with the premise that Applejack believes Celestia trusts her throughout the war and that no Republic is named until after the white peace.

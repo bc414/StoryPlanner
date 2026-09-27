@@ -1,0 +1,4 @@
+- sources:
+  - this framing | take as the working premise (title as the threat rather than the outcome) and judge the title word against it | With this framing in mind | referred-to
+- order:
+- about: The user asks the model to reconsider whether "Oblivion" is the best title word, or whether a better one exists, given the framing just agreed on.

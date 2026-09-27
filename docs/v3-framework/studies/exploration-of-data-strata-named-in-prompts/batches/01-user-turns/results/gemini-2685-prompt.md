@@ -1,0 +1,6 @@
+- sources:
+  - scientific knowledge about vasectomy and testosterone, and about the 1960 birth control pill (the model's general knowledge) | asked to confirm or judge from what science shows; the user's own assumptions are put as questions to check, not as settled | Scientifically, a vasectomy has no chemical effect on testosterone production, right? | first-named
+  - the gels from Indian studies | asked to assess whether they are functional, reversible and cost effective; the claim about lobbying is the user's guess to be tested, not a fact | Are the gels from Indian studies fully functional and reversible and cost effective | first-named
+  - the model's earlier point that men fear losing their capacity to impregnate makes them weak | taken as a premise and used for an analogy to the changelings' draining spells | They fear that losing their biological capacity to impregnate makes them "weak." | referred-to
+- order:
+- about: The user links the model's point about male fear of emasculation to a lore parallel, then asks factual questions about vasectomy and testosterone, the pill, and male contraceptive gels, while musing about using these in Skyfall.

@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to review them and tighten its analysis against them, treating the faction setup the author then lays out as the basis | Please review my story plans and tighten the analysis | referred-to
+- order:
+- about: The user asks the model to review their story plans and sharpen its analysis, then states how the Harmonic Republican, Celestial, Gilded Trust and Ponies First factions map onto the stages, and asks how to link them to present-day America during the white peace and referendum.

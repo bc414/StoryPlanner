@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's intent-detection ontology as the working premise and asks a further question about how it would explain Chrysalis's narcissism.

@@ -1,0 +1,5 @@
+- sources:
+  - the YouTube video (link) | apply its ideas to the story plans, themes and world building, drawing insights from it but not just mirroring or summarising it | Https://youtu.be/jzuV64_ll1g | first-named
+  - my story plans and themes and materialist world building | the material the video's ideas are to be applied to and used to enhance the world building so it delivers the themes | my story plans and themes and materialist world building | referred-to
+- order:
+- about: The user shares a YouTube link and asks the model to analyse how its ideas apply to their story plans, themes and materialist world building, and how to enhance the world building to deliver the themes, without merely restating the video.

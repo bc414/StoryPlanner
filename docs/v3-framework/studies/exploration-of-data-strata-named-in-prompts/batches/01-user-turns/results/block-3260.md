@@ -1,0 +1,6 @@
+- sources:
+  - my worldbuilding for the Great Lakes (which should be Mazwi Empire) | treat as describing the period before Skyfall influence (from about 970 ALB) and before the Storm King's horde, so it is not a picture of the game-start situation | before Skyfall influence (starting around 970 ALB or so) and before the Storm King's horde | referred-to
+  - The game's flavor text | treat as covering only the immediate prelude to the 1007 start, so don't stretch it to earlier periods | only about the immediate prelude to game start | referred-to
+  - that thread about adapting cattle as the prestige economy | treat as abandoned and outdated, since the author moved to zebra spirit magic; the Yetis-in-Great-Lakes idea from it is dropped | before I hard pivoted to the zebra spirit magic | referred-to
+- order:
+- about: The user agrees to drop the Yeti/cattle idea for the Great Lakes and corrects the model on timing, saying their Great Lakes Mazwi Empire worldbuilding predates Skyfall and the Storm King, while the game's flavor text covers only the immediate prelude to 1007.

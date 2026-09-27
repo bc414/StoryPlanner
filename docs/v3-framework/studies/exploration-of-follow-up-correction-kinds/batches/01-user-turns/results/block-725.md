@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user announces newly uploaded work-in-progress model classes and moves on to a new design question about whether Subject, PlotPoint, Chapter and PlotPointSubjectLink should share configurable note-track and property definitions through a base class or through composition.

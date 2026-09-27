@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two follow-up history questions about the Dutch Republic, whether it expanded to the East Indies after the Eighty Years' War and how it fell in 1795, without pointing at any body of material to draw on.

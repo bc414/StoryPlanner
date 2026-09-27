@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a new per-category scheme of category and truth-track names (Ontology, Axioms, Mechanics, Binding Logic) in place of a single term, and asks the model to evaluate each term, offer runner-up alternatives, and explain how Abstract System differs from Organization.

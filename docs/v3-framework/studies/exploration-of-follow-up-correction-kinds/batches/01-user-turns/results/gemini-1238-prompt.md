@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's tally-stick and Chrysalis-inflation parallels and asks whether Tally Mark's cutie mark backstory and her harvest tally-stick handling can be tied into Chrysalis's economic scheme to explain the missing bits and an honesty-based fix, which builds on the model turn without disputing it.

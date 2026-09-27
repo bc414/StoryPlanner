@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - content of the offered draft (own name: redirect of what the proposed piece should contain) | The model offered a letter that explicitly spells out Applejack's realization about dirty hands and the Skyfall dumping; the user says the letter should leave the dumping out and be fully optimistic, with the Skyfall tension surfacing only through Fluttershy at The Stare | Actually, maybe it shouldn't even mention doing the dirty work of dumping drugs into Skyfall | Tentative mid-sentence reversal after accepting the offer, hedged with maybe and followed by a question asking whether the alternative works
+- about: The user accepts the offered letter but reshapes it, asking for three optimistic versions that omit the Skyfall dumping, and asks whether the moral tension can stay unnoticed by every character until Fluttershy, while adding Comet Shine's view of Skyfall as a voluntary rat race.

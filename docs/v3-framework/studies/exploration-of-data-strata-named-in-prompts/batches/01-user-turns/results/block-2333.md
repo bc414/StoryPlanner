@@ -1,0 +1,7 @@
+- sources:
+  - Chapter 1.pdf (attached chapter 1 draft, with Falldale) | treat as outdated technique and not binding; author is not attached to it; mine it to decide which plot points should stay or go, as grimdark remnants | "Here was my chapter 1 draft, with falldale" and "I am not attached to any and it's also outdated technique" | first-named
+  - the whole story plan (thesis and materialist world building) | treat as the later, current plan that the draft predates; the draft was written before it | "BEFORE the whole story plan was made, all the thesis and materialist world building" | referred-to
+  - story plan DB.md | treat as lacking the details found in the draft; the draft supplies more detail than it does | "the story plan DB.md doesn't really have the details in the draft" | referred-to
+- order:
+  - story plan DB.md over Chapter 1.pdf draft? no explicit ranking; the turn only says the draft is outdated technique and the plan lacks its details | "BEFORE the whole story plan was made"
+- about: The user supplies their old pre-plan Chapter 1 draft, calling it outdated and non-binding, and asks which of its plot points should stay or go, since the story plan file lacks the draft's detail.

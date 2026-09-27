@@ -1,0 +1,4 @@
+- sources:
+  - the obsolete-rifle conscript counter-attack scenario just discussed in this conversation | build on it as the basis of the post-Quebuck scene | This is the foundation of the "We are monsters" scene | referred-to
+- order:
+- about: The author takes the just-discussed conscript-assault idea and fixes it as the basis of the post-Quebuck \"We are monsters\" scene, then adds Chrysalis's self-image as a Griffonian-style modernizer who colonizes her own species.

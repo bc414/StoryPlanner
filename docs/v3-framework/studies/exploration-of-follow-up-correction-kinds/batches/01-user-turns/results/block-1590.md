@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to the next analysis task by attaching a PDF of chapter 4 with pasted instructions and asking for a thorough answer to everything, without commenting on or disputing anything in the model's Chapter 3 analysis.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the billing answer to share their own comparison of Gemini, ChatGPT and Claude on throttling, business strategy and tone, then asks a new question about whether Gemini's behavior differs from Claude's because of the software layer or the model itself, and whether system instructions in AI Studio can close that gap.

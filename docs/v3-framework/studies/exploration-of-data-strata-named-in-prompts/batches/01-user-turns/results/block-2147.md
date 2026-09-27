@@ -1,0 +1,5 @@
+- sources:
+  - these notes (the author's notes on The Stare, changeling rehabilitation and statthalters) | material offered for the model to consider and weigh against the discussion; the author's own working position on how The Stare works, not yet confirmed as settled | What about these notes? | first-named
+  - canon MLP | the reference for what "The Stare" means; the term is taken from the published show rather than invented | "The Stare" refers to canon MLP | first-named
+- order:
+- about: The user pastes their own notes on how The Stare works (shaming poseurs, rehabilitating changelings, and the unredeemable cruel), tied to canon MLP, and asks the model what it makes of them.

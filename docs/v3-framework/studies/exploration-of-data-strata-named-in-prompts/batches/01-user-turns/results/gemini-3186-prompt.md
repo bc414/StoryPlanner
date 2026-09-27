@@ -1,0 +1,5 @@
+- sources:
+  - SQL itself (the SQLite database) | being weighed as a direct working environment for the model; not yet decided whether to query it or not | Can it actually work in sql itself | referred-to
+  - the published files with ids | being weighed as the alternative to querying SQL directly, possibly better; undecided | are the published files with ids better | referred-to
+- order:
+- about: The user asks the model whether DeepSeek R1 can work directly against the SQL database or whether the published ID-tagged files would serve it better.

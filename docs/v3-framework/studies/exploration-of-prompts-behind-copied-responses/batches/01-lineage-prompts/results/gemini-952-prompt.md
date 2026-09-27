@@ -1,0 +1,6 @@
+- asks:
+  - continue | asks the model to address whatever topic was just discussed for one season, now for the remaining seasons | "How about the rest of the seasons?"
+- supplies:
+- shaping:
+- openness: Open — the message names no specific seasons, options, or criteria, just asks the model to extend its prior treatment to the ones not yet covered.
+- subject: Covering the remaining seasons of some plan element discussed earlier in the conversation

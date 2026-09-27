@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether AI Studio's playground carries conversation context the way the regular web chat does, without disputing anything in the privacy answer.

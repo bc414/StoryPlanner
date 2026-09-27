@@ -1,0 +1,6 @@
+- sources:
+  - Aquileia's anti-poseur culture (in the story plan) | treated as what Applejack's Honesty primarily aligns with; stated as the working premise the rest of the turn tests | Applejack's Honesty primarily aligns with Aquileia's anti-poseur culture | referred-to
+  - the GR (Griffonian Republic, in the story plan) | offered as a tentative match for Applejack's conscience, put as a question and not settled | Is it her conscience that lines up with the GR? | referred-to
+  - FiM, the published show, and its mane 6 | used as evidence about how the characters work, with conscience as the shared trait and clashes with it driving episodes; the author's reading is hedged and open to revision | all the mane 6 have a conscience where it matters | referred-to
+- order:
+- about: The author reasons aloud about whether Applejack's Honesty lines up with Aquileia's culture while her conscience lines up with the GR, and checks this against how conscience works across the FiM mane 6.

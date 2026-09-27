@@ -1,0 +1,6 @@
+- asks:
+  - brainstorm | find words that are more elegant than "extraction" and that carry a stronger emotional charge | "Are there any words that are more elegant than extraction and evoke a stronger emotional response?"
+- supplies:
+- shaping:
+- openness: leaves the answer open, since it asks generally whether such words exist without naming any candidates or specifying how many to offer
+- subject: finding a more elegant, emotionally resonant alternative word to "extraction"

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about whether the Griffonian Empire in Equestria at War also uses German, without pointing the model at any particular body of material.

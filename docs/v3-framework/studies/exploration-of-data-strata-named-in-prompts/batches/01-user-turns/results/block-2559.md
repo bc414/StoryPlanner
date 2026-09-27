@@ -1,0 +1,8 @@
+- sources:
+  - the vox article I read | treat as the framing to test: it credits Season 8's record popularity and viewership to genuine, cooperative cast members subverting the zero-sum attention game; the user wants it compared with the other research | the vox article I read framed the show as beating past popularity and viewership | first-named
+  - the rest of the research | the body of material the Vox framing is to be compared against | I want to compare this to the rest of the research | referred-to
+  - my thesis | the user's cooperation-versus-extraction thesis; apply its sense of cooperation to contestant strategies for clout and audience following, not to relationships between cast members | I'm not considering the relationships between the cast members as the "cooperation" of my thesis | referred-to
+  - the premise of the show | treat as fixed and given; use as the baseline (what the show was supposed to be) against which the shift is measured, not something to question | The premise of the show is set | referred-to
+  - the influencer pipeline and couples breaking up | treat as secondary and not central to the question, so do not build the analysis on it | I think secondary | referred-to
+- order:
+- about: The user corrects the model's reading of their thesis by saying that cooperation and extraction refer to contestants' strategies for winning audience attention, not to relationships between cast members, and asks to compare the Vox article's account of Season 8's rise against the rest of the research, while setting the influencer pipeline and couple breakups aside as secondary.

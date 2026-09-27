@@ -1,0 +1,20 @@
+- relations:
+  - 1950|1491|the allegory's Dutch theft-by-force stage is instanced by the griffons' guano colonialism, both called brutal but simple|"brutal, but it was just theft" / "brutal, but it was fundamentally simple colonialism"|implicit
+  - 1493|1491|real-world inspiration (guano mining) for the in-universe guano colonization|"Guano mining in Peru and Chile" / "guano extraction for fertilizer and gunpowder"|implicit
+  - 1491|1948|the history note gives the dated summary of the colonization and gunpowder sales that the causal note explains|"colonized the southern zebrides for guano extraction" / "began selling gunpowder to Zebrican warlords"|implicit
+  - 1949|1491|continues and supersedes it in time: the simple extraction phase fails and the system pivots to labor and arbitrage|"simple guano extraction isn't enough" / "guano mines tapped out"|explicit
+  - 1949|1952|the allegory names the arbitrage and empire-building that the causal note describes as the post-978 mechanism|"post 978 evolution of Skyfall" / "Systemic Arbitrage"|explicit
+  - 1950|1952|two allegorical stages: the early theft phase as a precondition, then the imperial arbitrage phase built on it|"The precondition is" / "like the British Empire"|implicit
+  - 1949|1951|the broken cheap goods are an instance of the remittance-draining loop|"send Skyfall Marks back" / "spend next year's remittances"|implicit
+  - 1949|1440|the weapon dumping is delivered by the ever-running assembly line of old rifles|"obsolete 'last generation's weapons'" / "never stopped producing"|implicit
+  - 1440|1441|dependence on spare parts presupposes the guns being sold to warlords and hides the source|"sold to Zebrican warlords" / "dependent on Chrysalis's Skyfall shell companies for spare parts"|implicit
+  - 1440|1853|the state-backed gun production accelerating the system is the assembly line's output|"churn out more guns" / "assembly line ... never stopped producing"|implicit
+  - 1440|1442|the constant gun sales lead to the Storm King's horde|"old guns to Zebrican warlords, leading to the Storm King's horde" / "constantly being sold to Zebrican warlords"|implicit
+  - 1948|1442|continues the gunpowder sales to warlords into later gun and drug sales and the 1006 horde|"began selling gunpowder to Zebrican warlords" / "leading to the Storm King's horde in 1006"|implicit
+- outward:
+  - 1949|the Herzland, whose loss removed Skyfall's fallback, and the Iron Chancellor's seizure of the imperial fleet, held elsewhere|"no longer has the Herzland to fall back on"
+  - 1952|Equestria and its SAA charity food, a polity and program not in this item|"cheap 'charity' food from Equestria (SAA)"
+  - 1440|the conquest of Vraks and the Herzlander gun models, held elsewhere|"conquer Vraks" / "exact copies of Herzlander models"
+  - 1442|the Storm King and his 1006 horde, and Chrysalis's drug trade|"Storm King's horde in 1006"
+  - 1853|Chrysalis's hives and her state power|"state power back at the hives"
+- whole: ["The notes mostly hang together as a set: the guano colonization, the shift to labor arbitrage, and the Chrysalis gun supply line each connect to others, though the allegory and analogy notes and the Storm King note link only loosely."]

@@ -1,0 +1,7 @@
+- sources:
+  - the author's own statement about the scene (Chrysalis as River Rose, the prison line, the Pinkie promise) | treat as true and correct the model's reading: the line is an excuse to the child and Chrysalis did not know what a Pinkie promise is | Chrysalis says "I was in prison for a long time" speaking as River Rose as an excuse to the child. She actually had no clue what a Pinkie promise is | first-named
+  - Dear Princess Chrysalis chapter | do not let the thesis rest on this chapter alone | Don't overfit "Pax Chrysalia's thesis" to just the Dear Princess Chrysalis chapter | referred-to
+  - It's Me chapter | take into account together with the other chapter when judging the thesis | Take into account the It's Me chapter too | referred-to
+  - other context clues | also take into account when judging the thesis | and other context clues | referred-to
+- order:
+- about: The user corrects the model's reading of the closing scene, saying the prison line was an excuse and Chrysalis never knew the Pinkie promise, and tells it to base its thesis on the It's Me chapter and other context clues as well as the Dear Princess Chrysalis chapter.

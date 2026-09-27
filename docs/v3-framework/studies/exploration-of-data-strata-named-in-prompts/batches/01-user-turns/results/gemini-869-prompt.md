@@ -1,0 +1,6 @@
+- sources:
+  - community speculation | asked for and to be reported as speculation, to be told apart from confirmed fact | What is the community speculation | first-named
+  - any confirmed direction | asked for as the firmer, verified account of Faust's intended plan, to be told apart from speculation | or any confirmed direction | first-named
+  - the author's own belief that Lauren Faust had a different plan | provisional, offered as a belief for the model to check against speculation and confirmed direction | I believe Lauren Faust had a different plan | first-named
+- order:
+- about: The user steps away from the story analysis to ask, from the model's general knowledge, what is known or speculated about Lauren Faust's intended direction for the show versus the later showrunners' approach.

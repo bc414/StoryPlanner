@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made Vérany's 980 revolt a narrowly Aquileian, nationalist affair: a merchant collecting a debt from the King, with an 'Aquileia for Aquileians' spirit. The user says his aim was to join Kemerskai's National Republican Party, which had revolted in Griffenheim, in a pan-Griffonian bourgeois republic. | Another nuance is that Vérany wanted to join up with Kemerskai's National Republican Party... That was the dream. | Put as an added nuance, with no words of disagreement. The correction is carried by stating what the dream actually was.
+- about: The user adds to the model's account of the Aquileian revolution by saying Vérany's real goal was a pan-Griffonian bourgeois republic alongside Kemerskai's party, then adds a contrast between standardized, gold-hoarding Herzland and geographically varied Aquileia with 20% ponies.

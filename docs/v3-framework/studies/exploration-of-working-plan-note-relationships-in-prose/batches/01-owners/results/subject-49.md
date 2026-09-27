@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 459 | Trixie's place of origin, New Horseleans, a setting held elsewhere in the plan | She is from New Horseleans
+  - 459 | Aquileian cultural influences, lore about Aquileia held elsewhere | with Aquileian influences
+  - 459 | The story TLTT, whose opening state this note describes and whose events are not in this item | Who is this character at the start of TLTT
+- whole: By itself, this owner has only one note, so there is nothing to hang together or to separate, and the note's ties run outward to the wider plan.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn poses a follow-up worldbuilding question about whether Discret should require urban bourgeois taxes in gold, notes, or both, while laying out the note-to-gold exchange mechanics and Coltbert's reasoning for not fearing a bank run, without naming any external source of data.

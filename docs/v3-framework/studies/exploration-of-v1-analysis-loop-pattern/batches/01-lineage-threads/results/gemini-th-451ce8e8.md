@@ -1,0 +1,20 @@
+- steps:
+  - author | correct | disputes the model's earlier claim that Twilight suffers 'role dysmorphia', citing a chapter-9 story beat where Twilight is freed of guilt about replacing friends with magic | gemini:892 prompt
+  - model | reframe | accepts the correction, renames Twilight's condition 'Role Guilt', then analyzes an asymmetry between Applejack's entrapment and Twilight's liberation and how it drives both characters' jealousy arcs and the placement of a chapter-6 confession | gemini:892 response
+  - author | draft | submits a full line-by-line draft of the confession scene's lead-up dialogue for chapter 6 and asks for analysis and feedback | gemini:893 prompt
+  - model | analyze | breaks the submitted scene into numbered beats explaining why each dialogue choice works structurally and thematically | gemini:893 response
+  - model | offer options | drafts three alternative continuations for Applejack's response to the confession, each with a short rationale | gemini:893 response
+  - model | summarize | closes with a statement of how the scene's placement reinforces the story's identity theme and sets up chapter 9's separation | gemini:893 response
+- kept:
+  - note 1161 | the author's own words in this record | keeps the opening exchange about Star Energy and Twilight wanting to talk about 'nice things', filed as a plot point beat
+  - note 1163 | the author's own words in this record | keeps Applejack's admission the donation was a 'sick day' from being 'The General' and her sigh about leadership's burden, filed as a plot point beat
+  - note 1164 | the author's own words in this record | keeps Twilight's parallel admission about no longer being happy as Celestia's student, filed as a plot point beat
+  - note 1165 | the author's own words in this record | keeps the callback to Applejack's post-Flim-and-Flam letter and its effect on Twilight, filed as a plot point beat
+  - note 1167 | the author's own words in this record | keeps Twilight's line telling Applejack she doesn't have to be 'The General' with her, filed as a plot point beat
+  - note 1169 | the author's own words in this record | keeps Twilight's line affirming she still sees Applejack as the farmpony, filed as a plot point beat
+  - note 1170 | the author's own words in this record | keeps Applejack's line about feeling they'd drifted apart after the school started, filed as a plot point beat
+  - note 1171 | the author's own words in this record | keeps the exchange recalling Twilight calming Applejack down over present-giving anxiety, filed as a plot point beat
+  - note 1172 | the author's own words in this record | keeps Applejack's question and answer about returning to farm life after the war, filed as a plot point beat
+  - note 1174 | the author's own words in this record | keeps Twilight's full confession speech including the crush backstory and 'I love you, Applejack', filed as a plot point beat
+- brought: The author brought a fully drafted line-by-line dialogue sequence for the chapter 6 confession scene, built on the reframed character asymmetry just discussed and on established story continuity (the Flim and Flam letter, prior cutie-mark contentment).
+- loop: The author brings a correction that reframes a character's motivation, gets back an expanded structural analysis, then brings a full draft scene enacting that reframed dynamic and gets back beat-by-beat commentary plus alternate response options; the database keeps only the author's own drafted dialogue lines from the scene submission, entered verbatim as sequential plot-point beats, while the model's analysis and drafted alternatives go unrecorded.

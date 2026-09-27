@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the tool-embodiment idea and the cable-control history with follow-up questions (whether it is real science, other examples, whether it is uniquely human, how the Spitfire and Stuka controlled their wings) while proposing a tweak that ties magical hardness to mastery and self-forging, without saying anything in the model's turn was wrong.

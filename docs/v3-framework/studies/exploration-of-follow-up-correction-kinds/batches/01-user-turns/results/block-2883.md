@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the independent-but-correlated framing and asks a follow-up question about how to tell whether their set of axes has too many or too few.

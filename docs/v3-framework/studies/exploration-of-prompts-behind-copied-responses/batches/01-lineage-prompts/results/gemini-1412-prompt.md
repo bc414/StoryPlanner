@@ -1,0 +1,9 @@
+- asks:
+  - extension question | asks how the same three-way political struggle plays out under proportional representation instead of first-past-the-post | "What about in countries with proportional representation?"
+  - comparative-example request | asks for the parallels to this struggle found in major European or East Asian democracies | "What are the parallels in the big European or East Asian democracies?"
+- supplies:
+  - premise/idea | a claim that FPTP two-party systems blur the contest among three political stances | one sentence
+- shaping:
+  - scope limited to major European or East Asian democracies | "big European or East Asian democracies"
+- openness: Leaves the answer open, inviting exploration of parallels across two named regions rather than naming a specific expected answer.
+- subject: How a three-way political "stances" framework maps onto proportional-representation democracies compared to FPTP two-party systems

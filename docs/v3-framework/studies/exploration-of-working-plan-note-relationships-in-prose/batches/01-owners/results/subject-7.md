@@ -1,0 +1,3 @@
+- relations:
+- outward:
+- whole: This owner holds a single note with empty text, so there is nothing in it to hang together or to join.

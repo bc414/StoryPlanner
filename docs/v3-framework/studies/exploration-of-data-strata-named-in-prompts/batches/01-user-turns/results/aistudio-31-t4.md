@@ -1,0 +1,4 @@
+- sources:
+  - the author's own recollection of the Chasseur pair and recruitment demographics, stated from memory | offered as a correction to the model's all-royalist recruitment claim: 2nd gen royalists are the majority, but Reni and Minette are exceptions who were there from the start; hedged as belief, not fixed | I believe the 2nd gen royalists are the majority | first-named
+- order:
+- about: The user, from memory, corrects the model's claim that the early Academy admitted only 2nd gen royalists by saying Reni and Minette, a serf and a house pony, were among the original Chasseur pair from the start.

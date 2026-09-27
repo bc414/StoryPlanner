@@ -1,0 +1,5 @@
+- sources:
+  - the thesis about unconditional dignity explored here | the claim under test; the model is to check it against real-world evidence, not treat it as true | thesis about unconditional dignity explored here | referred-to
+  - the real world | evidence to check the thesis against; the model is to find whether any real case shows it working as a non-naive systemic solution | actually demonstrated anywhere in the real world | referred-to
+- order:
+- about: The user asks whether the unconditional-dignity thesis developed in the conversation has any real-world demonstration as a non-naive, systemic solution.

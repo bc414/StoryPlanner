@@ -1,0 +1,15 @@
+- passages:
+  - 3964 | statement about the subject | Contrasts the show, where Friendship is Magic, with the Stagnation of Harmony, where friendship alone suffices and ambition is not needed | none | declarative thematic claims, no event
+  - 3993 | statement about the subject | Once war begins, Magic is turned into Firepower, the will to destroy the enemy | none | general rule of transformation, no specific moment
+  - 3965 | statement about the subject | The tyrannical form of Magic is Supremacy, the belief that only your own will matters | none | definitional claim
+  - 3966 | statement about the subject | The Liberty form of Magic is Ambition, wanted in some measure alongside friendship and without wanting to dominate others | none | definitional claim
+  - 3990 | statement about the subject | Distinguishes Ambition (magic/ambition used to improve the world) from Domination (used to rule the world) | none | paired definitions
+  - 4005 | statement about the subject | Twilight formerly felt that flexing her magic would offend others and did not want to dominate over others' special talents, citing episodes | none | past-tense character background with episode titles (Boast Busters, Applebuck Season, Squeezy 6000)
+  - 4005 | scene beat without a year | Fleur teaches Twilight that magic and industrialization exist to help others achieve their special talents, giving Twilight a spark of Ambition | none | someone does something (Fleur teaches her), no date given
+  - 4006 | statement about the subject | Magic as Ambition manifests in the Luna Nova Rifle | none | statement of what embodies the idea
+  - 4120 | statement about the subject | Aquileia has grace only at an individual level and only in service of egos; it is not given for merely existing | none | descriptive claims about a place/society
+  - 4120 | statement about the subject | Ego capitalism sufficed against an existential threat like Skyfall and the Reich but not for world peace | none | evaluative claim about a system, past tense but no dated moment
+  - 5827 | statement about the subject | Naive Magic in FiM is exceptional, Twilight's alone, keeps others dependent on the individual, and produces the Atlas Complex of burnout rather than exploitation | none | analytical description of a concept
+  - 5827 | statement about the subject | Ambition as the grown-up form corrects naive Magic by democratizing capacity, so no single point of failure exists, contrasting with the assumed good conscience of Twilight and Celestia | none | analytical claim about how Ambition relates to conscience
+- sequences:
+- whole: A set of short thematic design notes defining Magic and Ambition against their tyrannical, wartime, naive and stagnant counterparts, with one small character-arc beat in which Fleur teaches Twilight and no dated scenes or ordered sequences.

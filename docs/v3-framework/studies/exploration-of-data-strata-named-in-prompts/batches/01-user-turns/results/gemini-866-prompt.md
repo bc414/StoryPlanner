@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain the underlying cause of the tonal/character shift just discussed, so they can better subvert it in their own story, without naming any specific data source to consult.

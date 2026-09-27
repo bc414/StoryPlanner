@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves the discussion forward by introducing new established lore about Gilded Trust's refusal to sell to Rockfeller and asking the model to research real Rockefeller anti-competitive tactics and suggest how they might apply, without disputing anything in the prior turn's analysis of Gilded Trust as a Musk/Trump hybrid.

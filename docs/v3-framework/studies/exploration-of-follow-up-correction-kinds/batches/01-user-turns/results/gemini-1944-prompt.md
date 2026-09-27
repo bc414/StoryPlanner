@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, standalone question about what output protocols Gemini has, without saying or showing that anything in the preceding image-only model turn was wrong.

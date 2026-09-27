@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user stipulates a hypothetical figure of 6 hours per P1 from a P2 and asks whether a P3 would then be needed to reach 100,000 rifles, without pointing the model at any body of material.

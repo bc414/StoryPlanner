@@ -1,0 +1,4 @@
+- sources:
+  - chapter 3 (the Retreat Order at Tall Tale) | existing plot point in the story plan that the new Luna retreat material is meant to explain and fit with; treat as established | hence the Retreat Order at Tall Tale in chapter 3 | referred-to
+- order:
+- about: The user is supplying new plot material for the last tension of Blueblood's pre-war arc (Luna's hold-the-line doctrine with friendship shields, its collapse under Stukas and tanks, and Blueblood taking over the Northern Army) and tying it to the chapter 3 Retreat Order.

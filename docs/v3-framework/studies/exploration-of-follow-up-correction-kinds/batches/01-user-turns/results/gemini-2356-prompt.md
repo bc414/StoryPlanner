@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's analysis by asking whether young Coltbert would embrace Grover III's artisan and pride philosophy while discarding the faked chivalry, then floats a new origin in which Grover III drew his ideals from Celestia's cutie mark division of labor.

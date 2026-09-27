@@ -1,0 +1,37 @@
+- relations:
+  - 1523|1524|The name's meaning (Grass) echoes the cutie mark of a grass meadow, a shared grass motif|Malinalli means "Grass" / Her cutie mark is a grass meadow|implicit
+  - 2158|1524|The backstory gives the occasion on which she got the cutie mark that the characterization note describes as her talent of grassroots connection|got her cutie mark for grassroots connection / Her special talent is grassroots connection|implicit
+  - 2158|2317|Instance of the general trait: witnessing tribes unite is the sort of cross-group bonding her talent is said to be for|Tzinacatl tribes uniting / building cross-group bonds|implicit
+  - 2158|1527|Continues in time; the grassroots talent she gained as a teenager is what she then works at in the parloir|got her cutie mark for grassroots connection / form grassroots connections|implicit
+  - 1527|1528|The reader-plan note plans the page delivery of the parloir name choice that the history states as fact; it also overturns the reader's assumption that the name was imposed|chose the name Tempest Wind / Mali chose her own Equestrian name at a parloir|implicit
+  - 1527|1535|The character-development note presupposes her parloir work: her active listening, de-escalation and reframing come from it|Parloir skills / a parloir in Manehattan|implicit
+  - 1527|1531|Continues in time: after the parloir years she takes the night guard opportunity, again to spread understanding of thestrals|help ponies understand thestrals / thestral acceptance|implicit
+  - 1531|1525|The reason for joining: she loved Luna's integration goal, so the night guard looked the best path|Luna was looking for night guards / She loved Luna's goal of integrating the thestrals|implicit
+  - 1531|1528|The reader-plan note concerns the name she used on joining the night guard, which the history places at that joining|night guards / when joining the night guard|implicit
+  - 1526|1528|The canon note gives Tempest Wind as a night guard general; the reader plan treats the name as her chosen Equestrian name|Tempest Wind is a general / name Tempest Wind|implicit
+  - 1526|1527|Canon note gives the canon figure Tempest Wind, the same name the backstory says she chose at the parloir|Tempest Wind / chose the name Tempest Wind|implicit
+  - 1531|1530|Continues in time: the changeling attack in 1002 and fang-hiding come during her night guard service|1001 Luna looking for night guards / changeling attack 1002|implicit
+  - 1530|1527|Tension or revision: hiding her fangs sits against her aim of helping ponies understand thestrals|hiding her fangs / help ponies understand thestrals|implicit
+  - 1531|1520|Continues in time: she left the night guard in 1007 that she joined in 1001|night guards / left the night guard in 1007|implicit
+  - 1525|1520|The state of the ideal explains the departure: she still believes in harmony despite stagnation, so leaving is optimism, not bitterness|stagnation of harmony / not out of bitterness but optimism|implicit
+  - 1519|1535|The flaw note elaborates the trait: not trying to change others becomes only managing symptoms and accommodating|doesn't try to change others / does not force others to grow up|implicit
+  - 2317|1519|Reason: her universalism, opposed to her mother's us-versus-griffons stance, underlies her core of friendship and acceptance|universalism that could encompass all species / friendship and acceptance|implicit
+  - 2317|1535|Her mother's isolationist stance is the background to the Chapter 11 negotiation where Mali soothes her rather than dominates|"us vs. griffons" stance / isolationist anxiety|implicit
+  - 1525|2317|Her going home would mean returning to her mother's isolationist stance; her belief in the ideal opposes it|instead of going home / didn't agree with her mother's|implicit
+  - 1524|1519|The cutie mark and personality note supports the core-of-harmony statement: she loves harmony and making friends|loves harmony and making friends / true believer of harmony|implicit
+- outward:
+  - 1523|Nahuatl-language naming source for the character, real-world origin|Malinalli means "Grass" in Nauhatl
+  - 2158|The Tzinacatl tribes and their factory-destroying uprising, held elsewhere|Tzinacatl tribes uniting to destroy the factories
+  - 1531|Luna and her night guard recruitment, held elsewhere|Luna was looking for night guards
+  - 1520|The Dotted Line Report, an event held elsewhere|after The Dotted Line Report
+  - 1530|The changeling attack of 1002|after the changeling attack 1002
+  - 1534|Henri, another character, and Aquileian culture|talking with Henri / Aquileian words
+  - 1535|The Jaguar and the Eagle, a framework held elsewhere|synthesis of the Jaguar and the Eagle
+  - 1535|Her mother Meztli and the Chapter 11 scene|negotiates with her mother (Meztli) in Chapter 11
+  - 1535|A machine gun scene where she killed a predator|kill a predator (the machine gun)
+  - 1525|Applejack and the story's opening situation|she is with Applejack from the start
+  - 1528|Celestia and the assumption about the name|Celestia forced Mali
+  - 1528|Rasti, another character forced to be Midnight Oil|Rasti was the one who was pissed at having to be Midnight Oil
+  - 1526|The game's canon character Tempest Wind|Tempest Wind is a general who is a night guard trait in the game
+  - 1524|Pinkie and Fluttershy, canon characters|zeal of Pinkie with the calm temperment and appearance of Fluttershy
+- whole: Mostly the notes hang together as a set, since a chain of backstory, parloir, name and night guard notes links to the characterization and flaw notes, though a few, such as the naming note, the Aquileian-words note and the canon note, stand fairly apart.

@@ -1,0 +1,13 @@
+- steps:
+  - the author | brief | asks for thematic constraints on a device (the crystal enhancer) followed by technical brainstorming | opens the first exchange
+  - the model | constraint analysis | lays out four thematic rules tying the device to the story's stagnation/tyranny/republicanism themes | first section of the first response
+  - the model | technical brainstorm | proposes a form factor, a joule-based mechanic contrasting natural talent with device use, and operational drawbacks | second section of the first response
+  - the model | open questions | poses two questions about peacetime regulation and visual overheating cues | close of the first response
+  - the author | revision | brings a preference to change the device from a pure crystal into a composite material made by griffons, and asks for its makeup and manufacturing process | opens the second exchange
+  - the model | material design | breaks the composite into three functional layers (chassis, core, lining) | first section of the second response
+  - the model | process design | lays out a four-step artisanal forging/calibration procedure for making the device | second section of the second response
+  - the model | thematic tie-in | explains why a rival faction's mass-production methods can't replicate the device, linking back to the story's craft/cooperation themes | third section of the second response
+  - the model | open questions | poses two more questions about a character's reaction and the device's sound design | close of the second response
+- kept:
+- brought: The author brought a revision to the device's premise — swapping a plain crystal for a griffon-made composite material — and asked the model to detail its makeup and manufacturing process.
+- loop: The author poses open worldbuilding questions and a revision idea for a piece of tech, the model returns structured constraint lists, mechanics, and follow-up questions each time, but none of this exchange's material was traced into the planning database as a kept note.

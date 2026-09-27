@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user draws an inference from the chemistry-versus-engineering explanation, that Skyfall factories would develop these processes and guard them as trade secrets, and asks for a real-world parallel.

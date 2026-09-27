@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author accepts age 9 for Minette's move to Le Grand Foyer, corrects her naming and the grooming timeline, lays out the revised plot of the Lord's departure, the refugee exile to Vinovia, and the chasseur academy, and asks for analysis of it.

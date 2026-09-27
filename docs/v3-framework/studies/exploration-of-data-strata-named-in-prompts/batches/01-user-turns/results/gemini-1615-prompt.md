@@ -1,0 +1,4 @@
+- sources:
+  - the potassium-rich compounds point from the model's previous answer | taken as a conditional premise to build on, not as settled fact | If potassium rich compounds are good | referred-to
+- order:
+- about: The user builds on the model's potassium-smoke idea by proposing that it connect to the star spade, Fleur's trench-digging invention that focuses earth pony magic.

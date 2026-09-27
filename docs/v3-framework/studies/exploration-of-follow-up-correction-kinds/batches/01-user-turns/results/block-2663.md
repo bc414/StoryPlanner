@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the poverty and birth-rate discussion to a new question about China's export model, asking who it serves, whether the changeling economy should model it, and what purpose the hives' exports serve in their current story plans, without disputing anything the model said.

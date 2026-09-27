@@ -1,0 +1,5 @@
+- sources:
+  - canon sources | the model is asked to check whether they give a name for the jungle in the Daring Do storybooks, and to answer from them | Does canon sources mention a name for the jungle | referred-to
+  - the author's plan for Daring Do in the story (a fictional storybook series by Twilight Velvet under a pen name, not modeled on the Tzinacatl jungle) | treat as the author's planned premise, still a plan and not settled; it sets the frame for the question | I am planning on Daring Do not being real | first-named
+- order:
+- about: The user turns from the earlier worldbuilding discussion to a new question: they state their plan to make Daring Do a fictional book series written by Twilight Velvet, and ask whether canon names the jungle used in those books.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further feature, that manually added notes whose beginning matches a bucket take on that bucket's background color, without disputing anything in the paste-notes answer.

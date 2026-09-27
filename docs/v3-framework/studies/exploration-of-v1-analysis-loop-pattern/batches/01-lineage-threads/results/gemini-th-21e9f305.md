@@ -1,0 +1,18 @@
+- steps:
+  - author | plan dump with request | delivers HOI4-mechanics logic, war-arc beats (Tall Tale aftermath, Canterlot war meeting, ELF subversion), the river-spearhead operation, the volunteer-age subversion, and the mane-six reunion, then asks for expansion on the Twilight/Celestia/AJ reckoning and feedback on thematic connections | gemini:106 prompt
+  - model | thematic breakdown | returns a sectioned analysis mapping the plan onto player-vs-AI logic, the Celestia/AJ standoff, the spearhead mechanics, the volunteer subversion, and the monster theme, plus a chapter-title suggestion, producing two draft versions differing mainly in title choice | gemini:106 response
+  - author | attribution question | asks where the model got a specific coined phrase from its own prior answer | gemini:107 prompt
+  - model | self-explanation | unpacks the phrase into its geography, game-mechanic, and tactical-terminology components | gemini:107 response
+  - author | correction | revises Celestia's motivation for wanting to retake Canterlot, from throne/pride to concern for the trapped suffering population and a desire to strike Chrysalis directly | gemini:108 prompt
+  - model | reworked analysis | reframes the Celestia/AJ conflict as empathy versus strategy, rewrites their argument positions and the war-room scene dialogue, restates the monster theme and title suggestion, and adds a terrain-visualization note | gemini:108 response
+- kept:
+  - note 47 | the author's own words in this record | keeps a stated thematic maxim about the strong's duty to relieve suffering, filed under an Isolationism theme subject
+  - note 624 | the author's own words in this record | keeps an extension of the command-style contrast idea applied to a new battle and command pairing, filed as its own plot point
+  - note 1532 | the author's own words in this record | keeps the author's original monster-theme parenthetical verbatim, filed under a We-are-Monsters plot point
+  - note 1548 | the author's own words in this record | keeps a refined version of the volunteer-age plan with specific numbers added, filed under a related plot point
+  - note 1528 | pasted whole from this reply | keeps the model's solidarity framing of the monster line, added into the same We-are-Monsters plot point
+  - note 2647 | pasted from this reply inside the author's own framing | keeps the model's throne-symbolism phrasing plus an author-added framing line, filed under a Canterlot/Celestia link
+  - note 1529 | pasted whole from this reply | keeps the model's revised monster-theme framing about the burden of command, added into the same We-are-Monsters plot point
+  - note 2646 | pasted from this reply with cuts | keeps a trimmed version of Celestia's revised argument and its stated logic, filed under the same Canterlot/Celestia link
+- brought: The author brought a large in-progress war-arc plan built on Hearts of Iron IV mechanics and character motivations, asking the model to trace its thematic connections and, mid-conversation, correcting a character's motivation within that plan.
+- loop: The author feeds expansive plan material and follow-up questions or corrections, the model returns thematic analysis and phrasing that reworks the same beats, and the plan retains both the author's own planning language and the model's interpretive phrasing (whole, trimmed, or reframed) into the same recurring plot-point and link entries across turns.

@@ -1,0 +1,10 @@
+- sources:
+  - earth pony magic only expediting weathering for fertilizer | a fixed rule of the world that keeps things materialist; the proposal has to stay within it | the only think earth pony magic should do is expedite weathering for fertilizer purposes | referred-to
+  - Coltbert Reforms in Aquileia, 981-1007 | story-timeline point before which earth pony weathering magic is not studied, so it must not be assumed earlier | This is not studied until the Coltbert Reforms in Aquileia in 981-1007 | first-named
+  - Grover 3's enlightenment, 854 to 914 | story-timeline period in which chemistry is studied; later chemistry is to follow real chemistry laws | studied by Grover 3's enlightenment from 854 to 914 | first-named
+  - real chemistry laws | treat as governing all chemistry that comes after the enlightenment | should follow real chemistry laws | referred-to
+  - the previous proposal of earth pony phosphorus and potassium ammunition | to be checked against the stated constraints, not treated as settled | Does this still work? | referred-to
+  - saltpeter replaced by nitrogen explosives from Haber-Bosch | the author's recollection from memory, offered tentatively as a possible correction to the saltpeter claim and open to being confirmed or corrected | I thought saltpeter was replaced with pure nitrogen explosives from haber Bosch | first-named
+- order:
+  - earth pony weathering-only rule, Coltbert Reforms timeline and real chemistry laws | over the previous phosphorus and potassium ammunition proposal | To keep things materialist ... Does this still work?
+- about: The user narrows the earlier phosphorus and potassium ammunition idea to their world's rules (earth pony magic only speeds weathering, unstudied until the Coltbert Reforms, real chemistry after Grover 3's enlightenment), asks whether it still works, and raises from memory that Haber-Bosch nitrogen explosives replaced saltpeter.

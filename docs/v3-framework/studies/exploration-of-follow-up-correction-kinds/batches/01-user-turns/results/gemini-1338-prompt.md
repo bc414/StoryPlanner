@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further world-building motivation, that the voltigeurs' generous pensions were threatened by Discret's financial recklessness, as an extra reason they join the revolution, without disputing the club names or the recommendation.

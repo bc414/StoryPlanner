@@ -1,0 +1,5 @@
+- relations:
+  - 2068 | 2069 | 2069 states the inference the reader should draw (tycoons are collaborators who prefer idle factories to workers touching their capital) from the event that 2068 puts on the page (Flowing Current says the tycoons refuse to let workers fix their machines); 2068 is the staged occasion, 2069 the intended reading of it | tycoons' machines but they won't let us touch their property / would rather let their factory sit idle ... than let workers touch their capital | implicit
+- outward:
+  - 2069 | Chrysalis, an outside party the tycoons would negotiate with, not present in this item | until they can negotiate with Chrysalis
+- whole: The two notes hang together as a pair, with the page-disclosure note supplying the statement and the inference note giving the conclusion the reader should draw from it.

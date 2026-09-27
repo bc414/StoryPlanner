@@ -1,0 +1,11 @@
+- asks:
+  - revise | corrects the established timeline: 70 years into the crusades, knights are no longer just hunting monsters but, driven by their own propaganda, are looting pony villages | "the knights have fallen into their own propaganda and are looting pony villages"
+  - recharacterize | reframes the Aquileian lords as protectors defending their land and serfs (loot as a side benefit) rather than warlords or moral crusaders, explaining their inaction as poverty from 150 years of Herzlander imperial rule | "I don't think Grover III despises the Aquileian warlords... they are protectors"
+  - question | asks whether the Imperial Legions should be composed of griffons drawn cross-culturally from across the whole Empire | "should the Imperial Legions be cross cultural griffons from all parts of the Empire?"
+  - explain | lays out a causal economic theory: rent-seeking elites only emerge in the second generation after monsters are cleared, and Herzland avoids this because Grover III mandates an ocean hunt and pushes Bessemer/Haber-Bosch industrialization | "The rent seekers only come from the 2nd gen... mandates the ocean hunt, and then the bessemer process and haber-bosch take hold"
+  - propose | offers a hedged reinterpretation of Grover III as an enlightened pan-griffonian state-builder, contrasted with his predecessors who ran feudal patronage rackets | "maybe Grover III... isn't even thinking of Herzlander superiority... He is building a pan-griffonian state"
+- supplies:
+  - worldbuilding reasoning | interlinked setting logic about the crusades' escalation, the Aquileian lords' status and motives, legion composition, post-monster rent-seeking economics, and Grover III's technological and political reforms | a short paragraph of connected ideas
+- shaping:
+- openness: Mostly leans toward conclusions it already states (the Aquileian lords as protectors, the rent-seeking mechanism, Grover III's reforms), poses one open yes/no question about Legion composition, and floats a hedged reinterpretation of Grover III ("maybe...") inviting confirmation.
+- subject: Revising griffon-empire crusade lore, the Aquileian lords' motives, and Grover III's political-economic reforms

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's election-arc analysis by reframing the parallel governing as a national blueprint, endorsing the Gilded Trust and credit-claiming points, and opening a question about stretching the lead-up from six months to a year and what that does to the Changeling front and other plot threads.

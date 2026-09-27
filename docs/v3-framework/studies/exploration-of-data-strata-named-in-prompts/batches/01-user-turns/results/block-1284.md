@@ -1,0 +1,4 @@
+- sources:
+  - actual leaders of Marxist movements in real life (real-world history, the model's general knowledge) | draw on as factual grounding for a breakdown of leaders who changed their minds and of whether vanguard elites knew they were elite; Lenin, Trotsky and similar figures are in scope, and outright liars like Stalin are left out | in real life ... I mean Lenin, Trotsky and others like them | referred-to
+- order:
+- about: The user steps out of the story planning to ask for a real-world historical breakdown of Marxist leaders who changed their minds and whether vanguard elites were self-aware of their eliteness, and they exclude flagrant liars such as Stalin.

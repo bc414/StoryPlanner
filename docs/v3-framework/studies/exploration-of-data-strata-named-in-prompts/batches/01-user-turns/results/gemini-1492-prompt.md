@@ -1,0 +1,4 @@
+- sources:
+  - the model's proposal that Chrysalis gets Eros to adopt restoration bills | accepted as good and adopted into the plan, and built on with further consequences | This is perfect, that Chrysalis gets Eros to adopt restoration bills | referred-to
+- order:
+- about: The author accepts the model's restoration-bills idea and builds on it, saying how it explains Chrysalis's aims, Eros's surrender and why she chose Eros over Eagleclaw, while adding new backstory about Eagleclaw's silence.

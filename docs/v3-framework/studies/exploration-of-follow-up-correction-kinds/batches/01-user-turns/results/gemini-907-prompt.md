@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves to a new question about how the pre-industrial Changeling Lands would work, and gives canon constraints (no hive mind, emotion sense, love as calories, a friendship-based ancient hive protected by jaegers) as background for it, without saying anything in the model's turn was wrong.

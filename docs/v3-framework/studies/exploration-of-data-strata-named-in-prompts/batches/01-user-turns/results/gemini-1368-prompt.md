@@ -1,0 +1,8 @@
+- sources:
+  - the model's previous analysis (Applejack prepared for the backlash) | praised as a new idea the author had not considered; kept, though its portrayal of the son is contradicted by canon | "This is really deep, the fact that Applejack is now prepared for the backlash" | referred-to
+  - the flavor text | to be reviewed again more deeply so further insight can be drawn from it | "please review the flavor text more deeply and see if additional insight can be made" | referred-to
+  - canon (the son as a GR general, the event of him seeing his wife shortly before death) | treat as true; the son grew up and joined his father, and the wife's stance is uncertain from the author's memory but the visit event exists | "Canonically, his son is a general for the GR" | referred-to
+  - the author's own plan (Kemerskai survives after Griffenheim is taken thanks to Equestrian healthcare) | deliberate subversion of canon that the model should take into account as the author's intent | "I'm subverting Kemerskai passing away after Griffenheim is taken" | first-named
+- order:
+  - canon (the son as a GR general) over the model's previous analysis (the son as a critical editorialist) | the author corrects the earlier framing with what canon says, introduced with "However" and "Canonically"
+- about: The author welcomes the model's backlash idea for Applejack but corrects its portrayal of Kemerskai's son using canon, and asks the model to re-read the flavor text for more insight while noting that their plan subverts Kemerskai's canonical death.

@@ -1,0 +1,8 @@
+- sources:
+  - EaW (Sunglider, Rikard Astler and Kemerskai as NRP-C, NRP-L and NRP-R leaders) | treat as established canon and the base the new backstory builds on | Canonically in EaW | referred-to
+  - TLTT (Sunglider as the government official who interacts with SAA) | the version of the story to adapt to a materialist grounding; the Sunglider role is offered as a tentative suggestion, not settled | In TLTT to ground it materialism I think | referred-to
+  - Lee Kwon Yew and Attaturk (historical models for Kemerskai) | use as the template for Kemerskai's character and choice to stay in power | This is Lee Kwon Yew and Attaturk | referred-to
+  - George Washington (historical model) | do not use as the template for Kemerskai | not George Washington | referred-to
+- order:
+  - Lee Kwon Yew and Attaturk over George Washington | This is Lee Kwon Yew and Attaturk, not George Washington
+- about: The user proposes a hidden backstory in which Kemerskai keeps ruling for 20 years after ending martial law because he thinks Sunglider is too naive or the country is unready, and adjusts Sunglider's role in TLTT to fit, using canon from EaW and authoritarian-modernizer historical models.

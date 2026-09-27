@@ -1,0 +1,4 @@
+- sources:
+  - drug types in the real world | the model is asked to draw on its general knowledge of real drugs to name further categories that do the same jobs as the ones already covered | other drug types in the real world that serve similar functions | referred-to
+- order:
+- about: The user asks the model to widen the survey of real-world drug categories beyond the stimulants, opioids, alcohol and THC just covered, to those with similar functions that matter for the story.

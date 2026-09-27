@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's distinction as three methods with different use cases, checks that understanding, and asks for a fuller guide on which to use for each way of working on the story, without disputing anything.

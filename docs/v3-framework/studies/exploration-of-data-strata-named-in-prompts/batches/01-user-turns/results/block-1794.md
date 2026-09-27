@@ -1,0 +1,5 @@
+- sources:
+  - Clash of Clans | do not let the definition be fitted too closely to it; treat as one example, not the template | I don't want to overfit for Clash of Clans | referred-to
+  - RTS games | use as a counterexample the definition must accommodate: they lack persistent state between sessions yet still model economy, though the economy serves tactical combat | Remember that RTS games don't have persistent state between sessions but still model something about the economy | referred-to
+- order:
+- about: The user pushes back on the model's definition of an economic game, saying it is too tailored to Clash of Clans and cites RTS games as a counterexample, while partly conceding that in RTS the economy serves combat.

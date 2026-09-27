@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's sphere-of-governance and Roar/credit-stealing points, broadens the first into a real-world state-level blueprint, and then opens a new question of whether the campaign lead-up should be six months or a year, weighing what that would mean for the Changeling Lands and the other story threads.

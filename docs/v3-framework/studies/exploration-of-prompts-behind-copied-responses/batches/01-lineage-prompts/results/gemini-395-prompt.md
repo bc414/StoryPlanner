@@ -1,0 +1,8 @@
+- asks:
+  - revise/incorporate | asks the model to update its portrayal of the FJA faction so their communal, nationalist character (rooted in Coltbert's industrial reforms) makes betrayal of the country unlikely and makes them refuse a wheat-for-ham swap since they only perform their designated special talent | "It's unlikely they would betray the country... wouldn't do the wheat for ham swap because they only do their special talent"
+  - revise/incorporate | asks the model to establish PdNA's strict anti-corruption laws and the underlying social logic: everyone aspires to be bourgeois, but being a conman is the ultimate dishonor, akin to the disgrace of the old nobility, enforced through public shaming | "PdNA has strict anti corruption laws because... public shaming and equivalent to the old nobility"
+- supplies:
+  - worldbuilding notes | new characterization details for two factions (FJA's communal/nationalist origins and specialty-only work ethic; PdNA's anti-corruption laws and class/honor logic) | two short paragraphs
+- shaping:
+- openness: Leans toward the answers it names, presenting the FJA's loyalty/specialization and PdNA's anti-corruption culture as settled facts to be adopted rather than open questions.
+- subject: Refining the motivations and cultural logic of the FJA and PdNA factions in a fictional world

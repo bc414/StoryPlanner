@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the canon constraint (friendship dropping brings windigos, more precisely friendship below ambition, and globally) and asks whether the trigger depends on instantaneous or accumulated totals and how each version fits the three-tribes split, which is a new open question and not a rebuttal of the model's analysis.

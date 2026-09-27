@@ -1,0 +1,6 @@
+- asks:
+  - choice | decide whether Applejack's dream-of-being-a-collaborator scenes should use the same deep third POV as her other scenes or an outside-looking-in perspective instead | "Should ... be written in deep third ... or should they be an outside looking in?"
+- supplies:
+- shaping:
+- openness: Asks for a choice between two named options - deep third (matching the majority of Applejack's scenes) or an outside-looking-in perspective.
+- subject: Point-of-view/narrative-distance choice for Applejack's dream sequences about being a collaborator

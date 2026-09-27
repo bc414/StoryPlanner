@@ -1,0 +1,4 @@
+- sources:
+  - requirements from earlier (earlier in the current conversation) | check the drafted prompt against these and report any that are still missing | Any other requirements from earlier that are missed? | referred-to
+- order:
+- about: The user asks the model to check the revised Sorter prompt against the requirements set out earlier in the conversation and say whether any were left out.

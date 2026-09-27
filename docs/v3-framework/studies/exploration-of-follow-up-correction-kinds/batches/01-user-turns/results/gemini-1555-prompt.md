@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model described Sickleclaw's and Rosewing's histories and fates without the canon flavor text, so the user supplies that text and asks for the arcs to be set out from it | Please refer to this flavor text, give an overview of Sickleclaw and Rosewing's canon story arcs | directive, with no statement that anything was wrong; the correction is implied by sending the model back to the source
+  - fact of the world | the model's account of the two characters' arcs (Sickleclaw as reintegrated loyal opposition, Rosewing as bandit warlord turned civil servant) is treated as needing to be rebuilt from canon before the scene is analyzed | give an overview of Sickleclaw and Rosewing's canon story arcs, and then reanalyze | implied and unstated, put as a request to redo the analysis on a corrected footing
+- about: The user sends the model back to the canon flavor text, asking for the two characters' arcs to be summarized from it and for the party audit scene to be analyzed again on that basis.

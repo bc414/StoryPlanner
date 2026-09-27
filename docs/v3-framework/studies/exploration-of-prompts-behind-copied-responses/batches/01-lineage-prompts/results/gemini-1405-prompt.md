@@ -1,0 +1,8 @@
+- asks:
+  - analyse | asks for analysis of additional real-world countries beyond whichever ones have already been discussed | "give me analysis of other countries...that haven't been covered yet"
+- supplies:
+- shaping:
+  - scope to the real world as of 2026 | "the real world of 2026"
+  - restrict to countries not already addressed earlier in the conversation | "that haven't been covered yet"
+- openness: Open: it names no specific countries or aspects to analyze, leaving the model to decide which nations remain uncovered and what "analysis" should contain.
+- subject: Continuing a survey/analysis of real-world countries as of 2026

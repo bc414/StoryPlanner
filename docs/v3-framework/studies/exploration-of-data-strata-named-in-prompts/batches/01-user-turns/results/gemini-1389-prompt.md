@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up general-knowledge question about synonyms for "oblivion" and whether the term applies to opioids or stimulants, without pointing at any specific source of data.

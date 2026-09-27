@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user approves the detachable-crystal idea, adds that it gives ponies the means to become statthalters and frames it as a prisoner's dilemma, and states that Applejack must stop these ponies from enlisting in an invasion of the hives by proving harmonic capitalism to Celestia.

@@ -1,0 +1,4 @@
+- sources:
+  - TLTT v2-definitions.md, the attached current state of my track definitions | material for the model to analyze, given as the up-to-date version of the track definitions | I am attaching the current state of my track definitions for analysis | first-named
+- order:
+- about: The user pushes back on the model's framing by arguing that prior-belief clash, inference and argument evidence can come from revealed backstory or history as well as from enacted events, and attaches their current track definitions file for analysis.

@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2483 | Chrysalis, a character whose emotion sense is held elsewhere in the plan, and her failure to read the Acornage changeling | Chrysalis's emotion sense could not discern that the Acornage changeling wasn't a pony
+  - 2483 | jaeger lie detection training, a body of training or lore not set out in this item | isn't detectable by jaeger lie detection training
+  - 2483 | the wider Acornage changeling population, called Acorange changelings, whose self-belief is stated as a law held beyond this note | The Acorange changelings believe themselves as ponies so thoroughly
+- whole: Only one note hangs off this owner, so there is nothing to join it to and the set cannot be read as hanging together or apart.

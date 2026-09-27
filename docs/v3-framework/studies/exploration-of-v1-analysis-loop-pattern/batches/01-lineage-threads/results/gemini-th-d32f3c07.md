@@ -1,0 +1,22 @@
+- steps:
+  - author | opens topic | question about how real fighter planes fought and how to apply it to the story | first prompt of the conversation
+  - model | analysis-plus-application | historical dogfight doctrines (turn-and-burn vs boom-and-zoom) mapped onto Wonderbolts/Changeling lore, closed with clarifying questions | reply to first prompt
+  - author | technical follow-up | asks whether a biplane structurally has four wings | second prompt
+  - model | technical clarification-plus-application | explains wing-panel structure, ties it to the biplane-to-monoplane canon eras, offers an alternate draft answer | reply to second prompt
+  - author | multi-part question | pilot-training duration in WW1/WW2, how to sell Wonderbolt superiority, how G-forces are mitigated for non-pegasi | third prompt
+  - model | historical data-plus-mechanism-plus-application | training-time figures, G-force countermeasures (AGSM, G-suit), applied to a proposed Rarity G-suit invention and a changeling physiological weakness | reply to third prompt
+  - author | synthesis and lore addition | links the G-force material to Rainbow's character arc, asks whether the Spitfire was the biplane-to-monoplane evolution, and states an already-established sonic-rainboom ejection mechanic | fourth prompt
+  - model | validation-plus-consequence analysis | confirms the Spitfire's historical role, works through the tactical and narrative fallout of the ejection mechanic, ties it to an existing Applejack conflict scene, asks a follow-up | reply to fourth prompt
+  - author | new structural proposal | proposes a fighter/CAS role split tied to pegasi vs non-pegasi, references Bluebell River Spearhead planning, and asks whether a Wings-of-Dew flight spell is needed over a plain parachute | fifth prompt
+  - model | validation-plus-justification-plus-citation | confirms the fighter/CAS split's logic, argues the spell is superior to a parachute, quotes back an existing lore note on the flying spell, asks deployment questions | reply to fifth prompt
+  - author | broader worldbuilding question | asks how naturally-flying species would change plane development compared to real history | sixth prompt
+  - model | comparative analysis | reframes the purpose of planes under native flight, adds cultural/psychological and 'great equalizer' framing, asks questions | reply to sixth prompt
+  - author | design proposal | suggests sealed CAS cockpits but open-air fighter cockpits so pegasi can feel weather, asks what engineering that would require | seventh prompt
+  - model | engineering-plus-magic solution | proposes an aeroscreen/cutaway canopy design plus a passive slipstream-magic fix, contrasts it with sealed CAS cockpits, asks follow-up questions | reply to seventh prompt
+  - author | history question | asks how real-life CAS dive bombing worked, its tech evolution and tactical motivations | eighth prompt
+  - model | historical-plus-technical breakdown-plus-application | explains level- vs dive-bombing physics, dive-brake/trapeze/autopilot technology, doctrine, then applies a magic-trapeze and changeling psychological weapon idea | reply to eighth prompt
+  - author | follow-up historical questions | asks whether the Ju-87 Stuka was a monoplane, what preceded it, and what WW1 air support looked like | ninth prompt
+  - model | historical answer-plus-phased integration | answers all three history questions, maps them onto a Phase 1/Phase 2 canon timeline, asks a final question | reply to ninth prompt
+- kept:
+- brought: The author repeatedly grounded the historical questions in already-established story elements — the Wonderbolts' griffon-biplane origin against the Storm King, Spitfire's monoplane research, the sonic-rainboom ejection mechanic, and the Bluebell River Spearhead planning — to steer the model's historical analysis toward direct application.
+- loop: The author brought a running sequence of real-world aviation questions and small story proposals, and the model answered each with historical fact folded into an application to existing canon plus open questions back to the author, but no note in the planning database is traced to this stretch, so none of this research-and-application cycle is shown to have been captured into the plan.

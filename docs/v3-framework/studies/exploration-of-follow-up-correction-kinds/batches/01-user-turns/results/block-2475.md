@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reports that their Google Takeout export holds only three months of watch history and asks whether older data is lost or was missed by their range selection, without disputing anything the model said.

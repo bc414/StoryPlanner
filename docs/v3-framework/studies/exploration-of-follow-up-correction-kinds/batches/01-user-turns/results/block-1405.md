@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the question of which character to start with and asks for a refresher on the possible claims and tracks, the purpose of separating note tracks, and the conclusions across the project's conversations, because of a gap of weeks in their work.

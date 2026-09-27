@@ -1,0 +1,13 @@
+- asks:
+  - clarify | states that emotion-numbing from the training is not meant to be permanent, distinguishing deliberate temporary shutoff from an abuser's permanent addiction-driven use of it | "I don't plan on numbing being permanent... Abusers like Pagala simply choose to keep it off permanently because she is addicted to red love."
+  - brainstorm-share | lays out a plot idea for how Flurry Heart's uncontrolled magic (starting as baby magic calmed by Sunburst) later resurfaces tied to her fear of being seen as "the little menace," how it lets her sense the crystal ponies' fear of her, how Thorax discovers and mentors her as her "Buncle," and how this leads to her cutie mark during the siege of Crystal City | "I like the idea that... Thorax figures this out for her and trains her as her Buncle... Flurry Heart got her cutie mark during the siege."
+  - suggest | proposes that the bedtime story Cadance reads about jaegers could double as an allegory for the hunting training jaegers like Thorax underwent to protect their hives | "Maybe the bedtime story should actually talk about some allegory to the training jaegers did..."
+  - instruct-correct | tells the model to keep the nursery scene, drawn from the P&K inspiration story, separate from the user's unrelated story plans for The Lioness of Tall Tale | "don't confuse it with my story plans for The Lioness of Tall Tale"
+- supplies:
+  - plan fragment | idea about Flurry Heart's magic-control arc, its link to fear-detection, Thorax's mentorship, and her cutie mark's timing during the siege | a short paragraph
+  - reference note | naming of "P&K" as the inspiration source for the emotion-numbing training concept and for the nursery scene | a couple of short mentions
+- shaping:
+  - treat magic-numbing as reversible/temporary by default, with permanence only as a deliberate abusive choice by certain characters | "I don't plan on numbing being permanent"
+  - keep the P&K-sourced nursery scene distinct from and not merged with the separate Lioness of Tall Tale story plans | "don't confuse it with my story plans for The Lioness of Tall Tale"
+- openness: Mostly leans toward answers the message itself already states (numbing is temporary, Flurry's arc, Thorax as mentor, cutie mark timing, the nursery scene's source), while floating one tentative, open-ended suggestion about a jaeger-training allegory in the bedtime story, marked by "I like the idea that" and "Maybe... should."
+- subject: Planning details for a My Little Pony fan-fiction subplot involving Flurry Heart's magic, Thorax's mentorship, and a related bedtime-story allegory, plus continuity notes distinguishing it from other story sources

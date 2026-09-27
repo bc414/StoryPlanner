@@ -1,0 +1,8 @@
+- relations:
+  - 498|499|note 499 states as thematic evidence the general claim that dragons can take part in combined arms; note 498 is the concrete action on the page, Ember offering dragons with unicorn support, that instances it|Even dragons can be part of combined arms|implicit
+- outward:
+  - 498|the Bluebell River Spearhead operation and the Equestrian Army it serves, held in other parts of the plan|Bluebell River Spearhead ... serve the Equestrian Army well
+  - 498|the elder dragons, other characters whose egos are to be soothed|sooth the elder dragons' egos
+  - 498|the unicorns who provide the shielding support, a group not present in this item|unicorn support for shielding
+  - 499|the theme Unconditional Dignity and its proposition, developed in the wider plan|Unconditional dignity is the prerequisite for cooperation
+- whole: The two notes hang together as a pair, with the thematic note generalising the action staged in the page note, though only by content and not by any pointer.

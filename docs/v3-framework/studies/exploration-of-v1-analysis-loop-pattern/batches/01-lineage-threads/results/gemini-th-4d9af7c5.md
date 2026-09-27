@@ -1,0 +1,12 @@
+- steps:
+  - author | import framework | pastes a full outside essay laying out a Reagan-era political/economic critique with named theses | opening of the thread
+  - author | frame request | asks which of the essay's points already appear in five named story arcs (Grover 3 to Grover 4, Skyfall, Chrysalis's New Order, Olenia, Stagnation of Harmony) and which are missing, stating the goal of deconstructing the Reagan era and offering forward alternatives | same opening message
+  - model | match present elements | pairs several thesis points to existing lore beats already in the plan, citing which faction embodies each | first response, opening section
+  - model | list gaps | itemizes thesis points not yet represented and proposes where/how each could be inserted into the named arcs | first response, middle section
+  - model | sketch alternatives | connects already-planned reformist elements to the essay's call for forward-looking correctives | first response, closing section
+  - model | second-pass matching | regenerates the present-elements analysis with different phrasing and some different faction attributions | second draft, opening section
+  - model | second-pass gaps and remedies | regenerates the gap list and proposes a three-part forward-looking framework | second draft, middle and closing sections
+  - model | narrowing question | asks the author to pick which faction and labor group should suffer the 'PATCO moment' defeat | end of second draft
+- kept:
+- brought: The author brought a pre-written external essay analyzing Ronald Reagan's presidency and asked for it to be cross-referenced against five already-established arcs in the plan.
+- loop: The author imported an outside analytical framework and asked the model to audit it against existing plan content for coverage and gaps; the model produced two parallel present/absent breakdowns and follow-up suggestions, but no note from this exchange was captured into the planning database, leaving the classification and suggestions unabsorbed within this stretch.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether the polynitrogen-propelled, crystal-tipped white-phosphorus rounds would work against tanks, half-tracks and supply trucks and whether they should still contain steel or lead, extending the ammunition design without disputing anything the model said.

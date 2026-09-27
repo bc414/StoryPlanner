@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Frames how the theme's two halves relate: resilience is what laughter becomes in an adult, so the scene's resilience carries the laughter theme in its grown-up form | "Resillience as the adult version of Laughter" | no | planning shorthand, a terse equation-like fragment with no verb
+- whole: A one-line thematic gloss that defines resilience as the adult form of laughter, tying this scene's resilience to the theme's laughter side.

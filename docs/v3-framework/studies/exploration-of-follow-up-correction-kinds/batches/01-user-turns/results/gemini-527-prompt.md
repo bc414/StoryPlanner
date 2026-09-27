@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the character overview to ask for a new analysis of Trimmel, covering his development, his impact on the story, whether he is believable, and how to improve him.

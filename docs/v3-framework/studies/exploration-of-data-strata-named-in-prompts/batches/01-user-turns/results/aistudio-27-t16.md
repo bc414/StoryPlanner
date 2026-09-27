@@ -1,0 +1,6 @@
+- sources:
+  - external knowledge and logic (the model's general knowledge beyond the story material) | wanted and required for expanding the Fabula; the model should draw on it, not be confined to the lore | requires external knowledge and logic. I want this | referred-to
+  - the story bible (full context in AI Studio) | to be read in full and followed as instructed, unlike the consumer app which truncated it or used RAG; this is why the worry about generic tropes is less pressing | AI Studio will not do that and will read the full context | referred-to
+  - the established Fabula / established rules of the universe | not a limit on where ideas may come from; kept only as a boundary so generated material is not unrelated to or incompatible with it | no rogue generation of stuff unrelated or incompatible with the Fabula | referred-to
+- order:
+- about: The user pushes back on the draft system prompt's insistence that everything be derived strictly from the established Fabula, explaining that the goal is to expand the Fabula with external knowledge while keeping a compatibility guard, and asks for analysis of specific phrases (and two lens descriptions) as possibly restrictive.

@@ -1,0 +1,7 @@
+- sources:
+  - the same narrative framework (the Réni and Pinkie parallel, magic as ambition, the materialist rules) | apply it to Discord to refine why he left Equestria, with Discord running on the same materialist rules as Pinkie | How can I apply the same narrative framework | referred-to
+  - chapter 8 (Rainbow's Hunter's spirit, the jaeger geist drug, Réni's later cognitive dissonance) | treat as the author's planned content that the answer should be consistent with and build on | unveiled in the same chapter 8 | referred-to
+  - Discord's canonical magic (cartoon physics and gags, same as Pinkie) | treat as true canon that Discord's magic works like Pinkie's | Discord's magic is the same cartoon physics and gags as Pinkie canonically | referred-to
+  - Q from Star Trek and the John de Lancie parallel | draw on it to explain where Discord's character comes from and how the two connect | It comes from Q from Star Trek and the John delancie parallel? Please explain the origin and connection | referred-to
+- order:
+- about: The user asks the model to carry the magic-as-ambition framework over to Discord's reason for leaving Equestria, adds a chapter 8 plan detail about Rainbow and Réni, and asks for an explanation of the Q and John de Lancie origin of Discord, insisting his magic follows Pinkie's materialist rules.

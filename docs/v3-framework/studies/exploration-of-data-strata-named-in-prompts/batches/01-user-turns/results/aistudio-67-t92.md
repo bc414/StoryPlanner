@@ -1,0 +1,4 @@
+- sources:
+  - The original plan | treated as the existing baseline (Applejack sends Celestia a letter stating SECEF is going to Aquileia, without asking permission); the model is asked whether that choice should stand or change | The original plan features Applejack sending a letter | referred-to
+- order:
+- about: The user asks whether Applejack should request permission or simply inform Celestia in the SECEF letter, as the plan currently has it, and asks for an analysis of Celestia's thought process on reading it given the perceptions of Aquileia, the Griffonian Republic and Kemerskai that the user supplies.

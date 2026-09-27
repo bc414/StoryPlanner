@@ -1,0 +1,6 @@
+- sources:
+  - original plan (Twilight and Applejack become a couple at end of chapter 4; Fluttershy arrives next day with Celestia's letter as catalyst) | superseded earlier version; use it only to understand what the Fluttershy scene used to do, not as the current structure | "In the original plan" | referred-to
+  - revised plan (couple moved to end of chapter 6, after Applejack recovers from the love donation and the two discuss imposter syndrome) | current version, treat as settled and build the answer on it | "now I've moved it to at the end of chapter 6" | first-named
+- order:
+  - revised plan (couple at end of chapter 6) | original plan (couple at end of chapter 4, Fluttershy's letter as catalyst) | "originally had... but now I've moved it"
+- about: The user reports that they moved the Twilight and Applejack relationship beat from the end of chapter 4 to the end of chapter 6, and asks how Fluttershy's arrival with Celestia's letter should be handled now that it no longer triggers the confession.

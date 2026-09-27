@@ -1,0 +1,6 @@
+- sources:
+  - The author's own account of their history, from memory (leaving the echo chamber, never reading ASOIAF or watching Game of Thrones, reading P&K because it was a popular EaW story, believing in materialist world building from grand strategy games before and after 2024) | Treat as true and authoritative; use it to correct how their path is described, with P&K's ASOIAF basis as incidental | To clarify, I didn't mean | first-named
+  - The model's previous reading of the author's echo-chamber departure as leading to grimdark reading and the ASOIAF thesis | Treat as mistaken; drop this interpretation | I didn't mean "left the echo chamber" led to reading grimdark stories | referred-to
+- order:
+  - The author's own account of their history | over the model's previous reading of the echo-chamber departure | To clarify, I didn't mean
+- about: The user corrects the model's inference about how they came to P&K and the echo chamber by stating their actual history, then asks a fresh question about Rowland's following, scale and current activity.

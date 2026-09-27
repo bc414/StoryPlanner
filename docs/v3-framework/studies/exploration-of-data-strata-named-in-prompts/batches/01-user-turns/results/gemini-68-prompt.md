@@ -1,0 +1,4 @@
+- sources:
+  - this last chapter of the story | the material to read to find which plot threads remain unresolved, treated as the story's final chapter | This is the last chapter of the story | referred-to
+- order:
+- about: The user tells the model that the chapter just handled is the story's final one and asks which threads it leaves unresolved.

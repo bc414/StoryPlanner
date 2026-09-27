@@ -1,0 +1,5 @@
+- sources:
+  - The ancient harmonic hives and how they fed, as the author states it (not feeding off ponies, cooperating to make pink love calories, jaegers hunting manticore-tier predators and sharing the feast, hive wars starting when the manticores ran out) | Treat as the author's own settled account of the setting; it corrects the earlier description of how the hives fed and is to be used in place of it | The ancient harmonic hives were not feeding off ponies. They had cooperation to make pink love calories | first-named
+  - Qing China as Celestia's Equestria (the author's own identification) | Take as the author's added parallel: a stable, prosperous Equestria set against a tumultuous West, unprepared for British intervention; to be worked into the parallels | I also identified Qing China as Celestia's Equestria | first-named
+- order:
+- about: The author corrects the model's account of how the ancient harmonic hives fed and why the hive wars began, asks for further Chinese historical parallels (Song, Qin's script standardization, the origin of legalism), and adds his own Qing China to Celestia's Equestria parallel.

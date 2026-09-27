@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Celestia as fully censoring the Statthalter reports and keeping the whole public in the dark. The user suggests this may be too total, and that milder sanitation fits better, since Manehattan parloirs, Star Energy staff and crystal ponies would already know and believe the truth. | "Does Celestia really do full censorship or maybe sanitation?" | Put as a question, offering an alternative and giving reasons, while asking for a realistic analysis. It is not stated as an outright objection.
+- about: The user asks for a realistic analysis of how Celestia and the weak official army would behave, and in doing so questions whether the model's total-censorship framing holds, given which groups would already know the truth.

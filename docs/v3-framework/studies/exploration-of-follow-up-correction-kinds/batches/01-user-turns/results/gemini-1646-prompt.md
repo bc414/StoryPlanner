@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the previous episode analysis and moves on, asking for the same kind of analysis of Applebuck Season, supplying a transcript link and framing details about Twilight's first witnessing and Applejack's distance from the other friends.

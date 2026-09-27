@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether the standard Gemini chat app changes its sampling parameters depending on whether the request is for code or creative writing, without pointing the model at any body of material.

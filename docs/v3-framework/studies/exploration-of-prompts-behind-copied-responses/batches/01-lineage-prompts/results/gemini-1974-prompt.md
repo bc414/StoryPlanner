@@ -1,0 +1,13 @@
+- asks:
+  - analyse-relate | how the idol of Boreas (crystal, glows in presence of ambition) and the Lioness spell (redirects a target's predatory ambition toward the caster back onto that target) can be related to or complicate/annoy each other | "How can the magical rules annoy the idol of Boreas ... plus the Lioness spell ... be related?"
+  - analyse-relate | how those two magical rules can further relate to the Griffonian Republic's Universal Translator, which magically translates nuance and intent | "how can it relate too the Universal Translator ... which magically translates nuance and intent"
+  - review | review the story plans before answering | "Please review my story plans ... before answering"
+  - review | review this chat history before answering | "and this chat history before answering"
+  - deliver-analysis | give an analysis as the response | "giving an analysis"
+- supplies:
+- shaping:
+  - answer must follow a review of the story plans and prior chat history rather than being answered cold | "Please review my story plans and this chat history before answering"
+  - the response should take the form of an analysis, not just a quick answer | "giving an analysis"
+  - clarifies that the Lioness spell's redirected ambition is specifically ambition directed at the caster (e.g. to conquer/drain/rape them), not generic evil ambition | "it's not generic evil ambition, it is ambition towards the caster, e.g. the target thinking they want to conquer/drain/rape the caster"
+- openness: Open: the message poses how-can-these-relate questions about three worldbuilding elements without proposing or leaning toward any specific connection, leaving the analysis itself open.
+- subject: Relating three magic-system elements (Boreas idol, Lioness spell, Griffonian Universal Translator) in a fiction world

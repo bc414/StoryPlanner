@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented Keynes as material for building a new economist OC (name ideas, archetype, vibe), without recognising that the plan already has this character, Coltbert, who already matches Keynes | "my characterization of Coltbert is already Keynes in pony form" | Mild, understated observation in passing. It implies the archetype was redundant and does not say the model was wrong.
+- about: The user notes that the Keynes-based character the model proposed already exists in their story as Coltbert, which points out that the model's new-character build-out duplicated existing material.

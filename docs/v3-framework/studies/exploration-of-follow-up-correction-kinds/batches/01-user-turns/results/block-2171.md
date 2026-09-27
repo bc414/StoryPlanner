@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks the model to produce a comprehensive document gathering all the insights from the conversation, which is a new task and does not correct the preceding POV analysis.

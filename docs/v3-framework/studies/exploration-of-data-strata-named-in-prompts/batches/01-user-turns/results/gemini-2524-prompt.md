@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new premise for their story (sea-monster hunting as the hidden source of Chrysalis's surplus Red Love and wealth) and asks the model to work out its effects on the narrative and her motivations, without pointing at any body of material to draw on.

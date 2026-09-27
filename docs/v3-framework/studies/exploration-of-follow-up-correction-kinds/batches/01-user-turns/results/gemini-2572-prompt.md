@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's timeline by proposing how the Aquileian cartel would begin naively and later radicalise into joining the navy against the Mount Aris warlords, then asks the model to review the story plans and give a synthesis.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn elaborates on their own idea for the letters subplot, proposing that Applejack's and Twilight's frequent mentions of Mali and Fleur create dramatic irony that fuels a tension-free tension phase leading to a stronger reunion.

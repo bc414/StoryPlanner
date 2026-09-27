@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the worldbuilding mapping and asks a new, separate question about the meaning of the subculture term "Asian Baby Girl", without saying anything was wrong in the model's answer.

@@ -1,0 +1,10 @@
+- steps:
+  - author | brings a political-history draft | timeline of Aquileia's revolutions, party names, and a rebranding idea for Vérany's party, asks for analysis | opening prompt of the stretch
+  - model | validates and elaborates | breakdown of the preposition shift, ideological labels, a core-conflict reading, a historical parallel to 1848 France, and a verdict | first response
+  - author | asks a narrow follow-up | request for the correct French rendering of the first party's name | second prompt
+  - model | supplies a translation with rationale | a French name choice, an alternative bureaucratic phrasing, and an acronym scheme for both eras of the party | second response
+  - author | extends the framework | a class-tier assignment across the three parties plus a new sub-plot about a character's academic paper and a king's rural development scheme, and a naming question | third prompt
+  - model | validates and extends further | class analysis of the tiers, a 'sorcerer's apprentice' framing of the rural scheme, a naming recommendation, and a comparison table of the two rival parties | third response
+- kept:
+- brought: The author brought established mod canon (dates, rulers, party founders, and a hired reformer figure) as the factual scaffolding for the elaboration.
+- loop: Across three rounds the author kept adding new layers to a single political backstory (naming, class composition, a character's motive) and asking the model to validate or formalize each addition, but nothing from this exchange was captured into the planning database.

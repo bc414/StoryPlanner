@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model presented the Cute Intelligence Agency as Fluttershy's own spy network run out of the Sanctuary-style camp. The user says it is a state secret that the buffalo started. | The CIA is a state secret, started by the buffalo | flat statement of fact, given without argument, in the opening sentence
+  - which material was drawn on | The model built the CIA thread from the two episodes and its own invention instead of the story plans' thread on the cute intelligence agency. The user sends it back to the attached plans. | Check the attached story plans for the story thread about the cute intelligence agency | direct instruction to go and look, stated flatly and without irritation
+- about: The user briefly corrects the model's account of where the CIA comes from and points it to the plans, then moves on to new questions about how animal communication works for Fluttershy, buffalo and changelings, whether POWs can be trusted with it, and where the camp should be built.

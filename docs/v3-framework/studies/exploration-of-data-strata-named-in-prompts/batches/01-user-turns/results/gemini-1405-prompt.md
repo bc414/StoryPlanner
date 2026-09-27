@@ -1,0 +1,4 @@
+- sources:
+  - countries already covered (earlier analysis in this conversation) | do not repeat; choose only countries not yet analysed | other countries in the real world of 2026 that haven't been covered yet | referred-to
+- order:
+- about: The user asks the model to extend its real-world 2026 country analysis to countries it has not yet addressed.

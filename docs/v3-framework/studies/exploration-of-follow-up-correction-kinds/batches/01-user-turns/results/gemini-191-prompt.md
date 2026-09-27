@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the model's breakdown, then re-poses the same three sanity-check questions about the Aquileia–Equestria alliance and asks for a review and elaboration of the in-universe and narrative lore explaining why the two republics differ.

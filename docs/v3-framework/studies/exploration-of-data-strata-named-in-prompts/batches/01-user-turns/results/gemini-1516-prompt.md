@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user places the scene after the war and the white peace and approves of Coltbert analyzing Vérany's redemption, adding that Coltbert was originally directed by Discret to punish and snub Vérany and meant to, but Vérany's base adapted.

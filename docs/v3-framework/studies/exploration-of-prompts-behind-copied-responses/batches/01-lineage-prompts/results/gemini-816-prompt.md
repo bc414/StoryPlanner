@@ -1,0 +1,7 @@
+- asks:
+  - analysis | asks the model to analyze the proposed reinterpretation of where the setting's industrial revolution originates and what that implies for Equestria's lack of preparedness | "Please analyze this direction"
+- supplies:
+  - worldbuilding idea | a restated lore adjustment: the rest of the world follows human-history-based EaW lore while Equestria stays close to canon FiM and lags behind, with the industrial revolution starting in Herzland and spreading to Skyfall, Aquileia and Wingbardy, with no Anglosphere analogue | a short paragraph
+- shaping:
+- openness: leans toward an answer it names: the user states the specific direction they are already adopting (Herzland-led industrial revolution, no Anglosphere, Equestria stagnant per canon) and asks for analysis of that stated direction rather than open brainstorming or a choice between alternatives
+- subject: reworking EaW-fanfiction lore on the origin of the industrial revolution and Equestria's relative technological stagnation

@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | explain how Starlight and Maud's established canon rapport ("they get each other") could factor into Starlight's decision not to fly back with Rainbow Dash | "How can their canon character dynamic play into Starlight's decision to not fly back with Rainbow?"
+- supplies:
+  - plot reasoning, the user's own brainstorm | Starlight's arc of quitting flying because she used to brute-force magic without weighing consequences and now wants to be methodical/constructive/community-minded after a mine negotiation; her rampage in the second battle of Tall Tale being driven by seeing Maud with a broken spine; Maud now healed and asking Starlight to help run the crystal mine as a fit for both their talents; the writer's own uncertainty about whether Maud would ask Starlight to stay | a paragraph
+- shaping:
+- openness: Leaves the answer open, inviting brainstorming on how the named canon dynamic between Starlight and Maud could feed into the flying decision, while the message itself flags uncertainty about whether Maud would actually ask Starlight to stay.
+- subject: Starlight Glimmer's motivation for quitting flying and her relationship with Maud Pie in an MLP fan-fiction plot

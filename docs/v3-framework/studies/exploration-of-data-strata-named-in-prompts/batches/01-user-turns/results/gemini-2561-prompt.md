@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to review them and base its analysis of how Celestia and the weak Equestrian Army would realistically operate on them | Review my story plans and give an analysis | referred-to
+- order:
+- about: The user asks the model to review their story plans and analyze how Celestia and the weak official Equestrian Army would realistically operate, and questions whether Celestia's action is full censorship or milder sanitation that still leaves the wider public innocent while informed groups know the truth.

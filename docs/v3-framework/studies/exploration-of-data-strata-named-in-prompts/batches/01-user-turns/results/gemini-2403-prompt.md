@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states how they intend pegasus flight to work in their story (manipulating air pressure, temperature and currents) and asks whether griffons should share a weaker version of it or fly by pure wing muscle.

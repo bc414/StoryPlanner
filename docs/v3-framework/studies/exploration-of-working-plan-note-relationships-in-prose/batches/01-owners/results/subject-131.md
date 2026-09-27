@@ -1,0 +1,35 @@
+- relations:
+  - 1296|1297|1297 gives what follows the state 1296 describes: where no demand for griffon industrial products existed, industry arrives with the parloirs and induces the wish for foreign goods and factory work|no demand for griffon industrial products / foreign goods induce their dormant ambition|implicit
+  - 1296|1307|1307 states the founding of the parloirs that 1296 uses as its dividing date, the same year|Prior to 981 ALB when the first parloir was established / They started up in 981|implicit
+  - 1307|1297|1297 continues 1307: the parloirs' arrival, together with Aquileian luxuries, becomes the accelerant for industry and ambition|Coltbert's Parloirs and Aquileian luxuries / Coltbert's parloirs|explicit
+  - 1307|1298|1298 states the purpose the parloirs serve, catching burnt-out ponies, which 1307 states only as the parloirs being a place to be Adults|The parloirs were designed to catch ponies / a place where Celestia's little ponies can be Adults|implicit
+  - 1297|1298|1298 gives the consequence for ponies of the factory ambition in 1297: those who burn out in the rat race can go home|sign up for the factories / burns out in the Manehattan rat race|implicit
+  - 1298|2061|2061 draws its thematic claim from the safety net stated in 1298: the fallback into Stagnation of Harmony removes risk and so enables innovation|Stagnation of Harmony / no risk due to the Stagnation of Harmony safety net|implicit
+  - 2127|1307|1307 is an instance of 2127's general statement that The Night is adulthood: the parloirs are where ponies can be Adults|adulthood that is hidden / a place where Celestia's little ponies can be Adults|implicit
+  - 2127|1298|Both rest on the same picture of the daytime as Stagnation of Harmony, which 2127 sets against The Night and 1298 uses as the place a burnt-out pony returns to|stagnation of harmony / absorbed back into the Stagnation of Harmony|implicit
+  - 2127|1836|1836 presupposes 2127's meaning of the Night: the parloir tribes use their knowledge of the Night to heal repressed ponies|use their knowledge of the "Night" to heal / "The Night" is adulthood|implicit
+  - 1301|1836|1836 assigns the ruthless and harmonic models of sex work to the two foreign camps that 1301 sets out, Skyfall and Aquileian|It is Skyfall-inspired / It is Aquileian-inspired|explicit
+  - 1301|1307|The two notes name different staff for the parloirs: friendly Tzinacatl in 1301, nice thestrals in 1307, though both tie the parloirs to Coltbert and Aquileia|friendly Tzinacatl go to befriend ponies / recruiting nice thestrals|implicit
+  - 1301|1309|1309 revises what the Aquileian-aligned Tzinacatl import in 1301, from luxuries to include scientific journals|Aquileian-aligned Tzinacatl / import Aquileian luxuries / smuggling peer-reviewed scientific journals|explicit
+  - 1307|1309|Both name contraceptives as an Aquileian import; 1309 says the smuggling goes beyond wine and contraceptives|contraceptives / not just smuggling wine and contraceptives|implicit
+  - 1301|1296|1301 places the griffons on the industrial side of the two camps; 1296 says before 981 there was no demand for griffon industrial products|mustache twirling griffons / griffon industrial products|implicit
+  - 1301|1302|1302 adds to the foreign groups in 1301 the rule for Aquileians in the city: shops and restaurants, no farmland or factories, which fits their side of the split|Aquileians / Aquileians allowed too. They can't own farmland or factories|implicit
+  - 1223|1241|1241 explains how the uniforms 1223 says are needed were mass produced, since there were few sheep|uniforms in the army / To mass produce uniforms they had to use the industrial cotton gin|implicit
+  - 1223|661|1223 gives the rule that clothes are only for winter, art and expression, which sits under 661's picture of clothes as artificial coverings that Celestia would read as villainy|only winter clothes and for art and personal expression / creates artificial coverings (clothes)|implicit
+  - 1223|1224|1224 says locals wear clothing and 1223 gives the reason: factory work and army need it, while otherwise clothes are not needed. They only partly agree, since 1223 makes clothing rare in general|all the locals canonically wear some form of clothing / clothes are not needed for protection|implicit
+  - 1224|661|1224 has the visiting Mane 6 without clothing, while 661 has Rarity, one of them, making clothes and seeking status|Mane 6, who are visitors, don't have clothing / Rarity is the only Mane 6 member|implicit
+  - 661|1297|661's Rarity who seeks status and success is a single case of the wish for status and thrill that 1297 says foreign goods draw out in ponies|actively seeks "Status," / They want the status, the thrill|implicit
+- outward:
+  - 1224|The canon episode Rarity Takes Manehattan and its locals and the Mane 6|In Rarity Takes Manehattan, all the locals canonically wear some form of clothing
+  - 2127|Canon storyline of Nightmare Moon's civil war, held elsewhere|In EaW, "The Night" is tied to Nightmare Moon's civil war
+  - 1296|Griffonia and its gold-bit food trade, not held here|exported food to Griffonia in exchange for gold bits
+  - 1307|Coltbert and Aquileia as trading partners and the thestrals recruited, held elsewhere|recruiting nice thestrals who align with the Aquileian way
+  - 1241|A war whose army needs uniforms, not held here|Prior to the war, Equestria had some sheep
+  - 661|Celestia's worldview and the other members of the Mane 6|In Celestia's cynical worldview, Rarity should be a villain
+  - 1298|Herzland, a serf society|they don't starve to death like a serf in Herzland
+  - 1301|The Skyfall cohort, Chrysalis, the other tribes and the jungle destruction, held elsewhere|Skyfall cohort + mustache twirling griffons who are from Chyrsalis
+  - 1301|Coltbert and FJA, the parloir backers|parloirs from Coltbert/FJA
+  - 1309|FJA expats and the scientific journal trade, held elsewhere|Aquileian-aligned Tzinacatl and FJA expats
+  - 1836|Skyfall's ethics and Earth Pony apple pride as a general model|Just as an Earth Pony puts pride into their apple
+  - 2061|Extractive investors and startup culture in the real world|Startup crash and burn is a lie from extractive investors
+- whole: The notes mostly hang together: the 981 history, the parloirs, the two foreign camps, the safety net and the themes chain into one account, while the clothing notes make a second cluster that connects to the rest only weakly.

@@ -1,0 +1,8 @@
+- sources:
+  - story bible / world bible (the first big 450k token dump held in context) | treat as the authority to check against; proposed to be referenced first and always cross-referenced unless irrelevant, since neglecting it causes contradictions | Should the system instruction say to reference the story bible first; Always check against bible?; contradict the world bible | referred-to
+  - recent turns / recent conversation (the default preference for recency) | the model's default weighting that the user suspects wrongly outranks the bible in long sessions; proposed to be overridden by bible-first checking | instead of the default preference for recency; valuing the recent conversation more | referred-to
+  - generic tropes from training data | not to be leaned on in place of the world bible; seen as a failure when it wins over the bible | leans on generic tropes from training data over the world bible | referred-to
+- order:
+  - story bible / world bible over recent conversation (recency) | reference the story bible first instead of the default preference for recency
+  - world bible over generic tropes from training data | complains it leans on generic tropes from training data over the world bible
+- about: The user asks whether the system instruction should tell the model to consult the world bible first and always check against it rather than defaulting to recency, and asks whether recency weighting explains why long sessions drift from the bible into generic tropes despite the full context being present.

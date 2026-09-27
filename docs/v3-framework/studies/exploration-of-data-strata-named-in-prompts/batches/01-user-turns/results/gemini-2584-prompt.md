@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's question about how the Luna Nova Rifle is designed by stating a mechanic: it drains the user's own magic as ammo when they run out.

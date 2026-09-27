@@ -1,0 +1,6 @@
+- sources:
+  - This recent explanation (the model's preceding analysis of the Rockfeller pipeline and Celestia's two-tiered worldview) | treat as the definitive version; the standard against which the statements are judged | This recent expaination is what I want definitively | referred-to
+  - the following statements (the seven numbered points on Celestia, Rockfeller, the Buffalo and Appleloosa) | provisional; to be evaluated and either kept as still relevant or scrapped | evaluate if the following statements are still relevant or should be scrapped | first-named
+- order:
+  - This recent explanation | the numbered statements | This recent expaination is what I want definitively; statements may be scrapped
+- about: The user declares the latest explanation as the definitive version and asks the model to judge which of seven earlier-drafted statements about Celestia's inaction toward Rockfeller and the Buffalo remain relevant and which should be scrapped.

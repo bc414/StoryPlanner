@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend the causal genealogy by identifying further effects on Equestria, up to the war, that trace back to Grover III's choices, without pointing at any particular body of material.

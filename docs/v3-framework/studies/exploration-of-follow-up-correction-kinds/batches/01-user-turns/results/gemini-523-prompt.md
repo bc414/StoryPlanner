@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Mali analysis to request a similar analysis of Fluttershy's development, role and fit with her canon personality, without disputing anything in the previous answer.

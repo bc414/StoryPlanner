@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's analysis of Fleur's backstory to ask a new question about which real historical scientists (Haber, French figures, Marie Curie) might inspire her character.

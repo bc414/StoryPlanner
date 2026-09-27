@@ -1,0 +1,7 @@
+- passages:
+  - note 15 | self-questioning register | interrogative sentence, first framed as open query | what defines tyrannical regimes across the world | apart
+  - note 15 | listing register | sentence fragment, comma-joined noun phrases, no verb | three named examples of tyranny (serfdom, individualism, death cult) | apart
+- shifts:
+  - note 15 | self-questioning register | listing register | shift from a full interrogative sentence to a verbless list of noun phrases answering it
+- registers: self-questioning register; listing register
+- whole: The note holds two registers — a self-posed question and a verbless list answering it — set apart as separate sentences rather than blended within one.

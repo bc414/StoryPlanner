@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's closing question about their schema and asks a practical follow-up on whether DeepSeek R1 could take the whole corpus as one ingestion or would need the SQLite graph or a wikilink proxy of it.

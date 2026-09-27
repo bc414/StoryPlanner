@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's motive for Cadance's compliance, decoying Tirek away to protect the Crystal Empire's industrial shadow operations, is rejected; her reason is not about preserving the Crystal Empire | It shouldn't have anything to do with preserving the crystal empire | flat, blunt rejection with no reason given, followed by a replacement idea
+- about: The user rejects the model's Crystal-Empire-protection rationale for Cadance's transfer and offers a different motive: she complies to feed Celestia's confirmation bias so her secret Aquileian and mining work goes unnoticed.

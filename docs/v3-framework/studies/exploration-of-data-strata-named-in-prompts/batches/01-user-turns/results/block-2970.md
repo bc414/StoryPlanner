@@ -1,0 +1,6 @@
+- sources:
+  - story plans | review them where needed while analyzing the two hatchery/queen ontologies | Review story plans where needed | referred-to
+  - suppression of emotion sense lore (jaegers toggle; drones chemically suppressed by the industrial jaeger geist drug) | treat as the correct account of jaeger skill, correcting the prior analysis that jaegers only suppress | Jaegers do not lobotomize their emotion sense | referred-to
+  - Chrysalis's story (she poses as Gilded Lily and Silver Sterling's child) | treat as an established fact to weigh in the analysis | Consider the fact that she poses as | referred-to
+- order:
+- about: The user corrects the model's account of jaeger emotion-sense skill, then asks it to weigh dropping Chrysalis's mother against a personalized-hatchery model of queens, checking the story plans as needed.

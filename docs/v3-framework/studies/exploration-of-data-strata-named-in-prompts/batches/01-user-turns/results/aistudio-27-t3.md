@@ -1,0 +1,8 @@
+- sources:
+  - world bible / story bible (attached, generated from a WPF story planner's sqlite database) | the material to be fed in; it should be where the specific themes and particulars come from, rather than the system prompt | "those specifics should be coming from the story bible itself" | first-named
+  - plot points with synopses (some very detailed) | part of the fed material; treat as fabula-stage planning, not final prose delivery | "not the final prose delivery at all" | first-named
+  - current iteration of the system prompt | treat as too specific and restrictive; to be made broader so it allows any fabula analysis | "too many specifics which are going to end up restricting" | referred-to
+  - NotebookLM suggestions | treat as mismatched to the author's stage, since they assumed draft prose was being analysed; not to be followed as fitting | "assumed I was pasting in draft prose" | referred-to
+- order:
+  - story bible over the system prompt, for themes and specifics | "those specifics should be coming from the story bible itself"
+- about: The author supplies the world bible they will feed in and pushes back on the drafted system prompt, asking for a broader, less thematically specific instruction (with pros and cons) suited to the fabula-only architecting stage rather than analysis of draft prose.

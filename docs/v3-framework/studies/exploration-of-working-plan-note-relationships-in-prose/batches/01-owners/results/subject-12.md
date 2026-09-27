@@ -1,0 +1,17 @@
+- relations:
+  - 619 | 620 | the pain that made her sparing with magic is given a concrete source: recoil-induced migraines from her artillery-like magic | "it hurt her and she couldn't show it" / "gives her migraines from recoil" | implicit
+  - 620 | 622 | the recoil problem is answered by a remedy: the calcified horn stub lets her fire without recoil | "migraines from recoil" / "fire without recoil" | implicit
+  - 618 | 622 | her work on the spellblast tank turret is matched by the tank-barrel comparison for her calcified horn | "spellblast tank turret" / "reinforced barrel of a tank" | implicit
+  - 629 | 630 | two accounts of why she joined the Storm King: one self-protective (being in charge to avoid abuse), the other a pragmatic aim of stopping foreign slavers; overlapping and differing in motive | "joined the Storm King early" / "only military force capable of stopping the external slaving fleets" | implicit
+  - 619 | 629 | the fact that she joined early is given a reason in his rhetoric and her wish to be in charge | "joined the Storm King early" | implicit
+  - 619 | 630 | her joining is explained by pragmatism, and her use of fear to keep warlords in line is an instance of that brutality | "brutal pragmatist" / "intimidation to keep subordinate warlords in line" | implicit
+  - 623 | 629 | her being second in command fits her wish to be in charge as protection | "2nd in command" / "being in charge was the only way" | implicit
+  - 619 | 623 | two sides of her role in the horde: enforcing through fear versus logistical organization beneath the Storm King | "subordinate warlords" / "2nd in command, was logistical organization" | implicit
+- outward:
+  - 619 | the Storm King, a figure held elsewhere, and the warlords under him | "joined the Storm King early"
+  - 623 | the Storm King's own role and propaganda in the horde | "he provided the screaming manosphere spirit and propaganda"
+  - 622 | the Tzinacatl, a people or group not described here | "The Tzinacatl calcify the stub of her horn"
+  - 618 | the spellblast tank and its turret, a machine described elsewhere | "spellblast tank turret"
+  - 629 | foreign slavers and the wider continent-wide conflict | "uniting the continent against foreign slavers"
+  - 630 | the Statthalter "merchants" and the slaving fleets of Zebrica | "Statthalter \"merchants\" treating Zebrica like a meat market"
+- whole: By content the notes mostly hang together in two clusters, one about why and how she served the Storm King and one about recoil and the tank-like turret and horn, though a few notes stand alone and the two clusters are not tied to each other.

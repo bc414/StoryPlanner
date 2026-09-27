@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a story-design question about how much the other five main characters should know of Applejack's difficult history with industry and her parents, without pointing at any body of material for the model to draw on.

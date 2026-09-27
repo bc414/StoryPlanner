@@ -1,0 +1,12 @@
+- sources:
+  - Sengoku period before Nobunaga, Hideyoshi and Tokugawa | use as the analogue for the hive wars system, while the unifiers map to Chrysalis; the user's own recollection put forward for confirmation | I was curious about how the Sengoku period was before them | referred-to
+  - Oda Nobunaga, Hideyoshi and Tokugawa Iyeasu as modernizers | treat as the parallel to Chrysalis, not to the hive wars; user asks the model to confirm from its own knowledge | That makes them map to Chrysalis, NOT the hive wars system | referred-to
+  - pre-black death feudal Europe | tentative candidate as a better model for a rigid caste system, to be considered | Perhaps pre-black death feudal europe is better for a rigid caste system? | first-named
+  - India or other parts of the world | possible further historical comparison for caste rigidity, to be explored | What about in India or other parts of the world? | first-named
+  - Chinese history | possible further historical comparison, to be explored | What about Chinese history? | first-named
+  - gekokujo history | model is asked to supply from its knowledge how rare or common it was | How rare or common was gekokujo? | referred-to
+  - the term Queen as an Equestrian translation | treat as a translation label that may be Chrysalis's propaganda or narcissism rather than in-world reality | Queen is an Equestrian translation | first-named
+  - the story plan | check it for the rules, or the intent behind the rules, on shapeshifting before answering | Check the story plan for the rules (or the intent for the rules) on shapeshifting | referred-to
+- order:
+  - pre-black death feudal Europe over Sengoku period | Sengoku is called not the best model for social mobility, and Europe is suggested as perhaps better for rigid caste | But I suppose the Sengoku period is not the best model for the social mobility aspect
+- about: The user corrects the model's Sengoku mapping (the unifiers are Chrysalis, the pre-unification era is the hive wars), asks for other historical models of caste rigidity and how common gekokujo was, floats options for how queens and collectors arise and for infiltrators, and tells the model to check the story plan on shapeshifting rules.

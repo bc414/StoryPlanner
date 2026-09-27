@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's analysis and clarifying questions and makes a new request for a historical account of lathe bootstrapping, to be applied to how griffons build their own vacuum-sealed magical stabilizers for appliqués.

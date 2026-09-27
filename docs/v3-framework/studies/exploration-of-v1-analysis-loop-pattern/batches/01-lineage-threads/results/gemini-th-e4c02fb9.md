@@ -1,0 +1,13 @@
+- steps:
+  - author | introduces a visual device | explains the origin of braided manes (mouth-braiding, earth-pony style) and Fleur's filly-sleepover reading of it | opening of the message
+  - author | proposes a mane contrast | assigns Fleur and Mali messy manes against their usual grooming, filtered through Applejack's uncomprehending POV | early in the message
+  - author | sketches a future arc for Fleur | links 'hard way vs easy way' to her revolutionary ideology, Aquileia's wartime struggle, and her lack of a framework for post-war peace | mid-message
+  - author | frames Mali's guiding ethos | describes acceptance-not-intervention and non-confrontational healing, drawing a parallel to Celestia's closed school and Twilight's later school-of-friendship reversal | mid-message
+  - author | corrects a prior implication | clarifies that Henri and Fleur's complaint isn't about courage to kill (already proven) but about denied sexual/emotional liberty | later in the message
+  - author | specifies a turning point for Mali | states the core change is Fleur pushing Mali to actively cause the education rather than passively wait for ponies to seek her out | end of the message
+  - model | returns a structured multi-part analysis | organizes mane symbolism, Fleur's two-phase arc, Mali's shift from passive to interventionist, and an ideological frame ('harmonic capitalism of the heart') tying it together | single reply covering all the author's threads
+- kept:
+  - note 216 | the author's own words in this record | a drafted dialogue exchange enacting Mali's decision to actively teach rather than wait, placed on the plot point for Fleur and Henri recruiting Mali
+  - note 2616 | pasted from this reply inside the author's own framing | the model's phrasing on peace as the luxury to slow down and the revolution being fought so ponies could take time to braid manes, reworked into the author's framing and placed on the link between Fleur's return to Appleloosa and Fleur Bloom
+- brought: The author brought forward an established plan detail (Twilight's mouth-braiding of Applejack's mane, earth-pony style) along with existing character traits (Mali's usual soft mane, Fleur's usual straight mane, Aquileia's ongoing struggle) to build new symbolic and arc material on top of them.
+- loop: The author lays out a cluster of linked ideas and a correction about character motivation, the model organizes and expands them into a structured symbolic and arc framework, and the plan keeps only a compact dialogue beat for Mali's decision and a paraphrased line about peace-as-luxury, each filed onto its own plot point or link node.

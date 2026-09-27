@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out their own design decisions about Krystallfels' workforce being unaware of the changeling C-suite and brainstorms how Ahuizotl could plausibly fake his death without VOPS hunting him, without pointing the model at any body of material.

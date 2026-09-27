@@ -1,0 +1,5 @@
+- sources:
+  - 3rd battle of Tall Tale (how the author has it: Twilight and AJ in a tank with Tally Mark and Mali) | the author's own statement of what the plan holds; treat as true, correcting the model's picture of that battle | During the 3rd battle of Tall Tale, Twilight and AJ are in a tank | referred-to
+  - the start of Coordination (the author's plan, with Twilight teleporting them long distance to Diyarbecolt) | treat as outdated and drop; replace with a train to the Temberik Mountains and a flight up the mountain | Let's scrap that | referred-to
+- order:
+- about: The author corrects the model's assumption about the 3rd battle of Tall Tale and then rewrites the opening of Coordination so the wing reveal falls the day after the chasseur doctrine lesson and the night they put it into practice.

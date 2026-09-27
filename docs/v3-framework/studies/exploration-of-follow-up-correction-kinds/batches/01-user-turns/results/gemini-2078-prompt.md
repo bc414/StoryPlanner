@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user explains that their detailed plans came from a failed first draft that front-loaded exposition in chapter 2, then asks for further early seeds to hook the reader and whether this planning approach is the right one.

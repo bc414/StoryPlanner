@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's analytical survey and works out a new backstory for Sombra, Mi Amore and the Crystal Heart (unicorn ruling class, Sombra as a corrupted unicorn, the Heart as a natural crystal), presenting it as their own final design without saying the model's account was wrong.

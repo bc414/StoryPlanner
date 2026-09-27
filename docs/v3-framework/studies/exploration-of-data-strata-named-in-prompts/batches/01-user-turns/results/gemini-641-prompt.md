@@ -1,0 +1,6 @@
+- sources:
+  - the model's Windigo/sublimation theory from the previous turn (ambition sublimating the buried crystals into the atmosphere) | partly rejected: the sublimation mechanism is not accepted, but the idea that the crystals first formed by being stabilized by friendship is kept | I don't think too much ambition will sublimate the crystals | referred-to
+  - the author's own account of the crystals in the Temberik Mountains (formed when Luna became Nightmare Moon, stabilized by her friendship, undone by the Elements' beam) | treat as the author's stated lore and reason from it in working out the magic system | The crystals in the Temberik Mountains are the result of Luna turning into nightmare moon | first-named
+  - the rest of the mechanics the author has already built | treat as the standard of hardness the new magic system should match | considering how hard I made the rest of the mechanics | referred-to
+- order:
+- about: The author pushes back on part of the model's Windigo theory, keeps the friendship-stabilized crystal origin, explains their own Luna and Temberik crystal lore, and asks how expended crystals and ambition could become windigos and whether the magic should be hard or abstract.

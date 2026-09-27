@@ -1,0 +1,27 @@
+- steps:
+  - author | brings mechanism | a full causal economic chain for Discret's reign (treasury notes, loans to petty bourgeoisie, exports to Equestria, bank run, firing of Coltbert as trigger, Coltbert's apolitical fate) | opening message of the thread
+  - model | validates and analyzes | breaks the mechanism into named sub-effects: an export-dependency trap, an FJA/PNdA alliance logic, a bank-run psychology, a character read of Coltbert, and a summary flowchart | first response
+  - author | corrects and extends | reframes FJA/PNdA friction as economic incompatibility rather than decreed hatred, and adds a new plan detail on Discret using Coltbert to coerce the nobles of the sword | second prompt
+  - model | reanalyzes and extends | recasts the conflict as a three-way class struggle, ties it to specific chapters and character arcs (Applejack, Verany, Henri), and extends the revolution-trigger logic | second response
+  - author | asks a concept question | whether fractional-reserve lending against gold and fiat currency are the same or separate concepts | third prompt
+  - model | explains a distinction | lays out a leverage-vs-anchor matrix and maps world factions onto its quadrants | third response
+  - author | proposes a plot addition | Discret building a navy to contest Skyfall's shipping monopoly and stop privateering | fourth prompt
+  - model | validates with parallel | draws a real-world historical parallel, then extends into a shadow-war mechanic, a resource drain, and a mutiny payoff | fourth response
+  - author | asks a follow-up question | how Chrysalis could manipulate the new naval proxy war given her reserve-asset scheme | fifth prompt
+  - model | analyzes tactics | lays out sabotage, seduction, resource-strangulation, and consolidation tactics for Chrysalis | fifth response
+  - author | refines the plot | narrows the navy's protection to Aquileian merchants only, continued unchanged after the revolution | sixth prompt
+  - model | analyzes consequence | frames the policy as a geopolitical isolation trap, parallels it to Celestia's isolationism, and derives character motivations from it | sixth response
+  - author | refines further and checks | extends navy protection to Equestrian exports bound for Aquileia, allows AJ's parents to also use Skyfall insurance, explains Skyfall's disunity and Chrysalis's limits, and asks for confirmation the logic holds | seventh prompt
+  - model | elaborates and confirms | builds a two-lane trade model, explains Skyfall's profit-driven neutrality, traces SAA's gradual entanglement, and affirms consistency | seventh response
+  - author | corrects a character trajectory | has Applejack's parents refuse collaboration and convert their factory to war production, introducing a union alliance and war bonds funding faith-driven labor | eighth prompt
+  - model | analyzes thematic implications | reframes SAA as a moral exception proving a thesis, explains the liquidity/union alliance, reads earth pony magic as sustaining faith, and traces the effect on Applejack's arc | eighth response
+  - author | asks a research question | what backed real-world medieval economies for gold/silver and after the Black Death | ninth prompt
+  - model | supplies historical research | covers bullion sources, tally-stick credit, post-plague labor empowerment, and a price-revolution parallel, tying each to existing story elements | ninth response
+  - author | asks to link a character detail | whether Tally Mark's cutie-mark backstory can explain the setting's bit shortage and its honest resolution | tenth prompt
+  - model | synthesizes an explanation | diagnoses a rural liquidity crisis, contrasts honest tally-credit with hoarded gold, drafts an explanatory dialogue scene, and states the thematic payoff | tenth response
+- kept:
+  - note 4818 | the author's own words in this record | keeps the detail of noble-crown weapons dependency, filed as system mechanics under Pre-1st Revolution Aquileia
+  - note 526 | the reply was quoting the plan | keeps the pre-existing plan line about the transport-plane evacuation, resurfaced under the Aquileian Volunteers return plot point
+  - note 3222 | pasted from this reply with cuts | keeps a condensed line equating trust-and-work with gold, filed under the Tally Mark cutie-mark/banking link
+- brought: The author opened by bringing an already-worked-out piece of world economics (the Discret/Coltbert treasury-note and bank-run mechanism) for the model to test and build on.
+- loop: The author repeatedly brings mechanisms, corrections, plot refinements, and research questions about the setting's economy, and the model returns validating analyses, matrices, and extended consequences each time; the database keeps almost none of this generated analysis, instead cross-linking a small number of exact fragments — pre-existing lore, a previously written plan line quoted back, and one condensed synthesis sentence — into a few scattered records.

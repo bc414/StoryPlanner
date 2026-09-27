@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Sinjar-to-Aris mapping and moves on, stating the story's aim as a critique of the later Western betrayal of the SDF and asking a new set of historical, counterfactual and lore-linked questions, with a request for a synthesis of their planning.

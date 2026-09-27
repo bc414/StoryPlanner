@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for advice on which narrative perspective to use in writing the story, without pointing at any body of material.

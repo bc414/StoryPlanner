@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user observes that the wars covered so far were unusually brutal and asks the model to cover occupation in a milder war, the War of the Austrian Succession, instead, without pointing to any body of material to use or avoid.

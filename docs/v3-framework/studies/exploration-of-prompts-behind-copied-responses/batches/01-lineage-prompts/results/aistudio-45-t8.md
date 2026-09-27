@@ -1,0 +1,9 @@
+- asks:
+  - evaluate | judge, statement by statement, whether each of the seven numbered claims about Celestia's reasoning still holds up or should be discarded | "evaluate if the following statements are still relevant or should be scrapped"
+- supplies:
+  - numbered thesis list | seven statements laying out a psychological/political explanation for why Celestia does not intervene against Rockfeller's industrial violence against the Buffalo, covering her fear of repeating Nightmare Moon's authoritarianism, her blindness to industrial economics, her bureaucratic responses (Harmonic Impact Assessments, auditors), Rockfeller's exploitation of her naivety, and her confirmation bias from the Appleloosa resolution | close to a page, several paragraphs
+- shaping:
+  - treat this framing as the settled/definitive account of Celestia's motivations going forward | "This recent expaination is what I want definitively"
+  - give a verdict on each of the seven statements individually rather than a single overall judgment | numbered list of discrete statements presented for evaluation
+- openness: asks for a choice between two named outcomes—keep as relevant or scrap—applied separately to each of the seven statements, per "still relevant or should be scrapped"
+- subject: whether a set of explanatory claims about Celestia's political paralysis toward Rockfeller's industrial violence against the Buffalo remains valid

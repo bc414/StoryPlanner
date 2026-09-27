@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, wanting Piłsudski compared with whoever led Poland in 1939, without challenging anything the model said.

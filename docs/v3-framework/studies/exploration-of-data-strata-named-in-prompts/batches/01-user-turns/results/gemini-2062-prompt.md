@@ -1,0 +1,4 @@
+- sources:
+  - the below system instructions (the pasted Role/Task/Rigid Semantic Protocol/Execution prompt) | the text to be revised: treat it as the base document and modify it by adding directions for authorial directives, garbage, and preserving bucket order | Now modify the below system instructions | first-named
+- order:
+- about: The user asks the model to revise their pasted Phase 2 system prompt so it tells the extraction AI to route authorial directives and garbage into their own areas and to keep the input bucket order.

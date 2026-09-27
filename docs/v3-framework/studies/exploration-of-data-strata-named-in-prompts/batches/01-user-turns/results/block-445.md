@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of why Chrysalis's fake parents died, saying they did not need vices to cope with stress and instead partied too much with other tycoons, without pointing to any body of material.

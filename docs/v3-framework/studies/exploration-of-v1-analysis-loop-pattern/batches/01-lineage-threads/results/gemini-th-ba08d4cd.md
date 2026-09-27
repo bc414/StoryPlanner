@@ -1,0 +1,5 @@
+- steps:
+  - the author | extends a mechanic | applies an established magic-cost concept (balance of two love types) to a new spell and asks for a review of story plans against it | at the start of the exchange, the only captured turn
+- kept:
+- brought: The author brought an existing worldbuilding rule (the charitostatic effect balancing pink/connection love and red/ambition love) and proposed extending it to a new spell and to other "overpowered" abilities, asking the model to review the story plans against this rule.
+- loop: The author's move to extend a magic-cost mechanic and request a plan review has no counterpart here, since the model's reply was not captured and the archive traces zero notes to this stretch, so nothing from this exchange is shown entering the plan.

@@ -1,0 +1,5 @@
+- sources:
+  - The previous letter from Applejack before this one | Treat as established story fact: it already revealed what the drugs are so Fluttershy could diagnose the drugged POWs, and the new answer should build on that | would have been about unveiling the nature of the drugs so that Fluttershy could diagnose the POWs | first-named
+  - this one (the Applejack letter authorizing the drug trade, as just discussed) | Treat as the next letter in the sequence, the point the new question follows from | before this one | referred-to
+- order:
+- about: The user takes the previous Applejack letter as established story fact and asks how Twilight should tell Fluttershy that her love donors, decorated with changeling silk and her rehab patients' stuffed animals, will be used to supply the Skyfall drug trade.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the Faust/Hasbro analysis to contrast their own rules-based, world-law magic with P&K's thematic deus-ex-machina magic, and asks whether P&K's approach comes from how magic works in ASOIAF.

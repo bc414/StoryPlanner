@@ -1,0 +1,5 @@
+- sources:
+  - my world building | treat as the existing record of the native changeling language (bulldozed by Chrysalis with simplified Herzlander, initially Xhosa-modeled); a starting point that may be changed | my world building says there is a native changeling language | referred-to
+  - the story Bible around the native changeling language | the material the model is told to review and base its analysis on | Review the story Bible around The native changeling language | referred-to
+- order:
+- about: The user asks the model to review the story Bible's material on the changelings' native language, currently Xhosa-modeled, and analyze whether it should be redone as Chinese-based, possibly non-Mandarin dialects.

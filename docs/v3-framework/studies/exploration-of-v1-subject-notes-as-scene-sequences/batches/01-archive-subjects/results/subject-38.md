@@ -1,0 +1,16 @@
+- passages:
+  - 4498 | statement about the subject | Division of labor: Twilight works on the Luna Nova Rifle and general Magic Engineering, while Fizzlepop works on the Spellblast tank turret | none | present-tense description of what each works on
+  - 5157 | statement about the subject | Her magical artillery gives her migraines from recoil | none | plain present-tense fact
+  - 5157 | backstory summary | She joined the Storm King early and used bursts of magic as intimidation to keep subordinate warlords in line, only sparingly because it hurt and she couldn't show it | none | past-tense account of a pattern over time, no date
+  - 5157 | scene beat without year | At the 2nd battle of tall tale she unleashed the magical artillery and it hurt her a lot | none | a named battle, no year or date given
+  - 5157 | open question to the author | A query about when the pain during the battle should be revealed | none | parenthetical question in the note
+  - 5157 | statement about the subject | The Tzinacatl calcify the stub of her horn so she can fire without recoil, compared to a tank's reinforced barrel | none | stated fact with a comparison, no date
+  - 5160 | statement about the subject | Her role as the Storm King's second in command was logistical organization, while he supplied the spirit and propaganda; her logistics skills serve in rebuilding Ain Trotgourait | none | descriptive statement of role and skills
+  - 5160 | thematic commentary | Working with Twilight only swaps top-down tyranny for top-down charity | none | evaluative remark introduced with 'But'
+  - 5184 | statement about the subject | World contrast: Celestia's post-scarcity society values utility magic and finds destructive output useless, while in Zebrica the Storm King saw her 'disability' as a walking artillery piece of terror | none | explanatory contrast between two societies
+  - 5184 | statement about the subject | Her motive is survivalism rather than cruelty, and Twilight rightly sees the broken filly inside the armor | none | interpretive statement about character
+  - 5310 | statement about the subject | She joined the Storm King early because of his rhetoric of uniting the continent against foreign slavers, and felt being in charge was the only way to avoid abuse in a predator's-dilemma environment | none | explanation of motive, no date
+  - 5321 | statement about the subject | She is a brutal pragmatist, not evil for its own sake; she saw the Statthalter 'merchants' treating Zebrica as a meat market and joined the Storm King's 'Join or Die' horde as the only force able to stop the slaving fleets | none | characterization and motive in past and present tense
+  - 5321 | scene beat without year | Twilight arrives in Ain Trotgourait to build 'glass houses' and preach passive Harmony, and Fizzlepop views her with total contempt as another naive Equus imperialist | none | 'When Twilight arrives', no date
+- sequences:
+- whole: A set of six short design notes on Fizzlepop that mostly state her motives, role, magical artillery and contrast with Twilight, with only a couple of undated event beats (a battle and Twilight's arrival) and a stray author question.

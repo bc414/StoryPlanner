@@ -1,0 +1,13 @@
+- passages:
+  - 4482 | statement about the subject | What the Crystal Enhancer is: a band worn around a unicorn's horn, made of composite metal and crystal like a rechargeable battery, built only by griffon artisans on their own smooth-cutting machines, and able to take high grade power crystals | none | descriptive present-tense definition of the object and how it is made
+  - 4482 | statement about the subject | How it is charged: the unicorn uses a simple on/off spell, like a circuit breaker, to open the enhancer's magic intake | none | general rule of operation, not a single event
+  - 4482 | statement about the subject | How it is used once charged: the unicorn can cast any spell they know and the horn draws magic from the enhancer | none | general rule introduced by 'Once the crystal enhancer is charged'
+  - 4482 | statement about the subject | Requirement that Tzinacatl horn-healing paste be applied, beforehand and afterward if needed, to heal horn damage or stress from the excess magic flow | none | rule stated with 'must'
+  - 4093 | statement about the subject | A later development in the subject's fortunes: the red love canister with draining spell and vacuum valve becomes a valid magic source | none | 'Eventually' with no year or date; a general future fact rather than a shown moment
+  - 4483 | statement about the subject | The University of Pridea invented the crystal enhancer | none | plain origin fact
+  - 4477 | statement about the subject | Crystal enhancers work like magic inhibitors on unicorn or changeling horns, but in reverse, supplying magical energy | none | comparison to inhibitors
+  - 4477 | author's commentary on canon precedent | Remarks that magic inhibitors are common in fanfiction and partly canon, citing the black crystals on Shining Armor's horn from King Sombra in The Crystal Empire Part 1 | none | out-of-story reference to the source material
+  - 4477 | research to-do | Reminder to check where inhibitors are canon, with guesses of the Equestria Games and the Storm King movie | none | imperative 'Check to find' and a question
+  - 4576 | statement about the subject | Enhancers let unicorns teach their special spells to others, which was pointless before because spells worked only through a cutie mark discount; no one becomes obsolete because of comparative advantage and personal pride | none | explains what the subject changes and why, in present-tense general terms
+- sequences:
+- whole: The notes are all worldbuilding statements about the Crystal Enhancer — what it is, who made it, how it is used and its effects on unicorn society, and its future power source — plus an author's comment on canon precedent with a to-do, and no scene beats or dated events.

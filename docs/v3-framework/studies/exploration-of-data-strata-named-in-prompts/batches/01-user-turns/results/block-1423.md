@@ -1,0 +1,10 @@
+- sources:
+  - my v1 notes | search them for examples of reveal-planning content (how backstory and psychology are revealed); treat as the material being compiled into v2, where content may be scattered across subjects | Are there examples in my v1 notes of this kind of planning? | referred-to
+  - Scene design in v1 (the model's claim that it doesn't exist there) | model should clarify whether the field is missing from the architecture while the content is scattered, or whether the content was never written | When you say scene design doesn't exist in v1 | referred-to
+  - ArcTrajectory / the model's proposed tracks | treat as the model's proposal under critique; the user wants reveal planning split from change planning and thematic function moved to the theme subject | I noticed "ArcTrajectory" is about "how does this character change" | referred-to
+  - Applejack's Parents (a note) | offered as a found example of reveal-planning content living in another subject, showing why v1 compilation into v2 is needed | Indeed, I found this in Applejack's Parents | first-named
+  - a link to a plot point (the Comet Shine scene about Applejack's parents) | offered as a second found example of the same reveal-planning content, sitting in a link | And then in a link to a plot point | first-named
+  - the entry for The Battle of Mount Aris | offered as a third found example, containing Mount Aris trauma and backstory/psychology reveal material | Then in the entry for The Battle of Mount Aris | first-named
+  - my existing cognitive modes (the CognitiveMode enum) | the current design to be revised: SceneArchitecture is too narrow and needs a better name, and Metatextual vs Analogical need sorting out | Here are my existing cognitive modes | first-named
+- order:
+- about: The user pushes back on the model's proposed track scheme, asks whether scene-design content exists in v1, proposes a separate reveal-planning track and supplies three v1 excerpts as evidence, and asks for a better name for the SceneArchitecture cognitive mode and a ruling on Metatextual, Analogical and social commentary.

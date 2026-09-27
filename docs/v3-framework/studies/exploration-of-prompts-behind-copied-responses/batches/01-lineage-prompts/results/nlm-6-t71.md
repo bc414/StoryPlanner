@@ -1,0 +1,10 @@
+- asks:
+  - check | whether Vinovia was the iron statist stronghold through the six-month period because she had already been treating her peasants decently | "So is Vinovia the iron statist stronghold during the 6 months because she was already decent to the peasants?"
+  - check | whether the Vinovian peasants refused Verany's 'Clothes for All' offer because they were content under Gaudreau, and whether seeing the warlords return to their castles confirmed that choice | "didn't take Verany's \"Clothes for All\" offer because they were ok with Gaudreau, and seeing the warlords return to their castles sealed it"
+  - check | whether the warlords' return gave Gaudreau's father grounds to persuade his own peasants they were better off under him than under Verany, given iron statist land treats warlords as enemies | "gave Gaudreau's father enough of a point to tell his peasants they're better off with him than Verany"
+  - brainstorm | whether Gaudreau's father was similarly forward-thinking by leaving his daughter in charge of the estate while he served King Gerad in the professional army | "Perhaps her father in the army was too, by leaving his daughter in charge of the estate"
+- supplies:
+  - idea | a chain of reasoning proposed by the user linking Vinovia's peasant treatment, her stronghold status, peasants' rejection of Verany's offer, and Gaudreau's father's position | a few connected sentences
+- shaping:
+- openness: leans toward an answer it names, since the user proposes a specific causal chain (Vinovia's decency, peasant rejection of Verany, Gaudreau's father's leverage) and a further speculation about the father's foresight, framed as things to confirm or agree with
+- subject: causal backstory of Vinovia's political loyalty and the Gaudreau family's standing with peasants in iron statist territory

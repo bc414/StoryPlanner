@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short comparative question, whether the Supernatural fanfiction community is like the brony fandom for MLP with the gender demographics reversed, without pointing the model at any body of material to use or avoid.

@@ -1,0 +1,18 @@
+- steps:
+  - author | request | ask for French and English name suggestions for a consent spell and scorecard, framed as mocking/innocent-sounding | opening message
+  - model | brainstorm | four metaphor-based option sets (dance, economic, mirror, nursery) plus a top recommendation | first response
+  - author | redirect | reject metaphor/euphemism approach, demand a self-describing name, and supply canon backstory tying the spell to the Canterlot Wedding shield | second message
+  - model | brainstorm | new option sets built on sovereignty/sanctity/integrity themes, tied back to the canon retcon | second response
+  - author | narrow | ask for suggestions specifically drawing on game theory and Coltbert's predator's-dilemma paper, citing the established club name | third message
+  - model | brainstorm | game-theory option sets (fair play, gambling, mechanics) with a recommended pairing | third response
+  - author | request more | ask for additional game-theory-inspired terms | fourth message
+  - model | brainstorm | further game-theory option sets (tit-for-tat, barrier to entry, grim trigger) with a recommendation | fourth response
+  - author | select | state a preference for two specific candidate names from the prior rounds | fifth message
+  - model | pair | propose scorecard names matched to each of the two chosen spell names, with a combined recommendation | fifth response
+  - author | pivot | propose replacing the spell name entirely with a 'lioness' concept | sixth message
+  - model | develop | elaborate thematic and translation implications of the lioness name, link to a character's arc, propose paired scorecard options | sixth response
+  - author | select and extend | accept one scorecard name for its hunting-log/trophy ambiguity, then ask for grammatical/nuance analysis of two English phrasings and their French equivalents | seventh message
+  - model | analyze | compare possessive vs noun-adjunct phrasing in English, give French equivalents with nuance, and give a final combined recommendation | seventh response
+- kept:
+- brought: The author grounded the naming request in already-established worldbuilding, citing the canon Canterlot Wedding shield spell and the previously named Aquileian social clubs.
+- loop: The author ran the model through repeated rounds of naming brainstorm—rejecting euphemism, narrowing to a theory-based angle, picking favorites, then pivoting to a new concept and asking for grammatical nuance—but the archive shows no note from this exchange was captured into the planning database.

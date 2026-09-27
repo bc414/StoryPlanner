@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | asks what becomes of the liberated-drone generation who don't rise to meritocrat status, specifically those who end up as factory workers or conscripts | "what about the ones who become factory workers or conscripts?"
+  - check | asks whether it's right that this generation would need to learn a simplified form of Herzlander while retaining native changeling roots | "They would probably have to learn simplified Herzlander but still have native changeling roots"
+- supplies:
+  - worldbuilding context | background on a changeling society: Chrysalis's hive unification wars, drones liberated from old nobility oppression, native changeling upbringing, and Trimmel as a named example of a drone who became a meritocrat | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: it proposes that this generation would learn simplified Herzlander while keeping native changeling roots, but leaves open what their broader fate and culture as factory workers or conscripts would look like.
+- subject: Worldbuilding for a changeling fiction setting — the fate and culture of non-elite drones from the generation liberated during Chrysalis's hive unification wars

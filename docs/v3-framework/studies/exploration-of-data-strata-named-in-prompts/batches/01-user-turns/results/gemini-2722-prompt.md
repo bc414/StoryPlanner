@@ -1,0 +1,8 @@
+- sources:
+  - chapter Combined Arms | the part of the story plan the model is to set up the Celestia and Luna interactions in, so they read as benevolent | how can I set up the interactions with Celestia and Luna throughout the chapter Combined Arms | referred-to
+  - original suggestion (Celestia proud but terrified) | superseded by the author and no longer the plan; it is kept only as the reference for how hard the later gut punch lands | Original suggestion was for Celestia to appear proud (but terrified), which makes the gut punch harder later | referred-to
+  - replacement (Celestia resigned and deferential) | the author's current plan, but held as provisional and open to the model's analysis of whether it still supports the gut punch | But I've replaced it with Celestia being resigned and defeferential. I think this still works, need analysis | first-named
+  - chapter Breakthrough, dreamscape aid network addition | newly added plan element to be treated as current, giving Celestia and Luna agency in the civilian war effort instead of passivity | in the following chapter "Breakthrough", they help out with the civilian war effort of the dreamscape aid network | first-named
+- order:
+  - replacement (Celestia resigned and deferential) over original suggestion (Celestia proud but terrified) | But I've replaced it with Celestia being resigned and defeferential
+- about: The author asks how to make Celestia and Luna benevolent in the Combined Arms chapter while keeping the later white peace gut punch, and asks for analysis of their revised resigned-and-deferential Celestia and the new Breakthrough aid-network role.

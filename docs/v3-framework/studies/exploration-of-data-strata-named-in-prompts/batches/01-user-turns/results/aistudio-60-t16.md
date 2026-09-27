@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the shield spell matrices in their story should be redesigned as miniature crystal hearts converting charitostatic pink love, instead of unicorn magic fuelled by red love and ambition, and names no body of material for the model to draw on.

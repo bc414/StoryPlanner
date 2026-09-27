@@ -1,0 +1,5 @@
+- sources:
+  - canon FiM setting / the episode watched | the base material whose show quirks the author patched with in-world explanations to keep suspension of disbelief; treated as the starting point that the author's themes were applied to, not as fully self-consistent | applied them to the canon FiM setting; plugging holes where my disbelief was suspended while watching the episode | referred-to
+  - TLTT story plans | the end product that evolved out of the author's earlier explanations of canon; treated as parallels grown from that work | evolve into the parallels of my TLTT story plans | referred-to
+- order:
+- about: The user reflects on the model's analysis and concludes that their own habit of explaining show quirks with in-world materialist reasoning, drawing on universal themes, is how canon FiM grew into their TLTT story plans.

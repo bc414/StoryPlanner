@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author answers the model's closing question by stating new canon rules from their own head: enchanted machines don't become obsolete because griffon personal magic works like the cutie mark discount, and griffons can change their cutie mark by learning a new machine while ponies are locked into their talent.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up clarifying question about which parts of the first turn (the question, the chapter text, the model's output) get carried into the history sent with the second prompt, without disputing anything the model said.

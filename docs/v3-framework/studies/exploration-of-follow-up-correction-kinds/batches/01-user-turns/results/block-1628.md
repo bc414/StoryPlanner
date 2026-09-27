@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the plot-point stub discussion to a new design question about whether a character's psychology track and history track should overlap, since the psychology is caused by the history, and how to keep them clean.

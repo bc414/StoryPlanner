@@ -1,0 +1,5 @@
+- sources:
+  - the backing data (EF Core) | treat as the place where stable IDs already exist, correcting the model's suggestion to add IDs | They have stable IDs already since the backing data is EF Core | referred-to
+  - the json serialization | treat as a partial export that leaves out the ID fields present in the backing data | those fields were not included in the json serialization | referred-to
+- order:
+- about: The user corrects the model's ID suggestion by saying stable IDs already exist in the EF Core data but are left out of the JSON export, then asks whether to shorten descriptor names to save tokens.

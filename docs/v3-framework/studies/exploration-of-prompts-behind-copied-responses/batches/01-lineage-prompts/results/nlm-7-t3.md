@@ -1,0 +1,7 @@
+- asks:
+  - extend/trace | asks the model to look further back in time, before Sunday March 22, for whatever happened with 'this idea' | "What about before Sunday March 22?"
+  - origin-trace | asks the model to identify the point or moment where the idea first originated | "Where did this idea take root?"
+- supplies:
+- shaping:
+- openness: Open: the message poses two open questions about timing and origin without naming a candidate answer or offering options to choose between.
+- subject: Tracing the earlier history/origin of an unspecified idea referenced from prior conversation, prior to March 22

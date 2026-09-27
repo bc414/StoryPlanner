@@ -1,0 +1,6 @@
+- sources:
+  - the propaganda bomb or inflation bomb on North Korea | offered as a real-world analogy for the food bombardment; the user checks the proposal against it and finds it fits thematically | basically the propaganda bomb or inflation bomb on North Korea | referred-to
+  - the food bombardment idea from the model's previous turn (the current conversation) | treated as a proposal whose origin the model should trace, and which the user finds fits well thematically | Where did this idea come from? | referred-to
+  - real world parallels (the model's general knowledge) | asked to supply historical or real-world precedents for the idea | Any real world parallels? | referred-to
+- order:
+- about: The user compares the model's proposed food-bombardment ending to a North Korea propaganda and inflation tactic, approves of the thematic fit, and asks for real-world parallels and the idea's origin.

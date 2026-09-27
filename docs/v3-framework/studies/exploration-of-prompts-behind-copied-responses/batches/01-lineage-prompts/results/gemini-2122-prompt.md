@@ -1,0 +1,8 @@
+- asks:
+  - decide | whether one facility can serve two functions at once, combining the luxury culinary-cartel HQ with the import/sale hub for durable PNdA goods, or whether these should be kept as separate facilities | "double as a place where they import and sell... Or should these be separate?"
+  - brainstorm | what function or role this large Aquileian complex could play in the industrial side of the broader culture-and-economic war | "What role can a grand massive Aquileian complex... serve in the industrial side of the culture and economic war?"
+  - decide | which of two named locations within the setting (the basin or the heights) the complex would be situated in | "would this be in the basin or the heights?"
+- supplies:
+- shaping:
+- openness: Mixed: the facility-merger question and the basin/heights question each offer two named options to choose between (or affirm as separate), while the question about the complex's industrial-war role is left fully open for brainstorming.
+- subject: Worldbuilding for a fictional setting: whether an Aquileian luxury complex (culinary cartel HQ, chef/lioness-partner quarters) should also function as an import hub for durable PNdA consumer goods opposing planned-obsolescence subscription syndicates, its role in an industrial/economic war, and its location (basin vs. heights).

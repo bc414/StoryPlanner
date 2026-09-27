@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user follows the model's explanation of context limits and split-summarizing by asking for a detailed summary of the story, which acts on the recommendation without disputing anything in it.

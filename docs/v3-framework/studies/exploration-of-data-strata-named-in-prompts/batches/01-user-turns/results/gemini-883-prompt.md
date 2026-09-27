@@ -1,0 +1,4 @@
+- sources:
+  - the pasted exportDailyVersions script, with the suggested revisions fix applied | treat as the current code to debug; its behaviour on the run is what the model must explain | It only found one day, and created the folder but did not put anything in it | referred-to
+- order:
+- about: The user pastes their updated Google Apps Script and reports that after the fix it finds only one day of revisions and creates an empty folder, asking implicitly for further debugging.

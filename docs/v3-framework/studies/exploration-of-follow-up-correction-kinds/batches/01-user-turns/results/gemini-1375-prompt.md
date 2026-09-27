@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn only attaches a large plan export with no accompanying text, so it states or shows nothing about whether the model's answer was wrong.

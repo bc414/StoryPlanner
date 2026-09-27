@@ -1,0 +1,4 @@
+- sources:
+  - canonically (the published show's canon for Twilight's and AJ's manes) | treat as true; the established facts about the characters' mane habits are the basis for a new irony to work into the grooming scenes | Twilight and AJ canonically care little about their manes | referred-to
+- order:
+- about: The user adds a further irony to the proposed grooming scenes, citing what is canonical about Twilight's and Applejack's indifference to their manes.

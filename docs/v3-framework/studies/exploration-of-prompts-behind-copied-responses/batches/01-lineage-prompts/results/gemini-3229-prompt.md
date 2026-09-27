@@ -1,0 +1,9 @@
+- asks:
+  - equivalence-check | asks whether "Hollywoodization" is the same phenomenon as the "Hasbro Mandate" and the "EA/Activision/Microsoft mandates" | "So is Hollywoodization the same as the Hasbro Mandate and ea/Activision/Microsoft mandates?"
+  - analogy-check | asks whether this dynamic maps onto the difference between reading a book versus watching a movie or television show | "That's the difference between reading a book and watching a movie or television show?"
+- supplies:
+  - premise, user's own design conclusion | states that battle spectacle should be subordinate to and serve "the system" rather than be pursued for its own sake | two short sentences
+  - analogy, user's own cross-media parallel | draws a parallel between Lauren Faust smuggling real storytelling into MLP G4, Treyarch doing the same in Black Ops, and the earlier Westwood-versus-Blizzard parallel | one sentence
+- shaping:
+- openness: Leans toward answers it proposes: it frames each question as a named equivalence (\"Hollywoodization\" = corporate mandates; the mandate dynamic = book vs. film/TV) and asks the model to confirm or address whether the equivalence holds.
+- subject: Whether corporate/franchise creative mandates (\"Hollywoodization,\" Hasbro, EA/Activision/Microsoft) parallel the difference between books and film/TV storytelling, in the context of designing battle spectacle to serve a story's system.

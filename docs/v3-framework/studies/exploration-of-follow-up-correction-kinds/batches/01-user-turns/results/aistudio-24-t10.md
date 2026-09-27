@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn supplies a categorized bucket list and an attached document as input for the next step of the note-organizing pipeline, without saying anything about the sorted output being wrong.

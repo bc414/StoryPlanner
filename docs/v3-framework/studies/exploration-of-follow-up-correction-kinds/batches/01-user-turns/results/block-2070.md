@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | What triggers the shift from company to state: the model tied it to company scale making governance a real question, and the user makes it depend on perceived instability, with the great powers helping the old empire collapse | dynamic based on perceived instability; the great powers facilitate its collapse | Tentative first-person proposal that replaces the mechanism without saying the earlier one was wrong
+  - fact of the world | Where the capitalist path ends up: the model had a private quasi-state on the East India Company model, and the user has the rugged individualist path and the Mondragon path both become democracies | the rugged individualist path and the mondragon path become democracies | Stated in passing as a design decision, hedged with 'I'm thinking' and 'not sure', with no reference to the model's version
+- about: The user sets out their own design decisions for how the four paths turn into polities, and in doing so replaces the model's scale-driven mid-game and its quasi-state capitalist path, without saying so outright.

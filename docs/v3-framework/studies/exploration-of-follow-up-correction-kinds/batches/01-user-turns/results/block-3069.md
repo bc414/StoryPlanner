@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the drop from 96 archive hits to 14 in the working plan as an 85% reduction from the user's editorial cuts. The user says the migration is only about one-fifth done, so the gap is expected and reflects no editing. | Correction: the migration is not complete. 14 vs 96 is expected because roughly only 1/5 of the archive has been migrated | Flat, stated as a labelled correction with the reason given right after.
+  - reading of the plan | The model read the state of the migration as finished or far along, saying the user is 85% done and has been treating the term for months. The user says most of the archive has not been migrated. | Correction: the migration is not complete. | Flat, direct statement that it is incomplete.
+- about: The user corrects the model's mistaken premise that the migration is complete, explaining that the numbers differ because only about a fifth of the archive has been migrated, then asks whether v1's uses of nursery are the user's own voice or Gemini's pasted text, and notes that v2 may also contain copying from v1.

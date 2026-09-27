@@ -1,0 +1,4 @@
+- sources:
+  - my story plan, the part about Tally Mark | treat as the material to look at and answer from; the model is to read that section of the plan | Look at the part of my story plan about Tally Mark | referred-to
+- order:
+- about: The user asks the model to consult the Tally Mark section of their story plan to say whether her tally sticks work as a way around Celestia's rigid bit standard.

@@ -1,0 +1,6 @@
+- sources:
+  - codex entry "Banking" | use as the starting point for the analysis of the economic impact on Equestria | start the analysis around the codex entries | referred-to
+  - codex entry "Chrysalis's Economic Scheme" | use as the starting point, together with the Banking entry, for the Equestria impact analysis | start the analysis around the codex entries | referred-to
+  - the model's preceding breakdown of the different systems and what backs them | accept as a good basis and build on it when analyzing impact on Equestria | This is a great breakdown of the different systems | referred-to
+- order:
+- about: The user approves the model's breakdown of the currency systems and asks it to analyze their impact on Equestria, beginning from two named codex entries.

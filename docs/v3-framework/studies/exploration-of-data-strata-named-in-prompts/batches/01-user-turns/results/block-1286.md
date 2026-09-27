@@ -1,0 +1,4 @@
+- sources:
+  - The Griffonian Republic influences | treat as the basis for answering the model's question: the GR-derived material implies standardization suits tools but not creatures, and Caramel Marks misapplied the GR model to creatures; offered as a reading ("seem to imply") rather than a fixed rule | "influences seem to imply that standardization is good for tools" | referred-to
+- order:
+- about: The user answers the model's question about Starlight's standardization dilemma by supplying a story-internal principle: the Griffonian Republic's influences favour standardizing tools such as schematics, ration cans and rifles but not creatures, and Caramel Marks wrongly applied the GR's economic model and martial law to creatures.

@@ -1,0 +1,4 @@
+- claims:
+  - reading | The translation technology removes the victim's humanity, so the victim is no longer perceived as a person | filters out the humanity of the victim | What does the technology do to how the victim is perceived? | partly
+  - reading | Because the victim's humanity is gone, cruelty toward them comes easily to the user | making cruelty easy | What does that loss of humanity let the users do? | partly
+- theme: It names the theme's territory without arguing it. It gives one effect of the technology, dehumanization that eases cruelty. It does not say the division is manufactured, who benefits from it, or what solidarity it blocks, so the proposition itself is left for the reader to assemble.

@@ -1,0 +1,9 @@
+- asks:
+  - correct/revise | tell the model that a prior assumption about who knows changeling history in Equestria is wrong, restricting that knowledge to Celestia alone | 'Actually, no one in Equestria knows changeling history except Celestia'
+  - specify plan detail | lay out how and when the changeling history is revealed in the story (Trimmel exposing it in chapter 15) | 'Trimmel pulls back the curtain in chapter 15'
+  - specify plan detail | state that the thematic link between changelings and the Tzinacatl will be discovered in the opposite order from what was previously assumed | 'the connection will be made in reverse'
+  - specify plan detail | describe the realization Applejack will have connecting the changelings' history to the Tzinacatl's, framed as the same path taken with greater cruelty | 'AJ will realize the changelings walked the same path as the Tzinacatl just with more brutality'
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message asserts the specific facts and sequence (only Celestia knows, Trimmel's chapter 15 reveal, AJ's reverse realization about the changelings and the Tzinacatl) rather than leaving them open or posing a question.
+- subject: A story-plan correction about who knows changeling history and how Applejack will connect it to the Tzinacatl's fate

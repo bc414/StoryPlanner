@@ -1,0 +1,4 @@
+- sources:
+  - the machine (from the episode) | treat as a true canon detail to be worked into the narrative reinterpretation | called "the subtle fact that the machine actually works until the brothers stupidly raised the power and ditches quality control" | referred-to
+- order:
+- about: The user turn asks the model to fold in a specific canon plot detail from the episode being discussed — that the cider machine initially works properly and only produces bad cider after the brothers crank up the power and abandon quality control — as a refinement to the prior narrative reinterpretation.

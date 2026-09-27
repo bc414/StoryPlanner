@@ -1,0 +1,6 @@
+- sources:
+  - json output from my custom story planner application, uploaded to notebook lm | the material NotebookLM would be grounded in; the user is asking whether it works as the uploaded source | spits out a json and I upload that output | first-named
+  - old json | treated as outdated once the app changes; to be deleted from NotebookLM | delete the old json | first-named
+  - new json | the fresh export from the app that replaces the old one as the current source | upload a new one | first-named
+- order:
+- about: The user asks whether exporting their custom story planner's JSON into NotebookLM, then deleting and re-uploading a fresh export after each change in the app, would be an effective workflow.

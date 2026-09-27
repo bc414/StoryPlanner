@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting the overlap and new insights between three planning elements (the deepened parent relationship, the failed-tycoon-with-no-inheritance backstory for the parents, and the noble bullying at the academy), without saying anything in the prior answer was wrong.

@@ -1,0 +1,8 @@
+- sources:
+  - the notes around Griffonian Republic | check them; the user says they show the GR were true believers in equality and that Kemerskai chose martial law in 986, so they back the user's correction of the model's geography-versus-choice reading | If you look at the notes around Griffonian Republic you'll see | referred-to
+  - that passage about the Luna Nova Rifle | the model has misread it; it concerns the three way valve usable for any spell matrix, not the standard rifle, so it should be read that way | That passage about the luna nova rifle is not talking about the standard rifle | referred-to
+  - all relevant story data | re-check it and use it to redo the analysis of what is really happening | Check all relevant story data again and give a reanalysis | referred-to
+  - the already established axes | treat as settled and use them as the other side of 2x2 matrices to test whether the framings fall out of them | the 2x2 matrices that the economy axis with the other already established axes | referred-to
+  - the model's earlier framings, especially Framing 4 | Framing 4 is close but needs more nuance; the others are provisional and to be tested for whether they emerge from 2x2 matrices; the model's claims about Skyfall artisans and the continuum are corrected | Framing 4 seems to be close, the organizing principle, but needs more nuance | referred-to
+- order:
+- about: The user corrects the model's misreadings of Skyfall, the GR, SAA, EEEE! and the Luna Nova passage, moves skill level and designer asset specificity off the economy axis, and asks the model to re-check the story data and redo the analysis, including whether the other framings come from 2x2 combinations with the established axes.

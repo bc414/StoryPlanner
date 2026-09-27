@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Logan Paul belongs with Andrew Tate in the manosphere, saying they can't square that with MrBeast's business partnership with him, and this raises a tension without saying the earlier turn was wrong.

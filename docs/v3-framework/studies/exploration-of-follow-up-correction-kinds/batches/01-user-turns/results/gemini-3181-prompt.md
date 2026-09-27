@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new comparative question about cloud computation cost and throttling risk for Gemini versus DeepSeek, extending the prior discussion into a dimension not previously addressed rather than disputing anything the model said.

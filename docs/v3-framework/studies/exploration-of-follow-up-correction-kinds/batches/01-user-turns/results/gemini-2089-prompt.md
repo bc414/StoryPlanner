@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's "mother process" restaurant idea and asks a follow-up question about how such restaurants would sit against a quality/price spectrum from McDonald's to fine dining, and whether they need a different axis.

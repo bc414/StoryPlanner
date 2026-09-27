@@ -1,0 +1,9 @@
+- sources:
+  - my plan for changeling biology (latent feeding on pink love, positive-sum, predator's dilemma behind hive devolution) | treat as the settled design; build on it and drop the conflicting framing | Here is my plan for changeling biology | first-named
+  - a hive mind (the earlier framing of Chrysalis's telepathic control) | do not use; author is not planning it | I'm not planning on a hive mind | referred-to
+  - real life (blood-brain barrier, oxytocin can't cross so far) | keep consistent with it; Twilight must not invent a way across | just like it's impossible in real life (so far) | referred-to
+  - the idea that different Tzinacatl tribes have different natural drugs, displaced by Chrysalis's red love meth/fentanyl | liked; adopt as a direction, with the meth-plus-fentanyl combination offered as a maybe | I like the idea that different Tzinacatl tribes have different natural drugs | referred-to
+  - the idea of safer forms of red love, or red and pink mixtures, used by professionals like Trimmel and CEOs | liked; adopt as performance enhancers like caffeine, Adderall, maybe cocaine | I also like the idea that there's exist "safer" forms of red love | referred-to
+- order:
+  - my plan for changeling biology over a hive mind | I'm not planning on a hive mind. Here is my plan for changeling biology
+- about: The user rejects the hive-mind framing, restates their own changeling biology plan (pink love as a calorie supplement, no blood-brain barrier fix), and says which of the model's drug-spectrum ideas they want to keep.

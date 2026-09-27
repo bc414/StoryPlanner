@@ -1,0 +1,37 @@
+- passages:
+  - 3958 | plain plot-summary | short third-person declarative, no hedging | Stalliongrad staying allied under Wheatin after the war | apart
+  - 4561 | plain plot-summary | past-tense stated intention 'were going to send... but then' | plan to send conscripts to gulags | run-in
+  - 4561 | uncertain-draft-planning | hedge word 'somehow', present modal 'need to learn' | conscripts realizing shared class interest | run-in
+  - 4561 | plain plot-summary | short added clause opening with 'Plus' | changelings suffering | apart
+  - 4688 | plain plot-summary | simple declarative sequence of events | Stalliongrad joining the allies after the republic forms | apart
+  - 4688 | analytical-commentary | causal 'there isn't much incentive to' plus informal phrase 'boring communist' | solidarity eroding once there is peace and open borders | apart
+  - 4688 | analytical-commentary | comparison to a real figure, 'not hyprocrites like Stalin' | the council adapting rather than clinging to doctrine | apart
+  - 4691 | framework/outline | quoted axiom followed by labeled bullet points and sub-bullets | two systems' different caps on ambition | apart
+  - 4692 | plain plot-summary | plain declarative prediction | migration toward the democratic countries in peacetime | apart
+  - 4692 | prescriptive-brainstorm | repeated 'should be' planning phrasing, short clipped lines | trade and cultural import after joining the allies | apart
+  - 4692 | allegorical-thematic commentary | explicit naming of a real-world parallel, 'This should be a criticism of' | critique of post-Soviet exploitation by the West | apart
+  - 4762 | plain plot-summary | short factual statement | Chrysalis's request to invade being refused | apart
+  - 4762 | plain plot-summary | short factual follow-up clause | timing placed after the Nova Griffonia intervention | apart
+  - 5400 | worldbuilding-descriptive | analytic descriptive clause, present tense | Stalliongrad's non-magical, asset-less industrial communism | apart
+  - 5400 | aphoristic-vivid | short punchy present-tense metaphor | every pony as a proud cog | apart
+  - 5400 | causal-fragment | sentence fragment opening with 'Due to' | trauma of exploitative industrialization as cause | apart
+  - 5400 | analytical-commentary | full-sentence causal claim, 'This is why' | the Nazi-Soviet meat grinder recurring without secret-police terror | apart
+  - 5400 | evaluative-commentary | subjective adjective 'impressive', 'almost willingly' | ponies dying for the state without coercion | apart
+  - 5400 | plain plot-summary | plain factual statement, no evaluation | ponies getting conscripted and complying | apart
+  - 5400 | plain plot-summary | named characters, factual present-tense action | Caramel Marks and Fire Angel agitating for global revolution | apart
+  - 5400 | allegorical-thematic commentary | explicit meta-statement, 'So the point is' | alt-Trotsky as principled but not a modern ideal | apart
+  - 5400 | self-justifying-research-note | correction marker 'Actually,' citing real history | historical Trotsky's industrial conscription plans | apart
+- shifts:
+  - 4561 | plain plot-summary | uncertain-draft-planning | hedge 'somehow' and shift from stated past intention to present need, inside one sentence
+  - 4688 | plain plot-summary | analytical-commentary | move from stating the event to explaining its cause, with comparison to Stalin
+  - 4692 | plain plot-summary | prescriptive-brainstorm | shift from stated prediction to repeated 'should be' planning language, paragraph break
+  - 4692 | prescriptive-brainstorm | allegorical-thematic commentary | 'This should be a criticism of' names a real-world analogy
+  - 5400 | worldbuilding-descriptive | aphoristic-vivid | drop into a short punchy metaphor sentence
+  - 5400 | aphoristic-vivid | causal-fragment | drop into a sentence fragment starting 'Due to'
+  - 5400 | causal-fragment | analytical-commentary | return to a full explanatory sentence, 'This is why'
+  - 5400 | analytical-commentary | evaluative-commentary | subjective word 'impressive' enters
+  - 5400 | evaluative-commentary | plain plot-summary | evaluative language drops, plain factual statement resumes
+  - 5400 | plain plot-summary | allegorical-thematic commentary | 'So the point is' introduces an explicit meta-thematic claim
+  - 5400 | allegorical-thematic commentary | self-justifying-research-note | 'Actually,' introduces a real-world historical fact as justification
+- registers: plain plot-summary; uncertain-draft-planning; analytical-commentary; framework/outline; prescriptive-brainstorm; allegorical-thematic commentary; aphoristic-vivid; causal-fragment; evaluative-commentary; self-justifying-research-note; worldbuilding-descriptive
+- whole: This item holds several registers rather than one, ranging from terse plot-summary and a bulleted outline to hedged draft-planning, analytical and evaluative commentary, aphoristic and fragmentary phrasing, and explicit real-world allegory or historical justification, with these mostly standing apart at sentence or paragraph breaks and only once, in note 4561, running together inside a single sentence.

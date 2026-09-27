@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is checking their understanding of the model's preceding explanation, asking whether it follows that because the conversations all differ, the block notes must stay editable and each conversation is unique.

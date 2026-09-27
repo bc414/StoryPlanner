@@ -1,0 +1,12 @@
+- passages:
+  - 4512 | statement about the subject | what the name EEEE! stands for: Equestrian Equality, Empathy, and Education | none | expansion of the acronym given as a plain line
+  - 4512 | statement about the subject | the name is a pun on the shrieking sound of a happy bat pony | none | explanatory 'is a pun for' sentence
+  - 4513 | statement about the subject | what the group is and how it began: a progressive grassroots organization formed in Manehattan for batpony equal rights, later widened into a social club for all factory workers | none | descriptive 'is a...' definition with 'then expanded'; no date or scene
+  - 4514 | statement about the subject | background and purpose: Celestia's token reforms left batponies second-class, and EEEE! aims to close the remaining gap | none | general statements of situation and aim, no event
+  - 4650 | statement about the subject | the group's policy toward jungle drug dealers: it rejects and polices them because one bad apple implicates all | none | present-tense rule with a stated reason
+  - 4945 | other: theme heading / label for real-world commentary | marks the note as meta-narrative about unions | none | heading 'Meta-Narrative - Unions'
+  - 4945 | other: real-world analogy / thematic commentary | corrupt unions (NYC, Cuomo) likened to the MPA Thugs: rent-seekers, labor cartel forcing high wages for little work, fraud, arbitrary rules | none | descriptive comparison to real-world unions, no moment
+  - 4945 | other: real-world analogy / thematic commentary | strategic unions (UAW, Shawn Fain) described as aligning workforce and stakeholders for long-term viability against short-term greed and outside threats | none | descriptive contrast to the corrupt kind
+  - 4945 | other: character arc summary | Verany adopts the strategic-union approach to present a united front against the thugs and Skyfall, dropping Rugged Individualism; old Verany hated unions, new Verany sees the state and thugs as the parasites; solitary beasts get eaten | none | before/after summary of a change in attitude, not written as a shown moment
+- sequences:
+- whole: A small set of notes that define EEEE! as a batpony-rights grassroots group turned factory workers' social club with its name, origin, aim and anti-drug-dealer policy, plus one thematic note using it to contrast corrupt and strategic unions and to explain Verany's change of outlook.

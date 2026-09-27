@@ -1,0 +1,5 @@
+- sources:
+  - my story (the author's own story facts: MEFO bills as loans backed by love drained from enemy Queens and changeling nobility; the 2nd Aquileian Republic converting Discret's royal notes into a law-backed system like Kemerskai's; Vérany in the failed first Aquileian Revolution favouring the gold standard as hoarding culture) | treat as true and settled canon; the model should work from these facts, which stand in place of its earlier account of the bills as backed by future calories | In my story, they are loans backed by the love that will be drained | referred-to
+  - the model's previous answer on Skyfall and Kemerskai (this) | starting point to build on; the user asks how it feeds into the MEFO bills but corrects it with story facts | How does this inspire Chrysalis's MEFO bills? | referred-to
+- order:
+- about: The author asks how the Skyfall and Kemerskai economics inspire Chrysalis's MEFO bills, while stating their own story's facts about the bills' backing and the Aquileian monetary history so the model works from them.

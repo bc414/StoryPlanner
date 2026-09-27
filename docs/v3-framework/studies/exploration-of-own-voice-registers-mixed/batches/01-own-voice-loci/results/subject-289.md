@@ -1,0 +1,14 @@
+- passages:
+  - 5541 | expository worldbuilding | third-person past-tense causal chain, "through cultural exchange," "because of" | the playground rhyme's path to inspiring the wing spell | apart
+  - 5542 | expository worldbuilding | present-tense technical description, "hacks," "channels," parenthetical rhyme callbacks | how the spell stabilizes wings via faith in one's partner | apart
+  - 5542 | authorial sourcing note | new paragraph naming a real author and story title, "given a materialist explanation" | crediting the source of the wing-color mechanic | apart
+  - 5553 | expository worldbuilding | present-tense clarifying statement, "does not make... obsolete" | pegasi's special talents still mattering alongside the wings | apart
+  - 5554 | expository worldbuilding | "for example," named characters, explains a bond despite flings | Minette and Reni's wings still reflecting their true partner | apart
+  - 5554 | authorial thematic commentary | "So this is a way to," lists cultural traits, "risk of looking like" | the wings softening the culture's dystopian feel | run-in
+  - 5554 | second-person rhetorical address | shift to "You can... You can... But when you..." | magic bypassing social posturing to reveal bare truth | run-in
+- shifts:
+  - 5542 | expository worldbuilding | authorial sourcing note | paragraph break, turn to naming a real author and story title
+  - 5554 | expository worldbuilding | authorial thematic commentary | paragraph break, turn from character example to analysis of the culture's risk
+  - 5554 | authorial thematic commentary | second-person rhetorical address | shift from third-person analysis to direct "you can" address listing actions
+- registers: expository worldbuilding; authorial sourcing note; authorial thematic commentary; second-person rhetorical address
+- whole: This item holds several registers - expository worldbuilding exposition, a brief authorial sourcing note, authorial thematic commentary, and a second-person rhetorical address - with the expository passages standing apart in their own notes or paragraphs while the two authorial registers in note 5554 run into each other within the same paragraph.

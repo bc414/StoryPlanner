@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's Aquileia/Equestria/Griffonian Republic synthesis in their own economic terms (comparative advantage, asset specificity, bunker solidarity) and adds a new point about the Republic's weakness, without disputing anything the model said.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Chrysalis as having sovereign control over Skyfall, able to demonetize the Mark, make it legal tender and unfreeze accounts. In the story she only owns companies there, and Skyfall's government is not hers | Chrysalis does not own Skyfall's government, just companies there. Skyfall is not her subject | Stated flatly as a clarification, then tested with a question about whether the mechanic still holds
+  - fact of the world | The model assumed Rockfeller's wealth sat in frozen offshore bank accounts across the ocean. The user says the Marks are physical paper held at his house, so there is nothing for Chrysalis to freeze or release | The Marks are paper in Rockfeller's house. They aren't in a bank in Skyfall | Flat correction of the premise, followed by a pointed question about whether the extortion survives
+- about: The user supplies two facts about the world, that Chrysalis owns only companies in Skyfall and that the Marks are physical cash at Rockfeller's house, and asks whether the model's extortion mechanic still works under them.

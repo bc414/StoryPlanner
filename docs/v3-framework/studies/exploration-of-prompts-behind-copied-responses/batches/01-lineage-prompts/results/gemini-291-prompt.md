@@ -1,0 +1,12 @@
+- asks:
+  - choice | asks the model to pick which of four listed fates is the best ending for the Chrysalis storyline | 'What is the best way to end the narrative about Chrysalis's fate'
+  - justification | asks the model to explain the reasoning behind the chosen ending in terms of thematic fit | 'and why, in a way that fits my themes'
+- supplies:
+  - option list | four candidate endings for Chrysalis (submarine escape, escape later revealed via a foreign newspaper, capture and handover for trial by her own subjects, suicide in her bunker) | a short numbered list of four items
+  - narrative-structure note | statement that Chrysalis will have no direct dialogue or point-of-view scenes and that her story is conveyed only through four other characters (Trimmel, Eagleclaw, Eros, Synovial) | a couple of sentences
+- shaping:
+  - recommended ending must fit 'my themes' (themes themselves not spelled out in this message) | 'in a way that fits my themes'
+  - recommendation must be compatible with Chrysalis never getting direct dialogue or her own POV, and with her fate being conveyed through the four named characters | 'her story will be told in layers by Trimmel, Eagleclaw, Eros, and Synovial'
+  - answer should include reasoning, not just a pick | 'and why'
+- openness: Asks for a choice among four named, mutually distinct options for how Chrysalis's fate ends, without stating which one the user favors.
+- subject: Choosing and justifying how to end the Chrysalis character's storyline, given a fixed narrative constraint that her fate is only relayed through other characters

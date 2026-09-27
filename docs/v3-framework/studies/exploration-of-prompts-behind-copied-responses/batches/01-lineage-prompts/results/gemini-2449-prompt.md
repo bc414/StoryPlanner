@@ -1,0 +1,16 @@
+- asks:
+  - review | consult prior planning material before answering | "review my existing story plans"
+  - analyze | characterize what Twilight's worldview and mental state fundamentally are at two specified story moments (start of the war; her arrival to save Applejack) | "what exactly, fundamentally, Twilight's worldview and mental state are"
+  - analyze | judge whether the new lore about Ain Trotgourait and magical supply organization helps or hinders (implicitly, helps or hinders the story/characterization) | "how does this new lore...help or hinders?"
+  - implicit check | weigh in on whether their planned approach of holding Twilight in naivety or grimness until the chapter 9 pivot is sound, given the analysis above | "I feel I need to preserve Twilight's either naievity or grimness until then"
+- supplies:
+  - prior story plans, reference only | existing planning documents covering Twilight's arc, the war, and the Applejack rescue | referenced, not pasted in this message
+  - lore concept | a new worldbuilding element named 'Ain Trotgourait' and an associated magical supply organization system | named only, no detail given
+  - pivot-point plan | a planned scene at the town hall ending chapter 9, where character Fleur Bloom teaches the cast that industry can be good ('harmonic capitalism'), meant to turn Applejack and Twilight from grim to optimistic | a few sentences describing the scene and its intended effect
+- shaping:
+  - get at the core/essence rather than surface description | "what exactly, fundamentally"
+  - address two specific named moments in the timeline | "at the start of the war and when she shows up to save Applejack"
+  - frame the lore's narrative effect as either helping or hindering | "helps or hinders"
+  - factor in the stated need to keep Twilight naive or grim until the chapter 9 town hall scene | "I feel I need to preserve Twilight's either naievity or grimness until then"
+- openness: Mixed: the request for Twilight's psychological state is left open with no answer suggested, the lore question is posed as a named binary (help vs. hinder), and the closing remark states the person's own belief about needing to preserve Twilight's grimness/naivety until chapter 9, inviting the model to check or weigh in on that stated plan.
+- subject: Twilight Sparkle's psychological state across the war arc and how new lore and a planned tonal pivot (chapter 9 town hall) should interact with it

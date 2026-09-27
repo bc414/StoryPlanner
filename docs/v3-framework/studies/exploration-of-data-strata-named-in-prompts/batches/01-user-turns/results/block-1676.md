@@ -1,0 +1,6 @@
+- sources:
+  - project wide data | one side of an iterative exchange with link data; the subject-level track should let both top-down and bottom-up entries flow, so plan and aggregate merge into one track | the track being an iterative process between the project wide data | referred-to
+  - link data for scene specific | the other side of the iterative exchange; feeds the subject-level track from the bottom up while project-wide material feeds down | the link data for scene specific | referred-to
+  - link-level thematic evidence tracks (rational inference, prior-belief clash, character/bond development, character-reader perception gap) | the material the subject-level Theme Plan track might aggregate across all links; whether to keep it as one track or four is left open as a question | That's what we're working with on the link level | referred-to
+- order:
+- about: The user pushes back on splitting Character Development and Bond tracks into plan and aggregate versions, arguing one iterative track suffices, and asks whether the four link-level theme evidence mechanisms should be aggregated in one subject-level Theme track or several.

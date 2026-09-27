@@ -1,0 +1,51 @@
+- steps:
+  - author | clarify | army volunteer-only policy, age-lowering question, rifle-as-weapon mechanic, changeling ultimatum | opening of the stretch
+  - model | analyze | breaks the two beats (age policy, rifle drop) into thematic logic and a revised narrative flow | immediately after
+  - author | refine | corrects timing of the 'monsters' line, adds canister-then-self-drain rifle mechanic, clarifies age-lowering placement | following the model's analysis
+  - model | synthesize | final emotional/tactical timeline integrating the corrections, verdict to proceed to writing | following
+  - author | add detail | notes militias already had underage fighters, adds river-fortification conscript massacre during the Spearhead | following
+  - model | synthesize | 'slippery slope' chapter outline, sample confrontation dialogue, keep/leave verdict | following
+  - author | pose question | asks for analysis of Twilight breaking from Celestia | new topic
+  - model | analyze | thesis on outgrowing the parent, deconstruction of the goddess, romantic-resolution tie-in | following
+  - author | pose question | asks how much the break-thread overlaps with the TwiJack thread | following
+  - model | analyze | causal-link and distinction breakdown, gives an overlap percentage | following
+  - author | pose question | asks whether the Passion-chapter break is too early and when disagreements recur afterward | following
+  - model | verdict and timeline | confirms the timing works, lists later chapters where disagreement recurs | following
+  - author | pose scenario | proposes a Combined-Arms hug scene, supplies backstory context and names the later Encirclement plot point | following
+  - model | draft scene | dynamic-shift analysis, physical staging, dialogue approach, setup for the later scene | following
+  - author | correct context | reverses the scenario: Applejack invites Celestia/Luna, they arrive late and Celestia looks ragged | following
+  - model | revise scene | reworked emotional beats, Applejack's disappointment, beat-by-beat sequence | following
+  - author | pose question | asks for analysis of Henri Gourard's character development | new topic
+  - model | analyze | archetype, arc stages, mentor role, climax and resolution | following
+  - author | pose question | asks about a real-world French-general parallel | following
+  - model | analyze | compares the name to two real generals, notes divergence from them | following
+  - author | pose question | asks for an overview of Fleur Bloom's character development | new topic
+  - model | analyze | archetype, mentor role, romantic arc, cultural-synthesis role | following
+  - author | pose question | asks whether Fleur has her own arc distinct from her teaching role | following
+  - model | analyze | reframes her arc as a vindication arc rooted in backstory | following
+  - author | correct | points out that arc is backstory and asks what changes during the story itself | following
+  - model | revise analysis | reclassifies her as a flat/testing-arc character, describes in-story integration and vulnerability shifts | following
+  - author | pitch idea | proposes a Fleur-vs-Celestia tyranny conflict and distrust of Twilight-as-princess, ties it to the chapter 8 scene and the Town Hall reveal | following
+  - model | integrate | reconciles the new idea with the existing chapter 8 scene as a loyalty test, maps the payoff at the Town Hall | following
+  - author | pose question | asks for an analysis of Mali's character development and story impact | new topic
+  - model | analyze | arc stages (mask, service, return), thematic/logistics/romantic impact | following
+  - author | pose question | asks for Fluttershy's development, role, and fit with her canon personality | new topic
+  - model | analyze | arc from kindness to grace, narrative roles, canon-compatibility check | following
+  - author | pose question | asks whether the Fluttershy-Stare-on-Celestia beat has fanfic precedent | following
+  - model | analyze | rarity assessment, comparison to other fanfic categories, explains what makes this version distinct | following
+  - author | pose question | asks whether this scene undercuts Applejack's status as main character | following
+  - model | analyze | verdict that it does not, offers key/door and Gandalf analogies plus balancing advice | following
+  - author | pose question | asks who the story's main characters and antagonists are | new topic
+  - model | analyze | lays out protagonist/co-protagonist/ensemble roles and an antagonist hierarchy | following
+  - author | pose question | asks for a full analysis of Trimmel's development, impact, believability, and possible improvements | new topic
+  - model | analyze | arc breakdown, believability check, four concrete improvement suggestions | following
+  - author | pose question | asks for an analysis of the plan's theme entities and their consolidation potential | new topic
+  - model | analyze | groups the 23 theme entities and proposes a consolidated set of 8 | following
+  - author | pose question | asks how the plan file compares to the model's context-window limit | new topic
+  - model | answer | gives a size estimate, compares it to context capacity, states the resulting benefits | following
+  - author | pose task | requests an ordering of the Extraction/Tempest plot points into a letter-bridged back-and-forth, supplies own problem-solve-letter rhythm and thematic tie to harmonic capitalism | closing topic
+  - model | draft structure | proposes a 'double helix' turn-by-turn plot order with a literary analysis of the letters' irony, the companions' roles, and the thematic parallel | closing move
+- kept:
+  - note 754 | the author's own words in this record | keeps the author's stated plot point that Twilight publicly declares she trusts Applejack's judgement over Celestia's, filed to the PlotPoint 'Celestia speaks up against the plan'
+- brought: The author brought a set of already-settled plan specifics — Applejack's volunteer-only army policy, the rifle's soul-ammo mechanic, and the changeling ultimatum — into the conversation for the model to reconcile into a coherent sequence, before moving on to a long series of separate character- and theme-analysis requests and one plot-ordering task.
+- loop: Across the stretch the author repeatedly brings a plan fragment, correction, or open question about a character, theme, or scene, and the model returns an analysis, timeline, or structural proposal that the author then confirms, corrects, or supersedes with a new topic; of all this exchange, the database kept only the one sentence the author had typed describing a specific plot beat, moving it verbatim into that beat's plot-point record while the surrounding analyses went unrecorded.

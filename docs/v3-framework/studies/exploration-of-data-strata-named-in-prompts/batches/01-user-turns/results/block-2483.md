@@ -1,0 +1,4 @@
+- sources:
+  - Steam | the user asks what kinds of data can be obtained from it; it is a candidate source being explored, with no instruction yet to trust, prefer or use it | What kind of Data can come out of Steam? | referred-to
+- order:
+- about: The user asks a short follow-up question about what kinds of data can be pulled from Steam, one of the places the model suggested for dating their past interests.

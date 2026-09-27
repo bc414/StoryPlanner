@@ -1,0 +1,5 @@
+- sources:
+  - Hasbro mandate | story-plan element already established; the user asks the model to test whether it should be read as rooted in rent-seeking, so it is offered as a proposed reading, not settled | the Hasbro mandate ultimately stemming from the rent seekers' hold | referred-to
+  - the "plain faced exploitation" coin that Chrysalis represents | existing story-plan framing that the user proposes to extend, with the Hasbro mandate as its second side; put forward as a question | second side of the "plain faced exploitation" coin | referred-to
+- order:
+- about: The user asks the model to confirm or refine a thematic link in the story plan, that the Hasbro mandate comes from rent-seeking in Western culture and economy since the 1980s and 1990s and forms the counterpart to Chrysalis's exploitation.

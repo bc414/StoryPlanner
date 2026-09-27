@@ -1,0 +1,9 @@
+- asks:
+  - analysis | asks the model to analyze how the just-summarized main story (Applejack's arc, the war, Aquileia, Harmonic Capitalism, Celestia's peace) connects to or serves the aspirations of the FJA | "Please give an analysis of how this fits in to FJA aspirations"
+- supplies:
+  - plot summary | a multi-part outline of the main story: Applejack's rise as celebrity-general, retreat to Tall Tale, alliance with FJA volunteers and Star Energy under Harmonic Capitalism, battle with Twilight's help, Luna's retreat order, Applejack's defiance and victory, Celestia's white peace and deindustrialization twist, and Applejack bringing volunteers to Aquileia to face the Empire | several paragraphs
+- shaping:
+  - keep the analysis specifically framed around FJA aspirations rather than the story generally | "how this fits in to FJA aspirations"
+  - treat the plot summary as an established plan, not something to be revised or critiqued | the summary is stated as settled fact ("The main story is about...")
+- openness: Open-ended: it asks the model to explain "how" the plot fits FJA aspirations, presupposing a connection exists rather than asking whether one does, but names no particular answer or interpretation itself.
+- subject: How a planned My Little Pony fanfiction subplot (Applejack's wartime arc, Aquileian revolutionaries, Star Energy, and Harmonic Capitalism) relates to the FJA's political goals

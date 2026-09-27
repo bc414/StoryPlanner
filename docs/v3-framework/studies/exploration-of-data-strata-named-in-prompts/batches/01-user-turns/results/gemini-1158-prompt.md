@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general history question about why Japan attacked China rather than Russia in World War II, without pointing the model at any particular body of material.

@@ -1,0 +1,4 @@
+- sources:
+  - Plan export attached (130,745 words) | supplied as an attachment with no instruction on how to use it; the turn attaches it without stating any weight or handling | Plan export attached — 130,745 words | first-named
+- order:
+- about: The user turn only attaches a plan export of about 130,745 words, with no accompanying instruction or comment.

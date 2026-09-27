@@ -1,0 +1,4 @@
+- sources:
+  - this, the artificial-weather / zero-tilt world premise just discussed in the conversation | use as the material to be read for a climate-change commentary; the model is to work from it | Can this be a social commentary on climate change? | referred-to
+- order:
+- about: The user asks whether the weather-system premise just developed with the model could work as social commentary on climate change.

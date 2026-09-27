@@ -1,0 +1,4 @@
+- sources:
+  - my story plans about how Moriset Discret raised a peasant army to reconquer the peripherie | model is told to look into them and consult them on the origin of auftrakstaktik and Trimmel, to judge whether the club should relate to it | Also look into my story plans | referred-to
+- order:
+- about: The user asks the model to weigh whether the Foyer des Jeunes d'Aquilée social clubs should host physical-fitness training, be a separate network sharing the FJA acronym, or tie to the Moriset Discret peasant-army lore, and to give pros and cons, while directing it to their story plans for that lore.

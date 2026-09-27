@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Markdown discussion and asks for a comparative analysis of their Simplified Herzlander language concept against real-world limited-English contractors, and whether that comparison holds, in support of the tragedy of Chrysalis raising drones on it.

@@ -1,0 +1,36 @@
+- relations:
+  - 1444|1446|1444 gives the reason for Chrysalis teaching deceit and 1446 shows it working, with Rockfeller passing the seminar by deceit|Weaponized Harmony, lying and deceit / how to be deceitful like changelings|implicit
+  - 1410|1444|the deportation threat in 1410 is what makes overt Griffon tactics unusable in 1444, so 1444 builds on it|threat of deportation to New Mareland / will get a pony deported to New Mareland instantly|implicit
+  - 1408|1444|1444 continues 1408's Skyfall shell companies by giving what they teach and why|shell companies in Skyfall / her Skyfall shell companies teach|explicit
+  - 1410|1295|1410 says deportation keeps ambitious ponies in line, while 1295 turns it round so the thugs treat deportation as a prize|threat of deportation / view arrest not as a deterrent, but as a graduation ticket|implicit
+  - 1410|1295|1295 rests on the boredom the Stagnation of Harmony causes, which is 1410's stated cause|Stagnation of Harmony suppressed ambition / bored by the Stagnation of Harmony|implicit
+  - 1410|2582|2582 states in general what the system takes over from the Stagnation of Harmony that 1410 describes|inherit the stagnation of harmony's structural flaws|implicit
+  - 1446|1295|both show the Friendship Seminar being gamed, by Rockfeller through faked sincerity and by the thugs through deliberate failure|sent to a Friendship Seminar / intentionally fail the rehab|implicit
+  - 2542|125|125 is the event in which Gilded Lily builds the tycoon class, and 2542 gives what drives her to do it|Gilded Lily|explicit
+  - 125|1444|125 selects ambitious ruthless Equestrians and 1444 says what Chrysalis teaches such ponies|most ambitious, ruthless Equestrians / teach the ambitious Equestrian ponies|implicit
+  - 125|1409|the Krystalfels loans in 125 are the loans the ontology says tycoons repay from bits collected|loans from Krystalfels / cover loans they took out to build the factories|implicit
+  - 1409|2280|1409 gives the working loan and export mechanism, and 2280 says the reader learns it made the tycoons dependent|Skyfall loans / loans they took out|implicit
+  - 1409|1411|1411 gives the effect over time of the mechanism 1409 sets out: goods sold for bits, exports paid in Skyfall Marks|collecting their bits / paid in bits / collected payment in Skyfall Marks|implicit
+  - 1412|1411|the analogy of silver draining out of China matches bits and raw materials draining out of Equestria|silver started flowing out of China / bits and raw materials flowed out|implicit
+  - 1412|1436|the opium analogy is played out in the flooding of the red love market by Chrysalis|industrialized opium production / Chrysalis floods the drug market|implicit
+  - 1412|1408|both describe a drain of currency to a foreign power that was the model for the system|running out of silver / sucking bits out of Equestria|implicit
+  - 1436|1437|1437 continues 1436: tycoons who hold red love and Skyfall Marks now want the war to end, since victory would end the red love supply|stockpiling red love / red love supply will be gone forever|implicit
+  - 1436|1413|1413 plans how the red love from 1436 is sold to the public, with Olenian Taxes echoing the Olenian conquest|Olenian conquest / Olenian Taxes|implicit
+  - 2351|1437|1437 continues 2351 as the blockade cuts imports after weapons production ends|stop producing when the bits run out / submarines deploy and trap Equestria|implicit
+  - 2351|1411|the bits demanded from the treasury in 2351 are the bits that 1411 says drained out of Equestria|gold bits from Equestria's treasury / bits ... flowed out of Equestria|implicit
+  - 1437|2138|the submarine blockade in 1437 causes the machinery failing for lack of parts in 2138|submarines deploy / submarine blockade / can't import|implicit
+  - 2583|2582|2583 gives the specific ways the system takes over the Stagnation while inverting its virtues, as 2582 states|replace unconditional dignity with transactional hustle / inverting its virtues|implicit
+  - 2583|272|272 answers the erasure of special talents in 2583 by saying industry need not replace them|replace traditional pony roles and cutie mark-derived jobs / does not have to replace special talents|implicit
+  - 2280|1295|1295 acts out 2280's point that rugged individualism leaves the individual as prey for a state-backed predator, with Chrysalis-made rifles and state-run exile|rugged individualism / Chrysalis-manufactured rifle|implicit
+- outward:
+  - 1408|Coltbert's parloirs and the FJA, which lie outside this item|Coltbert's parloirs ... going to the FJA
+  - 125|the lender Krystalfels Handelsgeselschaft, held elsewhere|loans from Krystalfels Handelsgeselschaft
+  - 2542|Silver Sterling, a second figure not met in any other note here|Gilded Lily and Silver Sterling
+  - 1436|the Olenian conquest, an event held elsewhere|after Olenian conquest
+  - 1437|Olenia and its submarine-backed war, held elsewhere|the "happy" Olenia that got civilian investment
+  - 2351|the unnamed party demanding bits, whose identity and war are not here|They demand gold bits
+  - 1411|the Great Leap Forward, a historical episode held elsewhere|fueled the Great Leap Forward
+  - 1295|New Mareland/Sunset and its Skyfall Manosphere propaganda, and the Wonderbolt and Hippogriff escort, all held elsewhere|imported Skyfall "Manosphere" propaganda
+  - 1446|Griffon malice and the Canterlot auditors, lore held elsewhere|Canterlot auditors are only trained to detect Griffon malice
+  - 1300|the rural Equestrians and the Manehattan setting, held elsewhere|vast majority of rural Equestrians
+- whole: Most of these notes cohere around Chrysalis's deceit-teaching scheme, the loan and currency mechanism and its wartime collapse, but a few (1300, 1413, 2542) sit almost alone.

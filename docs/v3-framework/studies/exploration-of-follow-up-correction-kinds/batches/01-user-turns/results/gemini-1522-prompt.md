@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made wine the sole hard currency and unit of account; the user says the barter medium is all luxury goods (cheese, cloth, everything the artisans make), which makes barter chaotic | Instead of just wine, it should be all luxury goods | flat, stated as what it should be, with examples added
+  - fact of the world | The model described the Franc as backed by the Vino-Standard or by vineyard and factory capacity; the user says it is a consolidation of everything into a unified, fully fiat currency backed by national production | The franc which emerges after the revolution is the consolidation... fully Fiat | flat, stated as settled fact
+  - fact of the world | The model said Discret's gold drains away on Equestrian imports; the user says Discret and Coltbert import nothing from Equestria and only export luxury goods for gold, which fills the vault and backs more notes | Discret and Coltbert don't import anything from Equestria | flat, with a brief rhetorical reason in parentheses
+- about: The user revises the model's wine-only currency picture, giving the world's actual rules for the barter goods, the Franc's fiat basis and Equestrian trade, while also asking whether capital goods differ from consumables in value.

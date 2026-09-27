@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | asks the model to explore/develop an alternative plot turn where the buffalo (via CIA) and Gilded Trust jointly hunt down and arrest the remaining collaborators in Las Pegasus after Rockfeller's arrest | "What if instead, after Rockfeller's arrest..."
+- supplies:
+  - plot idea | a one-sentence alternative scenario: post-arrest, buffalo/CIA team with Gilded Trust (mercenaries and loyal workers) to root out collaborators in Las Pegasus, leaving room for an escape, while their real motive is seizing resources and factories for the war | a single sentence
+- shaping:
+- openness: leans toward an answer it names: the message proposes a specific alternative scenario ("What if instead...") complete with the actors involved, the outcome (room for escape), and the underlying motive (securing resources and factories for the war), asking the model to work from that named premise.
+- subject: an alternative plot development following Rockfeller's arrest, involving the buffalo/CIA and Gilded Trust hunting collaborators in Las Pegasus

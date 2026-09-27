@@ -1,0 +1,6 @@
+- sources:
+  - P&K, read directly through the story planner MCP server's new functionality | look in it for what the worldbuilding around the changeling detection spell and the rest of changeling biology is built from (ASOIAF conventions?), if the model is able to read it | "added functionality to the story planner mcp server to read P&K directly" | first-named
+  - ASOIAF conventions | candidate origin to check P&K's changeling detection spell and biology worldbuilding against, posed as a question rather than settled | "built from (ASOIAF conventions?)" | first-named
+  - what I have just established now regarding shapeshifting | the newly set shapeshifting ontology, to be compared with what P&K borrowed, kept separate from the P&K material | "what I have just established now regarding shapeshifting" | referred-to
+- order:
+- about: The user announces that the story planner MCP server can now read P&K directly and asks the model, if it can, to trace what P&K's changeling detection spell and biology worldbuilding derives from and to compare what was borrowed there with the shapeshifting ontology just established in this conversation.

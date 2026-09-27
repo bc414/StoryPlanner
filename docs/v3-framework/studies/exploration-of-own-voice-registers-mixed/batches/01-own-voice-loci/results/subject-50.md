@@ -1,0 +1,14 @@
+- passages:
+  - note 5632 | plot-summary | terse third-person present-tense statement of what happens | Mudbeak meeting Shining Armor over a railroad/crystal-trade scheme | apart
+  - note 5632 | meta-comparative | demonstrative "This is a total subversion of his...arc" naming and evaluating a story pattern | comparing this outcome to Mudbeak's tragic arc | apart
+  - note 5632 | plot-summary | parenthetical "where"-clause chaining prior events (ordered the barrage, forced to lead an army, lives in fear) | summary of the original tragic arc's events | run-in
+  - note 5632 | plot-summary | terse third-person present-tense statement of what happens | Mudbeak meeting toddler Flurry Heart | apart
+  - note 5633 | chronicle-event | dated, third-person statement of attendance and a stated clash ("In 1006...", "There is a grand clash...") | Blueblake and Mudbeak at the Defense of Mount Aris, clash with Kemmerich and Meyer | apart
+  - note 5633 | relational-appraisal catalog | repeated parallel formula "X views Y as Z" across three lines | how Meyer, Kemmerich, and Mudbeak each view one another | apart
+  - note 5778 | telegraphic worldbuilding note | short, elliptical statement lacking connective elaboration ("must be modernized for war") | railroads' prior peaceful use and need for wartime modernization | apart
+- shifts:
+  - note 5632 | plot-summary | meta-comparative | shift from narrating the event to naming/evaluating it as a subversion of an arc, marked by "This is a total subversion of his...arc"
+  - note 5632 | meta-comparative | plot-summary | shift from evaluative naming to a chained listing of prior events, marked by the opening parenthesis and "where Mudbeak ordered..."
+  - note 5633 | chronicle-event | relational-appraisal catalog | shift from narrating attendance and a clash to a repeated "X views Y as Z" formula covering all three figures
+- registers: plot-summary; meta-comparative; chronicle-event; relational-appraisal catalog; telegraphic worldbuilding note
+- whole: These notes move across several distinct registers—plot-summary alternating with self-referential arc-comparison in one note, chronicle narration giving way to a parallel appraisal catalog in another, and a single telegraphic worldbuilding aside on its own—mostly standing apart sentence by sentence except where the arc-comparison sentence folds a plot-summary clause into itself through a parenthesis.

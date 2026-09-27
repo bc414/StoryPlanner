@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the "adulthood requires a childhood" insight as key, extends it to their own intended audience and to the cynical-storytelling ecosystem, and asks whether Lauren Faust's G4 origin in G1 toys makes the toy mandate the source and toys a symbol of childhood.

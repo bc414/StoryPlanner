@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user lays out planned late-story events (Applejack's final assault, a Trimmel conversation, the Vanhoover reflection, and a prisoner-exchange dispute with Celestia and Chrysalis) and asks what should be said and how it fits narratively and thematically, without pointing the model at any body of material.

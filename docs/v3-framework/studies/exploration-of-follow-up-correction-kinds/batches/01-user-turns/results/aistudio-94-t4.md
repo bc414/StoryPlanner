@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: choice of surrogate character | the model's three candidates (Kessel, Rasti, a Skyfall liaison) left out Fleur, whom the user names as the right person to be baffled and annoyed because she treats magic as a science | "I think Fleur should be the one who is baffled and annoyed since she views magic as a science" | tentative suggestion that quietly replaces the model's list, with a one-clause reason and no explicit rejection of the candidates
+- about: The user retires their own old notes about Henri being awed, tests whether Henri could be baffled by Pinkie's cartoon physics, decides he would instead vibe with her, and reassigns the baffled-and-annoyed surrogate role to Fleur.

@@ -1,0 +1,4 @@
+- sources:
+  - warcraft 1 and 2 | the published games the user wants the model to turn to next and discuss, extending the earlier Warcraft 3 and WoW comparison; asked about, with no verdict on their reliability | What about warcraft 1 and 2? | referred-to
+- order:
+- about: The user asks the model to extend its preceding Warcraft analysis to the first two Warcraft games.

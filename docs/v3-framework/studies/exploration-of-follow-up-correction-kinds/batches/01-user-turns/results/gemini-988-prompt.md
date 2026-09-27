@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks whether the model's analysis fits a France-that-woke-up and Vichy-occupation analogy, then adds how the title "The Lioness of Tall Tale" and the Aquileian volunteers modelled on revolutionary France fit that picture.

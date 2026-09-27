@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's candidate halls (Webster Hall, the waterfront hiring halls) did not match what the user was after: a famous union tied to a particular hall that controlled city politics in the FDR era | "I thought there was a famous union that controlled city politics and it was associated with a particular hall. It was around the time of FDR" | Implicit and mild: restates the remembered target with the missing criteria (city politics, FDR era) and does not say the answer was wrong, hedged with "I thought"
+- about: The user restates the hall they were trying to recall, adding that it was a union with control over city politics in the FDR era, which signals the model's Webster Hall and waterfront answer missed it.

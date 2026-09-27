@@ -1,0 +1,5 @@
+- passages:
+  - note 5831 | flat expository statement | third-person past tense, plain declarative sentence, no elaboration | where she got her degree | apart
+- shifts:
+- registers: flat expository statement
+- whole: This note holds a single passage in one plain expository register, with no internal shift.

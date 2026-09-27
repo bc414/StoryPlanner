@@ -1,0 +1,7 @@
+- sources:
+  - an article on Medium or Substack about an author using Antigravity to make custom writing tools for their workflow, contrasted with conventional prose generation | the user's vague memory of it; the model is to find it first, and it is the starting point for the search | Start with finding that | first-named
+  - other areas that were surfaced by that article | to be searched after the article is found, branching out from what it turns up | then branch into the other areas that were surfaced | first-named
+  - the conventional discourse / conventional space | the user agrees it has an absence, and notes it is the model's default search space when no custom instructions are given | your default without custom instructions is to search the conventional space | referred-to
+- order:
+  - the remembered Antigravity custom-tools article | search it first, then branch out to the other areas it surfaced | Start with finding that and then branch into the other areas
+- about: The user accepts the model's point that conventional discourse lacks their methodology, but redirects the search by recalling an article about an author building custom writing tools with Antigravity and asks the model to find it first and then follow the leads it surfaces.

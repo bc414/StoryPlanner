@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its prior assessment of AI companies to those outside the big three, without pointing at any body of material to use or avoid.

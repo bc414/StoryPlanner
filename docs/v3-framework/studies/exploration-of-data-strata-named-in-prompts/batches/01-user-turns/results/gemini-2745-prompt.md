@@ -1,0 +1,4 @@
+- sources:
+  - the actual Monte Cristo | use as the template for the in-world story's premise: a griffon who was betrayed, with the title parodies built to make the connection to it clear | just like the actual Monte Cristo | referred-to
+- order:
+- about: The user narrows the in-world Monte Cristo parallel to a plainly betrayed griffon, so the griffon/pony specialization ideas stay with Coltbert, and asks for the simplest funny French and griffon parody titles that make the link to Monte Cristo clear.

@@ -1,0 +1,7 @@
+- asks:
+  - explain | describe how the German army occupied French villages during World War 1 | "how did the german army occupy french villages"
+  - explain | describe how civilians in those occupied villages were treated | "how were the civilians treated"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open; it poses a general historical question with no named answer, options, or claim to verify.
+- subject: German army's occupation of French villages and treatment of civilians in World War 1

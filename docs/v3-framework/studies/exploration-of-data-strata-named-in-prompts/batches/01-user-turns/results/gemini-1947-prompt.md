@@ -1,0 +1,9 @@
+- sources:
+  - my core idea for Griffonian Empire history (Grover 1 and 2 as merged mythical figures, Grover 3 and the printing press, the Archons' handwritten monopoly, the idol as propaganda) | the author's own premise for the empire's history; build the idol explanation on it and treat it as the in-universe truth | Grover 1 and 2 are generalized mythical figures | first-named
+  - my story plan | the author's own plan, where the empire is sometimes called the Griffonian Reich; an alternate name to keep in mind | sometimes refered to as Griffonian Reich in my story plan | referred-to
+  - my unified theory of magic (magic is ambition that affects the world and scales with pride) | the author's framework; the idol's explanation should be built on it | my unified theory of magic, where magic is ambition | referred-to
+  - canon FiM's description of the idol of Boreas | the show's account of the idol; check it for overlap with the author's theory of magic | how does canon FiM's description of the idol of Boreas potentially overlap | referred-to
+  - EaW lore (the idol as a massive literal weapon) | reject the idol-as-weapon reading; do not use it for the idol | not it being a massive literal weapon like in EaW lore | referred-to
+- order:
+  - my unified theory of magic (pride-based spiritual explanation) | over EaW lore: a better spiritual explanation based on pride and magic, not it being a massive literal weapon like in EaW lore
+- about: The author explains their materialist premise for the Griffonian Empire's history and asks the model to find an explanation of the Idol of Boreas that fits their pride-and-ambition theory of magic instead of the mod's literal weapon.

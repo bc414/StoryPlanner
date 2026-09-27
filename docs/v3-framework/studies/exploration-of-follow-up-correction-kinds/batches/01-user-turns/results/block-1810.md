@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves the conversation onto open-weight and open-source LLMs as a possible keystone for a non-extractive economy, asks the model to lay out that landscape, and adds that compute cost is a real bottleneck that usually goes unmentioned, without disputing anything the model said.

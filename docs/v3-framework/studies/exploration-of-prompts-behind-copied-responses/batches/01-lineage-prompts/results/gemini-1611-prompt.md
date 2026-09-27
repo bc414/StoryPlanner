@@ -1,0 +1,8 @@
+- asks:
+  - explain | asks whether letting a power plant run at lower efficiency and vent steam has any side-effect benefit | "Is there any side-effect benefit to running the power plant at lower efficiency and letting the steam escape?"
+  - explain | asks what causes clouds to appear white versus dark | "What makes clouds white versus dark?"
+  - explain | asks where lightning originates from | "Where does lightning come from?"
+- supplies:
+- shaping:
+- openness: Open: all three are freestanding factual questions with no proposed answer, options, or claim to check, leaving the explanation entirely up to the model.
+- subject: General science questions on power plant steam venting, cloud coloration, and the origin of lightning

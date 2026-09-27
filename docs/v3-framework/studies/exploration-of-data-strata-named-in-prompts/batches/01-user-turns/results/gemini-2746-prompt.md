@@ -1,0 +1,4 @@
+- sources:
+  - the story | the meaning of "monte cristo" is to be explained from inside that story's own content, as the frame for the answer | within the story | referred-to
+- order:
+- about: The user asks the model to explain what the name \"Monte Cristo\" signifies inside the story being discussed, a short follow-up question about the title parody the model just offered.

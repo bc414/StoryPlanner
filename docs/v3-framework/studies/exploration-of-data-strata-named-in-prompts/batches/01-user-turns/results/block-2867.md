@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's comparison of Pioneer Equestria and the Tzinacatl Flower Wars by stating that the real difference is expansion versus staying put, and asks whether that one differing axis generalizes or whether two systems that share the other four axes yet differ in ontology show that five axes are not enough.

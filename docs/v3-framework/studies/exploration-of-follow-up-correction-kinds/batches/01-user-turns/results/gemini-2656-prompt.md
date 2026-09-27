@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user affirms the model's analysis and extends it with two more night-identities (medicinal-tribe parloir operators as "princesses of the night", isolationist tribes as "children of the night"), then asks the model to synthesize these with their existing story plans.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Google had any first-party model above the 3.1 Pro tier as of April 2026, without pointing the model at any particular body of material.

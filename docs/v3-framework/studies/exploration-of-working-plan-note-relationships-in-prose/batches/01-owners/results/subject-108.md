@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1050|The FJA lifestyle, a group or way of life defined elsewhere that PNdA looks down on|hold their beaks at the FJA lifestyle
+- whole: The owner holds a single note, so there is nothing for it to hang together with, and it stands as one entry.

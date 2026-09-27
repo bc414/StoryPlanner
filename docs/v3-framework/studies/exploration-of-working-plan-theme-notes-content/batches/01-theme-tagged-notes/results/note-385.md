@@ -1,0 +1,5 @@
+- claims:
+  - design commitment | The elder dragons are fixed as poseurs: they look fearsome but are not actually as dangerous as they appear | poseurs who look intimidating | What are the elder dragons really like beneath their appearance? | no
+  - design commitment | Because of their size the elder dragons are easy targets in battle | tactically big targets | How do the elder dragons fare tactically on the battlefield? | no
+  - design commitment | The elder dragons' fire cannot melt armor | can't melt armor | What are the limits of the elder dragons' fire against armored enemies? | no
+- theme: It names the theme without arguing it. The note only states facts of the world about the elder dragons' weakness. It draws no conclusion about truth, conviction or lies and does not link those facts to the proposition.

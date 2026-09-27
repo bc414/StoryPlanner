@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The turn presents a new lore note about Minette's role in the house-pony dignity storyline and its dark-truth parallel to Rarity's origin, and asks how this note should be categorized, without naming any specific source of data to draw on.

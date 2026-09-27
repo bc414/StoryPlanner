@@ -1,0 +1,4 @@
+- sources:
+  - my json with my story metadata | material the model would analyze; the user proposes uploading it as the basis for the analysis in Canvas | upload my json with my story metadata | first-named
+- order:
+- about: The user asks whether uploading their story-metadata JSON and using Canvas with the length slider set to "longer" would yield a more complete analysis.

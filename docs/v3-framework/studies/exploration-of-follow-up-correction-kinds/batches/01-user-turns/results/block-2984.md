@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model framed Chrysalis's narcissism as emerging from her personal psychology and as a moral failing (refusing to share the cure, keeping identity for herself), when the arc was meant to come from system design flaws rather than personal evil | Chrysalis's narcissism and arc cannot be about personal evil. It has to be about system design flaws. | flat, stated as a constraint without elaboration
+  - fact of the world | The model made the hive nameless, with only functional designations and collective identity, which the user finds unrealistic and borrowed from grimdark; no known society lacks names | I'm not sure I want the hive war ontology to have no names. That seems unrealistic and grimdark borrowed. | hedged personal preference ('I'm not sure I want'), backed by a reason and a rhetorical question about history
+- about: The user pushes back on two foundations of the model's account of Chrysalis, insisting her arc be driven by system flaws rather than personal evil and questioning the nameless-hive premise as unrealistic.

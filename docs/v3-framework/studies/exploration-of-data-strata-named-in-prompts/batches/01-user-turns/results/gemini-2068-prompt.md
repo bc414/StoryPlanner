@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general follow-up question about what the temperature setting does to a model's inference, without pointing at any body of material for the model to use or avoid.

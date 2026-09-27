@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model narrowed the YouTube analysis to classifying videos on the extractive/cooperative axis (a three-position scheme with a preprocessing script and anchor examples). The user says the analysis is a broader, open-ended retrospective on how they went through life, correlated with other timelines. | "broader and more deep than just one axis"; "Don't overfit, generalize and broaden" | Stated flatly as a restatement of scope. Backed with examples (MrBeast and the Jimmy Donaldson podcasts, the drop in watch density, the MLP history as a possible pivot point) and closed with a direct instruction to generalize.
+- about: The user widens the task the model had narrowed to one classification axis, describes the open-ended life-retrospective analysis they want from watch history, and asks the model to say what the task really is and how to approach it.

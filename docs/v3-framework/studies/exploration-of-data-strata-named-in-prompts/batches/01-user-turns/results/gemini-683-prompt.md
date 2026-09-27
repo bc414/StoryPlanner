@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a story-timing question: whether the Skyfall shell company should approach Rockfeller with the threat and the offer to collaborate before the war starts or after it starts.

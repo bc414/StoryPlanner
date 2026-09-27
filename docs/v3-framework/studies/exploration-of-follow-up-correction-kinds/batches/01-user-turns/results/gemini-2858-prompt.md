@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user brings up an earlier planned premise, that the Wonderbolts are a pressure valve for ambitious pegasi, and asks whether to keep it or drop it now that the 2nd gen Royalist origin exists, without saying anything in the model's analysis was wrong.

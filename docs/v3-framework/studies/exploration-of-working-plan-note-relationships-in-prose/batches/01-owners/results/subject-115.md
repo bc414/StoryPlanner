@@ -1,0 +1,25 @@
+- relations:
+  - 186|185|186 is an instance of the general principle in 185: earth ponies without pride in their crops have ineffective magic, shown as serfs in Aquileia|they don't have pride or ownership in their crops / If they don't have pride in their crops, their magic is ineffective|implicit
+  - 182|181|182 plans the reader's meeting with the truth that 181 states as the law: earth ponies can grow anything|earth ponies can grow anything / earth ponies can grow anything|implicit
+  - 182|187|Both bear on Fleur's mistaken Aquileian theory: 182 has the contradiction in her theories show up, 187 has that realization force her to drop her arrogance|This is a contradiction in the theories Fleur espouses / This realization forces Fleur to drop her arrogance|explicit
+  - 187|181|187 plans the delivery of the truth stated in 181, that a pony is not confined to one specialty but has the full range|Magical plasticity exists in adulthood / every pony is capable of the full range of their species' magic|implicit
+  - 187|183|187 says a citizen is not locked into one Seal; 183 gives the underlying truth that the mark does not lock any pony in for life|not locked into a single "Seal" / doesn't make any pony locked in for life|implicit
+  - 857|183|857 plans Twilight's statement of what 183 states as fact: name and conviction reinforce the talent, not the reverse|their given or chosen name reinforces their genuine conviction in their special talent, not the other way around|implicit
+  - 857|187|Both plan the overturning of Aquileian determinist theory: 857 names its biological determinism, 187 calls Ego-Capitalism flawed and has Fleur admit the failure|perpetuates biological determinism / built on a flawed premise|implicit
+  - 857|184|857 gives outsiders' reading of Equestria as a soft caste system; 184 gives the historical account of leaders enforcing the destiny belief to create a self-policing caste|soft caste system / rigid, self-policing caste system|implicit
+  - 184|183|184 says the destiny belief is an enforced illusion; 183 states the truth that the mark does not lock a pony in, which overturns what the belief claims|comforting illusion of predetermined purpose / doesn't make any pony locked in for life|implicit
+  - 184|185|Both make belief the working force: 184 has belief in a fixed destiny shape ponies' behaviour, 185 has belief or pride determine whether magic works|If a pony believes they are biologically incapable / A unicorn who doesn't believe in their magic|implicit
+  - 185|183|Both rest on conviction: 185 says belief in one's magic governs its effect, and 183 says conviction in a special talent is reinforced by the name|If they don't have pride / genuine conviction in their special talent|implicit
+  - 271|181|271 supports 181: equal raw magic across the three kinds fits every pony being capable of the full range within their species|share the same capacity for raw magic / capable of the full range of their species' magic|implicit
+  - 271|182|271 describes earth pony magic as latent and long acting, underground, which grounds 182's point that their magic works like weathering and can grow anything|earth pony magic is latent, long acting / if their magic is weathering|implicit
+- outward:
+  - 182|Fleur, a character whose theories appear elsewhere in the story|the theories Fleur espouses
+  - 187|The FJA and its Ego-Capitalism doctrine, and Fleur as a character, and the Seal system of Aquileia|the FJA's "Ego-Capitalism" / single "Seal" of excellence
+  - 186|Aquileia as a place, its pre-industrial farming economy|pre-industrial Aquileia
+  - 857|Herzlanders and Skyfall tycoons as groups in the story world|Herzlanders and Skyfall tycoons assume
+  - 857|Twilight, who speaks the truth in a scene held elsewhere|Eventually Twilight articulates the truth
+  - 857|The McDonalds cutie mark comic and the pony later shown as a manager|the McDonalds cutie mark comic
+  - 857|Aquileian cutie mark theory offering a discount for a special talent|Aquileian cutie mark theory that claims a discount
+  - 184|Ancient Equestrian leaders and their history, held elsewhere|ancient Equestrian leaders created
+  - 181|The end of the story, where the truth is revealed|to be revealed at the end
+- whole: These notes read as a set that hangs together: the ontology notes state the truth, the history notes give the social illusion and its effects, and the reader-understanding notes plan how the false theories are overturned.

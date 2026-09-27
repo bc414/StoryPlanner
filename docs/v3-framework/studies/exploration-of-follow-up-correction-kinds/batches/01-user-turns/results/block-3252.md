@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the warlord and first-wife analysis to ask a broad comparative question about why globalization narratives so often cast Anglo nuclear-family individualism as the corrupting force, and whether that is British, French, German or a self-replicating Western European trait.

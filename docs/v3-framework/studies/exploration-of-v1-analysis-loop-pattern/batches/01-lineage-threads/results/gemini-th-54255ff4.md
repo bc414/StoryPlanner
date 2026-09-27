@@ -1,0 +1,12 @@
+- steps:
+  - author | defines category | sets out the four historical Chasseur targets as all sharing chosen ('voluntary') predation | opening of the author's message
+  - author | states founding premise vs. reality | contrasts the war's assumption that all changelings are predators with the truth that many are conscripts, and floats that Thorax already knows this but suppresses it after his harmonist movement failed | middle of the author's message
+  - author | proposes explanation | suggests why some Aquileian volunteers do not go home when war starts, tying it to Eros not yet having broken the rules of war unlike Chrysalis | end of the author's message
+  - model | names a concept | labels the distinction as the story's 'Element of Tyranny', defined as weaponized agency | opening of the model's response, section 1
+  - model | analyzes psychology | works out the Chasseurs' self-deception mechanism for treating conscripts as voluntary monsters | section 2 of the model's response
+  - model | resolves plot question | builds out the geopolitical logic for why Aquileian volunteers stay against Chrysalis but not Eros | section 3 of the model's response
+  - model | applies to characters | extends the analysis to Rainbow Dash and Starlight's dive-bombing scene and Rainbow's arc toward Minette's healer path | section 4 of the model's response
+  - model | delivers verdict | endorses the clarification as structurally flawless and links it to the Element of Liberty: Resilience | closing 'Structural Verdict' of the model's response
+- kept:
+- brought: The author drew on already-established plan elements — Thorax's failed grassroots harmonist movement, the Coltbert Reforms, the Chasseurs' prior target list, and the Aquileian-Griffonian war setup — to construct a new thematic rule distinguishing voluntary predators from systemic conscripts.
+- loop: The author brought a refined moral distinction meant to resolve a psychological and geopolitical inconsistency in the war premise, and the model returned an elaborated analysis and endorsing verdict extending that distinction to theme, plot logic, and character arcs, but nothing from this exchange was traced into the planning database.

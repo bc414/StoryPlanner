@@ -1,0 +1,11 @@
+- passages:
+  - note 4244 | expository definitional register with analogy | present-tense declarative definitions, parenthetical real-world analogy, closing 'It's like X and Y' tag | GR as meritocracy with safety net and its economic strengths | apart
+  - note 4245 | expository definitional register with analogy | present-tense declarative definitions, closing 'It's like X, Y, Z' tag | Aquileia/Equestria as harmonic capitalism | apart
+  - note 4252 | telegraphic comparative notes | compressed parallel noun phrases, dropped verbs/articles | GR vs Aquileia pride in state vs craft | apart
+  - note 4371 | analytical/historical reasoning | because-clauses, historical-scope qualifier, 'by contrast' comparison | causes of Herzlander vs Aquileian griffon greed | apart
+  - note 4371 | blunt evaluative tag | short flat declarative judgment | characterizing Aquileian griffons | apart
+  - note 5443 | conversational hypothetical-reasoning | second-person 'you'd think', contrastive 'but...because' | paradox of GR economy vs Aquileia culture reversed in synthesis | apart
+- shifts:
+  - note 4371 | analytical/historical reasoning | blunt evaluative tag | drop into a short unhedged sentence of judgment after the reasoned contrast
+- registers: expository definitional register with analogy; telegraphic comparative notes; analytical/historical reasoning; blunt evaluative tag; conversational hypothetical-reasoning
+- whole: The item's notes sit in several distinct registers, mostly one per note (full definitional exposition, terse telegraphic comparison, or conversational hypothetical argument), except one note that shifts partway from reasoned explanation to a blunt evaluative tag.

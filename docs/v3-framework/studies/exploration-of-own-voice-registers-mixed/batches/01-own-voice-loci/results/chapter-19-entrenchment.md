@@ -1,0 +1,7 @@
+- passages:
+  - note 5414 | terse narrative summary | plot events listed with 'went', 'defeated', 'attack', 'make it', no elaboration | Aquileian volunteers and Statthalters' campaigns against Yakistown | apart
+  - note 5414 | expository worldbuilding explanation | clause built on 'is... which helps... while', explains a mechanism and its effect | yak snow-agriculture magic sustaining the Crystal City siege | apart
+- shifts:
+  - note 5414 | terse narrative summary | expository worldbuilding explanation | moves from listing successive plot actions to explaining how a power functions and what it enables, marked by the 'which helps... while' construction
+- registers: terse narrative summary; expository worldbuilding explanation
+- whole: This item holds one note written in two registers, a run of bare plot-action reporting followed by a separate, clause-linked explanation of a magical mechanism, the two standing apart on their own stretches rather than blending within a sentence.

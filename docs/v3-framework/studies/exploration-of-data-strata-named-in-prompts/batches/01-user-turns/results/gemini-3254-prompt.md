@@ -1,0 +1,7 @@
+- sources:
+  - South Korea (as an allegory and possible inspiration for Las Pegasus lore, backstory and sensory details) | candidate inspiration for the model to weigh, not settled; the user asks whether to draw more on it | use more inspiration from South Korea | referred-to
+  - the treadmill part / the culture part (the model's previous analysis of South Korea against the story) | taken as the working mapping the user restates: treadmill to the Changeling lands, culture to Las Pegasus | So the treadmill part is the Changeling lands analogy | referred-to
+  - Las Pegasus in canon (resort area like the Las Vegas strip) | treat as true and as the surface the lore must stay consistent with | Las Pegasus in canon is depicted as a resort area | referred-to
+  - EaW (its description of Las Pegasus as a cloud-top resort city over an industrial undercity) | treat as true, supplied as a fact about the setting for the model to build on | EaW describes Las Pegasus as the top city on the clouds | first-named
+- order:
+- about: The user restates the model's South Korea comparison as a split between the Changeling lands and Las Pegasus, then asks for an analysis of whether a Las Vegas surface over a South Korea structure works for Las Pegasus and Chapter 9, while giving the canon and EaW picture of the city.

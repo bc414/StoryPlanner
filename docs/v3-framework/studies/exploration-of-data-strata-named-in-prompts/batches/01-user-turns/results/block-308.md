@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects or corrects most of the model's proposed cross-connections, stating how the teleportation network, Changeling weapons, the Star Spade, Camp Fluttershy and the Pattrioten arc work in their own story, and adds the current war situation, without pointing the model at any body of material to draw on or avoid.

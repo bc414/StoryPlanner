@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: rejected worldbuilding suggestion | the model's proposal that Equestrians and Applejack's soldiers call the spell matrices 'Patches' (and the 'Patch' tech-allegory pairing) is replaced by the Equestrians using 'spell matrix', while appliqué stays the Aquileian artisans' word | 'with the Equestrians using "spell matrix" as their term which makes the most direct sense for a pony society' | stated as the user's own decision with a reason (unicorns casting spells, allegory not blatant in English), mild and without saying the model was wrong
+- about: The user settles the terminology by keeping appliqué for the Aquileian artisans and choosing 'spell matrix' for the Equestrians in place of the model's 'Patch', and affirms that using a French loanword is fitting.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether the "creative maverick" style of AI use is what goes viral with general audiences while the other use cases suit power users, without pointing the model at any body of material.

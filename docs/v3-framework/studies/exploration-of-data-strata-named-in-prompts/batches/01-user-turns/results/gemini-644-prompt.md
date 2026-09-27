@@ -1,0 +1,7 @@
+- sources:
+  - the model's earlier idea of ambient magic existing in liquid form (the phase-diagram model) | doubted, questioned as not fitting the premise that magic comes from living creatures; not accepted as settled | not sure if it really makes sense for ambient magic to just be around in liquid form | referred-to
+  - original design of the Luna Nova rifle (mined crystals as magic ammo) | outdated, replaced by the newer design | the original design was going to use mined crystals as magic ammo | referred-to
+  - the current Luna Nova rifle design (crystals only used to etch the spell, magic supplied by wielder or donors) | treat as the correct, current design | they are only using the crystals to etch the spell. The magic comes from the wielder or donors | first-named
+- order:
+  - current Luna Nova rifle design (magic from donors and wielder, crystals only for etching) | over original design of the Luna Nova rifle (mined crystals as ammo) | but after researching the love harvester, Twilight and Fleur realized they could get the ammo from magic donations
+- about: The user pushes back on the model's liquid ambient magic idea, restates constraints they want for how magic, friendship, windigos and crystals relate, and corrects the Luna Nova rifle design so that ammo comes from donated magic rather than mined crystals.

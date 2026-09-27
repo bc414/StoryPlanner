@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reasoning about the plan's mechanism (own name: over-extended hydra logic) | the model applied the regeneration of bankrupt firms, bought up by new poseurs, to B2B companies as well as B2Cs, and the user doubts that B2Bs would come back or even survive once permanently better Aquileian equipment exists | the hydra-heads concession for B2Cs, then asking whether the B2Bs would 'completely evaporate' | a question that accepts part of the model's claim and pushes on the rest, with no explicit statement that it was wrong
+- about: The user accepts that B2C firms regrow like hydra heads and asks whether the B2B firms would instead vanish for good, which probes the model's claim that the whole Skyfall system survives.

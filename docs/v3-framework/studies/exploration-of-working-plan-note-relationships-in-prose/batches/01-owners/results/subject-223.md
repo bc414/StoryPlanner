@@ -1,0 +1,15 @@
+- relations:
+  - 1175|1176|1176 spells out what the code in 1175 is and where it comes from: a written form of existing feudal custom|formal document encoding into Imperial law the implicit practices|implicit
+  - 1176|1173|1176 gives the reason behind the prohibitions in 1173: war stays between elites and does not fall on commoners, and guerrilla, partisan and terror-bombing war would break that|Knights are not allowed to slaughter peasants|implicit
+  - 1175|1173|1173 lists concrete rules that make up the moral code for engagement that 1175 says Grover III established|strict moral code for how the Imperial Legions should engage|implicit
+  - 1175|1174|1174 gives further concrete conduct for the legions' engagements that 1175 says the code governs|strict moral code for how the Imperial Legions should engage|implicit
+  - 1176|1174|1174 is an instance of the elites-fighting-elites custom in 1176: surrender and prisoner exchange with dignity, keeping equipment|They trade their captured veterans with dignity|implicit
+  - 1177|1176|1177 states the ideology under which peasants pay while knights spare them, and 1176 gives the self-interest behind that sparing; the two together show the protection as a matter of wealth, not care|knights are there to protect them, so hand over your crop|implicit
+  - 1181|1173|1181 adds another prohibition to the rules-of-war list in 1173, banning sky ambushes|In the rules of war, sky ambushes are banned|implicit
+  - 1181|1173|1181 adds a practical reason why the sky-ambush ban costs little (heavy-armored griffons are slow), which is a different reason from the moral one behind 1173's bans|Griffons don't fly fast in heavy armor anyway|implicit
+- outward:
+  - 1180|The author's earlier rules for serfs in another story (KU), used as the model for the nobles' rules of war|like the things I came up with for serfs in KU
+  - 1176|Feudal Griffonia, its practices and its social order, held outside these notes|implicit practices of feudal Griffonia
+  - 1175|Grover III's rule and the Imperial Legions, and the warlords who defy him, held elsewhere|Grover III established the Romau Convention
+  - 1181|Griffons and their flight and armor, held elsewhere|Griffons don't fly fast in heavy armor anyway
+- whole: The notes hang together fairly well, since the origin, the reasoning and the concrete rules of the code all bear on each other, though most of the joints are implicit and the author's note about KU stands apart.

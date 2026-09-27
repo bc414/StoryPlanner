@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a new general-knowledge history question about why Japan attacked China, without pointing at any particular source of data.

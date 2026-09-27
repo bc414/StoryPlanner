@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | plan export, a full export of the user's long-form fiction plan | placeholder only: noted as 121,180 words but no text captured (0 chars)
+- shaping:
+- openness: The message contains no stated question or instruction at all, only a document placeholder, so there is nothing to characterize as open, leaning, choice-based, or confirmatory.
+- subject: An attached plan export document, with no accompanying text or instruction

@@ -1,0 +1,5 @@
+- relations:
+  - 2544 | 2545 | 2545 gives the reasoning behind what 2544 states: ambition is framed as a disease, which is why 2544's system suppresses it and erases difference. It works as the diagnosis behind the treatment. | suppress ambition, erase difference / exceptional ambition as a disease to be cured through harmony and conformity | implicit
+- outward:
+  - 2544 | the world outside the walled garden, which the Stagnation ignores and which is not shown in this item | ignoring the outside
+- whole: ["The two notes hang together as a pair that states one idea twice: the system suppresses ambition and enforces conformity, with the second note supplying the diagnosis behind the first."]

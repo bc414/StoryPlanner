@@ -1,0 +1,10 @@
+- relations:
+  - 1253|1254|continues in time: the child rescued in 978 is the one who regains the throne in 981|Child Grover V was saved by Benito in 978 / returned to the throne in 981|implicit
+  - 1254|1255|the return under a regency council is an occasion of the general state of weak rule that begins the same year|returned to the throne in 981 ... had a regency council / He was a weak ruler|implicit
+  - 1255|1256|the weak, undermined reign is carried through to its end, where his sickly condition and death close the period|weak ruler ... / passed away from old age and his sickly condition|implicit
+- outward:
+  - 1253|Benito, a character who rescued Grover V, held elsewhere|saved by Benito
+  - 1254|Eagleclaw and his counterrevolution, an event and figure held elsewhere|Eagleclaw's counterrevolution
+  - 1256|the railway system and its building, held elsewhere|tour of the completed railway system
+  - 1255|the noble houses and the industrialist class, held elsewhere|undermined by nobles+rugged individualist industrialists
+- whole: The four notes read as a set that hangs together, a dated chain from rescue as a child through restoration and a weak reign to death, though every joint is implicit and rests on content and dates alone.

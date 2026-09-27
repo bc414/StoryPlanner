@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's breakdown of the Griffonian Republic and asks a new, open-ended question about what separates it from Stalliongrad and whether it would fare the same against Chrysalis's hive, thinking aloud without disputing anything the model said.

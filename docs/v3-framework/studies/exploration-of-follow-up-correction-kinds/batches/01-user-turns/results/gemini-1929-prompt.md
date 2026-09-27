@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Air China is a budget or premium airline, moving on from the flight schedule without challenging anything the model said.

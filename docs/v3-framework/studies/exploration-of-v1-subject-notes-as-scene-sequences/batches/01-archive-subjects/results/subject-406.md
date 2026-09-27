@@ -1,0 +1,12 @@
+- passages:
+  - 3975 | statement about the subject | The naive reading of Generosity is simple charity, which is nice but doesn't fix everything, and under immoral rulers it degrades into handing out scraps | none | plain declarative definition, no event or time
+  - 3976 | statement about the subject | Equity and systemic justice are the real generosity, and overambitious individuals must be reined in before they drain society, which is how ambition is regulated | none | declarative claim and a rule about regulating ambition
+  - 3982 | statement about the subject | Rarity's own version of Generosity is helping others express themselves | none | declarative statement about a character's take on the concept
+  - 3983 | scene beat without a year | Because of the war, Rarity realizes that although she is generous, others may not be | none | 'In light of the war, Rarity learns' - a discovery, no date given
+  - 3983 | statement about the subject | Making things right takes enforced systemic equity, a shift from generosity out of personal goodness of heart to systemic justice | none | 'You need to enforce...' and 'It's a transition from... to...' describe the arc's meaning and a rule
+  - 3977 | statement about the subject | The Tyranny version of Generosity is Extraction, and Rugged Individualism is the framework that lets extraction operate systemically | none | declarative equation of concept versions
+  - 3977 | statement about the subject | Tyrants and nobles marked by Domination, Hedonism and Fealty are the obvious enemies, while the hidden enemies of the republic are posers who use rugged individualism to extract | none | declarative classification of enemies
+  - 4029 | statement about the subject | Generosity trusts the goodness of the rich and is naive; Equity makes generosity a civic duty whose absence is shameful and makes Extraction structurally difficult | none | declarative comparison of Generosity and Equity
+  - 5471 | statement about the subject | The war version of Generosity is Sacrifice: working oneself to the bone or fighting and dying at the front without knowing whether the mission succeeded | none | declarative definition of a variant, no specific moment
+- sequences:
+- whole: Notes that define the concept of Generosity and its variants (naive charity, Rarity's, tyranny's Extraction, war's Sacrifice) against Equity as systemic justice, with a single undated beat of Rarity's realization in wartime.

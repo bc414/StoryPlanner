@@ -1,0 +1,7 @@
+- asks:
+  - explain | asks whether Warcraft's storytelling underwent a shift over time driven by corporate mandates as the series moved from Warcraft 3 into World of Warcraft | "Was there also a shift in storytelling over time due to corporate mandates as it transitioned to world of Warcraft?"
+- supplies:
+- shaping:
+  - anchor the explanation to the Warcraft 3 era cast/characters the user knows rather than later WoW-only material | "I am most familiar with early hearthstone and therefore the warcraft 3 cast"
+- openness: leans toward an answer it names: the question presupposes, via "also" and echoing an earlier case, that a corporate-mandate-driven storytelling shift occurred, and asks the model to confirm/explain whether the same happened in Warcraft's move to WoW
+- subject: whether corporate mandates reshaped Warcraft's storytelling and characters during the transition from Warcraft 3 to World of Warcraft

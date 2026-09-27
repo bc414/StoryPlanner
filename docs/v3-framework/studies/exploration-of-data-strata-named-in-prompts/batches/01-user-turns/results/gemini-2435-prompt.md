@@ -1,0 +1,8 @@
+- sources:
+  - the diamond dogs are native locals who live away from ponies due to shaming and bad manners and left alone | the author's own statement of how the Diamond Dogs work in their story; treat as settled, replacing the foreign-cartel or slavery-in-Equestria framings the model raised | The diamond dogs are native locals | first-named
+  - planning for Rarity to later help them get jobs in Manehattan as backstory | the author's plan for the story; take as intended backstory that fits the Diamond Dogs as native locals | I'm planning for Rarity to later help them | first-named
+  - seasons 1-4 | the stretch of the published show the model should draw further foreign-influence examples from | What other examples from seasons 1-4 | referred-to
+  - Zecora | given as an obvious foreign influence already, and as the base that Zebrica is derived from | Zecora is an obvious one | referred-to
+  - intermediate fandom about Zebras | a second basis, alongside Zecora, from which the author's Zebrica is built | and other intermediate fandom about Zebras | referred-to
+- order:
+- about: The author corrects the model's Diamond Dogs framing with their own decision that the dogs are native, mentions a planned Rarity backstory for them, and asks for more foreign-influence examples from seasons 1-4, giving Zecora and Zebrica as one already chosen.

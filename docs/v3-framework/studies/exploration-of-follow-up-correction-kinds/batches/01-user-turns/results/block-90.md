@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question about what follows from Celestia not knowing how to make friends, without challenging or revising anything in the model's analysis.

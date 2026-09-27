@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast Vérany as a political prisoner held in a dungeon and released; in the story he was never jailed but went underground and wrote in newspapers | Vérany is not in jail, he went underground. He writes in newspapers | flat statement of the correct fact, with no apology or softening
+  - fact of the world | The model's chosen year of 996 and its trigger (fifteen years after the first revolution, the peak of the FJA bubble) are replaced with 987, a year after Kemerskai imposed martial law in Cloudbury; the model also missed that Kemerskai is Vérany's idol and intended merger | I'm thinking maybe a better would be in 987, a year after Kemerskai (Vérany's idol and intended merger) instituted martial law | tentative counter-proposal, phrased as 'I'm thinking maybe', with the world details given as the reason
+- about: The user corrects the model's false premise that Vérany was jailed, then offers a different year (987) and trigger (Kemerskai's martial law) for him to emerge from hiding and receive his run-down factory.

@@ -1,0 +1,4 @@
+- sources:
+  - the author's own account of Tzinacatl history (griffon guns around 930, Conclave expulsion to Chirropterra, the 981 crossbow, post-930 trade links to New Horseleans and Baltimare) | new material from the author's own head, given as what happened; the model should adopt it as the basis for reframing the crossbow as a middle step after guns and colonialism were already dealt with | I think griffons would have definitely introduced guns | first-named
+- order:
+- about: The author corrects the model's crossbow analysis by supplying their own history, in which guns and expulsion came first around 930 and the 981 crossbow is a hollowing-out middle step, and adds post-930 trade links for the medicinal and drug tribes.

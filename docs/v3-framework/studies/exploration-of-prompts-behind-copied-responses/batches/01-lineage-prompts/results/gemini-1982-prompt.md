@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether a proposed synthesis of the story's power structure is accurate | "So does this mean Skyfall is split between..."
+- supplies:
+- shaping:
+- openness: Asks the model to check/confirm a specific interpretation it lays out, naming the elements it wants validated (cartel/VOC model plus 996 and gilded-age/sweatshop exploitation).
+- subject: Whether the "Skyfall" setting's power structure combines a Silicon Valley/TSMC-style corporate cartel with a VOC (colonial trading company) model, alongside 996 work culture and gilded-age/sweatshop-style labor exploitation

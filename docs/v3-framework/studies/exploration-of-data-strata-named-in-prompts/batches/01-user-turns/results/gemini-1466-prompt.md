@@ -1,0 +1,4 @@
+- sources:
+  - this framework (the staged Stage 1/2/3A/3B framework and its Applejack story parallels from the conversation so far) | use as the lens through which to assess Phil Murphy and Mikie Sherrill | with this framework | referred-to
+- order:
+- about: The user asks the model to assess two politicians, Phil Murphy and Mikie Sherrill, by applying the framework already built up in the conversation.

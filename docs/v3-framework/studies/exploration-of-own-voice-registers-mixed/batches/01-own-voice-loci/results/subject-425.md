@@ -1,0 +1,18 @@
+- passages:
+  - note 50 | mythic-summary narration | third-person present-tense sentence naming story's proper nouns, no dialogue or address | describes replacing Hasbro mandates with grown-up Faust themes | apart
+  - note 4608 | arrow-diagram shorthand | noun phrases chained by "->", no verbs or sentence form | progression from Faust's theme through corporate distortion to a grown-up version | apart
+  - note 4610 | arrow-diagram shorthand | arrow-linked noun phrases, telegraphic | progression from individuality to standardized curriculum to harmonic capitalism | apart
+  - note 4611 | arrow-diagram shorthand | arrow-linked terms, final term expands into a short clause after a dash | progression from organic friendship to bureaucratic friendship to an economic-benefit model called "The Republic" | apart
+  - note 4612 | arrow-diagram shorthand | arrow-linked terms, final term lists parenthetical character deconstructions | progression from character-driven conflict to external conflict to deconstructing three named villains | apart
+  - note 4613 | arrow-diagram shorthand | arrow-linked terms each carrying a parenthetical of examples | progression from subversive femininity to magical lasers to weaponized kindness | apart
+  - note 4948 | topic-heading label | bare noun phrase joined by a dash, no verb, stands alone as a title | names the topic of deconstructing the girlboss trope | apart
+  - note 4948 | thematic-analytic exposition | full declarative sentences defining a trope, contrasting a character, citing a slogan | explains the flawless-girlboss trope, contrasts Minette, ties it to Faust's "no wrong way to be a girl" | apart
+  - note 5154 | thematic-analytic exposition | present-tense declarative sentences reasoning about the story's characters and their source | explains the mane 6 scaling their kid-friendly themes to adult versions, traced to Faust's original personalities | apart
+  - note 5154 | generic-comparative aside | a general present-tense claim about a story genre, not this story specifically | notes that in grimdark stories characters are broken and remade by trauma | apart
+  - note 5154 | thematic-analytic exposition | present-tense sentence returning to this story with an explicit contrast marker | states that in this story the characters mature from kid-friendly to full adult versions | apart
+- shifts:
+  - note 4948 | topic-heading label | thematic-analytic exposition | shift from a verbless noun-phrase title to full sentences that define, contrast, and connect
+  - note 5154 | thematic-analytic exposition | generic-comparative aside | shift to a general claim about a genre, marked by the phrase "In grimdark stories"
+  - note 5154 | generic-comparative aside | thematic-analytic exposition | shift back to this story, marked by the phrase "In this story"
+- registers: mythic-summary narration; arrow-diagram shorthand; topic-heading label; thematic-analytic exposition; generic-comparative aside
+- whole: This item is written in several distinct registers — a mythic narrative summary, telegraphic arrow-diagram shorthand used across most notes, a bare topic-heading label, thematic-analytic exposition, and a generic-comparative aside — and each occupies its own note or its own full sentence, standing apart from the others with a clear break rather than blending inside a single sentence.

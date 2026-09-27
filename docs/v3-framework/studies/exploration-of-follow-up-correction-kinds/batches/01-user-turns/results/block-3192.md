@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the comparative overview to a new, narrower request: a full cross-corpus analysis of Minette and Réni, with an instruction to read in full any material the model had only skimmed, which sets a standard for the next task without disputing anything in the previous turn.

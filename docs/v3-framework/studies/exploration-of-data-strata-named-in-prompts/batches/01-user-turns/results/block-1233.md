@@ -1,0 +1,5 @@
+- sources:
+  - my plans for The Canalave Library | material to be analyzed; the model is to read and assess it | my plans for The Canalave Library | referred-to
+  - the source code model classes | material to be analyzed alongside the plans; the model is to read and assess it | the source code model classes | referred-to
+- order:
+- about: The user asks the model to analyze their plans for The Canalave Library together with the source code model classes.

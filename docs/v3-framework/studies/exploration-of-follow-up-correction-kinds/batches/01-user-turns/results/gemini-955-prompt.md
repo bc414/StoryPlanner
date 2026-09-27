@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about Rockefeller's personal character and temperament, extending the historical discussion without disputing anything the model said.

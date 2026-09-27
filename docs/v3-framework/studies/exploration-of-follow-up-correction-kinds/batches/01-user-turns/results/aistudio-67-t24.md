@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's breakdown of the tycoons' loophole and works out their own revised timeline for Celestia's pre-914 stance, the frontier as an ambition sink (Acornage, buffalo lands, Everfree Forest, sea monsters), and a shift of medieval Equestria toward a Griffonian-Empire parallel, all as new worldbuilding rather than as a correction of the model.

@@ -1,0 +1,4 @@
+- sources:
+  - this story | the material to be summarized in detail; the model is to draw on it as the basis for the summary | "detailed summary of this story" | referred-to
+- order:
+- about: The user asks the model for a detailed summary of the story, following the model's advice to request a detailed first summary.

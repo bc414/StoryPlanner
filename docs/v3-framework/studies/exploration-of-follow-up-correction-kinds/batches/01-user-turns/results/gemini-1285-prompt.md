@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated the Tzinacatl drug tribes as one undifferentiated group to be bought out with War Bonds or won over by Rarity's Generosity. The user's plan has three tribe blocs and three phases of negotiation, and the model didn't work with that structure. | "the three blocs of tribes and the subsequent three phases of Tzinacatl negotiations that are currently in my story plan" | Implicit and unstated. The user gives a fresh, flat instruction to analyze the plan's own structure, and never says what the model got wrong.
+- about: The user drops the Rarity-in-the-jungle hypothetical and redirects the model to analyze the tribe blocs and negotiation phases already set out in their story plan.

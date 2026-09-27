@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the reworked Applejack backstory and asks a new follow-up question about how the Applebuck Season episode can be explained and explored in light of it.

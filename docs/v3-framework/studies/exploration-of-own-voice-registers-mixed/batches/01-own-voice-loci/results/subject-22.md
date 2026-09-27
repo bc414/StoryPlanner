@@ -1,0 +1,13 @@
+- passages:
+  - note 4227 | temporal arc narration | future tense with 'initially'/'after' sequencing, adjectival trait shift 'bombastic'/'humbled' | Kemerskai's personality changing after the Long March | apart
+  - note 4227 | present-tense expository statement | flat present tense, infinitive purpose clause 'to prove that...' | his fresh slate in Cloudbury and its aim | apart
+  - note 4227 | authorial real-world comparison | demonstrative 'This is where', future 'will eclipse', phrase 'in real life' | Kemerskai surpassing Bryan's real-world failure | apart
+  - note 5222 | present-tense expository statement | present tense 'is', naming a doctrine, identity claim | Kemerskai as true believer of Gesunder Menschenverstand | apart
+  - note 5222 | present-tense expository statement | present tense 'is to', infinitive purpose clause, naming an opponent | the Long March's aim against Grover III | apart
+  - note 5222 | dated turning-point narration | contrastive 'But', past tense 'read'/'realizes', specific year '986' | his reversal on reading The Predator's Dilemma and Coltbert's argument | apart
+- shifts:
+  - note 4227 | temporal arc narration | present-tense expository statement | drops trait/sequencing language for an infinitive purpose clause 'to prove that the federalists can be right'
+  - note 4227 | present-tense expository statement | authorial real-world comparison | 'This is where' plus future 'will eclipse' plus 'in real life' introduces an evaluative real-world claim
+  - note 5222 | present-tense expository statement | dated turning-point narration | 'But' plus past tense 'read'/'realizes' plus the year '986' marks a narrated reversal
+- registers: temporal arc narration; present-tense expository statement; authorial real-world comparison; dated turning-point narration
+- whole: Across its two notes this item moves through several registers - forward-looking arc narration and flat expository purpose-statements giving way, in one note, to an authorial real-world comparison and, in the other, to a dated turning-point narration - with every change landing cleanly at a sentence break rather than inside one sentence.

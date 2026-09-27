@@ -1,0 +1,4 @@
+- sources:
+  - the model's previous analysis of the Manehattan mandate (the turn's "This") | reject its tone and its coercive framing of the mandate; the user's restatement replaces it | This isn't the right tone | referred-to
+- order:
+- about: The user rejects the model's dark, coercive reading of Manehattan's war-contribution mandate and restates it as every pony having to contribute to support the front-line volunteers while choosing how, according to their own view of their asset specificity.

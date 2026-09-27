@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model attributed the fear-physiology canon example to two episodes at once, and the user names 28 Pranks Later as the single episode they had in mind | 28 Pranks Later is the canon episode I was remembering | flat, understated statement in passing, with no explicit disagreement and no reason given
+- about: The user narrows the model's dual episode attribution down to the one episode they had in mind earlier, which quietly corrects the pairing without asking for anything further.

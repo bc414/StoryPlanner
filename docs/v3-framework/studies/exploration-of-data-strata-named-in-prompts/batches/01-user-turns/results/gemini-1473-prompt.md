@@ -1,0 +1,4 @@
+- sources:
+  - Stage 3B (the stage framework built earlier in the conversation) | use as the yardstick for judging which Republican officials qualify; the turn takes the category as already settled | real Stage 3B elected figures | referred-to
+- order:
+- about: The user asks the model to apply the established Stage 3B category from their framework to find any genuine examples among elected Republicans in 2026, following a survey that placed mostly Democrats and a few Republicans in the stages.

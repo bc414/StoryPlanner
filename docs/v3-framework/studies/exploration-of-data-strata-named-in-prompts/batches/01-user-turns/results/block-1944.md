@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user tells the model to keep three categories apart (universal propositions, evidence for them, and social commentary that follows from them) without pointing at any body of material to draw on.

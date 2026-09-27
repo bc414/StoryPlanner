@@ -1,0 +1,12 @@
+- passages:
+  - note 4578 | prescriptive directive | modal "should be," instructs placement | Mali staying with Applejack | run-in
+  - note 4578 | narrative present-tense summary | plain present tense, causal "that's how" | the outcome of them reaching the trench together | run-in
+  - note 4578 | prescriptive directive | modal "should be," instructs demeanor | Applejack's deferential manner | run-in
+  - note 4578 | narrative present-tense summary | plain present tense verbs, no modal | Mali encouraging and questioning others | run-in
+  - note 4578 | narrative present-tense summary | reported speech ("Mali says"), present tense, causal "and" | Mali's reasoning about staying and its effect on Applejack | apart
+- shifts:
+  - note 4578 | prescriptive directive | narrative present-tense summary | drops the modal "should" for the causal "that's how" clause stating an outcome
+  - note 4578 | narrative present-tense summary | prescriptive directive | new sentence returns to modal "should be" to instruct Applejack's manner
+  - note 4578 | prescriptive directive | narrative present-tense summary | "while" introduces plain present-tense verbs describing Mali's actions instead of instructing them
+- registers: prescriptive directive; narrative present-tense summary
+- whole: The single note alternates twice between a prescriptive directive register, marked by \"should,\" and a narrative present-tense summary register describing outcomes, actions, and reported speech, with the two running into each other inside sentences except where a full stop sets the final narrative passage apart.

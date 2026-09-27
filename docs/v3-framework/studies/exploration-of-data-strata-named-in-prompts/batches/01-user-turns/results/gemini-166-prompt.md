@@ -1,0 +1,5 @@
+- sources:
+  - the model's earlier four-layer analysis of Celestia (the reveal plan and Twilight's arc) | treat as partly wrong: the author's clarifications override it (Twilight doesn't know Celestia's plan, the friends aren't just tools, Celestia isn't cold and calculating) | Some clarification | referred-to
+  - the line about Chrysalis doing meritocracy better | existing story element the author wants balanced against the corrected, more sympathetic Celestia, with its placement in the sequence (after or not) left open for the model to advise on | the line about Chrysalis doing meritocracy better | referred-to
+- order:
+- about: The author corrects the model's reading of Celestia and Twilight as too cold and calculating, restates Celestia as a lonely, sympathetic friend whose tragedy the Republic will end, and asks how to fit the Chrysalis-meritocracy line with that and whether it should come after.

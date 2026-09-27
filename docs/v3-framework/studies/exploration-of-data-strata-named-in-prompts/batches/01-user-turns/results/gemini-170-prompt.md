@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a revision to how the princesses are invited (Rarity delivers it in person and is refused, then Applejack follows up with the Spike letter) and explains Applejack's inner conflict, without pointing the model at any body of material to use or avoid.

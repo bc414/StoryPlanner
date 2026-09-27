@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user describes their character Henri as boisterous and snobbishly proud of Aquileian culture, and asks whether that fits a Southern French archetype, a Parisian one, or a northern rural Champagne wine grower, which is a new question and not a correction.

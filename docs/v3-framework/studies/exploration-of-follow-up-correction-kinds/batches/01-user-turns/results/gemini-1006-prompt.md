@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's low-decay, static-world picture as given and asks whether land occupied by the changelings would turn into something like Herzland.

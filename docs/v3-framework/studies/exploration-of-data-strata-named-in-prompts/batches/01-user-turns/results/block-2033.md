@@ -1,0 +1,9 @@
+- sources:
+  - the user's own reading of P&K (having actually read it) | treated as the authoritative correction of the model's earlier surface-level reading; the user's first-hand knowledge stands over it | the misreading of P&K from the surface level which I corrected from actually having read it | referred-to
+  - the model's earlier surface-level reading of P&K | treated as a misreading that has been corrected, and as a warning about how the model's reading of works can go wrong | the misreading of P&K from the surface level | referred-to
+  - Fallout, Fallout Equestria and the FoE sequel | the works to be re-analysed from the model's own knowledge; the user has no first-hand knowledge of them and cannot check the result | please do a reanalysis of Fallout and Fallout Equestria and the FoE sequel. I haven't played or read those | referred-to
+  - ASOIAF | named as another work the user has not read, so the user cannot check the model's account of it; the model is asked whether it was less likely to be misread | I also haven't read ASOIAF | referred-to
+  - discourse on the Internet about these older, larger bodies of material | offered as the user's guess for why the model's reading of these works may be more reliable than its reading of P&K; a hypothesis put to the model, not a settled fact | more material and they are older and there is more discourse on the Internet | referred-to
+- order:
+  - the user's own reading of P&K | the model's earlier surface-level reading of P&K | the misreading of P&K from the surface level which I corrected from actually having read it
+- about: The user, citing their own correction of the model's surface-level P&K reading, asks the model to redo its analysis of Fallout, Fallout Equestria and its sequel, which they haven't read, and asks whether those were less likely to be misread because of their age and the volume of online discussion.

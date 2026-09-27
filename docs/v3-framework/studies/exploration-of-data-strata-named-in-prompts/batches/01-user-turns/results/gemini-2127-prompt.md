@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new story development in which Aquileian and Griffonian volunteers defend Mount Aris beside the Wonderbolts, asks whether it starts the Republican Pact and how their cultural rivalry persists, and frames the battle as a Battle of Britain-style air defense against a paper-tiger Storm King, without pointing the model at any body of data.

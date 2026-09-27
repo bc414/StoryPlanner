@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's jealousy-and-reunion idea and asks for its mirror image, proposing Mali as the candidate for Twilight to be jealous over, which is a new question rather than a correction.

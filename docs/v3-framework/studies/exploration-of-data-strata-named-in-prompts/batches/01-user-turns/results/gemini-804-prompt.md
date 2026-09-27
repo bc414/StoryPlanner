@@ -1,0 +1,4 @@
+- sources:
+  - my story planner json | draw on it: list the reasons for Celestia being a statue that already exist there | already exist in my story planner json | referred-to
+- order:
+- about: The user asks the model to list the reasons Celestia is a statue, both those already recorded in their story planner json and new options.

@@ -1,0 +1,13 @@
+- steps:
+  - the author | request a summary | asks for a detailed summary of the story's first chapter | opening prompt of the thread
+  - the model | produce a structured summary | breaks chapter one into labeled sections covering a dilemma, an incident report, an exam disaster, a diagnosis/rejection, and an intervention | first response
+  - the author | request the next summary | asks for a detailed summary of the next chapter, without naming it | second prompt
+  - the model | produce a structured summary | gives the summary of the chapter it identifies as chapter five, again split into labeled sections | second response, primary answer
+  - the model | supply alternate drafts | offers additional response drafts summarizing four earlier chapters (four, three, two, one) in the same section format | second response, additional drafts appended after the primary answer
+  - the author | request the next summary plus analysis | asks for a detailed summary of the next chapter, plus any new open questions, plus how it relates to previous chapters | third prompt
+  - the model | summarize | gives a structured summary of the next chapter under labeled sub-headings | third response, summary portion
+  - the model | list open questions | raises several unresolved plot questions arising from that chapter | third response, open-questions section
+  - the model | cross-reference | lists specific links between the new chapter's events and earlier chapters | third response, relation-to-previous-chapters section
+- kept:
+- brought: The author brought an attached manuscript of the fanfiction (not captured in the record) for the model to work through chapter by chapter.
+- loop: The author repeatedly asked for the next chapter's summary, escalating to also ask for open questions and cross-chapter links, and the model complied each time, but no note in the planning database traces to any of this stretch, so the loop closes as a read-only reference exchange that left nothing behind in the plan.

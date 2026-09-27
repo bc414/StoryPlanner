@@ -1,0 +1,7 @@
+- passages:
+  - 4568 | statement about the subject | Trixie and Rarity share a creative nature at heart, a comparison between the two characters | none | plain assertion of a shared trait, no event
+  - 4569 | other: story-craft note on narrative function | Trixie's use as the mouthpiece and public face of EEEE!, contrasting with Flowing Current's stale, repetitive ideological rhetoric | none | states why she is useful, no event
+  - 4570 | other: story-craft note on possible use | Trixie can mock the industrialists to expose their hoarding | none | says what she can do, a possibility rather than a moment shown
+  - 5282 | statement about the subject | Trixie's origin in New Horseleans with Aquileian influences, explaining her big ego and her use of asset specificity to put on a show | none | explanatory statement of background and cause, no event
+- sequences:
+- whole: A small set of four undated notes on Trixie, mixing character-trait and background statements (creative kinship with Rarity, New Horseleans origin and ego) with story-craft remarks on how she can serve as EEEE!'s mouthpiece and mock industrialists, with no scene beats or sequences.

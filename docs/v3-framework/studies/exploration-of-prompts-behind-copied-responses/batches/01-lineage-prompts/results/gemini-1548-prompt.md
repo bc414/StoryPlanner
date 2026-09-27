@@ -1,0 +1,6 @@
+- asks:
+  - factual lookup | asks what term the Dutch and German localizations of "EaW" use for a specific thing referred to only as "it" | "What do the dutch or german localizations of EaW call it?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: the message poses a direct factual question without naming or leaning toward any candidate term, and asks for information from both named localizations rather than a choice between them.
+- subject: Terminology used for an unnamed referent in the Dutch and German localizations of "EaW" (likely the game Empire at War)

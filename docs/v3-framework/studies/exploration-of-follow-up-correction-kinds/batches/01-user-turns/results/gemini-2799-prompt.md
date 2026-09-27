@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's framework with a further thesis (balance of the two loves must be actively maintained, and industry and magic as accelerants can't be bottled up again) and asks for an analysis of it, without disputing anything the model said and without answering its closing question.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze the romance between Twilight and Applejack, without pointing at any particular body of material to draw on.

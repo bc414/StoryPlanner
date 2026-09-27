@@ -1,0 +1,5 @@
+- sources:
+  - the night after the 2nd battle of Tall Tale in chapter 4, as I imagined it (Applejack on her back, Twilight face down on top) | the author's own new scene idea, given as the thing to analyze; to be taken as the stated setup, not questioned | I imagined the clinging to be applejack lying on her back and Twilight snuggled on top | first-named
+  - the others (the other cuddling poses in the story) | the comparison set the new pose is to be measured against | Compare to the others | referred-to
+- order:
+- about: The user describes their planned chapter 4 post-battle cuddling pose between Twilight and Applejack and asks the model to analyze what it accomplishes and compare it with the other poses already discussed.

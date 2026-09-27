@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks two forward-looking questions: whether the Skyfall resolution should be sequenced before the Equestrian referendum (with a rationale about what Celestia and Luna should witness), and a separate factual question about the political alignment of the Patriotten in 1795.

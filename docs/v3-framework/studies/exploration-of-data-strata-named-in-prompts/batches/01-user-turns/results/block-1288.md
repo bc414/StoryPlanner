@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's account of the story world by saying Caramel Marks's critique targets Skyfall's artisan cartels and vertically integrated companies rather than Baltimare or the Aquileians, and that Starlight then reads this and projects it onto the cutie mark system.

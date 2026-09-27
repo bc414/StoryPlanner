@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a new plot detail for chapter 17 (Applejack taking the title "Lioness of Tall Tale" in place of the Element of Honesty) and asks the model to review that chapter and contrast it with chapter 6, moving on to a new question without disputing the earlier analysis.

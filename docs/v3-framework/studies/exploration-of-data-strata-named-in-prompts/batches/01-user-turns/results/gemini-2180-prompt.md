@@ -1,0 +1,5 @@
+- sources:
+  - today's agriculture, and whether we have nutritional spectrometers today | the model is asked to draw on real-world general knowledge of farming practice and of nutrient-measuring technology, and to use it as the basis for the in-universe device | Isn't that a truth of today's agriculture? Do we have nutritional spectrometers today | referred-to
+  - the model's previous proposal of an origin-based spectrometer and the invalidation of ingredients by where they came from | treated as flawed and to be revised: judging by origin is called a poseur move, and the idea should be reworked around nutrition and flavor | Isn't it kind of a poseur move to invalidate a cooking ingredient based on where it came from? So perhaps the nutritional spectrometer is the same concept? | referred-to
+- order:
+- about: The user pushes back on the previous turn's origin-based verification idea, asks the model to check it against real-world agriculture and nutrition-measuring technology, and adds their own points about Griffon farming traditions and Earth Pony fertilizer sales.

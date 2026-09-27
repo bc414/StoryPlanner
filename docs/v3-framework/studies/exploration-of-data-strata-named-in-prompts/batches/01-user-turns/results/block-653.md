@@ -1,0 +1,6 @@
+- sources:
+  - my sample story planner output | mine it for concrete examples of each note category and use them to elaborate the distinctions | Can you draw up examples from my sample story planner output and elaborate? | referred-to
+  - my synopsis fields acting as dumping/capturing grounds | treat as the place where raw capture sits, including fragments of possible prose, which the taxonomy of text orders must account for; described as context, not something to be edited or relied on as settled | do contain sample prose | referred-to
+  - the model's proposals earlier in this conversation (superseded as a state, a separate note for the flag reason, notes to self) | treat as provisional and open to challenge; user doubts the superseded state, questions the separate-note approach, and finds the notes-to-self label too broad | I'm not so sure superceded should be a state | referred-to
+- order:
+- about: The user pushes back on parts of the model's proposed note-state design and asks it to give precise terms and examples for a taxonomy of text orders (prose, story design content, and content-management or research directives), including splitting out narrative architecture from scene-level design and from notes to self.

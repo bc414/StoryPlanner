@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user states that English is their only frame for thinking about language and asks the model to expand on how native full English differs from the level international contractors reach, which is a follow-up request to use English as the analogy for the Simplified/Standard split.

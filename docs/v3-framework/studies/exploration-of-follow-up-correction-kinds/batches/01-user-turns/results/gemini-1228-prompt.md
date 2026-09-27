@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Colbert discussion to a new question about how Mansa Musa relates to the gold standard, without challenging anything the model said.

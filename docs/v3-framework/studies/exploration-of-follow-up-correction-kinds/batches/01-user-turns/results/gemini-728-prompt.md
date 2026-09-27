@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short follow-up question, checking whether the model's free-versus-Plus pricing comparison means NotebookLM is not part of the Gemini AI Pro subscription, without stating that anything was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's friction-versus-frictionless framing and extends it with personal gaming history (active cognition, leaving Pokemon and RTS for grand strategy, Ingress), agreeing and adding rather than disputing anything.

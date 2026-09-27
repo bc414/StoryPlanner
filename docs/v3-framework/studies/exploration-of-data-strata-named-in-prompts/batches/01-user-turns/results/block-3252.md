@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user steps back from the worldbuilding analysis to ask a general question about why globalization narratives so often cast Anglo nuclear-family individualism as the corrupter of native structures, and whether that is British, French, German, or a self-replicating trait of Western European expansion.

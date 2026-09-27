@@ -1,0 +1,7 @@
+- asks:
+  - unspecified | no explicit instruction is given for what to do with the attached material | the message consists only of the attachment placeholder with no accompanying text
+- supplies:
+  - plan export | a full export of the person's long-form fiction plan | placeholder note stating it is 151,876 words, 0 chars captured (document content not present in what was recorded)
+- shaping:
+- openness: Left entirely open: the message states no question, task, or instruction, only the fact that a plan document was attached.
+- subject: An attached export of the person's fiction planning document, with no accompanying instruction.

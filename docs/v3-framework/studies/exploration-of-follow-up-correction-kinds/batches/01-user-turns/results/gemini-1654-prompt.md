@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user poses a follow-up hypothetical, asking what follows if the dam is destroyed in combat rather than deliberately, with river defenses in place behind it, without disputing anything the model said.

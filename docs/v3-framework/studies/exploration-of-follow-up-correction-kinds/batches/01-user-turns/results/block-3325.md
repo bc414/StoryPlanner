@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's excavation was scoped to the working plan and lineage and left out the v1 archive, though it claimed to search every surface | v1 archive must also be analyzed | flat, terse imperative with no reason or apology
+- about: The user tells the model in one short directive that its search must also cover the v1 archive, widening the source material it is working through.

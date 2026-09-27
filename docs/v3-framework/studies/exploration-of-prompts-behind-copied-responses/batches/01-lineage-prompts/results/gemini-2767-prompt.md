@@ -1,0 +1,7 @@
+- asks:
+  - explain | explain what each of two named historical/political figures believed, presented separately for each | "explain Lenin and Kerensky's respective views"
+- supplies:
+- shaping:
+  - cover both figures separately rather than a single blended account | "respective views"
+- openness: Open: it names the two figures whose views should be explained but does not state or lean toward any particular characterization of what those views are.
+- subject: The political views of Lenin and Kerensky (apparently in a Russian Revolution context)

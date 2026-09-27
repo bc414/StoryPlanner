@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's word count for chapter 1 (about 3,500 words, roughly 300 per plot point) is wrong; the chapter is 5717 words, so the per-plot-point scope it derived and the conclusion that scope is tight are off | the chapter 1 word count is 5717, not 300 | flat, stated as a single labelled correction with the actual figure, followed by the inference the user draws from it (scope can be bigger than projected)
+- about: The user corrects the model's word-count figure for chapter 1, draws from it that plot points can be larger than projected and easy to define ahead of time, and then assigns a new task: a plot point scoping and POV analysis of chapter 2 (a reimagined Filli Vanilli), including canon knowledge, audience reception research and the reader's belief-updating.

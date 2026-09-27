@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model built its thesis on only part of the two stories (it even conceded not having read the Maud description), so the analysis rests on missing passages that the user wants read and the conclusions redone | "review parts your missing from the stories and give a reanalysis" | flat, brief instruction that implies the gap without explaining it, with no apology or irritation
+- about: The user tells the model to go read the parts of the stories it skipped and redo its analysis on the full text, rather than accepting its refined thesis as it stands.

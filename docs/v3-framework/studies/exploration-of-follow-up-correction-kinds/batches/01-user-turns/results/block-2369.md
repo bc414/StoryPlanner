@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a piece of fandom context, that the P&K author and readers mock JWAB, and says they don't know why, which opens a new question and leaves the model's analysis unchallenged.

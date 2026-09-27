@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new design question, asking what else beyond the third-person-limited fields deserves dedicated forms, why those fields were elevated, and which candidates were considered and left out, without disputing anything in the model's previous answer.

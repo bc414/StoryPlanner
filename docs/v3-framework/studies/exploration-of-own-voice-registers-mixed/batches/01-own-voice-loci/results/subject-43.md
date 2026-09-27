@@ -1,0 +1,7 @@
+- passages:
+  - note 4752 | mythic self-image register | frames her via a legend and self-perception ("sees herself as living up to") | her identifying with the Princess of the Night legend | apart
+  - note 4752 | plain biographical register | short factual clauses joined by "and", naming origin and workplace | her tribal origin and her job at the Foyer | apart
+- shifts:
+  - note 4752 | mythic self-image register | plain biographical register | drops the interpretive "sees herself as" framing for bare factual statements of origin and occupation
+- registers: mythic self-image register; plain biographical register
+- whole: This item's one note moves from a mythic, self-perception-framed register into a plain biographical register, the two sitting apart as distinct sentences rather than blending together.

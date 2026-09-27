@@ -1,0 +1,6 @@
+- passages:
+  - bearing on the theme | Declares the whole revelation scene to be, fundamentally, a story about kinship, so the scene is the theme's carrier | "is a Kinship story at its core" | no | expository prose, a flat thesis sentence opening the commentary
+  - bearing on the theme | Names the line "I knew what you were, and I loved you anyway" as the memory on which Eagleclaw's whole testimony rests, making it the scene's kinship anchor | "built on a specific memory" | yes | expository prose, a framing sentence that quotes the line
+  - bearing on the theme | Argues that the line is the purest definition of chosen kinship: love given in full knowledge of difference and not despite it | "purest possible definition of chosen kinship" | no | expository prose, an evaluative claim with a not-X-but-Y contrast
+  - bearing on the theme | Sums up the arc as Eagleclaw choosing Chrysalis as kin and the testimony being the account of that kinship being betrayed and destroyed | "chose Chrysalis as kin" | yes | expository prose, a closing summary sentence
+- whole: A short expository commentary that argues the Eagleclaw testimony is a kinship story, treating her line \"I knew what you were, and I loved you anyway\" as chosen kinship and the testimony as the account of that bond's betrayal.

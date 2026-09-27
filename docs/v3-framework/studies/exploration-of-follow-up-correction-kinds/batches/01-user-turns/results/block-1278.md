@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: placement of the confrontation in the plot | the model kept a Canterlot infiltration and decapitation strike as the escalation after Our Town falls, with Twilight meeting Starlight there; the user wants the confrontation to come right after the collapse, with the citizens catching Starlight, and not with her fleeing to a cave first | "the confrontation should be after the our Town breakdown where the citizens catch Starlight instead of her escaping in a cave" | stated as a personal view ("I feel like") with a reason given: she is already radicalized and needs no season nursing a grievance
+- about: The user redirects where the Twilight and Starlight confrontation falls, putting it straight after the Our Town collapse instead of a later Canterlot strike, and then asks a separate question about whether Caramel Marks' writing should also criticize Coltbert and Aquileia.

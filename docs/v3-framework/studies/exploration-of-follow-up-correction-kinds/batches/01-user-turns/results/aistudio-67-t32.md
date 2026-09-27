@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Tzinacatl history to a new question, asking how the 914 walled-garden timeline affects Aquileia's pony-minority backstory and whether it can be kept, and lists the existing elements and their worry about the isolationism dependency.

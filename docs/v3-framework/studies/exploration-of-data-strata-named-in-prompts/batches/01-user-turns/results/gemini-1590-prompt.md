@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is weighing alternative story orderings for how Cadance comes to the night-therapy project (prior knowledge of parloir and Aquileian culture, a non-answer from Celestia followed by Luna's whisper, or Mali as the source) and proposing Mali speaking to Luna in the trench as an early seed of the dreamscape aid network.

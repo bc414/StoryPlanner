@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up factual questions about who farmed the Gonesse wheat, at what scale, whether serfs were involved, and what period it dates from, without pointing at any body of material to use or avoid.

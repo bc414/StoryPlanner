@@ -1,0 +1,8 @@
+- sources:
+  - story plan parts about Olenia | read and analyse as the material against which the author's proposed classification is tested | Review the story plan parts about Olenia | first-named
+  - story plan chapter titled Preparation (Vanhoover) | read and analyse for the Vanhoover occupation and whether it is a separate system or collaborators as an organization | Vanhoover (the chapter titled Preparation) | first-named
+  - story plan chapters Combined Arms, Breakthrough, and Encirclement (Canterlot's occupation) | read and analyse for the Canterlot occupation and whether it is a separate system or collaborators as an organization | Canterlot's occupation (the chapters Combined Arms, Breakthrough, and Encirclement) | first-named
+  - the model's earlier point that the Cute Intelligence Agency is a separate organization from Camp Fluttershy | accepted as correct, with the author adding detail on membership and binding logic | I agree that the Cute Intelligence Agency is a separate organization | referred-to
+  - the author's own proposed classification of Olenia, Equestrian Collaborators and Olenian Collaborators (Viking Olenia system, Comprador Economy, Chrysalis's New Order) | provisional view stated as the author's thinking, to be checked against the story plan and analysed | I'm thinking Olenia has a Civilizational System for Viking Olenia | first-named
+- order:
+- about: The author confirms the CIA/Camp Fluttershy split, proposes that collaborator states are Organizations following Chrysalis's New Order rather than separate Civilizational Systems, and asks the model to review the named story plan parts on Olenia, Vanhoover and Canterlot and give an analysis.

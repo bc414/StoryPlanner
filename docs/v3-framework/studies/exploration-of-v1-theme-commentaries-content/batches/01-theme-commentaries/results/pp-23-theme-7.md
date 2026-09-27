@@ -1,0 +1,3 @@
+- passages:
+  - on-page plan | Beats to be shown in the scene: Henri gives Applejack her rotation-off-the-front time, she refuses rest, and Henri answers with the line that good soldiers rest rather than push themselves into death. | Henri tells Applejack when she'll rotate off the front... good soldiers rest instead of pushing themselves into death | no | plain past-tense/present-tense summary of the action and dialogue, e.g. "Applejack says she doesn't need rest, but Henri says"
+- whole: The commentary is a two-sentence summary of an added exchange in the scene, in which Henri schedules Applejack's rotation and overrides her refusal of rest, with no explicit statement of how it bears on Loyalty and Kinship.

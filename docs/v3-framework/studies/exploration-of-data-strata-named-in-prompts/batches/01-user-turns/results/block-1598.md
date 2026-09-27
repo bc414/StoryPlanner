@@ -1,0 +1,11 @@
+- sources:
+  - v1 | scanned quickly, then audited: used to check subjects and plot points, missed items filled in, subject-appropriate content moved out of plot points, delivery blueprint material kept if still compatible | quick scan of v1 | referred-to
+  - from memory | main basis for creating subjects and their project-wide tracks, and for filling in what v1 missed | from memory after a quick scan of v1 | referred-to
+  - v2 | the new data set being populated, to become the clean context for later expansion | populating v2 | referred-to
+  - display text for subject types and display questions | written first, then followed as the guide when creating subjects and tracks | following display questions | referred-to
+  - analysis of my past written story prose | evidence used to judge the appropriate scope of plot points | Analysis of my past written story prose gave a sense of appropriate scope | referred-to
+  - the existing skeleton | plan outline of empty plot points linked to subjects; later new plot points are kept genuinely separate from it | genuinely separate from the existing skeleton | referred-to
+- order:
+  - from memory | after a quick scan of v1 | subjects are created from memory, with v1 only scanned quickly at first and audited later
+  - v2 as clean context | further expansion can proceed, using the new data set as clean context
+- about: The user lays out a tentative multi-step workflow for populating a v2 story-planning data set from memory and v1, and asks for analysis, complications, alternatives and clarifying questions.

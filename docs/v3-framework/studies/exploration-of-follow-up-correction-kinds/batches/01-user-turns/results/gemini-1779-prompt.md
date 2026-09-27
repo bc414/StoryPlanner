@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks the model's first scorecard option, Le Tableau de Chasse, on the condition that it means both hunting log and trophies, and explains how the mares and the griffons would each read it. They then ask a new question about "Lioness Spell" versus "Lioness's Spell" and the French equivalents.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Czech-lands industrial discussion and moves to worldbuilding questions about the Foyer des Jeunes d'Aquilée clubs, asking whether fitness training grounds and the Moriset Discret peasant-army lineage of auftragstaktik should tie into them, and asking for pros and cons.

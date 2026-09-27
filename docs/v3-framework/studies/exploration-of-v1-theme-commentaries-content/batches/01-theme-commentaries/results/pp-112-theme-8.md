@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | Labels the scene as a "hard truth" moment, the theme's confrontation with an uncomfortable reality, landing on Celestia and on the ponies who will receive the rifles | "This is a "hard truth" moment for Celestia and the ponies who will be receiving rifles" | no | plain declarative expository prose, a single framing sentence
+  - bearing on the theme | Names what the hard truth is: the ponies must make an adult choice, giving up innocence, to survive the attack | "they have to make an adult choice to survive the attack" | no | plain declarative expository prose, stated as a definition of the truth
+- whole: A two-sentence note that frames the scene as a "hard truth" moment for Celestia and the rifle-bearing ponies, and says the truth is that they must make an adult choice to survive.

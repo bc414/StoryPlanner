@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author clarifies a plot point about Applejack's parents, offers their own view of its key impact on her relationship to Celestia's moral authority, and asks the model to analyze it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's finding that the suburban dream was missing and asks how to build it into the rugged-individualist talking points. They lay out their own picture of industrial cities, cramped housing, drugs and the "temporarily embarrassed millionaire" trap, ask about historical accuracy in the US, Europe and East Asia, and name Pridea, Cloudbury and Manehattan as the counterpoint.

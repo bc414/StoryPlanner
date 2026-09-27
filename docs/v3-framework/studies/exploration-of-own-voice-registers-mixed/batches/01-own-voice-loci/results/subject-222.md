@@ -1,0 +1,14 @@
+- passages:
+  - note 23 | plot-note exposition | terse third-person past-tense statement of a design change | Twilight and Fleur improving the love harvester | apart
+  - note 4066 | plot-note exposition | short declarative sentences stating a donation requirement | pro-war ponies forced to also donate friendship for rehab | apart
+  - note 4066 | aphoristic commentary | terse paradoxical closing statement | the irony of being forced into mercy | apart
+  - note 4067 | thematic-analytic reflection | abstract nouns, discussion of social/political trend over time | friendship and magic eroding polarization between war factions | apart
+  - note 4096 | plot-note exposition | list of short declarative facts, third-person past tense, cataloguing design details | Fluttershy's and the POWs' redesign of the harvesting bed and pillow, Starlight's spell change | apart
+  - note 4097 | plot-note exposition | single declarative present-tense sentence stating a character's action and its effect | Pinkie's love-infused treats restoring friendship | apart
+  - note 5457 | plot-note exposition | plain declarative statement comparing durations | donation taking longer than extraction | apart
+  - note 5457 | clarifying aside | contraction and direct correction of an assumed cause | painlessness not being due only to Starlight's spell | apart
+- shifts:
+  - note 4066 | plot-note exposition | aphoristic commentary | shift from stating the mechanic to a terse paradoxical summary sentence
+  - note 5457 | plot-note exposition | clarifying aside | shift from plain statement to a contraction-marked correction of an implied assumption
+- registers: plot-note exposition; aphoristic commentary; thematic-analytic reflection; clarifying aside
+- whole: Most of these notes sit in one plain expository register of stating facts and design changes, but two of them break briefly into a different mode — one into a terse ironic summary and one into a corrective aside — while a third note stands apart entirely in an abstract, analytic register, so the item as a whole holds several registers that mostly stay separated by note or by sentence rather than blending together.

@@ -1,0 +1,4 @@
+- sources:
+  - the plot points about Twilight going to Tall Tale originally just to bail Applejack out and bring her home | treated as the existing plan that the new idea must fit; the user worries the Ain Trotgourait motive conflicts with it and reworks the new idea to keep it | this seems to conflict with the plot points about Twilight going to Tall Tale originally | referred-to
+- order:
+- about: The user weighs the suggested Ain Trotgourait trigger against their existing plot of Twilight rescuing Applejack, and proposes a revision in which occupied Vanhoover, raised by Applejack, is what breaks Twilight's block on violence.

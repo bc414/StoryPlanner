@@ -1,0 +1,6 @@
+- sources:
+  - notes in v1 archive | search these for relevant material to add to the methodology analysis | You need to also search for relevant notes in v1 archive | first-named
+  - conversations | search these too for relevant material | and conversations
+  - paratext sections of v1 archive (disguised as chapter 34) | look especially in these sections; given priority focus within the v1 archive | especially the paratext sections of v1 archive which is disguised as chapter 34 | first-named
+- order:
+- about: The user tells the model its methodology analysis is incomplete and directs it to also search the v1 archive notes and conversations, especially the paratext sections stored as chapter 34.

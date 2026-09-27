@@ -1,0 +1,4 @@
+- sources:
+  - the story bible | the material the user wants to use with Claude Code or Claude Cowork; the question is whether those tools can work from it, with no ranking or trust level given | For the story bible | referred-to
+- order:
+- about: The user asks whether Claude Code or Claude Cowork would be a better way than the consumer chat apps to work with their story bible.

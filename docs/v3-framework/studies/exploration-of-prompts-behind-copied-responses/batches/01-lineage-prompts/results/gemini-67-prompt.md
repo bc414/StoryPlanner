@@ -1,0 +1,10 @@
+- asks:
+  - summarise | give a detailed summary of the next chapter | 'detailed summary of the next chapter'
+  - identify | list any new open questions arising from that chapter | 'any new open questions'
+  - explain | describe how the next chapter relates to previous chapters | 'how it relates to previous chapters'
+- supplies:
+- shaping:
+  - summary should be detailed rather than brief | 'detailed summary'
+  - response should cover three distinct parts: summary, open questions, relation to prior chapters | structure of the request itself
+- openness: Leaves the answer fully open, naming no content or expected conclusions, only the three things the reply must cover.
+- subject: The next chapter of a story-in-progress: its content, resulting open questions, and its connection to earlier chapters

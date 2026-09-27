@@ -1,0 +1,4 @@
+- sources:
+  - what has already been touched on so far in the conversation about modern China | use as the baseline of what is covered; look for aspects outside it | haven't been touched | referred-to
+- order:
+- about: The user asks the model to identify further relevant aspects of modern China that the conversation has not yet covered.

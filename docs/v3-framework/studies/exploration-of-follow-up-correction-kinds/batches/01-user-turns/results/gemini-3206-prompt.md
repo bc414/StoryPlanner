@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model assumed the comparison point was Copilot's inline ghost-text suggestions (cursor, brick, inline diff) when the user meant Copilot's chat side panel for asking questions and generating code | "I am referring to GitHub copilot's chat window, not the ghost suggestions" | stated flatly as a clarification, followed by a request to redo the analysis with the right framing
+- about: The user clarifies that their Copilot baseline is the chat side panel rather than inline suggestions and asks for the Claude Code comparison to be redone in that frame.

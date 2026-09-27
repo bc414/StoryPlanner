@@ -1,0 +1,18 @@
+- relations:
+  - 2285|2298|revises and overturns: the mythic noble-exile founding story is recast as a skin over a materialist origin|"not noble houses awaiting a goddess but expelled traders plus expelled gun-raiders"; "Great Legions mythology tells a story about noble exile and faithful waiting"|explicit
+  - 2284|2298|contradiction of origin: the Legions hierarchy comes from thestrals expelled for using guns, not from houses fleeing a failed uprising|"expelled for using guns" against "fled Equestria after the failed uprising rather than face trial"|implicit
+  - 2284|2285|instance of the general claim: the gun-expulsion wave is the gun-raider half of the combined community|"expelled for using guns"; "expelled gun-raiders building mutual protection"|implicit
+  - 2289|2285|cause and occasion: thestrals leaving after breaking the Conclave's sustainability rules are the expelled traders|"violating the Conclave's sustainability rules due to global trade incentives"; "expelled traders"|implicit
+  - 2289|2284|continues in time: earlier trickles of thestrals leaving are followed by a second wave that arrives|"Several trickles of thestrals who left"; "The second wave of thestrals arrive"|implicit
+  - 2299|2285|purpose of the mythology: the note on the mythic skin and the note on its intimidation aim join on the drug operation|"meant to inimidate Skyfall opportunists"; "mythic skin over the materialist history"|implicit
+  - 2299|2298|revises what the myth is for: the identity the canon note treats as devout faith is given a deterrent function|"Great Legions of Nightmare Moon" mythology; "institutional identity is entirely derived from this founding story"|implicit
+  - 2231|2285|the ancestral mythology of the Conclave's falseness that motivates the mercenaries is the mythology the other note describes forming|"ancestors passed down mythology of the Conclave's evils and falseness"; "the Conclave corrupted it"|implicit
+  - 2231|2289|later consequence: the descendants of the expelled hire out as mercenaries in the jungle, whose extraction the earlier thestrals left to pursue|"clear cutting operation of the Tzinacatl jungle"; "find jungle that they could extract"|implicit
+- outward:
+  - 2298|the EaW work's version of Chirropterra, and Equestrian canon of Nightmare Moon's uprising, Ayacachtli and the Fallout Enclave|"EaW's Chirropterra"; "the Fallout Enclave transposed to ponies"
+  - 2231|Kriemhild von Krystalfels, Chrysalis, the Conclave and the Tzinacatl jungle, held elsewhere|"Kriemhild von Krystalfels's shell companies"; "Chrysalis wants the rubber"
+  - 2289|the Conclave and its sustainability rules, and the global trade system|"the Conclave's sustainability rules"
+  - 2285|the Conclave, Luna and Celestia's story|"The Conclave worships Luna"; "what Celestia destroyed"
+  - 2299|Skyfall and Zebrican warlords as outside powers|"Skyfall opportunists and Zebrican warlords"
+  - 2284|an earlier first wave of thestrals in Chiropterra|"The second wave of thestrals"
+- whole: The notes hang together as a set: the canon myth, the reader-opinion note and the ontology note argue over what the Legions myth really is, and the history notes give the materialist origin, though 2231 sits on the edge and joins them only through its mythology of the Conclave.

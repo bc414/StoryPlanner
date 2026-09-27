@@ -1,0 +1,14 @@
+- steps:
+  - author | presents plan | draft three-tier education/class system (bauleiter, jaeger, commissar) with donation logic | opening message
+  - author | poses validation question | asks whether jaegers and commissars can be a separate, parallel command structure | opening message
+  - author | requests parallel | asks for a historical analogy to the loyalist/meritocrat split | opening message
+  - author | requests naming | asks for German-sounding names for the commissar/civil-servant class | opening message
+  - author | extends mechanic | adds a dropout rule sending failed jaeger/commissar candidates back into industrial track | opening message
+  - model | offers naming options | four German name candidates with rationale, plus a recommendation | response
+  - model | draws historical parallel | maps the two branches onto SS vs Wehrmacht with specific commander examples | response
+  - model | analyzes economics | contrasts horizontal merit-based donation vs upward fealty-based donation | response
+  - model | validates and extends mechanic | frames the dropout/second-chance system as a totalitarian brain-drain solution | response
+  - model | consolidates | summary table listing class, German name, role, donation model, historical parallel | response
+- kept:
+- brought: The author brought a self-drafted three-tier changeling class/education system (industry, military, civil service) along with specific donation-economics logic and a dropout mechanic, seeking naming help, structural validation, and a historical parallel.
+- loop: The author supplied a structural draft and pointed questions about it, and the model returned naming options, a historical mapping, and structural validation/extension, but none of this exchange was traced into the planning database in this stretch — the elaboration stayed in the conversation rather than being captured as notes.

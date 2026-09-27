@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is weighing whether Cadance and Shining Armor should already know the parloirs before the Crystal Empire's sovereignty or learn of them only after Mali offers help, and sets out the pros and cons of each option.

@@ -1,0 +1,5 @@
+- sources:
+  - Equestrian is English, Aquileian is French (the story world's language setup) | treat as a fixed constraint: candidate names must be strictly French, not English words, because the foreignness is part of the identity | The Equestrian language is English. Aquileian is French. | first-named
+  - The initial suggestion, parloir rooted in parler, and boudoir as another option (earlier in this conversation) | parloir is the choice the user went with so far; boudoir is an alternative that was on the table; both are the baseline for finding more options | Parloir rooted in parler was the initial suggestion I went with. Boudoir was another option. | referred-to
+- order:
+- about: The user rejects the model's suggestion of 'salon' because it is an English word and asks for other strictly French names, including any other words rooted in parler, for the worker clubs.

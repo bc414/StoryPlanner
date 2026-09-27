@@ -1,0 +1,8 @@
+- asks:
+  - correction | asks the model to update its understanding so that parloirs are primarily luxury social clubs, with their main economic purpose being the import of Aquileian goods paid for in gold bits under Coltbert's reforms for King Discret, and intimacy services as only one secondary part of what they offer | "I believe the parloirs should really be luxury social clubs first (their primary economic reason for exciting is importing Aquileian goods and paying in gold bits...)"
+  - addition | asks the model to also incorporate rooms for hookups that don't require a service worker as part of the parloirs | "Plus rooms for hookups that don't require a service worker"
+- supplies:
+  - worldbuilding note | a revised conception of the parloirs' primary economic function (importing Aquileian goods, gold-bit payments under Coltbert's reforms for King Discret) versus their secondary role as venues for intimacy services and no-worker-required hookup rooms | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it names: the message states explicitly what it believes the parloirs should be (luxury social clubs first, a trade/economic engine per Coltbert's reforms, intimacy services secondary, plus non-service hookup rooms) rather than leaving the matter open or asking for options.
+- subject: Clarifying the primary economic and social function of the "parloirs" institution within the story's setting

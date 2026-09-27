@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | the model's example prose passages (the rewritten lines and the April departure sample) don't read like the user's own writing, so they don't carry the author's voice | None of the passages you created as examples resemble anything I see myself writing | stated as a passing observation and a general conclusion about LLMs and prose, with no irritation, then turned into a question about what author voice means
+- about: The user confirms and sharpens the model's reading of the Ignatio section, then asks for a first-principles analysis of the implicit Ignatio–Terry–Helena thread, whether mid-scene POV shifts can be deliberate, and whether voice matters in the planner's non-reader-facing text, while remarking that the model's sample prose doesn't sound like their own.

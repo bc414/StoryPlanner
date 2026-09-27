@@ -1,0 +1,14 @@
+- steps:
+  - author | brings worldbuilding clarification | Chrysalis's true motive is conquering Herzland/Griffonia, Equestria is resource extraction, Statthalter hierarchy traced to hive-war precedent | opening of the prompt message
+  - author | poses strategic question | asks whether denying Trimmel the full army for the Schwerpunkt after the 2nd failed battle still fits Chrysalis's character | middle of the prompt message
+  - author | brings supporting quote | cites Trimmel's line from 'Honor' calling Chrysalis's choice a mistake but noting she rarely errs, as a warning to AJ | end of the prompt message
+  - model | validates the clarification | says the motivation reframing resolves why denying Trimmel is rational | opening of the response
+  - model | analyzes the decision | weighs cost/benefit of granting Trimmel's request against pivoting to Manehattan | early in the response
+  - model | compares two scenarios | lays out two possible timings for the 'Falldale Flip' (after 1st battle vs after 2nd battle) | middle of the response
+  - model | recommends a scenario | argues Scenario 2 (flip after 2nd battle) fits the 'rational tyrant' logic better | middle of the response
+  - model | extends the implications | connects the recommended timing to the cause of Ixodida's death and the shift from Bauleiter to Statthalter policy | later in the response
+  - model | interprets the quoted line | reframes Trimmel's warning as a prophecy about Chrysalis's spreadsheet-logic mistake | near the end of the response
+  - model | delivers a verdict | closes with a summary characterization of Chrysalis as a competent villain who makes one fatal rational error | end of the response
+- kept:
+- brought: The author brought a worldbuilding clarification of Chrysalis's underlying motivations and hierarchy logic along with a specific strategic question about a plot decision and a supporting quote from the draft.
+- loop: The author supplied motivation clarification plus a plot-consistency question and a draft quote, and the model returned a comparative scenario analysis and a recommended verdict, but no note in this stretch shows that analysis being carried into the planning database.

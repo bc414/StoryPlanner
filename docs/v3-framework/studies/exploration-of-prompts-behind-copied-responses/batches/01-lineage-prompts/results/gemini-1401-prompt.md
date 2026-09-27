@@ -1,0 +1,8 @@
+- asks:
+  - theory-share | lays out the user's own reading of why AJ fears the "Lioness of Tall Tale"/Nightmare Moon episode and how Kemerskai's honest story resolves that fear, presenting it for the model to engage with, affirm, or build on | declarative "I believe," "I think," no question posed
+  - theory-share | proposes an added political-historical layer to the same scene: Celestia (and a softer version from Henri) viewing the Griffonian Republic as imperialist conquerors of Vedina in 1002, akin to Chrysalis, contrasted with the present-day economic reality, as part of what Kemerskai's honesty reveals to both AJ and Henri | "another factor can be," "The reality is," "which refutes the image that Celestia had"
+- supplies:
+  - recounted plot summary | condensed account of AJ's arc (the talk with Trimmel in the "Honor" chapter, the Nightmare Moon reveal by Celestia and Luna in "Stagnation", Kemerskai's honest story, the Griffonian Republic's 1002 conquest of the Kingdom of Vedina and its current economic integration) drawn from the user's own story plan | a paragraph
+- shaping:
+- openness: Leans toward an answer it already names: the message states its interpretation as settled belief (\"I believe,\" \"The reality is\") rather than posing a question or offering alternatives to choose from.
+- subject: AJ's psychological arc around being named Nightmare Moon and how Kemerskai's honesty, plus Celestia's and Henri's views on the Griffonian Republic's conquest of Vedina, resolve it

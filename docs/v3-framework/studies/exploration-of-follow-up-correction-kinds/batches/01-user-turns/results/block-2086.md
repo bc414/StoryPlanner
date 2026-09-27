@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the design discussion and asks for a replacement species name because Porygon is a trademarked Pokemon name, which is a new naming request and not a challenge to anything the model said.

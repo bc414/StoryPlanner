@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting coverage of other parts of the pony community beyond Equestria at War, without saying anything in the previous answer was wrong.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short general question about how Gems from Labs differ from AI Studio, naming no material for the model to draw on or avoid.

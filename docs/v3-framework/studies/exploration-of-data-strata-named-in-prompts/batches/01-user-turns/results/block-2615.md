@@ -1,0 +1,6 @@
+- sources:
+  - the reasons above (the earlier analysis in this conversation) | taken as the basis for asking whether Chrysalis's economy can be partly modeled on mainland China, apart from US propaganda; reasoning to build on | independent of US propaganda for the reasons above | referred-to
+  - the version of the story plan | treated as incomplete on changeling lore; not the full account, since a Chrysalis prequel and sequel will expand it | The version of the story plan doesn't have the full expansion of changeling lore | referred-to
+  - the author's own statement of how the Griffonian Republic is built | treat as true and as a correction to the model's earlier framing; the Republic is Taiwan-modeled with the Empire as threat, and is not the final synthesis | modeled after Taiwan with the Griffonian Empire as the existential threat | first-named
+- order:
+- about: The user asks whether Chinese MLP fans engage with the show's values, corrects the model on the Griffonian Republic's role in the story, and asks whether Chrysalis's economy and the changeling POW camp should be modeled mainly on mainland China and Chinese youth, given that the current story plan lacks the full changeling lore.

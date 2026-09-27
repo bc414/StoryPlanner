@@ -1,0 +1,21 @@
+- passages:
+  - note 4118 | declarative aphorism | short present-tense assertive sentences, second generalizing with "It's the X way" | that Fleur and Henri's relationship is casual and culturally normal | apart
+  - note 4119 | authorial planning | first-person "I think ... should mention", proposing speech content | idea that Henri list every family he vandalized in his speech | apart
+  - note 4119 | narrative summary | third-person past-tense statement of plot facts | the repayment tasks Henri did, especially Fleur's parents' harder one | apart
+  - note 4119 | authorial planning | "this will make her proud", commentary on effect on a character | intended effect of the revelation on Fleur | apart
+  - note 4119 | narrative summary | past-tense background clause and plain declarative on character trait | parents' pre-revolution paranoia and Fleur's ambition | apart
+  - note 4131 | narrative summary | third-person present-tense, plain expository sentences | Dennis Discret's request and Fleur/Henri's complementary but clashing skills | apart
+  - note 4132 | narrative summary | third-person present tense describing a recurring mechanic | how Fleur and Henri relieve mutual frustration through a role-play choice | apart
+  - note 4133 | narrative summary | third-person present tense stating a world rule and its stakes, casual "literally" | why Equestrians can't learn of the friends-with-benefits dynamic | apart
+  - note 4134 | strategic-pitch | first-person plural "we", parallel "First ... Then ..." clauses, verb "sell them" | order for presenting ideological ideas to Equestrians | apart
+  - note 4143 | narrative summary | third-person present tense on cover roles and shared motive | Fleur and Henri's stated missions in Tall Tale and their deeper revolutionary purpose | apart
+  - note 4143 | thematic-definition | parenthetical fragments lacking main verbs, abstract listing | definitions of industrial and sexual ambition as revolutionary ideals | run-in
+  - note 4143 | editorial note | direct instruction on reading order, "should be read after" | when this note's content should be read relative to a speech | apart
+- shifts:
+  - note 4119 | authorial planning | narrative summary | shifts from first-person proposal "I think Henri should mention" to third-person past-tense fact "Most of them had..."
+  - note 4119 | narrative summary | authorial planning | "Also, from Fleur's perspective, this will make her proud" returns to commentary on narrative effect
+  - note 4119 | authorial planning | narrative summary | shifts to a historical background clause "Before Coltbert and Gaudreau stabilized Pridea..." setting past-tense backstory
+  - note 4143 | narrative summary | thematic-definition | parenthesis opens with fragment definitions lacking main verbs, e.g. "Industrial ambition to complement special talent..."
+  - note 4143 | thematic-definition | editorial note | "These are spoilers for the story, thus it should be read after..." turns to instruction about reading order
+- registers: declarative aphorism; authorial planning; narrative summary; strategic-pitch; thematic-definition; editorial note
+- whole: Most notes hold a single plain narrative-summary or aphoristic register throughout, but two notes (4119 and 4143) move between planning/effect commentary, narrative fact, abstract thematic listing, and an editorial reading-order instruction, with every shift falling at a sentence break except one that runs on inside a parenthetical.

@@ -1,0 +1,7 @@
+- sources:
+  - the model's bonus enhancement (Conscience and Extraction as adjacent titles) | treat as a suggestion the author is improving on; take the author's own variant instead | I have a better bonus enhancement | referred-to
+  - the plan as it currently stands | the author's working plan, checked for pacing and found to have a gap in action scenes that the new battle should fill | a significant gap in action scenes as the plan currently stands | referred-to
+  - chapter 5 Loyalty (Air Battle over Diyarbecolt) | fixed plan point, the previous battle scene, used to measure the gap before the new battle | The preceding battle scene is in chapter 5 Loyalty | referred-to
+  - chapter 14 Coordination (3rd Battle of Tall Tale), currently numbered | fixed plan point, the next battle scene, used to measure the gap after the new battle | the following battle scene is in what is currently chapter 14 Coordination | referred-to
+- order:
+- about: The author proposes renaming the slimmed chapter 9 to Extraction and opening the new Conscience chapter with a mansion-storming battle to fill a gap in action pacing between two existing battles, and asks how a battle fits under that title.

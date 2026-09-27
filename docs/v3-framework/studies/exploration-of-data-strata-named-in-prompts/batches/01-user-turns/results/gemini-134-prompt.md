@@ -1,0 +1,6 @@
+- sources:
+  - chapter 1 (Applejack down in the dumps, ready to throw her life away at a machine gun) | treat as established story fact and the starting point of her arc, against which the 'us' line is to be judged | she was down in the dumps in chapter 1 | referred-to
+  - chapters 2 and 3 (she decides to suck it up and take up responsibility again) | treat as established story fact, the turning point in her arc | in chapter 2 and 3 she decided to suck it up | referred-to
+  - chapters 5-10 (learning Trimmel's tactics, governing Rockfeller, uplifting the Temberik) | treat as established story fact showing her growth into general and governor, used to support the reading | she spent chapters 5-10 learning how to actually be a general | referred-to
+- order:
+- about: The author corrects the model's reading of the "us" line, explaining it as Celestia picking Applejack as general only for being an Element Bearer, lays out her arc across chapters 1-10 to show her resentment only arises at the white peace, and asks whether this makes sense and supports the themes.

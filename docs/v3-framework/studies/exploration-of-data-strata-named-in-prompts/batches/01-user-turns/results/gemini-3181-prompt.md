@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question comparing Gemini and DeepSeek on the provider's computation cost, as a stand-in for how soon they would be throttled, without pointing the model at any body of material to use or avoid.

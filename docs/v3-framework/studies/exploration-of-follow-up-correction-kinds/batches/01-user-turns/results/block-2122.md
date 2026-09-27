@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of the Celestia/Grover III relationship as one-directional, with Celestia as the source model who told him what to do and he executed it in griffon dress. The user rejects making that world truth, since Grover III has his own rational, enlightened logic and the two are peers. | I don't think I should assert as world truth that Celestia taught Grover III what to do. He clearly has his own rational and enlightened logic to him. They are peers. | Stated as the user's own judgment with a reason, hedged as 'I don't think I should', while accepting the Bond recommendation and setting up a new analysis request.
+- about: The user accepts the Bond recommendation, pushes back on the model's teacher-to-student framing of Celestia and Grover III, and asks for a new analysis of the Bond's causal chain built from each figure's pre-meeting worldview and how it changes.

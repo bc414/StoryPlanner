@@ -1,0 +1,6 @@
+- sources:
+  - The google takeout download | the export the user is checking; it holds only 3 months of watch history, and the user asks whether that reflects the whole record or a wrong range choice, so its completeness is in doubt | The google takeout download only has 3 months of watch history | referred-to
+  - All previous watch data / earlier history | status unknown; the user asks the model whether it is lost or still retained somewhere and merely missed by the export | Is all previous data lost or is it retained | referred-to
+  - YouTube's own retained record of what was watched (how YouTube knows I watched something already) | offered as a hint that YouTube keeps everything, and put to the model as a possibility to confirm or refute | Is everything kept, which is how youtube knows I watched something already | referred-to
+- order:
+- about: The user reports that their Google Takeout export holds only three months of watch history and asks the model whether the older data is lost, retained but missed through a wrong range selection, or kept by YouTube as its own record.

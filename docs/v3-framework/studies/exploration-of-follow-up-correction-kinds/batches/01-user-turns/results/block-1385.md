@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Oh Soo-ah breakdown and asks new questions about Itaewon Class: the prison mobster plot, the book Saeroyi read, and the arcs of his first two employees, without questioning or disputing anything in the model's answer.

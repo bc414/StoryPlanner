@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers their own idea that most of the mercenaries are cowardly poseurs who surrender at once, worries that would make the raid too comic for the thesis, and asks whether a minority of true-believer Chrysalis lackeys should be added.

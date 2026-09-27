@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of prequels and asks follow-up questions about what makes the main story and Applejack's starting point distinctive, offering a tentative events-versus-themes contrast without disputing anything the model said.

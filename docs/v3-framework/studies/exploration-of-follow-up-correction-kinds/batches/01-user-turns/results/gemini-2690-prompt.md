@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - real-world claim, incomplete framing | The model's statement that worker labor is extracted for corporate shareholders, which the user reads as treating shareholders as only the ultra rich and leaving out that ordinary employees own stock through retirement accounts and investments | "But another reality is that most employees are also bought in broadly" | mild pushback put as a tag question, conceding the model's point first ("mostly the ultra rich") and then adding the missing side
+- about: The user picks up one line from the model's real-world Lean In discussion and asks the model to confirm that ordinary workers also hold shareholder stakes through 401ks and the stock market, which complicates the model's picture of who benefits.

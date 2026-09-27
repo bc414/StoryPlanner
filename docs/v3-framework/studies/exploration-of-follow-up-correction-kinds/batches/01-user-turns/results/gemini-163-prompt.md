@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the drafted Chapter 8 scene by asking to expand it with a Rainbow Dash rant about Celestia and Luna and offering two options for Twilight's turn (agreeing and revealing Celestia's plea, or realizing she was used like Discord), without disputing anything the model wrote.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates their working logic for Chrysalis's arms economy (rifles profitable for feudal conquest and Zebrica export, tanks and planes confined to R&D until the Second Great Leap Forward retools factories) and asks where artillery fits.

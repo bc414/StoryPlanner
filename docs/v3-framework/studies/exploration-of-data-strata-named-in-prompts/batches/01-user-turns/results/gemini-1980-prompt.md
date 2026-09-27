@@ -1,0 +1,6 @@
+- sources:
+  - this setup (the universal-input, specific-output translator crystal and artisan-forging arrangement just discussed) | treat as the established premise and reason from it to explain the Skyfall valve supply | This setup perfectly explains why | referred-to
+  - my story plans | re-read them before answering and use them as the basis for the synthesis | Please review my story plans again and then synthesize a response | referred-to
+  - real world analog (real-world exploitation models such as golden cage or company towns) | draw on real-world economic and labor history to find the equivalent model; the named examples are tentative guesses put as questions | What is the equivalent real world analog of this exploitation model? It's like a golden cage? Company towns? | first-named
+- order:
+- about: The user extends the previous turn's translator-artisan setup to explain why Skyfall's skilled-artisan company supplies the three-way valves, asks for a real-world analog of that labor model and how the CEO keeps artisans from founding rival firms, and tells the model to re-read the story plans before synthesizing.

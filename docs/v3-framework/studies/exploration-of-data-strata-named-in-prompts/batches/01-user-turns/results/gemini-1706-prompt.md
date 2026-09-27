@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user briefly asks the model to offer more examples of real-world industrial processes beyond the four it just listed, without pointing at any body of material.

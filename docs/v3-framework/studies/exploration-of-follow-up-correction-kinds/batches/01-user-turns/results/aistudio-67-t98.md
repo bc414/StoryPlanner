@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a follow-up design question about Celestia's reply letter, proposing a short wording and a choice to omit titles, and asks whether that is enough to imply agreement, without disputing anything the model said.

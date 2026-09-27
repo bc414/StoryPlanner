@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of Comet Shine's projected dominance by proposing it is aimed at Applejack, tying it to her parents and her rank as General, adds a Fleur line for the scene, and says they like the contrast between his max ego and the SAA's zero ego.

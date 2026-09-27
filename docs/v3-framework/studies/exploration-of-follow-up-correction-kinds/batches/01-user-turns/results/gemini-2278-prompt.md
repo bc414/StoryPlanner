@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story analysis and asks a short factual question about how fighter planes aim and what ammunition they carry, without stating that anything in the model's reply was wrong.

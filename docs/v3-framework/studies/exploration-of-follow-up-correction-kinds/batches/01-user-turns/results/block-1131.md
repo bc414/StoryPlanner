@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of Little Strongheart and the animal guerrilla network and asks whether it implies buffalo magic includes animal communication and coordination beyond earth-pony stomping rituals, contrasting the prairie's ecology with Equestria's weather-managed one.

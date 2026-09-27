@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model premised its bomb-laundering scheme on Celestia watching the military budget and needing to be deceived through disguised supply chains; the user says she has no oversight and simply thinks the Wonderbolts are still performers | Celestia has no oversight. She thinks the Wonderbolts are still aerial performers. | flat statement of the correct premise, no apology, given as a plain restatement
+  - fact of the world | The model had the Wonderbolts sourcing explosives through civilian fertilizer and rock-farm channels; the user supplies the world's own method, that pegasi make TNT via their thunderstorm magic as a natural Haber-Bosch process | The Wonderbolts can make TNT with their pegasi magic making thunderstorms since it is a natural haber Bosch process | flat assertion of a world mechanism, stated in passing before moving on to the next question
+- about: The user briefly sets the model's premises straight (Celestia is blind rather than watching; TNT comes from pegasi storm magic) and then moves on to ask how many bombs a Stuka historically carried.

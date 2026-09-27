@@ -1,0 +1,21 @@
+- steps:
+  - the author | open-ended request | asks for further points of originality in the plan | opening prompt of the thread
+  - the model | ranked list | produces ten numbered story elements each framed as an innovation with a rationale for why it works | first response
+  - the author | repeat request | asks for the next set with almost no added framing | second prompt
+  - the model | ranked list | produces the next ten numbered elements continuing the same innovation/rationale format | second response
+  - the author | repeat request | asks again for what comes next | third prompt
+  - the model | ranked list | produces a third batch of ten numbered elements in the same format | third response
+  - the author | repeat request | asks once more for what is next | fourth prompt
+  - the model | ranked list, closing | produces a final batch of ten numbered elements, framed as the closing tier of innovations | fourth response
+  - the author | document drop | attaches the full plan export with no instructions beyond the attachment | fifth prompt
+  - the model | close reading | analyses one specific scene (an insult exchanged between two characters) across several thematic angles and a summary verdict | fifth response
+- kept:
+  - note 1942 | pasted whole from this reply | keeps the point about the literal vs assumed meaning of the insult word, filed on the plot point for that exchange
+  - note 1943 | pasted whole from this reply | keeps the reframing of one character's exhaustion as arrogance rather than devotion, filed on the same plot point
+  - note 1944 | pasted whole from this reply | keeps the shield-versus-weapon contrast tied to two named in-world motivations, filed on the same plot point
+  - note 1945 | pasted whole from this reply | keeps the point that the insult aligns the character with an enemy archetype and breaks her self-image, filed on the same plot point
+  - note 2442 | pasted whole from this reply | keeps the point about the leader's use of a harsh truth as proof of a leadership transition, filed on a link between a war-council scene and a character
+  - note 3357 | pasted whole from this reply | keeps the closing verdict diagnosing the confrontation as forcing a shift from one archetype to another, filed on a link between the plot point and a named thematic paper
+  - note 3500 | pasted whole from this reply | keeps the framing of the accusation as exposing a top-down versus bottom-up mindset, filed on a link between the war-council scene and that thematic contrast
+- brought: The author brought a full export of the planning document itself, dropped in without commentary, after four rounds of asking the model to keep generating originality points on its own.
+- loop: The author's bare, repeated asks for 'what's next' pulled long self-generated lists of originality points from the model, none of which left any trace in the plan; only once the author fed in the actual plan text did the model's resulting scene-level analysis get harvested, cut into separate paragraphs and pasted whole across one plot point and three cross-links.

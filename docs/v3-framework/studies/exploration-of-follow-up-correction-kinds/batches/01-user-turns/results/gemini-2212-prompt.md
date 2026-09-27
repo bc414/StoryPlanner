@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, real-world question about whether American WASP groups parallel ISIS, moving off the model's worldbuilding suggestions without disputing anything in them.

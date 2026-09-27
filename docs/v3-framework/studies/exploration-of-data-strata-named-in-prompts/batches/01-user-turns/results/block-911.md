@@ -1,0 +1,5 @@
+- sources:
+  - the Javits Center | weight: offered as the reference point the model should use to gauge scale and realism when sizing the facility | marked by: "I imagine the Tall Tale Exposition Center is like the Javits Center" | new: first-named
+  - other large event complex(es) / other examples | weight: model is asked to supply further comparable real-world venues to use alongside the Javits Center as reference points | marked by: "or any other large event complex (please provide other examples)" | new: first-named
+- order:
+- about: The user asks the model to treat real-world convention/exposition centers like the Javits Center (plus additional examples it should supply) as the basis for realistically estimating how many creatures the fictional Tall Tale Exposition Center could hold.

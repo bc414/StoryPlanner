@@ -1,0 +1,4 @@
+- sources:
+  - the author's own clarification of Trimmel's arc, given from memory (rejection by Synovial already told in the first meeting, no interest in rules of war until Kemerskai's fear, Trimmel staying in Cloudbury, Applejack's recognition of the two ways to win) | treat as settled story fact that corrects the earlier breakdown, and build the answer on it | Some clarification | first-named
+- order:
+- about: The author corrects the earlier breakdown of Trimmel's reveals with settled plot facts from their own plan, then asks when he discloses the full Jaeger versus Statthalter split and how Applejack should recognize the army-first versus home-front-first theories of winning.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model split the dignity material into two standalone propositions (truth without dignity, and guaranteed dignity under individualism); the user says there is one proposition about unconditional dignity and both are evidence for it | I believe the proposition has to do with unconditional dignity. The truth is not enough... and individualism has limits... are evidence of the proposition | stated flatly as the user's own belief, redirecting the structure without argument or apology
+  - register or format | The model's wording of the proposition was too particular and loaded (humanist framing, tied to the Weimar and story examples) and needs neutral, universal phrasing | Please word the proposition more neutrally and universally | brief polite instruction, given as a request for rewording
+- about: The user collapses the model's two proposed new propositions into one proposition about unconditional dignity, with the earlier two demoted to evidence, and asks for it to be reworded neutrally and universally.

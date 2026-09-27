@@ -1,0 +1,4 @@
+- sources:
+  - thymoluminescent, as used for the Idol of Boreas and the tableau de chasse ink | the author's existing coined term, to be used as the naming pattern (prefix for the emotion, suffix for the effect) for a parallel new term for the Wings of Dew | I used "thymoluminescent" as the term for the Idol of Boreas and the ink | referred-to
+- order:
+- about: The user clarifies the wings' pink-love coolant mechanism with an oxytocin analogy, then asks the model to propose several coined scientific terms for the Wings of Dew effect that parallel their existing "thymoluminescent" term, with a Grace-related prefix and a flight or stabilization suffix, each with a reason.

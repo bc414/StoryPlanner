@@ -1,0 +1,108 @@
+- passages:
+  - note 57 | thematic-analytic | general claim, no dated event | overall shape of Chrysalis's revealed motivations | apart
+  - note 4288 | telegraphic-fragment | subjectless fragment | her birth date | apart
+  - note 4288 | narrative-report | full sentence, past tense | her undisclosed native name | apart
+  - note 4288 | telegraphic-fragment | subject/verb-less fragment | her jaeger training years | apart
+  - note 4289 | narrative-report | historical-present tense, dated events | mother's death, ascension, war, alliance, fighting at 16 | apart
+  - note 4289 | free-indirect | verb "realizes" | her wish not to rule forever | apart
+  - note 4289 | narrative-report | historical-present, causal clause | alliance with Ditrysium breaking down | apart
+  - note 4289 | free-indirect | verb "thinks," word "idiot" | her verdict on her mother and resolve to differ | apart
+  - note 4290 | narrative-report | dated departure, delegation | trip to Acornage, leaving Synovial in charge | apart
+  - note 4290 | evaluative-aside | parenthetical "unprecedented" | unusualness of a Queen leaving | run-in
+  - note 4290 | narrative-report | continues plain recounting | her stated goal of learning Equestrian | apart
+  - note 4290 | free-indirect | scare-quoted "runts," "self-made ponies," "harmonic indoctrination pipeline" | Silver Sterling and Gilded Lily's motives as she perceives them | apart
+  - note 4290 | thematic-analytic | metaphor, generalizing statement | Equestria/Acornage as walled garden and hole in the wall | apart
+  - note 4290 | free-indirect | verbs "doesn't like," "decides," "cannot accept," "views," scare-quoted "pity," "hiding themselves" | her judgment that harmony demands undignified assimilation | apart
+  - note 4290 | evaluative-aside | parenthetical contrast | noting changelings are actually happy despite her view | run-in
+  - note 4290 | free-indirect | judgmental adjectives "infantilizing," "stiffling" | her view of pony names and cutie marks | apart
+  - note 4290 | rhetorical-question | interrogative sentence | what happens without a cutie mark | apart
+  - note 4290 | verdict-summary | passive, subjectless close | dismissal of Equestria as a failure | apart
+  - note 4292 | narrative-report | cause and resulting decision | peers' scorn for changelings and her resolve to civilize them | apart
+  - note 4293 | narrative-report | full sentence | her years studying at Griffenheim | apart
+  - note 4293 | telegraphic-fragment | comma list, no verb | list of subjects studied | apart
+  - note 4295 | narrative-report | dated political events and her takeaway | Verany's uprising, Coltbert's paper, her resulting insight | apart
+  - note 4296 | narrative-report | dated event with clarifying parenthetical | her reveal to Eagleclaw and the counterrevolution | apart
+  - note 4297 | narrative-report | dated invention account | inventing the love harvester and her innovation | apart
+  - note 4297 | evaluative-aside | parenthetical "soon to be" | foreshadowed importance for magical engineering | run-in
+  - note 4297 | narrative-report | plain declarative | her actual use of red love on soldiers and addicts | apart
+  - note 4298 | narrative-report | dated account of industrial buildup | the Great Leap Forward and treatment of nobility | apart
+  - note 4298 | rhetorical-question | parenthetical ending in a question | justifying harvesting petty nobles as batteries | run-in
+  - note 4298 | narrative-report | plain declarative | jaegers becoming commanders | apart
+  - note 4299 | narrative-report | short dated statement | Tall Tale industrialists bought out | apart
+  - note 4300 | narrative-report | dated account | conquest of Vraks and treatment of its drones/nobility | apart
+  - note 4301 | narrative-report | dated account | drone self-sufficiency and VOPS industrializing Severyana | apart
+  - note 4301 | self-query | parenthetical ending in "?" | uncertainty over Vaspier as example loyalist | run-in
+  - note 4301 | telegraphic-fragment | comma list of place names | cities contacted across Equestria | apart
+  - note 4301 | narrative-report | full sentence resumes | VOPS disguises spreading capitalism | apart
+  - note 4302 | narrative-report | short dated statement | hives unified and industrialized | apart
+  - note 4303 | narrative-report | dated account | VOPS inciting Winter Revolution, Stalliongrad's break | apart
+  - note 4304 | narrative-report | dated account | level 2 VOPS counterrevolution attempt | apart
+  - note 4304 | exclamatory-emphatic | exclamation point | emphasis on the attempt's failure | run-in
+  - note 4304 | narrative-report | plain declarative | fate of the boyars | apart
+  - note 4305 | narrative-report | dated account | flooding black market with red love, jungle deal | apart
+  - note 4306 | narrative-report | dated account | failed attempt at crystal mines | apart
+  - note 4307 | narrative-report | dated account | call on Celestia's passivity, Wedding infiltration and plan | apart
+  - note 4307 | explanatory-rationale | dash-introduced justification | love tax as practical route to invading Griffonia | run-in
+  - note 4307 | narrative-report | plain declarative | ponies left to their simple ways | apart
+  - note 4307 | explanatory-rationale | "This is why," dash clause | reason for using no guns | apart
+  - note 4307 | narrative-report | "However," resumes plain account | Cadance's counterattack and shift to military invasion | apart
+  - note 4308 | narrative-report | dated account | return of the Crystal City under Cadance | apart
+  - note 4308 | thematic-analytic | generalizing clause | crystal ponies' exemption from harmony's stagnation | apart
+  - note 4308 | narrative-report | plain account | defending home, 2nd Great Leap Forward, Trimmel's promotion | apart
+  - note 4309 | narrative-report | dated account | Grover V's death, civil war, backing Eros | apart
+  - note 4309 | free-indirect | scare-quoted "bestie" | her informal bond with Eagleclaw | run-in
+  - note 4309 | narrative-report | causal clause continues same sentence | her reasoning for backing Eros and his own wishes | run-in
+  - note 4310 | narrative-report | dated account | harmonists rounded up, Thorax mentors Flurry Heart | apart
+  - note 4311 | narrative-report | dated account | invasion of Olenia, love tax, reward for past work | apart
+  - note 4312 | narrative-report | dated account | assassination of Teafeather, backing Highhill | apart
+  - note 4312 | narratorial-evaluation | past tense "underestimated" | judgment of her misjudging Stalliongrad | apart
+  - note 4312 | narrative-report | semicolon continuation | Wheatin's intervention and defeat of Highhill | run-in
+  - note 4312 | narrative-report | parenthetical label "(puppet)" | Nova Griffonia becoming a puppet state | apart
+  - note 4313 | narrative-report | short dated account | start of the Great War, sack of Acornage, Vanhoover encirclement | apart
+  - note 4316 | narrative-report | dated account | study of Griffonia's post-revolution regimes | apart
+  - note 4316 | evaluative-aside | parenthetical | flagging the harvester's strategic importance | run-in
+  - note 4316 | narrative-report | continues same sentence, parallel clauses | what she borrows from each regime | run-in
+  - note 4438 | telegraphic-fragment | heading plus comma list | list of Chrysalis's actions that backfired | apart
+  - note 4442 | directive | imperative "Don't..." | instruction not to have Chrysalis meddle in Aquileia | apart
+  - note 4442 | thematic-analytic | declarative theme statement | Aquileia as self-deterministic microcosm and diversity theme | apart
+- shifts:
+  - note 4288 | telegraphic-fragment | narrative-report | complete sentence appears after a subjectless fragment
+  - note 4288 | narrative-report | telegraphic-fragment | drops back to a subject/verb-less fragment
+  - note 4289 | narrative-report | free-indirect | verb turns from action to realization ("she realizes")
+  - note 4289 | free-indirect | narrative-report | returns to recounting the alliance's breakdown
+  - note 4289 | narrative-report | free-indirect | verb "thinks" and word "idiot" mark return to her viewpoint
+  - note 4290 | narrative-report | evaluative-aside | parenthetical steps outside to flag unusualness
+  - note 4290 | evaluative-aside | narrative-report | resumes plain recounting of her goal
+  - note 4290 | narrative-report | free-indirect | scare-quoted terms begin reflecting perceived idiom
+  - note 4290 | free-indirect | thematic-analytic | drops character verbs for a generalizing metaphor
+  - note 4290 | thematic-analytic | free-indirect | returns to verbs of judgment ("doesn't like," "decides")
+  - note 4290 | free-indirect | evaluative-aside | parenthetical notes a contradiction
+  - note 4290 | evaluative-aside | free-indirect | resumes judgmental adjectives
+  - note 4290 | free-indirect | rhetorical-question | shifts to interrogative sentence form
+  - note 4290 | rhetorical-question | verdict-summary | shifts to passive, subjectless closing statement
+  - note 4293 | narrative-report | telegraphic-fragment | drops to a bare comma list without a verb
+  - note 4297 | narrative-report | evaluative-aside | parenthetical foreshadowing phrase "soon to be"
+  - note 4297 | evaluative-aside | narrative-report | returns to plain declarative
+  - note 4298 | narrative-report | rhetorical-question | parenthetical aside ends in a direct question
+  - note 4298 | rhetorical-question | narrative-report | resumes plain declarative after the parenthesis
+  - note 4301 | narrative-report | self-query | parenthetical ends in a literal question mark
+  - note 4301 | self-query | narrative-report | resumes recounting after the parenthesis
+  - note 4301 | narrative-report | telegraphic-fragment | drops to a bare list of city names
+  - note 4301 | telegraphic-fragment | narrative-report | resumes a full sentence on a new line
+  - note 4304 | narrative-report | exclamatory-emphatic | exclamation point breaks the flat report tone
+  - note 4304 | exclamatory-emphatic | narrative-report | new sentence resumes flat report
+  - note 4307 | narrative-report | explanatory-rationale | dash introduces a justifying clause
+  - note 4307 | explanatory-rationale | narrative-report | plain narration resumes in the next sentence
+  - note 4307 | narrative-report | explanatory-rationale | "This is why" opens an explicit cause-statement
+  - note 4307 | explanatory-rationale | narrative-report | "However" marks return to plain narration
+  - note 4308 | narrative-report | thematic-analytic | drops to a generalizing claim about "stagnation of harmony"
+  - note 4308 | thematic-analytic | narrative-report | returns to recounting specific actions
+  - note 4309 | narrative-report | free-indirect | scare-quoted colloquial term "bestie" breaks the neutral report
+  - note 4309 | free-indirect | narrative-report | sentence continues directly into a causal clause with no break
+  - note 4312 | narrative-report | narratorial-evaluation | "However" plus past-tense judgmental verb "underestimated"
+  - note 4312 | narratorial-evaluation | narrative-report | semicolon resumes plain recounting within the same sentence
+  - note 4316 | narrative-report | evaluative-aside | parenthetical flags the harvester's strategic importance
+  - note 4316 | evaluative-aside | narrative-report | comma resumes the sentence's main clause
+  - note 4442 | directive | thematic-analytic | moves from imperative instruction to a declarative statement of theme
+- registers: narrative-report; telegraphic-fragment; free-indirect; rhetorical-question; thematic-analytic; evaluative-aside; explanatory-rationale; self-query; narratorial-evaluation; exclamatory-emphatic; directive; verdict-summary
+- whole: This item's notes hold several registers — mostly a terse dated narrative-report, but repeatedly broken by free-indirect passages voicing Chrysalis's own judgments, parenthetical evaluative or self-query asides, rhetorical questions, generalizing thematic statements, a bare directive, and stray telegraphic fragments — and while most of these stand apart at a sentence break, several (parentheticals, a dash-justification, a scare-quoted word) run straight into the surrounding sentence with no break at all.

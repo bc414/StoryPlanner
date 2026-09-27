@@ -1,0 +1,7 @@
+- sources:
+  - reader opinion plan (outlining how the reader's understanding updates, starting with tropes or preexisting material) | candidate to compare against the proposed Source Evidence track; the author asks whether it already covers this, so it is neither confirmed nor ruled out | "Is there overlap with the reader opinion plan" | referred-to
+  - reader prior belief clash | offered as the closest existing mechanism to the new idea; the author asks whether the new idea is a version of it applied to the show | "similar to the reader prior belief clash" | referred-to
+  - the canon show | existing, fixed material that the author's worldbuilding recontextualizes; a rewatch after reading the story might be seen differently | "if they watch the canon show again" | referred-to
+  - hasbro mandates | fixed constraints that the worldbuilding must work within and reinterpret rather than change | "works within the constraints of the hasbro mandates" | referred-to
+- order:
+- about: The user asks whether the proposed Source Evidence track duplicates their reader-opinion and prior-belief-clash planning, or captures something different: how their worldbuilding changes a reader's reading of the existing canon show, given the constraints they work within.

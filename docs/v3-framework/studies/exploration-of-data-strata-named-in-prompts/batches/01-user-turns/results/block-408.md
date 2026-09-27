@@ -1,0 +1,6 @@
+- sources:
+  - Chapter 12 from the story plan | the model is to review it and base its analysis on it | "review Chapter 12 from the story plan" | referred-to
+  - earlier details about Rainbow's development | to be synthesized with the Chapter 12 analysis | "synthesizing with the earlier details about Rainbow's development" | referred-to
+  - the TLTT interpretation | background fact the author supplies as a note: within it the Daring Do stories are written by Twilight's mom | "the daring do stories are written by Twilight's mom in the TLTT interpretation" | referred-to
+- order:
+- about: The user lays out how Rainbow Dash's Kinship arc should deepen through Ahuizotl's testimony and Mali's mentorship, and asks the model to review Chapter 12 of the story plan and analyze it together with Rainbow's earlier development.

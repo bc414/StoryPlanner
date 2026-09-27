@@ -1,0 +1,11 @@
+- asks:
+  - propose | invites the model to consider reframing cutie-mark magic "discounts" from a hard biological rule into a belief-driven placebo effect, as the true hidden ontology of the world | "What if cutie mark discounts on magic are not a hard rule but a placebo effect in reality?"
+  - brainstorm | shares and invites reaction to an in-story mechanism (crystal-enhancer logistics, red love supply audits) meant to reveal that a pony's actual magical efficiency tracks self-belief rather than their cutie mark | "To demonstrate this within the story, I'm thinking the unicorns that Twilight trains as mages need crystal enhancers..."
+  - check | presents the earth-pony/terroir case as already-established proof of the belief-based mechanic and extends the same logic to unicorns and pegasi, implicitly inviting confirmation that the extension holds | "This is already documented in Fleur's own research for earth ponies... So Twilight says the same principle applies to unicorns and pegasi."
+- supplies:
+  - attachment | an attached document, unspecified content, never captured, referenced alongside the pitch | whole document, contents unknown
+  - theory exposition | a full causal reworking of cutie-mark lore: true species-wide magical capability, the folkloric/political reasons Equestria (and later Coltbert and Fleur Bloom) inverted the causality into "destiny" and "comparative advantage," and Twilight's eventual debunking of Fleur's claim about her own cutie mark | several paragraphs
+  - character/plot detail | worked examples meant to illustrate the theory: Tally Mark's combat-spell efficiency despite a logistics cutie mark, pre-war weather pegasi becoming Wonderbolts pilots, and Fleur's grape-terroir earth-pony research | a few paragraphs
+- shaping:
+- openness: Leans toward an answer it names: the message lays out the reframed cutie-mark ontology, its in-world political origin, and the debunking twist as settled points for the world bible, and treats the demonstration mechanics and cross-species extension as already worked out rather than posing an open question.
+- subject: The true nature of cutie marks versus pony magic — a hidden ontology (belief drives magical ability, cutie marks are cultural myth) to be revealed by Twilight at the story's end

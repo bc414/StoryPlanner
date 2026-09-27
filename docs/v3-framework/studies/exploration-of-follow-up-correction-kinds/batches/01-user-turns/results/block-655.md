@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a second sample of their own entities and asks the model to map examples onto the taxonomy, say which categories have none, and flag any text that fits no category, which is a new task and not a correction.

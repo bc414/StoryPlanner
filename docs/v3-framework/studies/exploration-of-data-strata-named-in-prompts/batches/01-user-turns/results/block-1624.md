@@ -1,0 +1,5 @@
+- sources:
+  - old note 974 on Minette (the tangled paragraph about Coltbert, Gisele and the tableau de chasse) | material to be split apart: scene-specific content is pulled out of it; it is only partly history for Minette, and the line about manners as a weapon belongs to Coltbert, not Minette | This old note on Minette is partly history for her | first-named
+  - the author's own felt sense of the subtext | provisional, unwritten intuition: the manners line implies a WI and a T that the author has not yet written out but eventually should | I can feel it in the subtext | first-named
+- order:
+- about: The user explains, using a concrete old note as an example, that scene-specific content is tangled inside v1 paragraphs and that one line is really a Coltbert insight tied to a dramatization in Minette's prequel, so they conclude they need to create plot points for that prequel so the insight can be categorized.

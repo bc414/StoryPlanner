@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's Nightmare Moon and Tzinacatl history, raises it from one more application to the central proof of the capitalism-for-good and Aquileian model, and notes that the previous chapter's Comet Shine and buffalo scene sets it up.

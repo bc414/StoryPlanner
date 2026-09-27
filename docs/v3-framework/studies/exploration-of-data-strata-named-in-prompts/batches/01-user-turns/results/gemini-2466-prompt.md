@@ -1,0 +1,7 @@
+- sources:
+  - the model's preceding analysis of the Mount Aris shield and the drift between Applejack and Twilight | accepted as the working basis, with the Applejack-as-helpless and Twilight-must-fix reading kept, though one point is corrected | This is good, I like the idea | referred-to
+  - the author's clarification about Applejack in chapter 4 | treat as a correction: AJ believes she is empowered there, as a figurehead general whose only worth is firing the machine gun | but with one clarification, AJ does believe she is empowered in chapter 4 | first-named
+  - my refined definition of poseur | use as the definition Henri delivers in chapter 2, someone who claims strength or status without the asset specificity to back it, meant for warlords, tycoons and grifters | Henri in chapter 2 dropping my refined definition of poseur | first-named
+- order:
+  - the author's clarification about Applejack in chapter 4 | the previous analysis's account of AJ in chapter 4 | but with one clarification, AJ does believe she is empowered in chapter 4
+- about: The author endorses the previous analysis of the Mount Aris drift, adds two possible causes for Applejack's shame, corrects her chapter 4 mindset to believing she is empowered as a figurehead general whose worth is the machine gun, and ties this to Henri giving the author's definition of poseur in chapter 2.

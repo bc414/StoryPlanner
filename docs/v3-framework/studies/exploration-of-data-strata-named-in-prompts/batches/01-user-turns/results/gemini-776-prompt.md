@@ -1,0 +1,4 @@
+- sources:
+  - Equestria at War | the model is to draw on this published work/fandom as a reference for how it forms German- and French-style names for Herzlander and Aquileian griffon characters | how does equestria at war make the German and French names | referred-to
+- order:
+- about: The user asks how the published Equestria at War setting builds German-style and French-style names for its Herzlander and Aquileian griffon characters, apparently as a naming reference for their own story.

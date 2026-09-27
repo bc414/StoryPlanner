@@ -1,0 +1,5 @@
+- sources:
+  - Star Spade, as the user describes it (Fleur Bloom's invention concentrating latent magic into a single point, originally for farming) | treat as the given premise and build the crystal explanation on it | I have Fleur Bloom invent the Star Spade which concentrates the wide radius of latent magic into a single point | first-named
+  - the magical nutrition spectrometer's crystal (the Pridea spectrometer from the model's previous answer) | treat as established; compare or link it to the Star Spade crystal, if a link exists | how does it relate to the magical nutrition spectrometer's crystal if any | referred-to
+- order:
+- about: The user gives a new story element, Fleur Bloom's Star Spade, and asks the model to work out how its crystal functions and whether it connects to the spectrometer crystal from the previous answer.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to extend its candidate-by-candidate breakdown to one more figure, Steve Sweeney, whom it left out, without saying the earlier answer was wrong.

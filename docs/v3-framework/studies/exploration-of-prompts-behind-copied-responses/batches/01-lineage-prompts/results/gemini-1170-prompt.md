@@ -1,0 +1,7 @@
+- asks:
+  - compare | asks the model to compare the history of rubber production in South East Asia against German (or other Western) synthetic rubber production | "compare and give overview"
+  - explain | asks for a historical overview of both rubber production traditions | "history of rubber production"
+- supplies:
+- shaping:
+- openness: The message leans toward an answer it names by specifying the two things to compare — South East Asian rubber production and German synthetics or other Western alternatives — but leaves the content, scope, and form of the comparison open.
+- subject: history of natural rubber production in South East Asia compared with German/Western synthetic rubber development

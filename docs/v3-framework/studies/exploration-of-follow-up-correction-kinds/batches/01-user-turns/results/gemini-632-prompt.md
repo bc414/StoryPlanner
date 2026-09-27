@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the husk state introduced by the model should be the default condition for non-jaeger drones in the pre-industrial petty-war era, building on the model's proposal without disputing it.

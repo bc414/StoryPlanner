@@ -1,0 +1,4 @@
+- sources:
+  - the story (the full story, which goes to chapter 552) | treat as the true extent of the material; the earlier summary that stopped around chapter 126 is incomplete and should be corrected to cover the whole story | The story actually goes all the way to chapter 552, not ending at 126 | referred-to
+- order:
+- about: The user corrects the model's summary by saying the story it summarized runs to chapter 552, not stopping at chapter 126.

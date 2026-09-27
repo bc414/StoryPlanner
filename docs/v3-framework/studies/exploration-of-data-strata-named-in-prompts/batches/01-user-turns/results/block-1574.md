@@ -1,0 +1,7 @@
+- sources:
+  - v1 "griffon magic" scene (placeholder) | treat as a placeholder for a future character-driven plan, not as real scene content | "was a placeholder for a plan to uncover griffon magic through a new character" | referred-to
+  - v1 plot point boundaries (where one ended and another began) | descriptive history only: they came from scene breaks, time skips, character changes or shifts in vibe with no method, so they give no method to follow | "There was no method to this" | referred-to
+  - the rigorous first-principles derivation for subjects and plotpointsubjectlink | held up as the precedent for how the plot point method should now be derived | "as was done rigorously for subjects and plotpointsubjectlink" | referred-to
+  - the early era when the planner was just chapters and threads meeting at one-sentence summaries | the meaning of "originally a single note"; a past stage the planner has outgrown | "The planner grew beyond that era" | referred-to
+- order:
+- about: The user answers the model's clarifying questions from memory: the griffon magic scene was a placeholder, chapters are publishing units, v1 plot point boundaries had no method, and "single note" meant the early one-sentence-summary era. They ask for a plot point method derived from first principles going forward.

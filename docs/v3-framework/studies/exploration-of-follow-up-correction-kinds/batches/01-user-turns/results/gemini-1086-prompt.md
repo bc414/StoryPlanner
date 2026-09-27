@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast the tycoons as passive enablers who only applaud the mayor and need no bribes, and suggested they would have to be made into active blockers; the user says they are collaborators with the enemy | The tycoons are actively collaborators | flat, terse assertion with no reason given
+  - fact of the world | The model treated Celestia as a distant figure whom the Mane 6 would only surpass later, with the mayor standing in for her paralysis; the user says she is physically in Manehattan, having left Canterlot as the front neared, and is herself paralyzed | Celestia is in Manehattan, having left Canterlot because the front was approaching. She is paralyzed | flat statement of the setup, made in passing as a fixed premise
+- about: The user briefly overrides the model's picture of the tycoons and of Celestia's place in the story with two flat statements of the setup, then adds that EEEE briefs Rarity so she can speak to Celestia directly.

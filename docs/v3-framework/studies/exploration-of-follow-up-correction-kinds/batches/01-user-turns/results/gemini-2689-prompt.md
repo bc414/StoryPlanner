@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis and moves on to ask for a thorough overview of Lean In, its related pillars, its critiques and their modern-day relevance, so they know what their story is up against.

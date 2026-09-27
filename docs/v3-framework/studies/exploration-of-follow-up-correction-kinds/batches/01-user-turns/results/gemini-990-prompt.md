@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's account of Luna's retreat as trauma-driven fear of corrupting the soldiers, and of the Vanhoover switch as a cost learned later, is set against what the plan actually holds: Trimmel reveals the switch after the second Tall Tale loss, and the user now wants Luna's order motivated by nightmares from captured ponies | "My current plan says that Trimmel reveals after losing the 2nd battle" | mild and indirect, restating the plan as a reminder, then offering a revised justification with "perhaps" instead of saying the model was wrong
+- about: The user restates what their plan says about the Vanhoover switch, proposes a different motive for Luna's retreat order (nightmares from punished captives), and asks how to structure it, adding a Chapter 7 detail about Luna's nightmares.

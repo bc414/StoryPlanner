@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question requesting practical, step-by-step instructions for using the Gemini API, without indicating anything wrong with the prior explanation.

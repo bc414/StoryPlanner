@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | The scene demonstrates the theme by having Kemerskai separate the moral Eros from the immoral Chrysalis, so the honest opponent is set apart from the poseur. It also takes for granted that Eros is moral and Chrysalis immoral. | Kemerskai makes clear the distinction between moral Eros and immoral Chrysalis | yes | Single plain declarative sentence in expository prose, close to the synopsis's own wording
+- whole: A one-sentence statement that the speech demonstrates the theme by drawing a line between the moral Eros and the immoral Chrysalis, which restates what the synopsis already says.

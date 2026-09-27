@@ -1,0 +1,16 @@
+- passages:
+  - note 5682 | directive planning | infinitive task phrase 'Need to reimagine' | resolving to redo the Chirropterra concept | apart
+  - note 5682 | declarative worldbuilding | flat assertion, no hedging, corrects prior premise | Chirropterra as fascist feudal exiles, not secret nation | apart
+  - note 5682 | declarative worldbuilding | short factual clause | Chirropterra selling drugs against the Tzinacatl | apart
+  - note 5682 | self-interrogative note | question mark, 'or not?' phrasing | whether Chirropterra is set in a jungle | apart
+  - note 5682 | declarative worldbuilding | flat contrastive assertion about two factions | Tzinacatl as capitalist, chiropterans as feudal | run-in
+  - note 5682 | cryptic shorthand aphorism | elliptical phrase, private terminology, no full clause | a rule about 'red love' versus 'pink' | run-in
+  - note 5682 | narrative-explanatory prose | flowing sentence with subordinate clauses, legend-telling | thestrals leaving Equestria, Luna's message lost, Nightmare Moon legend | apart
+- shifts:
+  - note 5682 | directive planning | declarative worldbuilding | drops task phrasing for a flat corrective assertion
+  - note 5682 | declarative worldbuilding | self-interrogative note | turns into a question with 'or not?'
+  - note 5682 | self-interrogative note | declarative worldbuilding | returns to a flat assertion about the two factions
+  - note 5682 | declarative worldbuilding | cryptic shorthand aphorism | shifts to an elliptical phrase using private terms 'red love'/'pink'
+  - note 5682 | cryptic shorthand aphorism | narrative-explanatory prose | blank line break, then a long flowing sentence telling a legend
+- registers: directive planning; declarative worldbuilding; self-interrogative note; cryptic shorthand aphorism; narrative-explanatory prose
+- whole: The single note mixes several registers, moving through clipped standalone task and fact fragments, one self-questioning line, a pair of declarative and aphoristic clauses that run together inside one line, and finally a separate, more flowing narrative passage set off by a blank-line break.

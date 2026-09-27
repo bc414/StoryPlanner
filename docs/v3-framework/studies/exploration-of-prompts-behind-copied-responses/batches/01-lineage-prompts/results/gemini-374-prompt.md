@@ -1,0 +1,9 @@
+- asks:
+  - translate | give the correct French rendering of a party's English name | "What would be the proper French name"
+- supplies:
+  - phrase | the English name of a fictional political party ("National Republican Party in Aquileia") tied to a character called Vérany | a short phrase
+- shaping:
+  - give the name in French rather than English | "the proper French name"
+  - identify it as the character's "first" party name, implying there may be later ones | "first party name"
+- openness: leaves the answer open, since it only supplies the English name and asks what the correct French version would be without proposing any candidate wording
+- subject: French translation of a fictional political party's name for a character in a planned story

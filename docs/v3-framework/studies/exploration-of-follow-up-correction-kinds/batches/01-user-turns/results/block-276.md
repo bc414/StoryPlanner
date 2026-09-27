@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes the official EaW event text on Flowing Current and the EEEE! activist group (the Lunar Civil War path) and asks how their own new ideas compare, which adds source material and a new question without saying anything in the model's turn is wrong.

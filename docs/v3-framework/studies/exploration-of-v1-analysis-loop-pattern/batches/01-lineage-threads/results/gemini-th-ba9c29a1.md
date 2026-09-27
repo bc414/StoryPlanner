@@ -1,0 +1,16 @@
+- steps:
+  - the author | brought figures | population numbers for Bronzehill, Herzland, Cloudbury, GR total, Aquileia, Skyfall, Equestria, Changeling Lands | in the prompt
+  - the author | drew a real-world analogy | KMT-in-Taiwan mainlander/native ratio as a comparison point for Cloudbury's refugee mix | in the prompt
+  - the author | posed an open question | asked what pony-minority percentage fits Aquileia, with implications for both a lower and a higher figure | in the prompt
+  - the model | worked the analogy | set real Taiwan ratios against the Cloudbury numbers and named the result a 'Fusion City' | early in the response
+  - the model | picked a figure | endorsed the 20%/7-million pony count for Aquileia as a 'sweet spot' with supporting comparisons | in the response's Aquileia section
+  - the model | laid out alternatives | spelled out what a lower and a higher pony percentage would each imply for Aquileia's identity | in the response's Aquileia section
+  - the model | tallied the war balance | added up belligerent populations to show the underdog ratio and the turning point when Aquileia and Equestria enter | in the response's strategic-math section
+  - the model | tied the new figures to an earlier plan element | linked the numbers back to the previously established 'Bronzehill Compromise' | in the response's strategic-math section
+  - the model | restated its recommendation | summed up keeping the 20% figure and the GR's underdog framing | in the response's conclusion
+  - the model | proposed a next scene | offered to detail an Equestrian landing in Pridea | at the end of the response
+- kept:
+  - note 4153 | pasted from this reply inside the author's own framing | keeps the model's 'Fusion City' description of Cloudbury's refugee-heavy culture, filed under the Griffonian Republic subject
+  - note 4155 | pasted whole from this reply | keeps the model's bullet points on Aquileia's political need to accommodate ponies and Pridea as a 'Quebec'-like heartland, filed under the 2nd Aquileian Republic subject
+- brought: The author brought a set of partly-fixed population figures across several factions plus an unresolved question, seeking validation via a real-world analogy and a recommendation for the one still-undecided figure (Aquileia's pony minority share).
+- loop: The author brings raw demographic figures and a comparative question; the model returns an analogy-grounded recommendation, alternative scenarios, and a strategic tally; the plan keeps only the model's narrative-implication passages on Cloudbury's refugee culture and Aquileia's pony-integration politics, filing them under the relevant faction subjects while leaving the numeric tallies and the forward scene-prompt unkept.

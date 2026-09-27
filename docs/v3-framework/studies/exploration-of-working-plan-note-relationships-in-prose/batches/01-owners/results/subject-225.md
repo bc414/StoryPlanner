@@ -1,0 +1,18 @@
+- relations:
+  - 1347|1362|one revises and deepens the other: both give the cause of the system as the monsters being gone, but 1362 adds attrition as a possible cause, and says the lords turned to extracting terroir wealth, not just to violence|Grover III ... last of the mountain monsters ... "Honest Racket" dead|implicit
+  - 1347|1356|cause and its working out: the legions hunting monsters and then leaving is the reason given for serfs turning bandit with no monsters or legions to stop them|no monsters or imperial legions to stop them|implicit
+  - 1356|1362|one states the working rule and the other gives its material reason: lords extract rent from serfs growing terroir-specific wine and cheese because they have no other wealth|terroir-specific crops like artisan wine and cheese ... cultivate premium wine and cheese|implicit
+  - 1355|1362|one gives the reason for the other's stated attitude: nobles scoff at industrialization because of terroir, and the other says mountain terrain made factories impossible; the scoffing and the impossibility are two different accounts of the same refusal|scoff at Herzland style industrialization ... couldn't build Herzland-style factories|implicit
+  - 1356|1495|one plans the page delivery of the other's rule: the serfs-turned-bandits and the lords buying gunpowder are given their consequence, a loss of status and dependence on Herzlander industrialists|turned to banditry ... dependent on buying mass-produced Herzlander gunpowder|implicit
+  - 1347|1495|continuation in time: lords who turned violent against their subjects then meet armed, starving serfs and become dependent on gunpowder|turn to violence against their subjects ... starving serfs turned to banditry|implicit
+  - 1362|1363|instance or evidence of the other's theme: the lords who lost monster loot and became parasites on the wine are the Poseur who demands 80% of the vintage, against the Lion who hunts|"Lion" status ... 80% of their artisanal wine vintage|implicit
+  - 1495|1363|two accounts of the same Poseur label: one says the lords became Poseurs through cowardice and gunpowder dependence, the other defines the Poseur by extracting from peasants at swordpoint, where a true Lion hunts monsters|They became pure Poseurs ... A "Poseur" points a sword at a peasant|implicit
+- outward:
+  - 1347|the emperor Grover III, his legions and the concept of the Honest Racket, held elsewhere|Grover III's imperial legions ... Honest Racket
+  - 1362|the industrial region Herzland and the economic concept of Asset Specificity, held elsewhere|Herzland-style factories ... Asset Specificity
+  - 1356|Herzland industrialists and the figure or faction Gerad Discret, held elsewhere|Herzland industrialists and later Gerad Discret
+  - 1495|the griffon nobility's magic and armor-forging, and the Herzlander industrialists and Apex status, held elsewhere|forge magical armor ... Herzlander gunpowder ... "Apex"
+  - 1361|the ponies and their cutie marks, and the servant and sexual-slavery practices of the world, held elsewhere|ponies, whose cutie marks are overwritten by their Lord's coat of arms
+  - 1363|the Manticore and the Lion and Poseur categories, held elsewhere|A true "Lion" hunts a Manticore
+  - 1355|Herzland and its industrialization, held elsewhere|Herzland style industrialization
+- whole: ["Most of the notes hang together as one chain from the loss of monsters through banditry and gunpowder to the Poseur theme, while the note on clothed servants and coats of arms stands alone as a separate entry."]

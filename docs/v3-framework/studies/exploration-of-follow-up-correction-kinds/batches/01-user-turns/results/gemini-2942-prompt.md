@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks again, in near-identical words, which other spells in the story draw their power from thymodynamics enhanced by the charitostatic effect, without saying anything about the list the model just gave.

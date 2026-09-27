@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question about how testosterone and estrogen differ and how their levels affect behavior across genders, following up on the list of hormones the model gave without disputing anything in it.

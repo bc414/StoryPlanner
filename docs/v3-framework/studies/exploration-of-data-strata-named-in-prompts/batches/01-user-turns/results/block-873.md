@@ -1,0 +1,9 @@
+- sources:
+  - Chapter 16 Combined Arms, the discussion between the characters about Canterlot or the Spearhead | read it again and use it as the record of how the decision was made and why | Please review the discussion between the characters in Chapter 16 Combined Arms | referred-to
+  - Equestria at War canon, the Pax Chrysalia focus tree and the Equestrian Liberation Front rebellion path | background and inspiration chain for the design, and the typical baseline that the story subverts | In EaW canon, when Chrysalis wins and enacts the Pax Chrysalia | first-named
+  - The Princess and the Kaiser | the direct inspiration for the Canterlot Paradrop and the grimdark baseline (failed ELF attack on Canterlot, cynicism, sentimental motive) that the story is written against | the Canterlot Paradrop is inspired by The Princess and the Kaiser | first-named
+  - HOI4 tactics and game mechanics | the basis of the hard-logistics reasoning in the Combined Arms decision, used in place of sentimentality | HOI4 tactics and game mechanics like rivers for supply lines | first-named
+  - the original plan for the Paradrop | treat as the earlier grimdark nihilistic version that has since been evolved past, not the current design | a grimdark nihilistic assault in the original plan | referred-to
+  - the author's current planning, with the Star Spade, the dreamscape aid network, pre-teleported rifles and an honest drop time | treat as the evolved current design that the analysis should build on and finalize | became the Star Spade in my planning | first-named
+- order:
+- about: The user corrects the chapter order and the purpose of the Bluebell Spearhead and Canterlot Paradrop, lays out the chain of inspiration from EaW canon and The Princess and the Kaiser, and asks the model to review Chapter 16, analyze the elements, and identify the thematic payloads so the Paradrop design can be finalized.

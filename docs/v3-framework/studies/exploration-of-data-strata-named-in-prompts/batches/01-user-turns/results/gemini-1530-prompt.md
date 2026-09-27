@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the idea that Verany would long make uniforms for the army, asks for a clever way for him to turn Coltbert's humiliation around, and offers their own tentative ideas (direct bartering, owning pity donations, efficient capital equipment) for the model to develop.

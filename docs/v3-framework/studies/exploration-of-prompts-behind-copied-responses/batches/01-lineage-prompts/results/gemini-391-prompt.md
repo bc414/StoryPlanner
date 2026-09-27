@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks why a named entity called Aquileia would be unable to find other partners | "Why would Aquileia not be able to find other partners?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a bare why-question about Aquileia's inability to find partners without naming a candidate reason, a set of options, or a claim to verify.
+- subject: Reasons a story entity named Aquileia might fail to secure other partners

@@ -1,0 +1,8 @@
+- relations:
+  - 1557|1558|Overturning in time: the arrangement that gave does leverage (bucks away on monsters or raids) is undone when the monsters run out and the bucks consolidate power and reduce the does to breeding stock|does had respect and leverage because they ran the economy while the bucks hunted monsters or raided / As the monsters ran out ... reduced the does to mere breeding stock|implicit
+  - 1557|1575|Instance or detail: the raiding the bucks were away on is the Vikings' raiding of global shipping, which 1557 presupposes to explain why the does ran the economy|the bucks hunted monsters or raided / Olenian Vikings raided global shipping alongside monsters|implicit
+  - 1575|1558|Continuation in time: the earlier practice of raiding alongside monsters is followed by the monsters running out and merchants arriving, after which the bucks turn to consolidating land and power|raided global shipping alongside monsters / As the monsters ran out and Herzlander merchants ... reaching out|implicit
+- outward:
+  - 1558|Herzlander merchants from Skyfall, a people and place held elsewhere in the world|Herzlander merchants from Skyfall started reaching out
+  - 1558|The ALB dating era used for the world calendar, defined elsewhere|around 880 ALB
+- whole: ["The three notes hang together as one small arc, in which the ontology notes give the raiding and monster-hunting order that let does hold leverage and the history note tells how that order ended."]

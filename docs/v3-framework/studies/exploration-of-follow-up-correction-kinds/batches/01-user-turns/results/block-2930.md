@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Governance reclassification and the lineage updates and asks a fresh, open question about Grover V's Boundary value, asking for the reasoning either way and not stating that the earlier Insular label is wrong.

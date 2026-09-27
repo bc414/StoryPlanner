@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general science question about what other mechanisms of light emission exist besides luminescence from electrons dropping orbitals, following up on the model's glow explanation.

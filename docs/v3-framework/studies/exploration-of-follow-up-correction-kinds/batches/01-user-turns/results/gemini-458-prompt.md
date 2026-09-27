@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question about whether bible entities should carry back-lists of their connected plot points and text, or whether references should stay spread across the chapter-ordered plot points, without disputing anything in the comparison.

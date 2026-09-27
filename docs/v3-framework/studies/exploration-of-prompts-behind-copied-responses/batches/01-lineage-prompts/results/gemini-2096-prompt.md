@@ -1,0 +1,9 @@
+- asks:
+  - check | asks the model to review sources on Aquileian history that the person has (referenced but not included in this message) | "Please review my sources on Aquileian history"
+  - brainstorm/develop | asks the model to consider and develop an imagined storyline in which the FJA trains reformed thugs into master chefs who return to Skyfall to win cultural and export dominance over class-divided dining, paralleling the PNdA's hostile dumping tactics against Aquileia's rivals | "I'm imagining the FJA would train reformed thugs to become master chefs... This cultural invasion can parallel the PNdA's hostile market dumping"
+- supplies:
+  - plot idea | a scenario where FJA-trained ex-thugs become chefs who invade Skyfall's food market to beat luxury and fast-food competitors, serve the poor, and undercut rivals, framed as a parallel to the PNdA's market dumping and privateer-driven destruction of Aquileia's universities | a paragraph
+- shaping:
+  - content to include | the reply should draw a parallel between the FJA's culinary cultural invasion of Skyfall and the PNdA's hostile market dumping against Aquileia's rivals who sanctioned privateers to destroy Aquileia's universities | "This cultural invasion can parallel the PNdA's hostile market dumping..."
+- openness: Leans toward an answer it names: the message lays out a specific imagined plot (FJA chef-training, Skyfall's rich/poor dining split, and the PNdA-dumping parallel) and asks the model to review and work within that framing rather than leaving the direction open.
+- subject: Worldbuilding for a fictional conflict between factions (FJA, PNdA) involving a culinary "cultural invasion" of the city Skyfall, class-divided dining, and economic warfare paralleling market dumping and university-destroying privateers, within an Aquileian history setting.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets a new task, asking the model to analyze their own FiMFiction comments on The Princess and the Kaiser (with page links, username and a date range) and to relate them to how TLTT developed, without disputing anything in the model's preceding analysis.

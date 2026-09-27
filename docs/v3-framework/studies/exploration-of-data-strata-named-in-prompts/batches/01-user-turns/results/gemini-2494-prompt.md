@@ -1,0 +1,7 @@
+- sources:
+  - the model's preceding analysis of the Stagnation of Harmony (the therapeutic-state reading) | accepted as clarifying and built on; the user treats it as true and extends it | This gives a lot of clarity | referred-to
+  - Hasbro's mandates used as Celestia's policies to be deconstructed by the protagonists | treated as a settled design choice of the story that the analysis confirms fits the themes | using hasbro's mandates as Celestia's policies to be deconstructed | referred-to
+  - the user's own account of the show's writing-team history (Lauren Faust's exit after season 1, Amy Keating Rogers, MA Larson, Cindy Morrow, Meghan McCarthy leaving, later writers studying season 1) | asserted from memory as fact and offered as a parallel for the story's themes, with the model asked to confirm the Faust part | The remaining writers who worked closely with Lauren Faust | first-named
+  - the published show's episodes (season 1, Party of One, Yakity Sax, later-season character flanderization) | used as evidence that later writers applied the Hasbro filter and copied the originals hollowly | Yakity Sax is a hollow copy of Party of One | first-named
+- order:
+- about: The user accepts the model's thematic analysis, ties it to their choice of Hasbro's mandates as Celestia's policies, and asks the model to confirm a from-memory account of how Lauren Faust's departure and later writers' changes to the show mirror that theme.

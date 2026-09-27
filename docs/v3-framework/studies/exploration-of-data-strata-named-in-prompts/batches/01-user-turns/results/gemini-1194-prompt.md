@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to continue its ranked list of original concepts with more items, without naming any source of data or giving instructions on what to draw on.

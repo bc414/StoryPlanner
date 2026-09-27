@@ -1,0 +1,10 @@
+- relations:
+  - 899 | 898 | the allegory note gives the real-world demographic reading of the psychology the characterization note asserts (sheltered affluence, no capacity for friction, reaching for a top-down absolute fix) | "lack the \"Resilience\"" against "cannot process the friction"; "most absolute, violent lever" against "top-down, conflict-free solution" | implicit
+- outward:
+  - 899 | the Aquileian FJA model of democratic reform, a system held elsewhere in the world | the Aquileian FJA model
+  - 899 | a lore concept of "Resilience" as a named quality or trait, defined elsewhere | "Resilience"
+  - 898 | Skyfall, a place and society described elsewhere | witnesses the brutal, zero-sum meatgrinder of Skyfall
+  - 898 | Celestia and her rule over Equestria, held elsewhere | Celestia's rule
+  - 702 | Baltimare, a place whose nature is held elsewhere | Born in Baltimare
+  - 898 | the story TLTT, whose start and events are not in this item | Who is this character at the start of TLTT
+- whole: ["Two of the three notes (the allegory and the characterization) hang together as one reading of the same radicalization, while the birthplace note is a bare fact that nothing else here takes up."]

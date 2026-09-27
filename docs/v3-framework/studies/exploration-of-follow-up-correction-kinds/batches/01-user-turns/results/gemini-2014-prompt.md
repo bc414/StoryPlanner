@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | the flat JSON array of bucket-name strings does not preserve or expose which priority/paradigm produced each bucket, nor mark which are orphan buckets | 'I want the output ... to clearly show what paradigm each bucket falls into, and which ones were orphans' | stated plainly as a direct preference/requirement, not framed as an error
+- about: The user asks for the Phase 1 output schema to be restructured so each bucket is labeled with its originating paradigm/priority and orphan status, rather than the flat string array the model proposed.

@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 1834 | the hives and the tyrannical age that industry brought to them, a setting and history held elsewhere | Industry brought a new tyrannical age to the hives
+  - 1834 | the predator's dilemma, a problem defined elsewhere, which industry is said to cure | it also provides the cure to the predator's dilemma
+- whole: Only one note is here, so there is nothing to join it to; it stands alone and rests on setting and lore held outside this item.

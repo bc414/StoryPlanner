@@ -1,0 +1,11 @@
+- passages:
+  - 4208 | scene beat without a year | In The Chrysalling, Flurry's uncontrollable magic turns out to be only baby magic, and Sunburst calms it with the spell he invented | none | names the story The Chrysalling and describes an event, Sunburst calming her, with no date
+  - 4472 | statement about the subject | Explains Flurry's alicorn birth and emotion sense: Cadance was the lone crystaller filtering love and magic into the Crystal Heart during Sombra's return, contrasted with ancient crystaller classes, and the emotion sense explains her uncontrolled baby magic | none | explanatory account of cause, written as lore rather than a moment; opens with ancient times and the canon episode
+  - 4472 | statement about the subject | Restates her alicorn body and emotion sense as forced in-utero adaptation to the magical voltage and the city-wide emotional network, not a divine blessing or a genetic inheritance | none | definitional claims about what her physiology is and is not
+  - 4206 | statement about the subject | Her cutie mark, the Crystal Heart with changeling wings, stands for her ability to crystallize raw emotion into understanding | none | says what the mark represents
+  - 4800 | scene beat with year | Flurry is born in 1003, on the same day Chrysalis announces something about a high tower | 1003 | dated event, a birth on a named day alongside an announcement
+  - 4800 | authorial framing | The author's plan to frame the birth and announcement as the second great leap forward, a posture against the rise of Thorax's harmonists | none | planning intent, phrased as what the author is going to do
+  - 5615 | statement about the subject | Canonically she can already teleport as a baby | none | states an established ability
+  - 5615 | scene beat without a year | As a five-year-old she teleports away from the city to escape the emotions and get some relief | none | an action at a stated age, with no calendar year
+- sequences:
+- whole: A small set of notes on Flurry Heart, mostly explanations of her alicorn origin, emotion sense and cutie mark, with a few single events (the Sunburst calming, a dated birth in 1003, a child's teleport escape) and none run as a sequence.

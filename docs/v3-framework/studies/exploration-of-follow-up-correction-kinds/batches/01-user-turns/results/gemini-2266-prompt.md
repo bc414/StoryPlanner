@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the biplane explanation to new questions about real-world pilot training times in WW1 and WW2, how to make the Wonderbolts convincingly superior to changeling pilots, and how g-forces are mitigated for non-pegasus pilots and passengers.

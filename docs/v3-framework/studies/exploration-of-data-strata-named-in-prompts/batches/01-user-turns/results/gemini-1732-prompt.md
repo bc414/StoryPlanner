@@ -1,0 +1,6 @@
+- sources:
+  - my timeline (early seasons all fall before the war; war in 1011 ALB) | treat as true and correct the earlier placement; the early-season episodes are pre-war, so the war framing does not apply to them | Actually all of the early seasons happen in my timeline before the war | referred-to
+  - season 1, canonically 1000 ALB, one thousand years after Luna's banishment | treat as the fixed dating anchor for the early seasons, which puts them eleven years before the war | season 1 is canonically 1000 ALB | referred-to
+  - the lore that she idealizes Aquileian culture through the parloirs | treat as the established author lore to line Rarity's manipulation up with; this is the focus of what the user wants to explore | how it lines up with the lore that she idealizes Aquileian culture through the parloirs | referred-to
+- order:
+- about: The user corrects the model's wartime, geopolitical reading of the episode by fixing it in the pre-war timeline with goofy dogs and fashion gems, then redirects the model to analyze Rarity's manipulation against her lore-established idealization of Aquileian culture through the parloirs.

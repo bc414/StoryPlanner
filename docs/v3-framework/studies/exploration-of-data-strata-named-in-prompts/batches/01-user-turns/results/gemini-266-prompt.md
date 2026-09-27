@@ -1,0 +1,4 @@
+- sources:
+  - what Thunderhooves said about Celestia not giving the buffalo an audience | treated as an existing story detail the author half-remembers, offered tentatively as the fact the explanation must fit | I guess thunder hooves said she didn't even give them an audience | referred-to
+- order:
+- about: The author is brainstorming with the model on three plot decisions: how to explain Celestia ignoring the buffalo plea, whether AJ should withdraw SECEF from Griffonia after Synovial's defeat, and how a spared but convicted Synovial can show why Chrysalis will never surrender.

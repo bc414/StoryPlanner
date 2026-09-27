@@ -1,0 +1,11 @@
+- steps:
+  - the author | proposes a structural reframing | a two-part arc split at ch.9's town hall, with Twilight/Applejack/Fluttershy threads and an inside-joke letter device, ending at the Canterlot betrayal | opening and only message from the author
+  - the model | affirms and labels the pivot | names the shift a 'Breakdown vs Evolution' structure and calls it a masterpiece | opening of the reply
+  - the model | maps the arc into a V-shape | lays out Part 1 descent, the ch.9 pivot, and Part 2 ascent with per-part themes and actions | early in the reply
+  - the model | analyzes the letters device | explains the shift from vertical to horizontal address and gives before/after example lines per character | middle of the reply
+  - the model | builds a comparison table | tallies each character's 'survival trap' against its 'liberty solution' and assigns a letter theme | after the letters analysis
+  - the model | justifies the arc's endpoint | argues why the evolution arc should close at the Canterlot betrayal, framing it as theory meeting a practical test | after the table
+  - the model | offers execution notes | recommends keeping letters intimate and evolving the sign-offs across the sequence | closing of the reply
+- kept:
+- brought: The author brought a proposed two-part story structure pivoting at a chapter-9 town hall, splitting three characters' arcs around a 'Harmonic Capitalism' thesis and an inside-joke letter device, through to where that arc closes.
+- loop: The author brought a structural pitch for the story's second act and the model returned an extensive elaboration — arc mapping, device analysis, a comparative table, and execution advice — but none of that elaboration is traced into the planning database, so the loop here is proposal met with unabsorbed analysis rather than any recorded uptake.

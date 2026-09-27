@@ -1,0 +1,8 @@
+- sources:
+  - the story plan (about Applejack as a character and layers behind her) | consult to understand the different layers behind Applejack, rather than the named Element | Refer to the story plan and the conversation about Rainbow Dash an Ahuizotl | referred-to
+  - the conversation about Rainbow Dash an Ahuizotl | consult to understand the different layers behind Applejack as a character and the Hasbro mandate | Refer to the story plan and the conversation about Rainbow Dash an Ahuizotl | referred-to
+  - the story plan about the real ontology of Applejack's Parents | review it; it establishes the parents are not villains but a hidden synthesis source, correcting the model's framing | review the story plan about the real ontology of Applejack's Parents | referred-to
+  - the named Element of Honesty | do not conflate it with what Applejack actually represents as a character; treat as the surface/mandated label | Don't confuse the named Element of Honesty with what Applejack as a character actually represents | referred-to
+- order:
+  - the story plan and the Rainbow Dash and Ahuizotl conversation (layers behind Applejack) | the named Element of Honesty | Don't confuse the named Element of Honesty with what Applejack as a character actually represents
+- about: The user corrects the model's Applejack analysis by directing it to the story plan, the Rainbow Dash and Ahuizotl conversation, and the plan on her parents' ontology, so it stops treating the Element of Honesty as her core and the parents as counter-arguments or villains.

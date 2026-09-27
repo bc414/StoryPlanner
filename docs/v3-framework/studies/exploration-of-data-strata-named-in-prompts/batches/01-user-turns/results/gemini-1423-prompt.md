@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general historical and current-affairs question about how often Poland was abandoned by the West and how dependent it is now, without pointing the model at any particular source.

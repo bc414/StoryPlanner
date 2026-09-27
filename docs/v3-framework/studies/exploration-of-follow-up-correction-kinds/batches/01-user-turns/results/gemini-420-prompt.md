@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the Griffonian Republic merger as a merger with Herzland alone; the GR is Herzland plus Cloudbury plus Vedina, joined by universal translators, and can go on absorbing other regions that want in | "which isn't just Herzland, it's Herzland + Cloudbury + Vedina" | in passing, as a parenthetical aside inside a longer plot elaboration, stated flatly with no mention of the earlier wording
+  - fact of the world | The model set the MPA thugs outside the shared Aquileian camp, as a force both FJA and PNdA unite against; the user counts them within the 70-80% Aquileian nationalist majority | "including the MPA thugs too" | in passing, as a bracketed inclusion in a demographic estimate, not flagged as a disagreement
+- about: The user accepts the model's economic-symbiosis framing and builds on it, checking that the PNdA rank and file don't want to destroy the FJA, then sketching Applejack's three-stage lesson about Aquileia and a Kemerskai arc in which his friendship with her stops the annexation, with two small clarifications of the model's picture slipped in along the way.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats a new alternative, calling the spell simply the lionesses' spell, which sets aside the model's elaborate naming and scorecard options without saying anything in them was mistaken.

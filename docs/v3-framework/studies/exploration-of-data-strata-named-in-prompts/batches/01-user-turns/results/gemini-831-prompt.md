@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for formal rules on how limited third-person perspective works, what is forbidden or discouraged, when to switch viewpoint, and whether the other third-person modes form a spectrum, without pointing at any body of material to draw on.

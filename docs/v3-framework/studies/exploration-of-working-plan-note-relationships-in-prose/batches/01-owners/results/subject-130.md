@@ -1,0 +1,27 @@
+- relations:
+  - 1284|1286|the later note continues the earlier: New Mareland's capital, held at New Manehattan, is moved by Celestia to Sunset|The original capital ... New Manehattan / move the capital from New Manehattan to Sunset|explicit
+  - 1285|1286|the port's growth is the ground for the move: Sunset's boom as a settlement makes it the primary port for arriving expats, which is why the capital goes there|boomed with the help of griffon artisans / primary port for receiving Equestrian expats|implicit
+  - 1286|1287|1287 builds on and extends the meaning of Sunset that 1286 sets up, from exile landing port to day-into-night crossing and the start of the Predator's Dilemma|Sunset ... landing port of the exile ship / leaving the Day and entering the Night|explicit
+  - 1286|1282|1286 recasts the colony as a penal or quarantine zone for exiled ambitious ponies, where 1282 has it settled by ambitious ponies out of pride in conquering the swamp; the two accounts of who arrives and why sit uneasily|penal colony/quarentine zone / only the most ambitious ponies who are there for the pride|implicit
+  - 1282|1283|continuation in time: the rough, hostile colony of 649 to 854 becomes the prosperous frontier of 854 to 930, and the type of settler shifts from the most aggressive to moderate|from 649 to 854, it was a tiny colony / transforms from a brutal survival colony into a booming, prosperous frontier|implicit
+  - 1283|1288|the later note revises the reason for the same policy: New Mareland still turns away Aquileian refugees, but through market interest and worker xenophobia, where before it was elite collusion to keep the populace ignorant|still refuses Aquileian refugees but for different reasons / redirect the Tzinacatl refugee rafts|explicit
+  - 1283|1288|the earlier state of the pioneer populace gives way to the later: pioneer Harmony and justice ideals, and a populace kept ignorant, become pioneer solidarity decayed into economic xenophobia|strong Equestrian ideals of Harmony and justice / pioneer solidarity has completely decayed|implicit
+  - 1287|1288|the plan's picture of fresh exiles preyed on by capitalist cartels is the same world the historian reports, with a capitalist hellscape and newly arriving Equestrian exiles among the working class|established capitalist cartels of New Mareland / rugged individualist capitalist hellscape|implicit
+  - 1287|1292|1292 uses the ruthless environment described in 1287 as evidence for its thesis, and both name the Predator's Dilemma|Predator's Dilemma / Material Conditions drive Morality|explicit
+  - 1288|1292|1288's tycoons and worker xenophobia are an instance of the claim that ponies in a ruthless environment become as greedy and cruel as griffon barons|economic xenophobia / just as greedy and cruel as the griffon barons|implicit
+  - 1282|1292|1282's hostile swamp kept a gritty Harmony alive through symbiotic magic, so 1292's claim about ponies without harmony presupposes the loss of that Harmony later|maintaining a rough, gritty version of Harmony / ruthless environment without harmony|implicit
+  - 1290|1291|1291 continues 1290 in time: after breaking from Equestria, they become a Wingbardian vassal rather than fight a war|Then they become a Wingbardian vassal / They break off from equestria|explicit
+- outward:
+  - 1282|Coltlumbus and Equestrian society, the source of the pioneers and the 649 ALB founding, held elsewhere|Founded in 649 ALB by Coltlumbus
+  - 1283|Grover III, his knights and Celestia, and the clearing of the Celestial Sea|Grover III's knights and Equestrian seafarers clear the Celestial Sea
+  - 1283|Aquileia, its Griffon Lords and their serfs, and the Tzinacatl refugee rafts|Griffon Lords are keeping Aquileian ponies as abused, dressed-up pets
+  - 1283|New Horseleans on Equus, where refugees are sent|redirect the Tzinacatl refugee rafts to New Horseleans
+  - 1283|Everfree Forest as the other frontier choice for Equestrians|compared to the Everfree Forest
+  - 1285|Griffon artisans who helped Sunset boom|boomed with the help of griffon artisans
+  - 1286|The 'stagnation of harmony' petitions and the penal-colony lore held elsewhere|after the enactment of the "stagnation of harmony" petitions
+  - 1287|The Red Love (Ambition) scheme and the Predator's Dilemma framework held elsewhere|environment running purely on Red Love (Ambition)
+  - 1288|Aquileian Warlords as trade partners, and Equestrian exiles arriving|The Aquileian Warlords are a massive market
+  - 1290|Equestria's crisis, the princesses' retreat to Manehattan, and Skyfall griffons under Chrysalis|after the princesses retreat to Manehattan / Skyfall griffons led by Chrysalis
+  - 1291|Wingbardia, the power whose vassal they become|Wingbardian vassal
+  - 1292|The griffon barons as a comparison held elsewhere|as greedy and cruel as the griffon barons
+- whole: The notes hang together fairly well: the history notes and the Sunset, capital-move and exile plans form one thread, from founding through capital move to the capitalist hellscape, and the theme note draws on it, while the break-with-Equestria and vassalage notes form a separate small chain and the notes on the capital and on Sunset's boom stand as brief entries.

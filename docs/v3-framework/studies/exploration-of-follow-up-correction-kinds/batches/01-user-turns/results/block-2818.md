@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the model's reasoning to ask why the tribe and factory would take Ahuizotl in, what role he would hold, and what his defection turns on, while restating the current plan: no destroy order, the clear-cutting tribe kept separate from the drug and factory operation, and the conclave burning the factory.

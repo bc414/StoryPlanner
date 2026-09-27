@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's chronological-versus-epistemological point, generalizes it into a proposal to survey all 16 axis-value combinations, revises their own assumption that the axes are orthogonal, and floats a reader-versus-truth gap as an alternative to PE/NE, all without disputing anything the model said.

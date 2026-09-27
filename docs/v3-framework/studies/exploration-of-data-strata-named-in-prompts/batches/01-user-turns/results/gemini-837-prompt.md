@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general craft question about how obvious the choice of narrator (point-of-view character) should be in their multi-POV story, without pointing the model at any body of material.

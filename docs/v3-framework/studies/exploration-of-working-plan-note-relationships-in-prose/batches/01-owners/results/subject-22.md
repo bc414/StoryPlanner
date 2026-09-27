@@ -1,0 +1,12 @@
+- relations:
+  - 653|652|the real-world analogy note documents the inspiration for the trait that the characterization note asserts: rural Aquileians see Herzlanders as poseurs who claim honor yet loot|Herzlanders as poseurs because they claim honor ... but ultimately are looters|implicit
+  - 247|652|the teenage indoctrination by Herzlander "posers" sits against, and comes earlier than, the adult view of Herzlanders as poseurs; it also gives a different source for his biases than the elders' stories, and the two notes pull against each other|indoctrinate Henri by pointing out ... / view Herzlanders as poseurs|implicit
+  - 864|653|Henri's use of English translations as an insult to Herzlander pride presupposes the view that Herzlanders claim honor and pride but are looters; the English name insult acts on that view|uses the English translations as an insult to their pride|implicit
+  - 864|652|the insulting use of English names is a behavior that follows from his contempt for Herzlanders as poseurs claiming honor; his dislike of German names is another bias of the kind the characterization describes|German names sound aggressive and imperial|implicit
+- outward:
+  - 653|real-world warrior code and medieval English raiding practice held as source analogies, and the wider Aquileia/Herzland lore|like Bushido ... English chevauchee
+  - 651|the figure or event called Vérany and the warlords, plus the region of Ailmont in Verenia, held elsewhere|Vérany unleashed the warlords
+  - 247|the Herzlander griffon supremacist group and the land of Pridea with its free pony farmers, lore held elsewhere|griffon supremacist group ... ponies in Pridea are free farmers
+  - 864|the German-sounding names and their English translations in the world's naming, and the reading order of other appearances|the German names sound aggressive and imperial
+  - 652|the parents' and elders' stories from which his biases come, not part of this item|stories passed down by parents/elders
+- whole: The notes hang together loosely around Henri's contempt for Herzlanders as honor-claiming looters, with the analogy and characterization notes nearly restating each other, while the backstory notes and the naming note each add their own strand.

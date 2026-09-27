@@ -1,0 +1,20 @@
+- relations:
+  - 1418|1421|the real-world pattern of displaced professional women trading on intimacy with wealthy men, and the character's plan that instances it|professional women displaced by AI become intelligent escorts; sleep with magical engineering executives to build up enough wealth|implicit
+  - 1418|1419|the real-world displacement by AI is mirrored by the character's displacement by new spell matrix technology|displaced by AI; Equestrian spell matrix tech ... fired her|implicit
+  - 1419|1421|cause and consequence: being fired from her engineering job leads to her choice not to seek another job but to sleep with executives|the company fired her; instead of finding another job|implicit
+  - 1421|1423|continues in time: after the wealth-building plan, she goes on to join the reform party|Then joins the reform party|explicit
+  - 1420|1423|the character is framed as the dark mirror of a reformed state, and joining a reform party sits against the corrupt oligarchy that frames her|dark mirror to Alouette, Wingbardy is still a corrupt oligarchy; joins the reform party|implicit
+  - 1419|1420|the patriarchal, cartel-run society described in her history supports the claim that Wingbardy is a corrupt oligarchy|patriarchal culture, magical engineering cartel; corrupt oligarchy and mafia led state|implicit
+  - 1417|1419|the sequel is set after the technology arrival that her backstory rests on, so it presupposes that event|post-TLTT; Equestrian spell matrix tech from TLTT reached Wingbardy|implicit
+  - 1422|1423|the later note questions and possibly revises the location given in the earlier one, where the reform party is placed in Wingbardy or New Mareland|Actually should it be in New Mareland?; reform party within Wingbardy/New Mareland?|explicit
+  - 1422|1417|the later note questions whether the sequel should be set in Wingbardy or instead in New Mareland|Actually should it be in New Mareland?; A far off sequel idea featuring Wingbardy|implicit
+  - 1417|1423|the sequel idea is the place where her later step, joining the reform party, would occur|A far off sequel idea; Then joins the reform party|implicit
+- outward:
+  - 1419|a magical engineering cartel held elsewhere in the plan, with Skyfall's as its model|like Skyfall's
+  - 1419|the Equestrian spell matrix tech from TLTT, another story or lore held elsewhere|Equestrian spell matrix tech from TLTT
+  - 1419|the flow stabilization work and Wingbardy's patriarchal culture, lore held elsewhere|essential for flow stabilization; Wingbardy's patriarchal culture
+  - 1420|another character or place, Alouette, that she mirrors|dark mirror to Alouette
+  - 1423|a reform party in Wingbardy or New Mareland, held elsewhere|reform party within Wingbardy/New Mareland
+  - 1422|New Mareland, a place held elsewhere|should it be in New Mareland
+  - 1417|TLTT, the story whose events precede the sequel|post-TLTT
+- whole: This owner's notes hang together loosely as a single character arc, from being fired, to trading intimacy for wealth, to joining the reform party, with the two notes to self questioning where the later part should be set.

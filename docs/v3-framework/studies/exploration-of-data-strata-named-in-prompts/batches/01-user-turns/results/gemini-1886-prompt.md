@@ -1,0 +1,4 @@
+- sources:
+  - story plan nuance (the 972 relocation to Le Grand Foyer, the 980 revolution, the chastity enforcement and servants as canaries) | treat as the given premise and timeline to analyze against; the ages of 9 and 17 inside it are a tentative proposal open to being changed | Here is my story plan nuance; given this timeline; Is this good, or would she be older or younger | first-named
+- order:
+- about: The user gives new timeline and setting details for their story plan (the 972 relocation to Le Grand Foyer and the 980 revolution) and asks the model to analyze whether Minette should be 9 then and 17 at liberation, or older or younger.

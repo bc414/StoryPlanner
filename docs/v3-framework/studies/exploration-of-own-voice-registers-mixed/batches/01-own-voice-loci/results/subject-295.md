@@ -1,0 +1,30 @@
+- passages:
+  - note 4049 | personal anecdote | first-person, present tense, video-game comparison, casual tally of numbers | comparing HOI4 fighter outcomes to the setting | apart
+  - note 4050 | explanatory present-tense description | present tense, modal 'can', functional listing of combat roles | unicorn's role shielding and bombarding alongside fighter | apart
+  - note 4050 | terse factual note | short past-tense standalone sentence, no elaboration | Aquileian unicorns' crystal enhancers | apart
+  - note 5064 | historical narrative | dated header, third-person past tense, sequence of events | Hermann Meyer's defection and founding of pirate airforce | apart
+  - note 5064 | evaluative aside | present tense, abstract terms, exclamation mark | judgment of Meyer's character and motives | apart
+  - note 5194 | technical spec listing | dash-led stat entries, percentages, per-sortie figures | baseline WW2 plane specs and engine efficiency | apart
+  - note 5195 | explanatory present-tense description | present tense, mechanism explanation, technical vocabulary | how the hybrid engine improves efficiency | apart
+  - note 5199 | historical narrative | dated header, past tense, cause-and-effect recounting | desertion to Haukland and start of artisan planes | apart
+  - note 5208 | historical narrative | dated header, past tense, recounting of alliances and adoption | crystal ponies, parloir owners, and engine upgrades | apart
+  - note 5210 | explanatory present-tense description | present tense verbs, technical justification clauses | polynitrogen ammo, armor, smoothbore barrels | apart
+  - note 5210 | shorthand formula list | equals sign, itemized components, no verbs | composition of Wonderbolts ammo | apart
+  - note 5211 | explanatory present-tense description | present tense, comparative clauses between factions | firing duration and CAS capability compared | apart
+  - note 5211 | evaluative aside | parenthetical, terse judgment | sustainability caveat on Wonderbolts | run-in
+  - note 5212 | historical narrative | dated header, past tense, recounting manufacturing choice and invasion | Chrysalis's plane manufacturers and Olenia invasion | apart
+  - note 5212 | evaluative aside | parenthetical judgment phrase | mocking assessment of Jericho Trumpets tactic | run-in
+  - note 5212 | historical narrative | past tense, continues after parenthetical | outcome of the Olenia invasion | apart
+  - note 5213 | explanatory present-tense description | present tense, comparative clauses, idiomatic close | pilot skill contrast between Aquileians, Wonderbolts, changelings | apart
+  - note 5214 | historical narrative | dated header, past tense, concessive clause | Wonderbolts flying outdated biplanes at Mount Aris | apart
+  - note 5215 | definitional doctrine listing | parallel statements naming and defining terms | Turn and Burn vs Boom and Zoom doctrines | apart
+  - note 5272 | historical narrative | dated headers, past tense, industrial and political recounting | Wingbardian aviation industry growth and Imperial adoption | apart
+- shifts:
+  - note 4050 | explanatory present-tense description | terse factual note | drop to short past-tense standalone sentence after present-tense capability listing
+  - note 5064 | historical narrative | evaluative aside | shift to present tense, abstract judgment, and exclamation mark after past-tense event recounting
+  - note 5210 | explanatory present-tense description | shorthand formula list | shift to equals-sign notation and itemized components, no narrative sentences
+  - note 5211 | explanatory present-tense description | evaluative aside | parenthetical caveat interrupts the comparative present-tense sentence
+  - note 5212 | historical narrative | evaluative aside | parenthetical judgment phrase inserted mid-sentence
+  - note 5212 | evaluative aside | historical narrative | return to past-tense recounting after the parenthetical closes
+- registers: personal anecdote; explanatory present-tense description; terse factual note; historical narrative; evaluative aside; technical spec listing; shorthand formula list; definitional doctrine listing
+- whole: This item's notes are written in several distinct registers — dated past-tense historical narrative, present-tense explanatory description of technology and tactics, terse factual notes, stat-listing specs, a shorthand formula, a doctrine-defining list, and one personal anecdote — which mostly stand apart note by note or paragraph by paragraph, with only brief evaluative asides running into a surrounding sentence via parentheses.

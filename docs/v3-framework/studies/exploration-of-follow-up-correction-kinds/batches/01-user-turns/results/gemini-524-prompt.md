@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares pride in their own idea of Fluttershy using The Stare on Celestia at the climax and asks whether other fanfics have Fluttershy scolding Celestia, which is a new question and not a correction.

@@ -1,0 +1,6 @@
+- sources:
+  - EaW canon (Caramel Marks and Fire Angel writing a communist manifesto) | treat as the reference that the Herzland story must reproduce; the manifesto is required to appear in Herzland at some point | In EaW canon, a pony named Caramel Marks and a griffon named Fire Angel write a communist manifesto. This must also appear at some point in Herzland | first-named
+  - Karl Marx and Friedrich Engels' work (its context) | use the model's general historical knowledge of the real-world context as the template for placing and motivating the Herzland manifesto | What was the context of Karl Marx and Friedrich Engels' work? | referred-to
+  - Gesunder Menschenverstand | treat as an existing work in the Herzland plan and use it as the timing anchor: decide whether the manifesto comes before, after, or alongside it | Should it come before or after or alongside Gesunder Menschenverstand? | referred-to
+- order:
+- about: The user is asking how to fit the EaW canon communist manifesto into Herzland, using the real historical context of Marx and Engels to decide its timing relative to Gesunder Menschenverstand, and floating the guess that it answers Grover IV's gilded age.

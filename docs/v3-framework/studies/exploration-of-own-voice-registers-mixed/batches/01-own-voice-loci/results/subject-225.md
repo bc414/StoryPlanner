@@ -1,0 +1,13 @@
+- passages:
+  - note 24 | fragment definitional | subject-less fragment naming type and real-world inspiration | Temberik's nature as mountain thestrals and their Kurdish inspiration | apart
+  - note 24 | quoted etymological gloss | complete sentence with quoted foreign word and its translation | the meaning of the name "Temberik" in Sorani | apart
+  - note 4088 | trait-listing declarative | short paired adjectives describing character | Temberik's isolationist, communal, wary-of-outsiders nature | apart
+  - note 4088 | comparative historical explanatory | contrast clause naming another group, present-perfect tense, specific timeframe and lore event | contrast with the Tzinacatl and the thousand-year self-isolation after Luna's banishment | apart
+  - note 4089 | plot-summary informational | single complex sentence naming a specific character and a specific proposed exchange | rejection of Chrysalis's bid to mine crystals for love harvesters | apart
+  - note 4089 | anaphoric declarative of want | run of short parallel sentences opening "They want"/"They do not want" | Temberik's refusal of industrialization and their wish for isolation, tradition, and peace | apart
+- shifts:
+  - note 24 | fragment definitional | quoted etymological gloss | change from a subject-less descriptive fragment to a full sentence built around a quoted foreign term and its translation
+  - note 4088 | trait-listing declarative | comparative historical explanatory | shift from bare trait adjectives to a contrast construction naming another faction and fixing a historical timeframe and event
+  - note 4089 | plot-summary informational | anaphoric declarative of want | shift from one long sentence naming a specific character and conflict to a run of short parallel sentences repeating "They want"/"They do not want"
+- registers: fragment definitional; quoted etymological gloss; trait-listing declarative; comparative historical explanatory; plot-summary informational; anaphoric declarative of want
+- whole: The three notes together hold several distinct registers rather than one, moving in each note from a compact definitional or informational statement into a differently shaped closing register (an etymological gloss, a comparative-historical explanation, or a run of short parallel declarations), with each shift landing at a sentence break rather than blending inside a single sentence.

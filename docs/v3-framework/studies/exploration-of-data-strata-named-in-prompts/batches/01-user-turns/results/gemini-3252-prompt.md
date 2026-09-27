@@ -1,0 +1,5 @@
+- sources:
+  - the analysis of the video | treat as the basis for judging which faction South Korea aligns with; use its content about South Korea | Based on the analysis of the video | referred-to
+  - my TLTT story plan (its factions, including Aquileia and Skyfall) | the reference to match South Korea against; pick the faction that fits using the plan's faction traits | which of the factions from my TLTT story plan | referred-to
+- order:
+- about: The user asks the model to map South Korea, as described in the video analysis, onto a faction in their TLTT story plan, offering their own view that it blends Aquileia's ego inflation and Skyfall's interchangeable cogs but differs in having a strong central state.

@@ -1,0 +1,20 @@
+- relations:
+  - 565|566|one gives the reason for the expulsion that the other says he is hiding: the smuggled Aquileian textbooks and the Aquileian work are the same trouble with Celestia's school|expelled from Celestia's school ... Aquileian textbooks / kicked him out ... work with the Aquileians|implicit
+  - 565|566|one overturns the canon reading of the other: the canon reading takes him as having no accomplishments, and the other says his deflection at the door does not come from that|isn't deflecting because he hasn't accomplished anything|implicit
+  - 565|572|the second recasts the first's canon reading (book smart, no magical talent) as a result of the expulsion: he knows Aquileian texts he can't perform, and was expelled for trying|To know so much and not be able to do any of it / kicked out for trying|implicit
+  - 566|572|both give the same cause of his expulsion, work on Aquileian material, and the second tells how that shaped what he says about magic school|kicked out for trying / kicked him out of Celestia's school in the first place|implicit
+  - 565|567|the library of copied contraband is an instance or physical evidence of the interest in forbidden texts that got him expelled|library is full of "contraband" / smuggled Aquileian textbooks|implicit
+  - 566|573|the second presupposes the Aquileian work the first describes: he can rebuild the heart because he studied it alongside Aquileians|studying it alongside Aquileians / his work with the Aquileians on industrial magic|implicit
+  - 565|573|the second's materialist treatment of the heart as just a crystal, with magic in the ponies, follows from the world the first sets out (magic as materialist science, crystal enhancers)|magic as materialist science / commoditized because it is just a crystal|implicit
+  - 572|573|the first says he lacks the magic to do what he reads, and the second has him rebuild the heart by study and not by power, which works with that lack and turns the canon 'not powerful' into a strength|not able to do any of it / isn't a deus ex machina|implicit
+  - 567|573|the contraband library copied from the Crystal Empire's old library fits with his studying the crystal heart; the second's reason for his ability draws on the same holdings|copied from the Crystal Empire's pre-Celestia library / studying it alongside Aquileians|implicit
+- outward:
+  - 565|the canon episode The Crystaling and its characters Starlight and Twilight|In canon episode The Crystaling, Starlight thinks Sunburst is a master wizard
+  - 565|the setting's Aquileians and Celestia's school for gifted unicorns, held elsewhere|smuggled Aquileian textbooks
+  - 566|the canon scene where Starlight first knocks on his door, and Celestia's possible auditors|When Starlight first knocks on Sunburst's door
+  - 567|canon dialogue and named spells and heroes from the show (Mistmane, Rockhoof, Flash Prance)|Mistmane's Material Amity, Rockhoof's Rapport, Flash Prance's Fellow
+  - 567|the lore of old Equestria's pillars and how they operated|the pillar of old equestria
+  - 567|the Crystal Empire's library from before Celestia, held elsewhere|Crystal Empire's pre-Celestia library
+  - 572|the parloirs, a place or institution not described here|Then he goes to the parloirs
+  - 573|the winter and the crystal heart's canon plot, the charitostatic effect and friendship shields, held elsewhere|no dramatic fight against the winter / charitostatic effect
+- whole: These notes read as a set that hangs together: all five are canon-versus-TLTT notes on Sunburst, and they return to one idea, that his expulsion over Aquileian study explains his behaviour, his talent and his part in the crystal heart.

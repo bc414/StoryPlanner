@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general follow-up question about whether Google and OpenAI have made use of innovations from Chinese AI labs, without pointing the model at any particular body of material.

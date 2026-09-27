@@ -1,0 +1,7 @@
+- relations:
+  - 840 | 841 | 841 builds on the jungle habitat that 840 gives as the cause of thestral traits, adding a second evolutionary explanation (fangs and diet) drawn from the same environment | 840 says they evolved in the dense southeast jungles; 841 says they developed fangs to eat the meat of jungle monsters | implicit
+- outward:
+  - 841 | Equestrian ponies and their symbiotic agriculture, a comparison to another people and its lore held elsewhere | Equestrian ponies didn't need thanks to their symbiotic agriculture
+  - 841 | the jungle monsters and the magical saturation of their meat, as creatures and lore not described in this item | magically-saturated meet of jungle monsters
+  - 840 | the southeast jungles and mountain caves as a place in the world's geography not described here | dense, light-starved southeast jungles and mountain caves
+- whole: The two notes read as a set that hangs together, since both give evolutionary reasons for thestral traits rooted in the same jungle environment, though the link is carried by content alone.

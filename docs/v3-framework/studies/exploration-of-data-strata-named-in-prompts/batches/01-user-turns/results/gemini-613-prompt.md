@@ -1,0 +1,6 @@
+- sources:
+  - real drug recovery sites | the real-world benchmark the model is asked to compare the pipeline against, drawing on its general knowledge | How does this compare to real drug recovery sites? | first-named
+  - world war 2 pow camps run by the allies (the reeducation cohort, not the SS) | real historical reference for how such camps were organized, cells or open areas; drug recovery content is excluded from this comparison, and the SS is set aside | not the drug recovery part but the organization | first-named
+  - this (the revised rehab pipeline just given) | the material being compared with real recovery sites | How does this compare | referred-to
+- order:
+- about: The user asks the model to compare the fictional rehab pipeline with real drug recovery sites, then asks how Allied WWII POW reeducation camps were organized, in cells or open areas, as a model for the setting's layout.

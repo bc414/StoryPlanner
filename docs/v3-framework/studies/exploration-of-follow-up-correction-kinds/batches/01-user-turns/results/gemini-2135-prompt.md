@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's arms-trade scheme by proposing that leftover obsolete guns end up with changeling conscripts in human-wave attacks on the Bluebell River Spearhead, then asks whether Russian tsarist and Soviet armies really had mass conscription without enough weapons.

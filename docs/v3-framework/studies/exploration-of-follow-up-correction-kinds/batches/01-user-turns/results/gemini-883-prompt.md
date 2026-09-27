@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - technical diagnosis or fix (own name) | the suggested one-line change did clear the crash but the script still does not do its job: it finds only one day and the created folder holds no files, so the fix was not sufficient | pasting the code with the fix applied and reporting 'It only found one day, and created the folder but did not put anything in it' | flat, factual report of the result with no complaint, apology or explicit statement of disagreement; the failure is shown through evidence
+- about: The user pastes the script with the model's suggested fix applied and reports that it now runs but only finds one day and exports nothing, implicitly asking for further help.

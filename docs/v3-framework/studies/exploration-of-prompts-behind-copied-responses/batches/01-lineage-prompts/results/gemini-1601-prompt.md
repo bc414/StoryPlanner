@@ -1,0 +1,9 @@
+- asks:
+  - confirm | asks the model to confirm or validate a proposed explanation that thestral "therapist" characters also evade detection because they come from peaceable artisan tribes that sell medicine rather than the drug tribes | "Perhaps that's also why the thestral \"therapists\" get a pass too"
+  - predict | asks the model to work out whether Skyfall expats would mostly fail to get past the same detection system, extending the established logic to this new group | "What about Skyfall expats? Would they be mostly blocked?"
+- supplies:
+  - recap | a brief restatement of established setting logic: Aquileians pass Celestia's radar because they're hospitality workers/tailors not industrialists, plus a proposed parallel for thestral therapists coming from non-violent, medicine-selling artisan tribes vs. drug tribes | a couple of sentences
+- shaping:
+  - apply the same established detection/filtering logic (occupation and tribal origin determining who passes "Celestia's radar") to the new group of Skyfall expats | "Would they be mostly blocked?"
+- openness: The message leans toward an answer it names, proposing "blocked" as the likely outcome for Skyfall expats, while also asking the model to confirm its own hypothesis about thestral therapists.
+- subject: worldbuilding logic for which fictional groups (Aquileians, thestral therapists, Skyfall expats) evade or are caught by a detection system called "Celestia's radar"

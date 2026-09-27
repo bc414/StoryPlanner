@@ -1,0 +1,5 @@
+- sources:
+  - earlier conversations deriving Chrysalis's, Grover III's and Coltbert's exceptionalism from material conditions | offered as precedent: the author's established method of giving characters causal in-world origins rather than authorial fiat, which the new Applejack reading now matches | I spent a lot of time in conversations deriving what material conditions led to Chrysalis's exceptionalism | referred-to
+  - the model's Applejack and Apple family lineage reading from this conversation | accepted as a good insight and adopted as the coherent in-world causal chain for Applejack | This is an excellent insight | referred-to
+- order:
+- about: The user endorses the model's reading of the Apple family's founding as giving Applejack an in-world causal lineage, and compares it to how they earlier derived Chrysalis, Grover III and Coltbert from material conditions instead of authorial preference.

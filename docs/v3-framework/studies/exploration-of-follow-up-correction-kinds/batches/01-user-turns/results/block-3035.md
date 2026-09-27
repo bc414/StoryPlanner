@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further expansion, requesting a material-conditions justification, grounded in the story plan and extrapolated method, for why Severyana is all earth ponies, without stating that anything in the previous answer was wrong.

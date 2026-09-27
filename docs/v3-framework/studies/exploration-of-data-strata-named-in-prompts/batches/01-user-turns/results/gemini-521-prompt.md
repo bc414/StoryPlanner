@@ -1,0 +1,5 @@
+- sources:
+  - end of chapter 8 (Fleur wanting to study Rainbow's special talent and explaining cutie mark theory) | treat as already-planned story material that the new distrust idea must be checked against and made compatible with, as the start of the nerd alliance | I also noted Fleur wanting to study Rainbow's special talent at the end of chapter 8 | referred-to
+  - canon episodes | treat as the show's established events that the new idea should explain, namely why Twilight did not learn the truth about earth pony magic and lose the guilt over replacing AJ earlier | why Twilight didn't learn the truth about earth pony magic from Fleur and be liberated from the guilt of potentially replacing AJ in canon episodes earlier | referred-to
+- order:
+- about: The user proposes a main side conflict (Fleur seeing Celestia as a tyrant) and a possible early distrust of Twilight as a princess, then asks whether that can be reconciled with the chapter 8 setup of the nerd alliance and the Town Hall guilt release.

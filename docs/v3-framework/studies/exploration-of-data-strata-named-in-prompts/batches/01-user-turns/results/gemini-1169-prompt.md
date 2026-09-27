@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author states how they will frame rubber production across traditional raft makers, Chrysalis's tree-killing method, and Star Energy's sap-processing equipment and R&D with the Tzinacatl, without pointing the model at any body of material.

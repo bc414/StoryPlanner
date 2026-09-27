@@ -1,0 +1,4 @@
+- sources:
+  - the 6 step process I outlined | material handed over for the model to read and check; it is the thing to be verified | Here is the 6 step process I outlined. Please verify it | first-named
+- order:
+- about: The user supplies their own outlined 6-step process, in reply to the model saying it couldn't read the CSV, and asks the model to verify it.

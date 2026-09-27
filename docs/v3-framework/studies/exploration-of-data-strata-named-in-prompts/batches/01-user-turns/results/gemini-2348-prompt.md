@@ -1,0 +1,7 @@
+- sources:
+  - the era about pre grover 3 warlords leaving the monsters in aquileia to get taxes | existing lore of the author's timeline that the model is asked to re-examine and say how it changes under the monster-economy premise | the era about pre grover 3 warlords leaving the monsters in aquileia to get taxes | referred-to
+  - the honest racket feudal arrangement | existing lore that the model is asked to reassess for how it is affected by the monster-economy premise | What about the honest racket feudal arrangement, how is that affected? | referred-to
+  - magical monsters provide economic incentives | premise carried over from the current conversation, posed conditionally as the basis for restructuring the earlier eras | So if magical monsters provide economic incentives | referred-to
+  - Scheißwald forest | new detail from the author, offered as an additional monster-hunting ground alongside the open ocean, to be added to the setting | they can also go into the Scheißwald forest, but no one wants to do that | first-named
+- order:
+- about: The author adds a new hunting ground to the setting, then asks the model to work out how the monster-economy premise changes the earlier warlord-tax era and the honest racket feudal arrangement.

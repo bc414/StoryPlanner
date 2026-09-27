@@ -1,0 +1,5 @@
+- sources:
+  - all this context | the current conversation is the basis the model should use to judge which outside posts and articles are relevant | with all this context in mind | referred-to
+  - blog posts or articles on the Internet as of June 2026 | material to look up and draw on, to find pieces that relate to the ideas discussed | are there any blog posts or articles that relate out there on the Internet as of June 2026 | first-named
+- order:
+- about: The user asks the model to use the whole conversation as background to find blog posts or articles on the Internet, current as of June 2026, that relate to the ideas discussed.

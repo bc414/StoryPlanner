@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's Organization and Civilizational System analysis to set out how the Analogies and Allegories tracks should be defined, and pastes the track color scheme code, as a new design decision and not a response to what the model said.

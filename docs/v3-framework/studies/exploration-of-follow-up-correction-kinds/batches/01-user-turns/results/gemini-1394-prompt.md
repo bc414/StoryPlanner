@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether Synovial should depict Chrysalis as sentimental at her adoptive parents' deaths, then adds backstory about her biological mother, the failed attack on Vraks, the short-lived alliance with Ditrysium, and why she handed Vesalipolis to Synovial.

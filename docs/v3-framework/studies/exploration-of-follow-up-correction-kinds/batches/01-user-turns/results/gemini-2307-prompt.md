@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about why diesel-electric drivetrains beat mechanical gearbox drivetrains and whether the hybrid costs more up front, taking the model's account as given and probing its comparison without disputing anything.

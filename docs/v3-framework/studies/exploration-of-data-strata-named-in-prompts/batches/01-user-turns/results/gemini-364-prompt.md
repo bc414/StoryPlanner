@@ -1,0 +1,5 @@
+- sources:
+  - my gemini chat (the chat history on the Gemini website) | not loading its history when scrolled up; the user wants its scrolling interface restored | My gemini chat is not loading the history of the chat even when I scroll up | first-named
+  - Google My Activity Gemini Apps | shows the prompts and responses intact, so the user treats it as the fallback record to export from if the chat UI cannot be restored | I went to Google My Activity Gemini Apps and I see the prompts and responses there | first-named
+- order:
+- about: The user drops the coding topic to ask how to get the Gemini website's chat history scrolling working again, or failing that how to export their conversation data from Google My Activity.

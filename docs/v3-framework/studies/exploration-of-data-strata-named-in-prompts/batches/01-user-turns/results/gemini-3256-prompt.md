@@ -1,0 +1,4 @@
+- sources:
+  - the video's analysis of South Korean men being pushed into pristene "spec" culture rather than warrior aesthetics | treat as the basis for the parallel to Equestrian stallions; go back into it and explain it in full | Dive back into the video's analysis | referred-to
+- order:
+- about: The user asks the model to return to a video's analysis of South Korean men and spec culture and explain how it parallels Equestrian stallions living in a Princess's harmonic realm, which they want to understand fully.

@@ -1,0 +1,5 @@
+- sources:
+  - the ones currently featured (areas of economics already in the story) | treat as the already-covered baseline; the model should find areas beyond these | just as important as the ones currently featured but not yet touched upon | referred-to
+  - real world economics | the field to draw on for suggesting further areas of comparable importance | What other areas of real world economics | referred-to
+- order:
+- about: The user asks the model to suggest further real-world economic areas of comparable importance that the story has not yet covered.

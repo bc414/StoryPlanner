@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question, extending the previous answer on British WWII labor mandates to ask how the US and pre-occupation France handled the same, without pointing at any body of material to use or avoid.

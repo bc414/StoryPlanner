@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user submits their packaging script and a sample output and asks for one more review for big improvements or a ready-to-go verdict, without saying anything in the prior turn was wrong.

@@ -1,0 +1,7 @@
+- steps:
+  - the author | request | asks for a prompt to build a feature comparing character text against original story notes with red/green highlighting | opening message of the exchange
+  - the model | deliver | a structured build prompt specifying inputs, core matching/indexing logic, rendering rules, and UI requirements for a React coverage-map component | body of the response
+  - the model | extend | a suggestion to make red (uncovered) text clickable with an omission tooltip, plus an offer to write the underlying indexing function | closing of the response
+- kept:
+- brought: The author brought a tooling need from outside the story plan itself: a request for a prompt to build a verification feature that checks captured notes against the raw original notes.
+- loop: The author asked for a ready-to-use build prompt for a verification tool, and the model returned a complete technical spec plus an extension idea and an offer of further code; nothing from this exchange was drawn into the planning database.

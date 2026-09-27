@@ -1,0 +1,4 @@
+- sources:
+  - my story plans for The Lioness of Tall Tale | weight: treat as the material to be analyzed for how Chrysalis's characterization and motivations evolved across its development | marks: "throughout the development of my story plans for The Lioness of Tall Tale" | new: referred-to
+- order:
+- about: The user asks for a thorough, conversationally-styled analysis of how Chrysalis's characterization and motivations have evolved across the development of their story plans for The Lioness of Tall Tale.

@@ -1,0 +1,16 @@
+- steps:
+  - author | opens question | asks for in-world explanations of Chrysalis's biological difference (height, mane, pony eyes) from other changelings | opening exchange
+  - model | offers option menu | four alternate explanations tied to established themes (poseur, red-love gigantism, anti-Celestia adaptation, false-self shell) | opening exchange
+  - author | selects and redirects | picks the 'poseur' angle, proposes then rejects an anti-detection spell as a plot hole, pivots to a costly permanent-transformation potion, and names Actia Pagala as the sole exception | second exchange
+  - model | elaborates mechanic | names the elixir, ties its cost/prohibition to Red Love and Chrysalis's conquests, and extends Pagala's backstory with invented dialogue | second exchange
+  - author | extends timeline | places the permanent transformation before the 978 return and links it to the ending (canned pink-love airdrop, submarine escape, griffoness disguise, Skyfall fraud arrest) | third exchange
+  - model | builds timeline | full pre-978 ascension / 1011 fall / Skyfall rebirth sequence showing how the escape resolves the earlier plot hole | third exchange
+  - author | adds constraint | notes she still holds changeling magic in griffon form and that using it risks exposing/reverting her, so she must avoid casting openly | fourth exchange
+  - model | develops handicap mechanic | 'zero state' detection logic, a masquerade constraint against casting, a passive-magic workaround, and an arrest-scenario risk calculation | fourth exchange
+  - author | proposes alternate origin | suggests Pagala first invented a simple cosmetic pink elixir for herself, and Chrysalis stole and scaled that idea for her own transformation | fifth exchange
+  - model | elaborates invention chain | frames Pagala's vanity-project origin, Chrysalis's 'eureka' acquisition, the scale-up to a titan formula, and the reason Pagala is kept alive | fifth exchange
+  - author | extends worldbuilding | requires Chrysalis be already transformed before returning to Vesalipolis, and raises who would remember her old form and how she secures legitimacy despite the deception | sixth exchange
+  - model | answers with narrative devices | proposes a 'Great Metamorphosis' myth, ways of silencing witnesses, a name-vs-body legitimacy argument, and an industry tie-in, closed with a summary timeline | sixth exchange
+- kept:
+- brought: The author brought forward already-established story facts (the 978 return to Vesalipolis, the allies' pink-love airdrop, the submarine escape, and the Skyfall grifter arrest news item) that the new biological explanation for Chrysalis had to be reconciled with.
+- loop: The author repeatedly brought a worldbuilding problem or constraint (a biological inconsistency, a plot hole, an added detail from established continuity) and the model returned an elaborated in-world mechanism to resolve it, with the author then building the next constraint on top of the model's answer across six exchanges; despite this sustained back-and-forth, no notes from this stretch were traced into the planning database, so none of this elaboration is shown as having been kept anywhere.

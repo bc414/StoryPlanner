@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's offer to draft the two chained System Instructions and asks for the JSON schemas, plus an explanation of how JSON schemas are created and used for structured output.

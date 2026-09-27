@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches the original early Gemini prompt file and sends the model to trace where "nursery" came from and why, extending the question into a wider audit of Gemini-derived tropes against the project's later materialist-historicist discipline, without saying anything in the model's analysis was wrong.

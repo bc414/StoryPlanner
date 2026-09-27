@@ -1,0 +1,6 @@
+- sources:
+  - EaW OCs (recognizable figures from Equestria at War) | candidate pool to pick a griffon FAANG-allegory character from; look for recognizable figures there | Are there any recognizable figures from EaW OCs that can work? | first-named
+  - the EaW fandom (searched recently) | search it now to ground the investigation into candidates | Search the EaW fandom recently to ground the investigation | first-named
+  - the model's previous suggestions (Moondancer, Coco Pommel and the other equestrian characters) | rejected, do not use; they don't fit | These equestrian characters don't fit | referred-to
+- order:
+- about: The user rejects the model's equestrian candidates, asks it to search the EaW fandom for a recognizable griffon OC to serve as the FAANG-allegory side character, and lays out the character's required backstory path through Skyfall, Mount Aris and Ain Trotgourait while asking where they go afterward.

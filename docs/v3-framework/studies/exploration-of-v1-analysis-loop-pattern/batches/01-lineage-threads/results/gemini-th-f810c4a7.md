@@ -1,0 +1,72 @@
+- steps:
+  - author | brings design question | example flattened bucket list plus question of one-bucket-vs-multi-bucket placement | opening of conversation
+  - model | analysis and proposal | verdict favoring many-to-many tagging, draft sorter system prompt and JSON schema | reply to opening question
+  - author | verification question | asks whether the approach still achieves the consolidation goal despite size increase | early exchange
+  - model | justification | three-part explanation of why temporary expansion enables later compression | reply
+  - author | brings prior artifact | existing phase 0 system prompt, asks for reanalysis under the new multi-bucket rule | mid-early exchange
+  - model | analysis and revision | flags overlap risk, proposes edits to task and extraction-directive wording | reply
+  - author | correction | supplies the actually-intended system prompt and clarifies the 'one bucket per paradigm' rule | correction turn
+  - model | reanalysis | reframes design as a faceted classification system, proposes two surgical edits | reply
+  - author | brings own revision | self-authored phase 0 prompt, flags a missing chronology axis, asks if instructions caused vagueness | mid exchange
+  - model | diagnosis and fix | explains an attention-weighting cause, proposes hardcoding mandatory axes | reply
+  - author | attaches document | full plan export document with no accompanying question | mid conversation
+  - model | unsolicited content analysis | tiers story content into mandatory/frequent/other categories with stats | reply to attachment
+  - author | redirect | rejects content-level analysis, asks instead for generic fundamental sorting axes | correction turn
+  - model | conceptual list | five new generic fundamental axes for worldbuilding sorting | reply
+  - author | synthesis request | asks to merge original plus new axes into one system prompt letting the model choose | mid exchange
+  - model | draft | finalized phase 0 system prompt listing all seven axes as a selectable menu | reply
+  - author | brings artifact | existing phase 0 structured-output JSON schema, asks if changes are needed | mid exchange
+  - model | proposal | suggests hardening schema with enum and min/max constraints | reply
+  - author | correction | notes the visual editor can't parse those constraints, asks for a plain version | correction turn
+  - model | compliance | returns schema matching the original simple style | reply
+  - author | brings artifacts and question | actual phase 0 output plus existing phase 1 prompt, asks for a new phase 1 prompt with explanation | mid exchange
+  - model | rewrite plus rationale | replaces waterfall logic with a faceted extraction protocol, explains each change | reply
+  - author | verification question | asks directly whether the mutual exclusivity rule makes sense | mid exchange
+  - model | verdict with caveat | confirms the logic but flags an interaction-trap danger, offers two fixes | reply
+  - author | refinement | states not every thought should be forced into every paradigm, only relevant ones | correction turn
+  - model | incorporation | names it a sparse tagging system, produces a master phase 2 prompt using the rule | reply
+  - author | clarifying question | asks whether a conflict note may route to a different paradigm than its subjects | mid exchange
+  - model | confirmation with example | confirms, explains separating entities from friction | reply
+  - author | follow-up question | asks whether other axes besides demographics have exclusivity friction | mid exchange
+  - model | analysis | identifies three more axes with boundary blur, gives examples | reply
+  - author | design proposal | proposes atomic-plus-intersection-bucket model, asks if sound and whether both sides belong together | mid exchange
+  - model | validation and rationale | confirms design, explains purity-of-definition versus reference-paradox tradeoff | reply
+  - author | instruction request | asks to regenerate the phase 1 task with intersection nuance and list relational axes | mid exchange
+  - model | revision | classifies relational versus categorical axes, gives revised phase 1 task text | reply
+  - author | instruction request | asks to add an explicit categorical protocol as well | mid exchange
+  - model | revision | adds categorical protocol alongside relational, gives combined phase 1 prompt | reply
+  - author | two requests | asks about internal bucket ordering, tightens bucket word cap from eight to five | mid exchange
+  - model | revision | adds ordering rules and applies the new word cap in an updated phase 1 prompt | reply
+  - author | brings artifact and multi-part question | actual phase 1 output, asks if valid phase 2 input, asks about orphan exclusivity, requests phase 2 prompt and a requirements recap | mid-late exchange
+  - model | answers plus draft plus recap | answers structural questions, drafts phase 2 prompt, lists captured requirements as requested | reply
+  - author | new requirements | adds four asks: pronoun resolution, formatting stripping, a diffing method, isolating meta-notes to self | late exchange
+  - model | integration | folds all four into a revised phase 2 prompt, adds an authorial-directives paradigm and coverage-map strategy | reply
+  - author | refinement | rejects having the model output originals for diffing, proposes a pronoun-ignoring coverage map instead | late exchange
+  - model | agreement and rewrite | adjusts prompt to prioritize alphanumeric payload over exact string, explains fuzzy matching | reply
+  - author | architecture question | asks whether to pre-sanitize all input across phases instead | late exchange
+  - model | verdict | recommends against pre-sanitization, explains attention-mechanism reasoning | reply
+  - author | pushback question | questions why word order is permitted to shift in the prior prompt language | late exchange
+  - model | justification | explains grammatical necessity of shifts, ties to fuzzy skeleton verification | reply
+  - author | rejection | rejects shifting outright, demands rigid verbatim text | late exchange
+  - model | hardening | rewrites the phase 2 protocol to a zero-modification rule | reply
+  - author | clarifying question | asks if atomic chunking should be exactly by sentence | late exchange
+  - model | answer | rejects strict sentence splitting, proposes semantic complete-thought-unit chunking | reply
+  - author | terminology question | asks whether 'sentence' should be mentioned at all | late exchange
+  - model | terminology revision | drops 'sentence', standardizes on 'atomic thought' throughout | reply
+  - author | request | asks for a structured output schema matching the phase 2 prompt | late exchange
+  - model | schema draft | provides JSON schema for the phase 2 sorter output | reply
+  - author | brings evidence | a long model thinking trace from a pipeline run, asks if it is stuck in recursion and why | late exchange
+  - model | diagnosis | identifies a semantic reasoning loop, gives evidence and causes, suggests breakers | reply
+  - author | comparative question | asks whether a larger model avoids loops better than the smaller one | late exchange
+  - model | comparison and suggestions | contrasts model architectures, offers loop-mitigation tactics | reply
+  - author | instruction with exclusion | rejects the loosening suggestions, asks for phase 2 refinement and whether to add a persona | late exchange
+  - model | revision | confirms persona is useful, gives persona-anchored phase 2 prompt with a no-recursion constraint | reply
+  - author | correction | flags that the lossless-coverage and garbage/authorial requirement is missing from the latest draft | late exchange
+  - model | correction accepted | reinstates mandatory global coverage requirements into the prompt | reply
+  - author | verification question | asks if any other earlier requirements are still missing | late exchange
+  - model | audit | surfaces three unresolved conflicts and asks the author to decide between them | reply
+  - author | decision | resolves the conflict by choosing full ugly verbatim with no pronoun replacement, asks for updated instruction | final exchange
+  - model | final draft | issues the final hardened phase 2 system instruction reflecting the decision | reply
+- kept:
+- brought: The author brought their own in-progress multi-phase sorting-pipeline artifacts — prior system prompts, JSON schemas, generated example outputs, a raw model thinking trace, and once a full 96,720-word plan export document — to drive each design question forward.
+- loop: The author repeatedly brings a pipeline artifact (a prior prompt, a schema, a generated output, or a pointed correction) from their own tool-building project; the model returns analysis, a verdict, or a revised prompt draft; the author then confirms, corrects a misreading, or tightens a constraint, and the cycle repeats to iteratively harden three system prompts for an AI note-sorting tool — none of which fed back into the story's planning database itself, since no notes trace to this stretch.

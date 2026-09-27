@@ -1,0 +1,10 @@
+- asks:
+  - review | look over the assembled story-plan elements for coherence or issues | "Please review my story plans"
+  - synthesize | pull the separate plan elements (Applejack's role, Chapter 7 plot, antagonists, worldbuilding belief) into a combined, coherent picture | "and synthesize"
+- supplies:
+  - character-role note | Applejack as military governor of Tall Tale's command economy who delegates to Star Energy while believing she's merely a morale figurehead for "hard truth honesty" | a couple of sentences
+  - chapter plot summary | Chapter 7: EEEE runs a referendum to take over Manehattan's mayoralty and institute mobilization laws, opposed by tycoon antagonists (unwitting students of Chrysalis) holding Skyfall Marks under submarine blockade, who prop up a stagnant mayor paralyzed by the gold standard despite having invited refugees, amid Equestria's bits being drained by trade deficits | a paragraph
+  - worldbuilding claim | assertion that Celestia's Stagnation of Harmony lacks strong federal laws, leaving local jurisdictions with unused power | one sentence
+- shaping:
+- openness: Leans toward reviewing and combining the plan elements as stated rather than inviting new alternatives, since each element is presented as an established belief or plot fact ("I believe...", the plot "involves...") to be reviewed and synthesized.
+- subject: Chapter 7 plot and worldbuilding for a political-economic fantasy story involving Applejack's governorship, an EEEE-led referendum in Manehattan, tycoon antagonists, and Equestria's federal law structure

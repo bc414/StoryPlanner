@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the drug-cocktail discussion to ask a new, general question about the chemistry of withdrawal across drug classes, without disputing anything in the model's answer.

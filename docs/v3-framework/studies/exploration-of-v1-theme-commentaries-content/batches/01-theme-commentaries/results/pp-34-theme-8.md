@@ -1,0 +1,4 @@
+- passages:
+  - on-page plan | Henri introduces the French word "poseur" in the scene, so the theme's key term first enters the story here as something he says | "Henri unveils the french term \"poseur\"" | yes | plain declarative planning shorthand, a one-line event summary
+  - on-page plan | Henri gives a definition of a poseur in dialogue: claiming strength or status without the asset specificity to back it | "defines a poseur as someone who claims strength or status without the asset specificity to back it" | yes | declarative line that repeats the synopsis's wording, in the form of a plot beat
+- whole: A two-line commentary that restates what happens in the scene, Henri introducing and defining the word "poseur", without saying how that bears on the theme.

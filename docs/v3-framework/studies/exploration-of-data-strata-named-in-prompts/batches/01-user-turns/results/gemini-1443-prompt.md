@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user says the suggested name Foyer des Joueurs d'Aquilée is strong but asks for alternative names that avoid Aquileia as the "A", so the club does not look like a foreign state-sponsored venue promoting Aquileian exports to isolationist Equestrians.

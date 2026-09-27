@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - real-world word usage (own name) | The model's claim that 'poser' would make a typical reader picture a skater, and so break immersion, is put in doubt. The user's own understanding is a general 'fraud who is posturing', tied to wannabe fascists, with no skating link. | 'I know nothing about the term being used for skating' and 'I always thought of "Poser" meaning "fraud who is posturing"' | Indirect and mild. It is given as the user's own contrary experience, with a question about what typical readers picture. It is not stated as disagreement.
+- about: The user takes up 'Poseur', explains that Henri's French-language background is why it suits, and pushes back on the skater association with their own understanding of 'poser', while asking how American readers will take the word.

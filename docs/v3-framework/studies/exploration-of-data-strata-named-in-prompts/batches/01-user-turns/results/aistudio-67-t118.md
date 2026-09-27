@@ -1,0 +1,8 @@
+- sources:
+  - EaW canon (Severyana as a feudal Russian-inspired vassal of Equestria, the 995 ALB Winter Revolution and Stalliongrad) | binding constraint that the reworked history must adhere to and not contradict | constraints that I must adhere to | first-named
+  - My old story plan (Severyana culturally separate, boyars using Celestia as suzerain for arbitrage, Chrysalis's Skyfall industry from 981, Trimmel's true believers inciting the Winter Revolution) | earlier version whose explanation of Severyana is being reworked; its Skyfall/Chrysalis industrialization is kept only as one option to weigh against the new idea | My old story plan needed a way to explain | first-named
+  - the new plan for Celestia and Equestria (timeline revisions of Celestia's attitude, stagnation of harmony and industrial influence, the 930 petitions) | current framework that the Severyana backstory must be made consistent with | align with the new plan | referred-to
+  - the user's new ideas for Severyana (cold latitude, Celestia's banning of foreign intervention, griffon-science industrialization via safer seas, alternative Skyfall-only industrialization) | provisional proposals for the model to evaluate and analyze, not settled, with open questions left | Please evaluate the following new ideas | first-named
+- order:
+  - EaW canon over the new ideas for Severyana | the new ideas must fit constraints the author must adhere to, e.g. boyars naming Celestia tsarina around 500 ALB as canon dictates
+- about: The user asks the model to evaluate and analyze new proposals for Severyana's backstory (climate, isolation, origin of industrialization, Celestia's suzerain stance) so that Stalliongrad's history fits both EaW canon and the revised plan for Celestia and Equestria.

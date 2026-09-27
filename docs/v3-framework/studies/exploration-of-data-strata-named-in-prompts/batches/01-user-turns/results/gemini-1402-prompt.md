@@ -1,0 +1,8 @@
+- sources:
+  - the narrative direction just analysed (the Applejack/Kemerskai synthesis) | treat as settled and fixed, the base for the next step | This is a lock on the narrative direction | referred-to
+  - my story's stage classification (Stages 1, 2, 3A, 3B, 3C, and "predators" such as Chrysalis, Vérany, Skyfall) | use as the framework for mapping onto the real world; the 3C label is tentative, marked with a question mark | what my story classifies as "predators" | referred-to
+  - Kemerskai's path from Stage 1 to 2 to 3B | use as the story's ideal for formerly colonised nations, with the likelier real outcome being 3A | Kemerskai's path from Stage 1 to 2 to 3B is what the ideal is | referred-to
+  - Applejack's story of going back to Equestria and moving it from Stage 3 to 3B | use as what the story should argue is the right course for America today | what my story should argue is what should happen in America today | referred-to
+  - the author's own account of the real world today (America and the West as 3A predatory plus 3C stagnant, the 1%, lobbying, Citizens United, drugs, social media, colonial extraction) | take as the premise and the target of the social commentary | The Western world today, especially America, is in a "stage 3A" stage | first-named
+- order:
+- about: The author confirms the Applejack/Kemerskai direction as settled and asks for an analysis mapping the story's stage framework onto the real-world West, especially America, as social commentary for readers.

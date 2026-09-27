@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new scene beat, Applejack saying "world peace" and Celestia visibly flinching, building on the model's Luna-confession backstory without disputing any part of it.

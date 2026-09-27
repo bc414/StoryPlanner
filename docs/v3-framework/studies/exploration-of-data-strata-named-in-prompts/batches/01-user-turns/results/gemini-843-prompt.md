@@ -1,0 +1,6 @@
+- sources:
+  - the Pokemon story | referred-to: treat as an independent, self-contained work created without knowledge of MLP, whose 6 characters were built from scratch with their own personalities and dynamics | marked by 'I wrote the Pokemon story before knowing anything about MLP' and 'I came up with my 6 main characters from scratch' | first-named
+  - my 6 main characters (Helena, Terry, Max, Chadwyck, Lily, Windie) | referred-to: use as the basis for the requested comparison, treated as a distinct set with unique personalities and dynamics | marked by 'gave them unique personalities and dynamics with each other' | first-named
+  - the MLP mane 6 | referred-to: use as the other side of the requested comparison, treated as an already-known reference set | marked by 'compare to the MLP mane 6' | referred-to
+- order:
+- about: The user asks the model to compare their six independently-created Pokemon story characters (Helena, Terry, Max, Chadwyck, Lily, Windie) to the MLP mane six, noting the former were designed from scratch before any knowledge of MLP.

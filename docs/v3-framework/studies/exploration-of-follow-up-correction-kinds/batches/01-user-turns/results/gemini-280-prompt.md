@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a compact synthesis of the model's comparison, contrasting the Aquileian model's reliance on trade with Herzland's reliance on institutions at home and a universal translator abroad, and invites confirmation or extension without disputing anything.

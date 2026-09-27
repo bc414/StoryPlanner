@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's analysis by stating new facts about the FJA (communal, nationalist, proud of its specialised talents, so it would not betray the country or swap wheat for ham) and the PNdA (strict anti-corruption laws, because being a conman is the ultimate dishonor).

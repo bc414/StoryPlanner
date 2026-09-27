@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short follow-up about the neighbouring term "historical materialism", seeking an explanation of it after the model's account of materialist historicism, without stating that anything in that account was wrong.

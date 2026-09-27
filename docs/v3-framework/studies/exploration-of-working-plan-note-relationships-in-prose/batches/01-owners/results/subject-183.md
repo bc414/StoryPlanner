@@ -1,0 +1,5 @@
+- relations:
+  - 2023|2024|The in-world note says the technology established the Aquileian insult of poseur; the analogy note explains what that insult means and ties it to rent-seeking models, so it gives the real-world basis and meaning of the insult the other note reports|"Aquileian cultural insult of poseur" / "Calling rent-seekers \"Poseurs\""|implicit
+- outward:
+  - 2023|The Aquileian culture, the in-world people whose insult this is, held elsewhere in the world|"Aquileian cultural insult"
+- whole: The two notes hang together, since the analogy note explains the insult that the civilization note says the technology established.

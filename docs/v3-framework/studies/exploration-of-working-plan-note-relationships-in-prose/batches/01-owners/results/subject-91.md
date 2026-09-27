@@ -1,0 +1,10 @@
+- relations:
+  - 845|843|the real-world balsa raft is the model for the rule: lashed, buoyant logs flex over rapids where a rigid hull would shatter, and the rafts flex and bounce back instead of shattering|"they flex over rapids where a rigid boat would shatter" / "instead of shattering against rocks"|implicit
+  - 846|843|the natural polymer rubber the rafts are made for gives a material basis for the flexing and bouncing back; the usage note presupposes the elastic, living raft the function note states|"magical natural polymer rubber" / "flexes, breathes, and bounces back"|implicit
+  - 844|843|two complementary rules for handling rocks in rapids: one detects submerged rocks by echolocation, the other has the raft survive striking them by flexing|"detect submerged rocks" / "against rocks"|implicit
+  - 845|844|the analogy stresses rafts handling rough rivers, and the echolocation note gives how the fantasy rafts navigate rapids in the dark; the note on the balsa raft does not cover sensing|"rough rivers" / "navigate the rapids"|implicit
+- outward:
+  - 846|a war being fought elsewhere in the story, which the rubber supplies|"for the war effort"
+  - 846|the people whose special talents and the terroir (land and its conditions) that produce the rubber, held elsewhere in the plan|"terroir and their special talents"
+  - 845|the real-world Inca and South American balsa raft tradition|"Balsa Raft (Inca/South American)"
+- whole: The notes hang together loosely: the analogy and the flexing rule join clearly, and the echolocation and rubber notes each attach to the same rafts, but they add separate facets and do not point at one another.

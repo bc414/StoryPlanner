@@ -1,0 +1,12 @@
+- steps:
+  - author | drafts scene and requests title options | chapter 1 outline of Applejack's guilt after machine-gun battle, plus ask for alternatives to "Duty"/"Responsibility" | opening of gemini:77
+  - model | brainstorms categorized options | grouped HOI4-term title candidates (double-meaning, penitence, irony, sensory) with a recommendation | gemini:77 response
+  - author | selects a title and adds a plot detail, then probes an alternative | picks "Command", adds the "just Applejack" line detail, asks whether "General" could work plus other options | gemini:78 prompt
+  - model | argues against the alternative and expands options | contrasts abstract vs concrete nouns to reject "General", offers further candidates, reaffirms "Command" | gemini:78 response
+  - author | drafts next chapter and requests a title check | chapter 2 outline of Comet Shine teaching Applejack, plus proposal of "Organization" as title | gemini:79 prompt
+  - model | validates the proposed title and offers alternatives | confirms "Organization" fits, lists further HOI4-term candidates, recommends "Doctrine" instead | gemini:79 response
+- kept:
+  - note 2335 | the author's own words in this record | keeps the chapter 2 scene summary (Comet Shine teaching Applejack about Tall Tale's defense) verbatim, filed as a Link entry between Comet Shine and Applejack
+  - note 4539 | pasted whole from this reply | keeps the model's paragraph justifying "Organization" as the HOI4-derived chapter title, filed as the description of a Chapter node named "Organization"
+- brought: none
+- loop: The author repeatedly brings a freshly drafted chapter summary plus a candidate HOI4-style title, and the model returns a categorized brainstorm of alternatives with a recommendation, which the author uses to confirm or refine the pick rather than adopt the model's top choice wholesale; the plan then keeps only the author's own scene summary and the model's justification for the title the author actually settled on, filed under the corresponding chapter/link nodes.

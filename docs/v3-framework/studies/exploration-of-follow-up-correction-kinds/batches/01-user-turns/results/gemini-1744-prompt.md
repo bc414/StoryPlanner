@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the translation to ask for an explanation of the French grammar behind two similar organization names (Jeunesse versus Jeunes), so they can adapt the name without getting the French wrong.

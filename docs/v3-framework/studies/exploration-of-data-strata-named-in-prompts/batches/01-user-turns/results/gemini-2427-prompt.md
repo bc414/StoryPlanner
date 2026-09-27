@@ -1,0 +1,7 @@
+- sources:
+  - community headcanon that Trixie's home town is New Mareleans | treat as a fan-made idea, not settled canon; the model is to trace where it comes from and weave it into the author's lore as an Aquileian-inspired origin for Trixie | There's a community headcanon that Trixie's home town is New Mareleans | first-named
+  - my lore about Aquileia being the ego-capitalist center of the world | the author's own established lore, the frame the headcanon is to be woven into | how can I weave it into my lore about Aquileia | referred-to
+  - Trixie in Boast Busters (published show) | treat as canon: Trixie acts as a performative poseur; used as a fixed point to reconcile with the headcanon and the lore | Trixie canonically acts as a performative poseur in boast busters | first-named
+  - meta criticism of how the mane 6 acted in Boast Busters | treat as a fan critical reading, a counter-interpretation that Trixie was only doing her special talent of performance and was upstaged; to be considered alongside the canon | there's also some meta criticism of how the mane 6 acted, upstaging Trixie | first-named
+- order:
+- about: The user asks the model to explain the origin of a fan headcanon placing Trixie's home in New Mareleans and to combine it with their Aquileia ego-capitalism lore, Trixie's canon showboating in Boast Busters, and the fan critique of the Mane 6's treatment of her.

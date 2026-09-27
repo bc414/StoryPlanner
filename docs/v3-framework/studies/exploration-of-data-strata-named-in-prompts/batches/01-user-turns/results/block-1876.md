@@ -1,0 +1,6 @@
+- sources:
+  - the statement quoted from the model's previous turn about conscience, donated coherent love and the charitostatic surplus | reject the model's classification of it as a world law; treat it as a Theme, not an ontology or invariant truth | this statement is a Theme, not a world law's ontology or invariant truth | referred-to
+  - The Predator's Dilemma as the world law entry | provisional candidate the author is weighing as the world law; described as an invariant truth about the creatures in-universe | I am considering The Predator's Dilemma as the world law entry | referred-to
+  - the Dilemma chapter (Twilight and Applejack read Coltbert's paper on the plane, then meet Coltbert in Pridea) | story-plan point where the reveal plan for the Elements of Liberty is expected to reach its climax | the reveal plan reaches climax in the Dilemma chapter | referred-to
+- order:
+- about: The user rejects the model's framing of the conscience statement as a world law (calling it a Theme), proposes The Predator's Dilemma as the world law entry instead, and asks where the Elements of Liberty reveal plan should be filed.

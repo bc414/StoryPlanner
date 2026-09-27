@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the task to be compiling the notebook into a downloadable file, when the user wanted a retelling and analysis of its contents | I don't want a file; I already have that. I want a retelling of what it contains and analysis | flat rejection of the deliverable, with a reason (they already have the file) and then a restatement of what they want
+  - register or format | The model planned to output a saved markdown file of raw content rather than a prose retelling with analysis | I want a retelling of what it contains and analysis | stated plainly as the wanted form of output, following the rejection
+  - reading of the request | The model was treating the size of the notebook as grounds for partial or sampled handling and offering options, while the user wants the whole thing read with no skipping so details are kept | I want you to read it all without skipping so that details are not dropped | flat directive, stated as a requirement with its purpose given
+- about: The user rejects the model's plan to compile the notebook into a file, redirecting it to read the entire notebook and deliver a retelling with analysis that keeps all details.

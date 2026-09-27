@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's analysis of the manosphere and Love Island editing and asks it to elaborate on a separate topic, the FedEx shooter Applejack example, which is a request for more information and not a correction.

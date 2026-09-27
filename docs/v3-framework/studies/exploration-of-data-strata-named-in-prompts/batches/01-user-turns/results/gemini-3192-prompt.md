@@ -1,0 +1,5 @@
+- sources:
+  - my Gemini system prompt | weight: use as the definition of the task against which Sonnet and Opus are to be compared | marks it: "the task outlined by my Gemini system prompt" | new: first-named
+  - total verification against the whole Bible | weight: strip out / exclude this specific instruction from the comparison because it goes against the grain | marks it: "Stripping out specific instructions that go against the grain like total verification against the whole Bible" | new: first-named
+- order:
+- about: The user asks the model to compare Claude Sonnet and Opus for the task defined in their Gemini system prompt (minus one instruction they want excluded), specifically probing whether Opus offers real benefit over Sonnet given the practical prompt-volume trade-offs of a $20/month Claude Pro subscription.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's outcome that Vérany sells out and becomes the long-term uniform supplier for the army and police, which the user finds out of character for him | "I can't imagine Verany making uniforms for thugs for very long" | Stated as a personal doubt about the character, softened by "for very long", with no reason given, and followed at once by a request for a way around it
+  - fact of the world | The model's picture of Vérany's lesson and output, which was that he learns desire drives the economy and makes beautiful, stylish machines; the user sees him going for efficient capital equipment | "I think Verany would focus on capital equipment that has more efficiency" | Hedged as "I think", offered as the user's own direction, and not framed as disagreement with the model
+- about: The user doubts that Vérany would stay a police-state tailor, and asks for a clever way for him to turn Coltbert's humiliation around, while suggesting pity donations and efficiency-focused capital equipment as directions.

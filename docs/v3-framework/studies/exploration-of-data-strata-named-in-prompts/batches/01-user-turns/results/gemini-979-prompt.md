@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to offer real-world historical parallels for the economic thesis it just laid out, without pointing at any particular body of material.

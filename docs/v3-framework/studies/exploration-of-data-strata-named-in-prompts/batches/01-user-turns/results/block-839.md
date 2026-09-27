@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to trace generational childhood conditions and cynicism since WW2 (the era their story's allegories come from), weigh that against rising income inequality and other factors, and predict how different audiences would receive their story compared with mainstream grimdark works, without pointing the model at any particular body of material.

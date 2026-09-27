@@ -1,0 +1,5 @@
+- sources:
+  - Synovial's old tanks, green crews and terrified conscripts, his orders to prevent the Army of Tall Tale redeploying, and the fortified river bank front line static since the 2nd battle of Tall Tale | treat as the given premise and work within it when devising Synovial's plan | If Synovial has a bunch of old tanks, green crews... Tall Tale army is fortified along a wide river bank | first-named
+  - the elastic retreat staged by Applejack | treat as the known upcoming plan; Synovial's plan is to be set before it, without it being applied | Before Applejack tricks him by staging the elastic retreat | referred-to
+- order:
+- about: The user asks the model to work out what plan and operational instructions Synovial would give with his weak, green forces to pin the Tall Tale army in place, at the point before Applejack's elastic retreat trick, given the static river-bank front they describe.

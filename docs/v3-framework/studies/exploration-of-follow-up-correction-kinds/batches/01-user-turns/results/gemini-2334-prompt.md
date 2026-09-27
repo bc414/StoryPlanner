@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's premise that Skyfall's escort/privateer ships are armed merchantmen carrying cargo like Dutch East Indiamen; in the setting's 1900-1940 era the warships escort separate cargo vessels | I don't imagine the privateer/escort ships carry cargo like the Dutch east indiaman. This is 1900-1940 era | flat statement of the intended setup, with the era given as the reason, said in passing before a new question
+  - fact of the world | The model's age-of-sail imagery (Imperial Galleons, Retourships, scraping eagles off bows) when the fleet should be early-20th-century steel warships | I'm imagining 1900s steel menaces, not 1600s caravels | flat contrast between what the user pictures and what the model's imagery implied, folded into the follow-up question
+- about: The user briefly corrects the model's East-Indiaman, sail-era picture of Skyfall's fleet by fixing the setting at 1900-1940 with separate cargo ships, then asks what steel warship types (destroyers, cruisers, battleships) the ships would be.

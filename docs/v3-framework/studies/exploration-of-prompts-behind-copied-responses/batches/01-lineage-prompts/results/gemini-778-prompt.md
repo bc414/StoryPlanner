@@ -1,0 +1,9 @@
+- asks:
+  - proposal | pitches a refined plot mechanic distinguishing an old literal-translation device from a new context-aware universal translator, specifically regarding how each handles character names | marked by "I have an even better idea"
+- supplies:
+  - prior idea recap | a earlier suggestion that the Universal Translator renders pony names literally | one sentence
+- shaping:
+  - specify the old translator's behavior: Fluttershy's name should come out as its literal German translation | "Fluttershy should turn onto its literal German translation"
+  - specify the placement and nature of each device: old one given by Henri in chapter 6 does literal old-Google-Translate-style rendering; new one obtained later in Cloudbury recognizes and preserves names via context, like an LLM's attention | "the old translator that Henri gives Fluttershy in chapter 6... the new universal translator that they get in Cloudbury much later"
+- openness: Leans toward an answer it names: the message states its own preferred mechanic as already decided (\"I have an even better idea\") rather than asking for alternatives or open brainstorming.
+- subject: Designing how two in-story translator devices handle proper names (literal mistranslation vs. context-aware preservation), especially Fluttershy's name

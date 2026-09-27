@@ -1,0 +1,7 @@
+- sources:
+  - Aquileian lore, as the author built it out into ego-capitalism | treat as the current, settled definition of the Aquileians and the basis for Comet Shine's motives | I built out Aquileian lore | referred-to
+  - the earlier framing of the Aquileians as the source of all modernity and saviors of Tall Tale | treat as superseded by the ego-capitalism version | moving them from "the source of all modernity and saviors of Tall Tale" | referred-to
+  - the Comet Shine backstory and Star Energy structure laid out in this turn | treat as firmly defined and intentional, and build on it | Now I'm firmly defining it | first-named
+- order:
+  - Aquileian ego-capitalism | over the earlier framing of the Aquileians as the source of all modernity and saviors of Tall Tale | moving them from "the source of all modernity and saviors of Tall Tale" to "ego-capitalism"
+- about: The author fixes Comet Shine's motivations and backstory as Aquileian-style ego-capitalism used as posture against his Skyfall-derived tycoon peers, replacing the earlier saviors-of-Tall-Tale framing of the Aquileians, and asks the model to build on it.

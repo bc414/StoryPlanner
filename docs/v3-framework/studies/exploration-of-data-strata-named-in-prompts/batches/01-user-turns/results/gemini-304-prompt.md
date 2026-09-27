@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a further thematic observation to the poseur/poser discussion, noting that changelings literally pose as others, without pointing at any body of material for the model to use or avoid.

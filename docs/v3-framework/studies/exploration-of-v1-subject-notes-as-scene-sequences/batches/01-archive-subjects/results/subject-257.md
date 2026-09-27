@@ -1,0 +1,11 @@
+- passages:
+  - 30 | statement about the subject | a remark that the story's use of the title is a subversion of it | none | exclamatory one-line comment: "The subversion of the title!"
+  - 4709 | statement about the subject | heading naming the note as a deconstruction of the canon show | none | title line "The Deconstruction of 'My Little Pony'"
+  - 4709 | statement about the subject | the "Stagnation of Harmony" concept reframes the canon show as a nursery rather than a utopia | none | framing sentence introducing the concept
+  - 4709 | statement about the subject | a nursery is safe and innocent but cannot be stayed in forever; the Changeling invasion is what broke it open | none | labelled item "The Nursery"
+  - 4709 | statement about the subject | the war is read as a metaphor for a nation's puberty, discovering sex, violence and independence through Aquileian influence, the Front and the Republic | none | labelled item "The Trauma of Puberty"
+  - 4709 | statement about the subject | Celestia read as an overprotective mother whose "White Peace" tries to put the grown child back in the crib, and Applejack's refusal is the child moving out, painful but necessary | none | labelled item "Celestia as the Overprotective Mother"; quoted line from Applejack
+  - 4699 | statement about the subject | interpretive reading: Celestia's reproduction spell solves the biological need for sex, and she is a sterile figure who quashes ambition with friendship, making "friendship is magic" a cynical reading meaning ambition can be replaced by harmony | none | analytical claim about Celestia and the show's premise
+  - 4699 | statement about the subject | the harmony quashes bad ambition (punching down, serfdom, sexual abuse) but also good ambition (self-betterment, uplifting others, fighting greater evil, healthy consensual sex) | none | list of bad and good forms of ambition, "Sure, it's great... but"
+- sequences:
+- whole: Three notes of thematic commentary that read the canon show as a stagnant nursery-like harmony that the story's war breaks open, with no scene beats, dates, or sequences.

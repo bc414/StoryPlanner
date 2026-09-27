@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn extends the worldbuilding conversation itself, asking the model to reason out combat-application limits and a cost/complexity justification for the sleep spell versus the default spellfire, without invoking any external document, archive, or other named source of data.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Ju 87 Stukas carried around 1000 pounds of armor because of their low-altitude diving, without disputing anything in the model's answer.

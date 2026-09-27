@@ -1,0 +1,9 @@
+- asks:
+  - declare | states a backstory decision for a character: forced labor as a seamstress in a Lord's household until age 14, followed by the Lord's removal and her freedom | "My plan is that she has to work hard as a seamstress... then the Lord is taken out and freed"
+  - declare | shares an interpretation of the character's psychology and preferred self-identity, that she ignores an inner "Mouse" and instead embraces being a rifle-armed cat-figure marked by a sewing pin and thread | "I think she wouldn't even think about the 'Mouse' inside her. She would like being the kitty with a rifle..."
+- supplies:
+  - idea - backstory concept | a character's servitude as a seamstress under a Lord until age 14 and the Lord's later removal/freeing | one sentence
+  - idea - characterization concept | the character's disregard for an inner "Mouse" identity in favor of a kitty-with-a-rifle persona with a sewing-pin-and-thread cutie mark | one sentence
+- shaping:
+- openness: Leans toward an answer it names: the message asserts a specific plot arc (seamstress servitude until 14, then freedom) and a specific characterization (rejects the "Mouse," embraces the armed kitty persona) as settled choices rather than options to weigh.
+- subject: A fictional character's backstory as an enslaved seamstress and her chosen self-identity over an alternate "Mouse" nature

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the database-organization discussion and asks a separate, new question about what the retry shorter/longer buttons in the Gemini web app do, asking for a full technical breakdown, without saying anything is wrong with the previous answer.

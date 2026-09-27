@@ -1,0 +1,7 @@
+- steps:
+  - the author | asks a research question | how MLP character names are localized into French and German, tied to the idiom-based naming convention around cutie marks/talents | opening message of the stretch
+  - the model | delivers an informational analysis | dub practices for FiM (names kept in English) vs G1/G3 (names translated), a comparison table of literal translations, terminology for 'cutie mark,' and bat-pony vocabulary in both languages | single response, structured in four numbered sections
+  - the model | makes a follow-up offer | asks whether the author wants a list of localized names generated for their own bat pony characters based on cutie marks | closing line of the response
+- kept:
+- brought: The author brought a worldbuilding research question about real-world MLP name localization, framed around their own bat-pony/cutie-mark naming interest.
+- loop: The author brought a linguistic research question tied to their bat-pony worldbuilding, and the model returned reference material and a follow-up offer to apply it to the author's characters, but no note traces back to this exchange, so none of it was carried into the planning database.

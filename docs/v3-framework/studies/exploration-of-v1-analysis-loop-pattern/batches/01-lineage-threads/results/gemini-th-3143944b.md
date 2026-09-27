@@ -1,0 +1,27 @@
+- steps:
+  - author | premise pitch | proposes an escalating chain of plot beats for the invasion arc and asks how Celestia should react | opening prompt of the thread
+  - model | scene elaboration | expands the pitch into a structured four-part scene breakdown with a real-world war analogy and thematic summary | replying to the premise pitch
+  - author | premise correction | strips malice from Celestia's motive, adds her lack of military, makes the volunteer mission secret, and reroutes the aftermath toward Twilight's charity year | after the scene elaboration
+  - model | correction validation | affirms the revision and expands each changed point into its own sub-analysis of consequences | replying to the correction
+  - author | consistency question | asks whether Celestia, as established, would actually grant asylum to the refugees | after the validated correction
+  - model | verdict with rationale | answers no and backs it with four supporting points about the danger of contagion to the Nursery | replying to the consistency question
+  - author | question refinement | re-poses the same asylum question, adding that the refugees would reveal the truth of the attack to Equestrians | immediately after the first verdict
+  - model | revised verdict | offers a more nuanced answer, introducing a conditional gilded-cage asylum and Novo's rejection of it | replying to the refined question
+  - author | research request | asks for the real-world and Equestria at War development background behind a specific location's name | after the asylum exchange
+  - model | background research | supplies etymology and in-mod development history, then links the findings back to the author's own plan | replying to the research request
+  - author | comparison request | asks for a side-by-side analysis of the author's plan against canonical Equestria at War lore | after the research
+  - model | comparative analysis | produces a category-by-category comparison ending in a summary verdict | replying to the comparison request
+  - author | framing thesis | states a meta-narrative principle distinguishing the adaptation from the source mod and gives one worked example | after the comparison
+  - model | thesis extension | validates the principle and extends it across several more thematic areas, closing with a question about an unaddressed character | replying to the thesis
+  - author | plan audit request | asks the model to scan the existing story plan for further instances of the same pattern | after the thesis extension
+  - model | audit findings | lists existing plan elements re-read through the meta-narrative framework | replying to the audit request
+  - author | new-material request | asks for further, not-yet-planned applications of the pattern, informed by real fandom criticism records | after the audit findings
+  - model | new proposals | offers four new thematic deconstructions each mapped from a show mandate to an in-universe mechanic | closing response of the thread
+- kept:
+  - note 5056 | pasted from this reply inside the author's own framing | keeps the model's line on Twilight rejecting Celestia's mandate after the Mount Aris fallout, filed under the School of Friendship subject with the author's own opening sentence attached
+  - note 5178 | pasted from this reply inside the author's own framing | keeps the model's etymology and EaW-development research on the city, filed under the Rebuilding Ain Trotgourait topic, with the author's own sacking-and-aid plan appended after it
+  - note 5174 | pasted whole from this reply | keeps the model's exact description of Celestia governing as if the world were a children's cartoon, filed under the Princess Celestia subject
+  - note 5177 | pasted from this reply inside the author's own framing | keeps the model's line on friendship as a Hasbro cure-all plus the author's own summary linking it to Harmonic Capitalism, filed under the Lauren Faust's Original Themes subject
+  - note 2886 | the plan held this text before this reply | the pre-existing plan entry on the Canterlot Wedding spell that the model's later comparison drew on and restated, filed on the Link tying the wedding spell to Stagnation of Harmony
+- brought: The author brought a self-devised plot escalation for the Mount Aris/Ain Trotgourait invasion arc, built on established world mechanics like the School of Friendship and the Stagnation of Harmony, and posed it alongside an open question about Celestia's reaction.
+- loop: The author repeatedly feeds the model plot pitches, corrections, consistency questions, and research or audit requests, and the model answers with elaborated scene breakdowns, verdicts, or lists of framework-matched examples; the planning database then keeps only scattered fragments of the model's phrasing — sometimes verbatim, sometimes wrapped in the author's own summary — filed under the relevant character, subject, or link, while most of the exchange (verdicts, comparisons, research) leaves no trace in the kept notes.

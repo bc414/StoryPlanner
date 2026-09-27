@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a standalone general-knowledge question about the formal game theory terms for the choices "cooperate" and "defect", without pointing at any body of material.

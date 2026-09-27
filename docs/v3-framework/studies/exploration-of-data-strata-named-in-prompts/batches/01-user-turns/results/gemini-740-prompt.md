@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a how-to question about adding a note inside the NotebookLM app, without pointing the model at any body of material to use or avoid.

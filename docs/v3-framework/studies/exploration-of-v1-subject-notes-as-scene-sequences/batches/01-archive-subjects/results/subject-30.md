@@ -1,0 +1,8 @@
+- passages:
+  - 12 | statement about the subject | his birth year, given as a biographical fact | 1002 | plain "Born in 1002" with no action described
+  - 12 | scene beat with a year | his father dies when he is five, and he already shows signs of intelligence | 1007 | "5 years old when his father passes away in 1007"
+  - 4190 | statement about the subject | character-arc summary: by refusing the crown while keeping his name he validates the history | none | arc label "Private Citizen" Arc; describes the arc in general terms |
+  - 4190 | scene beat without a year | he tells the Monarchists that a Grover needs no crown, only honor | none | quoted line of speech addressed to the Monarchists, no date
+  - 4190 | statement about the subject | his later role as a history professor who teaches the complex, messy true history rather than noble propaganda or sanitized republican versions | none | bulleted "The Professor" entry, refers to the Epilogue hint
+- sequences:
+- whole: A very short set of notes on Grover VI: a basic biography (birth 1002, father's death 1007, early intelligence) and a later-life arc in which he refuses the crown, defends honor over title to the Monarchists, and becomes a history professor.

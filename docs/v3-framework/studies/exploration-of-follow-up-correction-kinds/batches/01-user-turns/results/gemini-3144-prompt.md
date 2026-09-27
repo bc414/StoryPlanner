@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: the form of the user's source material | the model assumed the story bible was a local text or Word document in a folder that Cowork could monitor or search, when it is actually a file generated from a WPF planner and the underlying data lives in a sqlite database | "Actually my story Bible is a generated artifact" and "The data is actually represented in a sqlite database" | stated plainly as a factual clarification, opening with 'Actually', with no apology or irritation, and immediately followed by asking what difference it makes
+- about: The user corrects the model's assumption about what form the story bible takes (a sqlite database behind a generated artifact), then asks how that changes the advice and tentatively works out for themselves that Claude Code suits code rather than data while Cowork suits the data.

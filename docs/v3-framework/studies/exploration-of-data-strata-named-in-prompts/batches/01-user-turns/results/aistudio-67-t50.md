@@ -1,0 +1,5 @@
+- sources:
+  - the canon show | treated as the baseline for the in-between era: everyone naturally nice, harmony for the 85% | "the canon show, where everyone is naturally nice" | referred-to
+  - the chapter Combined Arms | existing planned chapter that the new archive and royal-apparatus details should add weight to, via the Night Light and Twilight Velvet scenes | "reunion with Twilight in the chapter Combined Arms" | referred-to
+- order:
+- about: The author refines the timeline and mechanics of the Stagnation of Harmony, including the Chrysalis-driven industrial flood and the Canterlot Archives, then asks the model how much Twilight and Twilight Velvet should know of the unsanitized history so the story's themes still land.

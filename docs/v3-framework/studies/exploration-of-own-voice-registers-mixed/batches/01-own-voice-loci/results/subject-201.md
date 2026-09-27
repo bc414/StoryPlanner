@@ -1,0 +1,31 @@
+- passages:
+  - note 4019 | expository worldbuilding statement | third-person declarative, technical terms 'pink love'/'red love' | changeling biology using love as life force and its side effect | apart
+  - note 4019 | real-world analogy aside | simile 'like an amphetamine' attached to a claim | addictiveness of red love | run-in
+  - note 4019 | expository worldbuilding statement | resumes technical vocabulary 'Tzinacatl natural alchemy' | pink love delivery as rehab for red love addiction | apart
+  - note 4021 | expository worldbuilding statement | parallel 'is what...really are' equivalence phrasing | pink/red love equated with friendship/magic/grace across species | apart
+  - note 4022 | expository worldbuilding statement | third-person declarative rule | need to drain pink and red love simultaneously | apart
+  - note 4022 | colloquial second-person restatement | shift to 'You can't', plain phrasing | reiterating that one can't be extracted without the other | apart
+  - note 4030 | task/planning note | names characters 'Twilight and Fleur', parenthetical '(give it a clever name)' | need for an in-story proof of the draining law | apart
+  - note 4030 | declarative rule/slogan assertion | short assertive sentences, emphatic 'IS' | framing the rule as a law of magical physics | apart
+  - note 4030 | real-world analogy aside | comparison 'It's like Electromagnetism' | ambition and grace being entwined | apart
+  - note 4077 | expository worldbuilding statement | third-person declarative, mechanism description | function of the draining spell and love canister | apart
+  - note 4274 | argumentative meta-defense | quoted phrase 'unexplained fantasy', emphatic 'literally' | insisting magic is physics, not fantasy | apart
+  - note 4274 | first-person authorial declaration | possessive 'my fantasy world' | the single fundamental rule underlying the magic system | apart
+  - note 4274 | expository worldbuilding statement | third-person technical description, no 'my' | magical revolution making magic renewable versus crystals | apart
+  - note 4274 | narrative recap connector | short causal sentence 'And it all started from' | origin of the magical revolution | apart
+  - note 4274 | meta-critical canon comparison | reference to 'the season 9 finale', claim 'mathematically proven' | contrasting story's magic rules with the show's windigo scene | apart
+  - note 4274 | logical conclusion statement | connector 'Therefore' | concluding that conflict is creature-driven, not magic-driven | apart
+  - note 5490 | tech-analogy mechanic listing | metaphor 'dynamic CPUs', repeated 'discount for' phrasing, one long conjoined sentence | how unicorn/earth pony/pegasus magic mechanics work | apart
+- shifts:
+  - note 4019 | expository worldbuilding statement | real-world analogy aside | shift marked by simile 'like an amphetamine'
+  - note 4019 | real-world analogy aside | expository worldbuilding statement | shift marked by return to worldbuilding term 'Tzinacatl natural alchemy'
+  - note 4022 | expository worldbuilding statement | colloquial second-person restatement | shift marked by second-person 'You can't'
+  - note 4030 | task/planning note | declarative rule/slogan assertion | shift marked by short assertive 'It's a law of magical physics'
+  - note 4030 | declarative rule/slogan assertion | real-world analogy aside | shift marked by comparison 'It's like Electromagnetism'
+  - note 4274 | argumentative meta-defense | first-person authorial declaration | shift marked by possessive 'my fantasy world'
+  - note 4274 | first-person authorial declaration | expository worldbuilding statement | shift marked by return to impersonal 'The magical revolution means...'
+  - note 4274 | expository worldbuilding statement | narrative recap connector | shift marked by connector 'And it all started from'
+  - note 4274 | narrative recap connector | meta-critical canon comparison | shift marked by reference 'Unlike the season 9 finale'
+  - note 4274 | meta-critical canon comparison | logical conclusion statement | shift marked by connector 'Therefore'
+- registers: expository worldbuilding statement; real-world analogy aside; colloquial second-person restatement; task/planning note; declarative rule/slogan assertion; argumentative meta-defense; first-person authorial declaration; narrative recap connector; meta-critical canon comparison; logical conclusion statement; tech-analogy mechanic listing
+- whole: This item's notes are written in several registers—chiefly an impersonal worldbuilding-exposition register, but individual notes also move into colloquial restatement, task-planning instruction, real-world analogy, first-person authorial claim, narrative recap, and meta-critical comparison—and these shifts mostly land at sentence breaks (apart), except in note 4019 where an analogy is folded into the same sentence as the claim it illustrates (run-in).

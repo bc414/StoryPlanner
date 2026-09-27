@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Ch'aska and Ocelo naming work as settled and moves on to a new task: developing how their storylines intersect with Ahuizotl in a planned prequel-sequel titled "Daring Do and the Cocoltic Yaoyotl", with instructions on which note sets to consult.

@@ -1,0 +1,6 @@
+- sources:
+  - macros architecture track (on the subject) | main basis the model should use when the objective record is edited from the subject view; primary informant | informed by the macros architecture track primarily | referred-to
+  - the other tracks (on the subject) | secondary informants for the objective record in the subject view, used alongside the macros architecture track | and also the others | referred-to
+- order:
+  - macros architecture track over the other tracks | informed by the macros architecture track primarily and also the others
+- about: The user asks whether link note tracks should change presentation by context, with the objective record read-only or visually distinct in the plot point director view and the director fields read-only, hidden or de-emphasised in the subject view where the objective record is edited from the subject's tracks.

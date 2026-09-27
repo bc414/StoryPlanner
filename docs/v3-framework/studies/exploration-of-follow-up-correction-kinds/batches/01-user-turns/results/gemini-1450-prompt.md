@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The poison option assumed occupied Canterlot's ponies could carry out a coordinated uprising. The user says the city's population is mostly native, fearful ponies, since the committed ones fled east as refugees or were mobilized into industry. Some who remain are cynical collaborators who handed the city over, and some are frightened victims. | too hard to coordinate; the demographics of occupied Canterlot are ponies who are mostly native to the city and too afraid of change | Matter-of-fact, with a reason given. Softened by 'seems' and delivered as a rejection of one option with world detail laid out, not as a complaint.
+- about: The user rejects the poison alternative by explaining who actually lives in occupied Canterlot, then takes up the model's dream-contact idea and builds on it with a dawn attack and Applejack asking Luna to act without telling Celestia.

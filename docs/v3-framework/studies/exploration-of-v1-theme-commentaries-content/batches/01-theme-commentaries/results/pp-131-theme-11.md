@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Names the changeling jaeger skill set, emotion control plus lie detection, as a capacity that is turned to good ends here; the scene's link to the theme is that a skill or tool is repurposed from its evil use. It also implies, as a fact about the world, that jaeger training covers lie detection | "but for good" | yes, in part; the emotion-control jaeger training is in the synopsis, lie detection is not | planning shorthand, a fragment with no verb: "Jaeger training for controlling emotions and lie detection, but for good"
+- whole: A one-line shorthand note saying the scene's jaeger training, emotion control and lie detection, is the repurposing of a tool for good.

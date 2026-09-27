@@ -1,0 +1,7 @@
+- sources:
+  - rugged individualist talking points (the existing story-plan element) | the thing the suburbia dream is to be worked into; treated as an existing part of the plan to extend | integrate a 1950s suburbia American dream aspect to the rugged individualist talking points | referred-to
+  - the author's own picture of Skyfall, Aquila, Las Pegasus and Griffenheim as polluted heavy-industry cities with the detached-house dream, crime and drugs | offered as the author's current vision to be built on and tested for accuracy, not yet settled | I'm imagining Skyfall, Aquila, Las Pegasus, and Griffenheim being heavy industry, polluted places | first-named
+  - the model's own historical knowledge of the 1950s, pre-WW2, WW1, Europe and East Asia | check the author's picture against real history and say how accurate it is and where it applies | Is this accurate to the 1950s? What about before WW2 or WW1? | referred-to
+  - Paris, Tokyo and other non-American major metropolises as they are set up today | real-world reference model for the counterpoint cities Pridea, Cloudbury and Manehattan | how Paris, Tokyo, and some other non-American major metropolitans are set up today | first-named
+- order:
+- about: The user asks how to work a 1950s American suburban-dream lie into the rugged individualist ideology of their industrial cities, asks the model to check that picture against real history across eras and regions, and offers present-day Paris and Tokyo as the model for the contrasting cities.

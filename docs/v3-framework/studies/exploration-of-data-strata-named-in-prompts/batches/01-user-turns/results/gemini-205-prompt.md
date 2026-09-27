@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Applejack's command style, as just described, most closely resembles Napoleon, without pointing the model at any body of material.

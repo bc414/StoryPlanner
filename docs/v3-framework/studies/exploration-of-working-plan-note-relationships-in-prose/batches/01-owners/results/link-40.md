@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1017 | Tempest Shadow's identity and history as a warlord, and the wider Equestria setting, held outside this item | Tempest Shadow (Fizzlepop Berrytwist) is not welcome in Equestria because she is a warlord
+- whole: This owner holds only one note, so there is nothing in it to hang together or fall apart.

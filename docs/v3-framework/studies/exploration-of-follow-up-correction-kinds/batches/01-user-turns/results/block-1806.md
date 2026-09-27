@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Epic's Games Store as a test case showing Steam's network effects, and framed Epic as the less extractive challenger; the user says Epic's model was, at least in players' perception, more alienating and extractive than Steam, so it is not a definitive analysis | I am skeptical about Epic Games as a definitive analysis because their business model was in some ways more alienating and extractive | stated as skepticism with a reason given, hedged ("at least in the perception from players, maybe not developers")
+- about: The user pushes back on the model's use of Epic as a clean test case, then moves on to new questions about whether regulating app stores would work, its legality and constitutionality, and whether itch.io or a new platform could match Steam's features at a lower cut.

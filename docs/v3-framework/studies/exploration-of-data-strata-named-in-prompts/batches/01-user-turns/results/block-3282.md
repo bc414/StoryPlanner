@@ -1,0 +1,4 @@
+- sources:
+  - the archeology of how the plane crash scene came to be and what purpose it served | treat as the authoritative account of the crash scene's origin and purpose, and redo the analysis in light of it, including the author's statements that the Fall of Stalliongrad was always an offstage beat and that the crash was a Pinkie Pie mirror | Here is the archeology for how the plane crash scene came to be | first-named
+- order:
+- about: The user supplies the origin history of the plane crash scene, corrects the model's premise by saying Stalliongrad's fall was always an offstage beat that motivates the drug deal in Crash and that the crash mirrors Pinkie Pie, and asks for a reanalysis with options going forward and reasons.

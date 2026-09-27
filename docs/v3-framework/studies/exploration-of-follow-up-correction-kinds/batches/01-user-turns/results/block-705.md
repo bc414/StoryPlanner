@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's track and tooltip guidance by proposing a design (verbose tooltip plus visible one-question helper text, exclusive tracks, non-matching notes left in Unset) and asking for confirmation, without disputing anything the model said.

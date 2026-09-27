@@ -1,0 +1,10 @@
+- asks:
+  - compare | asks how the user's TLTT story plan compares to the story and worldbuilding of StarCraft and StarCraft 2 | "How does my TLTT story plan compare to the story and world building of StarCraft and StarCraft 2?"
+  - frame-specific analysis | asks that the comparison be made specifically through the materialist historicism framework and through the lens of being a military fantasy epic | "In terms of the materialist historicism framework and being a military fantasy epic"
+  - check/discuss | lays out a claim that StarCraft 2 has its own version of 'the corporate mandate' in Amon as an all-powerful god-villain unconstrained by rules, unlike the faction- and character-driven, rule-bound antagonists of SC1, Brood War, Wings of Liberty and mostly Heart of the Swarm, and asks the model to engage with this reading | "Also I think StarCraft 2 has its own version of the corporate mandate... Unlike Amon who broke all the rules"
+- supplies:
+- shaping:
+  - instruction: comparison should be organized around the two named lenses, materialist historicism and military fantasy epic, rather than an open-ended comparison | "In terms of the materialist historicism framework and being a military fantasy epic"
+  - instruction: reply should take up and respond to the specific villain-structure contrast the user draws between Amon and the earlier games' grounded, rule-bound factions/characters | "Unlike Amon who broke all the rules"
+- openness: Mixed: the opening comparison question is left open with no named answer, while the second part leans toward a thesis the message itself states (Amon as an ungrounded, all-powerful "corporate mandate" god-villain versus the constrained, faction-driven antagonists of the earlier titles) and asks the model to engage with that reading.
+- subject: Comparing the user's TLTT story plan to StarCraft/StarCraft 2's narrative and worldbuilding via a materialist-historicism and military-fantasy-epic framework, plus a claim about SC2's villain Amon versus earlier games' faction-driven antagonists.

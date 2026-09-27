@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the revised Velvet scene to a new plan element, a Count of Monte Cristo parody from about 950 ALB and a four-month Ponyville gap in which Reni might give Rainbow Dash a translated copy, and asks for the model's view on it without disputing anything the model said.

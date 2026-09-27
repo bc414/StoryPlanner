@@ -1,0 +1,7 @@
+- asks:
+  - unspecified | no explicit instruction, question, or request is written out; the visible content is only the attachment placeholder | the entire message reads '[Plan export attached — 142,262 words, 0 chars]'
+- supplies:
+  - plan export | a full story-planning document for a long work of fiction, referred to as a 'Plan export' | placeholder standing in for a document of 142,262 words (its actual content is not captured/visible)
+- shaping:
+- openness: The message states no task or question at all — it only attaches a document — so there is nothing to call open, leaning, a choice, or a check; the intended request is unstated.
+- subject: An attached plan-export document for a long fiction work, with no accompanying instruction text visible.

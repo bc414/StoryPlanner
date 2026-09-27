@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the full published prose of chapters 1 to 23 and asks for a sampled analysis of it, synthesized with the Arc 3 and 4 plan and the earlier insights, adding a caveat about its point-of-view looseness and guidance on how to sample, without challenging anything the model said.

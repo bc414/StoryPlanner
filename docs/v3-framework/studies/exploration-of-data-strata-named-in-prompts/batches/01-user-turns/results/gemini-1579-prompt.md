@@ -1,0 +1,5 @@
+- sources:
+  - official EaW lore (Severyana a separate pony duchy until 507 ALB, then Celestia as figurehead, capital renamed Princessyn) | treat as a conditional premise to reason from and fit into the author's own setting; the author flags it with an if and does not yet treat it as confirmed | In official EaW lore, it says ... If this is true | first-named
+  - my lore (its Stagnation of Harmony, which began with Luna's banishment) | treat as the author's own framework, against which Severyana is placed as outside it; also the base for the author's own speculation about Celestia ignoring the thestrals and Severyanans | my lore's Stagnation of Harmony which began from Luna's banishment | referred-to
+- order:
+- about: The user brings in a fact from official EaW lore about Severyana's history, reasons that it places Severyana outside their own Stagnation of Harmony, and asks the model to analyze that idea.

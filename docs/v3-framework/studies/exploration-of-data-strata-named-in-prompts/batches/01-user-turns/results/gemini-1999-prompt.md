@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether Prompt A should be forced to output exactly three methodologies or be free to choose how many, without pointing the model at any body of data.

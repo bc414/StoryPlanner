@@ -1,0 +1,16 @@
+- asks:
+  - confirm | asks whether the Aquileia design was, in retrospect, rooted in the user's own affinity for high-friction meaning | "So my design for Aquileia was rooted in my own affinity for high friction meaning all along?"
+  - compare | asks the model to compare the newly laid-out delivery plan against the user's existing plans for Aquileia and for Minette and Réni | "Please compare against my existing plans for Aquileia and Minette and Réni"
+  - analyse | asks the model to analyse the delivery plan just described and assess how it could work | "give an analysis on this delivery plan"
+  - assess-fit | asks how the plan could serve the revelation from the user's earlier deep dive into media and friction | "how it could work to serve the revelation from my deep dive into media and friction"
+- supplies:
+  - plan note, Aquileia's current scope | states Aquileia in the current plan covers only the economic system (asset specificity, terroir), not the political framework (Green Revolution/New Deal/Nordic-inspired) or cultural framework (Equestrian harmony) it was once meant to model for Applejack | a few sentences
+  - plan sketch, post-war ending and remaining villains | describes an implied post-war arc addressing the Predator's Dilemma worldwide, the Applejack/Celestia exchange on world peace, and unresolved antagonists from EaW/TLTT (fascist Wingbardy and New Mareland, Colthage/Chirropterra occupying Ain Trotgourait, the feudal Riverlands, post-Storm-King Zebrican warlords), with the Bjornling storyline as the model for how they're handled | a paragraph
+  - plan sketch, Réni and Minette's story arc | describes their arc covering M-rated material unsuited to the main story (Stalliongrad's destruction, Aquileian twisted feudalism), the Aquileian cartel in Skyfall, crystal pony trauma therapy, their presence at the Skyfall Resolution scene in the chapter Ambition, the 'de-rugged individualism' commentary, the contrast with the Coltbert Reforms, their learning from the Equestrian protagonists during TLTT, and other planned Aquileian companion characters | several sentences
+  - preference note, pacing of TLTT | states TLTT should not drag on much past the epilogue, with other stories serving as prequels | a sentence
+- shaping:
+  - content must address how the plan works and serves the friction/meaning revelation from the user's deep dive | "how it could work to serve the revelation from my deep dive into media and friction"
+  - reply framed as an analysis/comparison rather than a rewrite or draft | "give an analysis on this delivery plan"
+  - reasoning given for why Applejack and Twilight can't deliver this resolution themselves (not having lived in a capitalist society) is asserted as a premise to work from | "This isn't a narrative that Applejack and Twilight as protagonists can do justice because they did not live in a capitalist society."
+- openness: "Mixed: the opening question leans toward an answer the user already names (that Aquileia's design reflects their own affinity for high-friction meaning), while the closing request for comparison and analysis of the delivery plan is left open for the model to work out."
+- subject: Reworking Aquileia's role and the Réni/Minette prequel arc to deliver a post-war 'dignity-included' synthesis, and how this serves the user's friction/meaning theory

@@ -1,0 +1,9 @@
+- asks:
+  - analyse | work out whether the Tzinacatl would logically end up selling only amphetamines and not opioids, given that panzer haut is now a pink love refinement instead of red | "would the Tzinacatl only be selling amphetamines, and not opioids?"
+  - choose between options | decide between that outcome and an alternative where they still deal opioids too, to mirror the real historical drug trade | "Or should they still be doing opioids too, to reflect the historical drug trade"
+  - explain | lay out how the chosen outcome would come about in the world's terms | "How would this happen?"
+- supplies:
+  - lore recap | the Tzinacatl jungle's magical plants originating from crashed ancient windigos, refined into red love drugs for the global market, with panzer haut now a pink love refinement | a few sentences
+- shaping:
+- openness: Names two specific outcomes (amphetamines-only vs. still selling opioids too) and asks the model to pick or reason between them, then explain the mechanism, so it asks for a choice between named options.
+- subject: Worldbuilding logic for the Tzinacatl jungle's drug trade (windigo-origin plants, red vs. pink "love drug" refinements, amphetamines vs. opioids)

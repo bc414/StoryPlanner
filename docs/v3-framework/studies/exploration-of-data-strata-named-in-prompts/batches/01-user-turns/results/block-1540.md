@@ -1,0 +1,4 @@
+- sources:
+  - the mixed notes in v1 | material to analyze: treated as dense, token-saving and good enough for AI to reason over by brute force, but not useful to the author as a writer, only as a planner expanding ideas | mixed notes in v1 are good enough for AI which can reason about the mixed assertions | referred-to
+- order:
+- about: The user offers an observation that their v1 mixed notes serve AI brute-force reasoning but not them as a writer, and asks the model to analyze what that means for the migration task ahead, allowing for further expansion later.

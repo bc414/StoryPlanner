@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the word suggestion, apparently taking "predisposed" as fitting, and supplies background on Griffonia's technology, magic and Aquileian ideology in order to ask how to structure Twilight's learning at Star Energy and for better names for the patterned crystals.

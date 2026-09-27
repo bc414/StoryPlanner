@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question about whether Rockfeller should knowingly deal with Chrysalis directly or only through the Skyfall shell company, building on the model's leverage mechanisms without disputing them.

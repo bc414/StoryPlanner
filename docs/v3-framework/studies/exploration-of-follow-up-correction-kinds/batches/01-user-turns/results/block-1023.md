@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the "adulthood requires a childhood" idea as key, applies it to their own target audience and to the cynical storytelling ecosystem, and floats a new link between Lauren Faust's G1 toy play and the toy mandate as childhood.

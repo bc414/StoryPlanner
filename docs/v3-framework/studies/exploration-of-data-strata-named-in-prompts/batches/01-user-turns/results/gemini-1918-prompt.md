@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user poses a new hypothetical, that the printing press arrived only under Grover 3, and asks whether Grover 1 and 2 could plausibly be exaggerated legends, without pointing the model at any body of material.

@@ -1,0 +1,5 @@
+- sources:
+  - my unfinished plans for Nine Tales of Liberty | the material to be analyzed; treat as unfinished plans that were abandoned partway, with the arc 4 breach between Windie and Helena as their content | Please analyze my unfinished plans for Nine Tales of Liberty | first-named
+  - TLTT | the story plan being written now; do not carry the Nine Tales breach and villain route into it, and take its Applejack and Twilight as staying together apart from a letter-writing separation | this is not the route I'm going in TLTT | referred-to
+- order:
+- about: The user asks the model to analyze their abandoned Nine Tales of Liberty plans, where Helena becomes a villain after a trust breach with Windie, while stating that this path does not apply to TLTT, where Applejack and Twilight stay together apart from a stretch of letters.

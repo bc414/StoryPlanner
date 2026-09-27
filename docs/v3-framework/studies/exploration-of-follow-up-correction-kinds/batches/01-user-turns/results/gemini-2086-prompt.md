@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the explanation of the axes to a new request, asking for friendlier alternative axis names themed on their own passions, without disputing anything the model said.

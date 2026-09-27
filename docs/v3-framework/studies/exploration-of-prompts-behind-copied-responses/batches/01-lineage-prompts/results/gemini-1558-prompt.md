@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | full plan export for a long work of fiction | placeholder only, no visible text — noted as 151,163 words but 0 characters captured, i.e. a large document attached but not preserved
+- shaping:
+- openness: The message contains no accompanying instruction or question at all, only the notice of an attached plan export, so nothing is stated for the model to act on, choose between, or check.
+- subject: Attachment of a large fiction plan export with no accompanying text

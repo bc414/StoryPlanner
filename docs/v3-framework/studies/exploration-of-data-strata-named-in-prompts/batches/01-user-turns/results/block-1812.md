@@ -1,0 +1,6 @@
+- sources:
+  - the live Internet | search it and use it as the basis for the May 2026 update on open source and open weight LLMs | by researching the live Internet | first-named
+  - your training data | do not be confined to it; it is not to be the only basis for the update | instead of being restricted to your training data | referred-to
+- order:
+  - the live Internet over your training data | researching the live Internet instead of being restricted to your training data
+- about: The user asks the model to research the live web for an up-to-date picture of open source and open weight LLMs, and then asks it to work out whether commons-governed cloud compute or smaller local models is the better route to capability parity.

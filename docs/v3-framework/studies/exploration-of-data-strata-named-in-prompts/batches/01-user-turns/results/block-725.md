@@ -1,0 +1,4 @@
+- sources:
+  - my new work in progress model classes in the project files | the current, still-evolving model classes the model should look at as the basis for judging whether a shared base or composition fits; provisional, not final | I have uploaded my new work in progress model classes to the project files | first-named
+- order:
+- about: The user points the model to newly uploaded work-in-progress model classes and asks whether Subject, PlotPoint, Chapter and PlotPointSubjectLink should share a base class or instead use a composition approach that suits the database for their configurable note-track and narrative-property definitions.

@@ -1,0 +1,23 @@
+- relations:
+  - 2004|2003|the analogy names the real-world counterpart (the GI bill) of the grants the ontology note describes|Swords into plowshares grants for knights is like the GI bill|implicit
+  - 2013|2014|the analogy note gives real-world parallels (Standard German, Roman Latin, Mandarin) for the same standardized academic Herzlander rule that the ontology note states|standardized academic Herzlander with Sparlean (greek and roman) terms|implicit
+  - 1488|2003|the general directive that knights become artisans is given its mechanism (grants, steam-powered machines, university learning) in the other|knights to become artisans|implicit
+  - 2003|2009|the machines with enchanted cutting edges are then supported by a restriction that new chemistry and physics go only to artisan workshops|machines that have cutting edges enchanted|implicit
+  - 2009|2001|the magical cutting properties of machines are likened to armor, which echoes the earlier rule that self-forged armor showed the Ambition needed for magic|just like traditional armor|implicit
+  - 2003|2001|artisanship is called traditional because knights already forged their own gear, so it continues the earlier practice into peacetime|This is traditional griffon artisanship|implicit
+  - 2001|2002|the Legion entry rule and the commoners' love for its knights are one picture of the monster-slaying era whose magic served the public good|Imperial Legion|implicit
+  - 2002|2003|the beloved heroic knights of the Legions are continued after the monsters die into artisans making civilian tools|Once all the monsters were slain|implicit
+  - 1358|608|the quick eradication of monsters leads on to the end of the Honest Racket and the new inheritance order|When Grover III eradicates the monsters|implicit
+  - 608|1488|the inheritance system is given as the reason knights stop fighting each other and turn to artisanship|work on artisanship instead|implicit
+  - 608|575|the bureaucracy of the bloodline is an instance of the internal vacuum left after the external threat was solved|internal vacuum|implicit
+  - 575|1358|the external threat solved in the analogy note is the monster eradication the ontology note reports|solved the external threat|implicit
+  - 2012|2013|the fabricated Sparlean antiquity is delivered on the page through the Sparlean-flavored standard language of elites|Sparlean (greek and roman) terms|implicit
+  - 2012|2014|the Sparlean terms in the elite speech carry the borrowed ancient glory the reader is meant to see|Sparlean (greek and roman) terms|implicit
+  - 575|2012|Enlightenment as science and reason is what Grover III sells to the knights by dressing peace in Sparlean glory|striving for enlightenment|implicit
+- outward:
+  - 608|the Boreas religion, the archons and the earlier Honest Racket arrangement, held elsewhere|the "Honest Racket" ends
+  - 2012|the lore of Sparleos and Karthinia and the oral traditions about them|Sparleos and Karthinia ruled over vast amounts of Griffonia
+  - 1358|the coastal markets and Herzland as a place, and the other griffonian subjects|flooding the coastal markets
+  - 2001|the Imperial Legions as an institution and the Ambition magic|join an Imperial Legion
+  - 2014|Herzlander as a language and Sparlean as a culture|standardized academic Herzlander
+- whole: The notes largely hang together as one arc of monsters killed, knights turned into artisans, inheritance and language remade, with the analogy and reader notes framing it, though the language notes and the golden-age note sit more to the side.

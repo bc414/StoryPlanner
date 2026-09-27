@@ -1,0 +1,6 @@
+- asks:
+  - decision question | asks whether a specific relationship type (plot point to theme) should also carry a 'payload' the way other relationships apparently do | phrased as a direct yes/no question: 'Should the relationship between plot point and theme also have a payload?'
+- supplies:
+- shaping:
+- openness: The message poses a yes/no design question naming the two concepts in play (plot point, theme) and a specific attribute ('payload'), asking the model to judge whether that attribute should extend to this relationship, without stating a preferred answer itself.
+- subject: Whether a story-planning schema concept called 'payload' should apply to the plot point–theme relationship

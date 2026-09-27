@@ -1,0 +1,4 @@
+- sources:
+  - my lore about the stagnation of harmony | to be examined by the model, searching it for elements that fall outside the two policies named; no trust or priority is stated | Are there any elements of my lore about the stagnation of harmony | referred-to
+- order:
+- about: The user asks the model whether any part of their stagnation-of-harmony lore lies outside the two policies (non-interventionist foreign policy and domestic ambition suppression) just discussed.

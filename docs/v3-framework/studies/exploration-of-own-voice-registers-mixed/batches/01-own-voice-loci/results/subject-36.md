@@ -1,0 +1,7 @@
+- passages:
+  - note 4401 | musing aside | first person, past tense, 'I had a thought of' | idea of adding a crystal pony employee | apart
+  - note 4401 | worldbuilding justification | 'Since... would have', causal clause, drops first person | Star Energy exploring the Crystal Empire for crystals | apart
+- shifts:
+  - note 4401 | musing aside | worldbuilding justification | drops the first-person 'I' for a 'Since... would have' causal clause laying out in-story reasoning
+- registers: musing aside; worldbuilding justification
+- whole: The item's single note moves from a first-person musing aside into a causal worldbuilding justification, the two standing apart at a plain sentence break.

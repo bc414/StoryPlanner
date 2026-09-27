@@ -1,0 +1,8 @@
+- asks:
+  - placement | asks the model to work out where in the story's sequence this scene/idea should be placed | "Must figure out where to place this!"
+- supplies:
+  - document | an attached document, never captured, presumably story plan or outline material | unknown, placeholder only
+  - scene idea | a described beat: Twilight sees the red love canister, learns it's a changeling combat drug, notices it matches her own magic's color since she's the element of magic, and concludes she is herself a dangerous weapon that only Applejack can control | a few sentences
+- shaping:
+- openness: open - the message simply states the idea and asks where to place it, naming no candidate spot or options to pick between
+- subject: where to place a planned Twilight/Applejack scene about the red love canister and Twilight seeing herself as a dangerous weapon

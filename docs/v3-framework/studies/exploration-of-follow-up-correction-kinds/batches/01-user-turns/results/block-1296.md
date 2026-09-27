@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how the model's point on the necessity of the mythic fable bears on the paratextual level of TLTT for its readers, extending the discussion without disputing anything.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the story's world | corrects the implicit premise that Wingbardy is currently an independent geopolitical rival holding aviation leverage over Herzland, clarifying it was instead a subject territory of Herzland from 705 to 972 and only developed superior planes afterward | "Wingbardy is a subject of Herzland from 705 to 972" | stated flatly and in passing, as background fact rather than a direct rebuttal to the model's question
+- about: The user turn supplies concrete political history and governmental structure for Wingbardy (subject status until 972, then a constitutional monarchy with a bourgeois Senate and Mafiosos, likened to England) rather than answering the model's speculative geopolitical question directly.

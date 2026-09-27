@@ -1,0 +1,8 @@
+- asks:
+  - correction/check | asks the model to account for where an earlier 'massive' drone size idea came from, given that changelings are said to be pony-sized as in the show | "I'm not sure where this 'massive' drone idea came from"
+  - assertion/check | states that changelings share the ponies' dimensions per the show, implicitly asking the model to reconcile or correct prior material against this | "The changelings have the same dimensions as the little ponies, just like in the show"
+  - question/proposal | asks why the uniform isn't made entirely of silk given that the material can resist bullets, prompting justification or reconsideration of the design | "Why not just have the whole uniform made of silk if it can resist bullets?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names (a silk-only uniform) while also asking the model to check/reconcile a stated fact (changeling size matching the show) against earlier material.
+- subject: Reconciling changeling drone size and uniform material (bullet-resistant silk) in the story's worldbuilding

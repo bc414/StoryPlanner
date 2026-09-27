@@ -1,0 +1,4 @@
+- sources:
+  - Attached document (an attached file, contents not captured) | supplied as material alongside the categorized bucket list; the turn gives no instruction on how to weigh or use it | Attached document: 1_BK7dQwFOvGh7mPKCeKqZOaYc91luDAf | first-named
+- order:
+- about: The user sends back a JSON list grouping bucket names under five paradigms (Chronology, Demographics, System Mechanics, Dialectics, Orphan Concepts) along with an attached document, without stating any instruction in words.

@@ -1,0 +1,7 @@
+- relations:
+  - 714 | 722 | 714 gives the thematic reading of the practice 722 describes: taking red love to innovate, with the crash and self-doubt that follow, is the same loop as the intellectual arms race, and both notes call the result a race | intellectual arms race since their worth is tied to performance / it fuels the rat race | implicit
+  - 722 | 714 | 722 gives the cause under 714's claim: the crash of crippling self-doubt when the artificial ambition wears off explains why worth comes to rest on performance | imposter crash of crippling self-doubt / worth is tied to performance | implicit
+- outward:
+  - 934 | Chrysalis, another organization or figure, and its scientists who are drones, held elsewhere | Chrysalis's scientists are drones
+  - 714 | the predator's dilemma, a theme or piece of lore developed outside this item | That's what fuels the predator's dilemma
+- whole: ["Notes 714 and 722 hang together around the red love and rat race mechanism, while note 934 is about Chrysalis's scientists and stands apart as a separate entry."]

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for an overview of running local AI models on AMD hardware and asks whether the Vulkan mentioned is the same as the non-DirectX graphics library.

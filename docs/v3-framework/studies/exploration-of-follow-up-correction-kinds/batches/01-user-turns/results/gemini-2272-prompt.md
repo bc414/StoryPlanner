@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks follow-up historical questions (whether the Ju 87 was a monoplane, what preceded it, and what air support looked like in WW1), extending the discussion without disputing anything the model said.

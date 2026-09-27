@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the hopium and reflexivity discussion and asks a new, general question about whether people without coding training are using AI Studio effectively.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further planned element (the FJA's decentralized command model, Trimmel's mobile warfare, Henri leading combined arms) that they see fitting the model's theme, then asks a new historical question about whether German initiative-based doctrine beat France in WW2.

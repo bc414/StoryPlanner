@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model judged whether destroying the dam made sense without the motive behind it. It treated the act as pointless self-sabotage and never weighed the two reasons the user had in mind: widening the river for defense, and an expectation that the changelings would destroy the dam anyway. | The reasoning was to widen the river for defense and the belief that the changelings would destroy it | Flat and terse. It supplies the missing premises with no stated disagreement, no apology and no irritation, and leaves the model to draw the implication.
+- about: The user gives the in-story rationale for destroying the dam, which the model's answer had left out, so the model can re-evaluate.

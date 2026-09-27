@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user checks whether the takeaway is that they already had the instinct and the AI supplied capability and vocabulary, then asks a broader philosophical question about people who grow up with AI, what the future looks like, and whether they learned anything new that others could learn too.

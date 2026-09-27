@@ -1,0 +1,6 @@
+- asks:
+  - question | asks when a previously-referenced group or figure ('they') became popular | 'When did they gain popularity?'
+- supplies:
+- shaping:
+- openness: Open: it poses a plain factual question about timing without naming a candidate answer or offering options to choose between.
+- subject: Timing of when an unspecified referent ('they') became popular

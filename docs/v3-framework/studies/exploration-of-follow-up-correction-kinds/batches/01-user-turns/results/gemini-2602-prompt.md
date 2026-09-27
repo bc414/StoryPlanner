@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offered follow-up analysis with a one-word assent, correcting nothing in the preceding turn.

@@ -1,0 +1,4 @@
+- sources:
+  - Brood War (the published game, Queen of Blades in it) | the material the model is asked to report on: whether Kerrigan had any Xel'Naga influence there, checked as a follow-up to the model's earlier account | in brood war, the queen of blades didn't have any xelnaga influence | referred-to
+- order:
+- about: The user asks a short clarifying question, drawing on the model's earlier account, about whether Kerrigan as Queen of Blades in Brood War had any Xel'Naga influence.

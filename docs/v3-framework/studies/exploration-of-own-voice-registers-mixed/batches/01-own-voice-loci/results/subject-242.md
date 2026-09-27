@@ -1,0 +1,22 @@
+- passages:
+  - 4387|causal-explanatory|causal clause with "because," states a motive|Celestia's reason for releasing Severyana|apart
+  - 4387|terse-aphoristic-list|short unelaborated present-tense list of traits|traits attributed to the Severyanans|apart
+  - 4387|causal-explanatory|returns to an explanatory clause, "only occassionally checked"|extent of Celestia's oversight of the boyars|apart
+  - 4553|causal-explanatory|causal clause with "because," contrastive second clause|why the counterrevolution failed|apart
+  - 4760|narrative-recounting|past-tense recount of wanting/scolding|statthalters wanting Trimmel punished and Chrysalis's response|apart
+  - 4760|evaluative-judgment|"Ultimately... made the right choice"|judgment on the choice to keep Trimmel|apart
+  - 4760|causal-explanatory|"because" clause, parenthetical aside, appended "this is because" clause|reasons Trimmel stayed loyal until the end|run-in
+  - 5324|expository-worldbuilding|impersonal mechanism account, "was designed... where... would drain"|design of the puppet state and gulag/harvester system|apart
+  - 5324|causal-explanatory|"That's why," connective justification|why the revolution needed to be so large|apart
+  - 5324|elliptical-fragment|sentence fragment opening with subordinator "Since," no main clause|urgency from hive unification and a MEFO bill default|apart
+  - 5324|speculative-hypothetical narrative|repeated conditional "would," sequence of unrealized events|what would have happened to Trimmel and the harvesters|apart
+- shifts:
+  - 4387|causal-explanatory|terse-aphoristic-list|drops the causal clause for a short present-tense list of traits
+  - 4387|terse-aphoristic-list|causal-explanatory|returns to an explanatory clause about limited oversight
+  - 4760|narrative-recounting|evaluative-judgment|paragraph break plus the judgment phrase "the right choice"
+  - 4760|evaluative-judgment|causal-explanatory|"because" clause appended within the same sentence, no break
+  - 5324|expository-worldbuilding|causal-explanatory|connector "That's why" turns description into justification
+  - 5324|causal-explanatory|elliptical-fragment|drops into a sentence fragment led by "Since," no main clause
+  - 5324|elliptical-fragment|speculative-hypothetical narrative|paragraph break and shift to repeated conditional "would" projecting events
+- registers: causal-explanatory; terse-aphoristic-list; narrative-recounting; evaluative-judgment; expository-worldbuilding; elliptical-fragment; speculative-hypothetical narrative
+- whole: Across its four notes this item moves through several distinct registers—explanatory, listing, recounting, judging, world-describing, fragmentary, and speculative—almost always separated by a sentence or paragraph break a reader would notice, with only one place, in note 4760, where a judgment and its causal reasoning run together inside a single unbroken sentence.

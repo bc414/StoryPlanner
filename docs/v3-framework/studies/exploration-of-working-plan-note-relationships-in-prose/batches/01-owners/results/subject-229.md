@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 1313 | Celestia and the ruling class of Equestria, who are characters and a polity held elsewhere, and their history of knowing about the Riverlands | Celestia and Equestrian elites were aware of the Riverlands throughout history
+  - 1312 | The "Honest Racket", an arrangement the Riverland ponies fell into, which is described nowhere in this item | they defaulted to the "Honest Racket."
+  - 1312 | The monsters the Riverland ponies failed to clear, and the wider ideal of "Harmony" among the three tribes, both held in lore elsewhere | failed to integrate their three tribes (Earth, Pegasus, Unicorn) to clear their monsters
+- whole: The two notes sit side by side as separate entries: one is a plot fact about who knew of the Riverlands, the other is thematic evidence about why the Riverlands turned out as they did, and neither one's words bear on the other.

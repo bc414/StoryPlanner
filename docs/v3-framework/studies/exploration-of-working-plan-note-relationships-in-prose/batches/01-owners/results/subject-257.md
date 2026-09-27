@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2058 | a book or text called The Predator's Dilemma, held elsewhere, that Sunglider reads | After reading The Predator's Dilemma
+  - 2058 | the character Sunglider, introduced elsewhere in the story | Sunglider realizes the GR doesn't need gold
+  - 2058 | Solidarity, a concept or entity in the world's lore held elsewhere, and the state's productive capacity backing a promise | Solidarity with a promise backed by the productive capacity of the state
+- whole: ["This owner holds a single note, so there is nothing for its notes to hang together with."]

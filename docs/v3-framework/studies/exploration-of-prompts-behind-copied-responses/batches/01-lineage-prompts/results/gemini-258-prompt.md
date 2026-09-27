@@ -1,0 +1,11 @@
+- asks:
+  - develop | lay out a scene beat (Celestia's remark, AJ's outburst, Luna's confession, the room's silence) as the next step in the story and implicitly invite the model to build the scene forward from it | ends on "The room will go deathly silent," a cue for what follows rather than a finished scene
+- supplies:
+  - character psychology notes | Luna's self-awareness of her 1000-year-old failure, why she defers to Celestia, that it isn't survivor's guilt but guilt over her own past corruption, and her present agreement that industrialization kills "the soul of the pony" | a few sentences
+  - scene beat with dialogue | a three-line exchange: Celestia citing the leaderless "river ponies" who "eat each other, no better than griffons," AJ demanding to know why Luna didn't save them, and Luna's reply "I tried. 1000 years ago." followed by the room going silent | a short paragraph
+- shaping:
+  - use the exact dialogue lines given for Celestia, AJ, and Luna | quoted lines: "look at the river ponies...", "why didn't you save them?", "I tried. 1000 years ago."
+  - keep Luna's motivation consistent with the stated psychology (deference from self-blame, not survivor's guilt) rather than reinterpreting her character | "She doesn't necessarily have a 'survivor complex'..."
+  - end the beat with the room's reaction as stated (dead silence) | "The room will go deathly silent"
+- openness: leans toward the specific outcome it already names in full — the exact character stance, dialogue, and reaction beat are given as settled, not offered as options.
+- subject: a scene in a pony story where Celestia's remark about lawless "river ponies" prompts Applejack to confront Luna, who reveals she once tried and failed to save such ponies 1000 years ago

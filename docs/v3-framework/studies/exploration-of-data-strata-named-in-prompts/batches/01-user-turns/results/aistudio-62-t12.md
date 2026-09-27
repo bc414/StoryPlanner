@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | search it for a character who would know VOPS exists by 1003 and could warn Blueblood; the model is to draw candidates from it, and it is the limit on who counts (Eagleclaw ruled out because of the 1007 betrayal) | Who in my story plans would know that VOPS exists and can warn Blueblood this early? | referred-to
+- order:
+- about: The user asks for more detail on how Blueblood could be warned off investigating Krystallfels around 1003, and asks the model to find a better messenger than Thorax or the converted jaegers among characters in their story plans who would plausibly know about VOPS by then.

@@ -1,0 +1,5 @@
+- sources:
+  - the model's breakdown (the preceding analysis) | accepted as satisfactory and as the basis to build on; the user asks the model to confirm its points still hold | I am happy with this breakdown. It avoids the pitfalls of "rugged individualism" | referred-to
+  - the lore on why the republics are different | to be reviewed and elaborated so that it makes sense in universe and narratively | review and elaborate the lore on why the republics are different | referred-to
+- order:
+- about: The user accepts the model's breakdown, asks it to reconfirm three points about the Aquileia and Equestria alliance and the difference between the republics, and asks it to review and elaborate the lore explaining that difference.

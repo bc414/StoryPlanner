@@ -1,0 +1,6 @@
+- sources:
+  - Colthage's source materials from EaW | check the existing Colthage account against these and revise it to match them; they are the reference to update from | check Colthage's source materials from EaW ... and update | referred-to
+  - the story planner mcp server | the channel through which the EaW Colthage materials are to be looked up | via the story planner mcp server | referred-to
+  - the user's own play of Colthage | not available as a source; the user has not played Colthage, so the model should not expect the user's recollection and should rely on the materials | I haven't actually played Colthage yet | referred-to
+- order:
+- about: The user tells the model to look up Colthage's EaW source materials through the story planner MCP server and revise its preceding Colthage analysis accordingly, noting that they have not played Colthage themselves.

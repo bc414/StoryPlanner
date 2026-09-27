@@ -1,0 +1,7 @@
+- sources:
+  - the story plan | model is to review it in full as the thing to analyze for ramifications of the new confederation premise | "Please review the story plan and give an analysis" | referred-to
+  - the previous plan's assumption of disjointed tribes | treat as superseded by what the user has now established; the analysis should find where the plan still rests on it | "disjointed tribes like what the previous plan assumed" | referred-to
+  - what the user has now established about the Tzinacatl traditionalists as a defensive confederation preparing for Chrysalis | treat as the new settled premise to trace through the plan | "now that I've established that the Tzinacatl traditionalists are in a defensive confederation" | referred-to
+- order:
+  - what the user has now established (defensive confederation) | over the previous plan's assumption of disjointed tribes | "rather than being disjointed tribes like what the previous plan assumed"
+- about: The user asks the model to review the story plan and analyze what other ramifications follow from their newly established premise that the Tzinacatl traditionalists form a defensive confederation preparing for Chrysalis rather than being disjointed tribes as the previous plan assumed.

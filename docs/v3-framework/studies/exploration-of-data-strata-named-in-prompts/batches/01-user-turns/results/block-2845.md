@@ -1,0 +1,8 @@
+- sources:
+  - the conversation (the political axes discussion, incl. what it said about universalism vs tribalism) | refresher wanted on what it said about universalism vs tribalism; its claim that Chrysalis is the antithesis of all four axes is treated as not holding up and to be revised | need a refresher on what the conversation said universalism vs tribalism is; In the conversation I asserted that Chrysalis must be the antithesis of all 4 axes | referred-to
+  - v1 archive | consult for details on Chrysalis's New Order (Olenian collaborators, ponies in Vanhoover) and for Coltbert's arc, where they did not make it into v2 | Review v1 archive for those details if they didn't make it into v2 yet; check his arc in v1 | referred-to
+  - v2 | the current layer; check first, with v1 used only for details that have not made it here yet | if they didn't make it into v2 yet | referred-to
+  - the current axis assignments on the civilizational systems (Chrysalis, Coltbert, Gerad Discret, Grover III, IV, V, Feudal Herzland, Skyfall, Vérany, Eros, Tzinacatl) | the existing tags and unset gaps are the current state, open to revision and to a possible five-value scale | Feudal Herzland is set to tribalism; I also kept that axis empty for Gerad Discret's Aquileia | referred-to
+- order:
+  - v2 | over v1 | Review v1 archive for those details if they didn't make it into v2 yet
+- about: The user questions what the axis poles mean and whether the scale needs five values plus an unset flag, asks for a refresher on the conversation's universalism/tribalism, sends the model to v1 for Chrysalis and Coltbert details, and reasons through revised placements of several factions.

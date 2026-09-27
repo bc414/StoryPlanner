@@ -1,0 +1,7 @@
+- steps:
+  - author | supplies plan | attaches the full plan export as context, no accompanying question text | opening message of the thread
+  - model | analyzes and elaborates a concept | takes the 'Ice Cream Ship' logistics idea and works it into a phased implementation arc, thematic justifications, and a list of proposed narrative beats, closing with a one-line verdict | single response to the attachment
+- kept:
+  - note 3825 | pasted whole from this reply | keeps the closing thematic verdict line from the model's summary, filed under a link node pairing economic argument with the harmonic-capitalism theme
+- brought: The author brought the current full plan document itself, with no explicit question attached, letting the model find and develop a specific concept already latent in it.
+- loop: The author hands over the whole plan for open-ended development; the model expands one embedded concept into a staged arc with thematic and scene-level detail, and the plan retains only the single distilled thematic line from that expansion, storing it as a standalone link between two thematic entries rather than the arc or beats around it.

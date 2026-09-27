@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for the Phase 1 system prompt to be revised so it also spells out the categorical-axis handling alongside the relational protocol, as an added instruction and not as a dispute of what the model wrote.

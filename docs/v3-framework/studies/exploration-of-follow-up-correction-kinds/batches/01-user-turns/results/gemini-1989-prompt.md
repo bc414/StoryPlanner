@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's proposed refined 5-step web app workflow and asks it to go ahead and write the master prompt for the AI Studio Build tab.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user closes the long discussion by asking for a concise summary of conclusions and then a plan for building the new model classes, without disputing anything in the model's last answer.

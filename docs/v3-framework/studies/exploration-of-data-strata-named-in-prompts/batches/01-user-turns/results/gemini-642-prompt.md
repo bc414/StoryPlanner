@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their own view of how the story's apocalypse is prevented, by spreading friendship through trade and prosperity to offset rising red, without pointing the model at any body of material.

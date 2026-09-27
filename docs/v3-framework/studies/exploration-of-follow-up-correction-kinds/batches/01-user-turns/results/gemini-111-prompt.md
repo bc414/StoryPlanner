@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to test its own endorsement of the hostage-and-siege plan against the story's established themes and to offer alternatives, without saying anything in the previous turn was wrong.

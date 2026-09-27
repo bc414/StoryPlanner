@@ -1,0 +1,26 @@
+- steps:
+  - author | commissions analysis | full text of an early written chapter plus a request to map it onto the other project's themes | opening of the thread
+  - model | delivers thematic mapping | a four-part breakdown linking chapter elements to named worldbuilding concepts, closed by an extrapolation question | first reply
+  - author | supplies next chapter | the following chapter's full text with the same kind of mapping request | second exchange
+  - model | delivers thematic mapping | a matching four-part breakdown for the new chapter, closed by an extrapolation question | second reply
+  - author | supplies next chapter | another chapter's text with a request to evaluate it the same way | third exchange
+  - model | delivers thematic mapping | analysis of the new chapter's conflict and labor logic, closed by an extrapolation question | third reply
+  - author | supplies next chapter | another chapter's text with a request to evaluate it | fourth exchange
+  - model | delivers thematic mapping | analysis of the new chapter's social and magical failures, closed by an extrapolation question | fourth reply
+  - author | proposes an original synthesis | the author's own doubled-influence theory plus a stated future plot fact, offered for confirmation | fifth exchange
+  - model | validates and extends the synthesis | a structural account building on the author's theory and plot fact, closed by a new extrapolation question | fifth reply
+  - author | supplies next chapter with a reading and a correction | the chapter's text, the author's own interpretive claim about a subplot, and a clarification of which plot is primary | sixth exchange
+  - model | confirms the reading and delivers mapping | agreement with the author's framing plus a four-part breakdown, closed by an extrapolation question | sixth reply
+  - author | supplies next chapter | another chapter's text with a request to analyze it | seventh exchange
+  - model | delivers thematic mapping | analysis of the new chapter's economic and systemic failures, closed by an extrapolation question | seventh reply
+  - author | offers a process reflection | the author's own account of habitually converting production-driven quirks into in-world causal rules | eighth exchange
+  - model | affirms and names the process | validation of the reflection with worked examples of the same conversion, no new question posed | eighth reply
+  - author | raises a craft observation | the author's own note about being unable to write plot-free romance, extended into a question about a parallel relationship, plus a biographical aside on reading habits | ninth exchange
+  - model | analyses the parallel relationship | a mapping of the other project's central romance onto the same structural logic already established, closed by an extrapolation question | ninth reply
+  - author | supplies an unfinished draft | a partial chapter's text with a request to analyze it | tenth exchange
+  - model | delivers thematic mapping | analysis of the unfinished draft's setup and implied conflicts, closed by an extrapolation question | tenth reply
+  - author | requests final coverage | a request to review the remaining unwritten portion of the outline now that the finished text has been covered | closing exchange
+  - model | delivers thematic mapping for outline material | analysis of the planned but unwritten ending tied to the same recurring concepts, closed by an extrapolation question | closing reply
+- kept:
+- brought: Across the thread the author fed in, chapter by chapter, the full and partial text of an earlier finished story plus the remaining unwritten outline, alongside several of the author's own emerging theories about how that material connects causally to a separate, larger project, asking each time for the connection to be confirmed and elaborated.
+- loop: The recurring loop is: the author supplies one unit of old material (a chapter, a draft, or a self-generated theory about the work) and asks for it to be mapped onto the other project's framework; the model returns a validating structural breakdown ending in a further extrapolation question, which the author does not answer but instead uses as the cue to bring the next unit of material - a cycle that ran to completion without any of it being recorded into the planning database.

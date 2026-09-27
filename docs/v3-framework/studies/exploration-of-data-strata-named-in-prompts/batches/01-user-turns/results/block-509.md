@@ -1,0 +1,4 @@
+- sources:
+  - a lot of different disjointed notes about Chrysalis | the material to be reorganized; treated as scattered and unstructured, not yet in usable order | I have a lot of different disjointed notes about Chrysalis | first-named
+- order:
+- about: The user asks the model for advice, with reasons, on how to better organize their scattered notes about the character Chrysalis.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to recall a side story about a woman who was Saeroyi's friend and worked for Jangga, following the model's breakdown of the plot.

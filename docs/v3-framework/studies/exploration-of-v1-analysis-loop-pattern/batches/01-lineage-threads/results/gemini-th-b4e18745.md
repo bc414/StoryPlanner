@@ -1,0 +1,8 @@
+- steps:
+  - author | poses comparative-research question | asks how the Feb 2022 invasion failed and how to draw inspiration/parallels for the existing story plan | opening prompt of the stretch
+  - model | delivers structured mapping | five paired points matching invasion failures (intelligence delusion, mud season, convoy logistics, Hostomel airport, command rigidity) to story elements (Statthalters, Applejack's militia, Tall Tale terrain, Chrysalis's vanguard), closes with an offer to design a Hostomel-equivalent battle | reply to first prompt
+  - author | redirects the request | asks instead for a direct analysis of parallels between the story plan and the Russia-Ukraine war, not taking up the offered battle-design | second prompt
+  - model | delivers thematic comparative analysis | covers invasion motive/overconfidence, doctrine contrast (mass conscription vs decentralized defense), propaganda/dehumanization, nuclear-deterrence parallel, and foreign-support parallel, mapped onto named story figures and factions; response appears to cut off partway through several points | reply to second prompt, closing the stretch
+- kept:
+- brought: The author brought a reference to their already-established story plan (characters, factions, and setting like Applejack, Chrysalis, Tall Tale) without pasting its text, asking the model to compare it against the real-world 2022 invasion.
+- loop: The author brought a real-world military-history question loosely tied to the existing plan and, after the model's first mapping, redirected toward a more direct comparative analysis; both rounds of analysis stayed external to the exchange, with nothing from either response traced into the planning database in this stretch.

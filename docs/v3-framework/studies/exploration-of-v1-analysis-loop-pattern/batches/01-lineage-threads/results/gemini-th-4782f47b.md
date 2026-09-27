@@ -1,0 +1,13 @@
+- steps:
+  - author | correct | revises the causal story of the FJA revolution, replacing a class-revolt premise with a tax/market-access account and redefining Coltbert's role as advisor not revolutionary | opening of gemini:1075 prompt
+  - author | redirect-source | proposes that Chrysalis derived her economic strategy from observing Coltbert rather than from Skyfall | same prompt, gemini:1075
+  - author | reference-request | asks the model to recall earlier plan material about Coltbert's eccentric trait of using noble griffonesses as a biological loophole | end of gemini:1075 prompt
+  - model | synthesis | organizes the correction into a structured account of Coltbert as a 'loophole architect' and a phased economic explanation of why the FJA revolted | body of gemini:1075 response
+  - model | extension | extends the account to Chrysalis's 'weaponized' version of Coltbert's method, Coltbert's present-day status, and implications for the Applejack drug-deal plotline | later part of gemini:1075 response
+  - author | correct | supplies a corrected date for when FJA exports and thestral migration to Manehattan began | opening of gemini:1076 prompt
+  - author | correct | revises Rarity's arrival date and reframes her as someone drawn to a pre-existing Aquileian culture rather than its inventor | continuation of gemini:1076 prompt
+  - model | synthesis | builds a revised timeline reconciling the new dates and recasts Rarity's role as 'the Bridge, not the Architect' | body of gemini:1076 response
+  - model | extension | connects the revised Rarity role to the EEEE! union's trust in her, the 1011 economic crash, and a restated motivation for her joining the war effort | later part of gemini:1076 response
+- kept:
+- brought: The author brought established worldbuilding (Skyfall's banking role, Coltbert's prior-noted eccentric noble-loophole trait, and Rarity's canonical arrival timeline) in order to correct and reorder the causal and chronological logic connecting them.
+- loop: The author repeatedly supplies corrective facts and dates to existing lore, and the model each time re-synthesizes a fuller structured account around the correction, but nothing from either exchange is recorded back into the planning database in this stretch, leaving the loop of correction-and-synthesis without a captured result.

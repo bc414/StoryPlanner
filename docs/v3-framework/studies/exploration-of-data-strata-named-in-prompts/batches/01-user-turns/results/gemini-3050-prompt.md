@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model, in a single short question, to explain what the subculture label "Asian Baby Girl" really means, continuing the discussion of female-centric subcultures without pointing at any body of material.

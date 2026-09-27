@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user layers new scene material onto the planned Aquileia chapter: Kemerskai's media warning, AJ's unease, reporters who start out annoying and turn serious once the tactics come out, and AJ's decision that the war can't go on now that Synovial's attaché is gone.

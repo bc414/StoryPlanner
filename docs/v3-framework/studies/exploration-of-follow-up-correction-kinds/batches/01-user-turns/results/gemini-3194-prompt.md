@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, extending the Sonnet-vs-Opus comparison to Gemini Flash versus Pro, without challenging anything the model said.

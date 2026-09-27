@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, extending the Warcraft discussion back to the first two games, without disputing anything the model said.

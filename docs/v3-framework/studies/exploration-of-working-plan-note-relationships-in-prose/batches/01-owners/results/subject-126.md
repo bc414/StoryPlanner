@@ -1,0 +1,36 @@
+- relations:
+  - 808 | 810 | cause and consequence: the cold that forces constant wood-burning is the condition under which one pony's hoarded firewood would freeze the village, which the egalitarian ethos answers | burn wood constantly for warmth / If one pony hoarded firewood, the entire village froze | implicit
+  - 808 | 813 | continuation in time: constant wood-burning over centuries of settlement leads to depleted timber and fighting over tree lines | burn wood constantly / easy timber along the rivers was depleted | implicit
+  - 808 | 2176 | the cold northern latitude is the wider condition, and marginal, frost-prone agriculture is a further material condition of the same setting | too cold to support weather management / Agriculture is possible but marginal | implicit
+  - 2176 | 810 | cause of the ethos: pooling food against frost breeds communal solidarity, and the ontology note gives the same solidarity as militant egalitarianism grounded in shared survival | communal solidarity / absolute, militant egalitarianism | implicit
+  - 2176 | 811 | presupposition: the communal longhouses that mandate pooling are the massive interconnected longhouses stated as the way ponies lived | Communal longhouses / massive, interconnected longhouses | implicit
+  - 810 | 812 | instance and elaboration: the survival-driven duty of shared firewood is the sacred collective duty of the peasants, which the boyars organise | hoarded firewood / "Keep the Fire Burning" | implicit
+  - 812 | 813 | general rule and its historical unfolding: boyars as chief logisticians of taiga logging, then pushed deeper into the taiga as timber ran out | generational logging expeditions into the deep taiga / push deeper into the frozen taiga | implicit
+  - 812 | 813 | the boyars' rule by logistical necessity is echoed by the reason Celestia accepts them, their harmony through unified logistics | ruled by logistical necessity / Harmonic ... unified logistics | implicit
+  - 813 | 814 | continuation in time: from the 795 turn to Celestia onward, lumber transport is by draft-pony caravans over frozen roads | 795 ALB / From 795 to 870, lumber transport | implicit
+  - 812 | 814 | instance: the logging expeditions the boyars organise are carried by the slow draft-pony caravans | logging expeditions / lumber transport relies on massive, slow, draft-pony caravans | implicit
+  - 813 | 2619 | occasion for a general statement: boyars fighting each other over tree lines and failing to agree on a Tsar is an instance of boyars squabbling and having no unified nation | fighting each other over the remaining tree lines / The boyars often squabbled with each other | implicit
+  - 809 | 812 | real-world source and in-universe counterpart: Russian boyars grounded in survival logistics rather than conquest match boyars ruling by logistical necessity, not divine right | not "Knights" ... desperate logistics / did not rule by divine right; they ruled by logistical necessity | implicit
+  - 809 | 810 | real-world source and in-universe counterpart: Sobornost's disdain for Western individualism as selfish matches the shame of standing out and luxury | viewed Western individualism as selfish / Standing out ... deeply shameful | implicit
+  - 809 | 2176 | real-world source and in-universe counterpart: the collective peasant commune and pooled land correspond to communal pooling of food for survival | Obshchina or Mir ... Land was held collectively / food supply pooling as survival insurance | implicit
+  - 809 | 2619 | continuation of the analogy: after the commune and Sobornost, the same source is used for village-level identity, with the commune as the unit of identity | Obshchina or Mir / The obshchina commune was the unit of identity | implicit
+  - 2619 | 809 | 2619 names the in-universe result: hyperlocal village identity, not a unified nation, drawn from the real-world mir | Thus, pre-industrial Severyana has regional identities for each village | implicit
+  - 2617 | 2621 | two accounts of why Severyana is earth pony only: ponies chose to live in the north because everypony had to farm, versus centuries of self-selection because only earth pony magic still worked in the cold; they overlap and differ in mechanism | Only earth ponies chose to live in the north / only ones whose magic still worked | implicit
+  - 2618 | 2617 | decision and its in-world reason: tightening Severyana to earth ponies only is given the in-world explanation that only earth ponies lived there | earth ponies only / Severyana is only earth ponies because | implicit
+  - 2618 | 2621 | decision and its in-world reason: the earth-pony-only rule is backed by centuries of self-selection | earth ponies only / Severyana was earth pony only | implicit
+  - 2617 | 2176 | 2617 rests on the marginal agriculture that 2176 describes, as the reason everypony had to work the land | marginal agriculture for the Mir to survive / Agriculture is possible but marginal | implicit
+  - 2617 | 2622 | presupposition: with only earth ponies and no pegasi, crops lack lightning-made nitrogen, so peas are needed | Severyana is only earth ponies / Without pegasi for lightning | implicit
+  - 2176 | 2622 | 2622 builds on the crops listed: peas are rotated between the rye and barley of the farming | rye, barley / peas ... rotate between rye and barley | implicit
+  - 2622 | 2623 | two answers to the same nitrogen need: peas in rotation, and alder groves that fix atmospheric nitrogen | water soluble nitrogen / capable of fixing atmospheric nitrogen | implicit
+  - 2630 | 2617 | earth ponies keeping cutie marks yields a division of labor within the earth-pony-only population, farmers included | still have cutie marks / everypony had to contribute | implicit
+  - 2630 | 811 | the division of labor is set inside the longhouse, a presupposition that ponies live in longhouses | The longhouse has a division of labor / massive, interconnected longhouses | implicit
+  - 2630 | 812 | instance: loggers among the trades correspond to the logging expeditions the boyars organise | Loggers, farmers, builders / massive, generational logging expeditions | implicit
+- outward:
+  - 808 | Equestria and its weather management and survival harmony, held elsewhere | separate from Equestria ... weather management and survival harmony
+  - 810 | economic concept of Asset Specificity and the ontology of Pink Love (Harmony), held elsewhere | "Pink Love" (Harmony) / "Asset Specificity"
+  - 813 | Celestia and the ALB calendar, held elsewhere | turned to Celestia to be the immortal arbitrator
+  - 2618 | the game's canon origin of Stalliongrad and its revolution, and the author's stagnation-of-harmony ontology | Stalliongrad in the game / my stagnation of harmony ontology
+  - 2618 | TLTT, the story the system serves | For TLTT I'm tightening up Severyana's lore
+  - 2622 | pegasi and their lightning, held elsewhere as part of the world | Without pegasi for lightning
+  - 2621 | cutie mark and earth-pony magic lore elsewhere, magic that still worked in cold latitudes | the only ones whose magic still worked
+- whole: The notes hang together as a set: a causal chain runs from cold latitude and marginal farming through communal ethos and boyar logistics to history, with analogy notes and the earth-pony-only and nitrogen threads each tying several entries.

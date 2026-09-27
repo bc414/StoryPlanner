@@ -1,0 +1,9 @@
+- steps:
+  - the author | reports a research finding | a rewatched episode reveals canon origin of a draining spell the author had been modeling on a fanfic | opening message
+  - the author | asks a follow-up question | requests other canon episodes with similar draining/extraction magic | end of opening message
+  - the model | confirms the finding | agrees the cited episode is the strongest canon match and calls it validating for the author's existing concepts | start of response
+  - the model | builds a catalog | lists six canon draining/extraction mechanics, each mapped onto the author's own established terms (Red Love, Magical Engineering, Love Harvester, Luna Nova Rifle, Love Donator, Changeling Emotion Sense, Pink Love) | body of response
+  - the model | offers a synthesis | suggests how the six examples could be organized under the author's 'Unified Theory of Magic' codex, framing each as ancestor or parallel to specific in-story devices | closing of response
+- kept:
+- brought: The author brought a prior piece of their own comparative research (a spell they had modeled on another fanfic, now traced to a canon episode) and turned it into a question seeking more canon precedents.
+- loop: The author supplied a self-made observation plus a request for parallels, and the model returned an organized catalog mapping canon examples onto the author's existing terminology, but no note from this stretch was traced into the planning database, so the catalog was not carried forward into the plan on record.

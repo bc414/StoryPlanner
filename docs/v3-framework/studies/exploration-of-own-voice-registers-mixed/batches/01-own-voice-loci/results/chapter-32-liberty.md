@@ -1,0 +1,9 @@
+- passages:
+  - note 4450 | justificatory reasoning | causal "because" clause tying an ordering choice to a fact about origin | why this chapter belongs last rather than centering Equestria | apart
+  - note 4451 | justificatory reasoning | negative justification pointing to a prior chapter ("Ambition", "AJ won the election") | why the Equestrian Republic doesn't need more glorification | apart
+  - note 4451 | thematic assertion | terse flat "X is about Y" statement, no reasoning given | what Liberty is about: liberating the fascist states | apart
+  - note 4687 | event listing | colon-introduced two-item enumeration with informal epithets ("smug griffons", "deviant parasite") | the two moments that started the timeline | apart
+- shifts:
+  - note 4451 | justificatory reasoning | thematic assertion | new line drops the comparative/negative justification for a bare declarative statement of purpose
+- registers: justificatory reasoning; thematic assertion; event listing
+- whole: These notes are written in several short, standalone registers—justificatory reasoning, a flat thematic assertion, and an enumerating event listing—that sit apart from one another rather than blending within a single stretch.

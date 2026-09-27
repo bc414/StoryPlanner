@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the chapters 18-22 answer without dispute and moves on to the next range, asking for the same hidden-subject search on chapters 1-6 and telling the model to read them fully.

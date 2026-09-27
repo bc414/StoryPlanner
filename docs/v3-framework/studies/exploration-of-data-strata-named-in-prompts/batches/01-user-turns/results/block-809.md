@@ -1,0 +1,4 @@
+- sources:
+  - the axes (axis 1's antipole, axis 3, axis 4) as laid out in the model's refined scheme | treated as provisional and open to revision; the user proposes changing what axis 1's antipole, axis 3 and axis 4 stand for rather than accepting them as given | axis 1's antipole is better represented by; Maybe axis 3 should be; While axis 4 is | referred-to
+- order:
+- about: The user pushes back on the model's political-axes scheme, proposing to redefine axis 1's antipole as the industrial revolution and to rework axis 3 (extraction vs conscience, or in-group tribalism vs universalism) and axis 4 (leverage vs conscience), backing this with examples from the fabula's factions.

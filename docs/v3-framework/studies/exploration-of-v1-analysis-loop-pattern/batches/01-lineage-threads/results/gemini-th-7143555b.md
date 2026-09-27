@@ -1,0 +1,27 @@
+- steps:
+  - author | brings worldbuilding premise | Chrysalis patent-theft backstory, CEO motivation question, domestic-production question | opening message of thread
+  - model | returns analysis with real-world analogy | corporate backstory, licensing/tech-transfer deal model, narrative-arc suggestions, sample scene | reply to opening message
+  - author | asks two follow-up questions | whether the CEO should be assassinated, whether royalty payments continue during licensed production | second exchange
+  - model | gives verdict plus confirmation | recommends against assassination with pros/cons, confirms ongoing royalty logistics and lock-in mechanism | reply to second exchange
+  - author | extends the technical idea | ties the valve to love donators and civilian spell matrices via the unified magic theory | third exchange
+  - model | validates and extends the mechanism | red/pink separation logic, rifle component breakdown, economic scale-up implications | reply to third exchange
+  - author | asks a strategic question | whether Equestria can achieve valve independence after the war, invoking a TSMC analogy | fourth exchange
+  - model | analyzes obstacles and proposes a solution | tooling-dependency problem, solid-state valve invention, phased timeline | reply to fourth exchange
+  - author | asks the model to consult the plan and poses a question | requests review of how the Griffonia war ends, asks if Kessler can now be pressured | fifth exchange
+  - model | analyzes new leverage | siege dynamics, diplomatic pivot, internal betrayal removing Kessler | reply to fifth exchange
+  - author | introduces a complication | Kessler self-sourcing love donators, links additive drugs to Tzinacatl drug lords | sixth exchange
+  - model | analyzes the expanded trade network | raw-vs-refined distinction, drug-lord treaty mechanics, moral fallout for Applejack | reply to sixth exchange
+  - author | proposes a plot turn | Applejack's rehab offer, Trade Council's refusal, Patriotten uprising | seventh exchange
+  - model | analyzes the political mechanics | poison-pill negotiation logic, rejection rationale, uprising sequence | reply to seventh exchange
+  - author | requests a historical parallel | Skyfall's fall modeled on the Dutch Republic's fall to Napoleonic France | eighth exchange
+  - model | maps the historical parallel | phase-by-phase correspondence, outcome as a sister republic | reply to eighth exchange
+  - author | poses a sequencing question | whether the pink-love intervention should debut at Skyfall or be saved for Vesalipolis, suggesting a method contrast | ninth exchange
+  - model | analyzes narrative sequencing | escalation structure from political to strategic intervention, character-dynamics payoff | reply to ninth exchange
+  - author | asks a timing question and a factual question | whether the Skyfall resolution should precede the referendum, what the real Patriotten's alignment was | tenth exchange
+  - model | gives a verdict plus historical answer | timing rationale tied to Celestia and Luna's arcs, historical alignment of the Patriotten as republicans | reply to tenth exchange
+  - author | proposes an election-structure idea | splits swing votes between a debate and the Skyfall resolution, floats Luna's persuasion separately | eleventh exchange
+  - model | validates and elaborates the structure | mechanics of each swing vote, why the Skyfall resolution specifically persuades Luna | reply to eleventh exchange
+- kept:
+  - note 261 | pasted from this reply inside the author's own framing | keeps the model's licensing/royalty/tooling-lock-in structure and valve-as-transistor analogy, folded into the author's own war-council scene under a PlotPoint entry
+- brought: The author brought a new worldbuilding premise into the thread — that Chrysalis had once patent-violated and reverse-engineered the valve technology — along with open questions about the CEO's motives and how domestic production might work.
+- loop: Across eleven exchanges the author fed the model a chain of worldbuilding premises, moral complications, and structural questions about the Red Love/Kessler Valve economy and Skyfall's political collapse, and the model returned extended analyses, verdicts, and narrative-structuring proposals each time; the planning database kept only a single condensed note, folding the model's economic and technical scaffolding into the author's own framing of one war-council scene, leaving the rest of the eleven-exchange elaboration untraced in the visible database.

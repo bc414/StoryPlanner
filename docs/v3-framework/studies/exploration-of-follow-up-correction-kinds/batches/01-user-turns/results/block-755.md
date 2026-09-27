@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's axes cast each anti-pole as a plain failure mode (predation, stagnation, paternalism, interchangeability) and made the synthesis a single optimum. The user says the anti-poles are not evil in themselves but regional responses to a problem on one of the other axes. | "I believe each of the 4 anti poles are not evil on their own, and are regional responses to a problem from one of the other axes" | Stated as the user's own belief, offered as a refinement while agreeing with the synthesis, with no apology or irritation and no explicit reference to the model's wording
+- about: The user accepts the four-axis synthesis but reframes the anti-poles as understandable regional responses rather than evils, then asks whether Chrysalis embodies all four anti-poles, how a single individual could serve as a positive case, and for real-history parallels.

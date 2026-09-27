@@ -1,0 +1,17 @@
+- asks:
+  - check/locate | find and review the story thread about the "cute intelligence agency" in the attached story plans | "Check the attached story plans for the story thread about the cute intelligence agency"
+  - plausibility check | judge whether Fluttershy's and the buffalo's animal-communication ability makes sense as magically enhanced non-verbal communication | "Would it make sense for it to be magically enhanced non verbal communication?"
+  - canon-consistency check | check whether that explanation fits how FiM canon depicts Fluttershy "talking" with animals | "Would this be consistent with canon FiM Fluttershy and how she 'talks' with animals?"
+  - extend/brainstorm | consider whether changelings could gain the same ability through emotion sense if they practice or train | "can changelings be capable too thanks to emotion sense, if they practice/train?"
+  - judgment | assess whether POWs can be trusted within a state secret intelligence agency | "Can POWs be trusted with a state secret agency?"
+  - validate reasoning | check whether Fluttershy personally choosing and trusting the rehabbed changelings (treating them like the animals/children she cares for) justifies that trust | "I guess since Fluttershy is in charge she gets to choose, and she trusts the rehabbed changelings she chooses"
+  - validate narrative connection | check whether this secrecy/trust setup plausibly explains Fluttershy giving Celestia The Stare over the POW-for-captive trade during the white peace | "This could also be why Fluttershy gives The Stare to Celestia when she tries to trade the POWs"
+  - decide/choose | decide whether the POW camp should stay confined to the Tall Tale convention center or a new secure facility should be built in the field outside the city for combined animal and changeling rehab | "should they actually build a new facility in the field outside the city"
+  - brainstorm/design help | help figure out how to design a new secure facility for this purpose | "Not sure how to go about this, it still has to be a secure facility"
+- supplies:
+  - attached document | full set of story plans, referenced for the "cute intelligence agency" thread | attachment, extent unspecified (presumably multi-chapter planning material)
+  - inline paraphrase | brief description of a chapter 9 ("Sabotage") scene where Fleur explains buffalo species magic as nature stewardship, akin to earth ponies | a sentence
+  - inline reference | mention of a scene in chapter "Stagnation" where Fluttershy gives Celestia The Stare during a POW-for-captive trade attempt | a sentence
+- shaping:
+- openness: The message mostly leans toward answers it already proposes (non-verbal magical communication, changeling emotion-sense training, POW trustworthiness via Fluttershy's personal vetting, the Stare's hidden motive) while explicitly asking for a canon-consistency check and for a choice between two named facility options (keep the convention center vs. build a new secure site).
+- subject: The in-universe magical basis for animal/emotion communication underlying a secret pony-buffalo-changeling intelligence agency, and where to site its changeling-POW rehabilitation facility.

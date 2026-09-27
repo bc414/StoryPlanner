@@ -1,0 +1,12 @@
+- asks:
+  - structural placement | decide where the split between the two chapters (the Crystal Empire relief/talk chapter and the following battle chapter) should fall | "Where would the split occur?"
+  - evaluative check | assess whether AJ's honest ultimatum works as the closing line of the first chapter | "AJ's honest ultimatum could be the last line of the first chapter?"
+  - brainstorm/generate | produce alternative titles for each of the six named chapter titles | "Give other alternatives for all"
+- supplies:
+  - chapter concept sketch | a proposed new chapter covering the relief of the Crystal Empire, the front collapsing, changelings flocking to Canterlot, and a follow-on talk about the group's situation and path forward, preceding a battle chapter | a few sentences
+  - chapter title reactions | a list of six candidate chapter titles (Sabotage, Passage, Velocity and Momentum, Sovereignty, Discipline, Victory) each tagged with the user's reaction from loved to disliked | a short list
+- shaping:
+  - cover every title, not only the disputed ones | "Give other alternatives for all"
+  - weight effort toward the disliked/neutral titles over the liked ones | "put most thought into the ones I don't like"
+- openness: The message leans toward its own suggestions for the chapter split and the closing line (asking the model to confirm or refine them) while leaving the title-alternatives request fully open, only directing where to concentrate effort.
+- subject: Splitting a planned Crystal-Empire-relief chapter from the following battle chapter, and brainstorming alternative titles for several war-arc chapters

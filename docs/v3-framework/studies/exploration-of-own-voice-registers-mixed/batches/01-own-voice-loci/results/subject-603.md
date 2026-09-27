@@ -1,0 +1,20 @@
+- passages:
+  - 52 | authorial-plan | future tense "will paint", meta term "twist" | how the narrative will portray GR as flawed then reveal it as different-but-perfect | apart
+  - 4034 | authorial-plan | future tense "will be predisposed" | predicted future bias of Applejack/Equestrians tied to shared military language | apart
+  - 4035 | worldbuilding exposition | present tense "are...biased", causal "because of" | Aquileian bias against GR/Herzlander culture from subjugation/rivalry | apart
+  - 4036 | character biography | past tense "was roped into", "as a teenager" | Henri's teenage recruitment into a supremacist group | apart
+  - 4036 | character biography | past tense "lived", place names | Henri's residence in Ailmont, Verenia | run-in
+  - 4036 | worldbuilding exposition | present tense "thinks...morally deficient" | Henri's current belief about Herzlanders | run-in
+  - 4943 | heading/label | dash-joined noun phrase, no verb | category tag naming the note's topic | apart
+  - 4943 | worldbuilding exposition | present tense "view...as poseurs", parenthetical comparisons | Aquileian view of Herzlanders as dishonorable poseurs | apart
+  - 4943 | worldbuilding exposition | present tense "come from", generalization | origin of biases in inherited childhood stories | apart
+  - 5218 | worldbuilding exposition | present tense "literally call", loan-phrase detail | Aquileian use of "blank flanks" as borrowed insult | apart
+  - 5218 | worldbuilding exposition | present tense "inject...into their speech" | habitual code-switching detail | apart
+  - 5218 | worldbuilding exposition | present tense, vivid reaction "roll their eyes", "humbles" | Equestrian reaction and resulting humbling of Aquileians | apart
+  - 5218 | self-interrogative planning question | two direct questions, "should", "would" | when/why to reveal the humbling for narrative effect | apart
+- shifts:
+  - 4036 | character biography | worldbuilding exposition | tense shift from past narration to present-tense belief clause, joined by "and" in the same sentence
+  - 4943 | heading/label | worldbuilding exposition | shift from terse dash-joined noun-phrase title to a full declarative sentence
+  - 5218 | worldbuilding exposition | self-interrogative planning question | shift to question form and craft-consideration, set off as a new line
+- registers: authorial-plan; worldbuilding exposition; character biography; heading/label; self-interrogative planning question
+- whole: These notes hold several distinct registers—future-tense authorial planning, present-tense worldbuilding exposition, past-tense character biography, a bare heading/label, and self-interrogative planning questions—and they mostly stand apart by note or line break, with only one place, inside note 4036, where two registers run into each other within a single sentence.

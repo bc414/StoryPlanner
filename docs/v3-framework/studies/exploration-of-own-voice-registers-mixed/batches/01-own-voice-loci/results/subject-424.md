@@ -1,0 +1,9 @@
+- passages:
+  - note 4521|plot-summary|terse declarative, third person, states event and its motive|Twilight giving up her destiny to save Applejack|run-in
+  - note 4521|affectionate aside|parenthetical, whimsical framing of relationship|Twilight becoming Applejack's princess|run-in
+  - note 4528|aphoristic thesis|general moral claim, no named character or event, modal 'should'|the unfairness of a long solitary reign|apart
+  - note 5685|analytical-thematic exposition|expository claims linking a character's studies to thematic contrasts and a comparison to another plotline|how Fleur Bloom's research undercuts Celestia's magic narrative and parallels Grover III's story|apart
+- shifts:
+  - note 4521|plot-summary|affectionate aside|parenthesis reframing the stated event in personal, wry terms
+- registers: plot-summary; affectionate aside; aphoristic thesis; analytical-thematic exposition
+- whole: Across these three notes the writing holds several distinct registers—a plot-summary note with a parenthetical shift into an affectionate aside, a standalone aphoristic thesis, and a sustained analytical-thematic exposition—with only the one note showing an internal, unbroken shift and the others each holding a single register throughout.

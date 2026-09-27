@@ -1,0 +1,51 @@
+- passages:
+  - note 4112 | generalizing expository | present tense, generic subject 'earth pony magic', parenthetical aside | usual slow wide-radius behavior of earth pony magic | apart
+  - note 4112 | narrative account | named subject 'Fleur', past tense 'invented', specific device | Fleur's crystal pattern packaged into a digging shovel | apart
+  - note 4112 | generalizing expository | present tense, generic 'It takes...', mechanism description | how the crystal converts slow wide magic into fast narrow magic | apart
+  - note 4112 | narrative account | past tense 'was able', comparative claim | extension to entrenchment-digging faster than griffons | apart
+  - note 4470 | technical definitional shorthand | scare-quoted term 'dynamic weathering', ratio talk | earth pony magic defined via phosphorus/potassium ratios per crop | run-in
+  - note 4470 | informal aside | casual phrase 'get a discount', cutie-mark comparison | bonus effect for growing one's cutie-mark crop | run-in
+  - note 5129 | speculative analytical | hedge 'perhaps', named theorists Fleur and Coltbert, questioning of bias | alternate catalyst theory: red love vs pink love | apart
+  - note 5129 | declarative sociological argument | unhedged claims, jargon 'Predator's Dilemma', 'asset specificity' | historical/social account of why gray Aquileia lacked both loves | apart
+  - note 5135 | heading/label | title-case phrase, no verb | category heading for weaponization concepts | apart
+  - note 5135 | technical fragment | dash-introduced elaborative clause, alloy chemistry | phosphor bronze for recoil springs and gears | apart
+  - note 5135 | heading/label | bare noun phrase, no elaboration | white phosphorus listed as item | apart
+  - note 5136 | heading/label | title-case phrase, no verb | category heading for chemistry-synthesis concepts | apart
+  - note 5136 | hypothetical narrative note | conditional 'would use', named faction, intent verb 'pivot' | Tzinacatl's phosphoric-acid pivot from drugs to junk food | apart
+  - note 5136 | technical fragment | bare noun phrase, no verb | sodium tripolyphosphate for detergent | apart
+  - note 5136 | scientific explanatory | full sentences, named institutions SAA and Aquileian chefs | potassium salts for preservation, culinary use, soap | apart
+  - note 5137 | generalizing expository | short flat declarative, present tense | nerve gases exist but go unused | apart
+  - note 5137 | rhetorical question | direct question, question mark | whether Chrysalis would gas Stalliongrad | apart
+  - note 5137 | in-universe explanatory reasoning | 'because' clause, named character/faction motive | reasons Chrysalis and Statthalters hold back | apart
+  - note 5137 | hedged speculative question | 'Perhaps...' hedge plus closing question mark | possible reason Chrysalis doesn't escalate | apart
+  - note 5137 | declarative characterization | short flat trait statement | summary of Chrysalis as rational tyrant | apart
+  - note 5137 | hypothetical genre comparison | reference to 'generic grimdark EaW story', conditional 'would do it' | contrast with a genre trope | run-in
+  - note 5137 | authorial meta-commentary | first-person 'mine', self-directed question mark | author's own deviation from that trope | run-in
+  - note 5515 | generalizing expository | 'basically', broad present-tense claim | earth pony magic as magical fertilizer | apart
+  - note 5515 | scientific explanatory | textbook terminology, 'macronutrients', 'water soluable' | mechanism of making minerals soluble via magic | apart
+  - note 5515 | plain declarative admission | flat acknowledgment of unreality | admits chemistry is infeasible in real life | run-in
+  - note 5515 | informal aside | capitalized 'MAGIC!', exclamation point, 'we're talking' address | waves off realism because it's magic | run-in
+  - note 5515 | generalizing expository | return to plain declaratives, quoted terms, in-universe framing | how Equestrians perceive earth pony farming vs unicorn magic | apart
+- shifts:
+  - note 4112 | generalizing expository | narrative account | named character introduced, tense shifts to past, specific invented device
+  - note 4112 | narrative account | generalizing expository | returns to present tense and generic subject 'It'
+  - note 4112 | generalizing expository | narrative account | past tense resumes, comparative claim about griffons added
+  - note 4470 | technical definitional shorthand | informal aside | casual 'get a discount' phrase joined by 'and' in same sentence
+  - note 5129 | speculative analytical | declarative sociological argument | hedging drops, sociological jargon introduced at paragraph break
+  - note 5135 | heading/label | technical fragment | dash introduces an elaborative technical clause
+  - note 5135 | technical fragment | heading/label | returns to bare unelaborated noun phrase
+  - note 5136 | heading/label | hypothetical narrative note | named faction and conditional 'would use' with intent verb
+  - note 5136 | hypothetical narrative note | technical fragment | drops to bare noun phrase with no verb
+  - note 5136 | technical fragment | scientific explanatory | returns to full sentences naming institutions and elaborating uses
+  - note 5137 | generalizing expository | rhetorical question | question mark poses a direct hypothetical
+  - note 5137 | rhetorical question | in-universe explanatory reasoning | declarative answer begins with 'because'
+  - note 5137 | in-universe explanatory reasoning | hedged speculative question | 'Perhaps' hedge and closing question mark return
+  - note 5137 | hedged speculative question | declarative characterization | flat unhedged trait statement follows
+  - note 5137 | declarative characterization | hypothetical genre comparison | reference to a 'generic grimdark EaW story' as outside comparison
+  - note 5137 | hypothetical genre comparison | authorial meta-commentary | first-person 'mine' and self-directed '?' inside the same sentence
+  - note 5515 | generalizing expository | scientific explanatory | transition phrase 'in even more explicit terms invoking chemistry' brings in nutrient terminology
+  - note 5515 | scientific explanatory | plain declarative admission | admits the process is 'chemically infeasible in real life'
+  - note 5515 | plain declarative admission | informal aside | capitalized 'MAGIC!' and exclamation joined by 'but' in the same sentence
+  - note 5515 | informal aside | generalizing expository | returns to plain declaratives without exclamation
+- registers: generalizing expository; narrative account; technical definitional shorthand; informal aside; speculative analytical; declarative sociological argument; heading/label; technical fragment; hypothetical narrative note; rhetorical question; in-universe explanatory reasoning; hedged speculative question; declarative characterization; hypothetical genre comparison; authorial meta-commentary; scientific explanatory; plain declarative admission
+- whole: Across its seven notes this item holds many registers—generalizing and scientific exposition, narrative accounts, bare heading fragments, speculative and declarative argument, question-and-answer reasoning, and a closing first-person authorial aside—and while most shifts land at a clear sentence or paragraph break, a few registers (an informal or authorial aside against its surrounding claim) run together inside a single sentence with no break at all.

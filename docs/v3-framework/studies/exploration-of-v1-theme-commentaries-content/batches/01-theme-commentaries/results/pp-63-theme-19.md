@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | States the theme's causal argument the scene is meant to carry: isolation produces starvation, and starvation produces fascism, which fits Chrysalis's turn from peace to conquest. It is put as a general law, not tied to a particular event. | Isolation causes starvation, starvation causes fascism | no | planning shorthand, a compact two-step causal slogan
+  - bearing on the theme | Names the positive principle the scene supports: securing resources is what peace rests on. It works as a thematic label or moral, the converse of the first line. | Resource Security as the foundation of Peace | no | title-like fragment, a capitalised thematic heading with no verb
+- whole: A two-line thematic gloss that states the theme's causal chain (isolation, starvation, fascism) and its converse principle (resource security grounds peace), with no reference to specific events in the scene.

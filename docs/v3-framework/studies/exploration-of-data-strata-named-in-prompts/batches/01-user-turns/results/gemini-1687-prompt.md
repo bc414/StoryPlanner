@@ -1,0 +1,5 @@
+- sources:
+  - the timeline (Chrysalis reunited the hives 986 to 998, war with Equestria in 1011) | base the analysis on it and treat its dates as the fixed facts to work demographics from | Give an analysis based on the timeline | referred-to
+  - WW2 era lifespans | adopt as a working assumption for how long characters live, used to work out age structure | Assuming WW2 era lifespans | first-named
+- order:
+- about: The user asks for an analysis, built on the story's timeline and an assumed WW2-era lifespan, of the age makeup of the changeling hives and of the POWs Fluttershy meets in the 1011 war.

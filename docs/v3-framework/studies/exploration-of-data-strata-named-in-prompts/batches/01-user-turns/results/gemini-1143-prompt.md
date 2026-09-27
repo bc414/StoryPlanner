@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh the pros and cons of Applejack still being able to radio in that she is buried, without pointing at any body of material.

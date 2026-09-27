@@ -1,0 +1,9 @@
+- asks:
+  - analysis | analyze the whole envisioned sequence of AJ's character arc as described | "please analyze"
+  - evaluation | consider whether Celestia's act of putting AJ in command is the point where AJ's resentment toward her begins | "Maybe this is where AJ starts to feel resentful"
+  - classification | consider whether the Kemerskai lesson about truth needing to "roar" belongs to a separate arc from the rest | "which I think is a separate arc"
+- supplies:
+  - outline | a beat-by-beat account of AJ's arc across a war story: her imposter syndrome and rise to command, Twilight's comfort, her growth into a competent wartime leader building a war economy, the mercy shown at the Third Battle of Tall Tale, the reactive brutality of the Southern Blitz, her push for a princesses' meeting, the Bluebell decision, the Spearhead campaign against Quebuck and her 'we are monsters' line, her meeting with the surrendered Trimmel, her arming-the-hostages choices at Canterlot and Vanhoover, her wish to invade the hives, Celestia's white-peace intervention, and Kemerskai's later lesson | several paragraphs
+- shaping:
+- openness: Leans toward an answer it names: the message lays out the arc as its own settled vision and asks the model to analyze it, while flagging two specific points ("Maybe...", "which I think") as tentative interpretations it invites comment on.
+- subject: Applejack's wartime leadership and moral arc in a planned MLP war story

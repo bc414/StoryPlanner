@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up worldbuilding questions about whether the adrenaline high and crash dynamic differs between biological males and females, between lion-eagle hybrid predators and pony herbivores, and whether the Chasseurs share it mutually, without pointing at any body of material.

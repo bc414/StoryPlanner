@@ -1,0 +1,80 @@
+- steps:
+  - author | rejects+proposes | rejects forcing all pony names into inventory-form, proposes German given names plus corporate surnames for changelings | opening of naming discussion
+  - model | analysis+proposal | corporate naming system, surname mechanics, pony-name translation table, engineer name example | reply to naming question
+  - author | correction/refinement | insists drones get birth names not tied to parts, surnames earned via meritocratic tracks, requests Hitler Youth comparison | refining changeling social system
+  - model | comparative analysis | maps meritocratic pipeline (bauleiter/jaeger/statthalter/factory/army) onto Hitler Youth/BDM/Volkssturm sources | reply to comparison request
+  - author | new question from plan detail | asks what happens to surnames during 2nd Great Leap Forward consolidation, floats a betrayal/token-concession theory | raising consolidation surname question
+  - model | option analysis | proposes a name-erasure mechanism ('hostile takeover of identity') plus token 'legacy division' concession | reply on consolidation
+  - author | rejection/correction | rejects erasure as implausible, proposes bauleiters keep names as a pride-based propaganda tool instead | correcting consolidation mechanism
+  - model | revised analysis | reworks proposal into 'hollow prestige'/subsidiary system with internal budget rivalry | reply incorporating correction
+  - author | clarification+brainstorm | clarifies MEFO-bill timeline, proposes industrial-medal idea, brainstorms captured engineer's backstory options, asks for a non-Axon name | detailing engineer backstory options
+  - model | naming options+backstory | offers three name options, recommends Hans Kessel, builds medal/consolidation backstory and a Fleur Bloom scene | reply proposing Hans Kessel
+  - author | scene draft+question | accepts Hans Kessel, drafts a chapter 6 scene (Friedrich biting Kessel, Fluttershy's Stare, Henri's mistranslation), asks how to end it | drafting chapter 6 scene
+  - model | scene continuation | proposes an ending sequence: rejection of charity, reductive translation, blanket humiliation, dirt-drawing image | reply completing chapter 6 scene
+  - author | refinement+open question | refines the dirt drawing into crayon schematics, poses branching questions about Kessel's redemption arc | asking about Kessel's arc
+  - model | arc analysis+verdict | lays out crayon setup, spiteful-contractor phase, patent turning point, resolution, recommends spite-driven self-weaponization | reply mapping Kessel's arc
+  - author | plot integration | connects the town hall (ch9) to Twilight's decision to split from Applejack via Fluttershy's mention of Kessel | tying ch9 to ch10 inciting incident
+  - model | validation+analysis | analyzes the ideological bridge, inciting-incident mechanics, and party-split logic | reply confirming inciting-incident plan
+  - author | content planning+question | outlines what Hans will divulge in ch10, asks where MEFO bills should sit and how content compares across chapters | planning ch10/17/19 content distribution
+  - model | placement recommendation | recommends MEFO bills for Trimmel (ch17), details content split across ch10/17/19 with a summary table | reply on lore distribution
+  - author | craft question | asks why the opening of 'The Princess and the Kaiser' hooks readers and how to replicate it | asking about opening craft
+  - model | comparative analysis+options | breaks down TPatK's opening techniques, offers three opening options for the story, recommends one | reply on opening craft
+  - author | meta-research request | asks the model to trace dated planning-document revisions to find when foundational ideas emerged | requesting document-history analysis
+  - model | timeline synthesis | maps foundational ideas to dates across several categories | reply tracing idea origins
+  - author | follow-up research request | asks for the same tracing using a separate week-long prompts log file | requesting extended history analysis
+  - model | four-pillar analysis | organizes the week's evolution into four thematic pillars | reply on extended evolution
+  - author | summary request | asks for a concise but exhaustive summary of the week's developments | requesting condensed summary
+  - model | synthesis summary | delivers a five-section summary of the narrative architecture | reply with summary
+  - author | targeted history request | asks how Harmonic Capitalism specifically developed | requesting concept-specific history
+  - model | staged development analysis | traces Harmonic Capitalism through five developmental stages | reply on Harmonic Capitalism history
+  - author | targeted history request | asks for the same treatment of the Stagnation of Harmony | requesting concept-specific history
+  - model | layered development analysis | traces Stagnation of Harmony through six layers | reply on Stagnation history
+  - author | meta-insight+question | connects the story's cynical ideas to Hasbro corporate mandates displacing Faust's themes, asks for analysis of the parallel | proposing meta-textual thesis
+  - model | validating analysis | maps the Faust/Hasbro split onto Twilight's characterization, the School, and demystified princesses | reply confirming meta parallel
+  - author | plan update+request | reports an updated planning file, asks for analysis of a new framing where disobeying Celestia feels like disappointment | introducing updated character framing
+  - model | psychological analysis | breaks down disobedience psychology, the town-hall catalyst, old-self reclamation, and an arc structure | reply on new framing
+  - author | scene ideas+verification request | lists specific memories for a chapter 12 scene, asks the model to check seasons 4-9 for TwiJack moments to test the claim | requesting canon verification
+  - model | canon research | surveys seasons 4-9, confirms a managerial drift, finds exceptions, suggests integration | reply with canon findings
+  - author | backstory clarification | clarifies no pre-existing feelings existed, adjusts confession/reciprocation timing, reflects on a shift in ship perception | refining romance backstory
+  - model | synthesis analysis | ties the Mali anxiety, delayed reciprocation, and S1 dynamics into a narrative flow | reply on romance mechanics
+  - author | request for more examples | asks for further 'straight mares' dynamic examples | requesting more canon parallels
+  - model | example list | supplies five canon episodes with a story application for each | reply with dynamic examples
+  - author | specific scene question | asks what post-battle signal in chapter 4 could show Applejack that old Twilight is returning | asking for a signal beat
+  - model | option list+recommendation | offers three signal options, recommends combining two of them | reply with signal options
+  - author | new detail+idea | notes the comfort scene should be mutual, proposes Applejack asking how Twilight copes, cites a Luna/Celestia parallel and a Last Roundup callback | adding mutual-burden idea
+  - model | analysis+dialogue options | develops the two-way trauma mirror, Twilight's 'I don't' answer, the sisters parallel, and the Last Roundup integration | reply on mutual comfort scene
+  - author | follow-up question | asks how this ties to Applejack loving old Twilight versus the princess of friendship | asking for connective analysis
+  - model | canon-based analysis | uses an Applebuck Season transcript to contrast observation vs management and perfection vs authenticity | reply linking scenes to romance logic
+  - author | structural proposal | proposes delaying the love reveal, asks for a comparative analysis of the restructuring | proposing structural pivot
+  - model | comparative analysis | lays out three structural options with a recommendation | reply comparing delay options
+  - author | refined proposal | proposes a middle option, reframing the romance as a mirror of imposter syndrome and an escape from roles, specifies Twilight's paralysis and Fizzlepop's lead role | refining structural choice
+  - model | endorsement+breakdown | develops the fraudulence mirror, relationship-as-escape, and Twilight's paralysis arc through chapter 9 | reply endorsing refined structure
+  - author | tech clarification | distinguishes Fizzlepop's explosives work from Twilight's bio-feedback rifle project and reframes it as a new branch, not a takeover | clarifying tech-project division
+  - model | analysis | breaks down the time-capsule dynamic, the tech split, and the harvester epiphany | reply on tech and identity integration
+  - author | dialogue proposal | proposes a specific line tying Twilight's defiance to Applejack's honesty and the old Applejack | proposing key dialogue line
+  - model | analysis+options | analyzes the imposter/farmpony contrast and the Applebuck Season resonance, offers delivery options | reply analyzing proposed line
+  - author | correction | corrects the model's reading, clarifying the point is identity preservation rather than resolving imposter syndrome | correcting model's interpretation
+  - model | revised analysis | reframes around identity preservation and time-capsule mutuality with new dialogue options | reply with corrected analysis
+  - author | new catalyst proposal | proposes Twilight's old crush originating from seeing Applejack's letter to Celestia after the Cider Squeezy | proposing crush origin
+  - model | analysis | explains the psychology of the catalyst and how it resolves Twilight's magic-vs-labor guilt | reply on crush catalyst
+  - author | additional characterization | adds that Twilight admired Applejack's humble contentment against her own striving to impress Celestia | adding backstory layer
+  - model | analysis | contrasts striver versus settler and ties it to the 'my princess' payoff | reply on striver/settler dynamic
+- kept:
+  - note 3240 | one sentence lifted from this reply | keeps the Twilight name-translation line from the naming table, filed under the Hans Kessel plot link about how names are perceived
+  - note 4606 | pasted whole from this reply | keeps the full pony-name translation table, filed under Subject 'How names are perceived'
+  - note 1633 | one sentence lifted from this reply | keeps the spite-driven pitch line convincing Hans to help, filed under the PlotPoint for convincing Hans Kessel
+  - note 3238 | one sentence lifted from this reply | keeps the Discret-tastings-vs-Chrysalis-corruption line, filed under the link between convincing Hans and Discret's Aquileia
+  - note 2328 | one sentence lifted from this reply | keeps the line on Twilight becoming a scientist of magic again, filed under the Twilight/Applejack decompression link
+  - note 4614 | pasted inside the author's own framing from this reply | keeps the 'adult version of the cutie mark system' idea, filed under Subject 'Lauren Faust's Original Themes'
+  - note 814 | the author's own words in this record | keeps the author's list of chapter-12 memory beats, filed under the reunion PlotPoint for Twilight's negative-parts talk
+  - note 2485 | the author's own words in this record | keeps the shorter core version of the same memory-list idea, filed under the matching link to Twilight Sparkle
+  - note 3839 | pasted from this reply inside the author's own framing | keeps the 'saved the farmpony, not the general' line, filed under the Relaxing-after-Love-Donation × TwiJack link
+  - note 3843 | pasted from this reply inside the author's own framing | keeps the same farmpony line, filed under the matching link to Stagnation's Redemption
+  - note 3816 | pasted from this reply inside the author's own framing | keeps the Cider Squeezy letter quote and its calming effect on Twilight, filed under the Kemerskai × TwiJack link
+  - note 1166 | the author's own words in this record | keeps the author's striver-vs-settler characterization of the two mares, filed under the PlotPoint 'Relaxing after the Love Donation'
+  - note 264 | the plan held this text before this reply | shows the pre-existing 'be my princess' scene text that the model's reply echoed back, filed under PlotPoint 'Applejack Initiates'
+  - note 355 | one sentence lifted from this reply | keeps the Rarity-reveals-the-line/'une lionne' beat, filed under the PlotPoint on Twilight and the Canterlot Wedding spell
+  - note 3876 | one sentence lifted from this reply | keeps the evolved 'Lioness/farmpony' line, filed under the link about Applejack understanding celebrity responsibilities × TwiJack
+  - note 5447 | one sentence lifted from this reply | keeps the full cross-chapter list of TwiJack heart-to-heart beats, filed under Subject 'TwiJack'
+- brought: Across this stretch the author repeatedly brought in pieces of their own planning document (economic mechanics like MEFO bills and the Great Leap Forward, prior chapter drafts, character names) and specific My Little Pony canon episodes as reference points for the model to analyze, compare, and extend.
+- loop: The author brings a plan detail, a scene draft, or a canon reference and asks for it to be developed, compared, or verified; the model returns a structured analysis, options, or a verdict; the author then accepts, corrects, or redirects that material, and the planning database keeps the accepted wording, sometimes a whole table, sometimes one sentence, sometimes the author's own restated framing, filed under the relevant plot point, link, or subject.

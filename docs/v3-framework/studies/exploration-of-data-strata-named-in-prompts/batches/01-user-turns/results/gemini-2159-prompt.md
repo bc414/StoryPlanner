@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about whether weapons that come after black powder still depend on potassium, without pointing at any body of material for the model to use or avoid.

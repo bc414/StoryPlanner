@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a run of real-world questions about economic and labor history (Nordic and German co-determination, the post-1980s outsourcing, the New Deal-era labor model, Japanese manufacturing, reshoring) to test whether asset specificity marks a real structural change in the economy, and points the model at no particular body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up factual question about the historical reason Nagai and Ogata created methamphetamine, without pointing at any body of material to draw on or avoid.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model advised leaving the v1 backlog unmigrated and using the new tracks only for new material, treating the old notes as a research archive. The user's aim is for all ~300k words of v1 to be sorted into v2 so the app can format and feed everything in as context. | The 300k words of content in v1 needs to be sorted and inserted into v2 | Flat statement of the actual requirement, with a reason given (new material won't be reasoned on if v1 is used for context); no acknowledgement of the model's advice and no apology.
+- about: The user pushes back on the advice to skip migrating the v1 backlog, saying all v1 content must be moved into v2 so the app can supply it as context alongside new material.

@@ -1,0 +1,6 @@
+- sources:
+  - the earlier plan ("back then"), with its hidden backstory | examine to see how the hidden backstory and its irony were handled, treating the irony as probably the instinctual intended design | "How did I handle this back then" | referred-to
+  - what I want to do now (the author's current approach) | use as the point of comparison against the earlier handling | "versus what I want to do now" | referred-to
+  - TLTT | use as an analogy, since its backstory is likewise hidden until revealed | "hidden until revealed, like TLTT" | referred-to
+- order:
+- about: The user asks the model to compare how their earlier plan handled a hidden backstory and its irony with how they want to handle it now, likening it to TLTT.

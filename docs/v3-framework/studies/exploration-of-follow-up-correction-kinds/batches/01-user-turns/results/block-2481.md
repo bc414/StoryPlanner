@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: proposed method (dating the eras) | The model closed by saying the sequence had to come from the user's memory because the list has no dates. The user rejects that as the only route and asks for other sources of timestamps. | "instead of relying on memory" | implied, as a question; brief and matter-of-fact, with no stated reasoning
+- about: The user declines the model's suggestion to date their subscriptions from memory and asks where else timestamped data could be found.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the enums for link entities should also be driven by configuration, as a follow-up design question, without pointing at any body of material.

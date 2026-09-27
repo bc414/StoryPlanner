@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks the continuous card flow, the dirty check and the UX touches from the model's options, setting the vertical masonry aside, and asks for an implementation path.

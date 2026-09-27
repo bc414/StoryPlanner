@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model put the empirical physics and chemistry of Earth Pony magic in the Canterlot Archives, so that Twilight grew up knowing the math. The user says the Archives lack that understanding and that the science comes from the University of Pridea after 981 and is held only underground in Manehattan parloirs. | "still don't understand the chemistry of earth pony magic" | Stated flatly as the user's own plan, softened by "I'm thinking", with no mention of an error, and followed by a replacement account of where the science comes from.
+- about: The user overrides the model's claim that the Archives hold the materialist science of Earth Pony magic, and relocates that science to Pridea's university and Manehattan's underground parloirs, leaving folklore as Equestria's only public belief.

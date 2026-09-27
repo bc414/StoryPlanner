@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Gilded Age analysis to ask a new worldbuilding question about what Manehattan's economy would look like before industrialization, and links that earlier period to the story's Stagnation of Harmony and cutie mark system.

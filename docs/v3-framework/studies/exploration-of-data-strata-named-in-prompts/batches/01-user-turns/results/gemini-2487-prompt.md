@@ -1,0 +1,7 @@
+- sources:
+  - my storyline / my story plans (the chapter-by-chapter order of the mane 6 embracing liberty: Ch. 6, 7, 8, 9, 11, final arc) | the author's own plan, to be taken as the settled design and reviewed for analysis and extra clarity on narrative and themes | Please review my story plans and give an analysis and extra clarity | first-named
+  - the previous explanation (Fluttershy getting Aquileian teachings through Rarity before the show) | treated as the accepted premise that explains why Fluttershy is first and why the Stare appears from nowhere | So this explains why Fluttershy is the first | referred-to
+  - canon episodes Dragonshy and Stare Master (and the season 2 episode set before season 1) | canon evidence the plan is reconciled with: the Stare's sudden appearance is read as coming from Aquileia via Rarity, with the season 2 episode moved to before season 1 | the Stare comes out of nowhere | referred-to
+  - their original element (the mane 6's canon Elements of Harmony) | the baseline that the story keeps and recasts as its adult version | taking their original element and demonstrating the adult version | referred-to
+- order:
+- about: The user confirms a theory that Fluttershy is first to embrace her element of liberty, lays out the order and chapters in which the other five mane 6 ponies learn their adult elements, and asks the model to review the plan and clarify its narrative and themes.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's threads and asks a new worldbuilding question about how tycoons avoid deportation to New Mareland, offering several possible mechanisms (voluntary exile, friendship-seminar rehab that lapsed, or seminars only for guns and drugs because Celestia cannot ban factories on harmony grounds).

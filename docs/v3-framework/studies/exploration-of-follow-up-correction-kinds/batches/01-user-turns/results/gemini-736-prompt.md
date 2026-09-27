@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, separate follow-up question about whether NotebookLM can be used on mobile, without challenging anything the model said.

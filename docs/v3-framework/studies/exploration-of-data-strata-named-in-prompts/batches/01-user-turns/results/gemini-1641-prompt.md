@@ -1,0 +1,4 @@
+- sources:
+  - plan export attached | none specified — the turn attaches the file with no accompanying instruction about how to use it | the bracketed note giving only word count and char count | first-named
+- order:
+- about: The user turn consists solely of an attached plan export file, with no text instructing the model on how to weigh or use it.

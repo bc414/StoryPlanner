@@ -1,0 +1,7 @@
+- sources:
+  - Brandon Sanderson, his major works, their themes and frameworks | the subject to be analyzed; the model is to supply this from its own knowledge since the user knows none of it | Give a comparative analysis of Brandon Sanderson, his major works, what themes and frameworks they use. I am not familiar with any of his works | first-named
+  - ASOIAF | one of the two comparison points to set against Sanderson | Compare to ASOIAF | referred-to
+  - TLTT as the user has converged on it | the other comparison point; the current state of the user's own story design is to be set against Sanderson | what I have converged to in TLTT | referred-to
+  - the user's own recollection that Sanderson is an architect and GRRM a gardener | offered from memory as the user's only knowledge of Sanderson, a loose premise rather than something verified | I just know that he takes an architect approach compared to GRRM as a gardener | first-named
+- order:
+- about: The user asks for a comparative analysis of Sanderson's major works and their themes and frameworks against ASOIAF and the user's own TLTT design, admitting they have read none of Sanderson and know only the architect versus gardener contrast.

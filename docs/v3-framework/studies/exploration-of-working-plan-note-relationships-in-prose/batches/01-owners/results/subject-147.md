@@ -1,0 +1,34 @@
+- relations:
+  - 781|782|two real-world food-tradition parallels of the same design (English lost traditions and German preservation engineering); both feed the fusion, one lost and one engineered for survival|English traditions lost / German paradigm - the engineering of survival|implicit
+  - 781|783|parallel paradigms of peasant food tradition, English loss and Nordic cold-weather survival, that together supply the technology's inspirations|Nordic paradigm - extreme cold-weather survival|implicit
+  - 782|783|shared peasant preservation methods (fermentation, curing) appearing in both German and Nordic paradigms|sauerkraut (fermentation) / aggressive fermentation|implicit
+  - 781|791|real-world analogy (Enclosure Acts, peasants forced into smoggy cities, lost terroir) is re-cast as the in-universe history of Herzland|Enclosure Acts ... smog-choked cities / enclosed the farms, forced the peasants into the smoggy cities|implicit
+  - 781|792|the analogy's plan to put lost English traditions in the memories of Herzlander refugees is carried out as the in-universe Cloudbury Redemption, with the same Long March flight north|Herzlander refugees who go on the Long March to Cloudbury / flee north to Cloudbury in 981|implicit
+  - 791|792|continues in time: the loss of the Mother Processes in Herzland is followed by the refugees reclaiming that stolen heritage|replaced their deeply skilled "Mother Processes" / reclaim their stolen heritage|implicit
+  - 792|785|the history of the reclaiming is the occasion for the civilization-level statement that lost English/German traditions are taken up and industrialized|lost English/German traditions of Herzland ... apply industrial processes / revive the Lost Working-Class Masterpieces|implicit
+  - 785|789|general statement that Nordic traditions are given industrial processes is shown in the specific case of cellars, ale and fermented fish run with scientific rigor|Nordic traditions ... industrial processes / applied scientific rigor to the Nordic peasant traditions|implicit
+  - 785|784|general statement of industrializing lost traditions for the original purpose is instanced by the Meat Pie, made in a steam cooperative bakery and built to survive the trench|industrial processes that enhance the original purposes / survive three weeks in a frozen trench|implicit
+  - 784|782|the pie's cured, spiced filling sealed against air draws on German sausage and preservation methods|German sausage engineering / salt, nitrates and cold smoke|implicit
+  - 784|781|the pie is built from the lost English Melton Mowbray pie, from the list of lost meat pies|lost English Melton Mowbray pie / meat pies|implicit
+  - 789|783|the cellars, fermented root vegetables and cured fish realise the Nordic root cellar and fermentation traditions|Nordic peasant traditions / Root cellars ... aggressive fermentation|implicit
+  - 789|781|the living ale casks realise the lost English tradition of real cask ale|oak casks of real, living ale / "Real cask ale"|implicit
+  - 792|790|the In-N-Out cooperative high-quality model of the history is explained and glossed in the allegory|"In-N-Out" model of cooperative, high-quality industrialization / Efficiency Wage Theory|explicit
+  - 792|787|the Republic reviving working-class dishes not haute cuisine contrasts with the reader's assumption of soulless mush; the reader assumption is later overturned|not "Snobs" like the Aquileians / GR only eats soulless SAA mush|implicit
+  - 787|788|reader's initial wrong assumption is overturned by Rikard Astler's demonstration|assumes the GR only eats soulless SAA mush / just as magnificent as Aquileia's|implicit
+  - 788|790|the philosophy of standardized excellence that Rikard shows is the one the allegory explains and names, with the Honest Factory|standardized excellence / Standardized Excellence (Griffonian Republic)|explicit
+  - 786|790|the thematic claim that cooperation outperforms extraction on its own metrics is supported by the allegory's turnover, efficiency wage and consumer trust contrast|more power than extraction even by extraction's own performance metrics / Efficiency Wage Theory ... massive consumer trust|implicit
+  - 786|784|the Meat Pie is named the culinary manifestation of The Republic Stands; its hardiness and cooperative bakery embody this|culinary manifestation of "The Republic Stands" / massive, steam-powered cooperative bakery|implicit
+  - 785|790|the melting-pot and caloric-security purpose stated as civilizational effect is set beside the allegory's claim that treating workers as citizens produces excellence|ensuring caloric security and a cultural melting pot / treat the workers like citizens|implicit
+  - 789|790|union workers run the cellars with standardized perfection, which parallels the honest factory's cooperative, standardised, well-treated labour|union workers manage ... standardized perfection / Kemerskai proves Coltbert wrong|implicit
+  - 791|790|the historical sacrifice of soul for steel in mass-produced slop is the counterpart to the allegory's soulless factory and Poseur Factory|mass-produced slop / factories are inherently soulless|implicit
+- outward:
+  - 790|the characters Coltbert and Kemerskai and their argument about talent versus factories, held elsewhere|Coltbert thinks you can only have quality if you have a "Special Talent"
+  - 790|Cutie Mark as a talent concept from the wider world lore|"Special Talent" (Cutie Mark)
+  - 781|the author's Herzland-driven world history and the Long March to Cloudbury/Griffonian Republic|Since Herzland drove industrialization in my EaW
+  - 791|Grover IV and his Gilded Age, a figure and era held elsewhere|Grover IV's "Gilded Age"
+  - 792|the Aquileians, a culture held elsewhere|not "Snobs" like the Aquileians
+  - 788|Rikard Astler, a character, and Aquileia's cuisine, held elsewhere|Rikard Astler demonstrates ... Aquileia's
+  - 787|the SAA, an entity held elsewhere|soulless SAA mush
+  - 786|the theme and story-wide motif The Republic Stands, held elsewhere|"The Republic Stands"
+  - 784|soldiers and a war/trench setting held elsewhere|soldier's rucksack, survive three weeks in a frozen trench
+- whole: These notes hang together as a set, with the real-world analogies feeding the in-universe history, the ontology and civilization notes, and those in turn feeding the allegory, reader-opinion and theme notes, though the allegory note (790) stands more loosely, joined mostly by the shared "standardized excellence" idea.

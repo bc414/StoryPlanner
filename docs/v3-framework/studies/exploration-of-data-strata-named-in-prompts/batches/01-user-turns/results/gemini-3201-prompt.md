@@ -1,0 +1,4 @@
+- sources:
+  - Huntrix and the Honmoon, the K-Pop Demon Hunters premise | used as the template the new story parallels, with the Honmoon swapped out for singing that moves the sun; the user's own changes override the original | parallel to Huntrix and instead of the Honmoon the singing is required to move the sun | referred-to
+- order:
+- about: The user answers the model's survey of existing crossovers by pitching their own MLP and K-Pop Demon Hunters crossover, mapping ponies and changelings onto the film's hero trio, mentor and rival band while replacing the Honmoon with singing that moves the sun.

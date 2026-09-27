@@ -1,0 +1,7 @@
+- asks:
+  - propose | puts forward that Skyfall lacks a strong centralized state like Britain and instead resembles the Dutch Republic of 1580 and Venice | "I do not imagine Skyfall having a strong state like Britain. They are like the Dutch Republic of 1580 and I guess Venice too"
+  - propose | puts forward greed as Skyfall's sole motivator and short-term thinking as its characteristic failure mode | "Greed is the only motivator and short term thinking is a classic failure mode for them"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message asserts the Dutch Republic/Venice comparison and the greed/short-termism traits as the intended characterization of Skyfall, rather than posing an open question.
+- subject: The political character of the fictional polity Skyfall, likened to mercantile republics and defined by greed-driven short-term thinking

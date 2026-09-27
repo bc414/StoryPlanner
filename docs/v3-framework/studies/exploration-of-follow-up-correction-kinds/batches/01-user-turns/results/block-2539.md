@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to new questions, asking why the story is so long, how its ending can be understood, and for a list of their own earlier open questions to the author with approximate answers, without disputing anything in the model's summary.

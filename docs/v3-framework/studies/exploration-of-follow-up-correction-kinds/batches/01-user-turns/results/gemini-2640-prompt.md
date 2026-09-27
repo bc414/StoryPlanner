@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether big-spoon and little-spoon positions differ in C-tactile afferent engagement, and says visual examples of the two characters are provided to ground the answer, without disputing anything the model said.

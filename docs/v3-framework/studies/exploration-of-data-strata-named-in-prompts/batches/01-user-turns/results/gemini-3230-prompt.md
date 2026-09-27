@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reflects on their own history as a player, saying games they chose were built for friction and thought while mass-market ones are built for frictionless profit, and describes moving from Pokemon to grand strategy and then to Ingress.

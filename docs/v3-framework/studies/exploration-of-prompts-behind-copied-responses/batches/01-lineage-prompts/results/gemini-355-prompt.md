@@ -1,0 +1,9 @@
+- asks:
+  - propose/brainstorm | asks the model to consider adding a dedicated place for defining 'systems' (e.g. how a tech works, a nation's core tenets) that can be referenced across chapters non-sequentially | "What about a place for me to define systems?"
+- supplies:
+  - idea recap | describes a liked feature: a location view showing all plot points tied to that location, for when characters return | one sentence
+  - examples | two sample 'systems' to illustrate the concept: how a technology works, and a nation's core tenets | a phrase each
+- shaping:
+  - must support cross-chapter, non-sequential relationships unlike a linear thread | "related and span across chapters but not in a sequential manner like a thread"
+- openness: Leans toward an answer it names: the user proposes the idea of a 'systems' definition space themselves and asks the model to react to and build on it, rather than leaving the direction fully open or offering named alternatives.
+- subject: Designing a feature in a story-planning tool for defining cross-cutting lore systems (tech mechanics, national tenets) alongside an existing location-based plot view.

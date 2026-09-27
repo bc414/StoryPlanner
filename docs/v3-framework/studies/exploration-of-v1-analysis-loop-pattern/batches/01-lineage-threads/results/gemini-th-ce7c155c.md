@@ -1,0 +1,8 @@
+- steps:
+  - author | ask-relate | connects an existing plan element (the lioness spell) to a real-world martial art for grounding | opening prompt of the stretch
+  - model | correspondence-analysis | maps the spell's redirect-the-aggressor mechanic onto Aikido's core philosophy, and ties it back to an already-planned scene (the Canterlot Wedding changeling repulsion) as a parallel case | first response
+  - author | ask-expand | asks for broader foundational knowledge on Aikido's history plus guidance on how to mine it for inspiration | second prompt
+  - model | background-plus-ideation | supplies Aikido's founding history and core techniques, then offers structured suggestions for applying the philosophy to magic systems, leadership arcs, and conflict resolution in the story | second response
+- kept:
+- brought: The author brought an existing plan element, the lioness spell, and asked for it to be related to and expanded via the real-world discipline of Aikido.
+- loop: The author brought a planned magical mechanic and asked for outside-domain grounding and further inspirational material; the model supplied cross-domain analysis and thematic ideation, but none of it was captured into the planning database in this stretch, leaving the research exploratory rather than recorded.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model summarised a single chapter (Chapter 176) when the user wanted a detailed summary of the whole attached part-2 text file | restated request: "detailed summary of the attached text file which is part 2 of a story", with the part 1 summary supplied as context | implicit, with no complaint or apology; the original request is repeated and expanded with the scope and background the model lacked
+- about: The user re-asks for a detailed summary of the whole part-2 file, adding a part-1 summary as background, which shows the previous single-chapter answer missed the scope they wanted.

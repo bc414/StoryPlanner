@@ -1,0 +1,10 @@
+- sources:
+  - the earlier Lion=Brute / Eagle=Coward reading of the insult (as in the model's analysis and the plan) | treated as dropped and outdated, replaced by a new reading | I dropped the insult of Lion=Brute and Eagle=Coward | referred-to
+  - the author's new Lion=Master / Eagle=Subject reading, plus the Lion of Verdame and Herzlander-vs-Aquileian reasons for the title | treat as the current, correct account of why Synovial says the title, correcting the model | in favor of saying Lion=Master and Eagle=Subject | first-named
+  - part 3 of Coltbert's "Game" (the Aquileian Lionesses phenomenon) | the material the title is taken from and used as a slur; the model should treat it as the origin of the Lioness idea | takes the cultural phenomenon of the Aquileian Lionesses from part 3 | referred-to
+  - the model's recommended resolution of Synovial as a sincere traditionalist | adopted as the direction to go, with the ambiguity now open to being removed | I think the sincere traditionalist is the way to go | referred-to
+  - the author's statement that Synovial planned Canterlot Wedding to have no guns | new fact from the author, to be treated as true | Synovial was the one who planned Canterlot Wedding to have no guns | first-named
+  - the Discord and Tirek side scene, newly devised | offered as a provisional idea for the model to judge, with an open question on whether Synovial or a random changeling freed Tirek | Does this work? | first-named
+- order:
+  - the Lion=Master / Eagle=Subject reading over the Lion=Brute / Eagle=Coward insult | I dropped the insult of Lion=Brute and Eagle=Coward in favor of
+- about: The author asks whether Synovial stands for Stagnation, corrects the model's account of why he calls Applejack the Lioness, accepts the sincere-traditionalist direction and suggests it need not stay ambiguous, adds a Canterlot Wedding fact, and submits a new Discord and Tirek scene for feedback.

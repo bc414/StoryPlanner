@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered with a concrete sorting of the world's specific notes and stats into tiers, when the user wanted an abstract account of the kinds of axes that organize a single mixed-notes entry | "I don't want specific instances." | flat statement of what is not wanted, then restating the actual ask
+  - reading of the request | The model treated the ask as categorizing the whole document by importance (mandatory/frequent/other), when the user meant the dimensions along which one entry's notes should be organized, beyond chronology or concept evolution | "what kind of axes are fundamental other than chronological event order or concept evolution" | restates the intended question plainly, without apology or irritation, and rules out the two axes already known
+- about: The user rejects the instance-heavy categorization and restates the question as an abstract one about which organizing axes matter for a single entry of mixed notes, apart from chronology and concept evolution.

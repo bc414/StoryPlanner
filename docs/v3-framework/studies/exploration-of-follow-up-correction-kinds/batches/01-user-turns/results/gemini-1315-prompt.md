@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for examples of free indirect speech and deep third person from school curricula and popular books, a fresh request that does not comment on the model's preceding inability-to-help message.

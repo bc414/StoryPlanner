@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a new speculative plot mechanism, that the Luna Nova Rifle's three-way valve needs vacuum conditions, which would drive Equestria's dependence on Skyfall and the Tzinacatl drug trade in Chapter 12, building on the model's material without disputing any of it.

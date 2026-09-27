@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, forward-looking question, requesting an honest assessment of how the TLTT planning approach could succeed or fail and whether THLB's revision was needed for its elegance, and adds that the answer won't change their approach.

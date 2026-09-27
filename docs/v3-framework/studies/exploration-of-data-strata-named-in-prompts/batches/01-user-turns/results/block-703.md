@@ -1,0 +1,4 @@
+- sources:
+  - real raw data | the author's actual text material, to be categorized in the UI once built; the author wants category needs to come from working with it rather than from getting the design right beforehand, and wants the suggested methodology to keep it from ending up mixed | "start categorizing real raw data" | referred-to
+- order:
+- about: The user is dropping further design refinement in favor of building the UI and working with real data, and asks for practical principles for deciding when a new category is warranted so the data doesn't end up mixed.

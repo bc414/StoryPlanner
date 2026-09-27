@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's economic and cultural analysis to lay out an Applejack story sequence, from panic in Pridea through Cloudbury to a Coltbert-led reveal of the PNdA's shared economic model, and asks for review and whether that reveal belongs at the return to Aquileia.

@@ -1,0 +1,32 @@
+- relations:
+  - 730 | 731 | the real-world parallel (opioids) matches the stated function of the technology as a painkiller | Equivalent to opioids / Used for pain relief | implicit
+  - 730 | 734 | the opioid parallel is carried into the recipe: magic endorphin equivalent used as synthetic painkillers | Equivalent to opioids / magical equivalent of endorphins | implicit
+  - 730 | 742 | the opioid parallel matches the stated design of high addictiveness | Equivalent to opioids / highly addictive | implicit
+  - 730 | 732 | the opioid analogy fits Fleur's clinical name for it, a phenylpiperidine (an opioid-type term) | Equivalent to opioids / La Phénylpipéridine | implicit
+  - 731 | 741 | the general statement of pain blocking is given its mechanism and felt effect | blocks physical pain signals / violently deletes all physical pain | implicit
+  - 729 | 731 | the name 'Armor Skin' reflects the function of shielding against pain | Means "Armor Skin" / blocks physical pain signals | implicit
+  - 734 | 741 | the recipe (ultra refining) is the reason given for the fast burn-out and crossing the barrier | ultra refining pink love / because it is so refined, it burns out quickly | implicit
+  - 741 | 733 | the burn-out leaving the nervous system screaming for a dose is the origin of the listed withdrawal symptoms | shattered and screaming for the next dose / Withdrawl symptom: physical pain and vomitting | implicit
+  - 741 | 742 | the burn-out and craving mechanism is how the addictiveness the designers wanted is achieved | screaming for the next dose / designed to be highly addictive | implicit
+  - 742 | 733 | the addiction that secures loyalty is kept up by the withdrawal that punishes going without | absolute loyalty to the supply chain / Withdrawl symptom | implicit
+  - 735 | 741 | the page-level plan of drones unaware of injuries until it fades shows the mechanism of deleted pain and burn-out | don't feel their broken and hurt limbs until it wears off / deletes all physical pain | implicit
+  - 735 | 733 | the agony when it wears off is an instance of the withdrawal pain | then they are in agony / physical pain | implicit
+  - 735 | 731 | the drones not feeling injuries is an occasion of the pain-blocking function | don't feel their broken and hurt limbs / blocks physical pain signals | implicit
+  - 748 | 733 | the cure is said to halt the withdrawal pain the other note lists | halts the agonizing physical pain of panzer-haut withdrawal / Withdrawl symptom: physical pain | implicit
+  - 748 | 734 | the cure works on the same magical substance the drug is made from, named in the recipe | binds to the Pink Love / refining pink love | explicit
+  - 748 | 742 | the cure presupposes the addiction and answers what the drug was made to do | cure for panzer haut addiction / highly addictive | implicit
+  - 748 | 741 | slow buffered release is the opposite of the instant, unbuffered rush and burn-out | slow and buffered by the plant matter, never produces the euphoric rush / no biological buffer ... blinding, synthetic rush | implicit
+  - 748 | 732 | the cure derived from original tzinacatl medicine links to the Tzinacatl name for the drug as Flower-Field Medicine | original tzinacatl medicine / Tzinacatl name is Xochimil-Pahtli | implicit
+- outward:
+  - 732 | a character, Fleur, who uses a professional term | Fleur's professional term
+  - 732 | the Tzinacatl people and their language | Tzinacatl name is Xochimil-Pahtli
+  - 732 | another character, Fluttershy | Fluttershy calls it "The Fuzzy"
+  - 734 | pink love, a magical substance held elsewhere in the lore | ultra refining pink love
+  - 735 | the drones, a group of characters not described here | The drones don't feel their broken and hurt limbs
+  - 741 | conscripts, a group of characters not described here | When a conscript takes panzer-haut
+  - 742 | the supply chain and those in it, outside this item | loyalty to the supply chain
+  - 748 | the Changelings, a people not described here | forcing the Changeling's body to digest
+  - 748 | other drugs, blitz-essenz and jaeger-geist, held elsewhere | crushing anhedonia of blitz-essenz withdrawal
+  - 748 | original tzinacatl medicine, a plant-based lore item elsewhere | original tzinacatl medicine
+  - 730 | real-world opioids as the inspiration | Equivalent to opioids
+- whole: These notes read as a set that hangs together, with the pain-relief function, recipe, addiction purpose, withdrawal, on-page use and cure all bearing on one another, the bare name and analogy notes being the loosest.

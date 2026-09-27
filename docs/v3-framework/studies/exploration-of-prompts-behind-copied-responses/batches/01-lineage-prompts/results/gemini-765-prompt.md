@@ -1,0 +1,8 @@
+- asks:
+  - generate | asks the model to produce several example images depicting "Option A: The Perfect Alignment" | "I want a few example images generated"
+- supplies:
+- shaping:
+  - quantity | asks for more than one image, described as "a few" | "a few example images"
+  - subject-lock | ties the images to a specific named option rather than leaving the topic open | "for Option A: The Perfect Alignment"
+- openness: leans toward an answer it names, since it directs the images to the specific named option "Option A: The Perfect Alignment" rather than leaving the subject open or offering alternatives
+- subject: generating example images for a named story option called "The Perfect Alignment"

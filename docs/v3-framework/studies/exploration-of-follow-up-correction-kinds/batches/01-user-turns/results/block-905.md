@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of the POW transfers and the white peace as given and asks a new question, a first-pass breakdown of the 7.6 million changeling casualties between Camp Fluttershy, the Stalliongrad gulags and KIA, with methodology, which they will then revise.

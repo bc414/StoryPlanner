@@ -1,0 +1,5 @@
+- sources:
+  - real-world coal geology in Russia and in the rest of the world | to be drawn on as a factual reference to test whether Severyanan coal discovery is plausible | Where were coal mines located in Russia, geologically? And in the rest of the world? | first-named
+  - the author's own proposed causal chain (coal then oil defeats the blizzard, population boom, decoupling of survival from communalism, elites corrupted into rent seekers, second generation raised in comfort) | provisional, offered as a question for the model to test and refine, not settled | gradually over time and then greatly accelerated by Skyfall companies and VOPS? | first-named
+- order:
+- about: The user asks for real-world coal geology to judge whether Severyana plausibly has abundant coal, and offers a tentative account of how coal and oil ended communal necessity and let a comfortable second generation be corrupted into rent-seeking, asking the model to weigh it.

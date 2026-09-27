@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the either-or framing, saying they have the Pro thinking setting and Canvas both switched on, and asks what that combination means for their analysis.

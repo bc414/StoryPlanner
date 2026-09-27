@@ -1,0 +1,4 @@
+- sources:
+  - one of my teammates mentioned | treat as a suggestion to be weighed with pros and cons, not as settled; the idea of also keeping the execution model in a file as a fallback if the visual editor isn't finished | One of my teammates mentioned it would make sense to have the actual execution model in a file too | first-named
+- order:
+- about: The user asks the model to give pros and cons on whether the compiler should also save the purified execution nodes to an editable file or store only the visual tree, relaying a teammate's fallback suggestion.

@@ -1,0 +1,4 @@
+- sources:
+  - the author's existing chapter titles, combined arms and Magic | use as worked examples of the subversive naming style the author wants the new title to follow, not as content to change | for example, combined arms is actually about friendship instead of combat, while Magic is about firepower | referred-to
+- order:
+- about: The user states their chapter-naming preference, titles that flip reader expectation to avoid spoilers, and gives two of their own existing chapter titles as examples, correcting the direction of the model's suggestions.

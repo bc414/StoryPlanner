@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops "oblivion" in favour of "Crash" as the term for their world, giving reasons from the drugs' mixed stimulant and opioid nature and the market-crash double meaning tied to the story's economic solution, without saying the model's answer was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the fanfic-comparison thread and asks for a new analysis of how their separate Scootaloo story plan, in canon FiM, parallels their recent TLTT plan in worldbuilding, themes, mystery layers and character development.

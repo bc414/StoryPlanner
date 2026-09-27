@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's solidarity-versus-drugs analysis by asking it to check the story plans and say whether the Infiltration chapter at Camp Fluttershy could show that solidarity in action, and they add their own idea of how it would work.

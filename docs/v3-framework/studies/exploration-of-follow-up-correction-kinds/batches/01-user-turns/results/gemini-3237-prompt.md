@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Pinkie Pie is placed on the supply train out of Stalliongrad, where Minette and Réni meet her; the user says she is not on the train | Pinkie isn't on the train | flat, stated briefly in a parenthetical while giving the instruction
+  - reading of the plan | Pinkie's arc is read as a move from sugar-and-party dopamine to emotional maturity through trauma, and she is used as the teacher of dignity separate from dopamine; the user says her arc is about resilience and should be read again | read her arc about resilience | directive, pointing the model back to the planning material without spelling out what it says
+  - which material was drawn on | The analysis leans on the user's own theoretical framing (media diet, Maslow, Japan, the American Left) and not on the story plan's actual events and arcs; the user asks that it be grounded in the actual plan | ground it in the actual story plan | polite request after praise, framed as a redo
+- about: The user accepts the analysis as good but sends the model back to reread the plan and rework it so it matches the actual story, naming Pinkie's place and arc as the specific error.

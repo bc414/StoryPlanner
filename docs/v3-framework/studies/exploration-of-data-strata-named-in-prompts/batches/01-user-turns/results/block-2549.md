@@ -1,0 +1,4 @@
+- sources:
+  - the context from after June 2023 | to be treated as true/additional material for the model to now take into account | described as previously withheld ('I neglected to share') and now being supplied in full ('Here is all of it') | first-named
+- order:
+- about: The user turn supplies a previously omitted continuation of the correspondence (material dated after June 2023) for the model to incorporate, without yet saying how it should change the prior analysis.

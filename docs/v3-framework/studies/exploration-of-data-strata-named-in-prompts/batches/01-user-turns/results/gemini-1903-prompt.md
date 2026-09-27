@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether LLMs are good at taking authorial-fiat story elements and helping develop the materialist, world-logic consequences, without pointing the model at any body of material.

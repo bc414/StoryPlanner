@@ -1,0 +1,7 @@
+- relations:
+  - 624 | 626 | 624 shows the behavior on the page (her logistics skills at work in the rebuilding) and 626 gives the thematic verdict on the arrangement that work sits inside, so the shown competence is the concrete occasion of the failure claim, and the two pull against each other since the work succeeds while the approach is said to fail | Her logistics skills serve well in rebuilding / This approach fails | implicit
+- outward:
+  - 624 | The rebuilding of a place called Ain Trotgourait, held elsewhere in the plan | rebuilding Ain Trotgourait
+  - 626 | The Great Mare Theory, a doctrine or piece of lore that the theme is said to refute, held elsewhere | The refutation of Great Mare Theory
+  - 626 | Twilight, the other character whose charity the note describes, who has no notes of her own here | Working with Twilight just replaces top down tyranny with top down charity
+- whole: By content the two notes read mostly as separate entries with one loose joint: the shown logistics work in 624 sits against the failure verdict on the top-down arrangement in 626, and neither note points at the other.

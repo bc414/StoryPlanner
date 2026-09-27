@@ -1,0 +1,11 @@
+- asks:
+  - continue | implicitly invites the model to keep developing and building out this worldbuilding thread, incorporating the ideas just laid out | phrased entirely as statements of what the user likes or is toying with, with no question posed
+  - brainstorm | invites elaboration on how the parallel/convergence structure (GR civic virtues vs Equestria's independently-derived Elements of Liberty, unified by shared tenets) could be developed further | 'they realize the tenets are the same', offered as a structural idea to build on
+- supplies:
+  - idea | GR's civic virtues and Equestria's 'Elements of Liberty' arising independently but sharing identical tenets, likened to how 'Friendship is Magic' and the 'Lion and Eagle' idioms express the same tenet | a short paragraph
+  - idea | backstory concept that Celestia's original Elements of Harmony are innocent 'pure pink love' versions used to purge Nightmare Moon of a corrupting 'red love' that afflicted Luna during a failed top-down world-peace attempt 1000 years ago | a short paragraph
+  - idea | concept of corrupted 'pure ambition/posseur' versions of the Elements driving Chrysalis's society and feudal society, with the Elements of Liberty positioned as a middle ground between Stagnation and Feudalism | a sentence framing the spectrum
+  - list | mapping of each of the six Elements of Harmony to its corrupted 'pure ambition' counterpart (Magic->Power, Honesty->Posseur, Kindness->Violence, Generosity->Greed, Laughter->Hedonism, Loyalty->Fealty) | six short lines
+- shaping:
+- openness: Leans toward the ideas it names as ones the user already likes or is committing to ('I like the idea...', 'I'm also toying with the idea...'), presenting them as developing lore rather than posing a question or asking for a choice between alternatives.
+- subject: Worldbuilding for a pony-political fantasy setting: parallel/corrupted versions of the Elements of Harmony across Equestria, a Griffin Republic, changelings, and feudal society.

@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm/elaborate | invites the model to engage with and develop an imagined scene combining a parody song, a concert setting, and Trixie's stage effects | "I am imagining..." with no explicit instruction verb, framing the whole message as an idea to react to
+- supplies:
+  - idea sketch | a scenario where the CMCs and Diamond Tiara sing a parody of the "Vote for Pip" song from Crusaders of the Lost Mark, changed to "Vote for EEEE!", performed as a concert in a Central-Park equivalent with Trixie providing stage flair | a couple of sentences
+- shaping:
+- openness: Leaves the answer open; it presents the imagined scenario without specifying what form a response should take or naming a preferred direction.
+- subject: A fan-fiction scene concept: CMCs and Diamond Tiara performing a "Vote for EEEE!" parody song concert with Trixie's stage effects

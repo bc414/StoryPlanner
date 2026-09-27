@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new story detail, that the shovel is a collapsible magical tool Henri gave Applejack in chapter 1 as a Star Energy invention, and asks how that would work.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's recommended option rested on Skyfall's public pitch that the module is a safety diagnostic; the user says in Skyfall everyone knows it is really a subscription fee, so a diagnostic framing would not work | everyone in Skyfall knows they are subscription fees so diagnostics doesn't work | indirect, given as the reason for choosing a different option rather than as a stated objection, matter-of-fact and with no irritation
+- about: The user picks the model's second option (Dienst Resonantie Matrix), explains why it fits better than the recommended one, and grounds the word in Royalist readings of Grover III-era artisan chivalry texts, with Dienst as the colloquial name.

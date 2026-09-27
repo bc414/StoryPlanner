@@ -1,0 +1,4 @@
+- sources:
+  - the chapter plan for chapters 5-8 and 10-12, as the user lays it out in this message (POV split per chapter, the elements-of-harmony structure, the letters as transitions) | treat as the author's intended design and the material to analyze; the model is asked to assess it, not to replace it | "Give an analysis on this plan" | first-named
+- order:
+- about: The user describes their intended POV structure for chapters 5-8 and 10-12 of their planned story and asks the model to analyze that plan.

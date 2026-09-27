@@ -1,0 +1,6 @@
+- sources:
+  - existing data | to be sorted into a workable, comprehensible structure but not refined, since any of it could be replaced by later story shifts | sort existing data into something workable and comprehensible first, but not refine it | referred-to
+  - the 32 chapters | all are about as detailed as 9-12 and are designed on each other, so do not audit or refine them one chapter at a time, and hold refinement until expansion is finished | everything in all chapters relate to and are designed on each other | referred-to
+  - chapters 9-12 (the chapter which I shared with you) | an example of the detail level, not a place to start refining, because later planning shifts would force rework | If I spend a ton of effort on refinement of chapters 9-12 | referred-to
+- order:
+- about: The user rejects the model's chapter-by-chapter audit plan, arguing that all 32 chapters are interdependent so expansion must finish before any refinement, and that the current task is only to sort existing data into a workable structure.

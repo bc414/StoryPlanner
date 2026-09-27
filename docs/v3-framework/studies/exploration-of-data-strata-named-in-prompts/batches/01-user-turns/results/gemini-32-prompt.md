@@ -1,0 +1,5 @@
+- sources:
+  - the text (split in half, first half then second half) | material the user proposes to give in two parts for the model to summarize and process coherently as a whole; the user asks whether that will work, so it is a proposal and not yet an instruction | If I split the text in half and ask to summarize the first half | referred-to
+  - this chat (the total info for this chat) | the conversation itself, which the user asks whether the model can carry across both halves, or whether its total size will degrade results; a question, not an instruction | the total info for this chat exceeds the context window | referred-to
+- order:
+- about: The user asks a technical question about whether the context window covers the whole chat or a single prompt, to decide whether feeding their very long story in two halves would still be processed coherently.

@@ -1,0 +1,7 @@
+- sources:
+  - the author's own imagined contents of Chrysalis's PE+S+ND track (the three-point list) | treat as the author's provisional working sketch of the reader-experience arc, to be used as the example for analyzing whether ND is unified and whether analogy and social commentary belong in it | This is what I'm imagining Chrysalis's PE+S+ND track will contain | first-named
+  - FiM (Chrysalis as cartoon villain) | the reader's assumed starting baseline that the design is meant to overturn, not a truth about the story world | Readers are expected to believe at the start that Chrysalis is a cartoon villain from FiM | first-named
+  - EaW (Chrysalis as evil dictator, fascist state leader) | the reader's assumed starting baseline that the design is meant to overturn, not a truth about the story world | an evil dictator from EaW and the trope of being a leader of a fascist state | first-named
+  - v1 / the old system | treat as superseded; its mixing of truth and reader experience in one note was convenient for data capture but unhelpful, and is discouraged in v2 | convenient in v1 for data capture | referred-to
+- order:
+- about: The author refines the track axes (PE/NE additive, S/L and W/D exclusive, O/E coupled in ND), sketches Chrysalis's PE+S+ND content, and asks for a full analysis of whether ND can be unified across PE/NE and O/E, whether analogy and social commentary belong in it, and which labels to use.

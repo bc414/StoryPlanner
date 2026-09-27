@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further point about their method, that displaced early ideas such as the 1000-year stagnation and the Vesalipolis bombing are kept as reader prior beliefs and misdirection targets, and asks for an analysis of that methodology.

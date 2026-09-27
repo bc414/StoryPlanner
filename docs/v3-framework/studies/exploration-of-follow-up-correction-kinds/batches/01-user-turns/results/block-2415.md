@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the confederation premise the model just analysed as settled and asks for a new review of the story plan to find its wider consequences, so this is a follow-up request and not a correction.

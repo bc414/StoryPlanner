@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's suggested next step about Cloudbury's return to democracy and opens a new thread, asking where a Marx-and-Engels-style communist manifesto by Caramel Marks and Fire Angel should sit in Herzland's timeline relative to Gesunder Menschenverstand, and offering their own guess that it answers Grover IV's gilded age.

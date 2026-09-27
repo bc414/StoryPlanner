@@ -1,0 +1,38 @@
+- passages:
+  - 4199|explanatory/analytical|third-person present-tense rule statement, comparative reasoning ('not enough', 'is only calories')|what strength of love source eases withdrawal|apart
+  - 4542|definitional/label|colon-led tier heading, terse noun phrase|identifying Tier 1 red love|apart
+  - 4542|explanatory/analytical|real-world drug analogy, psychological cause-effect reasoning, coined terms in quotes|effects and psychology of Tier 1, predator's dilemma|apart
+  - 4542|technical/systemic|prose listing non-biological technical uses|raw magic as fuel for spells, engineering, rifle|apart
+  - 4542|definitional/label|colon-led tier heading, terse noun phrase|identifying Tier 2 additive system|apart
+  - 4543|explanatory/analytical|parenthetical definition exposing term as a marketing lie|meaning of Jaeger-geist|apart
+  - 4543|naming/catalog|short attributive naming sentence with quoted nickname|Fluttershy's name for the drug|apart
+  - 4543|explanatory/analytical|prose describing manufacture and purpose|how Jaeger-geist is made and what it does|apart
+  - 4543|interpretive/emotional|lowercase sentence opening, emotionally charged diction|the emotional truth of withdrawal as a chemical lie|apart
+  - 4543|predictive/narrative-planning|future tense, conditional 'When...' clause|Fluttershy's donated love breaking conditioning|apart
+  - 4544|naming/catalog|sequence of name, equivalent, professional-term, Tzinacatl-name, nickname lines|identifying Blitz-Essenz across languages and characters|apart
+  - 4544|explanatory/analytical|plain descriptive sentences on effect and use|what the component does and when used|apart
+  - 4544|clinical/symptom-listing|colon-led withdrawal field|withdrawal symptoms of Blitz-Essenz|apart
+  - 4545|naming/catalog|sequence of name, equivalent, professional-term, Tzinacatl-name, nickname lines|identifying Panzer-Haut across languages and characters|apart
+  - 4545|explanatory/analytical|single plain sentence on function|pain-blocking effect|apart
+  - 4545|clinical/symptom-listing|colon-led withdrawal field|withdrawal symptoms of Panzer-Haut|apart
+  - 4545|explanatory/analytical|prose describing refining method|how endorphins are isolated from pink love|apart
+  - 4545|illustrative/narrative|vivid depiction of drones' bodily experience, dramatic diction|drones not feeling injuries until drug wears off|apart
+  - 4546|definitional/label|colon-led tier heading|identifying Tier 3 maximal mix|apart
+  - 4546|explanatory/analytical|blunt factual sentences on usage criteria|conscripts given Tier 3 for suicide charges|apart
+- shifts:
+  - 4542|definitional/label|explanatory/analytical|shift from terse heading to comparative real-world analogy and psychological reasoning
+  - 4542|explanatory/analytical|technical/systemic|shift to listing mechanical/magical infrastructure uses, marked by 'Outside of direct consumption'
+  - 4542|technical/systemic|definitional/label|return to terse tier-heading form for Tier 2
+  - 4543|explanatory/analytical|naming/catalog|shift from parenthetical definition to short attributive nickname sentence
+  - 4543|naming/catalog|explanatory/analytical|return to prose explaining manufacture, marked by 'It is made by...'
+  - 4543|explanatory/analytical|interpretive/emotional|paragraph break, lowercase opening, emotionally charged diction naming withdrawal as a chemical lie
+  - 4543|interpretive/emotional|predictive/narrative-planning|shift to future tense and conditional clause forecasting a story consequence
+  - 4544|naming/catalog|explanatory/analytical|shift from noun-phrase naming to full descriptive sentences on effect
+  - 4544|explanatory/analytical|clinical/symptom-listing|return to colon-led field format for withdrawal symptom
+  - 4545|naming/catalog|explanatory/analytical|shift from naming fields to plain descriptive sentence on function
+  - 4545|explanatory/analytical|clinical/symptom-listing|return to colon-led withdrawal field
+  - 4545|clinical/symptom-listing|explanatory/analytical|paragraph break, return to prose explaining manufacture method
+  - 4545|explanatory/analytical|illustrative/narrative|shift to vivid depiction of drones' bodily agony
+  - 4546|definitional/label|explanatory/analytical|shift from terse tier heading to plain factual sentences on usage criteria
+- registers: explanatory/analytical; definitional/label; naming/catalog; clinical/symptom-listing; technical/systemic; interpretive/emotional; predictive/narrative-planning; illustrative/narrative
+- whole: This item is written in several registers—terse tier labels, cross-language naming catalogs, explanatory analysis, technical listing, illustrative depiction, emotional interpretation, and forward-looking prediction—each standing apart at a clear sentence or paragraph break rather than blending together within a single sentence.

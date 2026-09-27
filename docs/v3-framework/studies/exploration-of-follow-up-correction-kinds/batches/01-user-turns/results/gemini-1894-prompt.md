@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the naming discussion and asks a new question about Minette's psychological profile on arriving in Vinovia and during Le Grand Foyer, without challenging anything the model said.

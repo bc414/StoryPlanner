@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting pros and cons of a variation in which Applejack can still transmit that she is buried, without disputing anything in the model's radio proposal.

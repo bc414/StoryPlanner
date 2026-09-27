@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking what explains Chrysalis's narcissism in the story and how narcissism arises in real people, without saying anything in the previous answer was wrong.

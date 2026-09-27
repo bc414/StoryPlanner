@@ -1,0 +1,4 @@
+- sources:
+  - the Kdrama City Hunter | the next published show the model is asked to take up and discuss, presumably as it did Itaewon Class; the author's own viewing history is given as background | What about the Kdrama City Hunter? That was the first KDrama I watched | first-named
+- order:
+- about: The user asks the model to turn to the K-drama City Hunter next, noting it was the first K-drama they watched.

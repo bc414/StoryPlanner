@@ -1,0 +1,4 @@
+- sources:
+  - the whole part about falldale being clueless | questioned as possibly outdated leftover from an earlier grimdark version of the plan, and a candidate to cut rather than keep | is that grimdark hold over | referred-to
+- order:
+- about: The user asks whether the Falldale-is-clueless section of their plan is a leftover from the earlier grimdark direction and whether to cut Falldale so the retreat leads straight to Tall Tale.

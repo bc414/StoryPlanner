@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user owns up to habitually calling the lock system DRM, an out-of-world term, and asks for an in-universe acronym to replace it, which is a new request and not a correction of the model.

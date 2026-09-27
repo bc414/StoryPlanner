@@ -1,0 +1,36 @@
+- relations:
+  - 2067|2108|2108 gives a further account of the origin that 2067 sets out: machinists salvaging and retrofitting discarded machines|scavenge for discarded equipment in Manehattan, retrofit them / salvage from tycoon junkyards|implicit
+  - 2067|2357|2357 continues 2067 in time: the guild becomes a cooperative of worker-owned factories|scrappy guild in a parloir basement / scrappy guild of alienated New Mareland returnees|implicit
+  - 2357|2141|2141 shows the worker-owned factories at work and at scale, as EEEE!-associated factories making weapons|cooperative of worker-owned factories / EEEE!-associated factories make up 20%|implicit
+  - 2108|2109|2108 gives the name Equestrian Equality, Empathy, and Education and 2109 glosses Equality|Equestrian Equality, Empathy, and Education! / Equality = thestral reforms and integration|explicit
+  - 2108|2110|2110 glosses the Empathy of the name that 2108 spells out|Equestrian Equality, Empathy, and Education! / Empathy = caring for foals|explicit
+  - 2108|2111|2111 glosses the Education of the name that 2108 spells out|Equestrian Equality, Empathy, and Education! / Education = machinist's guild|explicit
+  - 2067|2139|2139 states as a general activity what 2067 gives at the start of the guild: jailbreaking discarded Skyfall machines with GR open-source schematics|Griffonian Republic open source schematics / discarded Skyfall industrial machinery|implicit
+  - 2139|2111|2111 gives the teaching side of the same work, teaching people to read the GR schematics that 2139 says the machines are fixed with|how to read GR open-source schematics / using Griffonian Republic open source schematics|implicit
+  - 2137|2111|Both make the group machinists of returning New Mareland exiles and Tzinacatl workers, and 2111 says what they teach them|returning New Marelanders and Tzinacatl refugees / returning New Mareland exiles and Tzinacatl industrial workers|implicit
+  - 2137|2141|2141 is the take-over and retrofitting of factories that 2137 says the group is set on|take over the factories specifically to retrofit / retrofitting machinery to produce weapons|implicit
+  - 2137|2126|Both revise the game version of EEEE! into a machinist guild that comes from material conditions|now EEEE! is specifically a machinist guild / specifically a machinist's guild that comes from material conditions|implicit
+  - 2137|2125|2125 states the game version of EEEE! as a generic activist group, which 2137 says the story has moved away from|vague activist group in a pub / generic activist group|implicit
+  - 2125|2126|2126 sets the story's material-conditions guild against the top-down myth-driven war that 2125 places the group's canon precursor in|precursor to the Lunar Civil War / Mythic/Ideological Civil War|implicit
+  - 2140|2108|2140 gives the reason for what 2108 states: the machinists work for purpose and not profit or a tycoon|more fulfilling than working for a tycoon / out of pride in craft, conscience, and purpose|implicit
+  - 2140|2067|2140 gives the reason why the alienated returnees in 2067 find purpose in the work|find purpose / ambition sink with little risk|implicit
+  - 2140|2141|The free weapons for the Army are an instance of the not-for-profit stance in 2140|continue making weapons the Equestrian Army for free / don't repair and sell machines for profit|implicit
+  - 2364|2365|2365 says what reader takes from the look of standardized heavy industry that 2364 describes|standardized heavy industry / standardized schematic and Aquileian PNdA heavy machinery|implicit
+  - 2364|2141|2141 shows the GR and PNdA sourcing that 2364 states, as purchase of equipment and premium parts|equipment from the Griffonian Republic / premium parts from the PNdA|implicit
+  - 2109|1308|The thestrals leaving the jungle for factory work bear on the thestral reforms and integration that 2109 names|Thestrals who are tired of drugs and stagnation / thestral reforms and integration|implicit
+  - 2212|1308|2212 gives Tzinacatl from all the tribes, including drug tribes, and 1308 gives the drug-weary who leave the jungle|drug tribes / tired of drugs and stagnation leave the jungle|implicit
+  - 2067|2110|Both rest on returnees from New Mareland, alienated in 2067 and with foals to care for in 2110|alienated New Mareland returnees / foals from the New Mareland return trip|implicit
+- outward:
+  - 2141|The Dotted Line Report and Prince Blueblood, held elsewhere|When Prince Blueblood drops the Dotted Line Report
+  - 2141|The war and the referendum on floor space, held elsewhere|Once the war starts / leading to the referendum
+  - 2141|Skyfall subscriptions and the compradors, and the PNdA in Aquileia and the Griffonian Republic|compradors on Skyfall subscriptions / PNdA in Aquileia
+  - 2108|SAA's food shipments to Cloudbury and the machinist Flowing Current|SAA was sending canned mush to Cloudbury
+  - 2110|The New Mareland return trip and its foals|foals from the New Mareland return trip
+  - 1308|Skyfall cohort-led factories built on credit, and the jungle life of the thestrals|Skyfall cohort-led factories that were built on credit
+  - 2212|The Tzinacatl tribes|medicinal, drug tribes, traditionalists
+  - 2125|The game canon (EaW) thestral rights event chains and the Lunar Civil War|thestral rights event chains as a precursor to the Lunar Civil War
+  - 2126|Nightmare Moon and the Luna Civil War|top-down allegieance to Nightmare Moon
+  - 2137|The original game version of the group|original EaW EEEE! was just a vague activist group in a pub
+  - 2365|Herzlander Imperialism as a trope held elsewhere|Herzlander Imperialism
+  - 2140|Equestria's safety net for food and shelter|Equestria has a safety net for food security and shelter
+- whole: These notes hang together as one account of EEEE! as a machinist guild, with origin, name, work, canon change and reader impression each supported by several others, though a few notes (1308, 2212, 2365) stand more loosely.

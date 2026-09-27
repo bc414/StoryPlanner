@@ -1,0 +1,44 @@
+- passages:
+  - note 5807 | analytic-expository | sets up criteria in full explanatory sentence | framing the test the hidden 6th element must meet | apart
+  - note 5807 | itemized list | clipped parallel fragments each opening 'It...' or 'the direct...' | five required criteria for the hidden element | apart
+  - note 5807 | discursive elaboration | returns to full contrastive sentences, 'shouldn't be/should be', talk of scaling | criterion that the virtue be practicable by ordinary roles | apart
+  - note 5807 | exclamatory verdict | short exclamation, informal misspelling 'asnwer' | naming conscience as the answer | apart
+  - note 5808 | analytic-expository | full explanatory sentences contrasting naive and materialist worldbuilding | naive elements' assumed shared conscience and the undefended Elements of Harmony | apart
+  - note 5808 | metaphorical aphorism | single short vivid metaphor sentence | pink love as conscience without armor | apart
+  - note 5809 | analytic-expository | successive defining sentences naming categories of elements | war, tyranny, and liberty elements and how grown-up elements restore conscience | apart
+  - note 5809 | aphoristic close | short parallel contrastive sentences closing the paragraph | naive assumption versus grown-up rebuilding of conscience | run-in
+  - note 5810 | analytic-expository | formal thesis sentence using physics vocabulary | republic as the thermodynamically optimal configuration | apart
+  - note 5810 | exclamatory verdict | short exclamation invoking the show's title | punchline naming Friendship is Magic | apart
+  - note 5811 | label heading | short title-like phrase, no elaboration | naming the charitostatic effect | apart
+  - note 5811 | analytic-expository | full explanatory sentences with lore terminology | how conscience-born pink love triggers charitostatic amplification | apart
+  - note 5812 | analytic-expository | full sentences introducing a set of virtues | five virtues as defenses against ways conscience is suppressed | apart
+  - note 5812 | itemized list | clipped parallel 'X prevents conscience from being Y' fragments | mapping each virtue to the mechanism it prevents | apart
+  - note 5812 | analytic-expository | return to full sentences defining a role | conscience as the defended variable enabling stable equilibrium | apart
+  - note 5812 | second-person illustrative | generic 'you' address, conditional claim | conscience only demonstrable after surviving all five mechanisms | run-in
+  - note 5812 | narrative-interpretive | names a specific character and scene | Twilight's declaration naming what survived | run-in
+  - note 5812 | aphoristic close | short parallel summarizing sentences | war as the cost, republic as what follows | run-in
+  - note 5828 | analytic-expository | comparative descriptive sentences across factions | Aquileia, the Griffonian Republic, and Equestria's differing relation to conscience | apart
+  - note 5829 | analytic-expository | opening full-sentence thesis | Chrysalis's synthesis of distinct real-world mechanisms | apart
+  - note 5829 | analytic-illustrative exposition | third-person systemic description paired with generic-you illustration | cataloguing six historical or systemic mechanisms suppressing conscience | apart
+  - note 5829 | meta-authorial address | direct reference to 'readers' and present-tense real-world claim | algorithmic siloing as a live threat to actual readers | run-in
+  - note 5829 | itemized list | colon-introduced bulleted enumeration | summarizing Chrysalis's six synthesized mechanisms | apart
+  - note 5829 | analytic-expository | full sentences with a closing rhetorical claim | drone drugging as admission that conscience threatens the system | apart
+- shifts:
+  - note 5807 | analytic-expository | itemized list | shift from full framing sentence to clipped bulleted fragments
+  - note 5807 | itemized list | discursive elaboration | return to full contrastive sentences, 'shouldn't be/should be'
+  - note 5807 | discursive elaboration | exclamatory verdict | short exclamatory misspelled declaration replaces argument
+  - note 5808 | analytic-expository | metaphorical aphorism | single short metaphor sentence replaces explanatory clauses
+  - note 5809 | analytic-expository | aphoristic close | short parallel contrastive sentences close the paragraph
+  - note 5810 | analytic-expository | exclamatory verdict | short exclamation naming the show's title
+  - note 5811 | label heading | analytic-expository | expansion from short title phrase into full explanatory sentences
+  - note 5812 | analytic-expository | itemized list | clipped parallel 'X prevents Y' fragments replace full sentences
+  - note 5812 | itemized list | analytic-expository | return to full sentences defining conscience's role
+  - note 5812 | analytic-expository | second-person illustrative | introduction of generic 'you' address and conditional claim
+  - note 5812 | second-person illustrative | narrative-interpretive | naming of specific character 'Twilight' and 'the declaration'
+  - note 5812 | narrative-interpretive | aphoristic close | short parallel summarizing sentences
+  - note 5829 | analytic-expository | analytic-illustrative exposition | shift into cataloguing distinct historical systems with illustrative 'you' asides
+  - note 5829 | analytic-illustrative exposition | meta-authorial address | direct reference to 'readers' and present-tense real-world claim
+  - note 5829 | meta-authorial address | itemized list | colon introducing a bulleted enumeration
+  - note 5829 | itemized list | analytic-expository | return to full sentences and a closing rhetorical claim
+- registers: analytic-expository; itemized list; discursive elaboration; exclamatory verdict; metaphorical aphorism; aphoristic close; label heading; second-person illustrative; narrative-interpretive; analytic-illustrative exposition; meta-authorial address
+- whole: These eight notes are written mostly in one recurring analytic-expository register that defines and compares terms, but several notes shift within themselves into terser list forms, short exclamatory or aphoristic closes, a single metaphor, a second-person illustration, a named-character reference, or a direct address to readers, with most of these shifts landing at a paragraph break (apart) while a few run together inside the same paragraph without one (run-in).

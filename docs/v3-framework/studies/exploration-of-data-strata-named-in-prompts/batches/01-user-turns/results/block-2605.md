@@ -1,0 +1,5 @@
+- sources:
+  - the Japanese blog post on Zenn | the model is to identify its author and give its link; the user regards it as structurally close to their own approach so far | Who is the author in that blog post, also give me the link itself | referred-to
+  - the AI's own word knowledge and reasoning, as an accelerated thesaurus | the user plans to use it only for word-choice help where they have a vibe but need the word, in place of thesaurus.com; a planned use, not settled | only use AI to help make decisions on word choice | first-named
+- order:
+- about: The user says they haven't reached the writing stage, describes their plan to use AI only as a reasoning thesaurus for word choice, agrees the Zenn post is structurally close to their process, and asks the model for that post's author and link.

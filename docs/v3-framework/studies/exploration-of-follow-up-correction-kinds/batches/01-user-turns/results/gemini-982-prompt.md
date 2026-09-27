@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their own account of Celestia's border policy, saying she could bar predators and outside knowledge but not foreign goods because her paradigm was outdated, and this extends the economic parallel without disputing anything the model said.

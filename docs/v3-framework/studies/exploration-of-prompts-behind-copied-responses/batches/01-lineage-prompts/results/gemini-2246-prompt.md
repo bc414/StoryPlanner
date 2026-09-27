@@ -1,0 +1,7 @@
+- asks:
+  - analyse | give an assessment of the described multi-tool idea-processing workflow | "Give an analysis on this workflow"
+- supplies:
+  - list, a five-step workflow | a process moving from raw idea generation in Gemini Chat/Notebook LM through categorization, axis-note population, cross-checking in Notebook LM, and final integration into a story planner | a short numbered list of five steps
+- shaping:
+- openness: open — the message states the workflow as a numbered sequence and simply asks for "an analysis," without naming a preferred verdict, offering options to choose between, or asking to verify a specific claim
+- subject: a personal workflow for generating, categorizing, and integrating new story ideas across Gemini Chat, Notebook LM, and a story planner

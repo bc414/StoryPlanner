@@ -1,0 +1,8 @@
+- asks:
+  - draft | write a program that replicates the behavior of the GitHub import tool | 'Give me a program to mimic the way the github import tool works'
+- supplies:
+- shaping:
+  - the program's purpose must be to package the user's code into a single file suitable for upload | 'in order to package my code into a file for upload'
+  - the program must mimic/replicate how the GitHub import tool works | 'mimic the way the github import tool works'
+- openness: Leans toward a named answer: the message specifies the program must mimic the GitHub import tool and produce a packaged upload file, but leaves the implementation approach and language open.
+- subject: Building a tool that packages code into a file for upload, modeled on the GitHub import tool

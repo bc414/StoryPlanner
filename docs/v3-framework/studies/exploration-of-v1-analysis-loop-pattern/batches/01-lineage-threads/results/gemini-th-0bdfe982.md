@@ -1,0 +1,11 @@
+- steps:
+  - author | propose | a bundled new idea: Discret's reconquest of the peripherie, its role in expanding the proto-FJA, the reason the Coltbert reforms reach Verenia last, Chrysalis's synthesis of Discret and Kemerskai, and the FJA's invention of mobile-warfare doctrine | opening prompt of the exchange
+  - model | frame | states that this idea links the economy, military, and politics threads and explains FJA competence and Trimmel's skill | opening lines of the response
+  - model | narrative elaboration | expands the reconquest campaign into a step-by-step account of Discret arming peasants, beheading nobles, and halting at Verenia, with an invented line of dialogue | first numbered section of the response
+  - model | comparative framework | builds a side-by-side table contrasting Herzland's 'commodity' battleplan doctrine with Aquileia's 'artisan' mobile-warfare doctrine across philosophy, command, formation, technology and origin | second numbered section of the response
+  - model | character synthesis | works out Trimmel's 'Hive-Jaeger' doctrine as a spear-and-hammer combination of Jaegers and conscripts, and names its structural weakness | third numbered section of the response
+  - model | character synthesis | works out Chrysalis's political model as a theft-and-twist combination of Discret's cult of personality and Kemerskai's strong state | fourth numbered section of the response
+  - model | schema application | maps the 980-1007 timeline onto the existing numbered game-theory scenarios, ending on an ironic reversal for Discret in 1007 | fifth numbered section of the response
+- kept:
+- brought: The author brought a new, multi-stranded causal idea tying together the reconquest of breakaway provinces, the origin and spread of the FJA's power base, the geographic lag of reform reaching Verenia, Chrysalis's political model, and the invention of a new military doctrine.
+- loop: The author supplies a single dense causal idea spanning economy, politics and military history, and the model returns it re-organized into discrete analytical products (a narrative recap, a comparison table, two character-doctrine syntheses, and a schema mapping) without any of it being traced into the planning database in this stretch.

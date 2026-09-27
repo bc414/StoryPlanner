@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a different staging for the "From my rifle, duh!" reveal, in which another character asks where the canister came from and Pinkie answers literally while Celestia reacts in the background.

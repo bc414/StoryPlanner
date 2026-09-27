@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats an alternative workflow, running two v2 planner instances (one holding the imported v1 for reference, one as a clean working copy), as a new option in place of the in-place NoteState repurposing, without saying anything in the model's plan is wrong.

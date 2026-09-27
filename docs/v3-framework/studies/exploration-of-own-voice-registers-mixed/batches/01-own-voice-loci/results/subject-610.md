@@ -1,0 +1,12 @@
+- passages:
+  - 56 | aphoristic maxim | short, absolute, unattached claim | that events are not coincidental | apart
+  - 56 | expository worldbuilding statement | explains a cause in full-sentence form | shared history producing connections between two contents | apart
+  - 56 | meta-narrative revelation note | comments on the story's own method of disclosure | that the shared history is revealed over the story | apart
+  - 4520 | expository worldbuilding statement | flat declarative listing named elements | Coltbert Reforms and Chrysalis as foundation | apart
+  - 4520 | meta-authorial inspiration note | 'Even' as pivot, parenthetical citation, real-world reference | the story's title drawn from France/The Lion of Verdun and a resistance spirit | apart
+- shifts:
+  - 56 | aphoristic maxim | expository worldbuilding statement | drops the unattached maxim form for a specific causal claim naming 'shared history' and 'the two contents'
+  - 56 | expository worldbuilding statement | meta-narrative revelation note | turns from stating the cause to remarking on how/when it is disclosed in the story
+  - 4520 | expository worldbuilding statement | meta-authorial inspiration note | 'Even' introduces a turn from in-fiction foundation to the title's real-world derivation, with a parenthetical citation
+- registers: aphoristic maxim; expository worldbuilding statement; meta-narrative revelation note; meta-authorial inspiration note
+- whole: Across its two notes this item moves sentence by sentence through several related but distinct registers - a bare maxim, expository worldbuilding claims, a remark on narrative disclosure, and a note on the title's real-world inspiration - each passage standing apart from the next rather than blending within a sentence.

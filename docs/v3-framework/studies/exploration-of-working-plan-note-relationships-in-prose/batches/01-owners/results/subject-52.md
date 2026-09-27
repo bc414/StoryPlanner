@@ -1,0 +1,37 @@
+- relations:
+  - 1274|1275|continues in time: first the spell is documented by Aquileians from Wittenland nobles, then it appears in Aquileian textbooks that Twilight reads|Spellfire comes from Wittenland, documented by Aquileians / documented in Aquileian textbooks|implicit
+  - 1274|1276|continues in time: after the spell is obtained, Pridea engineers build a matrix for it|Pridea magical engineers made a spell matrix for Spellfire|implicit
+  - 1276|1277|continues in time and returns to the same problem: the matrix wastes raw magic, then a later attempt to use lower grade crystals by stabilizing flow fails|used way too much raw magic / lower grade power crystals ... wasn't possible|implicit
+  - 1275|1268|instance: the note on Twilight learning the spell from smuggled textbooks bears on the statement that Twilight invented the rifle|Twilight read from smuggled books / Invented by Twilight|implicit
+  - 1271|1278|elaborates: the crystal with an etched Spellfire matrix is given a power source and a route for red love into the spellfire matrix|crystal with an etched Spellfire Matrix / red love funnels into spellfire spell matrix|implicit
+  - 1278|1279|elaborates: the general description of draining and red/pink separation is followed by the valve arrangement and the two valve positions|red love funnels into spellfire spell matrix ... pink love is stored in a canister / I is input, R is red love, P is pink love|implicit
+  - 1268|1279|instance: the inventor's act is spelled out as miniaturizing the harvester's draining crystal and three-port valve|Invented by Twilight / Twilight miniturized the large draining crystal and the 3 port valve|implicit
+  - 1279|756|one presupposes the other: the rifle's three-way filtering valve is the hardware that the crystallers' filtering spell still needs from a Skyfall artisan|three way crystal valve for filtering / still need mini vacuum-grade valves|implicit
+  - 1926|756|cause or reason: the vacuum requirement explains why the filtering spell needs vacuum-grade valves|must maintain a sealed vacuum environment / mini vacuum-grade valves|implicit
+  - 1926|1279|cause or reason: sealed vacuum is needed for the clean separation of pink and red love that the valve performs|fully separate the pink and red love / valve for filtering|implicit
+  - 757|756|analogy: the valve monopoly is likened to chip designers depending on a tooling monopoly|valve monopoly / Skyfall artisan monopoly|implicit
+  - 757|1279|analogy: Twilight's dependence on the valve is the dependence the real-world parallel illustrates|Twilight dependent on the valve monopoly / 3 port valve|implicit
+  - 484|756|tension: one says the Luna Nova depends on a universal open magic market and autarky, the other says the valves still come from a Skyfall artisan monopoly|designed for autarky ... universal open magic market / still need mini vacuum-grade valves from a Skyfall artisan monopoly|implicit
+  - 484|1278|instance: self-sufficiency from the creature's own love is delivered by the soldier draining their own love for ammo|using the creature's own love / drain their own love for more ammo|implicit
+  - 484|751|instance: the tool that re-enables magic for the common creature is the rifle everyone can use|re-enables magic for the common creature / Everyone can use a Luna Nova rifle|implicit
+  - 751|1278|instance: use by anyone on their own power is made concrete by the soldier draining their own love when out of crystal enhancers|powered by red love or even their own / drain their own love for more ammo|implicit
+  - 1273|1278|instance: the claim that it is fuelled by donation rather than forced extraction is shown by self-drained love and pink love donated to POW rehab|fueled by love donations, not forced extraction / canister is expected to be donated|implicit
+  - 1273|484|one supports the other: the weapon against tyranny is contrasted with shell companies that enslave through supply chains|weapon against tyranny / permanently enslaved to the Skyfall supply chain|implicit
+  - 1272|751|instance: the ambition that the name refers to is the same ambition that can power the rifle|ambition corrupted her ... as bullets / own ambition/magic|implicit
+  - 1272|1267|instance: the name Luna Nova is the one given by the miners for the Tier 1 equipment name|chose the name Luna Nova / The name of the Tier 1 Magical Infantry Equipment|implicit
+  - 1270|1271|instance: the note on the name Spellfire bears on the rifle's Spellfire matrix|Spellfire is the laser spell / etched Spellfire Matrix|implicit
+  - 1270|1267|one states the same tier: both place the technology in the Tier 1 equipment set|Tier 1 Magical Infantry Equipment / Tier 1 light tank turret|implicit
+- outward:
+  - 1267|the Equestria at War setting and its Tier 1 Magical Infantry Equipment for Equestria|Equestria at War
+  - 1270|the show's episodes Canterlot Wedding and The Cutie Remark, and a light tank turret held elsewhere|featured in Canterlot Wedding and The Cutie Remark
+  - 1274|Wittenland, its supremacist nobles, and the Aquileian Cartel in Skyfall|Wittenland supremacist nobles for fancy dinners at the Aquileian Cartel in Skyfall
+  - 1275|Shining Armor and Cadance, and the parloirs from which the books were smuggled|smuggled books from Shining Armor and Cadance from the parloirs
+  - 1276|Pridea's engineers and the chasseur needle gun|Pridea magical engineers / chasseur needle gun
+  - 1277|the firms Star Energy and Pridea and their stabilizing effort|Star Energy and Pridea tried to stabilize the flow
+  - 1278|Chrysalis's love harvesters, changeling love draining, and changeling POW rehab|the same crystal that Chrysalis uses in her love harvesters
+  - 1272|Star Energy, the Temberik miners, Luna's past and Nightmare Moon|Temberik miners ... Luna 1000 years ago ... Nightmare Moon
+  - 484|Chrysalis's shell companies, Organ Guns and Gatlings, Zebrican warlords, and Skyfall's industrialization|Chrysalis's shell companies ... Organ Guns and Gatlings ... Zebrican warlords
+  - 757|real-world chip designers Nvidia, Apple and TSMC|Nvidia/Apple and TSMC
+  - 756|the crystallers and the Skyfall artisan valve makers|The crystallers' filtering spell / Skyfall artisan monopoly
+  - 1926|the crystallers' filtering spell and the earlier changeling centrifuges|changeling brute force centrifuges that came before it
+- whole: The notes hang together as a set, with a chain of invention history, a cluster on the love-draining crystal and valve, and the usage and theme notes all bearing on those same mechanics, though the canon-reference and analogy notes stand a little apart.

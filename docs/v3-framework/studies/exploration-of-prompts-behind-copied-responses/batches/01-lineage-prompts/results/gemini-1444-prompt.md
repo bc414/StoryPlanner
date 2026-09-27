@@ -1,0 +1,10 @@
+- asks:
+  - analysis | weigh the benefits and drawbacks of EEEE converting Foyer de la Jeunesse d'Avant-garde into a Fluttershy-style POW rehabilitation camp once the front stabilizes | "What are the pros and cons of EEEE! turning Foyer de la Jeunesse d'Avant-garde into a POW rehab camp modeled after Fluttershy"
+  - analysis | assess how this merciful-camp idea sits against the separate lore where Celestia has conscripts sent to Stalliongrad's gulags, including the two explanations the user floats (lack of capacity for mercy, or backlash since the facility is in the city) | "I suppose EEEE doesn't have the capacity to be merciful ... or since their facility is in the city it faces heavy criticism ... Please give an analysis"
+- supplies:
+  - lore passage, front-stabilization setup | Trimmel reaching the gates of Manehattan by the chapter "Coordination," with the Luna Nova supply chain arriving to stabilize the front, giving ponies the strength to be merciful per Fluttershy's Tall Tale example | a few sentences
+  - lore passage, conscript-abandonment thread | after the Bluebell Spearhead and the changeling front collapse, the Statthalters abandon their conscripts to flee to Canterlot; Celestia has Blueblood hand the conscripts to Stalliongrad, who wants them for gulag labor to rebuild their country | a few sentences
+- shaping:
+  - give an answer structured as pros and cons | "What are the pros and cons of ... Please give an analysis"
+- openness: The message leans toward two named hypotheses for why EEEE's camp doesn't extend the same mercy to the Stalliongrad-bound conscripts (lack of capacity, or public criticism due to urban location), while leaving the pros/cons of the camp idea itself open.
+- subject: Whether EEEE should run a Fluttershy-inspired POW rehab camp, weighed against the harsher gulag fate of abandoned conscripts elsewhere in the story's lore

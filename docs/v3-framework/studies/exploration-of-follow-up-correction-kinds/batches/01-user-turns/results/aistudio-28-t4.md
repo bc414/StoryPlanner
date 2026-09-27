@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - a factual detail about the user's own setup, not the story world | the model put the World Bible export at about 20,000 words, and the user gives the real size as a 300,000-word markdown document | "the world bible ... is actually a 300,000 word markdown document, not 20,000" | flatly, as a labelled 'clarification' with the right figure, and no blame or irritation; it is followed at once by a question about what the change means for the prompt
+- about: The user fixes the model's wrong figure for the World Bible's size, asks whether the larger size changes the prompt design, and then moves on to a new request about temperature and top-P settings tailored to their workflow.

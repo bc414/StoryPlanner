@@ -1,0 +1,11 @@
+- steps:
+  - author | brings refinement points | character-identity fix (Coltbert as visiting Aquileian noble-pony professor), a demographic constraint (Aquileia 20% pony), a legitimacy limit on Vérany's rhetoric, an ideology analogy (Vérany=NRP copy, Herzland vs Aquileia geography), a canon-deviation note on timing, and a characterization nuance (Vérany not hostile to rural ponies/griffons, just insincere) | opens the exchange
+  - model | reframes the conflict | recasts Vérany's failure as a geography/demographics mismatch between Herzland's uniform terrain and Aquileia's terroir-and-pony countryside | early in the response
+  - model | drafts a primary source | writes an in-world academic paper by Coltbert with a footnote snubbing Vérany's 'Herzlander Model' | mid-response, paper section
+  - model | drafts a rivalry exchange | writes dueling broadsheet rebuttals attributed to Vérany and Coltbert | feud section
+  - model | explains a character's motive | lays out King Discret's reasoning and a quoted mandate speech for hiring Coltbert | king's-calculation section
+  - model | synthesizes an outcome | ties the paper and feud back to the FJA/PNdA rivalry to explain the 'accidental revolution' | closing section
+- kept:
+  - note 4684 | pasted from this reply inside the author's own framing | keeps the model's description of Vérany's ideology (NRP slogan, universal-mobilization strategy) combined with the author's own conclusion about his insincerity, filed to the Theodore Verany subject entry
+- brought: The author brought a batch of correction/refinement points about a character's identity, Aquileia's demographics, and Vérany's ideology and timeline to be worked into the existing plan.
+- loop: The author brings a set of worldbuilding corrections and constraints to fix inconsistencies in an existing draft; the model returns an elaborated narrative construction (analysis, invented document, rivalry dialogue, motive, synthesis); the plan database keeps only a condensed characterization of Vérany's ideology, blending the model's phrasing with the author's own framing, into the character's subject entry.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether, besides Chrysalis, any other characters or elements also warrant their own extensively separated organizational treatment.

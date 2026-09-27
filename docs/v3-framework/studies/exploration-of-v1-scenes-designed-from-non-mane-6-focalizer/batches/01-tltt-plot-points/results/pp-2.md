@@ -1,0 +1,26 @@
+- present:
+  - Comet Shine | takes over the narration, speaks publicly, vows "I am not Rockfeller" | Synopsis, and Character: Comet Shine link
+  - Fleur | "Comet Shine and Fleur explain"; "Fleur mentions how Discret gave out royal notes" | Title, and Codex entry (History): Moriset Discret's Aquileia/Coltbert Reforms
+  - Applejack | "Applejack realizes that Comet Shine's model is just 'Barn Raising'" | Synopsis, and Codex entry (SocietalDifferences): Banking
+  - Twilight | "It makes Twilight realize the same for her magic" | Theme: Accelerants used for Evil can be Repurposed for Good, and Thread: Twilight Breaking from Celestia
+- mentioned:
+  - Rainbow Dash | Character: Rainbow Dash link (her reaction is given, but nothing shows her in the scene)
+  - Rockfeller | Synopsis, Thread: Harmonic Capitalism, and Codex entry (SocietalDifferences): Banking
+  - Gilded Trust | Thread: Harmonic Capitalism, and Codex entry (SocietalDifferences): Banking
+  - Gilded Bits | Synopsis
+  - Blueblood | Synopsis
+  - Celestia | Thread: Harmonic Capitalism, and Thread: Twilight Breaking from Celestia
+  - Chrysalis | Theme: Accelerants used for Evil can be Repurposed for Good, and Thread: The True Actions and Motivations of Chrysalis
+  - Moriset Discret | Codex entry (History): Moriset Discret's Aquileia/Coltbert Reforms
+  - Flim/Flam | Character: Comet Shine link
+- focalizer: Applejack
+- shows: Applejack realizes that Comet Shine's model is just "Barn Raising" applied to industry; Applejack realizes "a bond is a promise"; Applejack sees that "finance", when stripped of greed, is just a mechanism for strangers to trust each other
+- sides:
+  - Applejack | sees Comet Shine's model as Barn Raising applied to industry, bridging her farm values with industrial reality | Synopsis
+  - Applejack | is sold on the "Aquileian way" | Outcome
+  - Applejack | realizes a bond is a promise, honesty put into paper, and sees finance without greed as strangers trusting each other; judges Comet Shine honest, unlike Gilded Trust | Codex entry (SocietalDifferences): Banking
+  - Twilight | realizes her magic need not be only firepower to destroy the enemy, but can enhance others without replacing them | Theme: Accelerants used for Evil can be Repurposed for Good
+  - Twilight | realizes Celestia's binary choice between helpless prey and corrupt predator is false | Thread: Twilight Breaking from Celestia
+  - Twilight | is freed of her past guilt | Outcome
+  - Rainbow Dash | takes the scene as validation for dropping heroism in favor of kinship and shared trust | Character: Rainbow Dash
+  - Comet Shine | wants to keep the tarnished Star Energy name, so that turning its reputation around will tell him he succeeded | Synopsis

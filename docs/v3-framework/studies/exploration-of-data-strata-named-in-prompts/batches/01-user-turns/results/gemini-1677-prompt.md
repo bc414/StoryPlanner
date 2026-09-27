@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a worldbuilding nuance about which languages the rehabbing drones and their Equestrian-speaking caregivers share, and asks whether rehab language teaching would start from scratch in Equestrian or in native changeling.

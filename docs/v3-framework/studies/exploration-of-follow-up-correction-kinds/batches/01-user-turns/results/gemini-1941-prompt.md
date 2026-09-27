@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the code-editing thread and makes an unrelated new request for an SVG image of Applejack from My Little Pony trotting, without commenting on the model's previous answer.

@@ -1,0 +1,9 @@
+- passages:
+  - note 4661 | thematic-summary | abstract subject 'Hospital showing diversity', present tense, stated as structural point | contrast between hospital's diversity and factory's standardization | apart
+  - note 4661 | character-focus notation | named character 'Applejack' as subject, verb of perception, trails off incomplete | Applejack perceiving some toll | apart
+  - note 4661 | thematic-summary | explicit framing 'the point of this chapter is', abstract purpose statement | the chapter's function of giving Applejack resolve | apart
+- shifts:
+  - note 4661 | thematic-summary | character-focus notation | subject changes from abstract theme to named character, verb shifts to perception ('sees'), sentence left incomplete
+  - note 4661 | character-focus notation | thematic-summary | line break interrupts the trailing sentence, new sentence returns to abstract framing 'the point of this chapter is'
+- registers: thematic-summary; character-focus notation
+- whole: The note's single passage of thematic-summary is interrupted by a brief, incomplete character-focus notation before returning to thematic-summary, so the item holds two registers that stand apart from each other rather than blending.

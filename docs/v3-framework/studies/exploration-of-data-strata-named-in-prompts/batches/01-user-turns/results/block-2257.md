@@ -1,0 +1,4 @@
+- sources:
+  - up to date information | the model is told to research and draw on current, recent information on the question rather than rely on what it already knows | Research up to date information | first-named
+- order:
+- about: The user drops the pony-story and methodology discussion and asks the model to research the evidence for and against claims that Anthropic degraded its models after launch, using current information.

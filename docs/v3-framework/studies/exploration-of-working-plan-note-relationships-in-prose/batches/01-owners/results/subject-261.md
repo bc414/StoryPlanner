@@ -1,0 +1,13 @@
+- relations:
+  - 2122|2123|the general aim of crossing the ocean and its occasion: the voyage that reaches New Mareland carries out what the pioneers wanted|Equestrian pioneers wanted to cross the ocean / Coltlumbus's cloud carrier reaches New Mareland|implicit
+  - 2123|2121|continuation in time: once New Mareland is reached, the original carrier is put to use by the Royal Guards to send ponies there and bring foals back|New Mareland / deport ponies to New Mareland and bring back foals|implicit
+  - 2122|2121|the carrier's purpose shifts: built by pioneers for crossing, then used by the Royal Guards for deportation|pioneers wanted to cross the ocean / original cloud carrier was what the Royal Guards used|implicit
+  - 2121|2120|later development: the word 'original' is followed by the EEEE! carriers with a different use, food and machinery shipping with tourist decks|original cloud carrier / EEEE! made cloud carriers|implicit
+  - 2120|2124|the tourist decks that disguise the shipping are what the wartime attack falls on: tourists are saved and the cargo lost|top layers for Equestrian tourists / save almost all of the tourists ... all the cargo is lost|implicit
+  - 2124|2120|the sinking undoes the shipping operation and its purpose of delivering food and machinery, which is lost|transport SAA food shipments and repaired industrial machinery / all the cargo is lost|implicit
+- outward:
+  - 2120|the organisation EEEE!, the SAA, the Griffonian Republic and the Skyfall privateers, all held elsewhere|EEEE! made cloud carriers to transport SAA food shipments ... Griffonian Republic ... Skyfall privateers
+  - 2124|the war and the changeling forces whose submarines attack, held elsewhere|Changeling submarines sink most of the Equestrian fleet in the opening weeks of the war
+  - 2121|the Royal Guards and the policy of deporting ponies to New Mareland|Royal Guards to deport ponies to New Mareland
+  - 2123|the figure Coltlumbus and the land New Mareland, which belong to the wider history|Coltlumbus's cloud carrier reaches New Mareland
+- whole: By what they say, these notes read as a loose chain of stages in the cloud carrier's life: the voyage, the deportations, the disguised shipping and the wartime sinking. Each stage is joined to its neighbours only by shared content, not by pointers.

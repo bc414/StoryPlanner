@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | The donation is framed as a conciliatory gesture toward the changeling POWs, specifically those who want to change rather than keep hating, so the scene carries the anti-tribalism theme as an offer across enemy lines | "Olive branch to the changeling POWs who want to change instead of hate" | no | planning shorthand, a fragment with no verb, a metaphor followed by a relative clause
+  - bearing on the theme | The gesture's purpose is to undo the changelings' conditioning, treated as brainwashing, programming and propaganda. This also presupposes that the changelings' hatred was instilled from outside | "Breaking the brainwashing/programming/propaganda" | no | planning shorthand, a verb-phrase fragment with slash-joined near-synonyms
+- whole: A two-fragment shorthand note saying the donation is an olive branch to changeling POWs who want to change, and that it works against their indoctrination.

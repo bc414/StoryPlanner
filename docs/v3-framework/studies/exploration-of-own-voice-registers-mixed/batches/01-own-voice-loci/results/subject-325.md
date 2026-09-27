@@ -1,0 +1,21 @@
+- passages:
+  - 5837 | expository summary | present-tense third-person declarative, plain reveal-and-explain phrasing | Gilded Lily as fake mother and their mutual use of each other (weapon vs. Pink Love) | apart
+  - 5838 | expository summary | present tense, parallel listing of factions' demands, parenthetical aside | Chrysalis's illusion of victory and the mounting demands of Bauleiters, Statthalters, Jaegers | apart
+  - 5838 | rhetorical thesis | short closing metaphor stated as a flat generalization | Chrysalis trapped as hostage to the Meritocracy she built | apart
+  - 5839 | expository summary | present tense, parenthetical historical gloss, scare-quoted terms | Celestial Party's belief that Chrysalis's defeat ends the 'anomaly' | apart
+  - 5839 | colloquial aside | short blunt sentence, informal idiom | the Party's complacent wish to return to normal life | apart
+  - 5839 | expository summary | resumed analytical present-tense description | Party's view of Chrysalis as a lone 'Great Mare' and Applejack's fight to found the Republic | apart
+  - 5839 | section label | bracketed sub-heading followed by colon | naming the sequel's argument as 'The Materialist Reality' | apart
+  - 5839 | expository summary | present-tense declarative claim | sequel proving Applejack right, Chrysalis as manufactured product | apart
+  - 5839 | counterfactual list | parallel 'If ... hadn't ... wouldn't have' clauses | three prior systemic failures that produced Chrysalis | apart
+  - 5839 | rhetorical thesis | antithesis phrasing, real-world analogy, closing metaphor | Trump/Chrysalis as symptom not disease, history as a vacuum-filling force | apart
+- shifts:
+  - 5838 | expository summary | rhetorical thesis | closing metaphor 'hostage to the very Meritocracy she built' shifts from narrated fact to aphoristic claim
+  - 5839 | expository summary | colloquial aside | drop into informal idiom 'go back to brunch'
+  - 5839 | colloquial aside | expository summary | return to formal analytical description of belief and Applejack's opposition
+  - 5839 | expository summary | section label | bracketed sub-title and colon marking a new labeled section
+  - 5839 | section label | expository summary | resumed present-tense declarative prose after the heading
+  - 5839 | expository summary | counterfactual list | shift to repeated parallel 'If ... hadn't ... wouldn't have' conditional clauses
+  - 5839 | counterfactual list | rhetorical thesis | return to flowing prose with antithesis, a named real-world figure, and a closing metaphor
+- registers: expository summary; rhetorical thesis; colloquial aside; section label; counterfactual list
+- whole: The item's notes sit mostly in one plain expository-summary register, but note 5839 and the close of 5838 break apart into distinct, clearly bounded registers — a colloquial aside, a section label, a counterfactual list, and a metaphor-laden rhetorical thesis — each set off from the rest rather than blended into it.

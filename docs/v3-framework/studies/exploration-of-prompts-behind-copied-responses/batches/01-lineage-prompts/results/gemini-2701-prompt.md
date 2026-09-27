@@ -1,0 +1,6 @@
+- asks:
+  - analyse | trace how a specific plan revision (giving Celestia and Luna agency before the war ends, in the chapter "Breakthrough") ripples forward into later plot points | "How does it affect my later plot points?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open — it asks how the change affects later plot points without naming which points or offering options, only stating the revision itself as a given ("This is great").
+- subject: Downstream effects on the story plan of giving Celestia and Luna agency before the war concludes, starting at the "Breakthrough" chapter

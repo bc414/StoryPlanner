@@ -1,0 +1,6 @@
+- sources:
+  - Return of Harmony opening, the Scootaloo 'What are you, a dictionary?' fandom meme | an outside show and fandom reference the author suggests the scene could also allude to, offered as an extra layer | this can also reference the fandom meme from the opening of Return of Harmony | first-named
+  - Twilight Velvet telling Rainbow Dash to write a story | treat as an established story event from which the Alouette and Rainbow writing-advice scene follows | comes downstream of Twilight Velvet telling Rainbow Dash to write a story | referred-to
+  - the author's own FimFiction identity 'Scootableu' and the author being a software engineer | facts the author states about themselves, taken as true and as the meta basis for the Scootablue line and for Alouette as an engineer who now writes | I (the author) made "Scootableu" the FIMFiction identity | referred-to
+- order:
+- about: The author works out the exact wording of the 'You made Scootablue!' exchange and explains the meta meaning of it and of the Alouette and Rainbow Dash writing scene, then adds a possible Return of Harmony 'dictionary' meme reference.

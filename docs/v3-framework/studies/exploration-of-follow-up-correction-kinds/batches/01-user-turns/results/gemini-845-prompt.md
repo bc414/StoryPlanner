@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's picture of the Lioness of Tall Tale pairing, with Applejack as driver and Twilight as a subordinate anchor who follows her, is set aside. In the plan the two are inseparable, apart from a stretch of separation told through letters. | "this is not the route I'm going in TLTT. Applejack and Twilight are joined at the hip" | flat, clarifying statement with a parenthetical qualifier, with no explicit rebuke
+  - reading of the plan | The model treated Helena and Windie in Nine Tales as a steady Driver/Anchor pair. The plan has a serious breach of trust between them, with Helena becoming the villain in arc 4, and the model's account leaves this out. | "Windie and Helena have a huge breach in trust and have to reconcile. Helena essentially becomes the villain during arc 4." | implicit, offered as plan detail to be analyzed and not flagged as an error
+- about: The user asks for an analysis of their unfinished Nine Tales plans, supplying the missing trust-breach and villain arc, and states that this dynamic is not the one used in the MLP story, where Applejack and Twilight stay together.

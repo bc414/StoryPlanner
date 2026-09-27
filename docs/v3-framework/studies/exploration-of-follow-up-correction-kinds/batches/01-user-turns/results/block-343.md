@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's closing point about Applejack's missing interior development and asks a new question: how to bridge "this feels right" to full love, what the plan already holds, and how to strengthen it.

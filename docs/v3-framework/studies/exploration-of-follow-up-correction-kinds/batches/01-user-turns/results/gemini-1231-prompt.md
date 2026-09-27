@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves from the story analysis to a new conceptual question about whether fractional reserve lending against gold is separate from fiat currency or the same thing with a variable ratio, without disputing anything the model said.

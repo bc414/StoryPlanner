@@ -1,0 +1,9 @@
+- sources:
+  - my story, the existing precedent of cross-species class solidarity (ponies in Stalliongrad, griffons in Nova Griffonia) | treat as established in the story; the Red Changeling material should build on it | there is already precedent for cross species class solidarity | referred-to
+  - canon events in EaW | the story's precedent follows these events, so treat them as the basis for the Stalliongrad and Nova Griffonia intervention | This follows canon events in EaW | referred-to
+  - the model's earlier East/West Germany split and Cold War framing | reject it as not fitting the story | the final liberation isn't going to be like split Germany | referred-to
+  - the author's stated setup figures and arrangements: populations of Equestria, Crystal Empire, Stalliongrad and Nova Griffonia, the 15% civilian losses, and the open border agreement | treat as settled story facts that rule out a breakaway communist changeling land and a Cold War among the allies | Equestria has 60 million and the Crystal Empire another 5 million | first-named
+  - the story's list of remaining fascist powers (Wingbardy, New Mareland, Colthage, Chirropterra) | treat as the real Cold War opponents of the allies | The real cold war is between the allies and the remaining fascist powers | first-named
+  - the story's epilogue plan | treat as an intended aim for the ending: peaceful de-escalation and investment | the epilogue is suppose to imply a peaceful deescalation and investment | first-named
+- order:
+- about: The user corrects the model's proposed East/West Germany-style split by stating the story's actual scale, open-border and fascist-power setup and epilogue aim, while asking how Red Changelings handle emotion sense and who could teach jaeger training.

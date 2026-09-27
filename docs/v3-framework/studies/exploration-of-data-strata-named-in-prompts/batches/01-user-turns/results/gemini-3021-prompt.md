@@ -1,0 +1,5 @@
+- sources:
+  - Minerva Master Scrolls | treat as the set of principles against which each codex category is assessed; the model is to explain how each category interacts with them | how each category currently interacts with the principles in the Minerva Master Scrolls | referred-to
+  - main categories for codex entries (Concept, History, Nation, Technology, MagicSystem, Backstory, SocietalDifferences, Organization) | the user's current category list, given as the structure to be analyzed against the principles | I have the following main categories for codex entries | first-named
+- order:
+- about: The user lists their eight codex entry categories and asks the model to explain how each relates to the Minerva Master Scrolls principles, where they differ, and whether each category's appearances in plot points should carry metadata fields for tracking those principles.

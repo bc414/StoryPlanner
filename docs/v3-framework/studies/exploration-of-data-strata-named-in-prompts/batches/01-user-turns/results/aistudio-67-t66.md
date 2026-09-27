@@ -1,0 +1,6 @@
+- sources:
+  - original story plan for the chapter Stagnation, before these revisions to Equestrian history | treat as the earlier, pre-revision version; explain why it worked (Nightmare Moon truth as climax, reason for the 1000-year stagnation, horror leading Applejack to accept white peace) and then work out what changes | the original story plan for the chapter Stagnation before these revisions | referred-to
+  - these revisions to Equestrian history | treat as the current basis the Stagnation chapter must be reworked against; analyze what should go in, what changes, and why | after these new revisions | referred-to
+  - the user's own proposed version of the history (Luna's meltdown leading Celestia to discourage ambition rather than outlaw it, the 15% turning to griffon industry in 914 to 930, the petitions leading to the industry ban, the 930 petitions as Celestia's counter to Applejack's accusations) | treat as a provisional proposal to be analyzed and built into the chapter, not yet settled | How about if | first-named
+- order:
+- about: The user asks why the original Nightmare Moon climax of the Stagnation chapter worked, proposes a reworked history in which the recent 930 petitions become Celestia's answer to Applejack's accusations, and asks what the chapter should contain and change after the revisions.

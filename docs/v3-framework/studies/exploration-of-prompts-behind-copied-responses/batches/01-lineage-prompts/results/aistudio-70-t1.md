@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm | invent an archaic recall rule that could apply to Manehattan's mayor | "determine the archaic recall rule for Manehattan's mayor"
+  - brainstorm | work out an in-story origin/justification for a two-thirds majority requirement | "where the 2/3's majority comes from"
+  - brainstorm | devise a mechanism by which Flowing Current ends up as the elected replacement mayor | "how Flowing Current ends up as the elected replacement"
+  - brainstorm | devise a mechanism by which EEEE! members replace the city council | "EEEE! members replace the city council"
+- supplies:
+  - attached document | an attachment referenced but never captured in the record, presumably background/planning material for the setting | unspecified length (placeholder only)
+- shaping:
+  - give multiple options rather than a single answer | "Suggest a few ideas"
+- openness: Leaves the answer open: the message poses four unresolved worldbuilding questions and explicitly asks for \"a few ideas\" rather than a single settled answer.
+- subject: Fictional political mechanics for Manehattan (mayor recall rule, majority threshold, succession by Flowing Current, and EEEE! council takeover) for a story in progress.

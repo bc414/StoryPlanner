@@ -1,0 +1,7 @@
+- sources:
+  - all the corpora | search them all for information on who Amelie is and why she sent the Manehattan invite | Check all the corpora for the info about who Amelie is | first-named
+  - Tall Tale (Applejack's "hard truth" speech) and chapter 4 of TLTT, chapter 5 of TLTT | treat as fixed story events that the author places in the sequence of the heroism arc, as a reference for the timeline | ends with them listening to Applejack's "hard truth" speech from Tall Tale | referred-to
+  - TKOW chapter before the overlap with TLTT | treat as author's statement of what the chapter contains and how it should be framed, Cadance and Shining Armor's "Go! Save Equestria!" | in TKOW, the chapter before the overlap with TLTT starts ends with them | referred-to
+  - the author's own account of the arc's cracks (village news, crystal pony therapy, Mount Aris 1006, Les Meridiennes, civil wars, Stalliongrad) | treat as correction to the model's arc: the doubts are only two cracks and heroism mentality persists until Stalliongrad | is the first crack, crystal pony therapy is the second crack, but Minette still operates on a heroism mentality | referred-to
+- order:
+- about: The user asks the model to search all the corpora for who Amélie is and why she invited the pair to Manehattan, and corrects the arc so that the two cracks do not end Minette's heroism mentality, which peaks through Mount Aris, the Meridiennes, the civil wars and the TKOW and TLTT battles until Stalliongrad.

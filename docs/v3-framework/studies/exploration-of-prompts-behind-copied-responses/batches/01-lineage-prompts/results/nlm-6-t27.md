@@ -1,0 +1,10 @@
+- asks:
+  - explain | what role religion would serve in the feudal world and then in Le Grand Foyer | "What role would religion serve in the feudal world and then in Le Grand Foyer?"
+  - check | whether the nobles claim they rule by divine right, blessed by Boreas | "Do the nobles claim they rule by divine right (blessed by Boreas)?"
+  - check | whether Gerad also claims this divine-right justification while his rule actually rests on the safety he provides | "Gerad also says this, but in reality his rule is from safety?"
+  - check | whether the religion feeds into the patriarchy and into chastity norms | "Does the religion feed into the patriarchy and chastity?"
+- supplies:
+  - lore fact | the griffons' religion is centered on Boreas, who they believe raises the sun, though in the setting's true cosmology Celestia does so | a couple of sentences
+- shaping:
+- openness: Mixed: the opening question about religion's role is left open, while the follow-up questions each name a specific claim (divine right, Gerad's real basis of rule being safety, religion feeding patriarchy and chastity) and ask the model to confirm or develop it.
+- subject: The social and political function of the griffons' Boreas-centered religion in the feudal setting and in Le Grand Foyer, including divine-right claims, Gerad's rule, and ties to patriarchy and chastity

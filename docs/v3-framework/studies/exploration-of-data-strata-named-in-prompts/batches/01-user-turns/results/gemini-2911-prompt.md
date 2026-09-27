@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user revises the model's proposed magic mechanic by rejecting self-deleting seals in favor of passive, recoverable ones, and proposes making the Marque Souveraine a third mode of the sceau d'aveu that need not be indestructible, without pointing at any body of source material.

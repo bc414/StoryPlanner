@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - craft judgment about the recommendation (title choice) | the model's proposed chapter title Treason for the Rockfeller chapter, which the user says gives away the betrayal before readers reach it | isn't it too obvious? It seems like it's a spoiler | posed as a question after granting the pairing with Loyalty works, mild and tentative pushback
+- about: The user accepts the Loyalty/Treason pairing but questions whether naming the chapter Treason gives away Rockfeller's betrayal, inviting reconsideration of the title.

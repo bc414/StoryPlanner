@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Chapter 12 castle-setting analysis to ask for elaboration on Chapter 11, laying out a planned victory-then-betrayal ending and a following montage chapter, without disputing anything the model said.

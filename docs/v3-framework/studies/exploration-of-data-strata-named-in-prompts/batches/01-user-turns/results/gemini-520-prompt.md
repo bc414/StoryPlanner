@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back that the arc described is Fleur's backstory and asks what change she undergoes during the story itself, or whether she changes little.

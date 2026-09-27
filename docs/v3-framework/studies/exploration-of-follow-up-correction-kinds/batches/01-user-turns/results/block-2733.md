@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their own synthesis of the model's three-layer analysis, asking whether later Hasbro-era writers collapsed Faust's layers into the first (citing the School of Friendship and the Cutie Map) and whether their story makes that collapse literal in-world and separates Faust's design from the mandate, and does not dispute anything the model said.

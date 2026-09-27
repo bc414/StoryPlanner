@@ -1,0 +1,5 @@
+- sources:
+  - Princess and the Kaiser's ASOIAF Inspirations (the user's chat, outside this project) | asks whether the model is about to draw on it; a possible place for the right idea of P&K, but flagged as outside the project, and no instruction to use it | Are you about to access my chat Princess and the Kaiser's ASOIAF Inspirations which is outside this project? | referred-to
+  - the model's own idea of what P&K is about (as stated in its previous turn) | treated as doubtful, possibly wrong | I'm not sure you have the right idea of what P&K is about | referred-to
+- order:
+- about: The user questions whether the model's account of P&K is accurate and asks whether it is reaching into a separate chat outside the project to get it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the cockpit and fighter design thread and asks a fresh factual question about the history, technology and tactical reasons behind real-world close air support dive bombing, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user maps each of the model's four "engines" onto current LLM features (ChatGPT 3.5, chain of thought, search/RAG, code sandboxes), notes a gap between the Greeks and modern computing, and asks where the industrial revolution fits, so it extends the framework without correcting it.

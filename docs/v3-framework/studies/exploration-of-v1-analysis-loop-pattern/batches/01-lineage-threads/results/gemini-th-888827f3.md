@@ -1,0 +1,19 @@
+- steps:
+  - author | presents structure | three-tier plan: limited-POV main story plus five prequel-sequel character arcs and rationale for avoiding worldbuilding bloat | opening prompt
+  - model | analyzes and validates | breaks down the main-story POV restriction's advantages and each prequel's narrative function, flags an exposition-delivery risk with a fix | first response
+  - model | poses question | asks what Applejack's climactic confrontation is if not a direct clash with Chrysalis | end of first response
+  - author | expands the structure | lays out the main story's three broad arcs with each arc's climax and internal/external antagonist | second prompt
+  - model | analyzes and validates | maps each arc onto thematic escalation and lore, flags two pacing/sequencing risks | second response
+  - model | poses question | asks how the Griffonia trip, election, and hive liberation are meant to be sequenced | end of second response
+  - author | refines the plan | specifies Arc 3 as an active war with a named battle, and fixes the climax order as election then three resolution chapters | third prompt
+  - model | analyzes and validates | ties the resolution-chapter titles to established mature virtues, confirms the earlier pacing risk is resolved, raises two new logistics questions | third response
+  - model | poses question | asks whether a radio-campaign device matches the author's vision for the election | end of third response
+  - author | corrects and clarifies | moves the referendum's timing to after the Griffonia return, questions whether the love-drop or the election is the true climax, and states intent to skip on-page battles for the hives/Olenia in favor of character focus | fourth prompt
+  - model | analyzes and validates | confirms a dual-climax reading of ideological versus materialist victory, endorses omitting battle scenes, gives a four-part summary of Arc 3 | fourth response
+  - author | requests comparanda | asks for other epic works that keep massive worldbuilding offstage and expand it in prequel-sequels | fifth prompt
+  - model | supplies comparanda | gives four published series as examples, each mapped onto the author's own prequel plans | fifth response
+  - author | requests general context | asks about the epic genre and the editorial process for published series | sixth prompt
+  - model | supplies genre/process overview | explains materialist-epic conventions and structural-editing practice, illustrating with the author's own prior choices | sixth response
+- kept:
+- brought: The author brought successive increments of their own evolving outline for a long materialist epic — its POV rules, its prequel-sequel roster, and its three-arc climax structure — for the model to review and stress-test.
+- loop: The author repeatedly brought the latest slice of their own structural outline (POV scope, arc climaxes, chapter sequencing, then two research questions) for the model to validate, connect to established lore, and probe with follow-up questions, which the author then answered with corrections or refinements in the next turn; no note in the archive traces to this stretch, so none of this exchange was carried into the planning database.

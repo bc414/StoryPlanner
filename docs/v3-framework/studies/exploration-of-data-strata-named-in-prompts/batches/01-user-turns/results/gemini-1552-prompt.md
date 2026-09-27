@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a revised scene for Rainbow Dash's arc, in which she welcomes Trimmel into SECEF over Henri's wariness because she witnessed his surrender at Ponytown and Elvir Roland's bloodless surrender, without pointing the model at any body of material.

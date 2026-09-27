@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Stalliongrad was classed as isolationist in the model's faction matrix, but it has intervened abroad, backing the revolution in Nova Griffonia, and its ideology is Trotskyite | Stalliongrad is not isolationist, they intervened in Nova Griffonia for the revolution. They are Trotskyites | flat statement added with an "Also" after the main request, backed by a single piece of in-world evidence and no apology
+- about: The user asks the model to develop the fourth axis, ego capitalism versus harmonic capitalism (extraction versus sharing), and to link it to liberalism and to the bourgeois revolutions in Vérany and Herzland. In passing, the user also corrects the model's placement of Stalliongrad as isolationist.

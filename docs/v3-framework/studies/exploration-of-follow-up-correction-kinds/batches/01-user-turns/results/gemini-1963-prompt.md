@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: design approach rejected (in-world naming vs. translation-layer mechanism) | the model's mechanism of having the Universal Translator render Sparlean-root words as Empire/Emperor and Kaiser/Reich as raw output, which the user judges too confusing for readers and replaces with a plain in-world renaming by Grover III | While the psycholinguistic translation is interesting I think it'll be too confusing for the reader | softened with a concession, given with a reason (reader confusion), then reframed as a suggestion put as a question
+- about: The user sets aside the model's translator-based explanation as too confusing and re-proposes a simpler in-world version (Kaiser/Reich renamed by Grover III using Greek and Latin roots from Sparleos), then asks what the new names would be and what Grover III's printing-press history would call the earlier eras.

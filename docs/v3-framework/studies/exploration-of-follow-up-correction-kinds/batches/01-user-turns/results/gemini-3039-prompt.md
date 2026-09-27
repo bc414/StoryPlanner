@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies their own situation (a 300k-word, roughly 457k-token story bible, with RAG chunking in the consumer app giving worse results than AI Studio) in agreement with the model's account, and asks whether putting the bible in a GitHub repository would work.

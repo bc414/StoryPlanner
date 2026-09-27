@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, tentative recall question about whether another leader nicknamed "king of the castle" had a name beginning with "I", without challenging anything the model said about Piłsudski and Rydz-Śmigły.

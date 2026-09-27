@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model characterised TLTT as having strict anti-paralipsis discipline, closer to Martin and Dostoevsky than to Tolkien or Rowling. The user says the main story depends on paralipsis to hide characters' psychology and on epistemic limits to hide history until the impact point. | "every recontextualization relies on hiding history via internal focalization's epistemic limits until the impact point and using paralipsis to hide internal psychology" | implicit, given as a plain statement of their design with no mention of the model's claim, so the mismatch shows only by contrast
+- about: The user sets out how they intend to use hidden history, withheld interiority, mentor focalization and the prequel-sequel structure, and asks whether leaving out antagonist focalization costs them Martin's main draw and whether the resulting gaps are structural and dramatic irony.

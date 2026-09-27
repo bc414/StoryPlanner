@@ -1,0 +1,7 @@
+- sources:
+  - what the author established about EEEE! (the Manehattan union) viewing SAA as the model company and labor-rights standard for other tycoons' factories | treat as settled fact; it contradicts the buyout angle and must be respected | I established that EEEE! (The Manehattan union) views SAA as the model company | referred-to
+  - what the author established about SAA exporting to the Griffonian Republic at a loss (Skyfall shipping insurance, payment in GR fiat that buys nothing yet, to feed the struggling Republic) | treat as settled fact; the parents' business is successful and charitable, so it can't be read as a buyout | They also export to the Griffonian Republic at a loss | referred-to
+  - the model's angle that her parents were bought out | reject; do not build on it | I do not like the angle that her parents were bought out | referred-to
+- order:
+  - what the author established about EEEE! and SAA's Griffonian exports over the model's buyout angle | rejects the angle because it conflicts with what was established: I established that
+- about: The user rejects the model's suggestion that Applejack's parents were bought out and are escaping to the farm, citing facts they already established about SAA's standing with the union and its loss-making exports to the Griffonian Republic.

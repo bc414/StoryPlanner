@@ -1,0 +1,30 @@
+- passages:
+  - 4416 | statement about the subject | Mali is a believer in harmony | none | stated as a trait: "she is a believer of harmony"
+  - 4416 | backstory summary | Luna promised harmony-based reform on speaking publicly after her return; Celestia's protectiveness made the reforms token; Mali stayed on unhappily while the Tzinacatl retreated into isolation and her Temberik colleague left the night guard for Diyarbecolt | none | past-tense recap linked by "But since"; no date
+  - 4417 | statement about the subject | Meaning of her name (Malinalli, "Grass" in Nauhatl), her cutie mark and special talent | none | "means", "Her cutie mark is", "Her special talent is"
+  - 4417 | statement about the subject | Her personality and look as a blend of Pinkie's zeal and Fluttershy's calm | none | descriptive comparison to Pinkie and Fluttershy
+  - 4417 | authorial design intent | The character embodies the Lauren Faust seasons 1-3 ideal being rolled back to and matured with Harmonic Capitalism | none | "that we are rolling back to"
+  - 4417 | statement about the subject | She loved Luna's thestral-integration goal, which stalled under harmony's stagnation, and still holds the ideal, which is why she is with Applejack from the start | none | "still believes in the ideal"; explanatory
+  - 4418 | game-implementation note | Tempest Wind is a general who appears as a night guard trait in the game, not a thestral | none | plain factual note about game content
+  - 4419 | statement about the subject | Personality like Fluttershy with a bit of Pinkie; cute bat pony with voluminous mane who loves harmony and friends, a bit naive | none | descriptive "Her personality is like"
+  - 4475 | statement about the subject | Being made to use a Pony Name (Tempest Wind) reads as Celestia's palatable-diversity, Stagnation/Walled Garden theme; this is her mom's view | none | thematic interpretation; "This is what her mom thinks"
+  - 4475 | scene beat without a year | Mali herself came up with Tempest Wind at the parloir in Manehattan to seem more approachable to curious ponies | none | "The reality is"; no date
+  - 4605 | scene beat with a year | She recalls hiding her fangs after the changeling attack so as not to be mistaken for a changeling | 1002 | "after the changeling attack 1002"
+  - 4648 | scene beat with a year | One year after Luna's return she was looking for night guards, seeing it as the best path to harmony and thestral acceptance | 1001 | "In 1001, one year after Luna's return"
+  - 4648 | scene beat with a year | She met a Princess Luna with an identity crisis, fearing the Night had been culturally erased | 1001 | follows the 1001 opening; "She met"
+  - 4648 | statement about the subject | Celestia's Equestria has no Passion/Night Culture; for 80 years intimacy has been a polite pastoral chore | none | world statement; "For the last 80 years"
+  - 4648 | scene beat without a year | Mali comforted Luna and helped her regain confidence, showing that sexual ambition and connection still exist; Luna returned the favor | none | "Mali gave Luna comfort"; no date of its own
+  - 4648 | authorial design intent | This encounter bridges the scared sister of S1E2 and the boisterous Luna of Luna Eclipsed | none | "This bridges the gap"
+  - 4647 | scene beat with a year | She worked at a parloir in Manehattan to form grassroots connections and help ponies understand thestrals | 997 to 1001 | "In 997 to 1001"
+  - 4649 | statement about the subject | Luna agrees parloir operators exemplify the magic of friendship scaled up to adults | none | "Luna agrees"
+  - 4649 | backstory summary | Luna did not pursue forceful thestral integration and accepted Celestia's token reforms | none | "ultimately did not pursue"
+  - 4649 | scene beat with a year | Mali left the night guard and joined the regular army, out of optimism not bitterness | 1007 | "left the night guard in 1007"
+  - 4649 | statement about the subject | Her core character is friendship and acceptance, and she does not try to change others | none | "Mali's core character is"
+  - 4658 | writing instruction | Mali should use Aquileian words in the story's first half when talking with Henri, hinting at her familiarity with Aquileian passion | none | "should throw in"; directive for the text
+  - 4664 | statement about the subject | She is already a synthesis of Jaguar and Eagle; her flaw is Structural Subservience, using adult tools only within limits set by others | none | analytical description of character flaw
+  - 4664 | statement about the subject | She manages others' immaturity or trauma symptoms rather than making them grow; the ultimate "Support Class" | none | "does not force others to grow up"
+  - 4664 | scene beat without a year | In Chapter 11 she negotiates with her mother Meztli, succeeding through active listening, de-escalation and reframing that soothe her isolationist anxiety | none | "in Chapter 11"; chapter reference, no calendar date
+  - 4664 | statement about the subject | She can kill a predator (machine gun) and comfort a victim (Parloir) but does not yet know how to tame a predator; her soft power is accommodating | none | closing summary of her limit
+- sequences:
+  - 4648 | 3 beats in 1001: seeking night guards, meeting an identity-crisis Luna, comforting her | opens with a year, then beats follow in narrated order ("She met", "Mali gave Luna comfort")
+- whole: A loose set of character notes on Mali, a bat pony believer in harmony, mixing personality and name description, dated backstory beats (parloir work, Luna's night guard, army), thematic and design-intent commentary, a game note, a writing instruction and an analysis of her flaw.

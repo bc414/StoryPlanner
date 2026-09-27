@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the prequel idea by recasting the voltigeurs' skirmisher tactics as a deliberate plan to snipe the peripherie nobles and liberate conscripted peasants, and gives Discret an ego-driven motive, without saying the model's analysis was wrong.

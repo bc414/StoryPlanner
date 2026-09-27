@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Casts the wife's giving as the theme's naive, individual-charity pole, judged insufficient next to Kemerskai's turn to revolution; it also states her character and his conclusion as fact | "gave naive charity, but it wasn't enough" | yes | one flat declarative sentence, planning shorthand with a verdict
+- whole: A one-sentence verdict that Kemerskai's wife's charity was naive and insufficient, which frames her generosity as the limited kind the theme sets against structural change.

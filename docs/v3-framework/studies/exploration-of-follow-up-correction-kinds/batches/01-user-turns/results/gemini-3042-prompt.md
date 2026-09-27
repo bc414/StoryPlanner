@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether the Gemini mobile app and desktop website use different system instructions, without disputing anything the model said about the GitHub integration.

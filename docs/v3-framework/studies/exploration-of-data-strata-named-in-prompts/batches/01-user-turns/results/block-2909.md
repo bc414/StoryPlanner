@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the proposed Integrative/Insular renaming by restating the Boundary axis as whether a system seeks new members, illustrating it with their own examples (Gerad Discret, Chrysalis, Skyfall, Celestia, Tzinacatl), and says the Governance pole names (bottom-up friction, top-down paternalism) also fit poorly for laissez-faire cases like Grover IV and Skyfall.

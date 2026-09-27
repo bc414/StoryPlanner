@@ -1,0 +1,4 @@
+- passages:
+  - 10 | statement about the subject | characterizes Hans Kessel as a bauleiter (construction site manager) who fell from grace | none | a single short descriptive phrase, no event or moment shown
+- sequences:
+- whole: The subject has a single one-line note that sums up Hans Kessel as a fallen bauleiter, with no scenes, dates or sequence.

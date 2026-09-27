@@ -1,0 +1,5 @@
+- sources:
+  - The above (the analysis of the talk in the tent, the Hard Truth Speech) | treat as the established prior scene; build the follow-on speech from it | The above details the talk in the tent | referred-to
+  - The author's stated state of the scene (stage set up by Star energy, not drunk, infantry uniform with a star slapped on) | treat as fixed givens the speech must fit | she is at a stage setup by Star energy, is not drunk, and is wearing her infantry uniform again | first-named
+- order:
+- about: The user asks the model to work out what Applejack's defiant speech to Tall Tale should contain after Luna expels her from the tent, building on the just-analyzed tent scene and fixing her condition and appearance at that moment.

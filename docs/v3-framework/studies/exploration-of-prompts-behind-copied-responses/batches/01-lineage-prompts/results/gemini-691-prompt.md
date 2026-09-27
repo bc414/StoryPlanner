@@ -1,0 +1,7 @@
+- asks:
+  - share | hands over a large planning document to the model without stating any explicit task, question, or instruction for what to do with it | the turn consists solely of the attachment placeholder with no accompanying text
+- supplies:
+  - plan export | a full export of the user's long-form fiction planning material, declared as ~121,207 words | the placeholder marks it as a large document, but its actual text was not captured (shown as 0 chars)
+- shaping:
+- openness: Fully open — the message gives no stated instruction, question, or direction at all, only an attached document placeholder.
+- subject: Attachment of a large story-planning export with no accompanying instruction text

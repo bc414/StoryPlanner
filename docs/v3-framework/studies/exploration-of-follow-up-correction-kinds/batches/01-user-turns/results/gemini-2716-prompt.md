@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the refugee-sponsorship thread without comment and starts a new task, asking for a name for the Aquileian Cartel HQ in Skyfall, with constraints on the name and a description of the building's three tiers.

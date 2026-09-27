@@ -1,0 +1,4 @@
+- sources:
+  - story planner text in the db file (the relevant parts) | read/review it as the basis for suggesting names and real-world analogies for the civilizational system | Please review the relevant story planner text in the db file | referred-to
+- order:
+- about: The user rejects the model's label "Colonial Zebrica" because there are no direct colonies, and asks the model to review the relevant story planner text in the db file and propose names and real-world analogies for that civilizational system.

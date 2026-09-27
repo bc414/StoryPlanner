@@ -1,0 +1,8 @@
+- steps:
+  - the author | supplies context and request | prior summary file ("1 to 38") plus new chapter attachment, asks for a detailed summary of the next chapter | opening prompt of the stretch
+  - the model | summarizes | breaks the new chapter into named beats (wager/moon trip, confession, parents' verdict, departure/aftermath) | first part of the response
+  - the model | raises follow-on questions | lists open questions the chapter's events leave unresolved (napkin note, Shining's report, letter to Cadance, Pinkie's nature) | middle part of the response
+  - the model | cross-references | ties specific new-chapter details back to earlier chapters by number (27, 16, 1, 6, 36) | closing part of the response
+- kept:
+- brought: The author brought a prior running summary of the story (chapters 1–38) together with a newly attached chapter, asking the model to extend the summary to cover the new material.
+- loop: The author feeds continuity material (past summaries plus a new chapter) to get a synthesized summary, open questions, and cross-chapter links back, but this exchange leaves no trace in the planning database, so the loop here is request-and-response without the plan absorbing anything from it.

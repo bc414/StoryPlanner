@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | mine them for other important words that need impactful Isi-Bumbano translations | other important words from my story plans are there | referred-to
+- order:
+- about: The user asks the model to propose several Isi-Bumbano words for jaeger and hive, and to pick out other important terms from their story plans that deserve impactful translations.

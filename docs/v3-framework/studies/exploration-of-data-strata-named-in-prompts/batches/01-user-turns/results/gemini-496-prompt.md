@@ -1,0 +1,5 @@
+- sources:
+  - the author's plan for Applejack (strictly a strategic commander, inspiring figurehead at the front, shielded by Twilight, taking radio orders from Henri on tactics) | the author's intended design, which the model is asked to test for whether it works; held open, since the author is unsure and floats the alternative of no radio orders | I was planning on AJ being strictly a strategic commander... Does this work? Or, in the spirit of Fraternity | referred-to
+  - the key constants (AJ at the tip of the spear for morale, and AJ as strategic leader) | fixed points that any answer must keep; not open to change | The key constants are that AJ is at the tip of the spear for morale, and she is the strategic leader | referred-to
+- order:
+- about: The author pushes back on the model's suggestion that Applejack grows into tactical command, restates their plan of her as strategic leader and front-line figurehead taking tactical orders from Henri, and asks whether that works or whether Fraternity implies no radio orders, while fixing two constants.

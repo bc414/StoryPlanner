@@ -1,0 +1,7 @@
+- passages:
+  - note 5263 | corrective listing | negation plus addition, plain declarative | who else saves the day besides Twilight and Starlight | apart
+  - note 5263 | figurative tactical shorthand | military term 'chasseur pair', metaphor 'maelstrom of decapitation strikes' | how Twilight and Applejack function together in the battle | apart
+- shifts:
+  - note 5263 | corrective listing | figurative tactical shorthand | drops the plain 'not the sole/it's also' correction for a metaphor-laden military term
+- registers: corrective listing; figurative tactical shorthand
+- whole: This note holds two registers, a plain corrective listing followed by a figurative, tactical-shorthand sentence, each standing apart as its own sentence.

@@ -1,0 +1,4 @@
+- sources:
+  - chapter 7, Generosity | the part of the story plan the user is adding to; the user states its plot (union, referendum, nationalizing industries) and wants Applejack's parents placed in it as patriotic weapons-makers, treated as the user's own settled direction | "the plot of that chapter is Rarity meeting a union" | referred-to
+- order:
+- about: The user adds a refinement to the Applejack-parents backstory, saying their ruthless capitalism is useful in chapter 7, where they appear as patriots producing weapons for the war effort, in contrast to the morally deficient Rockfeller.

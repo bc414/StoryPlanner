@@ -1,0 +1,4 @@
+- sources:
+  - the author's own stated understanding of how the predatory fiat model works (Skyfall banks creating money through fractional reserve loans, the navy withholding insurance and raiding ships of defaulters, the Skyfall Mark backed by the fleet taken from Herzland) | offered as a draft for the model to test; affirm what holds and correct what does not, not yet settled | "analyze and affirm or make corrections to my understanding" | first-named
+- order:
+- about: The user lays out their own account of how Skyfall's predatory fiat system works and asks the model to check it, confirming or correcting it.

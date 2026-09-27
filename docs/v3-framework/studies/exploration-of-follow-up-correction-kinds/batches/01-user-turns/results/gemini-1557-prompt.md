@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model made Rikard Astler the socialist figure to visit and only guessed Asper Sickleclaw might be retired or dead, when the user wants Asper as the character at the centre of that visit | more interested in Asper Sickleclaw | stated as a preference for a different focus, in a mild, unheated way, with no explicit mention of the substitution
+  - fact of the world | Asper's place in the story is not the one the model gave him: he was Kemerskai's ally who left in protest to found Skynavia, and Skynavia has been reintegrated into the Republic. The model treated him as a possibly gone figure and called Skynavia the enemy | was Kemerskai's ally who left to form Skynavia in protest | restating the backstory flatly as a reminder, with no reproach
+- about: The user turn steers the model back to Asper Sickleclaw, the former ally who founded Skynavia and is now reintegrated, instead of the substitute Rikard Astler, and it restates Asper's history to do so.

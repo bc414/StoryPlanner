@@ -1,0 +1,4 @@
+- sources:
+  - reality of Bushido | check the user's Statthalter ideas (masters and weaponizes emotion sense, juniors let superiors drain them for favor) against real historical Bushido to see whether they line up | Does this line up with the from reality of Bushido? | referred-to
+- order:
+- about: The user proposes two new ideas for the Statthalter rank, that they master and weaponize or enjoy emotion sense and that juniors submit to being drained by superiors to earn favor, and asks the model to compare them with real-world Bushido.

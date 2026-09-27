@@ -1,0 +1,4 @@
+- sources:
+  - the three stances | treat as the working framework and extend it to proportional-representation democracies, looking for parallels in European and East Asian countries | the struggle between the three stances | referred-to
+- order:
+- about: The user notes that a two-party first-past-the-post system muddies the struggle among the three stances, and asks the model to carry the framework over to proportional-representation democracies in big European and East Asian countries.

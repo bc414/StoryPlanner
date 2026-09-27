@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to name the actual companies behind its "quiet investors" claim and to give the same concrete examples for the extraction and tool-banning categories, which is a request for specifics and not a statement that anything was wrong.

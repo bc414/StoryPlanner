@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from party naming to ask whether a class-based mapping of the three parties makes sense, then lays out their planned backstory for Coltbert, King Discret and the FJA's rural power base and the PdNA rebrand.

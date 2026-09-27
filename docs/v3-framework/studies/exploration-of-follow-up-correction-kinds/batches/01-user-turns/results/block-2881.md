@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - methodological framing (assumption that axes should be independent) | the model's approach treated empty cells in the 2x2 checks as either a derivation or coincidental absence, taking orthogonality as the goal; the user questions whether orthogonality is the right standard and whether a 2x2 with three populated cells is still valid | "Perhaps orthogonal is not the right mindset in the first place?" | tentative, put as a question with a hedge, and paired with a request for a first-principles mathematical basis rather than a flat statement of disagreement
+- about: The user pushes back on the model's independence-based method for testing the six axes by asking whether orthogonality is the wrong goal and asking for the underlying mathematical principle.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether their stored profile is what led the model to pick coding and writing as its examples, probing the reason behind the choice without saying the model's stated reason was wrong.

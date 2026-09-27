@@ -1,0 +1,5 @@
+- sources:
+  - Explorers of Memories (the story's own account of Phantom's anatomy) | treat as true and as a correction to the model's reading that the canid anatomy is only a detached genre convention; the story gives an in-story explanation | In Explorers of Memories, Phantom's anatomy is explained by saying his dad is a Manectric | referred-to
+  - Supernatural (the show) | the model is to answer from its own knowledge of what the show is about | What is Supernatural about? | referred-to
+- order:
+- about: The user corrects the model's claim about Phantom's canid anatomy by stating what the story says, that his father is a Manectric, and then asks the model what the show Supernatural is about.

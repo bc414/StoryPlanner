@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the mentor-handover discussion to a new worldbuilding question, asking how drop tanks could work and floating a hybrid design where crystal engines still burn aviation fuel for efficiency.

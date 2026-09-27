@@ -1,0 +1,28 @@
+- relations:
+  - 895|900|900 revises 895: where 895 calls Kemerskai the model whose command economy the Manifesto would spread, 900 says the authors misread it and took an emergency measure for a utopian baseline|Caramel Marks and Fire Angel strip away the democratic consent and the existential context|implicit
+  - 896|900|restatement and elaboration: both say the constitution was suspended by vote in 986 and dissenters were allowed to leave; 900 adds who the dissenters were and why the economy was set up|voted to suspend their own constitution in 986|implicit
+  - 897|895|reaction: Kemerskai's own response to being made the model in 895, calling it a huge misinterpretation|Kemerskai is appalled and writes that it is a huge misinterpretation|implicit
+  - 897|900|reason for the misreading: Kemerskai's stated purpose (resource scarcity) matches the survival purpose (starving refugees) that 900 says the Manifesto ignores|solve the resource scarcity|implicit
+  - 897|902|contradiction: Kemerskai promises to restore elections soon, while the Manifesto calls for a permanent state of emergency|restore elections as soon as possible|implicit
+  - 900|902|contradiction: 900 calls the command economy a temporary survival mechanism, while 902 says the Manifesto makes emergency permanent, which is the misreading 900 names|desperate, temporary survival mechanism|implicit
+  - 895|902|elaboration: the command economy the Manifesto wants globally is spelled out as a permanent state of emergency|the Manifesto advocates a permanent state of emergency|implicit
+  - 896|903|instance: 896 says Severyana took the Manifesto as justification to seize factories from the boyars; 903 shows the workers using it for slaughter of the boyars|industrializing boyars|implicit
+  - 895|903|instance: 903 shows one violent use of the Manifesto that 895 says its authors want implemented globally and violently|implemented globally and violently|implicit
+  - 895|1595|continuation: 895 gives the Manifesto's call for global implementation, and 1595 has its authors agitating in several lands for global revolution|global revolution|implicit
+  - 894|1595|continuation in time: 894 gives the authors' origins and what turned them to it, and 1595 has them agitating in Skyfall and Baltimare|Caramel Marks|implicit
+  - 894|895|presupposition: 895 assumes the two authors and their outlook, whose origins 894 gives|Caramel Marks and Fire Angel|implicit
+  - 901|900|the real-world point in 901, that admirers ignore the civil war and famine origins of regimes, is delivered in-story by 900's account of the Manifesto ignoring existential context|forged in the apocalyptic fires of civil war and famine|implicit
+  - 901|896|the allegory is planned on the omission that 896 states as the missed fact of consent and dissent|completely ignoring that those systems were forged|implicit
+  - 901|895|the allegory is played out in 895: price controls and rationing are held up as a utopia|price controls|implicit
+  - 893|897|893 says the technology is moved into recent, lived history, which allows a living Kemerskai in 897 to answer it|recent, lived history|implicit
+- outward:
+  - 893|the established EaW lore where this was a distant backdrop|Featured in EaW lore, but many years earlier
+  - 893|the story frames the technology is being moved into|moving it up to recent, lived history within the story frames
+  - 901|real-world regimes such as the USSR, outside the fiction|historical regimes (like the USSR)
+  - 894|Chrysalis's shell company and its offer, held elsewhere|Chrysalis's shell company's offer
+  - 894|Skyfall and Baltimare as places and Skyfall's revolution and independence, held elsewhere|before the revolution, independence and max capitalism
+  - 896|Skynavia and the first long march, held elsewhere|2nd long march to Skynavia
+  - 900|Cloudburian refugees, Herzlander exiles, Sickleclaw's agrarian communists and Rosewing's bandits, held elsewhere|Sickleclaw's agrarian communists and Rosewing's bandits
+  - 895|Kemerskai's martial law and command economy in the wider history|Kemerskai's martial law
+  - 1595|Herzland as a place and the wider revolution, held elsewhere|Skyfall and Herzland and Baltimare
+- whole: These notes hang together closely, most of them turning on the gap between Kemerskai's temporary, consented emergency and the Manifesto's misreading of it, with a few origin and canon notes standing more apart.

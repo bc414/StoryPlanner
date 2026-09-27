@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks what function or role inheritance anxiety, property, and lineage would play in the patriarchal system being developed | "what role would inheritance anxiety, property and lineage serve"
+- supplies:
+- shaping:
+- openness: Leans toward an answer within the terms it names, asking specifically about the role of "inheritance anxiety, property and lineage" rather than leaving the topic fully unbounded.
+- subject: The role of inheritance anxiety, property, and lineage in a fictional griffon patriarchy's social/biological system

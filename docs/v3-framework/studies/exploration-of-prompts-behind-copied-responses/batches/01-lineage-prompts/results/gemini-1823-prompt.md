@@ -1,0 +1,9 @@
+- asks:
+  - correct | flags that a previously stated fact (Gerad dying in 972) is wrong and supplies the corrected timeline | "To clarify, Gerad doesn't die in 972."
+  - inform | lays out new dynastic facts: Grover IV's death date, Grover V's age and regency council | "Grover IV died in 970. His 10 years old son Grover V has a regency council of corrupt nobles."
+  - explain | works through the political logic of why Gerad could only bring the nobles to heel after declaring independence, including the nobles' motives and their gunpowder dependence on the bourgeoisie against bandits following the legions' withdrawal | "I think Gerad can only force the decadent nobles of the sword to come to his Palais du Discret..."
+  - inform | states the endpoint of the arc: Gerad's 8-year absolute reign and his execution by Verany and the bourgeoisie for reneging on a free-market promise | "Gerad runs his absolute monarchy for 8 years, then Verany and the bourgeoisie behead him..."
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names — the message presents its own reasoning ("I think Gerad can only force...") and a fixed sequence of corrected facts and outcomes as settled, rather than posing a question or offering options.
+- subject: Revised political/dynastic timeline for the fictional nation of Aquileia: Gerad's independence, reign, and downfall relative to the Grover succession

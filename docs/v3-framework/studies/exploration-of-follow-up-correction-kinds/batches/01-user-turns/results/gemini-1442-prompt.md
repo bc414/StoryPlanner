@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the parloirs as rooms built for emotional acoustics and empathy, sited generically in the city and open to EEEE! rehab use. The user's plans say Coltbert founded them in Manehattan as adult spaces within the Stagnation of Harmony, with night culture and Aquileian export demand behind them. | "In my story plans, I established that Coltbert established the parloirs in Manehattan" | Flat restatement of the established lore. It is put as the record and offered as the basis for what follows, with no explicit "you were wrong" and no irritation.
+- about: The user sets aside the model's invented purpose for the parloirs by restating their canon origin and function, then uses that to ask for French names for the first Manehattan parloir with the initials FJA.

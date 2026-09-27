@@ -1,0 +1,12 @@
+- asks:
+  - explain | asks how the story's themes of poseurs and ambition relate to real lion zoology in the wild | "How do my themes of poseurs and ambition pertsin to actual lion zoology in the wild?"
+  - check | asks whether male lions count as poseurs for letting females hunt while the male is nominally head of the pride | "Are male lions poseurs for making the females hunt for them while being the head of the pact?"
+  - brainstorm | muses whether this real-world lion behavior should inspire the story's griffon psychology and a "predator's dilemma" concept | "I wonder if this should inspire griffon psychology and the predator's dilemma"
+  - explain | requests an explanation of the actual lion pride social setup and how it connects to the above | "Please explain real lion setup and how it relates"
+- supplies:
+  - referenced theme | the writer's own story themes of "poseurs" and "ambition," named but not elaborated | a phrase
+  - referenced concept | the writer's own ideas of "griffon psychology" and "predator's dilemma," named but not detailed | a phrase
+- shaping:
+  - ground the explanation in actual biology rather than assumption | "actual lion zoology," "real lion setup"
+- openness: Mixed: it asks the model to check/confirm a specific stated claim (that male lions are "poseurs" for having females hunt while the male heads the pride), while leaving open, unnamed, how this should shape griffon psychology and the "predator's dilemma" idea.
+- subject: Relating real lion pride social dynamics to the story's themes of poseurs and ambition, toward developing griffon psychology

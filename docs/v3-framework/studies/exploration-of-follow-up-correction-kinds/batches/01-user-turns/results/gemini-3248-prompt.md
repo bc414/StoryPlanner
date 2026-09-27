@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the proposed research plan as it stands and tells the model to begin the research, without changing anything.

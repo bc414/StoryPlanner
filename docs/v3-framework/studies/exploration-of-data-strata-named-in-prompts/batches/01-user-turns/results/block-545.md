@@ -1,0 +1,9 @@
+- sources:
+  - CommentsMarch.txt, the second half of my binge read from February/March 2025 | analyze as the remaining Scootableu comments, to show how they shaped the TLTT plans or reveal the subconscious framework | Here are some more comments sections. Please analyze my (Scootableu) other comments | first-named
+  - CommentsAugust.txt, my comment responding to an update 5-6 months later plus others' comments | analyze both the author's comment and the other readers' comments; treat as a better window into what other readers think because the update was long awaited | it could have some insight into what other readers are thinking | first-named
+  - others' comments (other commenters) | analyze and compare with the author's own way of engaging with the story | compare the way I engaged with the story with other commenters | first-named
+  - my google doc | context: it already held some plans by the time of the August comment, so use it to judge how the comments relate to the plans | My google doc would have already had some plans at this point | referred-to
+  - my original comment run | treat as skewed toward people waiting, so less useful for gauging other readers' thinking | rather than my original comment run which was skewed towards people waiting | referred-to
+- order:
+  - CommentsAugust.txt (update-response comments) over my original comment run | as the better guide to what other readers are thinking, since the original run was skewed towards people waiting
+- about: The user supplies two more comment-section files and asks the model to analyze their own Scootableu comments and other readers' comments, showing how the raw comments shaped or reveal the framework behind their TLTT plans and comparing their engagement with the others'.

@@ -1,0 +1,8 @@
+- sources:
+  - HOI4 conscription rules, max conscription of 25% of population | use as the yardstick for how much of the changeling population Chrysalis could have conscripted | In HOI4, the max conscription level you can set is 25% | referred-to
+  - The author's estimate that Chrysalis hit the conscription cap and that around 15-20% of changelings are dead or in Camp Fluttershy | provisional working assumption to build on, not settled | I imagine Chrysalis already hit that limit | first-named
+  - The author's stated war outcomes for the Hegemony (statthalters dead, jaegers killed by the FJA doctrine, bauleiters broken and resigned, Olenia still running as an extraction engine) | treat as given facts about the story world to reason from | 95% of the statthalters died in Canterlot and Vanhoover | first-named
+  - Chapter 23 Infiltration and Chapter 22 Stagnation of the story plan | treat as established canon: the white peace, then Thorax's infiltrators bringing back the hostages via the dreamscape aid network | As established in Chapter 23 Infiltration | referred-to
+  - Real-life WW1 and WW2 casualty figures for France, Germany and Russia/Soviet Union | draw on general historical knowledge to compare against the conscription numbers as percentages of population | real life casualties from WW1 and WW2 as percentages of the population | referred-to
+- order:
+- about: The author supplies their own estimates of the Changeling Hegemony's wartime losses and asks the model to work out the state of the Changeling Lands and Olenia in the year after the white peace, and to compare the conscription figures with real WW1 and WW2 casualty rates.

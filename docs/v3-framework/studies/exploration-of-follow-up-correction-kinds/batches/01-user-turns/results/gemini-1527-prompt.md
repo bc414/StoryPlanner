@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's 987 pardon scenario by proposing two new details, that Discret spitefully blocked anyone from buying or refurbishing the rotting factory and that Vérany's generic clothes are now out of style next to FJA clothing, without disputing anything the model said.

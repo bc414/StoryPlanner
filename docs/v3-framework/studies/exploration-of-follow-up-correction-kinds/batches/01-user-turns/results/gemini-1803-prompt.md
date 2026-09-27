@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's premise that noble griffonesses live in the Palace and are bored there, so that contact with Coltbert is inevitable, is put in doubt. The user sets out who they imagined the women to be, sword nobles' daughters in alliance marriages, and asks whether they would be at court or in the countryside. | I imagined the noble griffonesses are the daughters of nobles of the sword... Would they be in the countryside or the king's Palace? | Indirect and mild. It is put as the user's own picture followed by open questions, with no statement that the model was wrong.
+- about: The user gives their own picture of the griffonesses as arranged-marriage daughters of sword nobles and asks how residence at court versus the countryside, and the nobles' relationship to Versailles, would work, which quietly tests the model's palace-residence premise.

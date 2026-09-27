@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain the conceptual difference between a JSON schema and a JSON document that holds actual data, without pointing at any body of material to draw on.

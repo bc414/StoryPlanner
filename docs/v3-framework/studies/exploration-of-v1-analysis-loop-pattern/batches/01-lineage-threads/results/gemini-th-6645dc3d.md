@@ -1,0 +1,6 @@
+- steps:
+  - the author | asks for background | a name to research (Krista), no further framing | opens the exchange
+  - the model | reference breakdown | meaning, etymology, spelling variants, popularity by era and region, pronunciation, related names | single reply covering the name from multiple angles
+- kept:
+- brought: The author brought a single name, unframed by any stated story context, to have its meaning and history looked up.
+- loop: The author brought a bare name-check question and received a reference-style rundown of its meaning, history, and variants, but nothing from this exchange was traced into the planning database.

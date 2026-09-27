@@ -1,0 +1,9 @@
+- sources:
+  - the model's framing that the changeling detection spell is the reader's prior belief, with the real mechanics being lie detection | adopted by the author as the working framing; keep it and build on it | I like the framing that "changeling detection spell" is the reader's prior belief | referred-to
+  - TLTT, the earlier establishment that the spell was made in Acornage | treated as what the author established earlier, but since revised, so outdated | I also established in TLTT that it was made in Acornage | referred-to
+  - TLTT, the later change making it a historical changeling spell from the hive war era, known to changelings | treated as the current version, though the author is recalling it from memory and is not fully sure | I think further changed that to it being a historical changeling spell | referred-to
+  - P&K | the contrast case: it treats Twilight as a fallen savior symbol and the spell as her invention, and TLTT departs from this rather than inheriting it | unlike in P&K which treats her as a fallen savior symbol | referred-to
+- order:
+  - TLTT, the later hive war era historical spell | the author says it was further changed from the Acornage origin, with a hedge ("I think")
+  - TLTT | the spell was not invented by Twilight in TLTT, "unlike in P&K"
+- about: The author accepts the model's framing of the detection spell as the reader's prior belief with lie detection as the real mechanic, and corrects the model on the spell's origin in TLTT, saying it is an old hive war era changeling spell and not Twilight's invention as in P&K.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about why cuddling releases oxytocin and how it differs from after-sex effects, then floats their own idea of the chasseurs cuddling after battle and having sex after a dull trek, and asks whether that fits.

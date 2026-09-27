@@ -1,0 +1,5 @@
+- sources:
+  - the 4 I identified | baseline set of restaurant types already established; the model should find distinct kinds beyond these | "distinct kinds of restaurants from the 4 I identified" | referred-to
+  - these two axes | the existing frame (price/service and process depth) to be extended with orthogonal axes and used to place further restaurant kinds | "other orthogonal axes to consider" and "somewhere along these two axes" | referred-to
+- order:
+- about: The user asks the model to extend the two-axis restaurant model by proposing additional orthogonal axes and restaurant types that differ from the four categories already identified.

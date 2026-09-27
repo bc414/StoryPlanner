@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the fertilizer-to-munitions thread and sets a new topic, stating Applejack's hatred of Comet Shine and its lasting until the Sabotage town hall, then asking for an analysis of the narrative reasons it takes that long.

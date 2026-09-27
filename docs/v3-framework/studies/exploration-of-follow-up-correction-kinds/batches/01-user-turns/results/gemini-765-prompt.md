@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks Option A from the model's cutie mark options and asks for a few example images to be generated of it, moving the work forward without disputing anything.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis without objection and asks for further game theory insights that do not overlap with what has already been given.

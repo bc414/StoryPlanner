@@ -1,0 +1,4 @@
+- sources:
+  - Flowing Current's trip to New Mareland, which the turn calls documented | treat as already established in the plan and fixed; the new Skyfall trip is placed relative to it | Flowing Current's trip to New Mareland is documented | referred-to
+- order:
+- about: The user answers the model's open questions by deciding Dr. Caballeron's backstory (factory worker who unbridled machines, a Tzinacatl boss who leaves for Skyfall, a Daring Do impersonator as hired warrior) and asks the model to work out what would make him stay committed to the jungle coast while still in the global market, and how Flowing Current's Skyfall trip fits.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model asserted Celestia's view of Aquileia (her horror at house ponies, Griffon culture as a disease, its role in the Lockdown) as new timeline material without checking or stating what the user's existing plans already say about her views | In my existing story plans, what are Celestia's views of Aquileia | Implicit, put as a question that sends the model back to the existing plans and asks whether its version should replace them, with no explicit disagreement
+- about: The user turns the model back to their existing plans, asking what they say about Celestia's views of Aquileia and its thematic purpose, and whether those views should be kept or changed given the new timeline.

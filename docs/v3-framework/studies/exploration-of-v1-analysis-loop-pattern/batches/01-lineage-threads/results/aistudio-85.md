@@ -1,0 +1,15 @@
+- steps:
+  - author | brings attachment | an unspecified planning document, never captured by the record | opening turn before any question is asked
+  - author | poses design question | how the literal-translation devices should work given WW2-era non-magical limits versus the existing intent-based Universal Translator | second turn
+  - model | proposes a technical framework | real-world analogues (vocoder, early rule-based translation), an in-universe device design, an origin story tying it to an immigrant-labor precedent, an ideological contrast with the rival translator, and follow-up questions | third turn
+  - author | adds a constraint and a business angle | griffon artisans are needed to miniaturize the device, which becomes a monopoly and profit source rather than a weakness | fourth turn
+  - model | extends the framework | a magic-assisted manufacturing mechanism, a supply-lock economic scheme, an ego-driven psychology for both sides, and follow-up questions | fifth turn
+  - author | reframes the underlying premise | recasts the enemy tech's inefficiency as a biological-input problem rather than a hardware flaw, supports it with a real-world farming analogy, and reinterprets a character's demotion in light of it | sixth turn
+  - model | integrates the reframe | splits hardware from biology, elaborates the character's backstory as a paradigm-shift casualty, extends the causal chain to a later invention, and follow-up questions | seventh turn
+  - author | requests a synthesis | asks for a full component-by-component review of the harvester and its counterpart device, separating what's copied from what must be newly invented mid-war | eighth turn
+  - model | delivers a structured breakdown | a pre-war baseline inventory, a list of wartime innovations, a hard bottleneck the invention can't solve, and follow-up questions | ninth turn
+  - author | proposes a detailed mechanism and embeds a question | specifies how a filtering technology is stolen and industrialized, why a wartime shortcut is needed instead of a homegrown fix, and asks how one character's device concept could improve the mechanism | tenth turn
+  - model | answers within the proposed mechanism | works out the theft-and-manufacture timeline, explains the requested character's technical contribution, restates the logistical justification for the shortcut, and follow-up questions | eleventh turn
+- kept:
+- brought: The author brought an existing store of setting terms and characters (Skyfall, Aquileia, the Crystal Empire, a named demoted engineer) into the conversation to ground each new technical proposal.
+- loop: Across the stretch the author repeatedly brings a technical premise, a corrective reframing, or a request for synthesis, and the model returns an expanded worldbuilding structure plus follow-up questions each time, but no note in the planning database is traced back to any of these exchanges, so nothing from this back-and-forth is shown to have been carried into the plan.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to work out Grover III's psychology and reasoning for ending the Riverlands crusades and sending knights against Aquileian and Wingbardian monsters, and whether he had any endgame for keeping peace in Aquileia, without pointing at any body of material to draw on.

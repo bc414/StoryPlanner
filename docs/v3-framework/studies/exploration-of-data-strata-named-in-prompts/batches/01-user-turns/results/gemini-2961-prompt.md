@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether the AI Studio playground carries conversation context across a chat the way the regular Gemini web chat does, without pointing the model at any body of material to use or avoid.

@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Applejack's taking the uniform and title is an act of honest self-presentation: she now openly presents herself as the general, owning her authority and responsibility, which carries the theme's honesty pole | "honestly presenting herself as the general, being honest about her authority and responsibility" | no | expository prose, a single plain declarative sentence with no planning shorthand
+- whole: A one-sentence statement that Applejack's acceptance of the general's uniform is an honest presentation of her true authority and responsibility, tying the scene directly to the theme.

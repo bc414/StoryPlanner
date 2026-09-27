@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | asks how the chapter 6 scene interaction between Fluttershy and Kessel should end | "So how should the interaction in chapter 6 end?"
+- supplies:
+  - scene plan | Chapter 6 "Kindness" scene: Fluttershy discovers biting POW changelings, uses the Stare on aggressor Friedrich, victim is Hans Kessel, Fluttershy donates love to Friedrich, Kessel refuses sympathy and declares "I am a Bauleiter!", translator Henri undersells it as "construction worker" | several paragraphs
+  - character arc note | later plan for Kessel being humbled by chapter 10 and willing to discuss love-harvester tech, credited to Fluttershy's influence plus rehab and rest | a couple of sentences
+- shaping:
+- openness: leaves the answer open, posing a direct open question about how the scene should end without naming candidate endings or a preferred direction
+- subject: how to close a chapter 6 scene between Fluttershy and the proud, injured changeling POW Hans Kessel

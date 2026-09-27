@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model refused to answer about Celestia's taxes and early American taxes, treating an earlier context-only instruction as barring outside knowledge and offering to have the user paste excerpts or lift a restriction; the user re-poses the whole question as an ordinary one to be answered. | re-asking the same questions in full, including early American taxes, with no reference to the restriction or either offered option | implicit and unstated: no disagreement is voiced and no reason is given, the correction shows only in the unchanged repeat of the question
+- about: The user restates their worldbuilding questions about Celestia's tax system, early American taxation and whether she needs taxes at all, passing over the model's refusal and its offered options.

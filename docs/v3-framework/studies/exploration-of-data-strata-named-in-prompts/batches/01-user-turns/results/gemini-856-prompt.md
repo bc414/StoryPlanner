@@ -1,0 +1,5 @@
+- sources:
+  - Harmonic Capitalism | the framework the model should use as the standard for refuting the left's positions; treated as the settled counter-position | refuted by Harmonic Capitalism | referred-to
+  - cutie marks and terroir as modern human capital | a framing the model must apply as the lens of the refutation; given as the premise of the analysis | with the framing that cutie marks and terroir are modern human capital | referred-to
+- order:
+- about: The user asks the model to first survey the positions of the contemporary Western left, then refute them using their Harmonic Capitalism framework, with cutie marks and terroir cast as modern human capital.

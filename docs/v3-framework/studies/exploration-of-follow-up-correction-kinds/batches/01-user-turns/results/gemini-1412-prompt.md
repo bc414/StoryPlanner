@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers an observation that the US two-party first-past-the-post system blurs the three-way struggle, then extends the analysis by asking how it maps onto proportional-representation democracies in Europe and East Asia.

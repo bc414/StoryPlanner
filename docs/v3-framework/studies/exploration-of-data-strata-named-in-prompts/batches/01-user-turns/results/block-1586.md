@@ -1,0 +1,13 @@
+- sources:
+  - Chapter 2 - The Return of Flutterguy.pdf, "chapter 2 of the story" | the material to be analyzed for plot point scoping and POV | "Please analyze chapter 2 of the story for plot point scoping analysis and POV analysis" | first-named
+  - chapter 1 word count of 5717 (the user's own figure) | treat as true; corrects the model's earlier roughly 300-word average per plot point, so plot point scope can be bigger than first projected | "the chapter 1 word count is 5717, not 300" | first-named
+  - the earlier 300-words-per-plot-point projection | treat as wrong and replaced by the user's figure | "not 300, so it seems like plot point scope can be bigger than initial projections" | referred-to
+  - chapter 1 (Green Isn't Your Color) | the story setting chapter 2 is reimagined as coming after | "reimagined it as taking place after Green Isn't Your Color from chapter 1" | referred-to
+  - canon season 4 episode Filli Vanilli | the canon episode chapter 2 is based on; use as the comparison base for the analysis | "based on the canon season 4 episode Filli Vanilli" | first-named
+  - what you know about that canon episode (the model's own knowledge) | draw on it and fold it into the analysis | "incorporate into your analysis what you know about that canon episode" | first-named
+  - research on audience perceptions of the canon episode | look it up and incorporate it into the analysis | "research audience perceptions of it" | first-named
+  - the La track and the themes of updating prior belief, as discussed earlier in this conversation | fold in as part of the reader experience, where expectation is subverted by new information | "The La track and themes arising from updating prior belief as discussed earlier in this conversation" | referred-to
+  - the compacted transcript of this conversation | where the earlier discussion of the La track and belief-updating can be found | "or the compacted transcript of this conversation" | referred-to
+- order:
+  - the user's chapter 1 word count of 5717 | over the model's earlier 300-word average per plot point | "5717, not 300"
+- about: The user corrects the model's word-count figure for chapter 1, attaches chapter 2, and asks for plot point scoping and POV analysis that also draws on the canon episode, audience reception of it, and the earlier discussion of subverted reader expectation.

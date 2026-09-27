@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's closing question by stating, as new story facts, that Cadance and Shining Armor secretly host the developers and supply refined crystals without Celestia knowing, and that the engines are co-developed by Star Energy Corporation and the Aquileians at the University of Pridea.

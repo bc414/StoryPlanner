@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model guessed at Rarity's role in the referendum and offered its own speculative scenario, instead of working from the user's existing plans for her role and development | Please review my story plans for Rarity's role and character development and give an updated analysis | implicit, as a plain instruction to go back to the plans, with no stated disagreement, reason or irritation
+- about: The user redirects the model from its speculative question about Rarity to a review of their actual plans for her, and asks for a revised analysis based on them.

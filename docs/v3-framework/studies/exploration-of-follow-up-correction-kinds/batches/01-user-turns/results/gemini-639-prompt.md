@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model made Windigos an ambient, atmospheric state of chaotic magic that exists apart from creatures' own ambition and hatred, which the user does not want; they want them to arise from within creatures who hate each other, tied to global ambition or the ambition/friendship balance | So ambient chaotic magic ... is separate from personal ambition/magic? ... I'm not sure I like the idea of the windigos just existing | Opens with clarifying questions that expose the model's separation, then offers an alternative and states a mild personal dislike, hedged rather than blunt
+- about: The user pushes back on the model's ambient-Windigo physics, proposes Windigos that come from creatures' mutual hatred, and starts reworking Celestia's motive and Luna's dream spell around that.

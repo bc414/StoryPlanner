@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds further worldbuilding to the POW and Gulag thread: Stalliongrad takes the POWs because Manehattan can't house them safely, and Stalliongrad keeps fighting in the far north after Celestia's white peace. It builds on the model's proposal and doesn't dispute any part of it.

@@ -1,0 +1,29 @@
+- relations:
+  - 717|1393|the note on function explains the name whose meaning the other gives (old jaeger's feeling of appreciation, from Hunter Spirit)|Jaeger-geist means Hunter Spirit / called jaeger-geist because it is the feeling of appreciation an old jaeger got|implicit
+  - 717|1394|the planning note sets out how the page should show the name as a lie, which the function note states as a fact about the drug|The name is a marketing lie / is a marketing lie because the spirit is synthetic|implicit
+  - 1393|1394|the usage note repeats the translation and adds the marketing-lie judgment to it|Jaeger-geist means Hunter spirit|implicit
+  - 717|1395|effect that follows from the mechanism: with emotion sense disabled, shapeshifting cannot work|disables changeling emotion sense / Without a functioning emotion sense, shapeshifting is impossible|implicit
+  - 1395|1396|cause and consequence: no shapeshifting means no escaping the commissar, so desertion is impossible|they can't shapeshift to escape the commissar / prevents shapeshifting|implicit
+  - 743|1396|the usage note presupposes the conscript army that the invention note states as the drug's purpose, and gives a further way the drug traps soldiers|be conscripts to invade other hives / makes deserting the army impossible|implicit
+  - 743|717|purpose and mechanism: what the drug is for and how it works, both centred on overriding the emotion sense so the hate is not felt|override their emotion sense / so they can't feel the hate|implicit
+  - 743|717|two accounts of withdrawal that do not match: one says the soldier is left feeling victims' hate and fear and cannot survive, the other says it is a crushing anhedonic realization that the hive's love was a chemical lie|lose their emotion sense override and can't survive / crushing, anhedonic realization|implicit
+  - 743|1747|both give Chrysalis's reason for the drug: soldiers made able to fight by dulling what they would feel; one stresses dependence and loyalty, the other sociopathy or euphoria|Chrysalis invented it / numb the horror of war|implicit
+  - 1747|717|the two notes give different origins for the drug: a corrupted biological coolant versus oxytocin distilled from pink love|corrupt that biological coolant / concentrating and distilling and refining the active oxytocin from pink love|implicit
+  - 1747|717|both describe the effect as synthetic good feeling that blocks the horror or hate, blinding euphoria in one, flooded good feelings in the other|blinding, synthetic euphoria / synthetic "good feelings"|implicit
+  - 718|717|the nickname Fluttershy gives fits a drug that muffles the emotion sense, which the function note states|The Earmuffs / disables changeling emotion sense|implicit
+  - 1385|717|allegorical reading of the mechanism: synthetic pink-love feelings that satisfy for a moment but are not real friendship, as the chemical love of the hive is a lie|Pink love, even donated ... a real friendship is more than that / "love of the hive" was a chemical lie|implicit
+  - 1385|2194|the general parasocial allegory in one note is restated as a specific instance, influencers|parasocial relationships and social media scrolling / Parasocial relationships with influencers|implicit
+  - 1385|2195|the scrolling half of the allegory is given a specific mechanism, algorithmic endless content|social media scrolling / Algorithms giving inifinite content|implicit
+  - 2197|743|the real-world parallel (drugs to override soldiers' morality and create aggression) stands for the in-world drug that overrides conscripts' emotion sense|override soldier morality and create aggression / override their emotion sense and be conscripts|implicit
+- outward:
+  - 743|Chrysalis, the changeling queen, and the other hives her drones are sent to invade, held elsewhere in the world|Chrysalis invented it / invade other hives
+  - 743|the supply chain and the army the conscripts serve|loyalty to the supply chain
+  - 1747|Meadowbrook and its healing magic, and the biological coolant, lore held elsewhere|Meadowbrook's healing magic / that biological coolant
+  - 717|pink love, the hive's emotion sense, and the old jaegers of the hive's history|pink love / an old jaeger got when they protected the hive
+  - 1385|pink love and ponies in their world, and real friendship as the story sets it|Pink love, even donated / a pony feel momentarily content
+  - 718|Fluttershy, a character not in this item|Fluttershy calls jaeger geist
+  - 1396|the commissar who hunts deserters|escape the commissar
+  - 2197|the real-world US Department of War and testosterone enhancers|US Department of War
+  - 2196|real-world AI companion products|AI companions
+  - 2194|real-world influencers and their audiences|influencers
+- whole: Mostly hangs together as a set: the function, civilization and usage notes chain into each other on the drug's effect, name and trap, though the ingredient's origin and the withdrawal are told two different ways, and the allegory notes mostly stand as a list of parallels, with only the first tied to the drug's mechanism.

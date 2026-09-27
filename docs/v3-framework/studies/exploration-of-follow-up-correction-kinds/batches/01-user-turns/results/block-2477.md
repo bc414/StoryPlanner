@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact about the user's own data (export contents) | The model's recovery suggestion assumed a MyActivity.json file exists in the user's Takeout YouTube folder that could be re-exported; the user says no such file exists | "There is no MyActivity" | flat, terse statement of absence with no reason, apology or softening, leaving the model to draw the consequence
+- about: The user briefly rejects the model's suggested recovery route by stating that the MyActivity file it pointed to is not in their export.

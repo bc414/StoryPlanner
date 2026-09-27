@@ -1,0 +1,8 @@
+- steps:
+  - the author | request | ask to merge previously offered chapter-title suggestions for chapters 11-17 into one comparison table | opening prompt of the exchange
+  - the model | organizing | a table listing each chapter's plot summary against three named title styles (tactical, moral, physical) | first part of the response
+  - the model | synthesizing | three curated sequences of titles, one per style, presented as full seven-chapter paths | middle part of the response
+  - the model | recommending | a fourth, mixed sequence combining picks from two of the styles with a stated rationale | closing part of the response
+- kept:
+- brought: The author brought a scattered set of prior chapter-title suggestions for the book's second half, asking to have them unified for side-by-side comparison.
+- loop: The author brought together loose, previously scattered title options for review; the model consolidated and ranked them into styles, sequences, and a recommendation, but no note from this exchange was traced into the planning database, so none of that organizing work is shown as having been kept.

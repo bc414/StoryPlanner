@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for suggestions and analysis on Blueblood's arc from poseur fop through humiliation, recruiting Mudbeak and learning generalship to the Dotted Line Report, and floats a proposed sequence of beats (failed bought education, rejection in Manehattan parloirs, finding Mudbeak) while asking whether money should limit him, without pointing at any body of material to draw on.

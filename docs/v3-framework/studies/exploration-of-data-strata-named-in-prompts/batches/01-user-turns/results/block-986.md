@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user steps aside from the fabula discussion to ask, out of confusion, about George RR Martin's generation and background, whether he saw reality or fell through the cracks, and whether ASOIAF is more popular with young people or boomers.

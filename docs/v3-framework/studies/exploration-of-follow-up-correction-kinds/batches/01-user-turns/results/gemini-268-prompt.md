@@ -1,0 +1,7 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | Kemerskai's media warning was written as a stern, serious backstage caution before the press conference, when the plan has it as a joking aside placed between the speeches and the tactics interview | "tongue and cheek warning" "in between the speeches and the interview" | restated flatly as a directive with "should", with no mention of the earlier version
+  - fact of the world | Kemerskai's reaction to hearing the tactics was rendered as sober, weighty reflection, when he should be horrified along with the reporters | "the reporters and Kemerskai are horrified" | put in passing, as part of re-describing the beat, without saying the earlier version was wrong
+  - fact of the world | The scene had Kemerskai and AJ bonding, with a whispered "I told you" and AJ recognising his humanity, which runs ahead of a relationship the user says has not developed yet | "They are not friends yet" | short flat reminder, stated as a plain fact
+  - fact of the world | AJ's reason for leaving was given as Synovial himself being the last monster and the Griffons' outlook on war being noble, when the trigger is that Synovial's attaché is gone | "now that Synovial's attaché is gone" | brief, in passing, folded into the retelling of the sequence
+- about: The user restates how the press-conference beat should play, adjusting tone, Kemerskai's reaction, the state of his relationship with AJ and her reason for leaving, and floats moving the tactics interviews ahead of the speeches.

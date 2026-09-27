@@ -1,0 +1,30 @@
+- relations:
+  - 283|285|the reader-facing plan delivers on the page the baseline fact that she was never tribal, by reminding the reader of the same episode|Over a Barrel; baseline character was never tribal|explicit
+  - 284|285|the reminder overturns the expectation the reader begins with (tribal)|Readers begin expecting ... tribal / never tribal|implicit
+  - 284|283|the stated truth that she was never tribal contradicts the prior the reader is expected to hold|cynical, fascist-adjacent and tribal / never tribal|implicit
+  - 284|1983|the reader's expectation of a fascist-adjacent, tribal Rainbow matches the note saying she starts as a hardline supremacist, which is what the reader's trope prior is about|fascist-adjacent and tribal / hardline-supremacist|implicit
+  - 1983|283|tension between a starting state of supremacism and a baseline that was never tribal; the baseline is the ground she is reined back to|hardline-supremacist / never tribal|implicit
+  - 285|286|respect for Trimmel is to feel earned from the past pattern that the reminders establish (Over a Barrel, griffon friends)|earned from the past pattern|implicit
+  - 285|282|Reni appears as the idolized ace at Mount Aris in one note and as a griffon pilot Rainbow befriends in the other, so the friendship counts against tribalism while the idolizing feeds the heroism complex|Reni|implicit
+  - 282|288|the later note expands on the Friendship is Magic Part 2 test of ego against loyalty that the earlier note uses as the grounding of her baseline|Friendship is Magic Part 2; loyalty won out|explicit
+  - 282|524|the baseline instinct of loyalty as devotion to friends is defined in the loyalty ladder, and the heroism complex is its war version|baseline character instinct is Loyalty / Loyalty originally just means devotion to friends|implicit
+  - 282|1839|the heroism complex from Mount Aris is instanced by her belief that she will be Daring Do beating thugs, which the horde breaks|Reni the ace flyer at Mount Aris / Daring Do ... Mount Aris|implicit
+  - 524|1839|the war-time Heroism (hero from the sky saving helpless ponies) is what the belief of playing hero at Mount Aris and its collapse before the horde feed into|Heroism / Daring Do taking down a bunch of thugs|implicit
+  - 282|289|Wonderbolts Academy is named in both: one says her loyalty clashes with the toxic culture shown there, the other explains that she objected to that culture out of conscience|Wonderbolts Academy|explicit
+  - 282|694|one note gives the toxic Wonderbolts culture and her ego; the other gives the origin of her showboating in that culture's makers|toxic culture / showboating personality, coming from the Wonderbolts|implicit
+  - 524|288|the loyalty ladder's Heroism as fealty to an abstract country is the same as loyalty to a vague Equestria that gets replaced by friends, i.e. chosen kin|abstract country / vague abstraction of "Equestria" replaced with her friends|implicit
+  - 524|525|the second note continues the Kinship rung, explaining what chosen kin requires and why war is rooted in conscience|chosen kin|implicit
+  - 525|290|the jaeger cannot honor others' care because self worth is tied to output, which follows from never having had to rest when force could beat any problem|self worth tied entirely to their output / never had to rest|implicit
+  - 290|288|the ego shattering presupposes she never had to rest before: she cannot keep up the fight and doesn't want to rest|cannot keep up her fight but doesn't want to rest / never had to rest|implicit
+  - 525|288|the reason she resists rest, self worth tied to output, is the condition that kinship's conscience must overcome once loyalty moves from Equestria to her friends|self worth ... output / Loyalty ... replaced with her friends|implicit
+- outward:
+  - 524|Eros's vision for Grover, a top-down heroism held in another character's plan|It is similar to Eros's vision for Grover.
+  - 525|the jaeger, a conditioned type of soldier, defined elsewhere in the world|a jaeger would not be capable of|
+  - 694|Aquileian Royalist pegasi and Skyfall tycoons, groups from the setting's lore|2nd gen Aquileian Royalist pegasi ... Skyfall tycoons
+  - 286|Trimmel, another character whom Rainbow comes to respect|Rainbow Dash learning to respect Trimmel
+  - 288|Twilight's arc in TLTT and the Hasbro Mandate, held in another character's plan|just like Twilight becoming a friendship preacher
+  - 1983|the P&K version of Rainbow Dash, another story|P&K Rainbow Dash has turned into a hardline-supremacist
+  - 1983|Applejack, whose reining in of Rainbow is held in another scene or character|Applejack manages to reign her in
+  - 282|Reni and the Mount Aris events, held elsewhere|idolizing Reni the ace flyer at Mount Aris
+  - 1839|the warlord horde with guns, a story event outside this item|endless warlord horde with guns
+- whole: Most of these notes hang together as one arc, from baseline loyalty through heroism and ego collapse to kinship, with the reader-opinion and canon notes recasting the same claims, though a few notes (694, 1839, 1983) join the set only at the edges.

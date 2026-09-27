@@ -1,0 +1,5 @@
+- sources:
+  - French language term for computer applications | weight: draw on it directly to answer the question of what the real-world word is | marks: "What are computer applications in French?" | first-named
+  - Fleur Bloom teaching Twilight "spell matrix" (in French) as the technical term | weight: treat as an established point of story continuity to be reconciled with the appliqué proposal | marks: stated as settled fact ("Fleur Bloom teaches Twilight ... as the technical term for what it is") | referred-to
+- order:
+- about: The user turn asks for the real French word for computer applications and proposes splitting the in-story French terminology so that \"appliqué\" names function while the already-established \"spell matrix\" Fleur Bloom teaches Twilight names essence.

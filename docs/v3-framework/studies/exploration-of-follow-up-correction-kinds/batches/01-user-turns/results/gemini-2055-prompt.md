@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the schema answer alone and pastes a long reasoning trace from a run of the sorting pipeline on the Aquileia notes, asking whether the 154-second delay means the model was stuck in recursion.

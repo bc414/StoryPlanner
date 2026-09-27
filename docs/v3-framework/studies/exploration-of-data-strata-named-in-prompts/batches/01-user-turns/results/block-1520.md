@@ -1,0 +1,4 @@
+- sources:
+  - my v1 notes | treated as uncertain evidence: they sometimes lack a T on a Plot Point Subject Link, and the author cannot tell whether that gap was incomplete, inferred, or intended, so it is used only to ask whether an empty T is allowed | My v1 notes sometimes didn't have it, but I'm not sure if it's because it's meant to have it | referred-to
+- order:
+- about: The user is working out framework design questions: what to call the combined in-head inference level, whether every Plot Point Subject Link must carry a T note (and whether an empty T means cut or rethink), and whether the intended allegory should be kept out of the L+T note to avoid leaking into the prose.

@@ -1,0 +1,6 @@
+- sources:
+  - the prose | treat as evidence to draw on for the analysis, together with the journey and the plan | Now that you have the prose | referred-to
+  - the writing journey that led to it | treat as evidence to draw on for the analysis | the writing journey that led to it | referred-to
+  - the plan | treat as evidence to draw on for the analysis | and the plan | referred-to
+- order:
+- about: The user asks the model to analyze, drawing on the prose, the writing journey and the plan it now has, why they would look forward to the machinations of Arc 4 but not Arc 3 before it.

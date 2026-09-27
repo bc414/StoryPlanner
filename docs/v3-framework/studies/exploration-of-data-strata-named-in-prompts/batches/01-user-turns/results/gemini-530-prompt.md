@@ -1,0 +1,4 @@
+- sources:
+  - chapters "Extraction" and "Tempest" | the plot points in these two chapters are the material to be reordered into alternating Twilight and Applejack strands bridged by letters; treat as the content to arrange, with suggestions and analysis requested | the various plot points in the chapters "Extraction" and "Tempest" | referred-to
+- order:
+- about: The user asks the model for a few options, with explanation and analysis, for ordering the plot points of two chapters into an alternating Twilight and Applejack narrative, bridged by upbeat letters that hide their doubts and stir jealousy, and separated by a long gap before reunion.

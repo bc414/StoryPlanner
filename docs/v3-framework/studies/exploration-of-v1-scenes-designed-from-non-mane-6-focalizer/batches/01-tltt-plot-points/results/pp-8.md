@@ -1,0 +1,13 @@
+- present:
+  - Henri Gourard | gives his life story as a speech in Aquileian, "Henri tries to outdo Kemerskai" | Synopsis and Character: Henri Gourard link
+  - Applejack | is shocked as Henri admits the chasseurs were royalists; also the one he is showing the ugly truth to | Codex entry (History): Moriset Discret's Aquileia/Coltbert Reforms and Character: Henri Gourard link
+- mentioned:
+  - Kemerskai | Synopsis
+  - Fleur | Synopsis
+  - Moriset Discret | Synopsis and Codex entry (History): Moriset Discret's Aquileia/Coltbert Reforms
+- focalizer: Henri Gourard
+- shows: Henri sees that the translator actually works and the audience is moved by AJ's Equestrian speech. That's why he decides to give his life story passionately in Aquileian.
+- sides:
+  - Henri Gourard | notices the translator works and the audience is moved, and decides on that basis to speak passionately in Aquileian | Synopsis
+  - Henri Gourard | had expected a Herzlander imperialist bias and now judges there is none; where you are from matters less than who you are | Theme: Anti-Racism / Anti-Tribalism / Politics of Division
+  - Applejack | is shocked that Henri admits the Aquileian way was sponsored by royals | Codex entry (History): Moriset Discret's Aquileia/Coltbert Reforms

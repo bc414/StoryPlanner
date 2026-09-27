@@ -1,0 +1,15 @@
+- passages:
+  - note 4496 | imperative directive | flat command, no hedge, no subject | avoiding repeating the previous battle | apart
+  - note 4496 | hedged suggestion | ends in question mark, proposes an option | making the battle a series of skirmishes | run-in
+  - note 4496 | hedged suggestion | question form proposing a structural option | collapsing the chapter with surrounding ones | apart
+  - note 4496 | declarative recollection | flat statement recalling a past intention, no hedge | the original plan to end on Sweet Apple Acres burning | run-in
+  - note 4496 | hedged suggestion | opens with 'Maybe...can', tentative modal | moving the 3rd Battle of Tall Tale into this chapter | apart
+  - note 5467 | first-person decision statement | 'I'm thinking', personal voice, states a choice | picking Essence over Velocity as the title | apart
+  - note 5467 | imperative directive | flat command, no hedge, no subject | focusing on the time pressure/no rest theme | apart
+- shifts:
+  - note 4496 | imperative directive | hedged suggestion | question mark turns a flat command into a proposed option
+  - note 4496 | hedged suggestion | declarative recollection | drops the question mark, states the original idea as settled fact instead of proposing
+  - note 4496 | declarative recollection | hedged suggestion | new line opens with 'Maybe...can', returning to tentative proposal
+  - note 5467 | first-person decision statement | imperative directive | shifts from 'I'm thinking' to a bare command 'Focus on'
+- registers: imperative directive; hedged suggestion; declarative recollection; first-person decision statement
+- whole: This item holds its notes in several registers - flat commands, hedged questions and 'maybe' proposals, a plain recollection of a past plan, and a first-person naming decision - which sit close together, sometimes sharing a paragraph or line with no break between them and sometimes set off on their own line.

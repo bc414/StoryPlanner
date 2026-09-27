@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the agricultural tech tree to a new strand of the plan, a griffon counterpart to cutie-mark asset specificity built by second-generation Royalists at Pridea, and asks for an analysis of how it leads into the Coltbert Reforms.

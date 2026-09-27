@@ -1,0 +1,6 @@
+- steps:
+  - the author | request | ask for a ranked list of the top 20 most unique things about the story plan | opening prompt, sole author turn
+  - the model | synthesis | a 20-item structural analysis summarizing and framing distinctive elements across the magic system, factions, and character arcs already present in the plan | sole model turn, closing the exchange
+- kept:
+- brought: The author brought a request for the model to synthesize and rank the most distinctive elements of an already-established story plan.
+- loop: The loop here is request-and-synthesis rather than drafting-and-storage: the author asks the model to take stock of and rank existing plan material, the model returns an organized restatement/analysis of that material, and no note is traced from this exchange back into the planning database, so the synthesis stayed external to the plan.

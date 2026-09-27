@@ -1,0 +1,4 @@
+- sources:
+  - attached Google doc | no instruction on how to treat it; named only as the way the material was supplied, which triggers a too-large-for-best-results warning that direct pasting does not | Attaching a Google doc results in a warning | referred-to
+- order:
+- about: The user explains that they compressed their material to fit the chat's character limit, and notes that attaching it as a Google doc triggers a size warning while pasting it directly does not.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether any earnest, non-cynical movements exist on the American right beyond Bernie Sanders on the left, and whether independent Senate candidates Dan Osborn and Evan McMullin embody that non-cynical spirit, without pointing the model at any particular body of material.

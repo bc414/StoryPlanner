@@ -1,0 +1,4 @@
+- sources:
+  - "red love" of my story | the author's own story element, already known to the model; the model is to test whether the historical spice trade could stand in for it, treated as an open question rather than settled | is spices from the spice islands the "red love" of my story | referred-to
+- order:
+- about: The user asks for more history on the rise of the Dutch, asks whether the Spice Islands spice trade could map onto the Red Love of their story, and asks whether the Dutch could have rivalled Britain at sea in that period.

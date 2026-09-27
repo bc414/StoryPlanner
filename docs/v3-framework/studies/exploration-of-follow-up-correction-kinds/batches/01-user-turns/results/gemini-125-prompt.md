@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the finalized chapter list to ask for abstract title nouns, not drawn from Hearts of Iron IV, that fit Trimmel's chapter and his backstory, which is a new request and not a challenge to what the model said.

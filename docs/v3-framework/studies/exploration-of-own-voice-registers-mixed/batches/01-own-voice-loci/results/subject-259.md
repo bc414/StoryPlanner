@@ -1,0 +1,20 @@
+- passages:
+  - note 4434 | directive planning note | dash-headed topic followed by bare imperative "leave it intact" | decision to keep the shadow market as-is | run-in
+  - note 4434 | expository worldbuilding | plain present-tense declaratives on wages, tolerance, and EEEE's role | how the shadow market works and EEEE's remedy for it | run-in
+  - note 4435 | expository worldbuilding | dash-headed topic then flat declarative claim | Celestia's inaction on anti-thestral racism | apart
+  - note 4435 | exclamatory aside | exclamation marks, self-referential pun on the organization's name | EEEE's mission to educate and spread empathy | apart
+  - note 4436 | expository worldbuilding | dash-headed topic then clarifying gloss | defining thestral mistrust as reluctance among thestrals themselves | apart
+  - note 4436 | analytical/interpretive | causal "because" clause and parenthetical reasoning about a character's habits and story logic | Celestia's incrementalism and why the changeling invasion upsets it | apart
+  - note 4436 | expository worldbuilding | plain declarative, present tense | EEEE's clubs as a two-way cultural exchange | apart
+  - note 4436 | brainstorming/exploratory | tentative "Maybe", a question mark, clipped fragment "Definitely... as well" | which further groups to fold into the exchange | apart
+  - note 4437 | narrative scene-writing | past-tense action description with quoted dialogue | an exchange between two rulers about the pace of thestral reforms | apart
+  - note 4437 | gnomic thematic closing | timeless present tense, metaphor of night's dreams yielding to the sun | one character's settled deference to the other's worldview | run-in
+- shifts:
+  - note 4434 | directive planning note | expository worldbuilding | bare imperative "leave it intact" gives way to declarative clauses on wages and industry
+  - note 4435 | expository worldbuilding | exclamatory aside | exclamation marks and the self-referential "it's in the name!" remark
+  - note 4436 | expository worldbuilding | analytical/interpretive | causal "because" and a parenthetical turning to a character's psychology and story logic
+  - note 4436 | analytical/interpretive | expository worldbuilding | closing of the parenthetical and return to a plain declarative about EEEE's clubs
+  - note 4436 | expository worldbuilding | brainstorming/exploratory | tentative "Maybe" and a question mark introducing further candidates for inclusion
+  - note 4437 | narrative scene-writing | gnomic thematic closing | shift from past-tense dialogue and action to a timeless statement built on a night/sun metaphor
+- registers: directive planning note; expository worldbuilding; exclamatory aside; analytical/interpretive; brainstorming/exploratory; narrative scene-writing; gnomic thematic closing
+- whole: This place's notes move through several distinct registers — terse directive planning, flat expository worldbuilding, an exclamatory self-referential aside, extended analytical reasoning, tentative brainstorming, and a full narrative scene that closes on a gnomic, metaphor-laden line — with most of these standing apart at clear sentence breaks while a couple slide into one another within a single sentence or with no break at all.

@@ -1,0 +1,6 @@
+- sources:
+  - the author's own memories of watching the dramas (City Hunter's ending, Descendants' songs, Ghost, Itaewon Class's kidnapping plot, Fight My Way) | treat as the author's first-hand account of how each drama landed, and as a correction to the model's guesses about their reactions | "I remember the ending fell off" | first-named
+  - the Lauren Faust vs Hasbro metanarrative of MLP FiM | use as the comparison model when looking at the creators and funders of the KDramas | "How does it compare to the Lauren Faust vs Hasbro metanarrative" | referred-to
+  - the context of stagnant, hollow girls' toy commercials that FiM emerged from | use as the comparison model for the commercial and production ecosystem of KDramas | "Stagnant girls toy commercials that were hollow" | referred-to
+- order:
+- about: The author corrects and refines the model's reading of their taste using their own recollection of each drama, then asks about the creation history, funding and commercial ecosystem of the KDramas, compared with the Faust/Hasbro story and the toy-commercial context behind FiM.

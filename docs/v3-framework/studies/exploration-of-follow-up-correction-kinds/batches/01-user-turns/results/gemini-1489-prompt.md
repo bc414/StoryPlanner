@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | What backs Chrysalis's MEFO bills: the model had them backed by future calories, redeemable after conquering the Crystal Empire or Canterlot. The user says they are loans backed by love to be drained from enemy Queens and from changeling nobility. | "In my story, they are loans backed by the love that will be drained from enemy Queens and changeling nobility" | Flat statement of the story's canon, given in passing after a question, with no explicit mention of the model's error
+- about: The user asks how the Skyfall and Kemerskai material actually inspires the MEFO bills, states the bills' true backing in their story, and then adds Aquileian material (the Second Republic's law-backed notes, Vérany's gold-standard hoarding) as further context.

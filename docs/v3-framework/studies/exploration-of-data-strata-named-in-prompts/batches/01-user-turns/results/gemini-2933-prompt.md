@@ -1,0 +1,6 @@
+- sources:
+  - What has been established earlier in the conversation (Luna already using the charitostatic effect for dreamwalking) | treat as settled and build on it | As established, Luna already used the charitostatic effect for dreamwalking | referred-to
+  - The author's own supposition that the effect is native to earth ponies first, with Meadowbrook as its origin | Meadowbrook as origin is stated firmly, while earth-pony nativity is offered as the author's tentative guess to be developed, not fixed canon | Mage Meadowbrook must be the origin of the field... I suppose this effect is actually native to earth ponies | first-named
+  - The conception spell as the apex of the effect, with Celestia's 40 years of invention 900 years ago | accept as the author's working premise and reason from it | If the conception spell is the apex of the Charitostatic Effect... Celestia is the one who spent 40 years | referred-to
+- order:
+- about: The author accepts the model's Charitostatic Effect analysis, adds lore about Celestia, the conception spell and Luna's dreamwalking, and asks for several possible explanations of how Meadowbrook's Tzinacatl friendship plants fit the effect, with Meadowbrook and earth ponies as its origin.

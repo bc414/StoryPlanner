@@ -1,0 +1,11 @@
+- passages:
+  - note 5101 | equation-as-sentence | copula "is", appositive "aka" clause, declarative naming | equates Equestria with post-1991 West | apart
+  - note 5101 | inferential reasoning | opens with "Therefore", states a consequence rather than a mapping | claims British allegories are split across factions | apart
+  - note 5102 | terse equation mapping | bare "=", no verb, label-to-label | equates Herzland with British industrialization | apart
+  - note 5103 | terse equation mapping | bare "=", comma list, parenthetical aside | equates Wingbardy with imperialism, monarchy, bourgeoisie | apart
+  - note 5104 | terse equation mapping | bare "=", single term to single term | equates Battle of Mount Aris with Battle of Britain | apart
+  - note 5105 | terse equation mapping | bare "=", slash-joined names, comma list | equates Skyfall/Chrysalis with opium wars and protection rackets | apart
+- shifts:
+  - note 5101 | equation-as-sentence | inferential reasoning | new sentence opens with "Therefore", moving from stating an equivalence to drawing a general consequence
+- registers: terse equation mapping; equation-as-sentence; inferential reasoning
+- whole: Most of this item's notes sit in one terse, verbless equation register mapping name to name, while the single prose note stands apart, itself moving in a plain sentence break from a stated equivalence to a \"therefore\"-marked inference.

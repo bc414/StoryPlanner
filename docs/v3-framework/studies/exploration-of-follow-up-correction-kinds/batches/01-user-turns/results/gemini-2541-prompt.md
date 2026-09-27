@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's analysis by proposing a Statthalter island slave revolt and an Aquileian pirate war that feeds the 1008 bank run, then asks about timing relative to Mount Aris and whether Chrysalis would tolerate the Aquileian intervention, without disputing anything the model said.

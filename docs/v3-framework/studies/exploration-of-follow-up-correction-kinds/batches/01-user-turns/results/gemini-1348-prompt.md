@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether the plotline resembles The Count of Monte Cristo and says they like the idea of Chrysalis using her enemies instead of only killing them, connecting it to her love-harvester approach of turning rival hive nobles into batteries.

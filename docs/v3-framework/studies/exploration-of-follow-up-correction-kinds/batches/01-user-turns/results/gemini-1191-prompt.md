@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Who holds the refining capacity. The model said Rockfeller's refineries were seized or nationalized into Star Energy's network, so Gilded Trust must pay Comet Shine to refine or use a janky cave refinery. The user says Comet Shine has his own crystal-magic refinery in Tall Tale and Gilded Trust seizes Rockfeller's Skyfall copy refinery in Las Pegasus. | I think Comet Shine has his own refinery in Tall Tale... Gilded Trust gets to seize Rockfeller's Skyfall copy refinery | Flat statement of the correct setup, softened by an opening 'I think' and given without any explanation or comment on the model's version
+- about: The user replaces the model's assumption about who controls the refineries after the oil-field split with their own setup, one refinery each for Comet Shine and Gilded Trust, and does not comment on the rest of the analysis.

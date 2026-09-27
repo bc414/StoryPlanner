@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm | suggest additional names for Changeling Generals to add to the existing 'Vector' | 'Please suggest other names'
+  - check/constrain | use naming conventions/styles drawn from two named sources when generating the names | 'using naming conventions/styles from the changeling lands flavor text for EaW and the canon FiM wiki page'
+- supplies:
+  - fact/given | states that 'Vector' is already an established Changeling General name, presumably so new names avoid duplicating or clash with it | one line
+  - attached document (uncaptured) | an attachment appears to have been included with the message but its content was not captured in the record | placeholder only, no content visible
+- shaping:
+  - stylistic constraint | new names must follow the naming conventions/style of Changeling lands flavor text from EaW (Equestria at War) | 'using naming conventions/styles from the changeling lands flavor text for EaW'
+  - stylistic constraint | new names must also align with the canon FiM (Friendship is Magic) wiki page's conventions | 'and the canon FiM wiki page'
+- openness: "Leans toward an answer it names: the message asks for name suggestions constrained by two specified naming-convention sources (EaW changeling flavor text and the FiM wiki), rather than leaving the style fully open."
+- subject: Requesting more Changeling General names matching established naming conventions

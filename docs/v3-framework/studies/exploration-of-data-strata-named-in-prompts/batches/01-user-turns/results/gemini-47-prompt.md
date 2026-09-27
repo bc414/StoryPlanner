@@ -1,0 +1,4 @@
+- sources:
+  - a story, fed one chapter at a time | the material Gemini is to read and summarize, chapter by chapter, in detail | feed Gemini a story one chapter at a time | first-named
+- order:
+- about: The user states their underlying goal, sending Gemini a story chapter by chapter to get detailed chapter-level summaries, to give context for the rate-limit advice.

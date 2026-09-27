@@ -1,0 +1,6 @@
+- asks:
+  - brainstorm | asks for other methods, besides radar, used to detect or defeat submarines | "Anything else besides radar"
+- supplies:
+- shaping:
+- openness: Open — the message names radar as one known method and asks broadly what else exists, without specifying any particular alternative or narrowing the field.
+- subject: Methods for detecting or defeating submarines, beyond radar

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's supply picture treats metal bullets and ammo crates as a continuing wartime production need, which conflicts with the Luna Nova Rifle drawing its ammunition from love donations | It seems like the Luna Nova Rifle makes metal bullet manufacturing obsolete since they can get the ammo from love donations | tentative observation, put as an inference with no explicit blame and no apology, and left for the model to reconcile
+- about: The user points out that the rifle's love-powered ammo undercuts the bullet-production framing in the model's plan, then moves on to a new factual question about WW2 production shares of ammunition versus equipment.

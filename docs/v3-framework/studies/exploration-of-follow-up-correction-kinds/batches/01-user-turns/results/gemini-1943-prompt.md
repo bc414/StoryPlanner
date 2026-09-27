@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | the model answered with a raster image when the user had asked for a scalable vector graphic (SVG) output | "I want a scalable vector graphic, not an image" | flat, stated plainly as a contrast between what was wanted and what was delivered, with no apology or reason given
+- about: The user rejects the image the model returned and restates that they want the output as a scalable vector graphic rather than a raster image.

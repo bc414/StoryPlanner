@@ -1,0 +1,29 @@
+- relations:
+  - 419|1976|two contrasts with earlier canon that share one shape: a top-down or dictatorial canon outcome is set against TLTT's bottom-up, peaceful alternative|bottom up democratized rule instead of top down imperialism / peaceful transition of power in Equestria|implicit
+  - 1976|617|the peaceful synthesis of everything good is what the family-and-harmony note says Equestria must reach, a healthy synthesis between Aquileia and GR|synthesizes everything good / So Equestria needs a healthy synthesis|implicit
+  - 617|2038|both name the Equestrian outcome as a synthesis; 2038 says what it replaces (a trauma engine) and rests it on met material needs, while 617 says it comes through harmony and trust|healthy synthesis via harmony and communal trust / The Equestrian synthesis replaces|implicit
+  - 617|2040|parallel critique of Aquileia: one says it trades family love for efficiency, the other says it grants dignity only to believers in ego-capitalism; both leave a gap the Equestrian model answers|Aquileia sacrifices family love for economic efficiency / only admitted and have dignity if they believe in ego-capitalism|implicit
+  - 234|1051|the puberty metaphor names the discovery of sex through Aquileian influence; the ontology rule of contraception spells is what lets sexual ambition be permitted|They discover sex (Aquileian influence) / Sexual ambition allowed via magical contraception spells|implicit
+  - 1051|479|sexual ambition is an instance of the general rule that ambition is allowed but regulated to keep harmony|Sexual ambition allowed / Ambition is needed... but regulated|implicit
+  - 479|1369|both say what holds the system together: harmony coexists with regulated ambition, and unity comes from cultural harmony rather than laws, enemies or efficiency|Harmony can coexist with regulated ambition / united by cultural harmony and conscience|implicit
+  - 1369|2038|1369 rules out national enemies as the binding force; 2038 says the synthesis has no need of a trauma engine for solidarity and uses cultural dignity instead|not forced by laws or national enemies / replaces the necessity of a trauma engine for solidarity|implicit
+  - 1369|617|1369 rejects economic efficiency as the bond; 617 presents Aquileia as sacrificing family love to that efficiency, which the Equestrian model avoids|not forced by ... economic efficiency / sacrifices family love for economic efficiency|implicit
+  - 2038|2040|both rest on unconditional dignity as a cultural base that supports solidarity and cooperation, one via met needs, the other via integration without erasure|cultural unconditional dignity / integrates the Tzinacatl and Buffalo without demanding behaviorial or ideological erasure|implicit
+  - 273|274|Applejack's stepping into leadership while Celestia lets others lead is the route to her final triumph of teaching ponies to govern themselves|Celestia kind of just let whoever was in charge do whatever / teaching her people how to be brave enough to govern themselves|implicit
+  - 273|419|Celestia's deference and the bottom-up rule established in the war play out the stated contrast with top-down rule that relies on a benevolent ruler|Celestia... let whoever was in charge do whatever / bottom up democratized rule instead of top down|implicit
+  - 273|479|the plan for Celestia to reimpose the stagnation of harmony after the war stands in tension with the ontology in which harmony coexists with regulated ambition|reimpose the stagnation of harmony / Harmony can coexist with regulated ambition|implicit
+  - 273|269|the no-conscription rule from Celestia and the volunteer supply are worked out in 269, where mobilization uses no mass draft and volunteers are backed by the home front|no conscription allowed / not a mass industrial draft|implicit
+  - 269|274|the bottom-up argument, in which ponies choose to work and support the volunteers, is delivered through Applejack teaching ponies to govern themselves|Bottom Up > Top Down / brave enough to govern themselves|implicit
+  - 269|1716|the home-front mobilization of workers is joined by the claim that workers who believe victory is near work harder, giving a motive for the labor described|work the home front for the army / Workers who believe that victory is in sight work harder|implicit
+- outward:
+  - 419|earlier canon work Pax Chrysalia, with Jachs and Chrysalis as benevolent rulers|Jachs and Chrysalis being nice like in Pax Chrysalia
+  - 1976|another canon story (P&K) in which Flurry Heart ruled Nova Griffonia|P&K Flurry Heart destroyed the broken democracy of Nova Griffonia
+  - 234|the war's events and the powers named: Aquileia, the Front, the Republic|Aquileian influence), violence (The Front), and independence (The Republic)
+  - 273|other scenes and places of the war: the white peace moment, the Bluebell River spearhead, Canterlot, the attack at Maredin|white peace moment / Bluebell River spearhead / attack at Maredin
+  - 273|the grimdark conscription trope in other fiction|repeat the grimdark conscription trope
+  - 269|the CMCs and the city Manehattan, described elsewhere|CMCs directing ponies to the right industries
+  - 617|the nation GR (its customs and army)|GR prioritizes honorable families and public chastity
+  - 2040|the Tzinacatl and Buffalo peoples, held elsewhere|integrates the Tzinacatl and Buffalo
+  - 2038|a trauma engine of solidarity as a concept from elsewhere in the plan|necessity of a trauma engine for solidarity
+  - 269|Great Mare Theory, a doctrine held elsewhere|The refutation of Great Mare Theory
+- whole: The notes hold together loosely as a set, with clusters that join on content (the Aquileia/GR synthesis, the harmony-and-ambition rules, the war's leadership and mobilization) and hardly any pointing at each other in words.

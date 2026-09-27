@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the five-subject taxonomy to a new question, asking the model to reconsider whether the Chasseur Doctrine is an organization, a technology, a civilizational system, or several, and refers to an earlier analysis that separated it from Coltbert's Aquileia rather than to anything in the model turn just given.

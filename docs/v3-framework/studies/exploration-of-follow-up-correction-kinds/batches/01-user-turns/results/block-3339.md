@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model built its C1 and B2 account largely from older-framing material (v1 archive notes and Gemini-era phrasings) and presented it as the current architecture, without treating it as superseded and needing rework. | "originally constructed in an outdated framing" and "outdated Gemini phrasings" | Indirect and matter-of-fact: stated as a premise for the next request, not as an objection, with no apology and no irritation.
+- about: The user asks the model to re-examine the C1 and B2 content it just presented, sorting what to keep from what to revise against present-day rigor, and takes it as given that the material behind them is outdated.

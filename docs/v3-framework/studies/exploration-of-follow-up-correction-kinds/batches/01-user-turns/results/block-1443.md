@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the influence-tracing and asks a new question about other works with a read-first, chronologically-last main story plus prequels, and where their onion-layer revelation and prequel dramatic irony might come from, without saying anything in the model's turn was wrong.

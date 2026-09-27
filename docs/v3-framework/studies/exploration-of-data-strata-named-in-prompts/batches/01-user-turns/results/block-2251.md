@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to characterize the kinds of people who post on the Claude Reddit and to say whether they are extractors or cooperative bootstrappers, continuing the story-to-AI-industry mapping, without pointing at any body of material to use.

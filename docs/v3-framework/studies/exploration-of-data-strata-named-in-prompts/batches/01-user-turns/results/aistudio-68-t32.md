@@ -1,0 +1,6 @@
+- sources:
+  - Original plan for Aquileia (ponies who had farms and outperformed nobles) | earlier baseline version of the pony minority backstory; the model is to test whether it survives the Equestria change, not assume it stands | Original plan for Aquileia featured some ponies who had farms and outperformed nobles | referred-to
+  - New refinement of Aquileia (historical oppression, house ponies, Gerad Discret's royalists, first-gen trauma engine and chastity, Coltbert Reforms, Lionesses) | the author's current backstory, treated as the setup to be re-examined for what depends on Equestria's isolation and what must change | New refinement led to the whole setup of historical oppression and house ponies | referred-to
+  - The change in Equestria (walled garden only from 914, the new materialist engine) | the new premise the model is to apply to Aquileia, asked as a conditional to work out what must change and why | If Equestria only became a walled garden in 914, what must change | referred-to
+- order:
+- about: The user asks how the revised, later-isolated Equestria timeline affects Aquileia's pony minority backstory, comparing the original farm-owning-ponies plan with the newer oppression setup and asking what can be kept and what must change.

@@ -1,0 +1,37 @@
+- passages:
+  - note 4154 | bare statistical statement | terse figures, no reasoning offered | total population and pony share | apart
+  - note 4285 | analytical exposition | causal claims plus Celestia's subjective reactions, wry 'of course' | why Celestia cannot accept the Republic's synthesis | apart
+  - note 4286 | analytical exposition | party percentages and causal 'That's why' | vote shares, coalition, and fringe parties | apart
+  - note 4679 | analytical exposition | 'perceived...but the reality is' contrast structure | PNdA's true economics vs its reputation | apart
+  - note 4681 | analytical exposition | plain declarative claims about groups and motives | PSA's pan-griffonian aims and FJA volunteers' purpose in Tall Tale | apart
+  - note 4705 | analytical exposition | in-world place names and crown/local-culture claims | geography and the crown's suppression of regional cultures | apart
+  - note 4705 | real-world historical analogy | names real-world regimes (Absolute Monarchy, Jacobins, Napoleon) | comparing Aquileia's centralism to real French history | apart
+  - note 4706 | analytical exposition | 'Ironically' framing, cause-and-effect clauses | Verany's underground survival and lingering dogma balanced by FJA | apart
+  - note 4708 | analytical exposition | plain historical-sequence statements | safety nets moving from custom to codified law | apart
+  - note 4747 | analytical exposition | short declarative negations comparing funding sources | how the bond system is financed versus other models | apart
+  - note 4952 | timeline heading | bare date and event label, no verb | dating the Second Revolution | apart
+  - note 4952 | analytical exposition | full explanatory sentence, third person | pace of the peasantry's transformation into owners | apart
+  - note 4952 | first-person collective rhetorical statement | short punchy sentences, 'We hold his debt' | the logic of the bank-run coup | apart
+  - note 4952 | analytical exposition | plain descriptive sentence | naming the event a bank run and bloodless coup | apart
+  - note 4952 | meta/design commentary | explicit phrase 'In game mechanics' | translating the event into game terms | apart
+  - note 4952 | analytical exposition | character-focused explanatory clause | Moriset Discret keeping his fair-judge post | apart
+  - note 4952 | analytical exposition | causal listing of names and factions | causes of the bank run and need for mobilization | apart
+  - note 5374 | analytical exposition | thesis-style contrast ('may have solved...but not solved') | framing the unresolved problem of Aquileian society | apart
+  - note 5374 | analytical exposition | short lead-in ending in a colon | introducing the old Herzlander generational model | run-in
+  - note 5374 | schematic outline notation | generational tags joined by '=' | Herzlander generations: traumatized survivors to rent-seekers | run-in
+  - note 5374 | analytical exposition | short lead-in ending in a colon | introducing the new Aquileian generational model | apart
+  - note 5374 | schematic outline notation | line-broken generational labels, terse phrases | Aquileian generations: grateful, ego-seeking, exhausted | apart
+  - note 5374 | analytical exposition | full declarative sentence resuming prose | naming the eventual Equestrian synthesis of dignity | apart
+- shifts:
+  - note 4705 | analytical exposition | real-world historical analogy | turns from in-world place names to naming real-world regimes as a comparison
+  - note 4952 | timeline heading | analytical exposition | moves from a bare date label to a full explanatory sentence
+  - note 4952 | analytical exposition | first-person collective rhetorical statement | drops into short first-person-plural declarative sentences
+  - note 4952 | first-person collective rhetorical statement | analytical exposition | returns to a third-person descriptive sentence
+  - note 4952 | analytical exposition | meta/design commentary | names 'game mechanics' explicitly, stepping outside the story frame
+  - note 4952 | meta/design commentary | analytical exposition | returns to a character-focused explanatory sentence
+  - note 5374 | analytical exposition | schematic outline notation | a colon introduces '=' signs and generational tags in place of full sentences
+  - note 5374 | schematic outline notation | analytical exposition | returns to a full sentence introducing the next model
+  - note 5374 | analytical exposition | schematic outline notation | a colon introduces line-broken generational tags
+  - note 5374 | schematic outline notation | analytical exposition | returns to a full declarative sentence
+- registers: bare statistical statement; analytical exposition; real-world historical analogy; timeline heading; first-person collective rhetorical statement; meta/design commentary; schematic outline notation
+- whole: Most notes here sit in one steady analytical-exposition register, but three notes (4705, 4952, 5374) step out of it into a distinct register — a real-world analogy, a bare heading and a rhetorical or meta aside, and a schematic generational list — with each shift marked by a clear break in sentence form rather than a blend within one sentence, except in 5374 where the list-register grows directly out of a colon inside the same sentence.

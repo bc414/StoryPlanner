@@ -1,0 +1,7 @@
+- asks:
+  - propose | pitches a specific mechanic for how the Star Spade crystal works (resonating with and focusing earth pony latent magic, requiring a 'pride factor', acting as amplifier not replacement) and invites reaction to it | "How about if the Star Spade's crystal resonates with earth pony latent magic and focuses it?"
+- supplies:
+  - idea | the Star Spade's magical mechanic (crystal-amplifier for earth pony latent magic, invented by Fleur Bloom with unicorns) and how its significance is staged across chapters (offhand remark in ch.1, 'standard issue' framing in ch.2, full reveal by Fleur during the post-Sabotage debriefing) | a few paragraphs
+- shaping:
+- openness: leans toward an answer it names: the message lays out a specific worldbuilding mechanic and its planned narrative reveal structure ('How about if...') rather than posing an open question or offering alternatives to choose between
+- subject: the Star Spade device's magic mechanic and how its deeper significance for earth pony magic is revealed across the story

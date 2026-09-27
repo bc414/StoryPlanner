@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user says they follow the previous analysis and asks whether their $20/month Claude Pro price is subsidized by venture capital or API users or is at cost, because they want to keep it for story planning and software learning.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds two new story developments to the worldbuilding, a drug trade with the Tzinacatl to buy three-way valves for the Luna Nova Rifles and shield matrices, and Twilight learning combat magic from Shining Armor, who learned it with Cadance at the parloirs, without pointing the model at any body of material.

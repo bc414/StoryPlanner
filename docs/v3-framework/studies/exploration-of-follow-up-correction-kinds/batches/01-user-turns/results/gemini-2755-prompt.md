@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the suggested switch to a Google Doc and asks a practical follow-up: how their C# program, which currently writes md files, could output to one, and how Google Docs are stored on Windows.

@@ -1,0 +1,5 @@
+- sources:
+  - my story plan (its argument that material conditions drive morality, and that conscience beats extraction by extraction's own metrics; also called "the story") | treat as the author's settled thematic position, which the model's analysis is being lined up against | "my story plan's argument about material conditions driving morality and behavior" | referred-to
+  - the model's preceding analysis in this conversation ("This") | treat as something that appears to match the story plan's argument, used as a point of comparison rather than as authority | "This seems to line up with" | referred-to
+- order:
+- about: The user connects the model's preceding discussion of AI, institutions and extraction to the thematic argument of their own story plan, restating that argument as material conditions and conscience over extraction rather than moral preaching.

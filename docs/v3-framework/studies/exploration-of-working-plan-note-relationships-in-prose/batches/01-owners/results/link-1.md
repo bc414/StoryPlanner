@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 99|Shining Armor, a character held elsewhere in the story, whom Mudbeak meets|Mudbeak meets Shining Armor
+  - 99|The wider railroad project and the cities it connects, Crystal City and Manehattan, held elsewhere in the world|a railroad straight from Crystal City to Manehattan
+- whole: This owner holds a single note, so there is nothing in it to hang together or to separate.

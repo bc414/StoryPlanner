@@ -1,0 +1,5 @@
+- sources:
+  - story plan | consult it for how Twilight's friendship with Fleur and her return to her earlier self should be handled | please refer to the story plan | referred-to
+  - seasons 1-3 (of the show) | treat as the reference point for the Twilight self she can return to, with empathy added | go back to being herself from seasons 1-3 | referred-to
+- order:
+- about: The user proposes a chapter 6 sequence in which Twilight, believing herself an infinite battery, refuses to sit in a captured love harvester and feels guilt at not wanting to help the changelings, then is relieved by the scientific explanation and by Fleur, and asks the model to analyze whether this works while pointing it to the story plan.

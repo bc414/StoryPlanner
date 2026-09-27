@@ -1,0 +1,8 @@
+- asks:
+  - explain | give a general overview of who/what the 'Grovers' are within the Griffonian Empire lore described at the linked page | "give an overview of Grovers in this lore"
+  - summarise/compute | state how long each individual Grover ruled | "how long each of them ruled"
+- supplies:
+  - link | a URL to the Equestria at War fan-wiki page for the 'Griffonian Empire', presumably containing the list of Grovers and their reigns | a single hyperlink
+- shaping:
+- openness: Leans toward an answer drawn from the named source: the message points to a specific wiki page and asks for an overview plus reign lengths, implying the model should extract and report what that page states rather than invent or debate anything.
+- subject: The Grovers (rulers) of the Griffonian Empire in the Equestria at War fan-fiction/game lore, and the duration of each one's reign

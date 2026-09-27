@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is laying out the playable factions of their game (fascist, communist, deregulated capitalist, cooperative) and how each gets its strength and external backing, adding their own design ideas to the model's mineral-growth framework without pointing the model at any body of material to use or avoid.

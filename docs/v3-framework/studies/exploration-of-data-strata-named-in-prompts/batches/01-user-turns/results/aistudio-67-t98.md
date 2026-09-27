@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a brief return letter from Celestia ("Please come home safe. -Celestia") is enough to imply agreement, whether anything should be added, and proposes leaving out "General" and "Princess" as a subtle signal, without pointing at any body of material to draw on.

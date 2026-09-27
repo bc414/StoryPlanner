@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an overview of Vertex AI and the Google Cloud console and how to use it like a web chat for story planning, without pointing at any body of material for the model to draw on or avoid.

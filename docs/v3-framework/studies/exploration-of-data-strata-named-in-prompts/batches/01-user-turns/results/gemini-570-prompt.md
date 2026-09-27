@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user replaces the model's chirality-and-consent framing with their own rules for how red, gray, plain pink and vibrant pink depend on the victim's ambition and on willingness, says pre-industrial changelings already know donation cures the addiction, and gives a revised Chapter 6 beat in which Fluttershy tells a changeling to donate to the one he was draining.

@@ -1,0 +1,7 @@
+- asks:
+  - check | asks the model to confirm whether the unspecified content in question originated earlier than today in a rougher form | "I am sure this is came from earlier than today, but perhaps in a less refined form"
+  - question | asks whether that earlier version specifically came from NotebookLM | "What about from notebook lm?"
+- supplies:
+- shaping:
+- openness: The message leans toward a stated belief (that "this" predates today in a less refined form) and then narrows to ask the model to check a single named candidate source, NotebookLM.
+- subject: the origin or provenance of some unspecified earlier material, possibly traced to NotebookLM

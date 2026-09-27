@@ -1,0 +1,18 @@
+- passages:
+  - note 4498 | plain expository | third-person present-tense statement of task assignment | who works on the tank turret | apart
+  - note 5157 | plain expository | third-person factual statement | migraines from recoil | apart
+  - note 5157 | plain expository | third-person narration of backstory and strategy | early loyalty and use of magic as intimidation | apart
+  - note 5157 | plain expository | third-person narration of a battle event | pain from unleashing artillery at 2nd battle of Tall Tale | run-in
+  - note 5157 | self-directed planning query | parenthetical, question mark, addressed to self about story structure | when to reveal the battle's cost | run-in
+  - note 5157 | plain expository | third-person description of a magical fix | horn calcified to remove recoil, likened to a tank barrel | apart
+  - note 5160 | plain expository | third-person, neutral bureaucratic vocabulary | her logistical role in the horde | run-in
+  - note 5160 | sardonic informal aside | vivid slang vocabulary ('screaming manosphere spirit'), evaluative tone | the Storm King's complementary role | run-in
+  - note 5160 | plain expository | third-person factual statement | logistics skills reused rebuilding Ain Trotgourait | apart
+  - note 5160 | aphoristic thematic judgment | opens with 'But', parallel contrastive phrasing, interpretive claim | critique of working with Twilight as still top-down | apart
+  - note 5310 | plain expository | third-person narration blending motive and analytical term | reasons for joining the Storm King and fear of being abused | apart
+- shifts:
+  - note 5157 | plain expository | self-directed planning query | parenthetical question mark breaking the narrated sentence to address a story-structure decision
+  - note 5160 | plain expository | sardonic informal aside | conjunction 'while' pivots into vivid slang vocabulary describing the other party
+  - note 5160 | plain expository | aphoristic thematic judgment | sentence opens with 'But' and shifts to a parallel, interpretive claim
+- registers: plain expository; self-directed planning query; sardonic informal aside; aphoristic thematic judgment
+- whole: Most of this item is written in a single plain expository register narrating facts and motives, but two notes break from it — one into a self-questioning parenthetical aside inside the same sentence, the other into a sardonic aside within a sentence and then, as a separate sentence, into an aphoristic interpretive judgment.

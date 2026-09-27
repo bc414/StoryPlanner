@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user shares their own shift from years of gaming and passive YouTube use to building and learning once reasoning LLMs arrived, and asks whether others are instead consuming more low-quality content and building a tolerance for it like a drug.

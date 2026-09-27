@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about the political history and economic conditions of France leading up to the novel's publication, without disputing anything in the model's prior answer.

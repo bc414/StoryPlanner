@@ -1,0 +1,16 @@
+- passages:
+  - note 64 | label | terse noun phrase, no verb, joined by a plus sign | the camp's dual function as POW camp and CIA base | apart
+  - note 4547 | expository description | single declarative sentence naming a real-world-style facility and its intended use | the camp's location inside the Exposition Center and its physical form | apart
+  - note 4745 | expository description | corrective 'not just X, it's also Y' construction, declarative | the camp's added function as CIA HQ and intel-gathering site | apart
+  - note 4799 | self-directed planning question | two questions plus a bare imperative reminder ('Need to understand'), no addressee named | unresolved questions about sentencing and release policy | apart
+  - note 4799 | expository description | declarative sentences laying out categories of surrender and trial outcomes | veteran changelings' surrender circumstances and their generally lenient trials | apart
+  - note 4801 | expository description | declarative explanation of a mechanic and its limit, conditional clause | how the Stare shames and fails against true predators-by-choice | apart
+  - note 4801 | expository description | declarative, causal 'because'/'so' connectors extending the mechanic | how the Stare works on animal predators and Fluttershy's fearless 'apex' role | apart
+  - note 4801 | expository description | declarative classification with an external comparison | which changelings can be rehabilitated, likened to misled thugs elsewhere | apart
+  - note 4801 | expository description | declarative classification naming who cannot be rehabilitated | statthalters, grifters and warlords who enjoy cruelty | run-in
+  - note 4801 | analytical generalization | 'By this framework' framing turns a specific classification into an abstract rule | war crimes as a biological choice | run-in
+- shifts:
+  - note 4799 | self-directed planning question | expository description | drops the questions/imperative for declarative sentences about veterans, at a paragraph break
+  - note 4801 | expository description | analytical generalization | 'By this framework' turns the preceding classification into an abstract thesis, with no break in the sentence flow
+- registers: label; expository description; self-directed planning question; analytical generalization
+- whole: This item's five notes are written in several registers — a bare label, a plain expository description that dominates, a self-directed planning-question voice, and one closing analytical generalization — with note 4799 breaking cleanly at a paragraph from questions into description while note 4801 slides without pause from description into its generalizing claim.

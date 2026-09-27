@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model assumed SAA (Applejack's parents' organization) uses artificial fertilizers or chemical inputs to grow food; in the story's world the parents grow nothing and instead buy surplus from other farms and can it for starving populations elsewhere | "don't use fertilizer. They don't grow anything." | flatly, as a plain statement of the true facts with no apology or irritation, stated tersely with no explicit "wrong" label
+- about: The user briefly corrects the model's assumption about what Applejack's parents' operation does, supplying the actual facts (no growing, no fertilizer, buying leftovers and canning them for relief) without further elaboration.

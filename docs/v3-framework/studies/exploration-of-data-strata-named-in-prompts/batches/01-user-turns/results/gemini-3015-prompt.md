@@ -1,0 +1,5 @@
+- sources:
+  - the whole 300k story bible, pasted in | current method: the model is given all of it in one paste and analyzes it, with no prose generation; one side of the comparison | Currently I'm pasting the whole 300k story bible and asking for analysis | referred-to
+  - story plan split up naturally into files, the district files, fetched by Gemini Code Assist's context fetching across files | proposed alternative: the bible would be split into separate files and the model would pull in context from them; the other side of the comparison, not yet in use | What if I split the story plan up naturally and used Gemini code assist's context fetching abilities across files | first-named
+- order:
+- about: The user asks the model to compare their current method of pasting the entire 300k story bible into chat with a proposed method of splitting it into district files that Gemini Code Assist fetches as context, noting that generating the files from their own tool would be easy.

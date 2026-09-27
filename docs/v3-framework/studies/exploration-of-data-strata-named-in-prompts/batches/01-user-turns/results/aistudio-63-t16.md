@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its analysis of the Mount Aris summit to a Blueblood and Rarity interaction, without pointing at any body of material.

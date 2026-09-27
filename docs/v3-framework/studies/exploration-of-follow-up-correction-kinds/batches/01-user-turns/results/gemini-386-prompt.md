@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user introduces the MPA as the last party, supplying its makeup, its leader Rodier and his expansionist aims, and asks fresh questions about whether it is a sham, what unites it, who joins it, and how the FJA and PNdA deal with it, without saying the previous reply was wrong.

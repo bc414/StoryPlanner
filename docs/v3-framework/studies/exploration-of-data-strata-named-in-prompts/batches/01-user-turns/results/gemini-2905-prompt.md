@@ -1,0 +1,5 @@
+- sources:
+  - Idol of Boreas in my lore | treat as an established precedent to model the old marks' glow on, glowing in the presence of an approved intent vector | Like how the Idol of Boreas in my lore glows in the presence of ambition | referred-to
+  - the ping and clean return mechanism proposed earlier in the conversation | reject it as unnecessary, since it could pick up unrelated interference, and replace it with the author's own intended design | I don't think the stamp needs a ping and clean return | referred-to
+- order:
+- about: The author rejects the model's ping-and-return verification design for the stamp, restates how they intended the stamp and old marks to glow based on the stamper's intent vector, and asks whether the old marks could glow on their own to intent, as the Idol of Boreas does in their lore.

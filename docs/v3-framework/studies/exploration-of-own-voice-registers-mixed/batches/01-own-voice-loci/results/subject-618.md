@@ -1,0 +1,5 @@
+- passages:
+  - note 61 | bare noun-phrase jotting | no verb, two-word fragment | a spy network as a story element | apart
+- shifts:
+- registers: bare noun-phrase jotting
+- whole: This place holds a single note in a single register, a bare two-word jotting with no shift within it.

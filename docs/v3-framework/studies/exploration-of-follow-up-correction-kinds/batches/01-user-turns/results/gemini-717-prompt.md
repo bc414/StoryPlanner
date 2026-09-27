@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | The proposed look-at/look-through framing and the phrasing built on it is pitched too abstractly, without enough concrete detail from Trimmel's defeat, his message to Applejack, and the collaborator dream | "it's a bit abstract" and the request to use the backstory of the defeat and the nature of the collaboration dream | softened: praise for the framing first ("cohesive"), then a brief "but", then a request for alternatives instead of a flat rejection
+- about: The user accepts the previous framing as cohesive but says it is too abstract, and asks for several alternative revisions of the collaborator nightmare and Trimmel's parting message that rely on the concrete backstory and dream material.

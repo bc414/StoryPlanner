@@ -1,0 +1,6 @@
+- sources:
+  - a simple children's story that everyone knows | draw on the model's general knowledge of a familiar tale as a worked example, splitting it into NE and PE parts at both S and L level, to test what NE contains beyond dramatic irony | give an example of a simple children's story that everyone knows | first-named
+  - the v1 note about Applejack and Fluttershy's sanctuary in a combat zone | use as the test case to decompose into an E+NE+L+W note and a separate L+R note, with the plot point turning both into shown prose | Applejack sees Fluttershy trusts her so much that she brought her entire animal sanctuary | referred-to
+  - v1 | treat as lacking reader design data, since it merged world facts with reader effect; the user asks the model to confirm this | shows how v1 was missing important reader design data | referred-to
+- order:
+- about: The user pushes back on the model's narrow definition of NE, asks for a well-known children's story as an S/L example of NE versus PE, and checks whether splitting a v1 Applejack note into a W note and an R note is the right way to do it.

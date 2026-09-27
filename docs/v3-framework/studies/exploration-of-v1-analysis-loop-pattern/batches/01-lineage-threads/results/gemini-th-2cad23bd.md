@@ -1,0 +1,6 @@
+- steps:
+  - the author | question | asks for a percentage breakdown of the document between world Bible and scenes | opening of the exchange
+  - the model | analysis | structural breakdown estimating World Bible at ~45% (character profiles, codex entries) and Scenes/Narrative Timeline at ~55% (30 chapters of plot structure) | reply to the question
+- kept:
+- brought: The author brought a question about the proportional structure of the existing planning document, asking how much was world-building material versus scene/chapter content.
+- loop: The author asked for a structural self-assessment of the existing plan document and the model returned a percentage breakdown analysis, but no text from this exchange was traced into the planning database.

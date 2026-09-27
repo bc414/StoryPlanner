@@ -1,0 +1,5 @@
+- sources:
+  - The backdrop to chapter 2, including Chapter 1's opening and the Tall Tale events, as the author lays it out | treat as the established premise the analysis must be built on; it also fixes that the factory visit comes before Luna's retreat order | The backdrop to chapter 2 is that; She goes to the factory before Luna's retreat order | first-named
+  - The planned magical tank prototype for Comet Shine | treat as a provisional plan element the author is unsure about and wants judged on whether to keep it | I also planned on Comet Shine working on a magical tank prototype, should this be in | first-named
+- order:
+- about: The author supplies Applejack's imposter-syndrome backdrop and corrects the timing of the factory visit, then asks for analysis of how Applejack would perceive Comet Shine and whether the planned magical tank prototype makes his portrayal too flattering.

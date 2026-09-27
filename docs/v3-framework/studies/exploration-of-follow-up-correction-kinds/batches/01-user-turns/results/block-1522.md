@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the "subject links only when doing thematic work" principle, connects it to how they handled character links in an earlier version, and asks the model to clarify whether "metatextual" notes still exist or were split into allegorical and garden notes, and whether they apply at S-scope only or L-scope too.

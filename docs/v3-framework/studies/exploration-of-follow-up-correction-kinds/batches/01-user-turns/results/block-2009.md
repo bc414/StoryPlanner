@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the categorization discussion to ask what context should be carried into a fresh conversation as reusable seed material for sorting v1 notes, proposing a starting list and asking what else to add.

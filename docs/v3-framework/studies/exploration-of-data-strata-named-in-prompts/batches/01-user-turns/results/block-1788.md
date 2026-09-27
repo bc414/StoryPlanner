@@ -1,0 +1,4 @@
+- sources:
+  - what we identified earlier in this conversation about Clash of Clans capturing some economic depth | treat as an established finding and build the answer on it | We identified that although clash of clans is mass market it still captures some depth about the economy that is more than most | referred-to
+- order:
+- about: The user builds on a conclusion reached earlier in the conversation, that Clash of Clans has more economic depth than most mass-market games, and asks the model what the default should be.

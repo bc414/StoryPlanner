@@ -1,0 +1,6 @@
+- relations:
+  - 1608 | 1621 | the mindset supplies a reason for the deed, and the deed is an instance of it: a believer in top-down enforcers keeping harmony is the sort to make two rulers more powerful | "top down enforcers to maintain" with "invented the alicornization spell for Celestia and Luna" | implicit
+- outward:
+  - 1621 | Celestia and Luna, two characters held elsewhere in the plan, and the alicornization spell as a piece of lore | "for Celestia and Luna"
+  - 1608 | the story's opening (TLTT), the point from which the character is taken, and the other predators he thinks he keeps in line | "other predators behave"
+- whole: Two notes that mostly stand as separate entries, though the mindset in one can be read as the motive behind the past act in the other.

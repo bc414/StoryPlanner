@@ -1,0 +1,23 @@
+- passages:
+  - 4136 | empty note | the note holds no text, so there is no passage in it | none | blank note
+  - 4229 | statement about the subject | in this phase the industrialists drop mass-market clothing for capital equipment, luxury goods and arms for themselves and the nobles, and import Chrysalis's goods, which pay for her Great Leap Forward | none | plain description of what the industrialists do, no event or date
+  - 4135 | statement about the subject | the phase is defined by Chrysalis manipulating the nobles who bullied her and drawing wealth out of Herzland to fund her rise | none | 'This phase is characterized by'
+  - 4137 | scene beat with year | the Revolution of 978: industrialists in Griffenheim, peasants across Herzland and sympathizers in the Imperial Army overthrow the monarchy and proclaim the Griffonian Republic | 978 | named event with year in the label
+  - 4156 | scene beat with year | child Grover V is saved by Benito | 978 | 'saved by Benito in 978'
+  - 4156 | scene beat with year | Grover V returns to the throne after Eagleclaw's counterrevolution, with a regency council | 981 | 'returned to the throne in 981'
+  - 4156 | statement about the subject | Grover V was a weak ruler whose rule was undermined by nobles and rugged individualist industrialists | none | character and reign assessment
+  - 4156 | scene beat with year | Grover V dies, at the start of EAW | 1007 | 'passed away in 1007'
+  - 4156 | scene beat without year | Grover VI grows up in Griffenheim with Eros as regent and an elderly Benito as bodyguard | none | follows the death, no date given
+  - 4138 | scene beat with year | the Counterrevolution of 981: Gabriella Eagleclaw takes back Griffenheim, secretly orchestrated by Chrysalis | 981 | named event with year in the label
+  - 4193 | scene beat without year | the counterrevolution succeeds and Eagleclaw becomes regent until her cousin Grover V comes of age | none | 'succeeds... becomes regent until'
+  - 4193 | scene beat without year | as Grover grows up, the male advisors push Eagleclaw out until she holds only her own Duchy of Strawberry | none | 'slowly pushed back... as Grover grows up'
+  - 4193 | scene beat without year | Eagleclaw grants academic and industrial resources to Chrysalis to develop the love harvesters, as their quid pro quo | none | 'quid pro quo' exchange, no time given
+  - 4139 | statement about the subject | the social order: industrialists rule the cities, nobles keep serfdom in the countryside, a toxic alliance of Divine Right and Social Darwinism | none | heading-like definition of the arrangement
+  - 4139 | statement about the subject | the deal behind the alliance: nobles need money and supply serfs, industrialists need cheap labor and supply machines, and they split profits | none | 'The Deal' bullet
+  - 4139 | statement about the subject | the culture of the era is maximum cynicism, a kleptocracy without feudal honor or capitalist opportunity, with Gabriella Eagleclaw standing for the nobility side | none | 'The Culture' bullet
+  - 4140 | statement about the subject | technology level: telegraphs and radios invented, vacuum tube tech like World War 2 | none | plain statement of capability
+  - 4228 | statement about the subject | why working-class solidarity fails: griffons are greedy and prideful, so industrialists promise superiority rather than equality, and every peasant sees themselves as a temporarily embarrassed millionaire | none | explanatory reasoning with an example pitch
+- sequences:
+  - 4156 | four beats in order, Grover V saved in 978, restored in 981, dying in 1007, then Grover VI's upbringing | years counting up 978, 981, 1007, then a following beat
+  - 4193 | two beats in order, the counterrevolution succeeding with Eagleclaw as regent, then her being gradually pushed back to her own duchy as Grover grows up | 'becomes regent until', 'slowly pushed back... as Grover grows up'
+- whole: The notes are a mostly statement-based sketch of a 981–1007 phase of weak monarchy and an industrialist–noble kleptocracy, with a few dated coup events (978, 981), a short life-sequence for Grover V, Eagleclaw's fading regency, Chrysalis's covert rise, and one blank note.

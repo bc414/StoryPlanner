@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the model's analysis of the Chasseurs' reintegration to a new question, asking for a historical breakdown of how armies handled post-combat adrenaline crash across eras and classes, without disputing anything the model said.

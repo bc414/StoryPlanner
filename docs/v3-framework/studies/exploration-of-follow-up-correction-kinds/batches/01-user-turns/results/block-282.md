@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds their own thematic observation, that the slow failure of the factories as the war effort's hearth strengthens the Hearth's Warming Eve parallel, building on the model's account without disputing any of it.

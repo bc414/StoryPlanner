@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to brainstorm a range of alternative English and Aztec (Nahuatl-style) names for the paste, without pointing at any body of material to draw on or avoid.

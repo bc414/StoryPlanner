@@ -1,0 +1,14 @@
+- passages:
+  - note 40 | analytic-comparative | pairs two real-world aphorisms with the story element by direct citation | pony analog to color-blind-judgment and divide-the-poor quotes | apart
+  - note 4191 | speculative-explanatory worldbuilding analysis | "It's clear now that...point out...to destabilize", conditional "would" | griffon supremacist posers using pony-clothing and land politics as wedge issues | apart
+  - note 4191 | speculative-explanatory worldbuilding analysis | "would definitely latch onto...as a wedge" | Herzland posers exploiting GR's paternity-leave policy | apart
+  - note 5378 | prescriptive design-planning | repeated "Need to"/"we need"/"should", asset-specificity jargon | how to write gender balance in leadership without stigma or shame | apart
+  - note 5378 | descriptive social-analysis | flat declarative claims naming manosphere and corporate class motives | how real-world-style factions exploit women's grievance for profit | apart
+  - note 5378 | prescriptive design-planning | "Need bottom up...", imperative return | promoting balance without forcing everyone into management | apart
+  - note 5378 | personal confessional | first-person "I have always felt", "I detest" | author's own preference for engineering over management | apart
+- shifts:
+  - note 5378 | prescriptive design-planning | descriptive social-analysis | drops the "need/should" imperative for a flat account of manosphere/corporate motives, naming groups rather than directing revisions
+  - note 5378 | descriptive social-analysis | prescriptive design-planning | reverts to the "Need" imperative construction
+  - note 5378 | prescriptive design-planning | personal confessional | switches to first-person "I" and an autobiographical statement of preference
+- registers: analytic-comparative; speculative-explanatory worldbuilding analysis; prescriptive design-planning; descriptive social-analysis; personal confessional
+- whole: This item's notes hold several distinct registers - a comparative aphoristic note, a speculative worldbuilding note, and a longer note that alternates prescriptive planning language with descriptive social analysis before closing in a personal first-person register - and in every case the shifts fall at paragraph breaks a reader would notice rather than running together inside a sentence.

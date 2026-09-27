@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for the pros and cons of beginning the note-writing work with the main character Applejack versus beginning with a minor character, without pointing at any body of material.

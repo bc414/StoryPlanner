@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the fabula analysis to ask a general question about whether school history teaching misses the structural picture the model described, and whether that picture is college-level material.

@@ -1,0 +1,12 @@
+- passages:
+  - 5121 | statement about the subject | Equestria stands for the modern day rather than the WW2 Allies, and the story is a thesis on post-stagnation civic duty, not a survival story | none | framed as a meta-narrative claim; present-tense 'does not represent... it represents'
+  - 5121 | statement about the subject | The Equestrian Army being volunteer-only mirrors present-day Western conditions | none | present-tense comparison to today
+  - 5121 | statement about the subject | The story's argument that ponies in safe zones owe support to the volunteers, through making weapons and donating love | none | 'The story argues... obligated'
+  - 5121 | world situation and outcome (premise) | Ponies can choose to stay in Canterlot or go to Manehattan to work the home front; those in Canterlot are eventually enslaved | none | 'have a choice'; 'eventually' gives an outcome but no date
+  - 5121 | statement about the subject | Manehattan's total mobilization is not a mass industrial draft but works by asset specificity, with the CMCs directing ponies to the right industries | none | descriptive present-tense rule
+  - 5112 | statement about the subject | Harmony means recognizing one another's special talents and working together, 'Friendship is Combined Arms' | none | heading 'Dialectics - Atomic' and definitional statement
+  - 5112 | statement about the subject | The army's strength comes from asset specificity and solidarity, not conscription or horde aesthetics | none | contrast claim, present tense
+  - 5112 | backstory summary | The old army at the start of the war followed a grand battleplan, its ponies stood in line as worried cogs, and all were surrendered and captured | at the beginning of the war | past-tense summary, relative time only, no calendar year
+  - 5120 | statement about the subject | The Nazi and Soviet model of mass conscription, disposable cogs and terrified masses will lose to a smaller elite force of asset-specific volunteers | none | heading 'Dialectics - Atomic' and a general claim about which model prevails
+- sequences:
+- whole: The subject's three notes are thematic and design commentary that argues for a volunteer, asset-specific, solidarity-based army over mass conscription, and they hold almost no scene beats, only one summarized backstory event and one outcome for the ponies who stay in Canterlot.

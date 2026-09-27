@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model characterised the parloirs/Aquileian sexual culture as orgies; the user says it is private passion, a celebration of the other as an individual | "it's generally not orgies, it's private passion. It's celebration of the other as an individual" | flat, stated plainly as a clarification with a brief positive description of what it is instead
+  - which material was drawn on | The model did not draw on the user's lore about Coltbert's reforms, which governs how the parloirs and this culture work, and so built the analysis without it; the user tells it to consult that lore and revise | "Please refer to my lore on Coltbert's reforms and refine the analysis" | polite directive, a courteous instruction to go back to the source and redo, without irritation
+- about: The user corrects the model's mischaracterisation of the setting's sexual culture as orgies and directs it to the Coltbert's reforms lore to redo the analysis.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the PDF analysis and gives a new research task: an outside, historically grounded look at Equestria at War's writing and its creators, and at The Princess and the Kaiser, compared with their own TLTT aims.

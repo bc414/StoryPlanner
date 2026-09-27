@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn floats a new story beat, asking whether Rainbow Dash would be tempted by the unarmored Aquileian plane and be refused until Starlight's shield in chapter 5, without disputing anything the model said.

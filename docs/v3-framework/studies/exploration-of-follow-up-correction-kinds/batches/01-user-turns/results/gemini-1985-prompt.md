@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's refinements (atomic thoughts, suggested consolidation, miscellaneous bucket, verbosity handled by them) and asks follow-up design questions about feeding in ordering instructions, whether to use separate system prompts per note type, and whether to split concept discovery from sorting into two prompts.

@@ -1,0 +1,9 @@
+- asks:
+  - analyse | asks for an analysis of "Generosity" as the chapter title, including how the upper class's lack of generosity plays into that title | "What is the analysis of 'generosity' (the lack of generosity from the upper class too) as the title"
+  - analyse | asks how the chapter's themes connect to the broader thematic arc of the story | "how the themes here fit into the rest of the themes"
+  - analyse | asks about Rarity's role, her personal struggles, and her isolation from her five friends who are at the front | "What about Rarity's role and struggles and isolation from her friends?"
+- supplies:
+  - plan summary | a chapter 7 outline: Rarity, Spike, and the CMCs aiding refugees in Manehattan; Celestia and Luna's quiet arrival; the batpony rights group EEEE! led by Flowing Current; Rarity's guilt and shift into war-effort work; the ballot fight over total mobilization; the mayor's resignation and Flowing Current's rise to power | several paragraphs, a page-length plot and worldbuilding summary
+- shaping:
+- openness: Leaves the analysis open-ended but scopes it to named angles: the title's meaning tied to upper-class stinginess, thematic fit with the rest of the story, and Rarity's role, struggle, and isolation, without stating a conclusion for any of them.
+- subject: Thematic and character analysis of a planned chapter ("Generosity") involving Rarity, refugee aid in Manehattan, batpony rights activism, and grassroots wartime politics

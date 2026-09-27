@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model produced names framed partly from an outside or industrial viewpoint (Star Energy/Aquileian analytical perspective, e.g. the sap-focused name for engineers) when the names were meant to be the Tzinacatl's own endonym in use for 1000 years | "This should be an endonym, not an exonym" | flat, direct statement of the requirement
+  - fact of the world | The model's suggestion assigned an outsider-facing name to Star Energy and Fleur Bloom's logistics talk, treating the naming as something Star Energy would do, whereas the raft name is ancient and native to the Tzinacatl and not coined by Star Energy | "It's not star energy naming it, it has to be a name that the Tzinacatl have used for 1000 years" | flat, with a brief reason given, mildly terse
+- about: The user rejects the proposed names because they must be the Tzinacatl's own millennium-old endonym rather than names an outsider like Star Energy would coin, restating the constraint.

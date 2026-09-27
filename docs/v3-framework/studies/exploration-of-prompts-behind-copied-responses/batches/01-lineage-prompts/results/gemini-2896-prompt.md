@@ -1,0 +1,13 @@
+- asks:
+  - explain | work out what properties the composite material would need to have to be extremely sensitive enough to glow from ordinary, latent, otherwise-inconsequential intent | "Whatever properties of the composite material need to be extremely sensitive such that it can get the glowing effect from menial intent"
+  - validate | confirm or weigh in on whether cold-light luminescence is the best-suited effect for this sensitivity | "It seems like luminescence, as 'cold light', is the most suited."
+  - decide | weigh in on whether to cut the shaking/vibration effect from the artifact's lore because it would demand too much kinetic energy | "perhaps I should drop the shaking effect from the lore since that would require too much kinetic energy?"
+- supplies:
+  - lore premise - intent vectors and the Idol of Boreas | the idea that every creature emits "intent vectors" through communication, and that the idol mythically reacts to such latent intent | a few sentences
+- shaping:
+  - the effect should not be violent or dramatic | "It should not be so violent and dramatic"
+  - intent vectors must be unnoticeable in daily life, since they're emitted constantly by all creatures | "totally unnoticeable in daily life"
+  - favors cold-light luminescence as the visible effect | "luminescence, as 'cold light', is the most suited"
+  - leans toward removing the shaking effect for physical-plausibility reasons | "drop the shaking effect ... too much kinetic energy"
+- openness: Mixed: it leans toward two named answers (cold-light luminescence, and dropping the shaking effect) inviting confirmation, while leaving open what specific material properties would produce the required extreme sensitivity.
+- subject: designing the sensitivity mechanic and visible effect of a magic artifact (the Idol of Boreas) that reacts to latent communicative "intent" in a fictional world

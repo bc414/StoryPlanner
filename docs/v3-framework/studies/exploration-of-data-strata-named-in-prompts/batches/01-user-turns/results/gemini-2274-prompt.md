@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about what bombs used for close air support were made of, without pointing the model at any particular body of material.

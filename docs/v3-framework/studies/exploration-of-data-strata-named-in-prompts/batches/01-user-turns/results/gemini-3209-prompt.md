@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects command-line tools and asks whether the Claude desktop app can do the read-only repository history analysis the model just described.

@@ -1,0 +1,7 @@
+- steps:
+  - author | dumps running reactions | a stream of in-the-moment comments on plot twists, character choices, and thematic parallels in a chapter | across the body of the single prompt message
+  - author | requests reformatting | instruction to convert the preceding reaction notes into a review addressed to the author | at the end of the prompt message
+  - model | synthesizes a review | a structured essay with named sections praising the character arc, the moral framing, and the plot's interlocking threads, closing with anticipation of what comes next | the entire response
+- kept:
+- brought: The author brought a compiled set of their own chapter-reading reactions and speculative questions, asking to have them reshaped into a formal review.
+- loop: The author externalizes raw reading reactions and has the model launder them into polished review prose, but none of this exchange is traced into the planning database — it functions as reflection and validation rather than plan-building.

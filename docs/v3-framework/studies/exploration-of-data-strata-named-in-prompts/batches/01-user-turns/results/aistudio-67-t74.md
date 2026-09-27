@@ -1,0 +1,5 @@
+- sources:
+  - MLP fandom (its notion that dragons live for centuries) | the thing whose origin the model is asked to trace; drawn on as the subject of the question, not ranked or judged | Where does the notion that dragons live for centuries in MLP fandom come from | referred-to
+  - grimdark stories with immortal alicorn Twilight and long-lived Spike | the author's own recollection from memory, offered as examples of the trope in use, including the hibernation workaround; context for the question rather than material to verify | I know many grimdark stories that go the "Twilight is an alicorn is immortal and will outlive her friends" route | first-named
+- order:
+- about: The user steps away from the planning discussion to ask where the fandom idea of centuries-long dragon lifespans originated, citing from memory the grimdark stories that use it and then sideline Spike through hibernation.

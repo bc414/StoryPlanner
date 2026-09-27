@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1130|Rainbow Dash, the changelings, and their war crimes, held elsewhere in the story (the character Rainbow Dash and the changelings' wartime history)|Rainbow tells Fluttershy they aren't starving wolves, they are war criminals
+- whole: This owner holds a single note, so there is nothing within it to hang together or to separate.

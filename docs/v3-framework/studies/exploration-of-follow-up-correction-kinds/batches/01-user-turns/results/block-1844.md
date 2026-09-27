@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model treated the current track definitions as settled, principled distinctions and derived fundamental differences and category verdicts from their wording, when the user says they are a provisional first draft | These subject types and their tracks are still work in progress. What is there right now is my best first pass attempt | flat statement of status, given as a caveat without irritation, that reorients the task toward critiquing the definitions themselves
+- about: The user tells the model that the subject-type and track definitions it analysed as fixed are only a first draft, and redirects it to look for misplaced items across tracks and for tracks that should be split.

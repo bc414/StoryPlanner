@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the previous answer's claim that one Manehattan company and its donations drove the Griffonian Republic's economy, and asks the model to work out how large the effect would plausibly be and what different scales of impact would mean for the story and its history.

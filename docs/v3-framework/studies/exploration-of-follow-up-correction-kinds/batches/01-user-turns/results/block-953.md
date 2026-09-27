@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model attached the internship allegory to a generic, newly framed group of defecting Skyfall engineers who end up at EEEE! and Star Energy. The plan already has a specific cast for it, the artisans who worked for Kesseler, and a specific scene, Twilight meeting them in the Skyfall Resolution in the chapter Ambition. | should be built into the artisans who worked for Kesseler and Twilight meets them in the Skyfall Resolution scene | flat directive, stated as a brief redirect with no reason and no explicit mention of the model's version
+- about: The user redirects the model's allegory of the tech intern and defecting engineers onto the existing planned characters, Kesseler's artisans, and the specific scene where Twilight meets them.

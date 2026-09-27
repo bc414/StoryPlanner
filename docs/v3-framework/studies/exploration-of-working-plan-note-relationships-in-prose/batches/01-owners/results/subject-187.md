@@ -1,0 +1,18 @@
+- relations:
+  - 2329|2334|continuation in time: the contract breach by Chrysalis is followed by Kessler Sr. discovering the violation and its cost to him|violated the terms of the contract / patents have been violated|implicit
+  - 2329|2334|tension: one says Sr. did not try to send hit squads, the other says his mercenaries and hit squads proved useless against the Hive|didn't try to send poseur hit squads / mercenaries and hit squads are useless|implicit
+  - 2329|2335|the thematic reading of the historian's fact: selling valves to the queen who built the Love Harvesters is the rope that hangs the seller|Chrysalis built the Love Harvesters / selling the rope that will be used to hang you|implicit
+  - 2329|2338|presupposition: Jr.'s war on Krystallfels and the outrage at the Bug Queen's Cheat presuppose that Chrysalis is the stimulant-selling queen behind that name and that the drug trade exists|sells stimulants / astronomical drug profits, Bug Queen's Cheat|implicit
+  - 2334|2338|reversal: the father, humbled and risk-averse, retreats from sovereign power, while the son arms a private army and burns Krystallfels|retreats into maintaining his domestic monopoly / hire every unemployed mercenary|implicit
+  - 2338|2339|continuation in time: after the burning and seizing of Krystallfels, Jr. becomes the new apex predator and extracts more wealth|destroys Krystallfels / private army burns Krystallfels' warehouses|implicit
+  - 2339|2341|continuation in time: as apex predator and merchant of death he believes himself untouchable, then is arrested|apex predator / untouchable god|implicit
+  - 2338|2341|cause and consequence: the slaughter of executives in the campaign is the ground for his trial as a war criminal|slaughters their executives / tried as a war criminal|implicit
+- outward:
+  - 2329|the story's opening (TLTT), which the backstory precedes|before the start of TLTT (display question); world date 986
+  - 2329|the identity of Krista Sterling and Kriemhild von Krystallfels, held elsewhere|not Krista Sterling or Kriemhild von Krystallfels
+  - 2329|Vesalipolis, a foreign realm in the frozen north, and Chrysalis as a character|Queen Chrysalis of Vesalipolis
+  - 2334|the An-Cap system and the Hive's sovereign state|An-Cap enforcement mechanisms / sovereign, militarized Hive
+  - 2338|Skyfall, its mercenaries and the other Tycoons|every unemployed mercenary in Skyfall / the other Tycoons
+  - 2341|the Patriotten, an authority or faction not described here|arrested by the Patriotten
+  - 2339|the Red Love drug and its monopoly, held elsewhere|Red Love monopoly
+- whole: The notes read as one connected arc, from the father's contract with Chrysalis through his humbling to the son's war, rise and arrest, though the thematic note on the Love Harvester's origin joins only loosely.

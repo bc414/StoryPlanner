@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the restoration-bills idea and builds on it with Chrysalis's strategic motives, Eros's surrender, and why she chose Eros over Eagleclaw, including new backstory about Eagleclaw's silence, without disputing anything the model said.

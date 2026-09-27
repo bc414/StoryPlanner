@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model built its story mapping on a hive mind (telepathic Chrysalis control, the Hive as algorithm, Fluttershy cutting drones off the Hive Feed), which the plan does not contain; the user gives predator's dilemma as the cause of hive war and tyranny | I'm not planning on a hive mind | flat statement of the plan, followed by an alternative account of the biology and the cause of the hives' decline
+  - reading of the plan | the model made Twilight's breakthrough a delivery system that pushes oxytocin past the blood-brain barrier; the user's plan has pink love unable to cross it, so lonely changelings can eat it for calories but only real friendship sustains | So Twilight should not invent a way to cross the brain blood barrier, just like it's impossible in real life | stated as a plan decision with the reasoning laid out, and real-world impossibility given as support
+- about: The user rejects the model's hive-mind framing and its blood-brain-barrier cure for Twilight by setting out their own changeling biology, then adds new ideas about tribal drugs and safer red love for professionals.

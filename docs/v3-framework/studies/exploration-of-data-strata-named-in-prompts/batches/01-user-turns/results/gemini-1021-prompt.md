@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about what other means besides radar could be used to defeat submarines, without pointing the model at any particular body of material.

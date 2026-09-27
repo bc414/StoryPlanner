@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2129 | Skyfall and the tycoons, and the machines and factories of Equestria, are a company, a class and a setting held outside this item | rails against Skyfall and the tycoons
+- whole: This owner holds a single note, so there is nothing in it to hang together or fall apart.

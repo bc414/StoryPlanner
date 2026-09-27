@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own alternative to the model's suggested chapter juxtaposition (renaming chapter 9 Extraction so it sits as antithesis to Conscience) and adds a new plan to open the Conscience chapter with a mansion-storming action scene to fill a pacing gap, then asks how a battle works at the start of a chapter with that title.

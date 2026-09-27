@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model based its account of current state on project files that were out of date, treating the old code as the present architecture and drawing conclusions (navigation properties not cleaned up, ViewModel stubbed, mid-migration) from it | The code was outdated | Flat, brief statement of fact, given in passing before moving on to the actual request
+- about: The user tells the model its analysis rested on outdated code, then asks how to get the complete new architecture into the project (GitHub link, uploading .cs and .xaml files, or a folder).

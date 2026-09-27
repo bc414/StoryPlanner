@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the early-shots idea and builds on it by proposing that rumors of armed pets could push a Statthalter to accept the ultimatum's offer or flee to the Castle where the army will land, which adds a consequence and does not dispute anything the model said.

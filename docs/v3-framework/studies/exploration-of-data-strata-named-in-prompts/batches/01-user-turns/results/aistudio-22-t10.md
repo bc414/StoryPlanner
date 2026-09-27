@@ -1,0 +1,5 @@
+- sources:
+  - Attached document 1pWsnHgC69mr_xO6mMWCJ8_kAqjt9IHU0 | material to be mined; extract from it only what fits the four priority filters (governance structures, coercion tools, trauma-loyalty motives, species-class hierarchy) | Extract only high-level political structures | first-named
+  - Attached document 1On_WwmcwGP9E0HLHDmtkKGMX-uWd6n7y | material to be mined with the same four priority filters as the first document | Extract data regarding the psychological motivations | first-named
+- order:
+- about: The user attaches two documents and gives the same four ranked extraction instructions for each, telling the model what to pull out of them.

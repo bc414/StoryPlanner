@@ -1,0 +1,4 @@
+- sources:
+  - my story | the body of material to search for further spells or magic that fit the thymodynamics-plus-charitostatic-effect explanation | other spells or magic in my story | referred-to
+- order:
+- about: The user asks the model to find more spells or magic in their story whose power can be explained as thymodynamics enhanced by the charitostatic effect.

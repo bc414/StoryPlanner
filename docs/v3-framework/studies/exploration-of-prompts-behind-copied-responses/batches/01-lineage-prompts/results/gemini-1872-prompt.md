@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks what would happen or what to do if Gemini's allowed output token count is smaller than the length of the user's text | "What if Gemini's output tokens allowed is less than my text?"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open; it poses a bare hypothetical/conditional question without naming a preferred outcome or choices to pick between.
+- subject: Whether Gemini's output token limit can fall short of the length of the user's text

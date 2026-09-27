@@ -1,0 +1,6 @@
+- sources:
+  - Into Darkness by The Vilified (attached PDF, a pokemon fanfic) | the material to analyse for where its inspiration comes from and to compare against the other discussed works | "this pokemon fanfic titled Into Darkness" | first-named
+  - the other things discussed | the comparison baseline the fanfic is to be measured against | "how does it compare to the other things discussed" | referred-to
+  - the user's own reading experience of the fanfic, from memory | their account of liking the premise but being frustrated with the female lead's use, offered as a view to take into the analysis | "initially quite enjoyed the premise but then found it very frustrating" | first-named
+- order:
+- about: The user attaches a Pokémon fanfic and asks the model to trace its inspirations and compare it with the material already discussed in the conversation, adding their own opinion that the premise was good but the female lead was poorly used.

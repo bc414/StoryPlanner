@@ -1,0 +1,39 @@
+- steps:
+  - author | correction | fixes Astler's birth year and severs his tie to Kemerskai, resets him as leader of the cooperating opposition party | opens the thread
+  - model | scene-build | recasts Astler as a generational foil and drafts the bakery-tour scene with character-by-character reactions and Applejack's revelation | responds to the first correction
+  - author | correction | narrows Astler's ideology from marxist to democratic socialist, likening him to Bernie Sanders | second exchange
+  - model | rework | rebuilds the bakery scene's economics around worker cooperatives, reframes the Aquileian clash as a dignity argument, ties it to the Predator's Dilemma theme, and drafts Applejack's three-part synthesis | follows the second correction
+  - author | research question | asks whether authentic peasant French cuisine survives, contrasts Paris with the provinces, and asks about Vietnamese food's place | shifts to an outside research topic
+  - model | analysis | contrasts real French technique with its Americanized export, sketches Paris's dining tiers and the provinces, and traces the Vietnamese-French culinary history | answers the research question
+  - author | follow-up question | asks how tourist-trap districts operate and whether bistronomy serves locals or tourists | continues the research thread
+  - model | analysis | explains the tourist-trap business model and the language/service intimidation barrier, then gives bistronomy's history and audience | answers the follow-up
+  - author | synthesis | organizes the model's material into the author's own four-tier taxonomy of Paris dining and asks for a check | after two research replies
+  - model | verification | confirms three tiers, corrects the bistronomy tier's premise, adds a comparison matrix, and maps all four tiers onto the story's factions | answers the correctness check
+  - author | creative extension | proposes Skyfall poseur restaurants exploiting imported luxury goods and reformed thugs undercutting them while subsidizing cheap stew for workers | builds on the verified taxonomy
+  - model | mechanics | works out the two-pronged economic attack, the wagyu-scam framing, and the resulting humiliation logic | elaborates the extension
+  - author | structural proposal | proposes a Skyfall cartel run from an exclusive parloir by reformed thugs only, and states the goal as culture war and revenge rather than liberation | after the mechanics elaboration
+  - model | mechanics | details the cartel's operations, the thugs' psychology, the asset-draining humiliation attack, and a contrast with the Republic's labor approach | answers the structural proposal
+- kept:
+  - note 1948 | pasted whole from this reply | keeps the verdict on the pie's quality and the claim that Astler's model redeems industry, filed on the bakery plot point
+  - note 1956 | pasted whole from this reply | keeps Trimmel's realization that efficiency can come from solidarity rather than terror, filed on the bakery plot point
+  - note 1957 | pasted whole from this reply | keeps Twilight's realization that the magic there guarantees consistency rather than specialness, filed on the bakery plot point
+  - note 1958 | pasted whole from this reply | keeps Henri's objection about lacking passion and asset specificity, filed on the bakery plot point
+  - note 1959 | pasted whole from this reply | keeps the framing that Astler's rebuttal is about dignity rather than state control, filed on the bakery plot point
+  - note 1960 | pasted whole from this reply | keeps Astler's dialogue defending the ordinary worker's right to dignity, filed on the bakery plot point
+  - note 1961 | pasted whole from this reply | keeps the framing tying the scene to refuting the Aquileian Ambition Barrier, filed on the bakery plot point
+  - note 1962 | pasted whole from this reply | keeps the section heading naming the Predator's Dilemma/Union counter-argument, filed on the bakery plot point
+  - note 1963 | pasted whole from this reply | keeps the restated premise of Coltbert's Predator's Dilemma, filed on the bakery plot point
+  - note 1964 | pasted whole from this reply | keeps the naming of collective bargaining as Astler's counter-argument, filed on the bakery plot point
+  - note 1965 | pasted whole from this reply | keeps the claim that some jobs are inherently generic, filed on the bakery plot point
+  - note 1966 | pasted whole from this reply | keeps the line that a lone generic worker gets eaten, filed on the bakery plot point
+  - note 1967 | pasted whole from this reply | keeps the line that unionized workers become an indigestible mass, filed on the bakery plot point
+  - note 1968 | pasted from this reply with cuts | keeps a trimmed version of Astler's wolf-and-sheep union dialogue, filed on the bakery plot point
+  - note 1969 | pasted whole from this reply | keeps the framing that this is the moment Applejack's worldview crystallizes, filed on the bakery plot point
+  - note 1970 | pasted whole from this reply | keeps the parallel to Applejack's parents' company and the line about codifying morality into law, filed on the bakery plot point
+  - note 1971 | pasted whole from this reply | keeps the 'from Aquileia' element of Applejack's synthesis, filed on the bakery plot point
+  - note 1972 | pasted whole from this reply | keeps the 'from Equestria/Celestia' element of Applejack's synthesis, filed on the bakery plot point
+  - note 1973 | pasted whole from this reply | keeps the 'from Astler' structural-safety-net element of Applejack's synthesis, filed on the bakery plot point
+  - note 1974 | pasted whole from this reply | keeps the closing verdict on what the Equestrian Republic must become, filed on the bakery plot point
+  - note 5084 | pasted from this reply inside the author's own framing | keeps the cartel/parloir mechanics, wrapped in added demographic detail, with the closing Ego-Capitalism line kept verbatim, filed under the Aquileian Cartel subject
+- brought: The author brought corrected biographical and ideological facts about an established character to re-anchor a planned scene, then later brought outside real-world culinary knowledge and a friends' anecdote to pressure-test and extend the story's food-culture allegory into new faction mechanics.
+- loop: The author repeatedly brings a correction, a real-world question, or a synthesis of the model's own material, the model returns an elaborated scene, a verified taxonomy, or worked-out mechanics, and the plan keeps the elaborated character beats and faction mechanics from the fiction-facing replies while the intervening real-world research pass leaves no direct trace, only feeding forward into what gets kept later.

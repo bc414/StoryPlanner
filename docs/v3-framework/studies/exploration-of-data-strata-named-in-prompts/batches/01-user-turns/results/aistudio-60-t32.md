@@ -1,0 +1,4 @@
+- sources:
+  - the author's own recollection of the Equestrian Army calling the handheld replicas "Friendship Shields" | treat as provisional, a from-memory belief rather than settled fact; use it as the working premise for the naming question | "I believe the Equestrian Army initially called them" | first-named
+- order:
+- about: The author offers, from memory, an in-world explanation for the name \"Friendship Shields\" and proposes that the Aquileians would call the handheld device \"Crystal Heart\" in French, then asks how French would express this sense of \"heart\".

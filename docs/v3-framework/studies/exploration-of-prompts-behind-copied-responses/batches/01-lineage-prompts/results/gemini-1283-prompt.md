@@ -1,0 +1,8 @@
+- asks:
+  - choice | asks whether to send Rarity to the Tzinacatl jungle to join Applejack, Flowing Current, and Comet Shine for the negotiations | "Should I have Rarity go too?"
+  - validation | invites the model to weigh in on whether Rainbow Dash also fits the 'political leadership' role alongside Applejack and Rarity | "(maybe Rainbow too)"
+- supplies:
+  - plan summary | current character locations (Twilight+Fluttershy in Tall Tale, Applejack+Rainbow in Tzinacatl), the new addition of Pinkie to Tall Tale, and a proposed thematic split of the Mane 6 into political-leadership and logistics-innovation roles for the harmonic capitalism arc following the chapter 9 Town Hall/Sabotage | a paragraph
+- shaping:
+- openness: The message poses a direct yes/no question about adding Rarity, framing it as creating a 'perfect 3-3 split,' which leans toward yes, while also floating Rainbow's thematic categorization as an open, unresolved point ('maybe Rainbow too').
+- subject: Deciding character groupings (Rarity's placement, Rainbow's role) for a 3-3 Mane 6 split across the Tall Tale and Tzinacatl storylines during a harmonic-capitalism arc

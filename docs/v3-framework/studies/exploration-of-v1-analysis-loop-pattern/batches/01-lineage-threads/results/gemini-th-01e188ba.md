@@ -1,0 +1,14 @@
+- steps:
+  - author | opens with infrastructure question | comparing raw markdown file vs NotebookLM already in Gem Knowledge | start of thread
+  - model | gives rationale for keeping both | four reasons raw markdown preserves hierarchy/context better than chunked retrieval, then offers to analyze lore | reply to opening question
+  - author | follow-up question | asks how to keep the generated .md file current — manual upload vs Google Doc auto-pull | after model's rationale
+  - model | draws a distinction | explains static local upload vs dynamic Drive-linked doc, recommends switching to Drive sync, offers to dive into lore instead | reply to update question
+  - author | follow-up question | asks for concrete Windows steps to achieve live-sync | after distinction explained
+  - model | walks back and details a setup | corrects its own prior claim about auto-sync, lays out Google Drive for Desktop steps and two sync options, recommends the manual-click option, offers lore work as alternative | reply to how-to question
+  - author | new question, narrowing scope | asks whether dropping the markdown/wikilinks and using a Google Doc would be just as effective for the model's reading | after sync setup laid out
+  - model | confirms and pushes further | says yes, explains formatting parses equivalently, uses this to advocate again for full live-sync via Doc output, offers lore work | reply to effectiveness question
+  - author | follow-up technical question | asks how to make the C# program output directly to a Google Doc and how such a doc is stored on Windows | after model's renewed push for live-sync
+  - model | explains a technical limitation and lays out options | clarifies .gdoc files are just cloud shortcuts not real files, explains why direct file-write won't work, gives two API-based methods, questions whether the engineering effort is worthwhile, offers to build the pipeline or return to lore analysis | closing reply of the thread
+- kept:
+- brought: none
+- loop: The author brought a series of technical workflow questions about syncing a locally generated markdown lore file into the model's knowledge base, entirely separate from any story or plan content; the model answered with escalating logistical detail and repeatedly offered to pivot to actual lore analysis, but the author kept redirecting to further infrastructure questions, and none of this exchange was captured by the planning database.

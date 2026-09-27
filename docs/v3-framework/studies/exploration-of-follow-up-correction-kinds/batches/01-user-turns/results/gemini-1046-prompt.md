@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's ending, a bloodless-by-Applejack leak that sparks a home-grown riot and a voluntary alliance with the Republic, is set aside for a different intended shape: the Trade Federation's fall modelled on the Dutch Republic's fall to Napoleonic France. | I want the end of Skyfall Trade Federation to reflect the end of the Dutch Republic to Napoleonic France | flat, one-line statement of what the user wants, with no reason and no mention of the model's version; the correction is implied by the redirect
+- about: The user redirects the just-proposed ending for Skyfall by naming a historical template, the Dutch Republic's end under Napoleonic France, that the ending should follow.

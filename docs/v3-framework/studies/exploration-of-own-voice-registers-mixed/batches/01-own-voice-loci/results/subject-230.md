@@ -1,0 +1,12 @@
+- passages:
+  - note 27 | expository declarative | single general comparative claim, present tense, third person | GR and 2nd Aquileian Republic culturally incompatible | apart
+  - note 4144 | expository declarative | three plain factual sentences explaining translator and cultural learning | GR's Universal Translator vs Aquileian embrace of difference | apart
+  - note 4192 | expository declarative | short blunt generalizing sentences, then split by nation | griffon status-seeking via capital vs brand snobbery | apart
+  - note 4393 | elliptical outline note | fragment equation, no main verb, 'vs' shorthand, abstract labels | GR/AR framed as universalism vs particularism | apart
+  - note 4704 | expository declarative | parallel descriptive sentences with parenthetical qualifiers | Herzlander vs Aquileian griffon character types | apart
+  - note 5034 | expository declarative | parallel two-part sentences pairing quoted epithet with causal clause | Aquileia's and GR's opposing 'poseur' targets | apart
+  - note 5379 | elliptical outline note | elliptical fragments dropping the copula, blank-line-separated list | what unites GR, Aquileia, and Equestria | apart
+  - note 5428 | expository declarative | comparative sentences with a real-world analogy in parenthesis | original poseur unions vs GR unions' aims | apart
+- shifts:
+- registers: expository declarative; elliptical outline note
+- whole: The subject's notes hold two distinct registers—full-sentence expository declarations that explain and compare the two cultures, and terser elliptical outline fragments that list causes or equations by dropping the verb—with each note staying wholly in one register and the two registers standing apart across different notes rather than mixing within any single one.

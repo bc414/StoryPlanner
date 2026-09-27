@@ -1,0 +1,7 @@
+- asks:
+  - establish | states new story facts for the model to adopt into the ongoing plan | declarative sentences with no question or explicit instruction, implying continued incorporation
+- supplies:
+  - plan detail | which characters (Cadance, Shining Armor) know of the threat versus Celestia, their hosting of Wonderbolts and Aquileian aces, crystal ponies secretly mining/refining crystals, and joint engine development by Star Energy Corporation and Aquileians at the University of Pridea | a few sentences
+- shaping:
+- openness: The message leans toward an answer it names: it asserts these plot and worldbuilding facts as settled rather than posing a question or offering options.
+- subject: Worldbuilding details on secret knowledge of a threat and joint magical-engine development among story factions

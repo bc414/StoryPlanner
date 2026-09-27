@@ -1,0 +1,8 @@
+- asks:
+  - comparison question | asks whether the Deep Think model is much better than the older Ultra model specifically for the user's use case of worldbuilding and logic-checking a story | "the deep think is much better compared to the old dense Ultra model?"
+- supplies:
+- shaping:
+  - scope constraint | reply/assistance should be about worldbuilding and logical brainstorming/checking, not generating story prose or roleplay text | "strictly and completely not asking it to generate story text or roleplay"
+  - quality bar implied | past sample story text was judged as "clearly AI generated slop," implying that kind of output is unwanted going forward | "were clearly AI generated slop"
+- openness: leans toward an answer it names, since the message asserts "the deep think is much better" than the old Ultra model and asks essentially for confirmation of that comparison
+- subject: comparing Gemini's Deep Think mode to the older Ultra model for use as a story worldbuilding/logic-checking tool, distinct from prose generation

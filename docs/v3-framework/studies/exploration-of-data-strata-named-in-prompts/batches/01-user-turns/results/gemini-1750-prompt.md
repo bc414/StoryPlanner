@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to advise on a plot decision for the penultimate chapter, "Grace": whether the allies should give Chrysalis a 12-hour surrender offer or go straight to the love drop.

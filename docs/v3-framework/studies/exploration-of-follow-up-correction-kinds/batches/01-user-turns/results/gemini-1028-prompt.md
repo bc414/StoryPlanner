@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets a new hypothetical production rate (6 hours per P1 from a P2) and asks whether P3 would then be needed to reach 100,000 rifles, testing the model's verdict with a new assumption rather than disputing it.

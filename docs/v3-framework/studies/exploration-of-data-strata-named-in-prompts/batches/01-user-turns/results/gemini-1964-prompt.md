@@ -1,0 +1,6 @@
+- sources:
+  - EaW lore (the ancient civilization Sparleos, 600 BLB) | treat as existing lore to build on; Sparleos can serve as the Greece-and-Rome-like source of the Greek and Latin roots Grover 3 uses | EaW lore also mentions an ancient civilization called Sparleos | referred-to
+  - the psycholinguistic translation (the model's earlier approach in this conversation) | set aside as interesting but too confusing for the reader; not to be the basis, only compared against | too confusing for the reader | referred-to
+  - the user's alternative premise (Kaiser and Reich as the original names, renamed by Grover 3 with Greek and Latin roots) | provisional suggestion posed as a question, to be worked out and compared against the other approach | How about if Kaiser and Reich were the original names | first-named
+- order:
+- about: The user rejects the model's translation-based approach as too confusing, proposes instead that Kaiser and Reich were the original names renamed by Grover 3 using Greek and Latin roots drawn from the Sparleos lore, and asks for the new names, what his printed history would call Grover 1 and 2's eras, and a comparison of both approaches.

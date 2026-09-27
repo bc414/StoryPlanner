@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's proposed backstory for Scootaloo's parents (expatriate scientist-explorers funded by University of Pridea or Skyfall cartels, off exploring Shire Lanka/Zebrica) is replaced with a different premise: they are New Mareland exiles who sent Scootaloo back to Equestria | "I'm planning on depicting Scootaloo's parents as New Mareland exiles who sent their kid back to Equestria" | stated flatly and briefly, as a plain declaration of the intended setup, without addressing the model's reasoning point by point
+- about: The user overrides the model's speculative backstory for Scootaloo's absentee parents by stating the actual intended premise: they are political exiles from New Mareland who sent Scootaloo back to Equestria, rather than expatriate explorers funded by foreign capital.

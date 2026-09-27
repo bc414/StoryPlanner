@@ -1,0 +1,13 @@
+- asks:
+  - revise | redo the earlier analysis so it incorporates the whole list of corrections given | "Please redo the analysis with the following corrections"
+  - decide | weigh whether Equestrian bat ponies should be dropped entirely or kept only as a tiny, insignificant minority | "I'm wondering if I should not bother with Equestrian bat ponies, or they should be a very small and insignificant minority"
+  - choose | pick between Meztli being old enough to personally remember the betrayal versus only knowing it secondhand from her parents | "Should Meztli be Granny Smith's age and actually remember the betrayal as a young adult? Or should she be working off of the verbal assertions of her parents"
+  - consider | work out, if Meztli is the elder witness, whether she should become Mali's grandmother instead of her mother, or instead had Mali later in life like the Grovers | "perhaps she needs to be elevated to Mali's grandmother ... Unless Meztli didn't have a kid until older"
+  - answer | explain why bats (and by extension thestrals) have fangs | "Why do bats have fangs?"
+  - answer | judge whether ponies eating meat to fuel bigger brains parallels the reason humans are omnivores | "is that why humans are omnivores?"
+- supplies:
+  - lore corrections list | notes on Celestia's Everfree policy timeline, griffon industrialization under the Grovers, thestral/bat-pony biology and origins, Tzinacatl expat workers, and character Meztli's backstory | several paragraphs of mixed statements and questions
+- shaping:
+  - work the stated corrections into the redone analysis as given facts rather than treating them as open to dispute | "redo the analysis with the following corrections"
+- openness: Mostly leans toward the corrections it states as settled for the redo, but it explicitly poses an either/or choice for Meztli's age and lineage and leaves the bat-pony-inclusion and fang/omnivory questions open for the model to work out.
+- subject: Revising MLP-inspired worldbuilding lore on Celestia's Everfree policy, griffon industry, thestral origins, and a character's backstory

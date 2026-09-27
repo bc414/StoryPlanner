@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model lumped Réni and Minette together as aces who share one psychology and one arc, when they differ: Minette was traumatized by lack of agency in her grooming, while Réni nearly always had agency, with a backstory of his family's economic rights, the revolutionary city and his return to Vinovia | "The difference between Minette and Réni is that" | stated flatly as a clarification, backed by a chain of backstory reasons
+  - reading of the plan | The model put the fall of predatory joy and the resulting growth on the aces and Rainbow Dash as a group. The user places Réni's character development in the cognitive dissonance of shooting conscripts in the present day to protect the trenches | "So I think the cognitive dissonance of shooting conscripts in present day" | offered as a hedged conclusion drawn from the backstory, redirecting without saying the model was wrong
+- about: The user separates Réni from Minette by their different histories of agency, which the model had blurred, and says his arc comes from dissonance over shooting conscripts.

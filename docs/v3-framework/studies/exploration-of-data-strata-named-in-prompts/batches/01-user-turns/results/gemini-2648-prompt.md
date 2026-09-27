@@ -1,0 +1,5 @@
+- sources:
+  - the chasseur doctrine | the thing to be revised; the model is to update it | Refine the chasseur doctrine | referred-to
+  - this example of griffon and pony anatomy in this world | the basis for the refinement; treat the anatomy example as the input that drives the changes | based on this example of griffon and pony anatomy in this world | referred-to
+- order:
+- about: The user asks the model to revise the chasseur doctrine using the griffon and pony anatomy example just discussed as the basis.

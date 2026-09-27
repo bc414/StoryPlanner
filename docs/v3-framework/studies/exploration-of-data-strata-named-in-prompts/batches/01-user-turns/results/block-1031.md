@@ -1,0 +1,6 @@
+- sources:
+  - ASOIAF, its grimdark thesis | the published work whose thesis the model is to explain and account for the reasons behind | Why is ASOIAF giving the grimdark thesis that it gives | referred-to
+  - George RR Martin's lived experiences | the model is to check whether ASOIAF's thesis is rooted in the author's life, drawing on its own general knowledge | Is it rooted in George rr Martin's lived experiences | referred-to
+  - my meta narrative | the user's own story plan, used as the point of comparison against ASOIAF's thesis | How does that differ from my meta narrative | referred-to
+- order:
+- about: The user asks the model to explain why ASOIAF takes its grimdark stance, whether that stance comes from George RR Martin's life, and how it differs from the user's own meta narrative.

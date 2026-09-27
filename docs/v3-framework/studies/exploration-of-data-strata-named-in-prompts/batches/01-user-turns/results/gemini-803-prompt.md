@@ -1,0 +1,5 @@
+- sources:
+  - the idea that Celestia becomes a mare of little words because of this one aspect (the naming-convention analysis from the model's previous turn) | accepted as a direction to build on; the user likes it and adds detail to it, treated as adopted into the plan | I like the idea that Celestia becomes a mare of little words | referred-to
+  - real France and the rest of the world (the model's general knowledge of real-world surnames tied to terroir or regions) | to be consulted as a factual check on whether the Aquileian terroir-surname idea has real-world basis | Is this true in real France or the rest of the world? | referred-to
+- order:
+- about: The user accepts the model's idea that Celestia's silence stems from the naming convention, sketches how it might appear on the page, and asks whether terroir-linked surnames exist in real France and elsewhere so they can parallel ponies' cutie marks for Aquileian griffons.

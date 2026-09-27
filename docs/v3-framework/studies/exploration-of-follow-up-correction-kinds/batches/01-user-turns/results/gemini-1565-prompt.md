@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model put the first in-person Blueblood and Applejack meeting later in Canterlot, after the radio scene; the user places it earlier, in Ponyville at the start of Encirclement before the paradrop, when the eastern front has already been won | "the best face to face meeting is at the beginning of Encirclement" | Softly, as a personal view ("I think") with the story's situation given as the reason. It never says the model was wrong, and it is left to be read as a replacement.
+- about: The user answers the radio-versus-face-to-face analysis by saying where and when they think the two should actually meet, Ponyville before the paradrop at the start of Encirclement, which quietly replaces the model's Canterlot placement.

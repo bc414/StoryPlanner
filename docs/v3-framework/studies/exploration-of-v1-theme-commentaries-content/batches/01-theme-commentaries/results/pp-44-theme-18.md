@@ -1,0 +1,3 @@
+- passages:
+  - scene event recap (story-world fact about what AJ's distraction caused, with no stated link to the theme) | Applejack's preoccupation with Henri's calling the changelings poseurs, and with whether she is one herself, made her fail to notice Fleur and Henri flirting | "so distracted by Henri calling the changelings poseurs" and "completely missed Fleur and Henri flirting" | yes | plain past-tense declarative sentence, a one-line summary in expository prose
+- whole: A one-sentence recap of the scene's cause-and-effect, in which Applejack's absorption in the idea of poseurs makes her miss Fleur and Henri flirting, and which does not itself say how this bears on Intimacy and Liberty.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's closing question about how the Ditrysium backstory reaches Chapter 1 and answers it with a new design: an orphanage allegory told at a sleepover, plus the clues by which Eagleclaw deduces Chrysalis is a changeling, without disputing anything the model said.

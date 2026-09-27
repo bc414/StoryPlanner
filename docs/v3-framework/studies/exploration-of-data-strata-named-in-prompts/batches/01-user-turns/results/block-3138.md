@@ -1,0 +1,7 @@
+- sources:
+  - all of this expansion | treat as the established basis for building the new ontology; the model is to draw on the preceding expanded material (ocean history, hippogriff/seapony outposts, trade) | Given all of this expansion | referred-to
+  - chapter Passion of v1 archive (not migrated to v2 yet) | the place where the foal story context appears; the model is to use it as the scene context for the comedy sequence | The context that appears is in the chapter Passion of v1 archive | referred-to
+  - Gemini-era "death of the foal story" about Equestrians seeing hippogriffs dying | discard; drop this dramatic version | you can ditch the dramatic Gemini-era | referred-to
+  - comedy sequence where Fleur asks Twilight where she thinks foals come from, with Applejack's Battle of Mount Aris callback | the scene context to build the new ontology around | The context is a comedy sequence where Fleur asks Twilight | referred-to
+- order:
+- about: The user asks the model to build a new ontology (mythical tale plus materialist historicist substrate) for the hippogriff and seapony foal story, drawing on the expanded material and the v1 Passion chapter's comedy scene, while discarding the old Gemini-era dramatic version.

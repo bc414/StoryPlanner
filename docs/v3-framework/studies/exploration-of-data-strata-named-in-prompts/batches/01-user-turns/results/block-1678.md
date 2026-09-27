@@ -1,0 +1,5 @@
+- sources:
+  - TLTT v2-definitions.md (the attached file of revised definitions) | the thing being evaluated; read and assess it | Please evaluate these revised definitions | first-named
+  - the principles established throughout this conversation | the standard the definitions are to be measured against | compared to the principles established throughout this conversation | referred-to
+- order:
+- about: The user attaches a revised definitions file and asks the model to evaluate it against the principles established earlier in the same conversation.

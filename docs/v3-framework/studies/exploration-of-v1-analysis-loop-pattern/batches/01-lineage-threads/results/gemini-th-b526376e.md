@@ -1,0 +1,30 @@
+- steps:
+  - author | asks for gap-check | remaining important planning views beyond characters and themes | opening of stretch
+  - model | proposes missing pillars | geography, codex/encyclopedia, and writing-status entities with C# code | response to gap-check
+  - author | takes up one idea, raises a new need | keeps location idea; asks for a place to define cross-chapter systems like tech mechanics or nation tenets | follow-up after geography answer
+  - model | maps new need onto a named concept | introduces 'Codex' entity, usage-type payload, comparison table of pillars | response to systems question
+  - author | requests a definition | asks what 'Codex' means, says unfamiliar with the term | follow-up
+  - model | defines the term | contrasts Codex (static facts) with Threads (dynamic story), gives example entries | response to definition request
+  - author | refines the design | proposes atomic facts inside a codex entry, with plot points linking to specific facts via a payload, citing 'unified theory of magic' as example | follow-up idea
+  - model | elaborates the refinement | gives CodexFact/PlotPointCodexFact models, FactInteraction enum, worked example | response to refinement
+  - author | extends the design further | asks whether facts can have one-way dependency links to facts in other codexes | follow-up
+  - model | builds a dependency structure | CodexFactDependency model, EF Core config, 'lore tree' example, UI suggestion | response
+  - author | opens a new design question | asks pros and cons of nesting plot points | new topic
+  - model | weighs tradeoffs and gives a verdict | pros/cons list, recommends against arbitrary nesting, offers two alternatives | response
+  - author | accepts recommendation, asks a new architecture question | picks the flat-list alternative; asks if DTOs/ViewModels are needed for a local project | follow-up
+  - model | gives an architecture verdict | recommends direct-entity pattern, explains DbContext factory pattern with code | response
+  - author | requests code generation | asks for all model classes, annotations, and OnModelCreating code | follow-up request
+  - model | generates code, but generic | produces fanfiction-website model classes unrelated to the planned tool | response to request
+  - author | repeats the request, reasserting the target | asks again for the narrative loom's model classes | correction/re-request
+  - model | generates code, still generic | produces a different generic Story/Chapter/Scene/Character set, response cuts off | response
+  - author | corrects again, specifying scope explicitly | asks for model classes matching exactly what was planned in this conversation for the EaW fanfic | correction
+  - model | generates code, now setting-specific but partial | EaW enums and entities, response cuts off before covering the earlier Codex/PlotPoint architecture | response
+  - author | pivots to an unrelated technical problem | reports the Gemini web UI failing to load chat history, asks how to restore it or export data | new topic
+  - model | gives troubleshooting and export instructions | browser fixes and Google Takeout steps | response
+  - author | reports a mismatch with the instructions | Takeout dropdown shows 'Gemini' not 'Gemini Apps' | follow-up
+  - model | confirms and explains | naming inconsistency between Takeout and My Activity | response
+  - author | reports failure of the suggested step | selecting 'Gemini' in Takeout only yields Gems and Scheduled actions | follow-up
+  - model | gives a corrected procedure | step-by-step path through My Activity submenu to reach Gemini Apps | response
+- kept:
+- brought: The author brought the design work already accomplished earlier in the session (character/theme planning views) as the base to extend, and later brought a worldbuilding example of their own ("the unified theory of magic") to ground the codex/fact-linking design.
+- loop: Across this stretch the author steadily pushed a software-design conversation forward—raising gaps, refining data models, asking for tradeoffs, and finally requesting generated code—while the model iterated with entities, enums, and verdicts each time; but since this exchange was about building the planning tool itself rather than producing story content, none of it was traced into the planning database, so the loop here shows design work being done and then dropped rather than harvested into notes.

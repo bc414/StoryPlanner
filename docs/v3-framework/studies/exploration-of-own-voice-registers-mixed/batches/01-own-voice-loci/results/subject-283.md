@@ -1,0 +1,20 @@
+- passages:
+  - 5051 | narrative plot-summary | third-person, past tense, plain declarative | Twilight's vision to open the school to all creatures | apart
+  - 5052 | narrative plot-summary | third-person, past tense, reported decision | Celestia limiting enrollment to trusted nations | apart
+  - 5053 | narrative plot-summary | third-person, past tense, chained clauses | deer's exclusion and Twilight reaching out to Velvet | apart
+  - 5053 | worldbuilding aside | parenthetical, present tense, background fact | Queen Velvet's underground resistance | run-in
+  - 5053 | narrative plot-summary | main clause resumes, past tense | Velvet's refusal | run-in
+  - 5054 | narrative plot-summary | third-person, past tense, contrastive 'but' clause | school's limited scope and Twilight's trust in Celestia | apart
+  - 5054 | author meta-commentary | first person 'my lore', present tense, direct statement | absence of chancellor Neighsay/EEA in this version | apart
+  - 5055 | narrative plot-summary | third-person, present tense, causal 'because' clause | Silverstream leaving due to Storm King attack | apart
+  - 5619 | canon-comparison commentary | emphatic capitalized negation, present tense, references show episodes | school not being a top-down farce like season 8 | apart
+  - 5619 | narrative plot-summary | third-person, present tense, references in-story lesson | Twilight avoiding explicit flashcards, seeking organic friendship reports | apart
+  - 5619 | analytical conclusion | hedged 'pretty much', drawing an inference | outcome of school being ordinary with reluctant Mane 6 teachers | apart
+- shifts:
+  - 5053 | narrative plot-summary | worldbuilding aside | parenthetical opening naming Velvet's resistance
+  - 5053 | worldbuilding aside | narrative plot-summary | parenthetical closes, sentence resumes with main verb 'refuses'
+  - 5054 | narrative plot-summary | author meta-commentary | shift to first-person 'in my lore' stating a worldbuilding rule
+  - 5619 | canon-comparison commentary | narrative plot-summary | shift from negating show's depiction to describing Twilight's in-story actions
+  - 5619 | narrative plot-summary | analytical conclusion | transitional 'This pretty much results in' drawing a conclusion
+- registers: narrative plot-summary; worldbuilding aside; author meta-commentary; canon-comparison commentary; analytical conclusion
+- whole: This item's notes are written in several registers, mostly a plain narrative plot-summary that stands apart sentence by sentence, occasionally broken by a parenthetical worldbuilding aside running into the same sentence, and twice giving way to distinct apart sentences of author meta-commentary, canon-comparison commentary, or an analytical conclusion.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model built a separate wrapper item ViewModel and a standalone dashboard ViewModel with its own window, where the user wanted a sorted collection view of EntityViewModel objects living in MainViewModel, sorted by a property they are adding to EntityViewModel | "I want it in MainViewModel" and "I'm adding this property to EntityViewModel to sort by" | restated the original ask flatly, without mentioning the earlier answer, so the correction is implicit
+  - reading of the request | The model's aggregation included Location entities, but the user wants only Codex entry, Theme, Thread, Character and Chapter, with Location and plot point excluded | "Not plot point view model or location" | flat list of what to include and exclude, given as a constraint, with no comment on the previous set
+- about: The user restates their request, asking for a sorted collection view of EntityViewModel objects in MainViewModel keyed on a new CharacterCount property and limited to specific entity types, which quietly redirects away from the separate dashboard and wrapper design that included Locations.

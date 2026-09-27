@@ -1,0 +1,21 @@
+- passages:
+  - 5655 | quoted canon dialogue | quotation marks, exclamation, first-person in-universe explanation | purpose of Crystal Faire lifting spirits to power the Crystal Heart | run-in
+  - 5655 | analytic gloss | dash-attribution, cross-references a coined technical term | identifies speaker and equates the line to the 'charitostatic effect' | run-in
+  - 5655 | quoted canon dialogue | quotation marks, hedging phrase 'I only hope' | doubt over whether the crystal heart is still as powerful | run-in
+  - 5655 | analytic gloss | dash-attribution, names a coined term 'epistemological gap' | explains that ponies 1000 years ago wrongly believed the heart itself was the power source | run-in
+  - 5655 | exclamatory revelation | capitalized word, exclamation marks, comparative claim | Mi Amore's concealment was deliberate, parallel to Grover III | apart
+  - 5655 | exclamatory revelation | exclamation mark, past-tense narrative | Mi Amore mined the heart from crystals and hid the mechanism in myth and tradition | run-in
+  - 5655 | technical exposition | present tense, technical vocabulary, parenthetical caveat | Aquileians reverse-engineer the crystal lattice and misclassify the friendship effect | apart
+  - 5655 | technical exposition | 'therefore', declarative summary | crystal heart's story parallels the idol of boreas as a manufacturable natural crystal | run-in
+  - 5657 | etymological definition | third-person declarative, dictionary-style gloss of a foreign word | the several meanings carried by Aquileian 'cœur' in the device's name | apart
+  - 5658 | deliberative questioning | question marks, hedges 'or', 'maybe', weighing of alternatives | whether crystal hearts should run on pure love without resilient ponies, and effects on Chrysalis/changelings | apart
+  - 5658 | declarative assertion | flat statement, no hedge, causal 'because' | changelings won't adopt the pink-love model since they need jaeger geist and panzer haut | run-in
+- shifts:
+  - 5655 | quoted canon dialogue | analytic gloss | dash introduces a third-person explanatory clause naming a technical term
+  - 5655 | analytic gloss | quoted canon dialogue | a new quotation mark reintroduces an in-universe line
+  - 5655 | quoted canon dialogue | analytic gloss | dash introduces the coined term 'epistemological gap'
+  - 5655 | analytic gloss | exclamatory revelation | capitalized word and exclamation marks mark a shift to an assertion of authorial intent
+  - 5655 | exclamatory revelation | technical exposition | shift from past-tense narrative to present-tense technical vocabulary, exclamation dropped
+  - 5658 | deliberative questioning | declarative assertion | hedging words drop and a flat causal statement replaces the open weighing of options
+- registers: quoted canon dialogue; analytic gloss; exclamatory revelation; technical exposition; etymological definition; deliberative questioning; declarative assertion
+- whole: This item holds several registers, with note 5655 repeatedly alternating, often within the same sentence via dashes, between quoted in-universe dialogue, third-person analytic gloss, exclamatory revelation, and present-tense technical exposition, note 5657 staying in a single etymological register throughout, and note 5658 moving once from hedged deliberative questioning into a flat declarative assertion.

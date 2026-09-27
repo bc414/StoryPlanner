@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the prior analysis of the harsh rifle-teleport action but pivots to ask for alternative resolutions to the Canterlot occupation, requesting the model re-consult the planning document and think more creatively about options and their thematic/plot consequences.

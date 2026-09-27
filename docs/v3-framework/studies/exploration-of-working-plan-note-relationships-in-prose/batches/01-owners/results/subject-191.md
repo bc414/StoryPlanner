@@ -1,0 +1,8 @@
+- relations:
+- outward:
+  - 918|The 4th Battle of Tall Tale, a battle scene held elsewhere in the plan|4th Battle of Tall Tale
+  - 918|Applejack, another character to whom Elvir surrenders|surrenders to Applejack
+  - 918|The POWs, a group of prisoners saved in the battle, held elsewhere|All the POWs are saved
+  - 918|Trimmel, another character, and the camp where he is held|Elvir joins Trimmel at the camp
+  - 918|Whoever Elvir is a plant for, and the larger scheme behind it, not stated here|He's essentially a plant
+- whole: This owner has only one note, so there is nothing to hang together or to join; the note stands alone and points outward to other parts of the plan.

@@ -1,0 +1,23 @@
+- passages:
+  - note 3968 | naming/quoted-slogan | title set off by dash, exclamation mark, imperative quote "Just laugh to make them disappear!" | the concept's name and its catchphrase | apart
+  - note 3968 | analytical-expository | conditional clause "makes perfect sense when...but not...", parenthetical aside | the limits of the slogan against real enemies | apart
+  - note 3969 | analytical-expository | declarative definitional sentences, third-person examples (Chrysalis's elite, jaegers) | defining Predatory Joy as the tyrannical form of Laughter | apart
+  - note 3970 | analytical-expository | declarative "implies," gnomic infinitive list ("to smile...keep up...") | defining Resilience as carrying on despite an unkind world | apart
+  - note 3970 | naming/quoted-slogan | quotation marks around an imperative catchphrase "Keep Calm and Carry On" | naming the resilience slogan | run-in
+  - note 4003 | aphoristic-definition | two short parallel clauses, "X is joy from Y" | contrasting Laughter and Hedonism | apart
+  - note 4016 | expository-summary | short third-person declaratives | the Temberik as a model of resilience and Pinkie's learning from them | apart
+  - note 5262 | list-equation naming | "Element of X = Y (gloss)" lines | naming Elements of Harmony and Stagnation | apart
+  - note 5262 | list-equation naming | "Element of War = Survivalism (Joyless survival)" | naming the Element of War | apart
+  - note 5262 | second-person declarative address | present-tense "you" sentences, no equation syntax | what it feels like to live Survivalism | apart
+  - note 5262 | list-equation naming | "Element of Tyranny = ... (Predatory Joy -" | naming the Element of Tyranny | apart
+  - note 5262 | second-person declarative address | "you" clause completing the parenthesis, "you laugh because you ARE the monster)" | what it feels like to live Predatory Joy | run-in
+  - note 5262 | list-equation naming | "Element of Liberty = Resilience" | naming the Element of Liberty | apart
+- shifts:
+  - note 3968 | naming/quoted-slogan | analytical-expository | moves from a title-plus-quoted-exclamation to a reasoned conditional sentence judging the slogan's limits
+  - note 3970 | analytical-expository | naming/quoted-slogan | moves from a definitional "implies" sentence into a quotation-marked imperative catchphrase inside the same sentence
+  - note 5262 | list-equation naming | second-person declarative address | after the War equation, syntax drops the "=" naming form for direct "you" sentences describing the feeling
+  - note 5262 | second-person declarative address | list-equation naming | returns from the "you" sentences to the "Element of X = Y" naming form for Tyranny
+  - note 5262 | list-equation naming | second-person declarative address | inside the Tyranny line's parenthesis, the gloss shifts from a noun phrase to a "you laugh because..." clause
+  - note 5262 | second-person declarative address | list-equation naming | closes the parenthesis and returns to the bare "Element of Liberty = Resilience" naming form
+- registers: naming/quoted-slogan register; analytical-expository register; aphoristic-definition register; expository-summary register; list-equation naming register; second-person declarative address register
+- whole: This item's notes move among six registers — analytical-expository definition, terse aphoristic definition, plain expository summary, list-style naming equations, quoted-slogan naming, and second-person direct address — with most passages standing apart as their own sentences or list lines, while quoted slogans and second-person asides twice run directly into the same sentence as the naming register around them.

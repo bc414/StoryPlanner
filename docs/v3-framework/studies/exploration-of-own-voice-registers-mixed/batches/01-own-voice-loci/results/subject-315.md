@@ -1,0 +1,24 @@
+- passages:
+  - 5669 | narrative chronicle | past tense, plain event report | Star Energy's origin as a failed predatory tractor company | apart
+  - 5670 | narrative chronicle | past tense, plain event report | Comet Shine buying and rebranding the company | apart
+  - 5671 | narrative chronicle | past tense summary of a business ethos | Comet Shine's honest tractor business model for farmers | apart
+  - 5671 | technical explanation | technical vocabulary, mechanism description | hybrid oil engine and crystal spell matrix improving combustion | apart
+  - 5671 | narrative chronicle | past tense, plain stated fact | use of tally sticks and the name Harmonic Capitalism | apart
+  - 5672 | narrative chronicle | past tense chronicle of cause and effect | loan program spreading harmonic capitalism into a communal Star Energy fund | apart
+  - 5673 | narrative chronicle | past tense, general historical claim | the long culture war between Tall Tale and Las Pegasus | apart
+  - 5673 | thematic analysis | present tense, abstract-noun listing, symbolic claim | Las Pegasus's vice versus Tall Tale's industry as rival civic identities | apart
+  - 5674 | narrative chronicle | past tense clause reporting a vote | the wartime command economy vote and its return provisions | run-in
+  - 5674 | parenthetical aside | parenthesis, subjective hope | hoping the voters survive the war | run-in
+  - 5674 | narrative chronicle | past tense clause resuming after parenthesis | comparison to Kemerskai's martial law vote | run-in
+  - 5678 | planning question | interrogative, self-addressed | how to hint at Star Energy's pre-war non-monopoly status | apart
+  - 5678 | present-tense character description | present tense, third person, describes perception and scene | AJ's tough-general mask hiding the harmonic roots, revealed to Twilight, grim in chapter 1 with Comet Shine | apart
+  - 5695 | design-rationale note | meta reference to a game focus/mechanic | linking Star Energy's artillery-designer focus to white phosphorus from earth pony soil | apart
+- shifts:
+  - 5671 | narrative chronicle | technical explanation | switch to technical vocabulary (hydrocarbons, branched chains, combustion)
+  - 5671 | technical explanation | narrative chronicle | return to plain fact statement about currency and naming
+  - 5673 | narrative chronicle | thematic analysis | shift from a past-tense specific historical claim to present-tense generalizing characterization
+  - 5674 | narrative chronicle | parenthetical aside | opening parenthesis introducing a subjective hope
+  - 5674 | parenthetical aside | narrative chronicle | closing parenthesis, resuming the plain clause
+  - 5678 | planning question | present-tense character description | shift from an interrogative addressed to self to declarative present-tense narration about characters
+- registers: narrative chronicle; technical explanation; thematic analysis; parenthetical aside; planning question; present-tense character description; design-rationale note
+- whole: Most of this item's notes sit in a single plain past-tense narrative-chronicle register carrying Star Energy's history, but that register is occasionally broken at clean sentence boundaries by a technical explanation, a thematic analysis, and once by a parenthetical aside fused inside one sentence, while two notes depart from it entirely into a self-addressed planning question paired with present-tense character description, and a separate design-rationale register tying the lore to a game mechanic.

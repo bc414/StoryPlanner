@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether the new set of virtues should be named "The Elements of Liberty" or something better, and asks it to give reasons, without pointing to any body of material.

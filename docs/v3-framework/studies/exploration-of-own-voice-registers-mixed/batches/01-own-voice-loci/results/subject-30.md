@@ -1,0 +1,5 @@
+- passages:
+  - note 12 | biographical timeline notation | fragments, no subject in first clause, dates given as bare years, present tense for narrated events | his birth, his father's death, and his early intelligence | apart
+- shifts:
+- registers: biographical timeline notation
+- whole: The note is written in a single register throughout: a terse, dateline-style biographical notation that lists events with bare years and present-tense verbs.

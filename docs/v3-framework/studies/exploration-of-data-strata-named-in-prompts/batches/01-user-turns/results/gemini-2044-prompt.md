@@ -1,0 +1,5 @@
+- sources:
+  - the phase 1 instruction | the existing Phase 1 prompt is the base text to be revised, keeping it and adding to it | Update the phase 1 instruction | referred-to
+  - the categorical protocol | the handling of the categorical axes, to be written into the Phase 1 instruction as an explicit section, as the relational one already is | the categorical protocol explicitly as well | referred-to
+- order:
+- about: The user asks the model to revise the Phase 1 Cartographer prompt so that the categorical axes get their own explicit protocol alongside the relational one.

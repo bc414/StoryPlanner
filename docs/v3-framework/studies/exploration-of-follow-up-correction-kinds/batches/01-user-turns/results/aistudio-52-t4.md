@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The characters' whereabouts and fate: the model had their manifesto travel outward and drive the Severyanan Winter Revolution and Stalliongrad, and asked what Caramel Marks makes of the Great War. The user puts them in Skyfall throughout, running underground agitation, and says the Harmonic Capitalists push them aside. | "in Skyfall the whole time" and "completely sidelines them" | Implicit and mild. It is offered as the user's own view ("I think") and given as a plain alternative, with no mention of the model's version and no explicit statement that it was wrong.
+- about: The user offers their own placement of Caramel Marks and Fire Angel as underground agitators in Skyfall who are marginalised during the Ambition revolt, and this cuts against the model's picture of their ideology spreading and shaping later events.

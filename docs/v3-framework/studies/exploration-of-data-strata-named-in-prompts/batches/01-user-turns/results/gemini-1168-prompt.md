@@ -1,0 +1,5 @@
+- sources:
+  - original plan for a split between mass drug export tribes and artisan drug tribes, meant to represent the Skyfall Aquileia divide | earlier plan now in doubt; the author asks whether to drop or fold in the artisan tribes, so treat as provisional and open to change | I was originally planning on having a distinction | referred-to
+  - medicinal tribes as Aquileian allies (the current setup) | treat as the present state of the story that the original plan now conflicts with; the question is how to fit the older idea around it | now I have the medicinal tribes as Aquileian allies | referred-to
+- order:
+- about: The author asks whether an earlier planned split between mass-export and artisan drug tribes should be dropped or folded in, given that the medicinal tribes are now Aquileian allies, and floats options such as obsolescence, elite demand or conversion to rubber.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts "Unbridling" as the term and moves on to designing how the Skyfall DRM equivalent works, proposing a griffon squire-and-fealty messaging magic tied to the Charitostatic Effect and asking for Genghis Khan's messaging network as a model.

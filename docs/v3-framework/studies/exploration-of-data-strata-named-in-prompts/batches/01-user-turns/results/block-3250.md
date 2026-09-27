@@ -1,0 +1,4 @@
+- sources:
+  - The author's own intended design for the Jonasi equivalent in the Great Lakes (a warlord with multiple wives and a big estate who sells raw materials and buys guns and Skyfall goods) | treat as the author's own conception and as a correction of the model's mapping onto desperate workers or farmers | I figured the Jonasi equivalent would be a warlord | first-named
+- order:
+- about: The user corrects the model's mapping by stating from their own plan that the Jonasi counterpart in their world is a wealthy Great Lakes warlord and not a poor worker or farmer.

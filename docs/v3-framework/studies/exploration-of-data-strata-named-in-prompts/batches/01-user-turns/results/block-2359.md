@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general technical question about how Newtonsoft.Json deserialization handles classes whose constructors require parameters, without pointing at any body of material for the model to use.

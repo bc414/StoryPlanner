@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of the loud extractor community versus the silent cooperators and asks a new follow-up question about where discussion of the cooperation model can actually be found, without disputing anything the model said.

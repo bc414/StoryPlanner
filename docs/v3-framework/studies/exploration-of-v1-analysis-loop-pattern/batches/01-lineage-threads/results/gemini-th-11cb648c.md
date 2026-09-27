@@ -1,0 +1,42 @@
+- steps:
+  - author | request | asks for an Asian-theater equivalent to an earlier German drug/POW analysis | opening of the stretch
+  - model | analysis | historical breakdown of Japanese drug use, surrender psychology, the Manchuria invasion, POW gulags, and Unit 731, each mapped to story factions | reply to the Asian-theater request
+  - author | question | asks what fueled individual soldiers during the Rape of Nanjing | after the Asian-theater analysis
+  - model | analysis | five causal factors behind the Nanjing violence, each mapped onto the story's 'True Believer' faction | reply to the Nanjing question
+  - author | draft | proposes a two-faced opening to the war: an orderly Vanhoover surrender versus an Acornage sack, then a hard-fought Stalliongrad campaign | after the Nanjing analysis
+  - model | structuring | turns the proposal into a formal phased narrative structure with named generals and strategic goals | reply to the two-faced war draft
+  - author | question | asks how the historical Axis drugs were actually manufactured | after the war-structure reply
+  - model | analysis | explains German and Japanese drug manufacturing supply chains and maps them onto the story's ammunition and harvesting systems | reply to the manufacturing question
+  - author | question | asks why this drug history is absent from high-school teaching and how well documented kamikaze drug use is | after the manufacturing reply
+  - model | analysis | contrasts high-school and college treatment of the topic and cites the 'Clean Wehrmacht' myth and recent historiography | reply to the documentation question
+  - author | question | asks why it took seventy years for this history to surface despite living witnesses | after the documentation reply
+  - model | analysis | explains Cold War myth-making, veteran shame, and disciplinary silos, and ties the explanation to the author's existing thesis-writing character subplot | reply to the seventy-years question
+  - author | reaction | expresses surprise that his own addiction/rehab subplot mirrors real wartime history | after the seventy-years reply
+  - model | affirmation | validates the parallel and offers a menu of next steps: outline update, narrative analysis, or scene drafting | reply to the reaction
+  - author | question | asks for more detail on drug precursor sourcing | after the menu offer
+  - model | analysis | explains the plant-based precursor supply chain and maps it onto one city as raw-material source and a machine as refinery | reply to the precursor question
+  - author | question | asks whether the historical invasion targeted the precursor plant specifically and when the drug was invented | after the precursor reply
+  - model | factual answer | clarifies the invasion's real motive versus the drug windfall and gives the invention timeline mapped to the story's tech gap | reply to the invasion/invention question
+  - author | question | asks why the historical chemists originally created the drug | after the invention-timeline reply
+  - model | factual answer | explains the medical origin of the drug in asthma treatment and maps it onto an inventor character's arc | reply to the origin question
+  - author | question | requests a broad comparison of drug chemistry classes: meth, opioids, stimulants, alcohol, THC | after the origin reply
+  - model | explainer | systematic mechanism-by-mechanism breakdown of each drug class mapped onto the story's two named drugs | reply to the broad chemistry question
+  - author | question | asks for other real-world drug types serving similar functions | after the chemistry breakdown
+  - model | expansion | introduces four further drug classes and story-equivalents with a summary table | reply to the further-drugs question
+  - author | correction | specifies the intended chemistry of the two story drugs and questions whether methadone is the right analog, also raising a black-market economy idea | after the expanded drug-class reply
+  - model | correction | flags a medical inaccuracy in the proposed analog, proposes a reframing around a different chemical, and answers the black-market economy question | reply to the correction
+  - author | scope-setting | states he is not drafting, only building knowledge, then asks about oxytocin versus serotonin, cocaine, betel nut, khat, and modern meth treatment | after the reframe
+  - model | explainer | answers each sub-question in turn with a story-mapping suggestion attached | reply to the knowledge-building questions
+  - author | question | asks about a stimulant medication, synthetic oxytocin, and social-media/brain-chemistry overlap | after the prior explainer
+  - model | explainer | answers each question and frames the antagonist faction as functioning like an addictive social-media algorithm | reply to the new question set
+  - author | correction | rejects the algorithm/hive-mind framing and lays out his own species biology in detail, plus two further drug-market ideas | after the algorithm framing
+  - model | synthesis | reframes the exchange as a formal narrative and literary analysis of the story plan, elaborating the biological, class, and economic themes as established plan elements | reply to the biology correction
+  - author | correction | clarifies the actual planned ending, citing existing chapters by name | after the synthesis reply
+  - model | confirmation | checks the correction against the uploaded plan's named chapters and confirms alignment | reply to the ending correction
+  - author | question | asks how two specific drugs compare in danger, whether one treats addiction to the other, and whether the story's mass-market drug should combine both | after the ending confirmation
+  - model | recommendation | compares the two real drugs, confirms one drug's treatment efficacy for the other, and recommends a split design across two story factions | reply to the danger/cocktail question
+  - author | question | asks for an explanation of withdrawal chemistry across drug classes | after the cocktail recommendation
+  - model | explainer | breaks down withdrawal mechanisms per drug class and maps each onto specific army behaviors, then offers to analyze a later scene next | closing reply of the stretch
+- kept:
+- brought: The author brought forward pieces of his existing story plan — the war's opening invasion structure, the Red Love/Pink Love addiction-and-rehab subplot, a thesis-writing character, a black-market drug economy, and named late-story chapters — using the model's historical research to test, refine, and correct them.
+- loop: The author repeatedly brought real-world drug/war history questions and his own worldbuilding decisions, and the model returned historical explanations paired with speculative mappings onto the story, which the author then accepted, corrected, or overrode when the model's inferences (a hive mind, a wrong drug analog) drifted from his actual plan; none of this exchange was captured into the planning database, so the loop closed within the conversation itself rather than depositing anything into the tracked notes.

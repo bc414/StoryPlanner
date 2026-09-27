@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks what comes next in the model's running list of narrative innovations, continuing the sequence without commenting on or disputing the previous batch.

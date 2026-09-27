@@ -1,0 +1,13 @@
+- asks:
+  - summarize | give a chronological, thorough summary of the attached past planning conversation | 'Give a chronological thorough summary of this past conversation of a planning session'
+  - analyse | identify and note the different twists that occurred over the course of that planning conversation | 'note the different twists'
+  - estimate | judge how much of the conversation is now outdated because later insights superseded earlier ones | 'give an estimate of how much of the thread is no longer relevant due to later insights overriding older ones'
+- supplies:
+  - attachment (placeholder) - transcript of a prior planning-session conversation | content unknown, never captured in this record; message treats it as a full past conversation to be summarized | unspecified, presumably a lengthy document
+- shaping:
+  - summary must be chronological | 'chronological thorough summary'
+  - summary must be thorough/detailed | 'thorough summary'
+  - must explicitly call out points where the plan changed direction | 'note the different twists'
+  - must include a quantitative/qualitative estimate of obsolete portions | 'give an estimate of how much of the thread is no longer relevant'
+- openness: Open-ended: the message does not name any particular summary, twist, or relevance figure, leaving all three outputs (summary content, list of twists, obsolescence estimate) entirely for the model to determine from the attached transcript.
+- subject: Summarizing and evaluating the evolution of a past AI-assisted story-planning conversation, including its shifts in direction and outdated portions

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the chapter-title discussion and floats a new plot idea in which AJ sees Rainbow Dash's trail after she is shot down and has Twilight teleport them to the air base to intercept her.

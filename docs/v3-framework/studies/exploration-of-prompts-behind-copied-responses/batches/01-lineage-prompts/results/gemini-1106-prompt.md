@@ -1,0 +1,10 @@
+- asks:
+  - confirm | asks whether Luna's argument in the scene should be built around the specific proposed line, framed as a deliberate parallel to Pétain's rhetoric | "So should Luna's argument center around... which is a direct mirror of Pétain?"
+- supplies:
+  - proposed line, a candidate piece of dialogue for Luna | Luna arguing that pride in resistance matters less than the ponies' safety | one line
+  - field marshal's quote, a piece of in-story dialogue | the changeling field marshal Trimmel's ultimatum that surrender means safety and resistance means removal | two short sentences
+  - plot facts, established outcomes in the story | those who surrendered are fed and housed, those who resisted are tortured, grounding Luna's binary framing | a couple of sentences
+  - character fact, a stated future development | Applejack's eventual epithet "the Lioness of Tall Tale" is said to result from this dynamic | one line
+- shaping:
+- openness: The message leans toward an answer it names: it proposes a specific line for Luna's argument and its Pétain parallel and asks the model to confirm this should be the centerpiece, while stating the surrounding plot logic (surrender vs. torture, Applejack's epithet) as already-settled fact rather than open questions.
+- subject: Luna's persuasive argument for surrender in an occupation storyline, its parallel to Pétain, and its link to Applejack's later title

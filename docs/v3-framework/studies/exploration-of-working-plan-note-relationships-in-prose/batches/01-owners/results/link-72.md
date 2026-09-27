@@ -1,0 +1,6 @@
+- relations:
+  - 2066|2133|2133 states in brief the expectation-and-reversal (angry mob expected, organized guild of engineers found) that 2066 spells out in full with its reasons; 2133 is a compressed instance of 2066's update|Readers expect an angry mob of workers. They get a highly organized guild of engineers|implicit
+- outward:
+  - 2066|The strategy game settings (HOI4/EaW) and their ever-present communism and Caramel Marks ideology, which shape the reader's expectation|due to HOI4/EaW featuring communism and Caramel Marks as an ever present ideology in every nation
+  - 2066|The tycoons and their equipment, the blockade, and the Skyfall B2B subscription and planned obsolescence held elsewhere in the world|their equipment is literally failing due to the blockade and no replacement parts for their Skyfall B2B subscription traps
+- whole: Two notes on the same reader-belief update that hang together, with 2133 a short restatement of the core reversal that 2066 develops more fully.

@@ -1,0 +1,9 @@
+- steps:
+  - author | supplies material | attaches a document | opening turn of the thread
+  - author | poses a question | asks whether Applejack's radio needs special handling or can just be an ordinary radio | first substantive message
+  - model | offers a thematic proposal | justifies the radio's uniqueness via crystal-vs-vacuum-tube doctrine, psychological burden, a Ship-of-Theseus upgrade arc, and symmetry with a later scene, plus two follow-up questions | third turn, first model reply
+  - author | corrects a premise | rejects the friendship-based-radio origin (attributes it to the Crystal Empire), states the revamped competent army would use proper hybrid radios, and explains the old prototype idea was leftover from an outdated incompetent-army version, asking for a new rationale | fourth turn
+  - model | revises the proposal | reworks the radio's uniqueness around Applejack's rank/function as a command transceiver, revises the psychological contradiction and causality explanation, restates the thematic arc from top-down leash to bottom-up network, plus two new follow-up questions | fifth turn, second model reply
+- kept:
+- brought: The author brought the established worldbuilding fact that Friendship Shields originate from the Crystal Empire, along with an old, now-discarded justification (a bulky pure-magic prototype radio) left over from an earlier version of the plan where the Equestrian Army was portrayed as incompetent.
+- loop: The author brings a worldbuilding question and then a correction grounded in prior lore, and each time the model returns an elaborate, multi-part thematic justification plus follow-up questions; no text from either exchange was traced into the planning database, so the loop here produced drafting/discussion but nothing recorded as kept.

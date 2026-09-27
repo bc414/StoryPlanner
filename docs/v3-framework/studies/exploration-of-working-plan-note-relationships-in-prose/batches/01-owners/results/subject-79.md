@@ -1,0 +1,40 @@
+- relations:
+  - 480|715|the allegory says ambition is magic and is the fuel like oil and coal; the ontology note states raw magic is the fuel input for matrices and engineering|ambition is equivalent to magic, and it is literally the fuel / raw magic is the fuel input|implicit
+  - 480|483|the general claim that ambition is the fuel of the technology is instanced by the matrix draining a pony's own Red Love/Ambition|Red Love/Ambition / literally the fuel to power|implicit
+  - 483|715|the allegory of a Luna Nova draining the user's own energy is grounded in the rule that raw magic is fuel for the Luna Nova Rifle and matrices|Luna Nova / fuel input for spell matrices|implicit
+  - 483|1939|both frame the technology as open and knowable to its user: no hidden fees versus an open source smartphone|transparent... no hidden subscription fees / open source smartphone|implicit
+  - 997|1909|the lithography analogy is inspiration for the mechanism of etching a horn pattern into crystal|etching horn patterns into crystal / etching it into a crystal|implicit
+  - 997|1918|the lithography analogy is realised in the plan where a lithography spell etches new matrices, and T2 makes T1 copies|lithography / lithography spell to etch|implicit
+  - 1909|1918|the scaling-up note continues the basic matrix definition, turning a single etched crystal into a repeatable product (T1) via bootstrapping|spell matrix (T1 - the end product) / etching it into a crystal|implicit
+  - 1909|1169|the matrix needs very stable flow or shatters; the vacuum chamber is what ensures stable flow|very stable flow of magic / ensure the magical flow is stable|implicit
+  - 1909|1921|the general rule that unstable flow shatters a matrix is instanced by red love exploding matrices|otherwise it will shatter / exploded the spell matrices from instability|implicit
+  - 1002|1921|the 985 dampeners let a matrix use unstable red love, while in 986 undampened researchers' matrices exploded and the drug was ignored; the two speak of the same instability problem from different sides|unstable red love as a power source / exploded the spell matrices from instability|implicit
+  - 553|1169|the reason (love disperses through air, needs vacuum) is the ground for the bootstrapped vacuum chamber build|under vacuum. Artisan vacuum chambers / vacuum chamber... not disturbed by air flow|implicit
+  - 1169|1918|both describe griffon bootstrapping, and the T2 process relies on a griffon's flow stabilizer machine that the vacuum chamber note builds up to|bootstrapping / magic flow stabilizer machine|implicit
+  - 553|1938|the vacuum requirement for separating love from magic is presupposed by the filtering spell plus vacuum valve power source|separate the two, it must be done under vacuum / filtering spell and vacuum valve|implicit
+  - 1910|1920|the appliqué naming statement is repeated word for word, and the usage-plan note goes on to explain why Aquileians and Equestrians name it differently|call the etched crystal an "appliqué" / The Equestrians simply call it a "spell matrix"|implicit
+  - 1910|1907|the etymology note explains the fabric and software sources of the appliqué name given in the ontology note|appliqué / extra piece attached... application|implicit
+  - 1907|1939|the software analogy is shared: appliqués as application software, and the base parts as the phone platform|Application Software / spell matrices are software applications|implicit
+  - 1907|1938|the systems-software chassis (draining crystal and valve) is the same set of parts as the power source with a common output piece to matrices|draining crystal and the three-way valve / vacuum valve... common output piece|implicit
+  - 1937|1938|one states the benefit of a modular, renewable canister power source and the other details how the parts fit together|modular and renewable / Power sources and spells are modular|implicit
+  - 1939|1938|the same components (canister, filtering spell, vacuum valve) are listed and equated to a smartphone or given a common output|canister + draining spell matrix + vacuum valve + filtering spell / reusable canister plus filtering spell and vacuum valve|implicit
+  - 1937|1939|both name the canister and filtering spell parts, one as modular power benefit, the other as a phone analogy|interchangeable canisters / canister + ... filtering spell matrix|implicit
+  - 750|1830|making unicorn magic available to all through industry is an instance of commoditised magic freeing creatures for their talents|available to all creatures / commoditized solutions|implicit
+  - 750|1918|industry making magic available is delivered through the scale-up in which griffons make T1s to sell|use industry / griffons are able to make T1s to sell|implicit
+  - 750|1920|mechanizing what unicorns already do organically is the rationale behind Equestrians' plain name, matching the plan to spread unicorn magic industrially|simply mechanizing something they already do / make unicorn magic available|implicit
+  - 1903|1169|griffon artisanship where the griffon builds the machine themselves is what the lathe-and-vacuum-chamber bootstrapping shows|griffon has to build the machine themselves / griffon uses their lathe|implicit
+  - 1902|715|magical engineering as applied magic is tied to raw magic as the fuel of magical engineering|Magical Engineering is applied magic / fuel input for... magical engineering|implicit
+- outward:
+  - 483|Twilight, the Luna Nova and Red Love held elsewhere|Twilight's matrices... Luna Nova... Red Love/Ambition
+  - 715|the Luna Nova Rifle, a separate device|the Luna Nova Rifle
+  - 1002|the great leap forward, the conquest of Vraks, and changeling engineers, events and people elsewhere|great leap forward and conquering Vraks
+  - 1921|Chrysalis and the red love drug trade|Chrysalis's red love drugs flood the international market
+  - 1903|Grover III, the University of Pridea and the Royalists, held elsewhere|Grover III's griffon magical artisanship
+  - 750|Twilight and Fleur as characters of the story|Twilight and Fleur use industry
+  - 1910|the Aquileians, a culture held elsewhere|The Aquileians call the etched crystal
+  - 1920|Aquileian and Equestrian societies and an unnamed "she" who mechanizes spells|The Equestrians simply call it / she isn't introducing
+  - 1937|crystallers and their emotion filtering spell|the crystallers' emotion filtering spell
+  - 1938|the crystal enhancer device that directs into a unicorn's horn|a crystal enhancer directing into a unicorn's horn
+  - 1918|the crystal enhancer and the lithography spell as other pieces of lore|crystal enhancer... lithography spell
+  - 1828|real-world AI as the present-day counterpart|The real world, present-day equivalent is AI
+- whole: The notes hang together fairly well as a set, with clusters on fuel and instability, on etching and bootstrapped production, on the appliqué naming and software analogy, and on modular power sources, though a few entries such as the AI parallel and the theme note stand mostly alone.

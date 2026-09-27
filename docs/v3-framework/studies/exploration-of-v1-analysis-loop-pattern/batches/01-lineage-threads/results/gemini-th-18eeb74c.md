@@ -1,0 +1,21 @@
+- steps:
+  - author | correction | rejects prior analysis, insists Celestia would keep moving the sun for free even without being head of state | opening of the message
+  - author | directive | names the desired framing, "not required, but optimal" | early in the message
+  - author | cross-reference | cites a contrasting scene from another story (P&K) where Flurry Heart resents Celestia's absence and Spike's excuse, and notes canon (Hearth's Warming Eve) disproves it | mid message
+  - author | rationale-building | lays out the causal chain he wants — sun-raising tied to crystals, resource wars, and economic burden — to ground Celestia's motive in lore rather than plot convenience | mid message
+  - author | thesis plus check | asserts this choice makes Celestia "a character, not an institution" and asks the model to confirm this holds both during and after her rule | mid-late message
+  - author | comparative claim | argues this will set the story apart in EaW lore and Fimfiction, contrasting canon's treatment of Celestia (institution) against Luna (character) | closing of message
+  - model | validation | affirms the revision as the key to unlocking Celestia's character and agrees there's no reason for her to stop moving the sun | opening of reply
+  - model | analysis | walks through three economic eras (pre-Celestia, Celestia, Republic) to ground the "stagnation of harmony" theme in resource economics | early section of reply
+  - model | analysis | contrasts Celestia-as-institution versus Celestia-as-character once the crystal-tech monopoly is broken | middle section of reply
+  - model | thematic linkage | connects Celestia's voluntary sun duty to Applejack's "honest work" ethos as parallel civic contributions | middle section of reply
+  - model | draft | writes a finale dialogue beat where Celestia frames continuing to raise the sun as her citizen's contribution rather than a ruler's duty | mid-late section of reply
+  - model | comparative verdict | names two common tropes for writing Celestia and proposes a "third path" the story takes instead | later section of reply
+  - model | summary | recaps the lore chain from canon fact to story twist to resolution as a closing bullet list | closing of reply
+- kept:
+  - note 1818 | pasted from this reply inside the author's own framing | keeps the model's "her job/her contribution" line for Celestia's sun duty, folded into the author's own framing about her becoming a pony not an institution and snubbing S9/G5, placed on the PlotPoint for Celestia's eve-of-referendum talk with Applejack
+  - note 3610 | pasted whole from this reply | keeps the model's two-tropes list (plot device / tyrant-failure) from the comparative verdict, placed on the Link between the peaceful transition of power and the P&K subversion
+  - note 3611 | pasted whole from this reply | keeps the model's "third path" bullets (product of her time, adaptable, human) from the comparative verdict, placed on the same Link
+  - note 3612 | pasted whole from this reply | keeps the model's closing line about solving the "Celestia Episode Problem" and the two becoming colleagues, placed on the same Link
+- brought: The author brought a correction to a prior analysis of Celestia's motives, supported by a cross-story contradiction from another work and a canon detail, to argue that Celestia should keep raising the sun voluntarily rather than out of necessity.
+- loop: The author brought a correction plus supporting lore evidence to push Celestia's sun-raising from an unquestioned setting invariant to a voluntary, character-defining choice; the model returned an expanded economic and thematic analysis with a draft dialogue beat, and the plan kept the comparative "third path" framing on a story-link node and a reframed version of the key dialogue line on the corresponding plot-point node.

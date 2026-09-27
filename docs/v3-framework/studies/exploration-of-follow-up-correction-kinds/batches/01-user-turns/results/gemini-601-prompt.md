@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis of banned play and takes it forward into a new plot detail, in which rehabilitated conscripts in Fluttershy's POW camp lost their games, fell behind on quotas, got drafted, and now ask for foals' games while making silk blankets and stuffed animals for love donors.

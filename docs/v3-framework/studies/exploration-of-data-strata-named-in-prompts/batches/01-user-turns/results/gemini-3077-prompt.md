@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a real-world history question about why people moved from cities to suburbs, and whether upbringing, religion, or manipulation by anti-labor elites using the Soviet threat drove it, as a follow-up to the previous discussion of real-world forces.

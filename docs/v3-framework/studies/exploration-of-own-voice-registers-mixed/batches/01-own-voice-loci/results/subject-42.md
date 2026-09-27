@@ -1,0 +1,10 @@
+- passages:
+  - note 4743 | analytical present-tense characterization | present tense verbs "sees"/"recognizes", judgment of character | Blueblood's read on the Storm King versus Chrysalis and on Fizzlepop's role | apart
+  - note 4743 | present-tense plot synopsis | temporal "When...after..." clause, named places and title, action verbs "returns"/"taps" | Fizzlepop's return and joining Blueblood and Mudbeak on the report | apart
+  - note 5385 | quoted rhetorical question | quotation marks, second-person address, question form | a chess metaphor spoken about casualties | run-in
+  - note 5385 | expository attribution note | no quotation marks, descriptive phrase with no subject-verb narration | naming when the quote gets used | run-in
+- shifts:
+  - note 4743 | analytical present-tense characterization | present-tense plot synopsis | move from insight-verbs ("sees", "recognizes") to a temporal clause and named events ("When Fizzlepop returns...")
+  - note 5385 | quoted rhetorical question | expository attribution note | close of the quotation mark followed by a dash and a subject-less descriptive tag
+- registers: analytical present-tense characterization; present-tense plot synopsis; quoted rhetorical question; expository attribution note
+- whole: This item's two notes together hold four distinct registers, one note shifting cleanly between two summary registers at a sentence break and the other running a quoted line straight into its own explanatory tag with only a dash between them.

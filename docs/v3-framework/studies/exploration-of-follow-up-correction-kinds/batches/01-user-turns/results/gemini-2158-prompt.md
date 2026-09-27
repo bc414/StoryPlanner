@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user applies the model's history of nitrogen, fertilizer and gunpowder to their own pony world and revises their own earlier assumption about which pony tribe would produce gunpowder, without saying the model was wrong.

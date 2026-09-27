@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 1874 | Applejack's earlier encounter with the warlords, an earlier episode held elsewhere | "I saw the warlords. I know it gets ugly."
+  - 1874 | The events of the year 1011 ALB, which she is about to enter, and the troops and war they involve, held elsewhere | "Applejack enters 1011 ALB"
+- whole: The owner has a single note, so there is nothing to hang together or fall apart; it stands as one entry.

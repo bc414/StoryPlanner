@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user explains from their own story design how Minette's and Réni's backgrounds differ (Minette's lack of agency versus Réni's early agency) and proposes that Réni's character development comes from the cognitive dissonance of shooting conscripts in the present-day trenches.

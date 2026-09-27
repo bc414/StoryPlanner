@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated 13.1 as Twilight's critique of Celestia and asked whether the fanfic references carry emotional weight. The user says the scene is Applejack recalling memorable Faust-era Twilight moments before the mandate, and the fanfic nods are a bonus that illustrates a callback to simpler times. | The 13.1 scene plan is about Applejack pointing out memorable moments; whether readers recognize it is just a bonus | Plain restatement of what the scene is for, offered as background alongside answers to the model's other open questions, with no complaint about the misreading
+- about: The user supplies the context the model said it lacked (the 13.1 intent, the T/M version plan, the war since chapter 1, Henri's role) and asks for a fresh analysis of chapters 12 and 13 that focuses on the sex-ed humor and the chapter 12 drug deal.

@@ -1,0 +1,7 @@
+- sources:
+  - original plan for Flurry Heart singlehoofedly filtering the crystal heart | treat as outdated and due for rework; it borders on deus ex machina and came from early planning | "can be reworked now to better fit the theme" | referred-to
+  - what I have established about crystal ponies having emotion sense like changelings | treat as settled worldbuilding to build the new filtering mechanic on | "who I have established have emotion sense like changelings" | referred-to
+  - Crystal Empire Part 1 and 2 canon episodes | use as precedent that Cadance, and so Flurry Heart and Shining Armor, can control and filter the heart by casting spells | "as Cadance does in the Crystal Empire Part 1 and 2 canon episodes" | referred-to
+  - the charitostatic effect | treat as an existing mechanic to link the democratized spell matrices to, letting hornless crystal ponies contribute | "related to the charitostatic effect which allows crystal ponies" | referred-to
+- order:
+- about: The user proposes reworking the Crystal Heart defense so that many trained crystal ponies, a Pinkie Promise and Spike's heroic image share the load instead of Flurry Heart alone, and asks which combination of mechanics to keep.

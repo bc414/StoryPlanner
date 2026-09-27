@@ -1,0 +1,4 @@
+- sources:
+  - My story / the story | treat the author's description of its nature and themes (hopepunk, anti-corporate, anti-fascist, deconstructing the professional class) as true and as the fixed basis for the answer | "My story is inherently hopepunk" and "The story has strong anti corporate themes" | referred-to
+- order:
+- about: The user asks how their hopepunk story, which has anti-corporate, anti-fascist and professional-class-deconstructing themes, can reach the nihilistic WSB audience without alienating it, and states those themes as the givens for the answer.

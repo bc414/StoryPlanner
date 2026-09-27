@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user outlines a planned first meeting between Rainbow Dash and Twilight Velvet during the war, in which Velvet confirms she knew and says the real struggles aren't suitable for foals, and asks whether a second post-war meeting is still needed or whether the theme is already covered.

@@ -1,0 +1,6 @@
+- sources:
+  - /dev_diary_north_zebrica_and_the_north_zebrican_war | review it and use it as the overview of the North Zebrican War for answering | "review this overview of the North Zebrican War" | first-named
+  - EaW standard games | treat as the baseline for when the North Zebrican War happens, concurrent with the Equestrian-changeling Great War and the Reich vs Republican Pact war in 1011 ALB | "in EaW standard games takes place concurrently" | first-named
+  - the user's own statement in this turn about Twilight's 1007 charity year | treat as newly established story fact: a year of top-down charity that barely dented the recovery, then collapse and return to Ponyville for the magical supply organization | "Now I'm establishing Twilight spent a year in 1007" | first-named
+- order:
+- about: The user points the model to a dev diary overview of the North Zebrican War, fixes Twilight's 1007 top-down charity year and the wartime occupation of Ain Trotgourait by Colthage and Chirropterra, and asks what theme that occupation should serve.

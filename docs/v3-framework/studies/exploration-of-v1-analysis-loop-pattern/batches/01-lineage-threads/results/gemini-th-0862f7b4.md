@@ -1,0 +1,19 @@
+- steps:
+  - author | pitch a worldbuilding pivot | idea that Griffonia, not Equestria, starts the industrial revolution, leaving Equestria stagnant | opening prompt of the stretch
+  - model | analyze implications | five-point breakdown of how the pivot deepens themes and reframes several characters/plot beats | reply to the pivot
+  - author | ask a lore question | whether EaW canon covers changeling draining/love mechanics relevant to the author's own concepts | next prompt
+  - model | supply mapped lore | canon love-harvesting institutions and love-type distinctions lined up against the author's existing terms | reply to the lore question
+  - author | ask an unrelated technical question | whether NotebookLM can process a very long single document | next prompt
+  - model | answer with a technical breakdown | file-size limits, context-window capacity, and a workaround, plus an offer to help further | reply to the technical question
+  - author | recall a canon scene, state a subversion goal, and request more detail | the passive Twilight/Jachs cave scene and the intent to instead put Twilight active at the front with Applejack; asks for more on love types | next prompt
+  - model | expand the lore and propose a subversion | fuller love-type breakdown, description of the canon scene, and ways to invert it | reply to the subversion request
+  - author | correct a plan detail and ask a follow-up | clarifies the intended antagonist is Trimmel, not Jachs, and asks whether a Twilight-studies-with-scientists path is canon or a misremembering | next prompt
+  - model | confirm and reframe | confirms the canon path exists and reframes it around the stated antagonist, adding a rivalry framing | reply to the correction
+  - author | bring in outside research with embedded notes | annotated Rommel biography excerpts interleaved with the author's own parallels to Trimmel, requesting comparison and enhancement suggestions | next prompt
+  - model | analyze and propose enhancements | five enhancement points mapping the historical figure's traits onto the antagonist's arc, plus a revised arc summary | reply to the research comparison
+  - author | ask for more, orthogonal | request for additional angles beyond the five just given | next prompt
+  - model | supply further analysis | five additional threads drawn from the author's own story-bible document, oriented around relationships and origin rather than the historical parallel | final reply
+- kept:
+  - note 5459 | pasted whole from this reply | keeps a single summary line characterizing the antagonist regime's core thematic lie, filed under a Changeling Lands subject entry
+- brought: The author brought an outside document of Rommel Wikipedia excerpts interleaved with their own notes drawing parallels to the character Trimmel, asking for a comparative analysis against existing plans.
+- loop: The author repeatedly brings worldbuilding pivots, lore questions, corrections to existing plans, and outside research to test and refine specific elements (Equestria's tech level, the love economy, and the antagonist Trimmel), and the model returns matching lore mappings and arc enhancements; of all this exchange the plan database kept just one distilled line characterizing the antagonist regime, filed under a subject entry.

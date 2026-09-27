@@ -1,0 +1,16 @@
+- steps:
+  - author | establish | faction leaders and setting facts (Gaudreau leads Aquileia, Vérany as Pan Griffonian, GR's win, standardized industry without standardized language, Universal Translator) | opening of the message
+  - author | contrast | GR's mobility-based ambition model versus Aquileia's specialty/ecology-based model | early-to-mid message
+  - author | pose question | whether Aquileia's ecological diversity framing mirrors the pony cutie-mark/tribe system and separates it from Herzland griffons | mid message
+  - author | classify | status of minor non-Aquileia non-Herzlander nations and Wingbardy as the fascist holdout | mid-late message
+  - author | pose question | whether the in-game 'Harmonic' label is needed for the story and what each faction's ideology should be named, noting an in-game labeling inconsistency between Kemerskai, Vérany, and Equestria | closing of message
+  - model | frame | casts the whole political landscape as a post-war shift from survival to optimization | opening of the response
+  - model | define | lays out named ideologies (Federal Republicanism for GR, Harmonic Republicanism for Aquileia) with tenets, economics, and goals, confirming the author should ignore contradictory in-game labels | first analytical section
+  - model | affirm and elaborate | confirms the ecology/cutie-mark mirror and extends it into a GR-vs-AR dialogue about forcing specialization | second analytical section
+  - model | analyze | reads the Universal Translator as GR's 'engineering fix' contrasted with Aquileia's 'cultural fix' to the language-mobility problem | third analytical section
+  - model | extend | casts Applejack's mixed-unit army as proof-of-concept validating Aquileia's specialization model over GR's standardization | fourth analytical section
+  - model | resolve | explains how Wingbardy as external fascist threat keeps GR and Aquileia allied rather than sliding into a cold war | fifth analytical section
+  - model | summarize | closes with a three-point ideological spectrum chart placing Wingbardy, GR, and Aquileia/Equestria along authoritarian/homogenous versus libertarian/diverse axes | closing section
+- kept:
+- brought: The author brought a cluster of partially-fixed worldbuilding facts (leaders, faction traits, the Universal Translator) plus open questions about how to name and align each faction's ideology and whether an ecological/cutie-mark mirror holds.
+- loop: The author supplies fragmentary political worldbuilding and asks the model to reconcile naming and thematic consistency; the model returns a full ideological taxonomy and thematic justification, but nothing from this exchange is traced back into the planning database.

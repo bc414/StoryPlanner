@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, whether the new Heiress Refugee backstory also accounts for Applejack's behavior toward Twilight's magic in Winter Wrap Up, extending the framework to another episode without disputing anything the model said.

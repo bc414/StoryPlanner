@@ -1,0 +1,4 @@
+- sources:
+  - past answers | do not use; each prompt should stand alone without drawing on earlier model responses | Not using past answers | referred-to
+- order:
+- about: The user asks how to set up their prompts in AI Studio so each one is fully self-contained and does not draw on earlier answers in the conversation.

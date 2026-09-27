@@ -1,0 +1,8 @@
+- asks:
+  - correction | asks the model to update its understanding that Tall Tale is holding the line rather than being encircled | "To clarify, Tall Tale is not encircled, they are holding the line"
+  - redirection | asks the model to register a shift away from Twilight's magic as the deciding factor at Tall Tale, toward Star Energy and the Aquileian ace fliers holding the line instead | "moving away from Twilight's magic being the soul savior of Tall Tale or the tipping point and positing... Star Energy and the Aquileian ace fliers can hold the line"
+  - specification | asks the model to note that AJ's line about Vanhoover is what triggers Twilight's decision to join the fight | "what triggers Twilight's decision to help fight is when AJ says 'Vanhoover is suffering, and we can't reach them'"
+- supplies:
+- shaping:
+- openness: The message states three settled revisions to the plan (Tall Tale's status, what holds the line, and Twilight's trigger line) as facts to incorporate, not as open questions or options to choose between.
+- subject: Revising the Tall Tale battle sequence and the cause of Twilight's decision to join the fight

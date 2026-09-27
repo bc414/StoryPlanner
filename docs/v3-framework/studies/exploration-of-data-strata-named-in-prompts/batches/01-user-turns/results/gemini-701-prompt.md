@@ -1,0 +1,4 @@
+- sources:
+  - the voting song from the canon episode Crusaders of the Lost Mark | use as the template for a new scene: keep the song but swap the lyric "Vote for Pip" for "Vote for EEEE!" | singing the voting song from the canon episode Crusaders of the Lost Mark but replacing | referred-to
+- order:
+- about: The user proposes a scene idea for the plan, a concert in a Central Park equivalent where the CMCs and Diamond Tiara perform an adapted canon voting song for EEEE! with Trixie providing the stage flair.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's long answer to ask a new question about Fenara's ultimate fate and to request a fresh analysis of where the author's notes appear in the story.

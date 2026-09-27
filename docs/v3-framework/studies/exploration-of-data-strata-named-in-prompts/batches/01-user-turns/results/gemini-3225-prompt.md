@@ -1,0 +1,7 @@
+- sources:
+  - Red Alert 1 | published game whose story and Kane's role the model is to describe; the user's own reading of it as a reskin of the Dune and Tiberian Dawn engine with a sci-fi story is offered as a hypothesis to confirm or correct | Red alert 1 was primarily a reskin of dune and Tiberian Dawn's game engine | referred-to
+  - Tiberian Dawn | published game whose engine the user says Red Alert 1 reused and whose Kane characterization the model is to compare with Red Alert 1 | Kane utilized and characterized across both games | referred-to
+  - Westwood's original plan | Westwood's own intended direction for the series, which the model is to explain, kept apart from what C&C3 did | What was Westwood's original plan, separate from C&C3 | referred-to
+  - C&C3 | later game to be kept separate from the account of Westwood's original plan, not to be used as its basis | separate from C&C3 | referred-to
+- order:
+- about: The user checks their reading of Red Alert 1 as a reskin of the Tiberian Dawn engine with a sci-fi story, then asks how Kane was used and characterized in both games and what Westwood originally planned apart from C&C3.

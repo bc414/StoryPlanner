@@ -1,0 +1,4 @@
+- sources:
+  - Chrysalis's backstory | check the proposed biological-engineering angles against it, to judge whether they fit what she would plausibly do | given her backstory | referred-to
+- order:
+- about: The user asks the model to test whether the Changeling-biology angles it just proposed are plausible for Chrysalis to have engineered, judged against her backstory.

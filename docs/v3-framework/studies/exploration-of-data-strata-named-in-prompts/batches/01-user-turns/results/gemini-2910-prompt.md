@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a design change to the magic system, saying the sovereign mark should be permanent while the other marks stay erasable so no one can erase it and replace it with their own, without pointing at any body of material for the model to use.

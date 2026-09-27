@@ -1,0 +1,4 @@
+- sources:
+  - the idea that Starlight just came from a high octane battle of her vaporizing without consequences (the model's earlier suggestion in this conversation) | accepted as the starting point for the scene; the user builds their own sequence of beats on top of it | I like the idea that Starlight just came from a high octane battle | referred-to
+- order:
+- about: The user accepts the model's premise of Starlight arriving from consequence-free battle and lays out their own revised scene sequence at the mine table, with Maud's vibe check and a provisional closing line for Maud.

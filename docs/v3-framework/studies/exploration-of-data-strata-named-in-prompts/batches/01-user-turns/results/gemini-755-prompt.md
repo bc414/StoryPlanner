@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up historical question about how much ordinary British people supported total mobilization and whether propaganda was needed, without pointing at any particular source of data.

@@ -1,0 +1,6 @@
+- sources:
+  - my story plans | review again and analyze the new phosphorus idea against them | review my story plans again and analyze | referred-to
+  - My lore (Star Energy as a tractor company turned military, the incompetent government, Tall Tale's phosphorus from earth pony pride and the tally stick economy) | the author's stated lore, given as the premise the chemistry answer must fit | My lore says Star Energy was a tractor company | first-named
+  - the phosphorus component (from the model's previous answer) | taken up as the direction the author wants and builds on for Star Energy's secret weapon | The phosphorus component is exactly what I had in mind | referred-to
+- order:
+- about: The author adopts the model's phosphorus idea as Star Energy's secret weapon and Comet Shine's motive in Tall Tale, asks the model to review the story plans, and asks how the chemistry of turning Tall Tale's phosphorus into explosives would work given the lore they restate.

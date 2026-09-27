@@ -1,0 +1,5 @@
+- sources:
+  - Fim's theme song sequence | treat as true canon evidence that Canterlot Castle is visible from Ponyville, and build the implications on that | which is present in Fim's theme song sequence | referred-to
+  - chapter 12 (planned to take place at Twilight's Castle in Ponyville) | take as the author's settled plan for the setting of the Celestia debate and family reunions, and reason about its consequences | I'm planning on having chapter 12 take place at Twilight's Castle in Ponyville | referred-to
+- order:
+- about: The user accepts the advice to tighten the outline, states that chapter 12 will be set at Twilight's Castle in Ponyville, justified by its being home and within sight of Canterlot as in the show's theme song, and asks what other implications that choice has for the story.

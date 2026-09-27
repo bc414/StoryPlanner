@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis as a starting point and asks a new task: list the terms Gemini originated in that conversation and judge which have become distinctly theirs and which are generic and should be dropped, mentioning that they want to drop "nursery" and keep "walled garden".

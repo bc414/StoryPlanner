@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to review them and use them as the basis for the analysis, especially the plot points about Twilight and Applejack drifting apart before the war | Please review my story plans and analyze | referred-to
+- order:
+- about: The user asks the model to analyze a variation in which Applejack stands behind Twilight's shield at the parley, and to check its effect on Tall Tale against the story plans, including the planned drifting apart of the two before the war.

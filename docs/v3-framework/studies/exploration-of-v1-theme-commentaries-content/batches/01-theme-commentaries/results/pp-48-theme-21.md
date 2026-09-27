@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | The scene serves the theme by having Eros concede that the bottom-up republic beat the top-down emperor on morality, so the theme is carried by his admission of defeat | Eros concedes that bottom-up republic prevailed over top-down emperor for morality | yes | terse declarative planning shorthand, a single present-tense summary sentence with no article before the nouns
+- whole: A one-sentence statement that the scene bears on the theme through Eros's concession that the bottom-up republic won over the top-down emperor on morality, which restates what the synopsis already says about his surrender.

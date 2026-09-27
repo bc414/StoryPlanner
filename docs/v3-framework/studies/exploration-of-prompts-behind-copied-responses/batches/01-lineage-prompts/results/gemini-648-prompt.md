@@ -1,0 +1,8 @@
+- asks:
+  - share plan | presents a decided characterization arc for Luna and asks the model to take it in as settled story logic rather than as an open question | "I'm planning on subverting both by revealing the nature of Nightmare Moon's formation"
+- supplies:
+  - idea | the user's own account of common "EaW" tropes about a defeated Luna (pathetic, harmonist shell, survivor's guilt from the Luna Doctrine) that the plan means to subvert | a few sentences
+  - idea | the user's resolution: Nightmare Moon's origin explains Luna's genuine alignment with Celestia, and Luna later backs Applejack's election after seeing Griffonia's peace under "harmonic capitalism" | a paragraph
+- shaping:
+- openness: leans toward the answer it names — the message states its own subversion of the tropes and its own ending (Luna endorsing Applejack) as decided rather than asking for alternatives or feedback.
+- subject: how Luna's psychology and arc, via the Nightmare Moon backstory, subvert typical "Equestria at War" depictions and lead her to endorse Applejack's election

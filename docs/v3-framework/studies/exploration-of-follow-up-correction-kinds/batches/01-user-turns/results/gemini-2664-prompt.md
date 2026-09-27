@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers two ideas of their own for the organization's name, Voltigeurs of Passion and a play on tableau de chasse, and asks the model to consider them, without saying anything in the model's suggestions was wrong.

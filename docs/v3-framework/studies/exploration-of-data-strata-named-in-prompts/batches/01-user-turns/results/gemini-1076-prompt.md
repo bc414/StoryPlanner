@@ -1,0 +1,4 @@
+- sources:
+  - season 6 | treat as the fixed anchor for when Rarity arrives in Manehattan (around 1004), so the timeline should fit it | Rarity doesn't arrive in Manehattan until around 1004 (season 6) | referred-to
+- order:
+- about: The user corrects the timeline of the previous analysis by dating the start of Coltbert's FJA exports and the thestral migration, and pushes back on Rarity being the sole decorator, proposing that Aquileian glamour already existed to draw her as a filly.

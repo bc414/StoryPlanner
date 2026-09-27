@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumptions about their worldbuilding by stating that no crystal reserve exists, explaining why Celestia had to send Nightmare Moon to the moon, and clarifying that Celestia was in hiding rather than banished in 1000 ALB, without pointing at any body of material.

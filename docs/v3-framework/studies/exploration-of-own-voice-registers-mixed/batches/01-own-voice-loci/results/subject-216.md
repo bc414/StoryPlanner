@@ -1,0 +1,58 @@
+- passages:
+  - note 21 | topic-heading | title phrase naming subject, no narration | scope of the industrial-economy note | apart
+  - note 4042 | expository worldbuilding | dense causal list, third-person past tense | funding sources for the Love Harvester | apart
+  - note 4043 | narrative-summary | third-person past-tense recounting, reported speech | invasion of Vraks and ultimatum to drones | apart
+  - note 4043 | evaluative aside | present-tense one-liner, quoted modern slogan | comparison to "Eat the Rich" | apart
+  - note 4043 | sourcing/meta-note | names an external canon source directly | origin of the harvest-the-nobility idea | apart
+  - note 4043 | expository worldbuilding | present/future-tense general claim | origin of love and populace belief | apart
+  - note 4043 | embedded first-person pitch | shifts to "our"/"we" mid-sentence | recruitment pitch to Vraks drones | run-in
+  - note 4043 | expository worldbuilding | returns to third-person general statement | Equestria's non-involvement, hives at war | apart
+  - note 4062 | expository worldbuilding | present-tense definitional claim | definition of the Economy of Conquest and gray love | apart
+  - note 4062 | sourcing/meta-note | names a real-world historical analogy | conquest economy likened to Nazi Germany/MEFO | run-in
+  - note 4062 | fragment-aphorism | subjectless terse phrase | thesis label for growth by looting | apart
+  - note 4062 | expository worldbuilding | full analytical sentences resume | the lie of sustainable gray versus red love | apart
+  - note 4062 | expository worldbuilding | continues same descriptive voice | red love from sea monsters, black-market sale | apart
+  - note 4062 | glossary/etymology annotation | dictionary-style translation, exclamatory remark | etymology of the MEFO acronym | apart
+  - note 4062 | expository worldbuilding | plain claim about in-world inspiration | MEFO bills inspired by Coltbert's fiat notes | apart
+  - note 4062 | sourcing/meta-note | imperative self-directive | reminder to develop the connection later | apart
+  - note 4352 | topic-heading | title phrase ending in colon | naming the education system | apart
+  - note 4352 | expository worldbuilding | causal "because" reasoning, present tense | choices and outcomes in schooling | apart
+  - note 4355 | expository worldbuilding | comparative present-tense claims | VOPS transparency and rat-race meritocracy | apart
+  - note 4357 | expository worldbuilding | present-tense reasoning about necessity | need for real agriculture beside gray love | apart
+  - note 4359 | topic-heading | title phrase naming a structure | the old social pyramid | apart
+  - note 4359 | list-enumeration | numbered plain label | rank of the Queen | apart
+  - note 4359 | glossary/etymology annotation | parenthetical renaming explanation, quoted definition | meaning behind the "Wachter" label | apart
+  - note 4359 | list-enumeration | numbered plain label | rank of miserable drones/prey | apart
+  - note 4360 | expository worldbuilding | present-tense descriptive claims | public display of harvested victims | apart
+  - note 4365 | expository worldbuilding | parallel comparative sentences | sources Chrysalis borrows from other rulers | apart
+  - note 4462 | expository worldbuilding | plain present-tense claim | Herzlander industrialists marrying for names | apart
+  - note 4462 | evaluative aside | blunt subjectless judgment | industrialists as sellouts | apart
+  - note 4462 | expository worldbuilding | unfinished causal claim | critique of Skyfall's ruthless model | apart
+  - note 4462 | expository worldbuilding | plain descriptive claim | Kemerskai's state-driven model | apart
+  - note 4462 | expository worldbuilding | plain descriptive claim | Chrysalis's Zaibatsu/Chaebol model | apart
+  - note 4462 | expository worldbuilding | plain descriptive claim | Eros's benevolent company model | apart
+  - note 4541 | expository worldbuilding | analytical present-tense reasoning | Thorax's revolution as caloric-union dynamics | apart
+  - note 4550 | expository worldbuilding | plain descriptive claim | Dual State between meritocrats and loyalists | apart
+  - note 4551 | expository worldbuilding | single plain claim | fleet split between surface and submarines | apart
+  - note 4552 | expository worldbuilding | single plain claim | conquest economy limited to love | apart
+  - note 4554 | expository worldbuilding | descriptive present/future-tense claims | innovation incentives and consolidation plan | apart
+- shifts:
+  - note 4043 | narrative-summary | evaluative aside | present-tense quoted slogan replaces past-tense recounting
+  - note 4043 | evaluative aside | sourcing/meta-note | naming of external canon source "EaW canon"
+  - note 4043 | sourcing/meta-note | expository worldbuilding | drops source reference, returns to general lore claim
+  - note 4043 | expository worldbuilding | embedded first-person pitch | shifts to "our"/"we" inside same sentence
+  - note 4043 | embedded first-person pitch | expository worldbuilding | returns to third-person general statement
+  - note 4062 | expository worldbuilding | sourcing/meta-note | names Nazi Germany/MEFO bills as explicit analogy
+  - note 4062 | sourcing/meta-note | fragment-aphorism | drops to subjectless terse phrase
+  - note 4062 | fragment-aphorism | expository worldbuilding | returns to full grammatical analytical sentences
+  - note 4062 | expository worldbuilding | glossary/etymology annotation | shifts to dictionary-style translation and exclamatory remark
+  - note 4062 | glossary/etymology annotation | expository worldbuilding | returns to plain in-world claim
+  - note 4062 | expository worldbuilding | sourcing/meta-note | shifts to imperative self-directive about future writing
+  - note 4352 | topic-heading | expository worldbuilding | moves from title phrase to full causal sentences
+  - note 4359 | topic-heading | list-enumeration | moves from title phrase to numbered list
+  - note 4359 | list-enumeration | glossary/etymology annotation | adds parenthetical etymology and quoted definition
+  - note 4359 | glossary/etymology annotation | list-enumeration | returns to plain numbered label
+  - note 4462 | expository worldbuilding | evaluative aside | drops to blunt subjectless judgment
+  - note 4462 | evaluative aside | expository worldbuilding | returns to full explanatory sentence
+- registers: expository worldbuilding; narrative-summary; evaluative aside; sourcing/meta-note; embedded first-person pitch; glossary/etymology annotation; list-enumeration; topic-heading; fragment-aphorism
+- whole: Most notes hold a single steady expository-worldbuilding register, but a handful (4043, 4062, 4359, 4462, plus the headings of 21/4352) break into narrative recounting, blunt asides, sourcing/to-do notes, an embedded first-person pitch, glossary-style etymology, lists, and titles, and while most of these changes land as clear breaks between passages, the analogy-citation in 4062 and the pitch-voice shift in 4043 slide into the surrounding sentence with no break at all.

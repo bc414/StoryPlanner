@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn ignores the model's closing question and instead asks a new question about Rainbow Dash's character arc in GIYC and its application to TLTT.

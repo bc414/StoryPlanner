@@ -1,0 +1,31 @@
+- passages:
+  - note 4988 | declarative worldbuilding exposition | plain third-person present-tense statements, real-world analogy to Vikings/Magyars | feudal protection racket justified by monster threat | apart
+  - note 4988 | corrective contrastive reveal | "This is not a..." construction rejecting a reading | clarifying knights don't control the monster population | apart
+  - note 4991 | declarative worldbuilding exposition | plain factual statements, no address | peasants displaced by industry become bandits or workers | apart
+  - note 4993 | quoted/reported propaganda claim | embedded quotation marks presenting canonical claims | printed myth of Grover I and II's conquests and reigns | apart
+  - note 4993 | corrective contrastive reveal | opens with "The reality is" | true traumatic origin behind the myth | run-in
+  - note 4995 | declarative worldbuilding exposition | plain statement, analogy to German/Latin/Mandarin | standardized elite academic language policy | apart
+  - note 4997 | declarative worldbuilding exposition | plain third-person statement | classical-language injection to build a myth of glory | apart
+  - note 4997 | definitional glossary contrast | short paired term-then-meaning sentences | Kaiser/Reich vs Emperor/Empire connotations | apart
+  - note 4997 | narrated historical event sequence | dated event, "When Eros overthrows..." | Eros restoring Kaiser/Reich under Grover VI | run-in
+  - note 4998 | declarative worldbuilding exposition | single plain assertive sentence | chivalry as a manufactured behavioral myth | apart
+  - note 4999 | rhetorical speculative question | interrogative, "Should...then...?" chain ending in question mark | hypothetical judgment of Celestia toward Grover III's bans | apart
+  - note 4999 | declarative resolution | short assertive "That is exactly why..." | explains Celestia's ban on industrialization | run-in
+  - note 4999 | declarative worldbuilding exposition | "Meanwhile" transition, narrative statement | Grover III's fake religion and its short life | apart
+  - note 5004 | telegraphic shorthand notation | clipped fragments, dropped verbs/articles | end of conscription widening class divide | apart
+  - note 5005 | declarative worldbuilding exposition | discursive statements, analogy to English Hundred Years' War model | pre-Grover III meritocratic military system | apart
+  - note 5006 | declarative worldbuilding exposition | single sentence, analogy to Rome | imperial order as Grover III's mandate | apart
+  - note 5007 | declarative worldbuilding exposition | plain sequential statements | nobles' shift from state service to self-profit | apart
+  - note 5009 | telegraphic shorthand notation | subjectless fragment | new griffons rising through education to industry | apart
+  - note 5232 | quoted/reported propaganda claim | "Grover III's texts claim..." framing | printed myth of a pre-unification dark age | apart
+  - note 5232 | corrective contrastive reveal | opens with "The reality is" | gradual real development of Herzland before conquest | run-in
+- shifts:
+  - note 4988 | declarative worldbuilding exposition | corrective contrastive reveal | paragraph break and "This is not a private game reserve" construction
+  - note 4993 | quoted/reported propaganda claim | corrective contrastive reveal | "The reality is" phrase, no paragraph break
+  - note 4997 | declarative worldbuilding exposition | definitional glossary contrast | paragraph break and switch to term-then-meaning pairs
+  - note 4997 | definitional glossary contrast | narrated historical event sequence | shift to a dated narrated event, "When Eros overthrows...", no break
+  - note 4999 | rhetorical speculative question | declarative resolution | shift from question mark to declarative "That is exactly why", no break
+  - note 4999 | declarative resolution | declarative worldbuilding exposition | paragraph break and "Meanwhile" transition to new topic
+  - note 5232 | quoted/reported propaganda claim | corrective contrastive reveal | "The reality is" phrase, no paragraph break
+- registers: declarative worldbuilding exposition; corrective contrastive reveal; quoted/reported propaganda claim; definitional glossary contrast; narrated historical event sequence; rhetorical speculative question; declarative resolution; telegraphic shorthand notation
+- whole: Most notes hold a single plain declarative worldbuilding exposition, but several run that register up against a distinct corrective, propaganda-quoting, definitional, narrative, interrogative, or telegraphic passage, with the myth-versus-reality pairs flowing together in one unbroken paragraph while other register changes fall at a visible paragraph break.

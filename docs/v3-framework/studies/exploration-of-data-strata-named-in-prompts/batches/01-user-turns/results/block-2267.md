@@ -1,0 +1,5 @@
+- sources:
+  - my central NJ suburb | the author's only firsthand knowledge, given as the limit of what they can speak to, so the model is to describe the other suburbs without relying on the author's own | "I'm only familiar with my central NJ suburb" | first-named
+  - the two paradigms | two frameworks already set out earlier in the conversation, which the model is to compare on where people work and what they do | "Compare the two paradigms" | referred-to
+- order:
+- about: The user says they only know their own central NJ suburb and asks the model to explain what work people in generic suburbs actually do, then to compare the two paradigms from the earlier discussion.

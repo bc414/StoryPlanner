@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general craft question about how load-bearing and impactful third person limited is compared with omniscient, head-hopping and first person, and explains that they used to default to omniscient or head-hopping because they had no planner and now do.

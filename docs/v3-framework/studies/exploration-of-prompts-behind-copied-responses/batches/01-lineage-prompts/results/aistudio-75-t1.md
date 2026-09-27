@@ -1,0 +1,9 @@
+- asks:
+  - brainstorm | asks for ways to integrate or reinterpret the episode within the reimagined backstory | "How to integrate it or reinterpret it in the context of..."
+- supplies:
+  - document | an attached file, presumably containing Applejack's reimagined cutie mark story and her parents' industrialist role (never captured) | attachment, length unknown
+  - premise/note | the user's own claim that "Applejack's Day Off" is canon support for "harmonic capitalism," i.e. friends helping automate chores | a couple of sentences
+- shaping:
+  - must fit within the established reimagined continuity (cutie mark story, industrialist parents) | "in the context of Applejack's reimagined cutie mark story and her parents being industrialists"
+- openness: leans toward an answer it names, since it already frames the episode as supporting "harmonic capitalism" and asks only how to integrate or reinterpret it, not whether that framing holds
+- subject: Fitting the MLP episode "Applejack's Day Off" into a reimagined backstory where Applejack's cutie mark story involves her parents as industrialists

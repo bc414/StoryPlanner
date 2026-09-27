@@ -1,0 +1,13 @@
+- steps:
+  - author | brings plan element with request | already-fixed chapter title scheme (Honesty, Magic, Laughter, Kindness, Generosity, Loyalty tied to characters) plus a request for a method to generate further matching titles and criteria to test them | opening prompt
+  - author | appends grammar question | asks whether abstract 'idea nouns' or the adjectives they derive from make better chapter titles | same opening prompt
+  - model | answers grammar question | verdict that abstract nouns outperform adjectives as titles, with reasoning | start of first response
+  - model | supplies generation methodology | three methods for finding new titles: Pillars-of-Old-Equestria nouns, Hearts of Iron IV interface vocabulary, and 'anti-Elements' opposites | middle of first response
+  - model | supplies evaluation criteria | three-part test for judging a candidate title (uncountable-noun check, dual military/personal meaning check, 'statue' plausibility check) | later in first response
+  - model | offers draft candidates | list of five sample follow-on chapter titles (Duty, Order, Unity, Sacrifice, Harmony) | end of first response
+  - author | redirects to a meta question | asks what sources the model drew on to build its EaW context, instead of continuing to pick titles | second prompt
+  - model | discloses sourcing | breaks down the basis for its answer into wiki/dev-diary lore, HOI4 game-interface text, and fanfiction tagging patterns, and notes the noun/adjective analysis was its own reasoning rather than sourced | second response
+  - model | adds a research pointer | suggests reading each nation's National Focus Tree names on the wiki as a further source of title inspiration | end of second response
+- kept:
+- brought: The author brought an already-decided part of the plan — chapter titles for chapters 3-8 mapped to the Elements of Harmony characters — and asked for a systematic way to extend and validate that pattern.
+- loop: The author brought a fixed piece of the title scheme and a request for methodology and evaluation criteria to extend it; the model returned a linguistic verdict, generation methods, a test checklist, and sample titles, but the author then turned to questioning the model's sourcing rather than adopting any of the offered titles, so nothing from this exchange was carried into the planning database.

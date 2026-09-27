@@ -1,0 +1,10 @@
+- asks:
+  - choice | asks which of two named English phrasings is the right/better form for a spell's name | "should it be 'The Lioness Spell' or 'The Lioness's Spell' in English?"
+  - translation request | asks for the French equivalent(s) of that same spell name | "What are the equivalents in French?"
+  - analysis | asks for the nuances between the naming options, English and French, to be analyzed | "Analyze the nuances"
+- supplies:
+  - naming rationale | explains why "Le Tableau de Chasse" works, playing on "hunting log" vs "trophies," read differently by mares and griffons, becoming ambiguous once the market reaches equilibrium | a paragraph
+- shaping:
+  - reply should address the difference/nuance between the options, not just pick one | "Analyze the nuances"
+- openness: Asks for a choice between two explicitly named English phrasings ("The Lioness Spell" vs "The Lioness's Spell"), paired with an open-ended request for French equivalents and a nuance analysis.
+- subject: Naming and translation nuances for story terms: "Le Tableau de Chasse" and the "Lioness" spell name in English/French

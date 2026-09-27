@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Resilience-versus-Cynicism analysis and asks new questions about George R.R. Martin's generational background, whether he saw reality or fell through the cracks, and who reads ASOIAF today, prompted by the model's mention of ASOIAF as the grimdark baseline.

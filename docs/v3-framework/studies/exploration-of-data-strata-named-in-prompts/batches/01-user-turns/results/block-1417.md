@@ -1,0 +1,8 @@
+- sources:
+  - story planner v1 with all the old data | keep the old notes intact there as the reading source and the place they were entered; read from it and retype what belongs into v2, so the old text never enters v2 | keep all the old data in the v1 story planner. Have both v1 and v2 open | referred-to
+  - story planner v2 (note-track-separated) | the clean target where only newly typed content goes into tracks, with no old text carried in | Read the data in v1 and type what belongs in v2 in tracks | referred-to
+  - the migrated data sitting in v2 after yesterday's migration, the unset notes | treat as dirty and too tightly coupled to split; the user does not want it kept in v2 | I don't want to keep the "unclean" data in the new story planner at all | referred-to
+  - v1's isincorporated marker | use it to track which v1 notes have been entered into v2, giving a visible measure of progress | Use v1's isincorporated to track entry into v2 | referred-to
+  - the user's own recollection of the causal chain of how the project and its 300k words of data came about | the basis for the model's analysis of the causal chain, pros, cons and nuances of the new idea | After stepping away and reflecting and recalling | first-named
+- order:
+- about: The user recounts the history of how their 300k-word story-design data came to be mixed and tightly coupled, and proposes leaving all old data in v1 while hand-typing clean content into v2 tracks (tracked with isincorporated), asking for an analysis of the causal chain and the pros, cons and nuances of that migration approach.

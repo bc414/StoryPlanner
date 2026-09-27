@@ -1,0 +1,6 @@
+- sources:
+  - the running thesis from before rethinking Equestria's history in this chat | author's earlier baseline (ponies not inherently good, have ambition, kept behaving by top-down mandates); treated as the standing position the new framing is measured against, not yet discarded | the running thesis is that ponies are not inherently good | referred-to
+  - the claim that ponies are inherently harmonic, communal, and good (from the model's previous turn) | doubted; author is unsure it is correct and questions whether to keep it | I'm not sure if saying "Ponies are inherently harmonic, communal, and good" is correct | referred-to
+  - the rethinking of Equestria's history done in this chat (the 85% in 930 petitioning Celestia) | author's own current account, restated as the basis to work from; the open question is what truth should sit on it to best deliver the themes | the 85% back in 930 were responding to a threat | referred-to
+- order:
+- about: The author pushes back on the model's claim that ponies are inherently good, restates their earlier thesis and their own reading of the 930 petitions, and asks what underlying truth about ponies would best deliver the story's themes.

@@ -1,0 +1,14 @@
+- asks:
+  - explain | asks why Luna and Celestia, being "this far gone," haven't already announced surrender | "why don't they announce surrender earlier?"
+  - hypothesis-check | asks whether the reason is that they're still in denial and hoping for a miracle | "Or are they still in denial and hoping for a miracle?"
+  - analyze | asks for a pros-and-cons analysis of the surrender-timing question just raised | "Analyze the pros and cons."
+  - choose | asks whether Luna's reluctance to fight, formed after seeing the two realities in her dreams, should be subconscious or explicit | "should Luna's desire to not fight ... be subconscious or explicit?"
+  - brainstorm/justify | asks how to justify the explicit retreat order | "How to justify the explicit retreat order?"
+  - lean-check | asks whether that justification should be emotionally driven | "Emotionally driven?"
+  - explain/brainstorm | asks how Luna can consciously refuse to speak to Mali again | "How can Luna consciously refuse to speak to Mali again?"
+  - choose | asks whether Luna should speak with Mali in the trench | "Should she speak with Mali in the trench?"
+- supplies:
+- shaping:
+  - present the surrender-timing question as a pros-and-cons breakdown | "Analyze the pros and cons."
+- openness: Mixed: it leaves the surrender-timing question open while naming denial/hoping-for-a-miracle as a candidate explanation, and it poses several named-option choices (subconscious vs. explicit motivation; emotionally driven or not; speak with Mali in the trench or not) for the model to decide between.
+- subject: Luna and Celestia's delayed surrender, Luna's hidden motivation against fighting, and her broken contact with Mali

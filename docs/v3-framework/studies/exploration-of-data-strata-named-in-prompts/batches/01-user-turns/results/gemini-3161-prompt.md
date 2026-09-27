@@ -1,0 +1,4 @@
+- sources:
+  - the author's own statement about Herzlander lionesses being heretics for defying their Boreas-ordained role | treat as true, a worldbuilding fact the model should reason from when deciding whether the Aquileian term needs a qualifier | Because a Herzlander lioness is considered a heretic | first-named
+- order:
+- about: The user asks whether the Aquileian term should carry a qualifier such as \"Une Lionne Aquilenne\", justifying the question with their own worldbuilding point that a Herzlander lioness is seen as a heretic.

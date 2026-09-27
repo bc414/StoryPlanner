@@ -1,0 +1,172 @@
+- passages:
+  - 4843 | heading/tag | bare category-label phrase, no verb | names the mechanic 'Capacity Vector' | apart
+  - 4843 | definitional-expository | present-tense generic definition, 'represents' | what the Capacity Vector is | apart
+  - 4843 | attributed-argument | attribution verb 'Coltbert argues that' | his claim that democracy/liberty are purchased luxuries | apart
+  - 4844 | heading/tag | bare category label | names 'Nash Equilibrium' | apart
+  - 4844 | biographical/historical narrative | past tense 'was Universal War', historical framing | the old kill-or-be-killed equilibrium | apart
+  - 4844 | attributed-argument | present tense, attribution verb 'proposes' | his new Armed Peace equilibrium | apart
+  - 4845 | heading/tag | bare category label | names 'Natural Monopoly' | apart
+  - 4845 | attributed-argument | attribution verb 'reinterprets', continuing claim | cutie marks as monopoly on talent turned leverage | apart
+  - 4846 | heading/tag | bare category label | names 'Sovereignty of Consent' | apart
+  - 4846 | definitional-expository | generic present-tense definition | sovereignty as the power to say no | apart
+  - 4846 | biographical/historical narrative | past-tense cognition verb 'Coltbert realized' | his insight linking consent to leverage | apart
+  - 4848 | heading/tag | bare category label | names 'Seduction-Conquest Trade-off' | apart
+  - 4848 | biographical/historical narrative | concrete named scenario, conditional clause | griffoness forced to woo Coltbert or be blacklisted | apart
+  - 4848 | definitional-expository | generic present-tense rule, abstract 'actors' | conquest too costly forces seduction | apart
+  - 4848 | aphoristic-maxim | quoted-term metaphor antithesis 'Hunting Ground'/'Grand Salon' | economy shifting to negotiated value | apart
+  - 4849 | heading/tag | bare category label | names 'Asset-Sovereignty Link' | apart
+  - 4849 | definitional-expository | generic present-tense definition | asset specificity as sovereignty's direct link | apart
+  - 4849 | attributed-argument | attribution verb 'Coltbert proves' | uniqueness makes one irreplaceable | apart
+  - 4849 | aphoristic-maxim | short declarative antithesis, past tense | replacing Force with Leverage | apart
+  - 4849 | second-person address | generic imperative 'you' | winning things through negotiation, not taking | apart
+  - 4850 | heading/tag | bare category label | names 'Individual Agency' | apart
+  - 4850 | biographical/historical narrative | past-tense personal life-story | Coltbert's rebellion through high-stakes affairs | apart
+  - 4851 | heading/tag | bare category label | names 'Interpersonal Seduction' | apart
+  - 4851 | biographical/historical narrative | past-tense personal life-story | wooing griffonesses with wit and safe biology | apart
+  - 4853 | heading/tag | bare category label | names 'Harmonic Capitalism' | apart
+  - 4853 | attributed-argument | present-tense attribution 'rejects...aims to create' | his positive-sum, anti-communist/fascist goal | apart
+  - 4854 | heading/tag | bare category label | names 'Micro-Macro Scaling' | apart
+  - 4854 | attributed-argument | attribution 'asserting', embedded quoted maxim | bedroom-economy analogy | apart
+  - 4854 | outline-index | dash-introduced comma list, no verbs | domains the courting logic applies to | run-in
+  - 4854 | attributed-argument | full-sentence attribution resumes | using personal success to argue for a national economy | apart
+  - 4856 | heading/tag | bare category label | names 'Military-to-Civilian Normalization' | apart
+  - 4856 | biographical/historical narrative | past-tense historical account | chasseurs founding FJA clubs after the front | apart
+  - 4857 | heading/tag | bare category label | names 'Herzlander Feudal Dogma' | apart
+  - 4857 | definitional-expository | present-tense description of a doctrine | hierarchy as divine chain, Lions over Eagles | apart
+  - 4857 | attributed-argument | attribution 'Coltbert attacked...arguing', metaphor | hierarchy as a dance between partners | apart
+  - 4858 | heading/tag | bare category label | names 'Equestrian Stagnant Harmony' | apart
+  - 4858 | biographical/historical narrative | simple past, matter-of-fact | Coltbert visiting Equestria | apart
+  - 4858 | definitional-expository | present-tense generic setting description | ponies as friends needing no social armor | apart
+  - 4858 | attributed-argument | attribution 'critiques...views...arguing', quoted terms | Equestria as infantilizing Nursery | apart
+  - 4859 | heading/tag | bare category label | names 'Verany's Industrial Universalism' | apart
+  - 4859 | attributed-argument | named-figure debate, present tense, quoted terms | Coltbert vs Verany on Clothes for All | apart
+  - 4859 | aphoristic-maxim | short causal and parallel declaratives, quoted glosses | revolution's failure, Love Affair vs Clean Cage | apart
+  - 4859 | attributed-argument | long complex attributed-claim sentence | royal notes as key, Verany as traitor | apart
+  - 4859 | second-person address | generic proverb form with embedded 'you' | a coat keeps the serf warm, not free | apart
+  - 4859 | aphoristic-maxim | third-person generic antithesis, no address | true dignity is owning the machine | apart
+  - 4860 | heading/tag | bare category label | names 'Coltbert's Ego-Capitalism' | apart
+  - 4860 | attributed-argument | present-tense attribution, technical vocabulary | ego-capitalism gamifying the economy | apart
+  - 4860 | aphoristic-maxim | colloquial defensive assertion, dropped jargon | FJA snobbery and belief in uniqueness | apart
+  - 4862 | heading/tag | bare category label | names 'Particularism vs Universalism' | apart
+  - 4862 | definitional-expository | generic present-tense framing, no attribution | the split defining Aquileia | apart
+  - 4862 | attributed-argument | attribution verbs 'champions'/'advocates', two named figures | Coltbert vs Verany's opposing programs | apart
+  - 4863 | heading/tag | bare category label | names 'Harmony vs Ambition' | apart
+  - 4863 | attributed-argument | attribution 'Colt's paper argues' | ambition toward excellence, not dominance | apart
+  - 4864 | heading/tag | bare category label | names 'Meritocracy vs Birthright' | apart
+  - 4864 | definitional-expository | present-tense descriptive claim | Aquileia's meritocracy rewarding hustlers | apart
+  - 4864 | aphoristic-maxim | metaphorical epigram 'gentle purgatory' | fate of the introvert and traditionalist | apart
+  - 4864 | definitional-expository | terse parallel clipped statements naming factions | MPA fascists vs PAT communists' demands | apart
+  - 4865 | heading/tag | bare category label | names 'Noble Griffonesses' | apart
+  - 4865 | biographical/historical narrative | sequential present narrative markers 'until, then, eventually' | griffonesses' path to becoming Grand Bourgeoisie | apart
+  - 4866 | heading/tag | bare category label | names 'Pony Serfs' | apart
+  - 4866 | biographical/historical narrative | past-tense historical account | serfs as pets, Coltbert's proof of the 'player' pony | apart
+  - 4867 | heading/tag | bare category label | names 'Royalist Bureaucrats' | apart
+  - 4867 | biographical/historical narrative | past-tense contrastive historical account | first vs second generation royalists' origins | apart
+  - 4867 | definitional-expository | present-tense generic ongoing description | their self-justifying motives as apex predators | apart
+  - 4874 | heading/tag | bare category label | names 'Urban-Rural Class Friction' | apart
+  - 4874 | definitional-expository | single generic present-tense sentence | chasseurs flexing culture to build rival demand | apart
+  - 4875 | heading/tag | bare category label | names 'Love Harvesters' | apart
+  - 4875 | biographical/historical narrative | past-tense narrative account | Chrysalis's Love Harvesters and rejection of cooperation | apart
+  - 4876 | biographical/historical narrative | past-tense narrative of a figure's premise and actions | Coltbert's rational-actor assumption and scorecard view | apart
+  - 4876 | definitional-expository | evaluative critique framing, 'failed to account for' | the flaw in his theory | apart
+  - 4876 | attributed-argument | new named subjects with attribution verbs | Twilight and Applejack on dignity as a right | apart
+  - 4878 | outline-index | bare part-labels with chapter ranges, no full sentences | three-part structure of the storyline | apart
+  - 4879 | definitional-expository | present-tense metaphor description | Gerad's golden cage and apex predation | apart
+  - 4879 | biographical/historical narrative | parenthetical literal gloss inside the same sentence | what the caged-lions metaphor literally means | run-in
+  - 4879 | attributed-argument | attribution 'Coltbert writes about', evaluative claim | predation's inefficiency, monopoly on violence failing | apart
+  - 4879 | aphoristic-maxim | dash-introduced parallel claim, run-in | Chrysalis making cruelty, not economy, the point | run-in
+  - 4879 | aphoristic-maxim | standalone short declarative | the bauleiters are the economy | apart
+  - 4880 | outline-index | terse 'Paper Vx/Cx -' labels, phrase not sentence | sequence of Verany/Coltbert paper exchanges | apart
+  - 4880 | second-person address | 'you' address inside one list entry | accusing Verany of not solving the dilemma | run-in
+  - 4880 | aphoristic-maxim | third-person generic clause continuing the same entry | workers must be irreplaceable, not just equal | run-in
+  - 4880 | outline-index | terse labels resume | later papers in the exchange | apart
+  - 4880 | attributed-argument | full multi-sentence grammar inside one entry | Coltbert's closing argument on liberty and asset specificity | apart
+  - 4882 | definitional-expository | present-tense generic definitional claims | element spectrums as predator's-dilemma outcomes | apart
+  - 4882 | second-person address | 'you get' embedded mid-sentence | the tyranny outcome when one side defects | run-in
+  - 4882 | definitional-expository | reverts to third-person impersonal | the war outcome when both conquer | apart
+  - 4882 | directive-suggestion | modal 'should', addressed as a planning note | suggestion that Twilight publish this in her revision | apart
+  - 4939 | heading/tag | bare category label | names 'Ambition vs Safety' | apart
+  - 4939 | definitional-expository | past-tense generic parallel claims | ambition needing leverage; dignity alone not enough | apart
+  - 4940 | heading/tag | bare category label | names 'Predator vs Prey' | apart
+  - 4940 | definitional-expository | present-tense generic character-type claim | captains as grifters wanting to be lions | apart
+  - 4940 | biographical/historical narrative | past-tense story naming Minette and Reni | followers misled, Minette's fear, Reni's model | apart
+  - 4940 | definitional-expository | present-tense generic class description resumes | roles of 2nd gen royalists and griffonesses | apart
+  - 4941 | heading/tag | bare category label | names the griffonesses/stallions demographic | apart
+  - 4941 | biographical/historical narrative | historical-present narrative with temporal connectives | evolving tableau de chasse system | apart
+  - 4941 | aphoristic-maxim | exclamatory generalizing claim | griffonesses' machine as a declaration of sovereignty | apart
+  - 4942 | heading/tag | bare category label | names 'The Lioness Spell' | apart
+  - 4942 | biographical/historical narrative | past-tense historical account, named example Minette | cost of conquest under King Gerad | apart
+  - 4942 | definitional-expository | present-tense generic conditional | loss of enforcement after the revolution | apart
+  - 4942 | attributed-argument | attribution verb 'Coltbert invents' | the Lioness Spell as his solution | apart
+  - 4942 | biographical/historical narrative | passive chronological report with specific years | testing and deployment of the spell | apart
+  - 5248 | definitional-expository | present-tense definitional/labeling statements | naming irredeemable Lions and misled Sauvageons | apart
+- shifts:
+  - 4843 | heading/tag | definitional-expository | label phrase gives way to full-sentence prose
+  - 4843 | definitional-expository | attributed-argument | attribution verb 'Coltbert argues that' replaces the generic definition
+  - 4844 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4844 | biographical/historical narrative | attributed-argument | tense shifts past to present with 'Coltbert proposes'
+  - 4845 | heading/tag | attributed-argument | label gives way to prose
+  - 4846 | heading/tag | definitional-expository | label gives way to prose
+  - 4846 | definitional-expository | biographical/historical narrative | past-tense cognition verb 'Coltbert realized'
+  - 4848 | heading/tag | biographical/historical narrative | label gives way to a named scenario
+  - 4848 | biographical/historical narrative | definitional-expository | named scenario gives way to generic 'actors' and conditional rule
+  - 4848 | definitional-expository | aphoristic-maxim | shift to quoted-term metaphor antithesis
+  - 4849 | heading/tag | definitional-expository | label gives way to prose
+  - 4849 | definitional-expository | attributed-argument | attribution verb 'proves'
+  - 4849 | attributed-argument | aphoristic-maxim | short declarative antithesis 'Force' vs 'Leverage'
+  - 4849 | aphoristic-maxim | second-person address | shift to imperative 'you'
+  - 4850 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4851 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4853 | heading/tag | attributed-argument | label gives way to prose
+  - 4854 | heading/tag | attributed-argument | label gives way to prose
+  - 4854 | attributed-argument | outline-index | dash introduces a comma-separated list without verbs
+  - 4854 | outline-index | attributed-argument | new sentence returns to full grammatical claim
+  - 4856 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4857 | heading/tag | definitional-expository | label gives way to prose
+  - 4857 | definitional-expository | attributed-argument | attribution 'Coltbert attacked...arguing'
+  - 4858 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4858 | biographical/historical narrative | definitional-expository | shift to generic present-tense setting description
+  - 4858 | definitional-expository | attributed-argument | attribution 'critiques...arguing' with quoted terms
+  - 4859 | heading/tag | attributed-argument | label gives way to prose
+  - 4859 | attributed-argument | aphoristic-maxim | shift to short causal, parallel declaratives
+  - 4859 | aphoristic-maxim | attributed-argument | return to a long attributed-claim sentence
+  - 4859 | attributed-argument | second-person address | proverb form introduces 'you'
+  - 4859 | second-person address | aphoristic-maxim | drops 'you', returns to third-person generic antithesis
+  - 4860 | heading/tag | attributed-argument | label gives way to prose
+  - 4860 | attributed-argument | aphoristic-maxim | colloquial defensive tone drops technical vocabulary
+  - 4862 | heading/tag | definitional-expository | label gives way to prose
+  - 4862 | definitional-expository | attributed-argument | naming Coltbert/Verany with attribution verbs
+  - 4863 | heading/tag | attributed-argument | label gives way to prose
+  - 4864 | heading/tag | definitional-expository | label gives way to prose
+  - 4864 | definitional-expository | aphoristic-maxim | metaphorical epigram 'gentle purgatory'
+  - 4864 | aphoristic-maxim | definitional-expository | drops metaphor, returns to terse faction-naming
+  - 4865 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4866 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4867 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4867 | biographical/historical narrative | definitional-expository | tense shifts past to present, origin-story to ongoing generalization
+  - 4874 | heading/tag | definitional-expository | label gives way to prose
+  - 4875 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4876 | biographical/historical narrative | definitional-expository | evaluative critique framing 'failed to account for'
+  - 4876 | definitional-expository | attributed-argument | new named subjects Twilight/Applejack with attribution verbs
+  - 4879 | definitional-expository | biographical/historical narrative | parenthesis switches from figurative to literal gloss
+  - 4879 | biographical/historical narrative | attributed-argument | attribution verb 'Coltbert writes about'
+  - 4879 | attributed-argument | aphoristic-maxim | dash-introduced parallel claim about Chrysalis and the statthalters
+  - 4880 | outline-index | second-person address | shift to 'you' mid-entry in one paper label
+  - 4880 | second-person address | aphoristic-maxim | drops 'you', generic third-person clause continues the entry
+  - 4880 | aphoristic-maxim | outline-index | returns to terse label-phrase entries
+  - 4880 | outline-index | attributed-argument | one entry expands into full multi-sentence grammar
+  - 4882 | definitional-expository | second-person address | 'you get' embedded mid-sentence
+  - 4882 | second-person address | definitional-expository | reverts, dropping 'you', in the next sentence
+  - 4882 | definitional-expository | directive-suggestion | modal 'should' shifts to an authorial plotting suggestion
+  - 4939 | heading/tag | definitional-expository | label gives way to prose
+  - 4940 | heading/tag | definitional-expository | label gives way to prose
+  - 4940 | definitional-expository | biographical/historical narrative | shift to named individuals Minette/Reni, past-tense causal story
+  - 4940 | biographical/historical narrative | definitional-expository | return to generic class-level present-tense description
+  - 4941 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4941 | biographical/historical narrative | aphoristic-maxim | exclamatory generalizing claim ends the note
+  - 4942 | heading/tag | biographical/historical narrative | label gives way to prose
+  - 4942 | biographical/historical narrative | definitional-expository | present-tense generic conditional replaces past specific history
+  - 4942 | definitional-expository | attributed-argument | attribution verb 'Coltbert invents'
+  - 4942 | attributed-argument | biographical/historical narrative | returns to a passive chronological report with specific years
+- registers: heading/tag; definitional-expository; attributed-argument; biographical/historical narrative; aphoristic-maxim; second-person address; outline-index; directive-suggestion
+- whole: This item's notes move among several registers — a terse heading label, generic analytic definition, third-person attribution of arguments to named figures, past-tense biographical or historical narrative, short aphoristic maxims (sometimes with quoted antitheses), occasional second-person address, bare outline-listing, and one plotting directive — and while most of these sit apart as separate sentences or lines, a few slide into one another inside a single sentence via a dash, a parenthesis, or an embedded 'you'.

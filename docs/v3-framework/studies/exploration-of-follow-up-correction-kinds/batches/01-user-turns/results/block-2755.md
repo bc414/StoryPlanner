@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the discussion of the story's shape and asks a fresh evaluative question about whether the story is well written and worth reading as inspiration for their own project (TLTT).

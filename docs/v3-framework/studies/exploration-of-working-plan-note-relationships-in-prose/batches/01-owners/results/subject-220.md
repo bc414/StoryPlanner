@@ -1,0 +1,14 @@
+- relations:
+  - 1015 | 1016 | the port city's position directly across from Mount Aris is what makes it the place warlords would sack while preparing to attack the mountain | Ain Trotgourait is the port city directly across from Mount Aris / as they are preparing to attack Mount Aris | implicit
+  - 1016 | 1039 | the two give different accounts of who holds the city afterwards, hippogriffs taking over and aiding the zebras versus occupation by Chirropterra and Colthage; the brutal sack versus 'not a warzone' also pulls apart | the hippogriffs take over and give aid to the ruined city's zebras / the city is occupied by Chirropterra and Colthage | implicit
+  - 1037 | 1039 | continuation in time: the blockade at the start of the Great War, then the occupation during the war and its state at the war's end | the moment the great war started / occupied by Chirropterra and Colthage in the North Zebrican War which starts at some point during the Great War | implicit
+  - 1039 | 1016 | the peace the hippogriffs sign with Colthage sets the later condition of the city, which the hippogriff takeover and aid would have to fit | the hippogriffs have signed a white peace with Colthage / the hippogriffs take over | implicit
+- outward:
+  - 1013 | a real Algerian coastal municipality in Tipaza Province, the source of the name | Aïn Tagourait, a real-life coastal municipality in Tipaza Province, northern Algeria
+  - 1016 | the established canon story EaW, with its hippogriffs and the Storm King's armada, and the battle of Ain Trotgourait | In EaW, the hippogriffs launch a pre-emptive strike and destroy the Storm King's armada
+  - 1016 | the warlords and Mount Aris, held elsewhere in the lore | sacked by the warlords as they are preparing to attack Mount Aris
+  - 1037 | the Great War and the changeling submarine blockade, held elsewhere | the changeling submarine blockade cut off the crystals
+  - 1037 | the crystals that purify the water and the earlier time when the water was toxic | leaving Ain Trotgourait with toxic water once again
+  - 1039 | the Great War, the North Zebrican War and the powers Chirropterra and Colthage, held elsewhere | occupied by Chirropterra and Colthage in the North Zebrican War
+  - 1015 | Mount Aris and the strait, held elsewhere | Zumidia is the Zebra civilization across the strait from Mount Aris
+- whole: ["The notes mostly read as separate entries, with only a loose chain of war events (blockade, sack, occupation) joining a few of them, and two of those accounts of the city's fate do not sit easily together."]

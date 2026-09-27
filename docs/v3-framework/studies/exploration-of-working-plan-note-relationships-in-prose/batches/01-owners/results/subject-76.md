@@ -1,0 +1,51 @@
+- relations:
+  - 1447|1448|the analogy (fertilizer) is given its mechanism: making phosphorus and potassium minerals water soluble is what fertilizer does|magical fertilizer / must be in a water soluable form for roots|implicit
+  - 1448|1467|the general mechanism is refined into a dynamic one, the weathering tuned to ratios of phosphorus and potassium per crop|dynamic weathering for specific ratios of phosphorus and potassium|implicit
+  - 1448|2633|the chemical mechanism is narrowed to be the whole of the magic, ruling out strength or other biological advantage|strictly the chemical weathering process|implicit
+  - 1451|162|the world truth that the magic is not visible on the surface is qualified by the Star Spade, which makes it visible in a concentrated effect|not visible on the surface / concentrated, visible effect|implicit
+  - 1451|1450|the magic being invisible is why Equestrians see only good farming and might not call it magic|may not even be classified as "magic"|implicit
+  - 162|1106|two separate proofs offered that earth ponies have magic, the Star Spade and the wings of dew|most visible proof that earth pony magic is real / prove that earth ponies have magic|implicit
+  - 1450|1457|the Equestrian view is continued and deepened: farmers who love farms, now with folklore, the chemistry unknown and slavery known not to work|earth ponies are good farmers and love their farms / no one in Equestria truly knows|implicit
+  - 1458|1459|Fleur's chemical understanding depends on chemistry having been invented in Herzland; the fertilizer griffons have is the base she builds on|Herzland / Griffons in Herzland have already invented fertilizer|explicit
+  - 1459|1448|Fleur's discovery is the in-story finding of the law stated as truth: phosphorus and potassium weathering|phosphorus and potassium weathering|implicit
+  - 1459|1457|Fleur working out the chemistry sits against the claim that no one in Equestria knows it at chemistry level|Fleur is the pioneer / no one in Equestria... truly knows|implicit
+  - 1459|1743|1743 answers Fleur's pride and ownership theory, calling it correct but incomplete|Fleur's theory about pride and ownership is correct|explicit
+  - 1459|1452|1452 names Fleur's view of the catalyst as an epistemological bias, where 1459 gives it as her discovery|epistemological bias from Fleur and Coltbert|explicit
+  - 1452|1748|1748 works out the case of Coltbert, whose red love reading 1452 calls a bias|Coltbert ... Red Love was the productive force|explicit
+  - 1748|1743|both say that pride alone was not sufficient and that respect for and care of community and land was always present|He was wrong that it was sufficient / neglects to emphasize the implicit respect|implicit
+  - 1456|1743|Meadowbrook's observation that pride without communal grace ruins land is given a cause: pure ego weathers minerals too fast|otherwise the land was ruined / flooding the roots and leaving a dust bowl|implicit
+  - 1743|1467|the right amount of phosphorus and potassium for the plants is the tuning that dynamic weathering does|just the right amount of water soluable phosphorus and potassium|implicit
+  - 1743|1469|over-fast weathering ruining the land and soil running out after accelerated weathering are two forms of depletion|dust bowl / eventually the soil would run out|implicit
+  - 1469|1448|rock farming depends on the weathering mechanism: raw mineral phosphates seeded so magic can weather them|seeding them into depleted soil so Earth Pony ambient magic can weather them|implicit
+  - 1452|1743|1452 says either red or pink love is needed, while 1743 and 1456 say pride without love of land and community ruins the land|The reality is either red or pink love is needed / It requires love and respect|implicit
+  - 1452|1456|1456 gives pride balanced by communal grace, where 1452 takes pride and grace as alternative catalysts|balanced by an equal amount of communal grace|implicit
+  - 1456|1748|the same charitostatic principle appears as Meadowbrook's discovery and as the hidden factor in Coltbert's cases|Charitostatic Effect / The charitostatic contribution was always there|explicit
+  - 1452|1453|pre-Coltbert Aquileia is an instance of a society lacking both pink and red love, and so having no magic|there is no pink love ... there is no red love|explicit
+  - 1453|1748|the red love that Coltbert later saw in ownership and asset specificity is the lack shown in the serfs|no asset specificity, and no pride in their labor|implicit
+  - 1453|1457|the serfs' alienation and theft of labor is an instance of the known fact that slavery doesn't work|slavery doesn't work / fruits of it are stolen|implicit
+  - 2635|1452|the three countries are cases of red love, pink love and their balance|conviction for providing for the collective / personal ownership and market-driven ego|implicit
+  - 2635|1456|Equestria's balance of pride and community love is Meadowbrook's requirement shown as an example|pride in their own land and craft plus love of the community|implicit
+  - 2635|2642|the tractors and collectivized farms that leave Stalliongrad's magic working are explained by the magic needing engagement and not contact|despite tractors / doesn't require physical contact with soil|implicit
+  - 2635|1748|Aquileian magic as mainly ego is set against Coltbert's cases, where community care was always present|primarily on personal ownership and market-driven ego / genuinely cared about their community|implicit
+  - 1454|1459|industrial uses of phosphorus alloys show the phosphorus chemistry Fleur identified|adding a small amount of phosphorus to copper and tin|implicit
+  - 1455|1459|phosphoric acid, phosphates and potassium salts as products of the same phosphorus and potassium chemistry|Sodium tripolyphosphate / Potassium salts|implicit
+  - 1454|1455|both plan demonstrations through everyday and industrial uses of phosphorus compounds|Phosphor Bronze / phosphoric acid H3PO4|implicit
+  - 1458|1454|the industrial phosphorus uses assume that chemistry exists in the world|Phosphor Bronze ... alloy|implicit
+- outward:
+  - 1453|Aquileia's history and its feudal system, and Coltbert as a figure|Pre-Coltbert Aquileia / Predator's Dilemma of the feudal system
+  - 1453|the framework of pink love and red love, held elsewhere|no pink love ... no red love
+  - 1106|the wings of dew, an item or effect held elsewhere|Wings of dew working on earth ponies
+  - 162|the Star Spade, an artifact held elsewhere, and the other magic types|The Star Spade
+  - 1454|Star Energy, a faction or company in the story|Star Energy uses Phosphor Bronze
+  - 1455|Tzinacatl, and the SAA and Aquileian chefs|Tzinacatl would use / Used by SAA and Aquileian chefs
+  - 1469|the history of the age of stagnation of harmony|stagnation of harmony
+  - 1456|Mage Meadowbrook and Luna's banishment as a dating point|Mage Meadowbrook in 100 BLB
+  - 1458|Herzland and Grover III's enlightenment|Herzland under Grover III
+  - 1459|Fleur, as a character, and griffon fertilizer in Herzland|Fleur is the pioneer
+  - 1457|Celestia, canon FiM episodes, survival harmony and labor strikes before Hearth's Warming Eve|Applejack and the apple family / pre-hearth's warming eve labor strikes
+  - 1468|Fleur's claim of a discount and Twilight's later disproof, in scenes held elsewhere|Fleur asserts ... later disproven by Twilight
+  - 2635|Stalliongrad, Aquileia and Equestria as states held elsewhere|Stalliongrad's earth pony magic
+  - 2633|canon and fanon sources, and the work called TLTT|Some canon and fanon sources mention earth ponies having extra strength
+  - 1748|the thymodynamic and charitostatic framework held elsewhere|thymodynamic output
+  - 1452|Coltbert and Fleur, and the pink and red love framework|epistemological bias from Fleur and Coltbert
+- whole: Most of these notes hang together around one core, a phosphorus-and-potassium weathering mechanism driven by pride and communal love, and the histories, discoveries, reader-understanding notes and demonstrations all lean on it, though a few notes (the phosphorus uses, the wings of dew, the discount claim) stand fairly alone and one tension remains over whether either kind of love suffices or both are required.

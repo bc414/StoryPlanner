@@ -1,0 +1,5 @@
+- sources:
+  - the author's own imagined version of the scene (teleport to a city barracks, relief and trauma, AJ offering Twilight a choice, Henri's don't-move order and its reason) | treat as the intended scene and the true account of what happens and why Henri gives the order; replaces the model's version where they differ | I imagined it like Twilight teleports them both first | first-named
+  - the model's previous reading that Henri gives AJ outdated info and is out of touch with the battlefield | treat as wrong; do not carry it forward | Henri isn't giving AJ outdated info | referred-to
+- order:
+- about: The user corrects the model's proposed scene by describing how they actually imagined it, with an immediate teleport to a barracks and a choice offered to Twilight, and by rejecting the model's claim that Henri's order came from outdated information.

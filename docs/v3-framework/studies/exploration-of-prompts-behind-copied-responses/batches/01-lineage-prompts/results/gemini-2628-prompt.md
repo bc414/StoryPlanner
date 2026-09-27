@@ -1,0 +1,7 @@
+- asks:
+  - check | asks the model to verify whether a specific planned story beat still fits/works given the current state of the story plan | "Does this still work?"
+- supplies:
+  - plan detail, a description of a single planned story beat | Pinkie rejecting Rainbow's sung line "just laugh to make them disappear" at the end of Chapter 5, titled "Laughter" | a sentence
+- shaping:
+- openness: The message asks the model to check something it states as already decided (the Pinkie/Rainbow beat) against whatever else is established, shown by "Does this still work?"
+- subject: whether a planned Chapter 5 beat — Pinkie rejecting Rainbow's sung line — still fits the story

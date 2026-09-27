@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the story discussion and asks a general finance question about what a Treasury bill is and which taxes apply to it, without pointing at any body of material.

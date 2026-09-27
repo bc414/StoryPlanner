@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 158 | Applejack's earlier suspicion, held before this scene, that her parents' claim of "feeding the world" was a lie to profit themselves, and the parents' own stated mission | she's sorry she ever thought her parents were lying about "feeding the world" just to make money
+- whole: The owner holds a single note, so there is no set to hang together or fall apart.

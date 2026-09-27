@@ -1,0 +1,4 @@
+- sources:
+  - this last turn (the model's immediately preceding reply) | look back at it and report which 5 axes it used; treated as the thing to be read and answered from | What 5 axes did you use for this last turn? | referred-to
+- order:
+- about: The user asks the model to state which five axes it relied on in its immediately preceding reply.

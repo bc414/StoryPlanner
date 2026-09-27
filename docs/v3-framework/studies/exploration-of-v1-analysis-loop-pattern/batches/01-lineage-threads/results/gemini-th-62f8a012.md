@@ -1,0 +1,16 @@
+- steps:
+  - author | approve-extend | Rainbow Dash's shift from fleeing her emotions to becoming the group's galvanizing leader, tied to the 'Loyalty' title | opening of the prompt
+  - model | analyze-payoff | maps Rainbow's turn into the chapter's emotional pivot with a sample rallying line, reframes Loyalty as loyalty-to-reality-not-to-crown | first section of the response
+  - author | reframe | casts making AJ/Pinkie/Rainbow generals as a panic move distinct from Twilight's planned rise to princess, asks the link be made clear in a later chapter | second paragraph of the prompt
+  - author | approve-extend | sentimentality-bait/ego-stroke tactic for Trimmel against Chrysalis, tied to his dawning sense he is the monster, his Stalliongrad history, and the story's harmonic-capitalism thesis | third paragraph of the prompt
+  - model | trace-causality | builds a step-by-step causal chain from the bait through Chrysalis's panicked evacuation to Trimmel's stripped air cover, framed as a self-inflicted checkmate | second section of the response
+  - model | expand-thesis | elaborates Trimmel's disillusionment with Stalliongrad versus the working Tall Tale cooperative to root his loss of will in the political thesis | third section of the response
+  - author | specify-constraint | insists the loss of Trimmel's air support read as an earned consequence of his own scheme rather than plot armor | fourth paragraph of the prompt
+  - author | detail | Applejack's hope that Celestia will 'unfreeze' and fight, followed by Celestia's quiet nod and return to statue-form, specifies pity rather than resentment for now | fifth paragraph of the prompt
+  - model | render-emotion | writes Applejack's internal read of Celestia's nod as resignation, with a sample internal-monologue line naming the pity | fourth section of the response
+  - author | clarify-geography | states the Bluebell River runs north-south, perpendicular to the east-west changeling supply lines | final line of the prompt
+  - model | visualize-analogy | translates the river/supply-line layout into a guitar strings-and-fretboard analogy to confirm how the spearhead severs the lines | fifth section of the response
+  - model | synthesize | compiles a chapter-by-chapter arc checklist folding the Rainbow, Trimmel, Celestia, and geography beats into one sequence | closing section of the response
+- kept:
+- brought: The author brought a set of already-formed story elements — Rainbow Dash's arc, the Elements-as-titles structure, Twilight's hidden princess arc, Trimmel's backstory and the harmonic-capitalism thesis, Applejack and Celestia's relationship, and the war's river geography — and asked for them to be refined and connected.
+- loop: The author bundles several approved or clarified story beats built on existing plan elements into one message, the model returns them elaborated into causal chains, thematic grounding, sample lines, and a chapter checklist, and none of that elaboration is traced into any planning-database note in this stretch, so the loop runs bring-and-elaborate without a visible capture back into the plan.

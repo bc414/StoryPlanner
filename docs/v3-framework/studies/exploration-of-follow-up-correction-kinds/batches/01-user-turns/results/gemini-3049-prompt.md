@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting female-centric real-life equivalents of the performative subcultures the model just described, without disputing anything in the model's answer.

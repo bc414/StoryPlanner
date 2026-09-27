@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user settles the scene's point of view as Rainbow Dash's third person limited and gives their thematic reasons, adding new material about found family and the Wonderbolts' showboating heritage without disputing anything the model said.

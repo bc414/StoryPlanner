@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | The model wrote the whole character analysis in software and programming metaphors (builds, patches, runtime, compiling, logic gates), a style the user did not ask for and objects to | Why are you framing everything with programming metaphors? | asked as a pointed question that challenges the choice of style, implying objection without stating what to do instead
+- about: The user questions and objects to the model's use of programming metaphors throughout its character analysis, without engaging with the content itself.

@@ -1,0 +1,12 @@
+- steps:
+  - author | ask | poses a factual/comparative historical question linking two rulers' systems of governance | opening of the exchange
+  - model | reject premise | states there is no historical evidence for the claimed influence | opening of the response
+  - model | trace origin | attributes the French reforms to an internal domestic crisis rather than a foreign model | body of the response
+  - model | draw distinction | separates the conceptual basis of the French monarchy from that of the Ottoman rule | body of the response
+  - model | recontextualize | reframes the alliance between the two powers as strategic rather than ideological | body of the response
+  - model | add nuance | notes a stylistic/cultural fascination distinct from political imitation | body of the response
+  - model | summarize | condenses the comparison into a side-by-side table | closing of the response
+  - model | offer next steps | proposes two related topics for further discussion | end of the response
+- kept:
+- brought: none
+- loop: The author brought a single comparative historical question with no plan material attached, and the model returned a self-contained corrective analysis plus follow-up offers; since no note in the planning database traces to this exchange, none of it was carried into the plan.

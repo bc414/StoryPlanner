@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 500 | the unicorns, their red love canisters and crystal enhancers, and the dragon's magic as lore or characters held elsewhere in the plan | The unicorns carry red love canisters to fuel their crystal enhancers
+- whole: The owner holds a single note, so there is no set to hang together and no joint between notes.

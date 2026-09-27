@@ -1,0 +1,4 @@
+- sources:
+  - the google doc (its revisions, scrolled down to the oldest rev) | treat as the user's own firsthand observation of how the script reaches the revisions; the script only sees all revs once the oldest is loaded by scrolling | I had to scroll down in the google doc to the oldest rev in order for the script to see all the revs | referred-to
+- order:
+- about: The user reports a troubleshooting observation that the script only sees all the document's revisions after they scroll the doc's revision history down to the oldest one.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user gives the model new story direction, supplying an opening line for Trimmel's speech and reworking Eros's unconditional surrender as the reasoned result of seeing that only the weapons were donated and not the tactics, without pointing the model at any body of source material.

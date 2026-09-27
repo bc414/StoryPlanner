@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said Blueblood's role in the fabula wasn't visible and guessed he is an aristocrat in a comedy of manners about stagnation; the user says he is a field marshal in EaW, with an arc from the silly noble of The Best Night Ever to that rank | Blueblood is a field marshal in EaW | flat statement of the fact, given as a plain correction of the model's guess
+  - which material was drawn on | The model wrote about Blueblood without having read his arc in the document, saying he wasn't fully visible in the sections it read; the user points it to the arc in the document | Please review his character arc from the document | directive, asking the model to go to the document and read the arc itself
+- about: The user corrects the model's guess about Blueblood by supplying his actual role and arc (silly noble to field marshal) and asks the model to review that arc in the document.

@@ -1,0 +1,27 @@
+- relations:
+  - 380|387|the mass law is what makes the elders' greed show up on the battlefield as huge, easily hit bodies|massive, greedy elder dragons ... massive hitboxes make them easy targets|implicit
+  - 381|387|the zeppelin analogy (big and easily punctured) is played out in the battle as elders being easy targets for the Changeling forces|biological zeppelin ... easy targets for the Changeling Heer|implicit
+  - 381|495|the puncture-vulnerability idea is why the changelings do not fear dragons and shoot them down with AA|such big targets and the AA punctures them|implicit
+  - 382|387|fire heat scaling with protective instinct is the cause of Spike's and Ember's fire melting armor while the elders' fire only burns flesh|protect their friends ... Their fire burns hot enough to melt Panzer armor|implicit
+  - 382|386|the thematic note restates the protective-instinct fire law as a claim about caring|Caring about others makes the fire stronger|implicit
+  - 386|387|the battlefield example is the demonstration of the thematic claim that cooperation out-produces extraction|Solidarity yields higher thermodynamic output than Greed|implicit
+  - 385|387|the thematic note states in brief what the demonstration plan shows in scenes: elders look imposing but are big targets who cannot melt armor|poseurs who look intimidating ... can't melt armor|implicit
+  - 385|495|elders' bluster and need to prove themselves is shown in their reckless head-on attacks and their ego reacting to Ember's lecture|attack head-on to prove they are still the apex predators|implicit
+  - 380|495|the ego side of the mass law is what makes the elders take Ember's lecture as a blow and become more aggressive|massive blow to their ego and only makes them more aggressive|implicit
+  - 387|495|the plan for elders joining the war is complicated by Ember ordering neutrality, so the elders' arrival is against her order and repeated reports of dragons getting shot down carry it on|commands all dragons to stay neutral ... dragons randomly showing up at the front|implicit
+  - 494|387|the reader's first view of dragons as a force of nature apart from the ponies is later overturned when dragons enter the war and physical law shapes tactics|force of nature ... When the dragons join the war|implicit
+  - 494|495|the early detached view of dragons is followed by dragons being tied to the war effort, even feeding the changelings|disconnected from the moral struggle ... actively fueling the changeling war effort|implicit
+  - 384|495|red love as what mass scales with is what the changelings harvest from dragons|drain the dragon of red love|implicit
+  - 384|380|the canon source for the mass-scaling law, though it names red love where the law names greed, ego and hoarding|Mass scaling with red love ... mass scales with Greed, Ego, and Hoarding|implicit
+  - 383|382|the canon episode is the source for fire strength scaling with love, which the law puts as protective instinct|Fire scaling with pink love ... scales with their protective instinct|implicit
+- outward:
+  - 381|the changeling anti-air forces held elsewhere in the plan|Changeling Anti-Air
+  - 383|canon episode "Sweet and Smoky" about Garble|canon season 9 episode about Garble, "Sweet and Smoky"
+  - 384|canon episode "Secret of my Excess"|canon season 2 episode "Secret of my Excess"
+  - 387|the war, the Changeling Heer, Panzer armor and drugged conscripts, and the characters Spike and Ember, held elsewhere|Changeling Heer ... Panzer armor ... Spike or Ember
+  - 495|the scene where Ember saw her father Torch killed|After she saw her father die
+  - 495|a scene of Applejack in the southern blitz|Applejack witnesses an incident during the southern blitz
+  - 495|the changelings' mobile harvesters and scale armor, and the war effort|mobile harvesters ... use the scales as armor
+  - 494|the ponies' moral struggle held elsewhere in the plan|the moral struggle of the ponies
+  - 379|the other peer species (ponies, griffons and others)|in line with ponies and griffons and the other peer species
+- whole: The notes mostly hang together around one law of mass tied to greed and fire tied to protection, with the ontology, analogy, theme and demonstration notes all bearing on each other, though the lifespan note stands apart.

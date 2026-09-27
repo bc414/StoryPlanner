@@ -1,0 +1,9 @@
+- sources:
+  - the current notes | treated as the existing description of the "chiefs hoarding women" model, which the user assigns to the Great Lakes savanna region; used as the base for that region | the primary "chiefs hoarding women" area that the current notes describe | referred-to
+  - the story plan | to be searched for precedents and patterns of species magic, as the pattern for designing zebra magic | Look into the story plan for the other precedents and patterns for species magic | referred-to
+  - earth ponies' weathering P and K magic (as set in the plan) | treated as the contrast case; zebra magic should differ from it because the material conditions differ | Zebras shouldn't be having the same weathering P and K magic as earth ponies | referred-to
+  - the hoe-over-plow material conditions and geography from the discussion so far | taken as the premise from which zebra magic should be designed | Given the different material conditions and geography that led to hoe agriculture over plows | referred-to
+  - existing Zecora tropes in the fandom | to be taken into account when analysing what zebra magic could be | taking into account existing Zecora tropes in the fandom | referred-to
+  - FiM canon, like potions | to be taken into account in the zebra magic analysis, with potions as the example | even FiM canon, like potions | referred-to
+- order:
+- about: The user assigns Zebrica's regions (Great Lakes savanna for the chiefs-hoarding-women model, Zumidia as a possible matrilineal region), admits uncertainty about the pre-colonial economy, and asks the model to analyse what zebra magic could be by drawing on the story plan's species-magic patterns, the fandom's Zecora tropes and FiM canon.

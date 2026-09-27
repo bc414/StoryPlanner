@@ -1,0 +1,12 @@
+- asks:
+  - revision goal | to make the character Gladmane more potent, nuanced, and dangerous — an accomplished version of a Trump analogue rather than a caricature | "I want to make him even more potent and nuanced ... instead of a caricature of Trump"
+  - plan development | to take the proposed backstory and plot beats (Gladmane's comeback, Las Pegasus preemption, chapter 9 collaboration with Applejack) and build on them as part of the story | "I'm thinking Gladmane staged a huge comback...", "I think this will actually be a plot point around chapter 9"
+  - characterization guide | to hold in mind the intended split in Gladmane's sincerity — genuine patriot, insincere on workers' rights, with a hidden hypocrisy about his 'self-made' claim — while developing him | "Gladmane is genuine about the patriotism. He is not genuine about worker's rights"
+- supplies:
+  - canon reference | how Flim and Flam routed Gladmane's business in MLP canon with Applejack and Fluttershy's help | a sentence
+  - backstory proposal | Gladmane's staged comeback: preempting nationalization by whipping Las Pegasus industries into shape or buying out weak/collaborator firms, after seeing Manehattan seize underperforming and Chrysalis-linked factories | a paragraph
+  - plot point idea | chapter 9 beat where Gladmane, being clean due to inherited wealth, helps Applejack expose and arrest other Chrysalis-funded industrial collaborators | a few sentences
+  - debate/thematic material | the Manehattan officer's-suit factory seizure by Flowing Current and Rarity, the 'radical Rarity'/'socialist Flowing Current' attack, Applejack's rebuttal about bank accounts/war bonds making it a total-war economy not Soviet-style, and the core 'harmonic capitalism vs. rugged individualism' debate with its underlying lie about Gladmane's inheritance | a few sentences
+- shaping:
+- openness: Leans toward an answer it already names: the user lays out a specific comeback backstory, a chapter 9 plot point, and a defined split in Gladmane's sincerity as the direction to develop, rather than leaving the character open or offering alternatives.
+- subject: Reworking the villain Gladmane into a nuanced, competent Trump-analogue tycoon whose faked comeback, patriotic collaboration with Applejack, and hidden hypocrisy about inherited wealth drive a chapter 9 plot point and a capitalism-themed debate.

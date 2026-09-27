@@ -1,0 +1,5 @@
+- sources:
+  - the user's own prior knowledge of Korea and China (Confucian scholar aesthetic over warrior aesthetic in peacetime) and of Japan's nationalism and Bushido | treated as a premise the user holds and reasons from, offered as a contrast for the model to explain or correct | I know in times is peace in Korea and China the "Confucian scholar" aesthetic trumped | first-named
+  - the earlier account in this conversation of the timeframe of the Japanese introspective male tradition | taken as the given frame for the question, not challenged | in the timeframe described | referred-to
+- order:
+- about: The user asks why Japanese literature produced the introspective, paralyzed male protagonist compared with Western conventions, and tests his own recollection about Confucian scholar ideals, nationalism and Bushido against possible causes in the Tokugawa or Meiji periods.

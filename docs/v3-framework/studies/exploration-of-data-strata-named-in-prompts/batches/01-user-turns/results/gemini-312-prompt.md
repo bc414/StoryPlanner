@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states new worldbuilding: Twilight's crystal enhancers and spell matrices let Fizzlepop cast spells despite her broken horn, and the user explains this by comparing the crystals to lithography or printed circuit boards and the horn to an adaptable spell matrix, without pointing at any body of material for the model to use.

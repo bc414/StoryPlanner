@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Aquileia analysis by offering a real-world example (Bernie Sanders as resilience, set against cynical unions and clout warriors) and asking for more examples of the two categories and whether they form a continuous spectrum.

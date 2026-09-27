@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2247 | an earlier conversation in which Rainbow Dash talks about Ahuizotl and about loyalty, held elsewhere in the plan | Loyalty from Rainbow Dash talking about Ahuizotl
+  - 2247 | the concepts of Kinship and Loyalty as themes or elements held elsewhere, with Kinship the grown-up version of Loyalty | Kinship as the grown up version of Loyalty
+- whole: This owner holds a single note, so there is nothing to hang together or fall apart, and it stands as one entry.

@@ -1,0 +1,7 @@
+- sources:
+  - the analysis (the previous Clash of Queens write-up) | revise it, keeping it as the base and changing it to fit the author's additions | "update the analysis" | referred-to
+  - the reminder that being a lioness unicorn is not their primary job (workshops and farms tied to their cutie mark, the game played for sexual pleasure and competition) | treat as true setting fact and build into the analysis | "with the reminder than being a lioness unicorn is not their primary job" | referred-to
+  - the duelist's page (the model's tableau mechanic) | author's reading that it marks when they get to be lions in bed, offered as a suggestion rather than a settled ruling | "I think the duelist's page represents" | referred-to
+- order:
+  - the reminder about lioness unicorns' actual jobs and motives | over the analysis as written | "update the analysis with the reminder"
+- about: The user asks the model to revise its previous analysis of lioness-unicorn affairs so it reflects that the game is a sideline to their real trades and is about sexual pleasure and rivalry, and offers their own reading of the duelist's page.

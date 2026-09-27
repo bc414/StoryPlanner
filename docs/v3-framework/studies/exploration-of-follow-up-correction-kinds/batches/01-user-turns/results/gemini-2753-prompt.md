@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Google Drive live-sync suggestion and asks a follow-up practical question about how to set up the sync from a Windows machine.

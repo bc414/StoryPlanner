@@ -1,0 +1,14 @@
+- asks:
+  - check | asks the model to confirm that tool-use neuroscience is a genuine established field | "tool use neural science is a real thing?"
+  - check | asks the model to confirm that the tennis racket analogy is the best fit for illustrating tool-use neuroscience | "tennis racket seems to make the most sense as an analogy"
+  - pitch-and-check | proposes that the fictional griffon magic system be based on tool-use neuroscience, with magical hardness as a literal reward for mastered tool use and self-forging, and implicitly asks whether this works | "griffon magic should be inspired by this but with magical hardness as a literal benefit"
+  - brainstorm | asks for other notable examples related to tool-use neuroscience | "Sheet other prominent examples do we have?"
+  - factual question | asks whether this tool-use neural capacity evolved from Neanderthal tool use | "Is this evolved from neanderthals using tools?"
+  - factual question | asks whether this tool-use neural capacity is unique to humans | "So it's only a human thing?"
+  - check | asks the model to confirm that primitive WW1 aircraft used a control stick connected to tension cables | "primitive WW1 planes used the physical stick into tension cables?"
+  - factual/comparison question | asks whether the Spitfire and Ju 87 Stuka relied on large engines plus some other named mechanism to control the wings, and what that mechanism was | "were those running on big engines plus what to control the wings?"
+- supplies:
+  - idea | the person's own proposed worldbuilding concept that griffon magic ties magical hardness to mastered tool use and self-forging | a single sentence
+- shaping:
+- openness: Mixed: several parts ask the model to check/confirm claims the message already states (tool-use neuroscience being real, the tennis racket analogy, WW1 stick-and-cable controls), while other parts are open factual questions (Neanderthal origin, human-only status, what controlled the Spitfire/Stuka wings) and one part pitches a worldbuilding idea for implicit validation.
+- subject: Tool-use neuroscience as inspiration for a fictional griffon magic system, plus questions about WW1/WW2 aircraft flight-control mechanisms

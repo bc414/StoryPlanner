@@ -1,0 +1,9 @@
+- asks:
+  - check/feasibility | asks whether the previously planned scene beat can still be kept and fit into the current plan | "Can this still be preserved in the test lab?"
+  - explain | asks what narrative or thematic function a small amount of red mixed into pink would perform | "What would a dash of red mixed in serve?"
+  - evaluate/critique | asks for a judgment on whether the beat works both thematically and in terms of the story's internal logic ("chemically") | "Is this good or not thematically and chemically?"
+- supplies:
+  - story beat description | a previously conceived scene where Pinkie Pie, during a rehab moment in a chapter called Combined Arms, bakes cakes, reveals a hidden "red love canister" from her mane/rifle as secret ingredient, with reactions from Celestia and Fluttershy, meant to symbolize needing a balance of pink and red | a paragraph
+- shaping:
+- openness: Leaves the answer open: it asks a feasibility question, an explanatory question, and a genuine yes/or/no evaluative question, without presupposing or naming a preferred answer.
+- subject: Evaluating whether a previously planned Pinkie Pie scene beat (mixing "red" into her cake to symbolize pink/red balance) still fits the story plan and works thematically.

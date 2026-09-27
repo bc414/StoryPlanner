@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether the "Attention is all you need" paper started a trend of "X is all you need" titles in teaching materials and beyond, without pointing the model at any body of material.

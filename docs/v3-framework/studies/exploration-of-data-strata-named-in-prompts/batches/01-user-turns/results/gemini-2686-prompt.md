@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two short factual questions about when vasectomies and Vasalgel were invented, without pointing at any body of material to draw on.

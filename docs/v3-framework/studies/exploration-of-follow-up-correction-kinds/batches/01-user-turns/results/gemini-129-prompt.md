@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Trimmel scene analysis without objection and moves on to plan later material, asking what Applejack and Trimmel should say at the POW camp, what Applejack should reflect on at Vanhoover, and how a new twist (the white peace, the prisoner exchange dispute and Applejack's wish to continue the war) fits narratively and thematically.

@@ -1,0 +1,5 @@
+- sources:
+  - my war story plans | treat as fixed: they all take place after canon, so the episode must be placed before the war and the model should not fold war events into it | All my war story plans take place after canon | referred-to
+  - canon | timeline anchor: the war plans come after it, so this episode sits before the war | All my war story plans take place after canon | referred-to
+- order:
+- about: The user corrects the model's timing by saying the episode is set before the war, since all their war plans come after canon, and proposes a harsher backstory in which Scootaloo cannot fly because of malnutrition in New Mareland.

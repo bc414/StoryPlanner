@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | re-read the plans, including the Infiltration chapter, and check whether the solidarity-over-hate idea can be shown in that chapter as planned | Please review my story plans again | referred-to
+- order:
+- about: The user asks the model to re-read their story plans and say whether the hope-solidarity-overriding-hate idea can be shown in the Infiltration chapter, where Camp Fluttershy takes in traumatized ponies and the befriended changelings stay calm because the camp's mood is kind.

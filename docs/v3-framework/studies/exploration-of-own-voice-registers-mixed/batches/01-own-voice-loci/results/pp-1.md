@@ -1,0 +1,47 @@
+- passages:
+  - note 65 | third-person narrative summary | past-tense decision statement | Eagleclaw's decision to seek revenge | apart
+  - note 66 | third-person narrative summary | past tense, date range in parentheses | Eagleclaw and Krista's shared school years | apart
+  - note 67 | third-person narrative summary | past tense, recounts classroom humiliation | Krista's failed enchantment and the blame for it | apart
+  - note 67 | speculative interpretive aside | parenthetical hedge "must've" | guess that the sword's enchantment was faked | run-in
+  - note 68 | third-person narrative summary | past tense, recounts biology-class incident and deduction | Eagleclaw deducing Krista is a changeling | apart
+  - note 68 | telegraphic fragment | noun-phrase sentences without full clauses | list of Eagleclaw's quiet affectionate acts | apart
+  - note 68 | analytic label statement | heading "The Intent:" plus evaluative adjective | naming the affection behind the acts | apart
+  - note 71 | analytic present-tense exposition | present-tense declarative claims of unique status | Eagleclaw's singular knowledge of Chrysalis | apart
+  - note 73 | third-person narrative summary | past tense describing true intent | Chrysalis wanting to ruin, not kill, classmates | apart
+  - note 73 | authorial brainstorm aside | parenthetical, exclamation mark, comparison to source text | likening the plan to the Count of Monte Cristo | run-in
+  - note 75 | first-person confessional testimony | first-person past tense recounting complicity | 26 years of joint economic sabotage | apart
+  - note 76 | analytic causal explanation | third person, "That's why" causal link | Eros's firing-squad promise and his selection | apart
+  - note 76 | first-person intrusion within third-person sentence | shifts to "including me" mid-sentence | Eagleclaw present among the condemned | run-in
+  - note 76 | telegraphic first-person recollection | unpunctuated short recalled lines | Eagleclaw's declared support and Chrysalis's rebuff | apart
+  - note 79 | third-person narrative summary | past tense recounting silence and submission | Eagleclaw's fear-driven silence, bowing to Eros | apart
+  - note 79 | speculative interpretive aside | parenthetical gloss tying to an earlier vow | governess role as betrayal of a youthful promise | run-in
+  - note 79 | third-person narrative summary | resumes past-tense narration | Grover's plea and Eagleclaw's resulting duty | apart
+  - note 2791 | telegraphic fragment | subjectless label phrase | Chrysalis's role in the counterrevolution | apart
+  - note 2792 | third-person narrative summary | past tense factual statement | Chrysalis reading the paper and directing tactics | apart
+  - note 2792 | meta-planning note | describes what the scene "mentions," informal descriptor | reference to Chrysalis's fixation on the paper | apart
+  - note 2793 | telegraphic fragment | phrase without a finite verb | origin of Chrysalis's engineering branch | apart
+  - note 2794 | analytic present-tense exposition | present-tense reasoning about motive and target | Chrysalis's plan to target specific nobles' gold | apart
+  - note 2794 | labeled tactical breakdown | heading "Chrysalis's Tactic:" with colon | shell companies offering fiat loans | apart
+  - note 2797 | bare planning marker | minimal two-word note | pointer that the parallel is revealed here | apart
+  - note 3411 | thematic-argumentative analysis | evaluative parallel claims, present tense | industrialists' false liberty versus equity | apart
+  - note 3412 | analytic thematic commentary | present-tense essayistic claim | naming the revelation a kinship story | apart
+  - note 3412 | quoted first-person aphorism | quotation marks, dramatic first-person line | Eagleclaw's remembered vow of acceptance | run-in
+  - note 3412 | analytic thematic commentary | resumes essayistic third-person claims | defining chosen kinship and its betrayal | apart
+  - note 3413 | predictive planning narration | future tense "will," planned dynamic | shared ambition bonding Chrysalis and Gabriella | apart
+  - note 3636 | staging/craft note | present tense, hedge "probably," cross-scene note | hug mirrored by Twilight and Applejack | apart
+  - note 3638 | analytic present-tense exposition | mixed present/past tense motive explanation | Eagleclaw's knowledge and coerced silence | apart
+- shifts:
+  - note 67 | third-person narrative summary | speculative interpretive aside | parenthetical hedge "must've used a disguise"
+  - note 68 | third-person narrative summary | telegraphic fragment | drops sentence structure into noun-phrase fragments
+  - note 68 | telegraphic fragment | analytic label statement | heading "The Intent:" names the abstraction
+  - note 73 | third-person narrative summary | authorial brainstorm aside | parenthetical exclamation comparing to Monte Cristo
+  - note 76 | analytic causal explanation | first-person intrusion within third-person sentence | mid-sentence addition "including me"
+  - note 76 | first-person intrusion within third-person sentence | telegraphic first-person recollection | drops punctuation into short recalled lines
+  - note 79 | third-person narrative summary | speculative interpretive aside | parenthetical gloss on the governess role
+  - note 79 | speculative interpretive aside | third-person narrative summary | resumes plain narration after the parenthesis closes
+  - note 2792 | third-person narrative summary | meta-planning note | shifts to describing what the scene "explicitly mentions"
+  - note 2794 | analytic present-tense exposition | labeled tactical breakdown | heading "Chrysalis's Tactic:" introduces the mechanism
+  - note 3412 | analytic thematic commentary | quoted first-person aphorism | colon introduces a quoted first-person line
+  - note 3412 | quoted first-person aphorism | analytic thematic commentary | returns to third-person claim "That is..."
+- registers: third-person narrative summary; speculative interpretive aside; telegraphic fragment; analytic label statement; analytic present-tense exposition; first-person confessional testimony; authorial brainstorm aside; analytic causal explanation; first-person intrusion within third-person sentence; telegraphic first-person recollection; meta-planning note; labeled tactical breakdown; bare planning marker; thematic-argumentative analysis; analytic thematic commentary; quoted first-person aphorism; predictive planning narration; staging/craft note
+- whole: This place holds many registers rather than one—past-tense narrative summary, first-person confessional testimony, analytic and thematic commentary, telegraphic planning fragments, and future-tense predictive narration all appear—and while most notes keep to a single register standing apart from the rest, a handful (notes 67, 68, 73, 76, 79, 2792, 2794, 3412) shift registers within themselves, usually at a visible break such as a parenthesis or heading, and once, in note 76, sliding from one voice into another inside a single unbroken sentence.

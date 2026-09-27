@@ -1,0 +1,8 @@
+- sources:
+  - the original design of the Canterlot paradrop (lie about the 12 hours, attack at 6; wiping Vesalipolis off the map as the ending) | treat as outdated, a product of the author's earlier cynicism, and now to be carefully analyzed and dissected because it conflicts with the themes | "original design of the Canterlot paradrop is at odds" | first-named
+  - the expanded story plans (food drop ending, honest paradrop timing, rifles teleported to civilians before the drop) | treat as the current, evolved version that replaced the original design | "After expanding the story plans, it evolved" | referred-to
+  - the story's themes | use as the standard the paradrop's design is checked against, with the original design found at odds with it | "at odds with the story's themes" | referred-to
+- order:
+  - the expanded story plans over the original design of the Canterlot paradrop | "I changed the paradrop to be honest about the time"
+  - the story's themes over the original design of the Canterlot paradrop | "at odds with the story's themes and need to be carefully analyzed"
+- about: The author explains that the Canterlot paradrop came from an earlier, more cynical version of the plan, then re-frames it as a commentary on agency and the predator's dilemma while naming the Bluebell Spearhead as the true unilateral temptation.

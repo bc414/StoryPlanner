@@ -1,0 +1,10 @@
+- passages:
+  - note 4278 | rule-statement | "gets a discount on" phrasing, stated as a fixed capability with limits | Discord's chaos talent and what it does and doesn't cover | apart
+  - note 4403 | narrative-summary | past-tense account of an event with a parenthetical episode title | Celestia trying to reform Discord after the Wedding attack | apart
+  - note 4403 | plan-directive | "This should result in" modal phrasing setting a goal | Fluttershy and Discord ending up feeling used | apart
+  - note 4406 | narrative-summary | causal "because"/"by ... it would" chaining of events to an effect | Twilight's sacrifice of alicorn magic drawing Discord toward harmony | apart
+  - note 4407 | narrative-summary | sequential "when/but/however/so" clauses tracing motive and outcome | Discord's failed effort against the war and his departure to Adelart | apart
+- shifts:
+  - note 4403 | narrative-summary | plan-directive | shift from past-tense event description to "This should result in", a stated goal rather than a reported happening
+- registers: rule-statement; narrative-summary; plan-directive
+- whole: The notes mostly share one narrative-summary register for laying out plot causes and effects, but note 4278 sits apart in a rule-statement register and note 4403 shifts partway from that narrative-summary into a plan-directive register, with each passage standing apart rather than blending together.

@@ -1,0 +1,12 @@
+- asks:
+  - analysis | asks how the translator-flair lore just laid out (Henri's flairs, the uncanny-valley nature of the translator, its design history) feeds into the comparison being drawn between the Global Republic and Aquileia | "How does this lore play into the comparison?"
+  - decision/self-answered question | poses whether Henri's pre-speech internal monologue should be rendered in Herzlander or Aquileian, then immediately resolves it himself with in-world reasoning | "Should I give it in Herzlander or Aquileian?" followed by "he decides to use Aquileian, because..."
+  - open question | asks whether the character Trimmel should remain in Cloudbury once SECEF returns to Equestria | "Should Trimmel stay in Cloudbury when SECEF goes back to Equestria?"
+- supplies:
+  - lore explanation | how the universal translator renders Henri's "Henri" and "Aquileian" speech flairs and Applejack's southern flair, including what changes when Henri switches the translator to Aquileian | a paragraph
+  - lore explanation | why the translator only feels uncanny to the already-bilingual, its magical (not digital) origin, and the Global Republic's heavy, deliberate investment in making it preserve personal flair rather than sound robotic | two paragraphs
+  - character reasoning | why Henri would choose to think in Aquileian rather than Herzlander right before speaking, tied to wanting to sound more bombastic and to outdo Kemerskai, and why other listeners wouldn't notice the difference | a paragraph
+- shaping:
+  - the requested explanation of how the lore feeds into the comparison should conclude that the GR "checks all the boxes" yet still falls short of being Aquileia itself | "It should reinforce that the GR checks all the boxes. But it is still not Aquileia and never will be."
+- openness: Mixed: the lore-comparison question already leans toward a stated conclusion (GR checks the boxes but isn't Aquileia), the monologue-language question is posed then self-answered within the message, and the closing question about Trimmel's fate is left fully open with no leaning stated.
+- subject: Worldbuilding for a fictional universal translator's accent/flair mechanics and its symbolic role, plus a story decision about a character's fate

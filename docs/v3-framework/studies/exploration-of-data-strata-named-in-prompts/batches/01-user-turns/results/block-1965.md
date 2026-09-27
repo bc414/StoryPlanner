@@ -1,0 +1,4 @@
+- sources:
+  - the material conditions drive morality claim | a claim already in the plan, held up as the thing the dignity proposition would or would not count as evidence for; the model is to check the proposition against it | Does this make it evidence for the material conditions drive morality claim | referred-to
+- order:
+- about: The user asks whether the dignity-before-cooperation proposition just discussed would count as evidence for another, already-existing claim in their plan, that material conditions drive morality.

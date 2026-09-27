@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's cynicism-versus-resilience mapping of the American Right and asks a follow-up: whether any earnest non-cynical movements exist on the right or beyond Bernie Sanders, and whether independent Senate bids such as Osborn and McMullin fit that spirit.

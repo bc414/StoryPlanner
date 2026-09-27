@@ -1,0 +1,7 @@
+- asks:
+  - analyse | assess whether laws governing union structure and collective bargaining are the cause of American workers behaving as rent-seekers, rather than worker rent-seeking causing those laws | "does the laws that dictate the structure of unions and negotiations lead to American workers wanting to be rent seekers, not the other way around"
+- supplies:
+- shaping:
+  - frame the answer around a specific causal direction (institutions → behavior) versus its reverse | "not the other way around"
+- openness: Leans toward an answer it names: the message proposes that legal structures shape workers into rent-seeking behavior rather than pre-existing rent-seeking desires shaping the laws, and asks whether that direction holds.
+- subject: Causal direction between labor/union law structure and rent-seeking behavior among American workers

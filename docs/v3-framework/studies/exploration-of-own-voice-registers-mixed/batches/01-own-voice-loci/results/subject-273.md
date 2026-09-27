@@ -1,0 +1,42 @@
+- passages:
+  - note 4979 | category-label | dash-separated title, no verb | naming demographic entry for hive drones | apart
+  - note 4979 | systemic-description | present-tense third-person listing of a sorting pipeline | drones sorted into castes by test results | apart
+  - note 4980 | category-label | dash-separated title, no verb | naming comparison of two elite groups | apart
+  - note 4980 | contrastive-elliptical | short parallel fragments, one missing a verb | Skyfall elites' ambition vs meritocrats' state-driven fear | apart
+  - note 4981 | category-label | dash-separated title, no verb | naming the meritocrat/drone divide topic | apart
+  - note 4981 | systemic-description | plain third-person present/past statements | Chrysalis enforcing dual economy via exams | apart
+  - note 4982 | category-label | dash-separated title, no verb | naming the meritocratic elites topic | apart
+  - note 4982 | analytic-exposition | interpretive reasoning, named psychological concept 'cognitive dissonance' | elites' status anxiety and self-justification | apart
+  - note 4983 | category-label | dash-separated title, no verb | naming the newspeak topic | apart
+  - note 4983 | historical narrative | past-tense recounting of an origin | Yale linguists building Simplified Herzlander from corporate jargon | apart
+  - note 4983 | analytic-exposition | interpretive claim, embedded ironic quotation | linguists' self-flattering belief and the language's controlling function | run-in
+  - note 4983 | aphoristic-assertion | short parallel negation-contrast sentences | language's bareness reducing drones to automatons | run-in
+  - note 5125 | brainstorm-questioning | question mark, hedge 'maybe not really' | uncertainty over whether jaegers are true solitary predators | apart
+  - note 5125 | evaluative-declarative | flat judgment, no hedge | corruption of the predator posture called insulting | run-in
+  - note 5298 | historical narrative | terse chronological statement | propaganda of superiority emerging after the Wedding | apart
+  - note 5333 | historical narrative | past-tense summary of in-world texts and arguments | pamphlet debate between revolution and Coltbert's rebuttal | apart
+  - note 5333 | schematic-label | colon-labeled shorthand entry | Coltbert's goal of universal asset specificity | apart
+  - note 5333 | schematic-label | colon-labeled shorthand entry | naming Chrysalis's perversion of the idea | apart
+  - note 5333 | first-person voiced-logic | first-person pronoun, conditional 'if...then I must' | Chrysalis's rationale for eradicating asset specificity | run-in
+  - note 5333 | analytic-exposition | third-person parallel sentences, ironic closing contrast | Chrysalis stripping drones of leverage to become sole predator | apart
+  - note 5469 | terse-fragment-note | short noun phrase, no verb or period | state-sponsored battlefield drug addiction | apart
+  - note 5470 | historical narrative | single run-on past-tense sentence | sending old hive rulers to Griffenheim to consolidate power | apart
+  - note 5491 | historical narrative | dated opening, third-person present statements | Chrysalis demanding love-draining technology as compensation | apart
+  - note 5503 | historical narrative | chronological markers 'In... As... Eventually...' | pink love rations stripped of oxytocin across generations | apart
+  - note 5504 | analytic-exposition | discursive interpretive prose, repeated scare-quoted term | combat drugs as a parody of balance | apart
+  - note 5504 | schematic-equation | paragraph break, use of '=' sign | drugs equated to toxic masculinity and toxic positivity | apart
+- shifts:
+  - note 4979 | category-label | systemic-description | line break from title to narrated pipeline
+  - note 4980 | category-label | contrastive-elliptical | line break from title to elliptical parallel contrast
+  - note 4981 | category-label | systemic-description | line break from title to narrated mechanism
+  - note 4982 | category-label | analytic-exposition | line break from title to interpretive reasoning on status and dissonance
+  - note 4983 | category-label | historical narrative | line break from title to narrated origin of the language
+  - note 4983 | historical narrative | analytic-exposition | shift to interpretive claim with quoted phrase 'gifting civilization'
+  - note 4983 | analytic-exposition | aphoristic-assertion | shift to short parallel negation-contrast closing sentences
+  - note 5125 | brainstorm-questioning | evaluative-declarative | drop of question mark and hedge for a flat judgment
+  - note 5333 | historical narrative | schematic-label | shift from narrated summary to colon-labeled goal statement
+  - note 5333 | schematic-label | first-person voiced-logic | shift to first-person pronoun 'I' and conditional 'if...then must'
+  - note 5333 | first-person voiced-logic | analytic-exposition | return to third-person 'she' and parallel declarative sentences
+  - note 5504 | analytic-exposition | schematic-equation | paragraph break and use of '=' sign replacing discursive sentence
+- registers: category-label; systemic-description; contrastive-elliptical; analytic-exposition; historical narrative; aphoristic-assertion; brainstorm-questioning; evaluative-declarative; schematic-label; first-person voiced-logic; schematic-equation; terse-fragment-note
+- whole: This item holds several registers - taxonomic titles, plain mechanism-listing, interpretive analysis, historical narrative, a terse fragment, brainstorming, and colon- or equals-marked shorthand - which mostly stand apart as separate lines or sentences but in a few notes (4983, 5125, 5333, 5504) slide from one register into the next inside a single continuous run of text.

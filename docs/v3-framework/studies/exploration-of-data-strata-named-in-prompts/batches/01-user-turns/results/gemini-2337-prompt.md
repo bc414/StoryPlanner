@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's total-war option by stating that the Aquileians want to trade and profit and only wish to avoid paying Skyfall shipping insurance, without pointing to any body of material.

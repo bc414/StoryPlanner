@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Applejack arc discussion and the model's closing question, and issues a fresh request for an analysis of a different topic, the wings of dew mechanic and its side effect of taking on a special somepony's colors.

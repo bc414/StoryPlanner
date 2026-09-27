@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the offered walkthrough of linking AI Pro credits and asks instead for a new overview of Vertex AI and the Cloud console and how to use it like a web chat for story planning, which is a follow-up request and not a correction.

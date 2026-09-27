@@ -1,0 +1,4 @@
+- sources:
+  - my note track definitions | the model is to look into them and reanalyze their effectiveness and downsides; treated as the material to examine | Look into my note track definitions | first-named
+- order:
+- about: The user asks the model to examine their note track definitions and give a fresh analysis of how effective they are and what their downsides are.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects and extends the model's wine-as-currency analysis by widening it to all artisan luxury goods, asking whether capital equipment counts as value in that barter, defining the post-revolution franc as a fully fiat currency backed by national production, and stating that Discret and Coltbert import nothing from Equestria and only export luxuries for gold.

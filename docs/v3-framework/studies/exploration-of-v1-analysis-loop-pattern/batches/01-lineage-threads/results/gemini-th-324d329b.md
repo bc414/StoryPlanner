@@ -1,0 +1,43 @@
+- steps:
+  - author | asks a general technical question | how AI Studio prompt modes handle context | opening of the thread, before any story content
+  - model | explains three prompt modes | scope of context for Freeform, Chat, and Structured prompts | reply to the context question
+  - author | asks a follow-up technical question | how to make prompts fully self-contained | right after the context explanation
+  - model | gives a framework and worked example | a 5-part atomic-prompt architecture with a before/after sample | reply to the atomic-prompt question
+  - author | brings a draft system-prompt clause and asks for rewording | an ordering rule for a 'cartographer' bucketing step | after the atomic-prompt exchange
+  - model | offers rephrasing options with rationale | three alternative wordings and why technical vocabulary suits an LLM | reply to the draft clause
+  - author | pastes a block of story-theme notes and asks a design question | raw planning notes plus a question about what ordering rules fit them | after receiving the rewordings
+  - model | proposes ordering methodologies tailored to the pasted content | three ordering schemes tied to the pasted themes | reply to the pasted notes
+  - author | proposes a new pipeline step and asks for trade-offs | idea of an AI-suggested bucketing methodology, one-prompt vs two-prompt comparison | after the ordering-methodology reply
+  - model | lays out a pros/cons table and recommends an approach | comparison of integrated vs separated prompting, recommending a two-prompt design | reply to the pipeline question
+  - author | asks for the schema of the new first prompt | request for 'Prompt A' schema | right after the two-prompt recommendation
+  - model | (no captured response) | — | placeholder turn with no recorded reply
+  - author | repeats the schema request and adds a requirement | restated request plus a demand for AI-stated reasoning | after the uncaptured turn
+  - model | delivers a system instruction and schema | full 'Strategist' prompt text, JSON schema, and a mock UI example | reply to the repeated request
+  - author | asks a design trade-off question | whether to fix the methodology count at 3 or allow a dynamic count | after receiving the schema
+  - model | compares fixed vs dynamic counts and proposes a middle path | pros/cons table and a bounded min/max-items recommendation | reply to the count question
+  - author | pastes a denser set of story notes and asks for a data-driven bound | a long lore block plus a question on how many non-overlapping strategies are realistic | after the bounded-array recommendation
+  - model | analyzes the pasted notes and derives a specific ceiling | five methodology lenses drawn from the pasted content, justifying a max of five | reply to the data-driven-bound question
+  - author | asks for the finalized schema | request to generate the definitive Part 0 schema | after the five-methodology analysis
+  - model | delivers a finalized schema | JSON schema with item-count bounds and required fields | reply to the finalize request
+  - author | reports a tool failure and asks for a definition | cannot save the schema, asks what an editor abbreviation means | after trying to use the schema
+  - model | diagnoses the error and offers a fix | explanation of missing braces plus a corrected schema | reply to the save problem
+  - author | reports the fix failed | statement that the suggested structure still fails | after trying the fix
+  - model | offers an alternate, more conservative fix | lowercase-type schema variant and editor-quirk explanation | reply to the continued failure
+  - author | reports failure persists | statement that it still does not work | after trying the alternate fix
+  - model | redirects to a different tool workflow | recommendation to use the Visual Editor plus one more code attempt | reply to repeated failure
+  - author | asks for a foundational explanation | request to explain JSON schema from first principles | after being redirected to the Visual Editor
+  - model | teaches core concepts and maps them to the task | JSON object/array basics and a step-by-step editor walkthrough | reply to the first-principles request
+  - author | reports an interface limitation and proposes an analogy | notes no array option exists in the editor, asks if fields/lists map to C# properties/arrays | after attempting the walkthrough
+  - model | confirms the analogy and gives a workaround | class/field mapping plus a trick for nesting a list inside an object property | reply to the interface limitation
+  - author | shares a configuration and asks for confirmation | asks whether the current visual-editor setup is correct | after applying the workaround
+  - model | validates the setup and flags remaining tweaks | confirmation plus instructions to mark two fields as arrays and all as required | reply to the confirmation request
+  - author | pastes the working schema and the earlier failing one, asks for a comparison | both JSON blocks with a request to explain the difference | after finishing the configuration
+  - model | compares the two schemas structurally | explanation of root-object vs root-array, case sensitivity, and extra metadata | reply to the comparison request
+  - author | asks where a numeric constraint belongs | question about enforcing the 3-to-5 limit in the system prompt vs the structured output | after the schema comparison
+  - model | separates the two mechanisms' roles | explanation that the schema enforces the limit structurally while the instruction guides the AI toward it | reply to the constraint-placement question
+  - author | requests a build-tool prompt | asks for a prompt for AI Studio's Build tab to add a UI section for viewing methodology options | after clarifying the constraint mechanism
+  - model | delivers a build prompt | structured description of a UI section (ingestion, cards, selection handoff, styling) for the React app | reply to the build-tool request
+- kept:
+  - note 4887 | the author's own words in this record | keeps the author's own pasted planning text on stagnation evolving into harmonic republicanism and the historical-cycle observation, filed under a Meta-Narrative subject on post-Soviet neoliberalism
+- brought: The author brought two large existing blocks of story-theme planning notes into the conversation as test data for designing an AI sorting/bucketing pipeline, alongside a series of tooling questions about prompt design and JSON schema construction.
+- loop: The author repeatedly fed raw planning content and pipeline-design problems into the conversation to get engineering artifacts (schemas, prompts, UI specs) back from the model, but the archive kept only one thing from all of this: a stretch of the author's own already-written planning prose that had been pasted in as example data, filed back into the plan essentially unchanged.

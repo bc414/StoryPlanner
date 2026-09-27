@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's closing question by saying a card dragged from the categorizer into a note collection viewer should be removed from the categorizer, and names no source of data.

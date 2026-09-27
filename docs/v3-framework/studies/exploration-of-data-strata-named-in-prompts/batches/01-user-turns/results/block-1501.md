@@ -1,0 +1,5 @@
+- sources:
+  - the other axes labels | look at how the existing axis labels were chosen and use the reasons behind them to work out what the named values of this axis should do | Go through why the other axes labels are the way they are | referred-to
+  - the model's Told/Shown labelling and its line 'E+Shown+L+W notes: "These are the events occurring that I can state."' | treat as flawed, because the label Shown contradicts 'I can state the event', so Told and Shown should not be kept as track labels | There's an immediate contradiction between the label Shown and "I can state the event" | referred-to
+- order:
+- about: The user pushes back on the model's Told/Shown renaming, questions whether the four L+W content types need separate L+R tracks because their prose techniques differ, and asks the model to first define what the axis labels are for by reviewing why the other axes are named as they are.

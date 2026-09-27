@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own design refinement, asking whether the rifle could use a spell-matrix logic gate to filter red from pink while still needing Skyfall's valve for stability, and adds that they picture the Changeling harvester as a centrifuge, without saying the model's account was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn poses a cascading series of historical-economic questions (co-determination's dependence on manufacturing specialization, Reagan-era outsourcing, 1970s oil shocks, the knowledge-economy justification, fracking/CHIPS Act/COVID reshoring/solar, Fordist assembly-line rationale for combative 1930s-40s labor law, and postwar Japanese manufacturing) to test and extend the model's asset-specificity framework, without asserting that anything in the model turn was wrong.

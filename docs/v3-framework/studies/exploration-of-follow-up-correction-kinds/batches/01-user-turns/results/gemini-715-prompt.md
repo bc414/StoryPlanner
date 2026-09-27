@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the proposed Chapter 16 sequence by adding a beat, with Apple Bloom present and smiling outside the tent after Trimmel's line, as the trigger for Applejack going to Rarity to change the uniform title, without disputing anything the model wrote.

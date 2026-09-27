@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Henri/Applejack terminology discussion and asks a new question about the possible birth timing of Vaspier under his desired origin story, compared with Chrysalis, Trimmel and Thorax.

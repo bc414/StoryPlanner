@@ -1,0 +1,16 @@
+- steps:
+  - the author | narrative dump | a full battle-sequence draft: spearhead assault, conscript slaughter, Trimmel's trap and capture, the Applejack-Trimmel exchange, the Crystal Empire subversion of P&K, and the Canterlot endgame state | at gemini:109 prompt
+  - the model | tactical framing | casts Trimmel's defeat as an HOI4-style 'air gap' disaster and contrasts changeling hierarchy against pony teamwork | opening of the response
+  - the model | thematic framing | reframes the Crystal Empire subversion as 'love is the fuel of duty' versus the source's 'love is the death of duty' | second section of the response
+  - the model | structural suggestion | proposes splitting the material into two chapters with titles and rationale for each | third section of the response
+  - the model | character analysis | unpacks Trimmel's parting advice to Applejack as validation, political instruction, and sets up his POW-camp fate | fourth section of the response
+  - the model | mechanic analysis | contrasts volunteer-army quality against conscript quantity as a manpower theme | fifth section of the response
+  - the model | endgame framing plus open question | lays out the board state, the hostage complication at Canterlot, and asks how the city can be taken without killing hostages, suggesting a next chapter | closing section of the response
+- kept:
+  - note 1011 | the author's own words in this record | keeps the author's line on Trimmel's entrenchment at the Ponytown oil hub, filed onto a PlotPoint
+  - note 1521 | the author's own words in this record | keeps the author's description of changeling remnants massing at Canterlot with hostages, filed onto a PlotPoint
+  - note 2527 | the author's own words in this record | keeps the author's line on not letting the ponies backslide to past leaders, filed onto a Link
+  - note 986 | pasted whole from this reply | keeps the model's analysis of Trimmel's advice as validation, political instruction, and fate-setup, filed onto a PlotPoint
+  - note 3454 | pasted from this reply inside the author's own framing | keeps the model's 'love is the fuel of duty' reframing and its stronger-together point, filed onto a Link, wrapped in the author's own framing
+- brought: The author brought a dense, largely finished draft of a war-arc sequence (tactics, character reconciliation, and a thematic subversion of an in-world source text) rather than a question or a partial idea.
+- loop: The author delivers a completed narrative block covering both plot mechanics and theme; the model returns interpretive scaffolding (tactical logic, thematic naming, chapter structure, character stakes) without the author replying further in this stretch, and the plan absorbs both sides at once — filing the author's own descriptive and dialogue lines directly onto their matching PlotPoints and Link, while also pulling select model-authored interpretive lines (the Trimmel-advice analysis, the reframed subversion phrase) onto those same entries, sometimes wrapped back in the author's own words.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Chrysalis's Love supply is so scarce and strained that she cannot spare any for weapons, when the user's world has her selling surplus Red Love on the global black market and flooding the vice market | she also sold excess red love on the global black market for many years | put as a plot-hole check with new facts, not stated as disagreement
+  - reading of the plan | The model's picture of Chrysalis as resource-starved and biologically locked into a lead-and-chemistry war, which leaves out her industrial base (iron, aluminum, oil, plains farming) and the surplus sales the user has established | she unlocked iron, aluminum and oil beneath the frozen wastelands and also is able to do standard farming | put as a question asking whether the conclusion still holds, with the omitted facts supplied as context
+- about: The user tests the model's argument against established world facts (industrial resources, farming, surplus Red Love sold on the black market) and asks whether Chrysalis still wouldn't use Love for rifles, so the model's scarcity reasoning is challenged indirectly.

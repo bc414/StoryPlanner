@@ -1,0 +1,7 @@
+- sources:
+  - the same third person limited fields (as first designed, with their naming) | provisional and up for re-evaluation; may be discarded or reaffirmed, not treated as settled | "evaluate whether these fields and their naming are the best ones" | referred-to
+  - the new foundation of the data taxonomy | the basis to reason from; re-derive where fields belong starting from it | "Start again from first principles with the new foundation of the data taxonomy" | referred-to
+  - the naive setup before (the earlier foundation the fields were designed under) | treated as outdated; not to determine the outcome | "instead of what created when the foundation was the naive setup before" | referred-to
+- order:
+  - the new foundation of the data taxonomy over the naive setup before | fields should be judged against the new setup instead of what the naive setup created
+- about: The user asks the model to re-evaluate the existing third person limited fields and their names from first principles using the new data taxonomy, rather than inheriting them from the earlier naive design, and to be willing to discard or reaffirm them.

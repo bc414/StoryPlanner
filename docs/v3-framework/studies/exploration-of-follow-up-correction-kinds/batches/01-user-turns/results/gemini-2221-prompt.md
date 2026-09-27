@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offer to continue with a comparison of how DeepMind and OpenAI train their models, with a one-word affirmative and no objection to anything said.

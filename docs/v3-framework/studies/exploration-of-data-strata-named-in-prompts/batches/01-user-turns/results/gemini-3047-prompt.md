@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about how the consumption-versus-creation distinction just discussed connects to a culture they call "YN".

@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | a full export of the user's long-form fiction plan, content unspecified since the attachment was not captured | a very long document, stated as 114,335 words
+- shaping:
+- openness: The message contains no instruction or question beyond handing over the attached plan export, so it states no task and leaves nothing to answer, choose, or check.
+- subject: Submission of a large plan-export document with no accompanying instruction

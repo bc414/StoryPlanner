@@ -1,0 +1,5 @@
+- sources:
+  - chapter 7 Generosity | part of the story plan that the user is adding a new mechanic to; the blockade paralysis there is to include failing tycoon equipment, not only drained bits, so treat it as the place to build the new idea in | This also sets up a hilarious mechanic and divide for chapter 7 Generosity | referred-to
+  - EEEE backstory (anti-tycoon union of bored ponies and self-exiled Tzinacatl abused by Skyfall) | existing planned backstory used as a check; the new equipment-origin idea is offered as a possible extra founding element that fits it, a suggestion rather than settled | seems to align with their backstory as an anti-tycoon union | referred-to
+- order:
+- about: The user corrects the model's claim that the Rik has wider purchasing power, restating how the currency works in their world, and then proposes a chapter 7 mechanic and an EEEE founding element that follow from it.

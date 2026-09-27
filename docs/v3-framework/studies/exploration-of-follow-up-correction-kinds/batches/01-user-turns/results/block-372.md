@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the FiM parallel by adding what made the finale's sixth element land (Twilight's personal arc toward friendship, with the Republic as the grown-up end goal) and by proposing a further parallel in which Applejack's reluctance to give Kemerskai's speech mirrors Twilight's reluctance to make friends.

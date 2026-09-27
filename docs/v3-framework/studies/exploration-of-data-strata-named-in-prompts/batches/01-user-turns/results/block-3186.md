@@ -1,0 +1,4 @@
+- sources:
+  - the notebook (spoken of only as "it", the thing whose contents are to be retold)|read the whole of it without skipping and retell what it contains, then analyze it, so no details are dropped|"read it all without skipping so that details are not dropped"|referred-to
+- order:
+- about: The user rejects the model's plan to compile a downloadable file, since they already have one, and asks instead for a full retelling and analysis of the notebook's contents based on reading all of it.

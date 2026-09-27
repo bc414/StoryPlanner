@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the current economic scheme (spiked Red Love sold as a black-market drug) and asks a fresh design question about whether Chrysalis should also reveal Red Love as an industrial fuel or whether drug sales are enough.

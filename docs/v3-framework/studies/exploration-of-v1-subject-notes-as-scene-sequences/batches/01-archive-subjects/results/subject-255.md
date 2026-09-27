@@ -1,0 +1,22 @@
+- passages:
+  - 4391 | statement about the subject | Aquileia has weather because of ocean wind dynamics | none | plain declarative claim about a place, no event
+  - 4391 | statement about the subject | Herzland has barely any weather variation | none | plain declarative claim with exclamation, no event
+  - 5139 | statement about the subject | author's interpretation that the world is zero-obliquity with no axial tilt, so latitude fixes a permanent biome | none | framed as 'my interpretation'; describes a world rule
+  - 5142 | statement about the subject | Winter Wrap Up is essential to Equestria's agricultural abundance | none | declarative claim about the role of a seasonal event
+  - 5142 | statement about the subject | the big thunderstorm in Look Before You Sleep follows Winter Wrap Up and serves as the nitrogen-fertilizing event | none | explanatory claim tying an episode event to ecology; no dated moment
+  - 5429 | statement about the subject | Aquileians would find Winter Wrap Up insulting, since they are so food-rich they'd stop growing to play in snow, yet weather management is in truth how the harvest magic works | none | cultural viewpoint and explanation, no event shown
+  - 5429 | statement about the subject | Aquileia's strong air force follows from all state capacity going into weather | none | causal explanation introduced by 'That's why'
+  - 4623 | statement about the subject | the militant pegasi of Hearth's Warming Eve had their ambition channelled when Celestia invented seasons | none | backstory claim, no scene or date given
+  - 4623 | statement about the subject | each season is cast in military terms: winter as carpet-bombing with snow, spring as rapid deployment clearing snow and mobilizing water, summer as air superiority keeping skies clear | none | list of equations using '='
+  - 4623 | statement about the subject | weather is needed to produce several unique crops that require temperature shocks and exist nowhere else | none | declarative claim about the world
+  - 5141 | other: real-world principle used as framing | definition of the Anthropic Principle: observed conditions must permit an observer | none | general definition, not about the story world directly
+  - 5141 | other: argument from the framing principle | real-life seasons suiting our biology is no miracle but a selection effect | none | reasoning applying the principle to real life
+  - 5141 | statement about the subject | in FiM and EaW the weather is actually controlled for agriculture; the principle applies to their magic (ambition to live and make food), and they built the ecology that happens to match our ideal | none | contrast with real world; world rule
+  - 5141 | statement about the subject | the three tribes derived their traditional seasons by copying weather from different latitudes and finding the best pattern for farming | none | backstory claim with no date or scene
+  - 5141 | statement about the subject | pegasi had to be militant to move weather while deterring monsters from villages | none | causal explanation of a trait
+  - 5141 | statement about the subject | there was no central Cloudsdale until Luna eliminated the magical beasts; before that villages were self-sustaining with all three tribes and monsters roamed between | none | historical state of affairs marked by 'until after' and 'Before'; no dated moment
+  - 5141 | statement about the subject | Canterlot was the largest capital thanks to crystal mining and nearness to the sun; Cloudsdale began as its pegasus retinue defending it from dragons | none | descriptive claim about origins
+  - 5140 | statement about the subject | the Changeling Lands sit at a miserable latitude, so Chrysalis's invasion is that of a desperate leader eyeing an engineered agricultural paradise, not cartoonish malice | none | interpretive claim about motive
+  - 5140 | statement about the subject | because the climate is artificial, conquering the land doesn't conquer the yield: enslaving earth ponies or drafting pegasi would collapse the seasons | none | rule-like conditional consequence
+- sequences:
+- whole: Undated worldbuilding commentary on weather as an engineered, magic-driven agricultural system, covering climate, seasons, pegasus and tribal history, and political consequences, with no scene beats and no note running as a sequence of events.

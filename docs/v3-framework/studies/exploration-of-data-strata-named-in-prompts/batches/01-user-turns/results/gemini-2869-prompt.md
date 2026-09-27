@@ -1,0 +1,6 @@
+- sources:
+  - Mage Meadowbrook's friendship plants | use as the blueprint for how the Tree of Harmony should collect pink love on a nationwide scale | like Mage Meadowbrook's friendship plants which are the blueprint | referred-to
+  - my story planning document (TheLionessOfTallTale.db.md), from your gem knowledge | read and review it, then give an analysis | Please review my story planning document | first-named
+  - my lore (Star Swirl making Celestia and Luna's peers alicorns) | the author's own setting detail, stated as how things are in their version | in my lore | referred-to
+- order:
+- about: The user revises their Tree of Harmony, Elements, Celestia and Luna mechanics with new reasoning, then asks the model to review their planning document from its gem knowledge and give an analysis.

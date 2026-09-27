@@ -1,0 +1,26 @@
+- steps:
+  - the author | frames a hypothesis with plan context | an existing character-arc plot point on Spike plus a request to survey canon transcripts for supporting episodes | opening message
+  - the model | surveys canon | a list of episodes and quotes where Spike grounds Twilight against Celestia's mandates | first reply
+  - the author | poses an interpretive question with a named thesis | a reading of one episode as resolving Spike's crush, a list of suspect later episodes, and a Faust-vs-Hasbro-Mandate framework for the whole plan | third message
+  - the model | confirms and extends with attribution | writer-by-writer sourcing of the suspect episodes, then maps the pattern onto existing plan concepts about Spike and Rarity | fourth reply
+  - the author | asks a narrow inventory question | a request for which canon Twilight/Applejack interactions the plan already uses | fifth message
+  - the model | inventories current usage | five canon interactions and how each is already folded into the plan | sixth reply
+  - the author | asks the complementary question | a request for prominent Twilight/Applejack interactions not yet used | seventh message
+  - the model | surveys unused material | six candidate episodes with descriptions | eighth reply
+  - the author | imposes a constraint and offers own readings | the plan's timeline fork, ruling out three episodes as irrelevant, and the author's own placement of two others before the fork | ninth message
+  - the model | validates and narrows | agreement with the fork logic, confirmation that one episode is already integrated, and three further episodes fitting the constraint | tenth reply
+  - the author | asks for finer-grained material | a request for subtler unused moments useful to the themes | eleventh message
+  - the model | surveys with integration suggestions | three episodes each paired with a proposed use in the plan | twelfth reply
+  - the author | repeats the open-ended request | "what else" | thirteenth message
+  - the model | continues the survey | six more episodes each paired with a proposed use | fourteenth reply
+  - the author | shifts scope | a request for a top-20 list of everything subverted from canon across the whole plan | fifteenth message
+  - the model | compiles a summary list | twenty numbered recontextualizations drawn from across the existing plan | sixteenth reply
+  - the author | asks for continuation | "what else" | seventeenth message
+  - the model | extends the summary list | fourteen more numbered recontextualizations | eighteenth reply
+- kept:
+  - note 4932 | the plan held this text before this reply | a pre-existing line on Rarity's Aquileian view of Spike's crush, which the reply echoed rather than originated, kept under Subject Rarity
+  - note 2057 | pasted from this reply inside the author's own framing | the detail of Applejack learning the moon-and-stars stitch from Rarity per Look Before You Sleep, folded into the author's own account and filed under the Moving into the lab plot point
+  - note 5621 | pasted whole from this reply | the Fame and Misfortune summary and quotes about Applejack's celebrity resentment and Twilight's guilt, filed whole under Canon Episode References
+  - note 5282 | the plan held this text before this reply | a pre-existing line on Trixie's New Horseleans/Aquileian origin and asset-specificity showmanship, which the reply echoed back rather than originated, kept under Subject Trixie
+- brought: The author brought specific plot points, character-arc hypotheses, and a running Faust-vs-Hasbro-Mandate framework already in the plan, then used them to direct successive rounds of canon-transcript research and to correct or constrain the model's proposals against the plan's established timeline.
+- loop: The author repeatedly feeds established plan elements and pointed questions into the model to have canon transcripts combed for supporting or missing material, the model returns broad surveys and lists, and the database keeps back only isolated fragments -- mostly text it already held and got echoed, plus a couple of specific integrations pasted whole or reframed -- rather than absorbing the bulk of the model's output.

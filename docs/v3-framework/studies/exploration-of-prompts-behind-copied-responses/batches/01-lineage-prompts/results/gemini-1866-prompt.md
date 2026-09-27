@@ -1,0 +1,11 @@
+- asks:
+  - how-to guidance | explain the steps/approach to build a window that sorts entities by their notes' character count and displays them in a collection view usable in a card collection viewer and addable to a screen | "How would I go about that?"
+- supplies:
+- shaping:
+  - keep the approach simple/minimal, treat it as a starting point | "let me just start really simple"
+  - cover sorting entities by character count of their notes | "sorts all the entities by character count in notes"
+  - cover placing results into a collection view | "puts it in a collection view"
+  - cover making that usable inside an existing card collection viewer | "can be in a card collection viewer"
+  - cover making the result addable to a screen | "added to a screen"
+- openness: Leaves the approach fully open, only naming the desired end result and a preference for a simple first version, without proposing any specific method or choices to pick between.
+- subject: Implementing a feature in a story-planning app: a window listing entities sorted by notes length, shown via a card collection viewer, addable to a screen

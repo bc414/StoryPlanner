@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts "Sabotage" as the chapter title and asks for a new analysis of how it connects to earlier chapters and how it can be foreshadowed.

@@ -1,0 +1,6 @@
+- sources:
+  - The Princess and the Kaiser.txt, chapters 57-60 only | read only those chapters (the story is very long) and use them as the material for a comparative analysis of the Tzinacatl | Look into chapters 57-60 (and only those chapters, the story is very long) | first-named
+  - The Princess and the Kaiser (the whole fic, as the parent work) | treated as the grimdark ASOIAF-inspired original that TLTT subverts; a fork with a different premise and ASOIAF mystery magic and great mare logic, used as background for the comparison, not to be read beyond the named chapters | the grimdark, ASOIAF inspired EaW fic which my story The Lioness of Tall Tale is a subversion of | first-named
+  - what I've come up with (the author's own TLTT Tzinacatl material, as developed in this conversation) | the counterpart the P&K chapters are to be compared against | Give a comparative analysis with what I've come up with | referred-to
+- order:
+- about: The user attaches the text of a related fanfic, restricts the model to chapters 57-60 about the Tzinacatl, explains how it differs from their own story, and asks for a comparative analysis against the Tzinacatl material they have developed.

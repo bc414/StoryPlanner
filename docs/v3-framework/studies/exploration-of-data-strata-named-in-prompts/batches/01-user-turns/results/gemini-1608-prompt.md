@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the proposed weather-system idea by ruling that the war must be a commanded effort with no competition, and that local artisanal weather-making belongs to the period after white peace, when pegasi refuse to rebuild a central factory.

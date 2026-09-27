@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of the Kessler Valve as a chokepoint, likens it to TSMC in a computer-like postwar economy, and asks whether Equestria could later develop its own version from first principles, which is a new question and not a correction.

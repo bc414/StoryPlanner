@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Synovial analysis to ask for a new deliverable, a markdown report of all insights from the whole conversation (checking transcripts if they exist) that also records which insights were superseded, without saying anything in the previous turn was wrong.

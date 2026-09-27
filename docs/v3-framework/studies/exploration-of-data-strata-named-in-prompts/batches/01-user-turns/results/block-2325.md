@@ -1,0 +1,9 @@
+- sources:
+  - the opening premise, AJ running on her own, under the grimdark setup (army surrendered to Trimmel's encirclement, AJ and Mali the only escapees arriving in Falldale) | treated as outdated, a product of the old grimdark framework that the evolved planning has replaced; the model is asked to assess it against the new setup | This was under the grimdark setup | referred-to
+  - the new framework (Prince Blueblood competent, magical supply organization, staggered retreat, working friendship shields, AJ becoming a general by training others) | treated as the current, settled state of the planning, the standard the opening premise must now be judged against | the new framework has | referred-to
+  - P&K's account of AJ's rise (Luna slapping a general's star on a celebrity) | treated as the source material's version that the new framework has departed from, and as part of the cynicism and mythical magic the author feels they inherited | from Luna slapping a generals Star on a celebrity as P&K described it | referred-to
+  - ASOIAF | treated as a genre source whose cynicism and mythical magic the author inherited and now needs analysis of, for the mythical side | ASOIAF and P&K operate on both cynicism and mythical magic | referred-to
+  - the previous analysis (the model's prior turn on hopepunk thesis and lingering ASOIAF grammar) | accepted as done and settled for the cynicism side; the user builds on it to say hopepunk is not the tension | given the previous analysis | referred-to
+- order:
+  - the new framework over the grimdark opening setup | The whole materialist setup evolved
+- about: The user questions whether Chapter 1's premise of AJ alone still fits the evolved materialist planning, says the real tension is the mythical-magic inheritance from ASOIAF and P&K rather than hopepunk versus cynicism, and asks for an analysis of that mythical subversion.

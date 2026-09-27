@@ -1,0 +1,8 @@
+- asks:
+  - reconsider purpose | asks the model to work out what narrative purpose the 12-hour ultimatum still serves now that Luna and the thestrals turn out to be unintentionally organized, undercutting its original rationale | "what purpose does the 12 hour ultimatum serve?"
+  - evaluate plan | asks whether the revised delivery method for the rifles (teleported the night before, under a known pony's bed, via a thestral's dream contact) still works as a plan given the secrecy risk and that some changeling lords will get shot before dawn | "Does this still work?"
+- supplies:
+  - plan recap | describes the original 12-hour ultimatum meant to let some changelings leave willingly, the original chaotic paradrop with street fighting and teleported rifles, and a revised version where rifles are teleported the night before to a specific hostage's home via thestral dream-contact | a paragraph
+- shaping:
+- openness: Leaves both questions open: it asks the model to work out the ultimatum's remaining purpose without naming one, and asks the model to check/confirm whether the stated revised plan (early rifle delivery, resulting secrecy risk, and changeling lords shot before dawn) still holds together.
+- subject: Revising a story's rescue plan against changelings occupying Canterlot — the purpose of an ultimatum and the timing/secrecy of smuggling rifles to hostages via a thestral's dream contact.

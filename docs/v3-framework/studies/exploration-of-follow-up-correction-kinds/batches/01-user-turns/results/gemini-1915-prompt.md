@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the French kings discussion and starts a new request, giving a wiki link on the Griffonian Empire and asking for an overview of its Grovers and the length of each one's rule.

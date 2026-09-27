@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question, extending the comparison of occupations to the American Civil War, without pointing at any body of material for the model to use or avoid.

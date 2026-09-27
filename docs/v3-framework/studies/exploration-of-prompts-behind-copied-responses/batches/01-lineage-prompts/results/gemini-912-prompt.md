@@ -1,0 +1,18 @@
+- asks:
+  - correction | argues that "old ways" won't cause decline because earth pony magic is itself a natural fertilizer, pointing back to an existing explanation of earth pony latent magic and the star spade | "I don't think old ways will lead to decline since earth pony magic IS a natural fertilizer"
+  - check | asks whether it's sound that the Apple parents be family-oriented people who need a believable reason for not living at home with the family | "should be family folk or have some reason to not live at home with their family that makes sense, right?"
+  - brainstorm | proposes Apple/Pear family tribalism as the reason the parents are away, framed as proof the "stagnation" story is false | "What if it has something to do with Apple and Pear family tribalism? Evidence that the stagnation is a lie"
+  - incorporate | suggests zap apple jam as a contributing factor and notes it functions as Sweet Apple Acres's terroir and ties into Ponyville's founding via the Family Appreciation Day backstory | "I suppose the zap apple jam can be a factor. Note that..."
+  - brainstorm | asks the model to consider whether the parents are not estranged, offering two alternative forms of continued contact | "Is it possible that the parents are not estranged and do write home? Or they visit occasionally?"
+  - revise | declares that The Perfect Pear backstory should stay valid but the surrounding discovery/meta-story - that AJ, Big Mac, and Apple Bloom didn't know it and learned it from their parents' friends - should be invalidated | "I would invalidate the discovery story/meta story around it"
+- supplies:
+  - lore reference | earth pony latent magic and the "star spade" as an existing explanation for natural fertility | a passing reference, not pasted
+  - lore statement | New Mareland as Celestia's penal-colony-like destination for overly ambitious/predatory ponies, framed as the "next Skyfall" of ruthless capitalism/individualism | a short paragraph
+  - lore note | zap apple jam described as Sweet Apple Acres's terroir and linked to Ponyville's founding via the Family Appreciation Day backstory | a sentence
+  - lore reference | The Perfect Pear's existing backstory and its discovery/meta-story involving AJ, Big Mac, and Apple Bloom | a sentence
+- shaping:
+  - reply should treat earth pony magic as inherently fertilizing, ruling out an "old ways lead to decline" framing | "I don't think old ways will lead to decline"
+  - reply should favor ambition as the family's thematic core rather than stagnation | "I think it would be more profound if their story is related to ambition, not stagnation"
+  - reply must keep The Perfect Pear's core backstory intact while dropping the meta-story that the siblings only learned it secondhand from family friends | "I would invalidate the discovery story/meta story around it"
+- openness: Mixed: the message leans toward several named answers (earth pony magic as fertilizer, ambition over stagnation, keep the Perfect Pear backstory but drop its discovery meta-story) while also posing open or either/or questions (tribalism as the parents' reason, and write-home vs. occasional-visits for staying in touch).
+- subject: Worldbuilding revisions to the Apple family's backstory and lore (earth pony magic, parents' absence, New Mareland, zap apple jam, thematic direction) in a My Little Pony fanfiction plan

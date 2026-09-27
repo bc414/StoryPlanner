@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user settles the naming question by choosing "Elements of Liberty" and adds their own reading of how American schooling teaches liberty, then asks follow-ups on the Adams/Hamilton/Jefferson stances, whether big and small government flip meaning after industrialization, and whether Rome was really as the Enlightenment framed it.

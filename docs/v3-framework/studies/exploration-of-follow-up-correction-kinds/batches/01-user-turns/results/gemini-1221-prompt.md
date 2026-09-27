@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up factual question about the real Keynes's theories and personality, building on the model's proposal without challenging anything in it.

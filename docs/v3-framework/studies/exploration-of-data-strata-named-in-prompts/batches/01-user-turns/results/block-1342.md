@@ -1,0 +1,5 @@
+- sources:
+  - the meta narrative about the trajectory of GRRM and what the books were arguing | asks the model to tie its new answers back to the account it just gave, treating it as the frame to test | Does this tie into the meta narrative | referred-to
+  - the user's own first impression of GRRM (poseur, become the thing he wrote about) | treat as a provisional, possibly biased judgement from someone who hasn't read his work and opposes his thesis; to be checked rather than accepted | maybe that's a biased judgement from someone who hasn't engaged with his work | first-named
+- order:
+- about: The user questions their own harsh view of GRRM and asks whether Game of Thrones fans and book readers share its thematic argument or just want spectacle, and why a 77-year-old author would put his vision on hold for commercial work, tying these questions back to the earlier meta-narrative.

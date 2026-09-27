@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the apprenticeship program's macro-level failure as a hidden flaw or reality check it had to warn the user about, when the user already intends the ineffectiveness to be the point of the idea | The fact that it is ineffective is the point. | flat one-sentence statement at the start, with no apology or elaboration, before the user moves on to extending the idea
+- about: The user briefly says the model's flagged ineffectiveness is deliberate, then goes on to extend the worldbuilding by wondering about shipping and warlord extortion and by proposing a replacement idea: Aquileians teach the language and relocate immigrants and their families to Aquileia, as a brain-drain counterpart to Skyfall's extraction.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only an attached plan export with no text of its own, so it supplies material and says nothing about the model's answer on Mościcki.

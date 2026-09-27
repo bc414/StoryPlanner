@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the explanation of atomic prompts to a new request, asking for a more elegant rewording of an ordering rule they plan to put in the system prompt for their Part 1 cartographer step.

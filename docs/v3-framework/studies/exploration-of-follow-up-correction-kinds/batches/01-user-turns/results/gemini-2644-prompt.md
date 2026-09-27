@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, requesting further sleeping poses for Twilight and Applejack and their purposes, without disputing anything in the model's analysis.

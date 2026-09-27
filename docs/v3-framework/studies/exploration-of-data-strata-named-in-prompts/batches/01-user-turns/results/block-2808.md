@@ -1,0 +1,10 @@
+- sources:
+  - different tribes have different languages | treat as established canon; Mali's tribe and Daring Do's character need not share a language, so names can come from different languages | I established that different tribes have different languages | referred-to
+  - Incan astrology and mythology | offered tentatively as a possible fit for the compass rose motif, for the model to consider | I'm thinking the compass rose motif maps more closely to Incan astrology and mythology? | first-named
+  - Mayan or Incan (non-Aztec) naming possibilities | draw on as alternatives to Aztec/Nahuatl when exploring names, especially for Dr. Caballeron | they can also be Mayan or Incan | first-named
+  - what Aztec warriors would name their kid (the model's general knowledge of Aztec naming customs) | use to propose names for a colt born to a successful drug-tribe family who want him to be a warrior | What would Aztec warriors in that kind of position name their kid | first-named
+  - the model's earlier proposals in this conversation (Citlali, the non-copy cutie mark idea, Ocelotl) | Citlali and the non-identical, Tzinacatl-flavored cutie marks are accepted; Ocelotl is to be varied rather than used as is | Citlali is good | referred-to
+  - the author's own statement about cutie mark timing | treat as true and as a correction: the characters have only their given names, not marks, when they first read the Daring Do books | they would not yet have their marks when they first read Daring Do books | first-named
+  - the drug tribe premise (parents who sell drugs and see themselves as jaguars of the Night) | treat as the given setup that the naming should reflect | born into a drug tribe with successful parents who sell drugs and consider themselves jaguars of the Night | first-named
+- order:
+- about: The author accepts Citlali and the non-copy cutie marks, corrects the timing of when the characters get their marks, loosens the Aztec-only naming assumption toward Mayan and Incan options, and asks for Dr. Caballeron name ideas, including a jaguar-warrior name that a drug-tribe family might give their son.

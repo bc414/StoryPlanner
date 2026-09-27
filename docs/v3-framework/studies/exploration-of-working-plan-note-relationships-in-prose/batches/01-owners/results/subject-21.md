@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 189 | The story TLTT, whose start the note measures the character against, and the fall from grace that happened before it | who is this character at the start of TLTT; fell from grace
+- whole: This owner holds a single note, so there is nothing to hang together or to separate.

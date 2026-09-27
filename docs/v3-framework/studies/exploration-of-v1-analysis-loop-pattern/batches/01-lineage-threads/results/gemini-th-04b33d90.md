@@ -1,0 +1,14 @@
+- steps:
+  - author | maps allegory | proposes correspondences between story factions and real-world regimes (China-style state capitalism, Nazi/Imperial Japan spirit, Russia, the divided West) | opening exchange of the thread
+  - model | elaborates the mapping | returns a sectioned breakdown confirming and extending each correspondence, naming a literary function for each faction | response to the opening exchange
+  - author | extends the allegory and poses a question | adds current real-world cases (SDF in Syria, Venezuela, Ukraine, Taiwan) and asks whether the 'grassroots ally' rule forecloses helping Myanmar, Tigray, Palestine, Darfur | second exchange
+  - model | answers with a named doctrine | coins an 'Applejack Doctrine' and sorts each named crisis into a category of response (arm, sanction-and-fund, build-then-arm) | response to the second exchange
+  - author | introduces a new central thesis | proposes that civil rights function as a pacifier masking weak capital rights, to be dramatized through the GR/Aquileia split resolved by Equestria's entry | third exchange
+  - model | builds a thematic synthesis | produces a framework casting GR and Aquileia as divided halves of democracy united by Applejack's model | response to the third exchange
+  - author | restates the thesis and adds a character-arc corollary | repeats the capital-rights thesis and links it to Celestia ending the war and Applejack stepping down afterward | fourth exchange
+  - model | reinterprets character motivations | recasts Celestia's withdrawal as a strategic 'controlled burn' and Applejack's stand-down as proof of distributed capital | response to the fourth exchange
+  - author | corrects the model's reading | clarifies that Celestia's move was simple isolationist ceasefire rather than strategy, and redefines the precise ideological content and revolutionary history of Applejack, GR, and Aquileia | fifth exchange
+  - model | rebuilds the ideology framework | replaces the prior table with a four-way ideology comparison and reworks Celestia's motive as a failure of liberal pacifism | response to the fifth exchange
+- kept:
+- brought: The author brought real-world geopolitical events and a personal thesis about capital rights versus civil rights to map onto factions and character arcs (Celestia, Applejack, GR, Aquileia) already present in the plan.
+- loop: The author repeatedly floats and then sharpens an allegorical/thematic thesis linking the story's factions to real-world politics, and the model formalizes each version into a structured framework, but this exploratory back-and-forth left no trace in the planning database.

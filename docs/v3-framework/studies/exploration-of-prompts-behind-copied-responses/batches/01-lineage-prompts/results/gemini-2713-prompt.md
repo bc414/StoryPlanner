@@ -1,0 +1,10 @@
+- asks:
+  - choice | asks whether the Aquileian cartel should take on apprentices or remain exclusive | "Should the Aquileian cartel in Skyfall take apprentices or stay exclusive?"
+  - brainstorm/develop | proposes and invites development of a recruitment tactic where cheap street food lures workers and builds investment ties | "Maybe they lure workers with cheap, genuine street food and establish connections for Aquileian investments?"
+  - brainstorm/develop | tentatively proposes training the workers as chefs so the cartel can export Aquileian ingredients, inviting the model to build on this | "I guess they should train chefs because they want to export Aquileian ingredients."
+- supplies:
+  - worldbuilding premise | Skyfall's hyper-capitalist economy depends on a constant supply of desperate, underpaid immigrant factory labor | a couple of sentences
+  - concept | the Aquileians' "reverse brain drain" plan: disillusion immigrant workers about the manosphere and send them home with skills to open asset-specific workshops | a sentence
+- shaping:
+- openness: Opens with an explicit choice between two named options (apprentices vs. staying exclusive) for the main question, while the rest of the message leans toward its own tentative ideas (street food recruitment, chef training) marked by "maybe" and "I guess," inviting the model to develop or affirm them.
+- subject: Whether and how the Aquileian cartel in Skyfall should train outside apprentices as part of a "reverse brain drain" strategy against the setting's exploitative immigrant labor system

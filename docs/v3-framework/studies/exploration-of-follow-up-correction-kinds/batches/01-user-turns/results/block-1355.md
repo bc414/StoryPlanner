@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new task, asking the model to work out how Genevieve Guichard can serve as a Soros parallel funding Twilight in Ain Trotgourait, and adds the official flavor text and the intended oligarch/anarcho-capitalist path, without saying anything in the previous turn was wrong.

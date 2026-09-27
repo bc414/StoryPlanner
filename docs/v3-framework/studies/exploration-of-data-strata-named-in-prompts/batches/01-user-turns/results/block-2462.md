@@ -1,0 +1,7 @@
+- sources:
+  - The story plan attached | treat as outdated and replaced; do not rely on its framing of prehistoric changelings as having no written language or diplomacy | The story plan attached is outdated | referred-to
+  - My new thinking (Chinese history allegories, changeling elites who talk to each other) | treat as the current view that replaces the story plan's version | My new thinking replaces it with Chinese history allegories | first-named
+  - the model's earlier list of differences between changelings and Tzinacatl (Luna's 130-year institutional precedent, flower war rules, and the other points) | treat as under challenge; the Luna and flower war points are refuted, and the rest is to be redone as downstream effects of geography rather than causes | I would refute the 130 year institution precedent | referred-to
+- order:
+  - My new thinking over The story plan attached | the new thinking replaces the outdated plan
+- about: The user declares the attached story plan outdated, rejects the model's great-person and institutional explanations for why the changelings and Tzinacatl diverged, and asks for a reanalysis in which agriculture viability is the only root material difference and everything else follows from it.

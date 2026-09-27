@@ -1,0 +1,5 @@
+- sources:
+  - my Simplified Herzlander concept | treat as the author's own story idea that the model is to analyze and compare against the real-world case, taking it as given | Give a comparative analysis of my Simplified Herzlander concept | referred-to
+  - how things work in real life (folks in emergent economies learning just enough English to work as international contractors) | use as the real-world benchmark to check the concept against and judge whether the comparison is valid | Is this a valid comparison to how things work in real life? | first-named
+- order:
+- about: The user asks the model to compare their fictional Simplified Herzlander language, and the tragedy of Chrysalis drones raised on only it, with real-world contractors in emerging economies who learn minimal English, and to say whether the comparison holds in real life.

@@ -1,0 +1,6 @@
+- sources:
+  - the games above (the RTS and 4X games already discussed) | the author's firsthand play experience, treated as established knowledge the model can assume and build on | I am an RTS and 4X savant who played all of the games above | referred-to
+  - RuneScape and World of Warcraft | published games the author has not played, whose economies the model is to explain from scratch | I have not played RuneScape or World of Warcraft | first-named
+  - my current understanding | the author's existing picture of game economies, the reference point the new explanations are to be related to | how they relate to my current understanding | referred-to
+- order:
+- about: The user states their deep experience with the RTS and 4X games already discussed and asks the model to explain how the economies of RuneScape and World of Warcraft work, since they haven't played them, and to connect those to what they already understand.

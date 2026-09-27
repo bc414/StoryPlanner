@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new element to the election plan, asking for an analysis of teenage Grover VI as a Sunglider supporter, framed as a subversion of democracy tropes and tied to the theme that democracy is a privilege earned by industrial capacity.

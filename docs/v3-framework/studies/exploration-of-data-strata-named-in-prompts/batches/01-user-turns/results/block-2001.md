@@ -1,0 +1,6 @@
+- sources:
+  - v1 organization | treat as an earlier scheme whose handling of Torch's death as a plot point is being corrected, not followed on that point | V1 put "Dragon Lord torch is killed" as a "plot point" | referred-to
+  - v2 organization | treat as the current scheme in which the Torch material is to be placed within a broader barracks-morale scene leading up to Luna's retreat order | In v2 this belongs in a broader scene about barracks morale | referred-to
+  - chapters not yet scoured for hidden subjects | work through them next: the model is to work out which they are and then scour them for hidden subjects | all chapters not yet scoured for hidden subjects | referred-to
+- order:
+- about: The user offers a correction on how Torch's death is treated in v1 versus v2 (only mentioned verbally with morale effects, not dramatized, and belonging in a barracks-morale scene before Luna's retreat order), then tells the model to find and scour all chapters not yet checked for hidden subjects.

@@ -1,0 +1,15 @@
+- relations:
+  - 1343 | 1342 | the ontology states what happens to the three coastal towns; the history note dates it (940..972), names the model (Herzland route) and gives the reason for the lag (subjugation and taxes to the Emperor) | Aquila, Pelis and Rila become industrial cities | implicit
+  - 1345 | 1343 | presupposition and supply: the migration of penniless workers into the cities is what the towns' industrialisation needs, and the cities are the destination the migration note leaves unnamed | Workers migrate from the rural warlords to the cities | implicit
+  - 1344 | 1346 | the general statement that the system is about the Royalists and Gerad Discret is made concrete by how Royalists are recruited by him | the Royalists | Royalists are recruited by Gerad Discret and other Royalists | explicit
+  - 1344 | 1343 | the general claim that the system concerns his urban development is instanced by the coastal towns becoming industrial cities | his urban development | Aquila, Pelis and Rila ... become industrial cities | implicit
+  - 1345 | 1346 | two parallel intake channels from the same source: workers drift from the rural warlords to the cities, while Royalists are recruited directly from the warlords; one is unselected migration, the other is deliberate recruitment | from the rural warlords | Royalists are recruited ... directly from warlords | implicit
+  - 1344 | 1345 | the system's urban development is fed by the workers who leave the warlords' lands for the cities | his urban development | Workers migrate from the rural warlords to the cities | implicit
+- outward:
+  - 1344 | the parallel system Warlord Aquileia, held elsewhere, with which this system co-exists | co-exists with Warlord Aquileia
+  - 1344 | Le Grand Foyer, a place or institution not described in this item | Le Grand Foyer and the Royalists
+  - 1342 | the Herzland industrialisation, the model route held elsewhere | following the Herzland route
+  - 1342 | the Emperor who holds the towns subjugated and taxes them, not otherwise present here | paying taxes to the Emperor
+  - 1345 | the rural warlords, whose territories are described elsewhere | from the rural warlords
+  - 1346 | the warlords, as a group outside this item, from whom Royalists are recruited | directly from warlords
+- whole: ["The notes hang together loosely as one small set around Gerad Discret's system: the towns' industrialisation, its dating, and the two streams of people drawn from the warlords, with the author's framing note tying them together, though the recruitment note joins the others only by the shared warlord source."]

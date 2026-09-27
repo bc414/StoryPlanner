@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user expresses amazement that their own mapping of the factions and the Empire/Reich naming came from them, suggests it was subconscious and not coincidental, and asks the model to analyze why, without disputing anything the model said.

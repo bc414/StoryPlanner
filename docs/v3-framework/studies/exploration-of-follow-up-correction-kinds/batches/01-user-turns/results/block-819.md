@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model grounded Applejack's Honesty in a reactionary, labor-equals-yield psychology born of her parents' industrialism. The user says Honesty belongs with Aquileia's anti-poseur culture. | "Applejack's Honesty primarily aligns with Aquileia's anti-poseur culture" | Stated flatly as the correct alignment, then softened by tentative musing.
+  - fact of the world | The model implied Applejack's tie to the Griffonian Republic runs through her Honesty and her parents' factory. The user proposes the tie is her conscience, which is core to her but is not her element. | "Is it her conscience that lines up with the GR? Which is a core part of her, but not her stated element?" | Put as a question and tentative hypothesis, hedged with "I guess" and "or maybe not", while thinking aloud.
+- about: The user redirects the model's derivation of Applejack's Honesty by tying it to Aquileian anti-poseur culture, proposes that her conscience is what matches the GR, and reasons through how conscience runs across the mane six.

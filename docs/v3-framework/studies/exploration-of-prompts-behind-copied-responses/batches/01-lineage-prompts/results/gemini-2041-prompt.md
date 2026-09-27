@@ -1,0 +1,6 @@
+- asks:
+  - identify | asks whether demographics is the only axis with friction for mutual exclusivity or whether other axes also have this friction, and if so to name them | "Is demographics the only axis... or are there more?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer built around one named example, demographics, but leaves open whether other axes exist and what they would be, since it asks \"or are there more?\" without proposing candidates.
+- subject: Whether other classification axes besides demographics create friction for mutual exclusivity

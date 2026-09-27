@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's cultural-identification analysis to a new task, asking it to search the notes on the Aquileian chasseur and migrant backstory and then setting out a revised design in which whole clans and their spirits are taken to Aquileia, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about which canon FiM songs are already diegetic, without disputing anything the model said.

@@ -1,0 +1,4 @@
+- sources:
+  - Applejack's backstory as recounted by the author (parents leaving the farm to be factory owners, move to Manehattan at age 11, rejection of that life, return to the farm, cutie mark earned on return) | treat as settled established fact to be used as the basis for a thematic parallel with Kemerskai | given as a detailed factual recap stated outright, not questioned | first-named
+- order:
+- about: The user turn recaps Applejack's established childhood backstory of family estrangement and return to the farm, then asks whether Kemerskai's estranged wife and son fled to Vedina for a parallel reason (rejecting the life of revolution/nobility), seeking to interweave the two character histories thematically.

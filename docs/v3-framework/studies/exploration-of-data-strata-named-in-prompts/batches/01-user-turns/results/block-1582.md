@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is asking a design question about whether the v2 entities that inform prose writing should be large and split into detailed track links or kept granular, and whether large text volume stops being a problem once it is structured, without pointing the model at any body of material to use or avoid.

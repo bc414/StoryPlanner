@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's argument as a question to confirm they have understood that the legal structure produces rent-seeking behavior rather than the reverse, without disputing anything in it.

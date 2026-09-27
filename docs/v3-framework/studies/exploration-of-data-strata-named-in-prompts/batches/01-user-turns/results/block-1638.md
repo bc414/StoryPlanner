@@ -1,0 +1,4 @@
+- sources:
+  - "Stagnation of Harmony" concept notes (the Nursery, Trauma of Puberty, Celestia as Overprotective Mother) | material pasted in for the model to analyze and classify; its status is open, and the author is unsure whether it is too broad, already implied, or has a home | "I'm really not sure how to decouple and categorize the above notes" | first-named
+- order:
+- about: The user pastes a cluster of thematic notes about the canon show as a Nursery and asks the model to work out what they say, what planning purpose they serve, and where in their note categories they belong.

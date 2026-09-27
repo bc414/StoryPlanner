@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether prompts entered in the regular Gemini web chat or app, under a Gemini Pro subscription, are also used for training the AI model | "is the prompts on the regular web chat or app also to be used for training?"
+- supplies:
+- shaping:
+- openness: open — the message poses a plain yes/no factual question about data-use policy without naming a preferred answer or offering alternatives to choose between
+- subject: whether Gemini Pro subscription chat/app prompts are used for AI training

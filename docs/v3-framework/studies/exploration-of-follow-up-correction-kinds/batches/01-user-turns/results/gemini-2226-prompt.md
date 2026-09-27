@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the regional AI survey and asks a new, loosely related question about whether the "Attention Is All You Need" paper spawned a trend of "X is all you need" titles.

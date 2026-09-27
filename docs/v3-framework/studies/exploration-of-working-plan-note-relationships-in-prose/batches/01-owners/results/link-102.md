@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2543 | the organization whose members are being read, and the refugee changelings it takes in, which belong to the wider story and are not set out in this item | They see desperate refugees and offer assimilation
+  - 2543 | the changeling lands and the oppression in them, from which the refugees have fled, held as lore elsewhere | Forget about the oppressive changeling lands
+  - 2543 | Equestrian pony society and its pastel pastoral manner, held as a setting elsewhere | become an Equestrian pastel pastoral pony, be happy
+- whole: The owner holds a single note, so it stands alone and there is nothing in it to hang together with.

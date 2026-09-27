@@ -1,0 +1,14 @@
+- relations:
+  - 397|1123|1123 explains how The Stare works and on whom, which the origin note only says she learned; the mechanism elaborates the skill whose acquisition is recounted|The Stare|explicit
+  - 401|1981|The reader's assumption of naivety unfit for war is grounded in the P&K portrayal, where Fluttershy retreated from the horrors of war|The Princess and the Kaiser / P&K Fluttershy retreated to a cave|explicit
+  - 1981|401|TLTT Fluttershy who works with POWs and embodies grace overturns the naive, unfit-for-war expectation the reader brings|embodies grace and works with the POWs / naive and totally not fit for war|implicit
+  - 401|1123|The reader's prior of naivety is contradicted by the character truth that in Stare mode she has no fear and is the apex, so predators back down|naive and totally not fit for war / she is the apex|implicit
+- outward:
+  - 397|The episode Putting Your Hoof Down and Rarity's lesson, held elsewhere|Putting Your Hoof Down ... a lesson from Rarity
+  - 397|Her move to Ponyville and the animal friends she took on|when she first moved to Ponyville
+  - 399|Celestia as a model of top-down authority, and the birds and changelings whose choices she comes to allow|like Celestia to letting the birds and the changelings make their own choices
+  - 401|The earlier work The Princess and the Kaiser|especially if they read The Princess and the Kaiser
+  - 1981|The earlier P&K story and its Everfree Forest cave setting|P&K Fluttershy retreated to a cave in the Everfree Forest
+  - 1981|The POWs and the love donator she works with in the story, not in this item|works with the POWs and the love donator
+  - 1123|The statthalters, a class of cruel changeling leaders held elsewhere|the statthalters who get joy by cruelty
+- whole: Most notes sit in loosely linked pairs around The Stare and the P&K expectation gap, while the arc note and the empty theme note stand apart, so the set reads mostly as separate entries.

@@ -1,0 +1,4 @@
+- sources:
+  - this json | the model is to measure its size against its context window token limit, not to draw content from it or rank it | How does this json compare to your context window token limit | referred-to
+- order:
+- about: The user asks how the size of the JSON they supplied (the story plan analyzed in the previous turn) compares with the model's context window token limit.

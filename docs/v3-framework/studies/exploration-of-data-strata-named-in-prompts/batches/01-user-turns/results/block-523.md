@@ -1,0 +1,4 @@
+- sources:
+  - the Socratic questions at the end, an example of the instructions to Gemini | do not treat as an instruction to the model; leave the Socratic questions out of the reply | that was an example of the instructions to Gemini, not an instruction to you | referred-to
+- order:
+- about: The user asks whether treating themes as propositions is the fullest form of \"show, don't tell\" and what else that advice covers, including word-level craft, and clarifies that the Socratic questions in the last reply were sample Gemini instructions and not meant for this model.

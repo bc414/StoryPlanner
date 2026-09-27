@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a different design, having the AI suggest bucketing methodologies first rather than the user choosing an ordering rule, and asks for the pros and cons of doing strategy and bucketing in one prompt versus two.

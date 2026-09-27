@@ -1,0 +1,7 @@
+- passages:
+  - 4341 | statement about the subject | names the subject as a commentary on public health and social despair | none | short framing line that says what the subject is a commentary on
+  - 4344 | statement about the subject | the story's proposal that an addiction crisis is answered by harm reduction (integration) rather than a war on drugs (extermination) | none | addressed to the author as "Your story proposes"; sets two approaches against each other
+  - 4343 | statement about the subject | describes the Hives as a frozen, warring wasteland with a hard life, and red love as an escape whose rush of power and euphoria masks misery | none | descriptive statements in past tense about the setting and what red love means; no event
+  - 4342 | statement about the subject | real-world background: drug crisis driven by community collapse, economic hopelessness and loss of purpose, especially in industrial and rural areas | none | general claim about the real world, no event
+- sequences:
+- whole: The subject's four notes are all thematic statements, with no scenes or dated events, that frame the story as a commentary on addiction: a real-world cause, the in-story parallel of the Hives and red love, and the harm-reduction answer the story proposes.

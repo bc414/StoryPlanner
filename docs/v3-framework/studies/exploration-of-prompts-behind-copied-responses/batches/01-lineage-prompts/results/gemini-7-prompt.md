@@ -1,0 +1,6 @@
+- asks:
+  - factual question | what the collective term is for HTML5, CSS, and JS together | "What are html5 css and js collectively referred as?"
+- supplies:
+- shaping:
+- openness: Open: the message asks for a name/term without proposing or leaning toward any candidate answer itself.
+- subject: Terminology for the combination of HTML5, CSS, and JavaScript

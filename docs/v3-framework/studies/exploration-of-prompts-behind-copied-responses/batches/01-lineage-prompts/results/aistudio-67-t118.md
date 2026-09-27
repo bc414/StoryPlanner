@@ -1,0 +1,18 @@
+- asks:
+  - propose | lay out what the corrected ground-truth history of Stalliongrad should be after recent revisions to Celestia's attitude and the stalled harmony/industrial-influence timeline | "What should be Stalliongrad's reworked ground truth history..."
+  - evaluate | assess a newly drafted set of ideas for Severyana's origin to see if they fit the revised plan for Celestia and Equestria | "Please evaluate the following new ideas for Severyana to align with the new plan"
+  - decide between options | weigh in on which of two proposed industrialization starting points/timelines Severyana should follow | "Now I'm not sure about when industrialization starts... But the other option is..."
+  - explain/speculate | work out how Celestia's suzerain role and inner attitude toward Severyana square with its industrialization, trying out several candidate interpretations of her mentality | "how would Celestia allow this while acting as their suzerain? Maybe she views... Or she acts as hooves off... Does she view herself as just a token..."
+  - analyze | analyze the consequences of the proposed Severyana backstory | "Please analyze the effects of Severyana's backstory"
+- supplies:
+  - canon summary | existing EaW canon facts about Severyana/Stalliongrad: feudal boyar state, Celestia named tsarina ~500 ALB, 995 ALB Winter Revolution and independence | a paragraph
+  - old plan explanation | prior in-story justification for Severyana's separateness under harmony stagnation, and Chrysalis/Skyfall-driven rapid industrialization in 981 with Trimmel's revolutionaries and a failed counterrevolution | a paragraph
+  - new backstory draft | latitude/climate-based rationale for Severyana's separateness, Celestia's post-Luna-banishment policy of redirecting ambition into domestic settlement instead of foreign conquest, and the 500 ALB tsarina-naming timeline | several paragraphs
+  - industrialization timeline options | two alternative accounts of how/when Severyana industrializes: sudden Chrysalis/Skyfall injection versus gradual growth via Grover III's sea-monster-hunting decree, griffon science, and the Nova Griffonia colony, capped by a 981 Chrysalis-driven spike | a paragraph
+  - candidate Celestia-mentality framings | three possible ways to characterize Celestia's attitude toward Severyanan industry and her suzerainty: tolerating it as necessary, staying hands-off until 930 petitions force a ban, or seeing herself as a mere ceremonial arbiter | a few lines
+- shaping:
+  - consistency with prior revisions | reply must align with "the new plan for Celestia and Equestria" rather than the old framing
+  - must respect stated canon | fixed EaW facts (boyars naming Celestia tsarina ~500 ALB, 995 ALB Winter Revolution, Stalliongrad's independence) are given as constraints not to be altered
+  - must support stated later outcomes | backstory must plausibly yield a population of 12 million by the 1011 great war and a Soviet-style mass-mobilization aesthetic
+- openness: Leans toward the new latitude/climate-based backstory while asking the model to choose between two named industrialization timelines and among several named candidate framings of Celestia's mentality, and leaves the overall reworked history and its "effects" open for the model to construct.
+- subject: Reworking Severyana/Stalliongrad's origin and industrialization timeline, and Celestia's suzerain role toward it, in an "Equestria at War" fan worldbuilding plan

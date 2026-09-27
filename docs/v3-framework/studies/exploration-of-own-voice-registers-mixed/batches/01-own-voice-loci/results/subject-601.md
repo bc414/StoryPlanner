@@ -1,0 +1,28 @@
+- passages:
+  - note 51 | casual exclamatory statement | exclamation mark, word "obviously," direct plain assertion | states the pairing's core goal of mutual love | apart
+  - note 4399 | plain expository declarative | short factual sentences listing shared traits and early role | Twilight and AJ's compatibility and early "straight mares" role | apart
+  - note 4399 | plain expository declarative | factual claim about home versus Celestia's expectations | Ponyville as home vs pressure from Celestia | apart
+  - note 4399 | self-questioning reflective aside | first-person hedge "actually I think," joined by dash mid-sentence | second-guessing how much of the pressure is real | run-in
+  - note 4399 | plain expository declarative | listing named crises set before Twilight | which crises were manufactured by Celestia | apart
+  - note 4399 | plain expository declarative | claim about when Twilight lies or masks in canon | canon pattern of Twilight hiding herself for Celestia | apart
+  - note 4399 | self-questioning reflective aside | parenthetical question appended with no break | doubting the preceding claim | run-in
+  - note 4468 | plain expository declarative | plain rule-stating sentences about behavior | spooning arrangement and what it signals | apart
+  - note 4519 | plain expository declarative | contrast of canon grooming versus story's motivation, "In canon... In this story..." | why Twilight is active rather than Celestia's puppet | apart
+  - note 4526 | plain expository declarative | paired labeled categories "Old World"/"New World" with outcome clauses | contrast between the Celestia and Applejack relationships | apart
+  - note 4532 | planning/task note | short reminder-to-self phrasing | need to integrate an idea later | apart
+  - note 4532 | reflective analytical statement | first-person "I've focused," causal "because" clause | why Twilight loves Applejack over Celestia's conditional love | apart
+  - note 4532 | qualifying aside with canon citation and quote | open parenthesis, hedging "of course," "isn't that cold" | softening the claim about Celestia's coldness | run-in
+  - note 4532 | embedded quoted-dialogue register | quoted line from "A Bird in the Hoof" in quotation marks before closing parenthesis | citing Twilight's own words as proof | run-in
+  - note 4533 | plain expository declarative | plain past-tense statement of restrained feelings | Twilight's early suppressed feelings for Applejack | apart
+  - note 5447 | outline/list register | title line followed by chapter-numbered bullet items | list of chapters where TwiJack heart-to-hearts occur | apart
+  - note 5447 | embedded quoted-dialogue register | parenthetical lines of direct speech attached to chapter entries | sample dialogue representing each chapter's heart-to-heart | run-in
+- shifts:
+  - note 4399 | plain expository declarative | self-questioning reflective aside | hedge "but that's how she is - actually I think," joined mid-sentence by dash
+  - note 4399 | self-questioning reflective aside | plain expository declarative | return to plain factual listing after a paragraph break
+  - note 4399 | plain expository declarative | self-questioning reflective aside | parenthetical "(is this true?)" appended with no break
+  - note 4532 | planning/task note | reflective analytical statement | paragraph break and "Also," turning to first-person explanation
+  - note 4532 | reflective analytical statement | qualifying aside with canon citation and quote | opening parenthesis and hedge "of course," no break
+  - note 4532 | qualifying aside with canon citation and quote | embedded quoted-dialogue register | direct quotation from the episode inserted before the closing parenthesis, no break
+  - note 5447 | outline/list register | embedded quoted-dialogue register | parenthetical quoted lines attached to chapter entries, no break
+- registers: plain expository declarative; casual exclamatory statement; self-questioning reflective aside; planning/task note; reflective analytical statement; qualifying aside with canon citation and quote; embedded quoted-dialogue register; outline/list register
+- whole: Most of these notes hold a plain expository declarative register stating facts and contrasts about the two relationships, but a few notes break that register mid-note into a first-person hedge, a self-questioning parenthetical, a planning reminder, a canon-citing aside, or an embedded line of quoted dialogue, and these breaks mostly run into the surrounding sentence rather than standing apart.

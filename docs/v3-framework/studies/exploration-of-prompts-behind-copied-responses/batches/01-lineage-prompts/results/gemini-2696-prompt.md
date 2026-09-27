@@ -1,0 +1,6 @@
+- asks:
+  - compare | asks the model to compare the user's characterization of a fictional character, Moriset Discret, against King Louis Philippe as he was after the Bourbon Restoration | "Give a comparison between my characterization of Moriset Discret and King Louis Phillipe"
+- supplies:
+- shaping:
+- openness: Open: the message simply asks for a comparison between the two figures without specifying particular traits, criteria, format, or a leaning conclusion.
+- subject: Comparing a fictional character's characterization (Moriset Discret) to the historical King Louis Philippe post-Bourbon Restoration

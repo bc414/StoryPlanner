@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Rarity and Blueblood analysis unchallenged and moves on to the next plot beat, laying out Luna's hold-the-line doctrine, the friendship shields, their failure against Stukas and tanks, and Blueblood taking over the Northern Army.

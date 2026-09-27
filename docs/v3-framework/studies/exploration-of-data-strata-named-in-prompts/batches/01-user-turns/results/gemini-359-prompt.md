@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general design question about the pros and cons of allowing plot points to be nested, without pointing the model at any body of material.

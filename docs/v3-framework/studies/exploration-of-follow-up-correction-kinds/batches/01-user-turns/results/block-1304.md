@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up on whether suspense and dramatic irony architectures could be assigned to different subjects in TLTT, and resends the question with their own mistyped term ("audience architecture") replaced by "suspense architecture", without challenging anything the model said.

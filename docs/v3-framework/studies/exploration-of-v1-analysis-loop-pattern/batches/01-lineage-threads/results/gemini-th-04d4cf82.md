@@ -1,0 +1,9 @@
+- steps:
+  - the author | asks for a comparison | requests an explanation of rent-seeking and how it compares to the story's 'poseurs' concept, admitting the economic term is not fully understood | opening prompt of the exchange
+  - the model | defines the term | lays out the formal economics definition of rent-seeking using a baker/blacksmith/bandit analogy | first part of the response
+  - the model | maps the definition onto the story | applies the rent-seeking framework in turn to four story factions (rural warlords, MPA thugs, Skyfall/Gilded Trust, Chrysalis) as examples of poseurs | second part of the response
+  - the model | offers a thematic reading | argues that renaming rent-seekers as 'poseurs' works as a psychological weapon against tyranny because it attacks ego rather than describing balance sheets | closing part of the response
+- kept:
+  - note 5354, on Subject 'Honesty vs Poseurs' | pasted from this reply inside the author's own framing | keeps the core definition of rent-seeking versus profit-seeking and the point that calling rent-seekers 'poseurs' is an ego-aimed cultural insult, condensed into the author's own words under a subject entry
+- brought: The author brought their existing story concept of 'poseurs' and a personal gap in understanding of the economic term 'rent-seeking', asking the model to explain the term and compare it to their concept.
+- loop: The author brings an underdeveloped concept alongside a request to clarify it against an external framework; the model returns a full definition plus an extensive four-faction application to canon and a thematic interpretation, but the plan keeps only the condensed core definition and the ego-insult framing, discarding the detailed faction-by-faction mapping.

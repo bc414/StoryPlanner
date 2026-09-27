@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about how Poland treats immigrants, Ukrainian refugees and other Europeans, extending the Poland parallel without challenging anything the model said.

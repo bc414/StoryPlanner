@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their story's premises (harmonic capitalism as a bottom-up ideal, real-history-based feudalism and tyranny, stagnation traced to Hasbro-mandated elements) and uses them to ask a new question about whether Hasbro's authoritarian culture reflects ruthless post-industrial Western capitalism.

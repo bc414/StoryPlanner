@@ -1,0 +1,4 @@
+- passages:
+  - fabula content | Defines the in-world power L'Élan du Chasseur as Predatory Joy, stating what it is in the story's world | L'Élan du Chasseur = Predatory Joy | no | planning shorthand, an equation with an equals sign
+  - bearing on theme | Reads the laughing, violent joy of the air battle as a corrupting force that leads toward tyranny, so the laughter is a danger and not only a coping tool | a slippery slope to tyranny | no | terse appended judgment, a fragment in planning shorthand
+- whole: A one-line note that equates the power L'Élan du Chasseur with Predatory Joy and frames that joy as a slippery slope to tyranny.

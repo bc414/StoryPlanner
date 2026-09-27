@@ -1,0 +1,6 @@
+- asks:
+  - evaluate | asks the model to weigh in on using the agent mode of the Gemini Code Assist plugin, in either the VSCode or JetBrains Rider version, as an option for the work at hand | "What about using the agent mode in the Gemini code assist plugin in vscode or Jetbrains rider?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message proposes a specific named option (Gemini Code Assist plugin's agent mode, in VSCode or JetBrains Rider) and asks the model to address it, rather than leaving the question fully open.
+- subject: Whether to use the agent mode of the Gemini Code Assist IDE plugin (in VSCode or JetBrains Rider) for the project.

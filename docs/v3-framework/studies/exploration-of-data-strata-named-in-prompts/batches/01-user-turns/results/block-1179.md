@@ -1,0 +1,8 @@
+- sources:
+  - earth pony hardware in TLTT, weathering magic on phosphorus and potassium in the ground | treat as Layer 1 truth of the story world and fold it into the system: latent, invisible, slow-acting, and what Fleur's research is about | has layer 1 truth to it | first-named
+  - the scene of Twilight thinking her wings were a waste of crystals until AJ points out the earth pony part | the author's own planned scene; refer to it when covering the epilogue where Twilight helps AJ regrow Sweet Apple Acres | please refer to that | first-named
+  - this rigorous magic system and the epistemic gaps | the framework built in the conversation, which the requested analysis should rest on | this rigorous magic system and the epistemic gaps | referred-to
+  - Lauren Faust's original vision | standard the analysis must stay consistent with, scaled up to real-world level | consistent with Lauren Faust's original vision | referred-to
+  - historical fandom critiques of the Hasbro Mandate elements | the body of criticism the system is to be measured against and answer | historical fandom critiques of the Hasbro Mandate elements | referred-to
+- order:
+- about: The user adds a Layer 1 detail that earth pony hardware is latent soil-weathering magic, which pays off in the epilogue scene with AJ, and then asks for an analysis of how the magic system and epistemic gaps answer fandom critiques of Hasbro Mandate elements in a way consistent with Lauren Faust's vision.

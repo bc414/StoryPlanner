@@ -1,0 +1,10 @@
+- steps:
+  - the author | brings material | an attached document, never captured | opens the exchange
+  - the author | poses a comparative question | contrasts real-world poseur advertisers with Aquileian cutie-mark branding, offers own tentative framings (accelerant / speak-for-itself / roar) | first author turn
+  - the model | builds a structural analysis | two opposed branding models (Skyfall poseur vs Aquileian authentic) reconciled through a named doctrine, closes with follow-up questions | first model reply
+  - the author | redirects to a new question | asks whether the source show itself can be read as a meta-narrative advertisement for toys | second author turn
+  - the model | builds an extended framework | maps toy-ontology, an antagonist's economics, and several characters' arcs onto the ad-for-toys premise, closes with follow-up questions | second model reply
+- kept:
+  - note 5623 | the author's own words in this record | keeps the author's original poseur-vs-authentic branding framing and its listed examples, filed under a subject heading on honesty vs poseurs
+- brought: The author brought a comparative question about whether real-world advertising is inherently inauthentic, framed against an in-progress piece of the plan (Aquileian branding) with their own tentative labels for how it might work.
+- loop: The author raises a branding question with self-generated framing, gets back a large structural worldbuilding answer each time but moves straight to the next question rather than working the model's material further; the archive ends up keeping only the author's own original question and framing, not either of the model's analyses.

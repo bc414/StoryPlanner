@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author supplies new story backstory and plot developments (Chrysalis's failed Stalliongrad plan, the bauleiter versus statthalder split, the Vanhoover camps, Applejack's liberation and the tragedy Celestia later reveals) to extend the arc the model just outlined, without pointing at any body of material for the model to use or avoid.

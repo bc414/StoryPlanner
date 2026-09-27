@@ -1,0 +1,9 @@
+- relations:
+  - 452|639|639 is a concrete instance of the assimilation that 452 states generally: the pony-fitting habit shows up as the members' innocent-sounding word for life forces|"pony personas in order to fit in" / "used to assimilate"|implicit
+  - 451|452|the flight to Grenclyf reads as the occasion of the escape 452 describes, the move to a place among ponies away from the predator's dilemma|"They flee to Grenclyf" / "escaped the predator's dilemma"|implicit
+- outward:
+  - 639|Chrysalis and her use of the word in the Canterlot Wedding events, held elsewhere|"Chrysalis weaponized as misdirection during Canterlot Wedding"
+  - 639|the life forces and their standing in changeling lore, held elsewhere|"the word 'love' for the life forces"
+  - 451|Grenclyf as a place, and what they flee from, not described in this item|"They flee to Grenclyf"
+  - 452|the predator's dilemma, a premise about changeling food and predation held elsewhere|"escaped the predator's dilemma"
+- whole: By content the three notes lean toward a shared picture of a changeling group that fled and blended in with ponies, with the history note thin and joined only loosely.

@@ -1,0 +1,5 @@
+- sources:
+  - real-world history of camp followers, asked as "historically" | the model is to answer from general historical knowledge on how common camp followers were and whether they were paid | How prevalent were the camp followers historically? Did they get paid? | first-named
+  - Aquileia's population split, "80% griffon and 20% pony" | the author's own figure, given from memory as the premise the historical practice is to be applied to, to explore the implication of ponies as camp followers for a drafted serf army | If it's applied to Aquileia (80% griffon and 20% pony) | referred-to
+- order:
+- about: The user asks a factual history question about how common and how paid camp followers were, then applies the idea to their setting's Aquileia demographics and remarks that it would make ponies camp followers of a warlord's serf army.

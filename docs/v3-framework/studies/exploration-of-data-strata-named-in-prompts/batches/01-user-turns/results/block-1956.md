@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks, in a repeated question, what label or framework to use for their worldbuilding so it won't be mistaken for strict historical materialism that leaves out humanist ideas, and points to no body of material for the model to use or avoid.

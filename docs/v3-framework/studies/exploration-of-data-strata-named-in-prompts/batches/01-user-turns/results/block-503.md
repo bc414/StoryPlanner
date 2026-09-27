@@ -1,0 +1,4 @@
+- sources:
+  - all my notes on Applejack | material the model is to draw on and organize, as it did with the Chrysalis notes; asked what happens to them, no priority or trust level set | What about all my notes on Applejack? | referred-to
+- order:
+- about: The user asks how their notes on Applejack fit into the organization scheme the model just proposed for their Queen Chrysalis notes.

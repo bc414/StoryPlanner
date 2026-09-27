@@ -1,0 +1,4 @@
+- sources:
+  - the axes of the framework (axis 1's antipole, axis 3, axis 4) | treat as provisional and open to revision; the user proposes changing what axis 1's antipole is, and recasting axis 3 and axis 4 | axis 1's antipole is better represented by, Maybe axis 3 should be, Actually maybe it has to do with | referred-to
+- order:
+- about: The user proposes revisions to the four-axis framework, recasting axis 1's antipole as the industrial revolution and default societal foundation, and rethinking axis 3 as extraction vs conscience or as in-group tribalism vs universalism.

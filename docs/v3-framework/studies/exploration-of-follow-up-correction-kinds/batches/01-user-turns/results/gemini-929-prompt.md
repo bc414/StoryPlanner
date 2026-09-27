@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the revised parents and company setup and moves on to a new question about how much the other five main characters should know of Applejack's history with industry and her parents.

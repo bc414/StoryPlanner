@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model closed by presenting the binding together of the species under a shared civic identity as an open narrative challenge, and said the ending must synthesize these lessons, as if the plan did not already address it. The user says the plan already contains answers: Tzinacatl and buffalo economic integration, universal translators, and Faust's themes grown up. | "my story plans already hint at this" | Mild and tentative, hedged with "I think". Put as a redirect that names what the plan holds, and turns into a request to review the plan itself.
+- about: The user answers the model's closing question by saying the plan already points toward a solution, then asks the model to go through the story plan and give an analysis and point out other elements in it.

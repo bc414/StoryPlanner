@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the previous answer's claim that remittances affect the predator's dilemma in the home village, then asks the model to explain how remittance-heavy economies work today and how that compares to Ireland, Naples and Qing or warlord China.

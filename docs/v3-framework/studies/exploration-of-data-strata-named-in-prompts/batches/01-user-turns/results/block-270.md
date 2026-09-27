@@ -1,0 +1,8 @@
+- sources:
+  - His canonical story (works at a power plant) | treat as the fixed baseline fact that the new backstory must lead to | His canonical story is that he works at a power plant | referred-to
+  - Flowing Current's EaW baseline (contacted by Nightmare Moon in a dream, cuts power, triggers Manehattan's defection in the Equestrian Civil War) | keep its spirit, susceptibility to radicalization, as what the new backstory has to stay consistent with | in keeping the spirit of Flowing Current's EaW baseline being susceptible to radicalization | referred-to
+  - Chapter 7 (Celestia's dislike of EEEE) | existing plan point that the returned-New-Mareland idea would strengthen | even further cements why Celestia doesn't like them in chapter 7 | referred-to
+  - The user's own new backstory idea for Flowing Current and the origin of EEEE | a proposal offered for the model to develop, not yet settled | here is my idea | first-named
+  - The suggestion that most EEEE founders are returned New Marelanders | provisional, posed as a question for the model to weigh | should the bulk of ponies in EEEE (or at least the founders or a big plurality) come from returned New Marelanders? | first-named
+- order:
+- about: The user proposes a detailed radicalization backstory for Flowing Current that leads from his canonical power-plant job and his EaW baseline into the founding of EEEE, and asks whether EEEE's founders should mostly be returned New Marelanders.

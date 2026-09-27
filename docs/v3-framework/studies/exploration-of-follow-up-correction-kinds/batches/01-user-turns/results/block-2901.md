@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reports having built and filled in the five axes, then asks for a correlation analysis, a check on whether Stratified is derivable from the other axes, and a list of the empty cells, without objecting to anything in the model's naming recommendation.

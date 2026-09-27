@@ -1,0 +1,5 @@
+- sources:
+  - my ontology | the author's own framework for turning show tropes into in-world explanations; the model is to read it to list which doylist aspects it has already translated and which remain untranslated | using my ontology | referred-to
+  - MLP | the published show, treated as the origin of the doylist aspects (tropes and conventions) to be listed as translated or still outstanding | doyalist aspects of MLP | referred-to
+- order:
+- about: The user asks the model to survey which show-level (doylist) conventions of MLP they have already given in-world (watsonian) explanations through their ontology, and which remain unresolved.

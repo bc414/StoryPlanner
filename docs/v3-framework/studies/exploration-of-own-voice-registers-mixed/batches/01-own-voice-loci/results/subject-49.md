@@ -1,0 +1,22 @@
+- passages:
+  - note 5614 | third-person explanatory analysis | causal 'isn't...because', 'that's why', 'which got him kicked out' | Sunburst's motive for closing the door on Starlight | apart
+  - note 5616 | quoted dialogue exchange | first/second person, exclamation-free banter, ellipses, bracketed [ahem], stammering 'I-I' | a joking exchange about compulsion spells | apart
+  - note 5616 | terse note | short unelaborated declarative, no causal link | how the pillar of old Equestria operated | apart
+  - note 5616 | terse note | short unelaborated declarative | Sunburst's library full of contraband texts | apart
+  - note 5616 | third-person explanatory analysis | 'So in this world...which...means', discursive causal chain | redefining 'dark magic' as industrializable magic | apart
+  - note 5616 | terse note | short unelaborated declarative naming another work | spells in the Canterlot Archives from It's About Time | apart
+  - note 5617 | quoted dialogue exchange | second-person address, exclamation marks, dramatic repetition | what it was like at magic school, not knowing basic spells | run-in
+  - note 5617 | third-person explanatory analysis | 'he's not referring to...He's referring to...and was kicked out for trying' | clarifying what Sunburst means by 'not being able to do any of it' | run-in
+  - note 5617 | terse note | short unelaborated action sentence | Sunburst going to the parloirs | apart
+  - note 5618 | third-person explanatory analysis | 'isn't a deus ex machina, it is because', 'naturally leads to' | why rebuilding the crystal heart makes sense in this world | apart
+  - note 5659 | casual reflective commentary | first-person hedge 'I guess', informal phrasing 'book smart' | canon's portrayal of Sunburst vs. Starlight's power | apart
+  - note 5659 | third-person explanatory analysis | 'was expelled...because he showed too much interest' | why Sunburst was expelled in TLTT's setting | apart
+- shifts:
+  - note 5616 | quoted dialogue exchange | terse note | paragraph break, drop from first-person speech to third-person assertion
+  - note 5616 | terse note | third-person explanatory analysis | causal connective 'So' opening a discursive, elaborated sentence
+  - note 5616 | third-person explanatory analysis | terse note | return to a short, unelaborated statement naming another work
+  - note 5617 | quoted dialogue exchange | third-person explanatory analysis | dash joining exclamatory address to a clarifying third-person clause
+  - note 5617 | third-person explanatory analysis | terse note | new short sentence narrating the next action with no causal link
+  - note 5659 | casual reflective commentary | third-person explanatory analysis | paragraph break, loss of first-person hedge, shift from canon episode to the story's own setting
+- registers: third-person explanatory analysis; quoted dialogue exchange; terse note; casual reflective commentary
+- whole: This item's notes move among four registers — causal third-person explanation, snatches of quoted dialogue, terse unelaborated notes, and one passage of casual first-person hedging — mostly set apart from each other by paragraph or sentence breaks, with only one place, in note 5617, where a dash pulls two registers into a single run-on sentence.

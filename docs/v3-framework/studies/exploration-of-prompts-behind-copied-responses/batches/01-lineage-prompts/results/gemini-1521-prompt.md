@@ -1,0 +1,8 @@
+- asks:
+  - analysis | requests a fresh/alternate analysis of the fictional currency system called the "vino-standard" | "Give another analysis of the vino-standard"
+- supplies:
+  - premise | a worldbuilding detail stating that Discret's notes guarantee a 1:1 exchange of a note for a gold bit at the royal treasury | one sentence
+- shaping:
+  - produce a different analysis than a prior one | word "another" implies it should not just repeat an earlier analysis
+- openness: open — it names the subject (the vino-standard) and hands over one supporting fact, but does not specify what angle, conclusion, or format the new analysis should take
+- subject: worldbuilding of a fictional monetary/currency system ("vino-standard") and its note-to-gold exchange rule

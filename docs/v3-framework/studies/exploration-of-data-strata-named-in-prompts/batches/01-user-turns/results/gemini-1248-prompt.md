@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's over-rigid reading of how cutie marks work, then supplies new story material: Applejack's parents' move to Manehattan and factory, why she got her mark, and how Chrysalis's recruitment let moral ponies like them slip through and become the union's model corporation.

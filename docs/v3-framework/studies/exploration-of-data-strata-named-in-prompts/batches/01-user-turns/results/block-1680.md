@@ -1,0 +1,5 @@
+- sources:
+  - real world governments like Fascism and social democracy (inspiration for Civilizational System) | treated as the direct real-world analogy behind the Civilizational System; this is what distinguishes it from the invented Technology and World Law | "a direct analogy, inspired by real world governments like Fascism and social democracy" | referred-to
+  - canon moments and fanon shipping (for the TwiJack bond) | treated as the whole of what Bond draws on, so no separate analogy track is needed for it | "It's just canon moments and fanon shipping" | referred-to
+- order:
+- about: The user pushes back on the model's proposal to use Analogies uniformly, saying Technology and World Law are invented fantasy and so are allegory only, unlike the Civilizational System, and asking whether Bond is the only subject type without an analogy track since its material is just canon moments and fanon shipping.

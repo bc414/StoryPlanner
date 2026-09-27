@@ -1,0 +1,8 @@
+- steps:
+  - author | states a mechanism | clarifies that griffon enchantments don't persist on products, so the griffon must build enchanted-surface machinery that stamps industrial-process properties onto unenchanted parts | opens the stretch, first half of the single prompt
+  - author | extends the mechanism with a new material | proposes an alchemical interface substance from the Tzinacatl tribes that transfers raw magic from crystal/metal composite into horn | continues within the same prompt
+  - author | links the new material to existing plan material | suggests this substance is the same one Tzinacatl medics use to heal Starlight's horn after the battle in chapter 4, making the crystal enhancer self-heal the damage it causes and adding a second supply-chain constraint | closes the single prompt
+  - model | (no move) | no response was captured for this prompt | end of the stretch
+- kept:
+- brought: The author brings in an existing plan element — the chapter 4 battle-damage healing of Starlight's horn by Tzinacatl medics — and repurposes it as the source of the new alchemical interface material.
+- loop: The author uses the prompt to work out and connect two pieces of worldbuilding (griffon machine mechanics and a horn-interface material tied back to an existing chapter's healing scene), but since the model's reply was never captured and no archive note traces to this stretch, nothing from this exchange is shown to have been kept in the plan.

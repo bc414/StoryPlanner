@@ -1,0 +1,4 @@
+- sources:
+  - the financial scheme the model just laid out (the shell-company drain and Skyfall currency mechanism) | treated as the working premise; the user builds on it and asks whether it accounts for the students' collaboration, a check of the idea against it rather than a settled fact | Is this why Chrysalis is able to convince her former students | referred-to
+- order:
+- about: The user extends the model's economic explanation into a new story question, proposing that Skyfall's wealthy former students collaborate because their currency becomes worthless in wartime and Chrysalis offers to let them keep their bank accounts, and asks the model to confirm that this is the reason.

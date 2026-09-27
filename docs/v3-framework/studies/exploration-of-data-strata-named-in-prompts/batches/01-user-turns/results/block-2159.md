@@ -1,0 +1,6 @@
+- sources:
+  - the Alouette song | model is to supply its full lyrics from general knowledge and explain how they apply to the character | What are the full lyrics of the Alouette song and how do they apply? | referred-to
+  - several French translations I already have (coeur de cristal, tableau de chasse, ailes de rosée, appliqué, parloir) | author's own examples from memory, given as context and precedent for the naming pattern of names that sound fancy in French but are on the nose in English; supports the choice of Alouette | I already have several French translations that become on the nose upon translation | first-named
+  - the db file | holds a few more of the on-the-nose French translations; pointed to as further evidence of the pattern | a few more in the db file | referred-to
+- order:
+- about: The user picks Alouette over Trottelou for the griffoness, asks for the full Alouette song lyrics and how they apply, and backs the choice by pointing to the story's existing pattern of French names that sound elegant but are literal in translation.

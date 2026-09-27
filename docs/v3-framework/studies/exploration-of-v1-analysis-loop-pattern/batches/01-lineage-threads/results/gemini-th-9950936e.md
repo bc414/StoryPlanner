@@ -1,0 +1,8 @@
+- steps:
+  - author | frames a mirror question | takes the already-established idea of 'paratext' (post-story allegory explanation) and asks for its opposite: a pre-story device to attract theme-aligned readers without spoilers or looking like slop | opening prompt of the exchange
+  - model | coins a term | proposes 'Thematic Primer' / 'Author's Manifesto' as the pre-story counterpart to paratext, framing it as a handshake rather than a post-mortem | opening of the model's response
+  - model | builds a three-part framework | lays out a 'Triangulation' pitch (reject three named extremes), an 'asset specificity' signaling tactic (tags, appendix, update cadence), and a three-beat formula (premise, thematic conflict, author's promise) for writing the primer | body of the model's response
+  - model | offers a follow-on analysis | asks whether the author wants a further breakdown of how other 'Grand Strategy'/'Hopepunk' authors format tables of contents and chapter notes | closing line of the model's response
+- kept:
+- brought: The author brought forward the planning concept of 'paratext' from prior work and asked for its inverse — a pre-story marketing device — as a new question, not a draft or a plan excerpt.
+- loop: The author takes a term already worked out in the plan (paratext) and asks the model to construct its mirror-image counterpart for reader acquisition; the model returns a named concept and a structured framework in reply, but no note in the planning database traces to this exchange, so the loop stops at the model's response with nothing shown to have been carried back into the plan.

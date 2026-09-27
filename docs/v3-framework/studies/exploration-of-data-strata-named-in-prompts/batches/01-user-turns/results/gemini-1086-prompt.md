@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's comparison by stating that the tycoons are active collaborators and adding new plot facts: Celestia has fled Canterlot to Manehattan, is paralyzed, and EEEE briefs Rarity so she can speak to her directly.

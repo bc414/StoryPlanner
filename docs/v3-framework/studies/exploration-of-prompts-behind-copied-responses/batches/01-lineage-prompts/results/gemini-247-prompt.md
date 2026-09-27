@@ -1,0 +1,7 @@
+- asks:
+  - feasibility question | asks whether it is possible to turn the unspecified project ("this") into a commentary on the fentanyl/drug crisis | "Is it possible for me to make this a commentary"
+  - brainstorm/explore | asks whether the work could also offer a solution to the crisis, not just comment on it | "and maybe a solution on the current fentanyl crisis"
+- supplies:
+- shaping:
+- openness: Leaves the answer open — it poses a yes/no possibility question ("Is it possible...") without specifying how the commentary or solution should work, inviting exploration rather than stating a direction.
+- subject: Whether the person's story project can serve as commentary on, or a proposed solution to, the Western fentanyl/drug crisis

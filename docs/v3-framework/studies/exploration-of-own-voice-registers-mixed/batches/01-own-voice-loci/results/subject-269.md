@@ -1,0 +1,95 @@
+- passages:
+  - 4809 | categorical/definitional statement | general past-tense scene-setting, "was a chaotic land" | Aquileia's warlord-era social structure | apart
+  - 4810 | chronicle narrative | past tense, named actors, sequential events, "legend says" | Leonce du Roc and Grover I's conquests | apart
+  - 4811 | chronicle narrative | past tense, concrete actor "Grover I strategically left" | Grover I's monster-retention strategy | apart
+  - 4811 | analytic-causal exposition | abstract-subject "This created a dependency" | political effect of monster dependency | apart
+  - 4812 | chronicle narrative | past tense, "the Imperial Legions systematically eradicated" | monster eradication under Grover III | apart
+  - 4812 | analytic-causal exposition | "This action caused the peasantry to revere" | peasant reverence as consequence | apart
+  - 4813 | analytic-causal exposition | abstract-subject "the withdrawal... turned warlords into," "creating a dependency" | warlords' shift to industry and bandit dependency | apart
+  - 4814 | chronicle narrative | past tense, named actor "Gerad," jargon "bureaucratic warfare" | Gerad's covert state-building | apart
+  - 4815 | chronicle narrative | past tense, single dated event | independence declaration | apart
+  - 4816 | chronicle narrative | past tense "forced," "got" | forcing nobility into Academy and stipends | apart
+  - 4816 | present-tense policy-rule description | present tense "have to," "are forbidden," "get dinged" | standing rules of residence and conduct | apart
+  - 4816 | chronicle narrative | past tense "managed," "extracting" | royalist stewards' provincial extraction | apart
+  - 4817 | chronicle narrative | past tense, listed causes of revolution | the causes of the 980 revolution | apart
+  - 4817 | analytic-causal exposition | abstract-subject "The lack of local community ties... led to" | consequence of royalist isolation | apart
+  - 4818 | chronicle narrative | past tense, "Gerad established a state monopoly" | founding of gunpowder monopoly | apart
+  - 4818 | analytic-causal exposition | "This forced the 'Nobles of the Sword' to depend" | resulting noble dependency | apart
+  - 4819 | chronicle narrative | past tense, "was a comprehensive land registry created by" | origin of the Cadastre | apart
+  - 4819 | analytic-causal exposition | "This tool eliminated... allowing" | effect on taxation | apart
+  - 4820 | chronicle narrative | past tense, "Gerad built universities," "served as the academy" | founding of universities and academy | apart
+  - 4820 | categorical/definitional statement | present tense "has a rustic university" | Pridea's pre-existing university | apart
+  - 4821 | chronicle narrative | past tense, single sentence with embedded causal clause | Chancery's legal dialect and its effect | apart
+  - 4822 | comparative cross-reference | past tense "learned," names Chrysalis against a model | Chrysalis's insight into meritocracy | apart
+  - 4822 | chronicle narrative | past tense, named actor Gerad | Gerad trading gunpowder for talent | apart
+  - 4822 | comparative cross-reference | present tense "hooks," emphatic "ALL" | Chrysalis's love-harvester method | apart
+  - 4822 | comparative cross-reference | "saw how Gerad... She applied it" | Chrysalis borrowing Gerad's indoctrination | apart
+  - 4822 | chronicle narrative | past tense, named actor Gerad | Gerad's open-door policy for second gen | apart
+  - 4822 | comparative cross-reference | quoted terms 'Second Generation,' 'Open Door,' 'Totalitarian Enclosure' | Chrysalis's totalitarian enclosure solution | apart
+  - 4822 | vivid present-tense image | present tense, generic subject "a Changeling" | Changeling childhood struggle | apart
+  - 4823 | categorical/definitional statement | present tense "is the apex predator," quoted term 'Lion' | Griffon Warlord's role and ego | apart
+  - 4824 | categorical/definitional statement | present tense "function as," "provide" | Griffon serf labor-for-protection role | apart
+  - 4825 | categorical/definitional statement | present tense "are," "cannot," "can't" | pony/pegasus minority status and flight limits | apart
+  - 4825 | chronicle narrative | past tense "went to war," "used," "were shielded" | wartime abuse of ponies by warlords | apart
+  - 4826 | chronicle narrative | past tense "were educated... transformed" | bourgeoisie's rise via universities | apart
+  - 4828 | chronicle narrative | past tense, named actor Gerad, quoted term 'Cult of Competence' | meritocratic equality policy | apart
+  - 4829 | categorical/definitional statement | past-tense general/habitual "was based on," "defended... in return for" | feudal protection-for-labor exchange | apart
+  - 4830 | chronicle narrative | past tense "Gerad controlled" | gunpowder deal with bourgeoisie | apart
+  - 4830 | analytic-causal exposition | "This arrangement allowed him to leverage" | political effect of the deal | apart
+  - 4831 | categorical/definitional statement | names and defines 'Feudal Mystery' | how lords hid wealth | apart
+  - 4831 | chronicle narrative | concrete actor "Gerad destroyed this by mapping" | Gerad's countermeasure | apart
+  - 4832 | categorical/definitional statement | names and defines 'King's Math' | replacement of feudal dues with imperial taxes | apart
+  - 4832 | analytic-causal exposition | "This shift... ensured," "It also maximized" | effects of standardized taxation | apart
+  - 4832 | comparative cross-reference | "Before,... might... Under the Royalists,... is" | contrast of arbitrary vs systemic oppression | apart
+  - 4833 | categorical/definitional statement | past-tense general, quoted term 'Religious Honor' | griffon lords' faith-based loyalty | apart
+  - 4833 | comparative cross-reference | "This contrasted with" | contrast with pony bureaucrats' secular loyalty | apart
+  - 4834 | comparative cross-reference | "rather than divinity," "not because... he is 'King'" | safety-based vs divine/royal loyalty | apart
+  - 4835 | categorical/definitional statement | past-tense general, metaphor "cage," "wolves outside" | first generation's gratitude-based loyalty | apart
+  - 4836 | categorical/definitional statement | past-tense general, quoted term 'Palace Brats' | second generation's critique and Gerad's view of them | apart
+  - 4837 | comparative cross-reference | names both Gerad and Chrysalis, abstract term "sociological inevitability" | shared second-generation gap | apart
+  - 4839 | categorical/definitional statement | plain visual description, aesthetic adjectives | Le Grand Foyer's gardens | apart
+  - 4840 | chronicle narrative | past tense "allowed," "couldn't scale" | Gerad's bourgeoisie tolerance and limits | apart
+  - 4840 | comparative cross-reference | present tense "uses," named actor Chrysalis | Chrysalis's elimination of rival predators | apart
+  - 4954 | present-tense policy-rule description | present tense "makes," "forcing... failing" | vicar liability rule for warlords' wives | apart
+  - 4955 | terse fragment listing | noun fragments, no finite verbs, "like Redcoats" | gendarmerie's uniform drill style | apart
+  - 4955 | present-tense policy-rule description | finite verbs, present tense "cast," "reloads," "may be... but are" | unicorn shield mechanic and uniformity | apart
+  - 4957 | categorical/definitional statement | past-habitual "used to pay" | petty lords' former tax arrangement | apart
+  - 4957 | present-tense policy-rule description | present tense "may own," "are subjected," "must comply" | current rule under Royalist Intendants | apart
+  - 4959 | comparative cross-reference | parallel clauses "In Aquileia... In Herzland" | comparing checks on power across kingdoms | apart
+  - 4960 | categorical/definitional statement | present tense "embrace," generic subject "Bourgeoisie" | bourgeoisie's motive for standardization | apart
+  - 4960 | chronicle narrative | past tense "embraced," named actor Gerad | Gerad's motive for standardization | apart
+  - 5270 | categorical/definitional statement | present tense "view," generic subject "Griffons" | griffon view of flight as privilege | apart
+  - 5270 | categorical/definitional statement | present tense "are... malnourished," "only partially develop" | pegasi serfs' stunted wings | run-in
+  - 5270 | informal aside/pop-culture reference | parenthetical "(like Scootaloo)" | casual comparison to outside reference | run-in
+  - 5270 | interpretive-symbolic statement | "To them, the sky represents danger" | symbolic meaning of sky to pegasi | apart
+  - 5419 | terse fragment listing | run-on clauses without periods, dropped subject "Then used" | sequence of agricultural industrialization | apart
+  - 5419 | present-tense evaluative summary | present tense "have," colloquial "it's wage slaves" | judgment on industrial farms | apart
+- shifts:
+  - 4811 | chronicle narrative | analytic-causal exposition | shift to abstract-subject "This created a dependency" construction
+  - 4812 | chronicle narrative | analytic-causal exposition | shift to abstract-subject "This action caused" construction
+  - 4816 | chronicle narrative | present-tense policy-rule description | tense change from past "forced/got" to present "have to/are forbidden"
+  - 4816 | present-tense policy-rule description | chronicle narrative | return to past tense "managed, extracting"
+  - 4817 | chronicle narrative | analytic-causal exposition | abstract-subject "The lack of local community ties... led to"
+  - 4818 | chronicle narrative | analytic-causal exposition | "This forced... to depend on" construction
+  - 4819 | chronicle narrative | analytic-causal exposition | "This tool eliminated... allowing" construction
+  - 4820 | chronicle narrative | categorical/definitional statement | tense change to present "has a rustic university"
+  - 4822 | comparative cross-reference | chronicle narrative | subject change from Chrysalis to Gerad
+  - 4822 | chronicle narrative | comparative cross-reference | subject change to Chrysalis with present tense "hooks"
+  - 4822 | comparative cross-reference | chronicle narrative | subject change back to Gerad "allowed"
+  - 4822 | chronicle narrative | comparative cross-reference | subject change to Chrysalis "attempted to solve"
+  - 4822 | comparative cross-reference | vivid present-tense image | shift to generic subject "a Changeling" in present tense
+  - 4825 | categorical/definitional statement | chronicle narrative | tense change to past "went to war, used" and a described episode
+  - 4830 | chronicle narrative | analytic-causal exposition | "This arrangement allowed him to leverage" construction
+  - 4831 | categorical/definitional statement | chronicle narrative | shift from naming the concept to concrete actor "Gerad destroyed this by"
+  - 4832 | categorical/definitional statement | analytic-causal exposition | "This shift... ensured/trapped" construction
+  - 4832 | analytic-causal exposition | comparative cross-reference | contrast marker "Before," modal "might," parenthetical examples
+  - 4833 | categorical/definitional statement | comparative cross-reference | connective "This contrasted with"
+  - 4840 | chronicle narrative | comparative cross-reference | subject change to Chrysalis and present tense "uses"
+  - 4955 | terse fragment listing | present-tense policy-rule description | appearance of finite verbs replacing noun fragments
+  - 4957 | categorical/definitional statement | present-tense policy-rule description | tense change from "used to pay" to "may own/must comply"
+  - 4960 | categorical/definitional statement | chronicle narrative | tense change from present "embrace" to past "embraced" and shift to named individual
+  - 5270 | categorical/definitional statement | informal aside/pop-culture reference | parenthetical "(like Scootaloo)" and adverb "tragically," no break
+  - 5270 | informal aside/pop-culture reference | interpretive-symbolic statement | shift to "To them... represents" framing
+  - 5419 | terse fragment listing | present-tense evaluative summary | tense change to present and colloquial "it's wage slaves"
+- registers: chronicle narrative; analytic-causal exposition; categorical/definitional statement; present-tense policy-rule description; comparative cross-reference; terse fragment listing; vivid present-tense image; informal aside/pop-culture reference; interpretive-symbolic statement; present-tense evaluative summary
+- whole: This item's notes move among several registers—narrated chronicle, abstract cause-effect analysis, timeless definition, present-tense rule-statement, and explicit comparison—almost always changing at a sentence break rather than inside one, with a single embedded exception where a definitional sentence carries a casual parenthetical aside with no break.

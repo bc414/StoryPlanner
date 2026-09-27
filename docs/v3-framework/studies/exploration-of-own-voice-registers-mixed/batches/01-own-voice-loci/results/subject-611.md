@@ -1,0 +1,29 @@
+- passages:
+  - note 4424 | terse shorthand notation | clipped phrase, no full clause | which side fought the first battle | apart
+  - note 4425 | terse shorthand notation | clipped phrase, word "also" | which side fought the second battle | apart
+  - note 4426 | narrative summary, past tense | third-person past-tense recount, "demands to requisition...saying" | Trimmel's demand after the loss | apart
+  - note 4426 | reported-speech paraphrase, present tense | present-tense claim after "saying", urgency "right now" | Trimmel's stated justification | run-in
+  - note 4426 | narrative summary, past tense | plain past-tense clause | outcome: laughed off, sent to Bales | apart
+  - note 4427 | narrative summary, present tense | present-tense placement clause, purpose phrase "as damage control" | Chrysalis positions Pagala at Tall Tale | apart
+  - note 4428 | narrative summary, present tense | paired present-tense clauses, aside "disgraced" | command passes from Pagala to Synovial | apart
+  - note 4429 | terse shorthand with colloquial idiom | clipped label plus idiom "played like a fiddle" | outcome of the 3rd battle | apart
+  - note 4430 | narrative summary, present tense | present-tense verb "sends", embedded relative clause | Trimmel assigns Elvir to Tall Tale | apart
+  - note 4430 | expository strategic aside, present tense | generalizing present-tense clause, "as" reasoning | why the front sees no movement | apart
+  - note 4430 | narrative summary, past perfect | past-perfect verb "had just heard" | Trimmel and Elvir learn of Thranx's death | apart
+  - note 4430 | speculative parenthetical aside | parenthesis, hedge word "presumably" | guess at who killed Thranx | run-in
+  - note 4430 | interior motivation/reasoning, present tense | present-tense "already knows", colloquial "screwed", "so he wants" | Trimmel's reason for wanting honor for the drones | apart
+  - note 4431 | narrative summary, present tense | present-tense verbs "surrenders", "is", "are saved" | Elvir's swift surrender, POWs saved | apart
+  - note 4431 | interpretive evaluative aside | short flat declarative, contraction "He's" | judgment that Elvir was a plant | apart
+  - note 4431 | narrative summary, present tense | present-tense closing clause | Elvir joins Trimmel at the camp | apart
+- shifts:
+  - note 4426 | narrative summary, past tense | reported-speech paraphrase, present tense | word "saying" introduces a present-tense claim mid-sentence
+  - note 4426 | reported-speech paraphrase, present tense | narrative summary, past tense | new sentence returns to past-tense outcome, "He is laughed off"
+  - note 4430 | narrative summary, present tense | expository strategic aside, present tense | new sentence states a general front condition instead of an event
+  - note 4430 | expository strategic aside, present tense | narrative summary, past perfect | new sentence shifts to past-perfect recollection, "had just heard"
+  - note 4430 | narrative summary, past perfect | speculative parenthetical aside | parenthesis "(presumably by VOPS)" inserted mid-sentence
+  - note 4430 | speculative parenthetical aside | narrative summary, past perfect | parenthesis closes and the sentence resumes, "in Griffenheim"
+  - note 4430 | narrative summary, past perfect | interior motivation/reasoning, present tense | new sentence turns present-tense and internal, "already knows...so he wants"
+  - note 4431 | narrative summary, present tense | interpretive evaluative aside | short flat sentence "He's essentially a plant" breaks from event to judgment
+  - note 4431 | interpretive evaluative aside | narrative summary, present tense | next sentence returns to a present-tense event, "Elvir joins Trimmel"
+- registers: terse shorthand notation; terse shorthand with colloquial idiom; narrative summary, past tense; reported-speech paraphrase, present tense; narrative summary, present tense; expository strategic aside, present tense; narrative summary, past perfect; speculative parenthetical aside; interior motivation/reasoning, present tense; interpretive evaluative aside
+- whole: This item mixes brief terse shorthand entries with fuller narrative-summary notes in both past and present tense, and within the longer notes the summary repeatedly opens onto short embedded stretches of reported speech, expository aside, parenthetical speculation, interior reasoning, or flat judgment, these shifts arriving mostly at sentence breaks but at times folding into the same sentence with no pause.

@@ -1,0 +1,7 @@
+- sources:
+  - the charitostatic effect (the story's Pink Love magic system) | treat as the governing rule that must explain the Sonic Rainboom; apply it to Rainbow Dash and Twilight | Sonic Rainboom must be powered by the charitostatic effect | referred-to
+  - the first Sonic Rainboom (Rainbow Dash defending Fluttershy against bullies in a race) | use as show evidence that the Rainboom is fueled by protecting others | The first one was "defending Fluttershy's honor by beating the bullies in a race" | referred-to
+  - the episode Sonic Rainboom (Rainbow Dash saving Rarity from falling) | use as show evidence that the Rainboom comes from a protective motive, and that her later failures came from ego and competition | because she needed to save Rarity from falling | referred-to
+  - the episode flashback of Twilight losing control (Celestia saying she must learn to control the power) | use as show evidence that the Twilight account should be built to fit, as a mirror of Luna and Nightmare Moon | Twilight lost control as shown in the episode flashback | referred-to
+- order:
+- about: The user corrects and extends the model's magic-system account by applying the charitostatic effect to Rainbow Dash's Sonic Rainbooms and proposing how Twilight's foal-era egg hatching and loss of control follow from it, using the show's events as evidence.

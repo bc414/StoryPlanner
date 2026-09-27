@@ -1,0 +1,8 @@
+- sources:
+  - my lore about intent vectors | connect the stamp and tableau mechanism to it if it fits; optional, conditional on making sense | tied into or related to my lore about intent vectors ... If it makes sense | referred-to
+  - the idol of boreas (a piezoelectric effect in the presence of any ambition field) | one of the existing lore pieces to link the stamp mechanism to, only if coherent | featured in the idol of boreas (a piezoelectric effect in the presence of any ambition field) | referred-to
+  - the lioness spell (reversing predatory ambition directed at the caster) | one of the existing lore pieces to link the stamp mechanism to, only if coherent | the lioness spell (reversing predatory ambition directed at the caster) | referred-to
+  - the universal translator (the latent magic of communication is already vectorized meaning/intent in the magical space) | one of the existing lore pieces to link the stamp mechanism to, only if coherent | the universal translator (the latent magic of communication is already vectorized meaning/intent in the magical space) | referred-to
+  - cryptography (product of two primes, public and private keys) | use as an allegory or analogy for the combined signature; offered as a question, not settled | sort of like the product of two prime numbers in cryptography? Can I draw an allegory to public and private keys? | referred-to
+- order:
+- about: The user proposes a concrete stamp-exchange and verifier design for the tableau de chasse and asks the model to refine it by drawing a cryptographic allegory, linking it to their intent-vector lore if it fits, and saying whether the stamps alone or also the tableau must be enchanted.

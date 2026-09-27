@@ -1,0 +1,9 @@
+- asks:
+  - research | search Seasons 4-9 of My Little Pony: Friendship is Magic for notable episodes/moments where Twilight and Applejack work together | "Can you look into Seasons 4-9 of FiM to look for notable instances of Twilight and Applejack working together?"
+  - verify | assess whether the in-story claim that Twilight and Applejack didn't get much one-on-one time after Twilight became a princess actually holds up against the show | "I want to evaluate whether the statement about them not being together after princesshood is true."
+- supplies:
+  - idea list | a set of beats for a post-reunion scene in Chapter 12 "Passion": Twilight admitting she changed herself for Celestia's image, Applejack telling her to just be herself, Applejack recalling specific season 1-3 memories (Fall Weather Friends egghead label, Feeling Pinkie Keen Rapidash moment, Games Ponies Play breathing exercise), a line about not spending time together since princesshood, and Applejack noting old Twilight resurfaced after a battle but going unremarked | several bullet points
+  - recalled example | a single remembered moment of Applejack calming Twilight at the start of the "Best Gift Ever" holiday special, involving gift-giving | one sentence
+- shaping:
+- openness: Leans toward checking a claim already stated in the plan (that Twilight and Applejack didn't get much together time post-princesshood), asking the model to verify it against show evidence rather than leaving the conclusion open.
+- subject: Verifying, against the FiM show's later seasons, a planned character line claiming Twilight and Applejack lacked one-on-one time after Twilight's ascension, for a reunion scene in the user's fan fiction.

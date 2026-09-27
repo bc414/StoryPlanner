@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's setup for the 3rd Battle of Tall Tale has Applejack needing to be lofted for recon while Twilight gives firepower. In the story, Twilight and Applejack are inside a tank, along with Tally Mark and Mali. | During the 3rd battle of Tall Tale, Twilight and AJ are in a tank (with tally Mark and Mali too) | flat statement of the actual situation, in passing, with no reason or apology, and used as a quick dismissal of that option before the user moves on
+- about: The user quickly sets the model's third option aside by giving the real situation in that battle, then moves the wing reveal to an earlier point by proposing to replace the long-distance teleport at the start of Coordination with a train ride and a mountain flight.

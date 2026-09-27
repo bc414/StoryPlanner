@@ -1,0 +1,8 @@
+- sources:
+  - Skyfall's Marks built on piracy and the market | treat as established system that Kemerskai studies and draws lessons from when designing the Republic's law-based money | With Skyfall's Marks built on piracy and the market | referred-to
+  - Coltbert using a 1:1 peg with fractional reserve lending | treat as established system that Kemerskai studies alongside Skyfall's, as a contrast for his own design | plus Coltbert using a 1:1 peg with fractional reserve lending | referred-to
+  - my story plan for Kemerskai's backstory | review it first, then base the analysis of the system's mechanics on it | Please review my story plan for Kemerskai's backstory | first-named
+  - the demographics of his country and the author's stated premises about Kemerskai's reforms (Herzland republican refugees, Cloudbury peasants, suspended elections, martial law, gold standard abolished for state-backed paper fiat, Sickleclaw and Rosewing splits) | treat as given facts the system must fit and work within | The demographics of his country are idealist republican refugees from Herzland and Cloudbury native peasants | first-named
+  - real world inspiration | optional permission to draw on real-world historical and economic parallels for the mechanics | Can also draw from real world inspiration | first-named
+- order:
+- about: The user asks how Kemerskai, having studied Skyfall's piracy-based Marks and Coltbert's pegged fractional-reserve system, would build a law-based fiat system for his Republic under martial law, and asks the model to review the backstory plan and analyze the mechanics, optionally using real-world parallels.

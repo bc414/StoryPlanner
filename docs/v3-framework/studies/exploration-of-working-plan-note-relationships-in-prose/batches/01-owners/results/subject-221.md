@@ -1,0 +1,10 @@
+- relations:
+  - 1134|1138|The theme note gives the general principle (the Stare separates materially explained behavior from self-generated behavior) that the function note's mechanism (works on the coerced, not on predators by choice) is an instance of|If someone is truly a predator by choice, The Stare won't work on them / Creatures who don't respond to the stare are doing things on their own agency and choice|implicit
+  - 1134|1138|The function note says the Stare works on changelings who were coerced or didn't know better; the theme note gives the reason: those cowed are ashamed and were making do, not being evil|coerced or brainwashed / They weren't stealing because they were evil, they were trying to make do|implicit
+  - 1133|1134|The canon note names the episodes the Stare is drawn from; the function note sets out the mechanism as it operates in that canon (Fluttershy in Stare mode, predators backing down)|Dragonshy and Stare Master / Fluttershy in Stare mode|implicit
+- outward:
+  - 1133|Canon episodes of the source show (Dragonshy, Stare Master) held outside this item|Dragonshy and Stare Master! There are literally canon episodes
+  - 1134|Changelings, a group of characters and their lore held elsewhere|It works on changelings who don't know better
+  - 1134|Fluttershy, a character not otherwise present in this item|Fluttershy in Stare mode doesn't have any fear
+  - 1138|The stealing/making-do behavior of some creatures, an event or character group held elsewhere|They weren't stealing because they were evil
+- whole: The three notes hang together loosely: the function and theme notes share one account of who the Stare works on and why, while the canon note is a brief pointer to source episodes that only lightly touches the other two.

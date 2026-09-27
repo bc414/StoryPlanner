@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up questions, on how complex languages originated and whether spoken language is easier for the human brain than literacy, building on the model's discussion without challenging it.

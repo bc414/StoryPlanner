@@ -1,0 +1,12 @@
+- passages:
+  - 26 | scene beat without year | Henri hands Applejack a shovel in chapter 1 so she can help dig the trenches | none | Henri gives Applejack a shovel; anchored to chapter 1, not a calendar date
+  - 26 | scene beat without year | Applejack discovers the shovel is magical and tied to earth pony pride | none | "Later on" marks it as a later discovery, no date
+  - 26 | scene beat without year | Applejack uses the shovel to kill Pagala on Celestia's throne | none | stated as an event, no date
+  - 4603 | statement about the subject | The star spade's meaning in the story: it proves Celestia wrong that industry can exist without slavery | none | thematic claim about what the object shows, not an event
+  - 4792 | statement about the subject | The star spade breaks the economic predation model because it only improves human capital; it enhances rather than automates | none | explanatory claim about how the object works in the economy
+  - 5131 | statement about the subject | Origin fact: Fleur invented the star spade as the earth pony counterpart to griffon magic | none | states who made it and what it is a counterpart to; no scene or date
+  - 5030 | statement about the subject | The star spade is the most visible proof that earth pony magic is real, turning latent magic into a visible effect of breaking hardpan into diggable loam, in contrast to the other races' visible magic | none | descriptive claim about what it is and does
+  - 5130 | statement about the subject | A shovel normally symbolizes servitude, but the star spade subverts this because serfs can't use it | none | symbolic claim about the object
+- sequences:
+  - 26 | three beats: Applejack is given the shovel, finds out it is magical and tied to earth pony pride, then kills Pagala with it on Celestia's throne | "Later on" connective and the order from gift to discovery to use
+- whole: A small set of notes on the Star Spade: one note gives its plot path from Henri's gift to the killing of Pagala, and the other five are statements about its origin, meaning, magic, and economic and symbolic role.

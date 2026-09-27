@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's analysis of the Idol and the Archons' propaganda and asks a new terminology question: whether "arcanoluminescence" is the right name for the glowing effect or whether another term would fit better.

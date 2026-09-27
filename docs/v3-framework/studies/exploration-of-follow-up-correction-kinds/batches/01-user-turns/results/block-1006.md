@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user responds emotionally to the Obama analysis, then offers their own proposed mapping of Obama, Clinton, Sanders and Biden onto Celestia's arc (war, paralysis, revitalization, white peace) and asks the model to test it, adding new facts about 2020 margins and Trump's executive actions.

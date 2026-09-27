@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out new plot decisions (Celestia's post-rescue therapy sessions strengthen her belief in stagnation, the cake is only part of her change, and she had felt obsolete) and asks how and when this should be revealed, without pointing at any body of material for the model to draw on.

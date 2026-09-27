@@ -1,0 +1,5 @@
+- sources:
+  - My personal belief (SDF betrayal, Venezuela petro-state, Ukraine, Taiwan) | the author's own opinion, given as a stance and background for the model to take into account, not as data to verify | My personal belief is that the biggest betrayal of the West | first-named
+  - the framing that the arsenal of democracy requires a willing grassroots ally first and must not come from top down | the model's earlier analysis, taken as a premise the author finds interesting and wants tested against real cases (Myanmar, Tigray, Palestine, Darfur) | I am intrigued by the framing that the arsenal of democracy requires a willing grassroots ally first | referred-to
+- order:
+- about: The author shares their own views on recent Western betrayals of allies and asks the model to follow the implications of its earlier "willing grassroots ally" framing for conflicts such as Myanmar, Tigray, Palestine and Darfur.

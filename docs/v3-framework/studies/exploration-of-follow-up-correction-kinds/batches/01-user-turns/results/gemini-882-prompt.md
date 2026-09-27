@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reports a JavaScript/Apps Script runtime error encountered after following the model's instructions and asks what it means, without disputing anything the model previously said.

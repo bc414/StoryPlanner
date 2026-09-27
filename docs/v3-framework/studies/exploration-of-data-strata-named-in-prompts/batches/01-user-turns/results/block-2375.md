@@ -1,0 +1,4 @@
+- sources:
+  - the most recent ASOIAF book | the published book whose content the model is asked to report on, to say whether the Meereenese material was actually written in it or is still unwritten | Did Meereenese get written in the most recent ASOIAF book | referred-to
+- order:
+- about: The user asks a short factual follow-up about whether the Meereenese Knot, which the model had just used as an analogy, was resolved in the latest published ASOIAF book or remains unwritten.

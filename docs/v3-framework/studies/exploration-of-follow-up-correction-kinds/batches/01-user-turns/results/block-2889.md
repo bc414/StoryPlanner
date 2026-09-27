@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up a design question the model's answer raised, whether an axis may be non-applicable when another axis makes it irrelevant or must always carry a value, and asks for the implications of each, without disputing anything the model said.

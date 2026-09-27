@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's analysis by stating the in-story reasoning for destroying the dam: to widen the river for defense, and a belief that the changelings would destroy it anyway.

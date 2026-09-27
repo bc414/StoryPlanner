@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to check whether the model's material-conditions reasoning implies that matrilineal societies arise where tsetse or forest prevents cattle and female labor is on par, extending the argument rather than disputing it.

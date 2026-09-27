@@ -1,0 +1,6 @@
+- sources:
+  - The Lioness of Tall Tale.pdf (the attached planning document from before the Gemini expansion and story planner) | treat as the earlier baseline version of the plan; the model is to read it and compare it against the current plan to find what changed | "my planning document before the Gemini expansion" | first-named
+  - the current story plan | the later version to be compared against the earlier planning document, to see what changed | "compared to the current story plan" | referred-to
+  - the Gemini expansion and story planner | the stage that produced the changes; it is the dividing line between the earlier document and the current plan, not something to draw on directly | "before the Gemini expansion and story planner" | referred-to
+- order:
+- about: The user attaches their original pre-Gemini planning document and asks the model to compare it with the current story plan and pull out the changes that can be used for the epistemological (reader-knowledge) details.

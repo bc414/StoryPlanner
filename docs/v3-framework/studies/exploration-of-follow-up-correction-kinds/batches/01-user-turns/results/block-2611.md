@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | The model gave Chinese platform names and terms mostly in romanization or English glosses without the characters and without explaining what the character components mean, which the user needs since they cannot read Chinese | "please also list the characters and explain what the character roots mean (I can recognize some)" | a polite standing instruction for future replies, with a reason given, no blame or irritation, tucked in among personal reflections
+- about: The user reacts to the Chinese-ecosystem analysis by reflecting on their own Chinese-American position and the dystopian feel of it, sets a going-forward format request for Chinese terms with characters and root meanings, and asks the model to say what it all means.

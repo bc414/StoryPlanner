@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's advice about writing tracks from scratch as given and asks a new question comparing the pros and cons of starting with the main character Applejack versus a minor character.

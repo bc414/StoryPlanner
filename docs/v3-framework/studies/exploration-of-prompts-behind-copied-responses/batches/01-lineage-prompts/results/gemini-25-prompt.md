@@ -1,0 +1,6 @@
+- asks:
+  - organize | requests that the model sort or arrange some existing "parts" according to the chapter numbers found in a separate story text file | "group the parts into the chapter numbers from the story text file"
+- supplies:
+- shaping:
+- openness: Leans toward a named action - grouping the referenced "parts" by the chapter numbers found in the referenced "story text file" - rather than leaving the task open-ended or offering a choice.
+- subject: Organizing story "parts" by chapter number using an external story text file

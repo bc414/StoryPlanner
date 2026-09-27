@@ -1,0 +1,7 @@
+- sources:
+  - the demographic realities of China, Japan, and Korea (including China's continued civil war and the Korean War) | use as real-world historical comparison for the changelings' losses, in place of or alongside the France/Germany/USSR benchmarks | What about the demographic realities of China, Japan, and Korea? | first-named
+  - the author's own imagining of the changeling lands as like the Japanese home islands | treat as the intended vision of the setting; the model's picture should be reworked to fit it | I also imagined the changeling lands being more like the Japanese home islands | first-named
+  - the earlier 'hollowed out Germany' picture of the changeling lands | treat as not what the author had in mind; replace it | instead of a hollowed out Germany | referred-to
+- order:
+  - the author's own imagining of the changeling lands as like the Japanese home islands over the earlier 'hollowed out Germany' picture | more like the Japanese home islands instead of a hollowed out Germany
+- about: The author pushes back on the model's Germany-style demographic framing, asking it to redo the analysis using East Asian historical parallels and their own vision of the changeling lands as Japan-like home islands.

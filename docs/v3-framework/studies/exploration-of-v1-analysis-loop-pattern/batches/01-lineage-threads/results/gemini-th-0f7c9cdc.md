@@ -1,0 +1,17 @@
+- steps:
+  - author | attaches the full plan | carries the entire 126,553-word plan export as context, no visible query text | opens the thread
+  - model | delivers a recommendation with supporting analysis | argues for a dawn (not night) attack, ties the timing to Luna's 'dreams of conquest' motto, offers three phrased ultimatum options, ends by proposing a next analysis step | first reply to the attachment
+  - author | corrects the model's premise | says Applejack must not invoke Luna or Nightmare Moon since that history is private and Celestia/Luna are protective figures, not enemies | after the first analysis
+  - model | revises the options under the new constraint | drops the Luna reference, reroutes the ultimatum through Trimmel's own propaganda instead, adds a reading of how the line would still break Celestia, offers a further next-step | after the author's correction
+  - author | supplies a factual correction and a concrete draft line | quotes Trimmel's actual chapter-1 radio line, proposes fusing it with Luna's motto into a specific ultimatum, asks for analysis of the choice | after the second analysis
+  - model | analyzes the drafted line | works through the dual-audience effect (Changelings vs. Celestia/Luna), the dawn/night paradox, assembles a full draft speech, proposes analyzing the throne-room scene next | after the author's draft
+  - author | refines the line further and poses a branching question | tweaks wording to 'still dreams of conquest', proposes a mechanic where civilians misread the mandate to target collaborators, and asks whether repeating the line at Vanhoover should use a 1-hour or 12-hour deadline | after the prior analysis
+  - model | works through the branching question | explains how the ambiguous wording licenses a civilian purge, compares 1-hour vs 12-hour deadlines, sketches the Vanhoover encirclement scene | after the author's question
+  - author | proposes discarding the device altogether | suggests skipping any ultimatum at Vanhoover, teleporting rifles and rolling tanks in immediately, and justifies it via the rifles' self-defense purpose and Trimmel's self-selecting-statthalters logic | after the prior analysis
+  - model | validates and elaborates the new plan | argues the 'silent drop' is narratively stronger, drafts the resulting scene, ties the outcome to Celestia's later intervention | closes the stretch
+- kept:
+  - note 747 | the plan held this text before this reply | keeps the plan's pre-existing seed idea of Luna's motto and Applejack's reaction, sitting on the 'Celestia speaks up against the plan' plot point
+  - note 560 | the author's own words in this record | keeps the author's description of civilians citing Applejack's decree to justify killing, sitting on the 'Applejack realizes she has become the monster' plot point
+  - note 3017 | the author's own words in this record | keeps the exact refined ultimatum wording, sitting on the link between Applejack and her radio
+- brought: The author brought the full plan export at the start and, partway through, brought in Trimmel's exact chapter-1 radio quote to correct and redirect the model's invented phrasing.
+- loop: The author iteratively drafted and corrected a single ultimatum line across several rounds — fixing canon, tone, and mechanics each time — while the model kept returning phrasing options and consequence analysis; what the plan kept back was not the model's reasoning but the author's own finalized line and its stated fallout, filed onto the relevant plot-point and link nodes.

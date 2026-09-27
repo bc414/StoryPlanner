@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the analysis of the Dreamscape Aid Network to ask for alternative names for it, or a verdict on whether the current name is best, without disputing anything the model said.

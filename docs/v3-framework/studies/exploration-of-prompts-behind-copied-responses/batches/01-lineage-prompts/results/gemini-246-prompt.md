@@ -1,0 +1,11 @@
+- asks:
+  - check | asks whether the presented changeling love-economy and history (red/pink/grey love, draining, jaegars, hive formation, love-extraction tech) is coherent and workable | "Does this work?"
+  - analyse | asks whether it is plausible that changeling history simply never developed a friendship-based culture | "Is it plausible that changeling history just neglected friendship?"
+  - brainstorm | asks for ways to make that historical neglect of friendship plausible | "How to make it plausible?"
+  - solve | asks for a clever resolution to why changelings aren't harmonic when pink love is freely self-generated | "I must solve in a clever way the greatest plot hole of them all... why aren't the changelings harmonic in the first place if it is free?"
+- supplies:
+  - worldbuilding draft | changeling love types (red/pink/grey), draining mechanics, ancient predator-diet ecology, jaegars protecting hives, extinction of rival predators leading to mutual draining, hive/Queen formation and total war, and Chrysalis's scientists inventing love-storage and extraction technology using griffon principles | several paragraphs, roughly a page
+- shaping:
+  - the solution to the plot hole should be "clever," not just any explanation | "I must solve in a clever way"
+- openness: Mixed: it directly asks the model to check whether the stated lore "works" as given, while leaving open-ended the brainstorming of how to make the friendship-neglect plausible and how to cleverly resolve the central plot hole.
+- subject: Plausibility of changeling love-economy worldbuilding and why changelings never embraced friendship-based (harmonic) love

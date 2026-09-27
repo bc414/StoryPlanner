@@ -1,0 +1,4 @@
+- sources:
+  - the preceding chapter "Stagnation" and the deep conversations between Applejack/Twilight and Celestia in it | take into account as the basis for weighing pros and cons of each option for Applejack and Celestia in "Infiltration" | taking into account the deep conversations that occured between Applejack/Twilight and Celestia | referred-to
+- order:
+- about: The user asks for a pros-and-cons analysis of whether Applejack should ask Celestia's permission to form SECEF or proceed assuming Celestia's inaction allows it, with the analysis to reflect the earlier conversations in the chapter "Stagnation".

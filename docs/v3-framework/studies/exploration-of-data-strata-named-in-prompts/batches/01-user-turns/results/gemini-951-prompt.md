@@ -1,0 +1,4 @@
+- sources:
+  - season 4 | the body of material to draw the analysis from, narrowed to this season alone rather than the wider 4-9 range | "in season 4 specifically" | referred-to
+- order:
+- about: The user accepts the model's offer of a follow-up analysis of the Twilight and Applejack dynamic but narrows it to season 4 only.

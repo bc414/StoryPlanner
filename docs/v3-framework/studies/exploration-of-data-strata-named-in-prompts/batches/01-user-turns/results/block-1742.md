@@ -1,0 +1,7 @@
+- sources:
+  - EaW, where Changeling Lands is the default name | treat as the published reference whose default name reflects Celestia's usage; the model is not asked to change it | that is why it's the default name in EaW | referred-to
+  - the model's earlier naming analysis in this conversation (Changeling Lands for Celestia, Changeling Empire for Blueblood, Hegemony as a further term) | accept as settled for Celestia and Blueblood; treat the Aquileian usage as still open, with Hegemony floated as a possibility | I definitely agree that Celestia would use Changeling Lands | referred-to
+  - chapter 2's plan, where Henri calls the changelings poseurs | treat as fixed story material that the Aquileian naming must be made to fit | in chapter 2's plan, Henri calls the changelings poseurs | referred-to
+  - the real WWII Allied attitudes toward Nazi Germany, Imperial Japan and Italy | draw on this history to answer whether the Allies showed contempt, denial, fear or peer recognition, and whether those differ | Did the allies view Nazi Germany and Imperial Japan with contempt, denial, fear, or peer recognition | referred-to
+- order:
+- about: The author accepts the earlier naming scheme for Celestia and Blueblood, then asks how Henri and the Aquileians, who call the changelings poseurs in the chapter 2 plan, would name Chrysalis's realm, and asks the model to draw on how the WWII Allies saw Germany, Japan and Italy.

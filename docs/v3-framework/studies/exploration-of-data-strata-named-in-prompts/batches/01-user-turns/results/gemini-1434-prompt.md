@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for an analysis of whether crystal ponies should share the changelings' emotion sense and conversion of friendship into calories, minus the ability to drain, offering their crystallizing when happy or at the crystal fair as the reason.

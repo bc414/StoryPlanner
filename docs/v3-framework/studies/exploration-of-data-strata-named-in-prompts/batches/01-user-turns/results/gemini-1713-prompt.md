@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user endorses the rivalry framing and adds a character beat of their own: Vérany's attacks wound Coltbert's ego, which drives him to work hard on his reforms.

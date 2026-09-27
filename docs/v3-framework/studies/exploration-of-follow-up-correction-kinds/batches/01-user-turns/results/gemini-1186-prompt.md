@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's gun-offer analysis by drawing a further consequence for the plot: Gilded Trust gains secret knowledge of the Buffalo sabotage while the public credits it to his genius.

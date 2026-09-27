@@ -1,0 +1,5 @@
+- sources:
+  - the author's own corrections of the plot (no mob, Synovial recalled to Equestria, Thranx refused, VOPS killed him, Eros's lie about disease, Grover's deduction) | treat as true and replace the earlier version of Thranx's death | There's no mob storming the palace. Synovial is recalled to fight in equestria, Thranx refused. VOPS killed him. | first-named
+  - my story plans (Eros's characterization) | re-read and check Eros's characterization against them; they show him teaching Grover to be a good Kaiser, not indoctrinating him | Please also review Eros's characterization in my story plans | referred-to
+- order:
+- about: The user corrects the model's account of Thranx's death and Eros's role with the correct plot points from their own plan, and asks the model to review Eros's characterization in the story plans.

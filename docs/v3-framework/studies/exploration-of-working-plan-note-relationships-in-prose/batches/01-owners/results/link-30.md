@@ -1,0 +1,5 @@
+- relations:
+  - 570 | 571 | the reader inference that follows from the disclosure: 571 says what the reader should take the spells in 570 to be, by tying them to a known example | "These are the kinds of spells in the Canterlot Archives" | explicit
+- outward:
+  - 571 | another story or episode, It's About Time, where spells from the Canterlot Archives appear, held outside this item | "featured in It's About Time"
+- whole: The two notes hang together as a pair: one sets out what is disclosed on the page about the Archives' "dark magic" and the other says what the reader should infer from it.

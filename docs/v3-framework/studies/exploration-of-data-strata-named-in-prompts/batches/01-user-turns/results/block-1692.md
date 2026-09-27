@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user gives their own view on the candidates and the Israel/Palestine question, saying they share Hamawy's values but find his solutions naive and that Altman's position fits their read better, then reframes the choice around domestic issues, the candidates' reasoning, and whether they are open to rent-seeker capture.

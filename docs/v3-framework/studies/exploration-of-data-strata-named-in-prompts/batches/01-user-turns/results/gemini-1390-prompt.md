@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author proposes "Crash" in place of "Oblivion" as a term in their story, justifying it by the drugs' mix of stimulants and opioids and by the pun on market crash tied to the economic solution of providing a market.

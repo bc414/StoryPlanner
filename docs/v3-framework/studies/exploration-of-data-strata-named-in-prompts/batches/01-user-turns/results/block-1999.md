@@ -1,0 +1,4 @@
+- sources:
+  - chapters 1-6 | the material the model is to draw on to look for hidden subjects, and to read in full rather than skim | Read them fully | referred-to
+- order:
+- about: The user asks the model to repeat its hidden-subject search on chapters 1-6, as it just did for chapters 18-22, and tells it to read those chapters in full.

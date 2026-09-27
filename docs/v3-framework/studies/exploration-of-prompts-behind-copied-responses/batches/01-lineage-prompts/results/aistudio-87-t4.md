@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm | propose the domestic (colloquial) German-derived Herzlander terms Chrysalis would use in the hives for the drone concepts | "What terms would she use domestically? German words."
+  - decide/analyse | determine whether simplified Herzlander uses a single word for the drones while High Academic Herzlander splits it into two separate words (U-Bubele and Am-Andla), or some other arrangement | "is there one word in simplified herzlander for the drones and two separate words in high academic herzlander?"
+  - choose | decide whether the domestic term would translate as "Love" or be something more clinical, given the premise that "Love" is reserved for the Equestrian side | "Would it be "Love" in German or would it be more clinical, and "Love" is only for Equestrian?"
+  - brainstorm | consider whether the Acornage changelings would translate U-Bubele and Am-Andla into Equestrian-language equivalents | "the Acornage changelings would probably translate U-Bubele and Am-Andla to Equestrian words?"
+  - check | confirm the reasoning that the Equestrian equivalents can't be "Friendship" and "Magic" because in the stagnation of harmony friendship IS magic and ambition is discouraged | "it can't be \"Friendship\" and \"Magic\" because in the stagnation of harmony, Friendship IS Magic and ambition is discouraged"
+  - brainstorm/validate | weigh the idea that Twilight Sparkle would be the character to draw the poignant Friendship/Magic parallel, given her arc from scientist to Princess of Friendship back to scientist | "It feels like Twilight would be the one to make the very poignant Friendship and Magic parallels..."
+- supplies:
+- shaping:
+- openness: Mixed: it leans toward named conclusions on some points (rejecting \"Friendship\" and \"Magic\" as the translation, favoring Twilight as the one to draw the parallel) while on others it explicitly asks for a choice between named options (one word vs. two in simplified vs. High Academic Herzlander; \"Love\" vs. a more clinical term) and leaves the actual domestic German terminology open for invention.
+- subject: Devising Herzlander (Chrysalis's changeling conlang) terminology for the drone castes and how it parallels, or deliberately avoids paralleling, Equestria's \"Friendship and Magic\" motto, including Twilight Sparkle's role in that thematic echo

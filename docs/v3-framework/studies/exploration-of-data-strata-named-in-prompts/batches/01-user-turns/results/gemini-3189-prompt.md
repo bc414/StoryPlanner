@@ -1,0 +1,4 @@
+- sources:
+  - the sqlite database for my project | the body of material the planned engine would read; the turn gives its size (490,000 tokens) as a cost concern, not as something to rank or discount | The current contents of the sqlite database for my project is 490,000 tokens | referred-to
+- order:
+- about: The user reports the size of their project database and asks whether free API usage limits exist, because paying per token is not an option for a hobby.

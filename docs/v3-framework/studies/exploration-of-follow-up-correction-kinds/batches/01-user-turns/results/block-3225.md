@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's materialist account of cattle, tsetse and matrilineality and starts designing a magical-spirit prestige economy for the Great Lakes Zebras as the story-world's equivalent, then asks for an analysis and for how the same magic would work in matrilineal Zumidia.

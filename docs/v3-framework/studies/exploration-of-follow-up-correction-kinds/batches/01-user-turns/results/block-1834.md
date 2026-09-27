@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model invented fresh name options from general conceptual angles instead of finding the names already in the plot points for the Manehattan system (chapter 7), and the tycoon system (chapter 9), and possibly chapters 10-12 | I don't really like any of these. Look thoroughly at the plot points in chapter 7 ... For the tycoons, look at chapter 9 | flat rejection followed by a directive pointing to the right sources
+  - reading of the request | The model treated the task as brainstorming new names, when the user wanted the names the planning material already holds for these systems | Look thoroughly at the plot points in chapter 7 for information on the Manhattan system name | terse instruction, redirecting the task without explanation or heat
+- about: The user rejects all the brainstormed names and redirects the model to look up the existing names for the Manehattan system and the tycoon system in specific chapters of the plot points.

@@ -1,0 +1,8 @@
+- asks:
+  - research | asks the model to look into a real-world social phenomenon (young men getting vasectomies) and the manosphere subculture and find supporting sources | "Please research and provide sources"
+  - verify/analyze | asks whether a specific interpretive claim holds: that vasectomy-seeking young men represent a "balanced lion and eagle" while manosphere/red-pill men (pure lion aesthetic) would not get vasectomies | "Are the young men getting vasectomies actually representative of a balanced lion and eagle... would not get the vasectomies?"
+- supplies:
+- shaping:
+  - cite sources | asks that the research-backed answer include sources | "provide sources"
+- openness: Leans toward an answer it names: the message states a specific paired hypothesis (vasectomy-getting young men = balanced lion-and-eagle; manosphere/pure-lion types = would not get vasectomies) and asks the model to research and support it with sources rather than leaving the interpretation open.
+- subject: Whether the real-world trend of young men getting vasectomies fits a "balanced lion and eagle" archetype as opposed to the "pure lion" aesthetic of manosphere culture

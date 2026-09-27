@@ -1,0 +1,5 @@
+- sources:
+  - this entire conversation | draw on it in full and pull out the final insights from it for the report | give a thorough report on all final insights from this entire conversation | referred-to
+  - transcripts of compacted data | include them in the report along with the rest of the conversation | including all transcripts of compacted data | referred-to
+- order:
+- about: The user asks the model to write a thorough markdown report of all final insights from the whole conversation, compacted transcripts included, to carry forward into the story plan.

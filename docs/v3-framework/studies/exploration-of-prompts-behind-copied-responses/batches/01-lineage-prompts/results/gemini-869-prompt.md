@@ -1,0 +1,7 @@
+- asks:
+  - explain | describe what fan communities have speculated about Lauren Faust's original vision for the show versus what later showrunners did | "What is the community speculation"
+  - report | state any officially confirmed information about the direction Faust intended for the show | "or any confirmed direction?"
+- supplies:
+- shaping:
+- openness: leans toward an answer it names: the user states a premise that Lauren Faust's plan differed from a "bureaucratic" approach taken by later showrunners, and asks the model to supply speculation or confirmation that elaborates on this premise
+- subject: Lauren Faust's original creative direction for a show (implied My Little Pony: Friendship is Magic) versus the approach of later showrunners

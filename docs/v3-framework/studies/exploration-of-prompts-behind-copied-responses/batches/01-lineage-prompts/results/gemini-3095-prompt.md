@@ -1,0 +1,9 @@
+- asks:
+  - explain | identify the out-of-universe (Doylist) craft reason the writers made Twilight the outsider/audience-surrogate reacting to her new friends | "What was the doyalist reason for this?"
+- supplies:
+  - premise | a claim that Twilight functions as the outsider/audience surrogate reacting to her "crazy new friends" | one line
+  - in-universe explanation | the user's own Watsonian rationale for Twilight's outsider knowledge: her parents (Night Light, a state employee who uses old magic for civilian problems, and Twilight Velvet, who mines unsanitized history/science books from the Canterlot Archives to write sanitized heroic Daring Do stories) left unsanitized textbooks around the house that young Twilight read | a short paragraph
+- shaping:
+  - answer in Doylist (writer's-craft) terms rather than Watsonian (in-universe) terms, since the user's own in-universe account is already supplied separately | contrast between "doyalist reason" and "My watsonian explanation is..."
+- openness: open — the message poses the Doylist question without naming any candidate answer, and separately offers its own Watsonian explanation only as supplied context, not as something to be checked.
+- subject: Twilight Sparkle's narrative role as outsider/audience surrogate, and an in-universe backstory via her parents explaining her differing knowledge base

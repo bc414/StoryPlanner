@@ -1,0 +1,67 @@
+- steps:
+  - author | request | analysis of PMD: Ears' perspective/romance vs own work, plus a personal memory of it being polished but held back by a dark arc | opens the stretch
+  - model | analysis | mirror-character perspective device, deconstruction-of-heroic-love romance reading, polish-vs-dark-arc contrast with author's own TSAaG/E&S | reply to the Ears request
+  - author | follow-up question | asks whether a memory that one character lacked agency is textually supported | after the Ears analysis
+  - model | verdict with evidence | confirms the agency loss, tracing it to off-screen competence and a mid-story 'fridging' structural shift | reply to the agency question
+  - author | new request | analysis of Reclamation's perspective and devices, noting it resonated despite being unfinished | after the Ears exchange
+  - model | analysis | rotating limited perspective as sociological lens, temporal-setting constraints, nature/nurture theme, trauma-as-device | reply to the Reclamation request
+  - author | new request | analysis of That Glaceon's perspective/devices, noting it wasn't impactful | after the Reclamation analysis
+  - model | analysis | narrator-as-character omniscient device, extreme anthropomorphism, sitcom bathos structure, and why it didn't land | reply to the That Glaceon request
+  - author | own idea | proposes that long stories need romance paired with another story driver, and this story lacks one | after the That Glaceon analysis
+  - model | validation and expansion | builds a 'complementary driver' framework across the reading history with comparative examples and a pacing argument | reply to the driver idea
+  - author | new request | analysis of three favorite short stories' perspective and devices | after the driver discussion
+  - model | analysis | breaks down each story's device (sensory juxtaposition, second-person apostrophe, first-person redemption) with a comparison table | reply to the short-stories request
+  - author | new request | analysis of Questing for Respect's distinct third-limited perspective, framed as pure comedy | after the short-stories analysis
+  - model | analysis | anxious/lewd deep-third filter, comrades-chapter structural deviation, in-universe meta-fiction device | reply to the QFR request
+  - author | correction | challenges a strictly-one-character framing, recalling perspective shifts even outside marked bonus chapters | after the QFR analysis
+  - model | correction accepted | supplies specific chapter examples of shifts to other characters within standard chapters | reply to the correction
+  - author | synthesis proposal | proposes a three-function framework for the shifts (characterization, comedy, parallelism) and asks for confirmation | after the shift examples
+  - model | confirmation and elaboration | formalizes the 'functional triad' with a summary table | reply to the synthesis proposal
+  - author | new project brought | introduces own Nine Tales of Liberty with background, admits uncertainty over 'flip-flopping' perspective, notes the romance starts from scratch | after the QFR discussion
+  - model | analysis | frames the flip-flopping as necessary grand-strategy scope, analyzes a gamification device and a meritocratic romance | reply to the introduction
+  - author | targeted question | asks for examples of zooming into a Silver-style limited perspective for character-focused passages | after the overview
+  - model | examples | quotes four scenes as evidence of the zoom technique | reply to the zoom question
+  - author | craft question | asks whether mixing perspective modes is allowed, encouraged, or discouraged | after the zoom examples
+  - model | verdict | allowed and encouraged with intentionality, distinguishing strategic shifts from accidental leakage | reply to the allowed/discouraged question
+  - author | refined craft questions | asks whether scene/chapter breaks should be the only cutoffs, and whether limited passages should use flavored narration or italicized thought | after the verdict
+  - model | technique guidance | proposes a baton-pass technique for mid-scene shifts and a mode split between objective-plus-italics and flavored deep third | reply to the cutoff/voice questions
+  - author | validation question | asks whether this hybrid approach is common in mainstream literature | after the technique guidance
+  - model | validation with precedent | cites Tolkien, Rowling, and Homer references drawn from a favorite story's own author's notes | reply to the mainstream-precedent question
+  - author | pivot narrative brought | recounts leaving Pokemon fandom for MLP fandom, announces the next project, asks for analysis of the two fanfiction ecosystems | after the precedent discussion
+  - model | comparative analysis | contrasts an 'architect' Pokemon-OC ecosystem with a 'director' MLP-canon ecosystem and their reading volumes | reply to the ecosystem question
+  - author | new project brought | introduces the Equestria at War setting and a specific inspiration story, asks for comparative analysis against the Pokemon roots | after the ecosystem analysis
+  - model | comparative analysis | maps the inspiration's gamified logistics, hardened-canon characterization, and romance onto the author's Pokemon-era techniques | reply to the request
+  - author | targeted question | asks for examples of deep limited third and omniscient detachment in the inspiration story | after the comparison
+  - model | examples | quotes passages illustrating both modes | reply to the deep-limited/omniscient question
+  - author | plan document brought | uploads a story plan and premise summary for the new epic, lists ten synthesis points to analyze | after the examples
+  - model | thorough analysis | works through all ten synthesis points against the uploaded plan | reply to the synthesis-points request
+  - author | request for list | asks for up to ten additional literary elements or techniques relevant to the new project | after the synthesis analysis
+  - model | curated list | supplies ten named techniques with brief descriptions | reply to the elements request
+  - author | reflection and questions | describes the plan's own omniscient nature and a realization it unblocked, poses specific perspective-balance questions | after the elements list
+  - model | guidelines | provides rules (fog-of-war, anchor character, thematic filtering, public/private switch, zoom technique) with a summary table | reply to the balance questions
+  - author | instinct stated | states villains should never get limited POV, asks whether this serves the narrative, also asks about mentor-figure POV | after the guidelines
+  - model | endorsement and analysis | validates both instincts using structural-irony and aspirational-distance reasoning | reply to the villain/mentor question
+  - author | refinement | clarifies epilogue plans and a villain's off-page exit strategy, asks for analysis of the method | after the villain/mentor analysis
+  - model | endorsement and analysis | analyzes the anti-climax, denial-of-platform choice as thematically consistent | reply to the exit-strategy question
+  - author | synthesis and question | states a POV plan for private scenes, asks for rules on ensemble dialogue scenes | after the exit-strategy analysis
+  - model | rules | provides an anchor-character rule, a cinematic-entry exception, a baton-pass rule, and an outsider-as-mirror rule with a table | reply to the ensemble-scene question
+  - author | specific challenge brought | flags one chapter as hardest to write, asks for literary analysis and stylistic inspiration | after the ensemble rules
+  - model | analysis | frames the scene as a dialectical climax, maps a precedent story and separate stylistic anchors for each character | reply to the challenge
+  - author | craft question | asks how to switch between two characters' deep limited within one continuous scene | after the analysis
+  - model | technique guidance | supplies tactile-bridge, visual-handoff, vocabulary-shift, and shared-object techniques | reply to the switching question
+  - author | refined craft question | asks whether the baton pass can be used once per scene, whether precedent exists, and whether narration can blend with each character's voice despite switching | after the switching techniques
+  - model | confirmation with precedent | confirms both, cites precedent, gives a voice-profiling table for the two characters | reply to the blend question
+  - author | comparative request | asks to compare the fluid approach against a structured section-break approach, giving a specific bullet outline | after the confirmation
+  - model | comparison | weighs a hard-cut approach against a fluid transition, recommends fluid for intimate scenes | reply to the comparative request
+  - author | confirmation and retrospective question | confirms the fluid approach is wanted, asks whether earlier own works used limited perspective for intimate non-telepathic scenes | after the comparison
+  - model | retrospective analysis | identifies the earlier works as omniscient dual-focalization bridged by telepathy, and as action-reaction head-hopping, not deep limited | reply to the retrospective question
+  - author | editing question and premise | asks whether editing past works with the fluid technique makes sense, states a premise linking the new pairing to two earlier ones, asks for comparison with another shipping example | after the retrospective analysis
+  - model | verdict and comparison | rules editing unneeded for one earlier work and recommended for another, analyzes the stated premise, compares against the other shipping example | reply to the editing/premise question
+  - author | grounding question | asks whether analyzing canon-based examples from the new fandom would help ground the technique | after the comparison
+  - model | recommendation | explains why the Pokemon-era sources are insufficient and recommends specific pivot points to study | reply to the grounding question
+  - author | examples brought | uploads four favorite shipping stories from the new fandom, notes a caveat that they treat romance as the end goal rather than a subplot | after the recommendation
+  - model | analysis and synthesis | breaks down each uploaded story's device and synthesizes them into a step-by-step formula for the planned scenes | reply to the four-stories request
+- kept:
+  - note 3936 | the author's own words in this record | keeps a passage from the author's uploaded story-plan document describing a villain arming and drugging conscripts as self-colonizing, likened to Peter the Great and the Meiji Restoration, filed under a link concerning that villain's motivations
+- brought: The author brought an uploaded story-plan document for their new epic, summarizing its premise and listing synthesis points, for the model to analyze in full.
+- loop: Across this stretch the author repeatedly brought reading-history stories, own drafts, and a story-plan document for the model to analyze into named techniques, then used the model's answers to refine ever more specific craft questions about perspective; of all that, the plan kept only one verbatim passage of the author's own planning prose about a villain's self-colonizing militarism, filed under the link concerning her motivations.

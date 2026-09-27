@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the corrected script exported the first five daily versions and then began giving errors, asking implicitly for a fix.

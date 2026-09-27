@@ -1,0 +1,7 @@
+- sources:
+  - a typical WW2 bullet | real-world baseline whose weight the model is to supply, for comparison with the author's version | What is the weight of a typical WW2 bullet | referred-to
+  - my high tech version | the author's own crystal-tipped ammunition design, to be weighed against the WW2 baseline | vs my high tech version | referred-to
+  - the plane's armor at 150 lbs (the model's earlier figure) | doubted as too low, to be reconsidered and explained | I thought the plane's armor would be a lot more than just 150 lbs | referred-to
+  - the author's own expectation about armor weight | a hunch from memory, provisional and open to correction | I thought the plane's armor would be a lot more | first-named
+- order:
+- about: The user corrects the naming so the planes are Bf 109s and the pilots are of the jaeger class, then asks for a WW2 versus high-tech bullet weight comparison and questions the earlier 150 lb armor figure and what fighter armor is for.

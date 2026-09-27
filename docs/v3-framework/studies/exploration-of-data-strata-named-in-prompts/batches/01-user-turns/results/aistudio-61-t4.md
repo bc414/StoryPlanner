@@ -1,0 +1,5 @@
+- sources:
+  - Kemerskai's martial law declaration in 986 | use as the inspiration for how the command economy vote is written; the link is to be hidden and revealed only later | the command economy vote should be inspired by Kemerskai's martial law declaration in 986 | referred-to
+  - Aquileian style | use as the model for the pride-and-ego motive that drives obsessive risk-taking in inventing bleeding-edge tech | driven by pride and ego (Aquileian style) | referred-to
+- order:
+- about: The author answers the model's first Socratic question by saying pride, ego and asset specificity drive the inventors, explains how Tall Tale got its name, and says the command economy vote should be modelled on a historical martial law declaration whose link is revealed only later.

@@ -1,0 +1,5 @@
+- sources:
+  - this analysis (the preceding generational and audience-reception analysis) | use as the framework to be extended; relate it to the brony wave and see where the two meet | How does this analysis intersect | referred-to
+  - the original brony wave starting in 2011 | the fandom phenomenon to be mapped against the analysis; the subject the intersection is asked about | the original brony wave starting in 2011 | first-named
+- order:
+- about: The user asks the model to connect its just-given analysis of generational cynicism and audience reception to the original 2011 brony fandom wave.

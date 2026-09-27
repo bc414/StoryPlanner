@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the fictional Equestrian timeline to a new open question about the real-world economic, social and political causes of helicopter parenting, toxic positivity and corporate HR culture, and offers candidate causes (war on drugs, white flight, elite class warfare against communism) for the model to assess.

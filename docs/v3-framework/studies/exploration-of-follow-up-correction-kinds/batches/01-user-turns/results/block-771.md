@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that SAA's activity gives the Rik purchasing power and forces the GR onto the global economic stage. The user says the Rik is not spendable beyond SAA and its allies, and only a few SAA spin-off enterprises use it. | "I don't think the Rik has any purchasing power outside SAA and their allies" | Hedged flat disagreement, stated as a plain counter-claim with reasons following it
+  - fact of the world | The model's trade-loop step in which SAA pays for PNdA parts with Riks, injecting them into the Aquileian economy and forcing merchants to recognize them. The user says PNdA equipment has to be paid for in God bits or royal notes, which are pegged. | "They have to pay for PNdA equipment with God bits or royal notes which are pegged" | Matter-of-fact restatement of the mechanism, with a note on where the Rik does circulate (parloirs in Manehattan) and where it doesn't
+- about: The user corrects the model's claim that the Rik gained wide purchasing power, restates the real currency limits, and then builds on that to propose a chapter 7 equipment-failure mechanic and an origin for EEEE.

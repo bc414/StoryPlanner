@@ -1,0 +1,4 @@
+- sources:
+  - a document in the project knowledge which is a consolidated report of that conversation | the model should look to it as the account of Princess and the Kaiser, in place of its general-knowledge guess | There's a document in the project knowledge which is a consolidated report of that conversation | first-named
+- order:
+- about: The user answers the model's request for a description of Princess and the Kaiser by pointing it to a consolidated report of the other conversation held in the project knowledge.

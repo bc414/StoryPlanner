@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of why drug tribes could raid medicine and why Coltbert gave the medicinal tribes crossbows, then sets out their own idea of Metzli's bitterness at global trade pulling thestrals away from traditional Tzinacatl ways, without pointing at any body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a new question about whether Steam's cut of PC game sales is as extractive as Apple's and Google's and how Steam became dominant without vertical integration, without pointing the model at any particular body of material.

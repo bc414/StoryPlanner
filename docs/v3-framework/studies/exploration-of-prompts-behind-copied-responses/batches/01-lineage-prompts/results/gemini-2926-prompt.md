@@ -1,0 +1,10 @@
+- asks:
+  - review | asks the model to look over the person's story plans before responding | "Please review my story plans"
+  - analyze | asks for an analysis of the just-given refined explanation of how the wing spell works, mechanically and thematically | "give an analysis of this refined explanation for how the spell works"
+- supplies:
+  - spell explanation | a worked-out account of a unicorn-wing spell: wings are cast via a matrix requiring significant power, then draw on the target creature's "red love" (ambition/raw magic, wind and thermal control) and "pink love" (grace/bond, stability), modeled on a hunter-pair "chasseur" bond, colored by the bonded partner, framed as rejecting power that can be hoarded or bought | a paragraph
+  - story plans | the person's broader story planning material, referenced as something to consult before answering | not included in this message, referenced only
+- shaping:
+  - none given | the message states no requirements on the reply's length, form, stance, or what to include/exclude beyond "give an analysis"
+- openness: Leans toward: the message lays out a fully formed, specific mechanism (red love vs. pink love, chasseur-bond origin, anti-hoarding theme) and asks the model to analyze that stated account rather than propose or choose among alternatives.
+- subject: A magic-system explanation for how a unicorn's flight-wing spell draws on two complementary types of love/bond-magic, framed against soulless power-hoarding

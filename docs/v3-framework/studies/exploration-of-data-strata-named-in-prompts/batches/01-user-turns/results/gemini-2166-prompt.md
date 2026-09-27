@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's previous analysis by stating that the command economy exists only in Tall Tale by local choice, that the rest of Equestria is stagnant, and that volunteers don't run out before the magical rifles arrive, so the shortage is only a looming threat.

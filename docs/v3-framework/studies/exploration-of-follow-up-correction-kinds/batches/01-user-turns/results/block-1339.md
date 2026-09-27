@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn drops the prior discussion of structural conviction and franchise mechanics entirely and asks a new, unrelated factual question about how much of ASOIAF the Game of Thrones series covers and about the meta-narrative involving George R.R. Martin.

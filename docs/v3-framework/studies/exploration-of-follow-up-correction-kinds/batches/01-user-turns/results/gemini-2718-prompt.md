@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, asking the model to choose among its suggested names the one that sounds harmless to a greedy Skyfall tycoon but carries a hidden insult on closer reading, adding a new selection criterion without faulting the earlier answer.

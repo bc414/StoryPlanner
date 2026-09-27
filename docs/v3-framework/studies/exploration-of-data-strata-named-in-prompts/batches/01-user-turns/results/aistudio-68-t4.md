@@ -1,0 +1,5 @@
+- sources:
+  - The Fluttershy-yells-at-Celestia scene, where Celestia cries because it's true | treat as the established story baseline: Celestia had no organic pink love, only a top-down mandate, and this is the starting point the new idea is set against | When Fluttershy yells at Celestia saying you don't know what it's like to make a friend | referred-to
+  - The dreamscape what-if, in which Celestia forms peer relationships with the thestral parlour operators and is subtly given therapy by them | treat as a provisional proposal, not settled; work out its ramifications for the baseline | But what if that actually changed during dreamscape | first-named
+- order:
+- about: The author recalls an existing scene in which Celestia is told she has never made a friend, then proposes as a what-if that her time in the dreamscape gave her genuine peer bonds with the thestral operators, and asks the model to work out the consequences.

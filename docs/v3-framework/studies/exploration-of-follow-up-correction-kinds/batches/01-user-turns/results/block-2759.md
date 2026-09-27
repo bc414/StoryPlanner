@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's characterization of what Princess and the Kaiser is about (a romantic, character-driven story where the war is mere backdrop) is doubted as a misreading of the story | I'm not sure you have the right idea of what P&K is about | Stated as doubt, softened by 'I'm not sure', with no reason given yet
+  - which material was drawn on | The model's account of P&K may rest on material outside the project, or on a chat the user says lies outside it, and the user asks whether it is about to use that | Are you about to access my chat Princess and the Kaiser's ASOIAF Inspirations which is outside this project? | Put as a pointed question that queries the model's source, and hints at a boundary being crossed
+- about: The user doubts the model's account of what P&K is about and asks whether it is about to draw on a separate chat outside the project, checking the model's source and reading before going further.

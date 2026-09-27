@@ -1,0 +1,6 @@
+- steps:
+  - the author | asks a research question | the etymology of the term 'Tally Mark' | opening and only message from the author
+  - the model | supplies an etymology | Latin/Old French roots, tally-stick history, related terms like 'score' and 'stockholder', cross-cultural tally systems, and a follow-up offer about British Exchequer tallies | the model's single response
+- kept:
+- brought: The author brought a standalone factual question about where the term 'Tally Mark' comes from, with no reference to any existing plan material.
+- loop: The author poses a word-origin question and the model returns a full etymological rundown plus an offer to dig deeper, but no note in the planning database traces back to this exchange, so nothing from it was carried into the plan.

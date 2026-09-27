@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's historical mapping made Luna and the thestrals the sole actors of the dream channel: they broadcast, deliver and give the gifts. The user says the democratized system also lets ordinary ponies, the families and friends of hostages, use dreamwalking to talk in Ponyville, with Luna and the thestrals only organizing and facilitating. | not just Luna and thestrals but also ordinary ponies | Softly hedged and framed as an elaboration of the plan ('I think'). It is a flat restatement of the intended role split, with no explicit mention of the model's framing and no apology.
+- about: The user adds to the plan for the dream supply line by saying ordinary ponies, such as hostages' relatives and friends, can use the donated-red-love dreamwalking system themselves, and by recasting Luna and the thestrals as facilitators rather than the only channel.

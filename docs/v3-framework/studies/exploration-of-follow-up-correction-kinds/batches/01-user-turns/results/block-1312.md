@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the Scootaloo story as fully carrying the materialist proposition-not-moral pattern, consistent across both works; the user says the Scootaloo plan falls short of that, because its ending takes the conventional fairy-tale return to Ponyville and adoption instead of following the theme through | "doesn't go all the way with the theme proposition because I wanted the expected fairy tale ending" | hedged self-assessment offered in passing ("I guess"), with a reason, and no direct disagreement with the model, followed by a new request
+- about: The user qualifies the model's praise by admitting the Scootaloo story's ending departs from the theme-as-proposition approach, then asks for an analysis of that ending and of where else in the plan themes could become propositions rather than morals.

@@ -1,0 +1,4 @@
+- questions:
+  - whether the user wants a walkthrough on linking their Notebook to a Gemini chat session | no user turn | none | none
+- shape: none
+- settles:

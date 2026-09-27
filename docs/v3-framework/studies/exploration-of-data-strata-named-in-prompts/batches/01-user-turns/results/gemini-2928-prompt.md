@@ -1,0 +1,4 @@
+- sources:
+  - my story lore (existing areas of it) | survey it to find other places the Charitostatic Effect stands for or connects to, treating what is already there as established | What other existing areas of my story lore is the charitostatic effect representative of? | referred-to
+- order:
+- about: The user adopts the Charitostatic Effect as a foundational law and theme of the story, ties it to changeling POW rehab, morale cakes and the corrupted toxic-positivity additives, and asks the model to identify what other parts of their existing lore it represents.

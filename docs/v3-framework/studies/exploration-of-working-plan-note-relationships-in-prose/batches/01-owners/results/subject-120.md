@@ -1,0 +1,25 @@
+- relations:
+  - 1541|1542|continues in time: after exile to Equestria, Celestia takes her in|Johan exiles Velvet to Equestria / Celestia offers protection|implicit
+  - 1542|1543|Velvet's reaction to being treated as a child: she rejects that role and wants another|treats Velvet like a traumatized child / doesn't want to be a child|implicit
+  - 1543|1544|her wish to be a Viking is played out as the underground movement she runs after returning|she wants to be a Viking / runs an underground movement|implicit
+  - 1544|1559|continues in time: after the movement, the Changelings offer her a managerial role|underground movement / Pagala looks at Velvet|implicit
+  - 1559|1542|the Changeling restates Celestia's treatment of her as a helpless fawn, matching the child-like protection|Celestia wanted you to be a helpless fawn|explicit
+  - 1559|1541|the Changeling restates Johan's aim of making her property, matching her exile and his tyranny|Johan wanted you to be property|explicit
+  - 1559|1543|her acceptance fulfils the wish to be a Viking, in the form of a predator's empowerment|Viking empowerment by shattering the glass ceiling|explicit
+  - 1559|1544|the offer turns her anti-Johan gender-equality aim into a chance to use the whip on Johan's bucks, a predator's version of it|use it on Johan's bucks / does who want gender equality|implicit
+  - 1559|253|Pagala's offer is an instance of the corporate class drawing women into the rat race and using grievance to divide, so more labor is expected|manage our factories and enforce our quotas / rat race and use grievance|implicit
+  - 1559|251|Velvet takes on predator, whip-carrying aggression to lead, an instance of women acting like men|every doe can carry a whip / act like men to be leaders|implicit
+  - 1559|249|Her rise to factory manager is an instance of the pure ambition and vulture management the author wants to avoid promoting|manage our factories / vulture manager|implicit
+  - 1543|251|Velvet's wish to be a Viking is an example of the aggressive imitation of men that the author warns against|wants to be a Viking / act like men|implicit
+  - 249|250|250 restates 249's aim of promoting balanced ambition and grace over pure ambition|balance between leadership instincts/ambition and grace / healthy balance of ambition and grace|implicit
+  - 251|249|251 gives the reason for 249's rejection of the push for women managers: acting like men promotes tribalism and aggression|act like men... more aggression / remove stigma that we need more women managers|implicit
+  - 253|249|253 extends 249's asset specificity point: not everyone must rise to be a manager|respect for asset specificity / Not everyone has to rise|explicit
+- outward:
+  - 1541|Johan, a ruler whose court and the country of Equestria are held elsewhere|Johan exiles Velvet to Equestria
+  - 1542|Celestia, a character held elsewhere|Celestia offers protection
+  - 1544|Olenia, a place, and its Johan-led old-money order held elsewhere|goes back to Olenia
+  - 1559|Pagala and the Changelings, who are not among these notes|Pagala looks at Velvet
+  - 1559|the Predator's Dilemma, a concept held elsewhere|zero-sum game of the Predator's Dilemma
+  - 1543|TLTT, the story whose start this note describes|at the start of TLTT
+  - 253|The author's own life and views on manosphere and corporate culture, outside the story|I have always felt this as someone who wants to be an engineer
+- whole: These notes hang together as a set: the backstory notes run in a chain from exile to the Changeling offer, and the author's notes to self critique the ambition-and-manager ideal that the chain ends in.

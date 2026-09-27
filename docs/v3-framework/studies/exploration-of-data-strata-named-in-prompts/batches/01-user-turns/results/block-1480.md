@@ -1,0 +1,7 @@
+- sources:
+  - the model's previous PE/NE framing ("exists independently of the story's dramatized events") | treat as wrong and replace; that phrase describes the ZF world, not PE | "still not correct" | referred-to
+  - the earlier Applejack examples | redo them under the corrected PE/NE framing | "redo the analysis" and "the Applejack examples" | referred-to
+  - the earlier 13-track merge analysis | treat as provisional and open to revision, possibly down to 12; the user gives their own account of which ND tracks merge | "Maybe these tracks do merge too, leaving 12?" | referred-to
+  - the author's own worked examples (Chrysalis, Minette, Equestrian Republic, Charitostatic Effect) | treat as correct and use them to rebuild the PE/NE definitions | "Chrysalis's psychology is PE that gets revealed" | first-named
+- order:
+- about: The user corrects the model's PE/NE distinction with their own definitions and examples, works through which ND tracks merge, questions whether ZF and ND are the right concepts, and asks the model to redo the PE/NE labels, the Applejack examples and the track questions.

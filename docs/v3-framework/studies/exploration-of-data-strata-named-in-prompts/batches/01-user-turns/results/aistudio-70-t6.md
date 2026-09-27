@@ -1,0 +1,5 @@
+- sources:
+  - Hearth's Warming Eve canon episode | the author's recollection of the show (rulers stuck up, humble helpers negotiating) is offered as the basis for the charter's logic, and the model is asked to confirm it | In the Hearth's Warming Eve canon episode, the rulers of the three tribes were being stuck up ... right? | referred-to
+  - my materialist "Hearth's Warming Charter" | the author's own in-story law, treated as the working design; its greater-than-67% rule is re-explained and a change to an 84% (5/6ths) threshold is floated as a provisional option, not settled | my materialist "Hearth's Warming Charter" would say ... How about if the hearth's warming charter required two tribes plus at least half of the last tribe | referred-to
+- order:
+- about: The user checks their memory of the canon Hearth's Warming Eve episode to justify the charter's leader-removal clause, then proposes raising the referendum threshold from about two-thirds to 84% (5/6ths).

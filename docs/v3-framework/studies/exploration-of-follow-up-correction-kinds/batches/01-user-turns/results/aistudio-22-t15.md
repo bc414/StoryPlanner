@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a new document and a set of four ranked extraction rules (chronology, demographics, system mechanics, dialectics) for the next pass, without saying anything was wrong with the model's bucketing.

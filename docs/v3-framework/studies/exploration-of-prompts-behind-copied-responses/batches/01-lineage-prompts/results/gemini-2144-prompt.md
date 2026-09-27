@@ -1,0 +1,10 @@
+- asks:
+  - question | asks what the core motivating force behind the Aquileian volunteers is | "what is the driving force of the Aquileian volunteers?"
+  - check | asks whether that driving force amounts to an anti-poseur crusade serving as ego validation for the volunteers | "It's all tied to an anti-poseur crusade to feed their egos?"
+  - elaborate | asks for further detail on who or what the volunteers target | "Please elaborate on the targets."
+  - check | asks whether the targets are entirely defined by feudal warlords and rat-race capitalists | "Is it all based on the feudal warlords and rat race capitalists?"
+- supplies:
+- shaping:
+  - elaboration requested on one point | "Please elaborate on the targets"
+- openness: The message leans toward two named answers it proposes itself (an ego-driven anti-poseur crusade; feudal warlords and rat-race capitalists as targets) and asks the model to confirm or elaborate on them, while posing the initial motivation question in open form.
+- subject: The motivations and targets of the "Aquileian volunteers" faction in the user's fictional world

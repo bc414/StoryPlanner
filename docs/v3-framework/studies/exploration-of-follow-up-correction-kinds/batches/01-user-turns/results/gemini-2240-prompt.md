@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the bucket-naming topic and asks a new, unrelated question about how attaching a large plan document to a Gemini chat differs from attaching a NotebookLM notebook, and whether the chat reuses the notebook's precomputed vectors.

@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Names the scene's link to the theme by tagging the propaganda as wedge issues, meaning divisive topics used to split people along species and gender lines; it gives no further explanation | "Wedge issues" | yes | planning shorthand, a bare two-word label
+- whole: The commentary is a two-word label that tags the scene's propaganda as wedge issues, with no elaboration.

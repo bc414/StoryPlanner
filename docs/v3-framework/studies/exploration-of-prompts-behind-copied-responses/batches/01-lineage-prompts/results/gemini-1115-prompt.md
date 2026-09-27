@@ -1,0 +1,9 @@
+- asks:
+  - correction | corrects an apparent prior assumption about when the character AJ starts being called Lioness, specifying it happens much later than implied and detailing how she gets the title | "To be clear, AJ does not go by Lioness until much later"
+  - exposition | lays out AJ's internal belief and motivation across the span from Tall Tale to her defeat of Trimmel, i.e. that she thinks she is doing what must be done while expecting celestia to eventually wake and resume being the mother | "AJ operates thinking she is doing what must be done and celestia will wake up to be the mother again later"
+  - exposition | describes the turning point after Trimmel's defeat where AJ abandons hope of returning to her farmpony self and instead accepts she must actually become the Lioness | "AJ realizes she must become the Lioness instead of pretending and trying to go back to being the farmpony"
+- supplies:
+  - plan detail | new lore establishing the timing and origin of AJ's "Lioness" title (given by Trimmel, from a slur coined by Synovial meaning collaboration) and the arc of AJ's self-belief and turning point | a couple of sentences
+- shaping:
+- openness: States the timeline and character arc as settled facts to correct/align the model's understanding, rather than leaving anything open or asking for options — shown by the opening "To be clear" and the flat assertions that follow.
+- subject: Timeline and psychological arc behind AJ's transformation into "the Lioness"

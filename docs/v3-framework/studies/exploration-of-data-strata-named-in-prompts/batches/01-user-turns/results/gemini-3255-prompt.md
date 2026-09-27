@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's earlier reading of their setting by stating that pre-war Las Pegasus has a dozen rival tycoons who were all Chrysalis's original loan-backed protégés, that the "village" means Equestria's many home villages, and that the Undercity is only where the Top City's goods are made.

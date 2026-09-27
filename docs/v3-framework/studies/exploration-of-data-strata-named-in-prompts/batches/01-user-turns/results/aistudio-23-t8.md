@@ -1,0 +1,5 @@
+- sources:
+  - story plan ("your story plan") | the narrative analysis of the story's tensions is built on it, so it is treated as the basis for the analysis | "Based on your story plan and the provided sources" | referred-to
+  - provided sources (cited by number, e.g. "[Source 681, 1005]") | treated as the evidence backing the claims about Grover III, Gerad Discret, Coltbert, Chrysalis and Kemerskai | "the provided sources" | referred-to
+- order:
+- about: The user pastes in a run of their own theme notes and earlier analyses that tie the story's stagnation-versus-ambition cycle to the modern Western world, and does not give the model a new instruction about what data to use.

@@ -1,0 +1,20 @@
+- relations:
+  - 1757|1767|the bedtime arrangement is delivered as the aftermath of the Passion heart-to-heart listed in the chapter sequence|After the lesson in passion; Chapter 13 Passion after reunion|explicit
+  - 1870|1767|the drift apart and Twilight's withdrawal is what the later reunion and the 'After Stagnation' heart-to-hearts follow on from in time|drift apart; Chapter 13 Passion after reunion; After Stagnation|implicit
+  - 1764|1759|Twilight's not pursuing her early feelings is an instance of Celestia's grooming of her for succession, which holds her back|didn't pursue anything because Celestia had such big plans; groomed to be the perfect successor|implicit
+  - 1759|1870|the story's claim that love keeps Twilight from being Celestia's puppet is put under strain by the later withdrawal, where Applejack wrongly reads her as Celestia's extension while Twilight is actually hiding from Celestia|Celestia's puppet; cold, bureaucratic extension of Celestia's Stagnation|implicit
+  - 1760|1761|the psychological account of Celestia's ideal-based love and Twilight's panic is the personal case for the theme's claim that the old relationship of expectation yields anxiety|impossible ideal; panic attacks; outcome is anxiety/perfectionism|implicit
+  - 1760|1763|one gives why AJ heals Twilight (she makes the world make sense and stops the panic), the other says the healing is a return to simpler pre-war Ponyville times|makes the world make sense; return to the simpler times before the war|implicit
+  - 1759|1761|the claim that Twilight is not Celestia's puppet and stays warm is restated in the theme as the Old World versus New World relationship|next Celestia; Old World relationship of Celestia and Twilight|implicit
+  - 1922|1870|Twilight once dropped spell-matrix automation as insulting to friends' talents, yet later builds supply and teleportation networks that Applejack finds soulless, so the later work sits against the earlier realization|stopped all spell matrix work; supply organization/teleportation networks|implicit
+  - 1768|1870|the statement that the two almost always see eye to eye is limited by the period when they drift apart over method|almost always see eye to eye; They drift apart|implicit
+- outward:
+  - 1922|the episodes Applebuck Season and Winter Wrap Up, and the events of them held elsewhere|mass harvest spell at the end of Applebuck Season; during Winter Wrap Up
+  - 1764|Celestia's plans for Twilight, held elsewhere|Celestia had such big plans for her
+  - 1870|Canterlot events where Celestia crushes Twilight, the School of Friendship, Ain Trotgourait, Pinkie's role, and the Stagnation|Celestia crush Twilight's spirit; Ain Trotgourait with Pinkie
+  - 1767|the story's chapters and events, such as the battle of Tall Tale, love donation, Town Hall, Quebuck, Crystal Empire and the Stagnation|2nd battle of Tall Tale; love donation; Quebuck; crystal empire
+  - 1768|Pinkie, Rainbow and Rarity and the chaos they cause|chaos of Pinkie, Rainbow and Rarity
+  - 1763|the war and the two characters' roles in it|despite the war; the general
+  - 1759|canon Twilight and Celestia's grooming of her|In canon, Twilight is groomed
+  - 1761|the Great Mare Theory and the political revolution|Refutation of Great Mare Theory; political revolution
+- whole: ["These notes hang together loosely: the Celestia-versus-Applejack contrast runs through the characterization, theme, history and reader-opinion notes, and the chapter list links to the sleeping arrangement, but several notes (early history, eye-to-eye traits) stand mostly on their own."][0]

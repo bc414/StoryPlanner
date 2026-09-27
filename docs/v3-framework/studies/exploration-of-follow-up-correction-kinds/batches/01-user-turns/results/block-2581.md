@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether their thesis grew out of reading Morning Brew, with MLP and HOI4 as interpretive lenses over its facts, and requests research on Morning Brew's institution, audience and article content, without disputing anything the model said.

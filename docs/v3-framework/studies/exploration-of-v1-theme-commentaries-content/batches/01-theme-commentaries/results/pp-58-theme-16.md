@@ -1,0 +1,5 @@
+- passages:
+  - bearing on the theme | Sets the theme's inversion as a maxim swap: P&K's line that love ends duty is replaced by love powering duty, which is how this scene subverts P&K | "Love is the death of duty" becomes "Love is the fuel of duty" | no | planning shorthand, a quoted before/after formula
+  - on-page plan | The action to be shown: Flurry stays in the city and pinkie-promises the crystal ponies that the shield will hold | Flurry stays and gives a pinkie promise to the crystal ponies that the shield will hold | yes | terse declarative statement of the event, planning shorthand
+  - bearing on the theme | Names the subversion: the scene rejects the grimdark claim that winning costs your humanity, and argues togetherness makes strength | The Subversion: It rejects the grimdark idea that you must sacrifice your humanity to win. We are stronger together. | no | labelled thesis statement, with a closing slogan
+- whole: A three-beat note that gives the scene's maxim inversion, restates its central action of Flurry staying and making the pinkie promise, and ends on the moral by which it subverts P&K's grimdark.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a new "what if" story idea, that Applejack's parents' canning company puts Pinkie's Pink Love recipe into army rations so donated Pink Love serves troop morale as well as changeling rehab, and does not point the model at any body of material.

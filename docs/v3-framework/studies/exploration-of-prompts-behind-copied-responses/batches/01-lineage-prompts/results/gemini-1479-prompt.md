@@ -1,0 +1,7 @@
+- asks:
+  - analysis | work out how four named Applejack arc beats (uniform refusal, the "we are monsters" comfort scene, taking the uniform after Trimmel, the Crystal City talk) would change depending on whether Celestia and Luna win the dreamscape aid network or end up as statues | "How do these get affected by Luna and celestia winning the dreamscape aid network vs being statues?"
+- supplies:
+  - scene list, named plot beats | four Applejack arc moments: refusing Rarity's general uniform, Twilight's "we are monsters" comfort scene invoking fear of disappointing Celestia, Applejack accepting the uniform after Trimmel's surrender, and a talk in Crystal City | a few sentences, named inline rather than pasted as a document
+- shaping:
+- openness: Leaves the analysis open but scoped to two named alternative outcomes it states (Celestia and Luna winning the dreamscape aid network, versus them being statues), asking how each named scene is affected under both.
+- subject: Impact of Celestia and Luna's story-branch fate on Applejack's general-uniform arc beats

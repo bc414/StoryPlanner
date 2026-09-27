@@ -1,0 +1,20 @@
+- steps:
+  - author | supplies reference material | an attached document, uncaptured | opening turn, before any written prompt
+  - author | reopens an old codex verdict for testing | a prior note on the patriarchy plus newly built lore (Chasseur Doctrine, Grover III/IV history, griffon magic and biology) and a request to reevaluate | second turn, framing the whole exchange
+  - model | delivers a revised verdict | a reworked patriarchy model spanning theology, industry and the two republics, closed with follow-up questions | third turn, first full analysis
+  - model | offers character-level illustration inside the same analysis | Chrysalis read as a mirror of the patriarchy's fears | inside the same third turn
+  - author | redirects the biological premise | a proposed risk-aversion/testosterone-estrogen mechanism, a question about real-world parallel, and a proposal to drop the strength claim | fourth turn
+  - model | delivers a refined synthesis on the new premise | a biology-driven patriarchy model recast around risk vs. expendability, closed with new questions | fifth turn
+  - author | accepts the synthesis and opens a narrower question | approval plus a request to work out inheritance anxiety, property and lineage | sixth turn
+  - model | delivers a targeted expansion | inheritance/property mechanics traced era by era, closed with questions | seventh turn
+  - author | brings a concrete plot beat for analysis | the Sunglider vs. Kingfeather election, its characters, and its New Deal allegory | eighth turn
+  - model | analyzes the political scenario | generational psychology of the electorate and an economic reading of the two platforms, closed with questions | ninth turn
+  - author | corrects the model's factual basis | a timeline/demographics correction disputing the assumed generational comfort | tenth turn
+  - model | redoes the analysis on the corrected basis | a revised account of the electorate and the platforms under the corrected timeline, closed with questions | eleventh turn
+  - author | brings a new character to fold into the scenario | teenage Grover VI's role in backing Sunglider, with a thematic instruction (subvert the 'anyone can be president' trope) and a cross-reference to another character's arc | twelfth turn
+  - model | delivers a character-and-theme analysis | Grover VI's psychology and function as an undemocratic prop to the democracy, tied explicitly to the stated theme, closed with questions | thirteenth and final turn
+- kept:
+  - note 4236 | pasted from this reply inside the author's own framing | the biology-driven patriarchy reevaluation (risk-aversion vs. expendability, theological codification, industrial escalation, Aquileian decoupling of sex from lineage), carried into the Family Structure entry
+  - note 5564 | pasted from this reply with cuts | the analysis of Grover VI as an undemocratic kingmaker and the democracy-as-privilege thesis, trimmed and carried into the Deconstructing Democracy entry
+- brought: The author brought forward an existing codex verdict on griffon patriarchy alongside newly developed lore, plot beats (an election), and a new character (Grover VI), each time asking the model to re-derive or extend the underlying social/political logic.
+- loop: The author repeatedly supplies a piece of existing plan or a new plot element and asks the model to re-derive the causal logic behind it, sometimes correcting the model's assumptions along the way; the plan then keeps two of the model's resulting syntheses, filed under the entries the author was testing (Family Structure, Deconstructing Democracy) rather than the intermediate exchanges that led there.

@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2481|MEFO bills, a financing device or lore held elsewhere in the plan, referred to without explanation|MEFO bills are delayed gratification
+  - 2481|Chrysalis's New Order's operating philosophy, a subject held elsewhere in the plan, which this note says is born here|This is the birth of Chrysalis's New Order's operating philosophy
+- whole: Only one note is held, so there is nothing to join it to and the owner reads as a single standalone entry.

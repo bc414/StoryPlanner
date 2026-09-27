@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short clarifying question about whether the developer API's free tier only allows the Flash model, without pointing at any body of material for the model to use.

@@ -1,0 +1,7 @@
+- asks:
+  - none | no explicit instruction, question, or task is stated in words; the message consists solely of an attachment notice | "[Plan export attached — 146,804 words, 0 chars]"
+- supplies:
+  - plan export | a full-length planning document for a work of fiction, attached but not captured in the visible text | whole document, noted as 146,804 words
+- shaping:
+- openness: Completely open — the message gives no stated question, direction, or named options, only the fact that a large plan document was attached.
+- subject: An attached story-planning document, with no accompanying instruction text

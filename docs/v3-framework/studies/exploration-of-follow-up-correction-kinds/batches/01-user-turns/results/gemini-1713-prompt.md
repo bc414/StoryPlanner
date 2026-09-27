@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's feud dynamic and builds on it with a new motivation, that Vérany's attacks wound Coltbert's ego and drive him to make his reforms work, without disputing anything the model said.

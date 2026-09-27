@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding account of the SDF as grassroots defenders ("this all a romanticization too") | put in question; the user asks whether it is a romanticized picture and wants it checked against what the SDF and FSA actually were | Or is this all a romanticization too? | referred-to
+- order:
+- about: The user steps out of the story-world framing to ask factual questions about whether the SDF and the Free Syrian Army were really grassroots democratic coalitions, and about Syria's current trajectory and the fate of the SDF's people under the post-Assad government.

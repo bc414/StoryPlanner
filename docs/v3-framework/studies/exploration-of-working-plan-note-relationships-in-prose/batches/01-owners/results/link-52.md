@@ -1,0 +1,6 @@
+- relations:
+  - 1371 | 1372 | the history of how he got the captaincy (given the post when Celestia fired his predecessor) supplies the background for his worry about being a fraud captain who doesn't know how to protect | He became captain in 995 because Celestia fired the previous captain / He doesn't want to be a fraud captain | implicit
+- outward:
+  - 1371 | the previous captain and Celestia's act of firing him, an event and person held outside this item | Celestia fired the previous captain
+  - 1371 | the world year 995 in the story's timeline, a dated event elsewhere in the history | He became captain in 995
+- whole: The two notes hang together loosely as one character thread, his captaincy as an appointment and his doubt about deserving it, though only the content joins them and nothing in either points at the other.

@@ -1,0 +1,10 @@
+- asks:
+  - relate | review the user's story plans and connect the described post-donation scene (AJ's confession, Applejack/Twilight becoming a couple) to those plans | "Please review my story plans and relate this to the following things"
+  - relate | connect the same scene to other things occurring in the story at that point | "Also relate to the other things happening here too"
+  - compare | draw a parallel between Twilight's guilt in this scene and the planned arc for Rainbow Dash in chapter 8 (heroism/Atlas complex evolving into fraternity), including the point that Rainbow is equally magically gifted via surviving a Sonic Rainboom escape and being able to observe everything | "twilight's guilt is just like my plan for Rainbow Dash in chapter 8"
+- supplies:
+  - scene summary | a post-love-donation scene where AJ admits her real motive (wanting a day off from responsibility, not sympathy for changelings), Applejack's wish to be her old self, and Twilight revealing a suppressed old crush, leading to them becoming a couple | a paragraph
+  - Rainbow Dash chapter 8 arc summary | Rainbow's Loyalty-themed arc moving from heroism/Atlas complex to fraternity, and her magical giftedness shown by surviving a Sonic Rainboom escape after being shot down and her ability to observe everything | a few sentences
+- shaping:
+- openness: Leaves the analysis open-ended, asking the model to find and explain connections across the scene, the broader plans, and the Twilight/Rainbow Dash parallel without specifying a particular conclusion.
+- subject: Relating an Applejack/Twilight romantic scene and Twilight's guilt to the broader story plan and to Rainbow Dash's chapter 8 character arc

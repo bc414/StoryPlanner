@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's claim that Std-assigned systems all have producers whose identity is irrelevant to output is challenged: Chrysalis's bauleiters, Skyfall's penthouse artisans and the griffonian republic's translator artisans are Std systems that do have asset specificity, so the AS/Std split the model drew doesn't hold | Chrysalis's bauleiters actually have asset specificity though? So do Skyfall's penthouse artisans and the griffonian republic's artisans | Put as a counterexample with a tag-question, flat and brief, followed by a request to review the notes and reanalyze
+- about: The user pushes back on the model's asset-specificity argument by citing Std-assigned systems that have specialized artisans, and asks the model to go back through the notes and produce a fresh analysis.

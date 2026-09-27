@@ -1,0 +1,4 @@
+- sources:
+  - Chapters 10 to 17 | go through all of it as the material to search for hidden subjects; the mid-story stretch with mostly non-combat intellectual and character development | Go through all of Chapters 10 to 17 looking for hidden subjects | referred-to
+- order:
+- about: The user directs the model to continue the hidden-subject audit by going through the whole of Chapters 10 to 17, the mid-story stretch, and describes what that stretch contains.

@@ -1,0 +1,7 @@
+- sources:
+  - the Republican Pact as an alliance against Eros's Reich in Herzland | treat as the correct statement of what the Pact is, correcting the model's earlier framing | To clarify, the Republican Pact is an alliance against Eros's Reich | referred-to
+  - the model's account of the Aquileian aces | accepted as fitting, and used as the base for the next step, where Rainbow Dash's atlas complex comes from | The Aquileian aces make perfect sense | referred-to
+  - the beginning of the story, Rainbow Dash's atlas complex | established story point that the Aquileian aces should explain | This must be where Rainbow Dash's atlas complex at the beginning of the story comes from | referred-to
+  - the user's own picture of the Storm King and the Mount Aris battle | offered as their imagined version for the model to build on, not as settled fact | I imagine the Storm King is a chaotic warlord | first-named
+- order:
+- about: The user corrects what the Republican Pact is, accepts the Aquileian aces idea as the origin of Rainbow Dash's atlas complex, asks whether the hippogriff commander's "animals" rhetoric or the "poseur" insult should come from Aquileia, and lays out their imagined Storm King invasion and Mount Aris battle.

@@ -1,0 +1,15 @@
+- passages:
+  - note 4093 | terse planning shorthand | single clipped declarative sentence projecting a future story development | red love canister, draining spell and vacuum valve becoming a magic source | apart
+  - note 4477 | expository lore description | declarative present-tense statements explaining a mechanic by analogy and citing a canon example | crystal enhancers as the reverse of magic inhibitors, with the Crystal Empire black-crystal example | apart
+  - note 4477 | self-directed task instruction | imperative verb opening a short directive sentence | a reminder to verify where magic inhibitors are canon | apart
+  - note 4477 | tentative brainstorming query | fragmentary listing ending in a question mark | possible further canon examples, Equestria Games and the Storm King movie | apart
+  - note 4482 | expository lore description | sustained declarative present-tense technical detail with parenthetical analogies | the enhancer's material, griffon manufacture, on/off charging spell, and required healing paste | apart
+  - note 4483 | expository lore description | single declarative attribution sentence | the University of Pridea as inventor of the crystal enhancer | apart
+  - note 4576 | expository lore description | declarative explanation of a mechanic and the prior limitation it replaces | enhancers letting unicorns teach special spells, unlike the old cutie-mark-discount limit | apart
+  - note 4576 | analytical justification | shift to economic terminology and a justificatory clause | reasoning that no unicorn becomes obsolete despite shared spell access | apart
+- shifts:
+  - note 4477 | expository lore description | self-directed task instruction | turn to an imperative verb, 'Check to find'
+  - note 4477 | self-directed task instruction | tentative brainstorming query | turn to a fragmentary list trailing off in a question mark
+  - note 4576 | expository lore description | analytical justification | introduction of the term 'comparative advantage' and a justifying clause about no one being obsolete
+- registers: terse planning shorthand; expository lore description; self-directed task instruction; tentative brainstorming query; analytical justification
+- whole: Across the five notes several distinct registers appear—clipped planning shorthand, sustained lore exposition, a self-directed task reminder, a tentative brainstorming query, and a closing analytical justification—and each stands apart as its own sentence rather than blending together within one.

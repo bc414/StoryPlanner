@@ -1,0 +1,5 @@
+- sources:
+  - in game flavor text | treated as true: the published game's stated reason why the Riverlands stayed feudal (no magic of friendship, no alicorns), which the author accepts as a given while reasoning around it | The in game flavor text says they never had the magic of friendship to unite them, or alicorns | referred-to
+  - my epistemological notes | used as the basis for rejecting total stagnation: the real-world dark ages as a myth manufactured by printing press owners, so the model should propose what actually changed between 0 and 705 ALB | From my epistemological notes, in the real world, the dark ages is mostly a manufactured myth | referred-to
+- order:
+- about: The author corrects the model's previous framing on three points (Riverlands ponies have the same magic, monsters are real natural disasters and not livestock, and 0 to 705 ALB should not be total stagnation) and asks the model what would have changed in that period.

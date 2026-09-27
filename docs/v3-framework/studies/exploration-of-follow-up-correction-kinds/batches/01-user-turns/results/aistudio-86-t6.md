@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on to a new analytical task, asking the model to compare the three drugs and their real-world equivalents against the chemistry set out in the chasseur doctrine and to assess whether the red/pink Love usage is internally consistent, without stating that anything in the prior model turn was wrong.

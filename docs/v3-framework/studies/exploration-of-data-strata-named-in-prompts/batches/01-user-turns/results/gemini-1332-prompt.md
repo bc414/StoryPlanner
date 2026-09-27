@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes keeping the royal-sponsored voltigeur martial clubs separate from Gaudreau's FJA social club and asks which of two institutional origin sequences (academy first, then converted to clubs, or academy plus later-forming associated clubs) fits the story better.

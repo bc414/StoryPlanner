@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's silk-harness idea and asks for an analysis of why Camp Fluttershy changeling silk could activate C-tactile afferents, supplying lore on harmonic versus martial changelings, black-carapaced changelings who stay unchanged, and a possible charitostatic magic system, without saying the model's turn was wrong.

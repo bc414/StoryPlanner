@@ -1,0 +1,4 @@
+- sources:
+  - the desired origin story for Vaspier in TLTT | treat as the fixed constraint the birth-date options must fit; the user's already-settled intent for the character, not to be altered | Given the desired origin story for Vaspier in TLTT | referred-to
+- order:
+- about: The user asks the model to lay out possible birth times for Vaspier that fit his already-chosen origin story in TLTT, and to compare them with the birth timing of Chrysalis, Trimmel and Thorax.

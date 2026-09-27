@@ -1,0 +1,5 @@
+- sources:
+  - these thoughts (the lore points set out in this message: Aquileian research at the University of Pridea 981 to 1011, the love harvester, the crystals as crude raw magic, the 3 way valve stolen from Skyfall, Chrysalis's red love drugs) | material to be organized and used to answer how the engineering leaps can make sense in universe; several points are hedged as guesses or plans rather than settled | Please organize these thoughts | first-named
+  - my lore | the author's existing world material to be organized together with the new thoughts | and my lore | referred-to
+- order:
+- about: The user asks how to make the magical engineering leaps in their story plausible in universe, offers a set of tentative lore ideas about Aquileian research, the love harvester, crystals, the valve and the love drugs, and asks the model to organize these thoughts and their lore.

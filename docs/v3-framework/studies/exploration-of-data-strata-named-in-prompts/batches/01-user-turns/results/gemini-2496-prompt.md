@@ -1,0 +1,8 @@
+- sources:
+  - Season 4's season-wide arc, written mostly by Meghan McCarthy, Amy Keating Rogers and MA Larson | the comparison case to set against the Season 8 analysis; treated as a season whose writers understood Faust and handled its arc well | How does this contrast with season 4's season-wide arc | referred-to
+  - The Discord handling and the key episodes of season 4 | treated as clever, good work the model should bring in when making the contrast | the way they actually handled Discord was really clever, plus the key episodes | referred-to
+  - Lauren Faust's vision for the show | treated as the standard that the season 4 writers understood, implicitly the yardstick for the contrast | who understood Lauren Faust | referred-to
+  - The artists' design of Twilight's castle | treated as an example of crew quietly subverting a mandate, to be included in the contrast | the artists making Twilight's castle a tree-shaped middle finger | referred-to
+  - The model's preceding analysis of Season 8, the EEA and School Daze as corporate satire | treated as the thing to be contrasted against | How does this contrast with | referred-to
+- order:
+- about: The user asks the model to contrast its Season 8 corporate-satire reading with Season 4, praising that season's writers' handling of Discord and key episodes, and adds the castle design as another instance of crew subversion.

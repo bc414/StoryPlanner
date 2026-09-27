@@ -1,0 +1,6 @@
+- sources:
+  - the pre-AI google doc | search it for earlier precursors of Camp Fluttershy, going further back than the Gemini web era | Go even further back than Gemini web era, into the pre-AI google doc | first-named
+  - Gemini web era | the period already covered in the previous answer; the model is to go earlier than it, so it is treated as not the earliest layer | Go even further back than Gemini web era | referred-to
+- order:
+  - pre-AI google doc over Gemini web era | asked to go even further back than the Gemini web era into the pre-AI google doc
+- about: The user asks the model to extend its lineage trace of Camp Fluttershy back past the Gemini web era into the author's pre-AI google doc.

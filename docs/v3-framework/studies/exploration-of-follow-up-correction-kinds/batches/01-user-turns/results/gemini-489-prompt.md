@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the cut-the-scene advice as settled and asks a follow-up about how the other Mane 6 could plausibly not know Rainbow's motive after four years, proposing her distance and Wonderbolts work as an answer and adding facts about the military's state.

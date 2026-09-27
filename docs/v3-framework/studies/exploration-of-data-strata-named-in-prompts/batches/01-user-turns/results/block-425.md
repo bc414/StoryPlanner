@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects and extends the model's name options by stating new worldbuilding facts (Xhosa-based changeling language, the Acornage habit of English idiom names, and Krista and Chrysalis as two separately chosen names) without pointing to any body of material for the model to draw on.

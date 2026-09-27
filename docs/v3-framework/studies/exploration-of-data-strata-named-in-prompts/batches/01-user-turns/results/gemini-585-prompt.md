@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to work out how the Statthalter system would function and be judged in hives where emotion-sensing exposes lies, and what Statthalters are responsible for apart from the Bauleiters, without pointing at any body of material to draw on.

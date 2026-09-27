@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether to replace "nursery" wholesale with "walled garden", where that term comes from, what each implies, and how to separate trope from materialist historicism, without pointing the model at any body of material.

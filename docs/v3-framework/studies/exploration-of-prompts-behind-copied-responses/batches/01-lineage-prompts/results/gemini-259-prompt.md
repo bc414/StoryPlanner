@@ -1,0 +1,9 @@
+- asks:
+  - develop | asking the model to extend the given backstory so it also accounts for why the bat ponies regard Luna as a disappointment | "This backstory should also explain why the bat ponies view Luna as a disappointment"
+- supplies:
+  - characterization notes | Luna's self-awareness of her ancient failure, her deference to Celestia, the nature of the guilt she carries (turning evil from excess ambition/magic, not a survivor-complex guilt over Celestia's sacrifice), and her 1002-era agreement that industrialization means the death of the pony soul | a paragraph
+  - dialogue beat | a short scripted exchange: Celestia citing the river ponies who "eat each other, no better than griffons," AJ lashing out asking why Luna didn't save them, Luna answering "I tried. 1000 years ago," and the room going silent | a few lines of dialogue
+- shaping:
+  - content requirement | the backstory must also serve to explain the bat ponies' view of Luna as a disappointment | "This backstory should also explain why the bat ponies view Luna as a disappointment"
+- openness: Leaves open how the connection should be made, but names the specific outcome the backstory must satisfy: explaining why the bat ponies see Luna as a disappointment.
+- subject: Luna's backstory of past failure and its link to Celestia's deference, the industrialization debate, and the bat ponies' view of her

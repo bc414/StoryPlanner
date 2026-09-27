@@ -1,0 +1,5 @@
+- sources:
+  - the rubber and crystals are in Equestria (author's own statement of the story's facts) | treat as true; corrects the model's framing, so rubber and crystal supply is not a Skyfall dependency | The rubber and crystals are in Equestria, so that's not the issue | first-named
+  - centimetric radar for the cloud carrier around Vanhoover before the white peace (the radar idea from earlier in the conversation) | accept as agreed and settled; build on it rather than re-propose | But I agree with centimatic radar for the cloud carrier | referred-to
+- order:
+- about: The user corrects the model's claim about rubber and crystal supply, accepts the radar idea for the Cloud Carrier at Vanhoover, and asks for other military-essential components Equestria must get from Skyfall that are unrelated to submarines.

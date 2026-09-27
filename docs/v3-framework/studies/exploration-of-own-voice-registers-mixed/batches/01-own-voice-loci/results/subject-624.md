@@ -1,0 +1,12 @@
+- passages:
+  - note 5582 | game-mechanic exposition | third-person factual account, conditional clause about a requirement | a focus tree option and its war-support requirement | apart
+  - note 5584 | thesis-statement | labeled claim ("The Thesis:"), abstract assertion, trailing parenthetical aside | friendship and solidarity winning wars, changelings' distrust | apart
+  - note 5584 | thesis-statement | labeled claim ("apparent antithesis:"), abstract assertion, trailing parenthetical aside | ruthless industry and detachment winning wars | apart
+  - note 5584 | evidence-listing | "is shown by" followed by comma-strung concrete story items, no verbs of argument | spreadsheet, industrial talk, trench killing, Rainbow's laughter | apart
+  - note 5584 | evidence-listing | "challenged by" followed by comma-strung concrete story items | Fluttershy's rehab, trench solidarity, Rainbow's collapse | apart
+  - note 5584 | thesis-statement | labeled claim ("The final synthesis:"), abstract assertion | town hall reconciling industry and harmony | apart
+- shifts:
+  - note 5584 | thesis-statement | evidence-listing | switch from a labeled abstract claim to an "is shown by" list of concrete story details
+  - note 5584 | evidence-listing | thesis-statement | switch back to a labeled abstract claim ("final synthesis:") after the "challenged by" list
+- registers: game-mechanic exposition; thesis-statement; evidence-listing
+- whole: One note (5582) stays in a single expository register describing a game feature, while the other (5584) alternates, in separate lines that stand apart rather than blending, between labeled abstract thesis-statements and plain lists of concrete story evidence.

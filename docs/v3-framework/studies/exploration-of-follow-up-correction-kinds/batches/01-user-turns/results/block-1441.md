@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the audit to ask which popular works or frameworks this scheme resembles, and says the principles came from their own raw notes and were probably absorbed implicitly from elsewhere.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's answer leaned on the creative-writing and roleplay side of the old Ultra model (lively prose, writers mourning it), which assumes the user's interest is in generated story text, when the user only wants world-building, logic checks and brainstorming | strictly and completely not asking it to generate story text or roleplay | stated flatly as a clarification of purpose, with emphatic wording and a dismissive aside about earlier AI-generated 'slop', then folded into a follow-up question
+- about: The user restates that they use the model only for story logic and world-building, never for prose or roleplay, and uses that to ask whether Deep Think beats the old dense Ultra model for that purpose.

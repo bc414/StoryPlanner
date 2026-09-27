@@ -1,0 +1,4 @@
+- passages:
+  - 15 | other: open question with a listed answer, posing what defines the world's tyrannical regimes and naming three (pre-industrial serfdom, industrial rugged individualism, Chrysalis's death cult) | a planning question followed by a three-item answer naming the kinds of tyranny; not an event | none | opens with a question, then a listed answer of three regimes
+- sequences:
+- whole: The subject holds a single note that poses, as a planning question, what defines the world's tyrannical regimes and answers with three types: pre-industrial serfdom, industrial rugged individualism, and Chrysalis's death cult.

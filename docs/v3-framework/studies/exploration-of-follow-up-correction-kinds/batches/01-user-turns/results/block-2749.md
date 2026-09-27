@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a new, unread story and asks for a summary, themes, relation to the previously discussed stories, and its underlying ontology, moving on to a fresh comparative-analysis task without correcting the prior turn.

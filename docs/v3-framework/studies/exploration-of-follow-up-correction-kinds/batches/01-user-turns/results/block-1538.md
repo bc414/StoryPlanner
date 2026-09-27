@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's comparison and its conclusion for synthesis weighted noise-filtering and volume reduction as gains and treated information loss as a minor risk. The user says loss of insights is their main concern, so the analysis was aimed at the wrong criterion. | The thing I am most worried about is losing insights | Implicit and flat: a bare statement of priority with no reason, no criticism of the model and no explicit disagreement.
+- about: The user answers the sorting-versus-synthesis comparison by naming their main concern, losing insights, which redirects the criterion the choice should be judged on.

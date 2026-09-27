@@ -1,0 +1,4 @@
+- sources:
+  - this story plan | the material to be analyzed, the subject of the narrative and literary analysis | Give a narrative and literary analysis of this story plan | referred-to
+- order:
+- about: The user asks the model for a narrative and literary analysis of a story plan that is referred to as "this" without being described in the turn.

@@ -1,0 +1,8 @@
+- passages:
+  - note 4330 | systemic-explanatory | present-tense general claims, 'do have to', 'do get' | turncoat nobles' obligations and protections under Chrysalis | apart
+  - note 4501 | functional-summary | past-tense copula stating what an event served as, 'was encouragement', 'was also a recruitment drive' | purpose of the Acornage sacking and feast | apart
+  - note 4501 | motive-narration | intent clause 'wanted to', dated historical reference '1002' | reason tied to the earlier purge of Acornage | apart
+- shifts:
+  - note 4501 | functional-summary | motive-narration | moves from stating the event's function to stating an actor's wanted outcome, with a specific year attached
+- registers: systemic-explanatory; functional-summary; motive-narration
+- whole: Across its two notes this item holds three distinct registers, each occupying its own sentence or note with a clean break rather than blending together.

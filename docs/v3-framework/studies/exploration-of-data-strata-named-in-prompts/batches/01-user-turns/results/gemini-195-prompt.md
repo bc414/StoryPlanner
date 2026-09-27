@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to handle the few remaining predator true believers like Pagala in the ending, explains why few are left, and adds that the leaflets should be in both Herzlander and native Changeling, without pointing the model at any body of material.

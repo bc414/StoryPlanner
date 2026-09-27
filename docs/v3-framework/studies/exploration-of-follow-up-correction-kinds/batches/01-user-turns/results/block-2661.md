@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two new follow-up questions, who the "800 million lifted out of poverty" figure actually covers and what material conditions drove China's steep birth-rate decline that began before the one-child policy, without disputing anything the model said.

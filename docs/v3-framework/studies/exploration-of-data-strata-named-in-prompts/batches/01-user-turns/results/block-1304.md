@@ -1,0 +1,4 @@
+- sources:
+  - TLTT | the author's work whose subjects the model is asked to judge against the suspense versus dramatic irony distinction, as a question rather than an instruction to read or trust anything in it | some subjects in TLTT will have suspense and others dramatic irony | referred-to
+- order:
+- about: The user, sent twice with one word changed, asks whether it is valid to expect that some subjects in TLTT will use suspense architecture and others dramatic irony architecture, if the two are different.

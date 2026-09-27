@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user redirects the naming discussion by asking the model to newly analyze whether Coltbert's personality would make him choose the word "parloir" deliberately, for ironic or subversive effect, rather than avoiding it.

@@ -1,0 +1,7 @@
+- asks:
+  - explore/elaborate | asks the model to expand on and develop further how a specific new plot detail accounts for Equestria's lack of preparedness despite having foreseen the threat | "please explore more"
+- supplies:
+- shaping:
+  - develop the named explanation further rather than propose alternatives | "explore more"
+- openness: leans toward an answer it names: the message asserts that the Celestia/Velvet detail explains Equestria's unpreparedness and asks the model to elaborate on that specific explanation rather than consider other causes
+- subject: how a detail involving Celestia and Velvet explains Equestria being caught unprepared for a foreseen threat

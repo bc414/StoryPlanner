@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Equestrian Comprador infiltration differs from the hippogriff case because Rockfeller's cutie mark keeps working. The user says cutie marks are irrelevant in the comprador economy, where only industrial ambition and factory crunch culture count, so the two cases are the same. | Rockfeller's cutie mark doesn't really need to work because in the comprador economy, cutie marks are irrelevant ... So it's the same deal. | flat, brief and stated as fact with a short reason, made in passing before the user moves on to a new proposal
+- about: The user briefly rejects the model's contrast between Equestrian and hippogriff Comprador visibility, then moves on to propose an earlier Equestrian-hippogriff exchange in which pioneering pegasi and unicorns give combat support, and asks how that fits with what is already established.

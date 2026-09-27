@@ -1,0 +1,22 @@
+- passages:
+  - note 58 | flat declarative statement | single subject-verb-object sentence, present-tense wish | Comet Shine and Fleur Bloom wanting to spread Harmonic Capitalism to Equestria | apart
+  - note 4257 | expository worldbuilding description | third-person present-tense definitional sentences | exploitative capitalism forcing peasants, draining victims, discouraging special talents | apart
+  - note 4258 | elliptical label/slogan | verbless dash-appositive fragment | naming Harmonic Capitalism as the Republic's defining feature | apart
+  - note 4258 | imperative directive | imperative verb "Use" opening the sentence | instruction to use industry and magic to enhance talents and terroir | apart
+  - note 4258 | expository worldbuilding description | third-person present-tense definitional clause | how harmonic capitalism lets artisans use efficiency their own way | apart
+  - note 4259 | flat declarative statement | single factual sentence, present tense | Buffalo/Tzinacatl/Temberik integration as proving ground for peacetime | apart
+  - note 4678 | bare reference tag | quoted terms with no verb | real-world analogues, Social Market Economy and Distributism | apart
+  - note 5575 | expository worldbuilding description | factual past/present-tense description | Star Energy factory's origin as a fertilizer plant stamped with cutie marks | apart
+  - note 5575 | casual pop-culture analogy | informal "Kind of like how", brand-name reference | comparison to Five Guys' potato-origin whiteboard | apart
+  - note 5575 | expository worldbuilding description | continued third-person factual and causal sentences | FJA farmers' terroir snobbery, Tall Tale connection, plant's small-to-industrial retrofit for war | apart
+  - note 5575 | casual pop-culture analogy | character-viewpoint clause "as Applejack witnesses", pop-culture comparison | retrofitted machines looking like brutalist industrial exploitation | apart
+  - note 5575 | telegraphic shorthand list | comma-spliced terse clauses, abbreviation "R&D" | tractor factories becoming truck factories, tank factory as new R&D | apart
+- shifts:
+  - note 4258 | elliptical label/slogan | imperative directive | verb mood changes to imperative "Use"
+  - note 4258 | imperative directive | expository worldbuilding description | returns to third-person subject "Harmonic capitalism takes..."
+  - note 5575 | expository worldbuilding description | casual pop-culture analogy | informal "Kind of like" brand-name comparison begins
+  - note 5575 | casual pop-culture analogy | expository worldbuilding description | returns to factual third-person claim about FJA farmers
+  - note 5575 | expository worldbuilding description | casual pop-culture analogy | character-viewpoint clause and pop-culture comparison introduced
+  - note 5575 | casual pop-culture analogy | telegraphic shorthand list | shifts to terse, comma-spliced listing without character framing
+- registers: flat declarative statement; expository worldbuilding description; elliptical label/slogan; imperative directive; bare reference tag; casual pop-culture analogy; telegraphic shorthand list
+- whole: This item's notes move across several registers - flat plot statements, worldbuilding exposition, an elliptical slogan, an imperative instruction, a bare reference tag, casual pop-culture asides, and a telegraphic list - each occupying its own sentence and standing apart from the others rather than blending within one.

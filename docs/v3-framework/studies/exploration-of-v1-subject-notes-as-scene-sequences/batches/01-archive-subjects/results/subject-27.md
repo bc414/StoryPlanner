@@ -1,0 +1,4 @@
+- passages:
+  - 5831 | statement about the subject | Maud Pie earned a doctorate-like degree (a "Rockterate") from the University of Pridea; a fact about her background, not an event shown at a moment | none | plain declarative statement of past fact, no scene action and no date
+- sequences:
+- whole: The subject's only note is a single one-line background fact stating where Maud Pie got her Rockterate.

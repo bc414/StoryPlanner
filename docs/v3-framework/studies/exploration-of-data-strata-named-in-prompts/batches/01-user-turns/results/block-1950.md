@@ -1,0 +1,5 @@
+- sources:
+  - the causal ordering of the propositions the model just gave ("this ordering") | accept as valid for causality, but not the only possible ordering; use it as the comparison point for an importance-based one | This ordering makes sense from casuality | referred-to
+  - the story's propositions on conscience being stronger than extraction and on material conditions ("the conscience is stronger than extraction", "material conditions") | treat both as candidates for what comes first and as important; the model is asked to weigh them, not told which wins | what about the conscience is stronger than extraction as the master that appears first? Yet material conditions seems really important too | referred-to
+- order:
+- about: The user accepts the causal ordering of the story's propositions but asks what an importance-based ordering (perhaps leading with the conscience-beats-extraction master claim) would look like and imply, and what should decide importance.

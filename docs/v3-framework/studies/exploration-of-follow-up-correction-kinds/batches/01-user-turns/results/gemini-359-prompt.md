@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Codex Fact dependency design to ask a new question about the pros and cons of nesting plot points, without disputing anything in the model's answer.

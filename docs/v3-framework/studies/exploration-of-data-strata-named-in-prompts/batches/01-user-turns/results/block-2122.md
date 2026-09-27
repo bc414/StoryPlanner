@@ -1,0 +1,9 @@
+- sources:
+  - story plan db file | review all relevant content in it and use it as the basis for describing the current causal chain and logic of the Bond, what works and what could improve | Review all relevant content in the story plan db file | referred-to
+  - story plan (its direction) | provisional; the analysis may change its direction or leave it as is | potentially alter the direction of the story plan or keep it the same | referred-to
+  - the model's earlier analysis in this conversation (Celestia and Grover III as a Bond, Celestia teaching Grover III) | accept the Bond conclusion; do not assert as world truth the part that Celestia taught Grover III what to do | I agree that Celestia and Grover III being a Bond | referred-to
+  - author's stated premises on Grover III's background (father a warlord invading for little gain, Grover III sanitizing his father and earlier warlords) | treat as given starting points for reasoning out Grover III's worldview before he met Celestia and how it changes | Grover III is shaped by the trauma of his father being a warlord | first-named
+  - author's stated premises on Celestia's background (oversees Pioneer Equestria after several hundred years, had to banish Luna) | treat as given starting points for reasoning out Celestia's worldview before she met Grover III and how it changes | Celestia oversees Pioneer Equestria after several hundred years and had to banish Luna | first-named
+  - EaW canon legend about Grover II | existing canon that Grover III's sanitizing of his father and earlier warlords is meant to account for | led to the EaW canon legend about Grover II | first-named
+- order:
+- about: The user accepts Celestia and Grover III as a Bond and asks for an analysis of the story plan db's current causal chain for it, treating the two as peers with independent worldviews, to decide who should borrow which methods from whom and whether to change the plan.

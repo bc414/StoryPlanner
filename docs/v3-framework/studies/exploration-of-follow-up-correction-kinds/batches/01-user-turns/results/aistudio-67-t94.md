@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model had Celestia believing Aquileia is still the pre-914 warlord state, but she has empirical proof that Aquileian volunteers helped save Equestria from the changelings, so she cannot hold that view | "Celestia cannot logically believe that Aquileia is strictly the pre 914 ALB warlord state" | flatly, with the reason given (the volunteers' evidence)
+  - fact of the world | The model treated Celestia as blind to Aquileia, but Aquileian culture (the parloirs) is big in Manehattan and she never shut it down, since it became a pressure valve for ambitious ponies from 981 | "She also must know that Aquileian culture is big in Manehattan (the parloirs) and never shut them down" | flat, reasoned from established world details
+- about: The user partly corrects the model's account of what Celestia knows about Aquileia, accepts its Kemerskai/GR reading, and then goes on to ask for analysis of a planned Celestia reply letter and its later payoff in the election-eve confession, with suggestions for the letter's contents.

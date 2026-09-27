@@ -1,0 +1,11 @@
+- asks:
+  - check | asks whether China's historical trajectory would work as a fitting allegory for the situation being discussed | "Would China be a proper allegory?"
+  - analyse | asks for a comparative analysis, implicitly setting the named historical case against the story situation it is meant to allegorize | "Give a comparative analysis"
+  - brainstorm | asks for any additional insights the comparison might yield, left open-ended | "and any insights"
+- supplies:
+  - idea | a historical premise it proposes as the candidate allegory: China being advanced relative to Europe in the medieval era, later falling behind, and being exploited by British opium trade and extractive industry | a sentence
+- shaping:
+  - form: reply should take the shape of a comparative analysis | "Give a comparative analysis"
+  - content: reply should also surface general insights beyond the direct comparison | "and any insights"
+- openness: Leans toward an answer it names: it proposes China's rise-and-decline-under-British-exploitation as the candidate allegory and asks the model to confirm its fitness while analyzing it, rather than soliciting alternative candidates.
+- subject: Whether China's 19th-century history (falling behind Europe, British opium trade and extraction) is a good historical allegory for an unnamed story situation.

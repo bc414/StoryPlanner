@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up factual question about how Poland treats immigrants in general, Ukrainian refugees, and other Europeans, without pointing at any body of material to use or avoid.

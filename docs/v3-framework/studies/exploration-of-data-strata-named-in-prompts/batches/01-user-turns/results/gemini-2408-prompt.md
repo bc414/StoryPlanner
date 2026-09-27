@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open worldbuilding question about how Herzland would respond to the invention of the airplane and whether it counts as heresy, without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's scenario by stating that Applejack's parents refuse to collaborate, and adds new story details about their pivot to war rations, the cash shortage, and the war bonds they set up with EEEE.

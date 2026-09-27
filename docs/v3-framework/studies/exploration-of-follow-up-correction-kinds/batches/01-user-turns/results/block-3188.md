@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the retelling and moves to the next task, asking the model to compare the notebook's Aquileia material with what appears in the v1 archive, v2 and the Aquileia conversations.

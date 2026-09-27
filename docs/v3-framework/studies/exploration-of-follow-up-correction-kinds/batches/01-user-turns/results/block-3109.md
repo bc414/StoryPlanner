@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model was researching only the world-law subjects and the canon/EaW treatment, leaving out the archive, which the user says holds details not yet migrated | You must also search the archive, since key details may not have been migrated yet | flat directive, stated as an added requirement with a brief reason given
+- about: The user tells the model to widen its research to include the archive as well, because some key details may not yet have been moved into the material it is using.

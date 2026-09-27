@@ -1,0 +1,5 @@
+- sources:
+  - my instinct, a feeling of how something could go | treat as the author's own starting intuition; the model should explain and articulate it rather than replace it with random new inventions | synthesis of ideas where I have a feeling of how something could go and want it to explain the niece that my instinct says | first-named
+  - objective tools from formal study of literature | draw on as the objective analytic framework for literary analysis, including tools the author has not learned and needs supplied | literary analysis using objective tools from formal study of literature which I may not have learned | first-named
+- order:
+- about: The user asks which temperature and top-p settings suit two story-planning tasks, explaining their own intuitions and applying formal literary analysis, and says they do not want random inventions.

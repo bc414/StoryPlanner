@@ -1,0 +1,6 @@
+- asks:
+  - propose | offers a specific plot/worldbuilding twist about the dogs' backstory for the model to take up | "Maybe a twist is that..."
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message states the specific twist itself (dogs excluded from the pony-only Garden of Stagnation, later welcomed post-war for their special talents) as the proposed direction.
+- subject: A worldbuilding twist explaining why a group of dogs lived apart in a cave and how their social status changes after a war

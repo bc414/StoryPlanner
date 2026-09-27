@@ -1,0 +1,5 @@
+- passages:
+  - 5516 | statement about the subject | Coat, plumage and eye or carapace color are said to reflect working life forces (friendship and magic); a victim drained of both goes gray with a deflated mane, as Pinkie does in Party of One | none | general claim about what color means, with an illustrative example; no event told in time
+  - 5517 | statement about the subject | Dulled versus colorful coats and manes serve as a visual indicator of when soldiers should rotate out and rest | none | general rule of what color signifies; no moment or date
+- sequences:
+- whole: Two short notes that set out what color signifies in the world, as a sign of life force and as a rest indicator for soldiers, with no scene beats, dates or sequences.

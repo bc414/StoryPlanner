@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Trimmel's psychology: the model cast him as merely tolerating Chrysalis because she broke the Old Order, whereas he holds that eating the rich is the only way | More specifically, Trimmel believes eating the rich is kind of the only way | flat restatement framed as a sharpening, with no explicit note that the earlier version was wrong
+  - fact of the world | Trimmel's stance toward Thorax: the model had his leaflets validating Thorax and had him and Applejack bridging the two sides, but he actually dislikes Thorax's ideas because they imply freeing the nobility | He doesn't like Thorax's ideas because it implies freeing the nobility, since Thorax says draining others is wrong | flat, with a reason given, stated as plain fact and not as disagreement with the model
+- about: The user sharpens Trimmel's ideology and his hostility to Thorax's anti-draining message, adds how he handles Pagala after Acornage, and then names the story's theme of monarchy and nobility falling to industrialization across the different lands.

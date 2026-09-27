@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the schema review to a new question about how planning depth and Layer 4 structure should differ across tiers of characters (POV protagonists, secondary narrators, mentors, static antagonists, changed antagonists), and lays out their own working tiers and revises them as they go, without disputing anything the model said.

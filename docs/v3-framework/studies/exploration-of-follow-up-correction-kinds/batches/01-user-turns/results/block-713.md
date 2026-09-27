@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the settled display-question design to a new question about whether link entity enums should also be configuration-driven.

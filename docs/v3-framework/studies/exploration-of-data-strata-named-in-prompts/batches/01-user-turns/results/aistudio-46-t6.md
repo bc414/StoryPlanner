@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's first Socratic question by deciding that Celestia's therapy must rely only on mundane psychological listening, not magic, without pointing at any source of data.

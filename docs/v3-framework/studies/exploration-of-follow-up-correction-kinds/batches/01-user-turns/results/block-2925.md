@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's definition of the Economy axis and asks it to move on to auditing the existing assignments and empties against the live database for contradictions.

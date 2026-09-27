@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a historical breakdown of how armies from feudal to modern times, and across classes such as conscripts, knights and officers, handled the adrenaline crash after combat, without pointing at any particular source of material.

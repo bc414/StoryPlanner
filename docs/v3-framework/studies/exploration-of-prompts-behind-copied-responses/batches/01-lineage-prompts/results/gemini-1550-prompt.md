@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | what should happen to Gilded Trust once Applejack's party wins the election | "How should Gilded Trust be dealt with once Applejack's party wins the election?"
+  - explain | how the gilded bits get converted into Equestrian war bonds | "How are the gilded bits turned into Equestrian war bonds?"
+- supplies:
+  - setup note | current arrangement: Gilded Trust was paid in war bonds and in turn pays workers in gilded bits | one sentence
+- shaping:
+- openness: Open: both questions are posed without a named preferred answer, options, or a claim to verify, just asking how the situation should be resolved and how the conversion works.
+- subject: The fate of the entity "Gilded Trust" and the gilded-bits/war-bonds financial mechanism after Applejack's party's election win, in an Equestria-set story

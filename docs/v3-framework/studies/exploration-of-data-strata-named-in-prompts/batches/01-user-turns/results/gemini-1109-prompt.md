@@ -1,0 +1,4 @@
+- sources:
+  - season 1 episode 1 mist | use as the visual reference for how Luna dissolves into mist and drifts away | like the mist from season 1 episode 1 | referred-to
+- order:
+- about: The user proposes a revised trench-and-tent sequence in which Mali and Applejack together confront Luna, Luna flees as mist, and Applejack is admitted to the tent by rank-following guards, and asks what Luna's response to Applejack's tactical questions should be.

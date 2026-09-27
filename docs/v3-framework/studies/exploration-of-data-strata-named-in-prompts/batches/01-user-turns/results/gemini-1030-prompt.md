@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn poses a hypothetical worldbuilding question, asking what additional Griffonian component would be needed to bridge the gap between a unicorn's live casting and the static P2 spell's casting, without naming any external source of data to draw on.

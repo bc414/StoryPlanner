@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's revised origin analysis without comment and gives a next instruction, widening the search for the "nursery" term to the whole v1 archive.

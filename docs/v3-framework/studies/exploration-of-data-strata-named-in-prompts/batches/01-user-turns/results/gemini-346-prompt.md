@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user checks whether the Western Allies' flaw in 1945 was hypocrisy about liberty, and asks for a full account of FDR's New Deal coalition, including whether domestic and foreign policy diverged or whether the fault lay more with British and French colonies, without pointing at any particular body of material.

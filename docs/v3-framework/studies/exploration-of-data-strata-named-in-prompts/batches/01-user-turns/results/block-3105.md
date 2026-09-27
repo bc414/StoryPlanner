@@ -1,0 +1,4 @@
+- sources:
+  - the report | keep unchanged as a frozen snapshot; do not edit or rewrite it, treat it as a fixed record | Don't edit the report. That stays as frozen snapshot | referred-to
+- order:
+- about: The user stops the model from editing the existing report, saying it is to stay as a frozen snapshot, and tells it to give its revised analysis in the chat instead.

@@ -1,0 +1,5 @@
+- sources:
+  - The above analysis (the model's previous breakdown) | Do not take it as settled: its assumption that Celestia planned the Griffonia trip from the white peace is doubted and may not be what the author wants | The above analysis seems to assume that Celestia had a grand plan ... I'm not sure this is what I want | referred-to
+  - the original story plan / the old story plan | Baseline to weigh against the new direction: it had the white peace as an immediate, uncalculated quarantine and Celestia holding a rigid binary of harmonic or predator; the author asks whether to keep these or change them | Celestia's white peace announcement was an immediate, uncalculated quarentine in the original story plan. Should it stay that way or not? | referred-to
+- order:
+- about: The user pushes back on the previous analysis's assumption of a Celestia grand plan, offers two alternative versions of the "make some friends" callback, and asks for the pros and cons of a Celestia who fully understands realpolitik versus one acting on historical patterns, and whether she still holds the old harmonic-or-predator binary by the Stagnation chapter.

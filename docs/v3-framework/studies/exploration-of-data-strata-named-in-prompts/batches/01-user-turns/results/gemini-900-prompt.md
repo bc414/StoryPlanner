@@ -1,0 +1,6 @@
+- sources:
+  - it (the Applejack analysis just given)|the thing to be connected outward; the model is to tie the arc it laid out to the two other items|How can I connect it with|referred-to
+  - the gala|a story or show element to link the arc to; used as material to connect, no weight of trust or doubt given|connect it with the gala|referred-to
+  - Applejack's cutie mark story of going to Manehattan but then coming home|a known piece of Applejack's backstory to link the arc to; treated as given fact to build on|cutie mark story of going to Manehattan but then coming home|referred-to
+- order:
+- about: The user asks the model to show how the Applejack arc it just analysed connects to the gala and to her cutie mark backstory of leaving for Manehattan and returning home.

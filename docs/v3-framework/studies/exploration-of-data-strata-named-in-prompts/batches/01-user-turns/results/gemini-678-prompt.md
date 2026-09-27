@@ -1,0 +1,5 @@
+- sources:
+  - my existing plot points of the initial vote breakdown and the progression | the material the model is to analyze; treat as the author's established plan and base the analysis on it | Give me an analysis on my existing plot points | referred-to
+  - I envisioned Celestia being invited to the debate but choosing not to attend | the author's own new idea, offered as a proposal to be checked for sense, not yet settled | Does this make sense? | first-named
+- order:
+- about: The user proposes that Celestia is invited to the debate but declines to attend, asks whether that works, and asks for an analysis of their existing plot points on the initial vote breakdown and how it progresses.

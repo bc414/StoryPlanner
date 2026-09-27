@@ -1,0 +1,4 @@
+- sources:
+  - the story planner's content | weight: treat as the sole material the model works on, for analysis only, never for writing prose | what marks it: "The model is only for analysis for the story planner's content" | referred-to
+- order:
+- about: The user turn narrows the scope of the requested model comparison, stating the model will only ever analyze the story planner's content (never draft prose) and specifying the exact comparison to run — Opus 4.6 and Opus 4.8 versus their current Sonnet 4.6 setup at Max effort on Claude.ai — while ruling out the Opus 4.8-vs-4.7 comparison the prior turn offered.

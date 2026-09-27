@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the previous analysis alone and starts a new task on the Crystal Empire, the faction they call forgotten. They give revised lore and population ideas and ask for an analysis of the existing plans, a check against the conversation's established analysis, and the faction's thematic and allegorical role.

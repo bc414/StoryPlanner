@@ -1,0 +1,7 @@
+- relations:
+  - 2115|2116|the inferred belief is the reason behind the stated action: Celestia's distrust of EEEE! is explained by her thinking Rarity is manipulated by violent former criminals (the reader infers the psychology from the shown behavior)|says EEEE! is not to be trusted / Rarity is being manipulated by violent former criminals|implicit
+- outward:
+  - 2115|EEEE!, a group or entity held elsewhere in the plan, whose nature is not given here|EEEE! is not to be trusted
+  - 2116|the violent former criminals, presumably the people behind or in EEEE!, not otherwise described in this item|violent former criminals
+  - 2115|the first referendum and Celestia's shutting it down, which is only named in the link's title, not in the notes|Celestia says
+- whole: The two notes hang together as a pair, with the on-page statement and the inferred psychology behind it, though they join only by content.

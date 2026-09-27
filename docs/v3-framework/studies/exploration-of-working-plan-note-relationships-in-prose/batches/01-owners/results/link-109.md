@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2560|Chrysalis's way of caring, held in the Changeling Kindergarten side of the link and not developed in this item|Chrysalis's care says "what can you do?"
+  - 2560|Fluttershy's way of caring, held in the Camp Fluttershy side of the link and not developed in this item|Fluttershy's care says "what do you love doing?"
+- whole: This owner holds a single note, so there is nothing in it to hang together or fall apart; it stands as one entry with no joints to other notes.

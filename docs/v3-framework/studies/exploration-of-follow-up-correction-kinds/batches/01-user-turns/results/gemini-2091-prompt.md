@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the two-axis map and asks a follow-up: whether other orthogonal axes exist and whether other kinds of restaurants fall elsewhere on the map beyond the four categories.

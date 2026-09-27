@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, offering a reframing of the model's account by asking whether the game's French élan tradition is a later-era idea projected back onto the earlier period, without saying the model's explanation was wrong.

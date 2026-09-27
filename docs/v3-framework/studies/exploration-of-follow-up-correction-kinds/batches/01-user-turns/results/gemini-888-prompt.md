@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is only an attachment placeholder for a plan export with no text of its own, so it says nothing about the model's donut-making explanation and corrects nothing in it.

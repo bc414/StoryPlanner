@@ -1,0 +1,5 @@
+- sources:
+  - My original story plans | cited as the baseline account of Chrysalis's motivation against the nobles (they called changelings manticore-tier predators and bugs); treated as the established account | My original story plans cite Chrysalis's motivation | referred-to
+  - The new expansion | treated as newer material adding that Krista Sterling was bullied for being new money from Skyfall; taken as a fact to build on | The new expansion says Krista Sterling was bullied | referred-to
+- order:
+- about: The user recalls what their original plans and the new expansion say about Chrysalis and Krista Sterling's bullying, then proposes how Gabriella Eagleclaw could deduce Krista is a changeling through a biology class and offers three options for a mandatory or optional armor-forging class.

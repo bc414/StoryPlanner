@@ -1,0 +1,4 @@
+- sources:
+  - Chapter 12 Crash | the existing planned chapter that holds the morally gray drug trade; the model is to test whether the new vacuum-valve premise can supply its cause, offered as a what-if rather than settled | do the morally gray drug trade in Chapter 12 Crash | referred-to
+- order:
+- about: The user floats a what-if that the Luna Nova Rifle's three-way valve needs vacuum conditions, so that this dependence on Skyfall and the drug Tzinacatl tribes would drive the Chapter 12 Crash drug trade, and asks the model to consider it.

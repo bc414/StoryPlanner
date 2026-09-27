@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about whether NotebookLM can be used on mobile, without pointing the model at any body of material to draw on or avoid.

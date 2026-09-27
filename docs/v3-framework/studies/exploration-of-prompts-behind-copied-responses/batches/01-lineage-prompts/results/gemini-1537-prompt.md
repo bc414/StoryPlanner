@@ -1,0 +1,9 @@
+- asks:
+  - analyse | examine the story's later plot points relevant to Rainbow Dash's arc | "examine the plot points that come later"
+  - evaluate | assess whether/how Rainbow Dash's arc supports her not yet accepting Trimmel isn't a monster at the surrender scene | "evaluate rainbow's arc"
+- supplies:
+- shaping:
+  - Consider that Rainbow, unlike Applejack, has been indoctrinated by Crack Lightning for 4 years and is characterized as the 'unkillable blue devil', so full acceptance of Trimmel's non-monstrousness may be premature at the surrender | "too early for Rainbow Dash the unkillable blue devil to accept it"
+  - Weigh two possible softer alternatives for this beat against the later arc: that it's merely a seed of doubt, or that Rainbow accepts AJ's word but grumbles | "Perhaps it's just a seed or rainbow takes AJ's word for it but grumbles"
+- openness: Leans toward an answer it names: the user believes Trimmel's surrender is too early for Rainbow Dash to fully accept, offers two named alternative readings (a seed of doubt, or grudging acceptance of Applejack's word), and asks the model to evaluate Rainbow's arc against later plot points in light of this concern.
+- subject: Timing and plausibility of Rainbow Dash's shift away from her indoctrinated worldview, specifically around the Trimmel surrender scene, within a planned story's arc.

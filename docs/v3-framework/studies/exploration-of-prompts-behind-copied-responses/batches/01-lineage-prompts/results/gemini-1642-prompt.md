@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | asks the model to list or generate examples of things that existed before digital products, i.e. pre-digital analogues or equivalents to that concept | "What examples existed before digital products?"
+- supplies:
+- shaping:
+  - examples should fit or be adaptable to a WW2-era setting | "my era is WW2"
+  - gaps between the WW2 setting and digital-product concepts may be filled in using magic as a device | "I can use magic to bridge some gaps"
+- openness: Open: the message poses a general question about pre-digital examples and only constrains the answer by setting (WW2 era) and by allowing magic to bridge gaps, without naming any specific examples itself.
+- subject: Finding historical, WW2-era (magic-assisted) equivalents to modern digital products for a fiction project

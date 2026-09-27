@@ -1,0 +1,5 @@
+- sources:
+  - the reason AJ takes off her uniform (Henri as the competent commander who told her when to bunker/open fire, and his giving up) | treat as the established/true explanation for AJ's action, replacing/clarifying the motivation | marked by "I think the reason AJ takes off her uniform is because" | first-named
+  - the end result (Luna throws AJ out, AJ's hard truth speech rallies the Tall Tale garrison and Aquileian volunteers, she asserts she is General on paper but still goes to the machine gun) | treat as the fixed intended outcome the model should write toward | marked by "The end result is that..." | first-named
+- order:
+- about: The user turn corrects/refines the motivation behind AJ removing her uniform, requests brainstormed options for Luna's trench deflections and AJ's tent speech, and lays out the intended plot outcome of the confrontation.

@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme / fabula content | Applies the theme's reversal to the scene by saying the dreamscape aid network, made for good, is seen by Celestia as turned to evil; it also states as fact the network's good origin and Celestia's belief about its misuse, with the belief held as her view and not confirmed | "built for good, but Celestia believes it was repurposed for evil" | no | expository prose, a single declarative sentence
+- whole: A one-sentence note tying the scene to the theme by saying Celestia sees the dreamscape aid network, built for good, as having been repurposed for evil.

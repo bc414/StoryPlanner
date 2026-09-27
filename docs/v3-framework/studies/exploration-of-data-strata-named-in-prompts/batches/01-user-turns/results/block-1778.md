@@ -1,0 +1,4 @@
+- sources:
+  - command and conquer (its economic model, and the different games within the series) | draw on the published game series to describe its economy, compare it to reality, and note how the individual games differ | what about the economic model of command and conquer | first-named
+- order:
+- about: The user extends the earlier Clash of Clans economy comparison by asking the model to describe Command and Conquer's economic model, set it against reality, and point out differences between the games in the series.

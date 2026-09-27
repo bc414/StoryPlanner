@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the cynicism/resilience framing and carries it into real-world politics, offering Bernie Sanders as an example and asking for more examples and whether the two categories are better seen as a continuous spectrum.

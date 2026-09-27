@@ -1,0 +1,7 @@
+- asks:
+  - worldbuilding addition | states new plot decisions about Applejack's parents' factory and the SAA/EEEE war-bond arrangement, presenting them as settled additions to the story's plan for the model to take on board | declarative, unhedged statements such as 'They are the exception' and 'The issue is SAA is having trouble paying workers'
+- supplies:
+  - plan fragment | new lore covering Applejack's parents converting their factory to wartime ration production while other tycoons collaborate, and SAA partnering with EEEE on Aquileian-style war bonds because SAA's bits are drained, with workers laboring on 'harmonic faith' until the bonds exist | a short paragraph
+- shaping:
+- openness: The message poses no question and offers no alternatives; it presents each plot point (parents as the non-collaborating exception, the SAA-EEEE war-bond deal, workers laboring on faith until bonds exist) as a settled fact for the model to incorporate.
+- subject: Wartime economic subplot: Applejack's parents' factory conversion and SAA's war-bond deal with EEEE

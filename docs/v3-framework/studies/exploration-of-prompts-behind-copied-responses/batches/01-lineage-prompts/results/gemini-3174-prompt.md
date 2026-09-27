@@ -1,0 +1,9 @@
+- asks:
+  - explain | asks for a reason why ChatGPT's default answers come out as fragmented bullet points and phrases rather than full sentences | "Why does ChatGPT answer by default in such fragmented bullet points and phrases and seems averse to full sentences?"
+  - check | asks whether this fragmentation is caused by RLHF that was optimized for short attention spans | "Is it due to RLHF optimized for short attention spans?"
+  - check | asks whether this tendency is colloquially called or related to "brain rot" | "Colloquially known as or adjacent to \"brain rot\"?"
+  - check | asks whether this bullet-point style actually matches how the median user thinks and prefers to read | "Is this how the median user really thinks and enjoys?"
+- supplies:
+- shaping:
+- openness: Poses one open explanatory question, then asks the model to check three hypotheses it names outright: RLHF for short attention spans, a "brain rot" label, and median-user preference.
+- subject: Why ChatGPT defaults to fragmented bullet-point answers instead of full sentences

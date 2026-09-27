@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the new-signup Google Cloud credits also apply, adding a topic the model's answer left out without saying anything in it was wrong.

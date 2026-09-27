@@ -1,0 +1,6 @@
+- sources:
+  - My current story plan for Prince Blueblood (he investigates Krystallfels Handelsgesellschaft and concludes with a conspiracy theory) | the baseline plan that the new details are to modify; the model is to work out how it changes | My current story plan for Prince Blueblood | referred-to
+  - the new plan (Krystallfels as publicly the biggest Skyfall shipping firm and conglomerate, Gilded Lily as Chairmare, mentor and primary customer of nearly every Equestrian tycoon) | treat as the settled premise to apply when reworking the investigation, the conspiracy theory and Rockfeller's warnings | Under the new plan | referred-to
+- order:
+  - the new plan | over my current story plan for Prince Blueblood | Under the new plan ... How does this change the nature of Prince Blueblood's investigation
+- about: The user asks the model to apply their revised plan, in which Krystallfels is a public conglomerate and Gilded Lily mentors the tycoons, to Blueblood's investigation and conspiracy theory, and to write Rockfeller's ominous warnings to Blueblood and to Applejack.

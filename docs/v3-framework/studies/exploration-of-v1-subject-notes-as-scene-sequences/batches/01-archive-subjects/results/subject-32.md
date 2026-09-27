@@ -1,0 +1,10 @@
+- passages:
+  - 4276 | statement about the subject | Cadance's special talent as a pegasus was relationship counselor | none | plain statement of what her talent was, tied to her being a pegasus
+  - 4276 | statement about the subject | Her magical special talent is love, which the magic system treats as the charitostatic effect, so she gets a discount on the charitostatic portion of a spell such as the conception spell that turns romantic love into a baby | none | rule of the magic system, stated in present tense
+  - 4332 | statement about the subject | Motivation claim that Chrysalis should hate Cadance because Cadance invalidates the economy of conquest in the eyes of Chrysalis's drones | none | 'should hate ... because' reasoning, not an event
+  - 4332 | scene beat with year | Chrysalis crashed Cadance's wedding, her first failure on the path to world conquest, to prove the griffons wrong | 1002 | a past event given a year, with a note on its significance
+  - 4277 | statement about the subject | Alicorns are not immortal; Celestia chose ponies with love as their special talent to ascend to help with family planning, and the horn lets Celestia teach them the conception spell | none | world-lore claims about what alicorns are and why they were made
+  - 4277 | statement about the subject | Ascension is a power boost, but alicorns are only 3 times more magical because there are 3 tribes | none | rule about the scale of alicorn magic
+  - 4331 | scene beat without a year | Chrysalis drained Cadance and Shining Armor earlier, then Celestia, and got brain fog or a jaeger high from too much, which gave Cadance and Shining Armor time to figure out the spell | none | event told as cause and effect, with 'earlier' and 'then' and no date
+- sequences:
+- whole: A small set of design notes on Cadance covering her talent and its place in the magic system, alicorn lore, why Chrysalis should hate her, and one dated wedding-crash event plus one undated event explaining how the spell was figured out.

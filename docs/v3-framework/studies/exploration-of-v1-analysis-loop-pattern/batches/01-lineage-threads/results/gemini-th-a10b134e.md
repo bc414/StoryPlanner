@@ -1,0 +1,13 @@
+- steps:
+  - author | propose | a distraction strategy: proxy civil wars in Yakyakistan and Nova Griffonia to draw off the Aquileian air force and navy before invading Olenia | opening of the author's message
+  - author | extend | an added manipulation where Aquileia issues a preemptive guarantee to Olenia it cannot fulfill, explicitly likened to the WW2 betrayal of Poland | second half of the author's message
+  - model | validate | affirms the proposal as a successful adaptation of the historical Poland/'Western Betrayal' pattern and as a solution to Aquileia's military overmatch | opening of the model's reply
+  - model | elaborate | works out how the FJA discovers the atrocities and is provoked into issuing a public guarantee to Olenia | first section of the model's reply
+  - model | elaborate | details the two proxy-war traps, Nova Griffonia pulling in the navy and Yakyakistan pulling in the air force | second section of the model's reply
+  - model | elaborate | narrates the resulting invasion of Olenia and its collapse when promised Aquileian help never arrives | third section of the model's reply
+  - model | connect | ties the whole sequence to the existing bank-run/economic-collapse plot point as its trigger | fourth section of the model's reply
+  - model | verdict | closes with an assessment calling the sequence historically apt and characterizing Chrysalis's strategic profile through it | closing verdict of the model's reply
+  - model | ask | poses a follow-up question inviting the author to confirm or extend into Trimmel's execution of the Olenian blitzkrieg | final line of the model's reply
+- kept:
+- brought: The author brings forward an in-progress invasion-timeline idea, proposing proxy wars as a way to neutralize Aquileia's military superiority, drawing on already-established setting elements such as Chrysalis's empire, Aquileia, Olenia, and the FJA.
+- loop: The author extends existing worldbuilding with a new strategic mechanism and historical parallel, the model elaborates it into a fully worked-out sequence and asks for confirmation to continue, but no note from this stretch was traced into the planning database, so nothing here was captured as kept plan text.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the real-world stork history to a new design request, asking for a few mythology-grounded in-universe creatures that could stand in for the stork, and stating the constraints of canon FiM creatures and a setting without natural seasons.

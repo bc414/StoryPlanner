@@ -1,0 +1,7 @@
+- asks:
+  - decide | asks whether one plot event should be sequenced before another | "Should the Skyfall resolution happen before the Equestrian referendum?"
+  - explain | asks for the political alignment of a named historical entity/event in the story world | "What was the political alignment of the Patrotten of 1795?"
+- supplies:
+- shaping:
+- openness: The sequencing question leans toward the answer it names, giving as its reason that the resolution "should show Celestia and Luna and the public that industry can bring peace"; the question about the Patrotten's alignment is left fully open with no answer suggested.
+- subject: Ordering of two plot events (a "Skyfall resolution" and an "Equestrian referendum") and the political alignment of a named historical entity, "the Patrotten of 1795," within the user's fictional world.

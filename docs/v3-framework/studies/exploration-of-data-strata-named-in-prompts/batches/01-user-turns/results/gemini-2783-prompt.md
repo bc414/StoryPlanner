@@ -1,0 +1,6 @@
+- sources:
+  - Canterlot Wedding | treat as canon evidence that supports the author's plan; the abandoned mineshafts and crystals in the caverns are what the ancient-mining idea is meant to explain | in Canterlot Wedding there are abandoned mineshafts and crystals all over the caverns | referred-to
+  - the canon show | treat as the basis for choosing geocentrism, since its emphasis on literally moving the sun and moon arbitrarily is what makes geocentrism fit better; the comparison with rotation should be built from that | given the canon show's emphasis on literally moving the sun and moon arbitrarily | referred-to
+  - Celestia's ethereal mane in the canon show | treat as an observed canon detail that the author's crystal-use explanation is meant to account for | using that many crystals every day is why her mane looks ethereal | referred-to
+- order:
+- about: The user answers the model's questions by fixing lore details, tying them to canon show evidence (Canterlot Wedding's mines, the show's arbitrary sun and moon movement, Celestia's mane), and asks for a comparison of geocentrism against rotational torque, while also changing the cause of the Hearth's Warming Eve blizzard.

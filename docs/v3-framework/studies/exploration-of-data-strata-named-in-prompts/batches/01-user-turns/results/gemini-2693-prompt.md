@@ -1,0 +1,4 @@
+- sources:
+  - Felix Birkeland's EaW flavor text (the Equestria at War character text, pasted in full) | material to draw on for who Birkeland is and his background, so he can be used as the Republican leader contacted before the liberation | Here is his EaW flavor text | first-named
+- order:
+- about: The user refines the model's proposal by asking whether punitive draining of true-believer Republicans and harmonists can coexist with sanitized predation for the masses, and names Felix Birkeland as the Republican leader, pasting his published game flavor text as the basis for the character.

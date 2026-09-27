@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is offering their own reflections that serialized hobby fanfic is inherently a gardener approach, that early generative AI's misuse by profit-seekers damaged perception, and that long-context models now give unpaid writers an affordable stand-in for a developmental editor, without pointing the model at any body of material.

@@ -1,0 +1,14 @@
+- sources:
+  - the author's own account in this turn of the Equestrian, Aquileian and Herzland lineages | treat as correct and use in place of the model's lineages; some points (Ancient Equestria as transactional, Hearth's Warming Eve as a labor strike, Feudal Herzland as Open) are offered tentatively | You missed the nuance of Equestrian lineage; Your lineage is wrong; I wonder if | first-named
+  - the model's earlier lineage for Aquileia and Equestria | treat as wrong and correct it | Your lineage is wrong | referred-to
+  - the lore about spearmen peasants having the opportunity to become squires | use as evidence that Feudal Herzland may be Open, since Open means possible at all, not fair | based on the lore about spearmen peasants | referred-to
+  - the brony's signature motto back in 2010, 'love and tolerance' | context that contrasts with Celestia's system having cultural erasure | the brony's signature motto back in 2010 | first-named
+  - the Hasbro Mandate version of 'harmony' (friendship lessons) | use as the explanation for why Celestia's system erases culture | it's the Hasbro Mandate version of harmony | first-named
+  - Faust era writing | reference point: Pioneer Equestria's stable status quo is most like it | most like Faust era writing | first-named
+  - the conversation Princess and the Kaiser's ASOIAF inspirations | consult for in-depth changeling lands lore, which may supersede v1 | Refer to the conversation Princess and the Kaiser's ASOIAF inspirations | first-named
+  - v1 | may be superseded by the ASOIAF-inspirations conversation on changeling lands lore | may supercede v1 | referred-to
+  - v2 | does not yet contain the changeling lands lore from the ASOIAF conversation | didn't make it into v2 yet | referred-to
+- order:
+  - the author's own account in this turn of the lineages | over the model's earlier lineage for Aquileia and Equestria | Your lineage is wrong
+  - the conversation Princess and the Kaiser's ASOIAF inspirations | over v1 on changeling lands lore | may supercede v1
+- about: The author corrects the model's Equestrian, Aquileian and Herzland lineages and reasons through where the open/closed and preserve/erase axes fall for several systems, and points the model to an earlier conversation for changeling lands lore that may supersede v1 and is not yet in v2.

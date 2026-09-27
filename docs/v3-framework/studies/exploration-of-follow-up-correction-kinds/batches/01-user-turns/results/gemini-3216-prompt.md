@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the Warcraft 1 and 2 lore discussion to ask for a broad history of Blizzard's business, offering their own hypotheses about single-player story sales, LAN versus online multiplayer, competing franchises, ownership changes and World of Warcraft's subscription model, without disputing anything the model said.

@@ -1,0 +1,23 @@
+- passages:
+  - note 4217 | chronicle-log | terse present/past-tense statements of dates and successive events, no reasoning given | the 1007 setting, Grover V's death, and the civil war's start | apart
+  - note 4218 | expository-definitional | plain 'is/is the' statements naming a role | who Archon Eros is and his office | apart
+  - note 4218 | motivational-interpretive | verbs of deciding and wanting explaining inner aims, aspirational phrasing 'save the soul' | Eros's reasoning for stepping in and his hopes for Grover VI | apart
+  - note 4218 | descriptive-comparative with informal aside | side-by-side trait comparison with a parenthetical joke | Grover VI's temperament against his father and grandfather | apart
+  - note 4219 | chronicle-log | plain present-tense statement of a plan | Eros adopting Chrysalis's ethos | apart
+  - note 4219 | evaluative-causal narration | causal connector 'Therefore' plus a judging verb 'blatantly betraying' | Chrysalis switching sides on Eagleclaw | apart
+  - note 4219 | chronicle-log | short plain declarative, connector 'Also' | Chrysalis's past failure in Stalliongrad | apart
+  - note 4219 | motivational-interpretive | belief/fear verbs 'she believes', 'fears' giving her reasoning | Chrysalis's dread of a weak government and popular revolution | apart
+  - note 4219 | brainstorming query aside | parenthetical with a question mark, uncertain tone | whether Chrysalis has Caramel Marks and Fire Angel killed | apart
+  - note 4219 | motivational-interpretive | preference verb 'would rather' stating her aim | Chrysalis favoring Eros's iron claw over Herzland | apart
+  - note 4219 | chronicle-log | dated, event-log statements | timing of the decision and Chrysalis's attache dispatch | apart
+- shifts:
+  - note 4218 | expository-definitional | motivational-interpretive | change from identity statement to reasoning verbs 'decides', 'wants to mentor'
+  - note 4218 | motivational-interpretive | descriptive-comparative with informal aside | return to plain trait statement with a parenthetical joke about chocolate
+  - note 4219 | chronicle-log | evaluative-causal narration | causal connector 'Therefore' and judging verb 'blatantly betraying'
+  - note 4219 | evaluative-causal narration | chronicle-log | connector 'Also' returning to plain declarative
+  - note 4219 | chronicle-log | motivational-interpretive | shift to belief/fear verbs 'she believes', 'fears'
+  - note 4219 | motivational-interpretive | brainstorming query aside | parenthetical question mark and uncertain planning tone
+  - note 4219 | brainstorming query aside | motivational-interpretive | return to preference verb 'would rather'
+  - note 4219 | motivational-interpretive | chronicle-log | shift to dated event statement 'This decision is made after...'
+- registers: chronicle-log; expository-definitional; motivational-interpretive; descriptive-comparative with informal aside; evaluative-causal narration; brainstorming query aside
+- whole: These notes move through several distinct registers—plain event-logging, flat role-definition, inward motivational reasoning, judgment-laced causal narration, a comparative aside, and a brief uncertain query—each occupying its own sentence or run of sentences and standing apart from the next rather than blending within a single sentence.

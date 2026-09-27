@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model invented Twilight's epiphany (technology plus biology as synergy) on its own instead of building on the epiphany the user had already planned | I already had some plan for twilight's epiphany | mild and matter-of-fact, stated in passing as background to a request to merge, with no complaint or apology
+- about: The user notes that a Twilight epiphany is already planned, which the model's version did not draw on, and asks the model to merge the existing plan with the new crystal-shovel detail.

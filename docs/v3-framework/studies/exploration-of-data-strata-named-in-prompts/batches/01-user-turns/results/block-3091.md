@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to trace the full lineage of three named labels ("The Statue", "The Lioness" and "The Predator's Dilemma") without pointing at any particular body of material to draw on.

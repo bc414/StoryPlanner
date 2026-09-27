@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two design questions about the story: whether Rodier's 1008 platform becomes an immediate mobilization pledge that leaves him with opportunists, and whether the FJA should offer the urban workers a reconciliation gesture, without pointing the model at any body of material.

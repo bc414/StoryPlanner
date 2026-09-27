@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further worldbuilding question about whether Eros should also proclaim Grover VI as Kaiser alongside the Reich, and offers a guess that the fanfiction's title explains the author's choice of Reich over Emperor, without disputing anything in the model's summary.

@@ -1,0 +1,22 @@
+- steps:
+  - author | request | ask for a summary of an attached long story file, specifying the chapter-delimiter format | opening message of the stretch
+  - model | deliver | a structured summary covering premise, early life, inventions, relationship with Celestia, and current state | response to the opening request
+  - author | correct | inform the model the story runs to chapter 552, not the 126 it summarized | after the first summary
+  - model | revise | work through apparent file-length/truncation confusion and produce an expanded summary reaching into later arcs | response to the correction
+  - author | inquire | ask how many words the model's context window can hold given the story is 2 million words | after the second summary
+  - model | explain | give a token-to-word conversion and state the context window's capacity, concluding the story likely exceeds it | response to the capacity question
+  - author | inquire | ask whether the context limit applies to the whole chat and whether splitting the story in half and summarizing sequentially would still work coherently | follow-up question
+  - model | explain | walk through what happens turn by turn if the text is split, and recommend producing a dense first summary to carry forward | response to the splitting question
+  - author | request | ask for a detailed summary of the story | after the strategy discussion
+  - model | deliver | a detailed summary organized into seven numbered parts covering the story's arcs to that point | response to the detailed-summary request
+  - author | request | supply the next section of the story as a new file and ask for a summary of it | new upload
+  - model | deliver | a narrow summary covering only a single chapter of the new section | response to the next-section request
+  - author | redirect | ask the model to summarize all of the text in the new section, not just what it covered | after the narrow summary
+  - model | repeat | reproduce essentially the same single-chapter summary, plus an offer to go deeper on specific threads | response to the redirect
+  - author | supply | paste back the model's own earlier detailed summary of the first section as context, then ask for a detailed summary of the new section | next prompt
+  - model | deliver | a full detailed summary of the second section, organized by topic, using the pasted-back prior summary for continuity | response to the supplied-context request
+  - author | supply | paste back both prior detailed summaries as context, then ask for a detailed summary of the following section | final prompt of the stretch
+  - model | deliver | a full detailed summary of the third section, organized by topic, using the two pasted-back prior summaries for continuity | response to the final request
+- kept:
+- brought: none
+- loop: The author brought successive chunks of an oversized story file and pressed the model on its context-window limits, then used the model's own prior summaries as pasted-back context to drive each subsequent detailed summary, but none of this stretch's exchanges left any trace in the planning database.

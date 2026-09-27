@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's currency-dependence account by asking what consumer goods remittances would buy, whether Britain, France and America did the same, and whether Skyfall would sell cheap calories including canned food from Applejack's family's company, while giving their own comparison of the Dutch with the British and French.

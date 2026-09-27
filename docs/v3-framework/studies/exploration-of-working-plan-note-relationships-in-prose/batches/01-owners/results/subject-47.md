@@ -1,0 +1,16 @@
+- relations:
+  - 685|687|continues in time: after being thrown by the spell, his next assignment is to research that spell, and he then reads the blast as a judgement|"next assignment is to research the Lioness spell" / "realizes the blast was a moral judgement"|explicit
+  - 685|687|the later note explains the meaning of the earlier event: the blast that threw him is read as a moral judgement on the changeling hierarchy|"the blast was a moral judgement on the changeling hierarchy"|implicit
+  - 683|686|the later note explains and fills out the first: what being a jaeger meant, an entitled standard jaeger who fits the top of the class|"He is a jaeger" / "a standard jaeger who had to do all the typical cognitive dissonance"|implicit
+  - 682|686|birth in an industrial hive is the ground for growing up in the rat race|"industrial hive" / "grew up in the rat race"|implicit
+  - 686|687|the belief in superiority and the right to feast on love is overturned by the later learning of empathy and consent, so he no longer wants to be a predator|"deserves his rank ... to feast on the wedding's love" / "doesn't want to be a predator anymore"|implicit
+  - 683|687|the characterization as a jaeger, not a soft bug, sits in tension with the backstory change of heart in which he has already renounced being a predator|"He is NOT a soft bug" / "doesn't want to be a predator anymore"|implicit
+- outward:
+  - 683|his "brother" Pharanx, another character|"alongside his \"brother\" Pharanx"
+  - 683|Chrysalis and her drone kindergarden, held elsewhere|"Chrysalis's brand new drone kindergarden"
+  - 683|the story TLTT, whose start is the reference point|"at the start of TLTT"
+  - 685|Mount Canterhorn and the spell Le Sort de la Lionne, lore held elsewhere|"thrown off Mount Canterhorn by Le Sort de la Lionne"
+  - 687|the parloirs in Manehattan and the original Coltbert Predator's Dilemma paper, held elsewhere|"the parloirs in Manehattan" / "original Coltbert Predator's Dilemma paper"
+  - 686|a wedding whose love is feasted on, an event not in this item|"feast on the wedding's love"
+  - 687|the assignment given to Thorax, whose giver and earlier assignment are elsewhere|"Thorax's next assignment"
+- whole: Mostly hangs together: the backstory notes run in a chain from birth through the mountain to the research, and the characterization notes elaborate the jaeger, though the change of heart in the last backstory note pulls against the entitled-jaeger characterization.

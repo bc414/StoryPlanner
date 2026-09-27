@@ -1,0 +1,9 @@
+- asks:
+  - analyse | analyse the given magic mechanic for its narrative implications (how it functions in plot, character, worldbuilding) | "Give a narrative...analysis"
+  - analyse | analyse the given magic mechanic for its thematic implications (what it symbolises or means) | "...and thematic analysis"
+- supplies:
+  - idea | a short description of a proposed magic system: earth pony magic as a latent chemical process converting soil phosphates and potassium into soluble form to fertilize plants, with potency scaling with the pony's pride | a sentence or two
+- shaping:
+  - cover two named lenses, narrative and thematic, rather than a general or open-ended commentary | "Give a narrative and thematic analysis"
+- openness: Open: the message names the two lenses to analyse through (narrative, thematic) but does not lean toward any conclusion, offer options to choose between, or state a claim to verify.
+- subject: A proposed earth pony magic mechanic (soil-fertilizing chemical process scaling with pride) and its story function/meaning

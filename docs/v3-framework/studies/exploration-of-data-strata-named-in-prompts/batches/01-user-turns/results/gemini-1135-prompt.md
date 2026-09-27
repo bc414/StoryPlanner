@@ -1,0 +1,5 @@
+- sources:
+  - my original planning document | the baseline whose ideas are to be checked for survival in the other source; the model compares it against the json | original planning document | referred-to
+  - my elaborate json of story plans | the later, developed source to be searched for which of the original ideas still remain | elaborate json of story plans | referred-to
+- order:
+- about: The user asks the model to compare their original planning document against their elaborate story-plan JSON to identify which of the original ideas persist in the JSON.

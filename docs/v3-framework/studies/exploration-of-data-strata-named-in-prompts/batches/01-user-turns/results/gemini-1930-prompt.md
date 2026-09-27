@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general factual question comparing flight costs to China versus Taiwan or Japan, without pointing at any body of material for the model to use.

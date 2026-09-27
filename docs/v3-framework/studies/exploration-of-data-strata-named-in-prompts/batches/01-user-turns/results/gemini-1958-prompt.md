@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | re-read and use as the basis for the analysis of the post-war republic and the surrender | Now review my story plans again | referred-to
+- order:
+- about: The user asks the model to re-read their story plans and then analyze how the post-war integrated Griffonian Republic will hold together after Eros's unconditional surrender, and to update its analysis of the surrender itself.

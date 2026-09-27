@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the scientific-mystery restructuring and builds on it, supplying new plan detail (Extraction runs parallel to Applejack's Tempest mission) and proposing that the Tzinacatl she meets there, whose traditional drug trade Chrysalis displaced, could serve as the expert source for Fluttershy and Fleur.

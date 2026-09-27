@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new worldbuilding idea, a harmonic indoctrination pipeline run by the Acornage changelings that turns starving hive changelings into Equestrian-speaking pony personas, and asks whether it fits and adds to Chrysalis's hatred of Equestria, without pointing at any body of material to draw on.

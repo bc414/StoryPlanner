@@ -1,0 +1,4 @@
+- sources:
+  - existing timeline | the current story plan's sequence of events, used as the baseline to weigh pros and cons against the proposed change of moving Pinkie's rescue and morale-cake baking earlier | keeping the existing timeline versus | referred-to
+- order:
+- about: The user asks the model to compare the pros and cons of keeping the current timeline against an earlier alternative in which Pinkie is pulled from the mine and bakes morale cakes during the prototyping phase, since the previous idea seems central to the love donator and rifle supply chain.

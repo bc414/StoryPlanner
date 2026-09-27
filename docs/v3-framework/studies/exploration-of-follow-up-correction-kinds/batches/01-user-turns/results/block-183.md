@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's question assumed Minette's prequel ends on her triumph before the TLTT crash, and treated her crash and learning as belonging to TLTT. The user says the prequel runs on into TLTT chronology, becomes parallel to it, and includes the crash and the lesson learned from Applejack. | "But her story continues into TLTT chronology" and "within Minette's 'prequel'... parallel to TLTT" | in passing, as part of answering the model's questions, stated flatly with no mention of the model's mistake
+- about: The user answers the model's four gap questions with a long account of what TLTT reveals about Chrysalis, the span and arc of Minette's prequel, and how the two characters relate, and in doing so reshapes the model's assumption about where the prequel ends.

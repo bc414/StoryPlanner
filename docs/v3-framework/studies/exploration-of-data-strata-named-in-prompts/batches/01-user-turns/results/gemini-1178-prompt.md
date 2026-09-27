@@ -1,0 +1,5 @@
+- sources:
+  - chapter 7 Generosity | treat as established: it is where the Manehattan war bonds are set up by Rarity and EEEE, the point the new idea builds on | The Manehattan war bonds are established in chapter 7 Generosity | referred-to
+  - the next chapter Loyalty | treat as established: it holds the radio call between Applejack and Star Energy in Tall Tale with Rarity in Manehattan, and is the frame for the new plot idea | The next chapter Loyalty features a radio call | referred-to
+- order:
+- about: The user gives the chapter 7 and chapter 8 plan as settled background, then proposes a tentative plot development in which Star Energy needs oil, Rockfeller is arrested, the war bond model is extended to the buffalo and oil workers, and Applejack embraces harmonic capitalism.

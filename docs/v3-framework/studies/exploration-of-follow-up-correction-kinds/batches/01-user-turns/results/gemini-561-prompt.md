@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's confirmation of the story's ending to ask real-world questions about meth, fentanyl and methadone, and whether Chrysalis's refined red love should be modelled on one drug, the other, or both.

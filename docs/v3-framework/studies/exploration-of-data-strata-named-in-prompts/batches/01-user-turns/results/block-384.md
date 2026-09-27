@@ -1,0 +1,8 @@
+- sources:
+  - the identification of Trust as what the totalitarian state cannot have, and the Atlas Complex as a refusal to trust | accepted as making sense and taken as a working premise, though the user says the element cannot be simply Trust | "makes sense" and "seems to make sense" | referred-to
+  - the vulnerability wall vs competence wall insight (from the model's previous turn) | endorsed as a key insight; the model is to find where canon shows it | "another key insight" | referred-to
+  - canon FiM | to be searched for the episodes that feature the vulnerability wall most, and cited as the basis for the claim that Rainbow Dash rejects anything uncool | "What episodes from canon FiM feature this the most?" and "In canon FiM, Rainbow Dash does not accept anything that looks uncool" | referred-to
+  - Read It and Weep | used as the user's evidence that Rainbow Dash hides what she likes until it is deemed cool | "she hid the fact that she liked the Daring Do book until it was deemed cool" | referred-to
+  - chapter 8 | the part of the story plan to dig into for why Rainbow accepts the demand to rest; where its details are missing or underdeveloped, the model should fill the gap with reasoning and explain it | "dig a little deeper into chapter 8" and "If the details aren't there or are underdeveloped, give reasoning to fill the gap" | referred-to
+- order:
+- about: The user accepts the Trust and Atlas Complex reasoning but objects that Rainbow Dash's canon aversion to the uncool means the element must make trusting cool, and asks for canon episodes on the vulnerability wall and for chapter 8's reason Rainbow accepts rest, filling any gaps with explained reasoning.

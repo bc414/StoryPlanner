@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers their own reasoning that the influencer payoff outweighing the 100k prize is a material condition that permits non-extractive strategies, then asks the model what outside information contestants receive compared with the airing audience and what the show's production conditions are, without pointing at any body of material to use or avoid.

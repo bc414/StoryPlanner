@@ -1,0 +1,4 @@
+- sources:
+  - the DB | read it as the material to draw on, covering all the ways Aquileia influences Equestria up to the start of chapter 1 | Read the the DB for all the ways Aquileia influences Equestria | referred-to
+- order:
+- about: The user asks for an analysis of the whole chain of causes that led to the parloirs, from Grover 3 clearing the ocean through New Horseleans, Tzinacatl and Coltbert, and tells the model to read the DB for every way Aquileia shapes Equestria before chapter 1 in 1011.

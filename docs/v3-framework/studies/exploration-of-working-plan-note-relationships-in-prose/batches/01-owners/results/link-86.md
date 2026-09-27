@@ -1,0 +1,3 @@
+- relations:
+- outward:
+- whole: This owner holds a single note, so there is nothing for it to join with and it stands as one entry.

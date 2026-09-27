@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2479 | Gilded Lily's siblings and the earlier episode of being left behind by them, held elsewhere in the plan | has already been through this after being left behind by her siblings
+  - 2479 | Chrysalis and the company Gilded Lily now heads, not described in this item | at the head of Chrysalis's company
+  - 2479 | the school-break talk or comparable experience that "this" refers to, which is not among these notes | has already been through this
+- whole: This owner holds a single note, so there is nothing for it to hang together with, and it stands alone with its links pointing outside the item.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's Georgist analysis to a new request, giving two examples of in-world renaming (war bonds, republican civic virtues) and asking for several Friendship-is-Magic-style names for the land value tax, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author lays out how the Olenia and changeling story's hidden layers will unfold, including the deer as collaborators and the red love versus pink love allegory, and asks the model for an analysis of it.

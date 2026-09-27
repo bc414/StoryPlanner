@@ -1,0 +1,4 @@
+- sources:
+  - other lore additions in my story plans | check the questions in this message against it to see which are already answered there, and treat what is not covered as open for new ideas | whether the questions in this text block have already been answered by other lore additions in my story plans | referred-to
+- order:
+- about: The user brainstorms further economic and thematic roles for pink love (separate from red love, tied to harmony and to the risk of \"friendship in a bottle\" replacing real friendship), then asks the model to check which of these questions the existing story plans already answer and which remain open.

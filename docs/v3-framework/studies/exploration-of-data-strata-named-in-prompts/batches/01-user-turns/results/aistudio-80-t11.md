@@ -1,0 +1,11 @@
+- sources:
+  - my setup of "centralized logistics/honest racket for lumber and later coal" | treat as the established premise that produces Severyanan solidarity and standardization, and so the earnest vanguard party; build from it | It seems my setup of "centralized logistics/honest racket for lumber and later coal" is what leads to | referred-to
+  - the Chapter 12 changeling burning of Stalliongrad | fixed plot endpoint that the Stalliongrad design must lead to; not to be changed | the changelings burn the city of Stalliongrad to the ground in Chapter 12 | referred-to
+  - my pre-industrial Severyana | the author's own world, to be compared against real history for parallels | parallels between my pre-industrial Severyana and pre-industrial Russia/Muscovy | referred-to
+  - pre-industrial Russia/Muscovy and the principalities | draw on as real-world parallel, especially for self-sacrifice and collective-sacrifice culture and for logging and coal | Are there parts of Russian/Muscovite culture which preaches self sacrifice and collective sacrifice | first-named
+  - Lenin and Trotsky inspired party | use as the model for Stalliongrad: idealistic, principled, less totalitarian, wins against fascism but does not solve modern problems | It should be a more idealistic Lenin and Trotsky inspired party | first-named
+  - Josef Stalin and KGB style state terror and gulags | do not use as the model for Stalliongrad | I don't want Stalliongrad to run on Josef Stalin and KGB style state terror and gulags | first-named
+  - the modern Putin/FSB critique, held in the changeling horrors and Chrysalis | keep this critique in the changeling and Chrysalis material, separate from Stalliongrad, which critiques armchair communists | that critique is part of the changeling horrors and Chrysalis | referred-to
+- order:
+  - Lenin and Trotsky inspired party | over Josef Stalin and KGB style state terror and gulags as the model for Stalliongrad | I don't want Stalliongrad to run on Josef Stalin and KGB style state terror and gulags. It should be a more idealistic Lenin and Trotsky inspired party
+- about: The user corrects the model's picture of Stalliongrad, asking for an idealistic Lenin/Trotsky-style vanguard party grown from the lumber and coal logistics setup, and asks for Russian/Muscovite parallels in sacrificial culture, logging and coal.

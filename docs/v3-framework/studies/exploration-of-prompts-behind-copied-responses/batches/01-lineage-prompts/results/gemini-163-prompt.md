@@ -1,0 +1,11 @@
+- asks:
+  - expand | asks the model to expand an existing chapter 8 scene | "let's expand this"
+  - add content | asks for Rainbow Dash to also rant about Celestia and Luna within the scene | "have rainbow also rant about Celestia and Luna"
+  - add content | asks for Twilight to unexpectedly agree with Rainbow and reveal exactly how Celestia begged her to stay out of harm's way | "Twilight unexpectedly agrees and reveals how exactly Celestia begged Twilight to stay out of harm's way"
+  - add content (alternative) | offers an alternate beat where Twilight overhears Fluttershy say Discord felt used, prompting Twilight to realize the same is true for herself | "Twilight hears Fluttershy say discord felt used and Twilight realizes the same for herself"
+- supplies:
+- shaping:
+  - place the new material within chapter 8 | "In chapter 8, let's expand this"
+  - offers two alternative directions for the added beat rather than specifying one required version | "Or maybe..."
+- openness: Leans toward expanding chapter 8 with the Rainbow Dash rant and Twilight's Celestia reveal, but also offers a named alternative (the Fluttershy/Discord parallel) as another way the beat could go.
+- subject: Expanding a chapter 8 scene with new character reactions involving Rainbow Dash, Twilight, Celestia, Luna, Fluttershy, and Discord

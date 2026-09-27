@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user simply accepts the model's offer to go deeper into how authors handle transitions between perspectives, naming no source of data.

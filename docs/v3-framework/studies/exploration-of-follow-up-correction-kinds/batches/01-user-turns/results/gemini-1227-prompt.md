@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the fiat-currency analysis and asks a new, standalone historical question about what the real Jean-Baptiste Colbert did for Louis XIV, apparently to compare it with the story's Coltbert, without saying anything in the model's turn was wrong.

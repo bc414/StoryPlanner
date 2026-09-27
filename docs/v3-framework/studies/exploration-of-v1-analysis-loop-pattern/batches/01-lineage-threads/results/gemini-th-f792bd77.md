@@ -1,0 +1,18 @@
+- steps:
+  - the author | asks | general question about a Google AI product family | opening of the thread
+  - the model | explains | overview of the product's versions, sizes, variants, and comparison table | reply to the opening question
+  - the author | asks | new general question about LLM context window sizes | second exchange
+  - the model | explains | tiered overview of models by context window size plus a comparison table and caveats | reply to the second question
+  - the author | asks | how to recreate their own story-analysis workflow (lore bible checking, brainstorm categorization, scene metrics, WPF/SQLite app) in Vertex AI | third exchange, introducing their own project details
+  - the model | proposes | a mapped plan tying each workflow piece to a Google Cloud tool, ending with an offer to write C# code | reply to the workflow question
+  - the author | corrects | rejects the code-integration angle, restates the actual requirement as a chat UI with system instructions, visible token count, and no file-skipping | response to the mapped plan
+  - the model | recommends | a specific interface (AI Studio) with a checklist matching each stated requirement and setup steps | reply to the correction
+  - the author | adds | a new constraint that the solution must be cost-effective | follow-up after the recommendation
+  - the model | compares | two free options against the requirements and gives a verdict favoring one for the token-counter requirement | reply to the cost constraint
+  - the author | reports | a concrete problem experienced with the recommended consumer tool skipping parts of a 300k-word file | follow-up describing an outcome
+  - the model | diagnoses | why the consumer tool skips content and reasserts the earlier alternative as the fix, noting a privacy trade-off | reply to the reported problem
+  - the author | asks | whether a $300 GCP sign-up credit changes the recommended approach | new follow-up
+  - the model | calculates | cost-per-prompt estimates, credit runway, and cost-reduction tactics, then gives setup steps | reply to the credit question
+- kept:
+- brought: The author brought concrete details of their existing story-planning workflow (a 300k-word plan, lore-bible checking, brainstorm categorization buckets, scene metrics, and a WPF/SQLite app) to get advice on reproducing it in Google Cloud tools.
+- loop: The author moved from general product questions to describing and refining requirements for a tool to run their existing story plan through, but the conversation stayed entirely in tooling/logistics territory and no note in the planning database traces back to any of it.

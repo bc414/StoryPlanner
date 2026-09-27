@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact about the tool's interface | The model's step-by-step instructions told the user to pick Array as top-level type and as a property type in the Visual Editor, but the user reports the editor offers no array option and only object nesting | There is no option for arrays in the visual editor, although objects allow for nesting | flat statement of what the user sees on screen, given without apology or heat, with the user's own observation of what does exist
+- about: The user reports that the Visual Editor lacks the Array option the model's walkthrough relied on, then checks their own understanding by mapping JSON properties and lists onto C# class fields and arrays.

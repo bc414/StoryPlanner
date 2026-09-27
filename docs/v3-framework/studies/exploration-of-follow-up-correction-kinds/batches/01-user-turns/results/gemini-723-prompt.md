@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's claim that hearing Henri's history first would motivate AJ to reclaim the name is wrong; the user argues hearing that history would instead make her want to avoid the name, and that her true motivation is Trimmel telling her to lead rather than be Celestia's puppet, replacing the element of honesty with an enemy's war-name | "I feel like hearing the story would make her want to not hear the name again" | stated with reasoning, offered as an alternative account rather than a flat rejection
+- about: The user rejects the model's proposed motivation/sequencing for why Applejack takes the 'Lioness' name, offers a different psychological rationale, and then pitches a new later scene (Synovial's surrender at Aquileia) asking for the model's analysis of it.

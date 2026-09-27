@@ -1,0 +1,45 @@
+- relations:
+  - 1771|1801|1801 shows on the page, in the Great War, the changeling 15-second firing limit that 1771 gives as the real-world baseline|15 seconds per sortie / the changelings can only fire for 15 seconds|implicit
+  - 1772|1801|1801 uses the one-big-bomb limit of the Stuka analogue in 1772 as the changelings' weakness, which needs separate CAS|only one big anti tank bomb / need separate CAS with only one big bomb|implicit
+  - 1771|1800|1800 gives the changelings' in-world adoption of the Bf 109 that 1771 uses as the baseline|Bf 109 fighter|explicit
+  - 1772|1800|1800 gives the in-world adoption of the Stuka with Jericho Trumpets that 1772 cites as an analogue; the two notes give the Stuka a different type number (Ju 87 versus Ju 97)|Ju 87 Stuka CAS (with Jericho Trumpets) / Ju 97 Stuka CAS with Jericho Trumpets|explicit
+  - 1773|1777|1777 revises the real-world av gas efficiency in 1773 upward, since the spell matrix lifts the fuel from 25-30% to 50%|av gas / runs at 50% efficiency of the av gas|implicit
+  - 1777|1791|1791 gives the history and occasion of the better engines (Star Energy with the Aquileian aces) whose mechanism 1777 describes|Star Energy / make better plane engines|explicit
+  - 1792|1791|The same crystal tips appear as a function in 1792 and as an invention event in 1791, which also gives the reason (lighter ammo)|crystal tips on their bullets so the ammo weighs less|explicit
+  - 1792|1799|The crystal tip in 1792 is one component in the ammo formula of 1799|crystal tip|explicit
+  - 1794|1795|1795 gives the history of the cloud-harvested polynitrogen that 1794 describes as the ammo's propellant|harvesting hyper-nitrogen/polynitrogen for bullets directly from clouds and thunderstorms|explicit
+  - 1794|1799|Polynitrogen and the sabot and fins from 1794 are listed as parts of the ammo formula in 1799|brass casing sabot + fins + crystal tip + polynitrogen|explicit
+  - 1798|1799|White phosphorus in 1798 is the last component of the ammo formula in 1799|white phosphorus|explicit
+  - 1798|1803|1803 plans the use of the white phosphorus rounds in 1798 on supply trucks|white phosphorus rounds to shred supply trucks|explicit
+  - 1794|1796|The Mach 4 ammo of 1794 makes the strafing of tank tops in 1796 possible|mach 4 ammo / mach 4 speeds|explicit
+  - 1796|1803|Both say the fighter takes over the CAS role, by strafing in 1796 and by dive-bombing and unicorn bombardment in 1803|removing the need for dedicated CAS / It's hybrid fighter+CAS|implicit
+  - 1796|1801|1801 contrasts the Wonderbolts' need for no separate CAS (from 1796) with the changelings' need for it|need separate CAS / removing the need for dedicated CAS|implicit
+  - 1801|1803|1803 gives the mechanism for 1801's claim that the Wonderbolts bomb tanks with unicorns|bomb tanks with unicorns / unicorn can bombard tanks|implicit
+  - 1776|1801|1801 adds a limit to the dominance stated in 1776: the supply chain is weak and the force is unsustainable|look invicible but are unsustainable / dominates|implicit
+  - 1776|1802|1802 gives the causes of the technological superiority stated in 1776: lightweight planes, situational awareness and outmatched changelings|changeling fighter pilots are completely outmatched|implicit
+  - 1776|1804|1804 gives a gameplay comparison, with lopsided losses, for the one-sided air war stated in 1776|shred the AI's outdated planes / dominates|implicit
+  - 1802|1800|1802 says the dive bombers are sitting ducks, which is the reader's response to the Stuka force set up in 1800|The dive bombers are sitting ducks / Stuka CAS|implicit
+  - 1805|1803|1803 plans a dive-from-above attack once air superiority is won, which is the boom-and-zoom doctrine of 1805|dive down at the enemy from above / dive bomb|implicit
+  - 1780|1805|Biplanes in the Falcor War (1780) fit the WW1 biplane doctrine of turn and burn in 1805|Biplanes / WW1 Biplanes|implicit
+  - 1779|1778|1778 has the Imperial Army adopt planes but restrict them to nobility, which follows the dogma in 1779 that flight belongs to noble knights|restrict it to nobility / privilege of the noble knights|implicit
+  - 1778|1781|1781 continues 1778 and overturns its nobility-only restriction by opening aviation to all griffons|restrict it to nobility / unlocks the aviation industry to all griffons|implicit
+  - 1781|1783|1783 continues 1781: after the Republican Revolution the Republican Airforce deserts and its pilots fly away|Republican Revolution / Republican Airforce desert|explicit
+  - 1783|1802|The aces' self-built planes with artisan enchantments in 1783 lead to the self-built, enchanted lightweight planes in 1802|building their own planes / built their own planes|implicit
+  - 1783|1791|1791 continues 1783: ace pilots who build their own planes go on to work with industry on better engines|ace pilots / artisan ace pilots|implicit
+  - 1791|1795|1795 continues 1791 with the same partners, the Aquileians and the University of Pridea, on ammo|Aquileians and the University of Pridea|explicit
+  - 1795|1800|1800 follows 1795 a year later, with the changelings' rival designs settling|world date 1007 / 1008|implicit
+  - 1771|1794|1794 sets the Mach 4 ammo against the standard machine gun speed, the historical baseline that 1771 draws on|standard machine gun Mach 2 / standard machine guns|implicit
+- outward:
+  - 1776|the Equestrian Airforce and the changeling Luftwaffe, factions held elsewhere|Equestrian Airforce dominates against the changeling Luftwaffe
+  - 1778|Wingbardy and the Empire, polities held elsewhere|Wingbardy declares independence from the Empire
+  - 1779|the Herzlander Archon dogma, a piece of lore held elsewhere|Herzlander Archon dogma
+  - 1780|the Falcor War, a conflict held elsewhere|Falcor War
+  - 1781|the Republican Revolution, an event held elsewhere|Republican Revolution
+  - 1783|Hermann Meyer, the Long March and the pirate state of Haukland, held elsewhere|Hermann Meyer and the Republican Airforce desert during the Long March
+  - 1791|the University of Pridea and the Star Energy Corporation, held elsewhere|University of Pridea and Star Energy Corporation
+  - 1798|Star Energy as it appears in the Tall Tale story|Star Enerrgy in Tall Tale
+  - 1800|Chrysalis's manufacturers, the Second Great Leap Forward and the invasion of Olenia, held elsewhere|Second Great Leap Forward / invasion of Olenia
+  - 1801|the Great War and the love donators, held elsewhere|During the Great War / until love donators
+  - 1802|the forger's pride enchantment tradition, held elsewhere|magical enchantments from forger's pride
+  - 1804|the game Hearts of Iron IV, an outside work|Hearts of Iron IV
+- whole: The notes read as a set that hangs together: analogy notes are realised by function, history and usage notes, and the history notes run in a dated chain, though a few notes (1804, 1805, 1780) join the rest only loosely.

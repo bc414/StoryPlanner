@@ -1,0 +1,9 @@
+- asks:
+  - propose | asks whether to add a lithography-like machine that helps Twilight and Fleur develop spell matrices | "How about also a lithography-like machine that can help Twilight and Fleur develop spell matrices?"
+  - specify | offers a backstory for the machine, tying its origin to Yale in Herzland and to how Chrysalis originally got help developing the love harvester | "Smuggled from Yale in Herzland, where Chrysalis originally got help developing the love harvester"
+  - justify | frames the point of the addition as making the Luna Nova Rifle's invention owe to espionage and vice dealing rather than to Twilight's genius alone | "not just Twilight's pure genius that invents the Luna Nova Rifle, but also espionage and vice dealing"
+- supplies:
+- shaping:
+  - narrative effect the addition should achieve: invention should stem partly from espionage and vice dealing, not just Twilight's genius | "not just Twilight's pure genius ... but also espionage and vice dealing"
+- openness: Leans toward an answer it names: the message proposes a specific device, its smuggled Yale/Herzland origin, and its link to Chrysalis's love harvester, framed as "How about also..." seeking agreement or development of that named idea.
+- subject: Adding a spell-matrix-developing machine (linked to Chrysalis's love harvester and Yale in Herzland) to the origin story of the Luna Nova Rifle

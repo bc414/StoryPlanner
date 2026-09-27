@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short realism question about whether the characters would plausibly be eating canned mash in a mess hall, without pointing the model at any particular body of material.

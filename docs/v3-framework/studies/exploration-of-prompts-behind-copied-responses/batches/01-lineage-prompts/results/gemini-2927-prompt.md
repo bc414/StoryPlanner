@@ -1,0 +1,14 @@
+- asks:
+  - brainstorm | coin a compound term for the scientific-sounding effect that the wings made of magical dew use | "What would be the term for the scientific effect that the wings of dew use?"
+  - constrain | build the term from a prefix tied to Grace/related concepts and a suffix tied to flight or stabilization | "The prefix should have to do with Grace and the related concepts instead of Ambition. The suffix should have to do with flight or stabilization"
+  - justify | explain the reasoning behind each proposed term | "Give a few different options and why"
+- supplies:
+  - mechanic description | how the pink love/friendship/bond functions as a magical coolant for the dew wings, likened to oxytocin calming the body after adrenaline from battle | a couple of sentences
+  - worked example | the previously coined term "thymoluminescent" for the Idol of Boreas/tableau de chasse ink, with its etymology (thymo = Ambition, luminescent = glow) | a couple of sentences
+- shaping:
+  - prefix must relate to Grace and related concepts, not Ambition | "prefix should have to do with Grace and the related concepts"
+  - suffix must relate to flight or stabilization | "suffix should have to do with flight or stabilization"
+  - provide multiple distinct options rather than a single answer | "Give a few different options"
+  - include the rationale/etymology for each option offered | "and why"
+- openness: Open brainstorm: it asks the model to generate several candidate terms rather than pick between named options, but constrains the answer by requiring a Grace-related prefix and a flight/stabilization-related suffix, mirroring the given thymoluminescent example.
+- subject: coining a Greek/Latin-style compound term for a magical dew-wing effect in a fantasy worldbuilding system

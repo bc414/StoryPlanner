@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh the pros and cons of making EEEE! a union or a guild, and lays out new plot details on its factories, gold bits, and the war against Chrysalis, without pointing the model at any body of material.

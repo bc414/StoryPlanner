@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | model is to review them and synthesize from them, taking the user's corrections in this turn into account | Please review my story plans and synthesize | referred-to
+- order:
+- about: The user corrects the model's account of how the Equestrians pay for the three-way valves, saying they must turn donated Red Love into drugs through the Tzinacatl cartels and sell those to Kesseler's company, whose griffon-artisan vertically integrated production is an impossible moat, and then asks the model to review their story plans and synthesize.

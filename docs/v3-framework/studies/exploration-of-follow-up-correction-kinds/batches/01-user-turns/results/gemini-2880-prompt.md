@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new worldbuilding idea, that coat color and plumage show working friendship and magic and that a drained victim goes gray like Pinkie in Party of One, and asks whether to adopt it, without disputing anything in the model's analysis.

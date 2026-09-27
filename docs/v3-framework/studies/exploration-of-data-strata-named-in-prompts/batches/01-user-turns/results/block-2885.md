@@ -1,0 +1,4 @@
+- sources:
+  - tribalism vs universalism (earlier axis framing from the conversation) | treated as a hint at what axis 5 is about, an approximate pointer to the us-versus-them spirit rather than an exact definition | That's what tribalism vs universalism was hinting at | referred-to
+- order:
+- about: The user is checking their own understanding of what axes 5 and 6 mean, offering opportunity for axis 6 and us-versus-them (but not nationalism) for axis 5, and tying the latter back to an earlier tribalism vs universalism framing.

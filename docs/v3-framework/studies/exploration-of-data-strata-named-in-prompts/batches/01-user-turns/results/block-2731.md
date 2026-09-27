@@ -1,0 +1,6 @@
+- sources:
+  - Twilight Velvet scene in the story plan, as the author states it | treat as true: answers the model's question, Twilight is present and the scene is about her seeing her parents with Rainbow as the addendum | Twilight is present during the Twilight Velvet scene | referred-to
+  - the canon episode and the book in the library, Elements of Harmony a Reference Guide | treat as true and as the origin of the Loyalty label, which Twilight read before the Everfree Forest and which shows Faust's show under the girl's-cartoon framing | came from the book in the library in the canon episode | referred-to
+  - my story, the author's story plan | treat as deliberate design: Twilight outgrowing the mandate and naming kinship as Loyalty is intentional, not an error to fix, and the analysis should build on it | My story features Twilight outgrowing the mandate and this is intentional | referred-to
+- order:
+- about: The user answers the model's question about Twilight's presence in the Velvet scene, explains that Twilight's mislabeling of kinship as Loyalty is intentional and comes from the canon reference book and Faust's framing, and asks for an analysis that makes this precise for the story plan.

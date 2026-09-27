@@ -1,0 +1,6 @@
+- passages:
+  - note 63 | topic-definition statement | third-person generic subject ('a pony'), single unhedged descriptive clause, no address | about: how the general pony mind perceives changelings across the story | apart
+  - note 4516 | first-person authorial intent | 'I want them to be viewed as...', 'I need to make...', evaluative craft-terms like 'overly innocent', 'idealistic preach point' | about: wanting changelings seen as evil before the POW twist and needing that evil to be legitimate so Fluttershy's arc reads as tragedy | apart
+- shifts:
+- registers: topic-definition statement; first-person authorial intent
+- whole: The item's two notes each hold a single, distinct register on its own — note 63 a plain third-person topic-definition and note 4516 a first-person statement of authorial intent — and since each register is confined to its own separate note, they stand entirely apart rather than mixing.

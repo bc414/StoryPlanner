@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | The scene is framed as showing what a genuine superpower does: Applejack takes responsibility for the drug crisis she helped fund and works to repair it, so strength is shown as a duty to relieve suffering and clean up harm rather than withdraw or only punish | "A real superpower cleans up their own mess" | no | aphoristic declarative maxim, a general claim about superpowers with no hedging
+  - other: authorial note on real-world allegorical target | The scene is meant as a critique of Western imperialism, the real-world power that this story's superpower behavior is set against | "(criticism of Western imperialism)" | no | terse parenthetical gloss in planning shorthand
+- whole: A one-line commentary that reads the scene as a model of a superpower owning and repairing its own mess, with a parenthetical naming Western imperialism as the real-world target of the critique.

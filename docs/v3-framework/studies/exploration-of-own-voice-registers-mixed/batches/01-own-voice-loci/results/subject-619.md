@@ -1,0 +1,12 @@
+- passages:
+  - note 62 | scope-fragment | noun phrase, no verb, defines what is covered | which war events remain to be told, apart from Applejack | apart
+  - note 5416 | scope-fragment | noun phrase, no verb, heading-like | Manehattan's total mobilization tied to asset specificity | apart
+  - note 5416 | descriptive-worldstate | present tense, 'still do' / 'but not just...also' | ongoing roles of pegasi and earth ponies, now doubled for the war | apart
+  - note 5416 | meta-structural | present tense passive sentence naming a chapter number | when the chemistry becomes public knowledge | apart
+  - note 5416 | causal-explanation | long compound sentence, 'and that is how' | the secure transfer of chemistry knowledge and its effect on the northern front | apart
+- shifts:
+  - note 5416 | scope-fragment | descriptive-worldstate | drops the bare noun-phrase heading for a full present-tense sentence about who does what
+  - note 5416 | descriptive-worldstate | meta-structural | moves from describing ongoing conditions to a sentence keyed to a chapter number
+  - note 5416 | meta-structural | causal-explanation | expands from a short chapter-referencing sentence to a longer sentence tracing cause to outcome with 'that is how'
+- registers: scope-fragment; descriptive-worldstate; meta-structural; causal-explanation
+- whole: This item holds several registers — bare scope-defining fragments, present-tense description of ongoing conditions, a chapter-keyed structural note, and a longer causal explanation — each occupying its own line and standing apart from the others without blending inside a sentence.

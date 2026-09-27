@@ -1,0 +1,13 @@
+- relations:
+  - 433|434|the reader-response plan for what 433 states as true: readers infer a discount on the charitostatic portion of the conception spell, which is the fact 433 asserts as her conviction|"charitostatic portion of a spell, such as the conception spell that turns romantic love into reality (a baby)"|implicit
+  - 433|436|instance and reason: 436 says Celestia picked love-talent ponies so she could teach them the conception spell; 433 gives Cadance's love talent and its tie to the conception spell as a case of this|"love as their special talent" / "conception spell"|implicit
+  - 434|436|continuation in reading order and revision: after readers infer a discount and hear Fleur's 3x theory, they learn the real reason for ascension, family planning, and that it is a power boost with a horn|"alicorns have 3x power" / "It's a power boost and gives them a horn"|implicit
+  - 432|433|one talent seen in two frames: Cadance's own view of her talent as relationship counselor, and the magic-system truth that the talent is love with the charitostatic effect|"special talent as being a relationship counselor" / "special talent is \"love\""|implicit
+  - 432|436|the relationship-counselor self-image fits Celestia's choice of love-talent ponies for family planning, a helping role toward couples|"relationship counselor" / "help with family planning"|implicit
+- outward:
+  - 434|a piece of lore or earlier story material called Aquileian Cutie Mark Theory, held elsewhere|"After Aquileian Cutie Mark Theory"
+  - 434|the character Fleur, who holds and voices a theory about alicorn power|"Fleur theorizes that alicorns have 3x power from the three tribes"
+  - 436|Celestia, her choices and plans for the ascended, and the alicorn lore about mortality|"Celestia chose ponies with love as their special talent to ascend"
+  - 433|the author's materialist magic system, with its charitostatic effect and spell structure, defined elsewhere|"in my materialist magic system is the charitostatic effect"
+  - 432|the story TLTT, the point at which Cadance is being characterized|"at the start of TLTT"
+- whole: The notes hang together as one thread, in which a love talent leads to the conception spell and then to Celestia's reason for making alicorns, with the character notes and reader-plan notes each carrying part of it.

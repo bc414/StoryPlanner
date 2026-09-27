@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | The drafted notes were to be produced in the model's synthesis voice (AI drafting in a cognitive mode per display question); the user says the notes must be in the author-to-self voice | "the notes need to be written in my author to self voice" | flat statement of a requirement, brief, no apology
+  - reading of the request | The workflow treats Gemini as producing drafts the user accepts or corrects, i.e. as a source of answers; the user says Gemini is used only for inspiration, not answers, so the 'you review, not write' reframe misreads how they work | "remember I only use Gemini for inspiration, not answers" | flat reminder of an established rule, phrased as 'remember' with no reason given
+- about: The user pushes back on the proposed AI-drafted migration workflow by stating that the notes must be in their own author-to-self voice and that Gemini serves only for inspiration, not for producing answers.

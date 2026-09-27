@@ -1,0 +1,5 @@
+- passages:
+  - fabula content | The story's world supplies a large energy budget for the dream and comfort operation, because there are love donators to draw on | "they can afford to expend a ton of energy" ... "because they have the love donators" | no | expository prose, a plain causal statement of fact
+  - bearing on theme | The scene shows strength as the precondition for mercy: having power is what lets them offer help and comfort | "They are strong, therefore they can help." | no | compressed argument, a short premise-and-conclusion sentence
+  - fabula content | Earlier in the story Luna was alone and lacked this capacity, and the contrast marks how far the group's position has changed | "Unlike when Luna was alone at the beginning of the story" | no | expository prose, a trailing comparison clause
+- whole: A three-sentence note that ties the dream-aid operation to the theme by arguing that the love donators' energy makes the group strong enough to be merciful, in contrast to Luna's earlier isolation.

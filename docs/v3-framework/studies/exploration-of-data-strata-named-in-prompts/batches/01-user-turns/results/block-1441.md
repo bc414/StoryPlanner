@@ -1,0 +1,5 @@
+- sources:
+  - my raw notes | treat as the genuine origin of these principles; they are not made up, so accept them as the user's own material | These aren't made up, they exist in my raw notes | referred-to
+  - popular works that operate on this kind of framework | look to the model's general knowledge of well-known published works for any that use a similar framework, possibly where the user picked up the ideas; tentative, since the user says 'if any' | What popular works operate on this kind of framework if any? | first-named
+- order:
+- about: The user asks the model to name popular works that use a framework like the four-axis track audit, and insists the principles come from their own raw notes and are not invented.

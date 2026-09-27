@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two follow-up questions about the restaurant models just discussed: whether some were once viable only in cities before moving to suburbs after the pandemic, and how minimum wage increases affect them.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Luna's motive for ordering the retreat: the model wrote her as reasoning strategically from a lack of heavy armor, whereas she is acting on feeling, wanting to spare ponies who are having nightmares or turning cold and to protect their innocence | To be clear, Luna is acting on vibes | flat restatement of the correct motive, framed as a clarification, with no apology and no reason beyond the account of her motive
+- about: The user restates Luna's reason for the retreat as emotional and protective rather than logistical, correcting the model's premise that Applejack's tank knowledge would refute Luna's strategic case.

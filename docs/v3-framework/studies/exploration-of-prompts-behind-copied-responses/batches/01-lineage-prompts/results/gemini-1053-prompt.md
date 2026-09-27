@@ -1,0 +1,9 @@
+- asks:
+  - advise | asks how the character Twilight should go about telling Fluttershy that her love donators are going to be used to facilitate the drug trade in Skyfall | "How should Twilight tell Fluttershy that they're going to use..."
+- supplies:
+  - context note, plot backstory | summarizes what the prior letter (from Applejack) covered: revealing the nature of the drugs so Fluttershy could diagnose the drugged POWs | one sentence
+- shaping:
+  - must address that the love donators are decorated with changeling silk and stuffed animals from Fluttershy's rehab patients | "decorated by changeling silk and stuffed animals from her rehab patients"
+  - must address that the donators' new use is to facilitate the drug trade in Skyfall | "faciliate the drug trade in Skyfall"
+- openness: open: the question asks how Twilight should approach telling Fluttershy, without proposing a method, tone, or options to choose between, while treating the plan to use the donators for the drug trade as an already-settled fact.
+- subject: how Twilight should break sensitive news to Fluttershy about repurposing her love donators for a drug-trade operation in Skyfall

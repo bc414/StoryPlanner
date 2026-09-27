@@ -1,0 +1,15 @@
+- passages:
+  - 5566 | statement about the subject | The party's city is the hometown of the character Caramel Marks | none | short bare fact, no event or moment
+  - 5567 | statement about the subject | The party's backstory: they lynched their tycoons | none | past-tense summary of what they did, not staged as a moment
+  - 5570 | statement about the subject | Baltimare borders the Tzinacatl, which forces Applejack to work with them | none | geographic fact with a consequence, stated as a rule of the situation
+  - 5568 | statement about the subject | Comparison of Manehattan's bloodless bureaucratic takeover of tycoons (audit, regulation, war bonds) with Baltimare's lynching, which gains catharsis but loses logistical efficiency | none | analytical contrast between the two cities, explains and evaluates rather than showing an event
+  - 5569 | open planning question | Asks whether Baltimare refuses war bonds or tries to act independently | none | written as questions with question marks, undecided options
+  - 5571 | statement about the subject | After Stalliongrad's fall the party cooperates with the rest of Equestria | none | a change of stance stated in summary, tied only to a story event (Stalliongrad's fall), no date
+  - 5572 | statement about the subject | Baltimare strictly follows Marxism and wants interchangeable cogs | none | plain description of the party's ideology
+  - 5572 | statement about the subject | The Aquileian tribes call Baltimare's communist party soulless | none | reputation among an outside group, stated as fact
+  - 5572 | statement about the subject | The CMCs are horrified by the cog mentality, in contrast to Manehattan where the CMCs and EEEE make asset-specific assignments | none | statement of reaction and contrast with Manehattan
+  - 5572 | scene beat without a year | When the CMCs go to Baltimare, they tell the ponies to just go to the other cities | none | something characters do on arrival, written as an event, no date
+  - 5572 | statement about the subject | The fall of Stalliongrad and its horrors humble the Baltimare ponies | none | cause-and-effect statement about the city's change, no date
+  - 5572 | statement about the subject | Because the system is not a closed loop, alienated Baltimare natives leave for Manehattan and other cities, which also humbles Baltimare | none | opens with Actually, a revision or afterthought explaining a further mechanism
+- sequences:
+- whole: Loose planning notes on Baltimare's communist party, mostly statements about its ideology, history, reputation and relations with other cities, plus one open question and one small scene beat of the CMCs sending ponies elsewhere, with no dates and no ordered sequences.

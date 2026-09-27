@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's structural reading of Tristan and uses it to theorise about Redhawk's authorial intent and their own disappointment with the story, adding publication dates and their view on lemons, and revising their own hypothesis without disputing anything the model said.

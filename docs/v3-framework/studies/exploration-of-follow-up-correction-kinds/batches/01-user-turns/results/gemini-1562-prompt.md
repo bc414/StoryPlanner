@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's etymology by proposing that tally sticks were a loophole in the Stagnation of Harmony that links Tall Tale to Aquileia and explains Comet Shine's win, then asks the model to work out what the Tall River adds to the backstory and culture.

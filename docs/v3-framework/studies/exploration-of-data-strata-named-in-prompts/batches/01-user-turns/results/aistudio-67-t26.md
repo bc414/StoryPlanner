@@ -1,0 +1,4 @@
+- sources:
+  - my historical backstories (the Griffonian and parallel Equestrian timelines laid out in this message) | the material the model is asked to analyze; treated as the author's current working version, mostly stated as settled but with some points flagged as still open or tentative | "So now my historical backstories are looking like this" | first-named
+- order:
+- about: The user lays out their revised Griffonian and Equestrian backstory timelines, with a few open questions inside it, and asks the model to analyze it.

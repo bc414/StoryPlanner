@@ -1,0 +1,7 @@
+- asks:
+  - analysis | give an analysis of a specific scene: Fluttershy using 'The Stare' on Celestia, and Fluttershy's blurted accusation that Celestia doesn't know how to make a friend, followed by her bursting into tears | 'Give an analysis of Fluttershy's use of The Stare on Celestia and the profound and tragic accusation...'
+- supplies:
+  - scene description | a moment from the user's story: Fluttershy directs The Stare at Celestia, then blurts an accusation that Celestia doesn't know how to make a friend, then cries | a single sentence describing the scene
+- shaping:
+- openness: Open - the message asks for an analysis of the described scene without specifying an angle, framework, length, or conclusion to reach, though it characterizes the accusation itself as 'profound and tragic'.
+- subject: A confrontation scene between Fluttershy and Celestia in the user's fiction, involving The Stare and an accusation about Celestia's inability to make friends

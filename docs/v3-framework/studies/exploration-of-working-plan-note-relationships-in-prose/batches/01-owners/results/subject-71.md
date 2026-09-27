@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 1114 | a conception spell matrix, magic lore held elsewhere, which is to come after the war and would end their inability to have children | until post war with the conception spell matrix
+  - 1114 | the war in the story's world and its timeline, after which the change comes | until post war
+  - 1114 | the casting of wings of dew, a spell or magic whose workings are held elsewhere | their wings of dew when they cast it always still reflect each other
+- whole: This owner holds a single note, so there is nothing for it to join with and no set to speak of.

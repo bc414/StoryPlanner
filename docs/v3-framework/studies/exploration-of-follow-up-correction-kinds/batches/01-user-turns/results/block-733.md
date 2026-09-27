@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the save-on-create advice alone and moves to a new question, describing their old UI and asking for recommended UX changes now that the plot-point/subject link is a first-class entity with note tracks.

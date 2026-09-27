@@ -1,0 +1,4 @@
+- sources:
+  - Scribe 2 | summarize all of its text; treated as the material to draw on for the summary | Can you summarize all of the text in Scribe 2? | referred-to
+- order:
+- about: The user asks the model to widen its earlier chapter-level summary into a summary of the entire text of the document Scribe 2.

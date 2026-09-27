@@ -1,0 +1,6 @@
+- asks:
+  - check/infer | asks whether a named story element ('Giggle at the Ghostly') would count as standard protocol, given a stated premise about another element (Friendship Shields) being standard issue | phrased as a conditional 'if...would...literally be standard protocol?'
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message proposes a hypothetical premise (Friendship Shields as standard issue) and asks the model to confirm the specific conclusion it suggests (Giggle at the Ghostly being 'literally' standard protocol).
+- subject: Whether a fictional item/practice (Friendship Shields, Giggle at the Ghostly) would count as standard-issue protocol within the story's world/canon

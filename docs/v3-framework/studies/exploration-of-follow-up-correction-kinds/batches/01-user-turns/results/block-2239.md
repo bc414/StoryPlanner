@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's billing-model argument further, asking whether the extraction problem was a venture-capital-subsidized lie meant to build dependency before prices rose, and compares it to Chrysalis's red love drug trade in their story.

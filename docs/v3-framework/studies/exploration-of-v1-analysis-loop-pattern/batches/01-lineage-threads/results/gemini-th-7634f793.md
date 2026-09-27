@@ -1,0 +1,6 @@
+- steps:
+  - the author | poses a translation question | the French idiom "Tableau de chasse" and a request for all its possible English translations and interpretations | opening of the exchange
+  - the model | delivers a categorized breakdown | literal hunting sense, romantic/conquest sense, and professional/military/competitive sense, each with candidate English renderings, example sentences, and a summary table, plus a closing question asking for the specific context so it can narrow the choice | closing of the exchange
+- kept:
+- brought: The author brought a French phrase, presumably drawn from their work, and asked for its range of possible English translations.
+- loop: The author brought a bare linguistic question with no stated context, the model returned a broad menu of translation options across registers and asked the author to supply the context needed to pick one, and nothing from this exchange was carried into the planning database.

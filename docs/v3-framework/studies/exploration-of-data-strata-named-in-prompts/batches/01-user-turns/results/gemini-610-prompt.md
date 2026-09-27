@@ -1,0 +1,4 @@
+- sources:
+  - chapter 6 "Kindness" (Henri brings Fluttershy to the expo center) | treat as the established point in the story plan where the changelings wear inhibitor rings on their horns; the model is to work from that as the starting state when working out when the rings can come off | Initially in chapter 6 "Kindness" when Henri brings Fluttershy to the expo center, the changelings have inhibitor rings | referred-to
+- order:
+- about: The author adds to changeling abilities (flight, shapeshifting, telekinesis), sets a rule that shapeshifting is illegal outside the conservatory, and asks when the inhibitor rings from chapter 6 can come off and how freshly captured POWs needing Red Love rehab are processed.

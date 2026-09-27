@@ -1,0 +1,8 @@
+- sources:
+  - real realities of present day | ground the starting polling percentages in it, rigorously, as the real-world basis for the numbers | I want to rigorous ground the starting polling percentages of the election arc in the real realities of present day | referred-to
+  - Democratic Party or Republican Party | do not use party affiliation as the basis for the percentages; use people's true internal beliefs against the three factions instead | not looking at Democratic Party or Republican Party but looking at people's true internal beliefs | referred-to
+  - Australia and other countries with compulsory voting | real-world precedent for making voting an explicit civic duty; the model is asked to supply which other places do this | like Australia, and where else does this? | first-named
+  - the story plan iteration that is attached | check whether it contains the Elements of Liberty speech paralleling Friendship is Magic part 2; user is unsure it is there | not sure if this is in the story plan iteration that is attached | referred-to
+  - Friendship is Magic part 2 | published episode used as the model for the structure of the Elements of Liberty speech | paralleling Friendship is Magic part 2 | referred-to
+- order:
+- about: The user asks how to set the referendum's voting rules (mandatory voting, fines, or non-votes counting as No) and how to rigorously derive starting polling percentages for the three factions, non-voters included, from real present-day realities rather than party lines.

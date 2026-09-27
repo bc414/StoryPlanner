@@ -1,0 +1,4 @@
+- sources:
+  - this conversation | draw the chapter order and events from it, include the details the user discussed in it, and invent nothing beyond it | From this conversation, put together a tentative chapter order, include any details I discussed here, and don't make up stuff | referred-to
+- order:
+- about: The user asks the model to build a tentative, non-chronological chapter order of events to dramatize for Chrysalis using only what was discussed in the current conversation, without inventing material.

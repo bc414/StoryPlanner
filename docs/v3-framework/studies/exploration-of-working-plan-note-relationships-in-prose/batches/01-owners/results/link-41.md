@@ -1,0 +1,7 @@
+- relations:
+  - 1018 | 1019 | 1019 gives the ground for 1018: Twilight's devastation at a refusal of friendship follows from her still holding herself to be the Princess of Friendship | shattered by the idea that her mentor is refusing friendship; still believes she is the Princess of Friendship | implicit
+- outward:
+  - 1018 | the mentor, another character whose refusal of friendship happens outside these notes | her mentor is refusing friendship
+  - 1019 | Fizzlepop, another character held elsewhere in the plan | won't give up on Fizzlepop
+  - 1019 | an earlier promise of redemption made to Fizzlepop in some other scene | after promising redemption
+- whole: The two notes read as a small set that hangs together, with the second giving the belief that underlies the reaction described in the first.

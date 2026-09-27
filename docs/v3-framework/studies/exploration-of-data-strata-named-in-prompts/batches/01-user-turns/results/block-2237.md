@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a new observation that GitHub Copilot's move to usage-based billing acts as a built-in constraint against extractive use, because the cost tracks the cost of outsourcing cognitive work, without pointing the model at any body of material.

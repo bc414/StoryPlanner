@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes an alternative plot mechanism—buffalo-and-Gilded-Trust cooperation hunting collaborators after Rockfeller's arrest, prioritizing war resources over total capture and allowing some escapes—without stating that the model's prior proposal was wrong.

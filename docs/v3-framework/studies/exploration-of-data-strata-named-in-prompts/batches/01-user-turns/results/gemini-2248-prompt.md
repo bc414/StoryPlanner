@@ -1,0 +1,5 @@
+- sources:
+  - 7 axes from my system instruction for the bucket categorizer (the 7 Fundamental Axes of Worldbuilding and the protocols pasted with them) | the framework to apply in redoing the evaluation, in place of the earlier axes; follow its names, protocols, ordering and output rules exactly | Reevaluate using the 7 axes from my system instruction | first-named
+  - provided raw author notes | the material to be analyzed; the whole text is read separately for each axis, with nothing subtracted between passes, and only bucket names are mapped from it | Analyze the provided raw author notes | first-named
+- order:
+- about: The user asks the model to redo its previous evaluation using the seven-axis bucket categorizer system prompt, which they paste in full, so that raw author notes are mapped into JSON bucket taxonomies under strict formatting rules.

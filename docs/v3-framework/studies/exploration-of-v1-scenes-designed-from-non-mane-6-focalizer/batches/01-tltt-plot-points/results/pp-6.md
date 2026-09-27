@@ -1,0 +1,14 @@
+- present:
+  - Fluttershy | coaxing the animals, asks why Henri wants her to talk to POWs, "I'll see what I can do" | Synopsis, and Thread: Cute Intelligence Agency link
+  - Henri | tells Fluttershy the POWs are acting like animals, forbade shooting, "we have rules" | Synopsis, and Codex entry link Knightly Code / Rules of War
+- mentioned:
+  - Applejack | Synopsis: couldn't stomach the changelings and sent Henri to Fluttershy
+  - Chrysalis | Synopsis: "Chrysalis does not follow them"
+  - changeling POWs | Synopsis: described as hissing, screaming, biting, not shown in the scene itself
+  - Pony soldiers | Synopsis: "almost ready to just shoot the rabid changelings dead"
+- focalizer: undetermined
+- shows: none
+- sides:
+  - Fluttershy | dismay at hearing the changelings are biting and attacking each other, "(Oh my...)" | Synopsis
+  - Applejack | believes she has to put on the performance of the "tough general" and couldn't stomach the changelings up close | Synopsis
+  - Henri | judges that Chrysalis ignores the rules and doesn't want to stoop to her level | Synopsis

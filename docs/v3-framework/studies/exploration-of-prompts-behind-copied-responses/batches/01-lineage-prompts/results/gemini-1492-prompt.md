@@ -1,0 +1,7 @@
+- asks:
+  - share/assert | lays out the user's own reasoning for why a plot mechanism (Chrysalis maneuvering Eros into restoration bills) works, offering it as settled and inviting the model to take the reasoning on board for further development | "This is perfect... because it solves several things"
+- supplies:
+  - worldbuilding rationale (composed inline) | three interlocking justifications: how the restoration bills serve Chrysalis's strategic fear of communism/Kemerskai and force a weakening war on the Reich; how they make Eros's surrender and subordination to Chrysalis concrete, tied to his failed plan to mobilize via Boreas's will and hand the Reich to Grover; and why Chrysalis picked Eros over Eagleclaw, including Eagleclaw's complicity in past financial schemes, her forced silence after Eros spared her under Grover's plea, and Chrysalis's threat against Grover's life to keep her quiet | several paragraphs
+- shaping:
+- openness: leans toward an answer it names — the message declares the plot logic "perfect" and asserts each causal link (Chrysalis's motive, Eros's grounded surrender, the Eagleclaw betrayal) as already correct rather than posing a question or offering options.
+- subject: Chrysalis's manipulation of Eros into restoration bills and its consequences for Eros's surrender and her betrayal of Eagleclaw

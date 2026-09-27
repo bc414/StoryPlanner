@@ -1,0 +1,7 @@
+- asks:
+  - connect | asks the model to explain how the preceding observations about mandates versus authorship in MLP:FiM relate to the user's own plans for The Lioness of Tall Tale | "How does this relate to my plans for The Lioness of Tall Tale?"
+- supplies:
+  - argument - the user's own thesis and supporting examples | claims that toy-brand mandates (Canterlot Wedding, Griffonstone) seeded good later material (Equestria at War, Griffonia), that later seasons like Starlight Glimmer and cutie map episodes did strong character work despite mandates, and that Faust herself both overcame mandates and produced weak episodes, concluding the mark of good authorship is overcoming mandates | a paragraph
+- shaping:
+- openness: Leans toward an answer it names: the user asserts a thesis (good authorship means overcoming imposed mandates) and asks the model to apply that same framework to their Lioness of Tall Tale plans.
+- subject: Relating the tension between franchise mandates and authorial quality in MLP:FiM to the user's own Lioness of Tall Tale project

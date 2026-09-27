@@ -1,0 +1,7 @@
+- asks:
+  - other | no explicit instruction or question is stated; the turn consists only of a placeholder noting a document was attached | the entire turn is the bracketed placeholder text itself
+- supplies:
+  - plan export | a long-form fiction planning document, described only by its placeholder as a 135,898-word export with 0 captured characters | placeholder line only; no actual text is present in the turn
+- shaping:
+- openness: completely open — the turn states no question, task, or instruction, only a placeholder marking an attached plan export that was never captured.
+- subject: an attached plan export document (content not captured)

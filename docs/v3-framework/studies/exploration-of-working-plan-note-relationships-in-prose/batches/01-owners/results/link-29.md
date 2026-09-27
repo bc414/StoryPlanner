@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 505|Established canon about Flurry Heart as a baby teleporting, held in the source material outside this item|She canonically can already teleport as a baby
+  - 505|The city and the emotions there that she flees, which belong to the scene or other notes not in this item|teleport away from the city to escape the emotions
+- whole: Only one note hangs off this owner, so there is nothing to join and it stands as a single entry.

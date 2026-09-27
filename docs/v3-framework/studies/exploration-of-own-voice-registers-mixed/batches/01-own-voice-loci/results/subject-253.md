@@ -1,0 +1,8 @@
+- passages:
+  - note 4373 | declarative-explanatory | states a mechanism as settled fact, present tense, no self-reference | how the radio works magically instead of electrically | apart
+  - note 5834 | declarative-explanatory | states a plot/continuity fact, present tense, third person | the surrender coming through the same speaker as the chapter 1 demand | apart
+  - note 5834 | first-person aside | set off in parentheses, switches to "I", trails off with ellipsis | a conflict with the planned POV for the battle | apart
+- shifts:
+  - note 5834 | declarative-explanatory | first-person aside | parenthesis opens, pronoun shifts to "I", sentence trails into ellipsis
+- registers: declarative-explanatory; first-person aside
+- whole: The item's notes are written mainly in a flat declarative-explanatory register for stating world and plot facts, except that note 5834 breaks once, inside its parentheses, into a first-person aside flagging a problem.

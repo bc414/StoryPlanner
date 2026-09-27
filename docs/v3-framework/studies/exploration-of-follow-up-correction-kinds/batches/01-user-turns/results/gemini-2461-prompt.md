@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Stare and rehabilitation-tier discussion and asks a new question about scene order in chapter 2 (hospital diversity versus factory standardization), stating the chapter's purpose of grim resolve without optimism for Applejack.

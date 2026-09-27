@@ -1,0 +1,6 @@
+- asks:
+  - check | verify whether a stated formatting arrangement (headers sharing a block with the preceding summary) is correct for Obsidian or risks being misinterpreted | "Is this correct or will be misinterpreted?"
+- supplies:
+- shaping:
+- openness: check | the message states an observed formatting fact (headers in the same block as the preceding summary) and asks the model to confirm whether it is correct or will be misinterpreted, rather than leaving the question open-ended.
+- subject: whether headers grouped with a preceding summary in Obsidian-rendered markdown output are correctly formatted

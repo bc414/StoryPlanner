@@ -1,0 +1,5 @@
+- sources:
+  - bible entities (characters, threads, themes, codex entries) | under consideration as a possible place to list connected plot points and their text fields, so reasoning can run per entity; no weight set yet | should the bible entities have a list of their connected plot points | referred-to
+  - plot points laid out in chapter order | under consideration as the alternative place where entity references stay distributed; no weight set yet | references distributed across the plot points which are laid out in chapter order | referred-to
+- order:
+- about: The user asks a design question about how to structure their story-planning export for LLM reasoning: whether each bible entity should carry its own list of connected plot points and text, or whether references should stay distributed across chapter-ordered plot points.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies further plot material (Applejack's admission after the love donation, the couple's formal beginning, and a parallel Rainbow Dash guilt arc in chapter 8) and asks the model to review the plans and connect these to what it has already discussed, without challenging anything it said.

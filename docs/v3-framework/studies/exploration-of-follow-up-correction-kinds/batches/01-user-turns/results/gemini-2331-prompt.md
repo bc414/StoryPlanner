@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model set the Skyfall privateer crew up as the direct opposite and rival of the Aquileian fleet, as if the fleet's role matched a raiding privateer's. The user restates that the royal Aquileian navy is only for protecting Aquileian convoys and never raids | "I established the royal Aquileian navy is strictly for protecting Aquileian convoys, not raiding others" | Put in passing as a reminder of a settled premise inside a follow-up question, with no explicit objection or reproach.
+- about: The user pushes the topic on with follow-up questions about older-era crews, state versus private ownership of navies, and privateers versus convoy escorts, and along the way reminds the model of an established rule about the Aquileian navy's purpose.

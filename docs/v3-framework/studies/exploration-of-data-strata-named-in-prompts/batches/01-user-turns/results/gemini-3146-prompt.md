@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general conceptual question about how the usefulness of Claude Code and Claude Cowork divides between local program execution and cloud LLM compute, and requests a thorough breakdown, without pointing the model at any body of material to use or avoid.

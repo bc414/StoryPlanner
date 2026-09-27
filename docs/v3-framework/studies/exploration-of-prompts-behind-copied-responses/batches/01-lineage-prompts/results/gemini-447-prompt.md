@@ -1,0 +1,7 @@
+- asks:
+  - enumerate | list what other modes of usage exist besides the one already being used | "What other modes of usage are there?"
+  - recommend | judge whether any of those other modes would work better than canvas for analysing a story plan in a way that sparks new ideas | "Are there any that could potentially be better for getting story plan analysis that can inspire new ideas besides canvas?"
+- supplies:
+- shaping:
+- openness: Open: it asks the model to survey available modes and judge which might outperform canvas for idea-generating story-plan analysis, without naming any candidate modes or a preferred answer itself.
+- subject: Comparing AI interface/usage modes (vs. canvas) for analysing a story plan to inspire new ideas

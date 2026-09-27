@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user endorses the early-shots idea and extends it with a story development: rumors of armed servants could make a Statthalter accept the ultimatum's offer of mercy and flee, most plausibly to the Castle where the army will land.

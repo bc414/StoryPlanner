@@ -1,0 +1,17 @@
+- passages:
+  - note 4384 | prescriptive design note | "should", "needs to" plus evaluative descriptors ("insufferable") | how he should talk and project energy | apart
+  - note 4385 | plain physical description | plain declarative facts, no evaluation | his color, mustache, cutie mark | apart
+  - note 4489 | prescriptive design note | "should be viewed as", names a specific plot event as the turning point | how he should be perceived until the buffalo/oil workers forum | apart
+  - note 4638 | interpretive characterization | "should feel like", parenthetical comparison to a real figure | audience's sense of his neediness and inauthenticity | apart
+  - note 4761 | in-world narrative summary | past tense, cause-and-effect recounting of events | his sell-off to buy weapons ahead of a blockade | apart
+  - note 4804 | meta-reflection | first person, "Originally... was added", explains an origin | why Star Energy was created for Applejack's arc | apart
+  - note 4804 | in-world narrative summary | third person, past tense, plain factual recounting | his arms purchase and factory conversion | apart
+  - note 4804 | meta-reflection | first person "I said", defines a term | origin of the "Harmonic Capitalism" concept | apart
+  - note 5558 | prescriptive design note | "should be...inspired by", names a real figure | his ethos's real-world inspiration | apart
+  - note 5558 | interpretive characterization | present-tense declarative belief description, subject-dropped opening | his belief in technology versus how burned opponents view him | apart
+- shifts:
+  - note 4804 | meta-reflection | in-world narrative summary | drops first-person explanatory framing for third-person past-tense action
+  - note 4804 | in-world narrative summary | meta-reflection | returns to first person ("I said") to name and define a concept
+  - note 5558 | prescriptive design note | interpretive characterization | drops "should" and subject pronoun for a declarative belief statement ending in how others perceive him
+- registers: prescriptive design note; plain physical description; interpretive characterization; in-world narrative summary; meta-reflection
+- whole: These notes hold several distinct registers—prescriptive design instructions, plain physical description, interpretive characterization, in-world narrative summary, and first-person meta-reflection—that mostly occupy separate notes or separate sentences and stand apart, with only two notes (4804, 5558) shifting register between sentences and none blending registers within a single sentence.

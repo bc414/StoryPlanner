@@ -1,0 +1,5 @@
+- sources:
+  - Https://mlp.fandom.com/wiki/Transcripts/Where_the_Apple_Lies (the transcript of the episode Where the Apple Lies) | the episode material to be re-read; the model is pointed to it as the text whose events get reinterpreted | Https://mlp.fandom.com/wiki/Transcripts/Where_the_Apple_Lies | first-named
+  - this backstory (the Applejack's Parents Codex entry just laid out) | treat as the established premise and lens through which the episode is to be reinterpreted | Now with this backstory in mind | referred-to
+- order:
+- about: The user supplies a wiki transcript link for the episode "Where the Apple Lies" and asks the model to reinterpret the episode in light of the just-discussed parents backstory.

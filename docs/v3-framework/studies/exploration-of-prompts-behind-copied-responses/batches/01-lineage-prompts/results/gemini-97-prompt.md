@@ -1,0 +1,7 @@
+- asks:
+  - propose | pitches a plot beat where AJ intercepts RD as she flies back after being shot down, using Twilight's teleport to cut her off | "I'm thinking of having AJ intercept RD... Maybe AJ sees the rainbow trail and asks Twilight to teleport them"
+- supplies:
+  - idea sketch | a plot beat: AJ spots RD's rainbow trail after RD is shot down and flying back toward the air base, and asks Twilight to teleport them there to intercept her | a sentence or two
+- shaping:
+- openness: Leans toward an answer it names: the message lays out a specific mechanism (AJ spots the rainbow trail, asks Twilight to teleport them to intercept RD) rather than posing an open question.
+- subject: A scene idea where AJ uses Twilight's teleportation to intercept a wounded, shot-down Rainbow Dash before she reaches the air base.

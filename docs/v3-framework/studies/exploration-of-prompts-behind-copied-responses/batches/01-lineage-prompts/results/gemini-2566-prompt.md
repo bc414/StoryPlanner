@@ -1,0 +1,9 @@
+- asks:
+  - analyse | explain how the lionesses in part 3 of the game choose to dress and display their cutie marks, interpreted through the established meaning of clothing in Aquileian society | "Give an analysis of how the lionesses of part 3 ... choose to dress, showing off their cutie marks, given the context of the meaning of clothes in Aquileian society"
+- supplies:
+- shaping:
+  - ground the analysis in the setting's established meaning of clothing rather than inventing it fresh | "given the context of the meaning of clothes in Aquileian society"
+  - restrict the subject to the lioness characters appearing in part 3 of the named game | "lionesses of part 3 of Coltbert's game"
+  - address specifically the display/showcasing of cutie marks as part of the dress choices | "showing off their cutie marks"
+- openness: Leaves the content of the analysis open, but leans on a stated premise it treats as given—the existing meaning of clothes in Aquileian society—asking the model to reason from that rather than invent or choose among alternatives.
+- subject: The dress and cutie-mark-display choices of lioness characters in part 3 of "Coltbert's game," read through the setting's established symbolism of clothing.

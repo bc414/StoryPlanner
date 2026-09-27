@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user shares their own impressions of Gemini, Claude and ChatGPT as products and asks whether Gemini could be made to behave like Claude through AI Studio system instructions or whether its tone and quirks come from its training.

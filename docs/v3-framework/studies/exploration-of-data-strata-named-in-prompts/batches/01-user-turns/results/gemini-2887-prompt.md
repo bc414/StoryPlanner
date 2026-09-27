@@ -1,0 +1,4 @@
+- sources:
+  - Skyfall vs. Aquileia cold war (thematic core) | treat as settled, established fact that the model must build from, correcting its prior assumption of corporate management/executives | "That's the whole thematic core of Skyfall vs. Aquileia cold war" | referred-to
+- order:
+- about: The user turn corrects the model's assumption of corporate hierarchy by asserting, as already-established lore, that Pridea has no management and that this absence is the thematic core of the Skyfall-Aquileia cold war.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the keep-the-rescue verdict and moves on to a follow-up, asking whether the specific details of the trench rescue could be refined or reimagined.

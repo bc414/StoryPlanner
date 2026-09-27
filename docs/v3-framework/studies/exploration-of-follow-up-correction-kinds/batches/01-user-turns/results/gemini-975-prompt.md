@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up history questions, about Dutch expansion to the East Indies after the war and the Republic's fall in 1795, without challenging anything the model said.

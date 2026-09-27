@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user announces a new tool capability (reading P&K directly) and asks the model to trace what the existing changeling detection and biology worldbuilding borrows from ASOIAF conventions and compare that with the newly established shapeshifting ontology, extending the work without disputing anything in the model's turn.

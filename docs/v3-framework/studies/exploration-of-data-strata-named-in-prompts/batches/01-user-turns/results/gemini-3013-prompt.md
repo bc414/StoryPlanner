@@ -1,0 +1,6 @@
+- sources:
+  - ai studio's playground | weight: used as the reference point for the kind of system-instructions option being asked about | marked by "like ai studio's playground" | new: first-named
+  - the build mode | weight: explicitly excluded from what is meant by the comparison | marked by "(not the build mode)" | new: referred-to
+- order:
+  - ai studio's playground over the build mode | the turn sets the playground as the intended point of comparison and pointedly excludes the build mode with "(not the build mode)"
+- about: The user asks whether Gemini Code Assist offers a system-instructions option comparable to AI Studio's playground, explicitly clarifying that the comparison is to the playground and not to AI Studio's build mode.

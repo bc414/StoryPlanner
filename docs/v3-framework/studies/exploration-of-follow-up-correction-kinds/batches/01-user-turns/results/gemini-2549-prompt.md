@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model framed the backstory threads as concurrent plotlines racing to converge at the start of Chapter 1 (a convergence graph); the user says they are instead revealed gradually, in onion layers, across the story to explain how the present situation arose | They don't converge onto chapter 1. They are revealed in onion layers | flat, direct statement of disagreement, followed by a brief alternative description, with no apology or elaboration
+- about: The user rejects the model's convergence-graph premise and restates the backstory as onion-layer reveals spread throughout the story, explaining how the current situation came about.

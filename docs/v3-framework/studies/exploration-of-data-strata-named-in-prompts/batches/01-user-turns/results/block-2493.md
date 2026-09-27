@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether Logan Paul belongs with Andrew Tate as a manosphere grifter, and how to square that with MrBeast's working relationship with him, without pointing to any body of material for the answer.

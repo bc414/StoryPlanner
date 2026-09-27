@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the finished letter and callback discussion to a new task: asking for a comparison of Celestia's revised psychology and stagnation timeline against the original plan, and an analysis of whether the early "statue" idea should stay.

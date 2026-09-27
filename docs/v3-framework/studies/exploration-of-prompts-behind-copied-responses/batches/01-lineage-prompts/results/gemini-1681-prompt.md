@@ -1,0 +1,7 @@
+- asks:
+  - explain | how complex human languages originated/developed over time | "How did complex languages come about?"
+  - check | whether it follows that speech is much easier for the human brain than literacy, given how language originated | "Does this mean speaking is so much easier than literacy for the human brain?"
+- supplies:
+- shaping:
+- openness: The first question is fully open-ended; the second proposes a specific inference ("Does this mean...") and asks the model to confirm or check whether it holds.
+- subject: Origins of complex language and whether speech is cognitively easier than literacy for humans

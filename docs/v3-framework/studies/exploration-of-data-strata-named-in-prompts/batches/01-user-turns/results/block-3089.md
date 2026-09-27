@@ -1,0 +1,4 @@
+- sources:
+  - v1 archive | sample further for passages in Gemini's voice, treating them as suspect material to be scrutinized before anything carries into v2, not as trusted content | sample more of v1 archive for Gemini-voice passages to identify things that should be scrutinized before entering v2 | referred-to
+- order:
+- about: The user asks the model to widen its search of the v1 archive beyond the terms already found, looking especially at nouns, for other Gemini-voice vocabulary that should be checked before it enters the v2 plan.

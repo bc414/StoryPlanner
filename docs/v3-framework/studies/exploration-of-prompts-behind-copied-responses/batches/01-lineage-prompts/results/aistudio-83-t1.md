@@ -1,0 +1,8 @@
+- asks:
+  - check | identify where the story plan still conflicts with the updated codex entry on the Stagnation of Harmony and with Celestia's character notes | "What areas of the story plan still contradict the current codex entry"
+- supplies:
+  - attached document | an attachment referenced but not captured in this record, presumably the story plan and/or codex being checked | unknown length (placeholder only)
+  - inline summary | the user's own recap of recent backstory changes: the Stagnation of Harmony shortened from a 1000-year constant to an 80-year social contract, and Celestia's shifted arc (befriending thestrals mid-war, wanting to retire, driven by preventing Applejack becoming a warlord and by an outdated view of Aquileia) rather than wanting to return to the nursery | a short paragraph
+- shaping:
+- openness: Asks the model to check the story plan against two named, already-updated sources (the codex entry on the Stagnation of Harmony and Celestia's character notes) for remaining contradictions, rather than leaving the analysis open-ended or offering options.
+- subject: Consistency check between a fictional story plan and updated worldbuilding/character canon (Stagnation of Harmony timeline and Princess Celestia's revised motivations) in a My Little Pony-based story.

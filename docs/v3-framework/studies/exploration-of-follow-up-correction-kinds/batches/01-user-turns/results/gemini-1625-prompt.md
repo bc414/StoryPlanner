@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a further story beat in which Synovial reads the planned elastic-defense retreat as the Pétain-style shift from stubborn defense to exhaustion, which feeds his ego and his attachment to his nickname for Applejack, building on the model's analysis without disputing it.

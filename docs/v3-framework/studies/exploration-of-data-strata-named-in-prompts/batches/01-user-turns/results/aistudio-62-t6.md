@@ -1,0 +1,6 @@
+- sources:
+  - EaW bio of the Griffonian Empire general (Anicetus Mudbeak, pasted in full) | base material for the character; the model should take his background, injury, addiction and pension-driven wish to retire as the starting point for Blueblood's hire | Here is the EaW bio of the Griffonian Empire general I want Blueblood to hire | first-named
+  - The Princess and the Kaiser (Mudbeak's role in that story) | the baseline the adaptation departs from; his morphine addiction, the invasion command under Grover VI and his fear of Flurry Heart are the version being subverted, not carried over | This is a massive subversion of Mudbeak's role in The Princess and the Kaiser | first-named
+  - TLTT adaptation (the user's own plan: Chrysalis hollows out Herzland's economy, the pension system goes bust by 1002, Blueblood recruits Mudbeak) | the author's proposed adaptation, offered as a provisional idea for the model to build on | So I'm thinking the TLTT adaptation is that | referred-to
+- order:
+- about: The user pastes the EaW biography of Anicetus Mudbeak and proposes adapting him for TLTT as an addicted, pension-threatened officer whom Blueblood hires with medical treatment and engineering work, and contrasts this with his role in The Princess and the Kaiser.

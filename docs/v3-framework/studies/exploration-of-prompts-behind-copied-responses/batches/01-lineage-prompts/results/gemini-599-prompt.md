@@ -1,0 +1,13 @@
+- asks:
+  - brainstorm | asks for more ideas of what else could exist inside the repurposed underground friendship-dens beyond board/card games | "What other things can be there for friendship?"
+  - check | floats its own guess that the den activities are entirely kids' activities and asks the model to confirm or complicate that | "I suppose it's all kids' activities?"
+  - propose/expand | offers the idea that the dens are former nobility vice/torture corridors later supplanted by public industrial love harvesters, inviting the model to build on it | "What if the underground places are actually repurposed hidden corridors... So they will actually be former torture dens..."
+  - correct | tells the model to drop any prior notion that Thorax defected and instead adopt that he was snubbed by Celestia and taught the hack underground | "Thorax did not 'defect' in 1002... he tried getting help from Celestia and was snubbed."
+- supplies:
+  - lore note, love taxonomy | explains ambient/pink/red love as concentrated friendship vs. addictive field drug, and level-2 workers' purposeless, drafted-avoidance motivation | a paragraph
+  - lore note, arrest/history logic | states arrests are justified via equestrian board-game contraband and that this scheme failed in pre-industrial isolationist hives lacking such games | a couple of sentences
+  - lore note, den aesthetic/history | states the underground crack-den aesthetic is really board/card games, housed in former nobility torture/hedonism corridors now replaced on the surface by public industrial love harvesters | a couple of sentences
+  - lore note, Thorax backstory correction | states changelings aren't welcome under Celestia's harmony despite infiltrators, and that Thorax never defected but was snubbed and taught the hack underground | a couple of sentences
+- shaping:
+- openness: Mostly leans toward answers it already names as settled canon (love taxonomy, arrest logic, den history, Thorax's corrected backstory), while leaving the additional-activities brainstorm genuinely open and posing the "kids' activities" guess as something to check or complicate.
+- subject: Worldbuilding notes for a love-as-drug dystopia setting, covering love-substance types, underground friendship-den history/aesthetic, arrest justification, and a corrected Thorax/changeling backstory.

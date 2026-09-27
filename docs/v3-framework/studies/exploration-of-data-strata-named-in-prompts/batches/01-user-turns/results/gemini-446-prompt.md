@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to back up its claim that the system prompts differ between ordinary conversation and Canvas mode by providing sources, without pointing at any particular body of material.

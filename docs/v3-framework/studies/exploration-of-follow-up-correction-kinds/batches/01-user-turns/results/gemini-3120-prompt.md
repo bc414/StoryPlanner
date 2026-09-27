@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's extended argument treated GIYC as the singular, indispensable source underlying all of Fluttershy's TLTT mechanics, but the user clarifies that at least one specific detail actually being discussed (Rarity's wings of dew reflecting a partner's colors) was borrowed from a separate, different Rarishy story called "Green," not from GIYC | "In fact, the wings of dew... is a detail I borrowed from a different Rarishy story titled 'Green'" | stated flatly and in passing, as a clarifying aside before moving on to new questions
+- about: The user clarifies that a specific detail (wings of dew) comes from a different source story than the one the model had been treating as foundational, then asks how much of the GIYC material should count as TLTT's actual backstory and whether the romance arc is essential.

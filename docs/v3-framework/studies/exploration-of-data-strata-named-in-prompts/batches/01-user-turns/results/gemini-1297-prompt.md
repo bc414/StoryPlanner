@@ -1,0 +1,4 @@
+- sources:
+  - Coltbert's reforms and economic plan for King Discret | treat as the established basis for why the parloirs exist economically (importing Aquileian goods, paying in gold bits); the model's parloir description should fit it | as per Coltbert's reforms and economic plan for King Discret | referred-to
+- order:
+- about: The user corrects the model's picture of the parloirs, saying they should be luxury social clubs first, grounded in the economic plan of Coltbert's reforms, with intimacy services as only one part alongside rooms for hookups that need no service worker.

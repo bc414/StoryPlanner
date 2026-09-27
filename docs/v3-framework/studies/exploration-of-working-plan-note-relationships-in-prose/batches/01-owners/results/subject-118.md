@@ -1,0 +1,8 @@
+- relations:
+  - 199|200|plan for showing on the page of what the ontology states as fact: the two radio types are introduced in the story in order|Applejack's radio runs on spell matrices. The normal radios are standard ww2 vacuum tubes.|implicit
+  - 199|200|instance of a general rule: Applejack's spell-matrix radio and everyone else's vacuum tube radios are the two kinds the ontology names|spell matrix powered radios like Applejack's|implicit
+- outward:
+  - 199|the Griffonian Republic, whose radio designs were copied, held elsewhere|mass produced vacuum tube radios copied from the Griffonian Republic
+  - 199|the love donator event, a story turning point held elsewhere, after which the magical radios spread|Then after the love donator
+  - 199|Applejack, a character, and her rank as general, held elsewhere|because she is a general
+- whole: Two notes that hang together closely: the ontology note states the two radio technologies, and the usage note plans how the story shows them, though the usage note also brings in a canister power source and miniaturization that the ontology note does not mention.

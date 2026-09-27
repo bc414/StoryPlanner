@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general factual question about how many people at Google work on Gemini-related products, how that compares to competitors, and whether the work came from DeepMind and another division and is now combined under Labs or something else, without pointing at any body of material for the model to use.

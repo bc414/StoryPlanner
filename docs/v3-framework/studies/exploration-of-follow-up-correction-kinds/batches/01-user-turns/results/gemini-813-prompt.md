@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's analysis, recasts the rifle's predation potential in terms of the statthalters and a prisoner's dilemma, and sets out Applejack's resulting stakes: she must keep the ponies from joining an invasion of the hives and prove harmonic capitalism to Celestia.

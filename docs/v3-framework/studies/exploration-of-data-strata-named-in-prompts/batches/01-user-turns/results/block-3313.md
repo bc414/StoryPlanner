@@ -1,0 +1,5 @@
+- sources:
+  - that conversation (conv:64, the one just examined) | treat as atypical and not representative, since it is very long and not necessarily about the author's fabula; do not take it as the model case | pretty abnormal too for being so long and not necessarily about my fabula | referred-to
+  - Chrysalis Enhancement | the conversation the model is told to look into next, as a more suitable case | Look into Chrysalis Enhancement | first-named
+- order:
+- about: The user sets aside the conversation just examined as an unrepresentative outlier because of its length and its distance from the fabula, and directs the model to examine the conversation called Chrysalis Enhancement instead.

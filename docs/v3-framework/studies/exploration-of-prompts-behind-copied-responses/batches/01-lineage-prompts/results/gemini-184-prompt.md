@@ -1,0 +1,16 @@
+- asks:
+  - declare | states that the cutie mark system formally excludes non-pony races and informally excludes bat ponies through discrimination | "de jure excludes non ponies... de facto excludes bat ponies (due to systemic discrimination)"
+  - declare | explains how harmonic capitalism works alongside cutie marks and answers the obsolescence fear Twilight and Celestia held in canon | "It does not make anyone obsolete, as Twilight once feared"
+  - set plot direction | decides Equestria will not stagnate immediately after the white peace and will instead splinter into three political factions | "I don't think Equestria should immediately start stagnating... There will be three factions"
+  - outline faction | describes the Harmonic Party's base cities, majority status, and origin in cities' own total mobilization laws | "A harmonic party based in Manehattan and Tall Tale and the eastern cities"
+  - outline faction | describes the non-aligned Celestial Party's upper-class core and pacifist rank-and-file who want a return to the cutie mark status quo | "'Celestial Party' which is non aligned. This is the upper class who lost their assets"
+  - outline faction | describes the supremacist 'Ponies First' party's anti-changeling motives and regional strongholds | "gut wrenching twist will be the presence of a supremacist 'Ponies First' party"
+  - map regional support | assigns each party's regional presence, calling Canterlot a mix and floating Tall Tale as a near-total exception | "Canterlot will be a nuanced mix... Maybe except Tall Tale"
+  - rule out option | states no communist party will exist in Equestria and lays out the Stalliongrad emigration and border/territory transfer arrangement instead | "There won't be any communist party in Equestria... open border with Equestria"
+  - plan scene | decides the Aquileia war will get on-page chapters and sketches a beat where Applejack learns of Synovial's landfall and fetches Trimmel for the volunteer force | "Aquileia war will not be off screen. There will be chapters."
+  - float naming decision | proposes calling the volunteer force SECEF (Star Energy Corporation Expeditionary Forces) | "which I am thinking of calling SECEF"
+- supplies:
+  - worldbuilding notes | post-war Equestrian politics (cutie mark exclusion, harmonic capitalism, three factions and their regional bases, the Stalliongrad arrangement) and the start of an on-screen Aquileia war arc | several paragraphs
+- shaping:
+- openness: Mostly leans toward the specific answers it states as settled decisions, with one open hedge on whether Tall Tale is 99% harmonic capitalist (\"Maybe except Tall Tale\") and one floated, unconfirmed name for the volunteer force (\"SECEF\").
+- subject: Post-war Equestrian political factions, cutie mark/species exclusion, harmonic capitalism, and the opening of an on-screen Aquileia war arc

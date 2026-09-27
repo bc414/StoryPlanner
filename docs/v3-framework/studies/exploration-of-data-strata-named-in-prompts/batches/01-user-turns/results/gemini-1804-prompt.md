@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to expand on the historical dynamics of Versailles, following its comparison of the palace setup to the story's court, without pointing at any particular body of material.

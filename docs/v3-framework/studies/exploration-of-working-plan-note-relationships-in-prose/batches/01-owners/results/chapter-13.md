@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2254|The other Conclave tribes, whom the Medicinal tribes decline to help approach, and the wider Conclave and Equestria as parties to a treaty|say good luck talking to the other tribes
+  - 2254|War bonds and a formal Conclave-Equestria treaty, matters of the wider plot held elsewhere|receive war bonds and are willing to participate in a unified conclave body for a formal Conclave-Equestria treaty
+- whole: This owner holds only one note, so there is nothing in it to hang together or fall apart.

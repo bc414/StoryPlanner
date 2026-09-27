@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pitches a new backstory and personality for the character Coltbert, including his upbringing, his charm and courtly affairs, his scholarly sponsorship and his arrogant royalism, and explains why this makes him Vérany's rival, without pointing at any body of material for the model to draw on.

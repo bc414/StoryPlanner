@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's turn used two names, Factory Herzlander and Simplified Herzlander, as if they were separate things, when the user understands them to be one language in the plan | Isn't factory herzlander the same as simplified herzlander? | as a short, direct question that points out the inconsistency, with no reason given
+- about: The user briefly queries the model's inconsistent naming of the changelings' factory language, then moves on to ask for more about 农民工 and how to use them for the drones, given conflicting first-hand accounts of Chinese industrial conditions and their own wariness of propaganda.

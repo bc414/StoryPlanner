@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's account of their influences alone and moves to the planning framework, explaining how v1 "Story Threads" and prequel notes map onto v2's treatment of arcs and syuzhet design for prior-established subjects, and noting that TwiJack, as a cross-cutting thread, is still not covered.

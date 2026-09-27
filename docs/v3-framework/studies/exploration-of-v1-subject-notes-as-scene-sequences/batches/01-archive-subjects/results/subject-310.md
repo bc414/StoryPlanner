@@ -1,0 +1,8 @@
+- passages:
+  - 5621 | scene beat without a year | In the episode Fame and Misfortune, Twilight's decision to publish the friendship journal backfires and ponies swarm them; Applejack is mobbed by 'Sweet Apple Admirers', hates the fame, says she is popular and doesn't like it, and complains she has too much real work for fans | none | episode-summary events in the story's own terms, no date; quoted line from Applejack
+  - 5621 | scene beat without a year | Twilight sees the chaos and spirals into self-blame, saying her big idea to make copies caused this and that she made life awful for her friends | none | 'Seeing the chaos' links it after the swarming; quoted speech, no date
+  - 5621 | scene beat without a year | The friends see that the journal genuinely helped two fillies, and Applejack reassures Twilight that it makes everything they've been through worth it | none | 'Ultimately, when they see' marks it as the episode's closing beat; quoted speech, no date
+  - 5621 | statement about the subject | Interpretive reading that the episode shows Applejack will endure the weight of public leadership (as the Lioness) so long as it tangibly protects the innocent | none | 'This proves that' framing, a claim about the character rather than an event
+- sequences:
+  - 5621 | three episode beats in order: the swarm and Applejack's venting, Twilight's self-blame, then the fillies being helped and Applejack's reassurance | 'Seeing the chaos' and 'Ultimately, when they see' connect the beats in order
+- whole: A single note that summarizes the canon episode Fame and Misfortune as a run of beats centered on Applejack and Twilight, then closes with an interpretive statement about what it shows of Applejack's capacity for public leadership.

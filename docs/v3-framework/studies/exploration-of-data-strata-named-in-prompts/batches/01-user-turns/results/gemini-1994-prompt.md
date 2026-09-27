@@ -1,0 +1,4 @@
+- sources:
+  - the content (the notes the Part 1 cartographer receives) | material the cartographer organizes into buckets; its own structure, chronological events or concept/theme notes, decides the bucket order | "If the content includes notes about chronological events" | referred-to
+- order:
+- about: The user shares a draft ordering rule for the Part 1 cartographer's system prompt, about how buckets should be ordered depending on whether the content is chronological or conceptual, and asks for a more elegant wording.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's loophole reading of Ponyville by adding a further layer, that Ponyville in G4 is also Lauren Faust's loophole for character-driven storytelling within Hasbro's commercial mandates, without disputing anything the model said.

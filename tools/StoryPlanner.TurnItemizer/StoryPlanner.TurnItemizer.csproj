@@ -23,6 +23,11 @@
 
     <ItemGroup>
         <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+        <!-- The `prompts-by-copy` and `threads-with-notes` units (2026-09-27) read the lineage layers
+             beside the v1 archive, computing in their own run which archive notes took their text
+             from which lineage record: StoryPlanner.VoiceAttribution over the archive, lineage.db and
+             the dated v1 snapshots, never the sidecar attribution.csv. -->
+        <ProjectReference Include="..\StoryPlanner.VoiceAttribution\StoryPlanner.VoiceAttribution.csproj" />
     </ItemGroup>
 
 </Project>

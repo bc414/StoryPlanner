@@ -1,0 +1,7 @@
+- asks:
+  - decide|announces a final choice on the engine's power source and ammo material, settling on high-purity crystal power and brass phosphorus ammo rather than other options previously considered|"I think I'll stick with"
+- supplies:
+  - idea/decision|a worldbuilding update covering the engine's power source, the ammo material, the scarcity constraint on high-purity crystals, and a plot mechanism (the "love harvester" studied by Twilight and Fleur) that supplies an abundant substitute for magical-engineering weapon components|a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the message states its own settled choices (high-purity crystal power, brass phosphorus ammo, and the love-harvester mechanism as the abundant substitute) rather than leaving them open or asking for a choice.
+- subject: Worldbuilding decision on a crystal-powered engine, its ammo, and a "love harvester" mechanism as an abundant alternative power/resource source

@@ -1,0 +1,4 @@
+- sources:
+  - industrial Beijing | real-world reference to draw inspiration from for depicting Skyfall's hyper-capitalism and pollution; the model is to mine it for ideas, not treat it as canon | how can I draw inspiration from industrial Beijing | referred-to
+- order:
+- about: The user asks how to use industrial Beijing, and any other horrific real-world examples, as inspiration for depicting the polluted, hyper-capitalist city of Skyfall, and floats a tentative idea of pollution-driven weather that splits rich from poor.

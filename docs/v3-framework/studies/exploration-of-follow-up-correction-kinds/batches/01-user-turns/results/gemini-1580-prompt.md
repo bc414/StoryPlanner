@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Severyana analysis without comment and opens a new question about tying Rarity's Gala "find my princess" wish to Aquileian fairy tales, and about which English and French historical tropes those stories parallel.

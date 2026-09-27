@@ -1,0 +1,6 @@
+- sources:
+  - this conversation | the place the model is asked to check for whether a Pax Chrysalia versus TLTT comparison was covered | "Did this conversation touch on" | referred-to
+  - the Pax Chrysalia compared to TLTT analysis | the material being looked for; the user does not know if it was discussed here or elsewhere | "Pax Chrysalia compared to TLTT analysis" | referred-to
+  - a different conversation | the alternative place the analysis may have been done; the user asks whether that is where it happened | "or was that a different conversation" | referred-to
+- order:
+- about: The user asks whether an earlier analysis comparing Pax Chrysalia to TLTT took place in this conversation or in a different one.

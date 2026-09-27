@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a craft judgment, with pros and cons, on whether Celestia should attend and appear in the Applejack and Gilded Trust debate in the Ambition chapter, judged by which choice best delivers the themes.

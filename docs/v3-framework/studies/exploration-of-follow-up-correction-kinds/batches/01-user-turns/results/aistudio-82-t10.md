@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a fresh batch of notes about Celestia's two-tiered worldview, the Buffalo and Rockfeller, and asks for the same relevance check under the new paradigm, without disputing anything in the model's previous analysis.

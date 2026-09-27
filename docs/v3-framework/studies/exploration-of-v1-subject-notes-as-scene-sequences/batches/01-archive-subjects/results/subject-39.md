@@ -1,0 +1,17 @@
+- passages:
+  - 4563 | statement about the subject | his manner of speech modeled on Trump's catchphrases, plus his blonde toupee | none | plain descriptive trait, no moment
+  - 4563 | statement about the subject | his motive: not just wealth but worship as the singular savior of the species | none | general claim about what he wants
+  - 4564 | scene beat without a year | a past event: he went to Skyfall in company with Comet Shine, Flim and Flam | none | single event stated in the past tense, no date
+  - 4565 | statement about the subject | his creed of rugged individualism without treason, his refusal of Skyfall loans as a foreign griffon invasion, and his use of Aquileian-learned nationalist rhetoric to push workers | none | describes belief and habitual method, not a single moment
+  - 4566 | scene beat without a year | he takes over Las Pegasus and actually helps in the war | none | an event that happens, no date given
+  - 4567 | statement about the subject | his platform of rugged individualism and nationalism, sincere rather than conman, which makes him dangerous | none | assessment of what he is and stands for
+  - 4666 | statement about the subject | his rhetorical habits: Winners vs Losers framing, nicknames, absolutes about his oil | none | describes how he talks, with example line
+  - 5026 | statement about the subject | wartime version of him equals what Trump promised (ending unfair trade deals, draining the swamp) | none | contrast between two phases, framed as meaning/analogy
+  - 5026 | statement about the subject | postwar version of him equals what Trump actually delivered (individualism, extraction, imperialism, culture war) | none | second half of the phase contrast
+  - 5266 | statement about the subject | how the gilded bit verification machine works at the cashier, including the bread purchase illustration, why merchants need it because of distrust, and that his firm sells the machines | none | numbered layer 1, describes a standing mechanism
+  - 5266 | statement about the subject | he pays roughnecks and mercenaries in Gilded Bits and controls the mint and thus inflation, printing his own payroll | none | numbered layer 2, standing arrangement
+  - 5266 | statement about the subject | the electricity toll: inefficient power-hungry machines force merchants to buy power and oil from his holdings | none | labelled Layer 3
+  - 5266 | statement about the subject | the interchange fee: machines sort a share of bits into a locked box that armored trucks collect weekly | none | labelled Layer 4, compared to credit card fees
+  - 5266 | statement about the subject | his marketing of the scheme as patriotic salvation, with a sample rant against Skyfall Marks, rebranding company scrip as Economic Independence | none | explanatory analysis with quoted rhetoric, not a scene
+- sequences:
+- whole: A set of mostly character-and-ideology notes on a Trump-modeled tycoon, with two thin one-line event notes (Skyfall trip, taking over Las Pegasus) and one long note laying out the layers of his Gilded Bit currency scheme, none dated and none running as a sequence of beats.

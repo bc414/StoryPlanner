@@ -1,0 +1,11 @@
+- asks:
+  - affirm | states approval of a previously discussed idea (parameterizing a 3D magical lithography spell via a mask) as the core insight, implicitly asking the model to lock this in and keep building from it | "I like the idea that the core insight is..."
+  - inform/continue | supplies a new piece of Twilight Sparkle backstory (a season-1-era attempt to copy a unicorn horn pattern into a crystal, her pre-friendship habit of inventing unshareable spells, and why she stopped after Applejack's reaction) for the model to fold into the ongoing plan | "Twilight already tried studying how to copy a unicorn's horn pattern into a crystal..."
+  - inform/continue | notes a canon constraint (Twilight can learn to cast a spell just by reading about it in a book) and draws the inference that the magic patterns involved can't be too complex, for the model to reconcile with the spell system being designed | "canonically, Twilight can read a book and figure out how to cast a spell from it, so I suppose the patterns aren't that complex"
+- supplies:
+  - idea endorsement | agreement that mask-based external parameterization is the core insight of the 3D magical lithography spell | one sentence
+  - backstory note | Twilight's season-1-timeframe attempt to copy a unicorn's horn pattern into a crystal, her pre-friendship habit of inventing spells no one else could cast, and her stopping after Applejack scolded her during Winter Wrap Up | a few sentences
+  - canon-fact note | Twilight's established ability to learn spells from reading books, offered as evidence that the underlying magic patterns are not very complex | one sentence
+- shaping:
+- openness: Leans toward an answer: the message affirms a named mechanic (mask-based parameterization) as settled and presents the Twilight backstory and book-learning fact as established points to build the plan around, rather than posing an open question.
+- subject: Worldbuilding continuity for an MLP fanfic's magic system (mask-parameterized lithography spell) and Twilight Sparkle's backstory/canon consistency

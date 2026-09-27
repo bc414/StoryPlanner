@@ -1,0 +1,7 @@
+- sources:
+  - this, the earlier draft the user asks to have revised | the base text to be rewritten with the new facts | Please revise this | referred-to
+  - the fact that the hives were harmonic 700 years ago, with Jaegers protecting the hives and hunts shared, before the overhunting | treat as established story-world fact the revision must build on | with the fact that the hives were harmonic 700 years ago | first-named
+  - the plan for the native changeling language to be fully oral with no written tradition | the author's stated plan, to be applied as a constraint on the revision | I also plan for the native changeling language to be fully oral | first-named
+  - the idea that native changeling soft words of warmth perhaps did not survive, or survived in fairy tales | tentative suggestion posed as a question, not settled | perhaps they did not survive? Or they survived in fairy tales | first-named
+- order:
+- about: The user asks the model to revise a previous draft so it reflects the harmonic hive past of 700 years ago, floats that native warm words may have been lost or survive only in fairy tales, and states that the native changeling language is to be purely oral.

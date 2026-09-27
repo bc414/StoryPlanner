@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual language question, whether "Minette" means kitty in French and what the English equivalent name would be, without pointing the model at any body of material.

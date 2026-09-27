@@ -1,0 +1,5 @@
+- sources:
+  - Faust's Twilight | one of two reference versions of the character to measure the story's Twilight against; neither is preferred | Is she Faust's Twilight | referred-to
+  - Hasbro's Twilight | the other reference version to measure the story's Twilight against; neither is preferred, and a third option of matching neither is left open | Hasbro's Twilight, or away from either | referred-to
+- order:
+- about: The user narrows the prior question to Twilight as a character and asks whether she is closer to Faust's version, Hasbro's version, or neither.

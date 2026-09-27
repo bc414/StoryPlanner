@@ -1,0 +1,45 @@
+- passages:
+  - note 5523 | definitional-conditional | parallel "It is X when Y" clauses with parenthetical examples | hunting log vs trophy shelf depending on demographic scarcity | apart
+  - note 5523 | third-person expository | temporal-causal clause "As the taming happens..." | bravery required falls as taming progresses, dynamics equalize | apart
+  - note 5524 | third-person expository | declarative statement, exclamation mark | Chrysalis's radical honesty policy via emotional auditing | apart
+  - note 5524 | imperative directive | bare imperative verb "Make..." | design directive to make lying costly | apart
+  - note 5524 | third-person expository | declarative comparative clause "Even if..." | cost comparison: faking vs incompetence | apart
+  - note 5525 | third-person expository | declarative explanation, present tense | thymoluminescent ink glows only for fling-ambition, unlike Idol of Boreas | apart
+  - note 5526 | third-person expository | plain declarative definition | stamp's personal ownership and logo pattern | apart
+  - note 5526 | procedural-technical | step-by-step verb chain, specialized terms (Curie Temperature, lathes) | forging process for the crystal stamp | apart
+  - note 5526 | third-person expository | conditional rule statement ("must have", "If...") | psychological requirement for stamp to accept owner | apart
+  - note 5526 | evaluative interpretive aside | "Therefore" conclusion, value judgment ("elitist barrier", "safety mechanism") | judgment on the barrier as elitist yet safety-driven | apart
+  - note 5526 | heading-label | short declarative transition sentence | transition to the three modes | apart
+  - note 5527 (carries a borrowed phrasing) | heading-label | mode number and name on its own line | mode heading: Anchor Mode | apart
+  - note 5527 (carries a borrowed phrasing) | procedural-technical | action sequence with mechanism vocabulary | how anchor mark is placed to claim ownership | apart
+  - note 5528 | heading-label | mode number and name on its own line | mode heading: Hoofshake Mode | apart
+  - note 5528 | procedural-technical | multi-sentence mechanism description, vector/axis terms | how mutual stamp exchange marks a consensual fling | apart
+  - note 5530 | heading-label | mode number and name on its own line | mode heading: Verification Mode | apart
+  - note 5530 | procedural-technical | mechanism description with cause-effect chain | how verification glow authenticates marks and blocks fakes | apart
+  - note 5531 | third-person expository | general rule plus illustrative example | logo can be updated without changing underlying intent | apart
+  - note 5532 | third-person expository | causal explanation, single sentence | why stealing a tableau and faking the anchor mark fails | apart
+  - note 5533 | third-person expository | causal explanation with parenthetical analogy | why stealing someone's stamp fails to produce a glowing mark | apart
+  - note 5534 (carries a borrowed phrasing) | real-world allegory comparison | explicit naming of real-world tech, "NOT" correction | real-world tech analogy: TrueDepth/Face ID not RSA | apart
+  - note 5536 | lore-historical narrative | past-tense historical account, lowercase opening | Aquileian origin: adapting Idol of Boreas mechanics | apart
+  - note 5536 | evaluative interpretive aside | "But ultimately" judgment, value word "vanity" | aside judging the effort spent on vanity | apart
+  - note 5536 | lore-historical narrative | future-tense world-building statement | future evolution into the universal translator | apart
+  - note 5537 | third-person expository | conditional narrative about a hypothetical poseur | poseur redeemed by burning fake book and restarting | apart
+  - note 5537 | economic-analytic jargon | business/economic terms ("ego capitalism", "asset specificity") | Aquileia's ego capitalism logic of asset specificity | apart
+  - note 5537 | second-person direct address | pronoun "you", direct address | addressing reader: showing up humble makes you a unique asset | apart
+- shifts:
+  - note 5523 | definitional-conditional | third-person expository | shift from parallel "It is X when Y" definitions to a single temporal-causal statement
+  - note 5524 | third-person expository | imperative directive | shift to a bare imperative verb ("Make...")
+  - note 5524 | imperative directive | third-person expository | return to a declarative comparative clause ("Even if...")
+  - note 5526 | third-person expository | procedural-technical | shift to a step-by-step verb chain and specialized forge terminology
+  - note 5526 | procedural-technical | third-person expository | return to a conditional rule about the owner's psychological state
+  - note 5526 | third-person expository | evaluative interpretive aside | shift marked by "Therefore" and explicit value judgment
+  - note 5526 | evaluative interpretive aside | heading-label | shift to a short declarative heading sentence introducing the modes
+  - note 5527 (carries a borrowed phrasing) | heading-label | procedural-technical | shift from the standalone mode label to a descriptive action sentence
+  - note 5528 | heading-label | procedural-technical | shift from the standalone mode label to a descriptive mechanism passage
+  - note 5530 | heading-label | procedural-technical | shift from the standalone mode label to a descriptive mechanism passage
+  - note 5536 | lore-historical narrative | evaluative interpretive aside | shift marked by "But ultimately" and the value word "vanity"
+  - note 5536 | evaluative interpretive aside | lore-historical narrative | return to a declarative, future-tense world-building statement
+  - note 5537 | third-person expository | economic-analytic jargon | shift to business/economic terminology ("ego capitalism", "asset specificity")
+  - note 5537 | economic-analytic jargon | second-person direct address | shift marked by the pronoun "you"
+- registers: definitional-conditional; third-person expository; imperative directive; procedural-technical; evaluative interpretive aside; heading-label; real-world allegory comparison; lore-historical narrative; economic-analytic jargon; second-person direct address
+- whole: This place's notes move through several distinct registers — plain expository definition, conditional rule-statements, step-by-step technical process, a bare imperative directive, evaluative asides, mode headings, a real-world tech comparison, historical lore narration, economic jargon, and a moment of direct address — but every shift lands at a sentence or paragraph break rather than mid-sentence, so the registers sit side by side rather than blending.

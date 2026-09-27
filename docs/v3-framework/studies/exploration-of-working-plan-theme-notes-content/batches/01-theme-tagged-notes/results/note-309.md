@@ -1,0 +1,5 @@
+- claims:
+  - design commitment | The story's aim is settled as world peace. | The goal is world peace. | What is the story ultimately driving toward? | no
+  - design commitment | Applejack will run into several separate instances of the Predator's Dilemma, and these are what block world peace. | Applejack encounters multiple examples of The Predator's Dilemma which stops world peace | What obstacle does Applejack meet, and how often? | no
+  - design commitment | Harmonic Capitalism is fixed as the mechanism that ends the Predator's Dilemma cycle. | Harmonic Capitalism is the way to break the cycle. | What does this system do about the obstacle to peace? | partly
+- theme: It names the theme without arguing it. The note gives a goal, an obstacle and the system as the remedy. It never says how the system's rules or effects show that strength is a prerequisite for mercy, and it does not use the ideas of strength or mercy at all.

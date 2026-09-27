@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model framed the comparison around prose style, drafting and a lore-keeper prompt, as if the user wanted Claude to generate text. The user says their use is analysis for inspiration only, so the stylist and generation strengths miss what they want. | I don't need text generation, only analysis for inspiration | flat statement of the actual need, followed by a narrowed re-ask of the question, with no apology or irritation
+- about: The user narrows their need to analysis for inspiration, without generation, and re-asks whether Claude has any real leap over Gemini for that use.

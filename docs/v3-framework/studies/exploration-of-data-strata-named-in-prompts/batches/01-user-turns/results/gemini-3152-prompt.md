@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user, saying they are a hobbyist on flat $20/month subscriptions and not using per-token API keys, asks whether work can be scheduled to run in the off-peak window using the Claude Pro and Gemini AI Pro tools, and whether Google AI Studio is subject to the same dynamic throttling, without pointing the model at any body of material.

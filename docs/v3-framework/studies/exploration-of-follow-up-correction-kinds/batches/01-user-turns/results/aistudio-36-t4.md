@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their own plan for Kemerskai's martial law (986, passed through the current legislature after Coltbert's paper) and asks for a new analysis of what precedes and depends on it, with pros and cons of moving its date, without disputing anything in the model's previous turn.

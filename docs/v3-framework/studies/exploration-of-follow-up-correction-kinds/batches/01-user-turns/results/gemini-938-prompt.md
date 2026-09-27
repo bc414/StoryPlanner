@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks up the detail of Applejack eating her parents' factory rations and asks a new question about its symbolism, placing it in a scene where she is fleeing for her life, without disputing anything the model said.

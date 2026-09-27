@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps out of the story's economic worldbuilding to ask a new real-world question about whether debt drives the modern economy and for a historical breakdown of it, without challenging anything the model said.

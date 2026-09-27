@@ -1,0 +1,5 @@
+- passages:
+  - note 5720 | plain statement of fact | flat declarative sentence, no hedging or address | dragon lifespans matching other peer species | apart
+- shifts:
+- registers: plain statement of fact
+- whole: The single note here is written in one plain, matter-of-fact register throughout, with no internal shift.

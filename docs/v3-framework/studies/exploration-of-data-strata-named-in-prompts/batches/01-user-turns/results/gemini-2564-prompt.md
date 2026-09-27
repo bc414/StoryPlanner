@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether the naval culture just described is the precedent that leads smoothly into the Aquileian cartel in Skyfall, without pointing the model at any body of material or ranking any.

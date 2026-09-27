@@ -1,0 +1,6 @@
+- sources:
+  - story plan | model is to review it as the basis for its analysis of which propositions stand alone and which are examples | review the story plan, framework, and give analysis | referred-to
+  - framework | model is to review it and apply it to the analysis, including the judgement criteria for what counts as a standalone proposition | review the story plan, framework, and give analysis | referred-to
+  - predator's dilemma paper | treated as the evidence for the material-conditions-drive-character proposition; the user is tentative about this link | the predator's dilemma paper is evidence for, I think | referred-to
+- order:
+- about: The user gives a proposition-by-proposition reaction to the model's list of surviving themes, marking which seem standalone and which seem to be examples of others, asking for the criteria that separate the two, adding a competing theme, and asking the model to review the story plan and framework and analyze.

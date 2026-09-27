@@ -1,0 +1,7 @@
+- sources:
+  - my previous definition of jaeger geist as cutting off emotion sense | treated as the older definition, now replaced, though it was what explained why conscripts resist the Lioness spell, so the model must account for losing that explanation | previous definition of jaeger geist as cutting off emotion sense | referred-to
+  - the new definition of jaeger geist as refined pink love | treated as the current working definition to reason under; the model must say what follows from it for the Lioness spell | recently introduced the idea that jaeger geist is actually refined pink love | referred-to
+  - the Lioness spell from Canterlot Wedding | treated as an established show event to reconcile with; the model must explain why Cadance and Shining Armor cannot simply fire it, or say whether it still works | the Lioness spell from Canterlot Wedding | referred-to
+- order:
+  - the new definition of jaeger geist | over the previous definition of jaeger geist | With the new definition, how can I explain why Cadance and Shining Armor can't just fire the Lioness spell
+- about: The user notes that a recent redefinition of jaeger geist undermines the earlier explanation for why conscripts are immune to the Lioness spell, and asks how to explain, under the new definition, why Cadance and Shining Armor can't simply use the Canterlot Wedding spell, or whether it still works.

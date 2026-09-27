@@ -1,0 +1,5 @@
+- sources:
+  - the author's own two-Discrets version (Gerad the tax-collector king with a royalist machine at a Versailles-like city, Moriset his son running the counterrevolution, Pridea a separate city) | treat as the working premise for the answers, replacing the single-Discret setup and the use of Pridea as the palace city | I see two different Discrets | referred-to
+  - French history around Louis XIV and Versailles (nobles of the sword at court, the nobility before Louis XIV) | use as the historical analogue to answer how the nobles' attendance, serf control, duties and earlier situation would work | What was it like for them before Louis XIV? | referred-to
+- order:
+- about: The user replaces the model's single-Discret setup with their own two-generation version (Gerad, then Moriset) and asks the model to explain, by analogy with Louis XIV's France, how the nobles at the Versailles-like court would live and whether some would be loyal administrators.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Twilight was absent from the shared battle experience and so is excluded from a trench bond with Applejack; the user says Twilight has fought alongside Applejack, including wrecking things together in the 2nd battle of Tall Tale | To be clear, Twilight has no shortage of being in battle with Applejack. During the 2nd battle of tall tale they did a ton of destruction together | Flat clarification, backed by a specific story event, with no apology or heat
+  - own name: tone of the proposed plot element | The model treated the trench bond as a heavy, dangerous trauma-bond jealousy; the user wants it to be more silly | I think the trench bond thing should be more silly | Stated as a personal preference or judgment, brief, with no reason given
+- about: The user narrows the model's Twilight-jealousy analysis by correcting the claim that Twilight missed the battles and asking for a sillier trench bond, then agrees with the grass/grassroots angle and adds their own reading of the early seasons versus the School of Friendship.

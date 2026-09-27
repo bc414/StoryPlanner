@@ -1,0 +1,5 @@
+- sources:
+  - historical archaeological data points about my Pokemon fanfiction history | material to draw on and connect to the other source; treated as established findings | these historical archaeological data points about my Pokemon fanfiction history | referred-to
+  - recent insights I made in the first half of this conversation | material to draw on, linked with the historical data points; treated as the author's own insights to connect against | the recent insights I made in the first half of this conversation in present day | referred-to
+- order:
+- about: The user asks the model to find further connections between the Pokemon fanfiction history findings and the insights they reached earlier in this same conversation.

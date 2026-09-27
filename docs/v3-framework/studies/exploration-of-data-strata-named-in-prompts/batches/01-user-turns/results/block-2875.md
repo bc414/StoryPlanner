@@ -1,0 +1,4 @@
+- sources:
+  - the story plan | consult it to find out why Feudal Herzland attacks the Riverlands and subjugates Aquileia; treat it as the basis for correcting the framework | Look into the story plan to understand WHY | referred-to
+- order:
+- about: The user rejects the model's claim that Celestia differs from the Tzinacatl in agricultural self-sufficiency, and says the ambiguity over Feudal Herzland points to an imprecise axis, so the model should consult the story plan for Herzland's motives.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a revised character arc in which Réni and Minette arrive in Tall Tale still arrogant and unaware of their damage, break at Stalliongrad, and later learn from Equestria that systemic change and empathy matter more than individualist meritocracy, without pointing the model at any body of material to use or avoid.

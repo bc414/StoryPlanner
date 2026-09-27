@@ -1,0 +1,4 @@
+- sources:
+  - my lore about Celestia's stagnant economy, the rigid gold standard, Aquileian imports draining gold, and Chrysalis sponsoring Rockfeller-type businesses | treat as the author's established story lore to be taken as true and analysed, as an addition to the earlier analysis | I also had lore related to how Celestia's Stagnant economy operates | first-named
+- order:
+- about: The user adds a further piece of their own worldbuilding lore, an economic backstory of gold-standard drain engineered by Chrysalis, and asks the model to analyse it.

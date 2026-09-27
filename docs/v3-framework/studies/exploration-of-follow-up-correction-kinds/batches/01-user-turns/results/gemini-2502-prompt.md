@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the anime comparison to ask new questions about The Hub's launch alongside MLP:FiM, where its shows' writers and animators came from, and how Cartoon Network, Nickelodeon and Disney are funded, adding a fact about WildBrain in Vancouver without disputing anything the model said.

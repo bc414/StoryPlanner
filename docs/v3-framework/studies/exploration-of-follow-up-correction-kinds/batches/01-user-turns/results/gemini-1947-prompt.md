@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's summary of Equestria at War's Griffonian lore as a contrast point and lays out their own materialist plan (Grovers 1 and 2 as composite myth, the Idol as propaganda), then asks how canon's Idol of Boreas could fit their theory of magic as ambition scaling with pride.

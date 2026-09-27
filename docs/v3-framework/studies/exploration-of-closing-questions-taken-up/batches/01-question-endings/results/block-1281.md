@@ -1,0 +1,7 @@
+- questions:
+  - Whether/how Starlight reacts to Twilight's anxiety-driven checklists and Friendship Reports during her Ponyville 'student' period, and whether she recognizes Twilight's fear of Celestia and how that alters her view of the 'perfect' Alicorn Princess | ignored | none | none
+  - How Starlight, drawing on Caramel Marks's manifesto, verbally dismantles the Aquileian volunteers' (e.g. Fleur Bloom) 'Ego-Capitalism'/Asset Specificity snobbery and exposes the Wallflower problem before Applejack does | ignored | none | none
+- shape: Sets aside the model's Socratic questions entirely and instead redirects to a canon-accuracy correction: points to the Cutie Map Part 2 transcript to note the town ponies already had their marks back and used them to catch Starlight, proposes Double Diamond and the others capture her instead of her fleeing to a cave, and instructs that her reason for joining Twilight should be aligned with the decision-making shown in the Cutie Re-Mark Part 2 transcript so her psychology stays canon-consistent for TLTT
+- settles:
+  - Starlight is captured in the muddy square by Double Diamond and the other Our Town ponies rather than fleeing into a cave for a season | proposing Double Diamond and the others catch Starlight instead of her escaping into a cave
+  - Starlight's motivation for joining Twilight must mirror the decision-making depicted in The Cutie Re-Mark Part 2, to keep her psychology canon-true for TLTT | why starlight joins Twilight should reflect the same decision making in ... The Cutie Re-Mark - Part 2

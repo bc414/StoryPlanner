@@ -1,0 +1,9 @@
+- asks:
+  - evaluation | assess whether a stated claim about Chrysalis's narrative role is accurate | "Please assess this claim: Chrysalis is mostly a background menace..."
+  - evaluation | judge whether a planned three-stage characterization arc for Chrysalis will work | "Does this work?"
+- supplies:
+  - claim, a one-sentence characterization of Chrysalis's role | describes Chrysalis as a mostly abstract, background menace across both stories | a sentence
+  - plan sketch, a described arc for introducing Chrysalis | outlines moving her from monster, to pathetic narcissist via memories of the Canterlot Wedding, to a modernist visionary tyrant | a short paragraph
+- shaping:
+- openness: The message states both a claim and a planned arc and asks the model to check whether they hold/work, rather than leaving the question open-ended.
+- subject: how Chrysalis should be characterized and revealed across the planned story/stories

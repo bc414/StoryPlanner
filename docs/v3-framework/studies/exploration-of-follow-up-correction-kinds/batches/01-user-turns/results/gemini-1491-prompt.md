@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Equestria economic analysis as a base and extends it to Herzland, adding their Count of Monte Cristo motive for Chrysalis and asking how the Reich and Archon Eros would handle currency and the economy after the 1007 noble purge.

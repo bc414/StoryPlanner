@@ -1,0 +1,8 @@
+- sources:
+  - the story plan | check the model's reading of Helena's Drought against it; it should show how Helena learned the ability from a Torkoal in Miloa | "review the story plan and written prose" | referred-to
+  - written prose | read it to verify how Drought works, including Max explicitly saying Kyukonais is sunny because of the equator and not because of the Groudon myth | "review the story plan and written prose looking for how Helena learned" | referred-to
+  - the model's earlier reading of Drought and the hopepunk endgame (the assumed tropes) | treat as wrong and drop | "these are the wrong assumed tropes about how Helena's Drought ability works" | referred-to
+  - the author's own recollection of what hopepunk arcs 5 and 6 were meant to do | offer as the intended meaning (Margot as the more effective president than Helena as Queen), held loosely rather than as settled fact | "I think the hopepunk arc 5 and 6 was meant to depict" | referred-to
+- order:
+  - story plan and written prose | over the model's earlier assumed tropes about Drought | "Please review the story plan and written prose" after calling the earlier reading wrong
+- about: The author corrects the model's reading of Helena's Drought and the hopepunk endgame in KU, sends it back to the plan and prose to verify, and then reflects on why he can build the fabula without reward and why he prefers the architect approach to an editorial process.

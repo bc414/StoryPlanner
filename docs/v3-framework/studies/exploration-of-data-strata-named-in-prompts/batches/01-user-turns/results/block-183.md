@@ -1,0 +1,6 @@
+- sources:
+  - TLTT (the anchor story, including Applejack's story and what other characters tell her about Chrysalis) | treat as true: the author's account of what the reader learns about Chrysalis and Minette there, given as the answer to the model's gaps | By the end of TLTT, the reader learns the entire high-level summary | referred-to
+  - Minette's prequel (including its part running parallel to TLTT) | treat as true: the author's account of its content, timeline and arc, given as the answer to the model's questions | Minette's prequel starts 30 years before TLTT and details | referred-to
+  - Chrysalis's story | treat as true: the author's brief statement of what it shows, that she learned from Aquileian ideology and twisted it into industrialized fascism | In Chrysalis's story, we learn that she learned from Aquileian ideology | referred-to
+- order:
+- about: The user answers the model's clarifying questions by laying out, from their own plan, what TLTT, Minette's prequel and Chrysalis's story each reveal and how Minette's and Chrysalis's arcs connect, so the model can advise on reading order.

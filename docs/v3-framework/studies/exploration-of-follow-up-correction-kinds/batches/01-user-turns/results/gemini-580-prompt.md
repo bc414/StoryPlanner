@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking for the counterfactual of Lenin surviving or Trotsky beating Stalin, as source material for an idealistic Stalliongrad, and does not challenge anything the model said.

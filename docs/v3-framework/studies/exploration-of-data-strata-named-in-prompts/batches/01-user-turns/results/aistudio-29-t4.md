@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the idea that Pink and Red Love are tied to diet, and proposes that magically enhanced digestive supplements, developed by terroir-obsessed Aquileian scientists and farmers, let ponies and griffons share culinary traditions.

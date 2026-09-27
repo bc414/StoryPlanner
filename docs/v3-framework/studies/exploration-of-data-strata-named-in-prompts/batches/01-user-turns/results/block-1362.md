@@ -1,0 +1,13 @@
+- sources:
+  - Faust-era evidence, season 1 episodes including each pair's dedicated season 1 episode | treated as the seed material ship dynamics mostly come from and as where pairs get a consistent built-in dynamic; the model is to test TwiJack and PinkieShy against it | "Faust era evidence as seeds" | referred-to
+  - the later mandate-era episodes | treated as where the built-in pair logic degraded, surviving only on the surface, with TwiDash the exception that was strengthened; not the main seed source | "not the later mandate era" | referred-to
+  - Fall Weather Friends | treated as evidence that it launched AppleDash and also TwiDash, through the egghead line | "Fall Weather Friends also birthed TwiDash" | referred-to
+  - the first episode | treated as evidence that the Applejack and Rainbow rivalry was already built in before Fall Weather Friends, for example the tail bite | "in the first episode when Applejack bites Rainbow's tail" | referred-to
+  - Read it and Weep (season 2) | treated as the first big explicit TwiDash episode, but not the origin of the ship, since shipping predates it | "Read it and Weep" | referred-to
+  - the model's earlier claim that Those Blue Wings is a TwiDash story | treated as wrong and corrected | "that assertion seems wrong" | referred-to
+  - the author's own knowledge of fandom fiction, that Those Blue Wings is AppleDash and that monochromatic's writing grew Rarity and Twilight | treated as true, offered as a correction and an addition to the model's account | "I know that Those Blue Wings is an AppleDash story" | first-named
+  - the earlier TwiJack analysis in this conversation | used as the baseline the PinkieShy analysis is compared against, so TwiJack is not judged on positive examples alone | "put the TwiJack analysis into relative perspective" | referred-to
+- order:
+  - the author's own knowledge of fandom fiction over the model's earlier claim about Those Blue Wings | the author states the claim is wrong from what they know
+  - Faust-era evidence over the later mandate-era episodes | the user says most ship dynamics come from the Faust-era seeds and the built-in logic degraded as the mandate set in
+- about: The user asks whether ship dynamics mostly grow from Faust-era seeds, corrects the model's fandom history from their own knowledge, offers their own readings of early episodes as evidence, and asks for a PinkieShy analysis to set against TwiJack.

@@ -1,0 +1,4 @@
+- sources:
+  - the poseurs theme | the recall law and the tycoons' dirty tricks should be made to fit this theme of the story | This should fit the poseurs theme | referred-to
+- order:
+- about: The user replaces the proposed obscure law with a silly mayoral-recall joust-duel law (10% petition, 75% to win) and asks that it fit the poseurs theme, with the tycoons using dirty tricks to prop up the mayor.

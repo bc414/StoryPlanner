@@ -1,0 +1,8 @@
+- asks:
+  - review | look over the story plan content for chapter 17 ("Honor") | "Please review my story plan from chapter 17 Honor"
+  - analyze | compare and analyze the contrast between chapter 17 ("Honor") and chapter 6 ("Kindness") | "analyze the contrast to chapter 6 Kindness"
+- supplies:
+  - plot detail | a scene description: when Celestia does not wake, AJ speaks to Trimmel, dons Rarity's new uniform, and swaps her title "The Element of Honesty" for the enemy-given name "the Lioness of Tall Tale," marking her acceptance of a burden and refusal to return to farming | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the message asserts its own symbolic reading of the scene (uniform and title swap as acceptance of burden, rejection of the farmer identity) and asks the model to analyze the contrast to chapter 6 building on that stated interpretation.
+- subject: Contrast between chapter 17 (\"Honor\") and chapter 6 (\"Kindness\") in the story plan, centered on AJ's identity shift shown through a uniform and title change.

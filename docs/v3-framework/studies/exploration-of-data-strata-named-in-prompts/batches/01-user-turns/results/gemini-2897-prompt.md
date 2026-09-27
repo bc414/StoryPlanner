@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pares back the model's blinding-glare proposal for the Idol, asking for only a mild glow that scales with ambition and attributing the rest of the fearsome effect to Archon propaganda, without pointing at any body of material to draw on.

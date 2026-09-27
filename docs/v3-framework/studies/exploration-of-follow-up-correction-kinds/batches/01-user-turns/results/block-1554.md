@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's mode layouts and migration methodology alone and starts a new line of thought on how each non-character subject type serves as evidence for thematic propositions, then asks for a thorough analysis that adds gaps, refutes weak claims and checks his guesses.

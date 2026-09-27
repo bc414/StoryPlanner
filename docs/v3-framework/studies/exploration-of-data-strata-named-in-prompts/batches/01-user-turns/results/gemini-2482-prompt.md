@@ -1,0 +1,8 @@
+- sources:
+  - the chasseur protocol | treat as the governing rule for judging redeemability: warlords and grifters who choose to be mean are irredeemable, and Starlight passes it because she is not being mean | Going by the chasseur protocol, warlords/grifters who choose to be mean are irredeemable | referred-to
+  - my story (the story's own plan for the EEEE! solidarity union) | treat as settled: the story's answer to Starlight's cult is that its members join the EEEE! | My story says their actual solution is to join EEEE! | referred-to
+  - P&K (the grimdark eaw fanfiction where Chrysalis takes over Equestria and Flurry Heart grows up as a warlord) | treat as a foil to subvert, not follow: its claim that Starlight's harmonic conditioning kept her from fighting is rejected | I subvert this by having Starlight be violent, self aware, and nation building | referred-to
+  - the show's post-redemption Starlight Glimmer, including No Second Prances | treat as the author's reading of canon and use it as the basis for the claim that Starlight is fine and brings adult lessons, with No Second Prances read as a critique of Twilight's stagnation of harmony | post Starlight redemption, she actually brought a lot of genuine adult lessons to the show | referred-to
+  - my story plans and these notes | review them and synthesize an updated analysis from them | Please review my story plans and synthesize an updated analysis of these notes | referred-to
+- order:
+- about: The user corrects the model's framing of Starlight Glimmer by defending her post-redemption writing, restating how the chasseur protocol and the EEEE! union apply to her, and asking for an updated synthesis of the story plans that subverts the grimdark fanfic P&K's version of her.

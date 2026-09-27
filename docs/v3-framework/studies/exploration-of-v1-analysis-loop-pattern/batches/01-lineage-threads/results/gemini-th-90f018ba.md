@@ -1,0 +1,10 @@
+- steps:
+  - author | reintroduce | pastes a previously established device/mechanic description (harvester, donator, rifle integration, drain effect, crystal-naming lore) said to have dropped out of context | opening of gemini:327
+  - model | systematize | organizes the pasted material into a phased tech lineage, expands a muscle analogy into a fatigue mechanic, and develops the secret naming history with a character-realization beat and summary table | gemini:327 response
+  - author | introduce refinement | proposes that the person (not just the extracted love) visibly turns grey, tying it to an existing show character's canon transformation, and sketches species-specific variants | opening of gemini:328
+  - model | elaborate framework | builds a staged desaturation model, a per-species symptom breakdown, a fuel/exhaustion mechanic, a framing of the show character as a diagnostic case, and a sample scene with dialogue | gemini:328 response
+  - author | repeat idea | resends a near-identical version of the same refinement with only minor wording changes | opening of gemini:329
+  - model | re-elaborate framework | produces a second full version of the same framework under different labels, adds a tactical failure mechanic, contrasts two factions' recovery methods, and ties the symptom back to the earlier device's horror | gemini:329 response
+- kept:
+- brought: The author brought back a device/mechanic description from earlier planning that had fallen out of the conversation's visible context, then repeatedly brought a refinement of it (a visible physical symptom of drain, linked to existing show canon) for further development.
+- loop: The author feeds the model a lore fragment (once recovered from prior planning, once introduced fresh and then resent nearly verbatim), and the model responds each time with a full systematized elaboration of mechanics, species variants, and scene material; despite two rounds of substantial development, no note from this stretch was traced into the planning database.

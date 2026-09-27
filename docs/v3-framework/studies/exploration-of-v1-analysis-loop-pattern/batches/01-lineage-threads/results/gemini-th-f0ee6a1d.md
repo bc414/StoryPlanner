@@ -1,0 +1,31 @@
+- steps:
+  - author | recap | restates Fluttershy's chapter 5 decision to leave her sanctuary and join Twilight, sets chapter 6 title and premise | opening of the message
+  - author | world-building | lays out changeling inhibitor mechanics, love-feeding, and the 'primitive' biting method prisoners resort to | early in the message
+  - author | scene-beat | describes Fluttershy stopping a changeling mid-attack with the Stare and comforting it like an animal | mid-message, before the drafted dialogue
+  - author | scene-beat | describes Henri's stunned reaction to the Stare and the Herzlander-language backstory tying changeling culture to Griffonian imperialism | mid-message, before the drafted dialogue
+  - author | draft-script | writes a full dialogue draft of the Fluttershy/Henri/griffon/changeling scene covering the Stare, the 'bugs' argument, love rations, and the donation of love | bulk of the message
+  - author | draft-script | extends the draft with a beat on distinguishing changelings, sourcing a doctor, and the love-harvester device | continuing the draft script
+  - author | draft-script | adds the Applejack love-donation and Twilight/Applejack braiding scene as a coda | later in the draft script
+  - author | lore-context | states the war's founding justification (changelings as predators vs. Equestria's sheltered paradise) as background Fluttershy is learning | near end of message, after the draft
+  - author | question | asks for analysis of how the changeling lore and Fluttershy's canon animal-caretaker persona fit the scene | end of message
+  - author | question | asks how playing Kindness straight, unlike the subverted Honesty/Magic/Laughter chapters, fits or doesn't fit the pattern | end of message
+  - model | verdict | argues playing Kindness straight is the correct choice, framing it as the strongest tonal contrast to the prior subversions | opening of the response
+  - model | analysis | examines the changeling lore integration: Herzlander as a borrowed imperial language, love rations as a resource problem, biting as a savagery marker | early in the response
+  - model | analysis | examines Fluttershy's characterization, tying the Stare and the 'bugs' line to her canon persona and to soft-power authority | mid-response
+  - model | analysis | examines the Twilight/Applejack scene's double function as mechanical exposition and thematic contrast with the changelings' starved love | mid-response
+  - model | structural-mapping | places chapter 6 within the book's arc, pairing each theme chapter with a lesson (kill, cost, coexist) | mid-to-late response
+  - model | suggestions | offers execution notes on the love-harvester's visual symbolism, Henri's arc as audience surrogate, and framing 'ration love' versus 'real love' | late in the response
+  - model | summary | closes by naming the chapter a moral-victory beat that answers what the movement is fighting for | end of the response
+- kept:
+  - note 109 | the author's own words in this record | keeps the description of biting as the prisoners' only remaining love-feeding method, filed under the Stare/POW plot point
+  - note 110 | the author's own words in this record | keeps the beat of Fluttershy halting the attack with the Stare and comforting the aggressor, filed under the same plot point
+  - note 112 | the author's own words in this record | keeps the drafted scene opening (Stare, scolding, translation request, starvation explanation) as the plot point's working script
+  - note 113 | the author's own words in this record | keeps the 'bugs are parasites' exchange and the mutual apology beat, added to the same plot point
+  - note 115 | the author's own words in this record | keeps an expanded version of the love-rations refusal beat (addiction framing, calling a doctor), filed under the plot point
+  - note 116 | the author's own words in this record | keeps the negotiation over smaller rations through to Fluttershy offering her own love to the changeling, filed under the plot point
+  - note 117 | the author's own words in this record | keeps the closing line telling the changelings to share until rations arrive, added to the plot point
+  - note 118 | the author's own words in this record | keeps the exchange on how Fluttershy tells changelings apart via animal-handling instinct, added to the plot point
+  - note 1162 | the author's own words in this record | keeps an expanded version of the mane-braiding beat, filed under a separate 'relaxing after the love donation' plot point
+  - note 2264 | the author's own words in this record | keeps Henri's stunned reaction and Fluttershy's off-hand explanation of the Stare, filed as a link between the plot point and the character Henri Gourard
+- brought: The author brought a near-complete draft of chapter 6's central scene, built from established prior-chapter setup and franchise/game lore, together with two open questions about thematic fit.
+- loop: The author brings a fully drafted scene script plus a thematic question about whether to subvert or play a virtue straight; the model returns validation and layered analysis of the draft's lore and characterization; the database keeps almost the entire drafted dialogue as the plot point's script and adds one link note tying the scene to a character, while the model's analytical commentary is not retained.

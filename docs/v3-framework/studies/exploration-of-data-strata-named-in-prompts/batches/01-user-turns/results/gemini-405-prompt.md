@@ -1,0 +1,6 @@
+- sources:
+  - Approach 1 | an earlier option to be weighed against the others; the user asks whether it is best because democracy is not a monolith and compromise persists even with Gaudreau as president; no verdict yet | Approach 1 2 and 3 / Is 1 the best because | referred-to
+  - Approach 2 | an earlier option to be weighed against the others; the user asks whether it is best because the FJA stays potent even with Gaudreau not president; no verdict yet | Is 2 the best because | referred-to
+  - Approach 3 | an earlier option to be weighed against the others; the user asks whether it is best because you always have a voice even if not president; no verdict yet | Is 3 the best because | referred-to
+- order:
+- about: The user asks the model to give a verdict on who is president and when by choosing among three previously discussed approaches, offering a different rationale for why each might be the best.

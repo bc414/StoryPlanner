@@ -1,0 +1,4 @@
+- sources:
+  - Plan export attached | supplied as an attachment for the model to have. The turn gives no instruction on how to treat it, and it is marked as containing 0 chars | Plan export attached — 154,173 words, 0 chars | first-named
+- order:
+- about: The user turn contains only a note that a story plan export was attached, with no instruction, question or ranking of sources.

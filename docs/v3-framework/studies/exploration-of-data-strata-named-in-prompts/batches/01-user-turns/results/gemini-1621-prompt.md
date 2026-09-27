@@ -1,0 +1,5 @@
+- sources:
+  - the elastic defense account, referred to as "this" | the thing being compared; the model is to take the account just given as the baseline and set Verdun against it | "How does this compare" | referred-to
+  - the battle of verdun | the historical comparison case; the model is to bring what it knows of the battle and compare it with the elastic defense account | "the battle of verdun" | first-named
+- order:
+- about: The user asks the model to compare the elastic defense scenario just discussed with the historical Battle of Verdun.

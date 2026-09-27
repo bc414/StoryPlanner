@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | full plan export for the person's long fiction work, its content not captured in this record | very large document, 121,343 words (shown as an empty placeholder)
+- shaping:
+- openness: left open — the message contains no visible text or instruction beyond attaching the plan export, so no task, stance, or question is stated.
+- subject: an attached plan document for a long fiction project, with no accompanying instruction

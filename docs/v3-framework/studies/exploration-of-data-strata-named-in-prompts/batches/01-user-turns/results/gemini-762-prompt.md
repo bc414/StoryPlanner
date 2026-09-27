@@ -1,0 +1,5 @@
+- sources:
+  - the 3 options | the earlier design options are the material to render as images, one image per option | Please create MLP-style images for the 3 options | referred-to
+  - MLP-style | the show's visual look is the style the images should follow | Please create MLP-style images | referred-to
+- order:
+- about: The author corrects the model's earlier assumption that the character works for Star Energy, saying she is a customer who buys its machines, and then asks for MLP-style images of the three design options.

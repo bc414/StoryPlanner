@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user draws an inference from the model's praise, asking whether the story engages EaW's industrial setting more seriously and thoroughly than two other EaW stories, which asks for confirmation and does not dispute anything the model said.

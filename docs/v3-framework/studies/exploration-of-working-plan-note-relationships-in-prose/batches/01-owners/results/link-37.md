@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 950 | Henri's earlier acts of vandalism against pony families, an earlier history that is not in this item | He went to every pony family that he vandalized.
+- whole: The owner holds a single note, so there is nothing to hang together or fall apart; it stands as one entry.

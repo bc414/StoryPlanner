@@ -1,0 +1,4 @@
+- sources:
+  - the materialist world | the framework the non-diegetic songs would have to be translated into; the author doubts every song can be made to fit it, so it is the test each song is checked against | I don't think all of them can be translated into the materialist world | referred-to
+- order:
+- about: The user asks for a list of the non-diegetic songs and, offering their own tentative fits for Smile Song, Winter Wrap Up and At the Gala, asks how the remaining songs could be handled in their materialist worldbuilding.

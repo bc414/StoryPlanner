@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2490|Krista, the nepo babies and their social setting, characters and class held elsewhere in the plan|Krista learns hard sciences in class, but she learns how to be the ultimate manipulator from watching the nepo babies' behavior
+- whole: This owner holds a single note, so there is nothing in it to hang together or to separate.

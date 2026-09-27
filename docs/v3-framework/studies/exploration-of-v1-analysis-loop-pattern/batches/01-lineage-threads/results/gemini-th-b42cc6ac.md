@@ -1,0 +1,10 @@
+- steps:
+  - the author | propose a naming split | a two-stage endonym for changelings (Ama-Bumbano/Ama-Qolo) tied to a historical schism, plus a question about oral-tradition survival and a propaganda angle for Chrysalis | opening prompt of the stretch
+  - the model | elaborate a linguistic history | staged etymology, survival mechanisms in oral culture, weaponization by Thorax and Chrysalis, scene hooks, a summary table of terms | first response
+  - the author | extend with a follow-up question | asks whether the Camp Fluttershy POWs, as democratic authority over the new written language, would adopt Isi-Bumbano as its official endonym | second prompt
+  - the model | give a verdict with justification | political and pedagogical rationale for the choice, a naming-scene sketch, an explicit yes | second response
+  - the author | request specific vocabulary | asks for translation options for 'jaeger' and 'hive', and for other story-important words needing impactful translation | third prompt
+  - the model | supply a vocabulary set | word options with etymology, connotation, and narrative tie-ins (soldier/protector, drone/worker, love variants, queen, pony), plus a summary table | third response
+- kept:
+- brought: The author brought already-established worldbuilding elements — changeling history, Thorax's post-1002 movement, and the Camp Fluttershy POW arc — as the basis for building out a conlang naming and vocabulary system.
+- loop: The author draws on existing plan elements to pose successively narrower conlang questions (naming split, official endonym, specific vocabulary), and the model answers each with an expanding linguistic system, but none of this three-round exchange was captured back into the planning database within this stretch.

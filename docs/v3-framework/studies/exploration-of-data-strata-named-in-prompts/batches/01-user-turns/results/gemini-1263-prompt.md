@@ -1,0 +1,4 @@
+- sources:
+  - the two documents | to be compared against each other, with the Include fix from the previous reply taken as applied | Now compare the two documents after this change | referred-to
+- order:
+- about: The user asks the model to compare the two documents again now that the suggested Include fix has been applied.

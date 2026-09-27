@@ -1,0 +1,6 @@
+- sources:
+  - my actual story plans | treat as the authoritative basis; redo the analysis from them rather than from the model's previous version | Reevaluate using my actual story plans | referred-to
+  - the document | reread it and draw on it again for the answer | reread the document | referred-to
+  - the actual characterization of the FJA | use the plan's real portrayal of the FJA as the basis for the reevaluation | Using the actual characterization of the FJA | referred-to
+- order:
+- about: The user rejects the model's previous analysis and tells it to redo it by rereading their story plan document and using the FJA's actual characterization from it.

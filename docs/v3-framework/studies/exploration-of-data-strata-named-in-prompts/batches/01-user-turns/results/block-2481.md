@@ -1,0 +1,4 @@
+- sources:
+  - the user's own memory | wants to avoid depending on it for dating the subscriptions, and is looking for other sources of timestamps in its place | instead of relying on memory | referred-to
+- order:
+- about: The user answers the model's request for era sequencing by asking where else they could get timestamps for their history, so they don't have to rely on recollection.

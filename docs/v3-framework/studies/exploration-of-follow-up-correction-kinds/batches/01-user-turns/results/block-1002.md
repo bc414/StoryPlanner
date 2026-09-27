@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's mapping of Prince Blueblood onto the institutional conservative, including its account of his arc (an aristocrat awakened by the Dotted Line Report who builds railway retreats); the user says his arc runs from humiliation by Pagala to uncovering the Krystalfels conspiracy | I don't think the blueblood parallel is correct | flat disagreement, then a directive to re-examine the character's arc and name what the correct allegory is
+  - reading of the plan | The model took the planning material's account of Blueblood's arc to support the constitutionalist analogy, and the user asks it to reread that arc closely | Please closely reevaluate his character arc | directive, framed as a request to redo the reading, with no reason given beyond the arc's outline
+- about: The user rejects the model's Blueblood-as-constitutionalist parallel, sends it back to his arc from Pagala's humiliation to the Krystalfels conspiracy, and asks for a corrected allegory that also covers Biden's defense-of-democracy rhetoric and its failure in 2024.

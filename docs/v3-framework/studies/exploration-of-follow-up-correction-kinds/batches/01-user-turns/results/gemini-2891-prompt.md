@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Jaeger-geist and withdrawal discussion behind and introduces a new worldbuilding element, the Wings of Dew as truth-revealing magic in Aquileian culture, then asks how to tie it into tableau de chasse anti-poseur verification and the flight mechanics.

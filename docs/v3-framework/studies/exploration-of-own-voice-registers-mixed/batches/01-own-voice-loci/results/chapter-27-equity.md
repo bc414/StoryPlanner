@@ -1,0 +1,17 @@
+- passages:
+  - note 2 | plot-summary register | plain declarative, third-person, no interjection | Applejack and friends returning and starting referendum campaign | apart
+  - note 4471 | thematic-listing register | enumerative clauses joined by 'via', abstract nouns, third person | the chapter's economic and social premise (Harmonic Capitalism, commoditized magic and industries) | apart
+  - note 4471 | amused-aside register | parenthetical exclamation '(who already love each other!)' | ponies' pre-existing capacity for love | run-in
+  - note 4471 | amused-aside register | bare parenthetical exclamation '(!)' | the novelty of ponies learning healthy sex | run-in
+  - note 4471 | rhetorical-question register | statement turned into a question ending 'weather on demand?' | commoditized weather production | run-in
+  - note 4471 | thematic-listing register | new sentence beginning 'Since democratized magic...', explanatory clause, closing parenthetical aside without exclamation | reasoning behind cheaper weather production and pegasi pacification | apart
+  - note 4471 | excited-reflection register | first-person 'I can't believe', exclamation marks, evaluative address | the author's excitement about the narrative and Celestia/Luna's improved role | apart
+- shifts:
+  - note 4471 | thematic-listing register | amused-aside register | parenthetical exclamation '(who already love each other!)' interrupts the list
+  - note 4471 | amused-aside register | thematic-listing register | list resumes after the closing parenthesis
+  - note 4471 | thematic-listing register | amused-aside register | second bare parenthetical exclamation '(!)'
+  - note 4471 | amused-aside register | rhetorical-question register | the listed clause ends with a question mark instead of continuing the list
+  - note 4471 | rhetorical-question register | thematic-listing register | a new sentence starting 'Since democratized...' returns to explanatory statement
+  - note 4471 | thematic-listing register | excited-reflection register | shift to first person 'I can't believe', new paragraph, exclamation marks
+- registers: plot-summary register; thematic-listing register; amused-aside register; rhetorical-question register; excited-reflection register
+- whole: This item's notes are written in several registers—note 2 stays in a single plain plot-summary register, while note 4471 moves through a thematic-listing register that is repeatedly broken from within, without a break a reader would notice, by amused parenthetical asides and a closing rhetorical question, before ending in a separate, clearly set-apart first-person excited-reflection passage.

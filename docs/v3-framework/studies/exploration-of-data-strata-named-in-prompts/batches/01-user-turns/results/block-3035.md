@@ -1,0 +1,5 @@
+- sources:
+  - existing story plan data | ground the argument for an all-earth-pony Severyana in what the plan already records, not in authorial decree | based on existing story plan data | referred-to
+  - methodology extrapolation | extend the plan's own method of deriving things from material conditions to reach conclusions the plan does not state directly | and methodology extrapolation | referred-to
+- order:
+- about: The user asks the model to expand its argument that Severyana is all earth ponies because of material conditions rather than authorial fiat, using what the story plan already contains plus extrapolation from the plan's method.

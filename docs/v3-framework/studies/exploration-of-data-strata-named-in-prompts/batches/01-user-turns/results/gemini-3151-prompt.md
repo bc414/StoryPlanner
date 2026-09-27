@@ -1,0 +1,5 @@
+- sources:
+  - the user's own experience with European coworkers when starting work at 9 on the US East Coast | treat as established fact; use it to support the claim that the Atlantic is too narrow and Europe and North America peaks overlap | I know this for a fact because when I start work at 9 my European coworkers are in their afternoon | first-named
+  - the user's own imagined picture of load as a moving work window (US peak, similar but smaller Europe and East Asia peaks, consumer throttling for Gemini and queueing for Claude) | treat as provisional supposition to be examined and built on in the analysis, not as confirmed | I imagine when this work window covers the US, Gemini and Claude experience peak load | first-named
+- order:
+- about: The user pushes back on a fixed 9-to-5 framing and asks for a time-zone-by-time-zone analysis, resting on their own suppositions and their own coworker experience, that ends with the best EDT times to use Gemini and Claude.

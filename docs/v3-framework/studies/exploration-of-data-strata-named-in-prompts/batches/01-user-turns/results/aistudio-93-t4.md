@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's Crystal Empire preservation rationale for Cadance's magic transfer and proposes instead that she complied with Celestia's plan to feed Celestia's confirmation bias and keep her covert Aquileian scientist and crystal mining operation hidden.

@@ -1,0 +1,5 @@
+- sources:
+  - my existing planning and themes | draw on and synthesize into the analysis; treated as the author's established material to be combined with the real-world analysis | Please synthesize my existing planning and themes | referred-to
+  - The EaW canon gameplay (which starts in 1007 after the Storm King's defeat) | treat as the canon account of the setting's aftermath, in which Zebrica has collapsed into warlordism, and compare it against the real-world ISIS territories and Arab world | describes Zebrica as collapsed into warlordism again | referred-to
+- order:
+- about: The user sets a goal for the story as a critique of the Western betrayal of the SDF and a story about the way forward, asks for an analysis of how the anti-ISIS coalition fell apart (including a Trump and Clinton counterfactual and whether the former ISIS lands and the Arab world resemble the warlordism in EaW canon), and asks the model to synthesize it with their existing planning and themes.

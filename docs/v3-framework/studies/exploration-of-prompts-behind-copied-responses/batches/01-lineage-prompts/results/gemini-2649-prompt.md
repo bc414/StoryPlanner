@@ -1,0 +1,6 @@
+- asks:
+  - correction | states a revised interpretation of griffon biology (apparent bulk from wings/feathers vs. only slightly pony-sized body mass) for the model to take on board | "Actually the way I interpret the biology is..."
+- supplies:
+- shaping:
+- openness: leans toward an answer it names: the message asserts its own interpretation (wings/feathers create visual bulk, quadrupedal frame only slightly bigger than a pony) as the settled reading, rather than asking for options.
+- subject: interpretation of a griffon's physical size and body mass relative to a pony

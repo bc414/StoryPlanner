@@ -1,0 +1,10 @@
+- passages:
+  - note 4902 | terse label | fragment, no verb, judgment word "bad" | a retcon involving Celestia's advice | apart
+  - note 4902 | narrative speculation | full sentence, subject-verb, "wonders if" | Twilight questioning whether Celestia arranged her friends | apart
+  - note 5468 | evaluative opinion with simile | full sentence, superlative "the worst", simile "like fake friendship" | a bottled-up-feelings episode ranked worst, likened to fake friendship | apart
+  - note 5468 | terse label | fragment led by "Also", no verb | naming The Mean 6 as another item | apart
+- shifts:
+  - note 4902 | terse label | narrative speculation | switch from verbless fragment to a full third-person sentence with "wonders if"
+  - note 5468 | evaluative opinion with simile | terse label | sentence ends, then "Also" opens a verbless fragment naming a new item
+- registers: terse label; narrative speculation; evaluative opinion with simile
+- whole: This item's two notes each hold more than one register, moving between a verbless jotted label and either a full narrative sentence or an evaluative sentence with simile, with each shift marked by a clear break rather than a blend within one sentence.

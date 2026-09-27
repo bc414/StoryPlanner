@@ -1,0 +1,5 @@
+- sources:
+  - Tall Tale as a farming area, former food processor hub for surrounding fields, and Star Energy's pre-war tractor business (the author's own setting facts) | treat as true premises that the model must test its earlier reasoning against | But Tall Tale is a farming area | first-named
+  - the model's previous answer that canned apple mush is realistic for Tall Tale (the current conversation) | treat as provisional and open to being revised in light of the setting facts, not settled | Does this still work? | referred-to
+- order:
+- about: The user pushes back on the model's earlier realism verdict by supplying setting facts about Tall Tale and Star Energy and asks whether the canned-apple-mush idea still holds.

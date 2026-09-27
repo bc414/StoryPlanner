@@ -1,0 +1,8 @@
+- sources:
+  - TLTT ontology, built on fan interpretations of Read It and Weep! from Season 2 | treat as true and correct the earlier reading with it: Daring Do is a fictional book character written by Twilight Velvet (A.K. Yearling), not a real Tzinacatl person | the critical nuance that Daring Do is first and foremost a fictional character in a book series authored by Twilight's mom | referred-to
+  - Season 4's Daring Don't | do not use as the basis for Daring Do here | NOT Season 4's Daring Don't | referred-to
+  - the story planner connector, v1 archive | go and investigate it for further context and nuance that the v2 material may lack | use the story planner connector to investigate further context from v1 archive | referred-to
+  - v2 (of the story planner archive) | treat as possibly incomplete; it may be lacking nuance, so supplement it from v1 | since v2 may be lacking some nuance | referred-to
+  - the user's own recollection of the drug tribes' history (put out of business by Chrysalis's market flood in 986, members moving into factories or private protection for Tzinacatl owners who busted the DRM) | treat as established backstory and recall it when judging whether Caballeron could also have unbridled DRM | recall that the drug tribes were put out of business by Chrysalis's market flood in 986 | referred-to
+- order:
+- about: The user corrects the model's reading of Daring Do and of Caballeron's possible DRM-busting using their own ontology and backstory, asks it to consult the v1 archive through the connector, and adds their intended shared traits and Daring Do-inspired origins for Caballeron and Flowing Current.

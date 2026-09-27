@@ -1,0 +1,6 @@
+- sources:
+  - the book quote from Friendship is Magic Part 2 (five present, a spark reveals the sixth Element) | treat as the canonical show premise to be applied as a template to the liberty elements | "The book said: when the five are present, a spark will cause the sixth Element to be revealed." | referred-to
+  - the 5 elements of liberty and the 6th | treat as the author's established framework that the show's five-and-sixth pattern is to be mapped onto | "How does this apply for the 5 elements of liberty and the 6th?" | referred-to
+  - my lore on how the elements of harmony actually required a healthy balance of pink and red, and thus Celestia could no longer wield them | treat as settled author lore that must be factored into the answer and used to inspire the parallel | "Also taking into account my lore" | referred-to
+- order:
+- about: The user asks the model to apply the show's five-elements-then-spark-reveals-the-sixth passage to their five liberty elements and the sixth, while accounting for their own lore about the pink and red balance and what Magic as the sixth element means for the parallel.

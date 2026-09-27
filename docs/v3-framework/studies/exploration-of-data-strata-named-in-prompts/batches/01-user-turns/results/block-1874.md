@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn asks the model to determine, building on the prior discussion, whether 'Elements of Liberty' qualifies as a World Law in their story's setting and to specify what content it should cover, without naming any specific source to draw on.

@@ -1,0 +1,4 @@
+- passages:
+  - 4279 | statement about the subject | a thematic intent note: the aim is to link Celestia's stagnation of harmony to the modern western world of abundance | none | framed as what the subject is about ("This is about connecting..."); no event, actor or moment
+- sequences:
+- whole: The subject has a single note, a one-line statement of thematic purpose tying Celestia's stagnant harmony to the modern western world of abundance, with no scene beats or dates.

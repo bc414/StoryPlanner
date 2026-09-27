@@ -1,0 +1,5 @@
+- sources:
+  - the proposed cognitive modes (each of these cognitive modes, PageDesign, WorldInference, WorldTruth, Metatextual, Analogical) | working basis the user amends: keep the modes but add a description to each, split WorldTruth, and keep Analogical separate from NotesToSelf rather than folding it in | each of these cognitive modes should be accompanied by a description | referred-to
+  - layer 1/2/3 splits | use as the structure for breaking WorldTruth into separate Physicist, Historian and Psychologist stances | WorldTruth needs to be broken up into the layer 1/2/3 splits | referred-to
+- order:
+- about: The user refines the proposed cognitive-mode scheme by asking for a description on each mode for both UI and LLM export, splitting WorldTruth along layers 1/2/3, and keeping NotesToSelf and Analogical as separate off-page modes.

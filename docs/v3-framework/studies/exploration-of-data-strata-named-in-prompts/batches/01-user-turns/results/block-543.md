@@ -1,0 +1,8 @@
+- sources:
+  - The Princess and the Kaiser - Fimfiction.pdf, the 2 PDFs of different comments sections (the comments on the story, Feb March 2025) | material to be analyzed now; placed first in the chronology of the author's material | I am attaching 2 PDFs of different comments sections | first-named
+  - the earlier questions (the author's own comments in those sections) | analyze as the author's own earlier thinking | Analyze the earlier questions | first-named
+  - the other readers' comments | analyze too, and compare or contrast with the author's own comments | analyze the other readers' comments too and how they relate or potentially contrast with mine | first-named
+  - the PDF that is the incremental planning for TLTT from March to November | placed second in the chronology, after the comments and before the Gemini stage; given as a clarification of sequence, not as something to analyze now | then the PDF is the incremental planning for TLTT from March to November | referred-to
+  - Gemini expansion and story planner, December 2025 to April 2026 and beyond | placed third in the chronology, after the comments and the incremental planning; given as a clarification of sequence | Gemini expansion and story planner third from December 2025 to April 2026 and beyond | referred-to
+- order:
+- about: The user corrects the chronology of their material (story comments first, then the incremental planning PDF, then the Gemini expansion and story planner), attaches two PDFs of comment sections, and asks the model to analyze their own earlier questions and also the other readers' comments in relation to them.

@@ -1,0 +1,5 @@
+- sources:
+  - my current story plans for early chapters (chapters 1, 4, 5, 6, 7 as described) | the material under review; the model is to read it and assess how much of each mandate version it dramatizes before the breakage, taking the user's own description of each chapter as what it contains | Review my current story plans for early chapters | referred-to
+  - the chapter 34 prequel notes | holds the full mandate versions already dramatized, but is meant to be read after TLTT as retroactive context, so it is not part of what the early chapters give the reader | intended to be read after TLTT as retroactive context | referred-to
+- order:
+- about: The user asks the model to review their early-chapter plans, saying that most of the characters are first seen already broken or nearly so, with the full mandate versions living only in the chapter 34 prequel notes meant for after-reading, and walks through chapter by chapter where each character's mandate version is or isn't dramatized.

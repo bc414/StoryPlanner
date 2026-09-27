@@ -1,0 +1,12 @@
+- asks:
+  - explain | asks where the chaotic assortment of weapons in the setting would come from | "Where would all the chaotic weapons come from?"
+  - check | asks whether a proposed trade mechanism is plausible: Herzlander individualists selling old weapons to Zebrica for raw materials, with Zebrican warlords able to produce black powder via slave labor and local mines but not the guns themselves | "Is it possible that Herzlander rugged individualists sold their old weapons to Zebrica..."
+  - brainstorm | asks for historical parallels to this weapons-for-materials arrangement | "Are there historical parallels?"
+  - explain | asks how weaponry worked for the Mandela system, Vikings, Magyars, and Huns | "How did their weaponry work?"
+  - check | asks to confirm whether the Mongols are the exception to this pattern because they had a state, logistics, and cavalry archers | "I suppose the Mongols had a state, logistics and cavalry archers to win, they are the exception?"
+- supplies:
+  - scenario | a proposed worldbuilding mechanism in which Herzlander individualists trade old weapons to Zebrica for raw materials while Zebrican warlords make black powder locally but not guns | a few sentences
+  - assertion | a claim that the post-colonial Africa and China parallel is the strongest fit for the setting's social commentary | one sentence
+- shaping:
+- openness: Mixed: several parts ask the model to check or confirm hypotheses the message already states (the Herzlander/Zebrica trade mechanism, the post-colonial Africa/China parallel, the Mongols-as-exception claim), while other parts (origins of the weapons, how Viking/Magyar/Hun/Mandela weaponry worked) are left open.
+- subject: Worldbuilding the arms economy of fictional warring factions via historical parallels to irregular and nomadic warfare

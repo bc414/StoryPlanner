@@ -1,0 +1,4 @@
+- sources:
+  - the lore that Chrysalis copied Herzland, with her state actually more like imperial Japan than Nazi Germany | treated as an established premise behind the German naming choice; the user asks the model to confirm it and build the analysis on it | I'm picking German names because of the lore that Chrysalis copied Herzland | referred-to
+- order:
+- about: The user justifies the German naming by pointing to existing lore about Chrysalis and Herzland, asks the model to confirm her state resembles imperial Japan more than Nazi Germany, and asks for a comparison of the two regimes and whether Mussolini's Italy was mild beside them.

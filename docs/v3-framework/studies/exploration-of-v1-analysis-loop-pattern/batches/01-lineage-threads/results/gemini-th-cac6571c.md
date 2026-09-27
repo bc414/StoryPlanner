@@ -1,0 +1,13 @@
+- steps:
+  - author | opens inquiry | multi-part research question on historical camp-follower roles, ratios, eras, defending-vs-aggressor armies, dominance-vs-comfort psychology | opening prompt of the stretch (gemini:2607)
+  - model | historical-analysis-plus-worldmapping | breaks question into a ratio/role analysis, a defending-vs-aggressor contrast, and a dominance/comfort psychology section, then maps each onto the Griffon-warlord/Pony-serf society and named factions | reply to gemini:2607
+  - author | follow-up question with embedded proposal | asks how cuddling produces oxytocin and how it differs from post-sex chemistry, while proposing a specific chasseur routine (cuddle after battle, sex after boring trek) | gemini:2608 prompt
+  - model | mechanism explanation plus validation | explains the C-tactile/oxytocin pathway, contrasts the cuddling 'drip' with the post-sex 'flood', and confirms the proposed routine scenario by scenario | reply to gemini:2608
+  - author | brings new device with request to synthesize | proposes an explicit terminology mapping (Red/Pink Love = Magic/Friendship = Lion/Eagle) for a named scene and asks the model to review the story plans and synthesize | gemini:2609 prompt
+  - model | builds unified framework | constructs a labeled equivalence table, argues why the chosen character is suited to deliver it, and extends the mapping to the canister economy as a drug-trade analogy | reply to gemini:2609
+  - author | corrects scene context | supplies missing plot facts (rifle already completed, named prior chapters, a reunion framing, an epistolary romance, a planned resource-collection operation) | gemini:2610 prompt
+  - model | reworks the synthesis | re-derives the scene's function around the corrected context: the letters as a bonding mechanism, the named prior chapters as unconscious pattern, a taught 'safe passion' lesson, and a scaled war-logistics payoff | reply to gemini:2610
+- kept:
+  - note 5355 | the author's own words in this record | keeps the proposed chasseur cuddle-after-battle/sex-after-trek premise, filed under a doctrine-labeled subject entry
+- brought: The author brought forward specific in-progress plan elements — a named scene number, three earlier chapter references, and the current status of a previously-discussed invention — to correct the model's prior synthesis.
+- loop: The author moves from a broad research question, to a specific behavioral premise stated in their own words, to a terminology proposal checked against the plan's existing chapters; the database keeps only the mid-point premise, filed as a doctrine note, while the larger mappings and scene syntheses the model produced are not shown as retained.

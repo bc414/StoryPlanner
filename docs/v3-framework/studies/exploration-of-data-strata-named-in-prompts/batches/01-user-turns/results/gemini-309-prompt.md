@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user approves the model's breakdown of the two bat pony cultures and states their takeaway that Harmonic Capitalism will uplift both and that these societies serve as a proving ground for Equestria, without directing the model to any body of material.

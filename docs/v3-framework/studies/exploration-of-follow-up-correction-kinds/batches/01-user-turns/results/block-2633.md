@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about the Chinese history that comes after the Han dynasty, and loosens the constraint by saying it need not map exactly onto the changelings because the story draws on many paradigms.

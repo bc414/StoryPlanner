@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a hypothetical design question about whether an ace Aquileian griffon pilot paired with an ace unicorn providing magical shielding could fly a lighter-armored plane with more ammo, speed and flight time, without pointing at any body of material for the answer.

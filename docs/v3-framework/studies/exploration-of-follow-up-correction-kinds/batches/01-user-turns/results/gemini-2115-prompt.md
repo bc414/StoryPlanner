@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model framed the Thugs' campaign as Robin Hood economics, with subsidized stew for the workers and worker loyalty, which reads as economic liberation. The user says their aim is a culture war, humiliation, revenge and draining the elites of assets. | the goal is not economic liberation, it's a culture war, humiliation attack, revenge and draining the elites of assets | flat contrast stated as a plain clarification, tucked in as the end of a longer answer to their own question, with no apology or heat
+- about: The user asks whether the Aquileians should run a cartel out of their parloir, and while answering it themselves, narrows who is involved (the ambitious reformed thugs) and restates the campaign's purpose as revenge and humiliation rather than economic liberation.

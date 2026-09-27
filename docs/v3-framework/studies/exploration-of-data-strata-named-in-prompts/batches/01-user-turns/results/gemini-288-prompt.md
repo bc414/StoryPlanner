@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user agrees that Applejack should come to Griffenheim for the trial, then adds their own plot direction: the trial exposes Chrysalis's manipulation of Herzland, unites the Republic's citizens with Eros's loyalists against her, and lets the Griffonian Republic join the final invasion to liberate the changelings and deer.

@@ -1,0 +1,12 @@
+- asks:
+  - plan | asks for a sequence of steps to take to build the described app | "Please help me plan out what steps I need to take to make this work."
+  - decide-with-reasoning | asks whether a plot point should be allowed to belong to multiple threads, and to justify the answer | "Should a plot point be able to belong to multiple threads? Why or why not?"
+  - choose | asks for a pick between two candidate names for the sub-plot concept | "Should it be called \"Thread\" or \"SubPlot\"?"
+  - recommend/check | asks for the best way to persist the data, naming its own current pick (EF Core + local Postgres) | "What is the best means of persisting this data? I was thinking of using EF Core with postgre sql on my local machine."
+  - research | asks whether any existing products already satisfy the stated requirements | "are there any existing products that meet my requirements?"
+- supplies:
+  - spec description | a domain model and UI/behavior description for a planned story-planning web app: PlotPoints, Threads, Chapters, their relationships and ordering, drag-to-reorder UI, jump-to buttons, color coding, theme view, global ordering | several paragraphs
+- shaping:
+  - reasoning requested, not a bare yes/no | "Why or why not?"
+- openness: Mixed: it leans toward named answers on two points (favoring plot points in multiple threads, and EF Core with local PostgreSQL for persistence) while leaving the naming choice ('Thread' vs 'SubPlot'), the build-steps plan, and the existence of comparable products fully open.
+- subject: Designing a local C# Blazor app to plan a fanfiction story via plot points, threads, and chapters

@@ -1,0 +1,4 @@
+- relations:
+  - 2131 | 2132 | 2132 states the reader's response (a generic labor-leader impression is overturned by the full radicalization backstory) to the history 2131 plans to disclose on the page: that he blew up his power plant | Flowing Current reveals that he blew up his power plant / Now they learn the full backstory of radicalization | implicit
+- outward:
+- whole: The two notes hang together as a pair: one plans the on-page reveal of Flowing Current's past and the other gives the reader's shift in opinion that the reveal is meant to produce.

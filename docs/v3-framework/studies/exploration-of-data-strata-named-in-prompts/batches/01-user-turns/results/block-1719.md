@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author answers the model's questions about Spike's absence and Blueblood's position by stating where each is and what they are doing in the story, without pointing at any body of material.

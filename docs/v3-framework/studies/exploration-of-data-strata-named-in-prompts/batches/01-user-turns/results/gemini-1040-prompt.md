@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh the narrative pros and cons of VOPS assassinating Kessler II and to clarify whether Red Love shipments keep paying the 15% royalty during licensed production, without pointing at any body of material to draw on.

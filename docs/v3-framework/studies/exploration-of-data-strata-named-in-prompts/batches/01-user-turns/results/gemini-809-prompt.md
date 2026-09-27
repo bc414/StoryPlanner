@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a refined wording of Applejack's ultimatum, suggests its echo of Nightmare Moon's line licenses civilian reprisals against collaborators, and asks whether a one-hour deadline at Vanhoover would work better or worse than twelve hours.

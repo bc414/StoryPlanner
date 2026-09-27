@@ -1,0 +1,11 @@
+- sources:
+  - canon FiM, Lauren Faust's original Rainbow Dash | baseline for who Rainbow was: always the best, never had to rest, no power-creep struggle; the original characterization TLTT returns to | In canon FiM, she never had to rest | referred-to
+  - Wonderbolts Academy | canon example showing Rainbow breaking records yet objecting to the culture because of conscience, used as evidence for her canon character | Rainbow was breaking academy records but objecting to the culture | referred-to
+  - Friendship is Magic Part 2 | canon precedent of ego versus loyalty with loyalty winning; the same clash TLTT replays with Equestria replaced by her friends | had both ego and loyalty, and loyalty won out | referred-to
+  - later seasons, the Hasbro Mandate | treated as a distortion where ego wins out and Twilight becomes a friendship preacher; TLTT shatters it and goes back to the original | Later seasons display her ego winning out | referred-to
+  - TLTT | the author's own story, where Rainbow's ego is shattered and Twilight's Hasbro-Mandate self is broken; the setting for the element rework | the biggest development I see for Rainbow Dash within TLTT | referred-to
+  - "She learns to rest - to be vulnerable, to need others" | quoted line the author affirms as Rainbow's biggest development in TLTT and wants the element reasoning to rest on | this is the biggest development I see | referred-to
+  - the above notes | the author's stated points and constraints, including that the element must not be something a totalitarian state can have; to be taken into account before re-deriving from first principles | Please take the above notes into account | first-named
+- order:
+  - original canon characterization (early FiM, Friendship is Magic Part 2) | above the later seasons' Hasbro Mandate, which TLTT undoes by returning to the original characterization
+- about: The author corrects the model's candidate element names for Rainbow Dash by supplying canon-based reasoning about her arc (rest and vulnerability, Hasbro Mandate versus original characterization) and a new constraint that the element be something totalitarian jaegers or drones cannot have, then asks for a first-principles rethink and new or reevaluated terms.

@@ -1,0 +1,11 @@
+- steps:
+  - the author | requests analysis | asks for a broad character-development read of Fluttershy across the story plan | opening message of the thread
+  - the model | delivers analysis | structured breakdown of Fluttershy's arc (naivety-to-grace, Rat Park empathy, weaponized kindness, moral anchor, conclusion) | response to the first request
+  - the author | narrows focus | asks for analysis of one specific scene, Fluttershy's Stare on Celestia and the 'you don't know how to make a friend' line | second exchange
+  - the model | delivers analysis | close reading of the Stare-scene power dynamic, the accusation's meaning, and the tears, quoting the plan's existing dialogue | response to the second request
+  - the author | shifts to a later scene | asks for analysis of a subsequent reconciliation scene where Fluttershy apologizes and reflects on not being able to protect her animals | third exchange
+  - the model | delivers analysis | close reading of the apology-and-lesson scene as reconciliation and absolution of Celestia | response to the third request
+- kept:
+  - note 800 | the plan held this text before this reply | keeps the pre-existing dialogue lines from the Stare confrontation (the accusation and surrounding lines) on the PlotPoint 'Fluttershy gives Celestia The Stare', which the model's analysis of that scene quoted back
+- brought: The author brought the plan's own already-written scene content (a specific piece of dialogue from the Stare confrontation, and later a separate reconciliation scene) into the prompts to have the model produce literary analysis of them.
+- loop: The author repeatedly hands the model existing or increasingly specific pieces of the plan (first the whole Fluttershy arc, then one scene, then a later scene) to get thematic analysis back, but the planning database itself only holds onto the original scene dialogue it already had, quoted back by the model, rather than any of the model's new analytical framing.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Pink Love shield idea in a new direction, reworking canon Sunburst into an expelled student of smuggled Aquileian texts who helps build small crystal-heart shields, and framing this as both Chrysalis's reason for preemptive war and a challenge to her worldview, without disputing anything the model said.

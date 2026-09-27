@@ -1,0 +1,9 @@
+- asks:
+  - check | whether the story logic still holds given that Chrysalis only owns companies operating in Skyfall rather than its government, and Skyfall isn't her main target | "Does this still work?"
+  - check | whether the extortion plot still functions given the Marks are physical paper documents kept in Rockfeller's house rather than held in a bank in Skyfall | "Does the extortion still work?"
+- supplies:
+  - fact correction | Chrysalis's relationship to Skyfall: she owns companies there, not its government, and Skyfall is not her subject | one sentence
+  - fact correction | location and form of the Marks: physical paper held in Rockfeller's house, not stored in a bank in Skyfall | one sentence
+- shaping:
+- openness: Asks the model to check, against two facts it states as corrections, whether the surrounding plan and the extortion scheme still work.
+- subject: Consistency of Chrysalis's holdings in Skyfall and the extortion scheme involving the Marks

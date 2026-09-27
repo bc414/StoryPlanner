@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes that Gilded Lily preaches long-horizon patience in business but parties herself to death in her 60s, and asks whether that is coherent and whether the characters in Acornage should be hustling for an opening or quietly seething and fantasizing about revenge and parties.

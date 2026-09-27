@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a side question about which of two titles, organization or doctrine, chapter two should carry, after noticing the model use one of them, without saying that anything in the model's reply is wrong.

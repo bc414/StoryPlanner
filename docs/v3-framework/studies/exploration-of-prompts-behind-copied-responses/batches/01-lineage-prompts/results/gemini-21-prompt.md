@@ -1,0 +1,6 @@
+- asks:
+  - summarize | asks the model to produce a summary of a story it refers to as "this story" | Can you summarize this story?
+- supplies:
+- shaping:
+- openness: Open: the message only asks for a summary without naming a preferred length, focus, or angle, and without including the story's content within the message itself.
+- subject: Request to summarize a story referred to but not included in the message

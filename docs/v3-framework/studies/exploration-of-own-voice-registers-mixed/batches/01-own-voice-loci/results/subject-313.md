@@ -1,0 +1,18 @@
+- passages:
+  - note 5660 | plot/setup summary | short third-person declarative statements of events | Blueblood forming the army, Luna named field marshal | apart
+  - note 5660 | plot/setup summary | declarative statements, embedded scare-quoted term | crystal hearts/friendship shields naming dispute, Celestia's reaction | apart
+  - note 5660 | plot/setup summary | brief restated declarative statement | Celestia agreeing, tech development let slide | apart
+  - note 5660 | causal/argumentative explanation | rhetorical negation, 'exactly why' framing | shields proving the army isn't delusional, real engineering behind it | apart
+  - note 5660 | causal/argumentative explanation | 'because' causal clause, in-universe jargon | peacetime training inflating trust stat, shields looking invincible | apart
+  - note 5660 | causal/argumentative explanation | causal clause, listing of threats | army losing day 1 to tanks and dive bombers | apart
+  - note 5661 | aphoristic tag | single terse fragment, no narrative content | toxic positivity as protocol | apart
+  - note 5663 | plot/setup summary | third-person declarative statements, backstory aside | Vanguard army setup, Luna's reasoning, VOPS propaganda origin | apart
+  - note 5663 | cumulative doctrine sentence | one long compound sentence, quoted doctrine name, nested causal chain | Luna's hold-the-line doctrine and its logic about changelings | apart
+  - note 5665 | plot/setup summary | declarative statements with 'so' causal connector | Blueblood's rear position, doctrine, pre-positioned demolition | apart
+  - note 5665 | cumulative plan sentence | single long sentence, infinitive listing, parenthetical aside | Blueblood's evacuation and air-superiority strategy | apart
+- shifts:
+  - note 5660 | plot/setup summary | causal/argumentative explanation | shift from listing events to arguing why the army isn't delusional, causal 'why' framing begins
+  - note 5663 | plot/setup summary | cumulative doctrine sentence | shift into one long sentence restating doctrine with a quoted phrase and nested causal chain
+  - note 5665 | plot/setup summary | cumulative plan sentence | shift into a single long sentence listing goals with a parenthetical aside
+- registers: plot/setup summary; causal/argumentative explanation; aphoristic tag; cumulative plan/doctrine sentence
+- whole: Across its four notes this item moves between several registers—plain plot/setup summary, causal or argumentative explanation, one aphoristic tag, and long cumulative sentences laying out doctrine or plans—with each change falling at a paragraph or note break rather than running into another register inside a single sentence.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Antigravity, and not only Code Assist, can be used for the IDE context-fetching workflow the model just described, and points at no body of data.

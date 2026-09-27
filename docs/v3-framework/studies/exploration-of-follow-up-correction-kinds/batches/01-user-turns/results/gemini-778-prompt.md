@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's idea of literal name translation and then proposes their own refinement, in which the old translator from chapter 6 renders names literally and the later Cloudbury translator preserves them as names, without saying anything in the model's turn was wrong.

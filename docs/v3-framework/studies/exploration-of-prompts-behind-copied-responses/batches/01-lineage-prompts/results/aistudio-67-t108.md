@@ -1,0 +1,12 @@
+- asks:
+  - propose-validate | asks whether a proposed scene works: a second Celestia-Rarity talk where Rarity asks Celestia to confirm EEEE!'s interpretation of the archaic Charter wording is valid | "how about if the second talk between Celestia and Rarity is to ask Celestia if the interpretation is valid?"
+  - character-reasoning | asks whether Celestia, following her stated internal logic that she can't hand down top-down mandates, would read the '12 moons residency' clause as one year and thus exclude refugees, even though EEEE! never intended that exclusion | "Would Celestia read a line about... to mean 1 year and therefore refugees are not counted"
+  - plot-decision | asks whether the original chapter 7 plan of two referendum rounds (a low-threshold refugee-inclusive one that gets invalidated, then a higher-threshold natives-only one) should be kept | "Should this still be kept?"
+  - mechanic-check | asks whether it is sound that Celestia would insist the 83% referendum result be checked against a year-old Manehattan census to satisfy an archaic 'everyone must vote' clause | "they must compare the 83% passage against the Manehattan census from a year ago?"
+- supplies:
+  - in-story legal backstory | the Hearth's Warming Charter's original wording, EEEE!'s reinterpretation of 'tribe leaders' as mayor-plus-council and of the 'two of three tribes plus half' threshold as 83.3%, and Celestia's rationale for approving it | a paragraph
+  - chapter plan summary | the original two-round referendum structure for chapter 7, plus the surrounding political conflict (industrialists invested in Skyfall Marks fearmongering native ponies against a refugee-inclusive vote, hinting at Chrysalis collaboration) | a paragraph
+- shaping:
+  - thematic framing for the plot point | the low-turnout referendum critique is meant to read as commentary on low voter turnout in the modern world | "This should be a critique of low turnout in the modern world."
+- openness: Leans toward the interpretations it lays out (EEEE!'s readings, Celestia's 83.3% approval, the census-comparison mechanic) while explicitly leaving two questions open for the model to judge: whether Celestia would extend the logic to exclude refugees via the 12-moons wording, and whether the two-round referendum structure should be kept.
+- subject: Legal/political plot logic for a Manehattan referendum arc, centered on Celestia's reasoning and the Hearth's Warming Charter's ambiguous wording

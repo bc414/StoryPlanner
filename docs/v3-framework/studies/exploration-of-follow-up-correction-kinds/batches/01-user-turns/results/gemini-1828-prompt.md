@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of Gerad's talent-harvesting state by asking for the numbers and demography of crown, bourgeoisie, peasantry and warlords, offering an inference that the no-private-retinue rule limits royal power, and requesting historical absolute-monarch parallels.

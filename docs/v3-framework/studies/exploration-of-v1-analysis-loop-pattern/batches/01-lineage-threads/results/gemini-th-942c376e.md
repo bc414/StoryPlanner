@@ -1,0 +1,20 @@
+- steps:
+  - the author | brings framework | the predator's-dilemma game theory and the three-axis accelerant model | opening of the prompt
+  - the author | brings subplot logic | the Verany-snub argument about industry, cooperation, and the failed revolution | early-middle of the prompt
+  - the author | brings character motivation | Coltbert's deviant personal insight linking sexual privilege to the theory | middle of the prompt
+  - the author | brings thematic beat | the 'strong to be merciful' theme and the Act 1 Fleur/Twilight industry-magic parallel | later in the prompt
+  - the author | poses a terminology question | whether to call the concept accelerant, strength, or capacity for strength | end of the prompt
+  - the model | validates a term | confirms 'Accelerant' as the core metaphor and splits it into formal/informal registers | start of the response
+  - the model | renames and formalizes | recasts the paper and dry academic vocabulary (axes, Capacity Vector, Armed Peace) | early in the response
+  - the model | reframes the subplot | turns the snub argument into named concepts like the Uniform Trap and the Loom for the Weaver | middle of the response
+  - the model | drafts sample dialogue | gives common-register lines for Henri and Fleur using the new terms | middle of the response
+  - the model | extends the arc | ties the Act 1 Twilight/Fleur beat to a new term, Directed Intensity | middle-later response
+  - the model | builds a classification table | sorts the Elements of Harmony into naive, predator, and liberty forms with mantras | later in the response
+  - the model | proposes a visual prop | describes a 3D graph as an in-story artifact | later in the response
+  - the model | adds a humor beat | suggests a footnote for Coltbert and a punchline for Discret | later in the response
+  - the model | compiles a glossary | lists the final set of refined terms as a summary | end of the response
+- kept:
+  - note 4670 | the author's own words in this record | keeps the author's own restatement of the clothes/textile-factory snub logic from the prompt, filed under the Coltbert Reforms subject
+  - note 4287 | pasted whole from this reply | keeps the model's aphorism about peace and consequences verbatim, filed under the 'Strong to be Merciful' subject
+- brought: The author brought a largely worked-out game-theory framework, subplot, character motivation, and theme for the story, along with a specific terminology question about naming its central concept.
+- loop: The author arrives with an already-developed thematic and plot framework plus a naming question, the model returns an extensive elaborated glossary, dialogue, table, and prop suggestions, but the plan only retains a small aphorism from the model's answer and the author's own restatement of material already in the prompt, each filed under its own subject entry rather than absorbing the model's broader terminology system.

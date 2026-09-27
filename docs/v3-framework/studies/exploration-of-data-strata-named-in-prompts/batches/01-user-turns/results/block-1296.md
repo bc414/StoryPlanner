@@ -1,0 +1,4 @@
+- sources:
+  - this insight | treat as the established premise and build on it to answer the question about TLTT's paratextual level | How does this insight affect | referred-to
+- order:
+- about: The user asks the model to extend the point just made about the civic fable in education to how it bears on the paratextual level of TLTT for its readers.

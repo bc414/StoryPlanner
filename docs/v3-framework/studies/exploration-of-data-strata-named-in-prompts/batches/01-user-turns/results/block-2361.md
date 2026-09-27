@@ -1,0 +1,4 @@
+- sources:
+  - my class (the pasted ActionTracker code) | treat as the actual code to reason about and adapt; the model should base its answer on its constructor and dictionary handling | Here in my class, I have two dictionaries passed into the constructor | first-named
+- order:
+- about: The user pastes their ActionTracker class and asks whether adding a second constructor that takes an exact copy of the state would let Newtonsoft deserialization work, since the existing constructor computes a new dictionary.

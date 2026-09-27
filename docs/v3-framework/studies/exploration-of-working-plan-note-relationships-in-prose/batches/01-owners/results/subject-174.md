@@ -1,0 +1,9 @@
+- relations:
+  - 839|838|continues in time: the epithet earned in 1008 and the death in 1011 are successive stages of one career, the death closing it|Dubbed The Terror of Vaverfront / He perished in the 2nd Battle of Tall Tale|implicit
+  - 684|839|the accolades for tank command and the fearsome epithet both speak of his standing as a fighting commander; the epithet reads as an instance of the reputation the praise states|accolates for being a good tank commander / Dubbed The Terror of Vaverfront|implicit
+  - 684|838|the praise for his command comes before, and the death in battle ends, his military record; the two sit as earlier and final points of that record|good tank commander / He perished in the 2nd Battle of Tall Tale|implicit
+- outward:
+  - 684|Chrysalis, a body or figure held elsewhere that gives the accolades|from Chrysalis
+  - 839|Vaverfront, a place held elsewhere, and the events that earned him the epithet|The Terror of Vaverfront
+  - 838|The 2nd Battle of Tall Tale, an event held elsewhere (implying an earlier first battle)|the 2nd Battle of Tall Tale
+- whole: The three notes read as a loosely linked set of short career beats (praise, epithet, death) that fit one military life, but none points at another, so they stand mostly as separate entries.

@@ -1,0 +1,7 @@
+- asks:
+  - elaboration invite | lays out a chain of reasoning about a character's motives and a plot scheme and implicitly invites the model to take in, validate, or build on this characterization | entirely declarative, phrased as "I'm imagining Synovial views..." and "Synovial believes...", no question mark or instruction verb used
+- supplies:
+  - character/plot notes | Synovial's personality (crisp professional noble officer, disdain for low-born Trimmel, deeper hatred of Pagala and the Statthalters), his "Iron Statist" archetype shared with Lord Gaudreau (ex-warlord turned loyal Royalist favoring a strong industrial civilized state), his failed "no guns" Canterlot Wedding infiltration plan and why it failed (Chrysalis reverting to warlord frenzy after draining Cadance and Shining Armor), and his new scheme to use Tirek as a "second chance" — let Tirek grow into a giant monster, shoot him down with guns/flak the way dragons are shot, then occupy the magicless ponies under the pre-drafted civilizing-occupation plan so they stay industrially dependent for a generation | several linked paragraphs of character motivation and plot logic
+- shaping:
+- openness: leans toward an answer it names — the message presents Synovial's motives and the Tirek-as-bait scheme as the direction it is taking, not as an open question or a choice between alternatives
+- subject: Synovial's political motives and his plan to use Tirek as a low-casualty means to defeat and occupy Equestria without feudal cruelty

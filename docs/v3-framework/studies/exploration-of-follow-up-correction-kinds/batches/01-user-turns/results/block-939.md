@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user affirms the model's analysis of Rarity and then moves to a new question, asking for an analysis of how this character design fits Lauren Faust's stated ethos about Rarity as a different kind of character in a toy commercial.

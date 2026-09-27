@@ -1,0 +1,4 @@
+- sources:
+  - the end of the Dutch Republic to Napoleonic France | use this historical episode as the model or template the Skyfall Trade Federation's ending should mirror | I want the end of Skyfall Trade Federation to reflect the end of the Dutch Republic | first-named
+- order:
+- about: The user asks that the fall of the Skyfall Trade Federation be reshaped to echo the historical end of the Dutch Republic under Napoleonic France.

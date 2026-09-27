@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for mentoring on third person limited and free indirect discourse, wanting the model to explain what belongs in the plot point payloads, how to use them to design free indirect discourse, and which fields to add to the payload entities for a beginner at the style and why.

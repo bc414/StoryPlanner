@@ -1,0 +1,10 @@
+- asks:
+  - explain | asks whether a country whose GDP is 20% remittances must use that money to import goods, given that the remittances themselves don't create value domestically | "do they have to import goods with that money? Because the remittances do not create value at home"
+  - evaluate/choose | asks whether an alternative mechanism explains it instead — that the country already has domestic material wealth but it's hoarded by elites due to income inequality | "Or does it work because there is huge income inequality, thus the the material wealth is in the country but hoarded by the elites?"
+  - compare | asks how this remittance-economy dynamic compares to Ireland, Naples, and Qing or warlord-era China | "how does this compare to Ireland, Naples and Qing or warlord China?"
+- supplies:
+  - premise, a worldbuilding claim about the fictional setting Skyfall | states that emigrant laborers sending remittances home doesn't alter a 'predator's dilemma' at their village because their labor and created value stay in Skyfall | one sentence
+  - candidate hypotheses, two proposed economic explanations | one hypothesis that remittance money must be spent on imports since it creates no local value, another that domestic wealth exists but is hoarded by elites | two short clauses
+- shaping:
+- openness: the message asks the model to choose between (or adjudicate) two named hypotheses for how a remittance-heavy economy functions, and leaves the historical comparison to Ireland, Naples, and Qing/warlord China open-ended
+- subject: economics of remittance-dependent economies (real-world and in the Skyfall fiction) and comparison to historical cases of migrant-labor or extractive economies

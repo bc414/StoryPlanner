@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - story direction (what the trial is for and where it leads) | The model closed the arc on the trial as a way to pacify Applejack, stabilise the occupation and give a domestic family ending. The user gives it a different purpose: exposing Chrysalis to unite the Republic's citizens with Eros's loyalists, so the Republic can join the final invasion of the changeling lands. | "The trial also unveils the truth" and "This will allow GR to militarily support the final invasion" | Mild and implicit: it opens by agreeing about Applejack, then restates the trial's function as the user's own. It never says the model was wrong.
+- about: The user accepts Applejack's arrival at the trial and then sets out what the trial should accomplish in their plan: exposing Chrysalis, uniting the Republic's factions, and freeing the Republic to join the invasion that liberates the changelings and deer.

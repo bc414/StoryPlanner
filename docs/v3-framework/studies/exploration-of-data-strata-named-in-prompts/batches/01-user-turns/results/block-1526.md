@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to produce a single table covering every subject type, with a track name, the plus-sign letter code in parentheses, a first-pass display question and a usage directive for each track, without letters in those texts and without examples, so as to avoid overfitting.

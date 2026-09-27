@@ -1,0 +1,6 @@
+- sources:
+  - my story plans | review them and synthesize from them; the model is asked to work from the plans as a whole | Please review my story plans and synthesize | referred-to
+  - The plot of chapter 7 | treat as the author's correction and fuller account of the plan, replacing the model's assumptions about who holds power and how the takeover happens | The plot of chapter 7 involves EEEE running a referendum | first-named
+  - Celestia's Stagnation of Harmony | treat as tentative, an author's recollection offered as a belief that local jurisdictions hold power because federal law is weak, not as a settled fact | I believe Celestia's Stagnation of Harmony doesn't have strong federal laws | referred-to
+- order:
+- about: The author corrects the model's account of Applejack's role and of how Chapter 7's factory takeover works by laying out the referendum plot, the antagonists and the economic situation, then asks the model to review the story plans and synthesize.

@@ -1,0 +1,35 @@
+- steps:
+  - author | drafts mechanism | initial love-harvester valve/crystal explanation plus new griffon-artisan and Skyfall integration idea | opening prompt
+  - model | analyzes and elaborates | renames the stabilization as a feedback loop, expands the industrial-footprint reasoning, folds in griffon artisans and Skyfall geopolitics, poses stress-test questions | first reply
+  - author | corrects and complicates | states the Skyfall dependency belongs to Equestria not Chrysalis, asks for a synthesis or an alternative, flags a stability paradox | second prompt
+  - model | resolves the paradox | splits the mechanic into intake vs discharge, gives a time/economics rationale, elaborates the drug-trade transaction, ends on a question | second reply
+  - author | proposes an alternative mechanism | a logic-gate valve for the rifle plus a centrifuge for the harvester | third prompt
+  - model | integrates the two ideas | contrasts centrifuge vs logic gate, restates the hardware/software dependency on Skyfall, ends on a question | third reply
+  - author | asks a logistics question | how conquered nobles are rotated or guarded on the harvesters | fourth prompt
+  - model | reviews established canon | recaps the existing 24/7 model, its propaganda purpose, and VOPS's role | fourth reply
+  - author | proposes a refinement | slow extraction by design for stability, victims rather than parts as the bottleneck | fifth prompt
+  - model | validates and formalizes | ties the refinement to existing canon rules on chaotic vs donated love and valve fragility | fifth reply
+  - author | expands into a full draft | a detailed paragraph on the statthalter-island tragedy and the bauleiter/statthalter contrast | sixth prompt
+  - model | validates and extends | adds an alternator framing and a hive-vs-colony economic model | sixth reply
+  - author | proposes a new constraint and a research request | vacuum/nitrogen requirement for the griffon stabilizer, asks for Haber-Bosch history | seventh prompt
+  - model | validates then researches | gives a structural justification and real-world history of the Linde process and Haber-Bosch, suggests how to fold it in | seventh reply
+  - author | extends the constraint to the rifle | proposes a vacuum requirement for the three-way valve as the driver of Skyfall dependency in chapter 12 | eighth prompt
+  - model | validates and elaborates | ties vacuum physics to the Skyfall monopoly and drug-trade logistics, suggests an outline edit, ends on a question | eighth reply
+  - author | requests a real-world parallel | asks for common vacuum-sealed tech people carry today | ninth prompt
+  - model | researches and applies | explains MEMS sensors and vacuum packaging, maps it onto the rifle valve, includes visible internal drafting notes before the final answer | ninth reply
+  - author | refines the physical reasoning | proposes raw magic as frictionless, with air causing incomplete separation | tenth prompt
+  - model | confirms and elaborates stakes | details the viscous-drag failure mode and its mission-critical and character-arc consequences | tenth reply
+  - author | extends the distinction | separates the fluid-valve case from the solid-crystal griffon-machine case, asks if the same principle applies | eleventh prompt
+  - model | differentiates and elaborates | explains solid-state fracture physics and contrasts the artisan and Skyfall approaches | eleventh reply
+  - author | requests naming | asks for name suggestions for the griffon machines | twelfth prompt
+  - model | offers options | provides categorized name suggestions and asks for a preference | twelfth reply
+- kept:
+  - note 4091 | the author's own words in this record | keeps the author's opening draft of the harvester/valve/crystal mechanism, filed under Subject "Magical Engineering"
+  - note 5497 | pasted whole from this reply | keeps the model's centrifuge/isotope explanation of pink-vs-red separation, filed under Subject "Love Harvester"
+  - note 4360 | the plan held this text before this reply | pre-existing note on public display of harvester victims and VOPS forged letters that the model's reply drew on, under Subject "Chrysalis's New Order"
+  - note 2816 | the plan held this text before this reply | pre-existing note on ambition/willingness determining love quality that the model's reply drew on, under Link "Twilight studies the love harvester × Love Harvester"
+  - note 2820 | the plan held this text before this reply | pre-existing note on the 1011 ALB harvester status quo and miniaturization needs that the model's reply drew on, under Link "Twilight studies the love harvester × Magical Engineering"
+  - note 4386 | the author's own words in this record | keeps the author's expanded draft on the 24/7 rationale and statthalter-island tragedy, filed under Subject "Love Harvester"
+  - note 589 | the plan held this text before this reply | pre-existing plot point on the Tzinacatl drug trade and blockade that the model's reply drew on, under PlotPoint "Tzinacatl drug trade revealed"
+- brought: The author brought an in-progress draft of the love-harvester and rifle-valve mechanics together with previously established griffon-artisan and Skyfall lore, then repeatedly fed the model's own prior answers and pre-existing canon notes back in as constraints while narrowing the mechanism one physical detail at a time.
+- loop: The recurring loop is: the author brings a single mechanical or physics point (a valve, a crystal, a vacuum requirement) framed as a question or a refinement of existing lore, the model validates it and elaborates a materialist justification tying it to canon and to the plot's moral stakes, and the plan keeps mostly the author's own drafted paragraphs verbatim or the pre-existing canon text the model quoted back rather than the model's freshly generated elaboration.

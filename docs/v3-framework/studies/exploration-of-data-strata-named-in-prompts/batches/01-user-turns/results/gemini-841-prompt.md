@@ -1,0 +1,8 @@
+- sources:
+  - the chapter (the document) | re-read it; the earlier reading of it was wrong, and the analysis should be redone against what it actually contains, focusing on the Helena and Windie conversation | I'm not sure you read the chapter correctly | referred-to
+  - the author's note at the end of the document | not part of the story; a meta nod to a fellow author, so leave it out of the story analysis | an author's note at the end of the document which is not part of the story | referred-to
+  - the user's clarifications about the plot | treat as correct and apply them to the analysis in place of the earlier misreading | refine the analysis with these clarifications | first-named
+  - the model's earlier analysis | treat as flawed and in need of refinement, not as settled | Please refine the analysis | referred-to
+- order:
+  - the user's clarifications about the plot over the model's earlier analysis | refine the analysis with these clarifications
+- about: The user corrects the model's misreading of their chapter by restating what actually happens, excluding the end author's note, and asks for a refined perspective analysis focused on the Helena and Windie conversation, leaving the battle for a separate analysis.

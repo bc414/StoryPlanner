@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes their own ActionTracker class, whose constructor computes a new dictionary from its inputs, and asks whether adding a second constructor that takes an exact copy of the state would let Newtonsoft deserialize it, which extends the model's explanation to their case without disputing it.

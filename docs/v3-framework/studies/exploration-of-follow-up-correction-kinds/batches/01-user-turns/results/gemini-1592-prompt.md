@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's arc breakdown as accepted and asks a new design question, whether Cadance and Shining Armor should know the parloirs beforehand or learn of them from Mali, and weighs the pros of each option.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new request, asking for more alternative names for the FJA veteran club, and supplies the context that chasseurs are being rebranded as voltigeurs, without faulting anything in the Academy naming answer.

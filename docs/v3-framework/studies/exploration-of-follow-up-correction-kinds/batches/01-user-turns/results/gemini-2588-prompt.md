@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - real-world language fact (implicit, tentative) | whether the French word for computer applications is really something the model's appliqué bridge fits, since the model never gave the actual French term for software applications | What are computer applications in French? | as a bare question that checks the premise without saying it is wrong
+  - other: assignment of in-world terms | the model made the crystal matrix itself the Appliqué; the user instead splits the terms, with appliqué as the artisan name for what a matrix does and spell matrix as the technical name for what it is, taught by Fleur Bloom | Should appliqué be the artisan term (describes what it does), but Fleur Bloom teaches Twilight "spell matrix" (in French) as the technical term | as a tentative proposal phrased as a question, offering an alternative scheme with its reasoning
+- about: The user checks the real French word for computer applications and proposes a two-tier vocabulary that splits the model's single term into an artisan word and a technical word taught by Fleur Bloom.

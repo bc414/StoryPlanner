@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the trench-dirt concept by placing it in the chapter 2 factory tour and asking how explicit the soil input should be, whether white phosphorus goes in tank rounds, and how Henri's interruption of Fleur could work, then asks for a fresh analysis of the plans and a synthesis.

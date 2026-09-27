@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the suggested alternative titles by explaining that "Oblivion" fits because the chapter introduces the drug tribes and ends by giving them an economic purpose.

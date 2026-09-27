@@ -1,0 +1,10 @@
+- sources:
+  - the framework as just articulated (the track system) | working draft to stress-test against the user's guidelines, not settled | "clearest articulation yet. Now let's stress test it" | referred-to
+  - my intuitive guidelines (S is the sum of L; R is derived from W) | provisional and possibly contradictory; test them, exploring both making them false and changing the framework to fit | "may or may not be in contradiction" | first-named
+  - the Applejack notes | check for things worth tracking beyond the current list | "Check the Applejack notes" | referred-to
+  - other knowledge about the project | check, along with the Applejack notes, for missing things to track | "other knowledge about the project" | referred-to
+  - first principles possibilities | use the model's own reasoning to suggest further trackable things so the user can judge | "first principles possibilities for me to make a judgement on" | first-named
+  - PE and NE labels, and in-story / pre-story | treat as outdated and mistaken (tunnel vision); replace with better identifiers | "seem outdated" and "had tunnel vision" | referred-to
+  - v1 story threads | recalled from memory as tracking PE and NE+R subversion arcs and creation arcs, tied to goals; possibly outdated or too general | "I believe in v1, story threads were tracking" | referred-to
+- order:
+- about: The user stress-tests the model's track framework against their own guidelines, asks it to search the Applejack notes, project knowledge and first principles for missing things to track, asks for new names to replace PE and NE, recalls v1 story threads, and proposes that events-first (L to S) planning may suit the event tracks.

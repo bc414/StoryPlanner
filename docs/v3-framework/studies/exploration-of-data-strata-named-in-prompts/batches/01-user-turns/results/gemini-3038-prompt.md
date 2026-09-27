@@ -1,0 +1,4 @@
+- sources:
+  - large attached documents | asked about only: the user wants to know how the model reads them (whole or via retrieval/truncation), with no instruction on trust or priority | What about for large attached documents? | first-named
+- order:
+- about: The user asks a short follow-up question about whether large attached documents are handled the same way as the repository import, without telling the model to trust, prefer or ignore anything.

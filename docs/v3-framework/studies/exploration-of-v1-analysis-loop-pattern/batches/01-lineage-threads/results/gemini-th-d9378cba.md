@@ -1,0 +1,14 @@
+- steps:
+  - author | proposes plot beat | Fluttershy corners Applejack with The Stare, demanding a promise to cure Griffonia's addicts after the war | at gemini:1058 prompt
+  - model | drafts scene | full staged scene with setting, dialogue beats, and a narrative-impact writeup | at gemini:1058 response
+  - author | supplies working material | attaches the full plan export document | at gemini:1059 prompt
+  - model | analyzes chapter and recommends placement | reads Chapter 12's thematic function, analyzes the Stare scene's role, and recommends inserting it after the War Council | at gemini:1059 response
+  - author | asks for a comparison | requests a comparative analysis of two specific placements relative to Henri's two talks with Applejack | at gemini:1060 prompt
+  - model | compares two options and gives a verdict | lays out Option A (before Talk 1) vs Option B (between Talk 1 and Talk 2) with tonal/thematic reasoning, picks Option B | at gemini:1060 response
+  - author | accepts and corrects the premise | endorses Option B but corrects the model's assumption, clarifying Applejack has no conscious sexual ambition and that Henri's read on her is projection, redefining the cognitive dissonance as drug-trade guilt | at gemini:1061 prompt
+  - model | revises the sequence | reworks the arc using the correction, detailing Henri's projection, the predator-trigger collision, and the lesson distinguishing the drug trade from consensual initiation | at gemini:1061 response
+- kept:
+  - note 218 | pasted from this reply inside the author's own framing | keeps the beat that Henri misreads AJ's brooding as suppressed romantic desire toward Twilight; placed on the PlotPoint for Henri's Lion-and-Eagle lesson
+  - note 222 | one sentence lifted from this reply | keeps the single line distinguishing initiation from violation and the drug-trade/love contrast; placed on the same PlotPoint for Henri's Lion-and-Eagle lesson
+- brought: The author brought an already-conceived plot beat (Fluttershy's Stare confrontation and its moral-contract demand) and later brought a correction to the model's characterization of Applejack's psychology, redirecting the scene's underlying conflict.
+- loop: The author feeds in a plot idea, then a placement question, then a psychological correction, each time letting the model draft or restructure the surrounding scene sequence in full; from all this expansion the plan retained only two small fragments of the final revised version — the framing of Henri's mistaken projection and one distilled line of his lesson — both filed under the single PlotPoint for Henri's lesson.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new request, asking for a breakdown of how the Democratic and Republican parties split across the 3A, 3B and 3C categories from 1929 to 2026, without disputing anything in the model's parallels.

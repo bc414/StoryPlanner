@@ -1,0 +1,42 @@
+- passages:
+  - 5704 | quantified historical summary | percentage figure "100%", stative past-tense phrasing | pre-Luna settlements' defensive state | apart
+  - 5704 | narrative historical summary | active past verbs "cleared", "fled" | Luna's monster-clearing campaign | run-in
+  - 5729 | worldbuilding exposition | present-tense "is", comparative "while", illustrative parentheses | contrast of griffon vs pony magic | apart
+  - 5729 | causal argument | "Therefore", contrastive clause | feudalism vs pastoral-harmony outcome | run-in
+  - 5729 | quantified historical summary | percentage figure "85%", settled-state description | contentment of settled Equestrians | run-in
+  - 5729 | meta-authorial aside | parenthetical naming "the canon show" | labeling figure as show-canon baseline | run-in
+  - 5730 | quantified historical summary | percentage figure "15%", past tense | ambitious minority of ponies | apart
+  - 5730 | narrative historical summary | "would settle", "spreading" | founding of new towns | run-in
+  - 5730 | structural rule statement | present-tense "requires", quoted term | necessity of Survival Harmony on frontier | run-in
+  - 5731 | narrative historical summary | named places, past tense | end of easy frontiers | apart
+  - 5731 | narrative historical summary | "began conquering", continuation | conquest of Everfree Forest | run-in
+  - 5731 | narrative historical summary | line break, "also" | sea-monster hunting as ambition outlet | apart
+  - 5732 | narrative historical summary | dated event, colon construction | opening of New Mareland frontier | apart
+  - 5732 | narrative historical summary | "But", stative caution | danger of ocean crossing | run-in
+  - 5733 | narrative historical summary | dated reign, past tense | Grover III's knights clearing sea monsters | apart
+  - 5733 | narrative historical summary | past-tense conclusion, quoted term | New Mareland as easier option | run-in
+  - 5766 | meta-authorial aside | quoted "anachronism", named "canon MLP setting"/"TLTT lore" | explaining tech anachronism via lore | apart
+  - 5766 | casual causal explanation | "That's why", concrete list | examples of allowed vs banned tech | run-in
+  - 5776 | worldbuilding exposition | present tense, parallel three-part list | tribal role division | apart
+  - 5776 | causal explanatory aside | parenthetical "since... because...", past tense | reason Celestia took over sun/moon duty | run-in
+  - 5776 | worldbuilding exposition | "Furthermore", present-tense claim | cutie marks matching personal magic | run-in
+  - 5776 | causal argument | "So", conclusion | biological suitability for division of labor | run-in
+  - 5776 | definitional/interpretive statement | "this is what...meant" | defining "harmony" for the era | run-in
+  - 5776 | narrative historical summary | past-tense simple declarative | tribes' unification | run-in
+  - 5776 | worldbuilding exposition | present-tense general statement | mutual sharing of labor | run-in
+- shifts:
+  - 5704 | quantified historical summary | narrative historical summary | shift from stat-based state description to active past-tense event verbs
+  - 5729 | worldbuilding exposition | causal argument | marked by "Therefore" introducing a conclusion
+  - 5729 | causal argument | quantified historical summary | shift to "85%" statistic marking a demographic outcome
+  - 5729 | quantified historical summary | meta-authorial aside | parenthetical naming "the canon show"
+  - 5730 | quantified historical summary | narrative historical summary | shift from stat "15%" to "would settle" event narration
+  - 5730 | narrative historical summary | structural rule statement | present-tense "requires" stating a general requirement
+  - 5766 | meta-authorial aside | casual causal explanation | "That's why" informal connector introducing examples
+  - 5776 | worldbuilding exposition | causal explanatory aside | parenthesis opening with "since... because..."
+  - 5776 | causal explanatory aside | worldbuilding exposition | "Furthermore" resuming a general claim after the parenthesis closes
+  - 5776 | worldbuilding exposition | causal argument | "So" marking an explicit conclusion
+  - 5776 | causal argument | definitional/interpretive statement | "this is what harmony meant" ties the conclusion to a named term
+  - 5776 | definitional/interpretive statement | narrative historical summary | shift to a past-tense simple event statement
+  - 5776 | narrative historical summary | worldbuilding exposition | return to a present-tense general claim
+- registers: quantified historical summary; narrative historical summary; worldbuilding exposition; causal argument; structural rule statement; meta-authorial aside; causal explanatory aside; definitional/interpretive statement; casual causal explanation
+- whole: This item's notes move among nine distinct registers, and within nearly every note these registers run straight into one another with no visible break, only occasionally standing apart where a note opens fresh or a line break sets off a further stretch of the same register.

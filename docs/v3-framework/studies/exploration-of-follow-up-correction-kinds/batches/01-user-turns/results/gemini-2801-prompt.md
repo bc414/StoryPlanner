@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's open question about where the crystals come from and answers it by proposing new sources (fleet-seized coastal or island crystal regions, trade with New Mareland and Sicameon, and the Crystal Empire's 1003 return under Cadance and Shining Armor as Aquileian sympathizers), extending the plan without disputing anything the model said.

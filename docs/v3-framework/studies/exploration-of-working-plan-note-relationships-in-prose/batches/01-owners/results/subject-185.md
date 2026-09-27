@@ -1,0 +1,9 @@
+- relations:
+  - 849 | 1609 | thematic pairing: her past act of tying the vines' survival to the tribes' communal empathy and the belief that kindness alone will make ponies follow both rest on the idea that others' good conduct carries what she starts; the earlier act is an instance of that trust, though the notes do not say so | tied the flora's survival to the sociology of the Medicinal Tribes / a nice example and all the ponies will follow | implicit
+- outward:
+  - 849 | the Tzinacatl bat ponies, their oxytocin-bound communal life and cutie-mark magic, held as lore elsewhere | Tzinacatl bat ponies
+  - 849 | the Medicinal Tribes and their pacifism, a group described outside this item | the Medicinal Tribes
+  - 849 | the native vines that were dying before she engineered them, and their wider ecology | native, dying vines
+  - 849 | the story TLTT, whose start the question is measured against | before the start of TLTT
+  - 1609 | the ponies she expects to follow her, and the events of TLTT where that belief is tested | all the ponies will follow
+- whole: The two notes sit together only loosely, joined by a thin thematic thread about her influence over others through kindness and communal empathy, and otherwise read as separate entries.

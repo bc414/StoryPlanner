@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches an older planning document and asks for a new four-way comparison of the Tzinacatl arc across P&K, the old doc, the pre-conversation plan and the post-conversation plan, without disputing anything in the model's prior turn.

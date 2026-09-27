@@ -1,0 +1,5 @@
+- sources:
+  - the debut episode Green isn't your Color | the published episode to be checked for whether the term Pinkie Promise appears in it or only the nursery rhyme | was Pinkie Promise used in the debut episode Green isn't your Color, or was only the nursery rhyme used | referred-to
+  - later episodes | the published later episodes of the show to be checked for whether Pinkie Promise is officially used as an in-universe term | Pinkie Promise officially used as a term in-universe in later episodes | referred-to
+- order:
+- about: The user asks a factual follow-up about the published show, wanting to know whether the debut episode used the term Pinkie Promise or only the rhyme, and whether later episodes made it an official in-universe term.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to think through a story question: whether the filly would know herself as Minette from infancy, whether her parents would use Souris in private, and whether the torture falls on the parents rather than her.

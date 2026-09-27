@@ -1,0 +1,5 @@
+- sources:
+  - The truth is not enough, you have to reach out (the Honesty vs Poseurs note) | treat as evidence supporting the unconditional-dignity proposition, not as a separate proposition | "The truth is not enough, you have to reach out" | referred-to
+  - individualism has limits / flourishing can't be based on performance (the Individualism Has Limits note) | treat as evidence supporting the unconditional-dignity proposition, not as a separate proposition | "individualism has limits/flourishing can't be based on performance" | referred-to
+- order:
+- about: The user merges the model's two proposed new propositions into one about unconditional dignity, recasts them as evidence for it, and asks the model to word that single proposition more neutrally and universally.

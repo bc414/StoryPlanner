@@ -1,0 +1,9 @@
+- asks:
+  - fact-check | asks whether it's true that In-N-Out and Raising Cane's pay their workers above minimum wage specifically for retention and morale purposes | "is this correct?"
+  - validate interpretation | asks whether the extended allegory holds: the Griffonian Republic as a redemption arc for lost English culinary tradition, with Herzland standing for England as the first industrializer whose culture was destroyed by industrialization, and Equestria standing for the post-1980 West / Stagnation of Harmony | "I believe the Griffonian Republic can also serve as a redemption story... Herzland is the allegory for England..."
+- supplies:
+  - stated framework | a four-part allegorical mapping pairing old American diners, McDonald's, terroir artisans, and Raising Cane's/In-N-Out to four in-world economic-cultural concepts (Stagnation of Harmony, rugged individualism, harmonic capitalism, standardized excellence/Griffonian Republic) | a few lines
+  - stated thesis | an added allegorical claim linking Herzland to England (as industrializer whose culture was destroyed) and Equestria to the post-1980 West/Stagnation of Harmony, framing the Griffonian Republic as redeeming lost English culinary tradition | a short paragraph
+- shaping:
+- openness: The message asks the model to check specific claims it already states — a real-world factual detail about restaurant worker pay ("is this correct?") and a stated allegorical mapping/thesis it presents as belief — rather than leaving either question open.
+- subject: Mapping real-world restaurant/food chains and English culinary history onto fictional political-economic allegories (Stagnation of Harmony vs. Griffonian Republic) in the user's world-building project, plus a factual check on real fast-food worker pay.

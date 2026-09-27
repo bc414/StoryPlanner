@@ -1,0 +1,7 @@
+- steps:
+  - the author | proposes a synthesis | class-stratified Skyfall setting (slum workers, suburban capital owners, feudal-industrial countryside), the populist psychology behind embracing serfdom-avoidance, city crime, and Eros's rise as a Trumpian-style moral-religious revolution backed by Chrysalis | opening of the exchange
+  - the model | elaborates the synthesis into a structured framework | pre-revolution 'rigged game' status quo, the Eros revolutionary pitch, Chrysalis's hidden economic engine, the resulting 'weaponized suburbia' society, a four-act summary arc, and a Republic-vs-Empire ideological comparison | response to the author's proposal
+- kept:
+  - note 548 | the author's own words | keeps the author's sentence about urban crime as a coping response to stalled upward mobility, filed verbatim under the plot point 'Breaking down Verany'
+- brought: The author brought a composite worldbuilding pitch already framed around the 'temporarily embarrassed millionaires' concept, tying together economic class structure, rural feudal-industrial dynamics, urban crime, and the political character of Eros's takeover.
+- loop: The author brings a compressed multi-part synthesis of setting and political psychology, the model expands it into a full structured framework with acts and comparisons, but the planning database keeps only the author's own single sentence about urban crime, filed as a discrete note under an unrelated plot point rather than any of the model's elaboration.

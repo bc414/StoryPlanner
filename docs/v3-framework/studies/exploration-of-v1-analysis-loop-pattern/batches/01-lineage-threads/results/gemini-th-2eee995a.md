@@ -1,0 +1,21 @@
+- steps:
+  - author | brings campaign plan and open dilemma | the Acornage-to-Vraks combined-arms push, the Olenia landings, the Vesalipolis holdout, a rump-state debate, and a list of possible endgame options under a no-nukes/no-grimdark constraint | opening message
+  - model | analyzes the political dilemma | frames the rump-state question as Griffonian realpolitik versus Applejack's moral universalism | first reply
+  - model | proposes a strategy | a food-bombardment siege of Vesalipolis ending in the regime's internal collapse | first reply
+  - model | ties the strategy to theme | explains how the ending avoids nukes and a grimdark invasion while fitting established themes | first reply, closing
+  - author | draws a real-world analogy | compares the food-drop to Choco Pie leaflet/propaganda drops and asks where the idea came from | second message
+  - model | supplies historical parallels | cites the Berlin Airlift, the Candy Bomber, the Marshall Plan, and wartime surrender-leaflet campaigns as precedent | second reply
+  - model | offers a next step | proposes drafting the radio broadcast speech that would accompany the food drop | end of second reply
+  - author | raises a follow-up problem | asks how to handle die-hard predatory 'true believers' like Pagala, noting few remain | third message
+  - author | adds a production detail | requests that leaflets be printed in both Herzlander and native Changeling | third message
+  - model | designs propaganda mechanics | splits leaflet language and message by target audience (officers vs. drones/civilians) | third reply
+  - model | invents a plot mechanism | a scenario where starving fanatics turn on civilians, triggering the coup from within | third reply
+  - model | proposes an aftermath | treating surviving predators as addicts in recovery and trying war criminals under law | third reply
+  - model | drafts a script | a bilingual Trimmel/Applejack radio transmission text | third reply, closing
+- kept:
+  - note 388 | pasted whole from this reply | keeps the Griffonian rump-state argument verbatim, filed under the 'The Negotiation' plot point
+  - note 389 | pasted from this reply inside the author's own framing | keeps Applejack's refusal line embedded in the author's own added character (Schnabel Sunglider) and idealist framing, filed under 'The Negotiation'
+  - note 393 | pasted whole from this reply | keeps the explanation of how the food drop destroys the scarcity narrative, filed under 'The Love Drop' plot point
+  - note 394 | pasted whole from this reply | keeps the honesty-theme justification for the food drop, filed under 'The Love Drop' plot point
+- brought: The author brought an existing campaign plan for the final war against Chrysalis (the Acornage-Vraks river push, the Olenia landings, and the Vesalipolis holdout), a character stance for Applejack opposing a rump-state compromise, and a menu of possible endgame options to choose among.
+- loop: The author brings unresolved plan questions and constraints (how the war ends, how to treat die-hard enemies, added flourishes like bilingual leaflets), and the model returns elaborated strategy, historical grounding, and drafted material in response; the plan keeps only the core rump-state argument and the food-drop's thematic justification, filing them verbatim or lightly reframed under two named plot points, while the later mechanics (leaflet design, predator fate, broadcast script) leave no traced note.

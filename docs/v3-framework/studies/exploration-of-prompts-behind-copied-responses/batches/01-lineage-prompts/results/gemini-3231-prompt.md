@@ -1,0 +1,15 @@
+- asks:
+  - explain | asks what changed at Game Freak/Pokemon design that made the games easier and 3D-spectacle-driven | "What changed at game freak?"
+  - evaluate hypothesis | asks whether the shift is about 3D production value and competing with mobile games' addictive design | "Is it again about production value of 3D? Because they had to compete with the frictionless addiction engines of mobile games?"
+  - historical fact | asks when mass-market media shifted from books to movies | "When did mass market media turn from books to movies?"
+  - historical fact | asks whether movies as a medium predate TV shows | "Did movies come before TV shows?"
+  - evaluate suspicion | asks whether non-sequel Pixar films have an artistic, non-corporate 'Faustian' quality unlike sequels | "I suspect many of the Pixar movies which aren't sequels have the artistic, non corporate, Faust properties"
+  - evaluate hypothesis | asks whether Marvel movies' popularity is driven by peer pressure and fear of missing out rather than quality | "Perhaps they are built on peer pressure to drive sales, a desire to be in the loop?"
+  - explain | asks why audiences tolerate TV commercial breaks | "flabbergasted but commercial breaks and why people would put up with them"
+  - evaluate hypothesis | asks whether commercial breaks are what gave rise to cliffhangers as a retention device | "did this gave birth to cliffhangers for retention?"
+  - open comparative question | asks whether the public was dumbed down/pacified by movies and TV or always lacked appetite for books | "Was the public dumbed down and pacified by movies and TV or was it always the case that the general public didn't have the desire to engage with books?"
+  - evaluate thesis | asks whether this whole media shift is deliberate macroeconomic manipulation by corporations in a stagnant post-WWII West | "Is this all a deliberate macroeconomic manipulation by corporations in a stagnant post WW2 Western world?"
+- supplies:
+- shaping:
+- openness: "Mixed: several sub-questions lean toward hypotheses the message itself names (3D competing with mobile games, cliffhangers born of commercial breaks, Marvel driven by peer pressure, deliberate macroeconomic manipulation), while the historical questions (books-to-movies timing, movies vs TV precedence) and the dumbed-down-public question are left genuinely open."
+- subject: Personal reflection on the decline of Pokemon game design and a wider speculative history of mass media shifting from books to movies, TV, and streaming, questioning whether these shifts reflect corporate/economic manipulation

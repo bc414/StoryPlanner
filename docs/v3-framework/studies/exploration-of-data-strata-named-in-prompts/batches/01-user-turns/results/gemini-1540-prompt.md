@@ -1,0 +1,5 @@
+- sources:
+  - the canon episode The Best Night Ever | treat as the baseline depiction to be contrasted, the comical starting point | named as origin of Blueblood's comical portrayal | first-named
+  - my story | treat as the endpoint depiction to be analyzed, showing Blueblood as a competent field marshal | named as where the transformed portrayal exists | referred-to
+- order:
+- about: The user asks the model to analyze the character transformation of Prince Blueblood from his comical canon portrayal in a specific episode to his competent field-marshal portrayal in the user's own story.

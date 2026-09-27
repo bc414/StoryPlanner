@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: proposed revision of the story's direction | The model's framing has Fluttershy holding the rehab solution as an intuitive, ready-made insight, with Twilight doing the chemistry. The user wants the knowledge to build up gradually, alongside the Luna Nova rifle arc, with Fleur Bloom and Aquileian scientists supplying the chemistry. | "instead of Fluttershy immediately knowing how to rehab the POWs" | Tentative and put as a wondering, as an alternative to the model's version. It gives no reason for the objection and never says the model was wrong.
+- about: The user answers the Rat Park framing by proposing that Fluttershy's rehab approach develop gradually through Fleur Bloom's contact with Aquileian brain-chemistry experts, whose knowledge comes from the Tzinacatl black-market drug trade, and that this run alongside the Luna Nova rifle arc.

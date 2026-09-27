@@ -1,0 +1,6 @@
+- sources:
+  - canon (the published show's episodes) | search it and find the instances where Pinkie talks about heartbeat going up or fun fear; treat as the reference to research | Please research and find the instances from canon | first-named
+  - Luna Eclipsed (Nightmare Night episode) | a candidate the user half-remembers; to be checked, not treated as confirmed | It might be Luna Eclipsed related to Nightmare Night and saying sometimes being scared is fun | first-named
+  - another separate episode where Pinkie talks about these things | vague, unverified memory of an unnamed episode; model to identify it, possibly played for laughs or with a thematic undercurrent | I feel like there is another separate episode where Pinkie talks about these things | first-named
+- order:
+- about: The user, recalling uncertainly that canon My Little Pony has Pinkie Pie talking about a rising heartbeat and fun fear, asks the model to research and find those instances in the show.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model described The Manticore's pattern and outcome (Blueblood hitting the wall until Celestia accepts 2 of 29 suggestions) as a finished, settled story, when the story is still being written and that material is provisional | Looks like the story is still in progress, actually | Brief, mild and hedged, stated flatly as an observation with no reason or apology, and not naming which claim it targets
+- about: The user briefly points out that the story the model analysed as complete is still in progress, implicitly asking it to reconsider its conclusions.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an explanation of the chemistry behind withdrawal from different classes of drugs, without pointing at any body of material to draw on or avoid.

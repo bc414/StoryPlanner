@@ -1,0 +1,11 @@
+- asks:
+  - analyse | make sense of the 9-scenario table, resolving what feels disjointed and complex | 'It's disjointed and complex. Please give analysis/clarification'
+  - apply a framework | apply real/formal game theory to the scenarios in the table | 'apply actual game theory'
+  - brainstorm/advise | give insight on how to convey the underlying themes (presumably in the story) | 'give insight on how to convey the themes'
+- supplies:
+  - table, a set of scenarios | 9 possible scenarios the user worked out for a fictional/invented game called 'Coltbert's expanded Predator's Dilemma with Accelerants' | one attached table (content not shown, placeholder)
+- shaping:
+  - bring order and clarity to material the user calls disjointed and complex | 'It's disjointed and complex'
+  - ground the discussion in genuine game-theory concepts rather than invented/loose terms | 'apply actual game theory'
+- openness: Leaves the answer open: it asks for analysis, correct application of game theory, and thematic insight without naming any expected conclusion or choice.
+- subject: A 9-scenario table for an invented story concept, 'Coltbert's expanded Predator's Dilemma with Accelerants,' and how to analyze it via game theory and convey its themes

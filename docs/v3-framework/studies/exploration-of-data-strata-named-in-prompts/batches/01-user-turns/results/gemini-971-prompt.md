@@ -1,0 +1,5 @@
+- sources:
+  - arsenal of democracy like the United States (the model's earlier comparison for Skyfall) | reject as the model for Skyfall; do not treat Skyfall as this, it is individualist merchants of death | Skyfall is not the arsent of democracy like the United States | referred-to
+  - the Netherlands (historical Dutch power) | use as the analogy for Skyfall's small population and land, high output, soft power and fleet; model's historical knowledge is asked to confirm whether the comparison held at one point | Skyfall is like the Netherlands ... is this accurate for the Dutch at one point? | first-named
+- order:
+- about: The author corrects the model's picture of Skyfall as a US-style arsenal, restating it as amoral merchant-traders who trade and arm-deal with Chrysalis, and asks whether the Dutch analogy fits historically.

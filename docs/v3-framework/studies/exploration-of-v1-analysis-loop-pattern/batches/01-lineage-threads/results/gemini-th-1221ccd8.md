@@ -1,0 +1,34 @@
+- steps:
+  - author | request | ask for ways to integrate a side character into the plan | opening exchange
+  - model | option-generation | three lore-grounded integration paths plus a structural follow-up question | response to opening request
+  - author | question | ask for a backstory explaining departure and choice of destination | second exchange
+  - model | failure | no usable content returned | failed response to backstory question
+  - author | resubmission-with-material | episode transcript link, repeated backstory question, own hypothesis linking it to another event and a neighboring faction | third exchange
+  - model | analysis | backstory structure built from the transcript and the author's hypothesis, closing question | response to transcript-based request
+  - author | revision | proposes an alternate version of the backstory (chieftain, destroyed village) | fourth exchange
+  - model | elaboration | full push-pull-aftermath backstory structure and thematic framing, closing question | response to revised backstory
+  - author | branching-proposal | two alternate later-life destinations for the character | fifth exchange
+  - model | comparison | evaluation of both destinations, a combined recommendation, closing question | response to branching proposal
+  - author | decision-plus-question | picks one destination, asks how it affects another character's psychology, adds the original trigger for a related trip | sixth exchange
+  - model | causal-analysis | chain from the character's chosen fate to the other character's decision to shut down an institution | response to decision
+  - author | addition-plus-question | adds a third character to the rebuilding effort, asks why the protagonist still obeys authority despite new understanding | seventh exchange
+  - model | distinction-drawing | builder-vs-killer framing, a compromise role, a rebellion hierarchy | response to obedience question
+  - author | mechanism-proposal | suggests a reactive counterpart to another character's known psychological trait | eighth exchange
+  - model | elaboration | comparative psychological framing between two characters, ties to an existing institution name, closing question | response to mechanism proposal
+  - author | refinement | shifts protagonist's motivation from resentment to self-driven trauma response | ninth exchange
+  - model | reworking | motivation rebuilt around self-driven trauma and an enabling authority figure, closing question | response to refinement
+  - author | review-request | asks for a full review of the protagonist's mental state at two timeline points, plus a constraint to preserve tone until a later scene | tenth exchange
+  - model | synthesis | staged psychological profile across the timeline, guidance for preserving tone until the target scene | response to review request
+  - author | mechanism-question | asks how to frame the protagonist's foreign effort so it sets up a later persona shift | eleventh exchange
+  - model | reframing | recasts the foreign effort as flawed top-down charity, links it to the later scene's lesson | response to mechanism question
+  - author | new-document-plus-question | brings a dev-diary document on a concurrent war, adds a timeline detail, asks the thematic function of a plot event | twelfth exchange
+  - model | thematic-analysis | four-part payoff analysis and a scene-timing suggestion | response to document-based question
+  - author | conflict-identification-plus-fix | flags a contradiction with an earlier planned scene, proposes an alternate trigger and character line to resolve it | thirteenth exchange
+  - model | reconciliation | splits the protagonist's psychological block into two stages, builds a stepwise scene roadmap | response to conflict identification
+- kept:
+  - note 5187 | pasted from this reply inside the author's own framing | keeps the line reframing why an institution is shut down, filed under the institution's subject entry
+  - note 5188 | pasted from this reply inside the author's own framing | keeps the full revised backstory (village destroyed, journey to stop a rising threat, staying on) plus the linked scene where a protagonist witnesses applied rebuilding, filed under the rebuilding-location subject entry
+  - note 5186 | pasted from this reply inside the author's own framing | keeps the staged psychological profile of the protagonist's grim, trauma-driven wartime mindset, filed under the protagonist's character subject entry
+  - note 3369 | pasted whole from this reply | keeps the passage where the protagonist realizes her rebuilding method kept people dependent rather than empowered, filed as a link between two subject entries
+- brought: The author brought in outside canon material (an episode transcript link) and a separate planning document (a dev diary on a concurrent war) to ground new backstory and timeline decisions in existing sources.
+- loop: The author repeatedly brought partial backstory ideas, character-motivation questions, and outside reference material, prompting the model to expand each into structured causal and thematic analysis with a closing question; the author then picked among options, revised, or flagged contradictions, and the planning database kept the model's reframed psychological and backstory passages, filed under the relevant character and location subjects.

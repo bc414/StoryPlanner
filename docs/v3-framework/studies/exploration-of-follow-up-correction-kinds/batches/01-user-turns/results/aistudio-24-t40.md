@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies an attached document and a JSON list of categorized bucket names under five paradigms, which reads as the next input for the sorting task. It does not say anything in the previous sort was wrong.

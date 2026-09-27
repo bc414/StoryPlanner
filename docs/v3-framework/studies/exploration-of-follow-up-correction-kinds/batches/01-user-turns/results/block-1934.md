@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the note-classification thread and asks a new question about how many thematic propositions their themes section should hold, asking for a review of the DB file's themes section against examples from the conversation.

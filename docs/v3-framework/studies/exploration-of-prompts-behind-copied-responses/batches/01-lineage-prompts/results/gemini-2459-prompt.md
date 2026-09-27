@@ -1,0 +1,7 @@
+- asks:
+  - check | confirms whether a stated tactical/worldbuilding rule is correct or consistent | opens with "Got it, so..." restating a scenario as if summarizing back an established point
+- supplies:
+  - idea | a scenario about the Storm King's airship armada: immune to musket fire from other warlords due to altitude, but vulnerable to fighter planes with white phosphorus, causing them to burn and fall into the ocean | a couple of sentences
+- shaping:
+- openness: leans toward an answer it names: the message states the rule (immunity to muskets, vulnerability to white-phosphorus-armed fighter planes) as if confirming understanding, rather than leaving it open or offering alternatives
+- subject: the Storm King's armada's vulnerability to different weapons (muskets vs. fighter planes with white phosphorus) in the story's world

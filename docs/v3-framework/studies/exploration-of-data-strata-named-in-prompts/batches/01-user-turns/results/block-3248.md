@@ -1,0 +1,6 @@
+- sources:
+  - The Polygamist (the series) | material to draw on and compare against the earlier Great Lakes Zebra analysis; known only by hearsay, so its details are not yet established | I heard The Polygamist is a recent globally popular series | first-named
+  - the book source material (of The Polygamist) | material to draw on together with the show and to relate to the earlier analysis | the book source material | first-named
+  - the analysis we did for Great Lakes Zebras for TLTT | the existing baseline that the show and book are to be tested against, treated as established work to interact with | the analysis we did for Great Lakes Zebras for TLTT | referred-to
+- order:
+- about: The user asks how a globally popular Zulu-community series, The Polygamist, and its source book relate to the Great Lakes Zebra polygamy analysis already done for their story TLTT.

@@ -1,0 +1,7 @@
+- steps:
+  - the author | request | asks for a comprehensive history of bat ponies/thestrals in the MLP fan community | opening prompt of the thread
+  - the model | deliver an analysis | a sectioned history covering origin episode, naming schism, fanon-era OCs and memes, canon interventions, a later fandom-game era, and a canon-vs-fanon summary table, ending with an offer to dig into a specific fanfic or comic | main response body
+  - the model | offer an alternate condensed version | a shorter wrap-up framed as a generated file description, hitting the same timeline beats plus a tease of a G5 controversy, ending with another offer to go further | second draft response appended after the main one
+- kept:
+- brought: none
+- loop: The author brought a bare research request with no plan material behind it, the model returned two versions of a broad reference survey and dangled follow-up offers, and the exchange ended there with nothing carried into the planning database.

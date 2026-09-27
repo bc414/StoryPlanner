@@ -1,0 +1,7 @@
+- asks:
+  - check | asks whether a hero being named "the lion of X" still fits, given that both lion and eagle are established as symbols in griffon culture | "Does it still make sense that a hero would be named the lion of X?"
+- supplies:
+  - stated fact | that the lion and the eagle are established symbols within griffon culture | one sentence
+- shaping:
+- openness: check | the message presents an established worldbuilding fact and asks the model to verify whether a specific naming choice ("the lion of X") remains consistent with it
+- subject: consistency of a hero's epithet ("the lion of X") with griffon cultural symbolism

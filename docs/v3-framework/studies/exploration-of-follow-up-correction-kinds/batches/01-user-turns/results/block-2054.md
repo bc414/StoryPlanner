@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for more on Alexandra Rowland and her works while supplying the story's origin (TLTT as a fork of P&K written after the 2024 election, with AJ defying instead of collaborating) and noting that hopepunk's 2017 coinage bears on it, adding context rather than disputing the model's analysis.

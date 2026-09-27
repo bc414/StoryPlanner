@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's prepared-defense account of the Crystal City siege as the logical one, points out that it turns their planned mystery of how the shield held into a tension over whether it will hold, and asks how this affects the story and whether it works.

@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm | asks what content should be included in the chapter 2 factory meeting scene | "What should go into the chapter 2 factory meeting?"
+  - yes/no question | asks whether the chapter 2 factory meeting scene is still needed at all, given chapter 1 already covers Applejack meeting Comet Shine | "Do I even need it anymore?"
+  - evaluate/confirm | asks whether the Fleur portion of chapter 2 can be reduced or cut, since her full theory will now appear in chapter 9 with Comet Shine | "maybe this can be reduced or cut too?"
+- supplies:
+  - plan context | recap of the just-made decision to delay the full reveal to chapter 9 | a sentence
+  - plan context | note that Applejack already met Comet Shine in chapter 1, with him asking her to the command center | a sentence
+  - plan context | note that Fleur will give the full theory in chapter 9 alongside Comet Shine | a sentence
+- shaping:
+- openness: Mixed: it asks an open brainstorm question about chapter 2 content, a direct yes/no question about whether the factory meeting is still needed, and floats a suggestion it leans toward (cutting or reducing the Fleur part) that it asks the model to confirm or weigh in on.
+- subject: Revising chapter 2 (factory meeting and Fleur scene) after deciding to delay the full reveal to chapter 9

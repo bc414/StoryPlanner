@@ -1,0 +1,5 @@
+- sources:
+  - Elements of Liberty, the term Resilience chosen early on | treat as the author's earlier, believed-thoughtful choice, but open to re-evaluation and not assumed correct | I came up with the term pretty early on when deciding on Elements of Liberty | referred-to
+  - the failure mode (Cynicism), as now understood from this conversation | use as the new standard to test whether Resilience is the right opposite pole | now that I understand precisely what the failure mode is | referred-to
+- order:
+- about: The user asks the model to re-test whether their early-chosen term Resilience is the right opposite of Cynicism in light of their sharper understanding of the failure mode, and to list runner-up alternatives with reasons.

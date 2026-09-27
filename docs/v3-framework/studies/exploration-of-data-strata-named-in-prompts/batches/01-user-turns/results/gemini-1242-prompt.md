@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to describe and analyze the pre-war Equestria that Celestia built over 1000 years, which they call the Stagnation of Harmony, without pointing at any body of material to draw on or avoid.

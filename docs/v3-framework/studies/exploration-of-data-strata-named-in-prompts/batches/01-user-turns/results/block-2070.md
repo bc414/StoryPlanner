@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers their own design ideas for the game's mid-game shift from company to nation-state, covering how the four paths and the compradors turn out, without pointing at any body of material for the model to draw on.

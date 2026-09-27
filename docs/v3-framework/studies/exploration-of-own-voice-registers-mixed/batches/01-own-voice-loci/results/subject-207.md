@@ -1,0 +1,20 @@
+- passages:
+  - note 4207 | sardonic historical narrative | ironic phrasing "greedy griffons even dared to posit", past tense | nobles' regency council resisting industrialists who want serf customers | apart
+  - note 4207 | analytical exposition | present tense, generalized symbolic claims, capitalized abstract term "Inviolability" | how mass-produced clothing erases the serf/noble visual distinction | apart
+  - note 4207 | narrative historical recounting | past tense, sequential clauses "rose up... repurposed" | industrialists and peasants rising in the revolution | run-in
+  - note 4207 | comparative real-world aside | naming real history mid-sentence, "just like the Jacobins in France" | likening the co-opted revolution to the French Revolution | run-in
+  - note 4207 | narrative historical recounting | past tense, closing sequential action | peasant disillusionment and Grover V's escape | apart
+  - note 4251 | analytical exposition | present tense, causal "because," generalized cultural claim | why Herzland's culture produces no proletarian faction | apart
+  - note 4763 | narrative historical recounting | compressed, telegraphic past-tense summary | Chrysalis modeling the counterrevolution on Aquileia's | apart
+  - note 4763 | fragmentary annotation | incomplete sentence set on its own line | source note about reading Coltbert's paper | apart
+  - note 5220 | narrative historical recounting | past-tense frame "It started with," embedded present-tense description of contents | the pamphlet's origin and its exposure of the nobility | apart
+  - note 5220 | expository summary of argument | present-tense reporting verbs "argues," "claims" | the pamphlet's case for removing kings and archons for a republic | apart
+- shifts:
+  - note 4207 | sardonic historical narrative | analytical exposition | tense shifts from past ironic storytelling to present-tense symbolic claims
+  - note 4207 | analytical exposition | narrative historical recounting | returns to past-tense sequential action verbs describing events
+  - note 4207 | narrative historical recounting | comparative real-world aside | a real-world analogy is dropped into the ongoing sentence
+  - note 4207 | comparative real-world aside | narrative historical recounting | resumes past-tense fictional-world events after the aside
+  - note 4763 | narrative historical recounting | fragmentary annotation | drops to an incomplete sentence set on a new line
+  - note 5220 | narrative historical recounting | expository summary of argument | shifts from past-tense framing of the pamphlet's appearance to present-tense reporting of what it argues
+- registers: sardonic historical narrative; analytical exposition; narrative historical recounting; comparative real-world aside; fragmentary annotation; expository summary of argument
+- whole: This item holds several registers — sardonic narrative, analytical exposition, plain historical recounting, a real-world aside, a bare fragmentary jotting, and argument-summary — most standing apart as separate sentences or lines, though in note 4207 a real-world analogy runs into an ongoing narrative sentence without a break.

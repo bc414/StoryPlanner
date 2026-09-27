@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Gilded Lily and Silver Sterling's parenting is portrayed as ordinary teen-oriented concern (pride in grades, worry about coming home late); the user says they would not act like parents of an American 1980s teenager, and their pride attaches to Krista's seed capital and Skyfall-exploiting innovations and strategies | The framing is slightly off. Gilded Lily and Silver Sterling wouldn't worry about grades or coming home late | Stated flatly as a mild correction, with a reason and a replacement account of what they would praise, no apology or irritation
+- about: The user narrows the model's account of the Sterling parents' warmth, replacing schoolwork-and-curfew parenting with pride in Krista's business contributions, and leaves the rest of the analysis standing.

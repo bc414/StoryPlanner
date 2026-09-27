@@ -1,0 +1,6 @@
+- sources:
+  - the attached story plans | review them and use them as the material to analyze, to work out what to add or replace in the lore | review the attached story plans | first-named
+  - my lore about Moriset Discret's Aquileia/Coltbert Reforms, 2nd Aquileian Republic, and other related parts of my story plan | existing lore to be revised: identify what to add or replace so it matches the new direction | what I need to add or replace in my lore | referred-to
+  - the model's preceding analysis of the Republic of Radical Ambition (including its Lioness Spell / Economic Safety Net / needing to be Special passage) | accept as the exact evolution wanted for the 2nd Aquileian Republic and build the lore revision on it; the quoted passage is the core thing the later Equestrian Republic must not inherit | this is the exact evolution I want | referred-to
+- order:
+- about: The user endorses the model's Republic of Radical Ambition analysis as the new direction for the 2nd Aquileian Republic and asks the model to review the attached story plans and say what lore to add or replace, while explaining planned Fraternity-chapter scenes and Coltbert's flawed assumption about ambition.

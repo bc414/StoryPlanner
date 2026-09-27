@@ -1,0 +1,5 @@
+- sources:
+  - chapter 7 Generosity | the part of the plan the new equipment-failure and blockade mechanic is meant to feed into, so the model should build the tycoon paralysis into it | sets up a hilarious mechanic and divide for chapter 7 Generosity | referred-to
+  - EEEE backstory (anti-tycoon union of bored ponies and self-exiled Tzinacatl abused by Skyfall) | existing backstory that the new founding element should be consistent with; the author judges it to fit and offers the element as a possible addition, not settled | seems to align with their backstory | referred-to
+- order:
+- about: The author corrects the model's claim that the Rik had wide purchasing power, restricts it to SAA and its allies, and adds a tycoon equipment-failure mechanic for chapter 7 Generosity and a possible new founding element for EEEE.

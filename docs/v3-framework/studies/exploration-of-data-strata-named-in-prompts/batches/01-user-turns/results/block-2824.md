@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model two questions about whether the revised backstory still supports the "honor among thieves" idea of solidarity and whether the tourism operation should still be seen as a sham.

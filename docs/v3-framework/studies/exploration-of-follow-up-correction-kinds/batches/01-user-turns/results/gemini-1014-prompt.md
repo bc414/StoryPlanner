@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the power-scaling analysis and adds a new character beat, that Twilight feels guilty about not fighting at another part of the front and stays at Tall Tale because of Applejack as her moral compass.

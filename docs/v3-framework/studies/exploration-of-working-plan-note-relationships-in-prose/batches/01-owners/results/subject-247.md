@@ -1,0 +1,11 @@
+- relations:
+  - 1930|1931|continuation in time: the Pridea research begun in the first period carries on into the next period and reaches great leaps|University of Pridea (named in both); periods 965..980 then 980..1003|explicit
+  - 1931|1932|continuation and resolution in time: the struggle to source crystals is followed, at the end of the period, by the crystal empire's return|struggle with sourcing crystals / The crystal empire returns|implicit
+- outward:
+  - 1930|the Royalists' home, Le Grand Foyer, and the split of a second generation from it, held elsewhere|Bored 2nd gen Royalists leave Le Grand Foyer
+  - 1930|Grover III and the griffon artisanship tradition, held elsewhere|Grover III's griffon magical artisanship
+  - 1931|the Coltbert Reforms, a historical event held elsewhere|during the Coltbert Reforms
+  - 1932|the crystal empire, a realm and its earlier fall, held elsewhere|The crystal empire returns
+  - 1928|Chrysalis, a character, and her way of extracting love, held elsewhere|Chrysalis literally cannot use the new magical tech
+  - 1928|Friendship and Harmony as story themes/forces held elsewhere|Friendship and Harmony are not just moral high grounds
+- whole: The two Usage notes and the Invention note form a small time-ordered chain about Pridea's research and the crystal supply, while the analogy note and the thematic note stand as separate entries that do not bear on the others in their words.

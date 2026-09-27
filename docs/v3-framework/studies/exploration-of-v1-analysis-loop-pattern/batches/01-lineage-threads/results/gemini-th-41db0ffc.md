@@ -1,0 +1,16 @@
+- steps:
+  - the author | challenge | disputes an earlier model-invented detail (AJ writing letters) | opening line of the message
+  - the author | plot exposition | lays out Applejack's motivation for refusing surrender: fear of becoming leverage against her family | early in the message, before the VOPS mention
+  - the author | cite established profile | invokes the VOPS psychological profile on AJ's vulnerability to family threats to justify her behavior | middle of the message
+  - the author | point to existing lore | flags the bunker nightmare as the P&K collaborator timeline and asks the model to review the linked Codex entry | middle of the message
+  - the author | request analysis | asks explicitly for a contrast between this story's attitude and the P&K attitude | closing line of the message
+  - the model | correction accepted | admits the 'letters' idea was a wrong inference and explains where it came from | opening of the response, right after a brief reframing line
+  - the model | comparative breakdown | lays out the shared VOPS premise then splits it into the P&K-collaborator interpretation versus the LoTT-lioness interpretation | early section of the response
+  - the model | scene-function analysis | explains what narrative work the bunker nightmare does in pushing AJ toward confronting Luna | middle section of the response
+  - the model | mirror-scene analysis with drafted line | reframes the Luna confrontation as AJ recognizing her own nightmare-logic in Luna's argument, and drafts a line of dialogue for AJ | middle-to-late section of the response
+  - the model | schematic summary | offers a compact diagram-style label of the divergence between the two versions | just after the mirror-scene analysis
+  - the model | psychological-frame synthesis | reframes AJ's 'die fighting' reasoning as a shift from prey to predator psychology and ties it back to the tipsy tent entrance | closing section of the response
+- kept:
+  - note 710 | pasted whole from this reply | keeps the model's dramatization of the Luna confrontation (Luna's surrender-as-protection argument, AJ's rejection speech, the predator/prey reasoning, and the tipsy-entrance interpretation), placed under the plot point for Applejack confronting Luna about the retreat order
+- brought: The author brought a correction to an earlier invented detail plus their own established plot logic (AJ's fear of being used as leverage, the VOPS profile, and the bunker-nightmare/Codex material on the collaborator timeline), and asked the model to contrast it with the P&K storyline.
+- loop: The author corrects the model and supplies the real plot mechanics along with a pointer to existing lore, prompting the model to build out a multi-part contrast and scene analysis; of that whole analysis, only the model's dramatized rendering of the Luna confrontation scene is kept, pasted whole into the plan's entry for that confrontation.

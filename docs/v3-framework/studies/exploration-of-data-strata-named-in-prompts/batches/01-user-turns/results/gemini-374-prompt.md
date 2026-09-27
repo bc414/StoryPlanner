@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks what the proper French rendering would be for the English name of Vérany's first party, "National Republican Party in Aquileia", without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new side question about what safeguards Google has against people making fresh accounts to claim the $300 credit again, moving off the model's setup advice without saying anything in it was wrong.

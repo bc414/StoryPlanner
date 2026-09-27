@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about what the Dutch or German localizations of the Equestria at War mod call the Skyfall state, seeking an existing reference point rather than disputing anything the model said.

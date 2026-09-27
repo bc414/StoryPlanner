@@ -1,0 +1,82 @@
+- relations:
+  - 2311|2312|Two parallel analogies of indigenous ecological management being disrupted by settlers, each mapped onto the story's colonizers|European settlers disrupted these systems / When settlers disrupted the practices|implicit
+  - 2359|2358|The canon note leans on the real-Aztec consensus fact as its evidence that the P&K council vote is a genre device|Aztec councils operated on consensus through deliberation / consensus-seeking through deliberation|implicit
+  - 2358|2360|Two canon notes that each mark a way the P&K version of the Tzinacatl departs from real Mesoamerican practice and from what TLTT does|not how real Mesoamerican politics worked / tlatoani IS the Tzinacatl word for Moonspeaker|implicit
+  - 2358|2202|The canon note describes the P&K council as screeching in competing languages, while the ontology note gives the TLTT Conclave one protocol language, so it corrects that picture|screech in competing languages / they all speak a protocol language|implicit
+  - 2360|2200|The ontology note says every tribe has a moonspeaker; the canon note says each tribe or city state has its own moonspeaker and none speaks for all|each tribe/city state has a moonspeaker / All tribes have moonspeakers in the conclave|implicit
+  - 2360|2179|Each tribe is a sovereign city state (altepetl), which is why each has its own tlatoani and none is above the others|sovereign jungle city state / NO one creature who speaks for all|implicit
+  - 2174|2166|The theme note gives the same cause as the causality note: farming and caloric security let ritual non-lethal competition replace lethal hunting|caloric security from farming / The food supply enables institutional non-lethal competition|implicit
+  - 2568|2166|Both compare the Tzinacatl with the changelings' hive wars and put the difference in food supply|only differ on the material condition of food supply reliability / changelings hunted for survival|implicit
+  - 2568|2174|The garden note's food-supply difference is the material condition that the causality note says lets the flower wars exist|food supply reliability / The food supply enables institutional non-lethal competition|implicit
+  - 2174|2295|The general point that losing costs only the hunting privilege is made concrete by the rule that winning gives the loser's hunting territory|you don't get the privilege of hunting monsters / more access to monster hunting|implicit
+  - 2168|2174|The Conclave arising from material conditions is backed by the causality note's account of what those conditions were|comes from material conditions / Tropical geography makes agriculture possible|implicit
+  - 2168|2167|Both state that the Conclave predates Luna, one as a theme and one as what readers are led to misbelieve|predating Luna / Moonspeaker Conclave predates Luna|implicit
+  - 2167|2202|Tension: the Conclave predates Luna, yet its protocol language is said to have begun as the common language of Luna's monster hunters|Conclave predates Luna / originally the common language as Luna's monster hunters|implicit
+  - 2205|2297|The 928 gun response is an instance of the rule that unauthorized lethal or territorial violations bring cocoltic yaoyotl, not flower war|Cocoltic Yaoyotl / met with cocoltic yaoyotl|implicit
+  - 2283|2205|The griffon gun sales to individual Tzinacatl are the cause of the 928 violation and the Conclave's response|selling guns to opportunistic individual Tzinacatl / A warrior with a gun|implicit
+  - 2205|2288|The storytelling plan restates the 928 event as opportunists with guns who were expelled|928 was only opportunists passing around guns, who were expelled|implicit
+  - 2205|2281|The plan note frames the 928 wave as individuals the flower war system simply expelled, matching the history note's expulsion|which just expelled individuals / The expeled Tzinacatl|implicit
+  - 2205|2204|The expelled Tzinacatl who go to Chiropterra continue the departure and founding of Chiropterra described in the earlier period|take their guns and grievances with the Conclave to Chiropterra / founding Chiropterra|implicit
+  - 2204|2283|Griffon greed and raiding in the earlier note is carried by the guns that merchants sell in the later one|learn griffon greed / griffon merchants selling guns|implicit
+  - 2204|2297|Both say the Conclave severely punishes overhunting or theft outside sanctioned flower wars|severely punish violators who overhunt or steal / Violations of overhunting are punished punitively|implicit
+  - 2204|2308|The reason for punishing overhunting, that it drains the closed ecological loop, rests on the Conclave's role of managing sustainable harvest|closed ecological loop / sustainable monster harvest rates|implicit
+  - 2203|2204|The stable period is followed by global trade and the first erosion of Conclave rules|Stable flower wars / Global trade opens up|implicit
+  - 2203|2294|Trade that was once respected is followed by bans, stigma and cut-off trade after the Stagnation of Harmony policies|They were respected trading partners / scrutiny and bans of Tzinacatl recreational drugs|implicit
+  - 2205|2294|The 928 lumping of Tzinacatl in with anti-harmonic griffons continues into the drug bans and the stigma against thestrals|anti-harmonic / anti-thestral sentiments|implicit
+  - 2286|2288|The plan note restates the 981 crossbow event, contrasting it with the lethal guns of 928 and 993|981 is coordinated crossbows which aren't lethal but undermine|implicit
+  - 2286|2281|The plan note says 981 was a state effort that unintentionally broke the medicinal tribes off from the flower wars, which the crossbow note describes as opting out|breaks off the medicinal tribes from the flower war system / opt-out of the flower wars|implicit
+  - 2286|2217|After the crossbows, the medicinal Moonspeakers stay for dispute resolution and ecological management only, which is the result of the opt-out|Medicinal Tribe Moonspeakers, post-Coltbert / focus solely on artisan export|implicit
+  - 2292|2184|The factory wave and clear cutting lead to the Conclave's unanimous 993 declaration of real war|clear cutting the forest / cocoltic yaoyotl|implicit
+  - 2184|2205|The 993 unanimity is set against 928, the last time all agreed, and both are cocoltic yaoyotl responses|for the first time since 928 / Cocoltic Yaoyotl|explicit
+  - 2184|2217|Tension: 993 has all three factions unanimous, yet the later note says the Conclave would not have consensus|unanimous decision / The Conclave itself would not have consensus|implicit
+  - 2184|2307|The 993 clear-cutting response is explained by the reader-facing note's point that industrial clear cutting would wreck the jungle equilibrium|clear cutting / destroyed the equilibrium of the jungle ecosystem|implicit
+  - 2292|2233|The displaced factory workers of 993 follow from the earlier wave that recruited Tzinacatl into factory towns|factory workers, living in factory towns / displaced factory workers|implicit
+  - 2292|2281|The plan note reads the factory wave as a state operation for maximum extraction that split the drug tribes and drew in inland tribes|recruit Tzinacatl from ALL tribes / drew mercenaries and factory workers from all tribes|implicit
+  - 2292|2288|The plan note names 993 as lethal, state-backed guns, matching the corporate warfare with lethal guns in the history note|lethal guns / lethal guns with coordinated state backing|implicit
+  - 2281|2217|Two different reasons are given for the traditionalist-only Confederation: preparing for the next colonization, and the Conclave's lack of consensus|calcify into a confederation / That's why the Confederation is only traditionalists|implicit
+  - 2281|2288|Both lay out the same three-wave sequence of 928, 981 and 993|928 was only opportunists / 928 Herzlander rugged individualist wave|implicit
+  - 2217|2318|The Vietnam analogy's compradors and traditionalist confederation are set against the Conclave's factions and traditionalist Confederation|traditionalist confederation / The 3 factions|implicit
+  - 2286|2318|The analogy note says the Coltbert Reforms delivered universalism, and the history note has Coltbert giving the medicinal tribes crossbows|Coltbert Reforms actually delivered / Coltbert gives the medicinal tribes|implicit
+  - 2311|2295|Negotiated, temporary transfers of rights to river stretches echo territorial hunting access won through flower wars|rights could be negotiated and temporarily transferred / winning a flower war lets them hunt the captives' territory|implicit
+  - 2311|2308|Tribal salmon management for a viable population inspires the Conclave's sustainable-harvest role|keep the salmon population viable / sustainable monster harvest rates|implicit
+  - 2312|2308|Mosaic burning as ecological management inspires the preemptive burning of overgrowth in the Conclave's surveys|Aboriginal mosaic burning / overgrowth that has to be burned preemptively|implicit
+  - 2312|2307|Practices that looked primitive but were sophisticated management match the reader's mistaken view of perpetual petty war that turns out to be ecological management|looked primitive / flower wars are ecological management|implicit
+  - 2306|2307|Two reader-opinion notes with the same shape: a first impression of danger or petty war is replaced by the fact of rule-governed ecological management|Readers initially think / The reality is|implicit
+  - 2307|2315|Both give the reader's petty-war or ambition-sink assumption and then the ecological reveal|petty war / petty ambition sink|implicit
+  - 2315|1521|Contradiction: one treats the ambition sink as a misbelief to be corrected, while the other gives it as the truth|purely a petty ambition sink / The flower wars were the pioneer ambition sink|implicit
+  - 2167|1521|Both say the flower wars' real purpose is learned late, but they give it differently: training for hunts with Luna, versus a pioneer ambition sink|training young Tzinacatl / pioneer ambition sink|implicit
+  - 1521|2206|Both point to Luna's prequel as where the fuller Tzinacatl history is delivered|Luna's prequel / Mali and Luna's prequel|explicit
+  - 2306|2308|The rules for monster hunting deliberated at the Conclave are the working rules in the ontology note|rules around it, deliberated at the Conclave / manages sustainable monster harvest rates|implicit
+  - 2160|2308|Both list what the Conclave manages, and the second extends the list to harvest rates, access and jungle health|The Conclave manages / The conclave manages|implicit
+  - 2160|2297|Violations of the system's rules are on the first note's list and the second says how they are punished|violations that go against the rules / Violations of overhunting are punished|implicit
+  - 2163|2160|The 1000-year-old institution is the same body whose duties are listed|Moonspeaker Conclave / The Conclave manages|implicit
+  - 2162|2209|Two notes on the same Meadowbrook-derived plants grown for warrior medicine|pink love plants invented by Mage Meadowbrook / friendship plants derived from Mage Meadowbrook's alchemy|implicit
+  - 2209|2294|The red love plants for warrior highs are the base of the recreational drugs later banned|warrior highs / recreational drugs|implicit
+  - 2162|2203|The medicine from the plants is the same as the painkillers and contraceptives traded to pioneers|medicine for their warriors / painkillers for logging accidents|implicit
+  - 2161|2203|The thestrals' retreat to the jungle leads into the long stable period of the Tzinacatl there|thestrals slowly retreated to the Tzinacatl jungle / Stable flower wars|implicit
+- outward:
+  - 2311|The griffon colonists and Chrysalis as the disrupting colonizers, held in other parts of the plan|This is what the griffon colonists and later Chrysalis tried to do
+  - 2312|Equestrians and Herzlanders as outside observers|This is what Equestrians and Herzlanders seem from the outside
+  - 2318|The Coltbert Reforms, Aquileian and Skyfall compradors, the traditionalist confederation and the chiropterrans|The South Vietnamese government are a mix of Aquileian and Skyfall compradors
+  - 2358|The P&K source and ASOIAF, its genre models, and Flurry's cutting herself|P&K's Tzinacatl plot is largely inherited from ASOIAF conventions
+  - 2360|Light Narrative, the singular tlatoani of P&K|In P&K, Light Narrative is the singular tlatoani
+  - 2205|Herzlander and Skyfall imperialists, Chiropterra, and the earlier expelled thestrals|expeled Tzinacatl take their guns and grievances with the Conclave to Chiropterra
+  - 2294|The Stagnation of Harmony policies, New Mareleans, Baltimare and New Mareland|The start of Stagnation of Harmony policies
+  - 2286|Coltbert and Aquileian crossbows, and Skyfall's guns|Coltbert gives the medicinal tribes bespoke Aquileian crossbows
+  - 2184|Chrysalis proxies, Chiropterrans and New Horseleans/Aquileia|Chrysalis proxies and Chiropterrans clear cutting the forest
+  - 2233|Skyfall visas, Manehattan and EEEE|go to Manehattan. They become EEEE!
+  - 2161|Luna's banishment and the other tribes|After Luna's banishment
+  - 2203|Celestia's ban on pioneers in the jungle, and Equestrian pioneers|Celestia explicitly forbids Equestrian pioneers
+  - 2283|Post-Grover III Griffonia and its chivalric honor code|Post-Grover III Griffonia shed its chivalric honor code
+  - 2292|Chrysalis, Skyfall industrialists and Skyfall DRM|Skyfall industrialists (some Chrysalis-driven
+  - 2162|Mage Meadowbrook and the pink love plants|invented by Mage Meadowbrook
+  - 2167|Luna and her monster hunts|real monster hunts with Luna
+  - 1521|Celestia and Luna's vision, and Luna's prequel|Celestia and Luna's vision was totally incompatible
+  - 2183|The Hearth's Warming Bonds, held elsewhere|The Hearth's Warming Bonds should be framed as Nextlahualli
+  - 2206|Mali and Luna's prequel|Most of the detailed Tzinacatl history should be in Mali and Luna's prequel
+  - 2568|The changelings and hive wars|hive wars were stratified
+  - 2166|The changelings and their hive wars|The changelings devolved into hive wars
+  - 2168|Great Mare Theory|The refutation of Great Mare Theory
+  - 2202|Luna's monster hunters|common language as Luna's monster hunters
+  - 2306|The Everfree Forest and Griffonia's hunted-out monsters|Everfree Forest as land to conquer
+- whole: The notes hang together as a set, since the 928, 981 and 993 history, the ontology, the reader-opinion plans and the analogies keep returning to the same ecological-management and food-supply claims, though a few notes conflict on how the Conclave behaved in 993 and on what the flower wars were for.

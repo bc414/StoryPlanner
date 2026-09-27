@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Chapter 1 title discussion to describe Chapter 2's events, proposes "Organization" as its title, and asks for alternatives.

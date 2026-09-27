@@ -1,0 +1,47 @@
+- steps:
+  - author | poses a worldbuilding question | contrast between ordinary artisans' stitched-on cutie marks and lionesses' exposed ones | opening exchange of the stretch
+  - model | supplies a structural breakdown | two-category dress-code analysis tied to social armor versus dominance tactics | reply to the opening question
+  - author | requests a deeper analysis | the adrenaline mechanic in scientific and sociological terms | second exchange
+  - model | delivers a two-part analysis | endocrine feedback loop, tolerance/addiction arc, and a trauma-response sociological reading | reply to the adrenaline request
+  - author | broadens the question | sex differences, predator-vs-herbivore biology, and whether chasseurs share the crash mutually | third exchange
+  - model | extends the framework | male/female hormone parity, griffon/pony baseline contrast, binary-unit equalizer | reply to the broadened question
+  - author | asks for a themed analysis | intimacy after a firefight as morale restoration, covering science, sociology, and theme | fourth exchange
+  - model | produces a three-part analysis | crash biology, death of the master/pet dynamic, thematic contrast with Celestia's doctrine | reply to the intimacy request
+  - author | asks for a chemical deep-dive | endocrinology of sex specifically and its link to chasseurs | fifth exchange
+  - model | maps a phase-by-phase chemical timeline | intercourse/orgasm/post-activity chemistry tied to Lion/Eagle roles | reply to the sex-chemistry request
+  - author | pushes for completeness and origin | fuller hormone roster, phase distinctions, evolutionary theory of the system | sixth exchange
+  - model | expands the chemical roster and adds theory | additional hormones plus an evolutionary co-option account | reply to the completeness request
+  - author | asks a comparative-hormone question | testosterone versus estrogen and their behavioral effects by sex | seventh exchange
+  - model | gives a comparative breakdown | hormones as behavioral 'primers' applied across griffon, pony, and lioness dynamics | reply to the hormone request
+  - author | extrapolates to a new species | whether changelings run an even higher estrogen baseline given their calorie mechanic | eighth exchange
+  - model | offers a hypothesis-testing analysis | split account of pre-reform versus reformed changeling endocrinology | reply to the changeling hypothesis
+  - author | issues a canon correction | rejects the show's two-form changeling split and points the model to the story's own plan notes | ninth exchange
+  - model | reworks the prior analysis | single-phenotype changeling evolutionary and sociological account grounded in the supplied lore | reply incorporating the correction
+  - author | adds a biological detail and a follow-up question | egg/cocoon reproduction, whether females match males in ambition | tenth exchange
+  - model | answers with a comparative analysis | absence of a pregnancy-trap for changelings, gender-neutral ambition | reply to the reproduction question
+  - author | asks a practical scenario question | whether chasseurs have sex right after combat or only cuddle, and timing relative to treks | eleventh exchange
+  - model | distinguishes two intimacy modes | immediate post-combat cuddling versus post-trek sex, tied to nervous-system states, closes with an offered extension | reply to the timing question
+  - author | accepts the offered extension | brief assent | twelfth exchange
+  - model | extends the analysis | veteran reintegration, founding of social clubs, urban-rural friction | reply to the accepted offer
+  - author | asks for a historical survey | how real armies managed the adrenaline crash across eras and classes | thirteenth exchange
+  - model | delivers a period-by-period breakdown | feudal, early-modern, and modern coping mechanisms mapped onto story factions | reply to the historical-survey request
+  - author | follows up and draws a dark inference | camp-follower prevalence and pay, then applies the 80/20 demographic ratio to conclude ponies would serve as camp followers | fourteenth exchange
+  - model | validates and elaborates the inference | logistics of a captive pony support-train under griffon warlord armies | reply to the camp-follower application
+  - author | poses a policy-design question | chastity enforcement, recruitment of traumatized camp followers, asset-specificity protection versus concubinage, standardized gendarmerie | fifteenth exchange
+  - model | answers with a policy-mechanism analysis | asset specificity as curse, chastity as psychological armor, redcoat-style gendarmerie, closes with a further offer | reply to the policy question
+  - author | repeats the same question verbatim with an added instruction | asks the model to review the story plan and synthesize | sixteenth exchange
+  - model | resynthesizes the answer grounded in named lore | ties the chastity policy to specific characters, institutions, and generational conflict | final reply of the stretch
+- kept:
+  - note 5364 | pasted from this reply inside the author's own framing | keeps the exposed-cutie-mark dominance/bait mechanism and the adrenaline-to-dopamine conversion, filed under Subject Chasseur Doctrine
+  - note 5363 | pasted from this reply with cuts | keeps the single sentence establishing an identical endocrine feedback loop across sexes, filed under Chasseur Doctrine
+  - note 5362 | pasted whole from this reply | keeps the paragraph contrasting materialist morality with speech-based morality, filed under Chasseur Doctrine
+  - note 5360 | pasted whole from this reply | keeps the combat-overdose/crash/homeostasis mechanism paragraph, filed under Chasseur Doctrine
+  - note 5361 | pasted whole from this reply | keeps the same mechanism paragraph plus the pony-as-Lion-in-the-tent line and the reset-button summary, filed under Chasseur Doctrine
+  - note 5356 | pasted whole from this reply | keeps the testosterone-as-Lion-primer definition, filed under Chasseur Doctrine
+  - note 5357 | pasted from this reply with cuts | keeps the estrogen-as-Eagle-primer definition, filed under Chasseur Doctrine
+  - note 5358 | pasted from this reply with cuts | keeps the griffon-male/female and pony baseline hormone comparison, filed under Chasseur Doctrine
+  - note 5359 | pasted from this reply with cuts | keeps the summary that asset specificity overrides hormone-based destiny, filed under Chasseur Doctrine
+  - note 4039 | the plan held this text before this reply | keeps pre-existing plan text on changeling calorie evolution that the reply's correction drew on, sits under Pre-Industrial Changeling Society
+  - note 4956 | pasted from this reply with cuts | keeps the single line that traumatized house ponies find solace in being cogs, filed under Pre-1st Revolution Aquileia, Royal Army/Gendarmerie demographic notes
+- brought: The author repeatedly brought in pre-established worldbuilding facts from the plan (the Red Love/Pink Love endocrine magic system, species biology rules, the single-phenotype changeling canon, and the 80/20 griffon-pony demographic ratio) to correct and steer the model's speculative extrapolations toward the story's own established terms.
+- loop: The author used successive questions to push a materialist biology-as-magic framework into new domains (fashion, adrenaline, sex chemistry, hormones, changelings, military logistics, chastity policy), each time either extending the model's prior answer, correcting it against established lore, or accepting an offered follow-up; the plan kept back only the tight, self-contained mechanism paragraphs and definitional lines from these replies, filing them as reusable doctrine under a couple of named subjects rather than keeping the broader speculative or historical-survey material.

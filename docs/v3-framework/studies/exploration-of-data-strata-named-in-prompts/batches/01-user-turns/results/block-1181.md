@@ -1,0 +1,5 @@
+- sources:
+  - my layer 1 plan for griffon magic | synthesize with the earth pony allegory; treat as the author's established plan for griffon magic (enchanting armor and later machinery that only activates if the user made it, plus tool embodiment) | "synthesize with my layer 1 plan for griffon magic" | referred-to
+  - the existing codex entry on earth pony magic | review it and take it into account alongside the synthesis | "review the existing codex entry on earth pony magic" | referred-to
+- order:
+- about: The user endorses the model's earth pony allegory and asks it to synthesize that with their layer 1 griffon magic plan, review the existing earth pony codex entry, and explain what visible unicorn and pegasus magic represent.

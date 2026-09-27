@@ -1,0 +1,6 @@
+- sources:
+  - MyActivity cropped.txt, the json of a week-long conversation with Gemini 2.5 Pro (top is last response, bottom is the gift question and response) | the new material to analyze as evidence of what came out of the first week of AI use; read it in reverse order | Here is the next archaeological wealth of evidence to analyze | first-named
+  - the early document / the previous early plan | treat as the pre-AI baseline of the author's own thinking, entirely before AI augmentation, to measure the Gemini week against | The early document that you read was entirely pre-AI augmentation | referred-to
+  - the mature world Bible | treat as the endpoint after 5 months of AI augmentation used as a sounding board rather than for prose generation, against which the first week's contribution is gauged | after 5 months of AI augmentation for analysis and world building expansion | referred-to
+- order:
+- about: The user attaches a week-long Gemini 2.5 Pro conversation as the next piece of evidence and asks how much of the mature ASOIAF subversion originated in that first week of AI use, positioning it between the pre-AI early plan and the AI-augmented world bible.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks why the term "Epsitemological" is being used as a paradigm in this context and requests more intuitive alternative terms, without pointing the model at any body of material.

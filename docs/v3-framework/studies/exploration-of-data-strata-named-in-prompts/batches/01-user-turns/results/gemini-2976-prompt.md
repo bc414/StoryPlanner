@@ -1,0 +1,4 @@
+- sources:
+  - My story plan (300k words, held in the custom gem) | material the model is meant to read in full; the user reports it is being skipped, so it should be read fully rather than partially | My story plan is currently at 300k words. The custom gem seems to be skipping reading | referred-to
+- order:
+- about: The user reports that the custom Gem seems to skip reading their 300k-word story plan to save memory, which undercuts the Gem option the model just suggested.

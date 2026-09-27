@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is directing how a scene should play out, with Kemerskai's wry warning about the press, AJ's unease, the reporters turning from annoying to serious once the tactics are revealed, and AJ deciding the war can't continue as it has, without pointing the model at any body of material to use or avoid.

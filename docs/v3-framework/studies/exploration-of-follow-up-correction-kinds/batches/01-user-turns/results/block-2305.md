@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model tied the etymology to a different story (The Ember and the Spark, with a farm boy Shane becoming a knight) when the user's project is a My Little Pony / Equestria at War fanfic with Applejack and Twilight as co-protagonists | My upcoming big project ... is a fanfic of My Little Pony Friendship is Magic and Equestria at War, with the notes and themes files attached | implicit, with no complaint; the user restates the project and supplies the right files instead of pointing at the mistake
+- about: The user sets out what their actual project is, attaches its notes and themes files, and asks for a new analysis of the traditions behind it and how its themes subvert Victorian and other traditions, with pointers to which parts to read.

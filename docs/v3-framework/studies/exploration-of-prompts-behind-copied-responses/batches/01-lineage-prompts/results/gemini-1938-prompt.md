@@ -1,0 +1,6 @@
+- asks:
+  - query | asks what the pricing is to obtain a set of capabilities (referred to only as 'these capabilities') in Claude | "What is the pricing to get these capabilities in Claude?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: the message just asks for pricing information without naming a price, options, or a claim to verify.
+- subject: Cost of accessing certain (unspecified-in-message) capabilities via Claude

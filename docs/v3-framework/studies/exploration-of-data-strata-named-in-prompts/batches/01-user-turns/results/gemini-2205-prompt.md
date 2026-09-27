@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the material to be analysed and compared against the war; the model is to draw on it as the basis for finding parallels | my story plans | referred-to
+  - the Russian Ukraine war | the real-world conflict to be drawn on as the other side of the comparison, mined for parallels with the plans | the Russian Ukraine war | referred-to
+- order:
+- about: The user asks the model for an analysis of the parallels between their story plans and the Russian invasion of Ukraine, restating the comparison as a plain request.

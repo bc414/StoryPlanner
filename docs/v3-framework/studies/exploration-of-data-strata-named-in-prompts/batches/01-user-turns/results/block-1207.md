@@ -1,0 +1,5 @@
+- sources:
+  - TLTT | the later work; the model is to take its parts and trace which have a causal seed in the earlier story | What parts of TLTT have a causal foundational seed | referred-to
+  - Nine Tales of Liberty | the earlier story; the model is to search it for seeds of TLTT elements and for passages with a third-person-limited-like effect | within Nine Tales of Liberty | referred-to
+- order:
+- about: The user asks the model to search Nine Tales of Liberty for the origins of elements of TLTT (Earth pony magic given as an example) and for places where its prose achieves something like third-person-limited effect.

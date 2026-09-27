@@ -1,0 +1,4 @@
+- sources:
+  - the archive | search it in addition to what has been consulted, because key details may not yet have been migrated into the structured data | You must also search the archive, since key details may not have been migrated yet | referred-to
+- order:
+- about: The user tells the model to additionally search the archive, as it may hold details not yet migrated into the structured material the model has been reading.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a new version of the Chapter 1 Acornage scene, pastes their planned pre-industrial changeling society and biology notes as reference, and asks whether Chrysalis's meritocratic mother would be an exception or the norm among hereditary warlords, without disputing anything the model said.

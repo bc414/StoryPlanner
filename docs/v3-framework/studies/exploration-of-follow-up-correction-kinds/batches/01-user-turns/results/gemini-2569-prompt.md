@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up set of questions about which currency subsistence-level Zebrican villages would use, how that compares with functioning states like Ireland, Naples, the Philippines and Nepal, and whether African and Southeast Asian colonies had to use British and French currency, without disputing anything the model said.

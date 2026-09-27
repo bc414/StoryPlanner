@@ -1,0 +1,8 @@
+- asks:
+  - unstated/implicit | the message gives no written instruction or question; what it wants done with the attached document and the bucket structure is not stated in the text | no imperative or question appears, only an attachment placeholder followed by a JSON block
+- supplies:
+  - attached document | a file attached to the message, contents not captured, presumably notes related to the 'Sorter' context | placeholder only, length unknown
+  - categorized-buckets JSON | a structured taxonomy with five paradigms (Chronology, Demographics, System Mechanics, Dialectics, Orphan Concepts), each listing named buckets covering an empire's historical eras, social/demographic groups, institutional mechanics, thematic tensions, and a few unsorted concepts | one JSON object, about two dozen bucket names across five paradigms, roughly a paragraph of raw JSON
+- shaping:
+- openness: Fully open: the message contains no stated question, instruction, or named goal — it only hands over an attachment and a JSON taxonomy with no accompanying directive.
+- subject: A worldbuilding taxonomy for a fantasy empire's history, social classes, institutions, and thematic conflicts, paired with an uncaptured attached document.

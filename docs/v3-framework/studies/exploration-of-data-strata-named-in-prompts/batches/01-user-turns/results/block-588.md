@@ -1,0 +1,5 @@
+- sources:
+  - TLTT the main story | treat as the fixed plan: its chapter timeline (crash in chapter 12, Aquileian volunteers return in chapter 14, Minette present in chapter 17) and Applejack's viewpoint are what the side story has to fit | in TLTT chapter 12. This would be depicted from their point of view | referred-to
+  - their later prequel-sequel / side story from Reni and Minette's perspective | provisional and still being worked out; a suggested way to recontextualize their staying in Equestria and their unnamed realization, not settled | I'm thinking, from Applejack's perspective in the main story | referred-to
+- order:
+- about: The user corrects the model's claim that Equestria moves to mass mobilization, then sets out where Reni and Minette fit in the main story's chapter timeline and tentatively proposes how their side story would recast their staying in Equestria and lead to their return to Aquileia.

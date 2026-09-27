@@ -1,0 +1,7 @@
+- asks:
+  - compare | asks whether some previously discussed trait or idea matches French stereotypes as against French realities | "How does this line up with French stereotypes and realities?"
+  - classify | asks whether that perception belongs only to how the Anglosphere views the Francosphere, or whether other cultures share it too | "Is it just an Anglosphere perception of the Francosphere or others too?"
+- supplies:
+- shaping:
+- openness: Leans on a choice between two named options for the second question (Anglosphere-only perception versus shared by others) while the first question leaves the stereotype-versus-reality comparison open.
+- subject: French stereotypes versus reality, and whether a perception of them is Anglosphere-specific or more widely shared

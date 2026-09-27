@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account by adding Pridea's artisans with home-built machines and asking whether they would pay tribute to Dennis under a deal Coltbert arranged beforehand, extending the plan without saying anything in the model turn was wrong.

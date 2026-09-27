@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user takes the story premise that Dennis Discret rules Pridea because of Coltbert's deal and asks whether that lets the Coltbert Reforms cover urban Pridea as well as the countryside, making it an artisan-pride city, without pointing the model at any body of source material.

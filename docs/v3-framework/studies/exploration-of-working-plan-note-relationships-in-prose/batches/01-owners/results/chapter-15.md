@@ -1,0 +1,17 @@
+- relations:
+  - 2236 | 2269 | 2269 spells out the terms of the final Conclave deal that 2236 says comes after the drug deal and unites the tribes with Equestria | "Full conclave" and "The final Conclave deal" | implicit
+  - 2236 | 2269 | the traditionalists' demand for ecological compliance is echoed by the sustainable rates set for selling raw rubber and plants | "ecological compliance" and "sustainable rates" | implicit
+  - 2269 | 2325 | the drug tribes' mobilization to buy valves and fund the Skyfall proxy war is the deal that 2325 says has a second aim, taking out Chrysalis's Skyfall assets | "buy valves" and "crystal valves", "Skyfall" | implicit
+  - 2236 | 2325 | 2236 places the drug deal as the step before the full conclave; 2325 says what the drug deal is for, beyond selling drugs | "the drug deal" and "Drug deal isn't just" | implicit
+  - 2325 | 2332 | 2332 has Kessler and Skyfall told that the supplier was Chrysalis; 2325 gives Kessler Jr's own reason to turn on Chrysalis. The two differ on what he needs to be told | "inform Kesseler" and "Kessler Jr's motivation" | implicit
+  - 2332 | 2236 | Everyone now believing the old truth about Chrysalis is what makes the tribes' union against her possible | "Everyone believes him now" and "finally united against Chrysalis" | implicit
+  - 2332 | 2325 | Skyfall learning Chrysalis was the supplier supports the plan to raid her Skyfall assets and industry | "all of Skyfall" and "Skyfall assets" | implicit
+- outward:
+  - 2332 | Blueblood's statement of the truth eight years earlier, held elsewhere | "the truth that Blueblood said 8 years ago"
+  - 2332 | Ahuizotl, EEEE and Caballeron as characters, and the Skyfall companies, not set out here | "EEEE and Caballeron can inform Kesseler"
+  - 2332 | Chrysalis's centralized rule in her homeland, seen elsewhere | "totalitarian state power and centralized authority back home"
+  - 2325 | an earlier event of IP theft by Chrysalis against Kessler's family, twenty years back | "20-year-old IP theft"
+  - 2269 | the flower wars and their sustainable-rate customs, lore held elsewhere | "always governed the flower wars"
+  - 2269 | Luna Nova Rifles and the Skyfall proxy war, held elsewhere | "valves for Luna Nova Rifles"
+  - 2236 | the conclave and the confederation of tribes, plus the alliance with Equestria, built up elsewhere | "traditionalist confederation, the medicinal tribes and the drug tribes"
+- whole: ["These four notes read as one connected set about the drug deal and the Conclave against Chrysalis, joined by content, since none of them points at another by name or reference."]

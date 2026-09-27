@@ -1,0 +1,6 @@
+- sources:
+  - Clash of Clans | the reference example of an "economic game"; the model is to work out from it what makes a game that kind of game | "an economic game like clash of clans" | referred-to
+  - Clash Royale | the user's own assertion, treated as true, that it is not an economic game; a contrast case for the definition, described as a competitive ladder with a time-based gate on leveling | "I know Clash Royale, also made by supercell and in the same IP, is not an economic game" | referred-to
+  - the user's earlier phrase "an economic game" | the category the model is to define and find other examples of, using the user's own earlier usage | "What makes a game what I called" | referred-to
+- order:
+- about: The user asks the model to define what makes a game an explicit \"economic game\" like Clash of Clans, using Clash Royale as a contrast, and to name other mass-market games with that property.

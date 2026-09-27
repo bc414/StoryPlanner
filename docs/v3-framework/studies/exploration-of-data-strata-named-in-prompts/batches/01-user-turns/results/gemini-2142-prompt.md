@@ -1,0 +1,4 @@
+- sources:
+  - the recommended approaches (the model's earlier JSON reference-tracking and flat-list recommendations in this conversation) | treat as provisional and re-examine in light of the new canvas requirement, not as settled | Please reanalyze the recommended approaches | referred-to
+- order:
+- about: The user adds a requirement for a freeform MVVM canvas that stores node coordinates and connection objects, with conversion to a pure reference-based scheduler model, and asks the model to redo its earlier storage recommendations in that light.

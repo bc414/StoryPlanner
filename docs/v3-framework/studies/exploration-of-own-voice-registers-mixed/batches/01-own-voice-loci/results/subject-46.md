@@ -1,0 +1,5 @@
+- passages:
+  - note 5278 | flat biographical recount | third-person past tense, plain factual clauses joined by 'and'/'but' | Scootaloo's birth, malnourishment, and return to Equestria too late for wing development | apart
+- shifts:
+- registers: flat biographical recount
+- whole: This item's single note is written in one unbroken register, a plain third-person past-tense biographical recount running from start to end without a shift.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the planner manual and asks a fresh, separate question about what the Canvas feature is on the Gemini website, without saying anything about the model's preceding turn being wrong.

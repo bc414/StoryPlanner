@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - other: structure of the proposed outline|the model's second-half outline runs from Trimmel's defeat straight to the siege of Canterlot, leaving out a chapter for relieving the Crystal Empire, the collapsing front, the changelings flocking to Canterlot and a strategy talk|"I think there needs to be a chapter after Trimmel and before the siege"|stated as a tentative opinion, then developed straight away with content for the new chapter and a question about where the split falls
+  - other: taste in titles, rejection of a proposed title|the model's chapter title Victory for the siege chapter is rejected as unwanted; the other titles get warm, lukewarm or neutral ratings|"I don't like Victory"|flat statement of preference with no reason given, paired with a request for more alternatives, most of them for the disliked titles
+- about: The user adds a missing chapter to the model's outline, asks where the split between it and the siege should fall, rates each proposed title, and asks for new alternatives, concentrating on the ones they dislike.

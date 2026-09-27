@@ -1,0 +1,12 @@
+- asks:
+  - analyze | asks the model to analyze the existing plan for chapter 5 "Laughter" | "please analyze the existing plan in chapter 5 Laughter"
+  - summarize | asks for an overview of that existing plan | "give an overview"
+  - brainstorm | asks for suggestions on how to evolve the plan so it better fits the story's themes and character arcs | "give suggestions on how to evolve the plan such that it fits the themes and arcs better"
+- supplies:
+  - revision idea | a specific proposed change to a chapter 5 scene: Twilight tells Fluttershy to go back to Celestia and report that Twilight isn't returning, rather than telling her to stay in Tall Tale to help animals; Fluttershy then independently chooses to stay | a couple of sentences
+  - named reference | mentions "the existing plan in chapter 5 Laughter" as the material to analyze, without pasting its contents into the message | a name/label only, no text included
+- shaping:
+  - structure | implicitly requests two parts in the response: an overview of the current plan, then suggestions for evolving it | "give an overview, and give suggestions"
+  - alignment criterion | suggestions should be judged by whether they fit "the themes and arcs" of the story | "fits the themes and arcs better"
+- openness: Leans toward an answer it names: the message states the specific revision it wants (Twilight sends Fluttershy back to Celestia with a message; Fluttershy chooses on her own to stay) and asks the model to build its analysis and suggestions around fitting that named change into the existing plan.
+- subject: Revising a chapter 5 ("Laughter") plot beat about Twilight and Fluttershy in Tall Tale so it aligns with the story's themes and character arcs

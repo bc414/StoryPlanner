@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the chapter-sequencing discussion and asks whether Skyfall's crystal-based IP signaling and lockout, the technology's Pridean origin, and the tableau de chasse and stamp ink could add to the Aquileian artisans' hatred of Skyfall, so it extends the worldbuilding and corrects nothing.

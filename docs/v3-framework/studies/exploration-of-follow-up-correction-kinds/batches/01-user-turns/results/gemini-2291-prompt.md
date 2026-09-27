@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sums up the model's aircraft discussion as a four-tier hierarchy of planes, asks for a pretentious French name for the top tier and for the German fighter names, and adds a mid-war plan for mass-produced simpler Spitfires, without disputing anything the model said.

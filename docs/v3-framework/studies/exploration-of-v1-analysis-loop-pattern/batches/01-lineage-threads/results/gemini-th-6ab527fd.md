@@ -1,0 +1,14 @@
+- steps:
+  - author | gap-query | asks for the specific French term to fill an unresolved placeholder in Coltbert's character profile | opening prompt of the stretch
+  - model | retrieve-placeholder | quotes back the existing lore-bible entry that already flags this gap, restating Coltbert's materialist worldview | first part of the model's reply to the gap-query
+  - model | brainstorm-options | proposes four candidate French coinages for Coltbert's term, each with a rationale tied to his sociological/economic outlook | continuing the same reply
+  - model | recommend | singles out one candidate (L'Immobilisme Harmonique) as structurally best and sketches how it would be mistranslated into the game-canon Equestrian phrase | end of the same reply
+  - model | probe-tone | asks the author which era/tone of Coltbert's writing this should match | closing line of the first reply
+  - author | supply-canon-detail | brings in the actual in-game localization ('Harmonie Stagnante') and asks for a grammatical comparison against the earlier candidate 'La Stagnation de l'Harmonie' plus English equivalents | second prompt of the stretch
+  - model | grammar-breakdown | parses the syntax of both French phrases and gives literal English glosses for each | first part of the second reply
+  - model | verdict | argues 'La Stagnation de l'Harmonie' fits Coltbert better than the game's phrase and frames the difference as an in-universe translation-drift between his academic coinage and the popularized canon term | continuing the second reply
+  - model | probe-reaction | asks how other characters (Twilight, Applejack) would react to reading Coltbert's clinical framing of their culture | closing line of the second reply
+- kept:
+  - note 4272 | the reply was quoting the plan | keeps the pre-existing Coltbert placeholder about his invented term, now updated in the database with the specific French phrase 'La Stagnation de l'Harmonie' filled in and the earlier research placeholder removed, on the Coltbert character subject
+- brought: The author brought the real French localization of the in-game national spirit ('Harmonie Stagnante') from Equestria at War to test and refine against the earlier candidate term for Coltbert's coinage.
+- loop: The author brought a specific unresolved naming gap and then an external canon term to check it against; the model supplied generative options, grammatical analysis, and a reasoned verdict, and the plan's Coltbert entry kept only the final resolved detail—the chosen French term now written into the existing profile note in place of its old placeholder.

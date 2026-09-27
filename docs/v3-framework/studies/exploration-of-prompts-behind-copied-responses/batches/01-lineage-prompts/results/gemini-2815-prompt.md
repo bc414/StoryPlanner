@@ -1,0 +1,9 @@
+- asks:
+  - analyse | give the pros and cons of different narrative perspectives for writing the story | "Give the pros and cons of different perspectives of writing the story"
+  - explain | give the reasons behind those pros and cons | "and why"
+- supplies:
+- shaping:
+  - cover multiple perspectives, not just one | "different perspectives"
+  - include reasoning, not just a bare list of pros/cons | "and why"
+- openness: Open: the message does not name which perspectives (e.g. first, third, multiple POV) to consider, nor lean toward any, leaving the set of options and the answer itself up to the model.
+- subject: Choice of narrative point of view/perspective for writing the story

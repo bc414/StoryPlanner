@@ -1,0 +1,12 @@
+- steps:
+  - the author | brings a structural planning question with a full context bundle | source code, db export, best-practices file, UI screenshots, system instructions, a custom 7-axes categorization scheme, and a Chrysalis-notes example | opening prompt of the thread
+  - the model | answers with a diagnostic frame and a reorganization proposal | names a 'God Object' anti-pattern, a fabula-vs-syuzhet distinction, an axis-to-entity mapping that keeps entities unified, nuances beyond epistemology, and a follow-up implementation question | first reply
+  - the author | resubmits the identical question verbatim, adding an instruction to read everything fully | same materials and example, plus a 'no shortcuts' directive | second prompt
+  - the model | re-answers with a different diagnostic frame and the opposite reorganization proposal | 'Noun-Based Organization' framing, a recommendation to split entities strictly by axis, nuances, a different follow-up question | second reply
+  - the author | resubmits the same question a third time, trimming out the axes list but keeping the read-fully instruction | same core question and Chrysalis example | third prompt
+  - the model | re-answers again with a third diagnostic frame and a single-responsibility split recommendation | 'Narrative Data Normalization' framing, an entity-splitting proposal, nuances, another follow-up question | third reply
+  - the author | drops the planning topic and asks an unrelated tooling question | whether GitHub code can be imported into Google AI Studio | fourth prompt
+  - the model | answers the tooling question directly | a distinction between AI Studio and Gemini Web App GitHub integration and its feature limits | fourth reply
+- kept:
+- brought: The author brought the story planner's database export, source code, UI screenshots, system instructions, and a custom 7-axes note-categorization scheme, centered on the unresolved case of Queen Chrysalis's mixed-together notes, asking how to reorganize entities for writing the syuzhet.
+- loop: The author repeatedly resubmitted the same organizational question about splitting the fabula's entities, receiving three different and partly contradictory recommendations without adopting, comparing, or answering the model's return questions in any of the three passes, then abandoned the topic for an unrelated tooling question, so nothing from any of the exchanges was carried into the plan.

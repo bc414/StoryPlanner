@@ -1,0 +1,4 @@
+- sources:
+  - TLTT | the story whose framing the interpretation of Twilight's Ascension and the Magical Mystery Cure must fit; the answer is to be given within it | in TLTT | referred-to
+- order:
+- about: The user asks, in a short open question, for a definitive reading of Twilight's Ascension and the Magical Mystery Cure within their story TLTT, after the model's long multi-part analysis.

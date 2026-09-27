@@ -1,0 +1,6 @@
+- sources:
+  - the quoted statement about a true Lion hunting a Manticore versus a Poseur demanding 80% of a peasant's wine vintage | the material under analysis; the model is to read what it argues and which thematic proposition it evidences | A true "Lion" hunts a Manticore. A "Poseur" points a sword | referred-to
+  - the existing thematic propositions | check the statement against them to see whether one already fits, or whether a new one is needed | What thematic proposition is this statement evidence for, or do I need a new one | referred-to
+  - the common pattern of "honesty vs poseurs" | treat as a recurring pattern in the author's material that the statement belongs to; test whether it points to a broader universal proposition | part of a common pattern of "honesty vs poseurs" | referred-to
+- order:
+- about: The user asks which existing thematic proposition, or whether a new broader one, is evidenced by a statement contrasting a true Lion with a Poseur, and what the statement and the recurring honesty-vs-poseurs pattern argue.

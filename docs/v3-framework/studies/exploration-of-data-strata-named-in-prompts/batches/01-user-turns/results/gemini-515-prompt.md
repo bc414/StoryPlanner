@@ -1,0 +1,4 @@
+- sources:
+  - the author's own envisioned scene, stated in this turn (AJ's invitation, the second letter, the teleport arrival, how the characters look) | treat as the true setup for the scene and use it in place of the model's suggested dynamic | I'm envisioning the opposite. The context is that | first-named
+- order:
+- about: The author rejects the model's proposed hug dynamic and gives their own account of how the scene is set up, with Applejack inviting the princesses, their late arrival, and how each character looks.

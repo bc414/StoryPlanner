@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's worldbuilding riff to ask for a fresh component-by-component review of the Love Harvester and donator, sorting what the Changelings copied from what Twilight and her friends invent mid-war, without saying anything in the prior turn was wrong.

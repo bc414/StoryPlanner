@@ -1,0 +1,17 @@
+- relations:
+  - 1702|1703|continues in time and gives the consequence: the windigos' failing leaves a gap that the unicorns fill with their own spells|slowing down / pick up the slack|implicit
+  - 1700|1701|narrows: the sun and moon are small and movable by magic, but still too massive to leave a fixed path, so magic only steers them along it|still massive enough / moveable via magic|implicit
+  - 1874|1701|placeholder|placeholder|implicit
+  - 874|1701|reason and statement of the same rule: the author's choice to have the sun and moon move only on a fixed path is delivered as the world truth that spells only move them along a set path|only move on a fixed path / only move them along their set path|implicit
+  - 874|873|cause and consequence: the fixed path leads to fixed climates, and the world truth states this as no axial tilt and a perpetual biome per latitude|fixed climates / perpetual, unchanging biome|implicit
+  - 874|1703|the canon fact that unicorns move the sun and moon is given an in-universe occasion, the spells the Equestrian unicorns invented|unicorns "move the sun and the moon" / sun and moon moving spells|implicit
+  - 1700|1702|presupposition: the windigos could move the sun and moon because those are small bodies in the upper atmosphere that can be moved|windigos used to move the sun and the moon / moveable via magic|implicit
+  - 1700|1704|reason: a small, low-power sun in the upper atmosphere and spells that only move it along a set path give no way to turn it on an enemy nation|small and low power / cannot be weaponized|implicit
+  - 1701|1704|reason: since the spells only move the sun along its set path, it cannot be aimed as a weapon|only move them along their set path / cannot be weaponized|implicit
+- outward:
+  - 1702|windigos and the emergence of Friendship, held elsewhere as lore|windigos started crashing due to the emergence of Friendship
+  - 1703|Equestria and its unicorns, a nation and people not described here|The Equestrian unicorns
+  - 874|the source canon, in which unicorns move the sun and moon|in canon
+  - 874|the Winter Wrap Up event and the seasons, held elsewhere|explains Winter Wrap Up and seasons
+  - 1704|an enemy nation, another polity not in this item|destroy an enemy nation
+- whole: The notes hang together as one set: a chain from the world truths (small sun and moon on a fixed path, no axial tilt) through the history of who moves them, to the author's rationale and the limit on weaponizing the sun.

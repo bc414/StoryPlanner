@@ -1,0 +1,4 @@
+- sources:
+  - this dynamic of changelings interpreting pony names as literal translations | treated as an established premise from the current conversation, to be extended and tested against a new question, not yet confirmed as settled for this use | so can this dynamic of changelings interpreting pony names as literal translations feed into | referred-to
+- order:
+- about: The user asks whether the literal-translation idea for pony names, just proposed in the conversation, could be extended to explain why Chrysalis can persuade ordinary drones to see ponies as prey.

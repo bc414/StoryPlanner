@@ -1,0 +1,4 @@
+- sources:
+  - the current story plans | treat as established and settled for the pre-854 ALB era: griffon warlords abusing their ponies stays as already written, and the new three-era split builds on it | as established in the current story plans | referred-to
+- order:
+- about: The user restructures Aquileian history into three eras (feudal extraction before 854 ALB, Grover III's chivalric period, and Grover IV's industrial-extraction collapse), keeping the existing plans for the first era, and proposes that New Mareland be barred from taking Aquileian refugees.

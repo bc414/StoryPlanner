@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the architecture analysis by supplying scene data for a crowded Act 2 climax scene and asking for analysis and worked examples applying the earlier principles, without disputing anything the model said.

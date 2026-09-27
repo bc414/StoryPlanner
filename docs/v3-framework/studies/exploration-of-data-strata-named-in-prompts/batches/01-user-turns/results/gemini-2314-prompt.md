@@ -1,0 +1,7 @@
+- sources:
+  - the Aquileian spell matrix as framed earlier in this conversation (breaking the Second Law) | set aside, start again from the author's corrected grounding rather than the earlier framing | Let's start over and ground the Aquileian spell matrix | referred-to
+  - my lore (magic is ambition that affects the physical world; unicorn, earth pony, griffon and changeling magic; love donators; highest grade crystals) | treat as the true ground for the answer, and only that one ambition principle breaks thermodynamics | The only part of my lore which breaks the law of thermodynamics | referred-to
+  - real chemistry / the traditional laws of thermodynamics (combustion, Haber-Bosch, Bessemer) | the hybrid engine's explanation must be consistent with it, and the model should answer the combustion questions from it | it should make sense with real chemistry | referred-to
+- order:
+  - my lore (magic as ambition, crystals as stored potential energy) | the earlier conversation's claim that the matrix breaks the Second Law | Let's start over and ground the Aquileian spell matrix
+- about: The author discards the earlier claim that the spell matrix breaks thermodynamics, restates the lore that grounds it (crystals store the magical energy, only ambition creates it), and asks the model to explain real combustion-engine losses and how bond rearrangement could plausibly help within real chemistry.

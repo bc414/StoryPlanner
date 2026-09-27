@@ -1,0 +1,11 @@
+- asks:
+  - clarify | state why the sea-monster hunt yields combat/addictive drugs but not changeling food, since monsters have no pink love | "monsters have no pink love because they are monsters not capable of interpersonal connection"
+  - explain a causal chain | tie the changeling food supply's reliance on strapped tyrants plus brutal Haber-Bosch fertilizer farming to the Canterlot Wedding and Olenia plotlines | "leading to Canterlot wedding and Olenia"
+  - brainstorm/propose a plot mechanism | float that Chrysalis's intended Severyana puppet state was built so boyars would funnel revolutionaries to the changeling lands as harvester victims, explaining why the revolution had to be so large | "That's why the revolution was necessary and at such large scale"
+  - weigh named alternatives | raise the instability risk of keeping harvesters in Severyana and offer two possible resolutions (hidden in dungeons/gulags, or Bauleiters indifferent and Trimmel discarded) | "It seems very risky for internal stability, or perhaps most Bauleiters wouldn't care"
+  - explain/justify timing | connect the 995 Winter Revolution's timing to the hives' reunification as the reason Chrysalis is about to run out of domestic pink-love sources | "Chrysalis sees the writing on the wall that she is going to run out of domestic warlords for pink love"
+- supplies:
+  - idea list | new worldbuilding notes covering shipping-lane danger, Aquileian sea-monster industry, changeling love-harvesting mechanics, and Severyana revolution causality | several paragraphs of interlinked lore points
+- shaping:
+- openness: Mostly leans toward the ideas it names as settled clarifications, but for the harvester-location problem it explicitly offers a choice between two named alternatives (dungeons/gulags in Severyana, or Bauleiter indifference with Trimmel discarded).
+- subject: Changeling love-economy logistics (combat drugs vs. food, tyrant/fertilizer supply) and their causal link to the Severyana revolution and Canterlot Wedding.

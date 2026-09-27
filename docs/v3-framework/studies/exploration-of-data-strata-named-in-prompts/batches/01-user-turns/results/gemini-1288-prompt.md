@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's description of Flowing Current, pushes back on the proposed phase structure by explaining how they plan Applejack's confidence and Phase 2, and asks how to hide Flowing Current's hostility toward the drug tribes so Applejack stays optimistic.

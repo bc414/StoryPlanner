@@ -1,0 +1,5 @@
+- sources:
+  - Culled Prompt (the version using the json serializer) | one of two versions to compare; serves as the baseline against which the new version is checked for semantic equivalence, lost data and confusing formatting | Culled Prompt which was using json serializer | referred-to
+  - Super Culled Prompt (the new custom string builder version) | the version under review; check it against the Culled Prompt for semantic equivalence for Gemini analysis, lost data and potentially confusing formatting | our new Super Culled Prompt which uses the custom string builder | referred-to
+- order:
+- about: The user asks the model to compare the earlier JSON-serializer prompt with the new string-builder prompt and check the new one for semantic equivalence, lost data and confusing formatting.

@@ -1,0 +1,9 @@
+- sources:
+  - Gesunder Menschenverstand pamphlet | in-world document treated as the starting point of the Herzland revolution, whose content the user summarizes as the account to work from | It started with a pamphlet called "Gesunder Menschenverstand" | first-named
+  - The user's Herzland notes (978 Schism, textile barons, Kemerskai meritocrats, Grover V regency, Chrysalis copying the counterrevolution) | the author's own account of Herzland history, given as the material to reason about and treated as the working version of the fourth pillar | the history of Herzland, the Republican Revolution, and the Griffonian Republic | first-named
+  - Coltbert's paper | the Herzland notes follow from having read it, so it stands as the material they come out of | After reading Coltbert's paper | referred-to
+  - EaW lore or history | offered as a possible reason for the instinct, that the Herzland material may already exist there, and put as a question | Possibly because it's already in EaW lore or history? | referred-to
+  - Real history (New Deal, Gilded Age, Industrial Revolution) | offered as a possible reason, that Herzland mirrors real past events too closely, and put as a question rather than a claim | too on the nose with real history | referred-to
+  - The author's Aquileian and Chrysalis material | treated as original social commentary on the present, held up as a contrast to Herzland, which reflects the real past | a lot of my Aquileian and Chrysalis stuff is original | referred-to
+- order:
+- about: The user pastes their notes on Herzland's Republican Revolution and asks the model to explain why their instinct says this fourth pillar shouldn't be dramatized in a prequel, offering several candidate reasons and asking for others.

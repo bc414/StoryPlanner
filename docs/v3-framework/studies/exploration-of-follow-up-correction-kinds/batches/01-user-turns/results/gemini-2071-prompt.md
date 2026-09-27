@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the explanation of consumer-app parameter steering to ask for a new breakdown of four temperature and top-p quadrants with use cases, without disputing anything the model said.

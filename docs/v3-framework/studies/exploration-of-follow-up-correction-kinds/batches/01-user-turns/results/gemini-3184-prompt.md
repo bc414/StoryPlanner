@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, extending the comparison of models' exhaustiveness versus synthesis to DeepSeek R1 and its 2026 successors, without disputing anything the model said.

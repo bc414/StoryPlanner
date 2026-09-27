@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's prior framing by stating that the Earth Ponies are also Aquileians, then asks whether Equestria lacks formal science institutions and whether Celestia would ban chemistry, biology and physics as griffon tools of disharmony, guessing that they originate in the Grover 3 enlightenment.

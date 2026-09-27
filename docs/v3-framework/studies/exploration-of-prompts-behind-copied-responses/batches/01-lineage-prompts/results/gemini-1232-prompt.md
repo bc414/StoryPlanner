@@ -1,0 +1,6 @@
+- asks:
+  - validate/develop plot idea | asks whether a faction called Discret would build a rival fleet from a stolen imperial fleet to break another faction's (Skyfall's) shipping monopoly, then use that fleet to sell insurance on Aquileian and other merchant shipping and to suppress Skyfall's privateering against non-paying ships | "So would Discret build up a fleet...Then they can offer insurance...plus stop Skyfall from privateering"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message proposes a specific chain of plot outcomes (fleet-building, insurance offering, stopping Skyfall's privateering) and asks whether that would happen, rather than leaving the direction open.
+- subject: Whether a rival faction (Discret) would use a stolen imperial fleet to contest another faction's (Skyfall's) shipping monopoly through competing insurance and anti-privateering action

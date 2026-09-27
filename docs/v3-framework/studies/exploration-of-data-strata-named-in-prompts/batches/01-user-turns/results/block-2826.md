@@ -1,0 +1,4 @@
+- sources:
+  - story plan corpus | the body of material the model is to search for another instance of the "honor among thieves" paradigm | Is there still an "honor among thieves" paradigm somewhere else in the story plan corpus? | referred-to
+- order:
+- about: The user asks the model to search the story plan corpus for any remaining instance of the \"honor among thieves\" framing beyond the ones just discussed.

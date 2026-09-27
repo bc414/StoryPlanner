@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the point-of-view advice to ask for historical examples of collaboration outside the Nazi context that could inspire the dream sequences, without disputing anything the model said.

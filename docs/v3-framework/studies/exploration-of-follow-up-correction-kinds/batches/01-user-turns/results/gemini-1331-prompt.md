@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Fleur's motivation was misread as boredom and ingratitude; in the story she lacked real freedom because her parents kept her on the farm out of fear of griffon supremacist brutes | Fleur isn't just ungrateful. She actually didn't have freedom | flat statement, softened by 'isn't just' but plainly overriding the model's premise
+  - fact of the world | The supremacist threat is misframed: the brutes were brainwashed by foreign Herzlander agents weaponized to destabilize Aquileia, and Henri was roped into this, rather than being a self-driven bully | brainwashed by foreign Herzlander agents weaponized to destabilize Aquileia, that Henri was roped into | flat, explanatory, given as parenthetical background
+  - fact of the world | Fleur's family was called rich or prosperous, but they are middle class, and the parents' line is about being grateful to own their land rather than be serfs | Also they aren't rich, they are middle class | flat, in passing, tacked on with 'Also'
+- about: The user corrects the model's account of Fleur's background and motivation by supplying the actual story facts about her parents' fear-based restriction, the Herzlander-manipulated supremacists, and her family's middle-class status.

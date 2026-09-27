@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the body of material the model is to draw on and analyze for Pinkie Pie's arc and themes | Pinkie Pie's character arc in my story plans | referred-to
+- order:
+- about: The user asks the model to analyze Pinkie Pie's character arc and the themes explored, drawing on their story plans.

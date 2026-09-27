@@ -1,0 +1,7 @@
+- asks:
+  - continue | implicitly asks the model to take these three stated faction positions and carry on developing or incorporating them into the ongoing plan, since no explicit question or instruction verb is given | the bare parallel listing of stances with no request phrasing
+- supplies:
+  - stances | the declared positions of three parties on whether and why to invade the hives: Celestia's gilded defense, Applejack's invade-to-liberate, Gilded Trust's invade-to-burn | a few short lines
+- shaping:
+- openness: The message states three faction stances as settled facts rather than posing a question or choice, so it reads as handing the model given positions to accept and build from.
+- subject: Three factions' differing stances on whether and why to invade the hives

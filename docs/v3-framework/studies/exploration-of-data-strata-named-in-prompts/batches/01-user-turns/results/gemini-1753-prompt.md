@@ -1,0 +1,5 @@
+- sources:
+  - Dutch Republic and VOC (the existing basis of Skyfall) | keep as the established foundation for Skyfall; new material is to be added alongside it | already based on the Dutch Republic and VOC | referred-to
+  - a real-life country that is super rich and a safe haven for wealthy people in contempt, with UAE as the author's guess | tentative candidate to draw on for extra twisted inspiration; the model is asked to identify or confirm it | What country in real life is super rich and harbors safe haven for international rich people in contempt? UAE? | first-named
+- order:
+- about: The user asks which real-world rich-refuge country, possibly the UAE, could add darker inspiration to Skyfall, which is already modeled on the Dutch Republic and VOC and which they call the heart of capitalism.

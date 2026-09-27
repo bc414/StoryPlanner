@@ -1,0 +1,9 @@
+- relations:
+  - 527|529|529 continues the survival picture in 527: the changelings feed on friendship to top up thin foraging calories, and 529 adds meat as the second source that got them through the cold|metabolize interpersonal connections... supplement the meager calories / survived the cold on both friendship and meat|implicit
+  - 527|529|527's communal-friendship foundation of the hives is put under a condition by 529, which says harmony worked when external food was abundant|most ancient changeling hives were built on communal friendship / Harmony worked when external food was abundant|implicit
+  - 529|1210|1210 continues 529 in time and develops it: the jaegers who hunted manticore-tier predators for a hive become, once hives are permanent, protectors who must fight and kill to defend it|jaegers defeated manticore-tier predators / Once permanent hives were established|implicit
+  - 529|1210|1210 qualifies 529's hunt as a pleasure: killing releases fear and pain that an emotion-sensing changeling feels as trauma, so the high of the hunt is not the whole story|enjoying the high of the hunt / killing... would be traumatic|implicit
+  - 1387|1388|1388 plans how the colorful, artisanal hives of 1387 reach the reader: as oral traditions about old days of colorful silk, not as direct depiction|colorful and artisanal / old days of colorful silk|implicit
+- outward:
+  - 1387|The canon of the show's changeling reform in seasons 7-9, used as an aesthetic reference while its reformed changelings are rejected|like the aesthetics of the post-reform changelings of season 7-9, even though I am not taking the reformed changelings at all
+- whole: ["The notes hang together loosely: the ontology and causality notes form a connected chain from food scarcity through hunting to protection of permanent hives, while the canon note and the storytelling note pair up over the silk aesthetic and the trade-language note stands on its own."]

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model where they can find discussion and discourse about the cooperation model, without pointing at any body of material for the model to draw on or avoid.

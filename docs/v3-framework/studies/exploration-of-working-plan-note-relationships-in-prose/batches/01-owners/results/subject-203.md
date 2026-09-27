@@ -1,0 +1,15 @@
+- relations:
+  - 1140 | 1139 | the real-world name for the effect labels the crystal's glow that the world rules state | thymo=spiritedness; glows in the presence of high ambition | implicit
+  - 1139 | 1141 | the rule that the crystal glows with ambition is carried forward by the historical finding that ties the crystal to griffon magic | crystal structure; connection between griffon magic and the crystal | implicit
+  - 1139 | 1485 | the stated rule of the glow is planned as something the story shows and then uses in the plot | glows in the presence of high ambition; glows in the presence of ambition | implicit
+  - 1141 | 1485 | the discovery of the griffon magic and crystal connection is the premise the usage plan works from when it says griffon magic scales with pride and the glow of ambition matches it | connection between griffon magic and the crystal; griffon magic scales with pride | implicit
+  - 1141 | 1485 | the same figure, Grover III, is named in both; the plan sets his son's later choices against the ruler whose scientists made the study | Grover III's scientists; Grover III's superstition | explicit
+  - 1140 | 1485 | the Greek sense of spiritedness fits the ambition and pride that the usage plan makes the crystal and griffons respond to | thymo=spiritedness; ambition ... pride | implicit
+- outward:
+  - 1141 | griffon magic, a system of lore held elsewhere | connection between griffon magic and the crystal
+  - 1141 | Grover III and his scientists, a ruler and his court not otherwise described here | Grover III's scientists studied it
+  - 1485 | the industrialists, a group not in this item | The industrialists look at this and realize
+  - 1485 | Grover IV, a ruler not otherwise described here | They tell Grover IV
+  - 1485 | Grover III's ban on gunpowder and the bessemer process, held in other plans | banning gunpowder and the bessemer process
+  - 1485 | Grover III's use of religion and the cult of Boreas as a belief system | the will of Boreas
+- whole: The four notes hang together loosely as a chain from the real-world name through the rule and the discovery to the story use, though the analogy note is thin and only the usage note ties the others into a plot.

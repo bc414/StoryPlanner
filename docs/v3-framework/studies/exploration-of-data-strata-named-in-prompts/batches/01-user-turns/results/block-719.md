@@ -1,0 +1,4 @@
+- sources:
+  - the schema proposed in the previous model turn (the current conversation's consolidation into StoryEntity, PlotPointEntityLink and so on) | keep as the working base but amend it: Chapter gets its own table, gap type is not a forced property, and link-property configuration gains project-stage validation fields | Some corrections, I meant to say that chapter has its own table | referred-to
+- order:
+- about: The user corrects the model's proposed unified schema by keeping Chapter as its own table, declining to make gap type a required property until they see how it works with their data, and asking that link-property configuration carry project-stage validation fields, which goal trajectory needs and gap type can optionally use.

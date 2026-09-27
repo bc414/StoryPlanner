@@ -1,0 +1,5 @@
+- sources:
+  - what I established about conscripted griffon serfs becoming squires, and knights teaching squires to forge and giving them shared seals | treat as settled canon that the model should build on; the squire/apprentice culture is the root of the later ideology | I established that conscripted griffon serfs used as spearmen | referred-to
+  - I had Chrysalis get her initial seed wealth for Gilded Lily and Silver Sterling to build out Krystalfels Hendelgeselschaft by doing black market bounties | author's own plan for Chrysalis, given as the correct account, and it corrects the earlier Diamond Mountain mining; treat as settled | I had Chrysalis get her initial seed wealth | first-named
+- order:
+- about: The user corrects and extends the previous breakdown with their own worldbuilding: the Shared Forge as Herzland's logistical edge, its origin in squire training and the rugged-individualism myth, Grover III's reasoning, and Chrysalis funding herself through DRM-violation bounties and mining crystals on the island of Krystalfels rather than Diamond Mountain.

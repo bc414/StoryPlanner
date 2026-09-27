@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a hypothesis that the shift from 2D to 3D RTS games opened the market to a mass audience and led to simpler stories, compares it to the FPS console and Modern Warfare shift, and asks the model to explain that hypothesis and Call of Duty: Black Ops.

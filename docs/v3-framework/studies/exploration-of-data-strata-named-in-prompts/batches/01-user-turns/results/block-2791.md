@@ -1,0 +1,9 @@
+- sources:
+  - the relevant passages (the early chapters' first appearances of the characters) | read the actual text and judge from it whether the ghost of the earlier belief is sufficient, rather than reasoning in the abstract | Now actually review the relevant passages | referred-to
+  - the visible ghost reading | accepted as the working frame for judging the passages | I agree with the "visible ghost" reading | referred-to
+  - the early chapters' in media res design | the author's stated design intent, held as deliberate; the model is to test whether it still holds up against the ghost reading | I designed the early chapters as in media res for dramatic purposes | referred-to
+  - the prequel | a planned later part of the story that is not to be dramatized first; the opening must work without it | Not dramatizing the prequel first | referred-to
+  - the Hasbro version | what readers already carry as latent truth; should not be dramatized at length as truth in the opening, since the author would render it poorly | latent understanding of the Hasbro version as truth | referred-to
+  - the Faust version | the version the author resonates with and is drawn to write; readers are doubted to arrive with it fully loaded | I resonate with the Faust versions | referred-to
+- order:
+- about: The user accepts the visible-ghost idea and asks the model to review the actual early-chapter passages for sufficiency and to say whether the in media res opening, with the prequel held back, still holds up, backing that design with their own reasoning about readers' assumptions and their own affinity for the Faust versions.

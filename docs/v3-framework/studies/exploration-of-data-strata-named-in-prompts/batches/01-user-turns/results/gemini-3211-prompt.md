@@ -1,0 +1,5 @@
+- sources:
+  - StarCraft 1 and Brood War | the original games whose world-building, key figures and later shift into corporate mandates the model is asked to explain; treated as the baseline of earnestness; the user has only read about them, not played them | how was the original world in StarCraft 1 built and brood war, are there key figures | referred-to
+  - StarCraft 2 Wings of Liberty | the published game the user started with and knows first-hand; the model is asked to judge whether it was as earnest as the original | Was StarCraft 2 wings of liberty as earnest as the original? | referred-to
+- order:
+- about: The user asks for an account of how StarCraft 1 and Brood War were built, who their key figures were, how the franchise moved toward corporate mandates, and whether Wings of Liberty was as earnest, while saying they began with Wings of Liberty and have only read about the first game.

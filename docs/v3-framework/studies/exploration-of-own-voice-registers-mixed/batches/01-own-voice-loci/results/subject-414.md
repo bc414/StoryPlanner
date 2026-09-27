@@ -1,0 +1,26 @@
+- passages:
+  - note 41 | second-person aphorism | addresses "you", present-tense generic claims, infinitive phrasing | strength as precondition for mercy, responsibility, stagnation | apart
+  - note 4065 | predictive generalization about a group | "Those who... will realize", future tense, third-person group | war ending requiring strength first | apart
+  - note 4065 | worldbuilding mechanism explanation | "Because to donate love... donate magic to fuel the weapons", concrete nouns, parenthetical gloss | funding rehab love versus weapon-magic for Equestria | apart
+  - note 4065 | impersonal aphorism | flat equational and negation statements, no person marker | mercy and strength equated, no more naivety | apart
+  - note 4076 | scenario narration | future tense "will be given", third-person "a changeling", "Then they find out" | changeling given pink-love cake, discovers its source | apart
+  - note 4076 | analytical/evaluative commentary | "It's the ultimate checkmate against Chrysalis's propaganda that", present-tense evaluative claim | scene's function as rebuttal to propaganda | run-in
+  - note 4076 | paraphrased persuasive propaganda voice | "you need to take this drug to fight or they'll kill you first", second-person urgency | content of Chrysalis's propaganda | run-in
+  - note 4078 | impersonal aphorism | quoted phrase as grammatical subject, "is the only way to break" | strong-to-be-merciful as solution to predator's dilemma | apart
+  - note 4504 | plot summary narration | "The end result of Pagala is that AJ kills her in cold blood, saying...", third-person declarative | AJ's cold-blooded killing of a war criminal | apart
+  - note 4504 | author's self-query | "Can this work?" bare interrogative | questioning whether the plot choice works | apart
+  - note 4504 | authorial intent statement | "Because another central theme I want to portray is that...", first-person "I want to portray" | stating the theme of strength before mercy | apart
+  - note 4504 | historical analogy | "Like the Americans being dominant over Germany and Japan...", comparative fragment, historical reference | WWII allied dominance before rehabilitation | apart
+  - note 4504 | impersonal aphorism | general declarative with no person marker, conditional clause | weakness without strength failing against bad-faith enemies | apart
+  - note 5437 | empty placeholder | default placeholder text "New Note" | no content given | apart
+- shifts:
+  - note 4065 | predictive generalization about a group | worldbuilding mechanism explanation | "Because to donate love..." shifts to concrete story mechanism and parenthetical gloss
+  - note 4065 | worldbuilding mechanism explanation | impersonal aphorism | return to flat declarative "Mercy and strength are one and the same."
+  - note 4076 | scenario narration | analytical/evaluative commentary | shift from future-tense plot description to evaluative claim "It's the ultimate checkmate..."
+  - note 4076 | analytical/evaluative commentary | paraphrased persuasive propaganda voice | shift to second-person urgent phrasing "you need to take this drug... or they'll kill you first" within the same sentence
+  - note 4504 | plot summary narration | author's self-query | shift into bare question "Can this work?"
+  - note 4504 | author's self-query | authorial intent statement | shift to first-person "Because another central theme I want to portray is..."
+  - note 4504 | authorial intent statement | historical analogy | shift to comparative fragment "Like the Americans being dominant over Germany and Japan..."
+  - note 4504 | historical analogy | impersonal aphorism | return to general declarative "Bring weak and trying to pursue friendship... will fail..."
+- registers: second-person aphorism; predictive generalization about a group; worldbuilding mechanism explanation; impersonal aphorism; scenario narration; analytical/evaluative commentary; paraphrased persuasive propaganda voice; plot summary narration; author's self-query; authorial intent statement; historical analogy; empty placeholder
+- whole: This item's notes are written in several distinct registers - abstract maxim, concrete scenario narration, authorial self-query and stated intent, historical analogy, and evaluative commentary - which mostly stand apart as separate sentences within a note but in one note run into each other inside a single sentence without a break.

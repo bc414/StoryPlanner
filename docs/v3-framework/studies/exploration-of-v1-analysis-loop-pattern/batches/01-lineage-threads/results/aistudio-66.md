@@ -1,0 +1,7 @@
+- steps:
+  - the author | supplies material | an attached document, uncaptured | opening turn
+  - the author | poses a comparative question | asks whether Queen Velvet's model should be Thatcher instead of Sandberg, or a fusion of both | second turn
+  - the model | builds a structural analysis | maps Sandberg's rhetoric of empowerment onto Velvet's justification for collaboration, and Thatcher's statecraft (TINA, crushing the 'miners', atomizing society) onto her execution of power, then contrasts her with Applejack as an ideological foil and closes with two Socratic questions about nationalism-vs-collaboration and coalition loyalty | final turn, closing the stretch
+- kept:
+- brought: The author brought a comparative-figure question — recasting Queen Velvet's political template as Margaret Thatcher rather than, or alongside, Sheryl Sandberg — building on an attached document not captured here.
+- loop: The author offers a single reframing question about which real-world political figure should model a character, and the model answers with an extended, self-contained ideological architecture and probing questions, but the archive shows no note from this exchange entering the planning database, so the loop stops at generation without traced archival uptake.

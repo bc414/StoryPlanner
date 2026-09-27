@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered as if the question were about how clearly the prose signals whose head a scene is in, and the user puts the question again as though that answer did not address what they meant by narrator selection | the same question repeated verbatim, "How obvious or not obvious should the narrator selection be?" | implicit and unstated: a bare repetition of the question with no reason, no disagreement and no clarification, so the correction is only inferable from the re-asking
+- about: The user re-asks the same question about how obvious the narrator selection should be, immediately after a long answer to it, without acknowledging or reacting to that answer.

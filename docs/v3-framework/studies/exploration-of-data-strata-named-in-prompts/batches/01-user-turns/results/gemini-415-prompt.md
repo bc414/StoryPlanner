@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the FJA-brand idea as a parallel to the Republic brand, adds a new worldbuilding detail about Coltbert's wine-tasting seal reform and the 1007 seal swap, and asks whether the swap or Discret's taxes and secret police should come first.

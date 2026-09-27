@@ -1,0 +1,21 @@
+- steps:
+  - author | opens with a general tool question | how NotebookLM tracks its sources | first exchange of the thread
+  - model | explains a mechanism | RAG pipeline: chunking, vector embeddings, retrieval, citation | reply to the sourcing question
+  - author | narrows the question to own use case | which file format, json or markdown, chunks better for the story plan | second exchange
+  - model | issues a recommendation with reasoning | markdown over json, citing header boundaries vs bracket noise | reply to the format question
+  - author | asks for what comes next | tools beyond NotebookLM for narrative/literary analysis of the plan | third exchange
+  - model | surveys a tool landscape | categorized list (Marlowe, AutoCrit, Plottr, Sudowrite, Obsidian, Claude Projects) plus a recommendation table | reply to the tools question
+  - author | requests a product update | latest Claude releases and how they stack against Gemini | fourth exchange
+  - model | reports a lineup and runs a head-to-head | Claude 4.6 series description, comparison table, workflow verdict | reply to the Claude-vs-Gemini question
+  - author | narrows the ask again | states no need for text generation, only analysis, and asks for Claude's edge | fifth exchange
+  - model | argues for a specific capability advantage | Adaptive Thinking budget, persistent Projects, more critical tone, recommendation | reply to the 'leap' question
+  - author | pushes for a direct feature comparison | Opus extended thinking vs Gemini Deep Think, and Claude Projects vs NotebookLM | sixth exchange
+  - model | builds a detailed comparison and a workflow proposal | two contrast tables plus a three-phase pipeline across the tools | reply to the direct-comparison question
+  - author | asks a practical follow-up | cost of getting the discussed Claude capabilities | seventh exchange
+  - model | breaks down pricing and a usage caveat | Pro tier price, thinking-budget rate limits, tier recommendation | reply to the pricing question
+  - author | shifts from tool talk to a worldbuilding rule | proposes that base magical capacity grow with training like a muscle while keeping cutie-mark discounts, framed via Twilight's power | eighth exchange, first content question of the thread
+  - model | evaluates and elaborates the proposed rule | confirms it with diminishing returns, splits capacity vs efficiency, gives a worked example, ties it to the industrial/ambition themes | reply to the magic-mechanic question
+- kept:
+  - note 5427 | the author's own words in this record | keeps the author's proposed rule (training-based capacity growth alongside cutie-mark discount, applied to Twilight and Starlight, with diminishing returns) essentially as phrased, filed under the Alicorn Magic subject
+- brought: The author brought a specific worldbuilding rule question — whether magical capacity should scale with training like a muscle while the cutie-mark discount stays fixed, applied to Twilight's power level — after a long run of unrelated questions about AI tool capabilities.
+- loop: The loop runs from a run of tool-comparison questions that produced no kept material to one worldbuilding question the author raised in passing, where the model's validation and elaboration were set aside and the author's own original phrasing of the rule was the part saved back into the plan under Alicorn Magic.

@@ -1,0 +1,5 @@
+- sources:
+  - The first scene of chapter 10 | Treat as established story content: the medicinal tribes' caverns are decked out with griffonian modern amenities and Applejack is confused and amazed by them. Use it as the basis for how Metzli sees the Aquileian-aligned tribes. | The first scene of chapter 10 features Applejack being confused and amazed | referred-to
+  - The author's own worldbuilding statements in this turn (Tzinacatl warriors becoming PMCs, mercenaries or cartel members, the cartels' high-end niche and 1002 payday, the medicinal tribes as Coltbert's trade partners and not dependents) | Treat as settled facts and corrections to be built into the analysis. Metzli's view of the drug tribes and of the Aquileian-aligned tribes follows from them. | With all this in mind | first-named
+- order:
+- about: The user corrects and extends the worldbuilding assumptions behind the previous answer (who becomes PMCs, cartels, the medicinal tribes' relationship to Coltbert) and asks for a characterization analysis, explicitly not scene architecture, of how Metzli would treat Mali and Applejack in the initial clash and after the drug deal.

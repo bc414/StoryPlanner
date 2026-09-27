@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's contrast between combative American labor and European co-determination and asks a run of open historical and economic questions, testing whether asset specificity in manufacturing explains the difference, without saying the model got anything wrong.

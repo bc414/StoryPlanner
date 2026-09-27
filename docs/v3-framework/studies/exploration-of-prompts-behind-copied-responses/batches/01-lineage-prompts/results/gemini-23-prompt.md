@@ -1,0 +1,6 @@
+- asks:
+  - count | asks the model to determine how many words are in a referenced text file | "How many words are the the text file?"
+- supplies:
+- shaping:
+- openness: Open: the message simply asks for a word count without naming a number or giving options, so the answer is left open.
+- subject: Word count of a text file referenced elsewhere in the conversation

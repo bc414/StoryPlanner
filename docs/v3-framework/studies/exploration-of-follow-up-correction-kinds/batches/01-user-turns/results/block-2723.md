@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a memory or location question about whether a Pax Chrysalia versus TLTT comparison was covered in this conversation or another one, without challenging anything in the model's comparative survey.

@@ -1,0 +1,6 @@
+- sources:
+  - all the honesty and poseur notes | material to be sorted: the user is unsure whether it points to a distinct universal theme or is only evidence or negative evidence for existing themes, so it is not to be assumed a new theme | still skeptical of whether all the honesty and poseur notes indicate | referred-to
+  - existing v2 universal themes | the baseline the notes are tested against; the user wants to know whether they already cover the notes, so they are treated as the standing framework | from what I already have ... existing v2 universal themes | referred-to
+  - the proposed sharpened formulation | the model's own proposal, treated with doubt: it has examples built in and so reads as evidence for other themes, not as a universal theme | has examples built in; it reads like evidence for other themes | referred-to
+- order:
+- about: The user pushes back on the model's claim that the Poseur material yields a new universal theme, doubting it and asking the model to sort whether the honesty and poseur notes are distinct or only evidence for existing v2 themes.

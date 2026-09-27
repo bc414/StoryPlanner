@@ -1,0 +1,6 @@
+- sources:
+  - Equestria at War gameplay, the Equestrian focus tree and its "The Dotted Line Report" focus | treat as the published game material the story adapts; take its description of the report as given, and answer whether its name has any special meaning | Equestria at War gameplay begins in 1007 and one of the first focuses in the Equestrian focus tree is "The Dotted Line Report" | first-named
+  - TLTT | the author's own story plan; Blueblood writing the report, becoming Field Marshal and being a Griffonian-Republic-trained retreat strategist are offered as tentative proposals, not settled | In TLTT, I'm thinking Prince Blueblood is the one who writes the report | referred-to
+  - Chapter 14, Coordination | a planned story chapter treated as a fixed point in which the Luna Nova Rifles bail Blueblood out at the Manehattan crisis | he is bailed out by the Luna Nova Rifles in Chapter 14, Coordination | referred-to
+- order:
+- about: The author adapts the Equestria at War Dotted Line Report focus into TLTT by proposing Blueblood as its author and Field Marshal, asks about the report's name, and reworks his military background so it comes from the Griffonian Republic and Mount Aris, with a retired Herzlander officer as his wargame tutor.

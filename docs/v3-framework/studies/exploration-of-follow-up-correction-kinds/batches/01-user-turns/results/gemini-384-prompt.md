@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the party lineup as given and asks a new worldbuilding question about why urban workers would join PNdA or FJA rather than the Marxist PAT, and how griffon and pony biology could explain the communist party's fringe status.

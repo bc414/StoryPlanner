@@ -1,0 +1,10 @@
+- asks:
+  - reasoning | asks whether the sleep spell should be the default choice in every combat scenario given its swappable, non-lethal utility against enemies like encircled conscripts | "should it be used in all combat situations?"
+  - brainstorm | asks for ways to justify the protagonist(s) resorting to lethal force later in the story despite having a non-lethal option | "How can I justify using lethality later?"
+  - evaluate | asks whether the sleep spell should be costly because it's complex while the spellfire stays cheap because it's simple and destructive, offering an analogy to weigh | "Should the sleep spell be expensive since it's complex while the spellfire is simple"
+- supplies:
+  - scenario | a magic-system premise: a sleep spell matrix made swappable with a default "spellfire," used on encircled conscripts who refuse to surrender | a sentence
+  - analogy | a comparison offered to support the cost question: bullets are simple/cheap, a metal tool is complex/expensive | a sentence
+- shaping:
+- openness: Mixed: the question of whether the sleep spell should be used in all combat and how to justify later lethality is left open, while the cost question leans toward an answer (sleep spell expensive/complex, spellfire cheap/simple) via the bullets-vs-metal-tool analogy the message supplies.
+- subject: Balancing a fictional magic system's non-lethal vs. lethal spells (cost, use-cases, and narrative justification)

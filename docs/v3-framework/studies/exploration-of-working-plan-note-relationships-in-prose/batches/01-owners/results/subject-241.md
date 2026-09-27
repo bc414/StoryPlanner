@@ -1,0 +1,10 @@
+- relations:
+  - 1821|1819|1821 gives the origin of standard Herzlander, which 1819 presupposes as the language the earliest translators rendered for regional elites; the creation of the standard is the ground for the translator's purpose|Grover III created Standard Herzlander / listen to standard Herzlander without having to learn it|implicit
+  - 1819|1808|1808 continues 1819 in time and repurposes the device: from letting dialect-speaking elites hear standard Herzlander to letting middle managers turn Herzlander orders into other languages for slave labor|translators were originally for Herzlander dialects / talk Herzlander orders into the machine and it would output the commands in other languages|implicit
+- outward:
+  - 1821|Grover III, a ruler or figure held elsewhere, and his rational enlightenment program|Grover III created Standard Herzlander and academic terms for his rational enlightenment
+  - 1819|Yale, a region or people among the regional elites, held elsewhere|regional elites (mainly Yale)
+  - 1808|Chrysalis, an actor or organization held elsewhere|Chrysalis proliferated literal translators
+  - 1808|Skyfall, a place where the slave labor is recruited to, held elsewhere|slave labor recruitment to Skyfall
+  - 1808|zebricans, a people held elsewhere|zebrican slave labor
+- whole: The three notes form a loose chain, from the standard language to the first translators to their later exploitation, though the link between 1821 and 1808 is not drawn and each note mostly stands on its own.

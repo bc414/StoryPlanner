@@ -1,0 +1,5 @@
+- sources:
+  - Version A (attached json format of the story planner export) | to be compared with Version B and judged; the model is to say which is better and which of its features are worth keeping | I have attached two different json formats, Version A and Version B | first-named
+  - Version B (attached json format of the story planner export) | to be compared with Version A and judged; the model is to say which is better and which of its features are worth keeping | I have attached two different json formats, Version A and Version B | first-named
+- order:
+- about: The user asks the model to compare two attached JSON export formats of their story planner, pick the better one for LLM analysis, and say which benefits of the weaker one could be carried into the winner.

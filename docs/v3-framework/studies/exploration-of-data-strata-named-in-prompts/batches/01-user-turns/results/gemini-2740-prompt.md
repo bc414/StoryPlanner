@@ -1,0 +1,4 @@
+- sources:
+  - Incan naming inspiration (Incan culture and language, from the model's general knowledge) | use as the stylistic basis for the raft names, as inspiration and not a strict source | Incan inspired names | first-named
+- order:
+- about: The user asks the model for a few Incan-inspired names for the Tzinacatl rafts, moving on from the previous discussion to a small worldbuilding naming task.

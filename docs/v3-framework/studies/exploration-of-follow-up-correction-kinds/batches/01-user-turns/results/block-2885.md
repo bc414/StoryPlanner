@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's axis-testing procedure to ask whether axis 6 is about opportunity and axis 5 about us-versus-them, refining what those two axes mean, and does not say anything in the model's turn is wrong.

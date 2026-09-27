@@ -1,0 +1,5 @@
+- sources:
+  - notebook lm, that lineage | the thing to be assessed for honest strengths and weaknesses, so the user can understand what was happening then and judge that older material accordingly | What are the honest strengths and weaknesses of notebook lm | referred-to
+  - my current tools and approach | the yardstick the NotebookLM lineage is compared against, as the present-day setup | compared to my current tools and approach | referred-to
+- order:
+- about: The user asks for a candid comparison of NotebookLM's strengths and weaknesses against their current tools and approach, so they can understand the context of that earlier lineage and weigh it against their present work.

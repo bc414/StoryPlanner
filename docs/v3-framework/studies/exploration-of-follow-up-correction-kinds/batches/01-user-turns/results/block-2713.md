@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the AO3 story analysis behind and sets a new task: re-read their TLTT plan and compare the in-universe causality of Gerad Discret as the source of Victorian standards, and of the sexually liberal characters who react against him, with the real-world history.

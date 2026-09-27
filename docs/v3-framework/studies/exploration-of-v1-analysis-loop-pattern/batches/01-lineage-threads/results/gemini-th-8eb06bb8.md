@@ -1,0 +1,26 @@
+- steps:
+  - author | submit | a video link for digestion (energy-crisis geopolitics video) | opening exchange
+  - model | deliver | a structured breakdown (thesis, arguments, evidence, takeaways, fluff ratio) of the submitted video | reply to the first link
+  - author | submit | a video link for digestion (Silicon Valley work-culture video) | second exchange
+  - model | deliver | a structured breakdown of the video plus a pointer to a related video by the same creator | reply to the second link
+  - author | submit | a video link for digestion (surveillance/ICE video) | third exchange
+  - model | deliver | a structured breakdown of the video | reply to the third link
+  - author | submit | a video link for digestion (AI-coding-tools video) | fourth exchange
+  - model | deliver | a structured breakdown of the video | reply to the fourth link
+  - author | submit | a video link for digestion (creator-economy/Marxist-analysis video) | fifth exchange
+  - model | deliver | a structured breakdown of the video | reply to the fifth link
+  - author | submit | a video link for digestion (buy-now-pay-later video) | sixth exchange
+  - model | deliver | a structured breakdown of the video | reply to the sixth link
+  - author | ask | a direct factual follow-up expanding on a figure raised in the prior video (composition of US household debt) | seventh exchange, no link submitted
+  - model | deliver | a data table and trend commentary answering the follow-up | reply to the follow-up question
+  - author | submit | a video link for digestion (industrial-chemistry startup video) | eighth exchange
+  - model | deliver | a structured breakdown of the video | reply to the eighth link
+  - author | submit | a video link for digestion (MLP worldbuilding/classism video) | ninth exchange
+  - model | deliver | a structured breakdown of the video | reply to the ninth link
+  - author | ask | for the video's thesis to be mapped onto the author's own story plan, referencing an attached notebook | tenth exchange, following the MLP video summary
+  - model | deliver | a point-by-point mapping connecting each argument of the video to specific elements of the author's story plan | reply to the cross-reference request
+  - author | submit | a video link for digestion (AI-generated-content/human-renaissance video) | eleventh exchange
+  - model | deliver | a structured breakdown of the video | reply to the eleventh link
+- kept:
+- brought: The author brought their existing MLP fanfiction story plan (an attached notebook document) into the conversation to test it against an outside video's thesis.
+- loop: The author uses the exchange mainly as a video-digestion tool, feeding in one outside link after another for the model to break down, with occasional pivots to ask a direct follow-up question or to hold the model's reading of an unrelated video up against the author's own story plan; none of what the model returns in this stretch is drawn into the planning database.

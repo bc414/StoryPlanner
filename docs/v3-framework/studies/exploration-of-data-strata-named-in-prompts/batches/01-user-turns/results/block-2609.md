@@ -1,0 +1,4 @@
+- sources:
+  - the Chinese space | the model is told to search or investigate it, as it did the Japanese space, for comparable creators and methods; no trust or ranking is stated | Now look into the Chinese space | first-named
+- order:
+- about: The user asks the model to extend its search for comparable AI-assisted creators from the Japanese community to the Chinese-language one.

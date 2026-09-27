@@ -1,0 +1,5 @@
+- passages:
+  - 5692 | other: narrative-craft instruction | directs that specific details of the Vanhoover failure be released at the moment a character needs the matching counter-lesson, so the past failure serves as the present's curriculum | none | imperative phrasing ("Deploy ... exactly when"); no event or date
+  - 5693 | statement about the subject | explains that PTSD processes trauma in fragmented, present-triggered flashbacks rather than linearly, so the peeling-onion structure mirrors Applejack's psychological state, since she cannot look directly at the Vanhoover disaster with her ego shattered | none | general claims ("does not process trauma linearly"); rationale for the structure
+- sequences:
+- whole: Two notes of design rationale for a layered-reveal structure, one an instruction on timing Vanhoover details to teach lessons and the other a psychological justification tied to Applejack's trauma, with no scene beats or dates.

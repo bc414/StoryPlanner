@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question, reusing the model's "cyborg" and "brain in the vat" framing, about how the product system and the underlying model at ChatGPT's launch differed from today's, without pointing the model at any body of material to use or avoid.

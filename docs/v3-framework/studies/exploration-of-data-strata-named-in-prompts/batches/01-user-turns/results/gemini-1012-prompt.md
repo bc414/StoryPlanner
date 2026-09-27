@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn adds new plot specifics (the harvester's physical pain, AJ's discomfort even at low intensity, and Twilight noticing red love feeding the machine and fleeing the scene) that will later seed the discovery of red love as magic and the Luna Nova Rifle, without citing any external source of data.

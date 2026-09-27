@@ -1,0 +1,4 @@
+- sources:
+  - all of v1 archive | the body the model is to search for uses of the nursery term; a search target, no ranking or trust weight given | Now check all of v1 archive for the usage of the nursery term | referred-to
+- order:
+- about: The user directs the model to extend its search for the "nursery" term to the whole v1 archive.

@@ -1,0 +1,6 @@
+- relations:
+  - 468 | 465 | the author's real-world parallel (fiat money and bank credit) answers to the in-universe fact that the Mark serves as a currency, a reserve currency | Ruthless Fiat/bank credit; reserve currency | implicit
+- outward:
+  - 465 | a character, Chrysalis, who is held elsewhere in the plan | Chrysalis used the Skyfall Mark
+  - 465 | the red love drug trade, a story element held elsewhere | her red love drug trade
+- whole: The two notes hang together loosely: the author's currency analogy and the historian's account of the Mark as a reserve currency point at the same money-like nature, though neither points at the other.

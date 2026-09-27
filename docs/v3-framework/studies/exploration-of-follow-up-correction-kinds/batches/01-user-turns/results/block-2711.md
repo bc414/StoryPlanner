@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the previous MLP/Supernatural comparison alone and moves to a new task: they attach an explicit Pokemon fanfic and ask how it connects to the tropes and traditions discussed, especially herbivore males and knotting, with an instruction to read the whole document.

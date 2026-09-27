@@ -1,0 +1,44 @@
+- steps:
+  - author | brings backstory batch and open question | AJ/Twilight dynamic, Celestia overhearing council, new characters Flowing Current and Rasti/Midnight Oil, reunion relocated to Ponyville, asks how to keep Celestia/Luna benevolent now for a later gut-punch | opens the stretch
+  - model | drafts scene structure | benevolent-observer framing, reunion/plea/council/reconciliation beats, a chapter-flow summary | answers the opening question
+  - author | proposes a chapter title and corrects setting and timeline | title 'Combined Arms' with its subversion logic, no Republic/President yet, TwiJack reunion already past, Luna/Rasti/Mali greeting beats | next exchange
+  - model | expands and revises around the title | triple-meaning analysis, a settled TwiJack dynamic, the Luna/Rasti/Mali beats, a revised chapter structure, a rationale for withholding 'Republic' | follows the title proposal
+  - author | adds two characters and requests a staging change | roles for Henri and Fleur Bloom, a question about a changeling POW, a request to make the mic-drop line spoken dialogue instead of an internal thought | next exchange
+  - model | evaluates the addition and drafts dialogue | roles for Henri/Fleur, a verdict against a POW in the room with an intel-map alternative, a Celestia/Luna sidebar script | follows the character request
+  - author | reverses who speaks the key line | swaps which princess says the line and why, strips the emotional beat from the exchange | next exchange
+  - model | rewrites the sidebar scene | a colder version of the exchange, an alienation framing for Celestia, rationale for the swap | follows the reversal
+  - author | brings new plot beats and a lore dump | Trimmel surrender-then-mutiny idea, AJ sparing Trimmel versus executing Pagala, a crystal-pony character idea, a full Celestia/Discord backstory including a Luna-protection rationale and Discord's failed magic and exile | later in the stretch
+  - model | analyzes and drafts integration | a Trimmel mutiny scene, a named crystal-pony character, a framing of Celestia's motive, Discord's magic-versus-entropy mechanics, chapter placements for each | follows the lore dump
+  - author | poses ethical and staging questions, and separates credit | asks whether Applejack should counsel Celestia to hide the truth, whether family motive justifies the lie, whether Twilight should be present, clarifies which Discord ideas are borrowed versus original, states where the reveal should land | next exchange
+  - model | resolves the questions with drafted material | a justification for the family secret, a rationale for Twilight's presence, a drafted Discord-exit dialogue for the chapter | follows the questions
+  - author | expands a chapter's scene | wants a rant added plus a parallel realization about being used, tied to the same chapter | next exchange
+  - model | expands the scene fully | the rant, the Discord reveal, a parallel disclosure, a synthesis into the chapter's theme | follows the expansion request
+  - author | repeats the same expansion and adds a pacing question | restates the ask, asks whether it is too early for a full break with Celestia | next exchange, closely following the prior one
+  - model | recalibrates the scene's weight | a distinction between planting a seed now and a full break later, a toned-down version of the beat | closes the stretch
+- kept:
+  - note 816 | the author's own words in this record | keeps the Rasti/Mali backstory - real name, disappointment in Luna, the smuggling-punishment detail, distrust of Celestia - on the PlotPoint about their debate over Luna
+  - note 137 | pasted from this reply inside the author's own framing | keeps the reframed reason the later White Peace shocks the characters, placed on the changeling-hives PlotPoint
+  - note 1708 | one sentence lifted from this reply | keeps the line that the CMCs are now union members and policy makers, placed on the medicinal-tribe meeting PlotPoint
+  - note 1121 | the author's own words in this record | keeps the Luna-greets-Rasti/Mali beat, the snub versus warmth, and the later reconciliation, on the 'Luna speaks to Rasti' PlotPoint
+  - note 4410 | the author's own words in this record | keeps the chapter-title rationale - ending line, Ponyville setting, subversion, HOI4 fit - on the Chapter record 'Combined Arms'
+  - note 4411 | the author's own words in this record | keeps the note that no Republic or President exists yet, only a de facto military governor, on the same Chapter record
+  - note 1538 | pasted from this reply with cuts | keeps the drafted phrasing of Celestia's mournful plea and her silent concession, on the 'What About Canterlot?' PlotPoint
+  - note 687 | the author's own words in this record | keeps the reversed attribution and rationale for the line - Luna notices without approving, no emotional smile - on the 'Luna says Friendship is Combined Arms' PlotPoint
+  - note 686 | pasted whole from this reply | keeps the drafted tableau of the war council looking like a machine, on the same PlotPoint
+  - note 688 | pasted whole from this reply | keeps the drafted line about the lack of emotion being chilling and the princesses becoming relics, on the same PlotPoint
+  - note 2452 | pasted from this reply with cuts | keeps Celestia's private horror at the scene as her motive for the later White Peace, on the Link between that PlotPoint and Celestia
+  - note 911 | the author's own words in this record | keeps the Trimmel-orders-surrender/subordinates-disobey beat and its tie to the 'Honor' chapter, on the Trimmel-respect PlotPoint
+  - note 915 | the author's own words in this record | keeps the contrast of AJ sparing Trimmel and executing Pagala, on the same PlotPoint
+  - note 4401 | the author's own words in this record | keeps the Star Energy crystal-pony-employee idea, on its own Subject record
+  - note 4403 | the author's own words in this record | keeps the post-Wedding Celestia-uses-Discord beat and its parallel to Twilight feeling used, on the Discord Subject
+  - note 4404 | the author's own words in this record | keeps the same used-by-Celestia beat, on the Luna Doctrine Subject
+  - note 4405 | the author's own words in this record | keeps the Tirek/alicorn-magic-transfer rationale, on the Luna Doctrine Subject
+  - note 4406 | the author's own words in this record | keeps the same Tirek/magic-transfer rationale, on the Discord Subject
+  - note 4407 | the author's own words in this record | keeps the reasoning for Discord's wartime magic failure and his exile to Adelart as Jacques, on the Discord Subject
+  - note 912 | pasted whole from this reply | keeps the drafted framing of Trimmel's surrender order as an act of duty, on the Trimmel-respect PlotPoint
+  - note 913 | pasted whole from this reply | keeps the drafted contrast between fanatic loyalty and Trimmel's collapsing authority, with the radio exchange, on the same PlotPoint
+  - note 914 | pasted whole from this reply | keeps the drafted account of AJ's respect for Trimmel versus Pagala, on the same PlotPoint
+  - note 2537 | one sentence lifted from this reply | keeps a line about a character's objection to a bombing tactic and her identification with victims, on a Link between the Canterlot-retake plan and that character
+  - note 4408 | pasted whole from this reply | keeps the drafted crystal-pony backstory of living through the Empire's disappearance, on the Star Energy Subject
+- brought: The author brought in a supporting character and setting from another writer's fic to fold into the Discord subplot, explicitly disclaiming credit for that borrowed element while claiming only the causal reasoning behind it as his own.
+- loop: The author repeatedly supplies plan fragments, corrections, and open questions about staging and motive, the model returns drafted scenes and analysis, and the author either reverses an attribution, tightens a rationale, or asks a further pacing question; the planning database keeps mostly the author's own restated decisions verbatim, with a smaller set of the model's drafted phrasings pasted onto the specific PlotPoint, Subject, Chapter, or Link records those decisions concern.

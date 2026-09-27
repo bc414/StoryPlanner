@@ -1,0 +1,7 @@
+- sources:
+  - the new story plan | treat as the authority on who is in the trench with AJ (three others) and correct the model's account against it | according to the new story plan AJ isn't in the trench alone, she is with 3 others | referred-to
+  - this draft | check against the plan; it is missing Tally Mark and so needs to be updated | Tally Mark is missing from this draft | referred-to
+  - the future planned version | treat as the intended later state of the story, in which they have a working crystal heart, and account for it | in the future planned version they'll have a working crystal heart | referred-to
+- order:
+  - the new story plan over this draft | the plan's trench lineup is given as the correction to the draft's AJ-alone and missing Tally Mark | according to the new story plan AJ isn't in the trench alone
+- about: The user corrects the model's chapter-1 assessment against the new story plan (AJ in the trench with three others, Tally Mark missing, a working crystal heart later), reframes AJ's most-dangerous-spot choice as guilt over a missed teleport rather than heroism, and asks whether AJ can start alone and apart from Mali's unit.

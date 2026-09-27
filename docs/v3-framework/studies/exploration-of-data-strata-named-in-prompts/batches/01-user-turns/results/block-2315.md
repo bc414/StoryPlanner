@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual question about the political makeup of the wallstreetbets community (Democrats, Republicans, non-voters), noting that every group has an anti-institutional wing, without pointing the model at any particular body of material.

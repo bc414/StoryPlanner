@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1826 | the Book of Boreas, a printed work, and the printing presses' history, held elsewhere in the world | when printing presses and the Book of Boreas was printed
+- whole: This owner holds a single note, so there is nothing in it to hang together or fall apart; it stands as one entry.

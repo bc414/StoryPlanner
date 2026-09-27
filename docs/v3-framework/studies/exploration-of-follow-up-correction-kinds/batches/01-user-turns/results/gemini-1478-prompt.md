@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the naming discussion and asks a new question about how the Dreamscape Aid Network changes Celestia's and Luna's earlier passive role and whether later plot points need revising.

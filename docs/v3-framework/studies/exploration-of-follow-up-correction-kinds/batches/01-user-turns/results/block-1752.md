@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks the model to redo the mapping using a different set of story factions (the changelings) instead of the ones it had just mapped, without indicating the prior mapping was wrong.

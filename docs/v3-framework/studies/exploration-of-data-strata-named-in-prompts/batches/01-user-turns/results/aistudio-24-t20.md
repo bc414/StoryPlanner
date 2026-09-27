@@ -1,0 +1,5 @@
+- sources:
+  - Attached document 1X2bhs-1_0RdL4sMSM8BaLWvdhGQJ1Qik | the material to be sorted: its notes are to be placed into the target buckets, with at least 95% landing in a bucket or the garbage bucket | Attached document; "include at least 95% of the notes" | first-named
+  - Attached document 1AqEoHS6sqsxyXg5JSDBxqotz3sRGIy_H | the material to be sorted: its notes are to be placed into the target buckets, with at least 95% landing in a bucket or the garbage bucket | Attached document; "include at least 95% of the notes" | first-named
+- order:
+- about: The user attaches two documents of notes and tells the model to sort them into a new, fixed set of paradigms and buckets, keeping at least 95% of the notes in some bucket or in the garbage bucket.

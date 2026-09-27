@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain SEO and server-side rendering needs, the single-page versus multi-page application paradigms in JavaScript/TypeScript, and how these relate to Blazor's static, Server, WebAssembly and Auto render modes, without pointing at any body of material to draw on.

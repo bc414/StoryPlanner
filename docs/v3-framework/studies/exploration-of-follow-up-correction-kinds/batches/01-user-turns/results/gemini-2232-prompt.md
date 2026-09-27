@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for further background on Aikido, its history, and how to draw inspiration from it, building on the model's explanation without disputing anything in it.

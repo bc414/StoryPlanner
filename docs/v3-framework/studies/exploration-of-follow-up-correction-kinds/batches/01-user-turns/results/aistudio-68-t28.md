@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's analysis and asks for several ideas on how to fit the Tzinacatl tribes and their jungle into the revised 914–930 ALB timeline, noting how the new dating shifts their isolation and posing open questions about monsters, thestral warrior culture and pre-914 status, and asking that suggestions be checked against the world bible.

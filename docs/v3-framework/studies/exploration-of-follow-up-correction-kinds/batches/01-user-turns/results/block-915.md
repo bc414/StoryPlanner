@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of the 1.2 million Stalliongrad prisoners as a static, freezing slave-labor force awaiting a negotiated release. The user says Stalliongrad's ideology lets prisoners who are indoctrinated into Caramel Marks's ideology fight at the front as class allies. | "I believe since Stalliongrad is running on Trotsky's global vanguard ideology, they actually allow changelings" | Softly hedged ("I believe"), with "actually" marking the change. It comes as an aside after a new question and gives the ideological reason, without saying the earlier account was wrong.
+- about: The user asks for the resolution of Stalliongrad's post-war position, given a 15% wartime population loss and 1.2 million gulag prisoners. They also add that indoctrinated Changeling prisoners are allowed to fight as class allies, which qualifies how the model described the gulags.

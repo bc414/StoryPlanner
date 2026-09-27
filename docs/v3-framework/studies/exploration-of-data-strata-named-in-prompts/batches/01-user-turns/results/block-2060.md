@@ -1,0 +1,6 @@
+- sources:
+  - traditional MLP fanfiction from 2010-2014 that I read and enjoyed | author's own reading memory offered as evidence of an opposites-attract pairing dynamic and of romance serving the plot; treat as the author's experience, not as something to correct | A lot of the "traditional MLP fanfiction" from 2010-2014 that I read and enjoyed | first-named
+  - most MLP fanfiction and Pokemon fanfiction I read (by men, read by men) | author's own firsthand experience, set against the claimed female majority and offered as the puzzle for the model to explain | most MLP fanfiction and Pokemon fanfiction I read was by men and read by men | first-named
+  - the premise that most fanfiction readers and writers are apparently female | claim from earlier in the conversation, which the author finds confusing given their own experience and wants explained rather than accepted | confused with the premise that most fanfiction readers and writers are apparently female | referred-to
+- order:
+- about: The author reacts to the model's romantasy comparison with their own view and memories of early MLP fanfiction, then puts questions about the gender makeup of fanfiction and fantasy audiences and whether Tolkien, Harry Potter and Sanderson count as noblebright.

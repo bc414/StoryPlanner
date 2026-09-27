@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about whether the free credits given at first sign-up for Google Cloud apply, without pointing the model at any body of material to use or avoid.

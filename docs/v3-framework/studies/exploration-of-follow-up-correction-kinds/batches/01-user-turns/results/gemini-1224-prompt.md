@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their own more concrete account of how Skyfall's predatory fiat works (fractional-reserve lending, navy-enforced insurance denial and raiding, the captured Herzland fleet backing the Mark) and asks the model to affirm or correct it, without saying the previous answer was wrong.

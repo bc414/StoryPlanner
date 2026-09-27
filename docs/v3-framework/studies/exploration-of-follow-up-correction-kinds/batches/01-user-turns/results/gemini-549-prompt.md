@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: the model's claim about the historical record, that the drug-fuelled nature of the war went unrecognised for about 70 years until recent scholarship | the model's account that this understanding only arrived recently, treated as implausible given the many soldiers and civilians who lived through the war | "I don't understand how it took 70 years" and "so many soldiers and civilians who lived through it" | put as puzzlement and a request to explain, with the objection carried by the stated reason and no flat claim that the model is wrong
+- about: The user questions the model's implied claim that the war's true nature stayed hidden for 70 years, given living witnesses, and asks the model to reconcile the two.

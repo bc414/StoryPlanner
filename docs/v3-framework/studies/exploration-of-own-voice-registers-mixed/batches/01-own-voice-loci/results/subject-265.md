@@ -1,0 +1,33 @@
+- passages:
+  - note 4616 | plain narrative | dated, third-person account of an event | trip to Skyfall seminar | apart
+  - note 4616 | interpretive commentary | opens with "This represents" | what the trip means for the feud | apart
+  - note 4616 | plain narrative | flat declarative facts | Pear Butter's reception at reunions | apart
+  - note 4616 | interpretive commentary | explains a character's misjudgment and expectation | Gilded Lily's misreading of the couple | apart
+  - note 4617 | plain narrative | summary statement over a stretch of time | recurring childhood trips to Manehattan | apart
+  - note 4618 | plain narrative | cause-and-effect explanatory account | move to Manehattan and the cutie mark | apart
+  - note 4618 | meta-continuity note | sets "canon version" against "the reality" | gap between the story told and what happened | apart
+  - note 4619 | plain narrative | causal explanatory statement | why Big Mac stayed on the farm | apart
+  - note 4620 | plain narrative | plain declarative statement | parents' visits and put-on personas | apart
+  - note 4621 | worldbuilding description | defines an organization's workings and purpose | SAA's structure and mission | apart
+  - note 4621 | interpretive contrast | emphatic phrasing with quoted opposing terms | Applejack's and her parents' differing views of the mash | apart
+  - note 4622 | plain narrative | concrete statement of an action | hosting Apple and Pear refugees | apart
+  - note 4622 | thematic generalization | abstract, aphoristic claim | tribalism as a luxury of peacetime | apart
+  - note 4643 | plain narrative | explanatory descriptive statement | SAA's secrecy and family crop donations | apart
+  - note 4643 | casual aside | rhetorical question, informal phrasing | reason the families keep giving crops | run-in
+  - note 4645 | plain narrative | descriptive statement | parents' lifestyle versus the product they sell | apart
+  - note 4645 | evaluative aside | short judgment sentence | calling it hypocrisy | apart
+  - note 4786 | plain narrative | factual statement | Pear Butter's cutie mark | apart
+  - note 4786 | evaluative aside | appreciative comment attached by a comma | fit with the canning company | run-in
+  - note 5216 | technical description | detailed historical/technical information | canning methods and planned transition | apart
+- shifts:
+  - note 4616 | plain narrative | interpretive commentary | marked by "This represents"
+  - note 4616 | interpretive commentary | plain narrative | returns to flat statement of fact about reunions
+  - note 4616 | plain narrative | interpretive commentary | marked by "misinterpreted" and "didn't expect"
+  - note 4618 | plain narrative | meta-continuity note | marked by "canon version" and "The reality is"
+  - note 4621 | worldbuilding description | interpretive contrast | marked by paragraph break, "is exactly the point," and quoted contrasting terms
+  - note 4622 | plain narrative | thematic generalization | marked by move to abstract claim "Shared struggle unites them"
+  - note 4643 | plain narrative | casual aside | marked by rhetorical question "because why not?"
+  - note 4645 | plain narrative | evaluative aside | marked by short judgment sentence "That seems like a hypocrisy"
+  - note 4786 | plain narrative | evaluative aside | marked by comma-spliced appreciative comment "that's a perfect fit"
+- registers: plain narrative; interpretive commentary; meta-continuity note; worldbuilding description; interpretive contrast; thematic generalization; casual aside; evaluative aside; technical description
+- whole: This item's notes move between several registers — plain narrative fact, interpretive or evaluative commentary, a meta-continuity aside, worldbuilding description, and one stretch of technical detail — with most shifts falling at a sentence break the reader would notice, though in two notes an evaluative or conversational aside runs directly into the factual sentence with no break at all.

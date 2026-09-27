@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author asks whether every new static combat spell would need its own P3, and corrects the previous answer's risk claim by stating that Chrysalis could not use a stolen P3 because she lacks the red love, while the ponies rely on voluntary donation.

@@ -1,0 +1,4 @@
+- sources:
+  - my plan for Rarity and Flowing Current being present for the negotiations from the start, with the Aquileian aligned tribes (versus arriving only for the drug tribes in part 3) | treat as the author's current plan, put forward as provisional and up for evaluation against the alternative of a later arrival | I was planning on Rarity and Flowing Current being present for the negotiations from the start | first-named
+- order:
+- about: The user is asking the model to judge whether their planned staging of Rarity and Flowing Current, present from the start of the negotiations or arriving only for part 3, would undercut Applejack's naive deconstruction.

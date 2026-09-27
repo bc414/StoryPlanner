@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author works through worldbuilding questions about which German-derived words Chrysalis's Changelings would use domestically for U-Bubele and Am-Andla and how Acornage Changelings would render them in Equestrian, and proposes that Twilight, given her arc, would be the one to draw the Friendship and Magic parallels, without pointing the model at any body of material.

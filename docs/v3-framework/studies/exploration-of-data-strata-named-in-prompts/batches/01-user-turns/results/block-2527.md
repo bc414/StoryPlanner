@@ -1,0 +1,4 @@
+- sources:
+  - I remember being pissed that he removed the lemon; He said it had to do with being religious | the user's own recollection of the lemon's removal and Redhawk's stated religious reason, offered as a premise for the model to reason from and test as a possible cause of Selina's damsel role, held as a memory rather than a checked fact | "I remember being pissed" and "He said it had to do with being religious" | first-named
+- order:
+- about: The user asks the model for assessments of Redhawk and the influences on his writing, and floats, from their own memory of his religious explanation for cutting the lemon, a hypothesis that this may have shaped the story's treatment of the co-founder as a damsel.

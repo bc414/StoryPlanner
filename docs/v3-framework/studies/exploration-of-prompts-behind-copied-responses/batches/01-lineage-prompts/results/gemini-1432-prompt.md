@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | asks the model to propose what kind of magic crystal ponies should have | "What should be the magic for crystal ponies?"
+- supplies:
+  - worldbuilding recap | prior established species-magic rules: earth ponies' chemistry-explained fertilizer magic, buffalo's environmental magic via stomping, and that all other species have visible magic | a few sentences
+- shaping:
+- openness: open | the message poses a plain open question with no candidate answer, named options, or stated claim to verify, only the pattern set by the other species' magics to be consistent with
+- subject: designing a magic ability for the crystal pony species in a fictional world

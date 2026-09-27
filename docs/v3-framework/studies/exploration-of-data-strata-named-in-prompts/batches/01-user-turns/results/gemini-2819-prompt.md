@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | re-read and analyze them afresh in light of the corrections given in this turn (referendum timing, climax structure, no on-page battles) | review my story plans again and give an analysis | referred-to
+- order:
+- about: The user corrects the model's reading of Arc 3's sequence (the referendum comes after Applejack's return, battles against Olenia and the hives stay off-page), asks whether the love drop is the arc's final climax with the election as a local one, and asks the model to review the story plans again and analyze them.

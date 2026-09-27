@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on to a new question about whether their existing notes on AJ for the regrouping meeting are meant to be inferences, without stating that anything in the model's turn was wrong.

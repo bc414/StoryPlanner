@@ -1,0 +1,5 @@
+- sources:
+  - my rigid framing of the Stagnation of Harmony | treat as a fixed premise of the author's own worldbuilding that the model should reason from when deciding where conflicts originate | due to my rigid framing of the Stagnation of Harmony | referred-to
+  - season 1 | the published show's first season, whose external conflicts are to be reassigned to foreign or Everfree origins in light of the framing | most of the external conflicts of season 1 | referred-to
+- order:
+- about: The user asks whether, given their own strict Stagnation of Harmony worldbuilding, the external conflicts of season 1 should mostly come from foreign influences or the Everfree Forest.

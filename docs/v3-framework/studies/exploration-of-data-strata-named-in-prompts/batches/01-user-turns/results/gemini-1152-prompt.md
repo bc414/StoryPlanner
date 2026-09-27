@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's proposed mess-hall scene by stating that Applejack hates the rations and her parents' move to the factory, must never mention her parents because they are a shameful secret and white lie, and resents them because she left them in Manhattan after getting her cutie mark, having judged the city fake.

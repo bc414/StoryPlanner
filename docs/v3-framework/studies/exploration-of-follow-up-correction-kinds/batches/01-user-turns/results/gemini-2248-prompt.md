@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model built its QA checklists on four axes it made up (political, metaphysical, character, economic) instead of the user's seven fundamental axes from the bucket categorizer's system instruction | Reevaluate using the 7 axes from my system instruction | flat imperative redo, with the full system prompt pasted in as the reference and no reason or criticism stated
+- about: The user tells the model to redo its standardized-question framework using the seven axes already defined in their categorizer system prompt, and pastes that prompt in full so the model can work from it.

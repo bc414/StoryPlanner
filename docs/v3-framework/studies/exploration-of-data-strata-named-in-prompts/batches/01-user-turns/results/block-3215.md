@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reacts with interest to the earlier point about gender labor parity in sub-Saharan Africa and asks the model to explain how geography produced plow versus hoe farming, why that gave labor parity, and why the culture is still patriarchal or perhaps more egalitarian.

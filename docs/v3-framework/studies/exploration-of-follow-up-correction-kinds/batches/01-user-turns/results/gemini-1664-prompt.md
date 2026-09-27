@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the previous analysis and asks for a similar analysis of a later scene, where Fluttershy apologizes to Celestia for yelling and says she has learned she can't always protect her animals.

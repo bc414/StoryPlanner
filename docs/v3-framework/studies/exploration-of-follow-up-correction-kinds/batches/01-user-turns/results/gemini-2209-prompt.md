@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of the SDF and local defenders as noble grassroots fighters betrayed by the West, which the user suspects is an idealized account of who the SDF and the Free Syrian Army really were | Was the SDF actually a grassroots coalition... Or is this all a romanticization too? | put as a sceptical question, with 'too' hinting the user sees a pattern of romanticizing, not stated as outright disagreement
+- about: The user doubts the model's idealized account of the SDF and the Free Syrian Army, asks whether it is romanticized, and moves on to ask about Syria's current trajectory and the SDF's fate under the post-Assad government.

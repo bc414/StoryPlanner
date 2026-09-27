@@ -1,0 +1,5 @@
+- sources:
+  - my original note about Rockfeller being hauled off to jail and saying "you think you know Chrysalis, but you don't" | earlier idea of the author, now in doubt; the model is asked whether to drop it or how to handle it, not treated as settled | "I originally had a note" | first-named
+  - the current direction of not going with pre-planned collaboration plus defiance for Rockfeller | treated as the settled choice the old note is to be checked against | "I'm not going with pre-planned collaboration + defiant" | referred-to
+- order:
+- about: The author raises an older planned line for Rockfeller's exit and asks whether it should be dropped or reworked now that they have chosen a different characterization for him.

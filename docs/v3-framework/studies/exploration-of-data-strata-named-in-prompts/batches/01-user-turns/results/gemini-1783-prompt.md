@@ -1,0 +1,4 @@
+- sources:
+  - Part 1 (the Coltbert Salon and the noble griffonesses, including the blacklist idea) | treat as the working plan that the user is amending; the blacklist element is to be revised into something harsher (arrest, fine, hanging) and the tableaus expanded with stallion-side tracking | To add to Part 1, I think it has to be more sinister than just a blacklist | referred-to
+- order:
+- about: The user amends the existing Part 1 plan by replacing the mere blacklist with legal punishment for stallions who forget their place, and by adding stallions' own tableaus as trophy shelves alongside the griffonesses' coat-of-arms-stamped hunting logs.

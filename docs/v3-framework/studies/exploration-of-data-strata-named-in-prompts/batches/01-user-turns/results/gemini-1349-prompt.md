@@ -1,0 +1,4 @@
+- sources:
+  - the idea that Chrysalis is like Edmond Dantès (the Count of Monte Cristo framing from the model's previous answer in this conversation) | take as the working premise to build the next question on, adopted rather than questioned | With the idea that Chrysalis is like Edmond Dantès | referred-to
+- order:
+- about: The user takes the Chrysalis-as-Dantès premise as given and asks the model to work out whether her choosing Eros and betraying Eagleclaw is the semi-planned climax of her manipulation rather than a cold political move, while adding new plot details (Eros executing the regency council in 1007, Chrysalis present with the last word, Synovial and an attaché on the ground).

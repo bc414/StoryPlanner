@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding Mao-to-Deng analysis of Kemerskai (the current conversation) | treated as accepted and as explaining the author's point; the author builds on it to extend the parallel to Chrysalis | This explains why | referred-to
+- order:
+- about: The user accepts the model's Mao-to-Deng comparison and builds on it, adding that Chrysalis's new order is the closest parallel to modern China because she kept herself as the state after Kemerskai.

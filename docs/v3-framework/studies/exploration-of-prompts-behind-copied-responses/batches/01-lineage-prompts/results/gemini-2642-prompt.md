@@ -1,0 +1,7 @@
+- asks:
+  - analyse | explain the meaning/implications of a stated worldbuilding decision about how two characters embrace | "Give an analysis"
+- supplies:
+  - idea | a single worldbuilding decision: Twilight and Applejack hug only face-to-face (not spooning, which is reserved for parents and foals), resting forehooves on each other's backs | a sentence
+- shaping:
+- openness: Leans toward an answer it names: the user states the decision (face-to-face hugging, spooning reserved for parent-foal, forehooves on backs) as settled and asks for analysis of it, not for alternatives.
+- subject: A convention for physical affection between Twilight and Applejack, tied to a cultural rule that spooning is for parents and foals

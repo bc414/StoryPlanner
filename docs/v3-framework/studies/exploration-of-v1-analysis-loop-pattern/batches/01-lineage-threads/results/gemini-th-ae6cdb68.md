@@ -1,0 +1,18 @@
+- steps:
+  - author | request | asks the model to review two named codex entries for consistency | opening of the message
+  - author | premise-statement | redefines magic as ambition channeled through each species' biology | early in the message
+  - author | question | asks whether the jaeger hunt's addictive-high framing (Adderall/pervitin/cocaine) still holds under the new premise | same paragraph, tied to the dopamine/adrenaline mapping
+  - author | simplification | drops the idea of draining specific emotions like fear or anger, collapsing everything into one raw-magic substance | paragraph following the question
+  - author | draft-backstory | narrates Chrysalis inventing the love harvester with Herzlander scientists as war-debt repayment, prototype built from the draining spell | mid-message
+  - author | draft-backstory | narrates trade with the Tzinacatl, discovery their drugs are magic-derived, and industrial reverse-engineering that floods the market and ruins their economy | continuing the same passage
+  - author | draft-timeline | lays out which drug tier (1/2/3) is used at each named battle from Vanhoover through Stalliongrad | closing part of the message
+  - model | verdict | affirms the ambition=magic=dopamine system is internally consistent | opening of the response
+  - model | elaboration | describes the harvester as forcing constant striving and names the tier-1 product 'Liquid Willpower' | early section of the response
+  - model | elaboration | recasts the Tzinacatl arc as three phases with an added real-world colonial-economics analogy | middle section
+  - model | invention | adds an opioid-analog ingredient to explain how the tier-3 speedball numbs self-preservation | later section
+  - model | rationale | explains why specifically Tall Tale and Stalliongrad require tier-3 (stalemate-breaking, tank warfare) | later section
+  - model | summary | recaps the whole system as a five-point list and frames Chrysalis as an 'Industrialist of the Soul' | closing of the response
+- kept:
+  - note 4297 | the author's own words in this record | keeps the invention backstory of the love harvester (Herzlander-adjacent collaborators, feedback-loop innovation as foundation of magical engineering, used for soldiers/addicts not machinery), filed under Chrysalis's actions and motivations
+- brought: The author brought a redefinition of the setting's magic system as ambition-through-biology, plus an accompanying invention and economic-collapse backstory for the love harvester and Tzinacatl drug trade, to check whether it held together.
+- loop: The loop runs from the author proposing a unified magic-as-ambition premise with an invention/economics backstory, through the model validating and elaborating each piece, back to the plan retaining a restated version of Chrysalis's love-harvester origin under her motivations entry.

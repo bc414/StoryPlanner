@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further worldbuilding detail about how changelings, griffons and ponies reproduce and asks whether female changelings therefore match males in predatory ambition, extending the previous analysis without disputing it.

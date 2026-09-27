@@ -1,0 +1,21 @@
+- relations:
+  - 117|120|120 develops 117: the tycoon who hosts the seminar is then said to have misread the parents' motives and what she expected of them|Gilded Lily|explicit
+  - 118|120|120 says the tycoon took the feud as motive to abandon their families; 118 gives their own view, that industry meant autonomy from that feud|the feud; radical autonomy from the Apple-Pear family feud|implicit
+  - 119|118|119 gives a concrete case of the feud pressure (Pear Butter unwelcome at Apple reunions) that 118 says industry was a way out of|Apple Family reunions; Apple-Pear family feud|implicit
+  - 119|120|119 shows the family rift that 120 calls the feud and that the tycoon took as enough reason to abandon their families|the rest of the family didn't; the feud|implicit
+  - 124|122|122 presupposes the parent relationship that 124 states, speaking of Applejack's childhood and her parents' absences|Applejack's parents; her parents were often gone|implicit
+  - 122|128|128 continues 122 in time: from frequent multi-day trips in her early childhood to home visits only every month or two|often gone for days; visit home once a month or two|implicit
+  - 128|2445|2445 gives the reader's assumed reading of the monthly visits (a performance of being country) and the later reason; 128 states the visits and the country personas|monthly visits; "country personas"; performance of parenting|implicit
+  - 152|2445|Both track the reader's shifting view of the parents' city life, each a false first impression that is later overturned (hypocrisy and fancy living vs. greed, then local patronage and exhaustion)|later we learn; later learn that monthly visits|implicit
+  - 152|2371|152 gives a reason Applejack rejected Manehattan and industry as a child, which 2371 relies on when it says she hates heavy industry from her youth|one reason she left Manehattan; hates heavy industry from her youth|implicit
+  - 835|152|835 says everything is told through Applejack's framing; 152 is an instance in which the parents are seen only through her judgment, with the truth learned later|told through Applejack's framing; Applejack sees how her parents|implicit
+  - 835|2371|2371 has the parents withholding the truth so Applejack's view stays her own, an example of the single Applejack-framed perspective and unit action that 835 describes|They withhold; function as a unit|implicit
+- outward:
+  - 2371|A Griffonian Republic connection and its ally, held elsewhere in the plan|the Griffonian Republic connection
+  - 2371|A later chapter (16) and the Kemerskai setting where Applejack will see things for herself|in chapter 16; Kemerskai
+  - 2371|Applejack's childhood rejection of and resentment toward industry, shown elsewhere|Applejack hates heavy industry from her youth
+  - 117|Apple Bloom's birth and the Skyfall seminar, events and places outside this item|After Apple Bloom was born; Skyfall
+  - 120|Gilded Lily's character and lifestyle beyond these notes, and the families the parents left|Gilded Lily misinterpreted; abandon their families
+  - 119|Granny and the wider Apple family, held elsewhere|Granny loved her
+  - 152|The parents' canned product and the local businesses they patronized, told elsewhere|canned product they sell; patronizing local businesses
+- whole: The notes largely hang together around the parents' feud-driven turn to industry, their absences and monthly visits, and how Applejack and readers misread them, though the cutie-mark note and the note about splitting into independent arcs stand mostly apart.

@@ -1,0 +1,4 @@
+- sources:
+  - my little pony | use as the material to draw on, framing the seven axis names as allegories from the show | Give my little pony allegories | first-named
+- order:
+- about: The user asks the model to redo the seven-axis renaming schemes using My Little Pony allegories in place of the software, strategy-game and investment themes.

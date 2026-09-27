@@ -1,0 +1,53 @@
+- relations:
+  - 2571|2606|cause and the reader's response to it: scarcity forces specialization, and readers are meant to realize the castes come from that|Scarce resources force specialization / arctic scarcity demands functional specialization|implicit
+  - 2571|2581|the general cause and its setting: specialization forced by scarcity, then the hive's self-sufficiency and caste labor division|Scarce resources force specialization / labor specialization between castes|implicit
+  - 2612|2571|real-world analogue of the stated cause: jati arose from economic efficiency of occupational specialization, as the hive's roles do from scarcity|occupational specialization was economically efficient|implicit
+  - 2612|2605|contrast: jati transmit occupation by heredity, while the hive has no families and identity is collective|hereditary knowledge transmission / not familial|implicit
+  - 2612|2593|analogy for knowledge kept within a group and passed on|hereditary knowledge transmission / Knowledge within each caste is generational|implicit
+  - 2605|2535|delivery of a rule as reader-facing design: no personal parents becomes caste identity that is collective, 'raised US'|no individual children, only caste grubs / Every grub thinks "those caretakers raised US."|implicit
+  - 2593|2535|the mechanism behind caste knowledge: caretakers train grubs in caste skills, so 'generational' passes through the pool, not parents|Knowledge within each caste is generational / caretakers are functionally teachers|implicit
+  - 2601|2535|restatement and extension: caste-specific caretakers raise grubs, with the bonding they show described further|Grubs are raised by caste-specific caretakers / caretaker's warmth is genuine|implicit
+  - 2601|2536|the same fact stated twice, the longer one adding why it counts as weakness and where it is tolerated|colorful silk ... viewed as weakness, of infant dependency|implicit
+  - 2592|1389|explanation and canon source of dark resin: one gives jaeger oppression, the other terrified changelings' silk, for the same black architecture|dark/black/brutalist due to jaeger oppression / black and dark green which is the architecture|implicit
+  - 2601|1389|contrast between two silk colors: caretakers' colorful silk against fear-made black and dark green silk|Only caretaker grub-nursers ... produce colorful silk / terrified make resinous silk that is black|implicit
+  - 2579|2572|reason for a stated fact: drones fear other hives more than their own jaegers, since they cannot close their emotion sense|fear enemy jaegers more than their own extractive ruling jaegers / fear other hives more than they fear their own jaegers|implicit
+  - 2587|2572|narrowing of the extraction claim: it is a tax paid for defense, not oppression for fun or from addiction|extract love taxes in exchange for defending / extract labor and love from the lower castes|implicit
+  - 2587|2579|the bargain and the reason the bottom accepts it: protection from foreign jaegers|in exchange for defending the hive / they need protection|implicit
+  - 2579|2577|the emotion-sense problem underlies the wariness of foreign changelings|overwhelmed by the emotions of foreign changelings / extremely wary of other changelings|implicit
+  - 2581|2573|cause and effect: no trade leverage makes extractive warfare, i.e. constant conflicts to steal resources|Extractive warfare is a result of the lack of trade leverage / constant conflicts to steal resources|implicit
+  - 2581|2577|sovereign self-sufficient hives, whose aim is to extract from others rather than govern them|Each hive is mostly self-sufficient / every hive's goal is to extract from other hives|implicit
+  - 2574|2577|real-world analogue for many sovereign hives with temporary, treacherous alliances|Sengoku warring daimyos / alliances are temporary and treacherous|implicit
+  - 2574|2573|real-world analogue for the constant state of war among hives|Sengoku warring daimyos / constant conflicts|implicit
+  - 2590|2589|real-world analogue for a shared writing system across distinct languages|Shared writing system like chinese characters / shared writing system but distinct languages|implicit
+  - 2589|2608|narrowing: the writing system is shared between hives but only some jaegers can read it|shared writing system / Only jaegers are literate in the shared writing system|implicit
+  - 2589|2577|distinct languages give the ground for wariness of foreign changelings|distinct languages / wary of other changelings who speak other languages|implicit
+  - 2610|2577|instance of the wariness of foreign speakers: elite jaegers learn other tongues to harm from within|learn other hives' languages / may turn against them|implicit
+  - 2610|2589|the distinct languages are what infiltrators must learn despite the shared script|distinct languages / learn other hives' languages|implicit
+  - 2608|2587|collectors carry out the love taxation, auditing lower castes' reserves|love collectors/auditors / extract love taxes|implicit
+  - 2608|2572|instance of how jaegers extract love from lower castes, through failed jaegers who audit|audit your love reserves / extract labor and love from the lower castes|implicit
+  - 2569|2570|overturning of the starting assumption: chaos with no structure is replaced by a sustainable, patterned perpetual war|mindless chaos / sustainable total war, or perpetual petty war|implicit
+  - 2569|2606|the assumed chaos is corrected by a structural cause for the castes, scarcity|no structure, no production model / castes exist because arctic scarcity demands functional specialization|implicit
+  - 2569|2414|placeholder|placeholder|implicit
+  - 414|2569|the harsh world picture that matches the assumed Hobbesian starting view|Life was nasty, brutish, and short / Hobbesian war of all against all|implicit
+  - 414|2570|red love as an Escape gives the rush of power that later drives jaegers to drain each other|rush of power and euphoria / Draining red love gives a rush of power|implicit
+  - 532|2570|sequence: once other prey is gone, jaegers turn on each other, which becomes the pattern taught as the reason for the system|jaegers ended up preying on each other / drain other jaegers first|implicit
+  - 532|414|addiction driving the turn on each other: red love is an escape, and its supply running out sends jaegers to a fix from each other|satisfy their addiction / Red love isn't just food, it's an Escape|implicit
+  - 534|535|mechanism and its propaganda framing: the Predator's Dilemma and the prisoner's dilemma are the same trap|Harmony doesn't work due to the prisoner's dilemma / Predator's Dilemma|implicit
+  - 535|2570|two accounts of Chrysalis's propaganda about the past and the addiction that drives it|Chrysalis's propaganda / Chrysalis's propaganda for why the hives fought|implicit
+  - 534|532|two explanations for the breakdown: forced predation from vulnerability versus food running out|forced to be a predator / turned on each other for a fix|implicit
+  - 2577|2606|no integration of other hives makes a unifier's conquest an unlikely origin for the castes|not govern or integrate others / not because a unifier imposed them after conquest|implicit
+  - 2570|2573|partial tension: hives never conquered each other and war was sustainable, yet occasional wars of annihilation set hives back|sustainable total war / wars of anihilation that set the combatting hives back|implicit
+- outward:
+  - 1389|the earlier canon work whose look the hive architecture and cocoons follow|the aesthetic from To Where and Back Again
+  - 2569|a grimdark fantasy series whose convention shapes readers' starting assumption|grimdark ASOIAF convention
+  - 2570|Chrysalis, who arrived and changed the hives, and the camp where changelings tell this account|until she came along / changelings at camp fluttershy
+  - 2570|deer and ponies as outside prey, part of the wider world|no reason to attack the deer or ponies
+  - 535|Chrysalis's propaganda and the starving times, held elsewhere in the story|Chrysalis's propaganda describes the starving times
+  - 532|manticore-tier threats, an earlier age or lore of the world|Once all the manticore-tier threats were eradicated
+  - 2608|a later organization that the collectors foreshadow|(precursor to VOPS)
+  - 2606|a unifier figure or conquest that readers might assume created the castes|not because a unifier imposed them after conquest
+  - 2574|a historical period in Japan taken as inspiration|The Japanese Sengoku warring daimyos period
+  - 2590|a real-world writing system taken as inspiration|Shared writing system like chinese characters
+  - 2612|India's jati system taken as inspiration|India's jati system developed in agricultural societies
+  - 414|ponies as a source of red love, held elsewhere|Draining a predator (or a pony)
+- whole: The notes hang together as one set around scarcity-driven caste specialization, extractive inter-hive war and the reader's shift from assumed chaos to structure, though the analogy, silk and language notes cluster more loosely.

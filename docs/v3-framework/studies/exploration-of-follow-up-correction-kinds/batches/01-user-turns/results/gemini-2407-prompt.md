@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Griffonstone-origin thread and the model's closing question about the Republic, and asks a fresh worldbuilding question about how the Coltbert Reforms would spread part of pegasus magic to FJA griffons.

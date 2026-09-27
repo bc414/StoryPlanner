@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to expand on the epic genre and on the editorial process in published series, following its survey of authors who split main story from prequel lore, without pointing at any particular body of material.

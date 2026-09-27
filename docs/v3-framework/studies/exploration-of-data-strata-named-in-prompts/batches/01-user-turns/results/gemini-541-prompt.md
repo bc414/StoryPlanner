@@ -1,0 +1,4 @@
+- sources:
+  - the author's own plan for the transfer and the front collapse, said from memory | treat as the true version of events, replacing the model's assumption that the transfer was still pending | I was planning on the transfer already happening before Fluttershy even knows | first-named
+- order:
+- about: The user corrects the model's timeline by stating their intended plot, in which the POW transfer has already happened before Fluttershy learns of it and Applejack's spearhead has collapsed the front while she focuses on rescuing Canterlot civilians and reaching Vanhoover.

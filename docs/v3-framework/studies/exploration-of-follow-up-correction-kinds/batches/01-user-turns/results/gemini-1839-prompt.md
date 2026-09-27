@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats a new "what if" backstory in which Pagala invented a simple carapace-recolouring elixir and Chrysalis adapted it to remake her whole body in Celestia's likeness, extending the elixir's lore rather than disputing anything the model said.

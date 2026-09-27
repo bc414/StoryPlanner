@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's premise that griffons have body proportions vastly different from the pony art style, so the big-head theory might not fit them, is wrong. Griffons are drawn with roughly pony proportions. | Griffons have roughly the same proportions as ponies | Flat, calm statement of fact, backed by a canon example (Gilda beside Rainbow Dash) and with no comment on the model's error.
+- about: The user answers the model's closing question about griffons by showing a canon image of Gilda and Rainbow Dash and stating that griffon proportions match pony proportions, which removes the premise of the question.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn resubmits the same raw notes for sorting with a revised set of target paradigms and buckets, without saying anything is wrong with the previous sort.

@@ -1,0 +1,7 @@
+- sources:
+  - chapter Entrenchment and the following chapter Encirclement | treat as true and settled story order; it corrects the model's assumption that Shining Armor and Cadance are still trapped when Canterlot is assaulted | Shining Armor and Cadance and the Crystal City are liberated in chapter Entrenchment, the assault on Canterlot is in the following chapter Encirclement | first-named
+  - the crystal heart | use as the model for how the banishment spell works, needing ambient hope to function | I like the idea that the spell works like the crystal heart. The crystal heart needed ambient hope to work | first-named
+  - the model's earlier suggestion of the spell needing ambient hope as fuel | accept as a good idea and build on it, tying it to the crystal heart | I like the idea that the spell works like the crystal heart | referred-to
+  - 1002 (the wedding and banishment of the Changelings) | treat as the author's account of how the Aquileian consent spell worked, to be refined: it targets only predators with invasive ambition toward the user, and the banishment was not absolute in its effect | In 1002 the explicit goal is to feast on the wedding's love | referred-to
+- order:
+- about: The user corrects the model's timeline for when Shining Armor and Cadance are freed, accepts the ambient-hope idea modeled on the crystal heart, and refines the banishment spell's rules from 1002 so it hits only predators with ambition toward the caster and was uneven in effect.

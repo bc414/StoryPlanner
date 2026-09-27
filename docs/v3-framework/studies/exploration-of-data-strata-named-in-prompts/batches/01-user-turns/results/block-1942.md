@@ -1,0 +1,4 @@
+- sources:
+  - v1 notes | check them for thematic propositions not yet covered in the current list; treated as a body to search for gaps | "embedded within v1 notes" | referred-to
+- order:
+- about: The user asks the model to search the v1 notes for thematic propositions that the discussed proposition list does not yet cover.

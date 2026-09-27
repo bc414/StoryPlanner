@@ -1,0 +1,14 @@
+- passages:
+  - note 4639 | prescriptive planning note | modal "should", advisory third-person phrasing | using mercenaries to threaten workers as well as buffalo | apart
+  - note 4640 | expository declarative | full sentence, past tense, action verbs (bought, through threats, deals, extortion) | buying out rival oil startups | apart
+  - note 4640 | terse categorical label | verbless fragment, business-jargon term | naming the integration strategy | apart
+  - note 4640 | expository declarative | full sentence, present tense, possession statement | ownership of the Las Pegasus refineries | apart
+  - note 4640 | expository declarative | full sentence, present tense, deal description | railway discount and penalty arrangements | apart
+  - note 4641 | character-trait declarative | negation-then-list construction, present tense | contrasting his quiet, cold, calculating manner with boisterousness | apart
+  - note 4642 | expository declarative | full sentence, past tense, financial-action statement | buying Las Pegasus's government with Skyfall money | apart
+  - note 4642 | expository declarative | short blunt sentence, present tense, relational statement | Gilded Trust's hatred of him | apart
+- shifts:
+  - note 4640 | expository declarative | terse categorical label | drop to a verbless fragment carrying a business-jargon term
+  - note 4640 | terse categorical label | expository declarative | return to a full sentence naming a new subject (the refineries)
+- registers: prescriptive planning note; expository declarative; terse categorical label; character-trait declarative
+- whole: The item's notes are written in several distinct registers — a prescriptive planning aside, plain expository declaratives recounting his business dealings, one terse jargon label embedded among them, and a contrastive trait-description — each held apart as its own sentence with no run-ins between them.

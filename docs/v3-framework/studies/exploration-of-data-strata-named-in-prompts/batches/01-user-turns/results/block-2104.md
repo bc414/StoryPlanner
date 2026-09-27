@@ -1,0 +1,4 @@
+- sources:
+  - FiM, Lauren Faust's showrunner philosophy | the published show and its creator's design intent are the material to analyse in depth, beyond the surface-level answer | Why did Lauren Faust make ponies controlling the weather a thing in FiM | referred-to
+- order:
+- about: The user drops the naming discussion and asks a fresh question about why Lauren Faust made pony weather control part of FiM, asking for a deep look at her showrunner philosophy rather than the obvious answer.

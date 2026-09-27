@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for the Chapter 18 confrontation to be rebuilt as a longer question-and-answer exchange between AJ and Celestia, and supplies the Vraks backstory and Trimmel's path for that exchange to lead up to the "meritocracy" line.

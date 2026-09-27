@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the comparison to other fanfics and asks a new question, whether Fluttershy's Stare scene undermines Applejack's standing as main character, and requests an analysis.

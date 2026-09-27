@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's grim cannibal-economy reading by stating that in their story the love harvester is tamed into a less harmful donation system that funds the war effort, with civilian spell matrices powering the postwar economy.

@@ -1,0 +1,14 @@
+- asks:
+  - propose | asks the model to weigh in on replacing an existing dialogue line with a new proposed line spoken on the eve of an election | "How about I revise the line ... to ..."
+  - explain | lays out the layered motivation behind that line — a practical reason plus a resigned expectation plus a hidden unspoken hope — for the model to take into account | "the main reason was an exhaust valve ... with a secret unplanned hope ... but with no expectations"
+  - propose | asks the model to weigh in on keeping a short farewell letter reduced to a single terse line | "leave the letter as only 'Please come home safe. -Celestia'"
+  - interpret | states how that terse letter should be read — as permission without enthusiasm — for the model to take as the intended tone | "which implies not barring the action but not enthusiastic"
+- supplies:
+  - dialogue line, revised | a replacement line of dialogue for a character on the eve of an election, about wanting someone to make friends | a sentence
+  - motivation notes | the character's mixed, unspoken reasons for saying the line — a pressure-release reason, a bitter-return expectation, and a secret hope | a couple of sentences
+  - letter text | a short signed farewell note from the character, reduced to one line plus signature | a single line
+- shaping:
+  - instruction | the letter's tone must read as permitting the action but withholding enthusiasm, not as an outright endorsement | "implies not barring the action but not enthusiastic"
+  - instruction | the line's motivation should carry no explicit expectations or high hopes, only a quiet unstated one | "with no expectations and no high hopes"
+- openness: Leans toward an answer it names: the message proposes specific replacement wording for both the line and the letter, framed as "how about," rather than leaving the revision open-ended.
+- subject: Revising a character's (Celestia's) dialogue line and farewell letter regarding Applejack's departure, and the hidden motivations behind the wording

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the seed-context comparison and brings a new piece of story content, describing Our Town as the Manifesto enacted in miniature, and asks which track and what kind of entry it belongs to.

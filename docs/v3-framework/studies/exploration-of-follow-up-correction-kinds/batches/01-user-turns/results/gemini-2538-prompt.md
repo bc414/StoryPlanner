@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user announces their own decision to drop the private-prison purchase from Chrysalis's scheme as inefficient and suspicious, and asks for a pros-and-cons analysis of that change, without saying the model's reply was wrong.

@@ -1,0 +1,6 @@
+- sources:
+  - the story (what the story argues) | treated as the settled thesis to justify the title: everyone not at the bottom has agency | what the story argues everyone who isn't at the bottom has | referred-to
+  - this chapter (Hans Kessel's and the medicinal tribes' choices in it) | treated as true and used as the evidence that Agency fits: Hans breaks his system, the tribes choose Equestria and Aquileia, everything goes right | Hans Kessel chosed in this chapter to break the system | referred-to
+  - the next two chapters | treated as the contrast case to this chapter, where things do not go right | contrasted with the next two | referred-to
+- order:
+- about: The user picks Agency as the chapter title, justifying it from what the story and this chapter show about Hans Kessel and the medicinal tribes and from the Cute Intelligence Agency wordplay, while floating Cooperation as an alternative opposite to Extraction.

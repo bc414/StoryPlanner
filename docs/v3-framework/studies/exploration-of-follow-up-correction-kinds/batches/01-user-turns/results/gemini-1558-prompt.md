@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only an attached plan export with no accompanying text, so it supplies material without stating any objection to or change in what the model wrote.

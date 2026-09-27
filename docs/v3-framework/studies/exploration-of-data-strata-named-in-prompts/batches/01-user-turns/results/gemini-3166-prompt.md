@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets aside the design discussion to ask a practical question about whether code can be imported from GitHub into Google AI Studio, without pointing the model at any body of material to use or avoid.

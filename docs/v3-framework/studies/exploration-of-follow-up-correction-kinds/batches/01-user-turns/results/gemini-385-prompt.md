@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user introduces the fourth party, the MPA, describing it as a sham coalition, and asks how the FJA and PNdA relate to it, moving the political mapping on without disputing anything the model said.

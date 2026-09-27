@@ -1,0 +1,4 @@
+- sources:
+  - the latest insights / what was deliberated and concluded (this conversation's design discussion) | draw on as the basis for the synthesis; treat the later conclusions as settled and flag earlier ideas that were supplanted as red herrings | synthesize all the latest insights, as was deliberated and concluded | referred-to
+- order:
+- about: The user, having run out of objections, asks the model to consolidate the conversation's design conclusions into a synthesis that flags superseded red herrings, a first-pass system proposal with a tracks-by-questions-and-directives table, and a statement of each v2 story planner component's purpose.

@@ -1,0 +1,11 @@
+- steps:
+  - the author | proposes a pairing | two chapter titles (entrenchment, encirclement) chosen for their back-to-back rhythm | opening line of the exchange
+  - the model | affirms and names the effect | calls the pairing a 'Military Couplet' and notes the shared phonetic structure | opening of the response
+  - the model | justifies the first title | lays out chapter 16's plot beats and three reasons 'entrenchment' fits better than an alternative | early in the response
+  - the model | justifies the second title | lays out chapter 17's plot beats and three reasons 'encirclement' works as a subversion for the climax | following the first title's justification
+  - the model | assembles the full sequence | lists all nine chapter titles from chapter 9 through chapter 17 as a set | middle of the response
+  - the model | characterizes the overall arc | describes the four-step progression breakthrough-momentum-entrenchment-encirclement as telling the campaign's story through titles alone | after the sequence listing
+  - the model | offers a next step | proposes drafting the opening scene of chapter 1 focused on Applejack refusing her rank | closing line of the response
+- kept:
+- brought: The author brought a decision to pair two specific chapter titles, already under consideration, because of how their rhythm sounded placed one after the other.
+- loop: The author brought a small naming decision with a stated preference, and the model expanded it into a full thematic justification, a complete title sequence, and a forward-looking prompt, but none of this exchange was captured back into the planning database.

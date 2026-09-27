@@ -1,0 +1,5 @@
+- sources:
+  - real life, current real-world ammunition knowledge (does caseless ammo exist now, what is special about brass) | answer from real-world fact about whether caseless ammo exists and why brass is used | Does caseless ammo exist in real life now or we still need brass around gunpowder? | referred-to
+  - the diamonds/inert crystals idea for armor munitions from the model's previous turn | accept and keep as a good angle for lighter armor-piercing rounds than tungsten and lead | the diamonds/inert crystals is a great angle for armor munitions | referred-to
+- order:
+- about: The user asks follow-up physics and real-world ammunition questions (engine versus fuel weight in thrust-to-weight, whether caseless ammo exists, why brass) while affirming the inert-crystal armor-piercing idea and stating that they had been thinking of crystals as lighter magic storage.

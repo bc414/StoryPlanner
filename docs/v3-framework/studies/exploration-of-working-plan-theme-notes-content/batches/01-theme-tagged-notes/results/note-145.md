@@ -1,0 +1,3 @@
+- claims:
+  - reading | SAA's action is interpreted as changing the competitive situation from one where one side's gain was another's loss into one where everyone gains | "turned a zero sum game into a positive sum game" | How should what the organization did be characterized in terms of who gains and loses? | partly
+- theme: It supplies evidence for the proposition only by implication: it describes the organization's action as a beneficial outcome, which could show a tool amplifying good intent. It never states the amplification, the tool, or the morality behind it, so the proposition is left for the reader to draw.

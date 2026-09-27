@@ -1,0 +1,4 @@
+- sources:
+  - the previous three chapters where Twilight and Applejack were separated | treat as established story events and take as the given backdrop (the mutual jealousies over each other's friend) to analyze for character dynamics and lessons | Throughout the previous three chapters | referred-to
+- order:
+- about: The user recaps the jealousies built up over earlier chapters and adds a new proposed beat, the Fleur and Mali affair, then asks how this backdrop improves the character dynamics and lessons.

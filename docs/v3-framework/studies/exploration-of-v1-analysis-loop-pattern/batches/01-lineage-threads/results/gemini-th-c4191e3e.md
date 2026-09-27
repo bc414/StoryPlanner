@@ -1,0 +1,12 @@
+- steps:
+  - author | pose framing question | asks whether real authors carry a dual duty of prose delivery plus narrative-logic craft, and whether AI 'roleplay'/'creative writing' users think about logic at all, requesting this be assessed against actual AI-tool usage history from Nov 2022 to March 2026 | opening of the thread
+  - model | analyze and survey | separates delivery from logic, affirms the author's distinction, and lays out a three-era timeline of AI writing-tool usage (novelty/jailbreak era, open-source prose era, 'architect' era) with named tools and user types | immediately after the opening question
+  - author | request deeper grounding | asks the model not to trust the prior answer but to root the delivery/logic split in actual first-principles authorship theory, comparing it against the paradigm just outlined | follow-up within the same exchange
+  - model | reframe via literary theory | maps the two roles onto fabula/syuzhet narratology, the architect/gardener authorial-process model, and the developmental-vs-line-editing industry pipeline, then judges the author's paradigm as theoretically sound | responding to the grounding request
+  - author | request sourcing | asks for first-party internet sources such as blog posts or guides from authors using reasoning models to build narrative structure | closing ask of the same exchange
+  - model | propose research plan | outlines a five-step plan for finding and compiling first-party sources on AI-assisted narrative architecture | in reply to the sourcing request
+  - author | authorize execution | tells the model to begin the research | opens a new turn
+  - model | deliver sourced report | produces a long cited report covering fabula/syuzhet theory, reasoning-model logic auditing, NotebookLM and other tool ecosystems, the Future Fiction Academy workflow, and AI-assisted developmental editing, with a numbered source list | final turn of the thread
+- kept:
+- brought: none — the author's questions are general inquiries into authorship methodology and AI-tool usage, not drawn from a specific plan document.
+- loop: The author brings a methodological question about how authors should split prose delivery from narrative logic and pushes the model twice for firmer grounding (theory, then sources), and the model answers with escalating analysis and a sourced report, but no note from this exchange is traced into the planning database — the inquiry stays a standalone research conversation rather than feeding plan content.

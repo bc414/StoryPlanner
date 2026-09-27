@@ -1,0 +1,10 @@
+- relations:
+  - 1192 | 1193 | the reader's response to what is staged: Twilight's inference that Celestia handed over her magic knowing how the chest works, to steer Discord toward harmony, is the act of steering that would make the reader see Celestia as a manipulator | Celestia perceived as a manipulator; gives Twilight all the alicorn magic because she knows how the chest works | implicit
+  - 1192 | 1205 | two of Twilight's contemplations of Celestia that pull against each other: one has Celestia knowing the chest's workings and planning around them, the other has her treating magic as mythical and supernatural rather than a science, so the second qualifies how far the first calculation goes | she knows how the chest works; Celestia doesn't treat magic like a science | implicit
+- outward:
+  - 1192 | Tirek's release and the events around it, held in another scene | When Tirek is unleashed
+  - 1192 | the chest and its workings, lore held elsewhere | she knows how the chest works
+  - 1192 | Discord and his path toward harmony, developed in other scenes | bring Discord closer to harmony
+  - 1205 | earlier occasions when Twilight thought Discord could solve everything | how she thought Discord could solve everything
+  - 1205 | the windigos and their expected return, a story thread not in this item | windigos will come back
+- whole: The three notes all concern how Twilight and the reader see Celestia, and 1192 and 1193 join directly as an act and the reader's reading of it, but 1205 sits looser, joined to 1192 only by a tension in what Celestia knows.

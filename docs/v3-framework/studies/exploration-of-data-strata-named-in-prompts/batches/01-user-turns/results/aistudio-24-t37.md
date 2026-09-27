@@ -1,0 +1,4 @@
+- sources:
+  - attached document (id-labelled file, contents not captured) | supplied alongside the bucket list with no stated instruction on how to weigh or use it | [Attached document: 1tq0CtpU1wxecW4BaN-U7USRXXyHBiV3c] | first-named
+- order:
+- about: The user sends back a JSON listing of the bucket names grouped under each paradigm, along with an attached document, and states no instruction or ranking of sources in words.

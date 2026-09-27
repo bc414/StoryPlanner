@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to consider how the consumer app's new explicit effort level settings bear on the degradation discussion, without pointing at any body of material to draw on.

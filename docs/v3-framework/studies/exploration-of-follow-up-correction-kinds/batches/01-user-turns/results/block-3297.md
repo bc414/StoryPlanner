@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question extending the comparison search to non-English works, both human-centered and non-human-centered, without disputing anything the model said.

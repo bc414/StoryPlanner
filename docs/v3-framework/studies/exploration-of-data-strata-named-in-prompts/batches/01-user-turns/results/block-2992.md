@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author clarifies and extends the story's premise, saying the master-servant direction between Chrysalis and Gilded Lily and Silver Sterling should stay ambiguous, setting out the corporate and inheritance arrangement with Krista Sterling, and proposing that Chrysalis feels them as parents, without pointing the model at any body of material.

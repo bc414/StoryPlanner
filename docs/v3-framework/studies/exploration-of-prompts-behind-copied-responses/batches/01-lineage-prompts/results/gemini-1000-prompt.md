@@ -1,0 +1,9 @@
+- asks:
+  - assertion | clarifies that the underlying purpose is broader than one thing already discussed | "It's not just about removing predator intent, it's also about creating jobs for harmony"
+  - brainstorm | asks for other aspects, imported from Aquileia (the human-world/France analog), that would show up reproduced in the Stagnation of Harmony Way in Equestria | "What other aspects imported from Aquileia... would be reproduced"
+- supplies:
+  - idea | states that the goal of the change/system is not only to remove predator intent but also to create jobs for harmony | one sentence
+- shaping:
+  - content should account for the added purpose of job creation, not just removing predator intent | "it's also about creating jobs for harmony"
+- openness: Open-ended brainstorm request: it names the source (Aquileia/human world or France) and the target (the Stagnation of Harmony Way in Equestria) but does not name candidate aspects, only nudging that job creation should be considered alongside predator-intent removal.
+- subject: Worldbuilding brainstorm on which societal aspects of Aquileia (a France/human-world analog) get reproduced within Equestria's declining "Harmony Way" institution

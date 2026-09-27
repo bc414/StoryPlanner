@@ -1,0 +1,7 @@
+- sources:
+  - the way magic itself works in my story | author's own statement that the story's magic (ambition to change the world, charitostatic or thymodynamic) embodies Reflexivity; treat as the author's stated design | I believe is represented by the way magic itself works in my story | referred-to
+  - my worldbuilding for the eventual harmonic republic synthesis and Applejack | story plan the author says is largely modelled on Polish solidarity; the model is to compare it against the real history | A lot of my worldbuilding for the eventual harmonic republic synthesis and Applejack is based on Polish solidarity | referred-to
+  - Polish solidarity | real-world historical model for the story's grassroots synthesis; the author wants it assessed as mostly independent of Soros and as an exception to other eastern bloc and African cases | is based on Polish solidarity | first-named
+  - Bernie Sanders and Shawn Fain | real-world inspirations for the story's grassroots themes; the author asks whether they are orthogonal to Soros | also an inspiration for the grassroots themes of the story | first-named
+- order:
+- about: The author asks whether Chrysalis's worldview breaks when her subordinates ignore her in Canterlot, says the story's magic system embodies Reflexivity, and asks whether Polish Solidarity, Sanders and Fain, which inspire the story's grassroots side, are independent of or orthogonal to Soros.

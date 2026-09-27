@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the next document in their archaeology series (a week-long Gemini 2.5 Pro conversation), explains how it relates to the earlier pre-AI plan and the AI-assisted world bible, and asks how much of the mature ASOIAF subversion originated in that first week.

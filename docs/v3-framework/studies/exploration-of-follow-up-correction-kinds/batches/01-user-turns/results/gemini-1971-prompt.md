@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the pidgin analysis by asking whether changeling officers like Kessel and Thorax would learn the full High Herzlander while using Simplified only with drones, and asks for a review of the education system and meritocracy plans synthesized with the new linguistic material.

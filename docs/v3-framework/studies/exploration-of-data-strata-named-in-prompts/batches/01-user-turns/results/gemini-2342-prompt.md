@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's question about friction between the fleet's two tiers, then sets out how Dennis Discret's first encounter with Skyfall rivals goes with a Royalist crew and asks the model to work through it, without pointing at any body of material to draw on.

@@ -1,0 +1,7 @@
+- asks:
+  - analysis | explain how the concept of reflexivity discussed in the linked video relates to or applies within the user's story plans | "give an analysis on how the concept of reflexivity discussed in this video applies to my story plans"
+- supplies:
+  - link | a YouTube video URL, presumably covering the concept of reflexivity (the video's content itself is not captured in the message) | a single URL
+- shaping:
+- openness: The message names the lens to apply (reflexivity, as discussed in the video) and directs it toward the user's story plans, but leaves the actual content and conclusions of the analysis open, without offering options or stating an answer to check.
+- subject: Applying the video's concept of reflexivity to the user's story plans

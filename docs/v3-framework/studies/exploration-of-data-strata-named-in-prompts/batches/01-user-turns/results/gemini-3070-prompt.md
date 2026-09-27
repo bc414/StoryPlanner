@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's treatment of the Tree of Harmony as a general defensive weapon by asserting that its rainbow effect only pacifies magical monsters driven by red love and does nothing against tanks or drugged conscripts, without pointing to any body of material.

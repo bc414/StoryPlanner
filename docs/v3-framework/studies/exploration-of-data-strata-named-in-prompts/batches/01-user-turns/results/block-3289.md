@@ -1,0 +1,8 @@
+- sources:
+  - the corpora | consult before revising the Pinkie Sense read, since that read lacks nuance; the source to correct it against | check the corpora first | referred-to
+  - your read on Pinkie Sense (the model's earlier account in this conversation) | treat as incomplete and missing nuance; not to be relied on until checked against the corpora | seems like it's missing some nuance | referred-to
+  - Coltbert Reforms | author asserts it is a strong system and asks the model to confirm, so Réni's grievance is placed on Verany's poseur pitch and not on systems; offered for checking, not as settled | Coltbert Reforms is strong system, right? | referred-to
+  - the author's own statement of Equestrian and Aquileian doctrine (asset specificity, contrasted with Skyfall/Herzland/changeling standardization) | treat as given premise for what Réni would believe and expect about mass conscription | They know Equestrian operational doctrine is to invest in asset specificity | referred-to
+- order:
+  - the corpora over your read on Pinkie Sense | check the corpora first
+- about: The author adds corrections to the proposed Réni arc (his initial contempt and expectation that asset specificity beats standardization, no anti-systems bent given the Coltbert Reforms, grievance aimed at Verany's poseur pitch) and tells the model to check the corpora before restating the Pinkie Sense read.

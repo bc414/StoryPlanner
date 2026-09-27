@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 1843 | the source show's established portrayal of Rainbow Dash and its expectations, held outside this item | Readers think Rainbow Dash would go all in on her own
+  - 1843 | the princesses, characters who appear nowhere else in this item, whom Rainbow Dash wants to inform | wants to let the princesses know first
+  - 1843 | Rainbow Dash's later characterization, where flanderization would occur, held elsewhere in the plan | This is her early personality, not flanderization
+  - 1843 | the show's expectations about how Silverstream would behave, which the note says are subverted | subverting show expectations
+- whole: This owner holds only one note, so there is no second note for it to join with and nothing to read as a set.

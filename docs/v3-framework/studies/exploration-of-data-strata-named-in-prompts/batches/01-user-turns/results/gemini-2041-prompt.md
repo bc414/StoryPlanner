@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up design question about whether demographics is the only axis with mutual-exclusivity friction or whether other axes have it too, without pointing at any body of material for the model to draw on.

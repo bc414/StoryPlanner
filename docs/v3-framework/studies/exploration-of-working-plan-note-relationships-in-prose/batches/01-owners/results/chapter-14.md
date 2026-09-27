@@ -1,0 +1,14 @@
+- relations:
+  - 2219|2220|2220 revises the reading in 2219: the refusal that 2219 has Applejack take as luddite xenophobia is recast as rational resistance backed by a century of evidence, and the fault is placed in her expectation, not her method|until the material history is deconstructed with the drug tribes / The Ch12 correction reveals the deviation is rational resistance|implicit
+  - 2219|2251|2251 develops the expectation in 2219 that Mali talking to her stubborn mom will fix things, and says that this will not be what is possible|Mali just needs to talk to her stubborn mom / Applejack thinks Mali talking to her mom will solve everything|implicit
+  - 2219|2249|2249 supplies the setting and scope of the refusal in 2219: it is a war meeting with only a third of the Moonspeakers, the traditionalists, so the rejection comes from a partial body and not the full gathering|Traditionalist Confederation rejects harmonic capitalism / it's only 1/3 of the Moonspeakers, the traditionalists, and it's a war meeting|implicit
+  - 2249|2220|2249 dates the full Tzinacatl-wide meeting to chapter 12, which is the chapter where 2220 puts the correction of Applejack's view; the two notes name the same later point|The regularly scheduled full Tzinacatl-wide meeting isn't until later (chapter 12) / The Ch12 correction|explicit
+  - 2249|2251|2251 continues 2249 in time: the private talk between Mali and her mother comes after the war council meeting that 2249 describes|Private Mali Meztli talk after the war council meeting|explicit
+  - 2219|2220|2220 gives the reason the traditionalists' refusal in 2219 should be read as rational, not as backwardness; her expectation of immediate acceptance is what goes wrong even when she is honest|even when Applejack is being totally honest / Her method is right. Her expectation that the method will be immediately accepted is what's wrong|implicit
+- outward:
+  - 2220|a parallel case in another storyline, the wallflower problem in Aquileia, held elsewhere|This is the same as the wallflower problem in Aquileia
+  - 2220|a principle or theme held elsewhere in the plan, unconditional dignity, with evidence|unconditional dignity evidence
+  - 2219|earlier events with the buffalo and medicinal tribes, from before this chapter|coming fresh off cooperative success with the buffalo and medicinal tribes
+  - 2219|a later or separate scene with the drug tribes in which the material history is deconstructed|until the material history is deconstructed with the drug tribes
+  - 2219|the setting's economic system, Harmonic Capitalism, held elsewhere|She expects Harmonic Capitalism to be a golden ticket
+- whole: The four notes hang together as one thread about Applejack's failed expectation with the traditionalists, spread across the meeting, the private talk and the later correction, though none of them is tied to a track.

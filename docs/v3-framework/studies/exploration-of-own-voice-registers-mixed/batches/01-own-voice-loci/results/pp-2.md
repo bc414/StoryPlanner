@@ -1,0 +1,38 @@
+- passages:
+  - 82 | narrative-summary | past tense, third-person recounting of business history | Comet Shine's takeover of failing Star Energy and his new honest business model | apart
+  - 82 | evaluative-aside | shift to present/future tense self-judging comment, "that's how he'll know," "everypony loves...today" | measuring his success by reputation and being loved today | run-in
+  - 83 | narrative-summary | past tense, third-person recounting | buying out failing industries and loaning ownership to workers, debt in tally sticks | apart
+  - 84 | narrative-summary | past tense recounting of factory logo and loan repayment | factories becoming independent Star Energy franchises | apart
+  - 84 | analytical-label | present-tense "This is X" classification | naming this practice Harmonic Capitalism at the capital asset level | apart
+  - 84 | narrative-summary | return to past-tense recounting | owners reinvesting profits to spread Star Energy across Tall Tale | apart
+  - 85 | explanatory-connective | present-tense single-sentence reasoning, "That explains..." | linking Tall Tale's grain/logistics infrastructure to Star Energy's growth | apart
+  - 86 | narrative-summary | past/future tense recounting of wartime command economy and postwar reversion | Star Energy's wartime unification and brand as cultural rallying point vs Las Pegasus | apart
+  - 86 | analytical-label | present-tense "This is an extension of..." classification | framing the brand rivalry as extension of a centuries-old culture war | apart
+  - 87 | oratory-vow | first-person address, present tense, tagged as vowed speech | Comet Shine renouncing Rockefeller-style ownership, framing Star Energy as family | apart
+  - 89 | oratory-vow | first-person plural promise, present-tense metaphor ("I am the Coltbert...") | pledge of joint development with buffalo and earth ponies, Star Energy as a university | apart
+  - 89 | telegraphic-shorthand | fragment, dropped subject pronoun | ambition to spread the model to all of Equestria | apart
+  - 90 | oratory-vow | first-person address with imperative contrast "work FOR/WITH" | choice between serving Gilded Bits or joining Star Energy for Hearth's Warming Bonds | apart
+  - 92 | outcome-summary | present-tense short declarative list of results | buffalo, workers, Applejack, and Twilight's positive outcomes | apart
+  - 2257 | thematic-analysis | present-tense third-person commentary on rhetorical significance | Comet Shine echoing Flim/Flam/Rockefeller's language with different fundamentals | apart
+  - 2258 | thematic-analysis | present-tense commentary on what a moment validates for a character | Rainbow Dash embracing solidarity/kinship over lone heroism | apart
+  - 2798 | narrative-summary | past tense, "Fleur mentions how..." | Discret's lying royal notes exchangeable for gold | apart
+  - 2798 | inclusive-explanation | present tense, inclusive "our" pronoun | Hearth's Warming Bonds' honesty resting on shared trust in wartime victory | apart
+  - 2800 | comparative-analysis | present-tense "is like" simile | Hearth's Warming Bonds offered to buffalo as treaty and economic integration | apart
+  - 3415 | aphorism-thesis | present-tense generic third-person principle | distinction between dishonest pretense and honest greed redirected to pride | apart
+  - 3416 | scene-summary-present | present-tense narrative of scene content and realization | Comet Shine/Fleur's talk on industry prompting Twilight's magic realization | apart
+  - 3417 | lore-causation-analysis | mixed present/past tense analytical explanation | Chrysalis/Skyfall's hidden influence on Tall Tale's industry repurposed via harmonic capitalism | apart
+  - 3640 | telegraphic-shorthand | verbless noun-phrase fragment | Chrysalis-sponsored industrialization seminars | apart
+  - 3641 | analytical-label | present-tense "This is the first..." meta statement | marking this as Harmonic Capitalism's first full reveal | apart
+  - 3643 | telegraphic-shorthand | dropped-subject fragment, present tense | contrast between Gilded Trust's individualism and Star Energy's hope/cooperation | apart
+  - 3644 | aphorism-thesis | present-tense generic third-person claim | Applejack not needing to become Chrysalis to defeat her | apart
+  - 3644 | oratory-vow | first-person plural exclamatory vow, capitalized emphasis | affirming friendship's magic will complement industry | apart
+- shifts:
+  - 82 | narrative-summary | evaluative-aside | shift to present/future tense self-referential judgment ("that's how he'll know," "everypony loves...today")
+  - 84 | narrative-summary | analytical-label | present-tense "This is X" classification statement breaking into the past-tense recounting
+  - 84 | analytical-label | narrative-summary | return to past-tense recounting after the classification sentence
+  - 86 | narrative-summary | analytical-label | present-tense "This is an extension of..." framing closing the historical account
+  - 89 | oratory-vow | telegraphic-shorthand | dropped subject pronoun and fragment form replacing full first-person sentences
+  - 2798 | narrative-summary | inclusive-explanation | tense shift from past to present and switch to inclusive "our" pronoun
+  - 3644 | aphorism-thesis | oratory-vow | shift to first-person plural, exclamation mark, and capitalized emphasis ("NOT")
+- registers: narrative-summary; evaluative-aside; analytical-label; explanatory-connective; oratory-vow; telegraphic-shorthand; outcome-summary; thematic-analysis; inclusive-explanation; comparative-analysis; aphorism-thesis; scene-summary-present; lore-causation-analysis
+- whole: This place holds several registers — past-tense historical narration, present-tense analytical labels and asides, first-person oratory, telegraphic fragments, and result-lists — with most notes holding a single register throughout and only a handful shifting, almost always at a sentence break rather than inside one sentence.

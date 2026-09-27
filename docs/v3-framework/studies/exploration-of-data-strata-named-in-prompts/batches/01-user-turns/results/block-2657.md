@@ -1,0 +1,5 @@
+- sources:
+  - my story plan (the bauleiters, jaegers and statthalters wanting war, Chrysalis forced to authorize it or face civil war) | treat as the author's settled design; the model is to test real-world accuracy against it, not change it | In my story plan, the bauleiters, jaegers and statthalters are the ones who want to declare war | referred-to
+  - my pure meritocracy in changeling kindergarten | treat as the author's intended design, a dark mirror of feudalism and the poseur nobles; the model is to compare the 户口 system against it | my pure meritocracy in changeling kindergarden is meant to be a dark mirror subversion of feudalism | referred-to
+- order:
+- about: The user asks whether their story plan's premise that subordinate officials force the leader's hand matches how individual CCP officials and Xi's faction actually work, and whether the 户口 system is worse than their fictional meritocracy, while explaining the meritocracy's intended purpose.

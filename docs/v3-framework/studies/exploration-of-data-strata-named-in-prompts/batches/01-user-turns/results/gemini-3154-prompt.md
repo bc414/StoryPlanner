@@ -1,0 +1,4 @@
+- sources:
+  - Claude.md | Asked about as a place for instructions that might steer Claude Code into acting as a developmental editor; treated as a question of whether it is enough, not as settled | given the right instructions in Claude.md | referred-to
+- order:
+- about: The user asks whether Claude Code can be turned into a developmental editor through instructions in Claude.md or is held back by its software-engineering training, and whether Claude cowork is still better for synchronous narrative analysis.

@@ -1,0 +1,5 @@
+- sources:
+  - my newly refined Severyanan backstory | the subject being examined: the model is to take the just-refined version as the current backstory and hold it up against the real history | my newly refined Severyanan backstory | referred-to
+  - actual Russian history | outside reference to draw on for comparison and to generate insights for the backstory; not something the backstory must match | actual Russian history | referred-to
+- order:
+- about: The user asks the model to compare their newly refined Severyanan backstory with real Russian history in order to draw new insights for it.

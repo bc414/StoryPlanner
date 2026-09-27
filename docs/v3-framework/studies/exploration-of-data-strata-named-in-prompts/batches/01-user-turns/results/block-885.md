@@ -1,0 +1,7 @@
+- sources:
+  - the model's earlier point that Celestia's system allows any action short of plain-faced tyranny so Applejack and Gilded Trust govern their spheres for 6 months ("Show, don't just tell") | accepted and built on; the user draws a real-world lesson from it (state-level governance as national blueprints) | "I realize this isn't just an Equestrian quirk or storytelling mechanism" | referred-to
+  - the model's earlier account of Gilded Trust keeping up rhetoric while wealth flows to the top, and of Applejack asserting where the reconstruction comes from | endorsed and kept as the basis for the debate poseur call-out | "I like the idea that during this time, Gilded Trust keeps up the rhetoric" | referred-to
+  - real 2 and 4 year election cycles | used as a benchmark to test whether the 6-month campaign length is too short | "too short compared to the real 2 and 4 year election cycles" | referred-to
+  - the story's planned events: Eros's unconditional surrender, the Skyfall resolution, preparation to invade Chrysalis, and domestic integration in the GR | treated as plot constraints that a longer 1-year timeline would fit | "the lengthened timeline also fits the events of Eros's unconditional surrender" | referred-to
+- order:
+- about: The user endorses the prior turn's idea of rival governance spheres and the debate call-out, then asks whether the 6-month run-up should be 1 year, weighing that against real election cycles, the Changeling Lands' rebuilding time, and the planned events.

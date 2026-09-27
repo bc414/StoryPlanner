@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Trimmel's characterization: the model had him, a surrendered enemy general, act as a supporter who understands her heart and lectures her at length about her followers; the user says he doesn't know her and wouldn't turn ally instantly | He doesn't really know her. He is an enemy general who surrendered. | flat, with a reason given, stated as a judgment about character plausibility
+  - register or format | the length and elaboration of Trimmel's speech: the model gave a long multi-part speech with profile talk and inversion of the Handler tone; the user wants it cut to one short line | I don't think all of that stuff is necessary. ... just a simple "They look up to you, do not make them look away" | flat, states a pared-down replacement and asks if it works
+  - reading of the request | the model wrote out dialogue lines in full, while the user wanted analysis only; this is put as a standing instruction about what to produce | Don't generate dialogue. I am only interested in analysis. | flat instruction, direct, without irritation
+- about: The user pushes back on the model's long, sympathetic Trimmel speech as implausible and unnecessary, proposes a one-line replacement, restates that they want analysis and not dialogue, and moves on to ask for refinement of the radio quote.

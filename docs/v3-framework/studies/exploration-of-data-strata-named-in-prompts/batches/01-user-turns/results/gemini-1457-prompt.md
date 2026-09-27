@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes an in-story mechanism for the dream-linked teleportation of rifles, works out that it must be developed within the four months before the paradrop, and floats a tentative revision in which it first delivers simple comforts, without pointing the model at any body of material.

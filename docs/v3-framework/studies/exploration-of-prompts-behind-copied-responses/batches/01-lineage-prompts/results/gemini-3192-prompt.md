@@ -1,0 +1,10 @@
+- asks:
+  - compare | asks how Sonnet and Opus stack up against each other for the task the user's own Gemini system prompt lays out | "How do Sonnet and Opus compare for the task outlined by my Gemini system prompt?"
+  - assess | asks a narrower, pointed question of whether Opus gives any real advantage over Sonnet | "Does Opus provide any meaningful benefit over Sonnet?"
+- supplies:
+- shaping:
+  - base the comparison on the task as described in the user's Gemini system prompt, but with certain instructions in it disregarded | "Stripping out specific instructions that go against the grain like total verification against the whole Bible"
+  - frame the trade-off in terms of usage economics: number of prompts obtainable before hitting a cutoff, not raw quality | "the trade offs are in how many prompts before getting cutoff due to the implicit token proxy metering"
+  - reason from the stated premise of a $20/month Claude Pro subscription | "Assuming I am running on a Claude Pro subscription for $20 per month"
+- openness: Names Sonnet and Opus as the two options to weigh against each other, and the follow-up phrasing \"any meaningful benefit\" leans skeptical toward Opus being worth it, though no answer is asserted as fact.
+- subject: Choosing between Claude Sonnet and Opus for a fiction-planning task, weighed against Claude Pro subscription usage limits

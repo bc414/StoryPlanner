@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's rule that a Pink recirculation canister in each device can scrub the exhaust to neutral, so that clean industry is possible. The user says industry always emits some Red, so the fix has to be raising Pink worldwide through trade and prosperity, not neutralising each machine. | "Individual industry is always going to release some red since magic is used to create it" and "they have to increase the pink too" | Stated flatly as their own view, hedged with "I think". A reason is given, and it is put as a rule of the magic. The model's Red/Pink framework is kept and only the remedy is redirected.
+- about: The user replaces the model's per-machine catalytic-converter solution with their own rule that some Red is always released, so Pink must be raised across the world through trade and prosperity to keep pace.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the wrapper-versus-training discussion to two new comparison questions, about Gemini's native multimodality and whether Claude's newer models now match Gemini's ability to take in a long context, without disputing anything the model said.

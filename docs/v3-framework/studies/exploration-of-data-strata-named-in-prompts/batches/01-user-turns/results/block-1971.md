@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the single-subject recommendation and asks the model to choose between two candidate names for that subject: the in-universe "Unified Theory of Magic" or "Properties of Pink and Red Love".

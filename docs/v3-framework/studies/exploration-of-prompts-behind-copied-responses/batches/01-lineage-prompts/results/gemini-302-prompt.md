@@ -1,0 +1,9 @@
+- asks:
+  - assess | whether American audiences will understand/recognize the word "Poseur" as something Henri, a French speaker, would say in English | "But are American audiences going to get it?"
+  - explain | what a typical American reader associates with the word "Poser" | "What comes to mind when the typical person reads 'Poser'?"
+  - check | whether the user's own understanding of "Poser" (a fraud who postures, associated with wannabe fascists), given they say they don't know its skating-related usage | "I always thought of 'Poser' meaning... always associated the term with 'wannabe fascists'"
+- supplies:
+  - idea | the word-choice decision to have Henri (native Aquileian/French speaker) call Applejack a "Poseur" while speaking Equestrian (English) | a couple of sentences
+- shaping:
+- openness: Mixed: it leaves the audience-comprehension question open while also stating the user's own reading of \"Poser\" and its associations for the model to confirm, complicate, or add to.
+- subject: Whether "Poseur"/"Poser" will read naturally and be understood by American audiences as dialogue for a French-speaking character

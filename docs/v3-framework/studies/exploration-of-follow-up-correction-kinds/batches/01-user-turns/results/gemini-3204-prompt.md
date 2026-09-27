@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact about the real-world product (outside the story) | the model's framing of Claude Code as terminal-only, with a raw command-prompt interface as the one trade-off, which the user doubts and asks to have checked against the current product | Is Claude code accessible through a desktop application, not just command line? | put as a question, implicit doubt with no stated disagreement, followed by a request for a current-state (April 2026) explanation
+- about: The user questions the previous answer's picture of Claude Code as command-line-only by asking whether a desktop application exists, and asks for an account of the product as of April 2026.

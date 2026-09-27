@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about why diners and fast food were historically the main suburban options, whether menu breadth or other causes, extending the model's suburban-migration discussion without disputing it.

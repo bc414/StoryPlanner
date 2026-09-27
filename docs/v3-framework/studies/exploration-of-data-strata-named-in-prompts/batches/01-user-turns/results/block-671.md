@@ -1,0 +1,6 @@
+- sources:
+  - macro architecture notes for each entity | proposed to be written first for every entity and then used as the basis for the scene-level notes; the user asks whether that has to be done first to get a feel | After defining the macro architecture notes for each entity | referred-to
+  - connected plot points and their per-scene notes on what each scene must serve for an entity's macro architecture | proposed as the next step, with the combined payloads of all entities informing the plot-point-specific third person limited design | going through the connected plot points and putting notes | first-named
+  - type A/B/C taxonomy | put in question: the user weighs it against general notes and calls it unproductive naming, wanting fundamentals specified individually instead | it seems like type A/B/C isn't productive naming | referred-to
+- order:
+- about: The user asks whether the A/B/C gap-type labels are worth keeping, what other types exist, and whether to plan entity macro architectures first, while describing a workflow in which entity-level notes feed plot-point notes that then drive the third person limited design.

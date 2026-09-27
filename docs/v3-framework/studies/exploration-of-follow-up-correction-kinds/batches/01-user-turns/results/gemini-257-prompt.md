@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new origin for the Luna and Nightmare Moon backstory, in which a failed attempt at world peace turned Luna "all red" and Celestia rewrote the legend, and builds on the model's Red Love framework without saying anything in it was wrong.

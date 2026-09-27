@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the open-cycle boiler idea forward with new questions about whether burning only crop-harvest biomass would remove toxins for the pegasi, still yield condensation particles, and which materials would make the best non-toxic, abundant clouds.

@@ -1,0 +1,6 @@
+- asks:
+  - impact assessment | asks the model to evaluate what would happen if the user used The Strategist and The Cartographer to set up note-bucket categories, then skimmed the source conversation to fill those buckets, instead of running the whole conversation through "the sorter" | "what would be the impact of using The Strategist and The Cartographer to establish my note buckets, then skim my conversation to fill out the buckets?"
+- supplies:
+- shaping:
+- openness: leans toward the answer it names — the user has already decided against sorting the whole conversation and proposes a specific alternative workflow (Strategist + Cartographer to set buckets, then skim to fill them), asking the model to assess that named plan rather than generate options from scratch
+- subject: choosing a note-extraction workflow (bucket categories via two tools, then manual skim) for pulling story-planning notes out of a long prior conversation

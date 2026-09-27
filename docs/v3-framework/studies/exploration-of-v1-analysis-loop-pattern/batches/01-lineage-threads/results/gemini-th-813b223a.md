@@ -1,0 +1,50 @@
+- steps:
+  - author | opens with a diagnostic question | asks why one model's default output skews to fragmented bullets, floats an RLHF explanation | at the start of the thread
+  - model | explains mechanism | account of RLHF annotator incentives and how to bypass the default formatting | responding to the opening question
+  - author | broadens the comparison | asks whether a rival model's superior literary output comes from training philosophy or interface layer | right after the RLHF explanation
+  - model | lays out a three-way comparison | corporate alignment philosophy, hidden system-prompt layer, and a closing question about UI vs API preference | responding to the broadened comparison
+  - author | pushes for an architecture-level answer | asks whether system instructions can close the gap, adds an observation about one model's context limit forcing retrieval instead of full reading, with the author's own token count | after the three-way comparison
+  - model | works through architecture vs instructions | contrasts baked-in weights against full-ingestion context handling, closes with a question about markdown/JSON anchoring | responding to the architecture question
+  - author | requests a reframed rerun | asks for the same analysis redone as if set in a later month | after the architecture answer
+  - model | reruns the analysis with a later-dated frame | restates the earlier verdict with a data-architecture addition, closes with a question about the author's serialization method | responding to the rerun request
+  - author | isolates one competitor | asks for the same treatment of a third model's raw capability, gap-closing options, and retrieval paradigm | after the rerun
+  - model | delivers a verdict on the third competitor | notes its hard context ceiling and forced-RAG tradeoffs, closes with a question about narrow use cases | responding to the isolation request
+  - author | adds a fourth competitor | asks about an open-weights reasoning model and other comparable options | after the third-competitor verdict
+  - model | extends the comparison | maps the fourth competitor's reasoning style and context compression, adds a summary table, closes with a question about local deployment | responding to the fourth-competitor request
+  - author | issues a scope correction | states the tools are never used for prose, only worldbuilding and architecture, pastes the working system instruction as context for a redo | after the fourth-competitor table
+  - model | reruns the whole comparison under the corrected scope | re-ranks all four models against the pasted system instruction, without a closing question | responding to the scope correction
+  - author | asks a cost-mechanics question | requests a comparison of compute cost between two finalists as a proxy for throttling | after the corrected-scope ranking
+  - model | breaks down provider economics | contrasts one model's compute efficiency against the other's expensive full-ingestion cost, closes with a question about local pre-filtering | responding to the cost question
+  - author | proposes a new workflow | suggests compiling the database into separate linked documents for an agentic coding tool, asks whether it would find all relevant context | after the cost breakdown
+  - model | inspects the author's actual project files | reads the referenced codebase structure, diagnoses a retrieval limitation it names the Horizon Problem, gives a verdict on when the folder approach works and when it doesn't | responding to the workflow proposal
+  - author | reports a behavioral observation | describes one model's refusal to shortcut reasoning versus another's tendency to compress, asks whether this is trainable via instructions and why it happens | after the Horizon Problem verdict
+  - model | diagnoses a training-level bias | names a synthesis-vs-exhaustion distinction, supplies concrete instruction patches to force exhaustive output, flags the output-length ceiling this runs into | responding to the behavioral observation
+  - author | asks whether the reasoning-focused competitor solves this | requests the same treatment for that model | after the bias diagnosis
+  - model | reframes the competitor as a natural fit | explains its native chain-of-thought habit dissolves both the shortcut problem and the Horizon Problem, closes with a question about the schema's tagging | responding to the reasoning-competitor question
+  - author | tests the ingestion question directly | asks whether that model can just be given the whole document instead of the graph | after the reframe
+  - model | rules out full ingestion for that model | explains its context ceiling and lossy compression, confirms the graph or proxy is required | responding to the ingestion question
+  - author | asks to choose between two implementations of the graph | raw SQL access versus exported files with ids | after ruling out full ingestion
+  - model | picks the file-based option | contrasts semantic search over files against syntactic SQL queries, gives a concrete frontmatter template | responding to the SQL-vs-files question
+  - author | narrows further | asks whether ids alone or wikilinks alone work better | after the file-based verdict
+  - model | proposes a merged format | argues for combining a display link with an id-based filename, explains the resulting lookup mechanics, gives implementation steps | responding to the ids-vs-wikilinks question
+  - author | asks for the concrete toolchain | requests what provider, API, or subscription is needed to run this setup | after the merged-format proposal
+  - model | recommends a stack | lists an API aggregator, a specific reasoning model, an IDE agent extension, and a native integration path | responding to the toolchain question
+  - author | raises a budget objection | states the database's token count and a no-pay-per-token constraint, asks about free API limits | after the stack recommendation
+  - model | corrects the cost assumption | shows the agentic approach avoids paying for the whole database, gives a concrete per-query cost, covers free-tier limits and local alternatives | responding to the budget objection
+  - author | asks for community pointers | requests subreddits focused on this non-prose, non-roleplay use of AI | after the cost correction
+  - model | supplies a curated list | names specific subreddits fitting the niche and one to avoid | responding to the community-pointer request
+  - author | asks for writer or blogger pointers | requests Substack or blog equivalents | after the subreddit list
+  - model | supplies named bloggers and search terms | lists specific writers and publications, gives search-term guidance | responding to the blogger request
+  - author | returns to model comparison | asks how two tiers of one vendor's models compare for the task, with a subscription-cost constraint in mind | after the blogger list
+  - model | gives a tier verdict | contrasts the two tiers on constraint-following and message-quota runway, favors the cheaper tier | responding to the tier-comparison question
+  - author | expresses surprise and requests validation | asks where the higher tier is actually better, and asks the model to evaluate the author's own impression that logic and coding use outweighs literary use | after the tier verdict
+  - model | answers both parts | lists the higher tier's advantages, then confirms the author's impression with an explanation of enterprise incentives and benchmarking bias | responding to the surprise-and-validation request
+  - author | asks about the other vendor's tiers | requests a comparison between that vendor's two tiers | after the enterprise-incentive answer
+  - model | gives a tier comparison | frames the split as velocity versus depth, maps each tier onto a layer of the author's application | responding to the tier-comparison question
+  - author | asks for a cross-vendor structural comparison | clarifies the request as comparing the two vendors' internal splits to each other, dated to the current month | after the velocity-vs-depth answer
+  - model | reframes both splits at a higher level | names one split a personality divide and the other a physics divide, maps four tiers onto four architecture layers | responding to the cross-vendor request
+  - author | adds a fifth tier | asks how a smaller tier of the first vendor fits into the paradigm, dated to the current month | after the four-layer mapping
+  - model | places the new tier | compares it to the smaller tier of the other vendor and to its own larger sibling, proposes a hybrid routing role | responding to the fifth-tier question
+- kept:
+- brought: The author repeatedly grounded abstract vendor-comparison questions in concrete specifics of their own project (a 490,000-token SQLite-backed story bible, the actual C# database schema and export code, the working Gemini system instruction, and named characters/factions), using these as test cases for the model to reason against.
+- loop: The author brought successive tooling and vendor-selection questions grounded in their project's technical specifics, and the model returned comparative verdicts, architecture recommendations, and cost breakdowns that the author kept using to narrow the next question; none of this exchange fed the planning database, since the whole conversation stayed at the level of choosing and configuring AI tools rather than developing the fabula itself.

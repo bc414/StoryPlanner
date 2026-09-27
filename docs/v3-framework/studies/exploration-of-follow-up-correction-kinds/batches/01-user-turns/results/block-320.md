@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model treated Chrysalis's sophisticated market-manipulation/information-arbitrage scheme as her method from the start, but the plan holds she lacks a modern education in year one, so that method can't apply yet | "I imagine Chrysalis still doesn't have a modern education for the 1st year" | stated as a considered qualification, giving the reason before redirecting
+  - fact of the world | the actual source of Chrysalis's initial seed capital is specified as violent bounty-killing of startups that challenge monopolies, not the espionage/arbitrage method the model proposed | "that initial seed capital should still be from black market violence" | proposed matter-of-factly as a replacement, in passing while building on the idea
+  - fact of the world | rejects an implied alternative method of physically destroying or repossessing DRM-locked machines as the mechanism, in favor of the bounty-killing scheme | "instead of smashing DRM machines or reclaiming them" | stated briefly and in passing alongside the main proposal
+- about: The user revises the timeline of Chrysalis's capital accumulation, confining the model's information-arbitrage scheme to later years and specifying that her year-one seed money instead comes from violent bounty contracts against monopoly-challenging startups.

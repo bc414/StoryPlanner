@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the suggested fix did not work, saying the card is still not removed from the categorizer after being dropped.

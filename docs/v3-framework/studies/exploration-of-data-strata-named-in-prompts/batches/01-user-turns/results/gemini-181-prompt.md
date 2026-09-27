@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a story-world detail, that unicorns used the crystals before Celestia did, should be used to show she is not essential to the economy but is still a core contributor by choice.

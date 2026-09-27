@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's verdict framed Coltbert and Vérany as uniquely 'the only two men' in the kingdom obsessed with Real Value/competence, but the plan also has the FJA occupying this same role as Coltbert's students holding productive capacity | 'also Coltbert's students and hold the real value' | stated flatly and briefly, as a factual addendum rather than an argued objection
+- about: The user turn adds that the FJA are, like Vérany, students of Coltbert who hold real productive value, correcting the model's closing claim that Coltbert and Vérany alone occupy that position in the story's world.

@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The scene had Luna leaning on Celestia as they entered; the user wants it reversed, with Celestia leaning on Luna | I think Celestia should be leaning on Luna instead during the entrance | stated flatly as a preference, tied to Luna's earlier retreat over the nightmares she absorbed
+  - fact of the world | The model made Celestia unable to fight (a spark that dies, nothing left for the war). The user wants her to keep some spare magic, about Twilight's level, and to be unneeded because crystals democratized combat magic, with Twilight noticing this | I do want it to be clear that Celestia still has some magic to spare | put as a proposal with a check-question and a stated aim of avoiding an inflammatory no-magic line
+  - fact of the world | The framing of Celestia as barely saving herself, and the line the model gave Applejack, which the user says removes her agency and reads as plot armor | I don't want something like "she is barely saving herself" | flat rejection with a reason given
+- about: The user redirects the proposed Celestia scene toward a version where she keeps some magic and still chooses not to fight because of PTSD, while adding a Luna-nightmare tie-in and a new question about Twilight's crystal use.

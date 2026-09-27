@@ -1,0 +1,9 @@
+- asks:
+  - rule-setting | directs that earth pony magic in the setting should work only on crops, not on animals, because ponies are herbivores | "should only work on crops"
+  - explain | asks for a chemical explanation of why dairy is essential in baked goods | "Why is dairy essential for baked goods, chemically?"
+  - declare/confirm | states that eggs should be left as normal, unmagicked, in the setting | "Eggs I think are fine to keep normal"
+- supplies:
+- shaping:
+  - explanation should be pitched at the chemical level rather than culinary or narrative | "chemically"
+- openness: Leaves the dairy-chemistry question genuinely open for an answer, while presenting the earth-pony-magic-on-crops-only rule and the eggs-stay-normal point as decisions already made that it wants taken as given.
+- subject: Worldbuilding rules for a pony fantasy setting's food-related magic (earth pony magic limited to crops, eggs unchanged) alongside a chemistry question about dairy's role in baking.

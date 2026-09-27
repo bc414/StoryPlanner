@@ -1,0 +1,6 @@
+- asks:
+  - question | prompts the model to address or weigh in on the topic of manes and tails, evidently continuing an existing line of discussion | "What about manes and tails?"
+- supplies:
+- shaping:
+- openness: open | the message is a bare question with no stated direction, preference, or named options to choose between
+- subject: manes and tails, presumably of some animal or creature under discussion in the planning conversation

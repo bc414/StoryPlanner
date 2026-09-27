@@ -1,0 +1,5 @@
+- sources:
+  - the biology-rooted explanation (the model's previous answer in this conversation) | accepted as a good basis; the new question is to build on it | "excellent biology-rooted explanation" | referred-to
+  - my notes about the patriarchy | the author's existing notes, to be revised and evolved using the biology framework; treated as changeable rather than fixed | "how I will evolve my notes about the patriarchy" | referred-to
+- order:
+- about: The user approves the biology-based account of the patriarchy as the basis for revising their notes and asks the model to extend it by explaining the role of inheritance anxiety, property and lineage.

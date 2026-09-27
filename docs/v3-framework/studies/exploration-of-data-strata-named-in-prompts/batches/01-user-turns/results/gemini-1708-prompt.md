@@ -1,0 +1,5 @@
+- sources:
+  - my lore (Skyfall factories developing these processes and keeping them secret as ruthless capitalists) | treat as the author's established premise; the model is to build on it, not question it | "in my lore, Skyfall factories would have developed these processes" | referred-to
+  - the real world (real-world parallel) | draw on general knowledge of real history or industry to find a match for the lore premise | "Is there a real world parallel?" | referred-to
+- order:
+- about: The user states a lore premise that Skyfall factories developed the industrial processes and guard them as trade secrets, and asks whether the real world has a parallel.

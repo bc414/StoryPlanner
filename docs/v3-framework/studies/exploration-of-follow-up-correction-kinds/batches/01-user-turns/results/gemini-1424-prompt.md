@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting to know whether the partitions of Poland and the interwar years also shape Polish collective memory, extending the earlier discussion without disputing anything in it.

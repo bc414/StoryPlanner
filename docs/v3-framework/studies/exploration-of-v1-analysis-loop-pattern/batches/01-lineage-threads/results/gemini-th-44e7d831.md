@@ -1,0 +1,53 @@
+- steps:
+  - author | opens with a placement question | asks where in the plan to unravel a nation's history and a ruler's neglect | first exchange of the thread
+  - model | offers placement options | three scene locations plus a recommended combined sequencing, ending with an offer to draft a scene | answering the placement question
+  - author | supplies a plan document | uploads a full plan export with no added comment | right after the placement exchange
+  - model | analyzes a character's psychology | works through a character's guilt and reaction to another character's new title, closing with a summary table | responding to that export
+  - author | supplies a plan document | uploads a plan export with no added comment | after the psychology analysis
+  - model | analyzes a set-piece and a real-world subversion | breaks down a river-crossing operation and a follow-on infrastructure project as an inversion of a real-world allegory | responding to that export
+  - author | supplies a plan document | uploads a plan export with no added comment | after the set-piece analysis
+  - model | proposes a solution to a logistics problem | designs a decentralized production scheme built on the story's established economic theme | responding to that export
+  - author | asks for a mechanism grounded in canon | asks how a canon process actually works and what a themed distributed version of it would look like | opening a new topic
+  - model | contrasts canon and reimagined mechanisms | describes the canon labor process then a market-based alternative | answering the canon question
+  - author | overrules the model's proposal | rejects the competitive framing during wartime and specifies a command process now with a craft economy after peace | correcting the prior proposal
+  - model | revises the mechanism | reworks the system into a strict wartime command process with a postwar transition to local craft | responding to the correction
+  - author | proposes an alternate invention and asks for scientific grounding | suggests a different version of the device and asks for physics/chemistry grounding matching an existing magic system | new idea plus request
+  - model | grounds the invention in science | explains a natural-science basis for the process and proposes a mechanism for the magic, with narrative implications | answering the grounding request
+  - author | supplies a plan document | uploads a plan export with no added comment | after the grounding response
+  - model | restates and extends the grounded mechanism | repeats the science breakdown with added hazard detail and codex-style summary | responding to that export
+  - author | asks three follow-up science questions | asks about an efficiency side-effect, a color difference, and an atmospheric phenomenon's origin | follow-up after the mechanism was grounded
+  - model | answers each sub-question | gives three separate explanations covering thermodynamics, optics, and electrostatics | responding to the three questions
+  - author | asks a further side-benefit question | asks whether the process has other industrial benefits beyond its stated purpose | follow-up question
+  - model | lists additional benefits | enumerates several secondary industrial advantages of the process | responding to that question
+  - author | asks a substitution question | asks whether swapping the fuel source removes a toxicity risk and what materials would work best | follow-up question
+  - model | evaluates the substitution | assesses the toxicity change and recommends specific materials by chemical property | responding to that question
+  - author | connects two separate inventions | links a byproduct of one established tool to the mechanism just discussed | new connection
+  - model | integrates the connection | works out a supply chain tying the tool's byproduct into the mechanism's fuel cycle | responding to that connection
+  - author | drafts a battle plan and requests review | lays out a multi-step defense-and-weather plan and asks for review against intel and an enemy commander's profile | new draft plus request
+  - model | reviews and elaborates the plan | breaks the draft into phases and adds a psychological reading of the enemy commander | responding to the draft
+  - author | corrects the enemy commander's characterization and the operation's goal | specifies the commander's remoteness, the troops' inexperience, the battle's diversionary purpose, and revised objectives | correcting the review
+  - model | reworks the plan around the correction | reframes the battle as an equipment-capture operation with a surrender sequence | responding to the correction
+  - author | asks for the enemy's prior plan | asks what the enemy commander's plan and orders would be before the trap, given the established front line | new question
+  - model | drafts the enemy's operational plan | lays out the enemy commander's strategy and standing orders under a named operation | responding to that question
+  - author | asks for a real-world grounding check | asks whether the tactic mirrors a known game's AI behavior and whether it occurs in reality | new question
+  - model | supplies historical precedents | cites several real conflicts as parallels and draws a contrast between mechanical and adaptive command | responding to that question
+  - author | signals to continue | gives a brief go-ahead with no new content | after the historical answer
+  - model | elaborates the counter-doctrine | explains, in military-theory terms, the defensive doctrine that counters the tactic just discussed | responding to the go-ahead
+  - author | asks for a specific historical comparison | asks how the battle compares to a named historical battle | new question
+  - model | draws the comparison | matches goals, tactics, and a turning point between the fictional and historical battles | responding to that question
+  - author | asks a follow-up definition question | asks why the historical battle is described as sentimental | follow-up question
+  - model | explains the sentimental framing | describes the symbolic and political stakes behind the historical commitment | responding to that question
+  - author | supplies a plan document | uploads a plan export with no added comment | after the sentimental explanation
+  - model | produces a comparative and thematic essay | compares three battles to the historical one and analyzes the layered meaning of a title | responding to that export
+  - author | asks to connect tactics to a naming choice | asks how the evolving tactics reflect an enemy commander's derogatory nickname and his assumed profile of the protagonist, adding a historical detail to place elsewhere | new connection question
+  - model | traces the nickname through each battle | shows how the commander's reading of the title shifts across three engagements and rebounds on him | responding to that question
+  - author | refines the twist | proposes that the commander misreads a tactical retreat as confirming his nickname's predicted outcome, fueled by pride in his own cleverness | refining the twist
+  - model | elaborates the refined twist | develops the commander's misreading into an ego-driven blind spot that leads to his defeat | responding to the refinement
+- kept:
+  - note 3351 | pasted whole from this reply | keeps the model's line tying one character's motive to a ruler's neglect, filed on a link between two lore entries
+  - note 1919 | one sentence lifted from this reply | keeps a line about the dam project's ownership and an engineer's role, filed on the dam's plot-point entry
+  - note 3170 | pasted from this reply inside the author's own framing | keeps the idea that a mountain-blasting scene marks the end of a stagnation theme, filed on a link between that scene and the theme
+  - note 3935 | pasted whole from this reply | keeps the model's argument that the dam validates the story's economic thesis, filed on a link between the dam and that thesis
+  - note 1233 | the author's own words in this record | keeps the author's own four-step battle draft, filed on the battle plan's plot-point entry
+- brought: Across the thread the author repeatedly brought fresh plan exports, a canon episode's mechanics, follow-up science questions, a self-authored link between two established inventions, and a self-drafted battle plan, using each as raw material for the model to expand, ground, or check.
+- loop: The author cycles between handing over plan state or a partial idea and asking the model to expand, ground in science or history, or review it, then corrects the model's framing when it drifts from the story's rules (wartime command versus postwar market, an enemy commander's true position and goals); out of all that iteration only a few of the model's condensed sentences and one of the author's own drafted paragraphs end up copied into the database, mostly as short thematic links and one plot-point's plan.

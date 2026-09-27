@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the proposed worldbuilding rule, arguing that letting griffons use a unicorn's spell matrix for enchanted parts would undercut the bootstrapping theme, and suggesting that bootstrapping the lathe and other foundational tools is enough.

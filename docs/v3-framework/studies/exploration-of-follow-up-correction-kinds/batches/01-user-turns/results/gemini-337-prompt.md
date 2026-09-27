@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast the Elements of Liberty as purely Lion/ambition and set Harmony as purely Eagle, with the Civic Virtues as the synthesis. The user's design puts the Elements of Liberty in the middle, between pure pink-love Harmony and pure ambition, as the Republic sits between Stagnation and Feudalism. | "The Elements of Liberty are the middle ground, just like how the Republic is a middle ground" | Implicit and in passing: stated flatly as the author's own scheme inside a longer run of worldbuilding, with no mention of the model's framing and no marked disagreement.
+- about: The user accepts the model's dual-naming idea, refining it so that Equestria arrives independently at the same tenets, then builds out a three-tier scheme of pure-love Harmony, middle-ground Liberty and pure-ambition versions of each element, with a list of the ambition counterparts.

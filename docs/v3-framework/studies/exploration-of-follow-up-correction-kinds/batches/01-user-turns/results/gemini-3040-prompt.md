@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model assumed the user would use the chat for sustained drafting, generating scenes and rewriting dialogue. It weighed creative temperature and sanitized prose against that, and named AI Studio the winner for drafting sessions. The user says the use is analysis only, with no prose generation. | No generation of prose, only structural analysis | flat, terse statement of the actual use, with no apology or reason given
+  - own name: a drawback treated as a benefit (the model's evaluative framing) | The model listed the coder bias of the GitHub integration as a friction point to be wrangled. The user says a coder persona is what they want for reasoning-based analysis of the story bible. | In fact, I want a coder persona to analyze the story bible which is based on reasoning and not generation | flat, with a short rationale; 'In fact' turns the model's stated downside into the goal
+- about: The user narrows the intended use to non-generative structural analysis of the story bible and says the coder-oriented behavior the model called a drawback is what they want.

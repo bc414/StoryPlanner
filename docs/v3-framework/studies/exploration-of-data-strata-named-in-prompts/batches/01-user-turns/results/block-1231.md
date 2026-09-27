@@ -1,0 +1,5 @@
+- sources:
+  - the author's own experience discovering Pokemon stories on fanfiction.net and learning the craft over 10+ years | offered from memory as the ground for the belief that a good platform would let readers discover it and stay; treat as the author's true account and the basis of the pipeline question | "just as how I discovered Pokemon on" fanfiction.net | first-named
+  - what the author learned while researching how the world really works for TLTT allegories and inspiration (critical thinking degrading now) | treated as a finding the author holds, given as a reason to doubt the reader to commenter to writer pipeline would form | "I also learned how critical thinking is degrading now" | first-named
+- order:
+- about: The user changes topic from the story-process discussion to ask what ended the 2010-2016 Pokemon fanfiction golden age and whether an induced-demand reader-to-writer pipeline could exist for their planned community site, then says they'll build it for fun whether or not it reaches critical mass.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes, as a question seeking confirmation, a late-life conflict for Grover III in which scientists offer a non-biological chemical magic that would end the monster hunt and he bans the research to protect griffon culture, without pointing at any body of material for the model to use.

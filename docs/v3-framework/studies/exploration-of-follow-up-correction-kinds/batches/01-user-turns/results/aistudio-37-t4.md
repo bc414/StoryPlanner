@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - word choice, the name given to the infantry force | the model's use of the term Phalanx for the Aquileian infantry of Wallflowers is rejected as unsuitable | I don't like the term phalanx | flat statement of personal dislike with no reason given, paired with a request for replacements
+- about: The user rejects the model's label Phalanx for the Aquileian infantry and asks for alternative names, leaving the rest of the model's material unaddressed.

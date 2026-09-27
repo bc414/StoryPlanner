@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to analyze the requested scene (Fluttershy telling Pinkie Pie to bake cakes with pink love) from within the story plans, treating them as the basis for the analysis | "Now analyze from my story plans" | referred-to
+- order:
+- about: The user asks the model to analyze, drawing on their story plans, a scene in which Fluttershy tells Pinkie Pie in Ponyville to try baking cakes with pink love.

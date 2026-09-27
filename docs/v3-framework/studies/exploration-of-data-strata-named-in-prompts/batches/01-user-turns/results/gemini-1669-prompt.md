@@ -1,0 +1,5 @@
+- sources:
+  - attachments | asked whether uploaded files remain in context for follow-up questions as well as pasted text; no instruction given, only a question about how well they are retained | Do attachments stay as part of the context for follow up questions | referred-to
+  - pasted chat | serves as the comparison point for how reliably material stays in context across follow-ups; no instruction given | as effectively as pasted chat | referred-to
+- order:
+- about: The user asks a follow-up question about whether uploaded attachments persist in the model's context across later questions as effectively as text pasted into the chat.

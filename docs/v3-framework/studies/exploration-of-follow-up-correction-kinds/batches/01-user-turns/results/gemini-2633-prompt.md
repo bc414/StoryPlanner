@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - omission of characters from the analysis (bordering on reading of the plan) | the ranking of who reshapes Celestia's worldview left out Pinkie Pie and Fluttershy, whose scenes with Celestia the user's plan holds | "What about when Pinkie Pie gives everyone including Celestia cakes" and the Fluttershy post-white-peace apology | put as an open question that supplies the missing scenes, with no stated fault or complaint, so the correction is implied only
+- about: The user asks how two characters the ranking skipped, Pinkie Pie and Fluttershy, fit into Celestia's change, and describes their scenes to invite the model to include them.

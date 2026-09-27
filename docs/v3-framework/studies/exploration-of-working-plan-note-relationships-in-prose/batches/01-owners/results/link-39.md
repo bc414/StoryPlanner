@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 994|Coltbert's paper, the text Chrysalis reads, which is held elsewhere in the work|Chrysalis read Coltbert's paper
+  - 994|The 2nd Gen Royalists in Pridea and their spell matrix development, which are lore and characters held elsewhere|spell matrix technology being developed by the 2nd Gen Royalists in Pridea
+  - 994|The Predator's Dilemma, a concept or problem defined elsewhere in the story|allow her to break the Predator's Dilemma
+  - 994|The changeling draining spell, magic held in the world lore and not described here|spell matrix for the changeling draining spell
+- whole: Only one note is present, so there is nothing to hang together or to fall apart; the owner is a single entry.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's speculative 'capital flight' explanation, stating the actual in-universe migration direction (ambitious ponies leave Equestria for New Mareland, not the reverse) and supplying the specific plot beat that Applejack forces her parents to abandon their New Mareland business and lock down in Manehattan for safety from Chrysalis.

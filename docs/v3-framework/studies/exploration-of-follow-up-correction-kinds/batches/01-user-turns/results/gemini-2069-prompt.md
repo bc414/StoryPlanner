@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's closing offer and asks a new question, what top p is, without disputing anything in the temperature explanation.

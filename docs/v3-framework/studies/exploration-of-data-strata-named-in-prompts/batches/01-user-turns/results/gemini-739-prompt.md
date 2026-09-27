@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual product question about whether Google Docs attached to NotebookLM stay in sync, without pointing the model at any body of material to use or avoid.

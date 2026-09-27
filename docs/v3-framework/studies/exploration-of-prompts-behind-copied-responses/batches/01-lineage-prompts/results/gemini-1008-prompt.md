@@ -1,0 +1,7 @@
+- asks:
+  - naming/identification | asks the model to give the term or name for a psychological phenomenon where someone grows up in a safe environment but only appreciates it once older | "What is the phenomenon called"
+- supplies:
+  - scenario | a brief description of a character, Fleur, growing up safe and not appreciating it until later | a single sentence
+- shaping:
+- openness: Leaves the answer open, since the message proposes no candidate term itself and simply asks the model to supply one for the described phenomenon.
+- subject: the name for a phenomenon where a character (Fleur) doesn't appreciate her safe upbringing until later in life

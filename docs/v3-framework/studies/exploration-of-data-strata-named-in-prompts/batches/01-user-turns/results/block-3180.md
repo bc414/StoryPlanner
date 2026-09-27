@@ -1,0 +1,4 @@
+- sources:
+  - this new ontology (the arrangement just laid out in the conversation, with Apple Fritter as a Tall Tale Apple) | taken as the working premise for the question; the user asks what follows from it and does not say it is settled | Under this new ontology | referred-to
+- order:
+- about: The user asks the model to work out, under the Apple Fritter and Tall Tale arrangement it has just proposed, whether Applejack should already know Tally Mark as Apple Fritter's friend before the story begins.

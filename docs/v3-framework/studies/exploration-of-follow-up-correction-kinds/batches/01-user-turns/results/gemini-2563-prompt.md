@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates that species balance on the ships is already settled through asset specificity requirements and asks a new design question about how Coltbert would engineer gender balance at the naval academy.

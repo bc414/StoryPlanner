@@ -1,0 +1,34 @@
+- steps:
+  - author | brings plan fragment and poses a question | Fleur Bloom's research role and whether ambition-scaling applies to all species or only earth ponies | opening of the thread
+  - model | analyzes the lore for internal tension and offers options with a recommended synthesis | two conflicting existing rules on ambition-scaling and a proposed reconciliation | replying to the opening question
+  - author | extends the plan with a new story arc and poses a follow-up question | a bias in the researchers' theory and a rival hypothesis raised by a character, asking how it revises the unified theory | after the model's synthesis
+  - model | reworks the theory and traces its consequences | an expanded two-force framework with geopolitical and character implications | replying to the extended arc
+  - author | brings a single worldbuilding idea and asks for a verdict | a physical marker tied to a character's depleted state | new short prompt
+  - model | delivers a verdict and elaborates applications | confirmation plus uses across military signaling and antagonist mechanics | replying to the color idea
+  - author | poses a structural problem and requests an audit of existing material | why the setting lacks scientific progress, asking for review of established suppressive measures | new topic
+  - model | audits existing lore into named mechanisms and asks two follow-up questions | existing suppression devices plus prompts for further authorial decisions | replying to the audit request
+  - author | requests an explanatory analogy and its application | history of a manufacturing technique and how to map it onto a fictional device | new topic
+  - model | supplies the historical analogy and applies it stepwise, ending with a check-in question | historical process plus fictional mapping, and a pacing question | replying to the request
+  - author | draws out an implication as a question | whether the mechanic forces strict individual ownership of tools | follow-up on the analogy
+  - model | confirms and extends the implication, ending with a question about training | economic consequences plus a prompt about apprenticeship | replying to the implication check
+  - author | answers the open question with a rule and a caveat | apprenticeship limits and a distinction between honest effort and false claims | replying to the model's question
+  - model | validates the rule and links it to earlier themes, ending with a new question | thematic connections plus a prompt about military logistics | replying to the apprenticeship rule
+  - author | corrects a detail in the model's prior elaboration | flags an inconsistency between a proposed shortcut and the established theme | replying to prior analysis
+  - model | accepts the correction and revises the mechanism | a reworked version removing the flagged element, split into two components | replying to the correction
+  - author | resolves an open question and introduces a new complication | a relationship outcome plus a new invention and reasoning for why it doesn't threaten one group | replying to prior open questions
+  - model | analyzes the resolution and complication, ending with a question about opposition | consequences for the economy plus a prompt about antagonist response | replying to the resolution
+  - author | corrects a structural assumption | removes a concept the model introduced, citing a thematic conflict | replying to prior analysis
+  - model | apologizes and reworks the framework, ending with a question | revised economic structure plus a prompt about military standardization | replying to the correction
+  - author | brings an extended list of ideas and constraints, requests both new suggestions and an audit | multiple proposed uses for a substance, design requirements, a thematic parallel, and a request to check against existing material | new larger prompt
+  - model | audits existing material against the request and supplies new options plus a thematic elaboration | division into already-covered versus open areas, new suggested uses, and a refined version of the parasocial theme | replying to the extended request
+- kept:
+  - note 3275 | the author's own words in this record | keeps the author's summary of a research conclusion, filed under an earth-pony-magic effect entry
+  - note 3387 | the author's own words in this record | keeps the author's framing of a character's theoretical challenge, filed under an earth-pony-magic theory entry
+  - note 5516 | the author's own words in this record | keeps the author's coat-color/life-force idea verbatim, filed under a Color subject entry
+  - note 5518 | pasted whole from this reply | keeps the model's explanation of an apprenticeship culture, filed under a Honesty vs Poseurs entry
+  - note 5522 | the author's own words in this record | keeps the author's list of a substance's applications, filed under an Extraction chapter entry
+  - note 1045 | the plan held this text before this reply | keeps prior plan text on a character's economic argument, unchanged, under an Economic Arguments entry
+  - note 2061 | pasted whole from this reply | keeps the model's explanation of why a synthetic version won't replace the real thing, filed under a plot point about persuading a character
+  - note 4097 | the plan held this text before this reply | keeps prior plan text on a character's use of a substance, unchanged, under a Love Donator subject entry
+- brought: The author repeatedly brought pieces of an existing worldbuilding plan (character research, magic-system rules, economic structure) along with new extensions, corrections, and open questions for the model to reconcile against that plan.
+- loop: The author brings a plan fragment, a new idea, or a correction to existing lore, the model returns an analysis, options, or a revised framework often ending in follow-up questions, and the author either takes it up or corrects it before moving on; the planning database keeps only small distilled pieces from this exchange — the author's own phrasing of ideas and a few whole model explanations — filed into specific lore entries, while most of the model's larger structural analyses leave no trace.

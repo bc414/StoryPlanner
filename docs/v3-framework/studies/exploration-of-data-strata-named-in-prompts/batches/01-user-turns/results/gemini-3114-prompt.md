@@ -1,0 +1,4 @@
+- sources:
+  - the (unfinished) draft of Sweet and Elite | the material the model is to analyze; flagged as unfinished, so incomplete | Now analyze the (unfinished) draft of Sweet and Elite | first-named
+- order:
+- about: The user asks the model to analyze the unfinished draft of Sweet and Elite, shifting from the prior discussion of the Twilight/Applejack romance to a different work.

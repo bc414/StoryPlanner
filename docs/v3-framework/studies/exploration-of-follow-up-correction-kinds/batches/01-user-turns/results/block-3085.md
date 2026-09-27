@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | the model was running the audit as keyword searches for suspect terms and looking only at grep hits, when the audit was meant to rest on reading the whole Gemini conversation | Start by reading the ENTIRE Gemini conversation so that you are not constrained to just the entries that had grep matches | flat directive that gives its reason, with capitalised emphasis and no criticism stated outright
+- about: The user tells the model to go ahead with the audit and rationale, but to read the whole Gemini conversation first so that it doesn't rely only on search hits for the two terms.

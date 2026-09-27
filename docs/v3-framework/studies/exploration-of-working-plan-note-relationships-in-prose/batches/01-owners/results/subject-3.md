@@ -1,0 +1,17 @@
+- relations:
+  - 317 | 318 | 318 continues 317 in reading order and overturns the claim 317 has Fleur make (the special-talent discount) | "Twilight eventually disproves that too" | explicit
+  - 40 | 317 | 317 plans for the reader the special-talent-is-magic idea that 40 quotes from the show as the premise; 40 is the source, 317 is the delivery | "what if a unicorn's special talent is magic?" / "because her special talent is magic, she gets a discount" | implicit
+  - 40 | 318 | 318 revises the idea in 40 that most unicorns lack the natural power to cast powerful spells outside their talent, saying others can be as efficient as Twilight | "most unicorns don't have the natural power" / "other unicorns can be just as efficient as her" | implicit
+  - 1908 | 40 | 40's idea of arranging the spell matrix within the horn is the same mechanism as 1908's horn that changes its internal shape to cast different spells | "arrange the spell matrix within their horn" / "rearrange their internal microscopic shape" | implicit
+  - 1707 | 1908 | 1707 gives the real-world analogy (a reconfigurable processor) for the mechanism 1908 states as truth (a horn that reshapes itself to cast different spells) | "dynamic CPUs" / "rearrange their internal microscopic shape to cast different spells" | implicit
+  - 321 | 40 | 321 says capacity grows with training and ambition, which qualifies 40's picture of natural power that most unicorns lack and don't bother learning to raise | "grow with training, like a muscle" / "don't have the natural power" | implicit
+  - 321 | 318 | 321's growth through training and ambition could account for other unicorns matching Twilight's efficiency, as 318 says | "grow with training" / "other unicorns can be just as efficient" | implicit
+  - 321 | 1908 | 321 compares capacity to a muscle, which matches 1908's horn that has muscles | "like a muscle" / "horn has muscles" | implicit
+  - 1707 | 40 | 1707's horn that can cast what it wants fits 40's view that any unicorn can learn any spell by arranging the horn, with power the only limit | "cast what they want" / "any unicorn can learn how to cast a spell" | implicit
+- outward:
+  - 40 | Episodes and scenes from the source show (Boast Busters, All Bottled Up), with Spike, Trixie and Starlight | "in Boast Busters, the premise is" / "much later in All Bottled Up"
+  - 40 | Crystal enhancers, an element held elsewhere in the plan | "Crystal enhancers changes the game."
+  - 317 | A scene or event in which Fleur speaks, held elsewhere | "Fleur asserts that"
+  - 317 | An idea or event elsewhere of Twilight as a battery of love that is drained or donated | "an infinite battery of love to be drained or donated"
+  - 318 | A later scene where Twilight makes the disproof, held elsewhere | "Twilight eventually disproves that too"
+- whole: Most of these notes hang together around one idea, how much unicorn power is natural and how much is trained, with the ontology, analogy and reader-plan notes building on it, though note 40 is unassigned and partly stands alone as source material.

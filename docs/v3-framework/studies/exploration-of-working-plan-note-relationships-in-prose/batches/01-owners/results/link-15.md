@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 314|Appleack, a character, and the warring tribes whose conflict and cultures are held elsewhere in the plan|Appleack sees that warring tribes can be united
+- whole: This owner holds a single note, so there is no set of notes to hang together and no joint between notes.

@@ -1,0 +1,8 @@
+- sources:
+  - inheritance laws as we discussed | earlier discussion in this conversation, treated as already settled and part of the reasoning on patriarchy | "Also inheritance laws as we discussed" | referred-to
+  - canon of the show (Equestrians don't wear clothes) | treat as true and as the fact the lore has to explain | "This is canon to the show" | referred-to
+  - Rarity's canon job, canon themes and episodes (Suited for Success, Canterlot Boutique, many other episodes) | treat as true; base for Rarity's characterization and message about clothes and generosity | "canon plot point in Suited for Success and Canterlot Boutique" | referred-to
+  - real life (Earth's axis tilt, seasons and weather) | use as real-world science to test the world's consistency and to reason about seasons and weather | "In real life, seasons are a product of the Earth's axis tilt" | referred-to
+  - my framing of Industrialization and the difference/balance of pink and red love | author's own story framework, to be used to bring Rarity's canon message into the story | "using my framing of Industrialization and the difference/balance of pink and red love" | referred-to
+- order:
+- about: The author extends their pink-love/red-love theory to explain Celestia's view of serfdom, low libido and Equestrians' nudity, works through a weather and seasons plot hole, and asks to place Rarity's canon message inside their Industrialization framing.

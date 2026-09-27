@@ -1,0 +1,6 @@
+- sources:
+  - MLP:FiM vector art style | reference for how all Porygons look, to be applied as the look of every Porygon: soft and pastel | They are all soft and pastel in MLP:FiM vector art style | referred-to
+  - TLTT's griffon magic and personal forging | analogy to draw on for how warrior crystallization works: a personal, unshareable power | It's like TLTT's griffon magic and personal forging that can't be shared | referred-to
+  - TLTT's changeling/crystal pony biology/magic (the charitostatic effect) | the basis for the communal crystal-to-calorie method, which depends on this effect | the communal way requires the charitostatic effect (changeling/crystal pony biology/magic from TLTT) | referred-to
+- order:
+- about: The user replaces the earlier idea of separate species with a single Porygon species, restating its look, its warrior crystallization, and how the northern continent's communal crystal-to-calorie method and the wider world's jagged culture arose, tying these to TLTT's magic and the MLP:FiM art style.

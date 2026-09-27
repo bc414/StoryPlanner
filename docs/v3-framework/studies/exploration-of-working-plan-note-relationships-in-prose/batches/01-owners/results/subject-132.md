@@ -1,0 +1,15 @@
+- relations:
+  - 710|703|cause: the workers' trauma from tycoon exploitation is the reason they turn on and lynch the tycoons|The workers were traumatized by tycoon exploitation / They lynched their tycoons|implicit
+  - 703|706|the planned dramatization of the lynching and the note stating what that lynching does to Baltimare (managerial class destroyed, infrastructure damaged)|They lynched their tycoons / lynching the tycoons destroys the managerial class|implicit
+  - 706|2356|the theme drawn from the consequence: the infrastructure damage and efficiency drop become the proof that vengeance is logistically inefficient|damages the capital infrastructure / raw vengeance is logistically inefficient|implicit
+  - 703|2356|the lynching is the event that serves as evidence for the thematic claim about vengeance|lynched their tycoons / lynch their Tycoons damages their infrastructure|implicit
+  - 705|706|the reader's initial favorable view of the party is set against the lynching outcome, which gives the reader reason to revise that view|Left wing readers may initially view the communist party favorably / severe drop in logistical efficiency|implicit
+  - 703|708|continuation in time: after the early lynching in the war, the later phase has them cooperating with the rest of Equestria|shortly after the war begins / After Stalliongrad's fall, they cooperate|implicit
+  - 710|706|the trauma explains the emotional catharsis of vengeance that the lynching brings|traumatized by tycoon exploitation / immediate emotional catharsis (vengeance)|implicit
+- outward:
+  - 892|the drug tribes and Skyfall, held elsewhere in the world, and the corrupt ponies who serve the trade|primary port for the drug tribes ... connections to Skyfall
+  - 704|the Tzinacatl as a neighbouring people, and Applejack as a character with her own story|next door to the Tzinacatl, so Applejack has to work with them
+  - 708|the fall of Stalliongrad and the wider Equestria, events and places outside this item|After Stalliongrad's fall, they cooperate with the rest of Equestria
+  - 703|the war, an event elsewhere in the story, as the time marker|shortly after the war begins
+  - 709|Markism, a doctrine held elsewhere in the world|strictly following Markism
+- whole: Most of the notes cluster around the tycoon lynching, joined by cause, consequence, theme and reader response, while the port history, the Tzinacatl and Applejack note, and the Markism note stand as separate entries.

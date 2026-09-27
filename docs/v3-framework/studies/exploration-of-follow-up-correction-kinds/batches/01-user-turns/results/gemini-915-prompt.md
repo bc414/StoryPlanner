@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the parents' backstory and builds on it, asking how it plays in canon seasons 1-4, whether it explains Applejack's dissonance over Comet Shine, and what kind of capitalists the parents should be, then proposes a Manehattan ration company for chapter 7.

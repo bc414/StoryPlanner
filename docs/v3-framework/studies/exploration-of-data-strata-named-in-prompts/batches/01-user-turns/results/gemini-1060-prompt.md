@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a comparative analysis of two placement options for Fluttershy's stare within the sequence of Henri's two talks with Applejack after the war council, without pointing the model at any body of source material.

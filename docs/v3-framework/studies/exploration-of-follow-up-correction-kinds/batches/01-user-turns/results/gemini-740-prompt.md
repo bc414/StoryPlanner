@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's closing offer of a note inside the notebook and asks a fresh how-to question about adding a note in the NotebookLM app, without challenging anything the model said.

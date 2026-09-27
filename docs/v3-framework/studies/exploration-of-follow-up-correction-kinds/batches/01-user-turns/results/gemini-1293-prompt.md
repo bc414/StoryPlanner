@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves to a new, real-history question about how British loyalists were treated in America after the Revolutionary War, likely to research a parallel for Synovial's fate, without disputing anything in the model's answer.

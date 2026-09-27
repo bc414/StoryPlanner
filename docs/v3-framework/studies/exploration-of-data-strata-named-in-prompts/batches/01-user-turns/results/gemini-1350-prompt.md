@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Chrysalis finishing her personal revenge arc in 1007 drains the stakes from the main invasion plot, states their plan for Trimmel's reveal that she has no sadistic impulse and that she still needs a visceral goal of dominating Herzland, and adds that Eagleclaw was spared execution because young Grover VI begged Eros.

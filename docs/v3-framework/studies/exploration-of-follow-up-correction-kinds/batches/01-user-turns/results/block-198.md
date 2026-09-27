@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the statthalter slavers take the bullied, antisocial drones who failed the meritocratic sorting; in the world they take the emergent bullies, the drones who acted maliciously, and not the victims | "not the ones who were bullied" | flatly, flagged as a crucial correction, with the right version stated directly
+  - reading of the plan | The model read the pipeline as recreating Chrysalis's own humiliation, turning victims into sadists and echoing her bullied past. The user says the pipeline works by structural determinism: blank-slate drones who act maliciously are filtered out of the well-behaved pool that becomes bauleiters, factory workers and jaeger officers | "This is also structural determinism. All the drones in kindergarden came in as blank slates." | flatly, with the reasoning behind the design added as explanation
+- about: The user flags one crucial correction to the model's account of the bully-to-plantation pipeline, saying who is funneled to the statthalters and why, and does not engage the rest of the model's turn.

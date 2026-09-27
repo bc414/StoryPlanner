@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's closing suggestion assumed Applejack and Twilight travel to Skyfall and negotiate with its CEO, and its analysis had them walking through the city; in the story they stay home to direct a domestic war | AJ and Twilight don't go to Skyfall, they have a war to direct domestically | flat, stated directly as a plain factual statement with a reason given, and no apology
+- about: The user rejects the model's assumption that the two ponies travel to Skyfall, then moves on to ask whether the bifurcated economy is what Chrysalis builds her New Order on during the Great Leap Forward, and tells the model to reread the story notes and analyze.

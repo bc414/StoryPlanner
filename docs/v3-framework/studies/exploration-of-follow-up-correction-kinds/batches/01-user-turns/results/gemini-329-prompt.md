@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the story's world | changeling eye discoloration when drained is gray, not the model's 'milky white fog' | "eyes, normally a vibrant color, go gray" | stated in passing, as a plain restatement while continuing to build out the lore
+  - fact of the story's world | for ponies and griffons the change is a single binary event (coat/plumage goes fully gray when drained, coinciding with running on false hope), not the model's separate sequential stages of Dull, then Grey, then a further False Hope state | "their entire coat or plumage go gray when drained and they are only going on false hope" | stated flatly and matter-of-factly, folded into the ongoing description rather than flagged as a disagreement
+- about: The user affirms the model's core "grey" concept as better than their original idea, while restating and simplifying its specific mechanics for changelings, ponies, and griffons.

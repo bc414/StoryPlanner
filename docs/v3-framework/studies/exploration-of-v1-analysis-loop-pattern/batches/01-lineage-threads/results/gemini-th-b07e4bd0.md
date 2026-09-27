@@ -1,0 +1,16 @@
+- steps:
+  - author | asks a lore question | what the geas mechanic is and why two named characters carry one | opening prompt of the stretch
+  - model | explains a mechanic | defines geas and gives the in-story reason and workings for the two characters | reply to the geas question
+  - author | requests a chapter summary with constraints | asks for a detailed summary of 'the next chapter', new open questions, and links to earlier chapters, explicitly excluding broad recurring links in favor of distinct one-off ones | second prompt of the stretch
+  - model | delivers a structured summary | a beat-by-beat recap of one chapter, a list of open questions, and a list of one-off links to specific earlier chapters | main reply to the second prompt
+  - model | regenerates an alternate draft | the same three-part treatment (summary, open questions, one-off links) but for the chapter before the one just covered | first additional draft
+  - model | regenerates an alternate draft | same three-part treatment for the chapter before that one | second additional draft
+  - model | regenerates an alternate draft | same three-part treatment, one chapter further back | third additional draft
+  - model | regenerates an alternate draft | same three-part treatment, one chapter further back | fourth additional draft
+  - model | regenerates an alternate draft | same three-part treatment, one chapter further back | fifth additional draft
+  - model | regenerates an alternate draft | same three-part treatment, one chapter further back | sixth additional draft
+  - model | regenerates an alternate draft | same three-part treatment, one chapter further back | seventh additional draft
+  - model | regenerates an alternate draft | same three-part treatment, one chapter further back, reaching the earliest chapter covered in the stretch | eighth additional draft
+- kept:
+- brought: The author brought two questions aimed at the underlying manuscript rather than new plan material: a request to have the geas mechanic explained, and an instruction to summarize 'the next chapter' together with open questions and only distinct, one-off links to earlier chapters rather than broad recurring ones.
+- loop: The author queried the manuscript for explanation and chapter-by-chapter recap, the model answered and then, unprompted by any further author message, kept regenerating the same recap format for progressively earlier chapters; none of this back-and-forth left any trace in the planning database for this stretch.

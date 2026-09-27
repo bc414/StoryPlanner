@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the conscience-and-tiers synthesis unchallenged and moves on to Rainbow Dash's Kinship arc, adding new world details about Ahuizotl and the Daring Do stories and asking for a Chapter 12 review with Mali as her mentor.

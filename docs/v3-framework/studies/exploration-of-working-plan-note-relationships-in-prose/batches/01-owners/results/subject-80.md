@@ -1,0 +1,37 @@
+- relations:
+  - 1695|1694|the later note revises the single rule by adding connection beside ambition, in near-identical wording|"ambition and connection are literal magic" against "ambition is literal magic"|implicit
+  - 1696|1694|the allegory (friendship is magic) is the real-world reading of the rule that connection is literal magic|"Friendship IS Magic!" and "connection are literal magic"|implicit
+  - 1695|834|the general rule that every magic derives from ambition is applied to alicorns, whose power is said to follow the same rules as other ponies|"alicorns" derive from it; "exact same rules as unicorns, pegasi and earth ponies"|implicit
+  - 1164|1165|the reader's picture continues in time and reverses: ponies magical and griffons not, then ponies locked and griffons free|"asymmetry flips"; "Now ponies are perceived as locked"|implicit
+  - 1165|1166|the flipped asymmetry is then collapsed by the unveiling of the theory, the next step in the reader's understanding|"there's asymmetry flips" then "the asymmetry collapses"|explicit
+  - 1166|1695|the collapse is an instance of the one rule: any spell a unicorn puts ambition into works|"put their ambition into" and "ambition is literal magic"|implicit
+  - 984|1687|the general claim that core concepts are the same under different names is spelled out as the mapping of pink love, friendship, grace and red love, magic, tool enchantments|"same things with different names" and "what changeling pink love, pony friendship, and griffon grace really are"|implicit
+  - 1687|986|the reveal of what the terms really are rests on the world truth that red love is the drive to build and pink love the capacity to share and belong|"Personal ambition is what ... red love" and "Red love gives them the drive"|implicit
+  - 1687|1509|both equate grace with connection or being and ambition with will or doing across the species|"griffon grace" and "Grace (the Eagle) is 'The Energy of Being'"|implicit
+  - 1509|1710|grace and ambition as two halves of one thing is given a physics analogy of electromagnetism|"Ambition and grace are intertwined" and "second half of Ambition"|implicit
+  - 1509|988|Twilight's connection of red and pink love to the Book of Boreas continues her refutation of the Doing/Being binary, using the Lion/Eagle split the first note describes|"Twilight connects red and pink love ... too"; "the 'Lion' does the work"|explicit
+  - 988|986|the Aquileian binary and Chrysalis's cult of Doing are misreadings of the truth that both drives are held at once|"Being vs. Doing binary" and "hold both conflicting drives"|implicit
+  - 985|984|Elements of Harmony, civic virtues and the lion and eagle are given as the different-named versions of one thing|"Elements of Harmony"; "same things with different names"|implicit
+  - 985|988|the Aquileian view of Equestria's elements as suppression of ambition is elaborated in Coltbert's accusation of a cult of being|"tools of stagnation, suppression of ambition" and "cult of being"|implicit
+  - 988|1166|Twilight's refutation that friendship is active Doing leads to the unveiled theory in which both are active magic|"both friendship and ambition are active magic"; "Unified Theory of Magic"|implicit
+  - 202|203|the world truth that coat shine shows working life force is planned as a visible signal on the page telling soldiers when to rest|"reflects the fact that they have working life forces" and "Visual dull indicator and colorful coats"|implicit
+  - 1681|986|the big heads are justified by the high brain power that lets these species hold both drives and so be capable of friendship and magic|"big heads/brains are why they are capable of friendship and magic"; "high Encephalization Quotient"|implicit
+  - 986|1690|pink love allowing societies is the cause of the stabilizing of the predator-era magic in the atmosphere|"Without pink love they can't form complex societies"; "introduction of pink love (friendship) stabilized the magic"|implicit
+  - 1690|1691|the windigo origin explains why a friendship drop cannot make instant windigos and unlike the ancient crystals the conflict is creature-driven|"Windigos are hateful ambition manifested"; "can't result in instant windigos"|implicit
+  - 1690|1692|crystals and jungle alchemy are given a physical origin from crashed windigos, which the reader learns is physics|"forming magic crystals"; "crystals and jungle-based alchemy are not 'unexplained fantasy'"|implicit
+  - 417|1692|the hard magic system bounded by physics is the canon frame for the reader learning that magic is a branch of physics|"bounded by laws and physics"; "another branch of physics"|implicit
+  - 417|1691|the proof against instant windigos is an instance of a bounded system replacing Hasbro logic|"deus ex machina Hasbro logic"; "mathematically proven"|implicit
+- outward:
+  - 985|the nations Equestria, Aquileia, the Griffonian Republic and Herzland and their civic symbols|"Aquileians view them as tools of stagnation"
+  - 988|Coltbert's paper, the FJA, the Chasseur Doctrine, Chrysalis and her empire, held elsewhere|"Coltbert's Predator's Dilemma paper"
+  - 988|the love donator studies and the Great Leap Forward|"love donators"
+  - 1509|the Book of Boreas, a text held elsewhere|"the Book of Boreas"
+  - 1691|the canon season 9 finale|"Unlike the season 9 finale"
+  - 417|the source canon TLTT and Hasbro's rainbow power|"TLTT establishes a hard magic system"
+  - 1165|the McDonalds pony comic|"the McDonalds pony comic"
+  - 202|the canon episode Party of One|"just like Pinkie in Party of One"
+  - 1690|Tzinacatl and zebra alchemy as cultures held elsewhere|"Tzinacatl and Zebra alchemy"
+  - 1681|the canon cartoon design for selling toys, and zebras|"Same thing applies to griffons, changelings, and zebras"
+  - 203|the soldiers and their rotation system, an army elsewhere|"when soldiers are supposed to rotate out"
+  - 984|the four societies of Equestria, Aquileia, Herzland and the changelings|"Equestrian, Aquilean, Herzlander, and Changeling societies"
+- whole: The notes hang together as one set around the single rule that ambition and connection are magic, with clear chains from world truth to reader reveal, though a few entries (the etymology, the allegory, the coat-signal, the canon notes) stand mostly apart.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The voltigeur image was drawn without the griffon and pony mixture that defines Aquileia's population, with human-style soldiers and gear and no species accounted for | How can I integrate the griffon and pony mixture setting of Aquileia into the image of the voltigeurs | Put as a how-to question that implies the omission, without saying the model was wrong
+  - fact of the world | The voltigeurs were framed as male (gentlemen, shopkeeper, he), but the Coltbert Reforms reject social hierarchy, so the corps includes male and female griffons and ponies | it's also for male and female griffons and ponies | Added in passing as a supplementary requirement, with a reason given from the Reforms and Coltbert's character in a parenthetical
+- about: The user asks how to fold Aquileia's griffon-and-pony population and the Coltbert Reforms' sex-blind, anti-hierarchy principle into the voltigeur concept, which implicitly points out that the model's version left both out.

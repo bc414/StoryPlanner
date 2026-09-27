@@ -1,0 +1,23 @@
+- steps:
+  - author | brings attachment | an attached planning document, uncaptured | opening of the conversation
+  - author | poses question | how Blueblood turns into a real general after being humiliated | first author turn
+  - model | analysis | names a psychological motive, a covert-study method, a bureaucratic build-up, a doctrinal contrast with Applejack, and a downstream justification for martial law, plus two follow-up questions | first model reply
+  - author | brings game-lore reference and proposals | cites Equestria at War's 'Dotted Line Report' focus, proposes Blueblood as its author, ties his cutie mark to logistics, assigns him a staggered-retreat role, rules out Aquileian and Imperial doctrine in favor of Griffonian Republic doctrine, places him at Mount Aris, and floats a retired-officer tutor | second author turn
+  - model | analysis | explains the report's name, develops the tutor concept, elaborates the Mount Aris doctrine-acquisition, and details staggered-retreat mechanics, plus two follow-up questions | second model reply
+  - author | brings pasted external bio and adaptation proposal | pastes Anicetus Mudbeak's game bio, proposes a pension-collapse recruitment and a medical-treatment exchange, and contrasts this with Mudbeak's role in another of the author's stories | third author turn
+  - model | analysis | supplies a macroeconomic motive for Mudbeak's defection, a medical/economic contrast, a cover-story mechanism, and a reversal of the prior story's trajectory, plus two follow-up questions | third model reply
+  - author | requests an arc synthesis and proposes beats | asks for the full poseur-to-general arc and proposes a failed-bribery beat and a Manehattan rejection beat, while questioning whether money should be a constraint | fourth author turn
+  - model | analysis | lays out a four-stage arc from narcissistic wound through failed capital to Mudbeak's acquisition to the report, plus two follow-up questions | fourth model reply
+  - author | requests elaboration and proposes an investigation angle | asks how Blueblood finds Mudbeak and proposes a Chrysalis-investigation route framed as an unbelievable conspiracy theory ending in a VOPS threat | fifth author turn
+  - model | analysis | details the investigation method, a rejection/Cassandra-complex beat, a VOPS threat scene, and a revised meaning for the report, plus two follow-up questions | fifth model reply
+  - author | requests elaboration and narrows candidates | asks for detail on who warns Blueblood off, weighs candidates, rules one out, and asks for better options | sixth author turn
+  - model | analysis and proposal | proposes a specific warner and a detailed warning sequence including a symbolic map detail, plus two follow-up questions | sixth model reply
+  - author | accepts part, discards part, and redirects | drops the symbolic map detail, keeps the warner, and opens a new question about Mount Aris interactions with the Mane Six, proposing a shared-history angle for two other characters | seventh author turn
+  - model | analysis | maps a three-way officer dynamic, a Rainbow Dash seduction subplot, and a Blueblood observation scene, tying them to the report's genesis, plus two follow-up questions | seventh model reply
+  - author | narrows focus | asks specifically for a Blueblood-Rarity interaction | eighth author turn, a short follow-up
+  - model | analysis | structures the Rarity-Blueblood scene as expectation, subversion, clash, and synthesis, plus two follow-up questions | eighth model reply
+  - author | brings a new plot mechanic | introduces a co-Field-Marshal, a shield technology, a doctrinal clash over retreat, and a battlefield-collapse mechanism | ninth author turn
+  - model | analysis | explains the doctrinal schism, the mechanism of the shield's failure, the resulting command inversion, and the rationale for the ensuing retreat, plus two follow-up questions | ninth and final model reply
+- kept:
+- brought: The author brought an attached planning document at the outset and later pasted an external game-wiki character bio into the conversation as raw material to be adapted into the story's lore.
+- loop: Across the conversation the author repeatedly brought fragments of established lore, game mechanics, or new plot proposals and posed a narrow question about how to fit them together; the model returned a structured, multi-part analysis with named mechanisms plus follow-up questions, and the author then accepted, trimmed, or redirected pieces of that analysis into the next, narrower question. Since no notes from this stretch were traced into the planning database, the loop here is purely conversational drafting and selection, not yet archived into the plan.

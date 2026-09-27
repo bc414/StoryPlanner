@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's comparison as given, asks about the two synthesis sources it left out of the one-flip finding, offers their own reason why the Republic and Chrysalis share the Incorporative pole, and asks what other systems share only one axis with the synthesis.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's offer to explain how to tell an abstract noun from an adjective, without naming any source of data.

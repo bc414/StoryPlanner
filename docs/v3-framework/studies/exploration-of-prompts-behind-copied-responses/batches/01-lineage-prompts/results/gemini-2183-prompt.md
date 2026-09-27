@@ -1,0 +1,12 @@
+- asks:
+  - clarification | states that earth ponies belong to the same group as the Aquileians, amending or extending an existing lore point | "the earth ponies are also Aquileians"
+  - consistency check | asks whether it is correct to conclude Equestria has no formal chemistry institutions and instead relies on magic and folklore, reasoning that formal chemistry would otherwise have industrialized their agriculture | "must have no formal chemistry institutions, relying just on magic and folklore, otherwise they would have industrialized their agriculture?"
+  - speculative question | asks whether Celestia would ban the study of chemistry, biology, and physics as part of her 'Stagnation of Harmony' policy | "Would Celestia ban chemistry and biology and physics studies in her Stagnation of Harmony?"
+  - hypothesis check | offers a guess that these scientific disciplines originated from Grover 3's enlightenment era (854-914 ALB) and that Celestia regards them as griffon tools of disharmony, inviting confirmation or elaboration | "I guess these studies originate from Grover 3's enlightenment from 854 to 914 ALB so Celestia views them as griffon tools of disharmony"
+- supplies:
+  - premise, a lore assertion about pony ethnic/species grouping | claims earth ponies are also Aquileians | one short clause
+  - premise, an inference about Equestria's tech/science level | links absence of formal chemistry institutions to reliance on magic/folklore and to non-industrialized agriculture | one sentence
+  - premise, a historical hypothesis | dates a 'Grover 3 enlightenment' period (854-914 ALB) as the origin of chemistry/biology/physics, tied to griffons and to Celestia's disapproval | one sentence
+- shaping:
+- openness: Mostly leans toward the answers it names, presenting each idea as something already worked out ('must have', 'I guess') for the model to confirm or build on, though the middle question about whether Celestia would ban the sciences is left more openly speculative.
+- subject: Worldbuilding lore for a My Little Pony-based fiction: pony species classification, Equestria's science/magic policy, and Celestia's historical suppression of chemistry, biology, and physics

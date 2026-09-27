@@ -1,0 +1,12 @@
+- steps:
+  - author | request title analysis | asks for analysis of the story title plus alternate titles if the plan were read in a vacuum | opening turn of the conversation
+  - model | multilayered interpretation | breaks the title into historical, cultural, and idiomatic readings, then lists seven alternate titles with rationale for each | reply to the first prompt
+  - author | fact-check question | asks whether the mod's city name is a real-world canon reference or an invented fanon term | second turn
+  - model | source verification | confirms canon status, cites the specific show episode, and distinguishes canon naming from the mod's added lore | reply to the second prompt
+  - author | thematic and etymological request | asks how to tie the honesty-vs-poseurs theme to the city's idiomatic name and requests an etymology for the farming-village-turned-industrial-hub | third turn
+  - model | theme argument plus staged etymology | offers an irony/redefinition-of-truth reading of the title, then proposes a three-phase name history from tally-stick trade through idiomatic shift to industrialization | reply to the third prompt
+  - author | extends and proposes own theory | builds on the etymology by proposing the tally stick as a loophole in an established stagnation mechanic tied to another faction's economic reforms, and adds a river geography detail to ask about its cultural effect | fourth turn
+  - model | validation and further elaboration | affirms and formalizes the author's loophole theory, contrasts two rival factions' pitches to explain an industrial outcome, and extends the river into thematic and strategic roles, closing with a summary | reply to the fourth prompt
+- kept:
+- brought: The author brought worldbuilding already established in their plan — the story's working title, the city name and its real-world mod context, and prior economic/political lore concepts (a stagnation mechanic, a reform movement, a faction's culture) — to have them analyzed, verified, and etymologically elaborated.
+- loop: The author repeatedly raises a title or lore element and asks the model to interpret, verify, or extend it, then takes the model's answer as a springboard to propose further connections of their own, which the model in turn validates and elaborates; none of this exchange was captured into the planning database in this stretch.

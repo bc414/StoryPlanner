@@ -1,0 +1,8 @@
+- relations:
+  - 2253|2252|2253 gives the reason for what 2252 states: Meztli is just one Moonspeaker among many because otherwise the head of the Confederation would be authorial fiat|Therefore, Meztli must be just one Moonspeaker among many|implicit
+- outward:
+  - 1529|Celestia and her attitude toward diversity, held in other parts of the plan|Meztli thinks Celestia wanted diversity
+  - 2252|the story TLTT and its opening state, plus the Moonspeakers as a group|Who is this character at the start of TLTT? / one Moonspeaker among many
+  - 2253|Applejack and her thestral friend in chapter 1, a scene held elsewhere|Applejack's thestral friend from chapter 1
+  - 2253|the Tzinacatl Confederation and its tribal leaders, lore held elsewhere|head of the Tzinacatl Confederation
+- whole: Two of the three notes join, with the garden note giving the reason for the characterization note, while the note on Meztli's view of Celestia stands as a separate entry.

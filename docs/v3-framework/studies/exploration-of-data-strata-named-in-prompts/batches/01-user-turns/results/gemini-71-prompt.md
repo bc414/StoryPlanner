@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain why abstract-noun words like those just discussed might serve as chapter titles in a story and to suggest other chapter title options.

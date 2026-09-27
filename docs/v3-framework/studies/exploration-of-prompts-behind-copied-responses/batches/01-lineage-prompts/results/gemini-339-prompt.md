@@ -1,0 +1,9 @@
+- asks:
+  - brainstorm | asks for more word alternatives to "Dominion" | "Any more alternatives to dominion?"
+  - narrow | asks that the alternatives evoke Nightmare Moon taking control or Celestia's fear that Twilight will lose control | "something that relates more to Nightmare moon taking control or Celestia's fear that Twilight will lose control"
+- supplies:
+- shaping:
+  - alternatives should thematically evoke Nightmare Moon seizing control or Celestia's fear of Twilight losing control | "relates more to Nightmare moon taking control or Celestia's fear that Twilight will lose control"
+  - names a fallback to fall back on if nothing better turns up: use "Domination" instead of "Dominion" | "Otherwise, just 'Domination' instead of 'Dominion'"
+- openness: Leaves the main ask open as a brainstorm for further word options, but names "Domination" as an acceptable fallback answer if no better alternative fitting the stated theme is found.
+- subject: Choosing a title/term word (currently "Dominion") tied to Nightmare Moon's takeover or Celestia's fear of Twilight losing control

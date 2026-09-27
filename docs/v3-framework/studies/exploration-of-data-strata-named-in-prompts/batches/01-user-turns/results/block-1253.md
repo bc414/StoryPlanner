@@ -1,0 +1,5 @@
+- sources:
+  - TLTT's fabula (the author's world building) | not something the reader has up front; it is revealed gradually through the story, and it expands and breaks down naive or trope expectations into materialist historicism; the model's assumption that readers already hold it is being corrected | "The reader won't have access to the fabula" | referred-to
+  - FiM and EaW conventions | offered by the user as a possible meaning of the model's claim; readers may arrive with expectations from these, which are treated as naive or trope expectations that the fabula complicates | "Do you mean they have access to FiM and EaW conventions?" | referred-to
+- order:
+- about: The user corrects the model's assumption that readers already know the fabula, explaining that it is revealed over the course of the story, and asks whether the model meant readers' familiarity with FiM and EaW conventions, which the fabula then subverts.

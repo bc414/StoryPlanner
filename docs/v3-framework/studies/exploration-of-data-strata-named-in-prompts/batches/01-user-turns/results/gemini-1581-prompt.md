@@ -1,0 +1,4 @@
+- sources:
+  - my lion and eagle framework | weight: treated as an established piece of the user's own lore, to be extended by supplying a French term ("lioness") that fits within it | marks: "In the context of my lion and eagle framework" / "the Aquileian lion and the eagle" | referred-to
+- order:
+- about: The user asks the model to supply a French word for "lioness" to extend her own lion-and-eagle framework, describing how Rarity will use it in a specific scene and how Applejack will retroactively connect it to Rarity's earlier Gala delusion.

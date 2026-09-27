@@ -1,0 +1,11 @@
+- sources:
+  - existing plot point content (the huge amount already written; provisional blueprints) | material to be dissected and sorted into appropriate homes; treated as provisional, mostly to be migrated to subject tracks and link tracks, with the remainder needing a plot point home | You need to consider the huge amount of content that has already been written for plot points | referred-to
+  - pasted examples (the examples I pasted in) | concrete samples the model is to analyze to characterize the nature of the texts | I pasted in some examples | first-named
+  - synopsis fields (in the plot point content) | the main text to dissect; expected to hold link track material and event subject track material plus some plot point track material | particularly in synopsis fields | referred-to
+  - link fields (in the plot point content) | presumed already destined for link tracks, though possibly misplaced subject material that belongs in subject tracks | the link fields are probably already destined to go into link tracks | referred-to
+  - subject tracks | destination for migrated content, including misplaced link field content and event material from synopses | could also go into subject tracks if it was misplaced | referred-to
+  - plot point subject link tracks | destination for migrated link field and synopsis content | appropriate subject tracks and plot point subject link tracks | referred-to
+  - plot point tracks | destination needed for the leftover synopsis text that is plot point related | there is probably text that belongs to plot point tracks | referred-to
+  - expansion -> linking -> audit workflow | the rigorous later process for subjects and links; the plot point content needs a home before this is done | before going through the rigorous workflow of expansion -> linking -> audit | referred-to
+- order:
+- about: The user asks the model to dissect pasted examples of existing provisional plot point text, especially synopsis fields, to sort what belongs in link tracks, subject tracks or plot point tracks, and to design a home for the plot point remainder before the expansion, linking and audit workflow begins.

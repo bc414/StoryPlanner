@@ -1,0 +1,4 @@
+- claims:
+  - restatement | Her hatred of industry comes from her parents having left the farm for it. This causal link is already stated in the owner's other notes. | She hates industry because her parents left the farm for it | Why does she hate industry? | yes
+  - design commitment | She sees industry as dishonest. The note settles this as her starting attitude, and it sets industry against the honesty her character is built on. | She views industry as dishonest | How does she judge industry morally? | yes
+- theme: It does not touch the theme. The note is tagged with the strength-and-mercy proposition but says nothing about strength, mercy, or how they relate. It only describes her starting attitude toward industry.

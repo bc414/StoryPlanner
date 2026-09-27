@@ -1,0 +1,8 @@
+- sources:
+  - the model's earlier hive-to-language mapping in this conversation | partly rejected (Vesalipolin/Mandarin as basis of Simplified Herzlander is wrong), partly agreed (dictionary translators most deficient for Lyctida), partly revised (Ditrysium and Gorak languages swapped, Acornage handled differently) | NOT the basis; I agree that; Maybe Ditrysium should be | referred-to
+  - the author's own setup of Simplified Herzlander as a stripped-down militarized Standard German that bulldozes the East Asian languages and replaces Chinese characters with German letters | treat as the correct fact, overriding the model's claim about it | Herzlander is German; bulldozing all the east asian languages | referred-to
+  - Chrysalis's prequel-sequel chapter 1 POV | cited as the place that names the 'harmonic indoctrination pipeline', backing the claim that Acorange changelings speak only Equestrian/English and show native tongues only for new refugees | dubs the "harmonic indoctrination pipeline" | referred-to
+  - Vietnamese history | use as the framework for the written language, though Vietnamese need not be incorporated as a language | its history is the framework I'm using for the written language | referred-to
+- order:
+  - the author's own setup of Simplified Herzlander as stripped-down German | above the model's earlier hive-to-language mapping, where the model made Vesalipolin/Mandarin the basis | is NOT the basis of Simplified Herzlander
+- about: The user corrects the model's claim that Mandarin-like Vesalipolin underlies Simplified Herzlander, restates it as bulldozing German, and revises the hive-language assignments (Ditrysium to Cantonese, Gorak to Shanghainese) while explaining the Acorange and Vietnamese handling.

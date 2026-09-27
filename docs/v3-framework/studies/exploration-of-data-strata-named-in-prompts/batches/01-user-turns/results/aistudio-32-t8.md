@@ -1,0 +1,5 @@
+- sources:
+  - the election in the chapter Liberty (Sunglider vs Kingfeather, Sunglider wins, Herzland integration after GR conquest) | author's stated plot; treat as settled story fact and build on it | Sunglider wins the election | first-named
+  - the FDR New Deal, as what the Griffonian Republic is an allegory for | use as the allegorical template for the GR; Kingfeather's continuation of it is framed as outdated for modern automation-era reality | Griffonian Republic is an allegory for the FDR New Deal | first-named
+- order:
+- about: The author answers the model's questions by laying out planned story content: Kemerskai's ambition-redirecting civic morality, the Liberty chapter election between Sunglider and Kingfeather, and the New Deal allegory the election carries.

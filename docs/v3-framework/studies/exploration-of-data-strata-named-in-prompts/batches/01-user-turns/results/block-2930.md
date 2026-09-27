@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to decide whether Grover V's boundary is insular or incorporative and to give its reasoning, without pointing at any body of material to use or avoid.

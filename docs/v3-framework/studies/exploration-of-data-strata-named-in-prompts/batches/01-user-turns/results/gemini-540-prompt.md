@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a further plot refinement to their story: after the eastern front collapses, Stalliongrad takes the POWs, Manehattan can't safely hold them, and Stalliongrad keeps fighting the hives in the north after Celestia's white peace.

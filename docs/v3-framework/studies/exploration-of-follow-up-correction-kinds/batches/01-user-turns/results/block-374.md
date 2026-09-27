@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model put the naming of Conscience after Cloudbury, on the plane to Pridea, as the payoff of the visit. The user says the unveiling of the elements of liberty belongs at the end of the Dilemma chapter, before the chapter break. | "should be at the end of Dilemma before the chapter break not after" | flat one-line directive that sets the right placement against the wrong one, with no reason given
+  - reading of the plan | The model said Applejack's Cloudbury speech must turn into something true and unplanned, as her first act of Statecraft. The user says the plan already has Trimmel throw out the sanitized speech, and that Applejack does not need to. | "Not applejack" | the user asks whether Trimmel alone is enough, then answers it in two words as a closing aside, with no reason given
+- about: The user sets out a batch of new design questions and ideas for the follow-up analysis (why Fraternity and Ambition fit the Conscience link less cleanly, the GR and Equestria parallel, Conscience as the shared root), and in passing fixes the placement of the unveiling and rules out an Applejack speech turn.

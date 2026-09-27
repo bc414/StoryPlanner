@@ -1,0 +1,4 @@
+- sources:
+  - Peter the Great's life story | material to draw on for more detail and as a parallel to Chrysalis; used as an analogy, not as settled story canon | more insight into Peter the Great's life story and how it can relate to Chrysalis | first-named
+- order:
+- about: The user asks the model to expand on the historical life of Peter the Great and draw connections to the character Chrysalis, continuing a discussion of her regime's design.

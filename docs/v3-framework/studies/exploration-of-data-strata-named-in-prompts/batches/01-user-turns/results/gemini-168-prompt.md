@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds story details of their own: a line for the buffalo to persuade Fluttershy, her existing motive on the front, and an existing buffalo animal spy network in the southeast that watches Rockfeller and sabotages his wells. The turn points at no body of material for the model to use or avoid.

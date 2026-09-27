@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a clarifying question about how the verification-machine mechanic works, checking whether it runs on every transaction and proposing that it functions like credit card interchange fees.

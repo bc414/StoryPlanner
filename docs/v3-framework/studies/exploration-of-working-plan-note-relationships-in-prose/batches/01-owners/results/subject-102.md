@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 1326 | Real-world New Orleans, outside the story, as the model for the organization | New Horseleans is like New Orleans
+  - 1326 | The Equestrian and Aquileian cultures, held elsewhere in the world's lore | a mix of Equestrian and Aquileian culture in a swamp
+- whole: Only one of the two notes has any content (the analogy note; the history note is empty), so there is nothing to join and the set reads as separate entries.

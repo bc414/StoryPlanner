@@ -1,0 +1,20 @@
+- steps:
+  - the author | asks | comparison question between attaching a NotebookLM notebook vs a raw JSON file in Gemini chat | opening exchange
+  - the model | analyzes | a feature-by-feature comparison (source limits, browsing, persistence) plus a workflow recommendation and an offer to draft a system instruction | opening exchange
+  - the author | redirects | a new practical question about NotebookLM mobile availability | second exchange
+  - the model | answers | mobile app availability, mobile-only features, and a comparison table, plus an offer to set up a share-to-notebook shortcut | second exchange
+  - the author | supplies context and asks | states the story planner is a WPF program, then asks what 'LM' stands for and for the product's history | third exchange
+  - the model | answers | the acronym meaning and a chronological history of NotebookLM, then reconnects it to the WPF workflow with sync strategies and an offer of a C# snippet | third exchange
+  - the author | accepts | a one-word acceptance of the offered code snippet | fourth exchange
+  - the model | delivers | a C# code sample for syncing JSON to Google Drive via two methods, with an offer to explain folder IDs | fourth exchange
+  - the author | asks | whether attached Google Docs stay in sync inside NotebookLM | fifth exchange
+  - the model | answers | explains manual-sync behavior, gives sync steps, a comparison table, and offers a sync-log note idea | fifth exchange
+  - the author | asks | how to add a manual note inside the NotebookLM app | sixth exchange
+  - the model | answers | describes two/three ways to create or save notes and how notes can become sources, with an offer of a note template | sixth exchange
+  - the author | corrects | reports the actual bottom navigation only shows Sources, Chat, Studio, not a Notes tab | seventh exchange
+  - the model | revises | relocates the instructions to the Studio tab for the current UI and offers to explain pinning notes | seventh exchange
+  - the author | corrects again | reports the Studio tab still doesn't match the described layout (with a screenshot) | eighth exchange
+  - the model | troubleshoots | offers alternative paths to create/find notes, a explanation for the empty state, an external video link, and an offer to test a save-note prompt | eighth exchange
+- kept:
+- brought: none
+- loop: The author brought a series of tool-usage questions and one piece of personal context (a WPF-based JSON planner) rather than any story content, and the model returned explanations, comparisons, code, and revised UI instructions when corrected; none of this exchange left a trace in the planning database, so the loop here is pure tool troubleshooting that produced no kept notes.

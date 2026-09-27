@@ -1,0 +1,6 @@
+- sources:
+  - real world parallels, i.e. real-world history in general | model is to draw on its general knowledge of history to supply parallels for the griffon nobles | "What real world parallels are there?" | first-named
+  - the planters in the american south | the user's own tentative guess at a fitting parallel, for the model to assess and compare, not a settled point | "I suppose it's like the planters in the american south?" | first-named
+  - historical France before Louis XIV | offered as a second candidate parallel for the model to consider and compare | "What about historical France before Louis XIV?" | first-named
+- order:
+- about: The user asks how the griffon nobles came to hold power in their setting and asks the model to name real-world historical parallels, offering the American South planters and pre-Louis XIV France as candidates.

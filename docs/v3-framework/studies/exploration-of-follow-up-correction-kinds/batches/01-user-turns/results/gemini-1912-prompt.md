@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the bread and farmers topic and asks a new, broader historical question comparing the Ottoman sultan with European monarchs on family structure, statecraft and centralization, without saying anything about the model's answer.

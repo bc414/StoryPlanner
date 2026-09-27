@@ -1,0 +1,63 @@
+- passages:
+  - 13 | visual/design description | present-tense cataloguing of coat, mane, magic, cutie mark | Minette's physical appearance and cutie mark | apart
+  - 4908 | analysis | causal "so Minette thinks", interior motive-reasoning, comparison to Gisele | Minette's resentment and reasoning toward defiance | apart
+  - 4908 | narration | third-person sequential action, "screaming at them to fix his coat" | Westkeep's coat-abuse scene setup | apart
+  - 4908 | direct speech | unquoted first/second-person clauses embedded in narration, "we will not fix your coat", "You are a peasant with no manners" | the spoken confrontation between Minette and Westkeep | run-in
+  - 4908 | narration | return to third-person action, "gains her cutie mark", habitual description of daily protection | resolution of the confrontation and her ongoing training/routine | apart
+  - 4908 | analysis | comparative interpretation, symbolic "lion portion"/"eagle portion" vocabulary | comparing Minette's tactics to Coltbert's approach | apart
+  - 4909 | chronicle notation | compressed multi-clause single sentence listing political events | fall of Le Grand Foyer and Royalist eviction | apart
+  - 4909 | narration | concrete embodied action, "she stabs a bandit", ongoing activity "she makes clothes" | Minette's trek defense and work in Vinovia | apart
+  - 4909 | analysis | causal reasoning "because she wants...", "scares her" | her reasons for not joining the Gendarmerie | apart
+  - 4909 | narration | scene introduction and social/economic description | meeting Reni and Vinovia's barter economy | apart
+  - 4911 | bare date notation | isolated fact, no elaboration | her birth year | apart
+  - 4911 | analysis | interpretive framing of grooming dynamic, "training her to associate obedience with rewards" | Westkeep's conditioning of child Minette | apart
+  - 4912 | narration | reported/indirect parental speech, dated marker | parents' warnings about attracting the predator | apart
+  - 4912 | direct speech | unattributed second-person imperative, "Go make clothes... keep your head down" | the parents' command to Minette | run-in
+  - 4912 | analysis | interpretive statement on her emotional state, "learned the reality...cruelty of the world" | Minette's resulting depression | apart
+  - 4913 | narration | sequential third-person recounting with embedded indirect speech | Coltbert forcing Gisele/Minette negotiation over the suit | apart
+  - 4913 | analysis | interior reaction, "fascinated at how" | Minette's fascination with Coltbert's tactic | apart
+  - 4913 | narration | plain third-person action | Minette helping Gisele's trophy shelf | apart
+  - 4915 | narration | dated marker, sequential action, "recognize each other and choose to pair up" | academy pairing and Reni shaming Minette | apart
+  - 4915 | analysis | interpretive thematic statement, "This is a safe space..." | meaning of cuteness/safety with Reni vs Westkeep | apart
+  - 4915 | narration | sequential action, battle aftermath and reunion | comfort after battle, evacuation, intimacy | apart
+  - 4915 | analysis | interpretive symbolic statement, "proves she can be... eagle and the lion" | symbolic meaning of sleeping with Reni for her identity | apart
+  - 4915 | narration | single action statement | Minette killing Lord Westkeep | apart
+  - 4915 | chronicle notation | date-range summary compressing years | multi-year reconquest campaign | apart
+  - 4916 | narration | dated marker, sequential description | royalist stallions helping house ponies via clothing | apart
+  - 4916 | authorial meta-commentary | exclamatory aside naming outside canon, "This is the spirit that leads to Rarity's philosophy!" | link to Rarity's canon philosophy | apart
+  - 4916 | narration | third-person past-tense recounting | hearing the "kid friendly version" later | apart
+  - 4916 | analysis | causal reasoning, "because it is social armor..." | Minette's psychological rationale for her swagger/narcissism | apart
+  - 4916 | authorial meta-commentary | "dark truth" aside referencing Rarity's origin story | contrast between story's dark truth and the sanitized canon version | apart
+  - 4916 | narration | scene description with quoted confrontation line | Westkeep's hatred and Minette's declaration to him | apart
+  - 4916 | analysis | interpretive summary judgment, "hasn't won a victory, she has started a war" | meaning and cost of her defiance | apart
+  - 4918 | narration | dated marker, sequential third-person action | political relocation and Westkeep's predatory intent | apart
+  - 4919 | analysis | declarative trait list, present-tense character-profile statements | Minette's character flaws and personality across contexts | apart
+  - 4930 | narration | dated marker, sequential description of ongoing activities | Minette's later work with the Skyfall Cartel and flights with Reni | apart
+  - 5066 | chronicle notation | terse dated single-line event | trip to Manehattan meeting Shining Armor and Cadance | apart
+  - 5068 | chronicle notation | minimal dated title-like phrase | the Defense of Mount Aris | apart
+- shifts:
+  - 4908 | analysis | narration | shift from motive-reasoning to concrete scene-setting action
+  - 4908 | narration | direct speech | drop into unquoted first/second-person address mid-paragraph
+  - 4908 | direct speech | narration | return to third-person action description
+  - 4908 | narration | analysis | return to interpretive comparison
+  - 4909 | chronicle notation | narration | shift from impersonal political listing to individual embodied action
+  - 4909 | narration | analysis | shift to causal reasoning about not joining
+  - 4909 | analysis | narration | new scene introduction returning to recounted action
+  - 4911 | bare date notation | analysis | expansion from isolated fact into explanatory paragraph
+  - 4912 | narration | direct speech | unattributed switch to second-person imperative with no attribution
+  - 4912 | direct speech | analysis | new paragraph returning to third-person description of feelings
+  - 4913 | narration | analysis | shift to interior reaction/interpretation
+  - 4913 | analysis | narration | return to plain action description
+  - 4915 | narration | analysis | shift to interpretive thematic statement
+  - 4915 | analysis | narration | new paragraph returning to sequential action
+  - 4915 | narration | analysis | shift to interpretive symbolic framing
+  - 4915 | analysis | narration | return to action statement
+  - 4915 | narration | chronicle notation | shift to date-range summary compressing years
+  - 4916 | narration | authorial meta-commentary | exclamatory aside naming Rarity's philosophy
+  - 4916 | authorial meta-commentary | narration | return to third-person recounting
+  - 4916 | narration | analysis | shift to causal explanation
+  - 4916 | analysis | authorial meta-commentary | "dark truth" aside referencing Rarity's origin
+  - 4916 | authorial meta-commentary | narration | return to scene description
+  - 4916 | narration | analysis | shift to interpretive summary judgment
+- registers: visual/design description; analysis; narration; direct speech; chronicle notation; bare date notation; authorial meta-commentary
+- whole: This item is written in several registers—design description, event narration, unattributed direct speech, dated chronicle notation, a bare birth-date notation, authorial aside, and interpretive analysis—and while most of these sit apart at paragraph or sentence breaks a reader would notice, the direct-speech passages in a couple of notes run into the surrounding narration within the same sentence with no such break.

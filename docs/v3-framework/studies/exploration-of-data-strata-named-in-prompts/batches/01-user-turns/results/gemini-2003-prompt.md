@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the JSON schema the model supplied for the AI Studio editor still fails, and asks for no data source to be used or avoided.

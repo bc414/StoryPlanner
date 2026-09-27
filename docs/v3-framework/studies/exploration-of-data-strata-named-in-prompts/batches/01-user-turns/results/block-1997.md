@@ -1,0 +1,4 @@
+- sources:
+  - chapters 18-22 (the Bluebell Spearhead, liberation and then white peace) | material to look into and read for hidden subjects, checking whether it holds new ones or only builds on other parts of the story | Now look into chapters 18-22 | first-named
+- order:
+- about: The user asks the model to move on to chapters 18-22 of the story and report whether they contain new hidden subjects or just build on material already covered.

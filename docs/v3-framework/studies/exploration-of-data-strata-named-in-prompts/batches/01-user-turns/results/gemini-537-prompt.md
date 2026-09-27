@@ -1,0 +1,4 @@
+- sources:
+  - allied treatment, as already covered earlier in this conversation | treated as settled ground that need not be repeated; the model is to move on to the Soviet case | "We covered allied treatment" | referred-to
+- order:
+- about: The user asks a historical follow-up about how the Soviets treated German POWs, in light of German atrocities against Soviet civilians, building on the earlier discussion of Allied treatment.

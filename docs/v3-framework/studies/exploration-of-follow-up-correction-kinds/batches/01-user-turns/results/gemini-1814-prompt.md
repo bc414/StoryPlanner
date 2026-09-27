@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the education-reform analysis to a new question about whether European feudal lords really defended the land against bandits and whether that model fits Aquileia before Gerad or only before Grover I's conquest in 705.

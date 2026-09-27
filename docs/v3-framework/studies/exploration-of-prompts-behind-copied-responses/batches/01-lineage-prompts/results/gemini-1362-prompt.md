@@ -1,0 +1,11 @@
+- asks:
+  - review | asks the model to review the military plans Trimmel unveils to Applejack after his surrender, covering the jaeger/Statthalter target assignments and the surrender-or-be-removed offer | "Please review the military plans"
+  - brainstorm/compare | asks for the pros and cons, for the narrative, of two named alternatives: Chrysalis reaching and destroying Petershoof versus Petershoof surviving in a stalemate | "What are the pros and cons for the narrative of Chrysalis actually making it to Petershoof... versus Petershoof surviving in a stalemate?"
+- supplies:
+  - plan summary | describes Trimmel's post-surrender military briefing to Applejack: Chrysalis's jaegers assigned to target Equestria, Statthalters assigned to target the Crystal Empire and Stalliongrad, plus Trimmel's "surrender and you'll be spared... resist and you'll be removed" line | a short paragraph
+  - plan detail | states that Stalliongrad receives no surrender offer and faces immediate total war, with Chrysalis's forces razing the city since its ponies don't surrender | a couple of sentences
+- shaping:
+  - structure as pros and cons | asks the answer be organized around pros and cons rather than left as free-form commentary | "What are the pros and cons"
+  - address both named alternatives | asks the comparison to specifically cover the two stated outcomes for Petershoof rather than other possibilities | "versus Petershoof surviving in a stalemate"
+- openness: Asks for a choice between two named options — Petershoof destroyed by Chrysalis or Petershoof surviving in a stalemate — framed explicitly as a pros-and-cons comparison between them.
+- subject: Fate of the city Petershoof (and surrounding war plans) in Chrysalis's conquest of the Trimmel-Applejack storyline

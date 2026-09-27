@@ -1,0 +1,10 @@
+- asks:
+  - analyse | asks how the election arc's plot must be reworked to fit the stated changes to Celestia's approach and timeline | "How must the election arc be adapted according to the changes to Celestia's approach and timeline?"
+  - brainstorm | asks for further plot points or story elements that need revision beyond the one example already reworked | "What else should be adjusted?"
+- supplies:
+  - characterization notes, revised premise | describes Celestia's new motivations: no longer wants total return to the nursery, accepts industry/spell matrices can't be undone, is friends with the thestrals, aims only to stop Applejack becoming a monster after the Canterlot paradrop and Vanhoover liberation, distinguishes wartime necessity from peacetime, and secretly wants to retire per Faust's original vision | a paragraph
+  - plot point example, prior vs. revised | the old idea that Celestia and Applejack are both overconfident about voter support until first poll results, reinterpreted as Celestia quietly managing the 'predator's dilemma' and easing scars so Applejack can win a harmonic republic rather than being paralyzed or hoping the referendum fails | a few sentences
+- shaping:
+  - any answer must stay consistent with the newly stated Celestia motivations (not naive, wants retirement, prevents AJ from becoming a monster, distinguishes war from peace) | "Now, I am making her not naive... her goal is to prevent Applejack from turning into a monster..."
+- openness: Leaves the answer open-ended, inviting an unbounded list of further adjustments beyond the single example given, as shown by the closing "What else should be adjusted?"
+- subject: Reworking the election arc's plot points to match a revised, less naive and retirement-seeking Celestia who aims to prevent Applejack's wartime tactics from curdling into peacetime tyranny

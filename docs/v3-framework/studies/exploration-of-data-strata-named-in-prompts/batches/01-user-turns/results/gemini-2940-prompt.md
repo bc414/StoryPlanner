@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | to be reviewed and used as the basis for the requested analysis, alongside the chat | "review my story plans" | referred-to
+  - this chat | to be reviewed together with the story plans as material for the analysis | "and this chat" | referred-to
+- order:
+- about: The user proposes a refinement of the magic-system idea, in which the Aquileians misclassify friendship magic as the passion-based Erodynamic Effect until Twilight and Fleur rename it the Charitostatic Effect after the war, and asks for real-life examples of fields converging and for an analysis based on their story plans and this chat.

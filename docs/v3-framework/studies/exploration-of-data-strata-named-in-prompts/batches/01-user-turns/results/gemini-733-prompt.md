@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether setting a tool's response length to "longer" adds analytical depth or just wordier phrasing, without pointing at any body of material for the model to use or avoid.

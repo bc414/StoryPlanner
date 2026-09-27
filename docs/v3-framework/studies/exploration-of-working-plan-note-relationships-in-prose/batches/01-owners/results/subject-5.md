@@ -1,0 +1,23 @@
+- relations:
+  - 71|77|the Sack of Acornage is an occasion of the butchery and looting the characterization states in general|She is a warlord/butcher. She allows looting ... She carried out the Sack of Acornage|implicit
+  - 74|75|her stated wish to drain the resisting is shown in the history, where she would rather drain the Resistance than collaborate|She wants deer and ponies to fight back so she can drain them ... She would rather drain the Olenian Resistance|implicit
+  - 71|913|her leading through fear and butchery is the reason Chrysalis needs damage control to keep her from causing chaos|She leads through fear ... damage control to keep her away from causing chaos|implicit
+  - 74|913|her wish for the clean occupation to fail is the sort of chaos that Chrysalis moves her away from|She wants the bauleiters' "clean occupation" to fail ... keep her away from causing chaos on the mobile front|implicit
+  - 75|913|her earlier need to prove loyalty to Chrysalis leads on to Chrysalis later managing her by placing her at the static front|prove to Chrysalis that she is loyal and helpful ... Chrysalis puts Pagala at the static Tall Tale front|implicit
+  - 913|914|continues in time: after being put at the Tall Tale front she is moved to Canterlot|Chrysalis puts Pagala at the static Tall Tale front ... Pagala is moved to Canterlot|implicit
+  - 76|77|her longer-term planning is shown in making drones into junior statthalters, which builds up the statthalters she leads|unofficial leader of the statthalters ... indoctrinate drones to become junior statthalters|implicit
+  - 76|75|her slightly longer view is shown in giving up the wish to drain the Resistance in order to win Chrysalis's trust|slightly more long term planning ... convinces Velvet to collaborate to prove to Chrysalis that she is loyal|implicit
+  - 73|74|the Japanese analogy of rival services undermining each other matches her wish for the bauleiters' occupation to fail|The Army and Navy hated each other more than the enemy ... wants the bauleiters' "clean occupation" to fail|implicit
+  - 73|913|the analogy of unauthorized action by officers is the model for the chaos that Chrysalis must contain|launched unauthorized invasions (Manchuria) ... keep her away from causing chaos|implicit
+  - 73|77|the Sack of Acornage reads as an act of proving "Spirit" in the analogy's manner|to prove their "Spirit" ... carried out the Sack of Acornage|implicit
+- outward:
+  - 73|real-world Japanese military history of the interwar era, including Manchuria|Japan: The Army and Navy hated each other ... (Manchuria)
+  - 75|the Olenian Resistance, held elsewhere|drain the Olenian Resistance
+  - 75|Velvet, another character|convinces Velvet to collaborate
+  - 75|Chrysalis, another character to whom she must prove herself|prove to Chrysalis that she is loyal and helpful
+  - 77|the Sack of Acornage, an event and place held elsewhere, and the drones|Sack of Acornage to indoctrinate drones
+  - 74|the bauleiters and their occupation policy|the bauleiters' "clean occupation"
+  - 913|the Tall Tale front and the mobile front, and Chrysalis's war plan|static Tall Tale front ... mobile front
+  - 914|Canterlot, another place|Pagala is moved to Canterlot
+  - 76|the other statthalters she leads|unofficial leader of the statthalters
+- whole: The notes mostly hang together as one picture of a violent, defiant statthalter whom Chrysalis has to manage, though the analogy note is a looser fit and the two appearance-plan notes only continue each other.

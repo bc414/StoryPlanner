@@ -1,0 +1,7 @@
+- asks:
+  - inform | states the marker convention used to mark where each chapter begins, presumably so the model can correctly parse chapters in a document being referenced or about to be supplied | "The chapters are delimited like this: '> Chapter 4:'"
+- supplies:
+- shaping:
+  - how to segment input | tells the model to treat lines matching "> Chapter N:" as chapter boundaries when reading whatever text it is working from
+- openness: "The message states a fact (the delimiter format) rather than posing a question; it gives the model a rule to use rather than leaving anything open or offering a choice."
+- subject: The formatting convention (\"> Chapter N:\") used to mark chapter divisions in a manuscript or planning document

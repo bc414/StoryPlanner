@@ -1,0 +1,18 @@
+- steps:
+  - the author | asks | whether fact-checking can be standardized per worldbuilding axis, plus whether synthesis/interaction questions should be standardized | opens the stretch, message 2247 prompt
+  - the model | proposes | a 'unit test' style question set per axis (political, metaphysical, character, economic) and an 'integration test' set for synthesis, plus execution advice | 2247 response
+  - the author | supplies | the full system instruction text for their bucket categorizer (7 named axes, categorical/relational protocols) and asks the model to reevaluate the fact-check questions using it | 2248 prompt
+  - the model | outputs | a JSON validation-suite object mapping the 7 axes exactly to the pasted schema, with per-axis validation queries and a global synthesis block | 2248 response
+  - the author | repastes | the same system instruction, this time instructing the model not to follow it but only use it as context for deriving questions | 2249 prompt
+  - the model | rewrites | the same question set in prose form, organized by categorical vs relational axes plus a global integration section | 2249 response
+  - the author | corrects | the timeline questions, clarifying overlap with existing plans is fine and the real interest is impact/evolution of old material from new material | 2250 prompt
+  - the model | reorients | the whole question set around impact, connection, and retroactive-evolution framing, restructuring the categorical and relational sections and adding 'master merge' queries | 2250 response
+  - the author | requests | system instructions for a separate Gem to run the first exploratory brainstorming stage of the pipeline, plus a rationale for the design choices | 2251 prompt
+  - the model | drafts | a 'Speculative Architect' system-instruction blueprint (role, operational protocol, output formatting, tone/constraints) with an explanation of why each instruction serves the pipeline | 2251 response
+  - the author | pivots | to an unrelated question about which DNS service their modem uses | 2252 prompt
+  - the model | explains | how to check and switch DNS settings via web tools, command line, and router configuration | 2252 response
+  - the author | pivots | again to an unrelated request for a homemade pâté recipe | 2253 prompt
+  - the model | provides | a step-by-step sous vide chicken liver pâté recipe and offers a rustic variant | 2253 response
+- kept:
+- brought: The author brought the full text of their own system instruction for a worldbuilding bucket categorizer, pasting it twice as reference material for the model to design fact-checking and integration questions around.
+- loop: The author brought pipeline-design specifications (a categorizer's system instruction, then corrective feedback on it) and had the model iterate a validation-question set through several revisions before requesting a separate Gem's instructions, but no note from any of these exchanges was traced into the planning database, and the stretch ends with two unrelated personal-errand questions that also left nothing behind.

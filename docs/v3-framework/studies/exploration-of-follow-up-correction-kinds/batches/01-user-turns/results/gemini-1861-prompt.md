@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model added logic that marks the original notes as IsIncorporated and filters exports by it; the user wants no IsIncorporated logic at all | Don't do any logic with IsIncorporated | flat directive, terse, no reason given
+  - reading of the request | The model framed the NotebookLM task as producing a summary, when the user wants a reorganization into a new concise, complete, non-duplicating set of notes that keeps everything in the originals | I don't want a summary. I want a reorganization of my notes | flat, stated as a contrast between what is unwanted and what is wanted, with the requirement restated (must retain the full amount of the original)
+- about: The user rejects the model's IsIncorporated-based workflow and its summary framing, restating that they want a lossless, deduplicated reorganization of their notes into a new collection.

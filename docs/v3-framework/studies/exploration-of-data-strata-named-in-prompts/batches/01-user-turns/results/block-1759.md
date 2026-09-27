@@ -1,0 +1,5 @@
+- sources:
+  - The Lioness of Tall Tale, attached | the plan Vaspier is to be fitted into; the model is to read it and place him within it | How should Vaspier fit into my plans for The Lioness of Tall Tale, which I have attached | first-named
+  - my fanfiction of EaW | the author's own version, whose Chrysalis and changeling backstory differ from the characterization just given, so Vaspier is to be fitted to its version and not carried over unchanged | My fanfiction of EaW has a different characterization of Chrysalis and the changeling backstory | referred-to
+- order:
+- about: The user asks how the Vaspier character should be placed within the attached plan for The Lioness of Tall Tale, warning that their EaW fanfiction characterizes Chrysalis and the changeling backstory differently.

@@ -1,0 +1,6 @@
+- asks:
+  - explain | recount how the user arrived at making Applejack's parents industrialists rather than simply absent as in the show canon | "How did I develop the plan for Applejack's Parents to not be simply absent from the canon show but actually industrialists?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message treats it as settled that Applejack's parents were developed into industrialists (departing from their canon absence) and asks only for the account of how that development came about.
+- subject: Backstory development of Applejack's parents as industrialists, diverging from their absence in canon

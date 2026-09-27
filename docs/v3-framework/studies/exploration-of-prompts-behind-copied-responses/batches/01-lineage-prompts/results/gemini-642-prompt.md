@@ -1,0 +1,8 @@
+- asks:
+  - propose | put forward a plot/thematic solution to the story's looming apocalypse for the model to consider or build on | "I think the solution to prevent the apocalypse is..."
+  - explain | lay out the reasoning tying industry, magic, and the red/pink balance together as justification for that solution | "since red is rising, they have to increase the pink too"
+- supplies:
+  - idea | a proposed story mechanism: spreading friendship via trade/prosperity to offset a magic-linked "red" substance rising by increasing "pink" | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it names: the person states their own theory (\"I think the solution is...\") and gives reasoning for it, rather than posing an open question or a choice.
+- subject: A story's magic-driven apocalypse threat and a proposed fix involving trade, prosperity, and balancing \"red\" and \"pink\" forces

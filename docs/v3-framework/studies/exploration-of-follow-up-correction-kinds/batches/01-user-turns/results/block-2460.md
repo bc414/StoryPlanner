@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the dreamscape and Mali's arc analysis and asks a new question: why the Tzinacatl kept an ecological stewardship institution while the changelings' harmony ended in ecological collapse and warring hives. They ask for the answer to be grounded in the story plan.

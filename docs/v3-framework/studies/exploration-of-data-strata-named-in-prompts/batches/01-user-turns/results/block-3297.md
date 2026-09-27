@@ -1,0 +1,4 @@
+- sources:
+  - non-english language works, for human and non human | draw on this body of published works to extend the comparison set beyond the English-language ones just listed, both human-centered and animal or non-human-centered | What about in non-english language? For human and non human? | first-named
+- order:
+- about: The user asks the model to widen the comparison list of works to non-English-language ones, covering both human and non-human casts.

@@ -1,0 +1,4 @@
+- sources:
+  - the idea that the Universal Translator takes pony names literally (the model's suggestion earlier in this conversation) | liked and kept as a starting point, but the user says they have a better idea that refines it, so it is a suggestion being revised rather than adopted as it stands | I like the idea that the Universal Translator takes pony names literally. But I have an even better idea | referred-to
+- order:
+- about: The user accepts the model's literal-name-translation idea in part and replaces it with their own refinement: the old translator gives literal German renderings of names, while the later Cloudbury translator recognises names and keeps them.

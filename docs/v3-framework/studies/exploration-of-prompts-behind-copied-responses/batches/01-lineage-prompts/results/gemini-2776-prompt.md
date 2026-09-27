@@ -1,0 +1,10 @@
+- asks:
+  - brainstorm | proposes an explanation for why Applejack holds a general's rank without commanding tactics, and asks the model to weigh in on it | "What if Luna made Applejack a 'general' but didn't teach her tactics?"
+  - brainstorm | offers a second, more specific version of the same explanation, that Luna's tactics are ancient monster-hunting knowledge unsuited to trench warfare | "Or the tactics were 1000 years old, from her monster hunting days... not compatible with trench warfare"
+  - propose characterization | asks whether this backstory fits Applejack instead doing morale-leading and gunner work rather than actual commanding | "So Applejack didn't do much commanding, she was leading morale and at a machine gun?"
+  - refine comparison | qualifies the Rommel analogy already used for later battles, noting Applejack leads from the front for morale but obeys Henri's orders rather than defying them as Rommel did | "unlike Rommel who ignored orders to pursue his vision"
+- supplies:
+  - established lore, named battles | states that in later battles (3rd battle of Tall Tale, Bluebell River spearhead) Applejack leads from the front like Rommel but stays subordinate to Henri's orders | a couple of sentences
+- shaping:
+- openness: The message leans toward an answer by naming two candidate explanations (untrained-by-Luna vs. outdated-ancient-tactics) for Applejack's lack of tactical command, and separately refines an existing Rommel comparison by naming the specific way it doesn't fit (obedience to Henri).
+- subject: Backstory for why Applejack, made a general by Luna, leads through front-line morale and gunnery rather than tactical command, and how this fits her established Rommel-like role in later battles

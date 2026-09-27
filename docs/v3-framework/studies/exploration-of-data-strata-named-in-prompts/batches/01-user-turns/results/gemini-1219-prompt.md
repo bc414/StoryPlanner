@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether shifting their wake time across the seasons would be harmful, on the condition that they adjust bedtime to keep sleep duration constant, without pointing to any body of material.

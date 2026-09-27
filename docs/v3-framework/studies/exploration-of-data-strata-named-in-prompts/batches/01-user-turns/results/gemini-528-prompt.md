@@ -1,0 +1,4 @@
+- sources:
+  - this story plan (specifically its theme entities) | the material to analyze and draw on; examine the theme entities in it for overlap and possible consolidation | the theme entities in this story plan | referred-to
+- order:
+- about: The user asks the model to analyze the theme entities in the story plan under discussion and assess whether any could be consolidated.

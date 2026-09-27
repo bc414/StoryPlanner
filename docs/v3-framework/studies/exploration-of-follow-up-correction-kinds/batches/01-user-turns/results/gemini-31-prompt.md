@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The summary was presented as drawn from the whole 552-chapter file, though the model could only have seen part of a 2-million-word text; the user is pointing at the gap between the text's size and what could have been read | "The story is 2 million words long. How many words can you process in your context window?" | Indirect and implicit: a factual remark about the length followed by a probing question, with no explicit statement that the summary was wrong
+- about: The user gives the story's word count and asks how much text the model can hold in its context window, which tests whether the model's confident whole-story summary could have rested on a full reading.

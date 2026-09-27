@@ -1,0 +1,5 @@
+- sources:
+  - my existing plan for Twilight's epiphany | the author's already-made plan; the model is to keep it and combine it with the new detail rather than replace it | I already had some plan for twilight's epiphany | referred-to
+  - this new detail (the crystal-focused Pride Resonator shovel mechanic) | new material to be worked into the existing epiphany plan | synthesize with this new detail | referred-to
+- order:
+- about: The user says they already have a plan for Twilight's epiphany and asks the model to merge the newly discussed shovel-crystal detail into it.

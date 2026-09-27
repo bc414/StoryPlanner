@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting the places where Love Island USA challenges or contests their thesis, after the model's one-sided account of how the show supports it.

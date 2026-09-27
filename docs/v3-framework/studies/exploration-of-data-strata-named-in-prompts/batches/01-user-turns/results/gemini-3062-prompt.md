@@ -1,0 +1,4 @@
+- sources:
+  - the story bible | use as a story bible only; do not treat it as a comprehensive code base or answer about it in a coder persona, in this or other chats | Do not treat the story bible as a comprehensive code base | referred-to
+- order:
+- about: The user tells the model to stop describing the story bible as a code base and to stop using a coder persona when working with it, in other chats as well.

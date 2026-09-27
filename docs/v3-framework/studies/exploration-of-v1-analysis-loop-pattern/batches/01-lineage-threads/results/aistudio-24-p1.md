@@ -1,0 +1,19 @@
+- steps:
+  - the author | supplies raw material | an attached document, uncaptured | opening of the conversation
+  - the author | supplies a sorting scheme | a fixed set of paradigms and buckets (Chronology, Demographics, System Mechanics, Dialectics, Orphan Concepts) | immediately after the first attachment
+  - the model | sorts and consolidates | assigns lore text to each bucket as atomic thoughts, no verbatim/summary split yet | first reply, closing the first round
+  - the author | supplies new raw material | a second attached document, uncaptured | opening of the second round
+  - the author | resupplies the sorting scheme | the identical paradigm/bucket list, unchanged | immediately after the second attachment
+  - the model | sorts and consolidates | assigns text per bucket with a suggested consolidation paragraph plus verbatim quotes, covering the buckets touched by the new material | second reply
+  - the author | supplies new raw material | a third attached document, uncaptured | opening of the third round
+  - the author | resupplies the sorting scheme | the identical paradigm/bucket list | immediately after the third attachment
+  - the model | sorts and consolidates | repeats the full bucket set with consolidation and verbatim quotes, now filling additional dialectic buckets (sword vs. gunpowder, feudalism vs. absolutism) | third reply
+  - the author | supplies new raw material | a fourth attached document, uncaptured | opening of the fourth round
+  - the author | resupplies the sorting scheme | the identical paradigm/bucket list | immediately after the fourth attachment
+  - the model | sorts and consolidates | repeats the bucket set and additionally fills a previously orphaned bucket (magical monster ecology) | fourth reply
+  - the author | supplies new raw material | a fifth attached document, uncaptured | opening of the fifth round
+  - the author | resupplies the sorting scheme | the identical paradigm/bucket list | immediately after the fifth attachment
+  - the model | restructures and consolidates | nests all buckets under their paradigms, flags two buckets as now empty with their content reassigned elsewhere, and adds empty tracking fields for author directives and discarded text | fifth reply, closing this stretch
+- kept:
+- brought: The author brought a standing taxonomy of paradigms and buckets from the plan, unchanged across all five rounds, and repeatedly paired it with a new attached document of raw material to be sorted into it.
+- loop: The author repeatedly hands over new raw material plus the same fixed bucket taxonomy, and the model repeatedly re-sorts the accumulating material into that taxonomy, refining which bucket owns which quote and consolidating each bucket into a summary paragraph — but none of this five-round sorting output is itself traced into the planning database, so the loop runs entirely within the chat without depositing new notes.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, applying the explanation of NotebookLM's chunking and vectoring to their story plans by asking whether JSON or markdown is the better format, without disputing anything the model said.

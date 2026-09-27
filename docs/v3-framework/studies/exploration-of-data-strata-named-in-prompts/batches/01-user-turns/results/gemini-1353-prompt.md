@@ -1,0 +1,4 @@
+- sources:
+  - Chrysalis's new backstory (her successful revenge on the nepo babies) | treat as the current, changed version of her history and use it as a premise when working out how it affects Thranx's arc | Chrysalis's new backstory getting revenge successfully on the nepo babies | referred-to
+- order:
+- about: The user asks story-planning questions about whether Eros should let Eagleclaw help raise Grover and repent, and how that pardon and Chrysalis's revised revenge backstory feed into Thranx's arc, while describing Thranx as the good changeling who stayed in Griffenheim.

@@ -1,0 +1,13 @@
+- present:
+  - Twilight | says one more thing, tells Celestia they need to talk about sex | Synopsis
+  - Celestia | sighs, exhausted, answers and angrily talks about serfdom | Synopsis
+  - AJ | asks Luna if she is okay with this, says she doesn't believe it | Synopsis
+  - Rarity | says darling, that's quite enough | Synopsis
+  - Luna | is asked, says she is fine with it all | Synopsis
+- mentioned:
+- focalizer: undetermined
+- shows: none
+- sides:
+  - Celestia | she is worn out and only wants the conversation finished | Synopsis
+  - AJ | judges that Celestia is suppressing ambition and sex and wasting their potential, and does not believe Luna is fine | Synopsis
+  - Rarity | judges AJ's pressing unfair to Celestia, whom she calls a poor dear | Synopsis

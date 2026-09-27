@@ -1,0 +1,9 @@
+- steps:
+  - author | batch-delivers resolutions | five separate worldbuilding fixes across magic-tech, maritime economics, geopolitics, war logistics, and class structure | opening message of the exchange
+  - model | validates each resolution | a 'why it works' justification per topic, tying each to a real-world historical or economic analogue | first sub-section under each numbered heading in the response
+  - model | extrapolates consequences | a 'sounding board' follow-up question per topic speculating on downstream effects or character reactions | second sub-section under each numbered heading, immediately after each validation
+  - model | offers a fork for what comes next | choice between stress-testing a named chapter sequence or moving to another lore area | closing lines of the response
+- kept:
+  - note 5539 | the author's own words in this record | keeps the Tzinacatl de jure/de facto paragraph from the author's prompt, slightly extended with continent/land-border detail and 'to the Equestrian ponies', filed as a Subject note titled 'Tzinacatl'
+- brought: The author brought a set of five already-worked-out worldbuilding resolutions (on Griffon machine tech, maritime insurance, the Tzinacatl jungle's status, teleportation logistics, and class conflict) for the model to check and build on.
+- loop: The author delivers a batch of settled lore decisions for confirmation, the model validates and spins out speculative follow-up questions on each, but the planning database keeps only the author's own original wording on one of the five topics, lightly expanded, filed as a standalone subject note.

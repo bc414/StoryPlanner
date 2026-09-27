@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how Chrysalis would mass-produce love harvesters, proposes layer-based lithography given the changelings' limited spell range, and adds a new POW engineer character, Hans Kessel, as an in-story technical explainer, without pointing the model at any body of source material.

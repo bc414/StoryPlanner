@@ -1,0 +1,6 @@
+- sources:
+  - the inhibitor ring and phase 1 detox setup from the previous analysis (rings outside the expo center, ring in phase 1, concrete jail cell) | keep the ring in phase 1, drop the outside-work part, and treat the concrete cell as open to change | "the ring is necessary in phase 1, but is the concrete jail cell necessary" | referred-to
+  - the author's own plan for chapter 6 (no process in place, plenty of bread, guards assume red love addiction is normal) | treat as settled story premise that Fluttershy starts from a clean slate | "I don't plan on there be any process in place" | first-named
+  - the model's general historical knowledge of how US and UK camps handled German and Japanese conscripts | draw on it to answer the question, as a real-world comparison for the camp design | "How were German conscripts handled by US and UK camps? What about Japanese?" | first-named
+- order:
+- about: The author revises the changeling camp design by dropping outside work and stating that no detox process exists at the start of chapter 6, then asks whether phase 1 needs a concrete cell and requests historical comparisons of how German and Japanese conscripts were handled.

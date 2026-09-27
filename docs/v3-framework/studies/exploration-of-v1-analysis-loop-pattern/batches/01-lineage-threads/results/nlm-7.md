@@ -1,0 +1,49 @@
+- steps:
+  - the author | opens historical query | asks for the origin date of the prequel-sequel structure idea | at the start of the conversation
+  - the model | answers with a date and rationale | gives a specific date and the 'Worldbuilder's Bloat' reasoning | right after the opening query
+  - the author | redirects to an earlier origin | asks what came before that date | immediately after the first answer
+  - the model | extends the timeline backward | traces the idea to earlier brainstorming sessions and a lore/structure conflict | following the redirect
+  - the author | brings a draft for review | pastes a candidate list of analytical lenses for a system prompt | opening a new thread
+  - the model | evaluates the draft against history | judges it non-exhaustive and proposes three additional lenses with justification | right after the draft is submitted
+  - the author | requests a narrative reconstruction | asks how a specific plot mechanic was arrived at | opening a new thread
+  - the model | narrates a development | gives a step-by-step account of how the mechanic was built | following the request
+  - the author | requests a narrative reconstruction | asks how a character-backstory plan was developed | continuing the pattern
+  - the model | narrates a development | gives a step-by-step evolution of the backstory | following the request
+  - the author | brings a meta-task | asks to find examples of good vs bad model-asked questions to calibrate future prompting | opening a new thread
+  - the model | analyzes and drafts | produces a taxonomy of good/bad questions plus a draft instruction | responding to the meta-task
+  - the author | seeks validation | asks whether the revealed-preference reasoning behind that taxonomy is sound | right after receiving the taxonomy
+  - the model | validates and elaborates | confirms the reasoning and frames it as a personal alignment process | following the validation request
+  - the author | requests formalization | asks for a definitive outline of the categories for the system instruction | continuing the refinement
+  - the model | delivers a structured outline | gives a full taxonomy plus synthesized instruction text | following the request
+  - the author | probes completeness | asks whether the four categories are exhaustive or more exist | right after receiving the outline
+  - the model | expands the taxonomy | adds five further orthogonal, micro-level categories | following the probe
+  - the author | requests a narrative reconstruction | asks for the chronological evolution of a faction's lore | opening a new thread
+  - the model | narrates a development | gives a chronological breakdown of that faction's arc | following the request
+  - the author | requests a dated timeline | asks for a dated history of a character's rising importance | continuing the pattern
+  - the model | delivers a dated timeline | gives a dated list of decisions elevating that character | following the request
+  - the author | asks for an origin point | asks when a narrative-theory concept first appeared | opening a new thread
+  - the model | answers with a date and source | names a date and the source material | following the request
+  - the author | asks for an origin point | asks when a philosophical framework first appeared | continuing the thread
+  - the model | answers with dates | gives two dated milestones | following the request
+  - the author | requests a causal chain | asks for the conversational chain leading to that framework | follow-up on the same thread
+  - the model | narrates a causal chain | gives a step-by-step derivation | following the request
+  - the author | requests a causal chain | asks for the chain of epiphanies behind a real-world allegory | opening a new thread
+  - the model | narrates a phased development | gives a multi-phase breakdown of the allegory | following the request
+  - the author | pushes further back | asks for an even earlier root of one piece of that mapping | right after the phased answer
+  - the model | narrates an earlier root | gives a detailed account of that specific mapping's origin | following the push
+  - the author | requests an origin point | asks when a prior model ceased to be the definitive template | opening a new thread
+  - the model | narrates a development | gives a chronological account of that template's dismantling | following the request
+  - the author | requests a narrative reconstruction | asks for the developmental history of a drug/lore system | opening a new thread
+  - the model | narrates a development | gives a chronological history of that system | following the request
+  - the author | requests a deeper pass | asks how that same lore evolved across the fuller history | follow-up on the same topic
+  - the model | narrates a development | gives a fuller evolution adding linguistic and thematic layers | following the request
+  - the author | requests a causal and evaluative reconstruction | asks how and why a villain's role shifted over time | opening a new thread
+  - the model | narrates development and rationale | gives a chronology plus analytic reasons for the shift | following the request
+  - the author | requests a narrative reconstruction | asks how a character became the protagonist, start versus evolution | opening a new thread
+  - the model | narrates a development | gives an arc synthesis from early state to final state | following the request
+  - the author | requests a dated timeline | asks for a real-time dated timeline of the decisions behind that elevation | follow-up on the same thread
+  - the model | delivers a dated timeline | gives a second dated list of key decisions | following the request
+- kept:
+  - 5170 | the plan held this text before this reply | keeps a pre-existing description of a mechanism that detects conflict and dispatches responders to treat symptoms rather than root causes, filed under an early-era subject; the model's later answer on a real-world mapping echoed this already-held note rather than the note drawing anything new from the conversation
+- brought: The author brought a draft list of candidate analytical-lens text for a system prompt and asked for it to be checked against the full prompt history for completeness.
+- loop: The author repeatedly brings retrospective questions and drafts to have the model mine the entire prompt-history archive for origin dates, causal chains, dated timelines, and taxonomies used to build future prompting tools; the one traced note shows this loop running mostly outward from the archive, since the note already existed in the plan and was simply echoed back inside the model's synthesized answer rather than being newly deposited by this exchange.

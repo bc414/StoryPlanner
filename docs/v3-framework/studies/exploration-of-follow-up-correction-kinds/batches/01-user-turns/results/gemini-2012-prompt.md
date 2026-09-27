@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the waterfall design and supplies their existing Phase 0 system instruction, asking for it to be rewritten for the waterfall approach and for any JSON output changes that would help Phase 1.

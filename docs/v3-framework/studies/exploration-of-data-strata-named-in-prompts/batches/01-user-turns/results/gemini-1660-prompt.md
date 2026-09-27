@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model how long the dam-breach flood would take and how far ahead of enemy contact it should be done, without pointing at any body of material.

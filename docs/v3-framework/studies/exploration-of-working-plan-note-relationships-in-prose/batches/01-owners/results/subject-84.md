@@ -1,0 +1,17 @@
+- relations:
+  - 407|404|presupposition: the power source in 407 only makes sense as the fuel of the teleportation network that 404 defines|powered by crystals and then red love canisters / teleportion supply network|implicit
+  - 410|407|consequence of the power source: the hub failing when it 'runs out of crystals' depends on the crystals that 407 says power the system|runs out of crystals / powered by crystals|implicit
+  - 410|404|states a weakness of the structure that 404 defines, a network between hubs, by naming the hub as the single point of failure|The supply hub is the bottleneck / between hubs/bunkers|implicit
+  - 405|404|the canon source of the hubs: 405 says the technology uses HOI4 supply hubs, and 404 has the network run between hubs|Utilizes HOI4 supply hubs / between hubs/bunkers|implicit
+  - 405|410|the canon hub in 405 is the bottleneck that 410 sets out; 410 gives a story-specific role to the hub|supply hubs / The supply hub is the bottleneck|implicit
+  - 408|404|plan for putting the stated function on the page: the network of 404 is to be shown in use in combat scenes|Used during combat scenes / supply network|implicit
+  - 408|410|the combat scenes are the likely occasion for the hub being overrun that 410 names as a failure; the hub vulnerability is plausible in combat|Used during combat scenes / overrun|implicit
+  - 406|404|history of invention gives the purpose behind the network: it was developed for hospitals and field tents, which the supply network would serve|Developed by Twilight for the hospitals and field tents / supply network|implicit
+- outward:
+  - 403|the Empire at War game, where the same thing is a researchable special project|In EaW, it is a researchable special project
+  - 405|the Hearts of Iron 4 game mechanic of supply hubs|Utilizes HOI4 supply hubs
+  - 406|the character Twilight, and the place Ain Trotgourait, held elsewhere in the world|Developed by Twilight ... in Ain Trotgourait
+  - 406|an earlier event, Twilight's burnout and her return home|after she went back home from burnout
+  - 407|the red love canisters, a lore item held elsewhere|then red love canisters
+  - 408|chapters 1 and 3 of the story, where the combat scenes are|combat scenes in chapter 1 and 3
+- whole: The notes hang together loosely around the network-of-hubs core in 404, with power (407), weakness (410), canon source (405) and planned use (408) all bearing on it. The canon note 403 and the history note 406 stand mostly apart.

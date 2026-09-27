@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model tied every name to Aquileia, which overlooks that Equestrians are isolationist and that Celestia would object to a club openly sponsored by a foreign state. The venue is meant to hide that it was built to create demand for Aquileian exports. | "less obvious that the place was designed to induce demand for Aquileian exports"; "Equestrians are isolationist" | Mild and polite. It opens with praise for the top pick, asks whether there are alternatives, and gives the in-world reason as a constraint.
+- about: The user likes the first name suggestion but asks for options that drop Aquileia, because the in-world political setting makes an overt foreign-sponsored club implausible.

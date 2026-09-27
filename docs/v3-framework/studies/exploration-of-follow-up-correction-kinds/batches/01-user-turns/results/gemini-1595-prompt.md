@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model explained the conscripts' non-repulsion as ordinary fear and obedience (scared, following orders, no predatory intent); the user gives the world's own cause, that they are drugged to feel nothing but obey (jaeger-geist) | 'they've been drugged to feel nothing but follow orders (jaeger-geist)' | in passing, as a restated understanding opening with 'Got it, so', no explicit flag of disagreement
+  - fact of the world | The model put the predatory veteran Jaeger inside the tank as the one the shield might shove; the user places the real sadists as the statthalters riding in half-tracks that keep moving | 'The actual sadists, the statthalters, are in half tracks which keep moving' | flat statement of the world's arrangement, folded into a summary rather than framed as a correction
+- about: The user accepts the model's account of why the shield fails against industrialized war while restating it with the story's own mechanisms (drugged conscripts, sadist statthalters in half-tracks) and adding that Chrysalis, as an internationalist, studied the spell as a souped-up Le Cercle Intime.

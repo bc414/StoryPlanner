@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user posts only a YouTube link with no comment, adding new material for the model to look at rather than saying anything about the debt summary before it.

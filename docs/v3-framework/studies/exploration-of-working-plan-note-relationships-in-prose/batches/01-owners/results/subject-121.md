@@ -1,0 +1,48 @@
+- relations:
+  - 767|450|the peacetime confidence resting on inflated Pink Love is what later breaks: the shields looked invincible, then the same Pink Love turns to panic under the Stukas|looked invincible on the proving grounds / shatters this illusion, Pink Love instantly converts to panic|implicit
+  - 760|323|continues in time: the volunteer army is authorised, then the crystals are allocated in preparation for the war that follows|after the dotted line report|explicit
+  - 760|267|the volunteer-only army is what the author says mirrors the West today|volunteer-only Equestrian Army|implicit
+  - 760|266|the volunteer-only founding is the basis of the claim that strength comes from solidarity and asset specificity, not conscription|volunteer-only / not from conscription|implicit
+  - 760|759|the volunteer-only army is explained by why ponies volunteered, out of care for each other|volunteer-only / volunteered because they cared about each other|implicit
+  - 323|412|the same choice, crystals to teleporting wounded and shields instead of weapons, is stated as a history event and then judged naive and failing|teleporting wounded out instead of destructive magical weapons|implicit
+  - 323|779|Celestia's authorisation of friendship shields is instanced in Luna's troops being equipped with them|Celestia authorizes friendship shields / equipped with Cadance's Friendship Shields|implicit
+  - 760|779|Luna, named field marshal at creation, is later shown leading the Vanguard/Border Army|Blueblood and Luna are field marshals / led by Luna|implicit
+  - 760|306|Blueblood, named field marshal at creation, later makes the decision to write off Vanhoover|Blueblood and Luna are field marshals / Blueblood makes the cold calculation|implicit
+  - 779|450|Luna's hold-the-line, trust-based shield doctrine is the setup for the collapse under tanks and Stukas|hold a static line, relying on mutual trust / the shield destabilizes|implicit
+  - 779|307|continues in time: the vanguard on the line is shattered and its remnants are absorbed by Blueblood's secondary lines|border vanguard / shattered, fleeing remnants|implicit
+  - 450|307|continues in time: after the defeat of the shields, the survivors fall back and Blueblood fights a delaying retreat|defeated by brutal industrial force / shattered, fleeing remnants|implicit
+  - 306|307|two stages of Blueblood's response: sacrificing Vanhoover to gain time, then holding the junction so trains can leave|mobilize his trains / civilian trains ... depart|implicit
+  - 779|773|the static-line doctrine is what the Changeling Heer's mission command and panzers are said to be superior to|Equestrian static-line doctrine|implicit
+  - 775|773|the French-defeat model of obsolete doctrine is what the plan for the Changeling win gives, doctrine and material rather than sabotage|tragedy of obsolete doctrine / objectively superior to the Equestrian static-line doctrine|implicit
+  - 775|779|the Maginot-style fixed defence is mirrored by the order to hold a static line|Maginot Line / hold a static line|implicit
+  - 770|773|the second note extends the first: detection spells exist and Celestia overcorrected, so the enemy wins by force instead of infiltrators|In fact, Celestia overcorrected / detection spells|explicit
+  - 770|280|the plan to avoid real infiltrators is joined by the plan in which the enemy only fakes infiltration to feed paranoia and drain detection casters|detection spells / paranoid detection spells on their own comrades|implicit
+  - 773|280|the flawless detection net is shown to have a cost: the unicorns are drained by casting it before the tank assaults|flawless magical counter-intelligence net / drained when the actual tank assaults begin|implicit
+  - 277|266|readers' expected conscription and horde model is answered by the claim that strength is not from conscription or horde aesthetics|mass conscription / not from conscription or horde aesthetics|implicit
+  - 268|266|the theme of volunteers outperforming conscripts states in general what the binding-logic note says of asset specificity|smaller elite force of asset specific volunteers / asset specificity and solidarity|implicit
+  - 265|266|combined arms as harmony is the same idea as asset specificity, each pony's special talent mattering|special talents and working together / asset specificity|implicit
+  - 265|308|the general claim about combining talents is instanced in pegasi doing weather and earth ponies farming for explosives|special talents / pegasi still do weather and the earth ponies farm|implicit
+  - 266|308|asset specificity is named as the basis of Manehattan's total mobilization|total mobilization based on asset specificity|implicit
+  - 412|308|continues in time: after the naive first approach fails, the army mobilises industry for explosives|naive and fails / mobilizing ponies for explosives|implicit
+  - 308|307|the explosives mobilisation is how the northern front is stalled, alongside the delaying fight for every mile|stall the northern front / fight for every mile of the Northern plains|implicit
+  - 764|412|tension: one note says the shields mean the army is not delusional, the other calls the shield-and-teleport approach naive|not delusional / naive and fails|implicit
+  - 764|767|the shields' technology and the army's belief in superiority match the proving-ground impression of invincibility|earnestly believe their friendship will make them superior / looked invincible|implicit
+  - 268|773|tension: the theme says volunteer-based cooperation beats conscripted force, but the plan has the Equestrian volunteers lose to the Changeling Heer's doctrine|will lose to a smaller elite force of asset specific volunteers / objectively superior to the Equestrian static-line doctrine|implicit
+  - 450|773|two accounts of the defeat: psychological unpreparedness for industrial war versus doctrine and logistics being superior|not psychologically prepared for industrial total war / Auftragstaktik ... Panzer divisions|implicit
+- outward:
+  - 760|the Dotted Line Report and its delivery, held elsewhere|Prince Blueblood delivers the Dotted Line Report
+  - 767|Celestia's Stagnation of Harmony and the Pink Love system|Celestia's 1,000-year Stagnation of Harmony
+  - 775|the real-world Fall of France, the Maginot Line and Blitzkrieg|Fall of France in 1940
+  - 277|the game's Equestrian focus tree and its war-support rule|Put Down the Magic of Friendship
+  - 770|the Equestria at War trope and the story called TLTT|usual EaW trope
+  - 773|the 1002 Canterlot Wedding infiltration and the Changeling Heer, Trimmel and Blitz-Essenz lore|1002 Canterlot Wedding infiltration
+  - 306|Vanhoover's encirclement, Trimmel and Mudbeak|Mudbeak-inspired calculation to write it off Vanhoover
+  - 307|the Changeling Heer and the cities whose trains are evacuated|Shire, Marechester, Whinnyapolis, and Bales
+  - 280|the VOPS propaganda organisation and the Stab-in-the-Back myth|VOPS actively feeds
+  - 308|Manehattan, the Aquileian aligned tribes and Tall Tale|secure transfer of chemistry knowledge from Tall Tale to Manehattan
+  - 779|Cadance's shield design and the changelings' reputation|Cadance's Friendship Shields
+  - 323|Twilight's magical supply organization and the Canterlot crystal reserves|Twilight's magical supply organization
+  - 268|the Nazi and Soviet mass-conscription models|Nazi and Soviet model of mass conscription
+  - 450|the Stukas with Jericho Trumpets and enemy tanks and artillery|Ju 87 Stukas activate their Jericho Trumpets
+  - 764|Aquileian and Crystal engineering and the Vanhoover border|bleeding-edge Aquileian/Crystal engineering
+- whole: The notes hang together as a set, running from founding and binding logic through the shield doctrine and its collapse to the retreat and mobilisation, with theme and reader-plan notes commenting on that arc, though a few notes (the laughter one, the Fall of France analogy) sit largely apart and some pairs pull against each other.

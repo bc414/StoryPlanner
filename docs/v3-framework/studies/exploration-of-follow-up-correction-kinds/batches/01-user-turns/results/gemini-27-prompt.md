@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the chapter-mapping exercise to a new, broader question about how to build a meaning-based story analysis and retrieval system, what it is called, and whether it has been done, without challenging anything in the previous turn.

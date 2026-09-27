@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up factual question about why T-bill interest is exempt from state and local taxes, without pointing at any body of material for the model to use or avoid.

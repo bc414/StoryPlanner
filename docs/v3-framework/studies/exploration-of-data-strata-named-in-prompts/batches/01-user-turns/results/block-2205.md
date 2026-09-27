@@ -1,0 +1,5 @@
+- sources:
+  - blog posts or articles from anyone on any website | search for and compare against the user's method; find ones that describe a process of using AI for writing like theirs | any blog posts or articles from anyone on any website | first-named
+  - the manner that I have been using it as of June 2026 | the user's own AI-assisted writing process, taken as the standard that found posts must match | the manner that I have been using it as of June 2026 | referred-to
+- order:
+- about: The user asks the model to find published blog posts or articles anywhere online that describe using AI for creative writing in the way the user has been doing as of June 2026.

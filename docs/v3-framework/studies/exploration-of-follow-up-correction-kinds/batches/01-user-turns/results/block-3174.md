@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting the model to link the newly built Applejack genealogy to her imposter syndrome as a storytelling driver, without challenging anything the model said.

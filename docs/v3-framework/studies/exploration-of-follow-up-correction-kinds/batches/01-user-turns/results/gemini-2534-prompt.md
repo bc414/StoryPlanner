@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Storm King and Fizzlepop framing as the reason she is second in command and redeemable, then extends it with a timeline (momentum before 1002, arrival at Mount Aris in 1006) and an economic point that falling Zebrican slave quotas would push Chrysalis toward the Canterlot Wedding.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks up the model's third "villain", the federal AI policy framework, and asks a follow-up question about who is really behind it, without disputing anything the model said.

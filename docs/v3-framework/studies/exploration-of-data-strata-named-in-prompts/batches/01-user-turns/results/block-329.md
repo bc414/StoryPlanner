@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh story-structure options: whether Trimmel's advice to Chrysalis carries poetic irony, how and when Trimmel comes to understand her, and whether Applejack should learn the truth about Chrysalis or Celestia first, with pros and cons of each order.

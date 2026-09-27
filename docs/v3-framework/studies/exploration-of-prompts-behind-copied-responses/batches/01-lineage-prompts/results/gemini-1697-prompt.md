@@ -1,0 +1,6 @@
+- asks:
+  - analyse | asks for a narrative and literary analysis of a story plan | "Give a narrative and literary analysis of this story plan"
+- supplies:
+- shaping:
+- openness: Open: the message names only the general task (narrative and literary analysis) without specifying scope, focus, length, or format for the response.
+- subject: Request for analysis of a story plan (referenced but not included in the message text)

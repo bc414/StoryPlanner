@@ -1,0 +1,12 @@
+- steps:
+  - the author | brings a plot-lock decision | a plan point that a character stays ignorant of who really killed his comrade, plus a request to weigh it and to read a cameo scene | opening message of the thread
+  - the model | delivers a two-part analysis | a pros/cons breakdown ending in a verdict on the ignorance choice, and a thematic reading of the cameo built on a quoted passage | first response
+  - the author | corrects the model | flags the cameo reading as a hallucination and points back to what the source document actually shows | following message
+  - the model | retracts and rebuilds | apologizes, reworks the cameo analysis around the corrected premise, and reaffirms the earlier verdict on the ignorance choice | next response
+  - the author | brings a new causal hypothesis | a proposed chain of battle outcomes and policy shifts explaining a change in occupation style, asking whether it fits the antagonist's stated logic | later message
+  - the model | validates and elaborates | confirms the hypothesis and lays out the mechanism in stages, tracing consequences for two named characters | closing response
+- kept:
+  - note 2514 | pasted from this reply inside the author's own framing | keeps the model's closing line about honesty failing to save the town, wrapped in the author's own framing about needing to become the general, filed to the link for the hard-truth-speech scene
+  - note 4589 | the author's own words in this record | keeps the author's own account of the first battle's failure and the antagonist's reaction to it, filed under the subject entry for the character it concerns
+- brought: The author brought forward already-decided plan elements - a character's arc, a prequel document's cameo scene, and the occupation's political structure - to test them for consistency and to get them argued out loud.
+- loop: The author states or restates a plan decision or hypothesis and asks the model to test it; the model answers with a verdict or elaboration, is corrected once when it invents detail, and reworks accordingly; what the plan keeps is not the model's full analysis but a single closing line lifted into a framed note plus the author's own restated hypothesis, each filed to a specific entity in the database.

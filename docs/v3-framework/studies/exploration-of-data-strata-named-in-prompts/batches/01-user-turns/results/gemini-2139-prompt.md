@@ -1,0 +1,8 @@
+- sources:
+  - my story plans | review again and synthesize the new points with them to answer the question | Please review my story plans again and synthesize | referred-to
+  - my materialist framework | treat as true and as overriding the show's account: magic is about special talent discounts, not raw power, so the Alicorn-magic transfer is not real | which isn't actually true in my materialist framework after all | referred-to
+  - the season 4 finale with Tirek, befriending Discord, and Celestia's scheme | show canon to be reread through the author's framework, with the magic-transfer claim rejected and the events treated as Celestia making a point that friendship is magic | the season 4 finale with Tirek | referred-to
+  - this (the model's preceding analysis of the lore evolution) | to be weighed for whether it sharpens the question of why Celestia held Twilight and Starlight back | Does this sharpen why Celestia did not let Twilight and Starlight go | referred-to
+- order:
+  - my materialist framework over the season 4 finale's Alicorn-magic scheme | the scheme to give all the Alicorn magic to Twilight isn't actually true in my materialist framework
+- about: The user asks whether the model's new lore analysis explains why Celestia kept Twilight and Starlight from the front and why Twilight disobeyed to save Applejack, recasts the Season 4 finale as Celestia's argument that friendship is magic under his materialist framework, and asks the model to review his story plans again and synthesize.

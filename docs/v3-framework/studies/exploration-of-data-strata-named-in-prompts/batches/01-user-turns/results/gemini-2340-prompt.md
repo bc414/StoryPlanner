@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is proposing new backstory for the Aquileian navy, covering the timeline from 981 to 987, the fate of the royalist ships, Dennis Discret's turn to Aquileian baron, and the plain mixed-species crews that Coltbert would later redesign, without pointing the model at any body of material.

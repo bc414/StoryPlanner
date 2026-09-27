@@ -1,0 +1,9 @@
+- sources:
+  - my original note on why Starlight stops the rampage (Pinkie offering a window of what would happen to her, not Celestia or Twilight telling her) | keep the core reason as still standing; only the gray, depressed Pinkie detail in it has been dropped | I originally noted that Starlight decides to stop | referred-to
+  - the revised Pinkie version (Pinkie happy to see Rainbow, won't return to Tall Tale, Temberik and Maud accept her without the partying) | treat as the current plan, replacing the cut depressed-and-gray Pinkie | I actually cut out the part where Pinkie is just pure depressed and gray in favor of | referred-to
+  - the pivot to Starlight wanting to stay because she needs to stop being the apex predator | accepted as settled and good; build the epiphany on it, but not the smiling or manic-on-the-ground version | So the pivot to Starlight wanting to stay because she needs to stop being the apex predator is good | referred-to
+  - the plane scene where Starlight and Rainbow were manic, egging each other on | fixed story fact that limits the epiphany: she can't be manic once she has landed and sits through the negotiation meeting | She and Rainbow were manic while in the plane | referred-to
+  - Starlight's canon character development | a resource to draw on for other epiphany ideas that reveal something about her as a character | utilizes something from her canon character development | referred-to
+- order:
+  - the revised Pinkie version | the original note | I actually cut out the part where Pinkie is just pure depressed and gray in favor of
+- about: The user accepts the earlier suggestion for Starlight's pivot but revises the Pinkie scene and rejects the smiling/manic epiphany on the ground, then asks for alternative epiphanies that fit her character and canon development.

@@ -1,0 +1,4 @@
+- sources:
+  - the crystal heart-inspired Friendship Shields being standard issue (the shield idea from the model's previous turn) | treated as a hypothetical premise to reason from, not as settled | "if the crystal heart-inspired Friendship Shields were standard issue" | referred-to
+- order:
+- about: The user asks a single follow-up question, testing whether the just-proposed premise that Friendship Shields were standard issue would make the Giggle at the Ghostly doctrine literal military protocol.

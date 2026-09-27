@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new question about whether Chrysalis could sincerely believe she is liberating ponies from Celestia's repressive harmony, citing Coltbert's parlours as evidence, which adds a motive to the analysis without saying the earlier framing was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the Pétain–Applejack parallel by proposing an invented in-world Pétain that Henri explains, and links it to how Synovial picks his insulting name and to Chrysalis's collaborator plan for Applejack, extending the plan without disputing anything the model said.

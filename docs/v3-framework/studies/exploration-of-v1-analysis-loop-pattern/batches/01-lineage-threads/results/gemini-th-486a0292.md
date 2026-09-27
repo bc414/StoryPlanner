@@ -1,0 +1,25 @@
+- steps:
+  - author | integration request | belief about Filthy Rich/AJ's-parents alignment and Diamond Tiara/CMC alignment, asks for analysis not dialogue | opening message about chapter 7
+  - model | character-and-scene analysis | motivations for both characters plus a scene-by-scene placement across the chapter | reply to the integration request
+  - author | rename proposal | wants the French word for 'players' substituted into an existing club name while preserving the FJA acronym and a game-theory link | message proposing the swap
+  - model | naming confirmation | matches the request to a variant already sitting in the notes, breaks down the acronym and its triple meaning | reply to the rename proposal
+  - author | grammar check | offers a specific candidate phrase and asks if it is grammatically sound | message with the exact phrase
+  - model | grammar verdict | confirms correctness, ties the construction back to the game-theory and hedonism themes | reply to the grammar check
+  - author | evaluative request | asks for an analysis of that same name serving as the first, grandest parloir | message asking for full analysis
+  - model | naming verdict | ranks the new name over the old one, breaks down linguistic/thematic/lore layers | reply to the evaluative request
+  - author | translation request | asks for the English rendering of the finalized name | short follow-up message
+  - model | translation options | gives a direct translation plus two tonal variants | reply to the translation request
+  - author | grammar-comparison request | asks why two sibling names use different French constructions, stating a wish not to butcher the grammar | message comparing the two existing names
+  - model | grammar explanation | distinguishes abstract-collective vs plural-noun constructions and applies the rule to the new name | reply to the comparison request
+  - author | continuity audit request | asks whether shadow funding of industrialists by the villain has already been planted in the plan | message opening a new topic
+  - model | continuity survey | inventories existing scenes/characters that already reveal the funding scheme, flags one thread as backstory-only | reply to the continuity request
+  - author | staging question | asks whether a sovereign figure should attend an upcoming debate, requests pros and cons | message opening the debate-staging question
+  - model | attendance verdict | recommends absence, argues the thematic case, proposes an alternate cutaway scene | reply to the staging question
+  - author | motivation request | supplies a premise (the sovereign doesn't yet believe in the challenger, wants a return to stagnation) and asks for her reasoning to skip the debate | follow-up message
+  - model | motivation breakdown | lays out four distinct rationales for the sovereign's non-attendance | reply to the motivation request
+  - author | rhetoric-strategy request | asks how the debate opponent should court voters fearful of two allied groups and play a family-values/hypocrisy angle, anticipating the protagonist will expose his own conduct | message opening the debate-rhetoric question
+  - model | rhetorical playbook | supplies attack lines on the two feared groups, a family-values wedge, and a pivot for deflecting the hypocrisy charge | reply to the rhetoric-strategy request
+- kept:
+  - note 614 | one sentence lifted from this reply | keeps the attack lines calling the buffalo saboteurs/dangerous and framing a vote for the protagonist as surrendering territory, filed under the plot point for the debate scene
+- brought: The author brought forward established plan elements across the exchange — character alignments already sketched, an existing club name and its acronym constraint, and a premise about a sovereign figure's disbelief in the protagonist — using each as a constraint for the model's analysis rather than starting from nothing.
+- loop: The author repeatedly hands the model a narrow, plan-grounded question (naming grammar, character placement, continuity check, staging choice, rhetorical strategy) and receives back a structured verdict or breakdown each time, but only one small stretch of that output — a rival character's attack lines — was actually copied into the plan, attached to the debate plot point.

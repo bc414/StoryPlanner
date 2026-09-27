@@ -1,0 +1,5 @@
+- sources:
+  - official EaW flavor text for the Griffonian Empire | search it for existing candidate names for the institution Chrysalis attends in Griffenheim | I am attaching official EaW flavor text for the Griffonian Empire | first-named
+  - official EaW flavor text for the Griffonian Republic | search it for existing candidate names for the institution Chrysalis attends in Griffenheim | and the Griffonian Republic | first-named
+- order:
+- about: The user attaches two documents of official EaW flavor text for the Griffonian Empire and Republic and asks whether they already contain a name that could serve as the institution Chrysalis attends in Griffenheim.

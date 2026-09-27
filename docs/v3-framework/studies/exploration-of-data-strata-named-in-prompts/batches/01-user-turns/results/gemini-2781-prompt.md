@@ -1,0 +1,7 @@
+- sources:
+  - Grover III and the archons inventing griffonian chivalry to sanitize the warlord era | weight: offered as the analogy/model the turn wants checked against the Pillars' behavior | marked by: "Would the Pillars of Old Equestria be like Grover III and the archons inventing griffonian chivalry to sanitize the warlord era?" | referred-to
+  - the Hearth's Warming Eve story | weight: treated as an invented cover narrative to be reinterpreted as propaganda encouraging cooperation | marked by: "they invented the Hearth's Warming Eve story about how if the ponies don't cooperate the windigos would come" | referred-to
+  - the labor strikes that caused the blizzard | weight: treated as the real underlying event that the Hearth's Warming Eve story sanitizes/conceals | marked by: "sanitizing the labor strikes that caused the blizzard into a story to encourage cooperation" | referred-to
+- order:
+  - labor strikes that caused the blizzard over the Hearth's Warming Eve story | the story is framed as an invented sanitization covering up the real strikes, 'sanitizing the labor strikes... into a story to encourage cooperation'
+- about: The user asks whether the Pillars fabricated the Hearth's Warming Eve myth the same way Grover III's archons invented griffonian chivalry, turning a real event (labor strikes causing the blizzard) into a sanitized cooperation fable.

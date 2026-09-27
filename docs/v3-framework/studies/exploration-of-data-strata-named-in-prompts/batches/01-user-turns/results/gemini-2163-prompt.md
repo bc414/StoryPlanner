@@ -1,0 +1,4 @@
+- sources:
+  - the raw notes | the author's own material to be reread, picked through and sorted into the buckets; what the atomic notes are made from | I would reread the raw notes and pick and choose and categorize into the buckets | referred-to
+- order:
+- about: The user is specifying design requirements for a note-taking layout (short atomic notes, orthogonal buckets, all fields visible and editable at once) so they can sort their raw planning-session notes into usable notes later.

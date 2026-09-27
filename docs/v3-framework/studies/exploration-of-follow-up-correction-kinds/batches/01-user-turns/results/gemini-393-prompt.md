@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Skyfall blockade discussion to ask a new research question about how the British WW2 or French WW1 war economies treated workers' wages and farmers, without disputing anything in the model's answer.

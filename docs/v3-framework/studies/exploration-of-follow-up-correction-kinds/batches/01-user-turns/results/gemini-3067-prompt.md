@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to consider an alternative scenario in which Synovial, rather than a Trimmel-run operative, is the one assigned to free Tirek, without saying the earlier attribution was wrong.

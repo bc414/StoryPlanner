@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's company-to-faction mapping as a base and asks a follow-up about whether Anthropic's stated principles are sincere or a mask and how far investors constrain it, offering their own guess that the truth is mixed.

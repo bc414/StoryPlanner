@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two general follow-up questions, how complex languages arose and whether speech is easier than literacy for the human brain, without pointing the model at any body of material.

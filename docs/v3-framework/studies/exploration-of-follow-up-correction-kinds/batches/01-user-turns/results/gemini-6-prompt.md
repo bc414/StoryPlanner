@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how WebAssembly relates to HTML5, CSS and JavaScript, building on the model's explanation without disputing it.

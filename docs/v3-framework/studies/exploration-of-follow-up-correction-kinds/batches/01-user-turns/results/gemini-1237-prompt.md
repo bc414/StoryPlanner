@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's SAA and war-bond analysis and asks two real-world economic history questions, on the origin of gold and silver and on the money used in post-Black Death medieval towns, apparently to ground the story's currency, without disputing anything the model said.

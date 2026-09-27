@@ -1,0 +1,14 @@
+- passages:
+  - 4421 | statement about the subject | she is one of the ordinary unicorns Twilight trains with a crystal enhancer (her role/kind) | none | plain description of what she is, no moment shown
+  - 4577 | statement about the subject | her accent stands for the urbanization of the rural: local twang but faster, sharper, more precise from logistics work; high-energy commercial country, unlike Applejack's earthy traditional one | none | explanatory statement about her voice, with comparisons to Pinkie Pie and Applejack
+  - 4577 | statement about the subject | Texan-inspired speech: dropped g, 'Reckon', 'Y'all', mixed with commercial and industrial vocabulary like quota, inventory, spec | none | design note on speech habits and inspiration
+  - 4579 | statement about the subject | she represents Resilience, the mature version of Laughter, in her morale (thematic meaning) | none | 'Right away she represents'; statement of meaning
+  - 4579 | statement about the subject | she is energetic like Pinkie but grounded in material reality because she counts and organizes material | none | trait description with a comparison
+  - 4580 | statement about the subject | appearance: light beige coat, hazelwood brown mane in two tight french braids to keep clear of machinery, tail with dark brown center streak matching the split in stock and foil | none | physical description with reasons for the details
+  - 4581 | statement about the subject | cutie mark is a tally stick with 5 tally marks across the split | none | physical description of her mark
+  - 5683 | statement about the subject | she serves as the mentor for teaching resilience, and her development is about reconciling with industrial poseurs like those in Las Pegasus | none | role and arc-theme statement, not an event
+  - 5683 | character arc stage | she starts the story as a shining beacon of resilience and optimism in the face of the changeling invasion | none | 'starts the story as'; opening state of the arc
+  - 5683 | scene beat without a year | later she reveals that early industrialists were cheats with weighted scales and that she still holds an unharmonic grudge against ruthless industrialists | none | 'later on she reveals'; a revelation the story could show, no date
+- sequences:
+  - 5683 | two stages of her arc: starting as a beacon of resilience and optimism during the changeling invasion, then later revealing the weighted-scale cheating and her grudge | 'starts the story as' then 'later on'
+- whole: A set of mostly design-note statements about Tally Mark's role, voice, personality, look and cutie mark, plus one note giving her mentor role and a two-stage character arc, with no dated events.

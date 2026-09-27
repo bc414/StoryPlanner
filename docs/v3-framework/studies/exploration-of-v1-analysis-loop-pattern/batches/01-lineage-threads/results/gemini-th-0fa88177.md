@@ -1,0 +1,19 @@
+- steps:
+  - author | propose-and-question | limits grievance to Rockfeller, adds bird-scout ship observation, flags preemptive-alert risk | opening prompt of the thread
+  - model | analyze-and-recommend | mechanism for limited buffalo knowledge, a domino strategy for the alert problem, staged information flow, closing verdict | reply to the opening prompt
+  - author | redirect-with-new-proposal | buffalo-and-Gilded-Trust joint manhunt for collaborators, escape allowed, focus on seizing resources | second prompt
+  - model | validate-and-expand | tactical read of the alliance, division of labor between intel and muscle, effect on the town hall and character arcs | reply to second prompt
+  - author | pacing-correction | moves the town hall before the Las Pegasus cleanup, has the cleanup reported by news while leads depart | third prompt
+  - model | confirm-and-elaborate | rationale for the reordering, Gilded Trust's off-page build-up, revised town-hall stakes, transition into next arcs | reply to third prompt
+  - author | ask-for-a-list | enumerates candidate reasons Gilded Trust could be trusted, asks what else is needed | fourth prompt
+  - model | categorize-and-summarize | trust portfolio sorted into hard evidence, economic logic, social proof, buffalo judgment, closing pitch | reply to fourth prompt
+  - author | add-scene-idea | Gilded Trust offers the buffalo guns against Rockfeller; they decline but note the gesture | fifth prompt
+  - model | analyze-implications | reading of the offer as respect, the refusal as cultural integrity, its use as town-hall rhetoric, recommendation to keep | reply to fifth prompt
+  - author | add-followup-twist | Gilded Trust later learns of the spy network while the public credits him with uncanny genius | sixth prompt
+  - model | synthesize-arc | myth-construction analysis, mutual-secrets standoff, deepened rivalry, full arc recap declared ready | reply to sixth prompt
+- kept:
+  - note 1219 | pasted from this reply inside the author's own framing | keeps the escaping-traitors/seizing-factories logic and the "Liberator/Warlord of Industry" framing from the alliance reply, placed on the Spy Network Intel plot point
+  - note 2720 | the reply was quoting the plan | keeps the already-planned Skyfall-currency detail as quoted back in the trust-reasons reply, placed on the Las Pegasus oil x Gilded Trust link
+  - note 1220 | pasted from this reply inside the author's own framing | keeps Gilded Trust's public boast line and the self-made-man-myth reading from the retroactive-genius reply, placed on the Spy Network Intel plot point
+- brought: The author brought a running set of plot-mechanics questions and incremental scene ideas about how much the buffalo should know and how Gilded Trust earns provisional trust, refining the scope and mechanism across successive prompts.
+- loop: The author feeds successive scope decisions and small scene proposals about the buffalo/Gilded Trust arrangement, the model returns validating, structured analyses of each; the plan keeps two of Gilded Trust's characterization beats under the Spy Network Intel plot point and re-surfaces one existing economic fact by quoting it back on the oil-reserves link.

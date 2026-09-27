@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Frames the scene as an instance of the theme of kinship, played out at the level of a whole nation rather than individuals | "Kinship at a national scale" | no | planning shorthand, a short noun-phrase label
+- whole: A one-line label saying the scene carries the theme of kinship at the scale of a nation.

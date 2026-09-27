@@ -1,0 +1,12 @@
+- steps:
+  - author | poses a craft dilemma | worry about naming real-world entities (Hasbro, Lauren Faust) inside the story, and whether to state the allegory's meaning outside the text | opening turn
+  - author | requests precedent | asks whether other authors of allegorical works were explicit outside their stories, naming Animal Farm and To Kill a Mockingbird | same turn, second half
+  - model | validates the author's instinct | agrees in-text naming would shrink the story's scope | opening of response
+  - model | supplies terminology | defines allegory, roman à clef, paratext, and Tolkien's 'applicability' | early response
+  - model | analyses a historical case | Orwell/Animal Farm handled as explicit-paratext approach, story silent but preface explicit | response body
+  - model | analyses a historical case | Miller/The Crucible handled as open-secret allegory, no explicit text-internal reference | response body
+  - model | analyses a historical case | Tolkien/Lord of the Rings handled as anti-allegory approach, author denies allegorical mapping | response body
+  - model | proposes a tailored strategy | three-phase plan (text stands alone, breadcrumb author's notes during publication, retrospective afterword after completion) applied to the author's own project | closing of response
+- kept:
+- brought: The author brought a strategic question, drawn from their own concern about in-universe naming of real production figures, asking for terminology and historical precedent on how allegorical authors handle meta-commentary outside the text.
+- loop: The author raised a craft/strategy question tied to the project's underlying real-world allegory and asked for historical grounding; the model returned terminology and case analyses plus a tailored paratext strategy, but nothing from this exchange was traced into the planning database in this stretch.

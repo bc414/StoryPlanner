@@ -1,0 +1,10 @@
+- passages:
+  - note 4933 | analytic-expository | third-person declarative statement with parenthetical clarifications | that a nuke-equivalent already exists but goes unused for ethical reasons | apart
+  - note 4933 | brainstorming-directive | first-person plural "we", informal metaphor, prescriptive "must" | need to innovate bottom-up rather than top-down | apart
+  - note 4933 | thematic-aphorism | impersonal abstract declarative sentences, no pronouns | escalation worsening moral rot and the true solution being grassroots empathy | apart
+  - note 4935 | analytic-expository | third-person declarative comparison using "instead of" | contrast between a nuke-equivalent spread across many versus concentrated in one figure | apart
+- shifts:
+  - note 4933 | analytic-expository | brainstorming-directive | shift to first-person "we" and prescriptive "must", introduction of informal metaphor
+  - note 4933 | brainstorming-directive | thematic-aphorism | paragraph break and return to impersonal, pronoun-free abstract declarations
+- registers: analytic-expository; brainstorming-directive; thematic-aphorism
+- whole: Across these notes the writing moves between an impersonal expository register used to state premises and comparisons, a first-person "we" register used to argue for a course of action, and an impersonal aphoristic register used to state thematic conclusions, with each shift landing at a sentence or paragraph break rather than inside a single sentence.

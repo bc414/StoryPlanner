@@ -1,0 +1,6 @@
+- sources:
+  - the canon episodes | starting baseline the author took for the Canterlot elite and then enhanced with systemic vices; a base layer, not the finished characterization | took the baseline of the canon episodes and enhanced them | referred-to
+  - The TLTT materialist framework | governing rule that the model should treat as binding: elite behavior must have material causes and cannot come from a vacuum | dictates that this behavior can't come from a vacuum | referred-to
+  - my old writing | earlier writing of the author's, used as the baseline for the characterization; the author asks whether that use is explained by in-world influences | if I am using my old writing as a baseline | referred-to
+- order:
+- about: The user explains that they built the Canterlot elite by enhancing canon-episode and old-writing baselines into systemic vices, and asks whether the TLTT materialist framework means this behavior should be read as the product of twisted Herzlander and Aquileian influences, noting these elites later hand Canterlot to the Statthalters.

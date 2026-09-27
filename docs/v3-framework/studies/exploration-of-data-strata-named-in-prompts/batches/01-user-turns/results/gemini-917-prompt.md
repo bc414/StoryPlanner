@@ -1,0 +1,4 @@
+- sources:
+  - AJ's cutie mark story being driven by going with her parents to Manehattan | treat as settled; the author's own fixed plan point that the new question builds on | I think I'm pretty solid on AJ's cutie mark story | referred-to
+- order:
+- about: The author affirms one story point as settled, then asks the model to consider a variation, that the Manehattan move is only the first permanent move and the parents might later go on to New Mareland, and to lay out the narrative implications.

@@ -1,0 +1,6 @@
+- asks:
+  - judgment | asks whether mending the race tensions between ponies and griffons inside the Palais de Discret would work to Gerad Discret's advantage or not | "Is in Gerad Discret's favor to mend the race tensions... or not"
+- supplies:
+- shaping:
+- openness: it asks for a choice between two named outcomes, favorable or not, regarding whether Gerad Discret should mend the tensions
+- subject: whether reconciling pony-griffon race tensions in the Palais de Discret benefits the character Gerad Discret

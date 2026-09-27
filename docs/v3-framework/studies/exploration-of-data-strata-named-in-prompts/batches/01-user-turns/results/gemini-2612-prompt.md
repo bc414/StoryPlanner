@@ -1,0 +1,6 @@
+- sources:
+  - my story plans | to be reviewed by the model and combined with the new material | review my story plans and synthesize | referred-to
+  - these new insights | the new points in this message (revised Henri line, the night scene, Fleur's two-half doctrine, logistical necessity, coming combat) are to be folded into the plans | synthesize with these new insights | first-named
+  - the established new chasseur dynamics | treat as already settled and use as a basis for the synthesis | the established new chasseur dynamics | referred-to
+- order:
+- about: The user answers the model's chapter analysis by asking about scene order, giving revisions and additions to the Henri and Fleur lessons and the night scene, and asking the model to review their story plans and combine them with these new points and the chasseur dynamics already established.

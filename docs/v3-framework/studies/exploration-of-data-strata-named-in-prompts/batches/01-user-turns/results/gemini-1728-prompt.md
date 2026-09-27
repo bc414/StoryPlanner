@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two real-world questions about French politics, whether public-housing residents vote National Rally out of purposelessness and whether Macron's party is ruthlessly capitalist while Le Pen's is nationalist on behalf of ordinary people, following up on the France-to-Aquileia comparison, without pointing the model at any particular body of material.

@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model said Coltbert's Aquileia views wallflowers as poseurs; the user says only rent seekers and tyrants are labeled poseurs, not wallflowers | only rent seekers and tyrants are labeled as poseurs, not the wallflowers | flat statement, framed as a clarification
+  - fact of the world | The model placed Réni's fleet hunting slavers, pirates and fascists at the time of the split; in the story they escort Aquileian cargo ships from the Skyfall protection racket and hunt monsters for magical loot and glory | Réni and the fleet don't hunt slaver ships at the point of the separation | flat correction with the actual activity supplied
+  - fact of the world | The model's timeline of Réni's kinetic conflict is wrong; fighting the Statthalters comes only after the battle of Mount Aris against the storm King horde | The kinetic conflict with Statthalters isn't until after the battle of Mount Aris | flat statement giving the correct order of events
+- about: The user gives two clarifications correcting the model's account of who is called a poseur and of what Réni's fleet does at the split, and then asks for suggestions for a witty French term for wallflowers.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of where "poseur" came from, admits they had forgotten its slur origin, and asks a new question: a comparative analysis of four options for when the term should enter the collective consciousness of Coltbert's followers.

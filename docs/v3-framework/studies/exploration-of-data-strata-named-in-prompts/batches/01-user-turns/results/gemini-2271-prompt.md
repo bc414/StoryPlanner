@@ -1,0 +1,4 @@
+- sources:
+  - real life (the real-world history, technology and tactics of CAS dive bombing) | treat as the factual basis the model should explain from, as opposed to the fictional world being built | in real life | referred-to
+- order:
+- about: The user turns from the worldbuilding discussion to ask for a factual overview of real-world close air support dive bombing, covering its history, technical evolution and tactical motivations.

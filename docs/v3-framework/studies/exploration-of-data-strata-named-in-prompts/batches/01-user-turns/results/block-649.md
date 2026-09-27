@@ -1,0 +1,7 @@
+- sources:
+  - TheLioness_Sampled.md (uploaded file in the projects workspace, a random sample of entity exports) | read it to understand the full scope and nature of the notes and what questions they pose to the framework; treat the notes in it as uncategorized | I have uploaded a file to the projects workspace called "TheLioness_Sampled.md" | first-named
+  - the notes' state as discussed earlier (arbitrarily accumulated, organized by subject) | take as an established premise: assume the notes are not categorized | Assume the notes are not categorized; as we discussed, they are arbitrarily accumulated | referred-to
+  - the model's list of purposes for the story planner application | use as the reference set to test whether each category serves only one of these purposes | You listed a bunch of different purposes for the story planner application | referred-to
+  - the numbered layers and stages terms | treat as arbitrary and not binding; do not let them constrain the answer | Let's not be constrained by the arbitrary terms like numbered layers and stages | referred-to
+- order:
+- about: The user asks the model to analyze an uploaded sample of entity notes for their scope and the questions they pose, to define precisely what kind of thing each field holds (claim or something broader), and to lay out the distinct blocks of work with their functions and required skills and mindsets, free of the existing layer and stage terminology and umbrella terms.

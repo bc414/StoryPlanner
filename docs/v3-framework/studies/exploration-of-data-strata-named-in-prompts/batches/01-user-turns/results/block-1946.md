@@ -1,0 +1,6 @@
+- sources:
+  - this sharpened analytical lens / the tests | apply as the standard for judging every candidate proposition; the yardstick, not something being judged | Given this sharpened analytical lens; use the tests | referred-to
+  - the new ones | provisional; put to the tests to see whether each stands alone or is only a sub-example of another proposition | evaluate if the new ones stand on their own or are sub examples | referred-to
+  - the propositions | to be reviewed under the lens, with the surviving ones enshrined in the story planner | please evaluate what are the propositions | referred-to
+- order:
+- about: The user asks the model to apply the newly sharpened tests to the candidate propositions, decide which stand alone and which are sub-examples, and produce a final list for the planner plus a method for revising and vetting future additions.

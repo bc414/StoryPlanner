@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a fresh follow-up question about how Love Island contestants are cast, moving the discussion to a new topic without disputing anything the model said.

@@ -1,0 +1,5 @@
+- sources:
+  - the chapter Honor (AJ's talk with Trimmel) | treated as established story canon that the author's reading of AJ's fear builds on: the point where she took on the Lioness of Tall Tale role to win the war | after her talk with Trimmel in the chapter Honor | referred-to
+  - the Stagnation chapter (Celestia and Luna calling AJ Nightmare Moon) | treated as established story canon that the author's reading of AJ's fear builds on: the point where she was told she was Nightmare Moon | got told she was Nightmare Moon by Celestia and Luna in the Stagnation chapter | referred-to
+- order:
+- about: The author corrects and extends the model's analysis by supplying their own reading of Applejack's fear going into Cloudbury and of how Kemerskai's honest account, heard by Applejack and Henri, reassures her and refutes Celestia's view of the Griffonian Republic as imperialist.

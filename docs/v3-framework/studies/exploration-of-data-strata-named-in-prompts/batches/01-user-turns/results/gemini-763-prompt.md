@@ -1,0 +1,6 @@
+- sources:
+  - Option 2 (the Hazelwood design from the model's previous turn) | preferred; use it as the base for the new variations | I like option 2 the best; more like option 2 | referred-to
+  - Options 1 and 3 (Bluebonnet and Star Energy from the model's previous turn) | rejected as a basis; they do not fit her southern roots | Options 1 and 3 I can't imagine lining up with her southern roots | referred-to
+- order:
+  - Option 2 over Options 1 and 3 | I like option 2 the best; Options 1 and 3 I can't imagine lining up with her southern roots
+- about: The user corrects a design detail (the crystal enhancer as a horn ring), picks option 2 over the other two, and asks for more variations of it showing her energetic and morale-raising instead of grim.

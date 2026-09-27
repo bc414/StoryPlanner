@@ -1,0 +1,4 @@
+- sources:
+  - this chapter from the Pokemon story where Helena and Windie meet | the material to be analyzed for how perspective works; the model is to read it and draw its analysis from it | Please analyze this chapter | first-named
+- order:
+- about: The user asks the model to analyze a specific chapter of their Pokemon story, the one where Helena and Windie meet, for its perspective mechanics.

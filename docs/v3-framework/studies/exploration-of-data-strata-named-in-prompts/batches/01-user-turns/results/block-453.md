@@ -1,0 +1,7 @@
+- sources:
+  - The Lioness of Tall Tale (TLTT), Applejack's story, the main story | the sequel follows it; it shows only a little of Chrysalis, and the model is to work out what it should reveal about her | TLTT only reveals the tip of the iceberg regarding Chrysalis | referred-to
+  - The main story's theme (deconstructing the great man or great mare myth, macroeconomic systems over singular forces) | a constraint the model should build the Chrysalis reveals to fit and reinforce | The main story's theme is about deconstructing the "great man" or "great mare" myth | referred-to
+  - The adjacent social commentary (critique of American liberals and centrists expecting business as usual after Trump, i.e. the stagnation of harmony) | background framing the story's theme should stay in line with; the 2028 crisis is left open | The adjacent social commentary is a critique of how many American liberals and centrists think | referred-to
+  - Chrysalis's follow-up story, the sequel (Herzlander noble bullying, Celestia's assimilation policy, Gilded Lily's adoption, the 1007 victory with Archon Eros, the forced invasion of Equestria) | the author's stated plan for the sequel, to be treated as the direction the main-story reveals must set up | Chrysalis's follow up story complements the main story's theme | first-named
+- order:
+- about: The user asks the model what to reveal about Chrysalis across the main story to set up a planned Chrysalis-centered sequel, and gives the theme, the political commentary and the sequel's outline as guides.

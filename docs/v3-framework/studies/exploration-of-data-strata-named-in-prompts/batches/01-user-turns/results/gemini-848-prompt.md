@@ -1,0 +1,5 @@
+- sources:
+  - the analysis (the model's previous historical analysis of the premise) | re-apply to a modern 2026 reading; treat it as the frame to be tested against the new commentary reading | How does the analysis fit for a modern commentary | referred-to
+  - the story's symbolic scheme (stagnation of harmony as the West, Chrysalis as authoritarian states, harmonic vs ruthless capitalism, liberty as a change in how capital is viewed, cutie marks and terroir as human capital) | treat as the author's intended meaning of the story; work from it as settled premises | The cutie marks and terroir are supposed to represent human capital today | referred-to
+- order:
+- about: The user asks the model to re-read the earlier historical analysis as modern commentary on 2026 Western inequality, authoritarianism and human capital, using the author's stated symbolic mapping of the story's elements.

@@ -1,0 +1,5 @@
+- relations:
+  - 632|631|the line Fizzlepop speaks on the page is an instance of the contempt and worldview the other note says she holds; the psychology is the reason behind what she says|"open up your eyes, see the world from where I stand" / "just another naive Equus imperialist who doesn't understand"|implicit
+- outward:
+  - 631|the wider history and politics of Equus and Zebrica, the claim that the civilized world was consuming Zebrica, held elsewhere in the story|"the 'civilized' world was eating Zebrica alive"
+- whole: The two notes hang together as a pair: one gives what Fizzlepop says to Twilight and the other gives the contempt and grievance behind it.

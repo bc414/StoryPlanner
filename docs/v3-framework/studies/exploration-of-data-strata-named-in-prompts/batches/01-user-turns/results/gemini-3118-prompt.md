@@ -1,0 +1,6 @@
+- sources:
+  - Green is your color | the material to analyse for Rarity's learning and evolution, the main body of content to draw on | throughout Green is your color | referred-to
+  - the unfinished plans | the unwritten or incomplete plans for it, to be analysed along with the finished material as part of Rarity's arc | and the unfinished plans | referred-to
+  - TLTT Rarity's canon attitude, coming from Aquileia (day time parloirs) | the author's own statement, to be treated as established TLTT canon and used as a fixed point in the analysis | In TLTT Rarity's canon attitude is directly coming from Aquileia | referred-to
+- order:
+- about: The user asks for an analysis of Rarity's learning and evolution across Green is your color and its unfinished plans, and adds that in TLTT her canon attitude comes directly from Aquileia's daytime parlours.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's closing question assumed Réni and Minette arrive in Tall Tale and react to Equestrian doctrine as something foreign, possibly naive; the user says that doctrine is theirs, since they trained the Wonderbolts at and after Mount Aris | The equestrian doctrine is literally their doctrine. They trained the Wonderbolts | Flat statement of the actual setup, with a short supporting fact, no apology or irritation
+  - reading of the plan | The model cast their arc after Tall Tale as one of adjusting to or being cured by Applejack's doctrine; the user restates it as returning after Pinkie's resilience demonstration and becoming one pair among many planes | Once returning to Tall Tale and Pinkie's resilience demonstration, their arc becomes being one pair among many planes | Flat restatement of the arc, given in passing before the new question
+- about: The user briefly sets right the model's premise about how Réni and Minette relate to Equestrian doctrine and their later arc, then moves on to ask whether the M-rated events can be referenced in dialogue but not shown in the T-rated main story.

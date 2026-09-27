@@ -1,0 +1,13 @@
+- steps:
+  - author | request | ask for a length estimate for the story given the existing plan documents | opening of the exchange
+  - model | estimate | headline total word-count range and genre classification | start of the response
+  - model | justification | chapter-count and average-chapter-length calculation | first reasoning section
+  - model | justification | examples of scene complexity (action and dialogue scenes) driving length | second reasoning section
+  - model | justification | 'lore integration' cost of weaving worldbuilding into narrative | third reasoning section
+  - model | justification | ensemble-cast scope listing the multiple POV/character threads | fourth reasoning section
+  - model | comparison | benchmark against a named prior fanfic's word count | fifth reasoning section
+  - model | breakdown | act-by-act word-count and thematic-density table | closing breakdown
+  - model | verdict | closing line framing the story as needing length to do its themes justice | final sentence of the response
+- kept:
+- brought: The author brought the accumulated scope of their existing story plan — chapter list, scene breakdowns, and worldbuilding — as the basis for requesting a length estimate.
+- loop: The author brought the plan's existing scale and asked for a length estimate; the model returned a detailed estimate and rationale, but the archive shows no notes traced back into the planning database from this exchange, so the estimate was not captured as a kept plan artifact in this stretch.

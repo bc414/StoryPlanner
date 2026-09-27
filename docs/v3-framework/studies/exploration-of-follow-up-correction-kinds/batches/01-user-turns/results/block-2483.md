@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about what kinds of data can be obtained from Steam, picking up one item from the model's list of possible timestamp sources without disputing anything in it.

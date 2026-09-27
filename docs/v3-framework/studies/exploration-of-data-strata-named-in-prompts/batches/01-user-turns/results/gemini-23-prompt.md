@@ -1,0 +1,4 @@
+- sources:
+  - the text file | the thing to be examined for its word count; the model is asked to report its length | How many words are the the text file? | referred-to
+- order:
+- about: The user asks the model for the word count of the text file already uploaded in the conversation.

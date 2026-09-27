@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model said the reader-perception gap is not designed and the irony is undesigned, but the user says the plan has a hidden backstory revealed later, as in TLTT, so the irony is probably an intended, instinctive design | "There is a backstory that is hidden until revealed, like TLTT, and the irony from it is probably the instinctual intended design" | Stated as a plain fact and a hedged inference, with no explicit "you're wrong". It is folded into a follow-up question, so the pushback is implicit and mild.
+- about: The user pushes back gently on the claim that the reader-knowledge irony was undesigned, pointing to the hidden backstory that is revealed later, and asks the model to compare how they handled it then with how they want to now.

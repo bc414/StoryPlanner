@@ -1,0 +1,9 @@
+- asks:
+  - analyse | describe/summarize the current positions of the political left in Western countries | "What are the positions of the left today within the West"
+  - critique | explain how those left positions are refuted by the ideology called Harmonic Capitalism | "analyze how they are refuted by Harmonic Capitalism"
+- supplies:
+- shaping:
+  - apply a specific conceptual framing to the refutation, treating 'cutie marks' and 'terroir' as forms of modern human capital | "with the framing that cutie marks and terroir are modern human capital"
+  - address the two parts in sequence, first surveying left positions, then critiquing them | "What are the positions...? Then analyze how they are refuted..."
+- openness: Leans toward an answer it names, since it specifies both the refuting framework (Harmonic Capitalism) and the exact metaphorical framing (cutie marks and terroir as modern human capital) the analysis must use.
+- subject: Critiquing contemporary Western leftist politics through the lens of an invented ideology, "Harmonic Capitalism," using cutie marks and terroir as metaphors for human capital.

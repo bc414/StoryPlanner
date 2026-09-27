@@ -1,0 +1,9 @@
+- steps:
+  - the author | attaches reference material | a document, contents not captured | opening of the conversation
+  - the author | states a character thesis and requests support | contrast between Pinkie's original Faust-era trait and the flattening 'Hasbro Mandate', plus a request for canon examples of the original trait | second message
+  - the model | supplies a categorized analysis | five canon episodes, each paired with a wartime-AU translation of the same trait, closed with two follow-up questions | third message
+  - the author | pivots to a new plot problem | an infiltrator/changeling subplot for Pinkie's regiment, sketched as two alternative versions with an open question about whether an impersonated character should be dead or alive | fourth message
+- kept:
+  - note 5147 | the author's own words in this record | keeps the Hasbro Mandate vs. original-Pinkie framing and the three canon examples, filed under Subject Pinkie Pie
+- brought: The author brought a preexisting thesis about Pinkie Pie's original Faust-era characterization versus the flattening "Hasbro Mandate," along with an uncaptured attached document, to ground a request for supporting canon examples.
+- loop: The author brings a character premise and asks for canon evidence for it; the model returns that evidence reframed through the wartime setting and poses further questions; the author moves past those questions into a new, unrelated plot scenario instead of resolving them; the plan keeps only the original premise and its bare canon examples under the Pinkie Pie subject, leaving the model's wartime elaborations and the new infiltrator subplot uncaptured.

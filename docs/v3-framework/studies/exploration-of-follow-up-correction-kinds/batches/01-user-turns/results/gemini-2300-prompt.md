@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: substituted story premise | the model's suggested route for Rainbow Dash into an Aquileian plane, a dead ace's magically dead masterwork, is swapped for a living ace who is resting and lends the plane, which also loosens the model's picture of the plane as unusable to anyone but its active creator | "How about if the ace isn't fallen but is resting?" | put as a tentative what-if question, with a reason (a responsible ace doesn't fly constantly) and a concrete alternative, with no explicit statement that the model was wrong
+- about: The user turn offers a revised version of the model's Chapter 5 idea, replacing the fallen ace with a resting mentor-peer who trusts Rainbow Dash with their plane and Starlight's magic.

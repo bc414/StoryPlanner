@@ -1,0 +1,4 @@
+- sources:
+  - Chapter 10 (the Apple Bloom and Applejack meeting scene, as the author imagines it) | treat as the author's intended scene; the model is to explain why its use of "blank flank" still feels tonally right, not to revise it | "I still imagine when Apple Bloom and Applejack meet up in Chapter 10" | referred-to
+- order:
+- about: The author defends a planned Chapter 10 exchange in which Apple Bloom calls the factory workers "blank flanks," and asks the model to explain why it still fits the tone, adding some world details about the workers and the union.

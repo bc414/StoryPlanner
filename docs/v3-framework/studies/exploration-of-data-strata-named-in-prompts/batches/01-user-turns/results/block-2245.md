@@ -1,0 +1,8 @@
+- sources:
+  - the analysis (the earlier answer on Anthropic's subsidy and cross-subsidy structure) | framework the model is to extend by applying it to OpenAI and Google for comparison | How do OpenAI and Google compare to Anthropic in this analysis? | referred-to
+  - the user's earlier belief that Google was better for cheaper services and more use through vertical integration | past view the user has moved away from, treat as outdated | I used to think Google was better | first-named
+  - the user's current view that Anthropic's usage limits are more honest, sustainable and reliable than Google's dynamic throttling of reasoning level | the user's present position, offered for the model to weigh in the comparison | Then I shifted to thinking Anthropic's usage limits were more honest | first-named
+  - the user's report that Google recently revamped to have usage limits and reasoning levels like Claude | recent development the user states from their own knowledge, to factor into the comparison | Google recently revamped to have usage limits and reasoning levels like Claude | first-named
+  - the user's observation about differing customer bases and ownership/investors (Google self-funded from past revenue, not venture capital) | additional distinctions the user says matter, to be considered in the comparison | Their different customer bases also seem to make distinctions | first-named
+- order:
+- about: The user asks the model to extend its subsidy analysis of Anthropic to OpenAI and Google, offering their own shifting views on Google's throttling and usage limits and on differences in customer base and ownership.

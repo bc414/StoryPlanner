@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's Bitcoin-analogy proposal by stating their own design for the in-world currency (copper Gilded Bits verified by electricity-consuming machines that Gilded Trust sells) and the post-war magic-economy resolution, without pointing the model at any body of material.

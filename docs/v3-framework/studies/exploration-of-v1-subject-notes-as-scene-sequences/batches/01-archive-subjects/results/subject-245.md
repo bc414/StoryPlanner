@@ -1,0 +1,4 @@
+- passages:
+  - 5422 | statement about the subject | the detection spell is really a changeling spell, and unicorns copy it | none | a flat assertion of what the spell actually is, with no character acting at a moment
+- sequences:
+- whole: The subject has a single one-line note that states a fact about what the Changeling Detection Spell really is and who copies it.

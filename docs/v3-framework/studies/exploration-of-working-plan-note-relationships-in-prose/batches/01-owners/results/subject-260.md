@@ -1,0 +1,34 @@
+- relations:
+  - 2418|2374|the longer note spells out the real-world Digital Rights Management practice that the short note names as inspiration|Digital Rights Management (DRM) software into physical components|explicit
+  - 2418|2373|the longer note gives the concrete John Deere case, and the short note names it as an inspiration|manufacturers (like Apple, Tesla, or John Deere)|explicit
+  - 2419|2373|the industrial precedents are set as earlier than the John Deere and iPhone parallels, extending the same line of inspiration backward|Industrial parallels before the iPhone and John Deere tractors|explicit
+  - 2419|2418|historical precedents (Watt's patent, IBM bundling) of the same lock-in on third-party parts that the modern DRM note describes|forbidden from plugging in a cheaper, third-party hard drive|implicit
+  - 2418|2394|the real-world rejection of an identical third-party part lacking a signature is the model for the crystal's check for an OEM consent vector, and both end in a locked machine|rejects the part because it lacks the manufacturer's cryptographic signature / consent vector|implicit
+  - 2394|2406|one note gives the crystal's normal locking function, the other gives what happens if the crystal is removed or smashed; the second builds on the same crystal|The crystal holds the proprietary vector / If the crystal is smashed or removed|implicit
+  - 2406|2377|the one-time message to the corporate office is what delivers the signal of violation, and the fine or bounty is the penalty the corporation collects by violence|goes to the Skyfall corporate office / collect the contractual penalty via violence|implicit
+  - 2377|2394|the penalty motive presupposes that machines are locked to overpriced parts and are shoddy and in need of replacement parts|already shoddy and needs replacement parts|implicit
+  - 2378|2394|'dienst-locked' for bricked machines names the mechanical lock-up the crystal produces on incompatible parts|dienst-locked (service locked) for bricked machines / locks up mechanically|implicit
+  - 2378|2406|ripping out the Dienst to unbridle a machine is the act of removing or smashing the crystal that sets off the alert|Ripping out the Dienst / If the crystal is smashed or removed|implicit
+  - 2378|2375|the slang term and the 'oath of fealty' gloss rest on the feudal-service meaning of dienst given in the etymology|service/oath of fealty / Leendienst is a squire's feudal duty|implicit
+  - 2382|2375|both give the name's feudal duty meaning as the reason it fits the technology|Dienst as a feudal duty is more thematically precise|implicit
+  - 2380|2375|two senses of dienst: the honorable duty between master and apprentice, set against the feudal squire's duty Skyfall applied to machines; the honorable use comes earlier, so it reads as a sense later distorted|dienst became the apprenticeship social contact / Skyfall engineers took the concept of a feudal squire|implicit
+  - 2099|2406|the spell matrix built on griffon messaging that Skyfall 'corrupted' is the source of the crystal's burn-message derived from griffon messaging|griffon messaging / derived from griffon messaging|explicit
+  - 2382|2090|the subscription-fee purpose given for the name matches the rent-seeking cause of the crystal scarcity|it's for subscription fees / rent seeking|implicit
+  - 2090|2381|IP protection for rent seeking as the cause of scarcity is an instance of the economic incentives that the allegory names as the root problem|IP protection for rent seeking / economic system and incentives that are the root|implicit
+  - 2377|2381|collecting penalties by violence over a violated lock is a case of the industrial feudalism the allegory describes|industrial feudalism|implicit
+  - 2381|2378|the allegory says restrictive tech can be smashed off or jailbroken, and the usage plan has characters rip out the Dienst to unbridle machines|smashed off/jailbroken / unbridle the machine|implicit
+  - 2381|2419|jailbreaking as the way to escape restrictive tech is described in the historical Watt case, where mechanics built 'pirate' engines|jailbreaking / 'pirate' engines|implicit
+  - 2398|2378|the compradors refuse to let EEEE unbridle machines, which is the act named in the slang note|unbridle their machines / to unbridle the machine|explicit
+  - 2398|2406|the compradors' fear of Skyfall bounties comes from the black market bounty the corporation can put on a violator|Skyfall bounties would come for them / put a black market bounty on the violator's assets|implicit
+  - 2398|2381|the compradors choosing to resume business with Skyfall over resisting shows the allegory's point that incentives, not the removable tech, are the problem|become the new industrialists and resume business as usual|implicit
+- outward:
+  - 2375|Dutch history and the word dienst, and the Skyfall engineers as a group elsewhere|In Dutch history, dienst means "service" or "duty"
+  - 2380|Grover III and his chivalric code, held elsewhere in the world|In Grover III's chivalric code
+  - 2099|the Aquileian Royalists in Pridea and their griffon messaging and unicorn teleportation research|2nd Gen Aquileian Royalists in Pridea
+  - 2406|the griffon messaging system and the Skyfall corporate office|the "fire" of the griffon messaging system
+  - 2378|the Equestrians as a people who use the slang|Equestrians call it "The dienst"
+  - 2398|EEEE, Chrysalis, the compradors and the war effort, all elsewhere in the story|EEEE / Chrysalis takes over / the war effort
+  - 2381|real-world politics and economics (anarcho-capitalism, deregulation)|Anarcho Capitalism and deregulation
+  - 2377|Skyfall corporations as a world of firms outside this item|When a Skyfall corporation receives a signal
+  - 2090|the power crystal scarcity and its wider setting|The initial power crystal scarcity
+- whole: The notes form a well-connected set: the real-world analogies, the name's origin, the crystal's mechanism, the corporate violence, the usage slang and the allegory all bear on one another through the shared lock, penalty and unbridling.

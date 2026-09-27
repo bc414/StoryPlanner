@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model took the Town Hall magic to be a new, adult magic of leadership/Liberty/intent, when the user's plan means her Earth Pony magic in a literal materialist sense: phosphorus and potassium weathering, i.e. soil chemistry | I meant earth pony magic as in phosphorus and potassium weathering | flat, brief clarification stated as what the user meant, with no apology or explanation
+- about: The user briefly clarifies that their earlier reference to Earth Pony magic meant a literal geochemical mechanism (phosphorus and potassium weathering), not the model's interpretation of leadership or Liberty magic.

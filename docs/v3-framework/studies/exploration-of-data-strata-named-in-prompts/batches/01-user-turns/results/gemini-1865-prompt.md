@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to add a home-screen button that opens the entity with the most note text, doubts whether length is a good proxy, and asks for a better way to find the entity with the most room for consolidation.

@@ -1,0 +1,7 @@
+- asks:
+  - continue | signals a decision to adopt Xhosa and related languages as the basis for the native changeling language, implicitly asking the model to carry this choice forward in the ongoing worldbuilding | "gave me the perfect idea for what language family to base native changeling in"
+- supplies:
+  - decision statement | the choice of Xhosa and related (click-consonant) languages as the source language family for the changeling race's native tongue | one line
+- shaping:
+- openness: The message states a settled choice by name (Xhosa and related languages) rather than leaving the language family open or asking for options.
+- subject: Choosing Xhosa/click-consonant languages as the basis for the changeling race's native language

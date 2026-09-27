@@ -1,0 +1,19 @@
+- passages:
+  - 4051 | statement about the subject | changeling magic has a latent ability to sense others' emotions | none | plain definitional claim, no event
+  - 4446 | statement about the subject | changelings are biologically the softest creatures | none | general claim about the species
+  - 4446 | statement about the subject | changelings can't handle enemy hatred without specialized training, but those who finish jaeger training thrive on abundant prey and have the most magnified predator's dilemma | none | general rule about training and its payoff
+  - 4446 | character fact | Chrysalis was an exceptional changeling who finished jaeger training early | none | biographical fact about a named character, not shown as a moment
+  - 4446 | statement about the subject | controlling one's own emotion sense also lets one read others like a book | none | general principle
+  - 4446 | statement about the subject | level 1 jaeger can turn the sense off to hunt | none | tier rule in a level list
+  - 4446 | statement about the subject | level 2 jaeger can keep the sense on through hate and detect lies and emotions, making the best manipulators and infiltrators | none | tier rule in a level list
+  - 4052 | statement about the subject | the sense is a survival mechanism that lets changelings find each other, form a hive and share love to stay fed | none | explanation of purpose
+  - 4052 | statement about the subject | originally the sense served foraging: primitive changelings sought love (food) and avoided hate (predators), like thermal vision for emotion | none | origin explanation, analogy
+  - 4053 | statement about the subject | the sense lets a changeling perceive the pure predatory intent of predators such as manticores and stay away | none | general behaviour written in the second person, not a specific event
+  - 4054 | statement about the subject | once permanent hives existed, changelings could not simply flee danger and had to fight to protect the hive | none | historical rationale with no date, 'once' as a condition not a moment
+  - 4063 | statement about the subject | infant changelings have no control over the sense and must be kept from hateful creatures or be mentally scarred | none | rule with 'must'
+  - 4203 | statement about the subject | all grubs must learn some control to survive around hateful creatures, are gradually introduced to malice, and still cannot survive industrial combat | none | general rule about upbringing
+  - 4055 | statement about the subject | professional soldier jaegers who passed traditional training can ignore an enemy's fear when they kill | none | definition of the jaeger group and its ability
+  - 4205 | statement about the subject | protecting the hive from manticore-tier predators required killing, which releases a burst of fear and pain that would traumatize a changeling with active sense | none | explanatory rationale for jaeger training
+  - 4204 | statement about the subject | trained infiltrators/VOPS agents can detect lies accurately from emotional fluctuations | none | general capability claim
+- sequences:
+- whole: A set of undated worldbuilding statements about the changeling emotion sense (its purpose, origin, development, and how infants, grubs, jaegers and infiltrators cope with or use it), with no scene beats and no note running as a sequence of events.

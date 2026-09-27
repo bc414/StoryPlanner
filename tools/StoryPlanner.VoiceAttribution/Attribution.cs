@@ -56,6 +56,24 @@ public static class Attribution
         @"\b(in|from|per|based on|according to)\s+your\s+(own\s+)?(notes?|plan|codex|lore bible|profile|outline|draft|text|document|story plan)\b|\byou(r notes?)?\s+(wrote|noted|mentioned|stated|specified|established|left a placeholder|ask yourself|explicitly)\b|\bas you (wrote|noted|mentioned|stated|put it)\b",
         RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
+    /// <summary>
+    /// The run with this tool's default thresholds — the ones the 2026-09-02 evidence set was
+    /// produced under — for an itemizer that computes the attribution in its own run rather than
+    /// reading the sidecar CSV: the plan, the lineage index with the default AI Studio exclusions,
+    /// and the dated plan snapshots when a directory is given.
+    /// </summary>
+    public static List<Row> RunWithDefaults(string planPath, string lineagePath, string? snapshotsDir, Action<string> log)
+    {
+        const int k = 6;
+        var plan = new PlanReader(planPath);
+        var index = new VoiceIndex(k);
+        var snapshots = snapshotsDir is null ? null : new PlanSnapshotIndex(k);
+        LineageReader.Load(lineagePath, index, snapshots, false, new HashSet<int>(LineageReader.DefaultExcludedAiStudioChats), log);
+        if (snapshotsDir is not null) SnapshotReader.Load(snapshotsDir, snapshots!, log);
+        using var ctx = new SourceContext(lineagePath);
+        return Run(plan, index, snapshots, new Settings(new LabelThresholds()), ctx.Fetch, log);
+    }
+
     public static List<Row> Run(PlanReader plan, VoiceIndex index, PlanSnapshotIndex? snapshots, Settings s,
         Func<string, string, (string Text, string Prompt)> fetchSource, Action<string> log)
     {

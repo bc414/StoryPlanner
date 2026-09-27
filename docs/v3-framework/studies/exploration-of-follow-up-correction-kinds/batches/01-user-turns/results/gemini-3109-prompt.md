@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - the model's account of the chapter's origin (own name: provenance of the writing) | the model presented the Canterlot elite characterization as deliberately grounded in TLTT's materialist frameworks, whereas the user says it began as an instinctive enhancement of canon-episode baseline, with the TLTT justification still to be found | "I instinctively took the baseline of the canon episodes and enhanced them" | indirect, given as a plain account of their own process and framed as a question about whether TLTT can retroactively explain it, with no statement of disagreement
+- about: The user explains that the Canterlot elite's vices came from instinctively exaggerating canon, then asks whether TLTT's Herzlander and Aquileian influences can supply an in-world cause for them, and adds that these elites will later hand Canterlot to the Statthalters, without taking up the model's Rarity question.

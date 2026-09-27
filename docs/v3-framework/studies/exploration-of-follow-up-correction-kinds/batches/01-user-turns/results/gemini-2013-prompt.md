@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting the Phase 1 system instruction and input JSON to match the new waterfall design, instead of taking up the model's offer to draft Phase 2.

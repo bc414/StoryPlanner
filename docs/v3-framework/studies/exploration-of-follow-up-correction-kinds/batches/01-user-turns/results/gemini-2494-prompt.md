@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis, ties Hasbro's mandates to the therapeutic state as a design rationale for Celestia's policies, and then asks for confirmation of a real-world account of Lauren Faust's departure and the show's later writing decline.

@@ -1,0 +1,8 @@
+- sources:
+  - my themes of Bottom Up > Top Down and my lore about Cadance and non-Celestia/Luna alicorns being family planners, not immortals | treat as the author's settled premises that the new idea must fit | to adhere to my themes | referred-to
+  - EaW the game | take its population figure of millions of crystal ponies as the scale for the trauma work | EaW the game has that population in the millions | referred-to
+  - the show | its depiction of the Crystal City as a few dozen blocks is noted as differing from the game's scale, not used for the population | the show depicts the Crystal City as a few dozen blocks | referred-to
+  - Tall Tale | the existing retreat order in it is a fixed point that Luna's knowledge and trauma must still explain | the retreat order in Tall Tale | referred-to
+  - the dreamscape aid network | an existing story element the secret parlour-owner trauma help should be connected with | connected with the dreamscape aid network | referred-to
+- order:
+- about: The user proposes that Cadance secretly enlist empathetic parlour owners to help millions of Crystal Ponies process trauma, tie it to the dreamscape aid network, and asks whether Luna should know given that her fresh Nightmare Moon trauma must still drive the retreat order in Tall Tale.

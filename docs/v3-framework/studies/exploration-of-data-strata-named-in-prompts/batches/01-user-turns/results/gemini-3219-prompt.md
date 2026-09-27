@@ -1,0 +1,9 @@
+- sources:
+  - Command and Conquer series (Generals, Zero Hour, Red Alert, Red Alert 3, Tiberium Wars, C&C 4) | the published games are the subject to be analyzed, including the Kane storyline, Generals' real-world setting and the particle cannon and C&C 4's change of genre | give an analysis of the command and conquer series | first-named
+  - the timeline | the earlier timeline of the conversation, into which the C&C analysis is to be placed | how this fits into the timeline | referred-to
+  - the model's own general knowledge of Westwood and Electronic Arts | draw on it to say who owns the series, who the two companies were and what motivated them | who owns them (who were Westwood and Electronic Arts, what was their motivations) | first-named
+  - the user's own memory of playing C&C | personal recollection to treat as true, covering first playing at age 5 in 2004, Generals and Zero Hour, and the Westwood and EA logos | Command and Conquer was the first franchise I played, when I was 5 years old in 2004 | first-named
+  - materialist historicism and corporate mandate framework | the lens the user applies to sort C&C games (Red Alert and Tiberium as materialist engines, Generals as an exception, C&C 4 as a corporate mandate) | exactly the materialist historicism engines | referred-to
+  - Kerrigan's meta narrative trajectory (StarCraft) | comparison case to check Kane's trajectory against | same meta narrative trajectory as Kerrigan | referred-to
+- order:
+- about: The user asks for an analysis of the Command and Conquer series, its owners and their motives, and its place in the ongoing timeline, adds his own play history and opinions of individual games, and asks whether Kane's arc matches Kerrigan's.

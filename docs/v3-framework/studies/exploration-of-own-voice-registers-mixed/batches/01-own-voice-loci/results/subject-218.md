@@ -1,0 +1,18 @@
+- passages:
+  - note 22 | terse factual summary | short unelaborated declarative sentence | origin and purpose of the love harvester | apart
+  - note 4044 | terse factual summary | compressed clause listing acquisition and reward | securing Herzland scientists and noble funding | apart
+  - note 4090 | terse factual summary | declarative past-tense statements, parenthetical aside | invention date and Chrysalis-Gabriella backstory | apart
+  - note 4329 | terse factual summary | past-tense historical statement | pre-harvester wars over red love | apart
+  - note 4329 | casual generic-address aside | shift to 'you', informal phrasing 'toss them on the street' | outcome of the old draining fights | apart
+  - note 4329 | terse factual summary | return to third-person plural, present-tense 'Now' | current extractor practice | apart
+  - note 4329 | discursive causal reasoning | causal construction 'This is what enables' | enabling the great leap forward and conscription | apart
+  - note 4386 | discursive causal reasoning | because/but logic, parentheticals, cause-effect chaining | harvester efficiency logic, noble-victim bottleneck, statthalter island tragedy | apart
+  - note 4386 | evaluative free-indirect characterization | 'Naturally,' opener, loaded terms 'hedonistic brutes', 'meat-grinder' | bauleiters' self-image versus their view of statthalters | apart
+  - note 5501 | discursive causal reasoning | comparative quantified explanation with parenthetical comparisons | consent and efficiency differences in pink love extraction | apart
+- shifts:
+  - note 4329 | terse factual summary | casual generic-address aside | shift to second-person 'you' and informal phrasing
+  - note 4329 | casual generic-address aside | terse factual summary | return to third-person 'they' and present-tense 'Now'
+  - note 4329 | terse factual summary | discursive causal reasoning | causal 'This is what enables' construction
+  - note 4386 | discursive causal reasoning | evaluative free-indirect characterization | 'Naturally,' opening into loaded evaluative language
+- registers: terse factual summary; casual generic-address aside; discursive causal reasoning; evaluative free-indirect characterization
+- whole: Most notes hold a single terse factual register, but note 4329 moves between that factual mode, a brief casual aside, and causal reasoning, and note 4386 moves from causal reasoning into an evaluative characterization, with every shift falling at a sentence break rather than inside one sentence.

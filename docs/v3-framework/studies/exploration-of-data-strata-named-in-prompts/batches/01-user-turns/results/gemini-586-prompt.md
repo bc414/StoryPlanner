@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's proposed Statthalter/Bauleiter system by stating their own worldbuilding rules (personal loyalty, Chrysalis accepting honest pushback, lie detection as trained emotion sense, the original jaeger definition) and asks whether empathetic Statthalters should be sent to level 1 or -1 or to level 2, the factory.

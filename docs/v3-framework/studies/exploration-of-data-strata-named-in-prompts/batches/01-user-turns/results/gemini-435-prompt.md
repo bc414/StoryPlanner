@@ -1,0 +1,5 @@
+- sources:
+  - my Coltbert fantasy game theory (the prisoner's dilemma plus accelerants) | the reference point the model is to find a real-world counterpart for; treated as the author's own established theory, not questioned | Coltbert fantasy game theory, prisoner's dilemma plus accelerants | referred-to
+  - real life | the body of real-world theory and knowledge the model is to search for an equivalent of the Coltbert theory | any equivalent to my Coltbert fantasy game theory in real life | referred-to
+- order:
+- about: The user asks whether any real-world theory corresponds to the Coltbert game theory from their fantasy story, which they describe as the prisoner's dilemma plus accelerants.

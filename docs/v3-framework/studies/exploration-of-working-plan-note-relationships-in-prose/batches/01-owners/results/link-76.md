@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2112 | Celestia's account of Flowing Current's past act, a power plant blown up, which belongs to history held outside this item | Celestia says Flowing Current blew up a power plant
+- whole: The owner holds a single note, so there is nothing in it to hang together or fall apart.

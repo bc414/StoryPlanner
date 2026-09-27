@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's China–changeling mapping to ask new factual questions about Chinese dialects and writing, Taiwan's postwar status and Hokkien/Hakka attitudes, and asks for a three-way comparison of German, Chinese and their in-story Herzlander language plan, restating that plan as background without faulting the model.

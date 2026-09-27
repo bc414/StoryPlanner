@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the chapter breakdown alone and opens a new line of inquiry, asking whether Applejack disliking Kemerskai would strengthen the character drive, how Herzlander and Aquileian culture play into it, and for a detailed look at his canon personality.

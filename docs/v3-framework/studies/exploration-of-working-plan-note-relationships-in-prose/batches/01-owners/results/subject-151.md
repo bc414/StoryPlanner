@@ -1,0 +1,16 @@
+- relations:
+  - 2241|2192|the plan to dramatize the grievances delivers what the history states as the grievances of that period (drug tribes skimming, resentment)|Meztli and the traditionalists have specific grievances about 1002-1008 / drug tribes slowly skimming more and more from their lands|implicit
+  - 2229|2257|the stated belief in autarky is carried out as the practised autarky and its internal uses of surplus|They believe in Tzinacatl autarky / They practice autarky by choice|implicit
+  - 2229|2164|the aftermath of 993 and the rejection of foreign influence give the reason for the confederation and resumed flower wars; both start from the post-993 moment|In the aftermath of the 993 cocoltic yaoyotl / Post 993, these are the tribes|implicit
+  - 2164|2257|the flower wars and military training are one of the ways the surplus is consumed internally, an instance of what the other says|resumed flower wars to train / warrior training, ecological management, flower participation|implicit
+  - 2215|2164|handling the land war is continued in the military confederation formed after 993 to face future colonists|The traditionalists are the ones who handle the land war / formed a military confederation|implicit
+  - 2215|2192|the rejection of rifles explains why they did not use guns in the later drug-tribe trouble|rifles as an insult to the warrior tradition / They didn't use guns|implicit
+  - 2215|2229|refusing the colonizers' weapons is an instance of rejecting all foreign influences|using the colonizers' weapons / reject all foreign influences|implicit
+  - 2229|2192|the disinterest in global trade stands against the global market incentives that let drug tribes skim and hollow out institutions; the market pressure tests the autarky stance|not interested in global trade / global market incentives|implicit
+- outward:
+  - 2241|a character, Meztli, held elsewhere in the plan|Meztli and the traditionalists
+  - 2192|the drug tribes, other tribes and the drug market, not part of this organization|drug tribes slowly skimming more and more from their lands
+  - 2229|other tribes outside this organization, and the 993 war and the Tzinacatl Xochiyaoyotl system held as lore elsewhere|These tribes are more inland than the others / 993 cocoltic yaoyotl
+  - 2164|future foreign colonists, not present in this item|future foreign colonists who try to desecrate the jungle
+  - 2215|the colonizers and the land war as an event held elsewhere|the colonizers' weapons / the land war
+- whole: The notes read as a fairly coherent set, with the autarky, post-993 confederation and anti-rifle notes reinforcing each other and the 1002-1008 grievance notes pointing to one episode, though few of them point at each other in words.

@@ -1,0 +1,28 @@
+- steps:
+  - author | asks a tooling question | usage limits for AI Studio Playground | opening turn
+  - model | answers with a breakdown | tier limits, policy changes, a recommendation, and an offer to set up billing | first reply
+  - author | asks a follow-up question | whether AI Pro subscription chat prompts are used for training | second turn
+  - model | answers with an explanation | the training-data toggle, a comparison table, an offer to show private-chat mode | second reply
+  - author | asks a follow-up question | whether Playground uses conversation context like the regular chat | third turn
+  - model | answers with a comparison | how context and saving differ, an offer to set up a system instruction | third reply
+  - author | asks a follow-up question | how billing works for manual Playground use | fourth turn
+  - model | answers with a breakdown | how manual chat is billed as API calls, a credit tip, an offer to find pricing | fourth reply
+  - author | asks a follow-up question | about the free credit given at Google Cloud signup | fifth turn
+  - model | answers with a clarification | which credits apply where, a strategy recommendation, an offer to help link credits | fifth reply
+  - author | asks for an overview | how to use Vertex AI/Cloud Console like the web chat for story planning | sixth turn
+  - model | gives an overview | access steps, a feature comparison, an offer to upload the manuscript | sixth reply
+  - author | states a constraint | wants analysis and worldbuilding help only, no generated story text | seventh turn
+  - model | gives configuration guidance | an analyst-mode system instruction, model-tuning settings, an offer to draft one | seventh reply
+  - author | asks a tangential question | what stops people farming the $300 signup credit | eighth turn
+  - model | answers with an explanation | financial, device, and behavioral anti-abuse measures, an offer to help pick a cheap model | eighth reply
+  - author | shares a fact | the story plan document is about 500k tokens | ninth turn
+  - model | gives a cost analysis | per-prompt cost estimates, a caching solution, an offer of C# code for the planner app | ninth reply
+  - author | asks a how-to question | how to get a word count in Notepad++ | tenth turn
+  - model | answers with instructions | status bar, Summary menu, Find tool methods | tenth reply
+  - author | corrects the figure and asks a diagnostic question | the document is 300k words, is that why chat fails after two turns | eleventh turn
+  - model | confirms and explains | token estimate, why the consumer app degrades, an offer to structure a lore-bible prompt | eleventh reply
+  - author | asks about an alternative tool | NotebookLM | twelfth turn
+  - model | recommends and explains | source-grounding rationale, a comparison table, setup steps, an offer to draft a master analyst prompt | twelfth reply
+- kept:
+- brought: The author brought facts about the scale of their existing story-plan document (first ~500k tokens, then corrected to 300k words) and a stated preference that any AI tool be used only for analysis and worldbuilding, not for generating story prose.
+- loop: The author repeatedly brought practical questions about which Google AI tool, tier, or billing setup could handle their oversized plan document and analytical-only use case, and the model returned technical explanations, comparisons, and unsolicited offers each time; none of this tooling exchange fed back into the planning database, showing a support loop that ran entirely outside the story plan itself.

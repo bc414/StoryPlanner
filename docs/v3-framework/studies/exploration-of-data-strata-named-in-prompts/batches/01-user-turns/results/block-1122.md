@@ -1,0 +1,10 @@
+- sources:
+  - these other notes about Wingbardy and Colthage | the author's own notes, to be synthesized with or compared against the model's Wingbardy account; they carry the author's intended direction for both nations | "I had these other notes about Wingbardy and Colthage, please synthesize or compare" | first-named
+  - Modern China (Deng Xiaoping, Xi Jinping, belt and road, today's Chinese citizens) | real-world model that Wingbardy is to be built on: state-sponsored capitalism, a strongman purging corruption, economic conquest, a content populace with a restless younger generation | "Wingbardy represents Modern China" | first-named
+  - real Italy and Mussolini | no longer the model for Wingbardy and treated as irrelevant to it; the Italian parallel is moved to Duke Gerlach of Feathesia | "real Italy and Mussolini are irrelevant to history" | referred-to
+  - Italy switching sides in WW2 and deposing Mussolini | historical parallel to be used for Duke Gerlach switching to the republic before unconditional surrender | "like the Italians switching sides in WW2" | first-named
+  - P&K | precedent for the fates of Gerlach, Gabriella Eagleclaw and Ignatius Bronzetail being spared | "Gerlach was spared alongside Gabriella Eagleclaw and Ignatius Bronzetail, like in P&K" | referred-to
+  - the British in Norway and France | historical parallel offered as an alternative for the Hippogriffs starting to help Colthage and leaving halfway; the Hippogriffs are also cast as the British parallel | "like the British in Norway and France" | first-named
+- order:
+  - Modern China over real Italy and Mussolini as the model for Wingbardy | "by moving Wingbardy to be China, it's saying real Italy and Mussolini are irrelevant to history"
+- about: The user offers their own notes recasting Wingbardy as a Modern-China analogue, moving the Italian parallel to Gerlach, and detailing Colthage's betrayal by Wingbardy and the Hippogriffs, and asks the model to synthesize or compare them with its earlier account.

@@ -1,0 +1,5 @@
+- sources:
+  - the "Gemini" entry in the takeout drop down | candidate export source whose name differs from what was expected; the user asks the model to confirm it is the right one | It's just called "Gemini" in the takeout drop down instead of "Gemini Apps" | referred-to
+  - "Gemini Apps" in my activity | the label the user sees in their activity, used as the point of comparison to check the takeout name against | even though it says "Gemini Apps" in my activity | referred-to
+- order:
+- about: The user asks whether the Takeout dropdown's \"Gemini\" entry is the correct one to export, since their activity page labels the same data \"Gemini Apps\".

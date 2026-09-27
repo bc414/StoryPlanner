@@ -1,0 +1,6 @@
+- sources:
+  - output from phase 0 (the example JSON array of four numbered priority directives) | treat as a sample of the input format the updated phase 1 prompt must handle; an illustrative example | Here is an example of the output from phase 0 | first-named
+  - existing system prompt for phase 1 | the base text to be revised; keep it as the starting point and update it | Here is my existing system prompt for phase 1 | first-named
+  - new requirements for phase 1 web app (JSON sorted by strategies with buckets under them, then orphan buckets) | the requirements the updated prompt must meet; the change to make | update the system prompt for phase 1 prompt with the new requirements | referred-to
+- order:
+- about: The user supplies a sample phase 0 output and their current phase 1 system prompt and asks the model to rewrite that prompt so phase 1 outputs JSON grouped by strategy with buckets beneath each, plus a final set of orphan buckets.

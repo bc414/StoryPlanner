@@ -1,0 +1,12 @@
+- passages:
+  - 4410 | expository/analytical | subordinate 'because' clause, third-person description, states line, setting, and reasoning | names the ending line, the Ponyville/Castle of Friendship setting, and the title's misleading combat implication | apart
+  - 4410 | exclamatory/enthusiastic affirmation | capitalized emphasis ('THE'), exclamation marks, short punchy clauses | affirms the chapter is really about friendship and fits the HOI4 naming theme | apart
+  - 4411 | plain declarative world-building | short indicative sentences, negation, parenthetical qualifier | absence of 'Republic'/'President' concepts, only a de facto military governor | apart
+  - 4412 | plain declarative character-note | single short indicative sentence, no elaboration | Celestia's resigned, deferential demeanor in the chapter | apart
+  - 5680 | telegraphic notation | fragmentary lines without full verbs, list-like layout | Ponyville as one of the last settlements, on the Everfree Forest's edge | apart
+  - 5680 | exclamatory/causal explanatory | full sentence, causal connector 'that's why', exclamation mark | explains why Ponyville ponies are ambitious and why the show is set there | apart
+- shifts:
+  - 4410 | expository/analytical | exclamatory/enthusiastic affirmation | sentence break, shift from reasoned explanation to capitalized, exclamation-marked assertion
+  - 5680 | telegraphic notation | exclamatory/causal explanatory | shift from fragment lines to a full causal sentence ending in an exclamation mark
+- registers: expository/analytical; exclamatory/enthusiastic affirmation; plain declarative; telegraphic notation; exclamatory/causal explanatory
+- whole: Across its four notes this item mixes several distinct registers—plain declarative statements in 4411 and 4412, and within 4410 and 5680 a clear turn from measured exposition or fragmentary listing into exclamatory, causal affirmation—with each shift landing at a sentence break rather than blending inside one sentence.

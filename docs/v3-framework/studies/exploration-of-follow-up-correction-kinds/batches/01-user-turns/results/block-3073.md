@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sends a follow-up request to search a different body of material (the source materials for P&K and Pax Chrysalia) for the phrase "walled garden", extending the origin investigation without disputing anything the model said.

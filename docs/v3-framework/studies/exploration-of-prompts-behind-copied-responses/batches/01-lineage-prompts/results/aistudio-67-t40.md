@@ -1,0 +1,7 @@
+- asks:
+  - propose-and-check | asks whether a specific new rule should be adopted: that New Mareland is barred from accepting Aquileian refugees because their geographic closeness would breed resentment, tension, and risk of war | "How about if New Mareland is not allowed to take Aquileian refugees because the proximity would breed resentment and tension and a risk of war?"
+- supplies:
+  - worldbuilding recap | a three-era history of Aquileia's griffon-pony relations: pre-854 ALB feudal abuse and Imperial Herzlander extraction under threat of invasion; Grover III's abandoned scientific revolution followed by a pan-griffonian chivalric monster-hunting reform era, alongside New Mareland's founding and refugee smuggling via Tzinacatl traders; and Grover IV's reversal into industrial-extractive, sadistic warlordism | several paragraphs
+- shaping:
+- openness: Leans toward an answer it names: the message proposes the specific rule that New Mareland cannot take Aquileian refugees, supplying its own rationale (proximity breeding resentment and war risk), and asks the model to weigh in on adopting it.
+- subject: Three-era history of griffon rule over Aquileian ponies and the resulting refugee policy toward New Mareland

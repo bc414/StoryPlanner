@@ -1,0 +1,7 @@
+- sources:
+  - my own summary of the new mental model for my story design and the nature of the TLTT project | treat as the author's current framing of the project and build the analysis on it | I have included my own summary of the new mental model | first-named
+  - the attached concrete ponderings, plans, and questions regarding the true nature of my story planner's existing fragmented data | analyze in depth and answer the open questions in them | attached concrete ponderings, plans, and questions | first-named
+  - examples from the world bible document | review to see how entities are actually used now | review examples from the world bible document | referred-to
+  - the existing source code for entity schema and how they are converted to markdown | review to understand how entities are truly used now | the existing source code for entity schema | referred-to
+- order:
+- about: The user hands over their own summary and a set of ponderings and open questions, and asks the model to review the world bible examples and the planner's source code so it can answer how to architect the story planner refactor and what data entry discipline to follow, separating layers to serve the layer 4 syuzhet.

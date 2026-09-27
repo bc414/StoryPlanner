@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | go back to and read again for how the war in Griffonia concludes, and take that ending as the established basis for the answer | Please look into my story plans again and take note of how the war in Griffonia concludes | referred-to
+- order:
+- about: The user asks the model to re-read their story plans for the war's ending in Griffonia (allies won, Skyfall surrounded) and then to say whether Kessler can now be pressured.

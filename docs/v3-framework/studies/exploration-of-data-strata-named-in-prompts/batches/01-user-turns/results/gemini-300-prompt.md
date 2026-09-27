@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user approves the idea that honesty, through Applejack's influence, resolves Herzland's integration, then asks whether "Poser" is the right term for Chrysalis and the griffon supremacists, what alternatives exist, and which term would work best for a modern online readership.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the analysis of Mudbeak to a new request for suggestions on Blueblood's arc from fop to founder of the Equestrian Army, offering their own sequence of events (failed purchased education, Manehattan rejection, finding Mudbeak) and asking about the limits of his wealth, without disputing anything in the previous turn.

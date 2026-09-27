@@ -1,0 +1,5 @@
+- sources:
+  - the attached PDF of chapter 4 (Chapter 1 - Attitude and Pizzazz.pdf) | the material to be analyzed; the model is to read it and apply the analysis to it | attached a PDF of chapter 4 | first-named
+  - the pasted instructions for more analysis | the task specification to carry out in full on the chapter | I pasted instructions for more analysis | first-named
+- order:
+- about: The user hands over a pasted set of analysis instructions and a PDF of chapter 4 and asks the model to work through the instructions on it completely.

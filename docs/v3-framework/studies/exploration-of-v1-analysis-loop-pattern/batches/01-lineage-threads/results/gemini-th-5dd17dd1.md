@@ -1,0 +1,14 @@
+- steps:
+  - author | opens research query | WWI German occupation of French villages and civilian treatment | start of the conversation
+  - model | delivers structured historical overview | administration structure, requisitioning, atrocities, occupation statistics, sourced with a video link | first reply
+  - author | narrows the question | asks specifically about the initial rapid-advance phase and first-contact treatment of civilians | follow-up question
+  - model | delivers a more detailed, phase-specific overview | francs-tireurs panic, mass executions, hostage-taking, deportation, sexual violence during the 1914 invasion | second reply
+  - author | pivots to a new era | asks about occupation practices in the Napoleonic Wars | third question, changes topic
+  - model | delivers a comparative historical overview | French Napoleonic occupation practices plus a comparison table against the WWI case | third reply
+  - author | pivots to another era | asks about occupation practices in the American Civil War | fourth question, changes topic again
+  - model | delivers a comparative historical overview | Union conciliation vs hard-war policy, mobile vs stable occupation, comparison table against WWI | fourth reply
+  - author | reflects on the pattern and redirects | observes the chosen wars were unusually brutal and asks for a milder example, naming the War of the Austrian Succession | fifth question, self-corrects the sampling
+  - model | delivers a contrasting historical overview | 18th-century limited warfare, financial 'contributions' and hostage-taking in place of terror, explicit contrast with the earlier brutal cases | fifth reply, closes the stretch
+- kept:
+- brought: none — the author opens with a free-standing historical research question not tied to any stated plan element or prior document
+- loop: The author runs a chain of comparative research queries on how occupying armies treated civilian villages across different wars, each time redirecting the model to a new era or narrower angle rather than developing any single answer further, and the planning database recorded none of it — the exchange functioned as background reading with no traced uptake into the plan.

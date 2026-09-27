@@ -1,0 +1,24 @@
+- relations:
+  - 579 | 238 | the analogy's 'system breaks' in 1007 is the same year as the succession civil war; the war is the occasion of the break | 1007 in both; 'The system breaks' / 'civil war ... over ... regency' | implicit
+  - 579 | 243 | the analogy names Chrysalis as a figure entering; the ontology gives what Eros took from Chrysalis | 'Chrysalis enters' / 'Chrysalis's eat the rich ethos' | explicit
+  - 579 | 2349 | the analogy labels Eros a Theocratic Fascist; the ontology states the theocratic-corporatist rule that fits the label | 'Theocratic Fascist (Statist)' / 'Theocratic Corporatism' | implicit
+  - 238 | 515 | the civil war over the regency is followed by Eros holding Griffenheim and then uniting Herzland | 'civil war' / 'Once Eros has control over Griffenheim' | implicit
+  - 244 | 515 | the stated motive (stop nobles looting Herzland) is carried out by centralizing over 'greedy nobility' | 'did not want the nobility to further loot' / 'former duchies led by greedy nobility' | implicit
+  - 243 | 515 | the eat-the-rich ethos is put into practice by curbing the nobility and giving peasants clothes and jobs | 'eat the rich ethos' / 'clothes and jobs to all peasants' | implicit
+  - 243 | 244 | Eros's anti-noble ethos and his motive against noble looting say the same stance, one as rule, one as cause | 'eat the rich' / 'nobility to further loot' | implicit
+  - 259 | 517 | 'Boreas wills it' and the restoration of the Empire's glory are instances of the divine hierarchy Boreas, Kaiser, Reich | 'Boreas wills it' / 'source of all marality and the divine right to rule' | implicit
+  - 515 | 517 | the factory-work line repeats the motto's three-part loyalty to Boreas, Emperor, Reich as its effect | 'for Boreas, for the Emperor, for the Reich' / 'For Boreas, For the Kaiser, For the Reich' | implicit
+  - 2349 | 517 | private enterprise serving the State and Boreas and the Kaiser's purity rests on the divine-to-earthly hierarchy | 'serves the State and Boreas' / 'flows from the divine to the earthly' | implicit
+  - 2349 | 515 | the rule that the economy serves the Reich is shown in industry employing peasants for the Reich | 'subordinated to the military survival of the Reich' / 'work in factories for Boreas' | implicit
+  - 259 | 1087 | the aim of restoring imperial glory fits being first known as aggressor in a war | 'restore the Empire's glory' / 'aggressor in a war' | implicit
+  - 515 | 1093 | the population figure is the size of the Herzland that the unification produced | 'uniting Herzland' / 'United Herzland has 38 million' | implicit
+  - 259 | 515 | the broad commonfolk support claimed is realised in peasants loyal to Eros | 'broad support of the commonfolk' / 'former peasants loyal to Eros' | implicit
+- outward:
+  - 238 | Grover V, Grover VI and Gabriella Eagleclaw, figures and a regency held elsewhere | 'Grover V passed away' / 'Gabriella Eagleclaw'
+  - 515 | Griffenheim and the former duchies, places and polities held elsewhere | 'control over Griffenheim' / 'former duchies'
+  - 1087 | Aquileia and the Griffonian Republic, other states in a war shown elsewhere | 'war against Aquileia and the Griffonian Republic'
+  - 243 | Chrysalis and the system she built, held elsewhere | 'Chrysalis's eat the rich ethos'
+  - 579 | Chrysalis as a figure and the real-world Fascism/WW2 model | 'Chrysalis enters as the Visionary Tyrant'
+  - 259 | the earlier Empire and its fall, and the other Archons | 'Empire's glory' / 'his fellow Archons'
+  - 1093 | the Diamond Dogs as a people held elsewhere | 'Griffons and Diamond Dogs'
+- whole: Most of these notes join through Eros and the Boreas-Kaiser-Reich order, forming a loosely connected set, with a few notes (the population figure, the war mention) standing nearly alone.

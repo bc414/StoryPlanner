@@ -1,0 +1,4 @@
+- sources:
+  - the rigorous logic we've established (the cynic vs resilient spectrum framework built up in this conversation) | use as the analytic framework to apply to a new subject and place the forces on the spectrum | using the rigorous logic we've established | referred-to
+- order:
+- about: The user asks the model to carry the cynic-versus-resilient framework already developed over to the American Right today, placing its various factions on the spectrum and explaining why.

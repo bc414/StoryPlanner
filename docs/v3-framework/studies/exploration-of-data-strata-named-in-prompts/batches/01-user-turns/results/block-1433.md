@@ -1,0 +1,5 @@
+- sources:
+  - a different conversation, where "Cute Intelligence Agency" was suggested as an organization-type subject even though it is created in story | treat as a precedent to reason by analogy from, for making the Equestrian Republic a codex entry that has no backstory | "in a different conversation, it was suggested that" | referred-to
+  - the current pre-story vs in-story axis (the TLTT framing) | treat as provisional and TLTT-specific; the model is asked to re-examine it, possibly generalize or rename it, since prequel plot points could make the currently "impossible" tracks possible | "the current pre-story vs in-story axis is specific to TLTT" | referred-to
+- order:
+- about: The user proposes making the Equestrian Republic a codex entry with empty backstory, then argues that planning prequel-sequels alongside TLTT means the pre-story vs in-story axis and the story-wide reveal plan are really project-wide, and asks for a deep analysis of what the axis fundamentally is.

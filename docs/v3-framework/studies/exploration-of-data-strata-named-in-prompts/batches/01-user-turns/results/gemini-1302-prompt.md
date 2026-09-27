@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reacts approvingly to the model's analysis of the word parloir and uses it to extend their story, saying the Aquileian characters must eventually face their own cultural superiority and realize they treated their Equestrian students as children.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's ideological analysis as fitting their lore, lays out the timeline from the 978 revolution through the 1007 theocracy, and asks new questions about Kemerskai's government, its use of the Empire's real history as propaganda, and Eros's religious propaganda, while asking the model to review the story plans first.

@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Tally is presented as an embodiment of honesty through work. She is a unicorn who carries the earth pony ideal of hard, honest labor, and her forgery-proof wooden tallies stand for authentic substance over posturing. The same sentence also states as fact that she is a unicorn, that hard and honest work is an earth pony way, and that her tallies can't be forged. | embodies the earth pony way of hard work, honest work, by making these authentic wooden tallies that can't be forged | no | expository prose, a single declarative sentence
+- whole: A one-sentence statement that Tally Stock, a unicorn, personifies honest earth-pony-style work through her unforgeable wooden tallies, which is how the scene serves the theme.

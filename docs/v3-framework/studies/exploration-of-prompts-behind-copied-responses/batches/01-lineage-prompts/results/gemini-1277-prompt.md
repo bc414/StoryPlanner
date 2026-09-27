@@ -1,0 +1,7 @@
+- asks:
+  - compare | weigh the pros and cons of keeping the existing timeline versus moving an event earlier | "What are the pros and cons of keeping the existing timeline versus Twilight and Fluttershy dragging Pinkie out of the mine to Tall Tale and baking morale cakes earlier, during the prototyping?"
+- supplies:
+- shaping:
+  - answer should be structured as pros and cons for the two options | "What are the pros and cons"
+- openness: Asks for a choice between two named options: keeping the existing timeline, or having Twilight and Fluttershy pull Pinkie from the mine to Tall Tale to bake morale cakes earlier, during the prototyping phase.
+- subject: Timing of a plot event (Pinkie's mine rescue and morale-cake baking) relative to the story's love-donator and rifle supply chain plotline

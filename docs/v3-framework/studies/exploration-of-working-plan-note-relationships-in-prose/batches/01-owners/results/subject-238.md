@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1740|The charitostatic effect, a piece of the story's world or lore that is explained or held elsewhere and not in this item|The charitostatic effect is the foundation of the morale cakes
+- whole: This owner holds a single note, so there is nothing for it to hang together with and no joint between notes.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's hidden-subjects report by proposing that SECEF is the same organization as the Equestrian Army because they share a binding logic, asking what makes Leistungsgemeinschaften a technology like MEFO Bills and Simplified Herzlander, agreeing that Idol of Boreas is one, and adding Hearth's Warming Bonds.

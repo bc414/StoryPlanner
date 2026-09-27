@@ -1,0 +1,4 @@
+- sources:
+  - EU4 (élan as a French tradition) | the object being asked about: the model is to assess whether the game's depiction of élan is a projection, so it is treated as something to interpret and question, not as settled fact | élan as a French tradition in EU4 | referred-to
+- order:
+- about: The user asks a short follow-up question, whether the élan French tradition in EU4 is really an epistemological projection, taking the game's depiction as the thing to be examined.

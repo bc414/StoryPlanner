@@ -1,0 +1,31 @@
+- passages:
+  - 4440 | exclamatory comparison note | exclamation mark, present tense, sets up a foil pairing | Gaudreau as an improved counterpart to Eagleclaw | apart
+  - 4440 | exclamatory comparison note | sentence fragment starting with 'Who', continues the thought | Eagleclaw's freedom from tradition | run-in
+  - 4676 | past-tense narrative summary | third person, single summarizing sentence, past tense verbs | her role as noble deputy freeing and educating serfs | apart
+  - 4904 | terse chronological list | fragments of year/age plus clause, no full-sentence subject repeated | dated life stages | apart
+  - 4904 | terse chronological list | age fragment leading into parenthetical | move to Le Grand Foyer at 14 | run-in
+  - 4904 | interpretive parenthetical aside | parenthesis, psychological/political interpretation | why the age of 14 matters for her outlook | run-in
+  - 4904 | terse chronological list | age fragment leading into parenthetical | return to Vinovia at 15 with new ideas | run-in
+  - 4904 | interpretive parenthetical aside | parenthesis, comparison to another character (Chrysalis) | likening her youth to Chrysalis's | run-in
+  - 4904 | terse chronological list | age/year fragment with causal clause, no aside | Vinovia staying Royalist in the first revolution | apart
+  - 4904 | terse chronological list | age/year fragment, no aside | her 1008 election as president | apart
+  - 4905 | past-tense narrative summary | past tense 'tells', reported father-son exchange | father assigning Cecille to manage Vinovia | apart
+  - 4905 | present-tense narrative summary | present tense verbs 'hires', analytic phrase 'bridging the gap' | hiring 2nd gen Royalists, blending economic systems | apart
+  - 4905 | present-tense narrative summary | present tense verbs 'lets'/'can' | letting serfs keep and sell harvest | apart
+  - 4937 | present-tense narrative summary | dated 'Timeline -' header, present tense meeting/studying | Cecille meeting Coltbert and studying estate management | apart
+  - 4937 | expository economic background | 'Before,' transition, past tense, causal 'because'/'so' clauses | the old wine-tithe system and its lack of value to serfs | apart
+  - 4937 | present-tense narrative summary | present tense 'implements', 'hiring', economic term in parenthesis | Gaudreau's partial reforms and encouraging more wine production | apart
+  - 4937 | evaluative comparative statement | past tense 'treated', metaphor of employees vs livestock | summary judgment of how she treated her serfs | apart
+  - 4953 | past-tense narrative judgment | past tense 'internalized'/'were', reported specific judgment | father's view that warlords were incompetent | run-in
+  - 4953 | present-tense general claim | present tense 'allows for', abstract listed nouns | general principle about meritocracy and discipline | run-in
+- shifts:
+  - 4440 | exclamatory comparison note (main claim) | exclamatory comparison note (fragment continuation) | sentence break into a fragment starting with 'Who', no register change but a syntactic break
+  - 4904 | terse chronological list | interpretive parenthetical aside | opening parenthesis introducing a psychological/comparative comment on the age 14
+  - 4904 | terse chronological list | interpretive parenthetical aside | opening parenthesis comparing her to Chrysalis
+  - 4905 | past-tense narrative summary | present-tense narrative summary | shift from reported past-tense speech ('tells') to present-tense action verbs ('hires', 'lets')
+  - 4937 | present-tense narrative summary | expository economic background | 'Before,' marks a turn to past-tense causal explanation of the old wine system
+  - 4937 | expository economic background | present-tense narrative summary | return to present tense and the proper name 'Gaudreau implements' resuming action narration
+  - 4937 | present-tense narrative summary | evaluative comparative statement | shift to past tense 'treated' and a summarizing metaphor of employees versus livestock
+  - 4953 | past-tense narrative judgment | present-tense general claim | shift within the same sentence from past tense 'were' to present tense 'allows for' a general principle
+- registers: exclamatory comparison note; past-tense narrative summary; present-tense narrative summary; terse chronological list; interpretive parenthetical aside; expository economic background; evaluative comparative statement; past-tense narrative judgment; present-tense general claim
+- whole: These notes move across several registers—exclamatory brainstorming, terse dated lists broken by interpretive asides, past- and present-tense narrative summaries, expository economic explanation, and evaluative or general-claim statements—with most shifts occurring between separate notes or lines but a few folding into one another within a single sentence.

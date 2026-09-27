@@ -1,0 +1,6 @@
+- sources:
+  - My story plan (the area on Chrysalis getting help from linguists to create Simplified Herzlander for her drones) | review it as the existing material to be read first, then combine with the new lore | "Please review my story plans on this area" | referred-to
+  - new lore from this conversation (Grover 3 and the elites injecting Greek and Roman words) | treat as new material to be synthesized with the story plans | "synthesize then with my new lore from this conversation" | referred-to
+- order:
+  - My story plan (Chrysalis and linguists, Simplified Herzlander) over new lore from this conversation | the turn asks to review the plans first and then synthesize them with the new lore
+- about: The user asks the model to review their story plans about Chrysalis getting linguists' help to create Simplified Herzlander for her drones and then merge that with the new lore from this conversation about Grover 3's Greek and Roman word injection creating haughty linguists.

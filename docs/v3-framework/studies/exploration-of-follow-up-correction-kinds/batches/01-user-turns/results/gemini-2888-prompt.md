@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's Cold War and workshop-economy analysis and their pending structural question aside. They bring in a new thread on pink love (food sweetener, morale, the friendship-in-a-bottle theme, its separation from red love) and ask the model to check that material against existing lore to see what is answered and what is still open.

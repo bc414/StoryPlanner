@@ -1,0 +1,9 @@
+- sources:
+  - P&K | where Jacques comes from and what it implies about Discord (he found war boring or let it happen out of spite at Celestia); the author credits it for the character but prefers a different explanation for the war | I can't claim credit for Jacques or Adelart. He is a supporting character in P&K and implied to be discord | referred-to
+  - the author's own reasoning that Discord's chaos magic didn't work because intent didn't line up | the author's chosen explanation for Discord's absence, to be used instead of the P&K one | I do claim credit for the reasoning - his chaos magic simply didn't work due to the intent not lining up | referred-to
+  - the episode Discordant Harmony | canon precedent that supports the explanation, since Discord's magic failed when he tried to be normal instead of his usual self | This ties into the episode Discordant Harmony | referred-to
+  - earth pony magic and intent | an in-setting comparison for how intent governs whether magic works | Similar to earth pony magic and intent | referred-to
+  - the author's plan for the chapter "Loyalty" | the planned place for the Discord reveal, with Fluttershy telling Rainbow Dash | I was planning for Fluttershy to give this reveal when Rainbow Dash asks her what the heck he is up to in the chapter "Loyalty" | referred-to
+- order:
+  - the author's own reasoning (chaos magic didn't work) | P&K's implication that Discord found war boring or allowed it out of spite | I would rather have the explanation to be that it didn't work
+- about: The author reacts to the model's lore expansion by asking whether Applejack should keep Celestia's motive secret and whether Twilight should be present, then corrects the credit for Jacques, states their own reason for Discord's failure over P&K's implied one, and says where in the chapter plan the reveal will go.

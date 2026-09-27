@@ -1,0 +1,27 @@
+- passages:
+  - note 4700 | analytical/expository canon-interpretation | third-person declarative, explains subversion of canon theme | Rarity's seamstress role as subversion of Celestia's clothing analysis | apart
+  - note 4700 | analytical/expository canon-interpretation | continues third-person explanation, leads into a parenthetical | Rarity's talent giving ponies self-esteem | run-in
+  - note 4700 | exclamatory shorthand aside | parenthesis, exclamation mark, coined terms 'red love' | evaluative tag on self-esteem-giving | run-in
+  - note 4700 | analytical/expository canon-interpretation | citation of episode titles as evidence | canon episodes evidencing the theme | apart
+  - note 4700 | analytical/expository canon-interpretation | declarative conclusion using worldbuilding term 'Aquileian model' | Rarity as organic believer in the Aquileian model, like Applejack | apart
+  - note 4700 | analytical/expository canon-interpretation | parenthetical explanatory continuation, still third person | why the Rarity/AJ pairing works, Rarity's complexity | apart
+  - note 4700 | first-person authorial planning | first person 'I want', states an intention for the story | bringing Rarity's canon message into the story via the Industrialization framing | run-in
+  - note 4917 | timeline narrative/plot-summary | date heading, present-tense summary of events | Minette and stallions helping house ponies gain confidence through clothes | apart
+  - note 4917 | meta-commentary/connective | exclamation mark, direct naming of canon philosophy | connecting the story event to Rarity's canon philosophy | apart
+  - note 4917 | timeline narrative/plot-summary | return to plain narrative, quoted catchphrase | origin of Rarity's canon catchphrase | apart
+  - note 4917 | timeline narrative/plot-summary | present-tense narrative with causal explanatory clause | Minette's 'Royalist Swagger' as social armor | apart
+  - note 4917 | past-tense flashback/contrast description | past tense, 'Before,' transition, physical description and consequence | house ponies' prior degraded appearance and its effect | apart
+  - note 4917 | aphoristic maxim | short present-tense quotable maxim attributed to a character | Minette's philosophy that dignity is a choice | apart
+  - note 4917 | meta-commentary/connective | quotation-marked phrase 'dark truth', explicit contrast with the kid-friendly version | true meaning behind Rarity's origin story | apart
+  - note 4932 | analytical/expository canon-interpretation | third-person declarative, explains motivation via a worldbuilding lens | Rarity dismissing Spike's crush through the Aquileian lens | apart
+- shifts:
+  - note 4700 | analytical/expository canon-interpretation | exclamatory shorthand aside | opening parenthesis, exclamation mark, coined terms
+  - note 4700 | exclamatory shorthand aside | analytical/expository canon-interpretation | closing parenthesis, return to plain declarative sentence
+  - note 4700 | analytical/expository canon-interpretation | first-person authorial planning | shift from third-person 'This explains why' to first-person 'I want', verb of intention
+  - note 4917 | timeline narrative/plot-summary | meta-commentary/connective | exclamation point, direct naming of 'Rarity's philosophy'
+  - note 4917 | meta-commentary/connective | timeline narrative/plot-summary | return to plain declarative narrating with a quoted phrase
+  - note 4917 | timeline narrative/plot-summary | past-tense flashback/contrast description | tense shift to past tense and 'Before,' transition
+  - note 4917 | past-tense flashback/contrast description | aphoristic maxim | shift to a short quotable present-tense maxim attributed to a character
+  - note 4917 | aphoristic maxim | meta-commentary/connective | quotation-marked phrase 'dark truth' and explicit tie back to Rarity's canon origin story
+- registers: analytical/expository canon-interpretation; exclamatory shorthand aside; first-person authorial planning; timeline narrative/plot-summary; meta-commentary/connective; past-tense flashback/contrast description; aphoristic maxim
+- whole: The item's notes move through several distinct registers — expository canon-analysis, a brief exclamatory aside, a first-person planning statement, timeline narration, meta-commentary tying story to canon, a past-tense contrast description, and a maxim — mostly separated by clear sentence breaks, with only the two parenthetical asides running directly into the sentences that carry them.

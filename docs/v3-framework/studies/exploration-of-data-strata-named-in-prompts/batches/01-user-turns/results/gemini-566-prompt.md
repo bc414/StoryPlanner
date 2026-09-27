@@ -1,0 +1,6 @@
+- sources:
+  - chapter 6 "Kindness" (current narrative structure) | check the proposed gradual chemistry and biology arc against what the chapter currently does | Please check the current narrative structure in chapter 6 "Kindness" | referred-to
+  - chapter 10 "Extraction" (current narrative structure) | check the proposed arc against what this chapter currently does, together with chapter 6 | along with chapter 10 "Extraction" | referred-to
+  - my lore (changelings have no hive mind, only individual emotion sense) | treat as settled canon that corrects the model's assumption; do not use a hive mind | there is no concept of a hive mind for changelings in my lore | referred-to
+- order:
+- about: The user proposes that the POW rehab science be discovered gradually alongside the Luna Nova rifle arc, with Fleur Bloom consulting Aquileian experts, and asks the model to check chapters 6 and 10 while correcting its assumption of a changeling hive mind.

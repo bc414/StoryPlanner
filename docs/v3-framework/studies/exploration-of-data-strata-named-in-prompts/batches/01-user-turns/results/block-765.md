@@ -1,0 +1,5 @@
+- sources:
+  - canon (Sunglider 'canonically' an officer in the long march) | treat as fixed fact; the model should build his age and background on it (about 20 then, about 50 now) | Sunglider canonically was an officer in the long march | first-named
+  - the game (Sunglider and Kingfeather as they appear 'in game') | treat as the basis for their characters; Sunglider is the idealist who brings in fiat currency and social programs, and Kingfeather is the conservative, defensive way to play the GR. Build the new Riks-architect idea on these | In game, he is the idealist who believes in the revolution | first-named
+- order:
+- about: The user corrects the model's picture of GR politics with their own account of the factions, coalition and character ages, and proposes, tentatively, that Sunglider designed the Riks, tying this to what he does in the game.

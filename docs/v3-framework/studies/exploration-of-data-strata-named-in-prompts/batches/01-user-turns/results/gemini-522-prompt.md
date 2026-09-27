@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of the character Mali's development and effect on the story, without pointing at any body of material to use or avoid.

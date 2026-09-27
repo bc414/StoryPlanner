@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | The scene is where Applejack recognises that the strength half of the theme has been carried out: the tactics revealed to the press have shown her power. | "Applejack realizes that she showed her strength" | no | plain declarative sentence stating a character realisation
+  - bearing on the theme | Mercy is set as the next step after strength: Applejack should now turn to mercy so that her side does not become the monsters. This follows the theme's order of strength first, then mercy, and the responsibility that comes with strength. It is hedged as a possibility rather than settled. | "Now might be the time to be merciful before they become the monsters" | no | hedged declarative, short, with "might be" softening it
+- whole: A two-sentence note saying the scene marks Applejack's strength as shown and points her toward mercy as the next move, so the strength-then-mercy order of the theme is carried by her turn.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the weapons analysis by asking where the horde's mixed arms would come from, proposing an arms-for-raw-materials trade with Herzlander individualists, and asking for historical parallels (post-colonial Africa and China, mandala states, Vikings, Magyars, Huns, Mongols) without disputing anything the model said.

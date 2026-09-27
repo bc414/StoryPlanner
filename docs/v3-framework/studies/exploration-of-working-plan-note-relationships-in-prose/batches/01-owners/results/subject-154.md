@@ -1,0 +1,38 @@
+- relations:
+  - 1553|1554|the analogy note gives a real-world parallel for the same event the history note reports, the truce of Johan and Velvet against the changelings|"Johan and Velvet form a spiteful truce" repeated, plus "like the Nationalists and Communists in China"|implicit
+  - 1539|1540|the in-universe history states a death that the canon note records as already established in the source lore|"died suddenly and suspiciously" / "died suddenly and suspiciously in EaW lore"|implicit
+  - 1539|1553|continues in time: Johan was put on the throne by Chrysalis and VOPS, and later he and Velvet make a truce against the changelings|"Johan the bastard son" / "Johan and Velvet form a spiteful truce"|implicit
+  - 1539|1552|the thematic note presupposes the usurpation: Johan taking the throne is the genuine injustice that Pagala exploits|"Johan stealing Velvet's throne"|implicit
+  - 1553|1579|continues in time: after the truce against the changelings, the Heer arrives a year later and Velvet, in place of resisting, bends the knee, which overturns the united front|"a year later" / "(like Queen Velvet) bend the knee"|explicit
+  - 1578|1579|cause: the returned slaves' horror stories leave the populace broken, so it accepts collaboration at once|"already psychologically broken by these tales"|explicit
+  - 1579|1569|instance of the general claim: accepting the collaboration deal is how the deer come to be collaborators who bought into the system|"accept the collaboration deal instantly" / "The deer are collaborators"|implicit
+  - 1569|1570|the reader plan delivers the characterization truth on the page, first as a misleading assumption and then as a reveal|"The deer are collaborators who bought into the system and punch down" (same words in both)|implicit
+  - 1570|1571|the thematic note explains what the reader plan says the punching down does: the collaborators do the changelings' administrative and psychological work|"punch down" / "doing the Changelings' administrative and psychological work"|implicit
+  - 1570|1572|the thematic note gives the reason for the plan's claim that this yields more extraction than concentration camps: a self-policing, competing population yields more than one held at gunpoint|"even more harvested extraction than simple concentration camps" / "far more from a population that polices itself"|implicit
+  - 1571|1572|two statements of one mechanism, collaborators policing themselves and competing for the oppressor's favor|"punching down" / "polices itself and competes for the oppressor's favor"|implicit
+  - 1563|1564|a specific instance of a general claim: the Olenian bucks and does fighting over the whip is the gender war that blocks class solidarity|"fighting over who gets to hold the whip" / "fighting a bitter gender war"|implicit
+  - 1562|1564|the redirected anger is the mechanism by which the working class is kept in a gender war and cannot unite|"redirects that anger sideways and downward" / "fighting a bitter gender war"|implicit
+  - 1560|1562|the profit-from-anger claim and the manosphere's redirection of anger are the same design seen from the changelings' side and from the men's side|"Anger is the most profitable commodity" / "redirects that anger"|implicit
+  - 1552|1560|one specific case of the general claim: Pagala's appeal to the throne injustice is a way of playing the culture war|"sell the illusion of liberation" / "play both sides of the manufactured culture war"|implicit
+  - 1556|1561|continues the argument: the old dominance model no longer fits, and the rat race then doubled the labor pool while the system stayed the same|"still clinging to the hierarchical dominance models" / "The system didn't change"|implicit
+  - 1561|1565|the Lean In critique for Queen Velvet is an instance of the general claim that the rat race only widened who may exploit|"equal opportunity to exploit others" / "diversified the ruling class"|implicit
+  - 1565|1579|Velvet's arc as the assimilation critique is delivered by her bending the knee and accepting the collaboration deal|"assimilate into the toxic patriarchy" / "(like Queen Velvet) bend the knee"|implicit
+  - 1562|1566|the summary contrasts Skyfall with Olenia, whose manufactured grievance is the mechanism the manosphere note describes|"manufactured culture war and grievance fuel unchecked exploitation" / "redirects that anger"|implicit
+  - 1536|1538|the author's note to self says the love tax matches the industrial, materialist theme of the magic|"The love tax perfectly aligns with the theme of industrialized, materialist magic" / "like a DMV line"|explicit
+  - 1538|1573|both frame the love tax as a commodified, industrialized form of magic|"industrialized, materialist magic" / "commodified, synthesized, and unregulated"|implicit
+  - 1536|1568|elaboration of the same extraction system: the taxed peasants' love is drained, while the managers consume and skim it, which stretches the claim that the rulers do not subject themselves to it|"without subjecting themselves to it" / "Olenian middle managers consume red love"|implicit
+  - 1568|1579|the middle-management role that the Heer's deal offers is the position in which the managers' spiraling cruelty and skimming occur|"Corporate Middle Management" / "Olenian middle managers"|implicit
+  - 1568|1571|the managers' cruelty cycle is a concrete case of the collaborators doing the changelings' work|"spiral of cruelty" / "doing the Changelings' administrative and psychological work"|implicit
+  - 1536|1579|the DMV-like bureaucratic love tax matches the corporate rat-race the collaboration deal offers in place of the meatgrinder|"DMV line" / "corporate rat-race"|implicit
+- outward:
+  - 1556|concepts named Asset Specificity and Grace, held elsewhere in the plan|"Asset Specificity and Grace"
+  - 1565|Sheryl Sandberg's real-world book Lean In, the target of the critique|"Sheryl Sandberg's book \"Lean In\""
+  - 1566|Skyfall, another organization or setting in the story|"While Skyfall represents the traditional dystopian manosphere propaganda"
+  - 1552|Pagala, a figure or organization not described in this item|"Pagala uses a genuine historical injustice"
+  - 1539|Chrysalis and VOPS, and King Aldar II, held elsewhere|"Chrysalis and VOPS convinced Johan"
+  - 1540|EaW lore, the source canon|"in EaW lore"
+  - 1554|the real-world Chinese Nationalists and Communists|"like the Nationalists and Communists in China"
+  - 1578|the Aquileians' liberation of the islands, the Love Harvesters and the Statthalter|"When the Aquileians liberate the islands in 1007"
+  - 1579|Chrysalis's Heer, Trimmel and the Bauleiters, and the Zebrican alternative|"Trimmel and the Bauleiters" / "Zebrican Meatgrinder"
+  - 1562|the real-world manosphere and the vulture managers who outsourced jobs|"the manosphere redirects that anger"
+- whole: Most of these notes hang together around the collaborator deer, the love tax and the manufactured culture war, with the allegory and theme notes echoing one another and the history notes forming a sequence, though a few notes such as 1556 stand nearly alone.

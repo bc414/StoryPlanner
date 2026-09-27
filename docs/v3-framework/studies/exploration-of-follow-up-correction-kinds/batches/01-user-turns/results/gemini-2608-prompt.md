@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up on the physiology of cuddling versus post-sex oxytocin and offers their own picture of Chasseur behavior (cuddling after battle, sex after a dull march), which builds on the model's adrenaline-crash framing without disputing it.

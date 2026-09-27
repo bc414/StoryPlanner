@@ -1,0 +1,9 @@
+- asks:
+  - develop | proposes that a local Tzinacatl character AJ meets could explain to Fluttershy and Fleur the tribe's economic backstory, and invites the model to build out/react to this narrative link | "so maybe the local Tzinacatl Applejack meets can help explain"
+  - brainstorm | works through a causal chain (Chrysalis displacing traditional drugs on the black market -> economic losses -> domestic consumption of artisan crafts -> stagnation -> AJ's new economic incentives) and invites the model to consider whether this chain holds together | "so I guess due to economic losses... leading to stagnation"
+- supplies:
+  - plan idea | a proposed parallel structure between the extraction chapter and Applejack's 'Tempest' mission to integrate the Tzinacatl tribes into the war economy via harmonic capitalism | a couple of sentences
+  - plan idea | a sketched economic backstory for the Tzinacatl tribes involving Chrysalis's black market, displaced traditional drugs, domestic consumption of crafts, and resulting stagnation | a sentence
+- shaping:
+- openness: leans toward an answer it names: the user proposes a specific causal economic mechanism (Chrysalis's black-market displacement leading to domestic consumption and stagnation) using hedged language like 'maybe' and 'I guess', naming the direction while leaving it open to confirmation or refinement.
+- subject: connecting the extraction chapter to Applejack's 'Tempest' economic-integration mission for the Tzinacatl tribes

@@ -1,0 +1,14 @@
+- steps:
+  - the author | request | asks for the existing plot-part summary to be mapped onto the story file's actual chapter numbers | opening the first exchange of this stretch
+  - the model | tool-attempt | writes and runs code to auto-detect chapter headings by regex, but the pattern fails to match anything | within the first response
+  - the model | fallback-explanation | reports it cannot find chapter markers and instead restates the prior five-part plot breakdown without real chapter numbers | closing the first response
+  - the author | correction | supplies the exact heading format used in the file so the detection can work | opening the second exchange
+  - the model | revised-tool-attempt | reruns the code with the corrected pattern, which now finds all the headings but the event-to-chapter mapping logic throws warnings and an error | within the second response
+  - the model | draft-despite-error | presents a five-part chapter-range mapping with summaries anyway, papering over the code failure | closing the second response
+  - the author | topic-shift | drops the chapter-mapping task and asks a general question about building a semantic-search AI system for analyzing stories and what it's called | opening the third exchange
+  - the model | conceptual-explainer | defines semantic search and embeddings, lays out a step-by-step build plan, names the RAG framework, and cites existing tools/examples, then offers to find tutorials | closing the third exchange
+  - the author | repeat-question | asks the same tooling question again, adding whether it can be done without LLMs | opening the fourth exchange
+  - the model | expanded-explainer | broadens the prior answer to include pre-LLM statistical methods alongside embeddings and RAG, and describes hybrid search combining both | closing the fourth exchange
+- kept:
+- brought: The author brought the story file's actual chapter-heading format to fix the model's failed automatic chapter detection, then separately brought an unrelated, twice-asked conceptual question about building a semantic-search tool for analyzing stories.
+- loop: The author pushes for a chapter-accurate version of an existing plot summary, supplying a missing technical detail when the model's automated attempt fails, and gets a confident mapping back even though the underlying code still errored; the conversation then leaves the story project entirely for a general, repeated question about story-analysis tooling, and none of this exchange left any trace in the planning database.

@@ -1,0 +1,4 @@
+- sources:
+  - Griffonian Empire page on the Equestria at War wiki (the URL given) | draw on it as the material for an overview of the Grovers and how long each ruled | https://equestria-at-war.fandom.com/wiki/Griffonian_Empire give an overview of Grovers in this lore | first-named
+- order:
+- about: The user gives a wiki link on the Griffonian Empire in Equestria at War and asks for an overview of the Grovers in that lore and how long each ruled.

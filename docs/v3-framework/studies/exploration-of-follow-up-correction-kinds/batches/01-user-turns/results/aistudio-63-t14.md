@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: rejection of proposed story invention | the Changeling Trident calling card and the accountant-murder episode the model wrote as the catalyst for Blueblood's pivot; the user wants the pivot driven by Ahuizotl's warning alone | "We can ditch the trident. Ahuizotl's warning is enough" | flat, brief, offered as a decision made in passing, with a one-line reason, before moving on to new questions
+- about: The user cuts the trident and the murder-scene catalyst from the model's proposed sequence, then moves on to new questions about Blueblood, Mudbeak, Kemmerich and Meyer at the Defense of Mount Aris in 1006.

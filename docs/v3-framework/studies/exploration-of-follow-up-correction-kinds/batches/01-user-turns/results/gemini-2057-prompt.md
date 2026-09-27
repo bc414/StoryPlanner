@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | the model's proposed fixes (an escape-hatch instruction, loosening or relaxing the strict constraints, and offering to rewrite the prompt around that) went in a direction the user did not want, since they wanted refinement of the system instruction with the requirements kept | Ignore the stuff about escape hatch or loosening requirements | flat imperative dismissal with no reason given, stated briefly before moving on to the actual request
+- about: The user waves off the model's escape-hatch and loosened-constraint suggestions, then pastes their current task and protocol text and asks for refinement of the system instruction and whether to add a persona.

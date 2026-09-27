@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a plain follow-up question about what an oil refinery does, a term the model turn used, without saying anything in that turn was wrong.

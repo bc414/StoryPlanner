@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking whether the Cutie Map reactivating in the scene would make sense as a result of Celestia's worldview cracking after eating the cake and hearing Pinkie say it contained red love.

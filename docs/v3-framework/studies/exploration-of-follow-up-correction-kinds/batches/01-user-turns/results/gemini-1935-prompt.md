@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks up the model's mention of Claude Projects and asks a fresh question about Anthropic's current products and how they compare with Gemini, without saying anything in the previous turn was wrong.

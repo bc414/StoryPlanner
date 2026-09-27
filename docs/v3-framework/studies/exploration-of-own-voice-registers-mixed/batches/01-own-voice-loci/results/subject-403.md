@@ -1,0 +1,22 @@
+- passages:
+  - 3964 | definitional equation | parallel "X IS/is Y" statements setting show against Stagnation | comparing the show's Friendship-Magic to the Stagnation's friendship-only need | run-in
+  - 3964 | direct address | second-person "You don't need ambition" | denying any need for ambition | run-in
+  - 3966 | definitional equation | "The Liberty version is Ambition" naming statement | naming Liberty's guiding concept as Ambition | run-in
+  - 3966 | direct address | "You need some ambition..." prescriptive clause | balancing ambition with friendship and non-domination | run-in
+  - 3990 | first-person hypothetical gloss | repeated "I have magic/ambition to..." template | contrasting Ambition's and Domination's aims | apart
+  - 3993 | analytical exposition | third-person account of a wartime transformation | magic subverted into firepower, the will to destroy | apart
+  - 4005 | analytical exposition | third-person analytic narrative of a character trait | Twilight's reluctance to flex magic and offend others | run-in
+  - 4005 | citation annotation | bare parenthetical list of episode titles | naming the episodes cited as evidence | run-in
+  - 4005 | analytical exposition | resumed third-person analytic narrative | Fleur's lesson giving Twilight a spark of Ambition | run-in
+  - 4006 | definitional equation | short "X manifests in Y" statement | Magic as Ambition manifesting in the Luna Nova Rifle | apart
+  - 4120 | aphoristic fragment | terse, unpunctuated standalone lines | grace serving egos, not given for mere existing | apart
+  - 4120 | comparative exposition | full contrastive sentence naming story referents | ego capitalism sufficing against threats but not for peace | apart
+  - 5827 | analytical exposition | extended third-person argument with em-dash asides and defined terms | naive Magic's exceptionalism versus Ambition's democratized capacity | apart
+- shifts:
+  - 3964 | definitional equation | direct address | shift to second-person "you" closing the comparison
+  - 3966 | definitional equation | direct address | shift to second-person "you need" prescriptive clause
+  - 4005 | analytical exposition | citation annotation | drop into a bare parenthetical list of episode titles
+  - 4005 | citation annotation | analytical exposition | return from the parenthetical list to full descriptive sentences
+  - 4120 | aphoristic fragment | comparative exposition | shift from unpunctuated fragments to a full contrastive sentence naming story elements
+- registers: definitional equation; direct address; first-person hypothetical gloss; analytical exposition; citation annotation; aphoristic fragment; comparative exposition
+- whole: This item's notes move across several registers — definitional equations, direct second-person address, a first-person hypothetical gloss, analytical exposition, a bare citation annotation, and aphoristic fragments paired with comparative exposition — with shifts inside single notes usually running straight into one another without a break, while the notes themselves stand apart from each other.

@@ -1,0 +1,4 @@
+- sources:
+  - We went through a lot of discussion | the current conversation is the material to be summarized; its conclusions are the basis for both the summary and the model-class plan | We went through a lot of discussion | referred-to
+- order:
+- about: The user asks the model to condense the whole preceding discussion into a concise, complete summary of conclusions and then to produce a plan for building the new model classes.

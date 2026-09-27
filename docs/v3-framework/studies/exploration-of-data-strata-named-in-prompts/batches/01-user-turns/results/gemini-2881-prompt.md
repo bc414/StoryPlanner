@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to analyze the existing measures in them that make Equestria's lack of magical study believable, drawing on what they already contain | analysis of existing measures in my story plans | referred-to
+- order:
+- about: The user endorses treating magic as a branch of physics and asks the model to analyze which measures already in their story plans make Equestria's failure to advance magical study believable.

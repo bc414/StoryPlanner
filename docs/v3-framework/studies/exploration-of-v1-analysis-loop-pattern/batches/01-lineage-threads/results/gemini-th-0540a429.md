@@ -1,0 +1,42 @@
+- steps:
+  - author | dumped a full chapter draft | a dense point-by-point plan for chapter 8 'Loyalty' covering Rainbow Dash's arc, the war-council doctrine scene, the Las Pegasus oil negotiation, Rockfeller, the buffalo, and Star Energy's backstory | opening of gemini:94 prompt
+  - author | posed an analysis request with a correction | asks how the 'Loyalty' theme fits, flags that Rainbow Dash's arc is still unresolved and that the theme isn't about Rockfeller's disloyalty, and asks for further thematic/context analysis plus how it retcons a canon episode | same gemini:94 prompt
+  - model | delivered thematic breakdown | splits 'Loyalty' into three character/faction threads, proposes a missing beat to close Rainbow Dash's arc, analyzes the buffalo retcon and the Star Energy economic model, flags the cutie-map line as a thesis statement, and closes with a chapter summary | gemini:94 response
+  - author | asked a structural question | whether chapter 8 should be split into more chapters and what to title the split | gemini:95 prompt
+  - author | asked a craft-methodology question | requests a pattern analysis of the existing chapter titles and a method for generating further ones | same gemini:95 prompt
+  - model | gave a split verdict and title proposal | recommends dividing the chapter into two and proposes 'Loyalty' and 'Treason' as the pair | gemini:95 response
+  - model | supplied a naming pattern and toolkit | names the title convention (abstract singular noun, ironic subversion, 'monument' weight) and offers categories and a roadmap for future titles | same gemini:95 response
+  - author | challenged the proposed title | objects that 'Treason' telegraphs the twist and spoils the mystery | gemini:96 prompt
+  - model | revised the recommendation | concedes the spoiler risk, offers several alternative titles, and settles on a replacement with an updated chapter order | gemini:96 response
+  - author | brought a new scene idea | proposes that Applejack spots Rainbow Dash's rainbow trail after she's shot down and has Twilight teleport them to intercept her at the air base | gemini:97 prompt
+  - model | elaborated the scene | stages the interception and tail-bite confrontation with dialogue and ties it back to the loyalty theme and the established Applejack-Twilight dynamic | gemini:97 response
+  - author | asked whether an arc beat resolves the theme | asks if ending the chapter with Rainbow Dash agreeing to join the Las Pegasus trip resolves her arc and the chapter's theme | gemini:98 prompt
+  - model | gave a qualified verdict | says the beat only partially resolves things unless reframed, and supplies a tactical-vs-strategic framing, a bridging beat, and a closing emotional scene | gemini:98 response
+  - author | repeated the resolution question and added a new scene idea | restates the same question and proposes a changeling-prisoner interrogation scene revealing Rainbow Dash's fearsome reputation and a moment of mutual recognition | gemini:99 prompt
+  - model | integrated the new scene and reaffirmed the verdict | validates the prisoner scene as a catalyst, restructures the chapter into a scene sequence, and reaffirms that the choice resolves the arc if framed as growth | gemini:99 response
+- kept:
+  - note 82 | the author's own words in this record | keeps Comet Shine's takeover/business-model narration from the plan dump, filed under PlotPoint 'Comet Shine and Fleur explain how they will ensure the oil fields are for the good of all Equestrians'
+  - note 497 | the author's own words in this record | keeps Thunderhooves' accusation of Rockfeller's Chrysalis collaboration, filed under PlotPoint 'Chief Thunderhooves accuses Rockfeller of being Chrysalis's ally'
+  - note 661 | the author's own words in this record | keeps the war-council doctrine scene where RD fills strategic gaps, filed under PlotPoint 'War council tactics discussion'
+  - note 684 | the author's own words in this record | keeps Thunderhooves' line about Celestia refusing an audience, filed under PlotPoint 'Thunderhooves says Celestia ignored his plea'
+  - note 1140 | the author's own words in this record | keeps the detail of RD ejecting and rehunting the changeling that shot her, filed under PlotPoint 'Grabbing Rainbow'
+  - note 1141 | the author's own words in this record | keeps AJ's soldiers-turn-jaded line and RD's reluctant agreement to the meeting, filed under PlotPoint 'Grabbing Rainbow'
+  - note 1267 | the author's own words in this record | keeps AJ's remark on Star Energy's self-interested motivation, filed under PlotPoint 'Applejack reflects on how Star Energy Corporation had the incentive and means to save Tall Tale'
+  - note 1276 | the author's own words in this record | keeps Rockfeller's price demand and Fleur's walkout, filed under PlotPoint 'Meeting with Rockfeller'
+  - note 1279 | the author's own words in this record | keeps Rockfeller's accusation that the buffalo sabotage his drills, filed under PlotPoint 'Meeting with Rockfeller'
+  - note 1281 | the author's own words in this record | keeps the Fluttershy-and-the-stressed-birds beat, filed under PlotPoint 'Fluttershy sees the birds'
+  - note 1283 | the author's own words in this record | keeps Fluttershy's epiphany about the buffalo-bird intelligence network, filed under PlotPoint 'Fluttershy's epiphany'
+  - note 1286 | the author's own words in this record | keeps Twilight's cutie-map lament line, filed under PlotPoint 'Twilight laments why the cutie map never brought their attention to the problems in the Southwest'
+  - note 1494 | the author's own words in this record | keeps AJ's town-hall challenge to Comet Shine about Star Energy's growing monopoly, filed under PlotPoint 'Applejack declares the rules of the town hall'
+  - note 1558 | the author's own words in this record | keeps the tank/Spellblast Cannon presentation and resource requirements, filed under PlotPoint 'News From Manehattan'
+  - note 1563 | the author's own words in this record | keeps Comet Shine's Star Energy origin story, filed under PlotPoint 'Comet Shine unveils his life story and the history of Star Energy Corporation'
+  - note 4433 | the author's own words in this record | keeps the full oil-drill worker/buffalo ownership resolution and the Applejack-Comet Shine exchange, filed under Chapter 'Sabotage'
+  - note 2443 | pasted whole from this reply | keeps the model's framing of RD as a 'grunt' who dismisses her own intelligence, filed into Link 'War council tactics discussion x Rainbow Dash'
+  - note 2916 | pasted whole from this reply | keeps the model's 'Ecosystem Magic' lore proposal for the buffalo, filed into Link 'Chief Thunderhooves accuses Rockfeller of being Chrysalis's ally x Unified Theory of Magic'
+  - note 3466 | pasted whole from this reply | keeps the model's framing of the buffalo conflict as a proxy-war retcon of the canon episode, filed into Link 'Chief Thunderhooves accuses Rockfeller of being Chrysalis's ally x Isolationism is Immoral'
+  - note 1138 | the author's own words in this record | keeps the added detail of AJ asking Twilight to teleport to the air base, filed under PlotPoint 'Grabbing Rainbow'
+  - note 1137 | pasted whole from this reply | keeps the model's description of RD's erratic, exhausted flight back to base, filed under PlotPoint 'Grabbing Rainbow'
+  - note 1139 | one sentence lifted from this reply | keeps the model's staged confrontation/tail-bite dialogue beat, filed under PlotPoint 'Grabbing Rainbow'
+  - note 3510 | pasted whole from this reply | keeps the model's distinction between loyalty-as-obsession and loyalty-as-survival, filed into Link 'Friend talk before the meeting x Loyalty and Kinship'
+- brought: The author brought an already-detailed chapter 8 plan (plot points, dialogue, character beats) as the basis for the entire exchange, then extended it with two new scene ideas over the course of the conversation.
+- loop: The author repeatedly hands over blocks of plan text or new scene sketches and asks the model to verdict, analyze, or elaborate them; the model returns thematic breakdowns, title options, and drafted scene beats, and the database keeps the author's plan text almost verbatim as separate PlotPoints and Links, while pulling in only the model's specific phrasings when it supplies a scene description, dialogue beat, or thematic framing not already in the author's own words.

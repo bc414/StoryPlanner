@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks the "ultimate poseur" option and reworks it into their own mechanism, first a disguise spell, then a costly base-form potion after spotting a plot hole in their own idea, and adds Actia Pagala as the one exception.

@@ -1,0 +1,7 @@
+- passages:
+  - note 5691 | descriptive-analytical | third person, refers to episode titles, parenthetical gloss, catalogues tonal elements | how the canon episodes blend war-against-Sombra stakes with cute pony moments | apart
+  - note 5691 | self-directive planning | first person, "That's the kind of thing I need to do", states a personal task | the author's own goal to interweave industrial war and cute MLP tones | apart
+- shifts:
+  - note 5691 | descriptive-analytical | self-directive planning | shift to first person "I", summarizing phrase "That's the kind of thing", moves from describing canon to stating a personal requirement
+- registers: descriptive-analytical; self-directive planning
+- whole: This item's single note holds two registers, an observational description of the canon episodes followed, after a clear sentence break, by a first-person statement of the author's own compositional goal.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a Portuguese organ gun or something like it is the best weapon to model the ammo-subscription grift on for a poseur warlord, and asks for other options with reasons.

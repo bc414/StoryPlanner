@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about who the German soldiers taking Pervitin were and whether they chose it or were forced, without challenging anything in the model's account.

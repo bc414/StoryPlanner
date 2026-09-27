@@ -1,0 +1,8 @@
+- relations:
+- outward:
+  - 778 | another character, Mudbeak, and the logistical doctrine he holds, which Blueblood works under | operating under Mudbeak’s logistical doctrine
+  - 778 | a war with the changelings and the front line held elsewhere, which Blueblood expects to fail | He knows the static line will fail
+  - 778 | the Wonderbolts and the Crystal Empire and Star Energy research, held as lore elsewhere, as the source of Equestria's air advantage | Wonderbolts, Crystal Empire and Star Energy research
+  - 778 | the eastern cities and their society, shown as stagnant in harmony and expected to mobilize | expecting the eastern cities to wake up out of the shock
+  - 778 | the story TLTT, whose start the note's history precedes | before the start of TLTT
+- whole: The owner holds a single note, so there is no pair of notes to join and it stands alone, with its links running to things outside the item.

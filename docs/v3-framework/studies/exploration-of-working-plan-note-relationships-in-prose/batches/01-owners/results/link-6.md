@@ -1,0 +1,7 @@
+- relations:
+  - 146 | 149 | 149 gives the reader's reaction to the claim that 146 has the parents make on the page: the reader may still hold that changelings differ from ponies, and the claim is set against that belief | ponies aren't any different from changelings behaviorally / ponies are just as capable of not being harmonic as changelings | implicit
+- outward:
+  - 146 | changelings and their behavior, held in the wider story's lore, and the unnamed "they" who say this | They say ponies aren't any different from changelings behaviorally
+  - 149 | changelings, and the idea of being "harmonic", both held in lore outside this item | changelings are fundamentally different from ponies / not being harmonic
+  - 112 | a family feud and the people who wanted it ended, a history held in other parts of the plan | They wanted to end the family feud at all costs
+- whole: ["The notes only partly hang together: 146 and 149 form a pair about the ponies-versus-changelings claim, while 112 is a separate history note and 148 is empty."]

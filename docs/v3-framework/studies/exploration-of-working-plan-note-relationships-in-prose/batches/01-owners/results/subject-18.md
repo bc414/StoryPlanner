@@ -1,0 +1,28 @@
+- relations:
+  - 506|334|the birth year lets the age be read: 16 in 977 follows from birth in 961|Born 12th February 961 / Gabriella was 16|implicit
+  - 334|336|continues in time: Grover V's death in 977 is followed by the Empire's fall in 978 and her counterrevolution planning|Grover V passed away / The Empire fell to the Republic in 978|implicit
+  - 336|337|continues in time and develops: the counterrevolution planned in 978 gets its shape in 981 (who fronts it, who is allied)|started planning a counter revolution / any counterrevolution|implicit
+  - 337|1259|the plan of allying with industrialists is followed by the act of taking back Griffenheim in the same year|bribing and allying with the industrialists / takes back Griffenheim|implicit
+  - 1259|1261|1261 gives the general outcome (counterrevolution succeeds, regency) of which taking back Griffenheim is an instance or step|takes back Griffenheim / The counterrevolution succeeds|implicit
+  - 337|1261|the industrial alliance steered by Chrysalis is paid off in the quid pro quo of academic and industrial resources for the love harvesters|allying with the industrialists / quid pro quo|implicit
+  - 334|1261|contradiction or tension: Grover V is dead in 977, yet 1261 has her regent until Grover V comes of age after the 978 fall|Grover V passed away / regent until her cousin Grover V comes of age|implicit
+  - 333|334|both fix her relation to Grover V, cousin and older, with 334 supplying her age at his death|older cousin of Grover V / was 16 when Grover V passed away|implicit
+  - 333|335|335 explains and expands the ambition stated in 333: shrewd, intellectual, big ego, resenting patriarchy|very ambitious duchess / big ego and the skills to back it|implicit
+  - 335|1261|instance of the resentment of patriarchy: the male advisors push her out of power as Grover grows up|resented the patriarchal culture / male advisors push her out|implicit
+  - 335|509|cause and consequence: her resentment of patriarchy and self-regard underlie why she refused marriage and valued a peer partnership|resented the patriarchal culture / did not need to submit to a husband|implicit
+  - 337|509|Chrysalis steering her in 981 is an occasion of the partnership 509 describes, where Chrysalis guides her ambition, seen in 509 as manipulation|Chrysalis steers Eagleclaw / conquers by weaponizing the empathy of her victims|implicit
+  - 1261|509|the resource-swapping deal is one concrete form of the long partnership with Chrysalis, which 509 recasts as a betrayal|quid pro quo / intellectual partnership of equals|implicit
+  - 333|509|the ambition of 333 is what 509 names her Red Love and what Chrysalis validated|very ambitious duchess / express her "Red Love" (Ambition)|implicit
+- outward:
+  - 506|her birthplace, a place held elsewhere|Readewetter
+  - 334|Grover V, the ruler who dies, and the Empire's succession|Grover V passed away
+  - 336|the Empire, the Republic and the revolution that toppled it|The Empire fell to the Republic
+  - 337|Eros, a noble figure, and Chrysalis, held elsewhere|Eros to be the face of any counterrevolution
+  - 337|the industrialists as a group|bribing and allying with the industrialists
+  - 1259|the city of Griffenheim|takes back Griffenheim
+  - 1261|the Chrysalis prequel and the love harvesters project|For Chrysalis prequel / love harvesters
+  - 1261|her Duchy of Strawberry and the male advisors|own Duchy of Strawberry
+  - 509|Chrysalis's betrayal in 1007 and Archon Eros|Chrysalis's betrayal in 1007
+  - 509|Chapter 28 testimony and Applejack|When Gabriella testifies in Chapter 28
+  - 509|school days and the book Coltbert's The Predator's Dilemma|reading Coltbert's The Predator's Dilemma
+- whole: The notes hang together as a sequence of one life, from birth through the counterrevolution to the Chrysalis relationship and her ambitious character, with one apparent conflict over Grover V's death.

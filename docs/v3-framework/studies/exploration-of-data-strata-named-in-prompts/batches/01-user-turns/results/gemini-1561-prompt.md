@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to suggest how the story's honesty-versus-poseurs theme could tie to the idiomatic name of the city Tall Tale, which is the main setting and in the title, and to propose an etymology for the farming village turned industrial agricultural hub, without pointing to any body of material to draw on.

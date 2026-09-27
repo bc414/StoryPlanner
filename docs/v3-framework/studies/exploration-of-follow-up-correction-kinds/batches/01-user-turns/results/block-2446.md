@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to audit its own synthesis, separating what it invented without approval from what is settled and naming what remains underdeveloped or inconsistent, without saying any specific claim was wrong.

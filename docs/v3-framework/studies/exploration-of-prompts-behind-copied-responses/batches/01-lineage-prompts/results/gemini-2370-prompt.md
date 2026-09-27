@@ -1,0 +1,12 @@
+- asks:
+  - naming | proposes titling the pamphlet as the German equivalent of "Common Sense" so it echoes the real pamphlet for the audience | "the paper should be called Common Sense but in German ... the parallel that will work best"
+  - check | lays out a causal synthesis (Coltbert's hired reform work, Aquileia staying a monarchy until the 1008 bank run) and offers the explanation that this results from Coltbert ignoring the pamphlet's politics to focus only on economics, apparently inviting confirmation of that inference | "I suppose this is a product of Coltbert ignoring the political statement of the pamphlet"
+  - choice | asks whether the pamphlet should mention Equestrian ponies at all or stay narrowly a statement about griffons lacking morals, given its Pan-Griffonian-Republic aim | "I wonder if the pamphlet should mention Equestrian ponies at all or just leave it as a statement about griffons not having morals"
+  - brainstorm | proposes a thematic follow-up in which Coltbert's predator's-dilemma paper reframes the original pamphlet's morality as naive, arguing ego is part of the economy | "Coltbert's predator's dilemma paper could be a follow up saying only the economics matter, the ego is part of the economy"
+- supplies:
+  - plot synthesis | how Coltbert's hired reforms, Aquileia's delayed republic (1008 bank run), and Kemerskai's 986 martial law/fiat-currency response to the predator's dilemma fit together | a paragraph
+  - background detail | the pamphlet's goal of a Pan Griffonian Republic mirroring Grover III's Pan Griffonian Legions/golden age, with Celestia's monarchy set aside as irrelevant | a couple of sentences
+- shaping:
+  - title should function as a recognizable parallel for the audience, rendered in German | "the parallel that will work best for the audience"
+- openness: Mostly leans toward conclusions the user already states as decided (the German title, the Coltbert-ignores-politics explanation, the ego-as-economy reframing), while explicitly posing one choice between two named options for the pamphlet's content (mention Equestrian ponies vs. griffons-only statement).
+- subject: Worldbuilding synthesis for a griffon political-economy storyline: naming a Common-Sense-style pamphlet, linking it to Coltbert's reforms, Aquileia's republic, Kemerskai's martial law, and debating the pamphlet's stance on ponies vs. griffon morality

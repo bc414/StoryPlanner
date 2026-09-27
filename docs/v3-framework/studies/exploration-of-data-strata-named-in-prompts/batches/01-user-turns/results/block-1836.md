@@ -1,0 +1,4 @@
+- sources:
+  - his notes | review/check to decide whether Gilded Trust should get his own civ system or just an organization | "should Gilded Trust get his own civ system or just an organization? Review his notes" | first-named
+- order:
+- about: The user turn picks preferred naming options (Comprador Economy, Night Economy) from the model's list and works through structural questions—whether Gilded Trust merits his own civilizational system, whether SAA should be merged with the parloirs/EEEE! under the Night label, and why 'Manehattan Model' doesn't fit since the compradors also operate there—asking the model to review Gilded Trust's notes to help resolve the first question.

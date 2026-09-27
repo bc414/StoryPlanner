@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks three fresh follow-up science questions (a possible benefit of the low-efficiency steam venting, what colours clouds white or dark, and where lightning comes from) to extend the worldbuilding, without disputing anything in the model's analysis.

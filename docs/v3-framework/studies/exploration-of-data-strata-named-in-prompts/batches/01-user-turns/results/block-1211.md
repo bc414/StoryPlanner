@@ -1,0 +1,8 @@
+- sources:
+  - KU (Helena and Windie story, arcs 1 and 2, Helena's gang) | the author's own finished work, used as the comparison case for the model to reason about: linear build, fabula and syuzhet almost fully overlapping, omniscient passages for side characters | KU had to build everything linearly ... almost strictly overlapping fabula and syuzhet | referred-to
+  - TLTT (Applejack, Twilight, Chrysalis, the war) | the author's own work, used as the contrasting case: in media res, third person limited, backstory revealed later, history driven by many characters | TLTT has Chrysalis and many other characters driving history | referred-to
+  - the rigorous backstory of Aquileia and its prequel sequel plan | the author's own planning material; treated as backstory that should not be dramatized in the main story, which led to the separate prequel | knowing that the backstory could not be dramatized in the main story | referred-to
+  - the City Mightyena Ninetales story | a published story the author wants the model to recall by name, treated as an analogue for a couple splitting over value differences | what was that called again? | referred-to
+  - the author's earlier Pokemon stories | the author's own past work, cited as precedent for having written both romance structures and for the struggle with world rules about killing | I have written both before in Pokemon stories | referred-to
+- order:
+- about: The author reflects on why their writing block hit KU and not TLTT, comparing the two stories' timeline structure, narration, romance shape and scale, and asks the model to recall the name of a similar Pokemon story.

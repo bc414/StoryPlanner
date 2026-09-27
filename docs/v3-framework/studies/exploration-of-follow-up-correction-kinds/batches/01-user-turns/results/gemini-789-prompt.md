@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of why Chrysalis skips the Grand Army by adding Trimmel's conflicted fallout, a note on Henri's view of precision strikes, and a framing of the Manehattan move as a shift from clean war to dishonorable terror against soft targets.

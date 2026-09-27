@@ -1,0 +1,4 @@
+- sources:
+  - this conversation | the model is to draw on all of it and gather every insight from it into one comprehensive document | all insights from this conversation | referred-to
+- order:
+- about: The user asks the model to compile a comprehensive document capturing all the insights from the current conversation.

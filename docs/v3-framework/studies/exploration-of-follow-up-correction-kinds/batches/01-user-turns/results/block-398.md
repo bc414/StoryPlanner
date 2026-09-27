@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Conscience-as-underlying-axis framing as a new revelation and asks it to review their existing Predator's Dilemma notes against it, attaching a game-theory matrix CSV as further material.

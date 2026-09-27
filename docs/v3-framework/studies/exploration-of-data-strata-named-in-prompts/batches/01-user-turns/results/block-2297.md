@@ -1,0 +1,5 @@
+- sources:
+  - explorers of memories | the work whose harem and M-rated adventure elements the model is asked to trace back to their traditions; the subject to be explained, not ranked against anything | the harem or sexual-adjacent M-rated adventure storytelling traditions in explorers of memories | referred-to
+  - the previous answer in this conversation (traditions of the introspective and paralyzed male lead) | treated as already covered and done; the user moves on to a parallel question | Ok, this covered the traditions of the introspective and paralyzed male lead | referred-to
+- order:
+- about: The user, having taken in the explanation of the passive male lead's lineage, asks the model to explain the separate traditions behind the harem and M-rated adventure elements in the fanfic, across media, audience gender, the Romantasy trend, and Japanese versus Western origins.

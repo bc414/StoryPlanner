@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sums up the model's comparison of C&C and CoC as two incomplete halves, says the Offworld Trading Company mention helped them make sense of that game, and moves on to ask about EU4, HoI4, Stellaris and Civ 5 while offering their own tentative impressions of each.

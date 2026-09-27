@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | suggest alternative titles for the chapter, given the term the user is already considering | "Any alternatives?"
+- supplies:
+  - chapter summary | Applejack settling into Tall Tale, Comet Shine explaining how Aquileian-advised local defense repelled the changelings while the main Equestrian Army (Applejack's own, in name) collapsed, and Comet Shine's remark hinting Applejack hasn't let go of her General role | a paragraph
+- shaping:
+  - stay in the same naming register as the offered example | references "the Hoi4 term 'Organization'" as the model to match
+- openness: leans toward an answer it names: the user proposes "Organization" (a Hoi4 term) as the chapter title and asks for alternatives in that same vein, rather than leaving the naming approach fully open
+- subject: choosing a title for a novel chapter about Applejack learning how Tall Tale organized its defense against the changelings

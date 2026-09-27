@@ -1,0 +1,5 @@
+- sources:
+  - The note about kid friendly version to full adult version | Treat as a metatextual note about Hasbro's marketing constraints on Lauren Faust's characters, not an in-universe coming-of-age arc; the model's developmental reading of it is corrected | The note about kid friendly version to full adult version ... is a metatextual note | referred-to
+  - the new audit of the nursery terminology | Treat as the governing standard for Fleur's dialogue: she should not deride Twilight or Applejack as acting like kids, and should instead chide them for being insular about the rest of the world | Under the new audit of the nursery terminology | referred-to
+- order:
+- about: The user corrects the model's reading of a note as in-universe developmental framing by explaining it is metatextual about Hasbro's constraints, and applies the nursery-terminology audit to redirect Fleur's criticism of Twilight and Applejack toward insularity.

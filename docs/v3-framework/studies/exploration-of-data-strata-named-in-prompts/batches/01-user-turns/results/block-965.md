@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author tests whether Genevieve, as an owner-class parallel to Twilight Sparkle, still carries the allegory or needs a rank-and-file counterpart, asks how her money should be sourced, and corrects the idea that she would cause hyperinflation by saying she buys real Skyfall goods to donate.

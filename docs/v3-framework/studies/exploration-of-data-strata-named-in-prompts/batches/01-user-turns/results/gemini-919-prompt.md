@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a plot change, having Comet Shine mention Applejack's parents as his classmates during the chapter 2 conversation, so that it alienates AJ from him and reveals the parents' background to the reader, without pointing the model at any body of material.

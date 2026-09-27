@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the worked examples the model has been giving may not come from the user's v1 Applejack notes at all, so the user wants examples taken from the attached v1 data and asks whether the machine-gun example is in that text | is that example even in the v1 text? | put as a direct question plus a request to redo the examples from the attached file, with no accusation
+  - own name: over-reliance on one example | the model keeps returning to the same 'AJ at the machine gun is hiding' example for every mechanism, and the user asks whether it is really important compared with the rest of the notes | instead of always repeating the 'AJ at the machine gun is hiding' example | stated as a mild complaint with a reason (avoiding overfitting) and a question about the example's weight, in passing while making a larger request
+- about: The user restates the three mechanisms in their own words and asks the model to confirm them, then attaches the v1 Applejack data and asks for varied complete examples drawn from it, while questioning whether the model's habitual example is in the notes or important.

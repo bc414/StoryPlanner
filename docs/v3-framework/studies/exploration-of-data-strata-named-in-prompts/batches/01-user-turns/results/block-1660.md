@@ -1,0 +1,7 @@
+- sources:
+  - All Applejack data.md (attached file: v1 data for Applejack, her character notes and all plot points she had a link to in the v1 story planner) | draw the examples of each complete mechanism from it, and check whether the 'AJ at the machine gun is hiding' example is in it and how important it is relative to the rest | attaching my v1 data for Applejack ... give a few examples of each complete mechanism coming from these v1 notes | first-named
+  - v1 story planner (Applejack's v1 character notes and plot-point links) | the origin of the attached notes; the material to be mined for examples | my v1 data for Applejack ... in the v1 story planner | first-named
+  - the 'AJ at the machine gun is hiding' example | do not keep repeating it; check whether it is actually present in the v1 text and how important it is compared with the rest, to avoid overfitting | instead of always repeating the "AJ at the machine gun is hiding" example ... is that example even in the v1 text? | referred-to
+- order:
+  - All Applejack data.md (v1 notes) over the 'AJ at the machine gun is hiding' example | draw examples from these v1 notes instead of always repeating that example, and verify whether it is even in the text
+- about: The user restates three mechanisms (En, La prior-belief clash, narrator perception gap) to check their correctness, and attaches their v1 Applejack notes asking for varied complete examples drawn from them and a check of whether the repeated machine-gun example is in the text and important, to avoid overfitting.

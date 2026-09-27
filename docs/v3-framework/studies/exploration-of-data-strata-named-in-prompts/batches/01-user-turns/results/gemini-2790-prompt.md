@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a pre-war worldbuilding rationale, in which Fleur invented the Star Spade but no generic earth pony farming matrix because of an energy bottleneck, while the Wings of Dew got invented because of its military and feudal-breaking uses, and asks whether that makes sense.

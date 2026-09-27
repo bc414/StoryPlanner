@@ -1,0 +1,73 @@
+- steps:
+  - author | requests | ask for a comprehensive summary of brainstorming evolution and directives for the master plan | opening of conversation
+  - model | synthesizes | executive summary of thematic evolution, character updates, codex entries, plot adjustments | reply to the opening request
+  - author | requests | ask for a chronological index of prompts sorted by date as a reminder of scattered brainstorming | after the thematic summary
+  - model | compiles | a dated development log grouping sessions by day and topic | reply to the chronological request
+  - author | redirects | narrows focus to Aquileia-only synthesis, flags a timeline contradiction between Coltbert's cultural-revolution phases and Gerad's centralizing reign, notes a missing character (Dennis Discret), asks for a topic-grouped starting point | after the chronological index
+  - model | synthesizes | topic-grouped resolution of the Gerad/Coltbert timeline, pony-class evolution, revolution phases, and Dennis Discret's role | reply to the Aquileia-synthesis request
+  - author | researches | asks for palace-name ideas plus real-world background on Versailles' scale/function, the Ottoman court, and the French-Ottoman alliance | after the Aquileia synthesis
+  - model | informs | naming options, the Versailles blueprint, the Ottoman/Topkapi parallel, and French-Ottoman alliance history | reply to the research request
+  - author | corrects | moves the complex from Pridea to Aquila, settles on the name 'Le Grand Foyer', asks to confirm the French etymology | after the historical background
+  - model | confirms | validates the etymology and elaborates the hearth/family/dormitory symbolism and its link to the later FJA name | reply to the naming confirmation
+  - author | asks | whether the complex should be a single palace or a walled city district | after the naming settled
+  - model | recommends | a walled-district design with rationale tied to the coming revolution | reply to the scale question
+  - author | corrects | timeline fix: nobles can't be forced into the complex until the 972 independence declaration, asks what class occupies it before then | after the district recommendation
+  - model | analyzes | a two-era structure (pre-972 'Bunker' vs post-972 'Cage') and defines the royalist classes populating it | reply to the timeline correction
+  - author | asks | wants an in-universe term for the 'new men' class spanning both species | after the royalist-class analysis
+  - model | proposes | a set of term options (Intendants, Pupilles, Eunuques, Robe) with rationale | reply to the naming request
+  - author | rejects | says the offered term isn't interesting enough | after the term options
+  - model | proposes | sharper alternative terms (Légistes, Pupilles, Créatures, Écharpes Bleues) | reply to the rejection
+  - author | asks | wants a term carrying the specific weight of the janissary comparison | after the sharper terms
+  - model | recommends | a combined terminology (Pupilles for identity, Légistes for function, Eunuques as slur) | reply to the janissary request
+  - author | asks | requests a full functional summary of the complex's purposes and whether gardens/art belong for 'posture' | after the terminology settled
+  - model | outlines | functional zones of the complex (arsenal, academy, gilded cage, dormitories) with aesthetic justification | reply to the functions request
+  - author | proposes | a cluster of ideas: hyper-chaste culture, strict courtship, a birth cap, a 'rescue' recruitment model, a work-life-balance contrast | after the functional outline
+  - model | analyzes | hyper-chastity as control/optics, rescue psychology and indebtedness, a state-ward policy, and the work-life contrast | reply to the chastity/recruitment proposal
+  - author | corrects | rejects the state-ward policy for Gerad (reserved for Chrysalis), proposes suspended patriarchy plus chastity for meritocracy, and a capped family policy | after the chastity analysis
+  - model | analyzes | suspended-patriarchy meritocracy, strategic chastity, a licensed-family cap policy, and a cross-regime comparison | reply to the correction
+  - author | asks | what role religion (the Boreas cult) plays in the feudal world versus inside the complex, and its link to divine right and chastity | after the family-policy analysis
+  - model | analyzes | the 'Sun Paradox' theology, religion's role under feudalism versus the state cult, and its link to enforced chastity | reply to the religion question
+  - author | flags | a synthesis problem between the original agency-based affair plan and the new hostage/forced-residency lore, proposes an off-season workaround or dropping forced residency | after the religion analysis
+  - model | argues | to keep forced residency, refines the in-palace comparison mechanics, rejects the off-season workaround | reply to the synthesis flag
+  - author | asks | directly requests a comparison of the original plan (Version A) against the Le Grand Foyer version (Version B) | after the argument to keep residency
+  - model | compares | Version A vs Version B across access, contrast, risk, and the scorecard mechanic, concluding B is superior | reply to the comparison request
+  - author | pushes back | reasserts the original thematic points (apex predators, zero-sum vs positive-sum, risk falling on abuse not the affair) and asks how Version B accounts for them | after the comparison
+  - model | synthesizes | reconciles hostage status with predator status and the risk/legality distinction between affair and abuse | reply to the pushback
+  - author | proposes | a new origin beat where the revolution starts as pets begging bureaucrats for help, evolving into an ego-driven game | after the predator/hostage synthesis
+  - model | elaborates | an 'Audit of Tears' origin story and a three-phase arc from martyr to game master | reply to the origin proposal
+  - author | asks | what the parallel chastity/favor system is for the male warlords and their pets | after the martyr/game-master arc
+  - model | analyzes | the male chastity policy, the pet-as-barometer surveillance mechanism, and diverging male/female reactions | reply to the warlord question
+  - author | escalates | proposes making husbands liable for wives' misbehavior (an impossible trap), links this to Coltbert's defiance and Moriset's later endorsement | after the male-warlord analysis
+  - model | analyzes | the impossible-trap/vicar-liability mechanism, wives' weaponized boredom, Coltbert's generational rebellion, and the Moriset transition | reply to the escalation
+  - author | asks | for pros and cons of two backstory options for the Moriset-Coltbert relationship (childhood friends vs spite hire) | after the trap/rebellion analysis
+  - model | compares | pros/cons of both options and recommends a synthesis combining prior acquaintance with a spite-driven hiring trigger | reply to the backstory-options request
+  - author | asks | whether the existing Equestria-visit lore for Coltbert still fits the timeline and how it connects cutie marks to sexual asset specificity and the warlord trap | after the Moriset-Coltbert synthesis
+  - model | analyzes | a three-phase timeline for the theory's development and a comparative table of Gerad, Celestia, and Coltbert's approaches to ambition | reply to the Equestria-visit question
+  - author | asks | whether Gerad treats royalists as interchangeable parts and whether asset specificity exists inside the complex at all | after the comparative-table analysis
+  - model | analyzes | confirms interchangeability as psychological solace, the suppression of asset specificity, and Coltbert's later inversion of it | reply to the interchangeability question
+  - author | asks | what Chrysalis learns from Gerad's state machine for her own terror state | after the interchangeability analysis
+  - model | analyzes | five parallel mechanisms Chrysalis adapts from Gerad's system (new men, banking, creche, patronage, objectification) | reply to the Chrysalis question
+  - author | corrects | clarifies fractional-reserve/1:1-peg banking was originally Coltbert's, asks whether Gerad should use gold or print money given pre-972 constraints | after the Chrysalis analysis
+  - model | recommends | a strict gold-standard policy for Gerad producing a liquidity crisis that drives the revolution | reply to the banking-constraint question
+  - author | corrects | clarifies Verany's bourgeoisie also wanted a gold standard ideologically, explains why this caused Verany's rural failure, restates Coltbert's actual fractional-reserve mechanism | after the gold-standard recommendation
+  - model | validates | reinforces the correction and gives a summary table of the economic arc across regimes, predicting a future bank run | reply to the banking correction
+  - author | asks | for a summary of Gerad's strengths given his economic failure | after the economic-arc table
+  - model | summarizes | Gerad's political, social-control, and institution-building strengths | reply to the strengths request
+  - author | asks | to develop the blue sashes' design (medals versus uniformity) given ambition is encouraged but asset specificity discouraged | after the strengths summary
+  - model | recommends | a standardized-hierarchy design (uniform sash, rank via fringe/keys) over individual-achievement medals | reply to the sash-design question
+  - author | proposes | a detailed pre-revolution faction breakdown plus a clothing-inviolability rule, and asks what's missing and what happens to each faction through the uprising and six-month republic | after the sash-design analysis
+  - model | analyzes | each faction's fate through revolution and counter-revolution, proposes adding a clergy faction, and gives a status table | reply to the faction-breakdown request
+  - author | expands | adds a bandit faction, revises warlord/periphery outcomes, adds Skyfall sabotage and thug-recruitment lore, proposes Verany's calculated expulsion of royalists, asks for an updated faction analysis and table | after the faction-status table
+  - model | analyzes | an updated faction breakdown incorporating all additions, with a revised multi-phase table | reply to the expanded-faction request
+  - author | asks | for analysis of three options for the royalists (lynch, evacuate, keep in place), whether a transit-capture coup fits better than storming, and whether warlords mix with royalists afterward | after the updated faction table
+  - model | analyzes | recommends the evacuation option, a 'capture in transit' coup mechanic, and confirms warlords and royalists remain separate | reply to the three-options question
+  - author | refines | questions whether the eviction is purely about property, proposes peasants initially reject royalists, proposes warlords leaving early as the revolution's trigger, proposes Verany secretly arming and smuggling out the warlords | after the coup-mechanic analysis
+  - model | synthesizes | confirms the eviction's property-preservation logic, elaborates the smuggled-warlord plot mechanics, a three-phase peasant-royalist arc, and a final summary table | reply to the refinement, closing the stretch
+- kept:
+  - note 4768 | pasted from this reply with cuts | keeps the recommended Moriset-Coltbert backstory synthesis (recognition, divergence, snub, hire, rationale), filed under the Coltbert subject
+  - note 4842 | pasted from this reply inside the author's own framing | keeps the asset-specificity mechanism (unique service as leverage/sovereignty), reframed in the author's words, filed under the Predator's Dilemma subject
+  - note 4770 | pasted from this reply inside the author's own framing | keeps the smuggled-warlord plot mechanics and Verany's Pan-Griffonian betrayal rationale, filed under the 1st Revolution/Counterrevolution subject
+  - note 4771 | pasted from this reply inside the author's own framing | keeps the property-preservation logic for evicting the royalists, with the author's added short-term-capitalism commentary, filed under the same Revolution subject
+  - note 4772 | pasted whole from this reply | keeps the three-phase peasant-royalist relationship arc (rejection, realization, alliance) and its counter-revolution payoff, filed under the same Revolution subject
+- brought: The author brought forward existing plan elements that needed reconciling: Coltbert's cultural-revolution phases, Gerad Discret's centralizing reign, and the still-unintegrated Dennis Discret pirate-king character.
+- loop: The author repeatedly brings fragments of existing lore, flags contradictions between them, or adds new constraints and corrections, prompting the model to produce synthesized backstory, comparisons, or option analyses; most exchanges end with the author redirecting or refining further, and only a few of the model's later synthesized passages on Coltbert's hiring and the 980 revolution/counterrevolution are actually copied into the planning database under their lore subjects.

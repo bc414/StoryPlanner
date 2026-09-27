@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme; fabula content | Says Thranx stands for Kinship in the story and states as fact that Chrysalis murdered him because of it, so his death shows the theme being punished by the antagonist | "Thranx represented Kinship and Chrysalis murdered him for it" | yes | one-line planning shorthand, a flat declarative with no elaboration
+- whole: A single-sentence assertion that Thranx embodies Kinship and was killed by Chrysalis for embodying it.

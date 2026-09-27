@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the suggested apple-crate scene and builds on it, giving the crate an origin (Apple Bloom's last shipment), adding the poignant canned-rations irony, placing it at the start of chapter 5, and explaining how it works as a tension breaker and reminder for Rainbow of what they fight for.

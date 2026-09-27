@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's analysis of the character's abandonment at 17, arguing from the character's own timeline that she would already have understood the abuse by then, and asks the model to confirm this.

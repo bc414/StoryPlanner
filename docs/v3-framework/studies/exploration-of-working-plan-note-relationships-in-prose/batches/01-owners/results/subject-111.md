@@ -1,0 +1,27 @@
+- relations:
+  - 2509 | 2508 | continues in time: the failure in New Mareland is followed by the retreat to Acornage, and the retreat is caused by it | "after being burned" / "Tried to pull herself up... and failed" | implicit
+  - 2508 | 2511 | continues in time and carries out: the plotted fantasies that were not acted on become what is executed once they run the firm | "revenge fantasies but not acting on them" / "executing a decade of fantasies" | implicit
+  - 2511 | 2521 | continues in time: the empire being built goes on expanding and reaches the changeling lands | "building a corporate empire" / "Continuing to expand the corporate empire" | explicit
+  - 2521 | 2522 | continues in time: expansion of the empire narrows to expanding the comprador economy in Equestria in the last year | "Continuing to expand" / "Expanding the comprador economy" | implicit
+  - 2508 | 2520 | the earlier plotting of corporate dominance in Acornage is the ground of the claim that plans to link the changeling lands to the global market predate meeting Chrysalis | "plotting out corporate dominance" / "predate meeting Chrysalis" | implicit
+  - 2520 | 2528 | the plans were already theirs before Chrysalis; what they praise her for is capital, innovations and strategies added to Skyfall exploitation, so she adds to the plans and does not originate them | "predate meeting Chrysalis" / "praise Chrysalis for bringing in new seed capital" | implicit
+  - 2528 | 2519 | 2528 gives the upbringing behind the worldview 2519 states: both trace their outlook to Skyfall's ideology of rugged individualism and trade | "that's what Skyfall's ideology teaches" / "that's what rugged individualism breeds" | implicit
+  - 2519 | 2518 | the genuine empathy stated as truth in 2519 is the delivery-plan's reader update that overturns the pure vulture capitalist assumption | "genuinely believe that opening markets helps" / "they do carry some notion of wanting to civilize" | implicit
+  - 2518 | 2513 | reader's response to what is stated: the vulture capitalism, shell companies and shipping network are the trope the reader first assumes, which 2518 then complicates | "pure vulture capitalist tycoons" / "vulture capitalism, shell company architecture" | implicit
+  - 2519 | 2518 | shared scene of Acornage and its refugees: 2519 states their view of the miserable refugees as consumers to be served and 2518 says talking with escaped changelings reveals it to the reader | "Acornage refugees" / "escaped changelings" | implicit
+  - 2513 | 2511 | the network and shell-company architecture designed is the means by which the empire is built | "shipping network, vulture capitalism, shell company architecture" / "building a corporate empire" | implicit
+  - 2508 | 2519 | Acornage as an outlet to trade without competition and the belief that markets and infrastructure will help the refugees are two sides of the same commercial view of the land | "crack in the Stagnation's walled garden" / "build infrastructure and create markets and get rich" | implicit
+  - 2524 | 2521 | the empire being expanded is the empire that passes wholly to Krista Sterling | "Their entire empire goes to Krista Sterling" / "corporate empire" | implicit
+  - 2523 | 2522 | the nabob analogy, younger sons making fortunes through trade in colonial India, is the historical model for the comprador/colonial-trade economy they extend | "nabob" class in India / "comprador economy" | implicit
+- outward:
+  - 2512 | canon character Silver Shill from another work, Leap of Faith | "Silver Sterling is related to Silver Shill from Leap of Faith"
+  - 2524 | Krista Sterling, a character held elsewhere, and the wider Gilded and Silver families | "goes to Krista Sterling"
+  - 2520 | Chrysalis, a character met outside this item | "predate meeting Chrysalis"
+  - 2528 | Chrysalis and the Skyfall setting | "praise Chrysalis for bringing in new seed capital"
+  - 2509 | New Mareland, a place held elsewhere | "failed in New Mareland"
+  - 2519 | Skyfall's ideology and the Acornage refugees, lore held elsewhere | "what Skyfall's ideology teaches"
+  - 2511 | Krystallfels Handelsgesselschaft, a firm described elsewhere | "Running Krystallfels Handelsgesselschaft"
+  - 2522 | Equestria and its economy | "comprador economy in Equestria"
+  - 300 | the reveal in TLTT and its sequel about a fake mother, a story event not detailed here | "TLTT reveals Gilded Lily was her fake mom"
+  - 2523 | real-world British East India Company history | "British East India Company"
+- whole: The notes hold together as a fairly connected set: the life phases form a chain in time that ties into the appearance, characterization and reader-opinion notes, while the analogy, canon, backstory and \"fake mom\" notes mostly stand apart.

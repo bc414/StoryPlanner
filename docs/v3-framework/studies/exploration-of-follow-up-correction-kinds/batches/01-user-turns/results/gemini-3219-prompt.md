@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Age of Empires discussion to ask for an analysis of the Command and Conquer series, covering its ownership, Westwood and EA's motives, and whether Kane's arc parallels Kerrigan's, while sharing their own history with the games and their own reading of which entries fit the materialist framework.

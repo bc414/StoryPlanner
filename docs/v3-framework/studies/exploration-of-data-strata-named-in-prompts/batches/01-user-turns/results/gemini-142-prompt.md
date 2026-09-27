@@ -1,0 +1,9 @@
+- sources:
+  - the author's clarification of Griffonia (steam and electromagnetic revolutions already happened, vacuum tube tech, flying and steel-working magic) | treat as settled world facts and correct the model's earlier assumptions; frame magic industrialization as applying an already-known process | Some clarification: the first industrial revolution ... already happened on Griffonia | first-named
+  - canon (griffons predisposed to greed) | treat as true background that the Aquileian ideology is built to break | I core part of griffons in canon is that they are predisposed to be greedy | referred-to
+  - the game (harmonic Republicanism, Aquileian Republic ideology) | use as the reference for the Aquileian ideology, capitalism for social good | it's harmonic Republicanism in game | referred-to
+  - the author's premise about Twilight's studies before Ponyville (self-directed, power from special talent and cutie mark) | treat as given premise for structuring her learning at Star Energy | Given the premise that her studies were for herself pre Ponyville | first-named
+  - the model's earlier Chapter 4 (Magic) note and its framing of Trimmel as the dark side | reject and replace; the author gives the opposite conclusion for Twilight's trauma and says Trimmel is the upside | This is actually the opposite conclusion | referred-to
+- order:
+  - the author's clarification of Griffonia and Twilight's arc | over the model's earlier Chapter 4 (Magic) note and Trimmel framing | This is actually the opposite conclusion
+- about: The author corrects the model's assumptions about Griffonian industry and its earlier Chapter 4 and Trimmel framing, then asks how to structure Twilight's learning at Star Energy and for better names for patterned crystals.

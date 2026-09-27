@@ -1,0 +1,8 @@
+- asks:
+  - analyse | asks what Celestia's views of Aquileia are according to the existing story plans | "what are Celestia's views of Aquileia"
+  - explain | asks what thematic purpose Aquileia serves in the story | "what thematic purpose does it serve"
+  - choose | asks whether those views/purpose should be kept as-is or changed given a shift in the setting's timeline | "Should they be preserved or adapted in light of the change in Equestria's timeline?"
+- supplies:
+- shaping:
+- openness: Mixed: the first two questions are left open with no stated answer, while the third poses an explicit choice between two named options, preserved or adapted.
+- subject: Celestia's in-story views of Aquileia, its thematic role, and whether to keep or revise that in light of a timeline change

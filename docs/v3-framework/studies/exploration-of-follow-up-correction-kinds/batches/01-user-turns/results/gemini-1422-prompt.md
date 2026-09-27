@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new set of factual follow-up questions about the initial 2022 refugee inflow into Poland, its scale relative to both countries' populations, and the four-year trend, without disputing anything in the model's summary.

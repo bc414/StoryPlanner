@@ -1,0 +1,6 @@
+- asks:
+  - check | asks the model to confirm or correct the claim that Claude Code is well suited to tech debt analysis because it can call standard git tools | "So Claude Code is the way to go for tech debt analysis because it can call the standard git tools"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message asserts an equivalence between Claude Code's git tool use and TortoiseSVN's diff/blame, and asks the model to confirm it.
+- subject: Whether Claude Code's ability to call git diff/blame-type tools makes it suited to technical debt analysis, likened to a GUI tool such as TortoiseSVN

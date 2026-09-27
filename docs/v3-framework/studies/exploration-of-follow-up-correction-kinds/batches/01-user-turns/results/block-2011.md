@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's list of documents and asks a follow-up question about what framing prompt to write alongside them, such as explaining what the story planner is.

@@ -1,0 +1,5 @@
+- sources:
+  - Costco | offered as a real-world model to draw inspiration from for Kemerskai's economic model; posed as a question, so a proposal rather than settled | draw inspiration from Costco for Kemerskai | first-named
+  - Walmart | offered as a real-world model to draw inspiration from for Chrysalis's economic model; posed as a question, so a proposal rather than settled | Walmart for Chrysalis | first-named
+- order:
+- about: The user asks whether they may use Costco as inspiration for Kemerskai's economic model and Walmart for Chrysalis's.

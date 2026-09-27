@@ -1,0 +1,9 @@
+- asks:
+  - analyse | assess how Fluttershy develops as a character across the story plan | "analysis of Fluttershy's character development"
+  - analyse | assess what function or role she serves within the story plan | "and role in this story plan"
+  - check | determine whether her portrayal matches her canon personality | "whether it fits her canon personality"
+- supplies:
+- shaping:
+  - form as an analysis | "Give me an analysis"
+- openness: Mostly open (development and role are left for the model to characterize), but the canon-fit question asks the model to check/judge a fit against a named standard (her canon personality).
+- subject: Fluttershy's character arc, narrative role, and fidelity to her canon personality within an unshown story plan

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn opens a new request, asking which of two attached JSON export formats (Version A or B) is better for LLM analysis and which of the weaker format's features could be carried into the winner, without reacting to the model's answer about bible-entity plot-point lists.

@@ -1,0 +1,3 @@
+- claims:
+  - design commitment | Applejack is set down as the Element of Conscience, her identity tied directly to the theme's central quality | Applejack IS the Element of Conscience! | What element or principle is this character in the story's world? | partly
+- theme: It names the theme without arguing it. The note fixes Applejack as the bearer of conscience, but it gives no evidence or reasoning that conscience and cooperation outperform extraction.

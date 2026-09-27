@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user recalls the Fluttershy confrontation scene, then proposes a new plot possibility (Celestia forming real peer bonds with the thestral parlour operators during the dreamscape) and asks for its ramifications, extending the discussion instead of disputing the model's analysis.

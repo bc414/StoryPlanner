@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new lore problem, working out why Luna's dream spell would target the warlords and proposing that she naively tried to replace conquest dreams with friendship dreams, without disputing anything the model just said.

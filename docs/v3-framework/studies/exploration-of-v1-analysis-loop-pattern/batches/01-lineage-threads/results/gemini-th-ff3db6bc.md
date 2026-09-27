@@ -1,0 +1,14 @@
+- steps:
+  - the author | opens inquiry | a request for a ship analysis of two characters based on a specified narrow show range | opening of the conversation
+  - the model | delivers analysis | a structured case with five named categories, episode citations, and a follow-up offer | first reply
+  - the author | narrows request | asks for concrete on-screen examples of the pair together within the same early range | second turn
+  - the model | delivers analysis | a categorized list of specific episodes, scene descriptions, and quoted dialogue, with a follow-up offer | second reply
+  - the author | narrows request | asks for the dynamic in one specific later season | third turn
+  - the model | delivers analysis | a season-specific case built on episode citations and an invented quote, ending with an offer to cover the remaining seasons | third reply
+  - the author | extends request | asks for the same treatment across all remaining seasons | fourth turn
+  - the model | delivers analysis | an era-by-era case for the remaining seasons naming specific episodes, scenes, and an invented quote as evidence | fourth reply
+  - the author | issues correction | flags that the material given appears inaccurate or invented | fifth turn
+  - the model | retracts and corrects | itemized admission of which claims were fabricated or misattributed, followed by a replacement analysis built on verified scenes | final reply
+- kept:
+- brought: none
+- loop: The author kept pushing the model for progressively more specific ship-analysis content (broader claim, then examples, then season-by-season detail), which led the model to fabricate scenes and quotes that the author then had to catch and force a retraction on; none of this exchange was drawn into the planning database.

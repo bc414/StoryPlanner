@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's suggestion to reclassify the hive wars as transactional, restating from their own understanding of the setting that the hive wars are stratified and explaining why that leaves them without neighbours and makes Chrysalis a radical modernizer.

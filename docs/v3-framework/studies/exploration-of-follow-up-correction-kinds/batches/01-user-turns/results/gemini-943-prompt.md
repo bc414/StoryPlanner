@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up factual question about where the name Standard Oil comes from, prompted by the model's use of it as a reference, without disputing anything the model said.

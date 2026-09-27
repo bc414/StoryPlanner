@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - your own name: premature settling of the plot point concept | the model moved on to migration mechanics and a plot point structure (scene-level units needing stakes and outcome, a script to copy chapters and plot points) while what a plot point is remains unresolved for the user | "I think I really need to drill down on what makes a plot point a plot point" and the note that it began as a single note and drifted to scene level | stated as a felt need to step back, with no complaint or blame, mostly by redirecting the work
+  - register or format: assuming versus asking | the model's answer rested on its own assumptions about plot points and the migration path, and the user wants open questions asked before conclusions are drawn | "Ask clarifying questions instead of assuming" | flat directive added at the end of the request, without irritation
+- about: The user sets aside the database-layering discussion and asks for a first-principles analysis of what a plot point is, along with an audit of v1 notes, and wants clarifying questions rather than assumptions.

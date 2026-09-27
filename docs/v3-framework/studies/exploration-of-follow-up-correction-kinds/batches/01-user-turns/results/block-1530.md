@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model framed the advice around when the user sits down to write prose, drafting sessions and a first-month schedule ending in writing, but the user is still in the material-expansion phase, not writing | I'm not doing any writing at all though | flat, brief statement of fact, with the mismatch implied rather than argued
+  - reading of the plan | The model assumed the user's project stage was one of migrating v1 notes and preparing to write, when the user is still expanding and building the planning material | I'm still expanding the material | flat, given as the plain reason the advice doesn't fit, with no apology or irritation
+- about: The user briefly pushes back that the writing-oriented workflow and month plan miss where they actually are, since they are still expanding the planning material and not writing.

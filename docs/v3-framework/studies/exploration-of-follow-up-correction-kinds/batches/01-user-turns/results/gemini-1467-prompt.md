@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Sherrill's policy record left out her ethics reform and solar permitting reform. That omission leaves its verdict of an establishment, status-quo incrementalist resting on an incomplete picture. | "What about Sherrill's policies about ethics reform and permitting reform for more solar?" | Put as a short question that points to the omission. It is an implicit challenge with no stated disagreement, no reason given and no irritation.
+- about: The user raises two Sherrill policy areas the assessment skipped, ethics reform and solar permitting, and asks the model to account for them, which implicitly questions its characterization of her as a Stage 3C status-quo figure.

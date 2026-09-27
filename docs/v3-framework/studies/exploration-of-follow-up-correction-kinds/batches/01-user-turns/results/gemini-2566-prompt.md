@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the FJA acronym brainstorm and asks for a fresh analysis of how the lionesses in part 3 of Coltbert's game dress and display their cutie marks, set against the meaning of clothing in Aquileian society.

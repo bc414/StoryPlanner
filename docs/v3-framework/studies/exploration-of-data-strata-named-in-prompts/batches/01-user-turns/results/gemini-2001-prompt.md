@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to produce the final structured-output JSON schema for the Phase 0 strategy-selection step, without pointing to any body of material to draw on.

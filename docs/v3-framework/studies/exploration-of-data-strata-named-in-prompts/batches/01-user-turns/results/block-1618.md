@@ -1,0 +1,4 @@
+- sources:
+  - these 8 cognitive modes | the list under evaluation, not settled: the model is to weigh whether to keep them mutually exclusive, combine some, or allow overlaps such as political scientist, economist and sociologist | What are the pros and cons of declaring these 8 cognitive modes to be mutually exclusive | referred-to
+- order:
+- about: The user asks the model to weigh the pros and cons of keeping the eight proposed cognitive modes strictly separate versus combining or overlapping them in tracks, judged by their own world-building project's needs, and asks it to raise clarifying questions instead of assuming.

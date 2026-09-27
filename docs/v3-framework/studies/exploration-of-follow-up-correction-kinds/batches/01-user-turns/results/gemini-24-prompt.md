@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the word count result as given, identifies the file as the full story, and asks for a summary of it as a new follow-on request.

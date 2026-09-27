@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the stage model as the missing piece, confirms with an example from their own Mali scene note that it matches their intent, and then submits a new Twilight-POV scene (10.18) for analysis of their notes and how to adjust their working model.

@@ -1,0 +1,4 @@
+- sources:
+  - Yale in Herzland (where Chrysalis originally got help developing the love harvester) | treat as established backstory to build the new smuggling idea upon | introduced with 'originally' as a prior established fact | referred-to
+- order:
+- about: The user turn pitches a new plot device (a smuggled lithography-like machine for spell-matrix work) that piggybacks on an already-established fact about Yale in Herzland's role in Chrysalis's love harvester, so that Twilight's invention owes to espionage and vice dealing rather than pure genius alone.

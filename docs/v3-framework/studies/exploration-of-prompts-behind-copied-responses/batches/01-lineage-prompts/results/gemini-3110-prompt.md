@@ -1,0 +1,10 @@
+- asks:
+  - evaluate | assess chapter 5 of "Green isn't your Color" against the themes of TLTT's story plan | "Now evaluate chapter 5 of Green isn't your Color against the themes of TLTT's story plan"
+  - compare | set the two works/threads side by side | "and compare"
+  - check | confirm or refute the stated reading that humanizing/deconstructing Celestia in chapter 5 works as an accelerated version or blueprint of TLTT's Twilight-Celestia thread | "Does this serve as an accelerated version/blueprint of TLTT's story thread about Twilight and Celestia's nuanced dynamics?"
+- supplies:
+  - plot summary | describes chapter 5's own structure: Twilight/Celestia as a side plot while the main plot follows Fluttershy's crush on Rarity, Rarity's fashion business, and the clash between her Aquileian style and the Canterlot elite's hollow imitation of it (Herzlander capitalism/soullessness with an Aquileian face) | a few sentences
+  - stated interpretation | the user's own reading of what they attempted in the chapter, i.e. "humanizing" Celestia by deconstructing the god myth | one sentence
+- shaping:
+- openness: Leans toward an answer it names: the user states their own interpretation ("I believe I attempted to 'humanize' Celestia... deconstruct the god myth") and asks the model to confirm whether it functions as an accelerated blueprint of TLTT's Twilight-Celestia thread.
+- subject: Comparing chapter 5 of "Green isn't your Color" to TLTT's story plan, focusing on whether its Twilight-Celestia side plot prefigures TLTT's treatment of that relationship, alongside the chapter's main Fluttershy/Rarity fashion-business plot.

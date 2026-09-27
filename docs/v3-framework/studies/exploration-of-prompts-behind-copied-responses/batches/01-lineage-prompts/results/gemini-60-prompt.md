@@ -1,0 +1,9 @@
+- asks:
+  - summarise | give a thorough summary of what happens in "the next chapter" | "Please give a detailed summary of the next chapter"
+  - identify | list any new open questions arising from that chapter | "any new open questions"
+  - analyse | explain how the next chapter relates to previous chapters | "how it relates to previous chapters"
+- supplies:
+- shaping:
+  - level of detail for the summary should be thorough/detailed | "detailed summary"
+- openness: Leaves the answer fully open: it does not name the chapter's content, the questions, or the relations, but asks the model to determine and supply all three from context not included in the message itself.
+- subject: Summarizing an upcoming story chapter, its new open questions, and its connection to earlier chapters

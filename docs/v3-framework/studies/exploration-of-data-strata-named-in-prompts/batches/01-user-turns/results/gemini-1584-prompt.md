@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a worldbuilding idea that Cadance and Shining Armor spent time in Aquileian parloirs because of her love and empathy talents, which would explain their more competent Crystal army, and asks whether that is plausible, without pointing to any body of material for the model to draw on.

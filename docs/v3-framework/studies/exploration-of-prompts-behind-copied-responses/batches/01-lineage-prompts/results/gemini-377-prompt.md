@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks why a specific letter (the "d") is lowercase in the acronym/name "PdNA" as used within "EaW" | "Why is the d in PdNA lowercase in EaW"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it states as given that the "d" is lowercase and simply asks for the reason, without proposing an answer or offering options to choose between.
+- subject: The capitalization convention of a letter in an in-story acronym ("PdNA") within a named work or setting ("EaW")

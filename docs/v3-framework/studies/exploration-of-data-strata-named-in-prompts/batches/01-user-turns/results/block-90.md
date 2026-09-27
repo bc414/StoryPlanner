@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open question about what follows from Celestia not knowing how to make friends, without pointing the model at any particular body of material.

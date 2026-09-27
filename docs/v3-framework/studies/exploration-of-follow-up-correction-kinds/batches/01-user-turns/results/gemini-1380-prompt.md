@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the video summary without comment and moves to a new task, asking for names for the second half of a chapter called Tempest that they plan to split, guided by the naming style of their other chapters.

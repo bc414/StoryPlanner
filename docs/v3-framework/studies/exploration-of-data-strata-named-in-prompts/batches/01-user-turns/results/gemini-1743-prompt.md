@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for the English translation of the proposed club name, without pointing at any body of material to draw on.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's picture of Skyfall's industry, explains in their own words why the PNdA can be pure capitalists and how it plans to beat Skyfall, proposes that the FJA and PNdA alliance began around 1000 through bribery of tax collectors, and asks for an analysis of that angle.

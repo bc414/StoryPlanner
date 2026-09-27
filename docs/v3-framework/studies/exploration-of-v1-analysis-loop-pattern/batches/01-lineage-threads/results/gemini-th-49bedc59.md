@@ -1,0 +1,6 @@
+- steps:
+  - the author | supplies clarifications | corrected population/faction figures, political history (long march, egalitarian reforms, Reich peasant buy-in), war-pact trigger, rules-of-engagement constraint, and a narrative choice (early Skyfall capitulation vs. canon game outcome) | opening and entirety of the exchange
+  - the model | builds a strategic analysis | two-theater stalemate breakdown, a shock-troop role for one faction, a 'knightly code' constraint explanation, an intervention mechanism for two other characters, and a summary comparison table | single response to the author's clarifications
+- kept:
+- brought: The author brought a set of corrected worldbuilding parameters (populations, political history, war triggers, combat rules) plus a specific plot choice about how the war should diverge from the game's default outcome, asking the model to work out the strategic consequences.
+- loop: The author fed in tightened setting constraints and a narrative deviation, the model returned a full strategic elaboration (theaters, factions, intervention mechanism) built to justify that deviation, but nothing from this exchange was traced into the planning database.

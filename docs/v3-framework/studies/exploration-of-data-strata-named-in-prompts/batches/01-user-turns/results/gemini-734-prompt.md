@@ -1,0 +1,4 @@
+- sources:
+  - the json | the material attached to a fresh Gemini 3 Pro session; the model is to consider how it gets used there compared with NotebookLM, no ranking or trust level given | with a fresh session and the json attached | referred-to
+- order:
+- about: The user asks how NotebookLM compares with Gemini 3 Pro in the website or app, started fresh with the same JSON attached, as ways of working with that JSON.

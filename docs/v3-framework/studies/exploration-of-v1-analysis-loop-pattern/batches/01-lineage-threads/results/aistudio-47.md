@@ -1,0 +1,8 @@
+- steps:
+  - the author | attach | an uncaptured document, no visible text | opening of the conversation
+  - the author | outline | a cluster of causal claims linking Queen Velvet's arc, Luna's return, Mali's role, Luna's choice of Celestia's token reforms over grassroots EEEE-style reform, the Tzinacatl parallel, and Celestia's turn to Discord | second message
+  - the model | elaborate | expands the author's compressed bullets into a four-part causal/psychological architecture (Luna's search for validation, the Velvet/Mali ideological collision, the Tzinacatl projection, Celestia's Discord pivot), then appends two follow-up questions about Mali's reaction and Velvet's later collaboration | third message, closing the exchange
+- kept:
+  - note 5393 | the author's own words in this record | keeps the causal chain from the author's outline message (Velvet's arc vs Luna/Mali, why Luna picks token reforms over grassroots reform, the Tzinacatl parallel, the Discord deus-ex-machina explanation), restated and slightly expanded in the author's own phrasing, filed under Subject "Princess Luna"
+- brought: The author brought a compressed set of causal hypotheses tying Queen Velvet's downfall to Luna's return, Mali's influence, and Celestia's political choices, apparently drawn from their own developing outline.
+- loop: The author states a seed set of interlocking causal claims about Velvet, Luna, Mali, and Celestia; the model returns an elaborated narrative-logic expansion plus new questions, but the planning database keeps only the author's own restated version of the original seed claims, filed as a Subject entry rather than any of the model's added elaboration or questions.

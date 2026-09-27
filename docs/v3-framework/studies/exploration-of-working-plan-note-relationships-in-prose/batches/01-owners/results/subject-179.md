@@ -1,0 +1,26 @@
+- relations:
+  - 925|924|the real-world model supplies the effect that the reader-experience plan asks for: the same preachy, inauthentic impression|preachy and inauthentic like Andrew Carnegie / he is preachy and inauthentic|implicit
+  - 919|927|one says he talks like Flim and Flam; the other says Flim and Flam are unscrupulous dark mirrors of him, so the resemblance is one of manner and not of character, and it is why opponents distrust him|talks just like Flim and Flam / dark mirrors of Comet Shine, such as Flim and Flam|implicit
+  - 927|923|the distrust of alienated traditionalists burned by his dark mirrors is a reason he is held at arm's length as only an ally of convenience until the reader's view is revised|alienated traditionalists who were burned / ally of convenience|implicit
+  - 924|923|continuation in time: first he seems desperate to be liked, preachy and inauthentic, and this view holds until the history lesson revises it|desperate to be liked / until his history lesson|implicit
+  - 924|1076|motive behind the manner: he wants to appear superior and looked up to, which is why he strains to sound like a pony of the people|desperate to be liked / wants to appear superior to his tycoon peers|implicit
+  - 1076|1078|the thematic note states generally what the characterization note shows in an instance: status and admiration matter to him more than capital, as with the logo on a cooperative he does not own|wants to appear superior ... logo across the cooperative / Being looked up to is more ego-stroking than accumulating capital|implicit
+  - 1078|924|being looked up to as the driving want gives the reason for his desperation to be liked|Being looked up to / desperate to be liked|implicit
+  - 922|1076|the Star Energy logo appears both as his cutie mark and across the cooperative, so his mark is on things he does not own|cutie mark is the Star Energy logo / Star Energy logo across the cooperative|implicit
+  - 928|929|his sale of assets to buy weapons is continued by buying anti-tank guns and converting factories to military production|sold all assets ... to buy weapons / bought Aquileian anti-tank guns and learned how to convert his factories|implicit
+  - 927|929|his belief in technology as empowerment is instanced by the tractors that ease grunt work without replacing earth pony magic|Believes in the goodness of technology and empowerment / makes the grunt work easier|implicit
+  - 925|927|two real-world analogues: one for how he sounds, the other for his ethos and how opponents read it, so the same sincerity of belief can be heard as preachy or as a god complex|preachy and inauthentic like Andrew Carnegie / may come off as having a "god complex"|implicit
+  - 921|922|the look described in the characterization note is given a source in the canon note|His look comes from one of the default portraits / He's yellow and has a brown mustache|implicit
+- outward:
+  - 925|a real-world historical figure, Andrew Carnegie, as model|like Andrew Carnegie
+  - 927|a real-world figure, Dario Amodei, as model for his ethos|inspired by Dario Amodei
+  - 927|Flim and Flam, other characters held elsewhere, and the traditionalists they burned|Flim and Flam
+  - 928|Skyfall, Equestrian shipping insurance, the changeling-Equestrian border buildup and the coming submarine blockade, held elsewhere in the story|sold all assets in Skyfall / submarine blockade
+  - 919|Flim and Flam as a speech model from outside the item|talks just like Flim and Flam
+  - 1076|Las Pegasus tycoon peers and the cooperative, held elsewhere|tycoon peers in Las Pegasus / the cooperative
+  - 929|Applejack, Luna's retreat order, the tank factory plot, and Aquileian supply, held elsewhere|Applejack ... Luna's retreat order / Aquileian anti-tank guns
+  - 929|the concept of Harmonic Capitalism, developed elsewhere|proto-concept of "Harmonic Captialism"
+  - 923|the buffalo/oil workers forum scene where his history lesson happens|history lesson during the buffalo/oil workers forum
+  - 921|canon default portraits for pony regiment commanders|default portraits for pony regiment commanders
+  - 1078|the theme that the truth does not speak for itself, carried across the wider project|The Truth does not speak for itself
+- whole: Most of these notes hang together around one figure, a status-hungry, earnest businessman who is read as preachy and inauthentic, with several notes joined by motive, perception and Flim and Flam, while a few (the look, the origin of Star Energy, the sale of assets) stand mostly as separate entries.

@@ -1,0 +1,5 @@
+- sources:
+  - the canon episode Hurricane Fluttershy | treat as the factual baseline for how Cloudsdale's weather-making works (pegasi lifting lake water into a storage tank); start from it and build the distributed version on top | In the canon episode Hurricane Fluttershy, the pegasi have to take water from a lake and launch it into a storage tank | first-named
+  - harmonic capitalism (the story's established framework) | the lens to apply when redesigning the canon process as a distributed version | What would be the harmonic capitalism powered distributed version of this? | referred-to
+- order:
+- about: The user asks how Cloudsdale would actually work, anchoring on the canon episode's water-lifting process, and asks for the harmonic-capitalism distributed version of it.

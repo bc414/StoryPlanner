@@ -1,0 +1,5 @@
+- sources:
+  - what I am now imagining, the twist and the moment Chrysalis's tragedy exceeds her control | the user's own newly proposed plot idea, offered as a current imagining rather than settled; the model is to analyze it thoroughly | Here is what I am now imagining | first-named
+  - present day 2026 | the real-world present, to be read against the twist so the model names the allegories and social commentary it carries | social commentary on present day 2026 | first-named
+- order:
+- about: The user proposes a new plot twist in which rewarded, ambitious workers drive up debt and extraction until the changelings and VOPS force Chrysalis to authorize the invasion, and asks for a thorough analysis of it and its allegories and social commentary on 2026.

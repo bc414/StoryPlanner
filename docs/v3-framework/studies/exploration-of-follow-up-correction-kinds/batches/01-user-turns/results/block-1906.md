@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new note, a physical description of Tally Mark, and asks whether it belongs under ontology rather than character psychology, without responding to or disputing the previous sorting.

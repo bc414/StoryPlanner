@@ -1,0 +1,16 @@
+- relations:
+  - 1168|1170|the second draws out a consequence of the first: because each artisan must bootstrap from first principles, the craft and its machines cannot be passed to children|This is inherently a process that cannot be inherited; the child has to learn from first principles|explicit
+  - 1170|1171|the second gives the reason artisans' children left the craft: they cannot inherit the machines and must start from scratch, which also makes the paradigm anti-poseur|cannot be inherited; the safe children of Grover III's artisans turned to the bessemer process|implicit
+  - 1168|1171|the second presupposes the bootstrapping-from-scratch process in the first, which is what makes the paradigm anti-poseur; bessemer steel appears in both as the cheaper alternative|starting from first principles; cheap bessemer steel; turned to the bessemer process|implicit
+  - 1168|1182|the second's claim that enchanted armor makes knighthood expensive and skill-requiring is an effect of the first's long bootstrapping, enchanted-parts craft|learn all the skills; Parts ... are enchanted; makes being a knight expensive and skill required|implicit
+  - 1171|1182|both say the enchanted armor and enchanted-arms tradition resists imitation, since the armor is costly and demands skill and the paradigm is anti-poseur|most anti-poseur paradigm; enchanted swords and armor; expensive and skill required|implicit
+- outward:
+  - 1168|a buyer or faction called Skyfall, held elsewhere in the world|like selling to Skyfall
+  - 1168|the bessemer steel technology, a separate industrial process held elsewhere|cheap bessemer steel
+  - 1171|the ruler Grover III and his artisans, and their history|the safe children of Grover III's artisans
+  - 1171|the warlord era and its enchanted swords and armor|enchanted swords and armor from the warlord era
+  - 1171|the bessemer process as its own technology and the artisans' children's turn to it|turned to the bessemer process
+  - 1182|magical monsters as a threat in the world|protect from magical monsters
+  - 1182|crossbow bolts as a weapon and their history|protected them from crossbow bolts
+  - 1182|the invasion of the Riverlands and the unicorn spells used against it|unicorn spells when invading the Riverlands
+- whole: The notes largely hang together around the non-inheritable, bootstrapped craft and its anti-poseur, costly result, though the armor note reads more as its own entry and rests on outside history, so the set is only loosely joined.

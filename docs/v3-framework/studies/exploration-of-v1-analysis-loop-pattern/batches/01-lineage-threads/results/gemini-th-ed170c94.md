@@ -1,0 +1,9 @@
+- steps:
+  - the author | request | ask for structural summary | asks for a chapter-by-chapter breakdown of the previously shared document
+  - the model | source assessment | flags incompleteness of the provided text | notes the attached file only reaches the frame story's opening before cutting off
+  - the model | supplementation | fills the gap with outside knowledge | reconstructs the rest of the chapter progression from its own familiarity with the published story by the same title/author
+  - the model | structured breakdown | organizes the story into parts and arcs | lays out frame story, then flashback arcs (childhood, apprenticeship, ship/moon journey, elements retrieval, confrontation/resolution) with approximate chapter markers
+  - the model | offer of further work | proposes a follow-on task | ends by offering to analyze the Twilight/Cadance dynamic in the prelude
+- kept:
+- brought: The author brought only a request to have the already-shared document turned into a chapter-by-chapter structural summary, without adding new plan material.
+- loop: The author asked for a structural breakdown of existing material, and the model answered by mixing what the provided text actually contained with material it supplied from outside knowledge of the published story, producing an outline that this stretch shows no sign of being fed back into the planning database.

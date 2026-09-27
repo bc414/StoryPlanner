@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts Treason as a foil to Loyalty but questions whether the title is too obvious and gives away the plot.

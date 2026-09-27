@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the previous analysis to request a new one on the character Synovial, supplying fresh backstory (his contempt for Pagala and Trimmel, his slow Griffonian-style warfare, his role in the 981 counterrevolution and in running Vesalipolis) without disputing anything the model said.

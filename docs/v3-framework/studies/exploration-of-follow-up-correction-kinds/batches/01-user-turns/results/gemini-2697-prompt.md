@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Moriset/Louis Philippe comparison and asks a new planning question about the "Infiltration" chapter, namely whether Applejack should ask Celestia's permission to form SECEF, and wants a pros-and-cons analysis drawing on the "Stagnation" conversations.

@@ -1,0 +1,7 @@
+- sources:
+  - the 4th axis (extraction vs sharing, ego capitalism vs harmonic capitalism), as set out in the model's earlier framework | treat as the existing framework to be built on and refined, with the user's own reading of it (Aquileia lacks it, Equestria has it) added as direction | Please refine the 4th axis | referred-to
+  - the model's earlier placement of Stalliongrad as isolationist | treat as wrong and correct it | Stalliongrad is not isolationist | referred-to
+  - the author's own account of Stalliongrad (intervened in Nova Griffonia for the revolution, Trotskyites) | treat as true, a correction stated from the author's knowledge of the fabula | they intervened in Nova Griffonia for the revolution. They are Trotskyites | first-named
+- order:
+  - the author's account of Stalliongrad (interventionist, Trotskyite) over the model's earlier label of Stalliongrad as isolationist | Stalliongrad is not isolationist, they intervened in Nova Griffonia
+- about: The user asks the model to refine the fourth axis (extraction versus sharing, ego capitalism versus harmonic capitalism) and to link it to classical liberalism and to the bourgeois revolutions, and corrects the model's earlier classification of Stalliongrad as isolationist.

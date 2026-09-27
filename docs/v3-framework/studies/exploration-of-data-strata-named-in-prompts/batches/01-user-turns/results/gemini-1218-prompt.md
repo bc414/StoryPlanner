@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the clock-time framing, saying the sun is the fixed reference, and asks what biological schedule is best relative to the sun and how changing day length across the year affects it.

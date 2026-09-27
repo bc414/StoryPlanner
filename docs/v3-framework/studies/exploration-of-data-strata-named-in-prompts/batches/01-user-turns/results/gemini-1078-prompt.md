@@ -1,0 +1,4 @@
+- sources:
+  - the user's own recollection of a famous union tied to a hall, from around FDR's time | uncertain memory offered as a lead for the model to identify; not settled fact | I thought there was a famous union that controlled city politics | first-named
+- order:
+- about: The user pushes back on the model's hall suggestions by describing a half-remembered union from the FDR era that controlled city politics and was tied to a particular hall, and asks the model to identify it.

@@ -1,0 +1,7 @@
+- sources:
+  - my materialist historicist story plan | the plan being revised; the frame the Chiropterra change is made in, with its own logic taking precedence over the mythical material | in my materialist historicist story plan, I think I should toss out | referred-to
+  - the whole EaW mythical worldbuilding behind Chiropterra (a 1000 year old secretive nation waiting for Nightmare Moon's return) | discard; do not use it, replace it with the narco-state of exiled Tzinacatl and treat the Nightmare Moon worship as mere marketing | toss out the whole EaW mythical worldbuilding | referred-to
+  - EaW's account of Wingbardy's invasions (Abyssinia, the Parishes of Sicameon, the Republic of Asterion) | use as the basis for what Beakolini does; treat as the source for which colonies are attacked and occupied, and that Wingbardy stays out of the great war | In EaW, Wingbardy typically invades Abyssinia | referred-to
+- order:
+  - my materialist historicist story plan over EaW mythical worldbuilding | the Chiropterra myth is to be tossed out in favour of the materialist version
+- about: The user revises their plan by dropping the EaW mythic origin of Chiropterra in favour of a narco-state of exiled Tzinacatl, while keeping EaW's Wingbardian invasions and adding geography and a China-plus-British/French-empire allegory for Wingbardy.

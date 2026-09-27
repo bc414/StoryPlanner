@@ -1,0 +1,7 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's death scene of Thranx being torn apart by a Griffon mob storming the palace is rejected; no mob storms the palace | "There's no mob storming the palace." | flat, blunt denial with no reason given
+  - fact of the world | The model's account of why Synovial left (a survivor sensing the alliance collapsing and packing up) is replaced: Synovial was recalled to fight in Equestria, while Thranx refused to go | "Synovial is recalled to fight in equestria, Thranx refused." | flat, stated as plain replacement fact
+  - fact of the world | The cause of Thranx's death is corrected: VOPS killed him, not a mob | "VOPS killed him." | flat, terse statement of the correct event
+  - reading of the plan | The model's portrayal of Eros as someone who taught Grover 'Changelings are monsters' (indoctrinating him) is challenged; the user says the plans show Eros teaching Grover to be a good Kaiser, and asks the model to re-check his characterization | "review Eros's characterization in my story plans. He is teaching Grover to be a good Kaiser, not indoctrinating Grover" | directive to re-read the plans, with the correct reading asserted flatly and no apology or softening
+- about: The user rejects the model's invented mob-lynching death for Thranx, supplies the actual events (Synovial recalled, VOPS killing Thranx, Eros lying to Grover about disease, Grover inferring the truth), and tells the model to re-check its portrayal of Eros against the plans.

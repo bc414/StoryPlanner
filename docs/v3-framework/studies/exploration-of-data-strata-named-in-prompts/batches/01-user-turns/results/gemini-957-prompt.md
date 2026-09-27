@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to move on from the Rockefeller breakdown and describe Andrew Carnegie, without pointing at any body of material to draw on or avoid.

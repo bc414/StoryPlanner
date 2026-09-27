@@ -1,0 +1,7 @@
+- sources:
+  - FiM canon | treat as the reference that corrects the model's claim: Celestia did not send the Mane 6, Applejack was donating a tree, and the buffalo stampede is as depicted | In FiM canon, Celestia did not send the Mane 6 to go to Appleloosa | referred-to
+  - my story lore | treat as the author's settled account: buffalo and Appleloosans become friends as in the episode, oil fields and Rockfeller's guns came before Appleloosa and explain the stampede, no guns in Appleloosa | According to my story lore, the buffalo and appleloosans become friends | referred-to
+  - the canon episode | treat as what the story lore follows for the buffalo-Appleloosan friendship and the stampede | just as shown in the canon episode | referred-to
+  - the model's earlier point on Celestia's HR-style pacification and soft power | accept as agreed and build on it; the author confirms it and asks for its content | I do agree that Celestia wouldn't ignore the buffalo but instead attempt HR-style pacification | referred-to
+- order:
+- about: The user corrects the model's account of the Appleloosa episode against canon and their own story lore, accepts the HR-style soft-power framing of Celestia's response to Rockfeller, and asks what the failed platitudes would be.

@@ -1,0 +1,48 @@
+- passages:
+  - 4317 | past-tense biographical narration | terse, no explicit subject pronoun, past tense | Trimmel's birth and denied jaeger ambition | apart
+  - 4318 | past-tense biographical narration | short historical statement, past tense | Chrysalis's takeover and declared meritocracy | apart
+  - 4319 | present-tense plot/strategy summary | begins/wants/is denied, present tense | start of jaeger training, denial by the Hivesmarshal | apart
+  - 4320 | present-tense plot/strategy summary | identifies...instructions him to study, present tense | Chrysalis directs Trimmel to study the peasant army | apart
+  - 4320 | doctrinal conceptual exposition | They are...precursors of the FJA...contrast to the old Grand Battleplan | traits of the peasant army versus the old doctrine | apart
+  - 4321 | present-tense plot/strategy summary | parenthetical doctrine term, single running clause | Trimmel applies proto-FJA lessons, rises through the Heer | apart
+  - 4323 | present-tense plot/strategy summary | single clause, present tense | new light tanks and trucks developed | apart
+  - 4392 | past-tense biographical narration | infiltrated...saw the decadance, past tense | Trimmel's Canterlot infiltration ahead of 1002 | apart
+  - 4392 | quoted faction-assessment voice (first person plural) | has a clear assessment...We can take out Celestia...won't complain | the VOPS jaeger plan for Equestria | apart
+  - 4392 | past-tense biographical narration | planned...only failed because...was demoted, past tense | outcome of the Canterlot operation and Trimmel's promotion | apart
+  - 4588 | present-tense plot/strategy summary | is still operating...The plan for Equestria is..., present tense | contrasting occupation strategies for Equestria and the Crystal Empire | apart
+  - 4589 | past-tense biographical narration | lost...was a disorganized assault...turned out to be, past tense | causes of the first Tall Tale defeat | apart
+  - 4589 | present-tense plot/strategy summary | is worrying...points out...agrees and lets, present tense | Trimmel's response and Chrysalis's approval | apart
+  - 4590 | present-tense plot/strategy summary | is immediately validated...decides to launch, present tense | premature launch of the 2nd Battle of Tall Tale | apart
+  - 4591 | present-tense plot/strategy summary | get precision striked...he believes, present tense | resentment after the 2nd battle losses and the requisition plan | apart
+  - 4591 | past-tense biographical narration | wanted to requisition, past tense | closing statement of his request | apart
+  - 4592 | present-tense plot/strategy summary | wants...reassigns...increases, present tense | Chrysalis's counter-plan targeting Applejack's family | apart
+  - 4593 | present-tense plot/strategy summary | are fired and replaced...receives a report, present tense | statthalter takeover of Vanhoover and Trimmel's resentment | apart
+  - 4594 | present-tense plot/strategy summary | has orders...is bored and angry, present tense | Pagala's boredom holding the Tall Tale line | apart
+  - 4595 | present-tense plot/strategy summary | faces off...turns out to be competent, present tense | Trimmel versus Blueblood en route to Manehattan | apart
+  - 4596 | present-tense plot/strategy summary | secures the collaboration deal...dig in, present tense | shift of statthalters and jaegers along the front | apart
+  - 4596 | blunt aphoristic thematic statement | plain and simple...never forgive them | verdict on the changelings' true nature | apart
+  - 4597 | present-tense plot/strategy summary | get cut off and vanquished...retreat to Canterlot, present tense | the statthalters' defeat and retreat | apart
+  - 4597 | embedded direct speech | quoted line we'll fix this, you go back to safety | the statthalters' plea to Chrysalis | run-in
+  - 4597 | present-tense plot/strategy summary | believes...has one last bet...tells Chrysalis, present tense | Trimmel's counter-offensive plan | apart
+  - 4597 | past-tense biographical narration | This is the argument he had...which she dismissed him, past tense | callback to an earlier disagreement | apart
+  - 4597 | present-tense plot/strategy summary | Now he shows...agrees with Trimmel's gamble, present tense | Chrysalis accepting the gamble | apart
+  - 4597 | blunt aphoristic thematic statement | world conquest or die trying | Chrysalis's resolve | apart
+  - 4598 | present-tense plot/strategy summary | does not take the bait...expecting execution...transparent during the talk, present tense | Applejack's strategy and Trimmel's surrender | apart
+  - 4598 | meta-authorial structural aside | (Backstory ends here, because now he meets Applejack) | note on where the backstory section ends | apart
+  - 5165 | present-tense plot/strategy summary | has a superiority complex...rationalizes, present tense | Trimmel's self-justification about the Lioness Spell | apart
+  - 5798 | analytic thesis exposition with labeled sections | must be a slow, agonizing death...(The Death of the Civilizer Myth)...(The Death of Biological Determinism)...(The Death of Meritocracy) | three-front breakdown of Trimmel's disillusionment with Chrysalis | apart
+- shifts:
+  - 4320 | present-tense plot/strategy summary | doctrinal conceptual exposition | shift from a specific instruction to a generalized description of the peasant army's traits and its historical contrast
+  - 4392 | past-tense biographical narration | quoted faction-assessment voice (first person plural) | shift to the first-person plural We and to present-tense assessment language
+  - 4392 | quoted faction-assessment voice (first person plural) | past-tense biographical narration | return to past tense and third-person narration of the outcome
+  - 4589 | past-tense biographical narration | present-tense plot/strategy summary | tense change from past to present across a paragraph break
+  - 4591 | present-tense plot/strategy summary | past-tense biographical narration | tense shift to past in the closing sentence
+  - 4596 | present-tense plot/strategy summary | blunt aphoristic thematic statement | short flat declarative sentences and absolute claims replacing plot description
+  - 4597 | present-tense plot/strategy summary | embedded direct speech | quotation marks introducing the statthalters' own words
+  - 4597 | embedded direct speech | present-tense plot/strategy summary | return to third-person narration of Trimmel's reasoning
+  - 4597 | present-tense plot/strategy summary | past-tense biographical narration | past-tense callback to an earlier argument
+  - 4597 | past-tense biographical narration | present-tense plot/strategy summary | return to present-tense narration
+  - 4597 | present-tense plot/strategy summary | blunt aphoristic thematic statement | short punchy closing declaration
+  - 4598 | present-tense plot/strategy summary | meta-authorial structural aside | parenthetical address about the document's own structure
+- registers: past-tense biographical narration; present-tense plot/strategy summary; doctrinal conceptual exposition; quoted faction-assessment voice (first person plural); embedded direct speech; blunt aphoristic thematic statement; analytic thesis exposition with labeled sections; meta-authorial structural aside
+- whole: This item's notes are written in several distinct registers, chiefly a present-tense plot/strategy summary interrupted at points by past-tense biographical narration, a first-person-plural planning voice, an embedded quoted line, blunt closing verdicts, one meta note about the outline's own structure, and one note built entirely as a labeled analytic argument, and these shifts fall almost entirely at clear sentence or paragraph breaks rather than blending together mid-sentence.

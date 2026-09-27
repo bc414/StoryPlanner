@@ -1,0 +1,4 @@
+- sources:
+  - the other comments on UnknownError's blog post | to be looked at and discussed next, as further material beyond the author's post and the user's own comment already covered; no trust or priority stated | What about the other comments on UnknownError's blog post? | referred-to
+- order:
+- about: The user asks the model to turn to the remaining comments on UnknownError's blog post, after the model's discussion of the post and the user's own comment.

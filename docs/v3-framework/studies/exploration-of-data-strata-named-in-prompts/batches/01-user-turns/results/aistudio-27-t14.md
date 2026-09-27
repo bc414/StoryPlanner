@@ -1,0 +1,10 @@
+- sources:
+  - MY Fabula (the author's established Fabula) | ground suggestions in it as the basis, but not with total strictness, since the model must still be able to help expand it | grounded in MY Fabula | referred-to
+  - what's popular in training data (and what gives the most immediate dopamine) | do not base suggestions on it; suggestions should not come from popularity | NOT what's popular in training data | referred-to
+  - traditional narrative tropes | not a source to ban outright; tropes may overlap with the Fabula and are acceptable, but they should not be what suggestions are copied from | Sometimes tropes do overlap; they are tropes for a reason | referred-to
+  - the established Role and conditional analytical lenses | rely on them to guide the breadth of the model's approach, leaving problem-solving open ended instead of naming narrow methods | relying on the established Role and conditional analytical lenses | referred-to
+  - story bible that comes out of the output of the WPF program | holds the questions and statements the persona will be asked about; open points appear in it as plain questions or statements, with over 200 outstanding and no analysis flag shown | already embedded in the story bible | referred-to
+  - the five example questions given in this message | illustrative of the kind of questions and mixed statement-and-question notes the persona will receive | Let me give some examples of the questions | first-named
+- order:
+  - MY Fabula | what's popular in training data | grounded in MY Fabula, NOT what's popular in training data
+- about: The user pushes back on the draft prompt's bans on tropes and on non-materialist solutions, asks that the audience-experience ban be relaxed, and supplies five sample questions from their story bible to show what the persona will actually be asked.

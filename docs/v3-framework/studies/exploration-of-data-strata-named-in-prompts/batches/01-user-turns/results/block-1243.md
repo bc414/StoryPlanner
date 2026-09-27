@@ -1,0 +1,5 @@
+- sources:
+  - Chapter 12 "Unspoken Betrayal" in Nine Tales of Liberty | the text to be analyzed for its perspective use; the material the model is to read and draw the analysis from | Give an analysis of the perspective use in Chapter 12 Unspoken Betrayal in Nine Tales of Liberty | referred-to
+  - the author's own recollection of what they did in that chapter (a mishmash of omniscient with attempts at limited for dramatic or structural irony) | provisional guess from memory, a hypothesis to test against the chapter rather than a settled fact | It's probably a mismash of omniscient with some attempts at limited | first-named
+- order:
+- about: The user asks for an analysis of the perspective (omniscient versus limited) used in one of their earlier fanfiction chapters, offering their own tentative guess, so they can understand their instincts and apply the findings to planning their next work.

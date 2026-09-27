@@ -100,7 +100,9 @@ answered by the enumeration being shown, never by a sentence that nothing remain
 
 The validator gates a revision, a wholesale one included: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and
-regenerates `map.md` and `state.md` on a pass; a failure is fixed before the next edit.
+regenerates `map.md` on a pass; a failure is fixed before the next edit. `state.md` is not
+rebuilt by the hook (2026-09-27, its cost is a full walk of the study folders) — run
+`render` for a current copy before relying on it mid-revision.
 
 When the revision is done, the session writes the write-once revision note from the
 revision's section of `decisions.md`: what raised it, the decisions, the activities and

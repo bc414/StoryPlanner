@@ -1,0 +1,21 @@
+- relations:
+  - 976|979|979 shows in a concrete purchase how the verification machine of 976 works: the slot that scans the bit to confirm it was minted at Gilded Trust's foundry|verification machine to ensure the bits came from Gilded Mint / magical-magnetic scan to ensure it was minted at Gilded Trust's foundry|implicit
+  - 979|980|The electricity that the slot machine burns in 979 is what 980 develops into a toll, a second revenue stream for Gilded Trust from each verification|burns electricity to run a magical-magnetic scan / merchants have to buy electricity|implicit
+  - 979|981|Both describe the same machine: 979 says it approves the sale, 981 adds that it also sorts a share of the copper bits into a locked box as a fee|machine clunks, whirs... / machine physically sorts a percentage of the copper bits|implicit
+  - 980|981|Two sibling layers of the same extraction scheme, numbered in sequence and both taking a cut from every transaction|Layer 3: The Electricity Toll / Layer 4: The Interchange Fee|explicit
+  - 981|982|The real-world parallel (credit card interchange fees) is the model for the fee that the machine skims from each transaction|Credit card interchange fees / The Interchange Fee|explicit
+  - 977|980|The electricity toll is one of the ways the bits work as the primary mechanism of the grift; 977 states this generally and 980 gives an instance of the profit taken|primary mechanism of the "Gilded Grift" / Every time a transaction is verified, he sells a fraction of a barrel of oil|implicit
+  - 977|981|The interchange fee is a concrete instance of the grift that 977 names as the bits' purpose: taking his cut of the local economy|primary mechanism of the "Gilded Grift" / collect his cut of the local economy|implicit
+  - 977|983|983 gives the cover story that hides the grift: the bits' extractive scheme is presented to the public as patriotic independence|Gilded Grift / rebranded "Company Scrip" as "Economic Independence"|implicit
+  - 976|983|983 presupposes the bits as Equestrian copper minted and verified locally and turns those facts into the patriotic pitch|Equestrian copper! Mined here, minted here, verified here / plain copper currency... verification machine|implicit
+  - 979|983|The 'verified here' boast of the speech rests on the slot's scan; users are locked into the proprietary machines that 979 says every merchant must buy|verified here / willingly lock themselves into his proprietary ecosystem / selling these machines to all merchants|implicit
+  - 980|983|983 says the tycoons and workers willingly accept the lock-in, while 980 shows the hidden running costs that lock-in imposes on merchants; the reader is meant to see the gap between the pitch and the toll|dystopian company town / intentionally inefficient and power-hungry|implicit
+- outward:
+  - 983|The Skyfall Trade Federation, its Skyfall Marks currency and the griffon foreign-debt system, held elsewhere in the world|rails against the Skyfall Trade Federation for trapping Equestrians in foreign fiat debt
+  - 983|The character of Gilded Trust as tycoon and political figure, and the wider Las Pegasus population of tycoons and workers|What makes Gilded Trust a "nationalist genius"
+  - 980|The oil fields, Overland Haulers and power plants that Gilded Trust owns, described elsewhere|Who owns the local oil fields, the Overland Haulers, and the power plants?
+  - 980|Layers 1 and 2 of the scheme, which are not labelled in this item|Layer 3: The Electricity Toll
+  - 977|The 'Gilded Grift' as a wider scheme defined outside this technology|the primary mechanism of the "Gilded Grift"
+  - 982|Real-world credit card systems, outside the story|Credit card interchange fees
+  - 976|Las Pegasus, its cashiers, and Gilded Mint/Gilded Trust as a character and institution held elsewhere|Las Pegasus cashiers accept them / Gilded Mint
+- whole: These notes hang together as a set: the copper bit, its slot machine, the electricity and fee layers, the grift and the patriotic pitch all build on one another, though only the layer numbering and the interchange fee term point at each other in words.

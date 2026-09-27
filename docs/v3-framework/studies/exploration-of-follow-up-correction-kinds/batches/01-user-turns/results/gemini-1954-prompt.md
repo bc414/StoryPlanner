@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's Grover III/IV analysis with a follow-up question about how rugged individualists would use Boreas's favor of the strong to justify industrial expansion, and points out a tension between Grover III's chivalric code and the existing Lion-ruler/Eagle-servant dogma, without saying the model was wrong.

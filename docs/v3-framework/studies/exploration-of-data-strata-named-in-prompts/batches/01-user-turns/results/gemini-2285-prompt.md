@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual question about whether bullets must be heavy steel and lead to pierce aircraft armor and how modern bullets compare, without pointing the model at any particular body of material.

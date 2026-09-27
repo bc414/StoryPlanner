@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's recommendation of Alternative B and moves on to a new question about whether DTOs and view models are needed in a simple local interactive server Blazor project.

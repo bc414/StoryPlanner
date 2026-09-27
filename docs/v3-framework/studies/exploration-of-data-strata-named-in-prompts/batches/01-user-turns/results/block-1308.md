@@ -1,0 +1,7 @@
+- sources:
+  - the plan for a scootaloo origin story | the author's own earlier plan, offered as background to explain why it was written; not an instruction to the model, and treated as a deliberate subversion of a trope | I wrote up this plan for a scootaloo origin story | referred-to
+  - the dominant story type for Rainbow adopting Scootaloo | the fandom's common trope, described as what the plan was written against; something to subvert, not follow | the dominant story type for Rainbow adopting Scootaloo | referred-to
+  - TLTT | the author's larger project, cited as the model for the same method (materialist historicist world-building used to subvert a grimdark trope) | the same thing I used to build up TLTT | referred-to
+  - the later seasons of the show, the Wonderbolts being jerks | published canon treated as having a weak out-of-universe explanation, which the plan is meant to replace with an in-universe one | why the Wonderbolts were jerks in the later seasons | referred-to
+- order:
+- about: The user explains in retrospect why they wrote the Scootaloo origin plan: to subvert the fandom's comically-bad-parents trope with structural, capitalist-materialist worldbuilding like TLTT's, and to give an in-universe reason for the Wonderbolts' later-season behavior.

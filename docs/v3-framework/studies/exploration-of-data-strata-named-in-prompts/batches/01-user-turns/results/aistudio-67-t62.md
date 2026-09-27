@@ -1,0 +1,6 @@
+- sources:
+  - the model's previous analysis of populist stagnation (voting, poseurs, tone) | treat as wrong on tone and on several points: it wrongly has votes, wrongly casts the 15% as victims, and wrongly calls the 85% poseurs; do not carry these forward | This doesn't seem to be the right tone | referred-to
+  - the author's own account of the setting's history (930 petitions, the 85/15 split, the post-war 45/30/25 split, monarchy without votes) | treat as true and as the correction to the model's version | Equestria did not have any votes, it is a benevolent monarchy | first-named
+- order:
+  - the author's own account of the setting's history over the model's previous analysis | the author corrects the tone and the facts, saying there were no votes and that the 15% were robber barons, and rejects the poseur reading
+- about: The author rejects the model's populist-stagnation analysis, restating the 930 petitions, the monarchy without votes, the robber-baron 15% and the post-war opinion split, and asks whether the mandates count as top-down after several generations.

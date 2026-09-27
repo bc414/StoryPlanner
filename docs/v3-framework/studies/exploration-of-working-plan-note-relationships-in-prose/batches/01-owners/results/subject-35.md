@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 262 | Verany, the author of the Republican Liberty pamphlets, a figure whose promise of Dignity is held elsewhere | Verany's Republican Liberty pamphlets
+  - 262 | Gaudreau, who sets the policy of letting serfs leave, a character held elsewhere | Gaudreau says they are free to leave (pressure valve release policy)
+  - 262 | Vinovia, the place where the serfs live, and the city they travel to, both held elsewhere in the story's world | young serfs in Vinovia
+  - 262 | The bourgeoisie, on whose behalf the serfs are said to be puppets, a social group and politics held elsewhere | They realize they are puppets for the bourgeoisie
+- whole: This owner holds only one note, so there is nothing for it to hang together with; the note is a single sequence in itself and does not mention Réni Ducep.

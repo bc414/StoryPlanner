@@ -1,0 +1,5 @@
+- sources:
+  - chapter 12, Passion | treat as the settled plan: this is where Applejack learns about Aquileian sexual liberation, so it fixes when she finds out | "chapter 12, Passion" | first-named
+  - chapter 15 Combined Arms | treat as the settled plan: the lighthearted confrontation between Applejack and Rarity happens here in Ponyville, followed by Fluttershy's Stare at Rarity | "chapter 15 Combined Arms" | first-named
+- order:
+- about: The user states from their own plan when and how Applejack learns the truth (chapter 12) and where the comic confrontation with Rarity and Fluttershy's parallel Stare land (chapter 15), correcting the timing the model had suggested.

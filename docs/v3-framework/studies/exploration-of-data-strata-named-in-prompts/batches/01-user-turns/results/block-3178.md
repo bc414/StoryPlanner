@@ -1,0 +1,10 @@
+- sources:
+  - my current roster of Tall Tale natives | current plan state that is being questioned, because its two unicorn natives clash with the notes; the model should weigh it against the notes when proposing a new native | My current roster of Tall Tale natives are Comet Shine and Tally Mark, but they're both unicorns | referred-to
+  - my own notes describe Tall Tale | treat as the author's description of Tall Tale (mostly earth ponies, name from tall tales of huge harvests, harvest festival); the new proposal is built on it | my own notes describe Tall Tale as primarily earth ponies | referred-to
+  - the story plan / my lore for Tall Tale's history and more | consult before answering, since it holds Tall Tale history and other relevant details not yet in context | Review the story plan for relevant details that aren't yet in context | referred-to
+  - canon season 1 episode (Appleloosa, Braeburn as AJ's cousin) | treat as the show's canon basis for Braeburn and Appleloosa, which the author's fabula then reinterprets | which is a canon season 1 episode | referred-to
+  - my fabula (Appleloosa as illegal settlement on buffalo land under the Stagnation of Harmony's pioneer restrictions) | use the author's own version of Appleloosa's founding in place of the show's | in my fabula is an illegal settlement on buffalo land | referred-to
+  - EaW's map | treat Tall Tale as an existing city on the map, now to be given roots in Applejack's family | isn't a random city on EaW's map | referred-to
+  - Apple Fritter (background Apple family ponies from the show) | example of the kind of background Apple family pony to draw a named character from; a pool of candidates, not a fixed choice | Somepony like Apple Fritter | referred-to
+- order:
+- about: The user proposes making Tall Tale the Apple family's origin, with Granny Smith born there and Braeburn leaving to found Appleloosa, and asks for options for a background Apple pony to develop into a Tall Tale farmer, phosphorus digger and militia officer, after the model checks the story plan's Tall Tale lore.

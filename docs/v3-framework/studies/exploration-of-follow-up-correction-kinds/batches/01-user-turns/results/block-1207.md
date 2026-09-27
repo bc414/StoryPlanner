@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the analysis as a base and asks two follow-up questions: which elements of TLTT trace back to seeds in Nine Tales of Liberty (Earth pony magic given as an example), and where the earlier story shows anything like a third-person-limited effect.

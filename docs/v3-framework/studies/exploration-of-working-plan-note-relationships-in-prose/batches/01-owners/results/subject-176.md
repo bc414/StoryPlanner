@@ -1,0 +1,13 @@
+- relations:
+  - 724|725|the real-world analogue and the in-world effects: the drug named as the model is what the function note describes, a wakefulness and aggression stimulant used in blitzkrieg|Equivalent to pervitin/meth; eliminates the need for sleep, increases aggression... blitzkrieg|implicit
+  - 724|726|the meth equivalence is presupposed by the in-world professional terms, which name the substance as methamphetamine|Equivalent to pervitin/meth; Le Chlorhydrate de Méthamphétamine|implicit
+  - 725|727|the withdrawal is the cost that follows from the stimulating effects; the exhaustion and days of coma answer the suppression of sleep|eliminates the need for sleep; comatose for several days... and exhaustion|implicit
+  - 728|725|the name's meaning (lightning) matches the stated military use in blitzkrieg and the reflex speed; the name is explained by the use|Means "lightning essence"; used for blitzkrieg|implicit
+  - 728|726|the meaning of the main name is followed by other names for the same substance in other tongues, all naming the same thing|Means "lightning essence"; Huitzil-Pahtli ("Hummingbird Medicine"...)|implicit
+  - 725|726|the Tzinacatl name and the nickname "The Jitters" pick out the fast, vibrating energy that the function note states as speed and aggression|fast, vibrating energy; increases aggression and reflex speed|implicit
+  - 724|728|the German-sounding name and the pervitin analogy belong together; the name reads as a wartime German term like the real drug's setting|Equivalent to pervitin/meth; Means "lightning essence"|implicit
+- outward:
+  - 726|a character or profession called Fleur who uses clinical French terms for the drug|Fleur's professional term is "Le Chlorhydrate de Méthamphétamine"
+  - 726|the Tzinacatl, a people or culture with its own name for the drug (Nahuatl-style)|Tzinacatl name is Huitzil-Pahtli
+  - 726|a character called Fluttershy, who has her own name for the drug|Fluttershy calls it "The Jitters"
+- whole: The notes mostly hang together around one drug, with the analogy, effects, withdrawal and names bearing on each other, though the naming note holds three outward pointers to characters and cultures not here.

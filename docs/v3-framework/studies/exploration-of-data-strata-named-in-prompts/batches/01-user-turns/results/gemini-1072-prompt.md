@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's salon and air-bridge proposal with new world facts (Manehattan is land-connected so the crisis is despair rather than unwanted foals, and the planes carry 80% magical medicine with contraceptives lumped in), then approves Rarity designing the salon decor.

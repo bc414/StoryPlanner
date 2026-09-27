@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model read the flavor text's description of the two leaders as 'two earth ponies' as a sign that other races are present in Stalliongrad. The user reads the same line as pointing to earth ponies being the norm. | The fact that both Altidiya and Vasily are earth ponies actually leans toward earth ponies being the norm | Mild counter-reading stated as disagreement, with a reason, in the middle of agreeing with the rest of the research and without any irritation.
+- about: The user accepts the research summary as pointing to thin evidence for a three-tribe Stalliongrad, gently reverses the model's reading of the 'two earth ponies' line, restates the validation question, and asks a new question about how Russian peasant diversity, erasure and linguistic centralization compare in real history.

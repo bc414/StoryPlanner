@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the material the model is to review again and help sharpen; the new plan points that follow are additions to it | Please review my story plans again. I can make this even sharper. | referred-to
+  - canon | the published show, used as a reference point: the Crystal Empire's sudden appearance after the Canterlot Wedding is taken as a fact the plan must account for | the crystal empire showed up out of nowhere in canon | referred-to
+- order:
+- about: The user asks the model to review their story plans again and sharpen them, adding new plot points on Luna and Applejack at Tall Tale, Celestia's paralysis, the failed Canterlot Wedding takeover, and the Crystal Empire's appearance in canon.

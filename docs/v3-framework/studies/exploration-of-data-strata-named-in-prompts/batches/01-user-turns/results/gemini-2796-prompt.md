@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new story idea, that Pridea's artisans would pay tribute to Baron Dennis Discret and that Coltbert arranges this beforehand to persuade Dennis to double-cross Skyfall, and asks whether it would follow naturally, without pointing the model at any body of material.

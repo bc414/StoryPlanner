@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks why the model has been using programming/coding metaphors to frame its responses | "Why are you framing everything with programming metaphors?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer: it takes as given that the model has been framing things with programming metaphors and asks for the reason behind that, rather than asking to verify it or offering alternatives.
+- subject: The model's own tendency to use programming-related metaphors in its prior replies

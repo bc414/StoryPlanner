@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's two-level framework and asks a further, open question about what other examples of the same paradigm exist in everyday life.

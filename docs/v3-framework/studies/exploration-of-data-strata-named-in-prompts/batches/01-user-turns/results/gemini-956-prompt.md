@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up factual questions about John D. Rockefeller's personality, upbringing and workplace culture (cogs or found family) without pointing at any particular body of material.

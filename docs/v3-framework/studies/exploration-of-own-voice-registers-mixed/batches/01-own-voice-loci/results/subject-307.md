@@ -1,0 +1,6 @@
+- passages:
+  - note 5493 | explanatory chronicle | third-person declarative, causal chain 'leading to', mix of present ('predates') and past ('was founded', 'brought') tense narrating institutional origin | founding of University of Pridea by retiring knights and resulting pony demographic | apart
+  - note 5496 | explanatory chronicle | third-person declarative, historical-present verb ('flock'), causal chain 'leading to', listing current-day status | pony influx during Coltbert Reforms and resulting demographic and civic status | apart
+- shifts:
+- registers: explanatory chronicle
+- whole: Both notes are written in a single, consistent explanatory-chronicle register, each running as one unbroken passage of third-person, causally-chained historical and demographic statement with no internal shift.

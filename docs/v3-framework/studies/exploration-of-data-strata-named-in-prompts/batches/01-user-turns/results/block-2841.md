@@ -1,0 +1,6 @@
+- sources:
+  - subjects | instructs the model to try fetching/retrieving this data from the planner | marked by "Try getting subjects" | referred-to
+  - the civilizational systems | identified as the entries that should carry metadata tied to the axes | marked by "the civilizational systems should have meta data related to the axes" | referred-to
+  - the axes | treated as the reference scheme the civilizational systems' metadata must relate to | marked by "related to the axes" | referred-to
+- order:
+- about: The user turn tells the model to fetch the plan's subjects and specifies that the civilizational-systems entries among them should have metadata linked to the political axes.

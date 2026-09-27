@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds to the model's framework by saying where reader-character perception gap applies (Chrysalis's prequel-sequel) versus prior belief clash (TLTT), asks whether the plan structure should split into separate tracks, asks whether sincere revision is a recent mass-media phenomenon, and shares a personal fanfiction origin story to ask if prior belief clash explains his draw to fanfiction.

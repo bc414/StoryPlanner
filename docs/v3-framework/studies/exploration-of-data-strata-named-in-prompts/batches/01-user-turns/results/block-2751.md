@@ -1,0 +1,5 @@
+- sources:
+  - the three layer framework | the model is to restate it as a refresher, treating it as the author's established framework | What is the three layer framework again? I need a refresher | referred-to
+  - why you said layer 0 (the model's own earlier statement in this conversation) | the model is to explain and justify its earlier use of the Layer 0 label | why you said layer 0 | referred-to
+- order:
+- about: The user asks the model to remind them what the three layer framework is and to explain why it labelled the story it just discussed as Layer 0.

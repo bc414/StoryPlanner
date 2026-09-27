@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the finished analysis by attaching a new story document and asking for the same kind of analysis, adding the date context that it predates their encounter with My Little Pony.

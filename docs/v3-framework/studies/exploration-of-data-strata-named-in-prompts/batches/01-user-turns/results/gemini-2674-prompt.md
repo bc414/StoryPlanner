@@ -1,0 +1,4 @@
+- sources:
+  - the idea that Harmonic Capitalism is a Trojan horse (put forward earlier in the current conversation) | welcomed and taken up as a direction for the story, with the user adding their own aims for it (dismantling the Stagnation of Harmony and ruthless capitalism, rejecting authoritarian marxism and right wing nationalism) | I like the idea that Harmonic Capitalism is a Trojan horse | referred-to
+- order:
+- about: The user endorses the model's Trojan-horse framing of Harmonic Capitalism and extends it by stating what it is meant to dismantle and what it must also reject.

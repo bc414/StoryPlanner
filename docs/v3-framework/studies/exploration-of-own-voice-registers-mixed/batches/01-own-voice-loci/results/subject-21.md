@@ -1,0 +1,21 @@
+- passages:
+  - note 4215 | expository-analytical | present tense, plain declarative, states role then motive and plan | Eros's position, his judgment of Eagleclaw, his plan to mentor Grover VI | apart
+  - note 4215 | expository-analytical (comparative) | parallel negative comparison, 'not sickly... not hedonistic' | contrasting Grover VI with his father and grandfather | run-in
+  - note 4215 | wry aside | casual concrete detail inside parenthesis, 'who ate too much chocolate' | Grover IV's indulgence | run-in
+  - note 4215 | expository-analytical | plain declarative return, new sentence | Grover VI's intelligence and empathy | apart
+  - note 4216 | field-label | terse label-colon-value form, 'Born:' and 'Biography:' headers | birth date and place, heading the bio | apart
+  - note 4216 | encyclopedic-biographical narrative | past tense, plain third-person biography | Eros's early piety and rise to Archon | apart
+  - note 4216 | lofty-dramatic narrative | elevated diction and metaphor, 'cruel fate... render the Empire asunder' | the Empire's fall, loss of the Idol, the failed regents | run-in
+  - note 4216 | encyclopedic-biographical narrative | plain factual return, 'He was responsible for saving...' | saving Grover V, protecting Grover VI, dislike of nobility | run-in
+  - note 4216 | present-tense reportage | tense shift to present, 'And now... are attempting' | Eros and the Archons' current bid to restore the Empire | run-in
+  - note 4216 | prophetic proclamation | exclamatory direct threat invoking the god, ends in '!' | vengeance on traitors and unbelievers, willed by Boreas | run-in
+- shifts:
+  - note 4215 | expository-analytical | wry aside | parenthetical shifts to a casual concrete detail, 'who ate too much chocolate', against the abstract term 'hedonistic'
+  - note 4215 | wry aside | expository-analytical | new sentence returns to plain declarative statement about Grover VI's traits
+  - note 4216 | field-label | encyclopedic-biographical narrative | heading 'Biography:' gives way to continuous past-tense prose
+  - note 4216 | encyclopedic-biographical narrative | lofty-dramatic narrative | diction turns elevated and metaphorical, 'cruel fate had in store to render the Empire asunder'
+  - note 4216 | lofty-dramatic narrative | encyclopedic-biographical narrative | returns to plain factual statement, 'He was responsible for saving...'
+  - note 4216 | encyclopedic-biographical narrative | present-tense reportage | tense shifts from past to present, 'And now... are attempting'
+  - note 4216 | present-tense reportage | prophetic proclamation | sentence turns exclamatory and threatening, addressing traitors directly and invoking Boreas
+- registers: expository-analytical; wry aside; field-label; encyclopedic-biographical narrative; lofty-dramatic narrative; present-tense reportage; prophetic proclamation
+- whole: This place holds notes in several distinct registers that sit close together with little or no break between them: note 4215 runs a plain analytical exposition of motive with one wry parenthetical aside folded into a single sentence, while note 4216, framed as a wiki entry, moves from terse field-labels through plain past-tense biography into elevated dramatic language, then a present-tense turn, and finally an exclamatory proclamation, all inside one continuous paragraph.

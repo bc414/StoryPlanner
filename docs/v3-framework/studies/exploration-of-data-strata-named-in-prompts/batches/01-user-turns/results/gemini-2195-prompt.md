@@ -1,0 +1,5 @@
+- sources:
+  - my character (wartime Gilded Trust and post-war Gilded Trust in the debate with Applejack), and my story's trajectory of exposing the Rockefeller and Canterlot collaborators | the author's own stated design for the story; the model should take it as the intended meaning of the plan, correcting its earlier reading of Gilded Trust and the collaborators | I envision war time Gilded Trust as what Trump promised to deliver; my story's trajectory argues that they should be exposed as traitors | referred-to
+  - the author's own read of the current situation (the West not intervening in Ukraine out of fear of escalation and comfort) | a premise stated from the author's own impression, seemingly held provisionally and put to the model to test against European views | Currently it seems like the West will not intervene in Ukraine | first-named
+- order:
+- about: The author corrects and clarifies how their Gilded Trust character and the story's political arc map onto real US politics, then turns to real-world questions about whether Western non-intervention is only an American view and about Poland's stance and public mood from 2022 to 2026.

@@ -1,0 +1,6 @@
+- sources:
+  - My code, the pasted StoryFileService C# class | the material to read and analyze to explain why the Culled Prompt lacks thread notes and to find any other differences | Above is my code | first-named
+  - Prompt, the output of GetOptimizedContextForAI | one side of the comparison; the version that includes notes attached to StoryThreads and the reference for what Culled Prompt lacks | Prompt comes from GetOptimizedContextForAI | referred-to
+  - Culled Prompt, the output of GetOptimizedContextForAINew | the other side of the comparison; the version the user says is missing thread notes and possibly other content, to be checked against the code | Culled Prompt comes from GetOptimizedContextForAINew | referred-to
+- order:
+- about: The user pastes their C# export service and asks the model to explain from the code why the Culled Prompt output drops notes attached to StoryThreads and to identify anything else it omits compared with the original Prompt output.

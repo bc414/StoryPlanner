@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | proposes possible rights or reforms peasants might gain under Verany's six-month rule | "What would be the rights or reforms for the peasants during Verany's six months?"
+  - analyze | asks for an analysis of the rest of the described political timeline (Gerad's rise and rule, the empire's collapse, the nobles' retreat) | "give an analysis on the rest"
+- supplies:
+  - material, worldbuilding timeline | holds, a condensed political history: Gerad's pre-972 rise via a peasant power base and bourgeois alliance, his 972-980 exploitation of nobles and peasants and token bourgeois reforms, the 978 imperial collapse, Verany's 980 revolt, beheading of Gerad, and the nobles' subsequent retreat and reconquest | how much, several paragraphs summarizing roughly a decade of events
+- shaping:
+- openness: Leaves both asks open: it does not name candidate reforms or an analytical angle, instead inviting the model to originate the peasant rights/reforms and to construct its own analysis of the broader scenario.
+- subject: Worldbuilding for a fictional kingdom's revolutionary transition, focusing on peasant reforms and political fallout after a ruler's overthrow

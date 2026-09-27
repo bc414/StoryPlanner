@@ -1,0 +1,4 @@
+- sources:
+  - Tall Tale | treat as the established story in which Mali and Fluttershy first met (Fluttershy at the front, then caring for animals and POWs); the model should build the scene on this backstory | Mali and Fluttershy would have met in Tall Tale | referred-to
+- order:
+- about: The user corrects and adds to the model's suggested scene by supplying story backstory on how Mali and Fluttershy met in Tall Tale, and adds that the changelings Fluttershy rehabilitates also have fangs.

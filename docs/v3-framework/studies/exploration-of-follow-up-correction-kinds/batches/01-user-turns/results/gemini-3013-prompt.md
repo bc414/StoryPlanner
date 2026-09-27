@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Gemini Code Assist offers a system-instructions option like AI Studio's playground, without disputing anything in the model's mapping of Google's tools.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model named Réni's father being beaten by the petty lord as his foundational wound and built the psychology on it; the user says the true core wound is Réni leaving Vinovia for Verany's republic, finding poseur hustlers instead of gentlegriffs, and returning humiliated | "I think his true core wound is when he left Vinovia to join Verany's republic" | stated as the user's own view, softened by granting the father scene is interesting and significant, then flatly replacing it
+  - which material was drawn on | The model built the reanalysis from the father-beating note and other notes but not the v1 archive material on Réni's Verany episode; the user directs it to review that part of v1 if it is not already in context | "Review that part of v1 archive if not already in context" | a direct instruction to go to a different source, conditional on whether it was already loaded
+- about: The user redirects the reanalysis of Réni's psychology by naming a different core wound, his disillusionment at Verany's republic and humiliated return home, and asks the model to consult the v1 archive and redo the analysis.

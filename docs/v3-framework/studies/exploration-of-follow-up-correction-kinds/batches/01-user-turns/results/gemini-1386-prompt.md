@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model took Oblivion to be only a threat or villain title that names the danger, and went looking for other titles that pun on the solution. The user says Oblivion already carries the subversion: readers expect Applejack to declare war or destroy, and the chapter instead gives the tribe economic purpose as the cure for oblivion. | "I imagined the reason Oblivion is subversive is because the reader expects Applejack to have to declare war or destroy" | Flat restatement of the intended design, with the reasoning laid out. No irritation and no explicit 'you got this wrong'.
+- about: The user restates how they meant the title Oblivion to work, as a subversion of war expectations resolved by economic purpose, which corrects the model's framing of it as merely a threat title.

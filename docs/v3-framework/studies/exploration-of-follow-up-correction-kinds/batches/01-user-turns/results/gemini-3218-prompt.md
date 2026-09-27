@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of AoE3 as given and asks new questions about where AoE4 fits, whether it succeeded, whether the AoE2 modder-made expansions did better, and whether this was all a post-WoW return to roots, adding their own experience with the AoE4 demo.

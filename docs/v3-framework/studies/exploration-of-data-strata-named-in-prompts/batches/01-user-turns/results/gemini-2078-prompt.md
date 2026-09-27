@@ -1,0 +1,5 @@
+- sources:
+  - these elaborate story plans | the author's current planning, which the model is to build on when suggesting more early seeds; made as the fix for the failed first draft | I made these elaborate story plans because | referred-to
+  - my first naive attempt of writing the story | past draft the author was unhappy with, since it explained the ideas in big blocks; treated as a rejected approach, not to be repeated | led to me trying to explain the stagnation of harmony and harmonic capitalism in big blocks in chapter 2 and I didn't like it | first-named
+- order:
+- about: The user explains that their detailed story plans came from dislike of an earlier draft that dumped ideology in big blocks, and asks what other seeds to plant early to hook readers and whether the planned approach is the right one.

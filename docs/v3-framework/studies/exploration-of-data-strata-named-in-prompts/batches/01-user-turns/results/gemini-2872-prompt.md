@@ -1,0 +1,4 @@
+- sources:
+  - the author's own recollection of the timeline around Luna's banishment ("I believe at the time of Luna's banishment") | offered as a hedged premise from memory for the model to build on, held provisionally rather than as settled fact | I believe, around 100 years, perhaps | first-named
+- order:
+- about: The user proposes and floats further worldbuilding ideas for Celestia and Luna (friendship with Grover III, a stable relationship with Torch, a roughly century-long co-rule with Luna's night-time monster-slaying before banishment) and asks the model to consider them.

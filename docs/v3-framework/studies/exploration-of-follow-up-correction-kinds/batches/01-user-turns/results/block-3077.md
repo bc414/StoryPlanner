@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out the next task, finding legacy terms from the first session that don't fit the materialist framework, and asks the model to first define the current methodology for ratification or correction, and to search the MCP server for context rather than assume.

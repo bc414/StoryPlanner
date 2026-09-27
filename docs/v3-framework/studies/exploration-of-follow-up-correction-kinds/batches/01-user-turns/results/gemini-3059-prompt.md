@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | The previous answer was a terse structured JSON outline; the user wants a thorough, conversational prose analysis of Chrysalis's evolution instead | "Answer like a conversation response" and "Give a thorough analysis" | flat instruction restating the request with the wanted format, with no reference to the earlier answer, no apology and no stated reason
+- about: The user re-asks for an analysis of how Chrysalis's characterization and motivations developed across the story plans, and specifies a full conversational answer in place of the JSON outline.

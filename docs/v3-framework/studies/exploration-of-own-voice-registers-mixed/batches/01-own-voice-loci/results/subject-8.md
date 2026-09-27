@@ -1,0 +1,16 @@
+- passages:
+  - note 4047 | present-tense plot synopsis | third-person present tense, chained clauses of sequential plot beats | Henri's rise among the Lionesses, his self-imposed restraint, and Fleur's effect on them | apart
+  - note 4182 | direct-address recap | second-person 'you mentioned', evaluative follow-up sentence | crediting the 'poser thanks to propaganda' idea and its effect on Henri's hatred | apart
+  - note 4182 | headed analytical breakdown | bulleted headers (Backstory/The Shift/The Projection), third-person reasoning moving from 'probably' to flat statement | the psychological origin of Henri's posing and its projection onto changelings | apart
+  - note 4182 | aphoristic parallel closing | two short parallel declarative sentences contrasting 'fake' and 'real' | summarizing what the supremacy group vs. Coltbert reforms gave Henri | apart
+  - note 4368 | reflective irony note | single sentence naming an 'irony or interesting angle', third person | Henri swapping one bigotry for another | apart
+  - note 4457 | imperative directive | 'Need X to...' construction, exclamation mark | instructing how Chrysalis's mimicry of Herzlander speech should read to Henri | apart
+  - note 4457 | declarative explanatory lore | plain third-person declarative statement, no directive verb | describing the supremacist group's anti-elite, manipulated character | apart
+- shifts:
+  - note 4047 | | |
+  - note 4182 | direct-address recap | headed analytical breakdown | drops the 'you' address for bulleted headers and third-person subject reasoning
+  - note 4182 | headed analytical breakdown | aphoristic parallel closing | drops bullets/headers for two short parallel declarative sentences
+  - note 4368 | | |
+  - note 4457 | imperative directive | declarative explanatory lore | drops the 'Need...to' construction and exclamation for a plain declarative statement
+- registers: present-tense plot synopsis; direct-address recap; headed analytical breakdown; aphoristic parallel closing; reflective irony note; imperative directive; declarative explanatory lore
+- whole: Across the four notes the subject holds several distinct registers, with two notes (4047, 4368) each staying in a single register throughout while the other two (4182, 4457) shift registers internally, and in every case the shift lands at a clean paragraph or sentence break rather than blending inside one sentence.

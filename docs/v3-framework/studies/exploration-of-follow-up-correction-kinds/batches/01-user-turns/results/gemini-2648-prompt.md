@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's spooning and tail-drape example as given and asks it to fold that into a refined version of the Chasseur Doctrine, so this is a new instruction and not a correction.

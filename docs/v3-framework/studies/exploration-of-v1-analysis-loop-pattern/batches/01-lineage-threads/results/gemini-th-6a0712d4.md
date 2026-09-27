@@ -1,0 +1,10 @@
+- steps:
+  - author | challenge | demands the model confirm or deny a real-world political parallel and questions the model's reliability, invoking personal identity as stakes | opening message of the exchange
+  - model | self-critique | admits its own training is skewed toward Western sources before answering | opening of the response
+  - model | comparative analysis | separates what it calls a truthful parallel (economic exhaustion, performance-based legitimacy) from what it calls a Western-bias trope (the oppressed-populace cliche) | middle of the response
+  - model | divergence analysis | contrasts the story's invasion premise against how it characterizes real China's expansion strategy, proposing a different real-world analogue instead | middle of the response
+  - model | synthesis with craft advice | offers guidance on how to portray the antagonist faction so it avoids caricature, framing the conflict as a clash of two governance models | later in the response
+  - model | follow-up offer | proposes continuing by drafting a specific scene where a character defends the antagonist faction's achievements | closing line of the response
+- kept:
+- brought: The author brought a challenge to the model's objectivity, asking it to verify whether an already-established fictional faction (Chrysalis's Hive) truly parallels modern China, framing the request through their own Chinese-American identity.
+- loop: The author brings a demand for unbiased truth about a real-world parallel to existing worldbuilding, and the model returns a self-aware analysis plus craft suggestions and an open invitation to keep building — but nothing from this exchange was captured into the planning database.

@@ -1,0 +1,15 @@
+- passages:
+  - note 4166 | canon-citing analysis | declarative third-person claims citing specific episodes as evidence | Dash's ego/fame drive clashing with her loyalty instinct and the Wonderbolts' toxic culture, corrupted into a heroism complex | apart
+  - note 5806 | canon-citing analysis | citation of a specific canon episode followed by a general conclusion ("So...") | canon evidence that Dash's baseline character was never tribal | apart
+  - note 5806 | authorial story-summary | first-person possessive "my TLTT backstory", present-tense narrative summary | Dash's invented backstory friendships with griffon pilots and later respect for Trimmel | apart
+  - note 5826 | aphoristic thesis | broad declarative claim with no citation, sets up a contrast term | contrast between the competence wall and Dash's real frontier, the vulnerability wall | apart
+  - note 5826 | canon-citing analysis | "For example" transition, specific episode named as evidence | canon evidence that Faust withheld a competence-wall struggle from Dash | apart
+  - note 5826 | comparative theorizing | coined term "the Hasbro Mandate", cross-character comparison to Twilight | pattern of ego overtaking loyalty in later seasons, likened to Twilight's arc | apart
+  - note 5826 | authorial application | explicit naming of own work "TLTT", applies the theory to Dash's plot | how the Hasbro Mandate is shattered for Dash in TLTT as her loyalty shifts from Equestria to friends | apart
+- shifts:
+  - note 5806 | canon-citing analysis | authorial story-summary | first-person possessive "my TLTT backstory" appears, new paragraph, shift from citing canon to summarizing own invented plot
+  - note 5826 | aphoristic thesis | canon-citing analysis | "For example, in Wonderbolts Academy" introduces a specific episode as evidence for the prior general claim
+  - note 5826 | canon-citing analysis | comparative theorizing | naming of "the Hasbro Mandate" and comparison to Twilight shifts from single-episode evidence to a cross-character pattern
+  - note 5826 | comparative theorizing | authorial application | "So just as TLTT's Twilight..." names the author's own work and applies the pattern to Dash's arc
+- registers: canon-citing analysis; aphoristic thesis; authorial story-summary; comparative theorizing; authorial application
+- whole: These notes move across several registers—impersonal canon-citing analysis, an aphoristic thesis, comparative cross-character theorizing, and passages that name the author's own story directly ("my TLTT backstory", "TLTT's Twilight")—each shift marked by an explicit signal (a transition word, a coined term, or a story title) and standing apart at clear sentence or paragraph breaks rather than blending within a single sentence.

@@ -1,0 +1,6 @@
+- asks:
+  - check | confirm whether a proposed piece of character backstory/psychology logic holds: that by age 17 the character would already have realized the first ~9 years of her life were leading toward sexual abuse, and that this understanding means she shouldn't feel abandoned when "the Lord" leaves | marked by the stated claim followed by "right?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message states the claim about her realization and resulting emotional reaction and asks the model to confirm it with "right?"
+- subject: A fictional character's psychological timeline regarding childhood sexual abuse and a religious figure's ("the Lord") departure at age 17

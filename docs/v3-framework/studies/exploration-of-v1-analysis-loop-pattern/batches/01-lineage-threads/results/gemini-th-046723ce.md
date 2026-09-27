@@ -1,0 +1,10 @@
+- steps:
+  - author | request for grounding | asks for real-life pharmacology basis, prevalence, and regional black-market marketing for a story drug across named factions/cities | opening turn of the excerpt
+  - model | worldbuilding elaboration | supplies real-drug analogues, per-region marketing pitches and character-observation beats, and an economic-collapse mechanism tying the drug to the plot | reply to the opening request
+  - author | course correction | rejects the drug's outsourced (Tzinacatl) origin and redirects it to be based on in-house Jaeger training instead | second turn, after reading the elaboration
+  - model | revised elaboration | reworks the drug's origin as native Changeling neuroscience, offers a naming-convention table across languages, and updates how it fits into the tiered drug-mix composition | reply to the redirect
+  - author | side question | asks about the spelling difference between 'jaeger' and 'jäger' | third turn, after the revised origin is set
+  - model | linguistic explanation with recommendation | breaks down the umlaut/orthography rule, notes pronunciation differences, and recommends one spelling with an in-universe rationale for using both forms | reply to the side question
+- kept:
+- brought: The author brought an existing story element (the drug 'Additive A: The Blinder' and its place in a tiered black-market drug economy spanning named factions and cities) and pushed to refine its real-world basis, its in-world origin, and a related spelling convention.
+- loop: The author repeatedly brought a piece of established lore and either asked for it to be fleshed out or corrected its premise, the model produced expanded or revised worldbuilding options each time, and the author moved on to the next refinement without any of this exchange being captured back into the planning database.

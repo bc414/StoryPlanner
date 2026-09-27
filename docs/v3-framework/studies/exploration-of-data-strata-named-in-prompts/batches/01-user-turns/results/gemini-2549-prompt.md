@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumption that the backstory threads converge on chapter 1, saying instead that they are revealed in onion layers through the story to explain how the current situation came about.

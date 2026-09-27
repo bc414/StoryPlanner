@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares a YouTube link and asks how its ideas apply to their story themes and materialist worldbuilding, instructing that the reply be an original analysis rather than a mirror of the video, with no prior model response present to correct.

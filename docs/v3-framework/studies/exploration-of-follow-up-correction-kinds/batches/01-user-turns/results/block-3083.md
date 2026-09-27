@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's integrated methodology and tells it to go ahead with the triage audit and give its rationale for what should be scrutinized.

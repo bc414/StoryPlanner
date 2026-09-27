@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user praises the biology-based patriarchy synthesis as material for evolving their notes and asks a new follow-up question about the role of inheritance anxiety, property and lineage, without correcting anything.

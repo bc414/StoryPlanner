@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about how each of the Axis drugs was manufactured, without pointing the model at any particular body of material.

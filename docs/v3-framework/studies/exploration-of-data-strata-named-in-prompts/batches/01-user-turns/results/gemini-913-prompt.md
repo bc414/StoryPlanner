@@ -1,0 +1,4 @@
+- sources:
+  - the idea that they never died, they outgrew the nursery (the model's proposed backstory for the parents, with them alive and in New Mareland) | treat as agreed and build on it, while the user's own additions are put forward as questions and maybes | I think I agree with the idea that they never died | referred-to
+- order:
+- about: The user accepts the model's proposal that Applejack's parents are alive and left the nursery, floats a revision in which the family lived in Manehattan and later moved to New Mareland, asks the model to judge whether Apple family hostages would undercut the story's other themes, and suggests evacuating the family before the war as a source of resentment toward Celestia and Luna.

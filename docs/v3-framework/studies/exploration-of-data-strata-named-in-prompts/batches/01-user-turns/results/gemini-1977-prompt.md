@@ -1,0 +1,7 @@
+- sources:
+  - Claus Rosewing's canon backstory from the Griffonian Republic flavor text | review it and use it as one half of a synthesis with the story plan | review his canon backstory from the Griffonian Republic flavor text | referred-to
+  - my story plans' existing plan for his fate | use it as the other half of the synthesis, kept together with the canon backstory | synthesize with my story plans' existing plan for his fate | referred-to
+  - the author's own summary of Rosewing's arc (Kemerskai's ally and friend, broke over martial law, Robin Hood figure among rural northern Cloudburians, arrested for lawlessness) | treat as the given premise of his arc to build on, stated from the author's own memory of the plan | he was Kemerskai's ally and friend, broke with Kemerskai over martial law | first-named
+  - my present-day story (Applejack and Twilight speaking with Rosewing after Kemerskai) | the author's intended plan for where the reconciliation and cross-cultural empathy themes come out; a new plan element to be built toward, stated as what the author wants | in my present-day story, Applejack and Twilight speak with Rosewing after Kemerskai | first-named
+- order:
+- about: The user asks the model to make Claus Rosewing the character who explains the lathe and translator forging process, by combining his canon backstory with the existing plan for his fate, and sets up a present-day scene with Applejack and Twilight in which reconciliation and cross-cultural empathy come out.

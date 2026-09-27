@@ -1,0 +1,6 @@
+- asks:
+  - classify | asks whether Air China is a budget or premium airline carrier | "Is air China budget or premium?"
+- supplies:
+- shaping:
+- openness: Asks for a choice between two named options, budget or premium.
+- subject: Whether Air China is a budget or premium airline

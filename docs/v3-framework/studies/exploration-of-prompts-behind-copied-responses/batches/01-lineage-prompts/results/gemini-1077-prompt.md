@@ -1,0 +1,7 @@
+- asks:
+  - identification | asks the model to name/identify a particular union hall in NYC known for being infamous | "What was the infamous union hall in NYC"
+  - explanation | asks the model to explain the historical background behind that union hall | "what was the history behind it"
+- supplies:
+- shaping:
+- openness: Open — the message does not name which union hall it means or lean toward any candidate, and does not ask the model to verify a stated fact; it simply poses an identify-and-explain question.
+- subject: An infamous union hall in New York City and its history

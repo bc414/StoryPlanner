@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn does not engage with or correct the model's Referendum/demographics analysis at all; instead it pivots to unrelated worldbuilding about New Mareland's parliamentary system, its colonial founding waves, and Wingbardy's political history, laying out new lore and floating a self-revision of their own earlier idea (that Beakolini shouldn't be a 1930s-Mussolini allegory) rather than disputing anything the model said.

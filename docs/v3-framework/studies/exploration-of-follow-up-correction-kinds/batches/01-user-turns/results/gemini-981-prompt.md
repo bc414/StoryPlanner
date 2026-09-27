@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's petrodollar account as given and asks two forward-looking follow-ups, whether solar displacing oil will change the arrangement and what US fracking output above OPEC's means for it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Victorian-morality argument and sets a new research task: review Explorers of Memories, trace the lineage and prominence of the knotting trope, and tie it back to the broader discussion.

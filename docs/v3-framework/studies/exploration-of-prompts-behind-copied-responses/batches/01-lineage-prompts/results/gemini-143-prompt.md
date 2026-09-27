@@ -1,0 +1,9 @@
+- asks:
+  - analyze | requests analysis of how the supplied Chapter 2 material fits with existing story themes | "Analyze how this fits into existing themes"
+- supplies:
+  - dialogue/roleplay draft | an exchange about a soldier promoted to general, a town's independent defense decisions, and Thunderbolt Sentinel's rejected border-wide trench plan built locally instead | several paragraphs of dialogue
+  - story excerpt | a scene of Applejack meeting Star Energy's CEO Comet Shine, who explains his company's non-exploitative business model and his history with Flim and Flam | a short dialogue passage
+  - worldbuilding notes | Star Energy's tech and role in the war, and an extended history of Aquileia's earth pony serfs, noble-controlled mechanization, the University of Pridea's research on earth pony magic and industry, and how it led to Tall Tale becoming a tech/military hub | several pages of lore notes
+- shaping:
+- openness: Leaves the analysis open-ended, asking only that the model assess fit with \"existing themes\" without naming those themes or a preferred conclusion.
+- subject: Chapter 2 planning material for a My Little Pony-based war/industrial story, covering town defense politics and Aquileia/Star Energy earth-pony-magic-and-industry lore

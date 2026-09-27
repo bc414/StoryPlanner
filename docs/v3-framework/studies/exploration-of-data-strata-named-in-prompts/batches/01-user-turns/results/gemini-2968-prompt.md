@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short practical question about how to see a word count in Notepad++, without pointing the model at any body of material.

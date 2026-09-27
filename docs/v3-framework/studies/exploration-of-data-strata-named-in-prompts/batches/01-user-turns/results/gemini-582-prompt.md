@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author pushes back on the model's taste-test audit idea by stating how their setting works: changelings sense emotion, trained Jaegers can detect lies, and demotion to level -1 battery status is openly applied with no false accusations, unlike the KGB or Gestapo.

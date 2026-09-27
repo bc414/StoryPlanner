@@ -1,0 +1,4 @@
+- passages:
+  - 9 | statement about the subject | identifies Friedrich as a conscript who attacked Hans Kessel, with Fluttershy rehabilitating him (wording is a clipped fragment, so the exact relation is left as written) | none | a single short descriptive fragment with no dates, no scene wording and no sequence
+- sequences:
+- whole: The subject has a single one-line note that describes Friedrich as a conscript who attacked Hans Kessel and is rehabilitated by Fluttershy, with no date and no scene detail.

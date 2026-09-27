@@ -1,0 +1,32 @@
+- passages:
+  - 5178 | statement about the subject | the city's name is a play on a real Algerian coastal municipality, with the meaning of "Aïn", and it is the capital of Zumidia | none | plain explanatory statements of origin and status
+  - 5178 | reference to the source canon | in EaW the hippogriffs strike first and destroy the Storm King's armada in the battle of Ain Trotgourait | none | contrast with the author's own version, "In EaW"
+  - 5178 | scene beat without a year | the warlords brutally sack the city while preparing to attack Mount Aris | none | planned event, "I am planning on having"
+  - 5178 | scene beat without a year | after the battle the hippogriffs take over and give aid to the ruined city's zebras | none | planned event, "After the battle"
+  - 5179 | scene beat without a year | Celestia says Tempest Shadow (Fizzlepop) is not welcome in Equestria because she is a warlord | none | someone says something, a stated refusal
+  - 5179 | scene beat without a year | Twilight is shattered that her mentor refuses friendship and will not give up on Fizzlepop after promising redemption | none | reaction and decision, "She still believes"
+  - 5179 | scene beat with a year | Twilight shuts down the School of Friendship and spends a year in Ain Trotgourait with Fizzlepop, Zecora and Pinkie doing top-down charity work to prove Celestia wrong | a year | "So Twilight shuts down..." span of a year
+  - 5188 | scene beat without a year | Zecora's zebra village in Zumidia, where she was harmonic chieftain, is destroyed by Chirropterra as they prepare for Nightmare Moon's return | none | backstory event, past tense
+  - 5188 | scene beat with a year | Zecora travels to the Everfree Forest on a suicide mission to stop Nightmare Moon, arriving a few weeks before 1000 ALB | a few weeks before 1000 ALB | dated arrival
+  - 5188 | statement about the subject | explanation that this is why Ponyville only recently began seeing Zecora visit and hide, tying her to Bridle Gossip | none | "That's why..." explanatory link to canon
+  - 5188 | scene beat without a year | thanks to the Mane 6 Zecora has nothing to do, and decides to stay in the Everfree Forest for its magical ingredients, having no home to return to | none | decision at a moment, "decided to stay"
+  - 5188 | scene beat without a year | Twilight watches Zecora stay behind in the smoldering ruins of Ain Trotgourait and sees what applied Harmony looks like | none | someone watches and realizes, "When Twilight watches"
+  - 5188 | statement about the subject | Zecora's method is described: combining Hippogriff capital with Zebra labor to build water filtration, hospitals and defenses, fixing the material conditions that cause wars rather than teaching friendship by trust falls | none | interpretive description of what she is doing
+  - 5188 | scene beat without a year | Zecora stays in Ain Trotgourait permanently, leaving the Everfree Forest | none | a decision and move, "permanently"
+  - 5171 | scene beat without a year | Pinkie accompanies Twilight in Ain Trotgourait, remembers every zebra's name and greets them on the streets to spread smiles | none | actions written as things the story could show
+  - 5171 | statement about the subject | this worked as genuine morale because the hippogriffs ensured military protection and the zebras are rebuilding steadily | none | explanation of why, "because"
+  - 5159 | thematic commentary | general real-world critique of top-down Western NGO charity, which destroys local agriculture and creates dependency and defenselessness | none | general claim about the West, not tied to a moment
+  - 5159 | statement about the subject | the 1007 ALB expedition to Ain Trotgourait is framed as the ultimate critique of the Western NGO complex | 1007 ALB | interpretive framing, "is the ultimate critique"
+  - 5159 | scene beat with a year | Twilight uses her Alicorn privilege to magically brute-force hospitals and water systems, bypassing Zebrican capacity, creating a defenseless "glass house" that subsidizes the later Colthage and Chiropterra occupation | 1007 ALB | action in the expedition, dated by the preceding framing
+  - 5318 | statement about the subject | Twilight and Fizzlepop treat the Zebricans as subjects to be acted upon rather than equals, imposing Harmony from outside | none | assessment of attitude, no moment
+  - 5189 | scene beat with a year | after a year Twilight burns out, retreats to her lab and devises magical systems to automate her water purification spells using top-grade Crystal Empire crystals | a year | "burned out after a year"
+  - 5189 | scene beat without a year | the moment the great war starts, the changeling submarine blockade cuts off the crystals and the city's water is toxic again | none | anchored to the start of the great war, "But the moment"
+  - 5172 | scene beat with a year | Chirropterra and Colthage occupy the city in the North Zebrican War, which starts during the Great War | at some point during the Great War | outline of an event with a span
+  - 5172 | scene beat with a year | by the end of the Great War the hippogriffs sign a white peace with Colthage, leaving the city occupied but not a warzone | by the end of the Great War | "By the end of the Great War"
+- sequences:
+  - 5178 | 2 beats: the sack of the city by the warlords, then the hippogriff takeover and aid | "After the battle"
+  - 5179 | 3 beats: Celestia's refusal, Twilight's shattered reaction, then shutting the School and going to the city for a year | order of events with "So"
+  - 5188 | about 5 beats: village destroyed, journey to the Everfree Forest, decision to stay there, Twilight watching Zecora in the ruins, Zecora moving permanently to the city | past-tense backstory order, "Thanks to", "decided to stay", then later "permanently"
+  - 5189 | 2 beats: Twilight's burnout and automated water systems, then the blockade cutting off the crystals | "after a year" then "But the moment the great war started"
+  - 5172 | 2 beats: occupation during the Great War, then the white peace by its end | "at some point during" then "By the end of"
+- whole: Planning notes on Ain Trotgourait as a city in Zumidia: its name origin, its planned sacking and occupation, Twilight's year of top-down aid there, Zecora's and Pinkie's roles, and the author's critical commentary on charity and dependency, mixing planned events with interpretive statements.

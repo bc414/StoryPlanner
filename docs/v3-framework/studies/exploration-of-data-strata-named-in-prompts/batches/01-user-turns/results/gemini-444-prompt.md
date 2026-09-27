@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether turning on Canvas together with deep think, and asking for a deep analysis in the prompt, lets the model output more tokens so the first deep think response is not truncated.

@@ -1,0 +1,24 @@
+- asks:
+  - analyse | make sense of what data is stored in each database field/entity type, using the markdown export as the key | "Use the TheLionessOfTallTale.db.md to understand what kind of data I am storing in the various fields"
+  - explain | lay out what organizational problem is being solved, why it matters, and how professional authors handle it | "please articulate what kind of problem we are trying to solve, why, and what do professional authors do"
+  - advise | recommend how to organize/arrange the fabula's notes, payloads, and synopses so it best supports writing the syuzhet | "how should I arrange my fabula?"
+  - brainstorm | identify further nuances, beyond separating world-truth from character-perception, that should inform the organization | "What other nuances besides epistemological gaps?"
+  - analyse | assess the gap between the current organizational patterns (e.g. mixed notes under Chrysalis-related entities) and what would be most beneficial | "I want to understand what is the gap between my current organizational patterns and what would be most beneficial"
+- supplies:
+  - source code | GitHub source code of the story planner application (EF Core-based) | an attached file/codebase
+  - database export | GetMarkdown output for TheLionessOfTallTale.db, showing the fields and stored data of the planner's database | an attached document
+  - best-practices guide | "Minerva Master Scrolls," a story-writing best-practices reference | an attached file
+  - screenshot - character window | Applejack's CharacterWindow showing NoteViewer notes and PlotPointCharacter payloads sorted by chapter order | one image
+  - screenshot - plot point window | a PlotPointWindow showing connections, payload text fields, synopsis, and other plot point fields | one image
+  - screenshot - codex entries | view showing codex entries functioning as a catch-all across different entity categories | one image
+  - system instructions | uploaded Gemini/AI Studio system instructions defining desired analysis style and the intended worldbuilding approach | an attached file
+  - prequel-sequel roster | list of planned prequel-sequel POV narrators and the backstory/characters each will cover (Reni & Minette, Applejack's parents, Mali & Luna, Henri & Fleur, Kemerskai, Cadance & Shining Armor, Blueblood, Chrysalis, Celestia) | a short list
+  - worked example | description of how notes about Queen Chrysalis and Aquileia are currently split across the "Queen Chrysalis" character, "Chrysalis's Economic Scheme" codex entry, "The True Actions and Motivations of Queen Chrysalis" story thread, and "The Predator's Dilemma" codex entry | a paragraph
+- shaping:
+  - order the reply: first articulate the underlying problem, why it matters, and professional practice; then address how to arrange the fabula; then address further nuances | "First, please articulate... Then, how should I arrange my fabula?"
+  - treat the Minerva Master Scrolls as flexible guidelines rather than strict rules | "as guidelines (not hard rules but guidelines)"
+  - give extra weight to considerations specific to the geopolitical fantasy epic genre beyond what the Master Scrolls cover, such as epistemology | "there are some things specific to my chosen genre...that may want more emphasis beyond the Minerva Master Scrolls"
+  - fully read and use every supplied source/attachment before answering | "Fully read all provided data sources and attachments before answering"
+  - use reasoning loops and verify its own work rather than shortcut the analysis | "Using reasoning loops and check your work. Do not take shortcuts."
+- openness: The message leans toward two hypotheses it names for the model to weigh in on and build from—splitting entities so each tracks one orthogonal storytelling element, and separating world-truth from character-perception (epistemology)—while leaving the overall organizational scheme and any additional nuances open for the model to propose.
+- subject: How to reorganize the notes, entities, and payloads in a custom story-planner database (the fabula) so they best support drafting a third-person-limited, multi-book geopolitical fantasy epic (the syuzhet).

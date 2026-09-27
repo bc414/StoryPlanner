@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own explanation for the early head-hopping, that they deleted their notes and had no external record of the gap between what a character knows and what is true in the world, and asks whether a full TLTT world bible in their planner app would help them write in third-person limited, leaving the model's closing question unanswered.

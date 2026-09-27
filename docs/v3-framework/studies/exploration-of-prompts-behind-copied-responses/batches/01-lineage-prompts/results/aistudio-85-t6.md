@@ -1,0 +1,11 @@
+- asks:
+  - propose-and-validate hypothesis | asks whether the changeling love harvesters can be reframed as advanced, Aquileian-style spell-matrix tech that underperforms because of unstable extracted (non-consensual) love inputs rather than crude workmanship | "What if the changeling love harvesters are NOT crudely stamped and inefficient spell matrices?"
+  - analogy-check | offers a real-world industrial-farming parallel (mistreated chickens, cortisol, salmonella, hormone compensation) and implicitly asks the model to confirm/apply it as the logic behind the bad-input theory | "The real world parallel is chickens treated in the worst squalor conditions..."
+  - character-reinterpretation propose | asserts and seeks confirmation that Hans Kessel's demotion to drugged combat engineer stemmed from his crystal-extraction company being made obsolete by this tech paradigm shift and his subsequent burnout, not personal incompetence | "Therefore, Hans Kessel getting demoted to a drugged combat engineer is not because he was incompetent."
+- supplies:
+  - worldbuilding lore recap | about the changeling love-harvester technology timeline: crude 986 crystals versus Chrysalis's 1011 operation using griffon contractors paid in Skyfall who copied Aquileian spell-matrix manufacturing | a paragraph
+  - real-world analogy | about industrial chicken farming: squalor conditions causing cortisol/salmonella/broken bones and reduced meat output, offset by hormones that inflate size but cut nutrition | a paragraph
+  - character backstory detail | about Hans Kessel: his hive-based crystal-extraction company being outcompeted, his demotion to a drugged combat engineer, and his burnout trying to pivot | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it names: the message poses its worldbuilding revision and character reinterpretation as 'what if' and 'therefore' statements that already assert the proposed explanation (bad inputs over crude tech; industry obsolescence over incompetence), inviting confirmation or elaboration rather than leaving the question open.
+- subject: Reworking the lore behind changeling love-harvester technology (via a chicken-farming analogy) and using it to reinterpret Hans Kessel's demotion backstory

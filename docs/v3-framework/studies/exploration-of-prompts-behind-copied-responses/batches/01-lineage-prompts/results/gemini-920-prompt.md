@@ -1,0 +1,7 @@
+- asks:
+  - analyze | examine and give feedback on the backstory concept describing Chrysalis's shell-company scheme | "Please analyze my backstory"
+- supplies:
+  - concept summary | a one-sentence description of Chrysalis operating Skyfall shell companies to recruit ambitious/craven Equestrians as CEOs building industry in stagnant Equestria, who become her collaborators once war begins | a single sentence
+- shaping:
+- openness: Open — the message simply asks the model to "analyze" the backstory without naming any particular angle, concern, or preferred conclusion.
+- subject: Chrysalis's Skyfall shell-company scheme to recruit future wartime collaborators in Equestria

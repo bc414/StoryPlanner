@@ -1,0 +1,5 @@
+- sources:
+  - Faust | one candidate pole for what counts as canon ground truth; the user asks whether JWAB sits on this side, with no stance taken yet | Faust vs Hasbro Mandate axis for what is used as canon "ground truth" | referred-to
+  - Hasbro Mandate | the other candidate pole for canon ground truth; the user asks whether JWAB sits on this side, with no stance taken yet | Faust vs Hasbro Mandate axis for what is used as canon "ground truth" | referred-to
+- order:
+- about: The user asks where the fanfic JWAB falls between two named canon authorities, Faust and the Hasbro Mandate, or whether it lies outside both, as a follow-up question rather than an instruction to draw on any material.

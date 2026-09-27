@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - word choice against intended theme | the term Dominion for the Magic/Tyranny slot, which the model framed as ownership and subjugation in a feudal/imperial mould, is treated as not capturing the intended sense of seizing control or fearing loss of control (Nightmare Moon, Celestia and Twilight) | "Any more alternatives to dominion?" and "something that relates more to Nightmare moon taking control" | softly, as a request for other options with a fallback offered ("Domination"), no explicit statement that Dominion is wrong and no reason given beyond the theme wanted
+- about: The user asks for other words in place of Dominion for the Tyranny version of Magic, steering toward the theme of taking control and fear of losing it, and names a fallback if none turn up.

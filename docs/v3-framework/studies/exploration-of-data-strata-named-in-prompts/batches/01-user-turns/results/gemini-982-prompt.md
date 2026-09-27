@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is reasoning aloud about their story's world, saying Celestia could plausibly keep predators out through closed immigration and sheltered ponies but could not keep foreign goods out because her outdated paradigm missed their importance, without pointing the model at any body of material.

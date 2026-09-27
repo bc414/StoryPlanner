@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up design question about whether the proposed "husk state" should be the default condition for non-jaeger drones in the pre-industrial petty war era, without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is thinking aloud about how to structure Layer 4 planning for characters with multiple or orthogonal arcs, proposing a tiered scheme of protagonists, secondary narrators, mentor OCs, static antagonists and changing antagonists, and asking the model to articulate the differences and structural consequences for each tier, including the effect of moving some characters to their own prequels.

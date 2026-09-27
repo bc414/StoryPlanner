@@ -1,0 +1,5 @@
+- sources:
+  - the new framework | the thing being tested; apply it to the pasted scene | test the new framework on | referred-to
+  - Scene 12.17 plot point (synopsis, characters, Mali analysis) | the test material the framework is to be run on, given in the turn itself | Here is a focused plot point | first-named
+- order:
+- about: The user pastes a scene plan entry (Scene 12.17 with its synopsis and Mali analysis) and asks the model to test the newly agreed payload framework on it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Arc 3 structural analysis to ask a fresh question about whether any epic works use dense materialist worldbuilding while only sparingly showing backstory, expanding it through prequel-sequels.

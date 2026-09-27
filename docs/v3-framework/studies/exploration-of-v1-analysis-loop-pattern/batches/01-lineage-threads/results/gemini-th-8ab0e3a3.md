@@ -1,0 +1,11 @@
+- steps:
+  - author | proposes scene beat | Trimmel's confusion over VOPS intel vs. battlefield ruthlessness, Applejack's radio-quote rebuttal, and Trimmel's parting line 'do not make them look away' | opening message of the exchange
+  - model | names the device | labels the exchange as built on irony and calls it the pivot of the arc | opening of the response
+  - model | breaks down the setup | lays out three contradictory readings of Applejack (sheep/wolf/shepherd) with a drafted line of Trimmel's confused dialogue | first section of the response
+  - model | drafts the rebuttal scene | writes out Applejack's quoting of Trimmel's own radio line back at him, framing it as a kept promise rather than a threat | second section of the response
+  - model | interprets thematic contrast | contrasts rule-by-trust against Chrysalis's fear and Celestia's stagnation, drafting Trimmel's full advice speech | third section of the response
+  - model | links to prior motif | ties the 'do not make them look away' line to the earlier nightmare/Apple Bloom material and the stagnation temptation | fourth section of the response
+  - model | extends to closing image | describes a payoff scene of Apple Bloom meeting her eyes and Applejack accepting the uniform/title | fifth section of the response
+- kept:
+- brought: The author brought a worked-out scene proposal pairing Trimmel's confusion over conflicting intel with a callback rebuttal and a thematic parting line.
+- loop: The author supplies a compact scene idea with its own dialogue and thematic logic, and the model expands it into a fuller staged sequence with drafted lines and cross-references to other story material, but none of this elaboration is registered as a new note in the planning database.

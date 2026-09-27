@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain, in general technical terms, how to design an AI/LLM-based system for semantically analyzing and searching stories, what such a system is called, and whether it (with or without LLMs) already exists, without pointing to any specific body of data or material for the model to draw on.

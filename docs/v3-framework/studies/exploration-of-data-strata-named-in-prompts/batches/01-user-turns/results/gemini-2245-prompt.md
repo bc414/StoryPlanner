@@ -1,0 +1,6 @@
+- sources:
+  - existing lore in NotebookLM | check the newly generated ideas against it, as a canon-consistency step after brainstorming | run these ideas against my existing lore in NotebookLM | referred-to
+  - Notebook attachment in Gemini Chat | draw on it, targeted to a specific area via retrieval, as the lore grounding while generating new ideas | Chat with Notebook attachment ... targetting a specific area, so RAG is good | referred-to
+  - real world | bring in as outside input and inspiration for the new ideas | getting input from real world and creativity | referred-to
+- order:
+- about: The user checks their understanding of a two-step workflow: brainstorm new ideas in Chat with a Notebook attached, then test those ideas against the existing lore in NotebookLM.

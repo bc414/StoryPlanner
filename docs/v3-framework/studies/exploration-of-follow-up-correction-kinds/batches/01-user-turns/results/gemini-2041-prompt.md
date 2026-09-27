@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether other axes besides demographics also have mutual-exclusivity friction, extending the discussion rather than disputing the model's explanation.

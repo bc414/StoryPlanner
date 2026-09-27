@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model filed the 'losing her soul and becoming evil' line under a single destination, as earlier-scene content leaking into this note (likely belonging to the machine gun scenes). The user says it belongs in two places at once: an earlier-scene WI+En note and a current-scene La+T note about the reader's updated opinion of Applejack. | 'actually seems like the perfect candidate of a statement that is BOTH' | put tentatively as a reframe. It opens with 'actually seems', then wavers through self-questions about whether it is really a La+P note or character change versus revelation, and ends by saying it shows the need for precise mode text.
+- about: The user mostly designs a new Gardener Mode, with its permissions and display text per mode, and closes by reworking how the model classified one Applejack line as belonging to both the earlier scene and the current one.

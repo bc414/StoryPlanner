@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | a full export of the user's fiction plan, said to be 142,430 words long | whole document, but its content was not captured (shows as 0 chars/placeholder)
+- shaping:
+- openness: The message contains no accompanying instruction, question, or request beyond the attachment placeholder itself, so nothing about the intended task or answer is stated.
+- subject: An attached plan-export document with no message text captured

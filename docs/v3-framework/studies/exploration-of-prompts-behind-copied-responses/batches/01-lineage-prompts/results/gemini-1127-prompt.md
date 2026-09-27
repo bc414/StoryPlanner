@@ -1,0 +1,7 @@
+- asks:
+  - propose-for-feedback | asks whether reworking the defiance scene so the protagonist consults Henri and commanders like the Wonderbolts to decide a strategy, rather than acting alone on heroism/delusion, works better | "Maybe instead of...she will talk with Henri and the other commanders...and they'll decide a strategy?"
+  - clarify-and-check-rationale | states that the 'never give up' principle is meant to explain why Applejack insists on taking a machine gun despite being unsuited to command, gets overrun and buried, and is saved by Twilight, offering this as the motivating logic for that beat | "I was leaning into just principle of not giving up to explain how AJ insists..."
+- supplies:
+- shaping:
+- openness: Leans toward two named revisions it proposes itself — a commander strategy session replacing the solo defiance speech, and a 'never give up' motive for Applejack's machine-gun stand — rather than leaving the direction fully open.
+- subject: Revising a climactic war-council scene and a companion character's reckless-but-principled last stand in a My Little Pony-style story

@@ -1,0 +1,7 @@
+- sources:
+  - The model's synthesis of Celestia's arc (the elements being 'gone', Celestia packing archives, disharmony tied to her magic) | treated as partly wrong; the user rejects the elements-gone framing, the archive-packing and the harmony-drain link as plot armor, and asks which alternative to use | I don't think the elements of harmony being "gone" | referred-to
+  - The user's own account of their story (the elements are the Mane 6, the purifying magic cannot be used for war, Celestia stands in Manehattan watching the smog and raising the sun in shock) | treated as the true state of the story, correcting the model | the elements are the mane 6 but ths magic that purified Luna | first-named
+  - Canon (the published show), regarding Luna and the weight of nightmares | reference point: Luna managing nightmares is 'close to canon' and a fair parallel, but extending it to Celestia and harmony is a stretch | which is definitely close to canon | referred-to
+- order:
+  - The user's own account of their story over the model's synthesis of Celestia's arc | the user flatly corrects the model's claims: 'which they aren't' and 'Celestia is not packing up archives'
+- about: The user corrects the model's Celestia arc synthesis on what the story actually has, and asks whether her power-strain should be rooted in shock and trauma or in a speculated, unconfirmed parallel to Luna's nightmare-management, judged by lore, theme and arc consistency.

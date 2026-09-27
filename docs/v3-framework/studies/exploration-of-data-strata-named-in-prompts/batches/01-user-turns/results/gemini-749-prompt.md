@@ -1,0 +1,5 @@
+- sources:
+  - the Trimmel climax lines the model proposed, quoted back in the turn ("You think you can go back?", "My profile said...", "But they have seen you lead...") | treat as too much and not settled; cut down to a short version, and the user asks whether the short version works | "I don't think all of that stuff is necessary" | referred-to
+  - the full radio quote I am planning (Hivesmarshall Trimmel's "Surrender and you will be spared. Resist and you will be eliminated.") | treat as the author's current draft that the model should analyze and suggest refinements for | "The full radio quote I am planning is" | first-named
+- order:
+- about: The author pushes back on the model's long Trimmel speech as unrealistic for a just-surrendered enemy general, proposes a single short line in its place, asks if it works, and asks for analysis only, without new dialogue, on how to refine the planned radio quote.

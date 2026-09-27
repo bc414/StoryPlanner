@@ -1,0 +1,7 @@
+- asks:
+  - choice | decide whether griffons should share the pegasi's pressure/temperature/current-based flight ability at a reduced scale, or fly purely through wing muscle strength | "Should griffons have this too, perhaps at a lesser scale, or just be pure wing muscle?"
+- supplies:
+  - premise, the pegasi flight mechanism | pegasi achieve fast or any flight by manipulating air pressure, temperature, currents, and other factors for lift and velocity | a sentence
+- shaping:
+- openness: Asks for a choice between two named options for how griffon flight should work: a lesser-scale version of the pegasi's pressure/temperature/current manipulation, or pure wing-muscle-driven flight.
+- subject: Worldbuilding decision on the flight mechanics of griffons versus pegasi

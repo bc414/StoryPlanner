@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's framing that standardized AI products are red herrings and bespoke systems are asset-specific, and asks it to research whether anyone else is doing AI-augmented bespoke worldbuilding like theirs, noting in passing that the lack of audience proof doesn't much matter to them.

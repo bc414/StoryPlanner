@@ -11,8 +11,13 @@ using StoryPlanner.V1Itemizer;
 //   {"unit": "plot-points", "snapshot": "<native v1 .db>", "excludeChapters": [<chapter id>...], "includeUnplaced": true}
 //   {"unit": "theme-commentaries", "snapshot": "<native v1 .db>"}
 //   {"unit": "subjects", "archive": "<v1 archive .storyplan>"}
+//   {"unit": "own-voice-notes", "archive": "<v1 archive .storyplan>", "lineage": "<lineage .db>",
+//    "snapshots": "<dir of dated v1 snapshots>", "excludeStory": "Paratext"}
 // The native snapshot is a dated backup in the v1 planner's own schema; the archive is the
-// converted .storyplan, read for its subjects and their triage labels.
+// converted .storyplan, read for its subjects and their triage labels. The own-voice unit runs the
+// lineage attribution itself over the archive, lineage.db and the snapshot directory — the sidecar
+// attribution.csv is a derived artifact and is never an input — and keeps the notes the
+// v1-archive-mining skill's label table credits to the author's own voice.
 
 if (args.Length < 2) return Usage();
 var configPath = Path.GetFullPath(args[0]);
@@ -20,7 +25,7 @@ var batchDir = Path.GetFullPath(args[1]);
 if (!File.Exists(configPath)) { Console.Error.WriteLine($"config not found: {configPath}"); return 2; }
 if (ItemizerOutput.Refusal(batchDir) is { } refusal) { Console.Error.WriteLine(refusal); return 2; }
 var config = JsonSerializer.Deserialize<Config>(File.ReadAllText(configPath), new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-if (config?.Unit is null) { Console.Error.WriteLine("config names no unit: plot-points, theme-commentaries or subjects"); return 2; }
+if (config?.Unit is null) { Console.Error.WriteLine("config names no unit: plot-points, theme-commentaries, subjects or own-voice-notes"); return 2; }
 
 IReadOnlyList<ItemizerOutput.Item> items;
 string locatorNotation;
@@ -58,8 +63,19 @@ switch (config.Unit)
         narrowing = ArchiveSubjects.Narrowing;
         break;
     }
+    case "own-voice-notes":
+    {
+        if (config.Archive is null || !File.Exists(config.Archive)) { Console.Error.WriteLine($"archive not found: {config.Archive}"); return 2; }
+        if (config.Lineage is null || !File.Exists(config.Lineage)) { Console.Error.WriteLine($"lineage not found: {config.Lineage}"); return 2; }
+        if (config.Snapshots is not null && !Directory.Exists(config.Snapshots)) { Console.Error.WriteLine($"snapshot directory not found: {config.Snapshots}"); return 2; }
+        var notes = OwnVoice.Attribute(config.Archive, config.Lineage, config.Snapshots, config.ExcludeStory, Console.Error.WriteLine);
+        items = OwnVoice.Cut(notes);
+        locatorNotation = OwnVoice.LocatorNotation;
+        narrowing = OwnVoice.Narrowing + (config.ExcludeStory is null ? "" : $"; and except the notes of any story named with \"{config.ExcludeStory}\"");
+        break;
+    }
     default:
-        Console.Error.WriteLine($"unknown unit '{config.Unit}': plot-points, theme-commentaries or subjects");
+        Console.Error.WriteLine($"unknown unit '{config.Unit}': plot-points, theme-commentaries, subjects or own-voice-notes");
         return 2;
 }
 
@@ -75,4 +91,5 @@ static int Usage()
     return 2;
 }
 
-sealed record Config(string? Unit, string? Snapshot, string? Archive, int[]? ExcludeChapters, bool? IncludeUnplaced);
+sealed record Config(string? Unit, string? Snapshot, string? Archive, int[]? ExcludeChapters, bool? IncludeUnplaced,
+    string? Lineage, string? Snapshots, string? ExcludeStory);

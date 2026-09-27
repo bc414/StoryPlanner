@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects a plot detail (Chrysalis didn't know Gabriella had deduced her secret, and the hugs were ordinary teenage affection) and asks whether the hug-as-pity betrayal still works as a retrospective realization for both characters.

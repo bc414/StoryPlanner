@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - stalled or incomplete execution: the model announced it would search for tools but produced no result and did not proceed | the model's turn stopped at a stated intention to search for tools, with no lookup carried out | Seems like you got stuck. Try again | flat and brief, a plain observation of the stall followed by an instruction to retry, with no irritation or reason given
+- about: The user notes that the model stalled after announcing its first step and tells it to retry the conversation lookup.

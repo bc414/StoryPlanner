@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, supplying their list of codex entry categories and asking how each maps to the Minerva principles and whether codex appearances in plot points need tracking fields, without disputing anything in the previous answer.

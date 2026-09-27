@@ -1,0 +1,4 @@
+- sources:
+  - the story | the body of material to check for whether Fleur has her own character arc, compared with the arcs of Henri, Twilight and Applejack | She does a lot of teaching in the story but does she have any character development of her own | referred-to
+- order:
+- about: The user asks whether Fleur Bloom has a character arc of her own in the story, beyond her teaching role, as Henri, Twilight and Applejack do.

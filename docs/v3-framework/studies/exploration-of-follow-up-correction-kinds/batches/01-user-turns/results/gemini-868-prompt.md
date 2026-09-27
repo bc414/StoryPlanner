@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates and condenses the analysis in their own terms, naming Twilight's central opening conflict as wanting to be with Applejack while feeling she disappoints Celestia, and describing the post-Town Hall Twilight building the rifle free of that guilt.

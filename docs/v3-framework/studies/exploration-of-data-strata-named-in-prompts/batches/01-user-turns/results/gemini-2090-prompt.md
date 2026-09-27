@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its restaurant-spectrum framework by assessing big-menu diners and then very high-end formal restaurants, without pointing at any body of data.

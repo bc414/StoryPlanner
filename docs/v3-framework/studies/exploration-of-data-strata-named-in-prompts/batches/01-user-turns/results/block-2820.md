@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's previous account of Ahuizotl by stating new story facts (well-fed top-of-class cohort, Herzlander as his native language, learning Nahuatl and Quechua through translated Daring Do books as the way he and Ch'aska meet) without pointing the model at any body of data.

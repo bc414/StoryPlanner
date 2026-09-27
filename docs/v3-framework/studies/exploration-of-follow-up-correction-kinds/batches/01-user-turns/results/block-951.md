@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a personal anecdote about an ad-tech internship, in which they disabled their ad blockers, enjoyed the work, and lost the role to restructuring, as further real-world material for the conscientious-tech-worker theme, without disputing anything the model said.

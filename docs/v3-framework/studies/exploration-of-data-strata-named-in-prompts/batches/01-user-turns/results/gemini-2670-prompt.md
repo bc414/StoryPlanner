@@ -1,0 +1,4 @@
+- sources:
+  - these notebooks | read through them as the evidence from which to trace how the author's ideas developed over time toward the Chrysalis/Coltbert connection | Peruse these notebooks and determine the historical trace | first-named
+- order:
+- about: The user asks the model to go through their notebooks and reconstruct the chronological development of their ideas that produced the connection and thematic dialectic the model just described.

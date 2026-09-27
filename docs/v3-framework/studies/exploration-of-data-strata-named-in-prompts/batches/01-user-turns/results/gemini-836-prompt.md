@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up craft question about how obvious or subtle the choice of narrator (POV character) should be to the reader, without pointing at any body of material for the model to draw on.

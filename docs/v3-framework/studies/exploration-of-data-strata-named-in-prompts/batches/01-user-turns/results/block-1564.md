@@ -1,0 +1,9 @@
+- sources:
+  - v1 story planner app notes | old notes that reflect the author's past workflow but have no tracks; the place the notes originally live and the basis for the light scan and audit | V1 notes exist in a v1 story planner app | referred-to
+  - script-migrated notes in v2 unset tracks | present in v2 with subject, link, plot point and ids preserved, but some are in the wrong cognitive mode or subject, so they need checking and re-sorting | some stuff is in wrong cognitive mode or subject | referred-to
+  - AJ's notes from v1 in her v2 subject | present but incomplete, since notes that belong to AJ are scattered across many other subjects because v1 was not rigorous | some notes that should be in AJ in v2 live in many different subjects | referred-to
+  - Gemini context of v1 (three 300k-word volumes, about 500k tokens) | what Gemini currently takes as context for expansion; the author will pause expansion until v2 is sorted | Gemini uses v1 and takes three entire 300k words as context | referred-to
+  - planned v2 export | more granular than the current one but not yet implemented, so not usable now | I plan on v2 export being more granular, but that's not implemented yet | referred-to
+  - existing v2 subjects | already created but still untyped, and some are wrong and should be folded into other subjects | subjects are already created but need to be given a type | referred-to
+- order:
+- about: The user answers the model's questions about the state of v2 and the v1 notes, saying tracks are unconfigured, migrated notes are partly misplaced, Gemini still runs on v1, and they have unlimited evening and weekend time to sort it.

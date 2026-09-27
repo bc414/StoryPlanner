@@ -1,0 +1,13 @@
+- asks:
+  - brainstorm-evaluate | asks whether a proposed justification works: Luna orders retreat because she starts having nightmares from captured ponies and vaguely learns the Tall Tale resistance is why the Statthalters are punishing the captured army | "perhaps I can justify Luna's retreat order by saying..."
+  - check-question | asks whether the captured army could be kept as a group separate from the captured civilians in occupied Vanhoover | "I suppose the captured army could be separate from the captured civilians in Vanhoover?"
+  - planning-method | asks for guidance on how to most effectively plan out this piece of the story | "How can I most effectively plan this out?"
+  - context-flag | flags an existing chapter 7 scene (Rarity/Celestia/EEEE union, Luna's nightmares, Luna no longer commanding the army) that the new idea needs to line up with | "Also note in chapter 7... she is no longer commanding the army after the tall tale retreat"
+- supplies:
+  - current plan excerpt | Trimmel reveals, after losing the 2nd battle of Tall Tale, that Chrysalis flipped the switch in occupied Vanhoover | a sentence
+  - chapter 7 detail | Rarity speaks to Celestia for the EEEE union; Rarity sees Luna having nightmares and no longer commanding the army after the Tall Tale retreat | a couple of sentences
+  - proposed plot idea | Statthalters punish the captured army in Vanhoover, telling them it's because their Princess (the field marshal) is waging resistance in Tall Tale; Luna senses this through nightmares and vaguely intuits the cause, prompting her retreat order | a short paragraph
+- shaping:
+  - consistency requirement | whatever is planned must remain compatible with the already-written chapter 7 scene of Luna's nightmares and her no longer commanding the army | "Also note in chapter 7..."
+- openness: The message leans toward its own proposed idea (nightmare-driven justification for Luna's retreat, tagged tentatively with "perhaps") while also posing a direct open question about splitting the captured army from captured civilians, and closes with a fully open-ended request for planning guidance.
+- subject: Revising the causal chain behind Luna's retreat order from Tall Tale, tying it to nightmares and occupied Vanhoover's captured ponies

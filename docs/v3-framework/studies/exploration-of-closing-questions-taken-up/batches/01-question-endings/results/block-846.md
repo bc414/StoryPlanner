@@ -1,0 +1,5 @@
+- questions:
+  - How would Pinkie's Resilience-based approach affect her handling of Changeling POWs, and how would her Trench Chaplain persona counter a Jaeger's cynical defense mechanism without becoming toxic positivity? | ignored | none | none
+  - How would Applejack use the concept of Resilience to expose Gilded Trust's cynicism as cowardly surrender rather than hard-nosed patriotism in their debate? | ignored | none | none
+- shape: The user turn abandons both posed questions and pivots to an unrelated real-world tangent, asking about George RR Martin's generational background, whether he 'fell through the cracks' or saw reality clearly, and whether ASOIAF is popular with young people versus boomers
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Love Donator overview to ask for a new analysis of a specific planned scene in which Fluttershy tells Pinkie Pie to bake cakes with pink love, without commenting on the previous answer.

@@ -1,0 +1,10 @@
+- passages:
+  - note 4568 | descriptive trait statement | flat present-tense copula pairing two characters | shared creative nature of Trixie and Rarity | apart
+  - note 4569 | narrative-function rationale | evaluative 'great for' plus purpose clause naming another character's rhetoric | Trixie's role contrasting Flowing Current's rhetoric | apart
+  - note 4570 | capability/action statement | modal 'can' plus purpose infinitive | Trixie mocking industrialists to expose hoarding | apart
+  - note 5282 | origin/lore statement | factual 'is from... with... influences' phrasing | Trixie's home city and cultural influences | apart
+  - note 5282 | causal-explanatory statement | 'Hence why' causal connector, evaluative wording, loose syntax | reasoning tying her origin to her ego and showmanship | apart
+- shifts:
+  - note 5282 | origin/lore statement | causal-explanatory statement | 'Hence why' marks the turn from stating her background to explaining her personality from it
+- registers: descriptive trait statement; narrative-function rationale; capability/action statement; origin/lore statement; causal-explanatory statement
+- whole: Each note in this item holds its own single register except note 5282, which moves in one sentence break from a factual origin statement to a causal explanation of personality, so across the item several distinct short, third-person planning registers sit side by side without blending mid-sentence.

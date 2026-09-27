@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's framing of their method as given and asks a new question: whether other articles exist of software engineers using AI for creative writing, and whether other disciplines share that mentality.

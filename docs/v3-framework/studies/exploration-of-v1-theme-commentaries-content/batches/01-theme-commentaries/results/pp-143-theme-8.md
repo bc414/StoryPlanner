@@ -1,0 +1,4 @@
+- passages:
+  - fabula content | Says the source show's notion of honesty is only not lying, a contrast baseline about how the show treats the virtue | In the show, honesty is about not telling lies | no | expository prose, flat declarative claim with a contrast opener
+  - bearing on the theme | Says that in the war setting honesty becomes facing brutal reality others are too afraid to look at, which is how Applejack's speech carries the theme beyond simple truthfulness | In war, honesty is about facing the brutal reality that others are too afraid to look at | no | expository prose, parallel declarative sentence setting a redefinition against the first
+- whole: A two-sentence gloss that contrasts the show's plain sense of honesty as not lying with the war-time sense in this scene, honesty as facing brutal reality that others avoid.

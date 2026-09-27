@@ -1,0 +1,7 @@
+- asks:
+  - check | confirms whether a stated economic/psychological shift in the story's smuggling industrialists correctly follows from the setup already established | phrased as a declarative "So this means..." synthesis rather than a question
+- supplies:
+  - idea | a worked-out theory that once market saturation forces smuggling, PNdA industrialists abandon the Herzlander/Skyfall mindset of wanting more bits/marks (since the king would tax them) and instead compete on productive capital and market share, undercutting the old Skyfall firms, which becomes the organic root of a production-based, nationalist currency backing (the post-revolution franc) replacing the gold standard | a paragraph
+- shaping:
+- openness: Leans toward an answer it names — the message asserts the full causal chain (tax pressure to production/market-share mindset to organic gold-standard abandonment to franc's nationalist backing) as settled and reads as inviting confirmation rather than leaving the interpretation open.
+- subject: In-world economic shift of smuggling industrialists from currency-hoarding to production-based, nationalist capital underlying the post-revolution franc

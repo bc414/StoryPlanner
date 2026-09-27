@@ -1,0 +1,22 @@
+- relations:
+  - 92|90|90 states in general form the lesson that 92 spells out with its cause (the book) and result (orator to administrator)|inspirating speeches can't make things happen / supply lines are more important than speeches|implicit
+  - 93|92|92 revises the conviction in 93, moving from griffons can govern themselves through moral solidarity to scarcity having to be solved before griffons can act morally; also continues it in time (978 to 986)|prove Grover III wrong, that griffons CAN govern themselves / scarcity must be sovled before griffons can act morally|implicit
+  - 92|904|904 gives the large-scale aim that follows from the realization in 92 that scarcity must be solved first|resource scarcity must be sovled / build enough industrial capacity|implicit
+  - 904|2041|2041 continues 904 in time, since elections return after martial law; the two also pull against each other, one aiming for the State to step back and the other having him stay on 16 years|State could eventually step back / kept running for president for another 16 years|implicit
+  - 2049|904|The betrayal by the textile barons gives a reason for the centralizing, martial-law approach of 904|textile barons betrayed the revolution / declaring martial law|implicit
+  - 2049|2041|Both rest on distrust of what happens without central control; the belief that the state needs a Federal Machine underlies the belief that it will fracture without him|centralized Federal Machine / the state will fracture without him|implicit
+  - 2049|1636|The public trials of Corrupt CEOs are an instance of controlling greed through a strong central State|greed must be controlled / Corrupt CEOs on public trial|implicit
+  - 1635|87|87 supplies the real-world model for the oratory that 1635 explains as necessary to compete|bombastic / bombastic, religious-style oratory|implicit
+  - 1635|92|The bombast justified in 1635 as necessary against rivals sits in tension with the later drop of speeches for administration in 92|bombastic because he has to compete / all noise and speeches without the necessary logistics|implicit
+  - 87|92|Bryan's oratory-only model matches the orator that 92 says Kemerskai leaves behind|bombastic, religious-style oratory / inspiring orator to competent administrator|implicit
+  - 1634|1636|The centralized yet moral society in 1634 is delivered through the State-hurts-abusers trials in 1636|highly centralized but rigorously moral / The State is the only thing strong enough|implicit
+  - 1634|1635|Both set him against the Rugged Individualists, and 1635 gives the reason he must shout against their freedom appeal|Rugged Individualists / the 'freedom' of the Rugged Individualists|implicit
+- outward:
+  - 93|Grover III, a leader known from pamphlets and held elsewhere in the world's history|Grover III as the cynical leader who didn't believe in griffons
+  - 92|The book The Predator's Dilemma and the figure Coltbert, held elsewhere|read The Predator's Dilemma ... Coltbert is right
+  - 91|The ideology Gesunder Menschenverstand, held elsewhere|true believer of Gesunder Menschenverstand
+  - 2049|The revolution and the textile barons' betrayal, an event held elsewhere|the textile barons betrayed the revolution
+  - 904|The declaration of martial law, an event held elsewhere|When declaring martial law
+  - 1635|The Nobility, a faction held elsewhere in the world|the 'glamour' of the Nobility
+  - 93|The story TLTT and the wider griffon society, held elsewhere|griffons CAN govern themselves
+- whole: The notes mostly hang together as one arc: a moral orator, hardened by betrayal, becomes an administrator who centralizes power. A few entries (the allegory, the Bryan analogy, and the true-believer line) stand mainly as separate framing notes.

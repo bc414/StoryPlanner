@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Saeroyi kneels to Jang Dae-hee in the climax to secure Yi-seo's location is questioned; the user recalls that Jang kneeled at the end instead | Did sareoyi actually kneel to Jangga? I thought Jangga kneeled at the end | as a question, tentative and hedged with recollection, doubting rather than flatly asserting
+- about: The user checks a specific plot detail about Itaewon Class from the model's comparison, asking whether Saeroyi or Jang actually knelt, based on their own memory.

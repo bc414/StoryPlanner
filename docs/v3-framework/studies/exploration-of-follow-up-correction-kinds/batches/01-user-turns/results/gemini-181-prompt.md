@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question about whether the crystals' earlier use by unicorns should show Celestia is optional to the economy yet a chosen, major contributor, extending the worldbuilding without disputing anything in the model's reply.

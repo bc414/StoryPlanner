@@ -1,0 +1,25 @@
+- relations:
+  - 815|816|the history note reports as a dated event what the causality note gives as a condition of creation: Nova Griffonians teaching coal mining|Nova Griffonians teach Severyanans how to mine and burn coal|implicit
+  - 815|817|continues in time: the reign of Grover III that made trade possible leads to his scientists' steel discovery and his ban, under the same ruler|Grover III's scientists discover and prove the bessemer process|implicit
+  - 816|817|continues in time: coal mining is taught in 870, and by 900 steel, steam engines and railroads are built on iron and coal|mine and burn coal / iron and coal without griffon magic|implicit
+  - 815|2626|the coal mining taught by the Nova Griffonians is the means by which the heating that ends scarcity is later provided|taught the Severyanan ponies how to mine coal / heating through coal|implicit
+  - 2626|2627|cause and effect: the unlocked food and heat supply is what produces the population boom and the large families that the golden age note reports|population boom / These generations have massive families|implicit
+  - 2626|2624|the causality note names fertilizer as a source of the food supply, and the ontology note gives the fertilizer rule that does this, Haber-Bosch replacing alder groves|food supply through fertilizer / Haber-bosch nitrogen fertilizer|implicit
+  - 817|2627|instance and continuation: the educated boyars who industrialize are the first generation of industrializing boyars who serve their communities|Severyanan Boyars ... industrialize / 1st generation of industrializing boyars|implicit
+  - 817|2632|cause and effect: the railroads the boyars build connect the villages, which then homogenize in culture|industrialize steam engines and railroads / Railroads connect all the Severyanan villages|implicit
+  - 2627|818|continues in time and contrasts: first and second generations keep the communal ethos, while the third generation does not hold it|The 2nd gen still carry on the communal ethos / 3rd Generation ... never internalized the biological necessity of the Mir|implicit
+  - 818|2631|continues in time: the third generation's wish to be tycoons and compete with Herzlander industry leads to boyars taken over by Herzlander and Skyfall ideology and disrespecting folklore|quaint, outdated peasant tradition / no longer respect communal folklore|implicit
+  - 818|819|instance of the thematic claim: the third generation, whose survival is guaranteed, lose the communal ethic once the threat is gone|physical survival was always guaranteed by the machine / The rot begins exactly when the existential threat ends|implicit
+  - 2631|819|the stratification and loss of respect for communal ways is the rot the theme note says follows the end of the threat|Stratification takes place ... no longer respect communal folklore / The rot begins|implicit
+  - 2632|2631|both describe erosion of communal folklore, one by homogenization by railroad and one by boyars' ideology; the later note continues the trend|flattening linguistic diversity and folklore / no longer respect communal folklore|implicit
+- outward:
+  - 815|the Empire under Grover III, its griffon knights and sea monsters, and the Nova Griffonian settlers, held elsewhere|During Grover III's reign of the Empire, the griffon knights cleared enough sea monsters
+  - 815|the geography of Severyana and the lands north of it|settled even further north of Severyana
+  - 816|the Nova Griffonians as a people|Nova Griffonians teach Severyanans
+  - 817|griffon magic, the deity Boreas and the doctrine that steel is blasphemy against him|without griffon magic / blasphemy against Boreas
+  - 818|Chrysalis as a character or power who lends to the boyars|the demographic that Chrysalis exploits with loans
+  - 818|the Mir, the communal institution of the Severyanans|the biological necessity of the Mir
+  - 818|Herzlander industry as a rival power|compete with Herzlander industry
+  - 2631|Herzlander and Skyfall ideologies from other lands|Herzlander and Skyfall ideology consumes the boyars
+  - 2626|the longhouse way of life and the Severyanan attitude to children, held as lore elsewhere|Every new foal in the longhouse is celebrated
+- whole: The notes hang together as one chain from the coal and fertilizer conditions, through the boom and the golden age of communal boyars, to the third generation's loss of communal ethos, which the theme note names as its claim.

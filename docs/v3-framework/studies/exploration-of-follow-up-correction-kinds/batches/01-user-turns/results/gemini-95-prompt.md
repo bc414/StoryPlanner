@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the chapter analysis to new questions: whether chapter 8 should be split and renamed, and what patterns make the element-based chapter titles work and how to generate more.

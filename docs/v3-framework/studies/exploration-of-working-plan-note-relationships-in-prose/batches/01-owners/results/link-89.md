@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2393|Skyfall, where independent scientists and engineers are murdered, and the wider empire of the Hives that Chrysalis's murders fund, held elsewhere in the plan|her entire empire is seed-funded by systematically murdering independent scientists and engineers in Skyfall
+- whole: The owner holds a single note, so there is nothing for it to hang together with, and it reads as one standalone entry.

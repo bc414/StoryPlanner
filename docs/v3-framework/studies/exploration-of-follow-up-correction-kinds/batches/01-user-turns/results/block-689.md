@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the naming of the objective-record track to ask a new question about what to call layer 1 for the world physics, abstract system and technology entity types, without disputing anything the model said.

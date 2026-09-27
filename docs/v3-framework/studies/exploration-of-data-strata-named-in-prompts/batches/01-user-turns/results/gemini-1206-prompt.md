@@ -1,0 +1,4 @@
+- sources:
+  - season 1 Twilight before she gained empathy | use as a partial inspiration for Fleur's personality, a suggestion the author is considering rather than settled | I'm thinking Fleur's personality should be partly inspired by | referred-to
+- order:
+- about: The user offers a tentative idea that Fleur's personality should draw partly on the early, pre-empathy version of Twilight from the show's first season.

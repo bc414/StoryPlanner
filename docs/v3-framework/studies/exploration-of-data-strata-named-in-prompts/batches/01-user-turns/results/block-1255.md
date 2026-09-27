@@ -1,0 +1,5 @@
+- sources:
+  - this chat's review of my past stories | draw on the examples used in that review to illustrate each component of the spectrums | what examples were used in this chat's review of my past stories | referred-to
+  - narratology, such as Genette or Jane Austen and more | use as the source for explaining where each spectrum originated | explain the origins of where these came from in narratology (such as Genette or Jane Austen and more) | first-named
+- order:
+- about: The user asks the model to unpack the overloaded term "third person limited" into its separate orthogonal spectrums of prose delivery, illustrating them with examples from this chat's review of their past stories and tracing their origins in narratology.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Comet Shine discussion and asks a new naming and structure question about Chrysalis's two industrialization drives (whether to rename them or make them five-year plans), noting the MEFO bills' role.

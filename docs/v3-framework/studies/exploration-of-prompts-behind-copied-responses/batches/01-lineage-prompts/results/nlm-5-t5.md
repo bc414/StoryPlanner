@@ -1,0 +1,9 @@
+- asks:
+  - analyse | work out and explain what effect the reframed origin story has on Applejack's state/arc following a specific episode's events | "clarify the impact on Applejack after the events of Where the Apple Lies"
+- supplies:
+  - premise | a recontextualized version of Applejack's cutie mark backstory: she left her parents' Manehattan household, framed as rejecting their way of life rather than missing home, to stay on the Ponyville farm with Granny Smith and Big Mac | a couple of sentences
+- shaping:
+  - stance | treat the stated recontextualization as settled fact to reason from, not something to question | "With this framing in mind"
+  - scope | limit the analysis to consequences following the specific named episode | "after the events of Where the Apple Lies"
+- openness: Leaves open: the message asserts the reframed premise as given but does not state what the impact is, asking the model to work that out.
+- subject: Applejack's recontextualized origin story and its effect on her after the episode "Where the Apple Lies"

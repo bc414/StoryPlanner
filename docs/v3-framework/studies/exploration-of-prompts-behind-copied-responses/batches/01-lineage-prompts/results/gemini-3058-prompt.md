@@ -1,0 +1,9 @@
+- asks:
+  - analyse | trace and explain how a character's characterization and motivations changed across the successive versions of the story plans | "Give a thorough analysis of the evolution of Chrysalis's characterization and motivations throughout the development"
+- supplies:
+- shaping:
+  - cover both characterization and motivations specifically, not just one | "characterization and motivations"
+  - trace change across the developmental history/stages of the plans rather than a single-point description | "throughout the development of my story plans"
+  - be thorough/in-depth | "thorough analysis"
+- openness: open: the message names the character and the two aspects to trace but states no conclusion, preference, or set of options for the analysis to choose among.
+- subject: how the character Chrysalis's characterization and motivations evolved across drafts of the story plans for "The Lioness of Tall Tale"

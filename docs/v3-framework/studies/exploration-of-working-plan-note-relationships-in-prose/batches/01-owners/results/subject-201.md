@@ -1,0 +1,14 @@
+- relations:
+  - 1645|2051|the revolt he leads is the revolution the barons later betray; the note on his outlook gives the aftermath of the event the history note records|peasant revolt / the textile barons betrayed the revolution|implicit
+  - 1645|1644|continues in time: the revolt of 978 is followed by a further march in 986|leads the peasant revolt / a Second Long March|implicit
+  - 1644|2051|the march and the betrayal both belong to the revolution's course, and the betrayal may be what drives him to his later commitment to subsistence farming|Second Long March / betrayed the revolution|implicit
+  - 1643|2051|the vote for capitalism with a safety net runs against the agrarian communalism he wants, so the outcome opposes his aim|ditch agrarian communism for capitalism / wants subsistence farming (agrarian communalism)|implicit
+  - 2051|1646|the historical wrong (betrayal by the barons) is what the theme note says he can look past to ally on delivery of improvements|betrayed the revolution / allies even after historical wrongs|implicit
+  - 1643|1646|Skynavia's rejection of agrarian communism and rejoining the Republic is the changed setting in which he must work with a former opponent, though the note does not say so|agrarian communism for capitalism / genuine delivery of improvements|implicit
+- outward:
+  - 1644|an earlier, first Long March held elsewhere|a Second Long March
+  - 1643|Skynavia and the Griffonian Republic, the states and their politics held elsewhere|Skynavia ... rejoining the Griffonian Republic
+  - 1645|Interriver, the place of the revolt|the peasant revolt in Interriver
+  - 2051|the textile barons and their betrayal of the revolution, an event held elsewhere|the textile barons betrayed the revolution
+  - 1646|Kemerskai, another character, and the wrongs between the two|Sickleclaw and Kemerskai can still be allies
+- whole: By content the notes cohere loosely as one revolution-to-present arc (revolt, march, betrayal, outlook, alliance), but almost none point at each other, so the ties are implicit.

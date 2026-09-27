@@ -1,0 +1,35 @@
+- passages:
+  - 4157 | declarative-worldbuilding | full third-person declarative sentences | Skyfall's non-republican, individualist, amoral nature | apart
+  - 4157 | aphoristic-label | terse verbless noun-phrase closing | summary tag for Skyfall's ethos | apart
+  - 4388 | ledger-list | name-dash-descriptor entries | list of Skyfall executives and their trades | apart
+  - 4454 | declarative-worldbuilding | single declarative characterization | Skyfall as Herzland capitalist stereotype | apart
+  - 4633 | comparative-historical-analysis | explicit real-world historical parallels | Dutch Republic origins mirrored in Skyfall's founding | apart
+  - 4633 | aphoristic-label | compact triadic summary line | Skyfall's foundation on credit, gunpowder, water | apart
+  - 4675 | declarative-worldbuilding | cause clause and declarative motive statement | decentralized greed overriding embargo on Aquileia | apart
+  - 4758 | declarative-worldbuilding | terse single declarative sentence | citizenship sponsored through corporate debt | apart
+  - 4759 | thematic-analytical | interpretive claim linking economics to narrative cruelty | laundering Chrysalis's exploitation into legitimacy | apart
+  - 4972 | header-tag | noun-phrase title after dash | naming the Arcane Cartels demographic | apart
+  - 4972 | demographic-descriptive | third-person descriptive prose | privileged but threatened arcane artisans | apart
+  - 4973 | header-tag | noun-phrase title after dash | naming the Sweatshop Workers demographic | apart
+  - 4973 | demographic-descriptive | third-person descriptive prose | overworked, replaceable sweatshop laborers | apart
+  - 4985 | header-tag | noun-phrase title after dash | naming the CEOs demographic | apart
+  - 4985 | demographic-descriptive | third-person descriptive prose | merchant-prince CEOs and self-made monopolists | apart
+  - 4986 | header-tag | short tag phrase before dash | naming this as a meta-narrative comparison | run-in
+  - 4986 | thematic-analytical | full comparative declarative sentences | Skyfall as Carthage against Grover III's Rome | run-in
+  - 5078 | header-tag | noun-phrase title after dash | naming the Phoebus Cartel analogy | apart
+  - 5078 | causal-expository | plain cause-effect declarative sentence | profit motive driving planned obsolescence | apart
+  - 5078 | wry-evaluative-commentary | evaluative interjection 'hillarious irony,' judgmental phrasing | self-defeating cycle of mutual extraction | run-in
+  - 5078 | causal-expository | plain causal declarative sentence resuming | Kemerskai's solidarity-built industrial success | run-in
+  - 5249 | declarative-worldbuilding | cause clause explaining shared interest | rival shippers avoiding open conflict to protect the Mark | apart
+- shifts:
+  - 4157 | declarative-worldbuilding | aphoristic-label | drops to a verbless noun-phrase fragment
+  - 4633 | comparative-historical-analysis | aphoristic-label | moves from analogy sentences to a compact triadic line set on its own line
+  - 4972 | header-tag | demographic-descriptive | moves from a noun-phrase title to full descriptive sentences on a new line
+  - 4973 | header-tag | demographic-descriptive | moves from a noun-phrase title to full descriptive sentences on a new line
+  - 4985 | header-tag | demographic-descriptive | moves from a noun-phrase title to full descriptive sentences on a new line
+  - 4986 | header-tag | thematic-analytical | tag phrase gives way to a full comparative sentence within the same line
+  - 5078 | header-tag | causal-expository | moves from a noun-phrase title to a full causal sentence on a new line
+  - 5078 | causal-expository | wry-evaluative-commentary | evaluative interjection 'hillarious irony' breaks into the explanation
+  - 5078 | wry-evaluative-commentary | causal-expository | returns to a plain causal statement ('This is why...')
+- registers: declarative-worldbuilding; aphoristic-label; ledger-list; comparative-historical-analysis; header-tag; demographic-descriptive; thematic-analytical; causal-expository; wry-evaluative-commentary
+- whole: These notes hold several distinct registers - plain declarative worldbuilding, a ledger list, historical comparison, aphoristic summary lines, header tags leading into demographic or meta-narrative prose, thematic-analytical interpretation, and causal-expository explanation with one wry evaluative aside - and while most passages stand apart across separate notes or lines, a few run directly into the following sentence with no break.

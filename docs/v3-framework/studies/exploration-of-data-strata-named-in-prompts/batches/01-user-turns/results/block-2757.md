@@ -1,0 +1,7 @@
+- sources:
+  - The Maniticore of Canterlot | the story under assessment; the user's reading is that it handles EaW's industrial setting and its effect on the FiM world more seriously and thoroughly than the other two, and the model is asked to confirm or correct that | "grapples with EaW's industrial setting and its effect on the FiM world seriously and more thoroughly" | referred-to
+  - Princess and the Kaiser | comparison story, put below the Manticore on serious treatment of the industrial setting, as the user's tentative impression for the model to check | "than Princess and the Kaiser and Pax Chrysalia?" | referred-to
+  - Pax Chrysalia | comparison story, put below the Manticore on serious treatment of the industrial setting, as the user's tentative impression for the model to check | "than Princess and the Kaiser and Pax Chrysalia?" | referred-to
+- order:
+  - The Maniticore of Canterlot over Princess and the Kaiser and Pax Chrysalia | "more thoroughly than Princess and the Kaiser and Pax Chrysalia?" (as its treatment of the industrial setting, put as a question for the model to confirm)
+- about: The user restates their takeaway from the model's assessment as a question, asking whether The Maniticore of Canterlot takes EaW's industrial setting more seriously than Princess and the Kaiser and Pax Chrysalia.

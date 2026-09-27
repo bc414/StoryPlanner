@@ -1,0 +1,11 @@
+- steps:
+  - author | supplies planning material | attaches the full plan export document with no accompanying question | opening message of the thread
+  - model | delivers verdict and analysis | works through a design question about the rifle's mechanics, covering character blind spots, thematic stakes, and a scene suggestion | first response, following the plan attachment
+  - author | extends the model's idea with own framing | names the rifle mechanic a 'statthalter switch,' invokes the prisoner's dilemma, and states a consequence for Applejack's invasion decision | second prompt, replying to the first response
+  - model | elaborates and drafts | expands the prisoner's-dilemma framing, argues through why the invasion must be canceled, and proposes a revised confrontation scene with dialogue | second response, closing the stretch
+- kept:
+  - note 3666 | pasted from this reply inside the author's own framing | keeps the predator's-dilemma mechanic (rifle-as-statthalter-tool, neighbors draining neighbors preemptively), placed on the Nightmare Moon/World Peace link entry
+  - note 3667 | pasted whole from this reply | keeps the passage on Celestia's perspective that ponies are becoming a hive, placed on the same link entry
+  - note 3668 | pasted whole from this reply | keeps the line on Applejack realizing an advance would mean leading a changeling army with pony faces, placed on the same link entry
+- brought: The author brought the full plan document into the thread at the outset, then later brought a personal analytic connection (rifle-as-statthalter-tool, prisoner's dilemma) to build on the model's prior analysis.
+- loop: The author supplies plan material and a framing insight, the model returns extended thematic analysis and drafted scene language, and the planning database keeps several of the model's formulations—one refrained through the author's own wording, two pasted whole—onto a single existing plan link.

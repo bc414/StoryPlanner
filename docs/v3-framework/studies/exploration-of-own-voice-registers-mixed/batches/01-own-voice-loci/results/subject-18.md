@@ -1,0 +1,12 @@
+- passages:
+  - note 4511 | present-tense definitional description | plain declarative, 'is a pegasus who works at' | his species and job | apart
+  - note 4511 | past-tense biographical narration | past tense, causal clause 'which is how' | how he came to know thestrals | apart
+  - note 4515 | casual prescriptive character-note | 'should sound like', informal nouns 'loudmouth, brute' | the vocal tone wanted for him | apart
+  - note 4515 | quoted exemplary speech | quotation marks, exclamation, first-person | a sample line showing the tone | run-in
+  - note 4515 | casual prescriptive character-note | 'kind of vibe', unquoted resumption | labeling the overall style being aimed for | run-in
+- shifts:
+  - note 4511 | present-tense definitional description | past-tense biographical narration | tense shift from 'is/works' to 'worked', move to a causal 'which is how' clause
+  - note 4515 | casual prescriptive character-note | quoted exemplary speech | quotation marks open, shift to first-person exclamation
+  - note 4515 | quoted exemplary speech | casual prescriptive character-note | quotation marks close, return to unquoted evaluative phrase 'kind of vibe'
+- registers: present-tense definitional description; past-tense biographical narration; casual prescriptive character-note; quoted exemplary speech
+- whole: Across its two notes this subject holds four registers, with 4511 moving apart from a flat present-tense description into a past-tense explanatory clause, and 4515 folding a quoted exclamation into and back out of its own casual prescriptive sentence with no break.

@@ -1,0 +1,5 @@
+- sources:
+  - hive war ontology | treat the no-names element as unsettled and doubted by the author; not to be kept as-is, open to revision | I'm not sure I want the hive war ontology to have no names | referred-to
+  - history (real societies) | use as a realism check: the model is to draw on what is known of actual societies to say whether a nameless society has ever existed | Is there any society in history that didn't have names? | referred-to
+- order:
+- about: The author sets a constraint that Chrysalis's arc must come from system design flaws rather than personal evil, questions the nameless-hive premise as unrealistic, and asks the model to check it against real societies.

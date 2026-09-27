@@ -1,0 +1,12 @@
+- asks:
+  - evaluate a proposal | decide whether pairs should rotate daily so the reformed chefs can vary how many partners they have | "should they pair up differently each day? So the reformed chefs can flex how many partners they have"
+  - evaluate a proposal | decide whether the unicorns should work as waitresses who tease the Skyfall elite about being unable to buy them | "would the unicorns be waitresses and also tease the Skyfall elite by implying how they can't be bought?"
+  - evaluate a proposal | decide whether the unicorns can subtly humiliate or deconstruct the poseur elites | "Can they subtly humiliate or deconstruct the poseurs?"
+  - evaluate a proposal | decide whether the unicorns should instead or additionally collect extra tips | "Or collect extra tips?"
+  - analyse | weigh the pros and cons of the proposed arrangements | "What are the pros and cons?"
+- supplies:
+  - plan sketch | describes chefs, lionesses, a mare, and unicorns running a street-cart and parloir/bistro operation framed as a loyal nationalist front rather than prostitution, with a thematic aside about Aquileians being perceived as cultural deviants | two paragraphs
+- shaping:
+  - answer in pros-and-cons form | "What are the pros and cons?"
+- openness: The message proposes specific mechanics (daily-rotating pairs, unicorn waitresses who tease or humiliate elites, or instead collect extra tips) and leans toward wanting them adopted while explicitly asking the model to weigh their pros and cons.
+- subject: Worldbuilding for a fictional cartel-run street-cart/parloir/bistro operation involving fantasy creatures and its cultural-perception implications

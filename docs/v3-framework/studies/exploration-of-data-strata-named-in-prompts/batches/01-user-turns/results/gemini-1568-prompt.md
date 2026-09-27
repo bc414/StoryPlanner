@@ -1,0 +1,4 @@
+- sources:
+  - the model's Golden Javelin profile and arc analysis from the previous turn | accepted as matching the intended arc, but with two corrections: she need not be famous, and she is on a standard machine gun crew rather than facing a tank with a javelin | This is exactly the arc I am going for | referred-to
+- order:
+- about: The author confirms the model's Golden Javelin arc, corrects two details (not famous, on a machine gun crew rather than using a javelin against a tank), proposes her doing cloud duty before the first battle and again at the Bluebell River Spearhead, and asks for alternative sports, names and cutie marks.

@@ -1,0 +1,13 @@
+- passages:
+  - 4237 | real-world historical analogy | William Jennings Bryan, "The Great Commoner" known for bombastic, religious-style oratory, is proposed as the historical archetype for Kemerskai | none | opening claim naming Bryan with dates 1860–1925 (his life, not a story date)
+  - 4237 | real-world historical analogy | Like Kemerskai, Bryan claimed to speak for the toiling masses against idle capital, which maps to the Industrialists | none | heading "The Populist Roar" and direct comparison to "your version of Kemerskai"
+  - 4237 | statement about the real-world figure (analogy) | Bryan was a brilliant speaker but rigid thinker who reduced complex economic issues to moral crusades | none | heading "The Trap of Oratory", descriptive statement
+  - 4237 | speculative projection for the subject | If Kemerskai is Bryan, his tragedy is winning the crowd but losing the mechanics of power, outmaneuvered behind the scenes by the Industrialists | none | heading "The Parallel", conditional "If... he might"
+  - 4227 | statement about the subject (character arc) | Kemerskai starts bombastic like Bryan, then after the Long March is humbled and takes administration seriously | none | future-tense plan "will be... initially, then after the Long March"
+  - 4227 | statement about the subject (purpose/situation) | In Cloudbury he has a fresh slate to prove the federalists can be right | none | plain statement of what Cloudbury gives him, no moment or date
+  - 4227 | authorial design intent | Kemerskai is meant to succeed where Bryan failed in real life | none | "This is where Kemerskai will eclipse what Bryan failed"
+  - 5222 | statement about the subject | He is the true believer of Gesunder Menschenverstand | none | flat characterization
+  - 5222 | statement about the subject (motive) | The Long March is meant to gather only true believers and prove Grover III wrong that griffons can govern themselves and have moral solidarity | none | explanation of the purpose of the Long March
+  - 5222 | scene beat with a year | He reads The Predator's Dilemma and realizes Coltbert is right that resource scarcity must be solved before griffons can act morally | 986 | discovery event marked "when he read ... in 986"
+- sequences:
+- whole: Three short design notes on Kemerskai: a Bryan-based historical analogy with a projected tragedy, a planned arc from bombastic populist to humbled administrator, and his belief in griffon self-governance overturned by one dated reading in 986, with only that last item resembling a story event.

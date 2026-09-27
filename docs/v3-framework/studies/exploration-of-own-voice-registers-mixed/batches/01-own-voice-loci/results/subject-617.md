@@ -1,0 +1,6 @@
+- passages:
+  - note 60 | title-label | noun phrase, no verb, no punctuation | Applejack's battlefield tactics as a topic | apart
+  - note 5473 | plot-jotting | run-on clauses, no punctuation, present tense, plural "they" | jungle rubber trip and later adoption of rafts | apart
+- shifts:
+- registers: title-label; plot-jotting
+- whole: The item holds two notes, each written wholly in its own single register with no internal shift, and the two registers — a bare topic-label and a run-on plot-jotting — stand apart from each other across the separate notes.

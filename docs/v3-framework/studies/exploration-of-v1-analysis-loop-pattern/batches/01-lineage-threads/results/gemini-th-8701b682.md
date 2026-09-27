@@ -1,0 +1,23 @@
+- steps:
+  - author | opens with a realization | noticing the invented Aquileian geography/politics accidentally mirrors real France | start of the single author turn
+  - author | lays out a revolution contrast | two revolutions (980 vs 1008), villain Discret paralleled to Louis XIV, centralized capital suppressing outlying provinces | early in the author turn
+  - author | describes a leader figure | Vérany as urban-elite revolutionary whose factory-worker movement later gains rural support | continuing the author turn
+  - author | asks a historical question | whether every form of the French Republic remained a successor to central government | mid-turn
+  - author | cites established canon | Pridea's pony minority backed the monarchists, which is why Henri became a griffon supremacist | mid-turn
+  - author | proposes a character equivalence | casts Vérany as essentially the same archetype as Kemerskai, sharing 'manliness' and redirected griffon greed | continuing the turn
+  - author | draws a structural parallel | compares the 1st Aquileian revolution's collapse to the Griffonian revolution in Herzland, contrasting the Long March with going underground | continuing the turn
+  - author | introduces an interregnum mechanism | frames the Coltbert reforms, authored by a pony rather than a griffon, as a move toward decentralization | continuing the turn
+  - author | describes a second revolution's outcome | a broader regional coalition topples Discret, and Vérany loses the ensuing vote to Gaudreau | continuing the turn
+  - author | cites a canon political split | names the rival factions Vérany's 'Republicanism' and Gaudreau's 'Harmonic Republicanism' | end of the author turn
+  - model | confirms the parallel | validates the France comparison as historically accurate, naming the Paris-vs-province dynamic | opening of the model's reply
+  - model | answers the historical question | explains that French Republics all inherited and drove the centralized state machine | early in the reply
+  - model | analyzes the first revolution's failure | maps Vérany's ideology to Jacobin centralism and rural backlash, tying it to Henri's turn to supremacism | first numbered section
+  - model | extends the character comparison | specifies where Vérany and Kemerskai converge (pan-griffonism, strongman style) and diverge (forced statecraft vs stagnant dogma) | within the first section
+  - model | analyzes the interregnum | explains a pony-biology rationale for the Coltbert reforms and how they unintentionally armed the regions politically | second numbered section
+  - model | analyzes the second revolution and election | explains why the broad coalition succeeds and why Gaudreau wins over Vérany | third numbered section
+  - model | extrapolates a new story beat | proposes that Applejack's arrival with her diverse army validates Gaudreau's decentralized ideology | fourth numbered section
+  - model | produces a summary table | condenses factions, real-world parallels, leaders, ideologies, and fates into one comparative table | close of the reply
+- kept:
+  - note 2350 | pasted from this reply inside the author's own framing | keeps the model's account of how the failed 1st Revolution's factory-shift erasure of local culture drove Henri's family toward supremacism, rewritten as a family/regional backstory and filed under a Gaudreau-Applejack lore link entry
+- brought: The author brought an already-worked-out lattice of plan elements — two named revolutions, a villain, several named leaders, and an existing canon party split — into the conversation to have them checked against and elaborated through a real-world historical analogy.
+- loop: The author brings settled worldbuilding plus a direct historical question for validation and elaboration; the model confirms the analogy, answers the question, and builds out extensive analysis, character comparisons, and a new proposed story beat, but the plan retains only a small, reframed piece of that output — the rural-backlash explanation for Henri's supremacism — folded into an existing character-link note.

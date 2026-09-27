@@ -1,0 +1,8 @@
+- sources:
+  - layers 1 and 2 of the TLTT story design | the standing home of the world truths and history; the full truth lives here even where the main story does not reveal it | hold the world truths and history in layers 1 and 2 | referred-to
+  - the main story (TLTT, with Applejack and Twilight as main POV) | reveals only part of what layers 1 and 2 hold; most of the backstory is touched on because it supports the proposition | not everything is fully revealed in the main story, although most will be touched upon | referred-to
+  - the backstory of OCs and EaW characters that drives the structural reasons for the great war | built-out material to be dramatized later through each character's own third person limited view, not fully shown in the main story | dramatized through their own third person limited point of view | first-named
+  - the separate prequel-sequel stories | planned works, to be written and read after the main story, where the OC and EaW backstories are dramatized | separate prequel-sequel stories to be written and read after the main story | first-named
+  - TLTT's central proposition | the yardstick for what the main story includes: the backstory exists to support it, and it is also the social commentary | exist in some way or another to support the proposition of the main story | referred-to
+- order:
+- about: The user explains how TLTT grew into a large backstory with OCs and EaW characters, says that backstory will be dramatized in separate later prequel-sequel stories while the main story only partly reveals it, and asks for an analysis of this setup and how to manage it.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user extends the worldbuilding by reasoning that, once smuggling starts after saturation, the PNdA industrialists stop chasing bits and instead pursue productive capital and market share, which amounts to a collective drift away from the gold standard toward a production-based, nationalist backing that the post-revolution franc will represent.

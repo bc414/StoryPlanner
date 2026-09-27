@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to return to the video's analysis of South Korean men pushed toward "spec" culture instead of warrior aesthetics, and to map it onto Equestrian stallions in a Princess's harmonic realm, as a new request without saying the previous answer was wrong.

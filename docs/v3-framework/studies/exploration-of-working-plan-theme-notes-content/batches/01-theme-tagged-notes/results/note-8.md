@@ -1,0 +1,4 @@
+- claims:
+  - design commitment | Applejack gives up the presidency before TLTT ends; this is fixed as a plot event in her ending | Applejack steps down from the presidency by the end of TLTT | What does Applejack do with her office at the end of the story? | partly
+  - reading | Her stepping down is meant to show that she does not turn into the next benevolent monarch, so power is not concentrated in one good ruler even after she wins | as a demonstration of not becoming the next benevolent monarch | What does her relinquishing power show about the theme's proposition? | yes
+- theme: It supplies evidence for the theme: a concrete character action, stepping down from power, is offered as an enactment of the proposition against Great Mare Theory. It does not argue the proposition itself, and it points to the refutation only through what the event shows.

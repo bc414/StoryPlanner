@@ -1,0 +1,7 @@
+- sources:
+  - the premise I've established (harmonic capitalism as a bottom-up organic ideal) | treated as settled story premise that the model should take as given | I've established the premise that harmonic capitalism is a bottom up organic ideal | referred-to
+  - Faust's early season vision | used as a reference point or analogy for the premise, not as something to check against | kind of like the adult version of Faust's early season vision | referred-to
+  - real human history | stated as the inspiration for the feudalism and tyranny the characters fight, taken as given | inspired by real human history | first-named
+  - the show's elements that came from Hasbro's mandates | stated as the origin of the story's stagnation of harmony, taken as given in the plan | the stagnation of harmony comes from the very elements of the show that came from Hasbro's mandates | first-named
+- order:
+- about: The user restates settled story premises (harmonic capitalism as a bottom-up ideal, history-inspired tyranny, stagnation rooted in Hasbro-mandated show elements) and asks whether that stagnation reflects Hasbro as an authoritarian culture of ruthless post-industrial capitalism.

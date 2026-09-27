@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about how far ordinary British people supported total mobilization and whether propaganda was needed, without disputing anything in the model's comparison.

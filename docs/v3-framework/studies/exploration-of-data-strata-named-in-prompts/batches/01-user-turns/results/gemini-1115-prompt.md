@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's timeline by stating that Applejack only takes on the Lioness identity much later, after Trimmel's surrender, and that from Tall Tale until then she acts in the belief that Celestia will wake up and be the mother again.

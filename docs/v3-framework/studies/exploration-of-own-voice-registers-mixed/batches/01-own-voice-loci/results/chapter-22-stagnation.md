@@ -1,0 +1,6 @@
+- passages:
+  - note 1 | speculative planning question | tentative phrasing, trailing question mark, names of characters listed | whether the chapter is a conversation among the princesses and the mane six | apart
+  - note 4381 | terse self-reminder | short imperative-toned statement, no stated subject, bare infinitive phrase | need to work out the chapter's flow | apart
+- shifts:
+- registers: speculative planning question; terse self-reminder
+- whole: The chapter's two notes each hold a single, different register with no shift inside either — one a tentative question weighing the chapter's cast, the other a clipped reminder about craft — and the two stand entirely apart from one another.

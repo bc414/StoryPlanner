@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model wrote the Synovial and Aquileia section from guesswork (calling Synovial a likely Changeling fanatic or warlord) instead of from the user's actual story plans, which it had not consulted | Please review my actual story plans and then refine the parts about Synovial | Flat directive with no reason or apology, and the correction is implied by the instruction to go back to the plans and redo that part
+- about: The user sends the model back to their real story plans and asks it to redo its Synovial material on that basis, treating the earlier version as not grounded in them.

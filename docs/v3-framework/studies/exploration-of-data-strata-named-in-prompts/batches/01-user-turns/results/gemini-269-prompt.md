@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of the story by stating that Synovial did surrender after half his attaché was deleted, that the surrendering half was unharmed, and that Synovial controlled his loyal attaché better than Trimmel controlled his predatory veterans.

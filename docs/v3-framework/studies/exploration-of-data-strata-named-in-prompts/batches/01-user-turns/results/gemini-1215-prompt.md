@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a comparative analysis of cooking chicken thigh/leg combos only in an air fryer versus finishing in the microwave, a cooking question that names no source of data for the model to use or avoid.

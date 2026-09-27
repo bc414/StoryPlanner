@@ -1,0 +1,34 @@
+- relations:
+  - 1096|1099|the rhyme's origin is given in one note and the other maps its 'hope to fly' line onto how the spell works; red love/active magic is the shared mechanism|the "hope to fly" part of the rhyme|explicit
+  - 1096|1100|the rhyme's origin is given in one note and the other maps its 'cross my heart' line onto the faith the user needs; the romantic reading of that line meets the partner-catch requirement|the "cross my heart" part of the rhyme|explicit
+  - 1104|1105|one gives the spell's name and the other explains why it is called that (dew forms only in delicate conditions, like the wings)|Ailes de Rosée (Wings of Dew) because dew is not a permanent structure|explicit
+  - 1100|1105|the stability condition is stated as faith in the partner in one and delivered as Pink Love anchoring Red Love in the other; the same requirement|the user must have faith that their chasseur partner will catch them|implicit
+  - 1099|1105|the mechanism (active magic channelled into the wings) is restated with red love as the ambition to fly, which pink love has to anchor|channels their own active magic into the wings|implicit
+  - 1100|1228|one states that the user must trust the partner will catch them, and the other shows the chasseurs already do this without realizing, so the magic matrix stabilizes|They genuinely know their partner will catch them if they fall|implicit
+  - 1105|1228|both set red love (fiery passion/raw magic) against pink love (trust/friendship) as what stabilizes the magic|Red Love (the ambition to fly) is perfectly anchored by Pink Love|implicit
+  - 1100|1101|the partner who will catch the user is the same partner whose colour and wing style the wings take on; one is the condition and the other its visible effect|their partner, who will catch them if they fall|implicit
+  - 1101|1112|the wing colour reflecting the partner is the mechanism, and the other note uses it in FJA culture to show who is really the partner|the wings of dew indicate who is really their partner|implicit
+  - 1097|1101|one names the source of the colour-shows-love mechanic and the other states the mechanic and its in-world explanation (the partner's colour and wing style)|The mechanic of the wing color reflecting your true love|implicit
+  - 1097|1112|the canon note gives the source of the wings revealing true love, and the other applies it as a social use in a culture of flings|the wing color reflecting your true love|implicit
+  - 1113|1228|one gives hunting warlords as the reason for the invention and the other traces the invention to the chasseur bond that got pairs through those hunts|hunting warlords|implicit
+  - 1096|1113|both give the origin of the spell by chasseurs; one has the history of the rhyme and the other the purpose of mobility|unicorn chasseurs to invent a spell|implicit
+  - 1096|1228|both give what inspired the invention, one the rhyme and its romantic reading and the other the chasseur bond; the second says chasseurs think passion powers the wings, which matches the romantic lens the first says they used|Because of the FJA/chasseur romantic/passionate bias|implicit
+  - 1108|1100|the trust requirement is applied to say who cannot use the wings: those with no real friends cannot give the faith required|they have no real friends and no grace, so the wings would disintegrate|implicit
+  - 1108|1105|nobles' inability to use the wings follows from the need for Pink Love and trust that the other note sets as the anchor|genuine connection with others|implicit
+  - 1107|1108|both concern who can use the wings against the Lion/noble hierarchy: the first opens the spell to the malnourished and low-born, and the second shuts out the pure lions|completely subverting the Lion/noble hierarchy|implicit
+  - 1108|1115|one states that transactional hoarders cannot fly, and the other draws the thematic point that trust cannot be hoarded or faked|the trust of a partner ... can't be faked|implicit
+  - 1107|1110|one gives the instances of who can fly better, and the other generalises it: it opens possibilities for all without making talent pegasi obsolete|It opens possibilities for all|implicit
+  - 1110|1107|the claim that talent pegasi are not made obsolete qualifies the claim that pegasi who were malnourished fly better with it|does not make true, talent pegasi obsolete|implicit
+  - 1101|1115|the wings showing the partner's colour is the way the trust is broadcast that the theme note uses as evidence|broadcast by the wings|implicit
+- outward:
+  - 1097|another author's story, Green, the canon source of the colour-shows-true-love idea|Steel Resolve's Rarishy story Green
+  - 1096|Equestrian playground rhyme and its spread through Manehattan parloirs and Aquileian social clubs, held elsewhere|Equestrian playground rhyme
+  - 1112|FJA culture and its habit of flings|in the FJA culture where they have a lot of flings
+  - 1113|warlords and the chasseur hunting of them, the world's conflict, is elsewhere|hunting warlords
+  - 1107|feudal Aquileia and its Lion/noble hierarchy, and the griffon and pegasi peoples|Lion/noble hierarchy of feudal Aquileia
+  - 1108|the poseurs, nobles and tycoons (pure lions) as social classes in the wider world|poseurs, nobles, and tycoons (pure lions)
+  - 1110|the Accelerants theme and the talent pegasi as a group|talent pegasi obsolete
+  - 1115|Aquileian culture's ethos of asset specificity and social armor|Aquileian culture prides itself on "asset specificity"
+  - 1228|Pinkie Promise, erodynamics and charitostatics, the world's magic lore of red and pink love|Pinkie Promise
+  - 1099|the pegasus manner of flying, an established feature of the world|fly like a pegasus
+- whole: These notes hang together as a set: the trust-and-partner mechanism (red love anchored by pink love, the partner who will catch you) runs through the function, history, usage and theme notes, though a few entries (the spell's name, the canon source, the FJA flings note) stand mostly on their own.

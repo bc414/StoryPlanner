@@ -1,0 +1,5 @@
+- sources:
+  - the v2 planner instance with the imported v1 | kept as a tracking reference for the migrated v1 material, not the place where new work is written | one with the imported v1 for tracking purposes | referred-to
+  - the second v2 planner instance, the clean copy | the working copy where the author does the new writing, kept free of the imported v1 notes | the second as my working clean copy | first-named
+- order:
+- about: The user asks whether running two v2 planner instances, one holding the imported v1 for tracking and one clean for working, would be a workable alternative to the migration-and-audit workflow the model laid out.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the PasteFromJson code to ask a new question about which tool, Gemini website or NotebookLM, to use when asking an LLM to reorganize the notes.

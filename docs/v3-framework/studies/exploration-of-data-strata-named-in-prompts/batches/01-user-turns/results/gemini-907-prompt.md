@@ -1,0 +1,5 @@
+- sources:
+  - my Codex entry on changing biology | treat as authoritative for changeling biology: emotion sense and supplementing calories with love (friendship); build the pre-industrial lands on it | according to my Codex entry on changing biology | referred-to
+  - the mammalian biology component | leave out; work out the pre-industrial lands without it, with no biological hive mind, thought sharing or hive biological slavery | without the mammalian biology component | referred-to
+- order:
+- about: The author asks how pre-industrial Changeling lands would work under a revised biology, grounding the question in their Codex entry and setting out the ancient friendship-based hive premise to build from.

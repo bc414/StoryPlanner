@@ -1,0 +1,8 @@
+- sources:
+  - original design of the Canterlot paradrop (Applejack lies about the 12 hours and attacks at 6) | earlier design from the author's cynical starting frame; treat as outdated and as a source of influences at odds with the themes, to be analyzed and dissected | the influences of the original design of the Canterlot paradrop is at odds with the story's themes | referred-to
+  - original instinct for the conclusion (wiping Vesalipolis off the map) | earlier cynical plan, since replaced; treat as outdated | my instinct for the conclusion at the time was that the end of the war would have to be wiping Vesalipolis off the map | referred-to
+  - expanded story plans (food drop, honest about the time, rifles teleported to civilians before the drop) | current evolved version of the plan; treat as the present design and the basis for reanalysis | After expanding the story plans, it evolved into a food drop situation | referred-to
+  - Bluebell Spearhead and the 'We are monsters' scene | author's current view of the correct temptation of action over decorum; treat as the place the unilateral part lives, via the changeling consequences | I believe the correct temptation of action over decorum is the Bluebell Spearhead | referred-to
+- order:
+  - expanded story plans over original design of the Canterlot paradrop | After expanding the story plans, it evolved into a food drop situation ... at odds with the story's themes
+- about: The author explains how the Canterlot paradrop and the story's ending changed from a cynical original design to the current plan, and reframes the paradrop as a commentary on agency and the predator's dilemma while placing the unilateral temptation in the Bluebell Spearhead.

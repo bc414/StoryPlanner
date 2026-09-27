@@ -1,0 +1,7 @@
+- sources:
+  - Stalliongrad losing 15% of its population during the active war | premise supplied by the user, to be taken as given and reasoned from when working out Stalliongrad's postwar position | "If Stalliongrad lost 15% of their population" | first-named
+  - 1.2 million conscripts taken into the Gulags | figure taken as given and reasoned from, alongside the population loss | "took in 1.2 million conscripts in the Gulags" | referred-to
+  - Trotsky's global vanguard ideology | the user's own belief about what Stalliongrad runs on, offered tentatively, and the basis for the claim that indoctrinated Changelings are let onto the front lines as class allies | "I believe since Stalliongrad is running on Trotsky's global vanguard ideology" | first-named
+  - Caramel Marks's ideology | the doctrine Changeling prisoners are indoctrinated into in the Gulags, used as the condition for letting them fight | "indoctrinated to Caramel Marks's ideology in the gulags" | referred-to
+- order:
+- about: The user gives Stalliongrad's population loss and Gulag numbers as premises and asks how Stalliongrad joins the Allied liberation after the year of white peace. They also add a tentative idea that Stalliongrad, on a Trotskyist vanguard ideology, lets indoctrinated Changeling prisoners fight as class allies.

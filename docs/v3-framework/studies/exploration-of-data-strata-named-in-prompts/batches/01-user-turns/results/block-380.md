@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the proposed element name Fidelity for Rainbow Dash as too obscure, since they associate it with accuracy or a financial company rather than loyalty, and asks for other options.

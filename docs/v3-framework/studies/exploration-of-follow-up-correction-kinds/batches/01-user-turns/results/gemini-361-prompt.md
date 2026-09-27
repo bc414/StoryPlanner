@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's direct-entity and IDbContextFactory advice and asks it to go ahead and generate all the model classes, annotations and OnModelCreating code.

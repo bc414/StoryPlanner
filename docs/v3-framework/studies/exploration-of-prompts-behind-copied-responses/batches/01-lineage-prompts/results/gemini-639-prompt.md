@@ -1,0 +1,11 @@
+- asks:
+  - check | asks whether the stated distinction is correct: that ambient chaotic magic (which can become windigos) is separate from personal ambition/magic, and that global friendship must keep ambient magic in check | "is separate from personal ambition/magic? And global friendship needs to check ambient magic?"
+  - brainstorm | asks the model to consider whether the mechanic instead involves global ambition, or a balance between global friendship and global ambition | "What if it has to do with global ambition? Or the balance of global friendship and global ambition?"
+  - revise | states dissatisfaction with windigos simply existing ambiently and proposes instead that they arise from within creatures who hate each other, asking this alternative be taken up | "I'm not sure I like the idea of the windigos just existing... should come from within creatures who hate each other"
+  - extrapolate | asks the model to follow out the implication that, under this revised premise, global industrialization would be a disaster for Celestia | "global industrialization would be a disaster for Celestia"
+  - develop | proposes a theory that Celestia deliberately kept Equestrian ponies low in ambition while the rest of the world seethed with petty hatred, offering it for consideration | "Maybe she figured she can keep Equestrian ponies low on ambition while the rest of the world had petty hate?"
+  - connect | proposes that this theory explains Luna's strong drive to enact world peace through her dream spell, offering the link for consideration | "This would explain why Luna so desperately wanted to enact world peace via her dream spell"
+- supplies:
+- shaping:
+- openness: The message mostly leans toward the ideas it floats itself (windigos born of mutual hatred, industrialization as a threat, Celestia's ambition-suppression strategy, its link to Luna's dream spell), while its opening lines ask the model to confirm or correct a stated understanding of how ambient magic and friendship interact.
+- subject: Worldbuilding for an Equestria-setting story: the origin of windigos, the ambient-magic/ambition/friendship system, and Celestia and Luna's political motivations

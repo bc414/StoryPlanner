@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model a set of open history questions about the Gilded Age (other tycoons, further boring or exciting virtues, further evils, and its inciting incidents), without pointing at any body of material to use or avoid.

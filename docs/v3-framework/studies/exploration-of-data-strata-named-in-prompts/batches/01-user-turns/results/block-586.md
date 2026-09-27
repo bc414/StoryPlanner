@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects and extends the model's reading of Réni and Minette by asserting from their own settled setting knowledge that the two are Royalists in a monarchy with top-down "king complexes" and that their 1002 excuses mask how much they miss each other, without pointing to any body of material.

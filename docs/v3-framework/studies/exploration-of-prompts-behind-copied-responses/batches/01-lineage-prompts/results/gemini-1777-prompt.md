@@ -1,0 +1,6 @@
+- asks:
+  - selection | states which two of several presumably offered options are preferred, without adding a further instruction | "I like Lex Talionis and L'Inviolabilité the best"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: it singles out "Lex Talionis" and "L'Inviolabilité" as the favorites, implicitly out of a larger set of options not included in this message.
+- subject: Preference between two named candidate terms or titles among a set presumably proposed earlier

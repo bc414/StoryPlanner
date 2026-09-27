@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up for a different set of examples, ones where individual moral preaching, as with Costco versus Walmart, displaces the need to defeat the extraction narrative, and accepts the model's framing without disputing it.

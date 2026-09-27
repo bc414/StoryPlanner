@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's griffon-made cuff in place of their own earlier picture of a plain crystal, and asks what the material would be like and how it is made.

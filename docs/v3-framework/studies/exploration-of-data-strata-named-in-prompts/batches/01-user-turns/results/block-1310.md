@@ -1,0 +1,9 @@
+- sources:
+  - the plan for a scootaloo origin story | the author's own earlier plan, described as the thing the model's pattern reading is about; explains why it was written, not a command to use or discard | I believe I wrote up this plan for a scootaloo origin story | referred-to
+  - the dominant story type for Rainbow adopting Scootaloo (drunk, abusive parents or an abusive step dad) | a trope the author wrote against; not to be followed, to be subverted | the dominant story type for Rainbow adopting Scootaloo | referred-to
+  - other stories about Scootaloo's flight (magical tumor surgery, just believing in herself, left flightless) | existing takes the author set aside in favour of their own materialist reason and solution | One story made her have a magical tumor | referred-to
+  - TLTT | the author's own project, whose materialist historicist worldbuilding is the pattern the Scootaloo plan repeats; its Scootaloo version (Wings of Dew flight, malnourished in New Mareland) is stated as how it handles her | the same thing I used to build up TLTT | referred-to
+  - the show's later seasons (Wonderbolts as jerks, the Hasbro mandate era Rainbow Dash episode) | published canon whose given reason is judged weak and to be filled with an in-universe explanation | weak doyalist reason of needing to make a half hearted episode | referred-to
+  - Scootaloo's canon parents | canon material that TLTT builds on to explain her flightlessness | using her canon parents | referred-to
+- order:
+- about: The user answers the model's pattern analysis by explaining, from memory, why they wrote the Scootaloo origin plan (subverting grimdark tropes and filling canon gaps with materialist worldbuilding) and by noting that TLTT applies the same approach to Scootaloo's flight.

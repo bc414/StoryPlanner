@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model assumed Skyfall has executives and management who could underpay designers or insult artisans; in Pridea there is no management and every artisan owns their own workshop, which the model's labor-union scenario contradicts | There is no management in Pridea. Every artisan owns their own workshop | flatly, as a brief statement of a world rule, with the thematic weight given as its reason and no explicit reference to the model's error
+- about: The user briefly corrects the model's assumption of corporate management in Skyfall by stating that Pridea has no management, artisans own their workshops, and this is the core of the Skyfall vs. Aquileia cold war.

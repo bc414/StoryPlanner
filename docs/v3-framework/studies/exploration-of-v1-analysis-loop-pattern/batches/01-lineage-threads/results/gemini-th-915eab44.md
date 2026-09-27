@@ -1,0 +1,36 @@
+- steps:
+  - author | poses automation question | goal of running sequential per-file prompts | opening of stretch
+  - model | lays out two paths | custom API script with chaining vs batch API for bulk | reply to opening question
+  - author | asks for procedure | how to actually use the API | follow-up
+  - model | walks through setup | API key, Python install, first generateContent call, file upload | reply
+  - author | narrows to a language | wants the same done in C# | follow-up
+  - model | supplies code | C# SDK loop with upload-prompt-cleanup and result chaining | reply
+  - author | asks about constraints | usage limits and whether the paid consumer subscription helps | follow-up
+  - model | separates the two products | explains RPM/TPM/RPD quotas and that the subscription doesn't raise API quota | reply
+  - author | asks about failure handling | how to pause and resume when a free-tier limit is hit | follow-up
+  - model | gives a pattern | retry/backoff code for short limits, state-save for daily limit, nudges toward paid tier | reply
+  - author | states the real goal | wants chapter-by-chapter feeding for detailed summaries | follow-up, first mention of actual purpose
+  - model | proposes strategies | cumulative-summary chaining vs built-in chat history, plus a context-window table | reply
+  - author | asks about model tier | whether pro models would help | follow-up
+  - model | recommends a specific model | 1.5 Pro for its context window, restates subscription-vs-API split | reply
+  - author | asks to confirm a limit | whether free API tier is flash-only | follow-up
+  - model | confirms with a table | which models are free vs billing-gated | reply
+  - author | states a constraint and asks for a verdict | won't pay, already has consumer subscription, is manual web chat the best route | follow-up
+  - model | gives a verdict | recommends manual web chat over free-tier API automation, compares both | reply
+  - author | asks about automating the web chat itself | follow-up
+  - model | rules it out | no official method, ToS/ban risk, describes unofficial scraping options anyway, reaffirms manual | reply
+  - author | asks about a specific tool | whether IDE agent mode (Code Assist) could do it | follow-up
+  - model | evaluates and rejects | coding-focused tool, hidden quota burn, requires per-step approval, reaffirms web chat | reply
+  - author | asks a comparison question | whether per-chapter prompting beats one whole-story prompt | follow-up
+  - model | gives a verdict with reasoning | prompt chaining wins on focus, coherence, and output-limit risk | reply
+  - author | asks a technical scaling question | how context grows with prompt chaining, n per chapter | follow-up
+  - model | distinguishes two growth rates | context size linear, attention compute quadratic | reply
+  - author | asks a mechanics question | whether whole chat history counts toward next prompt's tokens | follow-up
+  - model | confirms with an example | yes, cumulative total each turn, shown as a growing-token table | reply
+  - author | asks a precise mechanics question | which three components of a prior turn are carried into history | follow-up
+  - model | confirms all three | prompt text, chapter text, and model output all included, shown as a transcript table | reply
+  - author | proposes a technique and asks for a verdict | whether a sliding-window prompt limiting to last 3 chapters makes sense | follow-up
+  - model | evaluates and redirects | calls it redundant since full history is sent anyway, suggests directing attention instead of restricting payload | reply
+- kept:
+- brought: The author brought no story or plan content into this stretch, only a technical goal — using Gemini to generate chapter-by-chapter summaries of their story — along with real-world constraints (no spending, existing consumer subscription) that shaped which workflow options were worth pursuing.
+- loop: The author worked through a chain of tooling questions, from API automation down to web-chat mechanics, using the model purely to settle a workflow method; the planning database kept none of this exchange, since the whole stretch is about how to run chapter summarization rather than about the story or plan itself.

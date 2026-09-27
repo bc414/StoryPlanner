@@ -1,0 +1,10 @@
+- asks:
+  - question | asks whether the two characters should grow more and more stressed as the chapters proceed, given escalating stakes | "should Twilight and Applejack be getting more and more stressed as they go on?"
+  - review | asks the model to review the story plans | "Please review the story plans"
+  - analysis | asks the model to give an analysis | "give an analysis"
+- supplies:
+  - plot beat description | the opening of the "Passion" chapter: the couple's reunion, cuddling and reflecting, sharing insecurities, becoming tired and late to a meeting, Fleur pointing to this as reason to teach chasseur doctrine | a short paragraph
+  - structural context | names the three preceding chapters (Extraction, Tempest, Crash) as escalating separation/tech/political stakes chapters, and describes letters as fuel and scene bridges | a couple of sentences
+- shaping:
+- openness: leans toward the escalating-stress idea it proposes for the letters/reunion arc while leaving the requested overall analysis open-ended, as shown by "should Twilight and Applejack be getting more and more stressed" followed by the general "give an analysis"
+- subject: pacing and emotional escalation across chapters leading into the "Passion" chapter's reunion scene between Twilight and Applejack, in a fiction planning conversation

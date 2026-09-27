@@ -1,0 +1,4 @@
+- sources:
+  - what I've established about Herzlander griffon ideal (lion and eagle both, one without the other is an insult) | treat as settled lore and the premise the model must build from; the author is correcting the model's framing with it | Actually, since I've established that in Herzlander | referred-to
+- order:
+- about: The user is correcting and refining the model's lion/eagle explanation by restating their established Herzlander lore, then adding that the Aquileian Republic has reclaimed the insult as a hopeful idea about friends covering each other's missing half.

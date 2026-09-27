@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the user's earlier point about the franchise's origin as a child projecting epic stories onto static toys, and built the toy ontology and Camp Fluttershy material on that. The user says the point was that Lauren Faust drew on the original Hasbro toys when she made FiM. | "What I meant to articulate is that Lauren Faust didn't create FiM out of nowhere, she was inspired by the original Hasbro toys." | Stated flatly as a restatement of their own meaning. There is no apology or irritation, and it comes with a re-posed question that redirects the model.
+- about: The user restates their earlier insight (Faust adapting the original Hasbro toys, not a child at play) and re-asks how it shapes the meta-narrative and thematic payload of the story.

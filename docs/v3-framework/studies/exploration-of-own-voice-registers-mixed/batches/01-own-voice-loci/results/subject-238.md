@@ -1,0 +1,16 @@
+- passages:
+  - note 4200 | biographical-expository | past tense, dates, family relation, escalating superlatives | Eagleclaw's age, kinship to Grover V, ambition, resentment of patriarchy | apart
+  - note 4200 | idiomatic-assessment | short blunt sentence, informal idiom "big ego...to back it" | closing judgment of her character | apart
+  - note 4201 | narrative-historical | past tense, dated event, military/political detail | fall of the Reich, Eagleclaw's planning, Chrysalis's offer of infiltrators and tanks | apart
+  - note 4201 | colloquial-aside | slang words "girlpower", "flexing", "power queen" | how Chrysalis played on Eagleclaw's ego | apart
+  - note 4201 | present-tense motive-analysis | tense shift to present, listed clauses of status/intent | Chrysalis's education, ambitions, and plan to manipulate an ally | apart
+  - note 4212 | terse plot-note | present tense, short flat declaratives | Eagleclaw's refusal of Eros as figurehead, his hatred of nobles, Chrysalis's redirection to industrialists | apart
+  - note 4213 | narrative-historical | past tense, quoted slogans, plot description | industrialists' promise misread as civil rights, Chrysalis offering bribes instead | apart
+  - note 4213 | present-tense evaluative-aside | tense shift to present, generalizing "that's...than" comparison | comment that bribery is easier than meeting the people's expectations | apart
+- shifts:
+  - note 4200 | biographical-expository | idiomatic-assessment | drops to a short blunt sentence with an informal idiom after the formal, superlative-laden description
+  - note 4201 | narrative-historical | colloquial-aside | vocabulary turns to slang ("girlpower", "flexing", "power queen") amid otherwise plain event-reporting
+  - note 4201 | colloquial-aside | present-tense motive-analysis | tense switches from past to present and the sentence becomes a listed run-down of inner state and intent
+  - note 4213 | narrative-historical | present-tense evaluative-aside | tense switches from past to present and the sentence turns into a generalizing comparative remark
+- registers: biographical-expository; idiomatic-assessment; narrative-historical; colloquial-aside; present-tense motive-analysis; terse plot-note; present-tense evaluative-aside
+- whole: These four notes move through several distinct registers — past-tense biographical or event narration, terse present-tense plot statements, and brief colloquial or present-tense evaluative asides — each holding its own sentence or sentences and standing apart from the next with a plain sentence-boundary break rather than blending together.

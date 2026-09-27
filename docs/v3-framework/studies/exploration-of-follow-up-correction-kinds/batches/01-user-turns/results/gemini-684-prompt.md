@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's coward-under-blackmail timing and asks a follow-up about how Rockfeller should behave when confronted, whether he confesses and begs or stays defiant or pleads innocent.

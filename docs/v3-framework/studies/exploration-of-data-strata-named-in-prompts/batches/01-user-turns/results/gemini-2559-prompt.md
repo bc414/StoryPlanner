@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | to be reviewed and synthesized together with the changes stated in this turn (no state guarantee, Dennis as pirate, verbal promises only) | Please review my story plans and synthesize | referred-to
+- order:
+- about: The user corrects the previous synthesis by removing any Aquileian state guarantee to Olenia, making the FJA volunteers and Dennis Discret independent rogues (Dennis in his eyepatch rather than a royal uniform) whose promises are only verbal, and asks the model to review their story plans and synthesize again.

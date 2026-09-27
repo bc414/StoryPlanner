@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's Trojan horse framing of Harmonic Capitalism and extends it by naming what it opposes on every side (the Stagnation of Harmony, ruthless capitalism, authoritarian Marxism and right-wing nationalism), without saying the model got anything wrong.

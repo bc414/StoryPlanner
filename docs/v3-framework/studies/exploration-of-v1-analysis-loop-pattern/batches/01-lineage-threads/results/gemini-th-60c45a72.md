@@ -1,0 +1,23 @@
+- steps:
+  - the author | corrects prior framing | argues parties aren't monoliths, questions the leader/sidekick asymmetry and the anti-democratic feel of a merger-by-vote, cites in-game tooltip | in gemini:404 prompt
+  - the model | returns a revised analysis | reframes the twist as "the chaos is the twist," breaks parties into internal wings, proposes a gradualist merger mechanism, adds a thematic line and sample dialogue | in gemini:404 response
+  - the author | asks for a verdict | lays out three named approaches to who holds the presidency and asks the model to rank them with reasons | in gemini:405 prompt
+  - the model | delivers a ranked verdict | picks one approach as best, argues against the other two, supplies a comparison table and sample dialogue | in gemini:405 response
+  - the author | brings a new plot beat | proposes a referendum scenario with a three-way polling split and asks for analysis plus its parallel to the Aquileian setup | in gemini:406 prompt
+  - the model | returns an analysis with a correction | fixes the polling math, profiles the three factions, draws a direct parallel to an existing Aquileian faction, diagnoses both leaders' miscalculations, and proposes a compromise resolution with closing dialogue | in gemini:406 response
+- kept:
+  - note 299 | the author's own words in this record | keeps the author's own non-monolith argument and tooltip reference, restated and applied to Equestria, filed on the Gaudreau/Applejack plot point
+  - note 300 | pasted whole from this reply | keeps the "Tall Tale" beat of Applejack seeing an idealized Republic, filed on the same plot point
+  - note 302 | pasted whole from this reply | keeps the line that the shock is that no one is winning, filed on the same plot point
+  - note 303 | pasted whole from this reply | keeps the description of Applejack's monarchist expectation of unity, filed on the same plot point
+  - note 304 | pasted whole from this reply | keeps the description of the Aquileian reality she expects to find, filed on the same plot point
+  - note 305 | pasted whole from this reply | keeps the twist beat of a room full of arguing griffons and ponies, filed on the same plot point
+  - note 306 | pasted whole from this reply | keeps the lesson that the Aquileian Way is the argument itself, filed on the same plot point
+  - note 307 | pasted whole from this reply | keeps the narrative dialogue beat between Applejack and Henri, filed on the same plot point
+  - note 308 | pasted whole from this reply | keeps the "democracy is a process" thematic statement, filed on the same plot point
+  - note 309 | pasted whole from this reply | keeps the description of Applejack's monarchist expectation of Gaudreau, filed on the same plot point
+  - note 310 | pasted whole from this reply | keeps the beat of Gaudreau begging Vérany for votes, filed on the same plot point
+  - note 311 | pasted whole from this reply | keeps the lesson that democracy is herding cats and FJA needs outside validation, filed on the same plot point
+  - note 1020 | pasted from this reply inside the author's own framing | keeps the profile of Celestial Party traditionalist voters, reframed and filed on the polling-results plot point
+- brought: The author brought a correction to the model's prior monolith-party framing (citing an in-game tooltip) and, later, a new referendum plot beat with a specific three-way polling split.
+- loop: The author brings setting-grounded corrections and new plot proposals, the model returns elaborated thematic analyses and faction breakdowns in response, and the database keeps specific phrasings and beats from those replies (plus the author's own restated argument) as notes attached to the relevant plot points.

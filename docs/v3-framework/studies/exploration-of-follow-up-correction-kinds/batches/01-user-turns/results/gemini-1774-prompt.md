@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model offered metaphor-based names (dance, ledger, mirror, nursery) when the user wanted a name that describes the spell's function directly and not a euphemism or metaphor | Actually I don't want vague euphemisms. It shouldn't be a metaphor, it should be self-describing. | Flat statement of the rejected approach, opening with 'Actually', followed by the alternative requirement and a reason (it is functionally an anti-rape spell but needs a more graceful name)
+  - reading of the request | The model supplied paired Aquileian and Equestrian names, but the user says no English name is needed because the ponies can just use the French name | it doesn't necessarily need an english name, the ponies can just use the French name since it'll sound fancy to them | Stated as a mild scoping-down with a reason given (the French will sound fancy to the ponies), not as a complaint
+- about: The user rejects the metaphor-driven, dual-language naming options, restates that the name should be literal and French-only, and adds backstory tying the spell to the canon Canterlot Wedding changeling banishment.

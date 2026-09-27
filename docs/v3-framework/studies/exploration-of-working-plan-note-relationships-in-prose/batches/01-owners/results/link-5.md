@@ -1,0 +1,12 @@
+- relations:
+  - 111|110|the page evidence (parents admit they were not good farmers) is what the reader is meant to take as a sign of the weakened earth pony magic|They say they were not good farmers / The feud weakened their earth pony magic|implicit
+  - 109|110|the parents' account of the farms as prisons is the on-page counterpart of the inferred loss of pride and belonging that weakened the magic|farms were prisons / loss of pride and belonging|implicit
+  - 150|151|the page note shows families pouring pride into food to top the leaderboard; the inference note reads that as ambition funneled into pride rather than extractive greed|poured their pride into producing food / funneled ambition into pride|implicit
+  - 150|110|earlier state and its loss: families invested pride in producing food, then the feud is said to have lost them pride and weakened the magic|poured their pride / loss of pride and belonging|implicit
+  - 110|151|tension or contradiction: one says the feud cost the families belonging and weakened their magic, the other says the division was weaponized to produce ultimate solidarity|weakened their earth pony magic / ultimate, standardized solidarity|implicit
+  - 109|151|the parents' feeling of the farms as prisons keeping them from loving each other sits against the claim that they deliberately used the division of their families as a tool|prisons that prevented them / weaponized their families' division|implicit
+- outward:
+  - 110|the feud between the two families, its origin and course held elsewhere|The feud weakened their earth pony magic
+  - 150|the SAA Leaderboard, a competition or ranking not described in this item|dominate the SAA Leaderboard
+  - 151|the families' division and the wider practice of extractive greed, set up elsewhere|their families' division / extractive greed
+- whole: The notes hang together loosely as one thread about how the families' feud and their pride relate to earth pony magic, though the notes on solidarity and on weakened magic pull in opposite directions and the tie between page and inference notes is mostly implicit.

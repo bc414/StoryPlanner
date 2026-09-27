@@ -1,0 +1,4 @@
+- sources:
+  - canon FiM | the published show is the body of material the model is to draw on to identify which songs are already in-universe (Watsonian) without needing reinterpretation | which songs are already fully watsonian in canon FiM | referred-to
+- order:
+- about: The user asks the model to identify, from the aired show, which musical numbers are already fully in-universe, following the model's proposal to reinterpret the out-of-universe ones.

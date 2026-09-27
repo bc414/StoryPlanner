@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a "what if" revision to the story plan, proposing that Trimmel, Thranx, Elvir Roland and Ixodida, arrogant changelings who were unaffected by the Lioness Spell and came for "working class liberation", are the ones who interview Star Swirl and devise the bauleiter protocol.

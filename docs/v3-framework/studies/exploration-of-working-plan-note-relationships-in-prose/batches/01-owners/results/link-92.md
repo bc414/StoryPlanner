@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2423|Grover III's own culture's version of letter-sending, and its system of fealty, which are described elsewhere in the story|his own culture's version and realized that fealty was unnecessary
+  - 2423|The unicorns' letter-teleporting practice and the meeting between Grover III and Celestia, which happen in other scenes|Grover III meeting Celestia probably connected the fact that unicorns could teleport letters
+  - 2423|Industrial tyranny, a force in the wider world that his culture of chivalry and dignity is set against|scale of industrial tyranny which scales infinitely and soullessly
+- whole: Only one note is held here, so there is nothing for it to join with, and it stands as a single entry.

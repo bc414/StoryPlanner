@@ -1,0 +1,5 @@
+- sources:
+  - the file Scribe 3 | the material to be summarized in detail; the content the model is to draw on for the new summary | can you give a detailed summary of the story in the file Scribe 3 | first-named
+  - the first two parts' summary I have provided above | given as already-done summaries of Parts 1 and 2, supplied as background and continuity so the model only covers Part 3 | The first two parts' summary I have provided above | first-named
+- order:
+- about: The user pastes summaries of Parts 1 and 2 of their story and asks for a detailed summary of the next part, the file Scribe 3.

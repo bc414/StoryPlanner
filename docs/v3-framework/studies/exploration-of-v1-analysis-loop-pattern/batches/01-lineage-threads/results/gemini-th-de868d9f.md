@@ -1,0 +1,41 @@
+- steps:
+  - the author | brings a plan document and asks for a role analysis | plan export, question about a character's function in a chapter | opening of the conversation
+  - the model | delivers a structured narrative analysis | thematic role, character dynamic, arc summary for the character in the chapter | first response
+  - the author | pivots to a research request | question about drawing on a real country's history for inspiration | after the character analysis
+  - the model | delivers a broad historical-parallel analysis | numbered mapping of historical episodes onto story factions and mottos | response to the history request
+  - the author | narrows the research question | comparison of a modern nation's economic model to other modern powers, checked for real-world accuracy | next prompt
+  - the model | fails to produce an answer | reports no access to needed content | response
+  - the author | repeats the same question with more specificity | restated comparative economic-model question | next prompt
+  - the model | delivers a comparative analysis with a summary table | economic-model comparisons mapped onto the story's nations | response
+  - the author | asks a follow-up factual question | question about a real country's immigration and refugee policy | next prompt
+  - the model | delivers a factual policy analysis with story application | policy dichotomy mapped onto the story's nations | response
+  - the author | asks for a deeper factual summary | current status of a refugee population | next prompt
+  - the model | delivers a factual summary with story application | policy details and narrative hooks | response
+  - the author | asks for statistics | refugee counts, population percentages, change over time | next prompt
+  - the model | delivers a statistical breakdown with story application | numeric data and demographic profile mapped to story scale | response
+  - the author | asks a historical-political question | pattern of a nation being abandoned by allies and its current dependency | next prompt
+  - the model | delivers a historical analysis with story application | betrayal narrative and dependency dynamics mapped onto factions | response
+  - the author | asks about relevance of older historical eras | partitions and interwar period | next prompt
+  - the model | delivers a historical analysis with a comparison table | historical psychology mapped onto the story's republic and its rival model | response
+  - the author | asks a specific factual comparison question | difference between two historical leaders | next prompt
+  - the model | delivers a comparative character analysis | leader archetypes proposed for existing and cautionary story characters | response
+  - the author | asks a follow-up identification question | name of another historical leader matching a description | next prompt
+  - the model | identifies the figure and proposes a brief character use | technocrat-figurehead archetype for a story role | response
+  - the author | brings an updated plan document | new plan export, no explicit question stated | after the research thread ends
+  - the model | identifies a gap and proposes a character arc | archetypes and integration plan for two underused family characters | response
+  - the author | corrects the model's proposal against established plan details | timeline and dispositions of the two characters, reframing question | next prompt
+  - the model | revises the arc per the correction | reworked arc and scene sketch for the reunion | response
+  - the author | adds a specific detail to sharpen the concept | duration of past suppression and the daughter's anxiety going into the scene | next prompt
+  - the model | elaborates the scene and its payoff in more detail | expanded scene breakdown and campaign material | response
+  - the author | proposes borrowing a fan idea | one character as the pen-name author of a fictional book series | next prompt
+  - the model | analyzes the thematic fit of the idea | thematic parallel and a way to reconcile it with existing canon material | response
+  - the author | constrains the idea to keep story logic consistent | fictional-only status of the book character, rejection of later official lore | next prompt
+  - the model | revises the analysis to match the constraint | refined thematic analysis and campaign application under the new constraint | response
+- kept:
+  - note 2741 | pasted whole from this reply | keeps a sentence describing the character's limited frame of reference for a functioning society, filed on a plot-link entry
+  - note 2742 | pasted whole from this reply | keeps a sentence naming the character's function as witness to a rival institution, filed on the same plot-link entry
+  - note 2743 | pasted whole from this reply | keeps the passage comparing two factions' treatment of the weak and its bearing on a weapons-development goal, filed on the same plot-link entry
+  - note 2744 | pasted from this reply inside the author's own framing | keeps the arc's closing line reworded with an added sentence about the moral basis it gives a future invention, filed on the same plot-link entry
+  - note 3329 | pasted from this reply inside the author's own framing | keeps a summary line contrasting one figure's view of the daughter with her actual parents' view, filed on a parent-reunion plot-link entry
+- brought: The author brought two successive exports of the evolving story plan to ground the model's analysis in the plan's current state, plus a series of standalone research questions about a real country's history and modern politics as a source of inspiration.
+- loop: The author supplies plan documents or research questions and then corrects or constrains whatever the model proposes to keep it consistent with established plan details; the planning database keeps only a handful of the model's phrasings from the earliest and latest exchanges, filed as short notes on the specific character and plot-link entries the conversation was about.

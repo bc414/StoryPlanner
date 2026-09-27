@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's 80-year paradigm as given and proposes, as a question to be confirmed, that Coltbert and the public wrongly believe the Stagnation lasted 1,000 years and was Celestia's doing, with sanitized history books except the restricted Canterlot Archives.

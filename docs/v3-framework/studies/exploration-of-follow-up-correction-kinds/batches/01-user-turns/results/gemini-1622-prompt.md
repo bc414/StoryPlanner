@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - historical characterization used in the analogy | the claim that the French were 'sentimental' about Verdun, offered as the parallel to Applejack being a 'Sentimental Pony', is put in doubt as unexplained or inaccurate | 'Why was Verdun sentimental?' | as a short bare question that challenges the word without stating disagreement or giving a reason
+- about: The user picks out one word in the model's Verdun comparison and asks it to justify why Verdun should count as sentimental, questioning the premise of that part of the parallel.

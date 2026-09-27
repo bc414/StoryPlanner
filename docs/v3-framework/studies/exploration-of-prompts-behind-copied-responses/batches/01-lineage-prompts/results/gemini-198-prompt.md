@@ -1,0 +1,13 @@
+- asks:
+  - check | asks whether AJ personally disliking Kemerskai is a good narrative choice that will benefit the story | "Will this work and help the story?"
+  - brainstorm | asks how subtle differences between Herzlander and Aquileian culture/ideology could feed into or explain AJ's dislike | "How can the subtle differences in Herzlander and Aquileian culture/ideology play into this?"
+  - check/propose | asks whether the dislike stems specifically from AJ's visceral reaction to facing a stereotypical stiff-upper-lip field marshal | "Is it because AJ feels a shudder when facing a real, honest to goodness stiff upper lip field marshall?"
+  - elaborate | asks the model to expand in depth on this proposed reasoning | "Go into the details on this."
+  - research/recall | asks the model to consult the character's established canonical personality from EaW lore | "Look into his canon personality in EaW lore."
+- supplies:
+  - idea | a proposed character dynamic where AJ does not personally like Kemerskai, offered as a way to make the story more character-driven | a sentence
+- shaping:
+  - instruction, answer should go into detail rather than stay brief | "Go into the details on this."
+  - instruction, answer should be grounded in the character's canon personality from EaW lore | "Look into his canon personality in EaW lore."
+- openness: leans toward an answer it names, since it proposes both a general cultural-difference explanation and a specific named hypothesis (the stiff-upper-lip field marshal shudder) and asks the model to validate and elaborate on these rather than leaving the reasoning fully open.
+- subject: whether and why AJ would personally dislike the character Kemerskai, tying this to Herzlander vs. Aquileian cultural/ideological differences and Kemerskai's canon personality in EaW lore

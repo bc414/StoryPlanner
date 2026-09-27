@@ -1,0 +1,5 @@
+- sources:
+  - Applejack's existing character arc, including her not wanting to be the leader, hoping Celestia would "wake up", and the Combined Arms beats of accepting Rarity's uniform after talking with Trimmel | treat as the established plan to analyze and build on; the model is to analyze it as it stands | existing character arc about not wanting to be the leader and hoping Celestia would "wake up" | referred-to
+  - the author's new idea that Applejack's parents left the farm to be industrialists, and reunite with her over the burnt farm at the start of Combined Arms | a fresh proposal, not yet settled in the plan; the model is to explore how it interacts with the existing arc | I recently came up with the idea | first-named
+- order:
+- about: The user asks for an analysis of Applejack's existing arc around Combined Arms and how a newly conceived parental reunion, replacing the suspicious-absence backstory, would interact with her wish for Celestia to wake up and her later acceptance of the uniform.

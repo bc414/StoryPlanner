@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to list further dark-mirror character pairings beyond the Minette and Pagala pairing it just described, without pointing at any body of material.

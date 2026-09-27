@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the character analysis by proposing a new side conflict for Fleur (anti-monarchy distrust of Celestia and initially of Twilight) and asks whether it can fit with the chapter 8 nerd-alliance beat and the Town Hall guilt release, without saying the model's analysis was wrong.

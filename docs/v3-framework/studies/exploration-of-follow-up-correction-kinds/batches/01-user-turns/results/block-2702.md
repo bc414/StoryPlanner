@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's Faust-versus-Hasbro parallel and asks a new question about whether Supernatural has a comparable creator-versus-corporate tension, suggesting its escalation up to God might reflect it.

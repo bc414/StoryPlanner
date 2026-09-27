@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to confirm their understanding that Claude can be used through cloud providers like Vertex AI or AWS without dealing with Anthropic directly, or through Anthropic's own services that may route to those providers.

@@ -1,0 +1,4 @@
+- sources:
+  - the story planner | the body of material to run a new analysis on, to produce all one-off comparisons | Do another analysis using the story planner | referred-to
+- order:
+- about: The user asks the model to run another analysis on the data in the story planner, this time showing all one-off comparisons.

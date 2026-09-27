@@ -1,0 +1,4 @@
+- sources:
+  - v1 archive data | pull it and use it as material for the report before writing | "You must also pull v1 archive data too before writing the report" | referred-to
+- order:
+- about: The user tells the model to also draw on the v1 archive data before writing the report, since it has not yet pulled it in enough.

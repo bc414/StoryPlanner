@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Luna-as-bottleneck setup and asks a new design question, offering three options for how exclusive the dreamscape spell is, with added magic-cost mechanics, and requests a spell matrix and a pros-and-cons thematic analysis.

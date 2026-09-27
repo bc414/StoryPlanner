@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the surname brainstorming and asks a new, separate historical research question about how wine serfs in Champagne fed themselves and what feudal dues the lord demanded, without commenting on the model's surname options.

@@ -1,0 +1,18 @@
+- passages:
+  - note 4270 | lore-explanation | declarative present-tense statements, third person, full sentences | Twilight's magic level and cutie mark discount | apart
+  - note 4270 | meta-craft commentary | names device "Subversion," reflects on the story's own twist | Celestia's magic level compared to the setup | apart
+  - note 5427 | telegraphic brainstorming | lowercase start, sentence fragments, grammar slip "capacity grow" | magical power growing with training like a muscle | apart
+  - note 5427 | expository summary | "So" introducing complete subject-verb sentences, restates a conclusion | source of Twilight's and Starlight's power, diminishing returns | apart
+  - note 5667 | lore-explanation | long compound sentence, causal "because," declarative historical claim | why Celestia made love-talented ponies into alicorns | apart
+  - note 5667 | meta-craft commentary | evaluative verbs "solves," "subverts," exclamation marks, fandom terms named | how this lore resolves fan criticism and tropes | apart
+  - note 5795 | lore-explanation | fragmentary and hedged statements ("maybe"), reference to "the dotted line report" | what Canterlot's crystal reserves are used for | apart
+  - note 5795 | inference note | "So" plus future-perfect tense drawing a deduction | whether Twilight would know of the crystals | apart
+  - note 5795 | task directive | imperative self-instruction "Need to adjust" | revising plot points about the crystal mystery | apart
+- shifts:
+  - note 4270 | lore-explanation | meta-craft commentary | "Subversion is that" names a narrative device instead of stating an in-world fact
+  - note 5427 | telegraphic brainstorming | expository summary | shift from sentence fragments to complete sentences introduced by "So"
+  - note 5667 | lore-explanation | meta-craft commentary | "This solves" plus exclamation marks turns from stating lore to assessing its narrative payoff
+  - note 5795 | lore-explanation | inference note | "So" plus future-perfect tense turns from stating lore facts to inferring a character's knowledge
+  - note 5795 | inference note | task directive | imperative "Need to adjust" addresses the author's own task rather than the story's logic
+- registers: lore-explanation; meta-craft commentary; telegraphic brainstorming; expository summary; inference note; task directive
+- whole: This item's notes move across several distinct registers — declarative lore-explanation, evaluative meta-craft commentary, terse telegraphic brainstorming, expository summary, inferential deduction, and self-addressed task directive — with each register occupying its own sentence or paragraph and standing apart from the next rather than blending within one sentence.

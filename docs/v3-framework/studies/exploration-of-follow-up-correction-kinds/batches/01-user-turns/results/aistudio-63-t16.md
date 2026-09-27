@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting the same kind of interaction analysis for Blueblood and Rarity, without challenging anything in the model's breakdown.

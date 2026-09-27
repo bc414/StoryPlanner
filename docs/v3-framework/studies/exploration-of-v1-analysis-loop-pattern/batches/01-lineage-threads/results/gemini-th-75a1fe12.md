@@ -1,0 +1,6 @@
+- steps:
+  - author | supply | the full current plan export as an attached document, with no accompanying question or comment | opening move of the conversation
+  - model | analyze | a section-by-section literary/thematic reading of several plan elements (the letter device, the sleep-vs-stimulant tank doctrine, Pinkie Pie's arc, and the Tzinacatl volunteers), closing with a summary of their combined narrative impact | the sole reply, following the upload
+- kept:
+- brought: The author brought the entire plan as a document upload with no framing text, letting the model choose what in it to comment on.
+- loop: The author hands over the whole plan for open-ended review, the model returns an unsolicited multi-part thematic analysis of specific elements within it, and the exchange ends there with no note traced back into the plan database, so this round of analysis is not shown to be captured anywhere.

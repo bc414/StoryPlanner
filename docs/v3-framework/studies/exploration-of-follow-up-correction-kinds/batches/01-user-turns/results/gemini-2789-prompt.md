@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question about whether Fleur's fertilizer devices should be active spell matrices or Star Spade variants, and offers the existing Wings of Dew and a parallel of dynamic unicorn, earth pony and pegasus magic as context, building on the model's answer without disputing it.

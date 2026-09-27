@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated Chrysalis's story as a prequel sitting after TLTT and Minette's story in the sequence. The user says her story, like Minette's, is mostly before TLTT but also runs partly inside TLTT's timeline, so the label and the framing are off. | "I should just say Chrysalis's story", "features 80% before TLTT and probably 10-20% within TLTT" | Made in passing as a parenthetical self-correction of the word, then backed with proportions, with no blame placed on the model.
+- about: The user answers the model's open questions with detailed plan material (Chrysalis's anagnorisis, her narcissistic endpoint, her wound, Acornage and Herzland, the title), while briefly correcting the "prequel" framing at the start.

@@ -1,0 +1,7 @@
+- sources:
+  - the conversation and the artifacts | review to trace where the CognitiveMode values came from and judge whether they are obsolete or should change | Review where these came from throughout the conversation and the artifacts | referred-to
+  - CognitiveMode enum (InUniverseContent, ReaderExperienceDesign, NotesToSelf, Analogical, LinguistingExecution, Page, WorldInference) | existing design under evaluation, to be updated or scrapped, not treated as settled | I'm wondering if I should update or scrap this concept | referred-to
+  - the new design | standard the enum is checked against to see whether values are obsolete or need modifying | fit the new design | referred-to
+  - EditorModes (Expansion, Linking, Gardener) and DisplayQuestion / UsageDirective display text | current in-use mechanism stated as background for the question | I am currently using the EditorModes | referred-to
+- order:
+- about: The user asks the model to trace where the CognitiveMode enum came from in the conversation and artifacts and decide whether to scrap or modify it for the new design, noting it currently only sets track background color while EditorModes toggle display text.

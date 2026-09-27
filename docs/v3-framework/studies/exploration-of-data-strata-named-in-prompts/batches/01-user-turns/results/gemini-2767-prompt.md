@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to continue the comparison of labor and factory-committee policy by explaining Lenin's and Kerensky's respective views, without naming any source of data.

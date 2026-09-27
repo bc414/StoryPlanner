@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a one-sentence distillation of the proposition the model laid out and asks whether it captures the idea or leaves something out, which is a check on a summary and not a challenge to anything the model said.

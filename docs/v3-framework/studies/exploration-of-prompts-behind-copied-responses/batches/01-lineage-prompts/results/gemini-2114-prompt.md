@@ -1,0 +1,10 @@
+- asks:
+  - propose worldbuilding idea | pitches that Skyfall's economy include tier-4 fake purveyors who import FJA luxury goods, upsell them to elites, and brute-force cook them, likening this to the marketing-driven fakery of American wagyu (mostly non-wagyu ground beef) | "I think Skyfall should be full of tier 4 fakes... brute force cooking them"
+  - propose character arc | pitches that the reformed thugs living in Skyfall should work to put these fake-luxury poseurs out of business | "need to put those poseurs out of business"
+  - propose business detail | pitches that the reformed thugs can profit heavily by selling with proper technique at $200+ instead of the $35 price other professionals charge | "they can sell at $200+ with proper technique"
+  - propose subplot | pitches that the reformed thugs also sell dishes like pot au feu to ordinary people to drive industrial fast-food (a McDonald's equivalent) out of business | "sell the pot au feu and others to the masses to put industrial slop fast food ... out of business"
+- supplies:
+  - idea sketch | a worldbuilding concept covering fake-luxury food fraud, reformed-thug entrepreneurs, and undercutting mass fast food in the Skyfall setting | a short paragraph
+- shaping:
+- openness: Leans toward an answer it names: the message states its own preferred plot direction ("I think Skyfall should be...") for each of the four points rather than asking an open question or offering alternatives to choose between.
+- subject: Skyfall's food economy: fake-luxury purveyors versus reformed thugs undercutting both elite fraud and fast food

@@ -1,0 +1,10 @@
+- steps:
+  - the author | supplies material | full plan export document (no visible text, attachment placeholder) | opening of the exchange
+  - the model | diagnoses mechanism | explains a psychological bridge (VOPS profile) linking a remembered nightmare to a present-tense reality that could motivate a character's turn | early in the response
+  - the model | generates options | lays out three alternate framings for a mentor-figure's parting advice, each keyed to a different angle, memory-trigger, and resulting shift | middle of the response
+  - the model | frames themes | ties the proposed turn to three thematic devices (reclaiming a slur, a uniform-as-persona motif, an inversion of a historical figure) | later in the response
+  - the model | recommends | singles out one of the three options as the strongest fit with the established themes | close of the response
+- kept:
+  - note 4078 | the plan held this text before this reply | pre-existing plan phrase on a subject about mercy/strength reappears in the conversation rather than being newly captured from it; nothing new drawn from this exchange, the database line was quoted back
+- brought: The author brought the entire current plan export as the basis for the exchange, without an explicit written question attached.
+- loop: The author supplied the whole plan for the model to work on, and the model returned a diagnostic breakdown plus branching options and a recommendation for one character-turning moment; the one note traced to this exchange shows not new capture but an existing plan concept being echoed back inside the model's reply, so the loop here is verification/elaboration of standing plan material rather than the plan absorbing something freshly generated in this response.

@@ -1,0 +1,8 @@
+- asks:
+  - revise | update the pasted phase-0 system instruction so it fits the referenced "waterfall strategy" | "Please update it for this waterfall strategy"
+  - analyse/check | determine whether the JSON output schema needs to change, and if so how, to make it more useful for the new phase-1 approach | "what needs to change in the json output if any to make the output more valuable for the new way of phase 1"
+- supplies:
+  - system instruction | an existing phase-0 prompt defining a "Master Information Architect" role that proposes 2-5 sorting methodologies with fields (MethodologyName, Reasoning, ObjectiveAchieved, ExampleBuckets) output as JSON | a short document, several paragraphs
+- shaping:
+- openness: Leans toward an answer without stating it in the message: it directs the model to adapt the instruction to a "waterfall strategy" presumed known from prior conversation but not described here, and leaves the JSON-schema question open ("if any") rather than specifying what should change.
+- subject: Revising a phase-0 AI system prompt (taxonomy-proposal role) and its JSON output schema to align with a newly adopted "waterfall" approach to phase 1

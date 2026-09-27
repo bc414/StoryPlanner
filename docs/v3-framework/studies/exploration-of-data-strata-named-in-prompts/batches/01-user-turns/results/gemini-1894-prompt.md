@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a psychological profile of the character Minette at two story points, her arrival in Vinovia and during Le Grand Foyer, without pointing at any body of material to draw on or avoid.

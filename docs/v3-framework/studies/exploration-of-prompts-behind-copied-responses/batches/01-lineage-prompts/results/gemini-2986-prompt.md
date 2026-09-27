@@ -1,0 +1,10 @@
+- asks:
+  - analyse | produce a comparative overview of three AI model families covering their estimated parameter counts and release history | 'comprehensive comparison of chat gpt, Gemini and Claude in terms of estimated parameters, the full history from 2022 to 2026'
+- supplies:
+- shaping:
+  - cover three named systems (ChatGPT, Gemini, Claude) | 'chat gpt, Gemini and Claude'
+  - address estimated parameter counts specifically | 'in terms of estimated parameters'
+  - span the timeline from 2022 through 2026 | 'the full history from 2022 to 2026'
+  - make it comprehensive in scope | 'comprehensive comparison'
+- openness: Open: the message names the dimensions to compare (estimated parameters, 2022–2026 history) but does not state any figures, dates, or conclusions itself, so the model must supply all content.
+- subject: Comparative history and estimated parameter sizes of ChatGPT, Gemini, and Claude, 2022–2026

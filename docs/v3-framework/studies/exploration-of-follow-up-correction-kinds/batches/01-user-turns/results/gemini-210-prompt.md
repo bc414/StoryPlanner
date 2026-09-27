@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the shovel to propose a second recurring object, Applejack's bulky Equestrian crystal radio, and asks whether it works, how to improve it, and how to justify her keeping it.

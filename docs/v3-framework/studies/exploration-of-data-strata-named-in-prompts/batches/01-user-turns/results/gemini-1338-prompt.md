@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author adds a story idea of their own: the voltigeurs' pensions, lavishly granted by Discret and then endangered by his royal note scheme, give them a reason to join the revolution.

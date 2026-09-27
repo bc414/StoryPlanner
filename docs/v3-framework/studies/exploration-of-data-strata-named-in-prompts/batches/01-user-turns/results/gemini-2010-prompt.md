@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to write a prompt for the AI Studio Build tab that will generate a new React SPA section for visualizing the sorting options, without pointing at any body of material to draw on or avoid.

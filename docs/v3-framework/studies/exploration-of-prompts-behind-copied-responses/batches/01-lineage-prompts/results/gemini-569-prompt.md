@@ -1,0 +1,10 @@
+- asks:
+  - choice/evaluation | weigh in on which of four proposed narrative options for how the pink love's 'methadone' component originates and is used should be adopted | "Narrative option 1... Option 2... Option 3... Option 4" presented as alternatives
+  - consistency check | check whether Chrysalis's terror state (a piece of established worldbuilding) still holds up if Option 1 is used | "Does Chrysalis's terror state still work?"
+  - explain/brainstorm | come up with a reason why Chrysalis would intentionally discard the methadone component under Option 2 | "Question is why does Chrysalis throw it out intentionally?"
+- supplies:
+  - premise | current worldbuilding idea that Chrysalis's love harvester filters pink (caloric) and red love, with pink missing a 'methadone' component | a short paragraph
+  - option set | four alternative accounts of where the methadone component comes from, whether Chrysalis uses/discards it, and how Twilight/Fleur later develop it | four short paragraphs, one per option
+- shaping:
+- openness: Mainly asks for a choice among four named narrative options, with an embedded consistency check tied to naming Option 1 and an embedded request to explain/justify a stated gap in Option 2.
+- subject: Worldbuilding chemistry of Chrysalis's love harvest system and its 'methadone' component for treating red-cocktail withdrawal

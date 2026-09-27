@@ -1,0 +1,13 @@
+- passages:
+  - 4738 | action-narration | present-tense, named-subject verb-clause | Spike visiting Ember to invite her to the meeting | apart
+  - 4739 | rule/fact fragment | elliptical noun-phrase, no stated verb, passive cause clause | dragons barred from attacking Canterlot | run-in
+  - 4739 | action-narration | named-subject present-tense clauses, causal 'only... keep' | Ember's insult and the friendship that keeps her present | run-in
+  - 4740 | action-narration | present-tense named-subject clause | Ember offering dragons for the Spearhead with unicorn shielding | run-in
+  - 4740 | rationale/justification | future-tense 'will', evaluative purpose wording | how the offer flatters egos and helps the army | run-in
+  - 4740 | mechanism/expository worldbuilding | general plural subject, present-tense description, conditional 'if... can' | how love canisters and crystal enhancers work, with a magic-draining fallback | apart
+- shifts:
+  - 4739 | rule/fact fragment | action-narration | switch from a verbless general statement to full sentences naming Ember and her reaction
+  - 4740 | action-narration | rationale/justification | switch to future tense and to evaluative wording about egos and army benefit
+  - 4740 | rationale/justification | mechanism/expository worldbuilding | paragraph break plus switch to a general plural subject and conditional description of the gear
+- registers: action-narration; rule/fact fragment; rationale/justification; mechanism/expository worldbuilding
+- whole: This item's three notes move between a handful of terse registers — bare action-narration, an elliptical rule-fragment, forward-looking rationale, and expository mechanism-description — with most of these blending into one another inside a note without any break, except for the one paragraph gap in note 4740 that sets the mechanism passage clearly apart.

@@ -1,0 +1,6 @@
+- sources:
+  - original plan for the ash scene in chapter 16 Breakthrough (Applejack scoops the ash while Twilight helps) | the author's earlier plan, now set against the delay-until-Trimmel option; the model is to weigh it in the pros and cons, not treat it as settled | I was originally planning on Applejack scooping up the ash in chapter 16 breakthrough | referred-to
+  - canon episode Applebuck Season | a published episode the ash scene is meant to mirror; treat as a reference point for the scene's design | It would be a mirror of the canon episode Applebuck Season | referred-to
+  - the story's own timeline and war situation (4 months between the combined arms meeting and the Spearhead execution, the return to Ponyville in Encirclement, the strategic war already won and the changeling army collapsed, Breakthrough needing massive resources for a Spearhead that may fail) | the author's statement of the plot facts; treat as true premises for judging each timing | There is a 4 month stretch between the combined arms meeting and the Spearhead execution | referred-to
+- order:
+- about: The author pushes back on the model's suggestion to delay the ash scooping, restates their original chapter 16 plan with story-timeline reasons on both sides, and asks for a comprehensive pros and cons.

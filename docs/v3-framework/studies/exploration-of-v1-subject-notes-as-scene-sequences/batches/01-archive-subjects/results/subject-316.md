@@ -1,0 +1,9 @@
+- passages:
+  - 5682 | revision directive | a note-to-self that the subject needs to be reimagined | none | opens the note as a need-to statement, no event
+  - 5682 | statement about the subject | the nation is reframed as outright fascist feudal exiles rather than a secret nation | none | declarative contrast, 'Not a secret nation but outright fascist feudal exiles'
+  - 5682 | statement about the subject | they also sell drugs, in competition with the Tzinacatl | none | declarative line about what they do, no moment or date
+  - 5682 | open question | whether Chirropterra is set in a jungle or not | none | phrased as a question
+  - 5682 | statement about the subject | contrast of economic systems: the Tzinacatl drug tribes are capitalist, the chiropterans feudal; only red love, no pink | none | comparison and rule-like declaration, no event
+  - 5682 | statement about the subject (tentative origin lore) | somehow related to thestrals who left Equestria to spread Luna's message of friendship in her memory, but after the first generation it was lost and the Nightmare Moon legend took over | none | backstory described in general terms, hedged with 'Somehow related', no year or dated moment
+- sequences:
+- whole: A single short brainstorming note that redirects the concept of Chirropterra into a fascist feudal exile nation and drug-selling rival of the Tzinacatl, with an open setting question and a tentative link to thestrals, and with no scene beats or dates.

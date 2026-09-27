@@ -1,0 +1,8 @@
+- sources:
+  - v1 archive, existing data on the repatriation system design around 930 ALB and following years | analyze what is already there in that area and report on it | Give an analysis of the existing data in that area in v1 archive | referred-to
+  - story planner world truth level | treat as true: the repatriation system was not Celestia's design, whatever characters assume | It is NOT Celestia's design at the story planner world truth level | referred-to
+  - chapter 12 in v1 archive, scene Twilight contemplates Hearth's Warming Eve | check whether it already shows Fleur assuming Celestia designed the Stagnation of Harmony; if it does not, synthesize that in | if that part isn't there yet in that scene it should be synthesized in | referred-to
+  - the initial general mythology from 300+ years of hippogriff/seapony seafaring escort for treacherous New Mareland voyages | starting point to analyze as the origin from which the Winter Wrap Up foal delivery spectacle develops | analyze how the initial general mythology from 300+ years | referred-to
+  - TLTT fabula and syuzhet | the plan against which to assess the further effects of the enhanced foal delivery story | what other effects does this enhanced foal delivery story have on the TLTT fabula and syuzhet | referred-to
+- order:
+- about: The user asks the model to analyze what the v1 archive already holds on how the repatriation system was designed around 930 ALB (not by Celestia in world truth, though Fleur assumes so, with a chapter 12 scene to check or synthesize), then to trace how the seafaring escort mythology became the Winter Wrap Up hippogriff foal delivery spectacle and what that does to the TLTT fabula and syuzhet.

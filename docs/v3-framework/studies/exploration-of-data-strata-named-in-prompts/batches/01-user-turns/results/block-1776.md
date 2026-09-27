@@ -1,0 +1,7 @@
+- sources:
+  - Clash of Clans economy (the published game, gold and elixir coming out of the ground over time) | the subject the model is asked to analyze, and which the user treats as a fair model of how a real economy works at system level | "give an analysis of Clash of Clans economy" | first-named
+  - the user's own memory of playing the game 13 years ago as a high schooler | account from memory that the model should take as the starting impression: the economy seemed fake because resources just appear over time | "I played this game 13 years ago as a high schooler" | first-named
+  - the parents' "money doesn't grow on trees" / zero-sum lecture told to kids on allowance | treated as a simplistic lesson about individual responsibility, which the user now sees as a worse description of the whole system | "zero sum lecture that kids who get allowance money are told" | first-named
+- order:
+  - Clash of Clans economy over the parents' zero-sum "money doesn't grow on trees" lecture | the user says that for the system as a whole the game is "closer to reality than the zero sum lecture"
+- about: The user asks the model to analyze the Clash of Clans economy, drawing on their own memory of playing it and their view that its resources generated over time model the real economy better than the zero-sum lesson they were told as a child.

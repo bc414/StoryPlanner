@@ -1,0 +1,4 @@
+- sources:
+  - the hoi4 loading screen quote about goring | weight: asks the model to confirm whether this specific quote is literally the sole origin of the character/name, i.e. to check the earlier explanation against it | marks: "is it literally just from the hoi4 loading screen quote about goring" | first-named
+- order:
+- about: The user turn asks the model to confirm whether the Equestria at War character's naming is derived solely from a specific Hearts of Iron IV loading screen quote about Göring.

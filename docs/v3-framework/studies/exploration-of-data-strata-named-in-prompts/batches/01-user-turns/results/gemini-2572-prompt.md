@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to review them as a whole and build a synthesis from them, including how the Aquileian cartel and the navy fit the Skyfall system | Please review my story plans and give a synthesis | referred-to
+- order:
+- about: The user floats a speculative arc in which the Aquileian cartel begins as a naive anti-Skyfall reform effort and later has its most ideological members join the navy against the warlords in Mount Aris, then asks the model to review their story plans and synthesize.

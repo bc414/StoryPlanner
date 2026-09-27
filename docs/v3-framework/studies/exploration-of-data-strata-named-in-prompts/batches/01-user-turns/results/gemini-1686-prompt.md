@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to work out what became of the generation of drones freed during Chrysalis's hive unification wars, especially those who became factory workers or conscripts rather than meritocrats, and how they would relate to language and native changeling roots.

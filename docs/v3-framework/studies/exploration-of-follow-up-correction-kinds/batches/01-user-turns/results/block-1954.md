@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model described the worldbuilding as historical materialism and leaned on Marx (praxis, Frankfurt School) to explain it. The user says they had deliberately replaced that label with 'materialist historicist world building' and does not share Marx's cynicism. | I don't subscribe to Karl Marx's cynicism ... which is why I tried to replace references to 'historical materialism' | Put mildly as a statement of the user's own position with the reason given. It is phrased as a note on their earlier rewording and does not say the model was wrong. It then leads into a tentative question.
+- about: The user distances their worldbuilding from the Marxist label and cynicism the model used, and asks the model to confirm that it combines humanist-idealist and materialist elements.

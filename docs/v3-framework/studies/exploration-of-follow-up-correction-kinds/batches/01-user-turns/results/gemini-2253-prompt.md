@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the DNS topic and asks an unrelated new question about how to make homemade paté, without commenting on or disputing anything in the model's DNS answer.

@@ -1,0 +1,4 @@
+- sources:
+  - season 1-3 friendship letter | use the show's early-season friendship letter as the template for the tone and form of Applejack's letter, while the contents stay mature | similar to a season 1-3 friendship letter, with the contents being mature | referred-to
+- order:
+- about: The user proposes that Applejack's letter to Celestia be written in the style of an early-season friendship letter, with mature content and a parent-child tone about needing to learn to run a country, and asks whether that would be more impactful than the model's suggested cold tone.

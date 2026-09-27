@@ -1,0 +1,20 @@
+- steps:
+  - author | attaches | an uncaptured document with unspecified context | opening message of the exchange
+  - author | pitch-and-ask | lore setup for Caramel Marks' Communist Manifesto (Caramel Marks, Fire Angel, Kemerskai's command economy, the Severyana uprising) plus a direct question about the narrative implication and real-world meta-critique of communism | second message
+  - model | analysis | a meta-critique reading the manifesto as an allegory for affluent Western radicalization, plus downstream narrative consequences (Stalliongrad's tragedy, a link to Starlight Glimmer's cult, Chrysalis's strategic angle) and two follow-up questions | third message
+  - author | redirect-and-extend | a new placement for the two characters as underground agitators inside Skyfall during the Ambition-chapter revolt, with the claim that harmonic capitalism sidelines them | fourth message
+  - model | analysis | a systemic explanation of why the vanguard becomes obsolete (workers choosing ownership over collectivism, the psychological blow to the radicals, Pink Love as a biological counter to class war), plus two follow-up questions | fifth message
+- kept:
+  - note 5166 | the author's own words in this record | keeps the author's full manifesto/character pitch verbatim as its own Subject record
+  - note 5597 | pasted whole from this reply | keeps the model's radicalization-pipeline paragraph, filed under the manifesto Subject
+  - note 5598 | pasted whole from this reply | keeps the model's consent-and-context paragraph, filed under the manifesto Subject
+  - note 5599 | pasted whole from this reply | keeps the model's Stalliongrad-tragedy paragraph, filed under the manifesto Subject
+  - note 5600 | pasted whole from this reply | keeps the model's Starlight Glimmer connection paragraph, filed under the manifesto Subject
+  - note 5601 | pasted whole from this reply | keeps the model's Chrysalis/Trimmel tactical paragraph, filed under the manifesto Subject
+  - note 3257 | pasted from this reply inside the author's own framing | keeps the sidelined-radicals point, recast in the author's words, filed under a Link between Skyfall Resolution and the manifesto
+  - note 3258 | pasted whole from this reply | keeps the historical-Marxist-failure paragraph, filed under the same Link
+  - note 3259 | pasted whole from this reply | keeps the Tycoon-myth-vs-standardized-cog paragraph, filed under the same Link
+  - note 3260 | pasted whole from this reply | keeps the Patrotten/Asset-Specificity-offer paragraph, filed under the same Link
+  - note 3261 | pasted whole from this reply | keeps the Pink Love tranquilization paragraph, filed under the same Link
+- brought: The author brought an already-drafted lore pitch for a fictional communist manifesto and its two author-characters, tied to an existing economic-history setup (Kemerskai's command economy), and asked for its real-world political resonance.
+- loop: The author supplies a worldbuilding pitch and then a plot placement for it, the model returns extended thematic and systemic analysis each time, and the planning database captures the author's original pitch verbatim as a Subject record while absorbing nearly the whole of both model analyses as paragraph-by-paragraph notes, with the second batch refiled under a Link connecting the manifesto to the Skyfall resolution.

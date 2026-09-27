@@ -1,0 +1,13 @@
+- asks:
+  - analyse | compare what collaborator Applejack describes about losing the war in the grimdark source (P&K) against the writer's plan for the same moment in the idealistic timeline | "Please analyze the contrast between what collaborator Applejack describes in the grimdark timeline versus my plan for the idealistic timeline"
+- supplies:
+  - summary of source fanfic's premise | the general setup of P&K: Chrysalis's grimdark torture-driven conquest vs. the writer's own separate "visionary Chrysalis" concept | a paragraph
+  - paraphrase of the inspiring chapter | the P&K chapter where Flurry Heart captures collaborator Applejack, who explains how the ponies lost the war and how Luna's retreat from Tall Tale figures in it | a few sentences
+  - summary of the writer's own divergence plan | the fork point in "The Lioness of Tall Tale" where outsiders Henri and Mali influence Applejack to defy Luna instead of becoming a collaborator | a paragraph
+  - explanation of the story's title logic | the title as a subversion of collaborator Applejack, framed as a "WW1 Petain" versus Luna's "WW2 Petain" VOPS profile | a few sentences
+  - writer's own working hypothesis | specific proposed points of contrast: Mali present in the trench (vs. Applejack alone), the Aquileian wine, and Henri's spirit prompting Applejack to protest and recognize herself as a general | a couple of sentences
+- shaping:
+  - frame the analysis around the contrast between the two timelines' versions of the same scene/moment | "analyze the contrast between what collaborator Applejack describes... versus my plan"
+  - address or build on the specific elements the writer already flags as distinguishing | "I believe Mali being in the trench... is a key distinction, as well as..."
+- openness: Leans toward an answer it partly names itself: it asks for a contrast analysis but already proposes specific key distinctions (Mali in the trench, the Aquileian wine, Henri's spirit prompting the tent confrontation and the "general" realization) that it expects the analysis to engage with.
+- subject: Contrasting the grimdark "collaborator Applejack" account from The Princess and the Kaiser with the idealistic divergence planned for The Lioness of Tall Tale at the Tall Tale retreat moment

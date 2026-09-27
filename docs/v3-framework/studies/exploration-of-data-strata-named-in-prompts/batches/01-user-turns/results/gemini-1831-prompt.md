@@ -1,0 +1,4 @@
+- sources:
+  - the Ottomans | draw further inspiration from this historical empire for the story's setting; offered as a source of ideas, not settled fact | What additional inspiration can I draw from the Ottomans? | referred-to
+- order:
+- about: The author corrects the prior answer's setting assumptions by stating their own rules for the world (timing of Gerad's authority over the nobles, and griffons and ponies being unable to reproduce), then asks what more the model can draw from the Ottomans.

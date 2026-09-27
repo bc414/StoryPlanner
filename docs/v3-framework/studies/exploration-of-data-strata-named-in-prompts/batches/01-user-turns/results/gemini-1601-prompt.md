@@ -1,0 +1,4 @@
+- sources:
+  - The model's preceding explanation of why Aquileians are tolerated (hospitality workers and tailors, not industrialists) | accepted as settled and built on; the user restates it as their understanding and extends it | Got it, so the Aquileians fly past Celestia's radar | referred-to
+- order:
+- about: The user accepts the prior explanation of Aquileian toleration, offers a tentative extension of the same logic to thestral therapists, and asks whether Skyfall expats would mostly be blocked from Equestria.

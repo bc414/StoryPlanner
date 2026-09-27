@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a simpler alternative to the proposed dashboard list: a window that sorts all entities by the character count of their notes and shows them as cards in a collection view that can be placed on a screen, and asks how to build it.

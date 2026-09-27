@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model treated candidate items as universal propositions when they mix propositions with evidence and social commentary; the user says it failed to separate these three kinds of thing in its sorting | You need to distinguish between three things | flat, stated as an instruction with no reason given or apology, terse
+- about: The user gives a brief directive telling the model to separate universal propositions from their evidence and from the social commentary derived from them, implying the model's list ran these together.

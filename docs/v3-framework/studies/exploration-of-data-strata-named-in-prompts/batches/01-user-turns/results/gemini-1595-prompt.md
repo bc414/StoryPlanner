@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's explanation of why the shield fails against industrialized war and adds their own worldbuilding: drugged conscripts, sadistic statthalters in moving half-tracks, and Chrysalis as an internationalist who studied the spell after the wedding.

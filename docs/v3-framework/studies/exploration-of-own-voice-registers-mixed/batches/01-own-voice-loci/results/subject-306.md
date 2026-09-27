@@ -1,0 +1,22 @@
+- passages:
+  - note 5395 | technical-definition | present-tense "is a" defining statement | what the system is (a teleportation supply network between hubs/bunkers) | apart
+  - note 5395 | background-narrative | past tense, personal detail "after she went back home from burnout" | how and by whom the system was developed, its power sources | apart
+  - note 5395 | technical-definition | present tense "It's adapted to" | adapting the system to the dreamwalking spell to reach hostages | apart
+  - note 5395 | background-narrative | past-tense clause "which was Twilight's initial goal ... perfectly" | Twilight's original goal for the system | run-in
+  - note 5676 | technical-definition | present-tense capability statement | the network's ability to teleport crystals and injured ponies back | apart
+  - note 5677 | analytical-risk | conditional "if...then", evaluative word "doomed" | the supply hub as the system's single point of failure | apart
+  - note 5799 | directive-planning | imperative sentence "Integrate...into Blueblood's plans" | folding the supply system into Blueblood's plans | apart
+  - note 5799 | technical-definition | present tense "can actually teleport" | ability to rescue ponies from overrun bunkers | apart
+  - note 5799 | background-narrative | past tense, parenthetical detail "(red)" | resource choices: crystals for rescue vs. weapons, shields on pink | apart
+  - note 5799 | conversational-justification | interjection "To be fair", casual vocabulary "super unstable" | rationale excusing the lack of offensive weapons | apart
+  - note 5799 | counterfactual-critique | modal past "could have...but didn't" | missed opportunity to train mages with crystal enhancers | apart
+- shifts:
+  - note 5395 | technical-definition | background-narrative | past tense and personal detail "after she went back home from burnout" enters
+  - note 5395 | background-narrative | technical-definition | return to present tense "It's adapted to"
+  - note 5395 | technical-definition | background-narrative | within the same sentence, past-tense clause "which was Twilight's initial goal" follows the present-tense clause
+  - note 5799 | directive-planning | technical-definition | shift from imperative command to a descriptive statement of capability
+  - note 5799 | technical-definition | background-narrative | new paragraph, past tense "stockpiled" replaces present-tense description
+  - note 5799 | background-narrative | conversational-justification | interjection "To be fair" and casual vocabulary mark a turn to justification
+  - note 5799 | conversational-justification | counterfactual-critique | modal construction "could have...but didn't" marks a turn to a missed-opportunity note
+- registers: technical-definition; background-narrative; analytical-risk; directive-planning; conversational-justification; counterfactual-critique
+- whole: This item holds several registers side by side — flat technical definitions, past-tense background narrative, a risk-analysis statement, a planning directive, and a casual justifying aside — mostly kept apart by sentence or paragraph breaks, with only one place where two registers blend within a single sentence.

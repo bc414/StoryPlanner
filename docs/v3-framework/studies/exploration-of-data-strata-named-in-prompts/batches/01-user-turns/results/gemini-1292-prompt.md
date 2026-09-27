@@ -1,0 +1,4 @@
+- sources:
+  - the angle that the Republic can allow these individuals to be ordinary citizens (the model's previous answer in this conversation) | treated as accepted and built on; the user endorses it and extends it to another character | I like the angle that the Republic can allow these individuals to be ordinary citizens | referred-to
+- order:
+- about: The user endorses the model's idea of former enemies living as ordinary citizens under a robust Republic and asks whether the same fate, release after serving appropriate time, should apply to Synovial among the liberated changeling hives.

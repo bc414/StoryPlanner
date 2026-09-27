@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | review them before answering and ground the reply in them | "Please review my story plans before answering" | referred-to
+  - the model's previous analysis (the Skyfall-only Wonderbolts idea) | treat as provisional and to be refined with a different angle, not as settled | "let's refine this with a different angle" | referred-to
+- order:
+- about: The user asks the model to revise its previous take on the Wonderbolts after first reviewing their story plans, then lays out a new angle blending Skyfall and Aquileian influences, with second-generation Royalist pegasi as teachers and a later humbling by the griffonian air force.

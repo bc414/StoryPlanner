@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers their own take on PNdA motivation, that beating Skyfall at its own game drives their alliance with the FJA and later their switch to arms production against Eros, and does not point at any body of material.

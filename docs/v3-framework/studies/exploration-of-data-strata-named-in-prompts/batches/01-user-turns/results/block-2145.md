@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is thinking aloud about whether the griffon-pony reproductive incompatibility fact should get its own subject or sit only under Aquileia as a cause of that society, without pointing the model at any body of material to draw on.

@@ -1,0 +1,6 @@
+- sources:
+  - FiM canon | take as the starting point for Thorax (at the 1002 Canterlot invasion, dislikes it, wants friendship) and for how the crystal heart's shield runs on hope; the story then builds on and departs from it | "my plan for Thorax starts with FiM canon", "as in FiM canon" | referred-to
+  - EaW default focus tree | treat as the source of the 1007 purge of Thorax's harmonists by VOPS, accepted as the event that sets the plot off | "purged in 1007 by VOPS (EaW default focus tree)" | referred-to
+  - the author's own story plan for Thorax and Flurry Heart ("my story") | the model is to work from these planned events; most are stated as settled, but tying Thorax to Trimmel as a student is offered as a tentative idea to test | "In my story, I'm planning on", "I'm wondering if I can make Thorax one of Trimmel's students" | first-named
+- order:
+- about: The user lays out their planned storyline for Thorax and Flurry Heart, built on FiM canon and the EaW focus tree, and asks whether Thorax can be made one of Trimmel's students.

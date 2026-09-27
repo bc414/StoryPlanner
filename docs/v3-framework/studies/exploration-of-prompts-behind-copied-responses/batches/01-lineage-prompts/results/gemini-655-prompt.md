@@ -1,0 +1,8 @@
+- asks:
+  - check | asks whether it is acceptable to have Fleur explain the Star Spade in crude terms at this earlier point, given it happens before Twilight reaches the front | "But I guess it's fine for Fleur to explain in crude terms here since this is before Twilight arrives on the front?"
+  - check | asks for agreement that it's good for Applejack to realize the tool is purpose-built for her biology rather than just a shovel | "I think it is good that AJ sees it's not just a shovel but something purpose built for her biology"
+- supplies:
+  - plan detail | the original intent to withhold the Star Spade explanation until chapter 9 and the reason tied to Twilight's guilt over earth pony obsolescence | a couple of sentences
+- shaping:
+- openness: Leans toward answers it already names, using "I guess it's fine" and "I think it is good" to invite confirmation of its own reasoning rather than posing an open question.
+- subject: Timing and purpose of revealing how the Star Spade works, tied to Twilight's guilt and Applejack's understanding of earth pony magic

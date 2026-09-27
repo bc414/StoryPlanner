@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to go back to their existing story plans and analyse Twilight's worldview and mental state at the start of the war and at Applejack's rescue, and how the new Ain Trotgourait and supply-organization lore affects that, while adding the chapter 9 town-hall pivot as a new constraint on Twilight's arc.

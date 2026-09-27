@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 332 | An earlier event in which Chrysalis commanded Thorax to go and feed, and Thorax's lifelong lack of love, which lie outside this item | Chrysalis said to "Go! Feed!" and Thorax followed because he was starved of love all his life
+  - 332 | Other times when Chrysalis did not slip up, implied by calling this the only slip, which are not in this item | That was the only time Chrysalis ever slipped up
+- whole: By itself, this owner holds a single note, so there is no set to hang together and no joints between notes.

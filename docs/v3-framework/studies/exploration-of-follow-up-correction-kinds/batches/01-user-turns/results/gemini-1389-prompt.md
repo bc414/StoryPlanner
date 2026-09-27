@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks follow-up questions seeking synonyms for the term and whether it applies to opioids or stimulants, extending the topic without disputing anything the model said.

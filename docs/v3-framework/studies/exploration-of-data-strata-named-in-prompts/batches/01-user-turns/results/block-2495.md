@@ -1,0 +1,5 @@
+- sources:
+  - the pasted-in story planner content | treat as the existing plan to analyze the proposed chapter change against, and reread if out of context | Reread the pasted in file with story planner content if it is out of your context window | referred-to
+  - the user's earlier stated decision not to make Conscience a chapter title because it is the hidden 6th element | treat as a prior decision now being reconsidered | I said I would not make Conscience a chapter title | referred-to
+- order:
+- about: The user proposes splitting chapter 9 Sabotage so that a new chapter 10 containing the harmonic capitalism thesis is titled Conscience, reversing an earlier decision, and asks for an analysis grounded in the pasted story planner content.

@@ -1,0 +1,24 @@
+- relations:
+  - 690|689|continues the earlier state in time and overturns part of it: the recon-plus-air-shows arrangement ends when insurance makes recon obsolete, leaving only shows|obsolete as air recon so they became full time air show performers|implicit
+  - 692|695|cause of what the other states: the culture of ego brought in by tycoons and Royalists is the origin of the toxic, cutthroat culture described as characterization|infect Captain Spitfire's cohort with a culture of ego and selfish performance|implicit
+  - 690|695|condition for what the other states: once they are full-time performers, fan attention is their only outlet and the zero-sum contest for lead pony follows|full time air show performers / their only outlet is limited attention of fans|implicit
+  - 690|692|same moment, same agent: Skyfall's insurance removes the recon role while Skyfall tycoons bring in the selfish performance culture, one setting up the other|Skyfall shipping insurance / Skyfall tycoons|implicit
+  - 692|695|shared source of the hierarchy: both name Skyfall as the origin of the ladder-pulling, ego-driven hierarchy|Skyfall tycoons infect / The hierarchy is a Skyfall influence of ladder pulling|explicit
+  - 696|695|canon evidence for a claim: being useless in a crisis fits the note that they are defense forces only on paper|useless in a crisis / on paper defense forces|implicit
+  - 697|696|revises canon: the canon uselessness in a crisis is overturned once Rainbow pushes them to militarize and they can counter airships|useless in a crisis / militarize like the past|implicit
+  - 697|695|continues in time and overturns: the pre-war pressure-valve, defense-on-paper group is turned into an actual military force|on paper defense forces / convinces the Wonderbolts to militarize|implicit
+  - 697|689|refers back to the earlier state: militarizing like the past means returning to their earlier scouting/military role|militarize like the past|implicit
+  - 699|698|source of what the other states: the secret fighter plane development comes from Spitfire Research|Spitfire and the Wonderbolts designed the best fighter planes / Spitfire Research ... secret fighter plane development|explicit
+  - 701|699|delivery on the page of what the other states as true: the reader is to see that they have the best planes as well as the best pilots|they also have the best planes / designed the best fighter planes in the world|implicit
+  - 697|699|continues in time: after militarizing with griffon biplanes in 1006, they go on to design the best fighter planes just before the war|griffon biplanes / designed the best fighter planes|implicit
+  - 701|697|presupposes: the claim that they are the best pilots rests on their being ace fliers who manipulate air currents|not just the best pilots / since they are ace fliers|implicit
+- outward:
+  - 689|the voyages to and from New Mareland and the monsters scouted, held elsewhere|voyages to and from New Mareland
+  - 690|Skyfall as a shipping-insurance power, held elsewhere|Skyfall shipping insurance
+  - 692|the 2nd gen Aquileian Royalists and the Skyfall tycoons as groups; Captain Spitfire's cohort|2nd gen Aquileian Royalists and Skyfall tycoons
+  - 695|the Apple/Pear family feud, another subject|much like the Apple/Pear family feud
+  - 697|Silverstream, Mount Aris, the Storm King's attack, Rainbow and her school, griffon biplanes|Silverstream goes home because Mount Aris is under attack from the Storm King
+  - 696|canon episodes Sonic Rainboom, Secret of my Excess, Equestria Games, Twilight's Kingdom|as shown in Sonic Rainboom, Secret of my Excess, Equestria Games and Twilight's Kingdom
+  - 698|the Spitfire Research focus tree in EaW, an outside game/mod|Spitfire Research from the EaW focus tree
+  - 699|the war that starts in this period, held elsewhere|just before the war started
+- whole: ["These notes hang together fairly closely as a set, since they trace a chain from recon-and-shows through Skyfall's corrupting influence and the toxic culture to Rainbow's militarizing and the fighter-plane development, with the canon and storytelling notes attached to that chain."]

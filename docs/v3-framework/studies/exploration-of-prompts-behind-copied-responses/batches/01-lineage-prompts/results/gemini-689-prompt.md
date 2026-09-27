@@ -1,0 +1,7 @@
+- asks:
+  - explain | asks the model to explain what a T bill is | "What is a T bill"
+  - explain | asks the model to explain what taxes apply to a T bill | "what taxes are associated with it"
+- supplies:
+- shaping:
+- openness: Left open: the message poses two plain factual questions with no preferred answer, options, or claim to verify.
+- subject: Treasury bills and their tax treatment

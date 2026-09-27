@@ -1,0 +1,14 @@
+- passages:
+  - note 4582 | definitional exposition | "just French names", "perceive them as" labels | Aquileian names' origin and how Equestrians/Herzlanders view them | apart
+  - note 4584 | definitional exposition | "typical German first names", compound surname | basic Herzlander naming pattern | apart
+  - note 4584 | interpretive analysis | "functional determinism", semicolon clause explaining theme | symbolic meaning behind the name "Steelbeak" | apart
+  - note 4584 | definitional exposition | "stays German", "kept to emphasize", "translated literally", worked example | how Herzlander names are handled in German/French/English localizations | apart
+  - note 4584 | character-motive narrative | "Henri thinks", "as an insult to their pride" | Henri's view of German names and his reason for using English translations | apart
+  - note 4585 | definitional exposition | "functional language", "because it is not programmed" | how Simplified Herzlander and its changeling translators work | apart
+  - note 4587 | definitional exposition | "If a VOPS agent learns...", "For jaegers learn..." | outcomes for VOPS agents and jaegers who learn Equestrian | apart
+- shifts:
+  - note 4584 | definitional exposition | interpretive analysis | abstract term "functional determinism" and semicolon-joined explanatory clause replace the plain factual statement
+  - note 4584 | interpretive analysis | definitional exposition | returns to a plain localization fact, "In the German localization, the names stay German"
+  - note 4584 | definitional exposition | character-motive narrative | a named individual, "Henri," appears with the subjective verb "thinks" and a stated motive, "as an insult to their pride"
+- registers: definitional exposition; interpretive analysis; character-motive narrative
+- whole: Three of the four notes (4582, 4585, 4587) stay in one steady definitional-exposition register throughout, while note 4584 holds that same register at its start and end but briefly turns, in separate sentences set apart by clear breaks rather than blended together, first into an interpretive-analytic aside and then into a character-motive narrative aside.

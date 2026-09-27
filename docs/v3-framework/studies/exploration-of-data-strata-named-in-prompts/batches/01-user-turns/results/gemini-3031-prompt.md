@@ -1,0 +1,4 @@
+- sources:
+  - YouTube video at https://youtu.be/1XYtTmCLmNE | given as the material for the model to work from, with no other instruction or weighting stated | Https://youtu.be/1XYtTmCLmNE?si=jW_ah4DlXjVA2esj | first-named
+- order:
+- about: The user sends only a new YouTube link, apparently for the model to handle the way it handled the previous video, with no further instruction.

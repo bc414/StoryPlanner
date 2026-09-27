@@ -1,0 +1,7 @@
+- sources:
+  - stages of story design (Stage 1 authorial intent through later stages, from the model's previous reply) | accept as the missing framework and use it as the lens for analyzing the new scene and the author's notes | "the story design has stages seems to be the missing link" | referred-to
+  - current "synopsis" fields across the scenes | treat as mostly Stage 1 authorial summary in present tense, with some text that could be reused as prose blueprint; the model is to help sort them | "Most "synopsis" fields right now probably have mostly stage 1" | referred-to
+  - the Mali scene (17.1) as the author wrote it, including the note that she viscerally recoils | treat as the author's own instinctive marker of a structural irony hinting at deeper trauma; it still has to be articulated in layer 4 design before prose | "I wrote (she viscerally recoils)" | referred-to
+  - SCENE 10.18 (Tally Mark explains her cutie mark) as pasted, with its Synopsis, Characters, Threads, Themes and Codex entries | the object of analysis: examine the nature of these notes and what they show about the work still to be done; Twilight POV is given as fact | "Here is a different scene which may be more focused that I want an analysis on" | first-named
+- order:
+- about: The user accepts the stage model as clarifying their planning, reflects that their synopses are mostly Stage 1 with some blueprint text, and submits scene 10.18 (a Twilight-POV scene) for analysis of what their notes are and how their mental model of the remaining work should change.

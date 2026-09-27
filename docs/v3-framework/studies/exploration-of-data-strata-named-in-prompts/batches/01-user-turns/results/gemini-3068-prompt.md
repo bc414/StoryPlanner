@@ -1,0 +1,5 @@
+- sources:
+  - "Iron Statist" archetype that I assigned to Lord Gaudreau | treat as the template Synovial fits: a former feudal type turned believer in a strong, central, industrial, civilized state who hates feudal warlords; use it to shape his outlook | Synovial fits the "Iron Statist" archetype that I assigned to Lord Gaudreau | referred-to
+  - the plan of a civilizing occupation that was drafted for after Canterlot Wedding | treat as the existing standing plan that the Tirek scheme must still follow and fit within | still adhering to the plan of a civilizing occupation that was drafted for after Canterlot Wedding | referred-to
+- order:
+- about: The author corrects and extends the model's take on Synovial, supplying his own reasoning that he is an Iron Statist noble who despises the Statthalters and sees freeing Tirek as a second, non-feudal route to the civilizing occupation of Equestria.

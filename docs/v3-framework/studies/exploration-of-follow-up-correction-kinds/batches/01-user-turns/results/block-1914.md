@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies new backstory (the friends' split over Ain Trotgourait, Fluttershy's guilt at having nothing to contribute, Pinkie's arc from morale general to depressed artillery commander), asks whether Fluttershy should see the suffering animals herself in chapter 5, and asks the model to reread the DB file and analyze.

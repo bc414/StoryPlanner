@@ -1,0 +1,4 @@
+- sources:
+  - chapter 4, The Best Night Ever | the material to be evaluated and enhanced in this turn, as the next chapter after the one just analysed | Now evaluate chapter 4, enhancing The Best Night Ever | referred-to
+- order:
+- about: The user asks the model to repeat the previous chapter-by-chapter evaluation for the next chapter, chapter 4, which is titled The Best Night Ever.

@@ -1,0 +1,5 @@
+- sources:
+  - the author's own account of US political history (Obama's coalition, Roe not codified, filibuster kept, Lieberman blocking the public option, Manchin blocking Biden, Trump breaking the law to look strong) | treat as the factual premise to analyse and map onto the story, not to be questioned | Even if Obama wanted to enact policies for the masses | first-named
+  - the story planning on Celestia's static nursery, the 80-year stagnation of harmony from griffon-industry petitions, and the planned reveal that Celestia did not design everything | existing plan to reflect and parallel against the congress analysis; the reveal is a wanted element to be shaped as a mirror of congressional reality | story planning regarding how Celestia is perceived to have run a static nursery | referred-to
+- order:
+- about: The user offers their own account of how Obama's and Biden's agendas were blocked by coalition demographics and the filibuster, and asks for an analysis of it and for it to be mapped onto the planned reveal that Celestia did not design the stagnant nursery, with a Trump lawbreaking parallel included.

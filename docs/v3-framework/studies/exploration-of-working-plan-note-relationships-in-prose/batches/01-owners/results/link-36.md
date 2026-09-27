@@ -1,0 +1,6 @@
+- relations:
+  - 942|943|note 943 gives the reason behind the stamping shown on the page in 942: the officials see crystals as decoration, so they label them that way and miss their industrial and military value; 942 is the on-page instance, 943 the inference it supports|"Luxury Goods Trade" and "decorations" / "decorative jewelry" or "palace building materials"|implicit
+- outward:
+  - 943|Cadance and Shining Armor's quiet arming of another nation's magical industry, a project held outside this item|Cadance and Shining Armor quietly arming another nation's magical industry
+  - 943|the wider Equestrian state and its officials, and the other nation whose industry is being armed, held elsewhere|Equestrian customs officials ... another nation's magical industry
+- whole: ["The two notes hang together as a pair: 942 stages the stamped labels on the page and 943 explains what the reader should infer from that blindness."]

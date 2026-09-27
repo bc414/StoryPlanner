@@ -1,0 +1,6 @@
+- steps:
+  - the author | brings a synthesis request loaded with source material | prior notes on Flurry Heart's cutie mark, a new lore fact (crystal pony magic is emotion sense like changelings), and several worked mechanism ideas (unicorn talent exuding before a mark, Thorax teaching her to absorb and not react to fear, her filtering fear so the Crystal Heart gets pure hope) | opening message of the exchange
+  - the model | returns a full synthesized draft | a five-part structured note set covering her origin in utero, her infant 'menace' behavior reread as latent talent, Thorax as mentor figure, the cutie-mark-earning event during a siege, and a closing statement tying her to crystal pony lore | single reply to the request
+- kept:
+- brought: The author brought forward an existing set of notes on how Flurry Heart gets her cutie mark together with a new worldbuilding rule (crystal pony magic as emotion sense akin to changelings) and asked for the two to be merged into one coherent account.
+- loop: The author supplied prior notes plus a new mechanic and several embedded story ideas and asked for them to be reconciled; the model returned a complete synthesized draft in response, but this exchange shows no note in the planning database tracing back to it, so nothing from the model's draft is recorded as kept here.

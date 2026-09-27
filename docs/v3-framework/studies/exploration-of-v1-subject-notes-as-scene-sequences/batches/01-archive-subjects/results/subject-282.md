@@ -1,0 +1,6 @@
+- passages:
+  - 5044 | statement about the subject | the group's driving motivation is a burning desire to tear down the world's frauds | none | plain declarative statement of what drives them, no event or date
+  - 5045 | statement about the subject | the group's history of escalation: it began as the chasseurs and moved on to ever bigger poseurs, from Warlords through MPA Thugs, Skyfall Tycoons and the Storm King to Chrysalis | none | summary of a trajectory with an arrow-linked list of targets; no scene and no date
+- sequences:
+  - 5045 | five targets in escalating order, from Warlords to Chrysalis, as the group scaled up from its beginnings as the chasseurs | arrows between names, and wording 'started as... kept scaling up to bigger and bigger'
+- whole: Two short statements about the Aquileian Volunteers, one on what drives them (tearing down frauds) and one on how their targets escalated from Warlords up to Chrysalis, with no scene beats and no dates.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model set Synovial's confrontation with Applejack and his downfall inside the 3rd Battle, with him advancing on a retreat he takes for surrender. The user gives a different sequence: he stays behind the lines, isn't captured, is sent back to Herzland after the white peace, and meets Applejack in a later border battle. | "Applejack actually meets Synovial" and "He wasn't captured in the 3rd battle" | Stated flatly as the real sequence of events, with the character reason (old guard, doesn't lead from the front) given, and no comment on the model's version.
+- about: The user restates the true sequence of events between Applejack and Synovial (the white peace, Synovial's return to Herzland, a later border battle), moves that battle to the fortress town, adds the Rommel-line parallel, and asks how Synovial would react on seeing the "Lioness" title on Applejack's uniform.

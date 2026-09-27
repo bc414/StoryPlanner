@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a revised definitions file and asks the model to evaluate it against the principles established earlier in the conversation, making a new request without disputing anything in the model's prior turn.

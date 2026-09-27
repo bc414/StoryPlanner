@@ -1,0 +1,19 @@
+- passages:
+  - 4447 | worldbuilding notes | plain present-tense statements of setting fact | ponies' clothing custom vs rural nakedness | apart
+  - 4636 | worldbuilding notes | telegraphic listing of factions, tribal names, present tense | Skyfall cohort, griffons, Tzinacatl labor arrangements | apart
+  - 4636 | ironic aside | caricature epithet inserted mid-list | cartoonish description of the griffon faction | run-in
+  - 4636 | worldbuilding notes | continued factual listing of permissions and reasoning | Aquileian trade allowances and Celestia's rationale | apart
+  - 4636 | ironic aside | short one-line evaluative close | wry comment on the policy's convenient 'harmony' | apart
+  - 4646 | worldbuilding notes | plain statement plus brief interpretive follow-on | thestral prostitutes and their effect on the rich's image | apart
+  - 4652 | ironic aside | wry capitalized phrasing echoing show-speak | characterizes what parloirs are 'really' for | apart
+  - 4652 | worldbuilding notes | dated founding fact, trade detail in parenthesis | founding of parloirs and thestral recruitment/trade | apart
+  - 4653 | worldbuilding notes | dated fact plus terse trailing fragment | thestrals leaving the jungle for factory work, and prostitution | apart
+  - 4657 | worldbuilding notes | single summarizing sentence of long-held perception | millennium-long view of thestrals as shady figures | apart
+  - 5158 | worldbuilding notes | plain economic fact statement | pre-parloir trade with Griffonia | apart
+- shifts:
+  - 4636 | worldbuilding notes | ironic aside | injected caricature epithet lands mid-sentence inside the faction list, no break
+  - 4636 | ironic aside | worldbuilding notes | listing resumes its factual tribal/faction detail right after the epithet
+  - 4636 | worldbuilding notes | ironic aside | paragraph closes on a short one-line ironic remark instead of continuing the factual list
+  - 4652 | ironic aside | worldbuilding notes | wry opening characterization gives way to a dated, factual account of founding and trade
+- registers: worldbuilding notes; ironic aside
+- whole: Across these seven notes the writing sits mostly in one plain, telegraphic worldbuilding register that states setting facts and dates, with two notes (4636, 4652) briefly breaking into a second, wry/ironic register — sometimes folded into the same sentence with no pause, sometimes set off as its own short closing sentence — before settling back into the plain factual mode.

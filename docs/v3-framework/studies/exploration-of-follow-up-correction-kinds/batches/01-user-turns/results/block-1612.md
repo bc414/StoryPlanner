@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's open question about how to sequence reference sources unanswered and starts a new task, asking the model to review the origins and purpose of the CognitiveMode enum and decide whether to update or scrap it, while explaining how EditorModes currently work.

@@ -1,0 +1,8 @@
+- relations:
+  - 1059|1056|1056 gives the truth (extra maternity leave, expected paternity leave) that overturns the reader's assumed masculine-dominated society stated in 1059; the disclosure is what corrects the belief|It is actually a modern Nordic model / male griffons are expected to take paternity leave|implicit
+  - 1056|1058|1058 interprets the laws disclosed in 1056 as a meaning about the real world: the leave rules are evidence of a societal rejection of patriarchy and of the industrialist ideal of men at the factory while females raise cubs|This is an explicit societal rejection ... expected men to work long hours in the factory|implicit
+  - 1059|1058|1058 names the patriarchal feudal and industrialist model that the reader in 1059 wrongly assumed the republic to be, and says the republic rejects it; the belief in 1059 is the assumption the theme in 1058 counters|masculine dominated society / patriarchal bent of feudalism|implicit
+- outward:
+  - 1058|Feudalism, inheritance laws and industrialist factory culture, as real-world or in-world historical background not in this item|patriarchal bent of feudalism and inheritance laws and the rugged individualism of industrialists
+  - 1059|The Herzlander Griffonian Republic as a wider society and its wider setting, held elsewhere|Herzlander Griffonian Republic
+- whole: The three notes hang together as one chain: the reader's wrong belief (1059), the law and custom that correct it (1056), and the thematic meaning drawn from those laws (1058).

@@ -1,0 +1,9 @@
+- asks:
+  - presentation | lays out how the 'Survival Harmony' era functioned as ancient Equestria's survival strategy, tracing phases from pioneer ambition (0-914 ALB) through stagnation, the army's defeat by industrial force, and a final synthesis into 'resilience and harmonic capitalism' | "So Survival Harmony is how ancient Equestria survived" ... "The synthesis is resilience and harmonic capitalism"
+  - presentation | explains that Equestria's gold/bit drain comes mainly from Aquileian parloir culture and heavy industry rather than drugs, and states the direct Opium War parallel: Chrysalis selling drugs to Skyfall for Marks to fund her shell companies and 'great leap forward' | "most of the Equestrian gold bit draining is not from drugs" ... "The direct drug opium war parallel is Chrysalis selling drugs to Skyfall"
+- supplies:
+  - lore exposition | timeline and mechanics of the 'Survival Harmony' era: pioneer ambition converted into survival harmony, stagnation removing it under threat of industrial tyranny, and the Equestrian Army's defeat by industrial force | a paragraph
+  - lore exposition | economic mechanism of bit/gold drainage (Aquileian parloirs, heavy industry/Rockfeller and comparadors) and the Chrysalis-Skyfall drug-for-Marks parallel to the Opium Wars | a paragraph
+- shaping:
+- openness: The message states its worldbuilding claims as settled fact throughout (\"is how,\" \"The synthesis is,\" \"The direct... parallel is\"), leaning entirely toward the specific mechanics, dates, and parallel it names rather than posing a question or leaving room for alternatives.
+- subject: Worldbuilding lore for ancient Equestria's history: the 'Survival Harmony' era and an Opium War economic parallel involving Chrysalis

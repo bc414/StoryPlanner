@@ -1,0 +1,4 @@
+- sources:
+  - chapter 7 Generosity | treat as established backdrop: by its end Manehattan already mandates that every pony contribute to the war effort by special talent, so the model should fit this into its synthesis | To clarify the backdrop, by the end of chapter 7 Generosity | first-named
+- order:
+- about: The user adds a clarifying piece of story backdrop from an earlier chapter, that Manehattan already mandates war contribution by special talent, to correct or refine the model's synthesis of the later chapters.

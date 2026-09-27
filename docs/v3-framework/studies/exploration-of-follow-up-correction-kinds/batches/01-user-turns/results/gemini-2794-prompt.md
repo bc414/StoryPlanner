@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new request, asking for analysis of a lore beat about Coltbert persuading the pirate Dennis Discret to spare the University of Pridea, and supplies dates and asks about the university's origin, without saying anything in the prior turn was wrong.

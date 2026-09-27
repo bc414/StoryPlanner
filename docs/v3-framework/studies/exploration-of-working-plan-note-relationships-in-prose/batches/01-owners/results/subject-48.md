@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 910|The Great War's opening at Vanhoover, held elsewhere in the plan|the opening of the Great War at Vanhoover
+  - 910|The 1st and 2nd battles of Tall Tale, held elsewhere in the plan|the 1st and 2nd battles of Tall Tale
+- whole: Only one note exists for this owner, so there is nothing to hang together or to be separate; it stands alone.

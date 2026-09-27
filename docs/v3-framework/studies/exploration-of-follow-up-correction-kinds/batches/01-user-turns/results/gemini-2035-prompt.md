@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to the next step by pasting their current Phase 0 structured-output schema and asking whether it needs changes to fit the new system prompt, without disputing anything the model said.

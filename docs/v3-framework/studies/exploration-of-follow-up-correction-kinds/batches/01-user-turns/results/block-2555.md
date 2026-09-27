@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops a Vox article link about Love Island USA and asks the model to relate it to their thesis and research the show and discussion around it, moving to a new task without disputing anything in the model's prior explanation.

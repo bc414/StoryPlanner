@@ -1,0 +1,5 @@
+- sources:
+  - Petain, the Lion of Verdun ("history") | real-world historical figure and epithet the model is asked to draw on for an allusion voiced by Henri, which the title Lioness then subverts | "reference to Petain, the Lion of Verdun" and "subversion of both history and P&K" | first-named
+  - P&K | existing story element that the chosen title Lioness is meant to subvert, so the model should keep it in view as something inverted | "subversion of both history and P&K" | referred-to
+- order:
+- about: The user asks whether Henri can allude to Petain, the Lion of Verdun, because the Lioness title subverts both real history and the P&K element of the story.

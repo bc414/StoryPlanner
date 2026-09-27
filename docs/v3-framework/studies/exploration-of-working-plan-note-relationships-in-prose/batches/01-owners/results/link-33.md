@@ -1,0 +1,7 @@
+- relations:
+  - 627|628|the history disclosed gives the ground for the inferred psychology: being valued only as a weapon by the Storm King sits behind fighting from survival rather than cruelty|Storm King looked at her "disability" and saw a walking artillery piece; fighting not out of cruelty but survivalism|implicit
+- outward:
+  - 627|Celestia's society and its valuing of utility magic over destructive magic, held elsewhere in the plan|In Celestia's post-scarcity society, utility magic (telekinesis, moving clouds) is valued
+  - 627|Zebrica and the Storm King, her past under him, lore not set out in this item|in Zebrica, the Storm King looked at her "disability"
+  - 628|Twilight, a character whose recognition of Fizzlepop is named but who has no notes here|Twilight correctly recognizes the broken filly inside the armor
+- whole: The two notes hang together loosely: one supplies the past and the other the psychology it implies, but nothing in either points at the other.

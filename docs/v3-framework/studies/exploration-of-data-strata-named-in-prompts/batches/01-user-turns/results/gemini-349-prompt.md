@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the dependency/causality idea for plot points, asks whether cross-thread one-off links should be a self-referencing list, and asks how to model a character view showing character development, while restating their thread, chapter and view-only theme design.

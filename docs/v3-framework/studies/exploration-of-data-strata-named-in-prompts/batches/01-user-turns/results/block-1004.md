@@ -1,0 +1,4 @@
+- sources:
+  - The user's own recollection of a post-presidency interview quote about being a decade or two too early | treat as an approximate, unverified memory; the model is to find where it came from and unpack it, not take the wording as exact | I remember a quote for a post-presidency interview where he said something like he was a decade or two too early | first-named
+- order:
+- about: The user asks for a thorough multi-phase analysis of Barack Obama (inner reality and public perception), a factual check on whether the 2008 financial crisis preceded his election, and the origin and meaning of a half-remembered post-presidency quote.

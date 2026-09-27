@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a sample Phase 0 output and their current Phase 1 system prompt, then asks for that Phase 1 prompt to be rewritten so it returns JSON grouped by strategy with buckets under each and a final orphan bucket list, moving on to a new task rather than faulting the Phase 2 material.

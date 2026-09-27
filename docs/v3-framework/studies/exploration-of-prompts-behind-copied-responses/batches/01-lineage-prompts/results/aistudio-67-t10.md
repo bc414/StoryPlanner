@@ -1,0 +1,7 @@
+- asks:
+  - analyse | explain how the stated revision to Celestia's timeline (that she only began suppressing ambition after year 914, as a deliberate brake on a golden age) fits with her character arc across the main story of TLTT | "How does this revised timeline...interact with her trajectory during the main story of TLTT?"
+- supplies:
+  - premise/idea | a revised backstory detail stating Celestia only started suppressing ambition after 914, doing so to deliberately slam the brakes on a golden age | a single stated idea, one sentence
+- shaping:
+- openness: Leaves the answer open: it asks the model to work out and describe the interaction/implications of the stated premise on Celestia's main-story arc, without naming a specific answer, options to choose between, or a claim to verify.
+- subject: How a revised detail of Celestia's backstory (timing and motive for suppressing ambition) relates to her character trajectory in the main story of TLTT

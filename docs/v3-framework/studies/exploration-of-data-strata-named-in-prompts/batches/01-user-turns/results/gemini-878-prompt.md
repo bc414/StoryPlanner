@@ -1,0 +1,4 @@
+- sources:
+  - the different versions | material to be retrieved by a program and saved in a Gemini-friendly format, so Gemini can use it for comparative analysis | retrieve the different versions and save them in a format that Gemini will like for a comparative analysis | referred-to
+- order:
+- about: The user asks how to write a program that pulls the different versions of a document and saves them in a format Gemini can use for a comparative analysis, following up on the model's earlier version-history suggestions.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new worldbuilding decisions to the previous analysis: French-style Aquileian names for the salons, ponies working in them, batpony night-shift workers in EEEE!, and a plan to sell transport planes as the framework for the Kessler valve deal. The turn points at no body of material for the model to use or avoid.

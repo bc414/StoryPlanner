@@ -1,0 +1,14 @@
+- relations:
+  - 2439|2440|the second continues the first in time: the realization about industrialization leads to his decision to suppress the truth|He chooses to suppress the scientific truth|implicit
+  - 2440|2000|the knightly, monster-slaying order described in the second is the chivalric structure the first says he props up; the two also pull against each other, since he is 'enlightened' yet keeps a 'false religion' in place|Chivalric Code / all knights against monsters|implicit
+  - 2439|2000|the fear that Griffons will industrialize their greed without Chivalry's moral framework gives a reason for the second's aim of a safe, prosperous order built on knights|strict moral framework of Chivalry / golden age of safety and prosperity|implicit
+  - 1475|2000|the second gives the fuller account of the father's crusades and the trauma that the first names as the reason he withholds a child until peace|his father's warlordism and early death and the trauma / father's crusades against the Riverlands|implicit
+  - 1475|2000|the first's vow to bring peace to the realm is served by the second's plan of turning knights against monsters instead of foreign wars|bring peace to the realm / instead of fight foreign wars|implicit
+- outward:
+  - 2439|the Griffons, their culture and greed, held elsewhere in the world|if the Griffons learn that magic/power can be democratized
+  - 2439|the source of the industrial blueprints and the world's magic system|the blueprints for early industrialization
+  - 2440|the Archons, and the Chivalric Code as a religion, held as lore elsewhere|the Archons and the "Chivalric Code"
+  - 2000|the Riverlands and the father's crusades against them|father's crusades against the Riverlands
+  - 2000|Herzlander supremacy, a faction or ideology held elsewhere|Herzlander supremacy
+  - 1475|TLTT, the story whose start this note describes|at the start of TLTT
+- whole: The notes hang together as one portrait, in which the father's trauma leads to the monster-slaying knightly order, which he then preserves by suppressing the science that would undo it, though the two tracks each state their own part without pointing at each other.

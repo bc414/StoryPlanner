@@ -1,0 +1,5 @@
+- sources:
+  - the two distinctions (cynicism and resilience) | treat as the established framework the model should sort further real-world examples into, and test for whether it is a binary or a continuous spectrum | What else fits in the two distinctions and why | referred-to
+  - my own identification of Bernie Sanders as the resilience spirit of the American left, grappling with cynical unions, armchair communists and clout warriors | treat as the author's stated example and premise to build on, a model case to match other examples against | I've identified that Bernie Sanders represents the resilience spirit | first-named
+- order:
+- about: The user offers Bernie Sanders as a real-world example of the resilience-versus-cynicism distinction from the discussion, asks for more examples that fit each side with reasons, and asks whether the distinction is really a continuous spectrum.

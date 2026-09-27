@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether Stalliongrad could end the story as a neutral, open-bordered partner of the Republican Pact that keeps its own government, or would end up hostile or dissolved, and says they will use the Vasily Wheatin path.

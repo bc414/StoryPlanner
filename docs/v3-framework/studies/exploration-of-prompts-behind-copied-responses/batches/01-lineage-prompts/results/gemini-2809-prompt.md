@@ -1,0 +1,9 @@
+- asks:
+  - check | asks whether the described crystal-stabilizer mechanism (needing vacuum for particle cleans and a nitrogen atmosphere) and the claim that Skyfall fails because it cuts corners on this makes technical/logical sense | "Does this work?"
+  - research | asks for the real-world history of nitrogen purge (N2 purge) technology | "Research the history of n2 purge"
+  - check | asks whether the practice of N2 purge historically originated from the Haber-Bosch process | "did it come from haber Bosch?"
+- supplies:
+  - premise | a short description of a fictional device: griffon artisans build a crystal stabilizer that regulates low-grade crystal power flow to spell matrices, requiring vacuum for particle cleaning and a nitrogen atmosphere, with a rival group 'Skyfall' failing by skipping this | a sentence or two embedded directly in the message
+- shaping:
+- openness: The message asks the model to check a stated fictional mechanism for plausibility and separately to check a named real-world hypothesis (that N2 purge traces to Haber-Bosch), giving no instructions on the reply's form or length.
+- subject: A fictional crystal-stabilizer mechanism's plausibility, and the real-world history of nitrogen purge and its possible link to the Haber-Bosch process

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the authentic Aquileians should run a cartel from their parloir, then corrects the premise by saying the operation is a cohort of reformed thugs whose aim is culture war, humiliation, revenge and draining elite assets rather than economic liberation.

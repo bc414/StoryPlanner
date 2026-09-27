@@ -1,0 +1,12 @@
+- steps:
+  - author | supplies background material | an attached document, contents never captured | opening of the exchange, before the question
+  - author | poses a framing question | offers two competing readings of what Celestia represents (transcendent system vs. broad consensus) | second message
+  - model | delivers a verdict | picks one of the two offered readings and explicitly rejects the other | opening of the reply
+  - model | builds a structural argument | four labeled points contrasting Celestia's mode of control with dictatorial regimes, each backed by named scenes/world-bible notes | body of the reply
+  - model | states a synthesis line | a compact one-line characterization of what Celestia embodies and what defying her means | end of the analysis section
+  - model | offers follow-up questions | two speculative questions about how the reading plays out after the story's political change | closing of the reply
+- kept:
+  - note 5412, on Subject "Princess Celestia" | pasted from this reply inside the author's own framing | keeps the reply's synthesis line, wrapped in the author's own gloss connecting it to Hasbro and post-1991 'end of history', filed under the character's entry
+  - note 5786, on Subject "Stagnation of Harmony (930 ALB - Present)" | pasted from this reply with cuts | keeps the reply's verdict and structural breakdown across its points, trimmed of the specific scene/note citations, filed under the historical-period entry
+- brought: The author brought an attached document of unstated content plus a two-option interpretive question about whether a long-lived monarch character stands for a transcendent system or for a broad political/cultural consensus.
+- loop: The author's either/or question about a character's allegorical meaning was resolved by the model into a one-sided verdict with a multi-point structural case; the plan kept the verdict's summary line under the character's own entry (recast in the author's words) and kept the supporting structural case, stripped of citations, under the entry for the historical period the character governs.

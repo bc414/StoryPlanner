@@ -1,0 +1,6 @@
+- sources:
+  - canon EAW | Baseline of established facts the plan starts from, such as Grover IV dying young in 977 from too much chocolate, with the user's new material built on top of it | In canon EAW, Grover IV passed away rather early | referred-to
+  - Gabriella Eagleclaw's bio from the wiki | Pasted in as the reference description of her character, to be taken as given and used as the basis for the plan's version of her | Gabriella Eagleclaw's bio from the wiki | first-named
+  - Eros's bio from the wiki | Pasted in as the reference description of Archon Eros, to be taken as given and used as the basis for the plan's version of him | Eros's bio from the wiki | first-named
+- order:
+- about: The user lays out their full plan for the new Griffonian Reich, running from the 977 regency through the 1007 civil war to Eros's surrender and Eagleclaw's revenge. They quote the wiki bios of Eagleclaw and Eros as anchors and ask which order the Reich's motto should take.

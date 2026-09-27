@@ -1,0 +1,15 @@
+- steps:
+  - author | frames trope | Twilight as outsider/audience-surrogate character | opening of the single prompt
+  - author | poses open question | asks for the doylist (real-world craft) reason behind the trope | early in the prompt
+  - author | supplies own explanation | offers a watsonian account: Twilight grew up reading unsanitized textbooks her parents left around | continues the prompt
+  - author | names a source | attributes the unsanitized material to the Canterlot Archives | continues the prompt
+  - author | assigns parental roles | casts Night Light as a state employee using old magic for civilian problems and Twilight Velvet as a writer who sanitizes history into Daring Do stories | closes the prompt
+  - model | answers the open question | explains the doylist function of a rational straight-mare as audience surrogate | opening of the response
+  - model | validates and systematizes the author's idea | reframes the watsonian explanation as unequal access to information capital within the setting's information-control worldbuilding | early-middle of the response
+  - model | elaborates a character role | expands Night Light into a technician who quietly runs the state's hidden utilitarian magic infrastructure | subsection on Night Light
+  - model | elaborates a character role | expands Twilight Velvet into a cultural enforcer who repackages brutal history into safe children's fiction | subsection on Twilight Velvet
+  - model | extends the implication upward | links the parents' roles to reinterpret a mentor figure's later decision to send Twilight away as pressure to resemble her mother instead of her father | structural-integration section
+  - model | poses follow-up questions | asks the author to specify Night Light's exact function and how the protagonist later regards her mother's sanitized stories | closing of the response
+- kept:
+- brought: The author brought a trope she wanted grounded in-world (Twilight as outsider/surrogate) along with her own draft watsonian explanation assigning specific roles to Twilight's two parents.
+- loop: The loop here is generative rather than archival: the author supplies a partial idea and an open question, the model answers the question and folds the author's idea into the setting's existing thematic framework with named concepts and character elaborations, then hands back clarifying questions to keep the author building — but nothing from this exchange was captured into the planning database in this stretch.

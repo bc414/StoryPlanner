@@ -1,0 +1,4 @@
+- sources:
+  - the story plan | search it for the American dynamics just listed and see whether they are present, then base a reanalysis on what is found | Check for these things in the story plan | referred-to
+- order:
+- about: The user asks the model to check the story plan for the American dynamics it just described and then give a reanalysis in light of what the plan contains.

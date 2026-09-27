@@ -1,0 +1,5 @@
+- sources:
+  - Trimmel's mention that Synovial used and circulated the insulting Herzlander term | treated as an existing story fact; the model is to fit the romantic usage's timing around it | which Trimmel mentions Synovial used and circulated | referred-to
+  - the romantic usage of Une Lionne, as proposed in the model's previous answer | treated as a provisional proposal whose placement in the timeline is still open | this romantic usage of Une Lionne | referred-to
+- order:
+- about: The user asks the model to decide whether the proposed romantic use of Une Lionne should come before or after the insulting Herzlander use that Trimmel says Synovial used and spread.

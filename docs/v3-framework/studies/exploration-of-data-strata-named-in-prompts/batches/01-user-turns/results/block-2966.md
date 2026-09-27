@@ -1,0 +1,12 @@
+- sources:
+  - changeling biology and their ecosystem, the material conditions | the system must be derived from it; the ground for caste and diplomacy design | the system has to derive from the material conditions of changeling biology and their ecosystem | referred-to
+  - what came out of the previous system | the new system must derive from it as a second base | what came out of the previous system | referred-to
+  - external conventions, including the marriage alliance and diplomatic hostage exchange trope and ASOIAF/literary conventions | do not build the system on them; only trace where the trope comes from, and treat it as not fitting | not external conventions | referred-to
+  - materialist historicist analysis | a lens the model is asked to use to explain where the marriage/hostage trope originates | in materialist historicist analysis | first-named
+  - literature and/or ASOIAF conventions | a second, separate lens for tracing the trope's origin, not a basis for the design | separately from literature and/or ASOIAF conventions | first-named
+  - the Sengoku period | go deeper into it as the historical model for what the castes would be; prefer it | dive more into the sengoku period | referred-to
+  - the Tokugawa period | de-emphasize as the model for the castes | rather than tokugawa | referred-to
+- order:
+  - changeling biology and ecosystem material conditions and the previous system | external conventions such as ASOIAF and literature | not external conventions
+  - the Sengoku period | the Tokugawa period | dive more into the sengoku period rather than tokugawa
+- about: The user corrects the model's caste and diplomacy reconstruction by rejecting the marriage/hostage trope as borrowed convention, asking where it originates historically and in fiction, and demanding the system be derived from changeling biology, ecosystem and the prior system, with the caste analogy drawn from Sengoku rather than Tokugawa Japan.

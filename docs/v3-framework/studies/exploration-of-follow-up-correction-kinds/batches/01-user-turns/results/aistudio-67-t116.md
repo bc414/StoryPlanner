@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a new dark consequence for the Hearth's Warming Bonds branding, that the Windigo frame would be applied to all changeling conscripts rather than to any single villain, and builds on the model's idea without disputing it.

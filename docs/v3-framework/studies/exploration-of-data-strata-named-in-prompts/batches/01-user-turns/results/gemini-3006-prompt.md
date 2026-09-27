@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its previous analysis by comparing LLM use to calculators in math class, to in-between tools like Google and Wikipedia, and to any other analogies, without directing the model to any body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's proposed chapter beat by stating that Trimmel surrenders only himself while the other veterans choose to fight to the death with their modern tanks.

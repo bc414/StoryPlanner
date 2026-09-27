@@ -1,0 +1,6 @@
+- sources:
+  - my codes entry about it (emotion sense) | read and use as a basis for refining the emotion sense mechanics | reading my codes entry about it | referred-to
+  - the historical story about ancient jaegers learning to ignore the pain of a predator as they drained them to protect the hive | read and use alongside the codes entry to refine the mechanics | the historical story about ancient jaegers learning to ignore the pain of a predator | referred-to
+  - the user's own statement of how jaegers and conscripts are trained and drafted (jaeger school after kindergarten; conscripts as drones not ambitious enough for jaeger school and too untalented for the factory) | treat as established facts of the setting that the answer must fit | The jaegers learn by going to jaeger school after kindergarten | first-named
+- order:
+- about: The user asks the model to refine the emotion sense mechanics by reading their codes entry and a historical story, and to say whether a conscript can learn it in the field, while supplying the setting facts about how jaegers and conscripts come to be.

@@ -1,0 +1,77 @@
+- passages:
+  - note 4283 | collaborator-address | second-person "your setting," crediting phrasing | scope of the 20% gross sales tax on capital equipment | apart
+  - note 4283 | structured-outline | bulleted headers, labeled sub-points | internal untaxed commerce versus taxed external shipments | apart
+  - note 4283 | collaborator-address | "You suggested," naming the idea's source | the escort system as the tax's structural flaw | apart
+  - note 4283 | structured-outline | numbered steps, bolded stage labels | the official escort and manifest process | apart
+  - note 4283 | collaborator-address | "you established," crediting prior lore | linking the mechanism to established corruption lore | apart
+  - note 4283 | structured-outline | lettered sections, bulleted labels ("The Pitch," "The Result") | the bribery scenario and thug bidding war | apart
+  - note 4283 | scripted-dialogue | quotation marks, first-person offer and ultimatum | invented lines voicing the bribe pitch and the leverage threat | run-in
+  - note 4283 | collaborator-address | "You do not need," craft judgment "narrative gold" | dividing design credit between Coltbert and Verany | apart
+  - note 4283 | structured-outline | bulleted role labels | staged emergence of the black market from 982 to 986 | apart
+  - note 4283 | story-craft-reflection | roman-numeral header, talk of "dramatic arc" | reframing Verany's arc from inventor to union boss | apart
+  - note 4283 | structured-outline | numbered and lettered subsection labels | mechanics of the pardon, the cartel, and the suit strategy | apart
+  - note 4283 | scripted-dialogue | quotation marks, invented first-person rhetoric | lines voicing Moriset, Coltbert, and Verany's pitches and slogans | run-in
+  - note 4283 | story-craft-reflection | rhetorical contrast of two dramatic questions | thesis on Verany's self-degradation into power | apart
+  - note 4283 | story-craft-reflection | "narrative vehicle," "narrative analysis" | framing the PRNA-to-PNdA rename as story device | apart
+  - note 4283 | structured-outline | roman-numeral sections, numbered reasons | historical and economic case for the party's evolution | apart
+  - note 4283 | story-craft-reflection | summary-thesis closing sentence | closing statement of Verany's overall arc | apart
+  - note 4444 | narrative-summary | third-person past/habitual-present recounting, causal connectors | veteran clubs, the FJA's founding, and the run-up to the coup | apart
+  - note 4444 | scripted-dialogue | quotation marks, first-person popular voice | the public's verdict on Discret firing Coltbert | run-in
+  - note 4444 | aphoristic-maxim | modal "cannot/must," compact principle | claim that currency needs productivity, not royal whim | run-in
+  - note 4444 | narrative-summary | resumed past-tense causal recounting | pension collapse, the coalition, and FJA motives | apart
+  - note 4444 | worldbuilding-fact | short parallel declarative clauses | division of labor between FJA and PNdA in the free market | apart
+  - note 4444 | aphoristic-maxim | compact contrast statement | rivalry ending economically but continuing culturally | apart
+  - note 4444 | narrative-summary | single closing narrative sentence | eventual unification of the currency | apart
+  - note 4445 | character-arc-summary | present-tense tracking of a character across named "Acts" | AJ's shifting understanding of Aquileia's factions | apart
+  - note 4448 | expository-analysis | comparative "This is why," declarative reasoning | why FJA terroir pride checks PNdA greed unlike Herzland | apart
+  - note 4463 | comparative-analogy | labeled sections, explicit real-world nations named | Mediterranean versus Anglo-American work culture as basis for FJA/PNdA values | apart
+  - note 4486 | worldbuilding-fact | terse declarative statements, brief real-world aside | industrial revolutions, factory life, and the first revolution | apart
+  - note 4487 | expository-analysis | thesis statement, real-world equivalence at close | ideology of harmonic capitalism behind the FJA | apart
+  - note 4494 | worldbuilding-fact | short listed items, no causal connectors | radio, rail, and the almanac connecting the countryside | apart
+  - note 4494 | narrative-summary | causal connectors "because," "once...then" | the university's founding role and its turn to revolution | apart
+  - note 4670 | narrative-summary | third-person past tense recounting | newspaper debate Discret arranged between Coltbert and Verany | apart
+  - note 4670 | structured-outline | numbered point heading | Verany's opening argument blaming the peasants | apart
+  - note 4670 | expository-analysis | declarative argumentative prose, "Coltbert says" | Coltbert's rebuttal on clothes, cooperation, and the countryside | apart
+  - note 4670 | scripted-dialogue | quotation marks, aphoristic first-person line | the feudal maxim illustrating old ambition | run-in
+  - note 4672 | narrative-summary | third-person recounting of funding and construction | building the royal navy on royal-note financing | apart
+  - note 4672 | expository-analysis | interpretive claim, "shows that" | the navy as proof fiat money rivals Skyfall's power | apart
+  - note 4673 | narrative-summary | third-person recounting of the military standoff | why the royal army is pinned in the capital | apart
+  - note 4673 | structured-outline | bulleted labels ("The Skyfall Deal," "The Result") | Skyfall arming the Warlords against Discret | apart
+  - note 4673 | narrative-summary | flowing paragraph, no bullets, present-tense founding | founding and purpose of the Chasseur academy | apart
+  - note 4673 | comparative-analogy | bold label, explicit "In French history" reference | real-world guild history behind "Companion" and its etymology | apart
+  - note 4673 | expository-analysis | interpretive prose on equipment and symbolism | how chasseur gear and dress dignify the soldier | apart
+  - note 4673 | narrative-summary | resumed sequential past-tense action | reconquest, patronage, and the choice not to invade Herzland | apart
+- shifts:
+  - note 4283 | collaborator-address | structured-outline | bullet headers and labels replace the "your setting" address
+  - note 4283 | structured-outline | collaborator-address | "You suggested" reintroduces second-person address
+  - note 4283 | collaborator-address | structured-outline | numbered "Official Process" steps resume
+  - note 4283 | structured-outline | collaborator-address | "you established" resumes second-person credit
+  - note 4283 | collaborator-address | structured-outline | lettered/bulleted mechanics resume
+  - note 4283 | structured-outline | scripted-dialogue | quotation marks and first-person offer appear
+  - note 4283 | scripted-dialogue | collaborator-address | quote closes, "You do not need Coltbert" resumes address
+  - note 4283 | collaborator-address | structured-outline | bulleted role labels resume
+  - note 4283 | structured-outline | story-craft-reflection | roman-numeral header and "dramatic arc" language replace bullets
+  - note 4283 | story-craft-reflection | structured-outline | numbered/lettered subsection headers resume
+  - note 4283 | structured-outline | scripted-dialogue | quoted lines embedded within the outline's bullets
+  - note 4283 | scripted-dialogue | story-craft-reflection | quotes end, rhetorical thesis on "the drama" begins
+  - note 4283 | story-craft-reflection | structured-outline | roman-numeral sections with numbered reasons resume
+  - note 4283 | structured-outline | story-craft-reflection | closing thesis-style summary sentence resumes
+  - note 4444 | narrative-summary | scripted-dialogue | quotation marks and first-person popular voice appear with no break
+  - note 4444 | scripted-dialogue | aphoristic-maxim | modal "cannot/must" principle follows the quote with no break
+  - note 4444 | aphoristic-maxim | narrative-summary | past-tense causal recounting resumes on a new line
+  - note 4444 | narrative-summary | worldbuilding-fact | short parallel declarative clauses replace causal narration
+  - note 4444 | worldbuilding-fact | aphoristic-maxim | compact contrast statement replaces the parallel list
+  - note 4444 | aphoristic-maxim | narrative-summary | single narrative sentence closes the note
+  - note 4494 | worldbuilding-fact | narrative-summary | causal connectors "because"/"once...then" replace terse listing
+  - note 4670 | narrative-summary | structured-outline | numbered list item marks Verany's opening point
+  - note 4670 | structured-outline | expository-analysis | terse claim gives way to extended argumentative prose
+  - note 4670 | expository-analysis | scripted-dialogue | quotation marks set off the feudal maxim mid-paragraph
+  - note 4670 | scripted-dialogue | expository-analysis | quote closes, argumentative prose resumes
+  - note 4672 | narrative-summary | expository-analysis | interpretive "shows that" claim replaces action recounting
+  - note 4673 | narrative-summary | structured-outline | bullet points and bold labels appear
+  - note 4673 | structured-outline | narrative-summary | bullets drop, flowing founding-paragraph resumes
+  - note 4673 | narrative-summary | comparative-analogy | bold label and explicit "In French history" reference
+  - note 4673 | comparative-analogy | expository-analysis | etymological grounding gives way to interpretive claims about gear and symbolism
+  - note 4673 | expository-analysis | narrative-summary | concrete sequential past-tense action resumes ("Discret used...to reconquer")
+- registers: collaborator-address; structured-outline; scripted-dialogue; story-craft-reflection; narrative-summary; worldbuilding-fact; character-arc-summary; expository-analysis; comparative-analogy; aphoristic-maxim
+- whole: Some notes here hold a single steady register throughout (4448, 4463, 4486, 4487, 4445), while others, above all the long note 4283 and also 4444, 4494, 4670, and 4673, move repeatedly among collaborator-address, structured-outline, scripted-dialogue, story-craft-reflection, narrative-summary, worldbuilding-fact, expository-analysis, comparative-analogy, and aphoristic-maxim, with most changes landing at a visible break such as a heading, bullet, or new paragraph and only the quoted lines running in without one.

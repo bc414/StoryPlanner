@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether Capital One has two-factor authentication enabled by default or whether it must be turned on in account settings | "Does capital one have implicit two factor authentication or does it need to be enabled somewhere in settings?"
+- supplies:
+- shaping:
+- openness: Asks for a choice between two named possibilities: that Capital One's two-factor authentication is implicit/automatic versus that it needs to be enabled in settings.
+- subject: Whether Capital One's two-factor authentication is on by default or requires manual setup

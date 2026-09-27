@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's monetary-system breakdown as given and asks a further strategic question about whether Discret would use the stolen imperial fleet to challenge Skyfall's shipping insurance monopoly and offer rival insurance.

@@ -1,0 +1,26 @@
+- steps:
+  - author | supplies-source | a YouTube video link and a request to map its concept onto the story plan | opening exchange of the thread
+  - model | maps-concept | a five-part mapping of the video's concept onto existing story elements (magic system, antagonist economy, aesthetics, a character arc, protagonist tech) | first reply of the thread
+  - author | proposes-synthesis | an equivalence between the video's concept plus social networks and the story's existing magic-as-ambition premise | second exchange
+  - model | extends-framework | an elaborated social-commentary structure (spell matrix, casting, dark and light magic uses) built on the author's proposed equivalence | second reply
+  - author | supplies-case | a real-world political case study and a request for causes and takeaways | third exchange
+  - model | analyzes-case | a causal breakdown of the case translated into three story-craft lessons for the plan | third reply
+  - author | shifts-topic | a question about whether non-coders use a particular AI development tool effectively | fourth exchange, pivoting away from story analysis
+  - model | surveys-usage | an overview of how non-technical users get value from the tool, with a closing offer tied back to the author's project | fourth reply
+  - author | asks-mechanism | a request to explain what one model-tuning parameter does | fifth exchange
+  - model | explains-mechanism | a mathematical and practical explanation of that parameter's effect on output | fifth reply
+  - author | asks-mechanism | a request to explain a second, related tuning parameter | sixth exchange
+  - model | explains-mechanism | an explanation of the second parameter, contrasted against the first and paired into tuning strategies | sixth reply
+  - author | asks-followup | whether the ordinary consumer chat interface varies these parameters automatically by context | seventh exchange
+  - model | explains-system | a description of hidden dynamic tuning, model-switching, and a suggestion to use the manual tool instead for the author's project | seventh reply
+  - author | requests-framework | a request for a four-way matrix of parameter combinations and their use cases | eighth exchange
+  - model | builds-matrix | a four-quadrant breakdown of settings with use cases illustrated using the author's own story material | eighth reply
+  - author | states-need | the author's own two planning goals (getting a felt instinct explained, getting objective literary-theory analysis) and a request for settings matching each | ninth exchange, narrowing the technical discussion back to planning purpose
+  - model | recommends-settings | specific parameter values and prompting strategies matched to each of the two stated goals, plus a system-instruction suggestion | ninth reply
+  - author | confirms-and-asks | agreement that a high-randomness mode is unwanted for their purpose, plus a request for further unconventional approaches | tenth exchange
+  - model | offers-techniques | three additional working techniques (adversarial framing, hidden lore context, staged temperature comparison) for using the tool while keeping authorial control | tenth reply
+  - author | asks-generalization | whether the high-randomness mode is what drives general/viral use while the discussed settings serve power users | eleventh exchange, near the close of the thread
+  - model | confirms-generalization | a validation and elaboration of that divide, plus an offer to run a settings-based test on a story scene | closing reply of the thread
+- kept:
+- brought: The author brought an external video, a real-world political case study, and their own stated planning goals (explaining instinct, applying formal literary analysis) as material to test against and steer the discussion, none of which the archive traced back into the planning database from this stretch.
+- loop: The author repeatedly brought outside material and technical questions for the model to map onto or apply to the existing plan, and the model kept returning tailored explanations and settings recommendations referencing the plan's elements, but none of this exchange was captured into the planning database in this stretch.

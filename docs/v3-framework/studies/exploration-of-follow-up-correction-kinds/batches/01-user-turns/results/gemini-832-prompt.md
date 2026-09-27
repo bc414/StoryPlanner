@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a prequel they wrote and asks the model to analyze which perspective it uses, moving the conversation from the model's prescriptive advice to a new request without disputing anything in it.

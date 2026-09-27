@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a canonical detail about Pridea's pony demographics and proposes a new backstory (retiring griffons, coerced pony migration, later reform-era growth) as a fresh question, without saying anything in the prior turn was wrong.

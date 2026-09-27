@@ -1,0 +1,6 @@
+- asks:
+  - evaluate | asks the model to weigh in on whether Claude Code or Claude Cowork would be suitable tools for managing/building the story bible | "What about using Claude code or Claude cowork? For the story bible"
+- supplies:
+- shaping:
+- openness: The message floats two named tools (Claude Code, Claude Cowork) as a possibility for the story bible and asks the model's reaction, without stating a preferred answer, so it reads as an open question anchored to two named options.
+- subject: Whether to use Claude Code or Claude Cowork for building/managing the story bible

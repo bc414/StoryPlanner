@@ -1,0 +1,5 @@
+- sources:
+  - the 5 axes | weight: use as the basis for correlation analysis, but treat filled-in values as best-effort and empty cells as unresolved/uncertain rather than decided | marks: "I made the 5 axes and filled in as best I can. Anything empty means I couldn't tell." | new: first-named
+  - the axes as they were before, with poles changed to transactional | weight: treat as a hypothetical alternate state to test whether Stratified is derivable from the other axes under it | marks: "if those were all changed to transactional as it was before" | new: referred-to
+- order:
+- about: The user submits their own filled-in version of the 5 axes and asks the model to analyze near-perfect correlations (noting Identity/Economy as one pair), test whether Stratified is derivable from the other axes under an earlier transactional version, and flag conspicuously empty entries for the user to fill in.

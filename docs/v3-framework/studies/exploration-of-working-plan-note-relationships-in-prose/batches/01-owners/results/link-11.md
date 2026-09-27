@@ -1,0 +1,7 @@
+- relations:
+  - 136 | 138 | 138 restates 136's mush as a matter of attitude: the indiscriminate mixing with no judgement or difference is what the parents read as acceptance, set against Applejack's reading of the same mash as soulless | no judgement or difference / acceptance / soulless mash | implicit
+  - 136 | 145 | 136's mixing of apples and pears without difference reads as the way the organization's action turns a zero-sum game into a positive-sum one; 145 states the result and 136 gives the pooling that could produce it | Apples and pears can be mushed together / positive sum game | implicit
+- outward:
+  - 138 | Applejack's earlier-established view of the cans as soulless mash, which the reader is said to already hold from elsewhere in the story | The reader knows Applejack views the cans as "soulless mash"
+  - 145 | The zero-sum situation that existed before the organization, and the wider Accelerants theme held across the story | turned a zero sum game into a positive sum game
+- whole: The three notes hang together loosely: 136 and 138 clearly read the same mashed-fruit cans as acceptance, while 145 shares the organization as its subject but joins the other two only faintly.

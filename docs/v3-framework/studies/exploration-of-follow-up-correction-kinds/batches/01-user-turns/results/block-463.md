@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made the Thestral who becomes Daring Do a member of a Medicinal/Artisan tribe whose empathy let Ahuizotl confess to her. In the user's world she comes from a drug cartel, and the present-day business is sham tourism. | "One correction, Thestral Daring Do is not from a medicinal artisan tribe, she is from a drug cartel." | Flat and explicit. The user announces a single correction, states the right fact, then moves on to a new question built on it.
+- about: The user fixes the Daring Do Thestral's origin (drug cartel running sham tourism, not a medicinal tribe), then asks how Ahuizotl could be deconditioned into a repentant ally under that setup and offers a healing-laced blade for the faked death.

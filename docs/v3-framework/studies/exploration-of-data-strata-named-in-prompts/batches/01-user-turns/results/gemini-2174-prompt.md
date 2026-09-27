@@ -1,0 +1,4 @@
+- sources:
+  - the continuous card flow, dirty check and ux touches (the options from the model's previous reply in this conversation) | treat as the chosen design and base the implementation path on them | are what I want | referred-to
+- order:
+- about: The user picks three of the model's proposed features (continuous card flow, dirty check, UX touches) as the design they want and asks for an implementation path.

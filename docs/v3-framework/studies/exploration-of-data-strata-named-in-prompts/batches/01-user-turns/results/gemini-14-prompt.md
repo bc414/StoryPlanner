@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a new factual question about how many civilians were killed in France during the blitzkrieg, without pointing the model at any particular body of material.

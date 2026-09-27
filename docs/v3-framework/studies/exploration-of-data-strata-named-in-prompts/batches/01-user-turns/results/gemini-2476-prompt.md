@@ -1,0 +1,9 @@
+- sources:
+  - EaW lore (Equestria at War) | Treated as the baseline to contrast with; it keeps the later show's contradictory Hasbro-driven elements, so the author's plan departs from it where it does | EaW tries to preserve the contradictory elements of the later show | referred-to
+  - my interpretation for the narrative / my plans (the author's own plan) | Treated as the authoritative version: an adult take on Faust's themes that rejects Hasbro mandates and diverges from EaW, for example by having Twilight shut down the school | my plans aim to be the adult version of Faust's themes | referred-to
+  - Lauren Faust's original themes | Treated as the pure source material the plan builds on and adapts into an adult version | adult version of Faust's themes | referred-to
+  - Hasbro mandates (the later show's contradictory elements) | Rejected as corruption of the pure themes; not carried over as themes, only folded into the mechanics of Celestia's Stagnation of Harmony | reject all the Hasbro mandates | referred-to
+- order:
+  - Lauren Faust's original themes over Hasbro mandates | Hasbro mandates are called corruption of the pure themes and are rejected | reject all the Hasbro mandates
+  - my interpretation for the narrative over EaW lore | where EaW leaves the school of friendship in the background, the author's plan diverges | My divergence is Twilight shutting down the school
+- about: The user is correcting the model's comparison by saying their plan differs from EaW because it turns Faust's original themes into an adult version and rejects Hasbro's later-show mandates, which it reuses only as Stagnation of Harmony mechanics, and gives Twilight closing the school of friendship as an example.

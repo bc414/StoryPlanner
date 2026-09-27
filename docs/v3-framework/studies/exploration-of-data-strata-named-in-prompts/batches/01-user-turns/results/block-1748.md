@@ -1,0 +1,4 @@
+- sources:
+  - the American MAGA movement | the real-world reference the model is asked to draw on to find counterparts for the story's figures; used as a comparison domain, not as settled or ranked | Who are the equivalent figures in the American MAGA movement | referred-to
+- order:
+- about: The user asks the model to map the figures of the propaganda and ascension analysis onto their counterparts in the American MAGA movement.

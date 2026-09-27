@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author proposes a revised what-if for their worldbuilding, moving the Marks and Angel manifesto to 990 with Kemerskai's martial-law state as its model, giving the two authors new backgrounds, and noting that they misread how that state came about.

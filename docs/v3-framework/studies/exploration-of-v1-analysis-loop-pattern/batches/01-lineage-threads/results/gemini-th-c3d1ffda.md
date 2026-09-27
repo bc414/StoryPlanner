@@ -1,0 +1,13 @@
+- steps:
+  - the author | supplies source material | full plan export attached with no accompanying question text | opening of the excerpt
+  - the model | analytic breakdown | lays out the naming convention as social engineering across five angles: caste mechanism, foreign perception, changeling weaponization, Celestia's guilt, republican reclaiming | first response
+  - the author | extends and redirects | proposes a scene where Celestia softly says Rarity's name plus an early Vanhoover report, and asks whether real-world surnames tie to terroir/region | second prompt
+  - the model | scene-sketch plus research answer | drafts the Celestia/Rarity silence beat and confirms French toponymic surnames, then extends the pattern into Aquileian terroir-based naming with regional examples | second response
+  - the author | requests inventory | asks for both the already-established reasons for Celestia's paralysis and new additional reasons | third prompt
+  - the model | catalog and expansion | recaps four existing pillars of Celestia's statue state from the plan, then proposes four new ones, closing with a summary of her arc | third response
+- kept:
+  - note 3037 | pasted whole from this reply | keeps the model's line about Celestia realizing she made her ponies edible by stripping their personhood, placed on the link between the Rarity/Celestia/Luna scene and the naming-perception subject
+  - note 4348 | pasted from this reply inside the author's own framing | keeps the broader synthesis of naming lore (idiom names, translation by outsiders, Chrysalis's literalizing propaganda, nominative determinism, harmonic capitalism) rewritten into the author's own framing under the naming-perception subject
+  - note 4383 | the plan held this text before this reply | no new material kept; this is pre-existing Chrysalis lore the model quoted back rather than something drawn from this conversation
+- brought: The author brought the plan's naming-convention worldbuilding and a real-world research question about French/regional surnames to extend it.
+- loop: The author feeds in an existing worldbuilding thread and follow-up questions, the model elaborates it into psychological and cultural detail, and the plan keeps back a condensed version of that elaboration on naming lore while one cited note shows the model instead surfacing lore the plan already held.

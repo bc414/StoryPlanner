@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the proposed filing by saying the fixed axis belongs in a World Climate world law and the artificial seasons should be a technology that the Equestrian civilizational systems use and that the changelings cannot reach when they invade, without pointing the model at any body of material to draw on or set aside.

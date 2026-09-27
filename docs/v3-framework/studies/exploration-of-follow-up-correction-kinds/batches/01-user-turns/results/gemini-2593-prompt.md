@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the adrenaline discussion with new questions about sex differences, predator versus herbivore physiology, and whether the chasseur pairs share the combat high and crash, without disputing anything the model said.

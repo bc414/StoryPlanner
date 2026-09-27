@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting the content of the "hard truth" speech that the model had only sketched briefly, and does not challenge anything the model said.

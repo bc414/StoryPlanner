@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the changeling translation devices, which render idiom names literally, would be hardwired to handle Chrysalis's name differently, and compares this to Musk forcing Twitter engineers to boost his account.

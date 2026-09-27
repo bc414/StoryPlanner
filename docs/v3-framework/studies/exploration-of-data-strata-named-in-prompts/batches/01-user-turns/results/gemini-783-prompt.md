@@ -1,0 +1,4 @@
+- sources:
+  - Harvest of Falldale document | treat as the authority to check the model's claim against; re-read it, since its content contradicts what the model said | Check the Harvest of Falldale document again | referred-to
+- order:
+- about: The user rejects the model's reading of Applejack's cameo as a hallucination and tells it to re-check the Harvest of Falldale document, stating that Applejack was urging the Falldale ponies to evacuate.

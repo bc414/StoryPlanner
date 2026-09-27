@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - economic reasoning | the model implied that Zebrican warlords extracting a cut of remittances mirrors or reshapes the predator's dilemma at the village, but the user insists the underlying labor value is created entirely in Skyfall, not at the village | "don't change the nature of the predator's dilemma at their village. Their labor and value created is all in Skyfall" | stated flatly with a reason given, in passing before moving on to new questions
+- about: The user pushes back on the model's economic framing of remittances and then poses new analytical questions about how remittance-heavy GDPs function and how they compare to historical Irish, Italian, and Chinese labor diasporas.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model illustrated the directive approach with the political-axes conversation as its worked example, which the user says is an atypical conversation and so a poor basis for the analysis | Reanalyze using Princess and the Kaiser's ASOIAF inspirations as an example; Political axes of the fabula is a bit abnormal | a short imperative to redo the analysis with a named replacement example, followed by a brief flat reason, with no apology or heat
+- about: The user asks the model to redo its analysis of the directive-annotation approach with a different, more typical conversation as the example, because the one it used is unusual.

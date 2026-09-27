@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user grants that the etched P2 spell works perfectly and asks a new design question about what Griffon component would replace the unicorn's mind as the trigger or driver of the static crystal, building on the model's Skyfall reasoning without disputing it.

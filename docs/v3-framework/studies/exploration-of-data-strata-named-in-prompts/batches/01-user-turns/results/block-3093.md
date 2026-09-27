@@ -1,0 +1,6 @@
+- sources:
+  - P&K's ontology and storytelling framework | the published work's framework, to be described and set against the author's own plan in a comparison report | "P&K's ontology and storytelling framework" | referred-to
+  - my planned one (TLTT's ontology and storytelling framework) | the author's own planned framework, the other side of the comparison report | "compared to my planned one" | referred-to
+  - the full comments on P&K | material the new session will have access to and use to analyze whether TLTT will resonate and has an audience | "access to the full comments on P&K" | first-named
+- order:
+- about: The user asks for a report comparing P&K's ontology and storytelling framework with their planned TLTT framework, to be handed to a new session that will use the full P&K comments to assess resonance and audience.

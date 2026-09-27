@@ -1,0 +1,5 @@
+- sources:
+  - Pinkie's arc | existing part of the story plan that the author proposes to relocate earlier; offered as a tentative change, not settled | I'm thinking of moving Pinkie's arc up | referred-to
+  - the Extraction and Tempest chapters | part of the story plan named as the new place for Pinkie's arc; the scene ideas built on it are tentative | up to the Extraction and Tempest chapters | referred-to
+- order:
+- about: The author tentatively proposes moving Pinkie Pie's arc into the Extraction and Tempest chapters and sketches how it would work there, with pink love in rations and Pinkie meeting Tally Mark.

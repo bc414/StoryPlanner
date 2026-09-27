@@ -1,0 +1,5 @@
+- sources:
+  - original Hasbro toys as the inspiration for Lauren Faust's FiM | treat as a true premise the author asserts from their own knowledge, and use it as the insight to be worked into the story's meta narrative and themes | "she was inspired by the original Hasbro toys" | first-named
+  - the meta narrative and thematic payloads of TLTT (the existing ones) | treat as the established plan the new insight is to be interlocked with | "interplay with the exciting meta narrative and thematic payloads" | referred-to
+- order:
+- about: The user restates their earlier point as a fact about FiM's real-world origin in the Hasbro toys and asks the model to work out how it shapes and interacts with TLTT's already-established meta narrative and themes.

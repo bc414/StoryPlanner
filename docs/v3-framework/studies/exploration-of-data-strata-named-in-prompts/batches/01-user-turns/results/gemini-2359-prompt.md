@@ -1,0 +1,6 @@
+- sources:
+  - My original lore for why Luna wanted to enact world peace (Celestia and Luna defeat Sombra and Discord, Equestria already peaceful, rest of world in feudal warlordism, Luna's dreams of friendship become Nightmare Moon) | the author's established baseline premise that the new material must be reconciled with; restated as the starting point, not to be dropped | "My original lore for why Luna wanted to enact world peace" | first-named
+  - the new monster hunt lore | the newer material the model has been developing with the author; the original lore is to be integrated with it | "How does this integrate with the new monster hunt lore?" | referred-to
+  - the tale (Hearth's Warming Eve story) | used as evidence for an inference: Celestia and Luna's absence from it, with unicorns moving the sun and moon, suggests the labor strikes predate their birth; offered as the author's tentative feeling | "they aren't mentioned in the tale" | referred-to
+- order:
+- about: The author restates their original reason for Luna's world-peace ambition and asks the model to reconcile it with the newly developed monster-hunt and labor-strike lore, proposing tentatively that the Hearth's Warming Eve strikes predate Celestia and Luna and that Equestria stays unsafe until Luna's monster hunt.

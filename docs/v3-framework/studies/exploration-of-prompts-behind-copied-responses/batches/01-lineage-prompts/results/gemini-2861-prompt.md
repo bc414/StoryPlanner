@@ -1,0 +1,10 @@
+- asks:
+  - analyse | review which hormones are involved in amphetamine action and which are involved in opioid action | "Review the hormones involved with amphetamines and opioids"
+  - analyse | determine which hormones are mapped to the red love and pink love categories in the story's system | "what hormones are mapped to red and pink"
+  - analyse | weigh whether blitz essenz should be refined from red love alone, panzer haut from pink love alone, or whether both essences require a mix of red and pink, and give an overall analysis of this | "give an analysis"
+  - review | check the story plans against this hormone/color mapping idea | "Review my story plans"
+- supplies:
+  - premise/idea - tentative worldbuilding hypothesis | a proposed correspondence between blitz essenz (meth equivalent) and red love via adrenaline, and panzer haut (opioid equivalent) and pink love via endorphins | a couple of sentences
+- shaping:
+- openness: Leans toward a stated hypothesis (blitz essenz from red/adrenaline, panzer haut from pink/endorphins) while explicitly offering a named alternative (\"or both red and pink are required?\"), asking the model to choose or adjudicate among these named options after reviewing the hormone facts.
+- subject: Mapping fictional drug-equivalent substances (blitz essenz, panzer haut) to color-coded \"love\" essences via real-world hormone correspondences (adrenaline, endorphins)

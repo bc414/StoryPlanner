@@ -1,0 +1,6 @@
+- sources:
+  - the Night Light scientist arc, from the model's last turn | treat as settled and fixed; build on it | Night light is a lock | referred-to
+  - popular fanon idea from before season 4 that Twilight's mom is the author of Daring Do | a candidate idea the author is considering adopting and asks the model to assess thematically, though the show has contradicted it | What if I go with this idea? | first-named
+  - the episode Daring Don't in season 4 | published show material that broke the fanon idea; acknowledged as contradicting it, with the author asking whether to use the idea anyway | This was broken by the episode Daring Don't in season 4 | first-named
+- order:
+- about: The user confirms the Night Light scientist arc as settled and asks how it would work thematically to make Twilight Velvet the author of Daring Do, a pre-season-4 fanon idea that the episode Daring Don't broke.

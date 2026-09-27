@@ -1,0 +1,4 @@
+- sources:
+  - the author's own memory of a summer internship at Xandr (AT&T-acquired AppNexus) | weight: treated as true autobiographical material to be drawn on and woven into the story to add personal poignancy | marked by: 'To ad even more personal poignancy, I actually had a summer internship at an ad tech company' and the detailed recollection that follows | first-named
+- order:
+- about: The user offers a personal, real-life anecdote about interning at an ad-tech company as autobiographical material the model can use to deepen the story's emotional/thematic resonance.

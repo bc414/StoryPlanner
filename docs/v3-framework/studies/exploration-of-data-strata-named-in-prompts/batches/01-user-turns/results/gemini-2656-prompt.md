@@ -1,0 +1,5 @@
+- sources:
+  - my existing story plans | the model is to merge the new tribe self-conceptions (jaguar of the night, princess of the night, children of the night) into the plans the author already has | Synthesize this with my existing story plans | referred-to
+  - Princess Luna's dreamwalking legend, as stated by the author | treat as true in the author's world, an established fact about a spell Luna invented, and the basis for the medicinal tribes' self-image | which is real, it's a spell she invented | first-named
+- order:
+- about: The user endorses the previous analysis, adds three night-themed self-identities for the cartel, medicinal and isolationist tribes, and asks the model to fold them into their existing story plans.

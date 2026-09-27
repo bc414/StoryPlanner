@@ -1,0 +1,6 @@
+- sources:
+  - Chapter 9 buffalo and oil worker town hall (Fleur Bloom's lesson) | treat as the true, established origin of the 'evil is just an application' thesis, correcting the model's claim of a sudden Twilight insight | introduced to correct the model's account of where the idea came from | referred-to
+  - the conversation with Luna (a planned scene) | build directly on it by adding new dialogue (Twilight's 'bad investment' line, Applejack's response) immediately after it | positions new lines as following on from this scene | referred-to
+- order:
+  - Chapter 9 town hall (Fleur Bloom's lesson) over the model's 'sudden insight' framing | user states the lesson was already taught there as 'the thesis of harmonic capitalism', not a new realization
+- about: The user corrects the model by pointing to an earlier chapter that already established the 'evil as application' thesis, asks how that fits the themes, and adds new dialogue for the scene following Twilight's talk with Luna.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the model's criterion for what earns a Technology subject (a theme backed by trackable, documentable evidence) and asks whether the story's Ju 87 Stuka, a real 1940 German plane serving as evidence for a theme about poseurs, meets it.

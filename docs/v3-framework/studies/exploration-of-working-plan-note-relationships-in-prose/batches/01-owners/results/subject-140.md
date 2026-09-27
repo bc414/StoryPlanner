@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 836 | a place or story called Tall Tale, where the character was born, held elsewhere in the plan | Born in Tall Tale
+- whole: This owner has only a single note, so there is no set to hang together and nothing to join it to.

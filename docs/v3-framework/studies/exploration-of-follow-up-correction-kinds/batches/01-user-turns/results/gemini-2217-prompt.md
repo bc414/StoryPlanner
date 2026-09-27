@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question requesting more detail about Opal, the engine mentioned in the model's previous answer, without disputing anything in it.

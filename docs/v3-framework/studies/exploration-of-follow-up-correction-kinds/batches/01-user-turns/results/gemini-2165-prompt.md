@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the phosphorus background and builds story plans from it (volunteered strip-mined farms, a forced-requisition escalation, friction between AJ and Comet Shine, and a question about whether it explains Wonderbolt air dominance), without disputing anything the model said.

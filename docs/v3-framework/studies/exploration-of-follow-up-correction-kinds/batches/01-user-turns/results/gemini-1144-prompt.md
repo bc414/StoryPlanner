@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model assumed Applejack's radio reaches Command/Twilight; in the story her radio connects only to Henri | AJ's radio only goes to Henri | flat, stated as plain fact with no apology or hedging
+  - fact of the world | The model placed Twilight listening in a command center; the user says she has no radio and was never in any command center, having come straight from Canterlot to the trench | Twilight does not have a radio. She was never in tall tale command center | flat, terse statement of fact
+  - fact of the world | The model implied Twilight's rescue is triggered by hearing AJ over the radio; in the story she finds AJ by a spell guided by their friendship, and was already in transit when the battle began | She can locate AJ via a spell using their friendship as a guide. She was in transit when the battle started | flat, corrective information given without explicit rejection, leaving the model to see the analysis no longer holds
+- about: The user corrects the model's pros-and-cons analysis by restating the story's actual setup: AJ's radio reaches only Henri, Twilight has no radio and was never at command, and she finds AJ by a friendship-guided spell while in transit.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author adds new backstory for Chapter 12 (Ahuizotl's testimony, Krystalfels as Chrysalis's shell company, Kessler's patent grievance, Skyfall's resentment of her monopolies) and asks whether it makes sense for EEEE! and Caballeron's cartel to direct Kessler Jr. to use the drug profits for a pre-emptive proxy war on her Skyfall assets.

@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 190 | the canon season 3 episodes The Crystal Empire Part 1 and 2, held as outside source material, with Sombra, Rarity and the crystal ponies | The canon season 3 episodes The Crystal Empire Part 1 and 2 feature an existential "war" against Sombra
+  - 190 | the story's own settings and its "industrial war" tone, which are not described in this item | seamlessly interweave "industrial war" with "cute MLP"
+- whole: This owner holds a single note, so there is nothing to hang together or fall apart; it stands as one entry.

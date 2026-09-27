@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to come up with an in-story explanation for why Mali would leave the Night Guard and later serve in the regular army despite her closeness to Luna, tentatively suggesting it could involve needing to leave the Stagnation.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's question by declaring that griffon artisans and unicorn appliqué designers are symbiotic, then adds a new threat (a love donator built from Chrysalis's love harvester) and argues that griffons can carry their skills into other industries.

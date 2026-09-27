@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the prompt's FJA/MPA interaction example, checking whether a conflict note between the two demographic groups could properly be filed under a Dialectical bucket rather than Demographic buckets.

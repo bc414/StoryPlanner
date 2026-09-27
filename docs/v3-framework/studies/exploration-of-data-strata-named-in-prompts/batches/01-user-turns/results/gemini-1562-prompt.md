@@ -1,0 +1,7 @@
+- sources:
+  - this backstory (the tally stick and Tall Tale etymology just given in the conversation) | treat as the established base to build on and extend, and test whether the tally stick reading follows from it | To add to this backstory | referred-to
+  - the author's new claims about Tall Tale (the tally stick as a loophole, alignment with Aquileia, Comet Shine beating the Skyfall capitalists) | treat as the author's own settled additions that the model should accept and build on | Therefore, pre-industrial Tall Tale was already ideologically destined to align with Aquileia | first-named
+  - the Coltbert Reforms in Aquileia | use as the existing model that the tally stick mechanism is said to match | This is the same mechanism that the Coltbert Reforms capture in Aquileia | referred-to
+  - the Tall River geographical feature (widest river in Western Equestria) | treat as a new fact from the author and use it to extend the backstory and local culture | Tall Tale sits along the Tall River which is the widest river in Western Equestria | first-named
+- order:
+- about: The author builds on the model's Tall Tale etymology by proposing that the tally stick was a loophole in the Stagnation of Harmony that explains the city's alignment with Aquileia, then supplies a new geographical fact, the Tall River, and asks how it enriches the backstory and local culture.

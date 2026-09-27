@@ -1,0 +1,8 @@
+- steps:
+  - the author | attaches material | an unread document of unspecified content | at the opening of the exchange, before any discussion
+  - the author | poses a question with a sketch answer | the problem of how occupied Vanhoover avoids starvation, plus a rough hypothesis touching pride, leftover farm loam, and imported fertilizer | second turn, following the attachment
+  - the model | expands the sketch into a full systematized mechanism | a two-phase economic/chemical explanation (franchise-era pride farming vs. later chemical strip-mining), its downstream effects on food quality and drug dependency, and two forward-looking questions | third and final turn, closing the exchange
+- kept:
+  - note 4370 | the author's own words in this record | keeps the author's compact question-and-sketch on why Vanhoover doesn't starve (pride-holding Bauleiters, undepleted but non-replenishing loam, Haber-Bosch fertilizer supplying nitrogen without phosphorus/potassium, leaving food nutritionally hollow), filed under the Subject 'The Changeling Side of the War'
+- brought: The author brought a half-formed explanatory sketch for a worldbuilding problem (why occupied Vanhoover doesn't starve), touching on pride, soil depletion, and imported fertilizer, alongside an unread attached document.
+- loop: The author drops in a compact, self-authored hypothesis for a mechanic; the model elaborates it into an intricate, named, multi-phase systematic explanation with new terminology and follow-up questions; but what the planning database retains is not the model's elaboration, only the author's own original compact formulation, filed under a thematic subject heading.

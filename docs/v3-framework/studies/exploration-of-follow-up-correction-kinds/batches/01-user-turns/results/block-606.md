@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new scene (17.2, the Dreamscape Aid Network), submits it as a less bloated but probably still too broad example, and asks how its content can be redistributed and the earlier principles applied, without disputing anything in the model's diagnosis.

@@ -1,0 +1,8 @@
+- sources:
+  - standardized products (the world bible templates, guides and tools just surveyed) | treat as red herrings and not worth researching; set aside | standardized products seem like red herrings | referred-to
+  - my more Aquileian-model of working, with AI-made custom tools for my asset specificity and history | make this the focus of the research; the author's own bespoke process is the thing to investigate | more interested in researching my more Aquileian-model | first-named
+  - Sanderson and GRRM's personal systems for their masterpieces | treat as comparables of the same bespoke, non-scaling kind, so the research should look for that kind rather than generic products | personal systems for their masterpieces that don't necessarily translate | referred-to
+  - the best writer's rooms' show-specific systems | offered as a probable further example of bespoke systems, held as a guess rather than established | Same for probably what the best writer's rooms have | first-named
+- order:
+  - Aquileian-model of working and personal bespoke systems (Sanderson, GRRM, writer's rooms) | standardized products | more interested in researching my more Aquileian-model, standardized products seem like red herrings
+- about: The user rejects the generic world-bible products as irrelevant and redirects the research toward bespoke, AI-built personal systems like their own Aquileian model, which they compare to the private systems of Sanderson, GRRM and top writer's rooms.

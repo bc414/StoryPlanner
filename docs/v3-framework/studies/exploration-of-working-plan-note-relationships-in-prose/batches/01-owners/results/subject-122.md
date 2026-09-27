@@ -1,0 +1,12 @@
+- relations:
+  - 753|1774|1774 gives the detailed mechanism and performance for what 753 states briefly: the spell matrix converts hydrocarbons into a cleaner-burning fuel (isomerization into branched iso-octane, 50% efficiency)|"isometerizes the hydrocarbons into cleaner combustion" and "snap long, straight hydrocarbon chains into tightly branched iso-octane that burns cleaner"|implicit
+  - 1774|1775|1775 gives the reason characters use the hybrid av gas/crystal engine, which rests on the engine and matrix that 1774 describes; the light weight and stored energy make it suit elite planes|"hybrid av gas/crystal engine" against "Star Energy hybrid engines take in av gas and contains a spell matrix"|implicit
+  - 753|1775|1775 carries the hybrid crystal-and-fuel technology on from the debut tractor of 753 to aircraft, and adds the crystal grade it needs, with a later fuel input|"debut product is a hybrid tractor" and "perfect for elite planes"; "later red love canisters"|implicit
+- outward:
+  - 1775|A group of elite airmen from Aquileia, a place or nation held elsewhere|"Aquileian aces"
+  - 1775|Another group of fliers, the Wonderbolts, defined elsewhere|"Wonderbolts"
+  - 1775|A later energy source, red love canisters, held elsewhere|"later red love canisters"
+  - 1775|The highest grade crystals, a material with its own lore elsewhere|"highest grade crystals"
+  - 753|A company, Star Energy, whose other products and history are held elsewhere|"Star Energy's debut product"
+  - 1774|The company Star Energy, held elsewhere|"Star Energy hybrid engines"
+- whole: By content the three notes hang together as one account of the same hybrid crystal/fuel engine, covering the tractor version, the mechanism and the use in aircraft, though none of them points at another in words.

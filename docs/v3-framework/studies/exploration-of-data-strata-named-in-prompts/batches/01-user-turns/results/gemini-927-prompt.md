@@ -1,0 +1,5 @@
+- sources:
+  - The Cutie Remark | the canon episode to draw the factory's grim look from, replacing the wrongly named earlier episode; a correction of the reference | My mistake, I meant The Cutie Remark, not To Where and Back Again | referred-to
+  - The author's own view of Equestria's food supply (magic fertilizer, no common starvation) | treat as true about the setting and use it to overturn the starvation premise of the model's analysis; stated as the author's belief | I don't think starvation is common in Equestria because it they have incredibly OP natural fertilizer through magic | first-named
+- order:
+- about: The user corrects which episode the factory imagery comes from, rejects the starvation motive because magic fertilizer makes food abundant, and floats an export-driven canning business that leaves Applejack sad at having lost her parents without making them wrong.

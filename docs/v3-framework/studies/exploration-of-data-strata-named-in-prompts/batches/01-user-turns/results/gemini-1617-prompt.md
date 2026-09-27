@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects and extends the model's battle analysis by stating new story facts (Synovial commands from a distant bunker, his green crews use outdated tanks, the battle is a distraction, and the goal is to capture the tanks and rehabilitate the conscripts as POWs) without pointing the model at any body of source material.

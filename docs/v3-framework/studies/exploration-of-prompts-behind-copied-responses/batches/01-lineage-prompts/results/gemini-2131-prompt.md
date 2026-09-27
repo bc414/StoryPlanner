@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | list and describe historical raiding groups such as Vikings and Magyars as possible reference points | "What about Vikings, Magyars"
+  - brainstorm | surface historical African raiding groups that are less familiar in Western historical accounts | "any historical African raiders that might be more obscure to western history"
+  - brainstorm | identify comparable historical raiding phenomena in China, India, or South East Asia | "Anything in China, India or South East Asia?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer by naming starting points (Vikings, Magyars, African raiders, China/India/South East Asia) but leaves the actual examples and details open for the model to supply.
+- subject: Historical raiding cultures/groups across regions, likely for worldbuilding reference

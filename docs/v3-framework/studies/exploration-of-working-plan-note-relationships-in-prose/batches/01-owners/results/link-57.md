@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 1719 | Gilda, a character who speaks the quoted exchange and guesses "friendship", who is not otherwise present in this item | Gilda: Don't tell me. "Friendship"?
+  - 1719 | Grampa Gruff and his recipe, a figure and piece of lore held elsewhere | Grampa Gruff's recipe is good, but it's missing one important ingredient
+- whole: The owner holds only one note, so there is nothing for it to hang together with; the note stands alone, with its quoted exchange and its planning summary saying the same beat.

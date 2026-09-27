@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's synthesis framing forward by asking for an exhaustive list of how their themes mature Faust's storytelling and which later-show mandate elements to subvert, sorted into already in the story versus not yet, without disputing anything the model said.

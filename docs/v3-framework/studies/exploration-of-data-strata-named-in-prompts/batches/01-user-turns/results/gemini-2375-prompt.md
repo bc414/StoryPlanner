@@ -1,0 +1,4 @@
+- sources:
+  - Equestrian characters' (and the author's own) use of the Aquileian term "poseur" | drawn on as a precedent/parallel case for reasoning about whether "blank flank" would function the same way as a loanword | invoked with "Just as my Equestrian characters (and myself) use the Aquileian term 'poseur'" | referred-to
+- order:
+- about: The user corrects the model's premise about how griffon magic applies to autonomous machinery versus artisan-only goods, then asks whether Aquileian French would borrow "blank flank" as a loanword (paralleling the Equestrians' existing loanword use of "poseur") or coin a native rhyming endonym instead, and floats the idea that the term's foalhood-bullying connotation would be humbling to Aquileians.

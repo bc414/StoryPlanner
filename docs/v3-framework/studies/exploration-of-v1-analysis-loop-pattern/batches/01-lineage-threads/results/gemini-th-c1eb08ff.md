@@ -1,0 +1,11 @@
+- steps:
+  - author | proposes command structure | Henri as AJ's tactical commander from Tall Tale on, defeats Trimmel at Ponytown, mutual respect/hatred dynamic with Trimmel | opening prompt, first paragraph
+  - author | proposes twist | AJ learns via Trimmel in ch.15 that Chrysalis modeled her state on Kemerskai's meritocracy, not the Reich, though Reich supplies tech | opening prompt, second paragraph
+  - model | validates and reframes | casts Henri as tactical 'Pro' vs AJ's strategic 'Spirit', with sample Trimmel dialogue of respect and reasoning for Henri's unforgiving hatred | response, opening section on Henri
+  - model | names and unpacks the twist | labels it the 'Uncanny Valley' reveal, splits Chrysalis's 'tech from Reich, soul from Kemerskai' distinction, explains why it unsettles AJ | response, twist section
+  - model | builds comparative framework | table mapping Henri/Trimmel/Kemerskai by archetype, motivation, and mutual relations | response, three-generals table
+  - model | drafts a scene | Cloudbury parade scene showing AJ's flashback-triggered epiphany about state power resembling Chrysalis's | response, 'How the Shudder plays out' section
+  - model | drafts endgame beats | assigns Henri and Trimmel anvil/hammer roles against Synovial, has Henri accept the surrender as symbolic revolution-over-aristocracy capstone | response, final act strategy section
+- kept:
+- brought: The author brought a refinement to the command hierarchy (Henri as AJ's constant tactical commander and Trimmel's battlefield rival) paired with a twist that Chrysalis's regime was modeled on Kemerskai's meritocracy rather than the Reich.
+- loop: The author supplied two linked structural refinements — a command-chain retcon and a thematic twist — and the model expanded both into a full elaboration (dialogue samples, a comparative table, a drafted scene, and endgame blocking), but nothing from this exchange was traced into the planning database in this stretch.

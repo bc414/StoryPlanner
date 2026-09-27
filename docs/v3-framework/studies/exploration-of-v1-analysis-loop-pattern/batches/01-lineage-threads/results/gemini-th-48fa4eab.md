@@ -1,0 +1,14 @@
+- steps:
+  - author | brings comparison | asserts GR's economy/biology mirrors real human history while Aquileia's mark/species-based model is fantasy-specific | opening of the prompt
+  - author | requests deepening | asks for more real-world analysis linking both fictional systems to reality | same prompt
+  - author | poses sub-question | flags men-vs-women as the area where real life is most Aquileian-like | same prompt
+  - author | poses sub-question | asks whether Aquileia's varied griffon ecologies vs Herzland's uniform one has a real-world parallel | same prompt
+  - model | builds gender analogy | maps Aquileian 'harmonic differentiation' to difference feminism and Griffonian 'standardization' to 2nd-wave/corporate feminism, tied to Earth Ponies and Applejack | first section of the reply, answering the gender sub-question
+  - model | builds geography analogy | maps Herzland to the flat North European Plain/Prussia and Aquileia to France's regional terroir to explain centralization vs specialization | second section, answering the ecology sub-question
+  - model | extends the framework | adds an unrequested economic-systems analogy, New Deal/social democracy vs Christian Democracy/distributism | third section of the reply
+  - model | applies framework to characters | uses the two philosophies to explain Kemerskai vs Gaudreau's friction and Applejack's synthesis via the mixed-crew tank | fourth section of the reply
+  - model | consolidates | closes with a summary table cross-referencing biology, geography, economy, and philosophy for both republics | end of the reply
+- kept:
+  - note 4707 | pasted from this reply inside the author's own framing | keeps the model's paired gender-politics mapping (Aquileian difference-feminism vs the model's Griffonian/standardization framing, relabeled 'Skyfall' by the author), with the author adding a new third 'Griffonian Republic' category of their own wording on parental-leave policy, filed under a Cultural Differences subject
+- brought: The author brought an already-formed comparison of the two republics' economic/biological logic plus two targeted questions, on gender and on ecological diversity, asking the model to ground both in real-world parallels.
+- loop: The author brings a partly-worked comparison and pointed sub-questions about gender and ecology; the model returns a multi-part real-world mapping across gender politics, geography, economics, and character conflict; the plan keeps only the gender-politics section, carrying it into a cultural-differences note while the author relabels and extends it with their own added category.

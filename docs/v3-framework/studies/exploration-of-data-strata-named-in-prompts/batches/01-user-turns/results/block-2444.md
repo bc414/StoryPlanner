@@ -1,0 +1,4 @@
+- sources:
+  - the story plans | weight: told to review them as the basis for the requested analysis | marks it: "Review the story plans and give an analysis" | referred-to
+- order:
+- about: The turn issues a set of factual corrections and refinements to the timeline and thematic framing of the Tzinacatl/Chirropterra/Chrysalis material (PMC timing, New Horseleans/Baltimare's dual role as domestic customer base plus hidden Griffonian export route, the state-actor vs. profit-driven-opportunist distinction between Chrysalis/Coltbert and Skyfall individuals, TLTT's anti-anarcho-capitalist critique operating through strong accountable states, and Chrysalis's tragic loss of control over her own elites) before instructing the model to review the story plans and produce an analysis.

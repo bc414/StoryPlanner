@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is a full statement of the original request (attachments, app screenshots, the 7 axes, the Chrysalis example, the three questions, and an instruction to read every source fully), and it does not mention, answer or dispute the model's reply or its closing question about the Note model.

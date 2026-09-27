@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is reasoning about the design of their note-track framework, asking the model to clarify what a plot point should do with tell, show and let-it-speak content, whether L+R needs two tracks or four, and whether the Latent and Enacted labels still fit.

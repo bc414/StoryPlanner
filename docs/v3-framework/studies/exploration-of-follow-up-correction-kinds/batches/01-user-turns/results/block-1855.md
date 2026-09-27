@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates how their tracks are laid out in the UI (left to right by rainbow color) and raises a new open design question about placing the Analogies and Allegories split, without disputing anything the model said.

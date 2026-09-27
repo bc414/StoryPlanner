@@ -1,0 +1,7 @@
+- sources:
+  - Gemini Chat with Notebook LM attachment | the place where wild new ideas are generated; output is raw, unvetted brainstorm material to be gathered first and processed afterward | Get all the wild new ideas through Gemini Chat with Notebook LM attachment | referred-to
+  - the chat history | the brainstorm transcript to be run through Bucket Categorizer and then reread from bottom to top to pull material out of it | run the chat history through Bucket Categorizer | referred-to
+  - orthogonal axes notes | the notes to be filled in from the reread of the chat history; they become the final notes handed on for checking | populate the orthogonal axes notes | referred-to
+  - Notebook LM (the rest of my notes) | the established notes to check the final notes against, asking for impact, interactions and contradictions | ask what is the impact on the rest of my notes, interactions, contradictions | referred-to
+- order:
+- about: The user lays out a five-step workflow of brainstorming in Gemini Chat, categorizing and rereading the transcript into axes notes, checking those notes against Notebook LM for impact and contradictions, then adding to the story planner, and asks for an analysis of it.

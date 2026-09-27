@@ -1,0 +1,5 @@
+- sources:
+  - my only frame of language is full English | the author's own linguistic frame; the model should explain the Herzlander distinction through English as the reference point | My only frame of language is full English | first-named
+  - native full english vs where international contractors stop | use as the real-world comparison: native English as the analogue of full Herzlander and the limited English of international contractors as the analogue of the capped level | the difference between native full english and where international contractors stop | first-named
+- order:
+- about: The user asks the model to explain the gap between full and simplified language by analogy to native English versus the limited English of international contractors, since English is the only language they know.

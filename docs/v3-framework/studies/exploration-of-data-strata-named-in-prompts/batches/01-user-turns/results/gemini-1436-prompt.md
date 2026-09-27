@@ -1,0 +1,4 @@
+- sources:
+  - canon (the show's episodes: changelings introduced as antagonists at Cadance's wedding, the next episode set in the Crystal Empire, Cadance's crystal heart cutie mark, Thorax's intro episode in the Crystal Empire) | treat as true, used as evidence that the shared changeling and Crystal Pony magic is deliberate and not a coincidence | it isn't a coincidence that they can have the same magic because changelings were introduced in canon | referred-to
+- order:
+- about: The user offers a reading of the show's episode sequence and Cadance's and Thorax's Crystal Empire connections as support for the model's claim that changelings and Crystal Ponies share the same magic.

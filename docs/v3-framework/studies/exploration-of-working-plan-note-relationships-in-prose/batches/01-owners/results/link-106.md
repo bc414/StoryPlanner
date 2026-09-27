@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 2554|Grover III's industrial containment methodology, held in another part of the plan, which Celestia is said to follow|Celestia follows Grover III's industrial containment methodology
+  - 2554|The outsiders and the unchecked ambition they would bring, a threat or population not described in this item|insular to outsiders instead of incorporative in order to keep the unchecked ambition out
+- whole: By itself this owner holds only one note, so there is nothing to join and it stands as a single entry.

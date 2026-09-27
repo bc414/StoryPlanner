@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user revises their own plan on second thought, dropping Conscience as a titled chapter so the sixth element stays hidden from first-time readers, and explains why. This changes the structure the model had endorsed but does not say the model got anything wrong.

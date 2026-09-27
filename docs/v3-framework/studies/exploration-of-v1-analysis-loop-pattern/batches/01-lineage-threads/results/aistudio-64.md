@@ -1,0 +1,10 @@
+- steps:
+  - author | brings source material | an attached story-plan document, contents uncaptured | opening of the stretch
+  - author | poses a structural question | asks whether the plan would work as an original IP and what in it is tightly coupled to MLP/EaW versus independent | first author message with the question
+  - model | delivers a categorized analysis | splits the plan into 'meta-parasitic' elements dependent on the MLP/EaW audience versus 'axiomatic' elements that are original, gives per-element rewrite suggestions, a viability verdict, and closing Socratic questions | first model reply
+  - author | contests a conclusion | argues that an original 'nursery' setting would read as cynical satire rather than land sympathetically, since a reader would already know the genre is a hard political thriller | first part of second author message
+  - author | narrows the test | accepts the coupled/decoupled split but reframes the question to whether a reader with no fandom context at all, relying only on lived experience, would still get the themes | second part of second author message
+  - model | re-applies the analysis to the narrower test | walks through the same story elements again, mapping each onto real-world lived-experience analogues, restates a viability verdict, and closes with two new Socratic questions | second model reply
+- kept:
+- brought: The author brought their existing story plan (via an attached, uncaptured document) and a stress-test question about whether it could stand as an original work rather than a fanfiction, later narrowing that question to a stricter reader-context test.
+- loop: The author brought an evaluative question testing the plan against an imagined audience's foreknowledge, the model returned a full structural analysis and verdict each time, and the author used that response only to sharpen the test further rather than to revise the plan itself; nothing from either exchange was captured into the planning database.

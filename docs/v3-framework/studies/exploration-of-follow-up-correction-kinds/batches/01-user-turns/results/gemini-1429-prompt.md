@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the Night Light-as-suppressed-scientist idea, ties it to Twilight's season 1 persona and to how long Celestia suppressed each of them, and adds detail on why Twilight fears her parents' judgment (the changeling kills, the love donator, the rifles) and that the reality is she liberated them.

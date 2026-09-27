@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the discussion of Anthropic's position and shares their own shift from passive gaming and YouTube to building and learning with reasoning LLMs, then asks why others seem to consume more slop and whether passive consumption builds tolerance like a drug.

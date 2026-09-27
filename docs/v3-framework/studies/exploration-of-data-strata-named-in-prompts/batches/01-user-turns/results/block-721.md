@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes renaming the schema's StoryEntity concept to "Subject" and the link type to "PlotPointSubjectLink", without pointing at any body of material for the model to draw on.

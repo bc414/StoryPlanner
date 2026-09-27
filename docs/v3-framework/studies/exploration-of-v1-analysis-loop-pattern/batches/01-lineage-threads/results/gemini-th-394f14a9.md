@@ -1,0 +1,10 @@
+- steps:
+  - the author | asks for craft examples | famous novels using rotating third-person-limited POV | opening turn of the thread
+  - the model | supplies a survey | named examples (ASOIAF, Heroes of Olympus, Wheel of Time, Six of Crows, Poisonwood Bible, Stormlight Archive) with mechanic/effect notes and a comparison table, then offers to go deeper on transitions | first response
+  - the author | accepts the offered next step | a one-word 'yes' to explore transition technique | second turn
+  - the model | gives a craft breakdown | rules for switching POV cleanly (chapter/scene breaks, name-anchoring the first line, sensory filtering by character type, avoiding head-hopping with a weak/strong example) plus a style-comparison table, then offers an exercise or rewrite demo | second response
+  - the author | redirects to a new craft question | asks about dramatic irony specifically, requesting 'true meaning and mechanics' | third turn
+  - the model | gives a deeper analysis | defines the information-gap and subjective-filter mechanics, a three-stage 'irony loop,' a table of structural patterns (ships in the night, betrayal loop, unreliable witness), contrasts rotating-limited with omniscient, then ties the technique to the author's own in-progress project and offers to discuss information tracking | third response
+- kept:
+- brought: none
+- loop: The author ran a purely general craft inquiry — examples, then transition mechanics, then dramatic-irony mechanics — each time taking up or redirecting the model's offer to go further, but no note in the planning database traces to any of these exchanges, so the loop here produced craft knowledge that stayed outside the plan rather than being captured into it.

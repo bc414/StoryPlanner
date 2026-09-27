@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's explanation as a check on their own understanding, revising their earlier moral/cultural framing to include legal structure, and asks the model to confirm it.

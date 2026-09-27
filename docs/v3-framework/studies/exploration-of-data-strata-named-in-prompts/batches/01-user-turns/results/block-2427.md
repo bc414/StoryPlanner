@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Mali's misreading of her mother's traditionalist culture, seeing tribal fighting as disharmony when it is an esoteric but internally consistent mutual respect, should be the truth of her arc, and points at no body of material for the model to draw on.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's recommendation of the manual web chat and asks a follow-up question about whether that web chat process can be automated.

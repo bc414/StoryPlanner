@@ -1,0 +1,19 @@
+- steps:
+  - author | confirms lore payoff | ties Fleur's forthcoming science explanation to resolving the earlier 'earth pony serfs held back magic' accusation | opening of the prompt
+  - author | drafts a character line | gives Fleur's 'honest work is what makes us earth ponies' line pivoting to a buffalo comparison and a request to study them | early in the prompt
+  - author | flags a plot consequence | notes that Fleur staying behind means she won't travel to Tall Tale with Twilight, deferring their 'geeking out' | mid-prompt
+  - author | proposes a character dynamic | has Twilight treat Fleur as a peer in magical theory, subversive since Fleur is an earth pony, with an Aquileian accent and French-flavored scientific terms | mid-prompt
+  - author | proposes a subplot | adds Applejack's jealousy and Rainbow Dash teasing Twilight about having 'a thing for earth ponies' | mid-prompt
+  - author | corrects/reframes an earlier belief | restates what Twilight actually feared about the cider squeezy 6000 and what relief Fleur's explanation gives her, tying it to the Star Spade as proof technology can work for free earth ponies | closing of the prompt
+  - model | drafts a dialogue scene | writes Fleur's vindication speech incorporating the given line and the buffalo pivot | first section of the response, 'The Science of Serfdom'
+  - model | drafts a scene | builds the Aquileian-accent science-bonding exchange alongside the Applejack/Rainbow Dash jealousy beat | second section of the response
+  - model | drafts a resolution scene | writes a bedroom conversation reframing Twilight's cider-machine epiphany per the author's correction | third section of the response
+  - model | drafts a parting scene | extends the 'interrupted geek-out' consequence into a farewell/handover moment between Twilight and Fleur | fourth section of the response
+  - model | offers a thematic synthesis | ties all four threads together under the story's 'Combined Arms' theme | closing summary of the response
+- kept:
+  - note 674 | the author's own words in this record | keeps Fleur's 'honest work' line and buffalo pivot, placed as dialogue on the PlotPoint for Fleur's Star Spade/Coltbert Reforms explanation, extended with a stomping-ritual justification
+  - note 3678 | the author's own words in this record | keeps the idea of Twilight treating Fleur as an equal in magical theory with her Aquileian accent and terms, placed on the Link between 'The Decision to Split' and 'TwiJack'
+  - note 3771 | the author's own words in this record | keeps the full clarification of Twilight's fear and relief over the cider machine and the Star Spade validation, placed on the Link between the Star Spade/Coltbert Reforms PlotPoint and 'TwiJack'
+  - note 4804 | one sentence lifted from this reply | keeps a single synthesized line that technology doesn't replace but eases earth pony work, added to the existing Subject entry on 'Comet Shine' extending the 'Harmonic Capitalism' concept
+- brought: The author brought forward established lore — the Aquileian serfdom accusation and Twilight's long-standing fear tied to the cider squeezy 6000 and applebucking — to build new dialogue and character-dynamic ideas on top of it.
+- loop: The author supplies a cluster of new lines, character-dynamic ideas, and a correction to a prior assumption; the model returns these as organized draft scenes with a thematic tie-in; the plan keeps the author's own phrasing verbatim onto the specific plot and relationship links it concerns, while pulling just one synthesized sentence from the model's draft into an unrelated existing subject entry.

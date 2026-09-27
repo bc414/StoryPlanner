@@ -1,0 +1,22 @@
+- relations:
+  - 655|656|the Manehattan glamour she saw is the occasion for the glamorous, fashionable ambition that the characterization note says she chose|wanted to bring some of that glamour back home; decided to be fashionable, glamorous|implicit
+  - 656|664|both give the kid-friendly version of Aquileian lore she absorbed as a filly; the second spells out the lesson she took (clothing heals) that the first only sketches as self-actualization|kid-friendly version of the FJA chasseur ideal; kid-friendly stories of glamorous Aquileian seamstresses|implicit
+  - 664|657|the reason behind her canon generosity: believing clothes redeem people explains why she treats clothes as a gift of self-esteem and why she is an organic believer in the Aquileian model|Rarity is Generosity, not just Fashion; organic believer of the Aquileian model|implicit
+  - 662|660|general statement that Rarity rehabilitates ambition is played out as good ambition (Red Love) feeding generosity (Pink Love) and beauty as self-esteem rather than making others small|Rehabilitation of Ambition; uses Red Love (Ambition) to fuel Pink Love (Generosity)|implicit
+  - 662|657|both set Rarity against Celestia's view of ambition and clothing; one as suppression versus rehabilitation, the other as a subversion of Celestia's cynical conclusions|Suppression of Ambition; subversion of Celestia's observations|implicit
+  - 657|660|the same claim about clothes as self-esteem rather than status, restated and sharpened as good versus bad ambition; both call her a subversion|clothes are not just a status symbol; self-esteem; Rarity subverts|implicit
+  - 660|666|both bring in Minette: the first says clothes as social armor descend from Minette dressing house ponies, the second says her story will reveal the trauma behind that armor|Minette making clothes for house ponies; when readers read Minette's story|explicit
+  - 666|655|the later reveal recasts the parloir glamour of the history note as hiding trauma and projecting strength rather than simple confidence|the Manehattan parloirs; clothes were meant to hide inner trauma|explicit
+  - 666|664|the dark truth overturns the kid-friendly reading of the seamstress stories, which the other note says she took without the violence and nuance|dark truth; didn't understand the sexual/political nuance (the violence)|implicit
+  - 664|663|her Aquileian-derived belief that clothes turn rough ones into gentlecolts, and the Aquileian lens of negotiation and flings, both show Spike being handled through Aquileian frames rather than as a friend|make Spikey-Wikey look like gentlemen; Aquileian lens of negotiation and flings|implicit
+- outward:
+  - 655|the canon episode The Cutie Mark Chronicles|as shown in The Cutie Mark Chronicles
+  - 656|lore of the FJA chasseur ideal held elsewhere|the FJA chasseur ideal, which is about self actualization
+  - 664|Aquileian seamstress tales and The Lioness Spell, the sexual/political and violent lore|The Lioness Spell, the violence
+  - 662|Celestia's role and her suppression of ambition, held elsewhere|Celestia represents the Suppression of Ambition
+  - 657|Celestia's observations on clothing in serf Herzland/Riverlands, and canon episodes and Applejack|Suited for Success and Canterlot Boutique; Applejack
+  - 660|Minette and her clothes for house ponies, lore held elsewhere|descended from Minette making clothes for house ponies
+  - 666|Minette's own story, held elsewhere|when readers read Minette's story
+  - 663|canon Spike's crush on Rarity|Rarity doesn't take Spike's crush seriously
+  - 1982|canon P&K Rarity, the war, Applejack's army and her friends at the front|Applejack's army is organized to take in non-combat volunteers
+- whole: The notes largely hang together around one thread, Rarity's kid-friendly Aquileian ideal of clothes as healing and self-esteem and its darker origin, with the Spike crush note and the pacifism-to-activism note standing more apart.

@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | re-read before answering; the model is to review them again first | Please review my story plans again before answering | referred-to
+  - my lore about how Kemerskai's revolution in 978 was led by the rugged individualists | treat as the author's established lore that the model's analysis is said to explain | So this perfectly explains my lore | referred-to
+- order:
+- about: The user confirms the model's analysis fits their revolution lore, lays out the timeline from 978 to 1007, asks how Kemerskai's and Eros's regimes would use ideals and propaganda, and tells the model to review their story plans again before answering.

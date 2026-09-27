@@ -1,0 +1,13 @@
+- steps:
+  - author | attaches source material | a planning document, uncaptured | opening turn of the conversation
+  - author | recaps a paradigm revision | states that the invention of spell-matrix methodology has been reassigned from Twilight to the Aquileians, and that Red Love has replaced Temberik/Diamond Mountain crystals as the stable power source | first written message
+  - author | requests an audit | asks the model to flag any parts of the story plans still reflecting the old paradigm (Twilight-as-inventor, Temberik as sole crystal source) | close of the same message
+  - model | delivers a categorized audit | walks through specific scenes and notes, quoting the old-paradigm phrasing in each and specifying the required rewrite, grouped under headings for epiphany moments, the crystal bottleneck, and minor timeline issues | body of the model's reply
+  - model | poses stress-test questions | raises two open worldbuilding questions about the physical limits of the crystal medium and how an allied faction might react to the new power source | closing section of the model's reply
+- kept:
+  - note 5200 | the author's own words in this record | keeps background lore on the crystal enhancer's invention and its Diamond Mountain requirement, filed under Subject Magical Engineering
+  - note 1380 | pasted from this reply inside the author's own framing | keeps the model's quoted old-paradigm stakes line about needing more Temberik crystals, re-pasted with added framing naming love donators, spellfire matrices and canisters, filed under PlotPoint Flying to Diyarbecolt
+  - note 1429 | the plan held this text before this reply | keeps pre-existing note text on the squeezy-6000/Applejack comparison that the model had quoted as an old-paradigm remnant, filed under PlotPoint Twilight asks why Celestia chose her to be an alicorn and the magic economy
+  - note 1430 | the plan held this text before this reply | keeps pre-existing note text on letting everypony have any spell, likewise quoted by the model as an old-paradigm remnant, filed under the same PlotPoint
+- brought: The author brought an already-decided revision to the magic system's origin story and power source, plus the existing story plan document, and asked for a scene-by-scene check of the plan against that revision.
+- loop: The author brought a settled worldbuilding change and asked the model to hunt the plan for text still built on the discarded version; the model returned a scene-by-scene audit quoting the old passages and prescribing fixes, but the database mostly kept only the located old text itself (confirmed as remnants) plus one stakes line the author re-pasted with their own added framing, rather than filing the model's proposed rewrites.

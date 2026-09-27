@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of why Arc 4 was easier than Arc 3 and builds on it, asking whether TLTT's in media res structure avoids the problem, comparing how their romance arcs are shaped across stories, and adding remarks on worldbuilding and scale, without disputing anything the model said.

@@ -1,0 +1,4 @@
+- sources:
+  - previous research (the author's own earlier research on hyperscaler ingress/egress charges) | treated as the author's background premise that the model should take as the baseline and say whether it still holds for agentic workflows | I know from previous research that hyperscalers charge a premium on ingress and egress | referred-to
+- order:
+- about: The user checks their understanding of where chain of thought runs versus where agentic tool calling and storage sit, and asks whether hyperscaler data ingress and egress fees matter for agentic LLM workflows or are negligible next to compute costs.

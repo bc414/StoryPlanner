@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Sets the two stories' sources of motivation side by side: P&K's ponies are moved by fear (Stories of Vanhoover) and force (Blueblood's conscription), while TLTT's ponies are moved by Ideology and Technology. This states the subversion as a contrast, and it also gives world facts about what drives the army in each story. | "In P&K, the ponies rely on" ... "In TLTT, they have Ideology and Technology." | no | Terse expository contrast in two parallel sentences, with parenthetical glosses (fear)/(force)
+- whole: A two-sentence note that says how TLTT subverts P&K on what motivates the ponies to fight: fear and conscription in P&K, ideology and technology in TLTT.

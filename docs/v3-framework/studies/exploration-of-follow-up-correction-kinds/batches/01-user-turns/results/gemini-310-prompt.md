@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's bat-pony "proving ground" discussion as agreement and builds on it, tying it to why the School of Friendship failed in their story, criticizing the canon school, and pasting their original notes on it as new material.

@@ -1,0 +1,4 @@
+- sources:
+  - Prussia forcing Bavaria and the Swabian states, and Germany with the Sudetenland and Austria | real-world historical precedent the model is asked to confirm or compare against, to decide whether propaganda was used to force other hives to join, treated as a question rather than settled | Is that what Prussia used to force Bavaria and swabian states? Also Germany and the Sudentenland and Austria? | referred-to
+- order:
+- about: The user is questioning when Chrysalis's changeling master-race propaganda should begin (before or after Canterlot Wedding in 1002, or as a tool for forcing hives to join, compared with German unification precedents) and proposing that Vaspier could already be in VOPS before it and rise quickly by fanatically adopting it.

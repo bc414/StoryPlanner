@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme; fabula content | Judges the exchange of changeling POWs for ponies as tribalism, because ponies' lives are valued over changelings' even though the POWs are known to be headed for the love harvesters. It also states as fact that returned POWs will be hooked up to love harvesters. | "is essentially tribalism"; "knowing the POWs will be hooked up to love harvesters" | no | expository prose, a single declarative sentence that labels the act with the theme's term
+- whole: A one-sentence commentary that names the pony-for-changeling POW exchange as tribalism, on the ground that the returned changelings will be put on love harvesters.

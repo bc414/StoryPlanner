@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user narrows the model's proposed anti-submarine extension, saying the echolocation device would serve thestrals aboard the new cloud carriers to detect subs during naval combat rather than hunting subs across the ocean.

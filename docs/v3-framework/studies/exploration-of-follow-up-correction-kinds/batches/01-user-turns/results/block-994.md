@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Cynicism/Resilience framework and extends it, mapping it onto the story's factions (Griffonian Republic, Empire, Reich, Skyfall, Stalliongrad, Equestrian city parallels) and then poses a new question about how Aquileia fits between cynicism and resilience given the plan's evolution toward a synthesis ending.

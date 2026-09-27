@@ -1,0 +1,10 @@
+- asks:
+  - analysis | compare the three named approaches to Aquileia's political setup and identify their differences | "an analysis of the differences of each approach"
+  - analysis | explain how each of those differences would affect the narrative | "and how they affect the narrative"
+- supplies:
+  - approach description | Approach 1: FJA holds the largest plurality, Gaudreau is president, Vérany is economic minister | a sentence
+  - approach description | Approach 2: FJA originally led the coalition with Gaudreau as president in 1008, but an election between Henri/Fleur meeting AJ in Tall Tale and AJ's arrival in Aquileia made PNdA the 40% plurality with FJA as 35% partner; Vérany is now president, Gaudreau a minister, and a merger with GR is close but not yet at 50% support, with communists possibly helping and FJA/MPA opposed unless an MPA member breaks ranks | a paragraph
+  - approach description | Approach 3: PdNA was always the 40% coalition leader with Vérany as president and FJA at 35%; Henri and Fleur's Tall Tale mission was always quixotic for FJA, whose status as Aquileia's secondary (though Equestria-suited) ideology was never disclosed; if the empire is defeated, merger becomes imminent | a paragraph
+- shaping:
+- openness: Leaves the answer open: it asks for an analysis of differences and narrative effects across the three named approaches without requesting a recommendation or choice between them.
+- subject: Comparing three alternate political configurations of Aquileia's coalition government (FJA, PNdA/PdNA, Gaudreau, Vérany, GR merger) and their narrative consequences

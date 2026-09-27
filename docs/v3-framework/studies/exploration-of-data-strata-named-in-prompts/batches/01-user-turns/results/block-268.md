@@ -1,0 +1,4 @@
+- sources:
+  - real-world history of telecommunications and industrialization (telegraph, bessemer, haber bosch, globalizing Western firms, outsourcing labor) | offered as a real-world parallel for the story's telegraph unbanning, and the model is asked to confirm it from general knowledge | That's how telecommunications were used to globalize Western firms, outsource labor and spread extraction, right? | referred-to
+- order:
+- about: The author revises the model's proposed Griffon messaging and Skyfall DRM worldbuilding, correcting how the seals are forged, the timeline, and the origin of the DRM and crystal scarcity, and checks a real-world telecommunications parallel.

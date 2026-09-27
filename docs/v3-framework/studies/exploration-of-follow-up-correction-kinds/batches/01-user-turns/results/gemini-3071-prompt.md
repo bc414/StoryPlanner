@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's analysis to raise a consistency problem caused by their own revised definition of jaeger geist, asking whether Cadance and Shining Armor's Canterlot Wedding spell would now work on conscripts and how to explain it if it does not.

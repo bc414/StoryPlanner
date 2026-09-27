@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to expand on Gascons and how they differ from Occitans, Parisians and rural northerners such as those from Champagne, without pointing at any body of material to draw on or avoid.

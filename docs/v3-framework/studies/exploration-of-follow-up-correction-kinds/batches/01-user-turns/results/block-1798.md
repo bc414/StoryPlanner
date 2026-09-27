@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn follows up on the model's brief mention of Pokémon Go by asking for a deep analysis of it and then Ingress in terms of game economics and societal effects, which is a new request and not a correction.

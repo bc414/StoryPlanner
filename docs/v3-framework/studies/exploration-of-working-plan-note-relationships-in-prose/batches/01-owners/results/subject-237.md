@@ -1,0 +1,17 @@
+- relations:
+  - 1675|1677|the function note says the spell is modelled on the canon item, and the canon note names that item as what the technology builds on|It works like the tantabus / The tantabus|explicit
+  - 1675|1679|the history note spells out in steps how the mechanism stated in the function note came about and runs: drain warlord ambition, then reuse it to reach another warlord|drains the dream of conquest ... uses the drained ambition / draining the warlord's ambition. Luna then repurposes that ambition|implicit
+  - 1680|1679|the earlier note gives Luna's motive and starting idea of repurposing code, and the later note continues in time with her building the spell and the resulting collapse|arrogantly believed she could repurpose the code / Luna then repurposes that ambition|implicit
+  - 1679|1678|the history note gives the cause of Luna's fall into Nightmare Moon, which the allegory note presupposes when it says using the spell would make her Nightmare Moon again|meltdown into Nightmare Moon / she'll become Nightmare Moon again|implicit
+  - 1679|1678|the history note's self-replicating spread of the spell out of control is the instance behind the allegory's claim that escalation solves nothing|replications of the spell that were happening on their own / The solution is not escalation|implicit
+  - 1676|1678|the real-world analogy of the atomic bomb is the thing the allegory addresses when it calls Mutually Assured Destruction a lie|Atomic Bomb / Mutually Assured Destruction is a lie|implicit
+- outward:
+  - 1680|Sombra and his weapon of mass subjugation, held elsewhere in the lore|Sombra's weapon of mass subjugation
+  - 1679|the dreamwalking spell, an existing spell held elsewhere|She uses the dreamwalking spell to connect with dreams
+  - 1679|the crystallers and their filtering spell, lore held elsewhere|the crystallers' filtering spell
+  - 1679|Luna's earlier fall into Nightmare Moon, her psychological architecture and the red love in her dreamscape, held elsewhere|corrupts her psychological architecture
+  - 1677|the tantabus as established in canon, held outside this item|The tantabus
+  - 1675|the tantabus as established in canon, whose workings are not given here|It works like the tantabus
+  - 1678|Nightmare Moon as a prior state of Luna, and the real-world Mutually Assured Destruction doctrine and WW1 trench warfare|she'll become Nightmare Moon again / WW1 trench warfare
+  - 1676|the real-world atomic bomb|Atomic Bomb
+- whole: The notes hang together as a set: the function, invention history, canon and analogy notes feed the allegory note's argument about escalation and Luna's fall, though the analogy and canon notes are single bare phrases that join others only through a shared name or theme.

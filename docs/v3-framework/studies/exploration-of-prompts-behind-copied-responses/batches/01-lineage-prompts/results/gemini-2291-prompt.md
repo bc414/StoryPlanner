@@ -1,0 +1,9 @@
+- asks:
+  - naming | asks for a pretentious-sounding French name for the top-tier Aquileian ace plane | 'need a really pretentious French name'
+  - factual question | asks which real-world aircraft the German WW2 fighters were, to model the mass-produced changeling-swarm tier | '(what are the German fighters?)'
+- supplies:
+  - plan list | a four-tier hierarchy of fictional/fantasy warplanes (Aquileian ace plane, Wonderbolts Spitfire, standard WW2-style fighters for a changeling swarm, and dive-bombing Stukas with sirens) plus a mid-war shift to mass-produced simplified Spitfires for magical close air support | several sentences/a short list
+- shaping:
+  - the requested name must be pretentious and French-sounding | 'a really pretentious French name'
+- openness: Leaves both embedded requests open-ended: the name is unspecified beyond the requested style (pretentious, French), and the German fighters question simply asks the model to supply specific real aircraft, while the rest of the plane hierarchy is stated as already decided rather than up for revision.
+- subject: Designing a tiered lineup of fantasy/WW2-hybrid warplanes for a fictional war, including one plane's name and real German fighter references.

@@ -1,0 +1,9 @@
+- asks:
+  - brainstorm | find ways to link the "stagnation of harmony" theme to the present-day Western world, floating deindustrialization and the drug crisis as candidate hooks | "Need to equate stagnation of harmony with present day western world... Tie into deindustrialization? Drug crisis?"
+  - develop/synthesize | carry forward and reconcile the layered political-economic theory being built (capitalism typologies, the Hopff Observation historical cycle, Adult Harmony, the vindication of Celestia's stagnation) into the story's thematic architecture | the sequential build-up of named frameworks (Hopff Observation, Adult Harmony, Trauma-Loyalty Engine, Western Stagnation) with no closing question
+- supplies:
+  - idea list | the user's own chain of thematic/political notes tying story factions (Celestia, Aquileia, Applejack, the Griffonian Republic) to real-world concepts like tariffs, monopoly capitalism, neoliberalism, and civic republicanism | several short paragraphs across multiple entries
+  - earlier reply | a previously produced multi-part narrative analysis mapping Aquileian Ambition versus Celestian Stagnation through four story phases, a Trauma-Loyalty Engine argument about Grover III, Gerad Discret and Chrysalis, and a Western Stagnation allegory piece, each with headers and sourced citations | several pages
+- shaping:
+- openness: Mostly leans toward answers it already names (the Hopff Observation cycle, the Adult Harmony synthesis, the vindication of Celestia's stagnation), while leaving one point explicitly open: how to tie the stagnation theme to deindustrialization or the drug crisis, posed as a direct question.
+- subject: Political-economic allegory and thematic architecture (stagnation vs. ambition, capitalism types, historical cycles) underlying a My Little Pony-based political fantasy novel

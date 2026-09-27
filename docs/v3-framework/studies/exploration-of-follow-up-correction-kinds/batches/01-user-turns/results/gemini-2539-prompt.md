@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's cut of the Skyfall prison pipeline and builds on it, sketching the jaegers' and Statthalters' fleets and asking whether subs can deter privateers and where the love harvesters should be held (aboard ships or on island outposts).

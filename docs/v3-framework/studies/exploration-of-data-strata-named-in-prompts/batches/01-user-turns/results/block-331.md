@@ -1,0 +1,4 @@
+- sources:
+  - this new framework | treat as the basis for the model's analysis of the story's themes; the model is to read what it implies about the story | What does this new framework say about the story and its themes?
+- order:
+- about: The user asks the model to draw out the story's themes from the framework just discussed, and offers their own reading that the glorious war-story aesthetic is a trojan horse for deconstructing heroes and great men or mares.

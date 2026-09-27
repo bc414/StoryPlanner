@@ -1,0 +1,5 @@
+- sources:
+  - the 2nd half of the story (the chapters just outlined, including the two-chapter sequence) | material under evaluation: the model is to judge whether its chapters should be split or merged and compare its themes with the first half | We've now outlined the 2nd half of the story | referred-to
+  - the first half of the story (its Elements of Harmony chapter titles, themes, nuance and subversion) | the benchmark the second half must be compared with and made to live up to; the titles are treated as an anchor the second half lacks | live up to the elaborate themes and nuance and subversion established in the first half | referred-to
+- order:
+- about: The user asks whether the last two outlined chapters should stay separate or be merged, and how the second half, which lacks the first half's Elements of Harmony title anchors, compares in themes and can be made to match the first half's depth and subversion.

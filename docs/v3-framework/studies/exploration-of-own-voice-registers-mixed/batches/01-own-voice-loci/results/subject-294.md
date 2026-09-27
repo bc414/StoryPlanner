@@ -1,0 +1,8 @@
+- passages:
+  - note 5180 | explanatory-analytic | causal 'because', full independent clause, third person present tense | why the cutie map goes dormant after Mount Aris | apart
+  - note 5180 | shorthand-inventory | comma-separated noun phrases, no governing verb, elliptical | each mane 6 member's individual state (militarizing, charity, feeling small) | apart
+  - note 5181 | explanatory-analytic | full declarative sentences, third person present tense, expository purpose-statement | harmony under assault from Skyfall individualism and the purpose of map missions | apart
+- shifts:
+  - note 5180 | explanatory-analytic | shorthand-inventory | drop from a full causal sentence into a comma-list of unverbed noun phrases naming each character's state
+- registers: explanatory-analytic; shorthand-inventory
+- whole: Across its two notes this item mostly holds one explanatory-analytic register of plain causal, third-person present-tense reasoning, except that note 5180 breaks at its sentence boundary into a second, shorthand-inventory register listing character states as bare noun phrases.

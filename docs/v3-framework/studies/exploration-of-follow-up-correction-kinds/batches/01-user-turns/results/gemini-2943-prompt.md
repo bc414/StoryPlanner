@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new colloquial in-world name, "Pinkie Sense," for the Charitostatic Effect, adding a naming proposal rather than disputing anything in the model's analysis.

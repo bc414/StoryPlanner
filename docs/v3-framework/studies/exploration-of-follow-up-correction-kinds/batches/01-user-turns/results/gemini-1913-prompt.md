@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether rulers took new names on accession, extending the Ottoman/European comparison without challenging anything the model said.

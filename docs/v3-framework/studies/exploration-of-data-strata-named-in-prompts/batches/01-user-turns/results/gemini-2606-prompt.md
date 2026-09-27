@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | model is to review them and base the synthesized answer on them | Review my story plans and synthesize an answer | referred-to
+- order:
+- about: The user asks follow-up questions about why Gerad Discret enforces chastity, whether he recruits traumatized camp followers, and whether they could serve as a standardized redcoat-style gendarmerie, while restating their own camp-follower economics and directing the model to review their story plans to synthesize an answer.

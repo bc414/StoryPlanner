@@ -1,0 +1,10 @@
+- steps:
+  - author | ask-etymology | requests the real-world etymology of "franc" and whether it can be used in the lore | opens the conversation
+  - model | etymology-plus-fit | lays out the historical origin of "franc" then proposes several ways its dual meaning (free/honest) could map onto the Republic's currency and its factions | replies to the first question
+  - author | follow-up-etymology | asks for the etymology of "dollar" in English, with no lore framing attached | second turn
+  - model | etymology-only | gives a straight historical account of "dollar"'s origin from Joachimsthaler through Spanish dollar to US adoption, without connecting it to the story | replies to the second question
+  - author | new-naming-question | asks what a specific faction's civic currency should be called, supplying the cultural makeup of the two merged peoples behind it | third turn
+  - model | option-generation | offers several candidate currency names, each with etymology and thematic rationale tied to the two cultures, then closes with a recommendation split by which theme to emphasize | replies to the third question
+- kept:
+- brought: The author supplies the cultural pairing behind one faction's currency question, naming one group as German-coded refugees and the other as the Danish-coded native population of the same country.
+- loop: The author brings a string of etymology and naming questions anchored to the plan's cultural coding of factions, and the model returns historical word-origins plus generated name options with thematic rationale each time; none of these answers were captured back into the planning database in this stretch, leaving the naming work as open exploration rather than a settled entry.

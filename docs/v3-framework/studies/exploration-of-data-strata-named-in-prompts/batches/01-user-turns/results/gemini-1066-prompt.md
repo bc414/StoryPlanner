@@ -1,0 +1,8 @@
+- sources:
+  - the family feud angle (the model's Option 1 letter) | chosen as the option to go with | I think the family feud angle is the best | referred-to
+  - the special talent and investment angles (the model's Options 2 and 3) | set aside as redundant with what the story already covers | would have already been covered | referred-to
+  - rafts and rubber production from the other, friendlier tribes | treated as already covered in the story, and the reason the two angles are not needed | would have already been covered for rafts and rubber production | first-named
+  - Tribe D's history as the author states it | treat as true background: they moved the most vice product and sent Chrysalis-refined drugs to Manehattan when the subs came | Tribe D is specifically the group of tribes that moved the most vice product historically | first-named
+- order:
+  - the family feud angle over the special talent and investment angles | I think the family feud angle is the best
+- about: The user picks the family feud letter option and explains, from their own story background about Tribe D and the friendlier tribes, why the other two options don't fit.

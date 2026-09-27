@@ -1,0 +1,8 @@
+- sources:
+  - the new framing (the model's preceding analysis of 2025–2026, the 2020 primary and the 45% Celestia bloc) | take as the new basis for redesigning the election arc and polling numbers | With this new framing, I need to fundamentally redesign | referred-to
+  - the original intention of the polling (Celestia 45, Applejack 30, Gilded Trust 25, ending with Applejack cannibalizing Gilded Trust and a third of Celestia) | treat as possibly outdated and preachy moral commentary; to be replaced by alternative setups | probably a moral commentary that may be outdated or come across as preachy | referred-to
+  - the existing election arc events | go through them all and review them against the redesign | Please review all the events | referred-to
+  - Applejack's lesson from Kemerskai and the six-month span from referendum announcement to ballot counting | treat as fixed constraints the redesign must fit: the lesson lands mid-arc within the six months | Crucially, Applejack's lesson from Kemerskai happens in the middle of the election arc | referred-to
+- order:
+  - the new framing | over the original intention of the polling numbers and result | With this new framing, I need to fundamentally redesign the election arc and polling numbers
+- about: The user asks the model to redesign the election arc and its polling numbers in light of the new framing, proposing alternatives and stating what the arc should say, while keeping the mid-arc Kemerskai lesson and the six-month timeline fixed.

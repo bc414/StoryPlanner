@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the narrative-architecture discussion and asks an unrelated practical question about whether code can be imported from GitHub into Google AI Studio, without commenting on the model's answer.

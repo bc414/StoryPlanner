@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, checking whether the birth and cutie-mark years and Rockfeller's seminar attendance place the observatory buyout, the firing of the buffalo and the admission fee within Fluttershy's childhood, without disputing anything the model said.

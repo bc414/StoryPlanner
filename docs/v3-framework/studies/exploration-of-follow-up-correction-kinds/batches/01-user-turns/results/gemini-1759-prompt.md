@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the alliance-naming thread and asks for an analysis of a block of earlier brainstorming on Herzlander, Gaudreau and Aquileian urban and industrial models, wanting to know which parts are already in the story plan and which are not.

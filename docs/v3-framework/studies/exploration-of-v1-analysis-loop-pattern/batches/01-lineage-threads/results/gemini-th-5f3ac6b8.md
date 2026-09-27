@@ -1,0 +1,24 @@
+- steps:
+  - the author | comparative research query | ask whether other fanworks match planned Applejack depth, request internet search | opening exchange
+  - the model | comparative survey and verdict | list of comparable fics, judgment of uniqueness, follow-up worldbuilding question | response to opening exchange
+  - the author | mechanic proposal with design dilemma | Jaeger-geist drug concept, critical-thinking on/off question, withdrawal-rehab sketch | second exchange
+  - the model | option breakdown and recommendation | pros/cons of cognitive-debuff choice, chosen mechanism tied to existing lore, elaborated withdrawal/rehab arc | response to second exchange
+  - the author | new mechanic introduction | Wings of Dew truth-revealing spell tied to tableau de chasse anti-poseur system | third exchange
+  - the model | structural integration | four-part breakdown linking new spell to magic physics and Aquileian culture | response to third exchange
+  - the author | mechanism extension with technical question | cryptography public/private-key allegory, request to link to intent-vector lore, enchantment-scope question | fourth exchange
+  - the model | technical elaboration and verdict | key/cipher mapping, integration with piezomagical and intent-vector lore, direct answer on what needs enchanting | response to fourth exchange
+  - the author | factual plus creative request | etymology of piezoelectric, brainstorm for idol's glow effect | fifth exchange
+  - the model | definition and options list | etymology answer, three visual-effect concepts with tradeoffs, follow-up question | response to fifth exchange
+  - the author | term correction and physics refinement | rejection of piezomagical, proposal of electron-orbital glow and physical shaking | sixth exchange
+  - the model | physics elaboration | electron-excitation model, alternative terminology, resonance-based shaking mechanic, geopolitical implication | response to sixth exchange
+  - the author | broader physics research query | request for light-emission mechanisms besides luminescence | seventh exchange
+  - the model | catalog of physics options | four phenomena each mapped onto ambition/idol lore, closing recommendation question | response to seventh exchange
+- kept:
+  - note 3137 | the author's own words in this record | keeps the suicide-mix tragedy line, filed on the Link between the POW camp scene and Chrysalis's New Order
+  - note 4543 | the author's own words in this record | keeps the Jaeger-geist drug description and the withdrawal/authentic-love contrast, filed under Subject Combat Drugs
+  - note 1189 | pasted from this reply with cuts | keeps the model's account of the rehab moment (synthetic regime vs. Fluttershy's donated love), filed on the PlotPoint for the POW camp visit
+  - note 3134 | pasted from this reply with cuts | keeps the model's linguistic-trap explanation for conscripts freezing, filed on the Link between POW camp and New Order
+  - note 3135 | pasted whole from this reply | keeps the model's line on synthetic oxytocin producing false safety, same Link
+  - note 3136 | pasted whole from this reply | keeps the model's paragraph on the cognitive-dissonance freeze mechanism, same Link
+- brought: The author brought a series of in-progress worldbuilding mechanics and questions from their own planning materials for the model to test, refine, or supply missing physics for: a conscription drug's psychology, a truth-detecting flight spell tied to a social ledger system, a cryptographic verification scheme, and the physical basis for a magic artifact's glow and shaking.
+- loop: The author repeatedly drops a partially built mechanic or a binary design question drawn from the story's existing lore, the model answers with structural analysis, options, or a recommended resolution that knits the idea into established systems, and the author either iterates the mechanic further or moves to the next lore problem; only the combat-drug exchange left a direct trace in the database, where the author's own drug description and tragedy line were kept verbatim and the model's rehab-arc and freeze-mechanism explanations were kept as cut or whole pastes attached to the POW-camp plot point and its link to the New Order, while the fanfic-comparison, Wings-of-Dew, tableau-de-chasse cryptography, and idol-glow physics exchanges produced no directly retained notes despite comparable depth.

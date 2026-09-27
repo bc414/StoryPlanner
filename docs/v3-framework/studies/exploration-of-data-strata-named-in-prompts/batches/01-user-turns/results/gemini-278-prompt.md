@@ -1,0 +1,4 @@
+- sources:
+  - Aquileian model of technology to enhance local specialization | treat as the established framework the Tzinacatl storyline is an application of; use it to frame how the tribes are stabilized | this is another application of capitalism for good and the Aquileian model of technology | referred-to
+- order:
+- about: The user corrects the model's account of why the Tzinacatl fell into infighting (Nightmare Moon, the unifier, was banished) and ties the Tzinacatl arc to the story's existing themes of capitalism for good and the Aquileian technology model.

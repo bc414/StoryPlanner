@@ -1,0 +1,6 @@
+- sources:
+  - Into Darkness (Redhawk's story, its title and its publication dates of July 7, 2017 to April 20, 2020) | treat as the object being interpreted; the stated dates and the title-from-the-start are given as facts the model should use as evidence in choosing between the two theories of how it came out | Note that Into Darkness started publishing on July 7, 2017 and stopped in April 20, 2020 | referred-to
+  - the user's own chapter 13 (Fleur/Mali scene, Henri and Fleur teaching Twilight and Applejack a healthy relationship) | offered as an example of the user's own practice of plot-relevant lemons, not as something to be checked or revised | hence my chapter 13 having a Fleur/Mali scene | referred-to
+  - Minette and Reni's story (the user's own, with explicit scenes) | offered as a second example of the user's practice of plot-relevant explicit scenes | Minette and Reni's story having explicit scenes | referred-to
+- order:
+- about: The user is putting forward a theory that Redhawk's Into Darkness accidentally became hopepunk and was then pulled back by genre conventions and authorial fiat, and is supporting it with the story's publication dates and title and their own approach to lemons.

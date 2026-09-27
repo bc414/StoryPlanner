@@ -1,0 +1,4 @@
+- passages:
+- shifts:
+- registers: none
+- whole: The one note this place holds carries no text at all, so there is no register to identify.

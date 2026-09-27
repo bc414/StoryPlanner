@@ -1,0 +1,18 @@
+- relations:
+  - 634|633|one restates the other: the in-world history credits the invention to Chrysalis's engineers, the civilization note credits Chrysalis as inventor and adds the purpose (the same fact at two levels)|Invented by Chrysalis to store pink love ... / Invented by Chrysalis's engineers|implicit
+  - 634|641|the purpose of storing extracted love is served by the mechanism of how love moves in and out of a canister (the changeling love draining spell); the harvester and the draining spell are joined as the extraction and transfer of love|store pink love and red love that are extracted from victims / only way to move love ... in and out of a canister is using the changeling love draining spell|implicit
+  - 634|638|the stated function (storing love) is given a plain-language description as friendship or magic in a can; pink love and red love correspond to raw friendship and raw magic|store pink love and red love / Friendship in a can or Magic in a can|implicit
+  - 638|641|the general description of the can as friendship or magic in a can is specified by the rule of what love is (raw friendship or raw magic) and how it can be moved and kept|Friendship in a can / raw friendship or raw magic|implicit
+  - 640|634|the reader-response plan presupposes the canisters hold red and pink love as the invention note states, and the changelings' habit of chugging red love follows from the canisters storing it|red love canisters / store pink love and red love|implicit
+  - 640|641|the plan that ponies bottle their friendship in an empty canister and pour it out for rehab depends on the rule that love can be moved in and out of a canister; ponies would need the draining spell to do so|bottled up in the exact same empty ammo canister / only way to move love ... in and out of a canister|implicit
+  - 640|638|the plan's ponies drawing friendship into the same canister and using the red ones as ammo are instances of the canister as friendship or magic in a can|red love canisters ... pink canisters / Friendship in a can or Magic in a can|implicit
+- outward:
+  - 634|the love harvester, a device held elsewhere that extracts love from victims|extracted from victims via the love harvester
+  - 634|Chrysalis, a character not otherwise in this item|Invented by Chrysalis
+  - 633|Chrysalis and her engineers, held elsewhere|Invented by Chrysalis's engineers
+  - 641|the changeling love draining spell and spell matrices, lore held elsewhere|changeling love draining spell (or a spell matrix that replicates it)
+  - 640|Luna Nova rifles, a weapon held elsewhere|power their Luna Nova rifles
+  - 640|Celestia and other pacifists, characters and their stance held elsewhere|repulsive to Celestia and other pacifists
+  - 640|the captured enemy and the rehab programme for them, held elsewhere|donated to the captured enemy
+  - 640|the battle in which ponies fight changelings, an event held elsewhere|They enter the battle with red canisters
+- whole: The notes hang together loosely as a set around one object, with the invention, the nature of the love, its handling and the reader's response mostly joined by content and few pointers, and the short history note only echoing the invention note.

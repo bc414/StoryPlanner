@@ -1,0 +1,4 @@
+- sources:
+  - The current economic scheme | treat as the established baseline of the plan, against which the model weighs adding a new option (industrial fuel) versus keeping drugs alone | The current economic scheme revolves around selling spiked red love as a drug on the global black market | referred-to
+- order:
+- about: The user states the current plan for Chrysalis's Red Love economy (spiked drug sales on the black market) and asks whether she should also reveal Red Love's use as an industrial fuel to earn more, or whether drugs alone suffice.

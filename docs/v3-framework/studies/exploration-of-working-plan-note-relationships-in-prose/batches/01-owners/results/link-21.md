@@ -1,0 +1,7 @@
+- relations:
+  - 393 | 394 | the psychology note gives the reason behind the behavior: she goes despite fear because she takes Celestia's request as a monarch's order | She is afraid of the front but Celestia asked her to bring Twilight back / views Celestia's request as an order from the monarch | explicit
+- outward:
+  - 393 | the front, a war zone or battle line located elsewhere in the story, which she fears | She is afraid of the front
+  - 393 | Twilight, a character elsewhere in the story whom Fluttershy is to bring back | bring Twilight back
+  - 394 | Celestia's standing as monarch, a matter of the wider world and its rule | an order from the monarch
+- whole: ["The two notes hang together as a pair: the action on the page and the psychology that explains it, joined by the shared figure of Celestia's request."]

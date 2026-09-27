@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Twilight's character and ideological position at this point in the story: the model gave her a hard-science, systemic teardown of Starlight's model and a research-partner pitch, whereas at this stage she is still within Celestia's paradigm and her pitch should stay near canon | Twilight's pitch to Starlight should be close to as it is in canon because she is still under Celestia's paradigm | flat statement of what it should be, with a brief reason given
+  - reading of the plan | The model's Twilight lecture pulled away from the nursery-style friendship language that the user's plan has her using; the model dropped the Princess of Friendship register the plan expects | Twilight absolutely should use the language of the nursery | emphatic directive, stated flatly with no softening ('absolutely')
+- about: The user pushes back on the model's version of Twilight's post-Our Town pitch, saying it should stay close to canon and use nursery language because Twilight is still under Celestia's paradigm.

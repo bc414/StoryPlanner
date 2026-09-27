@@ -1,0 +1,10 @@
+- steps:
+  - author | requests recap | asks for a detailed summary of the next chapter, its new open questions, and its links to earlier chapters | gemini:67 prompt
+  - model | chapter summary (draft) | breaks a chapter into named beats (regent's duties, an ultimatum, a reconciliation, a secret room, a crown) plus a list of open questions and a list of links back to specific earlier chapters | gemini:67 response, main branch
+  - model | chapter summary (alternate draft) | produces a parallel summary/open-questions/connections write-up for a different chapter (a solar crisis, a star heist, a decrypted letter, a regency arrangement) | gemini:67 response, additional draft 1
+  - model | chapter summary (alternate draft) | produces a third parallel summary/open-questions/connections write-up for yet another chapter (a dream-realm meeting, a magic show, an abdication, a chase) | gemini:67 response, additional draft 2
+  - author | reframes the question | states this is the story's last chapter and asks what remains unresolved overall | gemini:68 prompt
+  - model | unresolved-thread inventory | lists ten named dangling plot threads across the whole work, each with a short unresolved-question framing | gemini:68 response
+- kept:
+- brought: none — both messages are requests for analysis of chapters already established in the conversation, with no new plan material or document introduced in this stretch
+- loop: The author asked the model to summarize chapters and then to inventory everything left unresolved at the story's end, and the model produced multiple parallel chapter breakdowns and a ten-item unresolved-threads list, but the archive shows no notes traced back to any of this — none of it was carried into the planning database.

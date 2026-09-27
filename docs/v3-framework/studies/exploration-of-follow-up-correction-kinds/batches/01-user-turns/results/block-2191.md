@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of P&K's ASOIAF influences as a given and moves on to a new task, asking for an analysis of how their own story, TLTT, subverts P&K and, through it, ASOIAF and grimdark conventions, with the attached planning file and a reading order.

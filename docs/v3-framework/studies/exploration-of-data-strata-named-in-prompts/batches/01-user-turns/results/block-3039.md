@@ -1,0 +1,6 @@
+- sources:
+  - real Russian history (failed collectivization and industrial famine patterns) | do not follow it for Stalliongrad; the model's famine-and-collapse mapping is rejected | I'm not actually going to follow the failed collectivization and industrial famine patterns of real Russian history | referred-to
+  - my story plans (Severyana adopting Bessemer and Haber-Bosch before Herzland, learning coal mining from Grover III's scientists) | treat as the authoritative setting for how Severyana industrializes; the analysis should build on it | In my story plans, Severyana learns coal mining and industrialization from Grover III's scientists | referred-to
+  - the typical Russian Revolution narrative | use it only as the template for the 2nd-generation problem of rot and class conflict, not for the industrialization phase | Only the 2nd gen problem leads to rot and class conflict, the typical Russian Revolution narrative | referred-to
+- order:
+- about: The user rejects the model's real-history-based famine and collectivization reading of Severyana, restates from their own story plans that coal-powered Bessemer and Haber-Bosch industrialization brings a golden age and population boom before a 2nd-generation decline, and asks for an analysis of that.

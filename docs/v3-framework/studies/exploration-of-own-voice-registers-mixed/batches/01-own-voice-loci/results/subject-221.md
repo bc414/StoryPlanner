@@ -1,0 +1,18 @@
+- passages:
+  - note 4051 | expository-definitional | single present-tense declarative clause, no address | changeling magic includes an emotion-sensing ability | apart
+  - note 4053 | generic-address instructional | uses "you", ends in a plain directive ("stay away") | sensing predatory intent and avoiding it | apart
+  - note 4054 | historical-causal narrative | past tense, recounts a cause-and-effect development of hives | hives needing to fight rather than flee danger | apart
+  - note 4055 | glossary/tier-label entry | opens with a bare term ("Jaegers") then terse present-tense definition sentences | jaeger training and ignoring an enemy's fear when killing | apart
+  - note 4063 | expository-definitional | present-tense declarative fact followed by an "otherwise" consequence clause | infants lacking control, risk of being mentally scarred | apart
+  - note 4203 | expository-definitional | present-tense general statements, a parenthetical aside ("(kids)") | grubs gradually learning control, its limits | apart
+  - note 4204 | expository-definitional | single present-tense declarative clause, no address | trained agents detecting lies from emotional fluctuation | apart
+  - note 4446 | informal colloquial assertion | blunt short claim, casual diction ("literally", "win big") | changelings' biological softness and the payoff of finishing jaeger training | apart
+  - note 4446 | biographical claim | past tense, names one specific individual | Chrysalis finishing jaeger training early | apart
+  - note 4446 | aphoristic generic-address | "your own"/"you" address, idiomatic phrase ("read others like a book") | the benefit of controlling one's own emotion sense | apart
+  - note 4446 | glossary/tier-label entry | tier label ("Level 1 jaeger", "Level 2 jaeger") each followed by a terse present-tense definition | what each jaeger tier can do with the sense | apart
+- shifts:
+  - note 4446 | informal colloquial assertion | biographical claim | drop into past tense and naming of a single individual, Chrysalis
+  - note 4446 | biographical claim | aphoristic generic-address | return to present tense and a shift to "you"/"your own" address stating a general truth
+  - note 4446 | aphoristic generic-address | glossary/tier-label entry | shift to bare tier labels ("Level 1 jaeger", "Level 2 jaeger") each paired with a terse definition
+- registers: expository-definitional; generic-address instructional; historical-causal narrative; glossary/tier-label entry; informal colloquial assertion; biographical claim; aphoristic generic-address
+- whole: This item's notes hold several distinct registers, but each stands apart from the others by note or by line rather than running together inside a single sentence, with note 4446 alone moving through four of them in succession.

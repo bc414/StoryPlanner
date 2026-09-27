@@ -1,0 +1,8 @@
+- asks:
+  - check | whether the Sonic Rainboom episode's theme actually matches the user's claim that the Rainboom is a "charitostatic effect" triggered by selfless acts (protecting Fluttershy, catching Rarity) | "is this the theme of that episode?"
+- supplies:
+  - headcanon/plan notes | the user's theory that the Sonic Rainboom is not truly destiny-linked, how the ponies (and later Starlight) came to mistakenly believe it is, tracing the belief through the Cutie Mark Chronicles and Twilight's talk in The Cutie Remark, and how Starlight's time-travel meddling reinforced the false perception | a paragraph
+  - geography/statistics reasoning | a claim that because Rockville and Manehattan sit on opposite sides of Equestria on the Equestria at War map and both reportedly saw the Rainboom, many other foals across the land must statistically have gotten cutie marks inspired by it | a couple of sentences
+- shaping:
+- openness: The message poses one explicit check (\"is this the theme of that episode?\") about a stated claim, while presenting the rest of its reasoning and plan as already-settled worldbuilding rather than asking for feedback or a choice.
+- subject: Worldbuilding theory about the true mechanics and in-universe misperception of Rainbow Dash's Sonic Rainboom

@@ -1,0 +1,4 @@
+- sources:
+  - an example of Gilda the griffon and Rainbow Dash from a canon episode | treat as evidence that corrects the model's assumption about griffon proportions; griffons are drawn about the same as ponies | Here is an example of Gilda the griffon and Rainbow Dash from a canon episode | first-named
+- order:
+- about: The user offers a canon episode image of Gilda and Rainbow Dash to correct the model's premise that griffons have very different body proportions from ponies.

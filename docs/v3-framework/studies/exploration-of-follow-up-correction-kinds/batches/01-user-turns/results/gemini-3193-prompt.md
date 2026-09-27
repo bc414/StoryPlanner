@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's claim that Opus is not strictly better than Sonnet, then asks in which areas Opus is better and whether their impression that logic and coding use outweighs literary use is true.

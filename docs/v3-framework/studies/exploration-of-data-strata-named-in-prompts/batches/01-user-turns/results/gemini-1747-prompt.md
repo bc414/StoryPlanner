@@ -1,0 +1,4 @@
+- sources:
+  - the author's own stated view of Celestia (she does not believe in Applejack yet, she wants a return to stagnation) | treat as settled; the model is to build Celestia's reasoning for not attending on this premise | She does not believe in Applejack yet, she wants a return to stagnation | first-named
+- order:
+- about: The user asks the model to work out Celestia's reasons for skipping the debate despite being invited, and supplies their own view of her motives (doubt in Applejack, longing for stagnation) as the basis.

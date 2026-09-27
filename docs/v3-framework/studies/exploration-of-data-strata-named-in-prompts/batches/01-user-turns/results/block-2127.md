@@ -1,0 +1,7 @@
+- sources:
+  - the provided new insights | incorporate these into a fresh reanalysis, treating them as the corrections to apply | Please give a reanalysis with the provided new insights | referred-to
+  - the db file (holding the existing story plan) | search it with grep for points of uncertainty about the existing plan, and check the plan against it rather than guessing | grep the db file for uncertainties about the existing story plan | referred-to
+  - the model's own assumptions about the existing story plan | do not rely on them; settle uncertainties by looking in the db file | instead of assuming | referred-to
+- order:
+  - the db file (checked by grep) over the model's own assumptions | grep the db file for uncertainties about the existing story plan instead of assuming
+- about: The user asks the model to redo its analysis with the new insights they have supplied, and to look up uncertainties about the existing story plan in the db file by grep instead of guessing.

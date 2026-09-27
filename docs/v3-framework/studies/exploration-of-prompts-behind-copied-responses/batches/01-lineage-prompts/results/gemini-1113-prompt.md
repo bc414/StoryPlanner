@@ -1,0 +1,8 @@
+- asks:
+  - clarify | lays out how the user's own story diverges from the P&K reference on the military situation, the cause/timing of Luna's retreat order, and Applejack's emotional arc, with no explicit question posed | declarative parallel structure "In P&K..." / "In my story..." with no question mark or request verb
+- supplies:
+  - reference-plot summary | P&K's version: army stabilizes at Vanhoover in a staggered retreat, Luna orders retreat anyway after reading casualty reports, Tall Tale is a desperate conscripted defense, AJ stays grim and snaps when Luna abandons a secured position, then drinks to cope | a paragraph
+  - own-story plot summary | the user's story: total one-day rout at Vanhoover, AJ flees the uniform on hoof, decisive win at 1st Tall Tale via weather-manipulated mud trapping tanks plus overconfident changeling infantry rush, Luna's retreat order comes after that win, AJ arcs from despair to defiance | a couple of paragraphs
+- shaping:
+- openness: The message only states parallel contrasts between P&K and the user's story with no question, request for feedback, or named choice, leaving open what the model should do with the comparison.
+- subject: Contrasting how the user's story diverges from the P&K reference on the Vanhoover/Tall Tale battles, Luna's retreat order, and Applejack's emotional arc

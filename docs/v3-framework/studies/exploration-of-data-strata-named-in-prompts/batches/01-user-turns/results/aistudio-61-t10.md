@@ -1,0 +1,4 @@
+- sources:
+  - the insight that Comet Shine goes max ego while SAA goes zero ego (the model's analysis earlier in this conversation) | liked and accepted as a useful framing to keep | I also like the insight that | referred-to
+- order:
+- about: The author checks their own reading that Comet Shine deliberately projects corporate dominance at Applejack, which explains her misperception and sets up Fleur's snark, and says they like the model's max-ego versus zero-ego contrast.

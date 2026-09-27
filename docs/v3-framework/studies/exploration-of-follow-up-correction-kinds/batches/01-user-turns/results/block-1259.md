@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn drops the narrative-technique discussion and asks for a new task: a comprehensive report of all insights from the whole conversation, including ones later superseded, without saying anything is wrong in the preceding answer.

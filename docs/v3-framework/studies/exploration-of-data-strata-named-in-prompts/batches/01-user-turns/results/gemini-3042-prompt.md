@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether the Gemini mobile app and the desktop website run on different system instructions, without pointing the model at any body of material.

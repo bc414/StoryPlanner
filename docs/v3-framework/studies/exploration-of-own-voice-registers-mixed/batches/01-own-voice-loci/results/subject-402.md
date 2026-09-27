@@ -1,0 +1,54 @@
+- passages:
+  - note 34 | second-person prescriptive address | direct 'You need' instruction | need for balance of harmony and ambition | apart
+  - note 34 | expository declarative | third-person present-tense claim | harmony as stagnant, ambition as evil, Liberty strikes balance | apart
+  - note 34 | meta-explanatory framing | explicit 'The idea here is that' | Liberty triumphing over Stagnation and Tyranny | apart
+  - note 3959 | meta-linguistic instruction | rule-stating about word form | naming convention for element words as derived nouns | apart
+  - note 3960 | arrow-chain shorthand | terms linked by '->' | progression Honesty-Authenticity-Posture | run-in
+  - note 3960 | aphoristic generic-address explanation | dash-introduced clause, generic 'you' | nuance separating honesty, authenticity, posture | run-in
+  - note 3961 | arrow-chain shorthand | terms linked by '->' | progression Generosity-Equity | run-in
+  - note 3961 | aphoristic generic-address explanation | dash/semicolon fragments | equity as systemic moral duty | run-in
+  - note 3962 | expository declarative | third-person claim with elaborating dash clause | nobles using domination, fealty, posture to keep serfdom | apart
+  - note 3963 | tentative questioning brainstorm | parenthetical question mark | Rugged Individualists' motivating emotion | apart
+  - note 3994 | past-tense narrative worldbuilding summary | past tense 'started', 'added' | Equestria's history from harmony to liberty | apart
+  - note 3995 | past-tense narrative worldbuilding summary | past tense, sequential events | Herzland/Aquileia's history from ambition to liberty | apart
+  - note 4023 | expository declarative | third-person definitional statements across paragraphs | taxonomy of Elements of Harmony, Liberty, War, Tyranny, Stagnation | apart
+  - note 4068 | expository declarative | third-person present-tense description | Chrysalis's pink/red control and the republic's balance | apart
+  - note 4248 | equivalence/mapping declarative | 'X = Y'/'X is Y' analogy chain | historical eras mapped to political systems | apart
+  - note 4248 | first-person-plural prescriptive exclamatory | 'we must evolve!' | urging harmonic capitalism as needed evolution | run-in
+  - note 4248 | equivalence/mapping declarative | 'X is Y' analogy resumed | griffonian/equestrian evolutions mapped to real history and present | apart
+  - note 4267 | expository declarative | third-person present-tense character claim | Chrysalis, Celestia, Applejack/Twilight's relation to Red and Pink | apart
+  - note 4271 | chapter-tracked narrative declarative | present-tense verbs tied to chapter citations | mane six characters embracing elements by chapter | apart
+  - note 4338 | expository declarative | single third-person definitional sentence | healthy balance as community plus purpose | apart
+  - note 4754 | expository declarative | third-person present-tense definition | harmony bans bad things | apart
+  - note 4754 | second-person generic-address illustration | 'You live' | living happily without ambition | apart
+  - note 4754 | expository declarative | subject-less fragment | harmony's vulnerability to attack | apart
+  - note 4754 | expository declarative | third-person definition, fragment ending | tyranny's oppression via guns, abuse, drugs | apart
+  - note 4754 | evaluative judgment | brief subjective claim | liberty being the best system | apart
+  - note 4754 | expository declarative | fragment description | liberty's power from shared desire | apart
+  - note 4754 | second-person generic-address illustration | 'You have' | liberty's healthy mix of harmony and ambition | apart
+  - note 4754 | expository declarative | third-person description | liberty's resource allocation despite temptations | apart
+- shifts:
+  - note 34 | second-person prescriptive address | expository declarative | drops 'you', turns to third-person claims about harmony and ambition
+  - note 34 | expository declarative | meta-explanatory framing | explicit framing phrase 'The idea here is that'
+  - note 3959 | | |
+  - note 3960 | arrow-chain shorthand | aphoristic generic-address explanation | dash introduces full clause with verbs and generic 'you'
+  - note 3961 | arrow-chain shorthand | aphoristic generic-address explanation | dash/semicolon introduces explanatory clause
+  - note 3962 | | |
+  - note 3963 | | |
+  - note 3994 | | |
+  - note 3995 | | |
+  - note 4023 | | |
+  - note 4068 | | |
+  - note 4248 | equivalence/mapping declarative | first-person-plural prescriptive exclamatory | shift to 'we must' and exclamation mark within same sentence
+  - note 4248 | first-person-plural prescriptive exclamatory | equivalence/mapping declarative | new sentence returns to 'X is Y' construction without exclamation
+  - note 4267 | | |
+  - note 4271 | | |
+  - note 4338 | | |
+  - note 4754 | expository declarative | second-person generic-address illustration | shift to 'You live' address
+  - note 4754 | second-person generic-address illustration | expository declarative | return to subject-less fragment description
+  - note 4754 | expository declarative | evaluative judgment | short subjective claim 'is the best' replaces definitional statement
+  - note 4754 | evaluative judgment | expository declarative | return to descriptive 'Power derived from...' construction
+  - note 4754 | expository declarative | second-person generic-address illustration | shift to 'You have' address
+  - note 4754 | second-person generic-address illustration | expository declarative | return to third-person description of resources
+- registers: second-person prescriptive address; expository declarative; meta-explanatory framing; meta-linguistic instruction; arrow-chain shorthand; aphoristic generic-address explanation; tentative questioning brainstorm; past-tense narrative worldbuilding summary; equivalence/mapping declarative; first-person-plural prescriptive exclamatory; chapter-tracked narrative declarative; evaluative judgment; second-person generic-address illustration
+- whole: This place's notes sit in several distinct registers - mostly short third-person expository/definitional statements about concepts, mechanics, and world-history, interrupted here and there by direct or generic second-person address, terse arrow-chain shorthand, a tentative question, mapping analogies, an exclamatory first-person aside, an evaluative judgment, and chapter-indexed narrative tracking - and these mostly stand apart as separate sentences within their notes, with only the arrow-chain labels and the exclamatory mapping aside running together with their neighboring register inside a single sentence.

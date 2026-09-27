@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to check the revised prompt against the earlier requirements for anything else it left out, without saying anything in the model's turn is wrong.

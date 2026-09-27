@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast the Aquileians as waging a lethal, zero-sum nationalist conflict and offered sinking the cruiser as total war. The user says their aim is commercial: they want to sell goods and avoid paying Skyfall's shipping insurance, so total war is wrong for them. | It absolutely should not be total war because the Aquileians want to sell products and make money | Flat, emphatic rejection with the reason given, and a short restatement of the Aquileian motive
+- about: The user rejects the model's total-war framing of the encounter and restates the Aquileians' actual aim as profit-seeking trade that only avoids Skyfall's insurance fees.

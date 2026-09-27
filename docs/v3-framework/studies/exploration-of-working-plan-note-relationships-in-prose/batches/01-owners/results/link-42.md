@@ -1,0 +1,6 @@
+- relations:
+  - 1028 | 1029 | the page action (Twilight watching Zecora remain in the ruins) is the occasion from which the reader is to infer what she sees, that is, what applied Harmony looks like | she sees what applied Harmony looks like | implicit
+- outward:
+  - 1028 | Zecora and the town of Ain Trotgourait, its burning and Zecora's choice to stay, are held in other parts of the plan | Zecora stay behind in the smoldering ruins of Ain Trotgourait
+  - 1029 | The concept of Harmony and what applying it means is lore held elsewhere | what applied Harmony looks like
+- whole: The two notes hang together as a pair: one stages the sight on the page and the other says what Twilight takes from it.

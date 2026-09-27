@@ -1,0 +1,4 @@
+- sources:
+  - Trimmel the changeling field marshal's ultimatum and what happens to those who surrender or resist, given by the author | treat as established story fact and the basis for why Luna sees pride versus safety as a binary | "surrender and you will be spared, that is a promise" | first-named
+- order:
+- about: The user proposes that Luna's argument be \"I don't care about our pride, I care about our ponies\", mirroring Pétain and leading to Applejack becoming the Lioness of Tall Tale, and supplies Trimmel's ultimatum and its consequences as the reason Luna sees the choice as pride versus safety.

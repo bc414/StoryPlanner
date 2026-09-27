@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's claim about changeling biology and sets out how the love donator, pink and red canisters, Chrysalis's rationing of pink love, and the home-front donation centers work in the story.

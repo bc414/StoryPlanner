@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a one-sentence compression of the model's proposed principle (unconditional dignity comes before cooperation, not after) and asks whether it captures the whole idea or leaves something out.

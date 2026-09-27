@@ -1,0 +1,7 @@
+- sources:
+  - the first outline, where the story was about applejack and the ending I didn't know how and slotted in the Japan answer | earlier version of the plan; its Chrysalis (a force of nature never spoken to) is what the later revisions changed, so treat as the older state | Chrysalis was a force of nature who is never spoken to | referred-to
+  - the love drop revision | later revision of the outline that came after the first outline; the point after which Chrysalis is reworked | after the love drop revision | referred-to
+  - revision ideas to make Chrysalis a rational CEO who imported industry from the griffons | current direction for Chrysalis, offered as revision ideas; it corrects the picture of her as a non-puppet-master by making her a rational puppet master | Chrysalis is kind of the puppet master, not a cosmic force but a rational one | referred-to
+- order:
+  - revision ideas (Chrysalis as rational CEO and puppet master) | first outline (Chrysalis as force of nature) | Then after the love drop revision I also got revision ideas
+- about: The user corrects the model's claim that TLTT has no Amon by explaining how Chrysalis's role changed from the first outline to the later revision ideas, into a rational CEO puppet master who is still not spoken to in the main story but gets her own Greek-tragedy prequel-sequel read after the thesis.

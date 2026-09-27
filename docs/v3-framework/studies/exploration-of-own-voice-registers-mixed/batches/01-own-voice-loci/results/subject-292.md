@@ -1,0 +1,15 @@
+- passages:
+  - 5163 | normative-proposal | modal 'should be' setting a planning decision | Baltimare as the drug tribes' port | run-in
+  - 5163 | declarative causal-explanation | 'always had...This is...explains...which is why' | corrupt facilitators and the Marksist party's lynchings | run-in
+  - 5166 | bibliographic-interpretive | publication date given, then 'he is actually the model' | the Manifesto's publication and its link to Kemerskai | apart
+  - 5166 | casual narrative-backstory | 'bored pony', 'a baker', 'learn stuff', 'was horrified', 'was displaced', 'to survive' | Caramel Marks' and Fire Angel's personal origins | apart
+  - 5166 | analytical-doctrinal summary | 'They essentially advocate that', parenthetical list of policies | the command economy's program as advocated in the Manifesto | apart
+  - 5166 | critical-historical account | 'They missed the fact that', 'ate it up as justification' | the 986 vote, the 2nd long march, and Severyana's uptake | apart
+  - 5219 | narrative-report | 'is appalled and writes', 'writing that he will restore' | Kemerskai's rebuttal and his promise on elections | apart
+- shifts:
+  - 5163 | normative-proposal | declarative causal-explanation | shift from modal 'should be' to factual 'always had...explains...which is why'
+  - 5166 | bibliographic-interpretive | casual narrative-backstory | shift from a publication fact to narrating a character's life beginning 'is a bored pony'
+  - 5166 | casual narrative-backstory | analytical-doctrinal summary | shift from named individuals to the collective 'They essentially advocate' with a parenthetical policy list
+  - 5166 | analytical-doctrinal summary | critical-historical account | shift marked by the evaluative opener 'They missed the fact that' turning to historical counter-narrative
+- registers: normative-proposal; declarative causal-explanation; bibliographic-interpretive; casual narrative-backstory; analytical-doctrinal summary; critical-historical account; narrative-report
+- whole: Across its three notes this item holds several distinct registers — planning proposal, declarative explanation, bibliographic aside, casual character narration, doctrinal summary, historical critique, and reported-speech narrative — with shifts inside notes 5163 and 5166 running together within or across sentences without a marked break, while note 5219 stays in one register throughout.

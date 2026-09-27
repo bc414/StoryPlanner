@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's picture of TLTT, built on the early planning's cynical and grimdark vocabulary (Predator's Dilemma, tycoons who sell out, grimdark absorbed as a base), is described as dated and superseded by the more recent lore and foundational arguments | early TLTT planning used the language of cynicism and grimdark because that's all I was aware of; now I can get a more focused and cohesive setup | put mildly and in passing, as the user's own retrospective about their earlier planning, with no blame on the model, and a reason given (limited awareness at the time), before moving on to new questions
+- about: The user notes their early TLTT planning leaned on cynicism and grimdark language they now see as outdated, then uses the cynicism-versus-resilience framework to explain the change of EEEE into a machinists guild, American versus European unions, and Bernie Sanders and progressive politics.

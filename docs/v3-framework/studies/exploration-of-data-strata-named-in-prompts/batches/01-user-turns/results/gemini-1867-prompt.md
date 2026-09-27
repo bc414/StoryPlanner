@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to build a sorted collection view of EntityViewModel objects in MainViewModel, ordered by a new CharacterCount property and limited to certain entity types, without pointing the model at any body of material to draw on.

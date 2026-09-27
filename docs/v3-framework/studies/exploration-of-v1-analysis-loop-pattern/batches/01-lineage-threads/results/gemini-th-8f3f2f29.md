@@ -1,0 +1,19 @@
+- steps:
+  - the author | opening request | asks for post-burn soil chemistry and how it could be weaponized | opens the conversation, referencing the chapter Essence burn scene
+  - the model | structural analysis | soil chemistry breakdown, weaponization pathways, thematic payoff, closes with a consultant question about soldier visibility | first response
+  - the author | pressure-test question | asks what makes this ash different from other farms already donating P/K, and whether forest fires are ecologically good or bad | second prompt
+  - the model | comparative and ecological analysis | contrasts living-soil donation with 'smelted' ash, explains fire ecology, ties to the stagnation/rebirth theme, closes with a consultant question about an epilogue catharsis beat | second response
+  - the author | new scene brief | introduces a planned reunion scene in the chapter Combined Arms where Applejack meets her parents at the ruins, asks what should be said | third prompt
+  - the model | scene-content analysis | breaks the scene into visual metaphor, mutual apology, materialist rebirth, and torch-passing beats, closes with a consultant question about her uniform reaction | third response
+  - the author | two targeted questions | asks whether the parents suggesting munitions would read as tone-deaf, and how the ash-weaponizing choice serves the Petain/collaborator subversion | fourth prompt
+  - the model | dual analysis | reframes the parents' suggestion through their established ethos to avoid tone-deafness, then maps the ash choice onto the Petain/Anti-Vichy allegory | fourth response
+  - the author | correction with own arc plan | supplies its own reading of Pagala's motive and its planned character trajectory (Applejack doesn't accept the Lioness role until the Trimmel talk in Honor), asks whether ash-scooping should be delayed to match | fifth prompt
+  - the model | revised structural recommendation | endorses delaying the harvest, lays out a repression/catalyst/synthesis structure across the chapters to fit the supplied trajectory | fifth response
+  - the author | logistics complication | introduces the original plan (scooping ash in chapter Breakthrough as an Applebuck Season mirror), flags a timing conflict with the delayed version and a stakes problem, asks for a full pros/cons comparison | sixth prompt
+  - the model | options comparison | lays out pros and cons for both timelines and proposes a synthesis option combining early harvest with delayed emotional resolution | sixth response
+  - the author | further correction | adds that Applejack already accepts she is a wartime 'monster,' reframing her uniform refusal as rejection of permanence rather than denial of violence | seventh prompt
+  - the model | final revision | overturns its earlier synthesis, endorses the original chapter-16 harvest timeline, ties it to a Cincinnatus framing to explain the Trimmel-chapter turn | seventh response
+- kept:
+  - note 1623 | the author's own words in this record | keeps the author's stated plan for a four-month gap between the Combined Arms meeting and the Spearhead operation, and its guilt/success rationale, filed under the PlotPoint Preparing for the Breakthrough
+- brought: The author brought its own in-progress plan for Applejack's arc — including a read on Pagala's motive, a planned Trimmel-chapter turning point, and an original idea to have Applejack scoop the ash in Chapter 16 as an Applebuck Season mirror — to test and correct the model's suggestions against it.
+- loop: The author repeatedly brings a scene or worldbuilding question along with its own existing plan details, the model returns thematic and structural analysis with options (revising a prior verdict once corrected), and the database keeps only the one planning note that is the author's own logistical reasoning about the time gap, filed to the relevant plot point.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their understanding of the model's historical framing by restating it as questions (Western nude art before the Victorian era, the Victorian era overriding an older default, Japan versus the West, the salaryman-to-herbivore shift) and asks the model to expand on what the Victorian era did with morality and how it affects the present, without disputing anything the model said.

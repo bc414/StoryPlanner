@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user makes a passing remark that they have accumulated enough Aquileia lore for a whole prequel, reacting to the model's worldbuilding without correcting or questioning it.

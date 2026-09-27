@@ -1,0 +1,4 @@
+- sources:
+  - Coltbert's personality | the basis to analyze, to judge whether it would lead him to choose the word parloir ironically or subversively | Please analyze Coltbert's personality | referred-to
+- order:
+- about: The user asks the model to analyze the character Coltbert's personality to judge whether it would lead him to pick the word "parloir" out of irony or subversion.

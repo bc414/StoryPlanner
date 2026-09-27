@@ -1,0 +1,11 @@
+- sources:
+  - The model's previous proposal for Blueblood's investigation (shorting Equestria before the Canterlot Wedding, missing steel in the North Sea) | keep and build on; the user approves these details and extends the steel one | I like Blueblood noticing how Krystallfels Handelsgesellschaft shorted all of Equestria | referred-to
+  - The model's earlier account of Gilded Lily robbing the Gilded Family | wrong; replace with the user's version of her origins | Gilded Lily did not "rob the Gilded Family" | referred-to
+  - The model's earlier framing of Krista Sterling/Kriemhild as a phantom CEO who never appears | rejected; do not use | should absolutely not be a phantom CEO | referred-to
+  - The user's own new details on Krystallfels island, its crystal trade and the Blueblood site visit | treat as settled new canon and use in the investigation | the company is named after an island in the north sea that has crystals | first-named
+  - The user's clarifications on Gilded Lily, Silver Sterling, Krista and the company's capital and staffing | treat as authoritative corrections and additions to the backstory | Some clarifications | first-named
+  - The user's backstory for Blueblood (Ahuizotl confirms the conspiracy theory but is defeatist) | use as the author's plan for how Blueblood's theory is confirmed | In my backstory for Blueblood, Ahuizotl confirms Blueblood's conspiracy theory | first-named
+  - Chapter 12 "Crash" | planned scene where Ahuizotl can tell Rainbow Dash, Applejack and Rarity about the conspiracy | He can also tell Rainbow Dash, Applejack and Rarity about it in chapter 12 "Crash" | referred-to
+- order:
+  - The user's clarifications on Gilded Lily, Silver Sterling, Krista and the company | over the model's earlier phantom-CEO and Gilded Family robbery account, which the user corrects | Some clarifications
+- about: The user approves parts of the model's Blueblood investigation, extends it with a Krystallfels island crystal-mining cover story, and corrects the model's account of Gilded Lily, Krista and the Kriemhild impersonation, adding Ahuizotl's role.

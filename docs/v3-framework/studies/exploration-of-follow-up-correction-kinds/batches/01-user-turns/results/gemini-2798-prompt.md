@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Pridea demographics behind and puts forward a new thematic premise, that sentience and society need both pink love and red love, where predators have only hunger and herbivores only communal friendship, and asks for an analysis of it.

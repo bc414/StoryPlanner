@@ -1,0 +1,9 @@
+- asks:
+  - analyse | evaluate the proposed later scene where AJ notices the title on Synovial's uniform at her surrender, snorts, and explains the VOPS profile behind the name | "What is the analysis on that?"
+  - confirm/check | check whether this surrender scene, rather than the original naming moment, can work as the "Petain connection" beat | "I think that can be the Petain connection moment?"
+- supplies:
+  - plan reasoning | AJ's motive for taking the enemy-given name instead of hearing its backstory, spurred by Trimmel telling her to lead rather than be Celestia's puppet, swapping honesty for a name of war from the enemy | a paragraph
+  - plan scene sketch | a later scene where AJ accepts Synovial's surrender in Aquileia, a few towns from Vinnelle, looks at the title on her uniform, snorts, and remarks on the VOPS profile and why he called her that | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the user proposes the specific scene and the specific label (the \"Petain connection moment\") and asks the model to analyse and confirm it, softened by the tentative \"I think ... ?\" phrasing.
+- subject: A character's adoption of an enemy-given war name/title and a later surrender scene meant to carry a Petain-style historical echo.

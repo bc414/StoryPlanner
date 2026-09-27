@@ -1,0 +1,8 @@
+- steps:
+  - author | poses a worldbuilding problem | the honor circle concept, Chrysalis's meritocracy, four specific questions about why elites but not drones donate, whether elites would revolt, and whether pre-industrial nobles had a donation ring | opening prompt of the thread
+  - model | supplies an explanatory framework | a caloric-economics model (burn rate, surplus vs subsistence), a historical answer (old nobles as solitary predators, not donors), a game-theory reason elites don't revolt (pyramid-scheme dependency), and a class-table summary | first response
+  - author | corrects and refines the model's structure | rejects the 'walled garden' framing, substitutes a 'rat race of rising expectations' for Bauleiters/Jaegers, and relocates the true walled garden to Chrysalis's ideological loyalists (e.g. Pagala) versus the meritocrats who could defect | second prompt
+  - model | elaborates the corrected structure | a 'subscription trap' mechanism for technocrats, a loyalist/commissar characterization for ideologues, a rationale for why meritocrats haven't yet revolted, a tie-in to an existing chapter scene, and a revised class table naming meritocrats the 'swing vote' | second response
+- kept:
+- brought: The author brought an established worldbuilding element (Chrysalis's post-conquest meritocracy and the 'honor circle' donation practice among elites) along with open questions about its economic and political consistency.
+- loop: The author brings a political-economy puzzle and pushes back on the model's first proposed structure with a more specific class distinction, and the model responds each time with an elaborated analytical framework and summary table, but no resulting text was drawn into the planning database from either exchange.

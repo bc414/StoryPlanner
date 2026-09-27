@@ -1,0 +1,5 @@
+- sources:
+  - Henri calling Fluttershy to the prison because "they are animals" | treat as an established, true prior story point to build the new scene from | marked by "Remember that Henri called Fluttershy over to the prison..." | referred-to
+  - chapter 6 | treat as the established place in the story where Henri gives Fluttershy the old-model translator | marked by "the translator Henri gives Fluttershy in chapter 6 is an old model" | referred-to
+- order:
+- about: The user recalls an established plot setup and then proposes new story developments (the POWs' addiction/emotion-sense backstory, the universal translator's hidden nuance-preserving nature, and Henri's ignorance of the newer model) to build into the ongoing narrative.

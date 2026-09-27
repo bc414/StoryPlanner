@@ -1,0 +1,5 @@
+- sources:
+  - the first scene of chapter 10 (Applejack amazed at the medicinal tribes' caverns decked out with griffonian amenities) | treat as established story fact showing the medicinal tribes are trade partners and not dependent on Coltbert, which corrects the earlier dependency claim | The first scene of chapter 10 features Applejack being confused and amazed | first-named
+  - the corrections and facts given in this turn (PMC warriors' paths, Coltbert as trade partner, Metzli's view of the drug and Aquileian-aligned tribes) | treat as settled premises the answer must be built on | With all this in mind | first-named
+- order:
+- about: The user corrects two points from the model's prior analysis (where Metzli's PMC warriors went, and that the medicinal tribes are Coltbert's trade partners rather than dependents), then asks how Metzli's clash with Mali and Applejack and her later behavior after the drug deal should go.

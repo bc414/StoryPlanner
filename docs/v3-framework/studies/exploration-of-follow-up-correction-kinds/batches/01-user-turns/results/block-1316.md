@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of the planner's layered architecture and moves on to a new question about whether the private school scenes connect to the story's propositions, offering their own tentative reading of the poseur and system-incentive themes.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model presented the fixed assertion-type taxonomy and per-entity track architecture as the settled, current state of the project ('consolidated reference of everything concluded'), but this was a since-superseded stage the user has moved past | 'I later moved away from the hard categories defined in that conversation' | stated flatly and in passing, as context-setting before moving on to new questions rather than as a pointed complaint
+- about: The user turn tells the model that the hard-coded taxonomy just summarized is an earlier stage they have since abandoned for a configurable, data-driven track system, and asks for analysis of how to proceed from that later stage.

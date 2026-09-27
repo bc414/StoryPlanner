@@ -1,0 +1,6 @@
+- sources:
+  - the apple and pear feud which shaped Bright Mac and Pear Butter's upbringing | material to build on: the model is to use it to explain why the parents rejected the farm and could separate from their own kids | How can I use the apple and pear feud which shaped | referred-to
+  - the model's earlier suggestion that the parents be consultants during the visit | rejected, do not use; the parents should be parents whose conflict is over internal value differences | I don't think they should be consultants during the visit | referred-to
+  - the model's earlier point that Rarity loves the parents | accepted as agreed, and carried forward as consistent with Rarity meeting them only after knowing Applejack's values | And I agree that Rarity loves them | referred-to
+- order:
+- about: The author asks the model to use the Apple and Pear feud to explain the parents' rejection of the farm and their separation from their kids, while rejecting the earlier consultant framing for their visits and accepting the point that Rarity loves them.

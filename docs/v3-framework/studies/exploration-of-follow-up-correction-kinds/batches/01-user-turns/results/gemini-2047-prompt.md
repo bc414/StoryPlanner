@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's invitation to add requirements by raising new open questions about pronoun replacement, dropping formatting, programmatic diff verification of preserved text, and a separate non-Garbage category for author-directed planning notes and rhetorical questions.

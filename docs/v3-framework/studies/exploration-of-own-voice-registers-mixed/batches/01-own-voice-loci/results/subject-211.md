@@ -1,0 +1,42 @@
+- passages:
+  - 19 | definitional | third-person present-tense encyclopedic phrasing | earpiece device and its function | apart
+  - 4007 | causal-explanatory | causal clause "Because...causes", present tense | magic-intent link producing magical fluctuations | apart
+  - 4007 | casual aside | parenthetical comparison "(like radio waves, but magical)" | comparison to radio waves | run-in
+  - 4007 | jargon-coining | scare-quoted invented term "magical vector space" | universality of magical intent across languages | apart
+  - 4007 | definitional | "job is to translate from X into Y" phrasing | translator's function | apart
+  - 4008 | terse fragment | subjectless clipped clause, no stated subject or verb-subject | goal of fostering pan-griffonian identity | apart
+  - 4009 | definitional | third-person description of components, evaluative adjectives "robotic and soulless" | old translator's mechanism | apart
+  - 4009 | narrative-historical | past tense, named-character subject "Chrysalis proliferated..." | Chrysalis's political motive for translators | apart
+  - 4009 | illustrative scenario | generic-actor present-tense modal "can talk...would output" | example of translator use by a manager | apart
+  - 4009 | narrative-historical | past tense return to Chrysalis subject | Chrysalis's business/subscription model | apart
+  - 4038 | definitional | present-tense comparative claim "translate...but it does not translate" | what new translator models preserve vs omit | apart
+  - 4038 | illustrative aside | parenthetical named-character examples, capitalized emphasis "NOT" | specific examples of accent vs origin translation | run-in
+  - 4459 | reasoning-aloud analogy | discourse marker "Ok, so", informal tone, real-world subject | historical analogy about dialect and empire | apart
+  - 4459 | worldbuilding narrative | "So" transition, present-tense narrative, fictional subject | applying England analogy to Herzland railways/nobles/peasants | run-in
+  - 4459 | definitional | third-person past-tense mechanism description, new paragraph | origin of universal translator for Herzlander dialects | apart
+  - 4460 | narrative-historical | past tense named-character claim | Kemerskai adapting translator tech for Cloudburian | run-in
+  - 4460 | casual aside | parenthetical clarifier "(different linguistic group)" | clarifying Cloudburian's linguistic distinction | run-in
+  - 4460 | narrative-historical | resumed main clause "so they aren't starting from scratch" | outcome of reusing prior tech | run-in
+  - 4461 | reasoning-aloud analogy | discourse marker "So", emphatic "literally", informal argumentative tone | standard Herzlander as manufactured imperial language | apart
+  - 4583 | definitional | third-person present-tense comparison of two translator types | literal vs contextual translation mechanisms | apart
+  - 4583 | narrative-historical | past tense, named-character motive, purpose clause "so that...propaganda" | Chrysalis's intentional propaganda strategy | apart
+  - 4971 | definitional | naming statement "scientific name is a Volo-Acoustic Transducer" | translator's formal name | apart
+  - 4971 | etymological notation | equation-style shorthand "Volo=the greek root..." | etymology of "Volo" | apart
+  - 4971 | definitional | prose sentence with glossing parentheticals | mechanism of transduction | apart
+- shifts:
+  - 4007 | causal-explanatory | casual aside | run-in, marked by opening parenthesis and analogy
+  - 4007 | casual aside | jargon-coining | apart, marked by sentence break and scare-quoted term
+  - 4007 | jargon-coining | definitional | apart, marked by shift to "job is to" phrasing
+  - 4009 | definitional | narrative-historical | apart, marked by paragraph break and named-character subject
+  - 4009 | narrative-historical | illustrative scenario | apart, marked by shift to generic present-tense modal actor
+  - 4009 | illustrative scenario | narrative-historical | apart, marked by return to past-tense Chrysalis claim
+  - 4038 | definitional | illustrative aside | run-in, marked by parenthesis and proper-noun example
+  - 4459 | reasoning-aloud analogy | worldbuilding narrative | run-in, marked by "So" transition and shift to fictional subject
+  - 4459 | worldbuilding narrative | definitional | apart, marked by paragraph break and return to encyclopedic tense
+  - 4460 | narrative-historical | casual aside | run-in, marked by opening parenthesis
+  - 4460 | casual aside | narrative-historical | run-in, marked by closing parenthesis and resumed main clause
+  - 4583 | definitional | narrative-historical | apart, marked by paragraph break and past-tense character-motive claim
+  - 4971 | definitional | etymological notation | apart, marked by shift to equation-style shorthand on new line
+  - 4971 | etymological notation | definitional | apart, marked by return to full-sentence prose
+- registers: causal-explanatory; casual aside; jargon-coining; definitional; terse fragment; narrative-historical; illustrative scenario; illustrative aside; reasoning-aloud analogy; worldbuilding narrative; etymological notation
+- whole: This item's notes move across many distinct registers—encyclopedic definition, causal/jargon-laden explanation, casual parenthetical asides, terse planning fragments, past-tense narrative-historical claims, illustrative examples, informal reasoning-aloud analogies, and a shorthand etymological gloss—some of which sit apart as separate sentences or paragraphs while others run together within a single sentence through parentheses or connecting words like "so."

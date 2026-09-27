@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's refinements and moves on to a new design question, asking whether a unicorn needs a spell to draw power from a high-grade crystal into the enhancer or whether it flows directly, and suggesting a purity-checking spell as a safeguard.

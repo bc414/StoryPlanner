@@ -1,0 +1,11 @@
+- asks:
+  - analyse | give a comparative analysis of how the Scootaloo story plan parallels or reverberates with the TLTT story plan, covering world building, themes, the layered (onion) revealing of mystery, and character development | interested in an analysis of how my plan for the Scootaloo story parallels or reverberates with the extensive work I've done recently on TLTT's story plan
+  - open-ended addition | surface any further insights beyond the four named dimensions | and any more insights
+- supplies:
+  - document, attached story plan | a Scootaloo-centered story set in normal canon Friendship is Magic setting, described as unrelated to TLTT | attachment, content not captured (placeholder)
+  - reference, prior planning work | the user's own extensive TLTT story plan, mentioned as recently developed | referenced only, not included in this message
+- shaping:
+  - scope of comparison | must address world building, themes, onion layers of mystery revealed, and character development specifically
+  - comparative stance | framed as looking for parallels or reverberations between the two plans, not a standalone critique of either
+- openness: Leaves the answer open, naming four specific dimensions to cover (world building, themes, mystery-layering, character development) plus an open invitation for any further insights, without stating what the parallels themselves are.
+- subject: Comparing an attached Scootaloo story plan against the user's TLTT story plan for thematic and structural parallels

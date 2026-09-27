@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a game-design constraint of their own, saying wars would be automated moving lines with no tactical control and play would be domestic policy and diplomacy, without disputing anything the model said.

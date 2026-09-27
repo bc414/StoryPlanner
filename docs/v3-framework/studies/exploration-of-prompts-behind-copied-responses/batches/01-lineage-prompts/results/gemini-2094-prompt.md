@@ -1,0 +1,7 @@
+- asks:
+  - check | asks whether the claim that Texas Brisket is the sole native-born American food qualifying as a 'mother process paradigm' is correct | "Is Texas Brisket the only American native food that is a mother process paradigm?"
+  - check | asks to confirm whether every other native food falls instead under immigrant-culture association | "The rest are associated with immigrant cultures?"
+- supplies:
+- shaping:
+- openness: The message asks the model to check two specific claims it already states as near-assertions (Texas Brisket as the unique native 'mother process paradigm' food, all others tied to immigrant cultures), rather than leaving the matter open.
+- subject: Classifying whether Texas Brisket is a uniquely native-origin 'mother process' food versus other American foods being immigrant-derived

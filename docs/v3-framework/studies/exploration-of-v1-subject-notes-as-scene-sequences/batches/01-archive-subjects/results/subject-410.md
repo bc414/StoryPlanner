@@ -1,0 +1,20 @@
+- passages:
+  - 37 | statement about the subject | the elements of harmony take on new, subverted meanings under war once the nursery walls collapse; the umbrella idea for the notes below | none | framed as an overview of what the subject is
+  - 4010 | statement about the subject | Honesty shifts from Simple Truth to The Hard Truth | none | element-transformation formula 'becomes'
+  - 4010 | scene beat without a year | Applejack gives a speech telling the others they will get hurt and some will die, but must fight back now before it is too late | none | 'has to give a speech'; a single event, no date
+  - 4011 | statement about the subject | Magic shifts from Friendship to Firepower | none | element-transformation formula 'becomes'
+  - 4011 | scene beat without a year | Twilight uses her magic to obliterate the changelings in order to save her friends | none | an action written as an event, no date
+  - 4012 | statement about the subject | Laughter's Naive Joy collapses into Despair in war; you cannot cheer up and befriend an enemy who wants to subjugate or kill you | none | 'collapses into Despair'; general rule stated
+  - 4012 | scene beat without a year | Pinkie tries to befriend the changelings, fails, and becomes Pinkamina Diane Pie, 7th Artillery Commander | none | 'tried to befriend... when that failed, she became'; no date
+  - 4013 | statement about the subject | Kindness turns into Decreaturization: Tall Tale ponies hate captured changeling POWs as savages, and the POWs feel the hate and go savage | none | 'Kindness in war turns into'; describes a condition and its dynamic
+  - 4013 | scene beat without a year | Fluttershy intervenes with Grace | none | single action, no date
+  - 4014 | scene beat without a year | Rarity realizes that most rich ponies are not generous but Greedy | none | 'Faced with the hard times of war... realizes'
+  - 4014 | scene beat without a year | Rarity's first response is to sacrifice all she has and all her energy to make up the gap | none | 'Her initial response'
+  - 4014 | scene beat without a year | Rarity works with Flowing Current to nationalize assets for refugees and the war effort, embracing Equity | none | 'Then she works with'
+  - 4015 | statement about the subject | Rainbow believes she must fly at all times because she is skilled enough to win in the air, and feels not flying is disloyal; Loyalty becomes Fealty to the war effort, Heroism on the surface | none | 'In the face of war, Rainbow believes'; describes a disposition and the element's shift
+  - 4015 | scene beat without a year | Applejack tells Rainbow Dash she need not carry the whole war alone, that they are in it together and can cover each other for rest, which is Kinship | none | 'Applejack tells Rainbow Dash'; no date
+  - 5819 | writing guidance | war and tyranny versions of the elements should stay patterns the reader recognizes rather than labels characters apply, with occasional in-universe naming only when a character would naturally reach for the word | none | prescriptive statement about how to handle the material, not story events
+  - 5819 | scene beat without a year | Applejack uses the word Fealty explicitly as a diagnosis of Rainbow, in a specific intervention | Chapter 8 | 'Applejack uses explicitly as a diagnosis of Rainbow in Chapter 8'; a chapter reference, not a calendar date
+- sequences:
+  - 4014 | three beats of Rarity's arc: realizing the rich are greedy, sacrificing everything herself, then working with Flowing Current to nationalize assets | 'initial response' then 'Then she works with'
+- whole: A set of notes mapping each element of harmony to its war-twisted counterpart, mostly as statements of the shift with a planned character beat for each, closed by a note on how sparingly those war and tyranny labels should be voiced in the story.

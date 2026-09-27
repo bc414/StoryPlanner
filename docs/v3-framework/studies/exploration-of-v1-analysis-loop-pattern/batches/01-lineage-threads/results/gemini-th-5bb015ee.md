@@ -1,0 +1,8 @@
+- steps:
+  - the author | lays out existing plan element | prior statthalter backstory: turncoat nobility, drone-kindergarten recruitment, Imperial-Japanese-style downward fealty hierarchy | opening of the prompt
+  - the author | adds a new plan element | pirate slaver fiefdoms and plantations run by statthalters outside Queen's State oversight, tied only to love quotas | middle of the prompt
+  - the author | asks for reworked analysis | requests a refined take on statthalter origin and psychology incorporating the new fiefdom element | request framing of the prompt
+  - the author | poses two extending questions | whether statthalters return to hives to recruit cruel drones as plantation managers, and whether most statthalters can skip domestic enforcement since the rat race already disciplines drones/bauleiters | close of the prompt
+- kept:
+- brought: The author brought forward an established plan element (statthalters as turncoat nobility with a fealty-based hierarchy recruited from cruel drones) and layered on a new addition (independent pirate slaver fiefdoms/plantations), then asked the model to refine the group's origin and psychology and answer two follow-up questions about recruitment and enforcement logic.
+- loop: The author brought a mix of settled backstory and a new structural idea to get a synthesized analysis and answers to extend the worldbuilding, but no model response was captured for this exchange, so the loop breaks before anything could be returned or kept in the plan.

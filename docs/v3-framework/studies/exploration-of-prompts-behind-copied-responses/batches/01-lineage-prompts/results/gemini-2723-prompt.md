@@ -1,0 +1,7 @@
+- asks:
+  - explain | asks how Applejack's wish to return to a simple postwar life connects to or shapes her scenes with Celestia in the chapter | "How does this play into the interactions with Celestia during the chapter?"
+- supplies:
+  - context summary | brief recap of the chapter's premise: Applejack reunites with her parents at the burned Sweet Apple Acres, finally understanding/connecting with them for the first time since getting her cutie mark at 11, now age 31 during the war | a couple of sentences
+- shaping:
+- openness: leaves the answer open, asking the model to work out how the stated character motivation (wanting a simple life postwar) should factor into her Celestia scenes without naming a preferred interpretation
+- subject: how Applejack's desire for a simple postwar life shapes her interactions with Celestia in the "Combined Arms" chapter

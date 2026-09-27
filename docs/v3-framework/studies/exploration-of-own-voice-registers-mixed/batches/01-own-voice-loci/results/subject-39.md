@@ -1,0 +1,12 @@
+- passages:
+  - note 4564 | plot-log | terse declarative, no elaboration, lists companions | trip to Skyfall with Comet Shine, Flim and Flam | apart
+  - note 4565 | analytical-descriptive | discursive causal prose tracing belief through action to method ('so he uses...') | his ideology, refusal of loans, use of nationalist rhetoric on workers | apart
+  - note 4566 | plot-log | terse declarative statement of event and outcome | taking over Las Pegasus and helping the war effort | apart
+  - note 4567 | analytical-descriptive | states platform components plainly ('His platform is...genuine and not a conman') | description of his political platform | run-in
+  - note 4567 | evaluative-judgment | short causal conclusion clause ('so he is dangerous') | assessment of the danger he poses | run-in
+  - note 5026 | real-world-analogy | parallel clause naming 'Gilded Trust' against 'Trump', parenthetical lists | wartime promises vs postwar delivery, mapped to a real politician | apart
+  - note 5026 | real-world-analogy | parallel clause continuing the wartime/postwar comparison, parenthetical list | postwar traits (individualism, extraction, imperialism, culture war) | apart
+- shifts:
+  - note 4567 | analytical-descriptive | evaluative-judgment | shift from stating platform to a causal judgment ('so he is dangerous')
+- registers: plot-log; analytical-descriptive; evaluative-judgment; real-world-analogy
+- whole: This item's notes move between several registers — bare plot-log statements, explanatory analytical-descriptive prose on belief and platform, a brief evaluative-judgment turn, and a structured real-world analogy — with the descriptive-to-evaluative shift running together in one sentence while the other registers sit apart as separate notes.

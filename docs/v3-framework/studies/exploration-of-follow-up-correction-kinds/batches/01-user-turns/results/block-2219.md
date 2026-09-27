@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model framed the prequel-sequels as hidden revelations, with TLTT leaving the history as apparent lucky breaks and gaps. The user says the plan was for TLTT to state the history at surface level and show how it affects Applejack, with only the full dramatization held back for the prequels. | "I planned for TLTT to reveal the surface level of the prequels" and "should they be mysteries like you just described?" | Put as a question that checks the model's framing against the user's own plan, with a reason given (TLTT needs no deus ex machinas). It is tentative, and it never says the model was wrong.
+- about: The user asks whether the structure gives reread value across the books, and checks the model's mystery-and-revelation framing against their own plan, in which TLTT states the history openly and the prequels deepen it.

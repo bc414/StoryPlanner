@@ -1,0 +1,6 @@
+- asks:
+  - brainstorm/generate | produce a set of allegories connected to 'my little pony' | "Give my little pony allegories"
+- supplies:
+- shaping:
+- openness: Fully open: the message names no criteria, format, number, or angle for the allegories, leaving the response entirely to the model's discretion.
+- subject: Request for allegories related to 'my little pony'

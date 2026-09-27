@@ -1,0 +1,6 @@
+- steps:
+  - author | offers synthesis and requests expansion | a framing of Applejack's arc (military success, sadness, longing for normalcy/nursery, parting advice pushing her to embrace leadership/war) plus instruction to fold in the prior chapter's "We are Monsters" beat | opens the exchange
+  - model | returns structured literary analysis | a four-stage breakdown (setup at Quebuck, catalyst of Trimmel's interrogation, trigger via nightmare parallel, transformation into the Lioness identity) with illustrative dialogue lines and a closing three-line summary of the arc | responds to the author's request
+- kept:
+- brought: The author brought their own prior synthesis of Applejack's psychological arc (success/sadness/desire-for-normalcy/parting-advice) and asked the model to update that analysis by weaving in the "We are Monsters" moment from the preceding chapter.
+- loop: The author supplied a character-arc framing and a request to integrate an earlier plot beat, and the model returned an elaborated, staged analysis connecting the two; no note was traced from this exchange into the planning database, so nothing here is shown to have fed back into the plan.

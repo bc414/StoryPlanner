@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Skyfall-as-Switzerland/Dubai discussion in a new direction, asking for an analysis of Chrysalis having a pre-war collaboration government in Equestria through tycoons tied to the Skyfall bank, framed with the HOI4 mechanic, without disputing anything the model said.

@@ -1,0 +1,10 @@
+- passages:
+  - 5820 | statement about the subject | Pink and Red Love are Friendship and Magic drawn from a sentient creature by the changeling draining spell or its spell matrix; they come out intertwined and cannot be extracted separately | none | plain definitional claims about what they are and that extraction is impossible one without the other
+  - 5821 | statement about the subject | Love disperses through any medium including air; controlling its flow or separating the two must be done under vacuum | none | general rule stated in present tense
+  - 5822 | statement about the subject | Donated pink love is vibrant and rich in oxytocin and endorphins usable as medicine because the donor gives willingly; extracted pink love is dull and less potent because the victim's terror taints it | none | comparison of donated versus extracted pink love, described as properties
+  - 5822 | statement about the subject | Processing rule: extracted pink love must be run through a fractional distillation centrifuge to isolate plain calories, concentrate oxytocin for jaeger-geist and endorphins for panzer-haut | none | procedural rule with 'must be run through'
+  - 5823 | statement about the subject | Donated red love is low entropy because it is a conscious act; extracted red love is high entropy from terror, resistance and coercion and would shatter a delicate spell matrix | none | comparison of donated versus extracted red love, described as properties
+  - 5823 | statement about the subject | Processing rule: extracted red love must be run through a fractional distillation centrifuge to isolate and concentrate adrenaline and dopamine for blitz-essenz | none | procedural rule with 'must be run through'
+  - 5832 | statement about the subject | Pink love is chemically like oxytocin and endorphins; red love is like dopamine and adrenaline | none | short equivalence statement of chemical likeness
+- sequences:
+- whole: A set of worldbuilding notes giving the nature, behavior, chemistry and processing rules of pink and red love, with no scene beats, dates or sequences.

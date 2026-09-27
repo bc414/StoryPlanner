@@ -1,0 +1,11 @@
+- passages:
+  - note 4420 | factual descriptive statement | third-person, declarative, present tense | echolocation used to navigate rapids and detect rocks | apart
+  - note 4420 | exclamatory meta-aside | short exclamation, ties action to a named game-like concept | framing the behavior as "special talents in action" | apart
+  - note 5758 | interrogative speculative question | full question, weighing a possibility | whether echolocation explains alchemical skill | apart
+  - note 5758 | fragmentary brainstorm note | verbless noun phrase, shorthand | a possible mechanic for evaluating magical plants | apart
+  - note 5761 (carries a borrowed phrasing) | causal expository lore | third-person declaratives linked by cause-effect ("That's why"), comparative clause at close | thestrals' jungle origin explaining nocturnality, echolocation, fangs, omnivory, brain size versus ponies | apart
+- shifts:
+  - note 4420 | factual descriptive statement | exclamatory meta-aside | exclamation mark and turn to naming the behavior as "special talents"
+  - note 5758 | interrogative speculative question | fragmentary brainstorm note | drop from a full question to a verbless shorthand phrase
+- registers: factual descriptive statement; exclamatory meta-aside; interrogative speculative question; fragmentary brainstorm note; causal expository lore
+- whole: Two of the three notes shift register mid-note between separate, clearly-broken sentences (a plain statement giving way to an exclamatory aside in one, a full question giving way to a bare shorthand phrase in the other), while the third holds a single causal-expository register throughout, so the item as a whole moves between several distinct registers but always with a clean break rather than any blending within a sentence.

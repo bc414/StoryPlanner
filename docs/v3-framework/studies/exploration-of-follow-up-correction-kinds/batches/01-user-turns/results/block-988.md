@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's account of TLTT as absorbing and built on grimdark cynicism leans on early planning language that the user says was provisional and is now being replaced by a more cohesive, later-built framework | I think a lot of the early TLTT planning used the language of cynicism and grimdark because that's all I was aware of | in passing, as a self-explanatory aside about their own earlier work, with no blame put on the model, and it moves straight on to new lore
+- about: The user takes the model's cynicism-versus-resilience framing as a tool to reframe their own earlier planning and reason through real-world unions and Bernie Sanders, while reporting a plan change (EEEE as a machinists guild) and asking new questions.

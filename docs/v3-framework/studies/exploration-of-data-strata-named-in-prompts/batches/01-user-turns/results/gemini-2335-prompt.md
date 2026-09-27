@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the idea of Skyfall's rival shipping companies fighting open wars, and reasons aloud about whether a cold-war or mutually-assured-destruction dynamic, tied to Skyfall's need for naval superiority to back its Mark currency, would make more sense.

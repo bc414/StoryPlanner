@@ -1,0 +1,24 @@
+- passages:
+  - 4395 | present-tense plan-rationale exposition | present tense, motive clause "hoping...will work", named characters and event "Severyana" | Celestia's plan via Cadance to Equestrianize the crystal ponies while memories are minimal | apart
+  - 4395 | present-tense worldbuilding fact aside | short causal clause, capitalized term "Stagnation" | crystal ponies' unchanged Equestrian language over 1000 years | apart
+  - 5634 | past-tense backstory narration | past tense, sequential discovery-and-craft clauses ending in an appositive naming | Empress Mi Amore's discovery and shaping of the Crystal Heart | apart
+  - 5636 | past-tense backstory narration | past tense, biographical clauses of bullying and invention | Penumbra Spark's early life on the fringe and his invented spell | apart
+  - 5636 | parenthetical definitional gloss | parenthesis mid-sentence explaining a name | the origin of the name "penumbra" | run-in
+  - 5636 | present-tense mechanism explanation | present tense, causal chain "take...sends...allows" | how inhibitor crystals funnel magic to Penumbra Spark | apart
+  - 5636 | parenthetical definitional gloss | parenthesis mid-sentence defining a term | what inhibitor crystals are and do | run-in
+  - 5637 | past-tense backstory narration | past tense, clauses of transformation and conquest | Penumbra Spark's loss of control, becoming King Sombra, and the ancient curse | apart
+  - 5637 | evocative quoted epithet | quotation marks around a dramatic descriptive phrase | the cloud's nature as "evil magic and pure terror" | run-in
+  - 5638 | present-tense plan-rationale exposition | present tense, covert-defiance clause naming a purpose "to prepare for" | Cadance and Shining Armor's covert research and mining plan | apart
+- shifts:
+  - 4395 | present-tense plan-rationale exposition | present-tense worldbuilding fact aside | new sentence turns from a character's motive to a bare causal fact about language
+  - 5636 | past-tense backstory narration | parenthetical definitional gloss | parenthesis opens mid-sentence to explain the name's origin
+  - 5636 | parenthetical definitional gloss | past-tense backstory narration | parenthesis closes and the sentence resumes with "and was bullied"
+  - 5636 | past-tense backstory narration | present-tense mechanism explanation | new sentence shifts tense from past biography to present-tense description of how the crystals work
+  - 5636 | present-tense mechanism explanation | parenthetical definitional gloss | parenthesis opens mid-sentence to define the inhibitor crystals
+  - 5636 | parenthetical definitional gloss | present-tense mechanism explanation | parenthesis closes and the clause resumes with "take the victim's magic"
+  - 5637 | past-tense backstory narration | evocative quoted epithet | quotation marks introduce a dramatic descriptive label mid-sentence
+  - 5637 | evocative quoted epithet | past-tense backstory narration | the quoted phrase ends and the sentence resumes with "styling itself as King Sombra"
+  - 5634 | | | no shift
+  - 5638 | | | no shift
+- registers: present-tense plan-rationale exposition; present-tense worldbuilding fact aside; past-tense backstory narration; present-tense mechanism explanation; parenthetical definitional gloss; evocative quoted epithet
+- whole: These notes hold several registers—present-tense plan exposition, a present-tense worldbuilding aside, past-tense backstory narration, present-tense mechanism explanation, and brief parenthetical or quoted asides—with each note mostly settled in one register while the note on Sombra's origin (5636) and the note on his transformation (5637) shift registers inside single sentences through parentheses or a quoted phrase that run into the surrounding words with no break, whereas the shift between the two sentences of note 4395 falls at a plain sentence break.

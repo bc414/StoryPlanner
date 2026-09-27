@@ -1,0 +1,8 @@
+- asks:
+  - factual lookup | asks what the historical Dutch Republic called itself in its own language | "What was the Dutch Republic's endonym?"
+  - naming brainstorm | asks for proposed self-designating names (endonyms) for the fictional Skyfall Trade Federation, rendered in two specified languages | "What should be Skyfall Trade Federation's endonyms (in Dutch and German?)"
+- supplies:
+- shaping:
+  - answer in two specific languages, Dutch and German | "(in Dutch and German?)"
+- openness: The first question leans toward a single factual answer (a historical name that exists), while the second leaves the invented endonyms open, only fixing that two languages, Dutch and German, must be covered.
+- subject: Endonyms: the real Dutch Republic's self-name and proposed Dutch/German self-names for the fictional Skyfall Trade Federation

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the one-subject recommendation and asks a follow-up naming question, offering the in-universe fact that Twilight later calls it the Unified Theory of Magic as a consideration for choosing between the two names.

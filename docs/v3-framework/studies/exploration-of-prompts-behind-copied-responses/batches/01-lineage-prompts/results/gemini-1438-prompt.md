@@ -1,0 +1,9 @@
+- asks:
+  - check | confirms that assigning Statthalters-plus-conscripts to the Crystal Empire and Jaegers to Equestria fits the established distinction between efficiency-minded professional Jaegers and sadistic, supremacist Statthalters | "this explains why Chrysalis sends the Statthalters plus drugged conscripts... and sends the jaegers at Equestria"
+  - check | confirms that Shining Armor's continual retreat is explained by a crystal-army instinct to trade ground for minimizing its own casualties while inflicting heavy losses on attackers | "This also explains why Shining Armor keeps retreating"
+  - propose | lays out a new resolution beat in which Flurry Heart, using Thorax's Jaeger training, filters the trapped crystal army's terror out of the Crystal Heart and feeds it only hope, stabilizing the shield, presented as settled plot | "Flurry Heart stabilized the crystal heart by using Thorax's jaeger training to filter the emotions"
+- supplies:
+  - idea | a synthesized causal chain covering changeling caste war strategy (Jaegers vs Statthalters), the reason for Shining Armor's retreats, and Flurry Heart's emotional-filtering fix for the Crystal Heart | a paragraph
+- shaping:
+- openness: The message states its own interpretation as already correct ("this explains why...", "That's how...") and implicitly asks the model to confirm and build on this stated reasoning rather than leaving the answer open.
+- subject: Changeling military strategy and Flurry Heart's stabilization of the Crystal Heart in an MLP fanfiction's war plot

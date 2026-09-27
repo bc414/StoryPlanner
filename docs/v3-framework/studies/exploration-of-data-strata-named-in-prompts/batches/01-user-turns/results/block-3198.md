@@ -1,0 +1,4 @@
+- sources:
+  - the notebook lm materials | to be read and summarized thoroughly; the material the model is to draw on for the summary | Give me a thorough summary of the notebook lm materials | referred-to
+- order:
+- about: The user asks the model to read the NotebookLM materials and produce a thorough summary of them.

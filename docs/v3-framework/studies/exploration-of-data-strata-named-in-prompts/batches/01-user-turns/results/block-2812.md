@@ -1,0 +1,7 @@
+- sources:
+  - Equestria at War's lore, the Celestial Resistance faction (attached flavor text files country_CES_l_english.yml and country_EQS_l_english.yml) | the reference material to analyze; the model is to read it as the original faction that the user's version subverts | I've attached the flavor text for | first-named
+  - my "Celestial Resistance" | the author's own story element that is the subject of the analysis; to be compared against the EaW faction and shown as subverting it | how my "Celestial Resistance" would subvert | referred-to
+  - Hasbro Mandate canon | background lineage of EaW, in which the Daring Do characters are actual in-universe characters; noted as a contrast, not the basis of the user's usage | EaW is decended from the Hasbro Mandate canon | referred-to
+  - the fan interpretation that they are only books written by Twilight's mom | the basis to use strictly for the three Daring Do characters in the user's story; they are books, not in-universe characters | strictly using the fan interpretation | referred-to
+- order:
+- about: The user asks for an analysis of how their own Celestial Resistance would subvert the Celestial Resistance faction in Equestria at War's lore, attaching the EaW flavor text and clarifying that their Daring Do characters follow the fan reading that they exist only as Twilight's mother's books rather than the Hasbro-descended canon that EaW inherits.

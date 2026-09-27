@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the causal ordering as sound and asks a new question: what an importance-based ordering would look like (for example, with the master claim first, or with material conditions weighted heavily), what it would imply, and what should decide importance.

@@ -1,0 +1,7 @@
+- asks:
+  - check | asks whether a 12-hour ultimatum delivered in Canterlot, as depicted in the chapter Encirclement, still fits given recent changes to the story plan | "does it still make sense to give the 12 hour ultimatum in Canterlot in the chapter Encirclement"
+  - check | asks the same question about a parallel ultimatum event set in Vanhoover in the chapter Preparation | "What about Vanhoover in the chapter Preparation?"
+- supplies:
+- shaping:
+- openness: The message asks the model to check two named plot elements (the Canterlot ultimatum in Encirclement, the Vanhoover ultimatum in Preparation) against the person's updated story plans, without stating what the updates were or what answer is expected.
+- subject: Whether two ultimatum plot beats in specific chapters still fit the story's updated plan

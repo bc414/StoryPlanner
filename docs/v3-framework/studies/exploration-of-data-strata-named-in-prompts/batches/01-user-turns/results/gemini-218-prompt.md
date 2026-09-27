@@ -1,0 +1,4 @@
+- sources:
+  - the story's established events as the author states them (Twilight at the tip of the spear with AJ in every battle from chapter 4 onwards, AJ and Mali escaping to Tall Tale together, AJ and Mali going to the jungle without Twilight) | treat as true and use to correct the model's earlier framing of Twilight as a rear-line architect and to ground the revised scene | Twilight is at the tip of the spear with AJ in every battle from chapter 4 onwards | referred-to
+- order:
+- about: The author pushes back on the model's jealousy-scene proposal by restating what the story's events already establish about Twilight, AJ and Mali, and proposes a dramatic-irony version in which Fleur and Mali reassure Twilight and AJ so the reunion builds hype instead of uncertainty.

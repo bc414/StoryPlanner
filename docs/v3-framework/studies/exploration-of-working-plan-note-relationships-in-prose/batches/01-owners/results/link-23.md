@@ -1,0 +1,7 @@
+- relations:
+  - 446|447|note 446 states the theme that strength is what lets one afford to be motherly; note 447 gives the instance of that in the reader's revised view of Celestia, who was never obsolete because some ponies need a mother figure, so 446 is the general claim and 447 the case it is carried by|"afford to be motherly" / "Some ponies just need a mother figure"|implicit
+- outward:
+  - 447|The reader's prior opinion of Celestia, formed outside this item, that she is obsolete and shielded ponies from the real world of ambition|"Celestia is obsolete and put the ponies in danger"
+  - 447|Applejack, who does the learning, and the wider group of ponies Celestia shielded, are not otherwise present in this item|"Applejack learns"
+  - 446|The unnamed "They" who must be strong, a group of characters not identified in this item|"They have to be strong"
+- whole: ["The two notes hang together as a pair: one states the thematic proposition and the other gives the reader-belief change that would carry it."]

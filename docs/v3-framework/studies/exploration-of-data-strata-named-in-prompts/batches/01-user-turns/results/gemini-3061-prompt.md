@@ -1,0 +1,4 @@
+- sources:
+  - personal intelligence | asked whether the model's previous answer was drawn from it; the user is checking provenance and gives no instruction to use or avoid it | Does this come from personal intelligence? | referred-to
+- order:
+- about: The user asks whether the model's preceding explanation of its coder-persona framing came from the model's "personal intelligence" feature, i.e. they are querying where it got that material.

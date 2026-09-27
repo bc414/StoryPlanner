@@ -1,0 +1,20 @@
+- relations:
+  - 949|955|continues in time: the errand of helping Fleur at the University is shown as the work itself, with Henri lifting and Fleur doing nerd stuff, and the no-love-at-first-sight start stays a colleagues-only stage|Henri had to work for Fleur; Henri is doing heavy lifting; Fleur is doing "nerd stuff"|implicit
+  - 955|956|restatement: the historian's report of mutual respect for work ethic is the same trait the psychologist names as what is special between them|just mutual respect for work ethic; Mutual respect for work ethic|implicit
+  - 955|947|continues and overturns: the early strictly-friends, no-spark stage is later stated to be friends with benefits|strictly friends/colleagues; no spark yet; They really are friends with benefits|implicit
+  - 955|957|continues in time: from colleagues working at the University in 998 to being forced into partnership for the crusade in 1006|They have to work together for the crusade to succeed|implicit
+  - 957|958|occasion for: Fleur's inventions and non-violence set against Henri's tactics and lack of magic fit the teaching of each other's domains and the frustration that follows|Fleur has magical inventions but doesn't believe in violence; They try to teach each other their domains, but get frustrated|implicit
+  - 958|947|instance of: the frustration-cooling offer of the body is how the friends-with-benefits state comes about|they initiate by offering their body to help the other cool off; They really are friends with benefits|implicit
+  - 958|959|presupposition: the role playing as lion and eagle that Applejack must not catch is the lion-or-eagle cool-off session described in 958|choose if they want to be the lion or the eagle; role playing as lion and eagle|implicit
+  - 947|959|presupposition: the friends-with-benefits dynamic that must be hidden from Equestrians is the one 947 states|friends with benefits; their friends with benefits dynamic|implicit
+  - 959|960|tension and sequence: the passion must be hidden from Equestrians because they equate it with being a predator, yet the plan is to sell them Aquileian Passion afterward|Equestrians literally do not understand sexual passion; Then we sell them Aquileian Passion|implicit
+  - 947|960|general and particular: the Aquileian way of friends with benefits is what the plan calls Aquileian Passion, controlled sexual ambition to be sold|It's the Aquileian way; Aquileian Passion as controlled sexual ambition|implicit
+- outward:
+  - 949|the other pony families Henri vandalized and the repayment jobs they set him|He went to EVERY pony family that he vandalized
+  - 949|Fleur's parents, and the University where she works|go help our daughter at the University
+  - 957|Dennis Discret and the University of Pridea's weapons research request|Dennis Discret asks the University of Pridea for more magical weapons research
+  - 957|Chrysalis, the proxy wars and the crusade, held elsewhere|fight Chrysalis in proxy wars
+  - 947|Aquileian culture and its ways, held elsewhere|It's the Aquileian way
+  - 959|Equestrian culture and the character Applejack, plus changelings as predators|Applejack catch them; predators like changelings
+  - 960|Harmonic Capitalism, a societal ideology held elsewhere, and the plan to sell to the Equestrians|First we sell them Harmonic Capitalism
+- whole: The notes hang together fairly well: a run from the early work partnership, through the teaching and cool-off dynamic, to the secrecy from Equestrians and the plan to sell it, though the history notes about the 998 and 1006 events and the crusade context link to the rest only loosely.

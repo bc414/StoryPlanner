@@ -1,0 +1,4 @@
+- sources:
+  - the consensus among sociologists and psychologists (the "sick role" account of hyper-capitalist society and social contagion of self-diagnosis) | treated as true real-world grounding that the Celestia/parloir notes rest on | Sociologists call this adopting the "sick role." The consensus among sociologists and psychologists is | first-named
+- order:
+- about: The user pastes a set of thematic notes that ground Celestia's "Stagnation of Harmony" and the parloirs' therapy in a real-world sociological account of the sick role, and asks which subject these notes should be attached to and how they should be delivered.

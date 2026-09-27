@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the plot pivot and asks a follow-up question about what the chapter title "Laughter" now means, recalling that it formerly worked as a dark irony.

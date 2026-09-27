@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model wrote that Trimmel orders a surrender to save his men; in the story he surrenders only himself and does not command his troops to stand down | Trimmel doesn't order a surrender. He personally surrenders himself. | flat, direct statement of the right version with no apology or explanation
+  - fact of the world | The model implied the other soldiers yield at Trimmel's order; in the story the veterans act on their own choice, fight to the death and take their modern tanks with them | The other veterans have agency. They choose to fight to the death | flat, stated as a plain fact of the plot, added right after the first correction
+- about: The user briefly corrects the model's account of the surrender scene, saying Trimmel surrenders only himself while his veterans choose to fight to the death.

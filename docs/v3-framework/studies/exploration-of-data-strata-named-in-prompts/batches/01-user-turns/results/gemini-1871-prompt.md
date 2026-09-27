@@ -1,0 +1,5 @@
+- sources:
+  - Paste notes | the author's raw material that gets summarized; its nuance must not be lost, and it is where omitted details are recovered from | Paste notes ... I don't want to lose any nunace | referred-to
+  - a summary from Gemini | a provisional condensed draft, to be probed for what it left out and then supplemented by choosing which details to restore | Get a summary from Gemini ... Ask what is missing ... pick and choose | referred-to
+- order:
+- about: The user describes a three-step workflow of pasting notes, getting a Gemini summary, asking what is missing, and selectively adding details back, and asks how effective it is and how to improve it so no nuance is lost while duplication and verbosity are removed and the material is put in logical order.

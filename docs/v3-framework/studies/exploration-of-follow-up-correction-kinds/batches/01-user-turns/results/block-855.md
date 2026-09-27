@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the cynicism-versus-resilience framing, uses it to map each faction and its Equestrian parallel, and asks the model to help place Aquileia between cynicism and resilience, adding that Aquileia's original role as golden savior has since changed.

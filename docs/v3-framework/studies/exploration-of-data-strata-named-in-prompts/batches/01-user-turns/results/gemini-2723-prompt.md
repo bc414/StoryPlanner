@@ -1,0 +1,4 @@
+- sources:
+  - Combined Arms chapter (the user's account of what happens in it: Applejack sees her parents at the burned Sweet Apple Acres and connects with them) | treat as settled story fact and build on it; the model is to work out its consequences for Applejack's wish for a simple life and her scenes with Celestia | In the Combined Arms chapter, Applejack got to see her parents | referred-to
+- order:
+- about: The user adds a plot detail from the Combined Arms chapter, that Applejack reconnects with her parents and wants a simple life after the war, and asks the model to work out how that shapes her interactions with Celestia in the chapter under discussion.

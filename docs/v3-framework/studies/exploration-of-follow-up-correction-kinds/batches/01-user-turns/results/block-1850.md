@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model described the two organizations' members as different (animals versus ponies and changelings) and the CIA as resting on Fluttershy's talent. The user says the CIA also includes buffalo who talk with animals, and that reformed changelings join it too, so membership overlaps and the binding logics are separate but not mutually exclusive. | "Also note that reformed changelings also become CIA members" | Mild and in passing: agrees with the separation first, then adds the membership detail as an 'also note' without saying the model was wrong.
+- about: The user accepts the model's split of the Cute Intelligence Agency from Camp Fluttershy while adding membership detail that softens the model's claim that members differ, then moves on to a new request: classify Olenia, Vanhoover and Canterlot's occupation, with collaborators as organizations under Chrysalis's New Order, and review those plan chapters.

@@ -1,0 +1,4 @@
+- sources:
+  - the four points the user lists about their own situation (regular job taking primary cognitive load, no financial pressure, no developmental editor with the Story Planner closing the distance, prose published as it is polished) | treat as true stated premises and elaborate and expand on them | Please elaborate and expand on these truths and expectations | first-named
+- order:
+- about: The user asks the model to spell out precisely how writing free serial fanfiction for fimfiction.net in spare time differs from a professional novelist's situation, and to elaborate on four circumstances they state as fact.

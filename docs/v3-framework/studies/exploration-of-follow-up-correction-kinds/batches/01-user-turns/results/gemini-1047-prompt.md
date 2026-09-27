@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers an alternative structure for the Skyfall ending, in which Applejack's donation idea replaces punishment or invasion and becomes the model for the later Vesalipolis drop, and asks whether the drop is better saved for Vesalipolis to keep its surprise, floating a scaled split of trucks or ships for Skyfall and carpet-bombing for Vesalipolis.

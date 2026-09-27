@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model, in a single short question, whether the internal mutual exclusivity rule in the upgraded Phase 1 prompt makes sense, and points at no body of material for it to draw on.

@@ -1,0 +1,6 @@
+- sources:
+  - the attached story plans, the story thread about the cute intelligence agency | check it for the CIA thread, which is where the agency's setup (a state secret started by the buffalo) is laid out | Check the attached story plans for the story thread about the cute intelligence agency | first-named
+  - chapter 9, Sabotage, the buffalo and oil worker town hall where Fleur explains | treat as the established story basis for buffalo species magic being about stewardship of nature, like earth ponies, and so for buffalo understanding animals | as Fleur explains in the buffalo and oil worker town hall in chapter 9, Sabotage | referred-to
+  - canon FiM Fluttershy and how she talks with animals | use as a consistency check on whether the proposed magically enhanced non-verbal communication fits canon | Would this be consistent with canon FiM Fluttershy | referred-to
+- order:
+- about: The user corrects the model's CIA idea by saying it is a buffalo-founded state secret, points the model to the attached story plans, and asks whether animal communication as magically enhanced non-verbal communication fits canon and could be learned by changelings, whether POWs can be trusted with it, and whether a new field facility is needed for the camp.

@@ -1,0 +1,8 @@
+- passages:
+  - 5824 | scene beat without a year | Twilight reveals the Elements of Liberty at the end of the episode Dilemma | none | written as an event, Twilight reveals; anchored only to the end of Dilemma, no year or date
+  - 5824 | statement about the subject (structure/titling rule) | The next five chapter titles are the Elements of Liberty, while Conscience, the sixth hidden element, gets no chapter title because it is hidden | none | declarative note about chapter titling, with a 'But' exception
+  - 5825 | reference to canon source | In canon season one Over a Barrel, Rainbow Dash sides with the buffalo against Appleloosa after hearing their side | none | cites canon episode as background fact
+  - 5825 | statement about the subject | Rainbow Dash's baseline character was never tribal, drawn from the canon episode | none | 'So' conclusion about character
+  - 5825 | scene beat without a year | Plan for the Kinship discovery: it must interweave Over a Barrel, Rainbow waking on the cloud bed with her friends in Appleloosa rather than in a field hospital in Tall Tale, and her deciding to go with Applejack instead of returning to flying | none | 'needs to' directive listing story moments; no year or date
+- sequences:
+- whole: Two short planning notes on how the Elements of Liberty are revealed and titled across chapters, and on how Rainbow Dash's Kinship discovery should weave through canon episodes and her own choices, with no dates anywhere.

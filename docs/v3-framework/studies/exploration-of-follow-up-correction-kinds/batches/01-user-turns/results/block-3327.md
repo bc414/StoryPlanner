@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's tracing covered the archive, the working plan and the lineage counts but left out the conversations corpus, even though it presented the result as complete across all surfaces | Also look into the conversations corpus | a short, unexplained instruction, with no reproach, that implies the source was missed
+- about: The user asks the model to extend its six-excitements analysis by searching the conversations corpus, a source it had not used.

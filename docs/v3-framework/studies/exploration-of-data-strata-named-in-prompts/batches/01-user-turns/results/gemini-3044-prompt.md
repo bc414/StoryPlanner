@@ -1,0 +1,4 @@
+- sources:
+  - Daring Do books (Dr. Caballeron as the protagonist's unscrupulous rival villain) | treat as a given premise: the model is to reason from what the books establish about Caballeron to work out who the cartel leader's clientele would be | Since Dr. Caballeron is the villain of Daring Do books (the protagonist's unscrupulous rival) | referred-to
+- order:
+- about: The user asks a follow-up worldbuilding question, starting from the Daring Do books' portrayal of Dr. Caballeron, about what clientele the cartel leader would target in Stagnant Equestria versus hyper-capitalist Skyfall and new Mareland.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new task, asking for the same mechanisms to be exemplified from a Pax Chrysalia passage about Vaspier, and offers their own tentative reading of what the passage shows, without disputing anything the model just wrote.

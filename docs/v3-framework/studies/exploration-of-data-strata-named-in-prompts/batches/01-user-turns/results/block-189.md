@@ -1,0 +1,7 @@
+- sources:
+  - TLTT (and EaW the mod) | Fixed frame of the story: Chrysalis is only talked about there, never appears, and her invasion of Equestria is its main plot; the Chrysalis ending is to be read against it and recontextualize it | Chrysalis does not appear directly in TLTT at all, only talked about | referred-to
+  - Chrysalis's story (the ending, the Trimmel talk and fallout) | The author's own plan for it, stated as the settled account and given to clarify the model's earlier reading: dopplestaat, the statthalters, no wish to invade Equestria, Synovial's role | To clarify, Chrysalis operates a dopplestaat | referred-to
+  - Minette's prequel and the other stories | Named as places the Chrysalis ending recontextualizes; together with Applejack's, they already show the choice Chrysalis did not take | It recontextualizes everything in TLTT, in Minette's prequel, and others | referred-to
+  - Applejack and Minette (their storylines) | Treat as the established demonstration that Chrysalis had a choice, so her path is chosen and not forced | The choice was already shown through Applejack and Minette | referred-to
+- order:
+- about: The author corrects and fills in the model's picture of Chrysalis's backstory and planned ending from their own plan, then asks how it fits the Greek tragedy structure and what social commentary it carries, insisting that her path be a choice.

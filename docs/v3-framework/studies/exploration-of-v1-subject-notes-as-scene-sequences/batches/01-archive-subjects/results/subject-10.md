@@ -1,0 +1,11 @@
+- passages:
+  - 4264 | scene beat without a year | Fluttershy goes to Tall Tale, deathly afraid and unwilling, because Celestia begs or orders her to bring Twilight home, hoping kindness can stop Twilight doing more harm | none | written as an event with a stated motive; no date or span given
+  - 4280 | statement about the subject | The Changeling POWs regard Fluttershy as the kind queen they never had | none | plain statement of how a group thinks of her; no moment shown
+  - 5190 | backstory event recalled from canon | Fluttershy learned The Stare at the end of Putting Your Hoof Down, when she first moved to Ponyville and took on too many animal friends; it was a lesson from Rarity on being assertive rather than prey | none | past event referenced by episode title; only a relative time (when she first moved to Ponyville)
+  - 5190 | statement about the subject | The Stare is already Grace, and Fluttershy is the first to demonstrate her adult element | none | declarative claims about what the Stare is and her place among the others
+  - 5190 | statement about the subject | Her main arc in the story runs from top-down authority like Celestia to letting the birds and changelings make their own choices even at risk | none | arc summary stated as a fact about the character
+  - 5689 | statement about the subject | As an animal caretaker she knows predators eat other animals (she gives fish and worms), so she is the least innocent to the adult world outside the stagnation of harmony | none | reasoning from canon to a claim about her character
+  - 5689 | open question or speculation about the world | Wonders whether the animal-caretaking parts of Winter Wrap Up are invented or performative to promote harmony while the weather parts are legitimate, and that most ponies only meet nice animals | none | phrased with question mark and 'Maybe'
+  - 5689 | statement about the world (canon fact) | Canterlot uses many spells to do Winter Wrap Up, in a utilitarian way | none | flagged as 'Canonically'; a fact about the setting, not a moment
+- sequences:
+- whole: A small set of four design notes on Fluttershy mixing one unwilling-mission event with statements about how others see her, her arc and her adult element, plus canon-based worldbuilding reasoning and speculation about Winter Wrap Up, with no dated beats and no ordered sequences.

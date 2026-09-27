@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | a full export of the user's fiction plan | placeholder for an attached document, stated as 130,218 words, 0 chars captured
+- shaping:
+- openness: line | The message contains no stated question or instruction beyond attaching the plan document, so no task or direction is given for the model to follow | shown by the message consisting solely of an attachment placeholder with no accompanying text
+- subject: Attachment of a full plan export for a long work of fiction, with no accompanying request

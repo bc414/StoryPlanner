@@ -1,0 +1,4 @@
+- sources:
+  - the context | the model is to infer the user's company from what the conversation already contains, treating it as the evidence to draw on | from the context | referred-to
+- order:
+- about: The user asks the model to work out from the conversation so far which company they work for, testing whether it can be inferred without being told.

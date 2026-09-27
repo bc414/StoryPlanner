@@ -1,0 +1,16 @@
+- passages:
+  - 3978 | statement about the subject | Kindness can be naively read as gentleness and do-no-harm, which is what Fluttershy's pushover quality in the show is about | none | plain assertion of what naive kindness is, with a character illustration
+  - 5801 | statement about the subject | Naive kindness assumes the other has a conscience and can receive it, while grace makes no such assumption about a defeated enemy and offers rehabilitation anyway | none | contrast of naive kindness and grace stated as a rule
+  - 3979 | statement about the subject | Grace means treating defeated enemies with dignity and allowing healing and forgiveness | none | definition opening the note
+  - 3979 | commentary citing existing show episodes | Points to the breezies episode (Fluttershy is nice to the bees before using The Stare) and Dragonshy (she is nice to the dragon) as demonstrations of grace | none | references to episodes as evidence, not written as story events to show |
+  - 3979 | statement about the subject | Being graceful means acknowledging an enemy while giving a path to reconciliation | none | closing restatement of what grace is
+  - 3980 | statement about the subject | In war, kindness is suspended through dehumanization, called decreaturization in-universe | none | short equivalence statement
+  - 3981 | statement about the subject | Tribalism is selective empathy, an us-versus-them stance where kindness to one's own requires cruelty to others, and it drives wedge issues that split commoners | none | definition with a real-world remark and an example quote of the mindset
+  - 4004 | statement about the subject | Tribalism leads to dehumanization of the enemy, and grace means treating enemies as proper creatures | none | cause-and-effect claim with an example line of dehumanizing speech
+  - 4004 | statement about the subject | Fluttershy fits this thematically because she treats all animals as proper creatures, and this is why she has the best arc and characterization | none | thematic claim about the character, with an evaluative aside
+  - 4121 | statement about the subject | Grace is the Energy of Being, the second half of Ambition, the Will of Doing; grace is existing in the moment, accepting self and others, finding peace and connection, while ambition is the drive to change the world and overcome obstacles | none | definition placing grace against ambition as paired concepts
+  - 5450 | statement about the subject | Real friendship is befriending those who do not know how to be nice, not ponies who are already nice | none | thematic claim about friendship
+  - 5450 | statement about the subject | This idea is core to Fluttershy as an animal caretaker | none | claim about character
+  - 5450 | statement about the subject | The Stare stands for primal instinct against reason | none | meaning assigned to a story device
+- sequences:
+- whole: A set of design-theory notes defining kindness, grace, tribalism, dehumanization and their link to ambition, mostly using Fluttershy as the thematic illustration, with no scene beats or dated events.

@@ -1,0 +1,6 @@
+- sources:
+  - Models.txt and ViewModels.txt in the project memory | the architecture files the user has supplied in place of the suggested single markdown file; available for the model to read as the current structure of the application | I put Models.txt and ViewModels.txt in the project memory | first-named
+  - narrative properties (part of the application's model) | leave out of consideration for now; the user is concerned only with the data | not thinking about the narrative properties at all yet, only the data | referred-to
+  - seed data in unset note tracks across 500+ subjects and plot points | the existing notes that the current work is to organize; the material the user cares about, still unsorted and unconfigured | 300,000 words worth of seed data sitting in unset note tracks | first-named
+- order:
+- about: The user reports that they put the model files in project memory instead of the suggested single file, and narrows the scope to organizing their existing unsorted seed notes, setting aside narrative properties and later stages.

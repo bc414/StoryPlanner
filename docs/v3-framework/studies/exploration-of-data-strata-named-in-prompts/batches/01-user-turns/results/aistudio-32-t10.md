@@ -1,0 +1,6 @@
+- sources:
+  - the timeline and plot of the story | go back over it and correct the previous analysis against it; treated as the authority that the model's claim about the voters contradicted | "review the timeline and plot of the story again" | referred-to
+  - the author's own account of the electorate and the 1015 setting (12 million from the Griffonian Republic, 50 million from liberated Herzland, Archon Eros's 1007 purge, the war against Chrysalis) | treat as correct and replace the model's assumption that the voters grew up safe | "did not grow up safe" | first-named
+  - the author's belief about the GR's economy and Sunglider's pitch | offered as the author's own understanding, hedged, for the model to build on rather than a settled fact | "I believe the GR's economy used standardization" | first-named
+- order:
+- about: The user corrects the model's misreading of who votes in the Sunglider vs. Kingfeather election, telling it to recheck the story's timeline and supplying the electorate's real background and their own view of Sunglider's post-war economic pitch.

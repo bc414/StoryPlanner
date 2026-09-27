@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model put the gap between position two and three in scale and structure (right ideas that stayed in the lab, a failure of ambition and not of analysis, structure as soil). The user says the missing element is unconditional dignity, which Coltbert lacks and the Stagnation of Harmony adds. | "unconditional dignity is what Coltbert is missing. It's what the Stagnation of Harmony adds" | Stated flatly as the user's own refinement, folded into revising the 'roar' phrase. It is not framed as disagreement, and the model is not named or faulted.
+- about: The user takes the three-position framework and reworks it with their own plan: the gap between positions two and three is dignity, the 'roar' slogan needs widening, and Minette and Réni carry the Aquileian arc. They then ask what names the three positions should have.

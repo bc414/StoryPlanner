@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, checking whether the model's account of the 980 reforms implies that pre-972 serfs were skilled wine-and-cheese producers whom nobles coerced into labor dues and sexual abuse, so it extends the discussion backward in time without disputing anything said.

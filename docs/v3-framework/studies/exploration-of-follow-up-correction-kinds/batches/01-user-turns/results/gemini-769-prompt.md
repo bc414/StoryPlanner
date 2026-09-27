@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model why it chose coding and writing as its examples of complex projects, seeking the basis for that choice without saying it was wrong.

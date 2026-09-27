@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user shares a personal, autobiographical resonance with an existing character's backstory and self-trait framework, then asks the model to draw a thematic connection between real-world modern media proliferation and a story concept of stagnating harmony.

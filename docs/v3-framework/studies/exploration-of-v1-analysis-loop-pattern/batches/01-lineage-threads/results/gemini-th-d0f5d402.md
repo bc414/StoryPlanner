@@ -1,0 +1,10 @@
+- steps:
+  - the author | opens with a general query | asks for background on 1984 the novel | start of conversation, first message
+  - the model | delivers a survey | plot summary, setting, key concepts table, historical significance, plus an offered follow-up on Animal Farm comparison | response to the first query
+  - the author | redirects with a narrower factual question | asks when the book was written, bypassing the offered comparison | second exchange
+  - the model | delivers a narrower survey | composition timeline, biographical detail on Orwell's illness, historical context, plus an offered follow-up on real-world inspirations for characters | response to the second query
+  - the author | redirects again to an adjacent work | asks when Animal Farm was written, again bypassing the offered follow-up | third exchange
+  - the model | delivers a parallel survey | composition and publication timeline, publishing controversy, a table mapping characters to real-world figures, plus an offered follow-up on the Seven Commandments | closing response of the stretch
+- kept:
+- brought: none — the exchange consists of general-knowledge questions about published works, not material drawn from the author's own plan
+- loop: The author poses a sequence of factual lookup questions about Orwell's works, the model answers each fully and offers a further branch each time, and the author declines every offered branch to ask a new adjacent question instead; nothing from any of these exchanges was carried into the planning database.

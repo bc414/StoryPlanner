@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a tentative revision of the worldbuilding, proposing that the 24/7 slow extraction is deliberate, to keep red love stable at lower intensity, and that victims rather than harvester parts are the bottleneck, without pointing at any body of material.

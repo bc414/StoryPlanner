@@ -1,0 +1,9 @@
+- asks:
+  - evaluate | asks for an assessment or judgment of how convincing/effective Star Energy's "desperate defense" is as written or planned | "What is the verdict on Star Energy's desperate defense?"
+  - decide | asks whether a specific plot event (dismantling the dam) should be moved to occur early, in chapter 1 | "Should they dismantle the dam early, during chapter 1?"
+- supplies:
+- shaping:
+  - constrain by established reveal order | states as a given that harmonic capitalism is not revealed until later, implying the answer must respect this | "harmonic capitalism is not revealed until later"
+  - constrain by character/faction state | states as a given that the relevant party is in survival mode, implying this should inform the judgment | "They are very much in survival mode"
+- openness: The message asks for an open evaluative verdict on the defense and poses a yes/no decision about chapter-1 dam placement, while supplying two fixed constraints (delayed reveal of harmonic capitalism, survival-mode framing) the answer is expected to respect.
+- subject: Timing and plausibility of Star Energy's defensive plot move (dismantling the dam) relative to chapter structure and the story's reveal order

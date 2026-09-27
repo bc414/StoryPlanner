@@ -1,0 +1,4 @@
+- claims:
+  - reading | Cooperating with Twilight's charity effort is read as only swapping one form of top-down control (tyranny) for another (charity), so the structure of power stays vertical | working with Twilight just replaces top down tyranny with top down charity | What does partnering with Twilight amount to structurally? | partly
+  - design commitment | The approach of working under Twilight's charity is settled as a failure within the story, an outcome the plot and theme will bear out | This approach fails. | Does this approach succeed or fail? | no
+- theme: It names the theme's contrast between top-down and bottom-up and asserts a verdict against the top-down side, so it argues the proposition by bare assertion. It supplies no evidence from what the character does or how she thinks.

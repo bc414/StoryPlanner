@@ -1,0 +1,38 @@
+- passages:
+  - 5393 | planning-directive | prescriptive "should intersect" | placing Velvet's arc against Luna's return and Mali | apart
+  - 5393 | plot-synopsis | third-person recounting of story beats | Celestia's and Luna's differing attempts with Velvet, her rejection and resistance | apart
+  - 5393 | cross-story causal analysis | "This is why" / "This explains" connectors | linking Velvet's failure to Luna's reform choices and later lore | apart
+  - 5640 | canon-scene-analysis | "is shown", discussion of creator intent | reading Luna's glare in Crystal Empire Part 1/2 and presumed writer intent | apart
+  - 5640 | first-person authorial reinterpretation | "I am recontextualizing", first-person present tense | author's own reading of Luna's disapproval and Celestia's plan | apart
+  - 5640 | cross-story causal analysis | "This perfectly explains" | linking Twilight's conditioning to a later campaign | apart
+  - 5640 | quoted dialogue | quotation marks, verbatim canon line | Celestia's canon speech to Twilight | run-in
+  - 5640 | cross-story causal analysis | lowercase continuation naming the quote's meaning | quote framed as origin of the "top down atlas complex" | run-in
+  - 5640 | planning-directive | prescriptive "should depict" | instruction that a prequel show these events from Luna's view | apart
+  - 5640 | canon-scene-analysis | present-tense scene description | Luna's irked look in the Crystal Empire opening | apart
+  - 5640 | quoted dialogue | quotation marks, standalone line | Luna's line "are you sure you don't want me to go" | apart
+  - 5640 | cross-story causal analysis | "This is literally the Hasbro Mandate" | naming Celestia's motive as a formulaic mandate | apart
+  - 5640 | canon-scene-analysis | present-tense description plus interior state | Luna's glare and inner conflict | apart
+  - 5640 | cross-story causal analysis | "shows the extreme pressure of" | linking Twilight's exit to Celestia's approach | apart
+  - 5640 | canon-scene-analysis | third-person present-tense plot-logic statement | Celestia and Luna's differing plans about the crystal heart | apart
+  - 5640 | canon-scene-analysis | present-tense scene description | Luna and Celestia watching the aurora, Luna's expression changing | apart
+  - 5640 | quoted dialogue | quotation marks | Celestia's "have we really been gone" line | apart
+  - 5640 | cross-story causal analysis | short interpretive statement | connecting the quote to Luna's own feelings | apart
+  - 5794 | worldbuilding exposition | third-person present-tense explanatory statement | Luna's dreamwalking spell and reputation reframed as ordinary research | apart
+- shifts:
+  - 5393 | planning-directive | plot-synopsis | shift from prescriptive "should" to narrative past-tense recounting of events
+  - 5393 | plot-synopsis | cross-story causal analysis | shift marked by "This is why"/"This explains" causal connectors
+  - 5640 | canon-scene-analysis | first-person authorial reinterpretation | shift to first-person present tense "I am recontextualizing"
+  - 5640 | first-person authorial reinterpretation | cross-story causal analysis | return to third person and "This perfectly explains" plus jump to a different story arc
+  - 5640 | cross-story causal analysis | quoted dialogue | direct quotation marks introducing a verbatim canon line
+  - 5640 | quoted dialogue | cross-story causal analysis | lowercase continuation naming the quote's significance, no break
+  - 5640 | cross-story causal analysis | planning-directive | prescriptive "should depict"
+  - 5640 | planning-directive | canon-scene-analysis | return to present-tense scene description
+  - 5640 | canon-scene-analysis | quoted dialogue | quotation marks, standalone quoted line
+  - 5640 | quoted dialogue | cross-story causal analysis | "This is literally the Hasbro Mandate" naming pattern
+  - 5640 | cross-story causal analysis | canon-scene-analysis | return to scene description of Luna glaring
+  - 5640 | canon-scene-analysis | cross-story causal analysis | "shows the extreme pressure of" causal phrasing
+  - 5640 | cross-story causal analysis | canon-scene-analysis | return to plot-logic statement without causal connector
+  - 5640 | canon-scene-analysis | quoted dialogue | quotation marks introducing a canon line
+  - 5640 | quoted dialogue | cross-story causal analysis | short interpretive statement "This is exactly what Luna feels too"
+- registers: plot-synopsis; planning-directive; cross-story causal analysis; canon-scene-analysis; first-person authorial reinterpretation; quoted dialogue; worldbuilding exposition
+- whole: This item's notes move through several distinct registers—prescriptive planning, narrative synopsis, causal/explanatory analysis, canon-scene description, a first-person authorial aside, quoted dialogue, and flat exposition—almost always set apart by paragraph or line breaks, with only one place where commentary runs directly into a quotation inside the same sentence.

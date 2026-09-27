@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the historical comparison as a starting point and asks whether the scheme grows out of Gerad Discret's gunpowder monopoly over the Aquileian warlords, with Chrysalis escalating from feudal dues to taking bodies, and asks the model to review their story plans for other elements that lead to it.

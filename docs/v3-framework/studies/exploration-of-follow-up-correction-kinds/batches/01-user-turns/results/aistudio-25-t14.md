@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn supplies a series of raw worldbuilding note excerpts (Aquileia's history, Gerad Discret's state-building, Le Grand Foyer, the second-generation problem) as content, without commenting on or disputing the sorting strategies the model proposed.

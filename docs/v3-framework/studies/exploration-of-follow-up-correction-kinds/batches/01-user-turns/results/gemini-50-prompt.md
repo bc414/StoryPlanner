@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's advice assumed the user would enable paid billing and move to a Pro model; the user says they won't spend anything beyond their existing consumer subscription, so the recommendation missed their budget constraint | "I don't plan on spending any money" beyond the existing subscription, "just for fun" | stated flatly as a constraint with a reason, folded into a follow-up question about a fallback option rather than framed as an objection
+- about: The user declines the model's suggestion to enable paid billing, citing a no-extra-spend hobby budget, and asks whether feeding chapters one at a time through the web chat is therefore the best route.

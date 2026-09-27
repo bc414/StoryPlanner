@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual follow-up about the real wealth levels and jobs of the subreddit's users (low-wage workers on food stamps versus white-collar or skilled-trade earners), without pointing at any particular body of material to draw on.

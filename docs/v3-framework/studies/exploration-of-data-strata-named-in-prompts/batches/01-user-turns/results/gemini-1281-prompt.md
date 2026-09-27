@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to analyze Pinkie Pie's arc and related themes from them, treating them as the material to draw on | Analyze Pinkie Pie's character arc in my story plans | referred-to
+- order:
+- about: The user asks the model to analyze Pinkie Pie's character arc and related themes, drawing on their story plans.

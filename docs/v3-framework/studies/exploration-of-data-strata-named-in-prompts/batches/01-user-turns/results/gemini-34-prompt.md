@@ -1,0 +1,4 @@
+- sources:
+  - the next section of the story | the material the model is to read and summarize | Here is the next section of the story. Can you summarize it? | first-named
+- order:
+- about: The user hands over the next section of their story and asks the model to summarize it.

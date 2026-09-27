@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own psychological explanation for why Chrysalis's plans fail (projecting her sociopathy, assuming all ambition is predatory) and uses it to ask a new question about her upbringing, extending the discussion instead of disputing the model's account.

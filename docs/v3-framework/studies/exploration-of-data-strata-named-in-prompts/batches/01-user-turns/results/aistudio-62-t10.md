@@ -1,0 +1,6 @@
+- sources:
+  - Aquileian Mont Boree story | treated as established story material that Chrysalis's scheme is modeled on, and that Blueblood might come to understand | acting on the Aquileian Mont Boree story | referred-to
+  - The Predator's Dilemma paper | treated as established story material that Chrysalis acts on, and that Blueblood might or might not learn about | The Predator's Dilemma paper | referred-to
+  - Canterlot Wedding | treated as the canon appearance of Chrysalis, kept as is but reinterpreted as a temporary regression from love-drunkenness, not her true character | she appeared like one in Canterlot Wedding | referred-to
+- order:
+- about: The user asks for more detailed, alternative routes by which Blueblood finds Mudbeak, proposing that he starts by investigating Chrysalis and Skyfall, may piece her plot together only by tracing patterns, is disbelieved and threatened, and then persuades Mudbeak, while asking what each variant would mean for the story.

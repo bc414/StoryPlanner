@@ -1,0 +1,5 @@
+- sources:
+  - the chemistry established in the chasseur doctrine | reference to check the drugs' effects and the Red/Pink usage against, to judge whether they line up | compare the effects of the three drugs and their real world equivalents with the chemistry established in the chasseur doctrine | referred-to
+  - their real world equivalents (of the three drugs) | real-world drug analogues to set beside the drugs' effects as a comparison point | their real world equivalents | referred-to
+- order:
+- about: The user asks the model to compare the three combat drugs' effects with their real-world equivalents and with the chemistry set out in the chasseur doctrine, and to judge whether the chemistry and the use of Red and Pink Love are consistent.

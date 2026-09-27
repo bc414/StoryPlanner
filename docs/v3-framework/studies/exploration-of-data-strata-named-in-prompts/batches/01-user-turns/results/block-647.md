@@ -1,0 +1,6 @@
+- sources:
+  - IsIncorporated boolean, part of a naive plan | treat as outdated and not in use; it was meant to mean whether a note exists in a plot point and will not apply once notes match their layer tracks, so it should not be relied on | I am not currently using IsIncorporated | referred-to
+  - the revised ground truth of the Stagnation of Harmony (Layer 1, petitions in 930 ALB) | treat as the current world truth that the author's design now rests on | by revising layer 1 | referred-to
+  - the characters' perception that the Stagnation lasted 1000 years | keep as the in-story belief characters hold until the chapter 22 reveal; it is not world truth | I still wanted the perception by the characters to be that it was for a 1000 years | referred-to
+- order:
+- about: The user corrects the model's reading of IsIncorporated as outdated, explains they are still in Stage 0 and want the workflow shaped for later stages, and asks where a plan for the gap between world truth and reader perception belongs (Track C or elsewhere) and whether the story planner's multiple purposes need clearer separation.

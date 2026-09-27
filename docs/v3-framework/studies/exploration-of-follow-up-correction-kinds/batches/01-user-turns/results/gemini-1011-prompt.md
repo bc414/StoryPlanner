@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's account of what Twilight's friendship with Fleur Bloom does (Fleur as intellectual peer, Twilight's imposter syndrome eased by seeing her power as a tool) leaves out what the plan says it is for: Twilight going back to her season 1-3 self, with empathy learned, instead of being the Princess of Friendship | "please refer to the story plan" after stating the different purpose of the friendship | indirect, added as one more point in a list with a pointer back to the plan, no statement that the model was wrong
+- about: The user builds on the model's battery-and-discount analysis by laying out a chapter 6 sequence around Fluttershy's love harvester and Twilight's guilt, and in doing so points the model back to the story plan for what the Fleur friendship is meant to do, while asking whether the whole thing works.

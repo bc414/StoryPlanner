@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The order of events: the model had the Las Pegasus cleansing happen before the Appleloosa town hall, so Gilded Trust would speak as the Liberator. The user says the town hall comes first | I was imagining the town hall happens before the flushing out of Las Pegasus | Stated flatly as what the user had in mind, with no apology and no reason given
+  - reading of the plan | The model had the protagonists taking part in and watching the operation (Fluttershy directing intelligence, Applejack seeing Gilded Trust at work). The user says Gilded Trust does it while the protagonists are elsewhere and only reports reach them | We hear reports of Gilded Trust cleansing the city ... while the protagonists move on | Put in passing as the user lays out the intended sequence, and the correction is left implicit
+- about: The user restates the intended order of events, with the town hall first and the Las Pegasus cleanup happening offstage while the protagonists head to the jungle and to Tall Tale, which undoes the sequence the model's analysis relied on.

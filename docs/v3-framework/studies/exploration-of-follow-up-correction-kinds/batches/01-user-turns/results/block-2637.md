@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to propose new mappings of changeling hive languages to real-world languages and dialects (Mandarin, Japanese, Shanghainese/Wu, Korean, Teochew), which adds material and does not correct the model's preceding turn.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the placement answer to ask a new question about what the earlier Encirclement chapter holds and whether the Luna "tried world peace" beat, which they originally put in Stagnation, belongs there or in Encirclement.

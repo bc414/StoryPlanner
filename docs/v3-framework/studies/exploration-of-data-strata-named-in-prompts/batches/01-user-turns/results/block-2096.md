@@ -1,0 +1,5 @@
+- sources:
+  - this entire conversation | draw on all of it as the basis for the report of final insights | all final insights from this entire conversation | referred-to
+  - transcripts of compacted data | include in the report; treat as part of the material to draw insights from, not to be left out | including all transcripts of compacted data | referred-to
+- order:
+- about: The user asks the model to write a thorough markdown report of the final insights from the whole conversation, compacted transcripts included, to carry forward into the story plan or game design.

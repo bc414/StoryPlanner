@@ -1,0 +1,8 @@
+- asks:
+  - explain | asks whether/how the Claude consumer app truncates or applies retrieval (RAG) on a large pasted document before reaching its full context window, mirroring the Gemini consumer-app behavior just described | "What about in the Claude consumer app?"
+- supplies:
+  - observation | a comparison of two Gemini surfaces: AI Studio using the full 1M-token window with a visible token count (490k) versus the Gemini consumer app throwing a 'file may be too large' warning well before that limit, which the user reads as a sign of RAG/truncation, both triggered by pasting the same story bible | a short paragraph
+- shaping:
+  - parallel explanation | wants the distinction between full-context handling and truncation/RAG behavior clarified for Claude's consumer app the same way it was just laid out for Gemini's two surfaces | "I want to understand the distinctions"
+- openness: Open: the message states no expected answer for Claude and simply asks the model to explain what happens there, using the Gemini AI-Studio-vs-consumer-app contrast as the frame.
+- subject: How different AI app surfaces (AI Studio vs. consumer apps, Gemini vs. Claude) handle context window limits and large pasted documents like a story bible

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Celestia's stance toward Applejack: the model had her already agreeing with Applejack, so that Applejack is shadowboxing and Celestia is off the board as an opponent. The user says Celestia is still wary of Applejack and wants to keep her from becoming a monster, citing the Canterlot paradrop and Vanhoover. | Her goal is to prevent Applejack from turning into a monster... Applejack showed too many signs | Flat restatement of the character's established motive, given as background to the adaptation question. It is not framed as a rebuke and the model is not named.
+- about: The user asks the model to work out how the election arc must change now that Celestia is a tired, realistic figure who wants to retire and who quietly guards against Applejack's wartime ruthlessness, and along the way sets out her motives more exactly than the model's praise had them.

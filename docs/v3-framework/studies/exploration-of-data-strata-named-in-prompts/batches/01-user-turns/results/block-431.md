@@ -1,0 +1,4 @@
+- sources:
+  - the show writers' choice of the name Chrysalis (the published show) | the model is asked to explain from what it knows of the show's production why the character was named Chrysalis; a question, not a ruling | Why did the show writers name her Chrysalis? | first-named
+- order:
+- about: The user asks the model to work out when in Chrysalis's in-story timeline (Acornage, arrival in Skyfall in 970, the linguists in 981) she would have become attached to her name and learned it means doll in Herzlander, and why she would refuse to change it, then asks why the show's writers chose the name.

@@ -1,0 +1,37 @@
+- passages:
+  - note 3978 | definitional voice | states 'means'/'is interpreted as' about an abstract term | defining naive kindness | apart
+  - note 3978 | show-illustrative voice | names a specific character and show trait | linking naive kindness to Fluttershy | apart
+  - note 3979 | definitional voice | 'Grace means...', a clipped fragment follows | defining grace | apart
+  - note 3979 | show-illustrative voice | names specific episodes and character actions | breezies episode and Dragonshy examples | apart
+  - note 3979 | definitional voice | restates 'Being graceful means...' | restating the definition | apart
+  - note 3980 | thesis-equation voice | short equation-like claim with parenthetical in-universe term | equating war's suspension of kindness with dehumanization | apart
+  - note 3981 | definitional voice | 'Tribalism refers to...' | defining tribalism | run-in
+  - note 3981 | first-person hypothetical voice | dash-joined shift to 'I' pronoun | illustrating tribalism from inside a speaker | run-in
+  - note 3981 | definitional voice | 'It's an us vs. them mentality' | further defining tribalism | run-in
+  - note 3981 | real-world evaluative aside | parenthetical remark on prevalence today | linking concept to the real world | run-in
+  - note 3981 | first-person hypothetical voice | new sentence, 'I am kind to US...' with capitalized emphasis | illustrating selective kindness | apart
+  - note 3981 | definitional voice | 'It drives wedge issues...' | consequence of tribalism | run-in
+  - note 3981 | quoted illustrative speech | quoted phrase in parentheses | example wedge-issue statement | run-in
+  - note 4004 | definitional voice | 'Tribalism leads to "dehumanization"...' | defining dehumanization | run-in
+  - note 4004 | quoted illustrative speech | quoted lines in parentheses | example dehumanizing statement | run-in
+  - note 4004 | definitional voice | 'Grace means treating your enemies...' | defining grace | apart
+  - note 4004 | show-illustrative voice | 'This fits Fluttershy really well...' | linking grace to Fluttershy | apart
+  - note 4004 | parenthetical exclamatory aside | parenthetical sentence ending in exclamation point | enthusiastic praise of Fluttershy's arc | apart
+  - note 5450 | list voice | three unpunctuated line-separated statements | friendship, Fluttershy's caretaking role, and the Stare's purpose | apart
+  - note 5801 | contrastive analytic voice | two parallel sentences contrasting 'naive kindness' and 'Grace' | whether an enemy is assumed to have a conscience | apart
+- shifts:
+  - note 3978 | definitional voice | show-illustrative voice | shift from abstract term to naming a specific character
+  - note 3979 | definitional voice | show-illustrative voice | shift to naming specific episodes and characters
+  - note 3979 | show-illustrative voice | definitional voice | return to abstract 'means' statement
+  - note 3981 | definitional voice | first-person hypothetical voice | dash mid-sentence and shift to 'I' pronoun
+  - note 3981 | first-person hypothetical voice | definitional voice | new sentence returning to third-person 'It's'
+  - note 3981 | definitional voice | real-world evaluative aside | parenthetical remark on real-world prevalence
+  - note 3981 | real-world evaluative aside | first-person hypothetical voice | new sentence returning to 'I' pronoun
+  - note 3981 | first-person hypothetical voice | definitional voice | new sentence, 'It drives wedge issues...'
+  - note 3981 | definitional voice | quoted illustrative speech | parenthetical quoted phrase
+  - note 4004 | definitional voice | quoted illustrative speech | parenthetical quoted dialogue mid-sentence
+  - note 4004 | quoted illustrative speech | definitional voice | new sentence, 'Grace means...'
+  - note 4004 | definitional voice | show-illustrative voice | shift to naming Fluttershy specifically
+  - note 4004 | show-illustrative voice | parenthetical exclamatory aside | parenthetical sentence with exclamation point
+- registers: definitional voice; show-illustrative voice; first-person hypothetical voice; real-world evaluative aside; quoted illustrative speech; parenthetical exclamatory aside; thesis-equation voice; list voice; contrastive analytic voice
+- whole: These notes move through several registers — abstract definitional statements repeatedly opening onto show-illustrative examples, with parenthetical asides, quoted example phrases, and first-person hypothetical lines often folded into the same sentence without a break, while two notes (3980, 5801) each hold to a single steady register throughout.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the timeline discussion to a new task, asking how to ground the referendum's starting polling numbers in real-world belief distributions and how to handle mandatory voting or non-votes, while restating plot context without disputing anything the model said.

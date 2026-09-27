@@ -1,0 +1,22 @@
+- steps:
+  - author | request analysis | asks for a breakdown of Chrysalis's characterization and motivation evolution across the story plans | opening request
+  - model | deliver analysis | phased 'build' breakdown of Chrysalis using a system-architecture/software metaphor | first response
+  - author | repeat request | asks for the same analysis again with 'analysis' swapped for 'breakdown' | second prompt
+  - model | deliver reformatted analysis | same character-evolution content restructured as a JSON schema | second response
+  - author | repeat request with style constraint | asks again for the same analysis, specifying it be answered like a conversation | third prompt
+  - model | deliver reformatted analysis | same content restructured again as narrative prose using build/patch metaphors | third response
+  - author | question model behavior | asks why programming metaphors are being used throughout | fourth prompt
+  - model | explain framing choice | states it is operating under an active coder persona for structural analysis | fourth response
+  - author | probe source of output | asks whether the analysis comes from personal or independent intelligence | fifth prompt
+  - model | clarify output's basis | states the output is compiled only from the story bible's own logic, not outside knowledge | fifth response
+  - author | issue correction | instructs the model to stop treating the story bible as a codebase and not carry the coder persona into other chats | sixth prompt
+  - model | confirm compliance | agrees to confine the persona to this session and default to normal assistant mode elsewhere | sixth response
+  - author | new topic request | asks for a breakdown of the evolution of the 'Stagnation of Harmony' concept | seventh prompt
+  - model | deliver primary analysis plus multiple alternate drafts | staged breakdown of the concept's development, followed by five differently formatted redundant versions, some still using coding metaphors | seventh response
+  - author | new topic request | asks how the author arrived at the 'Predator's Dilemma' concept | eighth prompt
+  - model | trace in-universe origin | describes the concept's derivation from a fictional in-story paper and its early narrative applications | eighth response
+  - author | request extension | asks to explore the concept's further development in later planning | ninth prompt
+  - model | deliver extended analysis | expanded breakdown of the concept's later applications across economics, magic system, and character arcs | ninth response
+- kept:
+- brought: none
+- loop: The author repeatedly asked the model to re-derive syntheses of already-established plan concepts (Chrysalis's arc, the Stagnation of Harmony, the Predator's Dilemma) in varying formats, and separately interrogated and corrected the model's persona and framing choices; none of these exchanges were captured into the planning database, making this stretch one of repeated analysis and process-correction rather than plan-building.

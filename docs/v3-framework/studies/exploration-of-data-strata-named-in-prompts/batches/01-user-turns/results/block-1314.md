@@ -1,0 +1,4 @@
+- sources:
+  - the Google doc | described as the plan or design behind the story, which the prose followed; offered as an explanation for why the prose came out telling, not as something to read or check | the Google doc was the plan or the design | referred-to
+- order:
+- about: The author reflects on the model's critique, accepting that conclusions must be demonstrated in third person limited, and explains that they stated conclusions in dialogue because they had no planner and the Google doc design led the prose to tell.

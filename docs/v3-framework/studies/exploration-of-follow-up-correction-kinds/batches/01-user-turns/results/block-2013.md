@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a first-pass Categorization Decisions document to iterate on, a new request that follows up on the model's suggestion without disputing anything in it.

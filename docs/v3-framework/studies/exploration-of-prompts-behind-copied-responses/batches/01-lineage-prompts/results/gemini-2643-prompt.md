@@ -1,0 +1,8 @@
+- asks:
+  - explain | what the described sleeping/cuddling position between Applejack and Twilight would accomplish (emotionally, narratively, symbolically) | "What would this accomplish?"
+  - compare | how this position compares to other cuddling positions used elsewhere in the story | "Compare to the others"
+- supplies:
+  - idea | a detailed physical description of a specific cuddling pose: Applejack on her back, Twilight lying face-down on top with head tucked under Applejack's chin against her chest floof, Applejack's forehooves on Twilight's back, Twilight's forehooves around Applejack's neck/back, a blanket over both, set the night after the second battle of Tall Tale in chapter 4 | a paragraph
+- shaping:
+- openness: open | it asks two open questions (what the pose accomplishes, and how it compares to unspecified 'others') without naming a preferred answer or listing the options to choose among
+- subject: the meaning and comparative effect of a specific cuddling pose between two pony characters after a battle in chapter 4 of the user's story

@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether a proposed split holds true: that "creative maverick" use cases are what drive general-audience virality while the other referenced use cases serve power users | "So is the creative maverick stuff... while these other use cases are for power users?"
+- supplies:
+- shaping:
+- openness: leans toward an answer it names — the message proposes a specific two-way split (viral/general-audience appeal for "creative maverick" use cases vs. "power user" appeal for the other use cases) and asks the model to confirm or elaborate on that framing.
+- subject: whether "creative maverick" use cases are the general-audience/viral draw versus other use cases being for power users

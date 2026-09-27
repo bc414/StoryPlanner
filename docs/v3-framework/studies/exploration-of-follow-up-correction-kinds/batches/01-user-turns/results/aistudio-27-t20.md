@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: overclaim that the draft was free of blinders | the model presented V9 as having no artificial limits, but the user points out that always-on directives still hold narrowing phrases, and that the fix only suits conditionally triggered lenses | what marks it: quoting three V9 phrases and asking if they are 'still going to be perceived as blindfolds', plus 'the other directives are always applied and therefore should be careful' | manner: put as pointed questions and a reasoned distinction between conditional and universal rules, inviting an objective answer and not stated as a flat rejection
+- about: The user probes whether V9 really removed the blinders, asking about open-ended lenses and whether the universal directives still narrow the AI, and proposes removing blinders or making them conditional.

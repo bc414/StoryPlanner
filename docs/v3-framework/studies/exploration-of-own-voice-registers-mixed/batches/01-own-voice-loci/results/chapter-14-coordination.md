@@ -1,0 +1,9 @@
+- passages:
+  - note 5477 | evaluative framing | present tense, abstract judgment 'actually have a practical use' | the sleep spells' hidden purpose | apart
+  - note 5477 | narrative plan-summary | named character, past tense 'planned', concrete plot detail | Twilight's plan for shift-swapping tank crews using sleep/wake spells instead of blitz-essenz | apart
+  - note 5477 | fragmentary rationale | sentence fragment on its own line, subordinating conjunction with no main clause | the reason more ponies than tanks make the shift plan needed | apart
+- shifts:
+  - note 5477 | evaluative framing | narrative plan-summary | shift from an abstract claim to a concrete plan tied to a named character and past-tense verb 'planned'
+  - note 5477 | narrative plan-summary | fragmentary rationale | line break followed by a sentence fragment beginning with 'Since' that has no main clause
+- registers: evaluative framing; narrative plan-summary; fragmentary rationale
+- whole: The single note moves through three distinct registers in sequence — an abstract evaluative claim, a concrete narrative summary of a character's plan, and a terse fragmentary justification — each set off from the next by a clear break rather than blending together.

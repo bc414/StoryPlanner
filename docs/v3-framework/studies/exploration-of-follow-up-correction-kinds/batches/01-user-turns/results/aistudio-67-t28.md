@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's analysis to a new request, asking for several ideas on how the Tzinacatl bat pony tribes and their jungle fit the revised pre-914 and post-914 ALB timeline, with their own tentative proposals and open questions, and asks that the ideas be checked against the world bible.

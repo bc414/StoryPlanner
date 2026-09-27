@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the council and coalition discussion to a new task, attaching a source fic and asking for a comparison of its Tzinacatl chapters (57-60) with their own planned material, without saying anything in the previous turn was wrong.

@@ -1,0 +1,59 @@
+- passages:
+  - 109 | worldbuilding exposition | "primative, animal like way", general present-tense mechanism | how love-starved changelings resort to biting to drain love | apart
+  - 110 | narrated action summary | sequential present-tense verbs "witnesses, stops, comforts, asks" | Fluttershy halting and comforting a changeling | apart
+  - 111 | character identification | terse "The attacher is...The victim...is" naming | naming Friedrich and Hans Kessel and their roles | apart
+  - 112 | narrated action summary | action verbs "gives...scolding...patting" | Fluttershy calming the changeling and calling for translation | apart
+  - 112 | editorial aside/gloss | parenthetical "(that's what the stare is all about)" | explaining what the Stare communicates | run-in
+  - 112 | script-style dialogue exchange | speaker tags "griffon asks/changeling says" | Q&A revealing hunger, rations, and inhibitor rings | apart
+  - 113 | script-style dialogue exchange | speaker tags "the griffon spat...Fluttershy admitted" | argument over calling changelings "bugs" | apart
+  - 114 | narrated action summary | indirect report "The POW explains that" | changelings starving and maddened by hate | apart
+  - 115 | script-style dialogue exchange | quoted phrases "extra condensed red love rations", "suicidal" | debating whether to give love rations | apart
+  - 115 | narrated action summary | clinical closing line | doctor confirming substance-addiction symptoms | apart
+  - 116 | script-style dialogue exchange | speaker tags, negotiated terms | working out smaller rations and the changeling's gratitude | apart
+  - 116 | sensory figurative narration | simile "prick in her soul like a bug bite" | Fluttershy's felt sensation during the donation | run-in
+  - 116 | script-style dialogue exchange | resumed speech tags "says" | instructions to apologize and share | apart
+  - 117 | script-style dialogue exchange | self-correcting parenthetical "(everyling?)" | promising rations and telling him to share | apart
+  - 118 | script-style dialogue exchange | first-person Q&A "How can you tell them apart?" | Fluttershy's method of telling changelings apart | apart
+  - 118 | worldbuilding exposition | third-person general claim "Griffons and ponies see all the changelings as the same" | why griffons/ponies perceive changelings as uniform | apart
+  - 119 | worldbuilding exposition | dossier-style "The Draftees:...complex emotion" | defining the limited vocabulary of draftee changelings | apart
+  - 119 | author's planning query | rhetorical questions "What if...Can this define" | questioning how the language gap affects the scene | apart
+  - 119 | worldbuilding exposition | declarative redefinition "These should be draftees" | resetting the draftees' background | apart
+  - 121 | narrated action summary | past-tense report with embedded quote "it's delicious" | Fluttershy allowing a donation bite | apart
+  - 123 | author's planning query | direct questions "Do I frame it as...Right away, or later?" | deciding starving vs. addiction framing | apart
+  - 2264 | narrated action summary | "completely stunned and unresponsive...laughs it off" | Henri's reaction to the Stare and Fluttershy's explanation | apart
+  - 2264 | editorial aside/gloss | bracketed imperative "(check dialogue from Stare Master)" | reminder to verify source dialogue | run-in
+  - 2265 | expository reveal frame | meta-framing "We learn that" | explaining Henri's bilingual background | apart
+  - 2266 | narrated action summary | indirect report "Henri remarks that" | Henri's observation on the changelings' simple speech | apart
+  - 2266 | editorial aside/gloss | parenthetical "(simplified Herzlander as a second language)" | clarifying the reason for the remark | run-in
+  - 2267 | narrated action summary | blunt continuation "And they are parasites" | further blunt assertion about changelings | apart
+  - 2268 | narrated action summary | figurative "unravels the curtain" | Friedrich revealing conscript backstory | apart
+  - 2269 | worldbuilding exposition | "helped Star Energy make inhibitor rings...Right Hoof" | Fizzlepop's role in the rings' creation | apart
+  - 2269 | editorial aside/gloss | parenthetical "(somehow)" | flagging an unresolved mechanism | run-in
+  - 2270 | author's planning query | speculative modal "must've learned" | guessing the source of Fizzlepop's ring-knowledge | apart
+  - 2271 | narrated action summary | embedded quotes "trembling coward"..."trauma" | Minette reacting to a mistranslation of her name | apart
+  - 2271 | editorial aside/gloss | parenthetical "(kitty)" | clarifying the pet reference | run-in
+  - 2806 | narrated action summary | plain declarative | Fluttershy's introduction to emotion sense | apart
+  - 2807 | worldbuilding exposition | conditional generalizations "they can still absorb that" | mechanics of biting vs. spell-draining | apart
+  - 2808 | author's planning query | stacked questions "They could also...A mix is required?" | questioning changeling dietary needs | apart
+  - 2808 | worldbuilding exposition | declarative resolution "Either way, they are biting each other" | settling on addiction/withdrawal as the cause | apart
+  - 2809 | author's planning query | self-correction "Must refine...I guess" | working out donation rules and the changeling's wish to be free | apart
+  - 3646 | expository reveal frame | meta-framing "It's revealed that" | conscripts as addicts capable of change | apart
+  - 3647 | worldbuilding exposition | plain declarative setup | camp POWs stabilized by mild drugs and kindness | apart
+- shifts:
+  - 112 | narrated action summary | editorial aside/gloss | parenthetical generalizing comment on the Stare
+  - 112 | editorial aside/gloss | narrated action summary | resumed action description "Fluttershy then stops scolding"
+  - 112 | narrated action summary | script-style dialogue exchange | speaker-tagged Q&A turns and colloquial insult "ungrateful pig"
+  - 115 | script-style dialogue exchange | narrated action summary | move from quoted exchange to indirect clinical statement
+  - 116 | script-style dialogue exchange | sensory figurative narration | simile and interior sensation replacing speech tags
+  - 116 | sensory figurative narration | script-style dialogue exchange | return of speech tag "the changeling says"
+  - 118 | script-style dialogue exchange | worldbuilding exposition | shift from first-person answer to third-person general claim
+  - 119 | worldbuilding exposition | author's planning query | rhetorical questions "What if...Can this"
+  - 119 | author's planning query | worldbuilding exposition | return to declarative definition "These should be"
+  - 2264 | narrated action summary | editorial aside/gloss | bracketed imperative reminder
+  - 2264 | editorial aside/gloss | narrated action summary | resumed clause "and Henri laughs it off"
+  - 2266 | narrated action summary | editorial aside/gloss | parenthetical reasoning clause
+  - 2269 | worldbuilding exposition | editorial aside/gloss | parenthetical uncertainty "(somehow)"
+  - 2271 | narrated action summary | editorial aside/gloss | parenthetical clarification "(kitty)"
+  - 2808 | author's planning query | worldbuilding exposition | declarative resolution "Either way,"
+- registers: worldbuilding exposition; narrated action summary; character identification; script-style dialogue exchange; editorial aside/gloss; author's planning query; expository reveal frame; sensory figurative narration
+- whole: This place holds several distinct registers — flowing scene narration, script-like dialogue exchanges, terse character identification, general worldbuilding exposition, meta "we learn/it's revealed" framing, and first-person planning queries — which mostly stand apart as separate stretches, with only small parenthetical asides or glosses running into the same sentence as the passage they comment on.

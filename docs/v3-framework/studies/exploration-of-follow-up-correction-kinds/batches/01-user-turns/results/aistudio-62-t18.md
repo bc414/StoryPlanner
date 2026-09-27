@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to the next beat of Blueblood's pre-war arc and supplies new worldbuilding: Luna as Field Marshal, the Friendship Shields, her hold-the-line doctrine, its collapse under Stukas and tanks, and Blueblood taking over the Northern Army, without reacting to the Rarity analysis.

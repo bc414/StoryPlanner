@@ -1,0 +1,7 @@
+- sources:
+  - the author's intended 2020 mapping, Biden's fragile election as Celestia coming back | authoritative correction of the model's earlier reading of 2020; use this as the intended meaning | I meant 2020 as in Biden's fragile election as Celestia coming back | referred-to
+  - the pandemic era paradigms (the model's earlier reading of 2020) | acceptable as an additional reading, secondary to the author's intended one | but the pandemic era paradigms work too | referred-to
+  - the siege of Mount Sinjar in 2014 and the 2008 recession | real-world inspiration for the Battle of Mount Aris, which the author says reads as the 2008 recession in the economic allegory | inspired by the siege of Mount Sinjar in real life in 2014 | first-named
+  - the model's earlier statement that Aquileia adds the institutions to Equestria | treat as wrong and replace: the Griffonian Republic adds the institutions, and Aquileia is the professional lens on asset specificity, poseurs and the extractive system | to be more precise, The Griffonian Republic adds the institutions to Equestria, not Aquileia | referred-to
+- order:
+- about: The author corrects the model's reading of their story's timeline and factional roles, and adds the real-world inspirations behind the Battle of Mount Aris.

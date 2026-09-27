@@ -1,0 +1,4 @@
+- sources:
+  - history from prompt 1 (the prompt question, the chapter text, the model's output) | the user asks which of these parts of the earlier exchange are carried into the history sent with prompt 2; no instruction to trust or rank it, only a question about what it contains | which of the following from prompt 1 are included in the history | referred-to
+- order:
+- about: The user asks a follow-up question about how chat history works, namely whether the first prompt's question, chapter text and model output are all included in the history when the second prompt is sent.

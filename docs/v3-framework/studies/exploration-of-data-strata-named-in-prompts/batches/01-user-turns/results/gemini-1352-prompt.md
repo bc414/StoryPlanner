@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how Chrysalis's Liberation-of-the-Nursery conviction deepens after Olenia's surrender in 1008, supplying their own details about the deer's subjugation and floating a tentative idea that the victory moved her from personal vendetta to institutional, international ambition.

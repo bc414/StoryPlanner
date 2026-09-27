@@ -1,0 +1,6 @@
+- asks:
+  - extend/redirect | asks the model to address whatever topic was just under discussion, but this time as it applies to C# | "What about with c#?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open; it names only "C#" as the pivot point and gives no further detail on what aspect of the prior topic should be reconsidered for it.
+- subject: Redirecting an unspecified prior topic to the C# language

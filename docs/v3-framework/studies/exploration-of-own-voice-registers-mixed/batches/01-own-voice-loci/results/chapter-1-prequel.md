@@ -1,0 +1,9 @@
+- passages:
+  - note 4 | expository-description | third-person, 'This chapter is...', states placement and scope | the chapter's role as a post-story short story covering the Mane 6's divergence from canon | apart
+  - note 5 | first-person-intention | 'I will write this out first so that I understand...', states a purpose for the writing itself | why the author is writing this chapter before the main story, to ground Twilight and Applejack's voices | apart
+  - note 6 | expository-description | third-person, 'This short story demonstrates...', names a three-part arc | the shattering, adapting, and re-shattering of the nursery across the story and into TLTT | apart
+  - note 6 | parallel-character-summary | each sentence opens with a character's name and follows 'comes out as/with... but still...' | the differing post-war states of Applejack, Twilight, and Rainbow Dash | apart
+- shifts:
+  - note 6 | expository-description | parallel-character-summary | shift from a single sentence naming the story's overall arc to a run of parallel, name-led sentences each cataloguing one character's outcome, set off by a line break
+- registers: expository-description; first-person-intention; parallel-character-summary
+- whole: This place holds its notes in several registers — an expository description of the story's shape, a first-person statement of writing purpose, and a parallel character-by-character summary — and each sits apart from the others with a clear break, never blending within a single sentence.

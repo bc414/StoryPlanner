@@ -1,0 +1,13 @@
+- asks:
+  - decide | whether Applejack should accompany Twilight on the Mount Aris rescue, or go alone | "Should AJ accompany her during this? She would go with a friend or not?"
+  - analyze | how AJ's presence or absence at this scene affects the later estrangement-and-reconnection beat at Tall Tale, and whether the scene should function as its catalyst | "how does it impact their estrangedment and reconnection at Tall Tale, or is this a catalyst?"
+  - evaluate | whether having AJ witness Twilight's disillusionment here would remove narrative suspense later | "If AJ sees how this even disillusioned Twilight it removes suspense"
+  - evaluate | an alternative staging where AJ hears Twilight's 'magic of friendship' speech to Celestia but is absent for the berating, and whether this explains AJ's later naivety | "maybe AJ was there for the magic of friendship but not for the celestia berating"
+  - check | whether this staging choice damages or undercuts AJ's imposter-syndrome arc earlier in the story | "Does this hurt her imposter syndrome arc early on?"
+  - reconcile | how to make AJ's naivety in a later chapter (1011) consistent with Twilight already having lost her naivety since an earlier chapter (1006), given the school/Storm King plot they both lived through | "I just can't see Applejack being super naive in 1011 if Twilight has not been naive since 1006... they can't be oblivious"
+- supplies:
+  - attached document | an unspecified planning document tied to the Mount Aris arc, referenced but never captured | file placeholder only, content unknown
+  - plot revision sketch | a proposed revised sequence for the Mount Aris defense: the shield the night before, Fizzlepop's 'open your eyes' line, the decimation, Twilight returning for Fizzlepop, the friendship speech to Celestia, Celestia's berating, and the school's closing | a short paragraph
+- shaping:
+- openness: The message poses a cluster of open questions and floats one possible alternative staging (AJ present for the speech but not the berating) without committing to it, so it leans toward considering that option while leaving the actual choice and its consistency implications open for analysis.
+- subject: Whether and how Applejack witnesses Twilight's Mount Aris ordeal, and reconciling the resulting timeline of AJ's naivety with Twilight's already-lost naivety and the school/Storm King backstory

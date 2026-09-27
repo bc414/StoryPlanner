@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Conscience-as-final-element thesis as a given and builds on it, proposing where and how Twilight reveals the sixth element (the Dilemma epiphany, the Equity pitch to Celestia, the misdirection about Celestia and the Stagnation, and the referendum reveal) and asking for a thorough review of that addition.

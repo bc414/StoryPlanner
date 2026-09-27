@@ -1,0 +1,7 @@
+- asks:
+  - propose/assert | states a scheme assigning historical robber-baron traits to specific characters, implicitly inviting the model's reaction or continuation | declarative 'I think' framing with no explicit question or instruction
+- supplies:
+  - idea | a trait mapping: Applejack's parents get Rockefeller's standardization, Comet Shine gets Carnegie's innovation, a character called Rockefeller gets both men's bad traits (monopoly, violent union busting, secret deals) | a few lines
+- shaping:
+- openness: Asks the model to check/react to what it already states, since it asserts the trait mapping as a settled idea ('I think...') rather than posing a question or offering options.
+- subject: Assigning historical robber-baron (Rockefeller/Carnegie) traits to characters in a story's world

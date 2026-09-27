@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the drafted Chapter 19 scene to ask a new question about how to explain Luna leaving Tall Tale behind in chapter 3 in light of the new backstory, without saying anything in the draft was wrong.

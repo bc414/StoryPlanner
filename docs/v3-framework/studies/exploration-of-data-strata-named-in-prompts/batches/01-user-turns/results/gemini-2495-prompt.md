@@ -1,0 +1,9 @@
+- sources:
+  - School Daze part 1 and 2 (the Season 8 opener) | the user's own viewing impression, offered as the high point: it already resolved the season's moral and was a real rejection of corporate mandate, with the Mane 6 teaching their own way; the model is to take this reading as the basis for discussion | When I watched School Daze part 1 and 2, it felt like the entire season's moral was already solved and self contained within that opener | referred-to
+  - the rest of Season 8 | the user judges it a sham, since teaching friendship in a school does not work as a premise; treated as inferior to the opener and to the original themes | Then the rest of Season 8 was a sham because the premise of teaching friendship in a school just did not work at all | referred-to
+  - the original themes (of the show) | the standard the school premise is measured against and found lacking | compared to the original themes | referred-to
+  - Season 8 writers (Josh Haber) and their contractor status | the user's own hypothesis, put as a question for the model to confirm or refine: that the EEA was the writers' satire of Hasbro executives that went over the execs' heads | is the EEA actually the season 8 writers' (Josh Haber) satire of their own overlords? | referred-to
+- order:
+  - the original themes | over the school-based Season 8 premise | compared to the original themes
+  - School Daze part 1 and 2 | over the rest of Season 8, whose moral it had already resolved | the entire season's moral was already solved and self contained within that opener
+- about: The user proposes that the EEA was the Season 8 writers' hidden satire of their Hasbro overlords and backs it with their own reading of School Daze as a self-contained rejection of corporate mandate, followed by a Season 8 that they judge hollow next to the original themes.

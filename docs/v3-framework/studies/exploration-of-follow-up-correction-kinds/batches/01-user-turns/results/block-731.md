@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the id-based, navigation-free design and asks a follow-up about how newly created entities should get an Id before EF Core saves them, either by saving immediately or by assigning the next highest Id.

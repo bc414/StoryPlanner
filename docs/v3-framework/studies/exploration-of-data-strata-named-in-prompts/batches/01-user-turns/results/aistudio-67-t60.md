@@ -1,0 +1,5 @@
+- sources:
+  - the fact that most of Equestria asked Celestia to enact the policies of the stagnation of harmony | treat as settled story premise; the model is to work out its effect on themes, arcs and delivery | "most of Equestria asked Celestia to enact the policies" | referred-to
+  - the Stagnation chapter where she says the ponies sent her petitions to close the country | treat as the planned point of reveal, before which the characters are to be read as blaming Celestia; used as the fixed point for judging when their frustration should shift | "up until the Stagnation chapter where she says the ponies sent her petitions" | referred-to
+- order:
+- about: The user asks the model to work out how the planned fact that the ponies themselves petitioned Celestia for the stagnation affects the story's themes, character arcs and delivery, and whether the main characters should keep blaming her until the chapter that reveals it.

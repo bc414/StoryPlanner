@@ -1,0 +1,4 @@
+- sources:
+  - this additional context | the material to analyze and draw implications for Chrysalis's story from, and to use in judging what further information is missing | Give an analysis on this additional context | first-named
+- order:
+- about: The user asks the model to analyze newly supplied context for what it means for Chrysalis's story and to list the further context it would need to be more precise.

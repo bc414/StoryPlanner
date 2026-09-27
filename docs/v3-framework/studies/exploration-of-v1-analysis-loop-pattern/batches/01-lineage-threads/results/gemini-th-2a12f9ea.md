@@ -1,0 +1,19 @@
+- steps:
+  - the author | delivers a worldbuilding brief | introduces a new rival character, lays out Las Pegasus's fiat-loan/blockade economics, the Olenia collaborator-vs-resistance contrast, and the town-hall plot beat | at the opening of the exchange
+  - the model | produces a thematic analysis | reframes the brief into named structures (a political-economy trap, a foil comparison, an ideological triangle, a democratic-stakes reading of the town hall, an irony about the workers' anti-union culture), and drafts short pitch-style lines for the rival characters | in its single reply
+- kept:
+  - note 1493 | the author's own words in this record | keeps the author's town-hall framing, rendered as Applejack's declared rules, filed to the plot point for that scene
+  - note 2718 | the author's own words in this record | keeps the description of the new character's nativist ideology, filed to a link between the oil-reserves plot and the character
+  - note 2719 | the author's own words in this record | keeps the note on coordination with the other tycoon and how the rival's stance alienates Applejack, filed to the same character link
+  - note 3306 | the author's own words in this record | keeps the description of Las Pegasus's no-union, bootstraps culture, filed to a link between the oil-reserves plot and the trade-federation entity
+  - note 3308 | the author's own words in this record | keeps the mechanics of the Skyfall loan/gold-drain scheme, filed to a link between the oil plot and Chrysalis's economic scheme
+  - note 3309 | the author's own words in this record | keeps the blockade's effect of incentivizing tycoon sabotage, filed to the same economic-scheme link
+  - note 3830 | the author's own words in this record | keeps the Olenia collaborator/resistance contrast explaining tycoon motives, filed to a link between Rockfeller's arrest and Chrysalis's true motives
+  - note 88 | pasted whole from this reply | keeps the model's stakeholder-capitalism pitch line, filed to the plot point where the rival duo explain their oil-fields plan
+  - note 91 | pasted whole from this reply | keeps the model's barn-raising analogy for the same plan, filed to the same plot point
+  - note 1019 | pasted from this reply inside the author's own framing | keeps the model's line about workers identifying with the boss, folded into the author's own added material on grieving ponies, filed to the polling-results plot point
+  - note 1597 | pasted whole from this reply | keeps the model's line framing the nativist rival as a bordered-greed patriot, filed to the plot point of his pitch to the workers
+  - note 1598 | pasted from this reply inside the author's own framing | keeps the model's comprador framing and drafted pitch quote, folded into the author's framing, filed to the same pitch plot point
+  - note 2624 | one sentence lifted from this reply | keeps a single line on Applejack asserting leadership and resource sovereignty, filed to a link between the town-hall-rules plot point and Applejack
+- brought: The author brought forward an already-established piece of lore, the harmonic-capitalism/Aquileian-way model from Tall Tale, to reuse it as the basis for one side's pitch in the new town-hall scene.
+- loop: The author brought a dense economic-and-character brief plus a plot beat needing a resolution, the model returned it as named analytic frames and drafted pitch lines, and the plan kept both sides piecemeal: the author's own explanatory sentences were filed as-is into character and faction links, while the model's synthesized phrases and drafted dialogue were pasted into the specific plot points for the pitches, the polling results, and Applejack's declared rules.

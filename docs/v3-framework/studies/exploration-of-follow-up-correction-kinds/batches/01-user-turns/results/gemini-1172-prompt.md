@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's mapping cast the Medicine Tribes as the only source of the natural rubber that war machinery needs, making the jungle an economic necessity for Chrysalis. The user says other tropical plantation regions in the world already sell rubber to Skyfall, and petroleum can be blended in, so the tribes are not required. | There are other tropical regions in EaW that do the plantation method... so chrysalis's shell company isn't an economic necessity | Flat statement of how the world works, given as a premise for the user's own plot logic. There is no explicit disagreement wording, and the correction is carried by the reasoning that follows.
+- about: The user sets out the world's rubber supply, with other plantation regions selling to Skyfall, and uses it to recast Chrysalis's shell-company scheme as a deliberate power play. It is not a supply necessity, and the desperate tribes are its willing instruments.

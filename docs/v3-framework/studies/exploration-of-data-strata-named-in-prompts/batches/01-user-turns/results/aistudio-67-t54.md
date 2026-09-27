@@ -1,0 +1,4 @@
+- sources:
+  - China's real history (advanced relative to medieval Europe, fell behind, British opium and extractive industry) as the user sketches it | treat as a candidate allegory to be tested against the story, as a proposal to compare rather than something settled | Would China be a proper allegory? | first-named
+- order:
+- about: The user proposes real-world China, described from their own summary of its history, as a possible allegory for the story's setting and asks for a comparative analysis and insights.

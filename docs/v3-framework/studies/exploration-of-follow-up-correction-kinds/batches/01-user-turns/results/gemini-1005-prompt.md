@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's picture of Herzland and the wider world as swarming with insects and pests because no winter kills them back, which the user wants dialed back since manufactured weather should mean fewer natural microbe and insect processes | I think micro insects and microbes need to be dialed back in my world | stated as the user's own design decision with a short reason attached, softened with 'I think', and folded in after new questions rather than flagged as an error
+- about: The user asks for more implications for Herzland and Aquileia and for real-world places with constant temperature, while adjusting the world so insects and microbes are reduced because the weather is manufactured, which cuts against the model's pest-heavy premise.

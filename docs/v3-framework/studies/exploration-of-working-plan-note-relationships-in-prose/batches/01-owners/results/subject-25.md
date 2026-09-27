@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 194 | the medicinal tribe she came from, a people described elsewhere in the plan | She came from the medicinal tribe
+  - 194 | the Foyer de la Jeunesse d'Avant Garde, a place held elsewhere | works at the Foyer de la Jeunesse d'Avant Garde
+  - 193 | the legend of the Princess of the Night, a piece of lore held elsewhere | living up to the legend of the Princess of the Night
+- whole: ["Separate entries: one gives her origin and workplace and the other her self-image, and neither's words bear on the other."][0]

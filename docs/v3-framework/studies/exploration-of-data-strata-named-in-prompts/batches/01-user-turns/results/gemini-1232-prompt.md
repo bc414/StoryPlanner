@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes an in-story strategy for Discret, using the stolen imperial fleet to rival Skyfall's shipping and insurance and to stop its privateering, and asks whether it would follow, without pointing the model at any body of material.

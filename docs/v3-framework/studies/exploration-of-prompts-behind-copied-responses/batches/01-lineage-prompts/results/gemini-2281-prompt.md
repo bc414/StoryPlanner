@@ -1,0 +1,9 @@
+- asks:
+  - explain/choose | asks whether it is the engine's weight or the fuel's weight that reduces the weight-to-thrust ratio | "Is it the weight of the engine or the weight of the fuel that decreases the weight to thrust ratio?"
+  - check/verify | asks whether caseless ammunition actually exists today or whether brass casings around gunpowder are still required | "Does caseless ammo exist in real life now or we still need brass around gunpowder?"
+  - explain | asks what makes brass a special or suitable material (implicitly, for cartridge cases) | "What is special about brass?"
+- supplies:
+  - idea/reasoning | the user's own thought that magic-storing crystals could be valued for holding potential energy (magic) at low weight, and that diamonds/inert crystals could serve as lighter-than-tungsten-or-lead armor-piercing munitions | a couple of sentences
+- shaping:
+- openness: The message poses three separate factual questions: one offers a choice between two named options (engine weight vs. fuel weight), one asks the model to check/confirm a stated real-world fact (caseless ammo existing vs. brass being necessary), and one leaves the answer fully open (what is special about brass).
+- subject: Physics of thrust-to-weight ratio, and real-world ammunition technology (caseless ammo, brass cartridges) in relation to a fictional magic-crystal/armor-munition worldbuilding idea

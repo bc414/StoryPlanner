@@ -1,0 +1,7 @@
+- sources:
+  - most EaW stories | the genre's common grimdark fascist radicalization of Rainbow Dash is something to steer away from, not follow; the author wants their version to differ | prevelant in most EaW stories | referred-to
+  - the Aquileian aces calling the enemy poseurs (the model's preceding analysis) | treat as a strong, likely sufficient explanation for Rainbow Dash's Atlas complex, adopted tentatively while the author checks it | seems to be a very strong explanation | referred-to
+  - crack lightning's animal rhetoric | provisional element of the plan that the author questions and may drop if the poseur rhetoric does the job | do I even need crack lightning's animal rhetoric anymore | referred-to
+  - my distinct theme of honesty vs poseurs | the author's own established theme that the plot should be built around and that replaces the fascist-radicalization route | replaces it with my distinct theme | referred-to
+- order:
+- about: The user asks whether Crack Lightning's dehumanizing rhetoric is still needed, proposing that the Aquileian poseur rhetoric and the ego-versus-loyalty misreading can drive Rainbow Dash's Atlas complex without the fascist radicalization common in EaW stories.

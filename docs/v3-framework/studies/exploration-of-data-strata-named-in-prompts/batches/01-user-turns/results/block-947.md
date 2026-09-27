@@ -1,0 +1,5 @@
+- sources:
+  - the debate plan (high stakes, hilarious, cathartic, but barely moves the needle, with effects built into the post-debate sequence; state-level implementation does the real moving) | the author's stated design for the debate; the model is to assess how it holds together, treating it as the plan being tested rather than something to overturn | The debate is planned to be a high stakes, hilarious and carthartic sequence | first-named
+  - my own story design about needing to roar | the author's existing design principle, used as the standard to check the debate plan against for contradiction; the author offers a possible reconciliation (roar protects her progress from credit-taking and works only on some of the conned) | Am I contradicting my own story design about needing to roar? | referred-to
+- order:
+- about: The author lays out a planned low-impact debate sequence, with state-level implementation as the real driver of change, and asks the model to check it against their earlier design that Applejack needs to roar, offering a possible reconciliation.

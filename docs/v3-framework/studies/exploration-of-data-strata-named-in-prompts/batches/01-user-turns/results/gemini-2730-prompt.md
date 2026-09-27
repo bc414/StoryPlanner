@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the character Fluttershy would argue for harm reduction over prohibition in the story, and what purpose, theme and core meaning that would carry, without pointing the model at any body of material.

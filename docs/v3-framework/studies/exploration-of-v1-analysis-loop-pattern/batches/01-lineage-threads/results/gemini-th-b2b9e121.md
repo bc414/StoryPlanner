@@ -1,0 +1,28 @@
+- steps:
+  - author | brings plan and reframing | planning document alignment; recasts AJ's argument from 'monster' to 'poseur' citing Henri; sketches three viewpoints and Twilight's backstory | opening prompt
+  - model | thematic analysis | breaks down the poseur argument, the dreamscape clash of views, Twilight's logistics rebellion, and a link to the epilogue payoff | first response
+  - author | clarifying question | asks whether 'poseur' means the enemy can't be negotiated with or can be cowed by strength; asks for a review of Twilight's violent defiance | second prompt
+  - model | analysis | answers 'cowed by strength', expands the psychology of the poseur and the danger of an insecure fraud, restates Twilight's rebellion logic | second response
+  - author | adds correction/detail | notes changelings have real tanks; introduces a free-spirit-vs-feudal-hierarchy bet and a 2nd-battle proof via air superiority and officer strikes | third prompt
+  - model | analysis | develops a feudal-cosplay doctrine, the lord/serf structural flaw, a decapitation tactic, and ties it to the 2nd battle and Twilight's defection | third response
+  - author | poses branching question | asks whether AJ's defiance should be a strategy meeting or principle-driven, leaning to principle; sketches the machine-gun, burial, and rescue beats | fourth prompt
+  - model | recommendation and analysis | endorses principle over strategy, analyzes the rally as moral rather than tactical authority, and frames the machine gun as atonement leading to the rescue | fourth response
+  - author | request for draft content | asks for the contents of the hard-truth speech | fifth prompt
+  - model | speech draft | structures the tent speech into four rhetorical 'daggers' with their thematic function and the expulsion outcome | fifth response
+  - author | request for further draft content | asks for the contents of the rally speech to Tall Tale after expulsion, giving staging details of costume and sobriety | sixth prompt
+  - model | speech draft | structures the rally speech into sections on owning the rejection, the poseur deconstruction, the feedlot warning, and the star's symbolism, with literary analysis | sixth response
+  - author | tangential research question | asks how the poseur/ambition themes relate to real lion zoology and whether male lions are poseurs, tying it to griffon psychology | seventh prompt
+  - model | research explanation | explains real lion pride structure, contrasts it with the poseur concept, and extends it into griffon psychology and narrative inspiration | seventh response
+- kept:
+  - note 715 | pasted whole from this reply | keeps the explanation of why Luna expels AJ (poseur framing humiliates rather than validates her), filed on the Luna-confrontation plot point
+  - note 720 | pasted from this reply inside the author's own framing | keeps the nightmare-reinterpretation exchange reworked into speech lines with the author's own uncertainty note, same plot point
+  - note 279 | pasted whole from this reply | keeps the psychology-of-the-poseur and strength-works breakdown, filed on the Henri-arrives-to-discuss-tactics plot point
+  - note 714 | pasted whole from this reply | keeps the 'dangerous fraud' reasoning behind AJ's poseur accusation, filed on the Luna-confrontation plot point
+  - note 280 | pasted whole from this reply | keeps the feudal-cosplay lord/serf structural analysis, filed on the Henri-arrives plot point
+  - note 713 | pasted whole from this reply | keeps the 'bullets are real, spine is fake' reframing line, filed on the Luna-confrontation plot point
+  - note 721 | one sentence lifted from this reply | keeps a single distilled line of AJ's poseur argument as dialogue, filed on the hard-truth-speech plot point
+  - note 722 | pasted from this reply inside the author's own framing | keeps the Element-of-Honesty exchange reworked as dialogue, same plot point
+  - note 907 | pasted from this reply inside the author's own framing | keeps the author's own open question about mentioning poseurs plus a reworked lockstep-intimidation line, filed on the hard-truth-speech plot point
+  - note 908 | pasted from this reply inside the author's own framing | keeps rally-speech lines reworked as dialogue, same plot point
+- brought: The author brought a planning document to align on, together with a proposed reframing of Applejack's confrontation argument (poseur rather than monster) and a sketch of Twilight's backstory as a held-back logistics officer.
+- loop: The author repeatedly brought refinements and follow-up questions that pushed the poseur/ambition theme forward and specified staging for two speeches, and the model returned escalating thematic breakdowns and draft dialogue in response; the planning database kept the analytic passages largely whole under the Henri-arrival and Luna-confrontation plot points and kept shorter dialogue fragments reworked into the author's own framing under the hard-truth-speech plot point, while the closing tangential zoology exchange produced no kept notes.

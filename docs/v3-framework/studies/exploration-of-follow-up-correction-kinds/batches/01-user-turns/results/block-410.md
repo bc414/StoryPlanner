@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new forward-looking question about how the synthesis of Rainbow's Chapter 12 arc should shape her Chapter 16 conversation with Twilight's mother, the Daring Do author, without disputing anything in the prior turn.

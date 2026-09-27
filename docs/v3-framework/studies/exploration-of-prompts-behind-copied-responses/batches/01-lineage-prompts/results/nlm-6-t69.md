@@ -1,0 +1,10 @@
+- asks:
+  - develop | develop/define the character Cecille Gaudreau, leader of the FJA | Now let's define Cecille Gaudreau, the leader of the FJA
+  - choose | decide whether her backstory should be daughter of an iron statist (not a hostage) or a reformed noble griffoness | I feel like she is better off as the daughter of an iron statist, not a hostage. Or is she better as a reformed noble griffoness?
+- supplies:
+  - prior concept note | earlier plan that had Gaudreau as deputy of the Coltbert Reforms in Vinovia | a sentence
+  - character traits | Gaudreau described as empathetic, tried to treat her parents' subjects well, wouldn't have pony pets, seen as key to making Coltbert Reforms work in loyal iron statist areas like Vinovia | a few sentences
+- shaping:
+  - reasoning offered to justify the eventual choice/portrayal, tied to her empathetic nature and her role stabilizing loyal iron statist regions like Vinovia | The reason is because Gaudreau is described as an empathetic figure...
+- openness: Asks for a choice between two named backstory options for Gaudreau (daughter of an iron statist vs. reformed noble griffoness), while leaving her broader character definition open.
+- subject: Defining the backstory and role of the character Cecille Gaudreau, leader of the FJA, in relation to the Coltbert Reforms in Vinovia

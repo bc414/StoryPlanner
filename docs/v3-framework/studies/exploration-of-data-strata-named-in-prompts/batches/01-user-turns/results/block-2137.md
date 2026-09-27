@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states a design takeaway from the discussion, that a Bond subject needs a full story with both characters as POV characters, without pointing the model at any body of source material.

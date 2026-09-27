@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of how magic and industry work in Equestria and of the changelings' feeding leaves out that love is one shared energy. It powers the Crystal City shield through Cadance and is also what changelings feed on. The model treats the changeling love-draining and Equestria's power sources as separate. | Princess Cadance is the Princess of Love. The shield over the Crystal City is powered by love. It's the same love that changelings passively feed on. | Flat, unelaborated reminder of canon facts. No stated error and no reason given. The mistake is left for the model to infer.
+- about: The user gives a short reminder of Cadance's role and the love-powered Crystal shield, and ties it to changeling feeding, which implies the model's synthesis missed or mishandled that link.

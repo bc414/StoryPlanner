@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: the model's framing of the present-day situation | The model's premise that Fetterman, and the country, face Stage 1 (Predator's Dilemma) realities, which the user takes to be a cynical and false picture of America's condition | "is this true? That seems to be objectively false" | Put first as a question, then stated flatly as disagreement, with a reason given (the country's technological and industrial capacity), and folded into a follow-up request for less cynical figures
+- about: The user pushes back on the model's picture of Fetterman and America as back in a Stage 1 predator's dilemma, and asks who holds a less cynical, policy-optimistic view.

@@ -1,0 +1,4 @@
+- sources:
+  - my notebook | review it to work out how the new distilling-process idea affects the rest of the world building, i.e. check the idea against it | Please review my notebook | referred-to
+- order:
+- about: The user proposes a phased history for the changeling pink-love distillation (early Great Leap Forward rations keep trace oxytocin, later ones are stripped, while the Statthalter slavers hoard the refined product), and asks the model to review their notebook for how this affects the rest of their world.

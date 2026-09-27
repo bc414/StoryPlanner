@@ -1,0 +1,9 @@
+- sources:
+  - the real materialist truth (the user's revised 85/15 pre-930 history of Equestria, Celestia and the petitions) | treat as the actual in-world history, replacing the earlier 80/20 version, and build on it | the real materialist truth will be | first-named
+  - canon show baseline | use as the reference for how the 85% ordinary ponies live, simple lives with cutie mark talents and weather management | (the canon show baseline) | referred-to
+  - Equestrian history books | in-world record that is sanitized about the ambitious 15% and serves status-quo agendas, so not reliable and the cause of characters' false belief | history books would have sanitized the 15% | first-named
+  - history books today (real-world) | asks the model to confirm from general knowledge that they are sanitized for agendas, as support for the in-world sanitizing | Isn't it true that history books are somewhat sanitized today | referred-to
+  - the story of TLTT (its opening with the shattering of the nursery in total war) | fixed starting premise that explains why characters see stagnation as everlasting; the full truth is revealed gradually | The story of TLTT starts with the absolute shattering | referred-to
+- order:
+  - the real materialist truth over Equestrian history books and the characters' belief in an everlasting stagnation | the true history is set against sanitized books and an epistemological gap in characters
+- about: The user revises the earlier 80/20 demographic history into an 85/15 split with Celestia's stagnation as a popular reaction limited to 930–986 ALB, argues that sanitized history books create the characters' false belief in an everlasting nursery, and asks whether this makes Celestia more relatable and serves the themes.

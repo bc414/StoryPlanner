@@ -1,0 +1,8 @@
+- sources:
+  - Tally Sticks (the currency proposed in the previous turn) | set aside; War Bonds replace them as Tall Tale's instrument | Instead of Tally Sticks they have the War Bonds | referred-to
+  - War Bonds which emerged from Manehattan at the end of chapter 7 | treat as established plot; this is the currency Tall Tale uses | War Bonds which emerged from Manehattan at the end of chapter 7 | referred-to
+  - chapter 1, what Applejack sees upon arrival | fixed requirement: Tall Tale must look functionally like a military industrial company town with the fertilizer plant converted to munitions | What Applejack sees in chapter 1 upon arrival should be functionally a military industrial company town | referred-to
+  - chapter 9 Town Hall | the place where Star Energy's history as a decentralized franchisee network is revealed, as a post-war pitch to the oil workers | revealed as a decentralized network of franchisees in chapter 9 during the Town Hall | referred-to
+  - the previous turn's Las Pegasus versus Tall Tale contrast, 'consumers and gamblers' | endorsed as capturing the intended contrast; keep | "Consumers and gamblers" really captures the contrast | referred-to
+- order:
+- about: The user corrects the previous turn's picture of Tall Tale's economy, stating it is a real voluntary wartime command economy run by an expert council with Comet Shine as its face, with the franchise structure revealed only in chapter 9, War Bonds in place of Tally Sticks, and approval of the Las Pegasus contrast.

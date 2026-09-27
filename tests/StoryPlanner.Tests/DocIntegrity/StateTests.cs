@@ -127,6 +127,54 @@ public class StateTests
         Assert.DoesNotContain(" results", line);
     }
 
+    /// <summary>
+    /// The render-cost fix (2026-09-27): <see cref="StateBuilder.Matches"/> walks a batch's
+    /// folder without descending into <c>attempts</c> — the runner's per-call stream logs, no
+    /// artifact class lives there — and without enumerating inside <c>items</c> or <c>results</c>
+    /// beyond finding them. A decoy tree under <c>attempts/</c>, shaped like the runner's own
+    /// (one folder per item, one per call, files named like the batch classes themselves), proves
+    /// the prune: were the walk to descend there, the decoy `definition.md` would double the
+    /// match count.
+    /// </summary>
+    [Fact]
+    public void Matches_prunes_attempts_and_does_not_descend_into_items_or_results_but_still_finds_them()
+    {
+        using var f = new MapFixture().WithStateTree();
+        File.WriteAllText(Path.Combine(f.BatchDir, "calls.md"), "# calls\n");
+        File.WriteAllText(Path.Combine(f.BatchDir, "tally.md"), "# tally\n");
+
+        var attempt = Path.Combine(f.BatchDir, "attempts", "item-001", "call-1");
+        Directory.CreateDirectory(attempt);
+        File.WriteAllText(Path.Combine(attempt, "definition.md"), "decoy — never a match\n");
+        File.WriteAllText(Path.Combine(attempt, "index.md"), "decoy — never a match\n");
+        File.WriteAllText(Path.Combine(Path.Combine(f.BatchDir, "attempts", "item-001"), "stream.jsonl"), "decoy log\n");
+
+        var definitions = MatchesOf(f, "definition.md");
+        var index = MatchesOf(f, "index.md");
+        var calls = MatchesOf(f, "calls.md");
+        var tally = MatchesOf(f, "tally.md");
+        var items = MatchesOf(f, "items/");
+        var results = MatchesOf(f, "results/");
+
+        Assert.Single(definitions);
+        Assert.Single(index);
+        Assert.Single(calls);
+        Assert.Single(tally);
+        Assert.Single(items);
+        Assert.EndsWith("items", items[0]);
+        Assert.Single(results);
+        Assert.EndsWith("results", results[0]);
+
+        Assert.All(definitions.Concat(index).Concat(calls).Concat(tally).Concat(items).Concat(results),
+            p => Assert.DoesNotContain("attempts", p));
+    }
+
+    static System.Collections.Generic.IReadOnlyList<string> MatchesOf(MapFixture f, string batchFileOrDir)
+    {
+        Assert.True(ArtifactPath.TryParse($"docs/v3-framework/<container>/<home>/batches/<batch>/{batchFileOrDir}", out var path, out var error), error);
+        return StateBuilder.Matches(f.RepoRoot, path!, MapFixture.Study);
+    }
+
     [Fact]
     public void An_open_question_is_covered_by_calibrated_directions_naming_it_and_answered_by_a_verification_listing_it()
     {

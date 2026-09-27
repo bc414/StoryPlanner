@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks how the proposed Aquileian-paternalism confrontation fits with already-planned story beats: Applejack learning in Pridea that Aquileia is not a monolith and the FJA is only about 40% of it, and Gaudreau's Republican Pact pitch followed by Twilight's remark about Applejack being groomed as president.

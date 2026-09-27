@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a different cuddling arrangement for the night after the second battle of Tall Tale in chapter 4, with Twilight lying on top of Applejack, and asks what it would accomplish and how it compares to the other positions, without disputing anything in the model's analysis.

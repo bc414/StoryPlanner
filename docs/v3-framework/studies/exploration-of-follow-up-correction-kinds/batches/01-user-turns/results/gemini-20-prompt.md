@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user remarks that their chosen examples of occupation have all been especially brutal and asks the model to cover a milder war, the War of the Austrian Succession, as a new comparison case.

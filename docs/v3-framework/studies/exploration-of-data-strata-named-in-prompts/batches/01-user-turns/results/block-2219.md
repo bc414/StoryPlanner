@@ -1,0 +1,5 @@
+- sources:
+  - my plan for TLTT to reveal the surface level of the prequels (history and how it affects AJ in the moment, no full dramatization) | the author's existing plan, offered for the model to check and say whether it is correct; treated as the working plan, not yet confirmed | I planned for TLTT to reveal the surface level of the prequels | first-named
+  - the structure the model just described, with the prequels as mysteries and retroactive revelations | an alternative proposal weighed against the author's plan and questioned as to whether it fits; not accepted as settled | should they be mysteries like you just described | referred-to
+- order:
+- about: The user asks whether the model's proposed series structure gives reread value, and whether their own plan of stating the prequel history in TLTT without full dramatization is better than making the prequels mysteries.

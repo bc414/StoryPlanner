@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Camp Fluttershy rehab idea and asks a new design question, whether the EEEE organization should convert its original parloir meeting hall into a similar POW rehab center, given the empathy theme in the parloirs and the organization's name.

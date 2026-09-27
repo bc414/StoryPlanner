@@ -1,0 +1,6 @@
+- sources:
+  - Morning Brew (its articles, the institution, its audience) | treat as the source of the facts the thesis rests on; the model is to research what it is, who reads it, and what its articles actually cover | Morning Brew states the facts; look into what they're articles actually talk about | referred-to
+  - MLP | treat as an interpretive lens the author applied to the facts, not as a source of facts | I've used MLP and hoi4 as lenses that put together everything | referred-to
+  - hoi4 | treat as an interpretive lens the author applied to the facts, not as a source of facts | I've used MLP and hoi4 as lenses that put together everything | referred-to
+- order:
+- about: The user asks whether their thesis grew out of reading Morning Brew, with MLP and HOI4 serving as lenses over its facts, and asks the model to research Morning Brew's institution, audience and article content.

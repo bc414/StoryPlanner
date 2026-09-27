@@ -1,0 +1,4 @@
+- sources:
+  - Option A: The Perfect Alignment (the cutie mark option from the model's previous reply in this conversation) | use it as the design to base the generated example images on | I want a few example images generated for Option A: The Perfect Alignment | referred-to
+- order:
+- about: The user picks one of the three cutie mark options the model just offered and asks for a few example images of it to be generated.

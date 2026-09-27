@@ -1,0 +1,5 @@
+- sources:
+  - Attached document 1pWsnHgC69mr_xO6mMWCJ8_kAqjt9IHU0 | material to be mined; the model is to extract from it what the four priority filters describe (statecraft, coercion tools, trauma and loyalty, species and class power) | Extract only high-level political structures | first-named
+  - Attached document 1On_WwmcwGP9E0HLHDmtkKGMX-uWd6n7y | second document to be mined with the same four priority filters, extracting only what each filter describes | Extract specific technologies, institutions, and administrative tools | first-named
+- order:
+- about: The user supplies two attached documents, each with the same four numbered extraction filters, telling the model what to pull out of each document and what to leave out.

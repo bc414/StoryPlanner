@@ -1,0 +1,7 @@
+- asks:
+  - share | presents a new worldbuilding idea as an extension of established lore, without a stated question or task | 'I have an even more hilarious innovation'
+- supplies:
+  - idea/lore note | the existing rule that griffon knights who forge their own armor get magical properties only while wearing it, and the new extension applying this to Aquileian ace pilots who forge their own aluminum planes for magical lightweight protection that only works for them | a couple of sentences
+- shaping:
+- openness: Leaves the answer open: the message just states the new lore idea ('couldn't forged the aluminum themselves to get magical lightweight protection, and only they can fly their plane') without posing a specific question, request for critique, or named choice.
+- subject: Extending griffon-armor magic lore to explain why only certain Aquileian pilots can fly their self-forged aluminum planes

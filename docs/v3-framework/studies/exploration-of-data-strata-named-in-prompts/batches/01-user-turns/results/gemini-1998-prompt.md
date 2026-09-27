@@ -1,0 +1,4 @@
+- sources:
+  - the AI's reasoning for why the bucketing architecture works and what it would achieve | to be drawn on and included inside prompt A as content, carried over from the earlier discussion | prompt A should include the AI's reasoning | referred-to
+- order:
+- about: The user approves the model's offer to write the prompt A schema and adds a request that prompt A also contain the AI's own reasoning for why the bucketing architecture works and what it would achieve.

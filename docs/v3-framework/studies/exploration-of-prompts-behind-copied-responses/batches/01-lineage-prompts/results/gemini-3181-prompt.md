@@ -1,0 +1,9 @@
+- asks:
+  - comparison | asks how Gemini and DeepSeek compare on the cloud provider's computation cost per use | "compare, in terms of the cloud provider's computation cost"
+  - inference | asks that this cost comparison be used to estimate how soon the user would be throttled on each | "which would be a proxy for how long until I get throttled"
+- supplies:
+- shaping:
+  - frame the comparison around computation cost specifically, not other differences like speed or quality | "in terms of the cloud provider's computation cost"
+  - connect the cost comparison to an implied throttling timeline for the user | "a proxy for how long until I get throttled"
+- openness: Leaves the answer open: it names the dimension to compare (computation cost) and the reason for asking (estimating throttling) but does not propose which model costs more or when throttling would occur.
+- subject: Comparing Gemini and DeepSeek on cloud computation cost as it relates to usage throttling

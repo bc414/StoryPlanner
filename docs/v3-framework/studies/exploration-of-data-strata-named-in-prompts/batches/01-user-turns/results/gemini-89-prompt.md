@@ -1,0 +1,10 @@
+- sources:
+  - all the existing context (the conversation so far, including the model's previous analysis) | fold into the requested analysis; use it together with the new points as the material to synthesize | "along with all the existing context" | referred-to
+  - The Princess and the Kaiser | reference point for what happens without Aquileia (Equestria falls) and the inspiration for Luna's deliberate retreat, which the story contrasts | "Equestria would have fallen, as it did in The Princess and the Kaiser" | referred-to
+  - canon fim | baseline to be countered with an alternative; its ending is read cynically as Celestia grooming Twilight, and the Republic replaces it | "In canon fim, it ends with Twilight ruling Equestria" | referred-to
+  - the game (Equestria at War / general and president options for Applejack) | basis for featuring Applejack as both General and possible President | "she's a general in game" | referred-to
+  - the author's first playthrough | basis for placing the first successful stand against the changelings at Tall Tale | "that's where I stopped them in my first playthrough" | referred-to
+  - The Lion of Verdun, the nickname of French marshal Petain at Verdun in WW1 | inspiration for the story's title | "based on \"The Lion of Verdun\"" | referred-to
+  - other good EAW stories | comparison point; they centre Rainbow Dash and not the other mane 6, or show a passive, captured, tortured Twilight, which this story differs from | "The other good EAW stories feature Rainbow Dash heavily" | referred-to
+- order:
+- about: The user asks the model to re-analyse how all the story's themes, characters and parallels connect into one cohesive story, using the existing context, and restates and expands the design points: Aquileian foundation, the anti-canon Republic, TwiJack, Tall Tale, Luna's retreat, the title, a mane 6 focus, an active Twilight, a checked-out Celestia and the Star Energy theme.

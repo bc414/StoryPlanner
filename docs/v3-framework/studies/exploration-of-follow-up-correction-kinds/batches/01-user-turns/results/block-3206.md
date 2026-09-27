@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the MCP server test to a new, larger request, asking for the full lineage of Chrysalis's characterization across the whole project, without commenting on the model's test summary.

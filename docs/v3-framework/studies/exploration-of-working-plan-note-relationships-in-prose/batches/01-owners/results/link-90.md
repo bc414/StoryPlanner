@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 2411 | the combat mages and the research on their receiving less red love than allocated, a matter of other subjects or scenes | combat mages using less red love than was allocated for them
+  - 2411 | the hostages in Canterlot, a situation held elsewhere in the story | deliver supplies to the hostages in Canterlot
+  - 2411 | the friendship teleportation spell and the dreamscape spell, technologies with their own lore held elsewhere | integrate the friendship teleportation spell with the dreamscape spell
+  - 2411 | the charitostatic effect, a piece of the world's magic lore not explained here | Empirical study of the charitostatic effect
+- whole: ["This owner holds a single note, so there are no joints between notes to find and it stands alone."]

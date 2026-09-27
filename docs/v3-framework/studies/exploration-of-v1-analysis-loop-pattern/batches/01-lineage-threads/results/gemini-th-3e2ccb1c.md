@@ -1,0 +1,6 @@
+- steps:
+  - author | reports a naming decision and requests expansion | the chapter-1 title choice ('Duty'), the chapter-title-down-the-line choice ('Total Mobilization'), and four asks (comprehensive HOI4 idea-noun list, more thematic nouns, a generation methodology, non-single-word alternatives) | opening turn of the exchange
+  - model | delivers a categorized reference and toolkit | a sectioned HOI4 lexicon (politics/battlefield/economy), a list of thematic idea nouns, three naming methodologies (poster test, ministry technique, suffix switch), a set of multi-word title alternatives, and a suggestion for chapter 2 | reply to the author's requests
+- kept:
+- brought: The author brought their in-progress chapter-title choices ("Duty" for chapter 1, "Total Mobilization" for a later chapter) and asked for an expanded, categorized vocabulary of idea nouns plus a method for generating more and for non-single-word alternatives that would still fit the pattern.
+- loop: The author brought two working title choices and a request for a bigger word-pool and a repeatable method to generate more; the model answered with categorized lists, generation techniques, and phrase alternatives, but none of that returned material is recorded as having been kept in the planning database for this stretch.

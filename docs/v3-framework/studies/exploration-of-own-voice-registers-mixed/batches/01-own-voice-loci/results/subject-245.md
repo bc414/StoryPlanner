@@ -1,0 +1,5 @@
+- passages:
+  - note 5422 | terse lowercase declarative note | no capitalization, no closing punctuation, single clause | that the detection spell originates as a changeling spell unicorns copied | apart
+- shifts:
+- registers: terse lowercase declarative note
+- whole: The item holds only one short note written wholly in a single register, a terse lowercase declarative fragment stating a piece of lore with no internal change.

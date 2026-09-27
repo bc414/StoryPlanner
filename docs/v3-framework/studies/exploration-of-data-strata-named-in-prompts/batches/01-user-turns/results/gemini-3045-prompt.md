@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a new story idea that bored Equestrian ponies who have glimpsed the outside world would want to imitate the suave villain Dr. Caballeron rather than the heroic Daring Do.

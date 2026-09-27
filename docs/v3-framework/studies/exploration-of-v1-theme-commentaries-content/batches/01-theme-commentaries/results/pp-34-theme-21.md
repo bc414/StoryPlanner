@@ -1,0 +1,3 @@
+- passages:
+  - note to self | A bare task marker telling the author (or a later pass) to analyze how this plot point bears on the theme; it holds no analysis itself and states nothing about the scene, the story world, the page or the reader | "Analyze" | no | one-word imperative, placeholder directive
+- whole: The commentary is a single-word placeholder instruction to analyze the link, with no analysis of its own.

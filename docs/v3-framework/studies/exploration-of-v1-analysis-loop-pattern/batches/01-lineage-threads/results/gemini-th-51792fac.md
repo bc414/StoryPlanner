@@ -1,0 +1,20 @@
+- steps:
+  - author | question | asks for a character-meaning read on Trimmel surviving surrender when he expected execution, and whether it fits the themes | opening of the author's turn
+  - author | praise | compliments the model's prior in-character rendering of Applejack and Rainbow Dash | early in the author's turn
+  - author | idea-sharing | recounts an unplanned beat (Mali fighting beside Applejack) and explains its payoff plus contrast with the depleted second battle | middle of the author's turn
+  - author | inventory-check | lists the outsider groups covered so far (Mali/Tzinacatl, Henri, Temberik, Buffalo) and asks if the set is complete | continuing the author's turn
+  - author | praise | compliments the batpony echolocation angle | continuing the author's turn
+  - author | praise | compliments the Metlzli-as-Celestia parallel | continuing the author's turn
+  - author | question | asks what further points to add to Mali's and Metlzli's sides of their conflict | continuing the author's turn
+  - author | plan-addition | adds a new logistics detail, Rainbow Dash's supply routes for rubber and materiel from Manehattan and other eastern cities | later in the author's turn
+  - author | question | asks for alternative chapter titles to 'Passage' given Mali's now-central arc | closing of the author's turn
+  - model | analysis | interprets Trimmel's surrender as rational-to-a-fault, selfless self-sacrifice and ties it to a civilization-vs-barbarism theme with a sample exchange | opening of the model's response
+  - model | verdict | confirms the outsider-group roster is complete and warns against adding more | early in the model's response
+  - model | draft | writes a dialogue exchange staging Metlzli's trauma-based caution against Mali's hope-based argument | middle of the model's response
+  - model | draft | extends the echolocation image into paired dialogue lines symbolizing looking backward versus signaling forward | continuing the model's response
+  - model | options | proposes four alternative chapter titles (Echo, Navigation, Recognition, Signal) with literal, character, and thematic justifications, recommending Echo | later in the model's response
+  - model | synthesis | sketches a full chapter outline built around the recommended title, sequencing setup, scout, reunion, debate, resolution, ending | closing of the model's response
+- kept:
+  - note 2380 | the author's own words in this record | keeps the description of Trimmel's shock at surviving surrender, his rational-to-a-fault selflessness, and his willingness to die for his men, filed on the Applejack/Trimmel POW-decision link
+- brought: The author brought forward his standing chapter-title proposal ('Passage'), his established roster of outsider-representative characters, and a spontaneous, previously unplanned story beat (Mali fighting alongside Applejack) to be checked for thematic payoff and titling.
+- loop: The author surfaces an emergent character beat and open questions about theme, character roster completeness, and titling, prompting the model to analyze, draft dialogue, and offer title options; only the author's own character-trait framing of Trimmel's surrender was carried back into the plan, attached to the Trimmel POW-decision link, while the broader dialogue drafts and title brainstorm were not separately retained.

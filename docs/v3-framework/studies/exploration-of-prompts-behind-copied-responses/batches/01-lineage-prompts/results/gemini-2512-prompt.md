@@ -1,0 +1,6 @@
+- asks:
+  - brainstorm | asks the model to suggest additional thematic or narrative parallels that could be added to the story plan | "how can I build upon my existing plans with additional poignant parallels, if any"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open: it asks what additional parallels might exist without naming any candidates, and the closing "if any" signals it is not assuming there must be a positive answer.
+- subject: Adding further poignant narrative/thematic parallels to an existing story plan

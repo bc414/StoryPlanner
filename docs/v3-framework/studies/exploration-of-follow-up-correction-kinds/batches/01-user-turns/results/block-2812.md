@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the prequel structural map to a new request, an analysis of how their Celestial Resistance would subvert the Equestria at War faction of that name, with attached lore files and a note on which canon lineage each side draws from.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's tool recommendations as a workflow, brainstorming in Chat with a Notebook attached and then checking ideas against the lore in standalone NotebookLM, and asks whether that is the right sequence.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model said it could not reach the other conversation and asked the user to describe the story, when a consolidated report of that conversation sits in the project knowledge and was available to it | There's a document in the project knowledge which is a consolidated report of that conversation | flat, brief statement of where the source is, with no stated complaint
+- about: The user points the model to a consolidated report in the project knowledge that covers the other conversation, so it can use that instead of asking for a description.

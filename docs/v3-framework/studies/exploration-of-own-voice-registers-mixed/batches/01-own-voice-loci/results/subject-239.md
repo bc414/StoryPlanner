@@ -1,0 +1,21 @@
+- passages:
+  - note 4220 | narrative summary, present-tense, third-person declarative | plain recounting of actions and their effect | Eros purging the nobility and winning commoners' zeal | apart
+  - note 4220 | chant/slogan, quoted parallel "for X" phrase | quotation marks, collective rallying cry | the griffons' war-cry | run-in
+  - note 4220 | timeline heading, dated phase-label prefix | "Phase 4 (1007-Present):" tag | marking the phase's span | apart
+  - note 4220 | narrative summary, present-tense declarative | continues directly after the colon | Eros declaring an absolute meritocracy | run-in
+  - note 4221 | narrative summary, present-tense chronological recounting | embedded quoted nickname of a spared noble | Eros sparing Eagleclaw after the child emperor's plea | apart
+  - note 4222 | narrative summary, present-tense cause-and-effect exposition | plain declarative clauses | uniting Herzland and giving peasants industrial jobs | apart
+  - note 4222 | chant/slogan, parallel "for X" phrase, unquoted | no quotation marks, folded into the sentence | peasants laboring for the Reich's causes | run-in
+  - note 4977 | classificatory tag/label, dash-separated noun phrase | no verb, stands as a heading | naming a demographic category | apart
+  - note 4977 | analytical narrative, past-tense ideological exposition | abstract nouns like "capitalist rot," reasoned cause-clauses | Eros's beliefs and his purge of industrialists | apart
+  - note 4977 | chant/slogan, quoted parallel "for X" phrase with exclamation | quotation marks, exclamation point | the loyalty oath demanded of subjects | run-in
+- shifts:
+  - note 4220 | narrative summary | chant/slogan | quotation marks introduce the direct rallying phrase mid-sentence
+  - note 4220 | chant/slogan | timeline heading | a new sentence opens with the dated phase label
+  - note 4220 | timeline heading | narrative summary | the colon after the label runs straight into a declarative clause
+  - note 4222 | narrative summary | chant/slogan | the closing parallel "for X" repetition, left unquoted, folds the cry into the sentence
+  - note 4977 | classificatory tag | analytical narrative | the heading gives way to a full sentence with a named subject, "Archon Eros believed..."
+  - note 4977 | analytical narrative | chant/slogan | quotation marks and an exclamation mark introduce the demanded loyalty phrase
+  - note 4221 | | |
+- registers: narrative summary (present-tense, third-person recounting); timeline/phase heading (dated label prefix); chant/slogan (parallel "for X" invocation, quoted or not); classificatory tag/label (noun-phrase heading); analytical narrative (past-tense ideological exposition)
+- whole: This item mixes a recurring present-tense narrative-summary register with an embedded chant-like slogan, a dated timeline heading in one note, and, in the last note, a label-tag followed by a distinct past-tense analytical register, with the headings standing apart as clear breaks while the chant phrases run directly into their surrounding sentences.

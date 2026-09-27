@@ -1,0 +1,6 @@
+- asks:
+  - question | asks the model to address the same unspecified topic from earlier in the conversation but as it applies to China | "What about in China?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a bare follow-up question with no stated angle, format, or named options, leaving the answer entirely open.
+- subject: How an unspecified prior topic applies to China

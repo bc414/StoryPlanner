@@ -1,0 +1,27 @@
+- steps:
+  - author | supplies scene backstory | AJ/Mali shared battle history, retreat order, wine bet, tent-entry setup | opening of gemini:1105 prompt
+  - author | poses sequencing question | whether Mali should meet Luna before AJ does | mid gemini:1105 prompt
+  - author | floats a working hypothesis | Mali urging Luna to fight, being shut out, then priming AJ before her entrance | end of gemini:1105 prompt
+  - model | analyzes character motivation | contrasts Luna's trauma-avoidance logic with Mali's connection-through-risk logic, using dream data as the driver | opening of gemini:1105 response
+  - model | drafts a beat-by-beat interaction chart | three staged scenes (trench encounter, tent denial, tipsy handoff) with sample dialogue | body of gemini:1105 response
+  - model | explains a supporting mechanic | why guards admit AJ but not Mali, tied to hierarchy/protocol theme | gemini:1105 response, guard section
+  - model | adds thematic labels | casts Mali as canary, AJ as hammer, names Luna's tragic flaw | closing of gemini:1105 response
+  - author | proposes a character line | frames Luna's justification as a direct mirror of a historical surrender-rhetoric figure | opening of gemini:1106 prompt
+  - author | supplies a supporting quote | an enemy commander's surrender-or-be-removed line as the source of Luna's binary thinking | rest of gemini:1106 prompt
+  - model | validates and reframes | maps the conflict onto a historical shield-vs-sword opposition | opening of gemini:1106 response
+  - model | analyzes selective evidence | argues Luna's dream-based reasoning suffers from a data blind spot favoring immediate pain over long-term cost | mid gemini:1106 response
+  - model | traces character-arc consequence | links Luna's stance to Applejack's later shift from farmer to a more predatory self-conception | gemini:1106 response, Applejack section
+  - model | extends the framework | positions Mali as a case the model treats as disproving Luna's reasoning | closing of gemini:1106 response
+  - author | requests a broad craft review | asks for pros and cons of an early explicit reveal versus a delayed vague one, and whether early disclosure would overwhelm a character, citing established arc milestones | gemini:1107 prompt
+  - model | issues a recommendation | states a clear verdict on when the sensitive information should be disclosed in the story | opening of gemini:1107 response
+  - model | argues the case for withholding early | ties vagueness to preserving one character's agency and to a paternalism theme | gemini:1107 response, first argument block
+  - model | argues the case for a later reveal | frames delayed disclosure as landing harder and validating the arc's endpoint | gemini:1107 response, second argument block
+  - model | produces a comparison table | lays out both options against character and thematic criteria | gemini:1107 response, summary table
+  - model | drafts sample dialogue for two scenes | proposes lines for an early confrontation and a later reckoning scene | closing of gemini:1107 response
+- kept:
+  - note 2456 | one sentence lifted from this reply | keeps the line naming Mali's role as a third option and Luna's flight response, placed on the Link between the trench-meeting scene and Luna
+  - note 2993 | the author's own words in this record | keeps the proposed Pétain-mirroring line for Luna and its historical label, placed on the Link between the confrontation and the collaborator-framed Applejack entry
+  - note 709 | pasted from this reply inside the author's own framing | keeps a drafted dialogue exchange with the author's own hesitation noted, placed on the PlotPoint for the confrontation scene
+  - note 2992 | pasted from this reply inside the author's own framing | keeps the reasoning tying vague dialogue choices to the stagnation/paternalism theme, placed on the Link between the trench-meeting scene and the stagnation-era entry
+- brought: The author brought worked-out backstory beats for two characters (shared battle history, a wine-bet setup, a tent-entry sequence), a proposed thematic line drawing on a historical surrender parallel, a supporting quote from an antagonist, and a request to review the reveal-timing of sensitive information against already-established arc milestones for the protagonist.
+- loop: The author repeatedly brought drafted scene material, character hypotheses, and craft questions grounded in the existing plan's arc structure; the model returned structural breakdowns, thematic framings, and sample dialogue; the plan kept only short lifted lines and small dialogue drafts, attached to the specific Link and PlotPoint entries the conversation was about.

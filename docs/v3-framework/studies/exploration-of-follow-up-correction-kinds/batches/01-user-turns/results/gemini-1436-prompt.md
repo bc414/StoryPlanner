@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds supporting observations from canon (the changeling wedding episode leading into Cadance's Crystal Empire episode, her crystal heart cutie mark, Thorax's introduction there) to explain why changelings and Crystal Ponies would share magic, extending the model's analysis without disputing it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the tool-choice advice to a new feature question, asking how to add a home-screen button that opens the entity with the most note text, then doubts their own longest-text idea and asks for a better way to find the entity with the most room for consolidation.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the chicken-cooking topic and asks a new, unrelated question about whether daylight saving or standard time is biologically better for a person who wakes at 8:40 am on weekdays.

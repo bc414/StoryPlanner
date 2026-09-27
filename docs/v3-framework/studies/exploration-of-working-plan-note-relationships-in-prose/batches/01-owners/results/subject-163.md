@@ -1,0 +1,10 @@
+- relations:
+  - 1753 | 1751 | instance of a general claim: 1751 says conscience is the only mechanism that generates donated coherent love, and 1753 gives the case where output is lost because conscience was overridden | lost charitostatic output because their conscience was temporarily overridden; conscience is the only mechanism that generates the former | implicit
+  - 1753 | 1751 | one note bears on the other's frame: 1751 has Twilight add the charitostatic finding to Coltbert's paper, and 1753 says Coltbert's framework cannot model alignment and conscience separately | Coltbert's framework has no way to model this distinction; the charitostatic finding Twilight adds to Coltbert's paper | implicit
+- outward:
+  - 1751 | Chrysalis's system of extraction, held elsewhere, as the rival to the Equestrian synthesis | more efficient than Chrysalis's system
+  - 1751 | Twilight and Coltbert's paper, which this note builds on | the charitostatic finding Twilight adds to Coltbert's paper
+  - 400 | The Stare and Grace, as concepts or lore held elsewhere | The Stare is already Grace
+  - 400 | Fluttershy and the idea of an adult element, held elsewhere, apparently the other ponies' elements too | Fluttershy is the first to demonstrate her adult element
+  - 1753 | An earlier event in which the ponies were under fire and fled, not in this item | The ponies retained cooperative alignment under fire
+- whole: Notes 1751 and 1753 hang together around charitostatic output, conscience and Coltbert's framework, while note 400 stands apart as a separate entry about the Stare and Fluttershy.

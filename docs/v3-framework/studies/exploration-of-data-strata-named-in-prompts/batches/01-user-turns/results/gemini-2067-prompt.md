@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user changes topic to ask a general question about whether people without coding training are using AI Studio effectively, without pointing the model at any body of material.

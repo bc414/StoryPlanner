@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to clarify whether the verification machines run on every transaction, and proposes an analogy to credit-card interchange fees as a way to understand how Gilded Trust profits.

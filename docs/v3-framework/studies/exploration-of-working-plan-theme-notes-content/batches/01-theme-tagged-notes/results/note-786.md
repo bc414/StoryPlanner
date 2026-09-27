@@ -1,0 +1,3 @@
+- claims:
+  - reading | The Cloudbury Meat Pie is taken to embody the Republic's motto in food form, so the dish stands for the Republic's founding principle | "culinary manifestation of 'The Republic Stands'" | What does this dish symbolize or stand for in the Republic's identity? | partly
+- theme: It names the theme without arguing it. The note ties the pie to a Republic slogan, but it never says or shows that conscience and cooperation outperform extraction, and it gives no evidence on performance.

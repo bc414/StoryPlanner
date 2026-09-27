@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether longer responses can be obtained outside of Canvas, having noticed Canvas offers a length slider, and points the model at no body of material to draw on or avoid.

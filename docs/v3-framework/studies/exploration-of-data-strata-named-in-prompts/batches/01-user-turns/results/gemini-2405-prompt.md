@@ -1,0 +1,7 @@
+- sources:
+  - lion and eagle perfection trap | treat as outdated and dropped by the author, no longer the basis of griffon rule, though noted as fitting flight-as-privilege better | I actually ditched the lion and eagle perfection trap | referred-to
+  - lions being born lions with a birthright to rule and eagles being wives then serfs | the author's current design for griffon hierarchy, to be treated as the working basis and tested against the flight idea | in favor of lions being born lions with a birthright to rule | first-named
+  - flight is a privilege framing | a premise from the current conversation, to be checked for whether it fits the birth hierarchy rather than taken as settled | With the framing that flight is a privilege, does this make sense or not | referred-to
+- order:
+  - birth hierarchy (lions born to rule, eagles wives then serfs) | over the perfection trap | ditched the perfection trap in favor of it, and thematically the birth hierarchy seems to be better
+- about: The author corrects the model's earlier assumption by saying they replaced the lion-and-eagle perfection trap with a birth hierarchy, and asks whether flight as a privilege still makes sense with eagles as the lower status.

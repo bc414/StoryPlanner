@@ -1,0 +1,10 @@
+- steps:
+  - the author | brought a plot fragment | Hans Kessel's link to Skyfall's Kessler valve company and the miniaturization problem for the rifle/matrix tech | opening of gemini:1050
+  - the model | built a technical backstory and scene sketch | a generational lineage for the valve (old Chrysalis fork vs. modern Skyfall micro-valve), the engineering rationale for Hans's nozzle fix, and a prototype-workshop scene with dialogue | response to gemini:1050
+  - the author | brought a structural idea | using the Twilight/Applejack love-letters as the channel that surfaces the drug-trade funding solution with the Tzinacatl tribes | opening of gemini:1052
+  - the model | elaborated the mechanism into a full sequence | drafted the content of Twilight's problem-letter, Applejack's on-the-ground epiphany connecting supply chains, and the reply-letter's 'friendship lesson' framing the deal | response to gemini:1052
+  - the author | asked how to stage a scene | how Twilight should tell Fluttershy that her love-donator machines will now feed the drug trade | opening of gemini:1053
+  - the model | drafted the confrontation scene | wrote out the letter setup, the sanctuary setting, the dialogue where Twilight reveals the plan, Fluttershy's objection, and her conditional acceptance | response to gemini:1053
+- kept:
+- brought: The author brought forward successive pieces of a war-logistics subplot already taking shape in the plan — the valve-supply problem, the letter-based coordination between fronts, and the moral cost of the drug-trade funding scheme — asking the model to work out mechanics and stage scenes for each.
+- loop: The loop is author-supplies-fragment, model-returns-full-elaboration: each time the author hands over a compact plot premise or staging question, the model expands it into detailed lineage, mechanism, and drafted scene dialogue, but none of this exchange's material is recorded as traced back into the planning database in this stretch.

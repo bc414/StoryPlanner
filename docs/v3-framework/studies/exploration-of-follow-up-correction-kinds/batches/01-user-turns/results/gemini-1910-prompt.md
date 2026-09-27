@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the historical parallel, wanting to know how widespread distinct artisan bread from special grain was compared with bread for the masses, without disputing anything the model said.

@@ -1,0 +1,7 @@
+- sources:
+  - The Lioness of Tall Tale (attached file, called the early planning document of TLTT) | the object to examine: check how much of the subversion is already in it and how much still follows ASOIAF conventions | How much of the subversion was already present in this early planning document | first-named
+  - P&K | background on how the document came about: the author read it before writing the document, and had no ASOIAF knowledge | after reading P&K with no knowledge of ASOIAF | referred-to
+  - ASOIAF genre conventions | the standard to measure the document against, to see how far it still follows them | how much of this document still follows the ASOIAF genre conventions | referred-to
+  - The subversion analysis in the model's previous turn | the earlier account of the subversion, which the document is to be compared with to see how much was already present | How much of the subversion was already present | referred-to
+- order:
+- about: The user attaches an early planning document and asks the model to judge how much of the ASOIAF subversion just described was already in it and how much of it still follows ASOIAF conventions, noting it was written over 8 months after reading P&K with no ASOIAF knowledge.

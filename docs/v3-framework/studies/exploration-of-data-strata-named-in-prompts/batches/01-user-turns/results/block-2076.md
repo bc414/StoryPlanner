@@ -1,0 +1,4 @@
+- sources:
+  - TLTT (star energy and earth ponies) | treat as the precedent and template for the cooperative model: village psychology scaled up with tech as an accelerant, which the game design should mirror | This is what TLTT does with star energy and earth ponies | referred-to
+- order:
+- about: The user corrects the model's design for the capitalist faction's method (villages vote or are forced to join the nation state, promised education and technocrat careers) and redefines the cooperative model as village psychology scaled up with tech as an accelerant, pointing to TLTT's star energy and earth ponies as the parallel.

@@ -1,0 +1,19 @@
+- relations:
+  - 858|865|858 gives a consequence of what 865 states: language stripped of nuance leads to literal name translation|Because nunace is stripped from the language, Equestrian names are translated literally|implicit
+  - 866|858|866 is a worked instance of 858's general claim: a pony's name becomes an object label that the drone takes as inventory|the translator spits out ... I am a Cinamon-Bread-Roll / view the Equestrian ponies as objects|implicit
+  - 866|865|866 shows on the page how the literal, nuance-free output of 865 comes out in a specific sentence|in Simplified Herzlander "I am a Cinamon-Bread-Roll"|implicit
+  - 867|858|867 states the general effect (humanity filtered out, cruelty easy) that 858 explains by its mechanism of ponies seen as objects|filters out the humanity of the victim / drones can view the Equestrian ponies as objects|implicit
+  - 867|866|866 plans a scene that delivers 867's claim, and adds the reader's response (absurd, pathetic, confirms the propaganda)|It sounds absurd and pathetic. It confirms Chrysalis's propaganda|implicit
+  - 1823|865|1823 restates 865's literal translation more narrowly as a dictionary lookup; it says 'old translator' where 865 says changeling translators, so it may refine or differ from 865|does literal translation like a dictionary lookup / take literal translation to the max|implicit
+  - 1822|865|1822 casts the language 865 describes as a manufactured tool of imperialism, a thematic reading of it|Chrysalis's language is literally the manufactured language of Imperialism|implicit
+  - 1822|858|1822 reads as a theme what 858 gives as fact: Chrysalis's propaganda and translators use this stripped language|Chrysalis's propaganda and translators use literal translations|implicit
+  - 1822|867|1822 and 867 both serve the manufactured-division theme: the language is manufactured and the filtering of humanity makes cruelty easy|manufactured language of Imperialism / filters out the humanity of the victim|implicit
+- outward:
+  - 865|The proper Herzlander language with its idioms and expressive words, held elsewhere|missing proper Herzlander idioms
+  - 865|Changeling translators as devices or characters beyond this technology|The changeling translators take literal translation to the max
+  - 858|Equestrian ponies and their naming, part of the wider world|Equestrian names are translated literally
+  - 858|Chrysalis and her propaganda campaign, held elsewhere|Chrysalis's propaganda and translators
+  - 1823|A translator other than the old one, implied to exist elsewhere|The old translator
+  - 1822|Chrysalis and the theme of Imperialism, wider world and theme material|Chrysalis's language is literally the manufactured language of Imperialism
+  - 866|A prisoner character (Cinnamon Roll) and the drones, in scenes not in this item|if a prisoner says "My name is Cinnamon Roll"
+- whole: These notes hang together: they circle one claim, that stripped literal translation makes ponies into objects, and each takes a different side of it (rule, mechanism, scene, theme), though 1823 and 1822 are thin and loosely tied.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The placement of the Mount Aris dramatization before TLTT (or as a TLTT companion the reader needs first, on the ground that TLTT's opening needs orienting) is rejected. In the user's pattern TLTT gives the externalized view first and the direct dramatization only carries full weight afterward. | "I firmly believe the Battle of Mount Aris directly dramatized must come after TLTT" | flat, emphatic assertion of belief, backed by a reason about how the reader arrives knowing the Mane 6 come out ahead
+- about: The user takes up the model's reading-order analysis, restates the pattern as they see it (externalized view first, then interior story, then stories that build on it, with TLTT as the outlier going first), and firmly moves the Mount Aris dramatization to after TLTT while asking the model to articulate the pattern and its effect on the reader.

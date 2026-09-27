@@ -1,0 +1,7 @@
+- relations:
+  - 2135|2134|the perception-gap note explains what the refusal shown on the page reveals: she rejects Rarity's account because she is protecting Manehattan by distrusting EEEE, and the reader is to see the cynicism underneath|Celestia believes she is protecting Manehattan by not trusting EEEE|implicit
+- outward:
+  - 2135|the return trip and the mandate to care for foals, an event held elsewhere in the story|her mandate to care for foals on the return trip actually worked
+  - 2134|the group EEEE and the belief that they are not violent criminals, defined elsewhere in the plan|EEEE aren't violent criminals
+  - 2135|the group EEEE and the world's idea of predator being irreversible, held elsewhere|She thinks being a predator is irreversable
+- whole: ["The two notes hang together as one beat: the page action of refusing Rarity and the reader's inference about the cynicism behind it."]

@@ -1,0 +1,7 @@
+- asks:
+  - evaluate proposal | assess whether the fact-checking process can be structured as a standardized set of questions organized per axis of worldbuilding | "Can the fact checking be standardized set of questions per axis of worldbuilding?"
+  - evaluate proposal | judge whether that fact-checking process should also include a standardized set of questions covering new synthesis and interactions | "should it include a standardized set of questions about new synthesis and interactions?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer for each: the message proposes two specific design ideas (standardized per-axis questions; standardized questions on new synthesis and interactions) and asks the model to confirm or judge whether each is viable or advisable, rather than leaving the design fully open.
+- subject: Design of a fact-checking question framework for worldbuilding, including coverage of new synthesis and interactions

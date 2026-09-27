@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of Tribe D's food pivot as an easy rise to economic superpower leaves out established rivals in the world: Equestrian organics, empowered by harmonic capitalism, and Aquileian terroir on the global market | "they have to seriously compete with Equestrian organics" | mild qualification put in passing after agreeing, as a 'however' with no statement that the model erred
+- about: The user accepts the Big Food pivot and ties it to Pinkie's red-love morale cakes from Chapter 15, then adds that Tribe D would face real competition from Equestrian organics and Aquileian terroir.

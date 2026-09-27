@@ -1,0 +1,8 @@
+- asks:
+  - comparative weighing | weigh the pros and cons of Applejack bringing Mali into the command tent to confront Luna together versus having a private one-on-one emotional confrontation between Applejack and Luna | "What are the pros and cons of Applejack dragging Mali into the command tent to talk with Luna versus it being a one on one emotional argument with Luna"
+  - check/evaluate | judge whether a specific plot turn — Applejack having met Luna's first night guard while both were on the run — counts as a deus ex machina, given the stated reasoning that they were the only two who felt they couldn't risk surrendering and reaching the nearest town alone, and were extracted by a Star Energy truck to Tall Tale | "Is it a deux ex machina that Applejack met Luna's first night guard while on the run?"
+- supplies:
+  - plot scenario sketch - the setup being questioned for deus ex machina | describes how Applejack and Mali (Luna's first night guard), unwilling to surrender or risk a solo run to the nearest town, are extracted by a Star Energy truck to Tall Tale | a couple of sentences
+- shaping:
+- openness: The message poses two separate open questions: it names two specific staging options for the Luna scene without favoring either, and separately asks the model to check whether a stated plot mechanism (the chance meeting/extraction) qualifies as a deus ex machina, laying out the justification as given.
+- subject: Scene-staging choice for an Applejack/Luna confrontation and whether a related plot device (chance meeting and extraction) reads as a deus ex machina

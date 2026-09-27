@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the thematic-progression discussion to ask for a fresh review of their plans and new analyses of the post-war integrated Griffonian Republic and an updated analysis of Eros's surrender, without saying anything in the prior turn was wrong.

@@ -1,0 +1,4 @@
+- sources:
+  - the chapter Ambition | treat as established story material that fixes when the Skyfall revolt happens after the trade council refuses Equestria's blanket aid; the new Caramel Marks and Fire Angel placement is built around it | in the chapter Ambition | referred-to
+- order:
+- about: The user proposes a revision to the model's account of the two Manifesto authors: they stay in Skyfall the whole time as underground communist agitators, are present at the revolt in the chapter Ambition, and are then sidelined by harmonic capitalism.

@@ -1,0 +1,5 @@
+- sources:
+  - Fleur Bloom talking about how earth pony magic actually works | treated as established story content that the model should build on: it validates both Applejack and Twilight | the ultimate validation for both Applejack and Twilight | referred-to
+  - the end of Applebuck Season | cited as a published episode showing Twilight making harvest spells, used as evidence for the author's point | as shown at the end of Applebuck Season | referred-to
+- order:
+- about: The user extends the model's Winter Wrap Up analysis by saying that Fleur Bloom's explanation of earth pony magic resolves the conflict, so that Applejack's labor is validated and Twilight can automate the surface of the harvest without removing its intrinsic value.

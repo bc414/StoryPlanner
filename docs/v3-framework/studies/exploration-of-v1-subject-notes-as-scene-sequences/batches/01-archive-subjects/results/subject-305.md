@@ -1,0 +1,16 @@
+- passages:
+  - 5387 | dated in-world fact | a parody of The Count of Monte Cristo, titled The Count of Mount Boreas, was published in serialized form | 950 ALB | stated as a publication fact with an ALB year; no character acts in it
+  - 5387 | statement about the subject | the original Monte Cristo story ran in a newspaper to sell copies, yet critiques unchecked capitalism and poseurs | none | plain description of the source work's nature and themes
+  - 5387 | design decision | Monte Cristo is a real barren Italian island, so Mount Boreas should be an island off the coast of Wingbardy | none | reasoning from the real island to a setting choice, phrased with 'should be'
+  - 5389 | statement about the subject | the Aquileians and Chrysalis despise the same demographic, the Herzlander/Imperial poseur | none | flat claim of what is true of both parties
+  - 5390 | statement about the subject | the Aquileians use style and culture to redeem tricked poseurs; this is the positive-sum Monte Cristo, the Count's righteous pursuit of dignity and justice | none | thematic comparison, no moment shown
+  - 5390 | statement about the subject | Chrysalis destroys poseurs to make them batteries for her war machine because her ego can't bear that they once saw her as a lesser species; the zero-sum, extreme dark side of the Count's journey | none | thematic interpretation and motive, no moment shown
+  - 5350 | statement about the subject | Gräfin von Krystallfels is Chrysalis's Herzlander name as CEO of Krystallfels Handelsgesellschaft, which mines crystals on an island southwest of Olenia for love harvesters and sale | none | definitional naming of an identity and company
+  - 5350 | statement about the subject | nobles bow to her title and accept her peer-to-peer loans, not realizing Krystallfels is a corporate tax haven and not an ancestral fief | none | describes how the scheme works and what the nobles fail to know
+  - 5350 | statement about the subject | she buys a rock, incorporates it and attaches a fake feudal title, so the nobles who bullied her as an 'uncivilized bug' bend the knee to Skyfall paperwork | none | explains the mechanism and its irony
+  - 5350 | scene beat without a year | when the nobles default she sends Skyfall repo-men and contract law to seize their ancestral estates instead of waging feudal war | none | 'when they inevitably default, she ... deploys'; an event with no date
+  - 5351 | statement about the subject | her classmates are mostly nepo babies who inherited their wealth | none | plain description of a group
+  - 5351 | statement about the subject | many classmates sell depreciating assets for a windfall so they can party for life | none | general behaviour of the group, not a single dated moment
+  - 5351 | unfinished fragment | Chrysalis liquidates the capital equipment for something, and the sentence breaks off | none | sentence stops mid-thought
+- sequences:
+- whole: A loose set of worldbuilding notes on a Count of Monte Cristo parody and on how Chrysalis, as the Gräfin von Krystallfels, and the Aquileians act out positive-sum and zero-sum versions of its revenge-against-poseurs theme, mostly thematic statements with one dated publication fact, one design decision, one undated beat and a cut-off fragment.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of why Aquileians escape Celestia's notice, extends the logic to the thestral therapists with their own proposal, and moves on to ask whether Skyfall expats would be blocked.

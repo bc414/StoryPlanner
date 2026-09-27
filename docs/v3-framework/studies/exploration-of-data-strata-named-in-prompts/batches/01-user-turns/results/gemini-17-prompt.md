@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up historical question about how French villages were first occupied and how civilians were treated during the initial German advance, without pointing at any body of material.

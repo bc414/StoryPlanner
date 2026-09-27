@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a ground-up explanation of Thumbs and templates in WPF, following up on the model's troubleshooting advice without saying anything in it was wrong.

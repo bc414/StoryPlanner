@@ -1,0 +1,11 @@
+- steps:
+  - author | request | asks for French names for the volunteer organization, naming it by its established English title | opening prompt
+  - model | grounding | restates three established lore points (insult hierarchy, Chasseur/Voltigeur lineage, individualist vs collectivist war doctrine) before naming | start of first response
+  - model | option set | offers three categories of French names (military-rooted, blunt/psychological, ideological) each with two name choices and a thematic rationale | first response body
+  - model | integration note | adds a closing note on how the chosen name should read to allied Griffonian Republicans in the field | end of first response
+  - author | narrowing build | proposes two specific name concepts drawn from existing lore terms, 'voltigeurs of passion' and a pun on 'tableau de chasse' | second prompt
+  - model | translation and analysis | renders each concept in French and explains its tie to established concepts (Passion as economic engine, Tableau de Chasse as trophy ledger) | second response body
+  - model | comparative verdict | closes by summarizing which name to pick depending on whether the author wants to emphasize passion-rebellion or arrogant-hunter identity | end of second response
+- kept:
+- brought: The author brought the established faction concept (the Aquileian Anti-Poseur Crusaders) and specific existing lore terms (Voltigeurs, Tableau de Chasse) to seed a French-naming brainstorm.
+- loop: The author brought a naming task anchored in existing lore terms and the model returned layered, lore-justified name options each round, but the archive shows no notes traced from either exchange, so none of this naming work was captured into the planning database.

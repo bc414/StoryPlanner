@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the firearms-metaphor discussion and asks a new question, for a French surname suited to a tailor character, adding that it need not be an idiom like English pony names.

@@ -1,0 +1,5 @@
+- sources:
+  - the author's own account of the story, from memory (jaegers, Tall Tale, Stalliongrad, Reni's framing, Rainbow Dash's and Reni's history) | treat as true and as correcting the model's earlier reading of the mechanics and of Reni's language | I believe in stalliongrad the statthalters drug the conscripts | first-named
+  - the chapter Entrenchment | treat as the place in the plan where Amelie gives Minette the unconditional dignity and system building answer, used as the parallel for Reni's arc | Amelie delivers the unconditional dignity and system building answer to Minette in the chapter Entrenchment | referred-to
+- order:
+- about: The author corrects the model's account of why conscripts freeze at Tall Tale but not at Stalliongrad and of when Reni gains the language of being a contributor, then ties this to Minette and Amelie in Entrenchment and to the Coltbert Reforms.

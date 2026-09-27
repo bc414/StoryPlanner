@@ -1,0 +1,9 @@
+- asks:
+  - choice | asks whether the noble griffonesses would live in the countryside or at the king's palace | "Would they be in the countryside or the king's Palace?"
+  - explain | asks how this arrangement of arranged-marriage noble griffonesses would function | "How does this work?"
+  - explain | asks for an account of the historical interaction between noble lords and the (real-world) Versailles court, apparently as a model for the fictional setup | "What was the interaction between noble lords and Versailles?"
+- supplies:
+  - premise | a worldbuilding idea that noble griffonesses are daughters of "nobles of the sword" placed in arranged marriages to seal alliances | one sentence
+- shaping:
+- openness: Mixed: the location question offers two named options (countryside vs. king's palace) to choose between, while the "how does this work" and Versailles questions are left open as explanatory questions.
+- subject: Worldbuilding for a fictional noble/court system involving griffoness nobility, arranged marriages, and a Versailles-like royal court

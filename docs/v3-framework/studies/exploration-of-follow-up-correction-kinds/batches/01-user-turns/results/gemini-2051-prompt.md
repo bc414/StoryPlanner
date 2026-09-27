@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's proposed Phase 2 protocol lets the AI shift word order, resolve pronouns and re-linearize fragments into new sentences, but the user wants the original text kept verbatim with no rearranging | I don't want any shifting. I want my original text. | flat, blunt rejection stated as a preference
+  - which material was drawn on | The model treated the user's earlier idea of pronoun-ignoring fuzzy verification as endorsing AI rewriting, whereas the user wants a rigid, trust-minimizing approach where the AI does not alter the text | I don't trust the AI to rearrange stuff. I want rigidity. | flat, with a brief reason given (distrust of the AI) and a stated requirement
+- about: The user rejects the model's allowance for word-order shifting and de-aliasing in Phase 2, insisting the original text be preserved unchanged and rigidly handled.

@@ -1,0 +1,9 @@
+- asks:
+  - check | asks whether it's right that the factory would be stuck selling at a loss once a 20% gross sales tax is applied to a 10-bit sale costing 9 bits, and confirms the fix is simply to raise the price to cover the tax | "Shouldn't the factory not be in a situation where...makes it negative? They would simply have to raise the price higher"
+  - worldbuild addition | adds that the kingdom of Aquileia, under Discret, likely bars import of Skyfall steel so gold bits don't leave the country | "Discret probably doesn't allow Skyfall steel into the Aquileia because that would mean gold bits leaving the country"
+  - propose mechanism | proposes that sales to the king are exempt from the gross sales tax, and that this is how Coltbert funds farmers by loaning royal notes they use to buy plows and repay once productive | "if the good is sold to the king, there is no gross sale tax...This is how Coltbert gets capital equipment to loan out to the farmers"
+  - revise plot | changes the thugs' fate from becoming PNdA workers/guards to founding their own party, the MPA, led by Martial Rodier, holding 18% support in the 2nd Aquileian Republic as a poseur/monarchist/fascist faction | "They form their own party, the MPA...lead by martial Rodier from the army...18% support"
+- supplies:
+- shaping:
+- openness: Leans toward the answers it names: it states the tax-and-pricing fix, the trade-ban rationale, the tax-exemption mechanism, and the thugs' new political arc as settled additions rather than open questions.
+- subject: Worldbuilding fixes and additions for a fictional kingdom's economy and politics: sales tax logic, trade protectionism, a royal loan-financing scheme, and a new political party

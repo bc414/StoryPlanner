@@ -1,0 +1,4 @@
+- sources:
+  - my story plan | the material the organizer is to be used on; to be organized, consolidated and analyzed, not treated as settled or outdated | organize and consolidate and analyze my story plan | referred-to
+- order:
+- about: The user reports that the Sorter step of their note organizer, which uses a Gemini API call, gives incomplete results, and asks for inventive ways to use the organizer to organize, consolidate and analyze their story plan.

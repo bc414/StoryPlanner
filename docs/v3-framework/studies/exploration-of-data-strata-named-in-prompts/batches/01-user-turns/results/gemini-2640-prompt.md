@@ -1,0 +1,4 @@
+- sources:
+  - visual examples of the two of them | use as grounding for the answer, anchoring the reply in what the images show | I am providing visual examples of the two of them to ground the answer | first-named
+- order:
+- about: The user asks whether big-spoon versus little-spoon positioning changes C-tactile afferent engagement for the two ponies, and attaches images of them for the model to ground its answer in.

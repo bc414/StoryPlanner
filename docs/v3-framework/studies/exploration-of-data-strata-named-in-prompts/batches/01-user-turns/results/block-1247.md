@@ -1,0 +1,9 @@
+- sources:
+  - chapter 10 of KU, the relevant parts (the Ignatio perspective scene, the earlier reveal that Count Ignatio expects Terry to marry Helena, and Lily asking Helena if she and Terry are a thing) | read these passages and base the analysis on them; treat them as the evidence for the implicit thread the author designed | Read the relevant parts and give an analysis | referred-to
+  - the implicit thread designed into KU | treat as a source of lessons; draw first-principles mechanisms from it that transfer to TLTT, not story-specific architecture | What can I learn from this implicit thread that I sort of designed into KU | referred-to
+  - the passages the model created as examples | treat as unrepresentative of the author's voice; not something the author would write | None of the passages you created as examples resemble anything I see myself writing | referred-to
+  - the model's own training data and pattern matching (every book in history) | treated as the origin of the model's voice, which is why it can't be used for the author's prose | Your voice is a product of pattern matching and reasoning on training data | referred-to
+  - the author's own writing voice | treat as the standard the model's examples fail to match; author voice is what the model's prose lacks | anything I see myself writing | referred-to
+  - the 5 layers text in the story planner that is not presented to the reader | open question of whether its voice matters at all; no stance taken yet | the 5 layers text that exist in the story planner but not presented to the reader | referred-to
+- order:
+- about: The author asks the model to read specific KU chapter 10 passages and name the implicit design principle behind them for use in TLTT, then asks whether mid-scene POV changes are permissible, and reflects on why model-written prose does not match their voice and whether voice matters in the unpublished planner text.

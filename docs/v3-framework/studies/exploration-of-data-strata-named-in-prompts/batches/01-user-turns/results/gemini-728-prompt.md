@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a brief clarifying question about whether NotebookLM is included in a Gemini AI Pro subscription, without pointing the model at any body of material to use or avoid.

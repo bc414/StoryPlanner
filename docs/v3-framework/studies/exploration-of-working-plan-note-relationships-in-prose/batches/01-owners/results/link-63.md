@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 1860 | Dennis Discret, a character held elsewhere in the plan | Dennis Discret brings the entire Royal Aquileian Navy
+  - 1860 | Seaquestria, a place being defended, described elsewhere | to defend Seaquestria
+  - 1860 | The warlord poseur horde, an opposing force described elsewhere | take down the warlord poseur horde
+  - 1860 | The monster hunting crews, a group not described in this item | The monster hunting crews are ready
+- whole: ["This owner holds only a single note, so there is nothing in it to hang together or to separate."]

@@ -1,0 +1,4 @@
+- sources:
+  - attached document | supplied alongside the bucket list as material for the model to work with; the turn gives no instruction on how far to trust it or rank it | [Attached document: 12NEpRU3sDbscv8lkrbInYuxgy_lvwhfA] | first-named
+- order:
+- about: The user attaches a document and hands back a JSON of bucket names already grouped under paradigms, with no spoken instruction, apparently as the next input for the sorting task.

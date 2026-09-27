@@ -1,0 +1,7 @@
+- sources:
+  - Chapter 7 (that Applejack does not go to Manehattan and it is narrated entirely by Rarity) | treat as now settled: this replaces the earlier assumption that Applejack travels to Manehattan | stated flatly as fact ('Applejack does not go to Manehattan. Chapter 7 is narrated entirely by Rarity') | first-named
+  - chapter 8 (Rarity relaying the Hearth's Warming Bonds to Applejack over the radio) | treat as settled plan content | stated as a direct fact about the chapter's content | first-named
+  - the town hall at the end of chapter 9 (where Comet Shine names 'Harmonic Capitalism' and the reveal to Applejack occurs) | treat as settled plan content, building on the epiphany scene already discussed | stated as where the reveal 'is revealed' | referred-to
+  - Applejack's own childhood memory/backstory (that as a filly she only knew Skyfall as the source of industry, since it's where her parents disappeared to for months) | offered as a tentative, speculative justification rather than a settled fact | introduced with 'Maybe it makes sense' and 'Applejack as a filly only knew...' | first-named
+- order:
+- about: The user turn revises the plan for chapters 7-9 (Rarity's solo narration, her radio relay to Applejack, and the town-hall naming of 'Harmonic Capitalism') and poses an open question, with a tentative rationale, about whether Applejack's parents should reveal the Griffonian Republic connection or continue crediting Skyfall and the Aquileian parloir.

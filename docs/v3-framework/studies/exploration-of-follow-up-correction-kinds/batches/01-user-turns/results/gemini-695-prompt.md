@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for more detail on Gascons and how they compare with Occitans, Parisians and rural northerners like Champagne, building on the archetype discussion without challenging it.

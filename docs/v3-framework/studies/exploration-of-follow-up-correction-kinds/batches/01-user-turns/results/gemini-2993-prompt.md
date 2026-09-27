@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the discussion to ask for a formal, first-principles breakdown of what makes up a story's Fabula and the scope of developmental-editor analysis, so they can write system instructions that steer the model away from generic prose-generating behavior.

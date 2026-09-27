@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to write model classes for their "narrative loom" local interactive-server Blazor app, without pointing at any body of material to draw on.

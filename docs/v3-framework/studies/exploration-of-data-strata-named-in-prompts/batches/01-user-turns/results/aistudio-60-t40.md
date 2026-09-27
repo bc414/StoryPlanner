@@ -1,0 +1,4 @@
+- sources:
+  - the canon use of crystaller from the episode The Crystalling, including the role Sunburst takes on | reference point to compare the user's proposed Unicorn 'crystallers' against; treated as the established canon baseline | How does that compare to the canon use of crystaller from the episode The Crystalling | referred-to
+- order:
+- about: The user floats a provisional worldbuilding idea, that the Unicorns who filtered emotions into the Crystal Heart called themselves crystallers, and asks the model to compare it with canon's use of the term in The Crystalling and the role Sunburst takes on.

@@ -1,0 +1,8 @@
+- sources:
+  - Analogies track, real-world (mostly historical, can also be present-day) inspiration | defines what the Analogies track should hold: real-world inspiration for the story, used together with the Canon track | Analogies track should specifically be about real-world (mostly historical, can also be present-day) inspiration | first-named
+  - Canon track | the partner track that the Analogies track works in tandem with | Works in tandem with the Canon track | referred-to
+  - Allegories track, present-day allegories | defines what the Allegories track should hold: deliberate present-day allegories for social commentary, sometimes overlapping with present-day real-world inspiration | Allegories track which is specifically about present-day allegories | first-named
+  - WW2 | named as a historical study source of real-world inspiration, because EaW is based on it | like WW2 since EaW is based on it | first-named
+  - my research | the author's own research supplies further historical inspiration beyond WW2 | plus others from my research | first-named
+- order:
+- about: The user is refining the definitions of the Analogies, Allegories and Canon tracks (real-world inspiration versus present-day social-commentary allegory) and shares the color mapping for all the track types.

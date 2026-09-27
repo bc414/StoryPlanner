@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's account of the passive Japanese male narrator and asks a follow-up on its historical causes, comparing it with Western conventions and with Confucian scholar ideals in Korea and China, and raising Bushido nationalism, the Tokugawa period and the Meiji Restoration as possible explanations.

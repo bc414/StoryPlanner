@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only a plan export attachment with no accompanying text, so it supplies planning material without responding to or challenging the propaganda ideas before it.

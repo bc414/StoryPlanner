@@ -1,0 +1,4 @@
+- sources:
+  - the model's previous analysis of Fleur's backstory ("this") | treat as the base to build on; the new idea extends it and is added on top, not a replacement | "I want to expand on this" | referred-to
+- order:
+- about: The user is extending the discussed Fleur backstory with a new motivation: she wanted to leave the farm because she was bad at farming, her parents gave her books to keep her there, and reading Coltbert's theory made her realize she felt no pride in the farm but loved science.

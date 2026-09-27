@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the Zeppelin-raid explanation as it applies to their story, with the Storm King's high-flying armada safe from muskets until fighter planes with white phosphorus set the warlords' airships burning, and asks the model implicitly to confirm this.

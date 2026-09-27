@@ -1,0 +1,7 @@
+- asks:
+  - inform | lays out, as the user's own conception, the political setup of Skyfall, Dennis Discret's origins and betrayal arc, the privateers' hidden plan, and the resulting reward, without posing a question or naming a task for the model | "Here is how I imagine it"
+- supplies:
+  - idea sketch | worldbuilding and character backstory: Skyfall's weak-government/VOC-like structure, Dennis Discret's minor-noble origin and double betrayal, the shipping companies' rogue plan against Aquileian universities, his reward as Baron of Pridea, and the resulting cause of Vérany's faction's hatred of Skyfall | several sentences across one paragraph
+- shaping:
+- openness: Leaves the response open, since the message only states the user's own imagined backstory and draws a causal conclusion at the end, without asking a question, requesting a choice, or directing the model toward any specific kind of reply.
+- subject: Backstory for Skyfall's political system, Dennis Discret's rise to Baron of Pridea through betrayal, and why it makes Vérany's faction hate Skyfall

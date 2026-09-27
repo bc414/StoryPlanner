@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | the model framed the comparison around web and microservice concerns (payload size, parsing speed, performance) when the real setting is semiconductor fab equipment control software that loads files once at startup, so those criteria don't matter | "This is not for internet micro services" and "performance is irrelevant" | flat statement of the actual context, with the reason given (files are loaded once at startup), then moved past to the next question
+- about: The user restates the real use case (wafer fab equipment software, one-time load at startup, so performance is irrelevant), then uses it to lean toward XML and ask whether a flat list with reference IDs and custom reconstruction logic would let JSON work too, or whether a better paradigm exists.

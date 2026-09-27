@@ -1,0 +1,7 @@
+- passages:
+  - 4902 | planning remark | a judgment that Celestia's advice is a bad retcon, flagged as a mandate problem to address | none | terse fragment naming the advice and calling it a bad retcon
+  - 4902 | scene beat without year | Twilight wonders whether Celestia set her friends up | none | written as something Twilight does (wonders); no date or year
+  - 5468 | planning remark | a judgment that Twilight bottling things up is the worst version of her, likened to fake friendship | none | evaluative wording ("the worst", "like fake friendship"); not an event
+  - 5468 | reference pointer | a note to also consider The Mean 6 alongside this | none | introduced with "Also" and a bare title
+- sequences:
+- whole: A pair of short, terse planning notes about how to handle a Hasbro mandate involving Twilight, Celestia's advice and bottled-up feelings, mostly critical remarks with one small Twilight-wondering beat and a pointer to The Mean 6.

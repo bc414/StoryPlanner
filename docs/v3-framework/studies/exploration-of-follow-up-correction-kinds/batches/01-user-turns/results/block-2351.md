@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the critique of Gemini to ask how Claude's product positioning and design philosophy differ, adding their own impression that Gemini 2.5 Pro helped a great deal while the current Gemini 3.1 Pro feels unstable, without disputing what the model said.

@@ -1,0 +1,6 @@
+- sources:
+  - my initial thought (Zecora as an ally of Chiropterra helping Nightmare Moon) | earlier idea of the author's, now set aside in favour of a different version | My initial thought was ... But it seems to make more sense | referred-to
+  - the revised Zecora backstory (harmonic chieftain of a Zebra village destroyed by Chiropterra, went to the Everfree to stop Nightmare Moon, stayed with no home) | the author's new proposal, treated as the better fit but tentative, not yet settled | it seems to make more sense if she was | first-named
+- order:
+  - the revised Zecora backstory | over my initial thought (Zecora as ally of Chiropterra) | But it seems to make more sense if she was
+- about: The user drops their first idea of Zecora as a Chiropterran ally and proposes instead that she was a harmonic Zebra chieftain whose village Chiropterra destroyed, who came to the Everfree Forest to stop Nightmare Moon and stayed because she had no home and the forest has potion ingredients.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the definition of economic games to a new request, an objective historical report on public sentiment about games (Call of Duty versus mobile games like Candy Crush) tied back to the earlier economics and mass-market versus niche discussion, with more game examples, and corrects nothing in the model's turn.

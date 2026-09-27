@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn hands over a new batch of raw notes, about stagnation, the Hopff cycle and Applejack's synthesis, along with a fresh set of target paradigms and buckets to sort them into. It does not comment on the previous sorted output.

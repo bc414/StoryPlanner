@@ -1,0 +1,5 @@
+- sources:
+  - my existing story plans | the material to check the timeline shift against, to find what parts of it would be lost or broken by the change | What do I lose from my existing story plans | referred-to
+  - We've talked a lot about the benefits of shifting the timeline | earlier discussion in this conversation, taken as the established case for the shift (the gains); the model is now to weigh it against the losses | We've talked a lot about the benefits | referred-to
+- order:
+- about: The user asks the model to audit their existing story plans for what would be lost by making the Stagnation of Harmony a recent policy instead of a thousand-year one, after the conversation has so far covered only the benefits.

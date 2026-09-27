@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - environment/tool-connection state | the model's implicit assumption that it could now successfully call the tool was mistaken, since the connection still needed a restart | "Try again, I restarted the claude desktop application" | matter-of-fact, giving the reason in passing while issuing a new instruction
+- about: The user tells the model to retry the tool call now that they have restarted the Claude desktop application, implying the earlier attempt still hadn't worked.

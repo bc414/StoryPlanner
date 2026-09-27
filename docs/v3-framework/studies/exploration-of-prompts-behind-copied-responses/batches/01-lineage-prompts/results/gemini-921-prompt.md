@@ -1,0 +1,7 @@
+- asks:
+  - refine | develop and strengthen the causal reasoning linking Applejack's parents' childhood/young-adult experience of the apple-vs-pear tribalism feud to their later ambition to become industrialists | "please help me refine the reasoning"
+- supplies:
+  - plan passage | a revised backstory for Applejack's parents: their membership in the Skyfall cohort, the reinterpretation of AJ's canon cutie-mark story as a family relocation to Manehattan, Big Mac staying on the farm, the family's prior weekend trips to Manehattan, the parents' monthly visits and rapport with Rarity, Comet Shine naming them as his classmates in chapter 2, and the tie-in to the chapter 9 Harmonic Capitalism town hall as redemption for both Twilight and Applejack | several paragraphs
+- shaping:
+- openness: leans toward an answer it already names (the parents became industrialists because of their tribalism-scarred upbringing) and asks the model to refine/develop that reasoning rather than propose alternatives.
+- subject: Reworking Applejack's parents' backstory (Skyfall cohort, industrialist motive, cutie-mark reinterpretation) and its links to Comet Shine and the chapter 9 town hall

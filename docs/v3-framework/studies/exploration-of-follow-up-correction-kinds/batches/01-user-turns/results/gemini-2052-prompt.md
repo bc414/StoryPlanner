@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question about whether the prompt's atomic chunking rule should split strictly by sentence, without saying anything in the model's prompt was wrong.

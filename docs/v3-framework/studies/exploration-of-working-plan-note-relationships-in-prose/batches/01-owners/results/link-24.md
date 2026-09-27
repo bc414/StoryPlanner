@@ -1,0 +1,8 @@
+- relations:
+  - 458 | 457 | 458 plans a piece of stage behaviour, mocking, that would carry out what 457 states as her role, being the showy voice of her side against the other side's tired rhetoric | mock the industrialists to reveal their hoarding / mouthpiece and optics of EEEE! | implicit
+- outward:
+  - 456 | Rarity, another character held elsewhere in the plan, who is paired with Trixie | Trixie and Rarity are both creatives at heart
+  - 457 | EEEE!, a movement or cause defined elsewhere in the plan | mouthpiece and optics of EEEE!
+  - 457 | Flowing Current, a rival ideological group whose rhetoric is described elsewhere | Flowing Current's stale or repetitive ideological rhetoric
+  - 458 | The industrialists, a group of characters not among this item's notes, and their hoarding | mock the industrialists to reveal their hoarding
+- whole: Mostly separate entries: one note about Trixie's public role and one about her mocking behaviour bear on each other, while the note pairing her with Rarity stands apart.

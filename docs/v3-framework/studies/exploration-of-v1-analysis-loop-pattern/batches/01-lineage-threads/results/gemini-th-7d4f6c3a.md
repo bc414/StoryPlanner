@@ -1,0 +1,17 @@
+- steps:
+  - author | brings canon text | pastes in-game Tall Tale description, questions whether a harvest festival fits a convention center | opening of gemini:608
+  - author | sets constraint | establishes that Tall Tale has no civilians, only volunteers/factory workers/farmers | same message as above
+  - model | expands setting | turns convention-center idea into an Expo Hall, gives POW restriction rationale, breaks down worker-group attitudes, proposes a Museum of Agriculture cover site | gemini:608 response
+  - author | corrects physical facts | states changelings are pony-sized not strong, monster perception comes from aesthetics/drugs not physical threat, adds established rule that only earth ponies farm well | gemini:609 prompt
+  - model | revises system | reworks labor division, pest-control role, museum cover, and patch scene to fit the corrected physiology | gemini:609 response
+  - author | adds abilities and rules | introduces flight/shapeshift/telekinesis, bans shapeshifting outside the conservatory citing VOPS infiltration and a detection spell, floats animal-communication use, asks when rings come off and how fresh POWs are processed | gemini:610 prompt
+  - model | builds protocol | proposes an inhibitor-ring geofence rule, a no-shapeshift-into-pony law, flight limits, and a three-phase intake pipeline | gemini:610 response
+  - author | redirects plan | drops outdoor labor for changelings, specifies no process exists yet at the chapter's start beyond handing out bread, explains guards' misperception logic, asks whether cells are needed versus an open area, requests real WWII POW camp comparison | gemini:611 prompt
+  - model | supplies history and revision | gives German/Japanese POW handling facts, diagnoses the bread-only approach as inadequate, proposes a soft-cell silk-cocoon phase, reframes the ring as a medical restraint, adds a peer-sponsor system | gemini:611 response
+  - author | asks medical fact and revises mechanics | asks how fast methadone relieves fentanyl withdrawal, specifies the combat drug as a meth-fentanyl composite with detailed effects, asks about donated love's speed and anhedonia's cure, requests a pipeline rewrite | gemini:612 prompt
+  - model | answers and rebuilds pipeline | gives a methadone-timing figure, delivers a four-phase pipeline table mapped to the drug mechanics | gemini:612 response
+  - author | asks for validation | requests comparison of the pipeline to real rehab facilities and to Allied WWII camp organization for the non-fanatic cohort, specifically cells versus open areas | gemini:613 prompt
+  - model | validates with parallels | maps each pipeline phase to real detox/residential addiction-care stages and to Allied intellectual-diversion and trusty-worker programs, gives a final structural summary | gemini:613 response
+- kept:
+- brought: The author brought in the canon in-game Tall Tale description and previously established worldbuilding facts (changeling physiology, earth-pony farming magic) to ground and correct the model's proposals for the POW camp.
+- loop: The author repeatedly brought corrections, new constraints, and pointed medical/historical questions about the POW rehabilitation system, and the model answered with escalating structured protocols and pipelines validated against real-world addiction medicine and WWII camp administration; no notes were traced from this stretch, so none of this back-and-forth was captured into the planning database in this round.

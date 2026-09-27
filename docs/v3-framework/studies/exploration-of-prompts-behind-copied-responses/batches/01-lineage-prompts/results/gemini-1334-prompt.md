@@ -1,0 +1,7 @@
+- asks:
+  - evaluation | judge whether "voltigeur" is the best available term for the role in question | "Is voltigeur the best term"
+  - brainstorm | list other French terms, from history or the present day, that could describe the same role | "other historic or present French terms to consider for the role"
+- supplies:
+- shaping:
+- openness: Mixed: it asks the model to check the merit of one named term ("voltigeur") while leaving the search for alternative terms open-ended, without naming any specific other candidates.
+- subject: choosing the right French term for a role, weighing "voltigeur" against other historic or modern French terms

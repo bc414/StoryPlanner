@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether a feature called "personal intelligence" is able to access or search through the user's past Gemini chat histories | "Can personal intelligence go through past Gemini chat histories?"
+- supplies:
+- shaping:
+- openness: Open: it is a plain yes/no factual question with no named answer, option, or stated claim to verify.
+- subject: Whether Gemini's personal intelligence feature can access past chat history

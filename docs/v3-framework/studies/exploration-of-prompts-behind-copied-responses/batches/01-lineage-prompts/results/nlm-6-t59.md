@@ -1,0 +1,18 @@
+- asks:
+  - choose | decide, or note the message's own leaning, whether the peripherie warlords regain their castles or anarchists take over those provinces | "I want the peripherie warlords to manage to get their castles back, or perhaps anarchists take over those provinces"
+  - explain | expand on what role the clergy plays in the setting | "Please also expand on the role of the clergy"
+  - check | assess whether Verany's plan to disperse the royalists into the countryside makes sense as a way to keep them alive as a faction for later | "Does this make sense as a way to preserve the royalists to be a faction later?"
+  - evaluate | judge whether dispersing the royalists is a good or bad tactical move for Verany | "Is this a good or bad move for Verany?"
+  - analyse | produce an updated overall analysis of the story's factions | "Give an updated analysis of the factions"
+  - draft | produce an updated table with all factions as rows and the story's phases as columns | "an updated table with all the factions as rows and the phases as the columns"
+- supplies:
+  - bandit-faction note | ex-warlord subjects who turned to banditry, skilled only at violence, unable to farm, craft, or father | a couple of sentences
+  - warlord/anarchist outcome note | proposed alternative fates for the dispossessed peripherie warlords after the counterrevolution | a sentence
+  - counterrevolution and reform note | the 981 counterrevolution recovering only half of Aquileia, Coltbert's Reforms, the chasseurs hunting traitorous nobles and freeing serfs into a new economy | a short paragraph
+  - Skyfall/Moriset Discret scheme note | Moriset hiring Skyfall privateers for the counterrevolution, their preference for Skyfall Marks over gold, their destruction of bourgeois universities, Dennis Discret's bribe into lordship sparing the University of Pridea, and Moriset recruiting repatriated griffons and bandits into a secret police/thug force | several paragraphs
+  - Verany/royalist policy note | Verany's decision to expel royalists to the countryside after the king's beheading, his motives of stabilizing the city and making the swollen peasant population beholden to it, and his view of royalists as nobodies without their seals | a paragraph
+- shaping:
+  - table must have all factions as rows and all phases as columns | "a table with all the factions as rows and the phases as the columns"
+  - analysis and table should be an 'updated' version, implying continuity with prior faction analysis | "updated analysis of the factions" / "an updated table"
+- openness: "Mixed: the message states most new lore (bandits, counterrevolution, Skyfall scheme, Verany's policy) as settled fact for the model to build on, offers one named either/or choice for the peripherie warlords' fate, and poses two open evaluative questions about whether Verany's move makes sense and whether it is good or bad."
+- subject: Refining factions (bandits, warlords, clergy, Skyfall mercenaries, royalists) in the Aquileia setting after the counterrevolution, and updating a faction/phase table

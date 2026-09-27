@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 1374|The 995 mutiny, an event held elsewhere in the plan, and the Captain who led it|The 995 mutiny demonstrates
+  - 1374|Skyfall's violent capitalism, a setting or lore held elsewhere|Skyfall's violent capitalism
+  - 1374|The Equestrian institution where the Captain was purged, held elsewhere|Equestrian institution and was immediately purged
+  - 1374|The concepts of Stagnation and Total War as opposing poles, developed elsewhere|no middle ground between Stagnation and Total War
+- whole: This owner holds only one note, so there is nothing for it to hang together with, and it reads as a single entry whose material lies in other parts of the plan.

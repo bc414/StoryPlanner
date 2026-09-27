@@ -1,0 +1,5 @@
+- sources:
+  - attached document (an id-labelled file, contents not captured) | supplied as input material with no stated instruction or priority, so its weight is unstated | Attached document: 1aU5V6XSgq4IAUvOFZamze3ZsytUwXai3 | first-named
+  - CategorizedBuckets (the JSON list of paradigms with their bucket names) | supplied as the bucket structure grouped under paradigms, with no stated instruction on how to treat it | CategorizedBuckets | first-named
+- order:
+- about: The user sends an attached document plus a JSON list of bucket names grouped under paradigm headings, with no accompanying instruction in words.

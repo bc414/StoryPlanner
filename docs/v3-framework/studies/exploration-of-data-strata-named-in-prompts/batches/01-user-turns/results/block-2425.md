@@ -1,0 +1,7 @@
+- sources:
+  - The Lioness of Tall Tale (2).pdf, the older planning document from before AI assistants but after reading P&K | to be read and analyzed as the second of four versions of the Tzinacatl arc, a historical stage of the plan, not ranked against the others | Here was an older planning document from before AI assistants but after reading P&k | first-named
+  - P&K | to be analyzed as the first of four versions of the Tzinacatl arc, the point of comparison | 1. P&K | referred-to
+  - The plan before this convo | to be analyzed as the third of four versions of the Tzinacatl arc | 3. The plan before this convo | referred-to
+  - The plan after this convo | to be analyzed as the fourth of four versions of the Tzinacatl arc, as it stands after this conversation's changes | 4. The plan after this convo | referred-to
+- order:
+- about: The user attaches an older pre-AI planning document and asks for a four-way comparative analysis of the Tzinacatl arc across P&K, that old document, the plan before this conversation, and the plan after it.

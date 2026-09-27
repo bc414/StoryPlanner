@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user gives a revised step-by-step timeline for the Manehattan referendum arc, covering the mayor, Celestia's hidden paralysis, a failed first vote and a self-imposed strict second vote, and explains why this keeps Celestia's psychology and hidden motive intact.

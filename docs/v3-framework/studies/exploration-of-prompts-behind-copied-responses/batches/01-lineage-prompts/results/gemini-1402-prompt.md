@@ -1,0 +1,8 @@
+- asks:
+  - analysis | produce an analysis of how the story's political framework applies to readers' real world as a social-commentary takeaway | "Now I want an analysis of how this can apply to world of my readers as a takeaway (social commentary)"
+- supplies:
+  - thesis mapping | lays out the story's stage taxonomy (Stage 1, 2, 3A, 3B, 3C) and maps its 'predator' characters (Chrysalis, Vérany, bourgeois rugged individualists, Skyfall) plus Kemerskai's and Applejack's arcs onto real-world American elites/propaganda/lobbying/drugs/social media and onto Global South decolonization trajectories | several paragraphs
+- shaping:
+  - frame the requested analysis specifically as a reader-facing takeaway / social commentary, not as narrative or craft discussion | "as a takeaway (social commentary)"
+- openness: Leans strongly toward an answer it already names: that America is simultaneously 'Stage 3A' (predator-controlled) and 'Stage 3C' (stagnant) and should follow Applejack's arc toward Stage 3B, while Kemerskai's Stage1→2→3B path is named as the ideal (versus the likely 3A reality) for formerly colonized nations.
+- subject: Applying the story's fictional political-stage allegory (predators, Kemerskai, Applejack) to real-world American and postcolonial politics as social commentary

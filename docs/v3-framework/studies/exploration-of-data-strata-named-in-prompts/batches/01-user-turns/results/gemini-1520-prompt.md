@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user questions whether the Gross Sales Tax destroys the private market or only raises costs, proposes wine and cheese as black-market reserve assets by analogy to the petrodollar, and asks for a thug bribe market with a race to the bottom, without pointing the model at any body of material.

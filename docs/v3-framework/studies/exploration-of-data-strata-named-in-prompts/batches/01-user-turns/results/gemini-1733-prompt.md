@@ -1,0 +1,7 @@
+- sources:
+  - mlp.fandom.com transcript of A Dog and Pony Show (the canon episode) | analyze it as the canon episode to be recontextualized | Https://mlp.fandom.com/wiki/Transcripts/A_Dog_and_Pony_Show | first-named
+  - my story plan lore (timeline, war in 1011 ALB, season 1 at 1000 ALB, early seasons before the war) | treat as the authoritative frame through which to reinterpret the episode; timeline facts to be applied | recontextualized by my story plan lore; All of the early seasons happen in my timeline before the war | referred-to
+  - the lore that Rarity idealizes Aquileian culture through the parloirs | use as the specific lens for reading Rarity's manipulation | lines up with the lore that she idealizes Aquileian culture through the parloirs | referred-to
+  - the author's own clarification about the Diamond Dogs and gems (goofy local dogs, fashion gems not power crystals) | treat as correction to apply; the dogs are not a threat and the gems are not power crystals | These really are just goofy dogs who live in Equestria, and these gems are not the power crystals | first-named
+- order:
+- about: The user gives a transcript link and asks for an analysis of the canon episode through their story plan lore, correcting the timeline and the nature of the dogs and gems, and directing focus to Rarity's manipulation and her idealization of Aquileian parloir culture.

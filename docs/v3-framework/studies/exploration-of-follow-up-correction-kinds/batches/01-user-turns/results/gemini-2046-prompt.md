@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes a sample Phase 1 output and moves on to Phase 2. They ask whether it should be the Sorter's input, ask about the orphan-concept rules, ask for the Phase 2 system prompt, and ask for a list of the requirements captured so far.

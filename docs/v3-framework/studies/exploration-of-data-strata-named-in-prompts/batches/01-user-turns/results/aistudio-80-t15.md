@@ -1,0 +1,6 @@
+- sources:
+  - Muscovite culture and other principalities from pre-industrial times | draw on as real-world historical parallels for deciding what kind of nobles the boyars should be | Give parallels to Muscovite culture and other principalities from pre-industrial times | first-named
+  - Celestia agrees to arbitrate their disputes | treat as an established story fact and use it as the premise for the boyars' rank, which the user infers must be lower than feudal lords | Since Celestia agrees to arbitrate their disputes | referred-to
+  - griffons as feudal lords | use as the benchmark the boyars should fall below in power and autonomy | must be less than feudal lords like griffons | referred-to
+- order:
+- about: The user asks the model to work out whether the boyars should be feudal lords, village leaders or something between, using real Muscovite and other pre-industrial principality parallels, and offers their own inference from Celestia's arbitration that the boyars rank below griffon feudal lords.

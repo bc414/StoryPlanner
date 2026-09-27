@@ -1,0 +1,9 @@
+- asks:
+  - review | asks the model to go over the existing story plan document/material | "Review the story plan"
+  - analyze | asks the model to produce an analysis of the story plan, evidently in light of the user's stated theory | "give an analysis"
+  - identify/list | asks the model to call out further elements present in the story plan beyond the ones the user already named | "point out other elements in the story plan"
+- supplies:
+- shaping:
+  - content to address | the analysis should engage with the three examples the user offers as evidence: economic integration of the Tzinacatl and buffalo, universal translators, and the story's themes as grown-up versions of Lauren Faust's themes | "via the economic integration of the Tzinacatl and buffalo, universal translators and the themes being Lauren Faust's themes but grown up versions"
+- openness: Leans toward an answer it names for the analysis part (the user's own theory that the plan already hints at 'this' through the three cited elements), while the request to point out other elements is left open-ended.
+- subject: Whether the story plan already signals a claimed thematic/conceptual idea (via species economic integration, universal translators, and mature Lauren Faust-style themes), plus a broader review of the plan's other elements.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the full chat history is counted as tokens on each new prompt, seeking clarification of the token-consumption point without saying anything in the prior answer was wrong.

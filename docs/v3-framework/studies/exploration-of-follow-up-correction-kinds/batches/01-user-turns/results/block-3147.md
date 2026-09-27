@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the foal-story synthesis as settled and moves on to the next open question, setting out a constraint on who designed the repatriation system and asking for an analysis of the existing v1 data, how the seafaring escort mythology became the Winter Wrap Up foal delivery, and what other effects that has on the fabula and syuzhet.

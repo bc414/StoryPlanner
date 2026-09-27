@@ -1,0 +1,13 @@
+- relations:
+  - 208|204|208 gives the canon-based reason for the shared trait that 204 states as bare fact, that crystal ponies sense emotion like changelings|Why do changelings and crystal ponies have the same emotion sense|implicit
+  - 208|207|208 explains the friendship-as-calories mechanic that 207 lays out as world truth, by tying it to Cadance's love feeding changelings and holding up the shield|same emotion sense and friendship as calories biology|implicit
+  - 207|205|207 supplies the evolutionary cause (calorie scarcity, friendship turned into calories) behind 205's crystals as a visible sign of caloric surplus and stored friendship|turning friendship and charitostatics into survival/calories/vitality|implicit
+  - 206|205|206 gives a canon occasion of the crystallization that 205 defines: ponies regain color after hearing of the faire, and the blast crystallizes non-crystal ponies|get color back to their dull coats|implicit
+  - 206|207|The crystal ponies' coats going dull and recovering through a friendship-related event fits the scarcity-to-friendship-fed vitality that 207 gives|crystal ponies literally get color back|implicit
+- outward:
+  - 204|Changelings, whose emotion sense is used as the comparison, held elsewhere|just like changelings
+  - 205|Windigo thymodynamic magic stored in crystals, lore held elsewhere|thymodynamic magic from windigos are stored in crystals
+  - 206|A canon episode about the crystal faire|the crystal faire
+  - 206|The big blast at the faire, an event from canon|The big blast at the crystal faire
+  - 208|The canon episodes Canterlot Wedding and The Crystal Empire, and Cadance's love magic|Canterlot Wedding was about changelings feeding on Cadance's love
+- whole: These notes hang together loosely: the ontology notes (204, 205, 207) state one mechanic that the two canon notes (206, 208) ground in episodes, though the links are carried by content and no note points at another by name.

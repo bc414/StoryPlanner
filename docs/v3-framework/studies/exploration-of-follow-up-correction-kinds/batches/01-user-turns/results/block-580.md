@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's futility analysis by supplying new plot: the Aquileians' apprenticeship and family-smuggling response, Reni's backstory and the FJA raids that feed the Storm King's rise, and the Crystal Empire as Minette and Reni's new cause, without disputing anything the model said.

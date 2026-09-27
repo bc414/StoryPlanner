@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the rotating-perspective technique just described suits dramatic irony and requests an explanation of what dramatic irony truly means and how it works, without pointing the model at any particular body of material.

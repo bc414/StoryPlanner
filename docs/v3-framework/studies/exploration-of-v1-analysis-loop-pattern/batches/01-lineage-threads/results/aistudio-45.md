@@ -1,0 +1,16 @@
+- steps:
+  - author | supplies background material | an attached planning document | opening of the exchange
+  - author | poses a characterization problem and a tentative explanation, then self-corrects with a timeline detail | question of why Celestia doesn't stop Rockfeller, a denial-based theory, and the Over a Barrel dating | early in the exchange
+  - model | builds a structural justification | four-part framework (sovereignty trap, ideological threat, therapeutic response, macroeconomic blind spot) plus follow-up questions | following the author's opening problem
+  - author | corrects a canon detail and narrows the request | fixes the Appleloosa premise, endorses the HR-pacification angle, asks for concrete platitudes | after the model's first framework
+  - model | supplies concrete mechanisms and a canon tie-in | specific platitudes (forums, red tape, bad-apple framing) and a reading of the Appleloosa episode as confirmation bias, plus follow-up questions | after the author's narrowed request
+  - author | introduces a new plot mechanic and demands a sharper reframing | Equestrian-mercenary/New Mareland pipeline idea and a request to harden the 'both sides' logic into a two-tiered worldview | after the second framework
+  - model | expands both mechanics into full logic | recruitment/exile pipeline mechanics and a deliberate-quarantine version of Celestia's worldview, plus follow-up questions | after the author's new mechanic
+  - author | compiles the model's prior claims into a checklist and requests a verdict | seven candidate statements submitted for keep-or-scrap judgment | after the two expanded frameworks
+  - model | issues a graded verdict with revisions | keep/tweak rulings on each statement, two rewritten passages, and a summary characterization | closing exchange
+- kept:
+  - note 5585 | pasted from this reply inside the author's own framing | keeps a synthesized case for Celestia's non-malicious paralysis, her macroeconomic blind spot, bureaucratic gridlock, and Appleloosa confirmation bias, filed as a character note
+  - note 5586 | pasted whole from this reply | keeps the two-tiered worldview distinguishing Celestia's treatment of Equestrians versus the Buffalo and its Appleloosa tie-in, filed as a character note
+  - note 5588 | pasted whole from this reply | keeps the New Mareland recruitment/exile pipeline mechanic, filed as a worldbuilding note
+- brought: The author brought a specific characterization problem (why Celestia tolerates Rockfeller's violence against the Buffalo) together with her own established lore (Stagnation of Harmony, the Over a Barrel timeline) and a self-generated twist mechanic (Equestrian mercenaries funneled to New Mareland), using these to steer and correct the model's proposed logic.
+- loop: The author repeatedly brings a character-consistency problem, a canon correction, or a new mechanic and asks the model to build or sharpen the underlying political/psychological logic; the model returns escalating structural analyses; the plan keeps the model's finalized prose explanations of Celestia's dual-standard worldview and the New Mareland recruitment mechanic as standalone notes filed under the relevant character and worldbuilding subjects.

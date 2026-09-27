@@ -1,0 +1,4 @@
+- sources:
+  - my lore on how the changelings were once harmonic and only turned to the Predator's Dilemma when the manticores-tier monsters ran out from overhunting | treat as established lore the model must take into account when redoing its evaluation, overriding the earlier assumption that changelings were always predators | reevaluate after taking into account my lore | first-named
+- order:
+- about: The user asks the model to redo its earlier analysis of Crystal Ponies sharing the changeling friendship-to-calories biology, this time factoring in their lore that changelings were originally harmonic and turned predatory only after overhunting exhausted their large-monster food source.

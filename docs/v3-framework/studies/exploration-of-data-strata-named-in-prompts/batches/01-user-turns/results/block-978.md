@@ -1,0 +1,8 @@
+- sources:
+  - everything since WW2 (the postwar generations) | the body of history to trace across generations, treated as where the story's allegories come from | Trace everything since WW2 as those are where my story's allegories come from | first-named
+  - my story / TLTT | the author's own work, the thing whose reception by different kinds of people is to be assessed against the comparison works | How will different people feel about TLTT | referred-to
+  - the Princess and the Kaiser | a mainstream grimdark deconstruction used as a comparison point for audience reaction | a grimdark deconstruction like the Princess and the Kaiser | referred-to
+  - ASOIAF | a mainstream grimdark work used as a comparison point for audience reaction | or ASOIAF or Squid Game which are mainstream | referred-to
+  - Squid Game | a mainstream grimdark work used as a comparison point for audience reaction | or ASOIAF or Squid Game which are mainstream | referred-to
+- order:
+- about: The user asks the model to trace childhood conditions and cynicism across generations since WW2 (weighing inequality against other factors) and to predict how different audiences would receive their story compared with mainstream grimdark works.

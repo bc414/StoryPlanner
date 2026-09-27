@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether the methodology it just described is practical only because of AI reasoning models and a software-engineer mindset, and asks for logical counterarguments, without pointing at any body of material to draw on.

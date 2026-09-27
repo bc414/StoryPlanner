@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's Rainbow Dash "tried to be Celestia and failed" idea and builds on it by laying out the planned parallel Fluttershy arc across Chapters 10, 21, 22 and 26.

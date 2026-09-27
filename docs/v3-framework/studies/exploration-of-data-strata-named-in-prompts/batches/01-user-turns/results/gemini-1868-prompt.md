@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to simplify its previous code by dropping the change-subscription and populating the aggregate collection just once at startup.

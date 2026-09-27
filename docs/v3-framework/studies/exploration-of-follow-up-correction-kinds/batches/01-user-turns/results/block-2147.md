@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the question of where the cross-species incompatibility fact should live and shares their planning notes on how The Stare works, on who can be rehabilitated and on war crimes as biological choice, asking what the model makes of them.

@@ -1,0 +1,10 @@
+- steps:
+  - the author | opens with an attachment | an attached document whose content is not captured | first message of the stretch
+  - the author | poses a strategic question | asks whether to draft the 1006 Mount Aris material before the published-order opening, framing it around canon-divergence, free indirect discourse setup, and the gap between traditional publishing and fanfiction serialization | second message
+  - the model | frames a comparative structure | contrasts closed-loop traditional-publishing drafting against open-loop serialized publication | opening of the model's reply
+  - the model | analyzes character psychology | works through how the Mount Aris battle would shape Applejack's and Twilight's internal voice and worldview going into the main story | middle of the model's reply
+  - the model | proposes a drafting strategy | suggests writing internal 'vignettes' as unpublished calibration material rather than a full polished prequel | later part of the model's reply
+  - the model | poses follow-up questions | two questions asking how the established psychological shifts should be reflected in prose style for each character | close of the model's reply
+- kept:
+- brought: The author brought an attached planning document plus a strategic question about writing order, asking whether to draft the canon-diverging Mount Aris backstory before the main story's published opening in order to lock in character voice and worldview.
+- loop: The author brought a structural/sequencing question tied to character psychology and publishing-versus-fanfiction constraints, and the model returned a comparative framework, a character analysis, and a drafting-strategy proposal with follow-up questions, but none of this exchange was traced into any planning-database note.

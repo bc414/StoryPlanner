@@ -1,0 +1,6 @@
+- asks:
+  - directive | asks the model to switch the current approach over to a light theme instead of whatever was being used or discussed before | "I actually want a light theme"
+- supplies:
+- shaping:
+- openness: leans toward an answer it names: the message states outright that a light theme is wanted, correcting or overriding an apparently prior direction, without giving further detail on the theme itself
+- subject: choice of visual theme (light vs. dark) for whatever interface or design is under discussion

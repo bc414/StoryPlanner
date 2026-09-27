@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to draft a first-pass categorization decisions document that they will then iterate on, without pointing at any body of material to draw on.

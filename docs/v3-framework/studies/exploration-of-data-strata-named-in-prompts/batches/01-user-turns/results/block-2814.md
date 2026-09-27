@@ -1,0 +1,12 @@
+- sources:
+  - Daring Don't Season 4 hasbro mandate | the canon premise to be subverted, not followed | subvert the Daring Don't Season 4 hasbro mandate | referred-to
+  - old season 2 paradigm of Twilight's mom writing strictly fictional stories | the premise to adopt in place of the Season 4 one | with the old season 2 paradigm | referred-to
+  - what I established about Ahuizotl (real solidarity for the first time, griffon-disguised Krystalfels agent, VOPS, top of his class) | settled story facts to build on and keep consistent | I established that Ahuizotl experiences real solidarity | referred-to
+  - the war in 993 | fixed date to work the birth timeline around | if the war happens in 993 | referred-to
+  - Thorax | canon reference point for working out the earliest possible birth of a 2nd gen changeling | based on Thorax | referred-to
+  - my subject notes about the Tzinacatl | existing notes holding a path with no character yet, which Ch'aska is meant to fill | representative of a path in my subject notes | referred-to
+  - Mali's background (traditionalist tribe of Meztli, her mom's, left for the parloirs) | given as settled, the parallel for Ch'aska's departure | Mali is from a traditionalist tribe | referred-to
+  - the author's current idea for Ch'aska (different traditionalist tribe, left to be a hired warrior, Skyfall influence) | tentative proposal to develop or test, not yet settled | I think Ch'aska would be from a traditionalist tribe | first-named
+- order:
+  - old season 2 paradigm of Twilight's mom writing strictly fictional stories | over the Daring Don't Season 4 hasbro mandate | subvert the Daring Don't Season 4 hasbro mandate with the old season 2 paradigm
+- about: The user explains where the Daring Do and Ahuizotl sham-tourism idea came from, then asks the model to work out Ahuizotl's earliest possible birth date and how he would meet and befriend Ch'aska, while proposing Ch'aska's traditionalist-tribe-to-hired-warrior background as a parallel to Mali's.

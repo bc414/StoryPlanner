@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The drafted grounding constraint demands absolute compatibility and zero contradictions with the existing Fabula. The user wants that loosened so it doesn't bar changes to the lore that were discussed in earlier turns, and only stops the model from dropping established lore for things not yet discussed. | "I'm not sure if it is correct to ask for zero contradictions" and "those should be taken into account" | Tentative disagreement, with a reason given and the intended goal stated
+- about: The user pushes back on the zero-contradiction wording in the new grounding constraint, explaining that lore changes agreed in the conversation should count and that the aim is only to stop unrelated drift from the established Fabula.

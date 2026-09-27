@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the listed volunteer mindsets and proposes one more layer, a belief that the volunteers only need to teach the changelings friendship, and asks the model to consider it.

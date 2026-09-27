@@ -1,0 +1,5 @@
+- sources:
+  - The personal excitement list (the 6 items) | treat as the starting point and lens: trace what each of the six items became over time | The personal excitement list is a retrospective gold mine; those 6 items | referred-to
+  - The mcp story planner, across all possible surfaces | search thoroughly and step by step as the body of material showing how the six items evolved; do not skip any surface | across all possible surfaces of the mcp story planner; Don't skip steps | referred-to
+- order:
+- about: The user asks the model to run a long, multi-step research pass through every surface of the story planner to show how each of the six items on the July 2025 excitement list evolved.

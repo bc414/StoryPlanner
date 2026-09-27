@@ -1,0 +1,5 @@
+- sources:
+  - the three-stage evolution of fiat money just discussed ("this") | treat as the basis to draw from; the model is to work out how it inspires Chrysalis's MEFO bills | "How does this inspire Chrysalis's MEFO bills?" | referred-to
+  - the author's own story, its account of the MEFO bills ("In my story") | treat as settled story fact the model must build on: the bills are loans backed by love to be drained from enemy Queens and changeling nobility | "In my story, they are loans backed by the love that will be drained from enemy Queens and changeling nobility" | first-named
+- order:
+- about: The user asks the model to connect the just-analysed three-stage evolution of fiat money to Chrysalis's MEFO bills, supplying from their own story that those bills are loans backed by love yet to be drained from enemy Queens and changeling nobility.

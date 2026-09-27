@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a four-quadrant breakdown of temperature and top-p combinations with use cases for each, without pointing at any body of material for the model to draw on or avoid.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's remark that the name Coltbert Reforms sounds as if it ends in 1008; the user says the Reforms are the implied constitution of Moriset's monarchy, so the name already spans the monarchy and the republic | that covers both Moriset's constitutional monarchy (the implied constitution is the Coltbert Reforms) and the 2nd Aquileian Republic | gentle and indirect, given as the reason for the user's own name, with no statement of disagreement and the three suggested names simply passed over
+- about: The user offers their own name for the merged subject, Coltbert's Aquileia or Coltbert Reforms Aquileia, in place of the model's three options, and justifies it by saying the Coltbert Reforms are the implied constitution of both periods.

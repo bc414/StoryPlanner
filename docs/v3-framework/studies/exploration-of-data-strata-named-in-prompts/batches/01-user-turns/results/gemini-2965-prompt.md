@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restricts how they want the model to help, asking for analysis of particular questions and ideas and world-building help with no generated story text, and points to no body of material to use or avoid.

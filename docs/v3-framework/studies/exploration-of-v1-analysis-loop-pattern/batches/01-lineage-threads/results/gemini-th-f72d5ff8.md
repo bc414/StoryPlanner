@@ -1,0 +1,36 @@
+- steps:
+  - author | opening request | attached story-plan document, asks for gap analysis | start of conversation
+  - model | gap analysis | five categories of underdeveloped threads and pacing risks in the plan | reply to opening request
+  - author | tool-mechanics question | asks how NotebookLM indexes concepts across sources | early tangent
+  - model | technical explanation | breakdown of chunking, embeddings, semantic indexing | reply to indexing question
+  - author | tool-comparison question | asks whether a notebook source beats a plain Google Doc for prompting | follow-up tangent
+  - model | comparison | table and reasoning on notebook vs doc attachment | reply to comparison question
+  - author | inventory request | asks which ideas from the original planning doc survive in the current JSON | shift back to story work
+  - model | inventory | list of surviving ideas across several plot/character threads | reply to inventory request
+  - author | scrutiny request | asks which surviving ideas should be reworked | follow-up on inventory
+  - model | critique with options | five surviving ideas each diagnosed and given rework suggestions | reply to scrutiny request
+  - author | early-idea check | asks whether a very early scene idea (Twilight saving Applejack in a trench) still fits the now-developed plan | new focus on one scene
+  - model | verdict with reasoning | recommendation to keep the scene, tied to three character arcs | reply to early-idea check
+  - author | refinement request | asks if the rescue's specific details can be reimagined | follow-up on the scene
+  - model | option set | three specific refinements plus a combined sequence for the rescue | reply to refinement request
+  - author | alternative proposal | proposes Applejack being safe/idle instead of buried when Twilight arrives | new variant of the scene
+  - model | counter-analysis | argues the alternative weakens the arcs, defends the buried version | reply to alternative proposal
+  - author | justification check | explains the reasoning for burial (avoiding coincidental timing) and asks if it holds up | defends own choice
+  - model | validation | confirms the reasoning and expands the burial beat with added detail | reply to justification check
+  - author | self-doubt flag | flags that Applejack being alone in the trench feels contrived, asks for analysis | new concern about the scene
+  - model | defense with fix | argues isolation is stronger, supplies a tactical justification sequence | reply to self-doubt flag
+  - author | scene revision | adds Mali and Tally, has one evacuate the injured other before the burial, asks about radio function and Henri's order | new detail added to the scene
+  - model | analysis with recommendation | evaluates the revision and proposes a 'hold position' framing plus a radio-silence beat | reply to scene revision
+  - author | tradeoff question | asks the pros and cons of Applejack being able to report she's buried | follow-up on radio detail
+  - model | pros-and-cons list | weighs both sides and recommends a one-way radio compromise | reply to tradeoff question
+  - author | detail correction | specifies the radio reaches only Henri, Twilight has no radio and tracks by a friendship spell, and was in transit from Canterlot | correction to the setup
+  - model | analysis | evaluates the corrected configuration as thematically strongest, ties it to technology-vs-magic contrast | reply to detail correction
+  - author | further correction | clarifies Henri orders her to stay rather than marking her dead, and Applejack talks Twilight into staying to fight, radioing for 'any target' | further revision of the scene
+  - model | analysis | praises the new beat, breaks down its function for Applejack's and Twilight's arcs | reply to further correction
+  - author | structural revision | moves the choice to a barracks scene after an intermediate teleport, adds a decompression beat, clarifies Henri's 'don't move' order | further restructuring of the scene
+  - model | analysis with execution outline | evaluates the barracks structure as an improvement and lays out scene beats | reply to structural revision
+  - author | verification question | asks whether to keep the 'calm Twilight before teleporting' beat given the new structure | check on a smaller mechanic
+  - model | confirmation with rationale and offer | keeps the beat, explains its magical and emotional logic, offers to continue on dialogue or Henri's reaction | final reply of the stretch
+- kept:
+- brought: The author brought their existing elaborate story-plan document and an early scene idea (Twilight rescuing Applejack from a trench) to test and iteratively revise against the more developed plan.
+- loop: The author repeatedly brought a single scene's evolving setup — burial, isolation, radio contact, Twilight's arrival method, the choice to keep fighting — for the model to validate, critique, or refine, and used the model's analyses to justify or adjust each next revision in turn; no note in the planning database is traced to any of this exchange, so the iterative scene-building shown here left no recorded trace in the plan.

@@ -1,0 +1,6 @@
+- passages:
+  - note 5748 | comparative shorthand | 'is like New Orleans', simile to real place | New Horseleans's basic cultural makeup | apart
+  - note 5754 | causal historical exposition | 'After Celestia's ban... becomes the primary port', temporal-causal clause building to a political/economic outcome | how New Horseleans became the export port for medicinal tribes | apart
+- shifts:
+- registers: comparative shorthand; causal historical exposition
+- whole: The item's two notes each hold a single passage and each stays in one register for its whole length, but the two notes differ from each other: one states the place's nature by a plain real-world comparison, the other traces its rise as a port through a chain of in-world cause and consequence.

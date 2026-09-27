@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user endorses the idea of an Aquileian predator-repelling shield spell, decides Cadance and Shining Armor should already be secret adults, and explains how the spell combines with their talents and love to drive the changelings out of Canterlot, without pointing at any body of source material.

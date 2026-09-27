@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the Ottoman-Grover hypothetical with a new premise (printing press arriving only under Grover III) and asks whether the first two Grovers could then be exaggerated legends, without challenging anything the model said.

@@ -1,0 +1,9 @@
+- sources:
+  - the preceding analysis of Tall Tale, Star Energy and Harmonic Capitalism ("this") | baseline to be compared against the real-world cases | "How does this compare to" | referred-to
+  - Polish apple farmers | real-world case to compare with the analysis and with its mainstream counterpart | "Polish apple farmers" | first-named
+  - Wakefern in NJ, the parent company of Shoprite | real-world case to compare with the analysis and with its mainstream counterpart | "Wakefern in NJ, the parent company of Shoprite" | first-named
+  - Florida Natural | real-world case to compare with the analysis and with its mainstream counterpart | "What about Florida Natural?" | first-named
+  - the mainstream counterparts of these examples | comparison baseline set against each of the three cases | "Compare all of these examples with the mainstream counterparts" | first-named
+  - the model's own general knowledge of further relevant examples | draw on it to add cases the user does not know | "other relevant examples that may be outside my knowledge" | first-named
+- order:
+- about: The user asks the model to compare the earlier Harmonic Capitalism analysis with real-world cooperative and farmer-owned businesses (Polish apple farmers, Wakefern, Florida Natural) against their mainstream counterparts, and to add other examples from beyond their own knowledge.

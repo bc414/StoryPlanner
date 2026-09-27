@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user carries the story forward to Grover IV, laying out his birth, his reversal of the gunpowder and Bessemer bans, the resulting banditry and class conflict, and the 978 Republican Revolution, and asks for analysis linking this to EaW lore and their plans, without disputing anything in the previous analysis.

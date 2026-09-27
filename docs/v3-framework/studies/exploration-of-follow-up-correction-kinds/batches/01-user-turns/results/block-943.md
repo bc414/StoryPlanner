@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of Harmonic Capitalism in Tall Tale and asks for real-world comparisons (Polish apple farmers, Wakefern/ShopRite, Florida Natural) against mainstream counterparts, plus further examples, without disputing anything the model said.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated all the Griffenheim classmates, tycoons and second-generation nobles alike, as spendthrift poseurs who fold in a price war and hand over assets cheaply. The user says some of them would cling fiercely to their land and assets, so only the easy ones fit that pattern. | Maybe the easy ones are like this, but the tough ones might fiercely hold onto their land and assets | Tentative and hedged. Put as questions and a 'maybe', it partly accepts the model's picture and limits it, and it moves straight on to using the holdouts as a later obstacle.
+- about: The user probes the model's revenge-as-acquisition loop by asking whether the targets would really sell up. They split the nobles into easy sellers and stubborn holdouts, propose the holdouts as late-game resource sinks, and link the strain to the MEFO bills and the Canterlot Wedding.

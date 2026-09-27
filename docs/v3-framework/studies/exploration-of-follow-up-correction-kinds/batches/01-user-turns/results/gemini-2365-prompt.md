@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Luna analysis to ask new questions about how Coltbert's 981–1008 reforms solve the Aquileian economy, why he succeeded where Grover III failed, and whether Grover III's golden age depended on the last monsters in griffon lands.

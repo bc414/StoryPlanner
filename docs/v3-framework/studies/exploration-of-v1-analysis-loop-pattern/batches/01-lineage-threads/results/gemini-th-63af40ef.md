@@ -1,0 +1,13 @@
+- steps:
+  - author | opens with a history check plus a draft analogy | asks the model to verify the 1917-18 Russian Revolution sequence and floats basing Herzland on 1848 Germany and Stalliongrad on a Trotsky-wins timeline | opening prompt of the thread
+  - model | clarifies the historical record | confirms and refines the Tsar-to-Bolshevik timeline, adds the sealed-train detail | first half of the 579 response
+  - model | maps the clarified history onto the plan | ties Herzland to the 1848 revolution and iron-and-rye alliance, ties Stalliongrad to an NEP/Trotsky reading, produces a faction comparison table | second half of the 579 response
+  - author | asks for further inspiration | requests a more idealistic version of Stalliongrad built on a surviving-Lenin/Trotsky-wins counterfactual | 580 prompt
+  - model | supplies a multi-angle counterfactual analysis | covers alternate economy, military doctrine, ideology, and aesthetic, and applies each to a named character's arc | 580 response
+  - author | issues a worldbuilding correction | states that Severyana and Stalliongrad are the same place under two names, not separate locations | 581 prompt
+  - model | folds the correction into the existing framework | reworks the Honor Circle's origin and donation ritual, contrasts a 'cold' vs 'warm' version of the shared resource, applies it to a character's arc | 581 response
+  - author | corrects a mechanic and adds a rule | argues emotion-sensing makes a taste-test unnecessary and specifies the state's justice is accurate with no false accusations | 582 prompt
+  - model | revises the mechanism to match the new rule | reframes the Honor Circle as transparency-based surveillance, describes public display of the punished, and reframes a character's conflict as justice versus mercy | 582 response
+- kept:
+- brought: The author brought a self-devised set of historical analogies for two factions and, over the course of the thread, working corrections to the rules governing a key institution (lie-detection, absolute justice), testing and revising them against the model's historical knowledge.
+- loop: The author repeatedly brings a piece of draft world logic or a correction to it, the model returns historical grounding and a reworked mechanism built on that correction, and the author takes the result only to correct it again in the next turn; the archive shows none of this iterated material was captured into the planning database from this stretch.

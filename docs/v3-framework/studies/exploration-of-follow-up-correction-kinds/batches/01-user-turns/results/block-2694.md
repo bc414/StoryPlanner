@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The American-parallel analysis and its claims about the story's architecture were built without checking the story plan itself. The user wants those elements verified against the plan and the analysis redone. | "Check for these things in the story plan then give a reanalysis" | Implicit and flat: a bare instruction to check and redo, with no reason given, no stated fault, and no irritation or apology.
+- about: The user sends the model back to the story plan to check the elements in its American-parallels analysis, and asks for a revised analysis grounded in that check.

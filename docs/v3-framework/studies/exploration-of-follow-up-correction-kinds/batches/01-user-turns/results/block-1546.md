@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: overlooked existing material (scope of the problem) | The model designed the gardening home as a forward-looking workflow of writing new Unset notes in a Chapter Window sketch mode, without accounting for the large body of already-written plot point content, most of which needs sorting into subject, event and link tracks, with the remainder needing a plot point home | "You need to consider the huge amount of content that has already been written" | Flat directive that gives its reason (volume of legacy content and mixed synopsis text), then turns into a concrete request to dissect the pasted examples
+- about: The user redirects the model from designing a workflow for writing new provisional plot point notes to the problem of triaging and finding a home for the large existing body of plot point text, and asks it to dissect the pasted examples, especially synopsis fields.

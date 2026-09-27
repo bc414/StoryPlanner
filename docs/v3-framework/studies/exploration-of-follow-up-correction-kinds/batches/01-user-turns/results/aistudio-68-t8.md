@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a revision to the world's backstory, moving the start of Celestia's containment and the Stagnation from the founding era to 914 ALB and recasting the earlier centuries as a frontier ambition sink, then asks whether it works and how it compares to the older version, without saying the model's previous turn was wrong.

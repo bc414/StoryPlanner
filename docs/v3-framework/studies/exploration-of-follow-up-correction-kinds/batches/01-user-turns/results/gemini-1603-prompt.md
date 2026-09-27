@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn consists only of an attached plan export, with no message text, so it neither disputes nor engages with the model's suggestions on its face.

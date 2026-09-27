@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the specific POV roster to ask whether the general principle behind it (POV for characters who develop, observation for those who display fixed virtues) is right or needs more nuance, inviting a broader discussion rather than faulting any particular choice.

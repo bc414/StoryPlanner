@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's "pet name" and "pet on a leash" framing and asks whether it implies the Lord was grooming her for abuse, with becoming a chasseur as her reclaiming of the name, so it extends the reading and asks for confirmation.

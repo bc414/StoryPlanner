@@ -1,0 +1,16 @@
+- steps:
+  - author | brings scene refinement | Applejack and Twilight replanting trees, Flurry Heart visits with 'friend' Grover, teasing tone | opening of the author's message
+  - author | supplies origin backstory | five-year-old Flurry's bedtime story about 'yay-gers' from Nova Griffonia, read by Cadance | continuing the author's message
+  - author | extends backstory into plot | Flurry hunts a creature like a jaeger and finds Thorax fleeing VOPS after his friends were killed, mapped onto the S6 episode structure with Flurry standing in for Spike | continuing the author's message
+  - author | supplies causal explanation | reason Flurry and Shining Armor refuse to leave Cadance during the siege, tied to Thorax being the first to see Flurry as a friend not a menace | continuing the author's message
+  - author | draws cross-character parallel | Thranx as the first to see child Grover as a friend rather than 'the emperor', naming both bonds 'buncles' | closing the author's message
+  - model | drafts integrated scene | full prose 'Final Epilogue: The Orchard' with dialogue dramatizing the orchard reunion, the newspaper beat, the Thorax flashback told in conversation, and the Thranx/Grover parallel, ending on a shared thematic image | the model's response
+- kept:
+  - note 420 | the author's own words in this record | keeps the bedtime-story origin of the jaeger legend, filed under the PlotPoint for Flurry Heart's version of the changeling episode
+  - note 424 | the author's own words in this record | keeps the detail that the hunted creature is Thorax fleeing VOPS after his friends were killed, filed under the same PlotPoint
+  - note 425 | the author's own words in this record | keeps the mapping of the sequence onto the canon S6 episode with Flurry replacing Spike, filed under the same PlotPoint
+  - note 434 | the author's own words in this record | keeps the explanation for why Flurry and Shining Armor stay with Cadance during the siege, filed under the PlotPoint 'Crystal City Siege'
+  - note 437 | the author's own words in this record | keeps the orchard scene refinement with AJ, Twilight, Flurry, and Grover, filed under the PlotPoint 'Flurry and Grover show up at Sweet Apple Acres'
+  - note 440 | the author's own words in this record | keeps the Thranx/Grover friendship parallel, filed under the PlotPoint 'Grover, Thranx, and Trimmel'
+- brought: The author brought a dense, self-contained refinement tying together a new scene, a piece of backstory for a minor character, a causal justification for an earlier plot choice, and a cross-character thematic parallel, all built on plot points already established in the plan.
+- loop: The author packed several distinct plan elements into one refinement message and the model turned them into a single dramatized draft scene, but the planning database bypassed the model's prose and re-filed the author's own original phrasing as six separate notes distributed across the plot points they each belonged to.

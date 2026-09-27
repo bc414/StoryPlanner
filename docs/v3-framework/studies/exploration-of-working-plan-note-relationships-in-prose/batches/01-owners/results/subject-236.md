@@ -1,0 +1,9 @@
+- relations:
+  - 2446|2447|2447 carries on the Incan grounding of the character that 2446 starts: the name is Quechua, and now the cutie mark is an Incan symbol|Ch'aska means "bright star" in Quechua; Her cutie mark is a Chakana, which is the Incan version|implicit
+  - 2224|2243|2243 gives the reason for the Tzinacatl's revenge, thirty years of being manipulated. This history is what 2224's planned prequel-sequel would dramatize. The two also both describe planned side-story appearances, one by title and the other by story position|Tzinacatl recent history dramatization; revenge for manipulating the Tzinacatl for 30 years|implicit
+- outward:
+  - 2243|Ahuizotl, the other agent who joins her, and Chrysalis's legacy, both characters held elsewhere|Daring Do and Ahuizotl join the proxy war in Skyfall as Tzinacatl agents dismantling Chrysalis's legacy
+  - 2243|The main work TLTT and its chapters: Chapter 12 (Crash) and the Ambition/Skyfall Resolution chapter, plus the Skyfall setting and proxy war|They appear in The Skyfall Resolution in TLTT; between Chapter 12 (Crash) and the Ambition/Skyfall Resolution chapter
+  - 2224|The Tzinacatl's recent history, held elsewhere in the plan|Tzinacatl recent history dramatization
+  - 2447|The fictional source character Daring Do and her compass-rose cutie mark, a canon reference outside this item|Fictional Daring Do's cutie mark is a compass rose
+- whole: The notes form two loose pairs, the Incan naming and symbol notes and the two planned side-story appearance notes, and each pair hangs together more than the two pairs join each other.

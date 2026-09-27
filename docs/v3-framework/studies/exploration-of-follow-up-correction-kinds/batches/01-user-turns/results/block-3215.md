@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the hoe-versus-plow point with interest and asks for a deeper explanation of its geographic origins, why it produced labor parity, and whether the resulting culture is patriarchal or egalitarian, without disputing anything the model said.

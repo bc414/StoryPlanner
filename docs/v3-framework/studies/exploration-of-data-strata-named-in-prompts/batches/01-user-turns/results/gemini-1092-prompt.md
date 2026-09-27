@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's claims, asserting that a long-standing stigma against thestrals exists and that Parloir operators would refuse drug dealers because of the pride-driven Aquileian ethos, without pointing to any body of material.

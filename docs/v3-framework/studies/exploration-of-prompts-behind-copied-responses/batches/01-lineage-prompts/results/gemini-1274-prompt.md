@@ -1,0 +1,6 @@
+- asks:
+  - explain | describe how the "love donator" mechanism powers or supports Equestria's war effort | "Describe how the love donator fuels the Equestrian war effort"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: it takes as given that a "love donator" fuels the Equestrian war effort and asks the model to elaborate the mechanism, leaving the specifics of how open.
+- subject: World-building detail on how a "love donator" device/mechanism supports Equestria's war effort

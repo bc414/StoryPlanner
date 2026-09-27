@@ -1,0 +1,4 @@
+- sources:
+  - my Applejack | the author's own character from the story plan, to be compared with Zelensky as the point of parallel | parallels between Zelensky and my Applejack | referred-to
+- order:
+- about: The user asks the model to draw parallels between Zelensky and their Applejack character, and to explain Zelensky's pre-war history and whether Crimea drove his rise, continuing the 2022 analogy for their worldbuilding.

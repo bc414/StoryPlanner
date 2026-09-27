@@ -1,0 +1,4 @@
+- sources:
+  - Hearth's Warming bonds, the story's name for war bonds | use as the pattern for the kind of equestrianized stand-in term wanted, a model to imitate and not something to change | like how Hearth's Warming bonds is the name for war bonds | referred-to
+- order:
+- about: The user asks the model a set of factual and naming questions about the word jailbreak (its etymology, pre-iPhone roots, meaning to modern readers, link to right to repair, older industrial parallels) so they can pick an equestrianized in-world term, following the way Hearth's Warming bonds stands in for war bonds.

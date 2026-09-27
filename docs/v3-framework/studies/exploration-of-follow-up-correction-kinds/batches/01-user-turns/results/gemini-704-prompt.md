@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's account of why the name Midnight Oil was chosen, as a pony work idiom that Celestia used to reduce him to a function, when the user says it was taken from an Equestrian general and night guard in the game | I chose the name since that character appears as an Equestrian general in the game and is labeled as a night guard | in passing, as background given with a new research request, with no explicit disagreement
+- about: The user turns away from the model's offered next step and asks for a survey of fanon characters named Midnight Oil, while stating the name's real source in the game, which leaves the model's idiom-based reading of the name without support.

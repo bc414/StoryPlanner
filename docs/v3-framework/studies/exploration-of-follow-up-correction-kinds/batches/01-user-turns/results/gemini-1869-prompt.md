@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the code discussion and starts a new task, asking the model to consolidate a large JSON set of story notes into a shorter set in the same format, keeping every concept and roughly keeping the order of the first nine notes.

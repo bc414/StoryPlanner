@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn poses a new, unrelated question—asking for the framework's assessment of MrBeast—without pointing out any error in the model's synthesis.

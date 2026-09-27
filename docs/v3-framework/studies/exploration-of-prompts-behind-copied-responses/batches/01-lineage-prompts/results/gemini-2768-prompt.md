@@ -1,0 +1,6 @@
+- asks:
+  - explain | give a fuller account of Taylorism | 'Tell me more about taylorism'
+- supplies:
+- shaping:
+- openness: Left fully open: the message names only the topic and asks for more information, with no stance, scope, or form specified.
+- subject: Taylorism (scientific management theory)

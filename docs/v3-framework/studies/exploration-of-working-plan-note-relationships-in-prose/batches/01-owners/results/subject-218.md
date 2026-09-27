@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 995|Chrysalis and Gabriella Eagleclaw as characters, and the story that follows this past event, are held outside this item; the note refers to a story start not present here|before the story starts
+- whole: This owner holds a single note, so there is nothing in it to hang together or to separate.

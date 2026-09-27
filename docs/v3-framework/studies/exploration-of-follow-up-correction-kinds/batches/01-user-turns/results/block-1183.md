@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user affirms the model's Hasbro-Mandate/unicorn-bias claim, extends the analysis with new episode evidence from Faust's era (Discord, Canterlot Wedding, Dragonshy, Stare Master, A Dog and Pony Show, Sonic Rainboom) to argue non-unicorn magic was foregrounded there, and then poses a new question asking the model to interpret crystal pony and changeling magic as allegories, offering a tentative reading of their own.

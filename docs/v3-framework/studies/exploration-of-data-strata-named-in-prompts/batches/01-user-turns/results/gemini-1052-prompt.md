@@ -1,0 +1,4 @@
+- sources:
+  - friendship lessons from season 1-2 | use as the model or template for the style and lesson structure of the Twilight and Applejack love letters | modeled after friendship lessons from season 1-2 | referred-to
+- order:
+- about: The user extends the plan by placing Applejack and Comet Shine in the jungle during the weapon development, using a letter from Twilight about the breakthrough and problem to lead them to a funding solution and a friendship lesson about the hard reality of winning.

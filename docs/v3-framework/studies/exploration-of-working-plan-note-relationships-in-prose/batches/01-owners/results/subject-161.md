@@ -1,0 +1,19 @@
+- relations:
+  - 354 | 363 | 363 gives the reader-facing tragic shape of what 354 records as history: the uplifted drones' drive is the force Chrysalis cannot stop, and the system becomes the engine of a war | Chrysalis had to authorize the plans / The drones she uplifted are now the force she cannot stop | implicit
+  - 354 | 363 | 363 sets 'she cannot prevent' the war against 354's account that refusing would collapse the debt into civil war, so the two share a cause-and-constraint chain | or else the debt would collapse / a war she cannot prevent | implicit
+  - 354 | 358 | 358 names the real-world pattern behind 354's extraction demands beyond what Olenia can sustain, ending in invasion of another land | extraction requirements beyond what Olenia could sustain / resource imperialism | implicit
+  - 354 | 361 | 361 names a real-world parallel to 354's loop in which rising productivity creates more demand, which requires more issuance and extraction | Increased productivity led to more MEFO bill issuances / demand-creation spiral | implicit
+  - 354 | 356 | 356 names a real-world parallel to 354's self-feeding cycle in which credit expands as demand grows | more MEFO bill issuances / demand spiral | implicit
+  - 354 | 357 | 357 gives a real-world parallel to 354's effect in which rewarded workers work harder and output feeds the system's growing demands | working harder and learning from bauleiters / productivity paradox | implicit
+  - 354 | 360 | 360 names the paradox that 354 describes: workers rewarded with love are not satisfied and only push harder | they didn't feel satisfied / Rat Race paradox | implicit
+  - 354 | 355 | 355 parallels 354's reward mechanism, where love delivered to workers drives ambition, with a real-world reward-and-attention loop | rewarded with high quality love / dopamine economy | implicit
+  - 354 | 359 | 359 parallels 354's spiral in which issuance feeds on itself, with asset-price spirals under easy money | more MEFO bill issuances / asset price spirals | implicit
+  - 356 | 361 | Both allegories describe the same demand-spiral mechanism in different eras, credit in the 1970s-80s and AI in 2026 | demand spiral / demand-creation spiral | implicit
+  - 357 | 361 | The productivity paradox and AI productivity acceleration are two versions of the same claim: more productivity produces more demand, not relief | productivity paradox / AI productivity acceleration | implicit
+  - 357 | 360 | Both name a paradox in which harder or more productive work fails to bring the worker rest or reward | productivity paradox / Rat Race paradox | implicit
+- outward:
+  - 354 | Olenia, a changeling love-giver held elsewhere in the plan, and the bauleiters who teach the workers | rewarded with high quality love from Olenia / learning from bauleiters
+  - 354 | VOPS, a faction or body not described in this item | the changelings themselves and VOPS demanded the invasion
+  - 354 | Equestria and Chrysalis's new order, the target and setting held elsewhere | invasion of Equestria / her new order would collapse into civil war
+  - 363 | The wider arc of Chrysalis's Greek Tragedy and the hive wars, planned elsewhere | Chrysalis's Greek Tragedy / end the hive wars
+- whole: The historical note and the reader-opinion note join into one causal and tragic chain, while the seven allegory notes are separate one-line labels that each echo the same spiral in 354 and do not otherwise bear on one another.

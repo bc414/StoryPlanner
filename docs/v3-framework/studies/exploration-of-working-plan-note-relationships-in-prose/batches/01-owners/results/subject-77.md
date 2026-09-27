@@ -1,0 +1,35 @@
+- relations:
+  - 1736|1737|the second gives the physics meaning of the suffix that the first glosses as balance: equilibrium, not deadness|static implies homeostasis and balance / a system in equilibrium where the net forces equate to zero|implicit
+  - 1737|1738|the general sense of -static as resisting acceleration is instanced by the law's role of stabilizing a process without casting a spell itself|resists acceleration / cannot cast an active spell on its own... stabilize the process|implicit
+  - 1736|1738|the definition of Grace as load-bearing capacity is what the theme note relies on when it says grace stabilizes what red love drives|structural, load-bearing capacity / you need the grace to stabilize the process|implicit
+  - 1103|1735|the history of the chasseurs' Wings of Dew needing trust to stay stable is an instance of the general claim that top spells need pink love as well as red love|required trust in their partner for the wings to stay stable / Wings of Dew... combined with pink love|implicit
+  - 1103|1749|the erodynamics misreading, which adds friendship to raw red love, is the case that the later note treats as two physically different inputs to the Wings of Dew formula|raw red love / You cannot substitute Red Love for Pink Love in the Wings of Dew formula|implicit
+  - 1103|1735|the in-universe mislabel of the friendship component as romance explains why the reader's link between the law and Wings of Dew is planned to come only at the end|misinterpreted as "erodynamics" / not connected to wings of dew or earth pony magic until the end|implicit
+  - 1735|1739|the first plans that the law is linked to more things late in the story; the second states the change of scope, from passion to calm communal connection, that lets it apply to them|not connected... until the end / Once the scope is broadened... applied to how the other things work|implicit
+  - 1739|1103|the broadening from passion and weaponized connection to friendship is the correction of the narrow chasseur view described in the history|passion and weaponized connection / narrow focus on the magical force of passion|implicit
+  - 1735|340|the shield from the crystal heart is the start of the law's presence in the story, and the canon note supplies the spoken account of how the heart is powered|based on the crystal heart / light within them can power the Crystal Heart|implicit
+  - 341|340|the 1003 note says Amethyst and the crystal ponies took the heart to be the power source; the canon speech places the source in the ponies' lifted spirits, which shows the gap|believed the crystal heart was the power source / the light within them can power the Crystal Heart|implicit
+  - 1745|1735|the list of spells and forms of magic that share one requirement is what the Maxwell comparison calls a convergence of powers|convergence of all these different powerful spells / Wings of Dew, Dreamwalking, Conception Spell...|implicit
+  - 1745|1739|the unifying analogy matches the plan that one force is then applied to many different workings|Maxwell's Equations connecting / the fundamental magical forces of charitostatics is applied|implicit
+  - 276|1750|the claim that the republic is materially superior is given its mechanism in the fixed entropy premium and per-capita gains from conscience|materially superior / the entropy premium is fixed|implicit
+  - 276|1749|both hold that the difference is physical, not merely moral, and the second shows how in terms of inputs|not just morally preferable / physically different inputs that produce physically different results|implicit
+  - 1749|1750|the claim that extracted love cannot replace donated love is explained by the extraction cost, which gives less usable output|extracted love for donated love / Every unit of extracted love costs more to process and produces less usable charitostatic output|implicit
+  - 1735|1738|the general claim that top magic needs pink love with red love is restated as a theme that grace stabilizes what red love powers|require not just raw magic (red love), but combined with pink love / You need red love/thymodynamics to fly... but you need the grace|implicit
+  - 1738|1750|the balance theme and the conscience theme rest on the same idea, that pink love is a needed part of power and not naive|need the grace to stabilize / more power than extraction even by extraction's own performance metrics|implicit
+  - 1736|1749|the definition of Grace as mutual trust and fraternity, set against top-down pity, matches the claim that conscience comes first and produces an output that accelerants cannot|not Celestia's top-down pity / conscience precedes and generates|implicit
+  - 2091|1735|the truth stated as the magic of connection is spelled out as pink love, connection, the magic of friendship|The Magic of Connection / connection, the magic of friendship|implicit
+- outward:
+  - 1736|the Equestrian idea of charity and Celestia's pity or pacifism, held in canon|naive Equestrian charity... Celestia's top-down pity or pacifism
+  - 1736|the in-world speakers who define Grace mathematically|they declare that Charis (Grace) is not
+  - 276|Equestrian Republic and Aquileia as polities described elsewhere|Equestrian Republic is materially superior to pure Aquileia
+  - 1746|the Pinkie Promise, a term and canon or lore held elsewhere|Pinkie Promise is the colloquial term
+  - 1749|Coltbert's framework, held elsewhere in the plan|Coltbert's framework said
+  - 1749|the Friendship Shield and the Wings of Dew formula, magic held elsewhere|Friendship Shield / Wings of Dew formula
+  - 1745|real-world science, Maxwell and Darwin with Mendel|Maxwell's Equations / Charles Darwin's evolution + Gregor Mendel's genetics
+  - 1735|other magics and stories elsewhere: Dreamwalking, Conception Spell, Universal Translator, earth pony magic, dreamscape|Dreamwalking, Conception Spell, medicinal plants, Universal Translator
+  - 1738|thymodynamics, the red-love law held elsewhere|red love/thymodynamics
+  - 1750|Chrysalis and her extraction, harvesters and centrifuges, held elsewhere|Chrysalis... more victims, larger harvesters, more centrifuges
+  - 341|the crystal ponies of 1000 years ago and the story of the crystal heart|Amethyst Maresbury and the crystal ponies from 1000 years ago
+  - 340|Friendsip is Magic canon and the scientists of TLTT|FiM canon / what the scientists in TLTT call
+  - 1103|the Aquileian chasseurs and the science of erodynamics held elsewhere|Aquileian chasseurs / erodynamics
+- whole: The notes hang together fairly well: a set of notes on definition, physical mechanism, demonstration and theme all bear on one claim, that pink love is needed for the top magic, while a few notes (the Pinkie Promise term, the bare title in the world-truth note) stand alone.

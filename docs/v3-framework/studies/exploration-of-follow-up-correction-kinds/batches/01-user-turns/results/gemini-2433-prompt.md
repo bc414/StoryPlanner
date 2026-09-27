@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model built its account of the Boast Busters episode from fandom headcanon/synthesis rather than checking the actual show transcript | "Review the canon transcript and reevaluate" | flatly, as an instruction, in passing while redirecting the task
+  - fact of the world | the model's claim that the Mane 6 collectively 'act like bullies' and that Twilight's crushing of the Ursa Minor was a display of arrogant, unearned privilege mischaracterizes Twilight, who was instead reluctant and afraid of coming across as a show-off | "Twilight was afraid of being a show off (she's still a unicorn new to friendship)" | flatly stated, with a brief reason given in parentheses
+- about: The user turn tells the model to go back to the primary canon transcript rather than rely on its prior synthesis, and corrects its characterization of Twilight's motivation in Boast Busters, distinguishing her fear of showing off from the meanness of AJ, RD, and Rarity.

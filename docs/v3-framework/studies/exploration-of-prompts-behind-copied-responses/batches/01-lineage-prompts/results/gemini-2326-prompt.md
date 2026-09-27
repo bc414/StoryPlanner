@@ -1,0 +1,7 @@
+- asks:
+  - check | asks whether the distinction being discussed boils down to a split between "irredeemable poseurs" who function as enemies and "misled poseurs" who can be redeemed | "So does it come down to the difference between..."
+  - brainstorm | asks for better terminology to label these two classes of poseurs | "What are better terms for these two classes of poseurs?"
+- supplies:
+- shaping:
+- openness: Mixed: the first ask names a specific two-way distinction (irredeemable vs misled poseurs) and asks the model to confirm whether that summary is right, while the second ask is fully open, requesting new terms without suggesting any candidates.
+- subject: Naming and classifying two types of "poseur" characters, one irredeemable/enemy and one misled/redeemable

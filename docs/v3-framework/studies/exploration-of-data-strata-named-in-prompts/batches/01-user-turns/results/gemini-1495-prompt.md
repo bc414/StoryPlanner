@@ -1,0 +1,7 @@
+- sources:
+  - my story plans about "Moriset Discret's Aquileia/Coltbert Reforms" | review them and base the new analysis of the right path on them | Please review my story plans | referred-to
+  - The scenario above (the model's previous analysis) | treat as not matching the author's intent; set aside and redo the analysis | isn't exactly what I'm imagining | referred-to
+  - the author's own description in this turn (thugs not the heart of the revolution; empowered rurals plus the city are; rural griffons paid in Discret's paper but productive through capital investment; thugs are poseurs) | treat as true, a correction to the previous scenario that the reanalysis must follow | The thugs are not the heart of the revolution | first-named
+- order:
+  - the author's own description in this turn | over The scenario above (the model's previous analysis) | The scenario above isn't exactly what I'm imagining; The thugs are not the heart of the revolution
+- about: The user rejects the model's earlier gold-versus-notes scenario as not matching their vision, tells it to review their story plans on Discret's Aquileia/Coltbert reforms, and corrects the premise about who drives the revolution before asking for a fresh analysis.

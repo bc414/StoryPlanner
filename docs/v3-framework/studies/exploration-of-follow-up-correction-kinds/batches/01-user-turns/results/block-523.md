@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model appended Socratic questions to its answer, taking a sample of instructions written for Gemini to be instructions addressed to itself | "You don't need to put in the Socratic questions at the end, that was an example of the instructions to Gemini, not an instruction to you" | flat, in a parenthetical aside after the new question, with a short explanation of where the mistake came from and no irritation
+- about: The user asks a new conceptual question, whether treating themes as propositions is the fullest form of show-don't-tell and what else that advice covers, including word-level craft, and adds a parenthetical telling the model to drop the Socratic questions it had wrongly taken as its own instruction.

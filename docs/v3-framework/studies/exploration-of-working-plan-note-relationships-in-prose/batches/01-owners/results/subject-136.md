@@ -1,0 +1,31 @@
+- relations:
+  - 1605|1615|the map is the concrete form of the Tree's detect-and-answer loop: the general mechanism is followed by its manifestation as the Cutie Map|This manifested in the cutie map|explicit
+  - 1613|1615|the general rule of top-down pacification by defanging is followed by its manifestation in the map, which treats symptoms and not the root|This manifested in the cutie map|explicit
+  - 1605|368|the red-love spike that triggers the Tree is filled in by what the Tree counts as red love: friction, ambition, labor disputes|spike of red love / dangerous spark of Red Love|implicit
+  - 368|1613|the Tree's treatment of all friction as dangerous is an instance of its absolute top-down enforcement of pacifism|views all friction ... as a dangerous spark|implicit
+  - 365|367|two statements of the same in-universe reading of the Hasbro mission formula: friendship seminars/harmony reminders versus automated surveillance for the Stagnation of Harmony|Stagnation of Harmony|implicit
+  - 365|1615|the watsonian account of map missions as friendship seminars for acute symptoms is matched by the note that the map dispatches the mane 6 with a friendship lesson that leaves the root cause untouched|friendship seminars / friendship lesson without addressing the root cause|implicit
+  - 367|1615|surveillance for the stagnation of harmony is the detect-and-dispatch function described as detecting conflicts and sending the mane 6|automated surveillance tool / detects conflicts and dispatches|implicit
+  - 364|365|the map goes dormant because the mane 6 stop believing in the stagnation of harmony, which is the thing the missions exist to remind ponies of, so the map's working depends on that belief|no longer believe in the stagnation of harmony|implicit
+  - 364|1615|later breakdown of the map continues the earlier account of how the map functions and dispatches the mane 6|breaks down and goes dormant|implicit
+  - 1607|1610|the Tree's origin in experimentation a thousand years ago is filled in by the Pillars planting the seed before stasis|1000 years ago / Pillars planted the seed|implicit
+  - 1610|1664|the safety lock and the purpose of subduing an out-of-control predator are realized when Celestia uses the Elements to banish Nightmare Moon|subdue any out of control apex predator / used the Elements of Harmony to banish|implicit
+  - 1665|1664|the Fukushima allegory is aimed at the banishment that the history note narrates|Luna's Banishment / banish Nightmare Moon|implicit
+  - 1610|1611|the Pillars' protective design of a safe, locked power leads to the worry that the second generation would grow up safe and ungrateful|would grow up safe and ungrateful|implicit
+  - 1611|1613|a top-down law that defangs threats produces the safe but ungrateful later generation the note describes|grow up safe and ungrateful|implicit
+  - 1614|1613|the King's Peace model matches the Tree working as an absolute top-down law that enforces pacifism|King's Peace / absolute, top-down law|implicit
+  - 1623|368|tension: one note has the Tree treating all economic friction and ambition as a threat, the other has it failing to activate against a CEO because economic extraction is not detectable|does not activate against Rockfeller / views all friction|implicit
+  - 1623|365|the Tree's blindness to systemic extraction explains why the Comprador Economy can erode harmony while the map only handles acute symptoms|Systemic Economic Extraction / Comprador Economy|implicit
+  - 1623|1605|the Tree is said to detect only magical WMDs, which narrows the general claim that it responds to any spike of red love|only programmed to detect "Magical WMDs" / detects a spike of red love|implicit
+- outward:
+  - 1665|the real-world Fukushima disaster and the regulation that followed|like Fukushima and the regulation that came after
+  - 365|Hasbro's show and its one-off strangers; the Comprador Economy held elsewhere|Hasbro to make formulaic episodes / The Comprador Economy
+  - 367|Hasbro's toy-selling formula|Hasbro's "Mission of the Week"
+  - 368|the society of Aquileia and the Skyfall rugged-individualism lore|In an ambitious society (like Aquileia) / Skyfall
+  - 1610|Stygian and the Pony of Shadows, the Pillars' stasis|their good friend Stygian could fall to darkness
+  - 1611|Grover III and his problem, held elsewhere|the same problem that Grover III faced
+  - 1614|Gerad Discret's King's Peace, an outside work|Gerad Discret's "King's Peace"
+  - 364|the Mount Aris event|after Mount Aris
+  - 1664|Celestia, Nightmare Moon and the moon-contained ambition from other parts of the plan|banish Nightmare Moon and contain the ambition in the moon
+  - 1623|Rockfeller and the Gilded Trust, modern-economy figures elsewhere|Rockfeller or Gilded Trust
+- whole: The notes largely hang together as one account of the Tree as a top-down pacifying system whose Cutie Map treats symptoms and eventually fails, though a few notes (the allegory, the King's Peace and Grover III notes, the dating notes) stand mostly on their own or point outside the item.

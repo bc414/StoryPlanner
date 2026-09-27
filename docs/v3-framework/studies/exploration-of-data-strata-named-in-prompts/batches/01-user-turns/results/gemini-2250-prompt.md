@@ -1,0 +1,6 @@
+- sources:
+  - this set of notes (the new notes being categorized) | strict non-overlap boundaries apply only to how these notes are filed, not to how they relate to existing plans; treat as the incoming material whose connections to old material are the focus | strict boundaries only apply to categorizing this set of notes | referred-to
+  - my existing story plans (existing notes, old material) | may overlap in time with the new notes; not bound by the categorizing boundaries; check for connections to new notes and for impact or evolution once new material is introduced | They can absolutely overlap with my existing story plans | referred-to
+  - new material about to be introduced | treat as the trigger for checking what changes in the old material; questions should test its impact on existing content | any impact or evolution of old material now that new material is about to be introduced | referred-to
+- order:
+- about: The user asks the model to refine its validation questions, loosening the timeline boundary check so it applies only to filing the new notes and refocusing the questions on connections between new and existing material and on how old material is affected or evolves.

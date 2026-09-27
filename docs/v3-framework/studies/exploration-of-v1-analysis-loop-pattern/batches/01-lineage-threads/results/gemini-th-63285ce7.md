@@ -1,0 +1,6 @@
+- steps:
+  - the author | supplies a source | a YouTube video link with a bare request to summarize it | opening turn of the conversation
+  - the model | delivers a summary | a tiered breakdown of the video's argument into leadership, administration, and external-relations layers, with timestamped citations | sole response to the request
+- kept:
+- brought: The author brought an external YouTube video link (not drawn from the planning database) and a plain request to summarize it.
+- loop: The author used the exchange purely to extract a summary of an outside video's content, and the archive shows no note traced from either turn, so nothing from this exchange was carried into the plan.

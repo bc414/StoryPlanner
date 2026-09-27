@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | Argues that a businessman's honesty means not pretending he lacks greed, and that greed need not be extractive since it can mean growing the pie and trading it, which is how Comet Shine's model is to be read against the theme | "dishonest for a businessman to pretend he is not greedy" / "growing the pie and trading it" | no | expository prose, a short two-sentence aphoristic argument
+  - on-page plan | Directs that the scene's framing and emphasis should lean on pride rather than greed | "Instead of greed, focus on pride." | no | terse directive, an imperative sentence
+- whole: A three-sentence note that argues honest greed can be non-extractive and growth-oriented, then tells the author to frame it as pride.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the club-and-apprentice idea as accepted and moves to research questions: which French food processes and regional divides (Paris versus Gascony) fit the Aquileian cuisine, and what non-beef, plant-based versions of the cheap-cut-to-masterpiece pattern could sit alongside pho, brisket and döner.

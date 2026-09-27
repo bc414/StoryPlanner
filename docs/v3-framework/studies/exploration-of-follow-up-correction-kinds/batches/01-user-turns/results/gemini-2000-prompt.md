@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - basis for a figure (arbitrary number where evidence was wanted) | The model's proposed upper bound of 4 methodologies is treated as a guess; the user wants the cap derived from how many distinct strategies their real notes support | I want to set the upper bound based on data, not a guess on 4 | stated flatly as a preference, framed as a task (sample data plus a question) rather than as a complaint, with no apology or heat
+- about: The user supplies a large sample of their most complex notes and asks the model to work out from that data how many mutually exclusive, low-overlap sorting strategies are realistically possible, so the array cap rests on evidence rather than the model's guessed 4.

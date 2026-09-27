@@ -1,0 +1,16 @@
+- relations:
+  - 2526|2527|The reader-facing plan of a belief revision delivers what the binding-logic note states as true: the empire looks like ruthless deceit but is not personal villainy|Readers leave TLTT thinking it's just Chrysalis's corporate empire... deceit and ruthlessness / no personal evil or mustasche-twirling villains|implicit
+  - 2526|933|The reader's assumption that this is Chrysalis's own empire rests on the founding fact that she created it|Chrysalis's corporate empire she built / Chrysalis creates Krystallfels Handelsgesellschaft|implicit
+  - 2327|933|Continuation in time: the thematic note's thirty years of Chrysalis using the company's capitalism follows from her founding it|Chrysalis spent 30 years using Skyfall's unregulated capitalism / Chrysalis creates Krystallfels Handelsgesellschaft|implicit
+  - 2326|2327|The storytelling plan's proxy war and Chrysalis's extermination is the occasion of the thematic claim that the same unregulated capitalism is turned to burn her empire down; the no-allies, deliver-or-die market explains why it can be done|proxy war ... Chrysalis is completely exterminated from Skyfall / Applejack uses that exact same unregulated capitalism to burn Chrysalis's empire to the ground|implicit
+- outward:
+  - 2526|Other stories of the project (TLTT and TCKR) in which readers' understanding of the organization is staged|Readers leave TLTT... In TCKR readers learn
+  - 2526|Chrysalis, a character held elsewhere in the plan|Chrysalis's corporate empire she built
+  - 2326|The Skyfall setting and its Trade Council, held as lore elsewhere|the rest of the Skyfall Trade Council does nothing
+  - 2326|Kessler Jr. and the Celestial Resistance, who launch the proxy war, are characters or groups held elsewhere|When Kessler Jr. and the Celestial Resistance launch the proxy war
+  - 2326|A scene, the meeting before the Canterlot paradrop, held elsewhere|Proxy war concludes during the meeting before Canterlot paradrop
+  - 2327|Applejack and Equestria, whose actions and wealth are held elsewhere; also the theme Accelerants|Applejack uses that exact same unregulated capitalism / drain Equestria's wealth
+  - 2933|placeholder|placeholder
+  - 932|Places held elsewhere: the island, Olenia and the Changeling Lands|isolated island in the sea by Olenia and the Changeling Lands
+  - 933|Chrysalis as a person held elsewhere|Chrysalis creates Krystallfels Handelsgesellschaft
+- whole: Most notes hang together around Chrysalis's founding, the reader's shifting view of the company, and its downfall by the same capitalism, while the mining note and the binding-logic note stand mostly on their own.

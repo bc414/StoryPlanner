@@ -1,0 +1,4 @@
+- sources:
+  - FiM aesthetics (the published show's tone) | use as the stylistic yardstick for the repatriation test design, which should be rigorous yet comically in keeping with the show | hilariously in line with FiM aesthetics | referred-to
+- order:
+- about: The author proposes two story revisions: the repatriation test is decided by orphaned foals crying at rough caretakers, and Flowing Current and Rarity already know each other through the parlour, so he offers her an alternative to overworking out of guilt.

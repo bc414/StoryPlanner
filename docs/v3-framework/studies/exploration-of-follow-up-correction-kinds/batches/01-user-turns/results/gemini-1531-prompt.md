@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model has Vérany's scheme running unseen under Coltbert's nose, with Coltbert believing he buried him; the user says Coltbert would notice Vérany had climbed out of the hole | I think Coltbert would notice that Verany actually managed to dig himself out | Stated mildly as a personal view ("I think"), in the course of building on the idea
+  - fact of the world | The model's irony has Coltbert humiliated and fooled by Vérany's success; the user gives Coltbert a different reaction, that he is pleased because Vérany has moved from hoarding to value and excellence, which means Coltbert won the newspaper war | But Coltbert is pleased because it means Verany has transitioned from bourgeois hoarding | Flat counter-proposal with a reason given, folded into the next step of the plan rather than pressed as an objection
+- about: The user redirects the model's secret-conspiracy framing by saying Coltbert would see Vérany's recovery and read it as his own ideological victory, then asks what dynamic follows between two spiteful acquaintances.

@@ -1,0 +1,4 @@
+- sources:
+  - the author's own upbringing on these old RTS games and the childhood perception that war games were bad for kids | offered as personal recollection and a premise for the model to reflect on, treated as true and as the basis for asking whether it shaped the author's thinking | Since I grew up on these games; There was a common perception when I was growing up | first-named
+- order:
+- about: The user reacts to the previous analysis by remarking that both their RTS games and MLP were defanged by the same market force, asks whether Empire at War players also follow these older franchises and whether growing up on them shaped their thinking, and argues from memory that such games had real, logical worldbuilding worth defending.

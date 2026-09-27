@@ -1,0 +1,7 @@
+- asks:
+  - decide/advise | asks whether the organization Chrysalis should add industrial-fuel use of red love to its revenue scheme or rely on drug sales alone | "wondering if Chrysalis should unveil... or if drugs are enough"
+- supplies:
+  - background note | one-line description of the current in-story economic setup: selling spiked red love as a drug on the global black market | a single sentence
+- shaping:
+- openness: Asks for a choice between two named options - adding an industrial fuel-alternative use for red love versus keeping the drug-only black-market scheme - without leaning toward either.
+- subject: Worldbuilding decision on the economic/revenue model built around the substance "red love" and the organization Chrysalis

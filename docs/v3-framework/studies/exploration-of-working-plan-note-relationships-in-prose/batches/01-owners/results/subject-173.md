@@ -1,0 +1,9 @@
+- relations:
+  - 596|597|597 continues 596: the ordinary unicorn Penumbra Spark of the first note is the one who invents the spell, and the name carries over|He invented a reverse filtering spell|implicit
+  - 597|598|598 continues 597 in time and as consequence: the ambition drained by the crystals leads to his losing control and his body becoming the cloud|lost control of the sheer amount of ambition|implicit
+  - 596|598|598 continues 596: the unicorn Penumbra Spark named in the first is what becomes King Sombra, so the ordinary unicorn precedes the cloud|Penumbra Spark inevitably lost control|explicit
+- outward:
+  - 596|other unicorn peers and the elite unicorn crystallers, a wider unicorn society not held here|on the fringe of the elite unicorn crystallers
+  - 597|crystal ponies and the black inhibitor crystals as a wider world and lore held elsewhere|placing black crystals on all his peers and then crystal ponies
+  - 598|the story TLTT, whose start is the point this note describes|Who is this character at the start of TLTT
+- whole: The three notes read as one connected sequence, from the bullied unicorn to the inventor of the spell to the cloud called King Sombra, each picking up where the one before leaves off.

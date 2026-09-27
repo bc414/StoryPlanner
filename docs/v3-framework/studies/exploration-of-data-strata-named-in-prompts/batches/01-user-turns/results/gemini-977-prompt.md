@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether their own story logic holds, that Celestia's rigid, feudal, no-interest money system left her blind to Chrysalis's economic attack through Skyfall, and that Applejack's Harmonic Capitalism fixes the military, economic and moral problems, and the turn names no body of material for the model to draw on or avoid.

@@ -1,0 +1,9 @@
+- asks:
+  - decide | give a final determination on who holds the presidency and at what point in the story, weighing three previously discussed approaches against each other | "So what's the verdict on who is president and when? Approach 1 2 and 3"
+  - confirm/evaluate | judge whether Approach 2 is the strongest option because it demonstrates the FJA retains power even without Gaudreau as president | "Is 2 the best because it shows that the FJA is still potent even though Gaudreau is not president?"
+  - confirm/evaluate | judge whether Approach 1 is the strongest option because it demonstrates democracy is not monolithic and compromise persists even with Gaudreau as president | "Is 1 the best because it shows that democracy is not a monolith and there is persistent compromise even if Gaudreau is president?"
+  - confirm/evaluate | judge whether Approach 3 is the strongest option because it demonstrates a person retains political voice/influence even without holding the presidency | "Is 3 the best because it shows that you always have a voice even if you're not president?"
+- supplies:
+- shaping:
+- openness: Names three specific approaches (1, 2, 3) and supplies a candidate thematic justification for each, then asks the model to pick which is best among them rather than leaving the question fully open.
+- subject: Deciding which narrative approach determines who holds the presidency and when, for a story involving a character named Gaudreau and a group called the FJA

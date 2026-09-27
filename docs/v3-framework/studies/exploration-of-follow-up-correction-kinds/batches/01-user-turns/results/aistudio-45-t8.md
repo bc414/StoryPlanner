@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adopts the model's latest explanation as the definitive version and pastes seven earlier statements, asking the model to sort which still hold and which should be scrapped in light of it, without saying the model's turn was wrong.

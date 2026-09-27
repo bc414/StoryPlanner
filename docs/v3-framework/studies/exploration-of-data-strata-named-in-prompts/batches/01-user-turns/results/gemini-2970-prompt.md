@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether NotebookLM would be a workable alternative to the options the model just described, and names no body of material for the model to use or avoid.

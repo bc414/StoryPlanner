@@ -1,0 +1,10 @@
+- steps:
+  - the author | supplies material | an attached document (uncaptured) | opening turn of the conversation
+  - the author | brings a worldbuilding contrast | a dialectics note setting Aquileian volunteer-ace warfare against Kemerskai's standardized solidarity-based army, a question about whether conscription should exist, and a suggestion to rename the workers' party 'solidarity party' | second turn
+  - the model | analyses | an economic 'poverty draft' framing, a psychological reading of the infantry as a sanctuary for the unambitious, a political-naming proposal (PSA), and closing Socratic questions | third turn, replying to the author's dialectics note
+  - the author | redirects on a lexical detail | rejection of the term 'phalanx' and a request for alternatives | fourth turn
+  - the model | offers options | four candidate terms for the infantry with etymology, lore tie-ins, a causality/shockwaves section, and closing Socratic questions | fifth turn, replying to the author's request for alternatives
+- kept:
+  - note 5573 | pasted from this reply inside the author's own framing | keeps the model's economic and psychological analysis of the wartime welfare-driven infantry (poverty draft, sanctuary of the cog) folded after the author's own opening paragraphs, filed under Subject '2nd Aquileian Republic'
+- brought: The author brought a comparative military/economic worldbuilding sketch (Aquileia vs Kemerskai), a question about conscription, and a party-renaming idea, seeking the model's elaboration.
+- loop: The author brings a raw dialectical setup and a follow-up lexical correction; the model returns layered analysis and then alternative terminology; only the first analytical response, merged with the author's own framing text, is carried into the plan database, while the naming-alternatives exchange leaves no traced note.

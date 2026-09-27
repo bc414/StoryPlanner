@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks whether NotebookLM uses some form of concept indexing that spans all of a notebook's sources | "Does notebooklm use some sort of indexing of concepts across all the sources?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: it proposes a specific mechanism (indexing of concepts across sources) and asks the model to confirm or explain whether that is how NotebookLM works.
+- subject: Whether/how NotebookLM indexes concepts across multiple sources

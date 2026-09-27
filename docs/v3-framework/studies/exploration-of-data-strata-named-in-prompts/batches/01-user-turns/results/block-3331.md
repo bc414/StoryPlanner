@@ -1,0 +1,6 @@
+- sources:
+  - the report (the model's lineage of Aquileia's evolution) | treat as incomplete and inaccurate on the PNdA; extend it and correct it with what the author adds | "missing some critical insights", "Extend the report" | referred-to
+  - the author's own recollection of later development (PNdA made asset specific and snobbish; PRN as the rugged individualists of the 1st revolution led by Verany; Coltbert converting Verany's ideology) | treat as true and as a correction to fold into the report | "At some point I actually made the PNdA asset specific and snobbish too" | first-named
+  - v1 archive | include as an additional body of material the report should also cover | "Extend the report to v1 archive as well" | referred-to
+- order:
+- about: The user says the lineage report misses key developments about the PNdA, PRN, Verany and Coltbert, supplies those corrections from memory, and asks for the report to be extended to cover the v1 archive too.

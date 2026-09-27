@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author asks follow-up questions about how Gerad gains control of the lords' estates and what happens to the ponies, adds new plot facts about the 978 Griffenheim republic, Vérany's 980 rule and Moriset Discret's counterrevolution, and asks the model to suggest options to fill the gaps.

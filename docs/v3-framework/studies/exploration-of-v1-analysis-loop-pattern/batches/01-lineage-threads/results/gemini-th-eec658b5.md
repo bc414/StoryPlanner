@@ -1,0 +1,15 @@
+- steps:
+  - author | poses a thematic dilemma | two competing explanations for why Celestia can't help in battle, plus questions about tone and consistency | gemini:176 prompt
+  - model | analyzes and synthesizes | names a hybrid mechanism, answers each sub-question, drafts a scene | gemini:176 response
+  - author | redirects staging and tightens constraints | wants Celestia leaning on Luna, links Luna's nightmare-absorption to Celestia's daytime burden, wants magic democratized via crystals rather than absent, rejects a line as plot-armor, asks whether Twilight should also use crystals for emotional reasons, insists on a PTSD-driven not-malicious portrayal | gemini:177 prompt
+  - model | elaborates mechanism and redrafts | ties the two siblings' burdens together, reframes Celestia's offer-and-refusal logic, explains a psychological buffer for Twilight's combat magic, produces a revised scene | gemini:177 response
+  - author | reverses a character stance and expands the lore question | Twilight's crystal use reframed as emotional buffer not raw soul-magic, Celestia shifted from willing to ashamed/reluctant, proposes Rarity as the one who releases Celestia, raises whether crystal-casting predates Celestia, adds finite-resource economics and a hidden-knowledge motive | gemini:178 prompt
+  - model | extends lore and redrafts the scene again | details the psychological buffer, drafts a Rarity intervention, builds an ancient crystal-casting history, adds a hidden-knowledge reveal, gives a revised chapter flow | gemini:178 response
+- kept:
+  - note 1058 | the author's own words | keeps the author's statement that Celestia is trying her best and is tragic/PTSD-driven, filed on the plot point about Rarity releasing Celestia from front-line duty
+  - note 1057 | the author's own words | keeps the author's reworking of Celestia as ashamed rather than willing, with Rarity (citing her own front-line guilt) as the one who tells her she doesn't have to fight, filed on the same plot point
+  - note 1059 | the author's own words | keeps the author's revision that Celestia reluctantly offers to cast something and is then relieved of it, filed on the same plot point
+  - note 2530 | the author's own words | keeps the author's assignment of the release-line to Rarity and her backstory reason for saying it, filed on the link between that plot point and the character Rarity
+  - note 1060 | pasted whole from this reply | keeps the model's drafted Rarity dialogue line, filed on the same plot point
+- brought: The author brought forward an unresolved question of how to define the limits of Celestia's magic without breaking the story's core theme that mortals, not goddesses, drive events.
+- loop: The author repeatedly narrowed an open mechanism-question about Celestia's power into a specific character stance (ashamed, reluctant, then relieved of duty by Rarity) and a companion lore idea (crystals predating her), and the plan kept only the author's own settled phrasing of that stance plus one drafted line of dialogue, both filed to the single plot point and its link to Rarity.

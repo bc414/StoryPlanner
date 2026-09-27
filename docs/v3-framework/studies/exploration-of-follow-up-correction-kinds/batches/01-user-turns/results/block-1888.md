@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the chapter-track discussion behind and lays out the Survival Harmony progression from a v1 story thread, asking where and how to save it across subject ontologies and in a unifying place.

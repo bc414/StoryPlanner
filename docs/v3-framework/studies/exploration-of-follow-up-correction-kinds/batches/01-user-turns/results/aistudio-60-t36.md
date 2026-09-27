@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Wings of Dew discussion and starts a new request for name suggestions for the civilian unicorn who becomes King Sombra, comparing it to Luna becoming Nightmare Moon.

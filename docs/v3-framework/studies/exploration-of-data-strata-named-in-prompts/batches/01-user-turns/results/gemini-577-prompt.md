@@ -1,0 +1,6 @@
+- sources:
+  - Mao's great leap forward | do not use as the model for Chrysalis's industrialization; the user rejects it as a failure | Not planning on using Mao's great leap forward, which was a failure | referred-to
+  - Peter the Great's modernization in Severyana | use as the model for the planned industrialization, where the Boyars conscript commoners to build factories | I'm planning on Chrysalis and the loyalists inciting something akin to Peter the Great's modernization | first-named
+- order:
+  - Peter the Great's modernization in Severyana | Mao's great leap forward | Not planning on using Mao's great leap forward... I'm planning on Chrysalis and the loyalists inciting something akin to Peter the Great's modernization
+- about: The user corrects the model's Great Leap Forward framing for Chrysalis's industrialization and substitutes a Peter the Great style modernization, with Boyars conscripting commoners to build factories, as the planned model.

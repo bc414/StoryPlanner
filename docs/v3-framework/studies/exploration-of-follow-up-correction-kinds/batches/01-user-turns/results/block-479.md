@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's argument about Chrysalis's seven years at the Academy alone, attaches the official Griffonian Empire and Republic flavor text, and asks whether it already holds candidate names for her institution.

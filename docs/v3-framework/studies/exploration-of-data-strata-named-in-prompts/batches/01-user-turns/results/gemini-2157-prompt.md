@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a historical breakdown of gunpowder's evolution across muskets, cannons and later weapons, and how it connects to fertilizer, without naming any material to draw on or avoid.

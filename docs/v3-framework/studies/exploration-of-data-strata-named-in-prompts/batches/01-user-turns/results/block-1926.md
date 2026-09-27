@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's Rainbow Dash POV reasoning, moves the "I am Celestia" reveal to the end of chapter 6, proposes a chapter-by-chapter POV layout (AJ, Twilight, Rainbow, Fluttershy with AJ and Twilight at the end), and asks whether that structure makes sense.

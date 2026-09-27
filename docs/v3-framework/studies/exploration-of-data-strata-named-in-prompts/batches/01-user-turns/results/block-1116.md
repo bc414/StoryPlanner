@@ -1,0 +1,8 @@
+- sources:
+  - The model's earlier point that Celestia's system lets Applejack and Gilded Trust govern their own spheres for the campaign ("Show, don't just tell") | accepted as sound and extended: the user reads it as a blueprint for state-level government, not just an Equestrian quirk | "I realize this isn't just an Equestrian quirk" | referred-to
+  - The model's ideas on Gilded Trust's rhetoric versus reality, the debate poseur call-out, and Applejack asserting where reconstruction comes from | liked and adopted into the plan | "I like the idea that during this time" | referred-to
+  - The 6-month in-universe campaign length | provisional and under reconsideration, with a 1-year lead-up floated in its place | "6 months in-universe is too short" | referred-to
+  - Real 2 and 4 year election cycles | comparison point for judging whether 6 months is long enough | "compared to the real 2 and 4 year election cycles" | referred-to
+  - Planned story events: Eros's unconditional surrender, the Skyfall resolution, invasion preparation against Chrysalis, and domestic integration in the GR | used as a check that a longer timeline fits the plan | "the lengthened timeline also fits the events" | referred-to
+- order:
+- about: The user endorses the model's idea of the campaign as parallel governance and then works through whether the referendum's lead-up should be 6 months or 1 year, weighing real election cycles, Celestia's conservatism, the Changeling Lands' rebuilding time and the other planned events.

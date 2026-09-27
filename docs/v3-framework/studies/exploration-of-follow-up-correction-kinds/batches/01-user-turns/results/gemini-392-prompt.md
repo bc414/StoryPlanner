@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's premise that Skyfall would use its fleet to inspect, delay and extort neutral shipping in peacetime, and so cage Aquileia, is challenged as implausible for a nation not at war | Is it plausible for Skyfall to use their fleet to disrupt trade when they are not at war with anyone? That doesn't seem correct | Opens as a question, then states flat doubt and gives a reason: Skyfall lacks the manpower to survive a war beyond expensive mercenaries
+  - fact of the world | The model's picture of Skyfall as a coherent state able to run a naval blockade and enforce exclusivity is questioned, since ruthless capitalists would have a weak or kleptocratic government | Also as ruthless capitalists they would have a weak central government or kleptocratic one | Added as a plain assertion with an inference from Skyfall's character, put as a further point in the same challenge
+- about: The user pushes back on the model's Skyfall naval-blockade explanation, doubting that a mercantile, weakly governed nation without war capacity would coerce trade in peacetime.

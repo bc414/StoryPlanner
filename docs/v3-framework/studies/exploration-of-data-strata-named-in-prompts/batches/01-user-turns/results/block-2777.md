@@ -1,0 +1,4 @@
+- sources:
+  - the brief passages of the two stories (their authors' passages) in the chapter "The Spark that Ignited the World" | the model is to examine these specifically, as the material for a final nuanced analysis of how well the authors handled the Faust versions of the characters | look specifically at their brief passages in the chapter "The Spark that Ignited the World" | first-named
+- order:
+- about: The user accepts that they judged the two external stories too harshly on Hasbro-mandate contamination and asks for one last, more nuanced analysis focused on those stories' short passages in a single named chapter.

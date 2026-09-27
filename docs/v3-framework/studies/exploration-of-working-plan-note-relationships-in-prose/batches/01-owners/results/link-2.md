@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 98 | Mudbeak, a character who is not among this owner's notes, and his Herzlander origin and love of bridges | eccentric uncle with a thick Herzlander accent who really loves bridges
+- whole: This owner holds a single note, so there is nothing in it to hang together or to separate.

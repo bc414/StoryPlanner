@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2417 | The Stagnation tax and asset seizure, a policy or event in the story's world defined elsewhere | the basis for the Stagnation tax and asset seizure
+  - 2417 | EEEE, an organization in the world that is a machinists guild, described elsewhere | since EEEE is already a machinists guild
+  - 2417 | Total mobilization, a war or economic effort in the story, treated elsewhere | how they can realistically get total mobilization running
+- whole: The owner holds a single note, so there is nothing to hang together or fall apart; it stands as one entry whose reasoning leans on material held elsewhere.

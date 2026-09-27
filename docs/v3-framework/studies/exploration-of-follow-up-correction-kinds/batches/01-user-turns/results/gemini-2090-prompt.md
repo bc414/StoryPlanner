@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the restaurant-spectrum framework by asking for assessments of two further restaurant types, big-menu diners and high formal restaurants, without disputing anything in the previous answer.

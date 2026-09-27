@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the survey of existing crossovers by laying out their own crossover premise, with changelings as demons, three of the Mane Six as the HUNTR/X parallel, singing that moves the sun, and a rival changeling band, without disputing anything the model said.

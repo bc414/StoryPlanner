@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about whether uploading JSON exported from their own story planner app to NotebookLM, and swapping in a new file after edits, would work well, without challenging anything the model said.

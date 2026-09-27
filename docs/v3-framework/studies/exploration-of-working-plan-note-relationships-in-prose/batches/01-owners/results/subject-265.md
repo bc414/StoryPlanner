@@ -1,0 +1,11 @@
+- relations:
+  - 2453|2456|2456 restates the revision in 2453 as a pair of questions: the old rule asked what a character wants, the new one asks what material conditions force. It is the same shift stated another way.|The old rule asked: "what does Chrysalis want to happen?"|implicit
+  - 2453|2456|The old rule is named in both notes, and the new principle from material conditions replaces it. 2453 sets out the old and the new rule, and 2456 gives each as a question.|"given these material conditions, what MUST happen regardless of what any individual wants?"|implicit
+  - 2453|2458|2458 presupposes the material-conditions principle in 2453. If what happens follows from conditions, the syuzhet does not decide events. It only writes the individuals who catalyze them.|catalyze what was always going to happen|implicit
+  - 2456|2458|2458 draws the consequence of the new rule in 2456 for the syuzhet. Because events must happen regardless of individual wants, the syuzhet's job is delivery, not deciding.|isn't to decide what happens|implicit
+  - 2458|2453|2458 keeps the role of specific individuals that 2453 first gave through Chrysalis and Coltbert. It recasts them from drivers of everything to catalysts of what was already going to happen.|drive everything|implicit
+- outward:
+  - 2453|The earlier rule and its named characters, Chrysalis and Coltbert, who belong to the story's cast, held elsewhere|Chrysalis and Coltbert drive everything
+  - 2453|The material conditions the causal chains start from, held elsewhere in the plan|everything should have a causal chain from material conditions
+  - 2458|The fabula and its logic, and the thesis the syuzhet must show, held elsewhere in the plan|shows the thesis, not tells the fabula's logic
+- whole: The three notes read as one hanging-together argument: 2453 states the revised principle, 2456 restates it as a change of question, and 2458 draws its consequence for the syuzhet.

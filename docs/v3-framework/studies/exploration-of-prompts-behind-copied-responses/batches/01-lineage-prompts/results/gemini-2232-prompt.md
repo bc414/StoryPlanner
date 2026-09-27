@@ -1,0 +1,8 @@
+- asks:
+  - explain | give foundational background information on Aikido as a discipline | "Give me some more foundation knowledge on Aikido"
+  - explain | give an account of Aikido's history | "and its history"
+  - brainstorm | suggest ways to draw creative inspiration from Aikido | "how to draw inspiration"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open; the message names only the topic (Aikido, its history, drawing inspiration) without specifying content, form, or length for the reply.
+- subject: Requesting background knowledge on Aikido and its history, and ideas for drawing creative inspiration from it

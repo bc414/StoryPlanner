@@ -1,0 +1,9 @@
+- passages:
+  - note 4572 | premise-comparison summary | present tense, defines story as a "fork", conditional clause "where...refuses instead of agreeing" | how this story diverges from P&K at Luna's retreat order | apart
+  - note 4572 | past-tense backstory narration with historical analogy | past tense "became", "ran", comparison "just like Phillipe Petain, the Lion of Verdun" | Applejack's collaborator role and pony-slave-labor farm in P&K | apart
+  - note 4572 | present-tense meta-note linking to chapters | present tense "That is", naming it "the nightmare" and citing "chapters 1 and 2" | identifying this backstory as Applejack's nightmare in the actual story | apart
+- shifts:
+  - note 4572 | premise-comparison summary | past-tense backstory narration with historical analogy | tense shift to past at new sentence "In P&K, she became...", introduction of a historical-figure comparison
+  - note 4572 | past-tense backstory narration with historical analogy | present-tense meta-note linking to chapters | tense shift back to present "That is", shift from narrating events to naming them as "the nightmare" tied to "chapters 1 and 2"
+- registers: premise-comparison summary; past-tense backstory narration with historical analogy; present-tense meta-note linking to chapters
+- whole: This single note moves through three distinct registers in sequence — a present-tense structural comparison, a past-tense narrated backstory carrying a historical analogy, and a present-tense meta-note tying that backstory to actual chapters — each occupying its own sentence with a clear break between them.

@@ -1,0 +1,14 @@
+- relations:
+  - 793|795|the title's translation is joined to the description of the pamphlet: the name 'Common Sense' is given to the work whose content is then set out (identification, then elaboration)|"Common Sense" ... "It is a pamphlet that deconstructs"|implicit
+  - 794|795|real-world model and its fictional counterpart: Paine's pamphlet that ignited a revolution is mirrored by a pamphlet urging the overthrow of kings and archons for a republic|"Common Sense pamphlet" ... "It is a pamphlet"|implicit
+  - 794|793|the real-world inspiration shares the name of the technology: the German title translates to the title of Paine's pamphlet|"Common Sense" ... "German for"|explicit
+  - 795|1627|the later note gives the method (scientific method and historical reasoning) by which the pamphlet does the deconstruction of myths that the earlier note states as its content|"deconstructs the Archons' religious myths" ... "desconstruct the Empire's and Archon's myths"|implicit
+  - 795|1627|the two overlap and add to each other on what is attacked: the hierarchy of Lion and Eagle as a control tool is added to the nobility as resource-hoarders posing as protectors|"nobility as just resource-hoarders" ... "hierarchy as a tool of control"|implicit
+  - 794|1627|Paine parallel and an Enlightenment-style method of reasoning against myth and hierarchy; the real-world model fits the pamphlet's rational argument against established authority|"ignited the American Revolution" ... "scientific method and historical reasoning"|implicit
+- outward:
+  - 795|the Archons and their religious myths, held elsewhere in the world|"the Archons' religious myths"
+  - 795|the figure Grover III and his "Chivalric Illusion", known from elsewhere|"Grover III's \"Chivalric Illusion\""
+  - 795|the kings, and the wished-for Pan-Griffonian Republic of griffons|"remove the kings and archons"
+  - 1627|the Empire and the Lion and Eagle hierarchy, held elsewhere|"the Empire's and Archon's myths" and "Lion and Eagle hierarchy"
+  - 794|the American Revolution and Paine's real pamphlet, in the real world|"Thomas Paine's Common Sense pamphlet"
+- whole: Notes on this technology hang together as one set: a title, a real-world model, and two accounts of what the pamphlet does and how it argues, with the accounts overlapping.

@@ -1,0 +1,7 @@
+- sources:
+  - season 9 canon finale, episodes 24 and 25 | model is to say from its own knowledge whether the windigos return; weight open, the user asks whether it fits the puzzle or should be ignored, and has not watched it | do the windigos come back? ... or should I ignore it? | first-named
+  - season 2 episode Hearth's Warming Eve | the user's only firsthand knowledge of the show's windigos, the baseline they know | I'm only familiar with the season 2 episode Hearth's Warming Eve | first-named
+  - the user's existing lore that the windigos are already crystals | treated as true and used to test whether the proposed stabilizing idea works | The windigos are already crystals | referred-to
+  - the windigos-as-raw-ambition integration and Celestia-stabilizes-by-friendship idea from this conversation | provisional, the user is unsure it works and is checking it against their lore | I'm not sure if this works | referred-to
+- order:
+- about: The user probes a possible flaw in the proposed Celestia-stabilizes-windigos idea because their windigos are already crystals, and asks the model what the unwatched season 9 finale does with the windigos and whether to fit it in or ignore it.

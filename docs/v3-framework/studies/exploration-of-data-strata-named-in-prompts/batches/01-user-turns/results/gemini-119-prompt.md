@@ -1,0 +1,5 @@
+- sources:
+  - existing chapter titles (elements of harmony, command, organization, sabotage) | treat as the quality benchmark; new title options should work just as well as these | find things that work just as well as the elements of harmony and command, organization, sabotage | referred-to
+  - the themes here (the story's themes for these chapters) | dig into them more deeply to generate title options | Look deeper into themes here | referred-to
+- order:
+- about: The user rejects several of the model's proposed chapter titles (Hubris, Necessity, Encirclement) with story-based reasons, keeps Sovereignty for Twilight's Castle, and asks for further, thematically deeper title options, including new ones for Ultimatum and Judgment, that match the quality of the existing titles.

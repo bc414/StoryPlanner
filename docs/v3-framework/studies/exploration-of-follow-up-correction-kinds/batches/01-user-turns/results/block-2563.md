@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new question about male friendships in the show, shifting the topic rather than challenging anything the model said.

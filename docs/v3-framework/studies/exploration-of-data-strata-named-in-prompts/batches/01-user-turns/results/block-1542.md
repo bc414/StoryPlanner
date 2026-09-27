@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes reorganizing story planner v2 around four usage modes (Expansion, Application, Audit, Scene Designer), each with its own track display text and read-only or editable settings, and asks the model to analyze them, say whether any should be merged or are missing, and suggest names.

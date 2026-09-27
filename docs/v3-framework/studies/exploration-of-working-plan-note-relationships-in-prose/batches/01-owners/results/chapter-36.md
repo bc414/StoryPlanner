@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 476|Two real historical events, the Battle of Britain (1940) and the Siege of Mount Sinjar (2014), that the chapter draws on as models|Inspired by The Battle of Britain in 1940 and The Siege of Mount Sinjar in 2014
+- whole: This owner holds a single note, so there is nothing to hang together; it stands alone and joins to no other note here.

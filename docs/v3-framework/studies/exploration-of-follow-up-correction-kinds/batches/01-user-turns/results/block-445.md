@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of why the fake parents died, that vices were a coping mechanism for stress and burnout, is replaced by the user's version: they did not need vices to cope, and their excess came from partying too much with other tycoons | Actually, her fake parents did not need the vices to cope with stress. They partied with other tycoons too much | flat, brief correction opening with 'Actually', no reason beyond the replacement cause and no apology
+- about: The user briefly corrects the model's causal explanation of the fake parents' vice-driven deaths, substituting recreational tycoon partying for stress-coping.

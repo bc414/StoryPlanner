@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model had Genevieve's donations to Ain Trotgourait cause hyperinflation by injecting raw Skyfall Marks into the warzone. The user says she understands macroeconomics and instead buys Skyfall goods to donate, with no paper-money dump. | "she is not introducing hyperinflation, she knows how macroeconomics works" | Flat, tacked on at the end after the design questions. It gives a short reason based on her competence and swaps in what she actually does, with no apology or heat.
+- about: The user compares Genevieve to Twilight as a parallel and asks a set of design questions: whether her owner-class position still works for the allegory, whether a rank-and-file figure is needed too, and where her money comes from. Close to the end, they also correct the model's hyperinflation mechanism for her donations.

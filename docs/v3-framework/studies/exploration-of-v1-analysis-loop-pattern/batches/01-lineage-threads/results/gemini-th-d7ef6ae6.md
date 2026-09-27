@@ -1,0 +1,38 @@
+- steps:
+  - the author | pitch | gives content for AJ's and Henri's speeches, including AJ's Lioness nickname and Henri's decision to confess passionately | opening of gemini:274
+  - the model | develop | frames the three speeches as an escalating chain, drafts AJ's speech, traces Henri's and Trimmel's reactions, gives a chapter flow summary | gemini:274 response
+  - the author | refine | specifies Trimmel's speech is mostly Herzlander with a native-changeling jaeger motto at the end | gemini:275
+  - the model | interpret then draft | explains the symbolic meaning of the language split, then writes an opening scene for Chapter 1 | gemini:275 response
+  - the author | pitch | introduces a new chapter-10 beat: Mali's tribe joins, then a twist reveals twelve more warring thestral tribes Celestia neglected | gemini:276
+  - the model | develop | draws a parallel to the changeling hives, sketches a summit scene, proposes a trade-based unification solution, and a chapter summary | gemini:276 response
+  - the author | correct | reverses the order of revelation so no one but Celestia yet knows changeling history, meaning AJ's realization must come later and in reverse | gemini:277
+  - the model | revise | reworks the chapter-10 and chapter-15 scenes to fit the corrected reveal order and Celestia's motive | gemini:277 response
+  - the author | pitch | adds that the tribes fractured after Nightmare Moon, their unifier, was banished, and names this an application of the capitalism/technology model | gemini:278
+  - the model | develop and compile | analyzes the unifier-collapse history, integrates it into chapter-10 dialogue, then delivers a full 26-chapter master outline document | gemini:278 response
+  - the author | amplify | restates the tribal-unity beat as the defining proof of the model and links it to Comet Shine's established ethos | gemini:279
+  - the model | validate | expands the beat into a formal proof-of-concept argument and closes by repeating the outline | gemini:279 response
+  - the author | synthesize | proposes a theory distinguishing Aquileia's trade-based unity from Herzland's institution-based unity (plus translator for outsiders) | gemini:280
+  - the model | formalize | builds out the trade-vs-institution framework in full and applies it to the finale's alliance meaning | gemini:280 response
+- kept:
+  - note 125 | the author's own words in this record | keeps Henri's stated motive for speaking passionately, filed on the PlotPoint for his speech
+  - note 126 | the author's own words in this record | keeps the description of Henri's speech as his first full confession, on the same PlotPoint
+  - note 619 | the author's own words in this record | keeps the outline of AJ's speech content and the Lioness nickname, on the PlotPoint for her speech
+  - note 622 | the author's own words in this record | keeps the same Henri-motive text, cross-filed onto AJ's speech PlotPoint
+  - note 506 | pasted from this reply with cuts | keeps the model's phrasing of Trimmel's internal reasoning, on the PlotPoint for his life-story speech
+  - note 620 | pasted whole from this reply | keeps the model's drafted line of AJ's speech, on the PlotPoint for her speech
+  - note 5610 | one sentence lifted from this reply | keeps one sentence of unrelated Spike/Celestia lore, filed under the Subject Spike
+  - note 2412 | pasted whole from this reply | keeps the line on Celestia treating the tribes as uncontained creatures, on the Link between Mali's explanation and Celestia
+  - note 3665 | pasted inside the author's own framing | keeps the reasoning for Celestia's non-intervention tied to Luna's trauma, on the Luna-reveal/World-Peace Link
+  - note 3750 | pasted inside the author's own framing | keeps AJ's realization equating the changeling and thestral collapses, on the Trimmel/Vraks World-Peace Link
+  - note 3495 | pasted whole from this reply | keeps the verdict that bottom-up commerce beats top-down empire, on the Rescue-the-Tzinacatl Link
+  - note 567 | pasted from this reply with cuts | keeps the causal account of Nightmare Moon's fall triggering tribal infighting, on the PlotPoint for Mali's explanation
+  - note 3742 | pasted whole from this reply | keeps the argument that the model proves itself in the jungle's extreme case, on the second-tribe/Harmonic-Capitalism Link
+  - note 3743 | pasted whole from this reply | keeps the closing aphorism about contracts over godhood, on the same Link
+  - note 2395 | pasted whole from this reply | keeps the line that harmony needs institutions as well as friendship, on the Kemerskai/Applejack Link
+  - note 3730 | pasted from this reply inside the author's own framing | keeps the same insight plus AJ's renewed resolve against Celestia, on the Kemerskai/Establishing-Republic Link
+  - note 4253 | pasted whole from this reply | keeps the two-line contrast of unity-through-difference vs unity-through-sameness, on the Economic/Government-Models Subject
+  - note 4254 | pasted from this reply with cuts | keeps the explanation of Aquileia's trade-mesh mechanism, on the same Subject
+  - note 4255 | pasted whole from this reply | keeps the explanation of Herzland's institutional model and the translator's symbolism, on the same Subject
+  - note 4256 | pasted whole from this reply | keeps the trust-vs-compliance contrast between trade and institutions, on the same Subject
+- brought: The author repeatedly drew on already-established plan elements — Synovial's nickname for AJ, Comet Shine's prior chapter-9 ethos, and Nightmare Moon's historical role as unifier — to ground each new plot proposal.
+- loop: The author feeds in discrete story beats, clarifications, and corrections; the model turns each into thematic framing, drafted lines, and consolidated outlines; the plan then keeps the model's condensed phrasings and the author's own stated beats as notes attached to the specific plot points, links, and subjects the conversation touched.

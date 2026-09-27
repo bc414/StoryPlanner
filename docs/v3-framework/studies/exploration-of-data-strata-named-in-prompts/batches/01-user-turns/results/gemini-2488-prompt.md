@@ -1,0 +1,5 @@
+- sources:
+  - this conversation (Fizzlepop's arc as it appears in it) | read back through and use as the basis for an analysis of her arc | Review her arc from this conversation | referred-to
+  - the idea that Starlight's horn gets fractures from too much spellcasting but the tzinacatl can heal it with herbs | treat as an established premise in the story to build on and test against the question of regrowing Fizzlepop's horn | I am intrigued by the idea that Starlight's horn gets fractures | referred-to
+- order:
+- about: The user asks whether the earlier idea of tzinacatl herbal healing of fractured horns means Fizzlepop can regrow her horn, and asks for the thematic purpose and an analysis of her arc drawn from the conversation so far.

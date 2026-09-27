@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - evidential overreach (my own name) | The model treated one season of one show as decisive empirical proof of the thesis, with a self-reinforcing cycle and a verdict on the manosphere, and did not consider that a single season may not be representative | Is Love Island USA season 8 a definitive representative sample? Why or why not? | put as a pointed question, calling the sample's standing into doubt without saying the model was wrong
+  - one-sided framing that favours the user (my own name) | The model's turn only supported the user's thesis and goals and gave no counter-evidence, and the user asks for the pushback it left out | what genuine pushback is there ... Don't be biased towards my view point and goals | direct instruction to the model, stated calmly, with an acknowledgement that full objectivity isn't possible; the ask for data and explanations works as a request to redo the analysis on firmer ground
+- about: The user questions whether the model's one-season evidence can carry the thesis it was used for, and asks for a less flattering, data-grounded account that includes real counter-evidence.

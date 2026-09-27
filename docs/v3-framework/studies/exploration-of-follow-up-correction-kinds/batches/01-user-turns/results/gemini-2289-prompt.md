@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their own inference from the tech-gap breakdown, that the Wonderbolts' polynitrogen guns are impressive but unsustainable, and proposes that donated love-magic spellfire matrices would replace the chemical ammunition.

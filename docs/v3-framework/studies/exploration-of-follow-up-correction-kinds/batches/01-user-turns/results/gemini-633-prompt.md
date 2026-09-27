@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's picture of pre-industrial drones as gray, starving Husks kept alive only by Jaegers' Red Love, with friendship unaffordable, conflicts with the established jaeger story, where hives formed through shared friendship and Jaegers were protectors against manticore-tier predators | According to the jaeger story, the hives formed as changelings got together to share friendship... Were the changelings, even non jaegers, thriving back then? | put as a question that cites the existing story as the standard, so the correction is implied rather than stated
+- about: The user checks the model's Husk-default premise against the established jaeger story by asking whether ordinary changelings were thriving, then adds their own idea that the Jaegers turned on each other once the big predators were gone.

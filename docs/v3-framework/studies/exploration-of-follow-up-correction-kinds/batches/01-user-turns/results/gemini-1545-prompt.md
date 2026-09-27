@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the etymology of the English word "dollar", extending the currency-naming discussion without challenging anything the model said about "franc".

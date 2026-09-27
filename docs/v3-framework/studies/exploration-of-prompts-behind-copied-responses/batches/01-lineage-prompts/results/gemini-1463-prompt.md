@@ -1,0 +1,8 @@
+- asks:
+  - classification | place Fetterman on the named 3A/3B/3C scale | "where does he fit on the 3A/3B/3C scale"
+  - explanation | determine what his actual actions in office since 2022 reveal about his true political stance, given his campaign persona and health crisis | "What do his actual actions in office since 2022 truly reflect?"
+- supplies:
+  - stated impression | the user's own summary that Fetterman campaigned as a 3B type to win rural voters, then had a stroke and depression | a couple of sentences
+- shaping:
+- openness: Leans toward the user's own stated impression (that he campaigned as 3B) while leaving open, and asking the model to determine, what his in-office actions since 2022 actually reflect and where he truly lands on the 3A/3B/3C scale.
+- subject: Where Senator John Fetterman fits on a 3A/3B/3C political classification scale, based on his campaign persona versus his actions in office since 2022

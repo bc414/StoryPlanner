@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the timeline of the school arc (971-978, before the 978 revolution and the 981 kleptocracy) and asks whether a first-month-of-school scene, in which Gilded Lily tells Chrysalis to endure, watch, copy, replace and win, would work.

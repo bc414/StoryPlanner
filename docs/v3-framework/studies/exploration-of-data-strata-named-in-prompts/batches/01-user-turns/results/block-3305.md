@@ -1,0 +1,4 @@
+- sources:
+  - the model's earlier statement about how literary critics, cultural theorists and historians adapt the framework, quoted from the current conversation | the passage to be expanded on; treated as the starting point for further explanation | "please expand on this" | referred-to
+- order:
+- about: The user quotes one sentence from the model's previous answer and asks the model to elaborate on it.

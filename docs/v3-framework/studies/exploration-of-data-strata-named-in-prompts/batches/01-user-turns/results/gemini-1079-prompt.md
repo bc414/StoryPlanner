@@ -1,0 +1,5 @@
+- sources:
+  - my backstory about EEEE | the story material the model is to relate Tammany Hall to, the thing being compared against | how does it relate to my backstory about EEEE | referred-to
+  - Tammany Hall | historical material, confirmed as what the user was remembering, to be used for inspiration or turned on its head in the story | is there room for inspiration or subversion | referred-to
+- order:
+- about: The user confirms Tammany Hall was what they were trying to recall and asks the model to connect it to their existing backstory and say whether it can serve as inspiration or be subverted.

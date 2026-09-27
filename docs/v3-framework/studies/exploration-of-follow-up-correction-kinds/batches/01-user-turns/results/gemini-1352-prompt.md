@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of Chrysalis's Liberation delusion by asking how Olenia's 1008 surrender strengthens it, supplying Olenia's background and proposing that the win turned her personal vendetta into an institutional, international ambition.

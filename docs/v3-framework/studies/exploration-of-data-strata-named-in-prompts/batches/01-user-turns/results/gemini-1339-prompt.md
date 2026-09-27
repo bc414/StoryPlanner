@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is building on their worldbuilding by tying Chrysalis's hive-conquest plan and her jaeger soldier class to Discret and Coltbert's history, and floating a possible naming split between the old protectors and her new soldiers, without pointing at any body of material to draw on.

@@ -1,0 +1,4 @@
+- sources:
+  - EaW timeline as the author states it (set in 1007 with WW2-era tech, Gerad Discret's reign c. 950-980 matching Industrial Revolution, American Civil War and Gilded Age, revolution of 978 and 980 matching WW1 era) | treat as fixed premises of the setting and reason from them | EaW takes place in 1007 and is WW2 era tech | referred-to
+- order:
+- about: The author asks whether Gerad Discret would found the coastal-city universities out of national interest and a wish to break from the Empire, fixing the era mapping of his reign and the revolution, and noting that the universities empower the merchants and his administrators.

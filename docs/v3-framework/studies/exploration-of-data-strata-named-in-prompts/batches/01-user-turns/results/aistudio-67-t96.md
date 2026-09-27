@@ -1,0 +1,6 @@
+- sources:
+  - the user's own notes for what Applejack would say in the letter | treat as the content the letter must carry, taking the place of the model's suggested letter options; Applejack comes up with SECEF herself | here are my notes for what Applejack would say in the letter | first-named
+  - a season 1-3 friendship letter, sent via Spike in a scroll | use as the model for the letter's tone and delivery | same tone as a season 1-3 friendship letter, sent via Spike in a scroll | first-named
+  - the line from Friendship is Magic Part 2 (Twilight and Celestia exchange) | mirror its structure in the Election Eve exchange, with the told/agreed contrast doing the work | The line from Friendship is Magic Part 2 that I want to mirror | first-named
+- order:
+- about: The user sets aside the model's suggested letter options and supplies their own notes for Applejack's letter, plus the canon line from Friendship is Magic Part 2 they want the Election Eve exchange to mirror.

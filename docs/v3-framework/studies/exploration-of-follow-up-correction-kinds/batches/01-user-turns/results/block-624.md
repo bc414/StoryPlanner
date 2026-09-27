@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their existing perspective plan for the opening chapters, including a planned mid-scene POV switch, and asks the model to review the planning material and analyse its pros and cons, without saying anything in the model's turn was wrong.

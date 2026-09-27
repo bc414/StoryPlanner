@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a comprehensive study of the phases of American history and how those phases map, without pointing to any particular body of material to draw on or avoid.

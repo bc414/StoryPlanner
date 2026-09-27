@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's real-world framing as a premise for redoing the election arc, questions the preachy tone of their own original polling numbers, asks for alternative setups and a review of all events, and adds the constraints that the Kemerskai lesson falls mid-arc and the arc spans six months.

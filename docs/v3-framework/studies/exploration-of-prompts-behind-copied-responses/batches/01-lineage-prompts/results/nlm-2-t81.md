@@ -1,0 +1,11 @@
+- asks:
+  - analysis | trace through the successive dated revisions of the planning document and pinpoint when each key, foundational story idea first appeared | "go through the planning document revisions and identify the dates when key, foundational story ideas were perceived"
+  - cross-reference | connect those dated ideas to the current planning json to show which of them underlie the present plan | "which form the foundation of my current plan"
+- supplies:
+  - revision history, dated versions of the story's planning document (referenced as uploaded, not pasted in the message text) | successive states of the planning for "The Lioness of Tall Tale" over time | described as "revisions... by date", quantity unspecified
+  - current plan, the latest planning JSON "Prompt" file (referenced, not included in the message text) | the present, most evolved version of the story plan | referred to as a single file, no excerpt given
+- shaping:
+  - identify dates | the answer should key its findings to specific dates from the revision history | "identify the dates when key, foundational story ideas were perceived"
+  - focus on foundational ideas | should single out ideas that are foundational/key rather than every change | "key, foundational story ideas"
+- openness: Open-ended: the message names the goal (find the dates of foundational ideas underlying the current plan) but does not specify which ideas or dates these are, leaving the identification itself to the model.
+- subject: Tracing the origin dates of foundational ideas in the planning history of "The Lioness of Tall Tale"

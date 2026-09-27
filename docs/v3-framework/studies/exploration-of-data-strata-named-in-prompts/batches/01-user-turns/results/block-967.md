@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author rejects the layoff idea as too cheap a trope, proposes that Genevieve and the elite artisan end up quietly working at Star Energy, and thinks aloud about whether Genevieve should keep a grudge against Minette, along with the plot hole that could create and a possible fix.

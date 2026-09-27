@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 2432 | Grover III's papers, a written work that establishes this and is held elsewhere | Grover III establishes this in his papers
+  - 2432 | The Archons' public doctrine and their claims about Boreas guiding the Emperor, the lies the scene link is about to expose | The Archons branded this as "The Will of Boreas guiding the Emperor's claws."
+  - 2432 | The Imperial Legions' campaigns and the wider conquest history of the Riverland ponies and Griffon peasantry | Armies would converge with impossible timing
+  - 2432 | The Charitostatic Messaging technology, whose workings this note describes as a magical telegraph, held as a subject elsewhere | the magical equivalent of the telegraph operating in the Bronze Age
+- whole: You gave this owner one note, so it can't be read as a set. It stands as a single entry.

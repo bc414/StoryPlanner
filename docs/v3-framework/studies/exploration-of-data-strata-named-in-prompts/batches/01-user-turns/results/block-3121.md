@@ -1,0 +1,8 @@
+- sources:
+  - the notes about royal guards on a cloud carrier | treat as applying only to the post-930 ALB deportation and foal-repatriation vessel; do not carry them back to Coltlumbus's 649 ship, whose crew was ambitious pioneers | not to be confused with whatever Coltlumbus used in 649 ALB | referred-to
+  - Polynesian ocean faring canoes | real-world material to draw on for the outpost and voyaging ideas; the model is asked what can be taken from it | What can be drawn from Polynesian ocean faring canoes? | referred-to
+  - the rebuilt shrine and necklace ontology (charitostatic effect, absorbing ambient care and protective instinct, shrines only as strong as clan cooperation) | treat as the author's new basis; redo the ontology analysis on it | now that I've rebuilt it after remembering that the pearls/necklaces for transformation require the charitostatic effect | first-named
+  - Mage Meadowbrook's friendship plants for the Tzinacatl and the tree/elements of harmony | use as the analogy for how shrines and necklaces absorb ambient charitostatic magic | like Mage Meadowbrook's friendship plants | referred-to
+  - the Divided Society parallels | treat as applying only after 914-930 ALB, when industrialization comes out of Herzland, not before | Divided Society parallels should be post 914-930 only | referred-to
+- order:
+- about: The user corrects the model's placement of the royal-guard cloud carrier notes, asks about Polynesian canoes and outpost siting, and gives a rebuilt charitostatic ontology of shrines and necklaces (with a post-914-930 limit on the Divided Society parallels), asking for a reanalysis on that basis.

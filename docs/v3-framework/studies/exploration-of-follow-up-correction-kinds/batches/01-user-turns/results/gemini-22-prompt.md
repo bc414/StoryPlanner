@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model summarized only the portion of the story it was given as though it were the whole story, when the user wanted a summary of the entire story | This is only the start of the story | flatly, as a plain statement of the limitation followed by a restated request
+  - reading of the request | The model's summary was scoped to the provided text and presented as a complete summary; the user asks for a summary of the whole story rather than of the excerpt | Can you summarize the whole story? | as a polite question that redirects the task, without irritation or apology
+- about: The user tells the model that the text it summarized was only the beginning of the story and asks it to summarize the whole story instead.

@@ -1,0 +1,14 @@
+- passages:
+  - 4424 | scene beat without a year | The first Battle of Tall Tale is fought, with Trimmel in command | none | terse ordinal "1st battle" naming Trimmel; no date given
+  - 4425 | scene beat without a year | The second Battle of Tall Tale is also fought under Trimmel | none | ordinal "2nd battle", "also Trimmel"; no date given
+  - 4426 | scene beat without a year | After losing the second battle, Trimmel demands the entire Luftwaffe to swarm Tall Tale as the fiercest opposition, is laughed off, and is sent to Bales to wipe out Blueblood | none | "After loss of second battle"; demand, reaction and reassignment written as events
+  - 4427 | scene beat without a year | Chrysalis posts Pagala to the static Tall Tale front as damage control, keeping her from causing chaos on the mobile front | none | Chrysalis acts and decides; no date
+  - 4428 | scene beat without a year | Pagala is moved to Canterlot and the disgraced Synovial, recalled from Griffenheim, takes over the static Tall Tale front | none | reassignment event; no date
+  - 4429 | scene beat without a year | Third Battle of Tall Tale, in which Synovial is played like a fiddle | none | ordinal "3rd Battle"; no date
+  - 4430 | scene beat without a year | Trimmel sends his friend Elvir Roland, just recovered from injuries, to command the green force at Tall Tale after the third battle; the two have just heard of Thranx's assassination in Griffenheim | none | "after the 3rd battle"; Trimmel acts and they hear news
+  - 4430 | statement about the subject | The Tall Tale front is static because all of Applejack's forces are focused on the southern blitz | none | descriptive state of the front ("no movement on this front")
+  - 4430 | statement about the subject | Trimmel's reasoning: whatever commander is placed at Tall Tale will be screwed, so he wants honor for the conscripted drones; the assassination is presumed to be VOPS | none | motive and presumption stated ("already knows", "presumably")
+  - 4431 | scene beat without a year | Fourth Battle of Tall Tale: Elvir Roland surrenders to Applejack almost immediately, nearly bloodless, with all POWs saved; he then joins Trimmel at the camp | none | ordinal "4th Battle"; surrender and joining as events
+  - 4431 | statement about the subject | Elvir is essentially a plant, so the surrender was arranged | none | "He's essentially a plant"
+- sequences:
+- whole: Short outline notes tracing the four Battles of Tall Tale and the shifting Changeling commanders (Trimmel, Pagala, Synovial, Elvir Roland), mostly undated scene beats that follow one another by ordinal battle number across separate notes, with a few statements on the front's situation and Trimmel's motives.

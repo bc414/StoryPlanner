@@ -1,0 +1,4 @@
+- sources:
+  - the sequence and Chrysalis/Trimmel backstory laid out in this message (Rarity and Spike's return, the second letter, the Canterlot decision, the spearhead, Chrysalis as visionary tyrant, Synovial's failure, Trimmel's gambit) | treat as the settled plan; build the Chrysalis analysis and Trimmel's confession on it and keep her intelligent, not stupid | I want it to go like this; Chrysalis is NOT stupid; with this and other things about the history of the hives | first-named
+- order:
+- about: The author lays out how the Chapter 13 arrival and the strategic decision at Canterlot should play out, and asks for help making Celestia's lack of magical help read as pitiable, revealing Chrysalis's gambit through Trimmel's honest confession, and building a nuanced Chrysalis and hive history.

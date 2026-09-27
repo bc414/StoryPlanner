@@ -1,0 +1,8 @@
+- passages:
+  - note 4209 | terse factual entry | subjectless fragment, date and place only | her birth date and place | apart
+  - note 4210 | biographical/expository prose | third-person present tense, cataloguing status and traits, heading label | her rank, influence, and reformist leanings | apart
+  - note 4211 | biographical/expository prose | third-person present tense, states belief as fact | her contempt for the Archons | apart
+  - note 4364 | analytical/thematic commentary | evaluative modal phrasing, ties her trait to another character's arc | her hypocrisy fueling Kemerskai's revolutionary zeal | apart
+- shifts:
+- registers: terse factual entry; biographical/expository prose; analytical/thematic commentary
+- whole: These notes hold several distinct registers, but each note stays in one register throughout, so the registers sit apart from one another across notes rather than mixing within any single note.

@@ -1,0 +1,11 @@
+- steps:
+  - the author | proposes a scene idea and poses a survival problem | a patriot's boast plus a question of how chefs resist syndicate threats, with a proposed magical fix and its justification from established spell mechanics | gemini:2101 prompt
+  - the model | elaborates and validates | a technological rationale for the spell, a sketched confrontation scene, and a sociological argument for why the tactic humiliates the elite | gemini:2101 response
+  - the author | introduces a new worldbuilding element and narrows the story's scope | the concept of exclusive clubs, plus a correction that the goal is cultural humiliation and repatriation, not revolution | gemini:2102 prompt
+  - the model | builds out the mechanism | club vetting logic, a teacher-thug mentorship arc, an economic 'brain drain' argument, and a humiliation scenario for the elite | gemini:2102 response
+  - the author | asks a research question | request for real-world French culinary equivalents, a historical question about French elites as poseurs, and a request for plant-based analogues | gemini:2103 prompt
+  - the model | supplies researched material | a French culinary history framing plus named meat and plant-based dishes mapped onto the story's 'mother process' concept | gemini:2103 response
+- kept:
+  - note 5107 | pasted from this reply inside the author's own framing | keeps the model's economic-sabotage reasoning about Skyfall needing a captive immigrant labor pool, with the author's own added operational detail about smuggling routes and sponsorship, filed under a cartel-focused subject
+- brought: The author brought previously established magic-system mechanics (the Lioness spell's low-power reactive design and the Luna Nova rifle's crystal economics) to justify a new plot solution to a threat scenario.
+- loop: The author repeatedly floats a new worldbuilding idea or scope correction and the model returns a systematized elaboration (mechanisms, scenes, arguments); the plan then keeps one such elaboration by pasting its reasoning and wrapping it in the author's own added operational specifics under a cartel subject.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes their own staging for the scene (Flowing Current intimidating the dealer, then a cut to Rarity's shop) in place of the dealer's dismissal, and asks for New York City history to draw on.

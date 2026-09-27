@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to supply a few more examples of the fluid head-switching technique it just described, without pointing at any source of data.

@@ -1,0 +1,6 @@
+- sources:
+  - this suggestion to change the ending | treated as the origin of the hopepunk thesis; the model should take the causal direction as suggestion first, thesis after, correcting the model's framing | this suggestion to change the ending is what eventually led to the articulation of the hopepunk thesis, not the other way around | referred-to
+  - stories inspired by ASOIAF and Warhammer in this epic fantasy genre space | the author's only available influence before the suggestion; background on the earlier state of the plan, not a source of the thesis | Prior to this I only could draw from stories inspired by ASOIAF and Warhammer | first-named
+  - eu4, hoi4 tropes | the author's other pre-suggestion influence; background on the earlier state of the plan, not a source of the thesis | and eu4, hoi4 tropes | first-named
+- order:
+- about: The user corrects the model's account of how the thesis and ending relate, saying the ending suggestion produced the hopepunk thesis and that before it they could only draw on ASOIAF/Warhammer-style stories and EU4/HOI4 tropes.

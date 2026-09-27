@@ -1,0 +1,2 @@
+- directives:
+- reports: The item never speaks of the reader or the audience; the synopsis only sets out what the characters say and do in the scene, with no instruction about what the page should show, hint at or hold back, and there are no links.

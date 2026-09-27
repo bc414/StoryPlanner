@@ -1,0 +1,9 @@
+- asks:
+  - classification | asks whether boyars should be categorized as feudal lords, village leaders, or something in between on that spectrum | "should the boyars be feudal lords, village leaders, or somewhere in between?"
+  - comparison | asks for historical parallels drawn from Muscovite culture and other pre-industrial principalities to support the classification | "Give parallels to Muscovite culture and other principalities from pre-industrial times"
+- supplies:
+  - premise | a stated assumption that because Celestia arbitrates the boyars' disputes, they must hold less authority than feudal lords such as the griffons have | one sentence
+- shaping:
+  - align with stated reasoning | expects the answer to work from the premise that boyars rank below griffon-style feudal lords because of Celestia's arbitration role | "I imagine they must be less than feudal lords like griffons"
+- openness: Leans toward an answer it names: the user proposes that the boyars are less powerful than feudal lords like the griffons (reasoning from Celestia's arbitration role) and asks the model to place them on the feudal-lord-to-village-leader spectrum with supporting historical parallels.
+- subject: The social/political rank of "boyars" in a fantasy setting, compared to feudal lords and village leaders, using Muscovite Russian and other pre-industrial historical parallels

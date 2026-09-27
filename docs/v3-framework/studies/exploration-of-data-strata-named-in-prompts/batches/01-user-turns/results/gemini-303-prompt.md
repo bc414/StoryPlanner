@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's advice about "Poseur" versus "Poser", saying the American slang sense fits what they want, and describes a planned scene in which Henri calls the changelings "Poseurs" and Applejack answers "You mean 'Posers'?", with the same idea applied to the supremacists.

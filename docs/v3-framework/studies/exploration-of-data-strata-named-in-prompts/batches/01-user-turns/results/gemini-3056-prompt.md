@@ -1,0 +1,4 @@
+- sources:
+  - planning of The Lioness of Tall Tale (the author's own planning of the work, as a record to trace) | use as the material to reconstruct how the idea that magic is ambition affecting the physical world came about | when planning The Lioness of Tall Tale | referred-to
+- order:
+- about: The user asks the model to trace the path by which they arrived at the idea that magic is ambition acting on the physical world during their planning of The Lioness of Tall Tale.

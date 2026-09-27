@@ -1,0 +1,3 @@
+- passages:
+- sequences:
+- whole: The subject "Star Energy Griffoness Artisan" has a single note, 5406, and it comes with no text and no description, so there are no passages to read, no scene beats, no statements about the subject, and no sequence.

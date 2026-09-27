@@ -1,0 +1,7 @@
+- asks:
+  - none stated | the message gives no explicit instruction, question, or task beyond presenting an attachment | the turn consists only of the attachment placeholder line
+- supplies:
+  - document, plan export | a full-length export of the user's fiction plan; specific content not captured in the message | very large, described as 153,942 words (placeholder text only, no characters captured)
+- shaping:
+- openness: Fully open: the message states no goal, question, or instruction at all, only noting a large plan document was attached.
+- subject: Submission of a large fiction-planning document export with no accompanying request text

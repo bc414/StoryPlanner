@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to look for evidence of the "third path" of human-AI collaboration in grassroots software engineering rather than in creative writing, without pointing at any particular body of material to use.

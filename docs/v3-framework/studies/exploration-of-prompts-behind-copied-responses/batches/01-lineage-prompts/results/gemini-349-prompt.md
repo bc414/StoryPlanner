@@ -1,0 +1,9 @@
+- asks:
+  - check | asks whether the cross-thread plot point dependency/causality relationship should be modeled as a self-referencing list | 'Should it be a self referencing list?'
+  - brainstorm | asks how to model a view of characters and their character development within the existing schema | 'How can I model this?'
+- supplies:
+  - schema description | summarizes current data model: threads and chapters as core plot-point groupings, in-thread causality implied by ordering, themes already modeled as view-only | a few sentences
+- shaping:
+  - constrain | the new dependency list is meant only for occasional cross-thread one-off connections, not for the already-implied in-thread causality | 'this list would be for a few one off connections that are cross thread'
+- openness: Leans toward a named answer for the plot-point dependency structure (self-referencing list) while explicitly asking for confirmation, and leaves the character/character-development view question fully open.
+- subject: Data modeling for a fiction-planning tool: plot point causality relationships and a character-development view

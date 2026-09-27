@@ -1,0 +1,4 @@
+- sources:
+  - chapters 10-12 | review thoroughly as the material to draw on for the Tzinacatl subjects | Review chapters 10-12 thoroughly | referred-to
+- order:
+- about: The user asks the model to propose which subjects would cover the many elements of the Tzinacatl, after a thorough review of chapters 10-12, noting that the Tzinacatl were designed as a microcosm of the broader geopolitics.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user introduces new plot specifics (Applejack arming Vanhoover's slaves, Celestia's white peace, the executed collaborators as an argument against further war) and asks how to justify the delayed timing of this revelation, building on rather than disputing the model's prior analysis.

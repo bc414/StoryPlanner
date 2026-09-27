@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking for the reasons Celestia becomes statue-like, both those already in their story planner JSON and new ones, without saying anything in the previous answer was wrong.

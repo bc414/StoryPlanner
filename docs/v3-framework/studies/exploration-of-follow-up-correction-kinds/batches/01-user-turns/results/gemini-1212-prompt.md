@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's closing offer with a one-word yes, asking it to go deeper on how these authors handle transitions between perspectives.

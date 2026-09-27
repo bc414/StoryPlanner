@@ -1,0 +1,6 @@
+- sources:
+  - my notes | inconsistent on Empire versus Reich; treat as unsettled and to be reconciled by the comparison the user asks for, not as authoritative | "my notes flip flop between using Griffonian Empire and Griffonian Reich" | referred-to
+  - EaW (the published game) | origin of the term Empire; a reason for one naming option, not binding | "EaW uses Empire" | referred-to
+  - The Princess and the Kaiser, a popular EaW fanfiction | origin of the term Reich; a reason for one naming option, not binding | "The Princess and the Kaiser, a popular EaW fanfiction uses Reich" | referred-to
+- order:
+- about: The user checks their reading of how Eros, Kemerskai and the rugged individualists each inherit Grover I and III's ideas, then asks for a comparative analysis of three options for the Empire/Reich naming, given that their notes and the game and fanfiction they draw on disagree.

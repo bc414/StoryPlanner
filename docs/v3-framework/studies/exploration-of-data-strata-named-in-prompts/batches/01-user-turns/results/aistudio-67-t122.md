@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's Severyana timeline by pushing steel and coal technology later, proposes a new history of Grover III's ban and Grover IV's unbanning, sketches pre-coal logging, river transport and the coal boom, and asks for a Russian term for the pre-500 furnace-maker class that isn't "industrialists".

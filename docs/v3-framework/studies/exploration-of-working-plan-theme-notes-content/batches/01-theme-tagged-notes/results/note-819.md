@@ -1,0 +1,3 @@
+- claims:
+  - reading | Moral decay in this society starts at the very moment survival stops being threatened, so the fall in values is tied to the end of scarcity and not to any teaching | the rot begins exactly when the existential threat ends | When does the moral decay that this system's effects show begin, and what triggers it? | yes
+- theme: It states a timing corollary of the proposition (moral decay follows the removal of material pressure) as a bare thesis. It sides with the proposition but supplies no facts or rules of the system as evidence in its own words.

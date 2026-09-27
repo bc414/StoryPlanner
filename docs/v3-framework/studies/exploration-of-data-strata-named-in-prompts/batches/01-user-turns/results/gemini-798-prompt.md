@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user observes that the Luna Nova Rifle, fed by love donations, would make metal bullet manufacturing obsolete in their story, and asks a factual question about what share of WW2 military production went to ammunition versus guns, tanks and planes.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sends only a YouTube link with no comment, which reads as supplying a video for the model to take up next and says nothing about whether the model's account was right or wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the historical analogies to a new question about how advanced the Storm King's horde's weapons should be, supplying the world's dates (Mount Aris in 1006 ALB, Grover 3's enlightenment in 854 ALB, Grover 4's gilded age around 914 ALB) as the frame for an answer.

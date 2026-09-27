@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether Tolkien and Martin actually write this way and for other examples, and offers Harry Potter's mostly single-focalizer structure as a contrasting case, extending the discussion instead of challenging anything the model said.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model presented Equestria's military weakness as flowing from Celestia's deliberate 'Luna Doctrine' policy of de-industrialization, but the user's lore frames it instead as an unintended structural collapse: a rigid gold standard being drained by Aquileian imports and by Chrysalis-sponsored figures like Rockfeller, leaving Celestia blind to the cause rather than enacting a chosen doctrine | 'Celestia is totally blind to it' | stated flatly and in passing, offered as background lore rather than as an explicit rebuke, while moving on to request a fresh analysis
+- about: The user supplies additional worldbuilding lore about the gold-standard economy and Chrysalis/Rockfeller's role in draining it, which recasts the cause of Equestria's military stagnation differently than the model's prior account, and asks for a new analysis based on it.

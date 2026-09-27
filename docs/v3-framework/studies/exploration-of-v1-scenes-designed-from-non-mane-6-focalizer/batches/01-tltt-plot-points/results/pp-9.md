@@ -1,0 +1,9 @@
+- present:
+  - Princess Celestia | says ancient changelings were harmonious, declares White Peace | Synopsis and Character: Princess Celestia
+- mentioned:
+  - Zecora | Character: Zecora (linked with no text; the synopsis speaks only of "a Zebra" in a remembered story)
+- focalizer: Princess Celestia
+- shows: she was just horrified into silence; which she is already seeing happening in Canterlot
+- sides:
+  - Princess Celestia | she did not understand the others' plea; she was horrified into silence and ends the war to save ponies from repeating the changelings' fate, which she already sees happening in Canterlot | Synopsis
+  - Princess Celestia | her reading of changeling natural history: emotion sense, then hives, power and addiction; she concludes creatures cannot rule themselves and she must maintain harmony and stagnation | Character: Princess Celestia

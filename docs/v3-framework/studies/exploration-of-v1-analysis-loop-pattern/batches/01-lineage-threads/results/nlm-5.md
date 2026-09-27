@@ -1,0 +1,11 @@
+- steps:
+  - author | request | asks for an integration of two canon episodes with the harmonic-capitalism theme and the industrialist-parents backstory | opening message of the notebook
+  - model | analysis | five-point breakdown mapping Filthy Rich, Zap Apple Jam ritual, and the cider-spoilage problem onto the ruthless-vs-harmonic capitalism framework | first model reply
+  - author | correction | corrects where the parents' canning business operates and reframes Filthy Rich as moving from a ruthless capitalist in one episode to a harmonic capitalist who humbles his daughter in the other | second author message
+  - model | revision | reworks the same five-point analysis around the corrected business model and Filthy Rich's two-stage arc | second model reply
+  - author | addition | supplies a new plan detail recasting Applejack's cutie-mark origin as rejection of her parents and physical departure from their household, then asks for the psychological fallout | third author message
+  - model | analysis | four-point breakdown of Applejack's trauma, false lesson, leadership fear, and a later technological resolution, built on the new framing | third model reply
+- kept:
+  - note 2846 | one sentence lifted from this reply | condenses the closing summary of the third model reply - Applejack's departure, the wrong lesson about ambition and dishonesty, the refrigeration fix, the estrangement verdict, and the Big Mac quote - into a link note connecting the Buffalo-conference decompression scene with the Applejack's-parents plan element
+- brought: The author brought established and newly-decided backstory fragments - the parents' Manehattan canning business, Filthy Rich's two-stage capitalist arc, and a recontextualized cutie-mark origin where Applejack rejects and leaves her parents - for the model to weave into the harmonic-capitalism theme.
+- loop: The author feeds in plan fragments and corrects the model's integrations across two rounds, and the database keeps only a compressed one-note distillation of the final round's psychological analysis, filed as a link between a specific scene and the parents plan element rather than the fuller multi-episode integration work.

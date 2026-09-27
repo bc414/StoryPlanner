@@ -1,0 +1,7 @@
+- sources:
+  - Chaebols and Chinese state owned enterprises and innovators once Deng Xiaoping took over | model to base the hive military-industrial complex on | basing it on Chaebols and Chinese state owned enterprises | first-named
+  - Zaibatsus and German corporations of WW2 | baseline that the hive military-industrial complex should exceed in extremity, not copy | even more extreme than the Zaibatsus and German corporations of WW2 | first-named
+  - Germany and Japan (the earlier comparison of the hives to them) | accepted as a reference but departed from, since the hives are partly autarkic unlike either | unlike both Germany and Japan | referred-to
+  - The author's own statement of hive resources (iron, aluminum, oil present but unmined until Chrysalis's industry and the great leap forward) | new setting fact to build on, which amends the earlier resource-trap premise and makes the hives partly autarkic | the hives do have iron, aluminum and oil | first-named
+- order:
+- about: The author adds a setting detail that the hives had untapped iron, aluminum and oil, which makes them partly self-sufficient, and says the military-industrial complex will be modeled on chaebols and post-Deng Chinese state enterprises and will be more extreme than WW2 zaibatsu and German firms.

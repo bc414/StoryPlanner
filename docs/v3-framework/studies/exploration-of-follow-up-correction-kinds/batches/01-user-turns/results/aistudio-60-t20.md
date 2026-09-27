@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's shield-technology premise by extending it into the war's opening: Equestria's confidence rests on real shields but fails psychologically, the Crystal army holds and retreats in stages, and Applejack's line in chapter 1 is tied to it, all without disputing anything the model said.

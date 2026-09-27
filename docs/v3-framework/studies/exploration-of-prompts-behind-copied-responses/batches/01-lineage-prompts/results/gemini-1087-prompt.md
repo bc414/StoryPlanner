@@ -1,0 +1,8 @@
+- asks:
+  - specify constraint | state a restriction that only royal guards may speak with Celestia and Luna | "I don't plan on anyone being able to speak to celestia and Luna except royal guards"
+  - specify plot detail | establish that Celestia refuses to sign something because she is paralyzed | "Celestia should refuse to sign, she is paralyzed"
+  - specify plot mechanism | introduce a popular referendum enabled by an old, obscure law | "a popular referendum using an old obscure law"
+- supplies:
+- shaping:
+- openness: The message states three plot/world decisions as settled facts to be incorporated, not as open questions, named-option choices, or things to verify.
+- subject: New plot decisions about Celestia and Luna's isolation, Celestia's paralysis and refusal to sign, and a referendum enabled by an obscure law

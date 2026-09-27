@@ -1,0 +1,5 @@
+- sources:
+  - scene outline notes | provisional, not yet deserving Confirmed status; must be enterable before Scene Design, where they get checked | they may not be deserved to be Confirmed until Scene Design mode | first-named
+  - link notes for on the page, world inference, and theme | the standard that scene outline notes are checked against in Scene Design mode before being confirmed | must be checked against the link notes for on the page, world inference, and theme | referred-to
+- order:
+- about: The user refines the proposed modes by saying which use the two-pane Common Window versus a scrolling view or a separate Theme Review window, folds Arc Review into Audit, and raises that scene outline notes must be enterable as unconfirmed before Scene Design checks them against link notes.

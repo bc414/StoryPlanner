@@ -1,0 +1,7 @@
+- sources:
+  - The author's own plan for the beginning of the war (Vanhoover, Acornage, Stalliongrad) | stated as the author's current design for the model to work within, with the two-faced structure treated as the intended plan | I'm planning on the beginning of the war to be two-faced | first-named
+  - The Nanjing atrocity (as the model just analysed it) | used as the template for how Acornage and later Stalliongrad are sacked, driven by predatory intent | sacked like Nanjing by Pagala | referred-to
+  - The Battle of Shanghai | used as the template for the brutal campaign at Stalliongrad before the changelings win | after a brutal campaign (like Shanghai) | referred-to
+  - Warsaw or Paris (historical surrenders) | offered tentatively as possible templates for the professional encirclement and surrender of Vanhoover, with the author unsure which fits | surrendered to Trimmel (like Warsaw or Paris?) | first-named
+- order:
+- about: The user lays out their plan for the war's opening, pairing each story event (Vanhoover, Acornage, Stalliongrad) with a historical analogue (Warsaw or Paris, Nanjing, Shanghai then Nanjing), following the model's Nanjing analysis.

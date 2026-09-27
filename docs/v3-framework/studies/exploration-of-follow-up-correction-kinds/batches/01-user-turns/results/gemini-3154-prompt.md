@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Google tools rundown to a new question, asking whether Claude Code can serve as a developmental editor with CLAUDE.md instructions or is limited by software-engineering training, and whether Claude's synchronous cowork mode is still better for narrative analysis.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's audit point as their own takeaway, voices their own doubt about AI-written prose and asks whether human deliberation explains it, then reminds the model of the human-written-prose constraint and asks for first-pass suggestions of which note tracks belong on the plot point.

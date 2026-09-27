@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up research questions, whether Pervitin rehab of German POWs was documented and what methadone's history is, probing the earlier claims without stating any of them wrong.

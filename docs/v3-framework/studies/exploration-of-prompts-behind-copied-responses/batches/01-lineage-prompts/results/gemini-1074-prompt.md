@@ -1,0 +1,10 @@
+- asks:
+  - review | asks the model to look back over the existing story plans specifically for what they establish about Coltbert's role | "Please review the story plans for Coltbert's role"
+  - analyze | asks the model to analyze that material in light of the new connections just proposed | "analyze"
+  - synthesize | asks the model to pull the review and analysis together into a combined picture | "and synthesize"
+- supplies:
+  - worldbuilding notes | the user's own speculative additions: salons as importers of FJA luxury goods, market saturation forcing FJA to turn on Moriset Discret, Coltbert founding the first salon and hiring reform-aligned thestral artisans, and the thematic point that both Chrysalis's Skyfall schemes and Aquileian trade drained Equestria's bits, indicting the stagnation policy | a paragraph of several linked ideas
+- shaping:
+  - the synthesis should reflect or bring out the thematic point that the bit-drain implicates the failed stagnation policy, not just Chrysalis's schemes | "That should say something about the failed stagnation policy"
+- openness: leans toward the answers it names — that Coltbert founded the first salon and hired reform-aligned thestrals, and that this reveals the stagnation policy's failure alongside Chrysalis's schemes — and asks the model to analyze and synthesize around that framing
+- subject: Coltbert's role in founding FJA-linked salons and how the resulting bit-drain on Equestria ties into the story's stagnation-policy theme

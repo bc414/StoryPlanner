@@ -1,0 +1,11 @@
+- asks:
+  - evaluate | whether Skyfall tycoons would sell off their depreciating assets for a big payout so they can retire and spend their remaining lives partying | "willing to sell their depreciating assets for a big windfall so they can retire and party for the rest of their lives"
+  - evaluate | whether that same cash-out willingness would apply to second-generation nobles | "Same for second gen nobles?"
+  - confirm/elaborate | whether easier-to-persuade holders fit the cash-out pattern while tougher holders instead cling fiercely to their land and assets | "the tough ones might fiercely hold onto their land and assets"
+  - evaluate/develop | whether these holdout assets would function as a final resource obstacle for Chrysalis, possibly only after she has already united the hives | "final boss resource sinks for Chrysalis, perhaps after she has united the hives"
+  - evaluate/develop | whether this dynamic explains why the MEFO bills are nearly being "margin called" around year 1002, making the Canterlot Wedding necessary | "hence Canterlot Wedding necessity"
+- supplies:
+  - hypothesis | a proposed chain linking asset-holders' cash-out behavior, Chrysalis's conquest of the hives, and a looming MEFO bill collapse around year 1002 | a paragraph
+- shaping:
+- openness: The message leans toward answers it itself names — it proposes specific mechanisms (easy holders selling out, tough holders resisting, these holdouts as Chrysalis's final resource sink, and this driving the MEFO bill crisis and Canterlot Wedding) and asks the model to affirm or develop them rather than posing a fully open question.
+- subject: Whether wealthy asset-holders (Skyfall tycoons, second-gen nobles) would cash out or resist, and how this ties into Chrysalis's endgame and the MEFO bill financial crisis behind the Canterlot Wedding

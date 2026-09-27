@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, extending the analysis from Sherrill to the other candidates in the New Jersey governor primaries, without disputing anything in the model's answer.

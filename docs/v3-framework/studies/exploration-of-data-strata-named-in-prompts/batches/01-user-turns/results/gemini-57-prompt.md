@@ -1,0 +1,5 @@
+- sources:
+  - the last 3 chapters | proposed as the only material a chapter 10 description would draw on in a sliding-window scheme; the user questions whether that limit is worthwhile | just the last 3 chapters | first-named
+  - everything from chapter 1 | already carried in the conversation history, so it would be available regardless; the user treats this as making a window pointless | everything from chapter 1 is going to be included anyway | referred-to
+- order:
+- about: The user asks whether a sliding-window summary prompt, limiting each chapter to the last three chapters, is pointless when the chat history already includes everything from chapter 1.

@@ -1,0 +1,9 @@
+- asks:
+  - check | asks whether a proposed narrative justification (indoctrination of the warlords, framed as poseurs who nonetheless committed continent-wide atrocities) can still work as an element of the story | 'Can there still be a component of indoctrination about the storm king's warlords?'
+  - analyse | asks for an analysis of this framing/angle for justifying the Wonderbolts' lethal airstrike on the warlord fleet | 'Give an analysis on this angle'
+  - brainstorm/compare | asks for historical parallels that could inspire this warlord-horde concept, naming three candidate reference points | 'are there any historical parallels to draw inspiration from? Mongols, Huns or African warlords?'
+- supplies:
+  - plot premise | describes the Storm King's army as a horde of Zebrican feudal warlords united by looting and terror, Mount Aris as the continent's last free kingdom, and the Wonderbolts' airstrike that kills the Storm King and collapses the warlords' hold | a short paragraph
+- shaping:
+- openness: Leans toward an answer it names for the indoctrination framing (asking essentially for confirmation/support of the idea) while also inviting choice among or beyond three named historical parallels (Mongols, Huns, African warlords).
+- subject: Justifying a fictional airstrike on a warlord horde via an indoctrination angle, with historical parallels for the warlord-horde concept

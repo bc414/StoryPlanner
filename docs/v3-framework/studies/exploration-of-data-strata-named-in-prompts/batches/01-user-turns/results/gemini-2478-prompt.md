@@ -1,0 +1,5 @@
+- sources:
+  - the story plan | review again and use as the base for finding applications of the principle that are not yet in it | review the story plan again | referred-to
+  - records from the Internet of the fandom response and public perception of "Hasbro Elements" | compare the story plan against it to find new applications | compare with records from the Internet of the fandom response | first-named
+- order:
+- about: The user asks the model to re-read the story plan and compare it with Internet records of fandom response to Hasbro-driven elements, in order to propose further applications of the principle that the plan does not yet contain.

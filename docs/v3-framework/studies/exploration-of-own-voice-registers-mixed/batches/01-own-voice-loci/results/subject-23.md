@@ -1,0 +1,31 @@
+- passages:
+  - 4017 | narrative-analytic arc description | present-tense third-person clauses tracing a role-change | her shift from naive joy to hope-based morale | apart
+  - 4017 | terse aphoristic labeling-declaration | short sentence naming a capitalized trait | naming the trait as Resilience | apart
+  - 4031 | narrative-analytic arc description | present/past narration with a 'Before...Now' contrast | her loss of faith in laughter and recovery of hope | apart
+  - 4031 | terse aphoristic labeling-declaration | short parallel clauses joined by a semicolon stating a general truth | morale being real, not fake | apart
+  - 4032 | thematic generalizing declarative | parallel present-tense generic-subject sentences ('Soldiers who...', 'Workers who...') | laughter and morale as strategic resources | apart
+  - 4033 | forecasting plot-stakes conditional | future tense and an 'if...then' clause | the spearhead as a turning point | apart
+  - 4033 | character-motivation analytic statement | present-tense clause naming a reason | Pinkie's motivation to raise morale | apart
+  - 4033 | emphatic exhortative declaration | exclamation mark, collective subject 'They' | the collective need to make hope real | apart
+  - 4396 | brief declarative trait-note | short subject-verb-object sentence | Pinkie learning about baked-goods love | apart
+  - 4396 | fragmentary brainstorming notation | sentence fragments, rhetorical questions, line breaks | the friendship-cookies parody and its Gilda origin | apart
+  - 5147 | expository critical meta-commentary on canon/design | argumentative claims contrasting a coined term with canon fact | difficulty writing Pinkie and canon vs. adaptation | apart
+  - 5147 | narrative-analytic arc description | present-tense clause on her learning Resilience | her tapping into an original trait via Resilience | apart
+  - 5147 | list-header label | colon-terminated noun phrase | introducing upcoming examples | apart
+  - 5147 | episode-citation clinical-analytic list | repeated 'In [Episode],' pattern with clinical/diagnostic vocabulary | canon examples of her emotional intelligence | apart
+  - 5151 | worldbuilding expository statement | single factual declarative sentence | the party cannon's fuel source | apart
+  - 5152 | worldbuilding expository statement | factual declarative sentences on backstory | the rock farm's Skyfall-influenced origin | apart
+  - 5152 | moral-critical editorializing narration | judgment phrase 'true evil' and an ironic closing claim | exploitation of rock farmers by Skyfall corporations | apart
+  - 5265 | conditional meta-analytical hypothesis-framing | single long sentence with a 'Going by the idea that... then' structure | her arc as a return to season-1 emotional intelligence | apart
+- shifts:
+  - 4017 | narrative-analytic arc description | terse aphoristic labeling-declaration | short declarative sentence naming the capitalized term 'Resilience'
+  - 4031 | narrative-analytic arc description | terse aphoristic labeling-declaration | shift to short parallel clauses stating a general truth with a semicolon
+  - 4033 | forecasting plot-stakes conditional | character-motivation analytic statement | switch from conditional stakes to naming Pinkie's reason
+  - 4033 | character-motivation analytic statement | emphatic exhortative declaration | exclamation mark and shift to collective subject 'They'
+  - 4396 | brief declarative trait-note | fragmentary brainstorming notation | drops to sentence fragments and rhetorical questions
+  - 5147 | expository critical meta-commentary on canon/design | narrative-analytic arc description | shifts from claims about canon history to present-tense description of her arc
+  - 5147 | narrative-analytic arc description | list-header label | drops to a colon-terminated noun phrase
+  - 5147 | list-header label | episode-citation clinical-analytic list | begins itemized 'In [Episode],' pattern with clinical vocabulary
+  - 5152 | worldbuilding expository statement | moral-critical editorializing narration | introduces the judgment term 'true evil' and an ironic economic claim
+- registers: narrative-analytic arc description; terse aphoristic labeling-declaration; thematic generalizing declarative; forecasting plot-stakes conditional; character-motivation analytic statement; emphatic exhortative declaration; brief declarative trait-note; fragmentary brainstorming notation; expository critical meta-commentary on canon/design; list-header label; episode-citation clinical-analytic list; worldbuilding expository statement; moral-critical editorializing narration; conditional meta-analytical hypothesis-framing
+- whole: The item's notes hold several distinct registers—arc-tracing narration, aphoristic closing declarations, worldbuilding exposition, critical meta-commentary, an itemized episode-citation list, and brainstorming fragments—each occupying its own sentence or block and standing apart rather than blending within a single sentence.

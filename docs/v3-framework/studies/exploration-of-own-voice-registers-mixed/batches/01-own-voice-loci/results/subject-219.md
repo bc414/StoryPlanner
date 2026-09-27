@@ -1,0 +1,22 @@
+- passages:
+  - note 4048 | factual exposition | plain declarative past-tense claim about a shared achievement | Wonderbolts designing top fighter planes before the war | apart
+  - note 4048 | parenthetical tag | bracketed short label after a period, no connecting words | categorizing the note under a research focus | run-in
+  - note 4048 | inferential reasoning | opens with 'So', draws a conclusion contrasting pilots and planes | explaining why Wonderbolts are best at both flying and planes | apart
+  - note 4164 | narrative plot-summary | present-tense third-person summary of an event and a decision | Silverstream's departure for Mount Aris under attack | apart
+  - note 4164 | parenthetical tag | bracketed date code directly after the sentence, no linking phrase | dating the event | run-in
+  - note 4164 | narrative plot-summary | returns to present-tense summary describing motive and persuasion | Rainbow Dash leaving school and rallying the Wonderbolts to militarize | apart
+  - note 4165 | worldbuilding exposition | present-tense descriptive claims about two factions' values and views of each other | culture clash between Aquileian and Griffonian Republic volunteers | apart
+  - note 4165 | worldbuilding exposition | continues descriptive present-tense claims naming specific aces and their friction | Hermann Meyer and Theodor Kemmerich's antagonism | apart
+  - note 4165 | analytical thematic interpretation | opens with 'Canonically', draws comparisons and narrates character growth and admiration | Wonderbolts as Aquileian-like performers reshaped by Republican discipline; Rainbow's idolization | apart
+  - note 5155 | analogical social analysis | uses explicit similes ('like a...frat house', 'much like...feud') to explain hidden social function | Wonderbolts as pressure valve with toxic zero-sum hierarchy | apart
+  - note 5155 | evidentiary citation | flat claim followed by a parenthetical list of named canon episodes as proof | Wonderbolts' uselessness in crises cited to specific episodes | apart
+  - note 5690 | tentative brainstorming | questioning tone with question marks and a self-correcting 'Actually', informal run-on phrasing | possible Skyfall origin of Wonderbolts' toxicity, marketing, and air-show premise | apart
+- shifts:
+  - note 4048 | factual exposition | parenthetical tag | bracketed label appended right after the period with no transition
+  - note 4048 | parenthetical tag | inferential reasoning | new sentence opening with 'So' shifting to drawing a conclusion
+  - note 4164 | narrative plot-summary | parenthetical tag | bracketed date code appended right after the clause with no transition
+  - note 4164 | parenthetical tag | narrative plot-summary | resumption of a full sentence naming a new subject and action ('Out of loyalty, Rainbow leaves...')
+  - note 4165 | worldbuilding exposition | analytical thematic interpretation | new paragraph opening with 'Canonically' and turn to comparative, interpretive claims about character arcs
+  - note 5155 | analogical social analysis | evidentiary citation | shift from simile-based explanation to a bare claim backed by a parenthetical list of named canon episodes
+- registers: factual exposition; parenthetical tag; inferential reasoning; narrative plot-summary; worldbuilding exposition; analytical thematic interpretation; analogical social analysis; evidentiary citation; tentative brainstorming
+- whole: Across its five notes this item holds several distinct registers—plain factual and plot-summary exposition, bracketed tags, inferential and analogical reasoning, analytical canon-comparison, evidentiary citation, and one note of tentative questioning brainstorm—with the tags running into their sentences without a break while the other registers stand apart as separate sentences or paragraphs.

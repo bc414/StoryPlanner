@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new story directions: Applejack contrasts Trimmel's rise through the ranks with her own appointment, gets a "Chrysalis did meritocracy better than you" line at the POW camp, and learns in chapter 2 why Comet Shine armed Tall Tale himself, without pointing the model at any body of material.

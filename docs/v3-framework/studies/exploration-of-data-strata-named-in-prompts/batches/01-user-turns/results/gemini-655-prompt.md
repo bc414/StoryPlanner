@@ -1,0 +1,4 @@
+- sources:
+  - own original plan to hold back the Star Spade explanation until chapter 9 | treated as the earlier plan that is now being relaxed; the user is willing to move a crude version of the explanation into chapter 2 because it comes before Twilight arrives at the front, while the fuller version keeps its chapter 9 purpose | I was originally going to hold back | referred-to
+- order:
+- about: The user reconsiders their own earlier plan to delay the Star Spade explanation until chapter 9 and tentatively accepts a crude version in chapter 2, because it shows Applejack the tool is built for her biology.

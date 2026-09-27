@@ -1,0 +1,5 @@
+- sources:
+  - the chapter, with its related line where ponies say General Applejack and she answers just Applejack | treat as the material the title has to fit; the author offers the line as a reason for choosing between Command and General | One of the related lines in the chapter | referred-to
+  - the model's earlier list of Idea Noun suggestions, Command among them | Command is the author's preferred pick from it, so use it as the baseline while looking for other options | I like Command | referred-to
+- order:
+- about: The user picks Command from the model's list of chapter title nouns, cites a line from the chapter where Applejack refuses the rank General, and asks whether General would work as the title and what other alternatives exist.

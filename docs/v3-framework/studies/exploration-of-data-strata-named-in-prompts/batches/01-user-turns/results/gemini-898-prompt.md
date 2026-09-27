@@ -1,0 +1,5 @@
+- sources:
+  - the author's own clarification of what Twilight did (public, firm school shutdown; Rainbow already gone to learn to fly a plane and train with the Wonderbolts) | treat as settled story facts that correct the model's prior version; the ideas about what Twilight tells her friends are offered as tentative | To clarify, Twilight was public and firm about the school shutting down | first-named
+  - published show canon, School Daze part 1 and 2 and what followed | treat as true: the 'by the book' phase lasted only those two episodes, after which they taught however they wanted; use as the basis for Applejack's quiet unhappiness | it's canon that the 'by the book' phase only lasted for the first two episodes | referred-to
+- order:
+- about: The author corrects the model's 'busy princess' suggestion by stating what is fixed in their story and in the show's canon, then floats tentative ideas for why Twilight shut the school and why Applejack stayed silently unhappy.

@@ -1,0 +1,4 @@
+- sources:
+  - the author's own account of why Applejack's parents built the factory (escaping the Apple and Pear feud, profits funding Manehattan institutions, pivoting to war supply only later, fruit mashed into uniform mush on purpose) | treat as correct and as overriding the earlier reading of the factory as a national-security or greed motive | I don't think they explicitly made their factory for national security | first-named
+- order:
+- about: The author asks whether bringing back Applejack's parents weakens the need for Celestia and removes tension, and corrects the stated motive for the parents' factory from their own knowledge of the story.

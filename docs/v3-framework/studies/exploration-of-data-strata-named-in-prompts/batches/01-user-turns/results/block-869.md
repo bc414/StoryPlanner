@@ -1,0 +1,5 @@
+- sources:
+  - The user's own account of Obama-era and Biden-era congressional history (coalition members, the filibuster, Lieberman, Manchin, Roe not codified) | treat as the factual premise to be analysed; the model is to analyse it, not check it | Give an analysis on this | first-named
+  - The story planning on Celestia's 1000-year static nursery, the stagnation of harmony starting 80 years ago from petitions to ban griffon industry, and the reveal that Celestia did not design everything | treat as the established plan that the historical analysis must reflect, overlap and parallel; the reveal is what the user wants built to mirror Congress | How should this reflect, overlap, and parallel with the story planning | referred-to
+- order:
+- about: The user adds their own account of how coalition members, the filibuster, Lieberman and Manchin constrained Obama and Biden, and asks for an analysis of it that is mapped onto the planned reveal that Celestia did not design the stagnant nursery, with a parallel to Trump breaking the law to look strong.

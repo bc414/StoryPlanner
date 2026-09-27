@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up a new tangent, offering their own critique of how Friendship is Magic Part 2 handled Honesty, and asks the model to explain why and to contrast the children's-fable treatment with the story's adult version, without disputing anything the model said.

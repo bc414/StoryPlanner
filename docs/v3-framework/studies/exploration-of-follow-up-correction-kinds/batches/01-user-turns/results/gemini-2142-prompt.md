@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new requirement (a visual MVVM canvas whose layout must be saved and then converted into a pure reference-based model graph) and asks the model to redo its storage recommendations in light of it, without saying the earlier answer was mistaken.

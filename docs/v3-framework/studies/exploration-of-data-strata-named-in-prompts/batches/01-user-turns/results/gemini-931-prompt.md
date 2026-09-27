@@ -1,0 +1,4 @@
+- sources:
+  - Applebuck Season the episode | published show episode whose events are to be explained and explored in light of the newly discussed backstory; treated as material the story must account for | Applebuck season the episode | referred-to
+- order:
+- about: The user asks the model how the show episode Applebuck Season can be explained and explored under the newly revised Applejack backstory.

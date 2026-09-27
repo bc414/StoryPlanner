@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user checks their own proposed story mechanics, asking whether Coltbert would believe the Stagnation lasted 1000 years and credit Celestia, and whether sanitized history books with restricted Canterlot Archive exceptions explain the perception gap, without pointing the model at any body of material to draw on.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts "Insular" but rejects "Interdependent" as the opposite pole of the boundary axis, arguing from their own examples (Chrysalis, Gerad Discret, Skyfall) that the real feature is absorbing outsiders into the system rather than depending on them, and asks whether "anyone can join" works as the opposite of insular.

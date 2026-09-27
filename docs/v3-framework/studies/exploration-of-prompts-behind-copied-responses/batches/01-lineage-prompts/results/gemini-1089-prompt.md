@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | generate a set of possible names for the story's "salons" | "Give a few suggestions for what the salons should be called"
+- supplies:
+- shaping:
+  - quantity | asks for "a few" suggestions, implying a short list rather than a single answer or an exhaustive list
+- openness: Fully open: no candidate names or naming direction is given, the model is simply asked to propose options for something called "the salons."
+- subject: Naming an in-story element referred to as "the salons"

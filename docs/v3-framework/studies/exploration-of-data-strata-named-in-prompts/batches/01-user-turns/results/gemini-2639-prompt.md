@@ -1,0 +1,4 @@
+- sources:
+  - chapter 6 (Twilight reveals her old crush and they kiss) | treated as a fixed later point in the story; the new cuddling scene must come before it | This is before Twilight reveals her old crush in chapter 6 and they kiss | referred-to
+- order:
+- about: The user builds on the sleep-contact science by proposing a wordless cuddling scene between Twilight and Applejack on the night after the second battle of Tall Tale, and places it before the chapter 6 reveal and kiss.

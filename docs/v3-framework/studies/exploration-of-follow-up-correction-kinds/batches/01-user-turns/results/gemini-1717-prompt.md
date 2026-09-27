@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model had Dennis raiding and capturing Skyfall ships as a privateer/pirate hero; the user says he only protects Aquileian ships and does not attack Skyfall | I don't imagine Dennis attacking Skyfall ships, only protecting Aquileian ships | flat statement of how the user imagines it, put as a personal picture of the character rather than an accusation
+  - fact of the world | The model's premise that Aquileia could challenge or hurt Skyfall's navy and make blockade costly is wrong, since Skyfall holds the stolen Imperial fleet and is unmatched | Skyfall stole the Imperial fleet and are unmatched | flat, given as a brief reason right after the first correction
+- about: The user pushes back on the model's raiding-Skyfall premise for Dennis by stating the naval situation as they see it, then moves on to new questions about Dennis's 1008 defection and faction, and why the Aquileian fleet can't help Equestria given submarine detection.

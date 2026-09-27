@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a story beat, that Rainbow Dash saying she hid her preparations to protect her friends' innocence and happiness is the line that flips the characters from loyalty to the State to loyalty to each other, and asks whether that works.

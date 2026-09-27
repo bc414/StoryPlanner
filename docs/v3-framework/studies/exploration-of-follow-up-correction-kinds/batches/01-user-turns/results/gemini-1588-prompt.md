@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a fresh factual question about canon, whether the Crystal Ponies remember their enslavement or lost all memory of it, without saying anything in the model's account was wrong.

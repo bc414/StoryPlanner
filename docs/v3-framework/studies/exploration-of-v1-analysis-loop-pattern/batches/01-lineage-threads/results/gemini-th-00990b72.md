@@ -1,0 +1,18 @@
+- steps:
+  - author | request verification | asks model to verify a 6-step process, attaching a CSV | opening exchange
+  - model | reconstruct from memory | since the CSV can't be read, restates a definitive 6-step HITL pipeline from earlier context and asks author to confirm it matches | reply to the first request
+  - author | repeat request | asks again to verify the 6-step process, again without pasting the text | second exchange
+  - model | restate reconstruction | again can't read the file, repeats the same 6-step pipeline with small additions, asks for the text to be pasted | reply to the repeated request
+  - author | attempt attachment | says a screenshot is attached | third exchange
+  - model | flag missing input | notes no image came through, asks author to paste text or re-upload | reply to the attachment attempt
+  - author | paste plan text | supplies the CSV content directly as a table describing the Phase 0/1/2 inputs, system instructions, outputs and app behavior | fourth exchange
+  - model | verify and deliver spec | confirms the pipeline design, praises one design choice, then produces a system instruction, input-prompt template and JSON schema for Phase 2 | reply to the pasted table
+  - author | supply draft and request extension | provides a sample Phase 0 output and the existing Phase 1 system prompt, asking for it to be updated to add strategy-grouped output with orphan buckets | fifth exchange
+  - model | revise system prompt | delivers an updated Phase 1 system instruction adding a waterfall/orphan protocol and internal ordering rules, plus a revised JSON schema | reply to the extension request
+  - author | report malfunction | reports the Phase 1 process is stuck in a loop and pastes the raw model reasoning trace showing endless repeated self-checks | sixth exchange
+  - model | diagnose and fix | names the failure a recursive perfectionism loop, explains the cause in the prompt's negative constraints, and delivers a streamlined replacement system prompt | reply to the reported malfunction
+  - author | request refinement | asks how to make the Phase 0 paradigm names less verbose and more fundamental | seventh exchange
+  - model | diagnose and fix | traces the verbosity to the prompt's own examples, proposes a banned-word list and cleaner examples, and shows before/after naming output | reply to the refinement request
+- kept:
+- brought: The author brought artifacts from their own tool-building work outside this thread — a CSV table of their Phase 0-2 pipeline design, an existing Phase 1 system prompt, a sample Phase 0 output, and a raw reasoning-trace log showing a stuck process — for the model to verify or fix.
+- loop: The author repeatedly brought concrete engineering artifacts (a design table, a draft prompt, a failure log, an output sample) for the model to verify or diagnose, and the model returned matching technical deliverables (verified architecture, revised prompts, schemas, causal fixes); none of this exchange was captured into the planning database, since it concerns the pipeline tool itself rather than story content.

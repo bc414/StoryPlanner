@@ -1,0 +1,32 @@
+- steps:
+  - the author | requests a feature | a new clipboard-paste command mirroring an existing paste-buckets command | opening exchange about the Note Categorizer tool
+  - the model | supplies an implementation | a view-model method and matching XAML button for the requested paste command | reply to the paste-notes request
+  - the author | requests a behavior | manually added notes should pick up a bucket's background color if their text matches | second request about the Categorizer
+  - the model | supplies an implementation | a color-map moved into the card view-model with a dynamic update on text change | reply to the color-matching request
+  - the author | asks for a cleanup | whether the color logic can be fully removed from the parent view-model now that the card owns it | follow-up on the color feature
+  - the model | confirms and refactors | simplified paste-buckets method plus a self-coloring card constructor | reply to the cleanup question
+  - the author | requests a feature | drag-and-drop of a note card from the Categorizer into any Note Collection Viewer | new feature request
+  - the model | supplies an implementation with alternatives | drag-source XAML plus drop-target logic converting a card into a Note, offered as a main answer and an alternate draft, and a follow-up question about removing the source card | reply to the drag-and-drop request
+  - the author | confirms a requirement | the source card should be deleted from the Categorizer once moved | answer to the model's follow-up question
+  - the model | supplies an implementation | switches the drop effect to Move so the source list auto-removes the item | reply to the deletion requirement
+  - the author | reports a bug | the deletion is not happening | correction after testing the Move-effect fix
+  - the model | supplies a fix | explicit removal from the source collection via the drag-info reference | reply to the bug report
+  - the author | asks a naming question | why 'Epistemological' is used as a paradigm label and what clearer alternatives exist | shift away from code to terminology
+  - the model | supplies an explanation and options | a rationale for the term plus a list of more intuitive replacement names | reply to the naming question
+  - the author | asks a technical comparison question | how a raw document attachment differs from an attached NotebookLM notebook, and whether chat uses precomputed vectors | shift to AI-tooling strategy
+  - the model | supplies a comparison | a table and explanation of context-window versus retrieval-based processing, ending with an offer | reply to the vectors question
+  - the author | narrows the question | asks specifically about Gemini-plus-notebook versus the NotebookLM website itself | correction refining the prior comparison
+  - the model | supplies an expanded comparison | a scope/output/vector-use breakdown and a table of which to use when, ending with an offer | reply to the narrowed question
+  - the author | adds a constraint and repeats the question | clarifies the tool is for planning and analysis only, not story generation, and re-asks the raw-doc-versus-notebook question | correction of intent plus repeated question
+  - the model | supplies a refined comparison | active-memory versus indexed-knowledge explanation mapped to the author's stated analysis goals, ending with an offer | reply incorporating the stated constraint
+  - the author | asks for a fuller synthesis | requests the determination be expanded across all three methods and all possible uses | request to generalize the prior comparisons
+  - the model | supplies a full breakdown | per-method use cases for raw document, notebook attachment, and standalone notebook, plus a suggested combined workflow | reply to the synthesis request
+  - the author | requests a review of actual usage | asks the model to look at the author's chat history and categorize what planning tasks have occurred and which method suits each | request grounded in the author's own history
+  - the model | supplies a categorization | three task categories each mapped to a best tool, with rationale, ending with an offer | reply to the categorization request
+  - the author | proposes and checks a workflow | describes a two-stage loop of generating ideas in chat then verifying them in the standalone notebook, asking for confirmation | proposal building on the categorization
+  - the model | confirms and elaborates | names the loop an expansion/contraction cycle and walks through its steps, ending with an offer | reply to the proposed loop
+  - the author | presents a five-step personal workflow | a numbered pipeline from idea generation through categorization, axis-population, contradiction-checking, to final entry in the story planner | full workflow proposal
+  - the model | supplies an evaluation | a phase-by-phase analysis naming strengths, traps, and optimizations for each step, ending with a verdict and an offer | reply to the five-step workflow
+- kept:
+- brought: none
+- loop: The author brings a run of concrete coding requests and corrections for the Categorizer tool, then pivots to asking the model to compare and prescribe which AI surface (raw document, notebook-attached chat, or standalone notebook) fits which kind of planning task, ending with the model auditing a workflow the author devised; none of this back-and-forth is captured into the planning database in this stretch.

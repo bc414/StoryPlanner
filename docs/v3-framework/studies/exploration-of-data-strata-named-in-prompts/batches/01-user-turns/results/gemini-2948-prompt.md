@@ -1,0 +1,5 @@
+- sources:
+  - the nursery rhyme, "cross my heart, hope to fly" | treat as the text whose wording is to be mapped onto the spell, and use as the basis for the naming origin | "maps really close to the wings of dew spell" | referred-to
+  - the wings of dew spell, the Aquileian chasseur spell that utilizes the charitostatic effect | treat as established story-world fact and the thing the rhyme is matched to | "which is the Aquileian chasseur spell that utilizes the charitostatic effect" | referred-to
+- order:
+- about: The user says the rhyme's "hope to fly" matches the Wings of Dew spell and directs the model to make that link the reason Twilight coins the slang "Pinkie Promise".

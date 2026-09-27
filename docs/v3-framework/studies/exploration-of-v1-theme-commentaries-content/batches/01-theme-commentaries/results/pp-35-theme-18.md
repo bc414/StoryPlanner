@@ -1,0 +1,3 @@
+- passages:
+  - other: a bare label naming the beat of the scene, Fleur's twist, where the link to the theme is held; it gives no account of what the beat does for the theme | Fleur's twist | yes | fragment label, a noun phrase with no verb
+- whole: A two-word label that points to Fleur's twist as the beat carrying the link (set as the central conflict) and says nothing further about how it bears on the theme.

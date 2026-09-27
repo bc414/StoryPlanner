@@ -1,0 +1,4 @@
+- sources:
+  - My AJ (the author's own version of Applejack and the turkey shoot, wine and tent scenes, given from the author's own account) | treat as true and as correcting the model's prior reading; take AJ as guilt-ridden and defeatist, not euphoric or drinking for courage | "My AJ is a little more tragic" | referred-to
+- order:
+- about: The author corrects the model's account of their story, saying Applejack feels guilt rather than euphoria during the turkey shoot and drinks the victory wine out of defeatism, not to find courage, and adds the ironic wine-sharing and the joking hoof-wrestle bet.

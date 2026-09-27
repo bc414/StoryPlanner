@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the plan by asking whether pink love morale cakes bridge solidarity and chasseur intimacy for ordinary Equestrian volunteers, distinguishes the chemical from real friendship and esprit de corps, and asks for an analysis that raises the morale-cake role beyond changeling rehab.

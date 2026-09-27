@@ -1,0 +1,5 @@
+- sources:
+  - the previous chapter | treat as established fact about what happened: Applejack refused Rarity's new uniform there because she still wanted Celestia to wake up, and it is the basis for reading her uniform choice now | She refused rarity's new uniform in the previous chapter | referred-to
+  - the harmonic capitalism arc | treat as the author's stated intent for the arc, and read the characters' change through it: they keep who they are and scale up rather than lose themselves | The whole point of the harmonic capitalism arc | referred-to
+- order:
+- about: The author corrects the model's analysis of Applejack's uniform scene by restating what the story establishes, namely the uniform's comfort, the earlier refusal, her softness with Twilight and the arc's premise, and by giving the scene's true meaning as letting go of the hope that Celestia will wake.

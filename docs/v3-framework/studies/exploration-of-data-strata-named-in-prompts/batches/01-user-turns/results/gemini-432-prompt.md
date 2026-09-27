@@ -1,0 +1,4 @@
+- sources:
+  - game theory insights already given in this conversation | do not repeat or overlap with them; produce new ones | non-overlapping game theory insights | referred-to
+- order:
+- about: The user asks the model for additional game theory insights that do not duplicate the ones already offered.

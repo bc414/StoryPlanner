@@ -1,0 +1,4 @@
+- sources:
+  - v1 mixed notes / the v1 notes | material read in both approaches: either classified and split into their constituent tracks, or read and then used as the basis for writing the tracks independently; the model is asked to compare the two ways of using it | read individual v1 mixed notes and classify them out; read the v1 notes and then synthesize the tracks independently | referred-to
+- order:
+- about: The user is checking their understanding that the migration has two approaches, splitting v1 mixed notes into tracks versus reading them and synthesizing tracks in one cognitive mode, and asks for a thorough comparison of pros and cons plus any other approaches and nuances.

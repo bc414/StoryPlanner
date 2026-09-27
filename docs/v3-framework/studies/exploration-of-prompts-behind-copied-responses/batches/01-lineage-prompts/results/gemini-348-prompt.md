@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | asks for unconventional ideas or concepts related to the ongoing story plan that the user has not yet thought of | "Any ideas or concepts outside the box that I haven't considered?"
+- supplies:
+- shaping:
+  - content quality: ideas should be unconventional or non-obvious rather than standard | "outside the box"
+  - content scope: ideas must be ones the user hasn't already thought of | "that I haven't considered"
+- openness: Leaves the answer fully open, asking for unconventional ideas without naming any specific options, direction, or category to choose among.
+- subject: Open-ended brainstorming request for unconventional ideas for the user's fiction planning project

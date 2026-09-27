@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their own understanding of native chain of thought versus agentic tool-calling and asks a new question about whether hyperscaler ingress and egress charges matter for agentic LLM workflows, without disputing anything the model said.

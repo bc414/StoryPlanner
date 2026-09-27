@@ -1,0 +1,7 @@
+- sources:
+  - Chrysalis's prequel | weight: treated as true, established premise (the Changeling Empire's logic and forces operate beyond her will by the time of the great war) that the new idea is built on | marks it: "the whole point of Chrysalis's prequel is that..." | referred-to
+  - notes about this in v2 | weight: to be checked/consulted to confirm the premise about Chrysalis's forces exceeding her will | marks it: "see notes about this in v2" | referred-to
+  - conversations (archive) | weight: fallback source to check the same premise if it is not yet present in v2 | marks it: "or, if it hasn't made it yet, in conversations" | referred-to
+- order:
+  - v2 notes over conversations | marks it: "see notes about this in v2 or, if it hasn't made it yet, in conversations", implying v2 is checked first and conversations only if the material isn't there yet
+- about: The user proposes a new plot mechanism (Réni's belief that sniping Chrysalis would end the war, undercut by her propaganda-vs-reality and by the Empire's forces exceeding her control) as the cause of his aluminum's failure at Stalliongrad, points to existing notes/conversations to confirm the Chrysalis-prequel premise, and asks the model to reconcile this with its prior analysis of Réni's arc.

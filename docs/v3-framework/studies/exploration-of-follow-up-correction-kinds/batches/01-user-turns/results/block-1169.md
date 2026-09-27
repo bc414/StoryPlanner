@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks, in a short "So..." question, how Twilight's Ascension and Magical Mystery Cure should be interpreted in TLTT, which is the topic the model turn had just covered, and it says nothing about that answer being wrong.

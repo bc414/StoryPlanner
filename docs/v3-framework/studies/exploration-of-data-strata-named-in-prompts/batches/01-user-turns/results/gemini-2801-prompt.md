@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes and asks about story developments, namely the Aquileian fleet seizing crystal-bearing territory, crystal trade with New Mareland and Sicameon, and the Crystal Empire's 1003 return under Cadance and Shining Armor, without pointing the model at any body of material to use or avoid.

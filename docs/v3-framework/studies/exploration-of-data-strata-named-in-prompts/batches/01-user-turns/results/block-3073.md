@@ -1,0 +1,6 @@
+- sources:
+  - P&K | search it for occurrences of "walled garden" | Does "walled garden" appear in P&K | referred-to
+  - Pax Chrysalia | search it for occurrences of "walled garden" | or Pax Chrysalia at all | referred-to
+  - the mcp server on source materials | the store to run the check against | Check using the mcp server on source materials | referred-to
+- order:
+- about: The user asks the model to check whether the term "walled garden" appears in two named works, P&K and Pax Chrysalia, by searching the source materials through the mcp server.

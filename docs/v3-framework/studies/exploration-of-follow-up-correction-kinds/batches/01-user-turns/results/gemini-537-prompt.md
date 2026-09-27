@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of Western Allied handling of Pervitin withdrawal and asks a follow-up about how the Soviets treated German POWs, adding the context of German atrocities against Soviet civilians.

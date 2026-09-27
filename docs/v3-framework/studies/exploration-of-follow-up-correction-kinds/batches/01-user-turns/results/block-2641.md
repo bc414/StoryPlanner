@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's restated linguistic framework and asks for a new piece of research, an analysis of historical German activity in China, to deepen the Simplified Herzlander versus East Asian languages dynamic.

@@ -1,0 +1,7 @@
+- asks:
+  - choice | asks the model to decide whether to keep or drop a previously planned worldbuilding element in favor of a newer one | "Do I still need this or should I drop it"
+- supplies:
+  - idea | a prior planning statement that the Wonderbolts are officially a defense force but actually function as a pressure valve for ambitious pegasi | a single sentence
+- shaping:
+- openness: Asks for a choice between two named options, keeping the old Wonderbolts pressure-valve explanation or dropping it in favor of the new 2nd gen Royalist influence explanation, as shown by "should I drop it for the new explanation"
+- subject: Whether to retain a prior worldbuilding rationale for the Wonderbolts given a newer explanation involving 2nd gen Royalist influence

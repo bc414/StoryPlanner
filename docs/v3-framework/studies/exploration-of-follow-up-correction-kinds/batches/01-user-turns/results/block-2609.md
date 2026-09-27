@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user gives a short instruction to extend the search for comparable AI-assisted fiction writers to the Chinese-language space, moving on from the Japanese example without commenting on the model's profile.

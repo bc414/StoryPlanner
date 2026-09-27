@@ -1,0 +1,49 @@
+- steps:
+  - the author | brings a thematic refinement | reframes the industrialist propaganda angle around griffon ambition/rugged individualism instead of a gender wedge, adds a Chrysalis-Gabriella shared-ambition backstory, revises Kemerskai's arc into a humbled-then-competent administrator, and proposes an industrialist pivot from clothes to weapons/love harvesters | gemini:285 prompt
+  - the author | asks for a name | requests a title for the chapter where AJ, Henri, Trimmel and Kemerskai each divulge their histories | gemini:285 prompt
+  - the model | analyzes the mechanics | breaks down how the glamour/rugged-individualism pitch, the Chrysalis-Gabriella bond, and the weapons pivot function, and reframes Kemerskai's arc as a second-act redemption | gemini:285 response
+  - the model | offers naming options | lists five titled options with short rationales and picks a recommended one | gemini:285 response
+  - the author | brings a large lore dump | lays out decades of Griffonian dynastic and political history (Grover IV-VI succession, Eagleclaw's counterrevolution, the 1007 civil war with Eros, the Thranx subplot, Luna's epiphany, Eagleclaw's planned exposure of Chrysalis) | gemini:286 prompt
+  - the author | asks a specific question | queries the correct word order for the new Reich's motto | gemini:286 prompt
+  - the model | answers the specific question | supplies a motto ordering (Boreas, Emperor, Reich) with a theological rationale for the hierarchy | gemini:286 response
+  - the model | organizes and extends the lore | restructures the dump into named sections (Eros's tragic compromise, Thranx's role, the mechanics of Eagleclaw's exposé, the surrender's dramatic logic, Luna's epiphany) and adds a summary timeline table | gemini:286 response
+- kept:
+  - note 535 | the author's own words in this record | keeps the plan for the chapter's dual public/private backstory-reveal structure, filed on the party plot point
+  - note 3413 | the author's own words in this record | keeps the Chrysalis-Gabriella shared-ambition/gender-inferiority bonding angle, filed on the link between the reveal plot point and the wedge-issues subject
+  - note 4227 | the author's own words in this record | keeps Kemerskai's bombastic-to-humbled arc after the Long March, filed on his character subject
+  - note 4230 | the author's own words in this record | keeps the chosen 'self-made griffon' ambition angle as the propaganda wedge, on the wedge-issues subject
+  - note 4231 | the author's own words in this record | keeps the decision to downplay the gender wedge except via Henri's group and the individual-vs-collective framing, on the same subject
+  - note 462 | pasted whole from this reply | keeps the model's Lie/Truth/Dynamic breakdown of Chrysalis's manipulation of Gabriella, filed on the testimony plot point
+  - note 4226 | pasted whole from this reply | keeps the model's before/after contrast of Kemerskai's competence, filed on the Republic subject
+  - note 4228 | pasted from this reply with cuts | keeps the model's 'promise superiority, not equality' formulation, trimmed, filed on the stagnation-era subject
+  - note 4232 | pasted from this reply with cuts | keeps the same trimmed passage again, filed on the wedge-issues subject
+  - note 65 | the author's own words in this record | keeps Eagleclaw's revenge motive to expose Chrysalis, on the reveal plot point
+  - note 368 | the author's own words in this record | keeps the Thranx subplot (mentorship, refusal, assassination, Grover's deduction), on the Eros-undoing plot point
+  - note 369 | the author's own words in this record | keeps the endgame battle-to-surrender sequence, on the same plot point
+  - note 450 | the author's own words in this record | keeps Luna's epiphany about Applejack and her decision to back her over Celestia's wishes, on that plot point
+  - note 495 | the author's own words in this record | keeps the top-down vs bottom-up morality framing between Eros and Kemerskai, on Applejack's learning plot point
+  - note 3709 | the author's own words in this record | keeps the same Luna-Applejack epiphany line, linked to the world-peace thematic subject
+  - note 3962 | the author's own words in this record | keeps the nobles' domination/fealty/posture rationale for serfdom, on the liberty-balance subject
+  - note 4193 | the author's own words in this record | keeps Eagleclaw's regency, marginalization, and her funding of Chrysalis's love harvesters
+  - note 4200 | the author's own words in this record | keeps Gabriella's backstory as an ambitious young duchess resentful of patriarchy
+  - note 4201 | the author's own words in this record | keeps the 978 fall and Chrysalis's manipulative approach to Eagleclaw
+  - note 4207 | the author's own words in this record | keeps the regency-council/industrialist conflict and the revolution's betrayal of peasants
+  - note 4210 | the author's own words in this record | keeps Gabriella's wiki bio, filed on her character subject
+  - note 4211 | the author's own words in this record | keeps her contempt for the Archons as a bio detail
+  - note 4215 | the author's own words in this record | keeps Eros's motivation to mentor Grover VI as a moral exemplar
+  - note 4216 | the author's own words in this record | keeps Eros's full wiki bio
+  - note 4217 | the author's own words in this record | keeps the setup of Grover V's death and the Eagleclaw-Eros civil war
+  - note 4218 | the author's own words in this record | keeps Eros's mentorship motivation again, filed on the civil-war subject
+  - note 4219 | the author's own words in this record | keeps Chrysalis's strategic betrayal of Eagleclaw in favor of Eros
+  - note 4220 | the author's own words in this record | keeps Eros's purge, redistribution, and the war motto
+  - note 4221 | the author's own words in this record | keeps the 'Aunty Gabriella' mercy scene and its effect on Eros and Grover
+  - note 4222 | the author's own words in this record | keeps Eros's consolidation of Herzland and jobs-for-peasants under the motto
+  - note 72 | pasted from this reply with cuts | keeps the model's phrasing of how Eagleclaw's exposé works, on the reveal plot point
+  - note 370 | pasted whole from this reply | keeps the model's 'Dark Knight' framing of Eros's tragic compromise
+  - note 371 | pasted whole from this reply | keeps the model's numbered logic of the surrender sequence
+  - note 442 | pasted from this reply inside the author's own framing | keeps the model's Thranx-as-anchor breakdown, embedded in added author detail on the Grover/Thranx plot point
+  - note 4214 | pasted whole from this reply | keeps the model's framing of the war as a top-down/bottom-up philosophical clash, on the war's subject
+  - note 4223 | pasted whole from this reply | keeps the model's motto-ordering logic and rationale, on the Phase-4 Eros subject
+  - note 4977 | one sentence lifted from this reply | keeps a single condensed line characterizing the regime as theocratic-fascist with its motto, folded into the subject's demographic description
+- brought: The author brought in canonical wiki biographies of Gabriella Eagleclaw and Archon Eros, along with established griffon-culture traits and a real-world political analogy (Kemerskai as William Jennings Bryan), to ground new dynastic and ideological lore for the Griffonian Reich.
+- loop: The author supplies large self-authored blocks of political and dynastic lore plus pointed naming questions, and the model returns organizing analysis, options, and rationale on top of that material; the plan then stores nearly all of the author's own phrasing verbatim as new Subject, PlotPoint, and Link entries, while also absorbing a smaller set of the model's own analytical framings (the exposé mechanism, the 'Dark Knight' and top-down/bottom-up framings, the motto rationale) verbatim into those same entries.

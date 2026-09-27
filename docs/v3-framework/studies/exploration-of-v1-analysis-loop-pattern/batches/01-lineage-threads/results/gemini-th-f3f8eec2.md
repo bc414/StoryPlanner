@@ -1,0 +1,35 @@
+- steps:
+  - the author | proposes a tactical structure | the jaeger/statthalter split, Aquileian deployment to save Tall Tale, decapitation-strike doctrine for chapters 4-5 | opening exchange of the stretch
+  - the model | validates and extends with structural analysis | logistics of split fronts, tactical materialism of decapitation strikes, Chrysalis's escalation catalyst | reply to the opening tactical proposal, closes by offering to analyze Applejack's adaptation
+  - the author | brings a character distinction | contrasting Minette's and Réni's differing relationships to agency and trauma | next exchange, shifting from battle doctrine to character psychology
+  - the model | analyzes the character split | Réni's privilege-of-agency worldview, cognitive dissonance mechanism, divergent arcs for Réni vs Minette | reply to the agency distinction
+  - the author | brings a new mechanical idea | tying Réni's enchanted plane to his psychological state, parallel to Pinkie Pie's cartoon physics | next exchange, introducing the plane-magic concept
+  - the model | analyzes and extends the mechanic | materialist rules for griffon magic, the engine-stall metaphor for cognitive dissonance, a resolution path | reply to the plane-magic idea, ends with a question about how to depict the plane's magic returning
+  - the author | asks a cross-character question and supplies new lore | how to apply the framework to Discord's departure, plus the Jaeger Geist drug name and the Q/John de Lancie connection | next exchange, extending the framework to Discord
+  - the model | answers with an explanatory analysis | Discord-as-Q materialist mechanics, his incompatibility with the trench, tie-in to the Réni/Rainbow Chapter 8 parallel | reply to the Discord question
+  - the author | asks for a linguistic term and proposes etymology | the French equivalent of Hunter's Spirit, and Chrysalis's deliberate copying of the chasseur concept into Jaegergeist | next exchange, asking for a named term and its lore origin
+  - the model | supplies a term and analysis | 'L'Élan du Chasseur' plus the biological-switch parallel and its payoff for Réni and Rainbow | reply to the naming request, ends by offering to brainstorm the academy motto
+  - the author | issues a correction | the empathy switch is trained agency, not an inherited biological trait | next exchange, correcting the prior biological framing
+  - the model | reanalyzes under the corrected premise | reworked implications for Jaegers as poseurs, the conscript drug mechanism, and Thorax's de-conditioning arc | reply to the correction
+  - the author | asks a research question | the real history of 'élan' and 'esprit de corps,' noting the EU4/HOI4 discrepancy | next exchange, moving to historical grounding
+  - the model | supplies historical explanation and maps it to the story | the doctrine's rise and WWI collapse, esprit de corps as its opposite, application to the Chasseur/Republic contrast | reply to the historical question
+  - the author | asks a conceptual follow-up | whether EU4's use of élan is itself an epistemological projection | next exchange, pressing on the historical analysis
+  - the model | confirms and extends the concept | the projection idea applied to Coltbert's mythologizing and Chrysalis's demystification of it | reply to the projection question
+  - the author | proposes a detailed chapter-by-chapter pacing plan | Élan's legitimacy in chapters 4-5, Rainbow's chapter 8 departure, Réni's breakdown, Pinkie mentoring Réni in chapter 11 | next exchange, laying out the arc's sequencing
+  - the model | validates and elaborates the roadmap | the armor-only enchantment metaphor, Rainbow's sparing, the armor-cracking escalation, the Pinkie-Réni thematic convergence | reply to the pacing roadmap, closing analysis of the stretch
+- kept:
+  - note 3008 | the author's own words in this record | keeps the author's point that Aquileian aces, not just Twilight and Starlight, hold Tall Tale, filed to the Tall Tale battle link
+  - note 2659 | pasted whole from this reply | keeps the model's formulation of Réni's agency-based worldview and its 'clean equation' framing, filed to Réni Ducep
+  - note 2650 | pasted whole from this reply | keeps the model's description of Pinkie's magic as non-violent and where it is safely used, filed to the Pinkie Pie link
+  - note 2662 | pasted from this reply with cuts | keeps the model's image of the plane becoming 'just a machine' when the enchantment fails, filed to Réni Ducep
+  - note 2014 | pasted from this reply with cuts | keeps the model's Q/de Lancie origin and materialist definition of Discord's magic, filed to the Discord plot point
+  - note 2015 | pasted from this reply inside the author's own framing | keeps the model's account of Discord treating conflict as a game incompatible with the trench, filed to the Discord plot point
+  - note 2016 | pasted whole from this reply | keeps the model's explanation of Discord's departure as materialist incompatibility, filed to the Discord plot point
+  - note 2413 | pasted from this reply inside the author's own framing | keeps the model's parallel between Réni's and Rainbow's ego-driven empathy suppression and Jaeger training, filed to the Tzinacatl reveal / Rainbow Dash link
+  - note 4326 | pasted whole from this reply | keeps the model's description of Thorax's un-training and vulnerability-as-strength arc, filed to the Thorax subject
+  - note 2582 | pasted whole from this reply | keeps the model's account of L'Élan du Chasseur as a moral-certainty shield hardening the plane's armor, filed to the Diyarbecolt air battle / Réni link
+  - note 2654 | pasted whole from this reply | keeps the model's parallel of Pinkie's and Réni's shared loss of magical physics, filed to the Réni plane-crash / Pinkie Pie link
+  - note 2655 | pasted whole from this reply | keeps the model's 'Synthesis' framing of Pinkie's and Réni's arcs, filed to the same Réni plane-crash / Pinkie Pie link
+  - note 2656 | pasted whole from this reply | keeps the model's 'Lesson' framing of Pinkie teaching Réni to swap Élan for Esprit de Corps, filed to the same Réni plane-crash / Pinkie Pie link
+- brought: The author brought an already-established framework of magic-as-ambition mechanics, character backstories, and drug/faction lore from the wider plan, and used each exchange to extend, cross-apply, or correct pieces of it.
+- loop: The author repeatedly brings a plot detail, character contrast, new mechanic, or outright correction drawn from the standing plan, and the model returns an elaborated structural analysis that reapplies the story's magic-as-ambition rules to it; the planning database then keeps the model's analytical phrasings — character psychology, magic mechanics, thematic parallels — filed onto the specific links, subjects, and plot points the exchange touched, so the plan accumulates argued justification rather than new raw plot.

@@ -1,0 +1,8 @@
+- asks:
+  - explain | describes how a "debt trap" mechanism functions when used against local warlords | "How does the debt trap work on local warlords?"
+  - evaluate | asks whether the cause is that warlords are addicted to buying foreign goods | "Is it because the local warlords are addicted to buying foreign goods?"
+  - evaluate | asks whether it's instead a pretense to seize ports without retaliation, enabled by warlords having been sold on an ideology of rugged individualism that leaves them to fend for themselves | "Or is it just pretense to seize ports without the warlords retaliating because they got sold on the con of rugged individualism"
+- supplies:
+- shaping:
+- openness: Leans toward a choice between two named explanations it proposes itself (foreign-goods dependency vs. an ideological pretense enabling port seizure), while also inviting a general explanation of the mechanism.
+- subject: The mechanics of "debt trap" leverage used against local warlords, likely for a fictional world involving port seizure and economic/colonial exploitation.

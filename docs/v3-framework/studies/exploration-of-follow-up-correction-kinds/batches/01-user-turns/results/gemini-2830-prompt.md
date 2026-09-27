@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turns from the policy discussion to their story, asking for an analysis of the love harvesters as a picture of unregulated emotional addiction and proposing how the Olenia deer and the Equestrians' use of love would carry that theme, without saying anything in the model's answer was wrong.

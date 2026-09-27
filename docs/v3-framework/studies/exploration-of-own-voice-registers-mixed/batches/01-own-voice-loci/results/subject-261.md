@@ -1,0 +1,15 @@
+- passages:
+  - note 4625 | present-tense rule-statement | present tense, technical banking terms, negated-list form ("no...and no...") | the strictness of the gold standard's rules | apart
+  - note 4625 | past-tense causal analysis | past tense, cause-effect claim ("effectively capped"), contrastive "not X, Y" | the economic effect of the gold standard | apart
+  - note 4625 | past-tense lore/practice note | past tense, names a specific object and place ("Tally sticks", "Tall Tale"), records a workaround | a local practice that got around the currency system | apart
+  - note 4626 | telegraphic sourcing note | dash-built fragment, parenthetical real-world aside, bare date | when and on what basis the ledger-trust system began | apart
+  - note 4626 | present-tense causal explanation | present tense, single clause joined by "thus" | why the Marks are trusted abroad | apart
+  - note 4626 | contrastive definitional explanation with quoted term | "not...but..." structure, a term set off in quotation marks | what actually backs the currency's value | apart
+  - note 4627 | past-tense narrative fact | past tense, subject-verb-object statement naming a character and a use | a character's use of the currency for her trade | apart
+- shifts:
+  - note 4625 | present-tense rule-statement | past-tense causal analysis | tense changes from present to past and the claim turns from stating a rule to diagnosing its effect
+  - note 4625 | past-tense causal analysis | past-tense lore/practice note | topic narrows from the general economy to one named practice in one named place, diagnosis giving way to a recorded workaround
+  - note 4626 | telegraphic sourcing note | present-tense causal explanation | sentence form changes from a dash-built fragment with a parenthetical aside to a full clause joined by "thus"
+  - note 4626 | present-tense causal explanation | contrastive definitional explanation with quoted term | sentence turns to a "not...but..." contrast and closes on a phrase set off in quotation marks
+- registers: present-tense rule-statement; past-tense causal analysis; past-tense lore/practice note; telegraphic sourcing note; present-tense causal explanation; contrastive definitional explanation with quoted term; past-tense narrative fact
+- whole: This item's notes move through several distinct registers — terse rule-statement, causal analysis, lore-recording, telegraphic sourcing shorthand, causal explanation, and quoted-term definition — but each passage sits apart on its own line or sentence rather than blending with another inside one sentence.

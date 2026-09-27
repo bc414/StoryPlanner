@@ -1,0 +1,5 @@
+- sources:
+  - Grover III's canonical history | source of the 705 ALB date and the Grover I conquest of Aquileia and Wingbardy; treat the date as fuzzy, an in-world account rather than exact fact | according to Grover III's canonical history (so the date is fuzzy) | first-named
+  - my setup (the author's timeline framing of feudal stasis 0 to 705 ALB, monsters defeated in Herzland and in Equestria) | a new framing the author proposes; the model is to analyze it and its consequences, not treat it as already settled | Give an analysis of this way of framing my setup and its consequences | referred-to
+- order:
+- about: The user proposes a new framing of their world's timeline, with monster extinction as the pivot that ends the stasis in Griffonia (705 ALB) and Equestria (0 ALB), and asks the model to analyze that framing and its consequences.

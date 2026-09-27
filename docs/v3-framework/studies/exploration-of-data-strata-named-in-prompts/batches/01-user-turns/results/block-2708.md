@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about how Supernatural's target-demographic and fanfiction audiences reacted to the show's shifts over its run, and how that compares with the My Little Pony fandom's reactions, without pointing the model at any particular body of material.

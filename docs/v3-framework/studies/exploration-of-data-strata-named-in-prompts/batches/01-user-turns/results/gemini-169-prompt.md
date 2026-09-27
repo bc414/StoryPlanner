@@ -1,0 +1,5 @@
+- sources:
+  - chapter 12 (velocity) of the story plan | treat as settled: Ponyville is liberated at its end and AJ sees the desecrated Sweet Apple Acres, so the model should build on this as the starting situation | chapter 12 velocity which ends with AJ seeing desecrated sweet Apple Acres | referred-to
+  - chapter 13 (combined arms) of the story plan | the part of the plan being worked on, set on the active front in Ponyville; the model is to solve the open question of getting the princesses there, with the scene's setup treated as given | AJ convince Celestia and Luna to show up in Ponyville in chapter 13 (combined arms) | referred-to
+- order:
+- about: The user asks the model to work out a plot mechanism for chapter 13 that gets Celestia and Luna (and possibly Blueblood) to Ponyville, taking the chapter 12 ending and the current state of the war as fixed premises.

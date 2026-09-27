@@ -1,0 +1,4 @@
+- sources:
+  - chapter 4 | the model is to look at what happens there, Henri giving key targets to AJ over the radio and Twilight taking them out, and classify that command style as grand battle plan or mobile warfare, then use it to judge how Henri commands in later battles | What is the command style in chapter 4, when Henri gives key targets to AJ over the radio | referred-to
+- order:
+- about: The user challenges the previous suggestion by asking whether Henri, as an FJA volunteer tactical commander, would plausibly underestimate the changelings and be humbled, and asks the model to characterise his chapter 4 command style and what it implies for his future orders to Applejack.

@@ -1,0 +1,6 @@
+- passages:
+  - 56 | statement about the subject | Asserts that nothing is coincidence: shared history underlies the connections between the two lands, and it is revealed across the story | none | declarative claims about what is true of the subject; no event or date
+  - 4520 | statement about the subject | Names the Aquileian Coltbert Reforms and Chrysalis as the foundation for everything | none | declarative claim of what is foundational; no event or date
+  - 4520 | statement about the subject | The story's title draws on French history (The Lion of Verdun) and the Aquileian spirit of resistance | none | explanatory statement about the origin and meaning of the name; no event or date
+- sequences:
+- whole: Two short notes of pure statements about the subject, giving the story's governing premise of shared history linking Equus and Griffonia and the foundations and title inspiration behind it, with no scene beats, dates or sequences.

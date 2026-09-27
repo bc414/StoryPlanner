@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new comparative question about how NotebookLM stacks up against using Gemini 3 pro directly on the website or app with a fresh session and the JSON file attached, without disputing anything in the model's prior explanation.

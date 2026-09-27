@@ -1,0 +1,4 @@
+- sources:
+  - The chapters | treat as the text's chapter structure; use the given delimiter format to find chapter boundaries | The chapters are delimited like this: "> Chapter 4:" | referred-to
+- order:
+- about: The user corrects the model's claim that the text has no chapter markers by telling it the exact delimiter format used for chapters.

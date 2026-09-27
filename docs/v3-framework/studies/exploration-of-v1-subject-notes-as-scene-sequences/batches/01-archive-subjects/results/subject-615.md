@@ -1,0 +1,8 @@
+- passages:
+  - 59 | statement about the subject | The overarching goal is world peace | none | plain declarative, stated as the goal
+  - 59 | scene beat without a year | Applejack runs into several instances of The Predator's Dilemma that block world peace | none | Applejack "encounters" something, event-like but spread over several instances, no date
+  - 59 | statement about the subject | Harmonic Capitalism, a concept invented by Coltbert as a synthesis of stagnant harmony and ambitious industry, is the means of breaking the cycle | none | definitional, with a parenthetical explaining the term
+  - 4262 | scene beat without a year | Applejack realizes that warring tribes can be united by a shared economic purpose that respects their biology and culture | none | Applejack "sees", a realization, no date
+  - 4262 | statement about the subject | The Tzinacatl serve as the example that gives hope the changelings can also become peaceful | none | declarative about what the Tzinacatl represent
+- sequences:
+- whole: Two short notes that set out the theme of world peace and how Harmonic Capitalism, with the Tzinacatl as precedent for the changelings, answers The Predator's Dilemma, mixing statements of the goal and concept with Applejack's discoveries, none dated or ordered as a sequence.

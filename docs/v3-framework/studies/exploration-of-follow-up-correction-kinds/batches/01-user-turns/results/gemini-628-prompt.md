@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the Tier 1 red drug as an optional per-unit extra (listed as None for many units, with the additives as separate drugs). The user says the Tier 1 red is the required base for everyone and the additives are mixed into it, so the additives could be isolated and the economic strain reduced. | I think the base tier 1 red is required and the additives mixed in | hedged, offered as the user's own view with an economic reason attached, and placed as a follow-on to a new question rather than as an outright rebuttal
+- about: The user asks a new question about what drug combination the infantry who follow a tank breakthrough and dig in to secure the supply line should get, and adds a note that Tier 1 red is the required base with the additives mixed into it, which changes how the model's separate-drug scheme should work.

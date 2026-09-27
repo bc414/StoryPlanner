@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author questions the model's urban-tax and currency mechanism, restates their own design of a fixed one-to-one gold-to-note rate as a gold standard with fractional banking, contrasts it with true fiat currencies elsewhere, and asks whether Discret should have the fixed exchange and what follows from it.

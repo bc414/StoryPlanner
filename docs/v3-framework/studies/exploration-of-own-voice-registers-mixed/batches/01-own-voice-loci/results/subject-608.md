@@ -1,0 +1,21 @@
+- passages:
+  - note 54 | label | terse noun-phrase, no verb | naming the war's two factions | apart
+  - note 4149 | factual-declarative | plain subject-is-predicate statement | Skyfall Trade Federation's neutrality | apart
+  - note 4149 | aphoristic-judgment | short blunt epithet | characterizing the Federation | apart
+  - note 4150 | analytical-argument | comparative clause, explanatory | griffons keeping the knightly code as Rules of War | apart
+  - note 4150 | querying-fragment | verbless phrase ending in a question mark | naming/checking a possible term | apart
+  - note 4151 | analytical-argument | negations, historical analogy, comparative claim | the war's limited, ideological, 1870s-style character | apart
+  - note 4753 | tally-notation | bare arithmetic and population figures | population counts of the warring powers | apart
+  - note 4976 | label | dash-joined noun phrase, no verb | section heading for the demographic note | apart
+  - note 4976 | analytical-argument | explanatory sentences on shared and opposed beliefs | Republic's and Reich's differing readings of Grover III | apart
+  - note 4987 | label | dash-joined noun phrase, no verb | section heading for the ideology note | apart
+  - note 4987 | rhetorical-ideological-explanation | explanatory sentences with quoted in-world terms, evaluative framing | how Civic Boreasism reworks empire and religion | apart
+  - note 4987 | concrete-descriptive | physical, visual detail | priests' simple dress and preaching | apart
+- shifts:
+  - note 4149 | factual-declarative | aphoristic-judgment | shift from neutral statement of fact to a blunt evaluative epithet
+  - note 4150 | analytical-argument | querying-fragment | shift from a full explanatory clause to a bare, question-marked fragment
+  - note 4976 | label | analytical-argument | shift from a verbless heading to full explanatory sentences
+  - note 4987 | label | rhetorical-ideological-explanation | shift from a verbless heading to explanatory sentences with quoted terms
+  - note 4987 | rhetorical-ideological-explanation | concrete-descriptive | shift from abstract ideological reasoning to physical, visual detail
+- registers: label; factual-declarative; aphoristic-judgment; analytical-argument; querying-fragment; tally-notation; rhetorical-ideological-explanation; concrete-descriptive
+- whole: This item's notes hold several distinct registers - bare labels, a tally of figures, factual and aphoristic statements, a self-querying fragment, analytical argument, and rhetorical-ideological explanation shading into concrete description - each occupying its own note or its own clearly separated sentence, with no note blending two registers inside a single unbroken sentence.

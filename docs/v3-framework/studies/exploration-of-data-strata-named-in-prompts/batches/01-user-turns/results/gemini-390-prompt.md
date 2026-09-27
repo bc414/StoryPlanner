@@ -1,0 +1,5 @@
+- sources:
+  - the author's own imagining of Skyfall (a ruthless capitalist paradise with industrial capacity to make guns) | treat as the intended setting fact; the model's version of Skyfall should be corrected to match it | I was imagining Skyfall as a ruthless capitalist paradise that has the industrial capacity to make guns | first-named
+  - the author's stated backstory that Skyfall stole the Imperial Navy at independence, leaving the Empire with no navy | treat as settled world fact to build on | the Empire has no navy because Skyfall stole the Imperial Navy when they declared independence | first-named
+- order:
+- about: The author corrects the model's picture of Skyfall by stating from their own vision that it is an industrial capitalist power and that the Empire has no navy because Skyfall took it.

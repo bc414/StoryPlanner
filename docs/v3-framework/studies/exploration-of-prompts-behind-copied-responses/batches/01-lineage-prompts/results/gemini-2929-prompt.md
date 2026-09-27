@@ -1,0 +1,16 @@
+- asks:
+  - review | asks the model to consult a referenced planning document before answering | "review my story plan document/notebook"
+  - brainstorm/coin terminology | asks for several candidate in-world terms Aquileian scholars would have coined for the magic effect, predating Twilight's later English coinage | "suggest a few different terms the Aquileians would have come up with first"
+- supplies:
+  - worldbuilding note | Fleur Bloom's arc: she believes earth pony magic is fueled only by ambition/pride/ownership, until Twilight gets her to also credit grace/pink love by story's end | a couple of sentences
+  - worldbuilding note | Aquileian earth-pony magic study was politically motivated, meant to prove earth ponies aren't prey animals by proving their magic is real | a sentence
+  - worldbuilding note | thematic cues the desired term should evoke: passion, 'hunter's spirit' (l'elan du chasseur), wings reflecting a chasseur partner, and absolute sovereignty/asset specificity | a few phrases
+  - external reference | mention of the user's own 'story plan document/notebook' that the model is told to review, not included in the message text | referenced only, not pasted
+- shaping:
+  - language/register | terms should be Aquileian (implied French-derived), distinct from the French-rooted 'charitostatic' | "Aquileian term for it cannot be French for 'charitostatic'"
+  - thematic content | terms must relate to passion, hunter's spirit, and absolute sovereignty/asset specificity | "needs to be related to passion... hunter's spirit... absolute sovereignty"
+  - thematic exclusion | terms must not center on connection/grace/pink love | "rather than focusing on the connection/grace/pink love aspect"
+  - historical placement | terms should fit the era circa 980-990 ALB, prior to Twilight's 1011 ALB English coinage | "around 980-990 ALB"
+  - quantity | wants multiple candidate terms, not a single answer | "suggest a few different terms"
+- openness: Leans toward an answer it names: the user specifies the required themes (passion, hunter's spirit, sovereignty) and excludes the connection/grace angle, while still requesting several candidate terms within that steered direction.
+- subject: Coining an in-world Aquileian precursor term (circa 980-990 ALB) for the earth-pony magic effect Twilight later names 'Charitostatic,' tied to Fleur Bloom's belief arc and Aquileian cultural politics.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the discussion of RLHF and formatting in a new direction by asking whether Claude's better literary analysis without system instructions comes from its training and company philosophy, from its web interface's handling of intent and role, or from both.

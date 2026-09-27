@@ -1,0 +1,7 @@
+- passages:
+  - note 42 | prescriptive thesis | short declarative principle statements, no addressee, generic subjects | the idea that talents needn't be replaced by industry/magic | apart
+  - note 4071 | cross-reference note | single clause pointing to other subjects, terse | linking cutie marks and griffon terroir to this idea | apart
+  - note 4110 | comparative lore exposition | declarative present-tense claims about a world mechanic, parallel descriptive listing of traits | how earth ponies, unicorns, and pegasi each hold raw magic differently | apart
+- shifts:
+- registers: prescriptive thesis; cross-reference note; comparative lore exposition
+- whole: Each of the three notes is written in its own single, internally steady register, so across the item as a whole several distinct registers stand apart from one another rather than mixing within any one note.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves the discussion back to the period before Gerad Discret the centralizer and asks whether ponies then were mostly castle servants, and for historical proportions of household servants to farming tenants in pre-Louis XIV France and similar societies, which extends the worldbuilding without disputing the model's account.

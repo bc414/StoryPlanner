@@ -1,0 +1,4 @@
+- sources:
+  - WW2 and present day systems (Nazi and Imperial Japanese dehumanization, Soviet KGB terror state, Western imperialism, modern American capitalism, modern Chinese state surveillance, Big tech atomization), framed in universe as the worst parts of Griffonia's nations and political experiments | treat as the inspiration for Chrysalis's totalitarian system and fold into the further analysis of Conscience; Big tech singled out as the most relevant threat to readers | inspired by the synthesis of all the worst elements of WW2 and present day systems | first-named
+- order:
+- about: The user says Conscience looks like the front-runner for the sixth element, tells the model what real-world systems Chrysalis's regime is modeled on, and asks for deeper analysis of Conscience as the connector of the other five elements, including how naive honesty and naive kindness fail in a world lacking conscience and grace.

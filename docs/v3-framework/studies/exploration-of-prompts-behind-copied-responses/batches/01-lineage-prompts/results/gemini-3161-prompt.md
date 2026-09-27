@@ -1,0 +1,8 @@
+- asks:
+  - evaluate | asks whether the proposed title/name "Une Lionne Aquilenne" is the right choice, or whether a similar alternative would fit better | "Should it be Une Lionne Aquilenne or something like that"
+  - justify-check | asks the model to weigh the proposed name against the stated reason for it, that the lioness is a heretic for defying her boreas-ordained role | "Because a Herzlander lioness is considered a heretic for defying her boreas ordainned role"
+- supplies:
+  - premise fragment | a single story idea about a Herzlander lioness deemed a heretic for defying a role ordained by "boreas" | a sentence
+- shaping:
+- openness: Leans toward an answer it names: it proposes \"Une Lionne Aquilenne\" as the title while leaving room for a similar alternative (\"or something like that\").
+- subject: Choosing a title/name for a heretical Herzlander lioness character

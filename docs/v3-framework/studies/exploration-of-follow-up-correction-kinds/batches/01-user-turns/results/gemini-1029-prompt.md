@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Chrysalis stealing the P3 would be a grave risk (letting her build factories of rifles) ignores that mass production and ammo depend on red love, which she lacks because she spends it on combat drugs for conscripts while the ponies rely on voluntary donation | There's not much risk if Chrysalis gets the P3 because she doesn't have the red love needed | flat statement with the reason given, offered as a side remark after asking a question
+- about: The user asks whether every new static combat spell would need its own P3, and in the same breath sets aside the model's worry about Chrysalis stealing the P3 by citing how red love supply works in the world.

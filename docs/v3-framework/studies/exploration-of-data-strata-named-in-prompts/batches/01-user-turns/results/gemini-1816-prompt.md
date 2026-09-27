@@ -1,0 +1,5 @@
+- sources:
+  - the author's own clarifications of the setting (Aquileia 20% pony and 80% griffon, ponies as a serf minority and loophole in the hierarchy, ponies not biologically prey because of magic, their passivity being cultural) | treat as true and as correcting the model's earlier assumptions about ponies and the serf class | "To clarify again, Aquileia is only 20% pony and 80% griffon" | referred-to
+  - the established account of the Grover reigns (Grover IV 914 to 970 ALB with laxed legions, Grover III before 914 described as reformist and stabilizing) | treat as settled facts of the timeline that the model must explain and build on | "Grover III's rule before 914 is described as reformist and stabilizing" | referred-to
+- order:
+- about: The author corrects the model's assumptions about the pony and griffon population and pony biology, restates the Grover III and IV timeline, and asks why the imperial legions would be withdrawn under Grover IV while floating his own guesses about industrialists, bribes and Grover III's monster-hunt legitimacy.

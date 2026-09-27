@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sends the model to a new body of source material, the Kingdom of Zarhay's flavor text and focus tree next to Mazwi, and asks what real-world cultures Mazwi and Zarhay draw on, without disputing anything in the model's three-layer account.

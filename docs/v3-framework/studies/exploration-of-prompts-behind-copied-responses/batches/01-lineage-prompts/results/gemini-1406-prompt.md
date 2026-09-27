@@ -1,0 +1,13 @@
+- asks:
+  - list | identify whether any other nations besides the ones named qualify as "3B nations" | "Are there any others?"
+  - explain/confirm | assess whether Poland's post-USSR trajectory fits a specific narrative: took Western investment but chose its own morals instead of bad examples, and supported Ukrainian refugees for four years | "Did they take investment from the West...decided to use their own morals...provided for Ukrainian refugees"
+  - analyze | assess whether Czechia counts as a 3B nation today given its history is described as similar to Poland's | "What about Czechia today which has a sort of similar history to Poland?"
+  - assess/confirm | judge whether historical America (immigrant-absorbing, manifest-destiny-era) can be called a 3B nation, with the caveat that this excludes Native Americans and Black Americans | "Is it possible to say that America was a 3B nation back when..."
+- supplies:
+  - prior classification | a short list of nations already identified as "3B nations": Poland, Sweden, Finland, Norway, Uruguay, Botswana | a line
+  - Poland narrative | claimed post-1989 history of Western investment, independent moral choices, and Ukrainian refugee support | a couple of sentences
+  - America narrative | claimed historical framing of the US as an immigrant-absorbing expansionist nation, naming Irish, Italian, German "forty-eighters", Chinese and Indian immigrants, with explicit exclusion of Native Americans and Black Americans | a few sentences
+- shaping:
+  - none stated | message gives no instruction on length, format, or perspective for the reply
+- openness: The message leans toward answers it names for three of its four questions (Poland's moral-choice narrative, Czechia's likely fit, America's historical fit with stated exceptions), while leaving the list of "other" 3B nations fully open.
+- subject: Testing and extending a "3B nation" classification against Poland, Czechia, and historical America

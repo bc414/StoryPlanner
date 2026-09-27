@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pushes the configuration-driven design a step further by proposing one generic StoryEntity table and one PlotPointEntityLink table, with entity kinds and link kinds defined in configuration, without saying anything in the model's turn was wrong.

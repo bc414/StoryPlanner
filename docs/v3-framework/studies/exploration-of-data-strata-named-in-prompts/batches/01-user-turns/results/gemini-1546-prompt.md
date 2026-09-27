@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to suggest a name for the civic fiat currency of Kemerskai, giving the setting facts that its people are Herzlander (German-analogue) refugees sharing the country with native Cloudbury (Denmark-analogue) people, without pointing at any body of material to draw on.

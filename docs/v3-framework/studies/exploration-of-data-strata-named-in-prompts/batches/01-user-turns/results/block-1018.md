@@ -1,0 +1,7 @@
+- sources:
+  - my previous analysis of Obama | fold into the synthesis as the established reading of Obama, to be combined with the other two threads | Give an synthesis of my previous analysis of Obama | referred-to
+  - how Mount Aris kicks off the timeline | treat as the established plan; use as the anchor of the synthesis, including its 2008 financial crisis allegory | The Battle of Mount Aris as a shattering of the nursery event seems to fit as an allegory to the financial crisis of 2008 | referred-to
+  - the Siege of Mount Sinjar (original inspiration, with the Storm King's horde like ISIS) | treat as the origin of Mount Aris and the Storm King; add it to the synthesis alongside the 2008 allegory | it was originally inspired by the Siege of Mount Sinjar | first-named
+  - the user's own recollection of Obama's intervention (unilateral, out of conscience, after long pressure not to get involved in Syria and ISIS) | provisional and uncertain; the user wants it confirmed or corrected | wasn't it something like, he finally chose to unilaterally intervene out of conscience? | first-named
+- order:
+- about: The user adds the Siege of Mount Sinjar and ISIS as the original inspiration for Mount Aris, asks whether their memory of Obama's intervention is right, and asks for a synthesis of their earlier Obama analysis, Mount Aris as the start of the timeline, and this inspiration.

@@ -1,0 +1,23 @@
+- relations:
+  - 970|969|the reader-response plan reacts to the appearance plan: he takes over Las Pegasus and helps in the war, and the reader is meant to be surprised that he helps earnestly|actually helps in the war / earnestly helps in the war phase|implicit
+  - 970|975|both split him into a war phase and a later phase: the earnest helper then political antagonist continues in time as the promised versus delivered versions|before becoming the political antagonist in the referendum phase / War time ... Post war|implicit
+  - 973|975|the con-man question is the reader's side of the author's aim to honour his vision while exposing the lie of no substance|con man or not / exposing the lie of actual lack of substance|implicit
+  - 973|967|his backstory conduct is an instance of the con-man question: he uses borrowed nationalist rhetoric to make workers believe they can be rich like him|make them think they can be rich and powerful like him / con man|implicit
+  - 973|254|the pocket-picking quote states the con in general form that the reader is asked to weigh|picking his pocket / con man|implicit
+  - 254|967|the quote's idea of flattering one group so it does not notice being robbed is applied by his nationalist rhetoric to workers who work harder|won't notice you picking his pocket / get his workers to work harder|implicit
+  - 965|967|two Skyfall steps in time: seminars in 988, then in 994 he refuses Skyfall loans and calls it a foreign invasion|Skyfall seminars / Skyfall loans|explicit
+  - 963|974|the general note that he talks like Trump is made concrete by his nicknames and absolutes; the nicknames in 963 are instances of the nicknaming in 974|Sleepy Celestia, Radical Rarity / He uses nicknames|implicit
+  - 966|975|rugged individualism is a belief he holds at the start and is also what the post-war version delivers|rugged individualism without treason / rugged individualism, extraction|implicit
+  - 966|967|his individualism and anti-treason stance shows in refusing foreign loans as an invasion and turning to nationalism|without treason / foreign griffon invasion|implicit
+  - 974|969|Las Pegasus is cast among the Winners in his framing, and 969 has him take it over|Winners (Him/Las Pegasus) / Takes over Las Pegasus|implicit
+  - 964|975|his wish to be worshipped as singular savior sits under the post-war outcome where the promise proves hollow|worshipped as the singular savior / lie of actual lack of substance|implicit
+- outward:
+  - 975|a real-world political figure and his promises and record|Trump promised to deliver / Trump actually delivered
+  - 963|a real-world political figure, and other characters who get nicknamed|Talks like Trump (Sleepy Celestia, Radical Rarity)
+  - 254|a real-world quote about race and exploitation, not from this story|If you can convince the white man he is better than the black man
+  - 965|the Skyfall seminars, an organisation held elsewhere|Went to Skyfall seminars
+  - 967|Skyfall loans, the griffon nation Aquileia and the figure Moriset Discret|Skyfall loans / Aquileia (Moriset Discret)
+  - 969|the war and Las Pegasus, held elsewhere|Takes over Las Pegasus and actually helps in the war
+  - 970|the war phase and the referendum phase of the wider story|war phase / referendum phase
+  - 974|other characters Rockfeller and Chrysalis|Losers (Rockfeller/Chrysalis)
+- whole: ["Mostly a set that hangs together: the reader-opinion, war-arc, allegory and backstory notes form a chain about whether he is a con man, though the appearance notes 962 and the Trump-voice note stand a little apart as separate descriptive entries."]

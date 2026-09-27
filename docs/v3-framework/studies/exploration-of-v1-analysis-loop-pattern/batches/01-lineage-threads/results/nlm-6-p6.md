@@ -1,0 +1,81 @@
+- steps:
+  - author | question | asks what makes Minette not a Mary Sue/girlboss, what her flaws are | opens the stretch on Minette's character
+  - model | analysis | returns four proposed flaws plus a case for why she is not a statue | replies to the opening question
+  - author | correction | rejects control-freak framing, redirects flaw to not wanting to settle down / ego-driven hunting | reply to the four-flaw analysis
+  - model | analysis | reworks the flaw into an 'adrenaline junkie of domination' framing tied to Réni | replies to the correction
+  - author | correction | revises Réni dynamic to peace outside combat, adds interspecies infertility and seal-count motive, asks about balance, introduces epilogue filly idea | reply to the adrenaline-junkie analysis
+  - model | analysis | reframes flaw as vanity/commoditization, gives a balance table, ties epilogue to a democratized conception spell | replies to the correction and new epilogue idea
+  - author | correction | rejects commoditization, cites the demotion rule, redirects flaw to ego/vanity, asks for a comparison to Twilight/Applejack | reply to the balance analysis
+  - model | analysis | reworks flaw into toxic perfectionism/vanity and gives a comparative table between the two couples | replies to the correction and comparison request
+  - author | question | asks about Réni's flaws, his Mary Sue risk, and the logic of his sleeping with other Lionesses | opens new subject on Réni
+  - model | analysis | lists Réni's flaws and frames his promiscuity as a strategic honeypot/distraction serving Minette | replies to the Réni question
+  - author | correction | rejects the 'using Réni' framing, insists on an equal chasseur partnership | reply to the honeypot framing
+  - model | analysis | reworks the dynamic into equal partnership, 'compagnons d'armes' | replies to the correction
+  - author | question | asks what colors the two characters are | opens new subject on appearance
+  - model | analysis | infers coat colors from existing name and nickname lore | replies to the color question
+  - author | request | asks for suggested colors with reasoning | follow-up on colors
+  - model | analysis | gives a detailed color palette with symbolic justification for both characters | replies to the request
+  - author | question | asks how Minette's parents feel and react across the story's arcs | opens new subject on parents
+  - model | analysis | traces the parents' reactions phase by phase across the timeline | replies to the parents question
+  - author | question | asks about Minette-Westkeep interactions across four life phases | opens follow-up subject
+  - model | analysis | breaks down the interactions phase by phase, ending in a 'mannequin/tailor' dynamic | replies to the phases question
+  - author | correction | rejects the mannequin dynamic, redirects to Minette clothing servants and demanding respect | reply to the phase analysis
+  - model | analysis | reworks the dynamic into a 'resistance leader' framework centered on dignity via clothing | replies to the correction
+  - author | question | asks to confirm the judgmental-vs-cute persona split and how Réni heals her | follow-up on persona
+  - model | analysis | maps the persona to each context (Westkeep/peers/Réni) and explains the healing mechanism | replies to the persona question
+  - author | refinement | elaborates the cute-persona theory, ties cuteness to agency vs trauma, defines grifter/lost-boy split | builds on the persona analysis
+  - model | analysis | formalizes a tri-state personality model (authentic/weaponized/benevolent cute) | replies to the refinement
+  - author | question | asks how Coltbert reacts to Minette's rebellion and its link to his theories, the spell, the Equestria trip, and any ripple effect | opens new subject on Coltbert
+  - model | analysis | frames Minette's stand as validating asset specificity and the hold-up problem, ties it to the spell and the Equestria trip | replies to the Coltbert question
+  - author | correction | rejects the asset-specificity framing, redirects to social cost/raising the cost of conquest, asks for a comparison to Coltbert's own method | reply to the analysis
+  - model | analysis | reworks the scene around cost-of-conquest theory with a comparative table and a refined cutie-mark meaning | replies to the correction
+  - author | question | asks whether Minette and Réni should first meet in Vinovia or at the academy, with pros and cons | opens new subject on their meeting
+  - model | options | lays out pros and cons of both locations and proposes a hybrid recommendation | replies to the meeting question
+  - author | question | asks to sharpen the needle/thread cutie mark via a kitty-poking-itself metaphor | opens follow-up subject on the cutie mark
+  - model | analysis | develops the metaphor into a cutie-mark origin story and its later use against grifters | replies to the metaphor question
+  - author | refinement | proposes a specific academy scene where Réni humbles Minette's aggression, asks for analysis of how this builds agency-based cuteness | builds on the cutie-mark metaphor
+  - model | analysis | validates the scene, maps a trauma-to-agency arc, links it to the later grifter/lost-boy tactics | replies to the refinement
+  - author | refinement | adds further backstory (seeking combat training, apex protectiveness, a Fluttershy Stare comparison, the childhood-personality origin) and asks to reanalyze | builds on the academy scene
+  - model | error | fails to produce a response | replies to the refinement
+  - author | repeat | resubmits the same prompt with a minor added alternative reading | retries after the error
+  - model | analysis | delivers a comprehensive reanalysis integrating all added details into a phased timeline and an identity triad | replies to the repeated prompt
+  - author | refinement | adds the gender-gap-in-taming realization, clarifies the training timeline and a bandit-stabbing incident, and the academy start date | builds on the reanalysis
+  - model | analysis | integrates the timeline clarifications, formalizes a 'Mare's Burden' theory and the grifter/dropout triage | replies to the refinement
+  - author | question | asks who originated the tableau de chasse and the distinction between hunting log and trophy shelf | opens new subject on the tableau
+  - model | analysis | proposes griffonesses originated it as a vetting tool, stallions responded with a book of favors, traces the phase shift | replies to the tableau question
+  - author | correction | rejects the 'book of favors' framing, redirects to stallions-as-auditors origin and griffoness scarcity/resentment, asks for an updated comparison | reply to the analysis
+  - model | analysis | reworks the origin around an audit log mutating into a hunting log, and griffoness competition into a trophy shelf | replies to the correction
+  - author | refinement | further corrects Réni's motivating dialogue and details phase-1/phase-2 mechanics of the tableau's evolution | reply to the reworked analysis
+  - model | analysis | matches the updated mechanics with a phase table and a market-equilibrium explanation | replies to the refinement
+  - author | question | draws a four-way parallel among grifter/follower, griffonesses, Minette, and 2nd-gen stallions and asks for analysis | opens a synthesis question
+  - model | analysis | maps each demographic's Lion/Eagle psychology and resolution | replies to the synthesis question
+  - author | question | asks when Coltbert should invent the Lioness Spell | opens new subject on the spell
+  - model | analysis | proposes an invention timeline tied to the collapse of the King's Peace and to Minette as the muse | replies to the spell question
+  - author | refinement | adds constraints that the spell fails against guns and must connect to the 1002 wedding and the 1011 war's failure | builds on the invention analysis
+  - model | analysis | reworks the invention narrative to satisfy all three eras (King's Peace, wedding, war) | replies to the refinement
+  - author | question | asks whether the spell's development connects to the griffon rule that armor enchantments only work for their forger | opens new subject on magic mechanics
+  - model | analysis | draws an inversion analogy between armor enchantment and the spell's reflection mechanic | replies to the magic-mechanics question
+  - author | question | asks whether the spell must work on all species and whether industrialization/muskets ended griffon tradition, or whether Grover I-III should be meritocratic-vs-suppressive by region | opens new subject on imperial history
+  - model | analysis | confirms universality, explains the industrial obsolescence of smith-warriors, proposes a Herzland/Aquileia imperial-strategy split | replies to the history question
+  - author | refinement | elaborates Grover I/II conscription doctrine details and Grover III's shift away from conscription | builds on the imperial-strategy analysis
+  - model | analysis | validates the military-doctrine evolution across three Grovers with tactical and propaganda detail | replies to the refinement
+  - author | question | asks about Cecille Gaudreau's presence in Le Grand Foyer, her path to becoming 'the good lady,' and her timeline to the 1008 presidency | opens new subject on Cecille Gaudreau
+  - model | analysis | gives Cecille's age timeline and a phase-by-phase path to becoming a competent administrator | replies to the Cecille question
+  - author | refinement | proposes a specific library meeting scene between young Cecille and Coltbert | builds on the Cecille analysis
+  - model | analysis | develops the library scene into the origin of Coltbert's auditor role and their partnership | replies to the refinement
+  - author | request | asks for an extensive cause-and-effect chain across all the lore, grounded in biology and geography, and to identify gaps | closes the stretch with a synthesis request
+  - model | analysis | delivers a full causal chain from geography and biology through the Grovers to character motivations, plus a gap analysis | replies to the closing request
+- kept:
+  - note 4805 | pasted whole from this reply | keeps the 'Return to Innocence' comparison of Twilight and Applejack, filed under Subject "TwiJack"
+  - note 4911 | one sentence lifted from this reply | keeps the birth year and description of Westkeep training young Minette to associate obedience with reward, filed under Subject "Minette"
+  - note 4914 | pasted from this reply inside the author's own framing | keeps the kitty/needle cutie-mark metaphor recast in the author's own phrasing, filed under Subject "Minette"
+  - note 4910 | pasted from this reply inside the author's own framing | keeps the academy meeting and agency-vs-trauma framing recast in the author's own phrasing, filed under Subject "Minette"
+  - note 4915 | one sentence lifted from this reply | keeps the detail of Minette and Réni pairing up and their first exchange at the academy, filed under Subject "Minette"
+  - note 4867 | one sentence lifted from this reply | keeps the description of 2nd-gen Royalist auditors' ego/savior motivation, filed under Subject "The Predator's Dilemma (Coltbert's Paper)"
+  - note 4941 | the author's own words in this record | keeps the author's own account of the tableau de chasse's phase-1/phase-2 mechanics, filed under Subject "The Predator's Dilemma (Coltbert's Paper)"
+  - note 4942 | one sentence lifted from this reply | keeps the summary of the Lioness Spell's origin tied to the collapse of the King's Peace, filed under Subject "The Predator's Dilemma (Coltbert's Paper)"
+  - note 4904 | one sentence lifted from this reply | keeps Cecille Gaudreau's age and timeline milestones, filed under Subject "Cecille Gaudreau"
+  - note 4937 | the author's own words in this record | keeps the author's own timeline for the library meeting and the Vinovia wine-reform detail, filed under Subject "Cecille Gaudreau"
+  - note 4964 | one sentence lifted from this reply | keeps the point about griffons misreading latent earth-pony magic as luck or theft, filed under Subject "Coltbert Reforms Temp"
+- brought: The author brought an already-established web of character and worldbuilding lore (Minette's grooming backstory and cutie mark, the Coltbert Reforms, the TwiJack dynamic, Gerad's era, Grover imperial history) and used it as a fixed baseline against which to test, correct, and extend each new analysis the model produced.
+- loop: The author repeatedly floats a question or a partial idea grounded in prior lore, the model returns an elaborated multi-part analysis, and the author then corrects or redirects the analysis to fit constraints already fixed in the plan, cycling this until a version holds; only a thin slice of each cycle's output survives into the database, usually as a single distilled sentence, a passage rewritten in the author's own words, or a full block kept only when it already matched the author's framing.

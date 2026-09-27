@@ -1,0 +1,19 @@
+- passages:
+  - 4081 | scene beat without year | Chrysalis personally goes to Diamond Mountain and buys crystals with blood money from the Skyfall company and her hit jobs and bounties | none | written as an action she takes; no date given
+  - 4081 | scene beat without year | Chrysalis founds Krystallfels Handelsgesellschaft to mine crystals from an isolated island far from Skyfall, near Olenia and the Changeling Lands | none | follows the purchase with "then creates"; no date given
+  - 4082 | statement about the subject | Chrysalis's scientists are drones who showed curiosity, and the Herzland noble researchers are disgusted by their bug and lowborn status | none | descriptive statement of staffing and attitudes
+  - 4082 | statement about the subject | Origin of Chrysalis's idea: she watched Kemerskai's new state and machine in Cloudbury, the enemy she had just helped the Herzland nobles defeat | none | background explanation of where the idea came from
+  - 4083 | statement about the subject | The Griffonian Republic also buys crystals from the Diamond Mountain black market or by intercepting the Hellquil supply chain, needing them for Universal Translator research | none | statement of who buys and why
+  - 4083 | scene beat without year | The GR eventually conquers the sunstriker mountains to secure its own crystal supply, less abundant than Diamond Mountain's but enough for the republic | none | event stated with "eventually"; no date
+  - 4084 | statement about the subject | Star Energy Corporation develops magic tech in Pridea and must buy expensive crystals from Diamond Mountain or Krysallfels Handelsgesellschaft | none | statement of a buyer's dependence and cost
+  - 4084 | statement about the subject | The GR initially keeps sunstriker crystals for state use, trading only low-grade crystals to the Aquileians for high-caloric food | none | describes a standing trade policy, "initially"
+  - 4085 | statement about the subject | The crystal mountains north of Equestria existed but nobody would prospect there because it was too infeasible | none | background statement of a standing condition
+  - 4085 | scene beat with year | The Crystal Empire returns and the crystal ponies are willing to mine the mountains and trade with Aquileia | 1002 | "returns in 1002"
+  - 4085 | scene beat without year | Shipments pass through Equestria, where customs officials who see crystals as decorative jewelry or building material stamp manifests "Luxury Goods Trade" while Cadance and Shining Armor quietly arm another nation's magical industry | none | written as an event that could be shown; no date of its own
+  - 4086 | statement about the subject | The Temberik Mountains have crystals but are off limits until the events of the war and cooperation | none | plain statement of a restriction
+  - 4087 | scene beat without year | Chrysalis tries to strike a crystal deal with the Temberik long before the war and the elders reject her; Comet Shine is rejected too | none | event placed only as "way before the war started"
+  - 4087 | statement about the subject | The Temberik's stance summed up as a motto: no friend but the mountains | none | short maxim closing the note
+  - 4107 | open worldbuilding idea list | Possible further black market crystal sources (Blackrock Mountains, Griffonstone, controversial regions like the middle east and Siberia, maybe Zebrican sources), with a reminder to check the map | none | tentative wording: "Maybe", "check the rest of the map"
+- sequences:
+  - 4081 | 2 beats: Chrysalis buys crystals at Diamond Mountain, then founds her own mining company on an island | "then creates"
+- whole: The notes lay out the world's crystal trade: who sources, buys and blocks crystals (Chrysalis's company, the Griffonian Republic, Star Energy, the Crystal Empire, the Temberik), mixing a few undated events with statements about the trade and a tentative list of more black market sources.

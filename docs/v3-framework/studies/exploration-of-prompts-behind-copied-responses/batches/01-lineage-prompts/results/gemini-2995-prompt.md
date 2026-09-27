@@ -1,0 +1,8 @@
+- asks:
+  - comparison | compare NotebookLM's vectorization/chunking/RAG-with-strict-grounding approach against AI Studio's approach of pasting the full story plan into context | "Give a comparison between Notebook LM's ... vs AI Studio with the full story plan pasted in"
+- supplies:
+- shaping:
+  - scope of use case | restrict the comparison to the purpose of a developmental editor refining the "Fabula" (story plan), not to prose generation | "For the purpose of developmental editor to refine the Fabula, not for prose generation"
+  - held-constant condition | treat both approaches as using system instructions, so the comparison should focus on the vectorization/chunking/RAG vs full-paste distinction rather than on system instructions | "Both using system instructions"
+- openness: Asks for a comparison between two named, specific approaches (NotebookLM's RAG/chunking method vs AI Studio's full-plan-paste method) rather than leaving the question open-ended or asking the model to verify a stated fact.
+- subject: Comparing NotebookLM's RAG/chunking approach vs AI Studio's full-context-paste approach for developmental editing of a story plan (Fabula)

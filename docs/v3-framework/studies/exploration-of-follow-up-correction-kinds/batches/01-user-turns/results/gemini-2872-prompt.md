@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user is putting forward further worldbuilding ideas as open questions (a several-year letter friendship between Celestia and Grover III, a stable respectful standoff with Torch, and Luna's and Celestia's first century of rule and Luna's monster-slaying) without saying anything in the model's analysis was wrong.

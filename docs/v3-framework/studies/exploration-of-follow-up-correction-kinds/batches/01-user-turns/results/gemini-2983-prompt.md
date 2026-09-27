@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's local-Llama suggestion by asking for an overview of the Llama models and whether they can handle the 300k-word plan, and adds their AMD RX 6700 XT hardware as a constraint without saying the model was wrong.

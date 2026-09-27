@@ -1,0 +1,11 @@
+- passages:
+  - note 4421 | plain factual statement | short unelaborated third-person clause, no evaluation or comparison | Tally Mark being one of the ordinary unicorns Twilight trains | apart
+  - note 4579 | expository trait-summary | present tense, abstract capitalized nouns (Resilience, Laughter), comparison to Pinkie, functional clause 'since counts and organizes' | her thematic role and personality | apart
+  - note 4580 | physical-design description | listing of coat/mane/tail traits each tied to a practical or symbolic reason ('so it doesn't interfere', 'to line up with') | her coat, braided mane, and tail marking | apart
+  - note 4581 | physical-design description | brief, matter-of-fact statement of a visual detail | her cutie mark, a five-mark tally stick | apart
+  - note 5683 | expository trait-summary | flat declarative present-tense statements naming her role and the theme of her arc | her role as mentor and the theme of reconciling with industrial poseurs | apart
+  - note 5683 | narrative arc-recounting | sequential 'starts...but later on' structure, vivid and evaluative phrasing ('shining beacon', 'unharmonic grudge', 'ruthless industrialists') | the arc from optimistic beacon to revealing industrialists' cheating and her lingering grudge | apart
+- shifts:
+  - note 5683 | expository trait-summary | narrative arc-recounting | shift into a new sentence that sequences events ('starts...later on') and turns to vivid, evaluative vocabulary
+- registers: plain factual statement; expository trait-summary; physical-design description; narrative arc-recounting
+- whole: This item holds several distinct, self-contained registers — plain factual setup, abstract trait-summary, physical-design description, and vivid narrative recounting — with each note staying in one register except note 5683, which shifts cleanly at a sentence break from flat role-summary into sequenced, evaluative story-recounting.

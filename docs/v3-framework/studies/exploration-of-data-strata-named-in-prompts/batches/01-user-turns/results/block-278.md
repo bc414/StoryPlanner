@@ -1,0 +1,5 @@
+- sources:
+  - my existing story plans for EEEE! and Flowing Current | the baseline material to be improved; the model is to show how it gets better when the new material is applied | existing story plans for EEEE! and Flowing Current | referred-to
+  - the new revelations | the new material to apply to the existing plans as an upgrade or improvement | improved by the new revelations | referred-to
+- order:
+- about: The user asks the model to explain how their existing story plans for EEEE! and Flowing Current are improved by the newly surfaced material.

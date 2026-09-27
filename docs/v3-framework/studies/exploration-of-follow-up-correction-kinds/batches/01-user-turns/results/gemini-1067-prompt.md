@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for an alternative scene, for Applejack or for Twilight, in which a letter carries the theme that protecting people means doing the dirty work, and does not dispute the letter the model just finalized.

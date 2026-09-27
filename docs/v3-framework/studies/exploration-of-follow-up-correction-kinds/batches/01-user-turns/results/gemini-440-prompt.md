@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, having been given an overview of Canvas, asks a new question about why it no longer opens automatically for coding or long summaries, and whether that is a setting they changed or an A/B test, without saying anything in the overview was wrong.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up worldbuilding and science question about whether burning only crop-harvest biomass would spare the pegasi from CO and sulfur toxins, whether it would still yield condensation particles, and which materials would make the best non-toxic, abundant industrial clouds, without pointing to any body of material for the model to draw on.

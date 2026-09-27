@@ -1,0 +1,39 @@
+- steps:
+  - the author | brings a plan revision plus a believability question | new party split sending Fluttershy back to Tall Tale and AJ/Dash/Mali to the jungle, and how Fluttershy could ethically run an animal spy network | opening move of the exchange
+  - the model | analyzes and drafts | ethical justification framed as animal agency vs protection, a security rationale for the secrecy, a Rainbow Dash motivation, a scene draft, and a party-roster summary | response to the author's revision and question
+  - the author | elaborates on the model's framing with a specific mechanism | a buffalo line proposing 'observe and report' discipline, and a pre-existing southeast spy network that sabotaged Rockfeller's wells | opening move of the next exchange
+  - the model | analyzes and drafts further | a 'harm reduction for partisans' framing, a Thunderhooves dialogue draft, a Fluttershy command style with sample line, a motivation paragraph, and a handover scene draft | response to the buffalo/Rockfeller elaboration
+  - the author | asks a new staging question | how to get Celestia and Luna to Ponyville for the chapter 13 meeting, and whether Blueblood should also attend or stay on the northern front | opening move of a new exchange
+  - the model | analyzes and drafts | political-pressure and emotional-hook arguments for the princesses' attendance, a security rationale for Ponyville, a verdict keeping Blueblood remote, a summons-letter draft, and a motivation table | response to the summons question
+  - the author | redirects with a refinement | Rarity delivering the invitation in person and being refused, then AJ sending a second letter, plus an interpretation of AJ's psychology as wanting both validation and a parental figure | opening move of the next exchange
+  - the model | analyzes and drafts | a Rarity refusal scene, AJ's internal conflict, a drafted second letter, and a 'My Little Pony' thematic reading of the princesses' arrival | response to the Rarity/letter refinement
+  - the author | brings a new scene-bridging idea with a question | having Rarity dial into the Tall Tale war meeting by radio to link chapters 7 and 8, and asking what Twilight should ask her about the princesses | opening move of the final exchange
+  - the model | offers two phrasing options with drafted dialogue | alternate versions of Twilight's question to Rarity and Rarity's answer revealing the princesses are preserving history rather than fighting, with thematic payoff | response to the radio-bridge question
+- kept:
+  - note 1103 | pasted whole from this reply | keeps the changeling-bird surveillance logic, filed to the spy-network plot point
+  - note 1104 | pasted whole from this reply | keeps the 'resistance movement that already exists' line, filed to the spy-network plot point
+  - note 1096 | the author's own words in this record | keeps the author's paraphrase of the buffalo's 'observe and report' argument and Fluttershy's shift from discouraging to directing, filed to the spy-network plot point
+  - note 1097 | pasted whole from this reply | keeps the 'harm reduction for partisans' framing, filed to the spy-network plot point
+  - note 1098 | pasted whole from this reply | keeps the Thunderhooves dialogue draft explaining the animals already sabotage Rockfeller, filed to the spy-network plot point
+  - note 1099 | pasted whole from this reply | keeps Fluttershy's 'ordering restraint' role with sample command line, filed to the spy-network plot point
+  - note 1100 | pasted whole from this reply | keeps the motivation that Fluttershy centralizes data to save more animals, filed to the spy-network plot point
+  - note 1101 | pasted from this reply inside the author's own framing | keeps the conservatory handover scene draft, with the author's added detail about caged birds, filed to the spy-network plot point
+  - note 2532 | the author's own words in this record | keeps the author's statement that AJ wants validation and an adult figure despite being the room's actual adult, filed to the letter-to-princesses link
+  - note 1070 | pasted whole from this reply | keeps the framing that the letter must read as both a command and a cry for help, filed to the letter plot point
+  - note 1073 | pasted whole from this reply | keeps a drafted line of the second letter, filed to the letter plot point
+  - note 1074 | pasted from this reply inside the author's own framing | keeps a drafted letter passage with an added meeting-time detail, filed to the letter plot point
+  - note 1075 | pasted whole from this reply | keeps a drafted letter line about not wanting to be the Princess, filed to the letter plot point
+  - note 1076 | pasted whole from this reply | keeps the letter's closing plea, filed to the letter plot point
+  - note 1078 | pasted whole from this reply | keeps the summary line naming the letter as a disguised cry for help, filed to the letter plot point
+  - note 1079 | pasted whole from this reply | keeps the explanation of why the letter's stakes work, filed to the letter plot point
+  - note 1080 | pasted whole from this reply | keeps a transition line about Ponyville's proximity to danger, filed to the letter plot point
+  - note 1081 | pasted whole from this reply | keeps the line about demanding the princesses face the enemy, filed to the letter plot point
+  - note 1083 | pasted whole from this reply | keeps the line framing the princesses' arrival as reluctant, filed to the princesses-show-up plot point
+  - note 1085 | pasted from this reply inside the author's own framing | keeps the arrival scene with an added detail about AJ recalling her parents' words, filed to the princesses-show-up plot point
+  - note 2533 | pasted whole from this reply | keeps the 'tragic hero vs girlboss general' framing of AJ, filed to the letter-to-princesses link
+  - note 2534 | pasted whole from this reply | keeps the line that the princesses watch rather than take charge, filed to the princesses-show-up link
+  - note 3106 | pasted whole from this reply | keeps the full 'My Little Pony' thematic reading, filed to the princesses-show-up/title link
+  - note 3826 | pasted from this reply inside the author's own framing | keeps the arrival scene again with the added parental-memory detail, filed to the princesses-show-up/Stagnation's Redemption link
+  - note 1200 | pasted whole from this reply | keeps the closing line that this marks the Mane 6 no longer waiting for permission, filed to the Rainbow-stops-flying plot point
+- brought: Across the exchange the author brought successive structural and staging decisions already forming in the plan — a revised party split, an animal-network mechanism, a summit-attendance problem, and a radio-bridge scene — each paired with a specific believability or motivation question for the model to solve.
+- loop: The author proposes a plot mechanic or staging problem and asks how to make it work, the model returns drafted scenes, dialogue, and framing arguments, and the author often takes the model's own phrasing as the basis for a further refinement in the next turn; the planning database then stores the model's drafted lines and framing paragraphs verbatim under the relevant plot points and links, alongside the author's own restatements of the same beats.

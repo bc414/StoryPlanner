@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model treated the 19,000-line planning document as itself the story material needing 'ruthless editorial selection' and compression into a single delivered text, rather than recognizing it as the fabula underlying a multi-work syuzhet (main story plus separate prequel-sequel works) | "this document is only the fabula" / "the fabula informs the main story" | stated matter-of-factly as a reframing, delivered in passing before moving on to lay out the actual publication structure and ask a new question
+- about: The user reframes the planning document as fabula (in the Russian-formalist sense) underlying a syuzhet composed of a main third-person-limited story plus several separate prequel-sequel works and a practice draft, and asks for an analysis of this delivery structure.

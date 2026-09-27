@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a second story plan from 2022 and asks for the same kind of analysis, warning in advance that the characters sharing species names are different people in a different world with different stakes, so the two plans shouldn't be conflated.

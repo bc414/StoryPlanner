@@ -1,0 +1,5 @@
+- sources:
+  - more accompanying material | treat as new input to be analyzed and folded into the updated analysis | I pasted in more accompanying material | first-named
+  - the plan for Chrysalis's story | work from it as the plan to analyze, framed as a Greek tragedy and not grimdark | the plan for Chrysalis's story (as a Greek tragedy | referred-to
+- order:
+- about: The user announces newly pasted material and asks the model to update its analysis on that material and on the Chrysalis story plan, framed as Greek tragedy rather than grimdark, then to identify where more context would help and ask for the next details.

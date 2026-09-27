@@ -1,0 +1,48 @@
+- passages:
+  - 5540 | expository rule-statement | "require not just raw magic... combined with pink love" | dual requirement for powerful magic | apart
+  - 5540 | bare list/enumeration | list of named spells with no verb | names the specific spells covered | apart
+  - 5540 | developmental tracking-note | "from the start... not connected... until the end of the story" | tracks how the term was used across drafting | apart
+  - 5545 | expository rule-statement | "misinterpreted as erodynamics... weaponized connection" | Aquileian misreading of the effect | apart
+  - 5547 | expository rule-statement | "Once the scope is broadened... then the fundamental... is applied" | general applicability of the effect | apart
+  - 5548 | expository rule-statement | "is what allows vibrant pink love to work as rehab" | role in changeling rehab and morale cakes | apart
+  - 5548 | instructional address | "you need red love to cast... you need pink love to sustain" | dreamwalking's dual requirement | apart
+  - 5548 | expository rule-statement | "forged by projecting intent through the cavity magnetron" | how the Universal Translator is made | apart
+  - 5548 | conditional hypothetical | "If earth pony magic were pure ego, they would weather..." | consequence of ego-only earth pony magic | apart
+  - 5548 | evaluative critique | "Fleur's theory... is correct, but neglects to emphasize" | judges a character's theory | run-in
+  - 5548 | expository rule-statement | "is the highest form, perfected by Celestia" | describes the conception spell | apart
+  - 5549 | analogy/comparison | "is like Maxwell's Equeations connecting Electricity, Magnetism and Light" | likens convergence to scientific unification | apart
+  - 5549 | telegraphic shorthand | "Also Charles Darwin's evolution + Gregor Mendel's genetics" | further science analogies as note fragment | apart
+  - 5550 | exclamatory aside | "Pinkie Promise is the colloquial term!" | everyday name for the effect | apart
+  - 5652 | expository rule-statement | "It is only thymodynamic magic. They have no discount" | Twilight and Starlight lack the effect | apart
+  - 5652 | exclamatory revelation | "But Cadance does! That's why she can cast a conception spell!" | reveals Cadance's exception | run-in
+  - 5815 | analytical-argumentative essay | "He wasn't wrong that Red Love works. He was wrong that it was sufficient" | builds case against Coltbert's framework | apart
+  - 5815 | aphoristic conclusion | "The republic is not just the right answer. It is the more powerful one." | closes the argument with paired claim | apart
+  - 5816 | narrative-evidentiary | "Luna's battle doctrine assumed... that weakened the shield" | recounts the Stukas incident as proof | apart
+  - 5816 | analytical generalization | "This is the physical demonstration that conscience and alignment are separate variables" | draws general principle from the event | apart
+  - 5817 | analytical-explanatory | "correctly identifying... Where their understanding is incomplete is in the source" | assesses what the Aquileians got right and wrong | apart
+  - 5818 | heading/label | "The Equestrian Contribution — Unconditional Dignity as Charitostatic Source" | names the section's topic | apart
+  - 5818 | analytical-expository | "does not require a specific relational form" | states Twilight's core insight | apart
+  - 5818 | rhetorical parallelism/litany | "Romantic passion generates it... It is a communal one" | lists forms of genuine connection and reframes Crystal Heart/Faire | apart
+  - 5818 | analytical-expository | "This is why the Crystallers' monopoly was a form of tyranny" | judges the Crystallers' claim as unearned | run-in
+  - 5818 | quotation | "Mage Meadowbrook understood the macro-mechanics: 'Earth ponies need pride...'" | cites an in-world scholar's line | apart
+  - 5818 | analytical-expository | "This is the charitostatic conservation principle" | explains the soil/land mechanic | run-in
+  - 5818 | analytical-expository | "Their contribution is not the dramatic burst... It is the steady... baseline" | explains the Wallflowers' quiet contribution | apart
+- shifts:
+  - 5540 | expository rule-statement | bare list/enumeration | drops sentence form for a plain noun list
+  - 5540 | bare list/enumeration | developmental tracking-note | returns to sentences tracking the term's use over drafting
+  - 5548 | expository rule-statement | instructional address | shifts to second person, "you need red love... you need pink love"
+  - 5548 | instructional address | expository rule-statement | returns to third person, "is forged by projecting intent"
+  - 5548 | expository rule-statement | conditional hypothetical | opens a counterfactual, "If earth pony magic were pure ego, they would..."
+  - 5548 | conditional hypothetical | evaluative critique | turns to judging a named theory, "Fleur's theory... is correct, but neglects"
+  - 5548 | evaluative critique | expository rule-statement | returns to flat statement, "is the highest form, perfected by Celestia"
+  - 5549 | analogy/comparison | telegraphic shorthand | drops to a fragment joined by "+"
+  - 5652 | expository rule-statement | exclamatory revelation | switches to exclamation marks and contrastive "But Cadance does!"
+  - 5815 | analytical-argumentative essay | aphoristic conclusion | closes with short parallel declaratives
+  - 5816 | narrative-evidentiary | analytical generalization | turns from the specific event to an abstract claim, "This is the physical demonstration that..."
+  - 5818 | heading/label | analytical-expository | moves from title phrase into full-sentence reasoning
+  - 5818 | analytical-expository | rhetorical parallelism/litany | shifts into repeated "X generates it" clauses
+  - 5818 | rhetorical parallelism/litany | analytical-expository | turns to causal judgment, "This is why the Crystallers' monopoly was a form of tyranny"
+  - 5818 | analytical-expository | quotation | inserts a quoted line attributed to Mage Meadowbrook
+  - 5818 | quotation | analytical-expository | resumes third-person narration, "She observed that Red Love without Pink Love destroys the soil"
+- registers: expository rule-statement; bare list/enumeration; developmental tracking-note; instructional address; conditional hypothetical; evaluative critique; analogy/comparison; telegraphic shorthand; exclamatory aside; exclamatory revelation; analytical-argumentative essay; aphoristic conclusion; narrative-evidentiary; analytical generalization; analytical-explanatory; heading/label; rhetorical parallelism/litany; quotation
+- whole: This item holds many registers, ranging from terse expository rule-statements, lists, and shorthand or exclamatory asides in the shorter notes to long analytical-argumentative essays, evaluative critiques, a rhetorical litany, and a quoted line in the longer ones, with most notes keeping one register throughout while several shift internally, sometimes across a clear paragraph break and sometimes running two registers together inside the same paragraph.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Twilight and Aquileian "conditioning" analysis to a new request: an analysis of Applejack's arc around "Combined Arms", plus a new idea about her parents that they want worked into that arc.

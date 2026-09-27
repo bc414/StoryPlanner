@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the flat-list section-header option for plot points and then asks whether a simple local interactive-server app needs both DTOs and view models on top of its model classes.

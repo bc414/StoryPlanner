@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model how it came up with the phrase "Bluebell River Spearhead", a question about the phrase's origin, without pointing the model at any body of material to draw on or avoid.

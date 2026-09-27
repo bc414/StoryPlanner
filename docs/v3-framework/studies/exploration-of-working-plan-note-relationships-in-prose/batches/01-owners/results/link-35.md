@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 912|The second Battle of Tall Tale, whose loss prompts Trimmel's demand, is an event held elsewhere in the plan|After loss of second battle
+  - 912|The Luftwaffe as a force Trimmel seeks to requisition, and Tall Tale as the place to be swarmed, both held elsewhere|requisition the entire Luftwaffe to swarm Tall Tale
+  - 912|Bales, the destination Trimmel is sent to, and Blueblood, the enemy he is sent to wipe out, both held elsewhere|sent to Bales to wipe out Blueblood
+  - 912|Those who laugh Trimmel off (presumably Chrysalis, named in the scene title) are not described in this note|He is laughed off
+- whole: By its content this owner holds only one note, so there is nothing to hang together and no joint between notes.

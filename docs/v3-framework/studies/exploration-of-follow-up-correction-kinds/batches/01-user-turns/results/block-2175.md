@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn sets aside the placement recommendations and asks a new question: which thematic proposition, existing or new, the Lion/Poseur contrast is evidence for, and what it argues about the "honesty vs poseurs" pattern.

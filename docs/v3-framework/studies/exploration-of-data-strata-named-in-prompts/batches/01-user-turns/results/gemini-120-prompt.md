@@ -1,0 +1,4 @@
+- sources:
+  - hoi4 terms | draw on the game's vocabulary as the basis for the new title suggestions | based on hoi4 terms | referred-to
+- order:
+- about: The user asks the model for further chapter-title suggestions, this time drawn from Hearts of Iron IV terminology.

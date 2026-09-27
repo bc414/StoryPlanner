@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author restates from their own account how Survival Harmony works across the story's phases and corrects the previous analysis about what drained Equestria's gold bits and where the drug-trade opium parallel actually lies, without pointing at any body of material.

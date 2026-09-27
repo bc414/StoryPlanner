@@ -1,0 +1,23 @@
+- relations:
+  - 578|1262|the analogy note documents the real-world model (nobles allied with Social Darwinist industrialists) for the alliance the ontology note states as the system's working rule|feudal nobles and Social Darwinist industrialists / toxic alliance of Divine Right and Social Darwinism|implicit
+  - 1262|803|the ontology rule of an alliance of landed nobility and industrialists is used as evidence for the thematic claim that unregulated capitalism resembles feudalism|Unregulated Capitalism has more in common with Feudalism / neither the Honor of feudalism nor the Opportunity of capitalism|implicit
+  - 2436|797|the general claim that the bourgeoisie only wanted to replace the Knights is given its concrete motive in the textile barons wanting to overthrow the King to be the new oligarchs|just wanted to replace the Knights / so THEY could be the new oligarchs|implicit
+  - 797|799|the barons' motive (sell clothes to everyone) is carried into the dated uprising, where the barons join others to overthrow the King for Market Access|Textile barons wanted to sell clothes to everyone / Barons wanted Market Access|implicit
+  - 799|802|continuation in time: after the shared revolt against the King, the counter-revolution makes the barons switch sides while Kemerskai want to educate workers|Kemerskai / the Barons switched sides|explicit
+  - 802|1262|cause: the nobles' promise to let barons keep factories is what produces the later alliance of industrialists ruling cities and nobles keeping serfdom|nobles promised to let them keep their factories / nobles continue serfdom while enjoying the benefits of industry|implicit
+  - 802|1252|the counter-revolution led by Chrysalis and the later phase of Chrysalis manipulating nobles and extracting wealth share a figure, one following the other|Counter-Revolution (Eagleclaw/Chrysalis) / Chrysalis manipulating the nobles|explicit
+  - 798|1262|reason: the elites take from the book only the collapse of divine right and the greedy-predator thesis, which gives the two ideologies (Divine Right, Social Darwinism) that the ontology note names|divine right of kings is a lie / naturally greedy predators / Social Darwinism|implicit
+  - 798|1265|the biological thesis of natural greed is what the industrialists' appeal to superiority relies on; Griffons being greedy and prideful echoes it|naturally greedy predators / canonically greedy and prideful|implicit
+  - 1265|1262|elaboration: the appeal to superiority and to carving out a barony is the way rugged individualism works and holds the alliance together|promise superiority / Rugged Individualism and Serfdom|implicit
+  - 804|2347|instance and statement of the same capture: industrialists repurposing the Empire's machine is the same as the state being captured to enforce monopolies|repurposed the Empire's machine / actual mechanics of the state are used to enforce the monopolies|implicit
+  - 2348|2347|the analogy of a decaying aristocratic shell managing industrialization matches the state kept as aesthetic of divine rule under industrial nobility|decaying aristocratic shell / maintains the aesthetic of divine rule|implicit
+  - 796|2348|the canon epithet of a sick empire and the analogy of a decaying aristocratic empire describe the same condition|Sick Bird of Griffonia / decaying aristocratic shell|implicit
+  - 578|1264|the interwar-period setting of the analogy fits the vacuum-tube, telegraph and radio technology tied to World War 2|Interwar Period / vacuum tube tech, just like in world war 2|implicit
+- outward:
+  - 796|the source canon (EaW) that names the Griffonian Empire|EaW calls the Griffonian Empire "The Sick Bird of Griffonia"
+  - 798|a book in the setting and the earlier ruler Grover III's biological thesis, held elsewhere|They read Gesunder Menschenverstand / Grover III's biological thesis
+  - 578|the reign of Grover V and its wider period|Grover V (Interwar Period)
+  - 1252|the character Chrysalis's history with the nobles who bullied her, and the Herzland phase|Chrysalis manipulating the nobles who bullied her
+  - 802|the counter-revolution's leaders, Eagleclaw and Chrysalis, known elsewhere|Counter-Revolution (Eagleclaw/Chrysalis)
+  - 1265|established canon on Griffon character|Griffons are canonically greedy and prideful
+- whole: ["The notes mostly hang together as one story of the barons and nobles: their revolt, their switch of sides and the resulting kleptocracy, with the analogy and theme notes attached to it, though the Chrysalis, technology and Sick Bird notes stand more apart."]

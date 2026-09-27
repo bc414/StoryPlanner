@@ -1,0 +1,4 @@
+- sources:
+  - the scene in the chapter Crash where Minette is teaching Tally Mark how to fly with wings of dew | the existing scene the model is to build on, treated as the place where the new nursery-rhyme explanation and the Twilight and Pinkie reaction get added | In the scene in the chapter Crash where Minette is teaching Tally Mark how to fly | referred-to
+- order:
+- about: The user proposes moving the nursery-rhyme mistranslation reveal into the existing Crash chapter scene, with Minette giving the Aquileian romance/passion reading and Twilight and Pinkie correcting it, so that the wings of dew are shown to run on friendship, grace and trust.

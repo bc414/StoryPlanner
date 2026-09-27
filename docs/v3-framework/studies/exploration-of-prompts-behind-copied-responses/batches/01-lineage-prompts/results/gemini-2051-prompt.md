@@ -1,0 +1,11 @@
+- asks:
+  - directive | instructs the model to leave the user's original text exactly as-is, without moving, reordering, or rewording any part of it | "I don't want any shifting. I want my original text."
+  - directive | instructs the model to avoid any rearranging of the material going forward | "I don't trust the AI to rearrange stuff."
+  - statement of requirement | states a demand for strict, unbending adherence to the original wording/order | "I want rigidity."
+- supplies:
+- shaping:
+  - must preserve the user's original text unchanged | "I want my original text"
+  - must not shift or rearrange content | "I don't want any shifting"
+  - must be rigid/strict in following this constraint | "I want rigidity"
+- openness: leans toward a stated position — the message asserts a firm requirement (no rearranging, exact original text, rigidity) rather than leaving room for the model's discretion or offering options.
+- subject: a demand that the AI stop rearranging or altering the user's original text and instead preserve it rigidly as-is

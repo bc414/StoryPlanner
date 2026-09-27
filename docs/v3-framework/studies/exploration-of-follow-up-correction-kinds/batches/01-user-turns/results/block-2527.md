@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for assessments of Redhawk and what shaped his writing, adds a personal recollection about a removed lemon scene and his religious reason, and asks whether that could explain Selina's damsel role, without disputing anything the model said.

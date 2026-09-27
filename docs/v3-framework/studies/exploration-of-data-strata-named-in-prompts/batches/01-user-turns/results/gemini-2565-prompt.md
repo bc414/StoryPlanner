@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | read them for existing usages of FJA and base the suggestions on what is found there | Review my story plans for the existing usages of FJA | first-named
+  - FJA as the political party, and its origin as the acronym of Gaudreau's social clubs (author's own account) | treat as established: FJA is the political party, began as the acronym of Gaudreau's social clubs, then came to mean the new Aquileian way of life | I established FJA as the political party but it was initially just acronym of Gaudreau's social clubs | first-named
+- order:
+- about: The user gives background on the FJA acronym's history and asks the model to check their story plans for its existing uses, then propose a name for the new monster-hunting ship class using the acronym, or other ways to tie it into naval culture.

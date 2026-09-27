@@ -1,0 +1,15 @@
+- steps:
+  - the author | refines a biology rule | changeling pink/red love duality, prisoner's-dilemma trap, discovery sequence for AJ's donation, Chrysalis's resource use, dual donation centers | opening prompt of the stretch
+  - the model | elaborates into a system | caste-diet table, waste-to-weapon tech timeline, propaganda slogan and mechanics, summary table of the fuel cycle | first reply
+  - the author | resubmits the same clarification with one added refinement | meritocracy twist: pink love reserved for best performers, gray for underperformers | second prompt, near-duplicate of the first
+  - the model | reworks the system around the new twist | 'love meritocracy' caste breakdown, restated tech timeline, CAS fuel mechanism, mandatory-mercy campaign, new summary table | second reply
+  - the author | introduces a new scene and device | prison scene where Henri calls in Fluttershy, empath-conscript premise, universal translator with an old/new model twist tied to a later Cloudbury payoff | third prompt
+  - the model | builds out the scene and payoff | chapter 6 staging, tone-vs-accent design distinction for the translator, Cloudbury speech payoff, summary arc | third reply
+  - the author | lays out a self-drafted framework and flags a gap | partial mapping of Elements-of-Harmony subversion for four elements, kindness left as-is, an open question about Pinkie's recovery from gray | fourth prompt
+  - the model | completes and formalizes the framework | full six-element mapping with philosophy and application per element, a specific answer for Pinkie's arc, final summary table | fourth reply
+- kept:
+  - note 4064 | pasted whole from this reply | the donation-drive slogan, placed under Subject 'Strong to be Merciful'
+  - note 3425 | pasted from this reply inside the author's own framing | the point that ammo and rehab collection happen simultaneously so supporting the war means supporting rehab, placed on a Link between the Love Donators subject and 'Strong to be Merciful'
+  - note 3420 | one sentence lifted from this reply | a summary sentence on Henri's translator-driven speech and its anti-tribalism moral, placed on a Link between Henri's speech and Anti-Racism/Anti-Tribalism/Politics of Division
+- brought: The author brought forward an already-established wartime subversion of the Elements of Harmony to extend into a second, Republic-era subversion, arriving with partial drafts for four elements and an open question about how Pinkie recovers from gray.
+- loop: The author repeatedly supplies and refines worldbuilding rules and scene beats (love economy, translator tech, Elements subversion), and the model returns exhaustive structured elaborations with tables and staged arcs each time; the plan retains only compact fragments — a slogan, a framed point about simultaneity, one lifted summary sentence — filed onto specific subject and link entries, while the surrounding scaffolding the model built is not carried into the database.

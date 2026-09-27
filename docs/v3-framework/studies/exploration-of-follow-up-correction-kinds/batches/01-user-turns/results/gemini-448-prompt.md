@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the NotebookLM discussion and asks an unrelated question about whether Capital One has built-in two-factor authentication or requires enabling it in settings.

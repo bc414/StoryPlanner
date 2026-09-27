@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the character was drafted into the reserves; the user says there is no conscription and reservists are volunteers who joined out of a fairy-tale view of war, which is the cost of stagnation | Just to be clear, there is no conscription. The reservists are volunteers | Flat statement of the world rule, with a short explanation of why, offered as a clarification before moving on
+  - register or format | The model's names were not pony-sounding enough: the user wants a name that reads like a nickname (as Tally does) while keeping the fair-weather idiom, and says the bare word Fair is not name-sounding | "Fair" can work, but it's not as "name-sounding" | Mild, explained through an example (Tally Mark); framed as a request for more options rather than a rejection
+- about: The user briefly corrects the model's claim about drafting into the reserves, chooses the fair-weather idiom, and asks for more pony-sounding names that reference it, using Tally Mark as a model.

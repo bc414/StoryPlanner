@@ -1,0 +1,7 @@
+- sources:
+  - my notes | treat as the author's record that Coltbert's Aquileia sits at an extreme end of the axis, with standardized labor exorcised through history | "Coltbert's Aquileia in my notes represents an extreme end" | referred-to
+  - v1 archive | search in depth for economic specifics and nuances to inform the range of possible axis framings | "dive deeper into the economic specifics across v1 archive" | referred-to
+  - v2 | search in depth for economic specifics and nuances to inform the range of possible axis framings | "across v1 archive, v2 and conversations" | referred-to
+  - conversations | search in depth for economic specifics and nuances to inform the range of possible axis framings | "v2 and conversations to really get into all the nuances" | referred-to
+- order:
+- about: The user rejects the model's "enhancement vs replacement" axis label as overfit, corrects it with his own account of how several economies actually work, and asks for a deeper survey of the v1 archive, v2 and conversations that lays out several candidate framings with rationale instead of one answer.

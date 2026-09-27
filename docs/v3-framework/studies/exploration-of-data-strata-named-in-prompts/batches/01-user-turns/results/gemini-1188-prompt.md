@@ -1,0 +1,7 @@
+- sources:
+  - what I established about Gilded Trust never selling his sliver of the oil fields to Rockfeller, seeing him as a Skyfall puppet/self-colonizer/parasite | treat as settled story fact and build the grievances on it | I established that Gilded Trust will never sell | referred-to
+  - the real John D Rockefeller's measures for buying up competitors | draw on this general historical knowledge and adapt the tactics to the story | What were the measures that the real John D Rockefeller used | referred-to
+  - the author's own imagined railway ideas (rebates with the railway owner, or Rockfeller owning the railway and forcing trucks) | provisional suggestion from the author, to be extended with other options | I can certainly imagine Rockfeller having rebate deals | first-named
+  - the world setting: no corporate laws because Celestia doesn't do capitalism, the southwest as wild west, Rockfeller using guns on buffalo and Gilded Trust | treat as true premises the tactics must fit | There are no corporate laws because Celestia doesn't do "capitalism" | first-named
+- order:
+- about: The user asks the model to adapt John D. Rockefeller's historical monopolizing tactics to give Gilded Trust specific grievances against Rockfeller in a lawless wild-west Equestria, offering their own railway ideas as a starting point.

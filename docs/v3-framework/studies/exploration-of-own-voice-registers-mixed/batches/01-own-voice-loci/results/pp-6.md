@@ -1,0 +1,18 @@
+- passages:
+  - 105 | descriptive-summary narration | third-person present-tense declarative describing an action | Fluttershy coaxing animals to eat rations | apart
+  - 105 | quoted dialogue | first-person direct address, request and reassurance | Fluttershy's coaxing words to the animals | apart
+  - 106 | descriptive-summary narration | third-person reported speech and description of behavior | Fluttershy's fear, Henri's explanation, the changelings' wild behavior | apart
+  - 106 | quoted dialogue | parenthetical quoted exclamation | Fluttershy's reaction | run-in
+  - 107 | interpretive authorial commentary | "should imply", psychological/thematic analysis | Applejack's motive and her performance of toughness | apart
+  - 108 | descriptive-summary narration | declarative statement of situation and reported prohibition | changelings attacking despite food, Henri forbidding shooting | apart
+  - 108 | quoted dialogue | direct question and answer with speech tags | exchange about the rules of war | apart
+  - 2805 | descriptive-summary narration | short declarative summary | Henri revealing the griffon rules of war | apart
+  - 3645 | descriptive-summary narration | declarative present-tense statement | Fluttershy warning creatures away from the changelings | run-in
+  - 3645 | interpretive authorial commentary | single-word parenthetical label | naming the trait shown as "passivity" | run-in
+- shifts:
+  - 105 | descriptive-summary narration | quoted dialogue | switch from third-person description to first-person direct address
+  - 106 | descriptive-summary narration | quoted dialogue | parenthetical quoted exclamation "(Oh my...)" appended to the description
+  - 108 | descriptive-summary narration | quoted dialogue | switch to a quoted question with the speech tag "asked"
+  - 3645 | descriptive-summary narration | interpretive authorial commentary | parenthetical single-word tag "(passivity)" appended to the statement
+- registers: descriptive-summary narration; quoted dialogue; interpretive authorial commentary
+- whole: This item's notes hold several registers, with plain descriptive-summary narration giving way to quoted dialogue partly by paragraph breaks and partly by parenthetical exclamations or tags fused onto the same sentence, while the interpretive authorial commentary either forms its own separate note or hangs off a description as a bracketed label.

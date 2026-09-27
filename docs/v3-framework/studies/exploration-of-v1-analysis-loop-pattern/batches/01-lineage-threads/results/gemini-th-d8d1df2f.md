@@ -1,0 +1,6 @@
+- steps:
+  - the author | request | asks for cutie mark suggestions and backstory for a named character | opening of the stretch
+  - the model | grounded generation | a backstory drawn from the character's existing profile, three named cutie-mark options each with a visual description and a symbolic rationale, plus a note on how the mark plays out in the story | reply to the request
+- kept:
+- brought: The author brought a request for creative options for a character's cutie mark and its origin story, pointing the model at the character's existing profile in the plan.
+- loop: The author asked for design options grounded in an established character profile, and the model produced a backstory plus several named, symbolically-explained visual options; no note from this exchange was traced into the planning database, so nothing here is shown as having been kept.

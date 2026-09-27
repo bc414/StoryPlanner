@@ -1,0 +1,5 @@
+- sources:
+  - the foundation conversation | to be replayed through Claude as the starting material, run fresh to see what comes out | running the foundation conversation through Claude | referred-to
+  - the plan that stands today | to be set aside and not used during the replay, as if the author had gone back in time without it, then kept as the base that gets augmented with insights from the replay | as if I went back in time and didn't have the plan that stands today | referred-to
+- order:
+- about: The user asks whether it would be worthwhile to replay the original foundation conversation with Claude while withholding the current plan, and then use what comes out to augment the existing plan.

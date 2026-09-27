@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author lays out their planned plot beats (Applejack arming the slaves, Celestia's white peace, and her later use of the executed collaborators against Applejack) and asks how to explain why the nuance about collaborators is not raised until after the white peace.

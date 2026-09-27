@@ -1,0 +1,4 @@
+- sources:
+  - the 4 codex categories | taken as the already-settled structure the model is to build on when working out the note tracks for their plot-point connections | within each of the 4 codex categories' connections to plot points | referred-to
+- order:
+- about: The user asks a follow-up design question about which note tracks each of the four codex categories should have for its connections to plot points, building on the framework already worked out in the conversation.

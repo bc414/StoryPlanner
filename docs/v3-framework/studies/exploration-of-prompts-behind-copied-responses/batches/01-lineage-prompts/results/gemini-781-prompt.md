@@ -1,0 +1,9 @@
+- asks:
+  - read | requests the model read through the referenced prequel material before responding | "Please read my prequel"
+  - analyze | requests analysis of how the prequel's depiction of jaeger vs Statthalter mentality and their relationship with language can be refined | "To refine the jaeger vs Statthalter mentality and relationship with language"
+  - check | asks whether the idea from the prequel, written before current large-scale story planning, still applies | "I wrote this before making big story plans but I think the idea applies"
+- supplies:
+- shaping:
+  - focus the analysis specifically on the jaeger/Statthalter mentality and their relationship with language, not the prequel generally | "To refine the jaeger vs Statthalter mentality and relationship with language"
+- openness: Leans toward an answer it names: the user states a belief that the jaeger vs Statthalter mentality/language idea from the prequel still applies to the larger story and asks the model to analyze and refine it on that basis.
+- subject: Refining the jaeger vs Statthalter mentality and their relationship with language, as depicted in a prequel about Ixodida's fall and Pagala's villainy.

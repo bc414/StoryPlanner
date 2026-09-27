@@ -1,0 +1,5 @@
+- sources:
+  - history of tobacco companies and plantations | use as real-world inspiration for Tribe D's story and its parallels | "How can I draw inspiration from their history?" | first-named
+  - the belief that tobacco companies or their spirit/people evolved into processed food companies that made addictive commodity foods | user's own recollection, offered as unsure and put to the model to confirm or correct from what it knows | "is this true?" | first-named
+- order:
+- about: The user corrects the previous turn's imperialism framing of the Star Energy refinery deal as a plain equipment sale, then asks whether Tribe D resembles tobacco companies or plantations, whether tobacco firms became addictive processed-food firms, and what Tribe D's ending and election allegiance should be.

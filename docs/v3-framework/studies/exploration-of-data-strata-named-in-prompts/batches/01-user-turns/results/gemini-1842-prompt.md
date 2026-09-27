@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's clarifying question by saying their question about Twilight breaking from Celestia is for a story they are writing, without pointing to any material for the model to use.

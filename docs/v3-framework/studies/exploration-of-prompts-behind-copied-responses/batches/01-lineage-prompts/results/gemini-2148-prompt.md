@@ -1,0 +1,7 @@
+- asks:
+  - explain | asks how the characters referred to as "they" would arrive at the agreement in question, i.e. the mechanism or process | "How would they come to this agreement?"
+  - check | asks whether this moment would actually be the point where the characters learn to respect each other, inviting confirmation or discussion of that named idea | "Would it actually be the point when they learn to respect each other?"
+- supplies:
+- shaping:
+- openness: Mixed: the first question leaves the path to the agreement open, while the second leans toward a named idea (that this is the point of mutual respect) and asks the model to confirm or weigh in on it.
+- subject: How two story characters reach a previously mentioned agreement, and whether that moment represents their turning point of mutual respect

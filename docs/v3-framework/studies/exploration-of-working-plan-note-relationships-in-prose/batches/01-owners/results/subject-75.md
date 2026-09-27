@@ -1,0 +1,11 @@
+- relations:
+  - 420|422|420 presupposes 422: the storm-making that fixes nitrogen depends on pegasi being able to manipulate weather through their wings|Their ability to create thunderstorms / magical muscles to manipulate the weather|implicit
+  - 1109|422|1109 relies on 422's account of how pegasi fly: the standard flight it calls wind manipulation is the air pressure, currents and thermals handling 422 states as the invariant truth|wind manipulation-based flight / manipulating air pressure, currents and thermals|implicit
+  - 420|421|420 gives nitrates from storm-fixed nitrogen, and 421 continues in time with nitrogen-based explosives (nitrocellulose, TNT, nitroglycerin) being harvested, so nitrogen chemistry links them, though 421 does not name nitrates or storms|nitrates, fertilizing the soil / harvest chemicals for munitions|implicit
+- outward:
+  - 1109|The Wings of Dew, a power or item held elsewhere that gives flight to non-pegasi creatures|Wings of Dew does not make true, talent pegasi obsolete
+  - 1109|Cutie marks and the special talents tied to them, lore held elsewhere|special talents related to their cutie marks
+  - 421|The defense of Mount Aris, an event held elsewhere|After the defense of Mount Aris
+  - 421|The Aquileian volunteers and the Wonderbolts, groups and characters held elsewhere|the Aquileian volunteers teach the Wonderbolts
+  - 420|The real-world Haber-Bosch process, which is outside the story world|original, natural haber bosch process
+- whole: The notes share a subject but are mostly separate entries: 422 grounds 420 and 1109 in a loose way, and 421 touches the rest only through nitrogen chemistry.

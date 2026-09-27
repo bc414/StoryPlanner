@@ -1,0 +1,6 @@
+- sources:
+  - what we have established (character and bond have 8 tracks, plus two conditional on POV for character, the rest have 6) | treat as settled premise for the re-evaluation | Now that we have established that character and bond have 8 tracks | referred-to
+  - the transcripts | draw on fully, taking in all insights and the history of deliberation when analyzing | Take in all insights and history of deliberation from the transcripts | referred-to
+  - the journal file | draw on together with the transcripts, taking in its insights and deliberation history | from the transcripts and journal file when analyzing | referred-to
+- order:
+- about: The user asks the model to re-evaluate the Subject Tracks/Project-Wide Tracks in light of the newly settled track counts, using the transcripts and journal, and to say what belongs for typical subject types, then bond, then character.

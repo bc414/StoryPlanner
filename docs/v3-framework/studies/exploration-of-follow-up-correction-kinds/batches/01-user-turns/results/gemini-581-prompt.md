@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Severyana and Stalliongrad as two separate polities, with Stalliongrad advisors intervening in and exporting revolution to Severyana. In the user's world Severyana is the region and the old name, and Stalliongrad is its new name after its own communist revolution, so they are the same place. | "Severyana is Stalliongrad" and the explanation of the old and new names | Flat, stated as a clarification, with a short explanation of the naming and history
+- about: The user is stepping in to fix a basic world-building misunderstanding, telling the model that Severyana and Stalliongrad are one place before the discussion continues.

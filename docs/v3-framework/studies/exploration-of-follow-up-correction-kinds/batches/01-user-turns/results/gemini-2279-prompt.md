@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's sourcing question with an earth-pony fertilizer-magic supply of phosphorus, then sets a new direction: Changelings as a swarm of WW2-style fighters and Wonderbolts as elite aces with post-WW2 (Raptor-like) inspiration, with magic bridging the tech gap, and asks for ideas.

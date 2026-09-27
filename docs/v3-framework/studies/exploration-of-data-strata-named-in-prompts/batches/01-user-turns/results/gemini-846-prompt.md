@@ -1,0 +1,4 @@
+- sources:
+  - my plans for the Pokemon story | weight: treat as the material to be analyzed, drawn on for a literary analysis of its themes | marks it: "a literary analysis of my plans for the Pokemon story and kind of themes it entails" | referred-to
+- order:
+- about: The user asks the model to produce a literary analysis of the themes embedded in their existing plans for the Pokemon story.

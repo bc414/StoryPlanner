@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their own intended timing (Rarity and Flowing Current at the negotiations from the start, alongside the Aquileian-aligned tribes) and asks whether that works or whether they should arrive only for the drug tribes, worried that early arrival would undercut Applejack's naive deconstruction.

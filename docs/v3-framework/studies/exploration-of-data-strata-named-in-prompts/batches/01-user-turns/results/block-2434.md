@@ -1,0 +1,8 @@
+- sources:
+  - The author's belief that flower wars existed alongside monster hunting as training for young warriors | offered as the author's own premise that replaces the earlier derivation of flower wars as a post-monster adaptation | I believe the flower wars would have existed along side monster hunting | first-named
+  - The new present-day revision (traditionalists revive flower wars after 993 against griffon incursion, Mali's departure recast, drug tribes shut out, medicinal tribes turn to Aquileian globalism) | provisional proposal, framed as a thought rather than settled; to be analysed as a new ontology | Perhaps Mali left; I'm thinking a new revision; new ontology | first-named
+  - previous assertions | to be checked against the new ontology and marked as invalid where they conflict | what previous assertions are invalid now | referred-to
+  - real world colonial history (the Zulu, Vietnam, others) | draw on for parallels to the new setup | are there any real world parallels in colonial history? Perhaps the Zulu or Vietnam? | first-named
+- order:
+  - The new present-day revision and the author's flower-war belief over previous assertions | asks which previous assertions are invalid now
+- about: The user revises the flower-war origins and the present-day tribal politics, then asks the model to analyse the new ontology, say which earlier claims it invalidates, and offer real-world colonial parallels.

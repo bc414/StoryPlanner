@@ -1,0 +1,4 @@
+- sources:
+  - Plan export attached (121,820 words) | handed to the model as material, with no instruction on how to treat or weigh it | Plan export attached — 121,820 words, 0 chars | first-named
+- order:
+- about: The user turn only attaches a plan export, with no written instruction, and does not respond to the model's Brightspeed answer.

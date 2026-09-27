@@ -1,0 +1,7 @@
+- sources:
+  - the exact Morning Brew article from this morning (linked) | check the model's account of it against the actual article | for cross checking | referred-to
+  - my story's arc, Changelings invading the nursery to Aquileian saviors to a synthesis | treat as settled: the story is calibrated to target the professional class, not the manosphere or the masses | My story's target for the thesis isn't the manosphere or the masses, it's the professional class | referred-to
+  - my authorial position, reconciling the professional class's failure in the 2024 election | treat as true, the author's own stated vantage point and motive for the story | My authorial position comes from someone trying to reconcile | first-named
+  - the model's general knowledge about manosphere people, Hoi4 and former bronies | draw on it to verify or correct the user's hunch, which is offered as an unchecked impression | I don't think many manosphere people play a strategic war game like Hoi4, is this true? | first-named
+- order:
+- about: The user supplies the actual Morning Brew article so the model's account can be checked, states that the story is aimed at the professional class from an author's post-2024-election vantage point, and asks the model to confirm whether manosphere people play strategy games like Hoi4 and whether some are former bronies.

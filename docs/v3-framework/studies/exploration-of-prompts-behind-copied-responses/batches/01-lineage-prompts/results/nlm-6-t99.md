@@ -1,0 +1,12 @@
+- asks:
+  - analyse | dive into and analyze the details of part 3 of Coltbert's Game, focused on the Aquileian Lionesses and the reforming of the thugs, in light of the new refinements just added | "please dive in and analyze the details of part 3 of Coltbert's Game featuring the Aquileian Lionesses and reforming the thugs, given the new refinements"
+  - synthesise | combine the user's original brainstorming about this phase of the story with the newly added details into a unified account | "please synthesize my original brainstorming about this phase with my new details"
+- supplies:
+  - prior-topic recap, in message | a listing of world-building material the user says they have already detailed: Aquileia's history, the Coltbert Reforms, PNdA revitalization mechanics, part 2 of Coltbert's Game, the cultural revolution via the chasseurs and academy of compagnons, and the lion/eagle Herzlander-vs-Aquileian clarification | a few sentences
+  - attached content, placeholder | an html div fragment cut off after 'class="', indicating an attachment or embedded element whose content was not captured | placeholder, length unknown
+- shaping:
+  - asks for analysis specifically of 'part 3 of Coltbert's Game' centered on the Aquileian Lionesses and the reforming of the thugs | "analyze the details of part 3 of Coltbert's Game featuring the Aquileian Lionesses and reforming the thugs"
+  - asks that the analysis take into account the refinements just discussed | "given the new refinements"
+  - asks that the output merge the user's earlier brainstorming on this phase with the newly supplied details rather than treat them separately | "synthesize my original brainstorming about this phase with my new details"
+- openness: Leans toward an answer it names: it directs the model to analyze and synthesize a specific named phase (part 3 of Coltbert's Game, the Aquileian Lionesses, reforming the thugs) using named prior material, without specifying particular conclusions to reach.
+- subject: Part 3 of Coltbert's Game in the Aquileia fictional world-building project, involving the Aquileian Lionesses and the reform of the thugs

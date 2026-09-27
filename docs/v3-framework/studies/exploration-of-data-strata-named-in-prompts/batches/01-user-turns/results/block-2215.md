@@ -1,0 +1,10 @@
+- sources:
+  - the World truth that the Stagnation of Harmony was 1000 years long and enforced by Celestia since Luna's banishment | displaced old world truth; no longer true, kept in the plan as reader prior belief and character assumption, a misdirection target to be shattered at a later climax | for months I operated under the World truth | first-named
+  - stagnation of harmony beginning only 80 years before the story starts, as a response to industrialization | current world truth that replaced the 1000-year version; what the climax reveals | decided the stagnation of harmony began only 80 years before | first-named
+  - the v2 story planner's dedicated note tracks for reader prior beliefs and updates | the place where displaced ideas are kept, linked to the themes the updates serve as evidence for | dedicated note tracks for reader prior beliefs and updates | first-named
+  - my early worldbuilding ideas, including the bombing of Vesalipolis from the foundational first session with Gemini | earlier ideas that were revised away; treated as stand-ins for what other readers would assume, so kept as priors to subvert | early worldbuilding ideas are reflective of what other readers would think | first-named
+  - materialist historical logic and the Hasbro vs Faust meta narrative insights | the reasoning that grounded the foundation change to the 80-year account | applied materialist historical logic and the Hasbro vs Faust meta narrative insights | first-named
+- order:
+  - 80-year stagnation account over the 1000-year assumption | the 1000-year assumption is displaced and appears only as character assumption until the truth is revealed
+  - world truth over reader prior belief | old things become reader prior belief instead of world truth
+- about: The user explains that displaced early ideas stay in his plan as reader prior beliefs and misdirection targets rather than world truth, tracked in dedicated notes in his v2 planner, and asks the model to analyze this methodology.

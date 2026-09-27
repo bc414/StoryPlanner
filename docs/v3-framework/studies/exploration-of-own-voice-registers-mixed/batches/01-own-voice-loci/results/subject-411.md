@@ -1,0 +1,24 @@
+- passages:
+  - note 38 | generalizing thesis statement | declarative claims contrasting "evil creatures"/"good creatures", "neither inherently good nor evil" | industry as a morally neutral accelerant | apart
+  - note 38 | real-world equivalence gloss | explicit naming "real world, present-day equivalent is AI" | mapping the fictional principle onto AI | apart
+  - note 39 | formal propositional statement | "The proposition form would be", terms "moral valence", "accelerant technology" | governing structures, not the tech itself, set its moral valence | apart
+  - note 4024 | artifact/symbol exposition | names the object, "symbol of this", "poster product" | the Luna Nova Rifle as emblem of industry-plus-magic used for good | apart
+  - note 4037 | narrative recount | names "Henri", past tense "perceived", "arrives", "discovers" | Henri's shifting perception of the Universal Translator | apart
+  - note 4037 | generalizing thesis statement | "could have been used ... but it was actually used to" contrastive pattern | the translator's benevolent actual use versus its possible misuse | apart
+  - note 4095 | evaluative history narration | value-laden phrases "marvelous breakthrough", "most evil purpose imaginable", "reclaimed ... for justice" | the Love Harvester's arc from breakthrough to atrocity to reclamation | apart
+  - note 4095 | compressed schematic trace | shorthand "goes from X to Y to Z", "+" symbol | staged transformation of the technology summarized tersely | apart
+  - note 4178 | authorial meta-commentary | "An idealistic commentary of", parenthetical "(cynical reading of the)" | the story as commentary on globalization versus its real-world handling | apart
+  - note 4268 | worldbuilding declarative | plain statements about "griffon" and "the Republic" | industrialization's effect on ambition and the Republic's regulating role | apart
+  - note 4346 | generalizing thesis statement | contrastive "brought ... but it also provides", named element "hives", term "predator's dilemma" | industry's dual effect on the hives, tyranny and cure | apart
+  - note 4346 | aphoristic maxim | lower-case opening, parenthetical gloss "(Morality)", short gnomic phrasing | intent/morality as what defines the machine | apart
+  - note 4390 | parallel schematic comparison | repeated template "X equates A with B, but Y decoupled A from B and attached it to C", named pairs Celestia/Coltbert and Henri/Kemerskai | industry decoupled from tyranny, posture decoupled from propaganda | apart
+  - note 4390 | explanatory narrative aside | short causal clause "It took the new universal translator for Henri to understand" | how Henri came to grasp the decoupling | apart
+  - note 5726 | generalizing thesis statement | "Industry is not evil it is a tool", "However, it is a tool that allows" | industry as neutral tool that removes need for neighbors | apart
+- shifts:
+  - note 38 | generalizing thesis statement | real-world equivalence gloss | explicit naming of "the real world" and "AI" as a direct analogy, breaking from the general fictional claim
+  - note 4037 | narrative recount | generalizing thesis statement | drops the named character and past-tense event for an abstract "could have been ... but was actually" contrast
+  - note 4095 | evaluative history narration | compressed schematic trace | switches from value-laden narrating phrases to a terse "X to Y to Z" list joined by "+"
+  - note 4346 | generalizing thesis statement | aphoristic maxim | a blank-line break drops into a lower-case gnomic phrase with a parenthetical gloss
+  - note 4390 | parallel schematic comparison | explanatory narrative aside | leaves the repeated equates/decoupled template for a single causal clause naming only Henri
+- registers: generalizing thesis statement; real-world equivalence gloss; formal propositional statement; artifact/symbol exposition; narrative recount; evaluative history narration; compressed schematic trace; authorial meta-commentary; worldbuilding declarative; aphoristic maxim; parallel schematic comparison; explanatory narrative aside
+- whole: These notes are written in several distinct registers—abstract thesis, formal proposition, artifact exposition, narrative recount, evaluative history, schematic shorthand, meta-commentary, worldbuilding statement, aphorism, and parallel comparison—and even where a single note moves between two of them the passages stand apart at a sentence or line break rather than blending within one sentence.

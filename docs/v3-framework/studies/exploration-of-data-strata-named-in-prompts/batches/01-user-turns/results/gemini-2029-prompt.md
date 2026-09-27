@@ -1,0 +1,6 @@
+- sources:
+  - phase 2 (multiple bucket placement, only one per paradigm) | treat as the settled current design; the model is to reanalyze phase 0 in light of it, and the user asks it to confirm the one-per-paradigm rule | "Now that we have phase 2 allowing multiple bucket placement" | referred-to
+  - the system prompt of phase 0 | the text to be reanalyzed; the model is to point out changes or improvements and give reasons | "please reanalyze the system prompt of phase 0" | first-named
+  - the provided notes | material the phase 0 prompt tells its AI to analyze to design sorting methodologies, without sorting the verbatim text yet | "Analyze the provided notes" | referred-to
+- order:
+- about: The user asks the model to confirm the one-bucket-per-paradigm rule of the phase 2 multi-placement design and then critique and improve the pasted phase 0 system prompt in light of it.

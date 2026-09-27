@@ -1,0 +1,22 @@
+- steps:
+  - author | corrects | narrows the pride/ownership-magic rule to earth ponies only, distinguishing them from skill-based races | in the sole prompt
+  - author | supplies | Fleur Bloom character bio | in the sole prompt
+  - author | explains mechanism | sediment/chemistry theory casting earth pony magic as a fertilizer catalyst | in the sole prompt
+  - author | rejects | the 'low pride = low magic' framing for changeling conscripts and griffon serfs, reattributing their weakness to training/opportunity instead | in the sole prompt
+  - author | narrows | the trench-digging thematic payoff to earth-pony-specific entrenchment speed, not a general morale rule | in the sole prompt
+  - author | invalidates | the earlier idea that dropping war support weakens magic, given the slow non-immediate nature just established; asks for a technical term | in the sole prompt
+  - author | locates | the Applejack/Comet Shine opening dialogue within chapter 2 | in the sole prompt
+  - author | generalizes | 'Freedom creates Power' as both a broad theme and a literal earth-pony-specific mechanism | in the sole prompt
+  - author | requests | a revised statement of themes, connections, and bedrock, with examples of where else it can appear | end of the sole prompt
+  - model | returns | a revised terminology for earth pony magic as a slow catalytic process distinct from active magic | in the response
+  - model | extends | a political/strategic implication linking serfdom to famine risk | in the response
+  - model | maps | the sediment mechanism onto the trench-digging/entrenchment game mechanic | in the response
+  - model | assigns role | Fleur Bloom as the figure bridging scientific and political framing, with an illustrative exchange with Twilight | in the response
+  - model | reworks scene | the chapter 2 Comet Shine/Applejack dialogue to contrast predatory and symbiotic technology, drafting a line for Comet Shine | in the response
+  - model | unifies theme | 'Freedom creates Power' across the three pony types and drafts an Applejack line for a later debate scene | in the response
+- kept:
+  - note 8 | the author's own words in this record | keeps the Fleur Bloom bio verbatim, filed under her own Subject entry
+  - note 5515 | the author's own words in this record | keeps the sediment/fertilizer explanation of earth pony magic verbatim, filed under the Earth Pony Magic subject
+  - note 4485 | pasted whole from this reply | keeps the model's Fleur-Bloom-as-moral-economy passage verbatim, filed under a new Unified Theory of Magic subject
+- brought: The author brought a set of corrections to a previously established pride/magic framework along with a new character bio for Fleur Bloom, asking the model to revise its understanding accordingly.
+- loop: The author supplies canon facts (a bio, a mechanism) and corrects the model's overgeneralized rules, and the database stores the author's factual material verbatim under its own subjects while storing only the model's synthesized thematic payoff under a broader unified-theory subject.

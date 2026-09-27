@@ -1,0 +1,5 @@
+- sources:
+  - Verdun in WW1, WW2 and today | real-world history the model is asked to draw on as an analogue for what a fortress served, then and now | What did Verdun serve in WW1 and WW2 and what would it serve today? | first-named
+  - the model's general knowledge of what a historical medieval-era fortress serves in a WW2 setting | asked to supply from general knowledge to judge whether the ruined fortress works as a backdrop | What would a historical medieval-era fortress serve in a WW2 setting? | first-named
+- order:
+- about: The author describes their imagined staging of the battle on the plains around a destroyed fortress with the surrender dialogue held on the ground, and asks the model to explain the fortress's role by way of Verdun's history.

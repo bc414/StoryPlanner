@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the Stalliongrad wiki page and asks the model to tie its lore (origins, actual government) to the story's themes, adding that Stalliongrad will ally with Equestria against the changelings in a costly Eastern Front-style total war, which is a new request and new plot detail rather than a challenge to the earlier critique.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's breakdown, which ends by framing AJ as an heiress to an industrial empire, and asks as an open question whether that clashes with her everymare status and imposter syndrome, asking for the conflict to be resolved without changing existing themes.

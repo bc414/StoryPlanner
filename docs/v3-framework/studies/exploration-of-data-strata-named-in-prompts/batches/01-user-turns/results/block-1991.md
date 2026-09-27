@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts that Twilight Velvet and Night Light should be separate subjects because their backstories differ, and asks whether their own practice of keeping Applejack's parents Bright Mac and Pear Butter in one subject makes sense.

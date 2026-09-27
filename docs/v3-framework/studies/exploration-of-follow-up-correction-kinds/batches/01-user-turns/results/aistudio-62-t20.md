@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user revises their own early plan (the total encirclement) to fit the materialist worldbuilding, proposes a doctrine-contrast version with Vanhoover civilians and Luna's dream-torment, and asks for an analysis of it and of which existing plans need adjusting, without faulting the model's analysis.

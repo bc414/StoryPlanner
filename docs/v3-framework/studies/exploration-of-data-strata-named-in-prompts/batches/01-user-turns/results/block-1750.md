@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks, in a short follow-up question, whether the same faction-mapping applied to the MAGA movement can be applied to the American Left, without pointing at any body of material to draw on or avoid.

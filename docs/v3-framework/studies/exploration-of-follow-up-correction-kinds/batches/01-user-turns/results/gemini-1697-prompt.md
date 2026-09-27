@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user opens or continues with a fresh request asking for a narrative and literary analysis of the story plan, with no prior model response to react to.

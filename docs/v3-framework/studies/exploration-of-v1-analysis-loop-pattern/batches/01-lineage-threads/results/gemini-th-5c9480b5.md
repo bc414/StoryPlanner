@@ -1,0 +1,6 @@
+- steps:
+  - the author | brings the working plan | full plan export attached as a document, no accompanying text of its own | opening move of the exchange
+  - the model | analyzes a craft choice | argues why keeping the antagonist unseen and voiceless suits the story's themes, weighs pros and risks, offers mitigations, and closes with a verdict | single response covering the whole exchange
+- kept:
+- brought: The author brought the entire plan document as an attachment, with no visible prompt text of their own, letting the model infer and address the underlying question about a structural choice already reflected in the plan.
+- loop: The author supplies the whole plan for review, the model returns a validating thematic analysis of one existing structural choice, and none of that exchange is recorded back into the plan in this stretch.

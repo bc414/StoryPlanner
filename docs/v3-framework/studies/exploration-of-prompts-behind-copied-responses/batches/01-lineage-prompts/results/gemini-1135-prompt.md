@@ -1,0 +1,6 @@
+- asks:
+  - compare | identify which ideas from the original planning document are still present in the later JSON of story plans | "Which ideas from my original planning document still exist in my elaborate json of story plans?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a general comparative question without naming any specific ideas or documents' contents, or leaning toward a particular answer.
+- subject: Tracing which ideas from an earlier planning document persist into a later, more elaborate JSON version of the story plans

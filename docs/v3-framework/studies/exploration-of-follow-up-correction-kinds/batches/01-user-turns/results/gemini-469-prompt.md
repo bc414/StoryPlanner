@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, having accepted the advice to include the axes in the JSON, asks a follow-up about whether to send their own custom enum wording or the standard academic terms, and whether the legend should say how the values map to the academic concepts.

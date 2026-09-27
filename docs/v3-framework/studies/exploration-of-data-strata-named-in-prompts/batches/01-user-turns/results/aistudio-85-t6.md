@@ -1,0 +1,6 @@
+- sources:
+  - the changeling love harvesters as crudely stamped, inefficient spell matrices (the existing premise) | treated as a provisional premise the author wants to revise: the 1011 harvesters are efficient, and the inefficiency comes from bad inputs | What if the changeling love harvesters are NOT crudely stamped and inefficient spell matrices? | referred-to
+  - the 986 original love harvesters as crudely stamped crystals | kept as the established starting point of the timeline, from which the 1011 tech has since advanced | Back in 986, the original love harvesters were crudely stamped crystals | referred-to
+  - Hans Kessel getting demoted to a drugged combat engineer (existing plot point) | keeps the outcome but replaces its cause: obsolescence and burnout, not incompetence | Hans Kessel getting demoted to a drugged combat engineer is not because he was incompetent | referred-to
+- order:
+- about: The author proposes revising the plan so changeling love-harvesting tech is efficient and only its inputs are poor, and then reworks Hans Kessel's demotion to fit.

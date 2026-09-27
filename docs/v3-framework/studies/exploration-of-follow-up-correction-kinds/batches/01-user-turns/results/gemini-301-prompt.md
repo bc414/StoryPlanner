@@ -1,0 +1,9 @@
+- corrects: yes
+- corrections:
+  - own name: judgment of the term's fit | the model's verdict that 'Poser' is tonally weak and better replaced, which the user rejects and keeps the word | 'Poser still seems right to me'; 'Poser is very distinct' | flat disagreement, with a short reason about distinctiveness
+  - own name: judgment of the term's fit | the model's suggestion of Fraud and Charlatan as stronger alternatives, rejected as too plain | 'too simple and common' | flat rejection with a brief reason
+  - own name: judgment of the term's fit | the model's claim that Pretender fits the setting perfectly, rejected as too wordy and tied to nobility | 'too wordy and specific to nobility' | flat rejection with a brief reason
+  - register or format | Hollow offered as a noun-form insult, when the user needs a noun that works in the phrase 'they are posers' | 'doesn't sound good as a noun; it sounds like an adjective' | flat objection, with the user's target phrasing given as the reason
+  - reading of the request | the model's modern-internet terms (Larper) are outside the in-universe setting and break immersion, contrary to what the user wanted from the wording | 'doesn't make sense in-universe and breaks immersion' | flat, reasoned rejection
+  - own name: judgment of the term's fit | Grifter and Gaslighter offered as modern-audience terms, rejected as too narrow | 'too specific' | brief flat dismissal, in passing
+- about: The user goes through the model's alternatives one by one, rejects each with a short reason, insists on keeping 'Poser', and asks two new questions about skater reaction and British versus American usage.

@@ -1,0 +1,6 @@
+- sources:
+  - that part of v1 archive (Réni leaving Vinovia to join Verany's republic, finding them poseur hustlers, returning humiliated) | read and review it, only if not already in context, and base the new reanalysis on it | Review that part of v1 archive if not already in context | referred-to
+  - the model's preceding analysis (Réni's father being beaten as his core wound) | treat as interesting and significant but not the true core wound; to be reanalysed | Réni witnessing his father is interesting and significant but I think his true core wound | referred-to
+  - the author's own view of Réni's true core wound (leaving Vinovia, Verany's republic, humiliated return) | treat as the corrected premise for the reanalysis | I think his true core wound is when he left Vinovia | first-named
+- order:
+- about: The user corrects the model's account of Réni's core wound, saying it is his humiliating disillusionment with Verany's republic rather than his father's beating, and asks the model to review the v1 archive on that part if it is not already in context and give a reanalysis.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a hypothetical post-scarcity policy of paying parents pensions to raise children full time for years, funded by redistribution from elites, and asks whether that would be the solution to the opportunity cost of parenthood, without pointing the model at any body of material.

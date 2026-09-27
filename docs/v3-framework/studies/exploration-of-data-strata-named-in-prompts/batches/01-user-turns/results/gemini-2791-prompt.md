@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes an additional worldbuilding rationale, that the weathering spell matrix was not useful pre-war because Haber-Bosch fertilizer already existed, and that post-war it gives farmers in desolate lands their own means of production, without pointing the model at any body of material.

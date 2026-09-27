@@ -1,0 +1,9 @@
+- asks:
+  - analyse | assess what narrative impact reading the prequels after the main story would have on readers who already know the main story's outcome | "What would the narrative impact... have if the readers sort of know the outcome"
+  - choose | decide between two named possibilities for how the prequels' function shifts: moving away from establishing themes toward deepening them, versus simply being good entertainment | "Does it shift away from establishing themes to diving deep into them? Or it's just good entertainment?"
+  - explain | describe more generally how story elements change or land differently when the reader already knows the outcome | "How do things shift when the outcome is known like this?"
+  - identify | name whether there is an established term for this phenomenon (reader foreknowledge of outcome affecting narrative experience) | "Is there a term for this phenomenon?"
+- supplies:
+- shaping:
+- openness: Mostly open-ended discussion, but one question narrows to a choice between two named alternatives (theme-deepening vs. mere entertainment), and one question asks for a specific factual answer (the term for the phenomenon).
+- subject: Narrative effect of reading prequels after the main story when the reader already knows the outcome, and whether this effect has a name

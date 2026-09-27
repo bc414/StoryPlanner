@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user revises their own idea about which pony race's magic would produce gunpowder, concluding that pegasi rather than earth ponies fit, without pointing the model at any body of material.

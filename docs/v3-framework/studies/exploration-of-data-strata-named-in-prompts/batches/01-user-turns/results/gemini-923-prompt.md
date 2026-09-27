@@ -1,0 +1,4 @@
+- sources:
+  - the history of America | check the story's premise against it: the model is asked whether parents leaving three children with a grandmother while they live in the city as tycoons has a real precedent | Is this a thing in the history of America? | referred-to
+- order:
+- about: The user asks the model to judge whether the proposed backstory of Applejack's parents, who left their three kids with Granny to live in Manehattan as tycoons, is plausible and has real American historical precedent.

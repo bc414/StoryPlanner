@@ -1,0 +1,6 @@
+- sources:
+  - Original version in which Twilight invents the spell matrices | treated as superseded; the author dropped it in favour of the revised version | I originally had Twilight invent the spell matrices | referred-to
+  - Revised pre-war account of Aquileian magical engineering (spell matrices as an established science/art, energy source as bottleneck, griffon flow stabilizers, T1/T2 bootstrapping, Diamond Mountain crystals) | current design, to be taken as the settled basis for the requested analysis | decided that moving it up to a known science/art | first-named
+- order:
+  - Revised pre-war account (matrices as a known science/art) over original version (Twilight invents them) | author says the change is more realistic and decided on it
+- about: The user asks for an analysis of pre-war Aquileian magical engineering scaling, replacing an earlier version of the plan with a revised one and laying out the griffon-unicorn bootstrapping process in detail for the model to analyze.

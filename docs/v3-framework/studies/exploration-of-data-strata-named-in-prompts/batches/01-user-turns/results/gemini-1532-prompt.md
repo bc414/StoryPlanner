@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a story detail to the model's analysis, saying the FJA are also Coltbert's students and hold the real value, meaning productive capacity, without pointing at any body of material for the model to use or avoid.

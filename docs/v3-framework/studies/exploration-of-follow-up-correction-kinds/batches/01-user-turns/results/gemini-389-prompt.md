@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the mechanics of the Aquileia–Skyfall trade, namely whether governments or private corporations conduct it on each side, without disputing anything the model said.

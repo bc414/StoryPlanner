@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting the model to relate OpenStreetMap to the platform and non-extractive-model discussion and to add anything else relevant, without challenging anything the model said.

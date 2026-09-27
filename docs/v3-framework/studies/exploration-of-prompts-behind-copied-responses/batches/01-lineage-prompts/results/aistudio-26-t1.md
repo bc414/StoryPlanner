@@ -1,0 +1,15 @@
+- asks:
+  - validate | asks whether it makes sense for changelings to have crude, pre-industrial methods of storing love so that Chrysalis has a foundation to build on | "Should changelings have crude ways of storing love before industrialization? I guess so"
+  - brainstorm/design | asks how such a primitive storage method could be natural to changeling biology or environment, in the same way a named drug is natural to its jungle setting | "How can it be natural to their environment or biology, the way the Tzinacatl drug is natural to the jungle?"
+  - brainstorm/design | asks for something environment-specific to swamps or frozen forests, distinct from the crystal-based method already tied to windigo magic | "there should be something that makes sense for the swamps/frozen forests"
+  - constraint/inspiration | asks that the answer draw on official My Little Pony: Friendship is Magic lore | "Also draw inspiration from canon FiM"
+  - explain/design | asks how the industrialized version, a love canister, would function | "How would the industrial love canister work"
+  - design | asks what the primitive, natural, biological basis underlying that industrial device would be | "what would be the primative/natural/biological basis?"
+- supplies:
+  - attached document | referenced worldbuilding/planning material accompanying the question, content not captured | unspecified length, placeholder only
+- shaping:
+  - draw on canon Friendship is Magic material rather than inventing wholly unrelated lore | "draw inspiration from canon FiM"
+  - the biological/environmental basis should fit swamp or frozen-forest settings, in contrast to the already-established crystal/windigo-magic method | "something that makes sense for the swamps/frozen forests"
+  - the new mechanism should parallel how the Tzinacatl drug is naturally tied to its jungle environment | "the way the Tzinacatl drug is natural to the jungle"
+- openness: Leans toward yes on whether changelings should have a crude pre-industrial love-storage method (the user already states "I guess so"), but leaves the actual biological/environmental mechanism and the workings of the industrial love canister fully open for invention, only bounded by the named analogies (Tzinacatl drug, windigo crystals) and canon FiM inspiration.
+- subject: Designing a biologically/environmentally grounded, canon-inspired precursor to Chrysalis's industrial love-storage canister for changelings

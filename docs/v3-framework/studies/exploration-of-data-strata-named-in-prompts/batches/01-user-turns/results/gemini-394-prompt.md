@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend the previous comparison of real-world war economies by covering Germany, Japan and Italy in WW2 and Germany and Austria in WW1, without pointing at any particular body of material to use or avoid.

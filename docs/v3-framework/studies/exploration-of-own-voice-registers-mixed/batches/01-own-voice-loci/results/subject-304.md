@@ -1,0 +1,15 @@
+- passages:
+  - 5342 | narrative-summary | third-person present-tense plot statement | Chrysalis announcing the Second Leap Forward's mechanics and Queen's Tower | run-in
+  - 5342 | continuity-check aside | parenthesis with abbreviation citing outside canon | noting the birth date matches P&K lore | run-in
+  - 5342 | narrative-summary | plot clause resuming after the parenthesis closes | the tower enveloping the old hive's spire | run-in
+  - 5344 | analytical-explanatory | causal "because...also" clauses, present tense | why rifles/artillery are profitable and tanks/planes inefficient | apart
+  - 5344 | prescriptive-planning | modal "has to" stating a required course | pivoting rifle factories to tanks and planes | apart
+  - 5344 | terse-fragmentary-addendum | subject-dropped sentence opening with "Also" | shifting haber-bosch agriculture to ammunition | apart
+  - 5346 | narrative-summary | third-person present-tense plot statement | Chrysalis selling off depreciating assets in Skyfall | apart
+- shifts:
+  - 5342 | narrative-summary | continuity-check aside | parenthesis opens with abbreviation "P&K lore"
+  - 5342 | continuity-check aside | narrative-summary | parenthesis closes and the plot clause "starting with..." resumes
+  - 5344 | analytical-explanatory | prescriptive-planning | causal "because" reasoning gives way to modal "has to"
+  - 5344 | prescriptive-planning | terse-fragmentary-addendum | subject dropped, sentence opens with "Also"
+- registers: narrative-summary; continuity-check aside; analytical-explanatory; prescriptive-planning; terse-fragmentary-addendum
+- whole: This item holds several registers: plain narrative-summary statements stand apart on their own in notes 5342 and 5346, note 5342 also folds a continuity-check aside into its single sentence with no break, and note 5344 moves sentence by sentence, each a clear break, from analytical-explanatory reasoning to prescriptive-planning to a terse fragmentary addendum.

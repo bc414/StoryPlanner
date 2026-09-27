@@ -1,0 +1,6 @@
+- asks:
+  - explain | give an account of who Andrew Carnegie was | "tell me about Andrew Carnegie"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open, naming only the subject "Andrew Carnegie" with no further constraint on scope, angle, or length.
+- subject: Andrew Carnegie (historical figure)

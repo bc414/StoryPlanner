@@ -1,0 +1,19 @@
+- steps:
+  - the author | supplies material | an attached document (uncaptured), presented without commentary | first turn of the exchange
+  - the author | supplies material | a second attached document (uncaptured), presented without commentary | second turn
+  - the author | supplies material | a third attached document (uncaptured), presented without commentary | third turn
+  - the author | supplies material | a fourth attached document (uncaptured), presented without commentary | fourth turn
+  - the author | describes the system | lays out the database's entity types, how entity windows were meant to be used, and screenshots of the app's views | opening of the fifth turn
+  - the author | flags a complication | notes that notes on single big topics currently mix several different kinds of content within one entity | fifth turn, after the system description
+  - the author | gives worked examples | points to specific entities (a character, a codex entry, a story thread) whose notes overlap or sit in the wrong category | fifth turn, mid-message
+  - the author | flags a scope shift | explains that the database was designed for one story but the fabula has grown into a main story plus several planned prequel-sequels with a narrow POV scope | fifth turn, continuing
+  - the author | poses the central question | asks how to organize the fabula for writing the syuzhet, using a named craft-reference as a guideline and citing an epistemological split between world-truth and character-perception as a genre-specific concern | fifth turn, continuing
+  - the author | sets the response format | requests a problem statement, a comparison to professional practice, a reorganization recommendation, and other nuances, and instructs thorough reading and checked reasoning | end of fifth turn
+  - the model | diagnoses the problem | names the issue as conflating an encyclopedia-style structure with a narrative-function structure, and distinguishes a world-truth map from a character-perception map | opening of the model's reply
+  - the model | proposes a framework | assigns each database entity type to a single orthogonal narrative function with a rule for what belongs in it | early-to-mid reply
+  - the model | applies the framework | restructures the cited big-topic example across the proposed entity types as a worked demonstration | mid reply
+  - the model | adds further craft mechanisms | describes three additional structural techniques tied to specific database fields, for withheld backstory, dual-perspective justification, and elimination of alternatives | later reply
+  - the model | poses follow-up questions | asks two open questions about how a specific in-world mechanism handles a rhetorical case, and how a historical parallel constrains the antagonist's economic timeline | close of the model's reply
+- kept:
+- brought: The author brought a description of the story planner's current entity architecture and organizational problems, worked examples of mismatched notes, and a scope change from single-story to main-story-plus-prequels, framed as a single organizational question for the model to address using a named craft reference plus genre-specific concerns.
+- loop: The author brought a live organizational problem in the planning database, with concrete examples and constraints, and the model returned a diagnostic framework, a reorganization scheme, a worked example, and further craft mechanisms plus open questions; nothing from this exchange was traced back into the planning database, so the loop closes with analysis returned but not yet folded into the plan.

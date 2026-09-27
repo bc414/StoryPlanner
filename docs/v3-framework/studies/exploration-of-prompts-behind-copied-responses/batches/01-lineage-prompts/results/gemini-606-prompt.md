@@ -1,0 +1,9 @@
+- asks:
+  - brainstorm | asks how to draw inspiration from Fluttershy's canon animal sanctuary (from two named episodes) to incorporate into the POW camp setting | "How can I draw inspiration from...to incorporate into the POW camp?"
+  - brainstorm/develop | offers a specific idea for merging the animal sanctuary and the POW camp (changelings tending distressed/displaced war-front animals to build empathy, explaining why Fluttershy stayed at the front) and invites the model to develop it | "Maybe I can even merge the two. Fluttershy can have the changelings learn to take care of animals..."
+  - analyse | asks how this animal-sanctuary/empathy-training concept overlaps or connects with Fluttershy's separate role as spymaster of the Cute Intelligence Agency | "how does this overlap with Fluttershy being the spy master of the Cute Intelligence Agency?"
+- supplies:
+  - idea sketch | a proposed merge concept: changelings cared for by Fluttershy learn animal caretaking to develop empathy, using displaced/distressed war-front animals as the reason she stayed at the front | a couple of sentences
+- shaping:
+- openness: Mostly open brainstorming, but leans toward an answer the message itself names: the user proposes merging the animal sanctuary with the POW camp via changelings learning empathy through animal care, and asks the model to build on and connect that idea to Fluttershy's spymaster role.
+- subject: Incorporating Fluttershy's canon animal sanctuary and her Cute Intelligence Agency spymaster role into a POW camp storyline

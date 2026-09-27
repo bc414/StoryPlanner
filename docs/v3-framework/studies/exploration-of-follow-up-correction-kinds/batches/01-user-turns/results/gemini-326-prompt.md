@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's guess that the Crystal Heart and Princess Amore are the origin of the love-harvesting technology; the user's intended origin is Chrysalis's love harvester | the answer I had in mind is actually better: Chrysalis invented it | mild and courteous: praises the guess and says it can still be used, then replaces it with their own answer, put as a plain assertion with no argument
+- about: The user politely sets aside the model's guess at the puzzle's answer, keeps the Crystal Heart as a possible extra, and names Chrysalis's love harvester as the intended origin.

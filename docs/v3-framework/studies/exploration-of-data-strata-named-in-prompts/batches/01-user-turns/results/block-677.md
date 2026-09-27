@@ -1,0 +1,7 @@
+- sources:
+  - earlier parts of this conversation about understanding and setting up the new framework (its assertions and fields) | to be audited for an assumption of strict internal focalization and re-evaluated, not taken as settled | Did the earlier parts of this conversation ... assume strict internal focalization, and if so, how can we re-evaluate the assertions and fields made | referred-to
+  - my instinctive, messy raw capture (the trench scene and the can scene plans) | treat as the author's existing intent: it already planned internal focalization, external via paralipsis, and variable focalization across characters | I already had in mind a plan to utilize both internal focalization and external via paralipsis | referred-to
+  - Genette | use as the foundation for re-evaluating the framework; treated as the most modern and precise study, suited to a programmatic story design planner | Starting from first principles, where those first principles are from Genette | referred-to
+- order:
+  - Genette (first principles) over the earlier framework's assertions and fields in this conversation | Starting from first principles, where those first principles are from Genette
+- about: The user confirms the model's point about third-person conflation, notes their own raw plan already used internal and external focalization, and asks the model to re-evaluate the earlier framework from Genette's principles and to say whether third person's strength lies in variable focalization, paralepsis and paralipsis compared with first person and omniscient narration.

@@ -1,0 +1,10 @@
+- sources:
+  - City Hunter | material to analyse for causal, coherent fabula and character architecture, thematic proposition, and effect on the author's preferences | Give an analysis of each of the following KDramas | first-named
+  - Boys over Flowers | material to analyse for causal, coherent fabula and character architecture, thematic proposition, and effect on the author's preferences | Give an analysis of each of the following KDramas | first-named
+  - Descendants of the Sun | material to analyse for causal, coherent fabula and character architecture, thematic proposition, and effect on the author's preferences | Give an analysis of each of the following KDramas | first-named
+  - Bring it on, Ghost | material to analyse for causal, coherent fabula and character architecture, thematic proposition, and effect on the author's preferences | Give an analysis of each of the following KDramas | first-named
+  - Itaewon Class | material to analyse for causal, coherent fabula and character architecture, thematic proposition, and effect on the author's preferences | Give an analysis of each of the following KDramas | first-named
+  - Fight my Way | material to analyse for causal, coherent fabula and character architecture, thematic proposition, and effect on the author's preferences | Give an analysis of each of the following KDramas | first-named
+  - the earlier description of the viewing setting (lecture hall, friends, active commentary) | background already given, to be taken as the context in which the dramas were watched | casually in a lecture hall with active commentary as described earlier | referred-to
+- order:
+- about: The user asks the model to analyse six KDramas they watched with friends, in a stated order, for causal/coherent story architecture, thematic nature (grimdark, hopepunk or other), and their influence on the user's own preferences.

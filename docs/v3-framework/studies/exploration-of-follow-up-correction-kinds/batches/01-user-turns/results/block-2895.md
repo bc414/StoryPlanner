@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - unstated premise in the model's reasoning | The model treated every axis as binary, so a single axis could not hold the flat, permeable and impermeable distinctions. The user says a single axis with three mutually exclusive values might be legitimate. | "Maybe three axis values is legit? If they are mutually exclusive?" | tentative, put as a hedged question with a possible alternative, not stated as disagreement
+- about: The user reopens the model's conclusion that six binary axes are needed by asking whether one three-valued axis of mutually exclusive values would work, and asks for a first-principles test of when that is right.

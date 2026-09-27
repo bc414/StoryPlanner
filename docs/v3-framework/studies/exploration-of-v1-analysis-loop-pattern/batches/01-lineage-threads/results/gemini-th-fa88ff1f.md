@@ -1,0 +1,7 @@
+- steps:
+  - author | recap | pastes the three previously written part-summaries (Parts 1-3 of the story) as continuity context | opening of the single prompt
+  - author | request | asks for a detailed summary of a new file ('Scribe 4'), implicitly supplying its text via an attachment, in the same style as the prior summaries | end of the same prompt
+  - model | summary draft | produces a new structured, section-by-section summary of the events in Scribe 4, organized into numbered parts and sub-bullets matching the format of the pasted prior summaries | the entire reply
+- kept:
+- brought: The author brought forward the already-written summaries of Parts 1-3 as a template and continuity anchor, then asked for the same treatment applied to a new, uncaptured draft file (Scribe 4).
+- loop: The author supplies raw draft text plus prior summaries as a pattern and asks the model to condense the next chunk into the same format, but nothing from this exchange was traced into the planning database — the generated summary stayed in the conversation only, not recorded back into the plan.

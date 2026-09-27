@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's summary of the notebooks and asks a new follow-up question, requesting an honest comparison of NotebookLM's strengths and weaknesses against their current tools so they can judge that lineage's material.

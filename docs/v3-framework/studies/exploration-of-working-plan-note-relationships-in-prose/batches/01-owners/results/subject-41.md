@@ -1,0 +1,19 @@
+- relations:
+  - 673|668|the canon lesson of asset specificity versus the backstory spell that removes it: one gives what she learns of it, the other has her invent a means to remove it|She learns the value of asset specificity / She invented the spell to remove asset specificity|implicit
+  - 669|671|presupposition: her quarantine motive of not wanting to be a villain again depends on the earlier villainy and the rehabilitation that the canon note sets out|caught at the end of The Cutie Map ... rehabilitated on the spot / she doesn't want to be a villain again|implicit
+  - 671|1986|the appearance plan (quarantined, held back by Twilight, then wanting to fight) sets up the meta-critical subversion in which she is violent and self-aware in the war; the hesitancy is the conditioned reluctance that the other note says the story overturns|desperately wants to fight back, but now Twilight is holding her back / Starlight be violent, self aware, and nation building|implicit
+  - 669|1986|the canon-adjustment note removes the revenge-arc requirement, and the meta-criticism note builds on the reformed Starlight of the rewrite, whose post-reform conditioning it then critiques and subverts|rehabilitated on the spot ... no Hasbro Mandate requirement / post reform conditioning to be "harmonic"|implicit
+  - 673|671|her backstory rejection of assigning every griffon a seal (a fixed role) gives a ground for her reaction to the bauleiter's pitch as being a cog|rejects Aquileian philosophy of giving every griffon a seal / recognizing it as like Our Town propaganda (being a cog)|implicit
+  - 668|669|both concern the canon episode(s) she went through; the second declares The Cutie Remark not applicable, which bears on which canon episode the first can be taking its lesson from|She learns the value of asset specificity in the canon episode / TLTT has to treat The Cutie Remark as not applicable|implicit
+- outward:
+  - 673|the character Sunburst, whose leaving is the cause held elsewhere|she found it after sunburst left
+  - 673|the Communist Manifesto and the Aquileian griffon philosophy of seals, lore held elsewhere|Aquileian philosophy of giving every griffon a seal like ponies
+  - 673|combat magic and the spell for removing asset specificity, developed elsewhere|was studying combat magic / She invented the spell
+  - 671|the war, the Vanhoover defeat and the bauleiter's pitch, events of scenes held elsewhere|Equestrian Army in Vanhoover is defeated and Starlight hears the bauleiter's "mission"
+  - 671|other characters Twilight and Fizzlepop and the magical research lab|quarentines herself with Twilight and Fizzlepop
+  - 671|Our Town propaganda, another work or in-world material|recognizing it as like Our Town propaganda
+  - 668|a canon episode in which the lesson is learned|She learns the value of asset specificity in the canon episode
+  - 669|canon episodes The Cutie Map and The Cutie Remark, Double Diamond and the network's mandate|caught at the end of The Cutie Map by Double Diamond and friends / Hasbro Mandate
+  - 669|Twilight's castle and time travel worldbuilding elsewhere|time travel breaks the worldbuilding
+  - 1986|the other work P&K and its occupation|P&K suggests that Starlight didn't give her all in violence
+- whole: The notes share a subject and cluster loosely in pairs (canon rewrite, plan, meta-critique), with mostly implicit joints and the backstory note connecting only thinly to the rest.

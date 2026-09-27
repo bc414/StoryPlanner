@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up factual question about whether prompts in the regular Gemini web chat or app are used for training under an AI Pro subscription, without pointing the model at any body of material.

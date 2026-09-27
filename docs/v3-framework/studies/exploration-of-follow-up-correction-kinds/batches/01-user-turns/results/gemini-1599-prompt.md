@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn consists only of an attached plan export (153,777 words, 0 chars of text) with no prompt text, so it states nothing about the model's answer and corrects nothing.

@@ -1,0 +1,10 @@
+- steps:
+  - author | pose-alternative | asks whether Discret keeps a rigid gold standard or is talked into royal treasury notes, plus whether fractional-reserve lending backing those notes would leave him bank-run-vulnerable | opening prompt of the exchange
+  - model | mechanism-analysis | lays out the psychological pitch Coltbert would use, the fractional-reserve mechanics, the leverage/bank-run risk, a revolution-triggering collapse, and an international-trade drain that worsens the leverage | reply to the treasury-notes question
+  - author | historical-lookup | asks what the real Jean-Baptiste Colbert did for Louis XIV | second prompt, pivoting from in-story speculation to real-world research
+  - model | historical-parallel | explains real Colbert's mercantilism, state manufactories, navy-building, and empowerment of bourgeois administrators over nobles, mapping each point onto the story's Coltbert/Discret/Verany dynamic | reply to the Colbert question
+  - author | historical-lookup | asks how Mansa Musa relates to the gold standard | third prompt, another real-world research question
+  - model | historical-parallel-with-placement | explains the Cairo gold-flooding episode and its inflation lesson, maps it onto Celestia's gold-standard defense and onto Chrysalis's Red Love flood, and proposes where in specific chapters the parallel could appear with sample dialogue | reply to the Mansa Musa question, closing the excerpt
+- kept:
+- brought: The author brought established story elements (Discret, Coltbert, Verany, the gold-standard economy, Chrysalis's Red Love, the FJA/Republic conflict) from the existing plan as the anchor for two rounds of real-world historical research questions.
+- loop: The author moves from an in-fiction economic hypothesis to successive real-world historical lookups (Colbert, Mansa Musa) that the model each time folds back into parallels with the existing cast and plot beats, but none of this analysis is shown feeding into the planning database in this stretch.

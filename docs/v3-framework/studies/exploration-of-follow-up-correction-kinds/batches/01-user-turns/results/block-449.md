@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The suggested name Gilded Lily overlaps with an existing character, Gilded Trust, which the model's naming options did not account for | "Gilded Lily might get confused with Gilded Trust" | Tentative and in passing, hedged with "might" and folded into a new proposal, with no explicit complaint
+- about: The user notes a possible name clash between the model's favoured name and an existing character, then moves on to ask whether she could instead be an aunt or second cousin of the family, and wants the implications and thematic impact.

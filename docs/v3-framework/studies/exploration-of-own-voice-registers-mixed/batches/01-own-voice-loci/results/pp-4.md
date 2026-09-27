@@ -1,0 +1,27 @@
+- passages:
+  - note 96 | telegraphic topic-tag narration | third-person present tense, bare action tag | Twilight signaling she has one more thing to say | apart
+  - note 96 | telegraphic topic-tag narration | third-person present tense, describes reaction | Celestia's weary wish to be done | run-in
+  - note 96 | unmarked spoken dialogue | bare one-word question, no reporting verb | Celestia inviting Twilight to go on | run-in
+  - note 96 | unmarked spoken dialogue | first-person statement naming a subject | Twilight naming sex as the topic | apart
+  - note 96 | telegraphic topic-tag narration | third-person present-tense reaction verb | Celestia's alarmed reaction | run-in
+  - note 96 | unmarked spoken dialogue | second-person direct address, deflection | Celestia redirecting the topic to Luna | run-in
+  - note 96 | unmarked spoken dialogue | rhetorical question, accusing tone | challenge about treating biology as a chore | apart
+  - note 96 | telegraphic topic-tag narration | third-person present-tense topic label | Celestia's angry talk of serfdom and abuse | apart
+  - note 96 | telegraphic topic-tag narration | continues topic label, present tense | comparing industrialization to serfdom | apart
+  - note 96 | telegraphic topic-tag narration | subordinate reasoning fragment, present tense | reason given about sexual predation | apart
+  - note 97 | grammatical indirect-report narration | third-person report with subordinate if/that clauses | AJ questioning whether Luna is truly fine with the suppression | apart
+  - note 97 | grammatical indirect-report narration | short reporting-verb attribution | attributing the next words to Rarity | run-in
+  - note 97 | verb-fused direct address | informal endearment, direct rebuke, no subordinator | Rarity's objection on Luna's behalf | run-in
+  - note 97 | grammatical indirect-report narration | third-person report, present tense | Luna's reassurance that she is fine | apart
+  - note 97 | grammatical indirect-report narration | short reporting-verb attribution | attributing the next words to AJ | run-in
+  - note 97 | verb-fused direct address | first-person direct statement, no subordinator | AJ's stated disbelief | run-in
+- shifts:
+  - note 96 | telegraphic topic-tag narration | unmarked spoken dialogue | switch from third-person description to a bare unmarked question with no reporting verb
+  - note 96 | unmarked spoken dialogue | telegraphic topic-tag narration | return to a third-person subject-plus-verb reaction sentence
+  - note 96 | telegraphic topic-tag narration | unmarked spoken dialogue | direct second-person address follows immediately after the reaction verb
+  - note 96 | unmarked spoken dialogue | telegraphic topic-tag narration | return to a third-person reporting-verb topic label
+  - note 97 | grammatical indirect-report narration | verb-fused direct address | reporting verb followed straight into an informal first-person address with no subordinator
+  - note 97 | verb-fused direct address | grammatical indirect-report narration | return to a third-person subordinate-clause report
+  - note 97 | grammatical indirect-report narration | verb-fused direct address | reporting verb followed straight into a first-person statement with no subordinator
+- registers: telegraphic topic-tag narration; unmarked spoken dialogue; grammatical indirect-report narration; verb-fused direct address
+- whole: Across its two notes this item holds four distinct registers — clipped third-person topic-tag narration and bare unmarked dialogue in one note, fuller subordinate-clause indirect report and verb-fused direct address in the other — and in every case the shift from reporting to speaking happens inside the same line or sentence with no marked break, so the registers run into one another rather than standing apart.

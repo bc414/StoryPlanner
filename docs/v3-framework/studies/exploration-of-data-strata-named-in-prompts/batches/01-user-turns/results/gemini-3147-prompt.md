@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about how the local agent client works, namely whether it sends the initial query along with metadata about available resources to the cloud model, and does not point the model at any body of material.

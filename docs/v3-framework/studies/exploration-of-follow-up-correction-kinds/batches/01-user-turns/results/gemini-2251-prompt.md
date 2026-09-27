@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to the next stage of the pipeline, asking for system instructions for a Gem for exploratory brainstorming and an explanation of why they would help, without disputing anything in the model's query set.

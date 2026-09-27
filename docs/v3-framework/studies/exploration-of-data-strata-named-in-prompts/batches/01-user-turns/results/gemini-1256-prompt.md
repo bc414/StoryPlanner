@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the previous advice about rewording and cutting content, and redirects the model to structural formatting changes that leave the text unchanged.

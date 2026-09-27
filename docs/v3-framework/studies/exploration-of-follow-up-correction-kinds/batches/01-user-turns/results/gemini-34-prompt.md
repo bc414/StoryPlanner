@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to the next section of the story and asks for a summary of it, without commenting on or challenging the earlier summary.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a new attached document along with a JSON list of existing buckets grouped by paradigm, which reads as input for the next sorting pass and not a response to or challenge of the previous sort.

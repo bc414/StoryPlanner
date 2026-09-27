@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Chapter 9 spy-network discussion and asks a new planning question about how AJ can get Celestia and Luna to appear in liberated Ponyville in chapter 13, and whether Blueblood should come, giving the surrounding plot state as background.

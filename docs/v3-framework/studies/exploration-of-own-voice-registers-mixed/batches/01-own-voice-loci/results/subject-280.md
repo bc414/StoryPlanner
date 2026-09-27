@@ -1,0 +1,33 @@
+- passages:
+  - note 5039 | past-narrative | past tense, third person, backstory recount | previous Captain's failed campaign against Severyana's revolt | apart
+  - note 5039 | past-narrative | past tense verb "fired" | Celestia firing the old captain | run-in
+  - note 5039 | present-synopsis | present tense verb "lets", same sentence as prior clause | Celestia abandoning Stalliongrad to preserve innocence | run-in
+  - note 5040 | past-narrative | past tense "were already flirting" | prior romance between Shining Armor and Cadance | run-in
+  - note 5040 | present-synopsis | present tense "goes", "admits", "feels", "go"; continues across sentences | mutual doubt about the guard and search for answers at the parloirs | run-in
+  - note 5041 | present-synopsis | present tense, third person, list of things learned | empathy, sovereignty, Lioness spell, Wittenland magic from Minette | apart
+  - note 5042 | present-synopsis | present tense, third person, single plot beat | smuggling textbooks to Twilight | apart
+  - note 5196 | past-narrative | past tense, sequential events, three sentences | crystal pony trauma after Sombra and outreach to thestrals/Aquileians | apart
+  - note 5196 | worldbuilding-note | present tense, lowercase start, stated ongoing need | crystal trade with Pridea and need to hire Aquileians for spell matrix | apart
+  - note 5650 | meta-framing | colon-ended framing statement, names a point of view | recasting the Crystal Empire episode from Cadance/Shining Armor's side | apart
+  - note 5650 | quoted-monologue | first person, present-perfect reflection, quoted | Shining Armor's worry over Cadance's exhaustion and Sombra's counter-spell | apart
+  - note 5650 | analytic-commentary | third person, present tense, classifying statement | nature of Shining Armor's protection spell as unicorn ambition magic | apart
+  - note 5650 | analytic-commentary | past tense, evaluative phrase "toxic positivity" | judgment of Celestia's directive to Cadance | apart
+  - note 5650 | past-narrative | past tense, third person, reported action | Celestia issuing a directive to Twilight | apart
+  - note 5650 | quoted-address | second person, imperative undertone, ends in question, quoted | Celestia's command that Twilight alone must act | apart
+  - note 5650 | meta-framing | short contrastive framing phrase | signalling a contrast to the prior directive | apart
+  - note 5650 | quoted-monologue | first person plural, quoted | Shining Armor's belief a crystal pony holds the answer | apart
+  - note 5650 | present-synopsis | present tense, third person, dash-attributed resolution | Twilight's bottom-up answer: crystal heart and faire as shield | apart
+  - note 5651 | present-synopsis | present tense, third person, plot beat plus idiom "have a field day" | librarian hiding forbidden books before Celestia's visit and Aquileians' reaction | apart
+- shifts:
+  - note 5039 | past-narrative | present-synopsis | tense change from "fired" to "lets" within the same sentence
+  - note 5040 | past-narrative | present-synopsis | tense change from "were flirting" to "goes/admits", introduced by "but"
+  - note 5196 | past-narrative | worldbuilding-note | shift from narrated past events to a present-tense stated arrangement, marked by a paragraph break
+  - note 5650 | meta-framing | quoted-monologue | colon introduces a first-person quoted block after third-person framing
+  - note 5650 | quoted-monologue | analytic-commentary | end of quote, return to third-person present-tense classification
+  - note 5650 | analytic-commentary | past-narrative | shift from evaluative claim to a narrated action ("Celestia gave... a directive")
+  - note 5650 | past-narrative | quoted-address | shift into a quoted second-person command
+  - note 5650 | quoted-address | meta-framing | short phrase "contrasted with:" breaks from the quote
+  - note 5650 | meta-framing | quoted-monologue | colon introduces another first-person quoted line
+  - note 5650 | quoted-monologue | present-synopsis | dash-attribution shifts from quoted speech to third-person present-tense narration
+- registers: past-narrative; present-synopsis; worldbuilding-note; meta-framing; quoted-monologue; quoted-address; analytic-commentary
+- whole: This item's notes move across several registers — past-tense narrative recap, present-tense plot synopsis, present-tense worldbuilding statements of need, meta-framing lines that name a note's own purpose, quoted first-person or second-person speech, and third-person evaluative commentary — with most changes falling at paragraph or quotation breaks (apart) but a few tense shifts occurring inside a single sentence (run-in).

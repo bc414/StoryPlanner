@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Dennis Discret as an Aquileian naval figure facing Skyfall's Cold War conditioning as outsiders. It left out that he is a former Skyfall pirate captain, so the Aquileian side has inside knowledge of Skyfall and the pirates are not only faceless proxies. | Dennis Discret is a former Skyfall pirate captain | Stated flatly as a reminder of the omitted fact, with no explicit complaint. The correction is carried by the question that follows and is only implied.
+- about: The user supplies Dennis Discret's Skyfall pirate past, which the model's Cold War analysis left out, and asks how it changes the first Aquileian–Skyfall encounter.

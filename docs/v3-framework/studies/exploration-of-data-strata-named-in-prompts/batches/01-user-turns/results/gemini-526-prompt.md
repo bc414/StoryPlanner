@@ -1,0 +1,4 @@
+- sources:
+  - this story | the material the model is to analyse and draw on to identify the main character(s) and antagonist(s); no ranking or caveat attached | Give an analysis on who is the main character(s) of this story | referred-to
+- order:
+- about: The user asks the model for an analysis of who the main character(s) and antagonist(s) of the story under discussion are.

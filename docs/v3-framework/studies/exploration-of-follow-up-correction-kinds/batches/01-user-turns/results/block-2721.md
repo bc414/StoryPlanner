@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting other popular mainstream works worth adding to the comparative analysis and the reasons for including them, without disputing anything in the model's comparison.

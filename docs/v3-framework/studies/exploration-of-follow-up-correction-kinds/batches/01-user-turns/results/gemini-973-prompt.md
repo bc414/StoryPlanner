@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn restates the questions about the Dutch rise, spices as Red Love, and Dutch versus English naval strength, and adds a new question about whether the Dutch were a republic or an oligarchy and whether that fits the merchants-of-death idea, without saying anything in the earlier answer was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the grooming sequence and adds a further layer of irony, noting that Twilight and AJ canonically pay little attention to their manes (Twilight's is ruler-straight, AJ's is tied in a ponytail), so their fussing over grooming for each other is out of character in a funny way.

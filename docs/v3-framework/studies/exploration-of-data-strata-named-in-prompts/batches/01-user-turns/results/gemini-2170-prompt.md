@@ -1,0 +1,5 @@
+- sources:
+  - the soluble phosphorus meant for plants | premise from the story's soil-magic setup that the model should take as given and work from in the analysis | the soluble phosphorus meant for plants | referred-to
+  - the real life alternative | baseline for comparison; the model is to set the story's method against how white phosphorus is actually made and judge better or worse | Is this better or worse than the real life alternative | first-named
+- order:
+- about: The user asks the model to explain how the story's plant-available soil phosphorus could be turned into white phosphorus and to compare that with the real-world method in a comparative analysis.

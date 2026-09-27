@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies further lore about the drone school pipeline (hatchery eggs, kindergarten Simplified Herzlander, optional industrial or jaeger school) and asks whether the full language is taught in the higher schools or only gradually, as a follow-up question rather than a challenge to the earlier analysis.

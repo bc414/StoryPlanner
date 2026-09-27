@@ -1,0 +1,4 @@
+- sources:
+  - the premise, the model's account just given of Celestia's refusal, the secret deployment and the world's reaction | treat as outdated in the points corrected and revise it; Celestia's isolationist refusal and a strong world reaction are rejected, and the user's replacement details stand in their place | Celestia doesn't refuse due to isolationism and malice; let's update the premise; I'm not sure the rest of the world really has any reaction | referred-to
+- order:
+- about: The user corrects the model's previous analysis of the Mount Aris storyline and rewrites the premise: Celestia has no military to send, Novo asks Silverstream, Rainbow Dash goes in secret, Twilight later does charity work in Ain Trotgourait, and the world barely reacts.

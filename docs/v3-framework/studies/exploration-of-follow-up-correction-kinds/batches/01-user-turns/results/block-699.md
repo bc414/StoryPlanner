@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: naming recommendation declined on connotation grounds | the model's pick of Institution as the strongest category name is set aside, because to this user the word suggests old things while the story's constructed ideas are often only a generation old | I keep personally confusing it because I'm imagining that they are old things; use Constructed Idea as the category name | soft and personal: praises the word first, gives a reason from their own reading, and settles on a compromise (Institution goes in the description) without arguing the model was wrong
+- about: The user mostly declines the model's Institution recommendation, keeping Constructed Idea as the category name, and then moves on to ask how countries should be decomposed into constructed ideas and organizations, using Changeling Lands, Equestria and the conflation of the FJA volunteers with Aquileia as examples.

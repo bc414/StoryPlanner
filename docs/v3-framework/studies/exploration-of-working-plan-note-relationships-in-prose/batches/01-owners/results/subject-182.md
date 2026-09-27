@@ -1,0 +1,10 @@
+- relations:
+  - 1546|1549|1549 presupposes the coalition that 1546 sets out: the groups it splits (Velvet's does, the anti-oligarchy bourgeois, the true-believer republicans and harmonists) are the three strands of the alliance, and the deal divides them into collaborators and the tortured|Velvet, her viking does, and the anti-oligarchy bourgeois; true believer republicans and harmonists|implicit
+  - 1547|1548|1548 turns the opposition that 1547 describes into a truce: the movement that spreads anti-Johan propaganda and fights guerilla wars joins Johan against the changelings|anti-Johan propaganda, fight guerilla wars; spiteful truce to present a united front|implicit
+  - 1548|1549|Both give 1008 events for Velvet: she strikes a truce with Johan in one and is offered a collaborator's deal by Pagala in the other. The notes do not say how the two fit together, whether in sequence, as rival outcomes or as a contradiction|Johan and Velvet form a spiteful truce; Velvet ... can bend the knee and become collaborators|implicit
+  - 1546|1547|1547 gives the activities that follow from the aims and grievances in 1546, namely opposition to Johan and the old money, carried out as propaganda and sabotage|Johan and the old money are tyrannical; anti-Johan propaganda, sabotage Johan's elite's industries|implicit
+- outward:
+  - 1545|The other organizations Vérany in Aquileia and Kemerskai, which are the model for how this one is dramatized, held elsewhere|Just like Vérany in Aquileia and Kemerskai
+  - 1548|The changeling threat and its own lore, together with Johan as a figure known elsewhere|the changeling threat is too big to ignore
+  - 1549|Pagala and the statthalters, an occupying or ruling power not described in this item|Pagala and the statthalters track down Velvet
+- whole: The notes hang together loosely: the description of the alliance and its activities ties to the 1008 history notes, but the two history notes sit awkwardly beside each other and the storytelling note points only outside the item.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's finding that childcare alone doesn't lift birthrates and extends it into a new hypothetical, asking whether a post-scarcity system paying parents for years of full-time parenting would remove the opportunity cost, and noting it would require heavy redistribution.

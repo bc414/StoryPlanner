@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds worldbuilding details on unicorn, pegasus and earth pony magic and roles, and concludes that earth ponies would face the most discrimination, without pointing the model at any body of data.

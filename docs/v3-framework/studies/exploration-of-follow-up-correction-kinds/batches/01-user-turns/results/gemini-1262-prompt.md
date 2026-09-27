@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - own name: completeness verdict | The model's assurance that the Culled Prompt is semantically equivalent and that only chatter and redundancy were lost; the user states that notes attached to story threads are absent and asks what else is missing | Culled Prompt is missing notes attached to StoryThreads | flatly, as a stated observation backed by pasted code, put as pointed questions with no explicit 'you were wrong'
+  - reading of the request: what the difference between the files is | The model treated the differences as the user's deliberate rewriting of brainstorming into scenes and synopses, when the Culled Prompt is the output of an export method whose code the user now shows, so the missing content is a code question | Why? What else is missing? | implicitly, by supplying the code and asking for a cause, which reframes the matter as a bug rather than a curation choice
+- about: The user pastes their export service code and, asking why thread notes are missing from the Culled Prompt and what else is missing, implicitly rejects the model's claim that nothing important was lost.

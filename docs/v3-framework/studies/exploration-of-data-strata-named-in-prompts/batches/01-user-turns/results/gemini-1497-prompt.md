@@ -1,0 +1,5 @@
+- sources:
+  - the author's original plan for the 1007 revolution (Coltbert's reforms investing in artisans who make capital equipment, saturated export market, farmers wanting the domestic urban market, Discret stifling it through ego and tax policy) | treat as the author's own baseline, stated as fact where it corrects the model's premise, but open to being blended with the model's scenario in a hybrid | At least that's what I originally planned | first-named
+  - the model's previous proposal (Gold-only taxation, farmers needing city goods, currency wall) | partly corrected: the claim that farmers must go to the city for equipment is rejected, and the rest is a candidate to combine with the original plan in a hybrid | the farmers don't need to go to the city for equipment | referred-to
+- order:
+- about: The user corrects a premise in the model's gold-tax scenario by restating their original plan for why farmers turn on the king in 1007, then asks for a hybrid of the two that would be more poignant.

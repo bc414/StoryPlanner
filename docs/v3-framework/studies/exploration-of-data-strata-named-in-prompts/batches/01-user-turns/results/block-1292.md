@@ -1,0 +1,5 @@
+- sources:
+  - high school history class and textbooks (what we learn: Stalin betrayed the revolution, the French revolution took down the absolute monarchy) | treated as possibly incomplete and shallow, missing the deeper realities; the user asks the model to judge whether they miss the big picture | "fundamentally missing the big picture" | referred-to
+  - the preceding discussion of Vanguard and Capitalist villainy in this conversation | used as the yardstick against which school history is compared; the user asks whether it counts as college-level material | "So does this make" | referred-to
+- order:
+- about: The user steps out of the story planning to ask whether the historical analysis just given shows that school history lessons and textbooks miss the deeper picture, and whether that analysis is college-level material.

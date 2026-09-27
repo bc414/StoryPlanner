@@ -1,0 +1,12 @@
+- steps:
+  - the author | request | asks for economic-policy suggestions for two states, cued by real-world company logistics/policy models | opening prompt of the thread
+  - the model | analysis | maps a Costco-style model onto the Republic and a Walmart-style model onto the Hive, then extends into a conflict dynamic between the two | reply to the opening prompt
+  - the author | request | asks for a description and analysis of the pre-war 'Stagnation of Harmony' order set up by Celestia over a thousand years | second prompt
+  - the model | analysis | breaks the pre-war order into philosophy, cultural engineering, industrial-suppression policy, economic control, and a resulting fatal flaw | reply to the second prompt
+  - the author | request | asks for the mentality and enlistment motives of army volunteers who faced the changeling threat and failed | third prompt
+  - the model | analysis | offers four psychological lenses for why the volunteers enlisted and how each mindset produced their battlefield failure | reply to the third prompt
+  - the author | extension | takes the model's set of mindsets and adds one more layer, a 'we just need to show the changelings how to be friends' motive, for the model to work in | fourth prompt
+  - the model | analysis | develops the added mindset into a named complex, tracing how an evangelical approach, projected herbivore morality, false historical precedent, and openness to infiltration each contributed to the failure | reply to the fourth prompt
+- kept:
+- brought: The author brought the story's already-established two rival states and their war scenario, plus an outside analogy from corporate business models, to ask for an economic-policy framework, and later kept extending that same military-failure scenario with a new candidate motive for the model to fold in.
+- loop: The author repeatedly hands the model a worldbuilding premise or a refinement of one and lets the model return a structured multi-part thematic breakdown; the author's next move is not to send material into the plan but to hand the model's own output back with one more angle added, and none of these exchanges left any trace in the planning database in this stretch.

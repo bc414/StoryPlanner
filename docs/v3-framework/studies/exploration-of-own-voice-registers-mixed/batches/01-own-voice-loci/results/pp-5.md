@@ -1,0 +1,83 @@
+- passages:
+  - 98 | action-beat narration | present-tense stage direction, brief | Twilight reaching for coffee | apart
+  - 98 | didactic teaching dialogue | first-person address, names a lesson | announcing the chasseur doctrine | apart
+  - 98 | action-beat narration | brief stage direction | Twilight readies a scroll | apart
+  - 98 | first-person reminiscence | clipped past-tense recollection | Fleur's memory of a chasseur pair hunting warlords | apart
+  - 98 | didactic teaching dialogue | jargon-heavy multi-clause explanation, direct address | physiology of adrenaline, cortisol, oxytocin | apart
+  - 98 | reported-speech narration | indirect summary tagged 'asks', no quotation | Twilight's technical questions | apart
+  - 98 | reported-speech narration running into didactic teaching dialogue | narration tag flows into quoted correction in one sentence | Mali's correction about missing the point | run-in
+  - 98 | didactic teaching dialogue | reset phrase, new analogy | Lions and Eagles analogy | apart
+  - 98 | reported-speech narration | indirect summary tagged 'says' | Twilight's objection to the analogy | apart
+  - 98 | action-beat narration running into reported-speech narration | action verb joined to a reported question in one sentence | Fleur asking Mali about Tzinacatl terms | run-in
+  - 98 | reported-speech narration running into expository lore narration | narration tag opens into extended cultural detail | jaguar and eagle symbolism among the Tzinacatl | run-in
+  - 98 | narratorial aside | brief evaluative comment, no dialogue tag | judgment that Twilight has a point | apart
+  - 98 | action-beat narration | brief stage direction | Fleur noticing the love canisters | apart
+  - 98 | didactic teaching dialogue | reset phrase, new metaphor, direct question | red love and pink love, question about Applejack | apart
+  - 98 | casual reactive dialogue | short first-person guess | Twilight's guess about cuddling and braiding | apart
+  - 98 | didactic teaching dialogue | exclamation followed by technical explanation | cuddling restoring pink love via C-tactile afferents | apart
+  - 98 | casual reactive dialogue | short hesitant admission | Twilight unsure about mane braiding | apart
+  - 98 | reported-speech narration | tagged 'giggles and says' | Mali's note on trust and community | apart
+  - 98 | reported-speech narration | tagged 'says', technical vocabulary | Fleur naming endorphins and serotonin | apart
+  - 98 | didactic teaching dialogue | direct question, second person | how to show love to Applejack | apart
+  - 98 | casual reactive dialogue | short first-person answer | Twilight's guess 'we kiss' | apart
+  - 98 | didactic teaching dialogue | jargon tied back to the metaphor | kissing as red love | apart
+  - 98 | casual reactive dialogue | short exclamatory question | Twilight's surprise at 'kissing is magic' | apart
+  - 98 | reported-speech narration running into didactic teaching dialogue | tag flows into a direct question in one sentence | confirming kissing is magic, asking about post-battle kissing | run-in
+  - 98 | casual reactive dialogue | short hesitant first-person answer | Twilight preferring cuddling to kissing | apart
+  - 98 | didactic teaching dialogue | confirming statement restating the metaphor | pink love from cuddling after battle | apart
+  - 98 | reflective narration | past-tense reference to a specific prior event, third person | Twilight recalling the second battle of Tall Tale | apart
+  - 101 | reported-speech narration running into didactic teaching dialogue | narration tag flows straight into a comparison, no break | contrasting a foal's passivity with an adult little spoon's warmth | run-in
+  - 103 | didactic teaching dialogue | uninterrupted explanatory prose, jargon and metaphor together | little spoon for guilt crashes, big spoon for imposter syndrome | apart
+  - 104 | expository lore narration | third-person general statements, jargon, no address | chasseurs' tedious treks and resulting insomnia | apart
+  - 104 | reflective narration | third-person past-tense link to backstory | Twilight connecting this to the origin of her sleep spell | apart
+  - 104 | casual reactive dialogue running into action-beat narration | quoted question closed by a present-tense action tag | naming the current phase while reaching for coffee | run-in
+  - 104 | casual reactive dialogue | single-word exclamatory reply | Fleur's 'Exactement!' | apart
+  - 104 | casual reactive dialogue running into reported-speech narration | quoted lines closed by a reported tag | Twilight asking what chasseurs did | run-in
+  - 104 | didactic teaching dialogue | extended jargon-and-metaphor explanation | chasseurs using red love then pink love to force sleep | apart
+  - 104 | action-beat narration | brief stage direction | Twilight taking notes | apart
+  - 104 | didactic teaching dialogue | direct question, second person | prompting Twilight for the first step | apart
+  - 104 | casual reactive dialogue | rambling first-person guesses and asides | Twilight's tangent about jaegers and changelings | apart
+  - 104 | casual reactive dialogue running into reported-speech narration | short quoted line closed by a reported tag | calling it a tragedy | run-in
+  - 104 | casual reactive dialogue running into reported-speech narration and didactic teaching dialogue | exclamation, then a narration tag, then a directive close, all in one passage | redirecting to the fight-and-kiss lesson | run-in
+  - 2260 | editorial cross-reference | bare instruction pointing elsewhere | pointing to another chapter | apart
+  - 2260 | casual reactive dialogue | short first-person quoted complaint | Twilight's sleeplessness | apart
+  - 2262 | reported-speech narration running into didactic teaching dialogue | tag flows into a direct-address claim, no break | sleep spells being inefficient for a unicorn chasseur | run-in
+  - 2802 | expository lore narration | terse third-person aphoristic statement | drugs described as molecular imposters | apart
+- shifts:
+  - 98 | action-beat narration | didactic teaching dialogue | first-person address and lesson announcement replace the stage direction
+  - 98 | didactic teaching dialogue | action-beat narration | return to a bare present-tense stage direction
+  - 98 | action-beat narration | first-person reminiscence | past-tense clipped recollection replaces the action beat
+  - 98 | first-person reminiscence | didactic teaching dialogue | 'Fundamentally' introduces jargon-heavy explanation
+  - 98 | didactic teaching dialogue | reported-speech narration | narrator's indirect summary of Twilight's questions
+  - 98 | reported-speech narration | didactic teaching dialogue | narration tag opens into a quoted correction within the sentence
+  - 98 | didactic teaching dialogue | reported-speech narration | narration tag reports Twilight's objection
+  - 98 | reported-speech narration | action-beat narration | action verb 'facehoofs' opens the sentence
+  - 98 | action-beat narration | expository lore narration | extended cultural detail replaces the simple action/question
+  - 98 | expository lore narration | narratorial aside | brief evaluative comment appears with no dialogue tag
+  - 98 | narratorial aside | action-beat narration | return to a bare stage direction
+  - 98 | action-beat narration | didactic teaching dialogue | reset phrase 'Okay, here is a new way' introduces a fresh metaphor
+  - 98 | didactic teaching dialogue | casual reactive dialogue | short first-person guess replaces the explanation
+  - 98 | casual reactive dialogue | didactic teaching dialogue | exclamation 'Exactly!' opens a technical explanation
+  - 98 | didactic teaching dialogue | casual reactive dialogue | short hesitant admission replaces the explanation
+  - 98 | casual reactive dialogue | reported-speech narration | narration tag 'giggles and says' takes over
+  - 98 | reported-speech narration | didactic teaching dialogue | direct second-person question replaces the report
+  - 98 | didactic teaching dialogue | casual reactive dialogue | short first-person guess 'We kiss?' replaces the question
+  - 98 | casual reactive dialogue | didactic teaching dialogue | jargon explanation 'Yes, kissing causes...' replaces the guess
+  - 98 | didactic teaching dialogue | casual reactive dialogue | short exclamatory question replaces the explanation
+  - 98 | casual reactive dialogue | reported-speech narration | narration tag 'laughs and...deadpans' opens into a question
+  - 98 | reported-speech narration | casual reactive dialogue | short hesitant answer replaces the tagged line
+  - 98 | casual reactive dialogue | didactic teaching dialogue | confirming statement restates the metaphor
+  - 98 | didactic teaching dialogue | reflective narration | shift to a specific past battle recalled in third person
+  - 101 | reported-speech narration | didactic teaching dialogue | narration tag flows straight into a comparison with no break
+  - 104 | expository lore narration | reflective narration | shift from general statements to Twilight's specific backstory connection
+  - 104 | reflective narration | casual reactive dialogue | quoted question replaces narration
+  - 104 | casual reactive dialogue | didactic teaching dialogue | shift from a casual question to an extended technical/metaphor explanation
+  - 104 | didactic teaching dialogue | action-beat narration | return to a brief stage direction
+  - 104 | action-beat narration | didactic teaching dialogue | return to a direct teaching question
+  - 104 | didactic teaching dialogue | casual reactive dialogue | shift to a rambling first-person tangent
+  - 104 | casual reactive dialogue | reported-speech narration | short quoted line closed by a reported tag
+  - 104 | reported-speech narration | didactic teaching dialogue | exclamatory redirect flows through a narration tag into a directive close
+  - 2260 | editorial cross-reference | casual reactive dialogue | bare instructional phrase gives way to a first-person quoted complaint, set off by a dash
+  - 2262 | reported-speech narration | didactic teaching dialogue | narration tag 'Fleur says' flows into a direct-address claim with no break
+- registers: action-beat narration; reported-speech narration; didactic teaching dialogue; casual reactive dialogue; first-person reminiscence; narratorial aside; reflective narration; expository lore narration; editorial cross-reference
+- whole: This item's notes move through several distinct registers - brief present-tense stage direction, indirect reported speech, direct didactic explanation mixing jargon and metaphor, short casual back-and-forth, a stray reminiscence and evaluative aside, lore-exposition, reflective backstory narration, and one bare editorial cross-reference - and while many of these sit apart line by line, a good number run into one another inside a single sentence with no break at all.

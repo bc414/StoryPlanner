@@ -1,0 +1,22 @@
+- passages:
+  - 5369 | past-tense historical narration | past tense, recounts conspiracy and sudden death | the conspiracy against and death of King Aldar II | apart
+  - 5369 | present-tense plot synopsis | present tense, sequential action clauses ("exiles", "goes back", "runs") | Velvet's exile and founding of the underground movement | apart
+  - 5369 | elliptical comparative aside | subjectless fragment naming another place | parallel to Vérany in Aquileia | apart
+  - 5369 | present-tense plot synopsis | present tense resumes, full sentences on factions and tactics | naming factions, the Resistance, and its guerilla activity | apart
+  - 5370 | analytic critique | present-tense argumentative sentences naming a real book | Velvet's arc as a critique of "Lean In" | apart
+  - 5370 | terse labeling fragment | subjectless noun-phrase list, no verb | condensed naming of the ideology being critiqued | apart
+  - 5372 | comparative thematic thesis | single balanced "while X, Y" sentence | contrast between Skyfall's and Olenia's forms of dystopia | apart
+  - 5502 | expository world-mechanism description | present-tense cause-and-effect chain describing an institutional cycle | managers' love-consumption and spiraling cruelty | apart
+  - 5502 | real-world analogy gloss | parenthetical naming a real-world equivalent | red love likened to a cocaine high | run-in
+  - 5505 | narrative-revelation summary | present tense, "at first...revealed" framing of changing understanding | shift from assumed subjugation to deer as collaborators | apart
+  - 5505 | causal-analytic explanation | "because" clauses and a comparative claim | why extraction is worse than camps and why revolt is hard | apart
+- shifts:
+  - 5369 | past-tense historical narration | present-tense plot synopsis | tense shift from a single recounted past event to ongoing present-tense action
+  - 5369 | present-tense plot synopsis | elliptical comparative aside | drop to a subjectless fragment cross-referencing another place
+  - 5369 | elliptical comparative aside | present-tense plot synopsis | return to full sentences resuming faction description
+  - 5370 | analytic critique | terse labeling fragment | loss of subject and verb into a condensed noun-phrase judgment
+  - 5502 | expository world-mechanism description | real-world analogy gloss | parenthetical inserting a real-world drug comparison
+  - 5502 | real-world analogy gloss | expository world-mechanism description | closing parenthesis resumes the clause on "refined pink love"
+  - 5505 | narrative-revelation summary | causal-analytic explanation | move into "because" reasoning and a comparative claim about extraction
+- registers: past-tense historical narration; present-tense plot synopsis; elliptical comparative aside; analytic critique; terse labeling fragment; comparative thematic thesis; expository world-mechanism description; real-world analogy gloss; narrative-revelation summary; causal-analytic explanation
+- whole: This item's notes move through several distinct registers—historical past-tense recounting into present-tense plot synopsis with a brief comparative fragment in one note, full-sentence critique collapsing into a terse label in another, a single self-contained comparative thesis, a cause-and-effect world-mechanism description briefly interrupted by a parenthetical real-world analogy, and a revelation summary that turns into causal reasoning—each change marked by a noticeable break in tense, sentence form, or function except the analogy gloss, which runs inside its own sentence.

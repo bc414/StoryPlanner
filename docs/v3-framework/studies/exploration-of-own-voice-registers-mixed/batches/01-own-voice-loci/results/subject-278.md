@@ -1,0 +1,56 @@
+- passages:
+  - note 5010 | heading/label | short tag phrase, no verb | naming the note's topic | apart
+  - note 5010 | lore exposition | present-tense declarative world-fact | the Idol of Boreas as a glowing crystal statue | run-in
+  - note 5010 | etymological aside | parenthetical Greek-root gloss | naming the glow effect | run-in
+  - note 5010 | historical narration | past-tense sentence, named historical actor | Grover III's scientists discovering the link | apart
+  - note 5012 | heading/label | short tag phrase, no verb | naming the note's topic | apart
+  - note 5012 | lore exposition | present-tense conditional rule | enchantment only active for the one who forged it | apart
+  - note 5012 | historical narration | past-tense specific practice | griffon knights forging their own gear | apart
+  - note 5012 | interpretive claim | causal 'this is why', judgment word 'canonically' | griffon greed explained by the magic's limits | apart
+  - note 5012 | analogical mapping | named outside comparison, 'opposite of' | contrast with Equestria's Cutie Mark System | apart
+  - note 5013 | heading/label | tag prefix ending in dash | naming the note's mode | run-in
+  - note 5013 | analogical mapping | 'is like' comparison, named real-world reference | swordsmiths as samurai, Grover IV as Meiji era | run-in
+  - note 5217 | heading/label | short tag phrase, no verb | naming the note's topic | apart
+  - note 5217 | thesis statement | lowercase declarative naming the note's own point | human capital as the commentary's core | apart
+  - note 5217 | economic-historical exposition | general real-world historical claim, no fictional terms | violence as human capital before the state | apart
+  - note 5217 | analogical mapping | 'This is...' formula tying claim to lore | warlord era and self-armored griffons | apart
+  - note 5217 | economic-historical exposition | general real-world historical claim | guilds and skill after the Black Death | apart
+  - note 5217 | analogical mapping | 'This is...' formula tying claim to lore | Grover III's enlightenment workshops | apart
+  - note 5217 | economic-historical exposition | general real-world historical claim | industrialization then exploitation | apart
+  - note 5217 | analogical mapping | 'This is...' formula tying claim to lore | Grover IV's bessemer/haber-bosch age | apart
+  - note 5217 | economic-historical exposition | general claim about present-day credentials | needing a degree or union apprenticeship | run-in
+  - note 5217 | analogical mapping | 'this is like' comparison mid-sentence | Coltbert's ego capitalism, skyfall cartels | run-in
+  - note 5217 | evaluative commentary | normative claim, inclusive 'we', unresolved note | what modern human capital still needs | apart
+  - note 5271 | lore exposition | comparative present-tense description | pegasus vs griffon flight mechanics and terrain | apart
+  - note 5271 | pathos narration | emotive opener 'Tragically', charged phrasing | poor serfs unable to afford flight in Herzland | apart
+  - note 5271 | colloquial aphorism | casual maxim, conditional 'if you are poor' | flight not worth the energy cost | apart
+  - note 5410 | historical narration | past-tense generational account with dates | 2nd-gen Royalists migrating to study artisanship | apart
+  - note 5410 | analogical mapping | 'This is...' formula, named term | griffon asset specificity vs cutie marks | apart
+  - note 5519 | technical process narration | step-by-step procedural description | bootstrapping a lathe from a plain hammer | apart
+  - note 5519 | technical process narration | step-by-step procedural description | bootstrapping a vacuum chamber for crystal flow | apart
+  - note 5519 | interpretive claim | evaluative claim with parenthetical elaboration | uninheritable craft as an anti-poseur paradigm | apart
+- shifts:
+  - note 5010 | heading/label | lore exposition | shift from tag phrase to a full descriptive sentence
+  - note 5010 | lore exposition | etymological aside | parenthesis opens with a Greek-root gloss
+  - note 5010 | etymological aside | historical narration | parenthesis closes, new past-tense sentence with a named actor
+  - note 5012 | heading/label | lore exposition | shift from tag phrase to a full conditional-rule sentence
+  - note 5012 | lore exposition | historical narration | shift to past tense and a named class of subjects, 'Griffon knights'
+  - note 5012 | historical narration | interpretive claim | causal 'This is why' and the judgment word 'canonically'
+  - note 5012 | interpretive claim | analogical mapping | explicit named comparison, 'the exact opposite of Equestria's...'
+  - note 5013 | heading/label | analogical mapping | hyphen runs directly into an 'is like' comparison
+  - note 5217 | heading/label | thesis statement | shift from tag phrase to a full claim about the note's own point
+  - note 5217 | thesis statement | economic-historical exposition | shift to a general real-world historical claim, 'Before modern state...'
+  - note 5217 | economic-historical exposition | analogical mapping | 'This is...' formula ties the claim to lore
+  - note 5217 | analogical mapping | economic-historical exposition | new topic sentence, 'Post black death...'
+  - note 5217 | economic-historical exposition | analogical mapping | 'This is Grover III's enlightenment...'
+  - note 5217 | analogical mapping | economic-historical exposition | new topic sentence, 'Industrialization removed...'
+  - note 5217 | economic-historical exposition | analogical mapping | 'This is Grover IV's guilded age...'
+  - note 5217 | analogical mapping | economic-historical exposition | new topic sentence, 'Modern day you need...'
+  - note 5217 | economic-historical exposition | analogical mapping | mid-sentence 'this is like' comparison, no break
+  - note 5217 | analogical mapping | evaluative commentary | shift to normative language and inclusive 'we have not yet achieved'
+  - note 5271 | lore exposition | pathos narration | opener 'Tragically' and emotive diction 'starving serfs struggle'
+  - note 5271 | pathos narration | colloquial aphorism | shift to casual generalizing phrasing, 'just isn't worth... if you are poor'
+  - note 5410 | historical narration | analogical mapping | 'This is...' formula naming a comparative term, 'asset specificity'
+  - note 5519 | technical process narration | interpretive claim | shift from procedural description to an evaluative claim, 'This is inherently...'
+- registers: heading/label; etymological aside; lore exposition; historical narration; interpretive claim; analogical mapping; thesis statement; economic-historical exposition; evaluative commentary; pathos narration; colloquial aphorism; technical process narration
+- whole: The item's notes move through a dozen distinct registers — terse category tags, present-tense mechanic exposition, dated historical narration, causal or evaluative claims about the lore's meaning, explicit real-world/canon comparisons, emotive asides, a casual maxim, procedural how-to description, and a real-world economic essay voice — mostly holding apart sentence by sentence but repeatedly fusing two registers inside a single sentence through parentheses or 'this is like' comparisons.

@@ -1,0 +1,10 @@
+- sources:
+  - Equestria at War, the mod and its writing | subject of the research; to be established as the baseline that TLTT is compared against, including how its origins, creators and player expectations shaped the writing | research into the writing in Equestria at War ... giving the EaW baseline | referred-to
+  - The Princess and the Kaiser (TPatK) | second subject of the research; to be examined as the most influential EaW story and compared with TLTT | widely considered the most influential EaW story | first-named
+  - TLTT aspirations | the yardstick that both EaW and TPatK are to be compared against | how it compares to my TLTT aspirations | referred-to
+  - The history of how the mod was born and evolved, and the creators' motivations, demographics and origin stories | a historical basis to be researched and used to explain why the writing is as it is | the history of how the mod was born and evolved | first-named
+  - The user's own experience of playing EaW and reading and commenting on TPatK | acknowledged as extensive, but not what the analysis should rest on; an outside view is wanted in its place | I obviously played EaW a lot and read TPatK and commented extensively | first-named
+  - Objective analysis from outside, with a historical basis | the standard the requested research must meet, external to the user's own perspective | I want an objective analysis from outside, and a historical basis | first-named
+- order:
+  - Objective outside analysis with a historical basis over the user's own experience of EaW and TPatK | I obviously played EaW a lot ... But I want an objective analysis from outside
+- about: The user asks the model to research and give an outside, historically grounded analysis of Equestria at War's writing, its origins and creators, and The Princess and the Kaiser, comparing each to their TLTT aspirations, and says their own experience of both is not what they want relied on.

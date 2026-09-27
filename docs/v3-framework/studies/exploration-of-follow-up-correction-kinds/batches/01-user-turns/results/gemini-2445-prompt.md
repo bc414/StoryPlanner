@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks Path 2, giving Dr. Fauna already covering the rehab role as the reason, adds backstory about Mount Aris and Twilight closing the School of Friendship, and asks how Zecora staying in Ain Trotgourait would shape Twilight's psychology.

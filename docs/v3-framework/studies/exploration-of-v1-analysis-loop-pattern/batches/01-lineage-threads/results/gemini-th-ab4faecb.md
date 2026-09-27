@@ -1,0 +1,9 @@
+- steps:
+  - the author | supplies source material | a full plan export document (136,503 words) with no accompanying question | at the start of the conversation, as an attachment with no prompt text
+  - the model | quantifies planning density | a ranked table assigning a percentage of total planning-text volume to each of the 26 chapters, with a short 'narrative weight' gloss per chapter | as the bulk of the single response
+  - the model | groups the ranking into a structural claim | a two-act split of the chapters into a 'War' portion and a 'Politics & Resolution' portion with their respective share of total planning text | immediately after the table
+  - the model | evaluates the distribution | a verdict that the back-loading of planning toward the middle-to-end chapters is 'healthy' for the story's aim of subverting its genre | directly after the two-act split
+  - the model | proposes a follow-up | an offer to run a targeted check of one chapter's dialogue against its thematic weight | as the closing line of the response
+- kept:
+- brought: The author brought the entire planning document itself as an attachment, without any question, correction, or framing text.
+- loop: The author hands over the raw plan corpus for a diagnostic read; the model returns a quantitative map of where planning effort is concentrated plus an evaluative judgment and a next-step offer, but nothing from this exchange is shown as having been carried back into the plan database.

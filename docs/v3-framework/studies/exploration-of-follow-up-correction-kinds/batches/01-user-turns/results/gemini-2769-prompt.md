@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Taylorism/Lenin topic and asks an unrelated software-naming question about a class for representing future unscheduled work, without commenting on the model's previous answer.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about where Oracle and other major players fit into the AI model distribution landscape, without pointing at any body of material for the model to draw on.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's biological premise by asserting a new origin for the griffons, as mountain-born gliders from Griffonstone who conquered the flat plains of Herzland as the easiest place to found a state, without pointing at any body of material to draw on.

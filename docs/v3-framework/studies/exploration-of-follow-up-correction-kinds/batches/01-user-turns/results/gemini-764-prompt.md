@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to generate several alternative visual examples of the tally-stock-and-foil motif for the character's cutie mark.

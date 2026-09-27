@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers two new scene ideas of their own, Pinkie Pie's cakes with a dash of red love and Fluttershy's post-white-peace apology, and asks how they would affect Celestia, without pointing the model at any body of material.

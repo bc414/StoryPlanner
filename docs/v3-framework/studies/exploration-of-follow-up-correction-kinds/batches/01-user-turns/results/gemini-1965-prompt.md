@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated Sparleos as an established classical civilization, the Greece and Rome of Griffonia, with real philosophy, statecraft and vocabulary for Grover III to borrow. The user points out that the plan only holds oral traditions and legends of a kingdom that ruled much of Griffonia for a long time. | "The oral traditions and legends simply say the kingdom ruled over vast amounts of Griffonia for an extended period" | Implicit and put as a question. The user restates what the plan holds and asks whether Grover III would invent the Sparlean myth, without saying the model was wrong.
+- about: The user accepts the revisionism idea but asks a follow-up: whether Grover III would invent and sell Sparleos as a stable classical golden age from thin legends, and whether real languages such as German, Italian, French and English show this Greek and Roman borrowing.

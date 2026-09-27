@@ -1,0 +1,69 @@
+- steps:
+  - the author | poses a character-fate question | asks what became of the noble griffonesses who bonded with Coltbert's circle and rebelled against their husbands | opens the stretch
+  - the model | delivers a narrative analysis | traces the griffonesses' arc from bored hostages to industrial matriarchs via a household coup | immediately after
+  - the author | complicates the question | asks what happens to the re-armed husbands and to the disobedient wives during Verany's secret deal | following the matriarch analysis
+  - the model | extends the analysis | maps the secret-deal abandonment logistics, the wives' survival in the interregnum, and the later castle-return confrontation | following
+  - the author | notes a side implication and pivots to a new character | remarks on Coltbert's wide reach, then asks whether Gaudreau should be an iron-statist's daughter rather than a hostage | mid-conversation
+  - the model | proposes and justifies a revised backstory | recasts Gaudreau as the iron-statist steward who pilots the reforms in Vinovia | following
+  - the author | tests the backstory's mechanics | asks whether Vinovia's peasant loyalty and her father's trust explain the region's stability | following
+  - the model | confirms and elaborates | details the father's role and the peasants' three-way choice among King, warlords, and Gaudreau | following
+  - the author | sets a timeline beat and requests synthesis | asks for existing paper notes to be merged with new insight to place Coltbert's paper in 981 | following
+  - the model | synthesizes into a structured essay | drafts the paper's context, thesis, critique of Verany, and royal reception | following
+  - the author | adds required content and a format question | asks for Celestia's 'Stagnation of Harmony,' cutie-mark asset specificity, a stated flaw, and the correct medium | following
+  - the model | answers the medium question and expands content | recommends a serialized manifesto, a three-part deconstruction, the universal-ambition flaw, and Chrysalis's inverted reading | following
+  - the author | raises a setting question | asks whether Skyfall mercenaries should destroy Le Grand Foyer and where Moriset then resides | following
+  - the model | gives a verdict and consequence chain | endorses destroying the palace and proposes Moriset as a roaming monarch | following
+  - the author | requests a full synthesis | asks for all Coltbert Reform material merged with the new Aquileia backstory | following
+  - the model | produces a comprehensive historical synthesis | organizes the material into a thesis/antithesis/synthesis/legacy history | following
+  - the author | asks a mechanics question | asks how the royal bank and capital-equipment monopsony work given a mobile court | following
+  - the model | works out the logistics | describes a distributed bank network and Royal Fairs as the monopsony venue | following
+  - the author | tightens the mechanism with follow-ups | asks whether the tax targets only equipment leaving the city and proposes a thug-escort bribe angle | following
+  - the model | details the tax scope and corruption pathway | explains the city-gate tax logic and the escort-bribe race-to-the-bottom mechanism | following
+  - the author | challenges an origin question and redirects a subplot | asks whether the black market is emergent or designed and requests alternative drama for the Verany pardon | following
+  - the model | resolves the design question and drafts new drama | confirms emergent barter with Verany as systematizer and drafts his pardon-era pivot to cartel leadership | following
+  - the author | confirms and fills in backstory | supplies the PRNA name/history and the six-year saturation timeline | following
+  - the model | elaborates the confirmed timeline | details the PRNA's death, the factory crisis, and Verany's PNdA cartel strategy | following
+  - the author | opens the social-reform strand with a plan dump | lays out the Chasseur academy concept and asks how it fits a loyal-but-weak royal army | pivot from economics to social reform
+  - the model | synthesizes the military/social strand | explains iron-statist paralysis, the Academy's Compagnon doctrine, and the resulting intimacy culture | following
+  - the author | asks for elaboration on a mechanism | asks how Chasseurs organically develop intimacy and Coltbert's role in it | following
+  - the model | elaborates the mechanism | details the combat-to-bedroom role transfer and Coltbert's structural facilitation | following
+  - the author | proposes a conceptual revision | reworks Lion/Eagle from subtractive traits into a divine-hierarchy caste system | following
+  - the model | analyzes the revised concept | contrasts the old subtractive model with the new hierarchical one and its implications | following
+  - the author | corrects a character's motivation | clarifies Synovial doesn't believe the patriarchal dogma and supplies his humbled-cynic backstory | following
+  - the model | reworks the character analysis | recasts Synovial as a cynical aristocrat and unpacks his double-edged insult | following
+  - the author | requests a consistency pass | asks where the earlier plan needs updating for the new Lion/Eagle definitions | following
+  - the model | performs the consistency pass | lists concept, character, and scene adjustments required by the redefinition | following
+  - the author | opens the next phase and requests synthesis | asks for analysis of the Lionesses reforming thugs, merging old brainstorming with new material | following
+  - the model | synthesizes the taming mechanic | details the premise, taming steps, reputation economy, and societal outcome | following
+  - the author | supplies demographic detail and comparative questions | breaks thugs into three origin groups and asks about gang structure and real-world parallels | following
+  - the model | maps demographics onto a hierarchy and confirms the parallel | builds a leader/enforcer/base structure with real-world analogues and the seamstress-dignity mechanic | following
+  - the author | refines demographic history | supplies the Grover III/IV timeline and questions where each group sits in the hierarchy | following
+  - the model | integrates the timeline into the hierarchy | traces the pipeline from imperial withdrawal to the gang structure and contrasts Moriset's recruitment with Gerad's | following
+  - the author | builds out a specific character type | proposes the psychology of cowardly dispossessed nobles who become gang officers | following
+  - the model | elaborates the character type | analyzes the survivor filter, the nobles' feudal cosplay, and their poseur psychology | following
+  - the author | raises tactical questions and proposes a timeline gate | asks who the Lionesses target, how they avoid guns, and when Part 3 should start | following
+  - the model | resolves the tactical questions and timeline trigger | explains targeting strategy, demilitarization rationale, and the post-reconquest conditions that kick off the taming | closes this stretch
+- kept:
+  - note 4439 | pasted from this reply inside the author's own framing | keeps land-reform mechanics and the return-to-castle confrontation, filed under the Coltbert Reforms subject
+  - note 4773 | pasted from this reply inside the author's own framing | keeps the secret-deal wife-abandonment logistics, filed under the 1st Revolution subject
+  - note 4774 | pasted whole from this reply | keeps the left-behind wives' survival account, filed under the 1st Revolution subject
+  - note 4775 | pasted from this reply inside the author's own framing | keeps the Vinovia stability and father-as-general details, filed under the 1st Revolution subject
+  - note 4855 | pasted from this reply inside the author's own framing | keeps the theory-to-manifesto framing of the paper, filed under the Predator's Dilemma subject
+  - note 2902 | pasted whole from this reply | keeps Chrysalis's inverted reading of the paper, filed under a link between Synovial's testimony and the paper
+  - note 3334 | pasted whole from this reply | keeps the universal-ambition flaw and its wallflower consequence, filed under a link between meeting Coltbert and the paper
+  - note 4858 | one sentence lifted from this reply | keeps a single line on the Stagnation-of-Harmony critique, filed under the Predator's Dilemma subject
+  - note 4674 | pasted from this reply inside the author's own framing | keeps the roaming-court/MPA-rule details, filed under the Coltbert Reforms subject
+  - note 4776 | pasted from this reply inside the author's own framing | keeps the counterrevolution/palace-destruction logistics, filed under the 1st Revolution subject
+  - note 4881 | pasted whole from this reply | keeps a one-line thesis on ambition and asset specificity, filed under the Predator's Dilemma subject
+  - note 4283 | the reply was quoting the plan | keeps the tax/escort/bribe mechanics and Verany's cartel pivot, pre-existing plan text the reply repeated, filed under the Coltbert Reforms subject
+  - note 4673 | the author's own words in this record | keeps the author's own Chasseurs concept as written, filed under the Coltbert Reforms subject
+  - note 4868 | pasted from this reply inside the author's own framing | keeps the chasseur binary-unit pairing mechanic, filed under the Predator's Dilemma subject
+  - note 4869 | pasted from this reply inside the author's own framing | keeps the chasseur partner-bond mechanics, filed under the Predator's Dilemma subject
+  - note 3996 | pasted from this reply inside the author's own framing | keeps the Herzlander divine-hierarchy Lion/Eagle definition, filed under the Lion and Eagle subject
+  - note 4125 | pasted from this reply inside the author's own framing | keeps the Aquileian fluid Lion/Eagle redefinition, filed under the Lion and Eagle subject
+  - note 4778 | pasted from this reply inside the author's own framing | keeps Synovial's Herzland re-education backstory, filed under the Synovial subject
+  - note 4873 | pasted from this reply inside the author's own framing | keeps the Lioness-thug taming dynamic (spell, tableau, seal), filed under the Predator's Dilemma subject
+  - note 4779 | pasted whole from this reply | keeps Rarity's parloir-seamstress origin story, filed under the Rarity subject
+  - note 4861 | pasted from this reply inside the author's own framing | keeps the MPA toxic-masculinity synthesis and disarmament/poseur rule, filed under the Predator's Dilemma subject
+- brought: The author repeatedly brought forward pieces of the standing plan, established character histories, named mechanisms such as the Coltbert Reforms and the tax and monopsony system, and coined terms like Lion/Eagle and Tableau de Chasse, as the starting point for each new question or revision.
+- loop: Each round follows the same loop: the author drops in a plan fragment, a correction, or a pointed question, the model returns a structured synthesis or verdict organizing that material, and the author either confirms, tightens, or redirects it into the next question; the planning database then keeps mostly the model's organized language, whole, cut, or reframed, under the relevant subject or character record, occasionally preserving the author's own dictated wording instead.

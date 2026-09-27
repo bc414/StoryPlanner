@@ -1,0 +1,9 @@
+- asks:
+  - summarize | give a detailed summary of the attached text file, described as part 2 of a story | "Can you give a detailed summary of the attached text file"
+- supplies:
+  - context recap | a summary of part 1 of the story, covering the protagonist's death, reincarnation as a pony foal, orphanage upbringing, and discovery of secret magic talent | several paragraphs
+  - attached file | the actual part 2 text to be summarized (content not captured, shown only as a placeholder) | placeholder, length unknown
+- shaping:
+  - level of detail | asks specifically for a "detailed" summary rather than a brief one | "detailed summary"
+- openness: Leaves the answer open: the message names no particular content or angle to summarize, only instructing that the summary be detailed, and supplies part 1's summary purely as context for continuity.
+- subject: Requesting a detailed summary of part 2 of a My Little Pony human-reincarnation fanfiction story

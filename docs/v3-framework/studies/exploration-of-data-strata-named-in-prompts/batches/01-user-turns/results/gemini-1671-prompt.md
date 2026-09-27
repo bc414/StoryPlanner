@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general-knowledge question about Markdown's core features, where it is used, its history, and whether standards exist, without pointing at any body of material for the model to use or avoid.

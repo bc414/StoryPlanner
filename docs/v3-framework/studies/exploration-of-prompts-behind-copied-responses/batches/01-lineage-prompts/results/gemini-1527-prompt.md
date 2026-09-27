@@ -1,0 +1,7 @@
+- asks:
+  - propose | suggests a causal backstory reason (spite from Discret) for why Vérany's factory has sat rotting and unbought for seven years | "left to rot and not allowed to be bought and refurbished out of pure spite from Discret"
+  - propose | suggests that Vérany's generic clothes have fallen out of fashion because of a rival brand's clothes | "Vérany's generic clothes are out of style due to FJA clothes"
+- supplies:
+- shaping:
+- openness: Leans toward the two specific explanations it names (Discret's spite blocking the factory's sale, and FJA's clothes displacing Vérany's), softened only by "perhaps" on the first.
+- subject: Backstory details tying rival companies Discret and FJA to Vérany's decline (a rotting factory and outdated clothing line)

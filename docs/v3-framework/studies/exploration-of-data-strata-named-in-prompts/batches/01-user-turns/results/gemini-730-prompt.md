@@ -1,0 +1,4 @@
+- sources:
+  - a story plan | the material that would be analyzed; the user asks whether the tool is useful for literary analysis of it, with no weight or ranking given | literary analysis of a story plan | first-named
+- order:
+- about: The user asks whether NotebookLM, the tool the model just described, is useful for literary analysis of a story plan.

@@ -1,0 +1,3 @@
+- directives:
+  - callback | the page is to refer back to an earlier scene and its line about Twilight not having slept since everything began | Twilight's earlier statement that she hasn't slept since the whole thing started (the earlier plot point It's About Time) | "Refer to It's About Time - I haven't slept since the whole thing started" | planning shorthand, a short imperative cross-reference with the quoted line | Character: Twilight Sparkle
+- reports: ["The item never mentions the reader or the audience; it describes the scene, the lesson content and the characters' arcs, and its only instruction about the page is a cross-reference back to an earlier scene."]

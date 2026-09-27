@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - other (story-design judgment) | The model's claim that the letter needs an extra sentence acknowledging Applejack's friendship reason, and its drafted options built on that, are set aside in favour of the bare two-part letter | leave the letter as only "Please come home safe. -Celestia" | offered as a counter-proposal ("How about"), with a brief reason that the sparseness implies permission without enthusiasm
+  - fact of the world | Celestia's motive and psychology: the model cast her as too exhausted and terrified to stop Applejack, simply agreeing; the user says her real reason was an exhaust valve, expecting Applejack to return bitter, with only a faint unplanned hope | Then explains the main reason was an exhaust valve and the sad expectation that Applejack would come back bitter | stated as the intended account of the character, folded into a revision of the callback line and not framed as disagreement
+- about: The user answers the model's letter options by proposing their own version, a reworded Election Eve line plus a minimal letter, and gives Celestia's actual motive as they intend it.

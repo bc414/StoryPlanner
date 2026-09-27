@@ -1,0 +1,11 @@
+- asks:
+  - check | verify whether the claim that Poland is the civic, harmonic Republic that the West abused and neglected for 250 years and is now a model is still accurate | "Is this still accurate?"
+  - explain | explain how Russia's role as Poland's neighbor fits into this framing | "it has to do with Russia as their neighbor?"
+  - explain | explain how the framing ties into the events of 1991 and the 'end of history' thesis | "How does this tie into the events of 1991 and the end of history thesis?"
+  - brainstorm | help find a strong plot connection between the character Applejack and Poland, since the apple-industry angle hasn't landed anywhere in the plot | "I'm still struggling to come up with a great connection... perhaps something can be found here"
+- supplies:
+  - thesis statement | claim that Poland is a civic, harmonic Republic long abused/neglected by the West and now a model, with a Russia-neighbor angle and a link to 1991/end of history | a couple of sentences
+  - worldbuilding lead | note that Applejack's apple industry seems promising as a link to Poland but has no landing point in the plot | a sentence
+- shaping:
+- openness: Mixed: the historical/political questions lean toward confirming and elaborating a framing the message already states ('Is this still accurate?', 'it has to do with...?'), while the Applejack-Poland question is left open as a brainstorming search for any workable connection.
+- subject: Allegorical mapping of Poland's geopolitical history (Russia, 1991, end-of-history thesis) onto the My Little Pony character Applejack for a fiction project

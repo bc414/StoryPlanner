@@ -1,0 +1,9 @@
+- asks:
+  - propose | floats a new plot twist for the model to develop: changeling origins as harmonic pink-love creatures, jaeger culture's addiction to draining red love, and Celestia's resulting decree of the "stagnation of harmony," to run in parallel with Synovial's reveal | "How about, in parallel to Synovial's reveal, the ultimate twist being..."
+  - check | asks whether the "new unified theory of magic" already in use is consistent with the claim that Celestia's ambition turned grey/false hope, leaving her limited to keeping the sun moving | "I guess the new unified theory of magic does explain that Celestia's ambition turned grey"
+  - assert-for-incorporation | lays down a constraint/outcome to be adopted: Celestia must still offer some help (e.g. Twilight-level spells) yet AJ's coalition wins the total war on its own, through combined species magic, without real divine intervention | "That doesn't absolve her... able to survive total war without divine intervention that isn't truly there"
+- supplies:
+  - idea sketch | a newly proposed backstory tying changeling history (harmonic pink love vs. addictive red love, jaeger tribal infighting), Celestia's motive for stagnating harmony, her guilt over Chrysalis's swift rise and Luna's fate, and the war's resolution via combined-species magic | a paragraph
+- shaping:
+- openness: Leans toward an answer it names: the user lays out the twist, its causal chain, and its consequences in detail, including a self-confirmed consistency claim about the "unified theory of magic," rather than leaving the idea open or asking the model to choose between alternatives.
+- subject: Lore/backstory development for an MLP-based story's changeling history, Celestia's motives, and the war's endgame

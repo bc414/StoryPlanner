@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes naming the terrified reservist Golden Javelin and lays out her new arc, in which her third-person limited passages bridge into chapter 7 and return at its end, and they point to no body of material for the model to use or avoid.

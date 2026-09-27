@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user connects the model's account of Kemerskai's republic to China's shift from Mao to Deng, asks for an analysis of the parallels, and notes that real China never ended its martial law, which marks a difference from the story and does not fault the model's turn.

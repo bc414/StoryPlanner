@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a comparison of how Trotsky's and Stalin's views differed, if at all, on the factory committees and on workers, as a follow-up to the prior answer on 1917 Russian labor dynamics, without pointing the model at any particular body of material.

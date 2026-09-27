@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's portrayal of Baron Dennis as a tribute-taking pirate who skims a cut and extorts prices, which the user treats as making him a pure rent seeker instead of a glorious figure who builds a royal fleet on credit | "So he isn't a pure rent seeker, he is a glorious figure" | Implicit and mild: put as a request to add a fleet-building role, with the objection to the rent-seeker reading given as the reason, not stated as disagreement
+- about: The user asks to fold a royal Aquileian fleet, built on credit to protect shipping from Skyfall, into Baron Dennis's role so that he reads as heroic and not as a rent seeker, which quietly pushes against the model's picture of him.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up practical question about whether old JSON versions must be deleted from NotebookLM or can be left in place, without disputing anything the model said.

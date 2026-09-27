@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes an alternative plot beat, in which the buffalo, via the CIA, and Gilded Trust's mercenaries and loyal workers hunt down and arrest the remaining Las Pegasus collaborators after Rockfeller's arrest, and asks the model to consider it, without pointing at any body of material to draw on.

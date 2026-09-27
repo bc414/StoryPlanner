@@ -1,0 +1,5 @@
+- sources:
+  - the author's own imagined setup: noble griffonesses as daughters of nobles of the sword in arranged marriages for alliances | given as the author's working premise that the model should build the answer on, stated as their imagining rather than settled canon | I imagined the noble griffonesses are the daughters of nobles of the sword | first-named
+  - Versailles, the historical court and how noble lords interacted with it | the model is asked to draw on it as a real-world reference to explain how the setup would work, countryside versus palace and lords' relation to the court | What was the interaction between noble lords and Versailles? | referred-to
+- order:
+- about: The author states their premise about who the noble griffonesses are and asks the model to explain, using the historical Versailles as a model, whether such wives would live in the countryside or at the palace and how lords related to the court.

@@ -1,0 +1,4 @@
+- sources:
+  - web search ("target web search approaches") | use more targeted searches as a way to analyze further and verify the earlier claim that the approach is unprecedented | other target web search approaches are available to do more analysis or verification | referred-to
+- order:
+- about: The user voices doubt that their AI-assisted planning method is really exceptional or unprecedented, asks how that could be so, and asks what other targeted web searches could test the claim.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user explains their nested Punnett square arrangement of track axes, with ontology/events and prior-established/narrative-emergent on the outside and zero focalization/narrative design and project-wide/scene-specific on the inside, and asks for an analysis of whether it is the best configuration for determining track questions and uses.

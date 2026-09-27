@@ -1,0 +1,8 @@
+- sources:
+  - comments from all different eras of the story's run | read all of them, sampling every era rather than only high-engagement chapters, and calibrate the analysis to where the author and story were at the time; a comment's chapter attachment does not show it is about that chapter, since it may concern the whole story | You must get comments from all different eras of the story's run | referred-to
+  - the author's account of the upload timeline (consistent uploads 8 June 2022 to 15 Feb 2024, an 18 month gap, then Wind I, a 10 month gap, then Wind II) | use as context for interpreting the comments, including why the Duchess of Strawberry chapter has the most comments (hiatus) and how to calibrate by era | The Duchess of Strawberry happens to have the most comments due to an author hiatus | first-named
+  - story plan v2 | use it, but treat it as incomplete because it is not fully migrated, so it cannot be the only source | The story plan v2 is not fully migrated | referred-to
+  - v1 archive (of the story plan) | also consult it, because critical insights may exist only there and not in v2 | Critical insights may reside only in v1 archive still | first-named
+  - Conversations in the mcp server | also consult them, because they hold insights that have not yet reached the v2 plan | Conversations in the mcp server which haven't reached the v2 plan proper yet | first-named
+- order:
+- about: The user adds corrections to the model's method for analysing reader comments (attachment to chapters is unreliable, cover every era, read them all, account for the hiatuses) and tells it to also look in the v1 archive and the mcp server conversations because the v2 plan is incomplete, then to continue the plan through to the final report.

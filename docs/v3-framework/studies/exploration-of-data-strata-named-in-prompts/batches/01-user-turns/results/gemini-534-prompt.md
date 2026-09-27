@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up historical question about who the German soldiers using Pervitin were, whether they took it by choice or by force, and whether they were nationalists or conscripts, without pointing at any body of material to use.

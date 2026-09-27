@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of the story's sequence and the rifle mechanics, stating that the "we are monsters" realization comes before Trimmel and the paradrop, how the ammo canister and draining crystal work, and that lowering the volunteer age falls between the Southern Blitz and the Spearhead.

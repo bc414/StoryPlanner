@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question about how Newtonsoft deserialization handles classes whose constructors require parameters, without disputing anything in the model's answer about cycles.

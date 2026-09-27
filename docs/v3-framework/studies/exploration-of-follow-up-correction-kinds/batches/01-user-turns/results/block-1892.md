@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new note about Chrysalis's shell companies using Asset Specificity through proprietary weapons and brass casings, and asks which subject it belongs to, directing the model to check the Chrysalis and Skyfall in Zebrica material in the db file.

@@ -1,0 +1,5 @@
+- sources:
+  - the EaW wiki page World_Map_and_Geography#Zebrica (the equestriaatwar.wiki.gg link) | model is to check it, as a source on Zebrica | Check this web page | first-named
+  - source conversations, specifically Warzena | model is to consult it for a representation of Zumidian zebras | Check Warzena in the source conversations | first-named
+- order:
+- about: The user sends the model to an EaW wiki geography page and to the Warzena material in the source conversations, and offers a reason why Zumidia looks thin in the game data: it starts as part of Hippogriffia in 1007 and only appears if released.

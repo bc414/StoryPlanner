@@ -1,0 +1,5 @@
+- sources:
+  - Elements of Tyranny (the name and concept from the model's table) | keep as the name; the elements must be specific ideas defining a tyrannical, feudal, rugged-individualist, hypocritical regime of poseurs, not generic or broad nouns | Elements of Tyranny makes sense as the name | referred-to
+  - the table's current entries: Posseur, Violence, Greed, Hedonism, and Resilience as the middle version | provisional and open to renaming; Violence and Greed are rejected as too broad, and Posseur, Hedonism and Resilience are questioned and to be tested | Violence is too broad | referred-to
+- order:
+- about: The user is refining the model's proposed tri-state table of virtues, rejecting or questioning several Tyranny-column terms as too broad or the wrong grammatical form and asking whether Hedonism and Resilience are the right words for the red and middle versions of Laughter.

@@ -1,0 +1,5 @@
+- sources:
+  - the model's general knowledge of sites on the internet today | draw on it to name anti-extractive sites the user has not heard of | Are there any sites that exist on the internet today | referred-to
+  - the user's own current awareness of sites | sites the user already knows are not what is wanted; look for ones beyond them | which I don't have the awareness of | referred-to
+- order:
+- about: The user corrects the model's picture of TCL by noting it has comment sections like the other three sites and that writers can post on TCL alongside FFN and AO3, then asks the model to name existing sites with an anti-extractive model that the user may not know of.

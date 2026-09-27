@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the combinatorics discussion to a new question, whether the four two-valued axes are exhaustive or whether some axes have more values or other axes are missing, and sets the scope by excluding Allegorical and Garden Notes as separate.

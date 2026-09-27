@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Changeling German as an out-of-universe design signal for players, separate from the world; the user says the changelings' institutions carry German names inside the fiction | "The changelings have in+universe German names for institutions like Heer and Luftwaffe" | flat, stated as plain fact with examples, no explicit disagreement
+  - reading of the plan | The model called the shared language between Changelings and Griffonian Empire coincidental and unconnected; the user points to Griffonian in-universe German institutional names and a changeling attaché in Griffenheim at game start as a link between the two | "The Griffonian Empire also has in-universe German names" and "there is a changeling attaché in Griffenheim at game start" | counter-evidence offered in passing, leaving the model to draw the conclusion
+- about: The user pushes back on the model's two-unrelated-sources account by listing in-universe German institutional names on both sides and a changeling presence in Griffenheim, implying an in-world connection.

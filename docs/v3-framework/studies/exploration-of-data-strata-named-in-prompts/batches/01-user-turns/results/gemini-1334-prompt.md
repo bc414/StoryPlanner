@@ -1,0 +1,5 @@
+- sources:
+  - voltigeur, the term proposed for the Royal Academy's role | treated as a provisional suggestion, open to being replaced if a better term exists | Is voltigeur the best term | referred-to
+  - other historic or present French terms | to be surveyed and considered as possible alternatives for the role | other historic or present French terms to consider | first-named
+- order:
+- about: The user questions whether the model's proposed term "voltigeur" is the best name for the Royal Academy's role and asks it to consider other historic or current French terms.

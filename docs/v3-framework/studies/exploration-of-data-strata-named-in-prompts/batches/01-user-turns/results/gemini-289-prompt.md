@@ -1,0 +1,4 @@
+- sources:
+  - Synovial's reveal at the point the allies surround Vesalipolis | keep as a planned story beat and treat it as still needed; it delivers the final truth of Chrysalis's world conquest plans, which the model should build into the continuation | is still necessary to divulse the final truth | referred-to
+- order:
+- about: The user directs the model's proposed unification scenario by specifying a joint Kemerskai-Grover speech that unites the Liberty and Imperial camps against Chrysalis, and by keeping Synovial's reveal of Chrysalis's world conquest plans at the siege of Vesalipolis, with Eagleclaw still expecting her to surrender or flee.

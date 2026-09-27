@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a fresh question, whether any part of their lore on the stagnation of harmony sits outside the two policies (foreign non-interventionism and domestic ambition suppression), and does not dispute anything the model said.

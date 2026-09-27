@@ -1,0 +1,12 @@
+- asks:
+  - propose interpretation | offers a reading of why Trimmel names himself and his rank, as a way of asserting his authority over the rival Statthalter faction in Chrysalis's regime | "Trimmel also announces his name and rank to assert that he is more in charge than the other faction"
+  - propose scene addition | suggests adding a beat where Applejack questions Trimmel about why he attached his name so forcefully to the surrender demand | "Applejack should question Trimmel on this! She'll ask him why"
+  - propose dialogue | suggests Applejack respond with a line like "I didn't sign up for this," meant to contrast with Trimmel's forceful self-naming | "she'll say something like the 'I didn't sign up for this'"
+  - propose plot detail | suggests Applejack personally attach her name to the ultimatum delivered to Pagala and the Statthalters in Canterlot 12 hours before the paradrop | "Applejack should attach her name to the Canterlot ultimatum"
+  - propose dialogue reuse | suggests Applejack's ultimatum repeat, word for word, the same wording as Trimmel's original surrender message | "she should repeat the exact"
+- supplies:
+  - quoted dialogue | the exact wording of the surrender ultimatum text to be reused for Applejack's message to Canterlot | a few lines
+- shaping:
+  - exact wording specified | requires that Applejack's ultimatum be identical, word-for-word, to the quoted surrender message | "she should repeat the exact"
+- openness: Leans toward an answer it names: the message presents specific character-motivation interpretations and plot/dialogue beats as decisions already settled rather than as open questions.
+- subject: Developing a scene where Trimmel and Applejack each attach their names to surrender ultimatums, tied to factional politics in Chrysalis's changeling regime

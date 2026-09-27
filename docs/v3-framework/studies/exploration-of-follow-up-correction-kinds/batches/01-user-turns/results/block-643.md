@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's layer-sequencing discussion by asking whether the fluid accumulation phase is its own stage apart from fixing layer 1 truth, and notes that their authorial notes currently blend layer 4 design with research directives.

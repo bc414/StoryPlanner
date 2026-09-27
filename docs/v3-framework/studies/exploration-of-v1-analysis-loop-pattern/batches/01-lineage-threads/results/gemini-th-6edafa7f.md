@@ -1,0 +1,9 @@
+- steps:
+  - the author | request | ask for an audit of the plan document for references to the old crystal-reserve moon-lore, given the new plan to replace it with Nightmare Moon's drained ambition | opening prompt
+  - the model | located audit | returns four passages quoted from the plan document, each followed by a suggested rewrite to align with the new ambition-based mechanic | single response
+- kept:
+  - note 453 | the plan held this text before this reply | keeps the existing Luna/Alicornization passage about crystal use, already present in the PlotPoint entry, unchanged by this exchange
+  - note 455 | pasted from this reply inside the author's own framing | keeps the quoted Twilight dialogue line from the model's response, with the author's own added clarification about the crystals' origin, placed in the same PlotPoint entry
+  - note 4275 | the plan held this text before this reply | keeps the existing Subject passage on Celestia's mortality and the fallback to crystal-powered moon-moving, already present in the database prior to the reply
+- brought: The author brought a specific worldbuilding revision already decided elsewhere in the plan (replacing the crystal reserve with Nightmare Moon's drained ambition) and asked the model to find every place in the document the old lore still needed updating.
+- loop: The author brings a lore-replacement decision and asks for a systematic sweep of the plan document for now-outdated passages; the model returns located quotes with update suggestions; the plan keeps two of those quotes as confirmation of text it already held and reworks a third into a revised dialogue line with the author's own addition.

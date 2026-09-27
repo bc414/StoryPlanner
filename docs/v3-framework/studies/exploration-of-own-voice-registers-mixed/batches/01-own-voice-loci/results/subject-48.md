@@ -1,0 +1,21 @@
+- passages:
+  - note 5609 | evaluative-critical commentary | comparative claim, cites episode titles as evidence, praise wording | Spike's characterization improving in later seasons versus Twilight's | apart
+  - note 5610 | expository-worldbuilding | declarative third-person, explains exam's design and purpose | why Spike's egg wasn't meant to hatch and the exam's intent | apart
+  - note 5610 | quoted first-person aside | parenthetical, first-person phrase set off inside the sentence | the humble admission an applicant is expected to make | run-in
+  - note 5610 | expository-worldbuilding | resumes third-person declarative, exclamation marks emphasis | why Celestia took Twilight as her personal student | apart
+  - note 5611 | timeline/plot-beat outline | dated heading, short line-per-beat sentences, few connectives | Spike's realization and refusal to join Twilight's 1006 charity trip | apart
+  - note 5611 | analytic-narrative exposition | 'Meanwhile,' flowing prose weighing fear and choice | Spike's fear of abandonment and his choice to go to the Crystal Empire | apart
+  - note 5611 | analytic-narrative exposition | continues flowing prose, explains covert activity | Spike settling in the Crystal Empire and befriending Thorax | apart
+  - note 5611 | episode-title label | quoted title standing alone, no verb | reference to the episode 'Spike the Brave and Glorious' | apart
+  - note 5611 | sociopolitical-interpretive analysis | abstract sociological terms: 'post-authoritarian,' 'social capital,' 'civic pillar' | the Crystal Empire's trauma and Spike's standing within it | apart
+  - note 5612 | analytic-narrative exposition | analogy to Applejack's family, discusses an ongoing relationship pattern | Spike and Twilight's distant-but-loving relationship and divided methods | apart
+  - note 5613 | first-person authorial reflection | 'My interpretation,' 'my TLTT story plan,' explicit first person | reasoning behind resolving Spike's crush on Rarity early | apart
+  - note 5653 | sociopolitical-interpretive analysis | single-sentence allegory, real-world social category mapped onto fiction | Spike's early treatment read as 2nd-gen-immigrant assimilation allegory | apart
+- shifts:
+  - note 5610 | expository-worldbuilding | quoted first-person aside | parenthesis opens and pronoun shifts to first person mid-sentence
+  - note 5610 | quoted first-person aside | expository-worldbuilding | parenthesis closes and the sentence returns to third-person declarative
+  - note 5611 | timeline/plot-beat outline | analytic-narrative exposition | 'Meanwhile,' transition from short dated beats to flowing subordinate-clause prose about motive
+  - note 5611 | analytic-narrative exposition | episode-title label | a bare quoted title appears on its own with no verb
+  - note 5611 | episode-title label | sociopolitical-interpretive analysis | title gives way to declarative sociological description of the society
+- registers: evaluative-critical commentary; expository-worldbuilding; quoted first-person aside; timeline/plot-beat outline; analytic-narrative exposition; episode-title label; sociopolitical-interpretive analysis; first-person authorial reflection
+- whole: This item holds several distinct registers that mostly stand apart note by note or paragraph by paragraph, with only one place — a parenthetical aside inside note 5610 — running inline within a single sentence rather than breaking cleanly.

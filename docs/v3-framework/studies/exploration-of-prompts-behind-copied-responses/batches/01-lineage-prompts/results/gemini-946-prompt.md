@@ -1,0 +1,6 @@
+- asks:
+  - decide | asks whether the character Applejack should be aware of a specific fact about her mother's nature | phrased as a direct yes/no question, "Should Applejack know that..."
+- supplies:
+- shaping:
+- openness: Asks for a choice between two implicit options, whether Applejack should or should not know the fact, without leaning toward either.
+- subject: Whether a character should have knowledge of a worldbuilding fact about her mother's identity (mother being a pear).

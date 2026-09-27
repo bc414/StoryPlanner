@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the proposed gas sources and asks a real-world history question about how German airships operated across the Channel despite being flammable, apparently to test the premise of the model's vulnerable-hydrogen-airship idea, without saying that idea is wrong.

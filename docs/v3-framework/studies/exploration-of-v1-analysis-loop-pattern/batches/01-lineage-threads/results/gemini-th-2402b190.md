@@ -1,0 +1,17 @@
+- steps:
+  - author | states a decision | agreement to drop the 'lie' approach after evaluating fit with established themes | opening of the author's message
+  - author | supplies rationale | explains why the 24-hour window and 12-hour lie mechanism was designed, to induce willing changeling surrender before the no-mercy paradrop phase | early in the author's message
+  - author | poses a question | asks whether the surrender-inducing mechanism still works using a straight 12-hour truthful declaration instead of a lie | middle of the author's message
+  - author | offers a character read | suggests Pagala might believe a long siege is inevitable and plan to feed on hostages meanwhile | later in the author's message
+  - author | requests options | asks for other ways Applejack could break the Canterlot occupation by its worst holdouts | end of the author's message
+  - model | delivers a verdict | confirms the truth-only approach works and is stronger for Applejack's characterization | opening of the model's reply
+  - model | reframes the dramatic question | shifts the tension from 'will AJ lie' to 'will Pagala believe the truth', naming it the villain's blindness trope | early in the model's reply
+  - model | drafts the ultimatum content | writes out the broadcast mechanism and sample dialogue revealing Chrysalis's abandonment and Trimmel's surrender to trigger defections | first numbered section of the model's reply
+  - model | drafts the antagonist's reaction | describes Pagala's denial, propaganda lie to her troops, and miscalculation about siege timing | second numbered section of the model's reply
+  - model | drafts the assault sequence | lays out the paratrooper drop, weapon crates, signal, and civilian uprising turning hostages into combatants | third numbered section of the model's reply
+  - model | offers alternative mechanisms | proposes three additional siege-breaking tactics: tunnel assault, food-store bluff, and magic-dampening field | fourth section of the model's reply, labeled alternatives
+  - model | recaps as a structured sequence | summarizes the whole revised flow as a six-beat list and ties it back to Applejack's honesty and competence themes | closing summary of the model's reply
+- kept:
+  - note 783 | pasted from this reply inside the author's own framing | keeps the model's drafted broadcast line about Chrysalis abandoning Trimmel, placed under the PlotPoint for Applejack's ultimatum delivery
+- brought: The author brought a prior plan decision to abandon the 'lie' mechanism and the established rationale behind the 24-hour surrender window, then asked how to still achieve willing surrenders and how to script the final assault.
+- loop: The author brings a settled plan decision plus an open question about executing it and a request for more tactical options; the model returns a full draft of the ultimatum, antagonist reaction, assault, and alternatives, and the plan keeps only one drafted dialogue line from the ultimatum section, filed under the ultimatum plot point inside the author's own surrounding framing.

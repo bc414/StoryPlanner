@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's advice about Deep Think and prompt constraints to a new, broader question: whether real authors and AI roleplay or creative-writing users attend to story logic as well as delivery, and it asks for a history of models and self-identified users from November 2022 to March 2026.

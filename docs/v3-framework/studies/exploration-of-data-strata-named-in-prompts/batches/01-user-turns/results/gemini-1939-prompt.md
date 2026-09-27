@@ -1,0 +1,4 @@
+- sources:
+  - cutie mark discounts | a magic-system rule from the author's own design that must stay intact while the new training idea is added on top | While still keeping intact cutie mark discounts | referred-to
+- order:
+- about: The user asks whether base magical capacity in their story's magic system should grow with training like a muscle, while preserving the existing cutie mark discount mechanic, so that Twilight's power comes from both.

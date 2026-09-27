@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the lineage analysis of the 2015 text without objection and moves on to ask for the same kind of analysis of the second story, written March 2020 to June 2021.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the proposed wording, or the proposition it belongs to, would count as evidence for a separate claim that material conditions drive morality, without saying anything in the model's turn was wrong.

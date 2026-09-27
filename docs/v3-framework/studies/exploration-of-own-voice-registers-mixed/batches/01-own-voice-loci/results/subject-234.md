@@ -1,0 +1,24 @@
+- passages:
+  - 5048 | worldbuilding summary | plain third-person declarative statements naming causes and actors | how the horde got its guns via Chrysalis's shell companies and elite dumping | apart
+  - 5057 | worldbuilding summary | short declarative statements naming factions and outcomes | the horde's makeup, Mount Aris's status, and the collapse after the battle | apart
+  - 5057 | thematic/analytic commentary | ironic contrast clause and interpretive claim about propaganda's function | how the anti-slaver banner masks domestic tyranny and lets warlords submit without shame | apart
+  - 5059 | outline/list notation | title header, equation-style comparison, comma-listed examples | historical warlord/horde analogues to the Storm King | apart
+  - 5062 | worldbuilding summary | plain declarative statements naming a character and a force | the Aquileian Navy and monster-hunting crews defending Seaquestria | apart
+  - 5077 | worldbuilding summary | plain third-person present-tense recounting with repetition | the horde massing at Ain Trotgourait and terrorizing zebras before invasion | apart
+  - 5126 | technical-explanatory | process description using technical terms (syngas, hydrogen, carbon monoxide) | how the Storm King fuels his airships and their explosive danger | apart
+  - 5145 | technical-explanatory | general statements of capability and limitation | zeppelins' altitude advantage over musket-armed warlords | run-in
+  - 5145 | narrative-dramatic recount | contrastive "But the moment..." clause and vivid action verbs | the zeppelin fleet's sudden destruction by fighter planes at Mount Aris | run-in
+  - 5175 | character-scene narrative | chronological recount with paraphrased/quoted dialogue and character interiority | Novo's plea to Celestia, Silverstream and Rainbow Dash's secret trip and disillusionment, the Mane 6 finding Rainbow | apart
+  - 5175 | thematic/analytic commentary | abstract metaphorical statement with no named characters | the end of harmony's stagnation | run-in
+  - 5175 | worldbuilding summary | plain declarative naming of factions and their aid | Aquileia's and the Griffonian Republic's forces joining the fight | apart
+  - 5606 | tentative brainstorm listing | hedging words ("I guess", "probably") and a comma-spliced list of fates | postwar paths sketched for each Mane 6 member | apart
+  - 5606 | thematic/analytic commentary | confident abstract phrasing about mindset with no hedging | Applejack and Rainbow Dash's break from old rules versus Twilight/Pinkie's denial and Fluttershy/Rarity's retreat | apart
+  - 5646 | meta-authorial production commentary | first-person voice with real-world production references and run-on explanation | why this battle marks TLTT's backstory diverging from FiM canon | apart
+- shifts:
+  - 5057 | worldbuilding summary | thematic/analytic commentary | paragraph break plus move from stating events to interpreting their propaganda function, marked by an ironic "but replacing... with..." contrast
+  - 5145 | technical-explanatory | narrative-dramatic recount | shift marked by a "But the moment..." clause and sudden vivid action verbs within the same sentence
+  - 5175 | character-scene narrative | thematic/analytic commentary | shift from named characters and dialogue to an unattributed abstract metaphor about harmony's stagnation
+  - 5175 | thematic/analytic commentary | worldbuilding summary | shift back to naming nations and their concrete aid, marked by a paragraph break
+  - 5606 | tentative brainstorm listing | thematic/analytic commentary | paragraph break plus loss of hedging words and a move to abstract claims about mindset
+- registers: worldbuilding summary; thematic/analytic commentary; outline/list notation; technical-explanatory; narrative-dramatic recount; character-scene narrative; tentative brainstorm listing; meta-authorial production commentary
+- whole: This item holds several distinct registers—plain worldbuilding summary, analytic/thematic commentary, technical explanation, dramatic narration, list-notation, hedged brainstorming, character-focused scene narrative, and first-person production commentary—which mostly stand apart across paragraph breaks within a note, though in two notes a technical or character-driven passage runs directly into a contrasting register inside the same sentence or paragraph with no break at all.

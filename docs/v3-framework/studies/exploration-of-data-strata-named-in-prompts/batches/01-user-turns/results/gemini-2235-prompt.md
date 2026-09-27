@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether, now that background-color logic lives in BucketCardViewModel, all of the equivalent logic can be removed from CategorizerViewModel, without pointing the model at any body of material to draw on or avoid.

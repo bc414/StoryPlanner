@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's naming-convention idea for Celestia's silence, adds specific scene details (softly saying Rarity's name, an early Vanhoover report before Manehattan), and asks a new factual question about terroir-linked surnames in France and elsewhere.

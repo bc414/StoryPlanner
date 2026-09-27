@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user describes their character Henri as boisterous and snobbishly proud of Aquileian culture, and asks whether that personality fits a southern Frenchman, a Parisian archetype, or a northern Champagne wine grower, without pointing the model at any particular body of material.

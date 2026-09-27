@@ -1,0 +1,3 @@
+- directives:
+  - planting | The page is to let the reader take away, without stating it outright, that Applejack is sending Fluttershy in order to spare the changelings her own harshness | Applejack is saving the changelings from herself by assigning Fluttershy, the embodiment of Kindness; Applejack currently believes she has to perform the tough general | "Should imply that Applejack is saving the changelings from herself" | planning shorthand directive, a "should" about what the scene implies, followed by a plain note on Applejack's current belief | Synopsis
+- reports: ["The item never names the reader or audience, but one synopsis line says what the scene \"should imply\", which is an instruction about what the page conveys; the links hold no such instruction."]

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a full beginner-level explanation of how JSON schema works, starting from first principles, so they can use the visual editor to build the output structure they want.

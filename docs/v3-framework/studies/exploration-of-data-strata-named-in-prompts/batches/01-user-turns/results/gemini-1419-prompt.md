@@ -1,0 +1,7 @@
+- sources:
+  - my story plans | weight: supplies the definition of "harmonic capitalism oriented Republic" that Poland and the other countries are to be measured against | marked by "(as defined in my story plans)" | referred-to
+  - modern day Poland | weight: to be analyzed for how far it actually fits that definition, and drawn on for inspiration for the Griffonian Republic, Aquileia and Equestria | marked by "Is there any truth to this? Please analyze and suggest ways to draw inspiration from modern day Poland" | referred-to
+  - the modern US, Britain and France and Germany | weight: used as the comparison set Poland is being measured against | marked by "compared to the modern US, Britain and France and Germany" | referred-to
+- order:
+  - my story plans' definition over modern day Poland and the modern US, Britain, France and Germany | the definition from the story plans is the standard the real countries are analyzed and compared against, per "(as defined in my story plans)"
+- about: The user turn asks the model to judge, against the story plan's own definition of a harmonic capitalism oriented Republic, whether modern Poland fits it better than the US, Britain, France or Germany, and to suggest how Poland could inspire the Griffonian Republic, Aquileia and Equestria.

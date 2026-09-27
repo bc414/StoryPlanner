@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model gave plain 'une lionne' as the Aquileian term and cast it as a subversion of Herzlander dogma. The user points out that Herzlanders also have lionesses, who count as heretics, so the bare term does not separate the Aquileian sense from the Herzlander one and needs a qualifier. | 'Should it be Une Lionne Aquilenne or something like that? Because a Herzlander lioness is considered a heretic' | Put as a tentative question with a reason attached, suggesting a fix without flatly saying the answer was wrong.
+- about: The user questions whether the Aquileian term for lioness should carry a nationality qualifier, because a Herzlander lioness is a heretic and the model's bare term blurs the two.

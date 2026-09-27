@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's new framing as grounds to redesign the election arc, calls their own original 45/30/25 polling setup possibly preachy, and asks for alternative setups, a review of all events, and a statement of what the arc should say, adding the constraints that Applejack's Kemerskai lesson falls mid-arc and the arc runs six months.

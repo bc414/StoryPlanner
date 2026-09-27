@@ -1,0 +1,8 @@
+- sources:
+  - v1 | describes its design philosophy as data capture where content in a plot point counted as in the right place; context for why subjects may be missing | In v1, the philosophy and primary was data capture, not taxonomy | referred-to
+  - v2 | describes it as not following v1's approach because of world inference, theme inference, narrative architecture and multiple prequel sequels; context | V2 doesn't do this because of world inference | referred-to
+  - plot points (in v1) | places where subject types may be hidden without being subjects; the area to look in | There can be subject types "hidden" in plot points that weren't subjects | referred-to
+  - v1 db | the body to sample for candidate subjects lacking backstory, in areas likely to hold them | sample the v1 db in areas that could have subjects | referred-to
+  - Equestrian Republic example (story thread) | use as an example of the kind of hidden subject to look for | like Equestrian Republic example which was in a story thread | referred-to
+- order:
+- about: The user explains how v1's data-capture philosophy differs from v2's taxonomy and asks the model to devise a strategy and then sample the v1 database for hidden subject types that sit in plot points without backstory.

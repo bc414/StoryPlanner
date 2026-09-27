@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting the same kind of real-world mapping applied to the American Left, without disputing anything in the model's MAGA analysis.

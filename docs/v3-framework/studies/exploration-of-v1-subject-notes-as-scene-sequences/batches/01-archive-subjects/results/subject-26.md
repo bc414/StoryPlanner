@@ -1,0 +1,8 @@
+- passages:
+  - 11 | statement about the subject | Rasti is the elected communal leader of the Temberik council | none | plain descriptive sentence of what he is, no event
+  - 11 | scene beat with year | Celestia makes him take the Equestrian name "Midnight Oil" as he joins the night guard | 1000 ALB | Celestia "made him" act; dated "in 1000 ALB"
+  - 4108 | statement about the subject | The meaning of the name Rasti: "Honesty" in Kurmanji | none | etymology given as a plain fact
+  - 4571 | statement about the subject | His attitude toward others: unhappy with Celestia-washed Luna, but he comes to like Lioness Applejack | none | general description of feelings and how they shift, not a specific event
+  - 4571 | statement about the subject | He and Applejack share values of community, hard work and honesty | none | "They have shared values", a plain statement of what holds between them
+- sequences:
+- whole: A small set of notes on Rasti giving his role as Temberik council leader, one dated beat of him taking the name Midnight Oil in the night guard, the meaning of his name, and his attitudes toward Luna and Applejack with their shared values.

@@ -1,0 +1,8 @@
+- asks:
+  - note parallel | flags that some topic under prior discussion seems to parallel the struggles of Black America, inviting comment on the connection | "This seems to have a lot of parallels with the struggles of Black America"
+  - question | asks whether there is a history of Black workers' involvement with or exclusion from American labor unions | "is there any intersecting history with black members of unions?"
+  - check | states a personal impression that American unions historically excluded Black workers and functioned as a privilege for white labor, implicitly asking whether this is accurate | "my current perception is that American unions were a privilege for the white working class"
+- supplies:
+- shaping:
+- openness: Leans toward a named perception (that American unions were historically a privilege for the white working class) while leaving the questions about parallels and union history open for the model to confirm, correct, or elaborate on.
+- subject: Parallels between an unspecified prior topic and Black American history, and the history of Black workers' relationship to American labor unions

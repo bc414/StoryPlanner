@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's analysis and lays out a new structural plan for a Grover III and Celestia prequel-sequel story, with interleaved flashbacks and an epilogue frame story, building on the model's points without disputing any.

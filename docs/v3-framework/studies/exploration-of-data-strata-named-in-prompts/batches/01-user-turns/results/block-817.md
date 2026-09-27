@@ -1,0 +1,8 @@
+- sources:
+  - the model's previous breakdown (Sunglider needing factory output to export, Rik trade mechanics) | treated as wrong on this point and to be corrected: SAA takes Riks with no goods to buy, and domestic capacity goes to building the state | One correction, Sunglider does not need factory output to export | referred-to
+  - the causality chain laid out in the turn (Mittlestrand through Coltbert, Sunglider, the Riks, Applejack's parents, Kemerskai) | the author's current account of events, to be analysed as it stands | So the casuality chain is looking like | first-named
+  - my backstory and world truth | authoritative and settled: Applejack's ties to the GR follow from her parents' industrialization and the feud, not from coincidence or authorial fiat | In my backstory and world truth, Applejack is who she is canonically | first-named
+  - canon episode 1 | treated as real evidence the backstory builds on, since Applejack hosting the Summer Sun Celebration catering fits her pride in the real farm, along with the rest of her canon path | as shown in canon episode 1 | referred-to
+- order:
+  - the author's correction over the model's previous claim about Sunglider needing factory output to export | One correction, Sunglider does not need factory output to export
+- about: The user corrects the model's account of how the Riks and SAA trade work, lays out a full causal chain from Mittlestrand to Kemerskai's resignation, insists Applejack's link to the GR follows from her parents' history and not from coincidence or destiny, and asks for an analysis.

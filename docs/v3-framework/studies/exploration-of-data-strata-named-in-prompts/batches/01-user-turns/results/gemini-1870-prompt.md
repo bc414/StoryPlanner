@@ -1,0 +1,5 @@
+- sources:
+  - this (the previous seven-part version the model just gave) | material to be redone: reorganize it and remove duplicated content | Redo this | referred-to
+  - the original | treat as the full record; every detail and nuance of it must be carried into the redo, nothing thrown out | All details of the original must be present | referred-to
+- order:
+- about: The user asks the model to redo its previous structured rewrite so that it is only reorganized and de-duplicated, with no nuance or detail from the original dropped.

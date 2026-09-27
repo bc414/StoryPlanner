@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Option 1's fertilizer premise is wrong for this world: earth pony magic already performs the chemical conversion of phosphates, potassium and nitrogen into water-soluble forms (a reaction impossible in real chemistry), as Fleur Bloom explains at the town hall, so a synthetic fertilizer company doesn't fit | Option 1 fertilizer doesn't work because earth pony magic IS a chemical reaction | flat, stated with a world-based reason and a cited in-story scene
+  - fact of the world | Option 2 (tractors) duplicates what is already Comet Shine's backstory, so it is not available as this company's product | it's already Comet Shine's backstory | brief, offered in passing while conceding the option otherwise makes sense
+- about: The user rules out the model's first two company options by citing established world details (earth pony magic and Fleur Bloom's explanation, Comet Shine's backstory) and picks the canning option, tying it to the canon facility in the To Where and Back Again alt universe.

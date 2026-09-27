@@ -1,0 +1,7 @@
+- asks:
+  - identify/compare | asks whether real-world situations exist that parallel a game-theory concept from the user's fantasy story | "Is there any equivalent to my Coltbert fantasy game theory in real life"
+- supplies:
+  - concept sketch | names a fictional game-theory mechanic from their story, called "Coltbert," characterized as the prisoner's dilemma with accelerants added | a single short phrase
+- shaping:
+- openness: Open-ended: it names the fictional concept as an anchor (prisoner's dilemma plus accelerants) but does not propose or lean toward any specific real-world equivalent, leaving the answer entirely open.
+- subject: Whether a real-life parallel exists to a fictional game-theory mechanic (prisoner's dilemma with accelerants) from the user's fantasy story

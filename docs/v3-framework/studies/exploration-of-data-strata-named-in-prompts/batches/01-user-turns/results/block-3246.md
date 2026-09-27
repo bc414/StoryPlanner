@@ -1,0 +1,5 @@
+- sources:
+  - my zebra great lakes system | the author's own worldbuilding system, the subject to be compared against the real-world case and assessed for its effect on the story | my zebra great lakes system | referred-to
+  - real great lakes highlands analogy | the real-world reference case, to be compared with the zebra system to find similarities and differences | the real great lakes highlands analogy | referred-to
+- order:
+- about: The user asks the model to compare their fictional zebra Great Lakes system with the real Great Lakes highlands analogy, saying where they are similar and different and whether the differences help or harm the story's and worldbuilding's goals.

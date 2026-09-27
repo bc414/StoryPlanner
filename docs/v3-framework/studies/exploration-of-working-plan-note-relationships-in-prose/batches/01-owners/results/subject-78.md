@@ -1,0 +1,33 @@
+- relations:
+  - 1142|1480|1480 gives the concrete form of the general law: enchantment holds only for the forger who is using the item|A knight must forge their own armor / only active if the one who forged... is the one currently using it|implicit
+  - 1153|1480|the demonstration plan repeats the knights-forge-their-own-gear fact stated as world truth|Griffon knights had to forge their own armor and swords|implicit
+  - 1153|1142|the plan gives the reason for greed from the law that magic is bound to the griffon's own forged tools and cannot be shared|their magic only works on their own tools / cannot be pooled, shared, or cast onto another griffon|implicit
+  - 1145|1153|two accounts of griffon greed or ego: one from evolved individualism, one from the own-tools magic; the second could sit on the first|hyper-individualistic... pride and ego / canonically greedy|implicit
+  - 1145|1142|the law ties magic to pride, which presupposes the pride default set by their evolution|inherently tied to individual pride / pride and ego their psychological default|implicit
+  - 1153|1337|1337 gives the belief that all griffons are greedy, and 1153 states that canonical greed and its reason|Readers initially think all griffons are greedy / canonically greedy|implicit
+  - 1337|1338|1338 revises the reader's first belief from greed to a wider desire for status|Aquileians update this to: all griffons want to be better than others|explicit
+  - 1338|1339|1339 continues the reader's course and narrows the view again: some griffons want peace|Readers eventually learn... some griffons want to be peaceful|implicit
+  - 1155|1142|the allegory reads the own-tool, pride-fed magic as a picture of human capital|griffons literally build their own tools which get magical enchantments from their pride|implicit
+  - 1155|1480|the warlord stage of the allegory is the knights who forged their own swords and armor|the most powerful griffons were the ones who forged their own swords and armor|implicit
+  - 1155|1153|the allegory ends on Equestrian harmony as a needed synthesis, and the plan sets Equestria's Cutie Mark system against griffon own-tool magic|Equestrian harmony / exact opposite of Equestria's Cutie Mark System|implicit
+  - 1155|1338|the allegory names Aquileian asset specificity, and the reader plan gives Aquileia's status-seeking, brand-spreading form|Aquileian asset specificity / In Aquileia, that's by being a snob and spreading your brand|implicit
+  - 1159|1142|the real-world source for own-tool magic is tool embodiment, where the tool becomes part of the body's map|Tool Embodiment/Proprioceptive Control / the tool as an extension of the arm|implicit
+  - 1159|1480|tool embodiment explains why a tool works best for the one who has mastered it, as in the forger-only enchantment|master fencer... sword / only active if the one who forged the enchanted iron is the one currently using it|implicit
+  - 1162|1142|enchanting machines they build for industrial precision extends own-made-tool magic to machinery|enchant the machine they build to run industrial processes|implicit
+  - 1162|1155|the industrial-era example sits against the allegory's industrialization stage of Bessemer and Haber-Bosch|information-era tolerances / Industrialization... Bessemer and haber-bosch|implicit
+  - 862|863|both cover Herzlander German names and how they are rendered; 863 gives the localization of the naming scheme in 862|Herzlander names are typical German first names / Gabriella Eagleclaw in Herzlander is Gabriella Adlerklaue|explicit
+  - 862|1145|a surname like Steelbeak defines the griffon by family ambition, which matches the ambition and ego default|defined by their family's ambition / pride and ego their psychological default|implicit
+- outward:
+  - 1155|feudal warlord Honest Racket, held elsewhere|the feudal warlord Honest Racket
+  - 1155|Grover III, an in-world figure or era of enlightenment and artisan workshops|Grover III's enlightenment and artisan workshops
+  - 1155|Grover IV and his gilded age|Grover IV's guilded age
+  - 1155|Coltbert's ego capitalism and skyfall cartels|Coltbert's ego capitalism or skyfall cartels
+  - 1155|Equestrian harmony, the GR political system and Aquileian asset specificity, held elsewhere|final synthesis of equestrian harmony, GR political system and Aquileian asset specificity
+  - 1153|Equestria's Cutie Mark System and the Hearth's Warming Eve source|Equestria's Cutie Mark System from Hearth's Warming Eve
+  - 1337|canon FiM depiction of griffons|Canon FiM depiction
+  - 1338|Aquileia and Herzland as societies, and the Aquileian characters|Aquileians update this to / In Herzland... In Aquileia
+  - 1339|the character Sickleclaw, in another story part|learn from Sickleclaw
+  - 863|the French EaW localization and other Herzlander characters such as Gabriella Eagleclaw|In the French EaW localization / Gabriella Eagleclaw
+  - 862|Herzlander culture and its naming|Herzlander names
+  - 1156|Griffonstone and the Hyperborean Mountains, world places held elsewhere|Hyperborean Mountains like Griffonstone
+- whole: The notes hang together around one law: griffons' magic works only on their own forged tools, and the ontology, demonstration, reader-understanding, analogy and allegory notes all bear on it, while the naming notes (862, 863) and the origin notes (1499, 1156) stand largely apart.

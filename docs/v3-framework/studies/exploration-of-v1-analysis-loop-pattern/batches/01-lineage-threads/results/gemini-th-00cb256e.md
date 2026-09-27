@@ -1,0 +1,7 @@
+- steps:
+  - the author | rule-setting | clarifies when Pinkie regains cartoon physics vs. when she must use real morale instead, citing the chapter 5 beat where she stops Rainbow Dash's song | opens the exchange
+  - the model | elaborate and validate | expands the clarification into a structured framework: magic-as-ambition mechanism, verdict on the chapter 5 beat, a two-mode split of Pinkie's role, and a contrast with the Changelings | responds to the author's rule
+- kept:
+  - note 5264 | pasted whole from this reply | keeps the dual-mode rule for Pinkie's magic (cartoon physics only in safe/healthy contexts, real morale in the trench) together with the model's elaboration of it as an ambition/intent-based trigger and a Trench-vs-Camp domain split, filed under the Pinkie Pie subject
+- brought: The author brought a refinement to the magic system establishing when Pinkie Pie's cartoon physics can and cannot activate, anchored to a specific chapter 5 story beat.
+- loop: The author brings a character-specific rule clarifying a prior worldbuilding constraint, the model turns it into an elaborated structural framework, and the planning database keeps that combined rule-plus-framework text whole under the character's subject entry.

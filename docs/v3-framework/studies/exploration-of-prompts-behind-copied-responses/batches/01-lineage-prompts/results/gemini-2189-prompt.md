@@ -1,0 +1,10 @@
+- asks:
+  - check | asks whether Tall Tale/Tally Valley (ponies bypassing the gold standard with tally sticks) is meant as an allegory for Poland | "So is Tall Tale itself the allegory to Poland?"
+  - check | flags a possible allegory to Ukraine, also agrarian, seeking confirmation or elaboration | "There also seems to be an allegory to Ukraine which is also agrarian"
+  - review | asks for another pass over the story plans specifically to find and clarify the allegories and real-history parallels present | "Please review my story plans again, searching for clarity of the allegories and parallels to real history"
+- supplies:
+  - description, summary of a story thread | the "establishing the Equestrian Republic" thread tracking grassroots, bottom-up sovereignty forming during the war while Celestia is paralyzed at the top | a couple of sentences
+- shaping:
+  - instruction to focus the review specifically on clarity of allegories and parallels to real history | "searching for clarity of the allegories and parallels to real history"
+- openness: Leans toward answers it names (Tall Tale/Tally Valley as Poland, an agrarian Ukraine parallel, and the Equestrian Republic thread as bottom-up sovereignty), while asking the model to check and expand on these specific correspondences rather than leaving the interpretation fully open.
+- subject: Reviewing a fantasy story's political-economic plot for allegorical parallels to real history (Poland, Ukraine, grassroots sovereignty vs. paralyzed central authority)

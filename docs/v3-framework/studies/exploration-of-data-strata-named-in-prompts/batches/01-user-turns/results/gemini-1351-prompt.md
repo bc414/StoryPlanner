@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether Chrysalis could sincerely hold a delusional belief that she is liberating ponies from Celestia's repressive harmony, citing the ponies' visits to Coltbert's parlors as her evidence.

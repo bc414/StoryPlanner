@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - other: coherence of the proposed scheme (it strengthens the villainous B2C retailers, so the plan may not hold together) | the model's Trojan Horse revenge hands superior machinery to the hated retail companies, and the user doubts this is consistent | "a lot of help to evil b3c visible companies. Does it still make sense?" | put as a doubting question, tentative, with the user proposing possible answers themselves rather than flatly rejecting it
+- about: The user questions whether the model's B2B-revenge scheme still makes sense given that it aids the evil retailers, then reasons toward their own resolution (revenge over worker salvation, ego capitalism, Aquileia still a kingdom, PNdA shifting from democracy rhetoric to nationalism) and adds world background.

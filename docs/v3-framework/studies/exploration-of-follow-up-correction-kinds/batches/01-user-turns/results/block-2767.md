@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a personal recollection that they tried the story and were put off by its prose, adding a new angle to the discussion of the author's background without disputing anything the model said.

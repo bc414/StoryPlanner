@@ -1,0 +1,23 @@
+- passages:
+  - 5258 | plot-summary | third-person present-tense plan statement, terse | attacking and colonizing the slaver islands, granting citizenship | run-in
+  - 5258 | real-world-comparison aside | parenthetical comparison to real history | contrasting Aquileian citizenship policy with the real French | run-in
+  - 5258 | directive/prescriptive | "It should hilariously be", corrective naming, imperative | how Dennis Discret's pirate persona should be depicted | apart
+  - 5259 | plot-summary | plain declarative plot statement | learning jaeger/statthalter/conscript distinctions from Thorax | apart
+  - 5285 | plot-summary | corrective declarative, "aren't sitting idly", battle narration | initial battle, retreat to Tall Tale base | apart
+  - 5286 | plot-summary | plain declarative plot statement | seeking Cadance after Celestia dismisses warnings, crystal mining for weapons | apart
+  - 5287 | plot-summary | plain declarative plot statement | changeling buildup, proxy wars, Olenia's surrender | apart
+  - 5297 | plot-summary | declarative narration of events | slave revolt, reconquest, appeal to Dennis, FJA's motive for war | apart
+  - 5297 | thematic-analytic exposition | quoted epithet "Poseurs", evaluative claims, present-tense generalization | Statthalters' hypocrisy as fake apex predators and cultured elites | apart
+  - 5297 | plot-summary | matter-of-fact institutional description | navy equating liberation with chasseur hunts and Coltbert Reforms | apart
+  - 5297 | real-world-comparison aside | analogy to real regional cultures (Occitan, Burgundian, etc.) | Aquileian tolerance for regional culture vs erasure | apart
+  - 5297 | plot-summary | plain declarative outcome statement | freed slaves self-erasing, timing of changeling discovery | apart
+  - 5305 | plot-summary | declarative statement of character judgment | viewing Chrysalis as a poseur over slaver islands | apart
+- shifts:
+  - 5258 | plot-summary | real-world-comparison aside | parenthetical "(unlike the real French)" appended mid-sentence
+  - 5258 | real-world-comparison aside | directive/prescriptive | new paragraph, quoted title corrected, "It should hilariously be"
+  - 5297 | plot-summary | thematic-analytic exposition | quoted epithet "Poseurs", shift to present-tense evaluative claims
+  - 5297 | thematic-analytic exposition | plot-summary | return to plain institutional description without evaluative diction
+  - 5297 | plot-summary | real-world-comparison aside | analogy "as if it is like Occitan, Burgundian, Breton, Gascon, etc."
+  - 5297 | real-world-comparison aside | plot-summary | "But" transition back to outcome statement without analogy
+- registers: plot-summary; real-world-comparison aside; directive/prescriptive; thematic-analytic exposition
+- whole: Most of these notes hold a single plain plot-summary register, but two notes (5258 and 5297) move through several registers—an aside comparing the story to real history, a directive on how to depict a character, and a thesis-driven exposition—some set off as their own paragraph and one running straight into the plot-summary sentence with no break at all.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author answers the model's apprenticeship question by stating new worldbuilding decisions: masters can't lend their machines, apprentices must build from scratch as griffon knights forged their own armor, and only poseurs are shamed. No body of material is named.

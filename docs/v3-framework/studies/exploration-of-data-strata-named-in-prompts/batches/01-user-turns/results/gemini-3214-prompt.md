@@ -1,0 +1,6 @@
+- sources:
+  - the warcraft series | the body of published game storytelling the model is asked to discuss, checking whether its story shifted under corporate mandates | What about the warcraft series? | first-named
+  - early hearthstone and the warcraft 3 cast | the user's own familiar baseline; the starting point the comparison should be anchored on | most familiar with early hearthstone and therefore the warcraft 3 cast | first-named
+  - world of Warcraft | the later game the series transitioned to, to be compared against the Warcraft 3 era for shifts in storytelling | transitioned to world of Warcraft | first-named
+- order:
+- about: The user asks whether Warcraft's storytelling shifted from the Warcraft 3 era to World of Warcraft because of corporate mandates, as was argued for StarCraft, and says which part of the series they know best.

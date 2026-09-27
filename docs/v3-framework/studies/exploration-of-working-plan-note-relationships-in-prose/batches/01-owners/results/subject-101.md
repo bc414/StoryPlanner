@@ -1,0 +1,29 @@
+- relations:
+  - 592|591|the canon role of the crystaller and its in-world reworking: one recasts the ceremonial guide as a ruling class, the other gives the working rule in which that class filters the heart|the ruling class of unicorns ... filtering; "crystallers" maintained the filtering spell|implicit
+  - 591|593|cause and consequence: because the ponies cannot run the heart without the filtering unicorns, the unicorns hold a monopoly on survival|Because the Crystal Ponies could not operate the Heart without them|implicit
+  - 591|589|presupposition: the filtering rule works on a heart already made to collect friendship and project a shield; the Crystal Faire attribution to Mi Amore is stated in both|Crystal Heart ... project the shield; Mi Amore established the Crystal Faire tradition|implicit
+  - 594|589|elaboration of purpose: the history says Mi Amore made the heart and founded the Faire, the ontology says why, to tie ponies into solidarity and refuel the heart|Mi Amore used the Crystal Heart ... Crystal Faire|implicit
+  - 594|591|explanation of source: the fuel of love and unity the ponies supply is said to come from a mandated, engineered tradition, not from innate niceness|refueling mechanism ... provided the fuel of love and unity|implicit
+  - 593|1377|overturning: the unicorns' monopoly and refusal to let anyone study the heart is answered by a plan to build a spell matrix so crystal ponies can help stabilize the heart|refused to let anyone study the Crystal Heart; spell matrix ... crystal ponies to contribute|implicit
+  - 593|601|reversal: unicorns forbade study of the heart, then Cadance and Shining Armor have researchers study it|refused to let anyone study the Crystal Heart; study the crystal heart|implicit
+  - 599|1377|cause and consequence: the trauma of slavery under Sombra is why the returned ponies need help processing it|enslaved the crystal ponies; trauma of slavery under Sombra|explicit
+  - 599|595|cause of a trait: enslavement and the curse lie behind the ponies' ambition and trauma|enslaved the crystal ponies; ambition and trauma|implicit
+  - 595|1377|instance: the general claim that the ancient ponies carry trauma is shown by the ponies needing help processing it|ambition and trauma; needed help processing the trauma|implicit
+  - 599|941|continuation in time: after the curse made the city and ponies vanish, the empire returns in 1002|made them disappear; When the Crystal Empire returns in 1002|implicit
+  - 941|600|continuation: the empire's return is followed by Celestia's attempt to Equestrianize the ponies|Crystal Empire returns in 1002; Equestrianize the crystal ponies|implicit
+  - 600|601|opposition: Celestia's plan is met by covert defiance of her orders|covertly defy Celestia's orders|explicit
+  - 601|1378|instance and continuation: the covert study of the library's spells is served by hiding the ancient-spell books before Celestia visits|study ... any other spells in the library; stash away all the books ... before Celestia visits|implicit
+  - 595|600|tension over what the ponies are like: Celestia counts on minimal memories, while the ponies are said to have ambition and trauma unlike nurtured Equestrians|minimal memories; Unlike nurtured Equestrians|implicit
+  - 941|1377|continuation: mining and trading with Aquileia is developed into trade with the University of Pridea and hiring Aquileian experts|mine it and trade with Aquileia; mine and trade crystals to the University of Pridea|implicit
+  - 941|1377|purpose and response: preparing for threats like Chrysalis is matched by a spell matrix to stabilize the heart in a crisis|prepare for threats like Chrysalis; stabilizing the crystal heart during a crisis|implicit
+  - 601|1377|continuation: Aquileian researchers brought in to study the heart lead to hiring Aquileian unicorns to build the spell matrix|Aquileian researchers ... study the crystal heart; hire Aquileian unicorns and griffons|implicit
+- outward:
+  - 592|the canon episode The Crystalling and its ceremony|In the canon episode The Crystalling
+  - 594|Grover III, the Idol of Boreas and the griffons, lore held elsewhere|Grover III used the Idol of Boreas to trick aggressive Griffons into chivalry
+  - 599|Celestia and Luna's blast with the elements of harmony, and King Sombra's story|Celestia and Luna blasted it with the elements of harmony
+  - 600|Severyana, another place or episode of failed Equestrianization|avoid the chaos of Severyana
+  - 601|Aquileia and Sunburst, held elsewhere|Aquileian researchers and unicorns like Sunburst
+  - 941|Aquileia as trading partner and Chrysalis as a threat|trade with Aquileia and to prepare for threats like Chrysalis
+  - 1377|the thestrals of the parloirs and the University of Pridea|thestrals from the parloirs; University of Pridea
+  - 595|Equestrians as a nurtured people|Unlike nurtured Equestrians
+- whole: The notes hang together as a set: the canon note, the ontology rules and the dated history follow one line from the crystaller class and Mi Amore's founding to the return and the plan to open up the heart, though the trait note (595) is tied only loosely to the rest.

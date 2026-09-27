@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | wants insight and ideas on how the chasseurs (a character group/faction) achieve organic, passionate intimacy | "Give some more insight and ideas on how the chasseurs achieve organic passionate intimacy"
+  - analyze | asks whether the character Coltbert has anything he explicitly does or says, or things left implicit/unstated, relevant to that intimacy | "Is there anything Coltbert does or say explicitly or not needed?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it asks for insight and ideas without naming a preferred direction, and poses the Coltbert question as an open query rather than stating something to confirm.
+- subject: How the chasseurs achieve organic passionate intimacy, and the character Coltbert's explicit or implicit role in it

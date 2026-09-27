@@ -1,0 +1,8 @@
+- sources:
+  - my current story plans | check against them to say whether Twilight already forgives Celestia for the Princess of Friendship mandates before the Stagnation confrontation, and advise if she should or should wait | In my current story plans, does Twilight already forgive Celestia | referred-to
+  - season 1 episode 1 directive for Twilight to go to Ponyville and make some friends | draw on it as the canon parallel for Celestia's make-some-friends line to Applejack, and expand on its impact | Mirroring her season 1 episode 1 directive | referred-to
+  - the author's clarifications on the election (referendum needing 50% to replace the monarchy, then a party question) | treat as correct and settled; they replace the model's earlier write-in-Celestia description; build the Celestial Party suggestions and the endorsement reasons on them | Some clarifications: The election is first a referendum | first-named
+  - the model's previous turn on the Celestial Party and Celestia's non-involvement | partly corrected (voters write No and Celestial Party, not Celestia's name) and partly agreed with (Celestia has no official involvement in the party) | I agree that Celestia has no official involvement | referred-to
+- order:
+  - the author's clarifications on the election | over the model's previous turn on the Celestial Party | aren't writing in Celestia's name, they are following the rules
+- about: The author builds on the model's revised Celestia-as-peer framing by supplying a scene beat mirroring the canon first episode, correcting the election mechanics, asking where in the plans Twilight forgives Celestia, and requesting Celestial Party leader suggestions and firmer reasons Celestia cannot endorse Applejack.

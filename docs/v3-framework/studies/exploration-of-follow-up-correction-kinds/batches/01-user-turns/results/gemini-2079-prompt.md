@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's seed-planting approach and asks a follow-up question, requesting more big concepts from the story that could be seeded early.

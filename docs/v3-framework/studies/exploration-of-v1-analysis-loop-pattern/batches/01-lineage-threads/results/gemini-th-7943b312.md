@@ -1,0 +1,10 @@
+- steps:
+  - the author | request | asks for examples of a narrative technique (free indirect speech) and a related mode (deep third person) drawn from famous literature | opening message of the stretch
+  - the model | analysis-with-examples | distinguishes the two concepts, supplies annotated excerpts from several classic authors, and closes with a comparison table | first reply
+  - the author | redirect | asks for the same kind of examples but drawn from K-12 curricula or popular modern pop-culture books instead of classic literature | second prompt
+  - the model | refusal | reports it cannot access that content and cannot fulfill the request | second reply
+  - the author | retry | restates the same request, spelling out both technique names again, without new framing | third prompt
+  - the model | refusal | reports the same lack of access again, unchanged from before | third reply
+- kept:
+- brought: none
+- loop: The author brought a general craft question about narrative technique, got a full worked answer, then tried to steer the same question toward more relatable, modern reference points, but the model could not deliver on that second ask twice in a row, so nothing from this exchange fed back into the plan.

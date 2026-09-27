@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about the etymology of "bildungsroman" and pre-Victorian "romance" and whether the two terms are related, without pointing at any body of material.

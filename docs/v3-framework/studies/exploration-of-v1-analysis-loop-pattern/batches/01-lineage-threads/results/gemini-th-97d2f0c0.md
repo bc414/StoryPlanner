@@ -1,0 +1,10 @@
+- steps:
+  - author | request | asks for five naming variants (real-world reference, French, English, Tzinacatl, German) for each of three drug additives | opens the stretch
+  - model | framework-setting | lays out tone rules for each language/culture (ancient/spiritual, industrial/euphemistic, clinical, tragically-soft) before giving names | start of response
+  - model | option-generation | tables three real-world-reference-linked name options per language for Additive A, the anti-empathy compound | first table block
+  - model | option-generation | tables three name options per language for Additive B, the stimulant compound | second table block
+  - model | option-generation | tables three name options per language for Additive C, the analgesic compound | third table block
+  - model | illustration | writes sample in-voice lines (scientist, changeling officer, Fluttershy, battlefield mixing) using selected names to show usage in context | closing section of response
+- kept:
+- brought: The author brought the existing setup of three chemical additive components and their associated characters/factions (Fleur Bloom's Aquileian colleagues, Fluttershy, the changeling regime) and asked for a structured naming pass across five linguistic/cultural registers.
+- loop: The author's request for systematic cross-cultural naming of established plot elements produced a full option set and usage illustrations from the model, but the exchange closed without any of that material being captured back into the planning database.

@@ -1,0 +1,6 @@
+- steps:
+  - the author | supplies external material | a YouTube video link, unexplained | opening message of the exchange
+  - the model | produces an analysis | a structured breakdown of the video's thesis, arguments, and a 'fluff ratio' estimate | sole response to the link
+- kept:
+- brought: The author brought an outside video link with no framing or stated purpose, rather than any element of an existing plan.
+- loop: The author dropped in raw external content and the model returned a self-contained summary of it, but nothing from this exchange was carried into the planning database.

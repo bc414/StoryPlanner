@@ -1,0 +1,4 @@
+- sources:
+  - Attached document (id 1Y3K5p76MPVPRkDz5rVTLns_Zwf-q6IfA), content not captured | supplied as material for the model to work from, with no instruction on how much weight to give it | Attached document: 1Y3K5p76MPVPRkDz5rVTLns_Zwf-q6IfA | first-named
+- order:
+- about: The user attaches a document and supplies a JSON list of categorized paradigms and bucket names (Epistemology, Chronology, System Mechanics, Demographics, Dialectics, Orphan Concepts) with no spoken instruction, apparently as the next batch of material for the note-sorting pipeline.

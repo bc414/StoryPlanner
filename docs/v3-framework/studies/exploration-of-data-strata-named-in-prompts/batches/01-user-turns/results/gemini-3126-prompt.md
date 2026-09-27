@@ -1,0 +1,8 @@
+- sources:
+  - TLTT story plan | treat as the frame in which Lauren Faust's original mane 6 personalities are the truth, against which the characterization is to be judged | "In the TLTT story plan I use" | referred-to
+  - Lauren Faust's original personalities for the mane 6 | treat as true, the underlying real character of each pony | "as the truth" | referred-to
+  - later has ro mandates | treat as an outside influence of the Stagnation of Harmony that gets broken down, not the true character | "influence of the Stagnation of Harmony that get broken down" | referred-to
+  - GIYC characterization of Pinkie Pie | the material to be checked for whether it makes the truth-versus-influence distinction | "in my characterization of Pinkie Pie in GIYC" | referred-to
+- order:
+  - Lauren Faust's original personalities for the mane 6 | put above the later Hasbro mandates as the truth versus the influence that gets broken down
+- about: The user asks the model to judge whether their GIYC portrayal of Pinkie Pie separates Lauren Faust's original personality, held as true in the TLTT plan, from the later Hasbro-mandated traits treated as Stagnation of Harmony influence.

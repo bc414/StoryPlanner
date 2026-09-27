@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The summary covers only part of the story, apparently stopping around chapter 126, when the file runs to chapter 552; the model treated a partial portion of the file as the whole story | 'actually goes all the way to chapter 552, not ending at 126' | flat, stated as a plain factual correction with no apology or reason given
+- about: The user points out that the model's summary stopped at about chapter 126 of a story that actually runs to chapter 552, implicitly asking for coverage of the whole.

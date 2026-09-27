@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered a comparison of direct file attachment versus NotebookLM as a source, when the user had asked about attaching a NotebookLM notebook inside Gemini Chat versus using the NotebookLM website itself | My question was about using Gemini Chat but attaching the Notebook LM Notebook | flat restatement of the original question, mildly corrective, with no apology or irritation shown
+- about: The user restates their original question to redirect the model from the wrong comparison to the one they asked, which is Gemini Chat with an attached notebook versus the NotebookLM website.

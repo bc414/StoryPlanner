@@ -1,0 +1,6 @@
+- sources:
+  - Canon EaW / default EaW (Genevieve as Skyfall's leader in the Republican Pact; Ghislain dying in 1007 followed by a race council election) | treat as the baseline that TLTT deliberately departs from; use it for recognizability and as the starting point of the subversion, not as what holds in TLTT | canonical leader of Skyfall (default ai behavior); Canon EaW has ghislain pass away in 1007 | referred-to
+  - TLTT and its materialist world building | treat as the governing authority; Skyfall is anarcho-capitalist here, Genevieve is a luxury CTO and not a moral beacon, and there is no successor chancellor | which I have taken out of TLTT in favor of anarcho capitalism; In the materialist world building of TLTT it makes sense | referred-to
+- order:
+  - TLTT | EaW canon: TLTT's anarcho-capitalist Skyfall replaces the canonical Harmonic leadership, so canon gives way where they conflict | which I have taken out of TLTT in favor of anarcho capitalism; In TLTT Genevieve's harmonic pitch of social reform would fall flat
+- about: The user accepts Genevieve Guichard as the defector character and lays out how TLTT reworks her EaW canon role (a CTO exposed by Minette, a burnout after Mount Aris, and no chancellor after Ghislain's death), then asks for a complete analysis of that Skyfall subversion.

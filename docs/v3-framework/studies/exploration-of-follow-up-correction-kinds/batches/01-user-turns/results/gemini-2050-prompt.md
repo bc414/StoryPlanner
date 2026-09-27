@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to justify a quoted phrase about word order and pronouns shifting, which does not appear in the preceding model turn, and asks why word order is allowed to change in the pipeline.

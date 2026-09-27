@@ -1,0 +1,5 @@
+- sources:
+  - Supernatural (the show, including its escalating stakes up to God) | the subject the model is asked to examine for a creator-versus-corporate-mandate dynamic; treated as the case being tested, not as settled | Does Supernatural have a Creator vs corporate mandate dynamic too | referred-to
+  - Faust vs Hasbro (the MLP:FiM creator-and-corporation dynamic) | used as the comparison template the Supernatural case is measured against; treated as an established parallel | like Faust vs Hasbro | referred-to
+- order:
+- about: The user asks a follow-up question about whether Supernatural's production history has the same creator-versus-corporate-mandate tension as Faust versus Hasbro, and suggests the show's plot escalating up to God might reflect it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's endorsement of the "hunter's spirit" phrasing and builds on it, giving the fanfic source of the wings-of-dew idea and an account of why Rarity gets butterfly wings in Sonic Rainboom, tied to Fluttershy and their reading of Putting Your Hoof Down.

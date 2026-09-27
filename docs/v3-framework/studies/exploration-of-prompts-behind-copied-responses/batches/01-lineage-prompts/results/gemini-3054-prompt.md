@@ -1,0 +1,9 @@
+- asks:
+  - explain | reconstruct and lay out, in detail, the chain of reasoning/steps that led to the stated axiom | "Give an extensive breakdown of how I arrived at"
+- supplies:
+  - stated axiom | the definition itself: "magic is ambition that affects the physical world" | a single phrase
+- shaping:
+  - depth/length: the breakdown should be "extensive" | "extensive breakdown"
+  - framing: cast as tracing the user's own path to the conclusion ("how I arrived at") rather than proposing a new idea | "how I arrived at the fundamental axiom"
+- openness: leans toward an answer it names: the axiom is presented as a fixed, settled conclusion (\"fundamental axiom\"), and the request is only to explain/reconstruct the reasoning path to it, not to question or alter it
+- subject: the reasoning trail behind a worldbuilding magic-system axiom defining magic as ambition affecting the physical world

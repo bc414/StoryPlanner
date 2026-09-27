@@ -1,0 +1,4 @@
+- sources:
+  - everything up to the start of season 8 | treat as true in-universe history that actually happened, including what the mandate did to the characters, not as authorial error or something to discard | actually happened in-universe history, including what the mandate did to the characters | referred-to
+- order:
+- about: The user corrects the model's three-layer arc reading by restating the intended design, in which the Mane 6 begin as their mandate-shaped selves and regain scaled-up Faust versions because the war breaks the mandate versions, and by affirming that everything before season 8 is real in-universe history.

@@ -1,0 +1,31 @@
+- relations:
+  - 224 | 225 | the later learning overturns the opening assumption: Equestrians expect internal collapse, then find the society was engineered against grassroots harmony | "assume Chrysalis's empire will just collapse" / "They later learn" | implicit
+  - 225 | 223 | 225 states as story fact the atomizing design that 223 gives as the general rule of totalitarian states | "turning them into interchangeable atoms" / "prevent grassroots harmony through atomization" | implicit
+  - 223 | 453 | 453 is an instance of 223's claim that the state lies that the outside world is as cruel or worse | "lie saying the rest of the world is just as cruel" / "hostile wasteland where they will be killed on sight" | implicit
+  - 226 | 223 | 226's apathy weaponised is worked out in 223: citizens kept too exhausted to connect | "weaponizes apathy" / "too exhausted to connect" | implicit
+  - 482 | 223 | 482 gives the mechanism by which friendship is replaced with a state-controlled high, which serves the atomization and lack of trust 223 describes | "replacing their organic Pink Love (friendship)" / "prevent individuals from trusting each other" | implicit
+  - 1397 | 1398 | 1398 names the general analogy (psychological Taylorism) for the mechanism 1397 shows on the catwalk | "unfiltered Emotion Sense" / "unshielded Emotion Senses" | implicit
+  - 482 | 992 | 992 gives the supply and use of red love (harvested from resisting elites, given to conscripts) whose effect on the recipients 482 describes | "Red Love" / "combat drugs for conscripts" | implicit
+  - 992 | 1414 | 1414 continues the red love supply chain to the black market and widens the sources beyond the enemy elites in 992 | "red love" / "statthalter slave islands" | implicit
+  - 1414 | 2333 | both are the war economy trading with the outside: red love sold out, rubber bought in | "sold red love to the global black market" / "buys rubber from Wingbardy" | implicit
+  - 1878 | 2401 | 2401 is an occasion of 1878's claim that skilled bauleiters and innovation serve the State | "technical, talent bauleiters" / "most advanced, bleeding-edge schematics" | implicit
+  - 1878 | 2532 | 1878's state extracts all labor while bauleiters benefit; 2532 states the same as company and employee, with the Queen valuing output | "The State extracts all labor" / "every changeling is an employee" | implicit
+  - 2532 | 2491 | 2532's conditional love for output is the performance-based dignity that 2491 calls tyranny | "conditionally, specifically, and warmly" / "moves the condition for dignity from birth to performance" | implicit
+  - 1122 | 225 | 1122 plans the delivery on the page of what 225 says readers learn: the true inner workings come out through defectors and captives | "true story and inner workings" / "They later learn" | implicit
+  - 1122 | 1878 | the intel from demoted bauleiters and elders is a route by which readers get the hidden picture of skilled workers in 1878 | "bauleiters or elders who were demoted" / "Then they learn how there are a lot of technical, talent bauleiters" | implicit
+  - 1878 | 2516 | 1878's workers and bauleiters driving the whole thing is an instance of 2516's claim that the system comes from many actors, not one | "not just Chrysalis" / "many actors, not Chrysalis's sole vision" | implicit
+  - 2602 | 2516 | 2602's material inputs (fertiliser, imported minerals, a foragers' precursor) are an instance of the material conditions 2516 says produce the New Order | "finite mines and imported" / "the world's product from material conditions" | implicit
+- outward:
+  - 224 | the Equestrians, their harmonic outlook, and the war's start, held in other owners | "the Equestrians assume"
+  - 482 | real-world social media algorithms and the Red Love/Pink Love lore | "predatory social media algorithm"
+  - 992 | the Great Leap Forward programme and the love harvesters, held elsewhere | "enables the Great Leap Forward"
+  - 1122 | Camp Fluttershy, a place or faction elsewhere | "Camp Fluttershy gathers intel"
+  - 1414 | Olenia, jaeger submarines and the black market, held elsewhere | "Defeated Viking Taxes from Olenia"
+  - 2333 | Wingbardy and New Mareland, other nations | "buys rubber from Wingbardy and New Mareland"
+  - 2401 | Skyfall's monopolies and the innovators killed, held elsewhere | "Skyfall's monopolies"
+  - 2532 | Krystalfels Handelsgesellschaft, MEFO bills, VOPS and Gilded Lily, held elsewhere | "Krystalfels Handelsgesellschaft"
+  - 2491 | the meritocratic kindergarten, an institution not described here | "The meritocratic kindergarten"
+  - 2516 | Great Mare Theory, a doctrine held elsewhere | "The refutation of Great Mare Theory"
+  - 2576 | the real historical Bismarck and German unification | "Bismarck uniting the different German principalities"
+  - 2602 | the foragers as the precursor society, held elsewhere | "precuror is the foragers"
+- whole: The notes mostly hang together around a few threads (emotional control and atomization, the bauleiter and labor extraction, the red love supply, and the reveal order with its themes), though a few entries such as the Bismarck analogy, the potato farming and the rubber purchase stand nearly alone.

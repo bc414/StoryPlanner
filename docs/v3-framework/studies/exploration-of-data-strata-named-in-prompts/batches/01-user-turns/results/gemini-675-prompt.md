@@ -1,0 +1,5 @@
+- sources:
+  - the author's own setting clarifications (Aquila as the PNdA stronghold and capital of Aquileia, Skyfall's teachings, Verany's PNdA, the FJA part of the economy) | treat as correct and use to replace the earlier version of the setting | Some clarification: The PNdA stronghold is Aquila | first-named
+  - the story plan's chapter sequence (Chapter 7 factory seizure, Chapter 9 Rockfeller's arrest, Chapter 9/10 for meeting Gilded Trust) | treat as fixed timeline and correct the placement of events to match it | Rarity seized the bad factories in Chapter 7 | referred-to
+- order:
+- about: The author corrects the setting geography, ideology origins and chapter timing from the prior proposal, then floats tentative ideas for what Gilded Trust learned abroad and for Las Pegasus as a union-free rat-race city.

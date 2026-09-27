@@ -1,0 +1,93 @@
+- passages:
+  - 36 | comparative evaluative declarative | comparative phrasing 'better society than' | Republic of Liberty vs Stagnation of Harmony compared | apart
+  - 4883 | heading/label | short category tag 'Dialectics - Thesis' | labels the thesis section | apart
+  - 4883 | analytic-expository | full sentences, defined terms in quotes | Stagnation of Harmony as necessary incubation building moral surplus | apart
+  - 4884 | heading/label | short category tag 'Dialectics - Antithesis' | labels the antithesis section | apart
+  - 4884 | analytic-expository | full sentences, quoted terms, named characters | Griffonian history mirroring human history, ambition as immune system | apart
+  - 4885 | heading/label | short category tag 'Dialectics - Synthesis' | labels the synthesis section | apart
+  - 4885 | analytic-expository | third-person description of Applejack's Republic | Adult Harmony treating ambition and harmony as simultaneous | apart
+  - 4885 | instructive rule-statement | second-person 'you must have', general rule | conditions to break the historical cycle | apart
+  - 4886 | heading/label | short category tag 'Meta-Narrative' | labels monopoly capitalism critique | apart
+  - 4886 | analytic-expository | declarative critique naming Hasbro | Stagnation of Harmony as critique of monopoly capitalism | apart
+  - 4887 | heading/label | short category tag 'Meta-Narrative' | labels post-Soviet neoliberalism section | apart
+  - 4887 | instructive rule-statement | first-person plural 'we', imperative clauses | prescription to embrace capitalism and talents over individualism | apart
+  - 4887 | cyclical aphoristic formula | named formula, repeated 'X create Y' clauses | Hopff Observation cycle of hard and good times | apart
+  - 4889 | heading/label | short category tag | labels Civic Republicanism section | apart
+  - 4889 | analytic-expository | declarative philosophical description | Applejack's Civic Republicanism vs End of History/Neoliberalism | apart
+  - 4890 | heading/label | short category tag | labels Arsenal of Democracy section | apart
+  - 4890 | analytic-expository | declarative narrative-framing statement | softness as weapon, logistics/alliance advantage | apart
+  - 4891 | heading/label | short category tag | labels Stagnant Nursery section | apart
+  - 4891 | telegraphic fragment/note-to-self | subjectless elliptical phrase | purpose of the Nursery, building moral surplus | apart
+  - 4892 | heading/label | short category tag | labels Total War section | apart
+  - 4892 | analytic-expository | past-tense narrative summary, quoted terms | characters' seduction of ambition, Harmonic Capitalism | apart
+  - 4893 | heading/label | short category tag | labels White Peace section | apart
+  - 4893 | analytic-expository | declarative past-tense claim | White Peace as pivot, Canterlot liberation's moral rot | apart
+  - 4894 | heading/label | short category tag | labels Grand Tour section | apart
+  - 4894 | analytic-expository | past-tense narrative summary | Applejack's disillusionment touring other Republics | apart
+  - 4895 | heading/label | short category tag | labels Equestrian Republic section | apart
+  - 4895 | analytic-expository | declarative synthesis description | Equestrian Republic synthesizing three prior systems | apart
+  - 4895 | aphoristic-rhetorical flourish | balanced parallel clause 'safe enough...but strong enough' | adulthood defined by protecting and defending | run-in
+  - 4896 | heading/label | short category tag | labels Trauma-Loyalty Engine section | apart
+  - 4896 | analytic-expository | declarative mechanism description | Trauma-Loyalty engine recruiting the abused | apart
+  - 4898 | heading/label | short category tag | labels Asset Specificity section | apart
+  - 4898 | analytic-expository | declarative mechanism description | status tied to talents driving striving | apart
+  - 4900 | heading/label | short category tag | labels Combined Arms Friendship section | apart
+  - 4900 | analytic-expository | declarative reframing statement | peace requiring same discipline as war | apart
+  - 4901 | heading/label | short category tag | labels Love Harvester section | apart
+  - 4901 | analytic-expository | declarative concession statement | Love Harvester enabling progress despite evil origin | apart
+  - 4949 | heading/label | short category tag | labels Energy section | apart
+  - 4949 | telegraphic equivalence-list | terse 'X = Y' lines | energy sources mapped to real-world analogues | apart
+  - 4949 | authorial to-do note | forward task phrasing 'Also need to introduce' | reminder to add oil-lobbying opposition | apart
+  - 5020 | heading/label | short category tag | labels Soviet Collapse section | apart
+  - 5020 | analytic-expository | declarative historical analysis | KGB-to-FSB continuity, rise of oligarchy | apart
+  - 5025 | heading/label | bare category tag, no subtitle | labels the meta-narrative note | apart
+  - 5025 | analytic-expository | terse 'X represents Y' statement | Luna's retreat as Western retreat allegory | apart
+  - 5025 | real-world policy-prescription | first-person possessive 'my story's trajectory argues', should-claims, named election years | call to expose collaborators and mobilize grassroots | apart
+  - 5117 | heading/label | short category tag | labels Poland allegory section | apart
+  - 5117 | allegorical-comparison | explicit simile 'is like Poland' | Manehattan's refugee mobilization compared to Poland | apart
+  - 5415 | telegraphic fragment/note-to-self | imperative-fragment, no verb subject | reminder to tie in China/Taiwan delusion | apart
+  - 5415 | tentative first-person musing | hedge 'I guess my story says' | hives hollowed out before white peace | apart
+  - 5415 | telegraphic fragment/note-to-self | bare noun phrase | infiltration theme reminder | apart
+  - 5415 | informal normative assertion | run-on normative clause, no heading polish | support for Chinese immigrants via teleporters | apart
+  - 5415 | telegraphic fragment/note-to-self | comparison fragment 'Like the tiktoks' | analogy to migration tiktoks | apart
+  - 5415 | telegraphic fragment/note-to-self | two-word thematic tag | immigration reform and dignity theme | apart
+  - 5464 | telegraphic fragment/note-to-self | two-phrase juxtaposition, no verb | armed compassion vs soft safety theme | apart
+  - 4951 | heading/label | short category tag | labels Cold War Economic Allegory section | apart
+  - 4951 | analytic-expository | declarative historical narration | Soviet collapse leading to End of History and 2008 crisis | apart
+  - 4951 | first-person authorial narration with embedded question | possessive 'in my world', closing question mark | Aquileian nationalism parallel, doubt about post-war infighting | apart
+  - 4951 | real-world policy-prescription | should-claims, direct address 'the West should do now' | applying Equestrian lessons as advice for real world | apart
+- shifts:
+  - 4883 | heading/label | analytic-expository | shift from short tag to full explanatory sentences
+  - 4884 | heading/label | analytic-expository | shift from short tag to full explanatory sentences with named characters
+  - 4885 | heading/label | analytic-expository | shift from tag to descriptive sentences about Applejack's Republic
+  - 4885 | analytic-expository | instructive rule-statement | new paragraph turns to second-person 'you must have' and general rule
+  - 4886 | heading/label | analytic-expository | shift from tag to critique naming Hasbro
+  - 4887 | heading/label | instructive rule-statement | shift from tag to first-person-plural imperative clauses
+  - 4887 | instructive rule-statement | cyclical aphoristic formula | named formula heading and repeated 'X create Y' clauses begin
+  - 4889 | heading/label | analytic-expository | shift from tag to full philosophical description
+  - 4890 | heading/label | analytic-expository | shift from tag to narrative-framing statement
+  - 4891 | heading/label | telegraphic fragment/note-to-self | shift from tag to subjectless elliptical phrase
+  - 4892 | heading/label | analytic-expository | shift from tag to past-tense narrative summary
+  - 4893 | heading/label | analytic-expository | shift from tag to declarative past-tense claim
+  - 4894 | heading/label | analytic-expository | shift from tag to narrative summary of the Grand Tour
+  - 4895 | heading/label | analytic-expository | shift from tag to synthesis description
+  - 4895 | analytic-expository | aphoristic-rhetorical flourish | closing clause turns to balanced 'safe enough...but strong enough' parallelism within the same sentence
+  - 4896 | heading/label | analytic-expository | shift from tag to mechanism description
+  - 4898 | heading/label | analytic-expository | shift from tag to mechanism description
+  - 4900 | heading/label | analytic-expository | shift from tag to reframing statement
+  - 4901 | heading/label | analytic-expository | shift from tag to concession statement
+  - 4949 | heading/label | telegraphic equivalence-list | shift from tag to terse 'X = Y' lines
+  - 4949 | telegraphic equivalence-list | authorial to-do note | shift from equivalence format to 'Also need to introduce' planning phrase
+  - 4951 | heading/label | analytic-expository | shift from tag to real-world historical narration
+  - 4951 | analytic-expository | first-person authorial narration with embedded question | shift to 'In my world' possessive framing ending in a question
+  - 4951 | first-person authorial narration with embedded question | real-world policy-prescription | shift to should-claims and direct address to 'the West'
+  - 5020 | heading/label | analytic-expository | shift from tag to historical analysis
+  - 5025 | heading/label | analytic-expository | shift from bare tag to 'X represents Y' statement
+  - 5025 | analytic-expository | real-world policy-prescription | shift to first-person possessive argument naming election years and should-claims
+  - 5117 | heading/label | allegorical-comparison | shift from tag to explicit 'is like Poland' simile
+  - 5415 | telegraphic fragment/note-to-self | tentative first-person musing | shift to hedge 'I guess my story says'
+  - 5415 | tentative first-person musing | telegraphic fragment/note-to-self | shift back to bare noun phrase 'And also infiltration'
+  - 5415 | telegraphic fragment/note-to-self | informal normative assertion | shift to full normative clause 'need to be supported not rejected'
+  - 5415 | informal normative assertion | telegraphic fragment/note-to-self | shift to comparison fragment 'Like the tiktoks'
+- registers: heading/label; analytic-expository; instructive rule-statement; cyclical aphoristic formula; telegraphic fragment/note-to-self; telegraphic equivalence-list; authorial to-do note; allegorical-comparison; real-world policy-prescription; tentative first-person musing; informal normative assertion; aphoristic-rhetorical flourish; comparative evaluative declarative; first-person authorial narration with embedded question
+- whole: Most notes here pair a bare category-tag heading with an apart full-sentence analytic-expository body, but a number of notes move further into their own apart registers — instructive rule-statements, an aphoristic cyclical formula, explicit allegorical similes, real-world policy-prescriptions, and fragmentary personal brainstorm jottings — with only one place, in note 4895, where a register change runs into the same sentence rather than standing apart.

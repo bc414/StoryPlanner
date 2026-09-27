@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the previous answer and moves on, asking for a new prompt to give the AI Studio Build tab to vibe-code a React SPA section that visualizes the sorting options.

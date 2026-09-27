@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model wrote a master prompt that embeds the full Gemini API calls, system instructions and JSON schemas for both steps, when the user wanted the Build prompt to cover only the UI pipeline scaffolding, with the two prompts perfected separately in Playground | I only want to build the scaffolding in AI studio, so the first prompt only focuses on the UI pipeline | flat statement of the intended scope, with the reason given, followed by a directive to revise
+- about: The user narrows the scope of the Build prompt to UI scaffolding only, explaining that the two AI prompts will be refined separately in Playground, and asks for a revised master prompt.

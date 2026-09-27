@@ -1,0 +1,11 @@
+- present:
+  - Henri | fetches the captured love rations, gives her the translator, remarks on it and flinches | Synopsis
+  - Fluttershy | says "wow, what a useful invention" and "Hi, I'm Fluttershy", receives the translator | Synopsis
+- mentioned:
+  - the changeling POWs | Synopsis
+- focalizer: undetermined
+- shows: ["none"]
+- sides:
+  - Fluttershy | admires the translator as a useful invention | Synopsis
+  - Henri | judges the translator soulless, made by the Herzlanders who remade Cloudbury in their image, and is proud of having learned Equestrian for its culture | Synopsis
+  - Henri | flinches at the literal translation of her name and fears the POWs will take her for a coward or prey | Synopsis

@@ -1,0 +1,87 @@
+- steps:
+  - author | brings scene concept | Luna's self-awareness of her 1000-year-old failed intervention, Celestia's Riverlands line, AJ's lash-out, Luna's "I tried" reveal | opening of the stretch, gemini:258 prompt
+  - model | analyzes and drafts | reframes Nightmare Moon as failed intervention, drafts the Riverlands-argument scene and dialogue, lays out a love-equation summary | gemini:258 response
+  - author | restates the same concept with an added requirement | repeats the scene beat and adds that it must explain why the bat ponies see Luna as a disappointment | gemini:259 prompt
+  - model | extends the drafted scene | adds the Bat Pony "General Who Quit" betrayal explanation and Applejack's counter-synthesis on top of the Riverlands/I-tried beat | gemini:259 response
+  - author | adds a new beat to the same scene | proposes Applejack saying "world peace" and Celestia visibly flinching | gemini:260 prompt
+  - model | drafts the added beat | writes the flinch sequence tying it back into Luna's reveal and explains the resulting White-Peace tension | gemini:260 response
+  - author | asks a follow-up question | how to now justify Luna's chapter-3 retreat from Tall Tale given the new backstory | gemini:261 prompt
+  - model | analyzes and drafts | frames the retreat as trauma over-correction (metabolic poison, Applejack as foil) and drafts the confrontation dialogue | gemini:261 response
+  - author | brings a new plot idea plus a confirming question | princesses' horror at Twilight's battle magic, reframes Twilight's ban from the front, asks whether selfish/lazy traits are now removed, proposes instinctive crystal-enhancer use | gemini:262 prompt
+  - model | confirms and extends | reframes the ban as corruption-prevention, explains Twilight's crystal reliance psychologically, offers to build a full outline | gemini:262 response
+  - author | draws a conclusion | states that the Twilight/Applejack relationship is the bulwark against Nightmare-Moon-style corruption | gemini:263 prompt
+  - model | confirms and delivers a document | affirms the grounding-wire metaphor and produces a full multi-act chapter-outline bible | gemini:263 response
+  - author | restates the same conclusion | repeats the TwiJack-as-bulwark statement almost verbatim | gemini:264 prompt
+  - model | reaffirms and re-delivers a document | restates the metaphor and produces a second, revised master outline with a political compass | gemini:264 response
+  - author | refines an established line | gives Luna's "Friendship is Combined Arms" line added meaning and supplies Twilight's exact ch.19 realization line | gemini:265 prompt
+  - model | analyzes and drafts | reads Luna's ch.13 line retroactively as a cure for the Nightmare and drafts Twilight's grounding-rod rebuttal in ch.19 | gemini:265 response
+  - author | brings three separate plot questions | Celestia's silence on the buffalo plea, whether SECEF should withdraw after Synovial's defeat, keeping Synovial alive as a convict | gemini:266 prompt
+  - model | answers each question | supplies a sovereignty-based excuse for Celestia, a withdrawal rationale for AJ, and a jailhouse-historian role for Synovial | gemini:266 response
+  - author | brings a detailed press-conference beat | Kemerskai's tongue-in-cheek media warning, AJ's suspicion of manipulation, reporters flipping from trivial to horrified, AJ's decision to withdraw | gemini:267 prompt
+  - model | analyzes and drafts | builds the misdirection structure (tyrant fear → comic press → horrified press) and AJ's defense of the tactics | gemini:267 response
+  - author | repeats the same beat and adds a structural question | resends the press-conference idea and asks whether the tactics interview should precede the speeches | gemini:268 prompt
+  - model | answers the ordering question and redrafts | recommends speeches-before-tactics and lays out the full staged sequence in detail | gemini:268 response
+  - author | issues a correction | clarifies that Synovial did surrender, with only half his attaché destroyed and no harm to the rest | gemini:269 prompt
+  - model | revises the analysis | reframes the horror as asymmetrical lethality rather than massacre and rewrites AJ's defense accordingly | gemini:269 response
+  - author | brings two structural additions | proposes that Trimmel/AJ's honesty secures public acceptance, and that SECEF donate its weapons while keeping its doctrine home | gemini:270 prompt
+  - model | drafts the acceptance beat and a full outline | reframes the crowd's reaction as respect, explains the weapon-donation symbolism, delivers a chapter-by-chapter master outline to the epilogue | gemini:270 response
+  - author | brings a new plot beat | Archon Eros's unconditional surrender and apology, with detailed rationale for his paternalist, non-supremacist motives | gemini:271 prompt
+  - model | analyzes and drafts | frames Eros as a Paternalist, drafts his surrender/apology scene, and addresses the fate of Grover VI | gemini:271 response
+  - author | brings two refinements | supplies Trimmel's speech-pivot opening line, and reasons through why Eros reads the weapon donation as an olive branch | gemini:272 prompt
+  - model | drafts the refinements | writes Trimmel's confession-pivot scene and Eros's "gentleman's gesture" reading of the withdrawal | gemini:272 response
+  - author | adds a psychological trigger | proposes Trimmel hearing Henri's true voice through the translator as a catalyst, contrasted with AJ's own unease about the device | gemini:273 prompt
+  - model | analyzes | triangulates AJ's, Trimmel's, and Henri's differing reactions to the translator and revises the scene's trigger sequence | gemini:273 response
+- kept:
+  - note 740 | one sentence lifted | keeps a drafted line of Luna denying the jealousy myth, placed on the PlotPoint for Celestia speaking against the plan
+  - note 818 | pasted inside the author's own framing | keeps the Bat Pony disappointment/betrayal explanation, placed on the Mali-and-Rasti debate PlotPoint
+  - note 3735 | one sentence lifted | keeps the sentence framing AJ's argument as against History itself, placed on the AJ-becomes-the-monster/Republic Link
+  - note 703 | pasted with cuts | keeps the description of Luna's physical reaction, placed on the AJ-confronts-Luna-about-retreat PlotPoint
+  - note 704 | pasted whole | keeps Luna's warning line, AJ's rebuttal, and the Red/Pink contrast note, same PlotPoint
+  - note 705 | pasted whole | keeps Luna's "I walked this path once" dialogue, same PlotPoint
+  - note 706 | pasted whole | keeps AJ's "I'd rather be hard and free" line, same PlotPoint
+  - note 2287 | pasted whole | keeps Luna's internal justification quote, placed on the Luna-reveals-the-full-truth Link
+  - note 2288 | the reply was quoting the plan | notes that the sentence on Luna feeling Rage in the trenches already existed in the plan before being echoed back, same Link
+  - note 4267 | one sentence lifted | keeps the summary sentence on Chrysalis/Celestia/Applejack-Twilight red-pink balance, placed on the Elements-of-Liberty Subject
+  - note 3654 | the author's own words in this record | keeps the author's own statement that TwiJack is the bulwark against Nightmare corruption, placed on the Luna-reveal/TwiJack Link
+  - note 4265 | pasted whole | keeps the Harmonic Republicanism definition sentence, placed on the Harmonic Capitalism Subject
+  - note 4266 | pasted whole | keeps the same Harmonic Republicanism definition, placed on the Elements-of-Liberty Subject
+  - note 3777 | the author's own words in this record | keeps Twilight's realization line about Applejack saving her from corruption, placed on the Celestia-speaks-up/Twilight-Breaking Link
+  - note 2368 | pasted whole | keeps the sentence that Luna's mistake was Solitude not Ambition, placed on the Luna-backs-Applejack Link
+  - note 2451 | pasted whole | keeps the Nightmare-Cause/Combined-Arms-Solution explanation, placed on the Luna-says-Friendship-is-Combined-Arms Link
+  - note 3778 | pasted from this reply with cuts | keeps Twilight's "you tried to keep me safe by isolating me" line, same Celestia/Twilight Link
+  - note 518 | the author's own words in this record | keeps the Kemerskai media-warning/AJ-disturbed-reaction beat, placed on the press-conference PlotPoint
+  - note 521 | the author's own words in this record | keeps the reporters-insufferable-then-horrified beat, same PlotPoint
+  - note 522 | the author's own words in this record | keeps the reporters-serious/AJ's-survival-defense/withdrawal-decision beat, same PlotPoint
+  - note 3721 | the author's own words in this record | keeps the same media-warning beat, placed additionally on the Perception-of-the-Griffonian-Republic Link
+  - note 517 | pasted whole | keeps the sentence framing the media trope as misdirection, same press-conference PlotPoint
+  - note 2598 | one sentence lifted | keeps the sentence about AJ wanting to finish the dirty work and return to farm life, placed on the Rarity's-Uniform Link
+  - note 3475 | pasted inside the author's own framing | keeps the Cultural Gap sentence plus the author's own addition on proactive adaptation, placed on the Stagnation-evolves Link
+  - note 519 | pasted whole | keeps Kemerskai's drafted warning dialogue, same press-conference PlotPoint
+  - note 520 | pasted from this reply with cuts | keeps AJ's internal monologue about dictators and censorship, same PlotPoint
+  - note 1053 | pasted inside the author's own framing | keeps the reporter-question format reused for the Meeting-with-Blueblood PlotPoint
+  - note 3718 | pasted whole | keeps the sentence "the crowd goes wild, AJ feels good," placed on the Trimmel's-Life-Story Link
+  - note 3722 | pasted from this reply with cuts | keeps the misdirection-of-prejudice framing sentence, placed on the press-conference/Perception Link
+  - note 2410 | the author's own words in this record | keeps the clarification on Synovial's control over his loyal attaché, placed on the Trimmel-accepts-surrender Link
+  - note 523 | pasted whole | keeps the Fencing-Match-vs-Guillotine perspective description, same press-conference PlotPoint
+  - note 524 | pasted whole | keeps the sentence on reporters shuddering at the lack of glory, same PlotPoint
+  - note 2409 | pasted inside the author's own framing | keeps the sentence on Synovial's rational surrender plus the author's addition about saving the runner, same Trimmel/Synovial Link
+  - note 3474 | pasted inside the author's own framing | keeps the horror-to-acceptance shift framing plus the author's "walked through hell" addition, placed on the Honesty-vs-Poseurs Link
+  - note 2383 | the author's own words in this record | keeps the Eros-surrender timeline and rationality/apology statement, placed on the Eros-Surrenders Link
+  - note 2384 | the author's own words in this record | keeps the statement on Eros's genuine care for the griffons and peace-through-strength motive, same Link
+  - note 2357 | one sentence lifted | keeps the "Emperor protects the people" philosophy sentence, placed on the Eros-admits-his-undoing Link
+  - note 2358 | one sentence lifted | keeps the surrender-realization sentence about love for his people outweighing pride, same Link
+  - note 2915 | pasted from this reply with cuts | keeps the sentence that the surrender proves Eros is not a monster, placed on the Knightly-Code Link
+  - note 3465 | pasted whole | keeps the Paternalist-philosophy/fear-of-chaos/surrender-logic block, placed on the Bottom-Up-vs-Top-Down Link
+  - note 479 | the author's own words in this record | keeps the detailed reasoning on Eros as a rational actor reading the withdrawal as mercy, placed on the Eros-Surrenders PlotPoint
+  - note 508 | the author's own words in this record | keeps Trimmel's speech-opening pivot quote and framing, placed on the Trimmel's-Life-Story PlotPoint
+  - note 480 | pasted whole | keeps the "Gentleman's Gesture" explanation, same Eros-Surrenders PlotPoint
+  - note 1483 | pasted whole | keeps the "Impact on the Voters" bullet list, placed on the Updated-Polling-Results PlotPoint
+  - note 3469 | pasted from this reply with cuts | keeps the Prepared-Speech analysis and Trimmel's realization line, placed on the Honesty-vs-Poseurs Link
+  - note 3470 | pasted whole | keeps the stage direction of AJ and Trimmel's exchanged look, same Link
+  - note 3471 | pasted whole | keeps Trimmel's "half-truth is a whole lie" speech quote, same Link
+  - note 3472 | pasted whole | keeps the description of AJ's stunned reaction, same Link
+  - note 3473 | one sentence lifted | keeps the sentence on AJ's presence making performance impossible and conscience propagating relationally, placed on the Conscience Link
+  - note 507 | the author's own words in this record | keeps the idea that Trimmel hears Henri's true voice via the translator, realizing reciprocal understanding, placed on the Trimmel's-Life-Story PlotPoint
+  - note 2926 | the author's own words in this record | keeps the "two wayward souls"/AJ's-accent-unease idea, placed on the Universal-Translator Link
+- brought: Across the stretch the author brought a running sequence of their own plot beats and refinements — Luna's hidden failed intervention, the Riverlands/White-Peace debate, Twilight's magic and the crystal-enhancer habit, the press-conference and translator scenes, and the Synovial/Eros surrenders — each new prompt building on, correcting, or adding one detail to what the model had just drafted.
+- loop: The author repeatedly brought a partial scene beat, correction, or affirmation drawn from the ongoing plan; the model turned each into dramatized dialogue, thematic analysis, and character-motivation explanations; and the database kept small pieces back out of both sides — drafted lines and framing sentences from the model's replies, and the author's own clarifying or confirming statements — scattering them across many distinct PlotPoints and Links rather than gathering them in one place.

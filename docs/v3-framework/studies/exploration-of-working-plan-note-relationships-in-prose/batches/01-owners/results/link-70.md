@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2054 | Kemerskai's own history of running for president and never stopping, and the Republic's electoral politics and external threat, held elsewhere in the plan | he never stopped running for president because he felt they needed an iron marshal
+- whole: This owner holds a single note, so there is nothing in it to hang together or fall apart; it stands as one entry.

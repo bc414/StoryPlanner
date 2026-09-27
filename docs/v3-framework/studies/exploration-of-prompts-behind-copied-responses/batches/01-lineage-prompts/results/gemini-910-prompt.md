@@ -1,0 +1,10 @@
+- asks:
+  - brainstorm | come up with a backstory explaining why Applejack's parents are absent, compatible with the peaceful "Stagnation of Harmony" lore | "How can I come up with a backstory for why Applejack's parents aren't around?"
+- supplies:
+  - lore premise | the user's invented era "Stagnation of Harmony" is characterized as perfectly peaceful | a single sentence
+  - stated belief | the show's original creative rationale (Lauren Faust keeping parents absent so young adults learn independently) offered as a design principle to honor | a couple of sentences
+- shaping:
+  - preserve narrative function | the backstory must still let Applejack (and by extension other young characters) learn/grow organically without parental figures, mirroring why the show's creator kept parents out | "keep in mind... fundamental for kids shows"
+  - avoid contradicting stated peace | the explanation can't rely on the era being violent or catastrophic, since it's established as perfectly peaceful | "Stagnation of Harmony being perfectly peaceful"
+- openness: Leaves the answer open as an unconstrained "how can I" brainstorm request, but leans it toward preserving a named design principle (no parental figures shaping the young adults' growth) and a named lore constraint (the era's peacefulness).
+- subject: Inventing a fanfiction backstory for why Applejack's parents are absent, consistent with a peaceful setting and the show's original narrative rationale for absent parents

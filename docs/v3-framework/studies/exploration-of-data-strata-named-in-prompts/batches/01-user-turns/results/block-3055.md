@@ -1,0 +1,4 @@
+- sources:
+  - the model's phase outline of the 995 events ("phase 3") | reject this part; the puppet-attempt phase does not exist, and the author's own sequence replaces it | There's no phase 3 | referred-to
+- order:
+- about: The author corrects the model's proposed timeline of the 995 revolution by deleting the puppet-attempt phase and stating their own sequence: Chrysalis moves straight to the Boyar counterrevolution, which fails, and years later the established soviet council refuses her request to invade Equestria.

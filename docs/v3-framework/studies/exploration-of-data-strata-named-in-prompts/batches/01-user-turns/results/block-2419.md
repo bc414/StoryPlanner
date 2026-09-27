@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the timeline and membership of the confederation, saying it formed a year before the war and is traditionalists only, and then floats making it an ancient voting body of tribe leaders that has existed throughout the flower wars.

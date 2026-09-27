@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further reason, introduced with "perhaps also", for why the weathering spell matrix went unused before the war (Haber-Bosch fertilizer already existed) and for why it matters after the war (farmers in remote lands own the means of production), building on the model's energy-bottleneck account without disputing it.

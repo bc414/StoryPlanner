@@ -1,0 +1,4 @@
+- sources:
+  - Grover III era texts about artisan chivalry | treat as the in-world origin the term Dienst is a corruption of; the basis for choosing the etymology | Royalists who study magical engineering are reading Grover III era texts | referred-to
+- order:
+- about: The user picks the model's Option 2, Dienst Resonantie Matrix, as the DRM expansion, justifies it with in-world reasoning about subscription fees and feudal duty, and sets Dienst as the colloquial name.

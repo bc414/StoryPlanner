@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - assumption about the user's data setup (own name) | The model's advice to introduce stable IDs treated the data as lacking them, when the underlying EF Core data already has IDs that were only left out of the JSON serialization | "They have stable IDs already since the backing data is EF Core, but those fields were not included" | flatly, as a brief factual clarification with the reason given, in passing before moving on to a new question
+- about: The user briefly clarifies that stable IDs already exist in their database and were just not serialized, then asks a follow-on question about whether to shorten descriptor names to save tokens.

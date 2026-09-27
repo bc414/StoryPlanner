@@ -1,0 +1,12 @@
+- passages:
+  - 4111 | biology-rule exposition | declarative, timeless-present statements defining a magic mechanic | crystallization as a visible sign of stored friendship/calories | apart
+  - 4111 | canon-citation narration | opens with "Example from the canon episode:" label, then narrates specific episode events as evidence | coats regaining color, the faire blast crystallizing non-crystal ponies | apart
+  - 5654 | posed question | single interrogative sentence framing a problem to be answered | why changelings and crystal ponies share the same emotion/calorie magic | apart
+  - 5654 | meta-authorial reasoning | "Doyalist explanation:" label, cites episode titles and plot points as real-world writing logic | linking Canterlot Wedding and Crystal Empire plots to justify the shared mechanic | apart
+  - 5654 | biology-rule exposition | "Watsonian explanation:" label, declarative in-universe evolutionary reasoning | both species evolving in cold, calorie-scarce environments | apart
+- shifts:
+  - 4111 | biology-rule exposition | canon-citation narration | "Example from the canon episode:" label switching from abstract rule-statement to concrete episode-referenced events
+  - 5654 | posed question | meta-authorial reasoning | "Doyalist explanation:" label switching from interrogative self-address to declarative real-world/production reasoning citing episode titles
+  - 5654 | meta-authorial reasoning | biology-rule exposition | "Watsonian explanation:" label switching from citing episode titles/production intent to in-universe evolutionary reasoning
+- registers: biology-rule exposition; canon-citation narration; posed question; meta-authorial reasoning
+- whole: This item's notes move through several distinct registers — theory-stating exposition, concrete canon-citation, a posed question, and labeled meta-authorial reasoning — each held apart by blank lines or explicit labels ("Example from the canon episode:", "Doyalist explanation:", "Watsonian explanation:") rather than blending within a sentence.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's tax and credit apartheid account by drawing out its consequence: the PNdA industrialists' aim shifts from accumulating currency to holding productive capital and market share, which the user reads as an organic move off the gold standard toward the production-backed, nationalist basis of the post-revolution franc.

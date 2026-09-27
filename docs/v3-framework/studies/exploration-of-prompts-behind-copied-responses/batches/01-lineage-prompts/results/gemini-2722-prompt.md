@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm/how-to | asks how to portray Celestia and Luna's interactions in the chapter as benevolent rather than belligerent without losing the later emotional payoff | "How can I set up the interactions ... to be benevelent instead of belligerent while still maintaining the gut punch"
+  - analysis/check | asks whether the new characterization (resigned and deferential) still preserves the intended gut-punch effect later | "I think this still works, need analysis"
+- supplies:
+  - plan detail | the discarded original characterization of Celestia as proud but terrified, and why it was judged to weaken the later gut punch | one sentence
+  - plan detail | the replacement characterization of Celestia as resigned and deferential in the chapter "Combined Arms" | one sentence
+  - plan detail | an added story beat where Celestia and Luna gain agency by helping the dreamscape aid network's civilian war effort in the following chapter "Breakthrough" | one sentence
+- shaping:
+  - constraint | whatever solution is discussed must still preserve the emotional "gut punch" of the white peace revelation later | "while still maintaining the gut punch of white peace later"
+- openness: Mixed: it opens with an unresolved how-to question about achieving a benevolent-yet-devastating tone, then asks the model to check/analyze a specific replacement choice it has already made and states its own tentative verdict on ("I think this still works, need analysis").
+- subject: Revising Celestia and Luna's portrayal in the "Combined Arms" chapter to be benevolent while preserving the later emotional impact of the white peace

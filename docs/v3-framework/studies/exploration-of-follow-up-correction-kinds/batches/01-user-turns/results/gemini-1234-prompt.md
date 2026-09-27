@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes an alternative branch to the model's scenario, in which Discret's escort navy succeeds but protects only Aquileian merchants and the revolutionary regime later keeps that policy, and they build on the plan without saying the model's version was wrong.

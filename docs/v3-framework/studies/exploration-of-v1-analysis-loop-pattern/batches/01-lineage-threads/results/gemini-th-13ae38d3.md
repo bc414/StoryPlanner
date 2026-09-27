@@ -1,0 +1,8 @@
+- steps:
+  - the author | request | asks for the Dutch Republic's historical endonym plus proposed Dutch and German endonyms for the Skyfall Trade Federation | opening prompt of the thread
+  - the model | answer-and-options | gives historical Dutch Republic names, then three alternative naming schemes (corporate, Hanseatic, hybrid) for Skyfall with rationale, a recommended endonym/exonym pair, and sample character dialogue lines | first response
+  - the author | source-check | asks whether Empire at War's official Dutch/German localization already names this in-game faction, seeking canon to align with | second prompt
+  - the model | verdict-and-refinement | reports no fixed official localized name exists, confirms creative freedom, reaffirms the Dutch endonym and German exonym with added cultural nuance, and extends the per-character usage guide with a French exonym and another character's usage | second response
+- kept:
+- brought: The author brought a naming question rooted in the story's existing linguistic-coding scheme (Skyfall as Dutch-coded, Herzland as German-coded) and its established "Merchants of Death"/"Ruthless Capitalism" themes, asking for both real-world historical grounding and invented endonyms.
+- loop: The author poses a linguistic/naming question tied to the plan's faction-coding and checks it against an external source for canon constraints; the model supplies layered naming options and a recommendation each time, but none of this naming work is recorded as a kept note in the planning database in this stretch.

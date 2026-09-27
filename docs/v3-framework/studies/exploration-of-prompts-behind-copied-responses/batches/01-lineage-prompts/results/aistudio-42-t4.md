@@ -1,0 +1,13 @@
+- asks:
+  - revise | redo an earlier (unshown) character analysis of Mali now that she is not meant to be a baseline pacifist | "Redo this analysis with the clarification that Mali is not intended to be a total pacifist eagle as a baseline"
+  - explain | unpack the nuance of how Mali sits between the pure pacifist-eagle type and the jaguar/eagle synthesis type | "Please unpack the nuance here. Mali seems to sit somewhere in between..."
+  - confirm/evaluate | judge whether the right way to frame it is that Mali can personally hold both eagle and jaguar traits but does not push others to grow up the way the synthesis figure might | "Is it that she herself can be both, but doesn't make others grow up?"
+- supplies:
+  - character background | Mali's job at an Aquileian-influenced parloir and her resulting worldliness about adult ambition | one sentence
+  - plot detail | Mali and Applejack meeting in chapter 1 as army escapees, and Mali firing a machine gun alongside Applejack in chapters 1 and 3, contrasted with what Fluttershy would do | two sentences
+  - plot-order fact | Mali persuading her mother and home tribe to abandon isolationism and join the war effort in the chapter "Tempest," which precedes Fleur's lesson in the chapter "Passion" | one sentence
+- shaping:
+  - no instruction on length or format is given, only the topic to unpack | "Please unpack the nuance here"
+  - frames the discussion around a named contrast (pacifist eagle vs. jaguar/eagle synthesis) that the reply should address | "sit somewhere in between a pacifist eagle and a the jaguar/eagle synthesis"
+- openness: Leans toward an answer it names — it proposes a specific reading ("she herself can be both, but doesn't make others grow up") for the model to confirm or refine, while also supplying new plot facts as established context to fold into the redo.
+- subject: Reconciling Mali's character (pacifist-eagle vs. jaguar/eagle synthesis) with new backstory and scene details, plus the Tempest/Passion chapter order

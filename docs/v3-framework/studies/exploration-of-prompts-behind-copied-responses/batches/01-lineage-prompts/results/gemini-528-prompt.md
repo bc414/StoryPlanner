@@ -1,0 +1,7 @@
+- asks:
+  - analyse | examine the theme entities defined in the story plan and characterize them | "Give me an analysis of the theme entities in this story plan"
+  - evaluate | judge whether some of those theme entities could be merged or reduced in number | "whether there is potential for consolidation"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it asks for an analysis and poses a yes/no-plus-reasoning question about consolidation potential without naming which entities might merge or what the outcome should be.
+- subject: The theme entities within a story plan, and whether they overlap enough to be consolidated

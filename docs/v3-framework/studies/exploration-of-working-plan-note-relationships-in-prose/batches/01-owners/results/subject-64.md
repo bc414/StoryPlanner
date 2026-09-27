@@ -1,0 +1,38 @@
+- relations:
+  - 1068|1069|continues in time: the failed predatory tractor company is then bought out by Comet Shine|bought it from the tycoons who wanted a quick exit|implicit
+  - 1069|1074|continues in time and expands: Comet Shine's purchase leads to his loans letting workers buy out other failing companies|Comet Shine started providing honest loans|implicit
+  - 1074|1069|instance of the same branding: the Star Energy name Comet Shine put on the logo persists in the worker-owned factories|keeping the Star Energy branding anyway|implicit
+  - 1074|1075|cause and result: worker buyouts and loans produce the network of cooperatives|newly worker-owned factories|implicit
+  - 1075|1080|reason for the state: independent factories cooperating under one family name is a way for Tall Tale to appear superior to Las Pegasus|independent factories all cooperating under a family called "Star Energy Corporation"|implicit
+  - 1072|1074|the note to self frames how the company grew into a cooperative; 1074 gives that growth story|how it grew into a cooperative like Mondragon|implicit
+  - 1072|2305|scope boundary: the wider harmonic capitalism system belongs elsewhere, while 2305 dramatizes its application to the Tzinacatl|Harmonic Capitalism|implicit
+  - 1075|1081|continues in time: the cooperative network later votes into a wartime command economy|all of Tall Tale's industrialists, farmers, and civilians voted|implicit
+  - 296|297|continues in time: work with Pridea is followed by further work with the Crystal Empire on the same magical engineering|further developing magical engineering|implicit
+  - 1081|1894|cause and occasion: the wartime command economy underlies the retrofit of the plant to munitions scale|For war, it was retrofitted with massive industrial scale|implicit
+  - 1081|1895|cause and occasion: the war footing explains the factories' conversion to trucks for supplies and tank R&D|tractor factories become mainly truck factories for supplies|implicit
+  - 1894|2366|delivery on the page of a false first impression: the machines Applejack sees look like brutalist Skyfall exploitation|Skyfall-style industrial exploitation|implicit
+  - 1895|2366|the same misleading first impression is planned to be corrected later, with the factories' true use hidden at first|To be revealed later|implicit
+  - 2366|1080|revision: the reader's and Applejack's early reading of Star Energy as extractive corporate power is contrary to its rooting in Tall Tale's cooperative culture against Las Pegasus corporations|Skyfall Extractive Capitalism|implicit
+  - 2305|2366|contrast: the harmonic approach is set against the Skyfall extractive approach the reader first assumes|contrasts with the Skyfall approach|implicit
+  - 2305|1895|same paradigm: capital to raise yields from existing supply, as tractors were for earth ponies|Same paradigm as tractors for earth ponies|implicit
+  - 1894|1890|presupposition: the packaging plant handles the earth pony product that 1890 describes being packaged|packaging plant|implicit
+  - 1894|1083|reason: earth pony soil is dug up for munitions, matching the white phosphorus drawn from that soil|white phosphorus they use from earth pony soil|implicit
+  - 1895|1083|canon tie: the tank factory and munitions R&D echo the in-game artillery designer|artillery designer|implicit
+  - 1891|1890|analogy for the practice: provenance is written on the product as Five Guys names the potato town|Same for fertilizer exporters from Tall Tale|explicit
+  - 1890|1892|reason for the stamping: Aquileian buyers want a specific farm's batch, so farm name and location matter|specific batch of high-yield potassium from a specific Tall Tale orchard|implicit
+  - 1891|1892|analogy and instance: provenance-conscious buyers who care where the product came from|where the potatoes came from|implicit
+- outward:
+  - 296|the University of Pridea, an institution held elsewhere|Worked with the University of Pridea
+  - 297|the Crystal Empire, a separate realm|Worked with the Crystal Empire
+  - 1072|a separate subject entry on the wider civilizational system|Harmonic Capitalism
+  - 1072|the real-world Mondragon cooperative|like Mondragon
+  - 1080|Las Pegasus and its corporations, held elsewhere|culture war with Las Pegasus
+  - 1081|the changeling war, a separate story event|A month before the changeling war began
+  - 1083|the Equestria at War game focus this is drawn from|in-game EaW focus
+  - 1891|the real-world Five Guys restaurant chain|at Five Guys they write on a whiteboard
+  - 1892|Aquileia and the FJA volunteers, held elsewhere|Aquileian FJA farmers
+  - 2305|the Tzinacatl and the Skyfall approach, held elsewhere|for the Tzinacatl
+  - 2366|Flim & Flam and Applejack and her family|Flim & Flam "Skyfall Extractive Capitalism"
+  - 1894|Applejack's scene at the plant|as Applejack witnesses them
+  - 1074|the poseur tycoons and harmonic capitalism business model, held elsewhere|harmonic capitalism business model
+- whole: The notes hang together fairly well as a set: a history chain from tractor failure through buyout to cooperative network and wartime economy is echoed by the reader-plan notes about hidden wartime retrofits and the fertilizer trade, though the activities notes and analogy notes sit mostly apart.

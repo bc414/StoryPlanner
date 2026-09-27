@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding analysis of the Changeling linguistic hierarchy (Wächter, Jäger, the copy of Aquileian terms) | accepted as fitting the author's plan and built on, not corrected | This is perfect because | referred-to
+- order:
+- about: The author approves the model's analysis and adds story-plan detail on how the leads' early misreading of the changelings as Reich-style imperialists will give way to the reveal that Chrysalis's real government copies Aquileian and Griffonian republican models in tyrannical form.

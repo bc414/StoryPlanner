@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether "Oblivion" is the best chapter-title word for drug abuse and escapism, or whether there are more poignant alternatives, without pointing at any body of material.

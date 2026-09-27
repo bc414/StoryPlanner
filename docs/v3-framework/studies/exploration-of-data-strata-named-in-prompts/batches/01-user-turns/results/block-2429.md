@@ -1,0 +1,6 @@
+- sources:
+  - P&K, the behavior of the Moonspeaker Conclave there | to be examined and sorted, to work out which of its behaviors are inherited from ASOIAF conventions; not treated as settled or correct | what parts of the behavior in P&K comes from ASOIAF conventions | referred-to
+  - ASOIAF conventions | treated as a suspected origin of some of P&K's Conclave behavior, to be identified and possibly moved away from | comes from ASOIAF conventions | referred-to
+  - Aztec materialist historicist study | offered as a possible grounding for the user's version of the Conclave; the user asks whether to adopt it, so it is a proposal, not settled | ought my version be like grounded in Aztec materialist historicist study | referred-to
+- order:
+- about: The user asks the model to work out what the Moonspeaker Conclave would be like and do in their story, to separate out which of its behavior in P&K comes from ASOIAF conventions, and to say whether the version should instead be grounded in materialist historicist study of the Aztecs.

@@ -1,0 +1,13 @@
+- passages:
+  - 5294 | statement about the subject | why Chrysalis chose the Canterlot Wedding: slave trade slowing under the Storm King's warlord front, hives united with no nobility left to harvest, noble yields falling from despair, so the hives faced running out of love | none | causal explanation of motive, no moment shown
+  - 5294 | statement about the subject | outcome and present predicament: she ended the hive wars but must now turn outward to keep her MEFO ponzi scheme going | none | summary of state of affairs, 'achieved her goal... but now must'
+  - 5294 | statement about the subject | ongoing background fact that she is sinking vast resources into bankrupting the holdout classmates | none | continuing condition ('has been sinking'), no single moment
+  - 5288 | statement about the subject | rationale for bringing the Statthalters to the decapitation strike despite knowing they are rabid dogs: the dual state, and keeping the bauleiters from getting comfortable enough to oust her | none | reasoning about her position, 'because of the dual state'
+  - 5288 | scene beat without a year | she puts the Statthalters through a grueling specialized boot camp to suppress their predatory instincts for the stealth mission | none | a past action stated as a done event, no date
+  - 5288 | statement about the subject | what the plan was: a surgical, bloodless corporate takeover to implement the Bauleiter 'Love Tax' | none | 'The plan was...' description of the plan
+  - 5289 | scene beat without a year | after draining Cadance and Shining Armor's intense love, Chrysalis is high and foggy, forgets her discipline and slides back into the 'Predator's Dilemma' instincts | none | event of draining followed by its effect, no date
+  - 5289 | statement about the subject | characterisation of her lapse: she stops acting like a geopolitical CEO and acts like a starving bug at an all-you-can-eat buffet | none | metaphorical description of her behaviour
+  - 5290 | statement about the subject | the Canon Order 'Go! Feed!' named as a fatal military flaw | none | labelled as a flaw, evaluative
+  - 5290 | statement about the subject | even some novice, repressed jaegers, Thorax among them, obey the order | none | general claim about who takes the order, no specific moment
+- sequences:
+- whole: A small set of analytic planning notes on Chrysalis's motives, methods and lapse around the Canterlot Wedding, made up almost entirely of statements about the subject, with only two undated, past-tense actions (the Statthalter boot camp and her draining-induced lapse) and no dated or ordered sequence.

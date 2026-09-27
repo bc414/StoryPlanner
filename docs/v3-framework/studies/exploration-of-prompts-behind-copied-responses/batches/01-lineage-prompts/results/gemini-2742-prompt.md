@@ -1,0 +1,13 @@
+- asks:
+  - invent | propose an in-world device (a crystal matrix) that lets Fleur Bloom give the Tzinacatl enhanced echolocation range, built in a specified stretch of story time and modeled on how the Star Spade works | "what if Fleur Bloom invents a crystal matrix... It should operate like the Star Spade"
+  - name | supply a name for the invented crystal-matrix device | "What would it be called?"
+  - extend/brainstorm | consider whether the same invention could be developed further into a sonar system able to detect changeling submarines | "Can this then be extended to make sonar which can detect changeling submarines?"
+- supplies:
+- shaping:
+  - device must function as an echolocation-range enhancer for the Tzinacatl | "enhance the range of their echolocation"
+  - device must operate on the same principle as the existing Star Spade item (enhancing special talents) | "It should operate like the Star Spade, enhancing special talents"
+  - invention must be placed in a specific narrative window, between the Combined Arms meeting that creates the bluebell river spearhead plan and the spearhead's execution | "During the time in between the Combined Arms meeting... and the actual execution of the spearhead"
+  - inventor is specified as Fleur Bloom | "Fleur Bloom invents"
+  - reply must include a proposed name for the device | "What would it be called?"
+- openness: leans toward an answer it names: it proposes the "what if" invention itself (a crystal matrix modeled on the Star Spade) and asks the model to supply a name and to say whether it can be extended into submarine-detecting sonar.
+- subject: inventing a Star-Spade-like crystal matrix device for the Tzinacatl's echolocation, and its possible extension into anti-submarine sonar, within a specific window of the story's timeline

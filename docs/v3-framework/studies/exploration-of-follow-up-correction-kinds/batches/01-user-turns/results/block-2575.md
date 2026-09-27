@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The story's intended audience is restated as the professional class the author belongs to, not the manosphere or the masses. The model's turn had listed the manosphere among the things the story connects, and had said a pony war story would not reach Morning Brew's readers directly. | "My story's target for the thesis isn't the manosphere or the masses, it's the professional class like myself" | Flat clarification, given in passing after accepting the reframing, with a reason from the arc's design and the author's own position, and no marked disagreement
+- about: The user accepts the reframing, supplies the Morning Brew article for cross-checking, restates that the story is aimed at the professional class rather than the manosphere, and then asks whether manosphere people play strategy games like Hoi4 and whether some are former bronies.

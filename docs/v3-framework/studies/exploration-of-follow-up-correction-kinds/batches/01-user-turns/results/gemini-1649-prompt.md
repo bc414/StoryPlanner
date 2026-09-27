@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Applejack's inner reaction after the mass-harvest spell: the model has her humbled, ego broken and not angry, but the user wants a lingering unspoken annoyance beneath the humility | Maybe Applejack feels humbled but I think it should still be an unspoken annoyance | Hedged partial concession followed by a stated preference, offered as the user's own view
+  - reading of the plan | The model presented the spell as a full thematic reconciliation and made Twilight the accepted exception to Applejack's rule, but the plan has AJ yelling at Twilight over magic at Winter Wrap Up next, with the real resolution only 11 years later through Fleur Bloom's earth pony magic finding | The next event is during Winter wrap up when AJ yells at Twilight for using magic | Matter-of-fact, given as plan information that the model's tidy resolution runs against, without saying the model was wrong
+- about: The user softens the model's claim that Applejack is simply humbled and reconciled by pointing to the planned Winter Wrap Up conflict and the later Fleur Bloom earth-pony-magic reveal that actually resolves it.

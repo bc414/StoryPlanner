@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own idea for an earlier, different way to first reveal Applejack's parents (Comet Shine naming them as classmates in chapter 2), building on the model's cohort lore instead of disputing anything in it.

@@ -1,0 +1,6 @@
+- sources:
+  - the cynical older fan interpretation | a fandom reading of the show that the author reports as a contrast; not adopted for the story, held up as the view his own differs from | the cynical older fan interpretation is that the castle of friendship mandate literally destroyed the organic cozy library | referred-to
+  - Castle Sweet Castle | published episode cited as canon evidence, treated as a decently executed response to the backlash that made Twilight's grief for her old home real | Castle Sweet Castle was a decently executed attempt to respond to the backlash | first-named
+  - my optimistic interpretation | the author's own reading of the library and castle, offered as the one the story rests on: the surface was replaced but the thematic core survived underground to be reused | My optimistic interpretation is that the surface level was replaced | first-named
+- order:
+- about: The user answers the model's praise of the underground-basement idea by setting the fandom's cynical reading of the Castle of Friendship (with Castle Sweet Castle as partial redress) against his own optimistic reading, in which the library's thematic core survives below the replaced surface.

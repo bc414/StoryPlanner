@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new worldbuilding about how the Wings of Dew spell reveals true feelings and softens Aquileian culture, and asks how it can be tied into magic-based verification systems for the Tableau de Chasse.

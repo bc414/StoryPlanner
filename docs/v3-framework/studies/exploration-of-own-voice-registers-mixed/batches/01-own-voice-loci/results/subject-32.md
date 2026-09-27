@@ -1,0 +1,12 @@
+- passages:
+  - note 4276 | expository reasoning | causal "So", technical term "charitostatic effect", discount mechanic | Cadance's talent and the magic discount on the conception spell | run-in
+  - note 4276 | plain clarifying aside | parenthetical plain gloss "(a baby)" | what the conception spell produces | run-in
+  - note 4277 | expository reasoning | declarative rules, connectors "in order to", "so", "because", "But" | alicorn ascension mechanics and the 3x power scaling | apart
+  - note 4331 | informal causal shorthand | slang "jaeger high", chained "because...and then...since", trailing off | why Cadance and Shining Armor had time to prepare the spell | apart
+  - note 4332 | expository reasoning | declarative, specific date "1002", motive explanation with "because" | why Chrysalis hates Cadance and the wedding she crashed | apart
+  - note 4332 | fragmentary appositive note | verbless noun-phrase continuation after a full stop | Chrysalis's first failure and her motive against the griffons | apart
+- shifts:
+  - note 4276 | expository reasoning | plain clarifying aside | parenthetical gloss "(a baby)" clarifying the abstract phrase, no sentence break
+  - note 4332 | expository reasoning | fragmentary appositive note | sentence break into a verbless noun-phrase fragment
+- registers: expository reasoning; plain clarifying aside; informal causal shorthand; fragmentary appositive note
+- whole: These notes sit mostly in one brisk explanatory-reasoning manner running from note to note, with note 4276 briefly loosening into a plain parenthetical gloss inside its own sentence and note 4332 breaking, after a full stop, into a verbless fragment, while note 4331 stands apart in a looser, slangier causal shorthand.

@@ -1,0 +1,4 @@
+- sources:
+  - original plan for harmonic capitalism being revealed here | treat as the author's earlier plan that has been changed; the reveal is now moved later, so not to be assumed for this scene | I originally planned on harmonic capitalism being revealed here but decided to move it later | referred-to
+- order:
+- about: The author asks whether introducing the Stagnation of Harmony this early is premature, given they moved the harmonic capitalism reveal later, and proposes a middle option in which Fleur names the concepts only to demystify Celestia while Applejack takes it as fancy talk.

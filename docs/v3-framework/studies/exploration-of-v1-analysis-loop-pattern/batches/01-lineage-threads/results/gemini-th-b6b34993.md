@@ -1,0 +1,32 @@
+- steps:
+  - the author | line correction with clarification | reworded key line plus backstory on Applejack's deference to Celestia, the no-conscription rule, and the planned reversal at white peace | gemini:133 prompt
+  - the model | thematic analysis | breaks the reworded line into what it implies about Applejack's self-image, the tragedy of a respectful break, and Celestia's snap-back to stagnation | gemini:133 response
+  - the author | restatement with expanded arc | reframes the line's meaning around Celestia picking Applejack only for being an Element Bearer and traces her growth across chapters, then asks if it fits the themes | gemini:134 prompt
+  - the model | analysis plus sample dialogue | reads the reframed motive as betrayal-by-convenience, draws a parallel to Trimmel, and sketches a confrontation exchange | gemini:134 response
+  - the author | same restatement, one addition | repeats the prior framing verbatim and adds that a real Star Energy/Aquileia veteran should have led instead | gemini:135 prompt
+  - the model | analysis plus refined dialogue | recasts the point as negligence rather than ambition and produces a polished confrontation speech | gemini:135 response
+  - the author | new plot material | introduces Trimmel's rise from the ashes of Vraks and Comet Shine's rebuffed security warning, and calls for the meritocracy line to anchor the POW-camp scene | gemini:136 prompt
+  - the model | multi-scene drafting | drafts the Comet Shine factory scene, the Trimmel POW exchange, and the white-peace confrontation carrying the meritocracy line | gemini:136 response
+  - the author | structuring request | lays out a beat-by-beat outline for an AJ-Celestia dialogue about Trimmel and Vraks ending in the meritocracy line | gemini:137 prompt
+  - the model | full dialogue draft | writes out the scripted exchange following the outline and explains why each beat lands | gemini:137 response
+  - the author | repeat outline with thematic gloss | resubmits the same dialogue outline and adds interpretive notes about Celestia's willful ignorance and changeling motives beyond predation | gemini:138 prompt
+  - the model | revised dialogue draft | rewrites the scripted exchange incorporating the added gloss and restates why it works | gemini:138 response
+- kept:
+  - note 2597 | the author's own words in this record | Applejack's guilt over disagreeing with Celestia, applied to why she refuses the new uniform
+  - note 4492 | the author's own words in this record | the full clarification of Applejack's deferential history with Celestia, kept under the Republic's founding
+  - note 1506 | pasted whole from this reply | the model's reading of Applejack shedding her fraud feeling, kept under the meritocracy plot point
+  - note 1516 | pasted whole from this reply | the model's framing of Celestia's non-intervention as trust turned betrayal, kept under Emotional Arguments
+  - note 1512 | pasted whole from this reply | the model's subtext/betrayal reading of the White Peace as dismissal, kept under Emotional Arguments
+  - note 1513 | pasted whole from this reply | the model's sink-or-swim contrast between Celestia's and Applejack's roles, kept under Emotional Arguments
+  - note 2612 | pasted whole from this reply | the model's one-line Trimmel/Applejack parallel, kept on the Celestia-and-Luna confrontation link
+  - note 1514 | pasted whole from this reply | the model's phrasing of the White Peace as trivializing Applejack's transformation, kept under Emotional Arguments
+  - note 1515 | pasted whole from this reply | the model's statement of why Applejack refuses to stand down, kept under Emotional Arguments
+  - note 2418 | the reply was quoting the plan | the model's restatement of the author's own Comet Shine/Pinkie point, kept on the Trimmel/Vraks link
+  - note 2636 | the reply was quoting the plan | the model's restatement of the author's own point about Applejack's misplaced shame, kept on the Emotional Arguments link
+  - note 3558 | pasted whole from this reply | the model's summary of Celestia's destiny-based system, kept on the Rejecting Destiny link
+  - note 1500 | the author's own words in this record | the outline of the Trimmel/Vraks dialogue beats, kept under the meritocracy plot point
+  - note 1501 | the author's own words in this record | the outline of Chrysalis's offer to Vrakian drones as Trimmel's origin, kept under the meritocracy plot point
+  - note 3555 | pasted whole from this reply | the model's line distinguishing Chrysalis's goals from her methods, kept on the meritocracy/repurposed-accelerants link
+  - note 1503 | the author's own words in this record | the interpretive notes on Celestia's walled garden and changeling motives beyond predation, kept under the meritocracy plot point
+- brought: The author brought a reworded confrontation line together with escalating backstory and plot connections (Applejack's deference to Celestia, Trimmel's rise from Vraks, Comet Shine's ignored warning) meant to justify the 'meritocracy' line and the White Peace break.
+- loop: The author states a character motive or scene outline in increasing detail, the model returns thematic justification and scripted dialogue for it, and the planning database keeps the author's own restated motives as plot-point notes while lifting the model's supporting phrasing onto the same points and their links.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's asymmetry idea and extends it to Skyfall's artisan-made three-way valves, then asks for a real-world analog of the artisan-retention or exploitation model and tells the model to re-review the story plans before answering.

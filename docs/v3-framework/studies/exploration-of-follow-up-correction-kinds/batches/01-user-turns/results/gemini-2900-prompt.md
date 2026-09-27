@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model stretched the ambition-rooted prefix Thymo over the translator and recommended one umbrella science, Thymodynamics. The user says Thymo covers only ambition, which fits the Idol of Boreas, and the translator's effect is communicative intent, so Volo fits it better. | "Thymo is specific to ambition" and "Volo is better for the universal translator's effect because it's not just about ambition but communicative intent" | Stated flatly as an observation with a reason, softened by "It seems like", and with no irritation. It partly accepts the model's own options and redirects the choice among them.
+- about: The user pushes back on the model's single Thymo-based umbrella and assigns terms by meaning, Thymo for the Idol's ambition and Volo for the translator's communicative intent.

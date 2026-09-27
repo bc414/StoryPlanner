@@ -1,0 +1,5 @@
+- sources:
+  - my existing plans for Trimmel | the baseline to be analyzed against the Rommel material and then enhanced; the user also treats it as confirmed valid by Rommel's history and as the basis for Trimmel's second arc | analyze my existing plans for Trimmel | referred-to
+  - excerpts and notes from Erwin Rommel's Wikipedia page | reference material to compare Trimmel against and mine for ideas to build up his arc and character; the user's own comments are interleaved and treat it as parallel to Trimmel's story | following excerpts and notes from Erwin Rommel's Wikipedia page | first-named
+- order:
+- about: The user pastes excerpts from Rommel's Wikipedia page with their own running comments on how each maps onto Trimmel and Chrysalis, and asks the model to compare their existing Trimmel plans with it and suggest ways to strengthen his arc and character.

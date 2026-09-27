@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the tank-killing analysis to a new request, asking for a component-by-component weight breakdown of the Bf 109, what it means for the 15-second figure, and a matching breakdown for the Wonderbolts Spitfire, without disputing anything in the model's answer.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Luna's psychology as a failed protector who retreats in grief and trauma, with her stance a mask. It resembles the pathetic or survivor's-guilt Luna the user says they are subverting, and the user says her alignment with Celestia is genuine, from her Nightmare Moon experience. | "A note on Luna's perception"; "I'm planning on subverting both"; "genuinely aligns with Celestia's stances" | Indirect and mild. It is framed as a note about the user's plans and set against common genre portrayals. The model's reading is never named as wrong.
+- about: The user adds a note on how Luna is meant to be read, setting it against common portrayals and the model's grief-and-failure framing. They explain the planned subversion through Nightmare Moon's origin and mention that Luna ends up backing Applejack.

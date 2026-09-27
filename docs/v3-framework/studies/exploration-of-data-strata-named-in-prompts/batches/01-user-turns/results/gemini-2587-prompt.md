@@ -1,0 +1,6 @@
+- sources:
+  - the etymology of "Application" for software programs | asks the model to supply and draw on this etymological knowledge as basis for an in-world term | marked by "What is the etymology of 'Application' for software programs and how can it be applied?" | first-named
+  - my world | use as the constraint to check any new term against, since it lacks silicon transistors and this would be its first in-universe use of the concept | marked by "Since my world doesn't have silicon transistors, this would the first in universe use" | referred-to
+  - French/Aquileian terminology | use as the disguise/source material to construct a term that hides the modern software connection and sounds mystical to English readers | marked by "hide it into French/Aquileian terminology to make it sound mystical to English readers at first glance" | first-named
+- order:
+- about: The user asks for the real-world etymology of "application" (software sense) and how to adapt it, disguised as French/Aquileian-sounding terminology, into their transistor-less fictional world as its first in-universe use of the concept.

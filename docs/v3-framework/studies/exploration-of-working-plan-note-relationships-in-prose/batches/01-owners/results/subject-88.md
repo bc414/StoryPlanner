@@ -1,0 +1,21 @@
+- relations:
+  - 165 | 1465 | continuation and instance: the griffon comparison stated as the purpose is carried into the outcome, where earth ponies out-dig any griffon | earth pony version of griffon magic / faster than any griffon ever could | implicit
+  - 1463 | 1465 | revision: the function note gives the spade as a tool to make earth easier to till, and the other says it began as farming and was then pushed by experimentation into being destructive against the earth | crystal pattern / initially just for farming | implicit
+  - 165 | 1463 | the general purpose (earth pony counterpart to griffon magic) is given a mechanism, a crystal pattern that concentrates earth pony magic | earth pony version / capture, redirect and concentrate earth pony magic | implicit
+  - 1466 | 1465 | the canon source (Earth Pony Sappers) is what the entrenchment-digging development recontextualizes | Earth Pony Sappers / fastest entrenchment diggers | implicit
+  - 1465 | 159 | instance: the entrenchment digging described as an effect is shown on the page when Henri hands over a shovel to dig trenches | fastest entrenchment diggers / dig the trenches | implicit
+  - 159 | 1463 | the plan to reveal the shovel as magical presupposes the magic the function note defines | discovers that it's magical / earth pony magic | implicit
+  - 159 | 165 | Applejack's discovery that it is tied to earth pony pride rests on the invention as the earth pony answer to griffon magic | earth pony pride / earth pony version of griffon magic | implicit
+  - 160 | 161 | reason: the claim that industry needs no slavery is grounded in the spade being enhancement rather than automation | industry without slavery / not automation, it is enhancement | implicit
+  - 163 | 160 | the reader's reversal of the shovel as a symbol of servitude is the same point as the theme that industry does not need slavery | symbol of servitude / industry without slavery | implicit
+  - 163 | 161 | the subversion of servitude is supported by the claim that the spade improves human capital instead of feeding predation | serfs can't use it / economic predation model | implicit
+  - 159 | 160 | delivery on the page of the thematic claim: Applejack uses the spade to kill Pagala on Celestia's throne, enacting Celestia being proved wrong | on Celestia's throne / proves Celestia wrong | implicit
+- outward:
+  - 1466 | canon material held elsewhere, the EaW source that has Earth Pony Sappers | Earth Pony Sappers technology from EaW
+  - 165 | the character Fleur and griffon magic, both held elsewhere | Fleur invented the star spade / griffon magic
+  - 1465 | griffons as diggers and the entrenchment warfare they are compared against | faster than any griffon ever could
+  - 160 | Celestia and her claim about industry and slavery, held elsewhere | proves Celestia wrong
+  - 161 | Great Mare Theory and the economic predation model, held elsewhere | The refutation of Great Mare Theory / economic predation model
+  - 163 | serfs as a class in the story world | serfs can't use it
+  - 159 | characters Henri, Applejack and Pagala, and chapter 1 with its trenches | Henri gives Applejack a shovel in chapter 1 / kill Pagala
+- whole: The notes hang together fairly well as a set: the invention, function, effect, canon origin and theme notes all draw on the same picture of the spade as an earth pony tool of enhancement, though most joints rest on content alone and none names another note.

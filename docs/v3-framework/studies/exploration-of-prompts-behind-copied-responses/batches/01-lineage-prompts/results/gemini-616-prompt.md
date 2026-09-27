@@ -1,0 +1,9 @@
+- asks:
+  - explain | give a breakdown of what ultimately happened to German POWs held in the US after the war | "What was the breakdown of the fates of German POWs interned in America?"
+  - clarify | state whether these POWs were repatriated to Germany or permitted to remain in the US | "Did they go back to Germany or allowed to stay?"
+  - explain contingency | describe what happened for POWs whose hometown or family ended up in the Soviet-controlled part of Germany/Europe | "What if their hometown or family was in the Soviet bloc?"
+  - evaluate claim | assess whether this POW history explains why many Germans today speak English | "Is this why many Germans speak English today?"
+- supplies:
+- shaping:
+- openness: The first three questions are left open as factual/historical inquiries, while the last poses a specific causal hypothesis ('Is this why many Germans speak English today?') for the model to affirm, reject, or qualify.
+- subject: The postwar fates of German POWs held in the US, including repatriation versus staying, the Soviet-bloc complication, and a proposed link to English proficiency in Germany today

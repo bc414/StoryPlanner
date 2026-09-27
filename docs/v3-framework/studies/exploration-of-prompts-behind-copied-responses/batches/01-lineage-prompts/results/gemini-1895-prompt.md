@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | invent a surname the character Minette would adopt once she becomes free | "What would Minette use as a surname once free?"
+  - explain | account for where that surname would come from or derive from | "Where would it come from?"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open, posing two bare questions with no candidate names, options, or stated leanings offered.
+- subject: Choosing a surname for the character Minette to take after gaining freedom, and its origin

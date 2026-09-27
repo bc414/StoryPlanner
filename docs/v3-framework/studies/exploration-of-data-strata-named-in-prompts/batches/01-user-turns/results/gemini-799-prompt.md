@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a speculative in-story explanation for why Chrysalis doesn't build a love-powered rifle while Equestria does, and asks the model to confirm it, without pointing at any body of material.

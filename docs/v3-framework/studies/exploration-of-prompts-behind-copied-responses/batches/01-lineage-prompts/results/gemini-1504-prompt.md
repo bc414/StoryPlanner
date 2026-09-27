@@ -1,0 +1,13 @@
+- asks:
+  - check | asks whether the stated function of taxes (backing the currency, not just redistribution) is correct within the world's economic logic | "so taxes are not just about redistribution for the social safety net, but also the backing of the currency?"
+  - check | asks whether the martial-law economic phase should be understood as a pseudo command economy that rejects the 'Skyfall Market' | "is this a pseudo command economy? It is a rejection of the Skyfall Market"
+  - check | asks whether the described sequence — price controls end, investment-driven abundance lets the market serve customers instead of monopolists, and this triggers the return of democracy — is correct | "Is this correct?"
+  - clarify | states and seeks confirmation that Sickleclaw is an agrarian communalist who leaves with the communists because Kemerskai is acting like a king | "To clarify, Sickleclaw is an agrarian communalist... because Kemerskai is acting like a king"
+  - clarify | lays out and seeks confirmation of Rosewing's backstory as Kemerskai's fellow defector who becomes a disillusioned militia/junta leader choosing tribalism over solidarity after martial law is declared | "He is disillusioned and chooses tribalism over solidarity"
+- supplies:
+  - economic reasoning | the story world's tax function, martial-law command economy, and post-martial-law market restoration leading to democracy's return | several paragraphs
+  - character backstory | Sickleclaw's and Rosewing's political identities, their break from Kemerskai, and their relationship to the revolution and to bourgeois figures like Vérany | two paragraphs
+- shaping:
+  - confirm or correct the stated chain of reasoning rather than open-endedly re-explaining it | "Is this correct?"
+- openness: Leans toward asking the model to check what it already states, since each part presents a worked-out interpretation of the economy and characters and asks for confirmation ('Is this correct?', 'To clarify').
+- subject: Worldbuilding check-in on a fictional world's economics (taxation, martial-law command economy, market restoration) and the political backstories of characters Kemerskai, Sickleclaw, and Rosewing.

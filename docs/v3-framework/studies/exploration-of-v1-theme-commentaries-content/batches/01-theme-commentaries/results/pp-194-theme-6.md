@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Claims that within the war setting the theme of generosity shifts into sacrifice, so the theme is carried as a change of form and not tested in this scene's specific events | "Generosity becomes Sacrifice during the war" | no | planning shorthand, a single declarative thesis line with no elaboration
+- whole: A one-line thesis that the theme of generosity turns into sacrifice as the war goes on, given without any reference to this scene's events.

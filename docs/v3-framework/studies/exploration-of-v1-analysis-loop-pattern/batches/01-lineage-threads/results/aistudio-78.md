@@ -1,0 +1,8 @@
+- steps:
+  - author | attaches material | an outside document, contents not captured | opening move of the conversation
+  - author | lays out a working hypothesis | observations on Twilight-Applejack compatibility, a claim about Twilight's true sense of home, and a claim that Twilight only lies/masks to meet Celestia's expectations, closed with a self-directed question | second message, addressed to no one but itself as much as the model
+  - model | validates and elaborates the hypothesis | a multi-section analysis confirming the masking claim with canon examples, distinguishing engineered vs. non-engineered crises, characterizing the Twilight-Applejack bond as relief from the mask, and tying it to a magic/technology arc, closed with two follow-up questions | third message, closing move of the shown stretch
+- kept:
+  - note 4399 | the author's own words in this record | keeps the author's TwiJack compatibility notes and the Twilight/Celestia masking hypothesis verbatim, filed under the 'TwiJack' subject in the database
+- brought: The author brought a hypothesis, formed from an attached document and their own reasoning, about why Twilight masks or lies and about her compatibility with Applejack, and put it to the model as a question to test.
+- loop: The author drafts a raw character hypothesis and poses it as an open question; the database captures that draft verbatim as a note under the TwiJack subject before the model's validating analysis is folded back into the plan at all.

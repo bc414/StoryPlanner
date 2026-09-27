@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question, wanting the same Gemini API setup steps shown for C# instead of Python, without pointing at any body of material.

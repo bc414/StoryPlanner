@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, impressed by the mapping, asks for more on pre-2022 Ukraine (Donbas, stagnation, corruption), checks their own summary of Zelensky's arc as a question, and asks the model to review their story plans for further parallels.

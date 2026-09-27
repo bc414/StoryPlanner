@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the acronym-typography thread and supplies new world detail about Aquileia's demographics and the limits of Vérany's urban movement, then asks what the Coltbert reforms would focus on and how rural lords would be handled.

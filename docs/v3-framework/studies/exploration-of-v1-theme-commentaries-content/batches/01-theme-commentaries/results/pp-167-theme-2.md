@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | The scene serves as a hint, which the reader is left to infer, that Celestia's failure with the elements of harmony came from too little pink (harmony-type) love and not from too little red (ambition-type) love, which ties the scene to the pink and red balance | The hint that Celestia couldn't wield the elements of harmony | no | Fragment of planning shorthand, a noun phrase beginning 'The hint that' with no verb
+  - fabula content | Celestia was unable to wield the elements of harmony because she lacked pink love, and red love was not what she lacked | because of a lack of pink love, not a lack of red love | no | Fact about the character stated in a compressed contrast, 'not a lack of red love'
+- whole: A one-line fragment saying the scene hints that Celestia's inability to wield the elements of harmony came from a lack of pink love and not of red love.

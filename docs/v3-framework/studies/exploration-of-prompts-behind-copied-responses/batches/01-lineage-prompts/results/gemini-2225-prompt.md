@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether there are notable innovations happening in countries other than the United States and China, inviting examples | "Are there any innovations outside of America and China?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a bare yes/no-plus-examples question without naming a field, region, or answer it leans toward.
+- subject: Innovation occurring outside the United States and China

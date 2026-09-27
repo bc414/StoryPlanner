@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's suggestion that Synovial did not want Tirek's rampage by stating outright that it was his plan: let Tirek take everyone's magic, kill him with kinetic artillery, and leave the ponies powerless for the changelings' industry.

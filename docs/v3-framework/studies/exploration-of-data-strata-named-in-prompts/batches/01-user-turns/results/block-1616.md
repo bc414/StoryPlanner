@@ -1,0 +1,6 @@
+- sources:
+  - Foundation and Historical Record tracks | not to be applied as a uniform prescription to every subject type; treat as one option that varies by subject type | I don't think Foundation and Historical Record are a one size fit all presciption for subject types | referred-to
+  - the author's considered tracks for Technology and Political System (History, How it works, Why it was created) | provisional idea the author is weighing, not settled; shows that different subject types may need different tracks and modes | For Technology and Political System I was considering tracks like History, How it works, and then Why it was created | first-named
+  - the "Physicist" cognitive mode | starting point to be broken down into first principles by what could appear in it, not accepted as a single unit | a deconstruction of the "Physicist" cognitive mode into first principles | referred-to
+- order:
+- about: The user rejects a uniform Foundation/Historical Record track set per subject type, offers a provisional alternative for Technology and Political System, and asks for the Physicist mode to be decomposed into a maximal list of first-principles cognitive modes from which they will choose per subject type.

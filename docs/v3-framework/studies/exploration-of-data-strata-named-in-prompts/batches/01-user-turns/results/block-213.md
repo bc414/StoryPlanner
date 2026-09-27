@@ -1,0 +1,6 @@
+- sources:
+  - TLTT | treat as established: the user states what it contains (Aquileians presented as heroes, hero complex replaced by Equestrian harmony) and the model is to reason from that, including that the reader always knows the ending | TLTT presents the Aquileians as heroes from the start; No matter what, the reader knows from TLTT that the arrogance is eventually supplanted with solidarity | referred-to
+  - Minette's story | treat as established: the user's account of its arc (Aquileian arrogance developing, the crusade, then the failure mode and learning solidarity) is the premise for the comparison | Minette's story dramatizes the full arc of the development of Aquileian arrogance | referred-to
+  - Blueblood's story | treat as the story under discussion: the user names two places where Aquileian arrogance appears (the parloir laugh and the Battle of Mount Aris) and asks about reading it at two different points | The Aquileian righteous arrogance appears twice in Blueblood's story | referred-to
+- order:
+- about: The user corrects and sharpens the model's reading-order reasoning by restating what TLTT and Minette each do with Aquileian arrogance, then asks what reader experience results from placing Blueblood's story between TLTT and Minette rather than after Minette.

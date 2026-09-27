@@ -1,0 +1,13 @@
+- sources:
+  - My story (TLTT) | treat as the established premise: FiM seasons 1-7 happen mostly unchanged and the main fork comes between 7 and 8 | My story (TLTT) establishes that seasons 1-7 of FiM happened mostly unchanged | referred-to
+  - seasons 1-7 of FiM | keep as happened, mostly unchanged, and use as the baseline | seasons 1-7 of FiM happened mostly unchanged | referred-to
+  - My Little Pony The Movie, School of Friendship, season 9 (post-season-7 Hasbro Mandate material) | treat as the Hasbro Mandate takeover the story departs from and rewrites, not as plain canon | the Hasbro Mandate really took over and was most obvious | referred-to
+  - my world bible | treat as settled: it reverses School of Friendship and Mount Aris and rewrites the Storm King as a warlord horde with guns | my world bible reverses the order of the School of Friendship and Mount Aris | referred-to
+  - non FiM canon, EaW-inspired backstory | treat as the author's own invented material for what each of the Mane 6 does after 1006 | the non FiM canon, EaW-inspired backstory begins | referred-to
+  - Spike's canon FiM early season treatment | use as the basis for reading Spike as an immigrant or second-generation assimilation allegory | If we treat Spike's canon FiM early season treatment as an allegory | referred-to
+  - Lauren Faust's baseline / intent (Secret of my Excess in season 2) | treat as the truth of the story plan; the Spike-Rarity crush was mostly resolved there | Lauren Faust's baseline is the truth | referred-to
+  - later episodes by other writers that brought Spike's crush back | treat as cheap comedy and do not carry into the story; Spike and Rarity are already normal friends | other writers kept bringing it back for cheap comedy | referred-to
+  - my TLTT story plan (chapter Entrenchment, 1011 events such as the 2nd Battle of Tall Tale) | treat as the plan the Spike placement must fit; Spike's arc with Twilight is slotted into Entrenchment | can occur in the chapter Entrenchment | referred-to
+- order:
+  - Lauren Faust's baseline | over Hasbro Mandate elements and later writers' additions, which are folded into Celestia and the Stagnation of Harmony or dismissed | where Lauren Faust's baseline is the truth and Hasbro Mandate elements are folded into Celestia
+- about: The user explains where the story's timeline diverges from FiM canon and proposes, as a tentative idea, that Spike leaves Twilight's path in 1006 to join the Crystal Empire, with the Spike-Rarity crush treated as already resolved and a Spike-Twilight conversation placed in the Entrenchment chapter.

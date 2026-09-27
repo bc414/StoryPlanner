@@ -1,0 +1,4 @@
+- sources:
+  - the MLP show itself | treat as the thing a possible meta-narrative would be about, taking its nature as a toy advertisement as the premise, offered as a question rather than settled | the MLP show itself is an ad for toys | referred-to
+- order:
+- about: The user asks whether the story could include a meta-narrative treating the MLP show as a toy advertisement, extending the preceding discussion of advertising and authenticity.

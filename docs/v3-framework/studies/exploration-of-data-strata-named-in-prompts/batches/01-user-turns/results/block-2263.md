@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two general-knowledge questions: how the OpenAI situation compares to 1950s suburbanization, and whether wealthy suburbs like central NJ, Boston and Northern Virginia are genuinely different from suburbs elsewhere in America, without pointing at any body of material to use or avoid.

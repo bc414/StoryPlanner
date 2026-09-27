@@ -1,0 +1,5 @@
+- sources:
+  - My lore | treated as established fact underlying the reasoning that follows | introduced with "My lore establishes that..." as the premise | first-named
+  - the canonical events of Over a Barrel | used as canon to justify/anchor the dating of Appleloosa's founding to ~1000 ALB | "going by the canonical events of Over a Barrel" | first-named
+- order:
+- about: The user turn proposes that Luna's pre-banishment eradication of domestic monsters opens up 914 years of frontier land as an outlet for ambition, and uses this together with the canon episode Over a Barrel to argue that Appleloosa's founding around 1000 ALB near buffalo land was a radical act.

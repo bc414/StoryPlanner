@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a new plot idea, that at white peace Celestia sends the donated love canisters to Stalliongrad, either by her own order or through a deal, and asks whether that would fit her nature, without pointing the model at any body of material.

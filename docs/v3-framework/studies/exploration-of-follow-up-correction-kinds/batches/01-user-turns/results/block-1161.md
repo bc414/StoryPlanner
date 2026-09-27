@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user introduces a planned later revelation, that cutie marks are not destiny, and lays out its Aquileian and Twilight-versus-Fleur backstory, then asks for an analysis of it and of how Applejack would view her own cutie mark, without saying anything in the model's turn was wrong.

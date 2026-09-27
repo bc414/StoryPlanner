@@ -1,0 +1,6 @@
+- sources:
+  - the old 1000 year-long Stagnation (Celestia traumatized, depressed and lonely for 1000 years) | the existing version of Celestia's backstory, which the new proposal would replace; used as the baseline to compare the new version against | instead of Celestia being traumatized; How does it compare to the old 1000 year-long Stagnation | referred-to
+  - canon show and canonical Equestria (Acornage, Dodge Junction, Ponyville, Granny Smith's Zap Apple venture, Appleloosa) | fixed facts that the new timeline is built to explain and fit with | canonically founded Acornage; canon show is there | referred-to
+  - Frederick Jackson Turner's Frontier Thesis (real-world American frontier history) | historical model that the frontier as ambition sink is mirrored on; supplies the mechanism of the safety valve closing | mirror to Frederick Jackson Turner's Frontier Thesis | first-named
+- order:
+- about: The user proposes revising the bedrock of Celestia's backstory so that the Stagnation begins in 914 ALB after an era of frontier expansion, modeled on Turner's thesis and fitted to show canon, and asks whether it works and how it compares with the old 1000-year version.

@@ -1,0 +1,61 @@
+- passages:
+  - 4145 | informal analytical/expository | casual reasoning chain, present tense, third person, phrase "sick pride of ownership" | why knights spare rival peasants | apart
+  - 4146 | terse rule-statement | short unelaborated negation fragment | ban on guerrilla tactics and partisans | apart
+  - 4147 | terse rule-statement | short unelaborated negation fragment | ban on terror bombing | apart
+  - 4148 | terse rule-statement | two short abstract declaratives | surrenders accepted, prisoner swaps formal | apart
+  - 4148 | descriptive elaboration | concrete added detail "with dignity while keeping equipment" | manner of trading captured veterans | apart
+  - 4362 | informal analytical/expository | causal chain "This is because...", "That would be hypocritical" | why knights don't slaughter peasants | apart
+  - 4362 | cynical aphoristic aside | blunt colloquial turn "so hand over your crop", closing "thankfully" | peasants' illusion of protection persisting into industrial war | apart
+  - 4363 | informal analytical/expository | stated rule plus contrastive explanation | flag-disguise rule versus changeling infiltration | apart
+  - 4363 | rhetorical-application | opening "So", rhetorical question, named character | applying the broken rule to Synovial's war crimes | apart
+  - 4397 | cross-reference note | single short comparative sentence | nobles' rules of war likened to KU serf rules | apart
+  - 4452 | terse rule-statement | short listed bans/facts, no elaboration | sky-ambush ban and armor/flight limits | apart
+  - 4452 | informal analytical/expository | explanatory consequence clause "It makes..." | cost and skill required of knighthood | apart
+  - 4791 | analytical essay prose | third-person discursive thesis sentences | Honor as driver of Henri and Trimmel's arcs | apart
+  - 4791 | section header label | Roman numeral, title phrase, no verb | heading for Chasseur Doctrine section | apart
+  - 4791 | direct-address citation | "You established", bracketed [Source 744, 385] | recap of knightly code as property-owner pact | apart
+  - 4791 | bulleted definitional list | bullet/sub-bullet labels, generic "you" aphorism | Chasseur target, logic, tactic, message, dishonor | apart
+  - 4791 | section header label | Roman numeral, title phrase | heading for Henri's Application section | apart
+  - 4791 | analytical essay prose | third-person explanatory sentence | Henri inheriting Chasseur outlook on changeling officers | apart
+  - 4791 | bulleted definitional list | bullet/sub-bullet, conditional "if...then" | Poseur Loophole defining honor as contract | apart
+  - 4791 | bulleted definitional list | colon-led bullet label | Poseurs forfeiting rules-of-war protection | apart
+  - 4791 | quoted character monologue | quotation marks, first-person exclamatory reasoning tagged by name | Henri's stated logic on warlords | run-in
+  - 4791 | bulleted definitional list | bullet label, third-person narration | Henri validating Applejack's tactics as Chasseur spirit | apart
+  - 4791 | section header label | Roman numeral, title phrase | heading for Trimmel's Tragedy section | apart
+  - 4791 | analytical essay prose | short declarative sentence | setup of Trimmel's psychological trap | apart
+  - 4791 | direct-address citation | "Your notes state", bracketed [Source 681, 1303] | Trimmel studying Chasseur tactics | apart
+  - 4791 | bulleted definitional list | bullet plus sub-bullet labels | Trimmel's misreading of honor and self-image as liberator | apart
+  - 4791 | bulleted definitional list | bullet/sub-bullet labels, bracketed [Source 683, 1310] | radicalizing event and Trimmel's horrified reaction | apart
+  - 4791 | quoted character monologue | quotation marks, exclamatory first person, rhetorical question | Trimmel's inner accusation of cheating | run-in
+  - 4791 | section header label | Roman numeral, title phrase | heading for Synthesis section | apart
+  - 4791 | analytical essay prose | short declarative sentence | misunderstanding driving escalation | apart
+  - 4791 | quoted character monologue | numbered list, quoted first-person views | Henri/Applejack's view against Trimmel's view | apart
+  - 4791 | section header label | single word plus colon | heading for Conclusion | apart
+  - 4791 | epigrammatic parallel conclusion | two matched-syntax bullet sentences | Henri without Honor, Trimmel without Mercy | apart
+  - 4791 | analytical essay prose | third-person narrative, forward-looking resolution | Applejack's eventual peace with Trimmel | apart
+- shifts:
+  - 4148 | terse rule-statement | descriptive elaboration | added concrete detail "with dignity while keeping equipment"
+  - 4362 | informal analytical/expository | cynical aphoristic aside | colloquial turn "so hand over your crop" and tag "thankfully"
+  - 4363 | informal analytical/expository | rhetorical-application | opening "So" and rhetorical question naming Synovial
+  - 4452 | terse rule-statement | informal analytical/expository | explanatory clause "It makes being a knight expensive"
+  - 4791 | analytical essay prose | section header label | drop into Roman-numeral title with no verb
+  - 4791 | section header label | direct-address citation | shift to "You established" plus bracketed source
+  - 4791 | direct-address citation | bulleted definitional list | drop into bullet/sub-bullet label format
+  - 4791 | bulleted definitional list | section header label | new Roman-numeral title
+  - 4791 | section header label | analytical essay prose | return to discursive third-person sentence
+  - 4791 | analytical essay prose | bulleted definitional list | drop into bullet labels again
+  - 4791 | bulleted definitional list | quoted character monologue | quotation marks after "Henri's Logic:" lead-in
+  - 4791 | quoted character monologue | bulleted definitional list | return to bullet label "The Validation"
+  - 4791 | bulleted definitional list | section header label | new Roman-numeral title
+  - 4791 | section header label | analytical essay prose | return to discursive sentence
+  - 4791 | analytical essay prose | direct-address citation | shift to "Your notes state" plus bracketed source
+  - 4791 | direct-address citation | bulleted definitional list | drop into bullet labels again
+  - 4791 | bulleted definitional list | quoted character monologue | quotation marks after "Trimmel thinks," lead-in
+  - 4791 | quoted character monologue | section header label | new Roman-numeral title
+  - 4791 | section header label | analytical essay prose | return to discursive sentence
+  - 4791 | analytical essay prose | quoted character monologue | drop into numbered quoted "View" entries
+  - 4791 | quoted character monologue | section header label | single-word "Conclusion:" heading
+  - 4791 | section header label | epigrammatic parallel conclusion | matched-syntax bullet sentences
+  - 4791 | epigrammatic parallel conclusion | analytical essay prose | return to discursive closing paragraph
+- registers: informal analytical/expository; terse rule-statement; descriptive elaboration; cynical aphoristic aside; rhetorical-application; cross-reference note; analytical essay prose; section header label; direct-address citation; bulleted definitional list; quoted character monologue; epigrammatic parallel conclusion
+- whole: This item holds many registers rather than one: the short notes sit each in their own plain terse-rule or informal-analytical way with clean breaks between any aside, while the long note 4791 alone cycles repeatedly and abruptly between essay prose, header labels, cited direct address, bulleted definitional lists, quoted character monologue, and a parallel-bullet conclusion, mostly standing apart at paragraph or bullet breaks except where a quoted monologue runs in right after a colon-led lead-in with no break at all.

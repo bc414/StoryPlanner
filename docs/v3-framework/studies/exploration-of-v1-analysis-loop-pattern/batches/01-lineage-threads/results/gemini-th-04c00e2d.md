@@ -1,0 +1,8 @@
+- steps:
+  - the author | ask | a research question on class/merit divide within tank crews and whether it varied by military | opens the exchange
+  - the model | explain | general finding that internal tank-crew life eroded external class barriers in favor of technical competence | first part of the model's reply
+  - the model | compare | national breakdown (British, German/US, Soviet) of crew social dynamics, each paired with a suggested faction analogue | middle part of the model's reply
+  - the model | apply | concrete proposal for how the Jaeger crews embody a merit-based, hive-mind-linked command structure, plus a suggested conflict scene of a noble officer failing to command such a crew | closing part of the model's reply
+- kept:
+- brought: The author brought a general research question about class versus merit hierarchies inside historical tank crews, meant to inform the internal dynamics of their Changeling Jaeger faction.
+- loop: The author asks a worldbuilding research question and the model returns a comparative historical analysis with faction-specific applications, but no text from this exchange was traced into the planning database, so the loop stops at the answer without any recorded capture.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user announces a new colloquial name, "Pinkie Sense", for the charitostatic effect, without pointing the model at any body of material to use or avoid.

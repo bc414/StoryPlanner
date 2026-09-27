@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's reframing, in which the aliases grow out of a genuine shared history, and asks whether the earlier 'honor among thieves' solidarity framing and the 'sham' label for the tourism operation still hold, which is a follow-up question about implications and not a statement that the model was wrong.

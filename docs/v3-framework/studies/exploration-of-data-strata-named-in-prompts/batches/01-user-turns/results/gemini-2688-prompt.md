@@ -1,0 +1,6 @@
+- sources:
+  - The Princess and the Kaiser (P&K), Queen Velvet's personality there | treat as the authority on how Velvet is characterised (haughty, grating, leads the Olenian Resistance), and re-read it to correct the earlier soft-harmonist portrayal | Please review Queen Velvet's personality in The Princess and the Kaiser | referred-to
+  - EaW canon | a baseline the author deliberately departs from; the new backstory is meant to subvert it, not follow it | a hilarious subversion of EaW canon | referred-to
+  - the author's imagined backstory for their story (Johan exiles Velvet, Celestia shelters her, Velvet returns to lead an underground movement, then bends the knee to Pagala) | the author's own working plan that the model should now build on in place of its earlier account; offered as something being imagined | I'm imagining my story's backstory to go like this | first-named
+- order:
+- about: The user rejects the model's portrayal of Velvet as a soft harmonist, points it to her haughty personality in The Princess and the Kaiser, and lays out their own backstory in which she leads a feminist resistance that later bends the knee to Pagala, as a deliberate subversion of EaW canon and a critique of corporate feminism.

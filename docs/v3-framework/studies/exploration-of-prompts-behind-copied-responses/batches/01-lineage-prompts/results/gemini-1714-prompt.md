@@ -1,0 +1,11 @@
+- asks:
+  - review | re-read the existing planning notes on this character before responding | "Read my notes again"
+  - summarize/establish | determine and lay out Coltbert's character as it currently stands in the notes | "establish Coltbert's existing character"
+  - reassess | reevaluate that established characterization in light of the correction given | "then reevaluate"
+- supplies:
+  - reference, unincluded notes | the person's existing planning notes on Coltbert (not pasted into the message) | referenced only, not supplied
+  - correction, character facts | a short corrective description of Coltbert's identity: not a peer researcher at griffon bourgeois universities, but a noble pony, an academic, and a bit of a deviant | a couple of lines
+- shaping:
+  - incorporate the stated correction | the message asserts specific facts ('He is a noble pony and an academic, and also a bit of a deviant') that the reevaluation should reflect
+- openness: leans toward an answer it names, since it asserts specific corrected facts about Coltbert (noble pony, academic, a bit of a deviant, not a griffon-university peer researcher) that the reevaluation is meant to incorporate
+- subject: Correcting and reassessing the character Coltbert's established identity/status

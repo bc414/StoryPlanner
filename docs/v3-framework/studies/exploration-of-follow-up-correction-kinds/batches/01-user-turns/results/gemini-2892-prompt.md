@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user lays out their own concrete design for the tableau de chasse (exchanged personal stamps, a glow-based verifier, a cryptographic analogy) and asks how it might tie into their intent-vector lore and whether the ledger needs enchanting too, building on the model's idea without saying it was wrong.

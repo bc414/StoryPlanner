@@ -1,0 +1,4 @@
+- sources:
+  - the suggestion of AJ needing to calm Twilight down before the teleport into the barracks works | treated as a provisional suggestion from earlier in the conversation, not settled; the user asks whether it should still be kept in the revised sequence | Should I still keep the suggestion | referred-to
+- order:
+- about: The user asks whether an earlier suggested beat, AJ calming Twilight so the teleport into the barracks works, still belongs in the revised rescue-to-barracks sequence.

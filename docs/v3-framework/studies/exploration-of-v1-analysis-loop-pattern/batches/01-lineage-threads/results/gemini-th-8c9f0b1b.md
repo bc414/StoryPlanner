@@ -1,0 +1,6 @@
+- steps:
+  - author | request | asks for a detailed summary of the story file already in the session | opens the stretch as the sole author message
+  - model | synthesis | produces a structured summary covering premise, plot beats broken into stages, and a key-characters list | the entirety of the model's single response
+- kept:
+- brought: The author brought a request to have the existing story document recapped, not new plan material or a draft.
+- loop: The author asked the model to reflect the story back as a summary, the model complied with a full synthesis, and nothing from either the request or the summary was traced into the planning database in this stretch.

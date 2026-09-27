@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question to confirm whether US labor law's structure causes American workers' rent-seeking behavior rather than the reverse, without pointing at any body of material for the model to use.

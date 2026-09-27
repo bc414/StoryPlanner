@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Grover IV analysis to ask a new worldbuilding question about whether the Boreas idol, an ambition-resonant crystal, loses its purpose under Grover III, and offers a tentative idea that it stayed in Griffonstone as an homage.

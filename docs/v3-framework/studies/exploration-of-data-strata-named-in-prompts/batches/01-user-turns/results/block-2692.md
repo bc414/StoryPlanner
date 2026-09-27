@@ -1,0 +1,5 @@
+- sources:
+  - this conversation | treat as ground already covered; the model should avoid modern-America aspects already discussed here and bring up only ones not yet touched | in this conversation | referred-to
+  - the story plan | treat as ground already covered; the model should avoid modern-America aspects already in the plan and bring up only ones not yet in it | or in the story plan | referred-to
+- order:
+- about: The user asks the model to move from modern China to modern America and to list further relevant aspects that neither this conversation nor the story plan has yet covered.

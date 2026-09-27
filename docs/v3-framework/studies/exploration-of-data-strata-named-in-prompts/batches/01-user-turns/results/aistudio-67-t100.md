@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes their own revision to the election-eve line and to Celestia's letter, giving Celestia's hidden motive and cutting the letter down to "Please come home safe. -Celestia", without pointing the model at any body of material.

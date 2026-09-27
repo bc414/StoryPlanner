@@ -1,0 +1,10 @@
+- asks:
+  - decision/statement | declares a plot change: AJ and Twilight do not travel to Skyfall, and instead stay to direct a war domestically | "AJ and Twilight don't go to Skyfall, they have a war to direct domestically"
+  - analytical question | asks whether this domestic-vs-away 'bifurcated' split is the model that Chrysalis later builds her New Order upon during the Great Leap Forward | "So is this bifurcated model what Chrysalis builds upon for her New Order during the Great Leap Forward?"
+  - request to consult source material | asks the model to re-read the story notes before answering | "Please read my story notes again and analyze"
+- supplies:
+- shaping:
+  - stance: analytical, not just descriptive | "analyze"
+  - content: answer should connect the AJ/Twilight domestic-war arrangement to Chrysalis's New Order and the Great Leap Forward period | "is this bifurcated model what Chrysalis builds upon"
+- openness: Leans toward an answer it names: the message proposes a specific hypothesis (the 'bifurcated model' underlying Chrysalis's New Order) and asks the model to analyze and confirm or develop that connection.
+- subject: Whether a domestic/away split in AJ and Twilight's wartime roles becomes the structural model Chrysalis adopts for her New Order during the Great Leap Forward, in the user's fiction planning.

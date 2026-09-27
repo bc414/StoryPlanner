@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for additional suggestions for both the currency and the war bonds, going on from the model's list without objecting to anything in it.

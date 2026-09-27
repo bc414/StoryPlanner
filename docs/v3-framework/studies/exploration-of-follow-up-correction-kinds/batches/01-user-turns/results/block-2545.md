@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shifts to a new task, supplying their own fanfiction.net reviews and asking for an analysis of how those led to their present situation, without commenting on the model's preceding analysis.

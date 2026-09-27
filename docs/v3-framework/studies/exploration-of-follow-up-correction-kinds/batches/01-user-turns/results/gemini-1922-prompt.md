@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further comparative analysis of when Grover III invented the printing press, how to make that timing work, and why the legends came out as they did, building on the model's synthesis without disputing any part of it.

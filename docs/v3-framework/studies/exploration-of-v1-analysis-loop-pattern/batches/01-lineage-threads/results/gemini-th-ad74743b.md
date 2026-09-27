@@ -1,0 +1,36 @@
+- steps:
+  - author | poses a research question | asks how batteries are made and which post-WW2 step could suit griffon artisan magic | opening of the battery-manufacturing exchange
+  - model | supplies grounding analysis | real-world battery manufacturing steps mapped to a precision bottleneck and a griffon-artisan mechanism to bridge it | closing the battery-manufacturing exchange
+  - author | poses a continuity question | asks what horn-lacking bat-pony Tzinacatl originally used the horn-healing paste for | opening of the paste-origin exchange
+  - model | flags and resolves a contradiction | names the bat-pony/horn mismatch and proposes three alternate original uses plus follow-up questions | closing the paste-origin exchange
+  - author | requests options | asks for many English and Aztec name candidates for the paste | opening of the paste-naming exchange
+  - model | supplies a categorized option set | grouped name suggestions with literal meanings, slang terms, and a faction-assignment recommendation | closing the paste-naming exchange
+  - author | poses a canon-reference question | asks which official MLP elements feature magic inhibitors, as a contrast to the crystal enhancer | opening of the inhibitors exchange
+  - model | supplies a canon survey | list of canon inhibitor examples and a structural contrast with the enhancer | closing the inhibitors exchange
+  - author | brings a policy proposal with own reasoning | proposes the cartel take apprentices and lays out the economic rationale | opening of the apprentice-policy exchange
+  - model | endorses and stress-tests the proposal | affirms the idea, flags a macro-level failure point, and maps a three-phase narrative payoff | closing the apprentice-policy exchange
+  - author | redirects the plan | accepts the intended ineffectiveness, questions shipping capacity, then proposes relocating workers and families to Aquileia instead of apprenticing them locally | opening of the brain-drain exchange
+  - model | develops the redirected mechanism | logistics via existing escort ships, a named economic effect, and a tragic framing of the brain drain | closing the brain-drain exchange
+  - author | asks for real-world grounding | asks how families would be extracted and sponsored, requesting historical refugee-resettlement parallels | opening of the sponsorship exchange
+  - model | supplies a historical-parallel analysis | maps an Indochinese-refugee-era sponsorship model onto an escape/rendezvous/sponsorship pipeline | closing the sponsorship exchange
+  - author | dictates a lore brief and requests a name | describes the cartel HQ's location, filtration, and tier structure and asks for a name blending durability and fine dining | opening of the HQ-naming exchange
+  - model | offers a recommended name and a second draft option | one name with tier-by-tier analysis, then an alternate name with its own analysis | closing the HQ-naming exchange
+  - author | accepts one option and asks for more | approves the first suggested name and requests additional candidates | continuing the HQ-naming exchange
+  - model | supplies further options | four more candidates with etymological reasoning and a top recommendation | continuing the HQ-naming exchange
+  - author | narrows the criterion | asks which name reads innocuous to a greedy tycoon while hiding a deeper insult | continuing the HQ-naming exchange
+  - model | supplies a filtered option set | four surface/hidden-meaning name candidates with a top pick | continuing the HQ-naming exchange
+  - author | rejects the filtered set and returns to earlier favorites | calls the technical names unfit, asks how a tycoon would read two previously suggested names | continuing the HQ-naming exchange
+  - model | supplies a perception analysis | tycoon-facing surface reading versus hidden insult for each favored name | closing the HQ-naming exchange
+  - author | dictates a detailed economic mechanism with a required outcome | lays out a B2B/B2C bankruptcy scheme and specifies it must fail to topple Skyfall and push toward military intervention | opening of the economic-warfare exchange
+  - model | delivers a verdict | confirms the mechanism's realism point by point and validates the specified failure/pivot outcome | continuing the economic-warfare exchange
+  - author | asks a refining question | asks whether the B2B monopolies would fully disappear given permanently better Aquileian equipment | continuing the economic-warfare exchange
+  - model | supplies a qualifying analysis | three reasons the B2B tier survives, tied to the same thematic pivot | closing the economic-warfare exchange
+  - author | reports a characterization revision and asks for validation | describes changing Celestia from proud-terrified to resigned-deferential and adding her agency later, asks for analysis | opening of the Celestia-tone exchange
+  - model | validates the revision | psychological and structural case for why the change strengthens a later reversal | closing the Celestia-tone exchange
+  - author | adds a character-arc detail and asks how it interacts | describes Applejack's reconciliation with her parents and wish for a simple life, asks how it plays into scenes with Celestia | opening of the Applejack-motivation exchange
+  - model | integrates the new detail | analysis of how the added motivation reframes Applejack's conduct and sharpens the later reversal | closing the Applejack-motivation exchange
+- kept:
+  - note 5081 | the author's own words in this record | keeps the HQ location/tier brief from the naming exchange together with the name eventually settled on later in that same exchange, filed as one entry under the Aquileian Cartel subject with both factions' readings of the name
+  - note 5075 | the author's own words in this record | keeps the B2B/B2C bankruptcy mechanism from the economic-warfare exchange near-verbatim, with one closing sentence appended on the hydra-head limit, filed under the same Aquileian Cartel subject
+- brought: The author brought an already-running story plan (Star Energy tech lore, Aquileian/Skyfall economic theory, Zebrican colonial dynamics, and character arcs for Celestia and Applejack) plus outside reference points (battery manufacturing, Nahuatl naming conventions, Indochinese refugee sponsorship history) to extend and pressure-test against the model.
+- loop: The author repeatedly brings a lore gap, a naming request, or a self-drafted mechanism or character revision and asks the model to ground it, generate options, or validate it against established rules, then accepts, narrows, or redirects the response across several turns; only the two messages where the author supplies a finished worldbuilding block in their own words are carried into the planning database as standalone entries, one of them updated with a name settled later in the same exchange.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user quotes a sentence from the model's answer and asks it to elaborate on that point, a follow-up request for more detail without challenging anything the model said.

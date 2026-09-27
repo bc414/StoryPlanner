@@ -1,0 +1,7 @@
+- sources:
+  - Pinkie's arc (the narrative change just discussed) | accepted as settled and used as the basis for reworking Rainbow's arc | I'm sold on Pinkie's arc, This has revealed | referred-to
+  - Rainbow's arc in chapters 1-7 (the unhealthy atlas complex) | treated as established story content, now reinterpreted as fealty to a dead Old Equestria | Rainbow's unhealthy atlas complex from chapters 1-7 | referred-to
+  - Chapter 8 premise, titled "Loyalty" | the author's own plan, offered as provisional and put to the model to check whether it still works and how Rainbow reaches her conclusion | Does this still work? | first-named
+  - canon episode Testing Testing 1 2 3 | treated as true canon backing Rainbow's ability to subconsciously process information while flying | from the canon episode Testing Testing 1 2 3 | referred-to
+- order:
+- about: The user accepts the revised Pinkie arc and asks the model to test whether their planned Chapter 8 "Loyalty" premise still works for Rainbow Dash's arc and how she arrives at fighting for her friends rather than Old Equestria.

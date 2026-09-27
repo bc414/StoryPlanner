@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the GRRM/Gulheru discussion aside and asks a new question about where JWAB sits on the Faust versus Hasbro Mandate axis of canon ground truth, or whether it sits outside that axis.

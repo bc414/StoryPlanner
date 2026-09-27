@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 116 | A scheme of colour-coded kinds of love or emotion (pink love as empathy) that is held elsewhere, and a woman who is not named in the note | pink love (empathy)
+  - 115 | Two other characters, Bright Mac and Pear Butter, and the earlier history of their recruitment | Gilded Lily recruited Bright Mac and Pear Butter
+- whole: The two notes read as separate entries: one is a page disclosure about a recruitment and the other an unnamed "she" and her psychology, and nothing in their words ties the one to the other.

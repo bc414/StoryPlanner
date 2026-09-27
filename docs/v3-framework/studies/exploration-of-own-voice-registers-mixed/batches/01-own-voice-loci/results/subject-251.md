@@ -1,0 +1,14 @@
+- passages:
+  - note 4349 | list-style definitional statement | short parallel clauses naming each love-type's quality | classifying pink/red/gray love by flavor or feel | apart
+  - note 4351 | informal descriptive rundown | third-person present-tense facts closed by a casual aside ("Not recommended to eat") | red love's magic-high effect and mild addictiveness | apart
+  - note 4351 | evaluative descriptive statement | comparative clause weighing donated pink love against "a real friendship" | pink love's limited comfort versus genuine friendship | apart
+  - note 4351 | authorial meta note | prescriptive "It should be an allegory to..." | intended parallel to parasocial relationships and social media scrolling | apart
+  - note 4573 | causal explanatory statement | single because-clause giving an evolutionary reason | why changelings evolved to have holes | apart
+  - note 4755 | emphatic corrective statement | capitalized negation and exclamation point correcting assumptions | changeling body plan and absence of a hive mind | apart
+  - note 4803 | causal explanatory statement | paired reason-clauses ("The reason... is because", "Because...") | why donated love aids rehab but forced draining does not | apart
+  - note 5486 | causal explanatory statement | chained because-clauses linking one mechanism to the next | jaeger geist disabling emotion sense, shapeshifting, and desertion | apart
+- shifts:
+  - note 4351 | informal descriptive rundown | evaluative descriptive statement | new paragraph turns from listing red love's effects to judging pink love against "a real friendship"
+  - note 4351 | evaluative descriptive statement | authorial meta note | drops in-world description for a prescriptive craft remark ("It should be an allegory to...") about the passage's intended real-world parallel
+- registers: list-style definitional statement; informal descriptive rundown; evaluative descriptive statement; authorial meta note; causal explanatory statement; emphatic corrective statement
+- whole: Most notes in this item hold a single register apiece — plain classification, causal mechanism explanation, or emphatic correction — each self-contained, but one note (4351) moves through three distinct registers by clean paragraph breaks, ending in an authorial meta note on the material's intended allegory, so the item as a whole is written in several registers that sit apart from one another rather than blending within a sentence.

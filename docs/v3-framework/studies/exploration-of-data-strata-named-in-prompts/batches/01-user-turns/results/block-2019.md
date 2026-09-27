@@ -1,0 +1,7 @@
+- sources:
+  - chapter 32 Grace | read/review this chapter first, then base the analysis on it | Review chapter 32 Grace then Give an analysis | first-named
+  - my initial idea (bomb Vesalipolis while liberating the willing hives, so it would be like Japan) | the author's earlier ending plan, told from memory as background; superseded by the love drop | My initial idea was to just have them bomb Vesalipolis | first-named
+  - Gemini suggested the love drop | an outside suggestion the author adopted, which now serves as the foundation of the story | Gemini suggested the love drop. That changed the foundation of the story | first-named
+- order:
+  - Gemini's love drop | over the initial bombing-Vesalipolis ending | That changed the foundation of the story
+- about: The author recounts how the ending shifted from a Japan-style bombing of Vesalipolis to Gemini's love drop, and asks the model to review chapter 32 Grace and then analyze it.

@@ -1,0 +1,20 @@
+- steps:
+  - author | opening survey question | asks for a broad competitive overview of Chinese AI labs versus Google and OpenAI | start of thread, unrelated to the fiction project
+  - model | informational survey | returns a categorized rundown of Chinese AI companies and three strategic contrasts with US labs, offers two follow-up directions | reply to the opening question
+  - author | follow-up question | asks whether Google and OpenAI adopted the Chinese innovations just described | after the survey
+  - model | comparative breakdown | answers per-company (Google, OpenAI, open-source community) with specific adoption examples | reply to the adoption question
+  - author | follow-up question | asks about AI innovation outside the US and China | after the adoption breakdown
+  - model | regional survey | returns a region-by-region rundown of labs in France, Canada, and the UAE | reply to the regional question
+  - author | topic pivot | asks whether the 'Attention Is All You Need' paper spawned a naming trend in CS/education materials | new unrelated topic after the AI-industry thread
+  - model | trend analysis | traces the naming convention's origin, gives examples, counter-examples, and reasons it persisted | reply to the naming-trend question
+  - author | project pivot with framing | introduces the fiction project's main storyline (Applejack/Twilight) and asks for candidate prequel companion stories plus when they should be read relative to the main story | shift from general topics into the story plan
+  - model | options list | returns five candidate prequel concepts, each with a rationale and a recommended reading-order placement | reply to the prequel-candidates question
+  - author | probing question | asks what happens to theme versus mystery, and whether there's a named phenomenon, when prequels are read after already knowing the outcome | follow-up on the reading-order proposal
+  - model | conceptual analysis | names the phenomenon (dramatic irony/foregone conclusion) and lays out four ways the reading experience shifts when outcome is known | reply to the phenomenon question
+  - author | deeper structural question | asks what makes the main story special on its own, why Applejack anchors it, how a 'steering point' gets chosen, and whether events vs themes distinguishes main story from prequels | follow-up pressing further on structure
+  - model | structural analysis | explains Applejack's narrative necessity, defines a 'steering point' as the moment of systemic failure, and addresses the events-vs-themes framing | reply to the structural question
+  - author | draft submission with a correction | presents a self-authored grouped list of prequel topics and explicitly excludes a Luna prequel with a stated reason | bringing a personal draft plan into the conversation
+  - model | validation and elaboration | affirms the reasoning for excluding the Luna prequel, then analyzes each of the four proposed groupings for its narrative function and impact | reply to the grouped prequel list
+- kept:
+- brought: The author brought their own draft grouping of prequel storylines, including a reasoned decision to exclude a Luna-centered prequel, for the model to react to and elaborate on.
+- loop: The author moved from unrelated general-knowledge questions into progressively deeper structural questions about their own story plan and finally supplied a self-drafted list of prequel groupings for validation, while the model returned surveys, named concepts, and structural analyses each time; none of this exchange left any trace in the planning database in this stretch.

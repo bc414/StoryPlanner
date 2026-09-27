@@ -1,0 +1,4 @@
+- sources:
+  - the previous chapter, Comet Shine's honest ethos scene with the buffalo | treat as already-written setup that this Tzinacatl rubber-trade application builds on and pays off | Good thing Comet Shine laid out his honest ethos in the previous chapter with the buffalo | referred-to
+- order:
+- about: The author adds a story fact (the Tzinacatl fractured into infighting after the unifier Nightmare Moon was banished), declares the Tzinacatl arc the definitive proof of capitalism for good and the Aquileian model, and notes that the previous chapter's Comet Shine scene already set up the ethos.

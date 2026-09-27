@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out Celestia's motives for looking at Canterlot (the trapped ponies and Chrysalis on the throne), which the preceding turn on the operation's name and logistics never addressed, so this reads as added story detail and not a correction of that turn.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their own worldbuilding decisions about how early air forces, FJA griffon artisans, pegasi and changelings fly and compare, building on the model's aviation and tool-embodiment discussion, without pointing the model at any body of material.

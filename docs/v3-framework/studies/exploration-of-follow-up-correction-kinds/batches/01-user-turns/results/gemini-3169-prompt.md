@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the output of the revised packager script and asks the model to assess whether it is good or needs further high-impact changes, without disputing anything in the previous turn.

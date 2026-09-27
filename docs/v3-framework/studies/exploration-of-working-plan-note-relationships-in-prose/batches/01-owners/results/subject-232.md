@@ -1,0 +1,24 @@
+- relations:
+  - 1424|1432|continues in time: the flooding of 986 is followed by a permanent tightening of supply in 1003|Chrysalis flooded the market ... tightened supply permanently|implicit
+  - 1432|1433|continues in time: after the tightening, a return to flooding for another round of financing|flooded the market with Olenian love taxes for another round|implicit
+  - 1433|1438|continues in time: after the 1008 flood, export supply shrinks again in 1011|Red love supplies for export shrink again|implicit
+  - 1438|1439|the usage plan delivers the same event the history states as fact, and adds the consequence that it opens the way for Applejack's deal|Red love supplies for export shrink again to fund the war and because the red love goes to conscripts|implicit
+  - 1424|1435|the plan states what the flooding does to the victim economies: addicting elites is how liquidity is drained through a vice with inelastic demand|getting elites and scoundrels ... addicted / drains Skyfall and Equestria's liquidity|implicit
+  - 1433|1435|the 1008 flooding to raise Skyfall Mark financing is an instance of the draining of liquidity the plan describes|another round of Skyfall Mark financing / drains Skyfall and Equestria's liquidity|implicit
+  - 1427|1435|the bits leaving the country is the outflow that the liquidity drain describes; arrests do not touch the demand that keeps it going|the bits are leaving the country / drains ... liquidity using a vice with inelastic demand|implicit
+  - 1426|1427|the real-world failed war on drugs is the model for the in-story arrests of dealers that fail to fix the underlying problem|The failed war on drugs / (war on drugs) but the underlying problem exists|implicit
+  - 1428|1429|the price of red love as the economy's index and reserve asset is drawn from the petrodollar analogy, which the author says is minor|reserve asset / The petrodollar (though it's not as important as it seems)|implicit
+  - 1430|1432|monopoly supply control in the analogy is instanced by Chrysalis tightening supply to push the price up|Monopoly supply control is like De Beers ... OPEC / tightened supply permanently. The price ... skyrocketed|implicit
+  - 1428|1432|the price rise after the supply is tightened is the movement of the price that serves as the economy's index|price of a canister of red love acts as the index / The price ... skyrocketed|implicit
+  - 2302|1424|the allegory gives the truth beneath the flooding: the low price comes from externalized suffering, not a better process|Her market flooding is subsidized by the suffering / Chrysalis flooded the market|implicit
+- outward:
+  - 2302|the tzinacatl jungle-derived drugs, a rival product held in lore elsewhere|tzinacatl jungle-derived drugs
+  - 2302|changeling nobles and zebrican slaves, groups and their treatment held elsewhere|suffering of changeling nobles and zebrican slaves
+  - 1424|the cities and nations named as markets, each held elsewhere|Skyfall, Herzland, Discret Aquileia, New Mareland, Wingbardy, Petershoof, and Equestria's cities
+  - 1432|the 2nd Great Leap Forward, a program held elsewhere|fund the 2nd Great Leap Forward
+  - 1433|Olenian love taxes and the arms and industrial purchases from Skyfall, held elsewhere|Olenian love taxes
+  - 1438|the war and the conscripts, held elsewhere|to fund the war and because the red love goes to conscripts
+  - 1439|Applejack's drug deal, a scene or plot held elsewhere|This opens the opportunity for Applejack's drug deal
+  - 1427|the royal guards and New Mareland as the place dealers are sent, held elsewhere|royal guards arrest drug dealers and sends them to New Mareland
+  - 1435|Skyfall and Equestria as economies, held elsewhere|drains Skyfall and Equestria's liquidity
+- whole: Most of these notes hang together around one story of red love flooding and tightening, with a chain of dated history notes, a usage plan and analogy notes leaning on it, but the theme note, the allegory and some analogies are only loosely tied to the rest.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact about the user's setup (own name) | the model treated the world bible as a JSON structural map and suggested pre-filtering a JSON architecture, while the user says it lives in a sqlite database and is compiled into markdown | "actually stored in a sqlite database" and "compiled" into markdown | mild, in passing, a clarifying aside that leads into a new question, with no complaint
+- about: The user briefly clarifies how their world bible is really stored (sqlite compiled to markdown) and uses that to ask whether Claude Cowork, working on a folder of separate linked documents, could find all the relevant context.

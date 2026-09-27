@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Krista is the identity the character prefers over Chrysalis (a psychology claim about the character); the user says she prefers neither over the other, both being preferred over all the rest | I don't think she prefers to be Krista over Chrysalis either | flat statement of disagreement, with a softening opener and a brief clarification of what is true instead
+  - which material was drawn on | The model built its identity architecture without consulting the story planner or earlier conversations, and the scene it omitted (forging class, sword shattering) is in the plan; the user tells it to look up the missing details rather than assume | refer to conversations for missing insights instead of assuming | directive, stated as an instruction to check sources, with a note that the planner server is available again
+- about: The user pushes back on the model's claim that Krista is the preferred identity, then asks a new question about which name the narration should use in the forging-class sword-shattering scene and tells the model to check the planner and past conversations.

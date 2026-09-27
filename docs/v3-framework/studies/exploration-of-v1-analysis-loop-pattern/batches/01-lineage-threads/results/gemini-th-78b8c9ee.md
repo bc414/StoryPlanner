@@ -1,0 +1,13 @@
+- steps:
+  - the author | states existing plan and requests a term | already-decided titles for ch11/14/16/17, request for a HOI4 term for ch15, detailed Trimmel backstory and themes | opening prompt
+  - the model | offers ranked options | five HOI4-term candidates (Attrition, Superiority, Organization, Initiative) with pros/cons and a top pick | first response
+  - the author | selects and argues against the model's pick | chooses Initiative over the model's Attrition/Superiority recommendation, giving reasons about pacing and subtlety | second prompt
+  - the model | confirms choice and expands scope | affirms Initiative, then produces a full finalized chapter-title table for the whole book with an arc explanation | second response
+  - the author | redirects with a new question | asks for non-HOI4 idea-nouns that resonate with Trimmel's chapter and backstory | third prompt
+  - the model | offers a second ranked option set | five thematic nouns (Merit, Conviction, Honor, Recognition, Illusion) each analysed against the backstory, recommending Merit | third response
+  - the author | overrides the model's recommendation and adds more backstory | picks Honor instead of Initiative or Merit, supplying further detail (the radio-voice framing, the POW-camp ending, the honor-bound future arc) | fourth prompt
+  - the model | builds out the chosen term | thematic arc for Honor, narrative hook, backstory-reveal beats, a mirror-effect comparison with Applejack, a future setup, and a revised final chapter-title sequence | fourth response
+- kept:
+  - note 985 | pasted whole from this reply | keeps the bullet-list definition of Honor's arc (the changeling meaning, the betrayal by Chrysalis, the redefinition around protecting subordinates), placed as a plot point on Trimmel unveiling the Chrysalis bait
+- brought: The author brought a partly-fixed chapter-title scheme (several HOI4 terms already chosen for surrounding chapters) plus a detailed backstory and thematic breakdown of Trimmel's chapter, seeking a title that would fit both.
+- loop: The author repeatedly brings a naming decision plus escalating backstory detail, the model returns ranked option-lists with a recommendation each time, and the author overrides the model's top pick twice before settling on Honor; only the final round's justifying analysis gets pasted whole into the plan as a plot-point definition, while the earlier rounds' rejected options (Attrition, Superiority, Initiative, Merit, etc.) leave no trace.

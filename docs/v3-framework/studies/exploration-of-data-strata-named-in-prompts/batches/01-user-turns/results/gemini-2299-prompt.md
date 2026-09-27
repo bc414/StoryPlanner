@@ -1,0 +1,4 @@
+- sources:
+  - my lore about griffon magic | treat as established canon and build the new aircraft-armor idea on it: griffon knights who forge their own armor gain magical properties only while wearing it | In my lore about griffon magic, I established that | referred-to
+- order:
+- about: The user offers a new worldbuilding twist that applies their established griffon armor-forging magic to the Aquileian ace pilots and their planes, and leaves the model to work out the consequences.

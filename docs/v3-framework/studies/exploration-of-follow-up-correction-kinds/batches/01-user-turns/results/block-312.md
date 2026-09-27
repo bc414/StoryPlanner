@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the request to be for an in-universe replacement of the term DRM, with new acronyms such as P.A.C.T. or V.O.W. The user wanted the acronym itself to remain DRM, with the words behind it made in-world. | I meant I want the acronym to be "DRM" | Flat restatement of the intent, phrased as a clarification of what they meant, with no blame or irritation.
+- about: The user clarifies that they wanted to keep the letters DRM and give them an in-universe expansion, and adds a suggestion to make the expansion Dutch.

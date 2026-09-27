@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user states their underlying goal, feeding a story to Gemini one chapter at a time to get detailed chapter summaries. This gives context for the rate-limit handling discussion. It doesn't say anything in the model's answer was wrong.

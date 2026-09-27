@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's historical mapping as given and asks a further design question: how the story can allegorically move from the present-day stagnation stage back to the New Deal stage without falling into predatory oligarchy, adding their own description of what each stage looks like today.

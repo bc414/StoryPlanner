@@ -1,0 +1,22 @@
+- steps:
+  - author | poses classification question with own hypothesis | asks where a politician fits on the story's stage scale, offers a theory about campaign versus post-stroke conduct | opening message
+  - model | delivers verdict with archetype mapping | classifies the figure as one stage masquerading as another, issue-by-issue table, story-character comparison, source link | first response
+  - author | challenges the verdict's premise | argues the figure's cynicism is empirically unjustified given national capacity, asks for counter-examples of less cynical believers in policy | second prompt
+  - model | supplies counter-cases mapped to the framework | four figures/groups each tied to a story archetype and stage label, plus a justification for why the cynicism is wrong | second response
+  - author | requests a paired assessment | asks for two more figures placed on the scale | third prompt
+  - model | produces dual-figure analysis with comparison table | archetype and stage for each figure, a table contrasting them, a synthesis point for the story | third response
+  - author | narrows the request to specific policies | asks how one figure's ethics and permitting-reform actions read on the scale | fourth prompt
+  - model | drills into named policies with mapping | three policies each analyzed for stage logic, closing verdict on the figure's role | fourth response
+  - author | broadens to a whole slate of candidates | asks about the rest of a primary field | fifth prompt
+  - model | surveys the full field | classifies each candidate in both parties with archetype and stage, overall takeaway for the story | fifth response
+  - author | singles out one more candidate | asks about a specific also-ran | sixth prompt
+  - model | analyzes the single figure | archetype label, account of his campaign failure, a hypothetical alternate path | sixth response
+  - author | shifts to sitting senators from the same state | asks about two named senators | seventh prompt
+  - model | produces dual analysis with comparison table | archetype and stage for each, contrast table, synthesis on their combined role | seventh response
+  - author | requests a wider senator survey | asks for analysis of other senators generally | eighth prompt
+  - model | produces a roster of senators mapped to archetypes | eight figures each given archetype, stage, and role, summary table | eighth response
+  - author | poses a categorical yes/no question | asks whether any real occupants of one stage exist in the opposing party | ninth prompt
+  - model | answers with a faction breakdown | groups opposing-party figures into aspirant, hybrid, and state-level categories, closing verdict | ninth response
+- kept:
+- brought: The author brought the story's own political-stage allegory (a scale from predatory to republican to stagnant, with named archetype characters) and repeatedly supplied real-world politicians, elections, and policies as test cases for it.
+- loop: Across nine rounds the author kept feeding new real-world figures, fields, and policies into the story's stage/archetype framework and the model kept returning classifications, tables, and comparisons, but the archive shows nothing from this exchange was drawn into the planning database — the conversation served as a repeated exercise in applying and stress-testing the framework against reality rather than a source the plan drew from.

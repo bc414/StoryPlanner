@@ -1,0 +1,6 @@
+- steps:
+  - the author | request | asks for an analysis of existing lore on the failed 1st Aquileian revolution | opening of the thread
+  - the model | analysis | breaks the lore into premise, mechanics of failure, aftermath, and thematic significance, naming the factions and mechanisms involved | single reply to the request
+- kept:
+- brought: The author brought an already-written lore document about a failed historical revolution in their setting and asked the model to analyze it.
+- loop: The author supplies existing worldbuilding for interpretive analysis and the model returns a structured synthesis of its causes and thematic function, but no part of that synthesis is traced into the planning database in this stretch.

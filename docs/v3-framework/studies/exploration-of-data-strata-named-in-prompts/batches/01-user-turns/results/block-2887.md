@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether "autarky" should be treated as a pole of the Axis 5 boundary axis or as something derived from it, without pointing at any body of material for the model to use.

@@ -1,0 +1,7 @@
+- asks:
+  - analyse | describe what character development/arc Rainbow Dash undergoes in the work referred to as GIYC | "What character development does Rainbow Dash go through in GIYC"
+  - explain | explain how that development connects to or bears on the work referred to as TLTT | "how does it apply to TLTT"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open: it poses a genuine question about Rainbow Dash's arc and its bearing on another story without naming or leaning toward any particular development or connection.
+- subject: Rainbow Dash's character arc in one story (GIYC) and its relevance to another (TLTT)

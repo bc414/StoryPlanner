@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks what a Hegelian dialectic is, requesting a definition/explanation of the concept | "What is a hegelian dialectic?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a plain definitional question with no preferred answer, framing, or constraint given.
+- subject: Definition of the Hegelian dialectic (a philosophical concept)

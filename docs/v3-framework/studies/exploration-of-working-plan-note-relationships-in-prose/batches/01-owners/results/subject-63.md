@@ -1,0 +1,37 @@
+- relations:
+  - 824 | 825 | 824 restates and expands the history note: same fact of self-isolation after the banishment, with duration and the contrast added | They are the warriors who self-isolated after Luna's banishment | implicit
+  - 1654 | 825 | continuation in time: the warriors who hunted monsters for Luna are then the ones who withdrew after her banishment | Luna's warriors who hunted the monsters | implicit
+  - 1654 | 821 | the general description of Thestrals in the mountains is joined by the account of what they did as Luna's warriors | Thestrals who live in the mountains | implicit
+  - 1657 | 828 | cause and effect: the mythology of Nightmare Moon's corruption gives the reason for the refusal of modernization | do not modernize their economy or traditions | implicit
+  - 1657 | 824 | the myth of misbehavior and ambition supplies the reason behind the chosen isolation and tradition | must stay traditional | implicit
+  - 828 | 824 | 828 restates the isolationist wish given in 824 as what the people want | want to be left alone and in peace | implicit
+  - 1657 | 1663 | both rest on the same legend of Nightmare Moon's corruption; 1663 tells the ambition-become-crystal side of it | Nightmare Moon's transformation | implicit
+  - 1663 | 944 | reason for the taboo: the crystals are a byproduct of Nightmare Moon's transformation, hence off limits | never touch them | implicit
+  - 1663 | 827 | cause of the refusal: the Temberik never touch the crystals, so Chrysalis's bid to mine them is rejected | mine the crystals in their mountains | implicit
+  - 1663 | 945 | same cause for the second refusal: the crystals are untouchable to them | cooperative mining deal proposal | implicit
+  - 827 | 945 | continuation in time and parallel: a second outsider's mining offer is rejected after the first | reject Comet Shine's cooperative mining deal proposal too | explicit
+  - 944 | 827 | the rejection is an occasion of the crystals being off limits | off limits | implicit
+  - 944 | 945 | the rejected mining deal is an instance of the crystals being off limits | off limits | implicit
+  - 832 | 1657 | tension: the plan says the Temberik need Ambition, while their mythology holds that ambition led to Nightmare Moon's corruption | They need Ambition | implicit
+  - 832 | 944 | the plan for the crystals' being off limits until the war and cooperation fits the plan that they must be moved toward ambition | off limits until the events of the war and cooperation | implicit
+  - 830 | 832 | the roof-fixing scene is a way to show the unity or communalism that 832 states as the organization's strength | the whole village fixes it | implicit
+  - 830 | 829 | instance of the general communal sharing: the village mends a roof, just as villages share grain, tools and labor | Temberik villages share grain, tools, and labor | implicit
+  - 823 | 826 | the Kurdish inspiration is stated in 823 and its mountain-dwelling, tribal-confederation features are set out in 826 | Kurds | implicit
+  - 823 | 829 | 829 develops the Kurdish inspiration into the Diwan and village sharing | In Kurdish culture, the Diwan | implicit
+  - 826 | 946 | the mountain existence of the Kurds is echoed in the mountain motto | No friend but the mountains | implicit
+  - 946 | 824 | the motto matches the chosen isolation and wariness of outsiders | isolated from the rest of Equestria by choice | implicit
+  - 829 | 832 | 829 gives the communal, share-everything design that 832 calls unity without ambition | They have unity (communalism) | implicit
+- outward:
+  - 1654 | Luna, and the monsters of Equestria, held elsewhere | Luna's warriors who hunted the monsters of Equestria
+  - 824 | the Tzinacatl, another people, and the wider Equestria and Luna's banishment | Unlike the Tzinacatl who engage in global maritime trade
+  - 825 | Luna's banishment, an event elsewhere | after Luna's banishment
+  - 829 | Griffon knights and Celestia's court as other societies | strict hierarchies of Griffon knights or Celestia's court
+  - 1657 | Nightmare Moon's corruption myth | Nightmare Moon was corrupted
+  - 1663 | Luna/Nightmare Moon's transformation and the present-day mining of power crystals | That's why the Temberik Mountains have power crystals to be mined in the current day
+  - 827 | Chrysalis and her love harvesters | Chrysalis's bid to mine the crystals
+  - 945 | Comet Shine, another character | Comet Shine's cooperative mining deal proposal
+  - 822 | the canon event 'Meanwhile, in the Mountains...' in the Lunar Civil War chain | Lunar Civil War event chain
+  - 830 | Applejack and her Barn Raising sensibility | Applejack's Barn Raising sensibility
+  - 832 | Red Love, a story concept held elsewhere | Ambition (Red Love)
+  - 944 | the war and cooperation events of the wider story | events of the war and cooperation
+- whole: Most of these notes hang together around a cluster of isolation, the Nightmare Moon legend, the crystals and the refused mining offers, while the Kurdish analogy notes and the storytelling notes form looser strands that link to it more by theme than by pointers.

@@ -1,0 +1,20 @@
+- steps:
+  - author | corrects/establishes character trait | reframes Fleur as an earth pony scientist (not unicorn) who reads earth magic as chemistry, sets her as AJ's jealousy mirror | opening of the message
+  - author | cites canon precedent | draws on a season 2 episode's stated reason for Twilight's crush on AJ to justify the mirror logic | early in the message
+  - author | adds thematic detail | attaches Fleur's harmonic-capitalism speech (honest business over extraction) to her characterization | continuing the message
+  - author | pitches a scene beat | has Mali reassure a jealous AJ and tell her to 'take Twilight back' rather than offer comfort intimacy, with Fleur admiring Mali's restraint | middle of the message
+  - author | pitches a paired scene beat | has Fleur advise a jealous Twilight to be her authentic self, letting Mali see Fleur's own ideals | continuing the message
+  - author | states a plot beat | places a fling between Fleur and Mali the night of the reunion, to stay implied rather than shown | continuing the message
+  - author | raises an open question | asks whether Mali would anticipate the couple's continued 'neutered' stiffness the next morning, or whether that undercuts Fleur and Henri's shocked reaction | end of the message
+  - model | reframes the correction | casts Fleur/AJ as a structural parallel to the existing Mali/Twilight jealousy dynamic | opening of the response
+  - model | analyzes in parallel | breaks down each jealousy pair by trigger, mirrored insecurity, and underlying fear | first section of the response
+  - model | analyzes the mutual advice | frames Mali's and Fleur's interventions as expressions of their respective philosophies (Parloir ethics, scientific bluntness) | second section of the response
+  - model | develops the fling's meaning | interprets it as adult, uncomplicated intimacy contrasted with the leads' complicated relationship | third section of the response
+  - model | answers the open question | resolves it by giving Mali, Fleur, and Henri distinct reactions to the still-stiff morning-after council | fourth section of the response
+  - model | proposes a forward link | ties the resolved tension to a future justification for a joint intimacy-lesson plot beat | concluding section of the response
+- kept:
+  - note 1726 | the author's own words in this record | keeps the author's scene idea of Mali reassuring AJ and encouraging her to reclaim Twilight, plus Fleur's attraction to Mali's restraint, filed under a plot point on Fleur and Mali comparing notes
+  - note 1727 | the author's own words in this record | keeps the author's paired scene idea of Fleur advising Twilight to be authentic, filed under the same plot point on Fleur and Mali comparing notes
+  - note 4660 | the author's own words in this record | keeps the author's core jealousy/characterization comparison between AJ and Fleur, filed under a chapter titled 'Extraction'
+- brought: The author brought a character correction recasting Fleur as an earth-pony scientist to serve as AJ's jealousy mirror, paired scene ideas for how Mali and Fleur each counsel the jealous lead, a plot beat for their implied fling, and an open question about whether the morning-after awkwardness would be expected or would undercut other characters' reactions.
+- loop: The author brought a character revision, two paired scene sketches, and an unresolved question about character expectations; the model returned a systematized analysis, elaborated interventions, and an answer resolving the question with a forward hook, but the plan retained only the author's own scene descriptions and characterization, filing them verbatim under existing plot points and a chapter rather than incorporating the model's analytic framing or forward-looking proposal.

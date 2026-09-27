@@ -1,0 +1,4 @@
+- sources:
+  - real life with women (the real-world pattern of contraceptive subscription burden falling on women) | treat as the real-world parallel the Skyfall subscription model should mirror, so the burden falls disproportionately on mares | just like in real life with women | referred-to
+- order:
+- about: The user corrects the model's synthesis on three story points (Flowing Current's timeline, the connection-free anarcho-capitalist Tzinacatl medicine market, and the Skyfall subscription burden falling on mares in a patriarchal manosphere allegory), stating them as settled facts of the setting.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of the debate by restating the three positions: Celestia's stance is defensive, Applejack wants to invade to liberate, and Gilded Trust wants to invade to burn the hives.

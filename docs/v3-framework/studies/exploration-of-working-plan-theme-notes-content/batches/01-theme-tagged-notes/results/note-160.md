@@ -1,0 +1,4 @@
+- claims:
+  - reading | The star spade's existence shows that industrial-scale productivity can be achieved without a slave or servile labour base | star spade proves ... you can have industry without slavery | What does this technology demonstrate about the world, as evidence for a proposition? | yes
+  - design commitment | Celestia holds, as a settled fact of the story, that industry requires slavery, and the narrative is set up so that her position is refuted | proves Celestia wrong | What position does the story's ruler hold that this technology is set against? | partly
+- theme: It does not argue the tagged proposition that accelerants are morally neutral amplifiers of the user's morality. It supplies evidence for a neighbouring proposition, that industry does not need slavery, and says nothing about amplification of the user's morality or about tools being neither good nor evil.

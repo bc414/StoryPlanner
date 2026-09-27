@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: order of the story's development | The model framed the hopepunk thesis as already in place, stated throughout, with the Love Drop as its demonstration. The user says the ending change came first and the thesis was articulated because of it. | "not the other way around" | flat, offered as a brief 'one note' addition with a short account of the earlier influences (ASOIAF, Warhammer, EU4/HOI4 tropes) as the reason
+- about: The user briefly fixes the model's account of how the project developed, saying the ending suggestion produced the hopepunk thesis and that earlier work drew only on grimdark and grand-strategy-game tropes.

@@ -1,0 +1,6 @@
+- sources:
+  - Gilded Lily | weight: reconsider as the working name, re-evaluated for whether it still works | marked by: "I was thinking Gilded Lily might get confused" and "Would this work" | referred-to
+  - Gilded Trust | weight: check Gilded Lily against it to avoid the two being confused for each other | marked by: "might get confused with Gilded Trust" | referred-to
+- order:
+  - Gilded Lily / Gilded Trust | possible confusion flagged as a problem to resolve, marked by "might get confused with"
+- about: The user turn reconsiders the proposed fake-mother name over a possible mix-up with an existing character, and instead proposes making her a relative (aunt or second cousin) of Silver Sterling, asking the model to assess whether this works and its implications and thematic impact.

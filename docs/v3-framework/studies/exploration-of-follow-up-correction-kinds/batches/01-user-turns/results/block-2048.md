@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, exploratory question, whether the model's described structure amounts to Faust's "Friendship is Magic" (the show) taken faithfully with real stakes, without disputing anything the model said.

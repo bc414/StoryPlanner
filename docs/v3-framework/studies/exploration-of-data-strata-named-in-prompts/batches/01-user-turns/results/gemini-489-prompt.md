@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to plausibly explain, within their story, why the other Mane 6 don't know Rainbow's motive for flying nonstop four years after the Storm King events, suggests she was distant while working with the Wonderbolts on aircraft designs, and adds their setting's premise about the Wonderbolts' air dominance and the weak army and navy.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the fanfic comparison and the public-perception question unanswered and moves to a new worldbuilding thread, the changeling drug Jaeger-geist, describing its origin and withdrawal and asking for pros and cons of adding a reduced-critical-thinking effect.

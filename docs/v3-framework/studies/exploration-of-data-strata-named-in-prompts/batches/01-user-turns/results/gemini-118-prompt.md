@@ -1,0 +1,4 @@
+- sources:
+  - the revised chapter titles the model just proposed (Sabotage, Passage, Discipline, Velocity, Sovereignty, Momentum, Victory) | treat as provisional suggestions the author is grading: keep Sabotage, Passage, Velocity and Momentum, Sovereignty is acceptable, Discipline is neutral, Victory is rejected, and alternatives are wanted for all, with most effort on the disliked ones | I love Sabotage, Passage, and Velocity and Momentum. Sovereignty is ok. I am impartial to Discipline. I don't like Victory. | referred-to
+- order:
+- about: The author proposes inserting a new chapter between Trimmel's defeat and the siege of Canterlot, asks where the split should fall, and gives reactions to the proposed chapter titles while requesting alternatives, chiefly for the ones they dislike.

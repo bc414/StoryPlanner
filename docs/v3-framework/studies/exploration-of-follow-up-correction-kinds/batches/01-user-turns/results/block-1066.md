@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the "adulthood requires a childhood" point as key, extends it to their own suburban target audience and to cynical storytelling, and asks whether Lauren Faust's G1-toy origins make the toy mandate itself a symbol of childhood.

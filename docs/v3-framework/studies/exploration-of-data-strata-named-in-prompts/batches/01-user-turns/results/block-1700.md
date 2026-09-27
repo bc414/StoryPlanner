@@ -1,0 +1,8 @@
+- sources:
+  - Griffonian Republic as originally planned, a flawed democracy like America (gerrymandering, unequal Senate, voter restriction) | treat as outdated, dropped and replaced by the newer design | replaced that with the New Deal aesthetic | first-named
+  - Griffonian Republic as currently planned, New Deal aesthetic with Nordic and Singapore elements, interchangeable WW2-era factory labor, strong federal anti-trust enforcement | treat as the current state of the plan, though not yet fleshed out in detail | here is the current evolution | first-named
+  - Three-part synthesis mapping, GR as labor solidarity and fair government, Aquileia as asset specificity and accelerants, Equestria as unconditional dignity | treat as the author's current design for the world | GR is also only a third of the synthesis | first-named
+  - MLP original seasons under Lauren Faust | treat as the origin of the story's themes, which the story scales up to an adult version | adult/scaled-up versions of Lauren Faust's themes | first-named
+  - MLP seasons after the Hasbro mandates | treat as the later structural change the author studied against the original seasons, not as the thematic basis | structural logic between the original seasons and the Hasbro mandates | first-named
+- order:
+- about: The user answers the model's flagged gap by describing from memory how the Griffonian Republic's design changed, how the three story factions map onto a three-part synthesis, and where the themes come from in My Little Pony.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out a new structural plan for chapter 8 (a radio-linked war meeting in Tall Tale with Rarity dialing in from Manehattan, and an early private scene among four characters) and asks what Twilight should ask Rarity about the princesses, without saying anything in the previous turn was wrong.

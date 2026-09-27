@@ -1,0 +1,15 @@
+- passages:
+  - note 4366 | casual analytical commentary | idiomatic phrasing ("ego went to the moon", "chasing that high"), causal claims, aside "don't forget" | Synovial's reputation as a deceitful, rigid changeling and his feud with Trimmel | apart
+  - note 4366 | reflective reframing aside | opens with "That's the perception, until...", hypothetical "maybe" | recasts the prior view as mere perception and floats an alternate motive | apart
+  - note 4502 | casual analytical commentary | informal vocabulary ("young'uns", "not a total pushover", "holier than thou") | Synovial's pride, practicality, and attitude toward war crimes and drones | apart
+  - note 4503 | casual analytical commentary | present-tense interpretive claim about motive ("genuinely loves", "genuine preference") | Synovial's honor-code convictions behind his bloodless conquests | apart
+  - note 4503 | chronological narrative summary | dated events, past tense, event-by-event recounting | the Canterlot attack, demotion, the Tirek plot, and the civil-war alliance with Eros | apart
+  - note 4503 | casual analytical commentary | short interpretive judgment, "It shows Synovial is ruthless." | what the Eros alliance reveals about his character | run-in
+  - note 4503 | chronological narrative summary | resumes factual event statements about the attaché's role | Synovial's renewed influence and his division's decisive battle | run-in
+- shifts:
+  - note 4366 | casual analytical commentary | reflective reframing aside | shift from asserted claims to a labeled "perception" followed by a hypothetical "maybe"
+  - note 4503 | casual analytical commentary | chronological narrative summary | shift from a present-tense motive claim to a dated, past-tense event ("planned the Canterlot attack of 1002")
+  - note 4503 | chronological narrative summary | casual analytical commentary | interruption of the event list by the short judgment "It shows Synovial is ruthless."
+  - note 4503 | casual analytical commentary | chronological narrative summary | return to factual event statements ("He is also again responsible...") right after the judgment
+- registers: casual analytical commentary; chronological narrative summary; reflective reframing aside
+- whole: This item's notes move between several registers — a casual, opinionated commentary on Synovial's character that runs through all three notes, a chronological narrative-summary register that carries the plot events in note 4503, and a brief reflective aside in note 4366 that reframes the commentary as mere "perception" — with the shifts in note 4503 occurring mid-paragraph with no break, while note 4366's shift and note 4502's single register each stand apart on their own.

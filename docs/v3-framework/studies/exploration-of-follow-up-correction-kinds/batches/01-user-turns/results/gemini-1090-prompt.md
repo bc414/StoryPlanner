@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model read the ask as names for individual salons, when the user wanted a general category word to replace "salon" for the whole class of institutions | "I meant, instead of "salon", is there a better blanket word" | stated flatly as a clarification of intent, mildly corrective, with no apology or irritation
+- about: The user clarifies that they wanted a replacement umbrella term for \"salon\" fitting Aquileian and Night themes, not a list of individual establishment names, and re-asks for that.

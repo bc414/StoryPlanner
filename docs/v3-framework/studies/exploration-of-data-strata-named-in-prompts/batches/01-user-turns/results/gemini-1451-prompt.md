@@ -1,0 +1,7 @@
+- sources:
+  - story plans | re-read them to examine Luna's existing arc before sharpening the dream-insurgency idea | Review the story plans again | referred-to
+  - Luna's retreat order in Tall Tale | part of the plans to read first; treated as the inciting incident for Applejack becoming General and Lioness | starting with Luna's retreat order in Tall Tale | referred-to
+  - Luna in Manehattan having nightmares of her own | part of the plans to review as part of Luna's existing arc | Luna in Manehattan having nightmares of her own | referred-to
+  - the Combined Arms meeting | part of the plans to review, where liberating Canterlot was planned but the Bluebell River Spearhead was chosen instead | the Combined Arms meeting where they were supposed to liberate Canterlot | referred-to
+- order:
+- about: The user asks the model to re-read the existing story plans about Luna's arc, starting with her Tall Tale retreat order, and then sketches an idea in which her shame and renewed nightly dreamwalking let her identify victims from collaborators before the paradrop.

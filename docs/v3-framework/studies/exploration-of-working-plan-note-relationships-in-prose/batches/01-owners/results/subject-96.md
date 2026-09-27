@@ -1,0 +1,55 @@
+- relations:
+  - 1592|2636|2636 gives the specific Trotskyite agricultural position that 1592 names generally as the basis for the nation|Trotsky's position was voluntary collectivization ... This is what I am using for Stalliongrad|implicit
+  - 1592|1600|1600 gives the historical instance (militarization of labor, 1920) of the Trotskyite base 1592 names, and how it shows in the ponies|Trotskyite militarization of labor / In 1920, Trotsky argued for the "militarization of labor"|implicit
+  - 1600|1594|The belief that the State is the ponies themselves is the reason given for why conscripts go to the meat grinder almost willingly|accept conscription because they genuinely believe the State is them / going out to die for the state almost willingly|implicit
+  - 1592|1594|Both rule out a terror apparatus: the meat grinder happens without secret-police oppression, matching the not-Stalin's-terror-state basis|NOT Stalin's paranoid terror state / even without nkvd KGB oppression|implicit
+  - 1592|1596|Both place Stalliongrad on the principled Trotsky side against the Stalinist one; 1596 adds that even that is not an ideal for today|alt universe Trotsky which was principled / armchair communist ideal|implicit
+  - 1592|2653|Both call the nation the armchair communist ideal; 2653 states the argument that ideal makes and where Stalliongrad stands against it|"armchair communist" ideal / The armchair communist's argument|implicit
+  - 1592|2625|Both say the nation is the armchair communist ideal; 2625 adds that it is taken seriously and critiqued, not made a Stalinist terror state|armchair communist ideal taken seriously and properly critiqued|implicit
+  - 2625|2636|2625 says the plan avoids failed collectivization and famine; 2636 gives the voluntary, tractor-led alternative that does so|Not following failed collectivization and industrial famine patterns / Stalin forced collectivization|implicit
+  - 2636|2638|2638 is the in-world working of the Trotskyite voluntary collectivization in 2636: state supplies inputs, farms join|voluntary collectivization incentivized by industrial investment / Haber-Bosch nitrogen, industrial tools|implicit
+  - 2625|2645|Both say the Stalinist historical pattern of crisis is not what this Stalliongrad follows; 2645 gives the culture-and-history reason|wouldn't have these problems at all given Severyanan history and culture|implicit
+  - 2645|2654|2654 gives the material reasons (tiny Boyar class, Mir culture) why the Stalinist crises and repression would not arise|no persistent bourgeois threat / Stalliongrad would inevitably produce its own Stalin|implicit
+  - 2653|2654|2654 spells out the material-conditions argument that 2653 states briefly: it works for Severyanans, and conditions do not transfer|communism would work if only the conditions were right / material conditions don't transfer|implicit
+  - 2654|2650|The Boyars crushed in weeks matches the swift Winter Revolution; both contrast with the long Russian civil war|crushed in weeks / Winter Revolution will be swift|implicit
+  - 2654|2644|Both hold that the revolution restored an existing Mir communal ethos and would not work on individualist griffons|Mir folklore already naturally produces communal conviction / griffon culture is individualistic|implicit
+  - 2654|2641|Mir folklore already produces communal conviction, and 2641 says the same folklore's pride in the commune keeps the earth pony magic working|Mir folklore / pride of serving the commune's harvest|implicit
+  - 2638|2641|2638 states that ponies keep their earth pony magic and soil pride; 2641 plans how the tractors hide this from readers until later|keep their earth pony magic / earth pony magic still works|implicit
+  - 2641|2655|2641 overturns the seeded reader belief in 2655 that the economy is non-magical pure industry|no visible magic of any kind / The economy is non magical, pure industry|implicit
+  - 2655|2647|Both set up a starting belief that the reader later revises: 2655 the cog belief, 2647 the threat view|Aquileian prior beliefs seeded / readers and Blueblood later learn|implicit
+  - 2644|2649|2644 dramatizes the thematic proposition in 2649 that moral preaching cannot spread without material preconditions|Moral preaching ... would fail / moral preaching ... can't spread|implicit
+  - 2648|2649|2648 plans how the inward-success, outward-failure proposition in 2649 shows, through hidden preconditions|works at home because the material conditions are perfect / succeeds inward but fails outward|implicit
+  - 2653|2649|Both say the system works for Severyana and is not exportable|works for the Severyanans, not to be imposed on everyone / succeeds inward but fails outward|implicit
+  - 2648|2646|2646 is the instance of export failure that 2648 states generally; 2646 gives the cause as missing solidarity and scarcity|without pre-existing cultural solidarity ... revolutions devolve into authoritarianism|implicit
+  - 2648|2641|2648's unknown earth pony magic precondition is the magic that 2641 says still works under tractors|The earth pony magic they don't know exists / earth pony magic still works|implicit
+  - 2648|2644|Both say Mir culture is mistaken for universal when it is specifically Severyanan|The Mir culture they treat as universal but isn't / applied to everywhere|implicit
+  - 2647|2646|Weapons and advisors sent abroad in 2646 fit the true threat in 2647, yet 2647 says export by force was never planned; the two sit in tension|The weapons and Red Army's existence were true / funded ... with advisors and weapons|implicit
+  - 2647|1590|The refusal to invade Equestria at Chrysalis's request is an instance of never planning to export by force|never planned on exporting the revolution through force / they refused|implicit
+  - 1591|2646|The Nova Griffonian intervention in 1010 continues the outside involvement in other lands that 2646 covers for 1000 to 1008|they intervened in the Nova Griffonian Civil War / funded the Prywhen civil war|implicit
+  - 1590|1591|Both are 1010 events on Stalliongrad's dealings with foreign wars, one refusing to invade and one intervening|refused / intervened|implicit
+  - 1580|1582|1582 continues the post-war alliance of 1580 to its end point; the two wordings differ (stays an ally vs joins) and may not agree|stays an ally of the Republican Pact / joins the allies after Equestria becomes a republic|implicit
+  - 1582|1583|Vasily's Socialist Emulation and the invitation to leave are how the leaders adapt when solidarity loosens|they adapt / Socialist Emulation|implicit
+  - 1583|1584|1583 lets dissidents leave; 1584 notes the historical practice of walling people in, so the two contrast|let them leave / built walls to keep people in|implicit
+  - 1583|1592|The exit-not-Gulag purification in 1583 shows the not-Stalinist-terror basis in 1592|without needing a Gulag / NOT Stalin's paranoid terror state|implicit
+  - 1582|1601|1601 says the nation cannot process peacetime; 1582 shows the loss of urgency in peacetime once the enemy is gone|cannot process peacetime / without an enemy ... solidarity feels less urgent|implicit
+  - 1594|1601|Absolute solidarity that resists terror and bribery is the reason the war is fought as a willing meat grinder|solidarity is absolute / meat grinder still happens|implicit
+  - 1601|2655|Both state that flattening everyone into an interchangeable cog defeats the Predator's Dilemma at the cost of joy and soul|flattening the entire population into a gray, joyless monolith / sacrificed the soul of the worker|implicit
+  - 2655|1594|2655 gives the cog mentality as the reason for the meat grinder, and calls it forced where 1594 says almost willing|forces its citizens into the horrific, human-wave meatgrinder / go along with it|implicit
+  - 2655|2640|The Boyar exploitation in 2655 is what the nationalization and returns in 2640 answer|Under the Boyars ... target for exploitation / everything the Boyars took from you, returned|implicit
+  - 2638|2640|Both give the state's returns to the working people: inputs to farms, surplus to farmers and workers|state provides Haber-Bosch nitrogen / industrial surplus goes to the farmers and workers|implicit
+- outward:
+  - 2645|The game's focus tree and its Stalinist crises, as source canon|The game's focus tree crises for Stalliongrad
+  - 2654|The ASOIAF dark-realism convention as a framework outside the item|The ASOIAF convention takes this cynicism further
+  - 2641|The Tall Tale story, where earth pony magic works|just like in Tall Tale
+  - 2644|Skyfall and Herzland, other griffon lands|like Skyfall and Herzland
+  - 2647|Blueblood and his Dotted Line Report|Blueblood listed Stalliongrad as a threat in the Dotted Line Report
+  - 906|Star Energy's Harmonic Capitalism, another system|dark mirror to Star Energy's Harmonic Capitalism
+  - 1590|Chrysalis and her push for invasion of Equestria|Chrysalis tried to talk to the soviet council
+  - 1591|The Nova Griffonian Civil War|Nova Griffonian Civil War
+  - 2646|The Prywhen civil war and other communist movements|funded the Prywhen civil war
+  - 2655|The Manifesto, the Predator's Dilemma, Aquileian readers, Chrysalis's Heer and the Skyfall capitalists|following the Manifesto / Predator's Dilemma
+  - 1601|Chrysalis's VOPS infiltrators, the Stuka and Terroir|A VOPS infiltrator / Terroir
+  - 1580|The Republican Pact and Vasily Wheatin's leadership|ally of the Republican Pact
+  - 1582|Equestria becoming a republic and the allies|Stalliongrad joins the allies after Equestria becomes a republic
+  - 2653|The Equestrian Republic as the system for everyone|The Equestrian Republic is for everyone
+- whole: Most of these notes hang together as one argument that the system works at home because of Severyanan material and cultural conditions and fails when exported, with the Trotskyite basis, Vasily's adaptation and the reader-revision plan tied into it, though the 1010 history notes and the sparse single-line notes stand only loosely.

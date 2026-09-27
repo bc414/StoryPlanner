@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question by choosing that Celestia deliberately keeps Twilight in logistics, and revises their own earlier plan from a resentful Twilight to one who drives the research after her Ain Trotgourait exhaustion.

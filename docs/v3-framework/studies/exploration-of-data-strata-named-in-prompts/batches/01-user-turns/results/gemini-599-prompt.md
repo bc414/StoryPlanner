@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's Harmonist Hack analysis (ambient love equals pink love, Level 2 workers get no red love, arrests rest on Equestrian contraband, Thorax never defected and taught underground) and asks for ideas on repurposing old noble torture dens as board-game speakeasies and what other friendship activities could be there.

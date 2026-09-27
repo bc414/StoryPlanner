@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the original chapter 7 to 8 bridge, treats the war bond material as an added bridge, and lays out a fuller sequence for the oil meeting, covering Rockfeller's refusal, Fluttershy and the buffalo, the hidden warehouses and the arrest, without saying the model's analysis was wrong.

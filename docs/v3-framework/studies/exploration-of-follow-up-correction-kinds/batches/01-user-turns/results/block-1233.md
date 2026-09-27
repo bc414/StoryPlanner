@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn sets a new task, asking for an analysis of their Canalave Library plans and the source code model classes, without saying anything about the preceding essay being wrong.

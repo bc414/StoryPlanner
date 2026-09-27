@@ -1,0 +1,9 @@
+- sources:
+  - the previous precise insights | to be re-checked against the new clarification, with the model asked to say whether each is supplanted or improved, so not yet settled | How does this affect the previous precise insights? Supplanted or improved? | referred-to
+  - the clarification of the opening scene (Acornage as a 600k city, changelings' self-imposed disguise norm, nothing stopping Chrysalis from going to Canterlot) | treat as the author's correction of the scene, to be applied to the earlier reading | To clarify the opening scene | first-named
+  - I established that the pre-collapse harmonic hives raised grubs communally | treat as settled lore to build on, extending it to the post-collapse hives | I established that the pre-collapse harmonic hives raised grubs communally | referred-to
+  - Chrysalis's EaW biography | treat as outdated and discard, since it is scrapped as a cartoon villain with shallow psychology drawn from Canterlot Wedding | I'm scrapping this in favor of her being one among many children | referred-to
+  - Chrysalis as one among many children under her mother's meritocratic mandate | the author's replacement for the EaW biography, put to the model for a sense check | Does this make sense? | first-named
+- order:
+  - Chrysalis as one among many children under her mother's meritocratic mandate | over Chrysalis's EaW biography | I'm scrapping this in favor of her being one among many children
+- about: The author clarifies how the Acornage opening scene works, scraps the EaW only-child biography for a many-siblings meritocratic upbringing, adds ideas about the mother, private grub-rearing, turncoat clans and siblings' fates, and asks the model whether its earlier insights are supplanted or improved and what reader experience the known-doom framing produces.

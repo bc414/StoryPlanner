@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, requesting an evaluation of a claim they heard that the auto bailout paid off and an explanation of how the automaker and bank bailouts differed, without saying anything in the model's turn was wrong.

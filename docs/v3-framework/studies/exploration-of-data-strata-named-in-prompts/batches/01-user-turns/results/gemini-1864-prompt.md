@@ -1,0 +1,5 @@
+- sources:
+  - the notes json (sent to the Gemini website alone) | one candidate input for the reorganizing LLM; the user is weighing it against the alternative and has not settled on it | just the notes json | referred-to
+  - the full context of my story plans, indexed as a source in Notebook LM | the other candidate input, giving the LLM the whole story plan as background while it reorganizes; the user is asking whether to use it, not saying to | full context of my story plans indexed as a source | referred-to
+- order:
+- about: The user asks which of two setups to use when having an LLM reorganize their notes: the Gemini website with only the notes JSON, or Notebook LM with the full story plans indexed as a source.

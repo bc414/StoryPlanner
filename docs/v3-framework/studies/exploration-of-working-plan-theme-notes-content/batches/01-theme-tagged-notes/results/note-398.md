@@ -1,0 +1,2 @@
+- claims:
+- theme: The note is empty. It says nothing, so it does not argue the proposition, supply evidence for it, or touch the theme, even though it carries the tag.

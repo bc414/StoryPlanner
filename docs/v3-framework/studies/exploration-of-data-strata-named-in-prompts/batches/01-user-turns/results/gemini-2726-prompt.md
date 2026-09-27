@@ -1,0 +1,6 @@
+- sources:
+  - Phillipe Petain's historical stance on honest soil and peasant life over the decadent bourgeoisie | a real-world historical claim the user wants confirmed, then used as a parallel for the story's characters | Did Phillipe Petain care about the honest soil and said peasant life was better | first-named
+  - Leonce du Roc hating the warlord elite who once rallied then went back to fighting | established story-plan characterization, treated as given and the thing the Petain parallel is to be tied into | Leonce du Roc hating the warlord elite who once rallied then went back to fighting | referred-to
+  - Applejack's synthesis of the honest farm ethos scaled up to industrial military | established story-plan idea about Applejack, treated as given and the other thing to be tied to the Petain parallel | Applejack's synthesis of the honest farm ethos scaled up to industrial military | referred-to
+- order:
+- about: The user asks the model to confirm a historical fact about Petain's peasant-soil ideology and then link it to two existing story elements, Leonce du Roc's contempt for the warlord elite and Applejack's farm-to-industry ethos.

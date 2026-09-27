@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Rainbow Dash character-arc thread and gives a fresh instruction to assess where their GIYC plan rigorously built suspension of disbelief and which parts could carry over to TLTT, without saying the previous answer was wrong.

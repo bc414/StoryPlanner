@@ -1,0 +1,5 @@
+- sources:
+  - Option C (the model's radio-quote variant with the promise/fact wording) | adopt as the radio line; the author likes it and builds the nightmare's cause on its promise | I like Option C | referred-to
+  - the radio address as originally written, with "I am Hivesmarshall Trimmel" | the author's own earlier draft, whose name-and-title opening is questioned and defended, not settled; the author asks whether it makes sense | I originally put "I am Hivesmarshall Trimmel" in the radio address | referred-to
+- order:
+- about: The author accepts the promise-based radio line, asks the model to justify why Trimmel would personally attach his name and rank to the surrender demand, and proposes a wording for Applejack's mercy speech and Trimmel's parting reply.

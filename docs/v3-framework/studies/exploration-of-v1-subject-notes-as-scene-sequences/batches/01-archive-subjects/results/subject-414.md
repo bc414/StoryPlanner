@@ -1,0 +1,14 @@
+- passages:
+  - 41 | statement about the subject | the core principle: naive niceness fails in the real world, strength must come first and then mercy toward opponents, seeking strength is not inherently evil if responsible, and not seeking it means stagnation | none | argued as general claims with 'you have to' and 'you must', no event
+  - 4064 | slogan | a two-part motto urging giving Passion to the Front and Heart to the Prisoner | none | title-like line with parallel clauses, no event
+  - 4065 | statement about the subject | the theme applied to the war: those who want the war gone must be strong, donating love for prisoner rehab and magic for weapons and defence of Equestria, so mercy and strength are one | none | general claim ('Those who...', 'Mercy and strength are one and the same'), no single moment
+  - 4076 | scene beat without a year | a surrendered changeling is given a cake made with pink love to wean them off combat drug addiction, then learns the love came from the ponies they had tried to kill | none | event written as something that happens, with 'will be given' and 'Then they find out'
+  - 4076 | statement about the subject | the meaning of that moment: it is the ultimate checkmate against Chrysalis's propaganda that ponies are weak prey and the drug is needed to fight | none | interpretive comment ('It's the ultimate checkmate')
+  - 4078 | statement about the subject | the phrase is the only way to break the predator's dilemma | none | single aphorism-like claim about the idea
+  - 4287 | statement about the subject | aphorism that peace is the presence of consequences rather than the absence of weapons | none | single maxim, no event
+  - 4504 | scene beat without a year | planned outcome of the Pagala arc: AJ kills her in cold blood, saying some war criminals don't deserve trials, with the author asking whether this can work | none | states an end result ('The end result of Pagala is that AJ kills her') framed as an open question
+  - 4504 | statement about the subject | the author's theme that strength must precede mercy, compared to America dominating Germany and Japan before rehabilitating them, and that weak friendship without strength fails against bad-faith enemies | none | stated intent ('another central theme I want to portray') with historical analogy
+  - 4505 | statement about the subject | definition of strength as the will to destroy irredeemable evil, with the maxim that mercy to the wolf is cruelty to the sheep | none | definitional claim and proverb-like line
+  - 5437 | empty placeholder | an untitled note with only the default text and no content | none | reads 'New Note'
+- sequences:
+- whole: A set of notes stating and restating the theme that strength must come before mercy, through principles, slogans and maxims, one planned surrender-and-cake moment, the planned Pagala ending with AJ's killing, and an empty placeholder.

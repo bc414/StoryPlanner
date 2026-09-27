@@ -1,0 +1,6 @@
+- asks:
+  - explain | describe what would happen if a dam were destroyed during combat, given that defenses are positioned along the riverbank | "What happens is the dam were destroyed in combat and they have defenses along the river back?"
+- supplies:
+- shaping:
+- openness: open — it poses a hypothetical "what happens" scenario without proposing an answer or naming options, leaving the outcome for the model to work out
+- subject: consequences of a dam's destruction in battle for riverbank defensive positions, in a fictional military scenario

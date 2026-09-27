@@ -1,0 +1,25 @@
+- passages:
+  - note 3971 | definitional | third-person, terse claim of what a term means | what loyalty originally means | run-in
+  - note 3971 | first-person declarative | shift to "I", repeated "will always be..." | the speaker's own commitment to friends | run-in
+  - note 3971 | definitional | new sentence, returns to third-person abstract claim | loyalty assuming reciprocity unverified | apart
+  - note 3972 | definitional | "The war version is 'Heroism'," naming a category | naming Heroism as the war version of loyalty | run-in
+  - note 3972 | narrative-illustrative | "where Rainbow believes..." names a character and her belief/fear | Rainbow's belief that she must save the ponies | run-in
+  - note 3972 | definitional | new sentence, abstract metaphor "top down mentality...crushed" | the top-down, morally crushed structure of Heroism | apart
+  - note 3972 | cross-referential | brief analogy to another character/work, "Eros's vision for Grover" | comparing Heroism to Eros's vision for Grover | apart
+  - note 3972 | definitional | returns to abstract classification, "blind servitude"/"euphemism for" | Heroism as blind servitude and as a euphemism for Fealty | apart
+  - note 3973 | definitional | single terse third-person defining clause | Fealty as the tyrannical, one-way version of loyalty | apart
+  - note 3974 | definitional | terse defining clause with a dash-clarification | Kinship as the liberty version, chosen not blood-kin | apart
+  - note 5814 | definitional | terse general third-person claim | war as rooted in conscience | apart
+  - note 5814 | second-person direct address | shift to "You are fighting..." | fighting for chosen peers, not a distant leader | apart
+  - note 5814 | definitional | paragraph break, returns to third-person "Kinship requires..." | Kinship needing conscience, and what a jaeger lacks | apart
+- shifts:
+  - note 3971 | definitional | first-person declarative | dash joins a third-person definition to a first-person "I am committed..." with anaphoric "will always be"
+  - note 3971 | first-person declarative | definitional | new sentence returns to third person, "It assumes reciprocity without verifying it."
+  - note 3972 | definitional | narrative-illustrative | "where" clause turns the abstract label into a named character's specific belief
+  - note 3972 | narrative-illustrative | definitional | new sentence drops the character and returns to abstract classification, "It is a top down mentality"
+  - note 3972 | definitional | cross-referential | shift to a comparison with another character/story, "similar to Eros's vision for Grover"
+  - note 3972 | cross-referential | definitional | new sentence returns to abstract classification, "It is blind servitude"
+  - note 5814 | definitional | second-person direct address | shift from general third-person claim to direct "You are fighting for your peers"
+  - note 5814 | second-person direct address | definitional | paragraph break returns to third-person defining claim, "Kinship requires..."
+- registers: definitional; first-person declarative; narrative-illustrative; cross-referential; second-person direct address
+- whole: Most of this item is written in one recurring terse third-person definitional register, but three of its five notes briefly break into a different way of writing — a first-person declarative burst, a named character's belief, a cross-story comparison, or a direct "you" — sometimes inside the same sentence and sometimes across a sentence or paragraph break, before settling back into the definitional register.

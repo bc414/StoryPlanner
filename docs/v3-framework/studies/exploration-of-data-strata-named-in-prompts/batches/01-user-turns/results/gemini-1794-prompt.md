@@ -1,0 +1,4 @@
+- sources:
+  - the extensive sexual liberty culture that makes same sex affairs a standard feature | treat as a given premise of the setting and reason from it, not question it | Assuming the extensive sexual liberty culture makes same sex affairs a standard feature | referred-to
+- order:
+- about: The user asks the model to analyse whether Aquileia's egotistical lioness and unicorn characters would have passionate affairs with each other, and what narrative purpose that would serve, while telling it to take the culture's sexual liberty and normal same-sex affairs as given.

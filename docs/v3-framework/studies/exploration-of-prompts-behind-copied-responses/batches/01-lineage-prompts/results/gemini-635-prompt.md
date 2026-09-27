@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | a full plan export for a long-form fiction project | whole document, stated as 121,140 words (content itself not captured, shown only as a placeholder note)
+- shaping:
+- openness: The message contains no instruction or question at all, only a placeholder marking an attached plan export, so no request is stated to be open, leaning, choice-based, or check-based.
+- subject: Attachment of a large fiction plan export, with no accompanying instruction

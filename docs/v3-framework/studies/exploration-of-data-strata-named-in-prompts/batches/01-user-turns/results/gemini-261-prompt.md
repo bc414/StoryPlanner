@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to make Luna's leaving Tall Tale behind in chapter 3 make sense in light of the Luna backstory just drafted, without pointing the model at any particular body of material.

@@ -1,0 +1,7 @@
+- questions:
+  - How does the Griffonian Republic's rigid, standardized military doctrine initially misinterpret or dismiss the Charitostatic Effect before witnessing it on the battlefield? | no user turn | none | none
+  - How does this initial misunderstanding complicate early joint-operations between SECEF and Kemerskai's forces? | no user turn | none | none
+  - How do the remnants of the old Griffonian Nobility attempt to sabotage the Republican Pact by using the old Concert of Europe diplomatic playbook? | no user turn | none | none
+  - How does Applejack's Authenticity specifically counter those 19th-century diplomatic traps? | no user turn | none | none
+- shape: none
+- settles:

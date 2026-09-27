@@ -1,0 +1,8 @@
+- asks:
+  - revise/inform | states a change to Twilight's characterization — that Celestia deliberately keeps Twilight occupied with research to keep her from going to fight — replacing an earlier plan where Twilight resented that order, with Twilight now self-motivated toward research | "I originally had Twilight feel resentful... but it seems having Twilight be the driving force of her research... is better"
+- supplies:
+  - backstory reference | Twilight's prior experience over-exerting herself trying to personally rebuild in Ain Trotgourait, used as the reason she now channels herself into research instead of fighting | a clause/short phrase
+  - prior plan detail | the earlier version of the beat, where Twilight felt resentful about being ordered not to fight | a clause
+- shaping:
+- openness: Leans toward the answer it names: the message states its own conclusion that the self-driven-research motivation for Twilight is the better version, replacing the resentment framing.
+- subject: A revision to Twilight's motivation for staying on research duty instead of fighting, tied to Celestia's oversight and Twilight's exhaustion at Ain Trotgourait

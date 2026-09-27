@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model filled gaps in the existing story plan with its own assumptions rather than checking the database file for what it holds or leaves open, and is told to search it for uncertainties | instead of assuming | Stated as a polite instruction, with the correction carried by a brief contrast clause and no reason or apology given
+- about: The user asks for the reanalysis to be redone with the insights already given, and directs the model to search the database file for open questions in the plan rather than assume answers.

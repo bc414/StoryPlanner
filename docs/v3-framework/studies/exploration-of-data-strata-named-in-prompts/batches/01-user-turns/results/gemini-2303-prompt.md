@@ -1,0 +1,4 @@
+- sources:
+  - the vehicle-engine efficiency figures just given in the conversation ("this") | used as the baseline the model is to compare power-plant generators against | How does this compare | referred-to
+- order:
+- about: The user asks a general thermodynamics follow-up, wanting the efficiency figures just discussed compared with stationary power-plant generators and an explanation of how combustion differs between vehicle engines and power plants.

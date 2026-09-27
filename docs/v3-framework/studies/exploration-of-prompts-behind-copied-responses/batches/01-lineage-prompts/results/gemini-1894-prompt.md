@@ -1,0 +1,7 @@
+- asks:
+  - analysis | describe Minette's psychological profile at the moment she arrives in Vinovia | "psychological profile upon arriving in Vinovia"
+  - analysis | describe Minette's psychological profile during the period/event called Le Grand Foyer | "what about during Le Grand Foyer?"
+- supplies:
+- shaping:
+- openness: leaves both answers open, posing them as plain questions ("What would be...") without naming a candidate profile, options to choose between, or a claim to verify.
+- subject: the character Minette's psychological state at two points in the story: her arrival in Vinovia and the period of Le Grand Foyer

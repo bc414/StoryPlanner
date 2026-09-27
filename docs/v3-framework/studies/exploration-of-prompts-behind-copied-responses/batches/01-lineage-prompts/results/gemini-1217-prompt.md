@@ -1,0 +1,6 @@
+- asks:
+  - evaluate | asks which of two named clock regimes is biologically better for a person with a specific weekday wake time | 'Is daylight savings or standard time biologically better for someone who wakes up at 8:40 am on weekdays?'
+- supplies:
+- shaping:
+- openness: Asks for a choice between two named options (daylight savings time vs. standard time) with respect to a stated wake-up time.
+- subject: Whether daylight savings or standard time better suits a person's circadian biology given their weekday wake time

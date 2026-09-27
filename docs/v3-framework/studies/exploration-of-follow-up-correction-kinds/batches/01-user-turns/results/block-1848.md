@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's list of structural issues and asks a new classification question about whether Camp Fluttershy is an organization or a civilizational system, giving their own lean and noting the same ambiguity applies to other cases.

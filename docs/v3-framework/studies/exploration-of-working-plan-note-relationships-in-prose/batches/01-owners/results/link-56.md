@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1708|The wider world law of magic and cutie marks that Fleur is explaining, held as lore elsewhere in the plan, and the scene where she drags Rainbow Dash to her lab|Fleur says unicorn horns can rearrange to cast what they want, with a discount for spells related to their cutie mark
+- whole: Only a single note is held here, so there is nothing to join it to and the owner reads as one standalone entry.

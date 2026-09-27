@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's proposal that Earth Pony magic induces lactation in cows; the user holds that pony magic, as an evolved herbivore trait, reaches only crops and not animals | I don't really like having earth pony magic work on animals because ponies are herbivores | stated flatly as a personal dislike, with the in-world reason given right after, and no apology
+- about: The user turns down the Earth Pony lactation idea on the grounds of how pony magic works, then moves on to ask a chemistry question about dairy in baking and says eggs can stay as they are.

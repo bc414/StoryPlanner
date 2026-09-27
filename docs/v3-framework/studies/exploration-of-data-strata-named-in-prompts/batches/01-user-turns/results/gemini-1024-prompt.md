@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a story alternative to the model's proposed lithography-machine plot point, asking what if Twilight's first spell matrix were itself a lithography spell so no machine is needed, without pointing at any body of material.

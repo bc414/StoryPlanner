@@ -1,0 +1,9 @@
+- sources:
+  - the materialist historicist analysis | treat as the established framework the new design is built on and should be consistent with | given the materialist historicist analysis | referred-to
+  - cattle in Rwanda and Tanzania (the Great Lakes cattle-herding patriarchal paradigm) | use as the real-world template whose listed properties the zebra spirit economy must reproduce | same properties of the cattle in Rwanda and Tanzania | referred-to
+  - the Great Lakes savanna Zebra spirit economy (the user's own proposal in this turn) | treat as a working idea the user is still developing, to be analysed rather than as settled | I'm currently thinking about | first-named
+  - the griffon paradigm | use as a contrast case, not a model; the spirit economy should differ from it | unlike the griffon paradigm which is about personal valor | referred-to
+  - the Zumidia paradigm (the matrilineal one) | treat as the existing setting the same spirit magic is to be applied to and analysed against | how would the same magic apply to the Zumidia paradigm | referred-to
+  - Zecora's hut (published show) | treat as a canon detail that the spirit economy is meant to explain | This is why Zecora has so much interesting stuff in her hut | referred-to
+- order:
+- about: The user proposes a magical-spirit prestige economy for Zebras in the Great Lakes savanna that mimics the material role of cattle in the materialist analysis, and asks for an analysis of it and of how it would apply to the matrilineal Zumidia paradigm.

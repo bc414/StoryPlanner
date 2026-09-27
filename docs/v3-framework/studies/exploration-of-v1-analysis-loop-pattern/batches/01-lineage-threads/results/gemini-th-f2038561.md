@@ -1,0 +1,11 @@
+- steps:
+  - the author | supplies material | a full story-plan document as an attachment, no accompanying question in text | opening message of the thread
+  - the model | whole-plan analysis | thematic architecture, characterization/foil dynamics, act structure, and a list of risks across the entire plan | first response, opening sections
+  - the model | arc proposal | a staged three-phase account of one character's loyalty arc with chapter placement and a draft interior-monologue line | first response, closing section answering an implied request
+  - the author | pitch | a new recruitment-scene beat where one character is wary of a former enemy and another vouches for him, citing two earlier witnessed events as justification | second message
+  - the model | foil analysis | a contrast between the wary character's prejudice and the vouching character's code, framed as two different ways of judging the same evidence | second response, opening section
+  - the model | scene draft | a full written scene with staged dialogue dramatizing the recruitment confrontation and vouching | second response, middle section
+  - the model | justification | three reasons the drafted scene serves the redemption arc, the foil character's humbling, and the vouching character's arc completion | second response, closing section
+- kept:
+- brought: The author brought the entire plan document for review and then, in the follow-up, a new plot beat linking a character's established backstory witnessing acts of loyalty to a proposed recruitment scene.
+- loop: The author supplies whole-plan material and then a specific follow-on beat for the model to analyze and dramatize into full arc outlines and scene dialogue, but in this stretch none of that returned analysis or drafted text was captured back into the planning database as a note.

@@ -1,0 +1,3 @@
+- passages:
+  - fabula content | States as a fact of the story's world that Star Energy draws its strength from diversity as well as from industry; it does not mention the scene's events or say what the scene does with this. | "Star Energy's strength lies in diversity too, not just industry" | no | terse declarative planning shorthand, a single clause with a trailing contrast ("too, not just industry")
+- whole: A one-line note asserting, as a fact about the world, that Star Energy's strength comes from diversity as well as industry, with no mention of the hospital scene itself.

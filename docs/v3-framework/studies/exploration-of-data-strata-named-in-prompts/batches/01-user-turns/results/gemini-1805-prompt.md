@@ -1,0 +1,5 @@
+- sources:
+  - the detail about Aquileia (Aquileia as a vassal of the empire, with Discret as its king) | treat as an existing story-plan detail that the answer has to be fitted around | How would the detail about Aquileia bring a vassal of the empire and Kaiser Grover fit in | referred-to
+  - EaW lore | treat as true for Grover IV's character: decadent, hedonistic, eats too much chocolate | Grover IV is described in EaW lore as decadent hedonistic | referred-to
+- order:
+- about: The user asks how to fit Aquileia's status as a vassal of Kaiser Grover's empire into the Versailles-style setup, using Griffenheim as the Versailles equivalent and the EaW description of Grover IV. They ask whether Discret should be king over the Aquileian lords while bending the knee to Grover, or whether those lords should answer to Grover directly.

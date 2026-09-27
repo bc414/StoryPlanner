@@ -1,0 +1,7 @@
+- asks:
+  - analyse | examine the user's expansion of the 'Filli Vanilli' material that forms chapter 2 of the story | "analyze my expansion of Filli Vanilli which forms chapter 2"
+  - analyse | explain how that chapter 2 material relates to TLTT's themes and character arcs | "how it relates to TLTT's themes and character arcs"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it asks for analysis of the chapter and its thematic/character-arc connections without naming any particular interpretation, theme, or conclusion to arrive at.
+- subject: The user's chapter 2 ('Filli Vanilli' expansion) and its relation to the themes and character arcs of the larger story referred to as TLTT

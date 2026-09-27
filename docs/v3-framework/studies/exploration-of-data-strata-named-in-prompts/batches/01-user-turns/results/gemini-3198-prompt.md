@@ -1,0 +1,4 @@
+- sources:
+  - Equestria at War | leave out; the model is asked for material other than this, which was already covered | beyond Equestria at War | referred-to
+- order:
+- about: The user asks the model to widen its overview of the My Little Pony community to areas other than Equestria at War, which the previous answer covered.

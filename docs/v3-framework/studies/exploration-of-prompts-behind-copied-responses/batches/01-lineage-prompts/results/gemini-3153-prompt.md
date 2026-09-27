@@ -1,0 +1,11 @@
+- asks:
+  - revise | update a previously given assessment of Gemini tools so it reflects current information | "Please update your assessment of the Gemini tools that are included using latest data from April 2026"
+  - incorporate fact | treat Jules and Antigravity as products that have now actually shipped, rather than as planned/hypothetical, when revising the assessment | "where Jules and Antigravity are actual released products"
+  - check claim | evaluate whether Gemini CLI is the counterpart to Claude Code | "Gemini CLI, which I think is the equivalent of Claude Code"
+  - check claim | confirm whether AI Studio is Google's counterpart to Claude's default consumer product/behavior | "So AI studio is the Google equivalent of Claude's default consumer behavior?"
+- supplies:
+- shaping:
+  - must reflect data as of April 2026 | "using latest data from April 2026"
+  - must treat Jules and Antigravity as actually released, not upcoming | "are actual released products"
+- openness: Mixed: the request to update the Gemini-tools assessment is left open-ended, while the two comparisons (Gemini CLI vs Claude Code, AI Studio vs Claude's default consumer product) are each phrased as a stated equivalence the message proposes and asks the model to confirm.
+- subject: Comparing Google's Gemini-related AI tools (Jules, Antigravity, Gemini CLI, AI Studio) to their Claude counterparts, updated for April 2026.

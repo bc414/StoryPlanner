@@ -1,0 +1,5 @@
+- sources:
+  - canon source from FiM | treat as evidence that Apple family reunions rotate hosts, correcting the model's claim that they are always at Sweet Apple Acres | The canon source from FiM implies apple family reunions have a different host each time | referred-to
+  - the author's own claim about Applejack's life, from memory or assumption | treat as established fact that Applejack visited Tall Tale periodically for harvest festivals throughout her life | Applejack definitely would have visited Tall Tale periodically for harvest festivals through her whole life | first-named
+- order:
+- about: The user pushes back on the model's reasoning by citing show canon about rotating reunion hosts and asserting that Applejack regularly visited Tall Tale, which undercuts the premise that she would first meet Tally Mark on arrival.

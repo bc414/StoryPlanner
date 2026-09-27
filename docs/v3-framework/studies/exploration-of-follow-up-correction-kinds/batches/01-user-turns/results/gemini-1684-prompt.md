@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question about why Chrysalis runs industrial hatcheries, offering their own tentative answer (a 5% meritocratic elite of engineers and jaegers, the rest workers and conscripts) without disputing anything the model said.

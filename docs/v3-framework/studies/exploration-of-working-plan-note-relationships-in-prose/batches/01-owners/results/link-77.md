@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2113 | The tycoons, a group not present in this item, who spread the propaganda | The tycoons spread propaganda
+  - 2113 | The Griffonian Republic, a place or state held elsewhere, receiving the machines | sending machines to the Griffonian Republic
+  - 2113 | The 1st Referendum scene the link belongs to, whose events the propaganda is set against, is not described in this item | calls them foreign actors (projection)
+- whole: The owner holds a single note, so there is nothing in it to hang together or to separate.

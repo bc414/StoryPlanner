@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a new document, Kyukon Universalis, and asks for an analysis of that story plan, moving on to the next document without commenting on the previous analysis.

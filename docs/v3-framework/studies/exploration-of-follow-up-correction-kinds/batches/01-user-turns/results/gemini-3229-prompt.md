@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's closing question as settled by concluding that battle spectacle should serve the system, then offers a parallel between Faust, Treyarch and Westwood/Blizzard and asks whether Hollywoodization equals the publisher mandates and whether it marks the book-versus-screen difference.

@@ -1,0 +1,5 @@
+- sources:
+  - Chrysalis's economic schemes, with red love as the reserve asset backing Skyfall Marks | treat as established story premise that the answer must be built on | her economic schemes are based on red love being the reserve asset for Skyfall Marks | referred-to
+  - Chrysalis secretly operating Skyfall banks | treat as established story fact the answer must take as given | she secretly operates Skyfall banks | referred-to
+- order:
+- about: The user asks how Chrysalis could exploit the naval proxy war to suppress Aquileia and keep Skyfall dominant, grounding the question in their stated premises about her red-love-backed Skyfall Mark schemes and her covert control of Skyfall banks.

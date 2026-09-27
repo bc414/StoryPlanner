@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said Twilight and Applejack would drop the titles when alone as a pivot, implying they use titles with each other; the user says they already don't use titles with each other and are still good friends | They don't use the titles with each other - they're still good friends | flat clarification, framed as 'just to clarify some vibes'
+  - fact of the world | The model portrayed Applejack as seeing Twilight as a pedestal-bound, untouchable goddess-like Princess whose distance must be dissolved; the user says Applejack does not see her that way | Applejack definitely does not think Twilight is an "untouchable goddess" | flat, emphatic denial
+  - reading of the plan | The model assumed the ch 6 to ch 9 gap was short, making the couple a fragile brand-new pair in a honeymoon phase; the user says they'd be together at least a month before splitting | the time between chapter 6 and 9 is still at least a month or so of being together | flat note, added as a 'Note that' aside
+- about: The user corrects the model's assumptions about how Applejack sees Twilight, whether they use titles, and how short the pre-separation period is, while accepting the Chapter 6 direction and asking whether 'understands the Mask' and 'hope she can still be the farmpony' are the same concept.

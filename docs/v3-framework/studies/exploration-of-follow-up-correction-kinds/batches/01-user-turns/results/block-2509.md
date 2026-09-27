@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own account of why Agency, Tempest and Crash work (a literal plot parallel plus a thematic undercurrent) and asks whether that holds for every chapter title, so the turn moves the discussion on and does not dispute the model's reading.

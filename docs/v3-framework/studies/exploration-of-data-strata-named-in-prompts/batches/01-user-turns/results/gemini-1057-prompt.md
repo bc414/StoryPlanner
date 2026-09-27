@@ -1,0 +1,4 @@
+- sources:
+  - Chapter 15 Combined Arms | established canon in the author's own text; treat the Pinkie morale cakes (pink love with a dash of red) as settled and build the Tribe D Big Food pivot on them | I established in Chapter 15 Combined Arms that Pinkie baked cakes with pink love and added a dash of red | referred-to
+- order:
+- about: The user ties the model's Tribe D Big Food idea to a detail already written in Chapter 15 (Pinkie's morale cakes with a dash of red) and adds a competition constraint from Equestrian organics and Aquileian terroir for the model to work with.

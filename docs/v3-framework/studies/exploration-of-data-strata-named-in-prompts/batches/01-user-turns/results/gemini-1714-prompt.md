@@ -1,0 +1,5 @@
+- sources:
+  - my notes | re-read them to establish Coltbert's existing character, and treat that as the base for redoing the previous answer | Read my notes again and establish Coltbert's existing character | referred-to
+  - the user's own statement about Coltbert in this turn | treat as a correction to apply: he is a noble pony and academic, somewhat deviant, not a peer researcher at griffon bourgeois universities | He is a noble pony and an academic, and also a bit of a deviant | first-named
+- order:
+- about: The user tells the model to re-read their notes to establish Coltbert's actual character and redo its previous analysis, correcting its assumption that he was a peer researcher at bourgeois griffon universities, since he is a noble pony, an academic and somewhat deviant.

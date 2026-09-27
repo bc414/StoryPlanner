@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Synovial arc analysis and supplies a fresh block of world material, covering Chrysalis's failed Stalliongrad plan, the bauleiter and statthalder split, the Vanhoover camps and Applejack's liberation of them, and Trimmel's surrender and advice, without saying anything in the model's turn was wrong.

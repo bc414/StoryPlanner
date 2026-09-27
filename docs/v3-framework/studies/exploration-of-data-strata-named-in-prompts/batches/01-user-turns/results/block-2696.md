@@ -1,0 +1,7 @@
+- sources:
+  - Explorers of Memories | review it first as the basis for the request; the model is to look at how its explicit scenes feature knotting | "Review Explorers of Memories" | first-named
+  - the Internet | research it for the lineage of the trope and why it became prominent; use as an outside source after reviewing the story | "then research the Internet" | first-named
+  - this broader discussion | tie the findings back to the conversation so far | "the rest of this broader discussion" | referred-to
+- order:
+  - Explorers of Memories over the Internet | review the story first, then research the Internet
+- about: The user asks the model to review their work Explorers of Memories, research the Internet for the history and rise of the knotting trope in fiction, and connect that to the ongoing discussion.

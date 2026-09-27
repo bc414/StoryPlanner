@@ -1,0 +1,5 @@
+- sources:
+  - other areas of history, beyond the Nazis | draw on for inspiration and examples of collaboration | examples from other areas of history | first-named
+  - the Nazis (Nazi-era examples) | do not use; look elsewhere than this | not the Nazis | referred-to
+- order:
+- about: The user asks the model to suggest historical examples of collaboration from periods other than the Nazi era to inspire the writing of Applejack's collaborator dreams.

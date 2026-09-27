@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | States what the scene does for Honesty vs Poseurs: it extends honesty to owning one's own desire, so hiding a want counts as dishonesty, which is the reading Henri gives Applejack's Element of Honesty | "suppressing desire is fundamentally dishonest" | yes | terse declarative thesis, lowercase, one line with no elaboration
+- whole: A one-line thesis that the scene ties honesty to admitting desire, restating Henri's argument that wanting something and hiding it is dishonest.

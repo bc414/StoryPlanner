@@ -1,0 +1,5 @@
+- sources:
+  - The model's earlier statement that labor is extracted for corporate shareholders | treated as a claim the model made, which the user accepts in part (mostly the ultra rich) but wants qualified by another point | You mentioned all the labor is being extracted for corporate shareholders | referred-to
+  - The user's own point that most employees are invested through 401ks and stock market investments | offered from the user's own general knowledge as a counterpoint, and put to the model for confirmation | another reality is that most employees are also bought in broadly as well via 401ks and stock market investments, right? | first-named
+- order:
+- about: The user pushes back on the model's earlier claim about labor extraction for shareholders, adding that ordinary employees also hold stock through retirement accounts and investments, and asks the model to confirm this.

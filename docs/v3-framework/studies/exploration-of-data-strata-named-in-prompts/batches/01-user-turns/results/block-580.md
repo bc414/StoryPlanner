@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's analysis by developing new story material: the Aquileians recruit immigrant workers and run FJA rescue raids in Zebrica, Reni's backstory and role in them, how those raids backfire by feeding the Storm King's rise, and how Minette and Reni end up committed to the Crystal Empire cause in 1002.

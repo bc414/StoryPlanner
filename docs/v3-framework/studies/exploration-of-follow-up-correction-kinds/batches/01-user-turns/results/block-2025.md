@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up: for a population estimate of the EaW community, how it compares with receptive grimdark readers, and what method lies behind the figures, while noting they'd be content with a small readership.

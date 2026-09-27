@@ -1,0 +1,8 @@
+- asks:
+  - confirm/elaborate | asks whether Tally Mark's cutie-mark meaning and her tally-stick record-keeping during big Tall Tale harvests can be tied into Chrysalis's economic scheme so as to explain what became of the missing bits and how the ponies fixed it through honesty | "this can be connected to Chrysalis's economic scheme to explain what happened to all the bits and how the ponies solved the problem with honesty?"
+- supplies:
+  - idea | Tally Mark's cutie mark and her role tracking tally sticks during big harvests in Tall Tale | one clause
+  - idea | Chrysalis's economic scheme and the resulting problem with the bits | one clause
+- shaping:
+- openness: Leans toward an answer it names: the message already proposes that Tally Mark's tally-stick backstory explains the bits problem and its honesty-based resolution, and asks the model to confirm/build on that specific link.
+- subject: Linking a character's (Tally Mark's) cutie-mark backstory to Chrysalis's bit-related economic plot and its resolution via honesty

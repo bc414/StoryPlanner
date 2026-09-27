@@ -1,0 +1,4 @@
+- sources:
+  - The Phase 1 reasoning loop (the pasted run of thinking-summary text) | Material to be examined and diagnosed as evidence of a looping fault; the model is to explain what can be improved from it, not treat it as instructions or content to extend | The reasoning loop in phase 1 seems to be stuck in a brutal loop. Please explain what can be improved | first-named
+- order:
+- about: The user pastes a long, repetitive reasoning trace from the Phase 1 extraction run and asks the model to explain what can be improved to stop it looping.

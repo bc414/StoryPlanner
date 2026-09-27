@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user lays out a beat-by-beat brief for a dialogue between Applejack and Celestia about Trimmel and Vraks, along with the themes it should show, without saying anything in the preceding turn was wrong.

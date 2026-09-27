@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the revised 914-onward timeline as restated and asks a new question about how it bears on Celestia's arc across the main story of the novel.

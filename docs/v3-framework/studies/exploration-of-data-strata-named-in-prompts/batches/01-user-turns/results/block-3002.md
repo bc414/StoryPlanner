@@ -1,0 +1,6 @@
+- sources:
+  - Chrysalis's enhanced relationship with her "parents" | the author's new addition to the story; the model should take it as current and use it as one of three elements to find overlap and new insights from | "I've enhanced Chrysalis's relationship with her "parents"" | referred-to
+  - the parents' sharp failed-tycoon, no-inheritance backstory | the author's newly given backstory for the parents; treat as current and use as one of the three elements to compare | "have her parents a sharp failed tycoon no inheritance backstory" | referred-to
+  - the bullying from Herzlander nobles at the Griffenheim Academy setup, previously established in the plan | already-settled part of the story plan; the model should treat it as established and set it beside the new elements | "previously established in the plan" | referred-to
+- order:
+- about: The user asks the model to find the overlap and new insights among three story elements: the enhanced parent-child relationship, the parents' failed-tycoon backstory, and the previously established academy bullying.

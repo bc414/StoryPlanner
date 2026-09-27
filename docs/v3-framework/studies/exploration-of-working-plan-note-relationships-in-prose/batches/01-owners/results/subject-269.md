@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 2643 | a foreign ideology the Boyars adopted, which treats folklore as superstition and workers as interchangeable units | they'd adopted a foreign ideology that viewed folklore as superstition
+  - 2643 | Skyfall factory owners and their industrial way of seeing a production line, held as world lore elsewhere | the way a Skyfall factory owner looks at a production line
+  - 2643 | earth pony magic that does the P/K weathering, and the farming folklore that describes it, held as lore elsewhere | the invisible earth pony magic was still doing the P/K weathering
+  - 2643 | the farming folklore and tradition the Boyars had been taught to dismiss | the folklore they'd been taught to dismiss
+- whole: It is a single note, so there is no set to hang together and nothing for it to join with inside this item.

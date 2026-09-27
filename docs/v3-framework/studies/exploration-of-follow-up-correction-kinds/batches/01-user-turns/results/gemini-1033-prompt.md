@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Hans's role in the story's technology: he worked on the three-way valve splitting the love into red and pink streams, and was not the lithography inventor or the sophisticated creator of the latest iteration, which the earlier answer evidently assumed | "Hans worked on the three way valve" and "not the lithography part" | flat restatement of the fact, with a short clarification of what he can and cannot explain, no apology or irritation
+- about: The user sets straight what Hans did in the story's technology (valve, not lithography, and not the inventor of the latest version), then goes on to ask what other parts of early PCBs or lithography could give the story insight.

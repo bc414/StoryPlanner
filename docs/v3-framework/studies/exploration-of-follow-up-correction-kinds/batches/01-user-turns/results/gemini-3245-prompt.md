@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the answer about trial credits and Claude on Vertex AI and asks a new follow-up about whether Google has a first-party model above Gemini 3.1 Pro as of April 2026.

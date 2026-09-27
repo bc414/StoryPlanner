@@ -1,0 +1,6 @@
+- sources:
+  - Equestria at War ("a tempting EaW trope") | treat as a possible source of a trope to be tested and possibly rejected, not as settled material to adopt | tempting EaW trope | referred-to
+  - my materialist rational worldbuilding | the standard the changeling-in-the-regiment idea is to be checked against for feasibility; the author's own framework that can rule the idea out | not feasible under my materialist rational worldbuilding | referred-to
+- order:
+  - my materialist rational worldbuilding over the EaW trope of a long-term changeling infiltrator | the trope may be dropped if it is not feasible under the worldbuilding
+- about: The user asks the model to analyze whether a changeling hidden in Pinkie's regiment the whole time is workable, or whether it is an EaW trope that fails their materialist, rational worldbuilding.

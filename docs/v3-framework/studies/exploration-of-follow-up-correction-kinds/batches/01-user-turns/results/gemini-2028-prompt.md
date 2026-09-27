@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether the duplication-based multi-tagging design still delivers the workflow's goal of consolidating text and improving clarity, and reasons through the size growth and garbage-bucket cleanup themselves to check the tradeoff.

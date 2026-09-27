@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for further names who built on Rowland's concept, asks what SFF and romantasy mean, and adds that TLTT has a load-bearing Twilight/Applejack romance, so they can compare it with the romantasy trend.

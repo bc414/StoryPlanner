@@ -1,0 +1,4 @@
+- sources:
+  - my existing story plans | the model is to review them as the material to draw on, looking through them for further places where the Hasbro-mandate / Stagnation of Harmony dynamic shows up | review my existing story plans | referred-to
+- order:
+- about: The user asks the model to go through their existing story plans and expand on further areas where the dynamic it just described appears.

@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether a specific narrative link between two story elements can be made | "Can I connect the the apples turning to mush from the episode with the mush that is in the cans"
+- supplies:
+- shaping:
+- openness: Leans toward a specific pairing it names (apples turning to mush in an episode, and mush in cans from the parents' factory) and asks whether that connection can be made, rather than leaving the question fully open.
+- subject: Whether two mush-related story elements (spoiled apples in an episode, and canned mush from the parents' factory) can be connected

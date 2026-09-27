@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The report's picture of the PNdA lacks that the user made it asset-specific and snobbish too, so the PRN-to-PNdA contrast is incomplete or misdrawn | At some point I actually made the PNdA asset specific and snobbish too | Flat statement of a missing fact, opening with a general 'missing critical insights' verdict and given as a plain addition
+  - fact of the world | The account of who the rugged individualists were and how the conversion happened: they were the PRN of the first revolution, also led by Vérany, and Coltbert converted Vérany's ideology | The rugged individualists were the PRN from the 1st revolution, also lead by Verany, and Coltbert converted Verany's ideology | Flat, matter-of-fact restatement of the history, with no apology or stated reason
+  - which material was drawn on | The report covers too narrow a body of material and needs to include the v1 archive and the conversations as well as what it used | Extend the report to v1 archive and conversations as well | Direct instruction to widen the sources, stated as a plain imperative
+- about: The user says the report is missing key insights, supplies the correct history of the PRN, Vérany, Coltbert and the PNdA, and tells the model to widen the report to the v1 archive and conversations.

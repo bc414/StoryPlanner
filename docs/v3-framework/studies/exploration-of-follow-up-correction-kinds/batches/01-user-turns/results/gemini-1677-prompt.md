@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further worldbuilding complication, that the rehab staff speak Equestrian while the prisoners know Simplified Herzlander, standard Herzlander or native changeling, and asks which language the rehab teaching would start from.

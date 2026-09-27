@@ -1,0 +1,6 @@
+- sources:
+  - the evidence that was uncovered and grounded by your research | the model's earlier research findings in this conversation are the base for the analysis; use them to find real pushback against the thesis, not just support | what genuine pushback is there in the evidence that was uncovered and grounded by your research | referred-to
+  - my view point and goals | the user's own position and aims should not sway the analysis; do not lean toward them | Don't be biased towards my view point and goals | referred-to
+  - data and explanations | the analysis should rest on data and explanation rather than claims of objectivity, since the topic is subjective | ground the analysis in data and explanations | first-named
+- order:
+- about: The user asks the model to test whether Love Island USA season 8 is a definitive representative sample for their thesis, and to give real pushback drawn from its own earlier research without favoring the user's view, grounding the analysis in data and explanation.

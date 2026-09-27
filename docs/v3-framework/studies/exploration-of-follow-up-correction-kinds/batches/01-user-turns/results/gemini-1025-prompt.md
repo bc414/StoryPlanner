@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn adds a specific mechanism to the model's lithography-stepper concept (that the crystal's spell matrix must mirror the pattern a unicorn's horn produces during conscious spellcasting) and asks the model to elaborate on how that would function, without disputing anything the model said.

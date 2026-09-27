@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to keep the anti-predator shield spell from feeling like a deus ex machina, and how to explain why it fails against the guns and steel of the 1011 industrial battlefield when Cadance and Shining Armor can't be constantly blasting changelings away.

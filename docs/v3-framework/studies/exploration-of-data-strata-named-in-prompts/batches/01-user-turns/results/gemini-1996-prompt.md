@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes having the AI suggest bucketing methodologies first rather than devising the order themselves, and asks for the pros and cons of doing strategy and bucketing in one prompt versus two.

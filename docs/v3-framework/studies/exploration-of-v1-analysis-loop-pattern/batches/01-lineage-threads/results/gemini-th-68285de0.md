@@ -1,0 +1,8 @@
+- steps:
+  - the author | asks a factual question | civilian casualty numbers for the Battle of Britain | opening of the exchange
+  - the model | answers with a set of figures | multiple casualty estimates from different sources with a caveat about date ranges | immediately after the question
+  - the author | asks a related factual question | civilian casualty numbers in France during the 1940 blitzkrieg campaign | second turn
+  - the model | answers with a set of figures | estimate ranges, causes of death, and a caveat distinguishing this period from later French casualties | immediately after the second question
+- kept:
+- brought: none
+- loop: The author used the model for two isolated historical fact-lookups on WWII civilian casualties; the model returned sourced estimates each time, but none of this exchange fed anything into the planning database.

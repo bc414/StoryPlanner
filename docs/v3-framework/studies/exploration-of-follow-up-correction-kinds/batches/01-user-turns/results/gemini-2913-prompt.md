@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's stamp mechanics in their own words (Anchor and Intent modes, why RSA-style hiding is unneeded), asks whether Verifier Mode is universal, and proposes a fingerprint scanner or Face ID as the allegory in place of the model's spectrometer, without saying the model got anything wrong.

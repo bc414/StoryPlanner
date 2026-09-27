@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model built its analysis on invented or assumed story content rather than the user's actual story plans, and is told to go back to the real plan documents | reviewing my actual story plans again instead of hallucinating | irritated, blunt accusation of fabrication with a directive to redo the work
+  - reading of the plan | The model attributed to the plan specific beats and meanings (e.g. the siege choice, Trimmel's surrender, the Crystal City talk, Celestia's projected disappointment) that the plan does not hold as written | hallucinating | irritated, stated flatly as a charge with no detail on which points are wrong
+- about: The user rejects the model's re-analysis as invented and tells it to redo it after re-checking their real story plans.

@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks what Applejack's reaction is to a specific event (Twilight's mass-harvest spell) occurring in a specific scene (the ending) of the story | "What is Applejack's reaction to..."
+- supplies:
+- shaping:
+- openness: Leans toward an answer it presumes already exists: it names the event (the spell mass-harvesting the field) and the scene (the ending), and asks the model to state Applejack's reaction to it, without supplying the scene's content itself.
+- subject: Applejack's reaction to Twilight magically mass-harvesting an apple field in the story's ending scene

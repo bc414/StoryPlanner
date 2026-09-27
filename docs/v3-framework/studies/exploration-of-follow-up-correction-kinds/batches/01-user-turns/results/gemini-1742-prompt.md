@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the grammar check to ask, in English, for a broader analysis of the name Foyer des Joueurs d'Avant-garde as the name of Coltbert's first and grandest parloir in Manehattan, and does not challenge anything the model said.

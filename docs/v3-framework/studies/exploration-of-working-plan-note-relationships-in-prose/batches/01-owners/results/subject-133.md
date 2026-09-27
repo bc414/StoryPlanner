@@ -1,0 +1,7 @@
+- relations:
+  - 418 | 1741 | 1741 gives the working of the spell (comfort-driven pink love sustains the link), which is the means by which 418's proactive aid, set against Luna's empty promises, could be carried out | "desire to comfort the pony through their nightmares" and "proactive and democratized" | implicit
+- outward:
+  - 418 | Luna's promises to Twilight over two years, held in canon outside this item | "Luna's chilling empty promises to Twilight"
+  - 418 | Twilight's captivity on the love harvester in the Pax Chrysalia story or canon | "hooked up to the love harvester in Pax Chrysalia"
+  - 1741 | the world's lore of love types, red love and pink love, defined elsewhere | "red love to cast the spell but you need pink love to sustain"
+- whole: The two notes sit in different tracks and share only a loose thematic link, comfort in nightmares set against Luna's failed promises, so they read mostly as separate entries with one thin implicit joint.

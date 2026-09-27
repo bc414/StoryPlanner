@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for more background on Aikido, its history, and how to draw inspiration from it, without pointing at any particular body of material.

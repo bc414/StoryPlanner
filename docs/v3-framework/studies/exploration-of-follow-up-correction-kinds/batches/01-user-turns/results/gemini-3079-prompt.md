@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's picture of Celestia's Equestria as sealed, zoned and lacking a frontier or outlet for ambition (the death of the frontier) overlooks the user's established lore that Luna cleared the domestic monsters between settlements, leaving open land to settle for centuries | My lore establishes that prior to Luna's banishment... should the next 914 years have frontiers for ponies to settle in, and that is the ambition sink? | Put as a question that cites the user's own lore as the reason, with no explicit statement that the model was wrong, so the correction is implied and offered as a proposed alternative
+- about: The user brings in an established lore fact, that Luna cleared the monsters from between settlements, to propose that pony frontiers served as the ambition sink for Equestria's long stagnation, and then notes that this makes Appleloosa a radical new town near buffalo land around 1000 ALB.

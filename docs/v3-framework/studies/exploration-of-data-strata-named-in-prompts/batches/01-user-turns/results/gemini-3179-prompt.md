@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its comparison of AI models for large-scale story analysis to DeepSeek in 2026 and other comparable models, without pointing at any body of material to draw on.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the ecological analysis as it stands and asks a new question about what Applejack and her parents should say in a planned scene over the burned farm in the Combined Arms chapter.

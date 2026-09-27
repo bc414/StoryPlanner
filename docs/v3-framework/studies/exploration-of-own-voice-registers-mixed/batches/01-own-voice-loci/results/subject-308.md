@@ -1,0 +1,8 @@
+- passages:
+  - note 5516 | general lore-rule statement | present-tense declarative, conditional clause stating cause-and-effect | pastel coat/plumage/eye color reflecting working life force, and going gray when drained | apart
+  - note 5516 | canon-example citation | names a specific character and episode as precedent | comparing the drained-gray effect to Pinkie in Party of One | run-in
+  - note 5517 | telegraphic shorthand | clipped phrasing, dropped articles, single unpunctuated clause | dull vs colorful coats/manes signaling when soldiers rotate out to rest | apart
+- shifts:
+  - note 5516 | general lore-rule statement | canon-example citation | shift from abstract rule to a named character and episode used as a concrete comparison
+- registers: general lore-rule statement; canon-example citation; telegraphic shorthand
+- whole: The item holds two notes in different manners: note 5516 runs a general rule-statement into a canon-citation within the same sentence with no break, while note 5517 stands entirely apart in a separate, more compressed telegraphic register.

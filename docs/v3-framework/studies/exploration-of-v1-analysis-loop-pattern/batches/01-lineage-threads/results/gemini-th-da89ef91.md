@@ -1,0 +1,17 @@
+- steps:
+  - author | brought a plan refinement | Trimmel's Honor-chapter mindset, the Chrysalis betrayal backstory, and his motive for surrender | opening of gemini:791
+  - author | asked | whether specific reveals (Severyana link, Ixodida's death, Statthalter/Bauleiter split) belong in meeting 2, and how this shifts meetings 3 and 4 | end of gemini:791
+  - model | analyzed | a four-meeting arc for Trimmel, listing what is revealed vs withheld and an attitude label at each stage | gemini:791 response
+  - author | corrected | that Synovial's rejection of Trimmel was already established in meeting 1, and that Trimmel shouldn't yet care about rules of war | opening of gemini:792
+  - author | proposed | that Applejack come to recognize Trimmel's army-first strategic philosophy against Chrysalis's home-front-targeting approach | end of gemini:792
+  - model | revised the analysis | reworked the four-meeting arc into a table pairing each of Trimmel's revelations with Applejack's parallel strategic insight | gemini:792 response
+  - author | asked | for the existing plan on when Trimmel realizes something about Synovial, to compare against the new proposal | opening of gemini:793
+  - author | corrected | rejected early self-awareness for Trimmel, tied the realization to Kemerskai's horrified reaction at Ailmont/Cloudbury, and proposed moving the tactics interview before the personal speeches | rest of gemini:793
+  - model | compared plans | contrasted the vague existing realization with a new 'cost of efficiency' arc in a table, and gave a verdict favoring the new version | gemini:793 response
+  - model | drafted a scene structure | laid out a four-scene sequence for the Fraternity chapter (arrival, tactics interview, party, speeches) | gemini:793 response continued
+  - author | corrected | moved the party to after the speeches, separated Henri's speech purpose from Trimmel's, and added the euphoric Ailmont scene with the borrowed Rommel-style line and the theme that tactics serve whoever wields them | gemini:794
+  - model | revised the scene structure | reordered the Fraternity scenes with the party last, incorporated the quoted line into the Ailmont beat, and explained the thematic payoff | gemini:794 response
+- kept:
+  - note 554 | the author's own words in this record | keeps the surrender line Trimmel delivers at Ailmont, filed as the plot point for Trimmel accepting Synovial's surrender
+- brought: The author brought a line adapted from a real-world historical quote (the Rommel 'lions led by a donkey' remark) to give Trimmel a specific triumphant utterance at the moment of Synovial's surrender.
+- loop: The author repeatedly brought character-arc refinements and sequencing corrections for the model to analyze and restructure into meeting-by-meeting or scene-by-scene breakdowns, but of all that back-and-forth analysis only one concrete, self-contained line the author introduced was kept, filed verbatim as the plot point marking Trimmel's acceptance of Synovial's surrender.

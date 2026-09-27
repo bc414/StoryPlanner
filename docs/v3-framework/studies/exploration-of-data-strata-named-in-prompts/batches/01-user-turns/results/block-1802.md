@@ -1,0 +1,5 @@
+- sources:
+  - the previous analysis | treated as correct on how the current extractive landscape is structured, and used as the starting point for the what-if that follows | "The previous analysis correctly identified the structure of our current extractive reality" | referred-to
+  - the user's own recollection of Wordle, Flappy Bird and Among Us origins | offered from memory as a tentative premise, hedged and open to correction: passion projects, free because the developer was small | "I think passion projects? Among Us was free because it was a small developer" | first-named
+- order:
+- about: The user accepts the model's earlier analysis of extractive game economics and asks, as a hypothetical, whether a society or developer with survival needs already met, possibly helped by AI, could make deep non-extractive games reach mass market with no business model, while also asking which other economists shared Keynes's optimism and doubting that server costs allow it.

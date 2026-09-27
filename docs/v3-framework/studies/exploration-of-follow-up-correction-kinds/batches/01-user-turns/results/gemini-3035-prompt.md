@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the video summary to ask a new question, how their own MLP fanfiction plans in the attached notebook relate to the video's thesis, without disputing anything in the summary.

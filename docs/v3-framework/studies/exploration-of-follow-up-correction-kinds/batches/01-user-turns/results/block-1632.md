@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model set out the note as a wholly new track type with no link to the existing reader-opinion plan about how reader understanding updates from tropes and prior material, and so missed a possible overlap | Is there overlap with the reader opinion plan | put as a tentative question, not stated as an objection
+  - reading of the request | the model treated the note as author-side analytic evidence that never reaches the page, whereas the user suggests its purpose is reader-facing: how the worldbuilding changes a reader's view of the canon show on a rewatch | if they watch the canon show again after reading my story, they might view the show differently | offered as an alternative reading in question form, with a reason given (the worldbuilding works inside Hasbro mandates to recontextualize them)
+- about: The user asks whether the proposed Source Evidence track overlaps with their reader-opinion plan, and proposes that the note is really about how the worldbuilding recasts the canon show for readers.

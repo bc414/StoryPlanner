@@ -1,0 +1,6 @@
+- relations:
+  - 1061 | 1062 | 1062 generalizes the specific history in 1061 into a thematic point: the man's shift from strict adherence to changed views is the instance that shows old, traditional men updating with the times | He used to follow the Book of Boreas's morality teachings strictly, but changed his views / Even old, traditional men can update their views with the changing times | implicit
+- outward:
+  - 1061 | The Book of Boreas, a morality text or teaching held elsewhere in the story's lore | the Book of Boreas's morality teachings
+  - 1062 | The story's theme of material conditions driving morality, and the wider situation of changing times, held beyond this item | changing times
+- whole: The two notes hang together as a pair, with the page-disclosed history in 1061 serving as the concrete case for the thematic claim in 1062.

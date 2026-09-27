@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the triad to ask for more historical background: other Gilded Age tycoons, further virtues and vices of the era, and its inciting incidents.

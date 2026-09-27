@@ -1,0 +1,5 @@
+- passages:
+  - fabula content | Applejack's belief in the story: she holds that avoiding being a poseur means being physically at the machine gun, which is what drives her choice | "Applejack thinks the only way to not be a poseur is to be at the machine gun" | no | plain declarative shorthand about a character's mindset
+  - bearing on theme | The scene shows Applejack taking Henri's earlier lesson about poseurs to an extreme, so the theme is carried but pushed into overcorrection | "She took Henri's lesson took the extreme" | no | terse expository statement, with a slipped, unedited phrase
+  - on-page plan | Henri's staging in the scene: he offers no objection to her decision but visibly looks grim | "He doesn't push back, but he looks grim" | no | brief directive-like description of a reaction beat
+- whole: A three-sentence note reading Applejack's machine-gun decision as her over-literal application of Henri's poseur lesson, ending with Henri's silent grim reaction.

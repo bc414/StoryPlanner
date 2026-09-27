@@ -1,0 +1,6 @@
+- sources:
+  - my story plans (Star Energy in Tall Tale making an "illegal weather factory" for the defense clouds) | earlier plan the author is reconsidering; treat as provisional and open to being swapped for the industrial-burner idea | "maybe it's just a normal industrial burner" | referred-to
+  - my earth pony magic lore (magic breaking phosphates into soluble P and the other nutrients) | established lore to use as the model for how to build pegasus magic: real mechanism, magic speeds up a step that is normally impossible | "just like I did with earth pony magic" | referred-to
+  - real-world physics and chemistry of cloud formation (and the actual mechanics of plant growth, soluble N/P/K) | the factual base the answer must draw on and pegasus magic must be grounded in | "How are clouds actually formed" | first-named
+- order:
+- about: The user floats replacing their planned illegal weather factory with a coal or oil plant's steam stack that pegasi turn into clouds, and asks for the real physics of cloud formation and what pegasus magic would accelerate, in the same grounded way as their earth pony magic.

@@ -1,0 +1,7 @@
+- asks:
+  - analyse | asks for a full account of what changed in the plan/history between two specified dates | "comprehensive analysis of what changed between Jan 11 and Jan 16"
+- supplies:
+- shaping:
+  - depth/thoroughness | wants the analysis to be "comprehensive" | "comprehensive analysis"
+- openness: Leaves the content of the answer open, naming only the two endpoints to compare (Jan 11 and Jan 16) and asking generally what changed between them.
+- subject: Changes in the story-planning history/notebook between January 11 and January 16

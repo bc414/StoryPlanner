@@ -1,0 +1,5 @@
+- sources:
+  - original plan of Fluttershy forcing Rainbow to talk to a changeling POW, a former shot-down pilot | earlier planned scene now put in question; the model is asked whether to cut it or keep it, before or after the war council, so treat it as provisional and not settled | I was originally planning on Fluttershy forcing Rainbow to talk to a changeling POW | first-named
+  - scene of Pinkie rejecting the illusion and Celestia as the statue | the scenes worked out in the current discussion; the user suggests they may be enough on their own to carry Rainbow's arc, and uses them as the yardstick for judging the POW scene | the scene of Pinkie rejecting the illusion and Celestia as the statue is enough | referred-to
+- order:
+- about: The user asks whether to cut, or keep and place before or after the war council, a previously planned Fluttershy-and-changeling-POW scene for Rainbow Dash, given that the Pinkie and Celestia scenes may already do the work.

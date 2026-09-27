@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn refines the plot mechanics of the proposed 'Sabotage' mystery, specifying that animals working for the buffalo (not the buffalo themselves) are physically destroying the pipes and drills, which is why Rockfeller can't explain the mechanism, and that Fluttershy uncovers this by speaking with birds.

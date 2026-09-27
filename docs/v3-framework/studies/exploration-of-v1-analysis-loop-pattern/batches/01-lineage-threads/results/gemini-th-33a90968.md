@@ -1,0 +1,54 @@
+- steps:
+  - author | brings source material | plan export attachment on Aquileian setting | opening of thread
+  - model | delivers verdict | recommendation that FJA needs a martial component, thematic tie to Lion/Eagle, Manehattan integration | responding to the attachment
+  - author | extends with a hypothesis | proposed origin of the insult 'poseur' in the martial clubs and noble decadence | early in the stretch
+  - model | builds out the hypothesis | phased logic of the insult, gun-vs-sword aesthetic, spread into politics | following the author's hypothesis
+  - author | corrects the timeline | specific revolution/reform dates, proposes crown-endorsed clubs instead of underground ones | after the poseur discussion
+  - model | revises the analysis | phase-by-phase redefinition of poseur across the corrected timeline, payoffs of crown endorsement | responding to the correction
+  - author | asks a comparative question | whether musketeers map to English yeomen, Louis XIV aesthetic for Discret | mid-stretch
+  - model | proposes a synthesis | 'Citizen Musketeer' blending yeoman class with musketeer swagger | responding to the comparison
+  - author | corrects a technical detail | crossbows for clubs only, rifles for the industrial battlefield, skirmisher vs line-infantry doctrine | mid-stretch
+  - model | builds a doctrine | weapon/tactic/philosophy contrast, period aesthetic references, offers chapter options to develop next | responding to the correction
+  - author | asks an integration question | how to fold griffon/pony and male/female mixture into the voltigeur image | mid-stretch
+  - model | designs a system | Binôme pairing doctrine, Zouave aesthetic, lever-action rifle adapted to hoof and talon | responding to the integration question
+  - author | reflects on scope | notes the accumulated lore could support a prequel | mid-stretch
+  - model | sketches a spinoff | three-act prequel structure with character arcs and payoff for the main story | responding to the reflection
+  - author | brings an established plot beat and reframes it | Henri's teleport-strike coordination, new idea that Discret's doctrine targeted nobles to liberate peasants | mid-stretch
+  - model | elaborates the doctrine | Discret's ego and medals, voltigeur-as-liberator parallel to the battle, offers to analyze a chapter | responding to the reframe
+  - author | adds backstory nuance and reveals a narrative bias | Henri's non-veteran origin as a bully coordinator, Fleur and Henri's selective account to Applejack | mid-stretch
+  - model | analyzes psychology and narration | Henri's 'coordinator guilt', the omissions in the FJA myth, Fleur's motive reframed, club as rehab | responding to the nuance
+  - author | corrects again | Fleur was restricted out of parental fear of supremacist thugs, family is middle-class not rich | mid-stretch
+  - model | reframes the backstory | parents as trauma survivors, Henri as a foreign-manipulated tool, their meeting as restorative justice | responding to the correction
+  - author | asks a structural question | whether the royal academy and Gaudreau's FJA club should be separate and how they relate in time | mid-stretch
+  - model | proposes an institutional pipeline | three-phase Academy-to-Clubs-to-FJA structure fitted to Henri and Fleur's arcs | responding to the structural question
+  - author | requests naming | French names for the institutions, with the martial clubs keeping the FJA acronym | mid-stretch
+  - model | proposes names | royal academy title, FJA club name with dual civilian/militant meaning, sample dialogue | responding to the naming request
+  - author | asks a terminology question | whether 'voltigeur' is the best term, requests alternatives | mid-stretch
+  - model | compares terminology | five historical French terms weighed, two-tier Chasseur-to-Franc-Tireur system proposed | responding to the terminology question
+  - author | brings a synthesis idea | Discret's Chasseurs as the model Chrysalis copied into Jaegers, native changeling term 'Protector', clubs later renaming to Voltigeur | mid-stretch
+  - model | traces a linguistic history | corruption chain Protector-Chasseur-Jaeger, then the revolutionary correction to Voltigeur | responding to the synthesis
+  - author | requests naming and states a motive | French name for the royal academy, Coltbert's aim of mingling griffons and ponies | mid-stretch
+  - model | proposes a name | 'Compagnons d'Armes' justified on royalist and revolutionary levels | responding to the naming request
+  - author | requests more naming options | alternative FJA veteran club names given the chasseur/voltigeur rebrand | mid-stretch
+  - model | offers naming options | four alternative names each with a civilian cover meaning and a militant subtext, with a recommendation | responding to the request
+  - author | brings a new plot mechanism | pension Ponzi scheme as the trigger for the veterans joining the revolution | mid-stretch
+  - model | builds an economic-political mechanism | bounty pension system, its collapse, the resulting 'Creditor's Revolution' | responding to the mechanism
+  - author | extends the synthesis further | Chrysalis's entire conquest plan modeled on Discret/Coltbert down to the naming, requests a distinct old-guard term | mid-stretch
+  - model | finalizes a naming hierarchy | table of Protector/Watcher/Jaeger across factions, irony of Chrysalis copying the method | responding to the extension
+  - author | frames a perception arc and supplies analytic text of their own | initial misreadings of Chrysalis by Applejack and Henri, later reveal that she mirrors the Republics | late in the stretch
+  - model | maps a revelation arc | phased perception structure (Imperial Mask, Uncanny Valley, Dark Mirror), thematic conclusion, sharpened meaning of 'poseur' | responding to the framing
+  - author | asks for an analysis | role of the love harvester in the economy and its later repurposing for magical engineering | closing the stretch
+  - model | delivers a mechanism analysis | industrialized predation, MEFO-battery economics, why Chrysalis never built the rifle, the tyranny-to-liberty transformation | responding to the request
+- kept:
+  - note 4711 | one sentence lifted from this reply | keeps the phrased progression of who counts as a poseur (rebel noble, Verany, Discret), filed under the Subject on honesty vs poseurs
+  - note 2272 | pasted whole from this reply | keeps the line about Henri stripping away his musketeer glamour to admit he was a bully who thought he was a king, filed under the Link for Henri's speech to Applejack
+  - note 4713 | pasted whole from this reply | keeps the summary framing of Harmonic Capitalism as movement from a survival economy to an abundance economy, filed under its own Subject
+  - note 4359 | one sentence lifted from this reply | keeps the explanation of why Chrysalis renamed the old Protectors as Wächter, filed under the Subject on Chrysalis's new order
+  - note 3694 | the author's own words in this record | keeps the author's own sentence about Applejack seeing only shapeshifting infiltrators, filed under the Link on Henri and Fleur discussing changeling perception
+  - note 3697 | the author's own words in this record | keeps the author's own sentence about Henri assuming all changelings are wannabe imperialists, filed under the same Link
+  - note 4712 | pasted from this reply inside the author's own framing | keeps the phased reinterpretation of 'poseur' from fake noble to fake revolutionary, with the author's added framing sentence, filed under the Subject on honesty vs poseurs
+  - note 1626 | pasted whole from this reply | keeps the analysis of Chrysalis's supremacist worldview explaining why she never built a magic rifle, filed under the PlotPoint on that question
+  - note 1627 | pasted whole from this reply | keeps the contrast between running the machine on others versus on oneself and the moral about liberty as self-sacrifice, filed under the same PlotPoint
+  - note 4651 | pasted whole from this reply | keeps the closing 'Ultimate Irony' passage about Chrysalis arming her own executioners, filed under the Subject on accelerants used for evil repurposed for good
+- brought: The author brought a large exported plan document on the Aquileian setting and then, across the thread, a running series of lore questions, corrections, and small proposed plot mechanisms (timeline dates, weapon logic, character backstory nuances, naming requests) meant to tighten details already in that plan.
+- loop: The author repeatedly feeds the model a narrow lore point, correction, or naming question grown from the existing plan, the model returns a systematic thematic analysis, naming scheme, or mechanism to match it, and the planning database keeps back only the condensed verdict lines, summary phrasings, and a few of the author's own clarifying sentences, filing them as short glossary-like entries under thematic Subjects, character/plot Links, and PlotPoints rather than as full drafted scenes.

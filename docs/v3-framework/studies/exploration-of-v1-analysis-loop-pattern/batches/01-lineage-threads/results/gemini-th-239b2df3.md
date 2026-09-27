@@ -1,0 +1,17 @@
+- steps:
+  - the author | brings a scene idea | Fleur realizing during the fling that Mali always gives and suppresses her own desire for the client's comfort | opening of the prompt
+  - the author | poses a linking question | whether this dynamic ties to Fleur's earlier lesson about moving Mali from passive optimism to active teacher | early in the prompt
+  - the author | adds a plot beat | Fleur flipping the script after being serviced, telling Mali not to hold back her own desire | early-middle of the prompt
+  - the author | supplies backstory | Mali's years at the parloir (997-1001) always centering the client, with a few clients learning to reciprocate | middle of the prompt
+  - the author | brings a companion scene | Mali healing Luna in the Night Guard while Luna undergoes an identity crisis over rituals Celestia let fade | middle of the prompt
+  - the author | adds character reasoning | Luna's private, unlegitimized reciprocity toward Mali rooted in Nightmare Moon guilt, producing only token reform, with Mali leaving disappointed but not bitter | middle of the prompt
+  - the author | drafts a punchline beat | the post-fling cuddle scene ending on Mali's 'better than a princess' line and Fleur's shock | later in the prompt
+  - the author | asks a structural question | whether Mali should be barred from Luna using her former-guard credentials while Applejack is admitted as a general in Chapter 3, and what tone (resentment, brooding, pity) fits, explicitly asking the model to first review the chapter 3 Honesty plan | end of the prompt
+  - the model | interprets the fling as allegory | reads Mali's giving-without-receiving as a political self-abnegation flaw and Fleur's script-flip as the active-teacher lesson made literal | first section of the response
+  - the model | interprets the punchline line | explains 'better than a princess' as ranking Fleur's open, unashamed reciprocity above Luna's secretive, guilt-shrouded past indulgence | second section of the response
+  - the model | answers the structural question with a verdict and draft | recommends Mali be barred at the gate rather than admitted, and scripts the guard exchange, Mali's pity reaction, and the hint this plants for Applejack | third section of the response
+  - the model | synthesizes an arc | summarizes how the gate scene, the jungle separation, the fling, and the aftermath line up into one continuous four-beat arc | closing section of the response
+- kept:
+  - note 1728 | the author's own words in this record | keeps the author's own reworking of the fling scene into a scripted draft (Fleur's script-flip, the 'you matter, be loud' line, the closing 'better than a princess' exchange with added dialogue), filed under the PlotPoint 'Fleur and Mali compare notes'
+- brought: The author brought a cluster of drafted scene ideas linking Mali's sexual passivity to her political/emotional arc with Luna, plus a specific open question about how a Chapter 3 gate confrontation should play out, asking the model to first review the existing chapter plan before answering.
+- loop: The author dumped an interconnected set of scene sketches and character reasoning plus one concrete unresolved staging question; the model returned thematic readings of the sketches and a verdict-with-drafted-beat for the staging question, but what the plan actually kept was not the model's analysis or its Chapter 3 script, only the author's own subsequent rewrite of the fling scene into finished dialogue, stored as a plot point.

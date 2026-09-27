@@ -1,0 +1,26 @@
+- passages:
+  - note 7 | thesis-statement | single sweeping present-tense claim naming arc and lesson learned | AJ's arc from leading-to-not-be-a-poseur to balancing honesty with posture | apart
+  - note 4377 | character-analysis | present-tense reasoning comparing AJ's traits to a role, clauses of justification ("because," "also because") | AJ as an honest, trust-based strategic leader who leads from the front | apart
+  - note 4377 | historical-reference | past-tense factual statement about a real person, no fictional referent | Washington's skill at holding the army together and rallying troops under fire | apart
+  - note 5029 | character-analysis | present-tense narrative tracing shifting attitudes across a lifetime | AJ swinging from resenting industry to embracing it, then overcorrecting to science | apart
+  - note 5029 | thematic-aphorism | short flat declarative naming "the theme" directly | the truth hurts | apart
+  - note 5029 | character-analysis | present-tense continuation resolving the arc into a resting point, marked by "But by the end" | AJ finding a middle ground between tradition and truth via Sickleclaw | apart
+  - note 5146 | canon-meta | references specific episode titles and a claim about the show's own history | Faust's original AJ as town star versus her later background-pony phase | apart
+  - note 5146 | character-analysis | transition phrase "This manifests as" moving from show-history to in-story effect, present tense | imposter syndrome and the need to prove herself at the machine gun | apart
+  - note 5146 | editorial-aside | parenthetical set off from the surrounding sentence, opens with a correcting "actually" | AJ's unnoticed part in breaking Fizzlepop's worldview | apart
+  - note 5173 | character-analysis | chronological present-tense account chaining events with "then," "leading to" | AJ's hope in following Luna collapsing into debilitating imposter syndrome | apart
+  - note 5173 | reader-address | first-person-plural verb ("we see") pointing at the story itself, inside the same sentence as the clause before it | the imposter syndrome shown in chapter 1 | run-in
+  - note 5368 | plot-summary | past-tense chronological recounting of ordinary events, no analytic framing | AJ's path from volunteer trainee to accepted general through earned respect | apart
+  - note 5396 | brainstorm-query | short fragment ending in a question mark | possible Wałęsa inspiration for AJ | apart
+  - note 5454 | character-analysis | present-tense causal explanation using an abstract technical phrase ("asymmetric material reality") | imposter syndrome as unwarranted but explained by the changelings' military strength | apart
+  - note 5843 | plot-summary | short flat declarative statement of accomplishment, no reasoning given | AJ mastering the machine gun and building solidarity | apart
+  - note 5844 | character-analysis | present-tense causal explanation of an inner feeling ("because") | feeling like a liar for drumming up hope against long odds | apart
+- shifts:
+  - note 4377 | character-analysis | historical-reference | subject switches entirely from AJ to Washington, tense shifts from present to past, framed as plain historical fact rather than comparison
+  - note 5029 | character-analysis | thematic-aphorism | drops into a short, bare declarative naming "the theme" instead of continuing the narrative account
+  - note 5029 | thematic-aphorism | character-analysis | resumes narrative arc with "But by the end," returning to chronological, causal storytelling
+  - note 5146 | canon-meta | character-analysis | pivot phrase "This manifests as" turns a claim about the show's history into a claim about the story's psychology
+  - note 5146 | character-analysis | editorial-aside | parenthesis opens with a correcting "actually...doesn't realize," setting off a clarifying aside from the main analytic sentence
+  - note 5173 | character-analysis | reader-address | first-person-plural verb "we see" appears inside the same sentence, addressing the reader/text directly rather than narrating AJ's inner state
+- registers: thesis-statement; character-analysis; historical-reference; thematic-aphorism; canon-meta; editorial-aside; reader-address; plot-summary; brainstorm-query
+- whole: This item's notes move across several distinct registers — analytical character-study, plain past-tense plot-summary, a stray historical fact, a bare thematic aphorism, canon-meta commentary on the source show, a parenthetical editorial aside, a brief direct reader-address, and one short brainstorming question — and apart from a single mid-sentence run-in in note 5173, each register-passage stands apart as its own sentence or clause with a visible break.

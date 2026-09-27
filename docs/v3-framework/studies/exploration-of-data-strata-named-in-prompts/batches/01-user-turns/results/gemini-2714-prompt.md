@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts that the apprenticeship plan's ineffectiveness is intended, asks whether the Royal Aquileian Navy could ship to Zebrican colonies, and then proposes replacing apprenticeships with teaching promising immigrants the Aquileian language and relocating them and their families to Aquileia, so that Skyfall stands for extractive colonial arbitrage and Aquileia for a non-malicious but still disruptive brain drain on Zebrica.

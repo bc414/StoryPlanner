@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to name the "quiet companies" it described and to say more about the other two categories, short-term extraction and tool banning, without pointing at any body of material to use.

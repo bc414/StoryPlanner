@@ -1,0 +1,8 @@
+- asks:
+  - explain | asks for the point in time when the US, Britain, and the Dutch moved away from gold as a value marker to a utility-based currency tied to commodities | "When did the United States, Britain and the Dutch transition from gold..."
+  - explain | asks for the process or mechanism by which that transition occurred | "How did that transition happen?"
+- supplies:
+- shaping:
+  - accessibility | implies the explanation should be understandable to a layperson, since the user frames the topic as complex and unexplained in school | "It seems very complex and not taught in school so people don't understand"
+- openness: Leans toward an answer it names: the message presupposes that gold was replaced by a "utility based currency like oil or spices or gunpowder" and asks when and how that specific shift occurred, rather than leaving open whether such a shift happened at all.
+- subject: Historical shift from gold-backed money to commodity/utility-based currency in the US, Britain, and the Netherlands

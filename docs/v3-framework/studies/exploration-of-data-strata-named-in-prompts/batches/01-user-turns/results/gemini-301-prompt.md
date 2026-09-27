@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects each of the model's alternative insults one by one, keeps "poser" as their choice, and asks whether skaters would object to it and whether it is more British or American.

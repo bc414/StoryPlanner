@@ -1,0 +1,5 @@
+- sources:
+  - I only read Pokemon stories in the past | the author's own reading background, given from memory so the model pitches the explanation at someone with no light novel reading and does not assume familiarity | I only read Pokemon stories in the past | first-named
+  - Pokemon fanfics like these | the stories under discussion, treated as the examples whose influences (light novel traditions) the model is asked to explain, as likely rather than certain | Pokemon fanfics like these | referred-to
+- order:
+- about: The user says their past reading was only Pokemon stories and asks the model to explain in more depth the light novel traditions that probably shaped Pokemon fanfics like the one just analyzed.

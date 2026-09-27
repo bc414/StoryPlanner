@@ -1,0 +1,4 @@
+- sources:
+  - the Stagnation of Harmony and cutie mark system | treat as the story-world era the pre-industrial Manehattan economy should be built to fit, a frame for the answer | This would be the Stagnation of Harmony and cutie mark system | referred-to
+- order:
+- about: The user asks the model to describe what Manehattan's economy would have been like before industrialization (before the Gilded Age or the 1770s steam engine), and says that period corresponds to the Stagnation of Harmony and cutie mark system in their story.

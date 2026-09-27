@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that setting the Move effect makes the source Categorizer automatically remove the card is reported as not working; the card stays in the Categorizer after the drop | It is not deleting from the categorizer | flat, terse statement of the observed failure, no reason, apology or elaboration
+- about: The user reports that the model's suggested fix did not work, since the card is still not removed from the Categorizer after dropping.

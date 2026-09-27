@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user abruptly asks a general-knowledge question about what WebAssembly is, unrelated to the preceding fanfiction-site discussion, without naming any source of data.

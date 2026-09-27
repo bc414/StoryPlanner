@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Copilot-versus-Claude Code contrast as a reason for their own preference, saying they want to be the engineer and can't trust AI output, and then explains how their goals differ between work and free time (learning versus getting a working program).

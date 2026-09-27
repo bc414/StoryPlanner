@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offered follow-up and asks for the same kind of TwiJack analysis narrowed to season 4, without disputing anything in the prior turn.

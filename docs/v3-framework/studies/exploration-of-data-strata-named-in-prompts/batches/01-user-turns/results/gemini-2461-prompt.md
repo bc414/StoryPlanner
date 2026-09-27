@@ -1,0 +1,5 @@
+- sources:
+  - chapter 2 Organization (the hospital scene showing diversity makes us stronger and the standardized industrial view of the factory) | the chapter under discussion; its scene order and purpose (giving Applejack grim resolve) are the thing to be decided, treated as a plan being worked out | In chapter 2 Organization, should the hospital showing diversity makes us stronger be shown before or after the standardized industrial view of the factory? | referred-to
+  - chapter 9's town hall about harmonic capitalism | treated as the place where Applejack's optimism arrives, so chapter 2 must not supply optimism; a boundary on what chapter 2 does | not optimism, that is not until chapter 9's town hall about harmonic capitalism | referred-to
+- order:
+- about: The user asks the model to decide the scene order between the hospital and the factory in chapter 2, stating that the chapter should end in grim resolve for Applejack with optimism held back for chapter 9.

@@ -1,0 +1,6 @@
+- sources:
+  - what has been established, that the elements of liberty involve conscience | treat as settled/true, the fixed point against which to check the rest | We have meticulously established | referred-to
+  - my original idea for the elements of liberty (the pink/red balance conception) | treat as provisional, re-examine whether it still holds up against the established conscience point | Does this still make sense? | first-named
+- order:
+  - what has been established (conscience) over my original idea for the elements of liberty | the original idea is offered for checking against the established point, asking whether it still makes sense
+- about: The user recalls their original conception of the elements of liberty as a pink/red love balance and asks whether it still holds up now that conscience has been established as central to the elements of liberty.

@@ -1,0 +1,22 @@
+- steps:
+  - the author | question | asks how NotebookLM's audio-podcast feature was built and for source material on it | opens the conversation
+  - the model | explains-with-sources | pipeline description, official blog/podcast links, feature summary table, offer to go deeper on the audio tech | reply to that question
+  - the author | broadens-question | asks for an overview of NotebookLM's other features beyond the podcast | next turn
+  - the model | surveys | catalogs current features, free-vs-plus comparison table, offer to draft a deep-research setup guide | reply
+  - the author | challenges-assumption | asks whether these features are actually included with a Gemini AI Pro subscription | next turn
+  - the model | corrects-and-clarifies | tiered-access table showing Plus folded into Pro/Ultra, offer to check the account | reply
+  - the author | reports-status-and-asks | confirms having the Pro badge, asks how to tell which underlying Gemini model NotebookLM runs | next turn
+  - the model | explains-with-verification-steps | model-tier breakdown, steps to verify via attaching the notebook in Gemini, summary table | reply
+  - the author | narrows-to-use-case | asks whether the tool is useful for literary analysis of a story plan | next turn
+  - the model | maps-features-to-use-case | lists critique mode, arc mapping, world-building stress-test, studio tools, offer of critic prompts | reply
+  - the author | introduces-workflow-detail | brings in a custom story-planner app that exports the plan as JSON, asks about deleting and re-uploading updated exports | next turn
+  - the model | evaluates-workflow | affirms the approach, explains why JSON grounds well, gives an update workflow and JSON-structuring tips, offer of a revision checklist | reply
+  - the author | follows-up-procedural | asks whether old JSON versions must be deleted or can just be left in the notebook | next turn
+  - the model | weighs-tradeoffs | explains confusion risk, the unselect option, a comparison use for keeping both versions, a recommended stepwise workflow, offer of a comparison prompt | reply
+  - the author | probes-mechanism | asks whether the 'longer' response-length setting deepens analysis or just pads wording | next turn
+  - the model | explains-mechanism | contrasts reasoning depth versus filler, gives an example prompt phrasing, comparison table, offer to refine the JSON structure | reply
+  - the author | compares-alternatives | asks how using NotebookLM compares to attaching the same JSON in a fresh Gemini 3 Pro session | next turn
+  - the model | contrasts-tools | grounding versus general knowledge, citation precision, workflow permanence, recommends a hybrid attach-notebook approach, offer of a walkthrough | closes the conversation
+- kept:
+- brought: The author brought the fact that they run a custom story-planner application which exports the story plan as a JSON file, introducing this as the concrete object to be uploaded and updated in NotebookLM.
+- loop: The author's questions move from general curiosity about NotebookLM's features and subscription tiers toward a specific procedural concern: how to feed and refresh a custom JSON export of their own story plan into the tool and how its settings and alternatives affect the resulting analysis; the model answers each with explanations, tables, and workflow advice but the author takes up none of its offered deliverables, instead advancing to the next tooling question each time, and no note in the plan database was found to trace back to any of this back-and-forth.

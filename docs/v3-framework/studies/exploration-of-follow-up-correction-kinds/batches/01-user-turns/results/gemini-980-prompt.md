@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's list of historical parallels to ask a new, broader history question about when and how the US, Britain and the Dutch shifted from gold to commodity-based value, and says this isn't taught in school.

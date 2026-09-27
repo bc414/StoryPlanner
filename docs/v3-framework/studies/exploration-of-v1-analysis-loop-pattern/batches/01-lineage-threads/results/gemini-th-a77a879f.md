@@ -1,0 +1,33 @@
+- steps:
+  - author | brings a backstory question | asks fate of nepo-children cohort, timing of the 'bug insult', and regency-council composition | opening prompt of the stretch
+  - model | lays out options and a revenge scheme | pros/cons for three insult-timing placements, then a role-by-role revenge fate for each classmate archetype tied to the regency council | first response
+  - author | takes up the model's framing and folds in an existing plan element | names the Count of Monte Cristo comparison and links it to the established love-harvester/battery philosophy | second prompt
+  - model | builds out the literary parallel | a full character-by-character Monte Cristo mapping table plus an Eros-as-Faria framing and a tie to the eventual Applejack defeat | second response
+  - author | reframes a plot beat and adds two plan details | recasts the Eagleclaw betrayal as a planned climax rather than mere politics, and specifies Chrysalis is physically present via an attache during the executions | third prompt
+  - model | drafts a confrontation scene and rationale | a dungeon 'last word' scene with each classmate, plus a hollow-victory explanation for the Eagleclaw betrayal, ending with menu of next steps | third response
+  - author | raises a structural concern and adds two more plan details | asks whether a 1007 personal-arc win undercuts A-plot stakes, and supplies that Trimmel isn't sadistic and that child-Grover VI begged for Eagleclaw's life | fourth prompt
+  - model | resolves the stakes problem | an economic-addiction argument, an unfinished-domination goal, a sadism-vs-industrial-cruelty contrast, and Eagleclaw's survival as ongoing threat | fourth response
+  - author | poses a new characterization question | asks whether Chrysalis genuinely believes she is liberating ponies from Celestia's stagnation, citing the parloirs as evidence | fifth prompt
+  - model | constructs a delusion narrative | a 'liberation of the nursery' self-justification, its infection of Trimmel, and a contrast with Applejack's opposing philosophy | fifth response
+  - author | extends the question with a own hypothesis | asks how Olenia's surrender reinforces the conviction and proposes that industrial success revitalizes her narcissism onto an institutional scale after 1007's hollowness | sixth prompt
+  - model | analyzes the reinforcement mechanism | frames Olenia as validating 'civilizing' model, an economic trap, and Trimmel's rationalization for staying loyal | sixth response
+  - author | poses a new domestic/character-arc question | asks whether Eros lets Eagleclaw help raise Grover and repent, and how this and Chrysalis's revenge feed into Thranx's arc | seventh prompt
+  - model | analyzes household power dynamics and drafts an arc | Eros's penance terms for Eagleclaw, Thranx as an innocent mirror of the friendship Chrysalis faked, and a climax where his death motivates Eagleclaw's testimony | seventh response
+- kept:
+  - note 69 | pasted from this reply inside the author's own framing | keeps the 'Count of Monte Cristo phase' description, filed on the Eagleclaw-reveals plot point
+  - note 73 | one sentence lifted from this reply | keeps the line on wanting to dismantle rather than kill classmates, same plot point
+  - note 74 | pasted from this reply with cuts | keeps the political-battery/extraction passage, same plot point
+  - note 76 | one sentence lifted from this reply | keeps the line on choosing Eros over Eagleclaw's mercy, folded into a first-person scene note on the same plot point
+  - note 1831 | pasted whole from this reply | keeps the 'Monster Solution' passage on the Trimmel plot point
+  - note 1832 | pasted whole from this reply | keeps the hollowness/void passage on the same plot point
+  - note 1835 | pasted from this reply inside the author's own framing | keeps the parloirs-as-smoking-gun liberator passage on the Trimmel plot point
+  - note 1836 | pasted from this reply inside the author's own framing | keeps the 'exporting the revolution' line, extended with the author's own deer/viking detail, same plot point
+  - note 2730 | pasted whole from this reply | keeps the 'Great Modernizer' line on the Trimmel x Queen Chrysalis link
+  - note 3613 | pasted whole from this reply | keeps the shared-diagnosis line on the Trimmel x Bottom Up>Top Down link
+  - note 3614 | pasted whole from this reply | keeps Chrysalis's factory-as-cage line, same link
+  - note 3615 | pasted whole from this reply | keeps Applejack's factory-as-co-op line, same link
+  - note 1833 | one sentence lifted from this reply | keeps the line on Olenia pulling Chrysalis out of her revenge slump into megalomania, on the Trimmel plot point
+  - note 1834 | pasted whole from this reply | keeps the Hollow-vs-Regenerative comparison passage, same plot point
+  - note 80 | pasted from this reply inside the author's own framing | keeps Eros's penance-logic quote and the Thranx-as-mirror line, extended with the author's own note on why Eagleclaw speaks out, on the Eagleclaw-reveals plot point
+- brought: The author brought an established timeline (the seven-year school cohort, the love-harvester battery philosophy, the Eagleclaw-Chrysalis history, Trimmel and Thranx as characters) and used it to pose a sequence of backstory and motivation questions for the model to work through.
+- loop: The author repeatedly brought a plan fragment or open question about a villain's revenge and motivation, the model returned literary framings, revenge schemes, or scene drafts, and the author folded favored phrasings back in with its own added specifics; the planning database then kept selected lines and passages from the model's replies, filed onto the relevant plot points and character links documenting Chrysalis's, Trimmel's, and Eagleclaw's arcs.

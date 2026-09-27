@@ -1,0 +1,7 @@
+- asks:
+  - choice | pick which of a set of cutie marks best fits a character who will later teach Twilight and Starlight to cast combat spells from a plane, given her combat role extends past rifles into being a combat mage | "Which of these cutie marks works best"
+- supplies:
+- shaping:
+  - the choice should account for the character's combat scope covering spellcasting/combat magic, not just rifle use | "combat experience goes beyond just rifles and into combat mage"
+- openness: Asks for a choice among a set of cutie marks it calls "these," referred to but not listed within the message itself, judged against the stated combat-mage criterion.
+- subject: Selecting a cutie mark fitting a character's combat-mage role, tied to her later teaching Twilight and Starlight airborne combat spells

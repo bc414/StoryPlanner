@@ -1,0 +1,7 @@
+- passages:
+  - 4370 | other: open design question | Asks how Vanhoover avoids starvation, framing the note's inquiry | none | phrased as a question, no event
+  - 4370 | statement about the subject | Bauleiters let ponies keep their farms, which leaves them some pride | none | general occupation policy, no moment shown
+  - 4370 | statement about the subject | Farm soil still has leftover loam that does not vanish but is no longer replenished | none | states a condition of the land
+  - 4370 | statement about the subject | Bauleiters and VOPS supply Haber-Bosch fertilizer giving nitrogen but no P or K, so crops look big but are nutritionally empty and leave conscripts and oppressed ponies weak | none | explanatory account of cause and effect, not a dated event
+- sequences:
+- whole: A single worldbuilding note that poses a question about how occupied Vanhoover avoids famine and answers it with a chain of general statements about farms, depleted soil and nutrient-poor fertilizer, with no scene beats.

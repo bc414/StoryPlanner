@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the story-specific analysis to a new question, asking whether the thesis of unconditional dignity has any real-world demonstration as a non-naive systemic solution, without disputing anything the model said.

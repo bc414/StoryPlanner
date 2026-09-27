@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's question about a Celestia confrontation and supplies new backstory (Coltbert's age in 972 ALB, the Republican textbook, Grover III's morality thesis, Kemerskai's Long March), then asks for real-world parallels and for what the textbook would say to yield three different conclusions.

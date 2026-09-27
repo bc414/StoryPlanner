@@ -1,0 +1,8 @@
+- sources:
+  - the established language of the story planner app | use as the vocabulary in which to ground the formal answer about what a chapter is | ground the answer using the established language of the story planner app | referred-to
+  - My current chapters | treat as provisional and uneven: broad strokes that grew as content came in, some split and some not yet split | broad strokes or they grew as me content came in | referred-to
+  - the original concept and instinct (story threads tracked independent of chapters, plot points connected to threads and ordered for impact) | treat as the foundational purpose of the planner and the driving principle, to be related to the newer structures | My very first reason for making the story planner | first-named
+  - the new refinements of the story planner data structures | the newer design to be compared and reconciled against the original thread-first concept | new refinements of the story planner data structures | referred-to
+- order:
+  - story threads over chapters | So the chapters serve the threads, not the other way around
+- about: The user asks for a formal definition of what makes a chapter and how it maps onto the planner's vocabulary, questions whether the codex usage type is too general, and asks how their original thread-first instinct, where chapters serve threads, fits the refined data structures.

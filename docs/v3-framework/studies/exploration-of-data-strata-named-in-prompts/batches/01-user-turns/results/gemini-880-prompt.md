@@ -1,0 +1,4 @@
+- sources:
+  - the dataset (the exported document versions) | to be kept lean: one version per date so micro-edits don't inflate it, while still showing changes over time | microedits don't bloat the dataset | referred-to
+- order:
+- about: The user asks the model to change the revision-history export script so it saves only one version per date, keeping the set of exported versions small but still showing how the document changed over time.

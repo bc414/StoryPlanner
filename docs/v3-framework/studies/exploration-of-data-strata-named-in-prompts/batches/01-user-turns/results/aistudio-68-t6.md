@@ -1,0 +1,7 @@
+- sources:
+  - the model's Thestral-peerage angle on Celestia (mixed grief-and-relief reaction, change of heart beginning with the Thestrals) | adopt as the working basis and build on it, with the author's own adjustments layered on top | "this is a really good angle to take, that Celestia's reaction was mixed" | referred-to
+  - the author's earlier framing of Celestia's inaction as paralysis | treat as outdated and replaced by the quiet-relief reading | "I was previously framing her inaction as paralysis" | referred-to
+  - FiM (the published show) | reference point for contrast: Celestia used to feel in control of everything, unlike her calmer state now | "back in FiM when she felt she was in control of everything" | referred-to
+- order:
+  - the quiet-relief reading from the Thestral angle over the earlier paralysis framing | "now it seems much stronger"
+- about: The author accepts and extends the model's Thestral-based reworking of Celestia's arc, replacing their earlier paralysis reading with quiet relief, and asks whether it holds together and whether and how her thoughts should be revealed on election eve.

@@ -1,0 +1,5 @@
+- sources:
+  - The Great Retreat.txt | analyze it as one half of the pair and compare it with the other story; the user has not read it and notes only that it is marked complete | Attached file: The Great Retreat.txt; "I haven't read yet but they are marked as complete" | first-named
+  - Operation Alicorn Sunset.txt | analyze it as the other half of the pair and compare it with the first story; the user has not read it and notes only that it is marked complete | Attached file: Operation Alicorn Sunset.txt; "comparative analysis for this pair of stories" | first-named
+- order:
+- about: The user attaches two story files by another author (History Student) and asks for a comparative analysis of the pair, saying they haven't read them but that they are marked complete.

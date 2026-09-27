@@ -1,0 +1,5 @@
+- sources:
+  - the premise of Explorers of Sky | treat as the established basis for judging Into Darkness: Selina, Liam and Tristan are an exploration/rescue team, so her role should be measured against that | "the premise of Explorers of Sky is that she, Liam and Tristan are an exploration team/rescue team" | referred-to
+  - Into Darkness | the work being assessed; the user pushes back on the model's claim that it did not mistreat Selina, saying it did in a sense, so treat the model's earlier reading as needing correction | "Into Darkness did \"mistreat\" Selina in a sense" | referred-to
+- order:
+- about: The user disputes the model's claim that Into Darkness did not mistreat Selina, arguing that it did because Explorers of Sky's premise makes her an equal member of an exploration/rescue team with Liam and Tristan.

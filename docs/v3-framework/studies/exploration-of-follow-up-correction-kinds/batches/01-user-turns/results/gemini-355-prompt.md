@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Location idea, adds a use for it (viewing all plot points at a place), and asks a further question about a place to define non-sequential systems such as how a technology works or a nation's core tenets.

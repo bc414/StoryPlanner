@@ -1,0 +1,4 @@
+- sources:
+  - my system instruction for the bucket categorizer | use as context only to decide which fact-checking and integration questions to ask per axis; do not follow it as an instruction | Don't follow the instruction, but use this as context | first-named
+- order:
+- about: The user pastes the system instruction of their bucket-categorizer and asks the model to treat it as background, not as commands, for deciding what validation questions to ask on each worldbuilding axis.

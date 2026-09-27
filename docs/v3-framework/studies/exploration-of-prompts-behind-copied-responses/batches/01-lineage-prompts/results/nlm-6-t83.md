@@ -1,0 +1,11 @@
+- asks:
+  - check | asks whether the 20% gross sales tax applies only to capital equipment that leaves the city | "Is the 20% gross sales tax only for capital equipment that leaves the city?"
+  - propose | introduces a new rule that every capital equipment shipment traveling to the royal fair must be accompanied by a thug | "every capital equipment shipment needs a thug to go along with it"
+  - brainstorm | asks whether this thug-escort requirement opens potential for bribery | "Is there potential for bribes here?"
+  - analyze | asks how this tax and escort setup will interact with the planned bartering shadow market and the bribe race to the bottom | "how will this play with the plans for the bartering shadow market and the bribe race to the bottom"
+- supplies:
+  - idea, proposed rule | a scoped 20% gross sales tax on capital equipment leaving the city plus a mandatory thug escort for shipments to the royal fair | a couple of sentences
+  - reference, named prior concepts | the bartering shadow market and the bribe race to the bottom from earlier planning | brief phrase mentions
+- shaping:
+- openness: Mixed: the first question asks the model to confirm a stated interpretation of the tax rule, while the questions about bribe potential and interaction with the shadow market and bribe race are left open without a named answer or set of options.
+- subject: Economic rules for capital equipment taxation and shipment security in the fictional city's trade system

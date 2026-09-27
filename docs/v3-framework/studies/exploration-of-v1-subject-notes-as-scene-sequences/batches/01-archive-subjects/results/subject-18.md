@@ -1,0 +1,5 @@
+- passages:
+  - 4511 | statement about the subject | Flowing Current is a pegasus who works at the power station; he worked night shifts, which is how he came to meet thestrals | none | plain descriptive statement of occupation and background, no event moment or date
+  - 4515 | statement about the subject | Direction for his voice and manner: he should sound like a loudmouth and brute, a typical New Yorker in the vein of "I'm walkin' here!" | none | phrased as a 'should sound' characterization guide, not an event
+- sequences:
+- whole: Two short notes that characterize Flowing Current, one giving his identity and job as a night-shift pegasus at the power station who met thestrals, the other giving a brash New Yorker voice guide, with no scene beats, dates or sequences.

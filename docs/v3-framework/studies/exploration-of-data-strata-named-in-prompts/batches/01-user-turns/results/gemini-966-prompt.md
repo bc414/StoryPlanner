@@ -1,0 +1,7 @@
+- sources:
+  - Chrysalis using the same currency as Skyfall in the changeling lands | author's own tentative idea, offered as a guess for the model to work with, not settled | "I think Chrysalis uses the same currency as Skyfall" | first-named
+  - Red love exported as a vice drug | author's stated story premise, taken as given and used as the basis for the question | "she exports red love as a vice drug" | first-named
+  - Oil versus the US dollar, an exchange-rate comparison | real-world economic analogy from general knowledge, to test whether red love fits it | "Like oil. It has intrinsic value." | referred-to
+  - Skyfall Mark | currency from the ongoing discussion, taken as one side of the proposed exchange rate | "Skyfall Mark vs red love vial cost" | referred-to
+- order:
+- about: The user proposes that Chrysalis's changeling lands use the Skyfall currency while red love, exported as a drug, works like oil, and asks whether the economy should be modelled on the oil-versus-dollar exchange rate, as Skyfall Mark against the price of a red love vial.

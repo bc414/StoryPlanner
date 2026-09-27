@@ -1,0 +1,13 @@
+- relations:
+  - 2045|2046|2046 presupposes 2045: the canned food he imports is for the thing he designed, and his ministerial work continues the senate work in time|GR Riks|explicit
+  - 2046|2059|Instance of the general trait: importing food from abroad as foreign policy minister is the globalist's love of global trade in practice|import canned food|implicit
+  - 2059|2044|Restatement from two angles: the psychologist's true believer in global liberty and the author's idealist who wants freedom for all describe the same conviction|true believer in global liberty|implicit
+  - 2043|2045|Continuation in time: the young Long March officer later becomes a senator who designs GR Riks|20 year old officer|implicit
+- outward:
+  - 2043|The Long March, an event of the world's history held elsewhere|the Long March
+  - 2045|Coltbert and his paper, a work and author not in this item|Coltbert's paper The Predator's Dilemma
+  - 2045|GR Riks, a system or thing defined elsewhere|architected GR Riks
+  - 2046|SAA, an organization or party not described here|works with SAA
+  - 2044|The canon depiction of the character and the game the story draws on|introduces more fiat currency and social programs in game
+  - 2044|The revolution, an event held elsewhere|the revolution to bring freedom to all
+- whole: The notes hang together loosely: the GR Riks notes chain to each other and the globalist and idealist notes echo each other, but the Long March note and the canon note mostly stand alone.

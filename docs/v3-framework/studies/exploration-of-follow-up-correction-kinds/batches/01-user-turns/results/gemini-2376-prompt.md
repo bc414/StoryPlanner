@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user acknowledges the playground-slang framing, then offers a new scene in which Apple Bloom herself uses "blank flank" for factory workers, supplies more world detail about jumpsuited workers and efficiency wages, and asks why that would still feel tonally right.

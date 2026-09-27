@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's synthesis as settled and moves on, asking for a new analysis of how the story's stage framework (now split into 3A, 3B and 3C) applies to America and the West today as social commentary.

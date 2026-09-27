@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered as a narrow technical comparison of Gemini 1.5 Pro vs Flash inside the user's workflow, when the user wanted the general design paradigm separating Flash from Pro and a comparison with the Sonnet/Opus paradigm | I meant what is the paradigm between flash and pro and how does it compare to the paradigm between sonnet and opus | flat restatement of the intended question, opening with 'I meant' and no apology or irritation
+  - which material was drawn on | The model used the Gemini 1.5 generation as the frame, which is out of date for the user's target time | please refer to the landscape of 2026 April | brief added instruction, stated as a directive, with the outdated model versions left implicit
+- about: The user restates the question they meant, asking for the Flash-versus-Pro design paradigm compared with Sonnet-versus-Opus, and asks that it be set in the April 2026 model landscape instead of the earlier answer's framing.

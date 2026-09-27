@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the character Henri Gourard has any connection to a real French general named Henri Girard, without pointing the model at any particular body of material.

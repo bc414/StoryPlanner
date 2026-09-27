@@ -1,0 +1,17 @@
+- steps:
+  - author | poses framing problem | wants a good-faith critique of communism distinct from rugged-individualist posturing, for GR/Aquileian systems | opening prompt of the thread
+  - model | supplies critique framework | steel-man structure, diagnosis-correct/prognosis-fatal argument, three sub-critiques, sample debate scene, summary table | first reply
+  - author | imports external source and states plot beat | pastes wiki link for Stalliongrad, asks for lore-to-theme connection, states Stalliongrad will ally against changelings in a costly total war | second prompt
+  - model | maps external lore onto existing theory | connects Stalliongrad's founding, government, and named leaders to the virtue/distortion framework, proposes a Vasily reform arc, cites a video source | second reply
+  - author | tests a specific plot resolution | asks whether Stalliongrad can remain a separate, open-border communist ally rather than being dissolved, names the Vasily path as the intended canonical route | third prompt
+  - model | elaborates the proposed compromise | details a doctrine, an open-border treaty, a shared 'anti-ambition' logic, a cultural-exchange fix, and a closing dialogue scene | third reply
+  - author | asks a comparative real-world question | asks why an equivalent arrangement failed historically in 1945 | fourth prompt
+  - model | contrasts fictional solution with history | explains failure via leadership, economic insecurity, ideology, geopolitics, and technology, with a summary verdict | fourth reply
+  - author | narrows the historical question | asks whether Western hypocrisy on liberty was the flaw, requests full picture of FDR's New Deal coalition, asks about domestic/foreign divergence and Britain/France's role | fifth prompt
+  - model | delivers historical analysis | tables the New Deal coalition's blocs, argues domestic and foreign policy converged rather than diverged, details British/French colonial hypocrisy and FDR-to-Truman shift, closes with a verdict | fifth reply
+- kept:
+  - note 4689 | pasted from this reply with cuts | keeps the individual-vs-collective ambition distinction and the 'Socialist Emulation' compromise line, filed under Stalliongrad
+  - note 4690 | pasted whole from this reply | keeps the full open-borders rationale (why each side agrees) intact, filed under Stalliongrad
+  - note 4691 | the reply was quoting the plan | the model's line restates a 'ambition = tyrant' framing that was already sitting in the database before this reply echoed it back; no new material entered from this exchange
+- brought: The author brought in an outside wiki article on Stalliongrad's lore and asked the model to reconcile its politics and history with the story's existing virtue framework.
+- loop: The author repeatedly hands the model a political premise or outside source and a specific plot question, and the model returns an elaborated comparative framework or scene sketch each time, but only one of these exchanges — the Vasily/open-borders compromise — left verbatim or near-verbatim traces in the planning database, while the surrounding critique-of-communism, faction-mapping, historical-contrast, and New Deal analyses were generated but not captured as notes.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the previous topic and asks a new planning question about which lore-heavy companion stories set before the Applejack and Twilight main story would work, and whether they should be read before, after or alongside it.

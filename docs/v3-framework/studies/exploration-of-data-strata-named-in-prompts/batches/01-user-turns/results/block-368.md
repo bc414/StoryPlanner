@@ -1,0 +1,6 @@
+- sources:
+  - "strong to be merciful" theme | treated as an existing story theme that conscience should be checked against and linked to, put forward as a question to confirm | "speaks to the themes of \"strong to be merciful\"" | referred-to
+  - the predator's dilemma | treated as an existing story theme that conscience should be linked to, put forward as a question to confirm | "and the predator's dilemma?" | referred-to
+  - the 5 elements | treated as the given premise: they let the characters survive the war, which is what made a conscience affordable | "Because the 5 elements allowed them to survive war" | referred-to
+- order:
+- about: The user asks the model to confirm a connection they are drawing, that conscience ties into the story's existing themes of strength enabling mercy and the predator's dilemma, because surviving the war through the five elements is what made having a conscience affordable.

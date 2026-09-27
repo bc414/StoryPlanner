@@ -1,0 +1,6 @@
+- sources:
+  - my system instructions (the phrasings "give a literary and narrative analysis", "thematic analysis", "character arc") | existing wording the user wants formalized and replaced with fuller, more precise instructions; treated as too loose as it stands | "I have been using" | referred-to
+  - the professional developmental editor from the publishing industry | the standard and way of working the model should adopt when analysing the story | "like a professional developmental editor from the publishing industry" | first-named
+  - the model's default instinct as a helpful, prose-generating, trope-filled pantser | its own default behaviour, to be suppressed and not followed | "stamp out all the instinct" | first-named
+- order:
+- about: The user asks for a first-principles breakdown of what makes up a story's Fabula, plus a formalization of analysis terms, so they can write system instructions that make the model act as a developmental editor and not as a pantser-style prose generator.

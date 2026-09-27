@@ -1,0 +1,4 @@
+- sources:
+  - the answer to the trauma engine, as one core part of the story's delivery goals | may inform the reasoning for the 6th element but is optional and not the only consideration; the model should look beyond it to other aspects | "it doesn't have to, nor is it the only thing" | referred-to
+- order:
+- about: The user is asking the model to widen the criteria for choosing the 6th element by naming other purposes it could serve, while marking the trauma-engine answer they already identified as only one optional input.

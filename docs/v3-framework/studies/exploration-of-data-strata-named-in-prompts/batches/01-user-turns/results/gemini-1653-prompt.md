@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's reasoning by stating a story premise, that Star Energy believes the changelings are waging a war of extermination and does not know they want a clean occupation, without pointing to any body of material.

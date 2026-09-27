@@ -1,0 +1,4 @@
+- sources:
+  - An example of probably my most complex set of notes (the pasted JSON array of Content entries) | Use it as the empirical basis for judging how many mutually exclusive, low-overlap categorization strategies are realistically possible, so the upper bound is set from this data | "Here is an example of probably my most complex set of notes" and "set the upper bound based on data" | first-named
+- order:
+- about: The user pastes their most complex set of notes and asks the model to work out from that data, not from a guess, how many mutually exclusive low-overlap sorting strategies are realistically possible, so a maximum can be set in the schema.

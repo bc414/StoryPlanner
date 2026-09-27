@@ -1,0 +1,8 @@
+- asks:
+  - analyse | identify what the five listed words share in terms of grammar, usage, and/or mechanics | "What do the words ... all have in common in terms of grammar, usage and/or mechanics?"
+- supplies:
+  - word list | five abstract nouns (loyalty, honesty, kindness, laughter, generosity) offered as the objects to compare | a short list
+- shaping:
+  - scope the analysis to grammar, usage, and/or mechanics rather than meaning or theme | "in terms of grammar, usage and/or mechanics"
+- openness: "Leaves the answer open: it names no candidate commonality itself, simply asking what the five words share."
+- subject: shared grammatical/linguistic properties of five abstract nouns

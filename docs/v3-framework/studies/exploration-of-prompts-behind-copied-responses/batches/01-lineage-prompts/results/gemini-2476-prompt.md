@@ -1,0 +1,9 @@
+- asks:
+  - present-thesis | states the user's own distinction between how 'EaW' lore handles the show's contradictions and how the user's narrative instead resolves them, implicitly offering this framing for the model to take up | "I think the difference between EaW lore and my interpretation... is that..."
+  - give-example | offers a concrete illustration of the stated divergence (Twilight closing the School of Friendship) to ground the abstract framing | "For example, EaW leaves the school of friendship as a background thing. My divergence is..."
+- supplies:
+  - idea | a comparative framework contrasting 'EaW' lore's preservation of Hasbro-driven contradictions in the show with the user's plan to fold those contradictions into the mechanic of Celestia's 'Stagnation of Harmony' and write an 'adult' version of Faust's original themes | a few sentences
+  - idea | a specific plot beat: Twilight shutting down the School of Friendship after learning about the 'real adult world', offered as an example of this divergence | one sentence
+- shaping:
+- openness: Leans toward an answer it names: the user asserts their own interpretive framework (rejecting Hasbro mandates, folding them into Celestia's stagnation mechanic) and its concrete consequence (Twilight closing the school) as the stated distinction, rather than posing an open question or a choice.
+- subject: Distinguishing the user's adult reinterpretation of MLP:FiM's original themes from 'EaW' lore, via the example of Twilight shutting down the School of Friendship

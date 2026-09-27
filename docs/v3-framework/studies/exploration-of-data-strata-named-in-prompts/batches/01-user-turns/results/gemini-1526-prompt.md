@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's premise that Vérany was jailed by saying he was underground and writing in newspapers, and offers 987, a year after Kemerskai's martial law in Cloudbury, as a better year for him to emerge and be given his dilapidated factory.

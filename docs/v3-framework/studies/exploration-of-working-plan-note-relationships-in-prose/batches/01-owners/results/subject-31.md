@@ -1,0 +1,50 @@
+- relations:
+  - 2497|2498|continues in time: born in the grub pool, then rises to apex after the defeat|Chrysalis is born into the jaeger grub pool / Chrysalis becomes the new apex|implicit
+  - 2498|2496|continues in time: having become apex/queen, she then steps down and leaves|becomes the new apex / steps down from her position as apex/queen|implicit
+  - 2496|2384|continues in time: arrival in Acornage, then being taught by Gilded Lily and Silver Sterling|arrives in Acornage / Gilded Lily and Silver Sterling teach Chrysalis|implicit
+  - 2384|2499|continues in time: she learns the bounty trade, then spends months doing bounty work|teach Chrysalis about the bounties / months doing bounty work in Skyfall|implicit
+  - 2499|2500|continues in time: the bounty work yields the capital she brings back|returns to Acornage with startup capital|implicit
+  - 2384|2500|the startup capital gathered from bounties is what she takes back when she asks the two to run her empire|accumulates startup capital / with startup capital and asks Gilded Lily and Silver Sterling|explicit
+  - 2500|2534|instance of the ambiguity the plan wants: she hands the two her empire to run, yet who serves whom is meant to stay blurry|asks Gilded Lily and Silver Sterling to run her corporate empire / serve Chrysalis or Chrysalis serves them|implicit
+  - 2529|2530|continues her change: from belief that violence and dominance are top to learning recognition comes from capability serving the collective|starts out thinking violence and dominance / From Gilded Lily and Silver Sterling she learns|implicit
+  - 993|930|plan and its realisation: the wish for a draining-spell matrix is followed by securing funding, labor and crystals for the Love Harvester|spell matrix for the changeling draining spell / Love Harvester|implicit
+  - 805|930|cause and reward: the Herzland counterrevolution she copied earns funding from the nobles|counterrevolution in Herzland / reward for helping overthrow the Griffonian Republic|implicit
+  - 930|931|continues in time: the crystal deal at Diamond Mountain is followed by a company to mine crystals|buy black market crystals for love harvesters / creates Krystallfels Handelsgesellschaft for mining crystals|implicit
+  - 930|325|the harvesters she built are what the hive nobility are hooked up to and what the falling yields threaten|Love Harvester / no more nobility to hook up to harvesters|implicit
+  - 325|329|reason for the Canterlot Wedding and then what happened there: she drains the love and loses her discipline|went for Canterlot Wedding / after draining Cadance and Shining Armor's intense love|implicit
+  - 329|330|the event and her later self-assessment of it: loss of control that she chastises herself for|got high and brain fog / chastises herself for losing control|explicit
+  - 329|331|two accounts of the same failure: her own reversion to feeding, and the order to feed that even novice jaegers obey|starving bug who just found an all-you-can-eat buffet / Go! Feed!|implicit
+  - 329|993|she reverts to the Predator's Dilemma that the spell matrix was meant to break|Predator's Dilemma / break the Predator's Dilemma|explicit
+  - 329|2539|the failure at the wedding is an instance of the Predator's Dilemma the theme note says material conditions drive|baser instincts of the Predator's Dilemma / The Predator's Dilemma - material conditions drive morality|explicit
+  - 245|246|plan and execution: she wants Eros to hold Herzland, and sends the attache that lets him beat Eagleclaw|Archon Eros secure an iron claw / allows Eros to defeat Eagleclaw|implicit
+  - 325|302|the ponzi scheme that must turn outward to stay afloat is what the sequel shows as perpetual growth she cannot stop|keep her MEFO ponzi scheme afloat / machine that runs on perpetual growth|implicit
+  - 302|2275|the reader-opinion plan and the theme plan give the same fact: elites demand the war and she cannot refuse without fracture|her own elites will cannibalize her / authorize the war at her elites' demands|implicit
+  - 2275|2455|the refutation of Great Mare Theory is the thesis that the garden note says her story must serve|refutation of Great Mare Theory / That's her propaganda in TLTT|implicit
+  - 303|2455|the sequel's claim that the system manufactured her is the rigorous approach the note to self sets|Chrysalis was manufactured by the system / responds to her material conditions|implicit
+  - 303|2514|both hold that what looked like her singular work was produced by what came before|manufactured by the system / most of it came from her fake parents and the existing hive wars system|implicit
+  - 2514|2455|the propaganda of the sole genius architect is the same propaganda the garden note names and says the story must undercut|sole genius architect / That's her propaganda in TLTT|implicit
+  - 2514|805|instance of the copying that the reader-opinion plan says her propaganda hides|copies it from others / copied the counterrevolution in Aquileia|implicit
+  - 993|2455|instance of her inventions resting on prior work: she builds on Coltbert's paper and the Royalists' spell matrix work|read Coltbert's paper / Chrysalis and Coltbert drove history|implicit
+  - 2514|2538|what her fake parents gave her is the transactional parenting model her government industrializes|fake parents ... industrialized / transcational parenting model industrialized|implicit
+  - 2538|2493|cause of the blind spot: transactional parenting is the only framework she had, so she thinks her kindergarten perfect|only and first model / the only framework she had|implicit
+  - 2538|2539|instance of the general claim that the family and conditions you grew up in set the civilization you build|grew up in a communal, impersonal hatchery / family and material conditions you grew up in|implicit
+  - 331|2493|the outcome the reader learns through Thorax matches Thorax being one of the jaegers who took the feeding order|including Thorax / through Thorax|implicit
+  - 2274|2278|the theme note states the manipulation of Skyfall that the appearance plan says her shell companies carry out|manipulated Skyfall's system of tycoons / state-directed operations wearing the costume|implicit
+  - 303|2278|the sequel's point that Skyfall's unregulated black market funded her matches her use of Skyfall's legal vacuum as a vector|unregulated, hyper-capitalist black market / anarcho-capitalist legal vacuum|implicit
+- outward:
+  - 2578|Real-world rulers Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu and Portuguese firearms|Oda Nobunaga + Toyotomi Hideyoshi + Tokugawa Ieyasu
+  - 993|Coltbert's paper and the 2nd Gen Royalists' spell matrix work in Pridea|Coltbert's paper / 2nd Gen Royalists in Pridea
+  - 805|The Aquileian counterrevolution she copied|counterrevolution in Aquileia
+  - 930|Yale scientists and linguists, Diamond Mountain, Simplified Herzlander|Yale scientists for the Love Harvester
+  - 325|The Storm King's warlord front and the holdout classmates|Storm King's united warlord front / holdout classmates
+  - 331|The Canon Order held elsewhere and Thorax|Canon Order "Go! Feed!"
+  - 245|The Stalliongrad failure, Eagleclaw and the earlier blackmail of industrialists|learned from her failure in Stalliongrad
+  - 246|Synovial's attache and the battle of Romau, held elsewhere|Synovial's attache once again
+  - 2278|Blueblood's prequel where this is made explicit|Made explicit in Blueblood's prequel
+  - 2671|Other renditions of Rarity, Salvation and Ribbons and Lace|Salvation and Ribbons and Lace
+  - 303|Applejack, the Celestial Party, Celestia's Stagnation of Harmony and the sequel|Applejack has to fight this delusion
+  - 302|The sequel and the Bauleiters, Statthalters, Jaegers and Herzlander nobles|the sequel reveals her dawning horror
+  - 1577|The Statthalters and the Olenian Vikings|Statthalters are controlling unruly Olenian Vikings
+  - 2472|Gilded Lily's original pep talk and the nepo babies|Gilded Lily's original pep talk
+  - 872|Equestrian language and its idiom names|knows how the idiom names work
+- whole: The notes hang together as a set: the backstory forms a dated chain and the planning and theme notes repeatedly return to the same claims (her machine outgrowing her, the system making her, transactional upbringing), though a few entries such as the analogies, translation and Viking notes stand alone.

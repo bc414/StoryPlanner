@@ -1,0 +1,6 @@
+- relations:
+  - 1033 | 1034 | the thematic note gives evidence for what the staged behavior means: the greeting shown on the page is judged to be real morale, and the note gives the conditions that make it so | This worked as genuine morale | implicit
+- outward:
+  - 1034 | the hippogriffs' military protection, which is held elsewhere in the story | the hippogriffs ensured military protection
+  - 1034 | the zebras' ongoing rebuilding, a wider situation outside this item | the zebras are rebuilding steadily
+- whole: ["These two notes hang together: the first gives the behavior shown on the page, and the second says why that behavior counts as genuine morale."]

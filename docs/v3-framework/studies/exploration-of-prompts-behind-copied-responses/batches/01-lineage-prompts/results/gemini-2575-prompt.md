@@ -1,0 +1,14 @@
+- asks:
+  - check | asks whether it is accurate that the tycoon class manufactures a zero-sum dynamic by seizing all positive-sum productivity gains from workers' labor | 'is it correct to say the tycoon class artificially create a zero sum game'
+  - check | asks whether tycoons use manosphere-style propaganda to gaslight workers out of unionizing | 'use manosphere propaganda to gaslight the workers into not unionizing'
+  - check | asks whether tycoons deploy hired security to break up unions | 'sending in hired security to bust unions'
+  - brainstorm | asks for further methods tycoons use to keep immigrant workers in line beyond the deportation-risk guess offered | 'How else do they keep immigrants in line'
+  - check | asks whether threatening workers' families via warlords is another such control method | 'Threats to the family through warlords?'
+  - brainstorm | asks how Chrysalis and her fake parents can exploit the economic/industrial system as fully as possible given the supplied backstory | 'How does Chrysalis and her fake parents hijack the system to the max?'
+- supplies:
+  - claim, real-world economic/political theory | tycoon-class exploitation of workers via captured productivity gains, propaganda, union-busting, and immigrant-control tactics | a few sentences
+  - premise, fictional worldbuilding backstory | Chrysalis's shapeshifting bounty/hit-job earnings funding her fake Acornage parents' corporate empire-building over years, tied to changeling hive wars, Griffenheim schooling, and eventual inheritance | a paragraph
+- shaping:
+  - content scope, phrase 'to the max' pushes for a maximal/exhaustive account of how the system is exploited | 'hijack the system to the max'
+- openness: Mixed: several statements about tycoon tactics (productivity capture, propaganda, security, and possibly warlord family threats) are offered for the model to confirm as correct, while the immigrant-control and Chrysalis worldbuilding questions are left open for the model to brainstorm additional or elaborated content.
+- subject: Real-world critique of tycoon-class labor exploitation tactics paired with fictional worldbuilding on a shapeshifting changeling's corporate empire scheme

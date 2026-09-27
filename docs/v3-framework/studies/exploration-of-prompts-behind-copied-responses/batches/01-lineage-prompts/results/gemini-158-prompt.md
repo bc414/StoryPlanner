@@ -1,0 +1,11 @@
+- asks:
+  - revise | swap the characterization roles assigned to Luna and Celestia in the scene/plan point under discussion, so Luna delivers the "Friendship is Combined Arms" line and Celestia takes the protective, "Old Way" role | "Luna and Celestia should be exactly switched here"
+- supplies:
+  - idea/reasoning | new backstory and characterization logic for the swap: Luna is freshly attuned to her subjects after returning from banishment and notices but doesn't endorse the "New Way," while Celestia halted 40 years of military-tech advancement to enable Luna's return and cannot perceive the "New Way" at all | a short paragraph
+- shaping:
+  - Luna must say the specific line "Friendship is Combined Arms" | "Luna should say Friendship is Combined Arms"
+  - Luna should notice the "New Way" without necessarily approving of it | "she just notices it"
+  - Celestia should be unable to notice the "New Way" at all | "Celestia isn't even able to notice it"
+  - the moment should contain no sad or proud smile from either character, only a flat statement, so the lack of emotion carries the weight | "There is no sad, proud smile from either of them. Just a statement. The lack of emotion will speak volumes."
+- openness: leans toward an answer it names, since the message states outright that the roles should be "exactly switched" and specifies which character gets which line, stance, and emotional tone
+- subject: reassigning Luna's and Celestia's characterization (old vs. new military/friendship doctrine) in a story planning scene

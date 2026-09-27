@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's premise that blowing the dam would cut all power and stop the factories and Weather Factory; the user says the city has oil-based power as a fallback | They can still run on oil | flat, terse statement of a counter-fact, given as a reason against the verdict
+  - your own name: overlooked consideration (risk of flooding) | The model's case for keeping and rigging the dam left out the danger of a flood wiping out the city's own defense, which the user treats as decisive | They can't afford to get their defense wiped by a flood | flat, with the reason stated as a stake; disagreement implied rather than announced
+- about: The user pushes back on the model's keep-the-dam verdict by stating that oil power makes the dam expendable and that a flood would be a greater risk to the defense.

@@ -1,0 +1,4 @@
+- sources:
+  - the story plan | read it more closely to find the answers to the model's open questions about combat drugs, the red love drug economy, and jaeger vs drone substances | Review the story plan closer for answers to the questions | referred-to
+- order:
+- about: The user tells the model to go back and examine the story plan more carefully to answer the questions it raised instead of asking for more context.

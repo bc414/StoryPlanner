@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's summary of how the Predator's Dilemma originated and asks it to continue by exploring how the concept develops in their later story planning.

@@ -1,0 +1,6 @@
+- sources:
+  - Feeling Pinkie Keen (canon episode) | treat as canon evidence backing the author's view that Twilight already studies magic scientifically, with an underground lab | in the canon episode Feeling Pinkie Keen, Twilight has an underground lab | referred-to
+  - the opening two parter of the show (canon) | treat as canon evidence that Twilight herself chose to stay in Ponyville, which the author uses against the idea that Celestia's push was decisive | as shown at the end of the opening two parter of the show | referred-to
+  - the author's own Grover III / Grover IV timeline | treat as the correct version and a correction of the earlier account: Grover III was internal reform and monster-slaying, and industrialization begins only under Grover IV | It's not until Grover 4 that industrialization begins | referred-to
+- order:
+- about: The user corrects and refines the model's account by proposing how Twilight came to know physics and chemistry, citing canon episodes as support, and fixing the Grover III and Grover IV timeline.

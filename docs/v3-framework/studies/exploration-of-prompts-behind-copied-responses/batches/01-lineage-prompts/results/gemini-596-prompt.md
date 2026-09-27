@@ -1,0 +1,10 @@
+- asks:
+  - analyse | judge whether it's plausible Trimmel simply doesn't know about the pony bauleiters when he advises Applejack | "is it reasonable that he doesn't know about the pony bauleiters?"
+  - analyse | weigh whether Trimmel instead assumes the pony slaves will spare the bauleiters because ponies are "soft" | "assumes the pony slaves will leave them alone because ponies are 'soft'?"
+  - explain | account for how/why Trimmel would fail to mention the bauleiters to Applejack at all | "How does he not mention it to Applejack?"
+  - check | assess the user's own proposed explanation that the omission is deliberate, since Trimmel wants the statthalders gone and expects no white peace before Applejack liberates the hives | "I guess he could also not mention on purpose since he wants the statthalders taken out"
+  - check | test the apparent contradiction that the pony bauleiters should be Trimmel's class allies given his meritocratic-idealist outlook | "the pony bauleiters should be Trimmel's class allies if he is a meritocratic idealist"
+- supplies:
+- shaping:
+- openness: Leans toward the explanation it names itself (deliberate omission tied to expecting no white peace) while explicitly asking the model to check that against a flagged tension (bauleiters as class allies) and leaving the alternative "soft ponies" explanation open too.
+- subject: Consistency of Trimmel's motives and omissions when advising Applejack about Vanhoover, statthalders, and pony bauleiters

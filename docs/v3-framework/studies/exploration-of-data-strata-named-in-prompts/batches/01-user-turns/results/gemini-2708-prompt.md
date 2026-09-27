@@ -1,0 +1,4 @@
+- sources:
+  - real-world battery technology (how a battery works, lithium ion, earlier and later types) | draw on it as general knowledge and as inspiration for designing the composite material; nothing marks it as settled canon | how a battery works, lithium ion and other stuff that came before or after | first-named
+- order:
+- about: The user asks the model to explain real-world battery designs, past and present, and to use them as inspiration for the composite material in their magic-system worldbuilding.

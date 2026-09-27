@@ -1,0 +1,6 @@
+- sources:
+  - my framework as the working thesis/ground truth | treat as the premise and ground truth through which to interpret Redhawk's assessment of Tristan | with my framework as the working thesis/ground truth | referred-to
+  - Redhawk's assessment of Tristan as a "nice guy" | the object to be read and interpreted, not treated as true | Redhawk's assessment of Tristan as a "nice guy" | referred-to
+- order:
+  - my framework as the working thesis/ground truth | Redhawk's assessment of Tristan as a "nice guy" | the framework is the lens for reading the assessment
+- about: The user asks the model to interpret Redhawk's description of Tristan as a "nice guy" by taking the user's own framework as the working thesis and ground truth.

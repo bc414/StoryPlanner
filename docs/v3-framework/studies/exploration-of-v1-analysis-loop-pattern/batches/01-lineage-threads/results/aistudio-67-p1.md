@@ -1,0 +1,92 @@
+- steps:
+  - author | brings a planning document | an attached document (uncaptured) | opening of the conversation
+  - author | poses a conceptual question | a split between Hasbro-mandated stagnation and Faust's vision for Celestia, asking what her purpose was under each | early in the conversation
+  - model | analyzes and synthesizes | a contrast between a 'Hasbro' and a 'Faustian' Celestia and a proposed endgame of willing obsolescence | responding to the opening question
+  - author | brings a scene-level idea | a proposal that Celestia's bond with thestral parloir operators secretly preceded the Fluttershy confrontation | after the endgame analysis
+  - model | works out consequences | a reinterpretation of the Fluttershy scene and downstream effects on the White Peace, the magic system, and the republic | responding to the thestral-bond idea
+  - author | refines and extends | a mixed-reaction version of Celestia's crying, Fluttershy's guilt, and a reread of Celestia's campaign silence as relief, plus a timing question | after the ramifications analysis
+  - model | validates and drafts | confirmation the psychology holds plus a concrete blueprint for an eve-of-election reveal scene | responding to the refinement and timing question
+  - author | introduces a major timeline revision | shifting the Stagnation of Harmony from a 1,000-year baseline to a post-914 policy modeled on the frontier thesis, with specific settlements | after the reveal-scene work
+  - model | validates and maps consequences | an era-by-era breakdown recontextualizing Ponyville, the Mane 6, Appleloosa, and New Mareland | responding to the frontier-thesis revision
+  - author | asks a follow-up question | how the revised timeline interacts with Celestia's arc in the main story | after the era breakdown
+  - model | re-derives character trajectory | a scene-by-scene reinterpretation of Celestia's behavior across the main story under the new timeline | responding to the follow-up question
+  - author | asks for a cascading revision | how the thestral backstory must change, framed as a request to name existing narrative purposes first | after the trajectory re-derivation
+  - model | identifies functions then adapts | the thestrals' existing narrative purposes followed by a revised history resolving the friction | responding to the thestral-backstory request
+  - author | asks a broader audit question | which other major story foundations need revision given the timeline shift | after the thestral adaptation
+  - model | surveys and revises | five story foundations (Apple/Pear feud, Wonderbolts, Twilight's lab, tycoons, Crystal Empire) reframed under the new timeline | responding to the audit question
+  - author | corrects and narrows | rejecting a shared Griffon-pony scientific golden age and requiring ponies to believe earth-pony magic is folklore, asking for the epistemological gap's purpose | after the foundations survey
+  - model | affirms constraint and derives purpose | a pipeline explaining why the folklore/chemistry gap is necessary and what it delivers for Celestia, Applejack, and Twilight | responding to the correction
+  - author | proposes a generational mechanism | tycoons as products of Chrysalis's shell companies penetrating the 'nursery' via Coltbert's parloirs, with a suburban-boredom analogy | after the epistemological-gap analysis
+  - model | elaborates a generational model | a mapping of generations onto the timeline plus mechanisms for cultural and capital breach of the walled garden | responding to the generational proposal
+  - author | raises a knowledge-limit question | whether Celestia understands chemistry, proposing Grover III's letters as her partial source, plus a fiat-currency note | after the generational model
+  - model | builds an epistemic architecture | a letters mechanism explaining Celestia's chemistry blind spot and a parallel gold-standard/fiat blind spot | responding to the knowledge-limit question
+  - author | asks a mechanism question | how tycoons legally avoid deportation, proposing a legal-loophole distinction between overt and systemic harm | after the epistemic architecture
+  - model | formalizes the loophole | a legal framework separating bannable overt predation from un-bannable industrial capital, plus a seminar-gaming strategy | responding to the mechanism question
+  - author | proposes a geographic mechanism | a hands-off pre-914 Celestia and a non-coincidental account of the frontier's closure tied to the Everfree and sea monsters | after the loophole framework
+  - model | maps the geography onto history | a warden-to-lockdown trajectory keyed to the Everfree Forest and New Mareland/Nova Griffonia symmetry | responding to the geographic proposal
+  - author | assembles a composite chronology | a full parallel history of Grover I-IV and the Equestrian frontier, ambition sinks, and the term Stagnation of Harmony | after the geography mapping
+  - model | analyzes the composite chronology | the shared 'Noble Lie' of Celestia and Grover III, the Everfree paradox, and the exile ecosystem | responding to the composite chronology
+  - author | requests an adaptation with constraints | ideas for revising Tzinacatl/thestral history to the new timeline while preserving their functions, with sub-questions | after the chronology analysis
+  - model | proposes an adapted history | a pre-914 golden age and post-930 three-faction fracture for the Tzinacatl, plus a 986 crash mechanism | responding to the adaptation request
+  - author | corrects several details | rejecting fang-filing, fixing the Everfree taming timeline, grounding thestral biology in jungle evolution, shrinking Equestrian bat ponies, questioning Meztli's age | after the adapted history
+  - model | revises with corrections applied | an updated Tzinacatl history with jungle biology, a model-minority framing, and Meztli elevated to Mali's grandmother | responding to the corrections
+  - author | asks a cross-system question | whether Aquileia's pony-minority backstory survives the timeline change, noting its reliance on Aquileian isolationism | after the Tzinacatl revision
+  - model | reconciles the two histories | a maritime-physics account (impassable seas, a brief trade window, then lockdown) preserving the Aquileian oppression backstory | responding to the cross-system question
+  - author | asks for a baseline recap | what Celestia's existing view of Aquileia and its thematic purpose are, and whether to preserve or adapt | after the reconciliation
+  - model | recaps and strengthens | Celestia's existing disgust toward Aquileia and its thematic functions, tied tighter to the 914 timeline | responding to the recap request
+  - author | adds a settlement and asks for a mechanism | New Horseleans as refuge/black-market port and Trixie's origin, asking how abuse is handled while keeping Aquileia ignorant | after the strengthened recap
+  - model | proposes a rescue-and-blackout mechanism | an Equestrian-merchant smuggling route, an information blackout, and generational cultural evolution of New Horseleans | responding to the New Horseleans proposal
+  - author | corrects the rescue mechanism | replacing Equestrian ships with Tzinacatl vessels and distinguishing an 'honest racket' era from later rent-seeking | after the rescue-mechanism proposal
+  - model | rebuilds the mechanism | a Tzinacatl shadow-fleet route and a two-phase account of Aquileian abuse | responding to the correction
+  - author | subdivides the chronology further | a three-era split of Aquileian history and a rule barring New Mareland from taking Aquileian refugees | after the shadow-fleet rebuild
+  - model | formalizes the three eras | a phase-by-phase account validating the refugee-barring rule and the Royalist payoff | responding to the three-era proposal
+  - author | brings an external canon fact | New Mareland's 649 ALB founding date, questioning early crossings, introducing the Riverlands, proposing a New Mareland three-phase history | after the three-era formalization
+  - model | integrates the canon date | a Riverlands rationale for Celestia's fear plus a three-phase New Mareland history explaining the refugee refusal | responding to the canon-date integration
+- kept:
+  - note 3620 | pasted whole from this reply | keeps the Faust-vision description of Celestia as a mentor wanting obsolescence, filed on a Link about Canterlot trauma vs Faust's themes
+  - note 3622 | pasted from this reply inside the author's own framing | keeps the Hasbro-Institution description of Celestia wrapped in the author's own dating of the mandate's start, on the same Link
+  - note 5772 | pasted whole from this reply | keeps the mother/empty-nest framing of Celestia's endgame, filed under the Celestia subject
+  - note 5790 | pasted from this reply inside the author's own framing | keeps the Faust mischievous-mentor description plus the author's own statement of TLTT's endgame for Celestia, filed under Celestia
+  - note 3515 | the author's own words in this record | keeps the author's own account of why Celestia cried and her secret thestral work, filed on a Link about Elements of Harmony callbacks and pink/red balance
+  - note 2542 | pasted whole from this reply | keeps the 'Death of the Nursery Fear' argument about thestral resilience, filed on a Link between the Fluttershy-Celestia scene and Celestia
+  - note 5680 | the author's own words in this record | keeps the author's note that Ponyville is a last settlement bordering the Everfree, filed on the Combined Arms chapter
+  - note 3405 | pasted whole from this reply | keeps the framing of the Apple/Buffalo Appleloosa treaty as an anti-corporate alliance, filed on a Link between Appleloosa's illegality and the Stagnation
+  - note 5769 | pasted whole from this reply | keeps the account of Luna waking into the Hasbro Mandate rather than her sister's frontier, filed under Luna
+  - note 5770 | pasted from this reply inside the author's own framing | keeps the 'Golden Age of Peers' description of Celestia and Grover III with the author's added detail, filed under Celestia
+  - note 5771 | pasted whole from this reply | keeps the account of Celestia slamming the brakes after watching Griffonia's Gilded Age, filed under Celestia
+  - note 2161 | one sentence lifted from this reply | keeps a line about Celestia and Twilight's Mount Aris argument, filed under a Twilight-flashbacks plot point
+  - note 2767 | pasted from this reply inside the author's own framing | keeps the 'she is apologizing' reading of Celestia's dreamscape work, filed on a Link about processing Canterlot trauma and Celestia
+  - note 5765 | pasted from this reply inside the author's own framing | keeps the reframing of Celestia's arc from incompetence to ideological terror, filed under a Stagnation's Redemption subject
+  - note 4167 | pasted from this reply inside the author's own framing | keeps the pre-914 Tzinacatl medicinal-economy description plus the author's Flower Wars framing, filed under Tzinacatl
+  - note 2760 | pasted from this reply with cuts | keeps a trimmed account of Applejack's loss of innocence over weaponized earth-pony chemistry, filed on a Link between the war-magic revelation and Applejack
+  - note 3918 | pasted from this reply inside the author's own framing | keeps Twilight's Pink-Love-also-powers-magic synthesis, filed on a Link between the charitostatic theory and Stagnation's Redemption
+  - note 3304 | pasted from this reply inside the author's own framing | keeps the generational-boredom description of the post-930 generation, filed on a Link between Applejack's parents' reunion and the Stagnation
+  - note 5587 | pasted whole from this reply | keeps Rockfeller's self-justifying 'Modern Harmony' pitch, filed under the Rockfeller subject
+  - note 5766 | one sentence lifted from this reply | keeps a line explaining the show's anachronistic tech mix as limited imported griffon tech, filed under Pre-Stagnation Equestria
+  - note 5679 | pasted whole from this reply | keeps the reframing of the gold standard as a lack of faith versus War Bonds as trust, filed under Banking
+  - note 5681 | pasted whole from this reply | keeps the explanation of Celestia's chemistry blind spot for earth-pony magic, filed under Earth Pony Magic
+  - note 5688 | pasted from this reply inside the author's own framing | keeps the legal-loophole account of how tycoons evaded enforcement, filed under the Stagnation of Harmony subject
+  - note 3262 | pasted whole from this reply | keeps the 'Ponyville as DMZ' description, filed on a Link between Ponyville's last-frontier status and the Stagnation
+  - note 3402 | pasted whole from this reply | keeps the framing of Appleloosa's founding as civil disobedience, on the same Link
+  - note 3403 | pasted whole from this reply | keeps the account of Celestia's blind eye toward Rockfeller's drilling on Buffalo land, on the same Link
+  - note 3404 | pasted whole from this reply | keeps Braeburn's illegal founding of Appleloosa, on the same Link
+  - note 3406 | pasted whole from this reply | keeps the reading of the Apple-Buffalo treaty as rejecting both Celestia and Rockfeller, on the same Link
+  - note 5762 | pasted from this reply inside the author's own framing | keeps the summary that the frontier was abandoned for industry rather than closed, filed under Pre-Stagnation Equestria
+  - note 5763 | pasted from this reply with cuts | keeps the shared 'Noble Lie' comparison between Celestia and Grover III, filed under the Stagnation subject
+  - note 5764 | pasted from this reply inside the author's own framing | keeps the Everfree-as-final-ambition-sink argument and the seminar/New-Mareland mechanism, filed under the Stagnation subject
+  - note 3019 | pasted whole from this reply | keeps Meztli's status as a contemporary witness of the 914-930 crisis, filed on a Link about meeting Meztli's tribe
+  - note 5759 | pasted whole from this reply | keeps the account of the Tzinacatl export boom during Grover III's era, filed under Tzinacatl
+  - note 5760 | pasted from this reply inside the author's own framing | keeps the account of the embargo splitting the tribes into model-minority, cartel, artisan, and isolationist factions, filed under Tzinacatl
+  - note 5761 | one sentence lifted from this reply | keeps the jungle-evolution/omnivore explanation for thestral biology, filed under Tzinacatl biology
+  - note 5749 | pasted from this reply inside the author's own framing | keeps the pre-Grover-III 'honest racket' description of Aquileian feudalism, with timing corrected, filed under New Horseleans
+  - note 5751 | pasted from this reply inside the author's own framing | keeps the realpolitik rationale for Celestia tolerating the 'honest racket' plus her lingering guilt, filed under New Horseleans
+  - note 5752 | pasted from this reply inside the author's own framing | keeps the Tzinacatl shadow-ferry mechanism quarantining the truth in New Horseleans, filed under New Horseleans
+  - note 5750 | pasted from this reply inside the author's own framing | keeps the rule forbidding New Mareland from taking Aquileian refugees, filed under New Horseleans
+  - note 5753 | pasted from this reply inside the author's own framing | keeps the account of post-914 warlords turning sadistic and Celestia's 925 ALB panic, filed under New Horseleans
+  - note 5736 | pasted from this reply inside the author's own framing | keeps the Riverlands-as-proof-Harmony-is-fragile argument, filed under Pre-Stagnation Equestria
+  - note 5744 | pasted from this reply inside the author's own framing | keeps the 649-854 ALB founding phase of New Mareland as an ambition crucible, filed under New Mareland
+  - note 5745 | pasted from this reply inside the author's own framing | keeps the 854-930 ALB elite-collusion/blackout phase of New Mareland, filed under New Mareland
+  - note 5746 | pasted from this reply inside the author's own framing | keeps the post-930 corporate and working-class reasons New Mareland refuses refugees, filed under New Mareland
+  - note 5747 | pasted whole from this reply | keeps the argument that Celestia's industry ban is materialist dread rather than superstition, filed under the Stagnation subject
+- brought: The author brought an already-drafted, evolving worldbuilding plan for a My Little Pony fan novel and repeatedly fed it pieces of that plan (a character split, a timeline, a piece of real-world theory, a canon date) for the model to work through and extend.
+- loop: The author floats a revision or asks the model to work out a consequence of one; the model returns a systematized, era-by-era or mechanism-by-mechanism elaboration ending in follow-up questions; the author then accepts, corrects a detail, or pushes the revision outward to an adjacent piece of lore, and the plan's database absorbs the model's elaborated passages — mostly recast in the author's own framing — filed against the specific characters, links, and subjects they describe.

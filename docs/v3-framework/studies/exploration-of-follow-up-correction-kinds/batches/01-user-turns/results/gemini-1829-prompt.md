@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the demographic and historical-model breakdown to ask a new strategic question about whether Gerad should ease pony–griffon tensions inside the palace, without disputing anything the model said.

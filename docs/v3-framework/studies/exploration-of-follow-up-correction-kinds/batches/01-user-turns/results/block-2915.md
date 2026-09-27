@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's offer to rename properties and run a verification pass, and asks for a new analysis in the story planner that lists every pair of systems differing by a single axis.

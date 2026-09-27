@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for the same kind of summary for the following chapter, adding open questions and links to earlier chapters, which continues the task without faulting the previous summary.

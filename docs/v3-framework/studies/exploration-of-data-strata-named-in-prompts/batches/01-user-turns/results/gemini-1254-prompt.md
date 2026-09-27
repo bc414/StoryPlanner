@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's analysis by stating that Applejack has no qualms about the new economic model and is only afraid of leading the army.

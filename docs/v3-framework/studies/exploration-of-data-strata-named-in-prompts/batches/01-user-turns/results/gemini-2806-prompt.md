@@ -1,0 +1,4 @@
+- sources:
+  - Pax Chrysalia (Twilight strapped to a love harvester) | used as the precedent for the author's original 24/7 harvester idea, which the author now calls inefficient and is reconsidering rather than keeping as settled | like Twilight in Pax Chrysalia, but this would be very inefficient | referred-to
+- order:
+- about: The author revises their own earlier idea of conquered changeling nobles strapped permanently to love harvesters, and asks the model to weigh a rotation system guarded by statthalters or vengeful drones.

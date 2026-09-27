@@ -1,0 +1,9 @@
+- passages:
+  - 4639 | other: a directive or suggestion about how the character should be written or used (use mercenaries to threaten workers as well as the buffalo) | what it holds: an authorial revision note about his conduct, not a moment or a fixed fact | none | phrased as an instruction, "He should use..."
+  - 4640 | statement about the subject | how he built his oil dominance: bought out southwest oil startups by threats, deals and extortion, horizontal and vertical integration, owns Las Pegasus refineries, has railway discounts and penalties on rivals | none | general facts in summary form, no moment or date
+  - 4641 | statement about the subject | his temperament: quiet, cold and calculating rather than boisterous | none | description of character, "He isn't boisterous"
+  - 4642 | statement about the subject | he bought Las Pegasus's government with Skyfall money, and Gilded Trust hates him | none | standing facts about his influence and a relationship
+  - 5587 | statement about the subject | his public pitch: a speech-like slogan contrasting Celestia's Harmony with his Modern Harmony, framing monopoly as efficiency and order | none | labeled "Rockfeller's Pitch" with quoted statement of his view
+  - 5587 | statement about the subject | his justification for brutalizing the Buffalo as relics of the chaotic past blocking progress, and his view of Celestia as a naive relic | none | labeled "The Justification", an explanation of his outlook
+- sequences:
+- whole: A small set of notes on the oil magnate Rockfeller made up of one revision directive and otherwise standing statements about his methods, temperament, political influence and ideology, with no scene beats, dates or sequences.

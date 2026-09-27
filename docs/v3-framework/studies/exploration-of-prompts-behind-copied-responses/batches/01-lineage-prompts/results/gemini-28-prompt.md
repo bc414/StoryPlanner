@@ -1,0 +1,9 @@
+- asks:
+  - how-to | asks how to go about building an AI or specialized LLM that reads stories, identifies attributes about them, and stores them so a user's request can retrieve them | "How can I go about making an AI or specialized version of an LLM..."
+  - concept check | asks whether the kind of retrieval it has in mind — searching by the meaning of the story rather than regex or ordinary search-engine matching — is the right way to frame this | "intelligent searching based on the analysis of the meaning of the story instead of a traditional regex or search engine search"
+  - naming | asks what this kind of system or technique would be called | "What would this be called"
+  - prior-art check | asks whether such a system has been done before, and whether it has been done with or without LLMs | "has it been done before? With or without LLMs?"
+- supplies:
+- shaping:
+- openness: leaves the answer open, posing a how-to question, a naming question, and a prior-art question without proposing a specific method or naming a candidate answer itself
+- subject: building an LLM-based system that analyses stories and enables meaning-based (semantic) search over them

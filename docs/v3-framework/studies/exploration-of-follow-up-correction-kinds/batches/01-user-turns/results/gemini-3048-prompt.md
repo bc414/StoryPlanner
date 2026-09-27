@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, extending the model's real-world YN-culture analogy to ask whether white American and Asian American equivalents exist, without disputing anything the model said.

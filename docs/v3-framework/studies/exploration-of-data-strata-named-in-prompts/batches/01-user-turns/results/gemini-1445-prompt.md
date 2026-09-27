@@ -1,0 +1,6 @@
+- sources:
+  - The model's officer-class compromise (rehabbing officers/Statthalters at the FJA) | rejected; do not build on it, EEEE! are workers and would take conscripts | I do not like taking officers | referred-to
+  - Luna Nova Rifle supply chain, with love donators, red love for ammo and pink love byproduct for rehab and morale rations | treat as established setting fact and use it as the basis for rehab | As part of the Luna Nova Rifle supply chain | referred-to
+  - The author's own timeline of stalemate-phase POWs, the Bluebell Spearhead collapsing the changeling front, and Celestia sending conscripts to Stalliongrad | the author's working picture of events, to be built on in place of the model's version | I imagine EEEE! takes captured conscripts from the stalemate phase | referred-to
+- order:
+- about: The author rejects the model's officers-only proposal and replaces it with their own account of how the supply chain's pink love feeds rehab and how stalemate-phase conscripts would already fill the FJA before Celestia sends the rest to Stalliongrad.

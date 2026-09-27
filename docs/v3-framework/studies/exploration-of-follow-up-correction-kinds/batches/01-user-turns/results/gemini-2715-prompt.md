@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the brain-drain plan and asks a follow-up about how a worker's family would get out of the village, through Skyfall and on to Aquileia, and asks for real historical refugee-sponsorship models (such as Vietnamese escapees to the US, before green cards and H1Bs) to draw on.

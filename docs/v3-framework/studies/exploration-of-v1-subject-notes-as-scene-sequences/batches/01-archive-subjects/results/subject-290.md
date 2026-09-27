@@ -1,0 +1,8 @@
+- passages:
+  - 5143 | statement about the subject | Pegasus thunderstorm-making is described as the natural original Haber-Bosch process: lightning splits N2, which bonds with oxygen and falls as nitrates that fertilize soil | none | plain explanatory claim about how the ability works, no moment or actor
+  - 5144 | scene beat without a year | Aquileian volunteers teach the Wonderbolts to harvest chemicals for munitions after the defense of Mount Aris | none | event written as something the story could show, anchored only by "After the defense of Mount Aris", no calendar date
+  - 5144 | reference list | Shorthand list of munitions chemicals: nitrocellulose as smokeless powder, TNT, nitroglycerin | none | terse list of items with an equals sign, not an event
+  - 5274 | statement about the subject | Pegasi fly by manipulating air pressure, currents and thermals, and their wings hold magical muscles that control weather | none | general explanation of how the magic and anatomy work
+  - 5275 | statement about the subject | Scootaloo cannot fly properly because she grew up malnourished in New Mareland | none | causal backstory fact about one character, stated as a fact rather than a scene
+- sequences:
+- whole: A small set of worldbuilding notes on how pegasus magic works (weather, flight, a nitrate-fertilizing science analogy), one character-specific flight limitation, and one undated wartime beat with a list of munitions chemicals.

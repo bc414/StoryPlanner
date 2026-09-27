@@ -1,0 +1,5 @@
+- sources:
+  - story plan details | model is told to review it, to check the griffon material against it | Review the story plan details | referred-to
+  - the author's own statements in this message about griffon armor, Herzland and Aquileia | treat as true and keep in mind; corrections to the griffon picture | Keep in mind a griffon lord's armor will NOT work on his son | first-named
+- order:
+- about: The user restates the griffon-versus-zebra marriage reasoning, corrects the griffon inheritance details (armor is non-transferable, Herzland is a meritocracy, Aquileia is the stratified case), and asks the model to review the story plan.

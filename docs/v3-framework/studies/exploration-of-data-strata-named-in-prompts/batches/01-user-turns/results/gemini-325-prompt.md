@@ -1,0 +1,8 @@
+- sources:
+  - the model's previous proposal (Luna Nova rifle as tyrant-proof, Earth ponies matching unicorns with will as endless fuel) | treat as partly wrong and correct it: power is only comparable to an average unicorn's reserves and the rifle is not tyrant-proof | "It's still equivalent to unicorns" and "the Luna Nova rifle is not tyrant proof" | referred-to
+  - the user's own lore statements in this turn (unicorn reserves, crystal enhancers, Twilight/Starlight limitless, rifle can run on crystal enhancers) | treat as settled facts of the setting and build on them | "To be clear" | first-named
+  - the user's proposed unicorn lore (all unicorns have limited reserves, cutie mark gives a discount on special talent) | treat as a proposal the author is putting forward, not yet settled | "I think the lore for unicorns should be" | first-named
+  - the existing in-universe world (tech that converts and stores Earth pony pride/magic/red love/ambition for a spell) | look here for an already existing technology and its inventor rather than making up a new one | "already exists in universe" | referred-to
+- order:
+  - the user's own lore statements in this turn over the model's previous proposal | the user corrects the model's earlier claims about power level and tyrant-proofing
+- about: The user corrects the model's previous claims about the rifle's power and tyrant-proofing, states revised unicorn magic lore, and asks the model to identify which existing in-universe technology and inventor already converts and stores Earth pony ambition as magic.

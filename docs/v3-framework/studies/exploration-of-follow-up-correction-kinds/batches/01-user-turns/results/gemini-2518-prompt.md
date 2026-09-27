@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's synthesis by explaining their new stolen-versus-donated red love rule, recalling why they first had Twilight invent everything, and asking for an analysis of whether the rule makes earlier Aquileian matrices plausible.

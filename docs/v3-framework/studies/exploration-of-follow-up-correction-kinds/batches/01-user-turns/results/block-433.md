@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's idea by asking whether the enemy Aquileians can use "Puppe" to mock Chrysalis, then voices doubt that the German doll/pupa overlap is real and asks for full German and English etymologies to check it.

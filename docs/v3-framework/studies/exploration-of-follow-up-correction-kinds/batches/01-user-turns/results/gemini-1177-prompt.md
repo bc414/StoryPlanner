@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplements the model's economic analysis with a plan for how Manehattan recovers through war bonds and how Tall Tale would suspend bits for a command economy, then asks the model to assess the idea and offer pros, cons or alternatives.

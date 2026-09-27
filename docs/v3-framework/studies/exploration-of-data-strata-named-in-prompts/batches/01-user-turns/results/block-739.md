@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's two-mode proposal by describing a single unified content window whose panels (left, middle links, right) show or collapse depending on whether it was opened from a subject card or a plot point, with navigation buttons between them.

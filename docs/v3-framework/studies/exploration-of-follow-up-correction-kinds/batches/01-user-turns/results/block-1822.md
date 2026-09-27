@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to explain its grouping criteria, specifically whether Chrysalis's New Order should be split into parts and why related items were made separate subjects instead of being folded in, without saying anything in the analysis is wrong.

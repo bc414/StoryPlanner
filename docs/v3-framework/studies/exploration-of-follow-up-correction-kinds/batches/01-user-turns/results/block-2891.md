@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the N/A question to ask what the opposite pole of the Access axis is against permanent stratification, and offers their own sketch of how unconditional and transactional dignity relate to it.

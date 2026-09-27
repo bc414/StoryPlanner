@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's picture of the parents' business, the family's financial pressure and Applejack's motives by stating how the story world works, without pointing to any body of material.

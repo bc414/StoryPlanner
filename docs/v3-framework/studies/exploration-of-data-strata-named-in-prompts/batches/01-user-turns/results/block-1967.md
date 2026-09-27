@@ -1,0 +1,4 @@
+- sources:
+  - note track definitions file | consult it as the reference for deciding whether the items should be split into separate technology subjects | Refer to the note track definitions file | referred-to
+- order:
+- about: The user asks whether the propositions being discussed should be split into different technology subjects rather than combined into one, and directs the model to check the note track definitions file to decide.

@@ -1,0 +1,9 @@
+- relations:
+  - 1160 | 691 | parallel departures: both have the 2nd generation leaving the Foyer, one group (griffons and griffonesses) for scholarship at Pridea and the other (pegasi) for stunt flying, each with its own motive | migrated from Le Grand Foyer to the University of Pridea / voluntarily leave the Foyer to become stunt flyers | implicit
+  - 1160 | 691 | tension over the upbringing: one says the 2nd gen grew up safe, the other says their flight was repressed by traumatized flightless parents, so the safe childhood is seen as suppression | grew up safe, ambitious / flight was repressed by their traumatized, flightless 1st gen Royalist parents | implicit
+- outward:
+  - 1160 | Grover III and his era of enlightenment and artisanship, held elsewhere | read about Grover III's enlightenment and artisanship
+  - 1160 | the University of Pridea and the setting of Le Grand Foyer, places not described here | from Le Grand Foyer to the University of Pridea
+  - 691 | the 1st gen Royalists' trauma and loss of flight, a history not given in this item | traumatized, flightless 1st gen Royalist parents
+  - 691 | the stunt-flying life the pegasi go on to, not shown in this item | become stunt flyers
+- whole: ["These two notes hang loosely together: both have the 2nd gen leaving the Foyer, but they concern different subgroups and motives, and no note points at the other."]

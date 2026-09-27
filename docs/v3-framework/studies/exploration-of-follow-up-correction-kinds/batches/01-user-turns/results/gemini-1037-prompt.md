@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's workflow treats Twilight's spell patterns as complex enough that each P2 master takes days to hand-carve and the P3 takes weeks. The user points to canon, where Twilight learns spells from a book, and concludes the patterns are simple. | canonically, Twilight can read a book and figure out how to cast a spell from it, so I suppose the patterns aren't that complex | Hedged inference from canon, put in passing as a final aside and not as a direct rebuttal.
+- about: The user endorses the mask-parameterization idea, adds a season-1 backstory of Twilight trying to copy horn patterns into crystal, and notes from canon that the patterns are probably simple, which undercuts the model's assumption that they are complex.

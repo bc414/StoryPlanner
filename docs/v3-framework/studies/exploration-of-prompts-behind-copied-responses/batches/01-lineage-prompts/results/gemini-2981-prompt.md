@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether the stated two-path understanding of accessing Claude is correct | phrased as "So... or they can..." ending in a question mark
+- supplies:
+- shaping:
+- openness: check | the message states a specific two-option understanding of how Claude access works (direct via Vertex/AWS vs via Anthropic's own services which may route to those or other providers) and asks the model to confirm it
+- subject: how enterprises access Claude via cloud platforms (Vertex AI, AWS) directly versus through Anthropic's own services, and how those routes relate to Anthropic as a company

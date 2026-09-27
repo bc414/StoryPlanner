@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn rejects the term "phalanx" as used in the preceding discussion and asks the model to propose alternative terms for it, without naming any external source of data to draw on or avoid.

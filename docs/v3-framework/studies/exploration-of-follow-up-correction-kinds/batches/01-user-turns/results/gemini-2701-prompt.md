@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn drops the friendship-letter brainstorm entirely and introduces a separate revision to the story plan (Celestia and Luna gaining agency before the war's end in the Breakthrough chapter), asking the model to work out its downstream effects on later plot points.

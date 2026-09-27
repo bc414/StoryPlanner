@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model built its answer on griffon lords being defined as a lion-plus-eagle perfection (Ambition/Power and Grace/Flight), which the user says they have already dropped for a birth hierarchy in which lions are born to rule and eagles are wives then serfs | I actually ditched the lion and eagle perfection trap in favor of lions being born lions | flat statement of the changed plan, given in passing with a reason (birthright framing) and then turned into a question about whether the flight idea still fits
+- about: The user tells the model that its lore basis (lion-and-eagle perfection) is outdated because they replaced it with a birth hierarchy of lions ruling and eagles as wives then serfs, and asks whether the flight-as-privilege idea still works with that.

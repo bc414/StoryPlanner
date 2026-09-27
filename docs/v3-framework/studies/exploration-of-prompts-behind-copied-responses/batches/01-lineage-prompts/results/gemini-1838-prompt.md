@@ -1,0 +1,7 @@
+- asks:
+  - assert/propose | states a worldbuilding rule about the character's magic access across her forms and the strategic risk of using it, offered for the model to take up in the ongoing planning | "I feel like she still has access to changeling magic in her griffoness form..." and the reasoned conclusion "it would not be in her favor to use her magic in the presence of others"
+- supplies:
+  - idea/rule | a worldbuilding point about a shapeshifting changeling character: she retains changeling magic in both her griffoness disguise and her queen form as she did as a drone, and a detection spell would revert her to griffoness form | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it already names: the message walks through its own reasoning and lands on a stated conclusion (that using magic openly would be risky for her), rather than posing an open question or offering alternatives.
+- subject: Magic-system rules for a shapeshifting changeling character's griffoness and queen forms, and the risk of detection

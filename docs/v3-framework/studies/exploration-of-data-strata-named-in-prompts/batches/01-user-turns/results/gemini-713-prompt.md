@@ -1,0 +1,5 @@
+- sources:
+  - option 3 (the Nightmare Vision, from the model's previous message) | take it as a starting point the author is changing; Applejack has the nightmare herself and Luna sees it, rather than Luna simply relaying a vision | What if I adapt option 3 further | referred-to
+  - canon (Luna's dream monitoring in the published show) | treat as established fact that justifies Luna seeing Applejack's dream | Luna sees this dream since she canonically monitors dreams | referred-to
+- order:
+- about: The author revises the model's Option 3 so that Applejack herself has the collaborator nightmare, which Luna sees through her canonical dream monitoring, and this becomes one of the reasons for Luna's retreat order.

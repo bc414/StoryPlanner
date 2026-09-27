@@ -1,0 +1,4 @@
+- sources:
+  - the story bible | the material to be analyzed structurally through reasoning by a coder persona, not used as a basis for generating prose | analyze the story bible which is based on reasoning and not generation | referred-to
+- order:
+- about: The user restricts the model to structural, reasoning-based analysis of their story bible with no prose generation, and asks for a coder persona to do it.

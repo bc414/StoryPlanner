@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts Rainbow's POV for Chapter 5, adds where AJ's "I am Celestia" reveal will land (end of Chapter 6) and a new hospital opening for Chapter 5, and asks whether the resulting POV rotation across chapters 1-6 makes sense.

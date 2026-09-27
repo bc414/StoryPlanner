@@ -1,0 +1,8 @@
+- sources:
+  - the dream about collaborator Applejack / P&K references | callback material to bring back in the Trimmel chapter and tie to the title drop | some callback to this dream/P&K references around the time of the Trimmel talk | referred-to
+  - P&K collaboration | reference point the Lioness title can relate to, alongside the dream | it can relate to "The Lion of Verdun" and the P&K collaboration | referred-to
+  - The Lion of Verdun | historical reference the title drop can relate to | relate to "The Lion of Verdun" | referred-to
+  - Rockfeller's plan | to be added as a follow-up to his sabotage accusation, with the family-share offer attached | I like also adding Rockfeller's plan as a follow up | referred-to
+  - the Trimmel talk (what Trimmel says about Pagala and Synovial and the trust of the ponies) | the scene and its lines are the anchor for the title drop and Applejack's decision, so the dream callback should fit there | this is the point where Trimmel says | referred-to
+- order:
+- about: The user approves the model's dream idea, adds Rockfeller's plan with a family-share bribe to the sabotage accusation, lays out the Trimmel-talk and uniform-title beats, and asks how to bring back the collaborator dream and P&K references at the Lioness title drop.

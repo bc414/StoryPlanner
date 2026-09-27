@@ -1,0 +1,8 @@
+- asks:
+  - summarize | give a comprehensive summary of what the history document contained at its starting point on January 8 | "Give a comprehensive summary of the starting point of this history on January 8, what was in there"
+- supplies:
+- shaping:
+  - length/thoroughness: the summary should be comprehensive | "comprehensive summary"
+  - scope: limited to the state of the history as of January 8 | "starting point of this history on January 8"
+- openness: Leaves the answer open: the message asks the model to determine and report the contents of the January 8 starting point without stating what it expects to be found there.
+- subject: the initial contents of the "TLTT History" notebook material as of January 8

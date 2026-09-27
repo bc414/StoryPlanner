@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Apple Fritter as Tall Tale Apple proposal and asks a follow-up design question about whether Applejack should already know Tally Mark through Apple Fritter before the story begins.

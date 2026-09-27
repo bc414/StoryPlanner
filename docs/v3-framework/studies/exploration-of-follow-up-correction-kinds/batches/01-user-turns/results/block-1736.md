@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn drops the model's analysis of Vaspier and starts a new request: it asks for candidate names for Chrysalis's nation-state, with explanations and real-world comparisons, and gives the canon names and the in-universe naming pattern as context.

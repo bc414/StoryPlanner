@@ -1,0 +1,9 @@
+- sources:
+  - My materialist worldbuilding | the author's own framework that governs what counts as canon; the model should work within its assumptions | "My materialist worldbuilding assumes" | referred-to
+  - Read it and Weep | treat as the definitive canon for the author's world | "definitive canon" | referred-to
+  - Daring Don't | treat as never having happened; do not use; dismissed as Hasbro logic | "never happened" | referred-to
+  - Lauren Faust logic | the preferred logic behind the author's canon, contrasted with Hasbro logic | "not Lauren Faust logic" | first-named
+  - the model's nursery propaganda reading (earlier in this conversation) | rejected as not what the author meant; author intends a more benign version | "much more benign intentions than nursery propaganda" | referred-to
+- order:
+  - Read it and Weep | over Daring Don't: "definitive canon" versus "never happened"
+- about: The author corrects the model's dark interpretation of the Twilight's-mom-as-author idea, saying it is benign and known to Twilight and Rainbow Dash, and states that their worldbuilding treats Read it and Weep as definitive canon and discards Daring Don't.

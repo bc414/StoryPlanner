@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user raises a further point, the new explicit effort-level settings in the consumer app, and asks how it bears on the model's account of quality degradation and opacity, without saying anything in that account was wrong.

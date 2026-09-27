@@ -1,0 +1,9 @@
+- sources:
+  - the 6th subject type, Bond, covering TwiJack (the user's own statement) | treat as the correct answer, replacing the model's guess about the sixth type | The 6th subject type is Bond which covers TwiJack | first-named
+  - narrative architecture tracks | treat as where how things unfold is already covered, so no separate gap exists | How things unfold is covered in narrative architecture tracks | referred-to
+  - plot point subject link tracks | treat as also covering how things unfold | all the plot point subject link tracks | referred-to
+  - v1 story threads | treat as already absorbed, either into narrative architecture, into subjects, or as subjects of their own | Story Threads went into that. Most v1 story threads became part of subjects or became subjects | referred-to
+  - the note track document | base the analysis on what it says about the three types | Give analysis from what the note track document says | referred-to
+  - what we've categorized | use the categorization already done in the conversation as the second basis for the analysis | and what we've categorized then I'll try to refine | referred-to
+- order:
+- about: The user corrects the model's guess about the sixth subject type and says where narrative threads are already handled, then asks for a precise analysis of how world law, civilizational system and technology differ, drawn from the note track document and the existing categorization, so they can refine it.

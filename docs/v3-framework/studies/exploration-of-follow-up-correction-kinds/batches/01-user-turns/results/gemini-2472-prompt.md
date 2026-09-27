@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Celestia, described as powerless and as keeping dangerous things out of Equestria, would offer Queen Novo asylum, which is a point the model turn did not cover.

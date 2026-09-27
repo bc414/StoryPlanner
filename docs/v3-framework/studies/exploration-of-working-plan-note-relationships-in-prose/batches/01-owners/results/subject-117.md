@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 304|The surprise mechanized assault that took Vanhoover, meaning the attacking force and the invasion itself, which are not described in this item|surprise mechanized assault
+- whole: The owner has only one note, so there is nothing for it to hang together with and no set to judge.

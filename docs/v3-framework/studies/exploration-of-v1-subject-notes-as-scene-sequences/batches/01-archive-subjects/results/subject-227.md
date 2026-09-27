@@ -1,0 +1,10 @@
+- passages:
+  - 4111 | statement about the subject | Crystal ponies share the changeling-style emotion sense | none | plain declarative claim of what the ponies are like, compared to changelings
+  - 4111 | statement about the subject | Crystalization is a visible sign of caloric surplus and charitostatic magic; crystals are stored magic and transparent crystal is stored friendship, comparable to windigo thymodynamic magic stored in crystals | none | explains what the trait means and how it works, with a comparison to windigos
+  - 4111 | scene beat without a year | In a canon episode the crystal ponies regain color in their dull coats on hearing about the crystal faire | none | introduced as an example from the canon episode; something happens, with no date
+  - 4111 | scene beat without a year | The big blast at the crystal faire makes even non-crystal ponies show the crystalization effect | none | a single event at the faire, with no date
+  - 5654 | framing question | Asks why changelings and crystal ponies share the same emotion sense and friendship-as-calories biology | none | opens as a question that the two explanations after it answer
+  - 5654 | out-of-story explanation | Doyalist account: both mechanics come from the shared writing, since Canterlot Wedding has changelings feeding on Cadance's love and The Crystal Empire needs her love magic to hold the shield until the faire and heart are recovered | none | labeled as the Doyalist explanation, and it refers to the episodes as works
+  - 5654 | statement about the subject | Watsonian account: both species evolved in freezing, calorie-scarce environments, so their magic turns friendship and charitostatics into survival, calories and vitality | none | labeled as the Watsonian explanation, and it gives an in-world cause
+- sequences:
+- whole: The subject's two notes are worldbuilding notes on crystal pony biology, one setting out the emotion sense and crystalization as stored friendship with two canon-episode examples, the other giving out-of-story and in-world explanations for why crystal ponies and changelings share the same biology.

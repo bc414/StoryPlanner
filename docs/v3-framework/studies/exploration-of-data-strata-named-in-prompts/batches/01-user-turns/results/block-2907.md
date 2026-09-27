@@ -1,0 +1,11 @@
+- sources:
+  - notes about these systems in v1 and v2 | look them up to check whether Grover III's economy is asset specific and whether Eros should follow Grover III exactly | Check the notes about these systems in v1 and v2 | referred-to
+  - the author's own account of Grover III (pan-griffonian empire attempt standardizing language and moral code) | treat as true and as grounds for doubting the current economy label for Grover III | I'm actually not sure about Grover III's economy being asset specific | first-named
+  - the author's own account of Grover IV's gilded age, Gerad Discret's Aquileian state building under vassalage, and Chrysalis (with French absolutism and Chinese state capitalism as inspirations) | treat as true; use it to review whether Grover IV should match Gerad and Chrysalis, keeping Chrysalis learning from Gerad as intentional | Grover IV doesn't seem to have a strong state. It's a Gilded Age | first-named
+  - the Crystal Empire as shown, with the collective friendship powers and crystal heart | treat as the author's reasoning that the Crystal Empire is bottom up rather than resting on Cadance | the crystal heart is what actually holds the Crystal Empire together, not Cadance | referred-to
+  - Skyfall's existing identity setting (preserves) | use it as the basis for setting New Mareland's identity to the same | Since Skyfall "preserves" identity New Mareland should to | referred-to
+  - the author's statement about Boyars | treat as true and use to settle how the Boyar economy is classified | Boyars sell goods, extracting from their serfs | first-named
+  - the author's account of Gerad Discret, Verany, Coltbert's Aquileia and Tzinacatl on nationalism and outsiders | treat as true and test against the current selections to see whether the openness and us-versus-them axis lines up, or whether nationalism is derived | Gerad Discret builds up Aquileian state power to fight Herzland | first-named
+  - the current selections | compare the author's account against them to see whether they line up | How does it compare to the current selections? | referred-to
+- order:
+- about: The author challenges several axis classifications from the model's analysis, supplying corrections from memory and asking the model to check the v1 and v2 notes and to say whether the openness axis and nationalism fit the current selections.

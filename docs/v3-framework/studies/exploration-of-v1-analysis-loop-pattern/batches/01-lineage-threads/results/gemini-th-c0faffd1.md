@@ -1,0 +1,10 @@
+- steps:
+  - the author | asks a lore question | whether the frost guard reverts to native changeling identity once rehabbed | opening of the stretch
+  - the model | no response captured | (export lists no reply to the rehab question) | immediately after the first prompt
+  - the author | revises worldbuilding and adds constraints | proposes that hives were harmonic 700 years ago under Jaeger protection before overhunting, that native changeling warmth-words may not have survived except in fairy tales, and that native changeling language is fully oral with no written tradition | second prompt in the stretch
+  - the model | no response captured | (export lists no reply to the revision) | immediately after the second prompt
+  - the author | poses a follow-up implication question | asks how having no written native changeling tradition (only factory-taught Herzlander literacy) shapes the frost generation's perception of Equestrian books that carry culture | third and final prompt in the stretch
+  - the model | no response captured | (export lists no reply to the follow-up question) | immediately after the third prompt
+- kept:
+- brought: The author brings ongoing worldbuilding assumptions from the plan — the frost guard, native changeling identity, the Jaeger-hive history, and the Herzlander/native-changeling language split — and pushes them further with new constraints and a chain of follow-up questions.
+- loop: The author brings a sequence of escalating worldbuilding questions and revisions about changeling language and cultural history, but with no model responses captured for any of the three prompts, nothing from this stretch was traced into the planning database.

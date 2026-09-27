@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a tentative story idea that the Diamond Dogs lived in a cave because the soft-pony society of the Stagnation era excluded them, and that they are welcomed after the war for their talents.

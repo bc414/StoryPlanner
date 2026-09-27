@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's premises by stating story facts directly: AJ's radio reaches only Henri, Twilight has no radio and was never in the command center, she can find AJ by a friendship-guided spell, and she was in transit when the battle began.

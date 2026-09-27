@@ -1,0 +1,7 @@
+- asks:
+  - confirm/validate thesis | asks whether the central social commentary embedded in the 'griffon magic' element of the setting is fundamentally about the nature of human capital across historical eras | "So is the grand social commentary from griffon magic is the nature of human capital?"
+- supplies:
+  - argument sketch | the user's own historical/economic theory mapping eras (pre-state violence capital, post-Black Death guilds, industrialization, post-peak-oil exploitation, modern credentialism) onto invented setting concepts (Coltbert's ego capitalism, equestrian harmony, GR political system, Aquileian asset specificity) as the proposed synthesis needed for human dignity | a paragraph
+- shaping:
+- openness: The message leans toward an answer it names itself (that human capital and its historical shifts, culminating in a synthesis of equestrian harmony, GR political system, and Aquileian asset specificity, is the story's social commentary), asking the model to confirm or engage with this stated thesis.
+- subject: Whether the fictional world's 'griffon magic' system is meant as commentary on the historical evolution of human capital and dignity

@@ -1,0 +1,54 @@
+- relations:
+  - 1661|1662|The allegory gives the real-world referent, and the mechanism note works it out as the spell's fissile chain reaction and critical-mass event|atomic bomb / fissile chain reaction... critical mass event|implicit
+  - 1655|1662|Aim and mechanism: the stated plan to replace dreams of conquest with dreams of friendship, and the dream-altering spell that drained ambition to pacify the world and then fed on it|replacing dreams of conquest / dream-altering spell... drain ambition to pacify the world|implicit
+  - 1674|1662|An instance and its explanation: the spell to drain ambition, and how that spell's feedback loop worked and where it hit its limit|She had a spell to drain ambition / absorbed, which fueled the spell to drain more|implicit
+  - 1674|1662|The claim that Nightmare Moon is not infinitely powerful is backed by the account of a vessel that could not contain the energy density|not infinitely powerful / could not contain the energy density|implicit
+  - 1655|1656|Cause of the naive plan: Luna believed friendship and ideology, not material conditions, made harmony, so making warlords friendly would end monsters|naively thought because Equestrians had harmony / thought ideology triumphed over economics|implicit
+  - 1655|549|Contradiction or tension over the state of the world at banishment: harmony and no monsters left versus a wild, untamed wilderness|no monsters left and harmony across Equestria / wild, untamed wilderness|implicit
+  - 540|1655|Reader response: the prior that Luna is naive and delusional matches the backstory of her naive plan for the warlords|traumatized, naive, delusional and passive / She naively thought|implicit
+  - 540|1656|Reader response: the naive, delusional view of Luna is what her mistaken belief about the fire of friendship supplies|naive, delusional / genuinely believed that the "fire of friendship"|implicit
+  - 540|539|The reader's prior of traumatized and passive is the outward view of the trauma and sense of having no place to speak|traumatized ... passive / feels she has no place to speak|implicit
+  - 550|540|Revision of reader opinion: the godly myth is reduced to a talented researcher, which cuts against the first assumptions in reading order|"godly myth" is really just / Readers initially think|implicit
+  - 550|1674|Both deflate Luna's power: the myth is one researcher's work and the spell is one among many, and Nightmare Moon is not infinitely powerful|talented solo magical researcher / not infinitely powerful|implicit
+  - 550|1662|The dreamwalking spell as one complex spell among many is set against the dream-altering spell that became a runaway chain reaction|dreamwalking spell / dream-altering spell|implicit
+  - 537|549|The same return in 1000: Luna finds a sanitized society, and the culture shock behind her depression is explained; the two give different spans, 80 years of chore-like intimacy against 70 years into the mandate|sanitized / 70 years into the "Hasbro Mandate"|implicit
+  - 549|539|Cause of her state: her depression comes from guilt over Nightmare Moon as well as culture shock, and the guilt from her Ambition is why she feels she cannot speak|guilt over Nightmare Moon / corrupted by her Ambition|implicit
+  - 537|1532|Continuation in time: after the identity crisis on her return, Mali gives comfort and regained confidence and shows that ambition and connection persist|identity crisis / Mali gave Luna comfort|implicit
+  - 1532|541|Mali's help is the source of the reclaimed identity Luna brings to Velvet|Mali gave Luna comfort / reclaiming her identity ... via Mali's therapy|explicit
+  - 1532|1533|The same therapy seen from canon: Mali's help is what bridges the scared sister and the boisterous princess|Mali gave Luna comfort / Mali's therapy bridges the gap|explicit
+  - 1533|541|Mali's therapy is the reason Luna is confident enough to treat Velvet as an adult|Mali's therapy / fresh from reclaiming her identity|explicit
+  - 541|542|Continuation: the rejection by Velvet and the Olenian Resistance leads to the failure to tame Velvet, reflected in the Tzinacatl and the token reforms|Velvet rejects this too / The failure to tame Velvet|explicit
+  - 541|545|A plan for the page: the Velvet arc is to intersect closely with Luna's return and Mali, which is the sequence in the history note|Queen Velvet's negative arc ... Luna's return and Mali / Mali's therapy|explicit
+  - 545|1532|The planning note says Velvet's arc should meet Luna's return and Mali, as Mali's part in the history is given|Luna's return and Mali / Mali gave Luna comfort|explicit
+  - 541|544|Continuation: after Velvet's rejection, Luna goes along with Celestia's doctrine|Celestia was going to just coddle Velvet / Luna goes along with Celestia's continuation|implicit
+  - 544|542|The same deference to Celestia, first as going along with her doctrine and then as token reforms rather than grassroots ones|goes along with Celestia's continuation / took Celestia's token reforms|implicit
+  - 539|544|Cause: because she believes Celestia is right from her own trauma, she goes along with Celestia's doctrine|believes Celestia is right / Luna goes along with Celestia|implicit
+  - 539|542|Cause: her sense of having no place to speak accounts for why she took token reforms despite her empowerment|no place to speak / still goes with Celestia's token reforms|implicit
+  - 538|542|Tension: she is to resonate with the Aquileian way and the parloir operators, yet she did not pursue thestral integration|resonate with the Aquileian way / did not pursue forceful thestral integration|implicit
+  - 538|539|Tension: she understands passion is not evil, which Celestia lost sight of, yet she believes Celestia is right about her own corruption by Ambition|Passion is not equivalent to Evil / believes Celestia is right|implicit
+  - 549|538|The sister's system as infantilizing and afraid is the one Luna is to resonate against, and she is to be an ally in the later realization|lobotomized the nation's pioneer spirit / far more than her sister's system|implicit
+  - 546|538|Instance: her disapproval of Celestia's top-down mandate over the crystal ponies is one case of her preferring a different approach to her sister's system|top-down mandate / far more than her sister's system|implicit
+  - 546|544|Tension: in the recontextualized scene she disapproves of Celestia's top-down handling but only offers to go, while the history has her go along with Celestia|are you sure you don't want me to go / Luna goes along with Celestia|implicit
+  - 2208|1533|Continuation: after meeting Mali she learns Tzinacatl history, in the same period as the therapy that bridges the canon sister to the new Luna|After meeting Mali / Mali's therapy bridges the gap|explicit
+  - 2208|542|The Tzinacatl are named in both: their beliefs about the warrior princess fall short of the reality, and the failure to tame Velvet is reflected in them|Tzinacatl / reflected in the Tzinacatl|explicit
+  - 2208|550|Both deflate a myth: the Tzinacatl's warrior princess falls short of reality, as the godly myth is just a researcher|don't live up to reality / "godly myth" is really just|implicit
+  - 1656|1662|The material-conditions reading and the fissile reading agree: her error in both is that ideology or morality did the work when the causes were material or structural|ideology triumphed over economics / wasn't a moral failing|implicit
+- outward:
+  - 1661|A real-world event, the atomic bomb, as the allegory's referent|equivalent to the atomic bomb
+  - 1655|Warlords and monsters across the wider world, and Equestria's earlier state|global feudalism / all the warlords of the world
+  - 537|The world's earlier culture 1000 years ago and its present sanitized night|1000 years ago, ponies had lovers, rivalries
+  - 1532|Mali, a character held elsewhere|Mali gave Luna comfort
+  - 541|Velvet, Celestia and the Olenian Resistance, held elsewhere|Velvet rejects this too, and starts the Olenian Resistance
+  - 544|The Luna doctrine, and Celestia's reliance on Discord, held elsewhere|Celestia's continuation of the Luna doctrine / Discord
+  - 542|The thestral promise, the Tzinacatl, the parloir reforms and the figure EEEE, held elsewhere|real grassroots aquileian parloir style reforms like what EEEE wants
+  - 538|Aquileian thought, the Bat Ponies, Applejack's later realization, held elsewhere|Applejack's realization later in the story
+  - 549|A prequel-sequel and the Hasbro Mandate, Griffon economics, held elsewhere|For her prequel-sequel / Hasbro Mandate / Griffon economics
+  - 2208|Luna's prequel, Meztli and the chapters that dramatized the harmonist, held elsewhere|Meztli / what was dramatized a few chapters ago
+  - 539|Luna's ambition-driven corruption 1000 years ago, held in other notes|corrupted by her Ambition 1000 years ago
+  - 545|Queen Velvet's arc, held elsewhere|Queen Velvet's negative arc
+  - 550|Aquileian and Equestrian researchers and their spells, held elsewhere|Aquileian and later Equestrian researchers work together
+  - 546|Canon episodes, The Crystal Empire, Twilight, Cadance and Magical Mystery Cure|The Crystal Empire Part 1 / Magical Mystery Cure
+  - 1533|Canon season 1 episode 2 and the Luna Eclipsed episode|season 1 episode 2 scared sister / Luna Eclipsed
+  - 1656|Hearth's Warming history, held elsewhere|the history of Hearth's Warming
+  - 1662|The refutation of Great Mare Theory, held elsewhere|The refutation of Great Mare Theory
+- whole: The notes hang together as a set around Luna's arc from her ambition-driven fall through her return, Mali's therapy and her deference to Celestia, with several tensions between them, though the allegory and canon notes stand mostly on their own.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Montgomery quote to ask a new question about how British command doctrine developed and adapted through the war, and how it could apply to their story.

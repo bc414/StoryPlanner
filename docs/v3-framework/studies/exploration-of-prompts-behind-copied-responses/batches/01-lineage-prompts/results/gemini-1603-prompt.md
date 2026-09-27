@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | a plan export for the person's long fiction work | its content is not captured; only a size marker is given (153,897 words, 0 chars)
+- shaping:
+- openness: The message contains no accompanying text or instruction of any kind, only an attachment placeholder, so no stance toward an answer, choice, or check can be identified.
+- subject: An attached plan export document, with no other text in the message

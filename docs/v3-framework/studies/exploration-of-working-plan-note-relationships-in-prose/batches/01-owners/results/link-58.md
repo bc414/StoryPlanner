@@ -1,0 +1,8 @@
+- relations:
+  - 1723|1722|the shooting of the infiltrator is the occasion, and the scarring and the Hard Truth about lethal force are its lasting effect on Pinkie|"traumatized her" against "permanently scarred"; "something that looks like a friend" against the impersonated pony|implicit
+  - 1722|1724|Pinkie's scarring and forced acceptance of lethal necessity is the instance that shows the general point about naive joy failing against war|"Naive joy could not stand up to industrial war" against "Pinkie is permanently scarred"|implicit
+- outward:
+  - 1722|the Predator's Dilemma, a named idea held elsewhere in the plan|"Hard Truth" of the Predator's Dilemma
+  - 1722|a later stretch of the story where Pinkie isolates herself with the Temberik at the artillery lines in Diyarbecolt|"later isolation with the Temberik in Diyarbecolt"
+  - 1723|the wider war, the statthalters who collect and enslave, and the retreat scene where the pony is found|"After the war began"; "found in a ditch during the retreat"
+- whole: The notes hang together fairly well: the disclosed event, the psychological consequence and the thematic summary are three views of one wound, though only the first two are tied closely by what they say.

@@ -1,0 +1,9 @@
+- asks:
+  - explain | asks the model to lay out the reasoning behind why the character Chrysalis is narcissistic | "What is the reasoning for chrysalis's narcissism?"
+  - check | asks whether that narcissism is adequately explained just by her having been raised as an exceptional person with real talent to match | "Is it just because she was raised as an exceptional individual with the talent to back it?"
+  - explain | asks for a general account of how narcissists develop in real life | "How do real narcissists come about?"
+- supplies:
+  - hypothesis | a proposed single-cause explanation for Chrysalis's narcissism (upbringing as an exceptional, genuinely talented individual) | one sentence
+- shaping:
+- openness: Leans toward a hypothesis it names (upbringing as an exceptional, talented individual) and asks the model to confirm or complicate it, while the accompanying question about real-world narcissists is left fully open.
+- subject: Origins of a fictional character's (Chrysalis) narcissism versus real-world causes of narcissism

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about whether the fanfiction author actually published the book mentioned in the final author's note, without pointing the model at any particular source.

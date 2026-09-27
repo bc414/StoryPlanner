@@ -1,0 +1,3 @@
+- claims:
+  - design commitment | Applejack's arc includes acquiring mercy, and Fluttershy is the one she acquires it from; stated as a settled event in the story | Applejack learns from Fluttershy to be merciful | What does Applejack learn, and from whom? | partly
+- theme: It names the theme without arguing it: it puts mercy into Applejack's arc but does not link it to strength, and does not show how or why she comes to it, so it neither argues nor evidences the proposition that strength is the prerequisite for mercy.

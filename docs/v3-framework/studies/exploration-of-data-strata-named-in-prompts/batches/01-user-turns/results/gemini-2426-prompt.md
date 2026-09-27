@@ -1,0 +1,4 @@
+- sources:
+  - my story plans for Rarity's role and character development | the model is to review these plans and base its updated analysis on them | review my story plans for Rarity's role and character development | first-named
+- order:
+- about: The user asks the model to review their existing story plans for Rarity's role and character development and then give an updated analysis, in place of the model's speculative question.

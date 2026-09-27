@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's case for keeping the raw markdown and moves on to a practical follow-up: how to keep the program-generated file current, and whether a Google Doc attached to the Gem's Knowledge would update by itself.

@@ -1,0 +1,6 @@
+- relations:
+  - 1030|1031|note 1031 gives the thematic proposition that the concrete behavior staged in note 1030 serves as evidence for: building water filtration, hospitals and defences is the act of fixing material conditions, and 'not teaching friendship via trust falls' matches 'not moral preaching or being taught or told'|Zecora is fixing the material conditions that cause wars|implicit
+- outward:
+  - 1030|Hippogriff capital and Zebra labor, peoples and economic arrangements held elsewhere in the story|combining Hippogriff capital with Zebra labor
+  - 1031|wars whose causes lie in the wider story, not in this item|the material conditions that cause wars
+- whole: The two notes hang together closely: one stages what Zecora does on the page and the other reads that same action as evidence for the theme.

@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1744 | the charitostatic effect, a named piece of the world's rules that is not explained in this item | it requires the charitostatic effect, not just raw ambition
+- whole: This owner holds a single note, so there is no set to hang together and no joint between notes.

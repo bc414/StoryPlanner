@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short general-knowledge question about how Mansa Musa relates to the gold standard, following the discussion of Colbert and mercantilism, without pointing at any body of material.

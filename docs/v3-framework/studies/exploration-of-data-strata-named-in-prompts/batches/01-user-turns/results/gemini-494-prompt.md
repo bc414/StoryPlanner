@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a story-design question about whether Rainbow Dash's war council account of the tank movements should carry a realization that the changeling commanders acted independently, and whether that can tie into her shift from central authority toward fraternity, without pointing at any body of material to draw on.

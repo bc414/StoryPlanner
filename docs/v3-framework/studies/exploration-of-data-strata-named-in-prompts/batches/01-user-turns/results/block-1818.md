@@ -1,0 +1,4 @@
+- sources:
+  - present day data | the model is to research current data and base the population estimates and demographic breakdowns on it | Research present day data | first-named
+- order:
+- about: The user asks the model to research current data and estimate, with methodology explained, what share of the Western population falls on each side of the building-versus-consuming split, broken down by demographic.

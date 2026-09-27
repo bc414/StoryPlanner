@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question by saying the query is about their own story rather than the Equestria at War mod, without disputing anything the model said.

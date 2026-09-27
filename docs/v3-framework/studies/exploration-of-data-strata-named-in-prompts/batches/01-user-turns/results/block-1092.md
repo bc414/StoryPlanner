@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether any earnest, non-cynical movements exist in the American right beyond Bernie Sanders on the left, and whether independent Senate bids by Dan Osborn (Nebraska, 2024) and Evan McMullin (Utah, 2022) embody that spirit, without pointing the model at any particular body of material.

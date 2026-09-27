@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model treated the reader as someone coming cold to an unfamiliar conversation log, when the user is the person who took part in the conversation that same day and remembers it; the analysis rests on a wrong premise about the user's situation | Now reevaluate with the idea that I am not reading a random log of a conversation, I was the one doing it the same day and remember things | Flat restatement of the missing premise, given as an instruction to redo the analysis, without apology or irritation
+- about: The user supplies a premise the model missed, that they wrote the conversation themselves and remember it, and asks for the pros and cons of the two reading orders to be redone on that basis.

@@ -1,0 +1,4 @@
+- sources:
+  - the author's own recollection of the existing plan (I think her school persona is still Krista Sterling; I forgot the German name) | treat as the working position on the school persona, but the company's German name is unremembered and left open | I think her school persona is still; I forgot the German name | referred-to
+- order:
+- about: The user corrects and refines the model's persona-naming proposal from memory of their plan, keeping Krista Sterling for school, using Kriemhild von Krystallfels afterwards, keeping that persona separate from Queen Chrysalis, and giving Chrysalis the name Oberste Kressida with translators hard-coded to render it.

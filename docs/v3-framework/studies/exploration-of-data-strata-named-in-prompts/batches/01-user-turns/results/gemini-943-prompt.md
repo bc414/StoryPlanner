@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual side question about where the name of the company Standard Oil comes from, following the model's suggestion of a name that nods to it, without pointing at any source of data.

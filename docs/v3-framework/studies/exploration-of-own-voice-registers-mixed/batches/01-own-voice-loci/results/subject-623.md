@@ -1,0 +1,11 @@
+- passages:
+  - 5438 | reflective-analytical exposition | third-person present tense, plain declarative claims about a character's realization | Applejack's realization that Celestia was never obsolete and needs strength to be motherly | apart
+  - 5438 | telegraphic fragment | verb-thin clause, no full sentence structure | a staging note placing Celestia in encirclement, feeling better | apart
+  - 5438 | bare keyword list | single untied words with no clause around them | topic tags: Stagnation, Fraternity, Coltbert | apart
+  - 5442 | reflective-analytical exposition | third-person present tense, states what a section is and is not about | the purpose of the Griffonia scenes as understanding rather than error | apart
+  - 5728 | historical-systemic exposition | present tense, dated periods, percentages, defined terms, cause-and-effect historical narration | the rise, stagnation, and defeat of 'survival harmony' across Equestria's history | apart
+- shifts:
+  - 5438 | reflective-analytical exposition | telegraphic fragment | drops the subject-predicate sentence for a compressed staging phrase
+  - 5438 | telegraphic fragment | bare keyword list | drops clause structure entirely into single unattached words
+- registers: reflective-analytical exposition; telegraphic fragment; bare keyword list; historical-systemic exposition
+- whole: This item holds several distinct registers that never blend within a sentence — note 5438 steps down in stages from full reflective sentences to a bare fragment to unattached keywords, while notes 5442 and 5728 each hold to a single register throughout, one reflective-analytical and the other historical-systemic, with every passage standing apart rather than running together.

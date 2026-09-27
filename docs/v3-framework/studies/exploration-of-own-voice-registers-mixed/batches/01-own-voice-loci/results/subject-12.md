@@ -1,0 +1,21 @@
+- passages:
+  - note 4060 | brainstorm-note | short declarative claims, "It's like The Count of Monte Cristo" | Chrysalis's revenge list and obsession with beating nobles at industrialization | apart
+  - note 4060 | lore-narration | detailed structured account of who wears which form and when | division of labor between Chrysalis's Kriemhild form and VOPS financiers | apart
+  - note 4061 | lore-narration | past-tense causal chain, "Then the great leap forward started" | industrialization enabling love-storage and the unification/conquest that followed | apart
+  - note 4383 | thematic-analysis | quoted terms, "isn't just X but Y" contrast | Chrysalis as radical modernist who cages her people to save them | apart
+  - note 4400 | task-note | "Need to make...", parenthetical analogy to a real figure | giving Chrysalis oratory skill to inspire changelings against ponies | apart
+  - note 4601 | aphorism | parallel negation, "didn't...she..." one-liner | reframing 1002 as an infiltrated wedding rather than a war | apart
+  - note 4714 | thematic-analysis | quoted terms, "not X; it is Y" contrast, present tense | Chrysalis's disgust at Acornage changelings and her view of Harmony | apart
+  - note 4715 | thematic-analysis | present-tense psychological claims, contrastive clauses | Krista Sterling's rejection by nobles and her meritocratic critique | apart
+  - note 5435 | reasoning-note | repeated "That's why"/"So", run-on causal chaining | origin of Statthalter cruelty and Chrysalis's bait strategy in Canterlot | apart
+  - note 5835 | lore-narration | past-tense narration, cross-reference to outside lore | Pagala's background and the pink-chitin legend versus the shamans' true method | apart
+  - note 5835 | speculative-aside | modal "must require" generalization | hypothesis on the love-cost of altering a changeling's base form | apart
+  - note 5835 | lore-narration | return to concrete past-tense narrated action | Chrysalis's own base-form change and her later escape as a griffoness | apart
+  - note 5836 | thematic-analysis | quoted archetype, "isn't because...it is because" contrast | Chrysalis as tech-bro disruptor optimizing supposedly outdated systems | apart
+  - note 5840 | factual-note | plain listing of names with a parenthetical clarification | who besides changelings knows Chrysalis's true identity | apart
+- shifts:
+  - note 4060 | brainstorm-note | lore-narration | paragraph break, move from short comparison-laden claims to a structured mechanism description
+  - note 5835 | lore-narration | speculative-aside | modal "must" replacing narrated past action with a general hypothesis
+  - note 5835 | speculative-aside | lore-narration | return to concrete past-tense narrated action ("Chrysalis found out...")
+- registers: brainstorm-note; task-note; reasoning-note; lore-narration; thematic-analysis; aphorism; speculative-aside; factual-note
+- whole: This item holds several distinct registers—informal planning, task, and reasoning notes, expository lore-narration, present-tense thematic-analysis, one aphoristic line, a speculative aside, and a plain factual note—and they sit apart from one another at note or paragraph boundaries rather than blending within a single sentence.

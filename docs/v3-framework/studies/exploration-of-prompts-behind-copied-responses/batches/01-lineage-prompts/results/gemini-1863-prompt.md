@@ -1,0 +1,6 @@
+- asks:
+  - problem-flagging | states that the paste approach won't work once the full notes are serialized, implicitly calling for a different way to get the notes into the model | "Paste isn't going to work if the full notes are serialized"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it rules out pasting as a viable method for the serialized full notes but does not specify what alternative approach should be used instead.
+- subject: How to get the full, serialized story-planning notes into the model when simple pasting won't work

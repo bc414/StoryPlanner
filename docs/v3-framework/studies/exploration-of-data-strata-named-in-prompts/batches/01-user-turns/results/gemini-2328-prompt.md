@@ -1,0 +1,6 @@
+- sources:
+  - Sauvageon (the term from the model's earlier list) | accepted as the chosen term for the redeemable targets; keep it | Sauvageon seems to be great | referred-to
+  - the griffons' own word for their young, "cubs", set beside the ponies' "foals" | author's statement of a world fact, to be treated as true; it bears on the earlier "Cubs" option | the griffons call their young "cubs" like how ponies call their young "foals" | first-named
+  - the molter and pinfeather terms (from the model's earlier list) | starting point to be rendered into French equivalents and weighed against each other | what are the French equivalents of the molter or pinfeather | referred-to
+- order:
+- about: The user accepts "Sauvageon", adds that griffons call their own young "cubs" as ponies say "foals", and asks the model to analyse French equivalents of the earlier molter and pinfeather terms.

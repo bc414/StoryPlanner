@@ -1,0 +1,6 @@
+- asks:
+  - explain/compare | asks the model to explain the difference between Piłsudski and whoever led the country in 1939 | "What is the difference between pilsudki and the leader in 1939?"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open: it names one figure (Piłsudski, misspelled) but does not name the other, leaving it to the model to identify "the leader in 1939" and describe the difference between the two.
+- subject: Difference between Józef Piłsudski and the political leader in power in 1939, apparently in a Polish historical context

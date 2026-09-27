@@ -1,0 +1,6 @@
+- sources:
+  - the story plan | to be reviewed for details about Zonicans in Aquileia and Zonican former slaves from the Statthalter islands, and analysed against the user's new details | Review the story plan for these details | referred-to
+  - the user's own new details about Zonicans in Aquileia | to be taken as added facts and incorporated into the analysis | there would be a good amount of Zonicans in Aquileia | first-named
+  - the user's parents' UN program entry | offered as a real-world reference point for unconditional-dignity admission, contrasted with H1B-style results-based admission | unlike the UN program my parents came in with | first-named
+- order:
+- about: The user adds new worldbuilding details (Zonican diaspora in Aquileia via results-based brain-drain admission, plus freed Zonican slaves from Statthalter islands) and asks the model to check the story plan for these and give an analysis.

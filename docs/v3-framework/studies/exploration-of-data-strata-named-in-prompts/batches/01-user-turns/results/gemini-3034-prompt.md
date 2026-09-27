@@ -1,0 +1,4 @@
+- sources:
+  - YouTube video at the pasted link (youtu.be/e0yd8Ie1-vY) | the material the model is to work from; the turn gives no other instruction and no ranking against anything else | Https://youtu.be/e0yd8Ie1-vY?si=-MeofsXfEGiRqOiH | first-named
+- order:
+- about: The user sends only a new YouTube link, handing the model another video to process in the way it handled the previous one.

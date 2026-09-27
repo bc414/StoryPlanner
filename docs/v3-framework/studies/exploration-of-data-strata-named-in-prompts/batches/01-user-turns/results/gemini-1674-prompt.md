@@ -1,0 +1,5 @@
+- sources:
+  - my lore on Chrysalis's drone school | treat as the author's established setting; the model is to fit the language analysis to it, and the details restated (elites' eggs go to an industrial hatchery, all start as drones, choose industrial/jaeger school after kindergarten and Simplified Herzlander) are the givens to work from | "my lore on Chrysalis's drone school" | referred-to
+  - the preceding comparison of Simplified Herzlander with utilitarian English ("the" in "How does the interact") | the analysis just given, which the author wants applied to and checked against the school lore | "How does the interact with my lore" | referred-to
+- order:
+- about: The user asks how the prior Simplified Herzlander analysis fits their established lore of Chrysalis's drone school, and whether higher schools teach the full language at once or gradually.

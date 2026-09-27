@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's chronology is wrong: it treated the school arc as coming after or alongside the Grover V kleptocracy and the revolution, and had the academy nobles as children of that alliance, when the school arc (971-978) precedes the 978 Republican Revolution and Chrysalis and Eagleclaw themselves help create the bourgeois-nobility alliance behind the 981 kleptocracy | Actually Chrysalis's school arc with the nepo babies is before the Republican Revolution of 978 ... school arc is 971-978 | Stated flatly as a factual timeline fix, opened with 'Actually', with the dates supplied and no apology
+- about: The user fixes the timeline of the school arc against the revolution and the kleptocracy, then moves on to propose a scene in which Gilded Lily answers Chrysalis's wish to murder the nepo babies with 'endure, watch, copy, replace and win', and asks whether it should happen.

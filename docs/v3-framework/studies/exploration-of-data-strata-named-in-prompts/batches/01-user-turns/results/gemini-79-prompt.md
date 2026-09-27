@@ -1,0 +1,5 @@
+- sources:
+  - Chapter 2 as the user describes it (Applejack settling in at Tall Tale, Comet Shine explaining the defense against the changelings, his remark about a soldier not studying a factory on their off day) | treat as the basis for judging the title and for suggesting alternatives; it is the content the title has to fit | Chapter 2 features Applejack settling in at Tall Tale | first-named
+  - the Hoi4 term "Organization" | treat as the user's provisional title candidate, drawn from the game's vocabulary, and offer alternatives to it | I'm thinking of using the Hoi4 term "Organization" as the title | referred-to
+- order:
+- about: The user describes what happens in Chapter 2 and proposes the HOI4 term "Organization" as its title, asking the model for alternatives.

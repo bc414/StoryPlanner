@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | review the timeline against them and use them as the reference for the analysis | Please review my story plans | referred-to
+  - this timeline (Starlight's arc across chapters 4, 5 and 10, as laid out in the turn) | the author's own new account of the arc, to be analyzed for arc, narrative and thematic impact | analyze this timeline with the arc, narrative and thematic impact | first-named
+- order:
+- about: The user lays out Starlight Glimmer's chapter-by-chapter arc from quarantine through Tall Tale, Diyarbecolt and the Luna Nova rifle research, and asks the model to review it against their story plans and analyze its arc, narrative and thematic impact.

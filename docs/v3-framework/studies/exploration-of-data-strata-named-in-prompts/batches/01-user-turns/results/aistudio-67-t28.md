@@ -1,0 +1,8 @@
+- sources:
+  - real history of the Tzinacatl tribes and the jungle | material to adapt into the new Equestria timeline, with its mythology, themes and narrative purpose kept intact | adapt the real history of the Tzinacatl tribes | referred-to
+  - this new timeline for Equestria | the frame the adaptation must fit, including the 914 ALB Stagnation of Harmony dates that the author is unsure how the Tzinacatl fit into | adapt to this new timeline for Equestria | referred-to
+  - Applejack's Tzinacatl engagement arc (Extraction, Tempest, Crash) | fixed story material that the ideas must keep serving, as a microcosm of the geopolitical split with three tribal ideologies and a core premise that the Tzinacatl were never part of the Stagnation | serve as a microcosm of the wider geopolitical split | referred-to
+  - the author's own suppositions in this turn (Equestrian bat ponies with cutie marks, export markets before 914 until Chrysalis crashed them in 986 ALB, jungle monsters slain by thestrals, Meadowbrook alchemy, Zecora arriving in 1000 ALB) | provisional ideas and open questions to be tested and answered, not settled fact | I suppose | first-named
+  - established world bible and themes | the standard to check every suggestion against | cross check all suggestions with the established world bible | referred-to
+- order:
+- about: The author asks the model for several options for adapting the real Tzinacatl and jungle history to the new 914 ALB Equestrian timeline, offering tentative ideas and open questions about the bat ponies and asking that everything be checked against the world bible.

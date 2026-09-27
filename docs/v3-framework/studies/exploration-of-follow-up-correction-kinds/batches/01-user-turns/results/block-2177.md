@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the poseur-proposition discussion by handing over a new batch of disorganized v1 notes and asking the model to analyze them as evidence for existing v2 themes or as pointers to new ones, while cautioning against overfitting.

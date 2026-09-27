@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether "arcanoluminesence" is the right name for the Idol's glowing effect and requests alternative names, without pointing the model at any body of material.

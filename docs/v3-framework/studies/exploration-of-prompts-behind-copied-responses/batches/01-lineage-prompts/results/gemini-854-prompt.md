@@ -1,0 +1,6 @@
+- asks:
+  - analyse | asks the model to determine and explain the current position or stance of Turkey and of Western allies present in Saudi Arabia within a previously established framework | "Where do Turkey and Western allies in Saudi Arabia stand today in this framing?"
+- supplies:
+- shaping:
+- openness: The question leaves the answer fully open, asking the model to work out and state where these actors stand rather than confirming or choosing between named positions.
+- subject: Geopolitical positioning of Turkey and Western allies in Saudi Arabia within an unspecified prior analytical framing, likely tied to fictional world-building.

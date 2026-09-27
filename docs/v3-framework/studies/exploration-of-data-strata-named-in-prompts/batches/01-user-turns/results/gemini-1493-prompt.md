@@ -1,0 +1,7 @@
+- sources:
+  - My story plans | treated as the record that Coltbert is inspired by John Maynard Keynes, but then corrected on where the royal fiat idea comes from | My story plans say Coltbert is inspired by John Maynard Keynes | referred-to
+  - Skyfall | given as the origin of Coltbert's royal fiat idea, replacing the Keynes inspiration on that point | Actually I said it comes from Skyfall | referred-to
+  - the user's own recollection of monetary history (Dutch fiat, VOC bonds, British gold standard, American gold standard and fractional banking) | provisional guesses the user wants the model to confirm or correct | I guess Fiat existed in small forms | first-named
+- order:
+  - Skyfall over My story plans (on the origin of royal fiat) | Actually I said it comes from Skyfall
+- about: The user restates what their story plans say about Coltbert's inspiration, corrects it to Skyfall, and then asks a run of tentative questions about the history of fiat money, the Dutch Republic, VOC bonds and the British and American gold standards.

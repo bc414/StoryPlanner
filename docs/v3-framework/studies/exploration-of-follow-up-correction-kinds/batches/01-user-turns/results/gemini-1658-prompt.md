@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Day 1 explanation to a new question about whether Star Energy should dismantle the dam early in chapter 1, adding a constraint that harmonic capitalism is not yet revealed and that the characters are in survival mode.

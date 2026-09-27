@@ -1,0 +1,5 @@
+- sources:
+  - the commissars mentioned in the 3rd battle of Tall Tale | earlier plan material the user wants to reassign: asks the model to confirm they are VOPS agents rather than Statthalters, so the earlier attribution is treated as open to revision | the commissars mentioned in the 3rd battle of Tall Tale to snipe so the drones can surrender are not Statthalters but VOPS agents? | referred-to
+  - VOPS level 1 and 2 regarding the winter revolution | the user's own earlier reference, which they are reinterpreting: level 1 becomes the Jaeger infiltrators with Trimmel, level 2 becomes the VOPS supremacist zealots; a revised reading, not fixed | I also referenced VOPS level 1 and 2 regarding the winter revolution but I think level 1, with Trimmel, is the jaeger infiltrators | referred-to
+- order:
+- about: The user answers the model's analysis by checking and reassigning roles among the Changeling factions (VOPS, Statthalters, Bauleiters, Jaegers), asking whether the Tall Tale commissars and the Ahuizotl financier thread belong to VOPS or the Bauleiters, and reinterpreting their earlier VOPS level 1 and 2 reference from the winter revolution.

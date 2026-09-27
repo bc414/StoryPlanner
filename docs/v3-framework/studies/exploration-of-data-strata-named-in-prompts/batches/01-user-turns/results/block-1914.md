@@ -1,0 +1,6 @@
+- sources:
+  - the DB file, the relevant parts | reread it before giving the analysis, so the analysis rests on what it contains | Reread the relevant parts of the DB file | referred-to
+  - the additions the user gives in this turn (what happened after Mount Aris, the friends' responses, Fluttershy's guilt, Pinkie's arc) | new story facts from the author to be incorporated into the analysis | Some additions: | first-named
+  - the original plan that Twilight suggests Fluttershy stay in chapter 5 | earlier plan, now provisional and being weighed against the alternative | I originally had the latter but the former seems to have merit | referred-to
+- order:
+- about: The user adds backstory about Twilight's friends after Mount Aris and Pinkie's arc, asks whether Fluttershy should discover the suffering animals herself in chapter 5 instead of Twilight suggesting it, and tells the model to reread the DB file before analyzing.

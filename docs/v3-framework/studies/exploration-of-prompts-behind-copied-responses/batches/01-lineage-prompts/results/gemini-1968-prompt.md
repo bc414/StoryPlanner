@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether the game/mod "Equestria at War" contains a faction, event, or feature inspired by Poland, referred to as a "meeting" | "Is there a Polish inspired meeting in Equestria at War?"
+- supplies:
+- shaping:
+- openness: Asks the model to check/confirm whether a specific named element (a Polish-inspired "meeting") exists in Equestria at War; it is a direct yes/no factual question with no stated lean or alternatives offered.
+- subject: Whether the game/mod Equestria at War includes a Polish-inspired element

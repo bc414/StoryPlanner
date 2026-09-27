@@ -1,0 +1,10 @@
+- asks:
+  - specify | states that the setting's obsessive pursuit of cutting-edge technology is driven by Aquileian-style pride and ego tied to asset specificity, and gives the etymology of the capital's name "Tall Tale" as predating Star Energy | "driven by pride and ego (Aquileian style)... Tall Tale already had this prior to Star Energy"
+  - specify | directs that the in-story command economy vote be modeled on Kemerskai's 986 martial law declaration, with a note on when this link should surface in the narrative | "should be inspired by Kemerskai's martial law declaration in 986. But this is only revealed later"
+- supplies:
+  - idea, worldbuilding rationale | motivation behind the setting's risky tech-race culture and the origin of the "Tall Tale" city name | a couple of sentences
+  - idea, worldbuilding rationale | historical event to model a later plot vote on | one sentence
+- shaping:
+  - reveal timing constraint | the Kemerskai martial-law inspiration for the command economy vote is not to be disclosed until later in the story | "this is only revealed later"
+- openness: The message asserts both worldbuilding decisions as settled facts to incorporate rather than posing questions, fully leaning toward the specific answers it names (pride/ego and asset specificity as the tech-race motive; Kemerskai's 986 declaration as the vote's inspiration).
+- subject: Worldbuilding notes for a fantasy political-economic setting: motives behind a tech arms race, a city's name origin, and the historical inspiration for a later plot event

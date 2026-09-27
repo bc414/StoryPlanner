@@ -1,0 +1,12 @@
+- steps:
+  - author | correction | asserts Fluttershy not Pinkie is TLTT's spymaster, demands reanalysis | opening message of the thread
+  - model | speculative reanalysis | reworks Fluttershy into an empathic spymaster and invents a new role for Pinkie as Director of Asymmetric Warfare/Logistics, closes with a question | first model reply
+  - author | repeat correction | restates the same correction but adds instruction to ground it in the actual story plans | second author message
+  - model | revised reanalysis | drops the invented logistics role, repositions Pinkie as an Artillery Commander in the Temberik mountains embodying Resilience, maps four GIYC behaviors onto this role | second model reply
+  - author | new material | asks for analysis of Pinkie's behavior in a chapter 7 draft and how it feeds into TLTT | third author message
+  - model | draft analysis | reads the chapter 7 scene for three threads (observation/surveillance, utilitarian meddling, lack of boundaries) and ties each to the TLTT arc, closes with a question | third model reply
+  - author | synthesis | proposes a craft rule for TLTT chapter 5: keep Pinkie's Faustian emotional perceptiveness but strip Hasbro-style toxic positivity, without turning her into a 'depressed husk' | fourth author message
+  - model | validation and elaboration | endorses the rule, lays out a three-part structural breakdown for executing it in chapter 5, closes with a question about the inciting incident | fourth model reply
+- kept:
+- brought: The author brought a correction to the model's mistaken assignment of the spymaster role (insisting it belongs to Fluttershy, not Pinkie, per their actual TLTT plans) and later brought a chapter 7 draft scene for the model to analyze.
+- loop: The author repeatedly corrects the model's speculative inventions back toward their actual plan, feeds it draft material to interpret, and then distills the resulting back-and-forth into their own craft principle for a specific chapter, which the model then elaborates on — but none of this exchange left any trace in the planning database.

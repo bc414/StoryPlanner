@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding Verdame analysis (the Lioness uniform reveal, the Rommel line, Synovial as Grover I) | treated as a good basis to build on; accepted in part and amended, with the user correcting who knows the Lion story and how Verdame is taken | "This is great because now it allows Henri and the Aquileians to laugh" | referred-to
+- order:
+- about: The user endorses the model's Verdame and uniform-reveal proposal and then revises it, deciding what Applejack and Henri know about the Lion story and changing the battle so Synovial has already taken the fortress and is beaten by overwhelming Equestrian force rather than maneuver.

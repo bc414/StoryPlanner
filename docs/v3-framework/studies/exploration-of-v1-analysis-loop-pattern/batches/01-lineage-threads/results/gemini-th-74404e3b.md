@@ -1,0 +1,7 @@
+- steps:
+  - the author | poses a definitional question | asks for the distinction between theme and commentary tied to a work's publication era | opens the exchange
+  - the model | supplies a comparative explanation | definitions of each term, worked examples from named novels, a side-by-side comparison table, and a note on how the two can overlap | answers the question
+  - the model | offers to extend the analysis | proposes applying the theme/commentary distinction to a specific book the author is reading | closes the response
+- kept:
+- brought: none
+- loop: The author brought a general craft question with no reference to a specific project element, the model returned a self-contained explanatory answer, and no note in the planning database traces back to this exchange, so nothing from it was carried into the plan.

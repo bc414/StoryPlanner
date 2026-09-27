@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the tent scene to ask what Applejack's defiant speech to Tall Tale should contain, supplying the staging, her sobriety and her uniform as constraints for the new request.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the translation-as-technology analysis to revise their plan so changelings have an elite-only character-based writing system, and asks for a full Chinese history breakdown mapped to the plan, separating myth from historical study, after reviewing the story plan.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether to rename or keep the names for Chrysalis's two industrialization drives (986-996 and 1002-1007), noting that MEFO bills are central to them, and asks whether they should be framed as five-year plans, without pointing the model at any body of material to use or avoid.

@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | The scene counts as the characters (apparently Twilight and Applejack, who are named as caricatures) refusing the ending in which they are reduced to caricatures, the Ruler of Equestria and the Background Background Pony. This gives the scene its place under the theme of replacing the mandated versions with grown-up ones. | "They reject the ending where they become caricatures" | no | terse declarative sentence with a parenthetical naming the two caricatures
+- whole: A one-sentence statement that, in this scene, the characters reject the ending in which they turn into caricatures, named as the Ruler of Equestria and the Background Background Pony.

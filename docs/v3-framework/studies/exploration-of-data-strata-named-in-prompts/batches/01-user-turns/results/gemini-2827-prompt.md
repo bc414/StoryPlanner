@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates their view of OpenAI's adult-content move as an arms race caused by weak US regulation, with Altman as a reactor rather than a villain, and asks the model to analyze that view and evaluate how true its assertions are, without pointing at any body of material to use or avoid.

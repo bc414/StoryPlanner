@@ -1,0 +1,7 @@
+- asks:
+  - factual question | asks whether a real-world phenomenon it describes (people being economically/socially compelled to remain within an exploitative system even though in principle they might leave) actually exists in South Korea | "Is this a thing in South Korea too?"
+- supplies:
+  - worldbuilding analogy | own lore proposal mapping Las Pegasus (a fictional pony city) onto South Korea: its founding as a 'containment zone' for capitalist ideas, a Chrysalis-driven centralizing influence akin to chaebols, a Trump-based tycoon character (Gilded Trust) running a closed economic ecosystem, a casino/Las-Vegas aesthetic tied to commodified beauty, groomed/flamboyant workers, and the problem that ponies could simply leave for their home village whereas South Koreans historically could not | a dense paragraph
+- shaping:
+- openness: The message states its own premise about South Koreans being born into the system with no choice but to leave/immigrate, and asks the model to check whether an analogous dynamic ('reasons to stay in the system') is also true of South Korea, so it is a request to verify a stated claim rather than an open-ended question.
+- subject: Worldbuilding analogy between a fictional pony city (Las Pegasus) and South Korea's economic/social system, with a question about real-world South Korean parallels

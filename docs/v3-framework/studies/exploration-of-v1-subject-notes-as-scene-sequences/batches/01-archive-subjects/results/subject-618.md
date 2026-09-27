@@ -1,0 +1,4 @@
+- passages:
+  - 61 | statement about the subject | identifies the subject as a spy network, a bare label-like description of what the agency is | none | a two-word fragment naming the kind of thing, no event described
+- sequences:
+- whole: The subject has a single one-line note that merely classifies the Cute Intelligence Agency as a spy network, with no events, dates, or further detail.

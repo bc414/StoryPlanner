@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers their own reading of the previous answer (that synthesis across existing "engines" can yield new things within the rules, while history still shows genuine paradigm shifts such as writing and code) and asks whether formal terms and examples exist for that distinction.

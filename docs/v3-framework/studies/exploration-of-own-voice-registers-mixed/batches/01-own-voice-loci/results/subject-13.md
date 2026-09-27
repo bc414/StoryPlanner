@@ -1,0 +1,56 @@
+- passages:
+  - 4324 | past-tense event narration | past tense, plain declarative | his birth and origin | apart
+  - 4324 | emphatic corrective assertion | capitalized negation, blunt assertion | denying he is a "soft bug" | apart
+  - 4324 | present-tense outline narration | present tense, plain declarative, scare-quoted "brother" | his role alongside Pharanx | apart
+  - 4324 | past-tense event narration | past tense, plain declarative | top-of-class standing | apart
+  - 4324 | present-tense outline narration | present tense, plain declarative | Pharanx's recognition from Chrysalis | apart
+  - 4325 | past-tense event narration | past tense main clause | casting of the Lioness Spell | run-in
+  - 4325 | present-tense mechanics exposition | present-tense relative clause, technical wording | how the spell's power scales | run-in
+  - 4325 | past-tense event narration | past tense, sequential plain declarative | blast's effects by rank | apart
+  - 4325 | past-tense event narration | past tense, plain declarative | Trimmel's gang unaffected | run-in
+  - 4325 | evaluative aside | judgment-laden adjective "misguided" | assessment of Trimmel's gang's cause | run-in
+  - 4325 | causal/psychological reasoning | causal "since," conditional "would be," abstract terms | explaining Thorax's internalized mindset | apart
+  - 4327 | present-tense outline narration | present tense, plain declarative | Thorax's realization and plan | apart
+  - 4327 | present-tense outline narration | present tense continuation | decision not to inform Trimmel | run-in
+  - 4327 | causal/psychological reasoning | causal "since he knows," parenthetical "(1st gen)" | reasoning for withholding it from Trimmel | run-in
+  - 4327 | present-tense outline narration | present tense, plain declarative | who Thorax targets | apart
+  - 4328 | present-tense outline narration | present tense, plain declarative, scare-quoted "uplifting" | Chrysalis's offer of industrial uplift | apart
+  - 4328 | present-tense outline narration | present tense, parallel phrasing, exclamation mark | Thorax's counter-offer of friendship | apart
+  - 4328 | colloquial aside | contraction, casual intensifier "really" | endorsing the plan's simplicity | apart
+  - 4328 | evaluative aside | evaluative noun framing "the tragedy is" | judgment on the outcome | run-in
+  - 4328 | past-tense event narration | past tense, plain declarative | Celestia snubbing Thorax | run-in
+  - 4340 | present-tense outline narration | present tense, conditional "if," plain declarative | Thorax's proposed plan | apart
+  - 4340 | causal/psychological reasoning | hedge "Maybe," causal "since," speculative mood | speculation on his appeal to Chrysalis | apart
+  - 4340 | causal/psychological reasoning | causal "since," explains motive | reasoning behind Chrysalis's refusal | run-in
+  - 4340 | present-tense outline narration | present tense, plain declarative | outcome of the refusal | run-in
+  - 4340 | present-tense outline narration | present tense, plain declarative | Thorax's perception of a lie | run-in
+  - 4340 | evaluative aside | judgment noun "hyprocrisy" | judgment on Chrysalis | run-in
+  - 4340 | evaluative aside | present tense, comparative judgment | the double standard on lying | apart
+  - 4340 | colloquial aside | contraction, casual phrase "pretty obvious" | plainness of her conquest aim | apart
+  - 4340 | causal/psychological reasoning | causal "because," quoted internal slogans, parenthetical aside | her true hidden motive | apart
+  - 5848 | present-tense outline narration | present tense, plain declarative | his research assignment | apart
+  - 5848 | present-tense outline narration | present tense, plain declarative | his change of heart | apart
+  - 5848 | present-tense outline narration | present tense, plain declarative | reading the source paper | apart
+  - 5848 | present-tense outline narration | present tense, plain declarative | his realization about the spell's meaning | apart
+- shifts:
+  - 4324 | past-tense event narration | emphatic corrective assertion | shift to present tense and capitalized "NOT"
+  - 4324 | emphatic corrective assertion | present-tense outline narration | return to plain declarative without negation
+  - 4324 | present-tense outline narration | past-tense event narration | past-tense verb "were"
+  - 4324 | past-tense event narration | present-tense outline narration | present-tense verb "gets"
+  - 4325 | past-tense event narration | present-tense mechanics exposition | relative pronoun "which" introducing present-tense technical definition
+  - 4325 | present-tense mechanics exposition | past-tense event narration | new sentence resuming past-tense action
+  - 4325 | past-tense event narration | evaluative aside | embedded appositive judging the gang's cause
+  - 4325 | evaluative aside | past-tense event narration | resumption of the plain past-tense clause
+  - 4325 | past-tense event narration | causal/psychological reasoning | paragraph break, causal "Since," abstract vocabulary
+  - 4327 | present-tense outline narration | causal/psychological reasoning | causal "since he knows" explanatory clause
+  - 4327 | causal/psychological reasoning | present-tense outline narration | new sentence resuming plain present-tense statement
+  - 4328 | present-tense outline narration | colloquial aside | exclamation mark then casual contraction "It's really"
+  - 4328 | colloquial aside | evaluative aside | evaluative noun phrase "The tragedy is"
+  - 4328 | evaluative aside | past-tense event narration | shift to past-tense narrated fact within the same sentence
+  - 4340 | present-tense outline narration | causal/psychological reasoning | paragraph-initial hedge "Maybe"
+  - 4340 | causal/psychological reasoning | present-tense outline narration | main clause stating the refusal after the causal clause
+  - 4340 | present-tense outline narration | evaluative aside | relative clause "which is a hyprocrisy"
+  - 4340 | evaluative aside | colloquial aside | contraction "isn't," casual phrase "pretty obvious"
+  - 4340 | colloquial aside | causal/psychological reasoning | causal "because," quoted internal-motive phrasing
+- registers: past-tense event narration; present-tense outline narration; emphatic corrective assertion; present-tense mechanics exposition; evaluative aside; causal/psychological reasoning; colloquial aside
+- whole: This item holds several distinct registers of plain past- and present-tense narration, technical exposition, corrective assertion, evaluative asides, causal reasoning, and colloquial remarks, which sometimes stand apart as separate sentences and sometimes run into one another inside a single sentence with no break.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the NotebookLM and Android Auto topic and asks a new, unrelated historical question about whether British adults in WW2 were legally required to contribute to the home front or were only economically encouraged.

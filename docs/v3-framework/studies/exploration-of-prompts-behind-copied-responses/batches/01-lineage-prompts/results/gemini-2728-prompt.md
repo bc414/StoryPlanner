@@ -1,0 +1,6 @@
+- asks:
+  - verify | check whether the real-life parallels accurately match a set of assertions | "Are the real life parallels accurate to these assertions or not?"
+- supplies:
+- shaping:
+- openness: Asks the model to check what it states, framed as a binary accurate-or-not judgment on whether named real-life parallels fit named assertions.
+- subject: Whether certain real-world parallels accurately match a set of stated assertions

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a restaurant quality/price spectrum from McDonald's through fast casual, diner and fancy full service, and asks whether "mother process" restaurants would sit on a different axis.

@@ -1,0 +1,10 @@
+- steps:
+  - author | request | link to a YouTube video plus a question asking how its ideas apply to the author's story plans, themes, and materialist worldbuilding, and how to use it to enhance the worldbuilding | opening prompt of the thread
+  - model | (no response captured) | nothing recorded | reply to the opening prompt
+  - author | repeat-with-constraint | resubmits the identical video link and question, adding an instruction not to just mirror the video but to give an analysis | second prompt
+  - model | (no response captured) | nothing recorded | reply to the second prompt
+  - author | repeat-with-rephrased-constraint | resubmits the identical video link and question again, rewording the instruction from 'give an analysis' to 'generate text for an analysis' | third prompt
+  - model | (no response captured) | nothing recorded | reply to the third prompt
+- kept:
+- brought: The author brought an external YouTube video and asked to test its ideas against their existing story plans, themes, and materialist worldbuilding.
+- loop: The author repeated the same request three times, each time tightening the instruction to push past a mere video summary toward a real analysis, but with no model responses captured for any attempt, nothing from this stretch entered the plan database.

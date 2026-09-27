@@ -1,0 +1,29 @@
+- passages:
+  - note 4478 | meta-framing address | first-person lead-in "my next level of detail" | announcing added backstory detail | apart
+  - note 4478 | past-tense lore narrative | past tense, third person, in-universe causal chain | Twilight's pre-series isolation and the apple-harvesting spell | apart
+  - note 4478 | fandom-reception aside | names real "MLP community", "tongue in cheek" | fan debate over unicorn superiority | run-in
+  - note 4478 | past-tense lore narrative | past tense in-universe causal explanation | Winter Wrap Up incident and scrapping the device plan | apart
+  - note 4478 | past-tense lore narrative | continues causal explanation, names episode/contraption | parallel with the Cider Squeezy 6000 | apart
+  - note 4478 | emphatic casual aside | short blunt sentence, "wouldn't have even been close" | how one-sided the hypothetical contest would be | run-in
+  - note 4478 | past-tense lore narrative | resumes "because" reasoning | why Twilight held back to honor Applejack | run-in
+  - note 4478 | present-tense current-story exposition | tense shift, "Now... is" | Twilight's present drive at Star Energy | apart
+  - note 4499 | authorial motivation statement | states "motivation to write this story" | reason for depicting Twilight fighting, not captured | apart
+  - note 4499 | meta-critical character-arc analysis | mixes in-fiction terms with real-world production names, parenthetical aside | Twilight's arc from imposed expectations toward original form | apart
+  - note 5425 | evaluative fragment | short clipped phrase, no full clause | reaction to the hallucinated nightmare scene | apart
+  - note 5425 | self-questioning inquiry | question form, "But should she... or does she" | whether Twilight still believes the nightmare | run-in
+  - note 5425 | first-person analytical reasoning | "I think" lead-in, declarative resolution | Twilight breaking with Celestia's fear but not method | apart
+  - note 5716 | past-tense lore narrative | past tense recounting of entrance-exam event | how Twilight earned her cutie mark | apart
+  - note 5716 | definitional/interpretive statement | present tense "is", quoted phrase naming the talent | statement of Twilight's special talent | apart
+- shifts:
+  - note 4478 | meta-framing address | past-tense lore narrative | first-person lead-in gives way to third-person past-tense backstory
+  - note 4478 | past-tense lore narrative | fandom-reception aside | in-universe account gives way to naming a real fan community, "tongue in cheek"
+  - note 4478 | fandom-reception aside | past-tense lore narrative | returns to in-universe episode reference, "Winter Wrap Up"
+  - note 4478 | past-tense lore narrative | emphatic casual aside | short blunt sentence breaks the explanatory flow
+  - note 4478 | emphatic casual aside | past-tense lore narrative | resumes causal "because" explanation
+  - note 4478 | past-tense lore narrative | present-tense current-story exposition | tense shifts from past to present, "Now Twilight is"
+  - note 4499 | authorial motivation statement | meta-critical character-arc analysis | shifts from stating purpose to tracing a causal arc, new paragraph
+  - note 5425 | evaluative fragment | self-questioning inquiry | shifts from a clipped statement to a posed question
+  - note 5425 | self-questioning inquiry | first-person analytical reasoning | "I think" opens a new paragraph resolving the question
+  - note 5716 | past-tense lore narrative | definitional/interpretive statement | "So" plus present-tense "is" turns narrative into a naming statement, new line
+- registers: meta-framing address; past-tense lore narrative; fandom-reception aside; emphatic casual aside; present-tense current-story exposition; authorial motivation statement; meta-critical character-arc analysis; evaluative fragment; self-questioning inquiry; first-person analytical reasoning; definitional/interpretive statement
+- whole: Across its four notes this item moves through many distinct registers — lore narration, fandom and production asides, motivational statements, self-questioning, and closing definitions — shifting at paragraph breaks in some places and inside a single sentence in others, so the notes together are written in several registers rather than one.

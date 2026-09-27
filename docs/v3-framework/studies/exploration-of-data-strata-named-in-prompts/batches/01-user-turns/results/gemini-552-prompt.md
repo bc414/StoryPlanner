@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two follow-up factual questions about history, whether Japan invaded Manchuria specifically for the ephedra plants and when Japan's drug was invented, without pointing at any body of material to draw on.

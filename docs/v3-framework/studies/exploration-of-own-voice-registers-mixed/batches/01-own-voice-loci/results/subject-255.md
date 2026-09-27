@@ -1,0 +1,19 @@
+- passages:
+  - note 4391 | plain factual statement | short unembellished declarative sentence | Aquileia's weather tied to ocean wind dynamics | apart
+  - note 4391 | exclamatory factual statement | same declarative shape but closed with an exclamation mark | Herzland's near-total lack of weather variation | apart
+  - note 4623 | expository lore explanation | third-person causal narrative claim | pegasi's militancy and Celestia inventing seasons to channel it | apart
+  - note 4623 | schematic list mapping | line-by-line 'season = action' equations with military terms | each season mapped to a military-style operation | apart
+  - note 4623 | expository lore explanation | full causal sentence, returns to prose after the list | weather's role in producing unique crops | apart
+  - note 5139 | first-person interpretive framing | opens with 'My interpretation of...is' | claim that the world has no axial tilt | apart
+  - note 5139 | expository lore explanation | impersonal general declarative sentence | latitude fixing each biome permanently | apart
+  - note 5142 | expository lore explanation | two linked causal declarative sentences | Winter Wrap Up and the post-storm nitrogen event tied to agriculture | apart
+  - note 5429 | rhetorical second-person aside | direct 'you' address ending in a rhetorical question mark | mocking the Aquileians for pausing abundant food production to play in snow | apart
+  - note 5429 | expository lore explanation | opens with contrastive 'But the reality is', impersonal causal claims | true purpose of weather management for harvests and the strength of the air force | apart
+- shifts:
+  - note 4391 | plain factual statement | exclamatory factual statement | second line keeps the declarative shape but adds an exclamation mark, shifting tone to emphatic
+  - note 4623 | expository lore explanation | schematic list mapping | drops full sentences for line-by-line 'X = Y' equations naming military actions
+  - note 4623 | schematic list mapping | expository lore explanation | returns to a full causal sentence after the equation-style list
+  - note 5139 | first-person interpretive framing | expository lore explanation | drops the 'My interpretation is' framing for an impersonal general claim
+  - note 5429 | rhetorical second-person aside | expository lore explanation | 'But the reality is' turns a rhetorical question with direct address into an impersonal causal explanation
+- registers: plain factual statement; exclamatory factual statement; expository lore explanation; schematic list mapping; first-person interpretive framing; rhetorical second-person aside
+- whole: Across this subject's notes the author moves among several distinct registers — terse factual statements (plain and exclamatory), first-person interpretive framing, a schematic military-style list, a rhetorical second-person aside, and a recurring impersonal expository-lore register that several notes settle into or return to — and every shift falls at a clear sentence or line boundary rather than blending inside one sentence.

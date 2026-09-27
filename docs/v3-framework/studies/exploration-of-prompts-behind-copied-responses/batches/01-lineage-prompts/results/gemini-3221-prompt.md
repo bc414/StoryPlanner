@@ -1,0 +1,9 @@
+- asks:
+  - confirm | asks whether the traced sequence of media (RTS games, Pokemon, Civ5/EU4, Pokemon fanfiction, medieval worldbuilding, then Princess and the Kaiser/Equestria at War) shows that the method used in TLTT was present from the very beginning | "So the method I've wanted came straight from the very beginning?"
+  - confirm | asks whether this method is grounded in critical thinking instilled by the specific games released during the user's childhood, framed as an old sensibility surviving in new games | "Grounded in critical thinking from the ghost of the old way in new games that came out just as I was growing up?"
+  - interpret/validate analogy | asks whether the Scrin faction in Command & Conquer 3 functions as an early seed of the same corporate-mandate concept later embodied by Amon in StarCraft 2 | "Since c&c3's Scrin faction is like the seed of the corporate mandate as Amon in SC2"
+- supplies:
+  - autobiographical timeline | the user's personal chronology of games played and stories written from before 4th grade through post-college, culminating in the creation of TLTT | a paragraph
+- shaping:
+- openness: Leans toward an answer it already names: the message asserts its own causal chain (childhood games as origin of the method, Scrin as precursor to Amon) and poses it as confirmatory questions rather than leaving the interpretation open.
+- subject: Tracing the personal/creative origins of the user's materialist-historicism writing method back through childhood video games and early fiction-writing habits, including a proposed Scrin/Amon thematic parallel

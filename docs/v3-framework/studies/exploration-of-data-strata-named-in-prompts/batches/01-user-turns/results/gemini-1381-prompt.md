@@ -1,0 +1,4 @@
+- sources:
+  - My initial plan (the title "Oblivion" for the second half of the chapter) | the author's own earlier choice of name, given as the original intent for the model to take into account alongside or instead of its suggestions; stated as a past plan, not as a final decision | "My initial plan was "Oblivion"" | first-named
+- order:
+- about: The user answers the model's chapter-title suggestions by saying that their own earlier plan was to call the chapter "Oblivion", and explains that it referred to the drug abuse and to the completion of the Luna Nova Rifle.

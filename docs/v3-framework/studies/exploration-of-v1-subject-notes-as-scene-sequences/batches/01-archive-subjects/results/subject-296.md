@@ -1,0 +1,10 @@
+- passages:
+  - 5197 | statement about the subject | Star Energy Tech collaborated with the Crystal Empire and the University of Pridea | none | plain declarative fact about who it worked with, no moment or date
+  - 5198 | other: real-world reference material | Explains the three steps of real-world oil refining (distillation, cracking, reforming) as background for the invention | none | numbered list of three steps, framed as traditional and real world
+  - 5198 | statement about the subject | Star Energy invented a crystal-powered spell matrix using unicorn magic that performs the reforming step, used in their hybrid engines for more complete combustion and efficiency | none | declarative description of what the invention is and does
+  - 5198 | other: open design question | Asks whether the spell matrix should be used in the refinery as well as the engine, or only in the engine, and what would make more sense | none | phrased as questions to the author
+  - 5198 | other: speculative rationale | Tentative ideas on why the crystal goes in the engine: to simplify the refinery, or because the Aquileians did not own the refinery, got poor oil and faced hostile power monopolies | none | hedged with maybe, not stated as settled fact
+  - 5209 | statement about the subject | They invented engines running on diesel plus crystals, the crystals powering a spell matrix that branches carbon chains for more complete combustion | none | plain declarative statements in short lines
+  - 5209 | other: open design question | Suggests a second spell matrix doing what a turbo does, using heat and high pressure | none | phrased as a question with should, unresolved
+- sequences:
+- whole: The subject's notes are a small set of worldbuilding statements about Star Energy Tech's partners and its crystal spell-matrix engine technology, mixed with real-world refining background and unresolved design questions, with no scene beats or dated events.

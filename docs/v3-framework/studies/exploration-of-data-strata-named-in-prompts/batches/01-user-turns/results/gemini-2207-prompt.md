@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual question about the mountain where stranded Yazidi refugees prompted US intervention against ISIS, and asks whether it corresponds to Mount Aris in their story.

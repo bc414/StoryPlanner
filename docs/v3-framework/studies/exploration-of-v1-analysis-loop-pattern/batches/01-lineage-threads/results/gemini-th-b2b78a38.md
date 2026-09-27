@@ -1,0 +1,17 @@
+- steps:
+  - the author | asks a linguistic/historical question and requests a review | whether Tzinacatl would use Aztec jaguar/eagle terms, historical accuracy of a hitter/scout split, plus a general review request | opening turn
+  - the model | gives a corrected analysis | separates historical fact (jaguar/eagle as equal shock troops) from game trope, then remaps the theological duality onto the magic system and a diplomacy scene | first reply
+  - the author | proposes a three-way synthesis | sorts the drug, isolationist, and medicinal tribes onto the jaguar/eagle spectrum and ties each to a geopolitical faction | second turn
+  - the model | validates and expands the synthesis | fills in biology, economy, and theology for each of the three tribes and links them to the protagonist's diplomatic arc | second reply
+  - the author | adds a biological deduction | argues jaguar=night=initiator and eagle=day=receiver for a nocturnal species | third turn
+  - the model | elaborates the deduction | works out circadian endocrinology, a pathology for the drug tribe's sleeplessness, and a day/night shift alliance structure | third reply
+  - the author | asks a follow-up economic question | whether night theology justifies the drug tribe selling in urban markets at night because daytime sales are taboo among another species | fourth turn
+  - the model | confirms and elaborates | ties circadian advantage to black-market economics and to the other species' daytime respectability norms | fourth reply
+  - the author | proposes a naming synthesis and requests integration | gives each tribe a self-identifying night title tied to a moon-goddess theological split, and asks for synthesis with existing plans | fifth turn
+  - the model | produces a full synthesis | maps the three titles onto tribe theology/materialism and connects one tribe's title to a rivalry between two named characters | fifth reply
+  - the author | adds specific plot beats | supplies chapter-level events for each tribe (a spell put into a shareable matrix, a stagnant tribe needing persuasion, a rival power stealing the drug tribe's product) and asks for synthesis | sixth turn
+  - the model | synthesizes the plot beats into a climax structure | integrates the three tribes' arcs into a single wartime alliance framework for the chapter | sixth reply
+- kept:
+  - note 4558 | pasted from this reply inside the author's own framing | keeps the model's paragraph on the drug tribe's night-market theology and self-identity, embedded inside the author's own added economic analogy, filed under the Tzinacatl subject entry
+- brought: none
+- loop: The author repeatedly floats a worldbuilding synthesis or deduction about the Tzinacatl tribes' jaguar/eagle and day/night identities and asks the model to validate or extend it into lore and plot, and the model returns increasingly elaborate structural analyses each time; of this whole back-and-forth, the planning database kept only the drug tribe's night-market theology passage, pasted into the Tzinacatl entry inside the author's own separate economic framing.

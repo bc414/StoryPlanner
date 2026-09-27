@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the process comparison to a new question, asking how the scale of Oda's world compares to Martin's, without challenging anything in the model's turn.

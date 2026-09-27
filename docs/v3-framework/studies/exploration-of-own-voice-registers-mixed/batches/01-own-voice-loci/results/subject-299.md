@@ -1,0 +1,16 @@
+- passages:
+  - note 31 | topical infinitive listing | infinitive phrase, no personal subject, comma-listed items | handling post-combat adrenaline crash and restoring morale | apart
+  - note 5355 | plain declarative worldbuilding statement | lowercase start, present tense, matter-of-fact list of purposes | chasseurs cuddling and having sex to recover and bond | apart
+  - note 5377 | cause-effect explanatory | "because"/"leads to" causal chain, sociological terms | why imperial legions were all-male and the toxicity that followed once monsters were gone | apart
+  - note 5377 | cause-effect explanatory | short declarative sentences, "to" purpose clauses | chasseur binary units removing the audience for aggression | apart
+  - note 5377 | cause-effect explanatory | "without" clause leading straight into a defined term | men not being economically compatible without moral indoctrination | run-in
+  - note 5377 | parenthetical definitional aside | parentheses, scare-quoted term, conditional "if you misbehave" clause | defining indoctrination as rigid morals enforced by threat of jail | run-in
+  - note 5377 | cause-effect explanatory | declarative "makes X compatible" clause with minor aside | mixing griffons, ponies and females making units economically efficient | apart
+  - note 5377 | balanced generalization/aphorism | contrastive "while...but" parallel clauses, universal claim | all creatures needing both aggression and care | apart
+  - note 5392 | plain declarative worldbuilding statement | present tense, factual, list of purposes | changeling silk blankets in tanks absorbing crew friendship | apart
+- shifts:
+  - note 5377 | cause-effect explanatory | parenthetical definitional aside | opening parenthesis and scare-quoted term defining indoctrination
+  - note 5377 | parenthetical definitional aside | cause-effect explanatory | closing parenthesis, return to declarative causal clause about mixing units
+  - note 5377 | cause-effect explanatory | balanced generalization/aphorism | move from a specific unit argument to a universal claim with contrastive "while...but" structure
+- registers: topical infinitive listing; plain declarative worldbuilding statement; cause-effect explanatory; parenthetical definitional aside; balanced generalization/aphorism
+- whole: The item holds several distinct registers standing mostly apart note by note — a topical listing in note 31 and plain declarative fact-statements in notes 5355 and 5392 — while note 5377 alone moves internally between cause-effect explanatory argument, a parenthetical definitional aside embedded mid-sentence, and a closing balanced aphorism.

@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | The scene carries the theme's strength-first logic: Applejack's demonstrated strength is what causes the beaten Herzland leadership to be honest | "Because Applejack showed strength, the defeated Herzland leadership is being honest" | yes | terse expository prose, a single causal statement
+  - bearing on the theme | The second step of the theme's order, strength then mercy: having been shown strength and given honesty, Applejack is now in a position to be merciful to her opponents | "Now Applejack can be merciful" | no | terse expository prose, a short follow-on sentence
+- whole: A two-sentence statement that the scene enacts the theme's sequence, in which Applejack's strength produces the Herzlanders' honesty and so opens the way to her mercy.

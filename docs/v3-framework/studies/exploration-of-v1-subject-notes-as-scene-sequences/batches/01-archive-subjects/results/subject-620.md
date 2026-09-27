@@ -1,0 +1,7 @@
+- passages:
+  - 63 | statement about the subject | scope definition: the subject is how ponies in general perceive changelings across the story | none | describes the subject's topic, no event
+  - 4516 | authorial intention | wish that changelings be seen as definitively evil before the POW twist, with the predatory ones' evil made legitimate so Fluttershy's part reads as tragedy rather than a preachy point | none | first-person 'I want' / 'I need' design goal
+  - 5512 | statement about the subject | describes how the changeling army will be portrayed: smiling, euphoric, chemically convinced soldiers who slaughter, not a mindless swarm, as a critique of atrocity insulated from victims' humanity; also says what Applejack, Twilight and volunteers will face | none | future-tense 'will not be fighting... will be fighting' and thematic interpretation
+  - 5513 | statement about the subject | thematic reading: the jaeger-geist-dosed conscripts are the dark manifestation of Pinkie's old worldview, forced euphoria disconnected from material suffering | none | interpretive claim, 'are the dark manifestation'
+- sequences:
+- whole: The subject's notes are a short set of design statements and authorial intentions about how changelings are perceived and portrayed, with no scene beats, dates or sequences.

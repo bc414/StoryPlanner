@@ -1,0 +1,4 @@
+- sources:
+  - the Montgomery model | accepted and adopted as the basis for planning the Bluebell Spearhead; the user builds further story consequences on it | I like the Montgomery model for the Bluebell Spearhead | referred-to
+- order:
+- about: The user accepts the Montgomery-style set-piece doctrine for the Bluebell Spearhead and extends it with their own story ideas about the moral cost of overwhelming force at Quebuck and the guilt of a long preparation while Canterlot suffers.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short, slightly garbled follow-up question about the circumstances of the novel's writing, which adds a new question and does not dispute anything in the summary.

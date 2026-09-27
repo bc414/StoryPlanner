@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out in detail how Skyfall's B2B and B2C companies relate and how the Aquileian equipment-sale strategy would bankrupt targeted firms, then asks for a new analysis of that plan's realism and effectiveness, without saying the previous answer on the restaurant names was wrong.

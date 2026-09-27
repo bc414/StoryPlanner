@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a framing layer to the plan, saying Griffonian history allegorizes human history and the Stagnation of Harmony stands for the present, so the story's resolution is what we should strive for now, without saying anything in the model's analysis was wrong.

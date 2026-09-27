@@ -1,0 +1,21 @@
+- steps:
+  - author | supplies raw notes plus a taxonomy | a batch of existing thematic notes on the stagnation/ambition dialectic together with a five-paradigm bucket scheme | opening message of the excerpt
+  - model | sorts and consolidates | each named bucket filled with a summary paragraph and supporting verbatim excerpts, plus separated authorial-directive and garbage lists | reply to the first sort request
+  - author | attaches a new source document | an uncaptured document supplying further worldbuilding text | before the next taxonomy submission
+  - author | specifies a new taxonomy | a six-paradigm bucket scheme for Grover/Griffonian-history material | request accompanying the attached document
+  - model | sorts the attached document | bucket-by-bucket consolidations and quotes on myth-making, magic mechanics, and linguistic castes | reply to the Grover-history sort request
+  - author | attaches a further source document | another uncaptured document apparently expanding the same material | before resubmitting the taxonomy
+  - author | resubmits the same taxonomy unchanged | identical bucket names from the prior request | second Grover-history sort request
+  - model | re-sorts with expanded coverage | a markedly larger set of consolidations and quotes per bucket, drawing on content absent from the first pass | reply to the resubmitted Grover-history request
+  - author | attaches a source document on a new topic | an uncaptured document on Aquileian economic history | before the next taxonomy submission
+  - author | specifies a new taxonomy | a five-paradigm bucket scheme for Aquileia's revolutions and economic mechanics | request accompanying the Aquileia document
+  - model | sorts the attached document | bucket consolidations and quotes on monopsony, banking, revolution chronology, and class demographics | reply to the first Aquileia sort request
+  - author | attaches an updated source document | a further uncaptured document expanding the Aquileia material | before resubmitting the taxonomy
+  - author | resubmits the same taxonomy unchanged | identical bucket names from the prior Aquileia request | second Aquileia sort request
+  - model | re-sorts with expanded coverage | additional buckets and quotes not present in the first pass, such as military doctrine and thug-industrialist dynamics | reply to the resubmitted Aquileia request
+  - author | attaches a still-further updated source document | another uncaptured document | before a third resubmission
+  - author | resubmits the same taxonomy again unchanged | identical bucket names a third time | third Aquileia sort request
+  - model | re-sorts with the fullest coverage yet | the most extensive set of buckets and quotes, moving previously loose material into named categories | final reply of the excerpt
+- kept:
+- brought: The author brought forward a batch of pre-existing planning notes on the story's stagnation/ambition dialectic and, across the rest of the excerpt, a series of attached source documents on Griffonian history and Aquileian economics, each paired with a hand-built target taxonomy for the model to sort the material into.
+- loop: The recurring loop is: the author supplies raw source material (existing notes or an attached document) alongside a fixed target bucket taxonomy, and the model returns that material reorganized into consolidated summaries and verbatim excerpts under each bucket; the author then attaches an expanded version of the source material and resubmits the identical taxonomy unchanged, prompting the model to redo the sort more thoroughly, with none of these sorted outputs being captured back into the traced planning database for this stretch.

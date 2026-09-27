@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author endorses the arrogance factor and Trimmel easing Kemerskai toward the ponies, then asks what obstacles Trimmel would realistically face given the bait, the radio voice and how others see him, and which of Applejack's friends would get along with him.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether the character Henri Gourard connects to a real French general, Henri Girard, without challenging anything in the model's analysis.

@@ -1,0 +1,21 @@
+- relations:
+  - 486|487|one continues the other in time: first the charging, then casting from the stored charge|Once the crystal enhancer is charged, the unicorn can cast|implicit
+  - 485|486|one presupposes the other: the on/off spell to charge only works given a rechargeable, battery-like piece with a magic intake|like a rechargeable battery / turn on the crystal enhancer's magic intake|implicit
+  - 485|1905|one narrows or tightens the other: the general allowance for high grade crystals becomes a strict requirement, with an explosion as the penalty|High grade power crystals can be attached / requires only the highest grade crystals|implicit
+  - 485|488|one presupposes the other: the paste is applied before the piece is put on the horn, so it depends on the enhancer being worn on the horn|before putting the crystal enhancer on|implicit
+  - 487|488|one gives the reason for the other: the horn drawing magic from the enhancer is the flow that the paste heals damage from|excessive flow of magic|implicit
+  - 488|1905|two notes give the danger of the magic flow, one as horn stress that is healed, the other as an explosion from an unstable flow|excessive flow of magic / stable magic flow|implicit
+  - 1905|489|one continues the other in time: red love, named as a stable source in one, is later said to become a valid source through a canister and related devices|stable red love / red love canister ... valid source of magic|implicit
+  - 490|491|one is the consequence or occasion of the other: the premise that any pony can cast any spell with enough power is put to use as unicorns casting others' special spells|any pony can cast any spell / cast other unicorns' special spells|implicit
+  - 487|491|one presupposes the other: casting any spell they know makes teaching others' spells worthwhile once the enhancer supplies the power|cast any spell they know / teach others their special spells|implicit
+  - 491|493|one overturns or revises the other in time: after the enhancer makes spell-sharing possible, the story shows that no enhancer is needed if one practices and believes|But eventually Twilight proves any unicorn can cast any spell|implicit
+  - 490|493|one revises the other: the invention's premise that power is what lets any pony cast any spell is replaced by practice and belief|any pony can cast any spell if they have enough power / if they practice and believe in themselves|implicit
+- outward:
+  - 485|griffon artisans and their machines, held elsewhere|manufactured by griffon artisans whose machines have cutting edges|
+  - 488|Tzinacatl horn-healing paste, a separate piece of lore|Tzinacatl horn-healing paste
+  - 1905|red love as a substance or power source defined elsewhere|stable red love
+  - 489|the red love canister, draining spell and vacuum valve, other technologies or spells|red love canister and draining spell and vacuum valve
+  - 490|the University of Pridea, an institution held elsewhere|The University of Pridea invented
+  - 491|cutie marks and special talents, and the comparative advantage idea, world lore held elsewhere|cutie mark discount for their own special talent
+  - 493|Twilight, a character in the wider story|Twilight proves any unicorn can cast any spell
+- whole: The notes hang together as one set: the function notes chain from build to charging to casting to the risks, and the invention and reader-opinion notes and the usage note branch from that chain.

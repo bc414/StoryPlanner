@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to draft system instructions for a Gem used in the first exploratory brainstorming stage of their pipeline, and to explain why those kinds of instructions would help, without pointing at any body of material to draw on or avoid.

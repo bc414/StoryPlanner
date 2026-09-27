@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new alternative scenario for the story (a coastal company-town factory with mixed worker factions, Ahuizotl as the shipping-company dealmaker, and the three characters reading Daring Do in Nahuatl) and asks how it compares and whether the epiphany beat fits alongside it, without disputing anything the model said.

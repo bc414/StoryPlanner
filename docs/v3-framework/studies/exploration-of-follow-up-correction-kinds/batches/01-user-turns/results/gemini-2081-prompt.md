@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Gem proposal aside, reports that the Sorter step of their existing note organizer gives incomplete results through the Gemini API, and asks for inventive ways to use the organizer to organize, consolidate and analyze their story plan.

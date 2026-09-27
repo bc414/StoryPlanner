@@ -1,0 +1,7 @@
+- asks:
+  - analyse | asks whether the character undergoes any development or change during the events of the story itself, as opposed to only in her backstory | "What about during the story?"
+  - check | asks the model to confirm or rule out the alternative possibility that the character doesn't change much during the story | "Or is there not much change for her during the story?"
+- supplies:
+- shaping:
+- openness: asks for a choice between two named alternatives - that the character develops during the story, or that there isn't much change for her during the story
+- subject: whether a character's development occurs during the story itself, versus only in her backstory

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new plot detail (the character will later teach Twilight and Starlight combat spells fired from a plane) and asks which of the offered cutie marks best suits combat-mage experience beyond rifles, without saying the earlier concepts were wrong.

@@ -1,0 +1,5 @@
+- passages:
+  - note 10 | label register | short noun-phrase fragment, no verb | Hans Kessel's role and downfall | apart
+- shifts:
+- registers: label register
+- whole: The one note here is written entirely in a single register, a terse descriptive tag with no internal shift.

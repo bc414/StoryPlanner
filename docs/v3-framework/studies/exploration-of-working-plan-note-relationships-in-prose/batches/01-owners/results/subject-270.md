@@ -1,0 +1,14 @@
+- relations:
+  - 2663|2664|continues in time: he left for New Mareland after bullying, then came back humbled and delivered the foal to the stallions he once bullied|Came back to Equestria after being humbled; the stallions he once bullied|implicit
+  - 2664|2666|continues in time and gives the ground for the vow: being rewelcomed by the village leads to his vow to defend Equestria and enlisting|After his village had rewelcomed him, he vowed to defend Equestria|explicit
+  - 2666|2669|instance or occasion: the boot camp he signed up for is where he taught Applejack the machine gun|signed up for army boot camp; during boot camp|implicit
+  - 2663|2666|cause and background: his earlier bullying and propaganda past is the start of the arc that ends in his vow to protect harmony|bullied two gay colts; protect harmony|implicit
+- outward:
+  - 2663|Gilded Lily's manosphere propaganda, a figure and material held elsewhere|Gilded Lily's manosphere propaganda
+  - 2663|New Mareland, a place held elsewhere|Left for New Mareland
+  - 2664|Flowing Current, another character, and the cloud carrier episode|on the cloud carrier with Flowing Current
+  - 2664|the foal he delivered and the village and stallions elsewhere|delivered the foal to the stallions he once bullied
+  - 2666|Blueblood and his Dotted Line Report, held elsewhere|Blueblood's Dotted Line Report
+  - 2669|Applejack and the Mount Aris prequel, another story|Applejack how to fire a machine gun; the Mount Aris prequel
+  - 2662|Established canon depiction of the character as a general|He is a general with no bio in Equestria
+- whole: The backstory notes 2663, 2664 and 2666 form a connected chain from bullying to humbling to enlisting, with the boot camp note 2669 hanging off the enlistment, while the canon note 2662 stands apart.

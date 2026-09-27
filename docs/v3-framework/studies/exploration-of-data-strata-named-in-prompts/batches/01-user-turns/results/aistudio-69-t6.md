@@ -1,0 +1,5 @@
+- sources:
+  - the canon tantabus | canon show element the author wants tied into the plan; treated as material to reconcile with the plan, offered as a tentative idea | Can the canon tantabus be related to | referred-to
+  - Luna's dream altering spell | existing story-plan element the tantabus is to be linked to; the author floats a provisional explanation of how it works and what it was for | Perhaps it stole the ambition of a warlord | referred-to
+- order:
+- about: The user tentatively proposes that the canon Tantabus be reinterpreted as a self-propagating version of Luna's dream-altering spell that spreads from warlord to warlord to replace conquest dreams with friendship dreams.

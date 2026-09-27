@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects a detail of the proposed Giggle-at-the-Ghostly doctrine (spirit rather than literal singing, with the flaw being a category mismatch rather than inherent toxic positivity) and then asks for the pros and cons of showing the failed first battle in chapter 1 versus opening on Applejack fleeing and revealing the battle in layers.

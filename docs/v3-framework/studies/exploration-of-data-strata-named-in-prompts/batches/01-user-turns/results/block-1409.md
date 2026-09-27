@@ -1,0 +1,6 @@
+- sources:
+  - The code (the project files the model just read) | treat as outdated, so the model's picture of current state drawn from it is not to be relied on | The code was outdated | referred-to
+  - the complete new architecture (the .cs and .xaml files) | the current, up-to-date material the author wants to put into the project for the model to draw on in place of the old code | upload into the project the complete new architecture | first-named
+  - github | a possible way to link the new architecture into the project instead of uploading files by hand; the author is asking whether it can be done | Is there a way to link github into the project | first-named
+- order:
+- about: The user says the code the model read was outdated and asks how best to get the complete new architecture into the project, whether by linking GitHub or uploading the .cs and .xaml files, and whether a folder can be used.

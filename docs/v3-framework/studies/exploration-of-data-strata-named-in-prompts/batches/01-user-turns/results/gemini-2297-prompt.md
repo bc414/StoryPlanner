@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a plot beat and asks whether Rainbow Dash would be tempted to fly an unarmored Aquileian plane and be refused for her safety until chapter 5, when Starlight rides with her and provides a shield, without pointing the model at any body of material.

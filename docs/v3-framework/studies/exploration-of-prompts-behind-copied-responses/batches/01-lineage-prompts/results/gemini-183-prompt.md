@@ -1,0 +1,16 @@
+- asks:
+  - thematic design | develop/incorporate a story theme where the cutie-mark system's existing division of labor and stability is the reason to resist industrialization, and where 'harmonic capitalism' triumphs over both selfish capitalism/authoritarianism and well-meaning 'benevolent luddites,' tying this to the 'you have to be strong to be merciful' theme | 'There should still be a strong theme...', 'This should also tie into the theme of...'
+  - plot brainstorm | figure out what should happen in chapter 18 at the moment of the white peace, given the stated gap in Celestia's arc | 'what should happen in chapter 18 at the time of white peace?'
+  - choice between named options | decide whether Applejack should demand Celestia step aside (with Celestia refusing) or instead feel resigned and not question it | 'Should Applejack demand she step aside and Celestia refuse, or should Applejack feel resigned and not question it?'
+  - choice between named options | decide whether Applejack simply goes to Aquileia or instead asks Celestia's permission to go | 'So Applejack goes to Aquileia instead? Or asks for permission to go to Aquileia?'
+  - choice/judgment | decide whether Celestia should reveal the Luna doctrine at this point or whether doing so would make Applejack too resentful | 'Should Celestia reveal the Luna doctrine now or would it make Applejack too resentful?'
+- supplies:
+  - plan detail | Celestia's arc timeline: she reverts to her pre-war self once the changelings are gone, and only after Applejack wins in Aquileia and the Equestria referendum does she realize she isn't needed and chooses to step down while still raising the sun | a paragraph
+  - idea/theme brief | the intended thematic arc of harmonic capitalism beating both selfish capitalism/authoritarianism and benevolent luddism, paralleling real-world anti-technology labor arguments | a paragraph
+  - approval note | the user's stated liking of the link already established between Celestia's job and the idea of honest work | a short line
+- shaping:
+  - any proposed chapter-18 events must respect the given timeline (Celestia not yet realizing she's unneeded until after Aquileia and the referendum) | 'Given this gap, what should happen in chapter 18...'
+  - the free-energy-cost angle should not be the sole reason for technological stagnation; the cutie-mark division-of-labor theme must remain central | 'I don't want free energy costs to be the sole reason for stagnation.'
+  - resolution should reflect a non-cynical, harmony-based triumph over both exploitative capitalism/authoritarianism and job-security-focused luddism | 'Since MLP is all about harmony...'
+- openness: The message mixes an open-ended plotting question (what happens in chapter 18) with several explicit either/or choices it names outright (Applejack demanding vs. resigned acceptance; going to Aquileia outright vs. asking permission; revealing the Luna doctrine now vs. withholding it).
+- subject: Chapter 18 plot decisions for an MLP fanfic — Celestia's stepping-down arc, Applejack's reaction, and the harmonic-capitalism vs. benevolent-luddite theme

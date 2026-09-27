@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of the Paradrop as the Aquileian ego-capitalism climax, restates it as agency without peace, and asks for the Aquileians' allegorical role, what the one-pillar ending says about the modern allegory, and a full map of factions, events and their allegories.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - defect in the delivered artifact | the Phase 1 system instruction and schema the model supplied do not work as intended: the Phase 1 model gets stuck in a long repeating verification loop instead of finishing | "reasoning loop in phase 1 seems to be stuck in a brutal loop" with the looping thought trace pasted as evidence | reported as an observed fault with the evidence attached, no blame stated, followed by a request for improvements
+- about: The user reports that the Phase 1 setup the model just wrote makes the Phase 1 model loop endlessly in its reasoning, pastes the looping trace, and asks what can be improved.

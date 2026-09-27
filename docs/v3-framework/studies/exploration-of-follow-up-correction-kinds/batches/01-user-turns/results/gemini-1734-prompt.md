@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a forward-looking question about whether Rarity should later reveal her gems-for-glamour trade with the dogs, extending the model's Aquileian asset-specificity framework rather than correcting the prior analysis.

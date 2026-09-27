@@ -1,0 +1,5 @@
+- sources:
+  - Kaiser Grover I to IV's overlordship of the Aquileian Kingdom (705 to 972), plus the dates of Discret's break in 972, the Griffenheim bourgeois revolt in 978 and Vérany's revolt in 980 | treat as established facts of the author's setup and reason from them about incentives and consequences | Another nuance is that Herzland's Kaiser Grover I to IV was the overlord | first-named
+  - French and German history | a real-world baseline that the author's vassal dynamic deliberately departs from; use it as the contrast when explaining how the divergence helps | This vassal dynamic is a divergence from French and German history | referred-to
+- order:
+- about: The user adds a new piece of setup, that Aquileia was a vassal kingdom under the Herzland Kaiser until 972, gives a timeline of the revolts, and asks whether this gives King Discret a nationalist reason to empower the bourgeois and what a feudal vassal relationship would mean for the story.

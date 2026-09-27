@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting the actual endocrinology and chemistry of sex and how it ties to the Chasseurs, building on the model's analysis without disputing any of it.

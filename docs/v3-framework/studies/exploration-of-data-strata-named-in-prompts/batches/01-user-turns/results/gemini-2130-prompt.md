@@ -1,0 +1,5 @@
+- sources:
+  - Mongols, Huns or African warlords (historical parallels) | draw on as inspiration for how the warlord horde is built and behaves; offered as candidate examples, not fixed choices | are there any historical parallels to draw inspiration from? Mongols, Huns or African warlords? | first-named
+  - the author's own description of the Storm King army, Mount Aris and the collapse of the continent's hold (stated in this turn) | treat as the premise for the analysis; the model is to work from this setup | The Storm King army is basically all the existing feudal warlords of the Zebrican continent | first-named
+- order:
+- about: The user asks whether the Wonderbolts' willingness to kill can be explained by indoctrination about the Storm King's warlords as continent-wide abusers, lays out the warlord horde and the Mount Aris setup, and asks for analysis plus historical parallels such as Mongols, Huns or African warlords.

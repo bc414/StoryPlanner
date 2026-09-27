@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The role assignment in TLTT: the user restates that Pinkie Pie is not the spymaster and Fluttershy is, treating the model's role allocation as still wrong | Pinkie Pie isn't the spymaster in TLTT, Fluttershy is | flat, terse restatement with no reason or softening
+  - which material was drawn on | The model built its analysis, including Pinkie's role as Director of Asymmetric Warfare, Logistics and PsyOps, from extrapolation and not from the user's actual planning documents | Please reanalyze using my actual story plans | flat imperative, a redirect to the real plans with no apology or explanation
+- about: The user briefly pushes back, restating who the spymaster is and telling the model to redo the analysis from their actual story plans instead of its own extrapolation.

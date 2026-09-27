@@ -1,0 +1,11 @@
+- steps:
+  - author | reread-and-redo request | attached plan document plus instruction to redo prior analysis | opening prompt of the thread
+  - model | structured trait analysis | baseline/failure/subversion breakdown for each of the six mane characters | first response
+  - author | request for extension | ask for additional poignant parallels building on the existing plan | second prompt
+  - model | historical-analogue mapping | real-world sociological/historical parallels assigned to each character's arc | second response
+  - author | narrowed specification | request limited to canonical Faust-era traits, their mandate-era degradation, and an adult version, with explicit ban on invented traits and no fixed quota | third prompt
+  - model | canon-trait breakdown | trait/degradation/adult-demonstration structure sourced from canon episodes for each character | third response
+- kept:
+  - note 5150 | pasted whole | keeps the canon-trait/degradation paragraph on Twilight Sparkle from the third response, filed as a note under the "Twilight Sparkle" subject in the database
+- brought: The author brought the existing "TheLionessOfTallTale.db.md" plan document itself for the model to work from, and in the third prompt added explicit methodological constraints (canon-only traits, independent trait/degradation/adult-version categories, no required count per character) to narrow the kind of parallel the model should produce.
+- loop: The author repeatedly hands the model the same plan and an increasingly specific brief for generating layered thematic parallels across all six characters, the model answers each time with a full six-character structured breakdown, and the plan retains only a single condensed passage from the final, most constrained round, filed under one character's subject.

@@ -1,0 +1,5 @@
+- sources:
+  - the earlier conversation, where the other academic frameworks came up | mine it retroactively to recover which frameworks besides MICE and Freytag were discussed | Can you retroactively figure out what were the other academic frameworks | referred-to
+  - the author's own recollection that the phase model became a hybrid of Freytag and a pacing framework | provisional, a vague memory offered as a hint to help the search, not a settled fact | I believe my phase became a hybrid between Freytag and something else related to pacing | first-named
+- order:
+- about: The user asks the model to dig back through the earlier conversation to recover the names of the academic story frameworks besides MICE and Freytag, adding a tentative memory that their phase model blended Freytag with a pacing-related framework.

@@ -1,0 +1,5 @@
+- passages:
+  - bearing on the theme | The industrialists are the evil half of the accelerant claim: they take machines and use them to cheat, so the technology amplifies their cruelty | "The ruthless industrialists used machines to cheat." | yes | flat declarative summary sentence, plain expository prose
+  - fabula content | Comet Shine is a character whose disposition is to encourage transparency, stated as fact about him | "Comet Shine encourages transparency." | no | short declarative statement, expository prose
+  - bearing on the theme | The good-side counterpart: the same kind of machine, a fair scale belonging to Comet Shine, serves Tally Stock's talent by letting her work more efficiently, so the machine takes on the morals of its user | "His fair scale allowed Tally Stock to work more efficiently." | no | short declarative statement of cause and effect, expository prose
+- whole: A three-sentence summary of the scene's contrast between machines used by cheating industrialists and Comet Shine's fair scale that helps Tally Stock, showing the accelerant theme in a bad case and a good case.

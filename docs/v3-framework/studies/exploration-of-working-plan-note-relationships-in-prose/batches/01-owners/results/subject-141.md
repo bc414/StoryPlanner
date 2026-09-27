@@ -1,0 +1,9 @@
+- relations:
+  - 712 | 1214 | contrast or narrowing: the tier 1 high leaves emotion sense intact, while the other note says jaegers can ignore an enemy's fear when they kill, so the two describe different states of feeling toward the enemy | keeps emotion sense intact / can ignore their enemy's fear | implicit
+  - 870 | 712 | the general attitude and the felt state that bears it: jaegers feel superior and unconstrained, and the red love gives the apex-predator confidence whose loss leaves them feeling small | feel superior, unconstrained by their birth / no longer the apex predator | implicit
+- outward:
+  - 870 | the cutie mark system and Equestrian society and language, held elsewhere in the world | scoff at the wasted potential, stagnation, and decadance of the cutie mark system
+  - 1214 | the traditional jaeger training, a body of practice not described here | passed the traditional jaeger training
+  - 712 | the harvester that produces red love, and the other tiers of it that the label Tier 1 implies | natural red love, straight from the harvester
+  - 712 | manticore hunts and the ancient and pre-industrial jaegers, held elsewhere | jaeger high when on a manticore hunt
+- whole: The three filled notes sit loosely together, all being about how jaegers feel about themselves and their enemies, but they read mostly as separate entries with only implicit ties, and the fourth note is empty.

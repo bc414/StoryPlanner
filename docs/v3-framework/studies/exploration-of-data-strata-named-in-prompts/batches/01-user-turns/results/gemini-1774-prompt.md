@@ -1,0 +1,4 @@
+- sources:
+  - the canon episode A Canterlot Wedding | treat as the canon event that the author's own story reinterprets: the changeling banishment is to be understood as this consent spell amplified by Cadance and Shining Armor, with Chrysalis repelled furthest; the model is to build on this tie-in rather than contradict it | the spell that Cadance and Shining Armor used to banish the changelings from Canterlot in the canon episode | referred-to
+- order:
+- about: The user rejects the metaphorical naming options, asks for a self-describing but graceful French name for the anti-rape spell, and adds context tying the spell to the changeling banishment in the canon episode A Canterlot Wedding.

@@ -1,0 +1,4 @@
+- sources:
+  - the story plan's ultimate goal (a lasting democracy not based on the "trauma engine") | treat as an added criterion the final element must satisfy; re-judge the existing options and any new ones against it | Another thing to consider in deciding the final element | referred-to
+- order:
+- about: The user rejects Covenant and Accountability, leans toward Stewardship, Statecraft or Sovereignty, and asks the model to redo its reasoning and suggest new options in light of the story plan's goal of a democracy that lasts past the generation that lived through the war.

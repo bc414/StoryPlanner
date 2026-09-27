@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's previous output, saying they want a scalable vector graphic (SVG) rather than a raster image, without pointing at any body of source material.

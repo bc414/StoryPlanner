@@ -1,0 +1,4 @@
+- claims:
+  - restatement | Those who are motherly must first be strong; strength comes before the capacity for motherly care, which is the theme's own claim that strength is the prerequisite for mercy | They have to be strong to be able to | What must be true of someone before they can show mercy or care? | no
+  - reading | Motherliness is treated as a costly indulgence that only the strong can pay for, so motherly care is the form mercy takes, with the plural subject standing for figures like the princess | afford to be motherly | What does it mean, in cost terms, for a strong figure to act like a mother? | no
+- theme: It names the theme and restates the proposition in motherly wording, asserting it rather than arguing it or supplying evidence. It shows no reader belief being overturned and no revelation that would serve as evidence.

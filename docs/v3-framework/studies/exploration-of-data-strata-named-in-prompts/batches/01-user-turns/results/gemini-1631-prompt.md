@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn offers a brief alternative idea, suggesting Synovial be depicted in a tank rather than in the fortress as the model had proposed, without naming any external source of data.

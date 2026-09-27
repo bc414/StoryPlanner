@@ -1,0 +1,8 @@
+- relations:
+  - 1375|1376|parallel or continuing account of the same group's schooling: one gives what they learn from Minette at the parloirs, the other how they sneak textbooks to Twilight, a second route of knowledge passing on|"they learn adult empathy" / "They sneak science textbooks"|implicit
+- outward:
+  - 1373|Celestia's firing of the previous Captain of the Royal Guard, an event held elsewhere|"Celestia fired the old captain"
+  - 1375|the parloirs, Minette, the Lioness spell and Wittenland combat magic, lore and characters held elsewhere|"At the parloirs" / "from Minette"
+  - 1376|Pridea and her magic textbooks, and Twilight as the recipient, all held elsewhere|"Pridea's magic textbooks Twilight"
+  - 1985|canon source material P&K, where Flurry Heart and Shining Armor leave Cadance behind in the Crystal City|"In P&K, Flurry Heart and Shining Armor leave Cadance behind"
+- whole: Mostly separate entries: the two notes on learning and textbooks lean toward each other, while the guard-captain note and the canon-comparison note each stand alone.

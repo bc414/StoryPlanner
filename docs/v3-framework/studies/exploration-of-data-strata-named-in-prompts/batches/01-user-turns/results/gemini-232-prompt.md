@@ -1,0 +1,8 @@
+- sources:
+  - My earlier assertion that Henri hates Trimmel the way Rainbow Dash does | withdrawn; the model should stop treating it as the premise and analyse afresh | "I am retracting my assertion" | referred-to
+  - The author's account of Henri's past: hate-group recruitment, harm done to ponies, then real uplift by Gaudreau/Coltbert | treat as settled backstory and as the basis for Henri recognising Trimmel's path | "Henri was picked up by a hate group" | referred-to
+  - The author's account of Trimmel's past: taken up by Chrysalis after Vraks, best in the great leap forward, instigator in the Winter Revolution, now redeeming himself under AJ | treat as settled backstory, with damage far greater than Henri's | "Trimmel was picked up by Chrysalis in the ashes of Vraks" | first-named
+  - The law as the foundation of GR | fixed constraint; the trial must contain no hypocrisy | "the law is the foundation for GR" | referred-to
+  - The idea that the changelings acted as butchers in Synovial's tipping-point battle | tentative suggestion for the model to consider, not settled | "Maybe the changelings were acting like butchers back then?" | first-named
+- order:
+- about: The author withdraws an earlier assumption about Henri's hatred of Trimmel, restates both men's backstories as parallel lie-and-redemption arcs, and asks for a fresh analysis of Henri's forgiveness and of how a lawful trial of Synovial could work at the generals' meeting.

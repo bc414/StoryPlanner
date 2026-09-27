@@ -1,0 +1,56 @@
+- passages:
+  - 4961 | heading label | terse Category-Subcategory-Title tag, no verb | topic: barter/terroir factory economy | apart
+  - 4961 | expository description | full subject-verb sentences, third person, present tense | factory shift from wages to honest barter, solidarity, self-policed quality | apart
+  - 4962 | heading label | terse tag line | topic: warlord vs bureaucrat | apart
+  - 4962 | expository description | comparative declarative sentences | synthesis of European inheritance-status and Ottoman meritocracy | apart
+  - 4963 | heading label | terse tag line | topic: rural terroir | apart
+  - 4963 | fragmentary note | subjectless verb-phrase clause | terroir leading to asset specificity and ego | apart
+  - 4964 | heading label | terse tag line | topic: earth pony magic superstition | apart
+  - 4964 | expository description | contrastive declarative sentences, capitalized terms | griffons misreading earth pony magic as luck or theft | apart
+  - 4965 | heading label | terse tag line | topic: timeline of Coltbert reforms | apart
+  - 4965 | fragmentary note | noun phrase plus infinitive, no main verb | reform goal of harmonic capitalism | apart
+  - 4965 | expository description | named-subject full sentences | Cecille Gaudreau and Vinovia's central role | apart
+  - 5031 | heading label | terse tag line | topic: FJA fertilizer trade | apart
+  - 5031 | expository description | declarative sentences | empirical, terroir-respecting fertilizer market | apart
+  - 5113 | heading label | terse tag line | topic: Aquileian earth pony farmers | apart
+  - 5113 | expository description | declarative sentences | farmers proving magic as chemistry, anti-poseur status | apart
+  - 5242 | expository description | comparative historical declarative sentences, no header | Grover III's legions versus Coltbert's chasseurs and the FJA | apart
+  - 5245 | expository description | single declarative sentence with intensifier 'literally', no header | Coltbert restoring griffon magic through reforms | apart
+  - 5256 | expository description | definitional declarative sentences, no header | L'Élan du Chasseur and its later corruption into jaeger geist | apart
+  - 5402 | expository description | single declarative sentence, no header | chasseurs' final mission to liberate Tarrin | apart
+  - 5405 | intentional planning statement | purpose clause plus future modal 'he'll' | plan to prove magic revival by training griffoness engineers | apart
+  - 5405 | expository description | present-tense declarative sentence | griffonesses as test subjects for cutie mark theory | apart
+  - 5423 | expository description | declarative sentences, no header | FJA farmers breaking CEO hold, university teaching griffon artisanship | apart
+  - 5423 | fragmentary note | subjectless gerund phrase | dignifying urban griffons | apart
+  - 5430 | expository description | descriptive present-tense clause, no header | FJA club as site of validating the tableau de chasse | apart
+  - 5430 | rule-stating exposition | modal 'must', passive 'is enforced'/'is banned' | anti-poseur honesty rules | apart
+  - 5432 | fragmentary note | bare noun phrase, no verb, no header | inflation metaphor in the ego market | apart
+  - 5445 | expository description | connective declarative sentences, no header | cutie marks linking economics and the social game | apart
+  - 5445 | enumerative parallel | repeated 'When on X, it's Y' frames | seal usage compared on wine label and tableau de chasse | apart
+  - 5445 | expository description | declarative sentence with contrastive 'But' clause | distinguishing market transaction from prostitution | apart
+  - 5446 | expository description | definitional declarative sentences, no header | FJA festival enacting game theory among Joueuers | apart
+  - 5446 | exclamatory emphasis | double exclamation mark on a short assertion | scorecards bearing cutie marks and personal seals | apart
+  - 5446 | fragmentary note | unanchored noun-clause fragment | magic preventing forgery | apart
+  - 5446 | expository description | full subject-verb sentences | Coltbert applying the game to economics | apart
+  - 5446 | exclamatory emphasis | exclamation mark on a paired aphoristic claim | contrast of zero-sum greed and uncapped pride | apart
+  - 5483 | interrogative brainstorming | direct exploratory questions, no header | radio and inventions bridging Aquileian cultural gaps, tie to Star Energy ideology | apart
+- shifts:
+  - 4961 | heading label | expository description | tag gives way to full subject-verb sentences beginning 'They move away...'
+  - 4962 | heading label | expository description | tag gives way to comparative full sentences
+  - 4963 | heading label | fragmentary note | tag gives way to subjectless clause 'Leads to...'
+  - 4964 | heading label | expository description | tag gives way to contrastive full sentences
+  - 4965 | heading label | fragmentary note | tag gives way to unanchored infinitive phrase
+  - 4965 | fragmentary note | expository description | shift to named subject 'Vinovia is ground zero...' with full clauses
+  - 5031 | heading label | expository description | tag gives way to full declarative sentences
+  - 5113 | heading label | expository description | tag gives way to full declarative sentences
+  - 5405 | intentional planning statement | expository description | shift from future-modal purpose framing to present-tense declarative role statement
+  - 5423 | expository description | fragmentary note | drops into subjectless gerund clause 'Giving the urban griffons...'
+  - 5430 | expository description | rule-stating exposition | shift from describing the club to stating enforced rules via modal 'must' and passive verbs
+  - 5445 | expository description | enumerative parallel | shift into repeated parallel 'When on X, it's Y' listing frames
+  - 5445 | enumerative parallel | expository description | return to connective prose beginning 'They equate...'
+  - 5446 | expository description | exclamatory emphasis | marked by double exclamation punctuating the scorecard claim
+  - 5446 | exclamatory emphasis | fragmentary note | drops into unanchored clause 'Some magic that...'
+  - 5446 | fragmentary note | expository description | returns to full subject-verb sentence 'Coltbert took...'
+  - 5446 | expository description | exclamatory emphasis | closes with exclamation-marked aphoristic pairing
+- registers: heading label; expository description; fragmentary note; intentional planning statement; rule-stating exposition; enumerative parallel; exclamatory emphasis; interrogative brainstorming
+- whole: This item's notes run mainly in a terse heading tag followed by declarative expository description, with occasional drops into subjectless fragmentary notes and, in a few notes, a planning statement, a rule-stating passage, a parallel-listing passage, exclamation-marked emphasis, or an interrogative brainstorming passage, and in every case the registers stand apart at clear sentence or line breaks rather than blending within one sentence.

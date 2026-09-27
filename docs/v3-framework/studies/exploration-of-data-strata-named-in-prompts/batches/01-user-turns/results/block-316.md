@@ -1,0 +1,4 @@
+- sources:
+  - the Pinkertons parallel | asked whether it is where the earlier smash-the-factory bounty idea came from; treated as a possible origin of the idea the author is now revising, not as something to keep | did this come from the Pinkertons parallel? | referred-to
+- order:
+- about: The author revises how Dienst-violation bounties work, so that they pay for reclaiming the machine, with looting, black-market resale and worker avoidance as side effects. They ask the model to rework Chrysalis's capital-accumulation phase for the Krystalfels seed money accordingly.

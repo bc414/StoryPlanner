@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model had Cadance herself validate the Crystal Ponies' fear and turn it into vigilance, a single-figure, top-down handling that doesn't fit the user's stated themes (Bottom Up > Top Down, Cadance as a chosen family planner and not an immortal). The user swaps in parlor owners doing the trauma work, and says Equestrians can't do it. | to adhere to my themes of Bottom Up > Top Down ... Cadance would enlist help from empathetic parloir owners | tentative and implicit: opens with 'I feel like', gives the theme as the reason, and never says the earlier framing was wrong
+- about: The user takes the model's canon-based trauma framing and reworks the Cadance solution to fit their own themes, with bottom-up parlor-owner helpers, secrecy from Celestia and a link to the dreamscape network, then asks whether Luna should know and how her fresh trauma should shape the Tall Tale retreat.

@@ -1,0 +1,8 @@
+- sources:
+  - my entries (Aquileian serf entries describing generational knowledge) | treat as evidence that Aquileia's economy is asset specific, while the key part in them, erasure, belongs to the identity axis | My entries describe how the serfs have generational knowledge | referred-to
+  - my notes (serfs want to be unnoticeable cogs; the 'cog mentality' in all my notes) | treat as true and as evidence for the identity/erasure axis rather than the economy axis | My notes say the serfs want to be unnoticeable cogs | referred-to
+  - a note saying not every thestral wants to be a warrior | use as evidence when judging whether Tzinacatl flower wars economy is asset specific or standardized | I have a note saying "contrary to popular belief/perception not every thestral wants to be a warrior" | referred-to
+  - the model's previous analysis, including the Eros change | accept the Eros change as agreed; the Aquileian economy flip is corrected because it conflated Economy with Identity | I agree on the Eros change | referred-to
+  - the latest data (story planner data) | pull it fresh and base the thorough analysis on it | Please pull the latest data and give a thorough analysis | referred-to
+- order:
+- about: The user corrects the model's earlier axis assignments by separating Contract, Economy and Identity for Herzland, Aquileia, Tzinacatl and Skyfall, using their own notes as evidence, and asks the model to pull the latest data and give a thorough analysis.

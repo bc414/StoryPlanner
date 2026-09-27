@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps away from the Chapter 5 outline to ask a general question about whether the plan document is too large for the model's context window and what could be done to get better results, without saying anything in the outline was wrong.

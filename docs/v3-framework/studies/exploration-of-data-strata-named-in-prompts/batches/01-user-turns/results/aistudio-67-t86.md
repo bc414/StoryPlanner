@@ -1,0 +1,7 @@
+- sources:
+  - my election arc, including the plot point about Celestia and Applejack both being overconfident until the first polling results drop | treat as outdated where it assumes Celestia wants a total return to the nursery with Nightmare Moon as the alternative; to be revised and adapted to the new Celestia | most of my election arc assumes | referred-to
+  - the changes to Celestia's approach and timeline (not naive about Applejack or industry and spell matrices, friends with the thestrals, wants to retire, quietly eases the predator's dilemma so Applejack can win) | treat as settled and as the basis for revising the election arc | I've established that Celestia does desperately want to retire | referred-to
+  - Lauren Faust's vision of Celestia as tired of her godhood | use as backing for Celestia wanting to retire rather than enforcing the nursery again | as Lauren Faust envisioned her as being tired of her godhood | referred-to
+- order:
+  - the changes to Celestia's approach and timeline over my election arc | the election arc must be adapted according to the changes, and its old assumption about a nursery return is dropped
+- about: The author asks the model to work out how the rest of the election arc must be revised now that Celestia is a tired, non-naive figure who wants to retire and only wants Applejack to build a harmonic republic, using the overconfidence-until-polling beat as one example.

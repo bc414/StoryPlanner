@@ -1,0 +1,6 @@
+- passages:
+  - 5473 | scene beat without a year | a party goes to the jungle to get rubber, not expecting to find rafts, and later takes the rafts up as their own method | none | events in order: "go to the jungle", "then adopt the rafts later"
+  - 60 | topic label | names the subject of a thread, how Applejack's battlefield tactics develop, with no event or detail given | none | a bare title-like phrase, "The development of"
+- sequences:
+  - 5473 | two beats: the trip to the jungle for rubber where the rafts are unexpected, then later adoption of the rafts | "and then adopt the rafts later"
+- whole: Two thin, undated fragments under a deferred label: one is a short two-step plot beat about a rubber expedition that leads to adopting rafts, and the other is a bare topic line about the development of Applejack's battlefield tactics.

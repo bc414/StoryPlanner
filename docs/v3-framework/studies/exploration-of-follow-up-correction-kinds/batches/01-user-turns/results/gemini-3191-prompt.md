@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, widening the search for like-minded people from subreddits to bloggers, Substack writers and similar media, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain how the "stagnation of harmony" theme causes the Apple–Pear family feud, without pointing at any body of material to draw on or avoid.

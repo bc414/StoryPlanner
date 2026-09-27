@@ -1,0 +1,20 @@
+- passages:
+  - 4056 | plain declarative worldbuilding statement | short factual, third-person, present tense | invention and purpose of the Love Canister by Chrysalis | apart
+  - 4057 | plain declarative worldbuilding statement | short factual sentence, no elaboration | mechanism keeping the canister's seal intact | apart
+  - 4058 | wry informal labeling aside | quotation marks around invented nicknames, parenthetical aside | canister as "Friendship/Magic in a can" | apart
+  - 4058 | analytical/expository lore explanation | formal explanatory clause, "used to...weaponized" | the translation of "love" and its use as misdirection | apart
+  - 4059 | plain declarative worldbuilding statement | third-person factual description, present perfect | changelings chugging red canisters, ponies' familiarity with it | run-in
+  - 4059 | evaluative thematic commentary | modal "should be repulsive," naming of pacifists | moral discomfort of ponies adopting canister-warfare | run-in
+  - 4059 | quoted thematic slogan | quotation marks around a short aphoristic line | thematic statement about becoming the enemy | run-in
+  - 4059 | analytical/expository lore explanation | "The difference is...", symbolic imagery of colors | mechanic of red vs pink canisters and their rehab/donation | run-in
+  - 4075 | plain declarative worldbuilding statement | short technical cause-and-effect statement | need for a vacuum to stabilize love's high entropy | apart
+  - 4334 | questioning/musing brainstorming | rhetorical questions, first-person "I guess so" | how changelings might naturally store love | apart
+  - 4334 | plain declarative worldbuilding statement | plain declarative sentence, no hedging | magic's need for a containing property against diffusion through metal | apart
+- shifts:
+  - 4058 | wry informal labeling aside | analytical/expository lore explanation | paragraph break; shift from a joking nickname to a formal account of translation and weaponization
+  - 4059 | plain declarative worldbuilding statement | evaluative thematic commentary | modal "should be repulsive" turns description into judgment
+  - 4059 | evaluative thematic commentary | quoted thematic slogan | quotation marks set off a short aphoristic line
+  - 4059 | quoted thematic slogan | analytical/expository lore explanation | return to explanatory prose with "The difference is..." after the quoted line
+  - 4334 | questioning/musing brainstorming | plain declarative worldbuilding statement | paragraph break; shift from rhetorical questions and first-person musing to a plain statement of fact
+- registers: plain declarative worldbuilding statement; wry informal labeling aside; analytical/expository lore explanation; evaluative thematic commentary; quoted thematic slogan; questioning/musing brainstorming
+- whole: These notes move across several registers—flat factual statement, a joking aside, formal lore-explanation, moral judgment, a quoted slogan, and open self-questioning—with the shorter notes standing apart in a single register while the longer notes (4059, 4058, 4334) let two or more registers sit close together, sometimes across a visible paragraph break and once flowing together inside one unbroken paragraph.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of Luna's retreat and builds on it, adding that Twilight's love-driven excess of magic at the second Tall Tale battle horrifies the princesses and explains the front-line ban and her later reliance on crystal enhancers, while asking the model to confirm that the sisters' selfishness and laziness have been written out.

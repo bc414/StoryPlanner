@@ -1,0 +1,5 @@
+- sources:
+  - Political Axes of the Fabula (the attached file, "the full convo") | treat as the full record of the session and read it as the basis for the comparison | Here's the full convo | first-named
+  - the earlier turns | compare the attached convo against them, using them as a check | Also compare against the earlier turns | referred-to
+- order:
+- about: The user hands over the full transcript of the axes conversation as an attachment and asks the model to compare it against the earlier turns.

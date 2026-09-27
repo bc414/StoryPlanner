@@ -1,0 +1,20 @@
+- steps:
+  - author | brings batch of worldbuilding refinements | turncoat nobility as officers (Pagala), VOPS competence, POW language-barrier question, Thorax vs Chrysalis 'uplifting' framing, Thorax's snub by Celestia | opening prompt of the thread
+  - model | turns refinements into a functional system | Pagala/Trimmel foil, Low/High Herzlander language tiers, VOPS 'sustainable cruelty' farming mechanics, Thorax's radio propaganda role, caste pyramid summary | first response
+  - author | sharpens a character's motivation and states an organizing theme | Trimmel's stance on 'eating the rich' vs Thorax's forgiveness, his pulling Pagala from the front, and the cross-nation theme of monarchy falling to industrialization | second prompt
+  - model | builds a cross-faction comparative framework | four-faction typology answering 'what happens when the king dies and the factory opens,' Trimmel's justice-vs-mercy arc | second response
+  - author | introduces a new plot mechanic | Cadance as source of the love-powered shield, same love changelings feed on | third prompt
+  - model | extends the mechanic into an economic metaphor | coal-vs-fusion energy contrast, closed-loop family reactor, Thorax as proof of concept, Chrysalis's fear of economic obsolescence | third response
+  - author | corrects the model's phrasing and proposes a taxonomy | rejects 'crystal love,' defines a color/flavor spectrum of emotion-energy, asks two clarifying questions about latency and romance vs friendship | fourth prompt
+  - model | builds an internal/external taxonomy and answers the questions | pink/magenta/red/gray spectrum, external-vs-internal absorption rule, crystal heart as amplifier, explanation of why the predator model failed | fourth response
+- kept:
+  - note 119 | the author's own words in this record | author's paragraph on draftees' limited 'Factory Herzlander' vocabulary, kept on the Fluttershy-POW plot point
+  - note 880 | the author's own words in this record | author's paragraph contrasting Chrysalis's and Thorax's rival 'uplifting' offers, kept on the Thorax-snubbed-by-Celestia plot point
+  - note 2502 | the author's own words in this record | author's open question on how/whether to explain the Celestia snub, kept on the link between that plot point and Celestia
+  - note 4328 | the author's own words in this record | same Chrysalis-vs-Thorax 'uplifting' paragraph, kept on the Thorax subject entry
+  - note 5286 | the author's own words in this record | author's expansion on Aquileia's reaction to Celestia's dismissal, kept on the Aquileian Anti-Poseur Crusade subject
+  - note 4322 | pasted from this reply inside the author's own framing | model's characterization of Trimmel as 'the Believer' combined with author's own framing about the Winter Revolution mission, kept on the Trimmel subject
+  - note 4356 | pasted from this reply with cuts | model's line on why Trimmel hates Pagala as a hypocritical turncoat, kept on the Trimmel subject
+  - note 4350 | pasted from this reply with cuts | model's internal-vs-external rule explaining why pink love alone is latently absorbable, kept on the Changeling Biology subject
+- brought: The author brought already-established plan elements — Pagala's turncoat backstory, VOPS, Trimmel, Thorax's snub by Celestia, and Cadance's love-shield — into the conversation to refine their internal logic and add new political/biological mechanics.
+- loop: The author repeatedly brings partial rules or corrections to existing worldbuilding elements, the model turns each into a structured system or taxonomy (factions, castes, energy spectrum), and the author either narrows/corrects that system or moves to a new element; the plan keeps mostly the author's own phrasing verbatim on the relevant plot points and subjects, plus a few cut model sentences that supply defining rules (Trimmel's hatred of Pagala, the internal/external love-absorption rule).

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's reasoning about the ultimatum at Vesalipolis and asks a further question: whether the 12-hour ultimatums at Canterlot (Encirclement) and Vanhoover (Preparation) still make sense given their updated plans.

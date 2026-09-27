@@ -1,0 +1,5 @@
+- passages:
+  - 4752 | statement about the subject | how the character sees herself: as living up to the legend of the Princess of the Night (her self-image) | none | plain present-tense description of self-perception, no event or date
+  - 4752 | statement about the subject | her background and workplace: she came from the medicinal tribe and works at the Foyer de la Jeunesse d'Avant Garde | none | plain factual statement of origin and employment, no event or date
+- sequences:
+- whole: The subject has a single short note of two static statements about the Parloir Operator, covering her self-image as the Princess of the Night, her tribal origin and her workplace, with no scene beats, dates or sequence.

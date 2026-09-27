@@ -1,0 +1,6 @@
+- asks:
+  - analysis | analyse the sections of the story plan that concern Canterlot | "Give an analysis of the parts of my story plan regarding Canterlot"
+- supplies:
+- shaping:
+- openness: Open: the message only asks for an analysis of the Canterlot-related material without naming a conclusion, form, or focus.
+- subject: Canterlot-related portions of the user's story plan

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the naming question to submit a new lore note about Minette, the house ponies and the origin of Rarity's philosophy, and asks how it should be categorized.

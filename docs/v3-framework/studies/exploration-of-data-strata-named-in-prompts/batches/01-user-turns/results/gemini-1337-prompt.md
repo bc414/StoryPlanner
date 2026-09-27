@@ -1,0 +1,4 @@
+- sources:
+  - this new context of chasseur rebranding to voltigeur | treat as the premise the new FJA veteran club names should be built around, i.e. factor the chasseur-to-voltigeur rebrand into the alternatives | given this new context of chasseur rebranding to voltigeur | referred-to
+- order:
+- about: The user asks the model for more alternative names for the FJA veteran clubs, adjusted to fit the newly established rebranding of chasseurs as voltigeurs.

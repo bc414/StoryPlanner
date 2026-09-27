@@ -1,0 +1,31 @@
+- steps:
+  - the author | source-comparison introduction | draws a parallel between the source novel's magic mechanic and the current world, proposes a new sensory ability and asks how it fits the existing magic theory and history | opening of gemini:293
+  - the model | multi-domain elaboration | expands the proposed mechanic into a biological explanation, a tragic historical origin, a thematic irony about the ruler's invention, a child character's arc, and a plot-hole check | gemini:293 response
+  - the author | mechanic correction and scene-anchoring | limits the new ability to a toggle rather than a permanent state, ties the child character's arc to a specific canon episode beat, requests an in-world bedtime story, and flags that a scene belongs to a different project | gemini:294 prompt
+  - the model | scene drafting | drafts an in-world parable text, names the resulting condition, and drafts a meeting scene, a training method, and a siege climax that resolves into a reward beat | gemini:294 response
+  - the author | new plot-thread introduction with mechanism question | adds a conscript-soldier subplot and asks how an addiction mechanic should reconcile with the existing two-type love system and with real-world withdrawal | gemini:295 prompt
+  - the model | mechanism elaboration and dialogue draft | explains an intoxication/withdrawal state for the new subplot, drafts an explanatory dialogue for a minor character, clarifies the addiction mechanics, and proposes a cure tied to prior technology | gemini:295 response
+  - the author | broad framework construction | builds a sociological framework covering patriarchy, libido, a reproduction spell, and clothing custom, flags and self-resolves a worldbuilding inconsistency about weather, and brings in a canon character's established role as a thematic counterpoint | gemini:296 prompt
+  - the model | framework consolidation and scene draft | resolves the flagged inconsistency with a military-doctrine explanation, elaborates the counterpoint character's thematic function, and drafts an illustrative scene | gemini:296 response
+- kept:
+  - note 3456 | the author's own words in this record | keeps the paragraph on industrialized abundance removing the need for predation, filed on a link between two plot points
+  - note 4055 | the author's own words in this record | keeps a definitional sentence on veteran soldiers ignoring enemy fear, filed under the new ability's subject entry
+  - note 4052 | pasted from this reply inside the author's own framing | keeps the model's foraging/survival explanation of the ability, filed under the ability's subject entry
+  - note 4205 | pasted whole from this reply | keeps the model's paragraph on the trauma of killing while sensing a victim's fear, filed under the ability's subject entry
+  - note 4206 | pasted from this reply inside the author's own framing | keeps the model's description of the child character's cutie mark, filed under her subject entry
+  - note 417 | the author's own words in this record | keeps the paragraph tying the child character's magic instability to a specific canon episode moment, filed in the relevant plot point
+  - note 422 | the author's own words in this record | keeps the paragraph on the character isolating herself to practice alone, filed in the same plot point
+  - note 431 | the author's own words in this record | keeps the paragraph on when she earns her cutie mark, filed in the same plot point
+  - note 432 | the author's own words in this record | keeps the bedtime-story device idea, filed in the same plot point
+  - note 4208 | the author's own words in this record | keeps a short version of the canon-episode backstory sentence, filed under the character's subject entry
+  - note 418 | pasted whole from this reply | keeps the model's paragraph on the feedback-loop torment the character experiences, filed in the plot point
+  - note 436 | pasted from this reply inside the author's own framing | keeps a resolution paragraph for the siege plot point, filed under that plot point
+  - note 416 | pasted whole from this reply | keeps a single sentence on a captured soldier reading the absence of hate, filed under a related plot point
+  - note 4197 | the author's own words in this record | keeps the paragraph on serfdom producing patriarchy, filed under a subject on intimacy/abuse rules
+  - note 4698 | the author's own words in this record | keeps the paragraph on absence of stigma for same-sex relationships, filed under the same subject
+  - note 4699 | the author's own words in this record | keeps the paragraph on the reproduction spell and the cynical reading of the setting's motto, filed under a general setting subject
+  - note 4700 | the author's own words in this record | keeps the paragraph on a canon character's seamstress role as a subversion of the ruler's view of clothing, filed under that character's subject
+  - note 4701 | the author's own words in this record | keeps the paragraph distinguishing status clothing from winter clothing, filed under a clothing-culture subject
+  - note 4702 | pasted whole from this reply | keeps the model's paragraph framing the canon character as representing rehabilitated ambition, filed under that character's subject
+- brought: The author brought a mechanic borrowed from a source novel plus pieces of the existing unified magic theory and character/plot history to test how a new sense could be grafted onto them.
+- loop: Across the stretch, the author repeatedly brings a piece drawn from the source text or an extension of established lore, sometimes with a question or a correction to an earlier answer, the model returns an elaborated system and drafted scenes, and the plan retains mostly the author's own restated framework paragraphs plus a smaller number of the model's drafted paragraphs, distributed across subject entries and plot points rather than as a single block.

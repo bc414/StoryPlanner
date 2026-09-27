@@ -1,0 +1,5 @@
+- sources:
+  - chapters 10-12 as they stand | the model is to go through their details as the material for the naming, treating the three as one arc | Go through the details of chapters 10-12 as they stand | referred-to
+  - Conscience, the newly minted chapter title | the model is to take into account that chapters 10-12 come after it when choosing names | they come after Conscience, the newly minted chapter title | referred-to
+- order:
+- about: The user asks the model to review chapters 10-12 as they currently stand and propose several title options for the chapter now at 10 that is becoming 11, fitting the arc and following the new Conscience chapter.

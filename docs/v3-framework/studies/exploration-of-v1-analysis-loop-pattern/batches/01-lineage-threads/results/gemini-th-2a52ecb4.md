@@ -1,0 +1,10 @@
+- steps:
+  - author | ask | request for a survey of MLP community developments over the past year | opening prompt of the conversation
+  - model | analyze | sectioned breakdown of franchise news and EaW updates, closing with a branching follow-up question | first response
+  - author | redirect | steers away from the EaW branch offered, asks what else is happening in the community | second prompt
+  - model | analyze | sectioned breakdown of worldbuilding/tooling trends, fan-game engineering, and merchandise, closing with a branching follow-up question | second response
+  - author | narrow | returns to EaW specifically, asks for a judgment on how niche or mainstream it is | third prompt
+  - model | analyze | verdict characterizing EaW as a 'macro-niche' across different fan segments, closing with a branching follow-up question | third response
+- kept:
+- brought: none
+- loop: The author used the conversation purely for external background research on the state of the MLP fandom and its EaW sub-scene, and the model answered with broad informational surveys each time; none of this exchange fed into the planning database, so the loop closes without anything being kept.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a new assessment of two more political figures, Phil Murphy and Mikie Sherrill, using the same framework the model just applied, without objecting to anything in the model's turn.

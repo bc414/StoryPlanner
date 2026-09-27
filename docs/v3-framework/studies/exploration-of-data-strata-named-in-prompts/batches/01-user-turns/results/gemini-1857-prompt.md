@@ -1,0 +1,5 @@
+- sources:
+  - my story plans and themes | the material the Polish apple industry is to be tied into, with Applejack as main character | "connection to Poland's apple industry to my story plans and themes" | referred-to
+  - Poland's apple industry / the modern Polish Republic | real-world material to draw on, treated as the closest real-world parallel to the post-war Equestrian Republic | "closest world world parallel to the Equestrian Republic" | referred-to
+- order:
+- about: The user asks the model to work out how Poland's apple industry can be linked to their story plans and themes with Applejack as protagonist, on the premise that modern Poland is the nearest real-world parallel to the Equestrian Republic she wants to build after the war.

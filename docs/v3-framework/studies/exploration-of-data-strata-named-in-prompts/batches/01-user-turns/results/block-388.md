@@ -1,0 +1,5 @@
+- sources:
+  - my story plan (the proposed cloud-bed addition to it) | the addition is under consideration, offered as a possible change to the plan and not yet settled | I'm thinking of adding the following to my story plan | referred-to
+  - the scene sequence the author lays out in this message (war meeting, Las Pegasus, the wakefulness spell, the cloud bed, waking in Appleloosa) | the author's own account of what happens, to be used as the basis for judging which words fit the element | the original reason Applejack asked Rainbow to stop flying and come to the war meeting | first-named
+- order:
+- about: The user asks whether a phrase about loyalty to her friends' earnest wishes captures Rainbow Dash's shift away from fealty to the state, describes a proposed cloud-bed scene for the story plan that shows it, and asks for better words for the grown-up element of loyalty.

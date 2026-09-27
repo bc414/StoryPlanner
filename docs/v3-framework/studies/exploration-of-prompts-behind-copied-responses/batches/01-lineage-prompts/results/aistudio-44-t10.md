@@ -1,0 +1,7 @@
+- asks:
+  - incorporate | asks the model to build the story plan around this proposed thematic package: the army's pre-war dogma about friendship-in-the-trenches versus changeling distrust, Applejack's buy-in via machine-gun mastery, the reveal that machine guns lose to tanks, the grimdark chapters 1-9 arc where Applejack treats empathy as weakness, and the chapter 9 Town Hall resolution where harmonic capitalism validates the original dogma if paired with industrial capacity | "Let's enhance this by saying..."
+- supplies:
+  - plot/theme proposal | a new piece of worldbuilding and character arc: pre-war Equestrian Army dogma, Applejack's rise to general and her machine-gun mastery, the machine-guns-vs-tanks defeat, her chapters 1-9 grimdark mindset, and the chapter 9 "harmonic capitalism" resolution that revalidates the dogma | a paragraph
+- shaping:
+- openness: leans toward an answer it names: the message states the specific dogma, Applejack's characterization, the machine-gun/tank defeat, the chapters 1-9 arc, and the chapter 9 harmonic-capitalism resolution as the direction to adopt, asking the model to develop the plan along this stated line rather than choose among options or answer an open question
+- subject: enhancing Applejack's war-general arc and its thematic resolution via "harmonic capitalism" in a grimdark MLP changeling-war story

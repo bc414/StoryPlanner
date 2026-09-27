@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general factual follow-up question about embedding vector dimensionality in current LLMs and how it compares to the number of concepts in the world, naming no data sources.

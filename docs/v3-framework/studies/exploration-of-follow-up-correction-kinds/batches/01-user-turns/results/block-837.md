@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the user's earlier insight to be about a child projecting epic narratives onto static toys and about the target audience's safe childhood, and built its answer on that. The user says the point was that Lauren Faust made FiM out of the original Hasbro toys, so the insight concerns the franchise's authorship and origin. | What I meant to articulate is that Lauren Faust didn't create FiM out of nowhere, she was inspired by the original Hasbro toys | Stated plainly as a clarification of what was meant, without apology or irritation, followed by a redirecting question.
+- about: The user restates their earlier insight as being about Faust drawing on the Hasbro toys, then asks how that origin shapes the meta narrative and themes of the story and how it interacts with the meta narratives already in place.

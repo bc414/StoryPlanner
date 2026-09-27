@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's builder-versus-consumer bifurcation as given and asks a new question: estimated Western population shares on each side, broken down by demographic, with the methodology explained and present-day data researched.

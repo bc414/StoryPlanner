@@ -1,0 +1,6 @@
+- sources:
+  - a blog post from the author of P&K, UnknownError | the main material the model is asked to analyze; taken up as the object of analysis, not as a authority | please analyze a blog post from the author of P&K, UnknownError | first-named
+  - the responses | material to be analyzed together with the blog post, as the reactions to it | and the responses | first-named
+  - My response as Scootableu | the user's own response among the responses, to be analyzed and identified as theirs | My response is as Scootableu | first-named
+- order:
+- about: The user asks the model to analyze a blog post by the author of P&K along with the responses to it, flagging that one of those responses is their own under the name Scootableu.

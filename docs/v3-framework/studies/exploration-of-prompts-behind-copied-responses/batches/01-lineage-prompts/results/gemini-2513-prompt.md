@@ -1,0 +1,13 @@
+- asks:
+  - brainstorm | find additional poignant parallels that could build on the story plans already in place | "how can I build upon my existing plans with additional poignant parallels"
+  - list/identify | give further examples of traits belonging to Faust's mane 6 (the original creator's vision of the six main characters) | "other examples of traits from Faust's mane 6"
+  - explain | show how the Hasbro mandate degraded certain of those traits | "how the hasbro mandate degraded certain traits"
+  - brainstorm | suggest ways to portray adult versions of Faust's traits in the story | "how I can demonstrate the adult versions of Faust's traits"
+  - search/identify | surface canon traits not yet worked into the story plan that would be useful to add | "traits from canon that I have not yet integrated into the story plan but would be helpful"
+- supplies:
+- shaping:
+  - constraint on content | traits must be genuine, not invented | "Don't make up traits that don't exist"
+  - structural freedom | the three categories (Faust trait, mandate degradation, adult version) need not correspond to the same specific trait | "It doesn't have to be trait + corruption of that specific trait. Each category can be independent"
+  - no quota | no fixed number of traits is required per character | "I don't need a certain number of traits for each character"
+- openness: Open: the message asks the model to brainstorm and search for material across several independent categories without naming specific traits or offering options to choose between, only bounding the answer with an accuracy constraint (traits must be real canon) and freedom from rigid pairing or quotas.
+- subject: Expanding a fan-fiction story plan (MLP-based) with canon character traits from Lauren Faust's original vision, how corporate (Hasbro) mandates altered those traits, and how to render adult versions of them.

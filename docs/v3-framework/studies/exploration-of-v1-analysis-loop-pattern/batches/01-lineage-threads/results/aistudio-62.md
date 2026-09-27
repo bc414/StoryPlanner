@@ -1,0 +1,47 @@
+- steps:
+  - the author | attached | a document never captured by the archive | opening of the conversation
+  - the author | asked | how Blueblood would learn to be a real general after his humiliation | first substantive message
+  - the model | analyzed | a psychological/military account of Blueblood's arc, covering trauma, covert study, bureaucratic weaponization, and a foil comparison, plus follow-up questions | first reply
+  - the author | brought and proposed | game-lore detail (a focus-tree report), a plot beat naming Blueblood as its author, a doctrine attribution to the Griffonian Republic, and a question about the report's name | second author turn
+  - the model | answered and expanded | the cartographic meaning of 'dotted line,' an imperial-tutor concept, and staggered-retreat mechanics | reply to the doctrine/report turn
+  - the author | brought | a full existing character biography and a proposed subverted backstory involving a pension collapse and a medical-for-tutelage exchange | after the report discussion
+  - the model | analyzed | the defection and rehabilitation arc with thematic parallels to prior lore and a subversion of the source arc | reply to the biography turn
+  - the author | asked and proposed | a request to trace the full poseur-to-general arc, with specific proposed scenes of failed bribery and a Manehattan rejection | mid-conversation
+  - the model | drafted | a staged synthesis of the arc from the initial wound through the failed-capital episode to the final report | reply to the arc request
+  - the author | asked and proposed | more detail on how Blueblood finds the tutor, proposing an investigative chain into finance and a VOPS threat | after the arc synthesis
+  - the model | elaborated | a forensic-investigation narrative culminating in the tutor's recruitment, including a conspiracy-board sequence | reply to the investigation turn
+  - the author | asked and constrained | who could plausibly deliver the warning, ruling out one candidate for timeline reasons and proposing others | after the investigation elaboration
+  - the model | proposed | a specific messenger and a staged warning scene, with an extra embellishment | reply to the messenger question
+  - the author | edited and redirected | dropped the embellishment, confirmed the messenger choice, and pivoted to a new question about a battle scene | after the warning scene
+  - the model | analyzed | four sets of battle-camp interactions among various characters and their thematic payoffs | reply to the battle-scene question
+  - the author | asked | a narrower question about one specific character pairing at the battle | after the broader interactions
+  - the model | analyzed | the specific encounter and its downstream effects on both characters | reply to the pairing question
+  - the author | brought | a new plotline involving a co-commander, a shield technology, a doctrinal disagreement, and its failure mechanism | new topic later in the conversation
+  - the model | analyzed | the doctrinal schism, the failure mechanics of the shields, and the resulting command handover | reply to the new plotline
+  - the author | corrected | walked back an earlier personal intention for the opening battle in light of established rules, asking for adjustments while flagging one detail to preserve | after the doctrinal analysis
+  - the model | recalibrated | reworked the opening battle into a command-split and collapse sequence, addressing the flagged detail | reply to the correction
+  - the author | corrected | insisted the shield does work under the right psychological condition and explained a specific combined-arms tactic | after the recalibration
+  - the model | analyzed | formalized the resilience-based shield mechanic and the combined-arms triage into structural terms | final reply
+- kept:
+  - note 5385 | the plan held this text before this reply | the plan already held Blueblood's chess-quote line about casualties, unchanged, under his subject entry
+  - note 5630 | pasted from this reply inside the author's own framing | the model's account of the report's meaning and how it forces Celestia's hand, filed under Blueblood's subject
+  - note 5632 | the author's own words in this record | a Mudbeak/Shining Armor/Flurry Heart subversion beat, in the author's own words, filed under Mudbeak's subject
+  - note 4742 | pasted from this reply inside the author's own framing | the account of Blueblood's narcissistic injury from the draining, filed under Blueblood's subject
+  - note 5624 | pasted from this reply inside the author's own framing | the model's framing of Blueblood's need never to be prey again, filed under Blueblood's subject
+  - note 5628 | pasted from this reply inside the author's own framing | the terms of the Blueblood-Mudbeak medical-for-tutelage exchange, filed under Blueblood's subject
+  - note 5631 | pasted from this reply inside the author's own framing | the same exchange terms, filed under Mudbeak's subject
+  - note 2905 | the author's own words in this record | a note on Synovial's plan and Chrysalis's loss of control, filed under a Synovial/Canterlot Wedding link
+  - note 5625 | pasted from this reply inside the author's own framing | the account of Blueblood's failed mercenary and parloir attempts and pivot to investigation, filed under Blueblood's subject
+  - note 5626 | pasted from this reply inside the author's own framing | the conspiracy-board investigation sequence, filed under Blueblood's subject
+  - note 5627 | pasted from this reply inside the author's own framing | the pivot from investigation to recruiting the tutor, filed under Blueblood's subject
+  - note 5633 | the author's own words in this record | the three-way clash of views among the tutor and two other officers, filed under Mudbeak's subject
+  - note 5629 | pasted from this reply inside the author's own framing | the Blueblood-Rarity encounter and its downstream effect, filed under Blueblood's subject
+  - note 5663 | the author's own words in this record | the co-commander's vanguard doctrine and shield description, filed under a new pre-war army subject
+  - note 5665 | the author's own words in this record | Blueblood's reserve position and retreat strategy, filed under the same pre-war army subject
+  - note 5664 | pasted from this reply inside the author's own framing | the account of the vanguard's shield collapse and the rout, filed under the pre-war army subject
+  - note 3526 | pasted whole from this reply | the account of why three specific soldiers survive the barrage, filed under a battle/resilience chapter link
+  - note 3527 | pasted whole from this reply | the account of the shields-up resilience mechanic, filed under the same chapter link
+  - note 3630 | pasted from this reply with cuts | the combined-arms trench tactic description, filed under a second battle chapter link
+  - note 5662 | pasted whole from this reply | the account of a city's fall and the staggered evacuation, filed under a war-in-the-north subject
+- brought: The author brought forward existing plan pieces — an already-drafted character quote, external game lore, and a full pre-existing character biography — and used them as anchors to develop new backstory in dialogue with the model.
+- loop: The author repeatedly supplied a partial plan fragment, proposal, or correction; the model returned an expanded structural analysis in its own framing; and the author's planning database then absorbed large blocks of the model's phrasing, filed under the relevant character or event subjects, while pre-existing plan text and the author's own interjected notes were kept as-is alongside it.

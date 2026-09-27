@@ -1,0 +1,16 @@
+- relations:
+  - 1023|1024|continues in time and causes: the village she led is then destroyed, which leaves her without a village|Zecora's village was destroyed by Chirropterra|implicit
+  - 1024|1025|cause and consequence: the destruction of her village leads to her going on a suicide mission to stop Nightmare Moon|village was destroyed by Chirropterra as they prepared for Nightmare Moon's return / suicide mission to somehow stop Nightmare Moon|implicit
+  - 1025|1027|continues in time and revises the plan: she arrived to stop Nightmare Moon but the Mane 6 made her act unnecessary, so she stays|Thanks to the Mane 6, Zecora didn't have to do anything|implicit
+  - 1024|1027|reason: the destruction of her village explains why she has no home to return to|she has no home to return to|implicit
+  - 1025|1026|same fact stated in two registers: the arrival a few weeks before Nightmare Moon's return is given as the reason for the canon scene of ponies seeing her and hiding|arriving a few weeks before 1000 ALB / she just arrived a few weeks ahead of Nightmare Moon's return|implicit
+  - 1027|1032|continues in time: she settled in the Everfree Forest and later leaves it to stay permanently elsewhere|decided to stay in the Everfree Forest / leaving the Everfree Forest|implicit
+  - 1025|1032|continues in time: she came to the Everfree Forest and later leaves it|traveled to the Everfree Forest / leaving the Everfree Forest|implicit
+- outward:
+  - 1024|Chirropterra, an enemy group held elsewhere in the lore, and Nightmare Moon's return|destroyed by Chirropterra as they prepared for Nightmare Moon's return
+  - 1025|the timeline calendar (ALB) and Nightmare Moon's return, the story's central event|arriving a few weeks before 1000 ALB
+  - 1027|the Mane 6, characters and events elsewhere|Thanks to the Mane 6
+  - 1026|the canon episode Bridle Gossip and the ponies of Ponyville|as depicted in Bridle Gossip
+  - 1032|Ain Trotgourait, a place held elsewhere, and whatever brings her there|Zecora stays in Ain Trotgourait permanently
+  - 1023|Zumidia, the zebra homeland held elsewhere, and the story TLTT|zebra village in Zumidia
+- whole: The notes hang together as a single chronological chain from chieftain to village destruction to the Everfree arrival, settling and departure, with the canon note tying the arrival to Bridle Gossip.

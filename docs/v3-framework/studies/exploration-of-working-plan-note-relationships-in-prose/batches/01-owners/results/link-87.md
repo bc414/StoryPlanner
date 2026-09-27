@@ -1,0 +1,8 @@
+- relations:
+  - 2354|2355|2355 narrows and gives a concrete instance of the general activity in 2354: the unbridled machines are put to work by the Machinists Guild training refugees, which is one way of assigning ponies jobs by talent; 2355 also presupposes the unbridling that 2354 states|They start unbridling and repairing all the idle machines / newly unbridled, GR-retrofitted assembly lines|implicit
+- outward:
+  - 2355|The Machinists Guild, a group established elsewhere in the story, here cast as an officer corps|The core Machinists Guild acts as the officer corps
+  - 2355|The agrarian refugees, a population arriving from outside this item|rapidly training the agrarian refugees
+  - 2355|GR retrofitting, a technology or lore term defined elsewhere|GR-retrofitted assembly lines
+  - 2354|The unnamed organization and its idle machines, whose backstory lies elsewhere|They start unbridling and repairing all the idle machines
+- whole: The two notes hang together as a set: 2355 elaborates one part of the mobilization that 2354 states in general terms.

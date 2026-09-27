@@ -1,0 +1,4 @@
+- sources:
+  - the earlier placement of "what is revealed" in O+PE+L+ND, and the earlier "impossible" label on O+PE+L+ZF (the framework as set up earlier in the conversation) | treat as outdated and to be redone: the user moves "what truth is revealed" into O+PE+L+ZF and keeps only the reader's feelings in O+PE+L+ND | needs to be rethought; We were previously putting this | referred-to
+- order:
+- about: The user sets a new naming rule for tracks (four axis values joined by plus signs), then works through the character O+PE quadrant, redefining what each cell asks. That includes overturning the earlier "impossible" O+PE+L+ZF cell, and it includes a note on how prior-established and narrative-emergent flip for a prequel read after the main story.

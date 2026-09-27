@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks the model to confirm that Into Darkness fits the traditional male-hero/female-reward romance template, then asks a new question about whether ASOIAF itself follows that same pattern.

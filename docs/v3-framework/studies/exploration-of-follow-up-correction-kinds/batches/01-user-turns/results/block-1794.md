@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - the model's analysis/framing (overfit definition) | The definition of an economic game rests on persistent state between sessions and an alive offline metagame, which is tailored to Clash of Clans and leaves out RTS games that model economy within a single session | "I don't want to overfit for Clash of Clans. Remember that RTS games don't have persistent state between sessions" | stated flatly as a reminder with a counterexample, then softened by the user's own concession that in RTS the economy serves tactical combat
+- about: The user pushes back on the model's CoC-shaped definition of an economic game by raising RTS games as a counterexample, while partly conceding that there the economy is subordinate to combat.

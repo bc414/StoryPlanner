@@ -1,0 +1,5 @@
+- sources:
+  - Lauren Faust's ethos and commentary around Rarity as a different kind of character for a toy commercial | draw on the model's general knowledge of this published commentary as the standard to measure the Rarity design against, and analyse its fundamentals | how does it align with Lauren Faust's ethos and commentary around rarity | referred-to
+  - the Rarity depth of nuance just discussed in this conversation | treat as the established design to be checked for alignment with Faust's ethos | This depth of nuance is exactly what makes Rarity the pinnacle of unique character design | referred-to
+- order:
+- about: The user praises the Rarity design just discussed and asks the model to analyse, from general knowledge, how it fits Lauren Faust's stated ethos and commentary on Rarity as an atypical character for a toy commercial.

@@ -1,0 +1,77 @@
+- relations:
+  - 41|42|continues in time: the spell matrix begun for Applejack leads to the plow going haywire and the realization it would make her talent obsolete|spell matrix to give to Applejack / inventing a spell matrix to replace Applejack's applebucking|implicit
+  - 42|43|the later cider episode's restraint is credited to the earlier plow incident|Twilight learned from the winter wrap up incident|explicit
+  - 42|44|cause and result: being yelled at over the plow produces her present refusal to replace talents with devices|after Applejack yelled at her in the first Winter Wrap Up|explicit
+  - 42|1706|cause of her capped ambition: fear of making friends' talents obsolete|would replace her friends' special talents / make Applejack's special talent obsolete|implicit
+  - 44|1706|same character trait stated twice, one as the refusal and the other as the ambition cap that follows|doesn't want to replace anypony's special talent / capped her ambition|implicit
+  - 352|41|reader-facing delivery of the plan for what the history note states|Applebuck Season got Twilight thinking about sharing magic|explicit
+  - 352|42|reader-facing account of the Winter Wrap Up yelling ending her sharing of magic|until getting yelled at in Winter Wrap Up canned that|explicit
+  - 352|43|instance of her not using magic on the cider machine, which the other note gives its reason|as shown by her not using magic in Cider Squeezy|implicit
+  - 352|59|revival of her spell-making in 1007 is the retreat to the lab and automated purification systems|necessity brought back her fascination in 1007 / devised magical systems|implicit
+  - 352|53|reader is told that rebuilding the city brought back her spell fascination, which the rubble-lifting note narrates the start of|Rebuliding Ain Trotgourait / lifts the rubble|implicit
+  - 47|42|presupposition: the guilt to be absolved is the fear of making Applejack obsolete|guilt about thinking she would make Applejack obsolete|implicit
+  - 47|49|the shared phrase return to form; one states it as the arc, the other says it is the way Faust wrote her|return to form / return-to-form|explicit
+  - 49|50|what the early-season writing was, spelled out as a logistical savant, with the later degradation|early seasons / Early Twilight|implicit
+  - 50|51|the real-world note and the characterization note state the same trait, checklists and delegating|hyper-detailed checklists and delegating tasks|implicit
+  - 48|1199|real-world reading of the source of Celestia's expectations that stress Twilight|Celestia's expectations|implicit
+  - 48|1762|real-world reading of the vague orders from Celestia in-universe|Celestia's expectations / Celestia's orders were often vague|implicit
+  - 1199|1762|the anxiety over expectations is explained by the invisible goalposts|meeting Celestia's expectations / goal posts were invisible|implicit
+  - 1201|1199|canon instance of the anxious response to disappointing Celestia|afraid of disappointing Celestia / stressed and anxious|implicit
+  - 54|53|cause and reaction: seeing the ruin, she takes on the rebuilding herself|destroyed hospitals, poisoned water / lifts the rubble, purifies the water|implicit
+  - 53|52|instance of the Reactive Atlas Complex: fixing destruction alone with her power|reactively fix destruction / one-pony construction crew|implicit
+  - 547|53|explains the disastrous 1006 campaign as her lifting rubble until burnout|lift the rubble herself until she burns out|explicit
+  - 547|52|the top-down atlas complex is said to be born in the Crystal Empire scene; the other names the complex|top down atlas complex / Reactive Atlas Complex|explicit
+  - 53|57|continuation and result: one-pony effort ends in burnout|too big and too ravaged for her to fix everything|implicit
+  - 57|59|continues in time: after burnout she retreats to the lab and automates|burned out / retreated to her lab|implicit
+  - 59|53|revises the manual method with automated systems for the same water purification|automate her water purification spells / purifies the water|implicit
+  - 59|60|Celestia funding her to stay off the battlefield matches her agreement to stay off the frontline|keeps her off the battlefield / agreed to stay off the frontline|implicit
+  - 60|56|reason given for staying off the frontline that the other simply states|doesn't want to fight on a front line / stay off the frontline|implicit
+  - 56|54|her aversion follows from what she saw|seeing the destruction / destroyed hospitals|implicit
+  - 1762|60|the 'Do not fight' order and the frontline agreement; one says it breaks her mind, other says she complies from fear|Do not fight / stay off the frontline|implicit
+  - 55|54|her wartime trauma follows from seeing suffering her magic cannot stop|magic can't stop the world's suffering / starving Zebras|implicit
+  - 1065|1020|continues in time: the limited school is then shut by Twilight|The school went on in limited scope / shuts down the School of Friendship|implicit
+  - 1065|58|Celestia overrules her school vision and is said to yell at her the same year|Celestia shut her down / Celestia yells at Twilight|implicit
+  - 36|34|Celestia steering ambition into bureaucratic friendship fits ambition going into pleasing Celestia|suppressing her ambition / hoping to please or impress Celestia|implicit
+  - 36|1202|the steering follows from Celestia seeing her ambition and wanting a successor|channel that ambition / suppressing her ambition|implicit
+  - 1202|1196|the successor plan is read cynically as grooming|successor / groomed by Celestia|implicit
+  - 547|1196|the Pavlovian conditioning and the grooming reading both charge Celestia with shaping Twilight|conditions Twilight / conditioned or groomed|implicit
+  - 33|37|continues in time: from pure Red Love to a mix with friendship|pure Red Love / healthy mix of friendship and magic|implicit
+  - 33|35|continuation: little Pink Love then friendship learned|very little Pink Love / value of friendship|implicit
+  - 33|63|instance of pure ambition seen in the cutie mark story|pure Ambition/Magic/Talent / ambition to make things happen|implicit
+  - 63|1202|the special talent as ambition is repeated|special talent is magic / having the ambition|implicit
+  - 39|1980|scientific method in canon is the base for the return to being the empiricist scientist|follows the scientific method / empiricist scientist|implicit
+  - 1980|47|same arc: return to the scientist she was|goes back to being the empiricist scientist / return to form|implicit
+  - 438|1980|both state the rejection of Celestia to help Applejack at the front|to save Applejack / defied Celestia to go to the front and save Applejack|implicit
+  - 46|1980|the author's motivation is delivered by the contrast with P&K Twilight who is passive and captured|passive and getting captured and tortured / passive, captured and tortured into a coma|implicit
+  - 1865|46|both refuse the captured passive Twilight of other canons|does NOT get trapped in a cage / getting captured|implicit
+  - 1980|60|later reversal: she first agrees to stay off the front, then defies Celestia to go|agreed to stay off the frontline / defied Celestia to go to the front|implicit
+  - 45|438|reader expectation of Princess of Friendship is what the plan overturns|Princess of Friendship / rejects her destiny|implicit
+  - 1203|1207|outgrowing a parent is delivered by the anger then forgiveness of Celestia|outgrowing a parent / forgives Celestia|implicit
+  - 1207|1202|the anger at Celestia stunting her potential matches the ambition Celestia channeled|robbed her of her scientific potential / channel that ambition|implicit
+  - 416|53|being just a pony is set against the top-down alicorn labor of rubble lifting|isn't an infinite battery / raw, top-down Alicorn magic|implicit
+- outward:
+  - 48|real-world toy-line marketing requirements|Hasbro marketing mandates
+  - 49|a real-world show creator's early writing|Lauren Fuast wrote her in the early seasons
+  - 50|the show's Cutie Map plot device and early seasons|outsourced to the Cutie Map
+  - 63|canon episode of the entrance exam and Rainbow Dash's sonic rainboom|entrance exam / sonic rainboom
+  - 35|canon episode Friendship is Magic part 2|Friendship is Magic part 2
+  - 39|canon episode Feeling Pinkie Keen|Feeling Pinkie Keen
+  - 41|canon episode Applebuck Season|end of Applebuck Season
+  - 43|canon episode with Flim and Flam's cider machine|Flim and Flam's titular contraption
+  - 54|Ain Trotgourait and the Predator's Dilemma held elsewhere|Ain Trotgourait / Predator's Dilemma
+  - 53|Zebra alchemists and engineers|Zebra alchemists or engineers
+  - 59|Magical Supply Organization plan and Crystal Empire crystals|Magical Supply Organization
+  - 60|changeling conscripts in the war|starving Changeling conscripts
+  - 1207|other chapters and lore: 930 ALB petitions, Nightmare Moon truth, Griffonia, Skyfall, Aquileian, Griffenheim|Chapter 22 / Griffonia
+  - 352|the Dotted Line Report and the canon Cider Squeezy episode|Dotted Line Report / Cider Squeezy
+  - 547|canon episode The Crystal Empire Part 2|The Crystal Empire Part 2
+  - 1196|canon show ending and the Equestrian Republic held elsewhere|Twilight ruling Equestria / Equestrian Republic
+  - 1201|canon episodes where Twilight panics|She froze ponies, enchanted objects
+  - 1202|canon episode The Cutie Mark Chronicles|The Cutie Mark Chronicles
+  - 416|the Pax Chrysalia story|Pax Chrysalia
+  - 46|the EaW canon in which the changelings win|EaW canon when the changelings win
+  - 1865|the movie's Tempest Shadow|Tempest Shadow as depicted in the movie
+  - 1980|the P&K portrayal of Twilight|P&K Twilight
+  - 322|backing lore on alicorns and the alicorn-gate debate|Celestia historically always made ponies whose special talent is love-related into alicorns
+  - 1065|the school's trusted nations and other students|trusted nations
+- whole: These notes mostly hang together, with a clear thread running from the Applejack talent-obsolescence guilt and Celestia's expectations through the Ain Trotgourait burnout to the defiance and return to form, though the analogy, canon, and author-note entries sit more loosely beside that thread.

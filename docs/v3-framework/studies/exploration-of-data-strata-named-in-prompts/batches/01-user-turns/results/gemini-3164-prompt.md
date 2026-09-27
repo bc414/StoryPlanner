@@ -1,0 +1,11 @@
+- sources:
+  - the source code for my story planner from github | read to understand how the planner app is built and how its entities work | I am providing the source code for my story planner from github | first-named
+  - TheLionessOfTallTale.db.md (output of the GetMarkdown method) | use to understand what kind of data is stored in the various fields of the EF Core database the planner writes to | Use the TheLionessOfTallTale.db.md to understand what kind of data | first-named
+  - Minerva Master Scrolls (file of story writing best practices) | use as guidelines rather than hard rules; genre-specific needs may call for more emphasis beyond it | as guidelines (not hard rules but guidelines) | first-named
+  - image of the CharacterWindow for Applejack | shows how notes (NoteViewer) and chapter-ordered PlotPointCharacter payloads are presented; a view of the app to look at | One image has a CharacterWindow for Applejack | first-named
+  - image of the PlotPointWindow | shows how a plot point's connections, payload text fields, synopsis and other fields are presented; a view of the app to look at | Another image has a PlotPointWindow | first-named
+  - image of codex entries | shows codex entries acting as a catch-all for many kinds of entities in different categories; a view of the app to look at | codex entries are actually acting as catch all | first-named
+  - my current System Instructions for Gemini in AI Studio | read as what dictates the kind of analysis wanted and the kind of world building done with the planner | uploaded my current System Instructions for Gemini in AI Studio | first-named
+  - The 7 Fundamental Axes (my other system for categorizing notes) | optional candidate scheme for organizing notes; may or may not be relevant and may overlap with the System Instructions and Minerva Master Scrolls | The axes may or may not be relevant | first-named
+- order:
+- about: The user supplies their story planner code, database export, screenshots, writing-craft file, system instructions and an older note-categorization scheme, and asks the model to explain the organizational problem, how professional authors handle it, how to arrange the fabula so it serves writing the syuzhet, and what nuances beyond epistemology matter.

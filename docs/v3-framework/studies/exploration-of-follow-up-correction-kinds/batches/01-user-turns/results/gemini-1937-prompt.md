@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up comparison questions, Opus 4.6 extended thinking against Gemini Pro Deep Think and Claude Projects against NotebookLM, building on the model's recommendation without disputing any of it.

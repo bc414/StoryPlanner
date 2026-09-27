@@ -1,0 +1,10 @@
+- sources:
+  - early TLTT planning | treated as outdated in its wording; its cynicism and grimdark language is being replaced by a more focused, cohesive setup | "early TLTT planning used the language of cynicism and grimdark" | referred-to
+  - the lore and foundational arguments built out since | treated as the current basis for a more focused, cohesive setup | "built out more lore and foundational arguments" | referred-to
+  - EEEE as a generic worker's union | treated as superseded by the author's change to a machinists guild | "moved away from EEEE as a generic worker's union" | referred-to
+  - EEEE as a machinists guild retrofitting idle tycoon factories for defense | treated as the current design, whose reasoning the author wants tested | "made them a machinists guild that wants to retrofit" | referred-to
+  - the cynicism versus resilience framework from this conversation | treated as the lens the author now has for explaining the union and Bernie Sanders distinctions | "it seems I have the framework to articulate it" | referred-to
+  - the author's own long-held views on unions and progressive politics | treated as instincts the author wants the framework to explain, offered as questions rather than settled | "I always felt that unions in NYC who vote for Cuomo were rent seekers" | referred-to
+- order:
+  - the lore and foundational arguments built out since | over early TLTT planning | "Now that I've built out more lore and foundational arguments I think I can get a more focused and cohesive setup"
+- about: The author says the earlier TLTT planning leaned on cynicism and grimdark language that the newer lore is replacing, then uses the cynicism versus resilience framework to ask whether the EEEE machinists guild redesign, American unions, and Bernie Sanders and his movement fit that dividing line.

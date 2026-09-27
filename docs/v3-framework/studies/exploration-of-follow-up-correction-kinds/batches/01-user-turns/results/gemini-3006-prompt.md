@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for analogies to extend the model's framework, comparing it to calculators in math class, intermediate technologies like Google and Wikipedia, and anything else, without disputing anything the model said.

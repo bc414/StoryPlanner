@@ -1,0 +1,36 @@
+- passages:
+  - 5037 | title/label | short heading naming a meta-narrative | label for the Aquileians' ego-driven crusade theme | apart
+  - 5037 | analytical exposition | third-person sentence with 'represent...but too arrogant' construction | class analysis of Aquileians' appeal problem | apart
+  - 5046 | analytical exposition | causal present-tense worldbuilding, 'that's why', 'This is' | origins of unicorn combat magic and cartel's crystal investment | apart
+  - 5047 | title/label | short year/timeline heading | marks 1009 ALB | apart
+  - 5047 | analytical exposition | cause-effect sentences on Reich threat driving exploitation | cartel turning extractive for national security | apart
+  - 5075 | analytical exposition | extended cause-effect reasoning on B2B/B2C dynamics and war chest | market mechanics of toppling companies sector by sector | apart
+  - 5075 | reflective evaluative aside | subjective word 'hilarious', hydra simile, aphoristic close | verdict that the system persists despite toppled tycoons | apart
+  - 5076 | analytical exposition | single explanatory strategy sentence | chefs undercutting junk food corporations with real food | apart
+  - 5081 | title/label | naming line with translation in parentheses | HQ's name Le Creuset Souverain | apart
+  - 5081 | analytical exposition | descriptive prose on basin location, filtering flex, building's message | HQ's setting and symbolic messaging | apart
+  - 5081 | schematic list | tier-labeled fragments, no full-sentence prose | HQ's three tiers | apart
+  - 5081 | comparative meta-commentary | 'Tycoons think...' vs 'The Aquileian interpretation...' contrast structure | dual meaning of the HQ's name | apart
+  - 5083 | analytical exposition | single present-tense descriptive sentence | evening routine of chefs cooking and lionesses waitressing | apart
+  - 5085 | title/label | demographic heading | label for Unicorn Vanguard Lionesses | apart
+  - 5085 | analytical exposition | opening declarative sentences on dual role and danger | lionesses as street-muscle/waitresses chasing adrenaline | apart
+  - 5085 | anaphoric rhetorical parallelism | repeated 'Every day/evening/morning is...' sentence pattern | daily rhythm of tactical operation and passion | apart
+  - 5085 | analytical exposition | varied declarative sentences describing the city | Skyfall's manosphere danger and lionesses' strutting purpose | apart
+  - 5085 | comparative meta-commentary | reference to 'Part 3 of Coltbert's game', past/present contrast, aphoristic close | shift from personal scorecards to collective nationalist glory | apart
+  - 5407 | title/label | heading naming the routine | label 'a typical day' | apart
+  - 5407 | schematic list | sequence of present-tense action lines | daily schedule of the cartel pair | apart
+  - 5500 | analytical exposition | two paragraphs of causal explanatory prose | flawed Skyfall copying and Pridea-PNdA alliance against thieves | apart
+- shifts:
+  - 5037 | title/label | analytical exposition | heading gives way to a full explanatory sentence
+  - 5047 | title/label | analytical exposition | heading gives way to explanatory cause-effect sentences
+  - 5075 | analytical exposition | reflective evaluative aside | marked by hydra simile and evaluative word 'hilarious', closing aphorism
+  - 5081 | title/label | analytical exposition | naming tag gives way to descriptive prose
+  - 5081 | analytical exposition | schematic list | prose gives way to tier-labeled enumeration
+  - 5081 | schematic list | comparative meta-commentary | list gives way to full sentences contrasting two interpretations of the name
+  - 5085 | title/label | analytical exposition | heading gives way to descriptive sentences
+  - 5085 | analytical exposition | anaphoric rhetorical parallelism | marked by repeated 'Every day is...Every evening is...Every morning is...' pattern
+  - 5085 | anaphoric rhetorical parallelism | analytical exposition | pattern breaks, returns to varied declarative sentences about the city
+  - 5085 | analytical exposition | comparative meta-commentary | marked by reference to 'Part 3 of Coltbert's game' and past/present contrast, closing aphorism
+  - 5407 | title/label | schematic list | heading gives way to sequential present-tense action lines
+- registers: title/label; analytical exposition; reflective evaluative aside; schematic list; anaphoric rhetorical parallelism; comparative meta-commentary
+- whole: This item's notes move mostly between two anchoring registers, a short title/label and a sustained third-person analytical exposition, with several notes stepping aside into a schematic list, a rhythmic anaphoric passage, a reflective evaluative aside, or an explicit comparative meta-commentary, each shift landing at a clear sentence or paragraph break rather than mid-sentence.

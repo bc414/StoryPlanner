@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's offer and asks it to elaborate on how the physical hardware differences change AI training, without pointing at any body of material to draw on or avoid.

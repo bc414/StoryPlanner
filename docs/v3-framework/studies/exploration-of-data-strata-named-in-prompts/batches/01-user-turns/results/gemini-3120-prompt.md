@@ -1,0 +1,6 @@
+- sources:
+  - my TLTT story plans, specifically the details regarding Rarity's wings of dew | the material the model is asked to review, focusing on the wings-of-dew details | Please review my TLTT story plans | referred-to
+  - a different Rarishy story titled "Green" | the origin of a borrowed detail (wings reflecting a partner's colors); credited as an outside influence rather than the author's own invention | a detail I borrowed from a different Rarishy story titled "Green" | first-named
+  - the GIYC plan | material whose use as TLTT backstory is in question; the model is asked how much of it should be actual backstory, so it is treated as a candidate rather than settled canon | How much of the GIYC plan should be the actual backstory of TLTT? | referred-to
+- order:
+- about: The user asks the model to review their TLTT plans on Rarity's dew-butterfly wings, notes that the partner-colour-reflecting detail comes from another Rarishy story called "Green", and asks how much of the GIYC plan, including its romance arc, should serve as TLTT backstory.

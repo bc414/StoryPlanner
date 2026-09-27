@@ -1,0 +1,15 @@
+- passages:
+  - note 4492 | past-tense narrative summary | past tense, third person, recounts what did/didn't happen | Celestia not being sidelined; Applejack's own plan vs Celestia's wish | apart
+  - note 4492 | present-tense interior description | present tense, focus on feeling and doubt ('hurts', 'wondering') | Applejack's pain and uncertainty over disagreeing with Celestia | apart
+  - note 4492 | past-tense narrative summary (casual) | past tense, loose phrasing 'kind of just' | Celestia's hands-off wartime leadership style | apart
+  - note 4492 | present-tense behavioral/reasoning description | present tense, states standing rule and in-story reason | Celestia's one rule (no conscription) and Applejack's agreement | apart
+  - note 4492 | authorial craft aside | first-person 'I', names a trope, states writing intent | wanting to subvert the grimdark conscription trope | run-in
+  - note 4492 | plan-statement | framed by 'The idea is that', present tense, states intended development | Celestia reimposing the stagnation of harmony once the war ends | apart
+- shifts:
+  - note 4492 | past-tense narrative summary | present-tense interior description | tense turns from past to present, moves from event to Applejack's feeling
+  - note 4492 | present-tense interior description | past-tense narrative summary | tense turns from present back to past, resumes recounting the war
+  - note 4492 | past-tense narrative summary (casual) | present-tense behavioral/reasoning description | tense turns from past to present, moves from narrating the war to stating Celestia's standing rule
+  - note 4492 | present-tense behavioral/reasoning description | authorial craft aside | pronoun turns to first person 'I', names 'the grimdark conscription trope', inside the same parenthesis
+  - note 4492 | authorial craft aside | plan-statement | closes the parenthesis, drops first person, opens with 'The idea is that'
+- registers: past-tense narrative summary; present-tense interior description; present-tense behavioral/reasoning description; authorial craft aside; plan-statement
+- whole: This note moves through several registers — past-tense event summary, present-tense description of feeling and of standing rules, a first-person authorial aside on trope-subversion, and a closing plan-statement — with most changes falling at sentence breaks a reader would notice, except the turn into the authorial aside, which happens inside a single unbroken parenthesis.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes sanitizing all input up front (stripping whitespace and formatting, replacing pronouns with nouns) for every phase instead of only in the sorter, and asks whether that would make the text unnatural and hurt the AI's performance.

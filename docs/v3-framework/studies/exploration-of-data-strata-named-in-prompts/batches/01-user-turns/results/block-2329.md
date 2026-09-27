@@ -1,0 +1,4 @@
+- sources:
+  - what I've established about AJ rising through merit instead of celebrity | treat as settled story fact and build on it: it makes it plausible that AJ and Mali know each other's names before meeting | I've established that AJ rose through merit instead of celebrity | referred-to
+- order:
+- about: The user pushes back on the model's suggestion by saying AJ and Mali must meet and get acquainted in chapter 1 because Mali is an original character introduced through AJ, and adds that they may already know each other's names because of AJ's established merit-based rise.

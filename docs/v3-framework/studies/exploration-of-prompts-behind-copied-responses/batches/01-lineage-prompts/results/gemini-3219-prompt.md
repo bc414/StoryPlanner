@@ -1,0 +1,13 @@
+- asks:
+  - analyse | give an overview analysis of the Command & Conquer series and how it fits into 'the timeline' | "Now give an analysis of the command and conquer series and how it fits into the timeline"
+  - explain/history | explain who owns the franchise now and who Westwood and Electronic Arts were and what their motivations were | "who owns them (who were Westwood and Electronic Arts, what was their motivations)"
+  - validate a thesis | confirm or engage with the claim that Red Alert and Tiberium are 'materialist historicism engines' | "it seems like red alert and tiberium are exactly the materialist historicism engines"
+  - explain a pattern | explain why Generals is an exception to that pattern except for the particle cannon, and whether the asymmetry (only the Chinese faction gets a nuclear-type superweapon) reflects EA avoiding giving the Western faction tactical nukes | "Generals is the exception ... except for the particle cannon because I guess EA games can't have the western faction use tactical nukes, only the Chinese faction?"
+  - validate a claim | engage with the assertion that Command & Conquer 4 is a corporate-mandated entry that destroys Kane as a character and changes genre | "command and conquer 4 is such a glaringly obvious corporate mandate that destroys Kane as a character and also is basically a different genre"
+  - compare | determine whether Kane follows the same meta-narrative trajectory as Kerrigan (from StarCraft) | "Does he have the same meta narrative trajectory as Kerrigan?"
+- supplies:
+  - autobiographical anecdote | the user's personal history playing the franchise starting at age 5 in 2004, favorite titles (Generals, Zero Hour, Red Alert 3, Tiberium Wars), and memory of the Westwood vs EA opening logos | a few sentences
+  - interpretive claims | the user's own set of thesis-like observations about the franchise: Red Alert/Tiberium as ideological engines, Generals as an exception with a possible ideological asymmetry, and C&C4 as a corporate-driven derailment of Kane's character | a short paragraph
+- shaping:
+- openness: The message leans toward answers it names (materialist historicism engines, EA-driven asymmetry in Generals, corporate mandate ruining Kane in C&C4) and asks the model to confirm or elaborate on these, while ending with an open comparison question about Kane's trajectory versus Kerrigan's that is not itself answered in the message.
+- subject: The Command & Conquer franchise's history, ownership (Westwood vs EA), and ideological/narrative analysis of its games, including comparison of Kane to Kerrigan

@@ -1,0 +1,4 @@
+- sources:
+  - outside research with cited sources on who is getting vasectomies and manosphere men | draw on newly researched external evidence and cite it, to test whether the claim holds | Please research and provide sources | first-named
+- order:
+- about: The user questions whether the trend of young men getting vasectomies really reflects a balanced lion-and-eagle temperament, with manosphere men as the pure-lion contrast, and asks the model to research the question and give sources.

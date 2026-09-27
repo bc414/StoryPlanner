@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of the show's bureaucratic shift and ties it to their own plan, adding the Harmonic Capitalism town hall and naming Twilight's opening conflict as wanting to be with Applejack while feeling she is letting Celestia down.

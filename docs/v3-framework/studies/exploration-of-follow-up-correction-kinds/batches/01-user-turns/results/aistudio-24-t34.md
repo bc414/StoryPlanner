@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn supplies a new attached document and a new JSON list of categorized bucket names for a different set of story material (revolutions, economic systems, factions), continuing the sorting workflow without commenting on or objecting to the model's previous output.

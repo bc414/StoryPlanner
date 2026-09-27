@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user poses a new what-if variant, asking what follows if the changelings are the ones who destroy the dam mid-battle, without disputing anything in the model's previous answer.

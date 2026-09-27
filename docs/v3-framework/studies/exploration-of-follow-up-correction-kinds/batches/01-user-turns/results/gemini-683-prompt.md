@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the Skyfall shell company and Rockfeller setup and asks a follow-up about timing: whether the shell company approaches him with the threat and the offer to collaborate before or after the war starts.

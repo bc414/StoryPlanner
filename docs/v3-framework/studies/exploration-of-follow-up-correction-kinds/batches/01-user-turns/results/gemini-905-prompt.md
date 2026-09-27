@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the historical comparison of family-abolishing societies and asks a follow-up about how changelings' egg or cocoon reproduction would change whether such a system is feasible, without saying anything in the model's turn was wrong.

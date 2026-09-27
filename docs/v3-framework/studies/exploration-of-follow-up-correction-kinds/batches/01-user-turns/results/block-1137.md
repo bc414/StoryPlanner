@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's invented Fluttershy origin (Cloudsdale industrial alienation, Griffonian hunter bestiaries, the Stare as predator-dominance technique, shy persona as calculated armor) is said to conflict with the core of her character as the user's own written origin expansion has it | This above response does not align with the core of Fluttershy's character at all | flat, blunt rejection of the whole answer, stated as a general verdict without itemizing what is wrong
+  - which material was drawn on | The model built the origin from its own extrapolation instead of the user's authored origin story, which the user now supplies and asks it to review | Please review the attached expansion of the origin story I wrote | direct instruction to redo the work from the attached document, implying the model should have used the user's canon material as its basis
+- about: The user rejects the model's invented Fluttershy origin as out of character and redirects it to review the origin expansion they wrote and attached.

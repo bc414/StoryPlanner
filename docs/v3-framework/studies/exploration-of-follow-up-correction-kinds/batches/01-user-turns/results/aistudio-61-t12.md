@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of why the Tall Tale workers accept the Star Energy brand (status payment, feeling part of an elite vanguard under Comet Shine's ego branding) is replaced by a community consensus that Star Energy equals Tall Tale, driven by a centuries-old casino-versus-harvest cultural rivalry with Las Pegasus | I think the workers buy into Comet Shine's brand not because they want to feel elite, but because | stated flatly as the user's own view, contrasting 'not because X but because Y' with a reason given, no apology or irritation
+- about: The user answers the model's first Socratic question by rejecting the model's status-and-elitism explanation for worker buy-in and supplying their own account of a collective, rivalry-driven identification of the brand with Tall Tale.

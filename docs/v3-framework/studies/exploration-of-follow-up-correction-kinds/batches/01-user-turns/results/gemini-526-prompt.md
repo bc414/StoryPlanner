@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Fluttershy-versus-Applejack discussion to ask, as a fresh and broader request, for an analysis of who the story's main characters and antagonists are.

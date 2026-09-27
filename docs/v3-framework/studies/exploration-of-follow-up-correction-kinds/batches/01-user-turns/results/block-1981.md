@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's point-by-point clarifications to a new task, asking it to review the v1 db file and flag subjects that may be missing.

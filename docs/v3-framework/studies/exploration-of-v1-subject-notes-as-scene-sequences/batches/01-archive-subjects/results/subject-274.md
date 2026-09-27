@@ -1,0 +1,6 @@
+- passages:
+  - 4933 | statement about the subject | The weapon of mass destruction already existed (Luna's spell, nuclear bombs) but goes unused for ethical reasons, so the story is back to a meat grinder and must innovate from the bottom up rather than through a top-down nuke or power plant | none | framed as the core theme, stated in general terms with no event or moment
+  - 4933 | thematic statement | Escalation deepens moral rot and drives a race to the bottom; the real solution is grassroots empowerment and global empathy | none | general claim about what the story argues, no event or moment
+  - 4935 | statement about the subject | In this story the nuke is spread across millions of ponies rather than concentrated in Luna as it was 1000 years ago | 1000 years ago | single comparative statement of how the weapon is set up, no event; the time reference is relative and only anchors the contrast
+- sequences:
+- whole: Two short design notes that set out the theme and setup of the weapon of mass destruction (an existing but unused weapon, now spread across millions of ponies rather than held by Luna, with grassroots empowerment and empathy as the answer to escalation), with no scene beats in either.

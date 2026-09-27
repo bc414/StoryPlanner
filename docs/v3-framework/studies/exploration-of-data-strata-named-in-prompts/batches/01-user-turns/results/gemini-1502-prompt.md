@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a further story detail to the export economy just discussed, saying Discret funded a note-paid fleet to guard Equestria-bound ships from the Skyfall pirates as part of Coltbert's plan, without pointing at any body of material for the model to use or avoid.

@@ -1,0 +1,4 @@
+- sources:
+  - the mod's history, development, and lore (Equestria at War) | research it and base the analysis of German usage for the changelings and griffins on it | Do some research into the mod's history, development, and lore | referred-to
+- order:
+- about: The user asks the model to research the Equestria at War mod's history, development and lore and then analyse why German is used by both the changeling and griffin factions.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's reading and connects it to their broader method of giving characters like Chrysalis, Grover III and Coltbert in-world causal origins, now extended to Applejack, without correcting anything.

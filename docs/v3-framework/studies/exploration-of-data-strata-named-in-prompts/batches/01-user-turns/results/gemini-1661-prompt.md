@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a story premise they assert, that Acornage suffered an atrocity on the scale of the Nanjing massacre while Vanhoover and Olenia were occupied cleanly, explains why Star Energy destroyed its own dam before contact.

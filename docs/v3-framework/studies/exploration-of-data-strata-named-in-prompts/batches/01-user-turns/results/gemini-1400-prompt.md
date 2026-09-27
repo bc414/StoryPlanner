@@ -1,0 +1,4 @@
+- sources:
+  - my story plans (the Fraternity private-party scene where Kemerskai reveals his history, and Applejack's takeaways and resolve) | provisional proposals for the model to review and give feedback on, not settled; the author hedges with belief and supposition | Please review my story plans; I believe Kemerskai should teach; I suppose one takeaway; maybe Applejack feared | first-named
+- order:
+- about: The author proposes a Fraternity-chapter scene in which Kemerskai's true history corrects Henri's biased view and shapes Applejack's takeaways and her decision to return home for a referendum, and asks the model to review these plans.

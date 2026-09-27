@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's premise by saying the siren is plain sound warfare with no magical panic, and restates their understanding of the two Spitfire-equivalent roles (a dogfighting interceptor that can do close support with a unicorn aboard, and an armored variant for low-level ground support).

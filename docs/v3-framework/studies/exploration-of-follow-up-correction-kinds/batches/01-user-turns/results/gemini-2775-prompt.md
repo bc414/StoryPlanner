@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes a note on how Applejack earned her generalship through basic training and then asks how it affects her imposter syndrome arc. They add the earlier "star slapped on" version and the new merit-based one, and none of this disputes what the model said.

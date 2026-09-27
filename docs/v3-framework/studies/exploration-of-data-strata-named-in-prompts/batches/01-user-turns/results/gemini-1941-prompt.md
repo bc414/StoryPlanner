@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the code discussion and asks for an SVG drawing of the character Applejack from My Little Pony: Friendship is Magic in a trotting pose, without pointing the model at any body of material to use or avoid.

@@ -1,0 +1,4 @@
+- sources:
+  - the v1 notes | material to be interpreted and mined as the input for filling in v2; the raw material to work from, with no claim of reliability or priority | interpreting the v1 notes to begin populating v2 | referred-to
+- order:
+- about: The user asks for methodology recommendations and a way to determine a path forward for turning their v1 notes into content for the v2 system, because the task feels arduous.

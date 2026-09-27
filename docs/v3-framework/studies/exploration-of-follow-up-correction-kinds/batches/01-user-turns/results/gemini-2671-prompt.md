@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model applied the term 'Poseur' to the arrogant, stagnant Aquileian nobles in its account of the early economic files, whereas the user recalls coining it for the changelings | I believe I originally came up with the concept of "poseur" to refer to the changelings | Hedged as a recollection ('I believe'), stated plainly without irritation, and paired with a request to check
+  - which material was drawn on | The model's history of the term's origin, tracing it to the summer–fall 2025 files, is questioned, and the user asks for the term's real first appearance to be found in the notebooks | Please find where this term came from in my development history in the notebooks | Put as a direct instruction to search again, implying the earlier trace was misplaced, and not stated as an accusation
+- about: The user pushes back on the model's attribution of 'poseur' to nobles by saying it began with the changelings, asks for its true origin to be traced in the notebooks, and asks whether Chrysalis is therefore not a poseur or the ultimate one.

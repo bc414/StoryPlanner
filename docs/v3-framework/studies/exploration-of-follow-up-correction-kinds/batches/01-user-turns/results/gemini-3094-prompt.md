@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's closing question presumed the main narrative has Chrysalis-focused chapters showing her reaction to Equestria's industrialization; the user says she has no perspective in the main story and her development belongs to a separate sequel | Chrysalis is not given a perspective during the main narrative | flat statement of the plan's fact, with the sequel structure given as context, no apology or irritation, and followed straight away by a new question
+- about: The user sets aside the model's premise that Chrysalis would get on-page chapters by stating she has no perspective in the main story and belongs to a sequel, then asks whether her absence makes sense and whether she should change within the main timeframe.

@@ -1,0 +1,5 @@
+- sources:
+  - each type of window's notes, copied to JSON | material to be consolidated into a shorter form with every detail retained, then re-imported into the window | copy its notes to json ... consolidate while retaining all details | first-named
+  - notebook lm which has the full context | the full-context body the pasted notes are checked and consolidated against; where the consolidation is done | paste this into notebook lm which has the full context | first-named
+- order:
+- about: The user proposes a workflow for shrinking the token count of their notes by exporting each window's notes as JSON, having NotebookLM consolidate them concisely without losing detail, and importing the JSON back, and asks whether this is a good approach or whether something better exists.

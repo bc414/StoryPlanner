@@ -1,0 +1,15 @@
+- steps:
+  - author | supplies background | an attached document, contents never captured | opening turn of the conversation
+  - author | reframes and questions | a revised, less grandiose motive for Chrysalis (unite hives, humiliate classmates) plus a string of sub-questions on subordinate agency, ego payoff, and the logic of invading Olenia then Equestria | second turn
+  - model | answers with worldbuilt analysis | a four-part economic/political explanation (Ponzi-like hive economy, subordinate factions driving action, Olenia as ego validation, Equestria as strategic stepping-stone) closing with two follow-up questions | model's first reply
+  - author | pivots with a new claim | asserts Chrysalis's failures come from projecting her own sociopathy onto others and asks what upbringing produced this | fourth turn
+  - model | builds psychological backstory | a five-part analysis tracing the projection to caloric scarcity, a mother's death, a commodified fake family, and school humiliation, closing with two follow-up questions | model's second reply
+  - author | corrects a detail | notes Chrysalis did see functioning Pink Love at Acornage, among changelings who chose to live as ponies | sixth turn
+  - model | revises the analysis around the correction | reworks the account into four parts reading Acornage as domestication and threat, explaining the purge as necessary containment, closing with two follow-up questions | model's third reply
+- kept:
+  - note 5592 | pasted whole from this reply | keeps the maternal-death/False-Self paragraph from the model's psychological analysis, filed to Queen Chrysalis
+  - note 5593 | pasted whole from this reply | keeps the commodified-fake-family paragraphs from the model's psychological analysis, filed to Queen Chrysalis
+  - note 5594 | pasted whole from this reply | keeps the Griffenheim-humiliation and Acornage-as-domestication/Harmony-as-soft-imperialism paragraphs, filed to Queen Chrysalis
+  - note 5595 | pasted from this reply inside the author's own framing | keeps the labor-hemorrhage rationale for the Acornage purge, filed to The Purge of Acornage (1002) and framed as the reason for the purge
+- brought: The author brought an uncaptured background document plus their own working reframe of Chrysalis's motives, testing and then correcting it against the model's worldbuilding.
+- loop: The author feeds in a partial reframe, a psychological hypothesis, and a factual correction in turn; the model each time returns an elaborated, multi-part in-world rationale, and the planning database keeps those elaborated paragraphs wholesale (once inside the author's own framing) as entries under the Chrysalis character and the Acornage purge event.

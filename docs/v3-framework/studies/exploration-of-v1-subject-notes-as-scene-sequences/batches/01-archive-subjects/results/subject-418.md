@@ -1,0 +1,9 @@
+- passages:
+  - 46 | statement about the subject | a design rationale: the structure lets the sex scenes serve as character development mirroring the nation's political awakening, so sexual liberty equals political liberty | none | explanatory claim with an equation, no event
+  - 45 | scene beat without a year | Chapter 2 scene showing the ideal of intimacy through Henri and Fleur, who are confident, playful and integrated | none | numbered list item headed "Ch 2", no calendar date
+  - 45 | scene beat without a year | Chapter 12 morning scene showing the deficiency in Twi and AJ, who are repressed, innocent and stagnant | none | list item headed "Ch 12 (Morning)", no calendar date
+  - 45 | scene beat without a year | Chapter 12 lesson scene where the theory is taught, deconstructing the fear of the "Predator" | none | list item headed "Ch 12 (Lesson)", no calendar date
+  - 45 | scene beat without a year | Chapter 12 night scene where the practice begins, with awkward but healing steps toward the ideal | none | list item headed "Ch 12 (Night)", no calendar date
+- sequences:
+  - 45 | four beats running from the ideal in Chapter 2, through Chapter 12's morning deficiency and lesson on theory, to the night's first practice | numbered list 1-4, chapter order, then Morning, Lesson, Night
+- whole: The subject's two notes are a chapter-by-chapter outline of four undated scenes that move from an ideal, through a deficiency and a lesson, to first practice, plus a thematic statement that sexual liberty mirrors political liberty.

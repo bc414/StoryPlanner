@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user brings a block of their own earlier notes on Wingbardy (as modern China), Colthage, the Hippogriffs and the post-war settlement, and asks the model to synthesize or compare them with what it just wrote, without saying the model's account is wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches their original pre-Gemini planning document and asks the model to compare it with the current story plan for material usable in the reader-epistemology work, which extends the discussion without saying anything in the model's turn was wrong.

@@ -1,0 +1,12 @@
+- asks:
+  - state/settle | presents a revised understanding of what should bridge chapter 7 to chapter 8, adding the war-bond/command-economy logic alongside the original Rarity-statue realization | "Now I see the war bond info is a necessary bridge too"
+  - state/settle | reframes the purpose of the meeting scene as being about extracting oil from Rockefeller rather than the original framing | "the point of the meeting in the first place should be about how to get the oil out of Rockfeller"
+  - narrate/lay out | walks through a chain of plot beats: Comet Shine's war-bond offer and Rockefeller's refusal, his counter-demand to arrest the buffalo, the buffalo revealing hoarding without proof, Fluttershy's discovery that some buffalo can talk to animals, the animals' sabotage motive, and the reveal of hidden oil warehouses in Las Pegasus | the paragraph beginning "Comet Shine tries offering Rockfeller war bonds"
+  - state/settle | ties this discovery mechanism to the founding of the 'cute intelligence agency' to be led by Fluttershy | "the foundation for the cute intelligence agency (CIA) which Fluttershy will lead"
+  - state/settle | concludes how this sequence leads to Rockefeller's arrest and to Comet Shine and Fleur Bloom unveiling harmonic capitalism and war bonds to workers and buffalo | "this is how Rockfeller is arrested and Comet Shine and Fleur Bloom unveil harmonic capitalism and war bonds"
+- supplies:
+  - prior plan summary | the original planned bridge from chapter 7 to 8: Rarity's comment about Celestia being a statue prompting Rainbow Dash to realize the fight is for each other not the state, dropping her heroism/atlas complex | a few sentences
+  - revised plot chain | a new sequence covering the meeting's purpose, Comet Shine's failed war-bond offer to Rockefeller, the buffalo/animal sabotage discovery, founding of the intelligence agency, and Rockefeller's eventual arrest with the unveiling of harmonic capitalism | a paragraph
+- shaping:
+- openness: Leans toward an answer it names: the message asserts its revised plot logic and resolution as settled fact throughout (\"Now I see...\", \"should be about...\", \"this is how...\") rather than posing a question or offering alternatives.
+- subject: Revising the chapter 7–8 story bridge to center on Rockefeller's oil hoarding, war bonds, and the buffalo/animal network that founds the Cute Intelligence Agency

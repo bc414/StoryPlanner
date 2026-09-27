@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's rebuilt picture, notes a tension with the game's famine flavor text, and asks a new question about what post-995 Stalliongrad would do, including exporting revolution, Prywhen, the transition years, and a Trotskyist versus Stalinist-adjacent contrast.

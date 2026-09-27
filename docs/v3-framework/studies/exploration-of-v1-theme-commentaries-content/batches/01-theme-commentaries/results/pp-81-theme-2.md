@@ -1,0 +1,4 @@
+- passages:
+  - bearing on theme | Asserts that arguing or talking cannot settle the balance question in this scene; the theme has to be proven by something other than speech, which frames the scene's dialogue as insufficient | Words aren't enough | no | terse declarative, planning shorthand
+  - bearing on theme | States what the theme demands of the characters afterward: Applejack and Twilight must show Celestia and Luna that a healthy balance (Liberty) is achievable, so the balance is put forward as something to be proven to the two skeptical princesses. It adds Twilight as a partner in the proof | Applejack and Twilight must demonstrate to Celestia and Luna that a healthy balance can be achieved | yes | directive, expository, uses 'must demonstrate'
+- whole: A two-sentence note saying the scene's talk cannot resolve the balance question and that Applejack and Twilight must go on to prove to Celestia and Luna that a healthy balance can be achieved.

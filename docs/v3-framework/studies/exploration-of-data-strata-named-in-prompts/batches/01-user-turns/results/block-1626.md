@@ -1,0 +1,5 @@
+- sources:
+  - Minette's character entry in v1 (the tangled scene text) | treat as a dumping ground of prequel plans whose insights must be preserved by giving them a proper home (a prequel plot point) in v2, not just moving the text | used Minette's character entry in v1 as essentially a dumping ground for plans for her prequel | referred-to
+  - the prequels' outline | exists in some form and may partly support building prequel plot point skeletons now, but the author is unsure | They do have some sort of outline | referred-to
+- order:
+- about: The author explains that because v1's Minette entry doubled as prequel planning, the scene-specific insight would be lost without its own plot point in v2, says the WI and T fields will be left empty for later, and weighs whether to build prequel skeletons now to avoid double work.

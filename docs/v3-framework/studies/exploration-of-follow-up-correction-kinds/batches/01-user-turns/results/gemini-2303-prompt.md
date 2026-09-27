@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, comparing the engine efficiency figures to stationary power-plant generators and asking for the combustion differences between vehicle engines and power plants, without challenging anything in the model's answer.

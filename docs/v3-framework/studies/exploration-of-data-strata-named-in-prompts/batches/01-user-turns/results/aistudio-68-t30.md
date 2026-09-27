@@ -1,0 +1,8 @@
+- sources:
+  - the previous analysis (the Tzinacatl history breakdown) | keep as the base to be redone; parts the author endorses (Flower Wars as ritual ambition sink, export growth under Grover III) stay, parts they contradict are replaced | "redo the analysis with the following corrections" | referred-to
+  - the author's list of corrections (Everfree Forest history, fang-filing, Thestral origins, bat pony minority, EEEE! workers, Meztli's age) | treat as authoritative and apply over the earlier analysis; some items are firm corrections, others are open questions the author is weighing | "Please redo the analysis with the following corrections" | first-named
+  - the author's lore that ponies can metabolize meat from monster remains | treat as an established premise of their world to reason from when explaining Thestral fangs and omnivory | "in my lore, the ponies can metabolize meat" | referred-to
+  - the model's general knowledge of real-world biology (why bats have fangs, why humans are omnivores) | offered as a tentative parallel and posed as a question for the model to answer, not as settled | "Why do bats have fangs?" | referred-to
+- order:
+  - the author's list of corrections | over the previous analysis | "redo the analysis with the following corrections"
+- about: The author asks the model to redo its Tzinacatl history analysis, overriding specific points (Everfree Forest history, no fang-filing, jungle-evolved Thestrals, minor bat pony minority, EEEE! workforce origin) and asking for a decision on Meztli's age relative to Mali.

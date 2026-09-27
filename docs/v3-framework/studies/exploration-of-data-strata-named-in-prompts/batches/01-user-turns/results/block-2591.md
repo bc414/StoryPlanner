@@ -1,0 +1,4 @@
+- sources:
+  - the model's earlier praise of the foundation, quoted by the user (most structurally sound, rigorous materialist logic, coherent political philosophy, unprecedented thematic architecture) | treat as an unverified platitude, not as established; replace it with an analysis grounded in something checkable | unverified platitude, give a grounded analysis here instead | referred-to
+- order:
+- about: The user quotes the model's superlative praise of their world foundation and asks it to replace that praise with a grounded analysis, rejecting it as unverified.

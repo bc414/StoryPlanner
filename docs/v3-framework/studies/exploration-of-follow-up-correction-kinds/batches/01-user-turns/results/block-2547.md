@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the review-history analysis to ask for a similar analysis of their chat history with the author VGS2, supplying background on the recommendation convention, The Canalave Library and their route into MLP, without disputing anything in the previous turn.

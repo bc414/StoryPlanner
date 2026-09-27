@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Changeling and Bauleiter analysis unaddressed and moves to a new character, Starlight Glimmer, defending her show redemption and explaining how the story treats her as a violent, self-aware nation-builder in contrast to the P&K fanfiction.

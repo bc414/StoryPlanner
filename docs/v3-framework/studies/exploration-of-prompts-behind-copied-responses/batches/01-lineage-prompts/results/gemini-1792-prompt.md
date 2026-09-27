@@ -1,0 +1,8 @@
+- asks:
+  - check | evaluate whether a stated thematic takeaway works | "Does this work?"
+- supplies:
+  - idea, a stated thematic takeaway | a distinction between watching TV/gaming/doomscrolling out of happiness versus doing so because structural factors (loneliness epidemic, technology, society, environment) foreclose higher forms of societal participation | a couple of sentences
+- shaping:
+  - the takeaway is specified as what should emerge from Applejack's synthesis specifically | "come out of Applejack's synthesis"
+- openness: Asks the model to check what it already states: the message names the exact thesis it wants and simply asks whether it works.
+- subject: A character's (Applejack's) thematic synthesis distinguishing happy TV-watching from screen use driven by structural loneliness

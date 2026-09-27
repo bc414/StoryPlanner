@@ -1,0 +1,4 @@
+- sources:
+  - my file | must be read in full on every question and never skipped, so answers are always grounded in it | ensure that it reads my file on every question instead of skipping | referred-to
+- order:
+- about: The user rejects the C# integration route and says they want a plain chat interface with settable system instructions, a visible token count, and a guarantee that their file is read on every question.

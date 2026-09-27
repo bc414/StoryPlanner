@@ -1,0 +1,11 @@
+- relations:
+  - 1914|1916|purpose and means: the reason for inventing (getting around the highest-grade crystal bottleneck) and the machine that makes lower-grade crystals usable|"supply chain bottleneck" / "stabilize the flow out of lower grade crystals"|implicit
+  - 1916|1917|continuation in time and scaling: the machine is made, then griffons and unicorns build on it, using the griffon artisan's stabilizer to power T2 and produce T1 copies|"then start bootstrapping the process to scale up" / "griffon artisan's magic flow stabilizer machine"|explicit
+  - 1916|1941|elaboration of how the machine works: the machine's control by its griffon builder is joined by a further operating condition, that it runs in vacuum with the crystal punctured|"stabilizer must be operated at vacuum" / "machine must be controlled by the griffon"|implicit
+  - 1915|1917|general claim and its instance: the collaboration of unicorns and griffons stated as an effect is laid out step by step as the unicorn etches and the griffon powers the matrix|"unicorn and griffon collaboration" / "griffons and unicorns then start bootstrapping"|implicit
+  - 1915|1916|reason for the effect: the collaboration follows from the asset specificity of a machine that only its griffon builder can control|"asset specificity and material conditions" / "must be controlled by the griffon who built it"|implicit
+- outward:
+  - 1914|Diamond Mountain, its slave-labor mining of top-grade crystals, and the supply chain, all held elsewhere|"Diamond Mountain's unfortunate slave labor"
+  - 1915|a later economic development, ego capitalism, of which this technology is the precursor|"Pre-cursor to ego capitalism"
+  - 1917|the lithography spell and the spell matrix product, and the crystal enhancer, as magic lore defined elsewhere|"lithography spell to etch the new spell into a spell matrix"
+- whole: The notes hang together as one chain from motive (1914) through the machine (1916, 1941) and its scaling (1917) to the social effect (1915), though most joints rest on content rather than on pointers.

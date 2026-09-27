@@ -1,0 +1,8 @@
+- steps:
+  - the author | reports a problem | a UI bug description: drag-and-drop works from toolbox to canvas but not for items already placed | opening of the conversation
+  - the model | diagnoses | three candidate technical causes (missing Thumb, hit-testing trap, missing two-way bindings) plus a request for the relevant XAML files | first response
+  - the author | redirects | asks for an explanation of the underlying concepts (Thumbs, Templates) instead of continuing the specific debug | second turn
+  - the model | explains from first principles | a conceptual walkthrough of what Templates and Thumbs are and how they combine to enable drag behavior, with an illustrative code snippet | second response
+- kept:
+- brought: none
+- loop: The author brought a technical implementation problem from outside the planning process (a WPF drag-and-drop bug) and then a request to understand the underlying mechanism; the model returned diagnosis and explanation, but nothing from this exchange was captured into the planning database.

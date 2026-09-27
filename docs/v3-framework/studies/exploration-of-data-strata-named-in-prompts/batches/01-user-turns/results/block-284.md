@@ -1,0 +1,5 @@
+- sources:
+  - this backstory (the DRM-equivalent crystals in griffon messaging systems, OEM chip signatures, unbridling by machining replacement parts) | treat as the new basis to build on; use it to enhance the chapter's decision and debate | how does this backstory enhance chapter 12 Crash | first-named
+  - chapter 12 Crash (the decision and debate on integrating the Skyfall aligned Tzinacatl and sending drugs to Skyfall for vacuum valves for the Luna Nova Rifles) | the existing plan section the new backstory is to be applied to and enriched | when making the decision and debate on integrating the Skyfall aligned Tzinacatl | referred-to
+- order:
+- about: The user adds new details on how the DRM crystals and OEM-chipped parts work and how unbridling would be done, then asks how this backstory strengthens the chapter 12 Crash decision and debate.

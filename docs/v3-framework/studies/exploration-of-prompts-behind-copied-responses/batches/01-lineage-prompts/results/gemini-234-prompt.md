@@ -1,0 +1,8 @@
+- asks:
+  - estimate | asks for a realistic timeline for how much time should pass between the counter-revolution, Chrysalis's industrialized conquest of Vraks, and Kemerskai's meritocratic machine being established, given the sequence the message lays out | "Although this might be too fast. What's a realistic timeline?"
+- supplies:
+  - idea pitch | a new plot arc: Synovial's capture and trial, the griffon knightly conventions of war, Chrysalis's hollow copying of Herzlander culture, Trimmel/Henri's tactical evolution, and a proposed post-press-conference party scene with Kemerskai | several paragraphs of freshly composed worldbuilding and plot narration
+- shaping:
+  - the timeline answer should fit the stated causal chain: counter-revolution ends, Herzland aid follows, Vraks meritocracy develops, Chrysalis then builds industrial power and conquers Vraks in the war's second year (proposed as 985, four years after the counter-revolution) | "Chrysalis needs to observe some results through infiltrators... By the time she built up and defeated Vraks, Kemerskai would have had enough time to get his meritocratic machine going"
+- openness: The message proposes a specific tentative timeline (985, four years after the counter-revolution) but explicitly flags "this might be too fast" and asks for a realistic alternative, so it leans toward a named answer while asking it to be checked and possibly revised.
+- subject: Plotting Synovial's capture/trial arc and the griffon war-ethics/changeling-copying backstory, with a specific question about the Great Leap Forward/Vraks conquest timeline

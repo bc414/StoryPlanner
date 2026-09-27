@@ -1,0 +1,8 @@
+- passages:
+  - 5101 | statement about the subject | Equestria, the Anglosphere equivalent in EaW, is the Stagnation of Harmony (post-1991 West), so British allegories are spread across several different EaW factions | none | plain declarative of what Equestria is and how the allegories are distributed; no event or date of story action
+  - 5102 | statement about the subject | Herzland is equated with British early industrialization | none | equation with an "=" sign; allegory mapping
+  - 5103 | statement about the subject | Wingbardy is equated with British imperialism, early constitutional monarchy (Magna Carta) and bourgeois dominance | none | equation with an "=" sign; allegory mapping
+  - 5104 | statement about the subject | The Battle of Mount Aris is equated with the Battle of Britain | none | equation with an "=" sign; allegory mapping, not a scene
+  - 5105 | statement about the subject | Skyfall/Chrysalis is equated with the opium wars and protection rackets | none | equation with an "=" sign; allegory mapping
+- sequences:
+- whole: Five short author-side mapping notes that state which in-setting factions and events stand in for British historical counterparts, with no scene beats, dates or sequences.

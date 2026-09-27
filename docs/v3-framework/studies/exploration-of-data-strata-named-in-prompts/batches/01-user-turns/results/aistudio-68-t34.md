@@ -1,0 +1,5 @@
+- sources:
+  - my existing story plans | weight: consult it to determine what it currently says about Celestia's views of Aquileia and their thematic purpose | marks it: "In my existing story plans, what are Celestia's views of Aquileia" | referred-to
+  - the change in Equestria's timeline | weight: use it as the point against which the existing material's continued validity should be judged, deciding whether to preserve or adapt | marks it: "Should they be preserved or adapted in light of the change in Equestria's timeline" | referred-to
+- order:
+- about: The user asks the model to recall Celestia's established in-plan views of Aquileia and their thematic function, and to judge whether that material should stay as is or be adapted given the newly proposed 914 ALB timeline change.

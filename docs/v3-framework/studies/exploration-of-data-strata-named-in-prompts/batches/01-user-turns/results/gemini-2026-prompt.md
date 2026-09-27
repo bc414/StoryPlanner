@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to change their pipeline's phase 0 so the paradigm names it outputs come out more fundamental and less wordy, without pointing the model at any body of material.

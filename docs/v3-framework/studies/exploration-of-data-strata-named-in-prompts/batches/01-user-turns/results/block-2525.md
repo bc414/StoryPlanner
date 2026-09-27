@@ -1,0 +1,4 @@
+- sources:
+  - Redhawk's synopsis | the material the model is asked to analyze, as a further subject alongside the reviews already covered | Offer some analysis of Redhawk's synopsis too | referred-to
+- order:
+- about: The user asks the model to extend its analysis to Redhawk's plot synopsis, in addition to the 2020 reviews and Discord material it just discussed.

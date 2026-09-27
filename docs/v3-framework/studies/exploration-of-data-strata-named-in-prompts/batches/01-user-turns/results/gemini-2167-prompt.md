@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | re-read and check the plans again; the model's prior analysis should be brought in line with them, particularly on when the harmonic capitalism tenets are revealed and how Applejack's view changes | Please review my story plans again | referred-to
+- order:
+- about: The user asks the model to re-read their story plans, corrects the timing of the harmonic capitalism reveal and Applejack's arc, and asks how to reveal earth pony magic as advanced weapons at the town hall given that locals volunteering their farms would already know.

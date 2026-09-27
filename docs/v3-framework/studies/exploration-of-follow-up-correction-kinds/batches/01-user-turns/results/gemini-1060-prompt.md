@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's chapter flow treated Henri's conversation with Applejack as a single scene (the lesson on Lion and Eagle) placed after the Stare, but the plan has two separate talks, the first about getting details and containing the Fleur where-do-foals-come-from comedy, so the placement question is really which gap the Stare fills | Henri talks to Applejack twice after the war council | flat factual restatement of the plan's structure, given as the premise of a narrower question and without any explicit statement that the model erred
+- about: The user restates that Henri speaks with Applejack twice after the war council, which the model had collapsed into one talk, and asks for a comparative analysis of putting Fluttershy's stare before the first talk or between the two.

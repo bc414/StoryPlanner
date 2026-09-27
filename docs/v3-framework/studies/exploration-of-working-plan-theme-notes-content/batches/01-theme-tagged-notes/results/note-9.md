@@ -1,0 +1,4 @@
+- claims:
+  - restatement | Applejack comes to value the Stagnation of Harmony, the sheltered traditional order, late in her arc | Applejack eventually recognizes the value of the Stagnation of Harmony | Where does Applejack's arc end up regarding the stagnant, traditional order? | yes
+  - design commitment | Applejack ends by holding the stagnant Harmony tradition together with Aquileian individualism as a combined stance, not swapping one for the other | integrates it alongside Aquileian individualism | What final synthesis of values does Applejack's development reach? | yes
+- theme: It names the theme's territory (the sheltered Stagnation and its value) without arguing the proposition. It says nothing about shelter building moral capacity or about capacity creating obligation, and it gives no evidence for either.

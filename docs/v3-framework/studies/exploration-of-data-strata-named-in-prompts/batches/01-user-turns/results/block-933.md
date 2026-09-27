@@ -1,0 +1,4 @@
+- sources:
+  - NYC history | a body of real-world history the model is asked to suggest inspiration from for the scene, as a creative resource | What inspiration can I draw from, from NYC history? | first-named
+- order:
+- about: The user proposes how the drug-dealer scene should flow into the next chapter scene (Flowing Current confronting the dealer, then a scene break to Rarity's shop) and asks the model to suggest NYC history to draw inspiration from.

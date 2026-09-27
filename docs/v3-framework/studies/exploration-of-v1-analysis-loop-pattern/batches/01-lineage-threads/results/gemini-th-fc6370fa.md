@@ -1,0 +1,23 @@
+- steps:
+  - author | re-submits plan for a design decision | full plan export, implicit question about Flurry Heart's special talent | opening of the excerpt
+  - model | proposes a power design | a named ability, its mechanics, thematic tie-ins, a cutie-mark reading, a closing verdict | first response, following the plan attachment
+  - author | switches to an unrelated topic | a general-knowledge question about what a T-bill is and how it is taxed | right after the fiction exchange, no plan attached
+  - model | explains a financial instrument | mechanics of T-bills, a tax breakdown, a comparison table, an offer to compute further | answering the T-bill question
+  - author | asks a follow-up on the same tangent | why the tax exemption exists | directly after the T-bill answer
+  - model | explains a legal doctrine | constitutional and statutory basis for the exemption, an offer to compute savings | answering the follow-up
+  - author | returns to the plan and re-submits it | full plan export, implicit question about when a character's bullying past is revealed | after the finance tangent
+  - model | answers the direct question then broadens into a full critique | a recommended reveal placement plus a wide literary analysis of themes, foils, pacing, worldbuilding, and weak points | first part of the response answers the question, rest expands unprompted
+  - author | re-submits the plan for a voice-design problem | full plan export, implicit question about making a griffon character's dialect resonate with a pony character | after the broad critique
+  - model | analyzes a cross-cultural voice bridge | dialect texture, class/thematic resonance, a translator-based plot device, shared-trauma framing, a lesson scene reworked in labor terms | responding to the dialect question
+  - author | pivots to independent research | a direct question about real Southern French/Occitan speech versus Parisian speech and whether English listeners can tell them apart | separate from the plan, no attachment
+  - model | supplies linguistic detail | phonetic traits, a side-by-side comparison table of how each accent sounds in English | answering the research question
+  - author | brings a character sketch and tests it against research | own conception of the character as boisterous and snobbish about his culture, asked against three regional archetypes | following the linguistics answer
+  - model | matches the sketch to an archetype and recommends it | Gascon vs. Parisian vs. Champagne comparison, a verdict endorsing one archetype | answering the archetype question
+  - author | asks for deeper detail on the chosen archetype | more contrast between Gascon and neighboring regional types | after the archetype verdict
+  - model | elaborates the archetype and gives usable writing devices | fuller regional contrasts plus concrete rhetorical techniques (exaggeration, food metaphor, physical affection) for writing the character's voice | answering the deeper-detail request, closing this thread
+  - author | re-submits the plan for a villain redesign | full plan export, implicit proposal to recast an antagonist as an old-guard traditionalist rather than incompetent | after the dialect research concludes
+  - model | endorses and analyzes the redesign | archetype shift, its effect on the protagonist's moral framing, its effect on two allied characters, a reworked payoff scene, a closing recommendation | final response of the excerpt
+- kept:
+  - note 4458 | pasted whole from this reply | the concrete writing devices for the character's voice (exaggeration, food-based metaphor, physical affection), filed under that character's own subject entry
+- brought: The author repeatedly re-submitted the same full plan export to get targeted design opinions on separate story elements (a power, a reveal's timing, a voice, a villain's rewrite), and separately brought a character sketch of a boisterous, culturally snobbish griffon to be tested against real-world regional French archetypes.
+- loop: The author cycles between resubmitting the whole plan for the model to weigh in on discrete design questions and chasing outside research (finance trivia, real-world dialect facts) that feeds back into one of those questions, but the plan's notes retain only the narrow, usable output of that research thread — the writing techniques for one character's voice — while the larger structural and thematic analyses produced along the way are not kept.

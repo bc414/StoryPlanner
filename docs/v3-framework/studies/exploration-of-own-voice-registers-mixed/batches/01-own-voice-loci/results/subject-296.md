@@ -1,0 +1,15 @@
+- passages:
+  - note 5197 | bare factual statement | short unadorned declarative clause naming partners | who Star Energy tech was developed with | apart
+  - note 5198 | technical enumeration | numbered list, generic real-world terms | the three standard oil-refining steps | apart
+  - note 5198 | expository description | prose declarative sentences naming invented tech | the crystal-powered reforming spell matrix and its use in engines | apart
+  - note 5198 | open questioning | short direct questions | whether the spell matrix belongs in the refinery or only the engine | apart
+  - note 5198 | speculative reasoning | tentative 'maybe', conjecture, faction name introduced | possible story reason (Aquileians and hostile monopolies) for using crystal only in the engine | apart
+  - note 5209 | expository description | plain declarative statements, third person 'they' | the diesel-plus-crystal engines and their branching spell matrix | apart
+  - note 5209 | tentative suggestion | modal 'should', trailing question mark on a statement | possible added spell matrix acting like a turbo | apart
+- shifts:
+  - note 5198 | technical enumeration | expository description | moves from a generic numbered list to prose sentences about the story's own invented device
+  - note 5198 | expository description | open questioning | switches from declarative description to short direct questions
+  - note 5198 | open questioning | speculative reasoning | moves from questions to a tentative 'maybe' explanation naming a story faction
+  - note 5209 | expository description | tentative suggestion | shifts from plain statement to a modal 'should' ending in a question mark
+- registers: bare factual statement; technical enumeration; expository description; open questioning; speculative reasoning; tentative suggestion
+- whole: Across its three notes this item moves through several distinct registers — a bare factual note, a generic technical list, expository descriptions of the invented tech, open self-questioning, and tentative speculative or suggested additions — each held apart as its own stretch rather than blended within a sentence.

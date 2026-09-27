@@ -1,0 +1,5 @@
+- sources:
+  - the full story text they was written (the written portion of the story, already parsed) | treat as already-read groundwork; the analysis of the plan proceeds from it | With the full story text they was written parsed | referred-to
+  - the rest of the story plan for the unwritten story | review it and analyze it next, as the material to work on now | now review the rest of the story plan for the unwritten story and analyze | first-named
+- order:
+- about: The user says the written story text has now been parsed and asks the model to move on to reviewing and analyzing the remaining story plan for the unwritten part of the story.

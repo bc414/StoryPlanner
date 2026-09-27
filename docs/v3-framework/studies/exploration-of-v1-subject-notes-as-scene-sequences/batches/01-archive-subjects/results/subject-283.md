@@ -1,0 +1,14 @@
+- passages:
+  - 5051 | statement about the subject | Twilight's founding vision for the school: open to any creature who wanted to come | none | stated as background of what she envisioned, no moment shown
+  - 5053 | statement about the subject | Deer were left out at first because of past raiding; Queen Velvet is said to lead a violent underground resistance unknown to Celestia's side | none | explanatory background, parenthetical remark on Velvet
+  - 5053 | scene beat without a year | Twilight tries anyway and reaches out to Queen Velvet behind Celestia's back, and Velvet refuses | none | event written as something that happens: 'tried anyway', 'refuses'
+  - 5052 | scene beat without a year | Celestia shuts Twilight's plan down and limits it to one student from trusted nations, with maybe more later if it works | none | Celestia acts and speaks: 'shut her down and said'
+  - 5619 | statement about the subject | The school is not a top-down farce as in the season 8 episodes; Twilight learned from a past episode, avoids explicit flashcards, and goes about it organically with friendship reports | none | 'NOT a total top down farce', author's contrast with the show, describes how she runs it
+  - 5619 | statement about the subject | Outcome: the school is basically a normal Equestrian school, but with the Mane 6 forced into teaching roles they don't want | none | 'This pretty much results in', description of what the school is like
+  - 5054 | statement about the subject | The school continued in limited scope, a shell or joke of its intent, while Twilight trusts Celestia's judgement | none | describes ongoing state of the school, no single moment
+  - 5054 | statement about the subject | Lore rule: no Chancellor Neighsay or EEA; Celestia alone is all that is needed | none | 'in my lore', author's rule about the setting
+  - 5187 | scene beat without a year | Twilight shuts the school down, realizing she must stop teaching compliance and be a friend to those who need it most | none | decision and realization written as an event: 'shuts down the school because she realizes'
+  - 5056 | scene beat without a year | After returning from Mount Aris with Fizzlepop and being yelled at by Celestia, Twilight realizes the school is a sham, goes on strike, and rejects Celestia's mandate to stay safe in the Nursery | none | 'After returning from...' connective, actions and decision
+  - 5055 | scene beat without a year | Silverstream goes home because Mount Aris is under attack from the Storm King | none | 'Then' connective, character departs for a stated reason
+- sequences:
+- whole: A small, undated set of plan notes on the School of Friendship covering its founding vision, Celestia's restrictions, the deer exclusion, how it operates in the author's version, and two overlapping accounts of Twilight's closing it, mixing a few scene beats with lore statements.

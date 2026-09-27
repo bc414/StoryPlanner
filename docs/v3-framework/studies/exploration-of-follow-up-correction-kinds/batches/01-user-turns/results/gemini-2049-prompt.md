@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes moving the pronoun replacement and formatting cleanup into a pre-processing step for all phases and asks whether the unnatural text would hurt model performance, which is a new design question and not a correction of the model's answer.

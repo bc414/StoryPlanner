@@ -1,0 +1,8 @@
+- steps:
+  - the author | redirect | rejects euphemistic naming, asks for plain French/scientific drug names fitting a 1940s academy setting | opening prompt of the stretch (gemini:625)
+  - the model | draft | proposes 1940s-style French chemical/pharmaceutical names for two additives, with rationale, alternates, in-voice example lines, and a cross-character terminology table | gemini:625 response
+  - the author | narrow | asks specifically for French names of known real-world opioids | gemini:626 prompt
+  - the model | draft | revises and expands the naming across three additives, grounding terms in real 1940s pharmaceutical brands and chemical classes, and updates the terminology table | gemini:626 response
+- kept:
+- brought: The author brought a correction to the prior naming pass, rejecting euphemistic drug names in favor of period-accurate French scientific terminology fitting a 1940s academy setting.
+- loop: The author pushes for more period-authentic naming across two successive prompts and the model answers each with an expanded set of options and rationale, but nothing from this exchange was traced into the planning database.

@@ -1,0 +1,4 @@
+- sources:
+  - these 5 points | the Rommel-based Trimmel points the model just gave are the ground already covered; the model should go beyond them and offer only material that does not overlap | Anything else orthogonal to these 5 points? | referred-to
+- order:
+- about: The user asks the model whether there are any further ideas for Trimmel that are independent of the five Rommel-derived points it has just laid out.

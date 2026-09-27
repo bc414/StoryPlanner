@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumption by stating that Twilight and Fleur coin the term "charitostatic effect" together after the war, not Twilight alone while under Celestia's worldview.

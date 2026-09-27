@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: direction of the proposed revision | The model's fix turned punitive drainings into quota-garnishment on ordinary workers, with sadism removed. The user restores punitive torture as aimed at true-believer Republicans and Harmonists, and keeps the sanitized draining for the masses. | I believe the Statthalters should use punitive draining on true believer Republicans or harmonists; punitive torture for resistance fighters | Put as a stated preference plus a question about whether the two fit together, so it reads as a soft pushback and a request for reconciliation, not flat rejection.
+- about: The user pushes back on the model's proposal to sanitize all drainings, keeping punitive torture for resistance fighters beside bureaucratic predation for the masses, then supplies Felix Birkeland's flavor text as the Republican leader to be contacted before the liberation.

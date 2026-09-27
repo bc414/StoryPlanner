@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user affirms the materialist magic-as-physics idea and moves on to a new question, asking for an analysis of the story plans' existing measures that make it believable Equestria has not advanced the study of magic.

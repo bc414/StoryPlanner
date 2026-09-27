@@ -1,0 +1,13 @@
+- asks:
+  - check | confirm or refute whether postwar American prosperity was confined to the suburbs and excluded Black people and women | "Wasn't that only in the suburbs? Black people were excluded. Also women were excluded too, right?"
+  - check | confirm or refute whether the Nordic model's success is undercut by cultural homogeneity and lack of large-scale immigrant integration | "is there the caveat of it being a cultural monolith?... Do they have immigrants?"
+  - check | confirm or refute the historical claim that Irish/Italian immigrants were working-class while German 1848 immigrants were self-selecting | "Although this wasn't always true? Irish and Italian immigrants were working class. But the German 1848 immigrants were self selecting."
+  - brainstorm | list and identify real-world cases of genuinely successful multiculturalism | "Are there any real world examples of genuine triumphs of multi culturalism?"
+  - evaluate | assess whether Singapore, Mexico, India, and Brazil count as such successes, including India's supposed emerging "Western rot" | "I'm thinking Singapore as one. What about Mexico? India as a potential rising star, but with signs of Western rot emerging? What about Brazil?"
+- supplies:
+  - worldbuilding note | Aquileia's policy of accepting former slaves as genuine Aquileians if they show asset specificity and learn the Aquileian language | a couple of sentences
+  - worldbuilding note | Dennis Discret's pirate ship smuggling self-selected immigrant families from Zebrica via Skyfall into Aquileia | a sentence
+- shaping:
+  - frame the Nordic-countries point as questioning scale/testing rather than the system's underlying rules | "This isn't a critique of the system rules and fundamentals but a point that it hasn't been tested at scale"
+- openness: Mixed: it leans toward a skeptical stance it already argues (that American and Nordic models don't prove multiculturalism works, that immigration is self-selection) while explicitly asking the model to evaluate a set of named candidate countries (Singapore, Mexico, India, Brazil) alongside a broader open question about any other real examples.
+- subject: Whether real-world nations show genuine multicultural success, weighed against the writer's doubts about the American and Nordic examples, and tied to the Aquileia storyline's immigration/assimilation themes

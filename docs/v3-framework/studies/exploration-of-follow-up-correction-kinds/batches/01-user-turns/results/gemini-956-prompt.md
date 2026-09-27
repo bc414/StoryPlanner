@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a fresh set of questions about Rockefeller (his personality, upbringing, and whether his workers were treated as cogs or as family), widening from the model's character-trait sketch toward his background and workplace culture without saying anything in the model turn was wrong.

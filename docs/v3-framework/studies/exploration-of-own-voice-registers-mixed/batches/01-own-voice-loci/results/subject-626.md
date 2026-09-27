@@ -1,0 +1,8 @@
+- passages:
+  - note 5824 | plain declarative notation | present-tense third-person statement, no exclamation | Twilight revealing the Elements at the end of Dilemma | apart
+  - note 5824 | plain declarative notation | present-tense statement listing chapter titles | the next five chapter titles matching the Elements of Liberty | apart
+  - note 5824 | emphatic explanatory aside | opens with "But", closes with "because it is hidden!" | why Conscience, the 6th hidden element, gets no chapter title | apart
+- shifts:
+  - note 5824 | plain declarative notation | emphatic explanatory aside | shift begins at "But" and is marked by the causal "because" clause and closing exclamation mark
+- registers: plain declarative notation; emphatic explanatory aside
+- whole: The single note moves from a plain declarative notation of plot fact to an emphatic explanatory aside marked by "But" and a closing exclamation, with the two registers standing apart at the sentence break rather than running together.

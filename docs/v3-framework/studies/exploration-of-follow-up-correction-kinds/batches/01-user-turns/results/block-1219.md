@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies backstory on his first serialized story (2015–2017, first-person rotating, a gardened materialist plot revised wholesale after chapter 15, reader who asked to rewrite it), reflects on what it means for his architect tendencies, attaches the text, and asks for a comparative analysis against the KU and TLTT plans.

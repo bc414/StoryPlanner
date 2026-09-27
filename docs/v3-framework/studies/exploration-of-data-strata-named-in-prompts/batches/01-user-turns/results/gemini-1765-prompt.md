@@ -1,0 +1,6 @@
+- sources:
+  - attached story plan | the material the model is to read and analyze as story editor; the base the additions are judged against | I have attached a story plan I am working on | first-named
+  - these additions (Comet Shine's Bill Gates inspiration, the liquidated Skyfall division, the Aquileian weapons purchase) | proposals that are open to question, not settled; to be analyzed and critiqued | Give an analysis on these additions | first-named
+  - what I established about his company helping in the Pridea revolution in 1008 | treat as settled story fact that explains the Aquileians being there and is used as the premise for the last question | I established his company helped during the revolution in Pridea in 1008 | referred-to
+- order:
+- about: The user attaches a story plan and asks the model, acting as story editor, to analyze three proposed additions about Comet Shine's Bill Gates-like background, his liquidation of a Skyfall division to arm Tall Tale, and whether he would also buy Aquileian weapons.

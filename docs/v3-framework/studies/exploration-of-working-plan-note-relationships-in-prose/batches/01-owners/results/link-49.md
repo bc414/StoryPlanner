@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 1190|Discord, a character not part of this scene link's named subject, and Twilight's own earlier experience of being used, held elsewhere in the plan|Fluttershy and Discord feel used, just like Twilight
+- whole: This owner holds a single note, so there is nothing within it to hang together or fall apart.

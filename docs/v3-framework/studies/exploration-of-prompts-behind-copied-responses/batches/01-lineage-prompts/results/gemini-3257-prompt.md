@@ -1,0 +1,7 @@
+- asks:
+  - unstated | the message gives no verb or question, leaving it to the model to infer what to do with the link | message consists only of the URL, no surrounding text
+- supplies:
+  - link | a YouTube video URL, the content or topic of the video not described in the message | a single line (one URL)
+- shaping:
+- openness: Fully open: the message supplies only a bare link with no question, instruction, or stated goal attached to it.
+- subject: A shared YouTube video link, with no stated topic or purpose

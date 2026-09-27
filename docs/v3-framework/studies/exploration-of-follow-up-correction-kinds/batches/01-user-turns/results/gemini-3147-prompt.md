@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to check their understanding of the brain-and-hands split, namely whether the local client sends the query together with metadata about the available tools and files.

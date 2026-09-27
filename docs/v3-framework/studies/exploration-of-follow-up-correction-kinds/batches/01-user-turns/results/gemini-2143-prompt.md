@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question, whether the compiler should also write the pure execution model to a hand-editable file as a fallback in case the visual editor isn't finished, and asks for pros and cons, without challenging anything the model said.

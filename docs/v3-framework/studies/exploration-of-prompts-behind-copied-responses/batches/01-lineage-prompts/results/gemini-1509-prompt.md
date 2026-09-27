@@ -1,0 +1,8 @@
+- asks:
+  - check | asks whether the "weak franc for exports" idea still has any relevance once the export motive is reframed around brand proliferation and gold-standard trade | "Does the weak franc have any relevance anymore in this framing?"
+- supplies:
+  - revised trade rationale | correction of why the 1008 bank run/revolution happened: Equestria's market saturation, FJA selling for brand proliferation rather than profit, Equestrians paying in gold under a rigid gold standard, and Aquileia sharing blame with Skyfall and Chrysalis for draining Equestria's liquidity | a paragraph
+  - second-revolution core idea | the FJA and PNdA's mutual cultural contempt (FJA see PNdA as soulless Herzlander wannabes; PNdA see FJA as deviant snobs) paired with economic interdependence (FJA sell near cost for brand pride, PNdA buy to keep cost of living low), and that Gaudreau and Vérany reach this understanding before the revolution | a paragraph
+- shaping:
+- openness: leans toward an answer it names — the message states "I don't think the FJA is considering a weak franc" and asks the model to confirm/check whether that idea still fits the revised framing.
+- subject: worldbuilding revision of trade economics and FJA–PNdA cultural/economic relations ahead of the second revolution

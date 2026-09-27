@@ -1,0 +1,4 @@
+- sources:
+  - the db file (Chrysalis and Skyfall in Zebrica entries) | review it and use it as the basis for deciding which subject the note belongs to | Review Chrysalis and Skyfall in Zebrica from the db file | first-named
+- order:
+- about: The user gives a new note about Chrysalis's shell companies using Asset Specificity to trap Zebrican warlords in a subscription-style dependence on Skyfall-supplied Organ Guns and brass casings, and asks which subject it belongs to, directing the model to review the Chrysalis and Skyfall in Zebrica material in the db file.

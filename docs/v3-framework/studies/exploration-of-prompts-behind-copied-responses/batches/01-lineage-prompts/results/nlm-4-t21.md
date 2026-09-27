@@ -1,0 +1,8 @@
+- asks:
+  - comparative analysis | asks the model to identify and analyse everything that changed in the planning material between the two named dates | "Give a comprehensive analysis of what changed between Feb 5 and Feb 6"
+- supplies:
+- shaping:
+  - scope/depth: the analysis should be comprehensive, covering the full set of changes rather than a partial or narrow account | "comprehensive analysis"
+  - scope/bounds: the comparison is restricted to the specific pair of dates named, Feb 5 and Feb 6 | "between Feb 5 and Feb 6"
+- openness: Open: the message names the two dates to compare but does not state or hint at what actually changed, leaving the content of the analysis entirely to the model to determine from the notebook's sources.
+- subject: What changed in the story-planning material (per the notebook's sources) between February 5 and February 6

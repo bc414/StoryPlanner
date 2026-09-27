@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the question to further Applejack arc beats (the uniform refusal, the "we are monsters" scene with Twilight, Trimmel's surrender, the Crystal City talk) and asks how the Dreamscape Aid Network versus statue-Princesses framing would affect them.

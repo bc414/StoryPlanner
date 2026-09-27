@@ -1,0 +1,4 @@
+- sources:
+  - the contract axis | treated as the place where the moral judgment lives, so the new axis can stay morally neutral and defer to it | because the morality is in the contract axis | referred-to
+- order:
+- about: The user accepts the model's proposed axis word \"Incorporative\" and gives the reason: it is morally neutral, since the moral content is carried by the contract axis.

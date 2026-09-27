@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user lays out, from their own account, how the Aquileian cartel would bankrupt targeted Skyfall B2B and B2C companies, and asks for an analysis of the plan's realism and effectiveness, with the constraint that B2Bs fall, B2Cs regrow, and Skyfall is never seriously threatened before the Aquileians turn to volunteer military intervention.

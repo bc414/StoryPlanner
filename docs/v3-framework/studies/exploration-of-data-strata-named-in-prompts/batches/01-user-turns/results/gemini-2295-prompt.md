@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual historical question about whether the Ju 87 Stuka carried about 1000 pounds of armor because it dived close to the ground, without pointing at any body of material to use.

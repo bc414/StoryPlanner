@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to recommend the opening point-of-view character for Chapter 5 and whether Rainbow should speak to Fluttershy or see her from the plane, without pointing at any body of material to use or avoid.

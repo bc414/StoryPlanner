@@ -1,0 +1,13 @@
+- relations:
+  - 954|1379|continuation in time: after being confined to the farm, she leaves for study abroad, acting on her ambition|great ambition / went to the Crystal Empire to study crystals|implicit
+  - 954|1460|the parents and her ambition in the backstory are the origin of the agenda she carries to prove herself to her parents; the characterization presupposes the parental relationship|paranoid parents / prove to her parents and herself|implicit
+  - 1460|1461|two facets of one worldview: the earth pony agenda and the belief in Aquileian quantified science; the belief supplies the framework for why she focuses on measurable drivers like ambition and sovereignty|not magicless prey animals / hard science of asset specificity, thermodynamics, and chemistry|implicit
+  - 1460|1705|later outcome revises her starting stance: her ambition-and-sovereignty focus that skips grace is answered by the proof that caring about the community maximizes yield; also answers the earth pony abuse history|Serfdom kills Magic / not putting much study into the grace component|implicit
+  - 1461|1705|the science-based belief is turned to a conclusion that overturns her contempt: the proof is framed as agricultural science, yet it says the farmer must care about community, against the view of farmers as superstitious|superstitious farmers / in-universe agricultural science|implicit
+  - 954|1461|her dislike of farming and ambition in the backstory is echoed by her scorn for Equestrians as farmers and her preference for hard science|didn't like farming / superstitious farmers|implicit
+- outward:
+  - 1379|the Crystal Empire, its library, and Old Equestrian, held as lore elsewhere|Crystal Empire to study crystals
+  - 1460|Aquileian feudal history of earth pony abuse and the earth pony magic system of ambition, sovereignty and grace|Aquileian feudal history of earth pony abuse
+  - 1461|Aquileia's quantified magic science and the Equestrian society it is compared to|Aquileia is superior because they have quantified the magic
+  - 1705|the events in which she proved this, and the theme The Magic of Conscience, lying elsewhere in the project|She proved that "Serfdom kills Magic."
+- whole: This owner's notes read as a loosely connected set, a rough chain from farm childhood to study to worldview to thematic payoff, in which most links are implicit and content-based.

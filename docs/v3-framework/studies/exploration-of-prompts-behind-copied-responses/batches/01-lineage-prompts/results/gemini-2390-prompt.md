@@ -1,0 +1,8 @@
+- asks:
+  - explain | give a historical breakdown of the term "élan" (its origin, meaning, historical use) | "Give me the historical breakdown of élan"
+  - comment | address why "élan" appears as a French national tradition in EU4 but has no equivalent presence in HOI4 | "I know it is a national tradition in France in EU4 but is not present in HOI4"
+  - explain | give a similar historical breakdown or explanation of the term "esprit de corps" | "And what about espirit des corps?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it asks for a historical explanation of two terms and raises an observation about their game appearances, without naming a specific answer or choice to confirm.
+- subject: Historical origins of the military/national-character terms "élan" and "esprit de corps," and their treatment in the Paradox games EU4 and HOI4

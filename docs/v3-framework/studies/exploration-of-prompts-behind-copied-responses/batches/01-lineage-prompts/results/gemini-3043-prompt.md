@@ -1,0 +1,7 @@
+- asks:
+  - research/example-finding | asks whether there are real-world instances of disreputable leaders adopting the names/personas of popular fictional characters | "Are there examples of shady leaders styling themselves after popular fictional characters in real life?"
+- supplies:
+  - plan detail | a single element from the story plan: a Tzinacatl drug tribe leader who adopts the alias 'Dr. Caballeron' as misdirection and marketing | a sentence
+- shaping:
+- openness: open — the message poses a general question seeking examples without naming candidates or constraining scope
+- subject: seeking real-world precedents for a criminal leader adopting a fictional-character alias as misdirection/marketing

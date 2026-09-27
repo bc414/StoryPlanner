@@ -1,0 +1,21 @@
+- passages:
+  - 4512 | naming/heading | bare acronym expansion, no verb, exclamation mark | the full name behind the EEEE! acronym | apart
+  - 4512 | expository/definitional | declarative "is a pun for", present tense | origin of the name as a sound pun | apart
+  - 4513 | expository/definitional | past tense "formed", "expanded" | the organization's founding in Manehattan and growth into a social club | apart
+  - 4514 | critical assessment | past tense "left", evaluative "token", "still second-class" | judgment that Celestia's reforms didn't fix batpony status | apart
+  - 4514 | mission/purpose | present tense "aims to", forward-looking | EEEE!'s stated goal to close the remaining gap | apart
+  - 4650 | explanatory/rationale | causal "because", idiom "one bad apple", present tense | why they reject and police the jungle drug dealers | apart
+  - 4945 | naming/heading | title phrase with dash, no verb | label for the union topic | apart
+  - 4945 | analytical/meta-commentary | present tense, real-world names (Cuomo, UAW, Shawn Fain), terms "rent-seekers", "labor cartel" | contrast between corrupt and strategic union types | apart
+  - 4945 | narrative-application | present tense narrowing to a named character, "This is what Verany does" | how Verany's strategy mirrors strategic unions | apart
+  - 4945 | character-development narrative | past tense, explicit "Old Verany"/"new Verany" contrast | Verany's changed view on unions and parasites | apart
+  - 4945 | aphoristic/moral | short standalone sentence, metaphor "solitary beasts get eaten" | the lesson Verany drew | apart
+- shifts:
+  - 4512 | naming/heading | expository/definitional | shift from bare title phrase to a full declarative sentence explaining the pun
+  - 4514 | critical assessment | mission/purpose | tense shift from past to present and subject shift from Celestia's reforms to EEEE!'s aim
+  - 4945 | naming/heading | analytical/meta-commentary | shift from bare title to full sentences with real-world analogy
+  - 4945 | analytical/meta-commentary | narrative-application | shift from general union categories to a specific named character's actions
+  - 4945 | narrative-application | character-development narrative | shift to past tense and explicit "Old Verany" vs "new Verany" framing
+  - 4945 | character-development narrative | aphoristic/moral | shift to a short standalone metaphorical statement
+- registers: naming/heading; expository/definitional; critical assessment; mission/purpose; explanatory/rationale; analytical/meta-commentary; narrative-application; character-development narrative; aphoristic/moral
+- whole: These notes move through several distinct registers, from plain naming and factual definition in the shorter notes to, within the longest note, a chained sequence from heading to comparative analysis to a named character's application to a past-tense before/after contrast to a closing aphorism, with every change falling at a sentence break rather than blending inside one sentence.

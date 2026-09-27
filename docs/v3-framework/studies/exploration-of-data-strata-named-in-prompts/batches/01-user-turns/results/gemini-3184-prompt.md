@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about how DeepSeek R1 or its 2026 successors compare on the exhaustive-versus-synthesizing behavior the model just described, without pointing at any body of material to draw on.

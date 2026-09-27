@@ -1,0 +1,4 @@
+- sources:
+  - the stagnation as a 1000 year baseline (the current plan's premise) | treat as being replaced by a 40-50 year old policy; the model is asked what changes or needs revising under the new timeline | changing the stagnation from 1000 year baseline to a 40-50 year old policy | referred-to
+- order:
+- about: The user proposes a revised timeline in which Equestria's isolation is a recent policy of gradual reforms from 914 to 930 and its tycoons are a new generation shaped by Chrysalis's shell company and Coltbert's parloirs, and asks the model whether this works and what it changes for the earlier plan's narrative and thematic purposes.

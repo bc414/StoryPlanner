@@ -1,0 +1,4 @@
+- sources:
+  - the project populated with .md documents on story plans | material the assistant should draw on and respond to, acting as a developmental editor in chat only, without producing diffs | the project is populated with .md documents on story plans | first-named
+- order:
+- about: The user asks whether Code Assist in VS Code or Rider can be set up to act as a chat-only developmental editor over a project of markdown story-plan documents instead of coding.

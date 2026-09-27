@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is choosing between the proposed naming prefixes, judging that Thymo fits the Idol of Boreas because it concerns ambition while Volo fits the Universal Translator because it covers communicative intent, and is not pointing the model at any body of material.

@@ -1,0 +1,9 @@
+- steps:
+  - author | proposes a new plot mechanism | a chapter-11/13 bait-and-switch involving Pinkie baking for changelings, plus speculative additions on Aquileian chef chemistry and Tzinacatl drug/medic expertise | in the first prompt
+  - model | validates and builds out the mechanism | affirms the bait-and-switch framing, supplies a biochemical rationale (lipid binding, timed release) and assigns roles to Aquileian chefs and Tzinacatl medics, ties it to established themes | in the first response
+  - author | corrects attribution of the science | reassigns the scientific innovation away from Twilight to the allied cultures, adds an Applejack/Chapter-10 bridge via letter, reframes Pinkie as joining an existing operation rather than acting alone | in the second prompt
+  - model | elaborates the correction into a cross-chapter structure | links Chapter 10 (Applejack's diplomacy), Chapter 11 (Pinkie's induction), and Chapter 13 (Fleur's lesson) into one epistolary/logistical chain, recasts Pinkie's arc and restates the thematic synthesis | in the second response
+- kept:
+  - note 5261 | pasted from this reply inside the author's own framing | keeps the material on Tzinacatl ceremonial-war history and medic/parloir connection, filed under a doctrine subject with an added detail and trimmed phrasing
+- brought: The author brought a new chapter-level plot proposal (the Pinkie/Tall Tale morale-cake sequence) along with speculative worldbuilding extensions about drug chemistry and medic factions for the model to develop.
+- loop: The author proposes a plot mechanism and lets the model flesh out its worldbuilding logic, then corrects who within the story gets credit for that logic and has the model re-integrate the correction across chapters; from this exchange the plan retained only the model's elaborated Tzinacatl medic/doctrine material, reworked in the author's own words and filed as a standalone doctrine note.

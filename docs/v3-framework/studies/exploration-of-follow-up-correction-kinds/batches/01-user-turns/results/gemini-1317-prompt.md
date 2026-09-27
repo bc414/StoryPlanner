@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question seeking examples of deep third narration that shifts the lens character mid-scene through a bridge, extending the topic without disputing anything the model said.

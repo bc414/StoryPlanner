@@ -1,0 +1,6 @@
+- sources:
+  - A Song of Ice and Fire | the model is to explain from its own knowledge what it is about, its themes and vibes, since the user has not read it, and use it as the comparison point for the project | I have not actually read A Song of Ice and Fire. What is it about | referred-to
+  - my project | the thing to compare the series against, themes and vibes and what it is building, so the comparison informs point of view design | how do they compare to what my project is building | referred-to
+  - my instinctual plan | the current point of view choices, held as provisional and open to change if the analysis gives reasons | I am open to warranted enhancements to my instinctual plan | referred-to
+- order:
+- about: The user says they haven't read A Song of Ice and Fire and asks the model to describe it, compare it to their project, and use that comparison to justify possible improvements to their point of view design.

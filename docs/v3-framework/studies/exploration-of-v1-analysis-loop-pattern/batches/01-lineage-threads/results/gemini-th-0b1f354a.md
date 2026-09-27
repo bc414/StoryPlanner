@@ -1,0 +1,21 @@
+- steps:
+  - author | pivots the frame | asks for angles specific to changelings rather than human-consistent themes, citing Codex entries on changeling biology and pre-industrial society | opens the stretch
+  - model | analysis | four biology-based angles tying the engineered language to changeling feeding, emotion sense, shapeshifting, and hatchery upbringing | answers the pivot
+  - author | validation question | asks whether the engineered language makes sense given Chrysalis's established backstory | follows the biology analysis
+  - model | analysis | four backstory-grounded justifications framing the language policy as reforming zeal rather than malice | answers the validation question
+  - author | question with self-answer | asks what the hatchery system means while proposing a meritocratic split of drones into engineers/jaegers versus factory workers/conscripts | follows the backstory analysis
+  - model | (no reply recorded) | nothing | after the hatchery question
+  - author | new plan question | asks how Thorax's harmonist movement would work after the Canterlot wedding, offering that Thorax is a jaeger who felt wrong during the attack and weighing two teaching-strategy options plus a note on smuggled board games | follows the hatchery exchange
+  - model | (no reply recorded) | nothing | after the Thorax question
+  - author | demographic question | asks how the drone generation liberated during the unification wars would split between meritocrats and laborers or conscripts | follows the Thorax exchange
+  - model | (no reply recorded) | nothing | after the liberated-generation question
+  - author | timeline request | asks for a demographic analysis of the hives and POWs based on the unification and war dates and WW2-era lifespans | follows the liberated-generation exchange
+  - model | (no reply recorded) | nothing | after the timeline request
+  - author | correction | refines that conscripts include quota-failing workers across generations rather than only young zealots, and adds that drugs are needed to tolerate emotion sense | follows the timeline exchange
+  - model | (no reply recorded) | nothing | after the correction
+  - author | comparison question | contrasts thestral-run adult PTSD dreamwalking therapy with Fluttershy's animal-caretaker-style rehab for changeling POWs, working through a possible category mismatch | follows the conscript correction
+  - model | (no reply recorded) | nothing | after the comparison question
+  - author | follow-up question | asks what role psychiatrist therapists play once changelings gain the linguistic and emotional maturity to process what was done to them | closes the stretch
+- kept:
+- brought: The author brought their own Codex entries on changeling biology and pre-industrial changeling society, plus established backstory and canon details (Chrysalis's history, Thorax's introduction episode, character names like Trimmel, generation labels, and war-timeline dates), into the conversation to drive a series of worldbuilding questions.
+- loop: The author repeatedly brought plan elements, canon references, and pointed follow-up or corrective questions to work out changeling-specific worldbuilding logic through iterative exchange with the model, but this stretch shows no notes traced back into the planning database, so none of the analysis or drafted reasoning was captured into the plan here.

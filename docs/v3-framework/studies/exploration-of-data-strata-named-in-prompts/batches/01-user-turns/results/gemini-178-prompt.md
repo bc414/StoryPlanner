@@ -1,0 +1,4 @@
+- sources:
+  - the identity crisis angle (the model's previous suggestion about Celestia being made obsolete by crystals) | keep and build on it as liked, while other parts of the earlier draft, such as Celestia eagerly offering to fight, are to be changed | I like the identity crisis angle | referred-to
+- order:
+- about: The user revises the model's draft of the war council scene by reworking how Celestia and Twilight use crystals and by floating new ideas about the crystals' history and Celestia's hidden knowledge, while keeping the identity crisis angle.

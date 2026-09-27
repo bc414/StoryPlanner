@@ -1,0 +1,5 @@
+- sources:
+  - EaW lore | the model is asked to check it for what it says about changeling draining spells, as a body of published material to draw on | Does EaW lore mention changeling draining spells | referred-to
+  - my story plans | the model is asked to relate the EaW lore to them, using them as the measure of relevance | in ways that relate to my story plans | referred-to
+- order:
+- about: The user asks whether the Equestria at War lore says anything about changeling draining spells that connects to their own story plans.

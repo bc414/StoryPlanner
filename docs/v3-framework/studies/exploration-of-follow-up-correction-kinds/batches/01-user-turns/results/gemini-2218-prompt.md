@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Opal and Antigravity share backend or internal Google infrastructure, building on the model's explanation of Opal without disputing it.

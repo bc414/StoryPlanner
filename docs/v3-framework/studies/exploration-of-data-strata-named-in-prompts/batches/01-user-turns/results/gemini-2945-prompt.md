@@ -1,0 +1,5 @@
+- sources:
+  - the canon show, which I have provided the transcripts for in a notebook lm | material to draw on for analysis: reinterpret canon show examples through the Pinkie Promise / charitostatic effect idea | how this can apply to reinterpret examples from the canon show, which I have provided the transcripts for in a notebook lm | first-named
+  - Pinkie Promise as the colloquial term for the charitostatic effect | accepted as the chosen framing to apply; the lens for the analysis | I really like using Pinkie Promise as the colloquial term for the charitostatic effect | referred-to
+- order:
+- about: The user accepts the model's suggested term "Pinkie Promise" for the charitostatic effect and asks the model to analyze how it reinterprets examples from the canon show, whose transcripts they have loaded in a NotebookLM notebook.

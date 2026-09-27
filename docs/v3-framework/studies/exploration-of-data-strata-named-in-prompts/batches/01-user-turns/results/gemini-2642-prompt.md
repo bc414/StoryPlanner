@@ -1,0 +1,4 @@
+- sources:
+  - the author's own new idea, said in this turn (before the chasseur lesson, face-to-face hugs with forehooves on each other's backs, spooning as what parents do for foals) | treat as the premise the analysis is to be built on; the author's stated intent for the story | Actually I was thinking before the chasseur lesson, Twilight and applejack only hug face to face | first-named
+- order:
+- about: The author revises how Twilight and Applejack hold each other before the chasseur lesson, giving a new premise (face-to-face hugs, no spooning because spooning is parental) and asking the model for an analysis of it.

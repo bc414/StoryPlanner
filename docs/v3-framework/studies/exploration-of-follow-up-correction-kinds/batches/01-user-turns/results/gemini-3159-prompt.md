@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the Cressida analysis by supplying the schoolgirl alias Krista, the orphan alibi and the 981 reveal at Gabriella's estate during a tank handover, and asks whether the reveal and the name would make sense and fit her narcissism.

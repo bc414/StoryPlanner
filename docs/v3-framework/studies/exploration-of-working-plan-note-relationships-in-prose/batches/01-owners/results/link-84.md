@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2245 | Ahuizotl, his Tzinacatl friends and his dream of being the best VOPS agent, a character and organisation whose story is held elsewhere | Ahuizotl choosing his Tzinacatl friends over his dream of being the best VOPS agent
+  - 2245 | Rainbow's earlier dream of being the best flyer, and the friends whose concerns she now listens to, drawn from other parts of her story | she doesn't dream of being the best flyer anymore. She's choosing her friends by listening to their concerns for her
+  - 2245 | Twilight Velvet, a character who is the listener in this exchange and is not otherwise present in this item | Rainbow tells Twilight Velvet the world isn't heroes and villains
+- whole: This owner holds only one note, so there is nothing for it to hang together with, and its content points to Ahuizotl, VOPS, Rainbow's flying dream and Twilight Velvet, none of which are in this item.

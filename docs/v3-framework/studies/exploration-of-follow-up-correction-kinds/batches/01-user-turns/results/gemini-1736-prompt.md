@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a tentative new story twist, that the dogs lived in a cave because the soft-pony society of Stagnation shut them out and only accepted them after the war, and builds on the model's setup without disputing anything in it.

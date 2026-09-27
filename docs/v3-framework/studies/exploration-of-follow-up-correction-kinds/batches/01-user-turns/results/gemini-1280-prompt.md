@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is a bare request to analyze Pinkie Pie's character arc in their story plans, the same task the model turn just carried out, and it doesn't say or point to anything in that analysis as wrong.

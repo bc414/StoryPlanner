@@ -1,0 +1,9 @@
+{
+  "unit": "threads-with-notes",
+  "layers": ["gemini", "aistudio", "notebooklm"],
+  "lineage": "C:/Users/Brian/Desktop/TLTT Lineage.db",
+  "archive": "C:/Users/Brian/Desktop/TLTT v1 Archive.storyplan",
+  "snapshots": "source_material_references/v1 sqlite",
+  "excludeStory": "Paratext",
+  "maxChars": 200000
+}

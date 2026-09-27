@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares a YouTube link and asks new questions about the context of a Westwood meta-narrative parody, whether it came after EA's acquisition, and whether Renegade and Nick Parker were EA's attempt to turn the RTS franchise into a commando hero story, without disputing anything in the model's Kane analysis.

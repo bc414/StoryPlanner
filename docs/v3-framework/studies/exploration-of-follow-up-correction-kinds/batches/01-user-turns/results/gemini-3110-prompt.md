@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new request, asking for chapter 5 of their earlier fic to be evaluated against the TLTT plan, and adds framing that the Twilight and Celestia thread was a side plot to the Fluttershy, Rarity and fashion-clash main plot.

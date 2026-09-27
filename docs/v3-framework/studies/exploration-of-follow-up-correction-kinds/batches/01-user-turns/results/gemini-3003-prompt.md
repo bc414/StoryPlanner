@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Applejack's asset specificity as her honest manual labour and Equestrian honesty is treated as incomplete. In the lore it also includes latent, slow-acting earth pony magic, which needs honesty, pride and ownership and is why the trees grow. The Flim Flam machine took only the surface layer. | goes beyond being just the hard, honest work of bucking the trees and pressing the cider | Added as an enhancement, not stated as a disagreement. It is offered as lore to make the allegory hit harder, and it corrects the model only by implication.
+- about: The user adds lore about Applejack's latent earth pony magic, which reframes the allegory as invisible human capital and long-term planning versus grift and automation, and asks the model to redo its analysis with it.

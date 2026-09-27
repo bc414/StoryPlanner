@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the Applejack/Twilight split and Pinkie's placement with the Tall Tale crew, then asks whether Rarity should join Applejack's Tzinacatl negotiations to make a 3-3 split, adding a new planning question without disputing the model's analysis.

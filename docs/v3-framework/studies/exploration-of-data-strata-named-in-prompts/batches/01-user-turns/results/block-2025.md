@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a size estimate of the EaW (Equestria at War) fandom, a comparison with the receptive share of general grimdark readers, and the method behind the numbers, while saying that building the story is most of the payoff for them anyway.

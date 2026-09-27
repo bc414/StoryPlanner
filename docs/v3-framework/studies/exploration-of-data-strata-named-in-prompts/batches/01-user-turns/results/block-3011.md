@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's reading of the name "Chrysalis" and sets out which of the character's names (Krista 971-978, Chrysalis onward) are genuine and fit for narration and which titles (Oberste Cressida, Kriemhild von Krystalfels) are not, without pointing at any source of data.

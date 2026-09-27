@@ -1,0 +1,9 @@
+- asks:
+  - evaluate | whether Fluttershy's shift from being Celestia's passive messenger to staying with the animals needs more development than the single beat of Twilight telling her to stay | "Should there be more to Fluttershy's transition...Right now Twilight just tells Fluttershy to stay"
+  - check | whether the reasoning that Fluttershy's arc is still stagnant after staying (feeding animals mush, treating changelings like children) and only truly begins at the buffalo encounter (helping animals with agency) is a sound read of the plan | "I guess after she stays, it's still Stagnation...After meeting the buffalo is when her character arc really starts"
+- supplies:
+  - plan detail, current transition beat | how Fluttershy's role change is currently handled: Twilight instructs her to stay | one sentence
+  - plan analysis, user's own arc breakdown | stages of Fluttershy's development: staying but still passive/mothering (canned mush, changelings as children needing blankets) versus real growth starting at the buffalo meeting (helping animals who have agency) | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the message already concludes the transition is thin and stagnant until the buffalo encounter, and asks essentially for confirmation or elaboration on that named diagnosis.
+- subject: Whether Fluttershy's character arc (from passive messenger to animal caretaker to helper of animals with agency) needs a fuller transition than Twilight's instruction to stay

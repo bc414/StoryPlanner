@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's breakdown unchallenged and moves on to propose a detailed backstory for Flowing Current, from Cloudsdale through the manosphere, New Mareland and the machinists' guild to the founding of EEEE!, and then asks whether most EEEE! founders should be returned New Marelanders.

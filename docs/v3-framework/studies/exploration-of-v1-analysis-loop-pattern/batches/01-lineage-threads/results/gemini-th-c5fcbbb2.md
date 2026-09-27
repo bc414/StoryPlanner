@@ -1,0 +1,15 @@
+- steps:
+  - author | correct | clarifies there is no order to shoot collaborators, only self-defense, and that rifles exist to deny hostages as shields | opening of the prompt
+  - author | elaborate | adds that the paradrop is the main means of killing Statthalters and that collaborator deaths are a side effect enabled by omission of rifles | early prompt
+  - author | introduce | brings in a draining mechanic built into the Luna Nova rifle, reversing the Statthalters' 'love tax' onto collaborators | mid prompt
+  - author | cite canon | brings in a season 5 episode to justify Luna sharing dream-walking duty rather than doing it alone | mid prompt
+  - author | assign | proposes that Applejack and Mali task Luna with reassurance/anti-collaboration work and pair her with parloir thestrals | mid-late prompt
+  - author | link | ties this new arrangement to Luna's later support of Applejack in one chapter versus hesitation in another | end of prompt
+  - model | analyze | organizes the revision into named thematic mechanisms: stochastic violence via rifle-as-signal, the love-tax reversal as horror, and dream-sharing as democratization | early-mid response
+  - model | explain | derives Luna's differing stance in the two named chapters from her guilt over the unintended purge versus her later sense of liberation | mid-late response
+  - model | verdict | closes with a summary framing the scene as tying military, moral, and political threads of the arc together | end of response
+- kept:
+  - note 3460 | pasted from this reply inside the author's own framing | keeps the model's framing of Luna deciding her democratization of the dream spell succeeded and choosing shared responsibility over singular burden, placed on a link node between Luna and the referendum outcome
+  - note 4744 | pasted whole from this reply | keeps the model's three-way contrast of Celestia's, Applejack's, and Luna's reactions to the draining, placed on the Stagnation chapter node
+- brought: The author brought a correction and expansion of an established war mechanic, revising who is targeted and why, and adding a draining mechanic, a canon reference, and a task assignment for Luna.
+- loop: The author brings a course-correction to a plot mechanic along with several new supporting details and asks what they imply; the model turns them into named thematic mechanisms and a chapter-by-chapter political explanation, and the planning database keeps two of the model's framings verbatim on a character link and a chapter node to lock in Luna's motivation and the chapter's central contrast.

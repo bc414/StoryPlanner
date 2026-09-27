@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for a deeper analysis of the Chasseurs' post-firefight intimacy, covering its morale function, other effects, and the science, sociology and themes, without disputing anything in the model's turn.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the NotebookLM upload discussion and moves to a new request about the types of love in the game lore, while explaining that Twilight's fate in Pax Chrysalia is the one piece of lore they plan to subvert by putting her at the front with Applejack.

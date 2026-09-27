@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Names in a bare phrase what the scene does: the mock-capture roleplay takes apart fear by turning it into play. It gives a label for the scene's function and does not say how that connects to honesty or posturing. | "Deconstructing fear through play" | yes | title-like fragment, a bare noun phrase with no verb or elaboration
+- whole: The commentary is a single title-style phrase naming the scene's function, deconstructing fear through play, which the synopsis already gives as its \"Theme\" line.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - unspecified rejection of the whole answer (what was wrong is not stated) | the model's previous attempt at finding and describing lineage tools is treated as not acceptable and to be redone | "Try again" | flat, terse instruction with no reason or detail given
+- about: The user rejects the model's lineage-tools answer as a whole and tells it to redo the attempt, without saying what was wrong.

@@ -1,0 +1,11 @@
+- asks:
+  - organize | divide the supplied sequence of events into chapters | "work on chapter splits ... for the rest of the story"
+  - name | give titles/names to each of those chapters | "and names for the rest of the story"
+- supplies:
+  - anchor note | confirmation that chapters 1-17 are settled, ending with Canterlot's liberation via paradrop and Pagala's death | one sentence
+  - event outline | chronological list of the story's remaining events, from Applejack's Tall Tale campaign and liberation of Vanhoover, through Celestia's white peace offer, Applejack's refusal on POWs, the three-way political fracture of Equestria, the SECEF campaign against Synovial and the Reich, Applejack's presidential election with compulsory proportional-representation voting, the pact invasion of the changeling lands and Olenia, the siege and surrender of Vesalipolis, reconstruction and world peace, ending with Applejack's term ending and Flowing Current's election at Sweet Apple Acres | several paragraphs
+- shaping:
+  - scope | reply should cover only "the rest of the story," i.e. everything after the already-settled chapters 1-17 | "Chapters 1 to 17 are rock solid"
+  - content requirement | reply should produce both a chapter breakdown (splits) and a title for each resulting chapter | "chapter splits and names for the rest of the story"
+- openness: Open: the message hands over a fixed sequence of events and leaves it to the model to decide how to divide them into chapters and what to name each one, without proposing any particular split or titles itself.
+- subject: Determining chapter divisions and titles for the concluding arc of a My Little Pony war/political story, following the already-finalized first 17 chapters.

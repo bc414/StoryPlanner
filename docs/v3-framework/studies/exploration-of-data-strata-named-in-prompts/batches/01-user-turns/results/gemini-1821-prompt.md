@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to reason out how the racial hierarchy it just described would affect who among earth ponies, unicorns, pegasi, and griffon serfs is most exposed to sexual abuse by griffon lords.

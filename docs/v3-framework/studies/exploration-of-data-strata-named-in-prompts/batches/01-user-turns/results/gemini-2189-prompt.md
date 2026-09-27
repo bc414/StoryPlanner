@@ -1,0 +1,5 @@
+- sources:
+  - story thread "establishing the Equestrian Republic" | treat as the author's existing plan for grassroots, bottom-up sovereignty built during the war while Celestia is paralyzed; read it as context for the allegory question | I have a story thread "establishing the Equestrian Republic" which tracks the grass roots progression | first-named
+  - my story plans | review them again, searching in them for clearer allegories and parallels to real history | Please review my story plans again, searching for clarity of the allegories | referred-to
+- order:
+- about: The user asks whether Tall Tale is itself the Poland allegory, adds a possible Ukraine parallel, points to their "establishing the Equestrian Republic" thread, and asks the model to re-review their story plans for clear allegories and real-history parallels.

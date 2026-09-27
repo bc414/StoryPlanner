@@ -1,0 +1,6 @@
+- sources:
+  - the analysis just given (the systemic reevaluation) | base text to be refined and revised in light of the new psychological-difference premise, not discarded | Please refine this analysis with the idea | referred-to
+  - the assertion that male and female griffons have high baseline physical strength | provisional; the author is considering stripping it out, since griffons are only strong relative to ponies and that does not matter in Herzland against hydras and manticores | I'm wondering if I should strip out the assertion | referred-to
+  - real life / evolutionary biology (testosterone and estrogen, female risk aversion, males as expendable) | offered by the author as the premise justifying the griffon difference, and the model is asked to say whether the male rat-race pattern is a real-world phenomenon | Is this a phenomenon in real life? | referred-to
+- order:
+- about: The author asks the model to revise its patriarchy analysis by making griffon magic identical between sexes but adding a hormone- and reproduction-based female risk aversion, asks whether that matches real life and explains male rat-race tolerance, and floats removing the high-baseline-strength premise.

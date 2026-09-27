@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the toy-box and childhood-safety framing as a starting point and asks for a new, broader analysis of generational and economic sources of cynicism since WW2, and of how audiences would receive their story against mainstream grimdark works.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model added collection-change subscription and syncing (AddAndSubscribe with CollectionChanged handlers, live sorting) when the user only wanted a one-time population at startup | "I don't need subscription. Just once during startup." | flat statement of what isn't needed, followed by a terse instruction to simplify
+- about: The user pushes back on the over-engineered subscription and live-sync code and asks for a simpler version that builds the sorted aggregate collection once at startup.

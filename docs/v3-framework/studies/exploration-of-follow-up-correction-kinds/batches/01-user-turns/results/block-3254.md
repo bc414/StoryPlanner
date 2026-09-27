@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of why the Anglo model spread and asks a follow-up about the deeper material conditions behind it, contrasted with the Song dynasty's abandoned ocean-going capability, without disputing anything the model said.

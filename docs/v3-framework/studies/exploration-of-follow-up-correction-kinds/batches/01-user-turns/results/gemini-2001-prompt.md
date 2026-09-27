@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the Phase 0 schema the model left with its item definition elided and asks for the full final structured-output JSON for the strategy-selection step, instead of taking up the model's offered move to the Sorter phase.

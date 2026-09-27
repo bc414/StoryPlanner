@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user revises the model's monster-loot economic theory by specifying that warlord power derives from innate griffon-forged magic rather than controlled monster resources, questioning whether the game-reserve economic framing is necessary, and clarifying that monster loot should gatekeep post-hunt artisan crafts but not the warlords' core magic.

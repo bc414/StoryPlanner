@@ -1,0 +1,13 @@
+- asks:
+  - brainstorm/validate | asks whether it makes sense that Coltbert proposed fiat currency to the king of Aquileia and had it rejected | "Perhaps Coltbert proposed fiat currency for Aquileia and the king rejected it?"
+  - brainstorm/validate | asks whether it makes sense for Coltbert's fiat currency concept to be framed as promoting capitalist harmony and unlocking petty bourgeois ambition, tied to his predator's dilemma theory | "Coltbert perhaps devised fiat currency as a means of promoting harmony within capitalism... Tied to his theory about the predator's dilemma"
+  - choice | asks whether it would make more sense for Verany to have originated war bonds, with Coltbert ironically stealing/refining the idea, instead of Coltbert originating it | "Or would it make sense for Verany to invent war bonds and Coltbert ironically stole/refined the idea?"
+  - explain | asks whether imperial/feudal systems would operate on a strict gold standard, and how that would change during industrialization | "Would imperial/feudal systems run on strict gold standard? What about while they industrialized?"
+- supplies:
+  - lore summary | Aquileia's political history: Discret hiring Coltbert to empower the petty bourgeoisie (FJA) against Verany, the FJA later allying with the city griffons and Verany (PNdA) to form the 2nd Aquileian Republic in 1008, and the 1010 adoption of war bonds for war against Imperial Herzland | a paragraph
+  - worldbuilding note | existing fiat currency already established elsewhere in the world (Skyfall Marks, used in Skyfall) | a short line
+- shaping:
+  - scope limit: sets aside discussion of any specific OC for this exchange | "Let's forget about a specific OC for now"
+  - consistency constraint: reply should account for fiat currency already existing in the world via Skyfall Marks | "Also note that fiat currency exists in the world already, in Skyfall"
+- openness: Mixed: several proposals are floated with "perhaps" inviting validation or elaboration, one explicit choice is posed between two named origin stories for war bonds (Coltbert-originated vs. Verany-originated), and the gold-standard question is left fully open for explanation.
+- subject: Worldbuilding the monetary/political history behind fiat currency and war bonds in Aquileia, tied to characters Discret, Coltbert, and Verany

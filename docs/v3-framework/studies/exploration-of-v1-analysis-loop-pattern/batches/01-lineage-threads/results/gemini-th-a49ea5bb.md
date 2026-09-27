@@ -1,0 +1,21 @@
+- steps:
+  - author | brings document | full planning-document export | opening of the conversation
+  - model | analysis | structural/thematic breakdown of a proposed scene, assigning symbolic roles to two named characters | reply to the attached document
+  - author | asks + supplies context | whether two more characters should join the scene, plus timeline and plot context for when it occurs | follow-up question
+  - model | analysis | case for including the two extra characters, a comparative-redemption framework, and staging suggestions | reply
+  - author | requests | a canon overview of the two characters and a reanalysis, pointing to an attached flavor text | follow-up request
+  - model | overview + revision | a canon summary (later found mistaken) and revised scene beats with sample dialogue | reply
+  - author | correction | disputes the model's character identities and restates the correct relationships | follow-up
+  - model | correction + revision | corrected character profiles and revised scene beats | reply
+  - author | narrows focus | specifies interest in one character and adds a canon detail about that faction's reintegration | follow-up
+  - model | reanalysis | detailed scene staging with specific dialogue exchanges built around the corrected characters | reply
+  - author | brings document | a second, updated planning-document export | start of a new topic
+  - model | analysis | options and a recommendation for a different character's narrative fate | reply
+- kept:
+  - note 1878 | pasted from this reply inside the author's own framing | keeps the beat of one character's skeptical questioning and the contrast of two characters' fates against a third's death, placed on the plot point entry
+  - note 1879 | pasted whole from this reply | keeps the summary line about a system that lets people fail and return, placed on the plot point entry
+  - note 1880 | pasted whole from this reply | keeps the characterization of one faction's system as preventing failure through safety, placed on the plot point entry
+  - note 1881 | pasted whole from this reply | keeps the characterization of another faction's system as punishing failure through terror, placed on the plot point entry
+  - note 1882 | pasted whole from this reply | keeps the characterization of a third faction's system as absorbing failure into resilience, placed on the plot point entry
+- brought: The author brought two successive exports of the planning document plus their own canon knowledge of character identities and relationships, using the latter to correct the model's analysis partway through.
+- loop: The author feeds in plan exports and canon corrections while the model returns increasingly elaborate structural analyses and sample dialogue for a scene; only a short run of summary lines from one mid-conversation reply gets carried verbatim into the plot point entry, while the larger corrective and dialogue-drafting work that followed is not reflected in the traced notes.

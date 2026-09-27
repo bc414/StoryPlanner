@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up sequencing question about whether Rarity's romantic use of "Une Lionne" should come before or after the insulting or reclaimed Herzlander use that Trimmel attributes to Synovial, without saying the earlier answer was wrong.

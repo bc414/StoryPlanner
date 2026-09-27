@@ -1,0 +1,11 @@
+- steps:
+  - author | supplies reference material | an attached document, contents not captured | opening of the stretch, before any discussion
+  - author | brings a worldbuilding brainstorm | dense notes on Stalliongrad's non-magical Trotskyist communism, conscription-without-coercion, agitators Caramel Marks and Fire Angel, and a proposed Baltimare-vs-Manehattan contrast, closed with a direct request for analysis
+  - model | returns a structured systemic analysis | sectioned discussion of magic-as-ontology eradication, the psychological logic of proud conscription, a Baltimare/Manehattan economic comparison, and the thematic case for communism's obsolescence, followed by two Socratic follow-up questions
+- kept:
+  - note 5400 | the author's own words in this record | keeps the author's own brainstorm on Stalliongrad's non-magical cog-communism, conscription, and the agitators, filed under Subject Stalliongrad
+  - note 5572 | the author's own words in this record | keeps the author's framing of Baltimare as strict interchangeable-cog Marxism versus Manehattan's asset-specific approach and Stalliongrad's fall humbling Baltimare, filed under Subject Baltimare Communist Party
+  - note 5565 | pasted from this reply inside the author's own framing | keeps the model's explanation of cog-status as protection from predation and its parallel to Trotsky's militarization of labor, filed under Subject Stalliongrad with an added lore cross-reference
+  - note 5568 | pasted whole from this reply | keeps the model's comparison of Manehattan's bureaucratic audit of tycoons against Baltimare's lynching of tycoons and its logistical cost, filed under Subject Baltimare Communist Party
+- brought: The author brought an attached reference document plus a self-authored cluster of worldbuilding ideas about Stalliongrad's non-magical Trotskyist communism and its contrast with Manehattan, asking the model to analyze the set.
+- loop: The author brings a raw brainstorm on two communist factions and asks for systemic analysis; the model elaborates it into ontological, psychological, economic, and thematic terms; the plan's database then keeps both the author's original brainstorm and selected pieces of the model's elaboration, filing them together under the same two subject entries so the analysis becomes part of the same lore record it was analyzing.

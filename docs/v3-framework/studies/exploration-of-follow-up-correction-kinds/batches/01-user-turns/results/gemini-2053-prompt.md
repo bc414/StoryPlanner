@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - other: wording of the drafted prompt. The model's Phase 2 rule still defines a Thought Unit through sentences and says to route each complete sentence, which sits oddly beside its own case for atomic thoughts | should sentences be mentioned at all or just mention atomic thoughts | put as a question that carries a suggestion, with no explicit disagreement and no reason given
+- about: The user asks whether the drafted prompt should drop sentence language altogether and speak only of atomic thoughts, which pushes on the terminology the model kept.

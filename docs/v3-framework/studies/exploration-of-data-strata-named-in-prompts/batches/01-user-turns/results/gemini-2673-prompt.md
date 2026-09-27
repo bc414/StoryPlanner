@@ -1,0 +1,7 @@
+- sources:
+  - my notes about Lauren Faust's G4 MLP FiM early seasons being a Trojan horse whose themes go against Hasbro's corporate principles | treat as the author's existing thematic notes that the model should relate the newspaper-serialization irony to | how does this relate to my notes about | referred-to
+  - my story plans | review them first, before answering the question | Please review my story plans before answering | referred-to
+  - the story being serialized in a newspaper to sell more newspapers, just like danglars | the model's own prior point about the serialized novel, offered by the user as an irony to be confirmed or explored | So is the irony that the story is being serialized in a newspaper | referred-to
+- order:
+  - my story plans | Please review my story plans before answering
+- about: The user asks whether the newspaper-serialization of the novel is an irony parallel to Danglars, and asks the model to relate that to their notes on Faust's G4 MLP as a Trojan horse against Hasbro's principles, after first reviewing their story plans.

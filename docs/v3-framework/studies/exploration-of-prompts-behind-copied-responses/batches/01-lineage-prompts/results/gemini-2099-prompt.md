@@ -1,0 +1,9 @@
+- asks:
+  - confirm | asks whether the master chefs, who sell cheap gourmet food made from scraps in master processes, should be the ones to start the initial FJA/PNdA reconciliation | "should the initial FJA/PNdA reconciliation be started by the master chefs"
+  - confirm | asks whether the factory workers' actual caloric needs would be met by these master chefs, distinct from the wine/cheese trade | "the actual caloric needs of the factory workers would be met by master chefs, right?"
+- supplies:
+  - prior worldbuilding detail | an established dynamic where the user's characters/factions barter for better, more specific equipment | one sentence
+  - prior worldbuilding detail | a previously mentioned, admittedly vague idea about flooding the city with food to lower the cost of living, said to hold true for wine and cheese | one sentence
+- shaping:
+- openness: The message states its own claims (master chefs start the reconciliation, master chefs cover caloric needs, wine/cheese are luxuries on top) and asks the model to check/confirm them, as shown by the closing "right?" and the "should...right?" framing.
+- subject: Worldbuilding logic for a food-based economy reconciling two factions (FJA/PNdA), distinguishing staple caloric supply from master chefs versus luxury goods like wine and cheese

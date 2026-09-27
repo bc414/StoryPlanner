@@ -1,0 +1,16 @@
+- steps:
+  - author | brings a source | an article link on AI IDE paradigms, asks for classification | opening of the thread
+  - model | analyzes | sorts Google's tools into the article's two paradigms plus a bridging case | first reply
+  - author | asks a technical detail | whether Code Assist has a system-instructions field like AI Studio's Playground | second exchange
+  - model | answers and lists workarounds | no direct feature, plus four alternative configuration methods | second reply
+  - author | introduces a new use case | wants Code Assist repurposed as a chat-only developmental editor for story-plan markdown files | third exchange
+  - model | gives setup instructions and offers a draft | steps to suppress code behavior, a persona rule file, sample chat queries, offer to write the styleguide | third reply
+  - author | discloses current practice and proposes an alternative | pasting the full 300k-word story bible each time vs. splitting it via the author's WPF/SQLite exporter into per-file context | fourth exchange
+  - model | compares methodologies and gives a verdict | table and pros/cons of mega-prompt vs. file-split retrieval, recommends splitting, offers to write export code | fourth reply
+  - author | asks about a substitute tool | whether Antigravity could serve the same editor role instead of Code Assist | fifth exchange
+  - model | compares tools and gives a verdict | contrasts Antigravity's agent-first design with Code Assist's passive design, recommends Code Assist, offers two next steps | fifth reply
+  - author | asks about another substitute tool | how Code Assist compares to NotebookLM for the same purpose | sixth exchange
+  - model | compares tools across three axes and gives a verdict | workflow friction vs. AI persona vs. capacity, recommends NotebookLM for analysis quality, offers a sync-script pivot | sixth reply
+- kept:
+- brought: none
+- loop: The author brought only tooling questions and workflow logistics for editing an existing story bible, never story content itself, and the model returned comparisons and verdicts about software options; none of this exchange left any trace in the planning database, so the loop here stayed entirely outside the plan.

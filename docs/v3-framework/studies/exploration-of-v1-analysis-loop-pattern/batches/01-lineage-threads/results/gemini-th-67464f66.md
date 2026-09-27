@@ -1,0 +1,12 @@
+- steps:
+  - the author | pitch | a drafted backstory addition for Chrysalis (Acornage, silk-making changelings, an unicorn couple, a pretend-parent alibi for Griffenheim) | opening prompt of the exchange
+  - the model | assess plot mechanics | how the addition explains Chrysalis's fluent Equestrian and her Herzlander alibi | first section of the response
+  - the model | analyze character | how the addition sharpens Chrysalis's offense at assimilation versus subservience, and her use of the couple as props | second section of the response
+  - the model | analyze theme | how the unicorn couple embodies the cost of Celestia's isolationism ('walled garden'/'stagnation') | third section of the response
+  - the model | note irony | a contrast between Chrysalis's rejection of the Acornage model and the eventual 'love drop' resolution | fourth section of the response
+  - the model | flag open questions | unresolved fate of the couple and a timeline-consistency check on ages | fifth section of the response
+  - the model | deliver verdict | a summary endorsement of the addition | closing line of the response
+- kept:
+  - note 4290 | the author's own words in this record | keeps and expands the author's Acornage/unicorn-couple backstory pitch (walled garden, hole-in-wall, offense at pony-disguised changelings) into a fuller elaborated version with named characters and added motivations, filed under the Subject on Chrysalis's true actions and motivations
+- brought: The author brought a self-drafted addition to Chrysalis's backstory (her trip to Acornage, a unicorn couple, and a false-parent alibi) for evaluation.
+- loop: The author brings a drafted backstory idea for evaluation and the model returns a multi-angle assessment plus open questions, but what the plan keeps is not the model's evaluation — it is the author's own idea, rewritten and elaborated with new specifics, entered directly into the database record on Chrysalis's motivations.

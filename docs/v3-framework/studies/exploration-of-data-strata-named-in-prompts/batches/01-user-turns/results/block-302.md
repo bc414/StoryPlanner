@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes, as a new worldbuilding idea, that Skyfall tycoons' crystal-based IP signaling and lockout is another reason Aquileian FJA artisans hate Skyfall, and asks whether it can be tied to the tableau de chasse and the special stamp ink, without pointing the model at any body of material.

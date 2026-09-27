@@ -1,0 +1,4 @@
+- sources:
+  - The author's own observations of Claude Sonnet and Gemini (in AI Studio and the Gemini web interface) | treat as true; the premise the model's explanation and any system-instruction fix should account for | I noticed that it does not take shortcuts | first-named
+- order:
+- about: The user asks why Gemini gives diluted answers to deep questions while Claude Sonnet reasons and outputs fully, whether system instructions can close the gap, and whether the cause lies in the consumer layer or the models themselves, grounding the question in their own experience of both.

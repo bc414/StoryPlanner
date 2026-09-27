@@ -1,0 +1,4 @@
+- sources:
+  - EaW canon | treat as established fact: New Mareland was founded in 649 ALB, and the new reasoning is built on that date | EaW canon says New Mareland was founded in 649 ALB | referred-to
+- order:
+- about: The user takes the founding date of New Mareland from EaW canon and builds a mirrored three-phase history for it, asking the model to judge whether the pioneer, refugee-suppression and capitalist-refusal reasoning holds together.

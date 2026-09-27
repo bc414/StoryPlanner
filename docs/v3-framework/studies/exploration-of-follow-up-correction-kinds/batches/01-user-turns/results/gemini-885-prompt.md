@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - technical behaviour of the supplied script | the script was presented as fixed and expected to export all the daily versions, but the user reports it only exported the first 5 before erroring | It worked for the first 5 then started giving errors | flat, terse result report with no error text, reason, or complaint; the correction is implied by the outcome
+- about: The user reports the outcome of running the revised script, saying it exported five files and then failed, which implicitly shows the fix was incomplete and prompts further debugging.

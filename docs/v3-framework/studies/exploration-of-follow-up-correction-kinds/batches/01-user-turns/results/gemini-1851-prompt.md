@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their takeaway from the model's answer, that synthesis within existing engines can yield new things, then extends it by asking whether history's genuine paradigm shifts like writing and code sit outside that, and requests formal terms and examples.

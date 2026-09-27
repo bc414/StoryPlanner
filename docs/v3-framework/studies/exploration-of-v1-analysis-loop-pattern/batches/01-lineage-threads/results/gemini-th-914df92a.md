@@ -1,0 +1,12 @@
+- steps:
+  - the author | brings a battle-by-battle plan | a breakdown of Applejack's command style (strategic vs frontline) across multiple chapters, plus an open question about her role in the Canterlot paradrop | opening message of the exchange
+  - the model | organizes and extends the plan | a two-phase command framework, a mechanism for the Ponytown POV switch, an answer to the Canterlot question, a scope for Trimmel's command, confirmation of the Vanhoover gloss-over, and a summary table of every character's role | response to the first message
+  - the author | asks a comparison question | whether Applejack resembles Napoleon | second, short prompt
+  - the model | delivers a verdict and reframing | rejection of the Napoleon comparison, substitution of a Washington/Roosevelt archetype, and thematic justification tied to the ending | response to the second prompt
+- kept:
+  - note 894 | the author's own words in this record | keeps the timing detail that Trimmel has no air support for one day, filed on the Ponytown plot point
+  - note 1343 | the author's own words in this record | keeps the description of Rainbow and Twilight's aggressive, indiscriminate strike and the sparing of surrendering units, filed on the Battle of Quebuck plot point
+  - note 2433 | the author's own words in this record | keeps Applejack's trauma from her earlier tactical-command role and her choice to leave tactics to professionals, filed on the link between the 3rd Battle of Tall Tale and Applejack
+  - note 2434 | the author's own words in this record | keeps the note that Twilight's presence gives Applejack an ironic air of invincibility, filed on the same 3rd Battle of Tall Tale × Applejack link
+- brought: The author brought a battle-by-battle breakdown of Applejack's command style (frontline versus strategic) across the war's major battles, including an unresolved question about her role in the Canterlot paradrop.
+- loop: The author fed in raw, battle-specific characterization notes and an open question; the model returned organizing frameworks, mechanisms, and historical analogies, but the plan kept only the author's own sentences describing concrete battle facts and Applejack's psychology, filing them onto the relevant plot points and character link rather than keeping any of the model's synthesis or the Napoleon/Washington discussion.

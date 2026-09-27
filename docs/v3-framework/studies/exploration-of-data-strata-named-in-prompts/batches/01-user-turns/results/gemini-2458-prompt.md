@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a real-world history question about how German hydrogen airships operated across the English Channel despite their flammability, and whether they could only do so at night, as a follow-up to the discussion of the Storm King's flammable airships.

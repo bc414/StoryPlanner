@@ -1,0 +1,5 @@
+- sources:
+  - the index (track index in the configuration record) | build on it: pair each index with a configurable, displayed function key that moves the selected note to that track, with no hard link between them | Can the index also be correlated with a function key | referred-to
+  - WPF's default function key usage | check against it: the model is asked to say from its own knowledge whether any of F1-F12 are already taken by default in WPF or all twelve are free | In WPF, are any of the function keys used by default | referred-to
+- order:
+- about: The user asks whether each track's index can be paired with a displayed, configurable function key that moves the selected note to that track, and asks whether WPF reserves any function keys by default.

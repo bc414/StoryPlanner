@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out how pegasus flight will work in their world (manipulating air pressure, temperature and currents) and asks whether griffons should have a lesser version of it or fly by wing muscle alone, so this is a new design question building on the model's griffon discussion.

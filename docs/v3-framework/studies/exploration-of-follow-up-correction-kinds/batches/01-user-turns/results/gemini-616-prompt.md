@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn follows up on the model's passing remark about German POWs learning English by asking what became of them (repatriation, staying, Soviet-bloc homes) and whether that explains English in Germany today, which extends the topic without disputing anything.

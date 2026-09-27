@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | generate name suggestions for the second half of the chapter being split | "Give suggestions for naming the second half"
+- supplies:
+- shaping:
+  - match existing naming style | suggestions should follow "the conventions patterns and vibes of the other chapter names"
+- openness: Open: it asks for suggestions/brainstorming for the new chapter's name rather than confirming or choosing between specific named options.
+- subject: Naming the second half of a chapter ("Tempest") being split in two

@@ -1,0 +1,7 @@
+- asks:
+  - explain | asks the model to explain what a specific term or slang phrase actually means | "What does Asian Baby Girl really mean?"
+- supplies:
+- shaping:
+  - seek the genuine or underlying meaning rather than a surface gloss | the word "really" in "really mean"
+- openness: Open: the message poses a single definitional question about a named term without proposing any candidate answer itself.
+- subject: The meaning of the slang term/subculture label "Asian Baby Girl" (ABG)

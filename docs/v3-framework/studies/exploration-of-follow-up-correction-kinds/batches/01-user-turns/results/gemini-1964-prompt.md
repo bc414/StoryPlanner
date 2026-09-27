@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - own name: rejection of a design direction | the model's approach leaned on a translation-layer explanation, with Kaiser and Reich rendered as Emperor and Empire by translators, and the user drops it as too confusing for readers and asks for in-world names in its place | "interesting I think it'll be too confusing for the reader" | stated flatly with a reason, softened by first calling the idea interesting
+  - reading of the request: comparison of two approaches | the model gave a single analysis, and the user asks again for the renaming and a comparison of both approaches, which suggests the model's answer did not settle what was wanted | "Give a comparative analysis of both approaches" | implied, put as a restated request and not as a complaint
+- about: The user turns down the translator-based framing as too confusing, restates the plan of Kaiser and Reich being renamed by Grover III with Greek and Latin roots from Sparleos, and asks for the new names and a comparison of both approaches.

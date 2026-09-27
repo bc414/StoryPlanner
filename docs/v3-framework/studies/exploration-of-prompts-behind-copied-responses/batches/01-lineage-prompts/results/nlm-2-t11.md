@@ -1,0 +1,7 @@
+- asks:
+  - evaluative judgment | assess whether chapter 4 is too early a point for Twilight to give up on Celestia so completely | "Is it too early in chapter 4 for Twilight to give up in Celestia so hard?"
+  - consequence analysis | determine whether that plot choice weakens or strengthens the story's narrative weight later on | "Does that remove narrative weight later in the story or increase it?"
+- supplies:
+- shaping:
+- openness: The first question is left open as a general judgment call; the second offers a named binary choice (remove narrative weight vs. increase it), asking the model to pick between the two.
+- subject: Timing and narrative impact of Twilight's loss of faith in Celestia in chapter 4

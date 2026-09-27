@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Olenia analysis and moves to new questions about Eros, Eagleclaw, Grover and Thranx's arc, adding a gloss on who Thranx is, without saying anything in the model's turn was wrong.

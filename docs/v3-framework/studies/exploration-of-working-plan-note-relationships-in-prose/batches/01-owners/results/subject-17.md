@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 188|Another character, Hans Kessel, whom the conscript attacked; he is not in this item|attacked Hans Kessel
+  - 188|Another character, Fluttershy, who is tied to the attack and to a rehab; she is not in this item|and Fluttershy rehabs
+- whole: With a single note, this owner has nothing to hang together, so it reads as one standalone entry.

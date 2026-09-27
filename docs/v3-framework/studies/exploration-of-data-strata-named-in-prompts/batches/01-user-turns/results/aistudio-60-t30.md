@@ -1,0 +1,8 @@
+- sources:
+  - The Crystalling (the episode, just rewatched) | treat as the evidence from which the new readings are drawn; reinterpret its scenes for the story plan | I have now rewatched The Crystalling | referred-to
+  - the author's synthesized insights for the story plans | the material to be analyzed; the author's proposed story-plan readings, not yet judged | synthesized these insights for my story plans, please give an analysis of them | first-named
+  - on-screen dialogue and actions quoted from the episode (Sunburst's lines, the Twilight and Spike exchange, the list burning) | treat as literal evidence supporting the proposed readings | he literally burns the list on screen | referred-to
+  - the Canterlot Archives spells featured in It's About Time | treat as examples of what Celestia counts as dark or industrializable magic | These are the kinds of spells in the Canterlot Archives featured in It's About Time | referred-to
+  - No Second Prances and Gauntlet of Fire (episodes) | treat as later show events explained by Spike's arc, to be fitted to the plan | This leads to his diplomatic pragmatism in Gauntlet of Fire | referred-to
+- order:
+- about: The user presents a set of story-plan readings of The Crystalling, recasting Sunburst's contraband magic and Spike's break from Celestia's worldview as backstory for their alternate-history setting, and asks for an analysis of them.

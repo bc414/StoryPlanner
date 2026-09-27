@@ -1,0 +1,5 @@
+- sources:
+  - This allegory | weight: it should be built into (incorporated into the backstory of) the artisans who worked for Kesseler | marked by: 'This allegory should be built into the artisans who worked for Kesseler' | referred-to
+  - the Skyfall Resolution scene in the chapter Ambition | weight: this is the point in the story plan where the built-in allegory is to surface, via Twilight meeting the artisans | marked by: 'Twilight meets them in the Skyfall Resolution scene in the chapter Ambition' | referred-to
+- order:
+- about: The user directs that the ad-tech-engineer allegory the model just laid out be woven into the backstory of Kesseler's artisans, to be revealed when Twilight meets them in the Skyfall Resolution scene of the Ambition chapter.

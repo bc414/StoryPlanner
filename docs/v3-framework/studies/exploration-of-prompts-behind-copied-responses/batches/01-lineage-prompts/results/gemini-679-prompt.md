@@ -1,0 +1,9 @@
+- asks:
+  - analyse | asks how legislative-district members can be chosen for a mixed-member proportional system when the polity holding the vote is still a monarchy with no Republic yet established | "How are the members chosen with districts if there is no Republic yet?"
+  - brainstorm | asks for multiple possible approaches to designing this first transitional vote/election, each with its own analysis | "What is the best approach? Give some options and analysis of each"
+- supplies:
+- shaping:
+  - content requirement | the referendum and its options must carry political tension between a 'harmonic Republic' faction and a 'nationalist/rugged' faction | "there needs to be the tension between harmonic Republic vs nationalist/rugged"
+  - structure of answer | wants several distinct options laid out with analysis attached to each, not a single prescribed answer | "Give some options and analysis of each"
+- openness: Leaves the mechanism open by asking for multiple options with analysis rather than proposing one itself, while directing that whatever is proposed must embody the stated tension between a harmonic-Republic faction and a nationalist/rugged faction.
+- subject: Designing the first election/referendum mechanics for a fictional country's transition from monarchy to an Aquileian-style mixed-member proportional Republic, amid rival Republic vs nationalist factions.

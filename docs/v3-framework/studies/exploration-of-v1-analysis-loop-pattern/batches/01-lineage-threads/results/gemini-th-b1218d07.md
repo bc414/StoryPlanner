@@ -1,0 +1,11 @@
+- steps:
+  - the author | brings plan and question | the jaeger/statthalter targeting split, Trimmel's surrender/resist signature line, Stalliongrad's no-surrender fate, and a two-option question on Petershoof's fate | opening prompt of the exchange
+  - the model | frames the overall strategy | casts jaegers vs statthalters as a good-cop/bad-cop split tied to the promise/fact line | early in the response
+  - the model | weighs option A | pros and cons of Chrysalis destroying Petershoof outright | first half of the options analysis
+  - the model | weighs option B | pros and cons of a siege/stalemate at Petershoof, likened to a historical siege | second half of the options analysis
+  - the model | analyzes the Stalliongrad razing | reads the city's destruction as punitive proof of the regime's true face and its effect on Trimmel | later in the response
+  - the model | delivers a recommendation | endorses the stalemate option with supporting narrative reasons | closing of the response
+- kept:
+  - note 1665 | the author's own words in this record | keeps a first-person Trimmel monologue expanding the promise/fact line into a fuller confession (quotas, statthalters, Stalliongrad, Manehattan, the rifles), placed as a PlotPoint on what really happened in the 2nd Battle of Tall Tale
+- brought: The author brought an existing plan element (the jaeger/statthalter targeting split and Trimmel's promise/fact line) plus an open question about whether Petershoof should fall or hold in a stalemate.
+- loop: The author brought a plan fragment and a binary narrative question to get outside analysis of consequences, and while the model's pros/cons and recommendation were not themselves kept, the author used the occasion to write out an expanded first-person Trimmel confession built around the same signature line, which the database retained as a plot point on Trimmel's account of the battle.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pitches a new story beat, that Gilded Trust offered the buffalo guns against Rockfeller and they declined in favor of animal sabotage, and asks the model to weigh in on it without pointing at any body of material.

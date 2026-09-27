@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's two-part structural advice as given and asks a follow-up question about who the Chapter 5 opening POV should be and whether Rainbow speaks with Fluttershy or sees her from the plane.

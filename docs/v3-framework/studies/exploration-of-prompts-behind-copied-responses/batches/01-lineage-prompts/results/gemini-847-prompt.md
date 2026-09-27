@@ -1,0 +1,8 @@
+- asks:
+  - question | asks whether the described story scenario (a stagnant tyranny transforming into democracy in direct response to a total-war attack) has any real-world historical precedent | "Or has this happened in history?"
+  - check/evaluate | asks the model to consider whether interwar Czechoslovakia is a smaller-scale historical example of that same pattern | "Maybe on a smaller scale like in Czechoslovakia in the interwar years?"
+- supplies:
+  - premise sketch | contrasts two planned fictional works and their historical-era inspirations: "Nine Tales of Liberty" (EU4-style, feudalism-to-democracy, like Britain/France/America) versus "The Lioness of Tall Tale" (HOI4-style, industrial era, already past feudalism into tyranny like Germany/Japan/Russia, with protagonists driving a unique stagnation-to-democracy shift sparked by a total-war attack) | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the message itself proposes interwar Czechoslovakia as the likely historical parallel and asks the model to confirm or explore that.
+- subject: Whether the invented plot premise of a stagnant tyranny turning democratic under total-war attack (for "The Lioness of Tall Tale") has a real historical analogue, possibly interwar Czechoslovakia.

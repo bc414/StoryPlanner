@@ -1,0 +1,4 @@
+- sources:
+  - chapter 7 "generosity" | the Manehattan chapter that directly precedes chapter 8; the new meeting should continue its narrative thread rather than leave it isolated, so it is something to stay continuous with | Because this chapter comes immediately after chapter 7 "generosity" | referred-to
+- order:
+- about: The user is planning the chapter 8 war meeting in Tall Tale, deciding to have Rarity join by radio from Manehattan to link it to chapter 7, and asking what Twilight should ask Rarity about the princesses.

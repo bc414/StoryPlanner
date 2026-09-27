@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a variation on the model's cockpit idea, with sealed close-air-support planes and mostly open-air fighters so pegasi can feel the weather, and asks what would be needed to make it work, without pointing the model at any body of source material.

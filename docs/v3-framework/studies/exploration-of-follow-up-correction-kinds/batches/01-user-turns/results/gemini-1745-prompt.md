@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the French grammar explanation and starts a new task, asking for an analysis of whether their plan already has plot points where characters reveal Chrysalis's secret funding of industrialists.

@@ -1,0 +1,7 @@
+- sources:
+  - these baselines (the realigned demographic and materialist analysis just given in the conversation) | use as the foundation the reanalysis is built on | With these baselines in mind | referred-to
+  - the 1 year after white peace (a period of the story plan) | the material to be reanalyzed in light of the baselines | give a reanalysis of the 1 year after white peace | referred-to
+  - the author's parenthetical about the Stalliongrad continuing war in the frozen northern mountains | take as a stipulated fact of the story that the model must build in: a low-entropy terrain stalemate, unlike the hot war elsewhere | the Stalliongrad continuing war in the frozen mountains of the north is low entropy stalemate | first-named
+  - the chapters Resilience and Grace (post-election liberation) | the material to be reanalyzed after the white-peace year, in light of the baselines | a reanalysis of the chapters Resilience and Grace | referred-to
+- order:
+- about: The user asks the model to reanalyze the year after the white peace and then the chapters Resilience and Grace, using the just-established demographic baselines and adding a stipulation that the Stalliongrad northern mountain war is a low-entropy terrain stalemate.

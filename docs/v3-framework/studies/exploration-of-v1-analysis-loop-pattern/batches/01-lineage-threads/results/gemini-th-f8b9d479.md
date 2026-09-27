@@ -1,0 +1,24 @@
+- steps:
+  - author | brings a setting proposal | pre-705 magical beasts and a sword-to-gun transition tied to noble legitimacy | opens the thread
+  - model | names and analyzes a mechanism | an economic framework explaining how gunpowder dependency undercuts noble power | replies to the opening proposal
+  - author | clarifies demographics and timeline, asks a causal question | 20/80 pony-griffon ratio, pony biology, Grover III/IV reigns, why legions were withdrawn | second turn
+  - model | builds several linked explanations | a pony-as-loophole theory, reasons for legion withdrawal, a prestige shift from sword to ledger | replies to the clarification
+  - author | asks a broad survey question | how griffon serf attitudes evolved across five listed eras | third turn
+  - model | constructs an era-by-era psychological timeline | serf mindset from tribal fear through loyalty, resentment, rage, to civic responsibility | replies to the survey question
+  - author | asks for a targeted revision | requests the serf-perception analysis be redone against the failed first revolution and the Coltbert Reforms | fourth turn
+  - model | reworks the prior analysis | a revised serf trajectory tied specifically to Verany's revolution and Coltbert's land reforms | replies to the revision request
+  - author | asks a comparative real-world question | proportions of castle servants to peasants in pre-Louis XIV France as a model | fifth turn
+  - model | supplies demographic reasoning | statistical math splitting ponies into a house-servant minority and a village majority | replies to the comparative question
+  - author | brings a new distinction | different magic types for unicorns, pegasi, and earth ponies and a pride-linked mechanic for earth pony magic | sixth turn
+  - model | builds a tiered hierarchy | a caste ranking of the three pony types by perceived utility and treatment | replies to the magic-type distinction
+  - author | asks a follow-up question | which pony types are likeliest sexual-abuse targets, plus griffon-serf-on-pony dynamics | seventh turn
+  - model | extends the hierarchy | a victimization ranking across pony types and serfs, tied back to the utility logic | replies to the follow-up question
+  - author | brings a draft political plan | King Gerad Discret's strategy of universities, pony bureaucrats, and a Versailles-style capital to centralize power | eighth turn
+  - model | elaborates and validates the plan | a five-part breakdown of Gerad's statecraft against nobles, empire, and bourgeoisie | replies to the draft plan
+  - author | corrects the timeline | fixes Gerad's death date, the independence sequence, and Verany's motive for execution | ninth turn
+  - model | reworks the arc with corrections | a revised chronological synthesis of Gerad's rise, reign, and fall | replies to the correction
+  - author | asks several gap-filling questions and adds new details | land-control mechanics, unpromoted ponies' fate, Verany's pan-Griffonian ambition, other loyalist nobles | tenth turn
+  - model | offers structured options for each gap | an intendant-based land-control system, a split between city and country ponies, reasons the Republic fails, and the ponies' fate under the Terror and counter-revolution | replies to the gap-filling questions
+- kept:
+- brought: The author brought an already-established story world (Aquileia's ruler lineage, the 20/80 pony-griffon split, and named figures like Vérany, Coltbert, Gerad Discret, and Moriset) into the conversation as the basis for each new worldbuilding extrapolation.
+- loop: Across ten turns the author repeatedly fed the model a piece of existing setting plus a question, correction, or new distinction, and the model returned a structured analytical elaboration (named mechanisms, tiered hierarchies, era timelines, gap-filling options) that the author then built the next question on top of; none of this back-and-forth was traced into the planning database in this stretch, so the cumulative political history built here stayed only in the conversation.

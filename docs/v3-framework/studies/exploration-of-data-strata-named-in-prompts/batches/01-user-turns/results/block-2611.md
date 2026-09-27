@@ -1,0 +1,8 @@
+- sources:
+  - The model's preceding analysis of the Chinese webnovel ecosystem ("this all") | the material the user wants interpreted; taken as the account to reason from, with the user's reaction that it is dystopian and a request to say what it means | "sounds absolutely dystopian" | referred-to
+  - The user's own two visits to Taiwan | firsthand personal observation offered as partial evidence about Chinese people between Western and Chinese paradigms; the user marks its limit, since it is not mainland China | "I have actually been to Taiwan twice" | first-named
+  - The user's own position as a Chinese American who only speaks English, and their view of the Chinese American professional class | their own situated understanding, offered as context and as a limit on what they can comprehend of Chinese non-professionals | "I am a Chinese American who only speaks English" | first-named
+  - American anti-CCP propaganda | kept apart; the user says their difficulty in comprehending is separate from it, so it is not the basis of their view | "separate from American anti-CCP propaganda" | first-named
+  - Chrysalis's system (the user's story plan) with its Chinese-State elements, drawn from US posturing and the user's own research | the user's earlier work, referred to as context showing they have already folded parts of the Chinese State, both US posturing and researched reality, into the story | "folded into Chrysalis's system" | referred-to
+- order:
+- about: The user reacts to the model's account of the Chinese webnovel ecosystem by situating their own limited, Taiwan-based and Chinese-American vantage, asks for Chinese terms to be given with characters and root meanings in future, and asks what it all means.

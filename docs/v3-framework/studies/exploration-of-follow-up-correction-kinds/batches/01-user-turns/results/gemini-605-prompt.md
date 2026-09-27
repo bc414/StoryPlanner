@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model described a changeling drone as massive, but changelings are the same size as ponies, as in the show | "not sure where this 'massive' drone idea came from. The changelings have the same dimensions as the little ponies" | flat statement of the canon fact, opening with puzzlement about where the model got the idea, with no apology or softening
+- about: The user pushes back on the invented size of the changelings, citing show canon, and then asks a follow-up design question about why the uniform isn't made entirely of the protective silk.

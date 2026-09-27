@@ -1,0 +1,6 @@
+- sources:
+  - TLTT Story Plan | treated as ground truth; the document being read into and populated | I have my TLTT Story Plan which represents a ground truth | first-named
+  - Fiat convo | iterative conversation with Gemini that builds out more story plans; material to be read (start to end or end to start) to populate the ground truth plan | Fiat convo is an iterative conversation with Gemini that builds out more story plans | first-named
+- order:
+  - TLTT Story Plan | ground truth | I have my TLTT Story Plan which represents a ground truth
+- about: The user explains their ground-truth story plan and the iterative Fiat conversation, and asks the model to weigh the pros and cons of reading that conversation forward versus backward when populating the plan.

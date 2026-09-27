@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the crystal-hybrid worldbuilding for a moment and asks for a real-world factual survey of big-agriculture engines, diesel versus hybrid, with the history of their development. This is a new research request and does not say anything in the previous turn was wrong.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is refining the Wings of Dew mechanic by giving the partner-grounding rationale, removing the dip switches, and adding a Minette and Réni example of how the wings show a true partner in a culture of flings, without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turns from the worldbuilding discussion to a general real-world question about whether universal childcare exists in modern countries and whether it has substantially fixed declining birthrates, without pointing at any body of material to draw on.

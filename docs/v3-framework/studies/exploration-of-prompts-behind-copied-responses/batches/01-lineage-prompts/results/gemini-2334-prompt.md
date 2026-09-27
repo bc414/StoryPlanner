@@ -1,0 +1,11 @@
+- asks:
+  - correct | tells the model to drop an earlier assumption that the escort/privateer ships carry cargo like a Dutch East Indiaman | "I don't imagine the privateer/escort ships carry cargo like the Dutch east indiaman"
+  - brainstorm/describe | asks what the escort ships would be like given they now guard cargo ships (a 'fluyt equivalent') rather than carry cargo themselves | "What would the ships be like?"
+  - choose | asks whether the escort ships would specifically be destroyers, cruisers, and battleships | "Would they be destroyers, cruisers and battleships?"
+- supplies:
+- shaping:
+  - set the historical/technological period for the answer as 1900-1940 | "This is 1900-1940 era"
+  - frame the desired tone/imagery as industrial-age warships, not older sailing vessels | "I'm imagining 1900s steel menaces, not 1600s caravels"
+  - anchor the escorted vessels as cargo ships equivalent to a fluyt, distinct from the escorts themselves | "escorting cargo ships (fluyt equivalent)"
+- openness: Mixed: it poses an open question about what the ships would be like, but also offers named candidate ship classes (destroyers, cruisers, battleships) and asks the model to confirm or choose among them.
+- subject: Choosing appropriate 1900-1940-era warship types to serve as escorts for cargo vessels in the story's fictional navy

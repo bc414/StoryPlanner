@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the Equestrian pony soldiers as conscripts who are bored and terrified in the trenches; in the story's world they are volunteers who chose the field over factory work, so the boredom/terror-driven motive for stimulant use is misplaced | "they aren't conscripts, they are volunteers" and "If they didn't want to be in the field they could be working in the factory" | flat statement of the fact, with a brief reason given, no apology or softening
+- about: The user pushes back on the model's premise that the pony soldiers are bored, terrified conscripts, restating that they are volunteers with a factory alternative.

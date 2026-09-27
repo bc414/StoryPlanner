@@ -1,0 +1,6 @@
+- asks:
+  - propose | pitches a chain of worldbuilding developments (thestrals staying non-unionized individualists, their recruitment by Manehattan tycoons as night-shift labor and strikebreakers, parlors as a safety net and social hub for both thestrals and disaffected pony factory workers) and frames it as the origin point of "EEEE," implicitly inviting the model's reaction or continuation | opens with 'How about if' and closes with the declarative 'This is the birthplace of EEEE!'
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the message lays out a specific causal chain (individualist thestrals leading to tycoon recruitment and strikebreaking leading to parlors as safety net and community space) and presents it as the settled origin of "EEEE!" rather than leaving the direction open.
+- subject: Worldbuilding for a fiction project's industrial-revolution allegory involving thestrals, pony unions, factory tycoons, and the cultural origin of "EEEE"

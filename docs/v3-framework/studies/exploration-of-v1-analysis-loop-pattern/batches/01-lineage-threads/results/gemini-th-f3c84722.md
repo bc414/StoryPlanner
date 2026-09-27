@@ -1,0 +1,20 @@
+- steps:
+  - the author | frames a suspense problem | asks how Fleur should be perceived before the ch.9 reveal so the unveiling keeps its weight | gemini:1205 prompt
+  - the model | analyses | four masking strategies (niche academic, radical distraction, overshadowed assistant, gadgeteer misdirection) for hiding Fleur's true role pre-reveal | gemini:1205 response
+  - the author | adds a character idea | proposes basing Fleur's personality partly on Season 1 Twilight | gemini:1206 prompt
+  - the model | elaborates | works the S1-Twilight archetype into specific scenes and a reveal payoff | gemini:1206 response
+  - the author | recontextualises the premise | states Twilight and Applejack are despondent pre-ch.9, fearing they must go 'changeling-cold' to survive, and that the town hall must show a third way | gemini:1207 prompt
+  - the model | reframes the prior analysis | reinterprets Fleur's coldness through the despair lens and ties it to the 'third way' climax | gemini:1207 response
+  - the author | reports a structural revision and asks a follow-up | notes moving the Twilight/AJ relationship milestone from ch.4 to ch.6 and asks how to now handle Fluttershy's letter-delivery scene | gemini:1208 prompt
+  - the model | recommends a revised scene structure | splits the letter/refusal (ch.5, external stakes) from the imposter-syndrome resolution and kiss (ch.6, internal stakes), with sample dialogue | gemini:1208 response
+- kept:
+  - note 655 | the plan held this text before this reply | keeps a pre-existing note on Applejack's battlefield role (recognised, not newly added, at the '3rd Battle of Tall Tale' plot point)
+  - note 1177 | pasted whole from this reply | keeps the model's framing of the love-donation scene as the relationship's climactic breaking point, filed at 'Relaxing after the Love Donation'
+  - note 1178 | pasted whole from this reply | keeps the beat of Applejack performing the love donation partly as an escape from command pressure, same plot point
+  - note 1179 | the reply was quoting the plan | keeps the label 'the Imposter Syndrome talk happens here', same plot point
+  - note 1180 | the reply was quoting the plan | keeps Applejack's confession line about donating love to escape being General, same plot point
+  - note 1181 | the reply was quoting the plan | keeps the beat that Twilight uses her refusal of Celestia's letter as proof against AJ's doubt, same plot point
+  - note 1182 | pasted whole from this reply | keeps Twilight's quoted counter-argument that she trusts AJ, not the rank, same plot point
+  - note 1183 | pasted whole from this reply | keeps the resolution beat where AJ realises she's loved for herself and decides to reciprocate, same plot point
+- brought: The author brought the earlier-planned scene (Fluttershy's letter from Celestia as the romantic catalyst) and their own recent revision moving the Twilight/Applejack milestone from chapter 4 to chapter 6, asking how to reconcile the two.
+- loop: The author repeatedly brings plot revisions and character questions (Fleur's pre-reveal image, her S1-Twilight basis, the despair theme, the moved relationship beat) and the model returns matching narrative analyses or scene blueprints; only the final exchange's chapter-6 blueprint gets kept, broken into several notes filed under the 'Relaxing after the Love Donation' plot point, while an older plan note on Applejack's battlefield role is simply reaffirmed by the model's aside rather than replaced.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's claim that Track 2 is the sum of prequel Track 8 entries, argues the two tracks are disconnected, and proposes that the reveal plan becomes a broader recontextualization plan, a kind of reader-experience design that covers how prequel material recontextualizes what TLTT readers already read.

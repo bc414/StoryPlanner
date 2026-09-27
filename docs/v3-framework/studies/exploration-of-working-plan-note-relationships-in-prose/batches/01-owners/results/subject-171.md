@@ -1,0 +1,14 @@
+- relations:
+  - 519|520|revision: the second overturns both prior assumptions the first lists, replacing the ravager and cartoon-villain models with a rational head warlord|cartoon villain / not a cartoon villain nor is he a mastermind|implicit
+  - 519|521|explanation: the first gives the reader's belief that he ravaged Zebrica, and the second gives the reason he could, since strong nations were apathetic and warlords thrive in power vacuums|ravaged Zebrica / only succeeded because of the apathy of strong nations|implicit
+  - 520|521|reason and delivery: the second gives the thematic point behind the second-note portrayal of a non-mastermind warlord, whose rise is owed to others' inaction as well as to his own rationality; the 'joke' framing sits in some tension with 'not a cartoon villain'|not a mastermind / a joke who only succeeded because of the apathy of strong nations|implicit
+  - 1846|521|instance: a fleet that fails disastrously against Mount Aris is an occasion of the Storm King as a joke and not a formidable conqueror|disastrous failed Operation Sea Lion / a joke|implicit
+- outward:
+  - 1846|a real historical event, the German Operation Sea Lion, used as analogy|essentially a disastrous failed Operation Sea Lion
+  - 1846|an invasion of Mount Aris by the airship fleet, an event or place held elsewhere in the plan|airship fleet attempting to invade Mount Aris
+  - 519|another work, EaW, and its version of the Storm King held outside this item|Readers who played EaW
+  - 519|a movie in which the Storm King appears, held outside this item|Readers who only saw the movie
+  - 520|the project TLTT and the griffonian colonialism the Storm King responds to|TLTT's Storm King / griffonian colonialism
+  - 521|Twilight as a character and her frustration held elsewhere|validates Twilight's frustration
+  - 521|real-world geopolitics and the isolationism critique|mirrors real-world geopolitics where warlords thrive in power vacuums
+- whole: Notes 519, 520 and 521 hang together as a chain running from reader prior to correction to thematic purpose, while the analogy note 1846 stands mostly apart, joined only loosely through the theme of his ineffectiveness.

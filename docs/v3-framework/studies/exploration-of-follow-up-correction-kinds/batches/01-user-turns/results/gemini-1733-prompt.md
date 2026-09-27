@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn restates the request for an analysis of the canon episode through the story plan's lore, with the timeline placement, the goofy-dogs and fashion-gems points, and the focus on Rarity's manipulation through Aquileian parloir culture, and it doesn't react to anything the model turn said.

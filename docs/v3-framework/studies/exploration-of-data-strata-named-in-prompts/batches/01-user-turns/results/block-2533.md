@@ -1,0 +1,5 @@
+- sources:
+  - these old chats with a buddy about Into Darkness (the pasted Discord exchange) | the material the model is asked to analyze | Please analyze these old chats with a buddy about Into Darkness | first-named
+  - Super Mystery Dungeon world canon as the buddy recalls it | offered from memory, so held loosely; used by the buddy to argue the characters are naked and animalistic | from what i remember | referred-to
+- order:
+- about: The user pastes an old Discord chat with a fellow fanfic writer, covering the title Into Darkness, a disliked Super Mystery Dungeon fic and the buddy's remarks on it, and asks the model to analyze it.

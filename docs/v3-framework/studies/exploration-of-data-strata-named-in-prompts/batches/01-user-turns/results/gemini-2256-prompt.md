@@ -1,0 +1,4 @@
+- sources:
+  - taxes in the early days of America before income taxes | use as a real-world historical comparison to reason about how Celestia's taxation would work, applied to the story | "What were taxes like in the early days of America before income taxes and how does that apply?" | referred-to
+- order:
+- about: The user repeats their worldbuilding question about what tax system, if any, Celestia would have during the 1000-year stagnation of harmony, and asks the model to use early American pre-income-tax history as a comparison.

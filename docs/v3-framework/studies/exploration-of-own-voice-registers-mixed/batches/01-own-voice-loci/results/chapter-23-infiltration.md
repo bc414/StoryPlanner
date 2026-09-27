@@ -1,0 +1,5 @@
+- passages:
+  - note 4493 | expository plot-note | declarative statement, causal clause with 'since' | why the characters are already present in Tall Tale | apart
+- shifts:
+- registers: expository plot-note
+- whole: The chapter's one note is written throughout in a single register, a plain declarative statement giving the reason for a plot fact.

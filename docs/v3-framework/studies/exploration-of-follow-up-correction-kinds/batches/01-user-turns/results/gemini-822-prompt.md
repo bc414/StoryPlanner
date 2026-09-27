@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for further Rommel-derived ideas for Trimmel that fall outside the five points already given, without disputing anything in the model's analysis.

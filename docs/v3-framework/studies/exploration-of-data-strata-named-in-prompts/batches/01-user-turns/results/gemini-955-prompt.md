@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about what John D. Rockefeller was like as a person, without pointing at any body of material to draw on or avoid.

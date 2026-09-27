@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting to know whether other real-world drug types serve similar functions to those just explained, without disputing anything in the model's answer.

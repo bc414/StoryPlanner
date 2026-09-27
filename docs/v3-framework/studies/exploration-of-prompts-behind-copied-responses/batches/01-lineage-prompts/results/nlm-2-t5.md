@@ -1,0 +1,7 @@
+- asks:
+  - analysis | explain how the dynamics between Twilight and Applejack in the three referenced canon episodes can be used to support the TwiJack romance plot in the user's story | "Please give analysis on how to utilize the dynamics between Twilight and Applejack ... to support the TwiJack romance plot"
+- supplies:
+  - attached document | three canon episodes referenced as the source of Twilight/Applejack dynamics, content not captured (only an uncaptured attachment placeholder appears) | placeholder only, amount unknown
+- shaping:
+- openness: Leans toward an answer it names: the analysis is directed at the specific goal of supporting the TwiJack romance plot, though the message leaves open exactly how the episode dynamics should be used to do so.
+- subject: Using Twilight/Applejack dynamics from three canon episodes to support a TwiJack romance plotline in the user's story plan

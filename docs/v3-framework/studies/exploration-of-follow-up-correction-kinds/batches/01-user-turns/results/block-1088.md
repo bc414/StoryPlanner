@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's cynicism-versus-resilience framework as given, offers a real-world example (Bernie Sanders against cynical unions and clout warriors), and asks for more examples that fit the two categories and whether they form a continuous spectrum.

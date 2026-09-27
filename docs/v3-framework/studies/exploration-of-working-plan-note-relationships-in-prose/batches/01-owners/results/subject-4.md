@@ -1,0 +1,22 @@
+- relations:
+  - 66|67|the general purpose is played out in an instance: Westkeep's training of her as an investment for later use appears as him leering and waiting for her to be old enough|"fattening" his investment for later use / waiting for her to be old enough to use as an obedient sex slave|implicit
+  - 66|68|what the naive child could not understand is explained by the parents: the cute, rewarded behaviour Westkeep trained is what they now say attracts the predator|doesn't understand why her parents are so scared / stop being cute and helpful because that attracts the predator|implicit
+  - 67|68|continuation in time and cause: after the leer in the quarters, the parents warn her and tell her to avoid him|he leers at her / avoid Lord Westkeep and do the bare minimum interaction|implicit
+  - 66|68|the parents' account of the renaming recasts the pet treatment (cute kitty) as Westkeep taking her name and making her a pet|treats her like a cute kitty / Westkeep renamed her as a pet|implicit
+  - 65|68|the same original name Souris (Mouse) appears in both, and the coat colour is tied to the name the parents say she was meant to have|original name, Souris (Mouse) / her name was supposed to be Souris (Mouse)|explicit
+  - 68|69|continuation: sent to make clothes for Lady Gisele and keep her head down, she then watches Gisele hurt house ponies, fixes clothes and sinks into quiet depression|make clothes for Lady Gisele / watches Gisele hurt stallion house ponies and tries to fix their clothes|implicit
+  - 68|69|the parents' account of the abuse and the older fillies' depression is the reality she then sees for herself and falls into depression over|the older fillies are so depressed / having learned the reality of her situation|implicit
+  - 68|665|overturning: the advice to put her head down and do the bare minimum is replaced by a chosen swagger and demand for respect|must put her head down / dignity is a choice you wear|implicit
+  - 69|665|reversal in time: fixing the torn clothes of hurt house ponies while quietly depressed grows into making nice clothes for all of them and helping them refuse abuse|tries to fix their clothes / makes nice clothes for all the house ponies|implicit
+  - 67|665|the warlords' abuse and Westkeep's humiliated rage, and the house ponies' slumped, ragged, prey-labelled state, are answered later by the house ponies demanding respect from the warlords|humiliated by pony drill sergeants / demand respect from the warlords|implicit
+- outward:
+  - 67|the king's declaration of independence from the Empire and the warlords' forced relocation, held elsewhere|King Gerad Discret declares independence from the Empire
+  - 67|the place where the warlords are relocated and the pony drill sergeants who humiliate Westkeep|Le Grand Foyer at gunpoint / pony drill sergeants
+  - 68|Lord Westkeep's abuse of earth ponies at the family's old home|Lord Westkeep abused many earth ponies back home
+  - 68|Lady Gisele, a figure not otherwise described here|make clothes for Lady Gisele
+  - 68|the older fillies and their lords, other characters|the older fillies are so depressed because their lords abuse them
+  - 69|the stallion house ponies whom Gisele hurts, other characters|Gisele hurt stallion house ponies
+  - 65|the story TLTT and its start, which the notes are measured against|Who is this character at the start of TLTT
+  - 665|the griffonesses who help, other characters|with help from the griffonesses
+  - 665|Coltbert and the royalist peers whose smugness she adopts, and the royalist movement|the judgemental smugness of Coltbert and his peers
+- whole: The notes read as a hanging-together chronology of Minette's childhood under Westkeep, running from his grooming through the relocation, the parents' warning and her depression to the later reversal into royalist dignity, with the appearance note joined to the rest only through the name Souris.

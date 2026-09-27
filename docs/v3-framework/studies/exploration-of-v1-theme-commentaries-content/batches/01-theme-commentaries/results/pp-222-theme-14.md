@@ -1,0 +1,3 @@
+- passages:
+  - on-page plan | Thorax voices in the scene that his past inaction hurts more now than acting would have; it is a single line of what a character says, offered without saying how it bears on the theme | Thorax says the inaction hurts more now | yes | one-line declarative summary in plain prose, a restated beat rather than an analysis
+- whole: A one-line commentary that restates a line Thorax speaks in the scene (that inaction hurts more now) and adds no analysis of the theme, no world facts, and no notes.

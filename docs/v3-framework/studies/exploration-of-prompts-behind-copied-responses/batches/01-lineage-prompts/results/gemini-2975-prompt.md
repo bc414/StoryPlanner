@@ -1,0 +1,7 @@
+- asks:
+  - revise | asks the model to adjust or rework whatever solution, plan, or approach was just under discussion so that it satisfies a cost-effectiveness constraint | "I need it to be cost effective"
+- supplies:
+- shaping:
+  - the outcome must be cost effective, as a criterion the revised answer has to meet | "I need it to be cost effective"
+- openness: leans toward an answer it names: the message sets a named constraint (cost effectiveness) that the response must meet, but leaves how to achieve that, and what exactly is being revised, open.
+- subject: a requirement that some prior proposal or approach (unspecified in the message) be made cost effective

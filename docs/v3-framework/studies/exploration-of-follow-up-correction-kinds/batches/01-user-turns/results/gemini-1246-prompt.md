@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model presented the pony workers' blank-flank state as something imposed on them by the factory, a coerced soul death and erasure of destiny. The user says the ponies chose it out of boredom or desperation with their old lives, and that some feel shame or defiance about accepting adulthood. | "chose to be blank flanks" and "not like they are being coerced into depression" | Mild and explicit, offered as a clarification with hedges ("I believe", "I suppose"). The user restates the premise and then asks what it changes, without saying the model was wrong.
+- about: The user restates the blank-flank premise as voluntary rather than coerced, which quietly replaces the model's victimhood framing, and asks how the backstory changes.

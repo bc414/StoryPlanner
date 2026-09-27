@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the WSB mapping as given and asks a new question about how a hopepunk story with anti-corporate, anti-fascist and professional-class-deconstructing themes could reach the nihilistic WSB audience without alienating it.

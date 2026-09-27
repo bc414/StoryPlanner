@@ -1,0 +1,12 @@
+- steps:
+  - author | proposes structure | escalating stress across three chapters bridged by love letters, reunion beat where Fleur teaches chasseur doctrine after a late meeting | opening message of the thread
+  - model | analysis | three-part justification (build-up burnout, reunion adrenaline-crash cuddling, Fleur's doctrine as combat-effectiveness lore) | first reply
+  - author | correction plus new beat | fixes character placements (Twilight off atlas-complex, working in Tall Tale; Applejack in Tzinacatl jungle not front lines) and adds a guilt-driven dialogue exchange between Fleur, Twilight and Applejack | second message
+  - model | reanalysis | reworks the build-up phase around coordination/diplomacy burnout and decision fatigue, restates the guilt and Fleur's doctrine using the new context | second reply
+- kept:
+  - note 1452 | the author's own words in this record | keeps the author's dialogue exchange (Fleur's question, Twilight's answer, the guilt line) verbatim, filed on the PlotPoint for Fleur asking about their night
+  - note 1454 | pasted whole from this reply | keeps the model's phrasing of the guilt ('braiding manes when Stalliongrad is burning'), filed on the same PlotPoint
+  - note 2803 | pasted whole from this reply | keeps the model's diagnosis of Twilight and Applejack treating themselves as machines lacking asset specificity, filed on the Link between the sex-ed lesson and the Chasseur Doctrine
+  - note 2804 | pasted whole from this reply | keeps the model's framing of intimacy as sustaining fuel rather than distraction, with the burnout-into-tyranny warning, filed on the same Link
+- brought: The author brought a partial chapter-pacing plan already sketched (an escalating three-chapter build-up bridged by letters, culminating in a reunion scene and a Fleur-taught doctrine), along with a self-written guilt dialogue exchange, and used the exchange to correct the model's assumptions about where the two leads are stationed during the separation.
+- loop: The author brings a structural draft and a self-authored dialogue beat, asks the model to validate and analyze it, then corrects the model's world-detail assumptions to force a revised analysis; the plan keeps the author's own dialogue verbatim on one plot point and keeps the model's corrected diagnostic phrasing on a separate relationship link connecting that plot point to the doctrine lesson.

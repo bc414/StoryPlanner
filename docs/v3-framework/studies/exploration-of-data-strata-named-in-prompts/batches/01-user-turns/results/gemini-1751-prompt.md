@@ -1,0 +1,4 @@
+- sources:
+  - my updated story plans | treat as the current version of the plan and judge the earlier ultimatum decisions against it | With my updated story plans | referred-to
+- order:
+- about: The user asks the model to re-check, against their revised story plans, whether the 12-hour ultimatum still makes sense in the Canterlot chapter Encirclement and in the Vanhoover chapter Preparation.

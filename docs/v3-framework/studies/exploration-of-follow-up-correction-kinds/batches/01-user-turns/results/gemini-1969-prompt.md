@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks whether Equestria at War has a Polish-inspired nation, a plain question with no comment on the model's earlier answer, so it reads as a fresh or repeated question and not a correction.

@@ -1,0 +1,10 @@
+- asks:
+  - explain | describes what domestic public support and political consensus looked like in Britain in 1940 after the fall of France | "What was the domestic support and consensus back then in Britain?"
+  - brainstorm | work out a plausible in-story path by which EEEE could reach the stated 83% support requirement | "What is the path for EEEE to achieve the 83% requirement?"
+- supplies:
+  - worldbuilding note | EEEE's ideology as a blend of Equestrian harmony and Griffonian Republic civic virtue, its war-bond program modeled on Kemerskai's civic fiat Riks, and how the rest of Equestria/Celestia misreads the Griffonian Republic as greedy or imperialist | a paragraph
+  - analogy statement | the claim that the Manehattan arc is meant to mirror Britain's 1940 emergency war economy after the fall of France | a sentence
+- shaping:
+  - factor the answer around ponies' greater inclination toward harmony compared to British toughness when devising the path | "Given that ponies are a bit more inclined for harmony than rugged Brits"
+- openness: Both questions are left open: the historical question asks for an explanatory account with no answer named, and the path-to-83% question asks for an open brainstorm shaped only by the named factor of pony harmony-inclination versus British ruggedness.
+- subject: Worldbuilding for EEEE's ideological origins and its Manehattan arc's analogy to Britain's 1940 wartime mobilization, with questions about historical consensus and an in-story path to a support threshold.

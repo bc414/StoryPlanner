@@ -1,0 +1,4 @@
+- sources:
+  - my lore | treat as the authority; reread it and revise the previous answer to fit it | Reread my lore | referred-to
+- order:
+- about: The user tells the model to go back to their own established lore and redo its previous answer about Dennis Discret and the Aquileian navy so that it fits that lore.

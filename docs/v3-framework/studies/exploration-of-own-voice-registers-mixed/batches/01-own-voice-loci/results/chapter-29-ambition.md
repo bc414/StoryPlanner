@@ -1,0 +1,17 @@
+- passages:
+  - 4757 | planning-summary | third-person, present-tense narration listing speech themes | Applejack's post-debate speeches on Republic, harmony, industry and magic | apart
+  - 4757 | planning-summary | third person, conditional "will", sets up a scenario | setup: how she answers the POW wedge question | run-in
+  - 4757 | quoted-political-rhetoric | first-person quotation, slogan repeated verbatim | Applejack's stock line about making life better | run-in
+  - 4757 | planning-summary | returns to third-person analytical comment, same sentence | note on the tactic of not engaging the issue | run-in
+  - 4766 | worldbuilding-exposition | third person, present tense, list of declarative facts | commoditized magic/alicorn abilities now open to all | apart
+  - 4766 | emphatic-thesis | capitalized CAN/NEED, summarizing declarative sentence | point that sisters could be replaced but aren't needed | apart
+  - 4766 | thesis-announcement | explicit self-naming "a thesis about", followed by a short imperative fragment | theme of never stagnating despite comfort | apart
+  - 4766 | direct-address-moralizing | second-person "you", moral generalization, flat closing statement | ambition is good, don't be passive | apart
+- shifts:
+  - 4757 | planning-summary | quoted-political-rhetoric | quotation marks open, shift to first person within the same sentence
+  - 4757 | quoted-political-rhetoric | planning-summary | quotation closes, return to third-person comment ("while not giving...") in the same sentence
+  - 4766 | worldbuilding-exposition | emphatic-thesis | capitalized CAN/NEED and shift to a summarizing "whole point" statement
+  - 4766 | emphatic-thesis | thesis-announcement | explicit phrase "a thesis about" and a short imperative fragment ("Never stagnate.")
+  - 4766 | thesis-announcement | direct-address-moralizing | shift to second-person "you" and moral claim
+- registers: planning-summary; quoted-political-rhetoric; worldbuilding-exposition; emphatic-thesis; thesis-announcement; direct-address-moralizing
+- whole: This chapter's notes hold several registers — note 4757 runs a third-person planning-summary that briefly turns, inside one sentence and without a break, into a first-person quoted political line before returning to summary, while note 4766 moves in clear sentence-by-sentence steps from expository worldbuilding through an emphatic thesis-statement and a self-announced aphorism into a closing second-person moral address.

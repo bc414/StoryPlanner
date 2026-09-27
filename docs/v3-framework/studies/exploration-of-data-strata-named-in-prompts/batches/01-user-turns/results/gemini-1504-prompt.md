@@ -1,0 +1,5 @@
+- sources:
+  - the model's preceding explanation of taxes backing the currency and the martial law phase | treated as a working account the author is checking their understanding of and asking the model to confirm, not yet accepted as settled | Excellent, so taxes are not just about redistribution... Is this correct? | referred-to
+  - the author's own clarifications of the story world (Sickleclaw as agrarian communalist, Rosewing's history and motives) | treated as true and authoritative, given to correct and fill in how the model understood these characters | To clarify, Sickleclaw is an agrarian communalist | first-named
+- order:
+- about: The author checks their understanding of the tax-backed currency and the martial-law-to-democracy transition against the model's last explanation, then corrects and expands the backstories and motives of Sickleclaw and Rosewing from their own plan.

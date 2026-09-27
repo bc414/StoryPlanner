@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the user's earlier insight to be about a child projecting epic narratives onto static plastic toys, when the user meant that Lauren Faust, the creator, drew FiM from the original Hasbro toys | What I meant to articulate is that Lauren Faust didn't create FiM out of nowhere, she was inspired by the original Hasbro toys | Stated flatly as a clarification of the user's own earlier point, with no apology or irritation
+  - reading of the request | The model turned the insight into an in-universe ontology of the magic system and Camp Fluttershy's toys and games, while the user wanted its effect on the story's meta narrative and thematic payload | How does this insight inform the meta narrative and thematic payload of TLTT? | Put indirectly, by re-asking the question in the user's own terms, so the redirect is implied rather than called a mistake
+- about: The user restates their earlier point about FiM's origin in Lauren Faust drawing on the Hasbro toys, and asks again how it bears on the meta narrative and themes of the story and the existing ones.

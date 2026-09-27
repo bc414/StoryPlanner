@@ -1,0 +1,10 @@
+- sources:
+  - cynicism vs resilience as defined | use the definitions worked out earlier in this conversation as the settled framework for sorting factions | With cynicism vs resilience as defined | referred-to
+  - the faction lineup the author lists (Griffonian Empire, Eros's Griffonian Reich, Skyfall, Stalliongrad, Griffonian Republic, and their Equestrian parallels Canterlot, Las Pegasus, Baltimare, Manehattan) | treat as the author's settled account of the other factions and the frame for understanding Aquileia | Now I want to understand the other factions | first-named
+  - what I've built for Aquileia | the author's existing design of Aquileia is the thing to be analyzed; the author's reading that it sits between cynicism and resilience is offered as a tentative question to test | what I've built for Aquileia | referred-to
+  - actual history (the French Republic's citizenship promise, the knowledge economy, rent-seeking) | reference point that Aquileia deliberately diverges from by delivering what did not really happen; not something to follow | historical promises that didn't actually happen | first-named
+  - the original story plan for Aquileia as the golden savior Equestria would copy | treat as outdated and superseded | originally meant to be the golden savior | referred-to
+  - the evolved story plan pointing to a synthesis of Aquileia + GR + Equestria | treat as the current direction that governs how Aquileia is read | I evolved the story plan significantly | referred-to
+- order:
+  - evolved story plan (synthesis of Aquileia + GR + Equestria) | over the original story plan of Aquileia as the golden savior Equestria would copy | I evolved the story plan significantly
+- about: The user takes the cynicism-versus-resilience framework from the prior turn, sorts the other factions against it, and asks the model to help work out whether Aquileia, which the author built and whose role in the plan has since changed, sits between cynicism and resilience.

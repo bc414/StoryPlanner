@@ -1,0 +1,17 @@
+- asks:
+  - decide | whether Twilight Velvet should draw on the unsanitized history books as inspiration for her Daring Do writing | "Should Twilight Velvet use unsantized history books as inspiration or not?"
+  - explain | how Twilight Sparkle can remain unaware of the true, unsanitized history of Equestria despite having archive access | "How would Twilight Sparkle herself be blind to the reality of Equestrian history if she has access to the archives?"
+  - explain | how the unsanitized history books can persist unread given that Twilight reads every book she encounters | "Twilight will read any book she encounters, so how can the unsanitized history books exist?"
+  - evaluate | whether the resolution is instead that Twilight lacks the interpretive framework to grasp the implications of what she's read | "Or does Twilight not have the correct framework to understand the implications?"
+  - brainstorm/decide | what Twilight should or shouldn't know about the true history in order to preserve the story's intended narrative impact | "What should Twilight know or not know in order to keep the narrative impact intact?"
+  - evaluate | whether Twilight already knows ponies can be bad, and whether this knowledge drives her top-down charity approach in Ain Trotgourait | "Or maybe she does know that ponies can be bad? Does that fuel her top down charity approach"
+  - evaluate | whether Twilight read the real histories, which normalized ambition for her and explains why she made no friends before the canon show | "what if Twilight did read the real history books, and normalizes the idea of being an ambitious pony, and that's why she doesn't make friends"
+  - brainstorm | what must be known or kept unknown across the story to deliver its themes, given the epistemological gap around Equestria's true history | "What needs to be known or not known to deliver the themes within the story? In regards to the epistemological gap of Equestria's true history"
+- supplies:
+  - worldbuilding lore | the Survival Harmony/Stagnation of Harmony timeline, Chrysalis's shell-company industrial infiltration, the royal archive system, and Night Light and Twilight Velvet's roles as royal archive employees | several paragraphs
+  - story reference | the chapter "Combined Arms" where Night Light calls himself a "suppressed scientist" and Twilight Velvet talks with Rainbow Dash about Daring Do, and a reference to events in "Ain Trotgourait" | a few sentences naming the scenes, no text pasted
+- shaping:
+  - preserve the specific scene beats already set: Night Light's "suppressed scientist" line and Twilight Velvet's Daring Do conversation with Rainbow Dash | "add some weight to their reunion... Night Light saying he was a 'suppressed scientist'... Twilight Velvet has the part with Rainbow Dash about Daring Do"
+  - keep the story's intended thematic and narrative impact intact when resolving the knowledge question | "What should Twilight know or not know in order to keep the narrative impact intact?"
+- openness: The message poses a cluster of alternative hypotheses it names itself (Twilight lacking framework, already knowing ponies can be bad, having read real histories) and asks which resolves the consistency problem, so it asks for a choice among options it names rather than leaving the question fully open or asserting a settled answer.
+- subject: Reconciling Twilight Sparkle's and Twilight Velvet's archive access to suppressed Equestrian history with Twilight's canon naivety and the story's themes

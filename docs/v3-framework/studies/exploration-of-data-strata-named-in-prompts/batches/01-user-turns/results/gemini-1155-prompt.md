@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumptions about the setting by stating new facts about the world: the Equestrian army was destroyed early in the war, and Tall Tale runs as a command economy under Comet Shine, without pointing to any body of material.

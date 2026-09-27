@@ -1,0 +1,45 @@
+- passages:
+  - note 25 | rule-statement | first-person "In my world", analogy list of physics branches | magic as a branch of physics | apart
+  - note 25 | craft-aside | parenthesis, gaming term "cheat codes", talk of "the narrative" | excluding nuclear/quantum magic | apart
+  - note 25 | rule-statement | return to declarative analogy, "just like how" | defining magical engineering by analogy | apart
+  - note 4091 | mechanism-description | third-person technical nouns, present tense | love harvester drum and stabilizing crystal | apart
+  - note 4091 | illustrative-analogy | simile "like a self-correcting circuit or a ball in a valley" | comparing crystal's self-stabilization to familiar things | run-in
+  - note 4091 | mechanism-description | plain conditional technical sentence | crystal self-correcting when red love spikes | apart
+  - note 4092 | mechanism-description | technical compound-subject sentence | combining crystal, filtering spell, canisters | apart
+  - note 4092 | comparative-evaluation | short ranking claim "superior to" | ranking renewable canisters over finite crystals | apart
+  - note 4094 | mechanism-description | terse parts-listing, no connectives | power source components and their compatibility | apart
+  - note 4094 | tech-equivalence | "Therefore", plus-sign equation, "equivalent to", consumer-tech words | comparing the setup to an open source smartphone | apart
+  - note 4114 | mechanism-description | plain option statements | ways any creature can power spell matrices | apart
+  - note 4114 | purpose-statement | negation "doesn't replace", abstract claim about talent | magic's role relative to special talents | apart
+  - note 5200 | timeline-label | bare dateline, no verb | date range header | apart
+  - note 5200 | history-narration | causal connectors "leading to", "Hence", "However", third person | origin of cutie mark discount theory and crystal enhancer | apart
+  - note 5202 | history-narration | causal chain, named terms T1/T2, "This is the grand partnership" | griffon-unicorn partnership scaling spell-matrix production | apart
+  - note 5203 | timeline-label | bare dateline | date header | apart
+  - note 5203 | history-narration | third-person past-event report | Chrysalis's red love drugs failing on spell matrices | apart
+  - note 5204 | timeline-label | bare dateline | date header | apart
+  - note 5204 | character-narration | named character "Twilight", her feelings and realization | Twilight's abandoned apple-harvest spell matrix | apart
+  - note 5205 | timeline-label | bare dateline | date header | apart
+  - note 5205 | history-narration | political/causal narration, named characters, mention of hiding from Celestia | Crystal Empire crystals enabling hidden trade | apart
+  - note 5205 | fact-notation | terse plain statements, no causal connectors | Star Energy's tractor engine production | apart
+  - note 5206 | timeline-label | bare dateline | date header | apart
+  - note 5206 | character-narration | named character's feelings "burned out", "urgently feeling" | Twilight's relief work and Magical Supply Organization | apart
+  - note 5391 | mechanism-description | third-person technical explanation | vacuum needed to prevent crystal slag | apart
+  - note 5485 | rule-statement | conditional "If...then", analogy list | defining magical engineering by physics analogy | apart
+  - note 5499 | mechanism-description | third-person technical explanation | vacuum valve needed for complete love separation | apart
+  - note 5849 | mechanism-description | third-person technical/anatomical explanation | etching horn spell patterns into a static spell matrix | apart
+- shifts:
+  - note 25 | rule-statement | craft-aside | parenthesis opens, shift to narrative-craft vocabulary "cheat codes"/"narrative"
+  - note 25 | craft-aside | rule-statement | parenthesis closes, return to declarative analogy statement
+  - note 4091 | mechanism-description | illustrative-analogy | simile "like a self-correcting circuit or a ball in a valley"
+  - note 4091 | illustrative-analogy | mechanism-description | return to plain conditional technical sentence
+  - note 4092 | mechanism-description | comparative-evaluation | short ranking claim "superior to finite power crystals"
+  - note 4094 | mechanism-description | tech-equivalence | "Therefore" transition into consumer-tech words "smartphone", "software applications"
+  - note 4114 | mechanism-description | purpose-statement | shift from concrete options to abstract claim about "special talent"
+  - note 5200 | timeline-label | history-narration | change from bare dateline to full causal sentences
+  - note 5203 | timeline-label | history-narration | change from bare dateline to narrated event
+  - note 5204 | timeline-label | character-narration | change from bare dateline to character-centered narration
+  - note 5205 | timeline-label | history-narration | change from bare dateline to narrated political consequence
+  - note 5205 | history-narration | fact-notation | paragraph break, drop of causal/political language for plain production facts
+  - note 5206 | timeline-label | character-narration | change from bare dateline to character-centered narration
+- registers: rule-statement; craft-aside; mechanism-description; illustrative-analogy; tech-equivalence; comparative-evaluation; purpose-statement; timeline-label; history-narration; character-narration; fact-notation
+- whole: This item holds several distinct registers — definitional rule-statements, a craft aside, technical mechanism-description (occasionally opening into illustrative analogy or tech-equivalence or comparative-evaluation), thematic purpose-statements, bare timeline-labels, causal history-narration, character-centered narration, and terse fact-notation — and they mostly sit apart from one another at sentence, parenthesis, or paragraph boundaries, with only one passage (an explanatory simile) running into another inside the same sentence.

@@ -1,0 +1,4 @@
+- sources:
+  - this thematic statement | treat as a provisional claim from earlier in the conversation and test whether it still holds given the reframed Sleep Spell | So does this thematic statement still apply? | referred-to
+- order:
+- about: The user asks whether an earlier thematic statement, that the Sleep Spell is Equestrian avoidance, still applies after the model's reframing of the spell as a materialist tool of trust.

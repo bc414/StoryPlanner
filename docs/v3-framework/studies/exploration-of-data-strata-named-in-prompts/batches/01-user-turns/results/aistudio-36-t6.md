@@ -1,0 +1,5 @@
+- sources:
+  - canonical EaW (martial law not lifted until 1007) | treat as the published game's baseline, but discount its 1007 date as a gameplay artifact rather than a constraint on the author's own timeline | In canonical EaW, martial law is not lifted until 1007, but this is mostly for gameplay purposes | referred-to
+  - the focus trees from 1007 to 1012 leading up to war with the Empire | the material the author adapted, stretched out to cover 986 to 1012; the basis of the current timeline | I took the focus trees from 1007 to 1012 ... stretched them out to cover the history from 986 to 1012 | first-named
+- order:
+- about: The author corrects the model's claim about 986 synchronization by saying Verany's pardon and Chrysalis's Great Leap Forward are effects of Kemerskai's martial law, explains that canon's 1007 end date comes from the game's start and that he stretched the focus trees over 986–1012, and asks for pros and cons of ending martial law in 996, earlier or later.

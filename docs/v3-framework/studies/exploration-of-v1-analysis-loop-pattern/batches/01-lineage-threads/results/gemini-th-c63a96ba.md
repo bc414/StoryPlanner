@@ -1,0 +1,10 @@
+- steps:
+  - author | scene outline delivery | a full beat-by-beat script for a comedic reunion sequence (jokes, freakouts, mane-brushing, the collision, the group laugh) | gemini:219 prompt
+  - author | character correction | rejects the model's earlier framing of Mali as cuteness-averse, redirects her to a soft-spoken-but-fierce, harmony-believing, Fluttershy-like type, citing a resemblance to Tempest Wind's portrait | gemini:219 prompt
+  - model | scene dramatization | turns the outline into five structured scenes with staged dialogue, blocking, and named comedic beats, folding in the corrected Mali voice, plus a thematic gloss tying the sequence to found-family/tension-release | gemini:219 response
+  - author | added irony/detail | supplies a canon-based observation that Twilight and AJ normally treat their manes with indifference, to sharpen the grooming scene | gemini:220 prompt
+  - model | irony elaboration and revision | rewrites the grooming and collision beats around the added irony with specific styling images, new dialogue, an aftermath exchange, a thematic tie to authenticity-vs-performance, and a closing offer to move to the next chapter's outline | gemini:220 response
+- kept:
+  - note 1365 | the author's own words in this record | keeps the reunion's climactic beat (instant mutual affection, manes getting mussed together) as recorded in the author's own phrasing, filed under the PlotPoint "The TwiJack Reunion"
+- brought: The author brought established character traits from the story's canon — Mali's intended Fluttershy-like temperament and Twilight/AJ's usual indifference to their manes — to correct and refine the model's draft of the reunion scene.
+- loop: The author supplies an increasingly detailed staged outline plus canon-grounded corrections, the model expands each into fuller dramatized scenes with dialogue and thematic commentary, but the planning database retains only the author's own condensed phrasing of the reunion's core beat as a single plot-point note, discarding the model's dialogue, staging, and thematic elaboration.

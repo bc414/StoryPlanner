@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the body of material the model is asked to review and analyse, with the Trojan-horse framing in mind | Please review my story plans and give an analysis | referred-to
+  - the idea that Harmonic Capitalism is a Trojan horse | endorsed by the user as a framing to keep and build the analysis around: it dismantles Stagnation of Harmony and ruthless capitalism while rejecting authoritarian Marxism and right-wing nationalism | I like the idea that Harmonic Capitalism is a Trojan horse | referred-to
+- order:
+- about: The user endorses the Trojan-horse framing of Harmonic Capitalism from the previous reply and asks the model to review their story plans and give an analysis.

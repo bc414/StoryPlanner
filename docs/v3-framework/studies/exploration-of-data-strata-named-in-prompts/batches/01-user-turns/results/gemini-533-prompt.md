@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up historical question about how widely Pervitin's role in WW2 is known to the public and how decisive it was to the war's course, without pointing to any body of material to draw on.

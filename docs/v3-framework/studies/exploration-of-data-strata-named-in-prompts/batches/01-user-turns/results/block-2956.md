@@ -1,0 +1,8 @@
+- sources:
+  - story planner sources | search and weigh them for evidence for or against the proposed re-match of the system; the model is to gather evidence from them without a stated ranking | "across the story planner sources" | referred-to
+  - the system I labeled "Harmonic Capitalism (Tall Tale)" | the label under test; treat as provisional, the user is now thinking it should match Coltbert's Aquileia rather than the other cluster | "should match Coltbert's Aquileia" | referred-to
+  - Coltbert's Aquileia | the proposed new match for the Tall Tale system; evidence to be tested for or against | "should match Coltbert's Aquileia" | referred-to
+  - final Equestrian Republic/Pioneer Equestria/Ancient Harmonic Changeling Hives | the previous match, now doubted; evidence to be tested for or against | "not the final Equestrian Republic/Pioneer Equestria/Ancient Harmonic Changeling Hives" | referred-to
+  - the new, clearer framing | the current framework of the axis definition under which the match is to be judged | "under the new, clearer framing" | referred-to
+- order:
+- about: The user proposes re-matching their \"Harmonic Capitalism (Tall Tale)\" system to Coltbert's Aquileia instead of the Republic-cluster systems and asks the model to find evidence for and against across the story planner sources.

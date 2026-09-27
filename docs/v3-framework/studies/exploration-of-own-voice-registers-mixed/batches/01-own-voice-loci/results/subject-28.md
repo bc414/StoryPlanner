@@ -1,0 +1,31 @@
+- passages:
+  - note 4176 | expository narration | plain third-person declaratives, factual sequence of facts | Coltbert's birth, talent, career plan, parents' background, upbringing and dismissal of griffonesses | apart
+  - note 4176 | systemic exposition | generic phrase "the Warlord", rhetorical contrast "doesn't just want...he wants", chained cause-effect | King's Peace policy, warlords' emasculation, griffonesses abusing pets, Royalist auditor turnover | apart
+  - note 4176 | dramatized scene narration | exclamation mark, vivid specific confrontation, pointed contrast of insults | Coltbert as inspector confronting an abusive griffoness | apart
+  - note 4176 | aphoristic statement | imperative mood, compact doctrine phrasing | Coltbert's governing philosophy of harnessing greed | apart
+  - note 4179 | expository narration | plain declarative background statement | Coltbert's origin in Pridea and reaction to Equestria | run-in
+  - note 4179 | authorial planning aside | parenthesis, hedge "probably", imperative suggestion for a joke | brainstorming Coltbert's traits, a joke idea, speculation about meeting Celestia | run-in
+  - note 4179 | expository narration | plain declarative, short sentence | Coltbert's absence from the first revolution | apart
+  - note 4179 | self-correcting causal explanation | discourse marker "Actually", causal "This is why" | reason Discret elevated Coltbert to snub Vérany | apart
+  - note 4272 | theoretical exposition | term-coining, present-tense reasoning chain | Coltbert's Predator's Dilemma theory about Equestrian ambition and clothing | apart
+  - note 4637 | aphoristic statement | short pithy lesson sentences | Coltbert's role as "safe vice" and lesson about stagnation | apart
+  - note 4637 | expository narration | detailed concrete narrative, proper nouns, plan description | trip to Equestria, theory writing, parloirs venture with Tzinacatl workers | apart
+  - note 4637 | aphoristic statement | short pithy character-summary sentence | Coltbert as thrill and loophole seeker | apart
+  - note 4686 | theoretical exposition | explanatory reasoning about motive and prerequisite logic | Coltbert's motivation for the Reforms tied to sexual and economic liberty | apart
+  - note 4936 | expository narration | plain present-tense narrative statements | Coltbert's boredom and volunteering as Royalist auditor | apart
+  - note 4936 | systemic exposition | generic generational labels, mechanism-level description | 2nd gen versus 1st gen Royalist auditors and the loophole | apart
+  - note 4936 | expository narration | return to specific reference to named figures | Gaudreau's assessment leading Coltbert to step up | apart
+  - note 5243 | theoretical exposition | interpretive reasoning about another figure's motives | Coltbert's admiration for Grover III and interpretation of the Book of Boreas | apart
+- shifts:
+  - note 4176 | expository narration | systemic exposition | shift to generic "the Warlord" and rhetorical contrast explaining mechanism
+  - note 4176 | systemic exposition | dramatized scene narration | return to a specific character's action with an exclamation
+  - note 4176 | dramatized scene narration | aphoristic statement | shift to an imperative doctrine statement
+  - note 4179 | expository narration | authorial planning aside | parenthetical brainstorming and joke suggestion mid-sentence
+  - note 4179 | authorial planning aside | expository narration | return to a plain declarative sentence
+  - note 4179 | expository narration | self-correcting causal explanation | discourse marker "Actually" revising the prior claim
+  - note 4637 | aphoristic statement | expository narration | shift to detailed concrete narrative with proper nouns
+  - note 4637 | expository narration | aphoristic statement | return to a short pithy character-summary sentence
+  - note 4936 | expository narration | systemic exposition | shift to generic generational labels describing a systemic loophole
+  - note 4936 | systemic exposition | expository narration | return to specific reference to Coltbert and Gaudreau
+- registers: expository narration; systemic exposition; dramatized scene narration; aphoristic statement; authorial planning aside; self-correcting causal explanation; theoretical exposition
+- whole: This item's notes are written in several distinct registers, with three notes (4272, 4686, 5243) held wholly in one steady theoretical-exposition register while the others (4176, 4179, 4637, 4936) alternate between plain narration and more marked registers—systemic, dramatized, aphoristic, or self-correcting—almost always at clean sentence breaks, except in note 4179 where a planning aside is folded into the middle of a running sentence.

@@ -1,0 +1,13 @@
+- asks:
+  - review | asks for a general re-read of the assembled story-plan points to find ways to sharpen them | "Please review my story plans again. I can make this even sharper."
+  - check/validate an interpretation | asks whether Celestia's statue-like passivity in Manehattan could be explained as her having chosen to be an appeasing collaborator figure (Olenia) rather than resist the threat | "Could this be because she is grappling or coping with the fact that... she chose to be Olenia rather than resist?"
+- supplies:
+  - plan note | Luna wanting to retreat from Tall Tale to protect pony innocence, and Applejack's refusal as the inciting incident for the war effort | a couple of sentences
+  - plan note | Trimmel's later reveal that his slow victory caused Chrysalis to switch occupied Vanhoover from Bauleiter to Statthalter rule | one sentence
+  - plan note | Celestia's status as an inert statue in Manehattan and a proposed thematic reason tied to a non-militarization choice and an 'Olenia' comparison | a couple of sentences
+  - plan note | revised account of the Canterlot Wedding as Chrysalis's intended peaceful takeover to fund mefo-bill-style debts via taxes and civilian investment, alongside her ongoing war of extermination on Stalliongrad | a few sentences
+  - plan note | observation that the Crystal Empire's sudden canon appearance after the Canterlot Wedding further complicated Chrysalis's plan | one sentence
+- shaping:
+  - orient the review toward tightening/strengthening the plan rather than just describing it | "I can make this even sharper"
+- openness: Mostly open, inviting general sharpening of the listed plot points, but for the Celestia detail it proposes a specific causal/thematic explanation (choosing to be 'Olenia' rather than resist) and asks the model to confirm or weigh in on whether that reasoning holds.
+- subject: Refining interlocking war-story plot points in an MLP alternate-history fic (Luna/Applejack inciting incident, Trimmel/Chrysalis occupation shift, Celestia's passivity, and a reworked Canterlot Wedding/Crystal Empire backstory)

@@ -1,0 +1,5 @@
+- sources:
+  - a long conversation with Gemini where I planned out a new aspect of the story | material to skim and pull from selectively to fill pre-made buckets, not to be sorted whole, because it holds conversation artifacts and facts that were later clarified (so parts are superseded) | not going to use the sorter to sort the whole convo since there's a lot of conversation artifacts and facts that were later clarified | first-named
+  - my old notes, taken by rereading a conversation, often in chronological world order | the old method, treated as unwieldy as it grew, and being weighed against a new bucket-first approach | these notes got unwieldy as I put stuff in | first-named
+- order:
+- about: The user asks what would change if they used the Strategist and Cartographer to set up note buckets first and then skim a long planning conversation to fill them, instead of sorting the whole conversation or continuing their old chronological note-taking.

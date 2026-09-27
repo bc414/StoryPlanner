@@ -1,0 +1,7 @@
+- asks:
+  - recall/search | asks whether other fanfics exist featuring Fluttershy using The Stare on Celestia | "Are there any other examples of fanfics doing this?"
+  - recall/search | asks specifically for instances where Fluttershy scolds Celestia | "Where Fluttershy scolds Celestia?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open — it poses a yes/no-plus-examples question without naming any specific fics or predetermined answer.
+- subject: Whether other My Little Pony fanfics depict Fluttershy using The Stare or scolding Princess Celestia, in relation to the user's own climax scene idea.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story-planning discussion and starts an unrelated topic, asking for an analysis of how accurate their own claims are about OpenAI's planned adult-content mode, its profit motives and its comparison to social media.

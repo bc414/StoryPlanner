@@ -1,0 +1,4 @@
+- sources:
+  - the stories | read the parts of them the model has not yet read, and base a fresh analysis on that material | review parts your missing from the stories | referred-to
+- order:
+- about: The user asks the model to go through the parts of the stories it has not yet read and then redo its analysis in light of them.

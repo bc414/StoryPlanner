@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of the late Ottoman/early Republic population as a diverse mosaic that had to be standardized is challenged, with the user suggesting Anatolia at independence was already largely a cultural monolith | was anatolia not a cultural monolith? | put as a leading question, with a comparison to France and Britain, without saying outright that the model was wrong
+- about: The user questions the model's premise that Turkey's founders faced a diverse mosaic needing homogenization, using a France/Britain comparison, and then asks a follow-up on why the Kurds were included in the state.

@@ -1,0 +1,5 @@
+- sources:
+  - the second story I wrote, in March 2020 to June 2021 | material to be analyzed, mined for elements that are precursors to TLTT | analyze the second story I wrote, in March 2020 to June 2021 | referred-to
+  - TLTT | the later work that the second story's elements are measured against as their descendant; the lineage points toward it | for things that serve as lineage for TLTT | referred-to
+- order:
+- about: The user asks the model to repeat the earlier lineage analysis on their second story, written March 2020 to June 2021, looking for elements that lead into TLTT.

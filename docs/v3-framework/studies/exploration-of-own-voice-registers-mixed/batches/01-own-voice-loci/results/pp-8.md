@@ -1,0 +1,33 @@
+- passages:
+  - note 124 | terse declarative summary | brief third-person action statements | Henri competing with Kemerskai, crowd reaction | apart
+  - note 125 | terse declarative summary | causal "That's why" linking cause to decision | Henri notices translator works, decides to speak passionately | apart
+  - note 126 | terse declarative summary | plain third-person statement of speech's content | speech is his life story, first full reveal of crimes | apart
+  - note 126 | evaluative aside | parenthesis, generalizing judgment "typically are" | his crimes judged minor, supremacists called poseurs | run-in
+  - note 127 | terse declarative summary | explanatory third-person statements with example | Herzlander propaganda appeals to griffon side, Pridea example | apart
+  - note 128 | terse declarative summary | plain third-person statement | Henri's size and strength | run-in
+  - note 128 | ventriloquized rhetorical address | shift to "you", rhetorical questions, imperative | propagandists' pitch pushing him against ponies | run-in
+  - note 128 | terse declarative summary | "Also," reverting to factual statement | royal support for ponies via Discret's reforms | run-in
+  - note 129 | terse declarative summary | plain third-person recounting | repaying pony families with labor, University of Pridea research | apart
+  - note 130 | terse declarative summary | plain third-person statement | joining veterans club to learn honorable warfare | apart
+  - note 131 | terse declarative summary | causal explanation, "because...but" clause | becoming tactical commander, roots in his thuggery role | apart
+  - note 132 | self-directed planning query | modal "should", questions, uncertainty | whether to mention Discret/proto-FJA or already covered | apart
+  - note 134 | terse declarative summary | plain third-person statement | no longer skeptical of Griffonian Republic, sees them as equal allies | apart
+  - note 2273 | terse declarative summary | plain third-person statement | Henri sheds bias against Herzlanders | apart
+  - note 2810 | terse declarative summary | plain third-person statement | translator lets Henri accept Herzlanders as equals | apart
+  - note 2811 | terse declarative summary | plain third-person recounting, character reaction noted | speech reveals royalist chasseurs, shocks Applejack | apart
+  - note 3418 | terse declarative summary | explanatory third-person clause | teenage thug too cowardly, strategized distractions | run-in
+  - note 3418 | vivid characterizing epithet | dash-set label, sardonic phrase | labels him "ultimate poseur" | run-in
+  - note 3418 | terse declarative summary | causal clause resuming explanation | origin of his tactical-commander coordination skills | run-in
+  - note 3419 | aphoristic definition | parallel generalizing definitions | bullying vs. dueling defined by consent and rules | apart
+  - note 3420 | terse declarative summary | narrating event, crowd reaction | Henri delivers speech via translator, crowd loves him | run-in
+  - note 3420 | thematic interpretive claim | "It shows that" generalizing claim | republic values who you are over where you're from, no imperialist bias | run-in
+  - note 3421 | terse declarative summary | plain third-person statement | speech reveals his supremacist past and growth through the republic | apart
+- shifts:
+  - note 126 | terse declarative summary | evaluative aside | parenthesis opens with generalizing judgment "weren't much...typically are"
+  - note 128 | terse declarative summary | ventriloquized rhetorical address | shift to second-person "you", rhetorical questions, imperative "Go knock them down a notch"
+  - note 128 | ventriloquized rhetorical address | terse declarative summary | "Also," reverts to third-person factual statement
+  - note 3418 | terse declarative summary | vivid characterizing epithet | dash-set label "ultimate poseur - big blue griffon who didn't punch"
+  - note 3418 | vivid characterizing epithet | terse declarative summary | causal "It's also why" resumes explanatory statement
+  - note 3420 | terse declarative summary | thematic interpretive claim | "It shows that" introduces generalizing statement about the republic's values
+- registers: terse declarative summary; evaluative aside; ventriloquized rhetorical address; self-directed planning query; aphoristic definition; vivid characterizing epithet; thematic interpretive claim
+- whole: Most notes here sit in one plain terse declarative summary register, but a handful shift mid-note, with no break, into a distinct register — a judging aside, a mimicked propagandist's direct address, a sardonic epithet, or a generalizing statement of theme — while two notes stand apart entirely in their own single register, one a self-questioning planning note and one a paired aphoristic definition.

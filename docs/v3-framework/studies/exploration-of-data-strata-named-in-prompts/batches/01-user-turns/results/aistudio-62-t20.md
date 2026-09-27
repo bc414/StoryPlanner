@@ -1,0 +1,8 @@
+- sources:
+  - early story planning (the envisioned total encirclement of the Equestrian Army in the opening week, contrasting Applejack with Comet Shine at Tall Tale in chapter 1) | treated as superseded where it conflicts; the encirclement is to be dropped or reworked while its Applejack/Comet Shine contrast is kept by other means | Early in my story planning, I envisioned a total encirclement | referred-to
+  - my materialist world building now | the current governing standard; the old encirclement idea is judged against it and changed to fit | this seems to contradict my materialist world building now | referred-to
+  - my current story plans | to be reviewed and adjusted for the new direction, with the parts that still fit identified and kept | what needs to be adjusted in my current story plans to meet the new direction and what relevant parts still stay | referred-to
+  - Luna's psychological torture idea (feeling the dreams of surrendered and resisting ponies in Vanhoover), recalled from memory | believed to still stay in the plan; the author is unsure and wants it confirmed, so provisional | such as, I believe Luna's psychological torture | referred-to
+- order:
+  - my materialist world building now over early story planning (total encirclement) | this seems to contradict my materialist world building now, so the encirclement gives way and the contrast is kept through doctrine instead
+- about: The user replaces an early plan for a total encirclement with a doctrinal contrast between elastic defense and static friendship shields, with partial surrenders and captured civilians in Vanhoover, and asks for an analysis of this approach, what in the current plans must change, and what stays.

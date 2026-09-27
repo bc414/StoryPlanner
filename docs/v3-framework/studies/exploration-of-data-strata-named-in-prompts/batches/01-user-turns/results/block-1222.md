@@ -1,0 +1,5 @@
+- sources:
+  - To Hone a Leaf Blade in one doc.pdf | read and use as the material for answering the earlier questions | I have uploaded the file "To Hone a Leaf Blade in one doc.pdf" | referred-to
+  - my earlier questions | answer them now, drawing on the uploaded file | Please address my earlier questions | referred-to
+- order:
+- about: The user re-attaches the PDF the model said had failed to upload and asks the model to go back and answer the questions they asked earlier.

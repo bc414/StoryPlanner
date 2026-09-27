@@ -1,0 +1,18 @@
+- passages:
+  - 5820 | definitional-expository | present-tense declarative naming what the substances are | what Pink and Red Love are and their inseparability on extraction | apart
+  - 5821 | definitional-expository | plain statement of a physical fact | how love disperses through any medium | apart
+  - 5821 | technical-procedural directive | passive necessity, "it must be done under vacuum" | controlling or separating the flow of love | run-in
+  - 5822 | definitional-expository | comparative statement about the donated form, conscious act named | donated pink love's vibrancy, chemical richness, and donor's conscious act | apart
+  - 5822 | definitional-expository | comparative statement opening the sentence, "visibly dull and contains less" | extracted pink love's dullness and reduced potency | run-in
+  - 5822 | victim-perspective causal description | "victim perceives... tortured by a predator... terror taints" | why the victim's terror taints extracted pink love | run-in
+  - 5822 | technical-procedural directive | imperative processing steps naming a centrifuge and coined products | isolating and concentrating extracted pink love into jaeger-geist and panzer-haut | run-in
+  - 5823 | definitional-expository | comparative statement, entropy named as cause | donated red love's low entropy versus extracted red love's high entropy and its causes | apart
+  - 5823 | technical-procedural directive | imperative processing steps naming a centrifuge and a coined product | isolating and concentrating extracted red love into blitz-essenz | run-in
+  - 5832 | definitional-expository | plain declarative chemical comparison | pink love's and red love's chemical likenesses | apart
+- shifts:
+  - 5821 | definitional-expository | technical-procedural directive | shift to passive necessity, "it must be done under vacuum"
+  - 5822 | definitional-expository | victim-perspective causal description | causal clause turning to the victim's perception, "tortured by a predator", "terror taints"
+  - 5822 | victim-perspective causal description | technical-procedural directive | shift to imperative processing instruction naming equipment and coined product names
+  - 5823 | definitional-expository | technical-procedural directive | shift to imperative processing instruction naming equipment and a coined product name
+- registers: definitional-expository; technical-procedural directive; victim-perspective causal description
+- whole: This item holds notes chiefly in one plain definitional register for stating what the substances are and how donated and extracted forms compare, which twice gives way without a paragraph break to a technical-procedural register of centrifuge instructions and coined product names, and once, inside a single sentence, briefly turns to a victim-perspective causal register before returning to the procedural one.

@@ -1,0 +1,4 @@
+- sources:
+  - the user's own memory of a quote from a post-presidency interview, where Obama said he was a decade or two too early | treated as an uncertain recollection, not verified; the model is to identify where it came from and unpack it | I remember a quote for a post-presidency interview where he said something like | first-named
+- order:
+- about: The user asks the model for a thorough multi-phase analysis of Barack Obama, a factual check on whether the 2008 financial crisis came before his election, and help tracing and unpacking a half-remembered post-presidency quote.

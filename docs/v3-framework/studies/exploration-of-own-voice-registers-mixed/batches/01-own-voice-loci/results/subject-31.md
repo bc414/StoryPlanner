@@ -1,0 +1,9 @@
+- passages:
+  - 4208 | expository fact-statement | third person, declarative, names story and mechanism | baby magic calmed by Sunburst's invented spell | apart
+  - 4800 | first-person planning statement | "I'm still going to..."/"I'm going to frame it as..." intent phrasing | birth date, tower announcement, framing as second leap forward against harmonists | apart
+  - 5615 | expository fact-statement | "canonically" flags settled fact, third person, present tense | Flurry can already teleport as a baby | run-in
+  - 5615 | inferential extrapolation | "hence", moves to hypothetical five-year-old scenario and motive ("for some relief") | teleporting away from the city to escape the emotions | run-in
+- shifts:
+  - 5615 | expository fact-statement | inferential extrapolation | "hence" turns a stated canon fact into a reasoned hypothetical extension, no break within the sentence
+- registers: expository fact-statement; inferential extrapolation; first-person planning statement
+- whole: The item holds several registers, with notes 4208 and 4800 each standing apart in a single register of their own (one third-person fact-statement, one first-person planning voice) while note 5615 alone shifts mid-sentence from stated fact into reasoned extrapolation.

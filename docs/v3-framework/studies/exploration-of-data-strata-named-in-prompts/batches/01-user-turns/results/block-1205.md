@@ -1,0 +1,6 @@
+- sources:
+  - Nine_Tales_of_Liberty published chapters 1 to 23 prose (attached PDF) | material to draw on for new insights about the author's evolution; sample thoroughly across the whole text, not only the first half; the author notes it is not strictly third person limited because he did not yet fully understand it | Here is the full published chapters 1 to 23 prose ... take a thorough sample throughout | first-named
+  - the arc 3 and arc 4 story plan | to be synthesized with the prose analysis | Synthesize with the arc 3 and arc 4 story plan | referred-to
+  - the rest of the insights of this conversation | to be synthesized with the prose analysis and the plan | the rest of the insights of this conversation | referred-to
+- order:
+- about: The user attaches the full published prose of chapters 1 to 23 and asks the model to sample it thoroughly and synthesize it with the Arc 3 and 4 plan and earlier conversation insights to deepen the analysis of him as an evolving writer and architect, noting the point-of-view looseness.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the earlier analysis of extractive incentives as correct and uses it as a base to ask further questions: which economists shared Keynes's optimism, whether a society or developer freed from financial need could make non-extractive games, and whether AI and salaried free time could make that workable.

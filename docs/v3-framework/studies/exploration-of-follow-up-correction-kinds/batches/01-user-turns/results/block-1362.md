@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model named Those Blue Wings as a TwiDash story that drew fans to the ship. The user says it is an AppleDash story. | "I know that Those Blue Wings is an AppleDash story not a TwiDash one so that assertion seems wrong" | flat, stated from the user's own knowledge, and labelled up front as "one correction"
+  - fact of the world | The model set TwiDash's origin in fanfic against AppleDash's origin in the show. The user says Fall Weather Friends also seeded TwiDash, because Rainbow calls Twilight an egghead there. | "Actually I feel Fall Weather Friends also birthed TwiDash in addition to AppleDash because of Rainbow calling Twilight and egghead" | tentative, offered as a personal impression while partly agreeing with the fandom-grown point
+- about: The user pushes the conversation on to how much ship dynamics come from Faust-era seeds and how much from fandom, and asks for a PinkieShy comparison, and along the way fixes a misattributed fanfic and a one-sided account of TwiDash's origins.

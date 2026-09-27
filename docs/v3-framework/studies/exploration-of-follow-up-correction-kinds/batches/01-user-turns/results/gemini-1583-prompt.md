@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is only a placeholder noting an attached plan export of about 153,000 words with no message text, so it says nothing about the model's answer.

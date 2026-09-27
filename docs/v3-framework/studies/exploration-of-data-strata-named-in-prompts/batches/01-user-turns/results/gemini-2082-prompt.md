@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to brainstorm further additional ways to make use of parts of the notes organizer tool, beyond the workflows just proposed.

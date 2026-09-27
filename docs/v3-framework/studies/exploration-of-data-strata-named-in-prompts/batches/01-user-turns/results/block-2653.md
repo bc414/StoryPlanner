@@ -1,0 +1,7 @@
+- sources:
+  - my story plan (the kindergarten as pure meritocracy, Chrysalis's Greek tragedy, the MEFO bill twist) | treat as the author's settled design and review it to ground the China parallels | "Please review the story plan for grounding too" | referred-to
+  - This description of China (the model's previous account of China and the 农民工) | not yet accepted as true; the author wants it verified and reads it as more dystopian than the plan | "I need verification on this" | referred-to
+  - my Skyfall system | treat as the existing design that already captures the high-society-fed-by-underclass and remittance-economy parallels, to check against the China material | "already captured in my Skyfall system" | referred-to
+  - Gilded Trust | treat as the story-world counterpart to American company towns and dormitory living | "a Skyfall and Gilded Trust parallel" | referred-to
+- order:
+- about: The author reacts to the model's China and 农民工 account by comparing it with their own story plan, Skyfall and Gilded Trust, and asks the model to verify that modern China really combines all these extraction patterns and to review the plan for grounding.

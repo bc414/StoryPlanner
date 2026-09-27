@@ -1,0 +1,7 @@
+- sources:
+  - the model's earlier statement that spirits pass to nieces because a woman's children are of her husband's lineage | treated as questionable, flagged as contradicting the matrilineal setup and needing correction or explanation | "this seems like a contradiction. Isn't it matrilineal?" | referred-to
+  - the real Great Lakes cattle paradigm in the non-tsetse highlands, and the matrilineal belt | asked about as a factual real-world reference, to confirm whether clans held stationary lands with fallowing and hoe agriculture, versus faster abandonment in the matrilineal belt | "were there stationary lands held by clans" | referred-to
+  - the stationary framing | treated as a provisional option the author may adopt, and if so the model should work out its consequences for warriors and spirit-keepers | "If I use the stationary framing" | referred-to
+  - the author's own stated rule that zebra magic is non-combative, unlike unicorns and griffons | treated as a fixed premise to build within | "Zebra magic should be non-combative" | first-named
+- order:
+- about: The author challenges an inheritance claim in the model's analysis as inconsistent with matrilineality, asks whether real Great Lakes and matrilineal-belt societies held stationary or shifting land, and floats a stationary framing with male Chargers as warriors and women keeping non-combative spirits.

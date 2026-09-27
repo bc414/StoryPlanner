@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - own name: fit of a proposed label to the system | the name 'The Equestrian Tycoon Order' is rejected because 'Order' reads as authoritarian, which clashes with the tycoons' rugged-individualist, extractive-capitalist character, though the model chose it to echo Chrysalis's New Order | Order sounds authoritarian and I don't think fits the rugged individualist or extractive capitalist nature | flat rejection with a reason drawn from the system's character
+  - own name: fit of a proposed label to the system | the name 'The Manehattan Synthesis' for the expanded Parloirs subject is rejected as too vague to identify the system | Manhattan synthesis feels vague | stated as a personal impression, then softened by offering their own alternative (shadow economy) while admitting it does not fully cover SAA
+- about: The user rejects both of the model's proposed system names, giving a reason for each, and asks for a wider, more varied set of naming options for the two systems.

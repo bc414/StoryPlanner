@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks what to do with the default myFunction and the new exportDailyVersions() function in the Apps Script editor, without pointing at any body of material for the model to draw on.

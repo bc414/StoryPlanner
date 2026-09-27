@@ -1,0 +1,4 @@
+- sources:
+  - my story notes | re-read them and base the analysis on them | Please read my story notes again and analyze | referred-to
+- order:
+- about: The user corrects the model that Applejack and Twilight won't go to Skyfall because they are directing a domestic war, and asks whether the bifurcated economy is what Chrysalis builds her New Order on during the Great Leap Forward, telling the model to re-read the story notes and analyze.

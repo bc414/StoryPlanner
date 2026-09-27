@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the worldbuilding pipeline topic and asks a practical networking question about how to check whether their modem uses Xfinity's DNS or Cloudflare's, without pointing the model at any body of material to use or avoid.

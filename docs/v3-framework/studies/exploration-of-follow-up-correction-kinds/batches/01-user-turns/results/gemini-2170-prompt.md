@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's claim about weapons-grade phosphorus in the soil and asks a new question: how plant-available soluble phosphorus would become white phosphorus, and how that compares with the real-world method, without saying anything in the model turn was wrong.

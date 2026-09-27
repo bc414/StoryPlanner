@@ -1,0 +1,6 @@
+- sources:
+  - Iteration 11 (the prompt text pasted below the request) | the working draft to be refined; the thing being improved, not a reference to defer to | Below is my Iteration 11 ... and refine | first-named
+  - Iteration 10 | comparison baseline; Iteration 11 is to be compared against it | Please compare to Iteration 10 | referred-to
+  - past iterations | further comparison material to check Iteration 11 against | past iterations | referred-to
+- order:
+- about: The user submits their new system-prompt draft, Iteration 11, and asks the model to compare it with Iteration 10 and earlier versions and then refine it.

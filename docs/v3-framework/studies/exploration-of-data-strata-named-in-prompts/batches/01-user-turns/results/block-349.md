@@ -1,0 +1,5 @@
+- sources:
+  - the story plan | material to be searched and analyzed across its whole extent for how the theme is used as inspiration | throughout the story plan | referred-to
+  - the meta narrative about Lauren Faust's vision vs Hasbro's corporate mandates | the specific theme to be analyzed, treated as an inspiration running through the plan | the meta narrative about Lauren Faust's vision vs Hasbro's corporate mandates | referred-to
+- order:
+- about: The user asks for an analysis of the Faust-versus-Hasbro meta narrative and how the story plan uses it as inspiration.

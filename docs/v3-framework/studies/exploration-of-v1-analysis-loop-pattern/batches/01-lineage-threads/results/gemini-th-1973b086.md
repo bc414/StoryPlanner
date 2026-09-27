@@ -1,0 +1,30 @@
+- steps:
+  - the author | extends an established mechanic | claims a shared power source for Luna's dreamscape spell and other 'overpowered' spells, asks for a review and more examples | opening message
+  - the model | systemic analysis | surveys the story plans and proposes five more technologies/characters that fit the same power-source rule | first reply
+  - the author | reframes and requests mechanism | elevates one item to 'apex' status, asks for a clearer explanation of how a specific plant magic connects to it, proposes an origin species | second message
+  - the model | analysis with options | offers three possible mechanisms for the plant magic plus a revised historical timeline | second reply
+  - the author | repeats the request with an added constraint | resubmits the same framing, now asking the analysis be grounded in a specific chemistry mechanic | third message
+  - the model | reworked analysis | redoes the three mechanisms and timeline using the chemistry mechanic as the base | third reply
+  - the author | corrects and introduces a new idea | separates two pieces of tech that had been conflated, proposes the plant magic captures a generalized version of the effect and seeds a major artifact | fourth message
+  - the model | analysis of the correction | works out how the plant would capture the generalized effect from a non-native species and scales it up into the major artifact's mechanism | fourth reply
+  - the author | refines the mechanism and raises a new question | changes what the plant's active ingredient is, adds a corruption/weaponization consequence, introduces an ideological rivalry between two characters, and asks who in the setting would know the underlying science and when | fifth message
+  - the model | analysis assigning knowledge boundaries | distributes understanding of the mechanic across three characters by era, tying it to a fictional history of chemistry | fifth reply
+  - the author | requests new content | asks for the arcs and ideologies of four more characters mapped onto the same rivalry | sixth message
+  - the model | character analysis | gives each of the four a themed arc illustrating the same power-balance rule | sixth reply
+  - the author | raises a terminology critique | questions a suffix's connotation, proposes a counterpart term for active magic, asks whether the vocabulary should change | seventh message
+  - the model | terminology verdict | defends the existing terms as thematically apt, offers two alternative coinages for later in the story | seventh reply
+  - the author | corrects attribution | states that two characters jointly coin the key term after a war rather than one character alone | eighth message
+  - the model | analysis of the revision | explains how joint, post-war authorship strengthens both characters' arcs and the theme of synthesis | eighth reply
+  - the author | proposes a new term and asks for outside analogues | names a misclassified precursor term used by one faction, explains its narrow cultural bias, asks for real-world cases of separate fields converging | ninth message
+  - the model | analysis plus outside parallels | analyzes the precursor term's blind spot and supplies three historical science-convergence parallels | ninth reply
+- kept:
+  - note 2219 | one sentence lifted from this reply | keeps the single sentence describing the major artifact's purpose as an anti-ambition defense mechanism, filed under a plot-point entry
+  - note 3278 | the author's own words in this record | keeps the author's statement of the two characters' opposed ideologies, filed under a link entry on the new theory
+  - note 5818 | the author's own words in this record | keeps an expanded synthesis generalizing the effect across relationship types plus the quoted plant-magic principle, filed under the effect's subject entry
+  - note 4117 | pasted from this reply inside the author's own framing | keeps the breakdown of which characters know the mechanic and when, filed under a subject entry on the native magic
+  - note 5551 | pasted from this reply with cuts | keeps the sentence on the antagonist corrupting the coolant into weaponized substances, filed under the effect's subject entry
+  - note 5546 | pasted from this reply inside the author's own framing | keeps the root-word explanation and the physics analogy for the suffix, filed under the effect's subject entry
+  - note 5545 | the author's own words in this record | keeps the definition of the misclassified precursor term and its narrow cultural basis, filed under the effect's subject entry
+  - note 5547 | the author's own words in this record | keeps the statement that broadening the term's scope connects it to the other systems, filed under the effect's subject entry
+- brought: The author brought an already-established magic-system concept from the plan and repeatedly extended, corrected, or renamed it across the conversation.
+- loop: Each turn the author advances or corrects one piece of the magic system and asks the model to analyze or systematize it against the whole plan; the model answers with broad multi-example analyses, but the planning database keeps back only short crystallized items from the author's own corrections and the occasional single lifted sentence, filed as compact subject/link/plot-point entries rather than the model's expansive surveys.

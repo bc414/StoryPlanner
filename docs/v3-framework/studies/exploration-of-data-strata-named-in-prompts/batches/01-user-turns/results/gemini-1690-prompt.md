@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open worldbuilding question about whether psychiatrist therapists enter the story once a changeling grows old enough to understand what they served and what was taken from them, without pointing at any body of material.

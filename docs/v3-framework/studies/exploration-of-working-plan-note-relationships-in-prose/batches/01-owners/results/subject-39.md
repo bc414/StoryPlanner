@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 221 | The Empire and its ruler Sombra, and the dark magic that made the nation disappear, which are held elsewhere in the plan | She lived through the disappearance of the Empire (Sombra)
+  - 221 | The story TLTT, whose start is the point at which the character is being characterized | Who is this character at the start of TLTT?
+- whole: By this owner there is a single note, so there is nothing to hang together or to read against anything else.

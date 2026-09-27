@@ -1,0 +1,8 @@
+- passages:
+  - 4572 | story premise / divergence point | The story forks from P&K: when Luna gives the Tall Tale retreat order, Applejack refuses instead of agreeing | none | framed as 'This story is a fork of P&K'; a premise, not a shown moment
+  - 4572 | statement about the subject | In the P&K version she became a collaborator once the war was hopeless, like Petain, and ran a huge apple farm of pony slave labor to shield her family after the loss | none | explanatory, comparison to Phillipe Petain; alternate-history background
+  - 4572 | scene beat without a year | Applejack has the nightmare of that collaborator future in chapters 1 and 2 | none | 'the nightmare Applejack has in chapters 1 and 2'; chapter reference only, no calendar date
+  - 4903 | statement about the subject | Synovial and VOPS regard Applejack as a pessimistic patriot who will surrender to the bauleiters and work with them to save the soil after seeing Celestia's weakness and incompetence | none | 'think Applejack is'; other characters' belief and prediction, stated as what she will do
+  - 4947 | statement about the subject | Meta-narrative note on the title: The Lioness of Tall Tale begins as Synovial's prediction of a strong defender turned collaborator and ends with her forcing predators to the table, strong enough to be merciful and exposing poseurs | none | labelled 'Meta-Narrative - the story's title'; thematic and arc explanation
+- sequences:
+- whole: A small set of author's planning notes on Applejack in a fork of P&K, covering the divergence premise and the collaborator backstory, other characters' expectation of her, and how the title's meaning turns over, with one nightmare beat and no dated events.

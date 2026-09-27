@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about why Claude Sonnet handles literary analysis better than Gemini and ChatGPT without system instructions, whether because of RLHF and company strategy, the web interface's reading of intent and role, or both, without pointing the model at any body of material.

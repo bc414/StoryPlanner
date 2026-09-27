@@ -1,0 +1,9 @@
+- asks:
+  - interpret/confirm | asserts that the hospital scene demonstrates medic effectiveness (magic combined with alien Tzinacatl herbs saving lives) and that this plants a thematic seed about needing more than tribal tradition or ruler decree, inviting the model to engage with this reading | "I believe the hospital scene also shows...plants a seed that they need more than just the three tribes doing things the way it always has been done"
+  - note/contextualize | states that the hospital scene is followed by a scene at a standardized factory, characterized as representing 'the backbone reality' of the setting | "And then followed by the standardized factory, which is the backbone reality"
+- supplies:
+  - scene summary | a hospital scene where medics use magic to heal bones and use alien Tzinacatl herbs to save lives | a couple of sentences
+  - scene summary | a following factory scene described only by label as 'the backbone reality' | a short phrase
+- shaping:
+- openness: Asks the model to check/engage with an interpretation the message already asserts ('I believe...'), rather than leaving the reading open or posing a choice.
+- subject: Thematic reading of a hospital scene (magic and alien herbs saving lives) as seeding the idea that the three tribes need outside influence, followed by a factory scene called the setting's 'backbone reality'

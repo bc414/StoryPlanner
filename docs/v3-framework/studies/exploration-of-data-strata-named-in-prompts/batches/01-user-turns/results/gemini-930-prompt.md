@@ -1,0 +1,6 @@
+- sources:
+  - my existing themes and plans (Applejack as the everymare, her imposter syndrome, the world building) | treat as settled and to be protected; the model must find a fix that does not damage them | shouldn't negatively affect my existing themes and plans | referred-to
+  - this backstory (Applejack's rich parents, her being an heir, why she hates industry) | treat as a provisional idea still being brewed, open to being reworked or judged as a possible conflict | I was brewing up this backstory | referred-to
+- order:
+  - my existing themes and plans over the new rich-parents backstory | the backstory must not negatively affect the existing themes and plans, so it is the one to be rectified
+- about: The user asks the model to check whether the newly proposed rich-heir backstory for Applejack's parents conflicts with her established everymare and imposter-syndrome themes, and to resolve any conflict without changing the existing plans.

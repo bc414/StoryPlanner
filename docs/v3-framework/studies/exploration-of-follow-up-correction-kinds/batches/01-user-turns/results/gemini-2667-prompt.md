@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Monte Cristo analysis to work on a different thread, rejecting a title (Gräfin von Diamantberg) that the model turn never mentions, proposing a shell-company island for Chrysalis's griffoness persona, and asking whether the satire should be corporate or feudal.

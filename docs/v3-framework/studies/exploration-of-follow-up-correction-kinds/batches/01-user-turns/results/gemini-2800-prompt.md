@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's probing questions and asks for a new analysis of how Aquileian griffons and unicorns scaled up magical engineering before the war, supplying the plan's mechanics (the crystal stabilizer machines, the T1 and T2 spell matrices, the Diamond Mountain bottleneck) and mentioning their own revision to Twilight's role as background.

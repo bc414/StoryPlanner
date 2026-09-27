@@ -1,0 +1,13 @@
+- relations:
+  - 1987 | 501 | 501 supplies the magic-system explanation of her alicorn birth that 1987 says TLTT gives, replacing P&K's destiny-of-war answer | TLTT gives an explanation for Flurry Heart being an alicorn based on the magic system | implicit
+  - 503 | 502 | 503 gives the meaning of the cutie mark that 502 sets down as its design | Her Cutie Mark (The Crystal Heart with Changeling Wings) | explicit
+  - 503 | 501 | 503's power to turn raw emotion into understanding rests on 501's emotion sense and the Crystal Heart filtering emotion into magic | take chaotic, raw emotion and "crystallize" it | implicit
+- outward:
+  - 501 | The Chrysalling, a story or episode held elsewhere, with Sunburst and his calming spell | In The Chrysalling, Flurry's uncontrollable magic is initially just baby magic
+  - 501 | Canon episode of Sombra's return and Cadance casting the filtering spell | during Sombra's return in the canon episode
+  - 501 | Lore of ancient unicorn crystallers filtering a city's emotions | a whole class of unicorn crystallers would filter the city's emotions
+  - 1973 | P&K's Nova Griffonia and its broken democracy | destroyed the broken democracy of Nova Griffonia
+  - 1984 | P&K's events with Shining Armor and Cadance in the Crystal City | leave Cadance behind in the Crystal City
+  - 1987 | P&K's eve of war, Chrysalis's industrialization and high tower, and the author's 2nd great leap forward lore | announced a new wave of rapid industrialization and the construction of her high tower
+  - 502 | The Crystal Heart and changelings as held elsewhere in the plan | Crystal Heart with changeling wings
+- whole: Mostly separate entries: the canon notes on P&K (1973, 1984) stand alone, while the alicorn-birth explanation in 501 and 1987 and the cutie mark in 502 and 503 form two small linked clusters.

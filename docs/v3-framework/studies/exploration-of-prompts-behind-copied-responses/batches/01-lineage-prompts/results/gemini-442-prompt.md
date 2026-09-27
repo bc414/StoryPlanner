@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether a described workflow would produce a more thorough analysis of the story material | "Would this result in more complete analysis?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a yes/no question about a hypothetical workflow without stating an expected answer or naming alternative options to choose between.
+- subject: Whether uploading a story-metadata JSON file and using Gemini's canvas feature with the length slider set to "longer" would yield a more complete analysis

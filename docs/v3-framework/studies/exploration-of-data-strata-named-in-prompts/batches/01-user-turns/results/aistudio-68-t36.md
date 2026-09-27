@@ -1,0 +1,4 @@
+- sources:
+  - my Aquileian backstory with the Royalists, Gerad Discret, Coltbert and the lionesses and chasseurs | keep intact; the new New Horseleans and Grover III material must be made to fit around it without changing it | Such that most of my Aquileian backstory ... still is preserved | referred-to
+- order:
+- about: The user pitches New Horseleans as a swampy refugee settlement and black-market port for escaped Aquileian ponies and the medicinal tribes, then asks whether Celestia and Grover III can handle the friction over abused ponies, and Aquileia can stay ignorant of Equestria, without breaking their existing Aquileian backstory.

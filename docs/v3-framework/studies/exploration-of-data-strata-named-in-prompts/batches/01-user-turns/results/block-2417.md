@@ -1,0 +1,9 @@
+- sources:
+  - the old plan (its 988 date for the Chrysalis jungle-clearing deal) | treat as outdated on this point; the user replaces 988 with 993 | The old plan says 988, I'm moving to 993 | referred-to
+  - the traditionalist tribes' theology (Nightmare Moon corrupted Luna, so stagnation as penance) | revise or cut; at most keep as surface-level rhetoric rather than a real driver | The theology should be revised or cut. Maybe a revised version is just surface level rhetoric | referred-to
+  - this conversation (its rigorous materialist causality for the traditionalist tribes) | treat as the established causal basis for what drives the tribes, filling a gap the earlier material lacked | This conversation established the rigorous materialist causality that drives the traditionalist tribes, which was previously lacking | referred-to
+  - Stagnation of Harmony | keep as a loose thematic mapping for the traditionalist tribes, as a walled garden/walled society | I think they still map to Stagnation of Harmony loosely | referred-to
+- order:
+  - this conversation's materialist causality over the traditionalist tribes' theology | causality drives the tribes; theology is cut or reduced to surface rhetoric
+  - the user's new date 993 over the old plan's 988 | The old plan says 988, I'm moving to 993
+- about: The user answers the model's review by fixing the confederation's inciting event (Chrysalis's company clear-cutting jungle at gunpoint, moved from 988 to 993, then the destruction of Skyfall-derived factories), demoting the old theology to revised or cut in favor of materialist causation, and making Meztli one voting leader among many.

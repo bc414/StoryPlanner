@@ -1,0 +1,6 @@
+- asks:
+  - judgment | asks whether a character would develop refined, gentlemanly manners as a result of a background described earlier in the planning conversation | "Would he also learn to be a graceful gentleman with this background?"
+- supplies:
+- shaping:
+- openness: Leans toward checking a specific proposed trait against an already-established but unpasted character background, asking whether that background would also plausibly produce gentlemanly grace, rather than posing a fully open question.
+- subject: Whether a fictional character's established background would also make him a graceful gentleman

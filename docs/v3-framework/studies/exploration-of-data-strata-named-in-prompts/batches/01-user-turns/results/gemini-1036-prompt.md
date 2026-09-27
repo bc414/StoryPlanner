@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's optics-based explanation of the 3D lithography system, saying the process is magical and optics could not penetrate 3D anyway.

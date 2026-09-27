@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how the proposed consolidation workflow would work if the output token limit is smaller than their pasted text, without saying anything in the previous answer was wrong.

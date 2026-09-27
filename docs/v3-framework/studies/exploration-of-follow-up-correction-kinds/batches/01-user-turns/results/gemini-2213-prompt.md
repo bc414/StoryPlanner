@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the American extremism comparison and asks a fresh, unrelated-seeming question about what the Chinese MLP and Empire at War fan communities are like.

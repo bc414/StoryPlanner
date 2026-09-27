@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model presented the Squeezy 6000 as inherently a violent, garbage-producing machine that proves speed cannot equal quality. The user says the machine worked at first and only failed once the brothers raised the power and dropped quality control. | How about the subtle fact that the machine actually works until the brothers stupidly raised the power and ditches quality control | Put as a leading question that raises an overlooked detail, offered as a 'subtle fact' with a mild dig at the brothers. It does not say outright that the model was wrong.
+- about: The user raises an episode detail the model left out or got wrong, that the machine functioned until the brothers overreached, and invites the analysis to take it into account.

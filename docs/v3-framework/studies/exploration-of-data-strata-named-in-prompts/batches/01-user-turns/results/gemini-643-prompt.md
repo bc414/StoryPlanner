@@ -1,0 +1,5 @@
+- sources:
+  - the show / canon (three tribes breaking up -> windigos) | treat as a fixed constraint that the magic model must satisfy; both the instantaneous and accumulated versions are to be tested against it | The fundamental cause and effect from the show I need to satisfy | referred-to
+  - the author's own stated rule, the 'full truth' (friendship < ambition, in relative terms, effect global) | treat as the working rule the model should keep and build on; the open question is only whether it is instantaneous or accumulated | The full truth is: if friendship < ambition, windigos appear | referred-to
+- order:
+- about: The user restates the show's windigo cause and effect and their own relative friendship-versus-ambition rule, then asks whether it should work on instantaneous or accumulated global amounts and how each version fits the canon example of the three tribes splitting.

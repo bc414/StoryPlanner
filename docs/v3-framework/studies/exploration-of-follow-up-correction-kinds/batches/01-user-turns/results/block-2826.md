@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's argument that "honor among thieves" is an outdated outsider frame and asks a follow-up question about whether that paradigm survives elsewhere in the story plan notes.

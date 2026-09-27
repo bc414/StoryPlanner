@@ -1,0 +1,5 @@
+- sources:
+  - The Ember and the Spark (E&S), the attached PDF story | primary material to analyze; read the entire story first to get the full picture, then infer the traditions it carries implicitly | "Please read the entire story to get the full picture before responding" | first-named
+  - Explorers of Memories | comparison baseline; contrast the traditions it inherited with those of E&S and find surface similarities with different structural setups | "How does it contrast with what explorers of memories inherited?" | referred-to
+- order:
+- about: The user attaches their own Pokemon fanfiction and asks the model to read all of it and analyze which traditions it carries implicitly, contrasting these with those behind Explorers of Memories, including where the two look alike on the surface but differ in structure.

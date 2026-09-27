@@ -1,0 +1,5 @@
+- sources:
+  - my previous rulings | the user's earlier classifications are corrected on one point: the Night Economy is now Std rather than AS, and the model should update accordingly | One correction on my previous rulings ... should actually be Std, not AS | referred-to
+  - the note evidence of why they formed | the model is told to ground the corrected Std classification in the notes about the origins of SAA and EEEE! | Ground this in the note evidence of why they formed | referred-to
+- order:
+- about: The user corrects an earlier ruling, reclassifying the Night Economy (SAA and EEEE!) as Std rather than AS, and asks the model to ground this in the notes on why those groups formed, as deliberate standardization and an ambition sink.

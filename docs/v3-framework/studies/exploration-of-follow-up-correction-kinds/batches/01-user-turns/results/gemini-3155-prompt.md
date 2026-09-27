@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks follow-up questions comparing Gemini CLI and Claude Code on how explicit their usage limits are and whether Gemini CLI also ships a software-engineering system prompt, extending the discussion without disputing anything the model said.

@@ -1,0 +1,20 @@
+- steps:
+  - author | poses scenario and requests critique | lists gaps and hard cases in the seal/dating system and asks for analysis of the downsides | opening message
+  - model | supplies structural analysis | names four categories of casualties and a summary framing of the system's flaw | first reply
+  - author | corrects and adds mechanic | clarifies how self-employment earns a seal without a patron, and adds tax/loan/ego-vs-profit economic rules | second author turn
+  - model | supplies structural analysis | breaks the refined economy into classes and a wallflower/ambition-barrier critique | second reply
+  - author | requests document review and states planned scene | asks the model to check an attached plan and say what lore to add, and lays out a chapter's intended beats and a thesis for a later character arc | third author turn
+  - model | supplies lore-integration draft | proposes chapter scene edits, new lore-bible entries, reframed secondary characters, a policy blueprint, and sample dialogue | third reply
+  - author | adds demographic figures and new plot twist | gives faction percentages and proposes that an antagonist's regime derives from the same system's logic via a name-objectifying mechanic | fourth author turn
+  - model | supplies structural and ideological analysis | analyzes the demographic split and works out how the antagonist's ideology inverts the system's honesty/meritocracy/branding concepts | fourth reply
+  - author | states intended theme and asks for verdict | frames the reader takeaway as a distinction between contented and structurally-forced leisure, and asks if it holds | fifth author turn
+  - model | affirms and elaborates | confirms the theme, contrasts two forms of leisure, and ties it to a policy solution | fifth reply
+  - author | poses direct follow-up question | asks whether the left-behind population's resolution is migration to another nation after the war | sixth author turn
+  - model | answers and elaborates mechanism | confirms migration, then works out sorting of two subgroups and a resulting geopolitical arrangement | sixth reply
+  - author | poses new speculative question | asks whether the ruling class women would have affairs among themselves and what function it serves | seventh author turn
+  - model | supplies structural analysis | frames the practice as competitive maintenance and market collusion among the ruling class, with a scoring mechanic | seventh reply
+  - author | corrects premise and refines mechanic | clarifies that the taming game is a side hobby to a day trade, redefines the pleasure sequence, and reinterprets the scoring mechanic | eighth author turn
+  - model | supplies revised analysis and draft lore text | reworks the day-job/hobby distinction, the pleasure sequence, and the scoring mechanic, then drafts lore-bible entries and a chapter scene | eighth reply
+- kept:
+- brought: The author brought an already-established economic and social system for a fictional nation (seals, a taming spell, factions, class percentages) and a set of planned chapter beats and character arcs, feeding each into the conversation as a base to extend, correct, or stress-test.
+- loop: The author repeatedly supplied a piece of established world-mechanics or a planned scene, asked for systematic consequences or verification, then corrected the model's framing with a refinement of the mechanic before moving to the next question; no note in the archive traces to any message in this stretch, so none of this round of analysis or drafted lore text is shown as having been carried into the planning database.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats a renaming of the schema's central entity concept from StoryEntity to Subject (and the link type to PlotPointSubjectLink) as a new naming question, without disputing anything the model said.

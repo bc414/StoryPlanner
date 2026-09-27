@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is only an attached plan export with no message text, so it neither corrects nor responds to the model's explanation of the T-bill tax exemption.

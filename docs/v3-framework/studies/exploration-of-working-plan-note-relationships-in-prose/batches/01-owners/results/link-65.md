@@ -1,0 +1,8 @@
+- relations:
+  - 1871|1872|the psychological cause of the shown behavior: the drive never to feel useless again accounts for volunteering and mastering the gun|Applejack felt useless ... highly motivated to never feel useless again / volunteers for basic training and masters the machine gun|implicit
+  - 1873|1872|the shown behavior is an instance of the belief: training and gun mastery are the tactical competence she trusts to prevent a repeat|tactical competence will prevent a repeat / volunteers for basic training and masters the machine gun|implicit
+  - 1871|1873|the general motive and the specific belief that carries it: the wish never to feel useless again is turned into a conviction that competence will prevent a repeat of the earlier battle; the belief presupposes the past uselessness|felt useless behind Twilight's shield in 1006 / prevent a repeat of Mount Aris|implicit
+- outward:
+  - 1871|an earlier event in 1006 in which Twilight shielded Applejack, and Twilight as a character held elsewhere|felt useless behind Twilight's shield in 1006
+  - 1873|the earlier battle at Mount Aris whose repeat she fears|a repeat of Mount Aris
+- whole: The three notes hang together as one chain of past uselessness, the resulting drive and belief, and the visible training behavior that shows them.

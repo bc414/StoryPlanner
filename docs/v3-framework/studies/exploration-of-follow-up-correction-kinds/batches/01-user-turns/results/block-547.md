@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the reader-comment analysis behind and gives a new task: study the attached summary, world bible examples and source code, then answer the open questions on how to refactor the story planner and organize its data for layer separation.

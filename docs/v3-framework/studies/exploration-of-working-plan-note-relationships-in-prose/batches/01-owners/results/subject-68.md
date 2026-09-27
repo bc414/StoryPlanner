@@ -1,0 +1,44 @@
+- relations:
+  - 472 | 471 | 471 states the same equation as 472 and adds why it matters for other factions (the British allegories are split elsewhere) | "The Stagnation of Harmony aka post 1991 West" / "represents the post 1991 West" | implicit
+  - 220 | 472 | two analogy notes naming the same real-world referent, one as the modern western world of abundance and the other as the post-1991 West; the second gives a time frame for the first | "modern day western world of abundance" / "post 1991 West" | implicit
+  - 584 | 472 | the allegory note gives the lesson drawn from the West that the analogy notes name as the inspiration (failure to adapt, living on past glory) | "represents the West's failure to adapt" | implicit
+  - 588 | 220 | the theme note takes the abundance framing of the analogy and calls the present stagnation post-scarcity, with a moral to draw from that privilege | "current post-scarcity stagnation" / "world of abundance" | implicit
+  - 1329 | 1330 | cause and effect: clearing the sea made knowledge exchange and trade with Griffonia possible, and that exchange is what the Stagnation is said to result from | "knowledge exchange and trade between Equestria and Griffonia" / "direct result of cultural exchange with griffons" | implicit
+  - 1323 | 1330 | instance of the general claim: the import of griffon tech with a ban on exploitative uses is how the cultural exchange shows up in the setting | "importing harmonic griffon tech but banning exploitative tech" | implicit
+  - 1184 | 1323 | reason for the selective ban: Celestia saw the 2nd gen turn good things into tools of mass exploitation, hence trains and cameras stay but assembly lines and tanks go | "tools of mass exploitation" / "banning exploitative tech and practices" | implicit
+  - 1184 | 1183 | Both revise Twilight's theory that Luna's return explains the de-industrialisation. 1183 says Luna is one factor and that fear of ambition is the main one. 1184 says the cause was Grover III's second generation and not Luna. The two differ in how much weight Luna gets and in the deeper motive. | "only one factor, not the primary one" / "Not because of Luna" | implicit
+  - 1183 | 586 | Fleur's on-page reading that Celestia nurtured away ambition for safety is what 1183 then deepens or corrects with the real motive, that unchecked ambition would destroy the ponies' souls | "nurtured away ambition" / "unchecked ambition will destroy the soul" | implicit
+  - 1184 | 771 | 1184 says Twilight coins the name and Celestia confirms the industry was killed on purpose. 771 says what that name should mean to the reader: rigid adherence to past paradigms, not stupidity. | "she comes up with the name" / "Stagnation of Harmony" is not synonymous with stupidity" | implicit
+  - 1322 | 1184 | 1184 gives the earlier good-then-exploitative turn (Grover III, then the 2nd gen). 1322 continues it: after Grover III, Grover IV lifts the heavy industry bans and pioneers drop the frontier. | "After Grover III's passing and Grover IV uncapping heavy industry bans" / "met Grover III" | explicit
+  - 1322 | 1978 | the frontier abandonment and uncapped industry are the events that 1978 says the 930 ALB isolation is a response to | "griffon industry unleashed" / "the frontier" | implicit
+  - 1978 | 449 | 1978 says TLTT develops the backstory of survival harmony, and 449 sets out what survival harmony is and how it fails against industrial force | "survival harmony" | explicit
+  - 449 | 443 | 443 states as a rule the same claim that 449 places inside the staged arc from harmony phase to defeat to synthesis | "removes even survival harmony because of the threat of industrial tyranny" | explicit
+  - 449 | 1322 | 449 has pioneer ambition turned into survival harmony; 1322 says the pioneers later chose the easier alternative of heavy industry and let the frontier go | "pioneers' ambition is turned into survival harmony" / "actively abandoned by pioneers" | implicit
+  - 1293 | 1294 | 1294 develops the New Mareland exile named in 1293 as a threat: the crossing, the month there, the return, and the foals | "exiled to New Mareland" / "send misbehaving/ambitious ponies to New Mareland" | explicit
+  - 1294 | 586 | the return journey that makes former exiles into harmonic caretakers is one case of nurturing ambition away, which Fleur names on the page | "nuture out their previous toxic ambition" / "nurtured away ambition" | implicit
+  - 1673 | 1293 | separate devices with the same aim of steering ponies off ambition and extraction: cutie mark weight and fear of exile | "steer ponies away from getting too ambitious" / "keeps the ponies from being too ambitious" | implicit
+  - 481 | 1047 | 481 gives the reason and the cost of the chastity in 1047: sexual ambition looked like griffon serfdom and predation, and removing it removes intimacy | "Equestria is chaste - no sexual ambition" / "discouraged sexual ambition" | implicit
+  - 1064 | 1047 | 1064 says there is no stigma on same-sex relationships because intercourse and reproduction are not central to romance, which follows from the chaste, reproduction-only rule | "sexual intercourse and reproduction are not fundamental" / "only for reproduction" | implicit
+  - 2444 | 1294 | the stork-like bedtime story about where foals come from is a case of adults hiding adulthood from children | "hide their adulthood from their children" / "wholesome bedtime story explaining where foals come from" | implicit
+  - 2444 | 1047 | the chaste, reproduction-only rule is a case of what adults must hide from children | "hide their adulthood" / "Equestria is chaste" | implicit
+  - 1294 | 1329 | Tension over sea monsters: 1329 says the Celestial Sea was cleared of sea monsters, while 1293 and 1294 have the oceans full of them and the crossing guarded against them | "cleared the Celestial Sea of sea monsters" / "the oceans are full of sea monsters" | implicit
+  - 586 | 588 | the Walled Garden of shelter is the condition that 588 says builds moral capacity and then obliges the sheltered to act | "Walled Garden" / "Shelter builds moral capacity" | implicit
+  - 755 | 771 | the no-calculator schooling is an instance of rigid adherence to past paradigms | "do not encourage calculators" / "rigid adherence to past paradigms" | implicit
+  - 232 | 1323 | An EaW player expects an industrialized Equestria. Note 1323 explains why the show's mix of trains and cameras without factories fits, given that the canon show is taken wholesale. | "entire canon show is taken wholesale" / "trains and cameras but no assembly lines or tanks" | implicit
+  - 569 | 1323 | what Celestia calls dark magic is magic that can be industrialized or used for evil, which is the same exploitation-based line drawn for banned tech | "industrializable magic" / "banning exploitative tech" | implicit
+  - 460 | 1323 | the ban on debt creation and interest profit is an example of banning exploitative practices | "no interest profit" / "banning exploitative tech and practices" | implicit
+  - 1978 | 1330 | Both replace the show's picture of a Equestria unchanged for a thousand years with a history entangled with the griffons | "implies a 1000 year ignorance" / "Instead of Equestria being the way it is in the show for 1000 years" | implicit
+- outward:
+  - 471 | the EaW factions among which the British allegories are split | "British allegories are split across a bunch of different EaW factions"
+  - 232 | the EaW game and what a player expects of Equestria in it | "An EaW player comes in thinking Equestria is industrialized"
+  - 1330 | Griffonia and Equestria as they appear in EaW | "Griffonia and Equestria in EaW are mostly disjoint"
+  - 1066 | Chancellor Neighsay and the EEA from the canon show | "no chancellor neighsay or EEA"
+  - 569 | the spells in the Canterlot Archives from It's About Time, and the accelerants theme | "Canterlot Archives featured in It's About Time"
+  - 1978 | the P&K work's portrayal of Celestia | "P&K depicts Celestia as pathetic"
+  - 755 | the Failure Song reference and the Fleur and Twilight scenes | "The Failure Song reference!"
+  - 588 | the Roman and Song dynasty orders | "authoritarian order of Rome or the Song dynasty"
+  - 1294 | Hearth's Warming Eve, the New Mareland town of Sunset, and the hippogriffs and seaponies | "same level as Hearth's Warming Eve"
+  - 1183 | Luna's return in 1000 ALB and the elements of harmony | "Luna could return safely in 1000 ALB"
+  - 1329 | Grover III and his knights, from griffon history | "Grover III's knights"
+  - 586 | Fleur and the scene where she speaks | "Fleur says Celestia"
+- whole: The notes hang together in clusters (real-world analogy, griffon-industry causation, ambition-suppression mechanisms, and the reader's reveal of Celestia's motive), though some notes, such as the clothes note, join none of the others.

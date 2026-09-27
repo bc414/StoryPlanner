@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks one item from the model's coverage map, chapters 7-9, and tells the model to go read it for hidden subjects, which is a new instruction and not a correction.

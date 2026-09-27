@@ -1,0 +1,9 @@
+- asks:
+  - check | asks whether a pegasus from Ponyville already exists in the story's cast bearing the name Clear Skies | "Is there a pegasus from Ponyville with that name?"
+  - implicit note/continue | offers a characterization for Clear Skies (composed during pre-battle weather work, traumatized by the actual fighting) seemingly for the model to take into account or build on | "She was fine arranging the rainfall ahead of the battle, but the actual battle traumatized her"
+- supplies:
+  - character note | a trait for the possibly-new or possibly-existing pony Clear Skies: calm doing pre-battle rain prep, but traumatized by the battle itself | a couple of sentences
+  - battle/operation description | how the Bluebell River Spearhead's rain teams work: they move in after an area is cleared to seed rain that creates mud to stop tank assaults, then must re-form clouds right after each engagement ends | a short paragraph
+- shaping:
+- openness: Leans toward an answer for the naming question (does Clear Skies already exist as named) while the surrounding character/battle details are stated as given, not offered as options.
+- subject: Whether a pegasus named Clear Skies exists in Ponyville, plus her role and trauma in the Bluebell River Spearhead's rain/mud tank-blocking tactic

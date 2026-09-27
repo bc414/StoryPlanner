@@ -1,0 +1,14 @@
+- passages:
+  - 4334 | other: design question / open worldbuilding brainstorm | asks whether changelings should have crude ways of storing love, and how such storage could be natural to their swamp/frozen-forest environment, like the Tzinacatl drug in the jungle, given crystals come from windigo magic | none | posed as questions and tentative answer ("Should changelings...? I guess so")
+  - 4334 | statement about the subject | magic passes or diffuses through metal, so the canister needs a magical property to contain it | none | plain assertion of a constraint ("Magic can pass through or diffuse through metal")
+  - 4056 | statement about the subject | the canister was invented by Chrysalis to store pink and red love extracted from victims by the love harvester | none | declarative account of origin and purpose ("Invented by Chrysalis to store...")
+  - 4058 | statement about the subject | the canister is essentially friendship or magic in a can (ambition) | none | definitional ("It is really just...")
+  - 4058 | statement about the subject | calling life forces "love" was a demure translation used by the Acornage Changelings to assimilate, which Chrysalis weaponized as misdirection during Canterlot Wedding | none | explanatory lore about a term; no dated moment
+  - 4057 | statement about the subject | the canister uses the love inside it to maintain its seal | none | single declarative ("It uses the love inside...")
+  - 4059 | statement about the subject | changelings are seen drinking red love canisters to fight, all carry them, and ponies know of it | none | general description of common practice ("have been seen chugging", "all carry them")
+  - 4059 | statement about the subject | ponies carrying canisters to power Luna Nova rifles should repulse Celestia and other pacifists, who feel "We are becoming the enemy" | none | thematic/emotional stance, quoted line of feeling
+  - 4059 | statement about the subject | ponies who run out of red canisters draw on their own magic, and their friendship is bottled into the empty canister; they go in with red and come out with pink, to be donated to the captured enemy for rehab | none | describes a standing practice and how it differs from the changelings' ("The difference is...")
+  - 4075 | statement about the subject | love can only be moved in or out of a canister with the changeling love-draining spell or a matrix replicating it | none | rule ("The only way to...")
+  - 4075 | statement about the subject | love has high entropy, so stable flow requires a vacuum or it disperses through the air | none | physical rule with reason ("Love has high entropy so...")
+- sequences:
+- whole: Every note on the Love Canister is undated worldbuilding: design questions, its origin, nature and naming, how it works and how it is used, and the moral stance toward it, with no scene beats and no sequences.

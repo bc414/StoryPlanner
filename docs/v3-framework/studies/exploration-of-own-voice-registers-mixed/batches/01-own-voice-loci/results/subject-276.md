@@ -1,0 +1,20 @@
+- passages:
+  - note 4938 | heading label | title-and-date-code format, no verb | the timeframe being covered | apart
+  - note 4938 | terse plot-summary | short declarative sentence, plain verbs | peasants rejecting the republic | apart
+  - note 4938 | vivid evaluative description | figurative and evaluative phrasing ('horribly angry', 'rat race') | Vinovia's political character | run-in
+  - note 4938 | terse plot-summary | plain declarative sentences, cause-then-effect ('to survive... before launching', 'Then') | wartime economy and the counterrevolution's timing and outcome | run-in
+  - note 4966 | heading label | title-and-topic tag, no verb | the topic of the note | apart
+  - note 4966 | terse plot-summary | short declarative sentences, plain verbs | serfs' belief in the pamphlets and their demand | apart
+  - note 4966 | analytical/conceptual labeling | parenthetical naming of a policy concept | Gaudreau's response named as a policy | run-in
+  - note 4966 | terse plot-summary | plain declarative sentences continuing the sequence of events | disillusionment in the city and its lesson | run-in
+  - note 4966 | aphoristic/thematic statement | quoted capitalized abstract nouns in parallel antithesis | the gap between Verany's promise and its result | run-in
+- shifts:
+  - note 4938 | heading label | terse plot-summary | drop of title/date format for a full subject-verb sentence
+  - note 4938 | terse plot-summary | vivid evaluative description | shift into figurative, adjective-heavy phrasing
+  - note 4938 | vivid evaluative description | terse plot-summary | return to plain declarative statements of fact and sequence
+  - note 4966 | heading label | terse plot-summary | drop of title/topic tag for full sentences naming an actor and action
+  - note 4966 | terse plot-summary | analytical/conceptual labeling | parenthetical naming of a policy term after the reported speech
+  - note 4966 | analytical/conceptual labeling | terse plot-summary | return to plain narrative sentences after the parenthesis closes
+  - note 4966 | terse plot-summary | aphoristic/thematic statement | shift to quoted capitalized nouns in a parallel 'promised X and delivered Y' construction
+- registers: heading label; terse plot-summary; vivid evaluative description; analytical/conceptual labeling; aphoristic/thematic statement
+- whole: Both notes open with a stand-apart heading label and then move through several registers — plain plot-summary, a vivid evaluative aside, an analytical parenthetical, and a closing aphoristic line — that run into one another within the same paragraph with no visible break between them.

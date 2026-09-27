@@ -1,0 +1,5 @@
+- sources:
+  - canon episode The Crystaling (the show's portrayal of Sunburst) | keep as the base facts, such as Sunburst repairing the crystal heart, but treat the show's framing of him as book-smart yet weak in magic as not making sense and open to being recontextualized | In canon episode The Crystaling; This doesn't really make sense so what if I further recontextualize it; That's how he has the foundational knowledge to repair the crystal heart in the canon episode | referred-to
+  - my lore (the author's own recontextualization: Sunburst expelled for Aquileian textbooks, Crystal Empire making friendship shields, Chrysalis's preemptive war) | treat as the author's new proposed version of events to build on, offered as a what-if and not yet settled | Then in my lore, Sunburst would work with Aquileian unicorns and griffons | first-named
+- order:
+- about: The user proposes recontextualizing canon Sunburst from The Crystaling as an Aquileian-textbook-educated expellee who helps build small friendship shields for the Crystal Empire, giving Chrysalis a motive for preemptive war and making the shields a challenge to her worldview.

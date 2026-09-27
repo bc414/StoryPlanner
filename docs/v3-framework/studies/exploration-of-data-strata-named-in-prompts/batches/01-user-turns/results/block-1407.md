@@ -1,0 +1,6 @@
+- sources:
+  - the hard categories defined in that conversation | treated as superseded; the author has moved away from them and they are not to be relied on as the fixed track structure | moved away from the hard categories defined in that conversation | referred-to
+  - data (the material from which the tracks are to be determined) | the basis on which tracks should now be decided, in place of predefined categories; the model is to help work out what to learn from it | determine the tracks based on data | referred-to
+- order:
+  - data (the material from which the tracks are to be determined) | the hard categories defined in that conversation | in favor of making the application configurable so that I could determine the tracks based on data
+- about: The user says they abandoned the fixed track categories for a configurable application whose tracks are set from data, and asks the model to analyze how to proceed, including what the goals are now and what information would help.

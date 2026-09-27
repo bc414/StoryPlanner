@@ -1,0 +1,6 @@
+- asks:
+  - interpret | asks what purposes certain notes serve when read through a specified interpretive lens | "What purposes do the notes ... serve through the lens of the Minerva Master scrolls?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a question about purposes without naming any candidate answer, leaving the interpretation entirely to the model.
+- subject: The function/purpose of notes on "the stagnation of harmony and celestia" as interpreted via the "Minerva Master scrolls"

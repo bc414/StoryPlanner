@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Puppe/Chrysalis etymology and pushes it forward by asking whether the changeling translation devices, which literally translate idiom names, would have a hardwired exception for Chrysalis's name, and compares that to Musk rigging Twitter's algorithm.

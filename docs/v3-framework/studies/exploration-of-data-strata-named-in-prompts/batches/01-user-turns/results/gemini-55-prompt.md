@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up technical question about whether a chat's whole history is counted in the token total for each next prompt, without pointing the model at any body of material to use or avoid.

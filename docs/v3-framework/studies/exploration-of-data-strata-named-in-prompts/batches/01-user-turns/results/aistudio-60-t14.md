@@ -1,0 +1,5 @@
+- sources:
+  - the story planned around Applejack, Twilight, the rest of the mane 6 and their new Aquileian friends, including the user's imagined Crystal City mystery | the user's earlier plan, which the new solution would change; treated as the baseline to compare against and revise, not as settled | I imagined they would hear about the crystal city getting encircled | referred-to
+  - the materialist solution: a defense mechanism prepared years in advance, powered by the crystal ponies' hope | a proposal from the current conversation that the user finds logical but is testing; provisional, with the model asked to judge its effect on the story and whether it works | Now it seems the materialist solution that makes logical sense | referred-to
+- order:
+- about: The user compares their original plan, in which the Crystal City shield holding is a mystery and a source of terror for the mane 6, with the newly proposed materialist explanation of a defense prepared in advance, and asks the model how that changes the story and whether it works.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | The model's names and explanations were pitched as economic and accounting jargon (surplus value, fixed capital, amortization), which the user rejects as too technical for the naming task | These are all too technical | flat rejection stated as a general judgment, with no apology and no elaboration
+  - reading of the request | The model offered a fresh set of financial double-entendre names instead of names the user had apparently already liked and been developing; the user says they prefer two other names and asks for a different analysis | I like Le Creuset Souverain and Le Foyer Éternel but how would a Skyfall tycoon perceive these names? | redirects by naming preferred alternatives and re-posing the question, stated plainly without irritation
+- about: The user dismisses the model's list of financial-jargon names as too technical, names two other candidates they prefer, and asks how a Skyfall tycoon would perceive those.

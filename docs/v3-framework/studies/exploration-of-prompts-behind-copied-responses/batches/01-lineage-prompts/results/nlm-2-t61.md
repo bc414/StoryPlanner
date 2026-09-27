@@ -1,0 +1,9 @@
+- asks:
+  - brainstorm | develop or react to a proposed changeling naming convention combining a German given name with a company-based surname | "I wonder if they should get a surname based on the company they join, like Zaibatsus and Chaebols"
+  - check/validate | weigh whether the earlier no-name-until-hierarchy-entry idea for changelings is too comical or cruel and whether the capitalism-surname alternative fixes that | "this also seem too comical and cruel" / "So maybe they just get normal German names?"
+- supplies:
+  - reasoning/proposal, the user's own worldbuilding notes | rejection of forcing pony names into an 'inventory' pattern, and a chain of reasoning about changeling names tying to Chrysalis's motives and a capitalism-over-cannibalism thematic subversion, ending in a tentative naming scheme | a paragraph
+  - attachment, uncaptured document placeholder | content unknown, embedded as an empty div in the message | unspecified
+- shaping:
+- openness: Leans toward an answer it names: changelings get ordinary German given names plus a surname derived from the corporate faction (Zaibatsu/Chaebol style) they join, offered as a replacement for a no-name-slave scheme the message calls too comical and cruel.
+- subject: Naming conventions for pony and changeling characters, tied to a corporate/capitalist reworking of the changeling hierarchy

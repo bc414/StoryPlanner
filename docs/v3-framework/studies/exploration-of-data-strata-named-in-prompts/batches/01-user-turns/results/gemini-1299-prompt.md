@@ -1,0 +1,6 @@
+- sources:
+  - the setting facts given in this turn (Aquileian imports set up by Coltbert, factory-worker clientele, robber barons' and aristocracy's Skyfall-backed sin-city clubs, purpose of Aquileian institutions) | treat as authoritative correction of the model's assumption that the place is exclusive luxury, and use as the basis for the revised name analysis | The place is not "luxury" as in "exclusive to rich ponies" | first-named
+  - what the user said earlier about luxury ("I mentioned luxury") | treat as having meant only that the imported Aquileian products are luxury goods, not that the venue is exclusive; the model misread it | I mentioned luxury in the context of how they import Aquileian luxury products | referred-to
+  - the model's previous analysis of the name (Parloir, Le Cercle, Le Salon, Cabinet Particulier) | take as the starting point and redo it in light of the corrections | Please refine the analysis on the name | referred-to
+- order:
+- about: The user corrects the model's assumption that the Aquileian social club is an exclusive luxury venue by describing its working-class clientele and contrasting it with the rich sin-city clubs, then asks for the name analysis to be redone.

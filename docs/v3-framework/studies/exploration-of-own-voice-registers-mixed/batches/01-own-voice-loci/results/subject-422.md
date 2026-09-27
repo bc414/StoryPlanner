@@ -1,0 +1,5 @@
+- passages:
+  - note 4279 | descriptive-summary statement | opens with 'This is about', present tense, third-person naming of a character and an abstract theme | linking Celestia's stagnation of harmony to modern western abundance | apart
+- shifts:
+- registers: descriptive-summary statement
+- whole: The single note here is written in one register throughout, a plain declarative statement summarizing a thematic link, with no shift or break within it.

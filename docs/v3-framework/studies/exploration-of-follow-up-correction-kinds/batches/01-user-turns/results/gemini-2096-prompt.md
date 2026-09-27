@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's offer to link the restaurant model to their story but points it at a different part of the world (Aquileia, the FJA, Skyfall, the PNdA), asks the model to review their Aquileian sources, and lays out their own plot idea of reformed thugs becoming chefs and a culinary takeover of Skyfall.

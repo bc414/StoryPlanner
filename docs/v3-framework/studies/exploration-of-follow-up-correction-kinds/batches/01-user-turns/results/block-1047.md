@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a follow-on analysis applying the same cynic-versus-resilient framework to the American Right, extending the prior turn's Left analysis without disputing anything in it.

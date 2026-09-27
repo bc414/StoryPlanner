@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: faulty output that failed when used | the JSON schema the model had earlier suggested for pasting into the editor was not accepted and produced an error, unlike the schema the editor generated from the visual setup | "what you were suggesting I paste in which was giving vf error" | stated flatly as a reported failure, without blame or apology, folded into a request to explain the differences
+- about: The user pastes the schema their visual editor generated next to the earlier model-suggested schema that errored, and asks the model to explain how they differ.

@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2503 | The end of chapter 1, where the character names herself Chrysalis, which is held in another chapter | Chapter 1 ended with naming herself Chrysalis
+  - 2503 | The end of chapter 2, a closing line asking what her name will be, held in another chapter | Chapter 2 ends with "what will be your name?"
+  - 2503 | A person named Krista Sterling, who is not introduced anywhere in this item | Krista Sterling
+- whole: The owner holds a single note, so there is nothing for it to hang together with, and it reads as one entry that points to other chapters.

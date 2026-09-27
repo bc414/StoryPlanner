@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model declared it had comprehensive data and moved to write the report, though parts of the comments had not been read; the user implies coverage was incomplete and reading should come before writing | "What areas of the comments were not yet touched? Read them first before writing the report" | Put as a pointed question followed by a flat directive, with no stated reason, apology or irritation; the correction is implied rather than stated as disagreement
+- about: The user halts the model's move to write the report and directs it to identify and read the unread parts of the comments first.

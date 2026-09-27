@@ -1,0 +1,6 @@
+- asks:
+  - check | asks whether the cause it names (American workers preferring rent-extraction over being productive artisans) is incomplete, and whether legal frameworks are also a contributing factor | "not just... but also legal frameworks?"
+- supplies:
+- shaping:
+- openness: The message states a hypothesis (moral/cultural failing plus legal frameworks) and asks the model to check/confirm it, rather than leaving the cause open-ended.
+- subject: Causes of American economic/industrial decline (moral vs legal factors), likely for a fiction world's backstory

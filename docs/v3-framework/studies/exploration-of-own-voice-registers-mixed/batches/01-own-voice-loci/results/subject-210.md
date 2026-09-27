@@ -1,0 +1,40 @@
+- passages:
+  - note 18 | cataloging summary | describes a collection rather than giving it, present-tense meta-statement | a set of griffon idioms about griffon nature | apart
+  - note 3997 | encyclopedic definition | simple 'is associated with' copula, declarative | Lion linked to strength, courage, ambition | apart
+  - note 3998 | encyclopedic definition | simple 'is associated with' copula, declarative | Eagle linked to grace | apart
+  - note 4124 | expository analysis | third-person declarative describing a faction's stance and practice | GR's rejection of Archon dogma and inclusive practice | apart
+  - note 4124 | metaphoric identification | copula 'is' equating Republic with Lion and Eagle, 'impossible ideal' metaphor | Republic embodying Lion and Eagle for all griffons | run-in
+  - note 4124 | expository analysis | causal 'That is how' explanatory clause | reasoning why the Republic survives tyranny | run-in
+  - note 4124 | rallying imperative | imperative verb, first-person plural possessive 'our' | exhortation to unite strengths, leave none behind | run-in
+  - note 4124 | metaphoric identification | copula 'is' equating Union and rights with Lion and Eagle | Union as Lion, griffon rights as Eagle | run-in
+  - note 4767 | expository analysis | third-person explanatory clause introducing a justification | Boreas used to justify violence | apart
+  - note 4767 | quoted invocation | quotation marks around a reported religious command | the phrase 'Boreas wills it' | run-in
+  - note 4767 | expository analysis | resumed explanatory clause, causal 'because/since' reasoning | Boreas used to justify patriarchy and abuse of ponies over sun claim | run-in
+  - note 5383 | expository analysis | declarative third-person description of a religious-political stance | Old Catholicism as stagnation with a moral bargain | apart
+  - note 5383 | ironic aphoristic label | verbless fragment with scare-quoted adjective | terse judgment: 'a benevolent stagnation' | run-in
+  - note 5383 | expository analysis | declarative third-person description, new paragraph | Protestant Reformation's spirit and industrialist use | apart
+  - note 5383 | quoted invocation | quoted slogan embedded mid-sentence | phrase 'overthrow the king, become the new king' | run-in
+  - note 5383 | expository analysis | resumed explanatory clause | reformation as rugged individualism weaponized by industrialists | run-in
+  - note 5383 | expository analysis | declarative third-person description, new paragraph | New Catholicism as practiced neighborly support | apart
+  - note 5403 | glossary label | term followed by dash and terse phrase, no full verb clause | Herzland archons defined by birthright | apart
+  - note 5403 | expository analysis | full declarative sentence explaining a social effect | the poor sold on the lion-birthright narrative | apart
+  - note 5403 | glossary label | term followed by dash | naming the Aquileia entry | apart
+  - note 5403 | expository analysis | declarative sentences describing role-switching | Aquileia's lion/eagle as passion and following, interchangeable | run-in
+  - note 5403 | proverb pairing | two parallel short declarative clauses contrasting one word | Herzlander lion eats prey vs Aquileian lion tames prey with grace | apart
+- shifts:
+  - note 4124 | expository analysis | metaphoric identification | shift to copula 'is' identity statement and 'impossible ideal' metaphor
+  - note 4124 | metaphoric identification | expository analysis | shift to causal 'That is how' explanatory clause
+  - note 4124 | expository analysis | rallying imperative | shift to imperative verb and first-person plural 'our'
+  - note 4124 | rallying imperative | metaphoric identification | return to third-person copula 'is' statement
+  - note 4767 | expository analysis | quoted invocation | embedded quotation marks reporting a divine command
+  - note 4767 | quoted invocation | expository analysis | resumes explanatory 'and justify...by saying' clause
+  - note 5383 | expository analysis | ironic aphoristic label | shift to verbless fragment with scare quotes
+  - note 5383 | ironic aphoristic label | expository analysis | new paragraph resumes full declarative sentence
+  - note 5383 | expository analysis | quoted invocation | embedded quoted slogan mid-sentence
+  - note 5383 | quoted invocation | expository analysis | resumes explanatory clause after the quote
+  - note 5403 | glossary label | expository analysis | shift from dash-term phrase to full explanatory sentence, new line
+  - note 5403 | expository analysis | glossary label | shift back to dash-term phrase, new line
+  - note 5403 | glossary label | expository analysis | dash introduces full descriptive sentences on the same line
+  - note 5403 | expository analysis | proverb pairing | shift to parallel short epigrams after a blank line
+- registers: encyclopedic definition; cataloging summary; expository analysis; metaphoric identification; rallying imperative; quoted invocation; ironic aphoristic label; glossary label; proverb pairing
+- whole: This item's notes hold several distinct registers — plain definitional statements, an analytical voice explaining ideologies, a rallying imperative, quoted slogans, an ironic aphoristic fragment, glossary-style labels, and paired proverbs — which mostly stand apart note by note or paragraph by paragraph, except within notes 4124, 4767, 5383, and 5403 where the analytical voice runs with no break directly into a quoted phrase, an imperative line, a label, or a proverb pair.

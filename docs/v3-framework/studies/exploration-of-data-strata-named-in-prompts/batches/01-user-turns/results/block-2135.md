@@ -1,0 +1,8 @@
+- sources:
+  - TLTT (the main story, where Celestia discloses the history) | established main story that the new Grover III and Celestia story is built to sit beside and recontextualize; the new story reframes how Chrysalis and Coltbert misread Celestia | In TLTT, Celestia discloses the history | referred-to
+  - Chrysalis's story | existing story that the Grover III prequel-sequel is meant to be read after, and which it recontextualizes | to be read even after Chrysalis's story | referred-to
+  - TLTT chapter titled "Equity" (Fluttershy's POV) | existing chapter whose scene of Fluttershy apologizing is to be retold from Celestia's POV | in TLTT chapter titled "Equity", which is from Fluttershy's POV, now told from Celestia's POV | referred-to
+  - TLTT scenes with Celestia (statue in Manehattan at the start of the war, the dreamscape aid network, Fluttershy giving her The Stare) | existing scenes to be re-dramatized from Celestia's POV in the new story | Celestia's POV within TLTT | referred-to
+  - TLTT's epilogue (8 years after changeling liberation) | fixed endpoint that the new story's frame story leads to, via Applejack stepping down | leads to TLTT's epilogue that is 8 years after changeling liberation | referred-to
+- order:
+- about: The user proposes the structure of a short Grover III and Celestia story, with its flashbacks, retold TLTT scenes and frame story, positioned relative to Chrysalis's story and TLTT's ending.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumed use case (semiconductor fab equipment control software, load once at startup, so performance is irrelevant) and asks whether storing DAG nodes as a flat list with reference IDs and custom C# reconstruction makes JSON acceptable, or whether a better paradigm exists.

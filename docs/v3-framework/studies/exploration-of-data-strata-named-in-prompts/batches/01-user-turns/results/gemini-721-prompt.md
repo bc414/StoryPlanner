@@ -1,0 +1,7 @@
+- sources:
+  - made-up historical Petain which Henri explains | provisional, a conditional idea the author is considering; the naming of the insult would be built on it | If I make up a historical Petain which Henri explains | first-named
+  - Aquileian/Griffonian Empire history | in-story background Synovial knows as an old-guard cultured figure and would use to connect the insult to Applejack | familiar with Aquileian/Griffonian Empire history | referred-to
+  - Applejack's reliance on the Aquileian volunteers | story-plan fact treated as settled, which Synovial would tie into the insult | Applejack's reliance on the Aquileian volunteers | referred-to
+  - the actual plans Chrysalis had of making Applejack a collaborator | story-plan fact treated as settled, grounded in in-world analysis and spy intel | actual plans Chrysalis had of making Applejack a collaborator | referred-to
+- order:
+- about: The author proposes that an invented Petain-like history told by Henri could let Synovial pick his insulting name for Applejack from it, tying it to her Aquileian volunteers and Chrysalis's collaborator plans.

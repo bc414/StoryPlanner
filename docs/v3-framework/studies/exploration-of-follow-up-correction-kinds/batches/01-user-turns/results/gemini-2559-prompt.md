@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model presented Olenia's fall as apathy with no broken promise at all; the user says the Olenians were given verbal promises by the volunteers, just not a formal state guarantee like Britain and France gave Czechoslovakia and Poland | "the promises to Olenians are verbal promises, not a state promise" | flat, stated as a conclusion ("Therefore") in the middle of restating the earlier premises, with no reference to the model's framing
+- about: The user restates their earlier decisions (no state guarantee, independent volunteers, Chrysalis dwarfing them, Dennis as pirate), adds that the promises to Olenia were verbal, and asks again for a review and synthesis of the story plans.

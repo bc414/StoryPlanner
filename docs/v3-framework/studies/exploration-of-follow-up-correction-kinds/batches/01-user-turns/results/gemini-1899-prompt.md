@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how RavenDB physically stores a database, comparing it to a single file like SQLite, without disputing anything in the model's explanation.

@@ -1,0 +1,6 @@
+- sources:
+  - my TLTT lore | treat as true/canonical and use it to deepen the allegory being built | introduced with "my TLTT lore reveals that Applejack's asset specificity goes being just..." | first-named
+  - updated analysis (the prior analysis being revised) | use as the basis to revise, folding in the new lore point about earth pony magic and comparative advantage | asked for with "Please give an updated analysis" | referred-to
+- order:
+  - my TLTT lore over the prior analysis | the new lore is presented first as a correction/expansion, then the turn asks for an "updated analysis", implying the analysis must be revised to match it
+- about: The user adds a new piece of their own TLTT lore (Applejack's earth-pony magic as invisible long-term capital behind the trees, versus the Flim Flam machine's short-term extraction) and asks the model to redo its allegorical analysis incorporating this framing of human capital versus grift/automation.

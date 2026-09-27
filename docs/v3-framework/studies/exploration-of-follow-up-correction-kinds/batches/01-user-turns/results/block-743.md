@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes an alternative three-panel layout (subject, link, plot point, each with an owner control) and asks whether the layer mismatch between subjects and plot points makes it a mistake or a high-intent use case, which extends the design discussion without saying anything in the model's turn was wrong.

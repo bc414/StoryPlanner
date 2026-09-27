@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up about what the royalist ponies recruited by Gerad Discret would have learned and done for a modernizing statist king, questions whether they would move to the countryside after the Coltbert reforms, and adds their own characterization of Moriset Discret touring rural fairs, without pointing the model at any particular body of source material.

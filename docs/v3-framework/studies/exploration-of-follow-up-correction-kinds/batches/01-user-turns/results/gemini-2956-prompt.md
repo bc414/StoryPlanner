@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up, wanting further spells or magic in their lore that work on the same "combined arms" principle, and builds on the model's list without disputing any of it.

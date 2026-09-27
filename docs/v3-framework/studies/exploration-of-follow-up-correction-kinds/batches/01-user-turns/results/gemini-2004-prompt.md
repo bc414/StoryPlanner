@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - other: the model's proposed fix (the simplified schema and the claims about why it should work) did not resolve the problem, so the troubleshooting advice was ineffective | the stripped-down lowercase-type schema offered as a working fix still fails in the editor | This still does not work | flat, terse report of failure with no reason, apology or detail
+- about: The user reports in a single short sentence that the schema the model just supplied still fails to save in the editor, without adding any new instruction.

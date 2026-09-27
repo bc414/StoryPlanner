@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects and refines the model's analysis by stating story-world facts about why Celestia had spare crystals, when Twilight invented later crystal uses, and why Celestia would not have considered the love harvester's approach, without pointing the model at any body of material.

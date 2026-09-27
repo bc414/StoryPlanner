@@ -1,0 +1,4 @@
+- sources:
+  - past themes / precedent (what the story has already established) | check the hostage-and-siege solution against it, judging whether it fits or breaks too much of it | does this solution to the hostage and siege work with past themes or does it break too much of the precedent | referred-to
+- order:
+- about: The user asks the model to test its proposed hostage-and-siege resolution against the story's established themes and precedent, and to offer alternatives if it breaks them.

@@ -1,0 +1,5 @@
+- sources:
+  - the B2B-tycoons / Trojan Horse scheme the model just laid out (helping the B2C retail companies) | put in doubt; the author asks whether it still makes sense and is testing it rather than accepting it as settled | This seems like a lot of help to evil b3c visible companies. Does it still make sense? | referred-to
+  - the author's own account of the setting and its politics (Aquileia still a kingdom under Moriset Discret, PNdA and Vérany first using civil rights and democracy, now nationalism) | treated as true and used as the premise for resolving the doubt; the author states it as their own explanation | Aquileia is technically still a kingdom under Moriset Discret, not a Republic yet | referred-to
+- order:
+- about: The author questions whether the model's proposed scheme, which helps the hated B2C companies, is coherent, and answers it themselves with the PNdA's motives (revenge, not worker salvation) and the kingdom's political status.

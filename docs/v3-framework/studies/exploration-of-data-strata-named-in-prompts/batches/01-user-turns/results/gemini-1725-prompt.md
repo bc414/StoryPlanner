@@ -1,0 +1,5 @@
+- sources:
+  - the model's previous response (the Garden vs Bunker analysis and Applejack's three stages) | accepted as good and to be built on with further grounding | This is excellent. Now to make the connection even more grounded | referred-to
+  - the author's own added lore on Aquileia's history (feudal ancien regime, then rugged individualism under Vérany, then Coltbert's Reforms, and Coltbert's Predator's Dilemma paper shaped by his visit to Equestria) | treat as established story fact that the model should incorporate and build on | Aquileian used to be feudal (ancien regime) and then rugged individualist | first-named
+- order:
+- about: The user approves the previous analysis and supplies new backstory about Aquileia's feudal and individualist past and Coltbert's Equestria-influenced reforms, to tie Aquileia more closely to Equestrian abundance.

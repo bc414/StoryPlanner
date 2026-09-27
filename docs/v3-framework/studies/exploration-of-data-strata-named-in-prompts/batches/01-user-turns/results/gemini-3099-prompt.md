@@ -1,0 +1,6 @@
+- sources:
+  - the attached story plan (unrelated to TLTT, normal canon FiM setting; the Scootaloo story plan) | the material to analyze and compare against the TLTT plan; the main subject of the analysis | I've attached a story plan unrelated to TLTT | first-named
+  - my plan for the Scootaloo story which I made before the TLTT plan | one of two plans to be compared; the earlier one, examined for parallels and reverberations with the TLTT plan | my plan for the Scootaloo story which I made before the TLTT plan | first-named
+  - the extensive work I've done recently on TLTT's story plan | the other plan to be compared against; the recent, extensive work, used as the point of comparison for world building, themes, mystery layers and character development | the extensive work I've done recently on TLTT's story plan | referred-to
+- order:
+- about: The user asks the model to analyze how their earlier attached Scootaloo story plan (canon FiM setting) parallels or echoes their recent extensive TLTT story plan in world building, themes, layered mysteries and character development.

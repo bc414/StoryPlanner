@@ -1,0 +1,10 @@
+- asks:
+  - propose | suggests casting Rarity as the one who personally delivers the invitation to the princesses, on the grounds that her public reputation is "clean" even though she has been "dirty" behind the scenes politically | "I was thinking of having Rarity deliver the invitation to the princesses in the flesh"
+  - propose | lays out a plot beat where the princesses refuse the invitation because the location is a combat zone, and then Applejack has Spike send a second letter rather than dropping the matter | "How about if Rarity does deliver the initial invitation but the princesses say no... instead of AJ ignoring them, she has Spike send the letter"
+  - explain | offers a psychological reading of why Applejack persists, that she craves both validation and an adult authority figure to look up to, even though she is functionally the adult in the group | "Deep down, she wants both validation and an adult to look up to"
+  - flag | notes that if Applejack ever voices this openly, admitting she's no longer "My Little Pony", the emotional and mental weight of the story escalates sharply | "if Applejack has to say the quiet part out loud... the mental struggle and weight skyrockets"
+- supplies:
+  - idea | a proposed sequence for the invitation subplot: Rarity delivers it, the princesses decline due to danger, Applejack has Spike resend it, tied to a reading of Applejack's hidden need for validation/authority and the thematic risk of her losing her "My Little Pony" innocence | a paragraph
+- shaping:
+- openness: Leans toward an answer it names: the message lays out a specific sequence of plot beats and a specific psychological/thematic reading of Applejack, presenting them as the direction it wants rather than asking the model to choose among alternatives.
+- subject: Plot beat for delivering the princesses' invitation and its tie to Applejack's psychological arc

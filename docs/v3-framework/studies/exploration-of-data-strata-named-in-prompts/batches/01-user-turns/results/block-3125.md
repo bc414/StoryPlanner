@@ -1,0 +1,7 @@
+- sources:
+  - v1 archive | check Rosewing's backstory there to understand why the personal idol angle is specific to him | check his backstory in v1 archive and/or v2 | referred-to
+  - v2 | check Rosewing's backstory there as an alternative or addition to v1 | check his backstory in v1 archive and/or v2 | referred-to
+  - the model's preceding proposals in this conversation (Henrik privately demystifying the idol, three-value Identity axis) | the Henrik point is rejected and corrected; the three-value axis is not adopted yet, treated as a suggestion | There is no need for Henrik to demystify | referred-to
+  - 2x2 matrices with other axes | model should check whether the Identity axis values actually derive from these matrices before adding a new value | Are you sure the values don't come out of 2x2 matrices | referred-to
+- order:
+- about: The author corrects the model's account of Henrik and the idol, redirects Novo demystification toward the Griffonian Republic and Grover III, questions how Hippogriffia differs from Aquileia, and declines the three-value Identity axis pending a check against 2x2 matrices, while pointing the model to the v1 and v2 archives for Rosewing's backstory.

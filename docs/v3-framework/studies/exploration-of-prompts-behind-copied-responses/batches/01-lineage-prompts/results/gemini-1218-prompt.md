@@ -1,0 +1,8 @@
+- asks:
+  - determine | work out what schedule of sleep/activity relative to the sun's position would be biologically optimal | "What is the optimal biological schedule to use relative to the sun"
+  - explain | describe how a day's varying length across the year affects that schedule or related biological factors | "how does the varying length of day affect things"
+- supplies:
+  - premise | a stated worldbuilding constraint: clock times/time zones are arbitrary, but the sun's position is the fixed reference and day length varies seasonally | a sentence
+- shaping:
+- openness: Open: the message poses both questions without naming any candidate schedule or effect, leaving the answer entirely to the model.
+- subject: Designing a sun-relative biological/daily schedule accounting for seasonal day-length variation, for a fiction project

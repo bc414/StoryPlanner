@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm | how to work the canon "Spike the Great and Powerful" material (crystal ponies' adoration of Spike) into the story, given that Spike is now imagined as important during the crystal city siege | "How can I tie in the 'Spike the Great and Powerful' bit... he is important during the crystal city siege"
+  - check | whether the canon episode "The Times They Are a Changeling" can be kept almost entirely intact now that Spike, rather than following Twilight, has been placed in the Crystal Empire | "can be kept almost entirely intact now that I have placed Spike in the crystal empire"
+  - brainstorm | how to synthesize these canon tie-ins with the user's current story plans overall | "How can I synthesize with my current plans?"
+  - develop | elaborating on/continuing the proposed swap where Flurry Heart (not Spike) discovers Thorax by accident, after which Spike becomes the first to accept him because of his own past trauma of becoming a monster | "So perhaps the discovery is by Flurry Heart instead of Spike... Spike can be the one who first accepts Thorax"
+- supplies:
+  - plan summary | the current setup: Spike stationed in the Crystal Empire, Flurry Heart's emotion-sensing power, her age-five escape to the frozen north to practice controlling her magic, and Spike's past trauma from "Secret of My Excess" | a paragraph
+- shaping:
+  - reasoning constraint | the resolution should reflect that five-year-old Flurry Heart couldn't understand Thorax's situation the way Spike, with his own outsider/monster experience, could | "which 5 year old Flurry Heart wouldn't be able to understand on her own"
+- openness: Leans toward an answer it names: the user already proposes the specific swap (Flurry Heart finds Thorax, Spike is first to accept him) and asks how to build out and synthesize that idea rather than leaving it fully open.
+- subject: Synthesizing canon MLP FiM episodes (Spike the Great and Powerful, The Times They Are a Changeling) with a reworked Crystal Empire siege storyline involving Spike and young Flurry Heart

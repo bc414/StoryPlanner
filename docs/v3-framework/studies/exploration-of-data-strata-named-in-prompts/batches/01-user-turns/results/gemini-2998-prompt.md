@@ -1,0 +1,4 @@
+- sources:
+  - 2010 FiM (Applejack's core character, honesty) | the published show is the base material the author says they took the character trait from and scaled up; the model is asked to confirm this reading | taken Applejack's core character (honesty) from 2010 FiM | referred-to
+- order:
+- about: The user asks the model to confirm a one-sentence summary of the previous analysis: that they took Applejack's honesty from the 2010 show and scaled it up into a meta-narrative about fanfiction authorship in 2026.

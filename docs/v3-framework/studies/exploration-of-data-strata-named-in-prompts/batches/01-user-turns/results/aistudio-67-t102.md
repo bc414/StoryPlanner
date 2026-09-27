@@ -1,0 +1,7 @@
+- sources:
+  - changes to Celestia's psychology and the timeline of the stagnation of harmony made in this conversation | treat as the newer material to be compared against the original plan; review what changed | Review the changes to Celestia's psychology and the timeline of the stagnation of harmony made in this conversation | referred-to
+  - the original story plan | treat as the older baseline to compare the conversation's changes against | versus the original story plan | referred-to
+  - the notion of Celestia as a "statue" once the war breaks out, from very early planning | treat as an old idea that may be outdated, made when Celestia was the enemy and relying on simpler tropes; open to being changed or kept | originally made at a very early stage of planning back when Celestia was the enemy and perhaps relying on simpler tropes | referred-to
+- order:
+  - this conversation's changes to Celestia's psychology and stagnation timeline | the original story plan | set against the original story plan as the comparison for judging the statue idea (the turn does not rank them; it asks for a review of changes versus the original)
+- about: The user asks the model to compare this conversation's revisions to Celestia's psychology and the stagnation-of-harmony timeline with the original story plan, and to analyze whether the early-planning idea of Celestia as a "statue" during the war should be kept, changed, or given a different thematic purpose.

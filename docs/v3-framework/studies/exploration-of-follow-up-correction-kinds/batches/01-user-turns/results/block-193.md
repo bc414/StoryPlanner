@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user announces that they have pasted in further material and asks for a fresh analysis of it and of the Chrysalis plan, framed as Greek tragedy rather than grimdark, along with a list of where context is missing and a request for the next details, so this is a new request and not a correction.

@@ -1,0 +1,38 @@
+- passages:
+  - 51 | other: author's goal statement | the aim for the pairing is that the two come to love each other | none | flat declaration of intent, "the goal is"
+  - 4468 | scene beat without a year | after the lesson in passion, Twilight and Applejack begin sleeping together by alternating spooning | none | "After the lesson in passion" as the only anchor
+  - 4468 | statement about the subject | a rule for the spooning: whoever is more mentally or physically drained that day is the little spoon | none | rule-like sentence, no moment
+  - 4468 | statement about the subject | the spooning is more intimate, gives more contact, and carries the "you're mine" romantic angle | none | rationale for the habit
+  - 4468 | other: earlier habit / backstory | before the lesson in passion they hugged face to face or kept their own pillows | none | "Prior to this"
+  - 4519 | statement about the subject | in canon Twilight is groomed for a thousand years to be the next Celestia; in this story her love for Applejack makes her active rather than Celestia's puppet and keeps her warm, not stone cold or a dictator | none | canon-versus-story comparison
+  - 4523 | statement about the subject | Twilight falls for Applejack because AJ's love is grounded in reality, whereas Celestia's is grounded in an impossible ideal | none | causal claim about motivation
+  - 4526 | statement about the subject | the "Old World" Celestia–Twilight relationship is about authority and expectation, is unequal, and produces anxiety and perfectionism | none | labelled "Old World" contrast term
+  - 4526 | statement about the subject | the "New World" Applejack–Twilight relationship is about trust, choice and honesty, a co-equal partnership | none | labelled "New World" contrast term
+  - 4527 | statement about the subject | TwiJack is the central romance, and the political revolution is their relationship writ large, moving from duty to a superior (Monarchy/Celestia) to mutual respect and choice (Republic/Partnership) | none | thematic equation of romance and politics
+  - 4530 | statement about the subject | framing: the relationship is built on psychological safety; both characters spiral in opposite directions and act as each other's brake | none | opening framing sentence, "Direction A" heading implies a paired structure
+  - 4530 | statement about the subject | "the Disease": Twilight's trauma comes from abstract expectations, Celestia's vague orders with invisible goal posts, and in the war the order "Do not fight" creates a paradox that breaks her mind | none | labelled "The Disease" under Direction A
+  - 4530 | statement about the subject | "the Cure": Applejack gives concrete expectations, takes radio orders and directs Twilight, is seen as a partner needing help rather than a disappointed goddess, and shrinks the war into solvable problems, which stops the panics | none | labelled "The Cure" with bullet points
+  - 4533 | statement about the subject | early on after they met, Twilight had soft feelings for AJ but did not pursue them because Celestia had big plans for her | none | backstory told as a past state, no dated moment
+  - 4536 | statement about the subject | Celestia's love felt conditional on performance in Twilight's anxious mind, while Applejack's love is grounding | none | contrast of two kinds of love
+  - 4536 | statement about the subject | the shift from high-pressure idolization to safety and acceptance is judged a strong romantic arc | none | evaluative comment on the arc
+  - 4805 | statement about the subject | the mechanism of "return to innocence": Twilight drops the title "The Princess" (state function) for "My Princess" (partner, belonging) | none | labelled "The Mechanism", with a source reference
+  - 4805 | statement about the subject | the grounding: Applejack sees the farmpony inside the General, Twilight sees the nerd inside the Alicorn | none | labelled "The Grounding"
+  - 4805 | statement about the subject | "Just Being" means vulnerability (crying, braiding manes, eating apples), a freely chosen adult return to the nursery's safety and a reminder that they are still My Little Ponies | none | labelled "Just Being", with a source reference
+  - 5447 | statement about the subject | a recurring device: TwiJack heart to hearts with a sensory bridge, listed by chapter | none | header line over the chapter list
+  - 5447 | scene beat without a year | Chapter 4: a heart to heart on magic after the 2nd battle of Tall Tale | none | "Chapter 4", "after the 2nd battle"
+  - 5447 | scene beat without a year | Chapter 6: a heart to heart on kindness after the love donation | none | "Chapter 6", "after the love donation"
+  - 5447 | scene beat without a year | Chapter 9: a heart to heart on sabotage after the Town Hall | none | "Chapter 9", "after the Town Hall"
+  - 5447 | scene beat without a year | Chapter 13: a heart to heart on passion after the reunion, with the line about being "my princess" instead of the princess | none | "Chapter 13", "after reunion"
+  - 5447 | scene beat without a year | Chapter 18: a heart to heart on honor after Quebuck ("we are monsters") | none | "Chapter 18", "after Quebuck"
+  - 5447 | scene beat without a year | Chapter 19: a heart to heart on entrenchment at the crystal empire ("you are the Lioness, but you are also my farmpony") | none | "Chapter 19", "at the crystal empire"
+  - 5447 | scene beat without a year | a further heart to heart placed after Stagnation, with no other detail | none | "After Stagnation"
+  - 4399 | statement about the subject | Twilight and AJ almost always see eye to eye and are both workaholics who value hard work | none | plain character description
+  - 4399 | statement about the subject | early on they were the "straight mares" reacting to the chaos of Pinkie, Rainbow and Rarity | none | "Early on" gives a phase, not a dated moment
+  - 4399 | statement about the subject | Twilight sees Ponyville as her true home, free of the stress of living up to Celestia's expectations | none | character description
+  - 4399 | other: author's musing on canon | the pressure from Celestia is mostly Twilight's own, but partly real, since Celestia had her handle Discord, Sombra and Tirek and only Chrysalis was not manufactured | none | self-correcting aside with "actually I think"
+  - 4399 | other: open question about canon | the author wonders whether in canon Twilight lies or masks only to meet Celestia's real or imagined expectations | none | claim ending in "(is this true?)"
+  - 4532 | other: to-do note | a reminder that this material still has to be woven into the story | none | "Need to figure out how to weave this in"
+  - 4532 | statement about the subject | the notes focus on why Twilight loves Applejack, whose love is real and unconditional, while Celestia's was conditional on success, though Celestia is not that cold and Twilight imagined much of it; canon shown in "A Bird in the Hoof" | none | canon quote offered as support
+- sequences:
+  - 5447 | seven beats: heart to hearts tied to story events from Chapter 4 through Chapter 19, then one after Stagnation | chapter numbers counting up, each entry marked "after" an event, closing "After Stagnation"
+- whole: Mostly author's statements on why and how Twilight and Applejack fall in love, the romance contrasted with Celestia's conditional love and the monarchy-to-republic theme, plus a chapter list of heart to hearts, a sleeping habit, and a few open questions and to-dos, all without any calendar year.

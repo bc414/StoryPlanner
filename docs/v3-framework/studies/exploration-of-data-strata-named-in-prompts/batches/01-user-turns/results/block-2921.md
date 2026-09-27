@@ -1,0 +1,7 @@
+- sources:
+  - the hive wars | weight: put forward for possible reassignment from Standardized to asset-specific economy, pending checking against its actual story contents | marked by: "Should the hive wars ... be asset specific instead of standardized economy" | referred-to
+  - ancient harmonic hives | weight: put forward alongside the hive wars for the same possible reassignment, to be checked against its contents | marked by: "and ancient harmonic hives be asset specific instead of standardized economy" | first-named
+  - the current assignments | weight: treated as provisional, to be re-examined rather than taken as settled | marked by: "given the current assignments" | referred-to
+  - the contents of those systems | weight: treated as the material to check the axis meaning and the assignments against | marked by: "and the contents of those systems" | referred-to
+- order:
+- about: The user turn questions whether the economy-axis assignment (Standardized) given to the hive wars and ancient harmonic hives systems is correct, asking the model to re-derive what that axis means by checking the current assignments against the actual contents of those two systems.

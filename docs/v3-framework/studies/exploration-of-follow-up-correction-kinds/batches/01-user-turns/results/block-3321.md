@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's lineage stopped at the Gemini web conversations and presented December 2, 2025 as the earliest seed and the founding day. The user implies an earlier body of material, the pre-AI google doc, should have been used. | Go even further back than Gemini web era, into the pre-AI google doc | a short flat directive, with no stated reason and no explicit statement that the model was wrong, so the correction is only implied
+- about: The user sends the model back to an earlier source, the pre-AI google doc, to extend the lineage trace past the Gemini-era starting point it treated as the beginning.

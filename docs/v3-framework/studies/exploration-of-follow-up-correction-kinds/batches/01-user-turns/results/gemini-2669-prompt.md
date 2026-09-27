@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reflects with amusement that their starting Monte Cristo figure (Chrysalis) ended up paralleled by Coltbert and the Aquileians, and asks whether that was coincidence or how it came about, which is a new question and not a challenge to the prior answer.

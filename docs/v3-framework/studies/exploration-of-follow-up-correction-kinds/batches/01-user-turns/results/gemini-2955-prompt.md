@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's "combined arms" framing of the Wings of Dew spell and asks a new question about which other parts of their lore work the same way, without disputing anything in the model's reply.

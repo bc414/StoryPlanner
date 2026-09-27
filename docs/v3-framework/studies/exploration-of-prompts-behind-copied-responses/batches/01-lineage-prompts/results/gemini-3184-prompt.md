@@ -1,0 +1,6 @@
+- asks:
+  - inquiry | asks the model to give information or analysis about DeepSeek R1 or the models that followed it, as of 2026 | "What about DeepSeek R1 or successors in 2026?"
+- supplies:
+- shaping:
+- openness: Leaves the answer open; it is a bare "what about X" question naming only the topic (DeepSeek R1 or its successors in 2026) with no stance, options, or claim to check.
+- subject: Status or capabilities of DeepSeek R1 and its successor AI models in 2026

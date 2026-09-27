@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's picture of the story by stating that Rémi is the host of the evicted Royalists under Cecille's arrangement, then asks what other reforms Cecille would make in 973 and whether the full crop is free for refugee sharing in 980 now that King Gerad has been beheaded.

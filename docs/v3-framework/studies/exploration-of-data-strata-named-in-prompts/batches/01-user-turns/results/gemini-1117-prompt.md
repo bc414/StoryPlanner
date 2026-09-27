@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user takes Henri's role as settled and asks the model what Mali's role is now, without pointing at any source of data.

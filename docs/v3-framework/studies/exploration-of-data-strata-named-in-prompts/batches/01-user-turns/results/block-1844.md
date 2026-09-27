@@ -1,0 +1,4 @@
+- sources:
+  - these subject types and their tracks | weight: treat as a provisional, unfinished first-pass draft to be critically audited rather than settled | marked by: "still work in progress" and "my best first pass attempt" | referred-to
+- order:
+- about: The user turn asks the model to review the just-laid-out track categorization scheme, framed as an unfinished first attempt, to find misplaced items and overloaded tracks needing to be split.

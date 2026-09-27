@@ -1,0 +1,6 @@
+- steps:
+  - the author | supplies existing summary and requests continuation | a self-composed detailed summary of the first half of the story plus an attached file for the second half, with a request to summarize the remainder | opening message of the exchange
+  - the model | produces a continuation summary | a structured, section-by-section summary of the story's second half covering the Æthereal Realm revelations, the parley with Celestia, reconciliation with Luna, new alicorn powers, family confrontations, the Las Pegasus gambit, and the solar crisis and ending | reply to the author's request
+- kept:
+- brought: The author brought a self-written summary of the first half of the story plus an attached file containing the second half, asking the model to produce the corresponding summary for what the file covered.
+- loop: The author supplied half a plan-summary and a raw text file and asked the model to extend the summary to match; the model returned a matching summary of the remainder, but no note in the planning database is traced back to this exchange, so nothing from it is shown as having been kept.

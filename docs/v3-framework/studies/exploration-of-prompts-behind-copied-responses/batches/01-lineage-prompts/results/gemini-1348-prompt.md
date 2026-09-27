@@ -1,0 +1,8 @@
+- asks:
+  - check | asks whether the current story setup resembles the plot/premise of The Count of Monte Cristo | "So is this like the count of monte Cristo?"
+  - share/propose | offers a preference for how the character Chrysy should treat her enemies, framing it as consistent with an established worldbuilding concept | "I like the idea that chrysy doesn't just want to kill them. She wants to use them."
+- supplies:
+  - idea, a character-philosophy note | Chrysy's approach to defeated enemies — not killing them but using them, paralleled to the "love harvesters" turning enemy changeling hive nobles into batteries | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it names: it proposes a comparison to The Count of Monte Cristo and states a liked idea (Chrysy using rather than killing enemies, paralleling the love harvesters concept), inviting confirmation or development of that named direction.
+- subject: Comparing the story's revenge premise to The Count of Monte Cristo and developing the character Chrysy's philosophy of using rather than killing enemies, tied to the "love harvesters" worldbuilding element.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects and refines the mechanics of their magic system, saying that a thief cannot swap the anchor mark and that a stolen book would still identify its true owner. They also add that a personal logo can change while the sovereignty vector stays the same, and they draw on no named body of material to do this.

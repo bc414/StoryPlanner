@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Texas brisket is the only native American food fitting the "mother process" idea, with the rest tied to immigrant cuisines, building on the framework without disputing anything the model said.

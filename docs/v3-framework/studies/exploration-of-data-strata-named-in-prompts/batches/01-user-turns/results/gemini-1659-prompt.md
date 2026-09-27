@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's verdict to keep the dam, arguing from story logic that the city can run on oil and cannot risk its defense being wiped out by a flood, without pointing at any body of material.

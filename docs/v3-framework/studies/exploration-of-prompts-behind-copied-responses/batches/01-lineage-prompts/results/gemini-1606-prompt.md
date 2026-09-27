@@ -1,0 +1,8 @@
+- asks:
+  - explain | asks how Cloudsdale's water/weather infrastructure would actually function in practice | "How would Cloudsdale actually work?"
+  - brainstorm/design | asks for a reimagined, distributed version of the lake-to-storage-tank water process powered by a system the user calls "harmonic capitalism" | "What would be the harmonic capitalism powered distributed version of this?"
+- supplies:
+  - canon reference, episode description | recounts pegasi manually scooping lake water and launching it into a storage tank in the episode "Hurricane Fluttershy" | a sentence
+- shaping:
+- openness: Leans toward an answer built around a concept it names but does not itself define (\"harmonic capitalism\"), asking the model to work out and describe a distributed version of the canon water-collection process under that named framework.
+- subject: Reworking Cloudsdale's (My Little Pony) weather/water infrastructure under a fictional \"harmonic capitalism\" economic system

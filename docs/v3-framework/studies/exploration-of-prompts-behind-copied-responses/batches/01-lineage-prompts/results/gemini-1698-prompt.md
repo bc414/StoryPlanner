@@ -1,0 +1,7 @@
+- asks:
+  - analyse | give an analysis of how Cadance and Shining Armor banished the changelings in the "Canterlot Wedding" episode, framed through the user's own backstory lore | "Give an analysis on how Cadance and Shining Armor banished the changelings ... using my backstory lore"
+- supplies:
+- shaping:
+  - incorporate specific lore | the analysis must draw on "my backstory lore" rather than the show's canon alone | "using my backstory lore"
+- openness: Open: it names the event to analyse (the changeling banishment in the Canterlot Wedding) and requires the analysis be grounded in the user's own backstory lore, but states no conclusion, leans toward no particular interpretation, and offers no options to choose between.
+- subject: Analysing the changeling-banishment scene from the Canterlot Wedding story in light of the user's own backstory lore

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks how Thorax's harmonist movement would work after the failed wedding infiltration, sets out what they have already decided (he is a trained jaeger who knows equestrian and felt wrong during the attack), and asks whether he would spread native changeling or teach Herzlander, with smuggled board games also in their notes, with no model response present to correct.

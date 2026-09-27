@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks an open follow-up question, wanting a cleverer alternative to the multi-step segmented consolidation workflow just proposed, without saying anything in it was wrong.

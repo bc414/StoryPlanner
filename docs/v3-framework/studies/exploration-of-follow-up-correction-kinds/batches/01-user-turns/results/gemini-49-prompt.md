@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short follow-up to confirm their inference that the free developer API tier is limited to Flash models, without disputing anything the model said.

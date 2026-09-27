@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's survey of economic concepts in the story as given and asks a follow-up question about which other real-world economics areas of similar importance the story has not yet covered.

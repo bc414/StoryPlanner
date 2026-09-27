@@ -1,0 +1,4 @@
+- sources:
+  - HOI4's collaboration government mechanic | Use as the game-mechanics analogy for the analysis: it is a powerful mechanic because it lowers the surrender limit, and the pre-war Equestrian tycoon arrangement is to be compared with it | In HOI4, the collaboration government is one of the most powerful mechanics in the game by lowering surrender limit | first-named
+- order:
+- about: The user asks for an analysis of their idea that Chrysalis already had a collaboration government in Equestria before the war, working through tycoons influenced by her Skyfall bank, and frames it with the HOI4 collaboration government mechanic.

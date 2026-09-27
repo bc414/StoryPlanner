@@ -1,0 +1,41 @@
+- passages:
+  - note 43 | comparative-summary | third-person present-tense statements contrasting the two works | thesis contrasting P&K and TLTT as grimdark vs optimistic | apart
+  - note 4098 | comparative-summary | third-person statements contrasting Applejack across P&K and TLTT, plus historical analogy | Applejack's arc and the Petain analogy | apart
+  - note 4099 | comparative-summary | contrasts Flurry's political role in P&K vs TLTT | dictator vs functional democracies | apart
+  - note 4099 | explanatory-elaboration | drops P&K/TLTT frame, describes destiny directly, ends in a sentence fragment | Flurry destined to defeat Chrysalis through understanding | apart
+  - note 4100 | comparative-summary | contrasts Celestia's depiction and lists added backstory | Celestia's characterization and isolation-trigger backstory | apart
+  - note 4101 | comparative-summary | contrasts Pinkie's state across the two works | Pinkie regaining purpose and resilience | apart
+  - note 4102 | comparative-summary | contrasts Twilight's passivity vs agency | Twilight's arc to empiricist scientist | apart
+  - note 4103 | comparative-summary | contrasts Fluttershy's retreat vs active grace | Fluttershy's role with POWs | apart
+  - note 4104 | comparative-summary | contrasts Rarity's pacifism vs activism and logistics | Rarity's arc into activism and support | apart
+  - note 4105 | comparative-summary | contrasts Rainbow Dash's supremacism vs restraint | Rainbow Dash reined in by Applejack | apart
+  - note 4202 | bare-plot-notation | terse single-clause statement, no comparison framing | Flurry, Shining, Cadance staying in Crystal City | apart
+  - note 4275 | magic-system exposition | declarative rules limiting Twilight's and Celestia's magic | magic limits and Celestia's mortality | apart
+  - note 4275 | authorial-rationale | names narrative purpose ('gives a layer of validation'), no comparison framing | validating Boreas moving sun and moon | run-in
+  - note 4275 | exclamatory-aside | exclamation mark, direct reference to show canon | affirming mortal unicorns as FiM canon | run-in
+  - note 5161 | first-person aside | first-person statement of creative approach ('I'm going for') | approach to writing Starlight | run-in
+  - note 5161 | comparative-summary | third-person description of P&K's implied causation | Starlight's conditioning causing occupation suffering in P&K | run-in
+  - note 5161 | first-person aside | returns to first person ('I subvert this by having') | Starlight's violent, nation-building arc | run-in
+  - note 5448 | telegraphic-list | fragmentary 'X instead of Y' phrasing, no full sentences | liberty and harmonic capitalism replacing collaboration and ruthless capitalism | apart
+  - note 5462 | bare-plot-notation | terse lowercase statement, no comparison framing | Equestrians turning to Total War | apart
+  - note 5639 | comparative-summary | contrasts crystal heart as deus ex machina vs studied structure | crystal heart's function in P&K vs TLTT | run-in
+  - note 5639 | bare-plot-notation | drops comparison frame, states standalone fact | portable crystal heart shields on machine gun crews | run-in
+  - note 5666 | comparative-summary | explains P&K's implied lore for Flurry's birth | P&K's reasoning for Flurry's alicorn status | run-in
+  - note 5666 | first-person aside | parenthetical first-person insertion | naming the '2nd great leap forward' in author's lore | run-in
+  - note 5666 | comparative-summary | resumes third-person description of destiny | Flurry as alicorn of war | run-in
+  - note 5666 | comparative-summary | states TLTT's alternative explanation | TLTT's magic-system-based explanation for Flurry | apart
+  - note 5714 | first-person aside | first-person statement of original authorial reasoning | reason for Celestia's move to Manehattan | run-in
+  - note 5714 | narrative-summary | third-person sequential recounting of plot events | Blueblood's argument and relocation in P&K | run-in
+  - note 5714 | narrative-summary | continues third-person recounting of parallel events | Blueblood's evacuation orders and relocation in TLTT | apart
+- shifts:
+  - note 4099 | comparative-summary | explanatory-elaboration | drops the explicit P&K/TLTT contrast, moves to direct description of destiny, ends with a sentence fragment
+  - note 4275 | magic-system exposition | authorial-rationale | shifts to naming the rule's narrative purpose, no comparison framing
+  - note 4275 | authorial-rationale | exclamatory-aside | shifts to an exclamation mark and direct address of show canon
+  - note 5161 | first-person aside | comparative-summary | change of person from 'I' to 'P&K suggests', declarative plot description
+  - note 5161 | comparative-summary | first-person aside | return to 'I' and a stated authorial action ('I subvert this by')
+  - note 5639 | comparative-summary | bare-plot-notation | drops the P&K/TLTT contrast frame, states a standalone worldbuilding detail
+  - note 5666 | comparative-summary | first-person aside | parenthetical insertion switching to first person ('in my lore')
+  - note 5666 | first-person aside | comparative-summary | closes the parenthetical, resumes third-person sentence
+  - note 5714 | first-person aside | narrative-summary | change of person from 'I had' to third-person recounting of plot events
+- registers: comparative-summary; explanatory-elaboration; bare-plot-notation; magic-system exposition; authorial-rationale; exclamatory-aside; first-person aside; telegraphic-list; narrative-summary
+- whole: Most notes share one steady comparative-summary register contrasting P&K and TLTT, but several notes step out of it into distinct registers — first-person authorial asides, bare plot notations, magic-system exposition, an exclamatory aside, and narrative recounting — and these shifts mostly run into one another inside continuous prose rather than standing apart at visible breaks.

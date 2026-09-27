@@ -1,0 +1,7 @@
+- asks:
+  - correct | corrects the prior framing of the surrender, stating Trimmel does not order it but personally surrenders himself | "Trimmel doesn't order a surrender. He personally surrenders himself."
+  - specify | adds a plot detail that the other veterans act with their own agency, choosing to fight to the death with their tanks rather than surrender | "The other veterans have agency. They choose to fight to the death and take their modern tanks with them."
+- supplies:
+- shaping:
+- openness: Asks the model to check/incorporate what it states — it flatly asserts the corrected version of the surrender scene (Trimmel surrenders himself; other veterans choose to fight on) rather than posing a question or offering options.
+- subject: A correction to how a surrender scene plays out for the character Trimmel versus other veteran tank soldiers in the story plan

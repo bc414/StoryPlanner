@@ -1,0 +1,16 @@
+- passages:
+  - note 4574 | plot-summary narration | third-person declarative statement of a story fact | Orange family hosting Apples and Pears | apart
+  - note 4574 | evaluative thematic commentary | interpretive "It's an example of," claim about a limit | Generosity as voluntary, need for systemic equity | apart
+  - note 4574 | rhetorical critique with embedded hypothetical speech | mid-sentence turn "and in fact," imagined quoted line | poseurs citing model citizens against laws | run-in
+  - note 4575 | plot-summary narration | flat third-person statements of an arc | CMCs' discontent, talent, becoming campaigners | apart
+  - note 4575 | emphatic narration | closing exclamation mark | CMCs helping ponies find war-effort roles | apart
+  - note 5027 | directive/prescriptive planning note | "should be inspired by," "should not be... should be" | Manehattan's inspiration and chapter tone | apart
+  - note 5280 | directive/prescriptive planning note | "should be that," explanatory parentheticals | theme of a willing but unguided populace | apart
+  - note 5280 | plot-summary narration | direct declarative dropping "should" | union workers running seized factories | apart
+- shifts:
+  - note 4574 | plot-summary narration | evaluative thematic commentary | sentence break, fact statement turns interpretive with "It's an example of"
+  - note 4574 | evaluative thematic commentary | rhetorical critique with embedded hypothetical speech | mid-sentence "and in fact" introduces an imagined quoted line, no break
+  - note 4575 | plot-summary narration | emphatic narration | flat declaratives close on an exclamation mark
+  - note 5280 | directive/prescriptive planning note | plot-summary narration | drops the "should be" framing for a direct statement of fact
+- registers: plot-summary narration; evaluative thematic commentary; rhetorical critique with embedded hypothetical speech; emphatic narration; directive/prescriptive planning note
+- whole: This chapter's notes hold several registers - flat plot-summary narration, evaluative thematic commentary, an argumentative turn carrying an imagined quoted line, an exclamatory close, and prescriptive craft directives - and while most sit apart across sentence breaks, in note 4574 the critique runs straight into the commentary within a single sentence.

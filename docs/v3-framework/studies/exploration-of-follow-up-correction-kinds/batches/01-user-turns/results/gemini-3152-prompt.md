@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user states their flat-fee subscription constraint (no per-token API keys) and uses it to ask a follow-up about scheduling work into the recommended off-peak window with the subscription tools, plus whether Google AI Studio faces the same reasoning throttling.

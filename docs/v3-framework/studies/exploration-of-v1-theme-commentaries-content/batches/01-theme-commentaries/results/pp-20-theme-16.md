@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Pinkie's decision to stay with the Temberik reworks her war arc: what would be a plain depression trope becomes a considered, philosophical choice and a mark of maturity. The scene is said to change how her arc reads. | changes her EaW war arc from a simple "she's depressed" trope into a deeply philosophical choice and sign of maturity | no | expository prose, a single declarative sentence making an evaluative claim about the arc
+- whole: A one-sentence claim that Pinkie's staying with the Temberik lifts her war arc out of a stock depression trope and into a mature, philosophical choice.

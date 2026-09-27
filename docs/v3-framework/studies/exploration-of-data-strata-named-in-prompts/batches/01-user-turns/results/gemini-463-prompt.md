@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how an LLM reading the abbreviated property names will know what they mean, questioning the model's abbreviation approach without pointing at any body of material.

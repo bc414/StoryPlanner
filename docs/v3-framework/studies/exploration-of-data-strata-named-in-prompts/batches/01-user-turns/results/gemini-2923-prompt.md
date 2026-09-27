@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user explains their own new worldbuilding idea, that the Wings of Dew spell reveals a caster's true partner and softens Aquileia's dystopian feel, and asks the model to link it to the Tableau de Chasse and work out the spell's origin, wing color and mechanics, without pointing at any body of material to draw on.

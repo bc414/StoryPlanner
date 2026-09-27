@@ -1,0 +1,7 @@
+- asks:
+  - explain | account for why elites, despite holding privileged knowledge, don't use it to revolt against the system, tying this to some prior explanation ('this') | 'how does this explain why elites don't use their privilege of knowledge to revolt'
+  - analyse | describe the psychology of elites who grow up inside this system and under its rules | 'What is their psychology, growing up in this system and its rules?'
+- supplies:
+- shaping:
+- openness: Open: the message poses two open explanatory questions ('how does this explain...', 'what is their psychology') without naming a candidate answer or choice, though it presumes and builds on some prior framework called 'this' that is not included here.
+- subject: Why privileged elites don't revolt, and the psychology shaping them within a system of rules they grow up in

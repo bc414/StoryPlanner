@@ -1,0 +1,10 @@
+- asks:
+  - analyse | give a breakdown of how each of four named factions feels about the current political-economic situation | "Give an analysis of how each of the factions feel now"
+- supplies:
+  - scenario premise | Moriset Discret's return to a chaotic city, griffon thugs extorting industrialists, royalist ponies refusing to return to the Palais du Discret, and Coltbert's land-reform policy meant to snub Verany and shift economic weight away from the urban bourgeoisie | a paragraph
+  - user's added idea | a further premise that rent-seeking nobles are made obsolete or arrested while loyal statist nobles trade their serfs' land reform for becoming grand bourgeoisie "central processors" | a couple of sentences
+- shaping:
+  - cover exactly these four groups | rural griffons, rural ponies, urban griffons (who revolted and were beaten down), urban ponies (the royalists) | "rural griffons, rural ponies, urban griffons (who revolted and were beaten down), urban ponies (the royalists)"
+  - build on the stated noble outcome | analysis should presumably account for the fate of rent-seeking vs. loyal statist nobles as just described | "I imagine the rent seeking nobles are simply made obsolete or even arrested"
+- openness: The message leaves the content of each faction's feelings open, but constrains the analysis to the four named factions and to the premises it just laid out (land reform policy, nobles' fates), which the analysis is expected to build on rather than question.
+- subject: Faction reactions to a king-directed land-reform policy in the fictional world of Aquileia

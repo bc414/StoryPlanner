@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered by comparing Standard Time with Daylight Saving Time as clock policies, and by treating the clock label as what matters biologically. The user was after a schedule set relative to the sun, and one that accounts for day length changing over the year. | "Time zones and times are arbitrary but the sun is absolute (and has a variable length throughout the year)" | Flat statement of a premise that reframes the question, followed by a restated question. No apology or irritation. The correction is implied by the reframing and never called an error.
+- about: The user rejects the clock-time framing of the previous answer and restates the question in sun-relative terms, asking for an optimal biological schedule and how seasonal day length affects it.

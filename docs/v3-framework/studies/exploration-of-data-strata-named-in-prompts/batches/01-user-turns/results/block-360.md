@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for more candidate options for Applejack's evolved element beyond those already offered, without naming any source of data.

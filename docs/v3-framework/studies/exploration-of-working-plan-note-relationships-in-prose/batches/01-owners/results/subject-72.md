@@ -1,0 +1,20 @@
+- relations:
+  - 1208|1211|1211 elaborates the emotion sense of 1208 by stating that infants cannot control it and grubs must learn to endure hate, which presupposes the sense of hate and recoil that 1208 sets out|Infant changelings have zero control over their emotion sense; avoid hate (predators)|implicit
+  - 1382|1688|both describe the draining spell, one giving its history (biting first, spell later, taught to grubs) and the other its function (extract friendship and magic and move it)|A draining spell came later; spell to extract raw friendship and magic|implicit
+  - 528|1688|528 says ambition must be drained to be stolen and 1688 says what the draining spell does, so 1688 is the mechanism behind the draining that 528 requires|it must be drained; spell to extract raw friendship and magic and move it|implicit
+  - 528|1382|528 says red love has to be drained and 1382 says how draining began, as biting, before it became a spell|it must be drained; Draining magic started as biting|implicit
+  - 1382|1212|the fangs of 1212 give a physical basis for draining that began as biting, so the two fit together|Changelings have fangs; Draining magic started as biting|implicit
+  - 528|1212|both give calorie shortfall in foraging as the reason for a changeling trait, love-metabolism in one and omnivory in the other|meager calories from foraging; Foraging isn't enough in the frozen north|implicit
+  - 1212|1391|both give saving or gaining calories as the evolutionary reason for a body trait|Foraging isn't enough; saves them calories|implicit
+  - 1208|1380|1380 rules out a biological hive mind, which narrows the hive of 1208 to something formed by sensing and sharing love, not by biology|form a hive with them; do NOT have a biological hive mind|implicit
+  - 1212|1407|both place changelings as predators of the frozen north; 1407 says biology stays predatory even after empathy, which matches the omnivore fangs of 1212|Foraging isn't enough in the frozen north; apex predator designed for the frozen north|implicit
+  - 1685|528|1685 gives the reason the word Love was chosen to name what 528 defines as the feeding on interpersonal connection, so the word is a cover for the feeding|share your Love; metabolize interpersonal connections (pink love/friendship)|implicit
+  - 1685|1688|1685 describes the extraction operation hidden behind the word Love, which 1688 defines as the draining spell that moves friendship and magic|macroeconomic extraction operation; extract raw friendship and magic and move it|implicit
+  - 1208|1386|both tie changeling body or magic to emotional state, with sensing hate in one and terror or friendship changing silk in the other|sense others' emotions; Changelings who are terrified make resinous silk|implicit
+- outward:
+  - 1685|the Acornage changelings, Celestia's Walled Garden and the Equestrian culture, held elsewhere in the world|Acornage Changelings chose the softest, most harmless word available
+  - 1685|Chrysalis, her infiltration of Canterlot in 1002 ALB and Celestia's pacifism, events and figures not in this item|When Chrysalis infiltrated Canterlot in 1002 ALB
+  - 528|magical monsters with predatory ambition, a creature type held elsewhere|a magical monster's predatory ambition
+  - 1211|industrial combat, a war setting not described here|They still cannot survive industrial combat
+  - 1407|a changeling society learning empathy and changing its Labor, a story development elsewhere|simply because a creature learns empathy. What changes is their Labor
+- whole: By content, these notes mostly hang together as a set of changeling biology facts linked by feeding, draining and emotion sense, but a few notes, on silk, holes and the body plan, stand mostly alone, and the one reader-plan note joins them by the word Love.

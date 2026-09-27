@@ -1,0 +1,5 @@
+- sources:
+  - Metzli's requirement of "all tribes" (the condition from the plan as discussed in this conversation) | treat as doubtful and open to replacement by a softer condition (go talk to the drug tribes first); provisional, not settled | "not sure Metzli's requirement of "all tribes" makes the most sense anymore" | referred-to
+  - the original undeveloped plan of Mali convincing her mom with moral preaching | treat as insufficient and not to be reused as the way Metzli comes to join; only the end result of her joining with real conviction is kept | "original undeveloped plan of Mali convincing her mom with moral preaching was insuficient" | referred-to
+- order:
+- about: The user questions one plot condition and rejects an earlier plan for how Metzli comes around, proposes a softer and more sympathetic Metzli who joins with real conviction, and asks whether that is workable, what her psychology would be, and what contradictions it creates.

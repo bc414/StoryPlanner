@@ -1,0 +1,5 @@
+- sources:
+  - The first 3 terms from the model's previous answer | treat as wrong and do not keep, since they misread what a chasseur partnership is | The first 3 terms misunderstand the nature of a chasseur partner ship | referred-to
+  - The 4th term from the model's previous answer | treat as headed in the right direction, with passion serving as the allegory for connection in place of grace | The 4th term seems to be going to the right direction | referred-to
+- order:
+- about: The user corrects the tone of the model's proposed Aquileian terms by restating how chasseur partnerships work, rejecting the first three terms and endorsing the direction of the fourth.

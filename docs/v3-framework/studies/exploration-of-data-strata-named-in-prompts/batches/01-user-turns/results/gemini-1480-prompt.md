@@ -1,0 +1,4 @@
+- sources:
+  - the scenes' original intent (AJ wanting Celestia to wake up, not wanting to be the general, the uniform as taking leadership, the Crystal Empire talk) | treat as the true, settled meaning of these scenes; the model's revised framing is to be corrected to match it | these scenes were originally about | referred-to
+- order:
+- about: The user corrects the model's reinterpretation of Applejack's key scenes by restating what those scenes were originally meant to convey in the author's plan.

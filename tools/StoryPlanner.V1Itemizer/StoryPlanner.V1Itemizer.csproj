@@ -24,6 +24,11 @@
 
     <ItemGroup>
         <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+        <!-- The `own-voice-notes` unit (2026-09-26) computes the lineage attribution in its own run
+             rather than reading the sidecar attribution.csv, which is a derived artifact and not a
+             corpus: the labels come from StoryPlanner.VoiceAttribution over the archive, lineage.db
+             and the dated v1 snapshots. -->
+        <ProjectReference Include="..\StoryPlanner.VoiceAttribution\StoryPlanner.VoiceAttribution.csproj" />
     </ItemGroup>
 
 </Project>

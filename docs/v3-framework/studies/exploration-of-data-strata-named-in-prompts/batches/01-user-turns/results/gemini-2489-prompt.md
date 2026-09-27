@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the author's plans, including the new details in this turn, are the material the model is asked to review and analyze | Review my story plans and give an analysis | referred-to
+  - This (the model's preceding suggestion that recoil from magical artillery gives Fizzlepop migraines and the herbs harden her horn) | accepted as the most sensible option and built on, not disputed | This makes the most sense, that Fizzlepop's magical artillery gives her migraines | referred-to
+- order:
+- about: The author accepts the model's suggestion about Fizzlepop's recoil migraines and hardened horn, adds backstory and disability-tech details to the plan, and asks the model to review the plans and analyze them.

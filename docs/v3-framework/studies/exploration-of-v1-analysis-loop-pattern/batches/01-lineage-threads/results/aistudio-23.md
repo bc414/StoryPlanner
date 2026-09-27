@@ -1,0 +1,21 @@
+- steps:
+  - author | supply | an unspecified attached planning document | opens the conversation
+  - author | instruct | a sorting directive: chronological ordering of events, then non-history concepts | right after the first upload
+  - model | index | a 20-item title list mixing dated historical events and thematic concept headings | in response to the chronological directive
+  - author | supply | a second unspecified attached document | after the first index is returned
+  - model | index | a revised 20-item title list with small wording changes to match the new document | in response to the second upload
+  - author | supply | a third unspecified attached document | after the second revised index
+  - model | index | a further revised, more descriptive 21-item title list (fuller phrasing per entry) | in response to the third upload
+  - author | paste | a large block of prior thematic-analysis content (essays on stagnation/harmony/ambition allegory, historical cycles, character philosophy) as structured content items | after the third index
+  - model | index | a condensed 17-item title list summarizing the pasted thematic content | in response to the pasted block
+  - author | supply | a fourth unspecified attached document | after the thematic index
+  - author | instruct | a four-priority sorting directive (statecraft evolution, coercion instruments, trauma/loyalty, species-class dynamics) | right after the fourth upload
+  - author | supply | a fifth unspecified attached document | after stating the four priorities
+  - author | repeat | the identical four-priority directive verbatim | right after the fifth upload
+  - model | categorize | a JSON structure sorting content into buckets under the four named paradigms plus an 'orphan concepts' catch-all | in response to the repeated directive
+  - author | supply | a sixth unspecified attached document | after the categorized-bucket output
+  - author | instruct | a new four-priority directive (chronology, demographics, system mechanics, dialectics), replacing the prior one | right after the sixth upload
+  - model | categorize | a new JSON structure sorting content into buckets under the four new paradigms plus an 'orphan concepts' catch-all | in response to the new directive, closing the conversation
+- kept:
+- brought: The author repeatedly fed unseen attached planning documents and, once, a large pasted block of prior thematic-analysis content, paired with explicit sorting/priority directives, asking the model to reorganize the material into indices or categorized buckets.
+- loop: The author's working loop here is document-in, directive-in, structured-index-out: each turn supplies raw or previously-generated material plus a fresh sorting schema, and the model returns a reorganized table of contents or category buckets, but this stretch shows no notes carried from the exchange into the planning database — it functions as a pure sorting/indexing trial rather than a step that deposits new plan content.

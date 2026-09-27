@@ -1,0 +1,23 @@
+- steps:
+  - author | scene-setting | lists ten characters present at end of chapter 9 | opening of the message
+  - author | plan recap | describes sheriff's debrief on rounding up complicit Standard Oil executives and dividing rig management between workers and buffalo | early in the message
+  - author | plot beat | AJ privately asks Chief Thunderhooves if he wants a stampede over the reclaimed oil fields; Comet Shine cringes; chief declines, citing friendship with AJ and Appleloosa over Celestia's neglect | middle of the message
+  - author | format decision | reframes the Comet Shine trust question as a public questioning rather than a private talk | mid-message, introducing the monopoly question
+  - author | plot beat | notes Comet Shine's history lesson resolves the crowd's doubts | mid-message, brief mention
+  - author | plot beat | describes Fleur Bloom's history lesson tying buffalo to latent earth-pony-like magic, her plan to train buffalo on the wells, and the chief's consent | mid-to-late message
+  - author | plot beat | lays out Twilight's night epiphany reframing her weapons research as 'democratizing' magic rather than spreading killing magic, and her decision to split off | later in the message
+  - author | worldbuilding elaboration | connects Twilight's crystal-enhancer and combat-training plans to a magical close-air-support doctrine that will defeat Trimmel in chapter 15 | closing of the message
+  - model | endorsement and reframing | calls the public-forum staging a 'Constitutional Convention' / social contract moment | opening of the response
+  - model | character-function analysis | casts Applejack as union rep/auditor and Comet Shine's public promise as binding accountability | early in the response, section 1
+  - model | scene analysis | reads the stampede offer as respect for buffalo sovereignty and the chief's refusal as validating the friendship mechanic over Celestia | continuing section 1
+  - model | worldbuilding elaboration | explains why buffalo management raises oil yield, framing it as 'drilling with the land' versus Rockfeller's 'drilling against it' | section 2, on Fleur's magic theory
+  - model | character analysis with sample line | reframes Twilight's guilt as 'toolmaker pride' and supplies an interior justification line for her split from AJ | section 3, on Twilight's epiphany
+  - model | mechanical elaboration | invents the pilot/unicorn-gunner composition for magical CAS, explaining shielding against flak and sustained fire versus conventional bomb loads | section 4, on the Arc-Wing concept
+  - model | plot-mechanism elaboration | spells out how the shielded gunships specifically outclass Trimmel's ground-warfare expertise, framing his defeat as technological obsolescence | continuing section 4
+  - model | structural summary | recaps the whole sequence as five labelled scenes from the sheriff's office to the morning departures | closing summary of the response
+- kept:
+  - note 1093 | the author's own words in this record | keeps the author's exact sentence about the chief's refusal and the buffalo's loyalty to Applejack over Celestia, filed under the spy-network plot point
+  - note 675 | pasted whole from this reply | keeps the model's added explanation of buffalo 'drilling with the land' versus Rockfeller's sabotage-prone drilling, filed under Fleur's history-lesson plot point
+  - note 1092 | pasted from this reply inside the author's own framing | keeps the model's analysis of the stampede offer as respect and the chief's response as validating the friendship mechanic, wrapped in the author's own restated framing of the private stampede question, filed under the spy-network plot point
+- brought: The author brought a dense, largely finished draft plan for the end of chapter 9 - the debrief, the stampede question, the public questioning of Comet Shine, Fleur's history lesson, and Twilight's epiphany and CAS worldbuilding - drawn from their existing outline for chapters 9 and 15.
+- loop: The author brought a multi-scene plan that already contained its plot beats, and the model mostly validated and elaborated it with thematic framing, new mechanical detail, and a tidy scene summary; the plan then kept a mix of the author's own original phrasing and the model's newly generated elaboration, filing both under existing plot points regardless of which side had produced the wording.

@@ -1,0 +1,5 @@
+- passages:
+  - bearing on theme | Spike's celebrity-led, top-down exhortation to stay strong is shown as failing, which sets up the theme's contrast with what follows | Spike as a celebrity telling everyone to stay strong didn't work | yes | flat declarative planning shorthand, past-tense verdict
+  - fabula content | Spike lacks emotion sense while Flurry Heart has it, given as the character-level reason for why one approach failed and the other could work | He doesn't have emotion sense. Flurry Heart does | no | terse expository statements of fact
+  - bearing on theme | The pinkie promise is framed as a bottom-up contract made by everypony, so the crystal ponies' recitation of it exemplifies distributed power holding the city together | a pinkie promise is a bottom up contract from everypony | no | one-line thesis-style assertion in planning shorthand
+- whole: A two-sentence note arguing that Spike's top-down celebrity reassurance failed because he lacks emotion sense, whereas Flurry Heart's pinkie promise works as a bottom-up contract among all the ponies.

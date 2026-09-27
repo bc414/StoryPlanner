@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether, given the birth and cutie-mark years they state for Fluttershy and Rockfeller's oil-tycoon path after the Skyfall seminar with AJ's parents, the observatory buyout, the firing of the buffalo and the admission charge fall within Fluttershy's childhood.

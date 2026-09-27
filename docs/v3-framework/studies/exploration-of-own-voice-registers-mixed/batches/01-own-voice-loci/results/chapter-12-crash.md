@@ -1,0 +1,7 @@
+- passages:
+  - note 4718 | dictionary-listing | comma-strung noun phrases, quoted idioms, no finite verb | senses of the word "crash" (drug, market, R&D, training, plane) | run-in
+  - note 4718 | brainstorm-image | named characters, gerund phrase, closing exclamation mark | Applejack and Twilight literally crashing into each other at reunion | run-in
+- shifts:
+  - note 4718 | dictionary-listing | brainstorm-image | shift from generic idiom-phrases to a named, in-story physical image, capped by an exclamation mark
+- registers: dictionary-listing; brainstorm-image
+- whole: This single note holds one unbroken comma-strung sentence that runs from a dictionary-like listing of the word "crash"'s senses into a brainstormed, exclamation-capped image of two named characters colliding, the two registers running into each other with no break.

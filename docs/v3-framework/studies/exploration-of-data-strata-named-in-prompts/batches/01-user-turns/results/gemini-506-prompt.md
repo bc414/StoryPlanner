@@ -1,0 +1,4 @@
+- sources:
+  - these plot points | the material to map Applejack's arcs onto, i.e. the Encirclement and Stagnation beats just discussed; use as the anchor points for the intersections | these plot points | referred-to
+- order:
+- about: The user asks the model to lay out Applejack's several character-development arcs and show where they intersect with the plot points just discussed.

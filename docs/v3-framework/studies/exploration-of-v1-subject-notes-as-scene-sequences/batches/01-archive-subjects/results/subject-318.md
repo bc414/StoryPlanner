@@ -1,0 +1,5 @@
+- passages:
+  - 5691 | reference example from existing canon (other than a scene beat or a statement about the subject) | points to season 3's The Crystal Empire Part 1 and 2 as a model, where an existential war against Sombra sits alongside whimsical cute pony touches such as Rarity going wild over the castle and the crystal ponies | none | names the canon episodes and describes what they do
+  - 5691 | authorial goal or design intent | the author states what they need to do: interweave industrial war with cute MLP so neither weakens the other or cancels the other's tone | none | first-person statement of need, 'That's the kind of thing I need to do'
+- sequences:
+- whole: This subject holds a single note in which the author cites a canon episode pair as a model and states the tonal goal of blending industrial war with cute MLP aesthetics, with no scene beats and no dated events.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the "walled garden" framing for the Bauleiters and Jaegers, replacing it with a rising-expectations rat race, and assigns the true walled garden to Chrysalis's ideological loyalists, all as their own worldbuilding, without pointing at any body of data.

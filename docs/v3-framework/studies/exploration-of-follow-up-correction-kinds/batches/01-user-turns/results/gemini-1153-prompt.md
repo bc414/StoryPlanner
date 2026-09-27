@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the scene analysis to ask a new question about whether canned mash served in a mess hall is realistic for the setting, without saying anything in the model's turn was wrong.

@@ -1,0 +1,12 @@
+- passages:
+  - note 30 | exclamatory fragment | single clipped exclamation, no verb subject stated | the title being subverted | apart
+  - note 4699 | plain lore-statement | third-person declarative stating an invented fact, then a plain inference from it | Celestia's reproduction spell removing need for sex | apart
+  - note 4699 | interpretive character-claim | evaluative label ("ultimate sterile character") attached by "And" | Celestia as a figure who quashes ambition | apart
+  - note 4699 | meta-critical framing | self-referential naming of the prior claim as a "reading" of a quoted phrase | glossing "friendship is magic" as ambition replaced by harmony | apart
+  - note 4699 | concessive argument | colloquial concessive opener "Sure," contrastive "but", closing list after a colon | which forms of ambition are quashed versus which are missing | apart
+- shifts:
+  - note 4699 | plain lore-statement | interpretive character-claim | "And" introducing an evaluative label for the character rather than a further plain fact
+  - note 4699 | interpretive character-claim | meta-critical framing | explicit self-naming of the claim as "an ironic, cynical reading" of a quoted term
+  - note 4699 | meta-critical framing | concessive argument | "Sure," opening a concession followed by "but" and an itemized list
+- registers: exclamatory fragment; plain lore-statement; interpretive character-claim; meta-critical framing; concessive argument
+- whole: Across its two notes this item moves through several distinct registers — a bare exclamatory fragment, a plain factual lore-statement, an evaluative character-claim, an explicit meta-critical framing, and a concessive argumentative close — each occupying its own sentence and standing apart rather than blending within one.

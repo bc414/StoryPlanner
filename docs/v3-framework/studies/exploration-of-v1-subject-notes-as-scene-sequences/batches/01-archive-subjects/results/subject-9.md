@@ -1,0 +1,13 @@
+- passages:
+  - 5826 | statement about the subject | Faust's design insight: Rainbow's real frontier is vulnerability rather than competence | none | opening claim about what Faust understood, no event
+  - 5826 | statement about the subject | canon FiM analysis: Rainbow never had to rest and was always the best; Wonderbolts Academy avoids the overconfident-hits-a-wall trope, with her breaking records but objecting to the culture out of conscience | none | describes canon and authorial choices, with a 'for example' about Wonderbolts Academy
+  - 5826 | statement about the subject | canon character analysis: in Friendship is Magic Part 2 loyalty beat ego, later seasons show ego winning, called the Hasbro Mandate and compared to Twilight's shift | none | interpretive comparison, no moment shown
+  - 5826 | statement about the subject | planned TLTT arc: Rainbow's ego is shattered because she can't keep up the fight but won't rest, and her loyalty shifts from the abstraction of Equestria to her friends | none | 'in TLTT' arc description in analytic terms, no dated event
+  - 4166 | statement about the subject | baseline character: idolizes Wonderbolts' awesomeness, wants fame, has a big ego, but her core instinct is Loyalty, shown by rejecting the Shadowbolts in Friendship is Magic Part 2, clashing with the Wonderbolts' toxic culture | none | descriptive claims about her character with canon episode references
+  - 4166 | statement about the subject | her ego-and-loyalty combination is corrupted into a heroism complex that comes from idolizing the ace flyer Reni at Mount Aris | none | causal explanation of a trait, not a shown moment
+  - 5806 | statement about the subject | canon observation: in Over a Barrel she sides with the buffalo after hearing them out, so her baseline was never tribal | none | canon evidence cited for a character claim
+  - 5806 | scene beat without a year | in the TLTT backstory Rainbow makes friends with griffon pilots such as Réni | none | 'in my TLTT backstory'; written as something that happens, no date
+  - 5806 | scene beat without a year | later in the story Rainbow learns to respect Trimmel | none | 'Later in the story'; no date
+- sequences:
+  - 5806 | two beats: Rainbow's backstory friendship with griffon pilots, then her later respect for Trimmel | 'Then in my TLTT backstory' and 'Later in the story' order the beats
+- whole: The notes for Rainbow Dash are the author's analysis of her character, drawing on canon episodes and Faust's design to explain her ego-versus-loyalty core and her planned TLTT arc, with only a couple of undated story beats (griffon friendships, respect for Trimmel) at the end.

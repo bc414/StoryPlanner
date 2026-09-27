@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | identify further items or considerations independent of ("orthogonal to") an existing set of 5 points | "Anything else orthogonal to these 5 points?"
+- supplies:
+- shaping:
+  - new items must be orthogonal to (non-overlapping with) the 5 points already established | "orthogonal to these 5 points"
+- openness: Open: the message asks an open brainstorming question without naming candidate answers, only constraining them to be orthogonal to the referenced 5 points.
+- subject: Additional considerations beyond an existing 5-point list (the list itself is not included in this message)

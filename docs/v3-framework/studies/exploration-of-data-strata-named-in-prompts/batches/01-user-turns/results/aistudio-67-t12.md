@@ -1,0 +1,7 @@
+- sources:
+  - the shift away from total isolationism for 1000 years into a deliberate policy change from 914 to 930 (the Celestia change) | treat as the new settled premise; the thestral history must be adapted to fit it and the model should say what it fundamentally changes | with the shift away from total isolationism for 1000 years and into a deliberate policy change from 914 to 930 | referred-to
+  - the thestral backstory / the thestrals and their history | material to be revised in light of the Celestia change; the model should say what changes and suggest resolutions | how should this change the thestral backstory | referred-to
+  - the existing TLTT plan | read to establish the narrative and thematic purposes thestrals currently serve, which must still work after adaptation | currently serve in the existing TLTT plan | referred-to
+- order:
+  - the Celestia change (914 to 930 deliberate policy) | over the existing thestral backstory, which is to be adapted to it | adapt their history to the Celestia change
+- about: The user asks the model to work out how the revised Celestia policy timeline alters the thestral backstory, by first stating the thestrals' narrative purposes in the existing plan and then proposing adaptations that preserve them.

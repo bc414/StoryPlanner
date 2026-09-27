@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Bronzehill would resemble Canada and the other former British dominions, with Grover as ceremonial head of state, and adds that the Griffonian Republic has no monarch and is a pure republic like France.

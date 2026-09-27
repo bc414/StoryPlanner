@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to write the fullest possible system instruction for the first Playground step, the Cartographer, without pointing at any body of material to draw on or avoid.

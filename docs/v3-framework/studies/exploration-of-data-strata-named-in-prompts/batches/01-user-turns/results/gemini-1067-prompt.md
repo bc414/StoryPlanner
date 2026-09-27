@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether there is another context in which Applejack, or possibly Twilight, could write a letter conveying that being a good friend or family sometimes means doing the dirty work to win and protect them.

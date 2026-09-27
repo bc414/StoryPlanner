@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's portrait of King Discret as new context and moves on to two new planning questions: how Gaudreau could reconcile with the city after the revolution, and how she and Vérany could reach a pre-revolution deal for a joint, simultaneous FJA and PNdA uprising, which the user suggests rests on shared belief in productive meritocracy.

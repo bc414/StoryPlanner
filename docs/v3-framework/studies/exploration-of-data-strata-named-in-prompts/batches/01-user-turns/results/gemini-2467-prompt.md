@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of a story mechanic, in which wings of dew take on the colors of the wearer's special somepony as a side effect, and points at no body of material for it to draw on.

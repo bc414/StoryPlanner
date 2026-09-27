@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user extends the conversation's non-extractive-commons thread by asking what the landscape is for open-source or open-weight LLMs, including building non-subscription competitors to frontier models and the hidden compute-cost bottleneck, without pointing the model at any particular body of material.

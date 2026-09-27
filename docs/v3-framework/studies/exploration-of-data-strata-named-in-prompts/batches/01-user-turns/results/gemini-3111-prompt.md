@@ -1,0 +1,4 @@
+- sources:
+  - my framing of Secret of My Excess | the material to be analyzed; the model is to read and analyze the user's own treatment of that episode | Now analyze my framing of Secret of My Excess | referred-to
+- order:
+- about: The user asks the model to move on and analyze their own framing of the episode Secret of My Excess, following the previous chapter analysis.

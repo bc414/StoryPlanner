@@ -1,0 +1,5 @@
+- sources:
+  - all the material you have analyzed | draw on as the body to review; look across it for anything that did not fit the existing types | Across all the material you have analyzed | referred-to
+  - the 6 established subject types | check the material against this existing scheme to judge whether it covers everything or a 7th type is needed | the 6 established subject types | referred-to
+- order:
+- about: The user asks the model to review everything it has sorted so far against the six existing subject types and say whether any material is distinct enough to need a seventh type, with reasons.

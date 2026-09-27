@@ -1,0 +1,5 @@
+- sources:
+  - story plan | the pasted analysis is said to rest on it, so it is the grounding for the narrative reading, not a directive to the model | Based on your story plan and the provided sources | referred-to
+  - provided sources (numbered citations such as Source 681, 1005) | the pasted analysis cites them as backing for its claims about Grover III, Gerad Discret, Coltbert, Chrysalis and Kemerskai; they are treated as support for the analysis | the provided sources; [Source 393, 555] | referred-to
+- order:
+- about: The user feeds the model a run of thematic notes and pasted analyses that tie the story's cycle of stagnation and ambition, and Applejack's synthesis, to the present-day West, with the pasted analyses resting on the story plan and provided sources.

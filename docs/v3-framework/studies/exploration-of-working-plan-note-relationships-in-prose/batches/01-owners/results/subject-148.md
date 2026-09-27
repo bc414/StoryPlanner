@@ -1,0 +1,56 @@
+- relations:
+  - 2155|2191|2191 continues and interprets the burning in 2155: after the factories burn, the tribes choose drugs over industry, and the managers' return to dealing is given its reason|Post 993 factory burning; Since the factories were burned, they choose to sell drugs|explicit
+  - 2155|2293|2293 states the lasting physical result of the burning in 2155: where the tribes now live is the cleared, burned factory land|burned down in 993|implicit
+  - 2153|2155|2155 continues 2153 in time and reacts to it: the other tribes answer the industrialists' armed escalation by burning the factories, and the machinists 2153 hired flee|see the escalation and burn down all the factories; Tzinacatl machinists|implicit
+  - 2154|2177|2177 continues 2154 in time: the red love flood of 986 becomes the price-holding constriction that drives the skimming of 1002 to 1008|Chrysalis's constriction; Chrysalis floods the drug market|explicit
+  - 2154|2221|2221 names Chrysalis's mass-market synthetics as the competition that the flooding in 2154 exemplifies, and the tribes' small elite market is defined against it|Chrysalis's mass market synthetics|explicit
+  - 2177|2155|2177 gives a reason grounded in what 2155 tells: they use traditional weapons instead of guns so as not to provoke the other tribes, the provocation that ended in the factory burning|rather than guns so they don't provoke the other tribes|implicit
+  - 2177|2221|The two pull against each other: 2221 says they stick to their own land and a small quality-minded market, while 2177 has them skimming other tribes' land for a sky-high market|stick to their own land; skim at margins of other tribes' territory|implicit
+  - 2191|2210|2210 gives the factory workers who returned to their tribes as the other side of 2191's machinists who went to Manehattan, and both describe thestrals as the drug tribes' members|instead of going to Manehattan; The machinists went to Manehattan|explicit
+  - 2191|2221|Both say the drug tribes reject a return to flower-war traditionalism while keeping the trade and modern aspiration; 2221 supplies the loss-of-modernization feeling behind 2191's split|They don't want to go back to only flower wars; nothing to do with global trade are traditionalists|implicit
+  - 2210|2221|Both say the majority do not want to go back to flower-war traditions; 2221 names the monster hunts as what they refuse|don't want to go back to flower war traditions; rather than participating in the monster hunts again|implicit
+  - 2221|2239|2239 restates the loss in 2221 as identity: modernization taken away becomes what they are tied to instead of the flower war system|modernization but it was taken away; identity is tied to the lost modernization|implicit
+  - 2239|2191|2239 says why the factory appealed (making goods, not only selling drugs), which 2191 presupposes when it says drug selling took its place after the burning|could make goods instead of only selling drugs; they choose to sell drugs instead|implicit
+  - 2259|2255|2259 gives the cause of 2255's preference: having tasted global goods and culture, they organize the economy around selling drugs abroad for foreign goods|worth organizing your economic life around obtaining; prefer making drugs and selling them globally|implicit
+  - 2255|2258|Both describe the same mechanism: surplus drugs are sold abroad to buy what cannot be produced locally|get foreign currency to buy foreign goods; use the surplus from what they can produce locally|implicit
+  - 2259|2258|2259 gives the motive for the trade practice that 2258 describes|things you can get from Griffonia; access to things you can't produce locally|implicit
+  - 2198|2191|Both say the drug tribes are not purely rugged individualists and keep tribal solidarity together with trade aspiration|NOT pure rugged individualists; not purely one or the other|implicit
+  - 2198|2153|2198 narrows 2153: the ruthless individualist industrialists are only one part, and the tribes as a whole keep solidarity|rugged individualist; NOT pure rugged individualists|implicit
+  - 2189|2210|The cartel leaders who bicker in 2189 are the entrepreneurial top of 2210, the individualist layer as opposed to the thestral majority|rugged individualists, not tribal leaders; entrepreneurial Tzinacatl who run drug global trade|implicit
+  - 2189|2198|The two sit in tension: 2189 treats the bickering cartel leaders as rugged individualists, while 2198 insists the tribes are not pure individualists|rugged individualists, not tribal leaders; they are NOT pure rugged individualists|implicit
+  - 2198|2199|2199 takes the fact in 2198, that the tribes still cultivate friendship plants with tribal solidarity, and uses it as evidence for the accelerant theme|friendship plants; tribal solidarity|explicit
+  - 2198|847|2198 corrects or adds to 847's account of what they cultivate: friendship plants still grown and refined into opioids, alongside aggressive plants for stimulants|They DO still cultivate friendship plants; aggressive magical plants for stimulants|implicit
+  - 2193|2189|2193 explains why the drug tribes accept the alliance that the gathering in 2189 dramatizes: a legitimate path to global trade, not goodwill|agreeing to the alliance; Applejack gets all the cartel leaders together|implicit
+  - 2193|2259|2193 relies on the tribes' commitment to global trade in 2259 as the material reason they will join the alliance|legitimate path to global trade; worth organizing your economic life around|implicit
+  - 2193|2221|2193 presupposes 2221's rift, that the tribes are at odds with the traditionalists, and says the alliance removes that rift|at odds with the traditionalists; rather than participating in the monster hunts again|implicit
+  - 1305|1306|1306 revises the reader image set in 1305: the thestral prostitutes undermine the shady-dealer view, and the reality is desperation|They undermine the image. The reality is they are desperate|implicit
+  - 1305|2221|The reveal in 1305 that the reputation comes from the 930 ban on industry matches the modernization that was taken away in 2221|930 banning of industry; had modernization but it was taken away|implicit
+  - 1305|2277|1305 sets the reader's assumption of shady drug dealers, and 2277 records the drug selling to griffons that it rests on, ending at the 930 date the reveal points to|shady drug dealers; The drug tribes sold drugs to griffons|implicit
+  - 1306|413|The desperation the reader is to see in 1306 is the same collapse of hope and purpose that 413 gives as the real-world source of drug crises|the reality is they are desperate; economic hopelessness, and the loss of purpose|implicit
+  - 413|2210|413's real-world cause of drug crises, lost purpose, matches 2210's majority who take their own drugs while dreaming of justice|loss of purpose; take their own drugs and dream of justice|implicit
+  - 413|415|Both take up drug crisis, 413 as its real-world cause and 415 as the right response, harm reduction over extermination|drug crisis; the solution to an addiction crisis|implicit
+  - 2277|2221|2221's small griffon elite market is the ongoing case of the drug sales to griffons stated in 2277|sold drugs to griffons; griffon elites who actually care about Tzinacatl drug quality|implicit
+  - 2268|2258|2268 overturns the model in 2258: the future business buys second-rate crops from elsewhere instead of selling only what they produce locally|buying second rate equestrian crops; surplus from what they can produce locally|implicit
+  - 2268|2153|2268 revives the industrial side of 2153, now as industrial and alchemical refinement in a food business|industrial+alchemical refinement; become industrialists|implicit
+- outward:
+  - 2277|the griffons who buy the drugs, a species held elsewhere|sold drugs to griffons
+  - 2177|the flower war rules and the other tribes' territories|violating flower war rules
+  - 2177|Chrysalis and her constriction of the market, held elsewhere|Chrysalis's constriction
+  - 2154|Chrysalis and the red love drug flood, held elsewhere|Chrysalis floods the drug market with red love
+  - 2153|Skyfall investors, DRM subscriptions and bounties, and the mercenaries with organ guns|Skyfall DRM subscriptions; Skyfall mercenaries
+  - 2153|Coltbert and the Aquileian crossbows that disrupted the warriors' traditions|Coltbert disrupted their traditions with Aquileian crossbows
+  - 2155|Manehattan and the group EEEE!, held elsewhere|joining EEEE!
+  - 2191|the Aquileian medicinal tribes and Skyfall, both other organizations|the Aquileian medicinal tribes sell their artisan medicine
+  - 2191|Skyfall, maritime mercenaries and EEEE!, held elsewhere|move to Skyfall or became maritime mercenaries; became EEEE!
+  - 2221|Chrysalis's mass market synthetics|Chrysalis's mass market synthetics
+  - 1305|the Lunar Civil War event chain from another work, EaW|Based on the Lunar Civil War event chain from EaW
+  - 1305|the 930 ban on industry and outside influences, an event held elsewhere|930 banning of industry and outside influences
+  - 1306|Skyfall and its rich clientele, held elsewhere|Skyfall-minded rich
+  - 2189|Applejack, a character from another story|Applejack gets all the cartel leaders together
+  - 2189|the P&K bickering, a scene or group held elsewhere|the equivalent of the P&K bickering
+  - 2268|SAA, another organization, and Chrysalis drugs|what SAA does, replacing buying Chrysalis drugs
+  - 2193|the alliance and the common threat it answers, held elsewhere|agreeing to the alliance just to be nice and face a common threat
+  - 2199|Mage Meadowbrook and her Friendship Plants, held elsewhere|Mage Meadowbrook's Friendship Plants
+  - 413|real-world drug crises and industrial/rural communities|In the real world, the drug crisis
+  - 415|the real-world War on Drugs and harm reduction policy|War on Drugs (Extermination), but Harm Reduction
+- whole: The notes read as a well-connected set built around the 993 factory burning, the loss of modernization and the commitment to global trade, with a few loosely attached entries on the reader plan, real-world inspiration and the future business.

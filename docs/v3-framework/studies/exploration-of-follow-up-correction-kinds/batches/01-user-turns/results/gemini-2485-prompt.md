@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's statement of what the wings reveal (who keeps you alive in your heart) is put in doubt as not matching what the spell shows, which the user frames as the hunter's spirit | "should it be 'The wings show who is keeping your hunter's spirit alive'?" | tentative, as a yes/no question offering a replacement wording, with no reason given
+- about: The user queries one line of the model's stated spell rule and proposes a reworded version that ties the wings to the hunter's spirit rather than to being kept alive in the heart.

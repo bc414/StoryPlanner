@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks for the reasons or causes behind Japan's attack on China | "Why did Japan attack China?"
+- supplies:
+- shaping:
+- openness: Leaves the answer fully open; it poses a bare "why" question with no named cause, options, or claim to verify.
+- subject: Historical causes of Japan's attack on China

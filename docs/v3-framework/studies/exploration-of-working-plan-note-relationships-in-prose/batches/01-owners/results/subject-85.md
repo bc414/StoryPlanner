@@ -1,0 +1,22 @@
+- relations:
+  - 1988 | 344 | the canon note says TLTT's crystal heart is a structure that is studied and replicated; the history note gives the study and recreation of the lattice | "studied and replicated" / "recreate the crystal lattice structure" | implicit
+  - 1988 | 761 | the canon note's claim that every machine gun crew has a portable heart is carried out by the mass production for the army | "Every machine gun crew has a portable crystal heart" / "mass production for the army" | implicit
+  - 342 | 344 | later history overturns the earlier secrecy: Mi Amore hid the inner workings in myth, and the Aquileians and Sunburst work out the science | "covered its inner workings in myth" / "figure out the science" | implicit
+  - 344 | 761 | continuation in time: once the lattice can be recreated, the mass production for the army is revealed | "recreate the crystal lattice" / "mass production for the army" | implicit
+  - 342 | 346 | the myth Mi Amore built is what the army's official name for the devices aims to keep intact | "covered its inner workings in myth" / "avoid stripping away the mysticism" | implicit
+  - 602 | 761 | the reason for the technology (preparing for threats like Chrysalis) explains why the army gets it in mass production | "to prepare for threats like Chrysalis" / "mass production for the army" | implicit
+  - 761 | 765 | continuation: after the mass production is revealed, peacetime training with the shields follows | "mass production for the army" / "peacetime training" | implicit
+  - 765 | 1752 | training success is later contradicted by battlefield failure: shields looked invincible on the proving grounds, then weakened under the Stukas' terror; both rest on the ponies' care for each other | "looked invincible" / "the shields would hold because the ponies genuinely cared" | implicit
+  - 349 | 346 | both concern what the device is called; the Aquileian term cœur de cristal matches the Aquileians calling them crystal hearts, against the army's official name | "cœur de cristal" / "the Aquileians call them crystal hearts" | implicit
+  - 349 | 344 | the Aquileians who recreate the technology are the ones whose word for it is discussed | "The Aquileians call the portable device" / "the Aquileians and Sunburst" | implicit
+- outward:
+  - 1988 | the P&K canon, where Flurry Heart uses the heart against changelings, and its ASOIAF inspiration | "In P&K, Flurry Heart turned the crystal heart into a deus ex machina"
+  - 602 | Chrysalis and the changeling threat, held elsewhere | "threats like Chrysalis"
+  - 342 | Mi Amore and the founding of the Crystal Empire and its ponies | "Mi Amore, the first empress of the Crystal Empire"
+  - 344 | Aquileians and Sunburst as figures elsewhere in the story | "the Aquileians and Sunburst"
+  - 761 | Cadance and Shining Armor as characters | "Cadance and Shining Armor reveal"
+  - 765 | Equestrian harmony and the Pink Love (Grace/Trust) model, held elsewhere | "baseline Pink Love (Grace/Trust)"
+  - 349 | the Aquileian/French language and culture | "in Aquileian/French, cœur"
+  - 346 | the Equestrian Army and the crystal ponies as groups elsewhere | "The Equestrian Army officially called them"
+  - 1752 | Luna's battle doctrine and the Stukas' acoustic terror in a battle scene | "Luna's battle doctrine" / "the Stukas' acoustic terror"
+- whole: The notes read as a set that hangs together, running from the canon contrast and invention history through mass production and training to the shields' failure under the Stukas, with the naming notes attached alongside.

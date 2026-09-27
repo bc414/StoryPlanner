@@ -1,0 +1,6 @@
+- passages:
+  - 4110 | statement about the subject | Claims that earth ponies, unicorns and pegasi hold about equal raw magic on average, and describes how each tribe's magic shows itself (unicorn flashy and acute, pegasus flight, earth pony latent, long-acting and underground) | none | descriptive claims about what is true of the tribes; no event, no date
+  - 4071 | statement about the subject | Says the idea applies to pony cutie marks and also to different griffon communities and their terroir | none | general remark on scope of the subject; no event, no date
+  - 42 | statement about the subject | Thematic principle that not everyone must conform and that industry and magic need not replace special talents but can enhance them | none | general assertion of what is true or meant; no event, no date
+- sequences:
+- whole: The notes are three undated statements about a theme: that special talents need not be replaced by industry and magic but can be enhanced by them, that this covers cutie marks and griffon communities, and that the three pony tribes hold roughly equal raw magic in different forms, with no scene beats among them.

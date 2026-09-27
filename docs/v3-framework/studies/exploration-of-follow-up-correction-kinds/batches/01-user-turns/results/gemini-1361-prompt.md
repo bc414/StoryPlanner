@@ -1,0 +1,7 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | disputes the model's extension of the Severyana Accelerants/Stabilizers "double-blind" covert-operation framework to Olenia | "Olenia is not a two faced secret operation" | stated flatly, as a direct negation
+  - fact of the world | specifies that after the fast surrender it is the Bauleiters, not Statthalters, who receive full administrative control of the conquered deer, with Statthalters relegated to suppressing the small resistance | "Bauleiters get full administrative control of the subjugated deer. The Statthalters only get to torture the puny Olenian resistance" | stated in passing while laying out the actual sequence of events
+  - fact of the world | notes Celestia already dislikes the deer as raiders, removing any need for the operation to secretly break free from Canterlot oversight as the covert framework implied | "Celestia already dislikes the deer for being raiders" | given as a brief supporting reason in parentheses
+  - reading of the plan | replaces the managed-chaos/puppet-installation mechanism with a straightforward overt military blitzkrieg powered by weapons financed through the MEFO bills | "a straight military blitzkrieg using all the weapons built by the MEFO bills" | stated flatly as a replacement description
+- about: The user turn rejects the model's transplant of the Severyana "double-blind" covert operation structure onto Olenia and replaces it with a different, overt scenario, while also adding new downstream character consequences.

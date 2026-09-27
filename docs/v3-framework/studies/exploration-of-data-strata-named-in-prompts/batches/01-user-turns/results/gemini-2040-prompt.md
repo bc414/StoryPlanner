@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up design question about whether a note describing a conflict between two entities (FJA and MPA) may be filed under a different paradigm such as Dialectical rather than Demographic.

@@ -1,0 +1,8 @@
+- relations:
+  - 2050 | 2048 | the belief and history stated as the character's truth would give the reason for the conservative, defensive way he is said to play the GR (cause/ground of a stance) | tradition, tariffs, fear of Boreas / conservative, defensive approach | implicit
+- outward:
+  - 2050 | the revolution and the textile barons' betrayal of it, held elsewhere in the world's history | the textile barons betrayed the revolution
+  - 2050 | Boreas, and Grover III's ultimate decision, another character and lore not given here | fear of Boreas (Grover III's ultimate decision)
+  - 2048 | the GR, an item of the world or canon not explained in this item | playing the GR
+  - 2048 | established canon depictions of the character, held outside this item | conservative, defensive approach
+- whole: The two short notes sit together loosely, joined only by a plausible implicit fit between his conservative creed and his defensive play, and each mostly points at lore held elsewhere.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the brony-wave analysis and asks a fresh, separate question about why ASOIAF holds its grimdark thesis, whether it comes from Martin's life, and how that differs from their own meta narrative.

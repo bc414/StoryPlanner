@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Zumidia and Great Lakes comparison, adds a note placing Abyssinia (cats) with a griffon-like feudal structure, and moves on to ask for a Colthage plan drawn from the v1 and v2 plans and earlier conversations, especially the Chinese-history paradigms spread across nation states.

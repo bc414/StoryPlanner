@@ -1,0 +1,8 @@
+- sources:
+  - Griffonian history (the entirety of it) | treat as a direct allegory for human history, so the analysis should read it as standing in for real history | the entirety of Griffonian history is meant to be a direct allegory to human history | referred-to
+  - our human history | the real-world basis that every area of Equestrian at War is inspired by; the model should read those areas as mapped onto it | All the areas of Equestrian at War are inspired by our human history | first-named
+  - Equestria's Stagnation of Harmony | the one part not drawn from human history, since its political and social system is invented; it stands for the present day | the political and social system of Equestria is not | the Stagnation of Harmony is the Present | referred-to
+  - Equestrian locations like Manehattan and Las Pegasus | based on real places, but only as places, not in their political or social system | based on real places, but the political and social system of Equestria is not | first-named
+  - the resolution of the story | presented as what we should be striving for now, the goal set against the present | the resolution of the story is what we should be striving for now | referred-to
+- order:
+- about: The author tells the model that Griffonian history and the other regions of the setting allegorize human history, that Equestria's Stagnation of Harmony is the invented exception standing for the present, and that the story's resolution is what we should now aim for, so the model can sharpen the poignancy of the previous analysis.

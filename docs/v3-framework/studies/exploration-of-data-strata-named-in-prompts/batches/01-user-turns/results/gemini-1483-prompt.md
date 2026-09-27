@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's prior analysis by stating what Applejack's alternative to assaulting Canterlot actually is (the Bluebell River Spearhead) and how and why Trimmel surrendered, without pointing at any body of material.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers an interpretation of the character's backstory, that the Lord was grooming her for abuse and that becoming a chasseur reclaims her name, and asks the model to confirm it, without pointing at any body of material.

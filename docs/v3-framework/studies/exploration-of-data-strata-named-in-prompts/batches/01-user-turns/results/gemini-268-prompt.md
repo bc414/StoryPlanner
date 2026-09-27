@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user gives direction on how the press-conference scene should play out (Kemerskai's joking warning, the tone flip from annoying reporters to serious ones, AJ's decision to withdraw) and suggests moving the tactics interviews before the speeches, without pointing at any body of material for the model to use.

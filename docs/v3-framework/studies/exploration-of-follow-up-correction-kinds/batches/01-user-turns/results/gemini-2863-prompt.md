@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's account of the Tzinacatl backstory (logging companies destroying traditional medicines, then synthetic cartel drugs replacing organic practice) is set against the lore's own origin: magical plants from ancient windigo impacts, refined into clean red love drugs for global sale | "My lore says the Tzinacatl jungle has magical plants due to ancient windigos crashing into the jungle" | flat restatement of the lore as a premise, in passing, with no explicit 'you got this wrong', before moving on to a new question
+- about: The user restates their lore for the Tzinacatl drug trade, which quietly departs from the model's version, and uses it to ask whether the Tzinacatl would now sell only amphetamine-like drugs or opioids too, and how that would come about.

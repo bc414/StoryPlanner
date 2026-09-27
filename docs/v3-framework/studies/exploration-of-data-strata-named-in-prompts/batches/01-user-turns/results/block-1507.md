@@ -1,0 +1,5 @@
+- sources:
+  - R reader experience targets (the stated R targets) | standard the AI checks the plot point design or prose against when auditing | audit the design or prose against the started R reader experience targets | referred-to
+  - refactored notes in tracks | to be taken into account as needing human articulation, which bears on which tracks the plot point should carry | most of the refactored notes in tracks need human articulation too | referred-to
+- order:
+- about: The user accepts the audit role for the AI against R targets, doubts that even a strong model can write prose at their level, asks whether that comes from the deliberation and inference the plot point and prose need, and asks for first-pass suggestions on which note tracks belong on the plot point, given that a human writes the prose and articulates most notes.

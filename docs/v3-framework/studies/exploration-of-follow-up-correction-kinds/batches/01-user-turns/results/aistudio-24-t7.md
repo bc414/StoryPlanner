@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies an attached document and a JSON list of categorized bucket names by paradigm, which reads as the next input in the note-organizing pipeline and not as a comment on the sorted output.

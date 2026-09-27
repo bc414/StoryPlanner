@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's Jaguar/Eagle framework by proposing that the Aquileian (medicinal) tribes see the jaguar as initiator and the eagle as receiver, because their default warrior state is night and the eagle stands for the day when the bat ponies sleep, put as a tentative inference for the model to confirm.

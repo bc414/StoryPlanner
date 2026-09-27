@@ -1,0 +1,7 @@
+- sources:
+  - things closer to the materialist baseline | proposed as the part of the existing story plan to refine first; put as a question to confirm, not settled | closer to the materialist baseline get refined first | referred-to
+  - themes | proposed to be refined early, alongside the baseline material; put as a question | and also themes | referred-to
+  - character development and plot threads | proposed to be left until later, after the wider material is in place; put as a question | character development and plot threads later | referred-to
+- order:
+  - materialist-baseline material and themes over character development and plot threads | proposed as a work sequence, baseline and themes first, then breadth, then characters and plots later
+- about: The user asks the model to confirm a proposed order for working on the story plan: refine the materialist-baseline material and themes first, then add breadth, and leave character development and plot threads until the full surface area is visible.

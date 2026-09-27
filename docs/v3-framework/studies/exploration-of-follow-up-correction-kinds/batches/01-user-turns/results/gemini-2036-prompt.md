@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model produced a schema using enum, minItems and maxItems keywords that go beyond the format the user's own schema and AI Studio's visual editor use, instead of staying in the style of the schema the user supplied | I don't think AI Studio likes json that isn't in the format that the visual editor can do | stated as a doubt about compatibility, then a flat instruction to redo it
+  - reading of the request | The model added constraints and reordered properties, the user wanted the same-style schema without those extras (enum, min/max items) | without extra constraints like enum or min/max items | flat directive, polite request with 'Please'
+- about: The user rejects the hardened schema because AI Studio's visual editor may not support those constructs and asks for a redo in the style of their original schema without enum or min/max items.

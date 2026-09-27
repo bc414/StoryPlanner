@@ -1,0 +1,5 @@
+- sources:
+  - my unified theory of magic | the framework the model is to use to explain how Starlight's mark-removal spell works, and to compare with the changeling draining spell | How would Starlight's cutie mark removal spell work in the context of my unified theory of magic? | referred-to
+  - the model's previous analysis (its suggestions about Starlight relapsing and the mines) | partly accepted and partly rejected: the relapse during the flight is kept, but the 'death is equality' reasoning is rejected as a stretch or nonsensical, and the model's reason for the mine shift is replaced by the user's own | I agree that Starlight is relapsing into a villain during the flight with Rainbow Dash, but I don't think it has to do with "death is equality" | referred-to
+- order:
+- about: The user asks the model to explain Starlight's cutie mark removal spell within their unified theory of magic, while accepting part of the model's earlier analysis, rejecting its 'death is equality' reading, giving their own reason for the move to the mines, and asking that her past as a cult leader appear thematically somewhere in the story.

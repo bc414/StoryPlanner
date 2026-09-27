@@ -1,0 +1,6 @@
+- sources:
+  - asian villages that had to cooperate the irrigation system | offered as a real-world precedent that supports the argument that cooperation from material conditions is what the Porygon biology stands for | isn't that actually true of asian villages that had to cooperate the irrigation system | first-named
+  - the biology of the Porygons (the new framing from the previous turn) | treated as already accepted and reinterpreted as material conditions, cold and starvation forcing cooperation, so the 'use your nature' worry does not undermine the materialist thesis | that IS what the biology of the Porygons is arguing | referred-to
+  - the game's starting situation, stated by the author | stated as fact of the setting for the model to take as given: global trade changed material conditions, great powers extract crystals and sell cheap calories | at the start of the game, the material conditions changed due to global trade | first-named
+- order:
+- about: The user pushes back on the model's warning that the biology framing risks 'use your nature' determinism, arguing that Porygon cooperation is itself a response to material conditions (like irrigation villages) and that the game's opening premise is those conditions being disrupted by great-power crystal extraction in exchange for cheap calories.

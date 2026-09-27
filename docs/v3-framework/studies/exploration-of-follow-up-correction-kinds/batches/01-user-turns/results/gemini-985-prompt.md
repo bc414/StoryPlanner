@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the blockade framework and moves on to ask what signs of collaboration should count as criteria for nationalizing a business, offering their own list of indicators and asking what else to add and what would not be valid.

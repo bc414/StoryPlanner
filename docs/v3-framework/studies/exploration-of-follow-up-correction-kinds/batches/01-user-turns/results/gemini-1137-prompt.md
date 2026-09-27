@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's review of early ideas and asks for the same kind of analysis on another early idea, Twilight rescuing Applejack in a trench, and whether other arrivals at the front would serve the story better.

@@ -1,0 +1,7 @@
+- steps:
+  - the author | poses comparative question | asks how story plan's themes relate to a named external work's themes | opens the exchange
+  - the model | maps thematic parallels | draws five side-by-side comparisons between the external work's mechanics and elements already in the plan (a ruler's rhetoric, a scarcity doctrine, commodification of workers, anti-individualism messaging, empathy-as-resistance) | body of the response
+  - the model | poses a forward-looking question | asks the author to decide how remaining antagonist/elite characters will be resolved in the post-war phase, offering a trial-based option versus an economic out-competing option | closes the response
+- kept:
+- brought: The author brought a request to compare the story plan's existing themes against those of a well-known external work, without supplying new plan material of their own.
+- loop: The author brought an external comparison prompt; the model returned an analysis mapping the plan's own established elements onto that comparison and posed an open decision back to the author, but this stretch shows nothing of it carried into the planning database.

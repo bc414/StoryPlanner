@@ -1,0 +1,16 @@
+- steps:
+  - the author | inquire | general question about markdown as plain-text formatting, tied to their WPF/EF Core story app | opening exchange
+  - the model | explain | markdown-as-visible-instructions concept with storage/portability/AI-compatibility rationale for the app | reply to the markdown question
+  - the author | propose-analogy | comparative analysis request setting Simplified Herzlander against real-world contractors' limited-English acquisition, asking if it's valid | second exchange
+  - the model | validate-and-elaborate | sociolinguistic breakdown affirming the analogy point by point, adding a class-stratification layer and a summary verdict | reply to the comparative-analysis request
+  - the author | integrate-with-lore | question asking how the analogy fits existing hatchery/kindergarten/higher-school lore and when full language gets taught | third exchange
+  - the model | extend-lore | elaboration of a three-track school system (Industrial, Jaeger, Statthalter) framed as a language-unlock mechanic gating class | reply to the lore-integration question
+  - the author | request-clarification | request to elaborate the native-English-vs-contractor-English gap since the author's own frame is full English | fourth exchange
+  - the model | detail | four-part breakdown of what contractor English strips out (tenses, modals/softeners, connotation, idiom) with paired examples | reply to the clarification request
+  - the author | apply-to-rehab | question asking whether rehab is literally school curriculum, at what stage/age, and whether teaching is explicit or implicit | fifth exchange
+  - the model | stage-model | three-stage rehab curriculum matching grammar milestones (self/negation, conditional, abstraction) to trauma-recovery beats, with an explicit-vs-implicit verdict | reply to the rehab-curriculum question
+  - the author | add-constraint | added nuance that some rehabbed prisoners know Standard Herzlander or native changeling but Fluttershy's staff speak only Equestrian, asking which language rehab uses | sixth exchange
+  - the model | resolve | proposal of a translator-mediated pidgin bridge phase followed by teaching Equestrian from scratch, with a three-phase acquisition progression | reply to the final language-choice question
+- kept:
+- brought: The author brought a linguistic analogy they wanted stress-tested and then progressively folded into existing worldbuilding about the changeling hatchery/school system and Fluttershy's rehab program.
+- loop: The author repeatedly extends one working idea (language-as-class-control) into new corners of the existing plan — schooling, rehab, staffing languages — and the model answers each with a fuller framework each time, but no note in the planning database is traced to any of these exchanges, so this stretch shows exploratory back-and-forth that stayed in the chat without being captured into the plan.

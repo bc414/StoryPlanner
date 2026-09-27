@@ -1,0 +1,5 @@
+- sources:
+  - story's love harvesters | the existing story element the model is to analyze and map the emotional-addiction theme onto | represented by story's love harvesters | referred-to
+  - this unregulated emotional addiction | the topic carried over from the earlier discussion, to be treated as the real-world thing the story elements stand for | how this unregulated emotional addiction is represented | referred-to
+- order:
+- about: The user asks for an analysis of how the story's love harvesters stand for unregulated emotional addiction, then proposes a concrete allegory in which Olenia's collaborator deer feed on red and pink love and the Equestrians respond with restricted, responsible use.

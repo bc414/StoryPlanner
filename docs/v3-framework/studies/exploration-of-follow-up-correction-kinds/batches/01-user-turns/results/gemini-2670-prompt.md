@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's thematic-dialectic account and sets a new task: to go through the notebooks and trace, in order, how their ideas developed to reach that connection.

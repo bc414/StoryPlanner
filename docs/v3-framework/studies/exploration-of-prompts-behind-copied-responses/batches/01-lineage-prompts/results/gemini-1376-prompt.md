@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document, a planning-document export | a long-form work-of-fiction plan, contents not captured | full document, noted as 142,233 words (0 chars captured)
+- shaping:
+- openness: The message contains no stated question or instruction at all — it is only the record of an attached file — so there is nothing to call open, leaning, a choice, or a check.
+- subject: An attached plan export, with no accompanying text from the user.

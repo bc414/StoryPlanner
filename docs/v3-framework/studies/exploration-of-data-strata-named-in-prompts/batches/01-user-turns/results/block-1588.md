@@ -1,0 +1,6 @@
+- sources:
+  - the above (the user's own remarks on the Chapter 2 breakdown, on TLTT planning, on POV, and on their own interest in reader prior belief correction) | analyze first; the user's own corrections, such as splitting hiding-from-Rainbow and refuge-at-Rarity's into separate scenes, stand as the author's word | Please analyze the above, and then apply the same kind of analysis | referred-to
+  - Chapter 3 - Haute Couture, Please.pdf (the attached chapter) | the main material to analyze, using the same kind of analysis as before | apply the same kind of analysis to chapter 3, attached | first-named
+  - the canon episode Suited For Success | the canon the chapter is based on, the episode it is to be read against | based on the canon episode Suited For Success | first-named
+- order:
+- about: The user corrects and reflects on the previous Chapter 2 breakdown (scene splits, POV discipline, their own interest in subverting reader prior beliefs) and asks the model to analyze those remarks and then run the same plot-point analysis on the attached Chapter 3, which is based on the canon episode Suited For Success.

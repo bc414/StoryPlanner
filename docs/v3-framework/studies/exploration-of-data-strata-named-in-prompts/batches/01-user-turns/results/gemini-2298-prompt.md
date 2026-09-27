@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the standard Wonderbolt Spitfires could be given armor able to stop Bf 109 ammunition, as a heavier and less agile counterpart to the Aquileian ace plane, given the limited numbers of Wonderbolts and Crystal engines.

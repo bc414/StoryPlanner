@@ -1,0 +1,14 @@
+- passages:
+  - 4379 | statement about the subject | a judgment that Starlight as cult leader of Our Town is a poseur | none | flat assertion about the character, no event
+  - 4380 | statement about the subject | a thematic reading: her learning to embrace special talents rather than reject them is the harmonic half of harmonic capitalism | none | "it's the harmonic part of" framing as meaning, not shown moment
+  - 5162 | scene beat without a year | at the war's start Starlight quarantines herself with Twilight and Fizzlepop in the magical research lab because she does not want to be a villain again | none | "At the beginning of the war"; written as an action with motive
+  - 5162 | scene beat without a year | after the Equestrian Army is defeated in Vanhoover, Starlight hears the bauleiter's mission and pitch, recognizes it as Our Town-style propaganda, wants to fight back, and Twilight holds her back | none | "But after" the defeat; hearing, recognizing, wanting, being held back
+  - 5164 | statement about the subject | an interpretation of the episode No Second Prances: Twilight was micromanaging Starlight's redemption into a sanitized, docile, predictable reformed villain | none | reading of an existing episode, no dated moment
+  - 5164 | statement about the subject | an explanation of why Celestia lets Twilight reform Starlight: Starlight's cult is too close to how Celestia runs her own nursery | none | "because"-style explanation of motive
+  - 5622 | open question to self | a planning question asking whether A Royal Problem and the Celestia/Luna cutie-mark switch belong in TLTT, what purpose they would serve, and how the trivial conflicts are recontextualized under TLTT's rules | none | phrased as questions
+  - 5397 | scene beat with a year | backstory: the Communist manifesto was written when Starlight was 10; she found it after Sunburst left, while studying combat magic | when Starlight was 10 | age marker plus "after sunburst left"
+  - 5397 | statement about the subject | Starlight rejects the Aquileian philosophy of giving every griffon a seal like ponies, because Sunburst left and she read the communist manifesto first | none | stated stance with reasons
+  - 5397 | statement about the subject | she invented the spell that removes asset specificity | none | bare fact about what she made, no moment described
+- sequences:
+  - 5162 | two beats: Starlight's self-quarantine at the war's start, then her reaction after the Vanhoover defeat and the bauleiter's pitch | "At the beginning of the war" then "But after"
+- whole: A small set of loose planning notes on Starlight Glimmer mixing thematic and interpretive statements, a two-step war-time character arc, backstory and beliefs tied to the communist manifesto and Sunburst, and one open question about story placement.

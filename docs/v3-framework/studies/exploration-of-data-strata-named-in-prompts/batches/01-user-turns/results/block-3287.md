@@ -1,0 +1,5 @@
+- sources:
+  - the torn coat emphasis (the preceding analysis's framing) | treat as doubtful and provisional, not the right thing to build on; to be reanalysed with a different central logic | I'm not sure the torn coat is the right thing to emphasize | referred-to
+  - Réni's past encounters as the user lists them (peripherie reconquest, Minette in Aquila, the Great Lakes warlord, Mount Aris, statthalter slaver islands, 2nd Tall Tale, Diyarbecolt and minor skirmishes) | treat as the established hero-kills-poseur pattern to draw on as the evidence for the reanalysis | In all the past encounters of his life, he was the hero who killed the poseur | referred-to
+- order:
+- about: The user pushes back on the previous turn's torn-coat framing, proposes instead that Réni's heroism complex and enchantment die because pretending a hero can still save everyone would make him a poseur, and asks for a reanalysis of everything relevant.

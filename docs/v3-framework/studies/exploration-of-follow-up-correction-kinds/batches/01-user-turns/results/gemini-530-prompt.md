@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the context-window answer to a new request for suggestions on interleaving the Extraction and Tempest plot points into an alternating Twilight and Applejack narrative bridged by positive-only letters, with the premise, jealousy irony and long separation spelled out.

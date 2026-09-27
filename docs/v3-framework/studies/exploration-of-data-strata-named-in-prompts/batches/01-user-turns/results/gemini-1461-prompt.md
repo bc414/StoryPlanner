@@ -1,0 +1,5 @@
+- sources:
+  - Berlin Airlift | offered as a real-world analogy for the supply-by-crystal plan and something to draw inspiration from; put forward as a question, not a settled match | So it's like the Berlin Airlift? How can I draw inspiration? | first-named
+  - leaflets during the Korean War and Iraq | tentative suggestion of further real-world parallels to draw on, with the user unsure ('Maybe') | Maybe leaflets during the Korean War and Iraq? | first-named
+- order:
+- about: The user asks whether the siege supply mechanism resembles the Berlin Airlift and asks how to draw inspiration from it and from other real-world parallels such as wartime leaflet drops.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated Mali as already attached to AJ's sector and as arriving with her, as if they were already together. The user says the two must meet and get acquainted in chapter 1, with the reader meeting Mali through AJ. | Applejack and Mali have to meet and get to know each other in chapter 1 because Mali is an OC | Flat statement of a structural requirement with a reason given (Mali is an OC). It is not framed as disagreement, and it softens with a note that they might already know each other's names.
+- about: The user restates a constraint on the chapter 1 opening, that AJ and Mali meet on the page and the reader meets Mali through AJ, and allows that they may know each other's names beforehand because of AJ's merit-based rise.

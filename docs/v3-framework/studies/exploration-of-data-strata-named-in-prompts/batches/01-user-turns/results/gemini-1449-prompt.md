@@ -1,0 +1,4 @@
+- sources:
+  - my document | re-read it and base the analysis of alternatives on it | Please review my document again | referred-to
+- order:
+- about: The user asks the model to re-read their story document and propose creative alternative ways to resolve the Canterlot occupation, analyzing their effect on themes and plot, instead of the paradrop-and-rifles plan.

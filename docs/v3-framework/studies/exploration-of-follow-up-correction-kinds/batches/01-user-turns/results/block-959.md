@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Skyfall artisan defection idea as given and asks a new question about which existing characters in the story plan could fill a defecting, conscience-stricken, NGO-working but lost artisan role.

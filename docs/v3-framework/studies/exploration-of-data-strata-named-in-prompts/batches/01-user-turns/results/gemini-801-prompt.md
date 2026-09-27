@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's previous analysis by stating that changelings also generate renewable friendship and ambition like ponies, and that the real difference is that Chrysalis aims at world conquest while the ponies aim at survival and then liberation.

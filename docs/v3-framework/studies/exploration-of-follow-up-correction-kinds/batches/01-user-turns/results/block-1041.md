@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's industrial-history analysis and asks a new question: whether Resilience is the right opposite of Cynicism among the Elements of Liberty, and what runner-up terms exist and why.

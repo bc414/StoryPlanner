@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the subscriptions file the model asked to see and asks what can be drawn from it, following the model's suggestion without correcting anything.

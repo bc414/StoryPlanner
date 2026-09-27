@@ -1,0 +1,7 @@
+- sources:
+  - my notes, the codex entry labeled "Chrysalis's New Order" | provisional, not the intended name; just a bucket label for notes, so not to be treated as the nation's name | "just a bucket name for notes" | first-named
+  - Equestria at War (map and faction naming: "Changeling Lands" on the map, "Changeling Hegemony" as the faction) | reference information on what the published game calls the country and faction; not stated to be adopted or rejected | "the country appears on the map as Changeling Lands and the faction is called Changeling Hegemony" | referred-to
+  - the in-universe entity names ("Equestria", "Griffonian Republic", "Griffonian Empire", "Griffonian Reich", "Kingdom of Aquileia", "Aquileian Republic", "Skyfall Trade Federation", "Stalliongrad") | existing naming pattern in the story world that the new nation's name should be considered alongside and match in style | "The equivalent entity names in universe are" | first-named
+  - real life (real-world nation names) | general-knowledge comparison base for the model to draw on when explaining the candidate names | "also compare with real life" | first-named
+- order:
+- about: The user asks the model to propose and explain many candidate names for Chrysalis's nation state, with real-world comparisons, giving the note label, the EaW naming, and the story's existing in-universe country names as reference points.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to reason about how effective the cuddling arrangement would be, and what different use cases it would have, if the Pony were the big spoon and the Griffon the little spoon, without pointing at any body of material to draw on.

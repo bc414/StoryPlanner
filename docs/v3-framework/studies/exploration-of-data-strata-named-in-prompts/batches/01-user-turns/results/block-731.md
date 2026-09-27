@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about how newly created entities should get an Id, either by saving immediately so EF Core assigns one or by picking the next highest Id, so that notes can be associated with them, and points the model at no body of material.

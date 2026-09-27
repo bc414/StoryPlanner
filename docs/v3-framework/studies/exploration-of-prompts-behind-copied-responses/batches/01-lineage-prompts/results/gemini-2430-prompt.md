@@ -1,0 +1,7 @@
+- asks:
+  - confirm/check | asks whether the verification machines are used during every single transaction | "does this mean the verification machines are used during every transaction?"
+  - confirm/validate analogy | asks whether the verification machines are equivalent to credit card interchange fees | "They are the equivalent of interchange fees from credit cards"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the user proposes that verification machines run on every transaction and are analogous to credit card interchange fees, and asks the model to confirm this.
+- subject: How a story-world's "verification machines" function in transactions, compared to real-world credit card interchange fees

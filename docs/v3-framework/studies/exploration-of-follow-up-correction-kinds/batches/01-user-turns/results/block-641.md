@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - the model's premise about the user's cognition (my own name) | The model treated continuous immersion as what keeps a writer's story memory reliable and the user's cooled working memory after time away as a deficit needing external scaffolding. The user says breaks and task-switching bring new insight on return, and that immersion isn't a benefit to them. | "Actually, my subjective experience" and "I don't necessarily see continuous immersion in the task as a benefit" | Stated as a plain counter-claim from personal experience, opened with "Actually,", and softened by asking whether the phenomenon is real.
+- about: The user pushes back on the model's premise that time away from the story is a handicap, then asks whether entity-to-plot-point links work as foreshadowing planning and says they plan to finish layers 1–3 before designing FIDAnchors and irony notes.

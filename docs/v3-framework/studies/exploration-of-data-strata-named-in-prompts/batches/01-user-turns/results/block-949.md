@@ -1,0 +1,4 @@
+- sources:
+  - the author's own career path (destined to be an elite big-tech worker, instead a software engineer at a B2B semiconductor wafer fab equipment maker) | offered from memory as personal background for the model to fold into the commentary on conscientious tech workers | I was destined to be that elite tech worker but went to be a software engineer | first-named
+- order:
+- about: The author asks the model what social commentary the story should make about conscientious tech workers at companies with harmful business models dressed in a conscientious aesthetic, and adds their own career path as personal context.

@@ -1,0 +1,9 @@
+- sources:
+  - Mentor pairings already in the plan for Applejack (Henri), Twilight (Fleur Bloom), Pinkie Pie (Tally Mark) and Rarity (Flowing Current) | treat as settled parts of the story plan and build on them | Applejack has Henri as a mentor figure | referred-to
+  - Rainbow Dash's current mentor Reni | treat as under reconsideration, since the author calls its vanity-into-protection lesson a liability | although this is actually a liability | referred-to
+  - Mali in the Tzinacatl jungle as Rainbow's mentor, with the fake Daring Do and Ahuizotl encounter | treat as a tentative suggestion the author is floating, not settled | maybe Rainbow's mentor figure needs to be Mali | first-named
+  - Little Strongheart as Fluttershy's mentor | treat as the author's new proposal for the open Fluttershy slot, which the author is still working out | I think Little Strongheart should be it | first-named
+  - FiM (Fluttershy's Grace demonstration) | treat as already supplied by the show, so the new mentor doesn't need to build it | already inherent from FiM | referred-to
+  - Little Strongheart's canonical appearance in Over a Barrel | treat as the only canon development of her, thin enough to leave room to invent her | wasn't developed much beyond Over a Barrel canonically | referred-to
+- order:
+- about: The author lists the mentor figure for each of the Mane Six, reopens Rainbow Dash's mentor with a tentative Mali idea, and proposes Little Strongheart as Fluttershy's mentor because canon left her underdeveloped.

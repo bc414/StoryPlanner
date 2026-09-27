@@ -1,0 +1,87 @@
+- passages:
+  - 35 | abstract-thesis | declarative 'is not merely...but', abstract framing | defining honesty against posturing and comfortable lies | apart
+  - 3984 | abstract-thesis | defines 'Sincerity', conditional 'only works if' | naive honesty/sincerity in the show's logic | apart
+  - 3984 | casual-critique | 'doesn't really do a good job', trailing ellipsis | Applejack/Twilight scene not making sense | apart
+  - 3984 | abstract-thesis | 'This is because', flat declarative | mythic-fable baseline of honesty | run-in
+  - 3984 | moral-instructive-address | imperatives 'Don't lie', 'Stand behind your promises' | the moral takeaway for a child viewer | apart
+  - 3984 | rallying-collective | first-person plural 'We are going to get hurt' | honesty as hard truth in wartime | apart
+  - 3984 | terse-label | short flat sentence 'This is Realism.' | naming the prior idea as Realism | run-in
+  - 3984 | trailing-fragment | sentence cut off at 'unlike' | contrasting full disclosure, left unfinished | run-in
+  - 3985 | abstract-thesis | parallel clause 'So does Henri' | Applejack and Henri both hating posers | apart
+  - 3986 | narrative-worldbuilding | 'teaches...realpolitik', 'She learns' | Kemerskai's lesson to Applejack on posture | apart
+  - 3986 | quoted-aphorism | quotation marks, attribution 'Kemerskai says' | maxim that truth must be amplified, not just spoken | run-in
+  - 3987 | formulaic-equation | parenthetical '(Lie + Posture)', '(Truth + Roar)' | mapping propaganda/authenticity to formulas | apart
+  - 3991 | abstract-thesis | short flat definition | posture defined as maintaining a fake image | apart
+  - 3992 | abstract-thesis | parenthetical asides, 'is fundamentally dishonest' | honesty requiring acknowledgment of ambition | apart
+  - 4158 | first-person-speculative | 'I think in the unified GR...' | musing on synthesized religion and real-world poseur commentary | apart
+  - 4159 | outline-expository | header 'The Abuse (The Empire):' | Archons using Boreas to justify divine right | apart
+  - 4159 | illustrative-address | second-person 'You were poor because...' | illustrating how the doctrine controlled subjects | run-in
+  - 4159 | outline-expository | flat summary 'It was a tool of control.' | closing summary of the abuse | run-in
+  - 4159 | outline-expository | header 'The Synthesis (The Republic):', sub-bullets | Republic's synthesis of old gods with new civic roles | apart
+  - 4186 | abstract-thesis | 'For the Supremacists: They pretend to be...' | supremacists pretending to strength/nobility | apart
+  - 4186 | concrete-analogy | 'buys the leather jacket but is afraid to get in the mosh pit' | punk/skate poser analogy | run-in
+  - 4186 | abstract-thesis | lead-in 'Calling a Supremacist a Poser implies:' | framing the implied accusation | run-in
+  - 4186 | illustrative-address | quoted second-person 'You aren't actually strong' | the accusation stated directly | run-in
+  - 4225 | abstract-thesis | parenthetical 'lies, hiding the truth' | Celestia using posture to maintain harmony's stagnation | apart
+  - 4711 | narrative-worldbuilding | 'becomes popular in FJA Aquileia amongst...' | origin of the term poseur among FJA soldiers | apart
+  - 4711 | terse-label | parallel short sentences naming authentic/poseur | labeling FJA volunteer vs rebellious noble | run-in
+  - 4711 | narrative-worldbuilding | named example 'Verany is also a bourgeois poseur' | Verany's broken promise as poseur example | run-in
+  - 4711 | terse-label | short closing sentence on Discret | naming Discret the ultimate poseur | run-in
+  - 4802 | attributive-paraphrase | 'Henri says be honest about your ambition' | reporting Henri's advice | apart
+  - 4802 | conditional-hypothetical | 'It would be dishonest for a businessman to say...' | general principle on ambition and honesty | run-in
+  - 5424 | abstract-thesis | 'New fascism like the MPA invents fake news...' | fascism's fake news as response to lost dignity | apart
+  - 5424 | formulaic-equation | 'Plain truth...becomes hard truth', parentheticals | progression of truth concepts and Aquileia's limit | apart
+  - 5424 | abstract-thesis | 'Original element of honesty is...', 'This is naive because' | naive truth-speaks-for-itself concept critiqued | apart
+  - 5424 | rallying-collective | 'we have to fight back' | call to resist a predatory world | run-in
+  - 5424 | quoted-aphorism | dash-attribution 'learned from Kemerskai' | maxim that truth must be roared, not just spoken | apart
+  - 5424 | quoted-aphorism | dash-attribution 'affirmed from...Equestria succeeds' | maxim that truth must offer dignity, reached for | apart
+  - 5424 | historical-parallel | lists WWI/WWII, Weimar, 'national rally, Maga and brexit' | real-world parallels of dignity-driven destruction | apart
+  - 5424 | self-directive-note | 'That should be about anti conscription...' | planning note on a conscription theme | run-in
+  - 5424 | setting-fact | 'GR has mandatory conscription...', 'Empire has conscription for male griffons' | conscription policy facts of GR and Empire | apart
+  - 5424 | abstract-thesis | 'So the economy isn't everything...', 'orthogonal to strength' | concluding that culture and old harmony still matter | apart
+  - 5424 | terse-label | short fragment 'Strong to be merciful' | closing maxim | run-in
+  - 5472 | abstract-thesis | quoted idiom 'saying the quiet part out loud' | poseur's failure exposing the truth | apart
+  - 5623 | abstract-thesis | 'Advertisers who pay money to claim...are poseurs' | advertisers and sponsors as poseurs | apart
+  - 5623 | abstract-thesis | 'Product usage...is authentic' | authentic branding through usage | apart
+  - 5623 | illustrative-address | quoted 'Your work will speak for itself', 'You have to proliferate' | rejecting passive truth, urging active branding | run-in
+  - 5623 | terse-label | fragment 'Also data-driven reviews from independent studiers' | additional authentic source, reviews | apart
+  - 5684 | abstract-thesis | header 'Unearned vs. Earned:', 'artisans earn their individual status' | earned artisan status vs unearned nobility/nursery safety | apart
+- shifts:
+  - 35 | | |
+  - 3984 | abstract-thesis | casual-critique | turn to critiquing the show, informal phrasing and ellipsis
+  - 3984 | casual-critique | abstract-thesis | return to declarative explanation 'This is because'
+  - 3984 | abstract-thesis | moral-instructive-address | shift to imperative sentences addressing an implied child viewer
+  - 3984 | moral-instructive-address | rallying-collective | shift to first-person plural 'We are going to get hurt'
+  - 3984 | rallying-collective | terse-label | short flat sentence 'This is Realism.'
+  - 3984 | terse-label | trailing-fragment | sentence left uncompleted at 'unlike'
+  - 3985 | | |
+  - 3986 | narrative-worldbuilding | quoted-aphorism | direct quotation marks with attribution 'Kemerskai says'
+  - 3987 | | |
+  - 3991 | | |
+  - 3992 | | |
+  - 4158 | | |
+  - 4159 | outline-expository | illustrative-address | shift to second-person 'You were poor because...'
+  - 4159 | illustrative-address | outline-expository | return to third-person summary 'It was a tool of control.'
+  - 4186 | abstract-thesis | concrete-analogy | introduction of the leather-jacket/mosh-pit comparison
+  - 4186 | concrete-analogy | abstract-thesis | return to analytic lead-in 'Calling a Supremacist a Poser implies'
+  - 4186 | abstract-thesis | illustrative-address | embedded quoted second-person statement
+  - 4225 | | |
+  - 4711 | narrative-worldbuilding | terse-label | short parallel declarative sentences naming authentic vs poseur
+  - 4711 | terse-label | narrative-worldbuilding | return to full sentence naming Verany specifically
+  - 4711 | narrative-worldbuilding | terse-label | short concluding sentence about Discret
+  - 4802 | attributive-paraphrase | conditional-hypothetical | shift to conditional 'It would be dishonest for a businessman...'
+  - 5424 | abstract-thesis | formulaic-equation | parenthetical formula phrasing 'Plain truth...becomes hard truth'
+  - 5424 | formulaic-equation | abstract-thesis | return to declarative definitional statement
+  - 5424 | abstract-thesis | rallying-collective | shift to 'we have to fight back'
+  - 5424 | rallying-collective | quoted-aphorism | dash-attributed maxim 'learned from Kemerskai'
+  - 5424 | quoted-aphorism | historical-parallel | shift to listing WWI/WWII and real-world political examples
+  - 5424 | historical-parallel | self-directive-note | note-to-self phrasing 'That should be about...'
+  - 5424 | self-directive-note | setting-fact | shift to stating GR/Empire conscription policy facts
+  - 5424 | setting-fact | abstract-thesis | return to reflective synthesis 'So the economy isn't everything'
+  - 5424 | abstract-thesis | terse-label | closing maxim fragment 'Strong to be merciful'
+  - 5472 | | |
+  - 5623 | abstract-thesis | illustrative-address | embedded quotation and second-person imperative 'You have to proliferate'
+  - 5623 | illustrative-address | terse-label | fragment addendum 'Also data-driven reviews...'
+  - 5684 | | |
+- registers: abstract-thesis; casual-critique; moral-instructive-address; rallying-collective; terse-label; trailing-fragment; quoted-aphorism; formulaic-equation; first-person-speculative; outline-expository; illustrative-address; concrete-analogy; attributive-paraphrase; conditional-hypothetical; narrative-worldbuilding; self-directive-note; setting-fact; historical-parallel
+- whole: This item holds many registers rather than one, running from flat abstract-thesis definitions and quoted aphorisms to casual show-critique, moral-instructive address, rallying first-person-plural declarations, terse labels, and self-directive planning fragments, and while most passages stand apart across sentence or paragraph breaks, several notes slide from one register into another within the same run of sentences with no break at all.

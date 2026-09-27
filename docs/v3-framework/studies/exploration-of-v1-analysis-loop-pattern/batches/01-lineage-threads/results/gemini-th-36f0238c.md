@@ -1,0 +1,22 @@
+- steps:
+  - author | opens with research question plus scope worry | asks for real-world water-transport analog, raises repetition/scope concern about multiple bat pony factions, restates existing plan for Mali's arc across chapters 1/5/11 | gemini:113 prompt
+  - model | answers and analyzes | gives historical basis (balsa rafts), a differentiation framework for the bat pony groups, a verdict that the concern is manageable, a resolution for Mali's arc, a chapter-title suggestion, and a revised chapter flow | gemini:113 response
+  - author | corrects and drafts an outline | fixes a chapter-number mixup, lays out a full draft outline for chapters 11-17, asks for a pacing/repetition critique | gemini:114 prompt
+  - model | critiques and restructures | flags redundancy and pacing risks chapter by chapter, proposes merges, delivers a tightened revised outline | gemini:114 response
+  - author | brings a setting decision | proposes staging the debate chapter at Twilight's Castle in Ponyville, asks what implications follow | gemini:115 prompt
+  - model | works out symbolic implications | analyzes geography, the map-table symbolism, shifted power dynamics, foreshadowing, and a romance layer tied to the setting | gemini:115 response
+  - author | brings his own draft beats and asks for elaboration | describes his idea for chapter 11's victory-then-betrayal twist and chapter 12's rescue montage, asks the model to elaborate | gemini:116 prompt
+  - model | elaborates the drafted beats | breaks both chapters into tactical and emotional beats, adds thematic analysis and a title suggestion | gemini:116 response
+  - author | asks a structural and comparative question | asks whether to split or combine the two chapters and how the untitled second-half chapters compare thematically to the Elements-of-Harmony-titled first half | gemini:117 prompt
+  - model | gives a verdict and a title proposal | recommends splitting, proposes a full replacement title set for chapters 9-16 with a comparison table | gemini:117 response
+  - author | adds a new chapter and gives title feedback | inserts a Crystal Empire relief chapter before the siege, asks where the split falls, approves some proposed titles and rejects others, asks for deeper alternatives | gemini:118 prompt
+  - model | restructures and offers alternatives | breaks the new chapter split into content beats, supplies multiple title alternatives with reasoning for each disputed chapter | gemini:118 response
+  - author | refines his rejections with reasoning | explains why specific titles conflict with character knowledge or tone, asks for options tied more directly to setting, Rommel-style honor, and meritocracy themes | gemini:119 prompt
+  - model | supplies tailored alternatives | gives per-chapter title options matched to the stated constraints and a recommended sequence | gemini:119 response
+  - author | asks for a different angle | requests more title suggestions drawn specifically from HOI4 terminology | gemini:120 prompt
+  - model | supplies game-vocabulary titles | offers HOI4 mechanic-based titles with dual literal/thematic meanings and a final sequence | gemini:120 response
+- kept:
+  - note 1330 | pasted whole from this reply | keeps the model's proposed tactic of Tzinacatl rafts ferrying the commando force through rapids at night, filed under PlotPoint "Blasting the Mountain and Navigating the Rapids"
+  - note 4497 | pasted whole from this reply | keeps the model's Balsa Raft historical-inspiration explanation, filed under Subject "Tzinacatl Magic/Alchemy/Biology"
+- brought: The author brought forward established plan elements (Mali's character arc and the Tzinacatl tribe's place in the bat pony lore) together with a research question about real-world water-transport analogs to open the thread.
+- loop: Across the thread the author repeatedly brings draft outlines, setting choices, and rounds of title feedback for the model to critique, restructure, or generate alternatives for, but the planning database only retained two worldbuilding fragments from the very first reply (the rapids-crossing tactic and the balsa-raft inspiration), while the entire later multi-round chapter-title negotiation left no trace in the plan.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes that griffon plane-forging and the Wings of Dew spell share a common origin as an instinctive wing-control interface, then asks a general question about how an agile plane manipulates wind compared with an eagle's flight.

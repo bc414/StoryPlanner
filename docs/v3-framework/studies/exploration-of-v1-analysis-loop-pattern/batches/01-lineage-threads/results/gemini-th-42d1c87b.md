@@ -1,0 +1,10 @@
+- steps:
+  - author | poses application question | asks where Turkey and Saudi Arabia sit within the established Celestia/Applejack ideological framing | opening of the excerpt
+  - model | maps and diagnoses | assigns Turkey and Saudi Arabia roles ('Poisoned Allies', Archon Eros proxy), builds a rights matrix, sketches a 'Celestia strategy' vs 'Applejack strategy' policy contrast | first response
+  - author | pivots to new domain | asks how Harmonic Capitalism rhetorically counters people who reject markets for a command economy | second prompt
+  - model | builds rebuttal structure | diagnoses the 'Armchair Communist' grievance, offers a competence-based rebuttal, a syndicalist alternative, and a 'Cutie Mark' argument against standardization | second response
+  - author | broadens the question further | asks for a survey of current real-world Western Left positions and their refutation via cutie-marks/terroir as human capital | third prompt
+  - model | taxonomizes and refutes | sorts the Left into three factions (Statist, Redistributive, Identity), refutes each through the human-capital/terroir lens, closes with a synthesis manifesto
+- kept:
+- brought: The author brought the story's existing Harmonic Capitalism / Capital Rights / Cutie Mark-Terroir framework and applied it in turn to real-world geopolitical actors, an economic-ideology critique, and a survey of contemporary Western Left factions.
+- loop: The author repeatedly hands the model a new real-world political or economic category to run through the already-established in-world framework, and the model returns an extended analytical mapping each time, but none of this exploratory analogy-work is picked up by the planning database in this stretch.

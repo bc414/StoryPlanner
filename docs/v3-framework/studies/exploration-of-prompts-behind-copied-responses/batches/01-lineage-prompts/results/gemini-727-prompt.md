@@ -1,0 +1,8 @@
+- asks:
+  - summarize | asks for an overview of the features of NotebookLM that have not yet been covered | "Give me an overview of the rest of notebook lm's features"
+- supplies:
+- shaping:
+  - reply should take the form of an overview (a survey/summary rather than deep dive) | "overview"
+  - reply should cover only the remaining/uncovered features, implying some were already discussed | "the rest of"
+- openness: Open: the message names no specific features, options, or claims to check, just asks broadly for the remaining ones to be covered.
+- subject: Overview of NotebookLM's remaining features

@@ -1,0 +1,8 @@
+- relations:
+  - 1239|1511|one continues the other in time or as a stage of the same seduction: the fancy dress is a lure to draw males in, and the other note gives what follows, males cooking to impress and then being let into the bed|seduction tactic ... make male griffons cook to impress|implicit
+- outward:
+  - 1239|the lionesses' method and the tableau de chasse, held elsewhere|After building confidence in their method and using their cutie marks for the tableau de chasse
+  - 1239|the seals that carry the lionesses' cutie marks, and what they are used for|their cutie marks go on the seals
+  - 1239|Manehattan's fashion and its pony culture, a place and custom outside this item|In Manehattan, the ponies wear clothes for style
+  - 1511|the divine hierarchy, a lore structure of order between the sexes or with the divine, held elsewhere|This destroys the divine hierarchy
+- whole: The two notes sit near each other on the theme of the lionesses' seduction and deviance, but they are mostly separate entries with only a loose implicit link.

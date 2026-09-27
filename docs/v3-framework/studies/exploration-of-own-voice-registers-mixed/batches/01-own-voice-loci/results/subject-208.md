@@ -1,0 +1,21 @@
+- passages:
+  - note 16 | terse definitional statement | short flat equivalence claim, no reasoning given | claims that core concepts across four societies are the same thing under different names | apart
+  - note 4001 | descriptive-evaluative worldbuilding | successive factual/evaluative statements, third person, no connectives marking contrast | Elements of Harmony and how Aquileians judge them | apart
+  - note 4002 | terse definitional statement | single short listing sentence, no elaboration | Griffonian Republic's civic virtues and symbols | apart
+  - note 4126 | analytical-expository argument | claim followed by 'because' clause laying out mechanism | need for active balance to avoid tyranny | apart
+  - note 4126 | aphoristic idiomatic assertion | short contrastive sentence opening with 'But', generic 'you', idiom 'bottle up' | accelerants can no longer be contained | apart
+  - note 4127 | reporting/expository summary of a text's claim | third-person account of what a named paper argued, with quoted terms | Coltbert's paper accusing Equestria of a 'cult of being' | apart
+  - note 4127 | terse definitional statement | flat 'X is defined as Y' construction | definition of feudalism | apart
+  - note 4127 | logical inference statement | opens with 'Therefore', future-tense declarative | Aquileia positioned as Aristocracy of Doing | apart
+  - note 4127 | analytical critique with evaluative judgment | evaluative verbs ('correctly identified', 'missed the fact'), jargon terms, 'However' contrast | critique of Coltbert/FJA's Being-vs-Doing binary and the Wallflower tragedy | apart
+  - note 4127 | narrative-analytical character account | sequence of 'She...because...' action-and-motive sentences about a named character, capped by an evaluative diagnosis | Chrysalis building a Cult of Doing and its thermodynamic flaw | apart
+  - note 4127 | narrative-analytical character account | continued action/argument sentences about a named character's reasoning | Twilight's refutation via the crystal heart and love studies | apart
+  - note 4347 | terse definitional statement | two short flat sentences, no elaboration or contrast | balance of red and pink love across creature types | apart
+- shifts:
+  - note 4126 | analytical-expository argument | aphoristic idiomatic assertion | shift marked by contrastive 'But', switch to generic 'you', and a short idiomatic closing sentence
+  - note 4127 | reporting/expository summary of a text's claim | terse definitional statement | shift marked by dropping the paper-reporting frame for a flat 'is defined as' construction
+  - note 4127 | terse definitional statement | logical inference statement | shift marked by 'Therefore' and a move to future-tense declaration
+  - note 4127 | logical inference statement | analytical critique with evaluative judgment | shift marked by return to paragraph-length reporting, 'However', and evaluative verbs like 'correctly identified'
+  - note 4127 | analytical critique with evaluative judgment | narrative-analytical character account | shift marked by 'Meanwhile' and a switch to a named character as the subject of successive action sentences
+- registers: terse definitional statement; descriptive-evaluative worldbuilding; analytical-expository argument; aphoristic idiomatic assertion; reporting/expository summary of a text's claim; logical inference statement; analytical critique with evaluative judgment; narrative-analytical character account
+- whole: Across these six notes the author's own writing moves through several distinct registers — flat definitional statements, descriptive-evaluative worldbuilding, reasoned argument, a closing aphorism, academic critique, and narrated character reasoning — with most notes holding a single register apart on its own, while note 4126 shifts once and note 4127 shifts repeatedly, each shift marked by a connective ('But', 'Therefore', 'However', 'Meanwhile') or a change from static definition to reasoning to narrated action, always at a clean sentence break rather than run into another register mid-sentence.

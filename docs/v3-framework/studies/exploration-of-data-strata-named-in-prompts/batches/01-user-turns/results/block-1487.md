@@ -1,0 +1,10 @@
+- sources:
+  - L+D notes | hold the evidence for the universal thematic proposition; each should be tagged with which proposition it is evidence for, and the proposition itself does not live there | "the evidence for the proposition lives in L+D notes" | referred-to
+  - the user's own earlier statement in this conversation | the model misread it; take the user's correction as what was meant | "I didn't mean to say the universal thematic proposition lives in L+D" | referred-to
+  - PE+S+W track | asserts established truth; taken as described | "PE+S+W asserts established truth" | referred-to
+  - PE+S+R, PE+L+W and S+R tracks | boundaries unclear and undecided; the user wants them disambiguated and does not yet know what belongs in each | "still not clear on what should go in a S+R track" | referred-to
+  - PE+L+R and NE+L+R tracks | should detail what the user wants the reader to conclude, without telling them; PE+L+R covers changing the reader's opinion and NE+L+R covers what the evidence shows | "both the L+R tracks should be detailing what I want the reader to conclude without telling them" | referred-to
+  - plot point track | should receive what must be delivered by showing rather than telling, though it does not say how | "This then informs the plot point on what needs to be delivered through showing" | referred-to
+  - Chrysalis's Prequel | the author's account of how it opens, used as an example of evidence that shows the system turning a noble goal into tyranny | "her Prequel starts with her with a noble goal" | referred-to
+- order:
+- about: The user corrects the model's reading of where thematic evidence lives, asks for clear boundaries among the S+R, L+R and plot point tracks, and argues that both L+R tracks should record what the reader is meant to conclude through shown evidence rather than stated.

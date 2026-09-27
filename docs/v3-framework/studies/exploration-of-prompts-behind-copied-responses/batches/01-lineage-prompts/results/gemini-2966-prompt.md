@@ -1,0 +1,6 @@
+- asks:
+  - explain | describe what mechanisms or safeguards Google has in place to prevent someone from repeatedly creating new accounts to claim the same free credit | "What does Google have in place to stop individuals from simply creating a new Google account"
+- supplies:
+- shaping:
+- openness: Open: the message poses a plain factual question with no named answer, no options to choose between, and no stated claim to verify — it just asks what safeguards exist.
+- subject: Google's anti-abuse measures against creating multiple accounts to repeatedly claim a roughly $300 sign-up credit

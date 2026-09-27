@@ -1,0 +1,9 @@
+- asks:
+  - analysis | trace and analyze how the character Chrysalis's characterization and motivations changed over the course of developing the story plans for 'The Lioness of Tall Tale' | "thorough analysis of the evolution of Chrysalis's characterization and motivations throughout the development"
+- supplies:
+- shaping:
+  - cover the full developmental history, not just the current version | "throughout the development of my story plans"
+  - be thorough/in-depth rather than a brief summary | "thorough analysis"
+  - write in a conversational, dialogue-like tone rather than a formal report or list | "Answer like a conversation response"
+- openness: Open: the message names no particular arc, trait, or conclusion about Chrysalis and simply asks for an open-ended analytical account of how her characterization and motivations evolved.
+- subject: The developmental evolution of a character named Chrysalis's characterization and motivations within the user's story plans for "The Lioness of Tall Tale"

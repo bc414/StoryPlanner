@@ -1,0 +1,12 @@
+- sources:
+  - permanent revolution by example | the new direction for Stalliongrad that the user prefers as less cynical; the model is to expand on it and work out its consequences | sounds and feels significantly less cynical | referred-to
+  - whatever I was previously basing my stalliongrad critiques on | earlier, more cynical basis for the user's Stalliongrad critiques; treated as superseded by the new framing | whatever I was previously basing my stalliongrad critiques on | referred-to
+  - actual history | reference to sort the expansion by, separating what is grounded in real history from speculation and rhetoric | rooted in actual history or speculation or rhetoric | referred-to
+  - materialist historicist analysis | framework to derive the expansion from, showing what follows from it | what follows from materialist historicist analysis | referred-to
+  - pure marxism | comparison point, described by the user as more cynical; the model is to say how the new direction differs from it | different from pure marxism which is more cynical | referred-to
+  - ASOIAF conventions | genre comparison point for the cynical approach, to set against the new direction | more like ASOIAF conventions | referred-to
+  - my old notes | body of existing notes to be checked against the new direction, with the ones it invalidates identified | Which of my old notes would be invalidated | referred-to
+  - the new ontology/new direction | the standard the old notes are tested against, and the basis for working out the post-Chrysalis, post-Great War alliance and global order | invalidated by the new ontology/new direction | referred-to
+- order:
+  - the new ontology/new direction over my old notes | old notes are to be checked for invalidation by the new direction
+- about: The user welcomes the less cynical Stalliongrad reading as a new direction and asks the model to expand it by sorting history from speculation and rhetoric, contrasting it with pure Marxism and ASOIAF-style cynicism, drawing out its implications for the post-war global order, and identifying which old notes it invalidates.

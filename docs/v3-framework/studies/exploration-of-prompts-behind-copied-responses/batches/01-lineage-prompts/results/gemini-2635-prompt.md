@@ -1,0 +1,10 @@
+- asks:
+  - analyse | analyse Twilight's flashback to the night after the second battle of Tall Tale | "give an analysis of Twilight's flashback"
+  - connect | tie her work-related stress in that scene to her long-standing pattern of spiraling over self-imposed/imaginary goals | "connecting the work-related stress with her historical spiraling"
+  - connect | tie that spiraling pattern to her inventing the sleep spell as a way to escape or bypass the stress | "inventing the sleep spell to bypass it all"
+- supplies:
+- shaping:
+  - must center the analysis on the named flashback scene | "flashback to the night after the second battle of tall tale"
+  - must draw the causal/thematic link between work stress, habitual spiraling, and the sleep spell's origin as an avoidance mechanism | "crucially, connecting"
+- openness: Leans toward an answer it names: the message already frames the causal chain it wants explored (work stress leading to habitual spiraling over imaginary goals leading to the sleep spell as a bypass), asking the model to build the analysis around that framing rather than leaving the interpretation open.
+- subject: Psychological analysis of a Twilight Sparkle flashback scene, linking work stress, her pattern of spiraling over self-imposed goals, and her invention of a sleep spell as an escape from it.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a worldbuilding inference, that the drug tribes' jaguar/night theology justifies nighttime urban drug sales because griffons treat daytime sales as taboo, and asks the model to confirm it, without pointing to any body of material.

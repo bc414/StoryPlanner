@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model, as a new open question following the TLTT and ASOIAF comparison, to name other fantasy epics of similar scale and state the propositions each makes, without pointing at any particular material to draw on or set aside.

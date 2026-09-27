@@ -1,0 +1,19 @@
+- steps:
+  - the author | advances the plot | Trimmel's defeat, surrender, POW assignment, and the Elvir Roland/Tall Tale surrender chain leading to the Vanhoover push | opening message of the thread
+  - the author | asks for scene guidance | how the Applejack–Trimmel POW-camp visit and Trimmel–Thorax meeting should play out | end of the opening message
+  - the author | corrects a category before it is used | clarifies pony bauleiters are industrial specialists, distinct from punch-down statthalders, setting up a mistaken-identity tragedy | tail of the opening message
+  - the model | analyzes and drafts | character dynamics for the POW meeting, the Tall Tale surrender scene, and a statthalder-vs-bauleiter taxonomy with a summary table | reply to the opening message
+  - the author | questions character consistency | whether Trimmel would know or mention the bauleiter/statthalder nuance, proposes a blunt in-story line, asks if Thorax would object | second prompt
+  - the author | proposes a worldbuilding hypothesis | how Thorax's Harmonist movement survives five years underground via an abundance-economy argument | same second prompt
+  - the model | elaborates and confirms | explains why Trimmel omits the nuance tactically, contrasts it with Thorax's restorative-justice view, and details the Harmonist movement's mechanics and 1007 purge | reply to second prompt
+  - the author | brings a new plan beat and a timing question | Celestia's white peace and use of the bauleiter deaths as an argument, asking how to justify the delayed reveal | third prompt
+  - the model | drafts the mechanism | fog-of-war and forensic-lag explanation plus a structured confrontation scene, naming Thorax as the intel source | reply to third prompt
+  - the author | stress-tests plausibility | questions whether Trimmel's silence holds up given his meritocratic ideals, offers several competing explanations for why he wouldn't warn Applejack | fourth prompt
+  - the model | resolves the tension | argues Trimmel holds pony collaborators in contempt rather than solidarity, explains the tactical silence and the mistaken 'ponies are soft' assumption | reply to fourth prompt
+  - the author | supplies backstory corrections and requests a revision | Severyana history, POW-camp rehabilitation detail, and Thranx's moral refusal and assassination, asking the model to update Trimmel's stance | fifth prompt
+  - the model | revises the character portrait | integrates the new details into an updated account of Trimmel's peace of mind, his contempt for bauleiters, his advice to Applejack, and Thorax's disagreement | reply to fifth prompt
+- kept:
+  - note 1447 | the author's own words in this record | keeps the Trimmel–Elvir surrender exchange (codenames, Thranx's death, agreement to surrender) from the opening message, entered as a PlotPoint
+  - note 2524 | the author's own words in this record | keeps Trimmel's line about not losing the respect of the ponies who look up to her, entered as a Link
+- brought: The author brought forward an already-developed stretch of plot (Trimmel's defeat, surrender, and POW placement) plus new subplot elements involving Elvir Roland and Thranx, and a correction to the story's terminology distinguishing pony bauleiters from statthalders.
+- loop: The author repeatedly advances or corrects plot and character logic and asks the model to test its plausibility or dramatize it, the model returns analysis, taxonomies, and scene mechanics across five exchanges, but the planning database kept only the author's own phrasing from the very first message — the surrender dialogue and one memorable line — leaving the model's extended analysis and later revisions unrecorded.

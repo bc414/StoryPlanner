@@ -1,0 +1,9 @@
+- relations:
+  - 851 | 852 | 852 presupposes 851: the corruption acts on the friendship-derived medicine that 851 says the plants produce, and continues it in time by turning it toward combat | Chrysalis corrupted the medicine, distilling it | implicit
+  - 851 | 1683 | 1683 plans the on-page delivery of what 851 states as the plants' function: friendship harvested into medicine appears as slow delivery of pink love that works as rehab | friendship plants; slow delivery of pink love | implicit
+- outward:
+  - 852 | Chrysalis, an agent or faction held elsewhere in the world | Chrysalis corrupted the medicine
+  - 852 | the combat drugs jaeger geist and panzer haut, which are presumably described elsewhere | combat drug additives jaeger geist and panzer haut
+  - 1683 | the lore of pink love and red love, and red love addiction, held elsewhere | pink love ... red love addiction
+  - 1683 | the Tzinacatl people and their traditions, beyond this technology | Tzinacatl natural alchemy inspired by their traditional friendship plants
+- whole: By content these notes hang together as a chain from what the medicine is, to its corruption, to its planned use as rehab, though none of them points at another in words.

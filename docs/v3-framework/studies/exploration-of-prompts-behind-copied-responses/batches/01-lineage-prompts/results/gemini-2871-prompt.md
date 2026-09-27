@@ -1,0 +1,9 @@
+- asks:
+  - develop | asks whether Celestia could have had a genuine, years-long friendship with Grover III expressed through letters until his death | "What if Celestia felt genuine friendship with Grover III and exchanged letters for several years until he passed away"
+  - justify | asks the model to consider why such a friendship makes sense, citing Grover III's role as a peer head of state who brought peace and prosperity | "Because he was a peer head of state who brought peace and prosperity to the Griffonian Empire"
+  - develop | asks whether Celestia would have a stable, centuries-long relationship with Dragon Lord Torch | "would Celestia have some sort of stable relationship with Dragon Lord Torch over the centuries"
+  - explain | asks the model to account for why dragons don't launch full organized attacks on Equestria, proposing a mechanism of isolated incidents but no coordinated assault due to mutual respect | "perhaps there are isolated incidents but not a full organized attack due to a stable respectful acknowledgement"
+- supplies:
+- shaping:
+- openness: leans toward an answer it names, proposing that Celestia had genuine friendship with Grover III and a stable respectful relationship with Dragon Lord Torch, with reasons given for each, and asking the model to develop these premises
+- subject: Celestia's long-term diplomatic relationships with the griffon emperor Grover III and Dragon Lord Torch in an MLP worldbuilding project

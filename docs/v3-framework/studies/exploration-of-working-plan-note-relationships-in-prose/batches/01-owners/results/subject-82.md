@@ -1,0 +1,20 @@
+- relations:
+  - 1811|1809|1811's name etymology (will/intend + transduce into sound) restates and grounds the plain function stated in 1809|transduces (converts from one form to another) a creature's intent into acoustic sound / It transduces a creature's intent into acoustic sound|implicit
+  - 1809|1812|1812 gives the mechanism and reason for how intent becomes sound: intent is universal in the magical vector space and is rendered into target-language sound waves|The intent... is universal in the "magical vector space"|implicit
+  - 1812|1825|the name-preserving behaviour follows from the intent-based mechanism: because it works on intent, not literal wording, names stay as proper nouns|using intent, not literal translation|implicit
+  - 1809|1825|1825 draws a consequence from the intent-transducing function stated in 1809|transduces a creature's intent / it is using intent|implicit
+  - 1742|1812|1742's forging by projecting intent into the crystal presupposes the magic-as-ambition-affecting-the-world account in 1812|projecting intent through the cavity magnetron / magic is ambition that affects the real world|implicit
+  - 1806|1825|tension: 1806 describes translating programmed languages into the mother tongue, while 1825 says it does not translate literally but uses intent|translate all programmed languages / intent, not literal translation|implicit
+  - 1806|1336|1336 gives the reason for the invention that 1806 states as fact: the Republic built it to solve the language barrier|invented by the Griffonian Republic / The GR invented the Universal Translator to solve the language barrier|implicit
+  - 1806|1820|1820's work of making the concept function for a further linguistic group is what would make languages 'programmed' as 1806 has it|make it work for Cloudburian / all programmed languages|implicit
+  - 1742|1827|1827's thematic claim that the technology is forged from ambition to understand is an instance of 1742's charitostatic desire to promote cross-cultural understanding in the forging|forged from the ambition to understand someone else / desire to promote cross cultural understanding|implicit
+  - 1336|1827|1827 recasts the invention purpose of 1336 as understanding, set against the Skyfall translator of control and division; 1336's aim is pan-griffonian identity|foster the pan-griffonian identity / technology for understanding|implicit
+- outward:
+  - 1814|a griffon-specific special research project in the EaW canon, held elsewhere|special research project in EaW
+  - 1820|the Yale translator concept, an earlier design this one builds on|took the Yale translator concept
+  - 1820|Kemerskai and his peers, and the Cloudburian linguistic group, held elsewhere|Kemerskai and his peers ... Cloudburian
+  - 1827|the Skyfall translator, a separate technology built for control and division|the Skyfall translator
+  - 1336|the Griffonian Republic and pan-griffonian identity, held elsewhere|The GR ... pan-griffonian identity
+  - 1812|the world's magic rules and the magical vector space, lore held elsewhere|magical vector space
+  - 1742|the cavity magnetron and crystal as forging components, and griffon magic|cavity magnetron into the crystal
+- whole: Most notes hang together around one intent-based mechanism, its invention and its theme, though the canon and history notes lean on material held elsewhere and some notes sit side by side without bearing on each other.

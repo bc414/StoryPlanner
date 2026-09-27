@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's historical rent-seeking examples and moves on to a new request, asking for an analysis of the canon episode Where the Apple Lies through their Applejack's-parents backstory, and setting out their own idea of Filthy Rich as a Skyfall-educated figure who later becomes a Harmonic Capitalist.

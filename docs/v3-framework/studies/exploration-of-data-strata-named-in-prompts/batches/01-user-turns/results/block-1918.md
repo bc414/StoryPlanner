@@ -1,0 +1,5 @@
+- sources:
+  - what the user imagined for chapter 6 (Fluttershy already in action helping animals, Henri arriving already knowing she's the animal expert and calling the changeling POWs rabid animals) | the author's own intended version; the model is to weigh it as a candidate, not treat it as settled | I imagined chapter 6 opening with Fluttershy already in action | first-named
+  - discovery in the start of chapter 6 (the model's preceding option) | the alternative to compare the user's version against, not yet accepted or rejected | How does this stack up against discovery in the start of chapter 6 | referred-to
+- order:
+- about: The user offers their own vision for opening chapter 6, with Fluttershy already at work and Henri arriving to call the changeling POWs rabid animals, and asks the model to compare it with the option of putting the self-discovery at the start of that chapter.

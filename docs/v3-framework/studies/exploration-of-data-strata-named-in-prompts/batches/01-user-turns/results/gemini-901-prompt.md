@@ -1,0 +1,9 @@
+- sources:
+  - the model's previous turn, its classification of the Oranges as proto-Chrysalis and Henri as a city figure | doubted or corrected; not to be taken as settled, with the author's facts replacing it | "I'm not sure the Oranges should be classified as proto-Chrysalis" | referred-to
+  - the author's own statements about Henri (a Gascon, as country as Applejack) | treat as true and use to correct the model's characterization | "Henri is just as "country" as Applejack (he's a Gascon)" | first-named
+  - the Harmonic Capitalism town hall, Twilight's reading of it | treat as an established story event and use as the model for Applejack's parallel reading | "Twilight interprets the Harmonic Capitalism town hall as removing the guilt" | referred-to
+  - chapter 1 of the story, Applejack at the machine gun killing hundreds of changelings | treat as established backstory that Applejack's arc should build on | "she killed hundreds of changelings at the machine gun in chapter 1" | referred-to
+  - the author's account of the Oranges hosting the Apple and Pear families as refugees in Manehattan | treat as true current story state, overriding the model's framing | "They are currently hosting the entire Apple and Pear families as refugees in Manehattan" | first-named
+- order:
+  - the author's own statements about Henri and the Oranges | over the model's previous turn, which is corrected | "Actually Henri is just as "country""
+- about: The author corrects the model's previous suggestions about Henri and the Oranges using story facts they know, and proposes that Applejack, like Twilight, should read the Harmonic Capitalism town hall as freeing her from equating strength and ambition with becoming a soulless poseur.

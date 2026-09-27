@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's analysis and asks for a new comparative analysis of the story's Zebrican setup against the historical Atlantic slave trade in West Africa, without disputing anything the model said.

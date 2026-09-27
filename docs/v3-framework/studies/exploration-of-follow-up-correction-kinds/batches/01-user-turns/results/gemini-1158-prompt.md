@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about why Japan turned on China rather than Russia in WWII, building on the model's account of the Russo-Japanese War without challenging anything in it.

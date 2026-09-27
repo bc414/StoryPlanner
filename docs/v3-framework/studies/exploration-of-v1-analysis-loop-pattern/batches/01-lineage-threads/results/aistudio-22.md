@@ -1,0 +1,28 @@
+- steps:
+  - author | upload | an initial worldbuilding document, uncaptured | opening of the conversation
+  - author | instruct | a directive to sort events chronologically then list non-history concepts separately | right after the first upload
+  - model | outline | a chronological list of historical eras followed by thematic concept headers | first reply
+  - author | re-upload | a revised version of the document | after the first outline
+  - model | re-outline | an updated chronological-plus-concept header list matching the revision | after the second upload
+  - author | re-upload | a further revised document | after the second outline
+  - model | re-outline | a more descriptive, elaborated version of the same chronological-plus-concept headers | after the third upload
+  - author | paste | a block of thematic and political essay material about the story's core allegory, pasted directly as message text | mid-conversation after three rounds of outlining
+  - model | synthesize | a table-of-contents style list of section headers distilling the pasted essay material into themed steps | immediately after the paste
+  - author | upload | another document | after the synthesis
+  - author | set-taxonomy | four extraction priorities: statecraft evolution, instruments of coercion, trauma/loyalty psychology, species-class power dynamics | right after that upload
+  - author | re-upload | an updated document | after stating the four-priority taxonomy
+  - author | repeat-directive | restates the same four-priority taxonomy unchanged | after the second upload in this round
+  - model | categorize | document content sorted into named buckets under the four stated paradigms | after the repeated directive
+  - author | upload | another document | after the first categorization
+  - author | swap-taxonomy | a new four-priority scheme: chronology, demographics, system mechanics, dialectics | after that upload
+  - model | categorize | content sorted into buckets under the new four paradigms | after the taxonomy swap
+  - author | upload | another document | after the second categorization
+  - author | upload | a second document in the same turn, with no new directive given | immediately following
+  - model | categorize | an expanded bucket set following the established four-paradigm scheme, now with more entries per bucket | after the two uploads
+  - author | upload | another document | after the expanded categorization
+  - model | recategorize | a self-devised, more elaborate seven-paradigm scheme, adding epistemological and meta-narrative categories, applied without a new author directive | after the upload
+  - author | upload | another document | after the recategorization
+  - model | categorize | a further expanded and refined bucket set under the same seven-paradigm scheme | final reply of the stretch
+- kept:
+- brought: The author brought a growing worldbuilding document that they repeatedly re-uploaded in revised form, together with successive sorting taxonomies and one pasted block of thematic essay notes, asking the model to produce categorized indexes of the material.
+- loop: The loop is: author supplies a new or revised version of the source document plus a sorting lens, and the model returns a compressed categorized index of that same material under that lens; across the stretch the taxonomy itself evolves (from a simple chronology into a multi-paradigm scheme the model elaborates on its own), but no note from any of these exchanges is traced into the planning database, so the activity functions as repeated re-indexing of an external document rather than content that gets kept in the plan.

@@ -1,0 +1,9 @@
+- asks:
+  - specify | dictate how the rescue scene should unfold, giving a concrete sequence for the model to build into the story | "I imagined it like Twilight teleports them both first out of active fire..."
+  - clarify | supply the underlying logic for Henri's line to AJ so the model treats it as consistent rather than a plot hole | "Henri isn't giving AJ outdated info. I imagined he knows there is a crater..."
+- supplies:
+  - idea sketch | a revised sequence for a scene: Twilight teleporting herself and AJ out of active fire into a city barracks, an emotional aftermath conversation, and AJ giving Twilight a choice between going home or staying to fight | a few sentences
+  - idea sketch | backstory logic explaining Henri's knowledge (a crater, a failed contact attempt, AJ reporting she's stuck) that justifies his "don't move" order | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the message lays out the specific scene sequence and the specific backstory logic it wants used, rather than posing an open question or offering alternatives.
+- subject: Revising a rescue scene between Twilight and AJ, and clarifying why Henri tells AJ not to move

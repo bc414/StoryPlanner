@@ -1,0 +1,10 @@
+- asks:
+  - analyse | give a fresh analysis of the planned chapter/scene that factors in the stated context of 13.9 | "Please give another analysis taking into account the context of 13.9"
+- supplies:
+  - story context summary | recap of where Twilight and Applejack stand: rifle finished, their reunion after separate war-effort roles, their letters-as-correspondence, friends teaching them safe passion, their status as an established chasseur pair, and the upcoming love-donor run for ammo canisters and morale cakes | a paragraph
+- shaping:
+  - must take into account the chapter-13.9 context specifically | "taking into account the context of 13.9"
+  - must factor in each listed plot element (rifle completion, reunion, letter correspondence, safe-passion coaching, established chasseur-pair status with 4.4/6.9/9.18 as evidence, the love-donor canister run) | the enumerated details given in the message
+  - framed as redoing/supplementing a prior analysis rather than a first pass | "give another analysis"
+- openness: leaves the answer open, supplying context and asking for an analysis without naming what conclusion it should reach
+- subject: a request to re-analyze an upcoming story chapter (Twilight and Applejack's reunion and love-donor ammo run) in light of prior chapter 13.9's events

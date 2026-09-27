@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | plan export | a full story-planning document, described as 153,990 words but with no text captured in the record | full document (contents not captured, placeholder only)
+- shaping:
+- openness: The message contains no visible instruction or question at all — only the attachment placeholder — so it leaves entirely open what is being asked of the model.
+- subject: Submission of a large story-plan export document with no accompanying instruction text captured

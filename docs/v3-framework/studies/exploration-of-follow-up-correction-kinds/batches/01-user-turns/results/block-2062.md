@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's survey of demographics and the noblebright spectrum to ask for comparable fantasy works, then develops a new strategy-game idea with Porygon-like creatures and revises their own design so the charitostatic effect is tied to growing minerals.

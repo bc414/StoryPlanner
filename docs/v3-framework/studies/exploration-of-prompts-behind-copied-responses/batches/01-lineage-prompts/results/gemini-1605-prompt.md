@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document, attached plan export | a long-form fiction planning document, contents not captured in this record | very large: stated as 153,930 words, but 0 characters actually present in the message text
+- shaping:
+- openness: The message contains no instruction, question, or stated goal at all — only an attachment placeholder — so there is nothing that leans toward, offers a choice of, or asks to check anything; it is entirely open as to what is wanted.
+- subject: An attached story-plan export, with no accompanying instruction text

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the framework as laid out and asks the model to extend it by applying the two-axis spectrum to real-world history and the present day, which is a new request and not a correction.

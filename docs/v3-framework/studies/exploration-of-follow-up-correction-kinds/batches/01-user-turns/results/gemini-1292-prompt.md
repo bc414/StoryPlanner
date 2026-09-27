@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's point that the Republic can let defeated figures live as ordinary citizens, and extends it with a new question about whether Synovial should eventually be released as an ordinary changeling.

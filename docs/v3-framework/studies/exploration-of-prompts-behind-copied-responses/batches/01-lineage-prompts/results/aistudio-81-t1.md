@@ -1,0 +1,8 @@
+- asks:
+  - devise | come up with some allusion or way to signal that Trimmel, Blueblood and Applejack are the only generals who act like human Hearts of Iron IV players while all other generals act like an AI | "Need some sort of allusion that..."
+  - analyse | give an analysis of this premise (the human-player-vs-AI generals split) and of the meta-allegory it implies | "Give an analysis of this premise and the meta-allegory"
+- supplies:
+  - attached document | unspecified planning material referenced by an attachment placeholder, content not captured | unknown length, document not captured
+- shaping:
+- openness: Leans toward an answer it names: it states the premise outright (three generals behave like human HOI4 players, all others like an AI) and asks the model to devise an allusion for it and analyze that stated premise and its meta-allegory, rather than leaving whether the premise holds open to question.
+- subject: Characterizing certain generals in a story as playing like human Hearts of Iron IV players versus others acting like AI, and the allegory this implies

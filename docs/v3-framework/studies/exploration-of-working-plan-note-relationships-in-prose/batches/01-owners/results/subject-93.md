@@ -1,0 +1,70 @@
+- relations:
+  - 1953|1954|the plan of the Iron Chancellor's fantasy is carried out as the dated event of independence and the fleet seizure|"which he did in 978" / "seizes the Imperial fleet"|explicit
+  - 1953|463|the seized fleet is what gives the secure shipping that lets the marks be honored, so the ambition explains the working rule|"seizing the imperial fleet" / "stolen Imperial Fleet guarentees secure shipping"|implicit
+  - 1953|467|the chancellor's wish for banks printing money is the same mechanism as banks lending to create Marks|"letting banks print money" / "banks lending out money creates the fiat currency"|implicit
+  - 1953|464|money backed by shipping is restated as marks whose value is shipping insurance rather than gold|"backed by shipping and privateering" / "value of the trade and shipping insurance"|implicit
+  - 463|464|the fleet guarantees secure shipping and the marks' backing is the shipping insurance that depends on peaceful trade; one gives the rule, the other says what the value rests on|"guarentees secure shipping" / "relies on peaceful trade"|implicit
+  - 464|1965|the marks' dependence on peaceful trade is the reason rivals avoid open fire and use ramming and wake washing instead|"relies on peaceful trade" / "keeping the Skyfall Mark powerful, so they don't openly fire"|implicit
+  - 464|1086|neutrality in the war is what peaceful trade would require, so the plan of neutrality presupposes the marks' backing|"peaceful trade" / "neutral in the Great Griffonian War"|implicit
+  - 1085|1086|merchants of death staying neutral in a war: the ontology role and the plan for the war sit together, with a tension between arming and neutrality|"merchants of death" / "neutral in the Great Griffonian War"|implicit
+  - 469|1085|the analogy to the Dutch merchants of death and the flat statement that Skyfall are merchants of death say the same thing|"merchants of death"|implicit
+  - 469|1954|the Dutch revolt is likened to the betrayal that seized the imperial fleet in 978, an inspiration for the event|"978 Ghishard betrayal" / "seizes the Imperial fleet"|explicit
+  - 469|1953|the Dutch analogy is applied to the same betrayer and the same fleet seizure, named with a variant spelling|"Ghishard betrayal" / "Ghislain Guichard"|explicit
+  - 469|1967|Dutch gunpowder making is paralleled by Skyfall's modern armaments, which is the gunpowder leg of credit, gunpowder and water|"produced gunpowder" / "Credit, Gunpowder, and Water"|implicit
+  - 1967|467|credit in the summary is the bank-lending money creation stated in the other|"Credit" / "banks lending out money creates the fiat currency"|implicit
+  - 1967|463|water in the summary is the stolen fleet that secures shipping|"Water" / "stolen Imperial Fleet"|implicit
+  - 1947|1954|Skyfall goes from premier Imperial port to declaring independence from the Empire; one continues the other in time|"premier Imperial port city" / "declares independence from the Empire"|implicit
+  - 1947|2396|events in the same era continue in dated order: the port era ends in 970 as Chrysalis attacks corporations|"914..970" / "970"|implicit
+  - 2396|1954|the 970 infiltration events are followed by the 978 break with the Empire|"970" / "978"|implicit
+  - 1944|1954|the canon has Skyfall become a harmonic republic, but this story keeps it a trade federation after its break, so it narrows the canon path|"stays as a trade federation with max capitalism" / "declares independence"|implicit
+  - 1944|1567|the chosen oligarch path of max capitalism is what the allegory reads as unchecked capitalism|"max capitalism" / "unchecked capitalism"|implicit
+  - 1968|2336|the canon figure Kessler is the Kessler Jr. to whom the shell-company truth is revealed|"Heinrich Kessler" / "Kessler Jr."|explicit
+  - 1968|2324|the canon Kessler is the one who, with the Celestial Resistance, destroys the monopolist's assets|"Kessler" / "Kesseler and the Celestial Resistance"|explicit
+  - 1968|2387|Bechard as arms dealer and private security is an example of the corporate security the rules describe|"private security" / "private corporate security and gangs"|implicit
+  - 2324|2336|the revelation that Krystallfels is a state-owned shell explains and triggers why all Skyfall turns on it|"turn against Krystalfels" / "not a legitimate An-Cap enterprise"|implicit
+  - 2336|2342|the scene of revelation dramatizes the thesis that Skyfall cannot recognize a state actor behind a private firm|"state-owned shell company" / "inability to recognize a state actor"|implicit
+  - 2324|2342|the monopolies Skyfall hates are the market domination the thesis names as its failure|"crystal monopolies" / "dominate their market"|implicit
+  - 2337|2324|both sit in the Krystalfels/Chrysalis crisis for Skyfall: the agony of withdrawal continues the turn against outside powers|"Skyfall is in absolute agony" / "All of Skyfall hates"|implicit
+  - 2337|1959|withdrawal hits workers who need Red Love to survive the slums, an instance of the misery of the long-hours workforce|"survive the misery of the slums" / "work 60-80 hours a week"|implicit
+  - 2337|475|cutting a drug supply that Skyfall depends on echoes the opium wars analogy for Skyfall and Chrysalis|"Red Love" / "British opium wars"|implicit
+  - 475|2396|the protection-racket and opium comparison with Chrysalis is joined to Chrysalis acting against corporations that hold bounties and defenses|"Chrysalis" / "Chrysalis as an infiltrator"|explicit
+  - 2396|2395|the corporations Chrysalis breaks are the arrogant ones that buy huge security and shrug off bounties|"most arrogant large corporations"|explicit
+  - 2395|2389|hiring security to deter bounties presupposes the no-patent-law rule that makes breaking DRM a cost calculation|"bounties" / "cost of hiring better private security"|implicit
+  - 2396|2389|the bounties that corporations must withstand are the enforcement price from IP owners|"huge bounties" / "bounty offers to thugs"|implicit
+  - 1960|2389|the subscription economy of planned obsolescence is the thing whose enforcement is left to bounty and security|"subscription economy" / "subscription fees"|implicit
+  - 2389|2387|bounties paid to thugs work because security and gangs respond to the highest bidder|"bounty offers to thugs" / "respond to the highest bidder"|implicit
+  - 2395|2387|corporate security bought only in amounts to prevent robbery and keep workers working is the private security system stated in the rules|"private security" / "private corporate security"|implicit
+  - 2386|2387|the Pinkerton and VOC comparison is the real-world model for the private police and gangs|"police/gangs" / "private corporate security and gangs"|implicit
+  - 2388|2387|corruption as the operating system is shown by security serving the highest bidder|"fundamental operating system" / "highest bidder"|implicit
+  - 2388|2386|the VOC-style trade hub named in the allegory is the same VOC named as inspiration|"VOC-style trade hub" / "private armies of the Dutch VOC"|explicit
+  - 1955|1956|indentured passage in the colonies is the model for citizenship sponsored by company debt|"Indentured servitude for passage" / "sponsored by a company by debt"|implicit
+  - 1955|1957|debt-bound citizenship yields wage slaves and remittance traps|"wage slaves and remittance traps" / "by debt"|implicit
+  - 1957|1959|the allegory of remittance traps matches immigrants sending money home under sweatshop hours|"remittance traps" / "sending money home"|implicit
+  - 1959|1567|the manosphere lie that draws immigrants is the manosphere propaganda the allegory names|"manosphere lie" / "manosphere propaganda"|implicit
+  - 1959|1963|the sweatshop labor described in the rules is what the penthouse artisans benefit from|"Sweatshop Workers" / "benefit from the sweatshop labor"|implicit
+  - 1962|1963|a first impression of Skyfall is revised: they seem poseurs but are then found to have talented artisans|"Initially readers think" / "But then they learn"|explicit
+  - 1966|1963|the stereotype of soulless greed is qualified by the discovery of artisans|"soulless, greedy" / "talented artisans"|implicit
+  - 1962|1966|both state the reader's starting view of Skyfall as empty greed without substance|"pure, unchecked Ego" / "boring, soulless, greedy"|implicit
+  - 1947|1966|Herzland's domestic wealth from flow through Skyfall is the base of the Herzland stereotype|"the Herzland" / "Herzland stereotype"|implicit
+  - 1963|1964|the reader's learning of the dark mirror leads to the resolution that dignity can break the cycle|"dark mirror" / "unconditional dignity can break the cycle"|implicit
+  - 1567|1962|unchecked capitalism in the allegory is the unchecked Ego readers first see|"unchecked capitalism" / "unchecked Ego"|implicit
+- outward:
+  - 1944|the Empire at War canon and its default path, and Genevieve Guildedwing|"In EaW canon/default settings"
+  - 1968|canon characters held elsewhere: Whitefeather, Kessler, von Hochskiaue, Bechard|"Walter Whitefeather - cigarettes"
+  - 1958|Grover III, the imperial state held elsewhere|"Grover III's Rome"
+  - 1963|Aquileia, another place in the story world|"Aquileia's dark mirror"
+  - 1960|Kemerskai and Cloudbury, another polity and place|"Kemerskai is able to build an industrial powerhouse in Cloudbury"
+  - 1947|Zebrica and the Herzland, other regions|"extracted from Zebrica"
+  - 1966|the Herzland stereotype, a region held elsewhere|"Herzland stereotype"
+  - 1086|the Great Griffonian War, a war held elsewhere|"Great Griffonian War"
+  - 2324|the Krystalfels conglomerate and the Celestial Resistance|"Kesseler and the Celestial Resistance"
+  - 2336|the totalitarian foreign monarch behind Krystallfels|"totalitarian foreign monarch"
+  - 2342|the totalitarian hive that Krystallfels is subsidized by|"totalitarian hive"
+  - 2337|Chrysalis, Red Love and her conscripts, held elsewhere|"Chrysalis has cut off the Red Love"
+  - 475|Chrysalis as a separate actor|"Skyfall/Chrysalis"
+  - 2396|Chrysalis as an infiltrator, an actor not described here|"Chrysalis as an infiltrator"
+  - 2389|the Dienst Resonantie Matrix, lore held elsewhere|"Dienst Resonantie Matrix"
+  - 1953|the Empire and its imperial fleet, held elsewhere|"seizing the imperial fleet"
+  - 1962|the concepts Asset Specificity and Predator's Dilemma from elsewhere in the plan|"Asset Specificity"
+  - 1964|the Skyfall Resolution, a story event held elsewhere|"Skyfall Resolution"
+- whole: ["The notes hang together as a fairly dense set, with a chain from the 978 fleet seizure through marks, shipping and private security to the Krystallfels plot, and from the reader's first views to their revision, though the allegory and analogy entries are mostly separate items."]

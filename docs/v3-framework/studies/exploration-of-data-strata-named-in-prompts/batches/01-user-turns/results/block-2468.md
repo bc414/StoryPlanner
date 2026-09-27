@@ -1,0 +1,7 @@
+- sources:
+  - my youtube history, across different eras | the material to be analyzed retrospectively, sorted by era to see what kinds of videos were watched | retrospective analysis of the kinds of videos I watched across different eras of my youtube history | referred-to
+  - my recent framework | the vocabulary and lens the analysis should be written in, applied to the videos | in the language of my recent framework | referred-to
+  - the other history | a second body of material to compare against, looking for where the video eras overlap with it | to see where they overlap with the other history | referred-to
+  - the development of my story plan | the trajectory to compare against, looking for overlap with the video eras | and the development of my story plan | referred-to
+- order:
+- about: The user restates their goal, correcting the model's guess, as a retrospective analysis of their YouTube watching across eras, written in their recent framework's language and compared with their other history and their story plan's development, and asks how to get it.

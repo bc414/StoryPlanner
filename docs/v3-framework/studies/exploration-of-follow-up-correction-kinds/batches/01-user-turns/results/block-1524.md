@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the deliberation as finished and asks for a consolidated synthesis: superseded red herrings, a table of tracks against display questions and usage directives, and the stated purpose of each v2 component.

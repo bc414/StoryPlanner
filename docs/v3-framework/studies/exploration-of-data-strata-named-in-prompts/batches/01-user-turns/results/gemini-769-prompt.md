@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks why the model chose coding and writing as its examples of complex projects, questioning the reason behind that choice without pointing at any body of material to use or avoid.

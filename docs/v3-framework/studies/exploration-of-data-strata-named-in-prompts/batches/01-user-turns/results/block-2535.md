@@ -1,0 +1,6 @@
+- sources:
+  - A Cub's Crush (attached PDF, 743k words) | the story to be made sense of; read strategically rather than in full because of its length | Now help me make sense of this story, A Cub's Crush. It's very long, at 743k words, so be strategic about it. | first-named
+  - my reviews to the story (pasted in, written live while reading the beginning part) | material to draw on as the user's own reactions to the early part of the story | I have pasted in my reviews to the story as I read the beginning part live | first-named
+  - a PM that I sent to the author (no response) | material to draw on as the user's message to the author, offered alongside the reviews | also a PM that I sent to the author (no response, though probably due to inactivity) | first-named
+- order:
+- about: The user attaches a very long fanfiction PDF together with their own live reviews and a PM to its author, and asks the model to help make sense of the story by reading it strategically.

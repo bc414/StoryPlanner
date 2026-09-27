@@ -1,0 +1,6 @@
+- asks:
+  - analyse | explain how a previously discussed reframing changes or interacts with the existing meta commentary on real human history in the plan | "how does it affect my existing meta commentary on real human history"
+- supplies:
+- shaping:
+- openness: Leaves the answer open: it asks how the reframing affects the commentary without naming a direction or predicted outcome.
+- subject: Effect of a narrative reframing on the story's meta commentary about real human history

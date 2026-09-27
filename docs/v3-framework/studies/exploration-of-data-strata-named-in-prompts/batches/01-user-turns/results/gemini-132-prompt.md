@@ -1,0 +1,6 @@
+- sources:
+  - "stagnation of harmony" national spirit, with its in-game description and modifiers | pasted in as reference material; the model is to connect it to Celestia's stances and the story's themes, treated as a fixed game fact the plot should line up with | Here is the in game description and modifiers | first-named
+  - existing plot points and themes | the model is to check how the new material connects to them and then help refine them | How does this connect with existing plot points and themes | referred-to
+  - the ideas in this conversation about Celestia's stances and the chapter title "stagnation" | accepted as good and lining up with the national spirit; the base the user wants connected and refined | "stagnation" is great because | referred-to
+- order:
+- about: The user accepts the chapter title \"Stagnation\", pastes the game's \"stagnation of harmony\" national spirit text and modifiers as a parallel to Celestia's stances, and asks how it connects to existing plot points and themes and how to refine them.

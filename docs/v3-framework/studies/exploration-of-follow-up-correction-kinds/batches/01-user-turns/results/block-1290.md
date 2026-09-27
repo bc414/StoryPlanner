@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps away from the worldbuilding breakdown to muse aloud about real-world history, offering a tentative view of Lenin and Trotsky as villains and comparing revolutions to capitalists replacing aristocrats, without challenging anything the model said.

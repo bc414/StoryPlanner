@@ -1,0 +1,27 @@
+- relations:
+  - 2102|2402|continues in time: from leaving boredom at the Cloudsdale weather factory to working at the Manehattan power plant, with propaganda pushing him again a second time|"some more manosphere propaganda"|explicit
+  - 2402|2073|continues in time and gives the occasion: the bounty is the penalty for the DRM violation set up by his unbridling of the machine|"violating the DRM"|explicit
+  - 2073|2106|continues in time: after blowing up the plant he fails the seminar, is deported and collects a bounty|"got his meager bounty"|implicit
+  - 2106|2107|continues in time: after coming back from New Mareland he is too humiliated to return to Cloudsdale and sulks in the parloirs|"too humiliated to go back to Cloudsdale"|implicit
+  - 2402|2104|instance and cause: the unbridling and firing narrated is the core wound that explains his contempt for those without asset specificity|"unbridling and getting fired for it"|implicit
+  - 2107|2104|cause and presupposition: the parloirs reaffirm his asset specificity as a machinist, which is the value he holds against rent seekers|"asset specificity"|implicit
+  - 2107|2128|cause and instance: the dignity given in the parloirs is the reason he advocates for the Tzinacatl|"the only ones who treated him with dignity"|implicit
+  - 2106|2128|presupposition: 2128 relies on the deportation and return from New Mareland as the humiliation before the parloirs|"deported" "hellscape of New Mareland"|implicit
+  - 2102|2101|instance: being taken in by Gilded Lily's propaganda shows a susceptibility to radicalization|"susceptible to radicalization"|implicit
+  - 2402|2101|instance: he takes propaganda meant to make obedient workers as permission to disobey, showing susceptibility to radicalization|"susceptible to radicalization"|implicit
+  - 2402|2100|revision or recontextualizing: canon has him cut power at the power plant after a dream from Nightmare Moon, while here he unbridles the turbine and is fired, then blows up the plant|"works at a power plant"|implicit
+  - 2100|2101|instance: his contact by Nightmare Moon in a dream is an example of the susceptibility to radicalization|"contacted by Nightmare Moon in a dream"|implicit
+  - 2100|2128|revision: night-shift thestral worker solidarity was used by Nightmare Moon in canon, while here his advocacy for the Tzinacatl night-shift workers has a personal origin|"no longer just generic progressive politics"|implicit
+  - 209|210|delivery of what is stated as true: the New Yorker voice planned for the character is the impression the reader is meant to take at first|"I'm walkin' here!"|implicit
+- outward:
+  - 2102|Gilded Lily and her propaganda for factories, held elsewhere|"Gilded Lily's propaganda"
+  - 2102|the Cloudsdale weather factory as a place|"weather factory in Cloudsdale"
+  - 2402|the tycoon, the Dienst Resonantie Matrix rule and New Mareland's manosphere propaganda, all defined elsewhere|"Dienst Resonantie Matrix"
+  - 2073|the Skyfall company and its bounty system|"Skyfall company"
+  - 2106|the friendship seminar and New Mareland as a place|"friendship seminar"
+  - 2107|the Aquileians, tzinacatl, the machinist's guild and the Foyer de la Jeunesse d'Avant-garde|"Foyer de la Jeunesse d'Avant-garde"
+  - 2100|EaW, Nightmare Moon, the Equestrian Civil War and the Luna Empire|"Equestrian Civil War"
+  - 2101|EaW baseline personality of the character|"EaW baseline personality"
+  - 2128|the label "Poseur" and the Tzinacatl night-shift workers in the story|"Poseur"
+  - 209|the New Yorker type outside the item|"typical New Yorker"
+- whole: The backstory notes form a connected chain in time, and the canon and characterization notes hang on it as causes, instances and recontextualizings, though the voice notes 209 and 210 and the cutie mark note 2103 stand mostly alone.

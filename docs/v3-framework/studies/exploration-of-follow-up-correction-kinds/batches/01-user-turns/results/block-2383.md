@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the JWAB analysis, attaching a different fanfic (Pax Chrysalia) and asking where it sits on the TLTT versus ASOIAF scale, with a clarification of which Pax Chrysalia is meant that is not aimed at anything the model said.

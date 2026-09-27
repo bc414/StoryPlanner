@@ -1,0 +1,6 @@
+- sources:
+  - The backstory and timeline the user lays out (Rémi 17 in 980, grueling serf life at age 10, Lord Gaudreau humbled and adopting King Gerad's strictness, Cecille Gaudreau taking over the serfs in 973, later career as chasseur and fighter pilot) | treat as given premises; build Rémi's psychological profile on them | "So he would be 17 in 980" | first-named
+  - Champagne or other rural areas of northern France | use as the regional inspiration for Rémi's character | "inspired by Champagne or other rural areas of northern France" | first-named
+  - The Gasçon archetype, as embodied by the existing character Henri Gourard | do not use for Rémi; avoid duplicating what is already covered | "shouldn't have the Gasçon archetype because I have a character already like that" | referred-to
+- order:
+- about: The user picks the name Rémi Ducep, supplies his age and serf-to-liberation backstory, and asks for a psychological profile that avoids the Gascon archetype and draws on northern French rural inspiration.

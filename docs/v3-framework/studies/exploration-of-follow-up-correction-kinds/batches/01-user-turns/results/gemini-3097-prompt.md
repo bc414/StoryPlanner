@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a fresh question about how the story plan divides between war story and other content, without stating that anything in the model's fanfic comparison was wrong.

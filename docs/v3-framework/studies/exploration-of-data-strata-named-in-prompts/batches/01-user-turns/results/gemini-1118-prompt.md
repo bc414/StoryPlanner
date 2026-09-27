@@ -1,0 +1,5 @@
+- sources:
+  - the trench scene | existing planned scene that Mali is to be fitted into; treat as the fixed frame to work within | how to integrate Mali with the trench scene | referred-to
+  - the tent scene | existing planned scene that Mali is to be fitted into; treat as the fixed frame to work within | and the tent scene | referred-to
+- order:
+- about: The user corrects the model's answer, which described Mali's general role across the phase, and restates that they wanted to know how to work Mali into two specific scenes, the trench scene and the tent scene.

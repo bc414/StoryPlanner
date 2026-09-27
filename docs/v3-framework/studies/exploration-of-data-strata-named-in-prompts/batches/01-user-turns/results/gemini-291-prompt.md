@@ -1,0 +1,4 @@
+- sources:
+  - my themes | the standard the model should judge the four candidate endings against, choosing the one that fits them best and explaining why | in a way that fits my themes | referred-to
+- order:
+- about: The user asks the model to pick the best of four possible endings for Chrysalis's fate and justify it against their themes, adding that she will never speak or have a point of view and will be told only through four other characters.

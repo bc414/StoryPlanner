@@ -1,0 +1,10 @@
+- asks:
+  - declare/establish | to accept and incorporate the griffon artisan philosophy where the machine is the tool, the spell matrix is swappable software, and the output is unenchanted but has better tolerances/longevity than soulless Bessemer steel | "The griffon artisan views the machine itself as their tool"
+  - declare/establish | to accept and incorporate that maritime insurance stays high because shipping-company cruisers double as privateers against uninsured ships, and that drained sea monster carcasses are simply discarded at sea | "cruisers are also privateers who attack uninsured cargo ships"
+  - declare/establish | to accept and incorporate the Tzinacatl jungle's status as de jure part of Equestria but de facto outside harmony's social codes and culturally alien | "outside the stagnation of harmony's 'gentlemare's agreements'"
+  - declare/establish | to accept and incorporate the teleportation-crystal scarcity, the 'love donator' (Twilight's wartime adaptation of Chrysalis's tech in chapters 10-12) as the fix, and the naming of this as the story's central thesis about ingenuity beating mass conscription | "That's the point of the story, that combined arms and ingenuity is more effective than mass conscription"
+  - declare/establish | to accept and incorporate a distinction between old-money landed noble warlords and new-money urban capitalists as separate factions | "The old money landed noble warlords are not the same as new money urban capitalists"
+- supplies:
+- shaping:
+- openness: States each of the five worldbuilding points as a settled fact rather than posing a question, so nothing is left open, chosen between, or offered for verification — it reads as canon being handed over to be adopted.
+- subject: A batch of worldbuilding declarations for an MLP-based war story: griffon crafting philosophy, maritime insurance/privateering, a culturally distinct jungle region, the teleportation-crystal plot device and its thematic point, and noble-vs-capitalist class distinctions.

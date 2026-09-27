@@ -1,0 +1,6 @@
+- relations:
+  - 180 | 1121 | 1121 gives a particular of the network that 180 states in general: where its headquarters sit and what it shares its site with | "animal spy network" and "Headquartered at the Star Energy Agricultural Exposition Center" | implicit
+- outward:
+  - 1121 | a place called Tall Tale and the exposition center in it, held elsewhere | "Star Energy Agricultural Exposition Center in Tall Tale"
+  - 1121 | a camp for captured changelings, and the war or conflict that produced those prisoners, held elsewhere | "Camp Fluttershy for changeling POWs"
+- whole: The two notes hang together loosely, since the first gives a one-line definition of the agency and the second adds where it is based, but there is little between them beyond that.

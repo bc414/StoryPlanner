@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Manehattan and Parloir analysis and asks for a new analysis of a different element, Star Energy Corporation's role in Tall Tale, within the story plan.

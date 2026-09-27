@@ -1,0 +1,21 @@
+- passages:
+  - note 4398 | fragmentary notes | terse listed statements, header-like lines, missing connectives | clothing norms across Griffonia, Equestria, factories, the Republic | apart
+  - note 4398 | hedging aside | comma-appended hedge "I guess" closing the sentence | uncertainty over why Manehattan ponies wear clothes | run-in
+  - note 4464 | analytic exposition | full explanatory sentences tracing a motive | Celestia's reasoning against covering cutie marks | apart
+  - note 4464 | imperative directive | modal phrasing "Must establish", "should be taught" | a task to set decency standards in the Republic | apart
+  - note 4693 | analytic exposition | causal connectors (since, so, furthermore), full sentences | utility and ownership-symbolism of clothes in Aquileia | apart
+  - note 4701 | analytic exposition | plain categorical declaratives | Equestrian clothing categories and the Manehattan exception | apart
+  - note 4703 | fragmentary notes | terse statements, parenthetical aside, bare proper nouns | textile economics and unrest over clothes vs freedom | apart
+  - note 4906 | analytic exposition | causal "so/because" reasoning, full sentences | clothing style variation across social groups and species | apart
+  - note 5409 | fragmentary notes | terse listed facts, missing connectives | sourcing of clothing and uniform materials | apart
+  - note 5409 | evaluative aside | comma-appended judgment phrase closing the note | assessment of Chrysalis's uniforms | run-in
+- shifts:
+  - note 4398 | fragmentary notes | hedging aside | appended hedge "I guess" ending the sentence
+  - note 4464 | analytic exposition | imperative directive | shift from describing motive to modal directive "Must establish... should be taught"
+  - note 4693 | | |
+  - note 4701 | | |
+  - note 4703 | | |
+  - note 4906 | | |
+  - note 5409 | fragmentary notes | evaluative aside | comma-appended judgment "totally soulless" ending the note
+- registers: fragmentary notes; analytic exposition; imperative directive; hedging aside; evaluative aside
+- whole: This item's notes are written in several registers—mostly terse fragmentary listing and fuller analytic exposition, with a couple of notes also carrying a brief hedging or evaluative aside or an imperative directive—and these sit apart as separate blocks except where a closing aside is tacked onto the end of a sentence with no break at all.

@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | The scene counts toward the P&K subversion because Twilight acts, rescuing Applejack, where the commentary implies she would otherwise be passive | "Twilight not passive" | no | planning shorthand, a terse verbless-style label with no elaboration
+- whole: A three-word shorthand note saying that the scene's link to the P&K subversion lies in Twilight being active rather than passive.

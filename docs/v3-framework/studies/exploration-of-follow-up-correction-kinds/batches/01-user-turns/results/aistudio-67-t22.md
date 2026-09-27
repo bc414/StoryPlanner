@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's Grover III and fiat-currency synthesis to a new worldbuilding question, floating several tentative options for how tycoons escape deportation to New Mareland and why Celestia's harmony-based law can ban guns and drugs but not factories.

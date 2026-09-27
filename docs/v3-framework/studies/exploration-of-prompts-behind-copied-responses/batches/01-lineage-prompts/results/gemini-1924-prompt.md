@@ -1,0 +1,6 @@
+- asks:
+  - factual query | asks what the operating hours of the Taoyuan Metro are | "What are the operating hours of taoyuan metro?"
+- supplies:
+- shaping:
+- openness: Open: the message poses a plain factual question with no proposed answer, options, or claim to verify.
+- subject: Operating hours of the Taoyuan Metro

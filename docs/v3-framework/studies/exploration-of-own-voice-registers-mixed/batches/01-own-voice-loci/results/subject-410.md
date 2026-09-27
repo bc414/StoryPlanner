@@ -1,0 +1,34 @@
+- passages:
+  - 37 | thematic summary | abstract noun-phrase framing, no main verb | the elements of harmony reread under war | run-in
+  - 37 | metaphoric image | comma-linked image of collapse | war ending the story's earlier innocent premise | run-in
+  - 4010 | naming label | "Simple Truth becomes The Hard Truth" formula | Honesty's wartime transformation | apart
+  - 4010 | narrative summary | third-person description of a speech | Applejack's speech warning of coming losses | apart
+  - 4011 | naming label | "Friendship becomes Firepower" formula | Magic's wartime transformation | apart
+  - 4011 | narrative summary | third-person plot description | Twilight using magic to destroy the changelings | apart
+  - 4012 | naming label | "collapses into" formula | Laughter's wartime transformation | apart
+  - 4012 | generalizing address | second-person "you can't" claim | the impossibility of befriending a hostile enemy | apart
+  - 4012 | narrative summary | third-person description, named alter-ego | Pinkie becoming Pinkamena, artillery commander | apart
+  - 4013 | naming label | "turns into" formula | Kindness's wartime transformation | apart
+  - 4013 | narrative summary | plot/worldbuilding description across several sentences | ponies' hatred of changeling POWs and Fluttershy's intervention | apart
+  - 4014 | naming label | bare word before a colon | topic tag for Generosity | run-in
+  - 4014 | narrative summary | description ending in embedded capitalized terms | Rarity moving from sacrifice to nationalizing assets | run-in
+  - 4015 | naming label | bare word before a colon | topic tag for Loyalty | run-in
+  - 4015 | belief-description narrative | reports Rainbow's belief and feeling, emphatic capital | Rainbow's conviction she must always fly | run-in
+  - 4015 | naming label | "on the surface... but essentially" formula | diagnosing Rainbow's flying as Fealty | apart
+  - 4015 | narrative summary | third-person description of dialogue | Applejack telling Rainbow she needn't bear the war alone | apart
+  - 4015 | naming label | short definitional declarative | naming the shared-burden alternative as Kinship | apart
+  - 5819 | reflective commentary | craft reasoning about the reader and a named chapter | when a character may name a war/tyranny pattern | apart
+- shifts:
+  - 37 | thematic summary | metaphoric image | comma-linked clause introducing a physical image, run-in within one sentence
+  - 4010 | naming label | narrative summary | new sentence turning from formula to a described speech
+  - 4011 | naming label | narrative summary | new sentence turning from formula to a described action
+  - 4012 | naming label | generalizing address | new sentence shifting from formula to a second-person claim
+  - 4012 | generalizing address | narrative summary | new sentence returning to third-person plot description
+  - 4013 | naming label | narrative summary | new sentence turning from formula to described plot events
+  - 4014 | naming label | narrative summary | colon runs the bare heading directly into a descriptive sentence
+  - 4015 | naming label | belief-description narrative | colon runs the bare heading directly into a sentence reporting Rainbow's belief
+  - 4015 | belief-description narrative | naming label | new sentence turning from reported belief to an evaluative formula
+  - 4015 | naming label | narrative summary | new sentence turning to a described exchange between Applejack and Rainbow
+  - 4015 | narrative summary | naming label | new sentence closing with a short definitional statement
+- registers: thematic summary; metaphoric image; naming label; narrative summary; generalizing address; belief-description narrative; reflective commentary
+- whole: This item's notes hold several distinct registers - thematic framing, metaphoric image, terse naming labels, narrative summary, a second-person generalization, belief-description, and reflective commentary - and while most pairs stand apart across sentence breaks, a few (headings before colons, and one image-bearing clause) run directly into the next register with no break at all.

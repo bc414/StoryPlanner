@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes an alternative version of the burial scene, with Applejack starting with Mali and Tally Mark before one is injured and the other takes them to the bunker, and asks whether her radio should still work while she is buried and Henri tells her to stay put.

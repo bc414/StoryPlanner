@@ -1,0 +1,6 @@
+- sources:
+  - the insight that Rainbow rests because her friends want her (from the model's previous turn, the current conversation) | treat as the key idea to build the element word on | seems to be key | referred-to
+  - Sisterhooves Social (published FiM episode) | use as the closest canon parallel to what Applejack does to Rainbow Dash in chapter 8 | closest FiM parallel that comes to mind | first-named
+  - Chrysalis's atomized meritocracy, with Trimmel's friends and Thorax teaching 2nd gen drones to have friends, and chapter 8 (the author's story world) | treat as established premise that the word must fit | don't feel as if any creature will mourn them | referred-to
+- order:
+- about: The user accepts the model's insight about why Rainbow rests, ties it to Sisterhooves Social and to the story's loveless meritocracy, and asks for an element word that means a grown-up Loyalty rooted in conscience, sounds like a civic virtue, is readily meaningful and sounds cool.

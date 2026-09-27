@@ -1,0 +1,14 @@
+- steps:
+  - the author | sets a constraint | limits the spell-matrix invention to Twilight's own genius and revived Season 1 research, no Griffon magical input | opening of the single prompt
+  - the author | redirects a component's origin | proposes Griffonia's contribution be reframed as the three-way valve or the love canisters | same prompt, second clause
+  - the author | floats a plot hypothesis | suggests Chrysalis stole patents from business partners | same prompt, third clause
+  - the author | requests a review | asks the model to check the story plan's technical details for the Luna Nova Rifle | closing line of the prompt
+  - the model | works out a mechanism | designs the three-way valve's function across fire/drain/safety states and why local metallurgy can't build it | opening of the response
+  - the model | builds a sourcing backstory | invents the Skyfall origin of the valve and Chrysalis's theft/violation of its patent, confirming the author's hypothesis | continuing the response
+  - the model | designs an economic trade | works out what Skyfall demands in exchange (Red Love) and who authorizes the morally compromised deal | continuing the response
+  - the model | drafts scene material | sketches specific chapter scenes with character dialogue (Twilight, Hans, Fleur) enacting the new mechanism | continuing the response
+  - the model | states a thematic reading | frames the hybrid rifle as a physical embodiment of the story's 'Harmonic Capitalism' theme | continuing the response
+  - the model | checks its own work against the brief | lists point by point how the revision satisfies each of the author's stated criteria | closing of the response
+- kept:
+- brought: The author brought a proposed revision to the spell-matrix/component sourcing split, a hypothesis about Chrysalis stealing patents, and a request to review the Luna Nova Rifle's technical plan.
+- loop: The author brought a constraint plus an unresolved hypothesis and asked for a technical review; the model returned a full mechanism, backstory, trade logic, and draft scenes satisfying both, but this exchange left no trace in the archived planning notes.

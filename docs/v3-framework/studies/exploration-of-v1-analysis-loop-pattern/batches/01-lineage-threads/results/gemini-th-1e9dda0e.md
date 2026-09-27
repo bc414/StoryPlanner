@@ -1,0 +1,10 @@
+- steps:
+  - the author | opens a research request | asks for an extensive historical dive into the origin of the stork-delivers-babies fable | gemini:2850 prompt
+  - the model | delivers a historical survey | lays out migration timing, wetland-soul folklore, Greek/Roman myth roots, Andersen's popularization, and Victorian-era prudery as the reasons the fable took hold | gemini:2850 response
+  - the model | volunteers an unsolicited tie-in | maps the real-world Victorian sanitizing function of the stork onto the author's own story's Celestia/New Mareland foal-pipeline premise | gemini:2850 response, closing section
+  - the author | narrows the ask with a setting rule | requests an in-universe equivalent creature, specifies it must still fit FiM's convention of mythology-grounded creatures, and flags that her world has no natural seasons so the migration/solstice correlation the model just explained cannot be reused | gemini:2851 prompt
+  - the model | generates a menu of grounded alternatives | proposes four distinct creature/myth options, each with a materialist origin, a sanitized fairy-tale version, and a note on story impact | gemini:2851 response
+  - the model | closes with a recommendation | picks and combines two of the four options as the strongest fit and drafts a sample line of dialogue illustrating the tone | gemini:2851 response, closing section
+- kept:
+- brought: The author brought her own established worldbuilding rule that seasons in her setting are artificially scheduled rather than occurring naturally, which invalidates the real-world stork-migration correlation the model had just described.
+- loop: The author moved from an open historical question to a constrained worldbuilding request built on a rule from her own setting, and the model answered each in kind with research then a multi-option menu plus a pick; no note in the archive traces back to either message, so nothing from this exchange was recorded into the plan.

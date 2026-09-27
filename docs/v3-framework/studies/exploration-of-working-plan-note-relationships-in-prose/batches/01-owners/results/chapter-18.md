@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2309|The Tzinacatl, the changeling invaders and the monster areas are all things held elsewhere in the plan, not described in this item|The Tzinacatl use knowledge of monster areas to know how to maneuver and punish the changeling invaders
+- whole: This owner has only a single note, so there is nothing for it to hang together with.

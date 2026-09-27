@@ -1,0 +1,8 @@
+- sources:
+  - the canon episode "The Crystalling" at the beginning of FiM season 6 | treat as the true record of when Flurry is born and when the crystal heart broke; the analysis should explain that canon event | the crystal heart broke in the canon episode "The Crystalling"|referred-to
+  - my story | the author's own story, where the crystal heart does not break; the earlier claim that it breaks in the lore is corrected | It doesn't break in my story|referred-to
+  - the explanation that Flurry Heart as a fetus was exposed to the crystal heart | take as the premise the analysis must build on | given the explanation that Flurry Heart as a fetus was exposed|referred-to
+  - the idea that the crystal heart turns hope into a magical shield, pink to red | accepted as making sense; keep as the working mechanic | It converts pink to red|referred-to
+  - Cadance's special talent converting pink (romantic love) into a physical baby | liked and accepted; used to explain why the crystal heart is her cutie mark | I like that Cadance's special talent also converts pink|referred-to
+- order:
+- about: The user corrects the model's claim that the crystal heart breaks in their story by noting it breaks in canon's \"The Crystalling\" but not in their story, asks for an analysis of why Flurry's screaming broke it given her fetal exposure, and endorses the pink-to-red and Cadance-talent mechanics.

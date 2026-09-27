@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question about what note tracks each of the four codex categories should have for connecting to plot points, without disputing or amending anything in the model's countries-as-geographic-references answer.

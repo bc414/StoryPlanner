@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new question about how the Axis powers' drugs (likely historical stimulants such as Pervitin) were manufactured, shifting to a different topic rather than correcting the model's narrative structure for the war's opening.

@@ -1,0 +1,16 @@
+- passages:
+  - note 4081 | worldbuilding summary | present-tense declarative account of an action, third person | Chrysalis buying crystals and founding a mining company | apart
+  - note 4082 | worldbuilding summary | declarative statement pairing two groups' traits, present/past tense | drone scientists versus disdainful Herzland nobles | apart
+  - note 4082 | worldbuilding summary | past-tense causal clause naming a source of inspiration | Chrysalis borrowing the idea from Kemerskai's Cloudbury machine | run-in
+  - note 4082 | ironic aside | appositive naming a contradiction, "the very enemy she just helped ... defeat" | irony of copying the foe just beaten | run-in
+  - note 4083 | worldbuilding summary | present-tense declarative account of acquisition and conquest, with a trailing comparative clause | Griffonian Republic buying and later seizing crystals for its Translator project | apart
+  - note 4086 | worldbuilding summary | short stative present-tense fact, no elaboration | Temberik Mountains' crystals being off-limits until the war | apart
+  - note 4087 | worldbuilding summary | past-tense narrative of a failed negotiation | Chrysalis's rejected deal attempt with the Temberik elders | apart
+  - note 4087 | elliptical shorthand | bare fragment leaning on the prior sentence, "Same for Comet Shine." | Comet Shine meeting the same refusal | apart
+  - note 4087 | aphoristic maxim | short generalizing, proverb-like phrasing, "No friend but the mountains." | the mountains' unyielding independence | apart
+- shifts:
+  - note 4082 | worldbuilding summary | ironic aside | appositive clause pointing out she just helped defeat the source she now borrows from, no punctuation break
+  - note 4087 | worldbuilding summary | elliptical shorthand | drop into a bare fragment, "Same for Comet Shine.", new sentence
+  - note 4087 | elliptical shorthand | aphoristic maxim | shift to a proverb-like generalizing line, "No friend but the mountains.", new sentence
+- registers: worldbuilding summary; ironic aside; elliptical shorthand; aphoristic maxim
+- whole: Most of this item's notes sit in one plain declarative worldbuilding-summary register recounting who did what and why, but note 4082 lets a pointed ironic aside run into that register within a single sentence, and note 4087 breaks cleanly at its end into a terse elliptical fragment and then a standalone proverb-like maxim, so overall the item is written in several registers, mostly held apart with only one running-in exception.

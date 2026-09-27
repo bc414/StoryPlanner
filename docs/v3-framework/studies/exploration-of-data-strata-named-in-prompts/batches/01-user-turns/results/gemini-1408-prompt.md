@@ -1,0 +1,5 @@
+- sources:
+  - my story | the work the allegories are to be built into; the model is to say how it can represent the path from 3C to 3B, so it is the target and not material being drawn from | How can my story represent the allegories needed | referred-to
+  - the stage labels 3C, 3B and 3A, with 3B as the new deal and 3A as tech, finance and oil dominance | treated as the settled framework from the conversation, and used as the start point, goal and pitfall for the answer | current day 3C ... back to 3B (the new deal) without going to 3A | referred-to
+- order:
+- about: The user asks how their story's allegories can carry a society from present-day stagnation (3C) back to a New Deal-style balance (3B) while avoiding a slide into predatory oligarchy (3A), using the staged framework built up in the conversation.

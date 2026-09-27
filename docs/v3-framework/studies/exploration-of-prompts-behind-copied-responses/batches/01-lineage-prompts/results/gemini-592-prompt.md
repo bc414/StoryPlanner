@@ -1,0 +1,7 @@
+- asks:
+  - check/validate | asks whether it is workable to establish Thorax as one of Trimmel's students in order to explain his presence in the 1002 Canterlot invasion | "I'm wondering if I can make Thorax one of Trimmel's students. That's why he was in the 1002 infiltration."
+- supplies:
+  - plan summary | Thorax and Flurry Heart's arc: the 1002 invasion, the 1007 purge of harmonists by VOPS, Thorax's escape to the Crystal Empire, his bond with young Flurry Heart, their joint defense of the Crystal Heart during the changeling invasion, their entry into Fluttershy's POW rehab program, and the resulting infiltration mission after Celestia's white peace | several paragraphs
+- shaping:
+- openness: Leans toward an answer it names: the message proposes the specific idea of Thorax as a student of Trimmel and supplies its own supporting reasoning (his younger age, birth after industrialization, and lack of Trimmel's personal debt-loyalty to Chrysalis), inviting confirmation of that framing.
+- subject: Whether to make Thorax one of Trimmel's students within a planned reworking of Thorax's and Flurry Heart's backstory in an alternate-history MLP/changeling-war fanfic

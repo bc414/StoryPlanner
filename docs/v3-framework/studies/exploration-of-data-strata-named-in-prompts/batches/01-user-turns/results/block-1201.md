@@ -1,0 +1,6 @@
+- sources:
+  - the plan document (the one just analyzed) | treat as the older plan whose evolution stopped in August 2022 and whose rendering reads as grimdark, not as the whole account of where the story went | this plan document stopped evolving in August 2022 | referred-to
+  - the 23 chapters of this story in prose | the author's account of what actually exists, written July 2021 to November 2023; not supplied, so the model should not expect to read them or assume their content | I am not going to upload them all as that would be beyond your context window | first-named
+  - the future story plans (attached KU Planning.docx) | read as the forward-looking plans for the story he was actually writing out, and take them as significantly more hopepunk than the earlier plan | I am attaching the future story plans | first-named
+- order:
+- about: The user corrects the model's picture of the story's history by saying that prose chapters continued well past the plan document's end date, withholding those chapters for length, and attaching forward-looking plans that are more hopepunk than the earlier grimdark plan.

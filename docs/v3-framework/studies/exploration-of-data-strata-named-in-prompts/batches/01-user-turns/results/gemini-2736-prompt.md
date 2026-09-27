@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the Rainbow Dash and Twilight Velvet exchange, notes that Twilight and Rarity have access to translated adult books, and asks the model whether the scene's friction should shift to why only foal books are popularized and whether Velvet should know Shining Armor and Cadance slipped Twilight Aquileian books.

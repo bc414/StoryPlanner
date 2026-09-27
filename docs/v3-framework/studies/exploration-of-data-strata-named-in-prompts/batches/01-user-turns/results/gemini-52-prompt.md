@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the agent mode in the Gemini Code Assist plugin for VS Code or Rider could work as an alternative way to automate the task, without pointing the model at any body of material to use or avoid.

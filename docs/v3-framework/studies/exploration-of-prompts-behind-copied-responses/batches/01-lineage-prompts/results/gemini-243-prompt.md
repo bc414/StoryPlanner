@@ -1,0 +1,7 @@
+- asks:
+  - inform | conveys character motivations, conflicts, and a thematic claim for the model to take in, without posing a question or requesting feedback | declarative statements throughout, ending "That's a theme of my story"
+- supplies:
+  - worldbuilding note | Trimmel's belief in "eating the rich," his rejection of Thorax's anti-draining stance because it implies freeing the nobility, his hatred of Pagala and pulling her from the front after Acornage, and Pagala's fixed status as a Chrysalis-loyalist turncoat | a few sentences
+- shaping:
+- openness: leans toward an answer it names: the message asserts its own reading (that the changeling lands, GR, Aquileia, and Equestria together depict monarchy falling to industrialization) as an established theme of the story rather than asking the model to weigh in.
+- subject: Trimmel's class-war ideology, his rifts with Thorax and Pagala, and the story's monarchy-vs-industrialization theme

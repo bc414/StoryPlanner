@@ -1,0 +1,14 @@
+- asks:
+  - clarify | asserts that Twilight has a theoretical magical solution but that this isn't the practical one the story should use | "could in theory invent a new solution from magical first principles, but it's not the practical solution"
+  - specify | directs what Twilight's letter should and shouldn't say | "shouldn't mention Kessler's price, just that they had a tech breakthrough but need these valves"
+  - decide | assigns authorship of the red-love-drug scheme to two named characters and the scene that triggers it | "Mali and Comet Shine should come up with the scheme... after hearing from the Tzinacatl about their past market dynamics"
+  - establish | states the thematic/justice rationale behind the scheme | "a way to reclaim the economic warfare tools that Chrysalis unleashed... and justice for the Tzinacatl"
+  - propose | floats a tentative funding detail, marked as uncertain, about seized Skyfall Marks falling short of Kesseler's likely demand | "Perhaps they do have Skyfall Marks seized from Rockfeller and other collaborators but it's a drop in the bucket"
+- supplies:
+- shaping:
+  - letter content restriction | "shouldn't mention Kessler's price, just that they had a tech breakthrough but need these valves from Skyfall"
+  - scheme must originate with named characters after a specific trigger scene | "Mali and Comet Shine should come up with the scheme... after hearing from the Tzinacatl"
+  - scheme must carry stated thematic weight of reclaimed economic warfare and justice | "reclaim the economic warfare tools that Chrysalis unleashed on them 20 years before the war started and justice for the Tzinacatl"
+  - financial shortfall detail should factor in a "security premium" tied to Chrysalis's anger | "especially with the 'security premium' of drawing Chrysalis's ire"
+- openness: The message leans toward answers it names outright ("I think... should", "It's a way to..."), with one detail softened as tentative by "Perhaps," rather than posing open questions or offering named alternatives.
+- subject: Plot decisions on Twilight's letter, the origin of Mali and Comet Shine's drug scheme, and its funding shortfall against Kesseler

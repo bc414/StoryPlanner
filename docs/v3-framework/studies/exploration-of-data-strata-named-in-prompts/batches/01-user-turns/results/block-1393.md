@@ -1,0 +1,4 @@
+- sources:
+  - boys over flowers (its plot) | the subject to be examined and judged: the model is to assess the show's plot for whether it broke its own materialist setup, or had one at all | the plot of boys over flowers | referred-to
+- order:
+- about: The user asks the model to evaluate whether the plot of Boys Over Flowers broke its own materialist setup, questioning whether such a setup existed in the first place.

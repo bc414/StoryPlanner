@@ -1,0 +1,5 @@
+- sources:
+  - real world (the model's general knowledge of drugs) | answer the factual questions about meth versus fentanyl danger and methadone for fentanyl from real-world facts | in the real world | first-named
+  - Chrysalis's refined red love for the masses of conscripts and the black market | treat as an open design question: the model is asked whether it could be a blend of stimulant and opioid rather than just meth, so provisional | Can Chrysalis's refined red love | referred-to
+- order:
+- about: The user asks real-world factual questions about meth, fentanyl and methadone, then asks whether Chrysalis's refined red love in the story should combine the two drugs or be only a stimulant like meth.

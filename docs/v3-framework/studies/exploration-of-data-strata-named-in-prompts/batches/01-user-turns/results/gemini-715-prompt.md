@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a revision to the Chapter 16 scene, putting Apple Bloom and her friends in camp so that Trimmel's parting line, the dream memory and Apple Bloom's smile outside the tent lead Applejack to have the uniform title changed.

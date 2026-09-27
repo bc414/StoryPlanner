@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: claim about how the tool behaves | The model's presentation of a Gem as a dependable way to have the whole Lore Bible referenced, when the user reports their existing Gem skips reading the file at this plan size | "The custom gem seems to be skipping reading to save memory" | Flat, terse report of what they have observed, with the plan's size given as the reason; no explicit disagreement or reply to the offered options
+- about: The user answers the model's two free options by reporting that their plan is 300k words and that their custom Gem already skips reading it, which undercuts the Gem option without asking for anything.

@@ -1,0 +1,6 @@
+- sources:
+  - my story's commentary on the manosphere (recognize it is real, answer is unconditional dignity, strong to be merciful to followers, fight grifters head on) | the lens to test Love Island against; the model is to read the show's evidence for what it says about this stance | my story has a lot of commentary about recognizing the manosphere is real | first-named
+  - the Love Island ecosystem | the body of evidence the model is asked to draw on and interpret against the story's stance | What does the Love Island ecosystem say about this? | referred-to
+  - what the real audience responded to and how that caused the show to change (the producers' format evolution) | the user's main interest and what to focus on, rather than audience teaching or the influencer pipeline; treat as evidence for the thesis | more interested in what the real audience responded to and how that caused the show to change | referred-to
+- order:
+- about: The user redirects the model from casting and the influencer pipeline toward the producers' motives and the audience-driven evolution of the format, and asks what the Love Island ecosystem suggests about their story's stance of unconditional dignity toward manosphere followers and confrontation of grifters.

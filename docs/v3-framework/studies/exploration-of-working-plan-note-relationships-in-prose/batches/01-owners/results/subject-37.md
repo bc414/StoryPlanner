@@ -1,0 +1,12 @@
+- relations:
+  - 424|423|the later note answers the earlier one: readers begin knowing she can't fly with no reason given, then are handed a causal reason (malnourished growing up)|Readers start out knowing Scootaloo can't fly / TLTT provides a causal reason|implicit
+  - 423|425|continuation in reader order: after learning why she can't fly, readers learn a later change in which she can fly whenever she wants after the war|can't fly properly because she grew up malnourished / fly whenever she wants post war|implicit
+  - 216|423|the birth in New Mareland is the setting that the malnourished upbringing presupposes|Born in New Mareland in 988 / grew up malnourished in New Mareland|implicit
+  - 216|219|the birth place is the same New Mareland whose social ladder her parents climbed; the parents' motives sit in the place she was born|Born in New Mareland / reached the top of the New Mareland ladder|implicit
+- outward:
+  - 218|a event or work called The Last Crusade, held elsewhere in the plan, that occurred in 1006|The Last Crusade
+  - 219|the Stagnation of Harmony, a place or institution described elsewhere, where the parents left her|dumped their "failed investment" into the Stagnation of Harmony
+  - 423|TLTT, the story itself, whose text supplies the causal reason|TLTT provides a causal reason
+  - 425|Wings of Dew, a lore item held elsewhere, and the war it follows|Wings of Dew let Scootaloo fly whenever she wants post war
+  - 424|the source show that established that she can't fly|The show made it explicit, but never explained why
+- whole: Mostly separate entries with one connected thread: the three reader-opinion notes chain from not flying, to the reason, to flying again, while the history and parents notes only touch them loosely through New Mareland.

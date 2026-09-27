@@ -1,0 +1,4 @@
+- sources:
+  - the model's comparative analysis of the placement options, Option B | adopt Option B as the sequence, but correct its premise: Applejack does not yet have sexual ambitions, so Henri's talk of hidden desire is projection, and the model's version of her headspace should be revised to match | This is really excellent, option B. To clarify, I don't think Applejack actually has sexual ambitions | referred-to
+- order:
+- about: The user accepts the model's recommended Option B placement for the Stare scene and corrects its reading of Applejack's state of mind, then lays out how the Stare's cognitive dissonance should shape Henri's lion-versus-predator distinction.

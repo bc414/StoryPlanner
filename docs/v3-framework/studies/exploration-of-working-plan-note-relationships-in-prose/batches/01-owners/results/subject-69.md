@@ -1,0 +1,33 @@
+- relations:
+  - 990|989|the general statement of who invented it is repeated with the year that the history track gives|Invented by Chrysalis|implicit
+  - 999|1000|continues in time: crystal sourcing first bought from Diamond Mountain, later moved to Krystallfels|Originally used crystals bought from Diamond Mountain / Crystal sourcing moves to Krystallfels island|implicit
+  - 999|996|the crystals whose purchase is recorded are the draining crystal the function note describes|Originally used crystals bought from Diamond Mountain / specialized draining crystal|implicit
+  - 1000|996|the later crystal supply presupposes the draining crystal that the function note says the device runs on|Crystal sourcing moves to Krystallfels island / specialized draining crystal|implicit
+  - 1001|740|history gives the invention and occasion of the magical dampeners that the function note says the centrifuge requires|magical dampeners / requires magical dampeners|implicit
+  - 1001|1007|the dampeners invented for unstable red love answer the vibration and chaos problem that the centrifuge description gives as the reason for its dampeners|magical dampeners ... unstable red love / massive vibration dampeners|implicit
+  - 1001|556|the danger that unstable red love poses to a spell matrix is the problem the dampeners are said to solve|unstable red love as a power source / would shatter a delicate spell matrix|implicit
+  - 555|556|parallel treatments of pink and red love, each tainted by the victim's terror and each needing the same centrifuge to yield different concentrated products|run through a fractional distillation centrifuge|implicit
+  - 555|740|both describe the centrifuge processing pink love; one gives what it isolates, the other says it strips away complex emotions and context|fractional distillation centrifuge / mechanically strip away all the natural impurities|implicit
+  - 556|740|the input's chaos and the victim's struggle is the reason given in both for the centrifuge needing stabilisation or handling|terror, resistance and coercion / chaotic input of the unwilling, struggling victim|implicit
+  - 740|1007|two accounts of the centrifuge input disagree: one treats it as raw pink love being purified, the other as mixed love from which dense red is flung out and light pink left in the centre|take the raw, extracted Pink Love / dense Red Love is flung to the outer walls|implicit
+  - 1007|1929|two mechanisms for splitting the harvested love into pink and red streams: a spun centrifuge versus a vacuum sealed distillation drum|separates the love into two distinct streams / spun at terrifying magical velocities|implicit
+  - 1929|1007|both say the red love's volatility has to be contained, one by a stabilising crystal that feeds back on itself, the other by armour and vibration dampeners|a portion of it is used to stabilize itself / heavy armor plating, and massive vibration dampeners|implicit
+  - 1929|996|the spell matrix for the draining spell is what the specialised crystal mimicking a horn serves, and both name crystals as part of the device|changeling love draining spell / draining crystal mimicking a changeling horn|implicit
+  - 1006|556|the reason only nobles are worth draining, that they hold lots of red love, bears on the note about red love being the tainted, resistant yield of victims|only arrogant former nobles have lots of red love to drain / Extracted red love|implicit
+  - 1006|1007|red love is tied to ambition, which explains why arrogant former nobles are the rich source|Red Love (Ambition/Magic) / arrogant former nobles have lots of red love|implicit
+  - 1006|1008|the reader is led from assuming arbitrary gulag-style tyranny to learning it is not arbitrary cruelty, while the theme note reads the machine as a symbol of industrial tyranny, so the two pull against each other|Chrysalis doesn't do arbitrary cruelty / perfect symbol of Chrysalis's industrial tyranny|implicit
+  - 1008|1007|the roaring, armoured centrifuge on the function side is what makes the machine terrifying and deafening in the theme note|massive, roaring magical centrifuges / terrifying, deafening machine|implicit
+  - 990|1001|the aim of unifying the hives by ending the hive wars is picked up by the later scaling for conquest|end the hive wars and unify the hives / meet the scale of the great leap forward and conquering Vraks|implicit
+- outward:
+  - 1004|Twilight being drained in Pax Chrysalia, from Equestria at War's focus tree and Brazen Gauge's adaptation, including its chapter one Love Tax|Primarily inspired by Twilight getting drained 24/7 in Pax Chrysalia
+  - 990|the hive wars and the hives, held elsewhere|end the hive wars and unify the hives
+  - 555|the jaeger-geist product, held elsewhere|concentrate the oxytocin for jaeger-geist
+  - 555|the panzer-haut product, held elsewhere|endorphins for panzer-haut
+  - 556|the blitz-essenz product, held elsewhere|adrenaline and dopamine for blitz-essenz
+  - 996|the changeling horn|mimicking a changeling horn
+  - 1929|the changeling love draining spell, held elsewhere|spell matrix for the changeling love draining spell
+  - 999|Diamond Mountain as a crystal source|crystals bought from Diamond Mountain
+  - 1000|Krystallfels island|Crystal sourcing moves to Krystallfels island
+  - 1001|the great leap forward and the conquest of Vraks|the great leap forward and conquering Vraks
+  - 1006|drones and former nobles as classes in the society, and the political setting|strap an innocent drone to a love harvester / arrogant former nobles
+- whole: The notes hang together fairly well as a set, with the function and invention notes joined by dampeners, crystals and centrifuges, though a few notes stand apart (canon inspiration, Chrysalis as inventor) and the accounts of the separation mechanism overlap and partly disagree.

@@ -1,0 +1,9 @@
+- asks:
+  - interpret/validate | asks the model to take in and build on the claim that Chrysalis's plan to capture rival nobility with 'love harvesters' mirrors Discret's hunting to liberate peasants, and that this makes the jaeger-from-chasseur naming borrowing make sense | 'makes even more sense when seeing how...'
+  - interpret/validate | asserts that Chrysalis's whole conquest plan, including the name of her new warrior class, is modeled on Discret (secretly Coltbert), extending the parallel to how she 'liberates' drones like Trimmel into a meritocracy | 'her entire hive conquest plan is inspired by Discret (actually Coltbert) right down to the name of her new warrior class'
+  - brainstorm/propose | floats a naming-convention idea: that the old protectors get a different, derogatory name in Chrysalis's Herzlander while 'jaeger' is reserved for her new soldiers like Trimmel | 'Maybe the old protectors have a different, derogatory name...'
+- supplies:
+  - lore recap | summarizes in-world elements: Chrysalis's love-harvester plan against rival hive nobility, Discret/Coltbert's peasant-liberation hunts, the term jaeger borrowed from chasseur, the character Trimmel, and the setting Herzlander | a few sentences
+- shaping:
+- openness: leans toward the interpretive claims it states as settled ('makes even more sense', 'her entire plan is inspired by Discret'), while the added naming idea for the old protectors is floated tentatively with 'Maybe', leaving that detail open
+- subject: worldbuilding parallel between Chrysalis's hive-conquest plan and the Discret/Coltbert peasant-liberation backstory, including the jaeger warrior-class naming

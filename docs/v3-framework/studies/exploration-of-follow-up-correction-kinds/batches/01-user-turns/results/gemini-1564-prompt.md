@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model staged Blueblood's reveal as a face-to-face, in-person arrival in the Diwan with visual contrast (field gear, tired eyes). The user says the scene has him and the other mayors connected by radio, with only Applejack's crew in the room. | "Applejack and her crew are at the Diyarbecolt Diwan, but other mayors and Blueblood are connected via radio" | Put as a question about whether the idea still holds, stating the scene's setup as a plain fact and conceding the drawback ("faceless but has conviction"), not as a stated objection.
+- about: The user restates the scene's actual setup, with Blueblood on radio rather than present, and asks whether the model's reveal proposal still works under it.

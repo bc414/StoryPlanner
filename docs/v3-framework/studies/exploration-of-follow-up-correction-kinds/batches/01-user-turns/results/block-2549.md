@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model treated the correspondence up to June 2023 as the whole record, including calling June 2023 the last exchange and drawing its causal chain and legacy conclusions from that partial set; the user says the later messages were left out | I neglected to share the context from after June 2023. Here is all of it. | Indirect and self-blaming: the user takes responsibility for the gap and supplies the missing material without saying what in the analysis is wrong.
+- about: The user admits they left out the post-June-2023 correspondence and supplies it, implicitly showing that the model's account rested on an incomplete record.

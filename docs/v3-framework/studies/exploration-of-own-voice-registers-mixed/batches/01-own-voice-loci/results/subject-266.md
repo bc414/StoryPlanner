@@ -1,0 +1,33 @@
+- passages:
+  - note 4624 | scheme-outline | present tense, quoted alias names | red love's cover marketing names | apart
+  - note 4624 | historical-analogy | real-world names, past-tense history | East India Company/Opium Wars basis | apart
+  - note 4624 | scheme-outline | plan-instruction phrasing | selling red love via Skyfall for bits | apart
+  - note 4628 | plot-narrative | past tense, list of nations | Chrysalis addicting elites across nations | apart
+  - note 4628 | evaluative-aside | short present-tense judgment | Celestia's naivety | run-in
+  - note 4628 | causal-analysis | present tense, 'underlying problem exists' | guards' arrests vs bits still leaving | run-in
+  - note 4629 | plot-narrative | past tense, 'tightened supply' | funding submarine fleet and MEFO bills | apart
+  - note 4629 | historical-analogy | real-world names, 'is like' | comparison to De Beers/OPEC | apart
+  - note 4629 | economic-analysis | technical terms, 'liquidity','inelastic demand' | draining liquidity via monopoly | apart
+  - note 4630 | scheme-outline | present tense, quoted motto | recruiting ambitious tycoons | apart
+  - note 4630 | plot-narrative | past tense, sequential trade verbs | bits/goods flow funding Great Leap Forward | apart
+  - note 4631 | plot-narrative | past tense, dated events, named tycoon | post-surrender financing and stockpiling | run-in
+  - note 4631 | generalizing-claim | present tense, 'will always have value' | red love safer than paper money | run-in
+  - note 4632 | causal-analysis | present tense, 'which is why', conditionals | submarine blockade's pressure on both sides | apart
+  - note 4635 | economic-analysis | present tense, 'index','reserve asset' | red love price as economic index | apart
+  - note 4654 | plot-narrative | past tense, habitual 'would sell/pay' | shell-company scheme mechanics | run-in
+  - note 4654 | generalizing-claim | present tense conditional | export payment rule | run-in
+  - note 5038 | plot-narrative | past tense, 'sold','never stopped producing' | gun sales to Zebrican warlords over time | run-in
+  - note 5038 | causal-analysis | present tense, 'entirely dependent' | warlords' dependency on Skyfall parts | run-in
+- shifts:
+  - note 4624 | scheme-outline | historical-analogy | 'It is based on', real-world names, past-tense history
+  - note 4624 | historical-analogy | scheme-outline | return to plan-instruction sentence, no real-world names
+  - note 4628 | plot-narrative | evaluative-aside | break, tense shift to present, judgment on Celestia
+  - note 4628 | evaluative-aside | causal-analysis | no break, moves to explaining guards/underlying problem
+  - note 4629 | plot-narrative | historical-analogy | break, real-world names De Beers/OPEC, 'is like'
+  - note 4629 | historical-analogy | economic-analysis | break, return to 'Chrysalis' with technical vocabulary
+  - note 4630 | scheme-outline | plot-narrative | break, tense shift present to past, sequence of trade actions
+  - note 4631 | plot-narrative | generalizing-claim | no break, tense shift past to present, timeless claim
+  - note 4654 | plot-narrative | generalizing-claim | no break, tense shift past to present, conditional rule
+  - note 5038 | plot-narrative | causal-analysis | no break, tense shift past to present, dependency described
+- registers: scheme-outline; plot-narrative; historical-analogy; economic-analysis; generalizing-claim; evaluative-aside; causal-analysis
+- whole: This item's notes move through several distinct registers—in-world present-tense plan statements and past-tense event narration alongside real-world historical comparison, abstract economic analysis, brief evaluative asides, and present-tense causal reasoning—with the shifts sometimes set off by a line or paragraph break and sometimes running together within the same unbroken stretch of prose.

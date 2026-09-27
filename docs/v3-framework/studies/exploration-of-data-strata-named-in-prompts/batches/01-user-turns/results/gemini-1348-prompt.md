@@ -1,0 +1,6 @@
+- sources:
+  - The Count of Monte Cristo | a published story held up as a comparison; the model is asked whether the proposed revenge arc matches it | "is this like the count of monte Cristo?" | referred-to
+  - the model's proposed fate for the classmates (the idea that Chrysalis uses them rather than just killing them) | the user likes it and wants it kept as the direction, an approved suggestion | "I like the idea that chrysy doesn't just want to kill them. She wants to use them." | referred-to
+  - Chrysalis's philosophy with the love harvesters (enemy changeling hive nobles turned into batteries instead of dead bodies) | existing story material treated as established, offered as the parallel that the new idea should match | "Just like her philosophy with the love harvesters turning enemy changeling hive nobles into batteries" | referred-to
+- order:
+- about: The user asks whether the revenge plan resembles The Count of Monte Cristo and endorses the model's idea that Chrysalis uses her enemies rather than kills them, tying it to her established love-harvester approach.

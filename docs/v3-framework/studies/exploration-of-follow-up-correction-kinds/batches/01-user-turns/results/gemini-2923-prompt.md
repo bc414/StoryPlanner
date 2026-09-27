@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the Wings of Dew premise (partner-revealing wings that make Aquileian culture less dystopian), asks for its link to the Tableau de Chasse, its invention by the chasseurs, the colour match and the workings, and supplies their own supposition that the spell transduces the target's magic into flight magic drawing on both ambition and friendship.

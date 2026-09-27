@@ -1,0 +1,23 @@
+- passages:
+  - 17 | terse self-label | short first-person declarative note | subverting the storybook opening of episode 1 | apart
+  - 4106 | causal worldbuilding exposition | past-tense chain of cause and effect ending "That's why" | origin of the Temberik power crystals from Luna's corrupted ambition | apart
+  - 4794 | causal worldbuilding exposition | past-tense factual scene-setting on the Thestrals and Luna's goal | Thestrals' role and Luna's plan to end feudalism | apart
+  - 4794 | interpretive character analysis | evaluative word "naively" and abstract terms like "material interdependence", "ideology triumphed over economics" | why Luna misjudged the world's need for cooperation | run-in
+  - 4946 | category heading | short dash-tag phrase | labeling the note's topic as an epistemological legend | apart
+  - 4946 | causal worldbuilding exposition | "because...therefore" causal clause | tribes' refusal to modernize due to the Nightmare Moon legend | apart
+  - 4946 | informal aside comparison | parenthetical naming an outside show character | comparing tribal traditionalism to Applejack | run-in
+  - 5224 | causal worldbuilding exposition | past-tense cause-and-effect ending "That's why" | thestrals' retreat and the resulting Tzinacatl wars | apart
+  - 5463 | expository assertion | present-tense topic statement naming the spell | limit on Nightmare Moon's power and the dream-altering spell | apart
+  - 5463 | procedural mechanism description | present-tense step list "drains...replaces...uses...repeats" | how the dream-altering spell functions and self-replicates | apart
+  - 5463 | dramatic causal narration | past tense with emotive terms "red love", "meltdown" | Luna losing control and becoming Nightmare Moon | run-in
+  - 5743 | narrative frame | past-tense scene-setting clause | Celestia's attempt to dissuade Luna | run-in
+  - 5743 | reported reasoning | present-tense assertive claim attributed to Luna | Luna's justification for preemptive harmony | run-in
+- shifts:
+  - 4794 | causal worldbuilding exposition | interpretive character analysis | marked by evaluative adverb "naively" and shift to abstract socio-economic vocabulary
+  - 4946 | category heading | causal worldbuilding exposition | marked by a line break from a dash-tag label to a full explanatory sentence
+  - 4946 | causal worldbuilding exposition | informal aside comparison | marked by a parenthetical naming an outside show character
+  - 5463 | expository assertion | procedural mechanism description | marked by a line break and shift to a present-tense step-by-step account
+  - 5463 | procedural mechanism description | dramatic causal narration | marked by a shift to past tense and emotive vocabulary "red love", "meltdown"
+  - 5743 | narrative frame | reported reasoning | marked by a tense shift from past to present within the same sentence
+- registers: terse self-label; causal worldbuilding exposition; interpretive character analysis; category heading; informal aside comparison; expository assertion; procedural mechanism description; dramatic causal narration; narrative frame; reported reasoning
+- whole: This item's notes hold several registers—plain expository lore-narration, evaluative character analysis, a bare category heading with an informal aside, technical procedural description, dramatic narrative climax, and framed reported speech—some set apart by headings or line breaks and others running together inside a single sentence with no break at all.

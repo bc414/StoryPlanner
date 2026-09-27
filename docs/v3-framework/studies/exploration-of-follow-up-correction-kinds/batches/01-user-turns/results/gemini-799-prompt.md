@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of ammunition economics and offers a tentative worldbuilding explanation of why Chrysalis's Changelings stay with metal bullets while Equestria uses donated love for Twilight's rifle, inviting the model to confirm or expand.

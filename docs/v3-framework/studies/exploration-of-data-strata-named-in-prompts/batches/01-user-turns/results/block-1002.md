@@ -1,0 +1,7 @@
+- sources:
+  - Blueblood's character arc, from being humiliated by Pagala to unearthing the Krystalfels conspiracy | re-read closely and use as the basis for re-judging the allegory; treated as the authoritative account of who Blueblood is | closely reevaluate his character arc, from being humiliated by Pagala to unearthing the Krystalfels conspiracy | referred-to
+  - the blueblood parallel (the model's earlier mapping of Blueblood onto the institutional conservative, in this conversation) | treat as incorrect and set aside; to be reevaluated | I don't think the blueblood parallel is correct | referred-to
+- order:
+  - Blueblood's character arc, from being humiliated by Pagala to unearthing the Krystalfels conspiracy | the blueblood parallel | the parallel is called wrong and the arc is to be reevaluated closely instead
+  - Blueblood's character arc, from being humiliated by Pagala to unearthing the Krystalfels conspiracy | the blueblood parallel | I don't think the blueblood parallel is correct. Please closely reevaluate his character arc
+- about: The user rejects the model's mapping of Blueblood onto constitutional conservatives, asks it to re-read his arc from Pagala's humiliation to the Krystalfels conspiracy, find a better allegory for constitutionalists, and say whether that also covers Biden's defense-of-democracy rhetoric that failed in 2024.

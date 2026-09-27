@@ -1,0 +1,17 @@
+- passages:
+  - 4726 | taxonomic/definitional list | strings of stage labels linked by "=" to short tags | defining Stage 1-3C of a societal-development schema | apart
+  - 4727 | historical narrative-descriptive | past tense, "was the renaissance and age of absolutism" | mapping Stage 2 onto Renaissance/absolutism history | apart
+  - 4727 | analytical/present-day application | present tense claims, lists of named countries as supporting evidence, "is the ultimate betrayed 3B ideal" | sorting current nations and factions (West, China, Poland, Nordics, Rwanda, Ethiopia, El Salvador, SDF) into stages | apart
+  - 4731 | historical narrative-descriptive | dated phase headers, declarative past-tense era summaries | American history phases 1-5 from 1607 through 2008 mapped to the stage schema | apart
+  - 4731 | authorial-purpose/reflective | "This is why Equestria... should uniquely relate", evaluative modal, names the fictional work | linking the historical framework to the meaning of Equestria's stagnation | apart
+  - 4732 | analytical/present-day application | present tense breakdown of factions, quoted slogan "Return to Normalcy", cause-effect claims about AI | mapping current US politics and AI's role onto the stage schema | apart
+  - 4733 | analytical/present-day application | superlative present-tense claim, "slowly dying" | Japan as the leading example of stagnation | apart
+  - 4734 | critique/descriptive | reported mindset, "thinking we are in collapse and must dictate things" | describing politicians' authoritarian misreading of the situation | apart
+  - 4734 | corrective/normative assertion | pivot phrase "The reality is", modal "must have" | asserting actual abundance and the need for right policy | apart
+  - 5458 | aphoristic generalization | compact general formula, "most X is due to Y not Z" | root cause of oppression being scarcity rather than amorality | apart
+- shifts:
+  - 4727 | historical narrative-descriptive | analytical/present-day application | tense shift from past "was" to present "is", move from single historical analogy to multiple present-day country examples
+  - 4731 | historical narrative-descriptive | authorial-purpose/reflective | introduction of "Equestria" and evaluative "should uniquely relate", turning from era-by-era history to a statement about the story's meaning
+  - 4734 | critique/descriptive | corrective/normative assertion | pivot phrase "The reality is" turning from describing a flawed mindset to asserting the actual situation
+- registers: taxonomic/definitional list; historical narrative-descriptive; analytical/present-day application; authorial-purpose/reflective; critique/descriptive; corrective/normative assertion; aphoristic generalization
+- whole: These notes hold several registers - a bare taxonomic list, historical narration, present-day analytical mapping, a reflective aside on the fiction itself, critique-then-correction, and a closing aphorism - and each shift lands at a sentence boundary rather than blending inside one sentence.

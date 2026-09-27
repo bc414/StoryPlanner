@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model built its whole reasoning about Réni's crash on the plane-crash-over-meatgrinder premise as settled world truth, without weighing whether newer material (the Stalliongrad/Severyana enhanced ontology and Chrysalis's prequel establishing the Empire runs independently of her) has superseded or made that older premise obsolete | "if it's superceded by newer developments" | put tentatively, as a musing self-doubt rather than a flat assertion
+- about: The user turn steps back from the model's detailed causal analysis to question whether the whole underlying premise it was built on — the plane crash over a nazi/soviet-style infantry meatgrinder — still holds given newer worldbuilding developments, rather than continuing within the model's framework.

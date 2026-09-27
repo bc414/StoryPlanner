@@ -1,0 +1,5 @@
+- sources:
+  - FJA initials, already established as "the new way of life" by the end of the reconquest wars | treat as settled story canon that constrains the naming: the martial clubs' French names must carry the FJA initials | those letters are already established | referred-to
+  - other organizations that use the initials too | treat as established fact about the world: the FJA letters are shared with other groups, so the martial clubs' name should fit alongside them | there are other organizations that use the initials too | referred-to
+- order:
+- about: The user asks for French-inspired names for the Royal Academy and the martial clubs, leaves the academy's name open, and requires the martial clubs to use the FJA initials because those letters are already established in their story.

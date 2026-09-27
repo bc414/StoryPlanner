@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, reading the chapter outline, floats a new idea, that Synovial might get limited POV sections like Trimmel's, as a tentative question and not as a fix to anything in the outline.

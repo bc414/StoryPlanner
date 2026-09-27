@@ -1,0 +1,4 @@
+- sources:
+  - The original elements from FiM canon | treat as the baseline case the plan departs from: the canon elements are the outcome when both sides always naively cooperate, and the author's new variants are defined against them | The original elements from FiM canon are the result when both parties always naively cooperate | referred-to
+- order:
+- about: The user lays out their plan for applying a predator's dilemma to the six Elements of Harmony, describing how the elements change under war, tyranny and liberty outcomes compared with the canon baseline.

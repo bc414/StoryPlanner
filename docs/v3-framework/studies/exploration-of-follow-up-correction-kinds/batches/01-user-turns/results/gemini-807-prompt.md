@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model assumed Applejack would invoke Luna, Nightmare Moon and Luna's motto in the ultimatum, treating Luna's private reveal as usable material; the user says this reveal was tragic and private and shouldn't be referenced | I don't think Applejack should mention Luna or Nightmare Moon. Luna's reveal was a tragic and private discussion | flat statement of disagreement, with a reason given about the reveal's privacy
+  - fact of the world | The model's framing of Applejack as putting on the mask of Nightmare Moon and using Luna's retribution against a monarchy-as-antagonist misjudges her psychology and relationship to the Princesses, who are overprotective mother figures and not the enemy she wants to offend | Applejack doesn't want to offend Luna or Celestia, who are not the enemy; they are overprotective mother figures | stated as a reason, flat and brief, correcting the character's stance
+- about: The user rejects the model's whole approach of building Applejack's ultimatum around Luna and Nightmare Moon, explaining that Luna's reveal was private and that the Princesses are not enemies to be offended.

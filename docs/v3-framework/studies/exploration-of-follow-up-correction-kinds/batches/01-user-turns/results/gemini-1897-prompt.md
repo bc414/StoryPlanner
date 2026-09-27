@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast Rémi as a refugee fleeing to Vinovia who forages for the starving, when in the story he is the host and the serfs shelter the evicted Royalists at Cecille Gaudreau's direction | To clarify, Rémi is the host | Flat, brief clarification stated as fact, with the correct arrangement supplied in one sentence and no comment on the error
+- about: The user restates Rémi's actual role as host of the evicted Royalists, then moves on to ask what else Cecille would reform in 973 and whether the full 980 crop is available for refugee sharing now that the king is beheaded.

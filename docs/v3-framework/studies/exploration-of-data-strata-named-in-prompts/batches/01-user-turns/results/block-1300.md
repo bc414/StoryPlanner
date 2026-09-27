@@ -1,0 +1,5 @@
+- sources:
+  - Scootaloo's Story.pdf, the attached plan for a canon FiM story never written | material to analyze and compare against the methodology; the subject of the question | Here is the plan for a canon FiM story that I was going to write but never got to | first-named
+  - my planned methodology for TLTT | the framework the plan is to be related to; the model is asked how the plan compares with it | How does it relate to my planned methodology for TLTT? | referred-to
+- order:
+- about: The user attaches a plan for an unwritten canon My Little Pony: Friendship Is Magic story and asks how it relates to their planned methodology for TLTT.

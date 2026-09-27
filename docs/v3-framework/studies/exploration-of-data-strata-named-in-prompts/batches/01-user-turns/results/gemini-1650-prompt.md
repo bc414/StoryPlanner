@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's premise about Applejack's parents by stating flatly that they use no fertilizer and grow nothing, and instead buy leftover produce from all farms and can it to feed starving populations elsewhere.

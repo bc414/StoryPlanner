@@ -1,0 +1,7 @@
+- sources:
+  - the MLP movie | research it and use it as material for the meta-narrative analysis | Research the MLP movie | first-named
+  - the EaW adaptation of the Storm King's for Zebrica | research it and draw on it for the analysis | the EaW adaptation of the Storm King's for Zebrica | first-named
+  - my TLTT plan | research and draw on it as the story plan the meta-narrative analysis is about | then my TLTT plan | referred-to
+  - the siege of Mount Sinjar | an additional real-world analogy for the battle, to be worked into the analysis | another analogy is the siege of Mount Sinjar | first-named
+- order:
+- about: The user asks the model to expand its meta-narrative analysis of the Battle of Mount Aris by researching the MLP movie, the EaW adaptation of the Storm King's Zebrica, and their TLTT plan, and adds the siege of Mount Sinjar as another analogy.

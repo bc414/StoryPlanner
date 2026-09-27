@@ -1,0 +1,7 @@
+- asks:
+  - compare | asks the model to compare two hypothetical versions of an event - a character inventing the printing press at age 20 versus at age 50 - presumably in terms of consequences, character development, or story implications | "Give a comparison of if Grover 3 invented the printing press when he was 20 versus when he was 50"
+- supplies:
+- shaping:
+  - comparative format | the message frames the request explicitly as a "comparison" between two named ages, implying a side-by-side or point-by-point treatment | "Give a comparison"
+- openness: Leaves the answer open: it names the two ages (20 and 50) to be compared but does not state or lean toward which outcome, consequence, or version it expects, and doesn't ask the model to pick one.
+- subject: Comparing outcomes of a character (Grover 3) inventing the printing press at two different ages within a fictional story world

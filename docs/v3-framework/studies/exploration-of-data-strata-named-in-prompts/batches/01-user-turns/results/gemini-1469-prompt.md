@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to add Steve Sweeney to the list of 2025 New Jersey gubernatorial primary figures it just sorted, without pointing at any body of material to use.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's grouping of Harmonic Capitalism (Tall Tale) in the Republic cluster with Equestrian Republic, Pioneer Equestria, Crystal Empire and the ancient changeling hives; the user now leans toward it matching Coltbert's Aquileia instead | "should match Coltbert's Aquileia, not the final Equestrian Republic/Pioneer Equestria/Ancient Harmonic Changeling Hives" | tentative and framed as the user's own rethinking under a clearer framing, with a request for evidence for and against rather than a flat statement of error
+- about: The user reopens the model's placement of Harmonic Capitalism in the Republic cluster, proposes it belongs with Coltbert's Aquileia, and asks for evidence for and against across the planner sources.

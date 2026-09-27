@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's sweep of Gemini-originated terms and asks it to extend the audit to other distinct words, especially nouns, by sampling more of the v1 archive before material enters v2.

@@ -1,0 +1,4 @@
+- passages:
+  - 5381 | other: open design question about how a third party (Longsword) should be involved, with tentative reasoning | Asks how Longsword should be involved in the Republican Pact, and speculates it is too poor and vulnerable to join as a military actor and may not join until after Equestria, being harmonic but communist, and not until it is "Allies" | none | posed as a question, with hedges like "perhaps" and a closing fragment
+- sequences:
+- whole: A single brief planning note that wonders how Longsword should relate to the Republican Pact, floating reasons it might stay out until later.

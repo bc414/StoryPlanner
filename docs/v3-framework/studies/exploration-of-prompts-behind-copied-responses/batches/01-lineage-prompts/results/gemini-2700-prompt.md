@@ -1,0 +1,7 @@
+- asks:
+  - evaluate | asks whether the proposed change to the letter's tone and framing would make it more impactful | "Would this be even more impactful?"
+- supplies:
+  - idea | a proposed tone (season 1-3 style friendship letter but with mature content) and framing (a parent-child aesthetic, with Applejack admitting she doesn't know how to run a country and must go learn) for an in-story letter | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it names: the message proposes the tone and aesthetic itself and frames the question as whether this would be "even more impactful," signaling the user's own favored direction and asking for confirmation.
+- subject: The tone and framing of Applejack's letter about not knowing how to rule and needing to learn

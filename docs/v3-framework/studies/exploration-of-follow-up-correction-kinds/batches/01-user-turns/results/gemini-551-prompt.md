@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user ignores the model's menu of next steps and asks a new question, requesting more detail on the precursor of the drugs and how it was sourced.

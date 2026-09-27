@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Zeppelin analogy and restates it in their own story's terms (high-flying armada, muskets, phosphorus-armed fighters), building on it rather than disputing anything.

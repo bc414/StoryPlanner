@@ -1,0 +1,4 @@
+- sources:
+  - Plan export attached (142,187 words) | supplied as material for the model to draw on; the turn gives no instruction about how far to trust it or how to rank it | Plan export attached — 142,187 words | first-named
+- order:
+- about: The user turn only attaches a story-plan export and states its size, without giving any instruction about it.

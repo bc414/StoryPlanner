@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - omission of fields from the export (own name) | the JSON export the model has been building carries Synopsis but leaves out the plot point's Stakes and Outcome text fields, which the user treats as important parts of the model | "If you look at my plot point model, I also have Stakes ... and Outcome" | flat and matter-of-fact, pointing the model back to the model definition as the reason, then a plain instruction to add them; no apology or irritation
+- about: The user, moving on from the legend wording, points out that the export leaves out the Stakes and Outcome fields of their plot point model, defines each briefly, and asks for them to be added to the JSON.

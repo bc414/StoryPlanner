@@ -1,0 +1,19 @@
+- passages:
+  - note 5239 | analytic exposition | third-person present tense, explanatory clauses on hatred, wariness, blindness | Celestia's hatred and blindness toward Aquileia and Ambition | apart
+  - note 5239 | list fragment | bare comma-separated noun phrases, no verbs | the specific traits she has internalized about Aquileia | run-in
+  - note 5431 | analytic exposition | present tense, gerund subject, cause-and-effect clauses | how giving post-rescue therapy affects Celestia's self-image and conviction | apart
+  - note 5431 | retrospective narrative | past tense, statement of a prior belief and its reversal | Celestia once thinking herself obsolete and having her conviction restored | apart
+  - note 5694 | self-address planning note | first-person conditional opening, colon | the author's plan for a Celestia-perspective side story | run-in
+  - note 5694 | conditional plot outline | modal 'should'/'would', third person, parenthetical fandom reference | Celestia disguising as 'Sunny Skies' to visit the changeling POW camp | run-in
+  - note 5694 | in-scene indicative narration | 'But' opening a new line, present-tense indicative claim | the changelings sensing her trouble through emotion sense | apart
+  - note 5791 | analytic exposition | subordinate temporal clause plus a present-tense belief statement | Celestia's belief that a magical rescue will always come | apart
+  - note 5793 | analytic exposition | terse present-tense verb 'conflates' | Celestia equating consensual love with predation | apart
+- shifts:
+  - note 5239 | analytic exposition | list fragment | sentence structure drops away into a bare noun-phrase list
+  - note 5431 | analytic exposition | retrospective narrative | tense shifts from present to past across a paragraph break
+  - note 5694 | self-address planning note | conditional plot outline | first-person address gives way to third-person modal narration after a colon
+  - note 5694 | conditional plot outline | in-scene indicative narration | modal 'should/would' drops out for indicative present tense, marked by 'But' starting a new line
+  - note 5791 | | |
+  - note 5793 | | |
+- registers: analytic exposition; list fragment; retrospective narrative; self-address planning note; conditional plot outline; in-scene indicative narration
+- whole: This item's notes hold several distinct registers — a dominant analytic exposition, plus a bare list fragment, a past-tense retrospective narrative, and a self-addressed planning note that runs through a conditional plot outline into present-tense in-scene narration — with these registers sometimes running into one another inside a single sentence and elsewhere set apart by a paragraph break.

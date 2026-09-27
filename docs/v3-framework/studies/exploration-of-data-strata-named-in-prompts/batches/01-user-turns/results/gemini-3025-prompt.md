@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's prologue suggestion with their own structural plan: Applejack gets a flashback from Mount Aris to the start of the war at the end of the chapter Honor, and Twilight gets a matching flashback at the start of the chapter Entrenchment.

@@ -1,0 +1,7 @@
+- asks:
+  - analysis | asks the model to analyze the stated premise for the story plan | "Please analyze this premise for my story plan"
+- supplies:
+  - premise statement | describes Maud Pie earning a "rockterate" at the University of Pridea and reframes the Pie family rock farm as a fertilizer-export business where earth ponies use magic to break up rock for agricultural export to other countries | a couple of sentences
+- shaping:
+- openness: leaves the answer open — it states the premise as a given and asks for analysis without specifying which aspects to focus on or naming any alternative
+- subject: worldbuilding premise reinterpreting Maud Pie's rock doctorate and the Pie family rock farm as a fertilizer-export business

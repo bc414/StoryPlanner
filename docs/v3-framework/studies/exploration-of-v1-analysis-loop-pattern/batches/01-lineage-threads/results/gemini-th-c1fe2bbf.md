@@ -1,0 +1,18 @@
+- steps:
+  - author | frames theme | non-cynical 'harmonic capitalism' thesis defeating both authoritarian capitalism and benevolent luddism, tied to 'strong to be merciful' | opening of the prompt
+  - author | affirms prior idea | likes the earlier link drawn between Celestia's job and honest work | early in the prompt
+  - author | clarifies timeline | specifies Celestia reverts to her pre-war self at chapter 18 and defers her true abdication arc to after the Aquileia campaign and referendum | middle of the prompt
+  - author | poses questions | asks what happens at the white-peace moment in chapter 18 — whether Applejack demands or accepts, how she gets to Aquileia, and whether to reveal the Luna doctrine now | end of the prompt
+  - model | reframes the conflict | recasts the dispute as Cutie Mark Economy/benevolent luddism versus Harmonic Industry, both sides morally intelligible but one obsolete | opening of the reply
+  - model | drafts opposing arguments | lays out Celestia's benevolent-luddite case with its stated weakness, and Applejack's harmonic-capitalism counter-case | early section of the reply
+  - model | delivers a verdict | recommends revealing the Luna doctrine now in chapter 18 and explains the impasse this reveal produces | second section of the reply
+  - model | designs a mechanism | proposes a 'volunteer' loophole letting Applejack resign her commission to fight at Aquileia while Celestia keeps face | third section of the reply
+  - model | drafts scene structure | breaks chapter 18 into four sequential scenes covering the speech, confrontation, doctrine exchange, and departure | fourth section of the reply
+  - model | ties forward | explains how the chapter-18 split sets up home stagnation versus Applejack's foreign success, making the later referendum inevitable | fifth section of the reply
+  - model | extends to another character | addresses Twilight's reaction to Celestia's regression and how it confirms her choice to leave for Aquileia | closing section of the reply
+- kept:
+  - note 1029 | pasted whole from this reply | keeps the reframing of the conflict as Cutie Mark Economy vs Harmonic Industry, filed under the Economic Arguments plot point
+  - note 1030 | pasted whole from this reply | keeps the drafted Celestia benevolent-luddite argument block, filed under the Economic Arguments plot point
+  - note 1031 | pasted whole from this reply | keeps the drafted Applejack harmonic-capitalism counter-argument block, filed under the Economic Arguments plot point
+- brought: The author brought a thematic framing question about avoiding pure economic determinism, a timeline clarification separating Celestia's chapter-18 regression from her later abdication, and specific staging questions about the white-peace scene and the Luna doctrine reveal.
+- loop: The author brought a thematic direction plus a timeline clarification and concrete staging questions; the model returned a full package — reframed conflict, dueling arguments, a reveal verdict, a plot mechanism, a scene breakdown, and forward ties — but the plan kept only the reframed conflict and the two opposing argument blocks, filing them as the Economic Arguments plot point while leaving the verdict, mechanism, scene structure, and Twilight material untraced.

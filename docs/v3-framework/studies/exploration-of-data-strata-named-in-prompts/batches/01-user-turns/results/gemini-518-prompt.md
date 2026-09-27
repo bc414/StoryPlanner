@@ -1,0 +1,4 @@
+- sources:
+  - the story | treat as the material to draw on for an overview of Fleur Bloom's character development | in the story | referred-to
+- order:
+- about: The user drops the Gourard/Gouraud/Giraud name discussion and asks for an overview of the character Fleur Bloom's development in the story.

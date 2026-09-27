@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a clever name for the Aquileian Cartel HQ in Skyfall's smog basin, gives the naming constraints, and describes the building's three tiers and its message, without pointing at any body of material for the model to draw on or avoid.

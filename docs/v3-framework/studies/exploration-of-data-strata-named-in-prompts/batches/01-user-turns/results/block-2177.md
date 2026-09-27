@@ -1,0 +1,5 @@
+- sources:
+  - v1 notes ("some more disorganized v1 notes") | raw data capture to analyze as evidence: use to support existing v2 material or to point to something new for v2, without overfitting and looking for universal themes | disorganized v1 notes that are raw data capture and can be evidence | first-named
+  - v2 ("existing stuff in v2") | the current organized version that the v1 notes either back up as evidence or get extended by new additions | evidence for existing stuff in v2 or point to something that should be added to v2 | referred-to
+- order:
+- about: The user hands over more raw, disorganized v1 notes and asks the model to analyze them as evidence for existing v2 themes or as pointers to new v2 additions, keeping to universal themes rather than overfitting.

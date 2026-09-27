@@ -1,0 +1,14 @@
+- asks:
+  - retrieval | provide internet sources that document/support the claims made in the two prior answers about prose-vs-logic authorship and AI usage patterns | "Please provide sources from the internet detailing this answer"
+  - scoping | narrow the sourcing specifically to first-party material so the person can read primary accounts directly | "I want to read all about this phenomenon through 1st party sources"
+  - retrieval | find blog posts or guides written by peers who use reasoning models to build out narrative structure/story logic (the architect role) | "blog posts or guides for peers using reasoning models for building out narrative structure (architects building the fabula)"
+- supplies:
+  - prior exchange | the person's first question (whether real authors balance prose delivery vs story logic, whether AI roleplay/creative-writing users think about logic, request to assess against real usage and public perception of AI tools/users Nov 2022-Mar 2026) plus Gemini's full answer covering author dual-responsibility framing and a timeline of AI writing-tool eras/user communities | several pages
+  - prior exchange | the person's follow-up asking Gemini to re-derive the prose/logic split from literary-theory first principles rather than trust the prior answer, plus Gemini's full answer covering Fabula/Syuzhet narratology, Sanderson/King and Architects-vs-Gardeners, developmental vs line editing | several pages
+- shaping:
+  - must be sources drawn from the internet, not the model's own synthesis | "sources from the internet"
+  - must be first-party/primary sources | "1st party sources"
+  - should include blog posts or guides as a source type | "blog posts or guides"
+  - sources should specifically address peers using reasoning models for narrative-structure/logic work rather than prose generation | "using reasoning models for building out narrative structure (architects building the fabula)"
+- openness: Open — the message names the desired source type (first-party blog posts/guides about reasoning models used for narrative structure) but does not name any specific sources, sites, or authors to find.
+- subject: Sourcing documentation on the prose-delivery vs narrative-logic distinction in authorship and on writers using AI reasoning models for story-structure work

@@ -1,0 +1,30 @@
+- steps:
+  - author | brought plan document | full story-plan export, no message text | opening of thread
+  - model | analyzed and generated options | mechanics for Twilight's Unified Theory of Magic realization, three staged 'aha' scenarios plus a synthesis | reply to first export
+  - author | brought plan document | second full story-plan export, no message text | second turn
+  - model | audited plan against author's notes | cross-check of drug-worldbuilding notes vs what's already in the story, flags gaps to develop | reply to second export
+  - author | posed a question | whether/what alcohol exists in Celestia's Equestria | third turn
+  - model | proposed a framework | fermentation-vs-distillation divide, black-market tier, scene ideas | reply to alcohol question
+  - author | brought outside canon fact and a synthesis | official EaW lore on Severyana's 507 ALB annexation, reconciled with the Stagnation timeline | fourth turn
+  - model | validated and extended | Severyana as neglected 'step-child' polity, ties to Trimmel's motivation and the 995 revolution | reply to Severyana synthesis
+  - author | posed a question with a real canon reference | asked where Rarity's 'find my princess' Gala delusion could originate given it doesn't fit Celestia's court | fifth turn
+  - model | traced an origin and researched history | Aquileian chivalric-romance source, real French/English historical parallels (courtly love, Perrault, Regency marriage market) | reply to Rarity-delusion question
+  - author | posed a naming request | asked for the French word for 'lioness' for a planned Combined Arms scene | sixth turn
+  - model | supplied a term and drafted a scene | 'Une Lionne', historical/literary gloss, sample dialogue and payoff | reply to naming request
+  - author | posed a sequencing question | whether the romantic 'Une Lionne' use should precede or follow the insulting Herzlander use | seventh turn
+  - model | argued a sequence and drafted dialogue | recommended insult-then-redemption order with sample scene text | reply to sequencing question
+  - author | brought plan document | third full story-plan export, no message text | eighth turn
+  - model | analyzed | significance of Applejack's uniform/title swap and Rarity's 'une lionne' line | reply to third export
+  - author | brought an extension idea | proposal that Cadance and Shining Armor are familiar with Aquileian parloir culture | ninth turn
+  - model | validated and extended | rationale tying Cadance's talent and parloir visits to Crystal Army competence, revised scene reactions | reply to parloir-familiarity idea
+  - author | posed a question | requested an analysis of Cadance and Shining Armor's role within the Stagnation of Harmony | tenth turn
+  - model | produced a thematic analysis | their role as subversion of Stagnation, Crystal Empire as antithesis, love as active ambition | reply to final question
+- kept:
+  - note 4624 | the plan held this text before this reply | confirms existing Chrysalis's Economic Scheme entry (red love marketed as Failed Tyrants, Opium War basis) unchanged, quoted back into Subject on Chrysalis's Economic Scheme
+  - note 3125 | pasted from this reply with cuts | keeps the line that wine-drinking marks Applejack's growing acceptance of the world's complexity, placed on the Applejack-drinks-wine-with-Henri link under Stagnation of Harmony
+  - note 3349 | pasted from this reply with cuts | keeps the 'Celestia's Blind Eye'/containment-zone framing of the parloirs, placed on Rarity's Recontextualized Backstory link under Stagnation of Harmony
+  - note 2884 | one sentence lifted | keeps the analysis sentence on Element of Honesty vs Lioness of Tall Tale marking the dead status quo, plus the Tall Tale etymology and Lioness+Tall Tale synthesis, placed on the Twilight-realizes/Lioness-spell link under Stagnation of Harmony
+  - note 4308 | the plan held this text before this reply | confirms existing 1003 plot beat (Crystal City's return, 2nd Great Leap Forward, Trimmel as hivesmarshal) unchanged, quoted back into Subject on Chrysalis's True Actions and Motivations
+  - note 5791 | one sentence lifted | keeps the sentence that Celestia believes a magical deus ex machina will always save them after the Canterlot Wedding, placed on Subject Princess Celestia
+- brought: The author repeatedly brought the evolving full story-plan export plus outside canon facts (official Equestria at War lore on Severyana, MLP episode canon on Rarity's Gala arc, Cadance's stated talent) to test, extend, and get analysis against the model's existing thematic framework.
+- loop: The author brings plan exports, targeted worldbuilding questions, and outside canon facts, and the model returns elaborate analyses, staged scenarios, historical parallels, and drafted dialogue in response; the planning database retains only a handful of single sentences or already-existing passages from all this — mostly confirming text the plan already held or capturing one condensed interpretive line — while the bulk of the model's generated options, historical research, and draft scenes leave no trace in the plan.

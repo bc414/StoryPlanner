@@ -1,0 +1,14 @@
+- passages:
+  - note 4152 | statistical-inventory | short declarative sentences with population figures, ethnic breakdown | demographic composition of Cloudbury | apart
+  - note 4369 | self-directive reminder | short imperative plus quoted phrase | reminder to stress civic religion theme | apart
+  - note 4455 | expository-causal | declarative statement plus causal clause with 'because...they can' | Nordic-model foundation and its economic cause | apart
+  - note 4455 | evaluative-contrastive | judgmental adjectives, contrast clause 'totally different from...stereotype' | distinguishing new GR from old regimes and Herzland stereotype | apart
+  - note 4455 | terse corrective | very short sentence naming one place, not another | clarifying that Skyfall, not Cloudbury, embodies the idea | apart
+  - note 4456 | normative-policy | modal 'should', absolute phrase 'at all costs' | stating GR's anti-monopoly goal | apart
+  - note 4456 | explanatory-mechanistic | descriptive present tense, 'is set up so', 'are nudged' | how market incentives implement the anti-monopoly goal | apart
+- shifts:
+  - note 4455 | expository-causal | evaluative-contrastive | shift to judgmental adjectives and contrastive clause naming old regimes and stereotype
+  - note 4455 | evaluative-contrastive | terse corrective | drop to a very short sentence naming Skyfall against Cloudbury, correcting rather than arguing
+  - note 4456 | normative-policy | explanatory-mechanistic | modal 'should' gives way to descriptive 'is set up', 'are nudged' explaining the mechanism
+- registers: statistical-inventory; self-directive reminder; expository-causal; evaluative-contrastive; terse corrective; normative-policy; explanatory-mechanistic
+- whole: The item's four notes move across several distinct registers—bare statistical listing, a short self-reminder, expository-causal explanation sliding into evaluative contrast and terse correction, and normative policy sliding into mechanistic explanation—but each shift falls at a sentence break rather than mixing registers within one sentence.

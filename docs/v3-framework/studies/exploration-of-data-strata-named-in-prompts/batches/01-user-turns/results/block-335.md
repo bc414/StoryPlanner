@@ -1,0 +1,8 @@
+- sources:
+  - this document, the fabula | the underlying story material; it informs the main story, but not every detail in it has to be delivered there | In the context of Russian formalism, this document is only the fabula | referred-to
+  - the story plan's plot points | the content the main story "The Lioness of Tall Tale" is built from and details | This main story ... is what the story plan details in its plot points | referred-to
+  - the story plan's chapter "Prequel" | the material to be developed into a Mane 6 prequel covering Mount Aris to the start of the Great War, drafted first and kept unpublished | featured in the story plan as the chapter "Prequel" | referred-to
+  - canon FiM | the baseline the plan departs from at the Battle of Mount Aris; the prequel draft writes out the gap between it and the start of the main story | the point where my plan sharply diverges from canon FiM | referred-to
+  - EaW | the other source the plan joins with FiM at the divergence point; named only as where FiM meets it | where FiM meets EaW | referred-to
+- order:
+- about: The user explains how they will split their planning document (the fabula) into a main third-person-limited story plus prequel-sequels and an unpublished practice prequel, and asks for an analysis of that delivery structure.

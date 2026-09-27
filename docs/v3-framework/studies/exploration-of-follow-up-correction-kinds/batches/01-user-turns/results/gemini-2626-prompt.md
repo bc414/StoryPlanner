@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's episode descriptions and canon claims were drawn from its own recall rather than the show's transcripts, and the user says they contain invented details; the user now supplies a NotebookLM of transcripts for strict grounding | There are some hallucinations in the previous answer, so I have attached a notebook LM containing the transcripts of the canon FiM show for strict grounding | stated flatly as a diagnosis, with a remedy of attaching the source material and asking for a redo grounded in it
+- about: The user says the prior answer's canon claims were hallucinated, supplies transcripts as a grounding source, and asks for detailed canon examples of Pinkie Pie managing fear/adrenaline, crash and oxytocin recovery to connect to the morale cakes.

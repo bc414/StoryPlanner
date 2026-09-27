@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a counterfactual history question, what if Lenin had lived or Trotsky had beaten Stalin, to get idealistic inspiration for their story's Stalliongrad faction, without pointing at any body of material for the model to use or avoid.

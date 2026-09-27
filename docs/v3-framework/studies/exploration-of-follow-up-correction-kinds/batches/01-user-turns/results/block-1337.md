@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's production-ecosystem analysis, generalizes it into a pattern about creator vision and popularity that they say informs their own project, and asks for more examples, counterexamples and an in-between institutional case such as Pixar, plus the reasons behind them.

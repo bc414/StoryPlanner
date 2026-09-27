@@ -1,0 +1,5 @@
+- sources:
+  - Erwin Rommel's leadership of his troops in Poland, France and North Africa (the historical record, from the model's general knowledge) | use as the real-world reference to compare the proposed Applejack command model against | how Erwin Rommel actually led his troops in Poland, France and north Africa | first-named
+  - the model's preceding analysis of Applejack's forward command and Mission Command structure (the current conversation) | the thing being measured; compare it against the historical Rommel record | How does this compare | referred-to
+- order:
+- about: The user asks the model to compare the Applejack-as-forward-leader command structure just proposed with how Rommel historically led troops in Poland, France and North Africa.

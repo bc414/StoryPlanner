@@ -1,0 +1,5 @@
+- sources:
+  - my story plan document | re-read it and base the definitive summary on it, treated as the authoritative material | Please review my story plan document again and give the definitive summary | referred-to
+  - love donators (magic donated by all living creatures, not relying on finite resources) | the author's correction of the model's prior reading; the summary should centre on it as the real basis | I think it's actually about the love donators, since magic can now be donated from all living creatures | first-named
+- order:
+- about: The user asks the model to re-read their story plan document and produce a definitive era-by-era macroeconomic breakdown, correcting the model's previous framing by saying the final form is really about love donators whose donated magic removes reliance on finite resources.

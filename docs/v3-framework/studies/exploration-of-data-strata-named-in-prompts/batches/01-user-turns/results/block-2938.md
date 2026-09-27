@@ -1,0 +1,5 @@
+- sources:
+  - the final framework | one of the two items being compared; the model is to examine it against the Gemini conversation | the final framework | referred-to
+  - the conversation from Gemini that established it | the origin of the framework, used as the baseline the final framework is compared against | the conversation from Gemini that established it | referred-to
+- order:
+- about: The user asks the model to compare the final version of the framework with the earlier Gemini conversation that originally established it.

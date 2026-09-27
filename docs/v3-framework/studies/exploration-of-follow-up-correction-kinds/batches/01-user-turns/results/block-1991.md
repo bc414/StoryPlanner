@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's separation of Twilight Velvet and Night Light into distinct subjects on the grounds of differing backstories, then uses that principle to ask whether their own practice of keeping Bright Mac and Pear Butter together in one subject is sound.

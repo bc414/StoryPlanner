@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Applejack's psychology, that she resists or feels guilt about adopting the new economic model (Harmonic Capitalism), moral outsourcing, and fear of industrialization, is rejected; she has no qualms about the economy, and her fear is of leading the army | No Applejack doesn't have qualms about the new economic model | flat, direct denial with a brief replacement motive stated, no apology or elaboration
+- about: The user rejects the model's premise about why Applejack wants Celestia to wake up and replaces it with a simpler motive: she is afraid to lead the army, not troubled by the new economy.

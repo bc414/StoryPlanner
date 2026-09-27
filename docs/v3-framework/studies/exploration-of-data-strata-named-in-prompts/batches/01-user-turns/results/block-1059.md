@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model a set of real-world history questions about whether Anatolia was culturally uniform at Turkish independence, how that compares to France and Britain, and why the Kurds were included in the new state, without pointing at any body of material to draw on.

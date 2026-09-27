@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's question assumed Kemerskai's republic runs on inheritance taxes and the destruction of generational wealth, and that griffon drive there still comes from lineage. The user says his ambition is redirected into serving the Republic and Liberty and surviving the Empire, and that this civic morality lasts only one generation. | Kemerskai redirects all ambition into serving the Republic and Liberty and surviving the evil Empire/Reich; The civic morality only works for the 1st gen | Stated flatly as the setting's actual mechanism, in passing while going on to explain the Liberty election. The model's premise is never named as wrong; the answer simply replaces it.
+- about: The user answers the model's second Socratic question by setting out Kemerskai's motivation and his constituents, then adds the Sunglider–Kingfeather election in the chapter Liberty and its New Deal allegory.

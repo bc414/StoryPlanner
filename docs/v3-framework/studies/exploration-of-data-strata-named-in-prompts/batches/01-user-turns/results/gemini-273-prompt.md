@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a further story idea to the scene under discussion: Trimmel hearing Henri's full voice through the universal translator is another reason he goes off-script, and Applejack's unease about the device still applies.

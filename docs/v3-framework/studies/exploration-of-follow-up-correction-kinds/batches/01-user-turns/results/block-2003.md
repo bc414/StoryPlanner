@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model listed SECEF as a new Organization missing from v2; the user says it is the same subject as the Equestrian Army, since both share one binding logic | I think SECEF is the same org as the Equestrian Army because it's the same binding logic? | tentative claim, hedged with 'I think', gives its reason (binding logic), and ends in a question mark
+  - reading of the plan | The model listed Leistungsgemeinschaften as a Technology outside v2. The user doubts it counts as a technology separate from Chrysalis's New Order, as MEFO Bills and Simplified Herzlander do | What qualifies Leistungsgemeinschaften as a technology outside Chrysalis's New Order like the MEFO Bills and Simplified Herzlander? | put as a question asking for the criterion, so the challenge is implied and not stated as disagreement
+- about: The user pushes back on two of the model's subject classifications, folding SECEF into the Equestrian Army and asking why Leistungsgemeinschaften counts as a technology, while agreeing that Idol of Boreas belongs in the technology class and adding Hearth's Warming Bonds.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the suggested raft names as outsider-style names and tells the model the name must be an endonym the Tzinacatl have used for 1000 years, not one given by Star Energy.

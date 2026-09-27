@@ -1,0 +1,5 @@
+- sources:
+  - Luna Nova rifle development arc | existing part of the story plan whose timeline the new rehab-science thread should overlap with; treated as fixed background to line up with | overlapping with the Luna Nova rifle development arc | referred-to
+  - Fluttershy immediately knowing how to rehab the POWs | the earlier version of the plan, which the author proposes to replace with a gradual, over-time discovery; treated as provisional and open to change | instead of Fluttershy immediately knowing how to rehab the POWs | referred-to
+- order:
+- about: The author proposes reworking the plot so the addiction and withdrawal science emerges gradually, alongside the rifle arc, through Fleur Bloom consulting Aquileian brain-chemistry experts, instead of Fluttershy knowing the rehab method at once.

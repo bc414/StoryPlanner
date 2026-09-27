@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Morning Brew analysis to ask two new questions: whether former bronies now in the manosphere would read the story, and whether Love Island's producers and cast will follow the Hasbro and Lauren Faust pattern of hollowing out a hit.

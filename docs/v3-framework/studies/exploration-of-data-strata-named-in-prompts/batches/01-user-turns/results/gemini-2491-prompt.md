@@ -1,0 +1,6 @@
+- sources:
+  - existing story plans | review and draw on them when answering how the story can address the topic | Please review my existing story plans | referred-to
+  - this conversation | review and draw on it when answering | this conversation | referred-to
+  - research about the real world | look up real-world information and use it to answer the question of truth, viewpoints and consensus | research about the real world before answering | first-named
+- order:
+- about: The user asks a real-world question about youth, disability and mental illness in the modern West, along with how their story could address it respectfully, and tells the model to review their story plans, the conversation, and real-world research first.

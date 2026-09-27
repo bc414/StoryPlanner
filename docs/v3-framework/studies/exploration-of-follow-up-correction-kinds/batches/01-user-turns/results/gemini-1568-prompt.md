@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made Golden Javelin a pony whose javelin is useless against a tank, but in the story she is a standard machine gun crew member alongside the others and will not literally use a javelin against a tank | "she won't be literally using a javelin against a tank. She is at a standard machine gun crew" | flat statement of the fact, put in passing after affirming the arc
+  - reading of the plan | The model suggested Rarity might recognise Javelin from a newspaper clipping as a former famous athlete, a 'Golden Child'; the user says she need not be famous | "I don't think she has to be famous" | brief, mildly hedged personal preference ("I don't think"), stated flatly without reasons
+- about: The user endorses the model's thematic reading of the character while trimming two details (her fame and her using a javelin against tanks), adds a new story idea about cloud duty, and asks for alternative sports, names and cutie marks.

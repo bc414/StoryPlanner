@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's scoping discussion and asks a design question, whether the final prose-informing entities should be large with split track links or granular, wondering if large text is fine once structured, without saying anything in the model's turn was wrong.

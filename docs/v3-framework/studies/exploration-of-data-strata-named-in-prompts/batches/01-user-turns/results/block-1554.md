@@ -1,0 +1,6 @@
+- sources:
+  - the existing 12 tracks (for Characters) | treat as working for Characters but not reliably generalizing to other subject types, so not to be carried over as-is and to be re-derived per subject type from first principles | existing 12 tracks work for Characters but they don't always generalize well | referred-to
+  - Friendship is Magic (Lauren Faust's show, with episodes such as A Dog and Pony Show, Suited for Success, Dragonshy, Sonic Rainboom) | use as the author's evidence for the prior-expectation-clash mechanism and the origin of the Latent track instinct; the author's reading of it is a claim for the model to verify or dispute, not settled | Faust's Friendship is Magic is not just operating on character development | first-named
+  - Three Little Pigs | use as an illustrative example of the character-development engine, with the author's told versus shown rewrite as a sketch | Three Little Pigs, the simple children's story, does kind of use the character development engine | first-named
+- order:
+- about: The user is proposing a first-principles method for deriving tracks for each non-Character subject type, based on how each can serve as evidence for thematic propositions, and asks the model to analyze, fill gaps, refute weak claims and verify or disprove their guesses.

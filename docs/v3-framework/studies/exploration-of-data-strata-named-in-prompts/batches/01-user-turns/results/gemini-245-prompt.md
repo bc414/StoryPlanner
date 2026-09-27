@@ -1,0 +1,4 @@
+- sources:
+  - "crystal love" (the model's previous framing of the Crystal Empire's energy) | reject this term and framing; replace it with the author's version that the energy is friendship plus other happy emotions generalized as love, and the Crystal Heart only turns it into a shield | It's not "crystal love". It's just friendship plus all the other happy emotions | referred-to
+- order:
+- about: The author corrects the model's \"crystal love\" idea, lays out their own emotion-flavor scheme (gray, pink, red) for the love-as-energy mechanic, and asks whether only pink love should be absorbable latently and whether romantic love should differ in color from friendship.

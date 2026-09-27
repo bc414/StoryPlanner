@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the connector check and moves on to pitching a new story idea, asking whether it works: Flowing Current and Dr. Caballeron as parallel figures with shared backstory, and their chapter 12 meeting.

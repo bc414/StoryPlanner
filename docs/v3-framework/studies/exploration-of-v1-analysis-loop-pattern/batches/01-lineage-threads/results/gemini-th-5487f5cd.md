@@ -1,0 +1,8 @@
+- steps:
+  - author | request-survey | asks for a survey of which real-world capitalist and macroeconomic concepts, especially obscure ones, are already encoded in the existing story plans | opening message of the exchange
+  - model | catalog-with-mapping | organizes five categories of economic theory (monetary policy, corporate exploitation, imperialism, labor dynamics, financialization), tying each named concept to a specific existing plot element or faction, closing with a follow-up question about political fallout | first response
+  - author | request-gap-analysis | asks what other real-world economics areas are equally important but still missing from the plans | second prompt, building directly on the model's first catalog
+  - model | catalog-with-mapping | proposes four additional economic concepts (moral hazard/insurance, Georgism/land value tax, Triffin dilemma, negative externalities), each speculatively mapped onto existing factions or arcs as new conflict material, closing with a follow-up question about how a faction could avoid becoming rent-seekers | second response
+- kept:
+- brought: The author brought a pair of meta-analytic questions asking the model to audit which real-world economic theories were already woven into the existing story plan and which comparably important ones were still absent.
+- loop: The author's meta-questions prompted the model to produce two extensive, concept-by-concept catalogs mapping real-world economics onto the existing story, but the planning database traces no notes back to either exchange, so none of this cataloging or the model's follow-up questions were captured into the plan.

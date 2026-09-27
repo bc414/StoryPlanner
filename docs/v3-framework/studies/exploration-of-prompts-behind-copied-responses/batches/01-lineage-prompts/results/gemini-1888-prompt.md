@@ -1,0 +1,7 @@
+- asks:
+  - analysis | asks for analysis of the plot/backstory segment just laid out | "Give analysis on this"
+- supplies:
+  - plot summary | backstory of character Minette from age 9 to 17: her move to Le Grand Foyer, being raised under conditional "affection," a political revolution involving Vérany, Gerad, and the Lord's revolt from his castle, her family's eviction and exile to Vinovia, the counterevolution's defeat, formation of a chasseur academy by Moriset Discret and Coltbert, and her joining it to kill her former Lord | a paragraph
+- shaping:
+- openness: Open — "Give analysis on this" names no particular aspect, angle, or criteria to analyze, leaving the response unconstrained.
+- subject: Backstory and revenge-plot setup for the character Minette within a political revolution/counterevolution storyline

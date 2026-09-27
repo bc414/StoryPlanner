@@ -1,0 +1,18 @@
+- steps:
+  - author | supplies source material | a full plan export document | at the outset of the conversation
+  - model | produces character analysis | a full narrative/literary profile and chapter-by-chapter arc for a minor reservist character named Golden Javelin | in the model's first reply
+  - author | affirms and corrects | approves the arc but corrects a detail (machine-gun crew, not a literal javelin vs. tank) and adds a new plot beat (cloud duty before the first battle and again during a later spearhead), then asks for alternate sports, names and cutie marks | in the next author turn
+  - model | expands options | an archetype analysis plus three alternative sport/name/cutie-mark packages, each carried through a three-chapter arc | in the model's next reply
+  - author | selects and elaborates | picks one proposed name, asks whether a canon pony already uses it, confirms a timing detail of her trauma, and spells out the mechanics of the later spearhead's rain-team rotation | in the following author turn
+  - model | reprofiles | a revised character profile and arc built around the chosen name as a canon background pony | in the model's next reply
+  - author | pushes back and reframes | rejects the weather-only framing, reasserts she must be an athlete, and adds a day-job/reservist duality plus a 'proto-combined-arms' justification | in a later author turn
+  - model | reworks profile | a new merged athlete-plus-weather-worker character with a fresh name, a revised arc, and a relationship note with another character | in the model's next reply
+  - author | narrows the request | keeps the chosen sport concept and asks specifically for cuter, more idiomatic name candidates | further into the conversation
+  - model | offers naming options | four idiom-driven name candidates each paired with a rationale, and a closing recommendation | in the corresponding reply
+  - author | corrects worldbuilding and refines taste | clarifies there is no conscription (only voluntary enlistment driven by a fairy-tale worldview), settles on one idiom, and asks for more pony-sounding names on that idiom, citing an existing named character as the model to follow | in a subsequent author turn
+  - model | refines interpretation and offers more options | reframes her flaw in thematic terms and supplies three more name candidates with sport/trauma/redemption breakdowns and a final recommendation | in the corresponding reply
+  - author | broadens the question | asks generally what other real-world sports derive from warfare, beyond the javelin | in the closing author turn
+  - model | catalogs source material | a list of war-derived real-world sports adapted into in-world equivalents, each with a name suggestion and narrative fit, plus a final recommendation | in the closing reply
+- kept:
+- brought: The author brought a full plan-export document into the conversation at the start and, across the exchange, brought successive pieces of an existing minor-character concept (a reservist athlete's battle trauma and later redemption) along with corrections to keep the model's proposals aligned with already-decided worldbuilding.
+- loop: The author repeatedly brought a partial character concept plus corrections and new constraints, the model answered each time with fresh sets of names, sports, cutie marks and chapter-by-chapter arcs, and the author kept narrowing among those options and pushing back on mismatches — but the archive shows no notes traced back to any of these exchanges, so the entire naming-and-arc negotiation converged on a working choice without being captured into the planning database.

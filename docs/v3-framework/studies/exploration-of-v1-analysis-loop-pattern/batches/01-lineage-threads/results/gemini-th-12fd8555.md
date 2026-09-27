@@ -1,0 +1,20 @@
+- steps:
+  - author | drafts a scene | tanks being stripped of changeling/Equestrian markings and repainted SECEF | opening of the prompt
+  - author | poses a realism question | whether a plurality favoring a return to stability (the Celestial bloc) over the Republican bloc is plausible | prompt, discussing the three-way poll split
+  - author | commits a plot beat | Applejack skips championing a Republic at home and instead leaves for Aquileia with her friends | prompt, mid-message
+  - author | supplies an extended worldbuilding lore-dump | the divergent histories and ideologies of the Griffonian Republic and the Aquileian Republic, their shared Pact, and the real-world (KMT) parallel behind the split | prompt, the long middle section
+  - author | sets up the coming military climax | SECEF and Trimmel breaking the WW1-style stalemate to defeat Synovial | prompt, closing lines
+  - model | frames the whole situation | names it as a Cold War forming inside the Republican alliance before the hot war ends | opening of the response
+  - model | analyzes the drafted scene | reads the paint-layer scrubbing as a symbolic shift from crown loyalty to corporate/cooperative loyalty | response section on the tank scene
+  - model | answers the realism question | affirms the plausibility of a war-weary plurality via a 'silent majority wants normalcy' explanation | response section on political realism
+  - model | analyzes the lore-dump | elaborates the Griffonian/Aquileian ideological contrast and why Aquileia needs Equestria as counterweight | response section on the two republics
+  - model | analyzes the military matchup | contrasts Synovial's static-war doctrine with Trimmel's combined-arms breakthrough approach | response section on the stalemate vs blitz
+  - model | drafts a chapter outline | proposes a five-chapter Act III sequence from departure through Synovial's defeat and the political aftermath | closing section of the response
+- kept:
+  - note 296 | the author's own words in this record | keeps the stated rationale that Aquileia needs Equestria to become a republic and join the Pact so the Griffonian Republic cannot absorb it; filed to the plot point on Gaudreau informing Applejack of this urgency
+  - note 566 | pasted whole from this reply | keeps the model's framing of Applejack leaving for Aquileia to avoid touching off civil war at home; filed to the plot point on Applejack realizing she must prove herself better abroad
+  - note 953 | pasted whole from this reply | keeps the model's reading of insignia-scrubbing as citizens shifting allegiance from crown to corporation; filed to the tank scrubbing scene plot point
+  - note 954 | pasted whole from this reply | keeps the model's paint-layer breakdown (changeling/Equestrian/SECEF) as visual shorthand; filed to the same tank scrubbing scene plot point
+  - note 1016 | pasted whole from this reply | keeps the model's 'silent majority wants normalcy' line explaining the poll split; filed to the plot point on the first polling results coming in
+- brought: The author brought a new scene image, a realism check on a poll-split plot twist, a plot decision sending Applejack abroad, and a large slab of original geopolitical lore contrasting two rival republics, all building on previously established characters and setting (Applejack, Synovial, Trimmel, SECEF).
+- loop: The author supplied a scene, a plausibility question, a plot commitment, and an extensive lore expansion in one turn, and the plan kept back only a narrow slice of the model's response — the symbolic reading of the paint-scrubbing scene, the silent-majority explanation for the poll split, and the civil-war-avoidance motive for Applejack's departure — plus the author's own restated rationale for why Aquileia needs Equestria, while the bulk of the KMT-parallel lore and the proposed chapter outline were not separately archived.

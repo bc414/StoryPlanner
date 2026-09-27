@@ -1,0 +1,12 @@
+- asks:
+  - question | asks when the inhibitor rings on captured changelings' horns can be safely removed | "When can these come off?"
+  - question | asks how newly captured POW changelings needing rehab from red love addiction are processed | "How are freshly captured POWs who need rehab from red love addiction processed?"
+- supplies:
+  - worldbuilding rule | changeling abilities: flight, shapeshifting, horn telekinesis | a sentence
+  - worldbuilding rule | shapeshifting is illegal outside the conservatory due to VOPS infiltrators, caught via a pony detection spell | a couple sentences
+  - worldbuilding idea | shapeshifting as a possible tool for communicating with animals | a sentence
+  - scene reference | chapter 6 "Kindness" - Henri brings Fluttershy to the expo center; changelings there wear horn inhibitor rings to block shapeshifting | a couple sentences
+- shaping:
+  - instruction | suggests the answer should account for the "kindergarten sleepover" aesthetic and the nature/animal area as places where inhibitors might not be needed | "I imagine in the ... the inhibitors won't be needed"
+- openness: Mixed: for the inhibitor-ring question it leans toward an answer it names (removal in the nature/animal area, given the sleepover aesthetic), while the POW rehab-processing question is left fully open with no proposed answer.
+- subject: Changeling worldbuilding: abilities, shapeshifting law/detection, inhibitor rings, and POW rehab processing

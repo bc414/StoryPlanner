@@ -1,0 +1,6 @@
+- relations:
+  - 1135|1136|The second narrows the first by drawing a boundary: the first says those who can be cowed can be rehabbed, the second names those who never can, so the two divide changelings into curable and incurable|The ones who can never be rehabbed|implicit
+- outward:
+  - 1135|The misled thugs of Aquileia, a group held elsewhere in the story's lore, offered as the comparison for rehabbable changelings|just like the misled thugs of Aquileia
+  - 1136|Statthalters, grifters and warlords, figures or types from elsewhere in the world, offered as the comparison for the unrehabbable|statthalters who get joy by cruelty, like the grifters and warlords
+- whole: ["The two notes read as one set: together they state a single inference about who The Stare can reform and who cannot, and each gives half of it."]

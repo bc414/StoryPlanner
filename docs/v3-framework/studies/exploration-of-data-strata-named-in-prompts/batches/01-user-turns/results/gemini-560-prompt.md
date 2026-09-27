@@ -1,0 +1,5 @@
+- sources:
+  - the story's ending (invasion of the hives, pink love drop on the capital, Chrysalis runs) | treat as the correct account of how the story ends, correcting the model's prior reading | To be clear, the story ends with an invasion of the hives and a pink love drop on the capital | referred-to
+  - chapters "Resilience" and "Grace" | check these to confirm how the forever war ends (through love and food donations) | if you look at the chapters "Resilience" and "Grace" | referred-to
+- order:
+- about: The user corrects the model's analysis by stating how the story actually ends and how the forever war is resolved, pointing to two chapters as the place to verify this.

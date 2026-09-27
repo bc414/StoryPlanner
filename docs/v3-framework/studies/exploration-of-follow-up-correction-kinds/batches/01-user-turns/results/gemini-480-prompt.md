@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's thematic analysis as given and moves on to craft questions: whether the social commentary belongs in the story or in author's notes, how famous works have conveyed it, and whether the point should stand on its own or be spoken aloud, tied to Applejack's Honesty-to-Conviction arc.

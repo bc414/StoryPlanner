@@ -1,0 +1,11 @@
+- asks:
+  - explain | describe how armies historically managed the post-combat adrenaline crash | 'How did armies traditionally deal with the adrenaline crash of combat?'
+  - breakdown | cover this across historical periods from feudal times to the modern era | 'full breakdown from feudal to modern'
+  - breakdown | cover this across different ranks/classes of soldier, naming conscripts and knights/officers as examples | 'across different classes like conscripts and knights/officers'
+- supplies:
+- shaping:
+  - scope should span from feudal era through to modern armies | 'from feudal to modern'
+  - coverage should differentiate by soldier class/rank, at least conscripts and knights/officers | 'across different classes like conscripts and knights/officers'
+  - answer should be comprehensive rather than a brief summary | 'full breakdown'
+- openness: Leaves the answer open: it poses a general historical question and specifies scope (era range, soldier classes) but does not name or lean toward any particular answer, mechanism, or claim.
+- subject: How historical armies coped with the physiological/psychological adrenaline crash after combat, across eras and ranks

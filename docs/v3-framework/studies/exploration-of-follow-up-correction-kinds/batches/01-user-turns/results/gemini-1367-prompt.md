@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Vedina as a separate kingdom where Kemerskai's wife took their son to raise him in tradition, away from the Republic; in the user's lore the Griffonian Republic conquered Vedina and liberated its griffons, so that premise of the backstory is wrong | In my lore, Kemerskai's Griffonian Republic conquered Vedina (liberated the griffons from stagnation) and gave them dignity | stated flatly as a lore fact, with no explicit rejection wording, letting the contrast with the model's account do the correcting
+- about: The user supplies the lore fact that Kemerskai's Republic conquered and reformed Vedina, which undercuts the model's premise that his family fled to an independent kingdom.

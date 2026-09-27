@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the revised 914 to 930 policy-change timeline as settled and moves on to a new task, asking the model to say what changes in the thestral backstory, what narrative purposes the thestrals serve in the plan, and how to adapt their history to fit.

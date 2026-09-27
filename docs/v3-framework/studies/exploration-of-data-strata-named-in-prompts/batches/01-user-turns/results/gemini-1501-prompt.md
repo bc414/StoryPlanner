@@ -1,0 +1,5 @@
+- sources:
+  - the model's preceding reasoning about the 1:1 peg | accepted as good and built on, with the new point added on top | This reasoning is excellent | referred-to
+  - the author's own added detail about Coltbert's plan (luxury exports to Equestria, gold bits identical across Equestria and Griffonia) | given as setting fact the model should take as true and check for fit with the peg logic | gold bits are the same across equestria and Griffonia | first-named
+- order:
+- about: The user endorses the model's peg reasoning and adds a new plan element from their own setting knowledge, luxury exports to Equestria bringing in gold, then asks whether it works with the existing logic.

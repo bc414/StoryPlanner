@@ -1,0 +1,4 @@
+- sources:
+  - Party of One (the Pinkie episode) | cited as a published-show precedent for the proposed idea that draining a victim's friendship and magic turns them gray with a deflated mane; the model is to weigh the idea with this as an analogy, not as binding | just like Pinkie in Party of One | referred-to
+- order:
+- about: The user proposes a worldbuilding idea, that coat color and shine show a creature's working life forces and that draining them turns a victim gray, cites a show episode as precedent, and asks whether to use it.

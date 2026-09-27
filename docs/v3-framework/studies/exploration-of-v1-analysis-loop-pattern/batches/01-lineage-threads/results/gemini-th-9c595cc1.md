@@ -1,0 +1,14 @@
+- steps:
+  - the author | supplies the source material | the full plan export as an attached document | opening message of the thread
+  - the model | delivers a thematic analysis | reads Applejack's arc through money, machinery, honesty, and stagnation as linked motifs | first response
+  - the author | asks a connecting question | wants the analysis tied to two specific canon episodes (the cutie mark trip, the Gala ticket hunt) | second exchange
+  - the model | extends the analysis and drafts sample lines | recontextualizes both episodes under the new themes and offers a bit of in-voice dialogue as illustration | second response
+  - the author | corrects and adds material | fixes a character's regional identity, reclassifies another faction as sympathetic, and volunteers a parallel to another character's earlier epiphany | third exchange
+  - the model | revises the synthesis | folds the corrections in and restates the character's lessons as a three-part list | third response
+  - the author | shifts to a craft question | asks what narrative perspective to use for the whole story | fourth exchange
+  - the model | offers a structural recommendation | proposes a multi-POV third-limited scheme with rationale and per-character voice notes | fourth response
+  - the author | asks a follow-up craft question | wants a rule for choosing between two POV characters scene by scene | fifth exchange
+  - the model | supplies a decision procedure | gives selection criteria plus a quick-reference table for POV choice | fifth response
+- kept:
+- brought: The author brought the entire plan export as an attachment to open the thread, then brought successive questions and corrections about character motivation and craft.
+- loop: The author fed the model the whole plan plus a string of clarifying questions and factual corrections, and the model kept returning deeper thematic syntheses and craft frameworks in reply, but no note in the planning database traces back to this exchange, so nothing from this back-and-forth was captured into the plan itself.

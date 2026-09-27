@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Pinkie analysis and moves on to Rainbow Dash, laying out a proposed Chapter 8 "Loyalty" premise and asking whether it still works and how Rainbow reaches her conclusion.

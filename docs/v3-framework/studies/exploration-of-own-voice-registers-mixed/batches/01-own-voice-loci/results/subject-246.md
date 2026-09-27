@@ -1,0 +1,24 @@
+- passages:
+  - note 29 | motive-explanatory | third-person declarative causal statements about why the Doctrine was kept before and after Luna's return | Celestia's reasons for keeping Equestria de-industrialized before and after Luna's return | apart
+  - note 4281 | meta-narrative aside | comments on where the idea/name originated within the story process | Twilight imagining and naming the Doctrine | run-in
+  - note 4281 | motive-explanatory | 'but Celestia confirms' asserting an in-world fact and cause, continuing with 'Not because of... but because' causal contrast | Celestia's real motive tied to Grover III and 2nd-gen exploitation | run-in
+  - note 4282 | motive-explanatory | declarative causal clause naming a specific historical trigger | reason Celestia continued the Doctrine after Luna's return (changeling society) | apart
+  - note 4282 | motive-explanatory | continues the causal account, naming a specific attempted remedy | Celestia's alternative method: Fluttershy befriending Discord | run-in
+  - note 4282 | hedging brainstorm aside | trailing 'and maybe some other things?' with a question mark, unresolved enumeration | uncertain additional unspecified methods tried | run-in
+  - note 4282 | blunt evaluative fragment | short flat two-word sentence delivering a verdict | the approach's failure | apart
+  - note 4284 | comparative world-catalog | listing of multiple polities with escalating comparatives and ironic quotation marks around terms | survey of failed state-driven industrializations shaping Celestia's view | apart
+  - note 4402 | exclamatory argument | exclamation-marked claim followed by counterfactual reasoning, closing exclamation | economic logic tying the Doctrine to moving the moon | apart
+  - note 4404 | motive-explanatory | narrates a plot cause and Celestia's aim in plain declarative terms | Celestia enlisting Discord as a friend after Chrysalis's attack | run-in
+  - note 4404 | titled-reference aside | parenthetical naming of an episode title with an exclamation mark | naming the referenced episode | run-in
+  - note 4404 | prescriptive planning | new sentence opening with 'This should result in', stating an intended outcome rather than a narrated event | intended emotional fallout for Fluttershy and Discord, paralleling Twilight | apart
+  - note 4405 | motive-explanatory | single long declarative sentence chaining causal clauses | Celestia's reasoning for giving Twilight the alicorn magic against Tirek | apart
+  - note 4409 | exclamatory argument | emphatic phrasing ('just simply', 'just ponies!') ending in an exclamation mark | claim that Celestia and Luna are not goddesses | apart
+  - note 5591 | motive-explanatory | declarative counterfactual belief-statement | Celestia's belief an imperialist army might have joined Nightmare Moon | apart
+- shifts:
+  - note 4281 | meta-narrative aside | motive-explanatory | the contrastive 'but Celestia confirms' switching from remarking on the idea's origin to asserting an in-world causal fact
+  - note 4282 | motive-explanatory | hedging brainstorm aside | the trailing 'and maybe some other things?' with its question mark breaking the declarative causal account into open uncertainty
+  - note 4282 | hedging brainstorm aside | blunt evaluative fragment | the new short sentence 'It doesn't work.' delivering a flat verdict after the hedged listing
+  - note 4404 | motive-explanatory | titled-reference aside | the parenthesis and exclamation mark naming an episode title mid-sentence
+  - note 4404 | titled-reference aside | prescriptive planning | the new sentence beginning 'This should result in', switching from narrating/recalling to stating an intended effect
+- registers: motive-explanatory; meta-narrative aside; hedging brainstorm aside; blunt evaluative fragment; comparative world-catalog; exclamatory argument; titled-reference aside; prescriptive planning
+- whole: This item's notes are written in several distinct registers — chiefly a plain motive-explanatory register, but also a meta-narrative aside, a hedging brainstorm, a blunt verdict, a comparative catalog, an exclamatory argument, a titled-reference aside, and a prescriptive planning voice — and these sit together sometimes with a clear break between sentences and sometimes fused, without a break, inside a single sentence.

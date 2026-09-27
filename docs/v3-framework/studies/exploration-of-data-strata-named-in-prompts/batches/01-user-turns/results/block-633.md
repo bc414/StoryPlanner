@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the CharacterBelief, ReaderPerception and GapType fields belong on the plot point or on the plot point character connection, and argues for the plot point so that irony-delivery notes stay apart from each character's backstory and psychology notes.

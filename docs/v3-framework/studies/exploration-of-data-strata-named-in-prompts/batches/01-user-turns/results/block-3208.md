@@ -1,0 +1,6 @@
+- sources:
+  - the Gemini-era corpus | already covered, the model has just traced it; the user says it is only one era and the work must move beyond it | This is just the Gemini-era corpus | referred-to
+  - the Conversations corpus that came after | go into it and use it to continue the development narrative from where the Gemini-era trace stopped | go into the Conversations corpus that came after | referred-to
+  - what is actually in the story plan today | read as the current state of the plan and use it alongside the conversations, but treat as possibly incomplete since it may not be fully filled in from conversations | what is actually in the story plan today (may not be fully filled in from conversations though) | referred-to
+- order:
+- about: The user tells the model that its lineage covered only the Gemini-era corpus and asks it to continue the authorial development narrative by drawing on the later Conversations corpus and the current story plan, while noting the plan may be incomplete.

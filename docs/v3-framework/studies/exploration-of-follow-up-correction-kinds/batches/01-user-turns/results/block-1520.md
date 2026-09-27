@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's use of H for only the intermediate world-truth inference, when the user's H names everything in the reader's head (world inference plus thematic conclusion), so the label is misapplied and needs renaming | Maybe it should not be H but instead WI: world inference. H is WI+T, both are in their head | tentative suggestion of a rename with a brief reason, put as a maybe and an open request for alternative terms, not as an objection
+- about: The user briefly notes that the model's H label covers only the intermediate inference when H was meant to cover both in-head levels, then moves on to new questions about whether every plot-point subject link needs a T note and whether the allegory belongs in the L+T note.

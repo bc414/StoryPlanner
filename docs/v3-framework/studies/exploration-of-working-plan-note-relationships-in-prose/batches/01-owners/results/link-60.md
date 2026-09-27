@@ -1,0 +1,6 @@
+- relations:
+  - 1831|1832|one states what the reader first believes and how it is overturned on the page; the other draws the thematic proposition from that overturn (the technology as a tool of control turned to fraternity) | "It could have been used as a tool for control, but it was actually used to facilitate genuine fraternity." against "means of the Herzlander elites pacifying the native Cloudburians" and "deliver the soul of the speaker perfectly" | implicit
+- outward:
+  - 1831|the old robotic translator model and the Herzlander elites' policy toward native Cloudburians, held elsewhere in the world | "old, robotic, soulless model" and "Herzlander elites pacifying the native Cloudburians"
+  - 1831|Henri's arrival in Cloudbury, a journey or scene not in this item | "When he actually arrives in Cloudbury"
+- whole: ["The two notes hang together as a set: the world-inference note gives the belief and its reversal, and the thematic note draws its proposition from that same reversal."]

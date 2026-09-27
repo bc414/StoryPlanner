@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user draws a conclusion that battle spectacle should serve the system in their story, offers a parallel between Faust's MLP G4, Treyarch's Black Ops and early Westwood and Blizzard, and asks whether Hollywoodization equals the publisher mandates and whether that is the difference between books and screen media.

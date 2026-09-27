@@ -1,0 +1,5 @@
+- sources:
+  - Example output of Phase 1 the cartographer (the pasted JSON of CategorizedBuckets) | treat as the concrete sample of Phase 1 output; base the Phase 2 sorter design on it and judge whether its structure should be the Phase 2 input, including how to handle the orphan concepts | Here is an example output of Phase 1 the cartographer | first-named
+  - Requirements the model captured from the conversation so far | draw on the earlier conversation to list back the user's requirements, which the user will then extend | list out my requirements that you captured | referred-to
+- order:
+- about: The user pastes a sample Phase 1 cartographer output and asks whether it should feed Phase 2, for the Phase 2 sorter system prompt, for a ruling on how orphan concepts are handled, and for a list of the requirements captured so far so they can add more.

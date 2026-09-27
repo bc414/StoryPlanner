@@ -1,0 +1,4 @@
+- sources:
+  - the canvas session (its retained analysis, intermediate thoughts or state between prompts) | not given any weight; the user is asking whether it carries earlier analysis forward or starts fresh each prompt | Does the canvas session retain analysis or intermediate thoughts or state between prompts | referred-to
+- order:
+- about: The user asks a follow-up question about whether a Canvas session keeps analysis and intermediate reasoning from one prompt to the next or is stateless, with no instruction on which material to use.

@@ -1,0 +1,11 @@
+- sources:
+  - The author's own account of the Storm King and Mount Aris (Hippogriffs, Aquileian and GR volunteers and Wonderbolts destroying the zeppelin fleet; the nursery shattering as realization about warlords) | treat as true; replaces the model's version of those events | did not annihilate the Hippogriffs; the Hippogriffs with the help of Aquileian and GR volunteers | referred-to
+  - The model's previous allegory map | treat as partly wrong; correct the Storm King and nursery points | Some corrections | referred-to
+  - The author's story plan | the design to compare real events against; the model should find where it does or does not allude to the present | my plan for the story does not have a close allegory | referred-to
+  - The Chapter 7 Manehattan referendum (83% for total mobilization) and the mandatory-voting final election in the post-war arc | settled design intent; treat as a deliberate critique of real voting rules | requires 83% of the pre-war manehattan population | first-named
+  - Gilded Trust's debate statement and Celestia's remark about what she saw in Applejack before she pulled the plug | tentative reading that the plan already names the authoritarian path; offered for the model to confirm or extend | stated as the path that Gilded Trust wants to go down during the debate | referred-to
+  - Real-world history (MeToo, the creator economy after 2008, the 2020 Biden and Sanders primary) | facts the model should supply and assess for truth versus perception and structural causes | In real life in 2020 | referred-to
+  - Current reality (Trump's 2024 re-election, deportations, tariffs, the illegal war on Iran, 2025 and 2026) | treat as real and to be acknowledged in the story, not erased, while the story rejects it | the current situation is real | referred-to
+- order:
+  - The author's own account of the Storm King and Mount Aris | over the model's previous allegory map | Some corrections
+- about: The user corrects the model's account of the Storm King and Mount Aris, asks it to supply real-world facts on MeToo, the creator economy and the 2020 primary, explains the voting-rule design in their plan, and asks which parts of the post-war election arc allude to Trump's second term and the present.

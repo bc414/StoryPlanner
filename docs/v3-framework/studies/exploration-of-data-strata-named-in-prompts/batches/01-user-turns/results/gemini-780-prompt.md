@@ -1,0 +1,6 @@
+- sources:
+  - the literal translators (the ponies appearing to self-label as objects), as set out in the model's previous answer | treat as the working premise but check it against another established rule, asking whether it holds up | So when the changelings have ponies captive, they use these literal translators
+  - the dynamic that infiltrators have to be fluent in equestrian | established rule of the setting that the new mechanic must be reconciled with | How does this go with the dynamic that infiltrators have to be fluent in equestrian?
+  - the author's own account of Trimmel and his gang's language history (Severyanan/Russian for the Winter Revolution, then Equestrian ahead of the 1002 Canterlot attack and 1011 war plans) | treat as given facts to build the jaeger infiltrator answer on | Trimmel and his gang had to learn Severyanan (Russian) for the Winter Revolution and then Equestrian | first-named
+- order:
+- about: The author questions how the literal-translator idea from the previous answer fits with infiltrators needing fluent Equestrian, offers their own idea for Statthalter infiltrators, and asks the model to work out the equivalent for the meritocratic jaeger infiltrators such as Trimmel.

@@ -1,0 +1,7 @@
+- asks:
+  - search/research | asks the model to find other fanworks or fanfics where Applejack is the main character developed to a comparable depth as the one the user is planning | 'Are there any other fanworks or fanfics that feature Applejack as the main character to the level of depth that I am planning for her?'
+- supplies:
+- shaping:
+  - use external web search rather than relying on internal knowledge alone | 'Search the internet'
+- openness: Open: the message poses a general research question with no named candidates or options, leaving the findings entirely open.
+- subject: Finding existing fanworks with Applejack as a deeply-developed main character, for comparison to the user's own planned work.

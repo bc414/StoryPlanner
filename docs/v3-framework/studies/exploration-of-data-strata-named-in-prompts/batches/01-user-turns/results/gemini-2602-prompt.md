@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's offer to analyze how the Chasseurs' trauma-bonded neurochemistry affects their reintegration into civilian life, without naming any source of data.

@@ -1,0 +1,5 @@
+- sources:
+  - this (the Applebuck Season re-analysis and the backstory framework behind it) | treat as the working framework and test whether it accounts for another scene | Does this also explain | referred-to
+  - Winter Wrap Up (the published episode, Applejack yelling at Twilight over magic on the farm) | the canon scene to be explained by the framework; used as the material the framework is checked against | yells at Twilight in Winter Wrap Up for using magic on the farm | referred-to
+- order:
+- about: The user asks whether the newly built Heiress Refugee backstory and its reading of Applebuck Season also explains Applejack's outburst at Twilight over magic in Winter Wrap Up.

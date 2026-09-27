@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a new plot twist, that Red Love is raw magic able to power the Luna Nova Rifles, and asks the model how it changes the Red Love economy it just laid out.

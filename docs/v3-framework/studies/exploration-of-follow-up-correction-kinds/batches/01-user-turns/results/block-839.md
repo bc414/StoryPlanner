@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's toy-box and nursery insight as a starting point and opens a new line of inquiry, asking for a post-WW2 generational trace of childhood conditions, the weight of income inequality and other causes of cynicism, and how different audiences would receive the story compared with mainstream grimdark works.

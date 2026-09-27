@@ -1,0 +1,10 @@
+- relations:
+  - 1477 | 1476 | the father's death is the occasion behind the wish to live up to the father's legacy; 1476 presupposes the father as a finished figure whose story he inherits | father Grover III passed away / his own father's wholly true story of Enlightenment and peace | implicit
+  - 1477 | 1478 | continuation in time: the father's death in 914 opens the span 914..930 in which Grover 4 acts | passed away when Grover IV was 20 / 914..930 | implicit
+  - 1476 | 1478 | the starting motive (living up to a legacy of Enlightenment and peace) and the conduct later shown (letting rugged individualists industrialize); the notes leave open whether the conduct carries out or departs from the aim | live up to ... Enlightenment and peace / allowed rugged individualists to pursue industrialization and technology | implicit
+- outward:
+  - 1476 | the earlier rulers Grover 1 and 2 and the public account of their glory, held elsewhere | glory of Grover 1 and 2
+  - 1476 | the father's story of Enlightenment and peace, a piece of lore not given here | his own father's wholly true story of Enlightenment and peace
+  - 1476 | the story TLTT, whose start is the reference point of the note | at the start of TLTT
+  - 1478 | the group of rugged individualists and the industrialization and technology they pursue, described elsewhere | rugged individualists to pursue industrialization and technology
+- whole: The three notes read as a loosely hanging set: they share the character and the father's legacy and a 914 starting point, but each is a single statement and none points at another in words.

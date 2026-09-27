@@ -1,0 +1,17 @@
+- steps:
+  - author | clarifying question | asks whether real Twilight or Pupa-as-Twilight is the one interacting with Cadance and others across two chapters | at gemini:61 prompt
+  - model | verdict with evidence | gives a direct yes/no answer, chapter-by-chapter evidence breakdown, and a summary table of when the swap occurs | gemini:61 response
+  - author | recap request | asks for a detailed summary of the next chapter plus new open questions and how it ties to previous chapters | gemini:62 prompt
+  - model | chapter recap (primary) | detailed summary, open-questions list, and cross-chapter links for the most recent chapter | gemini:62 response, main answer
+  - model | chapter recap (alternate draft) | same structured recap format applied to the prior chapter instead | gemini:62 response, additional draft 1
+  - model | chapter recap (alternate draft) | same structured recap format applied to an earlier chapter | gemini:62 response, additional draft 2
+  - model | chapter recap (alternate draft) | same structured recap format applied to an earlier chapter | gemini:62 response, additional draft 3
+  - model | chapter recap (alternate draft) | same structured recap format applied to an earlier chapter | gemini:62 response, additional draft 4
+  - model | chapter recap (alternate draft) | same structured recap format applied to an earlier chapter | gemini:62 response, additional draft 5
+  - model | chapter recap (alternate draft) | same structured recap format applied to an earlier chapter | gemini:62 response, additional draft 6
+  - model | chapter recap (alternate draft) | same structured recap format applied to an earlier chapter | gemini:62 response, additional draft 7
+  - model | chapter recap (alternate draft) | same structured recap format applied to an earliest chapter | gemini:62 response, additional draft 8
+- kept:
+  - note 3791 | one sentence lifted from this reply | keeps a plot question about why Celestia needed Twilight and her friends rather than using the Elements herself to purify Luna, filed on a link node joining two chapter-thread entries
+- brought: The author brought an ongoing tracking concern over which character (real Twilight or her changeling double) is narrating given chapters, then a repeated request template (summary, open questions, chapter links) used to audit the drafted chapters in sequence.
+- loop: The author uses the model to check narrative continuity and to generate structured recaps (summary, open questions, cross-chapter links) of already-written chapters; out of this whole exchange the plan retains only a single lifted sentence — a plot question about Celestia's motive for needing Twilight rather than the Elements alone to purify Luna — attached to a link connecting two chapter-thread nodes, showing the database keeps pointed thematic questions rather than the recap content itself.

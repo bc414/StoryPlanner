@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the discussion by posing a chain of real-world economic-history questions (Nordic/German co-determination, US labor law, 1970s oil shocks, outsourcing, reshoring via fracking/CHIPS Act/COVID, Fordist assembly-line labor, postwar Japan) to test and deepen the asset-specificity framework the model laid out, without stating that anything the model said was wrong.

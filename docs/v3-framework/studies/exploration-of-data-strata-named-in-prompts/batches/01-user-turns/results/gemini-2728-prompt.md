@@ -1,0 +1,5 @@
+- sources:
+  - the real life parallels | treated as the standard the assertions are to be tested against, asking whether history really matches them | Are the real life parallels accurate to these assertions or not? | referred-to
+  - these assertions | treated as claims under question, not as settled; to be judged accurate or not against the real history | accurate to these assertions or not | referred-to
+- order:
+- about: The user asks the model to check whether the real-world historical parallels used in its previous analysis actually fit the assertions made about them.

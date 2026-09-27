@@ -1,0 +1,18 @@
+- steps:
+  - the author | brings a refined mechanic | red/pink love dual-fuel explanation for the wings spell, asks for review and analysis | gemini:2926 prompt
+  - the model | analyzes the mechanic | thermodynamic framing, historical blueprint, anti-hoarding reading, plus two stress-test follow-up questions | gemini:2926 response
+  - the author | brings a new analogy and naming request | oxytocin-as-coolant comparison, existing term convention (thymoluminescent), prefix/suffix constraints for a new term | gemini:2927 prompt
+  - the model | proposes options | four candidate scientific terms with etymology and a recommendation | gemini:2927 response
+  - the author | adopts the term and extends it | names the chosen effect a fundamental law, lists own examples of where it already applies, asks for further lore connections | gemini:2928 prompt
+  - the model | extends the law | maps the effect onto five further areas of the setting's politics, economics and military doctrine | gemini:2928 response
+  - the author | redirects the term's origin | reassigns the coined term to a later in-story character/date, requests an earlier in-world term rooted in different thematic values | gemini:2929 prompt
+  - the model | proposes alternate options | four Aquileian-coded term candidates with etymology and a suggested character arc payoff | gemini:2929 response
+  - the author | corrects the model's premises | rejects the mischaracterization of the partner-bond as domination/conquest, restates it as equal and lasting, rejects three of the four terms and endorses the direction of the fourth | gemini:2930 prompt
+  - the model | revises the options | four new terms reflecting the corrected partnership doctrine, restated character-arc contrast | gemini:2930 response
+- kept:
+  - note 5542 | the author's own words in this record | keeps the dual-fuel wings mechanic as stated by the author, filed under the Wings of Dew subject
+  - note 5552 | pasted from this reply inside the author's own framing | keeps the model's points on non-standard fliers benefiting and poseurs being unable to use the spell, reframed by the author into the Wings of Dew subject
+  - note 5555 | pasted from this reply inside the author's own framing | keeps the model's asset-specificity/cannot-be-hoarded point, reframed by the author into the Wings of Dew subject
+  - note 5548 | the author's own words in this record | keeps the author's own list of where the named effect already applies across other lore mechanics, filed under a new Charitostatic Effect subject
+- brought: The author brought an already-drafted spell mechanic and an established in-world naming convention (thymoluminescent) from the plan, then progressively layered a biological analogy and corrected worldbuilding assumptions onto it across the thread.
+- loop: The author repeatedly brings a piece of mechanic or lore already fixed in the plan (a spell's dual fuel, a naming convention, a partnership's true nature) and asks the model to analyze, name, or extend it; where the model's returned analysis matches the author's intent it gets reframed and filed into the lore database under the relevant subject, and where it misreads the intent the author corrects it in the next turn rather than anything of that reply being kept.

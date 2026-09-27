@@ -1,0 +1,4 @@
+- sources:
+  - note track definitions from v2 | read/pull them so the model understands what the methodology is | pull the note track definitions from v2 so you understand what the methodology is | first-named
+- order:
+- about: The user directs the model to additionally retrieve the v2 note track definitions so it understands the methodology before continuing its pull of chapter material.

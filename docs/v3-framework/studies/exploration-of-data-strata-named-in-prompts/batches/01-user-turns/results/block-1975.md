@@ -1,0 +1,4 @@
+- sources:
+  - My initial plans (the army as naive) | treat as outdated, from before the author understood the grimdark/hopepunk difference; not to be taken as settled | "My initial plans were to make the army naive" | first-named
+- order:
+- about: The user asks the model for a design recommendation on whether the Equestrian Army should be one organization or two (before and after the war) and whether its binding logic should stay the same, while marking their own earlier plan for a naive army as outdated.

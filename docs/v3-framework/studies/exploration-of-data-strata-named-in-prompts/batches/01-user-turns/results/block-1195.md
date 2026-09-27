@@ -1,0 +1,5 @@
+- sources:
+  - Mightyena and Ninetales Medieval Story.docx (the other story plan written in 2022) | the material to be analyzed now, the model is to read and analyze it as its own plan | Now analyze this other story plan that I wrote in 2022 | first-named
+  - the first story plan (the one analyzed in the previous turn) | do not carry its characters, world, characterization or stakes over to this plan; treat this one as different, with only the two characters' social positions being alike | Mightyena and Ninetales are different characters in a different world | referred-to
+- order:
+- about: The user attaches a second, separate 2022 story plan and asks the model to analyze it, warning that it shares only the two characters' social roles with the first plan and differs in world, characterization and stakes.

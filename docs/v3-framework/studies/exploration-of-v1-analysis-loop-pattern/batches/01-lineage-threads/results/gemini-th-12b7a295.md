@@ -1,0 +1,14 @@
+- steps:
+  - the author | sets out a system | a three-tier changeling language hierarchy (native oral tongue, simplified Herzlander, Equestrian) with camp population details | opening prompt
+  - the author | poses a realism check | whether an unwritten native language is plausible or needs an undeveloped script | within the same prompt
+  - the author | poses a historical question | whether German POWs learned English, as a comparison for drones learning Equestrian | within the same prompt
+  - the author | adds a character detail | Fluttershy's old Herzlander-to-Equestrian robotic translator and her likely choice to learn the native tongue | within the same prompt
+  - the model | confirms and frames | realism of an oral-only native language under a modernizing empire, contrasted with a stripped-down industrial Herzlander | early in the response
+  - the model | maps camp roles onto each language | native tongue for therapy/identity, Herzlander as necessary but traumatic lingua franca, Equestrian for trade and integration | middle of the response
+  - the model | answers the historical question | cites POW camp schooling and English-language re-education materials as precedent | mid-response
+  - the model | extends the setup | proposes a literacy split (illiterate vs literate conscripts) turning into a teacher/student camp dynamic, and floats inventing a written changeling script | later in the response
+  - the model | drafts a small scene beat | Fluttershy's translator sounding harshly militaristic, her abandoning it for learning spoken clicks, ending in shared laughter | end of the response
+  - the model | closes with a compact summary | a three-line label for each language's symbolic role (past/heart/future) | final lines of the response
+- kept:
+- brought: The author brought a detailed three-tier language setup for the changeling camp (native oral tongue, simplified industrial Herzlander, Equestrian) along with a realism question about the native language lacking a script, a historical comparison question about POWs learning their captors'/allies' language, and a character detail about Fluttershy's translator device.
+- loop: The author brings a worldbuilding system plus pointed realism and historical questions to pressure-test it, and the model returns an organized elaboration and validation with proposed scenes and roles for each language; no note in the archive is traced back to this exchange, so nothing from it is shown to have been carried into the planning database.

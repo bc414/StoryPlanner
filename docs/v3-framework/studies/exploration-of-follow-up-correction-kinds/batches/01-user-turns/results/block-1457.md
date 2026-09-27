@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model presented Ontology vs Events as clearly the second outer axis, but the user treats that choice as open and names fabula/zero focalization vs syuzhet/narrative design as a rival candidate | I'm not sure whether the second outer axis should be ontology vs events or if it should be fabula/zero focalization vs syuzhet | tentative disagreement, voiced as uncertainty and paired with a request for the implications of each choice, while accepting the Subject vs Link split
+- about: The user checks their understanding of why the K-map was set aside, agrees with the Subject/Link outer split, questions the model's assumed second outer axis, and asks for the tradeoffs of placing each axis in the outer or inner grid.

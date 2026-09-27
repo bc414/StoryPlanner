@@ -1,0 +1,7 @@
+- steps:
+  - author | share source | a YouTube video link, no accompanying question | opening message of the thread
+  - author | invoke standing instructions | a directive to answer a fixed set of questions defined elsewhere in the system prompt, rather than restating them | second message, after the first got no captured reply
+  - model | deliver structured breakdown | a labeled analysis of the video's thesis, its supporting arguments, its takeaways, and an estimate of how much of the runtime is padding | second response
+- kept:
+- brought: The author brought an external YouTube video as the object to be analysed, not material drawn from the existing plan.
+- loop: The author used the conversation as a one-off extraction pass on outside media via a standing analysis template, and the plan kept nothing from it — the exchange produced a summary but left no trace in the planning database.

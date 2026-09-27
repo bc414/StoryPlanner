@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user gives the griffon-over-pony setting details and asks whether the name Minette would suit a unicorn servant, worrying that it evokes a lion and that a cute name might invite abuse.

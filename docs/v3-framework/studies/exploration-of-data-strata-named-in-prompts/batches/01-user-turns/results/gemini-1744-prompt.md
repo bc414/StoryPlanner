@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain the French grammar behind two organization names, "Foyer de la Jeunesse d'Avant-garde" and "Foyer des Jeunes d'Aquilee", so they can avoid mistakes in French, without pointing the model at any body of material to draw on.

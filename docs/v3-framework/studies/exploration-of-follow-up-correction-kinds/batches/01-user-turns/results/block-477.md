@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Chapter 16 analysis alone and raises a new question about a plot hole in Chrysalis's backstory, asking why she would stay at the Griffenheim Academy until the Republican Revolution, and explains that the academy was originally a generic choice to account for the changelings' Herzlander traits.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the model's analysis of the Gilded family feud to a new topic, a Chrysalis-centered sequel, giving its theme and causal structure and asking what the main story should reveal about her.

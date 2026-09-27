@@ -1,0 +1,4 @@
+- sources:
+  - The real origin story of Tammany Hall (real-world history) | Draw on the actual historical record of how Tammany Hall began, and use it to explain how the corrupt machine won the mayorship in Manehattan | What is the real origin story of Tammany Hall? | referred-to
+- order:
+- about: The author corrects the earlier framing by stating how the Ponies First party, Gilded Trust and Tammarey Hall should work (Tammarey Hall fully Skyfall-influenced), then asks for the real history of Tammany Hall to explain how the machine took the mayorship through local elections between 986 and 1011.

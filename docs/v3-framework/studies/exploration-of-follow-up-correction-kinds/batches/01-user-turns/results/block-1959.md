@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the terminology discussion and goes on to review a numbered list of themes, from earlier in the conversation, by saying which items are examples or overfit to old notes, then asks for the separate claims inside "Honesty vs Poseurs" and whether "Individualism has Limits" is an example or its own proposition.

@@ -1,0 +1,8 @@
+- relations:
+  - 2551|2553|the structural comparison of harmony with the warlord order is the evidence on which the thematic claim rests; the claim that benevolent maternalism is nearer feudal tyranny than freedom is what that comparison is offered as showing|same axes as warlord Aquileia ... / closer to feudal tyranny than freedom|implicit
+  - 2551|2553|partial tension or qualification: 2551 sets harmony apart from the warlord order by unconditional dignity in place of violent stratification, while 2553 places the same maternal order near feudal tyranny, so the likeness is drawn on structure and not on the way it treats people|unconditional dignity instead of stratification by violence / Benevolent maternalism is closer to feudal tyranny|implicit
+- outward:
+  - 2551|the warlord Aquileia order, a society held elsewhere in the plan, whose axes are the basis of the comparison|same axes as warlord Aquileia
+  - 2551|Coltbert's theories, developed and set out in other parts of the plan|it fuels his theories
+  - 2553|the freedom-as-logistical-achievement theme and its material-conditions argument, which reaches beyond the two notes here|Freedom is a logistical achievement, not a moral baseline
+- whole: The two notes hang together as one line of thought: 2551 sets out the structural likeness between harmony and the warlord order, and 2553 draws the thematic conclusion from it.

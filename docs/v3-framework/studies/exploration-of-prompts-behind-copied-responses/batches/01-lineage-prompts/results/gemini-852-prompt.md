@@ -1,0 +1,8 @@
+- asks:
+  - develop/portray | asks the model to help work out how to portray the stated thesis (capitalism's ruthlessness pacified only by weak civil/capital rights, enabling slides into authoritarianism) through the "harmonic capitalism" contrast and the GR/Aquileia split lasting until Equestria's entry | "So I want to portray this via the harmonic capitalism contrast and also the split between GR and Aquileia"
+  - validate/explain connection | asks the model to engage with (confirm or elaborate on) the claim that this thesis also explains Celestia's choice to pull the plug in "Stagnation" and Applejack's standing down | "I think this also explains why celestia was right to pull the plug in Stagnation and why Applejack stands down"
+- supplies:
+  - thesis statement | a political argument that ruthless capitalism plus weak capital rights (masked by civil rights) drives societies toward authoritarianism, and that this undermines the West's ability to arm grassroots democratic allies | a short paragraph
+- shaping:
+- openness: Leans toward an answer it names: the user already specifies the intended devices (harmonic capitalism contrast, GR/Aquileia split, Celestia's decision, Applejack's stand-down) and asks the model to build out or affirm this particular reading rather than leaving the direction open.
+- subject: Using a capitalism/authoritarianism thesis to unify specific plot and character choices (harmonic capitalism contrast, GR/Aquileia split, Celestia's and Applejack's decisions) in the story's political allegory

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the model's geography-and-Applejack synthesis and adds Aquileia's history (feudal, then Vérany's individualism, then Coltbert's reforms shaped by his Equestrian visit) to tie it to Equestria, without disputing anything the model said.

@@ -1,0 +1,17 @@
+- passages:
+  - 20 | statement about the subject | The rifle is the Magical Infantry Equipment from Equestria at War, invented by Twilight at Star Energy | none | plain descriptive identification of what it is and who made it
+  - 4025 | statement about the subject | It is a rifle that fires a laser spell from an etched crystal spell matrix (a Spellfire Matrix) instead of using gunpowder | none | describes what the weapon is and how it differs from a firearm
+  - 4026 | scene beat without a year | Star Energy asks the Temberik miners to name the rifle and they choose Luna Nova, referencing why they supported Luna long ago | none | written as an event, asked then chose; the 1000 years ago points to backstory, not the beat's date
+  - 4026 | statement about the subject | Luna is ashamed of the naming, and the rifle uses her old corruption and ambition as ammunition in today's war | none | thematic meaning and a character reaction stated as fact
+  - 4027 | statement about the subject | The rifle's typical power source is a crystal enhancer | none | short fact about the subject
+  - 4028 | statement about the subject | Secondary power: a crystal with the changeling love-draining matrix lets a soldier drain their own love, with red love going to the spellfire and pink love stored in a canister meant for donation to changeling POW rehab | none | rule of operation and intended use, no moment shown
+  - 4072 | statement about the subject | Design explanation: a draining-spell crystal plus a three-way valve (I input, R red love, P pink love) moves magic between canister and barrel, and Twilight miniaturized the harvester's large parts to fit a rifle | none | technical description of how the device works
+  - 4073 | statement about the subject | Valve configuration with a full red canister: I to the canister, R to the barrel crystal, P empty | none | describes one state of the mechanism
+  - 4074 | statement about the subject | Valve configuration when red love runs out: user turns I toward themselves, R stays to the barrel and P to the canister, so it draws their red and pink love | none | describes a second mode of operation as a rule
+  - 4079 | statement about the subject | The rifle is the most Harmonic weapon, since consuming red love necessarily yields pink love that can heal | none | thematic meaning of the design
+  - 4079 | design idea | Speculation that Fluttershy helps Twilight design it or at least devises its marketing | none | tentative, marked by Maybe and or
+  - 4109 | open design question | Asks how hooved ponies hold a gun and proposes a trigger crystal based on intent, built by Twilight and Fleur like the star spade, while doubting whether it is too dangerous | none | posed as a question with a tentative proposal
+  - 4109 | design idea | The red love/magic canister attaches to standard saddlebags, giving a professional look | none | proposed design detail, fragmentary wording
+  - 4109 | design idea | Twist that in peacetime ponies carry the magic canister to fuel civilian spells | none | labelled a subversion, a story concept rather than a moment
+- sequences:
+- whole: Mostly statements about the rifle's identity, mechanism, power sources and meaning, with one undated naming event and a few tentative design ideas and open questions, and no dated beats or ordered sequences.

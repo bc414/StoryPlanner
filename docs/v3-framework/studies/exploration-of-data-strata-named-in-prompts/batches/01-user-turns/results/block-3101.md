@@ -1,0 +1,4 @@
+- sources:
+  - the comments | material to read first, specifically the parts not yet touched, before writing the report | Read them first before writing the report | referred-to
+- order:
+- about: The user asks the model to identify which areas of the comments it has not yet covered and to read those before writing the report.

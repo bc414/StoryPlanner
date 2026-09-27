@@ -1,0 +1,6 @@
+- asks:
+  - identify/invent | name the French term, invented by a character called Coltbert, whose translation is "The Stagnation of Harmony" | "What would be the French term that Coltbert invents"
+- supplies:
+- shaping:
+- openness: open — the message states only the English translation and the inventing character's name, and asks the model to supply the French term itself without proposing one or offering options
+- subject: a French coinage by a character named Coltbert that renders in English as "The Stagnation of Harmony"

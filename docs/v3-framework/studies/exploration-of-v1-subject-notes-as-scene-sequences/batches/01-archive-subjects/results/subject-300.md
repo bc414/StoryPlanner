@@ -1,0 +1,7 @@
+- passages:
+  - 5267 | scene beat with year | The king declares independence and establishes a constitutional monarchy with a senate where the bourgeoisie and mafiosos take part | 972 ALB | dated event in the past tense, king acts at independence; year given as 972 ALB
+  - 5267 | statement about the subject | Explanation that this arrangement is why Wingbardy had no bourgeois revolution, unlike Herzland and Aquileia | none | causal comparison, 'That's why they don't have a bourgeois revolution'
+  - 5267 | statement about the subject | The Senate lets Nobility, Bourgeoisie and Mafia split the economic pie legally instead of through civil wars, giving a united front against the working class | none | describes how the institution works and what it is for; no moment or date
+  - 5276 | statement about the subject | Definition: the 'Mafia' are Private Protection Syndicates, not just street criminals | none | plain clarifying definition of a term
+- sequences:
+- whole: Two short worldbuilding notes on Wingbardy's political order: one giving its founding at independence in 972 ALB as a constitutional monarchy with a senate and explaining what the senate does for the elite classes, and one defining what 'Mafia' means there, with no sequence of scene beats.

@@ -1,0 +1,9 @@
+- asks:
+  - brainstorm/identify | figure out what additional component, sourced from Griffonia, would be needed to make the P2 spell work when cast by a static/non-living caster rather than by a unicorn's living brain | "What other component from Griffonia would be necessary to bridge the gap"
+- supplies:
+  - stated premise | a working assumption that the P2 spell functions perfectly and etches P1 (spellfire) exactly as the character Twilight intended, referencing established terms (P1/P2, unicorn brain casting, 'static P2') from prior discussion not included here | one sentence stating the assumption
+- shaping:
+  - the identified component must originate specifically from Griffonia | "component from Griffonia"
+  - the component must specifically address the difference between a unicorn brain casting the spell and a 'static' P2 casting it | "bridge the gap from a unicorn brain casting it and the static P2 casting it"
+- openness: Leaves the answer open: it asks what component 'would be necessary' without naming candidate components or options to choose among, only stipulating the assumption about P2's perfection as a given starting point.
+- subject: Worldbuilding for a fictional magic system: identifying a missing component that lets a non-living device replicate a spell normally cast by a living unicorn's brain.

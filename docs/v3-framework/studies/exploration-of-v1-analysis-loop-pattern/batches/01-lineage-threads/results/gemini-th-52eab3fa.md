@@ -1,0 +1,25 @@
+- steps:
+  - the author | corrects and specifies canon | AJ's true surrender timeline in the source story plus two invented divergences (clean occupation, industrial Tall Tale defense) | opening of the stretch
+  - the model | comparative analysis | contrasts enemy motive, battle character, collaborator psychology, and supporting-character roles across the two versions | reply to the opening correction
+  - the author | refines the divergence further | sharper detail on the source story's stabilized-retreat and the invented story's weather-won rout and total Vanhoover collapse | follow-up correction
+  - the model | re-analysis with refined detail | reworks battle-experience contrast, retreat-order function, uniform symbolism, alcohol symbolism against the new specifics | reply to the refinement
+  - the author | corrects the emotional register | overturns the euphoria reading, supplies guilt instead, and specifies the wine and hoof-wrestle scene as ironic/defeatist rather than confidence-building | third correction
+  - the model | re-analysis as darker tone | reframes the sequence as absurdist tragedy: guilt of competence, ironic wine, tent-entry seeking punishment, a witness role for a side character | reply to the tone correction
+  - the author | corrects a title's timeline | moves adoption of the character's title to after a later surrender, establishing an interim phase of waiting for an authority figure's return | fourth correction
+  - the model | phase analysis | names the interim phase's psychology, the slur's meaning, the acceptance moment, and contrasts it with the source story | reply to the timeline correction
+  - the author | adds backstory detail | supplies that the title-slur references a profiling system and a historical collaborator figure from the setting's deep history | fifth addition
+  - the model | historical analysis | unpacks the historical figure as archetype, the profiling system as prophecy, and the character's break from the predicted script | reply to the added detail
+  - the author | asks a direct question | requests analysis of a second side character's role now that the first side character's role is settled | shift to a question
+  - the model | role analysis | lays out the second side character's function as moral permission-giver, integrator, realist, and part of a three-person support structure | reply to the question
+  - the author | narrows the question | redirects from abstract role to concrete placement of the second side character within two specific scenes | follow-up redirect
+  - the model | scene drafting | produces a beat-by-beat blocking of the two scenes with the second side character worked into each | reply to the narrowed question
+- kept:
+  - note 3502 | pasted from this reply inside the author's own framing | keeps the model's fear/force-versus-ideology/technology contrast, placed on the link between a confrontation plot point and a subversion concept
+  - note 711 | pasted whole from this reply | keeps the model's line framing an authority figure as delusional for valuing soul over life, attached to the confrontation plot point itself
+  - note 2461 | pasted whole from this reply | keeps the model's line about combat proving the protagonist stronger as herself than as an officeholder, attached to the confrontation's link to the protagonist
+  - note 2462 | pasted whole from this reply | keeps the model's line contrasting a victor reporting to a coward with mud versus rank insignia, attached to the same confrontation-protagonist link
+  - note 901 | pasted from this reply inside the author's own framing | keeps the model's guilt-driven internal monologue material, placed on the battle plot point
+  - note 1148 | pasted from this reply inside the author's own framing | keeps the ironic-toast and wager scene material, placed on the wine-drinking plot point
+  - note 2555 | pasted whole from this reply | keeps the model's framing of the protagonist's guilt as caste usurpation, placed on a link between a later scene and the protagonist
+- brought: The author brought detailed prior knowledge of a companion story's plot and their own evolving divergent plot points, using each turn to correct or add specifics that the model had not yet been given.
+- loop: The author feeds progressively refined plot facts and corrections into the conversation, the model returns broad comparative or scene-level analysis built from those facts, and the planning database keeps back short passages of that analysis - sometimes whole, sometimes recast in the author's framing - attached to the specific plot points and character links the correction concerned.

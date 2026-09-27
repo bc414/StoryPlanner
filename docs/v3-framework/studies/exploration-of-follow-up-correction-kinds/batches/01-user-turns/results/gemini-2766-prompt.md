@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Trotsky and Stalin differed in their views on factory committees and workers, without challenging anything in the model's earlier explanation.

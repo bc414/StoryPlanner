@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how widely Pervitin's role is known in popular views of WW2 and how much it shaped the war, extending the topic without challenging anything the model said.

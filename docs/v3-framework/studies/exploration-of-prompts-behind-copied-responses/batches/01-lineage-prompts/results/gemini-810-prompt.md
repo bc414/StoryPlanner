@@ -1,0 +1,7 @@
+- asks:
+  - evaluate/brainstorm | whether Applejack should skip the stated one-hour delay and have her immediately teleport the rifles and drive the tanks through the streets | "I wonder if Applejack should just skip the 1 hour and immediately teleport the rifles and drive the tanks through the streets."
+- supplies:
+  - inline context | rationale for the proposed change: the rifles were meant for pony civilians' self-defense (not to force them to fight), Trimmel's prior declaration that statthalters remaining in Vanhoover are too morally bankrupt for mercy, and the self-selective nature of who ends up running the camp | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the message proposes a specific change (Applejack skipping the hour and immediately teleporting rifles/driving tanks) and backs it with reasons already asserted as true, inviting confirmation or development of that direction.
+- subject: Timing and manner of Applejack's arming/liberation move against the statthalters in Vanhoover

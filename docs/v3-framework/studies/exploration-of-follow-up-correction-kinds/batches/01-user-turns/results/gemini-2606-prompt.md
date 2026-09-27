@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model answered from its own extrapolation of the chat, treating Discret's chastity and recruitment as settled outcomes, instead of checking them against the user's stored story plans. The user re-asks the questions as open and asks for a plan-based answer. | "Review my story plans and synthesize an answer", and the opening "This is why Gerad Discret enforces chastity...?" | flat instruction to redo the answer, with the earlier questions repeated as if still unanswered
+  - fact of the world | The model said the warlord's leverage over cooks and tailors was the threat of being thrown to the infantry. The user gives the threat as concubinage, with the no-specificity ponies as the concubines. | "with the threat of concubinage" | in passing, as a hedged restatement of their own mechanic ("I suppose") with no complaint about the model
+- about: The user repeats their questions about Discret's chastity, recruitment and gendarmerie, restates their own camp-follower mechanic with concubinage as the threat, and tells the model to answer from the story plans instead of its own extrapolation.

@@ -1,0 +1,7 @@
+- asks:
+  - clarify | corrects a prior assumption about who buys the canned goods, specifying they are exported to Griffonia rather than sold domestically to equestrians | "To be clear, they don't sell their cans to the equestrian domestic market"
+- supplies:
+  - worldbuilding detail | trade of canned goods being exported from an equestrian producer to Griffonia, where griffons in cities can be starving | a sentence
+- shaping:
+- openness: Leans toward the fact it states: that the cans are entirely export goods to Griffonia amid griffon urban starvation, correcting an apparent earlier assumption of domestic equestrian sale.
+- subject: Correcting the market/destination for canned goods sold by a group, tied to griffon starvation in Griffonia's cities

@@ -1,0 +1,41 @@
+- relations:
+  - 1497 | 2010 | 2010 gives the concrete falsifications (Grover I and II, their reigns, the composite warlords) of the manufactured canonized history that 1497 states in general | manufactured, canonized history / Grover III's canonical history published with the Archons | implicit
+  - 1497 | 1514 | 1514 says what the rewritten history hid and why, filling in the manufactured history of 1497 | Grover III ordered the Archons to rewrite history | implicit
+  - 1514 | 2010 | two accounts of what the official history conceals: griffon mountain origins in one, the real Grover III's father and composite warlords in the other; both support the claim that the history is a fabrication | rewrite history / canonized as the composite mythical conquerors | implicit
+  - 2006 | 2007 | 2006 gives the earlier state (clergy monopoly on hand copied books) against which 2007's Grover III printing press and his use of the Archons is set | Before Grover III / Grover III invented the printing press | implicit
+  - 2007 | 1502 | the press is the means by which Grover III could publish the book to the masses | invented the printing press / publishes the Book of Boreas to the masses | implicit
+  - 2007 | 2010 | 2010 is an instance of 2007's press-plus-Archons arrangement: the canonical history printed with the Archons on his new presses | Archons using his new printing presses | implicit
+  - 1500 | 1504 | 1504 states who Lions and Eagles were in practice (knights; serfs, wives, ponies) under the general doctrine of 1500 | Lions are knights and Eagles are serfs | implicit
+  - 1500 | 1505 | 1505 applies the Lion/Eagle division of 1500 to a later industrial setting (CEOs and workers) | CEOs are Lions and workers are Eagles | implicit
+  - 1505 | 1516 | both put the Lion in the hands of industrialists in Grover IV's gilded age; 1516 gives the Protestant-reformation reason behind the 1505 usage | industrialists weaponized the Lion during Grover IV's gilded age | implicit
+  - 1498 | 1516 | 1498 has the industrialists break the divine caste by gold and gunpowder; 1516 has them then take up the Lion for themselves, a continuation of the same industrialist rise | shatter the divine caste system / overthrow the king, become the new king | implicit
+  - 1500 | 1506 | 1506 presupposes the birth-fixed Lion/Eagle status of 1500 and makes crossing it a heresy | claim you are a Lion when you were born an Eagle | implicit
+  - 1500 | 1507 | Coltbert Reforms revise 1500's birth-based caste: the categories stay but no longer follow birth | keep the Lion and Eagle but says they are not defined by birth | implicit
+  - 1507 | 1518 | 1518 restates and extends the Aquileian reading in 1507 (Lion and Eagle as switching roles, everyone both) and contrasts it with the Herzlander birthright reading | Aquileia - The lion is whoever is more passionate... encouraged to be both | implicit
+  - 1504 | 1518 | 1518 restates the birthright Lion/Eagle arrangement of 1504 for Herzland and adds how the poor are drawn into it | Herzland/archons - lions and eagles by birthright | implicit
+  - 1505 | 1518 | 1518's poor sold on being Lions who must work harder and abuse others fits the gilded-age worker/CEO scheme of 1505 | poor are sold on being lions who need to work harder | implicit
+  - 1512 | 1500 | the Republic's total rejection of the Lion/Eagle dogma stands against the doctrine stated in 1500 | reject the lion/eagle Archon dogma entirely | implicit
+  - 1512 | 2020 | 1512 says the Republic rejects the Archon dogma entirely, while 2020 says it synthesizes the archons' genuine teachings with republican virtues; the two sit in tension | reject ... entirely / synthesizing the archons' genuine teachings | implicit
+  - 1503 | 2020 | 2020 states the present-day point drawn from Christianity, of which the Bible in 1503 is the named real-world source | The Bible / Christianity has a lot of fundamental good teachings | implicit
+  - 1515 | 1500 | the safety net and acceptance of one's place in 1515 matches 1500's Lions providing for obedient Eagles | accept their place in exchange for somewhat of a social safety net / duty to provide for the eagles | implicit
+  - 1515 | 2010 | 1515 names Grover III's chivalry as what Old Catholicism stands for; 2010 says the canonized warlords were propped up as chivalrous examples | Grover III's chivalry / chivalrous examples to follow | implicit
+  - 1515 | 1517 | old and new Catholicism set as opposites: stagnant and hierarchical against practising what you preach and mutual support | benevolent stagnation / actually practicing what you preach | implicit
+  - 1517 | 2020 | 1517's grassroots practice of loving one's neighbour is the kind of religion 2020 calls the ideal | actually practicing what you preach / the ideal that religion should serve | implicit
+  - 1500 | 1514 | 1514 exposes the divine right by which Lions rule in 1500 as a lie | Lions rule by divine right / claim a Divine Right to rule Herzland | implicit
+  - 1500 | 1513 | 1513 shows the doctrine of 1500 being used for violence, patriarchy and abuse of ponies | Boreas is used to justify violence / justify patriarchy | implicit
+  - 1504 | 1513 | ponies are placed among the Eagles in 1504 and are targets of abuse in 1513 | Eagles are serfs, wives, ponies / used to abuse ponies | implicit
+- outward:
+  - 2020 | real-world Christianity and its abuse, and the Griffonian Republic as a polity held elsewhere | Christianity has a lot of fundamental good teachings
+  - 1503 | the real-world Bible as inspiration | The Bible
+  - 1515 | real-world Old Catholicism; the Stagnation of Harmony, an era or force held elsewhere | Old Catholicism is the Stagnation of Harmony
+  - 1516 | the real-world Protestant Reformation; Grover IV's gilded age and the industrialists | The protestant reformation / Grover IV's gilded age
+  - 1517 | real-world grassroots spiritualism and Harmonic Republicanism as a movement held elsewhere | New Catholicism or grassroots spiritualism / Harmonic Republicanism
+  - 1497 | the archons' folklore and the wider griffon civilization | based on the archons' folklore
+  - 1498 | the industrialists as a group and their gold, gunpowder and artisanal magic | The industrialists shatter the divine caste system
+  - 1514 | Herzland, its nobility and the Griffonstone mountain origins | Herzlander Nobility / Griffonstone mountains
+  - 2010 | Grover I and II, the Idol of Boreas, the Riverlands crusade and the warlords | Grover I used the Idol of Boreas to conquer the continent
+  - 1513 | Celestia, Equestria and the Aquileian ponies | Celestia across the ocean raises the sun
+  - 1507 | the Coltbert Reforms and the Aquileians | The Coltbert Reforms
+  - 1512 | the Griffonian Republic and its ideals of liberty, equality and fraternity | The Griffonian Republic
+  - 1518 | Aquileia and Herzland as places held elsewhere | Aquileia - The lion is whoever is more passionate
+- whole: Most of these notes hang together around the Lion/Eagle doctrine and the manufactured history, and the real-world analogies sit as a looser cluster tied mainly to the allegory note, though 1512 and 2020 pull against each other on how the Republic treats Archon teaching.

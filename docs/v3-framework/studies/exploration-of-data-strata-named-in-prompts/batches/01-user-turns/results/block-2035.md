@@ -1,0 +1,7 @@
+- sources:
+  - P&K and FoE | works to compare; treated as having original protagonists, with suspense over what happened to the mane 6 and Equestria as we knew it | P&K and FoE both have original protagonists | referred-to
+  - the canon show (FiM, where Flurry Heart is only a baby) | the canon baseline, which the plan follows with no compromises; described as a girl's cartoon | canon FiM Equestria with no compromises | referred-to
+  - My story plan for The Lioness of Tall Tale | the plan being contrasted with the others; told from mane 6 perspectives and staying with canon FiM Equestria | My story plan for The Lioness of Tall Tale is from mane 6 perspectives | referred-to
+  - EaW premise (Equestria at War, including its in-game factory count) | a contrasting source; its industrial-revolution premise is at odds with the canon show, so it is not what the plan follows | EaW premise says equestria led the industrial revolution | referred-to
+- order:
+- about: The user is asking for an analysis of how their own plan, which keeps the mane 6 as viewpoint characters and stays strictly with canon FiM Equestria, differs from P&K, FoE and the EaW premise, which use original protagonists or an industrialised Equestria.

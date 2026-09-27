@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a comparison of two hypothetical versions of the timeline, one where Grover 3 invents the printing press at age 20 and one where he does so at age 50, without pointing at any body of material to use or avoid.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the etymology of 'bildungsroman' and 'romance' as literary terms predating the Victorian era, and whether the two concepts are historically related.

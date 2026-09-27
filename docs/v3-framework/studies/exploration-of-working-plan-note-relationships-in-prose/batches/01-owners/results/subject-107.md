@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - 688|The Canterlot Wedding event, Cadance, Shining Armor and Chrysalis's invasion, held in the wider story or canon rather than in this item|During the Canterlot Wedding in 1002, Cadance and Shining Armor casted a city-wide Lioness Spell
+  - 688|The changelings' castes and individuals (statthalters, jaegers, Thorax, Chrysalis) and their hive society, described elsewhere|The statthalters were thrown far while the jaegers like Thorax were thrown just off the mountain
+  - 688|Trimmel and his gang, a separate character group with its own liberty and meritocracy motives, held elsewhere|Trimmel's gang, fighting for genuine, albeit, misguided liberty and meritocracy
+  - 688|Geography of the great swamp past Acornage and the mountain, places held elsewhere|blasted all the way back to the great swamp past Acornage
+- whole: ["This owner has only one note, so there are no joints between notes and it stands as a single entry."]

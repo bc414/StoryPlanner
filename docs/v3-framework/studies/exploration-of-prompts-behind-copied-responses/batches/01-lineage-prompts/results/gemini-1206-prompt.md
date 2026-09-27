@@ -1,0 +1,7 @@
+- asks:
+  - propose | floats a character-direction idea and implicitly invites the model to weigh in on or develop it | "I'm thinking Fleur's personality should be..."
+- supplies:
+  - idea | a single-line pitch that Fleur's personality be partly modeled on an early, pre-empathy version of a character called Twilight | one sentence
+- shaping:
+- openness: leaves the answer open — it states a personality-inspiration idea without asking a specific question or specifying what kind of response is wanted
+- subject: character personality development for Fleur, referencing an early, pre-empathy version of a character called Twilight as inspiration

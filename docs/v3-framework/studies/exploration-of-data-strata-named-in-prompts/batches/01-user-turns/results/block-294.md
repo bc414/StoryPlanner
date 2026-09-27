@@ -1,0 +1,6 @@
+- sources:
+  - the depiction of Anarcho-Capitalism just given (the Skyfall/Kessler history and critique) | not taken as settled; to be judged for accuracy as a depiction and critique | Is this an accurate depiction and critique of Anarcho-Capitalism | referred-to
+  - the real world (real-world Anarcho-Capitalism and its parallels) | use as the yardstick for accuracy and as the place to find parallels | What are the real world parallels | first-named
+  - the story's existing mapping of Skyfall as Anarcho-Capitalism and Aquileia as Ego-Capitalism | treat as an established premise and extend it to the Empire and the Griffonian Republic | If Skyfall is Anarcho-Capitalism and Aquileia is Ego-Capitalism | referred-to
+- order:
+- about: The user asks the model to check whether its portrayal of Skyfall's Anarcho-Capitalism is accurate against real-world theory and history, and to extend the story's existing economic-system mapping to the decaying Empire and the Griffonian Republic.

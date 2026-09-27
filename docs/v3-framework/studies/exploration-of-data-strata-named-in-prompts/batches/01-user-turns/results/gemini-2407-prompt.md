@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to work out, within the established shared worldbuilding, how a named in-world policy (the Coltbert Reforms) could extend or democratize aspects of pegasi magic to a griffon faction (FJA), without pointing to any external document, database, or other body of material to draw on.

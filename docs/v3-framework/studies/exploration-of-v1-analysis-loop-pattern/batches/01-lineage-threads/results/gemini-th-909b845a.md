@@ -1,0 +1,13 @@
+- steps:
+  - the author | proposes a batch of rules | four candidate worldbuilding mechanics (jaeger-geist blocking shapeshifting, emotion sense as drone discipline, Skyfall disguise causing agony, jaeger-only world access) framed as a question | opening prompt of the thread
+  - the model | validates and elaborates a mechanic | verdict plus materialist and geopolitical justification for jaeger-geist suppressing shapeshifting, tied to conscript control | first section of the reply
+  - the model | validates and elaborates a mechanic | verdict plus justification for using unfiltered emotion sense as a disciplinary tool over drones | second section of the reply
+  - the model | validates and elaborates a mechanic | verdict plus justification for why a disguised drone in Skyfall would suffer sensory agony | third section of the reply
+  - the model | validates and elaborates a mechanic | verdict plus justification for restricting outside-world access to Jaegers, framed as a 'biological iron curtain' | fourth section of the reply
+- kept:
+  - note 149 | pasted from this reply inside the author's own framing | keeps the shapeshifting-suppression/asset-specificity reasoning, filed as the answer to the plot point 'why not shapeshift to escape', with author-added detail on drone fear and jaeger-geist dependency
+  - note 4063 | the plan held this text before this reply | pre-existing note on infant changelings' lack of emotion-sense control, which the model's reply echoes rather than originates; sits under the Changeling Emotion Sense subject
+  - note 5487 | pasted whole from this reply | keeps the Bauleiter-catwalk paragraph on weaponized contempt/disappointment as drone discipline verbatim, filed under the Changeling Biology subject
+  - note 5488 | pasted from this reply inside the author's own framing | keeps the Skyfall-agony and jaeger-exclusivity reasoning, blended with author's own additions about drone fear and jaeger self-image, filed under the Changeling Biology subject
+- brought: The author brought four already-formed candidate worldbuilding rules about changeling emotion sense and jaeger exclusivity and asked for analysis of how they fit the established lore.
+- loop: The author proposes discrete biological/political rules as questions, the model validates each with in-canon justification and thematic payoff, and the plan keeps the validated mechanics — sometimes verbatim, sometimes folded into the author's own restated framing — as biology notes and a plot-point answer, while one adjacent pre-existing biology note is simply echoed rather than newly generated.

@@ -1,0 +1,26 @@
+- steps:
+  - author | proposes system origin | Statthalter as inherited feudal hive structure, Bauleiter/meritocracy as stolen Cloudbury model | gemini:584 prompt
+  - model | builds framework analysis | 'Frankenstein State' concept, Janissary/Meiji historical parallels, comparison table of the two systems | gemini:584 response
+  - author | asks mechanism question | how emotion-sense lie detection interacts with Statthalter demotion, quota vs fealty | gemini:585 prompt
+  - model | specifies mechanism | 'taste of loyalty vs empathy' rule, Statthalter/Bauleiter responsibility table, narrative implications | gemini:585 response
+  - author | corrects and adds lore | Statthalters not permanent, lie detection from trained emotion-sense not draining, Jaeger origin as emotion-suppressing hunters, asks demotion-level question | gemini:586 prompt
+  - model | reworks analysis with correction | psychic-recoil mechanics, Chrysalis as reality-checking leader, verdict on demotion to Level 2 | gemini:586 response
+  - author | introduces new character sketch | Synovial as old-guard rival, his prejudices, 981 counterrevolution, regency during Chrysalis's schooling | gemini:587 prompt
+  - model | analyzes character | archetype placement, historical parallel, narrative function, title suggestion | gemini:587 response
+  - author | supplies detailed backstory correction | Synovial's actual role as Hivesmarschall, 1002 Canterlot failure, demotion, Griffenheim posting, betrayal of Eagleclaw, defeat at Tall Tale | gemini:588 prompt
+  - model | elaborates plot arc | phase-by-phase breakdown of the failure-exile-defeat arc with summary table | gemini:588 response
+  - author | delivers large plan block | Chrysalis's Stalliongrad/Herzland strategy, Vanhoover camp and bauleiter education offer, Applejack's Vanhoover liberation and resulting fratricide | gemini:589 prompt
+  - model | analyzes tragedy | historical parallels (co-prosperity sphere, comprador class, purge of collaborators), layered summary table | gemini:589 response
+  - author | asks system-level question | how Chrysalis balances faction tension without crippling inefficiency, why not abolish either | gemini:590 prompt
+  - model | supplies theoretical framework | Dual State theory, management tactics, inefficiency-vs-terror-dividend calculation | gemini:590 response
+  - author | requests historical case study | asks for Peter the Great's biography as inspiration for Chrysalis | gemini:591 prompt
+  - model | delivers historical mapping | biography beats matched point-by-point to Chrysalis in a summary table | gemini:591 response
+  - author | brings character integration plan | Thorax's canon-based defection, bond with Flurry Heart, siege mechanics, Fluttershy's POW program, infiltration training, asks if Thorax can be Trimmel's student | gemini:592 prompt
+  - model | confirms and extends integration | master/student dynamic, generational-loyalty analysis, siege-filter mechanics elaboration | gemini:592 response
+- kept:
+  - note 2307 | the author's own words in this record | keeps the author's line on Applejack's Tall Tale win using Chrysalis's own doctrine, filed as a Link note on Trimmel/Synovial
+  - note 632 | the author's own words in this record | keeps the author's line that the 1002 plan was to remove Celestia and run a peaceful occupation, filed as a PlotPoint note
+  - note 633 | the author's own words in this record | keeps the author's description of the bauleiters' education/meritocracy plan and its purpose of funding the Herzland invasion, filed as a PlotPoint note
+  - note 634 | the author's own words in this record | keeps the author's paragraph on the bauleiter vision clashing with statthalder fanaticism and its partial implementation in the Vanhoover camp, filed as a PlotPoint note
+- brought: The author brought an evolving set of worldbuilding fragments from the story plan — faction origins, character sketches, specific plot beats, and system-level questions — to develop and stress-test with the model across the conversation.
+- loop: The author repeatedly brought plan fragments (system origins, character backstories, plot beats) or open questions, the model returned extended analyses, historical parallels, and elaborated scenarios, and the author either corrected/refined the lore or moved to a new topic; of all this back-and-forth, the planning database kept only a handful of the author's own summary sentences, filing them verbatim as Link and PlotPoint notes while the model's surrounding analysis was not retained.

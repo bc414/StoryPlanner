@@ -1,0 +1,4 @@
+- sources:
+  - the YouTube video at the pasted link | handed over with no instruction; the model is implicitly meant to take it up as material, and no weight or trust level is stated | Https://youtu.be/0iT9HbaRwfM | first-named
+- order:
+- about: The user posts a bare YouTube link with no comment, leaving the model to work out what to do with that video.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's account treated every cell's content as material to be shown and never stated, with the W notes staying private. The user says the cells differ: character actions and disclosed truths in the E+Em and La L+W cells can be told, often through dialogue, and only the change, the meaning and the reader's feeling are shown. | "it seems like the change is not told"; "which seems like it can be told"; "seem like they should be told (through dialogue most likely)" | Tentative and put as observation and question. It works through the cells one by one and then asks whether the differences are real, with no explicit statement that the model was wrong.
+- about: The user checks the model's uniform show-don't-tell account against each track cell, points out where telling seems allowed and where showing is required, and asks whether the cells or the L+D track should be reorganized.

@@ -1,0 +1,4 @@
+- sources:
+  - English pony names | the model need not copy their idiom-style naming; a French surname for a tailor does not have to work that way, so treat it as a convention not to follow | it does not need to be an idiom the way English pony names are | referred-to
+- order:
+- about: The user asks for a French surname suited to a tailor character and relaxes the English pony-name convention of idiom-based names.

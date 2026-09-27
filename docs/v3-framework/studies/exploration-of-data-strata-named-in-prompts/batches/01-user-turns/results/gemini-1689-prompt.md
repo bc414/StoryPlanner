@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to compare thestral parlor owners giving dreamwalking therapy to refugees, volunteers and hostages with Fluttershy rehabilitating changeling POWs as an animal caretaker, and asks whether the thestrals would be a category mismatch for the changelings, without pointing at any body of material to draw on.

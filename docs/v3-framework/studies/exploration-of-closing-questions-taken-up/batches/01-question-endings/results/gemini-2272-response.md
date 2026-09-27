@@ -1,0 +1,4 @@
+- questions:
+  - whether Chrysalis's changeling swarm has a psychological weapon analogous to the Stuka's Jericho Trumpet, such as a 'Hate Frequency' resonance exploiting Emotion Sense | no user turn | none | none
+- shape: none
+- settles:

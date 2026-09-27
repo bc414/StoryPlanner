@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's third option by proposing that Applejack herself dreams the collaborator nightmare, with Luna seeing it through her dream-monitoring and it feeding into the retreat order, so this is a development of the idea and not a correction.

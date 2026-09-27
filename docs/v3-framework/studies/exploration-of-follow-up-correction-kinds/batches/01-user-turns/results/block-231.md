@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the analysis of the paratext and asks for a new deliverable, a tentative reading-order chapter list of events to dramatize for Chrysalis built only from details already discussed, without making anything up.

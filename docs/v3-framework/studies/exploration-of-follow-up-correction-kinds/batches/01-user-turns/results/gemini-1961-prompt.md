@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Reich/Kaiser analysis, adds a further motive for it (Kemerskai's 981-1007 preaching against nobles, bourgeoisie and archons), and asks a new question about which German terms the in-universe Herzlander speakers would use and what the options are.

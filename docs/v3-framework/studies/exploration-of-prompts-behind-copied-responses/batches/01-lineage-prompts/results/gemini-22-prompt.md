@@ -1,0 +1,7 @@
+- asks:
+  - summarize | condense the entirety of the story discussed so far into a single summary | "Can you summarize the whole story?"
+- supplies:
+- shaping:
+  - cover the whole story, not just the opening | "This is only the start of the story"
+- openness: Leaves the answer open; it names no particular content, length, or angle for the summary, only that it should cover the whole story rather than just its start.
+- subject: Requesting a summary of a story in progress, noting that what has been seen is only its beginning

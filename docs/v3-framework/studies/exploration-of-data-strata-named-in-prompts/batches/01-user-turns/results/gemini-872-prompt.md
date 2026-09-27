@@ -1,0 +1,7 @@
+- sources:
+  - my harmonic capitalism and republic themes | the author's own themes, to be compared with the original storytelling and shown as matured versions of it | ways that my harmonic capitalism and republic themes reflect matured versions | referred-to
+  - Faust's original storytelling | the reference point the author's themes are measured against, an earlier form that the themes mature | matured versions of Faust's original storytelling | referred-to
+  - the later show | material whose poor-mandate parts are to be listed as things to deconstruct or subvert | parts of the later show that came from poor mandates | referred-to
+  - my story | the current state of the author's plan, to be checked so each item is marked as already present or not yet present | note what is already in my story vs not yet | referred-to
+- order:
+- about: The user asks the model for an exhaustive list of how their story's themes mature Faust's original storytelling and which poor-mandate elements of the later show their story should deconstruct or subvert, marking each as already in the story or not yet.

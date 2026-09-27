@@ -1,0 +1,9 @@
+- asks:
+  - identify | name additional prominent business tycoons of the Gilded Age | "Who were the other tycoons of the guilded age?"
+  - brainstorm | list further positive/admirable traits of the era, split into dull and exciting kinds | "Are there any other boring or exciting virtues"
+  - brainstorm | list further negative or morally troubling aspects of the era | "What about other evil parts?"
+  - identify | name the events or causes that triggered/began the Gilded Age | "What were the inciting incidents of the gilded age?"
+- supplies:
+- shaping:
+- openness: Open-ended: each question asks the model to enumerate more items of a named category (tycoons, virtues, evils, inciting incidents) without specifying particular answers, as shown by the repeated use of "other" and "any other."
+- subject: Historical facts about the Gilded Age — its tycoons, virtues, vices, and originating events

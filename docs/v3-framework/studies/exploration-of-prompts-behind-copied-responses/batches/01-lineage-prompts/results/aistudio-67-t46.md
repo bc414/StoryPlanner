@@ -1,0 +1,12 @@
+- asks:
+  - check | asks whether it is realistic that most ponies stay happy and unaffected by the harmony mandates while only the most ambitious ponies are constrained | "or does this not work realistically?"
+  - check | asks for confirmation that the 914-930 ALB harmony mandates would have the buy-in of the majority of ponies | "these mandates would have the buy in of the majority?"
+  - brainstorm | asks whether many adult ponies would help run friendship seminars and teach foals to be passive/good to a fault | "Many adult ponies would help Celestia with the friendship seminars and teaching foals to be good to a fault/passive?"
+  - brainstorm | asks whether exposure to griffon hyper-capitalism would be needed for ponies to embrace Celestia's new direction in large numbers | "Would they need to see some exposure to the hyper capitalism and griffon ways and latch onto Celestia's new direction in significant numbers?"
+  - check | asks whether it is plausible that the ambitious frontier pioneers are only a small minority of the population | "Is it plausible that the ambitious pioneers are only a small minority of the population?"
+  - check | asks for confirmation that the cutie-mark division of labor applies across all Equestrian history and is not weaponized for pacification until 930 ALB, if ever | "it's not weaponized for pacification until 930 ALB, if at all?"
+- supplies:
+  - worldbuilding proposal | own reasoning laying out a revised political characterization of Celestia (as a fallible reactionary ruler rather than a deity), the dual function of the Tree of Harmony, the 0-930 ALB timeline of harmony mandates, Luna's psychology and deference to Celestia, the minority status of frontier pioneers, the shallow nursery generations, and the cutie-mark labor system | several paragraphs
+- shaping:
+- openness: Mixed: several specific claims are framed as things to check or confirm (\"or does this not work realistically?\", \"Is it plausible that...\", \"...if at all?\"), while the surrounding narrative logic (Celestia as flawed reactionary politician, cautious-harmony stance until Grover III's industrial tyranny) is asserted as the answer the user already leans toward.
+- subject: Reworking Celestia's characterization and the Tree of Harmony/pacification timeline (0-930 ALB) in a My Little Pony story world to make her a flawed political figure rather than a mythic ruler

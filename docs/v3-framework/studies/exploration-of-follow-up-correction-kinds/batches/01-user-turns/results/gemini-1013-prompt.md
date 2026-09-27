@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Red Love analysis and raises a new worldbuilding problem, asking how to reconcile their established alicorn magic rule with Starlight Glimmer matching or exceeding Twilight on the battlefield.

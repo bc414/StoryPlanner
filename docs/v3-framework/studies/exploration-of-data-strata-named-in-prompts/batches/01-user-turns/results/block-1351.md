@@ -1,0 +1,7 @@
+- sources:
+  - my version of Chrysalis, the author's story design including Pagala as the concentration of the cartoon villain | treat as the author's settled design premise that the model builds from | I'm imagining my version of Chrysalis is not a sadistic cartoon villain | referred-to
+  - George Soros's real life motivations | draw on as the real-world model for informing Chrysalis's characterization and the commentary on him | How can George Soros's real life motivations inform this characterization of Chrysalis | referred-to
+  - Nationalists paint him as a global dark money puppet master | treat as a distorted, partial view of Soros, one pole of the truth, which is said to lie between it and his self-image | Nationalists paint him as a global dark money puppet master and the perfect villain | referred-to
+  - His own view of himself as a top down benevolent systems builder | treat as the other partial pole, a self-image that is also not the whole truth | He thinks he is a top down benevelent systems builder | referred-to
+- order:
+- about: The author refines their Chrysalis design as a narcissistic, aggrieved civilizer-villain and asks how Soros's real motivations, between the nationalist caricature and his self-image, shape her and what her defeat says about him.

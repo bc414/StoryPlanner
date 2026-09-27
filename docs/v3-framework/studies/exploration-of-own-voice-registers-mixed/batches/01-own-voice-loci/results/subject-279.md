@@ -1,0 +1,7 @@
+- passages:
+  - note 5023 | label heading | fragment, no verb, dash-separated tag | names the concept being discussed | apart
+  - note 5023 | expository analysis | present-tense declaratives, third-person plural 'they'/'states', generalizing claims | how totalitarian states atomize and control citizens | apart
+- shifts:
+  - note 5023 | label heading | expository analysis | drops the noun-phrase tag for full declarative sentences explaining the mechanism
+- registers: label heading; expository analysis
+- whole: This single note holds two registers, a brief labeling heading followed by an expository analytical passage, and the two sit apart with the heading set off on its own line before the explanatory sentences begin.

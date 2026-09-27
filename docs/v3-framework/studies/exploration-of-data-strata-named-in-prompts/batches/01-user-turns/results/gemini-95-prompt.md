@@ -1,0 +1,5 @@
+- sources:
+  - chapter 8 | the material to be assessed for whether it should be divided into two or more chapters and given fitting names | Should chapter 8 be split into two or even more chapters? | referred-to
+  - my usage of the elements as chapter titles | the full body of the author's element-based chapter titles is to be analysed for patterns and used as the basis for suggesting new titles and what makes them work | Given the full context of my usage of the elements as chapter titles | referred-to
+- order:
+- about: The user asks whether chapter 8 should be split and named, and asks the model to analyse the pattern in their element-based chapter titles in full context so as to generate more titles and see why they work.

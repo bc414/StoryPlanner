@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's battery and electrical-circuit analogies and asks a new follow-up question about how the composite material could be modeled on batteries and about the history and types of batteries, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a judgment on whether to add a line in which Celestia says she feels Applejack and Twilight tricked her into perpetuating violence, and what that would do for her thematic role and arc strength.

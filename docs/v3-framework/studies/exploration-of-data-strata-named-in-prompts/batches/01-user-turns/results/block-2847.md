@@ -1,0 +1,8 @@
+- sources:
+  - the previous turn (the model's analysis of the last two axes) | reread its nuances on the Boundary and Social Contract axes and reason through them again, not accepting its five-value scale conclusion | Look into the nuances of the previous turn on these last two axes | referred-to
+  - the current tribalism/universalism axis | treat as provisional; suspected of conflating what is really a separate fifth axis | the current tribalism/universalism is conflating | referred-to
+  - the transactional leverage vs unconditional dignity axis | treat as provisional; possibly also masking the fifth axis | Potentially the transactional leverage vs unconditional dignity axis | referred-to
+  - what I previously called asset specificity vs standardization | treat as provisional; parts of it may belong to the new axis, and it should be narrowed to strictly economics | Parts of what I previously called asset specificity vs standardization | referred-to
+  - the author's own account of Gerad Discret, Chrysalis's system and the two Vanhoovers | treat as true and as a correction to the model's reading; keep the early Vanhoover (love taxes only) distinct from the later statthalter one | Keep in mind that the Vanhoover at the start vs the Vanhoover at the end | first-named
+- order:
+- about: The user rejects the five-value scale in favour of strict two-pole axes, corrects the model's reading of Gerad Discret, Chrysalis and Vanhoover from their own knowledge, and asks the model to reason out a fifth, social axis separate from the current Boundary, Social Contract and economic axes.

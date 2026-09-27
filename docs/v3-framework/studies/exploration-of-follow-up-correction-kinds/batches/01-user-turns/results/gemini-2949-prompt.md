@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's worldbuilding analysis and asks for outside research into where the show's writers got the Pinkie Promise rhyme from "Green Isn't Your Color" and where the term comes from, which is a new request and not a correction.

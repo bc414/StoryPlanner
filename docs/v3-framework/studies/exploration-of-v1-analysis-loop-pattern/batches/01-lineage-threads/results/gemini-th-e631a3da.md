@@ -1,0 +1,27 @@
+- steps:
+  - author | pose question | tactical question: should Star Energy preemptively destroy its own dam | opening prompt
+  - model | render verdict | judges preemptive destruction does not make sense, cites industrial-capacity theme, weather-factory alternative, build-not-destroy philosophy | first response
+  - author | supply reasoning | clarifies the in-story rationale was widening the river and fear the changelings would destroy the dam themselves | second prompt
+  - model | reaffirm verdict | restates the plan doesn't make sense given that specific reasoning, walks through battery/weather/enemy-intent points | second response
+  - author | add constraint | notes Star Energy doesn't know changelings want clean occupation and believes it's a war of extermination | third prompt
+  - model | reaffirm verdict | argues it's still a strategic error even under an extermination belief | third response
+  - author | pose hypothetical | asks what happens if the dam is destroyed in combat while river defenses are manned | fourth prompt
+  - model | trace consequences | lays out flood/blackout/genre-shift chain reaction for that scenario | fourth response
+  - author | pose hypothetical | asks what happens if the changelings destroy the dam during the battle instead | fifth prompt
+  - model | trace consequences and endorse | judges this version works better narratively, calls it a strong plot point | fifth response
+  - author | reframe | proposes that preemptive destruction is Star Energy hedging against that same worst case | sixth prompt
+  - model | analyze implications | works through survivalist-vs-capitalist framing, timer device, tragic irony, gives conditional verdict (desperate gamble) | sixth response
+  - author | redirect to plan | asks to review established circumstances of the army's day-one loss | seventh prompt
+  - model | recap established lore | restates the Vanhoover encirclement and its causes, drawing on existing plan material | seventh response, note attached
+  - author | narrow the question | asks for a verdict on dismantling the dam early in chapter 1, adding that harmonic capitalism isn't revealed yet and they're in survival mode | eighth prompt
+  - model | render verdict | recommends against destroying the dam in chapter 1, proposes a 'rigged to blow' compromise instead | eighth response
+  - author | supply new constraint | states they can run on oil and can't risk their defense being wiped by a flood | ninth prompt
+  - model | reverse verdict | concludes preemptive destruction now makes sense given the oil fallback and flood risk | ninth response
+  - author | ask logistics question | asks how long the flood lasts and how long before enemy contact the demolition should occur | tenth prompt
+  - model | quantify timeline | gives phase durations and an optimal pre-contact detonation window | tenth response
+  - author | supply new lore | introduces the Acornage atrocity contrasted with 'clean' occupations elsewhere, asks if it explains the decision | eleventh prompt
+  - model | confirm and finalize verdict | calls the atrocity the missing motivational link and finalizes the case for proceeding with the demolition | eleventh response
+- kept:
+  - note 658 | the plan held this text before this reply | keeps the pre-existing plot-point text contrasting the day-one Vanhoover defeat with the 3rd Battle of Tall Tale, filed under the PlotPoint "3rd Battle of Tall Tale"
+- brought: The author brought forward established plan lore piece by piece — the day-one army defeat, the oil fallback, and the Acornage atrocity — to progressively test and redirect the model's tactical verdict on destroying the dam.
+- loop: The author repeatedly poses hypotheticals and adds plan constraints to pressure-test a single tactical verdict, which the model reverses each time new information is supplied, but the only trace the database keeps from this whole exchange is pre-existing plot-point text about the day-one loss that the model simply quoted back, not any of the new tactical reasoning generated.

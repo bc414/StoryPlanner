@@ -1,0 +1,6 @@
+- relations:
+  - 391 | 392 | the page-shown claim (Celestia begged Fluttershy to bring Twilight home) is what the reader is meant to read a hidden motive into: why Celestia sent Fluttershy in particular, and what she hoped for | Celestia begged her to bring Twilight home / hoped that Fluttershy as the element of kindness could convince Twilight | implicit
+- outward:
+  - 392 | Twilight's harm already done elsewhere in the story, and the element-of-kindness lore held outside this item | not do any more harm
+  - 391 | Twilight and her being away from home, held in the story elsewhere | bring Twilight home
+- whole: The two notes hang together as a pair: the staged statement on the page and the inference about Celestia's hope behind it concern the same act of sending Fluttershy.

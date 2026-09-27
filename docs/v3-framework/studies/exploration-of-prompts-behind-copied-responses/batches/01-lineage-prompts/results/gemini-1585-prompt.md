@@ -1,0 +1,6 @@
+- asks:
+  - analyse | asks for an analysis of what parts Cadance and Shining Armor play within a named story event or arc called "the Stagnation of Harmony" | "Give and analysis of Cadance and Shining Armor roles in the Stagnation of Harmony"
+- supplies:
+- shaping:
+- openness: Open: the message names the two characters and the arc to analyze but does not state any position, lean, or set of options, leaving the content of the analysis entirely open.
+- subject: The roles of the characters Cadance and Shining Armor within a story arc/event named "the Stagnation of Harmony"

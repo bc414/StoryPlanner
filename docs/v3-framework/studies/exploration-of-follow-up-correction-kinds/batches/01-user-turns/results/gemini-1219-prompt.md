@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether shifting their wake time with the seasons, while keeping sleep duration constant, would be harmful, building on the model's solar-schedule advice without disputing it.

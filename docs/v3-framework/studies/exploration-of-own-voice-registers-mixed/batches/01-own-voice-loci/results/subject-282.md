@@ -1,0 +1,7 @@
+- passages:
+  - note 5045 | wry commentary | casual phrasing, joking word 'poseurs', informal summarizing tone | how the group's escalating self-image formed | apart
+  - note 5045 | shorthand chain-list | arrow-linked terms, no sentence structure, bare nouns | the sequence of names/tiers the group passed through | apart
+- shifts:
+  - note 5045 | wry commentary | shorthand chain-list | drops sentence form for a bare arrow-linked list of terms
+- registers: wry commentary; shorthand chain-list
+- whole: This place's single note holds two registers—an informal commentary sentence and a bare arrow-linked list—set apart from each other as separate lines rather than blended within one sentence.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a new post-war plot beat in which Applejack offers the Trade Council pink love and rehab experts, the Council refuses, and the Patriotten overthrow it and join the allies, without pointing the model at any body of material.

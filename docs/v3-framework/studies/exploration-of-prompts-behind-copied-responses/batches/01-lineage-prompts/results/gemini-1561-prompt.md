@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm/connect | find a thematic link between the honesty-vs-poseurs theme and the idiomatic city name 'Tall Tale', given it's a major setting and appears in the title | "How can I make a connection between the honesty vs poseurs theme and the idiomatically named city Tall Tale"
+  - invent/etymology | come up with a plausible etymology for how the farming-village-turned-industrial-agricultural-hub got the name 'Tall Tale' | "What would be the etymology of the farming village turned industrial agricultural hub Tall Tale?"
+- supplies:
+- shaping:
+- openness: Leaves both answers open-ended, only naming the fixed elements to work from (the honesty vs poseurs theme, the city's name Tall Tale, its title placement, and its history as a farming village turned industrial agricultural hub) without proposing a specific connection or origin story itself.
+- subject: Linking a city's idiomatic name and invented backstory/etymology to the story's honesty-vs-poseurs theme

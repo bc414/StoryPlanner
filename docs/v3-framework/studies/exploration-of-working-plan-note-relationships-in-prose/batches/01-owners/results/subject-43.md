@@ -1,0 +1,10 @@
+- relations:
+  - 915 | 916 | continuation in time: he takes the Tall Tale front, then the 3rd Battle of Tall Tale is fought and he is manipulated | disgraced Synovial ... takes the static Tall Tale front; 3rd Battle of Tall Tale, Synovial played like a fiddle | explicit
+  - 2614 | 915 | continuation in time: the earlier career as a tank general in Herzland leads to a later command, recalled and disgraced, at a front | goes to Herzland to become a tank general; disgraced Synovial, who was recalled from Griffenheim | implicit
+- outward:
+  - 2614 | Chrysalis, another character, and the disillusionment she voices elsewhere; he gives her control back | the same disillusionment and pointlessness that Chrysalis articulates
+  - 2614 | the apex condition and Herzland as a place and army held elsewhere | After 7 years as a young apex ... goes to Herzland
+  - 915 | Griffenheim, a place he was recalled from, and the events of his disgrace, not in this item | disgraced Synovial, who was recalled from Griffenheim
+  - 915 | the Tall Tale front and its stasis, a conflict set elsewhere | takes the static Tall Tale front
+  - 916 | the earlier battles of Tall Tale and whoever manipulated him, held elsewhere | 3rd Battle of Tall Tale, Synovial played like a fiddle
+- whole: By content the notes make a loose chain, from backstory tank general to disgraced recall to the Tall Tale battle, but the backstory note is only tenuously tied to the two appearance-plan notes.

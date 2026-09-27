@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for an analysis of how marketing pulled money-motivated students into computer science programs and flooded the software job market, and asks whether a motivated learner can use AI tools to learn first principles and become an honest senior orchestrator, without pointing the model at any particular body of material.

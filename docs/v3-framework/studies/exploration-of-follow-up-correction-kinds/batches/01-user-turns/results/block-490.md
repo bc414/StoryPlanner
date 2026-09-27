@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Synovial's Tirek plan: it said he wanted a bloodless, clean conquest and did not anticipate or intend the rampage, when in fact he intended Tirek to rampage, take all ponies' magic and become a target for kinetic artillery, leaving ponies powerless for the changelings' industry | Synovial did intend for Tirek to go on a rampage | flat statement of the true plan, with no reference to the model's wrong version, and the correction carried by a plain account of what he intended
+- about: The user overrides the model's speculation that Synovial wanted a clean, bloodless conquest via Tirek by laying out his actual plan, in which the rampage was deliberate and Tirek was to be killed by artillery afterward.

@@ -1,0 +1,4 @@
+- sources:
+  - the lore about pre 1st revolution Aquileia, which the user built up | treat as the established backdrop that grounds Fleur's parents' warning and her drive; use it as the historical basis for her motivation | as I built up in the lore about pre 1st revolution Aquileia | referred-to
+- order:
+- about: The user corrects and deepens the model's framing of Fleur Bloom by stating her personal motivation (proving earth ponies are not prey animals, against her parents' fearful advice) and pointing to their existing pre-revolution Aquileia lore as the origin of that trauma.

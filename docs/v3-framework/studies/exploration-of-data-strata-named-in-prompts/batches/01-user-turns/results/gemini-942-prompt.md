@@ -1,0 +1,4 @@
+- sources:
+  - the same SAA (initials of the existing company name) | keep these initials as a fixed constraint while replacing the apple-tied wording behind them | same SAA but isn't tied to apples | referred-to
+- order:
+- about: The user asks for a new company name that keeps the SAA initials but drops the apple association, since the company should can all kinds of goods for export.

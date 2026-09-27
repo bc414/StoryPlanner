@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, how the generational analysis relates to the original 2011 brony wave, extending the topic without disputing anything in the model's turn.

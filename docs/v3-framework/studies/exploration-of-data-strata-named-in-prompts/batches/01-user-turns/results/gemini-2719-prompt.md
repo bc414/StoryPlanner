@@ -1,0 +1,4 @@
+- sources:
+  - the model's previous list of HQ names | rejected as too technical, not what the author wants; the author's own two favourite names are to be judged instead | These are all too technical | referred-to
+- order:
+- about: The user rejects the model's finance-jargon name options as too technical and, naming two favourites of their own, asks how a Skyfall tycoon would perceive those names.

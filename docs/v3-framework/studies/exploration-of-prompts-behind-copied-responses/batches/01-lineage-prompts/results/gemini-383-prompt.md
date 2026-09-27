@@ -1,0 +1,7 @@
+- asks:
+  - naming decision check | asks whether a proposed origin-and-rebrand naming scheme for a fictional political party is correct | "So should it originally be PRN for National Republican Party... then rebrand to PNdA?"
+- supplies:
+  - in-line correction and reference | holds a self-correction that the party's name is PNdA not PDNA, plus a reference to an analogous party called NRP belonging to Kemerskai | a sentence
+- shaping:
+- openness: Leans toward an answer it names: the message proposes a specific scheme (party originally named PRN, mimicking Kemerskai's NRP, later rebranded to PNdA) and asks whether that should be so.
+- subject: Origin name and rebranding history of the fictional political party PNdA (Vérany's party) in the story's worldbuilding, in relation to an analogous party NRP

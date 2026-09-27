@@ -1,0 +1,7 @@
+- asks:
+  - continue|implicitly asks the model to take up and keep developing this worldbuilding rule (the apex-tool/apprenticeship/asset-specificity/shame-culture logic) rather than posing an explicit question|no question mark or direct instruction; the message is a run of declarative statements about how the griffon magic and apprentice culture work
+- supplies:
+  - idea|a worldbuilding rule: the master griffon can't loan their bespoke 'apex machine' to an apprentice because it's asset-specific and would break; the apprentice must instead build a primitive 'gen 0 vacuum chamber' by hand from first principles, mirroring how griffon knights historically forged their own armor; the culture has no hazing of earnest hard-working apprentices, only shame for poseurs who claim skill without the grit/specificity to back it|a paragraph
+- shaping:
+- openness: The message states its worldbuilding rules as settled fact rather than posing a question or offering options, so it leans toward the position it already names rather than leaving anything open.
+- subject: a fantasy magic-system rule about griffon apprenticeship, tool asset-specificity, and a culture that shames poseurs rather than strugglers

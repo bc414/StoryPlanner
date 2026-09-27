@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further plan element, jealousy woven into the letters through each heroine praising her side character, and explains how it sets up dramatic irony and the reunion, without disputing anything the model said about the telegraph.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - how the material is filed | The model gave the Organ Gun its own Technology subject as a self-standing mechanism, where the user sees it as a single instance of a wider system | "one example of a broader system" | tentative, offered as a hunch, with no explicit instruction
+  - where the element sits in the story | The model treated the gun and its inversion logic as something to surface in TLTT itself, where the user places it outside TLTT proper, in Minette's story and Chrysalis's scheme-devising story | "probably isn't even mentioned in TLTT proper, maybe in Minette's story" | hedged, stated in passing as a guess about scope
+- about: The user pushes back gently on the model's filing of the Organ Gun as its own subject, recasting it as one example of a larger system and saying it would appear only in the side stories rather than in TLTT proper.

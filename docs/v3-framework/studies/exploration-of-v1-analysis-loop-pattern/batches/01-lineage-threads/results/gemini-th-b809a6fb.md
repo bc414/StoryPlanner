@@ -1,0 +1,8 @@
+- steps:
+  - the author | tangent question | asks a factual, non-story question about how Dunkin' donuts are manufactured | opening of the excerpt, unrelated to the planning work
+  - the model | informational answer | gives a structured process explanation (supply methods, mixing, proofing, frying, finishing) plus a comparison table and an offer to find a copycat recipe | same exchange, standalone from the story project
+  - the author | full-plan submission | attaches the entire planning document export (130k+ words) with no accompanying question text visible | second exchange, opens a new topic
+  - the model | scene-placement analysis | works through moving a character's confession scene between two chapters, comparing tone, character-arc effects, thematic fit, story-flow consequences, and secondary-character interactions, then gives a table and a final recommendation | second exchange, in response to the attached plan
+- kept:
+- brought: The author brought the entire planning document as an attachment, apparently to have the model weigh relocating a confession scene from one chapter to another, though no explicit question text accompanies the attachment in the visible record.
+- loop: The stretch shows an unrelated factual aside followed by the author handing over the whole plan for a substantial comparative analysis of scene placement, but with zero notes traced back to either exchange, so nothing from this round of back-and-forth is shown entering the planning database.

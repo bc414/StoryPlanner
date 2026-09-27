@@ -1,0 +1,4 @@
+- sources:
+  - the story plan (its existing characters) | model is to search it for a character who could fill the role of a defecting Skyfall artisan turned NGO charity worker, using it as the pool to draw from rather than inventing someone new | existing characters in the story plan | referred-to
+- order:
+- about: The user asks the model to look through the characters already in the story plan for one who could be cast as a former Skyfall penthouse artisan who grew a conscience, left for NGO charity work, and still feels lost.

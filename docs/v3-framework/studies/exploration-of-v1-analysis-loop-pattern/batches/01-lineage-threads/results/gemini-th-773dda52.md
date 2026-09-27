@@ -1,0 +1,17 @@
+- steps:
+  - author | brings request | link to canon episode transcript plus ask for recontextualization analysis | opening of the thread
+  - model | analysis | reframes the episode as a political/military thriller using war-era premises (power crystals, geopolitical threat, tactical roles for Applejack and Rarity) | first response
+  - author | corrects premises | states the timeline order (season one predates the war), that the dogs are non-political and the gems are mere fashion gems, and redirects focus to Rarity's manipulation and her idealization of Aquileian parloir culture | second prompt
+  - model | analysis | reworks the episode under the corrected premises, casting Rarity's behavior as parloir-style soft-power diplomacy against Republican-virtue-style hard power | second response
+  - author | repeats request | resubmits the same link and the same corrective framing about timeline, dogs, gems, and Rarity's parloir idealization | third prompt
+  - model | analysis | gives a lore-grounded reading citing the plan document directly, introducing a Lion/Eagle dynamic and asset-specificity terms, and sketching how Rarity's parloir visits shaped her ambition | third response
+  - author | poses question | asks whether Rarity should reveal the gems-for-glamour trade, framed through asset-specificity and investment principles | fourth prompt
+  - model | verdict | answers yes and justifies it through asset-specificity reasoning, offering sample in-character dialogue | fourth response
+  - author | clarifies intent | explains the actual question was about Rarity resuming work with the dogs afterward, not about revealing a trade | fifth prompt
+  - model | analysis | sketches an ongoing patron-client Eagle/Lion relationship between Rarity and the dogs, contrasting it with a darker parallel involving Chrysalis | fifth response
+  - author | brings new idea | proposes a twist that the dogs lived apart because a soft-only Stagnation-era society excluded them, and that they are welcomed after the war for their strength | sixth prompt
+  - model | analysis | develops the twist across pre-war social exclusion, a wartime shift in the value of strength, and post-war integration into the Republic, contrasted with the Diamond Mountain slavers | sixth response
+- kept:
+  - note 4656 | pasted from this reply inside the author's own framing | keeps the model's line about Rarity visiting Manehattan parloirs, folded into the author's own framing of Rarity's kid-friendly backstory and motivation, filed under her subject entry
+- brought: The author brought a canon episode transcript to be reread against the story plan, plus established plan facts (that the early seasons predate the war, that the dogs are apolitical, that the gems are only fashion gems, and that Rarity idealizes Aquileian parloir culture) to correct and steer the model's reading.
+- loop: The author repeatedly hands the model a canon scene plus lore corrections or new twist ideas and asks for a recontextualized reading, using follow-up prompts to redirect or clarify when the model's analysis drifts from the intended premise; out of all this back-and-forth, the database kept only a single sentence of the model's parloir explanation, absorbed into the author's own account of Rarity's backstory.

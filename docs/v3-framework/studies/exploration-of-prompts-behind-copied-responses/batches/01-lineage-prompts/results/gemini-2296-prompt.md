@@ -1,0 +1,8 @@
+- asks:
+  - correct/clarify | tells the model to drop any "magical panic" mechanic and treat the effect purely as a sound-based warfare mechanic | "There shouldn't be any magical panic, it's just sound warfare"
+  - propose/continue | lays out a classification mapping fighter-plane roles onto magical combat units (a versatile dogfighter/interceptor that can also give close support with a unicorn aboard, and an armored version for ground-level close support) and implicitly invites the model to keep developing or respond to this scheme | "the spitfire equivalent is the plane that... the armored spitfire can do close support near the ground and shrug off infantry fire"
+- supplies:
+  - idea | a sketch comparing Spitfire-type aircraft roles to fantasy combat units (a versatile dogfighter/interceptor with unicorn-borne close support, and an armored close-support variant resistant to infantry fire) | a couple of sentences
+- shaping:
+- openness: The message presents its own classification of unit roles as a stated conception rather than a question, leaning toward the framework it names (Spitfire-equivalent vs. armored Spitfire-equivalent) and implicitly inviting the model to build on or affirm it.
+- subject: Designing a fantasy world's magic-based warfare system by analogy to WWII fighter-plane roles

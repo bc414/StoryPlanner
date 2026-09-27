@@ -1,0 +1,7 @@
+- sources:
+  - my v1 notes (as analyzed earlier in the conversation) | treat as evidence of how the author's magic design ended up, as an in-universe law with rules via the charitostatic effect and species biology | You can clearly see from the analysis of my v1 notes | referred-to
+  - my fantasy interpretation of FiM and EaW | the author's own design, stated as settled: magic is rule-bound, the crystal heart is a mass-producible crystal structure; used as the contrast case to P&K | I took the exact opposite approach | referred-to
+  - P&K | comparison work, described as using magic as deus ex machina for theme (Flurry Heart, crystal heart, shield burning changelings); its magic mechanics are the thing being asked about | P&K takes a different approach where magic is often a deus ex machina | referred-to
+  - ASOIAF | candidate origin to be checked: the model is asked whether P&K's magic mechanics derive from how magic works in it | come from how "magic" works in ASOIAF | referred-to
+- order:
+- about: The author contrasts their own rule-bound magic design with P&K's deus ex machina magic and asks whether P&K's approach was drawn from how magic works in ASOIAF.

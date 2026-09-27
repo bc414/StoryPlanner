@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's idea that powered flight is an elite privilege among griffons, floats a possible extension (commoners glide, Aquileia's terrain favours gliding, flat Herzland doesn't) tied to griffon lords' jealousy of pegasi, and asks whether it holds together.

@@ -1,0 +1,8 @@
+- relations:
+  - 139|140|note 140 gives the reader's response to what note 139 stages on the page: the scene of Apples and Pears together as refugees getting along is what should plant the seed of a resolved feud|Seeing them together at Bright Mac and Pear Butter's mansion should plant a seed|implicit
+  - 140|139|note 140 presupposes the depicted togetherness of the two families that note 139 sets down; the clash with the feud belief only works if they are shown getting along|The Apples and the Pears had an ancient family feud|implicit
+- outward:
+  - 140|the ancient Apple-Pear family feud, a backstory held outside this item|the Apples and the Pears had an ancient family feud
+  - 139|the day of campaigning by Apple Bloom and the CMCs, which is not otherwise shown here|end the day of campaigning
+  - 139|the Apples and Pears' status as refugees, a situation established elsewhere|Pears who are refugees
+- whole: The two notes hang together closely as a pair, with the staged image of the families together in one and the reader's shift of belief about the feud in the other.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model two story-design questions, whether the parents proposing to turn the ash into munitions would be tone deaf and how Applejack using the farm for munitions bears on the Petain/collaborator subversion, without pointing at any body of material to draw on.

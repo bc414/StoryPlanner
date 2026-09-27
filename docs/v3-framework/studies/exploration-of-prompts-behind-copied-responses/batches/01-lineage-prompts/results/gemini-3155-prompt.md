@@ -1,0 +1,8 @@
+- asks:
+  - question | asks whether Gemini CLI states its usage limits explicitly or transparently | "Are usage limits in Gemini CLI explicit?"
+  - question | asks the same about Claude Code, implicitly inviting comparison to Gemini CLI | "What about Claude code?"
+  - question | asks whether Gemini CLI includes built-in system instructions geared toward software engineering tasks | "Does Gemini CLI package software engineering system instructions or not?"
+- supplies:
+- shaping:
+- openness: Open factual questions with no stated lean, though the third is framed as a binary check ("or not?") inviting a yes/no answer.
+- subject: Comparing Gemini CLI and Claude Code on usage-limit transparency and whether Gemini CLI ships software-engineering-specific system instructions

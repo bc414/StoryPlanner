@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to move on and provide an overview of the arcs and ideologies of the other four pillars of old Equestria, building on the Star Swirl vs Meadowbrook dynamic just established.

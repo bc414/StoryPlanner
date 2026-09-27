@@ -1,0 +1,6 @@
+- asks:
+  - decide, whether to give a character a trait | asks whether Tally Stock should have a southern accent, referencing Applejack as a comparison point | "Should Tally Stock have a southern accent like Applejack?"
+- supplies:
+- shaping:
+- openness: leaves the answer open, posed as a plain yes/or-no question with no stated leaning either way
+- subject: whether a character named Tally Stock should speak with a southern accent, likened to the My Little Pony character Applejack

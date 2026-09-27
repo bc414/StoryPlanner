@@ -1,0 +1,12 @@
+- asks:
+  - determine | estimate what age a developmental-biology consensus would set as "fully developed" for a person raised in post-caloric-scarcity conditions, to use as the story's volunteer age floor instead of the real-world 18 | "what if the midterm consensus on developmental biology... Setting the correct age floor for volunteers should be a social commentary"
+- supplies:
+  - real-world reference fact | the U.S. legal age of adulthood (18) used as the baseline to contrast against | one sentence
+  - setting premise | a hypothetical "post caloric scarcity" world in which nutrition/development differs from today, used as the basis for the age question | one sentence
+  - ability correction | a restated mechanic for "Wings of dew," stating it lets the target control the wings themselves | one sentence
+  - pop-culture analogy | reference to My Little Pony's Sonic Rainboom episode where Rarity flies on her own, used to illustrate the wings mechanic | one sentence
+- shaping:
+  - the chosen age floor should function as social commentary | "Setting the correct age floor for volunteers should be a social commentary"
+  - the age should be grounded in developmental biology rather than the real legal age | "18 years old is the legal age... but what if the midterm consensus on developmental biology..."
+- openness: Leaves open what the age floor should be, inviting a reasoned proposal, while stating the "Wings of dew" ability's mechanic as an already-settled correction (via the Sonic Rainboom/Rarity comparison) rather than something to be decided.
+- subject: Worldbuilding for a story: reasoning out an in-universe age-of-volunteering threshold as social commentary, plus clarifying how the "Wings of dew" ability works.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up worldbuilding question about whether Skyfall's B2B companies would vanish entirely once permanently superior Aquileian equipment exists, given that the B2C companies regrow like hydra heads, without pointing to any body of material to draw on.

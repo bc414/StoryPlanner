@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model had Applejack explicitly draw the parallel to the Changeling hives in chapter 10, but in the story's world nobody in Equestria except Celestia knows changeling history at that point, so AJ cannot make that connection yet | "Actually, no one in Equestria knows changeling history except Celestia" | flat, stated as a plain factual correction opening with 'Actually, no'
+  - reading of the plan | The model treated the Changeling backstory as available to the characters and ran the parallel forward (Changelings first, then Thestrals); the plan reveals it in chapter 15 through Trimmel, so the connection runs the other way, from Tzinacatl to Changelings | "Trimmel pulls back the curtain in chapter 15. So the connection will be made in reverse." | flat, giving the plan's timing as the reason and stating the corrected direction of the parallel
+- about: The user corrects the model's assumption that Applejack can draw the Changeling parallel in chapter 10, explaining that the history is only revealed in chapter 15 and that AJ will realize the parallel retroactively.

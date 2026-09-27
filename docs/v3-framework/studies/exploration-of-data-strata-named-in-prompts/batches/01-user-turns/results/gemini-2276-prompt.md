@@ -1,0 +1,5 @@
+- sources:
+  - the Stuka payload fact from the model's previous answer (one tank per sortie) | treated as true and as something that changes the user's understanding of the setting; the user builds on it | The fact that the stukas can only blow one tank per sortie makes my understanding completely changed | referred-to
+  - real life, German use of Stukas | the model is asked to answer from real-world history whether the Germans used huge swarms that rotated back to base, as a comparison for what the changelings would do | So in real life, did the Germans have huge swarms of stukas | first-named
+- order:
+- about: The user takes the one-bomb-per-sortie Stuka fact as changing their view of the story's air war, then asks whether the real Germans used large rotating Stuka swarms, to compare with how they imagine the changelings would fight.

@@ -1,0 +1,4 @@
+- sources:
+  - the pasted run of notes and analysis passages, called "this example" | material to study and derive ordering rules from; an illustration, not settled fact to be applied | from this example | first-named
+- order:
+- about: The user pastes a long run of thematic story notes and pasted analysis passages and asks what ordering rules for the output would make sense based on that example.

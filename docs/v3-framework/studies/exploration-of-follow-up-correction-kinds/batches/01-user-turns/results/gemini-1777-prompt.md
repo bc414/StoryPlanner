@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user states their current favorite names, Lex Talionis and L'Inviolabilité, as a preference among the options offered so far, without faulting anything in the model's suggestions.

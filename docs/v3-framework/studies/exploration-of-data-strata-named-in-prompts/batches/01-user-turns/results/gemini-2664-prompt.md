@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers two alternative naming ideas for the volunteer organization, a "voltigeurs of passion" variant and a play on "tableau de chasse", without pointing at any body of material for the model to use or avoid.

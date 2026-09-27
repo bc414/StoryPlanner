@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a further story beat in which Scootaloo asks about Alouette's surname, leading to Le Grand Foyer, Rainbow Dash's interest in it for her own story, and a further reason for Alouette to give her The Count of Mont Boree, without pointing the model at any body of material.

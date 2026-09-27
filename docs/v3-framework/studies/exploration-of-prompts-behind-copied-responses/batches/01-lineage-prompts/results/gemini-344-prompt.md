@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks why an unspecified thing, referred to only as "this," did not work or succeed in the year 1945 | "Why did this not work in 1945?"
+- supplies:
+- shaping:
+- openness: leaves the answer open, naming no candidate cause and asking only for the reason behind the stated fact that \"this\" did not work in 1945
+- subject: why an unspecified thing (its identity given only by prior context not present in this message) failed to work in the year 1945

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, open question about whether real history has parallels to the Harmonic Capitalism concept, moving on from the model's elaboration without disputing any of it.

@@ -1,0 +1,5 @@
+- sources:
+  - the .db.md v1 file | search only for the listed topics as material for the exercise; do not read the whole file | Don't read the whole .db.md v1 file, but search specifically for topics | first-named
+  - the previous exercise's reasoning (the New Order split-or-keep analysis) | use as the template and method to repeat on the new topics | do the same exercise for a different set of topics | referred-to
+- order:
+- about: The user accepts the model's explanation and asks it to repeat the same subject-splitting analysis for a new cluster of Aquileia-related topics, searching the v1 .db.md file only for those terms rather than reading it in full.

@@ -1,0 +1,4 @@
+- sources:
+  - a new hypothesis I pasted in | the material to be analyzed in full and every question inside it answered; it is a hypothesis, so provisional and open to assessment rather than settled | I pasted in a new hypothesis. Please analyze fully and answer all questions contained within | first-named
+- order:
+- about: The user hands the model a newly pasted hypothesis and asks for a full analysis and answers to all the questions it contains.

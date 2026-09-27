@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds two story corrections to the proposed timeline: local militias at the southern blitz already included ponies under 26, and the spearhead's killing included conscripts sent in waves, which deepens the failure of the moral test of Harmony.

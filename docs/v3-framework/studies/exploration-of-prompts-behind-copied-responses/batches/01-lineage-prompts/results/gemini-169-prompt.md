@@ -1,0 +1,9 @@
+- asks:
+  - brainstorm | work out a plausible way AJ could persuade Celestia and Luna to appear in Ponyville during chapter 13 | "How can AJ convince Celestia and Luna to show up in Ponyville in chapter 13"
+  - check | confirm or reject a proposed motive: that the princesses can't be seen skipping Ponyville after AJ invited every other de facto leader | "Can it be because they can't deny the perception of not showing up when AJ invited every other de facto leader?"
+  - choice | decide whether Blueblood should also appear in Ponyville or instead be occupied on the northern front | "Should Blueblood show up too or should he be busy on the northern front?"
+- supplies:
+  - context | holds: chapter 13's premise (combined arms, active front), Canterlot now hostile, its adjacency to newly liberated Ponyville, chapter 12's ending with AJ seeing desecrated Sweet Apple Acres, and the princesses' early departure from Canterlot to Manehattan | how much: a few sentences of inline scene-setting facts
+- shaping:
+- openness: Mixed: it leaves the core mechanism for AJ's persuasion open, leans toward a named answer (perception of the princesses snubbing an invitation others accepted) by asking the model to confirm it, and separately poses a choice between two named options for Blueblood's placement.
+- subject: Getting Celestia, Luna, and possibly Blueblood to appear in a liberated Ponyville chapter given a hostile, adjacent Canterlot

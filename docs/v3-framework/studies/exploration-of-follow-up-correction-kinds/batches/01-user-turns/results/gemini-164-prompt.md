@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - pacing of the character arc (own name) | the scene has Twilight fully see Celestia as using her and ends the mother/daughter bond in one beat, which the user doubts is right for this point in the story and suggests may need to be only a seed | "maybe this should just be a seed? Is it too early for Twilight to fully give up on Celestia?" | tentative, as questions with hedges, and offering the counter-thought that she may already have given up by coming to the front
+- about: The user restates the scene idea (Rainbow ranting about Celestia and Luna, Twilight agreeing after Fluttershy's Discord line) and uses it to ask whether the full break with Celestia comes too early for Chapter 8 or should be a seed.

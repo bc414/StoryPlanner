@@ -1,0 +1,6 @@
+- sources:
+  - all of this deliberation | build on the conclusions reached so far in this conversation (the lineage and axis values) when working out the final economy-axis phrasings and the grids | Given all of this deliberation | referred-to
+  - what they represent in the story | treat the story's factions as the check for the proposed alignment of Comprador with Chrysalis's New Order, Tall Tale with Coltbert's Aquileia, Manehattan with the Griffonian Republic | exactly reflects what they represent in the story | referred-to
+  - the author's own explanation of why compradors are concentrated (Chrysalis's supply chain, shipping company, submarine, Gilded Lily's propaganda, deliberate parody of anarcho capitalism) | treat as the author's stated design intent and ask the model to confirm it, using it to justify Concentrated governance for compradors | Because Chrysalis controls their supply chain | first-named
+- order:
+- about: The user asks the model to settle the final phrasings of the economy axis and lay out the 2x2 grids (3x2 for Contract) and groups, while proposing that the three economies map onto Chrysalis's New Order, Coltbert's Aquileia and the Griffonian Republic and explaining from their own design intent why compradors are Concentrated.

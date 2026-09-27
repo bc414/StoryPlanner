@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of how the Celestia break and the romance overlap and asks a follow-up about pacing, whether Twilight fully abandoning Celestia at the passion chapter is too early, and when she disagrees with Celestia afterwards.

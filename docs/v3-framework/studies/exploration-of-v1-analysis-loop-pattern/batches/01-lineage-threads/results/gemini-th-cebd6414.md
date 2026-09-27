@@ -1,0 +1,10 @@
+- steps:
+  - the author | brings a theory-dump | a multi-part revision of Tree of Harmony/Elements of Harmony mechanics plus Celestia/Luna backstory questions, closed with a request to review the story plans | opening message of the thread
+  - the model | validates and elaborates | turns each of the author's points into a worldbuilding framework (collector/battery, anti-apex weapon limits, Celestia subversion, banishment-as-quarantine, Luna's psychological time-jump), closing with a verdict | first response
+  - the author | repeats the same request | pastes the identical theory-dump again, this time asking the model to check it against the gem's stored planning document | second prompt
+  - the model | re-delivers a parallel analysis | restates the same points in reorganized form (renamed metaphors like 'empathy solar panel'), still without citing specific document text | second response
+  - the author | escalates the request | asks for the analysis to be redone while referring to an attached notebook document | third prompt
+  - the model | grounds the analysis in cited source language | reworks the same points now quoting specific lore terms from the attached notebook (critical mass event, vessel, Fukushima, Traumatized Protector, Nursery) and ties the author's theory to that established canon language | third response
+- kept:
+- brought: The author brought a self-authored theoretical revision of the Tree of Harmony/Elements of Harmony magic system and the Celestia/Luna banishment backstory, repeating the same request three times while supplying progressively more explicit source material (first standalone, then via gem knowledge, then via an attached notebook) for the model to check it against.
+- loop: The author brought the same worldbuilding theory forward three times, each time handing the model more grounding material to validate against, and the model answered each time with a fuller, more source-grounded elaboration and verdict; none of this back-and-forth was traced into the planning database as a note.

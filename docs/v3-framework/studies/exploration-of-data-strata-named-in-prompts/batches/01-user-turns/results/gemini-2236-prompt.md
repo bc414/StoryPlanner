@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to implement drag-and-drop of a note from the Categorizer View onto any Note Collection Viewer in their story planner app, without pointing the model at any body of material to use or avoid.

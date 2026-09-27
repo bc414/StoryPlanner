@@ -1,0 +1,13 @@
+- passages:
+  - note 55 | authorial rationale | first-person, cites canon events, weighs an interpretation against an alternative | reading Twilight's canon ascension as Celestia's grooming, versus the Republic | apart
+  - note 4524 | backstory narration | third-person past tense, summarizes a ruler's long-term plan | Celestia's plan to retire and hand rule to Twilight after a thousand years | apart
+  - note 4535 | backstory narration | third-person past tense, reports Celestia's perception and motive, parenthetical aside | Celestia noticing Twilight's ambition and meaning to channel it as successor | apart
+  - note 4535 | quoted dialogue | quotation marks, first-person present-tense speech, no attribution tag | a line of praise for Twilight's raw magical ability | apart
+  - note 5456 | character trait note | present tense, comparative claim, a term set off in quotation marks | Fluttershy and Rainbow Dash keeping Celestia's top-down outlook longer than Twilight | apart
+  - note 5789 | plotting directive | modal 'should', names a future story beat for a character | Twilight coming to notice how Celestia regards magic | apart
+  - note 5789 | character trait note | present tense, declarative, gives supporting examples | Celestia treating magic as mythical, citing Discord and windigos as instances | apart
+- shifts:
+  - note 4535 | backstory narration | quoted dialogue | shift from third-person past-tense report to quotation-marked first-person present-tense speech, no linking tag
+  - note 5789 | plotting directive | character trait note | shift from modal 'should' framing a task to declarative 'she thinks' describing an existing belief, with added examples
+- registers: authorial rationale; backstory narration; quoted dialogue; character trait note; plotting directive
+- whole: The five notes span several distinct registers, but only two notes shift register internally, and even there the change lands as a clear break rather than a blending within one sentence.

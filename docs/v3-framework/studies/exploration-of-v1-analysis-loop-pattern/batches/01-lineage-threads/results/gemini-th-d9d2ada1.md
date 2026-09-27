@@ -1,0 +1,65 @@
+- steps:
+  - author | asks a lore question | whether the invasion follows canon show rules (no guns/deaths) and why it failed | opening exchange about the strike's nature
+  - model | reframes and analyzes | recasts the invasion as a bloodless coup, gives a physics account of the counter-strike, ties it to later brutality | same exchange
+  - author | supplies plan document | full planning-database export | before the prisoner-exchange question
+  - model | gives options with a recommendation | two ways the prisoner exchange could be triggered, argues for one | responding to the export
+  - author | corrects the premise | clarifies the capital is already liberated and the missing ponies are trafficked, unknown in number | follow-up correction
+  - model | revises the recommendation | restates its verdict under the corrected stakes with a new scene sketch | responding to the correction
+  - author | supplies plan document | full export | before the Trixie question
+  - model | analyzes a character arc | Trixie's psychology and function in the Manehattan revolution chapter | responding to the export
+  - author | pitches a scene idea | a canon-song parody sung by the CMCs/Diamond Tiara at a park rally, with Trixie staging it | new idea
+  - model | analyzes the pitched scene | context, Trixie's role, lyric adaptation, thematic payoff | responding to the idea
+  - author | corrects a canon detail | clarifies which Rich parent is sympathetic vs. antagonist | correction
+  - model | reworks the analysis | rebuilds the family dynamic and folds it into the rally scene | responding to the correction
+  - author | supplies plan document | full export | before the Rasti question
+  - model | analyzes a character's real-world basis | compares a character to a historical revolutionary and alternatives | responding to the export
+  - author | asks a research question | whether a chosen character name overlaps other fandom usage, citing its source | naming check
+  - model | researches and gives a verdict | traces the name across the game and fan works, judges it non-conflicting | responding to the question
+  - author | supplies plan document | full export | before the Rainbow Dash question
+  - model | assesses a proposed ability | judges balance concerns and lays out chapter-by-chapter implementation | responding to the export
+  - author | supplies plan document | full export | before the Starlight question
+  - model | analyzes a character arc | a spell's role, camp duties, and a mirrored villain relationship | responding to the export
+  - author | asks a mechanics question and pushes back | asks how the spell fits the magic system, proposes her own use for it, rejects the model's prior thematic framing, requests a poser-theme thread | multi-part follow-up
+  - model | revises the analysis | reworks the spell's mechanics, the relapse framing, and the poser thread | responding to the pushback
+  - author | recalls a cut draft choice and redirects | notes an abandoned subplot, disputes a proposed image, asks for other epiphany options tied to canon | redirect
+  - model | offers a new epiphany framing | an 'efficiency trap' realization and a grounding mechanism via another character | responding to the redirect
+  - author | adds backstory and narrows the question | supplies a wound/motivation detail, asks how a canon friendship dynamic should drive the decision | refinement
+  - model | analyzes the dynamic | parallels a canon episode and proposes a scene beat built on it | responding to the refinement
+  - author | drafts a scene | lays out a beat-by-beat sequence of confrontation, temptation, and resolution | scene draft
+  - model | breaks down the drafted scene | stages the beats and supplies a governing metaphor for the two characters | responding to the draft
+  - author | supplies plan document | full export | before the chapter-opening question
+  - model | recommends a scene structure | argues for one character's absence and how to justify it | responding to the export
+  - author | supplies plan document | full export | before a broad review request
+  - model | gives a broad plan review then options | assesses overall arcs/themes, then offers three placements for a historical-reference subplot with a recommendation | responding to the export
+  - author | extends the chosen option | adds that the character herself has the vision, with another character's dream-monitoring causing a plot decision | extension
+  - model | constructs the scene | builds the dream, the observer's misreading, and its consequence | responding to the extension
+  - author | layers on more scene requirements | adds a second scene's leverage line, a callback request, and a uniform/title-change scene, asks how to link them | multi-part addition
+  - model | constructs both scenes | drafts the leverage pitch and the title-change dialogue tying back to the dream | responding to the addition
+  - author | intensifies the scene | adds a character's physical presence at the front as the trigger for the decision | intensification
+  - model | reworks the scene | contrasts the dream image with the real one and re-sequences the beats | responding to the intensification
+  - author | corrects a motivation detail and asks for a phrasing check | clarifies who a warning is really about, asks if a specific phrase works or needs replacing | correction plus question
+  - model | proposes phrasing | links the phrase to the dream and the title scene | responding to the question
+  - author | rejects the phrasing as abstract | asks for several alternative framings grounded in backstory and intent | redirect
+  - model | offers three alternative framings | with a recommended one | responding to the redirect
+  - author | selects and refines | picks a direction, adds detail on the message and the protagonist's core fear, fixes the dream's timing | refinement
+  - model | constructs a two-part scene | a split dream progression and a warning scene converging on the title choice | responding to the refinement
+  - author | requests a new reference | asks to route a historical parallel through a specific side character | new request
+  - model | invents supporting lore | a fictional historical hero-turned-collaborator and a warning speech | responding to the request
+  - author | asks a verification question | whether the invented collaborator logic matches the real historical figure's actual reasoning | research question
+  - model | gives a historical analysis | parallels between the invented and real figure's justifications | responding to the question
+  - author | proposes a structural change | shifts the insult's origin to a different character, ties it to profiling and an enemy plan | new proposal
+  - model | constructs the scene | backstory, profile, reveal, and rejection dialogue | responding to the proposal
+  - author | asks a sequencing question | whether an explanation should precede or follow a decision | sequencing question
+  - model | recommends an order | argues for one sequence with reasoning | responding to the question
+  - author | overrides the recommendation | argues for the opposite order, proposes a delayed reveal at a later surrender scene | correction and redirect
+  - model | splits the scene across two chapters | separates the decision from the historical reveal, drafts both | responding to the override
+  - author | asks a consistency question | whether a naming convention still fits established cultural symbolism | consistency check
+  - model | analyzes the symbolism | splits a dual-symbol culture along a military-role line | responding to the question
+  - author | refines the symbolism further | specifies the culture demands both halves at once, so a single title is an insult, and a rival culture reinterprets it as complementary | refinement
+  - model | synthesizes the final version | contrasts perfectionism against a division-of-strengths reading, rewrites the closing dialogue | responding to the refinement
+- kept:
+  - note 2302 | the author's own words in this record | keeps the author's stated reason a character halts a rampage, filed on a character-relationship link entry
+  - note 2303 | the author's own words in this record | keeps the author's refined version of that reason (acting without weighing consequences), filed on the same link entry
+  - note 354 | one sentence lifted from this reply | keeps a snippet of the model's drafted dialogue about the title's meaning, filed under an unrelated plot point on a princess's motives
+- brought: Across the stretch the author repeatedly re-attached the full planning-document export before opening a new topic, and otherwise brought specific scene ideas, canon references, corrections to the model's prior analysis, and sequencing questions about how to place a historical/collaborator subplot and a title-drop scene.
+- loop: The author brings plan fragments, scene ideas, and corrections for the model to analyze or draft, then repeatedly redirects or overrides the model's proposed framings and sequencing until a version satisfies her; almost none of this extended back-and-forth is written back into the plan, with only the author's own restated decisions and a single lifted line of drafted dialogue ending up filed in the database.

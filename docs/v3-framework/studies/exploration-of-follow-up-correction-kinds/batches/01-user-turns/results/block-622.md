@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the scene-design analysis to a general craft question about how third person limited compares with omniscient, head-hopping and first person, and explains their earlier habit of writing omniscient or head-hopping Pokemon stories without a planner.

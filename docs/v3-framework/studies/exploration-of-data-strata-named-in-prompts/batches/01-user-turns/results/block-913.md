@@ -1,0 +1,5 @@
+- sources:
+  - the scale of both Camp Fluttershy and the gulags (the earlier figures) | treat as too high and revise downward, with more changelings counted as KIA or returned to the hives before white peace | "the scale of both Camp Fluttershy and the gulags is too high" | referred-to
+  - Messe Hannover | use as the real-world size benchmark, with the Expo Center set a bit bigger and given a residential capacity of 50000 | "a bit bigger than Messe Hannover" | referred-to
+- order:
+- about: The user scales the POW camp and gulag numbers down, then sets out revised figures and a revised sequence of the Tall Tale battles and Fluttershy's rehab effort.

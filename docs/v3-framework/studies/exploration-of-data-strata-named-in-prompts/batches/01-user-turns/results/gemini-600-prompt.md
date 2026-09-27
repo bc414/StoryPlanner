@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user ties the underground board-game idea to Thorax being a good uncle to Flurry Heart, sets the Harmonist purge before the war and moves the contraband's origin to Jaeger infiltrators in Equestria, then asks how anti-Harmonist enforcement would work if drones can invent their own games.

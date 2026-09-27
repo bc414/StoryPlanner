@@ -1,0 +1,5 @@
+- sources:
+  - the model's previous assessment of the Statthalters (the current conversation) | check it: the author asks whether its characterization means the Statthalters hold no supremacist ideology and are only hedonistic warlords and sadists | Ok, so the Statthalters are not changeling supremacists at all? | referred-to
+  - the author's own proposal for Vaspier's origin and Chrysalis's use of supremacist propaganda (said from their own thinking in this turn) | treat as provisional, a direction the author is weighing and offers as an either/or for the model to react to | I'm also thinking of Vaspier is the shadowy leader of changeling supremacy | first-named
+- order:
+- about: The author questions whether the model's previous characterization leaves the Statthalters with no supremacist ideology, then floats their own idea of Vaspier as a true believer who outgrows Chrysalis's propaganda and asks whether he should be a second-generation or first-generation changeling.

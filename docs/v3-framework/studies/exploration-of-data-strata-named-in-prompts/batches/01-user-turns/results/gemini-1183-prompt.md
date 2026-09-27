@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumed plot order by saying the town hall comes before the Las Pegasus cleanup, which the characters only hear reports of while AJ and Twilight leave for their next tasks.

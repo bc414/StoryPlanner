@@ -1,0 +1,7 @@
+- passages:
+  - note 5508 | narrative-craft summary | past tense, third-person, names story mechanics ('kept escalating', 'served as spots of warmth') | escalating chapter stakes and the friendship letters as a device of warmth | run-in
+  - note 5508 | character-state assessment | present tense, names the two characters directly, states an emotional threshold ('are both on the verge of burnout') | Twilight and Applejack's condition at the point of reunion | run-in
+- shifts:
+  - note 5508 | narrative-craft summary | character-state assessment | switch from past tense to present tense ('are'), from describing chapters and letters to naming the two characters and their emotional state, joined by 'but' with no break
+- registers: narrative-craft summary; character-state assessment
+- whole: The note's single passage of continuous writing carries two registers that run into one another inside the same sentence, moving from a past-tense summary of chapter mechanics to a present-tense statement of the characters' emotional state with no break between them.

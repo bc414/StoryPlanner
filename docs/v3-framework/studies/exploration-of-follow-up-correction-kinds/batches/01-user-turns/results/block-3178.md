@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's analysis standing and builds on it, proposing that Tall Tale is the Apple family's origin, noting a mismatch in their own roster of unicorn natives, and asking for options for a background Apple pony to develop as a farmer, phosphorus digger and militia officer after the model reviews the plan.

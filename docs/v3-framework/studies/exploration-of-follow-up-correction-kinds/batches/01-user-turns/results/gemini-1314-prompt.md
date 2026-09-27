@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further set of examples of free indirect speech and deep third person, this time drawn from school curriculum texts or hugely popular modern books, without saying anything in the earlier answer was wrong.

@@ -1,0 +1,4 @@
+- sources:
+  - FiM in Canterlot Wedding (the changelings' debut in the show) | treated as the established basis for the user's hypothesis that changelings are shapeshifters who imitate ponies; used as a premise, not something to check | Since the changelings are shapeshifts who pretend to be ponies in their cabin debut of FiM in Canterlot Wedding | referred-to
+- order:
+- about: The user proposes, from the changelings' shapeshifting and imitation of ponies in Canterlot Wedding, that they might have copied the Griffonian Empire's language and culture, and asks whether this idea has been explored.

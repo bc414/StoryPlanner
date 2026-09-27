@@ -1,0 +1,5 @@
+- sources:
+  - canon FiM episodes (Applejack and the apple family treating their trees like newborns) | treat as evidence supporting the claim that earth ponies have folklore about loving their land | as seen by several comedic parts of canon FiM episodes | referred-to
+  - my story plans | the material the model is asked to review and analyze, including the newly stated corrections and timeline | Please review my story plans and give an analysis | referred-to
+- order:
+- about: The user corrects how the friendship plants work, lays out new backstory about Star Swirl, Meadowbrook, Celestia and Fleur Bloom's knowledge of earth pony magic, asks whether that fits the timeline, and asks the model to review the plans and analyze them.

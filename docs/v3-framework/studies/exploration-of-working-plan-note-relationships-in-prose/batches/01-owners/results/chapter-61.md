@@ -1,0 +1,8 @@
+- relations:
+  - 2651|2652|the second spells out the mechanism behind the failure the first states: the first names the cause (a griffon playbook applied to earth ponies with a Mir culture), the second says why it fails (past schemes relied on slow fracture lines, and Severyana's solidarity removed them, so the revolution outran her)|Chrysalis's plan fails because Chrysalis is applying her griffon playbook / Severyana's solidarity eliminated the fracture lines entirely|implicit
+- outward:
+  - 2651|a griffon-directed scheming method of Chrysalis, held elsewhere in the plan|her griffon playbook
+  - 2651|the Mir communal culture of the earth ponies, lore held elsewhere|earth ponies with a Mir culture
+  - 2652|Chrysalis's earlier operations, each a separate story episode not in this item|Skyfall, Herzland, the Tzinacatl
+  - 2652|Severyana, a population or land whose solidarity is described elsewhere|Severyana's solidarity eliminated the fracture lines entirely
+- whole: The two notes read as a set: the first gives the cause of Chrysalis's failure and the second explains how it happened, though both are unassigned and lean on lore held elsewhere.

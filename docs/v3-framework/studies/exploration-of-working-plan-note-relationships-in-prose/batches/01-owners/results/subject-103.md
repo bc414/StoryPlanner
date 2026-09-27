@@ -1,0 +1,31 @@
+- relations:
+  - 1360|1350|the later note gives the fuller account of the earlier claim: hilly, forested, mountainous land makes monsters hard to eradicate, and here the monsters hide, ambush and survive|Mountains, hills, and dense forests are logistical nightmares for monster hunting|implicit
+  - 1360|1352|cause and effect: monsters lasting longer in rough terrain explains why the Honest Racket lasts longer in rural Aquileia, and the slow drip of Monster Loot is what keeps rural lords going|The rural lords enjoyed a prolonged, slower drip of "Monster Loot."|implicit
+  - 1350|1352|cause and effect: rough terrain that keeps monsters alive accounts for the racket persisting in rural areas but not on flat coast|Aquileia is hilly, forested, or mountainous, so monsters are hard to eradicate.|implicit
+  - 1353|1327|continues in time: the racket described before Grover III is dismantled once the Legions clear the monsters that fed it|dismantling the Honest Racket|explicit
+  - 1353|1352|narrows: the Legions dismantled the racket, but it lasted much longer in rural Aquileia|The Honest Racket persists for much longer in rural Aquileia|explicit
+  - 1353|1360|narrows: the Legions cleared the land of monsters, but in mountains, hills and forests monsters persisted|Imperial Legions cleared the land of magical monsters|implicit
+  - 1331|1327|continues in time: lords who were thug-like feudal knights are now made to act as Knights, and abuse of ponies moves out of sight|Before Grover III, Aquileian Lords were Feudal Knights|explicit
+  - 1331|1353|same period, two aspects of Grover III's reform: lords made to act as Knights while the Legions remove the monster basis of the racket|Grover III forces the Aquileian Lords|implicit
+  - 1327|1352|shared term links the early racket to its later rural survival|Honest Racket|explicit
+  - 1327|1360|the racket's basis is spelled out: lords gained from fighting monsters, later described as Monster Loot|fighting Manticores to protect their serfs|implicit
+  - 1044|1331|the general rule of abuse by noble griffons of pony serfs is what is later hidden behind castle doors|The systemic abuse of ponies is pushed behind closed castle doors|implicit
+  - 1044|1327|the pony minority in the rules matches the pony minority treated poorly in history; predatory ambition and Red Love (Ambition) are the same drive|The pony minority was treated poorly|implicit
+  - 1045|1044|the note to self about racial tension on top of class tension rests on the pony minority described in the ontology|a new layer of racial tensions in addition to class tensions|implicit
+  - 1045|1327|tension: one says racial tension is a new layer, the other says ponies were treated equally poorly alongside griffon serfs before Grover III|treated equally poorly alongside the Griffon serfs|implicit
+  - 1216|1044|the real-world case of serfs lacking bodily autonomy and vulnerable to the lord is the model for the in-world abuse of serfs by nobles, though the genders are reversed in the ontology|Female serfs were vulnerable to the lord's whims|implicit
+  - 1216|1331|the real-world point that the lord was the judge so serfs had no recourse fits the abuse hidden behind castle doors|legal recourse was nonexistent because the Lord was the judge|implicit
+  - 1217|1226|the clothing distinction from the China analogy is paired with a note that some places use clothes out of necessity|The "clothing" distinction was real|implicit
+  - 1226|855|clothes worn by necessity in some areas fit the diverse weather and climate|Some areas have utility for clothes by necessity|implicit
+  - 1349|855|varied ecology and climate go with specialized terrain and terroir economies|varying ecology|implicit
+  - 1349|1350|both are about the same terrain: hills and mountains bring specialised wine and cheese economies and also make monsters hard to clear|Specialized terrain led to specialized terroir economics|implicit
+  - 1216|1217|two real-world analogies for the same point: low-status people lack bodily autonomy and are open to the powerful|women of lower status could be bought, sold, or taken by the wealthy|implicit
+- outward:
+  - 1045|the Herzland system, another civilizational system used as a comparison|Compared to Herzland
+  - 1352|Herzland and flat coastal Aquileia, places and systems held elsewhere|flat coastal Aquileia or flat Herzland
+  - 1331|Grover III and his Archons, figures and institutions held elsewhere|Grover III's Archons demand the appearance of piety
+  - 1327|Grover III, the ruler whose reign marks the change|Before Grover III
+  - 1327|Red Love (Ambition) and the Manticores, lore held elsewhere|Red Love (Ambition)
+  - 1353|the Imperial Legions, an institution held elsewhere|Imperial Legions
+  - 1360|Monster Loot, an economy held elsewhere|Monster Loot
+- whole: The notes hang together mostly in two clusters, terrain and monsters with the racket's decline and rural survival, and ponies and abuse with the real-world analogies, while the weather, clothing and terroir notes are only loosely tied to the rest.

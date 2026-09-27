@@ -1,0 +1,6 @@
+- sources:
+  - the model's previous analysis (its reading of the dreamscape as tied to white peace and Celestia's containment doctrine) | treat as wrong on these points and redo it | Please reanalyze; The dreamscape has nothing to do with white peace | referred-to
+  - the story facts the user states in this turn (dreamscape only comforts hostages; Celestia won't solve the war; Applejack is in denial or wants to return to farm pony life; no direct Canterlot invasion because they would lose) | treat as authoritative corrections to build the reanalysis on | Applejack has to do it; Applejack chose not to do a direct invasion | first-named
+- order:
+  - the user's stated corrections over the model's previous analysis | Please reanalyze; has nothing to do with white peace
+- about: The user corrects the model's misreading of the dreamscape and of Celestia's role, restates Applejack's motives and the reason for avoiding a direct invasion of Canterlot, and asks the model to redo its analysis.

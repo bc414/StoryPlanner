@@ -1,0 +1,29 @@
+- steps:
+  - the author | brings a drafted chapter plan | Chapter 2 factory-scene beats: roleplay setup, the reversal, the afterglow twist, and the closing line | at the start of the single prompt in this record
+  - the author | brings a second drafted chapter plan | Chapter 10.5 'Passion' beats: the war-council reunion, the two teaching scenes, and the TwiJack night scene | continuing in the same prompt, after the chapter 2 material
+  - the model | builds a thematic frame | a comparison table contrasting Herzlander and Aquileian views of the Lion/Eagle metaphor | at the opening of the response
+  - the model | interprets a scene | reads the chapter 2 roleplay as reclaiming the 'predator' narrative through consensual play, plus an ideological reading of Fleur's closing twist line | early-to-mid response, right after the table
+  - the model | invents added dialogue | supplies a new comic exchange for the Fleur/Twilight academic scene not present in the author's outline | mid response, in the chapter 10.5 section
+  - the model | invents added dialogue | supplies a new moral-pivot exchange for the Henri/AJ scene, reframing 'conquest' as honesty | mid-to-late response, continuing the chapter 10.5 section
+  - the model | proposes an extended scene | sketches a TwiJack night climax with its own invented dialogue and a 'training wheels' framing, going beyond the author's outline | late in the response
+  - the model | synthesizes | closes with a four-stage arc summary and a thesis line equating sexual liberty with political liberty | at the end of the response
+- kept:
+  - note 221 | the author's own words in this record | keeps the Lion/Eagle lesson dialogue and the Herzlander-vs-Aquileian explanation, filed on the 'Henri gives AJ a lesson' plot point
+  - note 256 | the author's own words in this record | keeps the war-council arrival beat with Twilight and AJ braided and tired-but-happy, filed on the 'War Council Meeting' plot point
+  - note 258 | the author's own words in this record | keeps the 'wild night' teasing beat, filed on the same 'War Council Meeting' plot point
+  - note 263 | the author's own words in this record | keeps the TwiJack night-scene description, filed on the 'Applejack Initiates' plot point
+  - note 282 | the author's own words in this record | keeps Fleur's roleplay-idea setup, filed on the 'Henri arrives to discuss technology and tactics' plot point
+  - note 284 | the author's own words in this record | keeps the roleplay scene's staging and the mid-scene reversal, filed on 'The Scene' plot point
+  - note 285 | the author's own words in this record | keeps the afterglow embrace with Henri's joke and Fleur's twist line, filed on 'The Scene'
+  - note 286 | the author's own words in this record | keeps the surface-mission-vs-true-purpose framing for Fleur and Henri, filed on 'The Scene'
+  - note 287 | the author's own words in this record | keeps the closing 'tech and tactics' line, filed on 'The Scene'
+  - note 4143 | the author's own words in this record | keeps the same surface-vs-true-purpose framing, filed as a Subject on Fleur and Henri's backstories
+  - note 45 | pasted from this reply with cuts | keeps the model's four-stage arc summary (with chapter numbers edited), filed on the Subject 'Intimacy and Liberty'
+  - note 46 | pasted whole from this reply | keeps the model's closing thesis line equating sexual and political liberty, same Subject
+  - note 288 | pasted whole from this reply | keeps the model's context/theme framing sentence for the factory scene, filed on 'The Scene'
+  - note 289 | pasted whole from this reply | keeps the model's predator-narrative-reclamation framing, filed on 'The Scene'
+  - note 290 | pasted whole from this reply | keeps the model's ideological-victory reading of the twist, filed on 'The Scene'
+  - note 291 | pasted whole from this reply | keeps the model's 'fuel not distraction' framing of the ending beat, filed on 'The Scene'
+  - note 292 | pasted whole from this reply | keeps the model's invented closing line for Henri, filed on 'The Scene'
+- brought: The author brought a pair of already fully-drafted chapter outlines, complete with beat sequence and quoted dialogue, for the model to read back and interpret rather than help originate.
+- loop: The author supplied finished scene beats and dialogue, the model added an interpretive framework, a comparison table, and several invented dialogue extensions on top of it, and the plan mostly re-absorbed the author's own outline verbatim into the relevant plot points while keeping only the model's summarizing and framing sentences as separate thematic notes on 'The Scene' and 'Intimacy and Liberty'.

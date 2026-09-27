@@ -1,0 +1,9 @@
+- steps:
+  - author | consolidates invariants | a batch of finalized lore decisions covering windigo origins, Star Swirl's role, Luna's backstory, Celestia's motives across two eras, the war outcome, and Twilight's debunking argument | opening of gemini:647
+  - model | validates and elaborates | breaks the batch into five labeled sections, expanding each invariant with analogies (fossil fuel/carbon), character-arc framing, and thematic tie-ins | gemini:647 response
+  - author | refines a single character's motivation | contrasts common genre depictions of Luna with a subversion tying her stance to the true cause of Nightmare Moon's formation and a later arc payoff via Griffonia | opening of gemini:648
+  - model | validates and elaborates | breaks the refinement into labeled sections analyzing the trope being subverted, the backstory's thematic parallel, the sisters' relationship reframed, and the mechanics of the later pivot, closing with a summary of Luna's arc in stages | gemini:648 response
+- kept:
+  - note 776 | the author's own words in this record | keeps the idea that ancient unicorns used crystals to move the sun and moon, recast as Twilight's private realization, filed as a PlotPoint titled around her contemplating Hearth's Warming Eve
+- brought: The author brought a consolidated set of finalized worldbuilding invariants about the windigo/crystal lore and the war's resolution, and then a further refinement of Luna's motivation contrasting it with common fandom tropes.
+- loop: The author brings batches of already-decided lore and character motivation for the model to validate and elaborate through structured literary analysis, and out of that exchange one detail — the idea of ancient unicorns moving sun and moon via crystals — gets rewritten in the author's own words and filed into the plan as a discrete plot point about Twilight's private realization.

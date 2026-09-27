@@ -1,0 +1,6 @@
+- asks:
+  - question | asks whether Google AI Studio's Playground mode makes use of any context beyond the literal textbox input, contrasted with conversational mode | "do prompts use context at all or is it strictly what was put into the textbox"
+- supplies:
+- shaping:
+- openness: Open — the message poses a factual question about how Playground mode handles context without naming an expected answer, only offering a contrast term ("unlike conversational").
+- subject: How context/memory works in Google AI Studio's Playground mode versus conversational mode

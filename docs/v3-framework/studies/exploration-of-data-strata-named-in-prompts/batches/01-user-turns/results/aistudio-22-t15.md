@@ -1,0 +1,4 @@
+- sources:
+  - The attached document | the material to extract from, run through four passes by priority (events by ALB date or reign, actors by species/class/cohort, power tools, ideological oppositions) | Attached document: 1e5dPVQ-Nb_ed9zbRp9Xqmzui92rnmFHk | first-named
+- order:
+- about: The user attaches a document and gives four ranked extraction passes (chronology, demographics, system mechanics, dialectics), each with its own ignore rule and one-bucket assignment rule, to be run on that document.

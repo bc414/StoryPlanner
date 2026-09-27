@@ -1,0 +1,6 @@
+- sources:
+  - the geology, the terroir (coastal plains vs hilly, forested, mountainous interior of Aquileia) | new lore the author supplies in this turn as the explanation of the two tracks; treat as true and build the analysis on it | Also to explain the Herzland and Aquileia two tracks is the geology, the terroir | first-named
+  - this original pillar of the Herzland/Aquileia divide | established earlier part of the plan that the analysis starts from and shows being strengthened | this original pillar of the Herzland/Aquileia divide | referred-to
+  - the new monster hunting economics | recently developed material from the conversation, to be used as what enhances the original pillar | enhanced by the new monster hunting economics | referred-to
+- order:
+- about: The user adds a geology and terroir explanation for why coastal Aquileia industrializes like Herzland while the interior becomes rent-seeking and bandit-ridden, and asks the model to analyze how the original Herzland/Aquileia divide is strengthened by the newly developed monster hunting economics.

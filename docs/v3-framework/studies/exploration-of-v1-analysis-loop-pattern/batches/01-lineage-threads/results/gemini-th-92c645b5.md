@@ -1,0 +1,11 @@
+- steps:
+  - the author | poses a terminology check against an already-built arc | the Henri/Applejack/Kemerskai posture-reframe arc plus two naming questions (is 'Posture' the right accelerant noun, is there a better word than 'Candor') | opens the exchange
+  - the model | validates the proposed term | confirms 'Posture' as the correct noun, justifying it via a linguistic link between 'poser' and 'posture' and a parallel to Industry/Magic as accelerants | opens the response, answers question 1
+  - the model | supplies a replacement term | proposes 'Sincerity' in place of 'Candor', with a rationale for why it fits a naive pre-war state | continues the response, answers question 2
+  - the model | builds a structural matrix | lays out a four-state 'Honesty Matrix' (Sincerity, Realism, Propaganda, Conviction) formalizing truth/posture combinations | middle of the response
+  - the model | drafts a character-arc beat | sketches Henri's Act 3 realization sequence (his error, the reveal at the tank/uniform moment, his redemption) built on the matrix | continues the response
+  - the model | extends the accelerant logic to a new domain | answers the sexual-ambition parallel, mapping Coltbert's contraception argument onto goal/barrier/accelerant terms (Passion, Dynasty, Contraception, Consent) | later in the response
+  - the model | consolidates into a cross-domain table | produces a summary table aligning Economy, Politics, and Intimacy each to goal/enemy/accelerant/result | closes the response
+- kept:
+- brought: The author brought an already-developed arc summary (Henri's anti-poser conviction, Applejack's arrival and Kemerskai's lesson, the posture-as-truth-accelerant reframe) plus two specific terminology questions to test against it.
+- loop: The author brought a settled thematic structure and asked for terminological validation and a better synonym; the model responded by confirming the term, coining a replacement, and expanding both into a formal matrix, a character-arc beat, and a cross-domain summary table, but no note in the planning database is traced to this exchange, so none of this elaboration is shown carried back into the plan here.

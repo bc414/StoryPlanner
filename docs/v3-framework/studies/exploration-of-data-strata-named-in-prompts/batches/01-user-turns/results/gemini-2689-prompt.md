@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a thorough overview of Lean In, its history, related pillars and critiques, and how these apply to modern lived experience, so they can see what their story is up against, without pointing at any particular body of material to use or avoid.

@@ -1,0 +1,5 @@
+- sources:
+  - Luna Eclipsed | treated as canon evidence of the confident, restored Princess of the Night, the end point of the arc Mali is proposed to help cause | which we see in Luna Eclipsed compared to the frightened little sister | referred-to
+  - friendship is magic part 2 | treated as canon evidence of the frightened, isolated Luna who skipped the gala, the starting point the arc is measured from | the frightened little sister in friendship is magic part 2 who also didn't attend the gala | referred-to
+- order:
+- about: The user asks whether Luna should be isolated and demure in her first year back and whether Mali, as a night guard, could be what restores her, using the show's two portrayals of Luna as the before and after.

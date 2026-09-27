@@ -11,7 +11,11 @@ using StoryPlanner.TurnItemizer;
 //   {"unit": "user-turns" | "question-endings", "layers": ["gemini", "aistudio", "notebooklm", "conversations"],
 //    "lineage": "<lineage.db>", "plan": "<working-plan .storyplan, for the conversations layer>"}
 //   {"unit": "session-decisions", "codeSessions": "<codesessions.db>", "kinds": ["answers", "verdicts", "prompts"]}
-// Layers the config leaves out are named in the narrowing.
+//   {"unit": "prompts-by-copy" | "threads-with-notes", "layers": ["gemini", "aistudio", "notebooklm"],
+//    "lineage": "<lineage.db>", "archive": "<v1 archive .storyplan>", "snapshots": "<dir of dated v1 snapshots>",
+//    "excludeStory": "Paratext", "maxChars": 200000}
+// Layers the config leaves out are named in the narrowing. The last two units run the voice
+// attribution of the v1 archive against lineage in their own run; they read the lineage layers only.
 
 if (args.Length < 2) return Usage();
 var configPath = Path.GetFullPath(args[0]);
@@ -62,8 +66,46 @@ switch (config?.Unit)
         narrowing = SessionDecisions.Narrowing(SessionDecisions.Kinds.Where(kinds.Contains).ToList());
         break;
     }
+    case "prompts-by-copy" or "threads-with-notes":
+    {
+        string[] lineageLayers = [Sources.Gemini, Sources.AiStudio, Sources.NotebookLm];
+        var layers = config.Layers ?? [];
+        if (layers.Length == 0 || layers.Any(l => !lineageLayers.Contains(l))) { Console.Error.WriteLine($"layers must name some of {string.Join(", ", lineageLayers)}"); return 2; }
+        if (config.Lineage is null || !File.Exists(config.Lineage)) { Console.Error.WriteLine($"lineage not found: {config.Lineage}"); return 2; }
+        if (config.Archive is null || !File.Exists(config.Archive)) { Console.Error.WriteLine($"archive not found: {config.Archive}"); return 2; }
+        if (config.Snapshots is not null && !Directory.Exists(config.Snapshots)) { Console.Error.WriteLine($"snapshot directory not found: {config.Snapshots}"); return 2; }
+
+        var rows = StoryPlanner.VoiceAttribution.Attribution.RunWithDefaults(config.Archive, config.Lineage, config.Snapshots, Console.Error.WriteLine);
+        var taken = Copies.ByOrigin(rows, config.ExcludeStory);
+        var conversations = new List<Turns.Conversation>();
+        foreach (var layer in lineageLayers.Where(layers.Contains))
+            conversations.AddRange(layer switch
+            {
+                Sources.Gemini => Sources.ReadGemini(config.Lineage),
+                Sources.AiStudio => Sources.ReadAiStudio(config.Lineage),
+                _ => Sources.ReadNotebookLm(config.Lineage),
+            });
+        var left = lineageLayers.Where(l => !layers.Contains(l)).ToList();
+        var layerText = $"; in the layers {string.Join(", ", lineageLayers.Where(layers.Contains))}"
+            + (left.Count > 0 ? $", the layers {string.Join(", ", left)} left out by the config" : "")
+            + (config.ExcludeStory is null ? "" : $"; archive notes of any story named with \"{config.ExcludeStory}\" not counted");
+        if (config.Unit == "prompts-by-copy")
+        {
+            items = Copies.PromptsByCopy(conversations, taken);
+            locatorNotation = Copies.PromptsLocatorNotation;
+            narrowing = Copies.PromptsNarrowing + layerText;
+        }
+        else
+        {
+            var maxChars = config.MaxChars ?? 200_000;
+            items = Copies.ThreadsWithNotes(conversations, taken, maxChars);
+            locatorNotation = Copies.ThreadsLocatorNotation;
+            narrowing = Copies.ThreadsNarrowing(maxChars) + layerText;
+        }
+        break;
+    }
     default:
-        Console.Error.WriteLine($"unknown unit '{config?.Unit}': user-turns, question-endings or session-decisions");
+        Console.Error.WriteLine($"unknown unit '{config?.Unit}': user-turns, question-endings, session-decisions, prompts-by-copy or threads-with-notes");
         return 2;
 }
 
@@ -79,4 +121,5 @@ static int Usage()
     return 2;
 }
 
-sealed record Config(string? Unit, string[]? Layers, string? Lineage, string? Plan, string? CodeSessions, string[]? Kinds);
+sealed record Config(string? Unit, string[]? Layers, string? Lineage, string? Plan, string? CodeSessions, string[]? Kinds,
+    string? Archive, string? Snapshots, string? ExcludeStory, int? MaxChars);

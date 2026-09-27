@@ -1,0 +1,7 @@
+- asks:
+  - compare | asks how 'this' (an engine or combustion process discussed earlier) compares to stationary generators used in power plants | "How does this compare to stationary generators in power plants?"
+  - explain | asks for an explanation of the difference between vehicle engines and power plants specifically in terms of combustion | "Explain the difference between vehicle engines and power plants in terms of combustion"
+- supplies:
+- shaping:
+- openness: Leaves the answer open, posing two general questions about comparison and difference without naming a preferred answer or offering options to choose between.
+- subject: Comparing combustion in vehicle engines versus stationary power-plant generators

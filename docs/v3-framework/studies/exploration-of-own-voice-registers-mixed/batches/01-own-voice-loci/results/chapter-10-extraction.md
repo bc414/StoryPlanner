@@ -1,0 +1,32 @@
+- passages:
+  - note 3 | plot-summary narration | third-person present-tense declarative sentences | Twilight, Fleur, and Fluttershy studying the love harvester and setting up an animal spy network | apart
+  - note 3 | self-query proposal | ends in a question mark, speculative phrasing | whether animals should eavesdrop deeper in Vanhoover on the love harvester | apart
+  - note 4142 | definitional catalog list | noun-phrase list with parenthetical sourcing | the three meanings of the title and their sources | apart
+  - note 4634 | craft-rationale commentary | discusses storytelling technique and its purpose ("tight storytelling and setting the stakes") | telling rifle development and negotiations through letters over weeks | apart
+  - note 4634 | habitual-pattern description | third-person habitual present framing ("talks a lot about... it's always") | Twilight's letters constantly mentioning Fleur alongside progress updates | run-in
+  - note 4634 | embedded first-person exemplar quotation | quotation marks, first-person exclamatory phrasing | sample lines of Twilight praising Fleur's breakthroughs | run-in
+  - note 4634 | habitual-pattern description | third-person habitual present framing ("letters are like...") | Applejack's letters constantly mentioning Mali alongside tribe progress | run-in
+  - note 4634 | embedded first-person exemplar quotation | quotation marks, first-person phrasing | sample lines of Applejack praising Mali's skills | run-in
+  - note 4659 | psychological narrative description | third-person account of inner feeling/belief | Twilight's jealousy and feeling of fraudulence next to Mali | apart
+  - note 4659 | labeled "Reality" explanatory gloss | opens with "Reality:" label, explanatory clause | the true source of Mali's diplomatic skill (parloir experience) | apart
+  - note 4659 | labeled "relief" resolution gloss | opens with "The relief is when...", names resolving beat | AJ reaffirming love for the real Twilight | apart
+  - note 4660 | psychological narrative description | third-person account of inner feeling/belief | Applejack's jealousy of Fleur's science-and-honesty combination | apart
+  - note 4660 | labeled "Reality" explanatory gloss | opens with "Reality:" label, explanatory clause | Fleur's skill traced to Aquileian Rationalism | apart
+  - note 4660 | labeled "relief" resolution gloss | opens with "The relief is when...", names resolving beat | Twilight reaffirming love for Applejack's honesty | apart
+  - note 4751 | structural outline statement | full declarative sentence naming a structural feature | the three-chapter letter arc having a clear progression | apart
+  - note 4751 | dash-list outline | label-dash-gloss list format, telegraphic | the three arc segments (Extraction/Tempest/Crash) and their tones | apart
+  - note 5478 | telegraphic step-list | short imperative/noun-phrase list items | the four-step pattern of each letter segment | apart
+  - note 5522 | lore-description narration | third-person present-tense declarative worldbuilding | pink love's uses in rehab, morale cakes, and painkillers | apart
+- shifts:
+  - note 3 | plot-summary narration | self-query proposal | ending shifts to a question mark and speculative phrasing
+  - note 4634 | craft-rationale commentary | habitual-pattern description | shifts from general storytelling technique to a specific character's letter pattern ("Twilight talks a lot about Fleur")
+  - note 4634 | habitual-pattern description | embedded first-person exemplar quotation | quotation marks open direct first-person exclamatory phrasing
+  - note 4634 | embedded first-person exemplar quotation | habitual-pattern description | closing quotes return to third-person descriptive clause ("alongside progress updates")
+  - note 4634 | habitual-pattern description | embedded first-person exemplar quotation | quotation marks open Applejack's quoted first-person phrasing
+  - note 4659 | psychological narrative description | labeled "Reality" explanatory gloss | "Reality:" label opens an explanatory clause
+  - note 4659 | labeled "Reality" explanatory gloss | labeled "relief" resolution gloss | shifts from explaining mechanism to naming the resolving beat ("The relief is when")
+  - note 4660 | psychological narrative description | labeled "Reality" explanatory gloss | "Reality:" label opens an explanatory clause
+  - note 4660 | labeled "Reality" explanatory gloss | labeled "relief" resolution gloss | shifts from explaining mechanism to naming the resolving beat
+  - note 4751 | structural outline statement | dash-list outline | shifts from a full sentence to a label-dash-gloss list format
+- registers: plot-summary narration; self-query proposal; definitional catalog list; craft-rationale commentary; habitual-pattern description; embedded first-person exemplar quotation; psychological narrative description; labeled "Reality" explanatory gloss; labeled "relief" resolution gloss; structural outline statement; dash-list outline; telegraphic step-list; lore-description narration
+- whole: This item's notes are written in many distinct registers—summary narration, a self-questioning proposal, catalog and outline lists, craft-rationale commentary, psychological description, labeled analytic glosses, and quoted first-person exemplars—that mostly stand apart note by note, except in note 4634 where the quoted exemplars run directly into their descriptive frames inside single sentences.

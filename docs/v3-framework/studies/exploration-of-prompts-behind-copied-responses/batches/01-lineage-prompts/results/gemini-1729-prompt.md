@@ -1,0 +1,9 @@
+- asks:
+  - explain | give a general overview/update on the recent history of French political parties | "Tell me more about French political party recent history"
+  - confirm | check whether Macron's party can rightly be characterized as a new disruptive force that broke apart two long-standing mainstream ('big tent') parties | "Isn't Macron's party a new disruptor which broke two original big tents?"
+  - explain | describe the role/history of Le Pen's party in this landscape | "what about La Pen"
+  - explain | describe the emergence and nature of the new left coalition | "and then the new left coalition?"
+- supplies:
+- shaping:
+- openness: The message leans toward an answer it names, framing Macron's party as a disruptor that broke two big tents and asking the model to confirm/expand that claim, then asks the model to fill in parallel explanations for Le Pen and the new left coalition.
+- subject: Recent history of French political parties (Macron, Le Pen, new left coalition)

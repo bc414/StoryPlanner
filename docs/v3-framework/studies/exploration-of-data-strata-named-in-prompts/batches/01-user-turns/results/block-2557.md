@@ -1,0 +1,5 @@
+- sources:
+  - Love Island USA | the show is the material to search for places where the thesis is challenged or contested, so look for counterevidence rather than support | areas in Love Island USA | referred-to
+  - my thesis | the claim to be tested against the show, treated as something that can be challenged or contested, not as confirmed | my thesis challenged and contested | referred-to
+- order:
+- about: The user asks the model to turn against its previous one-sided reading and identify where Love Island USA challenges or contradicts the user's thesis.

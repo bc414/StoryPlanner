@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the question to be about Gemini models and subscription tiers in the consumer product, answering with Google AI Ultra, when the user was asking about models available in Vertex AI that can be paid for with free credits | I meant in vertex ai to use the free credits on | flatly, as a short restatement of the intended context with no apology or irritation
+- about: The user restates their earlier question as being about Vertex AI and using free credits there, redirecting the model away from the consumer subscription-tier answer it gave.

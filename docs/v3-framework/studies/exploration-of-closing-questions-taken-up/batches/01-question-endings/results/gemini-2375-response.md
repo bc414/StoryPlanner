@@ -1,0 +1,9 @@
+- questions:
+  - Would the user like to write out a specific interaction where an Equestrian character formally corrects an Aquileian for using 'blank flank'? | ignored | the turn moves to a different scene (Apple Bloom and Applejack in Chapter 10) and a different question instead of taking up the proposed interaction | none
+- shape: The user turn does not take up the model's proposed scene; instead it presents its own scene (Apple Bloom and Applejack reuniting in Chapter 10) and several new worldbuilding facts, then poses a new question of its own asking the model to justify why the scene would feel tonally right.
+- settles:
+  - Apple Bloom and Applejack have a reunion scene in Chapter 10 where Applejack asks after their parents | 'Apple Bloom and Applejack meet up in Chapter 10, Applejack asks how their parents are doing'
+  - In that scene Apple Bloom reports the factory workforce is still 'all blank flanks' | 'Apple Bloom says fine, but the factory is still all blank flanks'
+  - The Cutie Mark Crusaders are characterized as 'asset specificity crusaders' | 'The CMCs are basically asset specificity crusaders'
+  - Factory workers are ponies who wear jumpsuits covering their cutie marks, having left a stagnant life for factory work | 'wear factory jumpsuits over their cutie marks'
+  - The Apple family runs a company called Standard Agricultural Amalgamated, which pays efficiency wages and serves as the model company for the EEEE union | 'Standard Agricultural Amalgamated since the apple parents are the model company for the EEEE union'

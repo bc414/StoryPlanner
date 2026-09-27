@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The blueprint has the stew as imported bulk rations from a Manehattan processor with local agriculture dead; the user instead has the cans come from a local canning facility set up before the war, made from stockpiled local produce | "I suppose Comet Shine set up a canning facility" and "stockpiled their local produce into canned mash" | tentative suggestion, hedged with "I suppose" and "maybe", offered as an alternative origin without saying the earlier one is wrong
+- about: The user answers the finished scene blueprint by proposing that the canned food was made locally, in a pre-war canning plant tied to AJ's parents' company, instead of being imported.

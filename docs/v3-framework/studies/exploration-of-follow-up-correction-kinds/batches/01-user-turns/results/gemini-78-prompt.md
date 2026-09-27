@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks "Command" from the model's list, adds a related line from the chapter where she refuses the title "General," and asks whether "General" would work as the title and what other alternatives exist.

@@ -1,0 +1,12 @@
+- steps:
+  - author | supplies attached material | an attached document whose content was never captured | opening of the exchange
+  - author | poses a naming decision | two candidate labels, Domination or Supremacy, for the corrupted/evil version of the Element of Magic, tied to Equestria at War's ideology categories | start of the exchange
+  - model | argues for one candidate over the other | a systemic comparison of Domination vs Supremacy across ontology, psychology, and thematic structure | body of the model's reply
+  - model | applies the chosen concept to named figures | Supremacy demonstrated through the Herzlander nobility, Chrysalis, and the Skyfall Tycoon | continuing through the reply
+  - model | extends the concept into a larger schema | a four-stage spectrum of Magic (Stagnation, Tyranny, War, Liberty) mapped onto the Supremacy choice | later in the reply
+  - model | ties the choice to the wider fictional system | Supremacy linked to Equestria at War's ideology mechanics and a 'psychological heatmap' framing | later in the reply
+  - model | closes with prompts for further development | two follow-up questions about Twilight's arc and about distinguishing types of Supremacy among factions | end of the reply
+- kept:
+  - note 3965 | pasted from this reply inside the author's own framing | keeps the reply's definition of Supremacy as the absolute belief that one's own will is the only will that matters, filed under the Subject 'Magic and Ambition'
+- brought: The author brought an already-drafted binary choice between two possible names, Domination or Supremacy, for the corrupted form of the Element of Magic, asking which better fits the setting's ideology framework.
+- loop: The author brought a naming decision to be resolved against an existing worldbuilding framework, the model returned an argued verdict with a definition and supporting analysis, and the planning database kept only the winning definition, restated in the author's own words, filed to the relevant subject.

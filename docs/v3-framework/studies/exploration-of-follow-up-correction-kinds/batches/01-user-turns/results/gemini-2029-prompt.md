@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of the expand-then-compress pipeline, checks in passing that placement is limited to one bucket per paradigm, and moves on to ask for a review of the Phase 0 system prompt, which they paste in.

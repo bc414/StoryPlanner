@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user introduces a new invention, Fleur Bloom's Star Spade, and asks how its crystal would work and whether it relates to the spectrometer crystal, building on the model's turn without disputing any of it.

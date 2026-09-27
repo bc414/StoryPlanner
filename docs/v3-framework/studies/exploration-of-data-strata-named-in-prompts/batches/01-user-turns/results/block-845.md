@@ -1,0 +1,5 @@
+- sources:
+  - TLTT theme about the element of laughter evolving to resilience | treated as the author's planned theme; the model is asked to confirm whether it amounts to rejecting cynicism as a failure mode or surrender, so it is held as a reading to check, not yet settled | So the TLTT theme about the element of laughter evolving to resilience is precisely about rejecting cynicism | referred-to
+  - what I've been building towards implicitly | the author's own direction across the work so far, offered as an unstated intent that the model is asked to confirm or name | That's what I've been building towards implicitly? | referred-to
+- order:
+- about: The user checks whether their story's theme of laughter evolving into resilience is, in effect, a rejection of cynicism, and asks the model to confirm that this is what they have been building towards without saying so.

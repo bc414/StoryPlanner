@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze a thematic idea, that Chrysalis in Skyfall broke the elite's unspoken rule of feigned rivalry without actually devouring one another, without pointing at any body of material to draw on.

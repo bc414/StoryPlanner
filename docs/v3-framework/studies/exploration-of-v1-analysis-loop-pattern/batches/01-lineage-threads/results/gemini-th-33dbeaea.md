@@ -1,0 +1,47 @@
+- steps:
+  - author | brings plan and poses questions | corporate succession structure (griffoness to pony CEO, subsidiaries recruiting ponies) plus two questions on concealment and goal compatibility | opening prompt
+  - model | synthesizes and analyzes | pipeline mechanism, three-layer concealment analysis, revenge-as-acquisition synergy | reply to opening prompt
+  - author | extends with speculative question | distinguishes easy vs tough sell-off targets, ties to MEFO margin call and Canterlot Wedding timing | follow-up prompt
+  - model | develops economic mechanism and dates it | sellouts-vs-holdouts framework, MEFO margin-call crisis, Canterlot Wedding recast as bank heist | reply to follow-up
+  - author | brings new plan block and asks for justification | second-great-leap-forward measures (sector overdrive, Thorax casus belli, asset liquidation) plus question on invasion timing | new prompt
+  - model | supplies rationale and additional measures | logistical explanation for the delay, Thorax-as-fuel mechanic, four extra totalitarian measures | reply
+  - author | repeats the same plan block and explicitly asks for review | identical second-great-leap-forward content with added review request | near-duplicate prompt
+  - model | restates and sharpens the analysis | crystallized section with named figures and refined measures (concrete, language, deathmatch, crystal-empire fear) | reply
+  - author | adds an economic distinction | classifies rifles/artillery as profitable exports vs tanks/planes as R&D-only, asks where artillery fits | new prompt
+  - model | classifies and elaborates | artillery as bridge category, pre/post-1003 export and pivot mechanics, chemical bottleneck tied to famine | reply
+  - author | proposes a historical-weapon analogy | Portuguese organ gun as model for the ammo-subscription grift | new prompt
+  - model | validates and elaborates the mechanism | organ-gun psychology, ammo-guzzling trap, safety-net logic, evolution toward the Gatling | reply
+  - author | repeats the analogy and asks for more options | organ-gun idea restated with a request for alternatives | near-duplicate prompt
+  - model | confirms and broadens with options | breech-loading detail plus three alternative weapons and a synthesis | reply
+  - author | introduces a new invention detail | Luna Nova rifle draining the user's own magic as backup ammo | new prompt
+  - model | analyzes the mechanic thematically | macroeconomic counter-model, biological cost, democratization of magic, tie to character arc | reply
+  - author | adds a mechanical specification and asks for thematic review | three-part rifle design (spellfire matrix, draining crystal, three-way valve) and swappable civilian matrices | new prompt
+  - model | analyzes the design thematically | anti-poseur economy, harmony-enforcement via the valve, swords-to-plowshares economics | reply
+  - author | synthesizes across threads and asks a multi-part question | asset-specificity contrast, Coltbert-paper twist, vertical-integration check, computer/software allegory request, closed-vs-open-source question, review request | new prompt
+  - model | confirms and builds an extended allegory | Coltbert-perversion analysis, vertical integration of biology, closed-source vs open-source tech-dystopia mapping | reply
+  - author | asks an etymological/naming question | origin of the word application, request to disguise it in French/Aquileian terms | new prompt
+  - model | supplies etymology and proposes a term | Latin root explanation, systems-vs-application-software distinction, appliqué naming scheme with slang layering | reply
+  - author | asks for a translation and proposes a term split | French word for app, proposes appliqué as artisan term and spell matrix as Fleur Bloom's technical term | new prompt
+  - model | supplies translation and elaborates the split | French terms, Matrice de Sort, top-down/bottom-up thematic split, hardware/software analogy | reply
+  - author | asks about an English equivalent term | fashion-sense English equivalent of appliqué | new prompt
+  - model | supplies the answer and extends the allegory | English borrowing explanation, patch as working-class equivalent, cross-cultural trench-slang synthesis, other term options | reply
+  - author | finalizes the naming decision | settles on appliqué for Aquileians and spell matrix for Equestrians, notes the loanword fits | new prompt
+  - model | confirms and reinforces the reasoning | validates the split, elaborates the cultural logic, asks a follow-up about integrating the two groups | reply
+- kept:
+  - note 5351 | the author's own words in this record | keeps the framing of classmates as nepo babies selling depreciating assets for a windfall, filed under The Count of Mont-Borée
+  - note 5349 | pasted whole from this reply | keeps the Poseur definition (aesthetic of wealth over mechanics of power), filed under Honesty vs Poseurs
+  - note 5343 | pasted from this reply inside the author's own framing | keeps the logistical rationale for delaying the Olenia invasion and the Trimmel/Synovial appointments, filed under Second Great Leap Forward (1003-1008)
+  - note 5345 | pasted whole from this reply | keeps the Thorax-purge-as-fuel mechanic and escalating draft/quota policy, filed under Second Great Leap Forward (1003-1008)
+  - note 5347 | pasted from this reply with cuts | keeps the concrete-over-caverns measure erasing changeling heritage, filed under Second Great Leap Forward (1003-1008)
+  - note 5348 | pasted whole from this reply | keeps the Crystal-Empire-fear propaganda measure and its effect on the army, filed under Second Great Leap Forward (1003-1008)
+  - note 5344 | the author's own words in this record | keeps the classification of rifles/artillery as profitable exports vs tanks/planes as R&D-only plus the Haber-Bosch pivot, filed under Second Great Leap Forward (1003-1008)
+  - note 5330 | pasted from this reply inside the author's own framing | keeps the organ-gun/DRM subscription-trap mechanism for the Zebrica arms trade, filed under Statthalter Slave Trade
+  - note 5332 | the reply was quoting the plan | keeps pre-existing plan language on the Luna Nova as an autarky-based bottom-up tool, filed under Capitalism for Good / Ambition for Good
+  - note 5847 | pasted whole from this reply | keeps the asset-specificity-as-cage description of Chrysalis's arms exports, filed under Capitalism for Good / Ambition for Good
+  - note 5331 | pasted whole from this reply | keeps the closed-source/dopamine-loop vs open-source/transparent-cost allegory, filed under Capitalism for Good / Ambition for Good
+  - note 5333 | the reply was quoting the plan | keeps pre-existing plan text on Coltbert's paper and Chrysalis's inversion of it, filed under Temp Changeling Lands
+  - note 5334 | pasted whole from this reply | keeps the vertical-integration-of-biology bullet list, filed under Temp Changeling Lands
+  - note 5329 | pasted from this reply inside the author's own framing | keeps the etymology of application and the systems/application-software distinction, filed under Magical Engineering
+  - note 5201 | pasted from this reply inside the author's own framing | keeps the final appliqué/spell-matrix terminology split and its cultural rationale, filed under Magical Engineering
+- brought: The author brought forward pieces of an already-developed timeline and magic-system plan (Chrysalis's corporate takeover strategy, the Second Great Leap Forward, and the Luna Nova rifle's mechanics) as prompts for the model to synthesize, extend, name, and translate.
+- loop: The author repeatedly hands the model fragments of an existing economic or mechanical plan along with a synthesis or naming question, the model returns a structured analysis, allegory, or terminology scheme, and the author either restates the same fragment for a second pass, adds a further specification, or settles on a final choice; the planning database then keeps a mix of the model's synthesized phrasing, the author's own restated framing, and plan text the model had merely quoted back, sorted into the relevant worldbuilding subjects.

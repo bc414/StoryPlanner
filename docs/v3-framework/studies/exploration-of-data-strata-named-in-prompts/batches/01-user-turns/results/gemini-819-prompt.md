@@ -1,0 +1,7 @@
+- sources:
+  - the game lore (the different types of love) | draw on it to explain more about the types of love; the model is asked to supply detail from it | Tell me more about the different types of love in the game lore | referred-to
+  - Pax Chrysalia, Twilight's fate as the user recalls it | the user's own recollection of the canon ending, offered for the model to confirm or correct; treated as the baseline piece of lore to subvert, not to follow | I thought the only fate for Twilight in Pax Chrysalia is | referred-to
+  - my story | the author's own plan, where Twilight fights at the front with Applejack instead of being a passive victim; it departs deliberately from the lore | In my story, instead of Twilight being a passive victim, she is at the front with Applejack | referred-to
+- order:
+  - my story over the game lore (Twilight's fate in Pax Chrysalia) | If there is a single piece of lore that I want to subvert, it is exactly this moment. In my story, instead of Twilight being a passive victim
+- about: The user asks for more on the types of love in the game lore, checks their memory of Twilight's canon fate in Pax Chrysalia, and says their story will deliberately subvert that fate by putting her at the front with Applejack.

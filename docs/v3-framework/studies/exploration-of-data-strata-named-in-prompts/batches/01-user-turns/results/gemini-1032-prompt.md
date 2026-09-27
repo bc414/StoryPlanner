@@ -1,0 +1,4 @@
+- sources:
+  - early PCBs or lithography | draw on the real-world history and parts of early printed circuit boards and lithography as a source of analogies and insight for the story's technology | What other parts of early PCBs or lithography can give insight? | referred-to
+- order:
+- about: The author corrects the model's account of Hans Kessel's work, saying he built the three-way valve that splits love into red and pink streams rather than the lithography, and asks what other parts of early PCB and lithography technology could inform the story.

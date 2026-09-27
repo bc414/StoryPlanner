@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | The scene subverts the theme's usual meaning: Rainbow's notion of loyalty as constant fighting is set up as the view the scene overturns, which also states her mindset as a fact about her | Subverting "Loyalty": Rainbow thinks Loyalty means always fighting | no | planning shorthand, a label followed by a colon and a flat claim
+  - bearing on the theme | Applejack is the scene's counterweight: she shows Rainbow that loyalty means staying alive to fight another day, so the scene argues a redefinition of loyalty as endurance; the exchange between the two is implied as what happens on the page | Applejack shows her that Loyalty means staying alive so you can fight tomorrow | no | declarative, aphoristic statement in present tense
+- whole: A two-sentence note saying the scene subverts the theme by setting Rainbow's fight-always idea of loyalty against Applejack's stay-alive-to-fight-tomorrow idea.

@@ -1,0 +1,4 @@
+- sources:
+  - EaW | treated as the setting the model should reason within: it has other tropical plantation regions that sell rubber to Skyfall, so this setting fact corrects the earlier real-world comparison | other tropical regions in EaW that do the plantation method | referred-to
+- order:
+- about: The user corrects the model's real-world rubber analogy by saying other plantation regions in the setting can supply Chrysalis, then restates the plot logic: her shell company is a brazen power move rather than an economic need, aimed at getting a loyal puppet tribe to clear the jungle.

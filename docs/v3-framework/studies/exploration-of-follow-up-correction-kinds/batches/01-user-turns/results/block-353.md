@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Applejack-honesty analysis and asks for a new deliverable: a full report of every insight from the whole conversation, including ones later superseded, with a pointer to search transcripts if they exist.

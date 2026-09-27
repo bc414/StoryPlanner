@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model gave Spike an innate apex-predator, Red Love dragon psychology and an instinctive grasp of the Predator's Dilemma. The user says he has no dragon or predator instincts because he was raised entirely in the nursery. The user adds that the point of the two episodes is that he need not be a brute because he is a dragon. | "Spike would not have any dragon instincts in him or apex predator instincts" | Stated flatly as a clarification. A reason is given, citing the episodes and the theme they carry. No apology and no irritation.
+- about: The user overrides the model's premise that Spike is an instinctive predator, citing the nursery upbringing and the theme of two episodes, and then adds a separate link: Twilight needs Crystal Empire crystals for her charity systems, which ties Spike to that supply chain.

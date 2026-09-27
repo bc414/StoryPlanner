@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a technical question about whether a message they received means the Gemini web app is using retrieval or truncation rather than reading the full context, without pointing the model at any body of material to use or avoid.

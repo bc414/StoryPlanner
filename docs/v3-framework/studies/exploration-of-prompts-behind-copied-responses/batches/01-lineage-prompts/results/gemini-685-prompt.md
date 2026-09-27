@@ -1,0 +1,9 @@
+- asks:
+  - decision request | asks whether the noted line/scene (Rockfeller's ominous remark while being hauled to jail) should be dropped now that the plan isn't going with "pre-planned collaboration + defiant" | "Should this be dropped since I'm not going with pre-planned collaboration + defiant?"
+  - open guidance request | voices uncertainty about how to handle or use the line if it isn't simply dropped | "Not sure how to really handle this"
+- supplies:
+  - planning note | a quoted line of dialogue where Rockfeller, being taken to jail, ominously tells someone "you think you know Chrysalis, but you don't" | a single sentence
+  - prior plan reference | a previously considered story angle labeled "pre-planned collaboration + defiant" that the user says they are no longer pursuing | a short phrase, no further detail given
+- shaping:
+- openness: Leans toward an answer: the phrasing \"Should this be dropped since I'm not going with...\" invites the model to confirm or check that dropping the line follows from abandoning the named prior angle, while \"Not sure how to really handle this\" leaves room open if the line is kept.
+- subject: Whether to drop a character's ominous jailhouse line about \"Chrysalis\" now that a related plot angle has been abandoned

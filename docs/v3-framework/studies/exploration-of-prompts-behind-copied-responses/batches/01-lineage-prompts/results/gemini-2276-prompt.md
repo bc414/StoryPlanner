@@ -1,0 +1,8 @@
+- asks:
+  - factual question | asks whether, in real WWII history, the Germans used large swarms of Stuka dive-bombers that had to continually cycle back to the airbase to rearm | "did the Germans have huge swarms of stukas that had to constantly rotate back to the airbase?"
+  - analogical check | asks, in effect, whether that same swarm-and-rotate pattern is what the changelings (with their mass-production capacity) would be expected to do in the story | "This is what I imagine the changelings would do since they have mass production"
+- supplies:
+  - premise recap | the story's established rule that a Stuka can destroy only one tank per sortie, while a unicorn ace aboard can destroy one tank per crystal enhancer carried, and Starlight can destroy unlimited tanks per sortie because her cutie mark lets her skip the crystal-enhancer requirement | a short paragraph
+- shaping:
+- openness: The historical question is left genuinely open (a real-world fact to be supplied), while the changeling comparison is offered as the user's own guess for the model to weigh in on rather than a stated fact to verify.
+- subject: Comparing real WWII Stuka dive-bomber sortie/rearm patterns to a fictional changeling air-swarm tank-bombing mechanic tied to unicorn "crystal enhancer" rules.

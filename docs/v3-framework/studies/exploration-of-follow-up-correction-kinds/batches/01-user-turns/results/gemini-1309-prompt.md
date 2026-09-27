@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user brings in a new plot point, the POWs at Camp Fluttershy creating a written language and teaching it to younger conscripts, and asks whether they would pick Isi-Bumbano as the language's official endonym, so the turn extends the naming discussion without disputing the model's earlier turn.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its previous analysis to two other figures, New Jersey senators Andy Kim and Cory Booker, without pointing at any body of material to use.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model summarised the framework's evolution from session context alone, after the story planner tool disconnected, and said that was enough. The user treats that as an inadequate basis and supplies the full conversation, asking for a comparison against the earlier turns. | "Here's the full convo. Also compare against the earlier turns" | implicit and matter-of-fact: no accusation or stated error, just handing over the real source and asking for the check to be done against it
+- about: The user attaches the complete source conversation and asks the model to redo its account of how the axes framework changed by checking it against the earlier turns, without saying outright that the first account was wrong.

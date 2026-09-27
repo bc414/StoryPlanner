@@ -1,0 +1,12 @@
+- asks:
+  - brainstorm | generate alternative ways the Canterlot occupation by the sadistic Statthalters could be resolved, other than the existing paradrop-and-rifle-teleport solution | "What are the possible other ways to resolve ... other than the paradrop plus teleporting a rifle to every hostage"
+  - review | re-examine the planning document to ground the alternatives in established story material | "Please review my document again"
+  - analyse | assess how each alternative would affect the story's themes | "give analysis for potential alternatives and their impact on the themes of the story"
+  - analyse | assess how each alternative would affect the trajectory of the plot | "and plot trajectory"
+- supplies:
+- shaping:
+  - be creative and avoid conventional/expected solutions | "Think outside the box"
+  - must address both thematic impact and plot-trajectory impact for each alternative offered | "impact on the themes of the story and plot trajectory"
+  - must be based on a fresh re-read of the existing planning document rather than assumptions | "review my document again"
+- openness: Open: the message asks for a range of alternative resolutions and their implications, naming only the existing solution to be excluded, without favoring any particular alternative.
+- subject: Brainstorming alternative plot resolutions for a Canterlot occupation scenario involving sadistic Statthalters, and their thematic/plot implications.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the source-management topic and asks a new, separate question about whether NotebookLM's "longer" response-length setting adds real analysis or just padding.

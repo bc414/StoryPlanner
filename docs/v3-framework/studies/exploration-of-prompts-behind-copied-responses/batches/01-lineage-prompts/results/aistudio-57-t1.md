@@ -1,0 +1,9 @@
+- asks:
+  - check | scan the story plans and flag any spots still relying on the old idea that Twilight herself invented the spell-matrix concept | "point out any leftover areas of my story plans that still reference the old paradigm of Twilight inventing the concept herself"
+  - check | scan the story plans and flag any spots still relying on the old idea that the Temberik Mountains were the sole crystal source | "or the Temberik Mountains being the sole source of the crystals, which are now outdated concepts"
+- supplies:
+  - document, attached story-plan file | the story plans to be checked for outdated references | placeholder, contents not captured
+  - explanation, inline recap of the revised plot logic | how the invention was reassigned to the Aquileians, Twilight's use of it via smuggled textbooks for water filtration and teleportation, and the shift from crystal-only power to red love/love donators as a stable source | a paragraph
+- shaping:
+- openness: the message asks the model to check the attached plans against two specific outdated ideas it names (Twilight as inventor, Temberik as sole crystal source) and report any leftover instances, rather than leaving the answer open or offering options
+- subject: reconciling story plans with a retcon about who invented the spell-matrix rifle technology and how crystal power sources evolved over the war

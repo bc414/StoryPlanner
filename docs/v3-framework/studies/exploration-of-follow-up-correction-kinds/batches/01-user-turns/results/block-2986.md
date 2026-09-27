@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's revised reasoning about names and the narcissism-as-system-flaw framing as the working base and asks it to redo the analysis of Chrysalis's whole arc on that footing.

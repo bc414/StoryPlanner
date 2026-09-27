@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model placed the Cloudbury scene before the White Peace confrontation, as what unlocks Applejack's resolve for it and as something she carries back to Equestria; in the plan it comes after Stagnation and the White Peace | This Cloudbury arc happens after Stagnation and the White Peace | flat statement of the sequence, given as background to the question and with no mention of the model's error
+  - fact of the world | The model treated the trip as a visit or tour for auditing the Republic; the user says they left Equestria to help the Republican Pact against the Reich by wiping out Chrysalis's volunteers, a proxy war on foreign soil | They left Equestria to help the Republican Pact against the Reich | flat, matter-of-fact context added in passing, with the correction implied by the new framing
+- about: The user asks whether Trimmel and Henri should join the Cloudbury scene, and in doing so supplies the timeline and wartime premise that the model's analysis had got the wrong way round.

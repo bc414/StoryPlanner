@@ -1,0 +1,7 @@
+- relations:
+  - 1237|1238|The event note is about the same group the other note identifies as the organization's demographic: petty bourgeoisie in Aquileia, buying clothes and showing off a brand, is an occasion of this class acting before the party exists|petty bourgeoisie in Aquileia / this demographic is the petite bourgeoisie|implicit
+- outward:
+  - 1238|The Colbert Reforms, a set of reforms held elsewhere, which the demographic benefited from|the petite bourgeoisie who benefited from the Colbert Reforms
+  - 1238|The establishment of parliament, a later event held elsewhere, after which the name becomes a political party|once the parliament is established
+  - 1237|The condition of being naked serfs, a prior state of the people of Aquileia, not described here|no longer naked serfs
+- whole: The two notes hang together only loosely: they share the petite bourgeoisie of Aquileia as their subject, but one gives a single event and the other gives the name and origin, and neither depends on the other.

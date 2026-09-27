@@ -1,0 +1,11 @@
+- relations:
+  - 2413|2414|instance of a general claim: the mercenaries dropping Kessler when the numbers favour another side is a case of loyalty lasting only until a better offer|"do the math. They instantly turn their guns" and "loyalty only lasts until a better offer arrives"|implicit
+  - 2416|2413|cause and consequence: the mercenaries turning on Kessler is what lets the Patriotten enter the penthouses without firing a shot, and the healthcare incentive is what answers their withdrawal|"without firing a shot" and "agonizing withdrawal symptoms"|implicit
+  - 2416|2414|instance of a general rule: Equestria's healthcare and empathy is the better offer that beats the purchased loyalty|"superior market incentive" and "until a better offer arrives"|implicit
+  - 2415|2416|general proposition and the case that evidences it: the Patriotten's non-violent entry through offered healthcare and empathy shows dignity breaking the cycle of extortion|"break the cycle of extortion" and "walks into the corporate penthouses without firing a shot"|implicit
+  - 2415|2413|the cycle of extortion and punching down named generally is what the withdrawal symptoms and the gold hold over the mercenaries, and the turn of the guns is where it breaks|"cycle of extortion and punching down" and "gold, look at their own agonizing withdrawal symptoms"|implicit
+- outward:
+  - 2413|Kessler and the Trade Council, and the cause of the mercenaries' withdrawal, are established in other scenes or subjects|"Kessler’s gold" and "the Trade Council"
+  - 2416|The Patriotten and Equestria's healthcare and empathy programme are held elsewhere|"the Patriotten" and "Equestria weaponized Healthcare and Empathy"
+  - 2414|The An-Cap society as a setting is lore held outside this item|"In an An-Cap society"
+- whole: Mostly a set that hangs together: the mercenary turn on the page, the Patriotten entry and the two thematic claims all bear on one another, though only by content and never by pointing at each other.

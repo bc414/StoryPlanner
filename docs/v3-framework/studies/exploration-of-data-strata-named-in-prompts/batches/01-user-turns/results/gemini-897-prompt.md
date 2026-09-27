@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reacts to the proposed Chapter 6 backstory move, finds the implied four-year silence between Twilight and Applejack too dark and cynical, and asks whether a middle ground exists.

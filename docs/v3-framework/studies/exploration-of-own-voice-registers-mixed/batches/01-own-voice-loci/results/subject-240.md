@@ -1,0 +1,41 @@
+- passages:
+  - 28 | scope-definition fragment | no header, no full verb clause, noun phrase bounding a span | the industrial revolution's start through the 978 republican revolution | apart
+  - 4978 | heading/label | title tag "Demographic - Peasantry and Serfs", no verb | naming the peasantry/serf demographic | apart
+  - 4978 | present-tense systemic exposition | present tense, general plural subject, short declarative cause-effect sentences | knights' obsolescence, peasant displacement, lack of rights | apart
+  - 5014 | heading/label | title tag "Timeline - Grover IV Gilded Age" | naming the timeline entry | apart
+  - 5014 | past-tense dynastic/historical narrative | past tense, named rulers as subject, causal "due to", "so", motive verbs "wanted", "allowed" | Grover III's and Grover IV's upbringing and policy choices | apart
+  - 5014 | present-tense systemic exposition | shift to present tense "withdraw", "become", "shifts", collective subjects | legions withdrawing, serfs turning bandit, power shifting to merchants | run-in
+  - 5015 | heading/label | title tag "Demographic - Rugged Individualist Capitalists" | naming the capitalist demographic | apart
+  - 5015 | present-tense systemic exposition | present tense, generalizing declarative sentences | griffon magic versus mass production, shift from artisan pride to capital accumulation | apart
+  - 5015 | past-tense historical narrative | past tense "pitched", collective subject "the industrialists" | industrialists' pitch of industry as opportunity | apart
+  - 5015 | present-tense systemic exposition | present-tense contrast "take", "wall off", "can work", continues with no break | craftsmen's guild economy contrasted with open factory labor | run-in
+  - 5015 | real-world analogy aside | parenthesis naming "the real world" and the story's own acronym "EaW" | equating pre-industrial Griffonia with real guild economies | run-in
+  - 5015 | evaluative verdict | past tense "This was the lie", judgment words "lie", "tyranny" | condemning the opportunity narrative as false | run-in
+  - 5017 | heading/label | title tag "Dialectics - Unregulated Capitalism" | naming the dialectic | apart
+  - 5017 | past-tense historical narrative | past tense "rejected", "allowed", single narrated sentence | Grover IV permitting unchecked ambition for national wealth | apart
+  - 5018 | heading/label | title tag "Dialectics - Chivalry vs Exploitation" | naming the dialectic | apart
+  - 5018 | past-tense historical narrative | past tense "directed", "removed", "began", sequential actions | knights-to-artisans policy followed by industrialization | apart
+  - 5138 | past-tense historical narrative | past tense "colonized", "used", "brought in", collective subject "the griffons" | colonization of the zebrides for guano and enslavement of locals | apart
+  - 5138 | real-world analogy aside | direct naming of real places "Peru and Chile" attached mid-sentence | likening the colonization to real guano-extraction history | run-in
+  - 5138 | present-tense systemic exposition | shift to present tense "sell", ongoing-practice framing | ongoing gunpowder sales to Zebrican warlords | run-in
+  - 5138 | past-tense historical narrative | past tense "started", "took", "was proven", "not needed" | adoption of proven industrial theories once easy resources ran out | apart
+  - 5138 | present-tense systemic exposition | shift to present-tense "industrialize", continuing present-tense evaluative statements "is easier", "soulless" | scaling industrial processes and replacing artisan magic with industrial volume | run-in
+- shifts:
+  - 4978 | heading/label | present-tense systemic exposition | change from noun-phrase tag to full declarative present-tense sentences
+  - 5014 | heading/label | past-tense dynastic/historical narrative | change from tag to narrated sentence with past-tense verbs
+  - 5014 | past-tense dynastic/historical narrative | present-tense systemic exposition | tense shift from past ("allowed", "reversed") to present ("withdraw", "become", "shifts")
+  - 5015 | heading/label | present-tense systemic exposition | change from tag to declarative present-tense sentences
+  - 5015 | present-tense systemic exposition | past-tense historical narrative | new paragraph, tense shift to past "pitched", collective-actor subject
+  - 5015 | past-tense historical narrative | present-tense systemic exposition | tense shift back to present "take", "wall off", "can work"
+  - 5015 | present-tense systemic exposition | real-world analogy aside | parenthesis opens naming "the real world" and "EaW"
+  - 5015 | real-world analogy aside | present-tense systemic exposition | parenthesis closes, sentence returns to generalizing contrast
+  - 5015 | present-tense systemic exposition | evaluative verdict | past tense "This was the lie", judgment vocabulary appears
+  - 5017 | heading/label | past-tense historical narrative | change from tag to narrated sentence
+  - 5018 | heading/label | past-tense historical narrative | change from tag to narrated sentence
+  - 5138 | past-tense historical narrative | real-world analogy aside | clause "just like Peru and Chile" attached naming real places
+  - 5138 | real-world analogy aside | past-tense historical narrative | narrative resumes "They used guns to enslave locals..."
+  - 5138 | past-tense historical narrative | present-tense systemic exposition | tense shift to present "sell", ongoing-practice statement
+  - 5138 | present-tense systemic exposition | past-tense historical narrative | new paragraph resumes past tense "started running out", "took the theory"
+  - 5138 | past-tense historical narrative | present-tense systemic exposition | tense shift mid-sentence to present "industrialize", continues through evaluative present-tense statements
+- registers: heading/label; past-tense historical narrative; present-tense systemic exposition; real-world analogy aside; evaluative verdict; scope-definition fragment
+- whole: This place's notes hold several registers, with label headings standing apart from the body text they name, while within the bodies past-tense historical narration and present-tense systemic exposition alternate, and real-world analogies or closing judgments run straight into the surrounding sentences without any break.

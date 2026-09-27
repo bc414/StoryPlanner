@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's two-mode idea and builds on it, proposing four planner modes (expansion, application, audit, scene designer) that each set display text and read/write rules for tracks, and asks for analysis, possible merges, missing modes and naming alternatives.

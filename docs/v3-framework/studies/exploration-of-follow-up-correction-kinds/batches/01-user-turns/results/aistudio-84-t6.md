@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question that tests the model's choice of Integrity as the sixth Element against real-world examples (Singapore, Poland, the Nordics), without saying anything in the model's turn was wrong.

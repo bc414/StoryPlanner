@@ -1,0 +1,33 @@
+- relations:
+  - 1712|1713|1713 gives the belief behind 1712's deflation: the specific thing she thinks that leaves her gray|she thinks her special talent is useless, a lie / all ultimately false hope|implicit
+  - 1713|1714|1714 overturns the belief stated in 1713, replacing false hope with real hope|Before, she thought all her cheerful parties ... false hope. Now she can see|implicit
+  - 1714|1711|1714 gives the occasion of the change that 1711 states as the plan: the spearhead and the soldiers' hope lead to her morale role|ahead of the spearhead / Around the time of the spearhead|implicit
+  - 1711|1720|1720 takes up the Resilience that 1711 names and ties it to her original canon trait of understanding insecurities|When she learns Resilience|explicit
+  - 1711|1979|1979 restates 1711's arc: she regains vigor through purpose and learns to be resilient|She learns to be resilient / This is Resilience|implicit
+  - 1979|1712|1979 supplies the low starting point (catatonic in bed) that 1712's gray, deflated state matches and that her regained vigor moves away from|catatonic husk in bed / gray and deflated|implicit
+  - 1720|1734|1734 gives the war-time cost of the canon trait 1720 describes: knowing every pony's favorites and insecurities becomes a liability|know every pony, their favorite cake, and their insecurities / knew every pony's name, birthday, favorite flavor|implicit
+  - 1734|1721|1721 is an instance of 1734's hyper-empathy as a liability: she knew one pony intimately, spotted the impostor, and was scarred|Pinkie knew everything about them / hyper-empathy becomes a psychological liability|implicit
+  - 1721|1731|1731 follows from the trauma in 1721: after shooting the infiltrator she retreats to impersonal indirect fire|shot the infiltrator, that traumatized her / indirect fire makes it impersonal|implicit
+  - 1734|1731|Both concern artillery. In 1734 it kills ponies she knows, and in 1731 it is a refuge because it is impersonal. The second is a response to the first.|artillery strikes, it does not care / artillery is the only language|implicit
+  - 1712|1733|1733 is a concrete case of 1712's claim that what she knew about laughter did not work|All she thought she knew about laughter didn't work / attempts to project Pink Love fail completely|implicit
+  - 1733|1729|1729 states the lesson that 1733's failed attempts illustrate: trying to make them laugh does not fit the pony's state, and here a drained pony cannot register it|Changeling-induced psychological drain / fail completely|implicit
+  - 1729|1726|1729 builds on 1726: her magic follows her ambition, which 1726 named as Red Love (Ambition), and 1729 changes what that ambition aims at|Pinkie's magic is governed by her intent / manifestation of Red Love (Ambition)|implicit
+  - 1726|1727|Both account for her reality-bending. 1726 gives the event when her mind snapped, and 1727 gives the mechanism: physics is treated as optional for the sake of a smile.|refused to consent to them / laws of thermodynamics are optional|implicit
+  - 1727|1728|1728 limits when the cartoon physics described in 1727 may appear on the page|cartoon physics / She can only use cartoon physics for fun|implicit
+  - 1729|1728|1728 delivers 1729's context-dependent principle on the page: gags only when the audience is well, real morale help when they need therapy|context dictates the ambition / When ponies need resilience or therapy instead of laughter|implicit
+  - 1730|1729|1729 spells out how the return to emotional intelligence in 1730 happens: from blunt, toxic-positive laughter to fitting what the pony needs|toxic positivity / fostering exactly what the pony needs|implicit
+  - 1730|1720|Both say her toxic positivity was a distortion of an original, emotionally intelligent Pinkie. 1720 backs this with canon episodes.|Hasbro Mandate ... toxic positivity / season 1 personality with emotional intelligence is the true self|implicit
+  - 1725|2032|Both rest on the rock farm: 1725 has it supplying the explosives, and 2032 tells the truth about it|rock farm's minerals / the actual truth behind the rock farm|implicit
+- outward:
+  - 1726|the Sonic Rainboom event and the Red Love colour scheme, held elsewhere|Sonic Rainboom / Red Love (Ambition)
+  - 1734|Trimmel and the changeling artillery, held elsewhere in the war setting|When Trimmel's artillery strikes
+  - 1721|the statthalters and the changeling infiltrator's scheme|statthalters to collect and enslave later
+  - 1731|the place Diyarbecolt and its artillery batteries|artillery batteries in Diyarbecolt
+  - 1711|Tally Mark, another character who taught her, and the spearhead operation|She learned it from Tally Mark
+  - 1714|the coming spearhead offensive and the soldiers in it|ahead of the spearhead
+  - 1733|the changeling infantry and the Jaeger-Geist drug or conditioning|saturated in Jaeger-Geist
+  - 1720|canon episodes and Lauren Faust and Hasbro, outside the item|A Friend in Deed / Griffon the Brush Off / Swarm of the Century
+  - 1979|the P&K version of Pinkie, another story|P&K Pinkie is a catatonic husk
+  - 2032|her cutie mark story, her parents, and the Skyfall merchants|Skyfall merchants
+  - 1725|her party cannon, held elsewhere|Her party cannon
+- whole: The notes mostly hang together as one arc running from a deflated start, through the trauma and failed laughter of the trenches, to a morale-based resilience. The backstory, characterization, development and canon notes support each other, though the rock-farm notes (1725, 2032) and the cannon note sit apart from it.

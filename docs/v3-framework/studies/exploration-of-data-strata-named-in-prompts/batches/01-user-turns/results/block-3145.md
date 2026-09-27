@@ -1,0 +1,8 @@
+- sources:
+  - Maiden's Day (the story from the pre-Hasbro mandate, Faust-ontology clop fic tradition) | do not incorporate; set aside as incompatible with the author's ontology and magic level | Actually I don't need to incorporate Maiden's Day | referred-to
+  - TLTT's ontology (accepts the Hasbro mandate that flattened storytelling as in-universe history) | the governing standard; material that conflicts with it is ruled out | incompatible with TLTT's ontology which accepts the Hasbro mandate | referred-to
+  - my materialist historicist derivation of the Equestrian economy from Hearth's Warming Eve and survival harmony | a constraint on what can be used; mythic-level effects like blooming flowers and lightning conflict with it and are excluded | incompatible with my materialist historicist derivation | referred-to
+- order:
+  - TLTT's ontology over Maiden's Day | Maiden's Day is dropped because it is incompatible with TLTT's ontology
+  - materialist historicist derivation of the Equestrian economy over Maiden's Day | the mythic-level flower blooming and lightning are ruled out as incompatible with the derivation
+- about: The user withdraws the model's suggested use of the Maiden's Day fanfic, explaining that its storytelling tradition and mythic magic conflict with TLTT's ontology and the author's materialist derivation of the Equestrian economy.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - code design (backup format vs. restore path) | The backup serializes full Note objects, which the paste command could not read back, so the backup can't serve as something to paste from | Paste isn't going to work if the full notes are serialized | flat, terse statement of a problem, no apology and no fix proposed
+- about: The user briefly objects that the backup's full-object serialization is incompatible with the paste workflow, so the backup could not be restored by pasting.

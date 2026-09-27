@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author adds a new story element, Applejack's bulky Equestrian magic-crystal radio, describes how it fits into the plot and the world's radio technologies, and asks whether it works, how to improve it, and how to justify her keeping it, without pointing the model at any body of material.

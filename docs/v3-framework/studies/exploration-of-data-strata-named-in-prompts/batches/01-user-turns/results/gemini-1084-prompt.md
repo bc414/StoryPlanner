@@ -1,0 +1,5 @@
+- sources:
+  - Tammany Hall as inspiration | do not use it as the model for Manehattan's politics; drop it, so the mayor is not a machine boss and there is no mayoral manipulation | drop Tammany Hall as inspiration | referred-to
+  - Aquileian inspired solidarity union (the inspiration for EEEE!) | keep as the basis for EEEE!, which is set against the Skyfall capitalists | EEEE! (Aquileian inspired solidarity union) | referred-to
+- order:
+- about: The user proposes reworking the Manehattan plot so that the mayor is a decent, paralyzed old stallion with no ties to Skyfall, and the conflict is EEEE! against Skyfall tycoons who prop up stagnation, making Rarity's chapter about liberty versus stagnation.

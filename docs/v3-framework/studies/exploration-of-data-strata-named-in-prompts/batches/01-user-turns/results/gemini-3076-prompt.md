@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain the real-world American economic, sociological and political causes of helicopter parenting, toxic positivity and HR bureaucracy (the things the Stagnation of Harmony parodies), offering guesses such as the War on Drugs, white flight and elite class warfare against communism and asking what else contributed.

@@ -1,0 +1,4 @@
+- sources:
+  - my story (how red love, the canisters, Twilight's innovation and Fleur Bloom's lesson work in it) | treat as true and as a correction of the model's assumption that red love is a combat drug; use these facts as the settled premise going forward | "A clarification, the red love canisters are a mainstay" and "In my story, Twilight repurposed the combat drug" | first-named
+- order:
+- about: The author corrects the model's assumption about red love by stating from memory how it, the canisters, Twilight's innovations and Fleur Bloom's lesson work in the story.

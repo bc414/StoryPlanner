@@ -1,0 +1,13 @@
+- asks:
+  - compare | judge which causal formulation is better: the original claim that pride/greed biology causes magic to only work on the self, or the user's reversed version where magic working only on the self causes a psychological default of pride/greed | "Is this better, or the original better?"
+  - explain | clarify the nuances of this causality question and lay out the proper reasoning for it, including how the materialist framing (biology should dictate psychology) interacts with the noted complication that magic is defined as ambition affecting the physical world | "Please clarify the nuances and present the proper reasoning"
+- supplies:
+  - quoted statement pair | one original sentence about biology-rooted pride/greed causing self-only magic, and the user's reversed causal version of the same idea | two sentences
+  - worldbuilding note | Celestia's actual belief that all creatures default to feudalism from ambition rather than ponies having innate harmony, tied to the ancient ponies' survival-driven harmony, Luna's banishment, the three tribes shunning the thestrals, and the irony that ponies become the monsters once real monsters are gone | a paragraph
+  - worldbuilding note | clarification that griffon pride magic can be fueled by pride in craft rather than monster hunting, exemplified by Grover III's artisan workshops, contingent on learning physics/chemistry/engineering to build machines | a few sentences
+  - worldbuilding note | the origin of Coltbert's ideology reshaping griffon 'brutishness,' arising from social shaming followed by intellectual negotiation and education with noble griffonesses | one sentence
+- shaping:
+  - reasoning should explicitly address the materialist-framework expectation that objective biological/magical rules should determine psychology | "in a materialist framework, the biological rules... should dictate the psychology"
+  - reasoning should account for the complicating alternate reading that magic-as-ambition could support the original causal direction too | "it could work the first way too?"
+- openness: Names two specific causal formulations (original vs. reversed) and asks which is better while flagging a complication, making it a request to choose between named options with reasoning, not a fully open question.
+- subject: Causal logic linking magic mechanics to species psychology (pride/greed), plus related worldbuilding on Celestia's beliefs about innate harmony, thestral history, and griffon pride-magic/culture.

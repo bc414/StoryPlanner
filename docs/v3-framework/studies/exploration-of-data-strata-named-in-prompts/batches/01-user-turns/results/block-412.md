@@ -1,0 +1,10 @@
+- sources:
+  - the question enhancement that you suggested | rejected as built on a wrong premise about who invented Ahuizotl and the jungle; it does not make sense and should not be used as written | doesn't quite make sense | referred-to
+  - Hasbro's sanitized Daring Don't logic where the books are real in-universe | do not use; the author explicitly declines this reading | I'm not using Hasbro's sanitized Daring Don't logic | referred-to
+  - the fandom's Season 2-era Read it and Weep logic | use as the governing reading: Velvet wrote the books, they are purely books | I'm using the fandom's Season 2-era Read it and Weep logic | referred-to
+  - TLTT's interpretation | treat as the story's own stance, which parodies the Hasbro Mandate and EaW's Daring Do tropes rather than following them | TLTT's interpretation is a parody | referred-to
+  - the Hasbro Mandate | treat as a target of parody, not something to follow | a parody of the Hasbro Mandate | referred-to
+  - EaW's heroic tropes regarding Daring Do in game | treat as a target of parody, not something to follow | EaW's heroic tropes regarding Daring Do in game | referred-to
+- order:
+  - the fandom's Season 2-era Read it and Weep logic | Hasbro's sanitized Daring Don't logic | I'm not using Hasbro's sanitized Daring Don't logic where the books are real in-universe. I'm using the fandom's Season 2-era Read it and Weep logic
+- about: The user corrects the model's earlier scene suggestion by stating that Velvet invented Ahuizotl and the jungle in pure fiction and that the changeling and thestrals copied the books, and by naming which canon interpretation to use and which to reject.

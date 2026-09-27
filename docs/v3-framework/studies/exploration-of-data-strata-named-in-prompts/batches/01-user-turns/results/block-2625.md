@@ -1,0 +1,7 @@
+- sources:
+  - Simplified Herzlander as a corruption of Standard Herzlander, Grover 3's invention (the story plan) | Treat as the settled in-story premise; it is the third side to be mapped against German and Chinese language history | Simplified Herzlander was taken as a corruption of Standard Herzlander which was Grover 3's invention | referred-to
+  - The user's own account of German and Chinese language history (standard German overriding Bavarian and Prussian; native dialects, then Qin unified writing, then simplified characters in 1960) | Provisional; the model is asked to check whether it holds up, then lay it out beside the story plan | So does this hold up to Chinese history? | first-named
+  - The user's memory of a Taiwan museum display (Taiwan wanting to be an American subject rather than KMT) | Recalled from memory and unverified; the model is asked how accurate it is | I remember reading about how Taiwan actually wanted to be an American subject | first-named
+  - The user's prior belief that Mandarin and Cantonese share grammar and writing | Provisional belief; the model is asked to confirm or correct it, and to extend it to Min, Teochew, Hokkien and the northern varieties | I thought Mandarin and Cantonese have the same grammar and writing system | first-named
+- order:
+- about: The user asks the model to fact-check their beliefs about Chinese dialects and their memory of a Taiwan museum display, then to map German, Chinese and their story's Herzlander language history side by side.

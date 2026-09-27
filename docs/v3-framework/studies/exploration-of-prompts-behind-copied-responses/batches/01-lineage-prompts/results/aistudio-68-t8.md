@@ -1,0 +1,8 @@
+- asks:
+  - evaluate | asks whether the newly proposed revision to Celestia's backstory is coherent and workable | "Does this work?"
+  - compare | asks how the new frontier-era concept compares to the previous version where Equestria was stagnant for the full 1000 years | "How does it compare to the old 1000 year-long Stagnation?"
+- supplies:
+  - proposal | a detailed revised timeline of Equestrian history for the story TLTT: 900 years of post-banishment frontier expansion (warlords sharing, thestrals traveling, Acornage, Dodge Junction) modeled on Frederick Jackson Turner's Frontier Thesis, followed by industrial corruption under Grover IV starting 914 ALB, Celestia's subsequent closing of the borders and 'Stagnation of Harmony,' New Mareland as a hypercapitalist outlet colony, and explanations for Ponyville's and Appleloosa's founding | several paragraphs
+- shaping:
+- openness: Leans toward the proposal it lays out, asking the model to affirm or critique whether it 'works' and to compare it against the specific prior version it names (the old 1000-year-long Stagnation).
+- subject: Revising Princess Celestia's 1000-year backstory in the story TLTT, replacing a single long stagnation with a 900-year frontier-expansion era followed by industrial-driven closure of Equestria.

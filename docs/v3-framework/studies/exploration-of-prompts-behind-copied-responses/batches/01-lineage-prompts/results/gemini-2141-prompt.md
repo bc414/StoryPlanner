@@ -1,0 +1,10 @@
+- asks:
+  - check | confirms whether DAG nodes would be stored as a flat list with reference IDs rather than hierarchically | "will not be stored hierarchically but rather as a flat list with reference IDs?"
+  - check | confirms whether C# code would then be written to reconstruct the graph from those flat references | "Then I can have c# code that builds the graph references?"
+  - check | asks whether JSON would be acceptable instead of XML given both approaches need the same flat-list-plus-reconstruction handling | "if it's stored as a flat list with reconstruction logic anyway, is json okay?"
+  - choice | asks whether custom reconstruction logic is the right approach or whether a better paradigm exists for representing the graph | "Is the custom reconstruction logic the way to go or is there a better paradigm?"
+- supplies:
+  - context/requirements | states the software is fab equipment control software (not microservices) and that files are loaded once at startup so performance doesn't matter | a couple of sentences
+- shaping:
+- openness: The message leans toward an answer it names (XML for type support) but reopens that by asking whether JSON would also be fine, and separately asks outright for a choice between custom reconstruction logic and an unnamed better paradigm.
+- subject: choosing a serialization format and representation strategy for storing directed acyclic graph data in config files loaded by C# fab equipment control software

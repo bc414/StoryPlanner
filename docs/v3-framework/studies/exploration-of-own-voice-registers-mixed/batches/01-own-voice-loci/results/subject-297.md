@@ -1,0 +1,25 @@
+- passages:
+  - note 5227 | expository summary | third-person declarative statements linked by causal "so" | Gerad Discret's chaste crew culture and small fleet | apart
+  - note 5228 | dateline heading | bare year label with no verb | timeline heading for 980 ALB | apart
+  - note 5228 | expository summary | full declarative sentences narrating events | Verany's revolution seizing and Skyfall destroying the fleet | apart
+  - note 5229 | expository summary | causal "because" clause narrating motive | Coltbert rehiring crews and Dennis Discret's double-cross | apart
+  - note 5253 | practice list | short unpunctuated lines naming objects/routines | task book, accountability, fling scheduling, ovulation calendars | apart
+  - note 5253 | evaluative summary | abstract "It's..." characterizing claim | culture's trust, transparency, and anticipation of the safe window | apart
+  - note 5254 | informal descriptive | casual comparison "essentially floating FJA clubs" | 2nd gen crews likened to FJA clubs | apart
+  - note 5254 | label definition | colon-led name entry with parenthetical translation | naming the ship class | apart
+  - note 5254 | informal descriptive | plain subject-verb statement about equipment | ship's asset-specific outfitting | apart
+  - note 5255 | expository summary | parenthetical characterization inside a declarative sentence | demographics of 2nd gen royalists and chasseurs | apart
+  - note 5337 | practice list | short unpunctuated lines naming objects/routines | task book and fling scheduling | apart
+  - note 5340 | practice list | short unpunctuated lines naming calendars/verification | ovulation calendars and safety verification | apart
+  - note 5340 | evaluative summary | abstract "It's..." characterizing claim | culture's trust and anticipation of the safe window | apart
+  - note 5340 | essayistic exposition | flowing multi-sentence paragraph with quoted terms | baseline/same-gender/safe-window fling dynamics and communal bond | apart
+  - note 5498 | expository summary | conditional "Once...is proven" chain of clauses | fleet's phased use of trade protection and weapons | apart
+- shifts:
+  - note 5228 | dateline heading | expository summary | shift from bare year label to full narrative sentences
+  - note 5253 | practice list | evaluative summary | shift from concrete task/calendar lines to abstract "It's..." claims
+  - note 5254 | informal descriptive | label definition | shift to colon-led naming with foreign term and parenthetical translation
+  - note 5254 | label definition | informal descriptive | return to plain subject-verb sentence about equipment
+  - note 5340 | practice list | evaluative summary | shift from concrete calendar lines to abstract "It's..." claims
+  - note 5340 | evaluative summary | essayistic exposition | shift from short parallel lines to a flowing paragraph with quoted terms and elaborated causal explanation
+- registers: expository summary; dateline heading; practice list; evaluative summary; essayistic exposition; informal descriptive; label definition
+- whole: These notes hold several registers side by side — a plain third-person expository-summary voice for lore and history, a bare dateline heading, terse practice-list bullets for shipboard routines, abstract evaluative-summary claims about the crews' culture, an occasional flowing essayistic paragraph, and, in one note, informal descriptive lines bracketing a formal label entry — with each register standing apart on its own line, sentence, or paragraph rather than blending within a single sentence.

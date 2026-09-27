@@ -1,0 +1,4 @@
+- sources:
+  - my story plans for The Lioness of Tall Tale | the body of material to analyze and draw on, read across its development to trace how Chrysalis's characterization and motivations changed | throughout the development of my story plans | referred-to
+- order:
+- about: The user asks the model for a thorough analysis of how Chrysalis's characterization and motivations evolved across the development of their story plans for The Lioness of Tall Tale.

@@ -1,0 +1,9 @@
+- passages:
+  - note 59 | thesis/goal statement | short bare declarative, no named subject, states an aim | the overall goal of world peace | apart
+  - note 59 | narrative-summary exposition | named character as subject, present-tense summary of a recurring plot pattern | Applejack running into instances of The Predator's Dilemma blocking peace | apart
+  - note 59 | definitional/solution exposition | names and credits an invented concept, parenthetical gloss defining it as a synthesis, states its function | Harmonic Capitalism as Coltbert's concept and the means of breaking the cycle | apart
+- shifts:
+  - note 59 | thesis/goal statement | narrative-summary exposition | introduction of named character Applejack as subject, moving from stating an abstract goal to describing a recurring plot event
+  - note 59 | narrative-summary exposition | definitional/solution exposition | shift from a character-driven action clause to naming and crediting a new invented term with a parenthetical definition
+- registers: thesis/goal statement; narrative-summary exposition; definitional/solution exposition
+- whole: The note moves through three related but distinct sentence-level registers — a bare goal statement, a character-focused narrative summary, and a term-defining solution statement with attributive parenthetical — each standing apart as its own sentence rather than blending together.

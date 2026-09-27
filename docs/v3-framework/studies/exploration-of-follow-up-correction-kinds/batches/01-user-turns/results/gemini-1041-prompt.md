@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the Kessler valves as a component whose importance is the rifles, so the lock-in and royalty stakes rested on rifle output alone. The user says the valves are also needed in love donators and every spell matrix, including shields and civilian ones, and that the three-way valve is needed to separate pink from red love | The valves are not just for the rifles. They are also for love donators and every spell matrix. | Flat statement of the correction, then a run of explanatory detail (rifle components, the unified theory of magic, simple versus three-way valve) as the reason.
+- about: The user corrects the model's rifle-only picture of the valves by setting out how the three-way valve works in the Luna Nova Rifle and why love donators and other spell matrices need it too.

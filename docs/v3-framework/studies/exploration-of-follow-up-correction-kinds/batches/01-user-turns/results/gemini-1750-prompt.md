@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new, unrelated plotting question about whether the allies should demand Chrysalis's surrender or proceed with the love drop in the penultimate chapter, without addressing the preceding Rockfeller analysis.

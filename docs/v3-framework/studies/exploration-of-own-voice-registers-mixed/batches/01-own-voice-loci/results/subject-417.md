@@ -1,0 +1,16 @@
+- passages:
+  - note 44 | definitional exposition | flat third-person declarative statements defining a worldview and a political tenet | Celestia's view of Ambition and the Republic's Capitalism-for-Good tenet | apart
+  - note 4113 | definitional exposition | single declarative analogy ('just like oil and coal') stating an equivalence | Ambition as the fuel/energy source for magic-tech | apart
+  - note 4129 | definitional exposition | explains a historical/cultural motive ('because it resembled...') | why Equestrians discouraged sexual ambition | apart
+  - note 4129 | antithetical advocacy | short paired contrast sentences ('doesn't...it...'), evaluative words like 'healthy', closing metaphor of loss | claim that sex sustains harmony and shouldn't be nurtured away | apart
+  - note 5332 | definitional exposition | plain declarative economic definition, parenthetical gloss, quoted term 'Bottom-Up' | Luna Nova as an autarkic, bottom-up economic tool | apart
+  - note 5332 | vivid rhetorical indictment | scare-quoted slogan and physical idiom 'a gun to their heads' | Skyfall's industrialization restricting magic to corporate artisans | apart
+  - note 5332 | definitional exposition | short plain declaratives resuming factual description | Luna Nova as mass-produced tool reversing the restriction | apart
+- shifts:
+  - note 44 | | |
+  - note 4113 | | |
+  - note 4129 | definitional exposition | antithetical advocacy | turn from stating Equestrian motive to a paired contrast sentence ('doesn't kill harmony, it sustains it') with evaluative vocabulary
+  - note 5332 | definitional exposition | vivid rhetorical indictment | paragraph break into a scare-quoted phrase and the idiom 'a gun to their heads'
+  - note 5332 | vivid rhetorical indictment | definitional exposition | plain declarative 'The Luna Nova reverses this' resuming factual description
+- registers: definitional exposition; antithetical advocacy; vivid rhetorical indictment
+- whole: These notes sit mostly in one flat definitional-exposition register for stating worldview and world-building facts, but two notes each break away, at a clear sentence or paragraph boundary rather than within a sentence, into a more evaluative or vividly rhetorical register before one of them returns to exposition.

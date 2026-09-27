@@ -1,0 +1,4 @@
+- sources:
+  - the lion and the eagle as symbols in griffon culture, which I established | treat as settled established lore; test the proposed 'lion of X' hero name against it | I established that the lion and the eagle are symbols in griffon culture | referred-to
+- order:
+- about: The author asks whether the suggested 'Lion of Vinelle' hero name still fits given the griffon-culture symbolism of lion and eagle they already established.

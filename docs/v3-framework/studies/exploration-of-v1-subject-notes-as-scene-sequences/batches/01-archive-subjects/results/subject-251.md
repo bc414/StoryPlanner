@@ -1,0 +1,23 @@
+- passages:
+  - 4755 | statement about the subject | changelings are pony-sized quadrupeds with hooves rather than claws | none | flat declarative of physical form
+  - 4755 | statement about the subject | changelings have no biological hive mind like insects do | none | emphatic negation, declarative rule
+  - 4349 | statement about the subject | comparative taste of kinds of love: pink is sweet, red has varied flavors, gray is bland | none | short declarative comparison
+  - 4350 | statement about the subject | pink love is the only kind that can be absorbed latently | none | declarative rule opening the note
+  - 4350 | statement about the subject | explanation of the internal versus external emotion distinction: pink love is outward-directed and can be caught passively nearby, red love is self-directed and must be forcibly drained | none | bulleted explanation of a rule, 'key' distinction
+  - 4351 | statement about the subject | red love is pure magic that gives a jaeger a high, is not destructively addictive but makes the user want more, and is not recommended to eat | none | declarative description of an effect
+  - 4351 | statement about the subject | donated pink love only gives momentary contentment, and real friendship does more | none | declarative comparison
+  - 4351 | authorial design intent | the love-eating should be written as an allegory for parasocial relationships and social media scrolling | none | 'It should be an allegory' - note of intended theme
+  - 4540 | statement about the subject | silk quality depends on mental state: friendship gives artisanal silk, terror gives black and dark green resinous silk used in pre-industrial hive architecture and cocoons; ancient hives were colorful, remembered in oral traditions, with an aside about not using the reformed changelings | none | declarative description with contrast of states; aside on canon
+  - 4540 | statement about the subject | a changeling saturated with donated pink love produces conductive, breathable, colorful fiber | none | declarative description of a biological effect
+  - 4540 | statement about the subject | silk works as an osmotic membrane, absorbing pink love when ambient pressure is high and releasing it when low, a homeostatic regulator preventing psychological shock | none | mechanism description in general terms
+  - 4540 | statement about the subject | grubs cannot control their emotion sense, so hive members pool friendship into silk blankets that slowly release energy and shield them from jaegers' red love spikes | none | general account of a hive practice, habitual present-tense, no moment or date
+  - 4573 | statement about the subject | changelings evolved holes because it saves calories | none | one-line declarative on evolutionary reason
+  - 4803 | statement about the subject | pink love works as a rehab methadone because donation gives no high while forced draining does, since quality depends on the attitude of the donor | none | declarative explanation with 'because'
+  - 5486 | statement about the subject | jaeger geist cuts off emotion sense, which prevents shapeshifting (needing emotional understanding to take a form) and makes desertion impossible | none | declarative rule with causal chain
+  - 5487 | statement about the subject | a Bauleiter can control drones just by radiating contempt or disappointment, which hurts their unshielded emotion senses, explaining their subservience; described as psychological Taylorism | none | general illustration of a mechanism in hypothetical terms, not a story moment
+  - 5488 | statement about the subject | a drone in skyfall unable to close its emotion sense would be in agony, so drones cannot be spies, merchants or diplomats and only jaegers access the world | none | declarative reasoning about caste limits
+  - 5488 | statement about the subject | jaegers see themselves as the only adults and drones as children to keep penned, and drones fear leaving because they are told the outside is brutal | none | general description of attitudes and social conditions
+  - 5562 | authorial design intent | keeping the black, holed, chitinous biology while changing silk color is framed as a materialist subversion of the Hasbro mandate that friendship mutates bodies pastel | none | commentary on the work's stance toward source material
+  - 5562 | statement about the subject | biology does not change overnight from learning empathy; a changeling stays an apex predator for the frozen north and what changes is labor | none | declarative principle
+- sequences:
+- whole: The notes are a set of worldbuilding statements and design commentary on changeling physiology, love-feeding, silk, jaeger and drone caste effects, with no scene beats, dates, or sequences.

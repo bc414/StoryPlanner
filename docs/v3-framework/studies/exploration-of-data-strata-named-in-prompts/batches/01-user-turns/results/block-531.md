@@ -1,0 +1,7 @@
+- sources:
+  - the chapter formal definition (the model's earlier account of chapters ending on forward pressure) | found interesting but not accepted as it stands; the author's own practice runs opposite to it | "I've actually historically come to the opposite conclusion" | referred-to
+  - the author's own historical practice as a writer, from memory | treat as the working mode the model should answer within: local resolution at chapter end, no big cliffhangers | "I try to get a somewhat satisfying local resolution by the end of a chapter" | first-named
+  - the author's experience reading serialized fanfiction | given as the reason for the author's approach and as a negative example of constant cliffhangers with slow updates | "serialized fanfiction that constantly ends on cliffhangers" | first-named
+  - the story's concept of ego capitalism | offered as an analogy for attention as currency, to be connected to the cliffhanger question | "the story's concept of ego capitalism in real life" | referred-to
+- order:
+- about: The author pushes back on the model's cliffhanger-leaning definition of a chapter by citing their own satisfying-resolution practice and fanfiction-reading experience, and asks what keeps readers returning and whether cliffhangers are essential or a product of industry and attention incentives.

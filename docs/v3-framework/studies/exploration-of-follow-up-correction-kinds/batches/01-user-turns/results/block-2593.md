@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's admission that its search was limited by asking it to run more web searches and produce a revised assessment, without saying anything in the earlier analysis was wrong.

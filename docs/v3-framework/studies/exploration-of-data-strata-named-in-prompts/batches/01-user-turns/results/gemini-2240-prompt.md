@@ -1,0 +1,6 @@
+- sources:
+  - a huge document of a story plan attached to Gemini chat | one of two ways of giving the model the plan being compared; no trust or priority set, the user is asking how it differs from the notebook route | attaching a huge document of a story plan for Gemini chat | first-named
+  - a notebook LM with that document as a source | the other way of supplying the same plan being compared; the user asks whether chat would draw on the notebook's precomputed vectors, with no priority set | attaching a notebook LM with that document as a source | first-named
+  - the notebook's precomputed knowledge vectors | a possible mechanism the user asks about, whether the chat would use it; not asserted as fact | use the precomputed knowledge vectors from the notebook | first-named
+- order:
+- about: The user asks a general question about how Gemini works, comparing attaching a large story-plan document directly to a chat with attaching a NotebookLM notebook containing it, and whether the chat would use the notebook's precomputed vectors.

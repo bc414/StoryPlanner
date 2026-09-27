@@ -1,0 +1,7 @@
+- sources:
+  - story planner MCP server's source materials, Great Lakes nations in Zebrica material | the model is to draw on it, scrutinizing what is there, how complete or in progress it is, and what enhances or contradicts the user's direction | In the story planner MCP server's source materials, is there material from the Great Lakes nations | referred-to
+  - what the EaW devs have put there | to be scrutinized for completeness and in-progress status, and for what works with or contradicts the TLTT direction | Scrutinize what the EaW devs have put there, how complete or in progress it is | referred-to
+  - what I've put together from analysis of the African highlands | the user's own material that the Great Lakes material should be synthesized with | could synthesize with what I've put together from analysis of the African highlands | referred-to
+  - my TLTT direction | the yardstick against which the source material is judged as enhancing or contradicting | what works/enhances or doesn't/contradicts with my TLTT direction | referred-to
+- order:
+- about: The user asks the model to look in the story planner MCP server's source materials for Great Lakes nations content in Zebrica, assess how complete it is, and judge how it fits or conflicts with their African-highlands analysis and TLTT direction.

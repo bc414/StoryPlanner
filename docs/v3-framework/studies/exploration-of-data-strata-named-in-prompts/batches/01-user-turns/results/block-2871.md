@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's count of five axes by listing six of their own, asks whether those axes are truly orthogonal or partly derived and what methodology (possibly mathematical) would test that, and raises the question of how worlds that cannot physically contact other systems affect the globalism axis.

@@ -1,0 +1,25 @@
+- steps:
+  - author | presents a fully-built backstory | political history of the changeling hives, rise of Chrysalis, and biographies of three enemy generals with their planned arcs and endings | in the long opening message
+  - author | maps the generals onto the protagonist | how each general's storyline intersects with Applejack (radio broadcast, sacking of her farm, captivity/friendship, final duel) | in the same opening message
+  - author | poses a validation question | asks whether having Applejack execute one general in cold blood can work, tied to a 'strength before mercy' theme | near the end of the opening message
+  - author | requests a synthesis | asks for analysis of the characters and backstory plus an updated read on Chrysalis | closing lines of the opening message
+  - model | analyzes the political worldbuilding | frames the hive rivalry, forced industrialization, and meritocracy as a coherent geopolitical system with real-world parallels | early in the reply
+  - model | breaks down each general | assigns each of the three an archetype and a distinct narrative function relative to Applejack | middle of the reply
+  - model | revises the antagonist figurehead | recasts Chrysalis as a tyrant whose empire is built on borrowed culture and destined to collapse | in the Chrysalis section of the reply
+  - model | ties the three endings to the stated theme | maps execution, defeat, and rehabilitation onto the 'strength before mercy' thesis | in the thematic-integration section
+  - model | flags a risk and proposes a fix | warns the cold-blooded killing could read as villainous and suggests staging plus sample dialogue to protect the protagonist's morality | in the 'potential pitfall' section
+  - model | delivers a closing verdict | summarizes the three generals as system-vs-system stand-ins proving the protagonist's republic superior | at the end of the reply
+- kept:
+  - note 660 | the author's own words in this record | keeps the author's contrast between the two surrender broadcasts, filed under the plot point for the battle where it occurs
+  - note 910 | the author's own words in this record | keeps a drafted exchange about the derogatory nickname between the general and Applejack, filed under the plot point where he shows her respect
+  - note 940 | the author's own words in this record | keeps the exchange about being rejected as a student and studying abroad instead, filed under the prison-camp conversation plot point
+  - note 946 | the author's own words in this record | keeps the general's ideological motivation tied to the Winter Uprising, filed under the same prison-camp conversation plot point
+  - note 2436 | the author's own words in this record | keeps the same surrender-broadcast contrast, filed as the link between the battle and the character who gives the merciful broadcast
+  - note 3853 | the author's own words in this record | keeps the explanation for why prisoners exist, filed as the link between the spy network and the enemy command
+  - note 4289 | the author's own words in this record | keeps Chrysalis's origin and rise to the throne, filed under the subject covering her true motivations
+  - note 4502 | the author's own words in this record | keeps the aristocrat general's self-image and tolerance for atrocity, filed under his character subject
+  - note 4503 | the author's own words in this record | keeps that general's fuller backstory of bloodless-conquest planning, demotion, and civil-war betrayal, filed under his character subject
+  - note 4504 | the author's own words in this record | keeps the author's own framing of the cold-blooded killing and the strength-before-mercy question, filed under that theme subject
+  - note 4505 | pasted whole from this reply | keeps the model's single formulated thesis sentence on strength and mercy, filed under the same theme subject
+- brought: The author brought an already extensively worked-out plan of political history, character biographies, and planned plot outcomes for three enemy generals into the conversation to be organized, analyzed, and checked.
+- loop: The author brings a dense, largely pre-formed plan plus one specific thematic doubt, and the model returns an organizing analysis, character breakdowns, and a targeted fix for that doubt; the planning database then files almost entirely the author's own prompt language back out across separate plot points, links, and subjects, absorbing only one distilled sentence from the model's reply into the theme it was meant to validate.

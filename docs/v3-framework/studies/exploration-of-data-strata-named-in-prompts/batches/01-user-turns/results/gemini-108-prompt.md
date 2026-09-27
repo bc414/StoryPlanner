@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's assumption about Celestia's motive, stating that she wants to free the two million ponies trapped in Canterlot and to kill Chrysalis rather than to take the throne, without pointing to any body of material.

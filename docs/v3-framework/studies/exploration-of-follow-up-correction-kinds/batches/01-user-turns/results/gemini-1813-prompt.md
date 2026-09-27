@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether Gerad Discret would found the coastal-city universities out of national interest, and supplies the setting's tech-era timeline and the makeup of his merchant and administrator classes as background, without disputing anything the model said.

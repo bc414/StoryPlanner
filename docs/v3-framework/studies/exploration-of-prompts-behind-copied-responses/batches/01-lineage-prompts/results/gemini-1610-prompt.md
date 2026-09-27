@@ -1,0 +1,6 @@
+- asks:
+- supplies:
+  - document | a full export of the user's fiction plan, evidently the whole planning document for a long work | very large document, ~154,000 words (attachment placeholder, content not captured)
+- shaping:
+- openness: The message contains no instruction or question at all, only the attached plan export, so it leaves entirely open what the model is meant to do with it.
+- subject: Handoff of a large plan-export document with no accompanying instruction

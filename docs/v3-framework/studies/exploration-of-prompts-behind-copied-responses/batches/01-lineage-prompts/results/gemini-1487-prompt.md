@@ -1,0 +1,12 @@
+- asks:
+  - develop | presents a theory about Skyfall being first to abandon the gold standard, with its paper currency backed by a stolen fleet acting as insurance/protection racket, and hands it to the model as sharpened history | "To sharpen the history, I believe Skyfall was the first to end the gold standard"
+  - develop | lays out Discret's arc of rejecting Skyfall's paper as fake until Coltbert has him issue his own royal notes to bypass nobility and bourgeoisie, for the model to build on | "Discret views the Skyfall paper as fake and insulting, until Coltbert has him roll out his ego based royal notes"
+  - develop | lays out Kemerskai's arc of rejecting the Skyfall Mark as culturally insulting until reading Coltbert's paper convinces them to reform it and ground it in law, for the model to build on | "decides to make it better by grounding it in law"
+- supplies:
+  - draft idea | Skyfall's origin as first to end the gold standard, minting Skyfall Marks in year 978 backed by a stolen imperial fleet used as shipping insurance/protection racket, likened to the Dutch Republic, created by bankers who staged a coup after the empire's collapse | one paragraph
+  - draft idea | Discret's shift from scorning Skyfall's paper currency to issuing his own royal notes under Coltbert's guidance to outmaneuver traitorous nobility and bourgeoisie | one paragraph
+  - draft idea | Kemerskai's shift from viewing the Skyfall Mark as an insulting protection-racket currency clashing with Herzlander gold-hoarding culture, to embracing and reforming it through law after reading Coltbert's paper on state capacity and future labor | one paragraph
+- shaping:
+  - leans toward adopting this specific causal chain (coup, fleet-backed currency, Coltbert's influence on both Discret and Kemerskai) as the sharpened, presumably canonical, history | "To sharpen the history, I believe"
+- openness: Leans toward an answer it names: the message states the user's own settled beliefs about how the currency's origin and each faction's arc unfolded, presenting them as the sharpened version of the history rather than asking the model to choose among options.
+- subject: Worldbuilding history of a fiat currency (Skyfall Marks) and how rival factions/rulers (Discret, Kemerskai) come to adopt and reform it

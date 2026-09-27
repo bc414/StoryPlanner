@@ -1,0 +1,7 @@
+- sources:
+  - magical lathe built by the bilingual artisan, reimagined as a machine that collects magical intent and projects it into the crystal | provisional suggestion to explore and build on, not settled | How about if the magical lathe | referred-to
+  - one interpretation of griffon magic on a chemistry and metallurgy level (armor and sword aligned with creator's ambition, enchanted only when the creator uses it) | premise to build on and extend to other technologies, offered as one interpretation | One interpretation of griffon magic | first-named
+  - the old empire's knights and their armor and swords | model paradigm the new industrial magic should resemble | in a paradigm similar to the old empire's knights | referred-to
+  - magical intent vector embeddings idea | existing idea the new industrial components should be integrated with | integrated with the magical intent vector embeddings idea | referred-to
+- order:
+- about: The user proposes recasting the magical lathe as an intent-collecting and projecting machine, restates their metallurgical interpretation of griffon magic, and asks which WW2-era industrial processes and materials could be magically enhanced in the same paradigm and tied to the intent-vector idea.

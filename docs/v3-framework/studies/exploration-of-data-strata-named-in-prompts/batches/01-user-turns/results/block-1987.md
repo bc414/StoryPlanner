@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether any further strategies exist, beyond those already covered, for finding hidden subjects, without pointing at any particular body of material.

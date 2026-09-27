@@ -1,0 +1,7 @@
+- asks:
+  - check | asks whether it's accurate that the Wonderbolts come across as powerful but unsustainable | "So the Wonderbolts look invincible but are unsustainable?"
+  - check | asks whether swapping gun-and-ammo logistics for spellfire matrices fueled by donated love/magic actually resolves that sustainability problem | "this resource problem would be solved by the love donators, replacing ... with spellfire matrices that use donated magic"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the user proposes that donated magic powering spellfire matrices, instead of chemically-produced gun ammo, fixes the Wonderbolts' resource/sustainability problem, and asks the model to confirm this.
+- subject: Worldbuilding fix for the Wonderbolts' logistics: replacing gun ammo with love-donated magic-powered spellfire weapons

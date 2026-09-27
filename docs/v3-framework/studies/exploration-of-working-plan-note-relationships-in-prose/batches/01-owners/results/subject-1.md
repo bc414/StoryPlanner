@@ -1,0 +1,81 @@
+- relations:
+  - 25|26|26 continues 25's Pétain comparison, saying how Applejack differs from him (defies capitulation, unlike the real man)|Applejack defies the "White Peace"... the moral spine that the real Pétain lacked|implicit
+  - 25|1972|Same Pétain parallel stated twice; 1972 adds the "Lion of Verdun" nickname and the subverted path|Vichy version of Pétain, a collaborator / Petain's real world path is subverted|implicit
+  - 1972|26|Both give the reversal of Pétain: Applejack triumphs as defender rather than turning traitor|Lioness who didn't turn traitor / triumphant defender of harmony and liberty|implicit
+  - 78|25|78 supplies what the P&K Applejack of 25 is: a collaborator after the war was hopeless|In P&K, she became a collaborator after the war was hopeless|explicit
+  - 78|1972|Both describe P&K Applejack as collaborator, but with differing accounts: running a slave-labor farm to protect family versus posing as one to do less harm while drinking|collaborator ... pony slave labor / poses as a collaborator to do less harm|implicit
+  - 78|1875|78 calls the collaborator future the nightmare of chapters 1 and 2; 1875 gives the chapter 1 breakdown in which it is set|That is the nightmare Applejack has in chapters 1 and 2 / breakdown in Chapter 1|implicit
+  - 78|776|The fork point in 78 is Luna's order at Tall Tale and Applejack's refusal; 776 has her following Luna's order to stand still and then fleeing south toward Tall Tale, which sits awkwardly with it|Applejack refuses instead of agreeing / flees south toward Tall Tale|implicit
+  - 776|1875|1875 gives the reason behind the Imposter Syndrome that 776 says was born at the battle|Her Imposter Syndrome is born / The Imposter Syndrome triggers because|implicit
+  - 776|23|23 states the imposter syndrome that 776 shows being born in the rout|imposter syndrome ... once the reality of industrial war hits|implicit
+  - 1875|23|1875 explains why the unwarranted imposter syndrome in 23 arises: the asymmetry of the changelings' machine|asymmetric material reality / preparation was fundamentally asymmetrical|implicit
+  - 774|1875|Both reason about why the imposter syndrome bites; 774 says the fair defeat leaves her with no scapegoat, 1875 says the enemy was industrial|outplayed / not the Storm King's horde|implicit
+  - 774|776|774 presupposes the head-on conventional defeat that 776 narrates|defeated in a fair, head-to-head conventional engagement|implicit
+  - 774|23|774 says how the reader should see the imposter syndrome grow in Chapters 1-3, which 23 states as her condition|amplifies her Imposter Syndrome|implicit
+  - 4|776|776 is the event that shatters the belief in 4 that training and solidarity would hold the line|they would hold the line / Friendship Shields ... shatter|implicit
+  - 4|12|12 gives the training and solidarity that 4's belief rests on|trained hard and stuck together / fostered genuine solidarity|implicit
+  - 12|1875|1875 uses her machine-gun mastery as the image for her mismatch with the enemy|mastered the machine gun / brought a machine gun to a logistics war|implicit
+  - 14|13|13 continues 14 in time: Luna asks again three years later and Applejack now accepts|Luna approached Applejack again to be a general|implicit
+  - 29|14|Volunteering for basic training comes first; the general offer follows in the same year|volunteered for basic training / Luna asked Applejack to be a general|implicit
+  - 14|10|The reader's assumption of a celebrity-appointed fake general matches the reason Luna gave in 14|fake general ... because she's a celebrity / just because she was a celebrity|implicit
+  - 13|776|776 shows the disaster that follows her acceptance of the command in 13|Applejack accepted / Applejack's vanguard|implicit
+  - 10|11|11 revises 10: the reader learns she knows industry and the farm was a choice|The reader later learns that Applejack IS familiar with industry|implicit
+  - 10|23|10 has the reader think she is naive to industrial warfare, whereas 23 says the imposter syndrome is not warranted|totally naive to the reality of industrial warfare / isn't truly warranted|implicit
+  - 123|126|Childhood trips to Manehattan lead up to the parents' permanent move|frequent trips to Manehattan / relocate to Manehattan permanently|implicit
+  - 126|3|3 continues 126 from the same year: Applejack's reaction and her return to the farm|Manehattan ... canning company / She left her parents in Manehattan|implicit
+  - 3|1898|Both give the parents' industrial turn at SAA as the wound; 3 gives her view of it as a soulless quota system|SAA leaderboard / Standard Agricultural Amalgamated (SAA)|explicit
+  - 1898|2|1898 gives the psychological root of 2's stated hatred of industry|abandoning the "honest" agrarian life / hates industry because her parents left|implicit
+  - 3|2|3 gives the reasons she calls industry dishonest|toxic capitalist rat race / views industry as dishonest|implicit
+  - 127|123|127's hidden fact of years of Manehattan trips is the childhood pattern in 123|years taking trips to Manehattan / frequent trips to Manehattan|implicit
+  - 127|11|127 is the concealed fact 11 says the reader later learns|already spent years taking trips / IS familiar with industry|implicit
+  - 127|129|Both say her friends never pressed her about Manehattan|never pressed on it / never ask why|implicit
+  - 31|2|31 lays out the arc that begins with 2's starting position and reverses it|hating industry because her parents left|implicit
+  - 31|2372|2372 is the closure of the parents strand in 31: understanding why they left|understanding her parents left / realizes why her parents withheld the truth|implicit
+  - 2372|1898|2372 resolves the abandonment wound of 1898 through her parents' equipment|parents abandoning ... realizes why her parents withheld|implicit
+  - 20|2|20's first stage restates 2's stance, with industry as evil|losing her soul to "evil" industrial methods / views industry as dishonest|implicit
+  - 7|20|7 names the town hall where 20 places her turn toward honest industry|town hall / accepts that industry can be honest work|explicit
+  - 20|1875|The imposter phase in 20 comes from the breakdown in 1875|feels like an Imposter / Applejack's breakdown in Chapter 1|implicit
+  - 20|19|The spearhead in 20 fits her need in 19 to lead from the front|Bluebell River Spearhead / tip of the spear|implicit
+  - 20|17|17 states the leadership outcome that 20's middle phase shows|strategic leader / leads the Bluebell River Spearhead|implicit
+  - 22|2017|2017 gives the Kemerskai lesson that 22 names as the point where honesty is not enough|learning from Kemerskai / Kemerskai teaches Applejack realpolitik|explicit
+  - 2017|2016|2017 overturns the poseur hatred of 2016: posture can serve truth|Posture is not evil / hates poseurs|implicit
+  - 22|2016|22 has her learn a healthy amount of posture, moving past 2016's hatred of it|not be a poseur / poseurs who use performative perfection|implicit
+  - 22|20|20's post-town-hall and post-Trimmel stages hold the learning that 22 describes|honesty is not enough / "Hard Truth" of geopolitics|implicit
+  - 2017|7|2017 calls posture an accelerant like industry and magic, the frame in 7|an accelerant just like industry and magic / Accelerants|implicit
+  - 18|4|18's preference for brutal honesty answers the feeling of having lied in 4|brutally honest ... than lie / feels like a liar|implicit
+  - 18|22|18 shows honest bluntness and 22 shows honesty as not enough by itself|brutally honest / honesty is not enough|implicit
+  - 32|18|Both are about honesty and hard truth|The truth hurts / brutally honest|implicit
+  - 1868|30|1868 elaborates what 30 says she takes from Mount Aris|world is cruel / the world is cruel|implicit
+  - 30|13|13's regaining of the feeling that she can make a difference answers 30's belief that she cannot|can't do anything meaningful / could make a difference in the world again|implicit
+  - 24|30|24 adds the unnoticed effect of the same time at Mount Aris that 30 sees only as failure|worthless against all the other warlords / can't do anything meaningful|implicit
+  - 1868|24|Her felt smallness in 1868 causes the missed effect in 24|emasculated and small / worthless|implicit
+  - 8|16|The stepping down in 8 matches Washington stepping down instead of becoming king|steps down from the presidency / stepped down instead of becoming king|implicit
+  - 16|19|Washington riding into fire fits leading from the front|rode into the line of fire / tip of the spear|implicit
+  - 9|31|Both have her value stagnation and simple farming tradition as the last step|Stagnation of Harmony / peace in stagnation|implicit
+  - 5|14|5 calls her the Element of Conscience while 14 calls her the Element of Honesty|Element of Conscience / The Element of Honesty|implicit
+  - 440|31|440 says Griffonia lets her understand Celestia's view, which answers the resentment of Celestia in 31|understand Celestia's viewpoint / resenting Celestia|implicit
+  - 2|6|Both are under the Strong to be Merciful theme; 6 gives her learning of mercy|Strong to be Merciful / learns from Fluttershy to be merciful|implicit
+- outward:
+  - 25|Pétain and the Vichy regime, and the story The Princess and the Kaiser|Philippe Pétain / In The Princess and the Kaiser
+  - 78|Another story, The Princess and the Kaiser, and Luna's Tall Tale retreat order|TLTT is a "fork" of The Princess and the Kaiser
+  - 1972|Pétain, the Lion of Verdun, and Vichy France|nickname is "The Lion of Verdun"
+  - 26|Pétain and the White Peace and extradition demand|White Peace and the extradition demand
+  - 16|George Washington|George Washington
+  - 126|Big Mac and Granny Smith, and the parents' canning company|Big Mac stayed on the farm with Granny Smith
+  - 24|Fizzlepop and the other warlords|breaking Fizzlepop's worldview
+  - 30|Mount Aris episode|leaves Mount Aris
+  - 29|Blueblood's Dotted Line Report|After Blueblood's Dotted Line Report
+  - 14|Luna and the Elements|Luna asked Applejack to be a general
+  - 776|Trimmel's Panzers, Chrysalis's Heer, Friendship Shields, Pink Love, Tall Tale|Trimmel's Panzers and Stukas
+  - 1875|Storm King and Chrysalis's Heer|The Storm King was a disorganized, performative bully
+  - 4|Hippogriffs' stand|stuck together like the Hippogriffs did
+  - 20|Town hall, Bluebell River Spearhead and Trimmel|From the town hall to Trimmel
+  - 22|Kemerskai|learning from Kemerskai
+  - 6|Fluttershy|learns from Fluttershy
+  - 31|Celestia and Sickleclaw|talking to Sickleclaw
+  - 2372|Fraternity & Dilemma chapter or story|In Fraternity & Dilemma
+  - 440|Griffonia and Celestia's outlook|The parts in Griffonia
+  - 8|Great Mare Theory and the presidency|refutation of Great Mare Theory
+  - 9|Aquileian individualism|Aquileian individualism
+  - 7|Town hall scene|at the town hall
+- whole: The notes hang together as a set on the whole, with clusters (Pétain parallel, parents and industry, the Trimmel defeat and imposter syndrome, the Kemerskai posture lesson, and the arc of leadership and stepping down) that are joined internally, though a few notes such as 32 and 1 stand alone.

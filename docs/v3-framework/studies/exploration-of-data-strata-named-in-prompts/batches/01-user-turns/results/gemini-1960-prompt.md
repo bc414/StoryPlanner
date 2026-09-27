@@ -1,0 +1,5 @@
+- sources:
+  - the historical texts | treat as the existing usage (Empire and Emperor) that the Kaiser/Reich naming has to be weighed against | the historical texts use Empire and Emperor | referred-to
+  - the fanfiction titled The Princess and the Kaiser | use its title as evidence for why the author chose Reich over Emperor, an explanation rather than a rule | the fanfiction is titled The Princess and the Kaiser is probably why the author used Reich | referred-to
+- order:
+- about: The user asks whether Eros should proclaim Grover VI as Kaiser alongside declaring the Reich, given that the historical texts say Empire and Emperor, and offers the fanfiction's title as a likely reason the author used Reich.

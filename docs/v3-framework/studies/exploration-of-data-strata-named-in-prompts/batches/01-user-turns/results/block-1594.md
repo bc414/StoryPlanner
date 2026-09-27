@@ -1,0 +1,7 @@
+- sources:
+  - chapter 5 | the text to be analyzed, in the same manner as the chapter 4 analysis | give a similar analysis of chapter 5 | referred-to
+  - Lesson Zero | the canon episode chapter 5 is based on, framing the analysis of the chapter | which is based on Lesson Zero | referred-to
+  - the distinctions developed in this conversation (or the transcript of it, if it is compressed) | apply strictly when labeling things La or En, rather than calling everything powerful La | use the distinctions developed in this conversation | referred-to
+  - the model's earlier flag of the carriage scene as no thematic weight | treat as mistaken; the author says the scene actually plants several Latent data points that serve later Twilight and Applejack plot points | you flagged as "no thematic weight, it's a transition" | referred-to
+- order:
+- about: The author offers an explanation for why chapter 4's FID works and corrects the model's dismissal of the carriage scene, then tells it to be strict about La versus En and to analyze chapter 5 (based on Lesson Zero) in the same way.

@@ -1,0 +1,13 @@
+- steps:
+  - the author | poses a policy question | asks whether the Griffonian Republic would sell mined crystals on an open market or reserve them for state security | opening prompt
+  - the model | retrieves the source passage | pulls up the exact planning-database entry where the author had already logged their own uncertainty on this point | early in the response, before analysis
+  - the model | surveys established canon | lays out the Republic's ideology, economic system, geopolitical rivals, and allies as they bear on resource policy | middle of the response, building toward a verdict
+  - the model | argues against an open market | reasons that a strategic resource would never be floated where hostile factions could buy it | mid-response analysis
+  - the model | proposes a mechanism | offers state nationalization paired with bilateral trade to an allied nation as the resolution | drafted verdict within the response
+  - the model | writes a structured final answer | produces a headed reply explaining the nationalization-plus-allied-trade solution and its narrative payoffs | closing portion of the response, before it derails into repetition
+- kept:
+  - note 4083 | the plan held this text before this reply | keeps the original Crystal Trade backstory the model had quoted back, unchanged, under the Crystal Trade subject
+  - note 4084 | pasted from this reply inside the author's own framing | keeps the model's proposed trade mechanism but rewrites it in the author's words with altered specifics (low-grade crystals only, exchanged for food), placed under the Crystal Trade subject
+  - note 4456 | the plan held this text before this reply | keeps pre-existing anti-monopoly policy text under the Griffonian Republic subject, unrelated to new content from this exchange
+- brought: The author brought forward an unresolved policy question that they had already flagged with their own hedging note inside the planning database's Crystal Trade entry.
+- loop: The author surfaces a lore decision already left open in their own notes; the model retrieves that passage, reasons from established canon to a proposed mechanism, and the plan keeps that proposed mechanism not verbatim but reworked in the author's own words with changed specifics, filed back into the same Crystal Trade entry alongside the untouched surrounding lore.

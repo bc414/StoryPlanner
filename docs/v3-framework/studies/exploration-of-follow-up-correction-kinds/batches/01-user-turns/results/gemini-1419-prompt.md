@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, without mentioning the model's failure message, poses a new question asking whether modern Poland fits their story's "harmonic capitalism" republic model compared to the US, Britain, France and Germany, and asks for inspiration for their fictional states.

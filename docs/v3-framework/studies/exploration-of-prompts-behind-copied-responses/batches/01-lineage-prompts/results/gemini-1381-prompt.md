@@ -1,0 +1,7 @@
+- asks:
+  - share | states the user's original title choice and the double meaning behind it | "My initial plan was 'Oblivion' as a reference to..."
+- supplies:
+  - idea | a working title, 'Oblivion,' explained as referencing drug abuse and the completion of the 'Luna Nova Rifle' | a single sentence
+- shaping:
+- openness: open — the message makes no explicit request, simply stating a prior title choice and its two intended meanings, leaving what happens next unstated
+- subject: the meaning behind an earlier working title, 'Oblivion'

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made Aquileia's safety net conditional, with zero support for idleness and starvation for those without ambition. The user says Aquileia gives a basic income for existence, funded by abundance and made easy by cheap living, so the unambitious suffer social snubbing (pity or soft contempt), not poverty. | "Aquileia does have a basic income for existence" and "it's not about poverty, it's about being culturally snubbed" | Stated flatly as a personal impression, with the reasons given (abundance, low cost of living, artisans overproducing for pride), and then restated as the corrected framing.
+- about: The user replaces the model's harsh, starvation-based version of Aquileia's flaw with a basic-income society where low ambition costs status and not survival, then sets a contrasting picture of the GR as a culture that shames hoarders, predators and cheats of the common good.

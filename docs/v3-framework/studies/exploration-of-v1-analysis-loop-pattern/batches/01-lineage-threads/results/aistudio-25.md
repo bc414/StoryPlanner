@@ -1,0 +1,19 @@
+- steps:
+  - author | supplies source document | first attachment of planning text | opening turn of the conversation
+  - author | supplies a second source document | second attachment, offered before any reply | immediately after the first attachment, still opening
+  - model | proposes sorting strategies | four candidate taxonomies (political evolution, sociological identity, technocratic control, spatial power), each with reasoning and example buckets | first model reply, addressing both attachments
+  - author | supplies another source document | new attachment | after the first strategy proposal
+  - model | proposes sorting strategies | four revised taxonomies (historical eras, instruments of coercion, sociological stratification, regime vulnerabilities) | second model reply
+  - author | supplies another source document | new attachment | after the second strategy proposal
+  - model | proposes sorting strategies | four taxonomies now carrying an added extraction-directive field per category | third model reply
+  - author | supplies another source document | new attachment | after the third strategy proposal
+  - model | proposes sorting strategies | four renamed, streamlined taxonomies (governance, statecraft, class dynamics, macroeconomics) with directives | fourth model reply
+  - author | supplies another source document | new attachment | after the fourth strategy proposal
+  - model | proposes sorting strategies | four taxonomies under a new schema (chronology, demographics, system mechanics, dialectics) | fifth model reply
+  - author | supplies another source document | new attachment | after the fifth strategy proposal
+  - model | proposes sorting strategies | the same four-category schema restated with only wording changes | sixth model reply
+  - author | pastes the underlying text directly | a full block of worldbuilding notes on Aquileia's political and social history, rather than an opaque attachment | final author turn, after the sixth strategy proposal
+  - model | proposes sorting strategies | the same four-category schema confirmed and applied against the pasted text | closing model reply
+- kept:
+- brought: The author fed a sequence of planning documents (mostly opaque attachments, then a directly pasted block of worldbuilding notes on Aquileia's political history) into a repeated request for candidate ways to sort/categorize that material.
+- loop: The author repeatedly hands the model a new piece of source text and asks it to propose sorting strategies for organizing it into notes; the model's candidate taxonomies drift and then converge across iterations onto a stable four-category schema, but none of these proposals is itself retained in the planning database — the loop is exploratory strategy selection that produced no archived output in this stretch.

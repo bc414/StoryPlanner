@@ -1,0 +1,21 @@
+- relations:
+  - 558 | 554 | the real-world chemical analogy is applied in the world truth: donated pink love is said to carry oxytocin and endorphins | Pink love is chemically like oxytocin and endorphins / has a lot of oxytocin and endorphins | implicit
+  - 558 | 1010 | the oxytocin analogy is instanced as the satisfaction changelings get from friendship donation | oxytocin-like satisfaction from friendship | implicit
+  - 558 | 1383 | the dopamine analogy for red love is instanced as the high red love gives the user, with the addiction described as behavioral | Red love is like dopamine and adrenaline / gives the jaeger high | implicit
+  - 1012 | 551 | origin and statement: the design paradox behind the split becomes the stated truth that pink is friendship and red is magic | Pink Love = Friendship and Red Love = Magic / Friendship and Magic that are pulled out | implicit
+  - 1012 | 558 | the food-and-combat-drug paradox is what the chemical analogies map onto (oxytocin/endorphins as food-side, dopamine/adrenaline as combat-side) | Food and Combat Drugs / oxytocin and endorphins ... dopamine and adrenaline | implicit
+  - 1012 | 1010 | the changeling view of love as food underlies the account of donation giving calories plus friendship satisfaction | Love as both Food / both calories and oxytocin-like satisfaction | implicit
+  - 1009 | 551 | scope note and the truth it scopes: the entry concerns love removed by a draining spell, which 551 defines | removed from its origin by a draining spell / pulled out ... by the changeling draining spell | implicit
+  - 1009 | 557 | the scope's 'can and can't be manipulated' is instanced by extracted red love being unfit for delicate spell matrices | can and can't be manipulated by industrial and magical handling / would shatter a delicate spell matrix | implicit
+  - 551 | 557 | 557 presupposes 551's extraction by draining spell or spell matrix; the matrix that red love would shatter is the draining spell's | spell matrix of that spell / shatter a delicate spell matrix | implicit
+  - 554 | 1010 | 1010 gives the numbers (about 10%, lower with pain) for the dull extracted pink love that 554 explains by terror | only gives around 10% / visibly dull ... terror taints the pink love | implicit
+  - 554 | 557 | parallel: the same cause, victim terror, degrades both pink and red love from extraction versus donation | terror taints the pink love / victim's terror, resistance and coercion | implicit
+  - 551 | 1383 | qualification: 551 says pink and red cannot be extracted apart, while 1383 speaks of red love by itself as pure magic and a high | impossible to extract one without ... / By itself, it gives the jaeger high | implicit
+  - 1900 | 557 | magic treated as physics like thermodynamics; the low and high entropy of red love applies that framing | branch of physics, ... thermodynamics / low entropy ... high entropy | implicit
+  - 557 | 1383 | donated red love is a conscious low-entropy act while red love is pure magic; both characterise red love's nature and the extracted form is chaotic | Donated red love is low entropy / Red love is pure magic | implicit
+- outward:
+  - 1011 | canon source of the depiction, the Canterlot Wedding episode | From Canterlot Wedding
+  - 1012 | changelings' canonical habit of feeding on love, held elsewhere | changelings treating "Love" as both Food and Combat Drugs
+  - 1010 | later Equestrian love donators, a later part of the story or setting not in this item | the later Equestrian love donators which are at 100%
+  - 1383 | the jaeger, a character or role defined elsewhere | it gives the jaeger high
+- whole: The notes largely hang together as a set, centred on the pink/red split and the donated-versus-extracted contrast, though the two analogy notes and the canon note sit more loosely.

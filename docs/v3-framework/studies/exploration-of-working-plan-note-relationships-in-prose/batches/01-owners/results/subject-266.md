@@ -1,0 +1,20 @@
+- relations:
+  - 2598|2564|the real-world Tokugawa-to-Meiji shift is the model for the in-world change: generational specific training replaced by standardized industrial training|generational specific training with industrial standardization / generational caste-specific asset specificity ... industrial standardized curriculum|implicit
+  - 2598|2597|analogy and its in-world counterpart: caste-specific training swapped for uniform industrial evaluation|replaced all of that generational specific training with industrial standardization / one-size-fits-all industrial evaluation|implicit
+  - 2564|2597|restatement from two angles: one gives the effect on the caste system, the other the mechanism that replaces caste training|replaced with industrial standardized curriculum / replaced with one-size-fits-all industrial evaluation|implicit
+  - 2597|2562|the general mechanism (all grubs tested against all criteria, then sorted) is spelled out in the sorting outcomes for each type of grub|evaluates ALL grubs against ALL pre-determined criteria simultaneously, then sorts them / all evaluated against the same pre-determined aptitude criteria|implicit
+  - 2562|2531|the sorting into roles is given its guiding principle and its rewards and punishments: usefulness to the State|Innovators ... become bauleiters / what can you do for the State? The bauleiters who innovate get recognition|implicit
+  - 2563|2562|the imperial exam analogy stands behind the uniform testing and sorting of grubs into state roles|Imperial entrance exams / evaluated against the same pre-determined aptitude criteria|implicit
+  - 2567|2566|children taken and schooled in the dominant language is the parallel for hive languages being wiped out by one standard tongue in one generation|educated in english / linguistic differences between hives are erased for Simplified Herzlander|implicit
+  - 2561|2557|the real Fröbel kindergarten is the model for the in-world invention of kindergarten by Grover III|first kindergarten in Blankenburg in 1837 / Grover III invented kindergarten|implicit
+  - 2557|2558|continues in time: the invention in 854 is followed by the word reaching Equestria in 880|invented kindergarten / The word kindergarten reaches Equestria|implicit
+  - 2564|2566|two parallel effects of the same institution on hive society: the caste system is destroyed and the language differences are erased|destroys the hive wars' caste system / linguistic differences between hives are erased|implicit
+- outward:
+  - 2557|Grover III and his wider set of reforms, held elsewhere|Grover III invented kindergarten as part of his reforms
+  - 2558|Equestria as a place, and how the word travelled there|The word "kindergarten" reaches Equestria
+  - 2566|the hives and the Simplified Herzlander language, held elsewhere|linguistic differences between hives ... Simplified Herzlander
+  - 2564|the hive wars and the caste system of the hives|the hive wars' caste system
+  - 2562|bauleiters, VOPS and the statthalters islands, institutions held elsewhere|bauleiters ... VOPS ... statthalters islands
+  - 2531|conscription and the jaeger geist, held elsewhere|a rifle and jaeger geist
+  - 2597|Chrysalis, the ruler or figure whose kindergarten this is|Chrysalis's kindergarten evaluates ALL grubs
+- whole: Most of the notes hang together around one idea: the kindergarten replaces caste training with uniform state sorting, and the real-world analogies map onto it. The history notes and the empty note 2609 stay on the edge of that set.

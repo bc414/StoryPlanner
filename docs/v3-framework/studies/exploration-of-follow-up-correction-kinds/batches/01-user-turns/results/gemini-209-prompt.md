@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a new detail for the planned scene, making the shovel a collapsible magical Star Energy tool that Henri gave Applejack in chapter 1, as an idea to build on rather than a fix to anything the model said.

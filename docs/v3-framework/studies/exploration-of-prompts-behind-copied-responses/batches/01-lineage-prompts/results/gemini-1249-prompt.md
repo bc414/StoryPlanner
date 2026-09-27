@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks for an explanation of the historical role spices played | "What was the role of spices historically?"
+- supplies:
+- shaping:
+- openness: Open — the message poses a general question with no named answer, options, or claim to verify.
+- subject: The historical role of spices

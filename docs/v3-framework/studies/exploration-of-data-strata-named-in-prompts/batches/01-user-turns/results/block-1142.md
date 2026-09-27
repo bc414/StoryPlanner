@@ -1,0 +1,7 @@
+- sources:
+  - the original episode's testimony "I had never been on the ground before" | do not adhere to it as literal truth; reframe it as Fluttershy dramatizing the story for the CMCs | it's unrealistic to adhere to the original episode's testimony | referred-to
+  - my imagination (Cloudsdale as a fully mobile floating city that goes around Equestria on schedule delivering weather) | the author's own conception, to be used as the premise for how Fluttershy got to the ground and the observatory | In my imagination, Cloudsdale is a fully mobile floating city | first-named
+  - Hurricane Fluttershy | cited as the depiction backing the mobile, scheduled Cloudsdale | as depicted in Hurricane Fluttershy | referred-to
+  - my fanfic (Fluttershy visiting Rarity in Ponyville when Cloudsdale passed over) | treat as established in the author's story and check the new idea against it; the new backstory should be consistent with it | This lines up with how in my fanfic | referred-to
+- order:
+- about: The user pushes back on the canon claim that Fluttershy had never been on the ground, offering instead a mobile-Cloudsdale explanation (picture books, repeated childhood visits to the Las Pegasus observatory) that matches how Fluttershy visits Rarity in their fanfic.

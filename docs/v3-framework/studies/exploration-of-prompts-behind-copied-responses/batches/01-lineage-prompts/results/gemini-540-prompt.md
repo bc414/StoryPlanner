@@ -1,0 +1,7 @@
+- asks:
+  - continue/build | asks the model to take in and build the ongoing story-plan around these new plot points about the war's aftermath | opens with "Another narrative refinement," giving no explicit question or instruction verb
+- supplies:
+  - narrative refinement (stated inline) | covers the eastern front's collapse, Stalliongrad taking custody of POWs, Celestia's motives for agreeing, Manehattan's unfitness and population surge from 5.7M to 11.4M, and Stalliongrad's refusal to join the white peace to keep fighting the hives in the far north | a paragraph
+- shaping:
+- openness: Leans toward an answer it names: it presents as settled that Stalliongrad takes the POWs, that Manehattan is unsuited to host them (unlike Tall Tale), and that Stalliongrad rejects the white peace to keep fighting the hives, rather than posing a question or offering options.
+- subject: Aftermath of the eastern front's collapse: POW transfer to Stalliongrad, Manehattan's refugee-driven overcrowding, and Stalliongrad's separate continued war against the changeling hives.

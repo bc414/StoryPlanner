@@ -1,0 +1,6 @@
+- passages:
+  - 4517 | self-directive planning note | first-person voice, need-phrasing, reference to own prior edits | need to redo narrative plans after separating pink/red love and fleshing out the magic system | apart
+  - 5466 | third-person character-motivation gloss | third-person subject, past tense, because/but explanatory clauses | Henri's wish to grant Mercy to the POWs out of honor, and his effort not to treat them as animals | apart
+- shifts:
+- registers: self-directive planning note; third-person character-motivation gloss
+- whole: The chapter's two notes each sit wholly in one register — one a first-person task-reminder about revising the plans, the other a third-person account of a character's motive — and the two registers appear only in their separate notes, never mixed within either.

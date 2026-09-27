@@ -1,0 +1,4 @@
+- sources:
+  - the story bible (490,000 tokens in AI studio) | background fact about the author's own material: it is loaded whole into Gemini in AI Studio, whereas Claude only searches it by grep; given to size the comparison, not as an instruction to use or avoid it | for context, the story bible is 490,000 tokens in AI studio | first-named
+- order:
+- about: The user asks whether Gemini Pro can close the gap with Claude Sonnet through AI Studio system instructions, and offers their experience that Claude misses information in a large story bible because it searches by grep, while Gemini reads all 490,000 tokens.

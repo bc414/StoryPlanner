@@ -1,0 +1,32 @@
+- passages:
+  - note 4416 | definitional | present tense, terse claim | Mali's belief in harmony | apart
+  - note 4416 | narrative-backstory | past tense, named figures and places | Luna's promise, Celestia's caution, and colleagues' reactions to token reforms | apart
+  - note 4417 | definitional | terse present-tense facts | name meaning, cutie mark, talent, personality blend | apart
+  - note 4417 | meta-commentary | "we" voice, reference to real creator and franchise | story's relation to Lauren Faust's original ideal, maturing it | apart
+  - note 4417 | narrative-backstory | past tense, third person | Mali's love for Luna's thestral-integration goal | apart
+  - note 4417 | meta-commentary | parenthetical, real-world production term | production reason integration stalled | run-in
+  - note 4417 | definitional | present tense, belief-statement | Mali's continued belief and why she stays with Applejack | apart
+  - note 4418 | definitional | terse present-tense fact | Tempest Wind's role as a game trait | apart
+  - note 4418 | casual aside | parenthetical, contraction, reassurance | clarifying he isn't a thestral | run-in
+  - note 4419 | affectionate character-sketch | warm subjective adjectives, comparisons | Mali's personality and appearance | apart
+  - note 4605 | narrative-backstory | past tense, dated event | hiding fangs after changeling attack | apart
+  - note 4647 | narrative-backstory | past tense, dated span | working at a parloir for grassroots connection | apart
+  - note 4649 | definitional | present tense, opinion-statement | Luna's view of parloir operators | apart
+  - note 4649 | narrative-backstory | past tense, dated event | Luna's reforms and Mali's move to the regular army | apart
+  - note 4649 | definitional | present tense, thesis statement | Mali's core character trait | apart
+  - note 4658 | writing-directive | modal "should", craft instruction | using Aquileian words with Henri | apart
+- shifts:
+  - note 4416 | definitional | narrative-backstory | sentence break, shift from present-tense claim to past-tense recounting of Luna's promise and its aftermath
+  - note 4417 | definitional | meta-commentary | shift to "we" voice and reference to real creator/franchise term "Lauren Faust"
+  - note 4417 | meta-commentary | narrative-backstory | paragraph break, return to past-tense third-person subject "She loved"
+  - note 4417 | narrative-backstory | meta-commentary | parenthesis introducing production term "Hasbro mandates" mid-sentence
+  - note 4417 | meta-commentary | definitional | new sentence, present tense resuming as belief-statement "Mali still believes"
+  - note 4418 | definitional | casual aside | parenthesis, contraction "it's", reassuring tone "it's fine"
+  - note 4419 | | |
+  - note 4605 | | |
+  - note 4647 | | |
+  - note 4649 | definitional | narrative-backstory | contrastive "But" and shift to past tense recounting decisions and dated event "1007"
+  - note 4649 | narrative-backstory | definitional | paragraph break and return to present-tense thesis about core character
+  - note 4658 | | |
+- registers: narrative-backstory; definitional; meta-commentary; affectionate character-sketch; casual aside; writing-directive
+- whole: This item's notes move among several registers—narrative-backstory, definitional, meta-commentary, affectionate character-sketch, casual aside, and writing-directive—which mostly stand apart from one another sentence by sentence or note by note, with only the parenthetical asides blending into a surrounding sentence without any visible break.

@@ -1,0 +1,19 @@
+- passages:
+  - 5112 | tag/label | dash-colon header, no verb, classifies entry | naming the doctrine entry | apart
+  - 5112 | thesis-argument | present tense, contrastive "isn't just...it's", "not...but" | what harmony means and the army's real strength | apart
+  - 5112 | historical-narration | past tense, recounts what happened to the old army | old army's collapse and surrender at war's start | apart
+  - 5120 | tag/label | dash-colon header, no verb, classifies entry | naming the doctrine entry | apart
+  - 5120 | thesis-argument | future-tense prediction, comparative "will lose to" | conscript model losing to volunteer elite force | apart
+  - 5121 | tag/label | dash-colon header, no verb, classifies entry | naming the doctrine entry | apart
+  - 5121 | thesis-argument | present tense, "does not represent...it represents", "the story argues" | Equestria as stand-in for modern civic duty | apart
+  - 5121 | plot-outline | present/future tense laying out choices and their consequence | ponies choosing Canterlot or Manehattan, Canterlot's fate | apart
+  - 5121 | thesis-argument | present tense, contrastive "is not...it uses" | how Manehattan's mobilization actually works | apart
+- shifts:
+  - 5112 | tag/label | thesis-argument | header ends, prose sentence defining harmony begins
+  - 5112 | thesis-argument | historical-narration | drops into past tense to recount the old army's defeat
+  - 5120 | tag/label | thesis-argument | header ends, predictive comparative sentence begins
+  - 5121 | tag/label | thesis-argument | header ends, comparative claim about Equestria begins
+  - 5121 | thesis-argument | plot-outline | turns from analytic claim to concrete account of ponies' choice and fate
+  - 5121 | plot-outline | thesis-argument | returns to explanatory contrast to state how mobilization works
+- registers: tag/label; thesis-argument; historical-narration; plot-outline
+- whole: This item's notes move between a bare classificatory tag, an analytical thesis-stating register of contrastive present-tense claims, and two narrative registers (one past-tense recounting of in-world history, one present-tense laying out of story choices and their outcomes), with every shift falling cleanly between sentences and none blurring into another mid-sentence.

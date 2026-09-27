@@ -1,0 +1,8 @@
+- sources:
+  - Fallout Equestria and its sequel | subject the user has not read; the model is to explain what it is, its genre, how it relates to the other works, and whether it inspired EaW | I haven't read fallout equestria | referred-to
+  - Fallout (the game) | subject to be explained: its genre and how much Fallout Equestria takes from it | what is that game's genre | referred-to
+  - The Princess and the Kaiser | the user's main personal exposure to grimdark; the reference point the model should relate Fallout Equestria and Fallout to | Most of my exposure to grimdark is coming from The Princess and the Kaiser | first-named
+  - ASOIAF | the author's stated inspiration for The Princess and the Kaiser, relayed as the author's claim, to be compared with Fallout and Fallout Equestria | the author says is inspired by ASOIAF | referred-to
+  - EaW | the setting and fandom that the user supposes Fallout Equestria may have inspired, and where The Princess and the Kaiser sits | I suppose it inspired EaW in some ways | referred-to
+- order:
+- about: The user says they haven't read Fallout Equestria and asks the model to explain its genre, its debt to the Fallout game, and how it and its sequel relate to The Princess and the Kaiser and ASOIAF-style grimdark, which is where most of their grimdark exposure comes from.

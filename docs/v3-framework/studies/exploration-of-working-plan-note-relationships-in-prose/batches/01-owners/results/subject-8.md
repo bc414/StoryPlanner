@@ -1,0 +1,23 @@
+- relations:
+  - 512|514|cause and its lasting effect: the child emperor's plea that spared Eagleclaw is the reason Eros is humbled later|child Grover VI's moral intervention to save Eagleclaw's life|explicit
+  - 511|512|continuation and tempering: after the extreme purge of the industrialists, Eros stops short of executing Eagleclaw and is checked by the child|too much of a tyrant|implicit
+  - 510|511|belief and the act that carries it out: the conviction that capitalist rot ruined the Empire is what he enforces by branding industrialists heretics|capitalist rot destroyed the Empire because it abandoned spiritual purity|implicit
+  - 258|511|disposition and its instance: his little love for the nobility shows in the execution and stripping of noble industrialists|traitorous noble industrialists|implicit
+  - 258|240|reason and decision: blaming the nobility for misfortune matches his watching the nobility fumble the regency and pushing him to step up|nobility fumble the regency|implicit
+  - 240|241|decision and its plan: his resolve to step up in Boreas's name becomes the intent to mentor Grover VI and set Eagleclaw aside|save the soul of the griffons|implicit
+  - 241|512|judgment and its occasion: seeing Eagleclaw as compromised and doomed leads to his being about to execute Eagleclaw as a traitor|compromised and doomed to make the same mistakes|implicit
+  - 241|514|revision by outcome: he set out to be the moral mentor, yet the child's moral plea instead humbles him|mentor Grover VI|implicit
+  - 511|514|tension: the absolute obedience and Reich slogan of the purge is answered by the claim that he is not an irrational fascist but humbled|absolute obedience to the child-emperor|implicit
+  - 512|514|reader-facing stance on the same event: Eros's pride in the child's words matches the note that the same moment left him humbled|very proud of the child emperor|implicit
+  - 256|239|continuation in time: the rise to Archon in youth is the office he holds when elderly at the start|quickly rise to the position of Archon|implicit
+  - 256|257|continuation in time: a devout climb to Archon, then saving the young Grover V decades later|joined the priesthood of Boreas|implicit
+  - 257|240|occasion and general stance: rescuing Grover V from Republican insurgents fits his view that the republic caused chaos and weakened the emperorship|Republican insurgents|implicit
+  - 511|241|presupposition: the child-emperor Grover VI whom Eros demands obedience to is the one he wants to mentor|child-emperor Grover VI|implicit
+- outward:
+  - 257|the young Grover V and the Republican insurgents, held in wider history|saving the young Grover V's life from the claws of Republican insurgents
+  - 511|Grover III's earlier religious moral containment strategy, a piece of lore held elsewhere|Grover III's religious moral containment strategy
+  - 512|another character, Gabriella, called Aunty by the child emperor|Aunty Gabriella
+  - 514|a real-world comparison figure outside the story|not an irrational fascist or nationalist like Hitler
+  - 240|the regency and republic period of earlier events held elsewhere|the nobility fumble the regency and the republic cause chaos
+  - 256|the Empire at its height and the city of Griffenheim, held elsewhere|born when the Empire was at the height of its power
+- whole: The notes hang together fairly well: the 1007 pair and the Grover VI mentoring and humbling notes form a connected arc, while the birth and rescue notes and the short lines on nobility and religion are looser support around it.

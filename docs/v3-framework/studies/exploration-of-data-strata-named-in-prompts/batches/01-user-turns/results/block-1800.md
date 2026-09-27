@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open question about whether a non-extractive, cognitively beneficial game could reach the mass market, whether any game has come close, and whether today's media incentives rule it out, without pointing at any body of material for the model to use.

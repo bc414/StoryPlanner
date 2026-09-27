@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the Tzinacatl breakdown to ask a broader design question, whether the material calls for a seventh subject type beyond the six established ones, without saying anything was wrong in the model's turn.

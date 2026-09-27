@@ -1,0 +1,4 @@
+- sources:
+  - the 7 axes (the pasted list of Chronological, Demographic/Actor, Concept Evolution, Epistemological, Dialectical, Ontological/Mechanical, Meta-Narrative with their descriptions) | treat as the settled, complete set of axes; base the hex colors and reasoning on these names and descriptions | These are my 7 axes. Propose hex colors for them | first-named
+- order:
+- about: The user supplies their full list of seven categorization axes with definitions and asks the model to propose an intuitive hex color and reasoning for each.

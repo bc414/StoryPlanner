@@ -1,0 +1,4 @@
+- sources:
+  - canon (Twilight's pitch to Starlight as it is in canon) | use as the close model for Twilight's pitch after Our Town, staying near the published version instead of the model's rewritten hard-science pitch | Twilight's pitch to Starlight after Our Town should be close to as it is in canon | referred-to
+- order:
+- about: The user overrules the model's proposed hard-science, peer-level recruitment pitch, telling it to keep Twilight's pitch to Starlight close to the canon version, with nursery language, because Twilight is still within Celestia's paradigm.

@@ -1,0 +1,5 @@
+- sources:
+  - StarCraft: Brood War, its ending | the model is to supply what happens at the end of it, as the thing the user does not know | What was the ending of brood war? | referred-to
+  - the user's own recollection of the SC2 premise (Zerg coming back after a retreat, Kerrigan seeking keystone artifacts) | offered as the user's partial, from-memory understanding, to be built on and not treated as a full account; the user uses it to argue the premise already breaks from hard geopolitics | I'm only deeply familiar with how the premise of SC2 is | first-named
+- order:
+- about: The user asks the model to explain how Brood War ends, admitting their knowledge is limited to the SC2 premise as they remember and how it was marketed, and remarks that the artifact and keystone plot already moves away from hard geopolitics.

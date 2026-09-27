@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on to a new request, asking for the same kind of analysis applied to Pinkie in the chapter 7 draft and its bearing on TLTT, without commenting on or disputing the model's previous analysis.

@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 1233 | Skyfall, a school or institution held elsewhere in the plan, and its teaching or influence on her | Sassy Saddles is a Skyfall student
+  - 1233 | Rarity and an assembly-line production idea from canon or another scene, not developed in this item | wanted to make Rarity use an assembly line
+- whole: The owner holds only one note, so there is nothing within it to hang together or to separate; its single sentence joins a cause (being a Skyfall student) to an effect (the assembly line) inside itself.

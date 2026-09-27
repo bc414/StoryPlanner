@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user re-presents their own 6-step process, following the model's invitation to supply it after it said it couldn't read the attachment, and asks again for verification without disputing anything the model said.

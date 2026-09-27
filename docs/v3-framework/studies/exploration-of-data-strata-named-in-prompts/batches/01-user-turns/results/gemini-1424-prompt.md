@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up history question about whether the partitions of Poland and the interwar years still matter to Polish collective consciousness today, without pointing at any body of material for the answer.

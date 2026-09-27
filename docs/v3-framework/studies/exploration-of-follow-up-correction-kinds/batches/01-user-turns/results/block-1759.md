@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Pax Chrysalia analysis of Vaspier as a starting point and asks how he could be fitted into their own project, The Lioness of Tall Tale, attaching that plan and warning that their Chrysalis and changeling backstory differ from the source the analysis used.

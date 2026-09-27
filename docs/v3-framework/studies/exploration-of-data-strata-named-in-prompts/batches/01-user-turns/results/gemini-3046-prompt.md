@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's reading of the parlour culture, saying the poseur mindset is drug-taking and tough-guy performance while the Aquileian parlours are about asset specificity and culture, and asks the model to evaluate that distinction as a contrast between Skyfall's rugged-individualist, manosphere-grift capitalism and Aquileia's passionate ego capitalism.

@@ -1,0 +1,11 @@
+- passages:
+  - 4278 | statement about the subject | Discord's special talent is chaos, so chaotic mayhem comes cheaply to him, but malice and organized resistance against an army do not | none | describes his talent and its limits as a rule, not an event
+  - 4403 | scene beat without a year | After Chrysalis's attack at Canterlot Wedding, Celestia works to make Discord a friend and force for good so she need not use a heavy hoof on crises | none | tied to a story moment (after the attack, Keep Calm and Flutter On) with no date
+  - 4403 | intended consequence | The Celestia plan should leave Fluttershy and Discord feeling used, as Twilight has been | none | forward-looking planning remark: This should result in
+  - 4406 | scene beat without a year | When Tirek is unleashed, Celestia gives Twilight all the alicorn magic, knowing how the chest works; Twilight giving up her magic for her friends, Discord included, brings Discord closer to harmony | none | triggered by When Tirek is unleashed; no date
+  - 4407 | scene beat without a year | With war on the horizon, Discord realizes Celestia only wanted to use him, yet still tries to stop the war out of real friendship with Fluttershy and the others | none | When war is on the horizon; no date
+  - 4407 | statement about the subject | His chaos magic cannot work against war because it cannot impede the chaos of war | none | explains a limit of his power: simply doesn't work because
+  - 4407 | scene beat without a year | Celestia and others badger him for not fixing things he can't fix, so he leaves and joins the anarchist movement in Adelart under the pen name Jacques | none | events in order with connective so he leaves; no date
+- sequences:
+  - 4407 | three beats: Discord sees he was used and tries to stop the war, his magic fails and he is badgered, then he leaves to join the anarchists in Adelart as Jacques | When... However... so he leaves, cause-and-effect order
+- whole: Four planning notes on Discord: one stating the scope of his chaos talent, and three sketching a linked arc in which Celestia uses him, his friendship is tested by Tirek and coming war, and he ends by leaving to join the anarchists in Adelart as Jacques, with no dates given.

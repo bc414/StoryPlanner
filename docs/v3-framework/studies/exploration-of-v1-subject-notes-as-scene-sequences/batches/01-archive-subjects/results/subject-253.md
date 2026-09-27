@@ -1,0 +1,6 @@
+- passages:
+  - 4373 | statement about the subject | The radio, being an Equestrian model, runs on a spell matrix and a high-grade power crystal rather than electricity and vacuum tubes | none | describes how it is built and powered; no event, framed as "since it's an Equestrian model"
+  - 5834 | scene beat without a year | Trimmel's surrender is delivered through the same speaker that carried his demand for surrender in chapter 1 | none | written as an event that happens in the battle; refers back to chapter 1, no date given
+  - 5834 | author's planning aside | A parenthetical worry that the battle was meant to be told from Twilight's POV with Rainbow Dash, which conflicts with the radio being the source of the surrender | none | set in parentheses, first-person "I was going to"
+- sequences:
+- whole: Two short notes on a radio: one stating how it is powered as an Equestrian device, and one placing it as the speaker through which Trimmel's surrender arrives, with an author's aside about point-of-view difficulty.

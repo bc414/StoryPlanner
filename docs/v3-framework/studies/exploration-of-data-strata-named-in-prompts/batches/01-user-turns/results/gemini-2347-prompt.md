@@ -1,0 +1,5 @@
+- sources:
+  - the earlier analysis in this conversation (the monster-loot economy and Grover IV's vindication) | treat as a base to be amended: the author corrects it on the seas, on monsters as fertilizer, and on Grover IV being only partly vindicated | Some refinements | referred-to
+  - the whale/oil and guano/fertilizer parallels | treat as fitting and use them as the guide for deciding when the inventions should occur | really fitting parallels to whales/oil and guano/fertilizer in mind | referred-to
+- order:
+- about: The user amends the earlier monster-economy analysis with new canon points (Grover III began the sea-looting, monsters also supplied fertilizer, Grover IV is justified but not fully vindicated) and asks the model to weigh the pros and cons of placing Bessemer, oil refining and Haber-Bosch under Grover III or Grover IV, using the whale and guano parallels.

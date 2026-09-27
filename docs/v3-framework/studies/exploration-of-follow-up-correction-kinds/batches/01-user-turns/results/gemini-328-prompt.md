@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user welcomes the model's extension of the grey idea from the love to the whole body, then builds on it by tying it to Pinkie losing her ability to spread joy and by describing how draining shows in changelings, ponies and griffons.

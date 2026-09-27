@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the camp-follower analysis and builds on it, asking whether it explains Gerad Discret's chastity rule, proposing a split between protected skilled pony laborers and concubines, and asking whether former camp followers could staff a standardized gendarmerie.

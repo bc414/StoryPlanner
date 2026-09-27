@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the Caballeron persona as a glamorous, suave brand that appeals broadly to wealthy Griffonian and Skyfall clients. The user restates that the character is the books' unscrupulous villain and rival, and implies that this narrows or changes who the persona would appeal to. | "Since Dr. Caballeron is the villain of Daring Do books (the protagonist's unscrupulous rival)" | Implicit and mild: a reminder of the premise, put as the ground of a question, with no explicit disagreement.
+- about: The user restates that Caballeron is the villain and rival in the books and asks what clientele the cartel leader would be targeting in Stagnant Equestria, Skyfall and New Mareland.

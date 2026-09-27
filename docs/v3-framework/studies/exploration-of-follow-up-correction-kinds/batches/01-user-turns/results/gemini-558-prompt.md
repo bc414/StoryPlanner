@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to three new questions (what Adderall does, whether synthetic oxytocin exists, how social media algorithms overlap with drug-related brain chemistry) without disputing anything in the model's breakdown.

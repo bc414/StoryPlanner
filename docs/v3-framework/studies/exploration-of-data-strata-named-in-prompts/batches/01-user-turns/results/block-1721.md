@@ -1,0 +1,5 @@
+- sources:
+  - These two chapters | the material to be analyzed, searched for callbacks and parallels to the show | These two chapters contain a lot of callbacks and parallels | referred-to
+  - the canon show | the reference the chapters' callbacks and parallels are measured against, to be identified and analyzed each one | callbacks and parallels to the canon show | referred-to
+- order:
+- about: The user asks the model to find and analyze every callback and parallel to the canon show in the two chapters, explaining that they exist because the setting is Ponyville.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | The bucket-name length cap in the Phase 1 prompt, which the model set at 1 to 8 words. The user wants a 5-word maximum. | "I only want 5 words max for the buckets, 8 was too much fluff" | Stated flatly as a preference with a reason (fluff, redundancy and cognitive load for the human), added after a separate question.
+- about: The user asks whether the Phase 1 prompt should also cover internal bucket ordering, and in the same message tightens the bucket-name cap from 8 words to 5.

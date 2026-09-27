@@ -1,0 +1,9 @@
+- asks:
+  - explain | asks what the "fable of the stork" actually is as a story | "What is the historical real world fable of the stork"
+  - trace-origin | asks where and how this fable originated historically | "and its origin"
+  - analyse-cause | asks why the fable took hold and spread culturally | "why it became a thing"
+- supplies:
+- shaping:
+  - wants thorough, in-depth treatment rather than a brief summary | "Give an extensive dive into it"
+- openness: Leans toward an answer it names: the message specifies the exact topic (the stork fable, its origin, and why it became popular) and asks the model to explain that named subject rather than choose among options or verify a stated claim.
+- subject: The origin and cultural spread of the folk story/fable that storks bring babies

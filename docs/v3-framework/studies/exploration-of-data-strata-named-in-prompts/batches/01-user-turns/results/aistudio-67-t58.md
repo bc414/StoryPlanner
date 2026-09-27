@@ -1,0 +1,5 @@
+- sources:
+  - the new stagnation of harmony interpretation | the story's current, newly revised reading of Harmony, used as the reference point that the model's parallels must resemble | the new stagnation of harmony interpretation | referred-to
+  - other historical parallels | real history for the model to bring in as inspiration for storytelling delivery and framing, not as settled canon | What other historical parallels are similar | first-named
+- order:
+- about: The user asks the model to suggest further real-world historical parallels to the newly revised stagnation-of-Harmony idea, to use as inspiration for how the story is told and framed.

@@ -1,0 +1,5 @@
+- sources:
+  - chapter 5, titled Laughter, with the meeting about the Temberik | treat as the fixed place in the plan where the scene goes, at the start before the meeting, and as a theme the scene must fit | at the start of chapter 5 before the meeting about the Temberik; the title of chapter 5 is Laughter | referred-to
+  - chapter 4 Magic | treat as the preceding chapter whose destruction the scene should relieve | tension breaker after the destruction of chapter 4 Magic | referred-to
+- order:
+- about: The user takes the model's Applejack and Fluttershy scene idea and reshapes it with new story details, giving it a placement at the start of chapter 5 and a purpose in the chapter sequence.

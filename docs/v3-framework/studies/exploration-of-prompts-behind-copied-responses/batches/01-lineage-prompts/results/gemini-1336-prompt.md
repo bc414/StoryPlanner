@@ -1,0 +1,8 @@
+- asks:
+  - generate | asks for a French-language name for the "royal academy" being planned | "what would be the French name for the royal academy?"
+- supplies:
+  - idea/premise | states that the character Coltbert founds the academy for "Discret" so that griffons and ponies can mingle while serving the king | one sentence
+- shaping:
+  - match supplied premise | the requested name should presumably reflect the stated rationale (Coltbert founding it for Discret, griffons and ponies mingling in royal service), though no explicit form, length, or register is specified | "I think Coltbert opens the academy for Discret specifically because..."
+- openness: Leans toward an answer shaped by the premise it supplies: it asks the model to invent a specific French name consistent with the stated purpose (Coltbert founding the academy for griffons and ponies to mingle in royal service), without naming any candidate names itself.
+- subject: Naming a fictional royal academy (French name) tied to the character Coltbert, the entity "Discret," and griffon/pony characters serving a king

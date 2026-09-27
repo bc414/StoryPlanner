@@ -1,0 +1,19 @@
+- passages:
+  - note32 | plot-summary narration | past-tense causal account of story events | TLTT's opening war and the perception it left | apart
+  - note32 | craft-evaluation commentary | evaluative words "should," "more complete and mature," contrast to "naive" | judging how the full reality ought to be revealed | apart
+  - note33 | heading/label fragment | short bare declarative naming the topic, no elaboration | labels the note as backstory for Equestria's history | apart
+  - note33 | first-person comparative explanation | first-person "I am making," contrastive "unlike," closing exclamation mark | contrast between EaW's industrialized Equestria and this story's near-canon one | apart
+  - note5773 | terse listed policy notes | short third-person declaratives, dates, place names | immigration timing and the harmonic-immigrant rule | apart
+  - note5773 | clipped addendum | ungrammatical connector "This is include," plain colloquial phrasing | batponies deported for not behaving | apart
+  - note5777 | general expository assertion | plain present-tense claim joined by contrastive "but" | ponies' security and abundance bounded by their one talent | apart
+  - note5780 | third-person argumentative exposition | declarative claims building a cause, terms in quotation marks | how the cutie mark system and "the hard way" keep ponies dependent | apart
+  - note5780 | second-person proverbial generalization | direct address "you," conditional "if...then," proverb-like brevity | the general rule that not needing neighbors weakens Friendship | apart
+  - note5780 | third-person argumentative exposition | causal claims, "necessary for," "not just...but because" reasoning, quoted term "immoral" | why isolationism and import bans preserve the harmony economy | apart
+- shifts:
+  - note32 | plot-summary narration | craft-evaluation commentary | shift from narrating the war and its perception to judging the narrative technique with "should" and evaluative adjectives
+  - note33 | heading/label fragment | first-person comparative explanation | shift from the bare labeling phrase to a full first-person contrastive sentence ending in an exclamation mark
+  - note5773 | terse listed policy notes | clipped addendum | grammatical break at "This is include," an unedited-sounding appended line
+  - note5780 | third-person argumentative exposition | second-person proverbial generalization | switch to direct address "you" and a conditional, proverb-shaped sentence
+  - note5780 | second-person proverbial generalization | third-person argumentative exposition | return to a third-person subject, "Celestia ensured this spirit continued"
+- registers: plot-summary narration; craft-evaluation commentary; heading/label fragment; first-person comparative explanation; terse listed policy notes; clipped addendum; general expository assertion; third-person argumentative exposition; second-person proverbial generalization
+- whole: This item's notes move through several distinct registers - narrative summary, craft judgment, first-person planning talk, terse listing, an appended aside, plain assertion, and argumentative exposition briefly interrupted by a proverbial second-person line - with every change landing at a clear sentence break rather than blending inside one sentence.

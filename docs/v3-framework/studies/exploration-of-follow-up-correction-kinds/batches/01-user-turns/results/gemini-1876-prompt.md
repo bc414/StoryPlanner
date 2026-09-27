@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Threaded Needle suggestion without objection and asks a new follow-up question about the historical evolution from muskets to rifles to machine guns.

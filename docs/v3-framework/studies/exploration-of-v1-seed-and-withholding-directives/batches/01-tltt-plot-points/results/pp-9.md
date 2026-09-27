@@ -1,0 +1,2 @@
+- directives:
+- reports: The item never mentions the reader or audience; the synopsis and link text describe what Celestia says, believes and does, and how the other characters take it, and give no instruction about what the page must show, hint at or hold back.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's three-pillar analysis and its Socratic questions, and opens a new question about how Spike's role of calling out Twilight's anxiety fits a Faust-style, trollish, godhood-weary Celestia and the materialist reading of the entrance-exam egg.

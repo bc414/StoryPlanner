@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 837 | Another character, Fluttershy, whom this character mentors, and the episode or story in which the birds are freed, both held elsewhere | She is Fluttershy's mentor who teaches Fluttershy to let the birds free
+- whole: The owner holds a single note, so there is nothing for it to hang together with and it stands as one entry.

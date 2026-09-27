@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Henri/Fleur/Applejack scene behind and starts a new worldbuilding request, asking for pre-colonial American parallels for the Tzinacatl and Kurdish-inspired material for the Temberik.

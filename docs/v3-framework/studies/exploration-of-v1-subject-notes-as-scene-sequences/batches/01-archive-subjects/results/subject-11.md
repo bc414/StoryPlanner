@@ -1,0 +1,47 @@
+- passages:
+  - 4317 | scene beat with year | Trimmel is born a starving drone in Vraks and is denied a jaeger career by the Vraks nobility | born in 971 | dated birth, event of being denied
+  - 4318 | scene beat with year | Chrysalis takes over Vraks and declares a meritocracy and the Great Leap Forward | when Trimmel was 15 | age-anchored event
+  - 4319 | scene beat without year | Trimmel starts jaeger training and is refused tactics study under Synovial by the haughty Hivesmarshal | none | something happens, no date
+  - 4320 | scene beat without year | Chrysalis picks Trimmel out as an exceptional student and instructs him to study King Moriset Discret's new peasant army | none | Chrysalis identifies and instructs
+  - 4320 | statement about the subject's world | The peasant army is individualistic, specialized and takes initiative, precursor of the FJA, in contrast to the old Grand Battleplan approach Synovial learned from Imperial Herzland | none | descriptive comparison
+  - 4321 | scene beat without year | Trimmel builds his mobile warfare doctrine (Auftragstaktik) from the proto-FJA, rises through the Heer by merit, wins Chrysalis's favor and leads successful offensives against other hives | none | rise over time, no date
+  - 4322 | scene beat with year | Chrysalis sends Trimmel and several buddies to incite the Winter Revolution in Severyana, then abruptly recalls them to domestic affairs | Winter Revolution of 995 | dispatch then recall
+  - 4322 | statement about the subject | Trimmel as The Believer: embodies the Ideal of the Revolution, rose from nothing, hates the Old Nobility, tolerates Chrysalis because she destroyed the Old Order | none | labelled character-role description
+  - 4323 | scene beat without year | Trimmel develops new light tanks and trucks for mobile warfare | none | single action
+  - 4356 | statement about the subject | Why Trimmel hates Pagala: she is a bully who changed uniforms and proves the meritocracy is a lie | none | explanation of motive
+  - 4392 | scene beat with year | Trimmel infiltrates Canterlot and sees the decadence of its nobility | ahead of 1002 | infiltrated Canterlot next
+  - 4392 | statement about the subject's world | The jaeger half of VOPS judges ponies docile; plan is to remove Celestia, allow civilian industry, collect love taxes to pay MEFO bills and fund conquest of Griffonia; Synovial plans it without guns or cruelty | none | assessment and plan rationale
+  - 4392 | scene beat without year | The operation fails through Chrysalis's brain fog from draining Cadance and Shining Armor, their spell and misbehaving statthalters; Synovial is demoted and Trimmel made Hivesmarchall | none | outcome of the operation
+  - 5165 | statement about the subject | Trimmel has a superiority complex from being unaffected by the Lioness Spell, and rationalizes Chrysalis being thrown out as part of her plan plus love-high brain fog | none | psychological trait description
+  - 4588 | statement about the subject's world | At the war's opening Chrysalis treats ponies as livestock and plans bauleiter-led free range farming with love taxes | none | premise of the plan
+  - 4588 | scene beat without year | Many Equestrian soldiers surrender and Vanhoover is taken with minimal destruction | none | events of the opening
+  - 4588 | statement about the subject's world | The Crystal Empire is the opposite, hardened survivors of Sombra from 1000 years ago; statthalters run the northern front against them | none | contrast description
+  - 4588 | scene beat without year | Pagala takes the blame for using terror in Acornage too early | none | blame assigned
+  - 4589 | scene beat without year | Trimmel loses the first battle of Tall Tale with a disorganized infantry assault against Star Energy's entrenchment, the first changeling defeat | none | battle and its causes
+  - 4589 | scene beat without year | Trimmel argues the ponies lacked tanks and air support; Chrysalis agrees and lets him build a proper assault | none | discussion and decision
+  - 4590 | scene beat without year | Luna announces the retreat order, validating Trimmel, who arrogantly launches the 2nd Battle of Tall Tale prematurely | none | reaction to announcement
+  - 4591 | scene beat without year | In the 2nd battle Trimmel's peer officers are precision-struck by the Wonderbolts and the heroes (Twilight, Starlight, Tempest Shadow) | none | battle event
+  - 4591 | statement about the subject | Trimmel is resentful, sees the heroes as dishonorable, believes a full Schwerpunkt assault can crush them and wants all jaeger tank divisions and air wings | none | his view and wish
+  - 4592 | scene beat without year | Chrysalis, judging differently, targets Applejack's family, reassigns Trimmel to Bales and Manehattan, raises Vanhoover love quotas 300% and sends Pagala to Falldale replacing Ixodida | none | decisions by Chrysalis
+  - 4593 | scene beat without year | Bauleiters in Vanhoover are replaced with statthalters, a slave-labor concentration camp is set up, ponies are rounded up, and Trimmel receives a report of Ixodida's death by a partisan | none | gradually, series of developments
+  - 4593 | statement about the subject | Trimmel resents his peers, keeps fighting Equestria, and is humiliated by statthalter favor so must perform to regain jaeger influence | none | motive explanation
+  - 4594 | statement about another character | Pagala's orders to hold Tall Tale by any means, her boredom and anger, and mocking name Apfelschnapps for Applejack | none | description of Pagala's state
+  - 4595 | scene beat with year | Trimmel faces Blueblood en route to Manehattan; Blueblood proves competent and the front stalls at Manehattan's gates as Luna Nova Rifles arrive | 9 years since the Canterlot attack in 1002 | confrontation, year reference
+  - 4596 | scene beat without year | Statthalter VOPS secures the collaboration deal with Canterlot nobles, the eastern line becomes a changeling jaeger defensive line, Chrysalis enters Canterlot and statthalters flood the south while Trimmel digs in | none | when the flip happens
+  - 4596 | statement about the subject's world | No delusions remain about honorable occupation; the changelings are monsters and ponies will never forgive them | none | thematic summation
+  - 4597 | scene beat without year | The statthalters are cut off and beaten by Applejack in the southern blitz and kneel before Chrysalis in Canterlot | none | defeat and retreat
+  - 4597 | scene beat without year | Trimmel blames statthalter moral failings, proposes Chrysalis stay in Canterlot to bait Equestria while he plans a counteroffensive; she accepts | none | proposal and acceptance
+  - 4598 | scene beat without year | Applejack cuts the Bluebell River supply lines, Trimmel arrives in Ponytown with a counter-plan, Chrysalis pulls the air force for her extraction, and Trimmel surrenders expecting execution | none | events in order to surrender
+  - 4598 | planning remark | Backstory ends here because Trimmel now meets Applejack | none | parenthetical remark
+  - 5798 | statement about the subject's arc | Trimmel's realization that Chrysalis is a Poseur must be a slow death of ideological faith through three fronts | none | arc rule
+  - 5798 | character arc stage | Stalliongrad: Chrysalis orders total annihilation, and Trimmel sees she is exterminating a rival economic model rather than uplifting | none | first of three fronts
+  - 5798 | character arc stage | Blueblood: a competent Blueblood versus reverting statthalters in Canterlot shows changeling superiority is a lie | none | second of three fronts
+  - 5798 | character arc stage | Assassination of Thranx: Chrysalis has VOPS kill Thranx in Griffenheim to protect her monopoly on power, ending Trimmel's belief in meritocracy | none | the final nail
+- sequences:
+  - 4322 | two beats: dispatch to Severyana, then abrupt recall | dispatches... then abruptly recall
+  - 4593 | five beats of gradual change in Vanhoover: bauleiters fired, camps, roundups, Ixodida report, Trimmel's resentment | Gradually
+  - 4596 | three beats: VOPS deal, front flip and Canterlot entry, Trimmel digging in | When the flip happens
+  - 4597 | three beats: statthalters defeated, kneeling to Chrysalis, Trimmel's gamble accepted | This time... now he shows
+  - 4598 | four beats leading to surrender: Applejack ignores bait, Ponytown plan, air force pulled, surrender | When Chrysalis pulls the airforce
+  - 5798 | three fronts leading in order to Trimmel's loss of faith | slow death; three fronts; The final nail
+- whole: Trimmel's notes are a backstory from his birth in 971 through his rise, the war against Equestria and his surrender to Applejack, interleaved with statements about his motives, his resentments and a planned arc of disillusionment with Chrysalis.

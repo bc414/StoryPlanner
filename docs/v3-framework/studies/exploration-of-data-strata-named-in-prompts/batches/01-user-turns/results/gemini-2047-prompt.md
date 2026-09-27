@@ -1,0 +1,4 @@
+- sources:
+  - original text (the author's notes, with its atomic thoughts) | ground truth to check the pipeline output against, character by character with a diff tool, because the user does not trust the AI not to drop things | verify against the hard characters/letters | referred-to
+- order:
+- about: The user asks follow-up design questions about the sorting pipeline: whether to replace pronouns and drop formatting, how to verify with a diff that nothing from the original text is lost, and where to put the author's rhetorical or planning notes to self.

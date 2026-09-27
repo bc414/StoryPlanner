@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Tzinacatl history to a new question about how the 914 walled-garden timeline affects Aquileia's pony-minority backstory, laying out the original and refined plan and their own worry that it depended on feudal isolationism, without saying anything in the model's turn was wrong.

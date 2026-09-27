@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the term-provenance finding and moves on to a new, broader question about which other terms from the early Gemini session are weak under a materialist historicist framework, asking first for a definition of the current methodology so they can ratify or correct it before any triage.

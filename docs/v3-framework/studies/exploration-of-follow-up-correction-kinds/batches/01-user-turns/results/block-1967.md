@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Proposition 10 and dignity discussion to a new question about whether some items should be split into separate technology subjects, and tells the model to check the note track definitions file.

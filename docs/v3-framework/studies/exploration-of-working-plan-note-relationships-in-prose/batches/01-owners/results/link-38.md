@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 978 | The debate audience, the rival Gilded Trust, and the debate itself, all held in the scene and elsewhere, plus the technology the nickname is aimed at | Applejack dubs it "Gilded Trust's Gilded Grift" to the debate audience
+- whole: The owner holds a single note, so there is nothing within it to hang together or to separate.

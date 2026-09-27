@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Ahuizotl's disclosure as automatically believed and verified by the protagonists, without accounting for his standing in the story as a sham tourism operator posing as a fictional cat monster, which would make his word suspect | Maybe Applejack and crew don't believe Ahuizotl? He is a sham tourism operator posing as a fictional cat monster, after all | offered as a tentative suggestion, phrased as a question and backed by a reminder of his character, put in passing after a question about a different plot point
+- about: The user checks the model's early-reveal proposal against an existing plot point (Trimmel setting Chrysalis on Celestia's throne) and suggests the heroes might discount Ahuizotl because of who he is, which the model's analysis had not allowed for.

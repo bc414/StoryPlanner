@@ -1,0 +1,5 @@
+- sources:
+  - Blueblood's character arc, from being humiliated by Pagala to unearthing the Krystalfels conspiracy | re-read closely and use as the basis for judging the allegory and for finding a better one for constitutionalists | closely reevaluate his character arc, from being humiliated by Pagala to unearthing the Krystalfels conspiracy | referred-to
+  - the blueblood parallel (the model's previous claim that the Institutional Conservative maps onto Blueblood) | treat as incorrect and drop it | I don't think the blueblood parallel is correct | referred-to
+- order:
+- about: The user rejects the model's Blueblood-as-constitutionalist allegory, asks it to re-read his arc in the story, find the correct allegory for constitutionalists, and say whether that also covers Biden's defense-of-democracy rhetoric and its 2024 failure.

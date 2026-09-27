@@ -1,0 +1,26 @@
+- relations:
+  - 1311|1319|cause of the later frontier: the monsters that fled to the Everfree Forest are what makes it a massive wilderness left to be conquered|remaining monsters fled to the massive Everfree Forest / began conquering the massive Everfree Forest|implicit
+  - 1316|1317|reason and the biology behind it: pony magic being symbiotic is spelled out as the tribes' division of labor, which explains the harmonic settling|pony magic is inherently symbiotic / structurally, biologically suited for the division of labor|implicit
+  - 1315|442|general statement and its restatement: the 85% living by harmony and the ambitious few turned to survival harmony on the frontier|85% of Equestrians ... Survival Harmony / the 85% run on harmony ... survival harmony|implicit
+  - 1315|1667|restatement: the ambitious 15% and the frontier needing survival harmony are put as the rule that ambition is redirected to the frontier|The Frontier requires the old Survival Harmony / redirected to the frontier where they must practice survival harmony|implicit
+  - 442|1667|elaboration: ambition turned into survival harmony is given as a rule about how ambition is stabilized by connection|ambition is turned into survival harmony / ambition is stabilized by genuine connection|implicit
+  - 1319|1315|instance: the Everfree Forest and ocean as frontiers taken by ambitious ponies are the frontier that the 15% pursue|ambitious pioneer ponies began conquering / frontier becomes The Everfree Forest, the ocean|implicit
+  - 1319|1667|instance: hunting sea monsters and conquering the forest are outlets for ambition of the kind the rule redirects|ambition sink for highly ambitious ponies / Ambitious ponies are redirected to the frontier|implicit
+  - 1319|1320|continues in time: after the easy frontiers and the Everfree, a new frontier opens across the ocean|last easy frontiers / a new frontier opened: New Mareland|implicit
+  - 1320|1321|continues and revises: ocean passage that was very dangerous becomes relatively safe under escorts, so New Mareland turns easier|ocean passage was still very dangerous / ocean passage and trade relatively safe with escorts|implicit
+  - 1319|1321|cause of change: griffon knights clearing sea monsters shifts the ambition away from the Everfree, making New Mareland the easier option|Everfree Forest / New Mareland became the easier option compared to the Everfree Forest|explicit
+  - 1320|1314|cause: the dangerous crossing is why the elites did not engage with the land across the sea|ocean passage was still very dangerous / did not engage much due to monsters across the sea|implicit
+  - 1314|1321|continues in time: once sea monsters are cleared, the ocean barrier that kept elites away is lifted|monsters across the sea / cleared a lot of sea monsters|implicit
+  - 442|1321|coincidence of date: the harmony phase ends in 914, the year Grover III's reign ends and the ocean opens up|harmony phase from 0 ALB to 914 / reign from 854 to 914|implicit
+  - 1668|1314|instance: elite non-engagement with the society across the ocean fits a rule of non-intervention against other states|non-intervention against other nation states / did not engage much|implicit
+  - 1314|1316|contrast: the pony society across the ocean is feudal and lacks the harmony that pastoral pony settlers have, while feudalism was the griffon path|feudal pony society across the ocean / griffons who adopted feudalism universally|implicit
+- outward:
+  - 1311|Luna and her thestral army and the earlier campaign that cleared Equestria of monsters, held elsewhere|Luna and her thestral army cleared almost all monsters
+  - 1316|griffon society and its feudal history, and pony magic beyond this system|Griffon magic is inherently individualistic
+  - 1317|the events of Hearth's Warming Eve and Celestia's early rule, held elsewhere|Hearth's Warming Eve and Celestia's early rule
+  - 1315|the canon show as a baseline for ordinary pony life|the canon show baseline
+  - 1314|the Riverlands, a pony society across the ocean, and the lore of the magic of friendship|Riverlands ... feudal pony society across the ocean
+  - 1321|Grover III and the griffon knights, a griffon realm held elsewhere|Grover III's reign ... griffon knights
+  - 1668|other nation states that Equestria does not intervene against|non-intervention against other nation states
+  - 1320|New Mareland as a place and the calendar of ALB dating|New Mareland, across the ocean
+- whole: The notes largely hang together as one account of frontier-driven ambition (monsters driving ponies to the Everfree, then the sea, then New Mareland), with a few entries such as the non-intervention rule and the pony-versus-griffon magic note standing more alone.

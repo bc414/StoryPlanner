@@ -1,0 +1,4 @@
+- sources:
+  - my user profile | the model is asked to look in it for anything that correlates with why coding and writing were picked as examples, i.e. consult it as a possible explanation | "something in my user profile that correlates" | referred-to
+- order:
+- about: The user asks whether their stored user profile is the reason the model picked coding and writing as its examples.

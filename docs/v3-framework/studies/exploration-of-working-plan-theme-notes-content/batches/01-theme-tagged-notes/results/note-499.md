@@ -1,0 +1,3 @@
+- claims:
+  - reading | Ember's offering of the dragons shows that even dragons, an unlikely or awkward participant, can be fitted into the army's combined-arms approach | Even dragons can be part of combined arms | What does her offering of the dragons show about who can be integrated into the joint force? | partly
+- theme: It does not argue the proposition and never mentions dignity or the ordering of dignity before cooperation. At most it gives a thin, implied piece of evidence: an awkward party is brought into cooperative work. The note leaves the reader to make the link to the theme.

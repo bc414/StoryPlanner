@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - other: the model's fix did not work; the script's result is still wrong (it claimed more days would appear and links would be found, but output shows a single day)|the script still yields only one unique day across 83 revisions, contradicting the model's promise of more days|found 83 revisions but only 1 day. Please correct this|flat report of the observed result followed by a direct request to fix it, no reason or apology
+  - fact of the world: the model's code used the v2 field name for the revision timestamp (modifiedDate), which is missing under the data actually returned, so every date collapsed to an epoch value|the date key came out as a date that looks like epoch, meaning the timestamp was not read correctly from the revisions|It used a day that looks like an epoch date|stated flatly as an observed symptom, leaving the cause for the model to find
+- about: The user reports that the revised script still fails, with 83 revisions all grouped under one epoch-looking date, and asks the model to fix it.

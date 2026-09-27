@@ -1,0 +1,8 @@
+- asks:
+  - evaluate | asks whether an unspecified element ('this') successfully achieves or is suited for dramatic irony | 'Is this good for dramatic irony?'
+  - explain/explore | asks for an exploration of what dramatic irony truly means and how it mechanically works | 'Please explore the true meaning and mechanics'
+- supplies:
+- shaping:
+  - depth of treatment | asks for exploration of 'true meaning and mechanics' rather than a surface answer | 'explore the true meaning and mechanics'
+- openness: Mixed: it asks the model to check a specific named quality (whether 'this' works for dramatic irony) while also leaving the deeper explanation of dramatic irony's meaning and mechanics open-ended, as shown by 'Is this good for dramatic irony? Please explore...'
+- subject: Whether an unspecified story element achieves dramatic irony, and the underlying meaning/mechanics of dramatic irony as a device

@@ -1,0 +1,4 @@
+- sources:
+  - all 16 tracks | the model is to draw on the whole set of tracks and describe each one in full, stating for each whether it exists or not | full overview of all 16 tracks (and whether they exist or not) | referred-to
+- order:
+- about: The user asks the model to lay out a complete overview of the 16-track framework, saying for each track whether it exists or not.

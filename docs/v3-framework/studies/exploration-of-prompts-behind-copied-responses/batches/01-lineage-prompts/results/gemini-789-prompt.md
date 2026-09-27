@@ -1,0 +1,10 @@
+- asks:
+  - interpret | offers a reading of Chrysalis's choice to strike soft targets like Manehattan instead of forcing a decisive battle at Tall Tale, framing it as a shift from clean war to terror and as proof of her dishonor, and puts this thesis forward for engagement | "So why waste resources in a Schwerpunkt battle when they can collapse the home front instead? This is the transition from clean war to terror. It also shows Chrysalis is dishonorable."
+- supplies:
+  - idea | Trimmel's contradictory reaction to the second battle's fallout: resentment at being denied a clean occupation by Chrysalis's overrule, and bitterness over peers killed in precision strikes and Ixodida's death to a partisan | a few sentences
+  - idea | Henri's rationale for tolerating precision strikes despite his own honor code: he sees the changelings as Herzlander imperialist poseurs unworthy of honorable treatment | a couple of sentences
+  - idea | thesis contrasting Chrysalis's avoidance of direct confrontation (Tall Tale ponies, griffon nobles) with her turn to soft-target terror strikes and building a fascist state that enslaves drones and pens lesser warlords in love harvesters | a paragraph
+- shaping:
+  - treats its own conclusions as premises the reply should build from rather than question | "which is probably true," "It also shows Chrysalis is dishonorable"
+- openness: Leans toward an answer it names: it asserts that Chrysalis's soft-target strategy marks the transition from clean war to terror and reveals her dishonor, offering this as the reading to engage with rather than leaving it open.
+- subject: Chrysalis's strategic shift to terror tactics against soft targets and its effect on Trimmel and Henri's views of honor

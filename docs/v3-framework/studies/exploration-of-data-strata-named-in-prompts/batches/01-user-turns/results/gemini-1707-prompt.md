@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn asks a general factual question about which college majors (chemistry vs. chemical engineering) teach the industrial processes just described, without naming any story materials, notes, or other data sources.

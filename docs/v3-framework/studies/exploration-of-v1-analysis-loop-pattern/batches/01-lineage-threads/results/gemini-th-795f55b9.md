@@ -1,0 +1,21 @@
+- steps:
+  - the author | asks for a real-world source | origin of a character | opening of the single prompt
+  - the author | asks about authorial intent | whether the game's developers designed the surrounding lore | immediately after the character question
+  - the author | proposes an idea | radio as the invention that unifies disparate regions into a shared identity, plus a question about other unifying inventions and a tie to a corporation's stated ideology | third item in the prompt
+  - the author | proposes a reframing | a revolution driven mainly by rollback of reforms rather than an external threat, with peasant indifference to that threat and a possible propaganda spillover into rivalry with a neighboring republic | fourth item in the prompt
+  - the author | flags a detail | a politician's continued relevance keeping the political situation interesting | fifth item in the prompt
+  - the author | proposes a structure | fractured political factions modeled on a real nation's voting blocs, naming leaders and their regional bases | sixth item in the prompt
+  - the author | asks for a comparison and admits a gap | whether a real historical movement parallels a rural protest faction, and admission of having forgotten that faction's ideology | seventh item in the prompt
+  - the author | proposes a distinction | two peoples' greed explained differently (money-based vs craft-based) tied to real-world regional stereotypes, plus a question about the stereotype's real origin | closing item of the prompt
+  - the model | answers the origin question | identifies the historical figure and explains how the character inverts that figure's real role | first section of the response
+  - the model | answers the intent question | credits the game's developers with the base parallel while attributing the deeper causal theory to the author | second section of the response
+  - the model | expands the proposal | contrasts how two nations would each use the unifying invention, and adds two further bridging inventions | third section of the response
+  - the model | reframes the propaganda logic | replaces abstract political appeal with concerns peasants would actually have, and drafts sample phrasing | fourth section of the response
+  - the model | develops the faction | names a leader, base, ideology, and narrative function for the rural protest faction, drawing the real-world parallel requested | fifth section of the response
+  - the model | confirms and extends the distinction | affirms the real-world origin of the stereotype and elaborates the two forms of greed with quantitative vs qualitative framing | sixth section of the response
+  - the model | synthesizes into a table | consolidates all the factions, leaders, bases, ideologies, and external alignments into one summary | closing of the response
+- kept:
+  - note 4371 | the author's own words in this record | keeps the greed distinction between the two peoples verbatim, filed under an economic/government-models subject
+  - note 5483 | the author's own words in this record | keeps the radio-and-shared-identity proposal verbatim, filed under a Coltbert-reforms subject
+- brought: The author brought a batch of established setting elements (a reform-era political figure, the revolution's factions, the neighboring empire, a continuing politician's role) together with several new speculative ideas (a unifying invention, a rural protest faction, a stereotype's economic logic) to develop in one pass with the model.
+- loop: The author bundles many worldbuilding questions and half-formed ideas into a single message mixing existing plan elements with new proposals, the model answers each in turn and closes with a consolidated summary, but the planning database only retains two of the author's own original idea-paragraphs verbatim, filed under their respective subjects, leaving the model's elaborations and the other topics uncaptured.

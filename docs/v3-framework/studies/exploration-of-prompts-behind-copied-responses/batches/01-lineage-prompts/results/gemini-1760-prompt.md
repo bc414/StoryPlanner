@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm | asks how to integrate a 1950s suburbia American-dream motif with "rugged individualist" talking points across the described fictional cities | "How can I integrate a 1950s suburbia American dream aspect to the rugged individualist talking points?"
+  - fact-check | asks whether the imagined setup (industrial squalor, save-up-for-a-house mobility myth, drugs as coping) matches real 1950s conditions | "Is this accurate to the 1950s?"
+  - historical-extend | asks whether the same dynamic existed in the periods before WW2 or before WW1 | "What about before WW2 or WW1?"
+  - scope-check | asks whether this pattern is specifically American or also found in Europe and East Asia | "Is this only an American thing or also in Europe and East Asia?"
+- supplies:
+  - worldbuilding sketch (industrial cities) | own idea for Skyfall, Aquila, Las Pegasus, Griffenheim as polluted heavy-industry cities with cramped housing, a false promise of upward mobility via hard work/promotion, and drug use (fictional Tzinacatl drugs, then Chrysalis's spiked red love) to cope with being structurally stuck | a paragraph
+  - worldbuilding sketch (counterexample cities) | own idea for Pridea, Cloudbury, and Manehattan modeled on how Paris, Tokyo, and other non-American metropolises are set up today, with desirable culture and low crime | a couple of sentences
+- shaping:
+- openness: Mixed: the historical/geographic questions ask the model to check and elaborate on claims and framings the message already puts forward (1950s accuracy, earlier eras, American vs. European/East Asian scope), while the initial integration question is left open with no proposed answer.
+- subject: Grounding a fictional setting's industrial-vs-cosmopolitan city divide in real-world history of class-mobility myths, suburbia, and urban culture across countries and eras

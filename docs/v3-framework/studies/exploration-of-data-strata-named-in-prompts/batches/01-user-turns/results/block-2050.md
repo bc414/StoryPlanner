@@ -1,0 +1,6 @@
+- sources:
+  - real life, present day and throughout history (real human nature) | draw on it for objective, credible examples that demonstrate the theme; the evidence base the model is to use | objective, credible demonstrations of the theme in real life, in present day and throughout history | first-named
+  - the Charitostatic Effect (the story's magic system) | do not treat as literally true of the real world; treat as a metaphor and find how it is reflected in real human nature | the real world doesn't have a LITERAL charitostatic effect magic system. It's a metaphor | referred-to
+  - the ASOIAF thesis | a second theme for which the model should also find and articulate real-life examples | There are examples of the ASOIAF thesis in real life, please also articulate them | referred-to
+- order:
+- about: The user asks the model to ground the story's theme, and the ASOIAF thesis too, in credible real-world historical and present-day examples, since the story's magic system is only a metaphor for human nature.

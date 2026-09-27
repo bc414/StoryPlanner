@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user states their gaming background (played all the RTS/4X games discussed, but not RuneScape or World of Warcraft) and asks the model to explain those two games' economies and relate them to what has been discussed, which extends the conversation without correcting anything.

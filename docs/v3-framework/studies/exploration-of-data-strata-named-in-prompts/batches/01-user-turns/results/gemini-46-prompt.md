@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up technical question about whether requests can be paused when a free tier API limit is hit and resumed once it refreshes, without pointing at any body of material for the model to use.

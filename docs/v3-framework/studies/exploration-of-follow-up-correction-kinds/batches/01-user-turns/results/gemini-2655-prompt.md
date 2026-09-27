@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the cartel tribes hate the day, refuse to sleep and stay awake in daylight on stimulants to maximize profit and hold territory. The user gives a different account: the cartels work the urban markets at night, and they avoid the day because griffons treat daytime drug sales as taboo. | "So the drug tribes use their jaguar/night theology to justify why they roam urban markets at night" and "They don't like the day because the griffons view daytime drug sales as taboo" | Put as a tentative check-in question that restates the user's own version. It does not say the model was wrong, and it gives no reason for the correction beyond the griffon taboo.
+- about: The user tests their own explanation, that the cartels are a nocturnal market trade whose day-avoidance comes from a griffon taboo, against the model's picture of sleepless, stimulant-driven cartels.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the WPF note-categorizer UI discussion and starts a new, unrelated request for a breakdown of phosphorus-based weapons, their history, sourcing and chemistry, without commenting on the model's UI suggestions.

@@ -1,0 +1,4 @@
+- sources:
+  - the whole project | treat as the comprehensive scope to draw on for a full, chronological account of the character's characterization | "across the whole project" | referred-to
+- order:
+- about: The user asks the model to compile a comprehensive chronological account of how the character Chrysalis has been characterized over the entire course of the project's materials.

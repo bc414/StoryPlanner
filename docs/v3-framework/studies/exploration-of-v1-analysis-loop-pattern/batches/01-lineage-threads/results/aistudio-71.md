@@ -1,0 +1,11 @@
+- steps:
+  - the author | supplies material | an attached document, uncaptured | opening of the conversation
+  - the author | poses a naming problem | the existing Charity/Sacrifice/Equity progression, a tentative candidate word and doubts about it, a request for alternatives evoking social darwinism | second message
+  - the model | analyzes and offers a slate of options | a critique of the tentative word plus three structural candidate terms each mapped onto existing factions and lore, a synthesized four-stage progression, and two follow-up questions | third message
+  - the author | asks for refinement | a request for more elegant, emotionally stronger alternatives to the first-round pick | fourth message
+  - the model | offers a second slate of options | five more candidate terms each mapped onto existing factions and lore, a synthesis of which fits which thematic focus, and two follow-up questions | fifth message
+  - the author | selects and redirects | acceptance of one candidate's underlying meaning (rent-seeking tycoons) paired with a complaint about its clunkiness and a request for alternative wording for the same idea | sixth message
+  - the model | offers a third slate of options | four more candidate terms each mapped onto existing factions and lore, a synthesis of which fits which thematic focus, and two follow-up questions | seventh message
+- kept:
+- brought: The author brought an existing element-naming scheme (Charity, Sacrifice, Equity) and a tentative candidate term for the missing Tyranny-side counterpart, seeking a replacement.
+- loop: The author repeatedly brought a naming problem and a rejection of the prior round's best answer (too clinical, too clunky), and the model answered each round with a fresh multi-candidate slate mapped onto the setting's lore; the cycle repeated three times but closed with no note traced from any of these exchanges into the planning database.

@@ -1,0 +1,5 @@
+- passages:
+  - note 9 | telegraphic summary fragment | noun-phrase with no closing punctuation, bare present-tense verb | a conscript's attack and rehabilitation | apart
+- shifts:
+- registers: telegraphic summary fragment
+- whole: The single note here is written in one register throughout, a bare telegraphic fragment with no internal shift.

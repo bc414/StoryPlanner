@@ -1,0 +1,4 @@
+- sources:
+  - the latest data | fetch fresh current data from the planner and base the analysis on it rather than on what was already said in the conversation | pull the latest data | referred-to
+- order:
+- about: The user asks the model to fetch the current data and then analyze all of the lineage chains, rather than continuing to reason from the last reply's partial reasoning about Grover V.

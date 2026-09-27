@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user questions whether the story design phase should specify each scene's gap in full detail or only what the scene must achieve, leaving gap choice to prose drafting, and asks whether that is right and what the pros and cons of each approach are.

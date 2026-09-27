@@ -1,0 +1,4 @@
+- sources:
+  - canon of the published show (the Appleloosa episode) | treat as authoritative fact and use it to correct the model's claim: the Mane 6 went so Applejack could donate a tree to the new orchard, not because Celestia sent them | Celestia did not canonically send the mane 6 to Appleloosa | referred-to
+- order:
+- about: The user offers a tentative extension of the model's frontier-thesis idea (New Mareland as the post-914 ambition sink, with Celestia conflating bad ponies and frontier spirit) and corrects the model's claim about why the Mane 6 went to Appleloosa by citing what happens in the show.

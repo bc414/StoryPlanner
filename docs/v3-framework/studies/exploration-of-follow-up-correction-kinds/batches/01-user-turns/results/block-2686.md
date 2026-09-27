@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user lays out their own comparison of Chrysalis and Zarca (mefo bills, wage suppression, a domestic remittance trap, a later collapse with zebras fleeing to Mount Aris, language standardization, birth rates) and asks for a comparison with modern China and what else to consider, building on the model's material without disputing it.

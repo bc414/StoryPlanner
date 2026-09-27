@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new character idea, that Fleur's personality draws partly on early-season Twilight before she learned empathy, without saying anything about the model's framing being wrong.

@@ -1,0 +1,5 @@
+- sources:
+  - oral traditions and legends about Sparleos | treated as the existing in-world baseline, which says only that the kingdom ruled much of Griffonia for a long time; the model is asked whether Grover 3 could build an invented myth of stability on top of it | the oral traditions and legends simply say the kingdom ruled over vast amounts of Griffonia | first-named
+  - the model's general knowledge of modern German, Italian, French and English | consult for real-world precedent on whether these languages carry Greek and Roman words in learned, scientific and political vocabulary | Is this a thing in modern German and other languages like Italian, French and English | referred-to
+- order:
+- about: The user asks a follow-up question about whether Grover 3 could invent a myth of Sparleos as a stable civilization, given what the legends say, and whether real languages such as German, Italian, French and English show the same borrowing of classical words.

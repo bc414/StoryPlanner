@@ -1,0 +1,4 @@
+- sources:
+  - 300k word story bible, around 457k tokens in AI studio | the material the model is meant to draw on, which the user wants read as a whole rather than chunked or retrieved in pieces as the consumer interface does | I have a 300k word story bible that comes out to around 457k tokens | first-named
+- order:
+- about: The user describes their large story bible and asks whether hosting its text in a GitHub repository would let the consumer chat interface use it fully, since that interface's chunking gives worse results than AI Studio.

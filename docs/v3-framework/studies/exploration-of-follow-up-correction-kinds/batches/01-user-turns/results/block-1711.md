@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn attaches an instructions file and tells the model to read it in full and carry it out, without commenting on anything in the model's preceding analysis.

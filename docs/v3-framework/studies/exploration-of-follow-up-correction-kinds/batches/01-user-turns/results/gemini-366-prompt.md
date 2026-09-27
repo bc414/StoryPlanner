@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's claim that selecting "Gemini" in Google Takeout would capture the same chat history as seen in Google My Activity is contradicted by what the export actually contained | "It only gave me" | flatly, stated as a plain report of the actual result without elaboration
+- about: The user reports that following the model's suggested Takeout selection did not work, since "Gemini" only yielded "gems" and "scheduled actions," not chat history.

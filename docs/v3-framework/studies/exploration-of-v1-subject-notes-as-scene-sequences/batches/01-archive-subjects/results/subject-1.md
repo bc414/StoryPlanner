@@ -1,0 +1,37 @@
+- passages:
+  - 5146 | commentary on the source show | Comparison of the original Applejack, who was the town's star in early episodes, with the later Applejack, who lacked initiative and sat in the background | none | contrasts named episodes; no event in the story
+  - 5146 | statement about the subject | Her imposter syndrome and need to be at a machine gun in chapter 1 come from spotlight thrust on her as general, internalized passivity, and feeling helpless behind Twilight's shield at Ain Trotgourait when Honesty was worthless against the warlords | none | explanatory 'This manifests as'; refers to Ain Trotgourait without date
+  - 5146 | statement about the subject | Parenthetical: she helped break Fizzlepop's worldview without realizing it, since it meant nothing against the mindless warlords | none | bracketed aside stating what is true of her
+  - 5843 | statement about the subject | She truly mastered the machine gun and built solidarity | none | flat declarative
+  - 5845 | statement about the world lore | The moral foundation of the Republic: power is a burden to be carried, not a prize to be seized | none | stated as a principle
+  - 5396 | open question about inspiration | Query whether Lech Wałęsa should be another real-world model for Applejack | none | phrased as a question
+  - 5620 | commentary on the source episode | Applejack's Day Off bridges the cider machine trauma to the present; she equates streamlined logistics with soullessness, and the pipe and sprinkler system built with Twilight and Rarity shows automation grounded in friendship does not harm the farm | none | explains what the episode 'serves as'; interpretive
+  - 5620 | commentary and foreshadowing | Accepting spa rest doesn't make her a lazy poseur; rest is a biological need for her Ambition, foreshadowing Henri and Fleur's later lessons on Lion/Eagle dynamic and decompression after battle | none | 'learns that' plus 'foreshadows'; thematic lesson
+  - 4377 | statement about the subject | She becomes George Washington: not a tactical commander but a charismatic strategic leader through honesty and trust, a soldier at the spear tip who won't ask others to do what she won't, first president who stepped down | none | model comparison, 'She becomes'
+  - 4377 | historical reference | Washington's genius was holding the army together, riding into the line of fire to rally terrified troops | none | fact about the real figure
+  - 5577 | arc stage | From the start to the town hall she feels like an imposter, losing her soul to 'evil' industrial methods | from the start to the town hall | 'From ... to ...' stage marker; first of three
+  - 5577 | arc stage | From the town hall to Trimmel she is the Honest Worker who accepts industry as honest work (Harmonic Capitalism) and leads the Bluebell River Spearhead believing the war is finite | from the town hall to Trimmel | 'From ... to ...' stage marker; second of three
+  - 5577 | arc stage | Post Trimmel she accepts the 'Hard Truth' of geopolitics: she can't go back to farming because Equestria needs a permanent armed Republic to deter predators | Post Trimmel | 'Post Trimmel' stage marker; third of three
+  - 7 | arc summary | Her arc: stepping up to leadership to avoid being a poseur, then learning from Kemerskai that honesty isn't enough and some posture is needed to be an effective statesmare | none | single arc statement with 'and then'
+  - 4525 | model comparison | Philippe Pétain, Lion of Verdun, is a model for Applejack, layering meta-narrative tension: WWI hero turned Vichy collaborator | none | historical parallel with heading
+  - 4525 | statement about the subject | In The Princess and the Kaiser Applejack becomes the 'Vichy' Pétain, a collaborator who gave up; this story is the Anti-Vichy arc keeping the Verdun/Tall Tale heroism | none | contrast between the two stories
+  - 4525 | scene beat without year | She defies the 'White Peace' and the extradition demand, showing the moral spine Pétain lacked, the Lioness who didn't turn traitor | none | written as an act she does; no date
+  - 5844 | statement about the subject | She feels like a liar because she drummed up hope against seemingly unwinnable odds | none | explanatory declarative
+  - 5454 | statement about the subject | Her imposter syndrome isn't truly warranted; she feels it due to the changelings' asymmetric military strength | none | declarative on cause
+  - 5173 | scene beat without year | Applejack leaves Mount Aris believing the world is cruel and she can't fix it | none | opening beat of ordered backstory
+  - 5173 | scene beat without year | She and Twilight drift apart as Twilight exhausts herself rebuilding Ain Trotgourait, then retreats to the lab to build supply tech | none | 'Then' sequencing
+  - 5173 | scene beat without year | Luna wants to make her a general and she hopes following Luna will let her make a difference again | none | 'Then Luna wants...'
+  - 5173 | scene beat without year | The delusion is violently shattered at the war's start, producing the imposter syndrome seen in chapter 1 | at the start of the war | relative marker, not a calendar date
+  - 5029 | arc stage | She goes from hating industry because her parents left to respecting it once her earth pony magic is proven | none | 'goes from ... to'; first stage
+  - 5029 | arc stage | She then overcorrects, rejecting their folklore for science and resenting Celestia for keeping them in a nursery; her parents left because they saw more truth | none | 'Then she swings the other way'; second stage
+  - 5029 | statement about the theme | The theme is that the truth hurts | none | one-line theme statement
+  - 5029 | scene beat without year | By the end, talking to Sickleclaw, she finds a middle ground: there is peace in stagnation and simple farming tradition too | by the end | 'But by the end'; a conversation
+  - 5368 | scene beat without year | She refuses Luna's immediate general's star and volunteers for basic training like ordinary ponies, motivated by Ain Trotgourait | none | 'didn't ... right away'; start of ordered account
+  - 5368 | scene beat without year | She masters the machine gun fast, becomes a teacher, and believes training hard and sticking together like the Hippogriffs will hold the line | none | follows in order; ponies look up to her
+  - 5368 | scene beat without year | Because others look up to her, Luna asks again and she accepts being a general | none | 'again, and this time'; 'Since'
+- sequences:
+  - 5577 | three stages of her arc: imposter until the town hall, Honest Worker until Trimmel, hard-truth statesmare after Trimmel | 'From ... to ...' and 'Post Trimmel' stage markers
+  - 5173 | four beats from leaving Mount Aris, drifting from Twilight, Luna's general offer, to the shattering at war's start | 'Then', chained causal order
+  - 5029 | three stages plus an ending: hates industry, respects it, overcorrects, then finds middle ground with Sickleclaw | 'Then', 'But by the end'
+  - 5368 | three beats: refuses star and trains, masters gun and teaches, accepts general's rank on second ask | 'right away', 'again', 'this time'
+- whole: Applejack's notes are mostly author-side character analysis: arc outlines, psychological explanations, and historical models (Washington, Pétain, Wałęsa), plus a few ordered backstory beats on how she came to be a general and some show-episode commentary, with almost no dated events.

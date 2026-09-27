@@ -1,0 +1,4 @@
+- sources:
+  - Friendship is Magic Part 2 (Rainbow Dash's Everfree Forest loyalty test, rejecting the Shadowbolts to help her friends with the bridge) | the foundational canon episode the model is told to review first, then use as the basis for the analysis of the mirror with Ahuizotl's choice | Review the foundational canon episode | referred-to
+- order:
+- about: The user offers a new framing, that Ahuizotl's faked death to leave the hive and stay with the Tzinacatl cartel is a grown-up mirror of Rainbow Dash's loyalty test in Friendship is Magic Part 2, and asks the model to review that canon episode and analyze how the two interweave.

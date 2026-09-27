@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how Chrysalis's shell companies and banks in Skyfall and New Mareland get around the bit standard, and adds their own thematic reading that the Stagnation left Equestria unprepared for wartime predation and had already failed to shield the bit economy from global debt, without pointing at any body of material for the answer.

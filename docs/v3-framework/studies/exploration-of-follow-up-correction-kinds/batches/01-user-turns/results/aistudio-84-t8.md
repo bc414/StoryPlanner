@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the real-world Integrity discussion and asks a new question, tying the show's "spark reveals the sixth Element" prophecy and their pink-and-red lore about why Celestia lost the Elements to the five liberty elements and a sixth, Magic, as a parallel.

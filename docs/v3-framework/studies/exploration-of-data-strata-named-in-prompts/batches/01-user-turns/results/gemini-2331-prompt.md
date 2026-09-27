@@ -1,0 +1,4 @@
+- sources:
+  - what I established about the royal Aquileian navy (strictly for protecting Aquileian convoys, not raiding others) | treat as settled fact and keep the answer consistent with it when comparing privateer and convoy escort crews | I established the royal Aquileian navy is strictly for protecting Aquileian convoys | referred-to
+- order:
+- about: The user asks follow-up worldbuilding questions on how ship crew culture differs between eras and between state-owned and privateer navies, and whether privateers and convoy escorts are the same, while restating an earlier decision about the Aquileian navy's purpose.

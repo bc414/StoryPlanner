@@ -1,0 +1,4 @@
+- passages:
+  - bearing on the theme | The scene's action is mapped onto the theme's terms: Pinkie mixing red love into pink love cakes is the pink-and-red blend carried out as an object. | Pinkie put a dash of red love into her pink love cakes | yes | plain declarative summary in past tense
+  - bearing on the theme | The scene argues the theme's thesis: a little red (ambition) is needed for harmony to reach its full potential, so the cake shows harmony improved by a measure of ambition. | The idea is that a little red (ambition) is needed for harmony to reach its full potential | no | expository prose, an interpretive gloss with a parenthetical equating red with ambition
+- whole: A two-sentence gloss that restates the cake-and-canister moment and then reads it as the theme's claim that a little ambition lets harmony reach its full potential.

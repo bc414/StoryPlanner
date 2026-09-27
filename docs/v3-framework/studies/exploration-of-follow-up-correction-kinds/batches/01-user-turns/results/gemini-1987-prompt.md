@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up conceptual question about how a JSON schema differs from a JSON document holding data, without saying anything in the model's answer was wrong.

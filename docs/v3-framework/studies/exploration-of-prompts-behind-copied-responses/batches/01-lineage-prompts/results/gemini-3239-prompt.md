@@ -1,0 +1,14 @@
+- asks:
+  - correct | tells the model to narrow who counts as a "poseur," excluding wallflowers | "only rent seekers and tyrants are labeled as poseurs, not the wallflowers"
+  - brainstorm | asks for suggestions of a witty French term for "wallflowers" that reads as slightly contemptuous or patronizing but stays legible to English readers | "I need suggests for a witty French term for the wallflowers"
+  - correct | tells the model to revise Réni's fleet's mission (escorting Aquileian cargo ships instead of hunting slaver ships, plus monster-hunting for loot/glory) and to move the Statthalter conflict to after the Battle of Mount Aris | "don't hunt slaver ships... escort Aquileian cargo ships... kinetic conflict with Statthalters isn't until after the battle of Mount Aris"
+- supplies:
+  - clarification note | which character types are labeled "poseurs" versus the separate "wallflowers" group | one sentence
+  - plot correction note | Réni and the fleet's actual pre-separation activities (escort duty against the Skyfall protection racket, monster-hunting for loot and glory) and the revised timing of open conflict with the Statthalters relative to the Battle of Mount Aris against the Storm King horde | a couple of sentences
+- shaping:
+  - must be a French term | "a witty French term"
+  - tone should be slightly contemptuous or patronizing | "slightly contemtuous or patronizing"
+  - must remain comprehensible to English readers, matching how "poseur" already reads | "comprehensible to English readers the way poseur is"
+  - term must apply specifically to the "wallflowers" (the non-poseur group) | "for the wallflowers"
+- openness: The term request leaves the answer open, inviting multiple suggestions within the named criteria (witty, French, contemptuous/patronizing, legible to English readers), while the two corrections about poseur-labeling and the fleet's activities/timeline assert facts as settled for the model to adopt rather than verify.
+- subject: Coining a French epithet for "wallflower" characters and correcting worldbuilding details about Réni's fleet's duties and conflict timeline.

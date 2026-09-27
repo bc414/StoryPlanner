@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether WebAssembly serves as a modern successor to Flash Player, building on the explanation without disputing any of it.

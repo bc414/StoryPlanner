@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the submarine escape as one of four candidate endings for Chrysalis and asks which best fits their themes, adding that she will never speak or be a point-of-view character, so this is a new question with a new constraint rather than a correction.

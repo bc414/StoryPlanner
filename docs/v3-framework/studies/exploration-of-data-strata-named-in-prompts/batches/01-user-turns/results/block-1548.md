@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is designing a "Gardener Mode" for their planning tool, working out which note states can be written or read in each mode and which display text each mode needs, and then uses one ambiguous line about Applejack as a test case for how a note should be classified.

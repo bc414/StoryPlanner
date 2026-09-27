@@ -1,0 +1,13 @@
+- passages:
+  - 4270 | statement about the subject | Twilight does not hold orders of magnitude more magic than others and is not an infinite love battery; her magic talent gives her a discount on casting all magic | none | plain declarative rule about how magic works for her, negations and a cause given
+  - 4270 | statement about the subject | The intended subversion that Celestia likewise does not have orders of magnitude more magic | none | framed as 'Subversion is that...', a design point stated as fact
+  - 5795 | statement about the subject | Canterlot's crystal reserves are no longer used to move the moon but still used for alicornization, and Celestia may draw on them when sick or needing a boost to move the sun | none | present-tense description of current use, hedged with 'maybe'
+  - 5795 | scene beat without a year | All remaining high-grade crystals from the Canterlot reserves are allocated to magical supply organization in preparation for the war | none, only placed relative to 'the war after the dotted line report' | a happening (an allocation) tied to a relative story moment, no calendar date
+  - 5795 | statement about the subject | Consequence that Twilight will have known about the crystals | none | short 'So...' inference from the prior allocation
+  - 5795 | author to-do | Reminder that plot points about the mystery of the crystals need adjusting | none | 'Need to adjust' instruction to self about the plan
+  - 5427 | statement about the subject | Base magical capacity grows with training like a muscle, while cutie mark discounts stay intact | none | general rule stated in present tense with muscle comparison
+  - 5427 | statement about the subject | Twilight's and Starlight's power comes from both the cutie mark discount and training, with diminishing returns and a plateau | none | applies the rule to two characters, 'So...' conclusion
+  - 5667 | statement about the subject | In the backing lore, being an alicorn does not imply immortality, because Celestia historically made ponies with love-related special talents into alicorns to help with chaste family planning for two-mare couples | none | lore claim with historical reason, 'fanonically not implied'
+  - 5667 | design rationale | Commentary that this resolves the 'alicorn-gate' and 'Twilight will outlive her friends' readings idealistically and consistently, and subverts chastity and clopfic tropes | none | evaluative author remarks about what the lore choice achieves
+- sequences:
+- whole: A small set of author's worldbuilding notes on how alicorn and magic power work, mostly rules and lore statements plus design rationale, with one relative-timed crystal allocation event and one to-do reminder.

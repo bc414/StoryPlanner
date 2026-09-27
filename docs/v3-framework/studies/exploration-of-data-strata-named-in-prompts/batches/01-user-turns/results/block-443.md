@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's "compradors" framing of Chrysalis's adoptive parents and supplies their motives, ages, deaths, and the 991 inheritance of Krystallfels Handelsgesellschaft that leads Krista Sterling to buy the title Kriemhild von Krystallfels, without pointing at any body of material to draw on.

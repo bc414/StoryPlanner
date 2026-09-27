@@ -1,0 +1,11 @@
+- sources:
+  - The old plan | treat as the true account of Chrysalis's attitude: she never grieved and thought her mother an idiot for dying young; use it to correct the model's reading | The old plan never meant for Chrysalis to be grieving | referred-to
+  - the plan that she allied with Ditrysium to beat back Vraks | recall it and treat as the established sequence, with the alliance breaking down as the catalyst for leaving; check whether it fits ontology B better | recall the plan that she allied with Ditrysium | referred-to
+  - the story plan | the model's reading of ontology A is inaccurate against it; review the whole plan for ambiguous areas before analyzing the questions | inaccurate to the story plan | referred-to
+  - the old notes | treat as outdated on one point: they framed the alliance as an innovation, which only fits a nihilistic convention of hive wars | the old notes framed Chrysalis's alliance as an innovation | referred-to
+  - the new hive wars ontology | treat as governing: alliances are normal, fleeting and treacherous as a structural fact, so it overrides the old alliance-as-innovation framing | The new hive wars ontology dictates | referred-to
+  - your current reading of ontology A (the model's previous analysis of ontologies A and B) | treat as partly wrong and correct it: Chrysalis did not love her mother, and A did not say she was a specially trained heir but the heir who beat her trained siblings | Your current reading of ontology A is inaccurate | referred-to
+- order:
+  - The old plan over the model's current reading of ontology A | Your current reading of ontology A is inaccurate to the story plan
+  - the new hive wars ontology over the old notes' alliance-as-innovation framing | that would only apply if the hive wars were nihilistic asoiaf convention
+- about: The user corrects the model's reading of the plan's ontology A, restates the plan's alliance-and-Acornage sequence, and asks the model to review the story plan for ambiguities before working through the hybrid ontology, Chrysalis's feelings about her foster parents, the alliance framing, and Synovial's succession.

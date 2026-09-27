@@ -1,0 +1,11 @@
+- steps:
+  - the author | supplies material | attaches the full plan/chapter export as a document | opening turn, no visible text
+  - the model | validates and structurally analyses | breaks the attached chapter into an alternating-scene structure, tracing the Fleur/Twilight and Henri/Applejack lesson threads, a unified biological lexicon, and a forward-looking synthesis of the coming reunion scene | first response
+  - the author | redirects to a new, targeted request | asks for a fresh analysis of a specific flashback, naming the throughline to trace: work stress, Twilight's historical anxiety spirals, and the invention of the sleep spell | second prompt
+  - the model | delivers a second thematic analysis | walks through the endocrinology of the 'spiral,' reframes the sleep spell as an avoidance mechanism, contrasts the post-battle flashback with the present logistics stress, and states a thematic payoff about Twilight's growth | second response
+- kept:
+  - note 224 | the plan held this text before this reply | keeps a pre-existing dialogue exchange (Henri's 'she is YOUR princess' line and surrounding beats) attached to the plot point for Henri's lesson to Applejack, unchanged by the model's later commentary on it
+  - note 2259 | pasted whole from this reply | keeps the model's full paragraph explaining Twilight's dopamine/cortisol feedback loop, filed on the link between the sex-ed lesson scene and the Twilight Sparkle character entry
+  - note 2261 | pasted from this reply with cuts | keeps a trimmed version of the model's paragraph on the sleep spell as an Equestrian avoidance mechanism, filed on the same sex-ed-lesson-to-Twilight-Sparkle link
+- brought: The author brought a drafted chapter (via attachment) for validation, then a follow-up request asking the model to trace a specific thematic throughline in another scene using terminology and framework already established between them.
+- loop: The author supplies drafted or planned scene material and a directive for how to read it; the model returns extended thematic/structural analysis in the story's own biological vocabulary; the database keeps only fragments of that analysis — pasted whole or trimmed — attached to a specific character link, while a pre-existing plan snippet the model happened to quote back is preserved untouched on its plot point.

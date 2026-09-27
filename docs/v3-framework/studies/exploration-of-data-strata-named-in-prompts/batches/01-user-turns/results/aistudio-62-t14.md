@@ -1,0 +1,7 @@
+- sources:
+  - Ahuizotl's warning (from the model's proposed sequence) | accept as settled and sufficient to turn Blueblood from investigating to wanting to build and lead an army | Ahuizotl's warning is enough to make Blueblood pivot | referred-to
+  - the Changeling trident (from the model's proposed sequence) | drop it, do not use | We can ditch the trident | referred-to
+  - established trajectories of the backstories and main story requirements | treat as fixed constraints; new Blueblood and Mane 6 interactions must enhance them and not take away from them | enhance and not take away from established trajectories | referred-to
+  - Kemmerich's and Meyer's defection histories as the author states them | take as given background to build on; a shared Imperial officer history between Kemmerich and Mudbeak is offered only as a tentative suggestion | Perhaps Theodore Kemmerich and Mudbeak can have a shared history | first-named
+- order:
+- about: The user narrows the prior proposal by dropping the trident and keeping Ahuizotl's warning, then asks the model to brainstorm what Blueblood and Mudbeak's interactions at the 1006 Defense of Mount Aris (with the Mane 6, Republicans, Aquileians, Kemmerich and Meyer) can accomplish for themes and arcs without breaking established backstories.

@@ -1,0 +1,5 @@
+- sources:
+  - this historical hierarchy | treat as the given premise and build the answer on it | Given this historical hierarchy | referred-to
+  - As established (Grover III respected for policing, slaying monsters and enlightenment; Grover IV turned decadent) | treat as settled world facts already agreed; the plan should follow from them | As established, Grover III was respected | referred-to
+- order:
+- about: The user asks the model to work out King Gerad Discret's 940-972 plan to centralize power against Grover IV, grounded in the hierarchy just given and the established Grover III/IV history, while offering their own ideas (universities, bureaucrats, a Versailles-style city, recruiting oppressed ponies as the first Aquileians) to be developed.

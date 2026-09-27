@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user amends the proposed worldbuilding by stating that, in the story's world, the Canterlot Archives lack the chemistry of earth pony magic, folklore is Equestria's only belief, and the real science comes from the University of Pridea after 981 and circulates underground in Manehattan parloirs.

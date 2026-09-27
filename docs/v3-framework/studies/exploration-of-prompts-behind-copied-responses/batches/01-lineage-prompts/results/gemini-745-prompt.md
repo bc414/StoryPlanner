@@ -1,0 +1,7 @@
+- asks:
+  - check | asks whether a specific thematic idea can still serve as Trimmel's parting advice given the newly described nightmare and context | "can it still be about the safety of the cage? aka don't go back to normalcy, something like that"
+- supplies:
+  - plan outline | two Applejack nightmare sequences (a lost-cause farm-labor dream in chapter 1, and a changeling-overseer dream in chapter 2 set on a new Appleloosa farm after the first battle of Tall Tale), the chain of events tying the nightmare to Luna's retreat order, Applejack's defiance of that order versus a referenced other version ("P&K") where she loses hope, and the closing beat with Trimmel and a bruised but smiling Apple Bloom | several paragraphs
+- shaping:
+- openness: The message mostly lays out the plan as settled and only raises one point as a check — whether the "safety of the cage / don't go back to normalcy" idea can still work for Trimmel's advice in this new version of the scene.
+- subject: Planning Applejack's two nightmare sequences and the Tall Tale retreat scene in a My Little Pony war fanfiction

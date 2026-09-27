@@ -1,0 +1,4 @@
+- sources:
+  - my story plan | the body of material the model is to examine and measure, dividing it into war-story content and other content | How much of my story plan is a "war story" versus other things? | referred-to
+- order:
+- about: The user asks the model to assess what share of their story plan is war story and what share is something else.

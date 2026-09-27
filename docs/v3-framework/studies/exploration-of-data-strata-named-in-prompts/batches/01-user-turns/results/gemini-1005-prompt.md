@@ -1,0 +1,4 @@
+- sources:
+  - the real world | draw on real-world examples to say whether any regions have perpetually constant temperature, as a comparison for the setting | Are there any perpetually temperature regions in the real world? | first-named
+- order:
+- about: The user asks the model to extend the implications of the no-seasons model to Herzland and Aquileia and to find real-world perpetually temperate regions, and states a new worldbuilding decision that insects and microbes should be reduced because the weather is manufactured.

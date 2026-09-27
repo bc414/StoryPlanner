@@ -1,0 +1,20 @@
+- relations:
+  - 880|881|revises and narrows: the second says the Anthropic Principle applies to the ponies' magic rather than to ecology, unlike the real-world use of it in the first|The Anthropic Principle applies to their magic, not the ecology|explicit
+  - 875|881|instance of a general canon fact: ponies controlling weather in canon grounds the claim that they control their weather to make agriculture happen|Ponies explicitly control the weather / they actually control their weather|implicit
+  - 876|877|instance or mechanism for a general claim: the post-Winter Wrap Up storm as the nitrogen fertilizing event shows how Winter Wrap Up feeds the agrarian miracles|comes after Winter Wrap Up and is the nitrogen fertilizing event / essential for Equestria's agrarian miracles|implicit
+  - 877|878|the reader's response to what the other states: readers first take Winter Wrap Up as an insult, then learn the weather management makes the harvests, which is the claim that it is essential to agriculture|Winter Wrap Up is essential / they eventually learn the reality is the weather management|implicit
+  - 878|881|presupposes: the reveal that weather management is how the magic makes great harvests depends on the claim that their agriculture magic is tied to weather control|weather management is how the magic works to make great harvests / agriculture-related magic|implicit
+  - 877|890|presupposes and continues in time: the collapse of the artificial seasons destroying yields depends on the seasons being essential to agriculture|the artificial seasons collapse, destroying the rich agricultural yields / essential for Equestria's agrarian miracles|implicit
+  - 881|883|instance of the tuning claim: the tribes picking the seasons that gave the best agriculture is how the magic came to be tuned for survival|figuring out what pattern gave them the best agriculture / tuned for weather management cooperation|implicit
+  - 881|1619|instance of the tuning claim: unicorns moving the sun and moon to give plants a diurnal cycle is one way the ecology was built by magic|Unicorns had to move the sun and moon because plants require a diurnal cycle / They created the ecology|implicit
+  - 883|1619|both give the mechanism behind the seasons and weather: one has the tribes copying weather patterns, the other says the sun and moon cycle and thermal gradients let pegasi make any weather|copying the weather of different latitudes / thermal gradients are necessary to create wind|implicit
+- outward:
+  - 885|Luna's earlier action against the magical beasts, held elsewhere in the plan|until after Luna eliminated all the magical beasts
+  - 885|Cloudsdale, a place with its own history elsewhere|There was no central Cloudsdale
+  - 876|the episode or story Look Before You Sleep, and its storm|The massive thunderstorm in Look Before You Sleep
+  - 875|Faust's FiM as the source canon|Ponies explicitly control the weather in Faust's FiM
+  - 881|the EaW story and its world as another setting|FiM and EaW is different
+  - 878|the Aquileians, a people not described in this item|The Aquileians initially view Winter wrap up as an insult
+  - 890|the changeling occupation, an event held elsewhere|Under changeling occupation
+  - 883|the three tribes and their traditional seasons, lore held elsewhere|The three tribes came up with their traditional seasons
+- whole: The notes mostly hang together around one argument, that the ponies' weather magic and seasons are tuned for agriculture, with the analogy, canon, function, reader and usage notes leaning on it, but the invention note on Cloudsdale and Luna stands apart as a separate entry.

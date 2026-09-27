@@ -1,0 +1,6 @@
+- asks:
+  - comparison | asks the model to compare something referred to only as "this" (not included in the given text) to how Erwin Rommel actually led his troops in three named campaigns | "How does this compare to how Erwin Rommel actually led his troops in Poland, France and north Africa?"
+- supplies:
+- shaping:
+- openness: Leans toward an answer it names: the comparison target is specified as Rommel's actual historical leadership in Poland, France, and North Africa, though what "this" refers to is not given in the message.
+- subject: Comparing an unspecified prior reference to Erwin Rommel's real-world troop leadership in Poland, France, and North Africa

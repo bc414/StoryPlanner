@@ -1,0 +1,15 @@
+- steps:
+  - author | establish-character-worldview | Celestia's hatred of Aquileia, blindness to consensual pony-griffon relations, her own repressed ambition, her long-reign perspective | opening of the prompt
+  - author | clarify-plot-device | Twilight's invented 'Luna Doctrine' myth and its planned later reveal tied to the Grover III-to-IV transition | early in the prompt
+  - author | pose-worldbuilding-question | asks where the cutie mark system originated, linking it to what Grover III learned and to the canonical Hearth's Warming episode | middle of the prompt
+  - author | draft-hypothesis | proposes a materialist division of labor among the three tribes (pegasi hunting, earth ponies farming, unicorns powering sun/moon) | middle of the prompt
+  - author | self-correct | flags that ponies are herbivores and revises the hunting role to self-defense only | middle of the prompt
+  - author | reframe-source-material | treats the in-world Hearth's Warming tale as a sanitized myth and sketches an unsanitized version built on tribal interdependence rather than a grand founding event | later in the prompt
+  - author | extend-character-backstory | proposes Luna leading a thestral army to eradicate remaining monsters, explaining her title and her postwar motive | later in the prompt
+  - author | request-and-supply-material | asks for a thorough analysis and attaches the canon episode transcript as supplemental reference | end of the prompt
+  - model | synthesize-framework | links the author's fragments into four connected lore threads: a labor-conflict origin myth, a thestral demobilization crisis, the cutie mark as a compliance mechanism, and the Luna Doctrine/Aquileia hatred | body of the response
+  - model | offer-next-step | proposes drafting a scene where Twilight uncovers the unsanitized history | end of the response
+- kept:
+  - note 5239 | the author's own words in this record | keeps the author's characterization of Celestia's worldview (hatred of Aquileia, blindness to consensual relations, projected ambition, long-reign perspective), filed under the Subject 'Princess Celestia' entry with a minor phrasing edit from 'hates' to 'is wary of' regarding Ambition
+- brought: The author brought forward established lore (Grover III/IV history, Coltbert's reforms, Ambition, Luna's banishment timeline) and attached the canonical Hearth's Warming Eve episode transcript as supplemental source material for reinterpretation.
+- loop: The author brings a pre-drafted character psychology alongside open worldbuilding questions and a canon source text; the model returns an extended synthesis that ties the fragments into a new framework, but only the author's own already-formed character description is carried into the plan database, while the model's newly generated synthesis remains in the conversation rather than being filed.

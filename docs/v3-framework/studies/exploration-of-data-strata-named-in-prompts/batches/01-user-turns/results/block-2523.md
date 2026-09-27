@@ -1,0 +1,5 @@
+- sources:
+  - my interactions with the author back then | material to analyze in retrospect; treated as the earlier state to be looked back on and compared with the present | interactions with the author back then | referred-to
+  - my understanding now | the present view that the earlier interactions are to be compared against | compared to my understanding now | referred-to
+- order:
+- about: The user asks the model for a retrospective analysis that sets their past interactions with the fic's author beside what they understand now.

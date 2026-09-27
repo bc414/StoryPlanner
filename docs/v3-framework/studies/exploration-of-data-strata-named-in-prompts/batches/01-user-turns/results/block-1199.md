@@ -1,0 +1,4 @@
+- sources:
+  - Kyukon Universalis.docx | the attached story plan is the material the model is to analyze | Attached file: Kyukon Universalis.docx; Give an analysis of this story plan | first-named
+- order:
+- about: The user attaches a document containing a story plan and asks the model to analyze it.

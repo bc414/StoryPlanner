@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain in formal terms how the real-world oil and dollar system works, checking their own two guesses (oil as the useful commodity, the dollar backed by the US government), apparently to compare it with the story's energy economy.

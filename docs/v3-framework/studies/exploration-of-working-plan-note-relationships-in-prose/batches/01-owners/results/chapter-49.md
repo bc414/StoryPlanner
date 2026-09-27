@@ -1,0 +1,4 @@
+- relations:
+- outward:
+  - 2452|The failure of the heroism complex, which the reader is said to already know, points at events or story knowledge held elsewhere (later outcomes, or another work) that is not in this item|the reader knows the heroism complex fails
+- whole: This owner holds a single note, so there is nothing in it to hang together or to separate.

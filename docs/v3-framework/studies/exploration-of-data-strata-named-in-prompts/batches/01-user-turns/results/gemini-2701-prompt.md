@@ -1,0 +1,5 @@
+- sources:
+  - the chapter Breakthrough, in my recent revisions of the story plan | treat as the current, updated version of the plan; the change giving Celestia and Luna agency before the war ends is settled and approved, and is the starting point for the analysis | "in my recent revisions of the story plan, I am now giving Celestia and Luna agency" | referred-to
+  - my later plot points | the existing later parts of the plan, to be checked against the revised Breakthrough chapter to work out which ones are affected | "How does it affect my later plot points?" | referred-to
+- order:
+- about: The user announces a revision to the Breakthrough chapter of their story plan, giving Celestia and Luna agency before the war ends, and asks the model to work out how that change affects the later plot points.

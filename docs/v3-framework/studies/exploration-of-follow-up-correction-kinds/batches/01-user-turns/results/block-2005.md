@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's Technology-subject test in their own tentative terms, as a theme backed by trackable evidence, and then tests it by asking whether the Ju 87 Stuka and its Jericho trumpet would qualify.

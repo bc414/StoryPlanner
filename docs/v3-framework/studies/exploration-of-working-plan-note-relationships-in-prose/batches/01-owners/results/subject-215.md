@@ -1,0 +1,5 @@
+- relations:
+- outward:
+  - 908 | The geopolitical macro-conflicts of Griffonia, held elsewhere in the plan | connects the geopolitical macro-conflicts of Griffonia
+  - 908 | The localized, character-driven conflicts of Equestria, held elsewhere in the plan | localized, character-driven conflicts of Equestria
+- whole: The owner holds a single note, so there is no set to hang together, and its only ties run to material outside this item.

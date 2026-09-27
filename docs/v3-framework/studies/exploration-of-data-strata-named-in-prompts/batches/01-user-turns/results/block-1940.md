@@ -1,0 +1,8 @@
+- sources:
+  - The "master claim" of the story, as the author believes it | the author's own stated view, offered for the model to weigh against the draft propositions rather than as settled; conscience and cooperation are stronger than extraction | I believe the "master claim" of the story is | first-named
+  - The "healthy balance" proposition | the model's earlier draft proposition, to be compared with the author's master claim to decide whether they are the same or separate | Is this the same or separate from the "healthy balance" proposition? | referred-to
+  - Faust's original themes | the original show's themes, treated as what the master claim shows to be real in grown-up form | Faust's original themes in grown up form are real | referred-to
+  - The meta-level story building framework | treated as the origin of the material conditions proposition, which is therefore a meta-level claim and not one made inside the story | the material conditions thematic proposition comes from the meta-level story building framework | referred-to
+  - The "wrong conclusions" proposition | the model's borderline draft proposition, treated as grounded in the reader's belief update and clash and not in the characters | rooted in the reader prior belief update/clash and something the reader experiences, not characters | referred-to
+- order:
+- about: The author offers their own view of the story's master claim, asks whether it is the same as the drafted "healthy balance" proposition, and observes that the material conditions and wrong conclusions propositions sit at the meta or reader level and not the character level.

@@ -1,0 +1,8 @@
+- sources:
+  - Transcripts/Bridle_Gossip on mlp.fandom.com (transcript of her debut episode) | review it and draw on it for the backstory; it is the canon evidence for her arrival timing | Review the transcript of her debut episode | first-named
+  - my story plans | review and draw on them alongside the transcript when building the backstory | Review the transcript of her debut episode and my story plans | referred-to
+  - the episode (her debut episode's implication about her arrival) | treat as suggesting she is a relatively new arrival to Ponyville shortly before Twilight, and build on that | The episode seems to suggest she is a relatively new arrival | referred-to
+  - Nightmare Moon's return (canon event) | offered as a possible link for her departure; the user asks whether it can be related, a tentative suggestion | So it can it be related to Nightmare Moon's return? | referred-to
+  - Chirropterra adjacent to Zebra lands | offered as a possible cause of her leaving, a tentative idea to be explored rather than settled | What if it has to do with Chirropterra which is adjacent to Zebra lands? | referred-to
+- order:
+- about: The user gives a wiki transcript link and asks the model to review it with their story plans to devise a backstory for why and how Zephyr-style zebra character left Zebrica for the Everfree Forest, floating Nightmare Moon's return and Chirropterra as possible causes.

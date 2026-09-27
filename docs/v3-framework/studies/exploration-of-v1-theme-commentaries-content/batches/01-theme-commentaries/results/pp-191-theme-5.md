@@ -1,0 +1,4 @@
+- passages:
+  - bearing on theme | Argues that grace in this scene is not mere niceness but pays off in practical, economic terms, which frames the mercy toward the changelings as instrumentally beneficial | "Grace isn't just about being nice for the sake of it. It will yield better economic outcomes" | no | expository prose, a thesis-style claim
+  - fabula content | States as world fact that rehabilitated changelings can donate love, named by colour (pink and red), to feed the war effort | "the rehabbed changelings donate pink and red love for the war effort" | yes | parenthetical aside, brief explanatory example
+- whole: A two-sentence note arguing that grace here is justified by its practical, economic return, with a parenthetical naming the love donated by rehabilitated changelings as the payoff.

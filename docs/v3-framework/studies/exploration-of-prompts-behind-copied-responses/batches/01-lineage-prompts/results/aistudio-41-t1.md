@@ -1,0 +1,10 @@
+- asks:
+  - brainstorm | develop the premise that Eagleclaw never married because she liked Chrysalis's griffoness persona | "What if Eagleclaw never married because she liked Chrysalis's griffoness persona?"
+  - elaborate | flesh out a recurring scene of the two having innocent sleepovers in their dorm | "They would have sleepovers at their dorm? Innocently"
+  - critique | judge whether this idea takes away from or weakens Eagleclaw's character | "Or does this take away from her character?"
+- supplies:
+  - attached document, uncaptured file | presumably background on Eagleclaw and/or Chrysalis relevant to the idea; content unknown since the attachment was never captured | whole document, length unknown
+  - proposed idea, a single plot premise | Eagleclaw remaining unmarried out of attachment to Chrysalis's griffoness persona, including innocent dorm sleepovers | a couple of sentences
+- shaping:
+- openness: The message leans toward wanting the idea explored but explicitly names its own worry — that it "takes away from her character" — leaving it to the model to judge whether that worry holds.
+- subject: Whether Eagleclaw's unmarried status, tied to affection for Chrysalis's griffoness persona and innocent dorm sleepovers, weakens her character

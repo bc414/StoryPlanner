@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - empirical claim about the real world (demographic research) | The model said financial incentives remove the barrier but do not create desire, and that modern adults prefer individualized lifestyles. The user says studies show people intrinsically want children and are held back by economics. | "I thought several studies indicate that modern people want children intrinsically but don't do it due to economics" | Tentative pushback. It is worded as a recollection ("I thought") and points to studies without naming them. It then asks the model to analyze the claim instead of asserting the model is wrong.
+- about: The user questions the model's barrier-versus-desire point by citing their understanding of the studies, and asks the model to assess that competing claim.

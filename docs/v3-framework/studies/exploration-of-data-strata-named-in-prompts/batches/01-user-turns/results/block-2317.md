@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two follow-up questions about the WSB population: how many would join the institutional establishment if given the chance, and how far their outlook is driven by material conditions rather than morality.

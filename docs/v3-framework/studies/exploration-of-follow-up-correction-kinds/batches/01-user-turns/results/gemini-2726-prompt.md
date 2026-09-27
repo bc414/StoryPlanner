@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the parents-and-Celestia analysis and asks a new historical question about Pétain's peasant-soil ideology, then asks how it could link Leonce du Roc's contempt for warlords with Applejack's farm ethos scaled up to industrial war.

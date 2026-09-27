@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a set of category names and matching primary-truth note-track names for four entity types (World Mechanics, Abstract System, Technology, Organization) and asks the model to evaluate each term, offer alternatives with reasons, and explain the difference between an abstract system and an organization, without pointing at any body of material to draw on.

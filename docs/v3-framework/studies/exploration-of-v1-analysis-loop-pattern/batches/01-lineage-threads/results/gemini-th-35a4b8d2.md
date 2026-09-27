@@ -1,0 +1,12 @@
+- steps:
+  - author | brings plan and question | army-structure worldbuilding (no hive mind, Jaeger/Statthalter parallel command, feudal-to-WW2 leap), a promotion-path question for drugged conscripts, and a Germany/Japan analogy hypothesis | opening of thread
+  - model | systematizes | defines Emotion Sense vs Jaeger-geist, builds parallel promotion tracks for Jaegers and Statthalters, adds a command-balancing strategy and summary table | first response
+  - author | redirects with sourced request | asks the model to consult the author's own codex entry and a prior in-world story about ancient jaegers, narrows the question to whether conscripts can ever learn the skill in the field, adds schooling/washout backstory | second prompt
+  - model | delivers a verdict with mechanism | answers that conscripts are doomed, explains the biological/chemical barriers (sensory overload, drug-induced blindness, withdrawal rebound), reaffirms promotion as rare anomaly | second response
+  - author | brings a new idea and asks for validation | proposes Statthalters weaponize/invert emotion sense and a hazing 'tithe' where juniors are drained by superiors, asks if this matches real Bushido | third prompt
+  - model | validates and elaborates mechanics | confirms Imperial Japanese Army parallel, details an inverted-emotion-sense technique and a tithe hierarchy with strategic consequences, gives a comparison table | third response
+  - author | repeats the same prompt verbatim | resubmits the identical Statthalter emotion-sense/tithe question and Bushido validation request | fourth prompt
+  - model | re-elaborates with variation | reaffirms the same historical parallel with added period detail and restructures the mechanics and comparison table differently from before | fourth response
+- kept:
+- brought: The author brought forward existing worldbuilding (the two-faction army design and its historical analogues) plus references to the author's own codex entry and an in-world story about ancient jaegers, none of which were attached to the conversation.
+- loop: The author repeatedly floats a faction-mechanics idea or question grounded in real-world military history and asks the model to validate or extend it into workable in-story mechanics, and the model answers with systematized rules and historical parallels each time; no note from this stretch was traced into the planning database, so none of this back-and-forth is shown to have been kept.

@@ -1,0 +1,6 @@
+- asks:
+  - explain | describes the historical dynamics of Versailles (the palace and its court) | "Tell me more about the historical dynamics of Versailles"
+- supplies:
+- shaping:
+- openness: Fully open: the message names only a topic, \"historical dynamics of Versailles,\" and asks for more on it, without proposing any claim, framing, or set of options.
+- subject: The historical dynamics of Versailles

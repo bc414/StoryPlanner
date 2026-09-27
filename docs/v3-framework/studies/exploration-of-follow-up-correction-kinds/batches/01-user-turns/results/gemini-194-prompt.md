@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user responds approvingly to the food-bombardment ending, likens it to a real-world propaganda or inflation-bomb idea aimed at North Korea, and asks the model for real-world parallels and the idea's origin.

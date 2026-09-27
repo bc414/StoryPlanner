@@ -1,0 +1,4 @@
+- sources:
+  - the Griffonian Empire page on the Equestria at War wiki (the linked URL) | material the model is to analyze and synthesize, drawing on its account of the empire and the Aquileian response to build the author's setup | Please analyze and synthesize the empire and the Aquileian response from this EaW wiki page | first-named
+- order:
+- about: The user gives a wiki page link and asks the model to analyze and synthesize its content on the empire and Aquileia's response, choosing whatever works best to reach the setup the user wants.

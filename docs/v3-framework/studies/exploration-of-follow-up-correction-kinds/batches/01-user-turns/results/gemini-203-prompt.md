@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on to a new topic, asking about historical generals' leadership styles and how those might inform the command dynamics of Applejack, Trimmel, Pagala, Synovial, and Kemerskai, without disputing anything in the prior turn.

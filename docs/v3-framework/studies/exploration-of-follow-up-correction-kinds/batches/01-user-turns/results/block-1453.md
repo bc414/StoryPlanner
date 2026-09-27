@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the relationship as a general organization-like entity, a romance thread that sits in the story thread framing. The user narrows the type: it applies to a relationship involving a POV character, and only where the arc is tightly coupled to the main thematic argument, so it is not just any relationship. | "it's not just a relationship, it's specifically about when it involves a POV character" | Mild and partial. It comes as agreement first, then a qualification with the design reason attached, and it leads straight into the user's own further exploration.
+- about: The user accepts the relationship-as-subject-type idea but narrows its definition to POV-involving, theme-coupled relationships, then tests the boundaries with other pairs (Minette and Réni, Henri and Fleur, Trimmel and Chrysalis) and wonders whether the type should require mutual effect.

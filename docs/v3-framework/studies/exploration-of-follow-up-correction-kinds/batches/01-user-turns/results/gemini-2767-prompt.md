@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request to explain Lenin's and Kerensky's respective views on the same topic, extending the comparison to two more figures without challenging anything in the previous answer.

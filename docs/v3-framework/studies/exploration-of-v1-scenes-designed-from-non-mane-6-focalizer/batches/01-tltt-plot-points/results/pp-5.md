@@ -1,0 +1,17 @@
+- present:
+  - Twilight Sparkle | reaching for coffee, gets a scroll ready, asks questions, takes furious notes | Synopsis
+  - Fleur | announces the lesson, facehoofs, deadpans, tells Twilight to take notes | Synopsis
+  - Mali | interjects, explains the Tzinacatl terms, giggles, laughs | Synopsis
+- mentioned:
+  - Applejack | Synopsis, and Character link Twilight Sparkle
+  - Reni | Synopsis
+  - Minette | Synopsis
+  - Celestia | Character link Twilight Sparkle and Codex entry Chasseur Doctrine
+  - Chrysalis | Codex entry Chasseur Doctrine
+- focalizer: Twilight Sparkle
+- shows: Twilight thinks back to the aftermath of the second battle of tall tale and nods; Twilight connects that exactly to the previous night; Twilight realizes why she invented the sleep spell
+- sides:
+  - Twilight Sparkle | she recalls the aftermath of the second battle of Tall Tale as the lesson's point about crashing after battle lands | Synopsis
+  - Twilight Sparkle | she links the chasseurs' tedious, sleepless treks to the previous night of sharing emotions with Applejack and to her spirals over Celestia's expectations, and to why she invented the sleep spell | Synopsis
+  - Twilight Sparkle | she works out, in her own reasoning, that she and Applejack may be chasseurs and that the changelings' love canisters are for faking all this | Synopsis
+  - Twilight Sparkle | she realizes why she invented the sleep spell, a blast of sedatives | Character link Twilight Sparkle

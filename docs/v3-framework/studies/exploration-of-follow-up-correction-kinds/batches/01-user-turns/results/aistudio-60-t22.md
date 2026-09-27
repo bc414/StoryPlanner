@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question that pushes the model's shield-mechanics account one step further, asking whether Giggle at the Ghostly would literally be standard protocol if the shields were standard issue, without disputing anything the model said.

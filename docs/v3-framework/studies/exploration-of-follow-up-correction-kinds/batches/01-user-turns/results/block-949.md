@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the debate analysis to a new worldbuilding question about what social commentary the story should offer conscientious tech workers at harmful-but-well-branded companies, drawing on their own career choice, without disputing anything the model said.

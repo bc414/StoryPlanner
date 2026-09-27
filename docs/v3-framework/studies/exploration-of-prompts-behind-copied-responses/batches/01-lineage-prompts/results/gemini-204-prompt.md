@@ -1,0 +1,10 @@
+- asks:
+  - question | asks whether Trimmel, in his climactic battle against Synovial, commands the whole of SECEF's forces or only a smaller combined-arms unit that spearheads the assault | "Is he in command of all of SECEF or just a small combined arms group of units?"
+  - brainstorm request | asks for help figuring out what role Applejack should play during the Canterlot paradrop, since the writer hasn't settled it | "I'm not sure how to handle Applejack during the paradrop in Canterlot."
+- supplies:
+  - plan overview | the writer's own summary of how Applejack's command role shifts battle to battle (trench soldier, Eisenhower-style speaker, unit radio/tank commander, frontline leader) alongside sketches of Henri, Twilight, Mali, Trimmel, Synovial, Pagala, and Kemerskai's roles across the war's chapters | several paragraphs covering roughly a dozen battles and chapters
+- shaping:
+  - any answer about Applejack must keep her as strategic-only, never a tactical commander, per her stated trauma from the war's opening battle | "I don't envision Applejack ever being a tactical commander, only a strategic commander... She leaves tactics to the professionals."
+  - any answer about Trimmel should preserve the irony that his Hivemarshall title (nominal control of logistics, given by Chrysalis to spite Synovial) doesn't match his real battlefield instinct as a frontline tactician | "Hivemarshall is just a title to spite Synovial"
+- openness: Mixed: the Trimmel command-scope question already leans toward an answer the writer names ("I guess he should be the tip of the spearhead and that makes enough thematic sense"), while the Applejack-at-Canterlot question is left genuinely open, stated only as unresolved uncertainty with no proposed answer.
+- subject: Mapping which characters, especially Applejack and Trimmel, lead from the front versus command from behind across the war's successive battles

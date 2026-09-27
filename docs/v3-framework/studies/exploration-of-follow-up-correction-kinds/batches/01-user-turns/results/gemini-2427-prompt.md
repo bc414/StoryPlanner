@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's Rarity analysis alone and opens a new question, asking where the New Mareleans headcanon for Trixie comes from and how it fits with Aquileia as the ego-capitalist center and with Trixie's poseur persona in Boast Busters.

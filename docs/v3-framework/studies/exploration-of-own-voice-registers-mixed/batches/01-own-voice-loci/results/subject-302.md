@@ -1,0 +1,9 @@
+- passages:
+  - 5316 | plain expository | flat declarative clause, no evaluative words | statthalters guarding slaver ships from privateers | apart
+  - 5317 | plain expository | flat declarative clauses on reassignment and blockade duty | jaegers transferring and statthalters taking submarines to blockade | apart
+  - 5317 | condemning/characterizing | judgmental adjective and animal-pack metaphor | casting the blockade as cowardly predation on unarmed ships | run-in
+  - 5326 | causal-explanatory | chain of 'so', 'that's how', 'but ... pretends' linking cause to motive to concealment | Chrysalis copying the royal navy's monster-hunt to harvest red love and hide it as drug supply, disguised as warlord tribute | apart
+- shifts:
+  - 5317 | plain expository | condemning/characterizing | turn to judgmental adjective 'cowardly' and metaphor 'wolfpacks' inside the same sentence
+- registers: plain expository; condemning/characterizing; causal-explanatory
+- whole: Two of the three notes hold a single plain expository register apart on their own, while the third turns mid-sentence, with no break, from that same plain register into a condemning, metaphor-laden one, so the item as a whole holds three registers, mostly kept apart by note but joined run-in once within a sentence.

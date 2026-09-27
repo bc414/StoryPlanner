@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | Says the scene shows Applejack as an active agent rather than a passive one, which is the only way this scene is tied to the subversion theme; the contrast with P&K is left unstated | Applejack not passive | no | planning shorthand, a verbless fragment with the copula dropped
+- whole: A three-word shorthand note that characterizes Applejack in this scene as active rather than passive, leaving the link to P&K Subversion implicit.

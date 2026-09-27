@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model closed by declaring the thinking finished and pressing the user to pick a scene or chapter to write, when the user is only researching and building background knowledge | "I'm not planning on drafting or writing right now; I am working on expanding my knowledge base" | flatly, as a short statement of where they are, with no irritation, and then carrying straight on to their own questions
+- about: The user declines the model's push to start drafting, says they are in a research phase, and sets out a list of factual questions on neurochemistry, cocaine, betel nut, khat and meth treatment.

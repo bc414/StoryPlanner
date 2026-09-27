@@ -1,0 +1,6 @@
+- asks:
+  - analyse/compare | asks the model to determine whether groups exist in America that resemble ISIS but drawn from a white Anglo-Saxon Protestant demographic | the question itself, 'Are there WASP groups in America which mirror ISIS?'
+- supplies:
+- shaping:
+- openness: open — the message poses a yes/no comparative question without naming a preferred answer, a specific group, or criteria for what 'mirror' should mean, leaving the model to define and answer it
+- subject: whether American WASP extremist groups resemble ISIS

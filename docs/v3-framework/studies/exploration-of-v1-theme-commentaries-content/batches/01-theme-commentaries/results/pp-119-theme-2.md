@@ -1,0 +1,3 @@
+- passages:
+  - bearing on theme | The scene is framed as a character's realization that the Elements' rejection came from a harmony that had become tyrannical comfort, not from pacifism. That puts the scene's pure-harmony failure on the stagnation side of the theme's balance. | "didn't reject her for being a pacifist; they rejected her for being a tyrant of comfort" | no | Single declarative sentence of planning shorthand, built as a contrast ("didn't... they rejected her for...") with an unnamed "She"
+- whole: A one-sentence statement of a character's realization that reframes the Elements' rejection of her as a rejection of enforced comfort rather than of pacifism, tying the scene to the theme's pure-harmony-as-stagnation side.

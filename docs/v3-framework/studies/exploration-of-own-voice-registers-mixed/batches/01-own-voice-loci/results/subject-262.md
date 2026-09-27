@@ -1,0 +1,32 @@
+- passages:
+  - 4508 | worldbuilding-fact | dated third-person statement of capital history | New Manehattan as original capital and Sunset's founding | apart
+  - 4508 | interpretive-commentary | claim about implied meaning, "is supposed to imply", "cynically decided" | meaning of the name Sunset and motive for the capital move | apart
+  - 4508 | first-person aside | first-person pronoun "my lore" | framing the penal-colony premise as the author's own lore | run-in
+  - 4508 | interpretive-commentary | return to third-person claim about symbolic meaning | Sunset as landing port of the exile ship and sun/exile symbolism | run-in
+  - 4508 | interpretive-commentary | present-tense symbolic claim, new paragraph | ponies physically and metaphorically leaving Day for Night | apart
+  - 4508 | conceptual-framework | capitalized invented terms "Red Love", "Predator's Dilemma" | ambition-driven capitalism governing New Mareland and exploitation of exiles | apart
+  - 4509 | historical-causal | terse third-person cause statement, "since" | reason ponies break from Equestria after the princesses retreat | run-in
+  - 4509 | rhetorical-question | embedded question form | voiced reasoning for why stay tied to Equestria | run-in
+  - 4509 | historical-causal | short declarative fragment, new sentence | Chrysalis's Skyfall griffons pushing the break | apart
+  - 4510 | historical-causal | terse declarative summary | becoming a Wingbardian vassal instead of fighting a war | apart
+  - 5244 | interpretive-commentary | causal/purpose claim, "keeps the ponies from" | sea monsters as a threat curbing pony ambition | apart
+  - 5279 | worldbuilding-fact | plain third-person description of a program's mechanism | Celestia's foal repatriation program and its discarded-foal pipeline | apart
+  - 5279 | interpretive-commentary | evaluative phrase "ultimate, tragic depiction" | judgment that Celestia treats symptoms not causes | apart
+  - 5279 | worldbuilding-fact | plain descriptive listing of logistics | the sea journey, cloud carrier, and escorting creatures | apart
+  - 5279 | interpretive-commentary | explicit real-world analogy, parenthetical comment | hippogriff/seapony bedtime story mirroring the stork legend | apart
+  - 5279 | worldbuilding-fact | plain narrative sequence of events | exile arrival, month in Sunset, option to return, foal caretaking duty | run-in
+  - 5279 | interpretive-commentary | evaluative phrase "a ruthless move" | judgment that caretaking duty reforms toxic ambition | run-in
+- shifts:
+  - 4508 | worldbuilding-fact | interpretive-commentary | shift from dated fact to claim about implied meaning ("is supposed to imply")
+  - 4508 | interpretive-commentary | first-person aside | first-person pronoun "my lore" enters
+  - 4508 | first-person aside | interpretive-commentary | return to third-person claim "the city of Sunset takes on..."
+  - 4508 | interpretive-commentary | conceptual-framework | paragraph break plus capitalized invented terms "Red Love", "Predator's Dilemma"
+  - 4509 | historical-causal | rhetorical-question | shift into question form voicing reasoning
+  - 4509 | rhetorical-question | historical-causal | return to declarative fragment in a new sentence
+  - 5279 | worldbuilding-fact | interpretive-commentary | evaluative phrase "ultimate, tragic depiction" enters
+  - 5279 | interpretive-commentary | worldbuilding-fact | new paragraph returns to plain descriptive journey detail
+  - 5279 | worldbuilding-fact | interpretive-commentary | explicit analogy "mirroring the real life story of the stork"
+  - 5279 | interpretive-commentary | worldbuilding-fact | new paragraph returns to plain narrative sequence
+  - 5279 | worldbuilding-fact | interpretive-commentary | evaluative phrase "a ruthless move" after semicolon, same sentence
+- registers: worldbuilding-fact; interpretive-commentary; first-person aside; conceptual-framework; historical-causal; rhetorical-question
+- whole: These five notes move between several registers—plain worldbuilding-fact statements, evaluative interpretive-commentary, terse historical-causal summaries, one embedded rhetorical question, a single first-person aside, and a conceptual-framework passage of invented terms—sometimes separated by paragraph breaks a reader would notice and sometimes running into one another inside a single sentence with no break at all.

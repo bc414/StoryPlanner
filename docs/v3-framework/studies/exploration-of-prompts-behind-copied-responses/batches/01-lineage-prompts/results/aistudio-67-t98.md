@@ -1,0 +1,10 @@
+- asks:
+  - check | asks whether the proposed short letter text is sufficient as Celestia's reply | "should Celestia's return letter simply say... Is this enough"
+  - check | asks whether that wording is enough to imply agreement | "Is this enough to imply agreement?"
+  - brainstorm | asks whether something else should be added to the letter | "Or should something else be added?"
+  - check | asks whether omitting the titles "General" or "Princess" makes sense as a subtle implication | "it seems to make sense to not include 'General' or 'Princess' as a subtle implication"
+- supplies:
+  - draft line | a proposed one-line letter from Celestia reading "Please come home safe. -Celestia" | a single short line
+- shaping:
+- openness: Leans toward an answer it names: it proposes the exact letter wording and the choice to omit titles, and asks the model to confirm or improve on these specific choices.
+- subject: Wording and subtext of a short in-story letter from Celestia, including whether to omit formal titles

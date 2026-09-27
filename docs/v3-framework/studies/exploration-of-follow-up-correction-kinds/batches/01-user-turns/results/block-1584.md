@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's three gap questions and gives a new task: they upload an old prose chapter from a different story and ask the model to split it into sample plot points with stakes, outcome and reader understanding, so they can see what scope to use in their planner.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The user says the drafted Phase 2 prompt leaves out the requirement that every part of the input appear in the output at least once, or else go to Garbage or Authorial Directives. | "totally missing the requirements about including every part of the input data" | flat, blunt statement of an omission, with no apology, no reason and no suggested fix
+- about: The user rejects the drafted Phase 2 prompt by saying it omits the coverage requirement that all input be kept somewhere in the output, either in a bucket, in Garbage, or under the authorial rule.

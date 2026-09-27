@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the changeling-kindergarten and flight-school parallel, checks their reading of why Fluttershy likes animals, and then floats a new backstory idea of buffalo caretakers at Rockfeller's observatory when she was a filly, asking for pros and cons, without objecting to anything the model said.

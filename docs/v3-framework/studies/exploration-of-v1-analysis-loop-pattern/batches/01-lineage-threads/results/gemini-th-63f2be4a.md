@@ -1,0 +1,7 @@
+- steps:
+  - the author | request | an attached list of 20 story concepts plus an instruction to trace each one's origin through the planning notebooks/files | opening prompt of the exchange
+  - the model | chronological trace | maps each of the 20 concepts to specific dated notebook files and groups them into four development phases (subversion, magic-system, geopolitics, synthesis) | body of the response
+  - the model | summary verdict | a closing evaluative statement characterizing the author's overall method as turning tropes into systemic material logic | end of the response
+- kept:
+- brought: The author brought an attached list of 20 story concepts and asked the model to trace their origins across the author's own planning notebooks/files.
+- loop: The author supplied a ready-made list of concepts and the raw notebook history for the model to organize into an origin trace, but the resulting chronological trace and verdict were not captured back into the planning database as any note.

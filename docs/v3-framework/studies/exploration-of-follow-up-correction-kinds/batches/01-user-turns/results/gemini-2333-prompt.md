@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn restates that they meant the pre-978 period and asks again whether Skyfall's escorts and privateers are separate fleets or the same ships and crews, without objecting to anything the model just said.

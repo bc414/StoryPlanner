@@ -1,0 +1,12 @@
+- relations:
+  - 377|378|continuation in time, with 378 depending on 377: Celestia's deliberate attempt to recruit Discord is followed eight years later by his working out that she only wanted to use him|Celestia only wanted to use him (378) against Celestia tried to recruit Discord intentionally (377)|implicit
+  - 370|378|reason for what happens: the cutie mark theory says chaos gives no help against an organized resistance to an army, and 378 shows his chaos magic failing to stop the war|not an organized resistance against an army (370) against it cannot impede the chaos of war (378)|implicit
+- outward:
+  - 377|Twilight giving up her magic and the friends Celestia bargained for, held in other notes|Twilight give up her magic in return for her friends
+  - 378|Fluttershy and the other friends, whom he is loyal to|genuine friendship with Fluttershy and the rest
+  - 378|the coming war and the anarchist movement in Adelart, held elsewhere|war is on the horizon; anarchist movement in Adelart
+  - 378|the pen name Jacques, whose later use lies outside this item|under the pen name Jacques
+  - 370|the Aquileian cutie mark theory, lore held elsewhere|Under Aquileian cutie mark theory
+  - 370|Chapter 8, where the reader's opinion is to be handled|(For Chapter 8)
+  - 377|the story TLTT, whose start is the reference point for this backstory|before the start of TLTT
+- whole: Notes 377 and 378 form a linked pair, an in-universe chronology with Celestia's recruitment attempt followed by Discord's discovery and departure, and note 370 joins them through one link, since its cutie mark theory explains why his chaos fails against the war.

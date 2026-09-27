@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new plot beat and characterization for Archon Eros, an unconditional surrender about two weeks after the weapons donations, and explains his motives as a sincere believer in peace through strength, without disputing anything the model wrote.

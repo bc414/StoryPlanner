@@ -1,0 +1,4 @@
+- sources:
+  - the game ("in game", "canonically", "playing the GR") | treat as established canon for Sunglider (Long March officer, idealist, more fiat currency and social programs) and for Kingfeather as the conservative defensive way to play the GR; build the backstory and ages on it | In game, he is the idealist who believes in the revolution | referred-to
+- order:
+- about: The user corrects the model's picture of the GR's factions (no Marxist party, Astler inside Sunglider's coalition, agrarian communalist left and Kingfeather's conservative right), then anchors Sunglider and Kingfeather in the game's canon, gives ages for the main figures, and floats making Sunglider the architect of the Riks as a tentative suggestion.

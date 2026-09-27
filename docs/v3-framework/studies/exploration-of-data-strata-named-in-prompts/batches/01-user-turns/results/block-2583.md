@@ -1,0 +1,4 @@
+- sources:
+  - the model's earlier statement in this conversation about producers changing casting criteria and adding TVs for partners to watch each other | treated as an established premise the user builds the Love Island question on | You mentioned the producers adjusted material conditions by changing casting criteria and adding the TVs | referred-to
+- order:
+- about: The user asks the model for a grounded analysis of whether former bronies in the manosphere would read TLTT, and whether Love Island's producers or cast will repeat the Hasbro and Lauren Faust pattern, building on the model's earlier remarks about the show's producers.

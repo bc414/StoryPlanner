@@ -1,0 +1,4 @@
+- sources:
+  - this new ontology | the framework just developed in the conversation is taken as the premise; the model is to reason from it to explain Chrysalis's narcissism | Under this new ontology | referred-to
+- order:
+- about: The user asks the model to work out, from the newly developed changeling framework, an explanation for Chrysalis's narcissism.

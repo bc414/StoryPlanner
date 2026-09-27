@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Tally Stock as connected to Star Energy as an employee, when in the story she is a customer who buys their machines | One clarification: she doesn't work for Star Energy but is a customer who purchases their machines | Stated flatly as a clarification, with a story-logic reason given in parentheses (a Star Energy worker would serve the war effort at the munitions factory, not the trench, and she must meet Applejack there as a fellow machine gunner)
+- about: The user corrects the model's assumption about Tally's relationship to Star Energy (customer, not employee) and then moves on to asking for MLP-style images of all three design options.

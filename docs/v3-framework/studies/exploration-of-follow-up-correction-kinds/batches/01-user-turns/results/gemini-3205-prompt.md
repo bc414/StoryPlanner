@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user contrasts GitHub Copilot's inline apply-and-approve diff flow with what they've just read and asks a follow-up about how Claude Code works in terminal versus desktop app, saying they feel they are missing the paradigm difference.

@@ -1,0 +1,4 @@
+- sources:
+  - my original text | keep exactly as written, verbatim, with no rearranging or word-order shifting by the AI; rigid fidelity | I want my original text. I want rigidity | referred-to
+- order:
+- about: The user rejects the proposed word-order shifting and insists the model keep their original note text unchanged, because they don't trust the AI to rearrange it.

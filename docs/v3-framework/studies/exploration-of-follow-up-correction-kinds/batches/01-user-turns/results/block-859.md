@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's spectrum analysis of the American Left and asks for the same framework to be applied to the American Right, a new request rather than a correction.

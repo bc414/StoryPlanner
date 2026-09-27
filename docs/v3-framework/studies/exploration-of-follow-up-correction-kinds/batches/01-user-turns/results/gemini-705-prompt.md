@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn holds only a placeholder for an attached plan export with no written text, so it supplies material without responding to or disputing anything in the model turn.

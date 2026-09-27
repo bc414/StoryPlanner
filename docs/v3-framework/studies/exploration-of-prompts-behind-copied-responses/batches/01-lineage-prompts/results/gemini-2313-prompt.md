@@ -1,0 +1,6 @@
+- asks:
+  - confirm | asks the model to confirm whether a stated efficiency figure still holds after two processing steps | "So even after cracking and reforming, the gasoline is still at 35% efficiency?"
+- supplies:
+- shaping:
+- openness: Leans toward checking what it states: it names a specific figure (35% efficiency) and two processes (cracking and reforming) and asks the model to confirm that figure still applies after them.
+- subject: Efficiency of gasoline production after cracking and reforming, in a fictional setting's fuel/energy system

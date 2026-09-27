@@ -1,0 +1,6 @@
+- sources:
+  - my notes about the predator's dilemma / this codex entry | treat as the entry whose original intent is being restated (the subject of Coltbert's Paper) and as provisional, since its many cross-cutting examples may be a smell to move into plot point payloads or obligations | original intent for this codex entry to capture the subject of Coltbert's Paper; it seems to cross cut many entities | referred-to
+  - Coltbert's Paper as used in chapter 2 and chapter 26 (Dilemma) | author's own account from memory of how the story uses the paper; treat as the basis for what the entry is meant to be | Fleur mentions it in chapter 2 ... when Twilight reads it in chapter 26 | referred-to
+  - the 4 existing categories | treat as unsettled; test whether they fit, need broadening, renaming or a new category, or can be distinguished by orthogonal axes | does not fit into any of the 4 existing categories | referred-to
+- order:
+- about: The user pushes back on the model's proposed codex categories, explaining that the Predator's Dilemma entry was meant to capture Coltbert's Paper as a constructed idea, and asks for better category names and defining axes and whether cross-cutting examples should go through plot points and timelines rather than entity links.

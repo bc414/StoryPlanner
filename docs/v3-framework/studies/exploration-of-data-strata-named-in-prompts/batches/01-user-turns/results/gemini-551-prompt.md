@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to elaborate on what the precursor of the drugs is and how it was sourced, without pointing at any body of material to draw on.

@@ -1,0 +1,4 @@
+- sources:
+  - the v1 db file | the material to be reviewed for gaps; the model is to read it and point out subjects that seem missing from it | Review the v1 db file | referred-to
+- order:
+- about: The user asks the model to review the v1 database file and point out any subjects that might be missing from it.

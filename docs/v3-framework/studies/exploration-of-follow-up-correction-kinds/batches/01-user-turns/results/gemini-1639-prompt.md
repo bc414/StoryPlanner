@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said Trimmel surrendered because VOPS killed Thranx and that he mourns Thranx alone in the greenhouse before Applejack arrives; in the plan he learns of the murder only after Applejack arrives, when Elvir Roland tells him over the radio. | "Trimmel does not hear about Thranx's murder until Applejack arrives" | flat clarification, stated as a plain statement of the sequence, with no apology or reproach
+- about: The user fixes the model's timeline for when Trimmel learns of Thranx's death and then moves on to a new question about what Trimmel should say at his initial surrender when he expects execution but is sent to the camp.

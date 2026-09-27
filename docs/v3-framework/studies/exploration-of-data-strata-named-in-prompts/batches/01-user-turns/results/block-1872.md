@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up history question about whether other important American founders, beyond Jefferson, Adams and Hamilton, held different stances.

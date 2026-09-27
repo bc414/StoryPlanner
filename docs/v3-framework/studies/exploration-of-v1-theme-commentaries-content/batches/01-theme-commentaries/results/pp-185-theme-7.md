@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | The scene carries the theme by showing Rainbow's loyalty shifting to her friends' sincere wishes for her, away from loyalty to the abstract state or to the nameless soldiers below | "Loyalty to her friends' earnest wishes instead of Loyalty to the abstract state" | yes | a single compact thesis fragment in a contrast form ("X instead of Y"), with no full verb, like a label or heading
+- whole: A one-line thesis fragment that names what the scene does for the theme: Rainbow's loyalty moves from the abstract state and the anonymous soldiers to her friends' heartfelt wishes.

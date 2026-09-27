@@ -1,0 +1,20 @@
+- steps:
+  - author | plot proposal | capture of Synovial, mocking, shipment to Cloudbury, and a summons to a press conference invoking chain-of-command tradition for AJ/Trimmel/Henri | opening of the author's message
+  - author | worldbuilding rule-setting | griffon knightly code explained via elites-vs-peasants logic carrying into industrial war | continues in same message
+  - author | worldbuilding rule-setting | the 'never fly enemy's flag' rule contrasted with changeling infiltrator disguise, used to frame Synovial's war crimes | continues in same message
+  - author | character critique | Gabriella Eagleclaw's hypocrisy in accepting rule-breaking allies, tied to fueling Kemerskai's zeal | continues in same message
+  - author | character distinction | Trimmel's refusal to drain ponies and his disguise as revolutionary rather than boyar, distinguished from Synovial's troops | continues in same message
+  - author | timeline question | proposes Chrysalis's conquest of Vraks in year 985 and asks whether the gap since the counter-revolution is realistic | closes the author's message
+  - model | validation | endorses the proposed 4-year gap as sufficient for Kemerskai's rise and Chrysalis's imitation | opens the response
+  - model | analysis | contrasts griffon knightly/peer war code against changeling predator code, elaborating Gabriella's hypocrisy and Kemerskai's framing of Synovial as a civilizational traitor | early in the response
+  - model | table construction | builds a year-by-year 981-985 timeline mapping Cloudbury's rise and the Reich's gift of weapons to the lessons and tools Chrysalis absorbs before conquering Vraks | middle of the response
+  - model | scene drafting | drafts the press conference scene setting, cast reactions (Kemerskai, Henri, Trimmel, AJ), and Synovial's public shaming | middle of the response
+  - model | ethics elaboration | distinguishes perfidy from espionage to justify Trimmel's wartime disguise and links his stale-ration diet to a stoic rejection of love addiction | later in the response
+  - model | outline summary | proposes a chapter breakdown contrasting the front-line battle with the press-conference circus and states the resulting political theme | closes the response
+- kept:
+  - note 4043 | the author's own words in this record | keeps the pitch to Vraks drones for merit-based industrial revolt against the queens, filed under Chrysalis's New Order
+  - note 4362 | the author's own words in this record | keeps the knightly-code reasoning that elites sparing peasant labor underlies rules of war, filed under Knightly Code / Rules of War
+  - note 4363 | the author's own words in this record | keeps the 'never fly enemy's flag' rule versus changeling infiltrator disguise and the resulting framing of Synovial's war crimes, filed under Knightly Code / Rules of War
+  - note 4364 | the author's own words in this record | keeps the point about Gabriella Eagleclaw's hypocrisy fueling Kemerskai's revolutionary zeal, filed under Gabriella Eagleclaw
+- brought: The author brought a combined plot beat (Synovial's capture and a ceremonial summons) together with several worldbuilding elaborations on griffon war ethics, changeling predator identity, a named character's hypocrisy, and a timeline question about Chrysalis's conquest of Vraks.
+- loop: The author brought a dense bundle of a new plot beat, several worldbuilding rules, a character judgment, and a timeline question; the model returned validation, expanded analysis, a timeline table, a drafted scene, and a chapter outline, but the planning database kept only the author's own original formulations of the worldbuilding rules and character point, sorting them into the Chrysalis, Knightly Code, and Gabriella Eagleclaw subjects while leaving the model's analysis, table, and scene draft untraced.

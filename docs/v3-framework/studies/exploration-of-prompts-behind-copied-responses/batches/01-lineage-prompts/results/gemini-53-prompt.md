@@ -1,0 +1,6 @@
+- asks:
+  - comparison | asks whether feeding the model chapters one prompt at a time works better than feeding it the entire story text in one prompt | "Would sending chapters one prompt at a time be more effective than sending the whole story text in a single prompt?"
+- supplies:
+- shaping:
+- openness: Asks for a choice between two named options — sending chapters one at a time versus sending the whole story text in a single prompt — with no material or context supplied to lean the answer either way.
+- subject: Choosing a method for delivering story text to the model (per-chapter prompts vs. one full-text prompt)

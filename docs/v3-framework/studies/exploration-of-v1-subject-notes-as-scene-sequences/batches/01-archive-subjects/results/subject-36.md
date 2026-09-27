@@ -1,0 +1,5 @@
+- passages:
+  - 4401 | design idea with in-world rationale (author's proposal to add the character) | proposes including a crystal pony as a Star Energy employee, reasoning that Star Energy would have explored the recently returned Crystal Empire for crystals compatible with their tractors | 8-9 years ago (when the Empire reappeared) | first-person proposal, 'I had a thought of including', with a reason following 'Since'
+  - 4408 | statement about the subject | backstory: she lived through the Empire's disappearance under Sombra and knows what it is to lose a nation to dark magic | none | labelled 'Backstory:', stated as fact about the character, no moment shown
+- sequences:
+- whole: Two short notes that sketch a crystal pony Star Energy employee, one proposing her inclusion and its reason, the other giving her backstory of having lived through the Empire's loss to Sombra, with no scene beats or sequences.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether a Canvas session keeps analysis or intermediate thoughts between prompts, probing a point the workflow relied on, without saying anything in the model's answer was wrong.

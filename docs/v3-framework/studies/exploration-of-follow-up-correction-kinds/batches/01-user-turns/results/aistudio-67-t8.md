@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's praised framing of a thousand-year-long Celestia trauma and proposes a new backstory (a frontier-driven calm era until 914 ALB, then closure and Stagnation) as a fresh design change, asking whether it works and how it compares with the old version.

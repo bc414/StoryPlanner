@@ -1,0 +1,12 @@
+- steps:
+  - the author | request | asks for a summary of an uploaded story document | opening of the stretch, gemini:21 prompt
+  - the model | delivery | a section-by-section summary limited to the uploaded file's content | gemini:21 response
+  - the author | correction | flags that the uploaded file is only the start, not the whole story, and asks for a full summary | gemini:22 prompt
+  - the model | clarification | explains its access is limited to the file given and asks for the complete text | gemini:22 response
+  - the author | check | asks how many words the text file contains | gemini:23 prompt
+  - the model | verification | runs a word-count script on the file and reports the total | gemini:23 response
+  - the author | resubmission | asserts the file now represents the full story and asks again for a summary | gemini:24 prompt
+  - the model | delivery | a longer summary organized into five labeled parts covering arrival, new threats, a central ordeal, new alliances and revelations, and a resolution with future setups | gemini:24 response
+- kept:
+- brought: The author brought an uploaded manuscript file of their long-form story to be summarized and verified for completeness.
+- loop: The author used the model purely as a summarizing and fact-checking tool for a manuscript already written outside this exchange, correcting the model's assumptions about the file's completeness and confirming its length, but none of the resulting summaries or exchanges were drawn back into the planning database.

@@ -1,0 +1,4 @@
+- sources:
+  - the current story plan | the basis against which the model should work out what differentiates Stalliongrad from the Griffonian Republic, including the author's stated purpose for Stalliongrad as a debunking of the Trotskyite myth, which is taken as a premise | What actually fundamentally differentiates Stalliongrad from the Griffonian Republic in the current story plan? | referred-to
+- order:
+- about: The user asks the model to say what really separates Stalliongrad from the Griffonian Republic in the plan, and whether the Republic would suffer the same mass-mobilization slaughter against Chrysalis's hive, wondering aloud whether that might be the intended point.

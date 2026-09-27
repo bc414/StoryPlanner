@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model argued against switching to an idle, safe Applejack as if the buried setup were still an open choice. The user says they had already chosen it and gave a different reason: it stops Twilight's arrival being coincidence. | I went with AJ being buried so that it would not be coincidental | Indirect and mild: the user restates their own decision and reason without saying the model missed it, and ends by asking whether it makes sense.
+  - fact of the world | The model pictured Applejack actively firing the machine gun until it clicks empty and fighting a tank with a shovel. The user says she spends some time simply buried and not acting. | There's some amount of time where she's just buried | In passing, as an added detail with no objection to the model's version, put as a sanity-check question.
+- about: The user explains their actual reason for burying Applejack, which is to make Twilight's timely arrival non-coincidental, and asks whether the setup makes sense. This quietly reframes the model's thematic defence of the choice.

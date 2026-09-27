@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the narrative analysis and asks a fresh vocabulary question about whether "parloir" is the right French word for this kind of institution, what it means, and what alternatives exist.

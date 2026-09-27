@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's timeline breakdown and asks a new, broader question about what existing story plans would be lost by making the Stagnation of Harmony a recent policy rather than a thousand-year one.

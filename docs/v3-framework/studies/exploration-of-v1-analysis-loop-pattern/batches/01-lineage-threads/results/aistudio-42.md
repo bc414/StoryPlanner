@@ -1,0 +1,25 @@
+- steps:
+  - author | supplies | an attached planning document (uncaptured) | opening of the conversation
+  - author | poses | a question asking for Mali's baseline traits, her arc, the purpose of a witnessed scene, and options for where to place it | early in the conversation
+  - model | analyzes | a baseline read of Mali, an arc description, the narrative function of the witnessed scene, two placement options with a recommendation and follow-up questions | replying to the opening question
+  - author | corrects | canon details the model's baseline read missed (Mali's combat role, existing chapter order) and asks for the analysis to be redone | after the model's first analysis
+  - model | revises | a reworked characterization, redone placement options, a new recommendation, and follow-up questions | replying to the author's correction
+  - author | redirects | reframes the goal from 'using' to 'witnessing/learning', proposes a specific scene, adds further chapter placements, and asks whether the earlier lesson should feed a later climax | after the second analysis
+  - model | elaborates | a detailed scene mechanic, a renamed character flaw, and a chapter-by-chapter ripple leading to the climax, plus follow-up questions | replying to the redirection
+  - author | introduces | a new stylistic request for foreshadowing dialogue hints | after the elaborated arc
+  - model | generates | five scene/interaction ideas with sample dialogue and reactions | replying to the stylistic request
+- kept:
+  - note 213 | the plan held this text before this reply | pre-existing plan dialogue about forcing the revolution, kept under the PlotPoint for Fleur and Henri recruiting Mali
+  - note 2316 | the plan held this text before this reply | pre-existing note on Mali adopting Fleur's revolutionary ethos, kept under the Link between that PlotPoint and Mali
+  - note 2716 | pasted whole from this reply | the model's line on Mali treating the Stare as a tool for others due to her flaw, filed under the Arrival/Shipment × Mali Link
+  - note 4664 | pasted whole from this reply | the model's broader characterization paragraph naming Mali's flaw and 'support class' role, filed under the Mali Subject
+  - note 2495 | pasted whole from this reply | the model's paragraph on Mali's mother negotiation using partial tough love, filed under the Meeting Metzli's Tribe × Mali Link
+  - note 2712 | pasted whole from this reply | the model's scene setup describing animals refusing SAA rations, filed under the Arrival/Shipment × Mali Link
+  - note 2713 | pasted whole from this reply | the model's contrast between Mali's expected coaxing and Fluttershy's enforced Stare, same Link
+  - note 2714 | pasted whole from this reply | the model's description of Mali's shock and the tough-love realization, same Link
+  - note 2715 | pasted from this reply inside the author's own framing | the tough-love lesson generalized and framed by the author, same Link
+  - note 4658 | the author's own words in this record | the author's stated idea of seeding Aquileian vocabulary in Mali's early dialogue, filed under the Mali Subject
+  - note 2312 | pasted from this reply with cuts | the model's specific bunker-critique interaction example, filed under the Applejack meets Henri × Mali Link
+  - note 2313 | pasted whole from this reply | the model's beat describing Henri's baffled reaction, same Link
+- brought: The author brought an attached planning document plus established plot specifics (Mali's combat/machine-gun role, the existing chapter order of Tempest before Passion, the outcome of the Crash negotiations, and the Breakthrough climax with Luna) to ground and repeatedly correct the model's read on Mali's character arc.
+- loop: The author repeatedly fed canon corrections and scene proposals drawn from the existing plot outline, prompting the model to return multi-part characterizations and scene-by-scene ripple analyses; the archive kept mostly the model's synthesized paragraphs verbatim, filed under the Mali subject and the specific chapter/character Links they addressed, alongside one instance of the author's own phrasing and two pre-existing plan snippets the model had quoted back.

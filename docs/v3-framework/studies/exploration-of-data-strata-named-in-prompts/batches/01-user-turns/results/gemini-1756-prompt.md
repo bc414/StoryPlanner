@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a craft question about whether Applejack's dreams of being a collaborator should be written in deep third person, like most of her scenes, or from an outside-looking-in perspective.

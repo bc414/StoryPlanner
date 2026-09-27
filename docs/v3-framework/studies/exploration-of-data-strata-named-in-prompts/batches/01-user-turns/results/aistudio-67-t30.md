@@ -1,0 +1,7 @@
+- sources:
+  - the analysis (the model's previous Tzinacatl history breakdown) | use as the base to redo; keep the parts the user endorses (flower wars as ritualistic ambition sink, export growth under Grover III) and replace the parts the corrections contradict | "redo the analysis with the following corrections" | referred-to
+  - the following corrections (the user's own points on the Everfree Forest, fangs, bat ponies, EEEE! workers, Meztli's age) | treat as authoritative and apply over the earlier analysis; some are stated as settled, others as open questions or musings to be worked through | "Please redo the analysis with the following corrections" | first-named
+  - my lore (ponies can metabolize meat and monster remains to feed their big brains) | treat as an established premise of the author's world when reasoning about Thestral evolution and diet | "in my lore, the ponies can metabolize meat" | first-named
+- order:
+  - the following corrections | over the analysis | the corrections are to be applied when the analysis is redone, replacing what they contradict
+- about: The user asks the model to redo its Tzinacatl history analysis with a set of corrections to the Everfree Forest, the export timeline, Thestral origins and fangs, the place of Equestrian bat ponies, the EEEE! workforce, and Meztli's age, and poses several open design questions.

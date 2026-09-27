@@ -1,0 +1,10 @@
+- asks:
+  - correction | rejects a proposed name as an exonym and directs that the name instead be an endonym the Tzinacatl themselves have used for 1000 years | This should be an endonym, not an exonym
+  - constraint-setting | rules out the idea that the naming comes from star energy as the namer, insisting the source of the name is the Tzinacatl people's own long usage | It's not star energy naming it
+- supplies:
+- shaping:
+  - Name must be an endonym (used by the Tzinacatl themselves), not an exonym | This should be an endonym, not an exonym
+  - Naming origin must not be attributed to star energy | It's not star energy naming it
+  - Name must be one the Tzinacatl have used for 1000 years, implying deep historical/cultural continuity | a name that the Tzinacatl have used for 1000 years
+- openness: Leans toward an answer it names: it doesn't give the actual name but specifies the required qualities (endonym, Tzinacatl-originated, 1000 years of use) that the correct name must satisfy, rejecting a prior exonym/star-energy-based naming.
+- subject: Correcting the naming/etymology of a term used by a fictional people, the Tzinacatl

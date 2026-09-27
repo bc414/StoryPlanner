@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's structural concern claimed the first kiss and confession were not plotted as scenes, but the plan has a confession and first kiss at the end of chapter 6 "Kindness" | "There is a confession scene and first kiss, it is at the end of chapter 6" | stated flatly as a plain factual counter, without blame, then paired with a request to analyze it
+  - reading of the plan | The model's account of the romance treated the plan as lacking or omitting other important romance material, missing the "We Are Monsters" scene in "Honor" and the letter exchange in the separation phase of chapters 10-12 | "There is also another important scene titled \"We Are Monsters\"" and "During the separation phase from chapters 10-12 they send letters" | in passing, as added details the model overlooked, framed as material to be analyzed rather than as explicit error
+- about: The user supplies plan details the model's analysis missed or said were absent (the chapter 6 confession and first kiss, the \"We Are Monsters\" scene, the chapters 10-12 letters) and asks for them to be analyzed.

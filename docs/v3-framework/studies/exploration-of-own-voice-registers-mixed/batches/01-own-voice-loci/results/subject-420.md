@@ -1,0 +1,19 @@
+- passages:
+  - note 48 | thesis-statement | gerund-led declarative overview, no first person | purpose of deconstructing rugged individualism/wedge issues as elite tool | apart
+  - note 4230 | planning-rationale | first-person "it makes sense", causal reasoning | tying rugged individualism to glamour via griffon ambition | apart
+  - note 4230 | quoted-slogan | quotation marks, second-person imperative, exclamation | an in-world catchphrase example | apart
+  - note 4231 | planning-rationale | first-person "I won't", concrete plot reference | limiting focus on gender wedge except Henri's group | apart
+  - note 4231 | analytic-comparison | impersonal abstract noun phrase, no first person | individual dominance vs collective bargaining as seductive angle | apart
+  - note 4242 | analytic-comparison | parallel "closer to X than Y" definitional claims | rugged individualism likened to serfdom, shared moral compass with nobility | apart
+  - note 4243 | planning-rationale | first-person "I like the idea", causal "because" clause | schism of 978 presenting and refuting rugged individualism | apart
+  - note 4243 | analytic-comparison | impersonal "This puts...", naming ideologies | federalism/communitarianism defeating rugged individualism | apart
+  - note 4243 | analytic-comparison | impersonal "It adds a layer of validation" | narrative structure validating the thesis | run-in
+  - note 4243 | self-referential-aside | parenthetical "(the author)", quoted informal phrase | avoiding the thesis resting on personal preference | run-in
+  - note 4246 | belief-attribution | "They believe", parenthetical gloss | antagonists' ideology of amoral free trade | apart
+- shifts:
+  - note 4230 | planning-rationale | quoted-slogan | switches to a quoted imperative exclamatory slogan
+  - note 4231 | planning-rationale | analytic-comparison | drops first-person "I", turns to an impersonal abstract claim
+  - note 4243 | planning-rationale | analytic-comparison | drops "I", opens with impersonal "This puts..."
+  - note 4243 | analytic-comparison | self-referential-aside | parenthetical "(the author)" and quoted informal phrase within the same sentence
+- registers: thesis-statement; planning-rationale; quoted-slogan; analytic-comparison; self-referential-aside; belief-attribution
+- whole: This item's notes move across several registers — first-person planning-rationale, impersonal analytic-comparison claims, a quoted in-world slogan, a third-person belief-attribution, and a self-referential aside — with most changes landing at a clear sentence break except one aside that runs into its sentence without a break.

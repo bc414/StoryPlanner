@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two follow-up comparison questions about whether Gemini still leads Claude in native multimodality and in how fully it takes in a long context window, without pointing the model at any body of material to use or avoid.

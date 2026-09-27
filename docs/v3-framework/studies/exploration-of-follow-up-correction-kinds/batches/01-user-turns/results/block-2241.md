@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's argument about AI billing and asks a new question: what it means for their company, which makes epitaxy tools for indium phosphide lasers in optical data-center interconnects, without disputing anything the model said.

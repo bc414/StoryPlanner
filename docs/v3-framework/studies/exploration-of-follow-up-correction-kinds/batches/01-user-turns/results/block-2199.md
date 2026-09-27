@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of the polarized landscape and their own place outside it, and asks a follow-up question about how they came to work this way.

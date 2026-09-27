@@ -1,0 +1,12 @@
+- relations:
+  - 871|1402|1402 gives the worldview (cynical self-styled adults) that makes note 871's rule intelligible: empathy for ponies is punished and weaponizing is rewarded|demoted to a home front middle manager / the only "adults" capable of navigating the harsh, cynical reality|implicit
+  - 2604|2603|origin and later continuation: the love collectors of the hive wars are the ancestor of the body that now administers love rations|VOPS evolves out of the love collectors / administer MEFO bill payouts of love rations|implicit
+  - 772|780|general strategy and a concrete instance: intelligence effort is aimed at civilian and political sectors, and the propaganda campaign that shapes Equestrian opinion is that kind of operation|redirects her intelligence apparatus entirely toward the civilian, corporate, and political sectors / VOPS continues this as propaganda|implicit
+- outward:
+  - 780|Thorax and his earlier pamphlets, Celestia's refusal, Luna's doctrine and Trimmel's blitzkrieg, all held in other owners|Thorax originally distributed naive pamphlets / Luna's false optimism / Trimmel's blitzkrieg
+  - 2604|the hive wars and their love collectors, an earlier history not in this item|love collectors of the hive wars
+  - 2603|the MEFO bill, a piece of law or lore held elsewhere|MEFO bill payouts of love rations
+  - 772|Chrysalis and the jaegers as forces and figures held elsewhere|high-value jaegers / Chrysalis redirects
+  - 871|Equestrian language and the ponies as a people, described elsewhere|learn Equestrian / ponies have friends/dreams/destinies
+  - 1402|the drones and the industrial pen, a society described elsewhere|viewing the drones as weak children who must be kept in the industrial pen
+- whole: ["Mostly separate entries, with a few loose implicit joints (member mindset, origin to function, strategy to propaganda) and no note pointing at another."][0]

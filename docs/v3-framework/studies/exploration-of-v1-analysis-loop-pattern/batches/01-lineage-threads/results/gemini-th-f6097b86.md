@@ -1,0 +1,8 @@
+- steps:
+  - author | poses a characterization dilemma | whether Comet Shine should personally pilot the prototype tank, with two competing readings (too-perfect hero vs. fanatical owner) | opening message of the exchange
+  - model | lays out pros and cons | two options — Comet Shine as pilot, or a stand-in test pilot with Comet Shine nearby — each with bullet arguments | first section of the model's reply
+  - model | issues a verdict with a proposed scene | a third 'calculated risk' option: Comet Shine near the tank, not in it, with a sketched action beat and sample dialogue | middle-to-end of the model's reply
+  - model | offers a follow-up analysis | invitation to next analyze how another character (Fleur Bloom) reacts in the same scene | closing line of the model's reply
+- kept:
+- brought: The author brought an unresolved plotting question about how a specific character should appear in an already-planned tank-battle scene, framed against a later planned reveal chapter.
+- loop: The author brought a binary staging question tied to a future reveal; the model returned a comparative analysis and a recommended synthesis plus an offer to extend the analysis, but the archive shows no note traced from this exchange, so none of the options, the verdict, or the proposed scene was captured into the plan here.

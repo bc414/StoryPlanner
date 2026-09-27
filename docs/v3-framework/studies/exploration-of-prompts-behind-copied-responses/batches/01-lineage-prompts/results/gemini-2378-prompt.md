@@ -1,0 +1,8 @@
+- asks:
+  - analysis | asks the model to analyze the stated premise through a specific interpretive lens | "Give an analysis of this premise within my materialist framework"
+- supplies:
+  - premise | a claim that Pinkie Sense is magic manifesting as ambition, with her talent (laughter) and ambition (making others laugh) producing cartoon-physics magic, paralleled to animators using unconstrained animation for comedic effect, and to Lauren Faust directing most cartoon gags at Pinkie | a paragraph
+- shaping:
+  - analysis must be conducted "within my materialist framework", i.e. using a specific framework the user has established (not included in this message) as the interpretive lens | "within my materialist framework"
+- openness: Leans toward an answer grounded in a named lens: it asserts the premise (Pinkie Sense as magic-as-ambition, linked to her talent and to the real-world animation/Faust analogy) as given and asks for analysis through the user's specified "materialist framework" rather than asking whether the premise is true or offering alternatives.
+- subject: Interpreting the character Pinkie Pie's cartoon-physics magic (from My Little Pony) as an expression of ambition, within the user's materialist framework for magic

@@ -1,0 +1,12 @@
+- sources:
+  - pasted notes on Applejack's parents | draw on for more detail about the parents' story and arc | I have attached more details in the pasted notes | first-named
+  - the outline of the Mane 6 from The Battle of Mount Aris to the start of TLTT | use as the material to assess for refining and publishing as a prequel and its place in reading order | The outline is pasted in | first-named
+  - more details about Chrysalis and Minette's stories | use as background context for the analysis | I also included some more details about Chrysalis and Minette's stories for context | first-named
+  - the reframing of EEEE as a machinist's guild | treat as new settled lore that replaces the earlier union version | new lore which should supplant contradictions about the union | first-named
+  - earlier lore of EEEE as a union | treat as outdated wherever it contradicts the machinist's guild version | supplant contradictions about the union | referred-to
+  - the other three established prequels about Minette, Chrysalis, and Blueblood, and the assertions made about them | use as the baseline the new material is related to and measured against | how it relates to or adds to the assertions about the other three established prequels | referred-to
+  - TLTT | treat as the existing story that already holds some of this material, such as the EEEE referendum in chapter 7, and possibly Thorax | Thorax could be covered in TLTT | referred-to
+  - canon FiM | treat as what TLTT diverges from, with the Storm King replaced by an interior warlord horde leader | TLTT lore diverges with canon FiM | referred-to
+- order:
+  - the reframing of EEEE as a machinist's guild | over the earlier lore of EEEE as a union | new lore which should supplant contradictions about the union
+- about: The user offers further reflections and a slate of candidate side stories (Applejack's parents, Flowing Current and EEEE, Thorax and Trimmel, the Mane 6 at Mount Aris, Cadance and Shining Armor), supplies notes and an outline, and asks for an analysis of how they fit with the three established prequels, including reading order, pillar versus character scope, and criteria for giving a character a story.

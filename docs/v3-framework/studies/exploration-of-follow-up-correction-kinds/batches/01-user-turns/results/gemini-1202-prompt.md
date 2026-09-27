@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model placed the reveal of the term and Celestia's deliberate-design argument in Chapter 2, which fits the user's earlier plan to reveal harmonic capitalism there. The user has since moved that reveal later, so the timing may rest on a superseded plan. | "I originally planned on harmonic capitalism being revealed here but decided to move it later" | Indirect and tentative: put as a question ("Is it too early?") with the changed plan given as the reason, and no statement that the model was wrong.
+- about: The user questions whether the model's Chapter 2 timing is too early given their revised plan, and proposes a scaled-down alternative in which Fleur names the concepts but Applejack brushes them off and Fleur only demystifies Celestia.

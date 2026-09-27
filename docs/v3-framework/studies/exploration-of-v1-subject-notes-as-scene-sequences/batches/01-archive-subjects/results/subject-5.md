@@ -1,0 +1,13 @@
+- passages:
+  - 4384 | writing direction on voice and manner | Comet Shine should speak like Flim and Flam and carry insufferable businessman energy | none | worded as a 'should' instruction, no event
+  - 4385 | statement about the subject | His appearance: yellow coat, brown mustache, cutie mark is the Star Energy logo | none | plain description, 'He's yellow... His cutie mark is'
+  - 4489 | writing direction on how others see him | He should read as an 'ally of convenience' until his history lesson at the buffalo/oil workers forum, which is named as the turning point | none | 'should be viewed as'; the forum lesson is only referenced as a marker
+  - 4638 | writing direction on characterization | He should feel desperate to be liked, preachy and inauthentic like Andrew Carnegie, straining to sound like a pony of the people even though he really is | none | 'It should feel like', comparison to Carnegie
+  - 5558 | statement about the subject's ethos | His outlook is partly inspired by Dario Amodei: he believes technology is good and empowering, but opponents and alienated traditionalists burned by dark mirrors like Flim and Flam may see a god complex | none | 'His ethos should be partially inspired by', real-world influence and how opponents view him
+  - 4761 | scene beat without a year | Comet Shine sold all his assets in Skyfall to buy weapons after seeing Equestrian shipping insurance rates rise as the changeling-Equestrian border built up | none | past action with a stated cause, no date given
+  - 4761 | statement about the world | Insiders knew a submarine blockade was coming | none | short factual aside about what insiders knew, no date
+  - 4804 | design-history note | Star Energy was originally added only to give Applejack hope and a reason to defy Luna's retreat order, because it was a tank factory | none | 'Originally, ... was only added to'
+  - 4804 | scene beat without a year | Comet Shine buys Aquileian anti-tank guns and learns to convert his factories into military factories | none | written as actions, no date
+  - 4804 | statement about the subject's concept | Origin of the proto-concept 'Harmonic Capitalism': he sells tractors that ease harvesting grunt work without replacing earth pony magic | none | 'proto-concept of', author recalling how the idea arose
+- sequences:
+- whole: A small set of mostly authorial notes on Comet Shine covering his voice, look, characterization, ethos and war-industry backstory, with two or three loose event-like facts and one empty note (5123) that holds nothing.

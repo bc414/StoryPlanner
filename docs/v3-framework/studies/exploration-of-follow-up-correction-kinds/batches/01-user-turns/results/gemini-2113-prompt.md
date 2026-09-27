@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's Paris account as a four-tier scheme, adding bouillons and Vietnamese cuisine and asking whether bistros still use premium ingredients, and asks the model to check that scheme for correctness without disputing anything the model said.

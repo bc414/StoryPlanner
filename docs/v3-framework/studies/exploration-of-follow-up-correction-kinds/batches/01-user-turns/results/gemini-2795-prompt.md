@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's analysis and Pridea origin story were produced without the user's story plans being consulted, so the plans need to be reviewed first | the request is re-sent in full and ends with "Please review my story plans before answering" | implicit and flat, by repeating the same request with an added instruction and no stated reason or complaint
+- about: The user re-issues the same request for an analysis of the Coltbert and Dennis Discret beat and the origin of the University of Pridea, adding an instruction to review their story plans first, which implies the earlier answer did not do so.

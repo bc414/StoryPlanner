@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model tied Poland's apple industry to wartime economic resistance (embargo, smuggling, blockade) rather than to the post-war Equestrian Republic that Poland is meant to parallel, so the user restates the question with that anchor | "Given that the modern Poland Republic is the closest world world parallel to the Equestrian Republic that Applejack wants to build post war?" | indirect: the question is repeated as a fresh how-can-I question with the missing premise added, and the earlier answer is never named or faulted
+- about: The user re-asks how to link Poland's apple industry to the story's themes and Applejack as protagonist, adding that modern Poland is the model for her post-war Republic, which quietly redirects the model's wartime-resistance framing.

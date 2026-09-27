@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's scene makes "Lion of Vinelle" a hero's title in Aquileia without allowing for the user's established lore that the lion and the eagle are griffon-culture symbols, so the naming may not fit the world | "I established that the lion and the eagle are symbols in griffon culture" | as a question, backed by the established fact, so the objection is implied and not stated outright
+- about: The user checks the proposed \"Lion of Vinelle\" history against their own worldbuilding, asking whether a hero titled \"lion of X\" still makes sense given that lions and eagles are griffon symbols.

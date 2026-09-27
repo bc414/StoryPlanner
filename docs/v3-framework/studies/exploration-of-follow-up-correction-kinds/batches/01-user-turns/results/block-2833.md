@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the fake-death and VOPS-report discussion to a new task: asking for research into the canon cat-monster Ahuizotl, an account of how the changeling Ahuizotl would form a Skyfall underground resistance movement against Chrysalis's assets after chapter 12, and a Dutch or German name for it.

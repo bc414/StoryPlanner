@@ -1,0 +1,7 @@
+- sources:
+  - Fluttershy's response to witnessing the Battle of Mount Aris (the story's current handling of it) | treat as thin and in need of development; the model is asked to help flesh it out | underdeveloped | referred-to
+  - season 1 (the scared Fluttershy) | use as the baseline the character might regress to after the battle | reverting to the scared pony from season 1 | referred-to
+  - seasons 2-4 (Fluttershy's developed Grace instincts) | use as the established growth that resurfaces later in the story | Grace instincts back which she developed throughout seasons 2-4 | referred-to
+  - chapter 5 and 6 | treat as the planned points where she sees the suffering animals and the changeling POWs and recovers her instincts; offered as a proposed shape for the arc | in chapter 5 and 6, seeing the suffering animals | referred-to
+- order:
+- about: The user says Fluttershy's reaction to the Battle of Mount Aris is underdeveloped and floats a tentative arc, retreat into the sanctuary like her season 1 self and then a recovery of her seasons 2-4 Grace instincts in chapters 5 and 6, asking the model whether it fits.

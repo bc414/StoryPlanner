@@ -1,0 +1,10 @@
+- passages:
+  - note 5699 | past-tense chronicle narration | past-tense verbs, sequential plain statements | griffon knights clearing sea monsters, Nova Griffonian settlement and coal-mining, resulting industrialization and population boom | apart
+  - note 5699 | present-tense chronicle narration (historical present) | present-tense verbs, quoted in-world epithet | scientists' discovery of the bessemer process, its ban as "blasphemy," Boyars industrializing steam engines and railroads | apart
+  - note 5711 | present-tense causal exposition | present tense, "because," cause-and-effect clause | latitude and cold as the reason Severyana is separate from Equestria and must burn wood for warmth | apart
+  - note 5711 | past-tense chronicle narration | past-tense verbs, "For centuries" opener | Severyana's centuries of sparse population and its development of a distinct language and culture | apart
+- shifts:
+  - note 5699 | past-tense chronicle narration | present-tense chronicle narration (historical present) | verb tense shifts from past to present at the new paragraph describing the bessemer discovery and ban
+  - note 5711 | present-tense causal exposition | past-tense chronicle narration | verb tense shifts to past and sentence turns from climatic cause to historical development, marked by "For centuries"
+- registers: past-tense chronicle narration; present-tense chronicle narration (historical present); present-tense causal exposition
+- whole: Both notes hold two registers apiece — one moving from past-tense chronicle narration to a present-tense historical-present chronicle, the other from present-tense causal exposition to past-tense chronicle narration — with each shift landing at a clear sentence or paragraph break rather than running together.

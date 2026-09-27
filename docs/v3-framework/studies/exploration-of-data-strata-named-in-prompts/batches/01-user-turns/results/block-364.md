@@ -1,0 +1,9 @@
+- sources:
+  - This is a great framework (the seven-point list of what the 6th element must do) | accepted as the base for the new analysis, with the user's clarifications layered on top | "This is a great framework. Let me add some clarifications" | referred-to
+  - the Petain parallel | keep but loosen, does not have to be followed strictly, yet still counts for more than the Washington point | "doesn't have to be followed too strictly" | referred-to
+  - the Washington one about willingly stepping down | demote, treat as less important than the Petain parallel | "not important than the Petain parallel" | referred-to
+  - My story plan (its Elements of Tyranny: Tribalism, hunter's spirit, Supremacy, Fealty, propaganda, extraction) | treat as the author's settled list of tyranny's elements and use it in the renewed analysis | "My story plan does mention Elements of Tyranny" | first-named
+  - what the user says of Chrysalis (sociopathy and narcissism, a meritocracy of competence with conditioned elites and drugged drones) | treat as the author's statement of Chrysalis's core and use it as the thing the 6th element answers | "Chrysalis ultimately represents sociopathy and narcissism" | first-named
+- order:
+  - the Petain parallel over the Washington parallel | "not important than the Petain parallel"
+- about: The user accepts the model's framework for the 6th element while reweighting two of its points, supplies the story plan's Elements of Tyranny and their own account of Chrysalis's core, and asks for a fresh analysis of candidate terms in light of these.

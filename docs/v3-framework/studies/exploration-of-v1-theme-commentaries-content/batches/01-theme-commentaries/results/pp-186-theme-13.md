@@ -1,0 +1,3 @@
+- passages:
+  - bearing on the theme | The scene exemplifies the theme by showing that the war effort now unites different species in one shared undertaking, and "finally" frames this as an achievement after earlier lack of it | "They finally have cross-species inclusion" | no | terse declarative note, a single planning-shorthand sentence
+- whole: A one-line verdict that the scene marks the arrival of cross-species inclusion in the coalition, tying the joint planning to the anti-tribalism theme.

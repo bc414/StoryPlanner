@@ -1,0 +1,4 @@
+- sources:
+  - my actual chat histories related to story planning | the material the model is to examine and draw on to categorize the author's story planning tasks and judge the best method | Look into my actual chat histories related to story planning | first-named
+- order:
+- about: The user asks the model to examine their real story-planning chat histories, sort the kinds of planning tasks they have been doing, and say which method suits each best.

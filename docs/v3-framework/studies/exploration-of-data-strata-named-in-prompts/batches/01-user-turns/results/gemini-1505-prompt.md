@@ -1,0 +1,5 @@
+- sources:
+  - real China after Mao Zedong's death, under Deng Xiaoping | historical real-world analogue to compare against the story's system; use it to draw parallels, but note it differs where real China did not end martial law | This sounds like China when Mao Zedong died and Deng Xiaoping took over | first-named
+  - the Kemerskai republic as just described (martial law then restoration) | the story material being compared to China; the parallels are drawn from it | This sounds like | referred-to
+- order:
+- about: The user compares the model's account of Kemerskai's martial-law-to-democracy transition to China's shift from Mao to Deng, asks for an analysis of the parallels, and notes that real China never ended martial law.

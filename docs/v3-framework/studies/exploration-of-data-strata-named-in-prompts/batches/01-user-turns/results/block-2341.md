@@ -1,0 +1,5 @@
+- sources:
+  - anywhere else, meaning other works outside the author's plan | the model is to look for any prior use of the Hasbro Mandate like the author's, treating its earlier claim of no precedent as something to re-check | no where else that the hasbro mandate is used | referred-to
+  - the way I'm planning to use it, the author's plan for the Hasbro Mandate | the yardstick any other work is compared against; the author's own use of the Hasbro Mandate in the story | the way I'm planning to use it | referred-to
+- order:
+- about: The user pushes back on the model's claim that no other work uses the Hasbro Mandate as in-world material, asking whether that is really true.

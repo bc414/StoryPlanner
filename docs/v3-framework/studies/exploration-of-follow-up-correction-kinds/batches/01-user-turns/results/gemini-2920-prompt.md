@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn starts a fresh round of the recurring task, asking for another analysis of the plans that finds new logical contradictions that don't overlap earlier ones, and doesn't say the previous turn was wrong.

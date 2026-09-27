@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether grifters exist in WSB and whether different types of people there can be distinguished, without pointing at any body of material for the model to use.

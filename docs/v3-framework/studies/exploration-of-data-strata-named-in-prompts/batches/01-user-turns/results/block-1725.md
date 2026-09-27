@@ -1,0 +1,7 @@
+- sources:
+  - attached story plans for TLTT | the author's own plans, which the model is to work from when fitting Vaspier into the story | Here are my story plans for TLTT | first-named
+  - my characterization of Chrysalis as revealed to be not a cartoon villain | treat as the fixed premise the Vaspier integration must fit; not to be revised | Given my characterization of Chrysalis as revealed to be not a cartoon villain | referred-to
+  - dopplestaat of Bauleiter and Statthalters | treat as the established power structure in which VOPS and Vaspier must be placed | I established a dopplestaat of Bauleiter and Statthalters | referred-to
+  - VOPS stands for Vesalipolis Office of Public Safety | the author's own definition of the acronym, to be taken as correct | VOPS stands for Vesalipolis Office of Public Safety | first-named
+- order:
+- about: The author attaches their story plans and asks how to integrate Vaspier and VOPS into their established Bauleiter/Statthalter dual-state structure, given their non-cartoonish Chrysalis, and floats making him a born-in-the-system true-believer Statthalter.

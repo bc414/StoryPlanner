@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact about the software interface (menu label) | The model told the user to look for an entry called "Gemini Apps" in Google Takeout, but the user's list shows it as "Gemini". | "It's just called "Gemini" in the takeout drop down instead of "Gemini Apps"" | put as a question, checking whether the mismatch is expected, with no blame and the discrepancy set out as an observation
+- about: The user reports that the Takeout list doesn't match the label the model gave, and asks whether the differently named entry is the right one to select.

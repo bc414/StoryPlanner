@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes replacing guns with Aquileian crossbows adapted to fire the Tzinacatl's magic tranquilizer darts, and explains how this fits the tribes' rules of raiding and Coltbert's reform philosophy, without pointing the model at any body of material.

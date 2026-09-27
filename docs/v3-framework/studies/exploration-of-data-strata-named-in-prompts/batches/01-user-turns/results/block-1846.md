@@ -1,0 +1,6 @@
+- sources:
+  - Subject tracks | weight: treat this as the governing definition — subject tracks must function as aggregate plans summarizing the sum of the link tracks, and the prior analysis is to be redone under this constraint | marked by: 'Subject tracks are project-wide which are supposed to be aggregate plans for the sum of the link tracks' | referred-to
+  - Link tracks | weight: treat as the base material that subject tracks are supposed to sum up/aggregate; use them as the standard the subject-track structure must satisfy | marked by: 'the sum of the link tracks' | referred-to
+- order:
+  - link tracks over subject tracks | subject tracks are described as required to be 'aggregate plans for the sum of the link tracks,' making link tracks the material subject tracks must answer to
+- about: The user turn asserts a corrective definition — that project-wide subject tracks must be aggregate plans summarizing all link tracks — and instructs the model to redo its prior structural analysis of the track system in light of that constraint.

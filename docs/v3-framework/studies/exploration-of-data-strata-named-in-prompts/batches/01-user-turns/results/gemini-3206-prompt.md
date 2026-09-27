@@ -1,0 +1,5 @@
+- sources:
+  - the analysis | the model's earlier comparison to be revised in light of the user's clarification about which Copilot feature is meant | Please update the analysis | referred-to
+  - GitHub copilot's chat window (side panel for asking questions and generating code) | treat as the correct Copilot baseline to compare Claude Code against, replacing the ghost-suggestion assumption | I am referring to GitHub copilot's chat window, not the ghost suggestions | referred-to
+- order:
+- about: The user corrects the model's assumption about which Copilot feature they use and asks for the Claude Code comparison to be redone against Copilot's chat side panel.

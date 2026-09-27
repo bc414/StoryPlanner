@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - overlooked counterexample to the model's theory (own name) | the model's claim that magic is purely psychological alignment, with Celestia and Twilight having no innate biological edge, leaves out Celestia's power to move the sun, which the user treats as a fact the theory must explain | What about Celestia being able to move the sun? | put as a short, bare question that implies an objection, with no reason or explicit disagreement stated
+- about: The user raises Celestia's sun-moving as a possible counterexample to the model's psychological-cache account of magic, asking how the theory handles it.

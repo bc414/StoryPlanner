@@ -1,0 +1,5 @@
+- sources:
+  - the model's previous answer, its claim that Thestral Daring Do comes from a medicinal artisan tribe | wrong on this point, replace it with the author's version that she is from a drug cartel; the rest of the answer is left standing and built on | One correction, Thestral Daring Do is not from a medicinal artisan tribe | referred-to
+  - Chapter 12, where Rainbow Dash witnesses the present-day business model | treat as fixed story premise: the Thestrals' current business is sham tourism, and the deconditioning has to fit it | Their present day business model that Rainbow Dash witnesses in Chapter 12 is sham tourism | referred-to
+- order:
+- about: The author corrects the model's earlier claim about Daring Do's origin, restates her cartel background and the sham-tourism setup in Chapter 12, and asks how Ahuizotl could be deconditioned under those conditions while offering a healing-blade version of the faked death.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up that tests whether the cynicism-versus-resilience mapping leaves room for any earnest, non-cynical movement on the American Right or beyond Bernie Sanders, and whether independent Senate bids by Dan Osborn and Evan McMullin fit it, without saying the earlier breakdown was wrong.

@@ -1,0 +1,4 @@
+- sources:
+  - this analysis (the model's preceding comparison of Gemini and Claude)|treat as the base to be redone for the April 2026 state of things, implying its current form is out of date|Redo this analysis|referred-to
+- order:
+- about: The user asks the model to redo its previous comparison of Gemini and Claude on long-context story-bible work so that it reflects April 2026.

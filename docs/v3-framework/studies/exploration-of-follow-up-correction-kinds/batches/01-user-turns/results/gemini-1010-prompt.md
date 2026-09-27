@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's analysis by describing a new scene in which Fleur Bloom explains the cutie mark discount theory to Twilight, who is relieved and finds her nightmare fate from the changeling-win canon route subverted.

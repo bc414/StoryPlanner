@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own original title for the second half, Oblivion, with its two meanings (drug abuse and completion of the Luna Nova Rifle), as an addition to the model's list of suggestions and without saying any of them is wrong.

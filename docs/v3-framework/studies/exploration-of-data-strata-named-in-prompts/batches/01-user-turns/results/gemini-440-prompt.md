@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks why Canvas no longer opens automatically for coding or long summaries, and whether a setting they changed or an A/B test explains it, without pointing the model at any body of material.

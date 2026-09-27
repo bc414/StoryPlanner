@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's repurposing ideas and asks a new question about how their own note-taking workflow would change if the Strategist and Cartographer built the buckets first and they then filled them by skimming a long planning conversation.

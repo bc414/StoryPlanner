@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn consists only of an attached plan export with no typed message, so it says nothing for or against the model's analysis and is just supplying planning material.

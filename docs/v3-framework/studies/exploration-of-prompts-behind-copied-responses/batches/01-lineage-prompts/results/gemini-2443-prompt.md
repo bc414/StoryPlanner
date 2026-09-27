@@ -1,0 +1,7 @@
+- asks:
+  - brainstorm | share a revised backstory idea for Zecora and, by laying it out, invite the model to react to or build on it | states the new version "seems to make more sense" than the discarded first idea, with no closing question
+- supplies:
+  - idea | a revised headcanon for Zecora: chieftain of a zebra village destroyed by Chirropterra, who went to Everfree Forest to try to stop Nightmare Moon, then stayed since her village was gone and the forest suits her potion-making | a few sentences
+- shaping:
+- openness: Leans toward an answer it names: the user says the new version "seems to make more sense" than their first idea (Zecora as an ally of Chirropterra aiding Nightmare Moon), favoring the chieftain-refugee explanation.
+- subject: Zecora's backstory and reason for settling in the Everfree Forest, tied to Chirropterra's destruction of her village and Nightmare Moon's purification

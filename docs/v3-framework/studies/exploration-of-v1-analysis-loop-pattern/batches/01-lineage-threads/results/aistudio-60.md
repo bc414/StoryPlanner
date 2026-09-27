@@ -1,0 +1,95 @@
+- steps:
+  - author | attaches material | an unspecified planning document, never captured | opening of the conversation
+  - author | poses a framing question with self-analysis | separates Faust-era from Hasbro-Mandate readings of Spike, flags the 'Spike Abuse' trope and later-season character growth, asks for a canon analysis and application to the story | early in the conversation
+  - model | analyzes the canon character | Spike's psychological baseline, a systemic-alienation reading of 'Spike Abuse', dragon biology as an ontological category, expansion ideas for labor, Rarity, dragon diplomacy, and the changelings, closing questions | following the framing question
+  - author | supplies worldbuilding context and proposes a placement | the post-season-7 timeline fork, the Mane 6's post-Nursery assignments, placing Spike in the Crystal Empire instead of with Twilight, an early resolution to the Rarity crush, a reunion chapter | after the model's canon analysis
+  - model | elaborates the placement | schism psychology, a predator-bridge role for Thorax, supply-chain asset specificity, the reunion's thematic payoff, closing questions | following the placement proposal
+  - author | issues a correction | states Spike has no latent dragon instincts at all, citing two canon episodes, and adds a crystal-supply link to Twilight's charity work | after the elaboration
+  - model | revises the analysis to the correction | reframes Spike as proof of nurture over nature, expands the supply-chain logistics, siege psychology, the reunion argument, closing questions | following the correction
+  - author | asks an integration question and revises plot | how to use the 'Brave and Glorious' motif, reassigns the discovery of Thorax to Flurry Heart while keeping Spike as first acceptor via shared trauma | after the revision
+  - model | synthesizes the revised plot | trauma-parallel psychology, social-capital mechanics of the title, a three-role siege structure, closing questions | following the integration question
+  - author | flags a structural problem and proposes a fix | calls the singular Flurry-Heart shield-filtering a deus ex machina, asks whether to remove or democratize the mechanic | after the synthesis
+  - model | analyzes the proposed fix | deconstructs the deus ex machina, feedback-loop psychology, a charitostatic-grid mechanism, thematic argument, closing questions | following the structural flag
+  - author | rebuilds the siege lore from the ground up | ties Cadance and Shining Armor's rejection of top-down methods to Aquileian influence, establishes pre-war R&D and trade with the University of Pridea, keeps Spike/Flurry/Thorax as the psychological anchor | after the mechanic analysis
+  - model | elaborates the rebuilt lore | decentralized-grid causality, the limits-of-celebrity psychology, the charitostatic-anchor mechanism, thematic argument, closing questions | following the lore rebuild
+  - author | asks a story-impact question | whether removing the mystery around the shield's survival strengthens or weakens the story | after the lore elaboration
+  - model | analyzes the structural impact | reframes tension as a materialist ticking clock, causal effects on other plot threads, psychological and thematic consequences, closing questions | following the impact question
+  - author | asks a mechanics question | whether shield matrices should run on red-love unicorn magic or pink-love charitostatic crystal-heart mechanics | after the impact analysis
+  - model | analyzes the mechanics option | compares the two magic types thermodynamically, a tactical asymmetry against the enemy, the combined-arms theme, POW supply-chain causality | following the mechanics question
+  - author | recontextualizes a canon character's backstory | Sunburst expelled for studying smuggled Aquileian texts, later builds friendship-shield tech, ties this to the enemy's motive for war | after the mechanics analysis
+  - model | elaborates the recontextualization | ambition-thermodynamics ontology, a radicalization causality for another character, an arms-race geopolitical reading, the enemy leader's psychological threat, closing questions | following the backstory recontextualization
+  - author | proposes a doctrine and links it to an established character beat | friendship shields make the army confident yet untrained troops fail on day one, ties this to an existing imposter-syndrome line | after the recontextualization
+  - model | elaborates the doctrine and its psychology | panic physics, imposter-syndrome psychology, a contrasting case for another army, a death-of-naive-joy theme, closing questions | following the doctrine proposal
+  - author | asks a follow-up mechanics question | whether a canon in-world song becomes literal standard military protocol | after the doctrine elaboration
+  - model | answers with further doctrine elaboration | doctrinal-fatality mechanics, a massacre causality, a character's psychological breaking point, synthesis, closing questions | following the follow-up question
+  - author | corrects the model's framing and asks a structural question | clarifies the flaw as a category mismatch rather than toxic positivity, asks for pros and cons of two opening structures | after the doctrine synthesis
+  - model | gives a comparative structural analysis and recommendation | weighs both opening approaches, recommends one, maps its reveals chapter by chapter | following the correction and structural question
+  - author | shares detailed rewatch notes on a canon episode pair | scene-by-scene observations, asks for analysis against the established fabula and comparison to fan readings | after the structural recommendation
+  - model | analyzes the rewatch notes against the fabula | fandom-comparison deconstruction, an algorithmic-nursery psychological reading, shadow-economy causality, a deus-ex-machina-dismantled theme, closing questions | following the rewatch notes
+  - author | proposes a villain's core concept | a unicorn ruling-class purge, an inventor of psychological-control magic paralleling another character's corruption, proposes the historical queen was also a unicorn | after the episode analysis
+  - model | elaborates the villain concept | corruption thermodynamics, a unicorn-hegemony causality, a democratization-of-survival theme, closing questions | following the villain proposal
+  - author | shares rewatch notes on a second canon episode | detailed scene notes synthesized into specific character-arc beats | after the villain elaboration
+  - model | analyzes the second set of rewatch notes | dark-magic classification ontology, the algorithmic-nursery psychology repeated, shadow-economy causality, the deus-ex-machina theme, closing questions | following the second rewatch notes
+  - author | asks a naming/localization question | what term the allied nation should use for handheld shield devices | after the second episode analysis
+  - model | proposes a term with etymological analysis | offers a French phrase, its layered meanings, a mythic-monopoly psychological reading, causality, closing questions | following the naming question
+  - author | asks a second naming/localization question | the foreign-language name for an established spell | after the first term proposal
+  - model | proposes a second term with etymological analysis | offers a French phrase, its physical-mechanism rationale, an anti-deception mechanism, geopolitical causality, closing questions | following the second naming question
+  - author | asks a naming question | suggestions for the civilian name of the character who becomes the villain | after the second term proposal
+  - model | proposes name options | a naming taxonomy tied to the setting's conventions, several candidate names with rationale, causality of the name-to-title shift, closing questions | following the naming question
+  - author | asks a research question | whether the villain has canonical or fan-created names and backstory outside the source show | after the naming proposals
+  - model | answers the research question and compares | summarizes an outside-canon backstory, notes a fan-archetype reading, compares both to the fabula's version, closing questions | following the research question
+  - author | asks a comparative naming/role question | how a canon ceremonial title compares to the proposed unicorn ruling class, and how a present-day character inherits it | after the research answer
+  - model | answers the comparative question | reframes the title as a class signifier, reads a canon ritual as extraction, a present-day character's paradox in the role, causality of the villain's rise, closing questions | closing exchange of the conversation
+- kept:
+  - note 5609 | the author's own words in this record | keeps the later-season-nuance observation, filed under Subject "Spike"
+  - note 5607 | pasted from this reply inside the author's own framing | keeps the grounding-rod/Faustian-baseline passage with an added comparison to another character, filed under Subject "Spike"
+  - note 5608 | pasted from this reply inside the author's own framing | keeps the 'Spike Abuse as systemic infantilization' passage with an added summary line, filed under Subject "Spike"
+  - note 5606 | the author's own words in this record | keeps the Mane 6 post-Mount-Aris assignments, filed under Battle of Mount Aris
+  - note 5611 | the author's own words in this record | keeps the 1006 timeline beat of Spike choosing the Crystal Empire, filed under Subject "Spike"
+  - note 5612 | the author's own words in this record | keeps the description of the distant-but-loving Spike/Twilight relationship, filed under Subject "Spike"
+  - note 5613 | the author's own words in this record | keeps the interpretation resolving the Rarity crush early, filed under Subject "Spike"
+  - note 5653 | the author's own words in this record | keeps the 2nd-generation-immigrant allegory framing, filed under Subject "Spike"
+  - note 426 | pasted whole from this reply | keeps the Flurry-Heart-discovers/Spike-translates passage, filed under PlotPoint "Times they are a Changeling"
+  - note 427 | pasted whole from this reply | keeps the Spike-as-ideological-defense-attorney passage, filed under the same PlotPoint
+  - note 435 | the author's own words in this record | keeps the beat where Spike's appeal fails and a child's promise succeeds, filed under PlotPoint "Crystal City Siege"
+  - note 5196 | the author's own words in this record | keeps the parloir-therapy and University-of-Pridea trade detail, filed under Cadance/Shining Armor Aquileian Influences
+  - note 3906 | pasted from this reply inside the author's own framing | keeps the passage isolating the ruling authority from the Crystal Empire's survival, filed under Link "Crystal City Encircled x War in the North"
+  - note 5659 | the author's own words in this record | keeps the recontextualized expulsion backstory, filed under Subject "Sunburst"
+  - note 5660 | the author's own words in this record | keeps the worldbuilding on mass-produced shields and the army's day-one loss, filed under Subject "Equestrian Army Before the War"
+  - note 3228 | pasted whole from this reply | keeps the passage framing a nursery-doctrine as fatal military policy, filed under Link "Applejack Meets Tally Mark x Crystal Heart"
+  - note 5645 | pasted whole from this reply | keeps the technical-post-mortem reading of a key line, filed under Chapter "Command"
+  - note 2679 | the author's own words in this record | keeps the category-mismatch clarification, filed under Link "Tally Mark meets Pinkie...x Pinkie Pie"
+  - note 5642 | pasted from this reply inside the author's own framing | keeps the reveal-scene passage with an added consequence for a character, filed under Chapter "Laughter"
+  - note 5643 | pasted whole from this reply | keeps the opening-hook description, filed under Chapter "Command"
+  - note 5644 | pasted whole from this reply | keeps the fragmented-sensory-memory description, filed under Chapter "Command"
+  - note 5648 | pasted whole from this reply | keeps the tank-adaptation/combined-arms reveal, filed under Chapter "Loyalty"
+  - note 5649 | pasted whole from this reply | keeps the enemy-surrender autopsy beat, filed under Chapter "Honor"
+  - note 5692 | pasted whole from this reply | keeps the description of staggering reveals to match present-day lessons, filed under Subject "Onion Layer Reveals"
+  - note 5693 | pasted whole from this reply | keeps the rationale for nonlinear trauma pacing, filed under the same Subject
+  - note 4111 | the author's own words in this record | keeps the crystallization-as-caloric-surplus observation, filed under Subject "Crystal Pony Biology"
+  - note 5425 | the author's own words in this record | keeps the interpretation that a character breaks with fear but not method, filed under Subject "Twilight Sparkle"
+  - note 5640 | the author's own words in this record | keeps an extensive reinterpretation of a secondary character's canon behavior, filed under Subject "Princess Luna"
+  - note 5650 | the author's own words in this record | keeps a recontextualization of the canon episode from two other characters' point of view, filed under Cadance/Shining Armor Aquileian Influences
+  - note 5652 | the author's own words in this record | keeps the distinction between two magic types and who gets a discount on each, filed under Subject "The Charitostatic Effect"
+  - note 5654 | the author's own words in this record | keeps paired in-world and out-of-world explanations for shared biology, filed under Subject "Crystal Pony Biology"
+  - note 5655 | the author's own words in this record | keeps the myth-versus-engineering explanation for a key artifact, filed under Subject "Crystal Heart"
+  - note 5691 | the author's own words in this record | keeps the principle of interweaving tonal registers without either undercutting the other, filed under Subject "Interweave the Settings Seamlessly"
+  - note 5635 | pasted from this reply inside the author's own framing | keeps the ruling-class-filtering passage with an added class/poseur detail, filed under Subject "Crystal Empire"
+  - note 5634 | the author's own words in this record | keeps the origin statement for the historical queen, filed under Subject "Crystal Empire"
+  - note 5636 | the author's own words in this record | keeps the origin statement for the villain's civilian identity, filed under Subject "Crystal Empire"
+  - note 5641 | pasted from this reply inside the author's own framing | keeps the passage explaining a secondary character's corruption mechanism, filed under Subject "Luna's Banishment"
+  - note 2143 | the author's own words in this record | keeps the season-six realization beat for a character, filed under PlotPoint "Twilight and Spike talk about the past"
+  - note 2144 | the author's own words in this record | keeps a transcribed canon dialogue exchange, filed under the same PlotPoint
+  - note 2145 | the author's own words in this record | keeps a regression beat tied to a canon episode, filed under the same PlotPoint
+  - note 2147 | the author's own words in this record | keeps a confession-and-therapy beat between two characters, filed under the same PlotPoint
+  - note 2148 | the author's own words in this record | keeps the detail of recurring trips over several years, filed under the same PlotPoint
+  - note 2151 | the author's own words in this record | keeps a beat where a character conceals their true reason for leaving, filed under the same PlotPoint
+  - note 5614 | the author's own words in this record | keeps the reinterpretation of a canon scene as fear of an audit, filed under Subject "Sunburst"
+  - note 5616 | the author's own words in this record | keeps an observation about canon spell dialogue and an ancient institution, filed under Subject "Sunburst"
+  - note 5617 | the author's own words in this record | keeps a reinterpretation of a canon line about knowledge versus capability, filed under Subject "Sunburst"
+  - note 5618 | the author's own words in this record | keeps the statement that a canon plot resolution is not a deus ex machina, filed under Subject "Sunburst"
+  - note 5788 | pasted from this reply inside the author's own framing | keeps the passage classifying forbidden magic and reading ancient spells as coercive, filed under Subject "Stagnation of Harmony"
+  - note 5656 | pasted from this reply inside the author's own framing | keeps the passage on official naming as linguistic pacification, filed under Subject "Crystal Heart"
+  - note 5543 | pasted from this reply inside the author's own framing | keeps the naming and physical-mechanism explanation for a spell, filed under Subject "Wings of Dew"
+- brought: The author brought an existing story-plan framework (the post-canon timeline fork and each main character's post-collapse assignment) along with, later in the conversation, detailed personal rewatch notes on two canon episodes, using both as raw material to ask the model to place a secondary character, rework a magic mechanic, and rebuild a siege sequence.
+- loop: The author repeatedly brought a worldbuilding fragment, a rewatch observation, or a narrow mechanics/naming question, and each time the model returned an extended multi-lens analysis plus speculative expansions and closing questions; the plan then kept almost none of the model's speculative framing verbatim, instead keeping the author's own restated formulations as canon entries and, more selectively, pasting the model's tightly-scoped scene or mechanism passages when they matched a plot point or chapter already named in the database.

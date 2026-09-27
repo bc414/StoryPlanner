@@ -1,0 +1,23 @@
+- present:
+  - Fluttershy | stops the changeling with The Stare, scolds and comforts him, offers her hoof | Synopsis
+  - Friedrich | attempts to bite another changeling, is stopped by the Stare, talks and bites Fluttershy | Synopsis, and Character: Friedrich
+  - Hans Kessel | the victim who scampers away after the bite attempt | Synopsis
+  - the griffon | translates, is weirded out, spits that they are parasites, argues with Fluttershy | Synopsis
+  - Henri Gourard | is stunned by the Stare, laughs it off, remarks on the changelings' vocabulary | Character: Henri Gourard
+  - Minette | hears the old translator's rendering of Fluttershy and says don't use that | Character: Minette
+  - a real doctor | called in by Fluttershy and confirms the symptoms of substance addiction | Synopsis
+- mentioned:
+  - Fizzlepop Berrytwist | Character: Fizzlepop Berrytwist
+  - Storm King | Character: Fizzlepop Berrytwist
+- focalizer: Fluttershy
+- shows: Fluttershy feels the little prick in her soul like a bug bite and then it's over; Fluttershy realizes the prisoners aren't "Evil"; She assumes this means criminals. She doesn't grasp the scale.
+- sides:
+  - Fluttershy | feels the changeling's bite as a small prick in her soul, like a bug bite | Synopsis
+  - Fluttershy | realizes the prisoners are love-sick and going through withdrawal, not evil | Synopsis
+  - Fluttershy | assumes 'The Bad Ones' means criminals and does not grasp the scale | Synopsis
+  - Fluttershy | speculates that friendship is so rare for the changelings that basic friendship is love to them, and that they are lonely | Synopsis
+  - Fluttershy | widens her eyes at 'suicidal' and decides to call in a doctor | Synopsis
+  - Friedrich | feels the kindness in Fluttershy's patting, calms and smiles a little | Synopsis
+  - Friedrich | recoils, feeling the griffon's disgust through his emotion sense | Synopsis
+  - Friedrich | says Fluttershy's love is very strong and that he has not felt real love in a long time | Synopsis
+  - Minette | is triggered by the translation 'trembling coward', which recalls her trauma of being named after a pet | Character: Minette

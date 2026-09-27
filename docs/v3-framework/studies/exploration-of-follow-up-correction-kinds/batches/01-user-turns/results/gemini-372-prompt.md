@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the French-translation thread and asks a fresh factual question about what the abbreviation "pdna" stands for in the Equestria at War mod, without saying anything in the previous answer was wrong.

@@ -1,0 +1,7 @@
+- asks:
+  - correct | informs the model that upload dates should not be treated as accurate indicators of when the stories were actually written | "the upload dates are not exactly reflective of the true writing timeline"
+- supplies:
+  - attachment | an attached document referenced by the message, content not captured in this record | placeholder, no visible text
+- shaping:
+- openness: The message asks the model to take into account and treat as fact the stated caveat that upload dates don't reflect true writing chronology, due to a reupload caused by site issues.
+- subject: Reliability of story upload dates as evidence of the author's actual writing timeline

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the syntax discussion to ask a new practical question about which tools, cloud providers, APIs or subscriptions they would need to run the agent workflow described.

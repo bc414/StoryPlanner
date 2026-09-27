@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks what the abbreviation CW means and requests a fuller account of The Boys and how it parallels their story plan, building on the model's coda without disputing anything in it.

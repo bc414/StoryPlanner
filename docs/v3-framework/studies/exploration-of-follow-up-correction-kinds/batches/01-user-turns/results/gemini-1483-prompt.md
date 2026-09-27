@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model framed AJ's alternative to assaulting Canterlot as a siege/encirclement with hostages sitting longer; the actual alternative is the Bluebell River Spearhead, which uses the whole army's talents and cuts the Changeling army's supply lines, winning the strategic war | Applejack's alternative action instead of assaulting Canterlot is the Bluebell River Spearhead | flat statement of the correct event, no apology or reason beyond the facts
+  - fact of the world | The model said Trimmel surrendered because AJ's tanks cut his supply lines and implied he was tied to Canterlot; in fact Chrysalis took the whole air force to escape Canterlot, exposing Trimmel's tank forces, and AJ struck him in that window | Trimmel surrendered because Chrysalis stole the whole air force to extract herself from Canterlot | flat, matter-of-fact restatement of the sequence of events
+  - fact of the world | The model's premise that Trimmel was part of the Canterlot situation or command there is wrong; he was elsewhere | Trimmel was not in Canterlot. | blunt short flat denial closing the turn
+- about: The user turn corrects the model's account of AJ's strategic choice and Trimmel's surrender by supplying the actual events of the Bluebell River Spearhead and Chrysalis's air-force withdrawal.

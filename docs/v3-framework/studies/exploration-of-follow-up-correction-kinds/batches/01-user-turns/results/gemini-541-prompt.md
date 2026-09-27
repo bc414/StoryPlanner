@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model built the climax as a race against time in which the transfer is still pending and Fluttershy and Twilight can stop it. The user's plan has the transfer already carried out before Fluttershy learns of it. | "I was planning on the transfer already happening before Fluttershy even knows" | Flat and stated in passing as the user's own plan, with no apology or irritation. The correction is carried by the added backstory of the collapsed front and Applejack's offscreen focus.
+- about: The user corrects the model's timing of the transfer, saying it is already done before Fluttershy knows, and adds the causal backstory of the front collapsing after Applejack's supply-cutting spearhead while she is busy elsewhere.

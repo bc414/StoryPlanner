@@ -1,0 +1,6 @@
+- asks:
+  - compare | compare two documents to see what effect a prior change had on them | "compare the two documents after this change"
+- supplies:
+- shaping:
+- openness: Open: the message only asks for a comparison without specifying what to look for, what counts as a difference, or what form the answer should take.
+- subject: Comparing two (unspecified, presumably previously discussed) documents following a change made to one of them

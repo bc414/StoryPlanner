@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's long account of differing conversation types as a short conclusion, that every conversation is unique and so editable block notes are essential, and asks the model to confirm it.

@@ -1,0 +1,7 @@
+- sources:
+  - my lore that "bad ponies" deported to New Mareland can come back by caring for foals on the return voyage (Flowing Current's story, backbone of EEEE! members) | treat as the author's settled lore and synthesize it with the current material, including whether returnees can bring a foal and appear at Winter Wrap Up in place of a hippogriff | "Now please also synthesize with my lore" | first-named
+  - the story plan | review it for details not yet in the model's context before answering | "Please review the story plan for details not in your context yet" | referred-to
+  - preexisting precedent of orphans coming back from New Mareland pre-930 (and the pioneer mythology as more than maritime escort lore) | do not use; the author rejects it, foal returns begin only after the 930 deportation of rugged individualists, and the pioneer mythology is only about hippogriffs and seaponies as expert maritime escorts | "I don't think there should be preexisting precendent" | referred-to
+  - historical precedents | consult general knowledge for real-world precedents, while the author says the idea was invented from scratch and not drawn from any source | "are there any historical precedents? I made this up from scratch" | first-named
+- order:
+- about: The user corrects the hippogriff-delivery reasoning, asks the model to fold in their returnee-with-foal lore after checking the story plan, rejects pre-930 orphan returns, and asks whether the critique of rugged individualism works and whether it has historical precedent.

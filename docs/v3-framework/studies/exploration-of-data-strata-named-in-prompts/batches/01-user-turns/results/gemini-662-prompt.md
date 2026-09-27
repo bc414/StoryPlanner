@@ -1,0 +1,4 @@
+- sources:
+  - my current unified theory of magic and other related rules | the framework the alicorn-ascension explanation must fit inside and stay consistent with; treated as the standing rule set | within my current unified theory of magic and other related rules | referred-to
+- order:
+- about: The user asks the model how to explain, in scientific terms, Celestia turning a pony into an alicorn so that the explanation fits inside the author's existing magic system and related rules.

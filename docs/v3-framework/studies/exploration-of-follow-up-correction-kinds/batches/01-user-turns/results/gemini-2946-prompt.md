@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Pinkie Promise framework from the model's turn and proposes applying it to Flurry Heart at the siege of the Crystal City, where her promise reassures the crystal ponies and so holds the shield, and asks for an analysis of that approach.

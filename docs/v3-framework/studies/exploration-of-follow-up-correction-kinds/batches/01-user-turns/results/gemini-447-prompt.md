@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Chat-versus-Canvas explanation to ask what other usage modes exist and whether any besides Canvas would suit story plan analysis that sparks new ideas.

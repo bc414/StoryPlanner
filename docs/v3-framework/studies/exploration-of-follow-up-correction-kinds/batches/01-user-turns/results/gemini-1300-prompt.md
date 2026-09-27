@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's recommended term 'Le Salon' fails the world's language rule that Aquileian must be strictly French (distinct from Equestrian/English), since 'salon' also functions as an English word | "it's an English word" / "strictly French" | stated flatly, with the reason given directly
+  - which material was drawn on | the model treated 'Parloir' and 'Boudoir' as open options still under consideration, when in fact the user had already settled on 'Parloir' and had already considered 'Boudoir' as an alternative | "was the initial suggestion I went with" / "was another option" | stated in passing, matter-of-fact, while moving on to ask for more options
+- about: The user rejects the model's 'Le Salon' suggestion for not meeting the strict-French requirement, clarifies the prior status of 'Parloir' and 'Boudoir' as already-considered choices, and asks for further French words rooted in 'parler'.

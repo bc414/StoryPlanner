@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking how Redhawk's description of Tristan as a "nice guy" should be read if the user's own framework is taken as the working thesis, without saying anything in the model's analysis was wrong.

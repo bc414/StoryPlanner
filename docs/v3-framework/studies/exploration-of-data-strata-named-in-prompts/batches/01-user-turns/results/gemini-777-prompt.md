@@ -1,0 +1,4 @@
+- sources:
+  - French and German localizations (of the mod's names) | asked about as the material the model should describe: how Griffon names are rendered in those language versions; a topic to look up rather than a ruling on trust | In French and German localizations how are the names done? | first-named
+- order:
+- about: The user asks a follow-up question about how the names discussed in the previous answer are handled in the French and German localizations, and how Equestrian pony names are portrayed.

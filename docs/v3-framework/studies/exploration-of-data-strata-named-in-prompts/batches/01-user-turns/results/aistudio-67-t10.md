@@ -1,0 +1,5 @@
+- sources:
+  - this revised timeline of Celestia (suppressing ambition only after 914 to slam the brakes on a golden age) | take as the new premise and work out its consequences; treated as the current working version replacing the earlier one | "this revised timeline of Celestia, that she only started suppressing ambition after 914" | referred-to
+  - the main story of TLTT (Celestia's trajectory during it) | the existing plan to be checked against the revised timeline, to see how the two interact | "her trajectory during the main story of TLTT" | referred-to
+- order:
+- about: The user asks the model to work out how the newly revised Celestia timeline, with suppression starting in 914 after a golden age, bears on her arc within the main story of TLTT.

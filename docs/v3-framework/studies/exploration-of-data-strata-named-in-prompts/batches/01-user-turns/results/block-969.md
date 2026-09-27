@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's hidden-in-plain-sight disguise idea for Genevieve on grounds of narrative rigor and proposes instead that Blueblood hires her to oversee the teleportation network deployment alongside Mudbeak, away from the Aquileians, while keeping a later clash with Minette possible.

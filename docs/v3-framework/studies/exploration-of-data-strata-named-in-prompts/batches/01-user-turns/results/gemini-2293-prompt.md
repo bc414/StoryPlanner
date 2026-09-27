@@ -1,0 +1,4 @@
+- sources:
+  - the 15 seconds | treat as an established figure from earlier in the conversation that the Bf 109 weight breakdown must be tied back to | how it translates to the 15 seconds | referred-to
+- order:
+- about: The user asks the model to compute a component-by-component weight breakdown of the Bf 109, connect it to the previously discussed 15-second figure, and then propose a comparable breakdown for the Wonderbolts' Spitfire.

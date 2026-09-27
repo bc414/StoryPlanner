@@ -1,0 +1,10 @@
+- passages:
+  - 3971 | statement about the subject | Defines loyalty in its original sense as devotion to friends, committed and assumed to be reciprocated without checking that it is | none | Plain definitional claim in first person, no event; 'originally just means'
+  - 3972 | statement about the subject | Names the war version of loyalty as Heroism: Rainbow believes she must be the sky hero saving helpless ponies, a top-down mentality where the moral top is crushed by the world's weight; compared to Eros's vision for Grover | none | Describes a mindset and a comparison, not an event; 'The war version is'
+  - 3972 | statement about the subject | Characterizes Heroism as blind servitude that separates a soldier from conscience and as a euphemism for Fealty to an abstract country | none | Interpretive claim about what the concept really is; 'It is blind servitude'
+  - 3973 | statement about the subject | Names the tyrannical version of loyalty as Fealty, a one-way street under threat | none | Definitional claim; 'The tyranical version is'
+  - 3974 | statement about the subject | Names the liberty version as Kinship, meaning chosen kin rather than tribalism or blood-kin | none | Definitional claim; 'The liberty version is'
+  - 5814 | statement about the subject | Thematic claim that every act of war is rooted in conscience, and that one fights for peers (chosen kin), not for a distant figure or leader who does not fight for them | none | General assertion about war and kinship, no event; 'Every act of war is rooted in conscience'
+  - 5814 | statement about the subject | Says Kinship requires the conscience to recognize that others care and that ignoring them hurts them, which a jaeger cannot do because self-worth is tied to output | none | Rule-like claim about what kinship requires and a character type's limit; 'Kinship requires'
+- sequences:
+- whole: Five short thematic notes with no scene beats or dates, laying out loyalty as a concept in four forms (original loyalty, war-time Heroism, tyrannical Fealty, liberty-based chosen Kinship) and arguing that kinship rests on conscience.

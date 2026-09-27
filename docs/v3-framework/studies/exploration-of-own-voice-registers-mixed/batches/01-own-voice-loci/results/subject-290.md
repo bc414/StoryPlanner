@@ -1,0 +1,10 @@
+- passages:
+  - note 5143 | expository lore-statement | third-person present tense, declarative, technical vocabulary (Haber Bosch, N2, nitrates) | pegasus thunderstorms as a natural nitrogen-fixation process | apart
+  - note 5144 | narrative plot-summary | 'After the defense of...', third person, present-tense narration of an event, named places/groups | Aquileian volunteers teaching Wonderbolts to harvest munitions chemicals | apart
+  - note 5144 | shorthand list-notation | bare list lines, equals sign, no verbs or sentences | three chemicals named for munitions use | apart
+  - note 5274 | expository lore-statement | third-person present tense, declarative, mechanism explanation | how pegasi wings let them fly and control weather | apart
+  - note 5275 | expository lore-statement | third person, 'because' causal clause, declarative | reason Scootaloo cannot fly well | apart
+- shifts:
+  - note 5144 | narrative plot-summary | shorthand list-notation | drops from a full sentence to bare list lines with an '=' sign, naming chemicals with no verbs
+- registers: expository lore-statement; narrative plot-summary; shorthand list-notation
+- whole: The item holds several registers, with three notes standing wholly in one plain expository register and only note 5144 shifting, cleanly and with a visible line-break rather than mid-sentence, from a narrative sentence into a bare shorthand list.

@@ -1,0 +1,19 @@
+- passages:
+  - note 3975 | analytic-definitional | general present-tense claims, quoted informal terms "nice"/"giving scraps" | naive charity failing when the powerful are immoral | apart
+  - note 3976 | analytic-definitional | flat declarative claims about equity and regulating ambition | equity as true generosity, reigning in overambition | apart
+  - note 3977 | analytic-definitional | terse defining statement naming a "version" | tyranny's version of generosity as extraction via rugged individualism | apart
+  - note 3977 | rhetorical-contrastive | obvious/hidden enemy contrast, loaded terms "republic", "posers" | naming hidden enemies who extract behind rugged individualism | apart
+  - note 3982 | analytic-definitional | "X's version is about..." formula | Rarity's generosity as helping others express themselves | apart
+  - note 3983 | narrative-character | third person, "Rarity learns", war framing | Rarity's wartime realization that others may not be generous | apart
+  - note 3983 | imperative-address | second-person "You need to" | the need to enforce systemic equity | apart
+  - note 3983 | quoted-phrase analytic | quoted phrases naming a conceptual shift | the move from personal generosity to systemic justice | apart
+  - note 4029 | conceptual personification | abstract nouns as agents, "believes", "makes" | generosity's naivety versus equity's civic duty and anti-extraction effect | apart
+  - note 5471 | analytic-definitional | "X version of Generosity is Y" formula | war's version of generosity named as sacrifice | run-in
+  - note 5471 | illustrative-imagery | dash-introduced concrete listing of actions | working to exhaustion or dying without knowing the outcome | run-in
+- shifts:
+  - note 3977 | analytic-definitional | rhetorical-contrastive | marked by the obvious-enemy/hidden-enemy contrast and the political terms "republic", "posers"
+  - note 3983 | narrative-character | imperative-address | marked by the switch to second-person "You need to"
+  - note 3983 | imperative-address | quoted-phrase analytic | marked by the return to third person and quoted phrases naming a "transition"
+  - note 5471 | analytic-definitional | illustrative-imagery | marked by the dash introducing a concrete list of exhausting or fatal actions
+- registers: analytic-definitional; rhetorical-contrastive; narrative-character; imperative-address; quoted-phrase analytic; conceptual personification; illustrative-imagery
+- whole: This subject's notes hold several distinct registers that mostly stand apart from note to note, except in note 3983 where three registers follow in successive sentences and in note 5471 where two registers run together inside a single sentence.

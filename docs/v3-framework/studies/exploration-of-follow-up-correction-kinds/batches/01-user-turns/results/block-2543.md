@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up factual question about whether the author ever published the book they promoted in the final author's note, without disputing anything the model said.

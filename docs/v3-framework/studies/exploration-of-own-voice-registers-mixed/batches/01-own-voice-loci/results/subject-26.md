@@ -1,0 +1,11 @@
+- passages:
+  - note 11 | definitional/glossary register | fragment with no verb, names a role | Rasti's role as elected leader of Temberik council | apart
+  - note 11 | narrated backstory register | past-tense verb 'made', named event, specific date | Celestia requiring an Equestrian name for the night guard | apart
+  - note 4108 | definitional/glossary register | short present-tense statement of meaning, no narration | what Rasti's name means in Kurmanji | apart
+  - note 4571 | character disposition register | present tense, contrastive 'but', names feelings toward two figures | Rasti's shifting feelings about Luna and Applejack | apart
+  - note 4571 | thematic-summary register | new line, abstract list of nouns, no contrast or feeling-verb | the shared values behind that liking | apart
+- shifts:
+  - note 11 | definitional/glossary register | narrated backstory register | move from a verbless label to a past-tense sentence with a named event and date
+  - note 4571 | character disposition register | thematic-summary register | move from a contrastive feeling-statement to a bare list of abstract values on a new line
+- registers: definitional/glossary register; narrated backstory register; character disposition register; thematic-summary register
+- whole: Across the three notes the writing holds several registers — plain definition, narrated event, feeling-narration, and abstract summary — with note 11 shifting between two of them and the other two notes each staying in one, all sitting apart from each other without any passage running into another mid-sentence.

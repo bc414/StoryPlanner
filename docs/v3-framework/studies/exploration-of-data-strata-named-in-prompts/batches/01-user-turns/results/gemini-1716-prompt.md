@@ -1,0 +1,4 @@
+- sources:
+  - the story plan about building a royal Aquileian fleet on credit to protect their shipping from Skyfall | existing plan the author wants Baron Dennis Discret worked into; treated as an established storyline to build on, not to change | integrate Baron Dennis Discret into the story plan | referred-to
+- order:
+- about: The user asks whether the character Baron Dennis Discret can be added to an existing story plan about a credit-funded royal Aquileian fleet, so that he reads as a glorious figure rather than a pure rent seeker.

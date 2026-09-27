@@ -1,0 +1,6 @@
+- sources:
+  - my existing notes about The Predator's Dilemma in the story plan | review and use as the base to analyze against the new Conscience revelation | review my existing notes about The Predator's Dilemma in the story plan | referred-to
+  - the new revelation about Conscience being the thing that underlies it all | treat as the new premise to relate the existing notes to | the new revelation about Conscience being the thing that underlies it all | referred-to
+  - Predator Dilemma Matrix.csv | attached file representing the author's game theory matrix; read it as their model of the dilemma | I also made this CSV that represents the game theory matrix | first-named
+- order:
+- about: The user asks the model to review their story-plan notes on the Predator's Dilemma and, together with an attached game-theory matrix CSV, explain how they relate to the newly established idea that Conscience underlies everything.

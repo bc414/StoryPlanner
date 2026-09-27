@@ -1,0 +1,5 @@
+- sources:
+  - EaW canon history for the Griffonian Republic | the year 986 is grounded in it; the date is taken from canon and the model should weigh moving it against that basis | The year 986 is chosen based on EaW canon history | referred-to
+  - my current preceding and cascade of events | the author's existing plan around the martial law declaration; analyze it as it stands, tracing what led to it and what depends on it, before weighing changes | Give an analysis of my current preceding and cascade of events | referred-to
+- order:
+- about: The user asks the model to analyze the causes and downstream dependencies of their planned 986 martial law declaration and to weigh moving it earlier, later, or leaving it, given that the year comes from EaW canon.

@@ -1,0 +1,4 @@
+- sources:
+  - Corporate Mandate / "sanitized hero model" (the framework from earlier in the conversation) | treated as an established lens; the model is asked whether it applies to Age of Empires 3 | was age of empires 3 a corporate mandate, the "sanitized hero model" somehow imposed | referred-to
+- order:
+- about: The user reasons aloud that Age of Empires 3 is a fantasy-tinged departure from the historical grounding of Age of Empires 2, asks whether that was intentional or a corporate-mandate effect like the one discussed for Blizzard, and requests a history of the series and its developers and owners.

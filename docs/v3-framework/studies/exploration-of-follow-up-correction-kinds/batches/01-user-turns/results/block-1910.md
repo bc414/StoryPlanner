@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a deeper meta-narrative analysis drawing on the MLP Movie, the EaW adaptation of the Storm King for Zebrica, and their TLTT plan, and adds the siege of Mount Sinjar as a further analogy alongside the one already given.

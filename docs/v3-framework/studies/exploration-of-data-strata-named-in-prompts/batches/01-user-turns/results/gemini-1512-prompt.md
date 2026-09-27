@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user turn revises and elaborates the story's 'apartheid economy' mechanic itself, proposing that tax and loan-rate differentials (not the gold/note currency peg) drive the divide, and adding detail about farmers' pride, social-club consumption, and smuggling motives, asking the model to confirm the logic rather than pointing it to any external body of material.

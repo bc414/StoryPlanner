@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that the new Aquileian Republic simply fired the MPA thugs and left them to fend for themselves as the order's losers, which the user doubts a republic would do | Would the 2nd Aquileian Republic actually neglect the "losers" in the MPA | put as a doubting question, backed by a contrast with the Griffonian Republic's "no griffon left behind" and mastery-based education, and then accepted as a story development rather than pressed
+- about: The user briefly questions whether the Aquileian Republic would abandon the MPA's fired thugs, then takes the neglect as a reveal for Pridea after Cloudbury and works out how it inverts Applejack and Twilight's view of Aquileia and shapes the ethos of the eventual Equestrian Republic.

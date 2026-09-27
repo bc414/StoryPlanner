@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the manual web-chat chapter-feeding workflow can be automated, without pointing the model at any body of material to draw on or avoid.

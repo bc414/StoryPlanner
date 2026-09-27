@@ -1,0 +1,4 @@
+- sources:
+  - the full story plan pasted in | the material sits whole in AI Studio's context as the basis for the comparison, set against NotebookLM's chunked retrieval of the same material | with the full story plan pasted in | referred-to
+- order:
+- about: The user asks for a comparison of NotebookLM's vectorization, chunking and strictly grounded RAG against AI Studio with the whole story plan pasted in, both under system instructions, judged for their use as a developmental editor refining the Fabula and not for prose generation.

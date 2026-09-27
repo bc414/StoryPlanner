@@ -1,0 +1,7 @@
+- steps:
+  - the author | requests comparative historical analysis with application | asks why certain occupations succeeded/failed, how to apply the pattern to the changeling occupation storyline, and for further historical parallels | opens the exchange
+  - the model | delivers a structured analysis | breaks success/failure into three factors (total defeat, state capacity, economic incentive), maps each factor onto specific characters and plot elements (Applejack, Trimmel, the coup, the Love Bombs), adds two further historical parallels (Reconstruction, Congress of Vienna), and closes with a four-point strategy summary | single reply that ends the shown exchange
+- kept:
+  - note 1395 | pasted whole from this reply | keeps the single line written for Trimmel's public renunciation speech, filed under the Changeling Lands Reconstruction plot point
+- brought: The author brought a request to compare historical occupations' outcomes and translate the pattern into guidance for the changeling occupation arc of their story.
+- loop: The author brought a broad question about historical occupation dynamics and how to apply that pattern to a story arc; the model returned a wide multi-part framework mapping history onto characters and plot beats, and the plan kept only one distilled line of dialogue from that framework, filed under the relevant reconstruction plot point.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up general-knowledge question about whether WebAssembly is a modern replacement for Flash Player, without pointing at any body of material for the model to use or avoid.

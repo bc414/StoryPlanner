@@ -1,0 +1,8 @@
+- asks:
+  - modify | add a feature to the code so that a JSON backup of the notes is saved before a paste action executes | "the code should also save a backup of the notes as a json before pasting occurs"
+- supplies:
+- shaping:
+  - backup must be written before the paste happens, not after | "before pasting occurs"
+  - backup format must be JSON | "save a backup of the notes as a json"
+- openness: leans toward the specific approach it names (write a JSON backup of the notes prior to the paste action), leaving the implementation details unspecified
+- subject: adding a pre-paste JSON backup of notes to the application's paste-handling code

@@ -1,0 +1,5 @@
+- sources:
+  - my unified theory of magic | treat as the settled rule behind the design: pink and red love must be drained together, so a three way valve is needed to separate them | according to my unified theory of magic, the pink and red must be drained together because friendship is magic | referred-to
+  - The Luna Nova Rifle has the following components (the author's own component list given in this turn) | treat as the authoritative design and use it to correct the earlier assumption that valves serve only rifles | The Luna Nova Rifle has the following components | first-named
+- order:
+- about: The user corrects the model's assumption about the valves by laying out the Luna Nova Rifle's components and, from their unified theory of magic, explaining why the three way valve is needed for love donators, other civilian spell matrices and military ones like shields.

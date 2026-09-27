@@ -1,0 +1,10 @@
+- asks:
+  - generate | come up with in-world names for meth and opioids to replace the current terms "the driver" and "iron skin" | "I think I'd rather just have the french names or scientific names"
+- supplies:
+- shaping:
+  - form: names should be French words or scientific/technical terms, not euphemisms | "the french names or scientific names for meth and opioids"
+  - exclusion: must not be euphemisms or descriptive phrases | "They shouldn't be euphemisms or phrases"
+  - register/voice: should sound like terminology coined by a legitimate 1940s university or academy of sciences | "coming from a 1940s-era proper university/academy of sciences"
+  - scope: one term maps to meth (currently "the driver"), one maps to opioids (currently "iron skin") | "for the driver and iron skin"
+- openness: Leans toward an answer whose criteria it names explicitly (French or scientific names, academy-of-sciences register, no euphemisms or phrases) while leaving the actual words open for the model to generate.
+- subject: Revising in-world Aquileian scientific naming for meth and opioids for the character Fleur

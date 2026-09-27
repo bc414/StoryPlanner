@@ -1,0 +1,4 @@
+- sources:
+  - the master prompt for Build (called "the first prompt") | material to revise, not discard: keep the UI pipeline scaffolding and drop the model-prompt content, since the two prompts will be perfected separately elsewhere | Please revise the master prompt for Build | referred-to
+- order:
+- about: The user asks the model to rewrite the previous Build master prompt so it covers only the UI pipeline scaffolding, because the two Gemini prompts will be refined separately in Playground.

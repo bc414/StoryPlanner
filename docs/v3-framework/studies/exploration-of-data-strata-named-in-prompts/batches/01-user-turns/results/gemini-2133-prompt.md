@@ -1,0 +1,7 @@
+- sources:
+  - real-world historical parallels (history in general, from the model's own knowledge) | draw on to say whether the proposed arms-supply route for the Zebrican horde has real precedents | Are there historical parallels? | first-named
+  - post colonial Africa and China parallels | treat as the good fit for the setting; the user says it carries the most powerful social commentary, and it is the baseline the other cases are set against | This seems to match the post colonial Africa and China parallels which has the most powerful social commentary | referred-to
+  - Mandela system (Mandala), Vikings and Magyars, and Huns | use to explain how their weaponry worked, as further comparison cases for the horde | But what about the Mandela system, Vikings and Magyars, and Huns? How did their weaponry work? | first-named
+  - the Mongols | offered as a likely exception, since they had a state, logistics and cavalry archers; the model is asked to confirm or correct this | I suppose the Mongols had a state, logistics and cavalry archers to win, they are the exception? | first-named
+- order:
+- about: The user asks where the Storm King's mismatched weapons would plausibly come from in the setting, and asks the model to check that idea against real historical cases (post-colonial Africa and China, steppe and raider peoples, the Mongols as a possible exception).

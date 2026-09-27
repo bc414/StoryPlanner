@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's question assumed the Jericho Trumpet sirens carry a magical panic effect (and asked about acoustic insulation against it), when in the user's world the sirens are purely sound warfare with no magic | "There shouldn't be any magical panic, it's just sound warfare" | flat, brief statement of the rule with a short reason, made in passing before moving on to the next point
+- about: The user briefly rejects the model's magical-panic premise for the sirens, then moves on to restate their own understanding of the two Spitfire roles: a general interceptor/dogfighter that can do close support with a unicorn aboard, and an armored variant for low-level ground support that shrugs off infantry fire.

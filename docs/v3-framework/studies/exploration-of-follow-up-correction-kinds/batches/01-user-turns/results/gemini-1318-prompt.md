@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for more examples of the head-switching technique the model just illustrated, extending the request without disputing anything in the model's answer.

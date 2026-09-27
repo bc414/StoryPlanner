@@ -1,0 +1,28 @@
+- steps:
+  - author | request | ask for magic-system reasons the banishment spell can't just liberate Canterlot | opening the stretch, about chapter Encirclement
+  - model | analysis | four lore-rooted blockers plus a recommended combined explanation | responding to the opening request
+  - author | correction | fixes chapter order (heroes already freed by Encirclement) and adds new constraints: crystal-heart-style fuel, consent-spell targeting only direct predators, non-absolute/proportional 1002 banishment | after the first analysis
+  - model | analysis | refined explanation under the new constraints plus a sample in-story dialogue | responding to the corrected constraints
+  - author | request | ask for pros and cons of two possible origins for the consent spell | new question
+  - model | options | pros/cons for each origin, a recommended verdict, and a merged synthesis | responding to the origin question
+  - author | request | ask how to justify the story's magic-engineering leaps, bringing a timeline and specific mechanisms (harvester-as-fuel, valve, drug-market gap) | new topic, engineering plausibility
+  - model | organization | structured resolution of the stated plot hole plus a three-stage tech framework | responding to the engineering request
+  - author | request | ask for a metallurgy-history parallel to explain crystal purity limits | follow-up question
+  - model | analysis | three-phase iron/steel/aluminum parallel mapped onto the crystal lore | responding to the metallurgy request
+  - author | extension | pushes the valve concept further, asking if it needs active, self-powered control like a transistor | building on the engineering answer
+  - model | analysis | active-valve mechanics, a bootstrap-problem plot hook, and failure modes | responding to the transistor framing
+  - author | reflection | observes real industrial chemistry feels as magical as story magic, asks for more real examples | new reflective question
+  - model | list | four real-world processes each mapped to a lore application | responding to the reflection
+  - author | request | ask for additional processes | follow-up
+  - model | list | four more real-world processes mapped to lore uses | responding to the follow-up
+  - author | question | ask which college major teaches these processes | follow-up on the process list
+  - model | explanation | maps academic fields to two characters and a culture-war framing | responding to the major question
+  - author | proposal | suggests Skyfall hoards these processes as ruthless capitalists, asks for a real-world parallel | new proposal
+  - model | analysis | three historical secrecy models mapped onto Skyfall's behavior | responding to the proposal
+  - author | correction | rejects the strong-state framing, recasts Skyfall as a greed-driven merchant republic like the Dutch Republic or Venice | correcting the prior analysis
+  - model | analysis | reworked syndicate power structure, two greed-driven leak scenarios, a historical parallel, and a comparison table | responding to the correction
+  - author | proposal | ties existing outside canon (Dennis Discret's piracy) to a scenario where Skyfall levels rival universities while sparing University of Pridea | new integrative proposal
+  - model | validation | confirms the scenario's logic and connects it to existing plot and character threads | responding to the final proposal
+- kept:
+- brought: The author repeatedly brought pieces of their own established worldbuilding — the fixed chapter order, existing magic-system rules, and outside EaW canon about Dennis Discret's piracy — into their prompts to constrain and extend what the model was asked to produce.
+- loop: The loop here is pure brainstorming iteration: the author poses a worldbuilding problem or refines one with new constraints, the model returns a structured set of lore-rooted explanations or options, and the author either corrects the premise or moves on to the next question, but none of this exchange's material shows up as captured into the planning database in this stretch.

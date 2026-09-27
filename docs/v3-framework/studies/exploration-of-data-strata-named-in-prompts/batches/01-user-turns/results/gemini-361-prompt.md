@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the proposed direct-entity approach and asks the model to generate all the model classes, their annotations and the OnModelCreating code, without pointing at any particular body of material.

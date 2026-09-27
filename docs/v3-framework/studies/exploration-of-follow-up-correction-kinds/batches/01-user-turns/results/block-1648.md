@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of POV-based experiential evidence as an explanation for why an earlier conversation felt overwhelming, restates their own new understanding of focalization, and then asks a string of further questions about how the modes relate, a taxonomy of literary sophistication, and how to validate the system.

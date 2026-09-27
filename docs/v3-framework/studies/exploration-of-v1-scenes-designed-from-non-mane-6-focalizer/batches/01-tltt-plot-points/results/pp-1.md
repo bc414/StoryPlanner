@@ -1,0 +1,25 @@
+- present:
+  - Gabriella Eagleclaw | she reveals and tells the history, speaking in her own voice ("I helped her manipulate all our stupid classmates") | Synopsis and Character: Gabriella Eagleclaw link
+  - Twilight | "Twilight and Applejack instinctively hug each other" as Eagleclaw describes the hug | Thread: TwiJack
+  - Applejack | "Twilight and Applejack instinctively hug each other" as Eagleclaw describes the hug | Thread: TwiJack
+- mentioned:
+  - Queen Chrysalis (also Krista Sterling) | Synopsis, Character: Queen Chrysalis link, and Thread: The True Actions and Motivations of Chrysalis; she appears only in Eagleclaw's account of the past
+  - Synovial | Synopsis, as the cousin leading the changeling attache
+  - Grover V (Grover) | Synopsis and Thread: The True Actions and Motivations of Chrysalis
+  - Archon Eros (Eros) | Synopsis, Character: Queen Chrysalis link and Thread: The True Actions and Motivations of Chrysalis
+  - Thranx | Synopsis, as the changeling Chrysalis could have been and Grover's uncle figure
+  - Kemerskai | Synopsis and Theme: Rugged Individualism / Wedge Issues Deconstructed
+  - Coltbert | Codex entry (Concept): The Predator's Dilemma (Coltbert's Paper), as the author of the paper, described as an Aquileian pony professor
+- focalizer: Gabriella Eagleclaw
+- shows: "Eagleclaw deduced" and "The Realization: 'Wait. She didn't hug me because she needed me. She hugged me because she thought I was a frightened child.'"
+- sides:
+  - Gabriella Eagleclaw | she believed Krista came to the academy hoping to fit in, and saw a changeling best friend as a plus | Synopsis
+  - Gabriella Eagleclaw | her deduction that Krista was a changeling, which she kept to herself | Synopsis
+  - Gabriella Eagleclaw | her love and trust, as she chose Chrysalis as kin knowing what she was: "I knew what you were, and I loved you anyway." | Synopsis and Theme: Loyalty and Kinship
+  - Gabriella Eagleclaw | her realization and shame that the hugs were pity, not worship, and that she thought her love was a shield | Synopsis
+  - Gabriella Eagleclaw | her humiliation and silence after 1007, and her hatred of Eros | Synopsis and Thread: The True Actions and Motivations of Chrysalis
+  - Queen Chrysalis | her supposed private judgment that Gabriella's pity was the greatest insult and her wish to erase the self that needed a hug | Character: Queen Chrysalis link
+  - Queen Chrysalis | her supposed inner thought that Eagleclaw sees the bullied girl and knows she is no Goddess | Synopsis
+  - Archon Eros | he looks at Chrysalis and sees an apex predator, and fears her | Character: Queen Chrysalis link
+  - Twilight | her instinctive hug of Applejack in response to the tragedy of Eagleclaw's story | Thread: TwiJack
+  - Applejack | her instinctive hug of Twilight in response to the tragedy of Eagleclaw's story | Thread: TwiJack

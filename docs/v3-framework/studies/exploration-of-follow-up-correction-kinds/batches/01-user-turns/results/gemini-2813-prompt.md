@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the vacuum-separation idea to a new case, asking whether the same principle explains why the griffon artisans' stabilization machines for low-grade crystals run at vacuum, and adds a distinction between the valve (mixed, already fluid input) and the griffon process (puncturing solid crystal).

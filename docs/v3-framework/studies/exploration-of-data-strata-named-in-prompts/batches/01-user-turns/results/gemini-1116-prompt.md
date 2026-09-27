@@ -1,0 +1,5 @@
+- sources:
+  - her VOPS profile as a potential collaborator | treat as the true basis of the slur, replacing the model's reading of it as a perversion-of-nature insult | the slur is specifically about her VOPS profile as a potential collaborator | referred-to
+  - Aquileian history (before their final subjugation to Imperial Herzland 300 years ago) | treat as where Pétain's exact story is set; the model should place his story there | Pétain's exact story is in Aquileian history | first-named
+- order:
+- about: The user corrects the model's account of the slur by saying it comes from her VOPS collaborator profile and by placing Pétain's story in Aquileian history before Imperial Herzland's conquest.

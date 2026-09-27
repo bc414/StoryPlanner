@@ -1,0 +1,56 @@
+- passages:
+  - note 14 | appearance-fragment notation | noun-phrase list, no verb | plumage and fur coloring | apart
+  - note 14 | parenthetical clarifying gloss | parenthetical simile | fur likened to champagne froth | run-in
+  - note 14 | appearance-fragment notation | noun-phrase list, no verb | eye, beak and talon coloring | apart
+  - note 4920 | narrative-summary | present-tense third-person plot statement | Reni refining thugs while Minette tames them | run-in
+  - note 4920 | parenthetical clarifying gloss | parenthetical simile | refining likened to wine distillation | run-in
+  - note 4920 | narrative-summary | present-tense action clause | Reni distracting lionesses to help Minette | apart
+  - note 4920 | trait-listing | stative verb, quality list | Reni's taste in luxury and mares | apart
+  - note 4920 | narrative-summary | present-tense role description | Reni as exemplar, Minette's parallel liaisons, their gossip | apart
+  - note 4920 | thematic-symbolic summary | present progressive, scare-quoted term | their joint refining of Aquileian culture | run-in
+  - note 4920 | parenthetical clarifying gloss | parenthetical definition | naming bad taste as fascism/rudeness | run-in
+  - note 4921 | narrative-summary | present-tense cause clause | Reni mentoring thugs once bored | apart
+  - note 4922 | narrative-summary | short present-tense declaratives | Reni's choices about Skyfall and flying | apart
+  - note 4923 | analytical character assessment | naming a flaw, present tense | Reni's FJA contempt | apart
+  - note 4923 | analytical character assessment | comparative clause | contrast with Henri's growth | apart
+  - note 4923 | analytical character assessment | comparison, present tense | lack of imprisonment unlike Minette | run-in
+  - note 4923 | parenthetical clarifying gloss | parenthetical clarification | his status as taxed serf, not abused | run-in
+  - note 4923 | analytical character assessment | short declarative | reduced empathy | apart
+  - note 4926 | past-tense episodic backstory narrative | past-tense event narration | joining the academie and pairing with Minette | apart
+  - note 4926 | analytical character assessment | present tense, evaluative conclusion | validation of the gentlegriff approach | apart
+  - note 4926 | narrative-summary | present-tense habitual action | their shared hunting and bond | apart
+  - note 4927 | past-tense episodic backstory narrative | dated past-tense narration | childhood under Gaudreau, merchant life | apart
+  - note 4927 | analytical character assessment | evaluative past tense | his correct read on conditional freedom | apart
+  - note 4929 | narrative-summary | present-tense habitual | teaching pilots, Rainbow Dash's admiration | apart
+  - note 4929 | epithet/legend description | copular is with grand epithet | Reni as unkillable ace pilot | apart
+  - note 4931 | past-tense episodic backstory narrative | past-tense childhood memory | bandit raid and father's beating | apart
+  - note 4931 | analytical character assessment | present-tense trait statement | resulting hatred of thugs and posturing | apart
+  - note 5069 | dated chronicle narrative | year heading, present tense | disinterest in Skyfall, learning from Meyer | apart
+  - note 5069 | dated chronicle narrative | present tense, continued chronicle | refusal to enter Skyfall, Minette's visits | run-in
+  - note 5069 | parenthetical clarifying gloss | parenthetical clarification | identifying carrier as converted cruiser | run-in
+  - note 5070 | dated chronicle narrative | year heading, present tense | trip to the Crystal Empire | apart
+  - note 5070 | analytical character assessment | evaluative unfortunately, comparison | his lack of trauma/therapist skill | apart
+  - note 5070 | dated chronicle narrative | contrastive present tense, technical vocabulary | engine and bullet development work | apart
+  - note 5071 | topic-outline fragment | year heading, bare noun phrase | Mount Aris defense as a plan item | apart
+  - note 5072 | topic-outline fragment | comma list, no verbs | plane, bullet and engine development items | apart
+  - note 5073 | topic-outline fragment | year heading, bare noun phrase | Yak civil war intervention as a plan item | apart
+- shifts:
+  - note 14 | appearance-fragment notation | parenthetical clarifying gloss | opening parenthesis with simile
+  - note 14 | parenthetical clarifying gloss | appearance-fragment notation | closing parenthesis, list resumes
+  - note 4920 | narrative-summary | parenthetical clarifying gloss | opening parenthesis, wine-distillation simile
+  - note 4920 | parenthetical clarifying gloss | narrative-summary | closing parenthesis, plot resumes
+  - note 4920 | narrative-summary | trait-listing | stative likes replacing action verbs
+  - note 4920 | trait-listing | narrative-summary | return to action verb acts as
+  - note 4920 | narrative-summary | thematic-symbolic summary | progressive are scrubbing, scare-quoted term, city-wide framing
+  - note 4920 | thematic-symbolic summary | parenthetical clarifying gloss | opening parenthesis glossing bad taste
+  - note 4923 | analytical character assessment | parenthetical clarifying gloss | opening parenthesis clarifying serf status
+  - note 4926 | past-tense episodic backstory narrative | analytical character assessment | tense shift to present, is validated, scare-quoted winning strategy
+  - note 4926 | analytical character assessment | narrative-summary | return to plain present-tense action verbs
+  - note 4927 | past-tense episodic backstory narrative | analytical character assessment | correctly identified, interpretive conclusion
+  - note 4929 | narrative-summary | epithet/legend description | copular definition with hyperbolic epithet
+  - note 4931 | past-tense episodic backstory narrative | analytical character assessment | tense shift to present, stated as enduring trait
+  - note 5069 | dated chronicle narrative | parenthetical clarifying gloss | opening parenthesis clarifying ship type
+  - note 5070 | dated chronicle narrative | analytical character assessment | evaluative unfortunately, comparison to Minette
+  - note 5070 | analytical character assessment | dated chronicle narrative | contrastive but, return to technical action
+- registers: appearance-fragment notation; parenthetical clarifying gloss; narrative-summary; trait-listing; thematic-symbolic summary; analytical character assessment; past-tense episodic backstory narrative; epithet/legend description; dated chronicle narrative; topic-outline fragment
+- whole: This item's notes are written in several registers rather than one — bare descriptive or topic fragments, dated chronicle narration, past-tense backstory narration, present-tense narrative-summary, evaluative character-assessment statements, and bracketed clarifying glosses — and while some notes hold to a single register throughout, others move between two or three, sometimes with a clean break at a sentence boundary and sometimes with a gloss folded into the same sentence with no break at all.

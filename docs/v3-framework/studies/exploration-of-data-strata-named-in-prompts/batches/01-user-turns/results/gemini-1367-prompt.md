@@ -1,0 +1,4 @@
+- sources:
+  - my lore | treat as true and settled canon; the model's framing of Vedina as a separate kingdom must be corrected to fit it | In my lore, Kemerskai's Griffonian Republic conquered Vedina | first-named
+- order:
+- about: The user corrects the model's assumption about Vedina by stating what happens in their own lore, where Kemerskai's Republic conquered and reformed Vedina, so the proposed backstory has to be reworked to fit.

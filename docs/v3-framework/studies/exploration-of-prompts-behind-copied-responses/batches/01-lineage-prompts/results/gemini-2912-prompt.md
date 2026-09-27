@@ -1,0 +1,10 @@
+- asks:
+  - propose-and-evaluate | asks whether redefining the stamp mechanic so it carries the owner's sovereignty vector (with Anchor Mode as self-sealing and Intent Mode as using another's seal) works as intended | "How about, instead of having resonances and vectors..." and the "To clarify" walkthrough
+  - direct-question | asks whether Verifier Mode works universally by simply checking that a mark's vector falls within the accepted vector space | "Is the Verifier Mode universal, just looking for the fact that the arbitrary marks have a vector that lies within the space?"
+  - check-reasoning | asks whether it's valid that unfactorability (as in RSA) is unnecessary here because a personal sovereignty vector can't be replicated, so its component signals can be safely decoupled/public | "we do not need prime number 'unfactorable' properties... it can be public and 'factorable'... because they cannot be faked anyway"
+- supplies:
+  - worldbuilding mechanic | defines Anchor Mode and Intent Mode using characters Minette and Reni, their seals, sovereignty vectors, lion/eagle motifs, and the tableau de chasse (hunting log) | a paragraph
+  - cryptography analogy | compares the seal system to RSA encryption and prime-number unfactorability | a couple of sentences
+- shaping:
+- openness: The message leans toward the answers it names, presenting the Verifier Mode's function and the no-unfactorability-needed conclusion as its own working understanding and asking the model to confirm or check that reasoning rather than leaving it open.
+- subject: Design of a fictional seal/authentication system (sovereignty vectors, Anchor/Intent/Verifier Modes) and its analogy to RSA cryptography

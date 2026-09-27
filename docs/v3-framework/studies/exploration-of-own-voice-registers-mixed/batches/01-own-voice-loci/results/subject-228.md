@@ -1,0 +1,12 @@
+- passages:
+  - note 26 | plot-summary narration | present tense, chapter reference, sequential story beats | Henri's gift of the shovel and Applejack's eventual use of it | apart
+  - note 4603 | casual thematic claim | lowercase subject, generic 'you', short blunt assertion | Star Spade disproving Celestia's claim about slavery and industry | apart
+  - note 4792 | technical-analytic argument | abstract economic jargon, antithetical parallel sentences | Star Spade breaking the predation economic model | apart
+  - note 5030 | comparative worldbuilding analysis | comparison to unicorn, pegasus, griffon magic | Star Spade as proof earth pony magic is real | apart
+  - note 5030 | descriptive process account | concrete sensory phrase describing hardpan turning to loam | the physical effect of the Spade's magic | apart
+  - note 5130 | symbolic-analytic claim | 'subverts', interpretive reasoning about servitude symbol | Star Spade undercutting the shovel-as-servitude symbol | apart
+  - note 5131 | lore attribution statement | brief flat declarative fact | Fleur inventing the Star Spade as earth pony counterpart to griffon magic | apart
+- shifts:
+  - note 5030 | comparative worldbuilding analysis | descriptive process account | shift from abstract comparison across races' magic to a concrete sensory description of hardpan becoming loam
+- registers: plot-summary narration; casual thematic claim; technical-analytic argument; comparative worldbuilding analysis; descriptive process account; symbolic-analytic claim; lore attribution statement
+- whole: This item holds several distinct registers, but each is confined to its own note or, in one case, to a separate sentence within a note, so the registers stand apart from one another with a clear break rather than blending inside a single sentence.

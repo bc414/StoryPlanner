@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states they need a backstory for how Zecora left Zebrica and why she settled in the Everfree Forest rather than any other refugee destination, without pointing the model at any body of material.

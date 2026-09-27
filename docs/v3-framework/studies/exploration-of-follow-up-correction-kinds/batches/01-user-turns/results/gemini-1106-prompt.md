@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model grounded Luna's pride-versus-life binary in her Nightmare Moon trauma and a delusion, treating the silent occupied zone as its main evidence. The user says the binary comes from Trimmel's ultimatum and from how the changelings actually treat those who resist (torture) and those who surrender (fed and housed). | "Trimmel the changeling field marshal said" and "That's why Luna sees it as a binary of pride vs safety" | Implicit and mild. Given as supplied world detail with a causal 'that's why', inside a question about the argument's framing, with no stated disagreement.
+- about: The user answers the model's breakdown with a question about centering Luna's argument on a Pétain-style line, and adds the changeling ultimatum and its consequences as the real basis for her pride-versus-safety binary.

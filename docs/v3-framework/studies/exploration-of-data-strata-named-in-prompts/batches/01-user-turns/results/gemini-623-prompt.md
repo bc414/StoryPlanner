@@ -1,0 +1,6 @@
+- sources:
+  - Tzinacatl precursor for The Blinder (the previous turn's Yolpololi Root origin idea) | drop it; the user says The Blinder does not need this origin, so do not build on it | doesn't need a Tzinacatl precursor | referred-to
+  - jaeger training | use as the basis for The Blinder in place of the Tzinacatl origin | It should be based on jaeger training | referred-to
+- order:
+  - jaeger training over Tzinacatl precursor | the user swaps the origin, saying no Tzinacatl precursor is needed and it should be based on jaeger training
+- about: The user revises the model's proposed origin for The Blinder, rejecting the Tzinacatl-root precursor and redirecting the model to base it on jaeger training instead.

@@ -1,0 +1,6 @@
+- sources:
+  - original plan of transport planes flying over Canterlot and teleporting rifles into homes | superseded earlier version of the plan, no longer the current design | I was originally going to have | first-named
+  - refined plan of overnight precision delivery via a dream connection | current version of the Canterlot arms delivery, to be treated as the settled design that the Vanhoover question is measured against | now I've refined it into overnight precision delivery via a dream connection | first-named
+- order:
+  - refined overnight dream-connection delivery | original transport plane mass teleport | now I've refined it into
+- about: The user explains that their Canterlot rifle-delivery idea has changed from a transport-plane mass teleport to overnight dream-connection delivery, and asks whether the discarded plane teleport can be reused for Vanhoover.

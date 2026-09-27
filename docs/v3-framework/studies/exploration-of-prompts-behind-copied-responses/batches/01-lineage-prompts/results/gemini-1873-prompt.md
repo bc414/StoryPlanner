@@ -1,0 +1,6 @@
+- asks:
+  - evaluate | asks whether a smarter/better way exists to do something referred to only as 'this' | "Is there any smarter way to do this?"
+- supplies:
+- shaping:
+- openness: Open: the message just asks whether a smarter way exists, naming no current method, no alternative, and no criteria, and giving no referent for "this" within the message itself.
+- subject: An unspecified task or approach referred to only as "this"

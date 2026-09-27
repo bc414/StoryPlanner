@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Foyer de la Jeunesse d'Avant-garde name as given and moves on to a new question, asking for a pros-and-cons analysis of EEEE converting it into a Fluttershy-style POW rehab camp, weighed against their lore of conscripts being handed to Stalliongrad's gulags.

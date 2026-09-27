@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about the real chemical effects and endocrinology of sex and how those connect to the Chasseurs, without pointing to any particular body of material.

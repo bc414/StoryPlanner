@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a brief judgment that the story's plain red love, without synthetic additives, already fills the role the model assigned to tobacco, Adderall and cocaine, which pushes back on adding a separate tobacco element.

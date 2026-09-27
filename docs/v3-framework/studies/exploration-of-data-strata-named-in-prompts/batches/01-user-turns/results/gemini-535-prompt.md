@@ -1,0 +1,4 @@
+- sources:
+  - my plans for Fluttershy's POW arc | the author's existing story plan for this arc, which the model is to relate the historical answer to, treated as the thing the history is measured against | how does it relate to my plans for Fluttershy's POW arc | referred-to
+- order:
+- about: The user asks a new historical question about how German POWs were treated and asks the model to connect the answer to the author's existing plans for Fluttershy's POW arc.

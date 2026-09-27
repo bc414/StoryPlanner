@@ -1,0 +1,14 @@
+- passages:
+  - 4330 | statement about the subject | a rule about turncoat nobility like Pagala: they must keep performing to hold their seat and access to red love, but get a buffer over standard drones from loyalty and Chrysalis's favor | none | general rule in present tense, no event or time
+  - 4378 | statement about the subject | Pagala is framed as a Dirlewanger / political commissar figure, archetype the Butcher | none | header label and archetype bullet
+  - 4378 | statement about the subject | how she leads: through fear, executing her own retreating soldiers and allowing looting to keep morale up | none | bullet on her leadership method, habitual present tense
+  - 4378 | statement about the subject | what she attends to: kill counts and love harvest quotas rather than maps; she manages terror, not tactics | none | bullet on her activity, habitual present tense
+  - 4378 | statement about the subject | why she loses: terror works on civilians but her undisciplined mobs break against a professional army (SECEF) | none | bullet explaining her failure, general claim
+  - 4501 | statement about the subject | the sacking and feasting of Acornage served as encouragement to the whole statthalter ranks and as a recruitment drive for drones | none | past event described by its purpose, not shown as a moment
+  - 4501 | statement about the subject | motive behind the Acornage sacking: to punish the manufactured purge of Acornage | 1002 | year given for the earlier purge, not for the sacking itself
+  - 4556 | real-world historical analogy | comparison to Japan, where Army and Navy hated each other more than the enemy and officers assassinated superiors or launched unauthorized invasions (Manchuria) to prove their Spirit | none | labelled real-world reference (Japan), no story event
+  - 4716 | statement about the subject | Pagala's motivation: she needs the Deer to rebel so she can prove to Chrysalis that fear is the only language they understand | none | 'needs' framing, general motive
+  - 4716 | speculative projection of her conduct | the Olenia Tactic: she likely provokes the Olenian Resistance by secretly brutalizing innocents so as to keep her budget | none | headed 'The Olenia Tactic', hedged with 'likely'
+  - 4716 | speculative projection of her conduct | the Equestria Pivot: at the invasion of Equestria she hopes it goes wrong, wants the Bauleiters to fail and the ponies to resist, so she can tell Chrysalis Trimmel's Honor fails and ask to be let off the leash | none | headed 'The Equestria Pivot', future-oriented motive and imagined line, no date
+- sequences:
+- whole: A small set of design notes about Pagala, a turncoat Changeling-style noble and brutal terror-commander, holding rules about her standing, an archetype sketch, a bit of Acornage background, a real-world military analogy, and speculation on how she manipulates resistance and the Equestria invasion, with no scene beats.

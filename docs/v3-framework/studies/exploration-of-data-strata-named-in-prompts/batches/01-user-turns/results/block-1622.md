@@ -1,0 +1,5 @@
+- sources:
+  - the v1 archive | body of existing notes being migrated and sanitized into the new structure; its notes are what gets sorted, and some character notes should become links rather than stay as character content | flagging them in the v1 archive | referred-to
+  - flag note on each v1 note of where I think it should land | the author's own provisional guess at each note's destination, to guide placement rather than a settled decision | a flag note of where I think it should land | referred-to
+- order:
+- about: The user reports that going through character notes showed some should be links, so they propose creating the empty plot points first, and asks for a migration process that avoids double work while being fine with it being long.

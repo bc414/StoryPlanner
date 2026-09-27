@@ -1,0 +1,5 @@
+- sources:
+  - Scootaloo's story / the Scootaloo story plan | the body of material the model is to analyze and mine for further theme areas that could become propositions instead of morals; it is the object of the analysis | Scootaloo's story doesn't go all the way with the theme proposition; other areas are the themes in the Scootaloo story plan | referred-to
+  - the author's own account of the ending, given in this turn | treat as a true description of how the plan resolves (adoption and return to Ponyville, helper becoming the boss, Scootaloo's influence living on, ending about not putting children in such a situation) and base the analysis on it | I left that resolution as the helper becoming the boss and Scootaloo's influence living on | first-named
+- order:
+- about: The user concedes that the Scootaloo plan's fairy-tale adoption ending stops short of its theme proposition, describes how the ending is otherwise resolved, and asks for an analysis of that plus other places in the plan where themes could be turned from morals into propositions.

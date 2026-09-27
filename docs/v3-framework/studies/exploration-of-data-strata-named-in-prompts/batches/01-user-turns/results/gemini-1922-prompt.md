@@ -1,0 +1,4 @@
+- sources:
+  - the legends | treated as given, existing accounts of Grover III that the proposed printing-press timeline must explain and fit with | why the legends are what they are | referred-to
+- order:
+- about: The user asks the model to compare possible dates for Grover III's invention of the printing press, work out how to make that fit the timeline, and explain how it accounts for the legends about the Grovers.

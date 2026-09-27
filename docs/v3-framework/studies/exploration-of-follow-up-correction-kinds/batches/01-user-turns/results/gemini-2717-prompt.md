@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the first recommended name, La Forge Héritage, and asks for a few more name alternatives, without objecting to anything in the model's answer.

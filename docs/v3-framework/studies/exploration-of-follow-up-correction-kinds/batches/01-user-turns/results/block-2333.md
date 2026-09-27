@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model ruled on what Falldale does and told the user to cut it without the original draft, working from the plan notes. The user points out that the plan file lacks the draft's detail and supplies the draft so plot points can be judged one by one. | "the story plan DB.md doesn't really have the details in the draft" | Implicit and mild: the user attaches the file and notes the gap in passing, and does not say the model was wrong.
+- about: The user supplies the old Chapter 1 draft, says they are not attached to it, and reopens the model's wholesale cut of Falldale by asking which specific plot points from the draft should be kept or dropped.

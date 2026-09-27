@@ -1,0 +1,8 @@
+- steps:
+  - author | scoping question | asks whether a specific crossover fanfic already exists | opening exchange of the conversation
+  - model | research report | survey of fan art and a fan-wiki pitch, verdict that no full story exists yet | immediately following the scoping question
+  - author | original pitch | lays out an AU mapping of crossover characters onto Equestrian cast with a substitute magic mechanic and a hidden-identity twist | second exchange, after the research report
+  - model | validation and elaboration | thematic breakdown of why the mapping and mechanic work, followed by a follow-up question about the rival band's motive | closing exchange, responding to the pitch
+- kept:
+- brought: The author brought an original crossover AU premise, mapping specific characters and a substitute central mechanic onto the established franchises, building off the prior research answer.
+- loop: The author moved from a scoping question about prior work to an original pitch built on that answer, and the model moved from reporting findings to validating and probing the pitch, but no note in the archive traces back to this exchange, so nothing from it is shown to have been folded into the planning database yet.

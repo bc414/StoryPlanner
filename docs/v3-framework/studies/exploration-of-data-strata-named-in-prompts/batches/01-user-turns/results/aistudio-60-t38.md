@@ -1,0 +1,8 @@
+- sources:
+  - the FiM show | the baseline to step outside of; the user wants names and backstory beyond what the show gives, so it is not the source being asked for | outside of the FiM show | referred-to
+  - comics | to be consulted for any canon names or backstory for King Sombra | such as comics or fanfiction | first-named
+  - fanfiction | to be consulted for popular fanon backstory, treated as fan-made rather than canon | popular fanon backstory outside of the FiM show, such as comics or fanfiction | first-named
+  - canonical names | asked whether any official names exist for King Sombra, to be reported as canon | any canonical or fanon names | first-named
+  - fanon names | asked whether any fan-made names exist, to be reported as fanon and kept distinct from canon | canonical or fanon names | first-named
+- order:
+- about: The user steps away from the model's proposed invented civilian names and asks what names and backstory for King Sombra already exist in canon material beyond the show, such as comics, and in fanon and fanfiction.

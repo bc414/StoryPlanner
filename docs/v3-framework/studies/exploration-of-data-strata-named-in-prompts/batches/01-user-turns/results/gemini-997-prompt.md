@@ -1,0 +1,4 @@
+- sources:
+  - the 3 distinct chemical properties in milk listed | treat as the given basis and build on it: each property becomes its own separate crop in the Equestrian dairy substitute | There are 3 distinct chemical properties in milk listed | referred-to
+- order:
+- about: The user takes up the model's chemistry breakdown to propose that each dairy property be a separate crop, then lays out their own spectrum of dairy ethics across Imperial Herzland, Aquileia, the Griffonian Republic and Equestria as a commentary on the stagnation of harmony.

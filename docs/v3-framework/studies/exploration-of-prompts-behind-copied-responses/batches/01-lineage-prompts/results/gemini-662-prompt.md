@@ -1,0 +1,6 @@
+- asks:
+  - explain | work out how a specific plot event (Celestia transforming a pony into an alicorn) can be accounted for within the user's existing magic system | "How can I explain the science of Celestia turning a pony into an alicorn within my current unified theory of magic"
+- supplies:
+- shaping:
+- openness: Open: the message poses a how-can-I question about reconciling an event with a framework, without naming a preferred explanation or offering options to choose between.
+- subject: Fitting Celestia's transformation of a pony into an alicorn into the user's unified theory of magic

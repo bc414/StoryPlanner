@@ -1,0 +1,4 @@
+- sources:
+  - Xhosa and related languages | the real-world language family to base the native Changeling language on; a decision the author has made for the model to build from | what language family to base native changeling in: Xhosa and related languages | first-named
+- order:
+- about: The user picks Xhosa and related click languages as the real-world basis for the Changelings' native language, prompted by the clicks in the model's speech scene.

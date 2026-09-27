@@ -1,0 +1,29 @@
+- passages:
+  - 4197 | narrative-framed analytical | "Celestia saw how", past tense, third-person attribution | serfdom causing exploitation and patriarchy | apart
+  - 4197 | blunt causal-generalizing | unattributed present-tense claims, short plain sentences | biological consequence asymmetry causing patriarchy | apart
+  - 4197 | fragment aside | parentheses, sentence fragment | additional cause noted | apart
+  - 4198 | comparative-analytical exposition | "because", "This means", comparative declaratives | pony-griffon biology reducing patriarchy, adding racial tension | apart
+  - 4694 | catalog/list telegraphic | parallel dash-clauses, terse labeled entries | survey of sexual norms across nations | apart
+  - 4694 | colloquial editorial aside | idiom "hold their noses", parenthesis | PNdA's disapproval of FJA culture | run-in
+  - 4695 | institutional-descriptive exposition | present-tense third-person institutional statements | GR laws, family norms, parental leave | apart
+  - 4695 | colloquial editorial aside | parenthesis, "actually" | qualifying idealism of GR relationships | run-in
+  - 4695 | colloquial editorial aside | parenthesis, moral judgment | shame for fathers not taking leave | run-in
+  - 4695 | analytical synthesis | "This is an explicit... rejection of", abstract nominal phrasing | GR policy as rejection of feudal patriarchy and industrial individualism | apart
+  - 4695 | institutional-descriptive exposition | plain declarative resumes | Aquileia lacking that history | apart
+  - 4696 | analytical synthesis | "Clearly, it shows that", summary judgment | GR-Aquileia as allied but incompatible | apart
+  - 4696 | fragment aside | sentence fragment, comparative tag | extending comparison to economies | apart
+  - 4698 | informal explanatory | lowercase opening, contraction "there's", plain declarative | absence of stigma for same-sex relationships | apart
+  - 4698 | whimsical euphemistic | metaphor "pink parts" | characterizing romantic physical affection | apart
+- shifts:
+  - 4197 | narrative-framed analytical | blunt causal-generalizing | drops "Celestia saw" attribution, moves to unattributed general present-tense claims
+  - 4197 | blunt causal-generalizing | fragment aside | parentheses and sentence-fragment form
+  - 4694 | catalog/list telegraphic | colloquial editorial aside | parenthesis and idiomatic phrase "hold their noses"
+  - 4695 | institutional-descriptive exposition | colloquial editorial aside | parenthesis and "actually" qualifying the prior clause
+  - 4695 | colloquial editorial aside | institutional-descriptive exposition | resumes plain declarative after closing parenthesis
+  - 4695 | institutional-descriptive exposition | colloquial editorial aside | parenthesis delivering a moral judgment
+  - 4695 | colloquial editorial aside | analytical synthesis | shift to abstract thesis phrasing "This is an explicit... rejection of"
+  - 4695 | analytical synthesis | institutional-descriptive exposition | returns to concrete plain statement about Aquileia
+  - 4696 | analytical synthesis | fragment aside | drops to a sentence fragment after the full stop
+  - 4698 | informal explanatory | whimsical euphemistic | plain description replaced by metaphor "the pink parts"
+- registers: narrative-framed analytical; blunt causal-generalizing; fragment aside; comparative-analytical exposition; catalog/list telegraphic; colloquial editorial aside; institutional-descriptive exposition; analytical synthesis; informal explanatory; whimsical euphemistic
+- whole: This item is written in several distinct registers that vary note to note and, within the denser notes, sentence to sentence—moving between narrative-framed analysis, blunt generalization, list-like cataloguing, institutional description, thesis-like synthesis, and closing colloquial or whimsical touches—with most shifts falling as clear breaks between sentences while a few colloquial asides run in inside a single sentence via parentheses.

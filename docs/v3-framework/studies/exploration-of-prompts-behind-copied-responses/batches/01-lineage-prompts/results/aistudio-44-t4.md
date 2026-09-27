@@ -1,0 +1,8 @@
+- asks:
+  - analysis | assess the narrative idea that one of the ponies in her regiment secretly was a changeling all along | 'Give an analysis of the idea'
+  - judgment | decide whether this idea is a genre trope incompatible with the story's materialist, rational worldbuilding, or whether it can actually work | 'Or perhaps this is a tempting EaW trope which is not feasible under my materialist rational worldbuilding?'
+- supplies:
+  - idea | a single plot premise: a member of her regiment has secretly been a changeling infiltrator the whole time | one sentence
+- shaping:
+- openness: Leans toward the message's own suspicion, naming two possible verdicts (a viable idea vs. a tempting-but-infeasible trope) and asking the model to choose between them.
+- subject: Whether a hidden-changeling-in-the-regiment twist fits the story's materialist worldbuilding

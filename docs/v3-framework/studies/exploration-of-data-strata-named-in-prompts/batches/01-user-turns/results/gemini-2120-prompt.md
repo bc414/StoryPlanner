@@ -1,0 +1,6 @@
+- sources:
+  - Canterlot Wedding, the canon episode, Cadance and Shining Armor expelling the changelings | treat as the model for how the Lioness spell works (it repels rather than paralyzes); the author's own use of it as a societal driver is built on it | It is the same thing as Cadance and Shining Armor expelling all the changelings | referred-to
+  - Dutch Republic and VOC | offered as a historical model for Skyfall as a smog-filled trade hub, to draw on when judging whether security money goes to police or gangs; a suggestion, not settled | Considering this is a smog filled trade hub like the Dutch Republic and VOC | referred-to
+  - the worst versions of American capitalism injected in golden metropolises in developing areas or petrol states | offered as a second real-world model for Skyfall's setting, to weigh in answering; tentative | plus the worst versions of American capitalism perhaps injected in golden metropolises | referred-to
+- order:
+- about: The user corrects the model's account of the Lioness spell by pointing to Canterlot Wedding, adds that night profits must fund armed protection against gangs with guns, and asks whether that money would go to police or gangs, pointing to Dutch-VOC and American-capitalism analogies.

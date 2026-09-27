@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model read the Chapter 12 reunion as a sexual initiation, with jealousy turned into 'Sexual Ambition' and a 'Passion Explosion'. The user says the teleport home is not for consummation. It is for admitting the negatives and getting reassurance, and the two don't yet know what sex is. | it's not to consummate, it's to reveal the negative aspects intimately and receive reassurances | Put as a plan detail with a subversion label and a closing 'Does this work?', not as an objection. The correction is implied, never said outright.
+- about: The user adds two plot mechanics: the bridging letters carry only positive reports, and the reunion is emotional confession, not consummation. Their innocence about sex then sets up the Passion chapter's link between bodily and economic liberty. They ask whether this works.

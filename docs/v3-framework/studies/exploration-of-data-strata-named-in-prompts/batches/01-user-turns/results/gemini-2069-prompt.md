@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question, "What is top p?", to have the model explain the sampling setting it just offered to discuss, without pointing at any body of material.

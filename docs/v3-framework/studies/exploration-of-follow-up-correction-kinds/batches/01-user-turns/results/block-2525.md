@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to add an analysis of Redhawk's plot synopsis to the analysis of their 2020 reviews and Discord conversation, extending the work without disputing anything in it.

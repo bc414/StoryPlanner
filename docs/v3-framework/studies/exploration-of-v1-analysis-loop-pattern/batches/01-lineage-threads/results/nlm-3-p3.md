@@ -1,0 +1,46 @@
+- steps:
+  - author | source introduction | five classic TwiJack fics, request for perspective/romance analysis | opening of this stretch
+  - model | analysis and mapping | breakdown of each fic's perspective technique and romance dynamic, drafting cues, scene-inspiration table for TLTT | reply to source introduction
+  - author | redirect and new source | argues TLTT is a novel synthesis, dismisses most fics as unlike it, introduces 'Green' by Steel Resolve as the one relevant comparandum, asks for perspective analysis | after first analysis
+  - model | analysis and mapping | breaks down Green's two-phase perspective strategy (dramatic irony vs unified front), maps its subplots to TLTT romance and Celestia arcs | reply to Green introduction
+  - author | clarifying question | asks directly whether Green uses deep third or free indirect discourse | after Green analysis
+  - model | technical answer | distinguishes Green's 'Split Self' and 'Direct Thought Injection' from true FID, warns against copying the Split Self style for TLTT | reply to FID question
+  - author | reference request | asks for a formal breakdown of free indirect discourse with examples | after FID verdict
+  - model | reference compilation | formal FID mechanics breakdown, case studies across several source texts, TLTT character-voice templates | reply to FID request
+  - author | own-work introduction with self-reflection | brings incomplete own manuscript 'Green Is Your Color,' speculates about its stylistic lineage | after FID reference
+  - model | analysis and mapping | breaks down the manuscript's rotating-third perspective, imitation vs signature characterization, thematic parallels to TLTT's 'Nursery' | reply to manuscript introduction
+  - author | correction | corrects a misread quote, explains it was lifted verbatim from a canon episode and redeployed in a different one, restates the story's actual premise | after manuscript analysis
+  - model | revision after correction | reframes the technique as canon-remixing/intertextuality, re-analyzes the line-recontextualization, links it to TLTT's own reuse of canon lines | reply to correction
+  - author | technical concern | raises that plain-text sources lose italics, asks how this affects the analysis | after remixing analysis
+  - model | methodological answer | shows pronoun/tense grammar can distinguish FID from direct thought without italics, re-examines earlier quotes using this test | reply to italics concern
+  - author | own-work introduction | brings a second own work, 'The Harvest of Falldale,' a contest prequel, asks how it fits the plan | after italics answer
+  - model | analysis and mapping | breaks down the story's perspective choice, its tragic foils and villain setup, links these to TLTT payoffs | reply to Falldale introduction
+  - author | self-critique and request | admits the perspective execution felt flawed, asks how it could be improved, notes the grimdark tone was a contest-theme choice | after Falldale analysis
+  - model | close critique with rewrite options | identifies a head-hopping breach and an exposition problem, offers concrete rewrite options and a metaphor-based revision | reply to self-critique
+  - author | defense and redirect | defends the vague death scene as an intentional rating choice, states own stylistic roots, redirects to what TLTT can learn from both own works | after rewrite options
+  - model | synthesis | draws combined lessons from the two own works (implication over gore, competence-in-absurdity, betrayal-of-neighbor theme, structural irony of optimism) for TLTT | reply to redirect
+  - author | multi-part technical question | asks about deep third vs FID synonymy, dialogue for worldbuilding while in deep third, and handling ensemble scenes | after synthesis
+  - model | framework answer | answers each part with definitions, a 'filter rule' example, and a structural guide for solo vs ensemble scenes | reply to technical question
+  - author | new source introduction | brings in 'Pax Chrysalia' as another inspiration, asks how it relates to the other sources and the plan | after framework answer
+  - model | comparative analysis and mapping | analyzes the new source's Chrysalis, foil character, villain, language, and Twilight parallel against the existing sources and TLTT, gives a three-timeline table | reply to source introduction
+  - author | clarifying correction | notes the new source has a fundamentally different backstory from TLTT despite surface parallels | after comparative analysis
+  - model | refocused analysis | reanalyzes with the correction in mind, centers on a planned climax chapter as a dialectic using the new source as negative thesis and the older source as tonal model | reply to correction
+  - author | targeted follow-up | asks specifically for a perspective-technique analysis of the new source | after climax analysis
+  - model | technique breakdown and mapping | details the source's rationalization, guilt-anchor, fluid-handoff, and monster-humanizing techniques, maps each onto TLTT characters | reply to follow-up
+  - author | own synthesis delivered | lays out an extensive prior comparison of five character/system elements across the two source stories and TLTT | after technique breakdown
+  - model | affirmation and elaboration | reviews and expands each point of the author's comparison, names the overall divergence between the sources and TLTT | reply to author's synthesis
+  - author | broad reflective question | asks what else can be learned from the whole reading and writing history besides perspective | after divergence summary
+  - model | thematic audit | delivers four cross-cutting craft lessons drawn from the author's history | reply to reflective question
+  - author | follow-up broad question | asks for further literary mechanics orthogonal to the perspective study | after thematic audit
+  - model | mechanics catalogue | delivers four craft mechanics with source precedents, TLTT applications, and a summary table | reply to follow-up
+  - author | theoretical question | asks about storytelling and theme-telling differences between first person and deep third | after mechanics catalogue
+  - model | comparative theory answer | contrasts camera models, confessional vs ironic theme delivery, and telepathy vs sensory-bridge intimacy, with a summary table | reply to theoretical question
+  - author | recommendation request | asks for mainstream deep-third books matching established preferences | after theory answer
+  - model | curated list | recommends five mainstream titles each tied to a specific craft lesson relevant to TLTT | reply to recommendation request
+  - author | meta-tooling request | asks for suggested system instructions for an AI tool to replicate this developmental-editing mode | after book list
+  - model | instruction drafting | produces six modular system-instruction blocks covering persona, perspective, romance mechanics, canon voices, themes, and exposition delivery | reply to meta-tooling request, closing this stretch
+- kept:
+  - note 513 | the plan held this text before this reply | keeps Trimmel's backstory content (Ixodida's misattributed death, Pagala's culpability, Thranx's murder, his motive to defect and liberate), already in the database and quoted back within the model's Falldale analysis, sitting under PlotPoint 'Trimmel tells his entire lifestory'
+  - note 5452 | the author's own words in this record | keeps the author's own comparative breakdown of Chrysalis, language, Trimmel, the magic system, Celestia, and Twilight across the two source stories and TLTT, entered verbatim under Subject 'Pax Chrysalia Subversion'
+- brought: The author brought a widening set of outside reading (classic TwiJack fics, 'Green', 'Pax Chrysalia') alongside two of their own draft works ('Green Is Your Color', 'The Harvest of Falldale') and a pre-formed comparative outline distinguishing character interpretations across their source texts, all for the model to analyze against the TLTT plan.
+- loop: Across the stretch the author repeatedly supplies a new text, own draft, or technical question, the model returns a structural or perspective analysis mapped onto TLTT scenes and character voices, and the author either corrects a misreading, redirects the focus, or escalates to a broader craft or tooling question; of all this exchange the archive kept almost nothing, apart from a pre-existing lore passage the model quoted back and the author's own comparative synthesis, which the database preserved as its own entry.

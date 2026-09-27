@@ -1,0 +1,24 @@
+- steps:
+  - the author | brings a plan installment | trial arc for Eros and Eagleclaw, the Thranx-assassination blackmail logic, Grover's move to private citizenship | at gemini:287 prompt
+  - the model | dramatizes | turns the installment into a full courtroom arc with atmosphere, testimony, sentencing, and a mentor-heir dialogue | at gemini:287 response
+  - the author | refines the arc | adds Applejack's presence unifying Republicans and Imperialists against Chrysalis "the poser" and the rationale for a joint invasion | at gemini:288 prompt
+  - the model | dramatizes | expands the unification into a courtroom epiphany, ideological merger, Applejack's endorsement, and campaign details | at gemini:288 response
+  - the author | adds further plot beats | calls for a joint Kemerskai-Grover unity speech and a Synovial reveal of Chrysalis's true motive against Eagleclaw's rival theory | at gemini:289 prompt
+  - the model | drafts | writes the unity speech as full dialogue and stages the siege scene with Synovial's revelation | at gemini:289 response
+  - the author | resolves a plot mechanism | settles the siege on a food/love airdrop, leaves Chrysalis's fate open, and gives Luna's practical motive for backing Applejack | at gemini:290 prompt
+  - the model | elaborates | builds out Luna's ultimatum to Celestia, the siege's resolution, the regime's collapse, and Chrysalis's escape, with a summary | at gemini:290 response
+  - the author | poses a choice | lists four options for Chrysalis's fate plus a constraint barring her direct dialogue or point of view | at gemini:291 prompt
+  - the model | gives a verdict | recommends one option with reasoning and sketches the resulting climax and epilogue scenes | at gemini:291 response
+- kept:
+  - note 366 | the author's own words in this record | keeps the author's account of Eros being told of the Thranx assassination and coerced by Chrysalis's threat to withdraw support, filed to the plot point on Eros's undoing
+  - note 377 | the author's own words in this record | keeps the author's line contrasting Eros's inherent morality with Eagleclaw's humbled reform, filed to the plot point on Applejack's arrival in Griffenheim
+  - note 493 | the author's own words in this record | keeps the author's description of Grover's pride and Kemerskai's public-citizen ceremony, filed to the plot point on the Kemerskai-Grover meeting
+  - note 378 | pasted from this reply inside the author's own framing | keeps the model's holding-cell scene of Eros and Eagleclaw choosing honesty plus a line on Grover's readiness for the truth, filed to the plot point on Applejack's arrival in Griffenheim
+  - note 326 | pasted from this reply inside the author's own framing | keeps the model's framing of the war's end as a re-contextualization against a common puppetmaster, filed to the plot point on Kemerskai's final unity speech
+  - note 327 | pasted whole from this reply | keeps the model's paired paragraphs on the Republican and Imperial realizations about being deceived, same plot point
+  - note 328 | pasted whole from this reply | keeps the model's paragraph on the shared humiliation aligning the two ideologies against Chrysalis, same plot point
+  - note 474 | pasted whole from this reply | keeps the model's line on broadcasting trial recordings into the hives to dismantle Chrysalis's narrative, filed to the joint liberation plot point
+  - note 475 | pasted whole from this reply | keeps the model's paragraph on the Olenians reading the Griffon arrival as liberation and being treated with respect, same plot point
+  - note 451 | the author's own words in this record | keeps the author's statement of Luna's practical reason for backing Applejack's Equestrian Republic, filed to the plot point on Luna and Celestia
+- brought: The author brought forward an already-structured set of named plot points (Eros's undoing, Applejack's arrival, the Kemerskai-Grover meeting, the final unity speech, Luna and Celestia, the joint liberation) and used this conversation to add and settle new details onto each.
+- loop: The author supplies terse plot decisions and open questions tied to specific existing plot points, the model returns fully dramatized scenes and reasoned recommendations, and the plan keeps a mix of the author's own decision-sentences and select model-authored paragraphs, each filed back onto the plot point it was meant to settle.

@@ -1,0 +1,8 @@
+- passages:
+  - note 4769 | historical narration | past tense, third person, factual naming and a quoted slogan | Verany's identity and role as revolutionary leader | apart
+  - note 4769 | historical narration | past tense, expands acronym, describes aims and alliance hopes | founding of the PRNA and wish to join Griffenheim's NRP | apart
+  - note 4769 | present-tense characterization | shift to present tense, short blunt clause, evaluative word choice | his standing wants, summed up | run-in
+- shifts:
+  - note 4769 | historical narration | present-tense characterization | tense flips from past to present and the wording turns blunt and judging ("industrial greed") with no paragraph break before it
+- registers: historical narration; present-tense characterization
+- whole: The note runs mostly in one steady past-tense historical-narration register recounting Verany's role and party, then closes with a short present-tense, more blunt and judging line that follows on with no break, so the two registers sit joined rather than set apart.

@@ -1,0 +1,7 @@
+- steps:
+  - author | supplies | an attached document, never captured, presented as a prior planning-session transcript | opening turn
+  - author | requests | a chronological, thorough summary of the attached planning conversation, asking for major twists to be noted and an estimate of what fraction is now outdated | second turn
+  - model | synthesizes | a phase-by-phase chronological account of the setting's structural evolution (six phases), each with a stated twist and its impact, followed by a numbered list of specifically obsolete earlier concepts with a percentage estimate, closed with two open follow-up questions | third turn, in reply to the request
+- kept:
+- brought: The author brought a full prior planning-session transcript (via attachment) and a request to have it condensed and audited for outdated material.
+- loop: The author handed over an entire planning transcript for retrospective synthesis and staleness-auditing, and the model returned a phased chronological digest plus an obsolescence estimate and prompting questions, but no note in the planning database traces back to this exchange, so nothing from either the summary or the obsolescence audit was recorded into the plan at this point.

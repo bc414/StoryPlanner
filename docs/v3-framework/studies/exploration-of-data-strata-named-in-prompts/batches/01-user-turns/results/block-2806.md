@@ -1,0 +1,9 @@
+- sources:
+  - a note in v1 establishing that the books' jungle is fictional | treat as the authority that Twilight Velvet's books have nothing to do with the Tzinacatl jungle; the model should find it and rely on it over its earlier assumption | there should be a note in v1 which establishes that | referred-to
+  - my current working precedent (Mali, short for Malinalli, with a grass/meadow cutie mark) | treat as a provisional working pattern for naming, to weigh against the alternative rather than as settled | My current working precedent is Mali | first-named
+  - FiM canon cutie marks of Daring Do and Dr. Caballeron | look up what they are and consider whether the two should carry them as their marks, since they got them from reading the books and resonating with the characters | search for what the cutie marks are | referred-to
+  - my ontology of how cutie marks work | consult it and use it to explain how cutie marks work and whether the canon marks would apply | Refer to how cutie marks actually work in my ontology | referred-to
+  - the v1 archive | search it for relevant info; it holds some data not yet migrated to v2 | v1 archive has some unmigrated data not yet in v2 | referred-to
+  - v2 | search it for relevant info; it has the Tzinacatl lore build-out that v1 lacks | v2 has a build out of Tzinacatl lore that v1 doesn't have | referred-to
+- order:
+- about: The user corrects the model's earlier claim about Twilight Velvet's books and the jungle, adjusts the EEEE extraction mission, and asks the model to search v1 and v2 and consult the cutie mark ontology and FiM canon to decide native Tzinacatl names for Dr. Caballeron and Daring Do.

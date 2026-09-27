@@ -1,0 +1,12 @@
+- asks:
+  - analyze | requests analysis of a batch of worldbuilding refinements the message lays out (combat roles, agency mechanics, tone/rating rationale) | opening line "Some refinements to analyze:"
+- supplies:
+  - combat-tactics note | describes Réni and Minette as a paired chasseur duo, her shielding as first line of defense, enchanted aluminum as a secondary line not meant to absorb much damage, and the plane built for max agility/speed | a short paragraph
+  - partnership note | states Minette is also a chasseur and that she and Réni are partners | a single line
+  - agency-mechanics note | explains why agency is lost on the Stalliongrad front (Nazi-vs-Soviet framing, patriotic solidarity plus conscription, no asset specificity, drug-conscript human waves) versus retained on the changeling front (Equestria's volunteer Aquileian asset-specificity model plus solidarity) | a paragraph
+  - tone-and-battles note | lays out the reasoning that the Equestrian front mirrors a modern nation (Ukraine-vs-Russia parallel) meriting T-rated commentary, with named battle behaviors: surrender at Vanhoover, elastic defense at Tall Tale, shock-and-awe southern blitz, and material-superiority Bluebell River Spearhead (Montgomery-style) | a paragraph with several named examples
+  - rating-rationale note | lists why the Stalliongrad front and the Minette/Réni side story are M-rated: WW2 horror-show conscription, plus themes of grooming, sexual liberation, thug taming, trauma therapy for Sombra-recovering crystal ponies, an ISIS/Sinjar parallel at Mount Aris, and the WW2 meat grinder | a paragraph
+- shaping:
+  - none given | message states no instruction about the reply's form, length, stance, or perspective beyond asking for analysis
+- openness: leans toward an answer it names — the message presents its own explanations and design choices (chasseur roles, agency mechanics, tone/rating rationale) as settled and asks the model to analyze them rather than choose between alternatives or answer an open question
+- subject: worldbuilding refinements for a fantasy-war story's air-combat tactics, the political mechanics behind two factions' differing agency, and the rationale for a tonal/rating split between fronts

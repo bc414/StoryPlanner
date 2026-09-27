@@ -1,0 +1,11 @@
+- sources:
+  - the previous answer's proposed names (the terms for the tax) | rejected as not fitting, since they are not what to call the tax itself | These terms don't quite make sense because they're not what to call the tax itself | referred-to
+  - EEEE!'s laws enacted in chapter 7 Generosity | the base to reason from, worked out from first principles | Let's start from first principles on EEEE!'s laws enacted in chapter 7 Generosity | referred-to
+  - Hearth's Warming Bonds as fiat currency and deferred payment | already settled, taken as the first law | as established, Hearth's Warming Bonds as fiat currency | referred-to
+  - how Equestrian settlements were founded (three tribes, Winter Wrap Up, barn raising) | in-universe history to ground the framing of the mobilization act and why early settlements needed no taxes | which is how Equestrian settlements were founded | referred-to
+  - real life and Herzland in-universe taxation for infrastructure during the great depression and the new deal | contrast case, kept separate from the settlements' zero-expense model | This is separate from real life and Herzland in-universe | referred-to
+  - Britain's total mobilization | analogy the total mobilization act is equivalent to | equivalent to Britain's total mobilization | referred-to
+  - Georgism and the LVT | theory the model is asked to check, to say whether it covers automation or needs something separate | does georgism not account for this? | referred-to
+  - the historical account of mechanized port infrastructure replacing longshoremen | real historical case the model is asked to fit into the analysis, especially the pension as past rent | I'm also trying to consider the historical account of mechanized port infrastructure | first-named
+- order:
+- about: The user rejects the previously proposed tax names and re-derives EEEE!'s chapter 7 laws from first principles, asking whether a use-it-or-lose-it tax on productive assets, the LVT, or something separate should handle automation and the longshoremen pension case.

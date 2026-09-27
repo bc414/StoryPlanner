@@ -1,0 +1,7 @@
+- sources:
+  - chapter 5 Laughter | the story segment to be reworked; the user's proposed change to Rainbow and Starlight is offered as the way to make it hit harder, not yet settled | To make the whole of chapter 5 Laughter more hard hitting, I believe | referred-to
+  - this analysis (the Elements dialectic with hedonism as the Element of Tyranny) | starting point to be refined; its hedonism label is put in question and the model is asked to decide whether to keep it or replace it | Please refine this analysis and decide on hedonism versus | referred-to
+  - Réni's ideal as the ace chasseur (hunter) | the model should treat it as the pattern Rainbow Dash follows, and build her characterization on it | Rainbow Dash is following Réni's ideal as the ace chasseur | referred-to
+  - the anti-poseur crusade spirit of the Aquileian volunteers, at its peak in the defense of Mount Aris against the Storm King's warlord horde | the model should draw on it as the spirit behind Rainbow and Starlight's ace behavior, and name it with a fitting concept in place of hedonism | This is the "anti-poseur crusade" spirit of the Aquileian volunteers | referred-to
+- order:
+- about: The user proposes recasting Rainbow Dash and Starlight as Réni-style ace hunters whose ego-driven joy comes from the Aquileian anti-poseur crusade, and asks the model to refine its earlier Elements analysis and choose between hedonism and a better concept for the Element of Tyranny.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is asking whether a single three-valued mutually exclusive axis could replace multiple binary axes, and what mathematical principle would decide it, without pointing the model at any body of material.

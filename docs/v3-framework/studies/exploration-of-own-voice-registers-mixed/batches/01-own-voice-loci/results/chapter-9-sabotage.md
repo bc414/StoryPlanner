@@ -1,0 +1,52 @@
+- passages:
+  - 4433 | thesis aside | opening thesis line, no character or event named | applying the University's teachings to oil fields | apart
+  - 4433 | plot summary | terse third-person past-tense plan description | redistributing Rockfeller's oil drills to workers and buffalo | apart
+  - 4433 | lore note | explanatory clause on buffalo magic and land stewardship | buffalo earth-magic sustaining the prairie | apart
+  - 4433 | plot summary | third-person statement of consequence | Appleloosa cooperation making the apples exceptional | run-in
+  - 4433 | slogan | short exclamatory rhyme, 'You gotta share, you gotta care!' | the cooperative ethic | run-in
+  - 4433 | plot summary | terse third-person plan description resumes | Star Energy experts distributing assets and training buffalo | apart
+  - 4433 | speech report | 'Applejack said' introducing embedded first-person content | Applejack offering the buffalo a choice on the oil fields | apart
+  - 4433 | speech report | 'The Buffalo say' introducing embedded first-person reply | buffalo declining and citing obligation | apart
+  - 4433 | plot summary | third-person scene setup, no embedded voice | Applejack going to speak with Comet Shine | apart
+  - 4433 | speech report | 'She says' introducing embedded second-person address 'you own' | Applejack questioning Comet Shine's concentrated power | apart
+  - 4433 | speech report | 'Comet Shine says' introducing his reply | Comet Shine disclaiming founding the company | apart
+  - 4433 | backstory account | extended past-tense company history | Star Energy's original exploitative tractor-lease scheme | apart
+  - 4433 | moral judgment | evaluative words 'undoubtedly exploitative and cruel' | judging the original business as harmful | apart
+  - 4433 | backstory account | narrative resumes, business failure and Comet Shine's takeover | the company's collapse and its remaking | apart
+  - 4433 | moral judgment | present-tense claim 'everypony loves Star Energy today and for good reason' | present-day endorsement of the company | run-in
+  - 4433 | direct vow | first-person statement with speech tag 'Comet Shine vowed' | his pledge never to become Rockfeller | apart
+  - 4433 | direct vow | first-person statement with speech tag 'Comet Shine said to Applejack' | his thanks for her question | apart
+  - 5476 | plot summary | terse third-person account of evidence | Thunderhooves' list of collaborators and stockpiles | apart
+  - 5476 | plot summary | terse third-person reaction note | Fleur's disappointment that Gilded isn't listed | apart
+  - 5476 | plot summary | clipped fragment continuing the list-note | Star Energy's absence from the list | apart
+  - 5476 | plot summary | terse third-person statement of need | needing Gilded's help since officials are implicated | apart
+  - 5476 | speech report | 'Gilded Trust says' introducing embedded first-person reaction | Gilded's declared suspicion of the griffons | apart
+  - 5476 | slogan | short standalone declarative fragment, no verb or attribution | a populist rallying phrase | apart
+  - 5476 | fragment list | clipped noun-phrase fragment, no sentence structure | an accusation about loans | apart
+  - 5476 | fragment list | clipped noun-phrase fragment, no sentence structure | an accusation naming a shell company | apart
+  - 5476 | plot summary | full third-person sentence resumes | deciding how to split the seized oil fields | apart
+  - 5476 | plot summary | third-person scene setup | the town hall between Comet Shine and Gilded Trust | apart
+  - 5476 | thesis aside | short declarative emphasis, set apart from surrounding facts | naming the event as 'the grand debate' | apart
+  - 5476 | plot summary | terse factual statement | the vote being proportional | apart
+  - 5476 | plot summary | terse factual statement | some ponies favoring Gilded's vision | apart
+- shifts:
+  - 4433 | thesis aside | plot summary | moves from a general thesis line to factual third-person plan narration
+  - 4433 | plot summary | lore note | moves from plot event to explanatory description of buffalo magic
+  - 4433 | plot summary/lore note | slogan | shifts mid-paragraph into an exclamatory rhyming phrase, no break
+  - 4433 | slogan | plot summary | returns to factual third-person plan description after the rhyme
+  - 4433 | plot summary | speech report | 'Applejack said' introduces embedded first-person content
+  - 4433 | speech report | plot summary | returns to plain third-person narration setting up a new conversation
+  - 4433 | plot summary | speech report | 'She says' introduces embedded second-person address ('you own')
+  - 4433 | speech report | backstory account | shifts from reporting the exchange to extended past-tense company history
+  - 4433 | backstory account | moral judgment | evaluative words 'undoubtedly exploitative and cruel' break in
+  - 4433 | moral judgment | backstory account | returns to narrating the business's failure and takeover without evaluation
+  - 4433 | backstory account | moral judgment | present-tense claim 'everypony loves Star Energy today' breaks in, no gap
+  - 4433 | moral judgment | direct vow | shifts to first-person quoted-style statement marked by 'vowed'
+  - 5476 | plot summary | speech report | 'Gilded Trust says' introduces embedded first-person reaction
+  - 5476 | speech report | slogan | drops to a short unattributed declarative fragment
+  - 5476 | slogan | fragment list | shifts to clipped noun-phrase fragments with no sentence structure
+  - 5476 | fragment list | plot summary | returns to full third-person sentences narrating plot events
+  - 5476 | plot summary | thesis aside | short emphasis fragment 'This is the grand debate' set apart from surrounding facts
+  - 5476 | thesis aside | plot summary | returns to factual description of the voting mechanism
+- registers: thesis aside; plot summary; lore note; slogan; speech report; backstory account; moral judgment; direct vow; fragment list
+- whole: These two notes move through several distinct registers — thesis-like asides, terse plot summary, lore explanation, sloganeering, reported dialogue, extended backstory, moral judgment, direct quotation, and clipped fragment lists — some changes falling between separate lines and a few breaking in mid-sentence with no gap, so the item sits as many registers interwoven rather than one.

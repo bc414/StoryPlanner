@@ -1,0 +1,6 @@
+- sources:
+  - my identification of Poland as the civic, harmonic Republic of today that the West abused and neglected for 250 years | working premise the author already holds, but the model is asked to check whether it is still accurate | I've identified Poland as the civic, harmonic Republic of today... Is this still accurate? | referred-to
+  - the events of 1991 and the end of history thesis | the framework the model is to tie the Poland and Russia relationship into | How does this tie into the events of 1991 and the end of history thesis? | referred-to
+  - the Apple industry as a Poland link for Applejack | provisional idea, promising but not yet placed in the plot, so not settled | Apple industry is promising but I haven't found a place in the plot | first-named
+- order:
+- about: The author asks the model to check whether their Poland-as-model-Republic analogy still holds, to explain how Poland's neighbor Russia and 1991 tie into the end of history thesis, and to help find a real connection between Applejack and Poland.

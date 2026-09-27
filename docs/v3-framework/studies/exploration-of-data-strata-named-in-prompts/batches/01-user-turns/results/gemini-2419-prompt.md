@@ -1,0 +1,5 @@
+- sources:
+  - my story plans for Rainbow's arc | read and review them, then combine with the new insights; the plans are the existing material being worked on | review my story plans for Rainbow's arc | referred-to
+  - the new insights | merge into the reviewed plans as fresh input to synthesize with, not to replace them | synthesize with the new insights | referred-to
+- order:
+- about: The user asks the model to review their existing story plans for Rainbow Dash's arc and synthesize them with the new insights from the model's preceding analysis.

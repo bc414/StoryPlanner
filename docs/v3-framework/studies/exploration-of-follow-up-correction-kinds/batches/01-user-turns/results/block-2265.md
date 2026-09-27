@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model, as a fresh question, whether it can work out what their company is from the conversation context, without saying the model's stated guess about InP lasers was right or wrong.

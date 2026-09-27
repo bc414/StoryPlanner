@@ -1,0 +1,7 @@
+- sources:
+  - the model's previous chapter 13 outline (its Republic/President framing and its reunion placement) | treat as wrong on these points: drop any Republic or President concept at this stage, only a de facto military governor, and do not place the TwiJack reunion here | Again, there won't be any concept of "Republic" or "President" at this stage | referred-to
+  - Chapter 11 and Chapter 12 of the story plan (TwiJack reunion, fight against Synovial, southern blitz) | treat as settled earlier events, so the reunion has already happened and is not part of this chapter | TwiJack reunion already happened in Chapter 11 | referred-to
+  - the chapter titles with their HOI4 term theme | the new title should fit this existing naming theme, and its combat-sounding reading is meant as a subversion | it fits the HOI4 term theme | referred-to
+  - canonical setting of Friendship is Magic (Ponyville, the castle of friendship) | use as the chapter's setting; its canonical friendship associations make the title an ironic contrast | The canonical setting of Friendship is Magic | referred-to
+- order:
+- about: The user proposes titling the Ponyville chapter "Combined Arms" as a subversion of the HOI4-style titles, and corrects the model's outline by removing the Republic/President framing, moving the TwiJack reunion back to Chapter 11, and reworking the Luna, Mali and Rasti greeting scene.

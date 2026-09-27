@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches their story plan file and asks for a rigorous comparative analysis of the related topics, which moves the work on to a new task without saying anything in the model's preceding turn was wrong.

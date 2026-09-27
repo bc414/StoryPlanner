@@ -1,0 +1,5 @@
+- sources:
+  - my original version of Twilight resenting the order not to fight | treat as superseded, replaced by the new direction, not to be used as the current plan | I originally had Twilight feel resentful of the order to not fight | referred-to
+- order:
+  - Twilight as the driving force of her own research after the exhausting Ain Trotgourait rebuilding, over the original version where she resents the order not to fight | it seems having Twilight be the driving force of her research ... is better
+- about: The user answers the model's structural question by saying Celestia deliberately keeps Twilight on research to stop her going to fight, and revises their earlier plan so Twilight drives her own research instead of resenting the order.

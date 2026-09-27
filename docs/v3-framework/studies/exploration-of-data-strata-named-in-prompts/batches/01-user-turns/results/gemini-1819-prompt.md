@@ -1,0 +1,4 @@
+- sources:
+  - pre-Louis XIV France and other equivalent societies | historical record the model is asked to draw on for real proportions of castle servants to serf/tenant farmers, as a comparison for the setting's pony population | What was the proportion of castle servants to serf/tenant farmers in pre-Louis XIV France and other equivalent societies? | first-named
+- order:
+- about: The user asks a follow-up on the setting's pre-Gerad Discret period, whether ponies would mostly be castle servants, and asks for real historical proportions of castle servants to farming serfs in pre-Louis XIV France and similar societies to answer it.

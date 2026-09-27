@@ -1,0 +1,34 @@
+- relations:
+  - 854|1246|the climate and ecological diversity is the material ground for the terroir-based economy that the analogy note names|Aquileia has diverse weather an climate / Terroir economy like France, Italy and Spain|implicit
+  - 854|1879|diverse ecology is the condition the system's design answers by respecting local terroir and ecology|varying ecology / terroir of diverse griffon communities ... respecting ... local ecology|implicit
+  - 2634|1879|the reasoning that every creature has a specialty is the reason behind the system's working rule of enhancing each pony's talents and cutie marks|If every creature has a specialty / enhance ponies' special talents/cutie marks|implicit
+  - 260|261|the earlier note sets up the wait for the counterrevolution and the later note reports it happening and crushing the bourgeoisie|before launching the counterrevolution / Moriset Discret's counterrevolution crushes the bourgeoisie|explicit
+  - 261|264|the destruction of the universities is a particular event within the counterrevolution, carried out by hired mercenaries|during the counterrevolution / counterrevolution crushes the bourgeoisie|explicit
+  - 264|263|the later note restates the destruction of the universities and continues it with the aftermath: one university spared, and Aquileia pivoting|Skyfall destroyed the very institutions / standardized universities|explicit
+  - 261|263|the double cross by a Discret that spares one university continues the counterrevolution led by a Discret; only the shared surname joins them|Moriset Discret's counterrevolution / Dennis Discret's double cross|implicit
+  - 263|1879|the pivot to industrialized griffon and pony magic in history is the same approach the ontology note states as the system's working rule|introducing industrialized griffon and pony magic / Use industry and magic to enhance|implicit
+  - 612|263|the narrative note says mass production kills magic under Skyfall, and the history note has Aquileia rejecting Skyfall's model and reviving magic through industry|Magic dies in Herzland and Skyfall / pivots away from Skyfall's model|implicit
+  - 1049|612|the ontology note states that cross-species incompatibility frees casual sex, and the narrative note gives the mechanism: no cubs, no paternity uncertainty, sex decoupled from lineage|casual sexual relations without biological consequence / Cross-species passion cannot produce cubs|implicit
+  - 614|1049|the two set opposite verdicts on the same reformed sexual order: it is liberating in one, and in the other family love is sacrificed and the left-behind have no partners or dignity|liberating / Aquileia sacrifices family love|implicit
+  - 614|612|the obsession with tableau de chasse, given as a cause of low birthrates, is the ritualized Passion that the narrative note presents as the Chasseur Doctrine|tableau de chase / Tableau de Chasse|implicit
+  - 612|1368|the return to asset specificity that revives magic is the same principle the ontology note names as uniting Aquileia|Asset Specificity (Terroir/Artisanship) / asset specificity|explicit
+  - 612|1247|reviving artisanship as the source of Griffon Magic goes with pride in craft as the highest calling|Griffon Magic (Ambition applied to artisanship) / Pride in craft is the highest calling|implicit
+  - 1754|612|the chasseur partnership as intense, passionate and ego-present rests on the chasseur and passion practices the narrative note lays out|chasseur partnership — intense, passionate, ego-present / Chasseur Doctrine|implicit
+  - 1249|2634|the reader's belief in partnership through difference matches the specialty-and-trade reasoning that the creators are said to promote|I have what you lack / If every creature has a specialty, then trade|implicit
+  - 1249|614|the reveal that Aquileia is ego-capitalism is borne out by the note saying family love is sacrificed for economic efficiency or personal ego|ego-capitalism / personal ego|implicit
+  - 1249|1754|the reader-facing reveal of ego beneath the unity is echoed by the Aquileians' framework that has no place for non-ego connection|ego-capitalism / no category for productive non-ego-driven connection|implicit
+- outward:
+  - 260|the revolutionary conflict, the figure Verany, the neighboring Wingbardy and the town of Vinovia, all held elsewhere|Verany to lose support / smuggle wine through Wingbardy
+  - 261|a counterrevolutionary figure whose story is held elsewhere|Moriset Discret's counterrevolution
+  - 264|Skyfall's B2B companies and their use of mercenaries|Skyfall B2B companies pay the mercenaries
+  - 263|the University of Pridea and Dennis Discret's double cross|University of Pridea remaining due to Dennis Discret's double cross
+  - 1249|other systems (Tall Tale, Manehattan) and a later story event, the Dilemma, where the truth is revealed|Tall Tale and Manehattan synthesis / as revealed in Dilemma
+  - 612|the Archons of Boreas, Grover III and IV, the Skyfall Trade Federation, Herzland and the MPA gangs, held as other lore|The Archons of Boreas / Grover III eradicates the monsters / MPA street gangs
+  - 612|real-world sociology and evolutionary psychology, and economic concepts brought in as support|Male Variance / Veblen good
+  - 1754|the Crystal Heart study, the crystal ponies, the Wings of Dew and the Wallflower, all lore held elsewhere|Crystal Heart study / Wings of Dew / Wallflower
+  - 614|the FJA and PNdA demographic groups, defined elsewhere|FJA demographic / PNdA demographic
+  - 861|real-world French naming practice|Aquileian names are just French names
+  - 1246|real-world terroir economies of France, Italy and Spain|Terroir economy like France, Italy and Spain
+  - 1049|the Coltbert Reforms as an event, described elsewhere|New Aquileia after Coltbert Reforms
+  - 1092|United Aquileia as a political unit, with its own history and species makeup elsewhere|United Aquileia has a population of 26 million
+- whole: The notes hang together in clusters (the 980 counterrevolution history, the terroir and specialty rationale, and the Coltbert-era sexual and ego order), while several notes (names, population, pride in craft) stand as separate entries with little joining them to the rest.

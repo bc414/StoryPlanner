@@ -1,0 +1,16 @@
+- steps:
+  - the author | propose-and-justify | links an existing report/plot point to a new drug-trade-for-valves plot point, with the author's own reasoning already laid out (asset specificity, donated love, moral high ground, supply-chain analogy, post-war restitution) | opening prompt
+  - the model | validate | affirms the proposed link as strong worldbuilding and a character-defining turn | opening of the reply
+  - the model | elaborate-threat | restates and expands the author's logic on why losing the valves forces a draft/meatgrinder | first analysis section
+  - the model | elaborate-mechanism | spells out the mechanics of the drug-for-valves compromise the author described | second analysis section
+  - the model | thematic-tie | connects the compromise to the author's supply-chain allegory and to an existing in-plan thesis (Coltbert's paper) | third analysis section
+  - the model | elaborate-arc | extends the author's post-war resolution idea into a restitution arc | fourth analysis section
+  - the model | verdict | frames the whole idea as a trolley-problem masterstroke | verdict section
+  - the model | suggest-scene | proposes a new confrontation scene (Fluttershy vs Applejack over the epidemic) not present in the author's prompt | closing suggestion
+- kept:
+  - note 2009 | pasted whole from this reply | keeps the model's phrasing of the evidence-of-meatgrinder logic, filed onto the Stalliongrad-panic plot point
+  - note 2011 | pasted whole from this reply | keeps the model's spelled-out valve-to-draft causal chain, filed onto the same plot point
+  - note 3377 | pasted whole from this reply | keeps the model's line tying the plot point to the Coltbert thesis, filed onto the link between that plot point and the Predator's Dilemma paper
+  - note 3626 | pasted whole from this reply | keeps the model's supply-chain-allegory sentence, filed onto the link between that plot point and the Stagnation paper
+- brought: The author brought an already-reasoned link between an existing plot point (the Stalliongrad report) and a new one (the Skyfall drug trade), asking the model to review and analyze it.
+- loop: The author brings a fully worked-out causal and thematic argument for review; the model reflects it back reorganized and elaborated with a verdict and one added scene suggestion; the plan keeps the model's restatements rather than the author's own wording, distributing them across the source plot point and its links to two pre-existing thematic notes.

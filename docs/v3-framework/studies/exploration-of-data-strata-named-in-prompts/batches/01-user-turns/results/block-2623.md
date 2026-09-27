@@ -1,0 +1,4 @@
+- sources:
+  - the story plan (the relevant parts) | treat as authoritative; the model must reread it, since its parallel contradicts what the plan says about sedentary hives and jaegers as the warrior caste | Reread the relevant parts of the story plan | referred-to
+- order:
+- about: The user rejects the model's Chinese-history parallel as wrong because it conflicts with the story plan, tells it to reread the plan, and asks a separate factual question about whether Chinese history was really about 800 years ahead of Europe in the Warring States-to-Qin and legalism sequence compared with Greece and Rome.

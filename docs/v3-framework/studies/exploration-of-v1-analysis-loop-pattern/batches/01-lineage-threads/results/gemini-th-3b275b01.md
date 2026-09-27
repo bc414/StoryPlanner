@@ -1,0 +1,14 @@
+- steps:
+  - the author | supplies the working document | the full current plan export, no separate question visible | at the outset, as an attachment
+  - the model | classifies the character type | frames the needed antagonist as a false meritocrat contrasted with the story's equity/generosity themes | early in the reply
+  - the model | offers alternatives | lays out three distinct antagonist directions, one a canon-character adaptation, two original characters, each with name, backstory and narrative hook | in the reply
+  - the model | picks a favorite | recommends one of the three options and gives it a party role and campaign slogan | in the reply
+  - the model | builds a grievance event | invents the asset-seizure incident that ties the antagonist to existing characters and the war-mobilization plot | in the reply
+  - the model | drafts a confrontation | sketches a debate exchange between the antagonist and the heroine, including sample lines | in the reply
+  - the model | links to theme | connects the antagonist to another major character's thematic fear about ambition | in the reply
+  - the model | gives style notes | describes rhetorical mannerisms and a wedge issue to signal the real-world inspiration without breaking immersion | in the reply
+  - the model | closes with a capsule | ends with a short summary block naming archetype, story function and eventual fate | at the end of the reply
+- kept:
+  - note 2529 | pasted from this reply inside the author's own framing | keeps the recommended character's name and one-line identity (party leader, ally turned antagonist), placed into a plot-point node about a polling-results beat
+- brought: The author brought the complete current plan export as working context, implicitly continuing a brief (already established elsewhere) for an antagonist tied to a specific theme, political archetype, and villain faction.
+- loop: The author supplied the whole plan for the model to extend, the model returned a wide creative package of archetype analysis, named options, a chosen candidate, a backstory event, a debate draft, thematic linkage and style guidance, and the plan kept only the one detail it needed operationally: the settled character's name and role, folded into a separate polling-outcome plot node rather than any of the surrounding analysis or drafted scenes.

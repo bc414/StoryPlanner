@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Rémi could also develop into a graceful gentleman given the peasant background the profile laid out, extending the character rather than disputing anything.

@@ -1,0 +1,6 @@
+- sources:
+  - P&K, the origin of the changeling detection spell | provisional: the spell is traced to it, and the author is weighing leaving it out of TLTT rather than carrying it over | This spell comes from P&K | referred-to
+  - canon episode To Where and Back Again Part 2 | treat as established canon evidence: Chrysalis stripping Thorax's Starlight disguise is a fact the new detection rule has to fit | Chrysalis is able to forcibly strip away Thorax of his Starlight disguise in the canon episode | referred-to
+  - the v1 archive, on the epilogue newspaper clipping about Chrysalis as the griffoness grifter arrested in Skyfall | consult for what it says about that disguise and clipping | see the v1 archive about this | referred-to
+- order:
+- about: The user is proposing a revision to Chrysalis's characterization and to the disguise rules, asking whether she should sincerely enjoy her adoptive parents' praise and whether TLTT should drop the P&K detection spell in favor of one that strips only deceitful disguises, and is checking this against the canon episode and the v1 archive.

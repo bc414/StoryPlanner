@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Equestria at War lore discussion and asks a new, separate question about whether NotebookLM can handle a 650k-word story that exceeds context window limits.

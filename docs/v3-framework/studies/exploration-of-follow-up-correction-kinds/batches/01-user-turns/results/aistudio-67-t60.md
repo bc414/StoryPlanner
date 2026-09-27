@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's point that the population consented to the Stagnation and asks a new, open question about how that affects the story's themes, character arcs and delivery, and whether the heroes should keep blaming Celestia until the chapter where she reveals the petitions.

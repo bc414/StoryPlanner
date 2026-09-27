@@ -1,0 +1,6 @@
+- sources:
+  - These mechanisms (the real-world suburbanization forces and their allegory mapping from the previous reply) | use as the material to be redistributed: the capitalist, individualist and privatization mechanisms go to Skyfall, and the overview is to be redone on that basis, so the earlier mapping to Celestia is not kept as it stood | These mechanisms are what I want Skyfall to use | referred-to
+  - canon (the ponies are canonically communal and harmonic) | treat as true and as a constraint: suburbanization must not be given to Celestia because the ponies are communal | The ponies canonically are communal and harmonic | referred-to
+- order:
+  - canon (ponies are communal and harmonic) | over the previous reply's assignment of suburbanization to Celestia | But not suburbanization. The ponies canonically are communal and harmonic
+- about: The user is reassigning the previous reply's postwar suburbanization mechanisms between two parts of their story, giving the capitalist and individualist ones to Skyfall and keeping helicopter parenting, risk aversion and therapeutic pacification under Celestia's Stagnation of Harmony, and asking for a redone 1945-to-2008 overview that sorts them that way.

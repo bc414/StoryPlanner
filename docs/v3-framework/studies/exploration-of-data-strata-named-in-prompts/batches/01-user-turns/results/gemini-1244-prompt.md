@@ -1,0 +1,4 @@
+- sources:
+  - these [the four mindsets/lenses given in the prior turn] | treated as good and accepted, to be kept and built upon | marked by "These are all great" | referred-to
+- order:
+- about: The user turn affirms the model's four prior motivational lenses and proposes adding a further mindset—wanting to \"show the changelings how to be friends\"—as another layer to the analysis.

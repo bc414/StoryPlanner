@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh three design options for whether Luna alone or others can cast the thestral-to-dreamscape spell, and how Luna responds to Applejack's rifle-teleport demand, and to give pros, cons and thematic effects of each, without pointing to any body of material to draw on.

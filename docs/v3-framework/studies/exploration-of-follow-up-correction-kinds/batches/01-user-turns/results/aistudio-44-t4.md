@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for an analysis of whether a long-embedded changeling among Pinkie's regiment fits their materialist worldbuilding or is just a tempting trope, which is a fresh question and does not say anything in the prior turn was wrong.

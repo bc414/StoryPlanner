@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short follow-up question, requesting French names for actual known opioids, extending the naming exercise without saying anything in the model's answer was wrong.

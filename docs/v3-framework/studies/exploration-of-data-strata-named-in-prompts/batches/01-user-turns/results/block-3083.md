@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user gives the go-ahead for the triage audit and asks the model to explain why particular items should be scrutinized, without pointing at any body of material.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user confirms the Night Light scientist arc as settled and moves on to a new question about making Twilight Velvet the author of Daring Do, a fanon idea that canon later contradicted, asking how it would work thematically.

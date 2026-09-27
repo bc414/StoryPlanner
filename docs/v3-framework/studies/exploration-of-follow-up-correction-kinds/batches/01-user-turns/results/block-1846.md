@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated project-wide subject tracks as independent planning instruments and singled out Character Appearance Plan and Technology Usage Plan as odd summary exceptions. The user says all subject tracks are aggregate plans of the link tracks' sum, so that premise and the resulting analysis are wrong. | Subject tracks are project-wide which are supposed to be aggregate plans for the sum of the link tracks | flat statement of the design principle, with no apology or softening
+  - reading of the request | The model produced a proposal-heavy critique that split and added tracks, and the user asks for it to be redone under the corrected premise. | Do a reanalysis | terse imperative, given after the premise correction
+- about: The user corrects the model's misunderstanding of how subject tracks relate to link tracks, saying they are aggregates of the link tracks, and asks for the analysis to be redone.

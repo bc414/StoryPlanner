@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its previous analysis of Sherrill to the other candidates in the New Jersey governor primaries, without pointing at any body of material to draw on or avoid.

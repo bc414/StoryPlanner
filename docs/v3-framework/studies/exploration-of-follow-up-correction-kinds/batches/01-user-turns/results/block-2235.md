@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's three-faction framing and applies it to their own workplace, describing their company's move from an AI ban to a Copilot pilot and asking whether that makes them responsible for setting a cooperative rather than extractive culture.

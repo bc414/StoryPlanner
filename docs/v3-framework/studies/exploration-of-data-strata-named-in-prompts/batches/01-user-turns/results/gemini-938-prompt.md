@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain the symbolism of a story beat, Applejack eating rations from her parents' facility while on the run, and does not point at any body of material to draw on or avoid.

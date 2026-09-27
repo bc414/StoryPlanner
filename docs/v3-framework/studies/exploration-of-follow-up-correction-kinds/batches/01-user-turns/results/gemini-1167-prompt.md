@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's escalation idea to speculate that the factory's destruction was triggered by the anti-kill rule being invoked after Chrysalis armed the tribes, rather than by the plantations displacing the jungle.

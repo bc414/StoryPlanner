@@ -1,0 +1,17 @@
+- passages:
+  - 4215 | statement about the subject | Eros is the elderly spiritual leader of the Herzlander religion, the Archon of Boreas | none | plain declarative identity, no moment
+  - 4215 | statement about the subject | After a lifetime of watching nobles fumble the regency and the republic cause chaos, Eros resolves to step up in Boreas's name to save the griffons' soul; this is his motivation and stance rather than a shown moment | none | explains why he acts, spanning a lifetime, no single event
+  - 4215 | statement about the subject | Eros sees Eagleclaw as compromised and doomed to repeat the same mistakes | none | his opinion of another party, stated as a view
+  - 4215 | statement about the subject | Eros wants to mentor Grover VI into a virtuous, morally superior emperor who common griffons can look to as an example | none | his aim or intention, stated as a want
+  - 4215 | statement about the subject | Grover VI is contrasted with his sickly father Grover V and his hedonistic, chocolate-eating grandfather Grover IV, and as a child already shows intelligence and empathy | none | comparison of the emperors and description of the child's character
+  - 4216 | statement about the subject | Wiki-style birth data: born 9th December 914 in Griffenheim | 9th December 914 | 'Born:' field of the bio entry
+  - 4216 | statement about the subject | Eros VII is one of the oldest living griffons, born when the Empire was at its height of power | none | bio prose; era given only as the Empire's height, no date |
+  - 4216 | statement about the subject | Summary of his career: joined the priesthood of Boreas young out of genuine respect for the Gods, and through piety and humility rose quickly to Archon | none | condensed life summary with no particular moment shown
+  - 4216 | statement about the subject | Background history: fate broke the Empire apart through the loss of the Idol of Boreas and the incompetent Council of Regents | none | historical context told in summary
+  - 4216 | scene beat without a year | Eros saved the young Grover V's life from Republican insurgents, beginning a lasting friendship with him | none | a past rescue event that could be shown; no date given
+  - 4216 | statement about the subject | Because of that friendship he protects Grover V's son Grover VI and hopes he will rule a unified Empire once his regency ends | none | explains his present loyalty and hope
+  - 4216 | statement about the subject | Eros has little love for the nobility, blaming them for every misfortune of the Heartlands | none | statement of his belief
+  - 4216 | statement about the subject | Currently, with broad support from the commonfolk, Eros and the other Archons are trying to restore the Empire's glory | none | present-state summary, ongoing effort rather than a moment
+  - 4216 | other: in-voice proclamation | Rallying declaration that traitors and unbelievers will pay in blood, as Boreas wills it | none | exclamatory, zealous voice closing the bio
+- sequences:
+- whole: Three notes on Archon Eros: a motivation and aims summary regarding his mentoring of Grover VI, an empty note, and a wiki-style bio with birth data, career, and history. All but one passage are statements about him, with one undated past rescue and one zealous proclamation, and none run as a sequence of beats.

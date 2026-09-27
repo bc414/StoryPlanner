@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two worldbuilding-flavored factual questions, whether WW2 fighters all carried tracers or found them hard to source, and how earth pony phosphorus and potassium could yield both high velocity and tracer effects, without pointing the model at any particular body of material.

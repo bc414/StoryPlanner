@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a $300 GCP sign-up credit could be used as another way to get full-document handling of their large story plan, naming no body of material for the model to draw on or avoid.

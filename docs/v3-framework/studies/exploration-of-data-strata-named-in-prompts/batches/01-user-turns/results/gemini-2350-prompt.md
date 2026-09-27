@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author clarifies their world's backstory, saying the pre-Grover III emperors had already cleared Herzland's monsters, bribed the masses with fertilizer and made war on Aquileia, Wingbardy and the Riverlands, and asks whether Grover III's clearing of monsters in Aquileia and Wingbardy then follows as a way to keep living standards up without further attacks on the Riverlands.

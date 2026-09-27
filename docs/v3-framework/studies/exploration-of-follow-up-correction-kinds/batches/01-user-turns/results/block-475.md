@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated the bait and Applejack's refusal as an open question, and built the trap on Equestrian sentimentality overriding logic. The user says the plan already has Applejack decline it for cold, detached military reasons: the hostages can't be saved without huge losses, so the group plans the Bluebell River spearhead instead. | "Actually, I established that Applejack does NOT take the bait" | Flat, stated as already settled, and opening with "Actually". The user then folds it into a new proposal for how Chapters 12 and 16 connect.
+- about: The user corrects the model's account of the bait and Applejack's refusal by restating what is already established, then proposes that Ahuizotl's testimony resurfaces in Chapter 16 and, with Blueblood's radio approval, is why Applejack trusts the Machiavellian-god picture over the cartoon-villain one.

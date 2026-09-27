@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - 2025 | Twilight's wings of dew, an ability or object established elsewhere, that AJ has active | AJ has Twilight's wings of dew active the whole time
+  - 2025 | Tall Tale as a place, presumably a setting held elsewhere, that the characters are returning to | all the way back to Tall Tale
+  - 2025 | An earlier journey away from Tall Tale, implied by the trip "back" | all the way back to Tall Tale
+- whole: The owner holds a single note, so there is no set to hang together and no joints between notes.

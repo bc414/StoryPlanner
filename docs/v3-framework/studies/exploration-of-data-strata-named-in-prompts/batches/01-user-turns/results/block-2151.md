@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user explains from their own head how griffon artisans must bootstrap their tools and vacuum chambers from first principles, so the craft cannot be inherited, and asks where in the plan these notes should be filed.

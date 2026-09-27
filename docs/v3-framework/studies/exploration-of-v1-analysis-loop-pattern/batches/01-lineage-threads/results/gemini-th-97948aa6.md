@@ -1,0 +1,13 @@
+- steps:
+  - author | request-research | asks whether a fan headcanon (Trixie from New Mareleans) is real and where it originated | opening prompt of the stretch
+  - model | research-and-integrate | reports the headcanon's fandom origin, then weaves it into the author's existing Aquileia/ego-capitalism lore and a Chapter 7 payoff | first response
+  - author | correct-with-source | supplies a canon transcript link and challenges the model's prior reading, noting the other Mane 6 were mean while Twilight's issue was fear of showing off | second prompt
+  - model | accept-correction-and-reintegrate | revises the character analysis of the episode using the transcript, reworking each character's behavior through the worldbuilding lens while preserving the Chapter 7 synthesis | second response
+  - author | pose-structural-question | asks whether Season 1's external conflicts should mainly come from foreign influence or the Everfree Forest, given the rigid 'Stagnation of Harmony' framing | third prompt
+  - model | confirm-and-systematize | agrees and sorts Season 1/on conflicts into three categories (Everfree, foreign influence, internal/social), closing with a question about how to classify the Diamond Dogs | third response
+  - author | resolve-and-extend | answers the Diamond Dogs question with own worldbuilding (native marginalized underclass), adds a backstory beat (Rarity later gets them factory jobs), and offers Zecora as a further example while asking for more | fourth prompt
+  - model | validate-and-catalogue | affirms the Diamond Dogs resolution, then compiles further canon examples (Zecora, dragons, Sombra, foreign dignitaries, Changelings) as foreign-influence vectors, closing with a question about Zecora's Great War role | fourth response
+- kept:
+  - note 3378 | pasted whole from this reply | keeps the paragraph explaining AJ/RD/Rarity's economic illiteracy toward Trixie's hustle, filed on the Boast Busters recontextualization link in the Stagnation of Harmony entry
+- brought: The author brought a canon episode transcript to correct the model's characterization of Boast Busters and drew on their already-established Stagnation of Harmony/Aquileia worldbuilding framework to steer the model's synthesis.
+- loop: The author supplies a canon detail, a correction, or a structural question rooted in existing lore, the model resynthesizes it through the worldbuilding framework and hands back a categorized or revised analysis (often ending in its own follow-up question), and the author affirms or extends it with their own resolution; one resulting paragraph of character analysis was logged verbatim onto the relevant lore entry.

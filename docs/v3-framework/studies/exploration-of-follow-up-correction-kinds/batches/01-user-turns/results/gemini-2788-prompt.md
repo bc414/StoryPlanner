@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's closing question and moves on to earth ponies, asking whether Fleur should invent fertilizer matrices and whether cutie-mark discounts fit their weathering-based magic and asset specificity, thinking it through aloud with their own doubts.

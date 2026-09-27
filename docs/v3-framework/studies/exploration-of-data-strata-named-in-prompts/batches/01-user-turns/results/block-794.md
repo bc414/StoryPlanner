@@ -1,0 +1,5 @@
+- sources:
+  - the model's earlier description of the GR's flaw ("can't accommodate artisans") and of Equestria's and Aquileia's mixes, in this conversation | treat as incomplete and in need of correction; the author supplies a sharper account of the GR flaw and adds soft assimilation for Equestria and Aquileia | "more acute than just" | referred-to
+  - canon FiM | use as a check that the author's assimilation account fits the show; cited examples (Gilda's exchange program in Cloudsdale, Cranky Doodle Donkey and Matilda as citizens, Gustav Le Grand as a chef) support it | "That would align with canon FiM" | referred-to
+- order:
+- about: The author corrects the model's factional matrix by restating the GR's real flaw as dependence on an existential-threat trauma engine and by adding that Equestria and Aquileia both practice soft assimilation, backing the Equestria point with canon FiM examples.

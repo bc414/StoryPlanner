@@ -1,0 +1,4 @@
+- sources:
+  - real history of wine serfs in Champagne and feudal dues, as a historical breakdown | draw on actual historical fact to explain how serfs got food and what the Lord demanded as feudal tax | Give me a historical breakdown | referred-to
+- order:
+- about: The user leaves the surname discussion and asks for a factual historical overview of how wine serfs in Champagne got food and what feudal tax their lord demanded.

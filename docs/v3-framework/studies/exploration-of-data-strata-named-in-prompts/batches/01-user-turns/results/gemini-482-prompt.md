@@ -1,0 +1,5 @@
+- sources:
+  - The author's own plan for Star Energy and Chapter 2, stated in this turn (Star Energy loved by Tall Tale ponies, Applejack visiting the factory and talking to Comet Shine and Fleur Bloom) | Treat as the author's intended direction that the model should build on in place of the evil-megacorp framing; offered as a proposal whose fit is being tested, not as settled | I don't plan on Applejack thinking Star Energy is an evil megacorp; Can this depiction work | first-named
+  - The big reveal/twist in the buffalo and oil worker town hall | Treat as an existing plot element that must be kept intact; check whether the new depiction still allows it | still maintain the big reveal/twist in the buffalo and oil worker town hall | referred-to
+- order:
+- about: The author corrects the model's assumption that Applejack sees Star Energy as a threat, describes their intended portrayal and Chapter 2 scene, and asks whether it can still support the town hall twist.

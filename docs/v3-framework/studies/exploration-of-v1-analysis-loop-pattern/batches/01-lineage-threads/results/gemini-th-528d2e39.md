@@ -1,0 +1,16 @@
+- steps:
+  - author | technical question | asks whether GitHub import uses splicing/truncation/RAG or full context ingestion | opening of the conversation
+  - model | technical explanation | describes GitHub import as native full-context ingestion with hard file/size limits, no RAG | first reply
+  - author | follow-up question | asks the parallel question for large attached documents | second exchange
+  - model | technical explanation | contrasts document uploads as RAG/chunked with a UI context cap, names AI Studio and NotebookLM as bypasses | second reply
+  - author | scenario plus proposal | states own story bible's size (300k words/457k tokens), reports consumer chat degrades after few turns versus AI Studio, proposes routing the bible through a GitHub repo to force full-context ingestion | third exchange
+  - model | evaluation with caveats | confirms the repo workaround would bypass document RAG, lists why it works and remaining friction points versus AI Studio | third reply
+  - author | scope correction | narrows the intended use to structural/logical analysis only, no prose generation, and requests a coder-style analytical persona | fourth exchange
+  - model | persona setup | adopts a reasoning-only analyst role and lists analysis categories (dependency mapping, conflict matrices, architectural integrity) it will apply to the repo | fourth reply
+  - author | follow-up question | asks whether the earlier technical facts explain why GitHub import is desktop-only | fifth exchange
+  - model | technical explanation | attributes the desktop-only restriction to front-end rendering and workflow design rather than hardware limits | fifth reply
+  - author | new technical question | asks whether mobile app and desktop web use different system instructions | sixth exchange
+  - model | technical explanation | lists differences in system instructions between mobile and desktop (tools, context, formatting, modes) | sixth reply
+- kept:
+- brought: The author brought their own story bible's scale (roughly 300k words / 457k tokens) and a prior observation that the consumer chat interface degrades after a few turns compared to AI Studio, using this to test a workaround.
+- loop: The author brought a practical logistics problem from outside the plan itself (how to get a huge story bible fully read by the model) and steered the model through successive technical questions and a scope correction toward a workable ingestion method and analysis persona, but the archive shows nothing from this technical/strategic exchange was captured into the planning database.

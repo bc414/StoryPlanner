@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the organ-gun idea as a possible model for the subscription grift and asks the model to compare it against other weapon options and say why, without disputing anything the model said.

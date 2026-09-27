@@ -1,0 +1,4 @@
+- sources:
+  - what was established so far | the model is to check the new Equestrian-hippogriff contact proposal against it and say how it fits or conflicts | How does that stand against what was established so far? | referred-to
+- order:
+- about: The user corrects a point about Rockfeller's cutie mark, then floats a new idea, that pioneering Equestrian pegasi and unicorns gave combat support to hippogriffs and seaponies from about 570 ALB, and asks the model to test it against the existing established material.

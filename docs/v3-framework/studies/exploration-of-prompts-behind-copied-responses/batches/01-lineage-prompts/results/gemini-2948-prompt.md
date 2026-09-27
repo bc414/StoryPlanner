@@ -1,0 +1,7 @@
+- asks:
+  - propose | asserts that the rhyme-to-spell-name connection should become the in-story reason Twilight informally nicknames the spell "Pinkie Promise" | "This should be how Twilight decides to colloquially call it Pinkie Promise"
+- supplies:
+  - idea | a claimed phonetic/thematic link between the nursery-rhyme line "cross my heart, hope to fly" and the "wings of dew" spell (an Aquileian chasseur spell using the "charitostatic effect") | a couple of sentences
+- shaping:
+- openness: Leans toward an answer it names: the message states outright that this rhyme/spell connection \"should be\" the explanation for Twilight's nickname, rather than asking whether it should be.
+- subject: An in-universe etymology linking a nursery rhyme to a named spell, to justify Twilight's nickname "Pinkie Promise"

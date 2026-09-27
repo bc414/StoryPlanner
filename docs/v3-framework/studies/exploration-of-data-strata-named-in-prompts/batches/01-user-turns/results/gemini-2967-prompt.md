@@ -1,0 +1,4 @@
+- sources:
+  - story plan document | no instruction on how to treat it; the turn only states its size, about 500k tokens, as a constraint on what the model should account for | My story plan document is currently around 500k tokens | first-named
+- order:
+- about: The user replies to the model's explanation of Google's free-credit rules by stating how large their story plan document is, with no instruction attached.

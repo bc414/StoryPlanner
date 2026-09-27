@@ -1,0 +1,5 @@
+- sources:
+  - a text paste with more questions | weight: to be analyzed by the model as material for the requested full analysis | marked by: "I have provided more questions in a text paste" | new: first-named
+  - another text paste with v1 story planner content for the questions | weight: to be analyzed together with the questions paste, as the content addressing those questions | marked by: "plus another text paste with v1 story planner content for the questions" | new: first-named
+- order:
+- about: The user tells the model that two new text pastes have been supplied — one of additional questions and one of v1 story planner content addressing those questions — and asks for a full analysis of them.

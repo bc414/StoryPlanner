@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Google and OpenAI have adopted innovations from Chinese AI labs, building on the overview without challenging anything in it.

@@ -1,0 +1,6 @@
+- sources:
+  - the document (his arc for Blueblood) | read it and review the Blueblood character arc it contains, as the material to be reviewed | review his character arc from the document | referred-to
+  - The Best Night Ever | canon starting point for Blueblood, the silly noble he begins as; the arc bridges from this to the later role | the silly noble from The Best Night Ever | referred-to
+  - EaW | the story's setting where Blueblood is a field marshal; the user states this as a correction of what the model assumed | Blueblood is a field marshal in EaW | referred-to
+- order:
+- about: The user corrects the model's guess about Blueblood's role by saying he is a field marshal in EaW, explains his arc runs from the silly noble of The Best Night Ever to that role, and asks the model to review that arc from the document.

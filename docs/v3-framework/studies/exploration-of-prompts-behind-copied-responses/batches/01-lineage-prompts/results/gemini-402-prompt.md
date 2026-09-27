@@ -1,0 +1,9 @@
+- asks:
+  - clarify canon | establish as settled fact that FJA's advice succeeded in Equestria (crystal-embedded spell commoditization, combined-arms tactics, buffalo/batpony economic integration) | "To be clear, FJA's advice in Equestria was wildly successful"
+  - clarify canon | establish the content and tone of the follow-up chapter where Applejack meets Kemerskai in Cloudbury and revises her view of the Griffonian Republic | "the follow up chapter after meeting Gaudreau features Applejack meeting Kemerskai"
+  - clarify canon | lay out the Griffonian Republic's revolutionary history (978 alliance, 981 betrayal, Kemerskai's long march, purge, and meritocracy-building) as backstory | "The original Republican revolution of 978 in Herzland was an alliance..."
+  - clarify canon | fix Applejack's revised stance toward the GR (respect instead of scorn, mentorship by Kemerskai, but continued incompatible loyalty to FJA) | "So AJ doesn't actually scoff at the GR... AJ still wants to save the FJA"
+- supplies:
+- shaping:
+- openness: The message leans toward answers it already names, laying out settled worldbuilding facts and revised characterizations (e.g. GR's true nature, Kemerskai's personality, AJ's stance) as corrections/clarifications rather than open questions or choices.
+- subject: Worldbuilding clarifications about Equestria's post-FJA magical economy and the Griffonian Republic's history, culture, and Applejack's revised view of it

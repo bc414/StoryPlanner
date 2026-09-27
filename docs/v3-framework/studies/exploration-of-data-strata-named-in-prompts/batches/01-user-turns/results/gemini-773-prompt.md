@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a new general question about how formal linguistics distinguishes consonants from vowels, without pointing at any body of material for the model to use or avoid.

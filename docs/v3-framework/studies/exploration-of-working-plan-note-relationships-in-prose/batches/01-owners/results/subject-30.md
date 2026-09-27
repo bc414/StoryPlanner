@@ -1,0 +1,50 @@
+- relations:
+  - 1666|1659|the event and the belief drawn from it: the meltdown is the occasion, and the lesson is that a power accelerant corrupts|"saw the meltdown" / "Luna's meltdown made Celestia believe" any accelerant "inherently corrupting"|implicit
+  - 1659|1660|cause and its stated result: Luna's corruption is the specific trauma behind the ban on research and the terror of the Love Harvester|"specific trauma about Luna's corruption" / "accelerant that can increase power is inherently corrupting"|implicit
+  - 1666|1660|occasion and lasting policy: deciding that nuclear power must not be studied leads to the long ban on empirical magical research|"too dangerous to be further studied" / "ban on empirical magical research"|implicit
+  - 659|659|placeholder|placeholder|implicit
+  - 1659|477|the belief about accelerants supplies the ground for the worldview that ambition is evil|"any accelerant that can increase power is inherently corrupting" / "Ambition is Evil"|implicit
+  - 1666|477|the meltdown is labelled Ambition/Industrial Magic and is the event behind the worldview that ambition is evil|"Nuclear Power" (Ambition/Industrial Magic) / "Ambition is Evil"|implicit
+  - 477|1187|general worldview and its instances: every state industrialization example is read as a disaster of ambition|"Ambition is Evil" / "every example of state-driven industrialization has been a disaster"|implicit
+  - 477|583|the worldview and the belief that follows from it: if ambition is evil, the harmonious society is perfect and threats are only anomalies|"Ambition is Evil" / "perfect society (Stagnation of Harmony)"|implicit
+  - 1470|1471|the plan of the character's belief and the plan for the reader's discovery of it: she banned industry out of belief in folklore, not to hide the chemistry|"genuinely believed the folklore" / "believes the folklore"|implicit
+  - 1471|1660|two accounts of the motive behind the ban that pull apart: spiritual folklore and mysticism versus specific trauma over Luna's corruption|"terror is rooted in mysticism, not chemistry" / "specific trauma about Luna's corruption"|implicit
+  - 1470|1660|both concern the ban on empirical research and its scope; one gives the ignorance it left behind, the other the trauma behind it|"banned empirical chemistry" / "1,000-year ban on empirical magical research"|implicit
+  - 444|1660|the claim that stagnation is only 80 years old sits against the claim of a 1,000-year ban, so the two durations conflict|"Stagnation was only recent from 80 years ago" / "1,000-year ban"|implicit
+  - 444|1992|revision of the timeline: the golden age of peers ending in 914 means the paralysis and stagnation are recent, not ancient|"Stagnation was only recent" / "Golden Age of Peers (854 – 914 ALB)"|implicit
+  - 444|1977|the reader's move from incompetence to ideological terror answers the canon reading of a pathetic Celestia who is ignorant for 1000 years|"story of incompetence to a story of ideological terror" / "pathetic and implies a 1000 year ignorance"|implicit
+  - 1977|1660|the canon reframing of Celestia's actions as justified is delivered by tying the ban to specific trauma instead of arbitrary behavior|"TLTT justifies all her actions" / "aren't arbitrary trauma"|implicit
+  - 1990|1992|the general state across 10 to 930 ALB and one period within it: cooperative joy in the general phase, a golden age of peers in the specific one|"cautious, optimistic warden" / "genuinely believes the world has been 'solved'"|implicit
+  - 1666|1990|continuation in time: the meltdown at year 0 starts the warden phase whose daily reminder is the trauma of ambition|"saw the meltdown" / "daily, tactile reminder of what unchecked ambition does"|implicit
+  - 1990|1620|the daily moving of the moon by Nightmare Moon's energy sits beside the earlier skill at moving the sun|"moving the moon" / "exceptional at moving the sun"|implicit
+  - 1617|1620|continuation of her early life: a childhood of survival harmony, then skill at moving the sun|"grew up in a time of 'survival harmony'" / "exceptional at moving the sun"|implicit
+  - 1669|233|cause and how the reader first reads it: her non-intervention after Luna's failed peace looks to readers like an over-protective mother forcing peace|"Luna's failed attempt at enforcing world peace" / "'White Peace' the conflict"|implicit
+  - 233|763|the sanitized peace the reader mistakes for smothering is what she permits when she lets the war look harmonious|"'White Peace' the conflict" / "sanitizes the war and preserves the appearance of harmony"|implicit
+  - 1197|1188|continuation in time: after planning to retire and hand over to Twilight, Celestia turns to alternative ways to protect Equestria|"planned on retiring" / "After Canterlot Wedding, Celestia explores alternative methods"|implicit
+  - 1188|763|continuation in time: her wish to avoid a heavy hoof carries on into letting the shields and hidden tech slide|"doesn't have to use a heavy hoof" / "preserves the appearance of harmony"|implicit
+  - 1040|1303|aim and its policy: keeping serfdom out of Equestria shows in the bar on Aquileian ponies owning farmland or factories|"abusive serfdom" / "can't own farmland or factories"|implicit
+  - 1187|1303|two cases of the same limit: she does not understand modern economics or the griffon mentality, and her policy toward Aquileians follows|"She doesn't understand modern economics" / "Aquileia further mistreated ponies"|implicit
+  - 1303|1041|the Aquileian presence in Manehattan is the setting where Aquileians read "my little ponies" as degrading|"Aquileian griffons and ponies" / "only the Aquileians who interpret it as such"|implicit
+  - 1195|1194|one gives Celestia's belief about why her ponies shot Nightmare Moon, the other the reader's lesson from that fact: they are only ponies|"rather than shooting her" / "Nightmare Moon could have been shot and killed"|implicit
+  - 1194|320|both push the reader to see Celestia as ordinary in power, not a goddess|"just simply are not goddesses" / "does not have orders of magnitude more magic"|implicit
+  - 1194|1989|the realization that she is not a goddess leads toward the canon endgame of a peer weary of godhood|"not goddesses, they are just ponies" / "weary of her own godhood"|implicit
+  - 1989|439|the endgame of being treated as a peer is served by the proposition that no pony should carry a thousand years of rule|"treated as a peer rather than a deity" / "burden of a thousand years of rule"|implicit
+  - 1197|439|her plan to retire and pass on rule is the occasion of the thematic claim about the burden of a thousand years|"planning on retiring and having Twilight take over" / "Nopony should have to bear the burden"|implicit
+  - 672|477|her willingness to let Twilight reform Starlight comes from a system that deports outward ambition, matching her view of ambition as evil|"deports outward ambition" / "Ambition is Evil"|implicit
+  - 1187|1195|both come from her judgment about imperialist ideology and armies, one about states now, the other about what her own army might have done|"Herzlander Imperialists" / "army fueled by imperialist ideology"|implicit
+- outward:
+  - 448|a scene or story named Encirclement where Celestia works with the thestrals|"In encirclement, Celestia feeling better after working with the thestrals"
+  - 1470|Grover III's earlier warning about explosive chemistry, and Earth Pony magic lore held elsewhere|"the exact same explosive chemistry that Grover III warned her about"
+  - 1471|Earth Pony phosphorus and its explosive potential, lore held elsewhere|"explosive potential of Earth Pony phosphorus"
+  - 1660|Twilight and the Love Harvester, a device or event not in this item|"Twilight weaponizing the Love Harvester"
+  - 1187|other nations and their histories (hives, Herzland, Aquileia, Stalliongrad, New Mareland, the Griffonian Republic, Vedina, the Reich)|"Herzland and Aquileia had violent revolutions"
+  - 1187|the universal translator, a piece of lore held elsewhere|"understand the universal translator"
+  - 1188|the Canterlot Wedding and the changeling threat, plus Fluttershy and Discord|"getting Fluttershy to befriend Discord"
+  - 763|Cadance's hidden tech development and the friendship shields, held elsewhere|"Cadance's hidden tech development"
+  - 672|the No Second Prances episode and Starlight's cult|"In No Second Prances, Twilight was trying to micromanage Starlight's redemption"
+  - 1989|Lauren Faust's original conception and canon episodes|"Lauren Faust’s original conception of Celestia"
+  - 1977|the P&K canon depiction of Celestia|"P&K depicts Celestia as pathetic"
+  - 233|the conflict she tries to end with a White Peace, held elsewhere|"attempt to 'White Peace' the conflict"
+  - 444|the story The Lioness of Tall Tale and the characters who realize the Stagnation is recent|"As the characters realize the Stagnation was only recent"
+  - 1992|Grover III and the griffon Enlightenment, held elsewhere|"the era of Grover III"
+- whole: Most of these notes hang together around one cluster: Luna's meltdown leads to the ban on ambition and research, which leads to stagnation and the reader's changing view of Celestia. A few notes stand apart as separate entries, such as the encirclement note, the canon notes, and the Starlight note.

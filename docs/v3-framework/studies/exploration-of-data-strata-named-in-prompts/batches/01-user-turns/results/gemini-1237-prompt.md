@@ -1,0 +1,4 @@
+- sources:
+  - real-world history of gold, silver and medieval economies (the model's general knowledge) | draw on as a factual reference for how money and metal supply worked, apparently as a real-world comparison for the story's economy | In the real world, where did all our gold and silver come from | referred-to
+- order:
+- about: The user steps away from the fictional economy under discussion to ask the model a real-world history question about the origin of gold and silver and the money used in post-Black Death medieval towns.

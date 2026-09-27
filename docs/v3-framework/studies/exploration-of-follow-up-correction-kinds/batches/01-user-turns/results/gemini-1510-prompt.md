@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The PNdA's driving motive: the model cast them as pure capitalists chasing capital and low wages, whereas the user says their ego-driven aim is to out-compete Skyfall at Skyfall's own industrial game, which is why they accept the FJA alliance and set cultural superiority aside | "I think what the PNdA want to do to fulfill their egos is beat Skyfall at their own game" | stated flatly as the user's own view, offered as a replacement motive without saying the model was wrong, and backed by a short reason (low input costs, high consumption)
+- about: The user replaces the model's capital-and-low-wages account of the PNdA with their own: an ego-driven industrial rivalry with Skyfall that makes the FJA alliance worthwhile, and they add that the factories later turn to arms production when Eros threatens.

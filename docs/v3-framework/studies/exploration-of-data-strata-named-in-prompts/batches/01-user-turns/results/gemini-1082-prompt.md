@@ -1,0 +1,5 @@
+- sources:
+  - Celestia's Stagnation of harmony | the setting framework the model is to work within when deriving what powers the mayor holds, and against which Chrysalis's manipulation is to be worked out | What would the powers of the mayor be under Celestia's Stagnation of harmony | referred-to
+  - the author's own statement about Gilded Trust's place | treat as true and as correcting the earlier placement of him in Manehattan; he holds Las Pegasus instead | Gilded Trust is not involved in Manehattan. He is in control of Las Pegasus | first-named
+- order:
+- about: The user corrects the previous answer by moving Gilded Trust out of Manehattan to Las Pegasus, then asks what the mayor's powers would be under Celestia's Stagnation of harmony and how Chrysalis manipulates them through Skyfall shell companies.

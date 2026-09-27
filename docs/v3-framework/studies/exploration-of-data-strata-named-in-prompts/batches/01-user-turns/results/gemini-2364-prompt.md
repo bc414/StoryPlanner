@@ -1,0 +1,4 @@
+- sources:
+  - Equestrian reality, the Equestrian ponies' defensive survival harmony | use as the grounding for Luna's motive for the dream spell, offered as a tentative suggestion rather than settled | Perhaps it should be rooted in Equestrian reality | referred-to
+- order:
+- about: The user questions why Luna would alter warlords' dreams in her global dream-draining spell and proposes, tentatively, a motive rooted in Equestrian lore: she naively tried to replace dreams of conquest with friendship so the world would share monster-fighting knowledge.

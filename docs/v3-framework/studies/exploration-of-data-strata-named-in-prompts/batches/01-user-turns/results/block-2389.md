@@ -1,0 +1,6 @@
+- sources:
+  - P&K's sparse Chrysalis scenes | the material to go back through and review, as the evidence for how P&K writes Chrysalis | Review P&K's sparse Chrysalis scenes | referred-to
+  - Brazen Gauge and Unknown Error's "good chrysalis" versus "bad Chrysalis" joke | the two authors' own framing, used as the baseline that the user's Chrysalis is to be compared against and distinguished from | often joke about "good chrysalis" versus "bad Chrysalis" | referred-to
+  - my TLTT Chrysalis | the user's own planned version, to be checked against the two P&K framings, with the user expecting confirmation that it differs from both | my TLTT Chrysalis is totally different than both, right? | referred-to
+- order:
+- about: The user asks the model to confirm that their planned Chrysalis differs from both of the P&K authors' joking good and bad versions, and to reread P&K's few Chrysalis scenes to check.

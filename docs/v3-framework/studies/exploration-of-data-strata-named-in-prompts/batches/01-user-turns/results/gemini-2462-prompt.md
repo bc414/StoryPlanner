@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author pushes back on the model's grim-resolve reading of the hospital scene, arguing that the medics' magic and Tzinacatl herbs add an optimistic seed about diversity beyond the three tribes, and confirms the factory should follow as the backbone reality.

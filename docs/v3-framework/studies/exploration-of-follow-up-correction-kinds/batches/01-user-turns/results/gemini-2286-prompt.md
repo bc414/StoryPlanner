@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up questions, one on whether WW2 fighters all carried tracers and one on how Earth Pony phosphorus and potassium could give the high-velocity and tracer effects, and does not dispute anything the model said.

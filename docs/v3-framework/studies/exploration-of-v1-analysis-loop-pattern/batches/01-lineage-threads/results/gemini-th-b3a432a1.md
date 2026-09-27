@@ -1,0 +1,19 @@
+- steps:
+  - author | proposes speech detail | Henri's apology-tour to every vandalized family, with Fleur's parents' distinct task | opening of the author's message
+  - author | supplies character backstory | Fleur's paranoid-farm upbringing, thwarted ambition, earth-pony chemistry research niche | continuing in the same message
+  - author | sets up relationship mechanic | mutual frustration over incomprehension of the other's expertise, escalating to sex | closing of the same message
+  - model | reframes the beats | names them as replacing 'destiny/romance' with labor, frustration, and physics | opening of the response
+  - model | elaborates a scene beat | turns the apology-tour detail into a beat where Fleur's parents give Henri a 'logistics officer' assignment | first section of the response
+  - model | builds a lore framework | develops earth-pony magic as internal chemistry versus unicorn external physics, plus a rationale for why slavery fails on earth ponies | second section of the response
+  - model | drafts a scene | writes sample argument-then-sex dialogue for the 'boiling point' scene | third section of the response
+  - model | extends a running gag | lists the sequence of things that flabbergast Henri, from weather to rubber to tanks to air support | fourth section of the response
+  - model | frames a thematic contrast | closes by contrasting the pair's non-romantic bond-as-engine with TwiJack's friendship-without-engine | end of the response
+- kept:
+  - note 344 | the author's own words in this record | keeps the apology-tour/debt detail with Fleur's parents' harder task, filed under the party speech plot point
+  - note 1805 | the author's own words in this record | keeps the mutual-frustration-to-sex mechanic, filed under the partnership-origin plot point
+  - note 4119 | the author's own words in this record | keeps the apology-tour detail plus Fleur's parents/ambition backstory together, filed under the Backstories subject
+  - note 133 | pasted from this reply inside the author's own framing | keeps the model's phrasing of the no-love-at-first-sight/apologized-to-everyone line, filed under Henri's speech plot point
+  - note 1806 | pasted whole from this reply | keeps the model's three-point thesis (no destiny, no romance, relationship as engine), filed under the partnership-origin plot point
+  - note 4116 | pasted from this reply with cuts | keeps the model's elaboration on the parents' pre/post-Coltbert stance, with an added authorial aside on Celestia's stagnation, filed under the Fleur Bloom subject
+- brought: The author brought a set of additions to already-planned scenes: a new speech detail about Henri's debt-repayment tour, expanded backstory for Fleur's parents and ambition, and a frustration-to-sex mechanic for the partnership-origin scene.
+- loop: The author drops several plan beats across different scenes in one message; the model dramatizes and frames them into scene structure, dialogue, and thematic tie-ins; the database then keeps both the author's original wording and select model-authored lines, splitting the single exchange's material across four separate entries (a plot point speech, a partnership-origin plot point, and two subject profiles).

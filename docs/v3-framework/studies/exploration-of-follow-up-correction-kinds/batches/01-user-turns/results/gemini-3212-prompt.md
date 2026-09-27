@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to confirm the inference that the Queen of Blades in Brood War had no Xel'Naga influence, without disputing anything the model said.

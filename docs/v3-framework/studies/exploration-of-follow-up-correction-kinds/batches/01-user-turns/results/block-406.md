@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user recaps their original scheme, in which naive elements are pure pink, war and tyranny are pure red, and liberty is a balance, and asks whether it still fits with the conscience-based mechanism the model just laid out, without saying the model's account is wrong.

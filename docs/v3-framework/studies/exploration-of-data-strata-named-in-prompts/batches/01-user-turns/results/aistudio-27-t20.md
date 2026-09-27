@@ -1,0 +1,4 @@
+- sources:
+  - my whole history (of questions asked, to be run through Notebook LM) | weight: offered as one possible method to derive an exhaustive list of lenses, posed as a question against the alternative of adding an open-ended clause, not adopted or ruled out | marks it: "using Notebook LM to go through my whole history, and find an exhaustive list of lenses used based on the questions I have asked" | new: first-named
+- order:
+- about: The user asks whether the conditional lenses should be made open-ended and how best to check for missing lenses (memory-based clause vs. Notebook LM analysis of past questions), then requests an objective, non-agreeing analysis of specific draft-instruction phrases to determine whether they act as restrictive blinders despite being framed as always-applied universal directives.

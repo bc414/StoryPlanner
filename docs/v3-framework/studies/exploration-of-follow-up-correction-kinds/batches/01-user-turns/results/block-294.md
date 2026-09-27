@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the plot breakdown to ask whether it fairly portrays Anarcho-Capitalism, what real-world parallels exist, and how the Empire and the Griffonian Republic map onto the same set of economic-ideology labels used for Skyfall and Aquileia.

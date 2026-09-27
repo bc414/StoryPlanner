@@ -1,0 +1,11 @@
+- asks:
+  - check | asks whether the radio concept as laid out is sound/workable as described | "Does this work?"
+  - critique | asks what parts of the concept are weak or don't work | "what doesn't work?"
+  - brainstorm | asks for ways to enhance or improve the concept | "How can it be enhanced"
+  - brainstorm | asks for an in-story justification for why Applejack never upgrades to a better radio | "How can I justify her not getting a better radio?"
+  - evaluate a named option | floats "familiarity" as a candidate justification and asks about it | "Familiarity?"
+- supplies:
+  - worldbuilding description | describes Applejack's Equestrian magic/crystal radio, the electronic vacuum-tube Herzlander/Aquileian models, the hybrid Star Energy models, the radio's bulkiness, its origin as a rare general's-issue device, and its symbolic weight tied to AJ's former command | a paragraph
+- shaping:
+- openness: Mostly open — it invites free evaluation and brainstorming (\"does this work,\" \"how can it be enhanced,\" \"how can I justify\"), while floating one named candidate answer, \"Familiarity?\", for the justification question.
+- subject: Worldbuilding for Applejack's unique Equestrian magic-based radio and how to justify her keeping it

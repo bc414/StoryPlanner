@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pitches a second recurring object for Applejack, a bulky Equestrian crystal-magic radio tied to her former generalship, and asks the model whether it works, how to improve it, and how to justify her keeping it over a better one.

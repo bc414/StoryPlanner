@@ -1,0 +1,6 @@
+- asks:
+  - explain | asks whether British WW2 home-front contribution by adults was legally mandated or simply driven by economic incentive | "was every adult required...by law or was it just economic incentive?"
+- supplies:
+- shaping:
+- openness: Asks for a choice between two named options: legal requirement versus economic incentive.
+- subject: Whether Britain's WW2 home-front labor mobilization was compulsory by law or economically incentivized

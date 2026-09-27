@@ -1,0 +1,6 @@
+- sources:
+  - the social commentary / this point (the model's preceding analysis of the story as a commentary on AI and the modern economy) | the material the user wants to convey; treated as the thing to be placed, with how and where still undecided | How can I convey this point in the story | referred-to
+  - author's notes outside the story | offered as one possible place for the point to live, and the user asks whether that is where it exists; an option, not settled | does it exist in author's notes outside the story | referred-to
+  - famous historical works of social commentary (the model's general knowledge) | to be drawn on as precedent for how social commentary has been conveyed | How is social commentary historically conveyed in famous historical works | referred-to
+- order:
+- about: The user asks how and where to get the story's social commentary across (inside the narrative, in author's notes, by letting it stand silently or by having a character roar it) and asks for historical precedent for how such commentary is conveyed.

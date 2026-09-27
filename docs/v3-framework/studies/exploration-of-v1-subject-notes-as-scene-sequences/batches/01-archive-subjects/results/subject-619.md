@@ -1,0 +1,12 @@
+- passages:
+  - 62 | scope statement or placeholder | a one-line note saying this subject covers the events of the rest of the war apart from Applejack's own actions | none | reads as a description of what the note covers, with no event told
+  - 5416 | statement about the subject | Manehattan mobilizes totally, on the basis of asset specificity | none | plain declarative premise, no moment or date
+  - 5416 | statement about the subject | the pegasi still do weather and the earth ponies still farm, but now also for explosives as well as food | none | describes a standing condition, not an event
+  - 5416 | statement about story timing | the chemistry is released to the public after chapter 9 | none (only a chapter reference, no calendar date) | a placement of a release in the book's chapter order, not a calendar year
+  - 5416 | scene beat without a year | a meeting among the Aquileian-aligned tribes where chemistry knowledge is securely passed from Tall Tale to Manehattan, which mobilizes ponies for explosives and lets them start stalling the northern front | none | written as an event that happens with a result, no date
+  - 5662 | statement about the subject | why Vanhoover falls at once: it cannot be defended against a surprise mechanized assault and its civilians suffered from normalcy bias | none | causal explanation of a fixed fact
+  - 5662 | scene beat without a year | Blueblood coldly, in a Mudbeak-inspired way, writes Vanhoover off, keeps his reserves from breaking the encirclement, and uses the time Trimmel spends securing the city to mobilize his trains | none | a decision and action by a character, no date
+  - 5662 | scene beat without a year | Blueblood takes the fleeing border vanguard remnants into his secondary lines and makes the Changeling Heer fight for every mile of the Northern plains | none | actions by Blueblood written as things done, no date
+  - 5662 | scene beat without a year | Blueblood's troops hold a railway junction just long enough for the civilian trains from Shire, Marechester, Whinnyapolis and Bales to leave, then blow the tracks behind them | none | concrete action with a connective 'and then', no date
+- sequences:
+- whole: A small set of loose planning notes on the northern war: a one-line scope note, a note on Manehattan's mobilization and the chemistry transfer that stalls the front, and a note on the fall of Vanhoover and Blueblood's delaying retreat, none carrying calendar dates.

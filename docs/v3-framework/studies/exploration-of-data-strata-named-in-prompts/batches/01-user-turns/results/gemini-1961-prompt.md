@@ -1,0 +1,7 @@
+- sources:
+  - Kemerskai preaching from 981 to 1007 against the nobles/bourgeoisie and the archons | offered as a story point to be tested as a further reason for Eros adopting Reich and Kaiser; treated as premise, with the model to judge whether it fits | from 981 to 1007 Kemerskai would be preaching about the ills of both | first-named
+  - the earlier English-language Reich/Kaiser analysis in this conversation | accepted as working in English and used as the base to carry over into German | this makes a lot of sense in English | referred-to
+  - Herzlanders speak Herzlander (German) in universe, heard through Universal Translators by Equestrians | stated as a fixed world rule; the model should treat Herzlander as German and work within it | The Herzlanders speak Herzlander (German) in universe | first-named
+  - the model's general knowledge of real German terms and endonyms for empire, Reich and Kaiser | to be drawn on to list and analyze all the German-word options | what are the German words used? Are Kaiser and Reich the German endonyms? | referred-to
+- order:
+- about: The user asks whether Kemerskai's 981–1007 preaching is another reason Eros adopts Reich and Kaiser, and asks the model to lay out and analyze the German-language terms available for these titles in the Herzlander (German) setting.

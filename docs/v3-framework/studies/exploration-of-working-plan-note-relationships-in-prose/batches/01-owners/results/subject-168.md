@@ -1,0 +1,11 @@
+- relations:
+- outward:
+  - 470 | the nation of Celestia and its own gold standard, held elsewhere as lore | rigid gold standard just like Celestia
+  - 470 | the predator's dilemma, a theme or concept held elsewhere in the plan | fuels the predator's dilemma
+  - 470 | Skyfall, its banks and its Skyfall Marks currency, a nation held elsewhere | Skyfall banks lending out money creates the fiat currency of Skyfall Marks
+  - 470 | the Trade Federation, its debt enforcement and trade-route control | backed by the "Credit" of the Trade Federation
+  - 470 | Coltbert, his kingdom, his royal coffers and his royal advisor, held elsewhere | Coltbert's model is harmonic fiat/social credit
+  - 470 | Kemerskai and its Riks currency, federal law and taxes | Kemerskai's Riks backed by federal law and taxes
+  - 470 | the 2nd Aquileian Republic and its Francs, national production and war bonds | the 2nd Aquileian Republic's Francs backed by national production and war bonds
+  - 470 | Equestria and its war bonds, held elsewhere | Equestria's war bonds are backed by the collective labor and future
+- whole: This owner has only one note, so there are no joints between notes; it holds together within itself as a single comparison of monetary systems, but all the nations and concepts it names point outside the item.

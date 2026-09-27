@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Windigo-propaganda thread without comment and starts a new question, asking the model to rework Stalliongrad/Severyana's history under the revised Celestia timeline, and supplies canon constraints, the old plan and new ideas for evaluation.

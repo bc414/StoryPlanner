@@ -1,0 +1,7 @@
+- asks:
+  - analyse | examine and discuss the stated premise about predator/herbivore primal drives and the pink-love/red-love sentience theory | "Please give an analysis of this premise"
+- supplies:
+  - premise, a two-part worldbuilding theory | claims that predators have only primal ambition to eat, herbivores have only primal "friendship" for communal survival or are otherwise bland/grey, and that possessing both "pink love" and "red love" is what elevates a creature to sentience and society-building beyond mere animal status | a short paragraph
+- shaping:
+- openness: leans toward an answer it names, since the message states its own theory (predator/herbivore primal drives, and pink+red love as the marker of sentience) and asks for analysis of that stated claim rather than posing an open or neutral question
+- subject: a fictional theory of species psychology, distinguishing predator and herbivore primal drives and proposing "pink love" plus "red love" as the marker of sentience and society-forming capacity

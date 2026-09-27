@@ -1,0 +1,6 @@
+- asks:
+  - explain | trace and explain the reasoning or process by which the user arrived at the concept/title "The Predator's Dilemma" within their story plan | "How did I come up with"
+- supplies:
+- shaping:
+- openness: Open: the message asks the model to reconstruct and explain an origin, without naming any candidate explanation, offering options to pick from, or stating a claim to verify.
+- subject: The origin of the "Predator's Dilemma" element in the user's story plan for "Lioness of Tall Tale"

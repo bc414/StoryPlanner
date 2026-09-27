@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for alternative words to "extraction" that are more elegant and more emotionally powerful, without pointing at any body of material to draw on or avoid.

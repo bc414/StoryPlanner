@@ -1,0 +1,3 @@
+- passages:
+  - fabula content | States as fact of the changeling world that its school system is fair and meritocratic, yet people who fail in it are pacified in the factory | "Changeling school is fair and meritocratic, but those who fail are pacified in the factory" | no | expository prose, a single declarative sentence with a but-contrast
+- whole: A one-sentence world-fact note about how changeling society treats its schooling and its failures, which gives the pacification background without saying what this scene does with it.

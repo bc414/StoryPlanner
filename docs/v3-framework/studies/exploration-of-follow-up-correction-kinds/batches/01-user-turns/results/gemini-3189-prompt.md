@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - own name: cost estimate against project scale | the claim that $10 to $20 of credits would last a very long time and cost pennies per query, which the user says ignores the database being about 490,000 tokens | I'm not sure the $10 will last very long | hedged doubt backed by the concrete size figure, stated flatly
+  - reading of the request | the recommendation of a pay-per-token API stack with no subscription, which the user says does not fit their situation as a hobbyist who will not pay per token | I cannot use pay per token because this is a hobby | flat statement of a constraint with a reason, then turned into a question
+- about: The user pushes back on the paid-API recommendation by giving the size of their database and their hobby-budget constraint, and asks whether free API tiers exist instead.

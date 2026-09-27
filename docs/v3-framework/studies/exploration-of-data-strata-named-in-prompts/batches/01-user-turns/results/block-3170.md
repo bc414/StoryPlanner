@@ -1,0 +1,6 @@
+- sources:
+  - Granny Smith's account of Celestia signing off on their "forever home" | treat as an embellished, fairy-tale retelling for foals, not as what literally happened; do not rely on it as fact | Celestia signing off on their "forever home" was Granny Smith's fairy tale retelling to a classroom of foals and her granddaughter | referred-to
+  - the author's own account of what really happened (the Apple, Pear and Rich families squatting, Celestia begrudgingly signing the deed, settlers citing the law) | treat as the better reading and the actual history, replacing the episode's version | The reality is that Celestia begrudgingly signed the deed after the Apple family, the Pear family, and the Rich family were squatting | first-named
+- order:
+  - the author's own account of what really happened | Granny Smith's account of Celestia signing off on their "forever home" | I think the better reading is that the Apple family was STUBBORN; the reality is that Celestia begrudgingly signed the deed
+- about: The user rejects the model's reading of Celestia as deliberately placing the Smith family, and substitutes their own account in which Granny Smith's version is a sanitized story and the settlers actually squatted on the forbidden edge land until Celestia grudgingly signed the deed.

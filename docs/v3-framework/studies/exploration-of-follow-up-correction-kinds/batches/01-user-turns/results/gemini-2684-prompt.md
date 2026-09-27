@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model cast young childless men getting vasectomies as a mirror of Aquileian fling culture and pure-Lion 'Recreational Ambition'. The user suggests they fit a balanced Lion and Eagle, while manosphere pure-Lion types would not get vasectomies. | 'actually representative of a balanced lion and eagle, and the manosphere types (pure lion aesthetics) would not get the vasectomies?' | put as a leading yes/no question, with a request for research and sources; the objection is implied, not stated
+- about: The user questions whether the model's link between vasectomy-seeking young men and pure-Lion fling culture holds under the Lion/Eagle framework, and asks for sourced research on who actually gets vasectomies.

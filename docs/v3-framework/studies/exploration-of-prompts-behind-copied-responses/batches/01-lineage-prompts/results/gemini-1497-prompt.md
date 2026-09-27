@@ -1,0 +1,8 @@
+- asks:
+  - brainstorm | asks whether there is a "hybrid" version of the farmers' rebellion motive that would make the situation more poignant than the plan just described | "Is there hybrid that makes the situation more poignant?"
+- supplies:
+  - plan summary | current version of why farmers revolt in 1007: Coltbert's reforms funded artisans so farmers no longer need city equipment; export market has saturated; farmers want to sell luxury goods domestically to urbanites who once scorned them; King Discret's ego and tax policy are blocking that domestic market | a paragraph
+- shaping:
+  - quality target for the answer | the alternative offered should increase "poignancy" compared to the stated plan | "makes the situation more poignant"
+- openness: leans toward improving on a plan it names as tentative ("at least that's what I originally planned"), asking the model to propose a hybrid alternative rather than leaving the direction fully open or presenting fixed options to choose between.
+- subject: refining the economic/political motive behind a fictional 1007 farmers' revolt against a king

@@ -1,0 +1,16 @@
+- steps:
+  - author | supply | attaches an uncaptured document, presumably backing material for the planning system | opening turn, before any request
+  - author | request | asks for an analysis of the current workflow, the current candidate system instruction, and the version history that produced it | second turn
+  - model | characterize | describes the workflow's use of the tool's medium, its stateless per-topic sessions, and its role as a stress-testing sounding board rather than a prose generator | first section of the reply
+  - model | recount | narrates a numbered progression of prompt versions, naming what each cluster of versions tried and why it was revised | second section of the reply
+  - model | resolve | answers a question left open from the versions about how to name and bound the 'Fabula' concept and whether 'worldbuilding' is a bad word choice | third section of the reply
+  - model | draft | produces a new full candidate system instruction incorporating the resolved terminology, labeled as the next iteration | closing section of the reply
+  - author | correct | corrects a factual detail about the size of the underlying reference document, replacing an assumed figure with the true one | opening of the next turn
+  - author | request | asks what temperature and top-p values to use and to have the range of options explained in light of the workflow's goals | same turn
+  - model | assess | evaluates how the corrected, much larger document size changes the model's attention behavior and whether the prior prompt design still holds | first section of the reply
+  - model | amend | proposes an added sentence to the candidate instruction to counter recency bias given the larger document | continuation of same section
+  - model | explain | lays out generally what temperature and top-p each do to token selection | middle section of the reply
+  - model | recommend | gives specific baseline values with justification, then proposes a two-mode scheme of alternate settings for different question types | closing section of the reply
+- kept:
+- brought: The author brought an attached reference document plus a standing candidate system instruction and its version history from prior work, then later brought a correction to a stated fact about that document and a new question about generation parameters.
+- loop: The author supplies plan artifacts, a correction, and technical questions in turn, and the model answers with analysis, a revised draft instruction, and parameter recommendations each time, but no note in the archive is traced back to any of this exchange, so nothing from this back-and-forth is shown as having entered the kept planning database.

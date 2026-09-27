@@ -1,0 +1,5 @@
+- sources:
+  - the themes section of the DB file | review it as the material to assess the count against | Please review the themes section of the DB file | referred-to
+  - this conversation's examples that have emerged | compare the DB themes section against them | compare to this conversation's examples that have emerged | referred-to
+- order:
+- about: The user asks how many thematic propositions their themes section should contain, and directs the model to review the DB file's themes section and compare it with examples that have emerged in the current conversation.

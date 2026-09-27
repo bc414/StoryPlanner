@@ -1,0 +1,6 @@
+- relations:
+  - 1923 | 1924 | instance and general claim: the history of Twilight dropping spell matrix work because automating her friends' talents would insult them is a particular case of the thematic claim that technology leads to alienation | Twilight stopped all spell matrix work ... insulting to her friends to automated their special talents / Tech ... leads to alienation | implicit
+- outward:
+  - 1923 | an earlier story episode (Applebuck Season) whose mass harvest spell at its end is the model for the idea | like the mass harvest spell at the end of Applebuck Season
+  - 1923 | an earlier story episode (Winter Wrap Up) in which Applejack yelled at Twilight for using magic on the farm | when Applejack yelled at her during Winter Wrap Up for using magic on the farm
+- whole: The two notes hang together as a small set, with the history note serving as concrete evidence for the short thematic statement, though the link is carried by content alone.

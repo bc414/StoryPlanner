@@ -1,0 +1,11 @@
+- asks:
+  - devise/plan | asks the model to work out what Synovial's operational plan and orders should be, given his mission and the forces available to him | "what should his plan and operational instructions be?"
+- supplies:
+  - scenario description | Synovial's force quality (old tanks, green crews, terrified conscripts), his mission (stop Army of Tall Tale redeploying to rest of Equestria), and the enemy's static fortified position along a river since the 2nd battle of Tall Tale | a couple of sentences
+- shaping:
+  - set the plan before a later plot event | the plan should be Synovial's genuine intent prior to Applejack's deception, not one that anticipates it | "Before Applejack tricks him by staging the elastic retreat"
+  - ground the plan in the stated mission | the plan must serve the specific, narrow order to prevent redeployment (not to defeat or dislodge the enemy) | "his orders are simply to prevent the Army of Tall Tale from redeploying"
+  - account for the force's weaknesses | the plan should reflect that his troops are old tanks, green crews and terrified conscripts | "a bunch of old tanks, green crews and green terrified conscripts"
+  - account for the fixed terrain situation | the plan should reflect the long-static river-line front | "static front line that has been static since the 2nd battle of tall tale"
+- openness: Open: the message poses a "what should his plan... be" question with no proposed answer, only situational constraints (force quality, mission, terrain, timing) for the model to reason from.
+- subject: Military planning for the character Synovial's defensive operation against the Army of Tall Tale, prior to Applejack's "elastic retreat" deception

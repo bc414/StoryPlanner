@@ -1,0 +1,27 @@
+- passages:
+  - 5295 | event narration | plain third-person clause on action and its scarcity | statthalters torture the Olenian Resistance but find few victims | apart
+  - 5295 | causal/strategic explanation | "This is why" connective, background duration stated | reason the Sack of Acornage is so brutal | run-in
+  - 5295 | evaluative commentary | "intentionally...on purpose", "Her mistake is" | Chrysalis's deliberate mimicry and misjudged control | apart
+  - 5295 | event narration | plain past-tense statement of movement and effect | statthalters cross theaters and embolden Star Energy | run-in
+  - 5311 | event narration | conditional clause plus reported statement | Pagala offers to source pink love for the hives | apart
+  - 5311 | evaluative commentary | "views...with disdain", analogy "like how Gerad Discret treated" | Chrysalis's contemptuous decision to exploit Pagala/statthalters | run-in
+  - 5311 | event narration | plain description of granted resources and conditions | naval resources and autonomy tied to quotas | run-in
+  - 5311 | causal/strategic explanation | parallel "traded X for Y", "escalation is" framing | comparing Gerad's and Chrysalis's trade logic | apart
+  - 5312 | causal/strategic explanation | antithetical "didn't invent...she hijacked" | origin of the Zebrican arms trade | apart
+  - 5312 | event narration | plain descriptive clause | statthalters posing as merchants trading guns for slaves | run-in
+  - 5312 | event narration | plain descriptive clause | old rifle factories kept producing guns | run-in
+  - 5603 | event narration | plain past-tense report of revolt and reconquest | an island falls to revolt and is retaken | apart
+  - 5603 | causal/strategic explanation | generalizing clause "don't act as a unified force" | statthalters' internal rivalry and division of spoils | run-in
+  - 5603 | event narration | plain descriptive clause on escapees' destination | escaped slaves reach Aquileia to inform Dennis Discret | run-in
+- shifts:
+  - 5295 | event narration | causal/strategic explanation | connective "This is why" introduces reasoning
+  - 5295 | causal/strategic explanation | evaluative commentary | paragraph break, shift to naming Chrysalis's intent and "mistake"
+  - 5295 | evaluative commentary | event narration | return to plain factual statement after the evaluative aside
+  - 5311 | event narration | evaluative commentary | "views...with disdain" introduces judgment on Pagala
+  - 5311 | evaluative commentary | event narration | return to plain description "She gives them..."
+  - 5311 | event narration | causal/strategic explanation | paragraph break, parallel comparison "Gerad Discret traded...Chrysalis's escalation is"
+  - 5312 | causal/strategic explanation | event narration | shift from antithetical framing sentence to plain descriptive statement
+  - 5603 | event narration | causal/strategic explanation | generalizing clause about statthalters not being unified
+  - 5603 | causal/strategic explanation | event narration | return to a specific narrated action about escaped slaves
+- registers: event narration; causal/strategic explanation; evaluative commentary
+- whole: The item's notes move between plain event narration and, without much separation, bursts of causal or comparative explanation and occasional evaluative judgment, with the shift usually falling mid-paragraph and only sometimes coinciding with a paragraph break.

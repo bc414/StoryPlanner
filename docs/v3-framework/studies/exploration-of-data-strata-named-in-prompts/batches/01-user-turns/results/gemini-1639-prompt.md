@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of when Trimmel learns of Thranx's murder (only when Elvir Roland tells him over the radio after Applejack arrives) and asks what Trimmel should say at his surrender when he expects execution but is told he is going to the camp.

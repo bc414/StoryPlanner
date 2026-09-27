@@ -1,0 +1,4 @@
+- sources:
+  - My plan (the author's stated plan for her seamstress years in the Lord's household until 14, then the Lord is removed and freed) | treat as the author's settled direction for the character's arc that the model should build on | My plan is that she has to work hard as a seamstress | first-named
+- order:
+- about: The author states their own plan for the character's backstory and timeline, and their view that she would not dwell on the Mouse identity, which steers the model away from its earlier suggestion of a dramatic Souris reveal.

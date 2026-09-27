@@ -1,0 +1,8 @@
+- sources:
+  - the chasseur dynamic (the atomic binary pair) | the model to reflect in the fleet culture, though a ship crew would not work the same way | Reflective of the chasseur dynamic | referred-to
+  - part 1 and part 3 (the asymmetric psychological warfare) | the contrast case; the fleet culture should not follow it, and the user asks whether it differs because players there can shame and walk away | rather than the asymmetric psychological warfare of part 1 and part 3 | referred-to
+  - historical privateer crews | real-world precedent taken as a premise, that such crews would be all manosphere types and no griffoness or mare would join | Historical privateer crews would be all manosphere types | referred-to
+  - the author's account of the fleet's backstory (Gerad's fleet stolen and destroyed, Dennis Discret starting from scratch) | working premise stated from memory, hedged as the author's current understanding | I guess they are starting from nothing | first-named
+- order:
+  - the chasseur dynamic over part 1 and part 3 | Reflective of the chasseur dynamic rather than the asymmetric psychological warfare of part 1 and part 3
+- about: The user asks how Coltbert could organically build a passionate culture in a fleet started from scratch, working through whether the chasseur pair dynamic or the part 1 and part 3 dynamic fits a closed ship crew and whether a 25% quota would be too tacky.

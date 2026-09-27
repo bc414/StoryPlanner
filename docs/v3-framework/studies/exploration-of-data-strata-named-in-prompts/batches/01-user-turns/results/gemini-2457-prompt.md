@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open worldbuilding question about how the Storm King, a warlord on a devastated pre-industrial extraction continent, could obtain hydrogen or helium for his airship armada, without pointing the model at any body of material.

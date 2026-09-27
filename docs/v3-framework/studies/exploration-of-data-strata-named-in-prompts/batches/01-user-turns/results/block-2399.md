@@ -1,0 +1,10 @@
+- sources:
+  - the story plan document | reread the relevant parts before answering | Reread the relevant parts of the story plan document before responding | referred-to
+  - my refined plan for the full, broad Tzinacatl history | new working version of the Tzinacatl history that the model should take as the basis and let inform the rest of the work | Here is my refined plan for the full, broad Tzinacatl history, which should then inform the rest | first-named
+  - the three groups in the story plan | existing faction structure to keep, now relabelled medicinal/extractive/traditionalist and given new history | the Tzinacatl begin to diverge into the three groups in the story plan | referred-to
+  - my story plan's original trigger (Chrysalis clear cutting the forest for rubber) | keep as the event that starts the initial coalition, which then expands to destroying all Skyfall influences | in my story plan I had the original trigger be Chrysalis clear cutting the forest for rubber | referred-to
+  - Isolationists=Stagnation of Harmony (older version, when Stagnation of Harmony was 1000 years) | treat as outdated and replaced | at the time that I wrote Isolationists=Stagnation of Harmony, this was when Stagnation of Harmony was 1000 years | referred-to
+  - Stagnation of Harmony starting in 930 as a trauma response to industrialization from griffons | current version, to be used; the traditionalist history is built to fit it | I have since replaced that with Stagnation of Harmony starting in 930 | referred-to
+- order:
+  - Stagnation of Harmony starting in 930 | Stagnation of Harmony as 1000 years (older Isolationists=Stagnation framing) | I have since replaced that with Stagnation of Harmony starting in 930
+- about: The user gives a refined, full timeline and faction history for the Tzinacatl (medicinal, extractive, traditionalist), tells the model to reread the story plan first, keeps the original Chrysalis rubber trigger, and replaces the old 1000-year Stagnation of Harmony framing with a 930 start so the history ends in Mali's departure.

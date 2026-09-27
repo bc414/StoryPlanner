@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user clarifies their own idea, that the crystal's spell matrix must replicate the pattern a unicorn's horn forms during conscious casting, and asks the model to expand on how that would work.

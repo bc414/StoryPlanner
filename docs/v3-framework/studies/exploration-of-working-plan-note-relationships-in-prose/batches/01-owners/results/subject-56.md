@@ -1,0 +1,10 @@
+- relations:
+  - 2600 | 1576 | 2600 gives a plausible reason for what 1576 states: the quota pressure on the statthalters stands behind their capturing and enslaving people, and 1576 describes the capturing and its cover | quotas under threat of a love harvester; statthalters capture the Olenians | implicit
+- outward:
+  - 1576 | The Olenians, a people held elsewhere in the world, who are captured and enslaved | the Olenians
+  - 1576 | The Griffon and Skyfall-adjacent business world whose look the statthalters borrow | private Griffon security/plantation fleets
+  - 1576 | The wider world's view of piracy and its penal labor | the global community views the enslavement
+  - 2600 | Chrysalis, the apex power that grants the statthalters their rule, and who is not described further in this item | Chrysalis extracts quotas
+  - 2600 | The love harvester, a device or lore held elsewhere | strapped to a love harvester
+  - 2600 | The statthalters' island and the grant of rule over it | rule over their island
+- whole: The two notes sit side by side as separate entries on one system, and they meet only loosely: one covers the capture and its cover story, the other covers the pressure from above on the statthalters.

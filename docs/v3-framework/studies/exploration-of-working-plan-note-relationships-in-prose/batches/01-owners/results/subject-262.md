@@ -1,0 +1,21 @@
+- relations:
+  - 2223|2227|continuation in time: the plan to flip Chrysalis's drugs with jungle additives, set out in 1003, is carried out from 1008|He had to come up with a way to sustain the business / He starts his flipping business|implicit
+  - 2223|2267|instance of a general claim: his foresight that Chrysalis would flood the market again is the concrete case of understanding the boom-bust pattern|once Chrysalis inevitably flooded the market / understood Chrysalis's boom-bust pattern|implicit
+  - 2187|2223|cause of the stated prominence: the marketing campaign for culture and prestige is what makes him the best-marketed leader|best marketing / Dr. Caballeron marketing campaign is about injecting culture and prestige|implicit
+  - 2187|2227|qualifies the prominence: other Tzinacatl brands also dominate culturally and former rivals hold stakes, so he is one among many|one among many in the drug tribes / other Tzinacatl brands dominate culturally|implicit
+  - 2260|2267|both revise the reader's first picture of him as a mere criminal: one shows a political aim, the other shows a commercial strategist|hedonistic opportunistic drug dealer / not a cartoon cartel criminal|implicit
+  - 2260|2323|successive corrections of reader assumptions: the first wrong view is hedonist dealer, the second is anarcho-capitalist factory owner; both are overturned by his aim for the tribes|political project to restore what the factories destroyed / former factory owner, but he is NOT|implicit
+  - 2323|2187|elaboration: leader of a cartel/state he cannot order about matches being one of many and only a CEO, not a Moonspeaker|can no longer order around with unilateral control / only a "CEO"|implicit
+  - 2323|2227|instance of the stated goal of uniting the tribes and ending infighting: he gives former rivals stakes so the tribes don't all crash out|unite the drug tribes and end infighting / gives some former rivals stakes|implicit
+  - 2260|2227|the political aim of keeping the tribes in the global market is carried out in the enhanced-product business and shared returns|ability to participate in the global market / make a better product that commands higher market prices|implicit
+  - 2448|2449|both build the jaguar motif of the name and the cutie mark|jaguar prince / jaguar skull with a green stone|implicit
+- outward:
+  - 2223|the era of the drug tribes' rule and the story TLTT that this history precedes|before / start of TLTT is asked; One year into the drug tribes ruling the global drug market again
+  - 2223|Chrysalis, who floods the market, held elsewhere|Chrysalis flood the market again
+  - 2227|drug lore held elsewhere: blitz essenz, panzer haut, and the Tzinacatl brands|blitz essenz and reduce the withdrawal of panzer haut
+  - 2260|another character, Flowing Current, whose rhetoric shapes the first impression|thanks to Flowing Current's rhetoric
+  - 2260|the factories and a post-war Big Food transition in the wider story|transition to Big Food post war
+  - 2187|the Moonspeakers, a role outside this item|not a Moonspeaker either
+  - 2323|a reader group, EEEE, and the Skyfall faction|EEEE! assumes / Skyfall-aligned anarcho capitalist
+  - 2449|a fictional book with its own Dr. Caballeron and red-gem skull|Dr. Caballeron's skull with a red gem from the fictional book
+- whole: These notes mostly hang together: the 1003 and 1008 histories, the appearance plan and the reader-opinion notes all describe the same strategist-leader, while the two analogy notes on name and cutie mark form a separate small pair.

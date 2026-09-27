@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Canvas-trigger explanation to a new question, asking whether the longer-response control they saw in Canvas can be had in ordinary chat.

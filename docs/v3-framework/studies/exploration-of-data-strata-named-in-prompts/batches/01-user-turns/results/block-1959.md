@@ -1,0 +1,6 @@
+- sources:
+  - numbered theme list (items 12, 13, 14, 16, 17, the "Honesty vs Poseurs" section, "Individualism has Limits") | provisional draft under restructuring; the model is to re-sort items into separate propositions versus examples, and break the Honesty vs Poseurs section into its distinct claims | "doesn't seem to be a separate one, it's an example of something else" | referred-to
+  - old v1 notes | treat as outdated, disorganized and possibly invalid; the later list items are suspected of being overfit to them, so do not take those items as settled | "overfit to old v1 notes that were disorganized" | referred-to
+  - Griffonian Republic | treat as true evidence from the story's own world that runs against item 13's claim about standardization | "the Griffonian Republic demonstrates interchangeable efficiency as non oppressive" | referred-to
+- order:
+- about: The user is pruning the model's numbered list of themes by calling several items examples or too specific, blaming overfitting to old v1 notes, and asking the model to separate the claims inside the "Honesty vs Poseurs" section and to judge whether "Individualism has Limits" is an example or its own proposition.

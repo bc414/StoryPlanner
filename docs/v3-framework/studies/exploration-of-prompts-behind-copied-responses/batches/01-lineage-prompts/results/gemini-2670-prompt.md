@@ -1,0 +1,8 @@
+- asks:
+  - review | look through the referenced notebooks/planning material as a preparatory step | "Peruse these notebooks"
+  - trace/explain | reconstruct the chronological path of idea development that culminated in a specific named connection and mechanic | "determine the historical trace of my idea development that led to this connection and mechanic"
+- supplies:
+- shaping:
+  - content focus | the trace must arrive at and account for a specific named target: "this connection and mechanic of the thematic dialectic" | "led to this connection and mechanic of the thematic dialectic"
+- openness: Leans toward an answer it names: it directs the model to reconstruct how the person's thinking arrived at a specific already-identified endpoint, "this connection and mechanic of the thematic dialectic," rather than leaving the destination open or offering a choice.
+- subject: Tracing, across the user's notebooks/planning material, how their idea development historically led to a particular connection and mechanic underlying a "thematic dialectic" in their story planning.

@@ -1,0 +1,5 @@
+- sources:
+  - Attached document (id 156RtoGGpP_m39QAnsD7n89n1K6QNxstv, content not captured) | supplied alongside the bucket list with no stated instruction; the turn gives no weight or use for it | Attached document | first-named
+  - The categorized bucket list (CategorizedBuckets, grouped under paradigm names Chronology, Demographics, System Mechanics, Dialectics, Orphan Concepts) | given as the user's own grouping of bucket names under paradigms, with no stated instruction on how to treat it | CategorizedBuckets | first-named
+- order:
+- about: The user sends an attached document plus a JSON list that groups bucket names under five paradigms, with no instruction in words about how either should be used.

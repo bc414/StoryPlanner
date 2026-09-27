@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes, hive by hive, which real-world language each changeling hive's native language should map to (Vesalipolis to Mandarin, Vraks to Japanese, Ditrysium to Shanghainese/Wu, Lyctida to Korean, Soryth to Teochew), giving each a reason based on that hive's role or character, without pointing the model at any body of material to draw on.

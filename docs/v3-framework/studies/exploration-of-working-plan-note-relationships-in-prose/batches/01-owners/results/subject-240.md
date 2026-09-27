@@ -1,0 +1,19 @@
+- relations:
+  - 1784|1786|continues in time: the offer made in one is accepted in the other, with the consequence following|"took Dennis Discret's offer and abondoned his country" answers Dennis taking Meyer for the Royal Aquileian fleet|explicit
+  - 1785|1784|earlier friendship on a privateer crew is the background to Dennis choosing Meyer and seizing the moment; both name Dennis Discret and Skyfall|"become friends on a privateer crew in Skyfall" / "Dennis Discret seizes the opportunity"|implicit
+  - 1782|1784|continues in time: the pirate state founded on Haukland is later given the ultimatum and Meyer begins negotiating|"fly their planes to Haukland to form a pirate state" / "ultimatium to Haukland"|implicit
+  - 1784|1789|purpose delivered: Dennis wants Meyer as a deterrent should Skyfall stop them, and Meyer teaches the forging of naval-bomber planes against a Skyfall attack|"deterrance in case Skyfall tries to stop them" / "in case the Skyfall fleet attacks"|implicit
+  - 1786|1789|Aquileian side of the outcome: Meyer teaching others to forge naval bomber planes is how his new fleet had bomber capability, matching "both navies had naval bomber capabilities"|"naval bombers" in both|implicit
+  - 1782|1786|the rivals left behind on Haukland were made by the pirate state Meyer founded; leaving cost him them to Skyfall shipping companies|"his rivals in Haukland ended up joining Skyfall shipping companies"|implicit
+  - 1782|1787|thematic reading of the event: the desertion to Haukland is turned into evidence that pirates owning their planes beats a state air force|"took the air force to the island of Haukland" / "desert ... fly their planes to Haukland"|implicit
+  - 1787|1789|the artisan enchanted armor discovered on Haukland is the craft Meyer then teaches to Réni and others; one is the thematic point, the other the instance|"enchanted aluminum armor for their planes" / "forge their own artisan enchanted planes"|implicit
+  - 1787|1786|the artisanship the Haukland pirates developed is what would let rivals carry bomber capability to Skyfall, making "both navies" capable; content joins them|"use traditional griffon artisanship" / "Now both navies had naval bomber capabilities"|implicit
+- outward:
+  - 1782|the Long March and the Republican Airforce, held elsewhere in the lore|"desert during the Long March"
+  - 1784|the Griffonian Republic's conquest of Vedina|"After conquering Vedina, the Griffonian Republic"
+  - 1784|the Royal Aquileian fleet, a state outside this item|"the Royal Aquileian fleet"
+  - 1789|Réni, another character|"taught Réni and others"
+  - 1788|the Herzlander stereotype held elsewhere|"not a Herzlander bore"
+  - 1787|Great Mare Theory, a theory outside this item|"The refutation of Great Mare Theory"
+  - 1785|Skyfall and its privateer crews, and the character Dennis Discret|"privateer crew in Skyfall"
+- whole: ["The history notes form a chain that hangs together (privateer friendship, desertion, ultimatum, defection, teaching), the thematic note ties to that chain through the Haukland events, and the one-line characterization note stands apart."]

@@ -1,0 +1,22 @@
+- steps:
+  - author | propose-mechanism | idea that statthalter boot-camp discipline plus Chrysalis's love-addiction explains canon 'cartoon villain' behavior | opening of the author's message
+  - author | request-review | link to the canon episode transcript for the model to consult | mid-message
+  - author | request-synthesis | ask the model to reconcile the new mechanism with existing story plans | mid-message
+  - author | extend-plot | sketch of post-fall consequences: statthalter fiefdoms, chaotic southern blitz, Applejack's elastic-defense counterblitz at Tall Tale | later in the message
+  - author | extend-plot | addition of Trimmel advising Chrysalis to sit as bait in Canterlot given her lost leverage over the statthalters | end of the message
+  - model | validate | frames the author's idea as a strong synthesis of canon tone with the materialist setting | opening of the response
+  - model | elaborate-mechanism | details the boot camp's purpose and the overdose logic behind Chrysalis's reversion | early section of the response
+  - model | reinterpret-canon | reads the canonical feed order as a military blunder consistent with the addiction framing | second section of the response
+  - model | extend-consequences | elaborates statthalters converting Canterlot nobility into a captive household workforce | third section of the response
+  - model | extend-consequences | elaborates Applejack's elastic-defense counterblitz exploiting Synovial's overextension at Tall Tale | fourth section of the response
+  - model | extend-consequences | elaborates Trimmel's bait strategy and Chrysalis's loss of control over the statthalters | fifth section of the response
+  - model | verdict | closing summary judging the synthesis as resolving the tonal dissonance and setting up later plot payoffs | end of the response
+- kept:
+  - note 3166 | the author's own words in this record | keeps the author's phrasing about decadent statthalters carving fiefdoms while the southern blitz runs chaotic and they believe the war already won, filed under the Canterlot x Statthalter slave trade link
+  - note 4392 | the author's own words in this record | keeps the author's Trimmel backstory beats (pre-1002 infiltration, VOPS assessment of ponies, Synovial's bloodless plan, its failure, Synovial's demotion and Trimmel's promotion), filed under the Trimmel subject
+  - note 2697 | pasted whole from this reply | keeps the model's fishing-lure framing of Trimmel using Chrysalis as bait and her loss of leverage over the statthalters, filed under the Trimmel-explains-Tall-Tale x Chrysalis link
+  - note 3167 | pasted whole from this reply | keeps the model's description of statthalters reverting to island-style rule over Canterlot, turning nobles into house servants, filed under the Canterlot x Statthalter slave trade link
+  - note 5288 | pasted from this reply inside the author's own framing | keeps the model's elaboration of the boot-camp rationale tied to the dual-state constraint, filed under the Canterlot Wedding subject
+  - note 5289 | pasted from this reply inside the author's own framing | keeps the model's description of Chrysalis's love-high causing a reversion to baser predatory instinct, filed under the Canterlot Wedding subject
+- brought: The author brought a new mechanism (Chrysalis getting "high" on Alicorn love and reverting to instinct) meant to reconcile the canon episode's cartoon-villain tone with the story's materialist worldbuilding, plus a link to the canon transcript and references to already-established elements (dual state, statthalters, bauleiters, Trimmel, Synovial) for the model to weave together.
+- loop: The author supplies a raw retcon idea plus outside canon text and prior worldbuilding threads and asks for synthesis; the model validates and expands it into a structured, multi-part analysis reinterpreting canon and extending consequences; the planning database then keeps both the author's own plot beats and the model's elaborated phrasings as separate entries attached to the relevant characters and links, effectively distributing one synthesis across several database subjects.

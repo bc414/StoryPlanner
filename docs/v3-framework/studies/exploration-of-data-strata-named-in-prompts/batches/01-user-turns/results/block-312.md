@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's misreading of their request, saying the in-universe term should keep the letters "DRM" and asking whether it could be given a Dutch expansion.

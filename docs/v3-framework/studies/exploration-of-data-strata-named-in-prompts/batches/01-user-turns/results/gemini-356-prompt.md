@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain what the word "Codex" means because the term is unfamiliar, without pointing at any body of material for the model to draw on.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to expand on the VOPS warning scene by working out who in the story's cast could plausibly know about VOPS in 1003, weighing their own candidates (a bankrupted Herzlander noble, Thorax, converted jaegers) and asking for better ones, without saying the model's tycoon idea was wrong.

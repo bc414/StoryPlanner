@@ -1,0 +1,6 @@
+- asks:
+  - design judgment | asks whether a Codex entry fact should be allowed to have unidirectional relations to code/entry facts in other codexes, for expressing a dependency on them | "Should a Codex entry fact be able to have unidirectional relations with other code, entry facts in other codexes? For being dependent on them"
+- supplies:
+- shaping:
+- openness: Open: it poses a yes-or-no design question about whether the capability should exist, stating a possible purpose (dependency) but not a preferred answer or named alternatives.
+- subject: Whether Codex entry facts should support unidirectional cross-codex dependency relations

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model put the explanation of how the Star Spade works into Chapter 2 and held back only the ideology for Chapter 9, but the user's plan reserved the science of earth pony magic for Chapter 9 because of what it does for Twilight | I was originally going to hold back the explanation of how the Star Spade works until chapter 9 | stated as the original plan with its reason, then softened by accepting the model's placement ("I guess it's fine") so it reads as a mild, reluctant correction
+- about: The user explains that the Star Spade science was meant to be saved for Chapter 9 because of its effect on Twilight's guilt, then tentatively accepts a crude version in Chapter 2 and endorses the idea that the tool is built for Applejack's biology.

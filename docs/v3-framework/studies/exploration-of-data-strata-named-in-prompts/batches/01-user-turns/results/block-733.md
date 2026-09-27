@@ -1,0 +1,5 @@
+- sources:
+  - My old UI (windows for plot point and subject entities, junction tables second class, collapsible single payload text box) | baseline description of the previous design, to be moved away from; the model should recommend changes relative to it | "My old UI had windows for plot point and the subject entities" | first-named
+  - PlotPointSubjectLink as a first class citizen with configurable note tracks (the new design) | treat as the settled direction that the UX recommendations must serve | "Now I am making PlotPointSubjectLink a first class citizen" | referred-to
+- order:
+- about: The user describes how their old UI treated plot points, subjects and their link records, says the link is now becoming a first-class entity with note tracks, and asks the model to recommend UX paradigm changes and explain what they should be aiming to visualize.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to show a light blue border on a selected note in the list, since they currently have to click outside the textbox to select it, without pointing at any body of material for the model to draw on.

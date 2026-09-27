@@ -1,0 +1,5 @@
+- sources:
+  - a notebook with the doc as a source | being compared as a way to give Gemini the material; no instruction yet on how to treat it, the user is asking whether it works better | attaching a notebook with the doc as a source | referred-to
+  - a straight Google doc | being compared as the alternative way to give Gemini the same material; no instruction on how to treat it | attaching a straight Google doc for Gemini prompts | referred-to
+- order:
+- about: The user asks whether giving Gemini a NotebookLM notebook containing their document is better than attaching the same document directly as a Google doc, without ranking either.

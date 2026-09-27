@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies further world detail on who is conscripted (anyone missing factory quotas, including frost gen; iron gen conscripts not the slogan-shouting zealots) and on the fighting drug versus jaeger training, in reply to a model turn that was not captured.

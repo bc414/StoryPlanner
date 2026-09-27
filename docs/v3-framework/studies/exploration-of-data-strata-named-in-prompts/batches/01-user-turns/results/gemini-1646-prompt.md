@@ -1,0 +1,6 @@
+- sources:
+  - mlp.fandom.com/wiki/Transcripts/Applebuck_Season (the transcript link) | the episode material to analyze; the model is pointed at this published-show transcript as the text of the next episode | Https://mlp.fandom.com/wiki/Transcripts/Applebuck_Season | first-named
+  - that setup (the established Codex entry and the prior Where the Apple Lies analysis) | carry forward as the framework the new analysis is built on | With that setup in mind | referred-to
+  - the author's own statement about the episode and Applejack's friendships (Twilight first witnesses it, Rainbow Dash too lazy but provides rain, AJ not close to the others until Twilight arrives) | treat as given premises for the analysis, stated by the author | This is the first time Applejack's new friend Twilight Sparkle witnesses it | first-named
+- order:
+- about: The user supplies a transcript link for the next episode in chronological order and asks the model to analyze it using the established setup, adding their own premises about Twilight witnessing it and Applejack's not-yet-close friendships.

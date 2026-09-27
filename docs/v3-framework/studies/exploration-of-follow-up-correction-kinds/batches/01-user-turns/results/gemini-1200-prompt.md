@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the credit card referral topic without comment and starts a new request asking for an analysis of which of their story plans break FiM canon and what purpose that serves.

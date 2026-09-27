@@ -1,0 +1,9 @@
+- sources:
+  - the 2nd battle of tall tale | treated as established story fact that Twilight and Applejack fought and destroyed things together, correcting the model's claim that Twilight was never in the trenches with AJ | During the 2nd battle of tall tale they did a ton of destruction together | referred-to
+  - the model's trench bond idea (from its previous turn) | provisional; keep it but rework it to be more silly than a trauma bond | I think the trench bond thing should be more silly | referred-to
+  - the model's grass cutie mark / grassroots connection angle | accepted and endorsed as the direction for Mali | I like the angle that Mali's grass cutie mark is about "grassroots connection" | referred-to
+  - seasons 1-3 | used as the reference for the bottom-up spirit of friendship that Mali is to embody, with Pinkie and Fluttershy's approach | Mali represents the spirit of the early seasons | referred-to
+  - Princess of Friendship and School of Friendship | treated as the top-down contrast that runs against the spirit of the early seasons, which Mali counters | going against the grain or spirit of the seasons 1-3 | referred-to
+  - season 1 Twilight | model for the scientific self Twilight returns to, with less arrogance | go back to her scientific self from season 1 | referred-to
+- order:
+- about: The user corrects the model's trench-bond premise using a story event, asks for that dynamic to be sillier, and endorses the grassroots reading of Mali by tying it to the show's early seasons and to Twilight returning to her season 1 scientific self.

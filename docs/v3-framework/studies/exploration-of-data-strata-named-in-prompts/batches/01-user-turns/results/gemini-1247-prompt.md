@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a worldbuilding clarification that cutie marks come partly from nurture and lived experience, including family and name, and not only from magic, illustrating it with Apple-family ponies.

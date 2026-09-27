@@ -1,0 +1,16 @@
+- steps:
+  - author | poses foundational question | asks whether Fluttershy's romance-built GIYC arc is a valid basis for her TLTT role, floats dropping the crush history | opening prompt of the thread
+  - model | delivers structural analysis | three-part breakdown linking GIYC scenes to TLTT's war economy and magic system, verdict that devotion rather than romance is the essential carryover, closes with a targeted question about Fluttershy's wartime function | first response
+  - author | introduces an external detail and a scoping question | reveals the wings-of-dew concept was borrowed from another Rarishy fic, asks how much of GIYC counts as mandatory TLTT backstory and whether the romance is essential | second prompt
+  - model | extends the worldbuilding analysis | reframes wings-of-dew as a magic-system mechanic, separates a 'mandatory crucible' from optional romance 'flavor', ends with a question about romantic vs platonic framing | second response
+  - author | redirects to a different character | asks for the same arc-to-worldbuilding treatment applied to Rainbow Dash | third prompt
+  - model | produces a parallel character analysis | breaks Rainbow Dash's GIYC arc into ego/force themes and maps it onto a Wonderbolt-to-Commander arc, ends with a question about a catastrophic first-command failure | third response
+  - author | requests a full retrospective survey | asks the model to review the whole GIYC plan for places it patched suspension-of-disbelief and identify what transfers to TLTT | fourth prompt
+  - model | compiles a multi-point survey | lists several tropes fixed in GIYC and their corresponding TLTT payoffs, closes with a summary takeaway rather than a question | fourth response
+  - author | brings a craft self-critique | names prose strengths in certain chapters and a head-hopping weakness in early chapters, asks for an evaluation | fifth prompt
+  - model | confirms and diagnoses the craft issue | labels the head-hopping problem, explains its effect on tension, ties disciplined POV to TLTT's bias-driven narration, ends with a question about the hardest POV to write | fifth response
+  - author | supplies a causal explanation and a practical question | explains that deleting planning notes while drafting GIYC caused the POV slippage, asks whether the WPF planner app would prevent this for TLTT | sixth prompt
+  - model | elaborates the mechanism and applies it forward | frames the planner app as an external store separating world-truth from character-truth, shows how the resulting gap can be used deliberately for wartime dramatic irony, ends with a workflow question about the app's UI | sixth response
+- kept:
+- brought: The author brought a detail borrowed from another Rarishy fanfic (butterfly wings that reflect a partner's colors) into the discussion of how TLTT's magic system should work.
+- loop: Across the thread the author repeatedly brought pieces of existing craft-work — a character's arc, a borrowed worldbuilding detail, a self-diagnosed prose habit — for the model to validate and translate into TLTT's geopolitical framework, but no note in the planning database was traced back to any of this exchange, so none of the analysis was recorded into the plan this round.

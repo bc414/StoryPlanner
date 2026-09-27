@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for the previous scene to be rewritten as a back-and-forth conversation between Applejack and Celestia, supplying the beats of the exchange and the themes it should convey, without pointing the model at any body of material to draw on or avoid.

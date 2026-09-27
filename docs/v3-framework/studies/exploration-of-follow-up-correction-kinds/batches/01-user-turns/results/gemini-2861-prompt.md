@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Red/Pink drug framework as a base and asks a follow-up: whether the meth-equivalent and opioid-equivalent drugs map to Red Love, Pink Love or both, and asks for a hormone-based analysis checked against their story plans.

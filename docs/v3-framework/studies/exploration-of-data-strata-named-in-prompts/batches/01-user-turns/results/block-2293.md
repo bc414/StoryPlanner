@@ -1,0 +1,4 @@
+- sources:
+  - the model's earlier claim that light novel traditions predate Pokemon Mystery Dungeon and that Chunsoft got its game mechanics from there | taken as true and built on as the premise for the follow-up questions about origins and causality | "That's really fascinating that the light novel traditions actually predate" | referred-to
+- order:
+- about: The user accepts the model's account of light novel influence on PMD and asks a follow-up about where light novel traditions originated, whether they predate mainstream anime, and whether the causality runs opposite to expectation.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model ran the lineage analysis on the partly filled four-axis values from the first pass and reasoned about the fifth axis in the abstract, instead of using all five axes and the actual data in the v1 and v2 databases and their notes | You have to do this analysis using 5 axes (not just what's populated of the 4 from first pass) and grounded in the real data | flat directive, stated as a requirement without apology or explanation
+  - reading of the request | The model stopped at a proposal and asked whether to name the poles and assign values later, rather than doing the five-axis lineage analysis now | Reread the v1 and v2 databases again and make sure to get the relevant notes | imperative instruction to redo the work, with no reason given
+- about: The user tells the model to redo the lineage analysis with all five axes, using the v1 and v2 database records and their notes, instead of the partial four-axis values and general reasoning it relied on.

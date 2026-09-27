@@ -1,0 +1,4 @@
+- sources:
+  - canon episodes | weight: asks the model to search this source for further supporting examples, beyond the four already cited | marked by: "are there any other examples from canon episodes besides these prime examples" | referred-to
+- order:
+- about: The user asks whether the show's canon episodes contain additional examples of Pinkie Pie's fear/adrenaline understanding beyond the four already cited.

@@ -1,0 +1,7 @@
+- asks:
+  - explain | list and identify the distinct vowel sounds in English using IPA symbols | "What are the different vowels in English using IPA?"
+- supplies:
+- shaping:
+  - relate to prior school framework | connect or reconcile the IPA vowel inventory with the short/long vowel distinction the person recalls learning in school | "In school we often learned short and long versions"
+- openness: leaves the answer open, asking generally for the IPA vowel inventory while noting a school-taught short/long framework as a point of reference, without specifying which vowels or system to use
+- subject: English vowel sounds and their IPA transcription

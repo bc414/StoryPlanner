@@ -1,0 +1,7 @@
+- sources:
+  - the text in this conversation | do not assume it is correct; treat as unverified and not as a basis for the answer | Please do not assume that the text in this conversation is correct | referred-to
+  - consensus first principles of professional authors | research it and use it as the grounding and the yardstick the user's paradigms are compared against | research consensus first principles of professional authors | first-named
+  - the two roles I outlined about prose delivery vs narrative logic | the user's own earlier framework; unpack it and compare it to the consensus, not taken as settled | unpack the two roles I outlined about prose delivery vs narrative logic | referred-to
+- order:
+  - consensus first principles of professional authors over the text in this conversation | do not assume that the text in this conversation is correct; instead, research consensus first principles
+- about: The user asks the model to ground its previous analysis in authorship first principles by researching what professional authors broadly agree on, rather than trusting the conversation so far, and to unpack and compare the user's own two-role framework of prose delivery versus narrative logic against that.

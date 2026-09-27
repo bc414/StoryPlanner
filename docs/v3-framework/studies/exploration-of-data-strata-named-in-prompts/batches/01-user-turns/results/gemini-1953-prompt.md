@@ -1,0 +1,5 @@
+- sources:
+  - the crystal / the idol of Boreas | treat as true: it does not generate or amplify ambition, it only glows in the presence of an ambitious individual, and mass-produced idols do nothing on their own | marked by "the crystal does not create more power. It is NOT a source of ambition" and "Having a bunch of idols doesn't do anything" | referred-to
+  - Grover 3's realization and motives (his shift from wanting to expose the archons to reinstating their myths) | offered as a tentative, provisional account for the model to incorporate rather than settled fact | marked by "Perhaps his naive instinct was..." and "He may have been accumulating state power and loyalty to do just that" | first-named
+- order:
+- about: The user corrects the model's prior assumption about the ambition crystal's function and proposes a revised, tentative account of Grover III's motivations, then asks the model to redo its analysis with these clarifications.

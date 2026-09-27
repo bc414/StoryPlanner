@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's open questions about the crystal supply route and Celestia's reaction, then adds a new plot element (Twilight's crystal tax after Ain Trotgourait) that explains Fleur's initial dislike of her, and asks for an analysis of the plans.

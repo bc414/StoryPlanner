@@ -1,0 +1,5 @@
+- sources:
+  - this entire conversation | mine it fully as the material for the report, covering every insight made in it, and separately record which insights were later superseded | all insights made during this entire conversation, any insights that were superceded | referred-to
+  - transcripts | search them with grep as an additional place to find insights, only if they exist | grep transcripts if they exist | first-named
+- order:
+- about: The user asks for a comprehensive markdown report of all insights made across the whole conversation, including any transcripts found, plus a record of insights that were later superseded.

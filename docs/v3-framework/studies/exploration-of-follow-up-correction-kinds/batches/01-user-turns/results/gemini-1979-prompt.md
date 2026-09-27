@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's magnetron-and-crystal design by restating it and asking whether each crystal should output only one language and whether the forger must be a griffon who knows that output language, which is a design question and not a correction.

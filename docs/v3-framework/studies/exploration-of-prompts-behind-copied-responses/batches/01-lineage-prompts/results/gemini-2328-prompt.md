@@ -1,0 +1,11 @@
+- asks:
+  - brainstorm | asks for French-language equivalents of the terms "molter" and "pinfeather" | "what are the French equivalents of the molter or pinfeather?"
+  - analyze | asks for an analysis comparing whatever French equivalent options come up | "Give an analysis of the options"
+- supplies:
+  - approval note | confirms a prior name suggestion, "Sauvageon," is well liked | one clause
+  - naming convention | states griffons call their young "cubs," paralleling ponies calling their young "foals" | one sentence
+  - candidate terms | the two English words "molter" and "pinfeather" offered as the terms needing a French equivalent | a couple of words
+- shaping:
+  - content requirement, the reply should not just list terms but analyze the options | "Give an analysis of the options"
+- openness: Open: it asks for French equivalents to be generated and then analyzed, without naming any candidate French word or leaning toward a particular choice.
+- subject: Finding and analyzing French-language equivalents for griffon age/feather-related terms (molter, pinfeather) in a fictional naming scheme

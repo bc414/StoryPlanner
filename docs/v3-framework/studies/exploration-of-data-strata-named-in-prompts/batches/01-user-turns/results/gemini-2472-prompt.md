@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Celestia, given her established policy of keeping dangerous or broken things out of Equestria, would still offer Queen Novo and her people asylum, without naming any external source or document to consult.
