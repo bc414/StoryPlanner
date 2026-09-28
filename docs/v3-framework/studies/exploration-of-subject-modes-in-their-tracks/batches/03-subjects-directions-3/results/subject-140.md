@@ -1,0 +1,3 @@
+- claims:
+  - 836 | Backstory | Braeburn was born in Tall Tale | History | same
+- whole: This subject holds only a single note across all its tracks: note 836 in the Backstory track, stating that Braeburn was born in Tall Tale. This is a plain factual report of an in-universe event, matching the History mode that the Backstory track declares, so it sits in its own track's mode. Every other track on the subject, in both the subject-wide part and the scene-link part, is shown empty, so there is no other content to compare it against, no instance of a track holding a mode other than its own, and no case of the same content appearing in two tracks."

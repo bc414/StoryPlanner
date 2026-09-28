@@ -14,14 +14,15 @@ public static class Outputs
         "LinkId", "SubjectId", "NoteState", "Words", "Shingles", "Coverage", "TokenCoverage", "Label", "Role",
         "OriginLayer", "OriginId", "OriginDate", "OriginShare", "Sources", "LongestRun", "Tie",
         "PlanFirst", "EchoedBy", "EchoCandidate", "FirstSnapshot", "OriginPassage", "UncoveredText", "SourceWindow", "SourcePrompt",
-        "MatchedSpans",
+        "MatchedSpans", "DateCheck", "PlanSources", "PlanCoverage",
     };
 
     /// <summary>Every run credited to a MODEL-role source, as "start-end:sourceId" character offsets into Content. Runs matching Brian's own prompts are his and are not listed.</summary>
     private static string Spans(Row r) =>
         string.Join(';', r.Match.Spans.Where(s => s.Source.Role == "model").Select(s => $"{s.Start}-{s.End}:{s.Source.Id}"));
 
-    public static void WriteCsv(string path, List<Row> rows)
+    /// <param name="stateName">The file's own state vocabulary (<see cref="PlanReader.StateLabel"/>) — v1 "closed" and v2 "confirmed" are different claims.</param>
+    public static void WriteCsv(string path, List<Row> rows, Func<int, string> stateName)
     {
         using var w = new StreamWriter(path, false, new UTF8Encoding(false));
         w.WriteLine(string.Join(',', Columns));
@@ -33,13 +34,13 @@ public static class Outputs
             {
                 r.Note.Id.ToString(), Q(r.Note.Content), r.OwnerTypeName, Q(r.OwnerName), Q(r.Story), Q(r.Chapter),
                 r.ChapterOrder.ToString(), r.PlotPointId.ToString(), r.OrderInChapter.ToString(), r.LinkId.ToString(), r.SubjectId.ToString(),
-                PlanReader.StateName(r.Note.State), m.Words.ToString(), m.Shingles.ToString(),
+                stateName(r.Note.State), m.Words.ToString(), m.Shingles.ToString(),
                 m.Coverage?.ToString("0.000", inv) ?? "", m.TokenCoverage.ToString("0.000", inv), r.Label, r.Role,
                 r.OriginLayer, r.OriginId, r.OriginDate,
                 m.Origin is null ? "" : m.OriginShare.ToString("0.00", inv), Q(r.Sources), m.LongestRunWords.ToString(),
                 m.Tie ? "true" : "false", r.PlanFirst ? "true" : "false", r.EchoedBy, r.EchoCandidate ? "true" : "false",
                 Q(r.FirstSnapshot), Q(Trunc(m.OriginPassage, 300)), Q(Trunc(m.UncoveredText, 300)), Q(r.SourceWindow), Q(Trunc(r.SourcePrompt.Replace('\n', ' '), 200)),
-                Q(Spans(r)),
+                Q(Spans(r)), r.DateCheck, Q(r.PlanSources), r.PlanSources.Length == 0 ? "" : r.PlanCoverage.ToString("0.000", inv),
             }));
         }
     }
@@ -59,6 +60,9 @@ public static class Outputs
     {
         var rng = new Random(seed);
         var t = settings.Labels;
+        // The sheet is read in sessions, so flagged notes stay off it (the wall); the CSV keeps them.
+        int walled = population.Count(r => r.Note.State == 1);
+        population = population.Where(r => r.Note.State != 1).ToList();
         var sb = new StringBuilder();
         sb.AppendLine("# Calibration sample — voice attribution");
         sb.AppendLine();
@@ -98,8 +102,25 @@ public static class Outputs
             sb.AppendLine($"# PlanFirst flips  ({flips.Count} of {flipPool.Count})");
             sb.AppendLine();
             i = 0;
-            foreach (var r in flips) Entry(sb, r, "planfirst", ++i, ctx);
+            foreach (var r in flips) { picked.Add(r.Note.Id); Entry(sb, r, "planfirst", ++i, ctx); }
+
+            // The v2 mechanisms, each sampled on its own so a calibration sees every one of them.
+            void Group(string title, string tag, Func<Row, bool> pred)
+            {
+                var pool = population.Where(r => pred(r) && !picked.Contains(r.Note.Id)).ToList();
+                if (pool.Count == 0) return;
+                var pick = pool.OrderBy(_ => rng.Next()).Take(flipsToSample).OrderBy(r => r.ChapterOrder).ThenBy(r => r.Note.Id).ToList();
+                sb.AppendLine($"# {title}  ({pick.Count} of {pool.Count})");
+                sb.AppendLine();
+                int j = 0;
+                foreach (var r in pick) { picked.Add(r.Note.Id); Entry(sb, r, tag, ++j, ctx); }
+            }
+            Group("LastModified after-edit flips", "after-edit", r => r.DateCheck == Attribution.AfterEdit && !r.PlanFirst);
+            Group("LastModified ambiguous / span-unknown", "undated-span", r => r.DateCheck is Attribution.Ambiguous or Attribution.SpanUnknown);
+            Group("conversation-origin, role model", "conversation", r => r.OriginLayer.StartsWith("conv-") && r.Role == "model" && r.Label is not (VoiceLabel.Phrase or VoiceLabel.None or VoiceLabel.Short));
+            Group("partly plan-credited (an edited carry: some spans dated by a plan backup, not all)", "plan-partial", r => r.PlanCoverage > 0 && r.PlanCoverage < 0.9);
         }
+        if (walled > 0) sb.AppendLine($"_{walled} flagged notes are not sampled (flagged wall); they are in the CSV._");
         File.WriteAllText(path, sb.ToString(), new UTF8Encoding(false));
     }
 
@@ -108,7 +129,7 @@ public static class Outputs
         var m = r.Match;
         var inv = CultureInfo.InvariantCulture;
         sb.AppendLine($"### {group} {i:00} · note {r.Note.Id} · {r.OwnerTypeName}{(r.Chapter.Length > 0 ? " · " + r.Chapter : "")} · \"{r.OwnerName}\"");
-        sb.AppendLine($"label **{r.Label}** · role **{(r.Role.Length > 0 ? r.Role : "—")}** · token coverage {m.TokenCoverage.ToString("0.00", inv)} · longest run {m.LongestRunWords}w · longest gap {m.LongestUncoveredWords}w · origin {(m.Origin is null ? "—" : $"{r.OriginId} ({r.OriginLayer}/{m.Origin.Role}, {r.OriginDate}, share {m.OriginShare:0.00})")} · first snapshot {(string.IsNullOrEmpty(r.FirstSnapshot) ? "—" : r.FirstSnapshot)}{(r.FirstSnapshotDate is DateOnly fd ? $" ({fd:yyyy-MM-dd})" : "")}{(r.PlanFirst ? $" · **PlanFirst → brian**, echoed by {r.EchoedBy}" : "")}{(r.EchoCandidate ? " · **ECHO CANDIDATE**" : "")}{(m.Tie ? " · **TIE**" : "")}");
+        sb.AppendLine($"label **{r.Label}** · role **{(r.Role.Length > 0 ? r.Role : "—")}** · token coverage {m.TokenCoverage.ToString("0.00", inv)} · longest run {m.LongestRunWords}w · longest gap {m.LongestUncoveredWords}w · origin {(m.Origin is null ? "—" : $"{r.OriginId} ({r.OriginLayer}/{m.Origin.Role}, {r.OriginDate}, share {m.OriginShare:0.00})")} · first snapshot {(string.IsNullOrEmpty(r.FirstSnapshot) ? "—" : r.FirstSnapshot)}{(r.FirstSnapshotDate is DateOnly fd ? $" ({fd:yyyy-MM-dd})" : "")}{(r.PlanFirst ? $" · **PlanFirst → brian**, echoed by {r.EchoedBy}" : "")}{(r.EchoCandidate ? " · **ECHO CANDIDATE**" : "")}{(m.Tie ? " · **TIE**" : "")}{(r.DateCheck.Length > 0 ? $" · LastModified check **{r.DateCheck}** (note last modified {r.Note.LastModified:yyyy-MM-dd})" : "")}");
         if (!string.IsNullOrEmpty(r.Sources)) sb.AppendLine($"sources: {r.Sources}");
         sb.AppendLine();
         string originText = "", prompt = "";
@@ -116,6 +137,7 @@ public static class Outputs
         sb.AppendLine("NOTE (every run a model-role source contains in **bold** — same marking as scan.html):");
         foreach (var line in Highlight(r.Note.Content, m).Split('\n')) sb.AppendLine("> " + line);
         sb.AppendLine();
+        if (!string.IsNullOrEmpty(r.PlanSources)) sb.AppendLine($"plan-backup credit {r.PlanCoverage:0.00} of the note's words: {r.PlanSources}");
         if (m.Origin is not null)
         {
             sb.AppendLine($"SOURCE {r.OriginId} — {r.OriginLayer}/**{m.Origin.Role}** {r.OriginDate}{(string.IsNullOrEmpty(prompt) ? "" : $" · the prompt it answered: \"{Trunc(prompt.Replace('\n', ' '), 160)}\"")}");
@@ -158,7 +180,7 @@ public static class Outputs
         string Prefix(PlanReader.Note n)
         {
             var r = byNote[n.Id];
-            var origin = r.Match.Origin is null ? "—" : $"{r.OriginLayer}/{r.Role} {r.OriginDate} {r.OriginId}{(r.PlanFirst ? " PlanFirst" : "")}{(r.EchoCandidate ? " Echo" : "")}{(r.Match.Tie ? " TIE" : "")}";
+            var origin = r.Match.Origin is null ? "—" : $"{r.OriginLayer}/{r.Role} {r.OriginDate} {r.OriginId}{(r.PlanFirst ? " PlanFirst" : "")}{(r.EchoCandidate ? " Echo" : "")}{(r.Match.Tie ? " TIE" : "")}{(r.DateCheck.Length > 0 ? " " + r.DateCheck : "")}";
             return $"[{n.Id} | {r.Label} | {origin} | {(string.IsNullOrEmpty(r.FirstSnapshot) ? "—" : r.FirstSnapshot)}]";
         }
         // Bold = AI text, and nothing else: model-role spans on rows the tool still attributes to

@@ -1,0 +1,26 @@
+- claims:
+  - 871 | Binding Logic | VOPS infiltrators are required to learn Equestrian as part of their training | Civilization | unmatched
+  - 871 | Binding Logic | Agents who develop empathy after recognizing that ponies have friends, dreams, and destinies get demoted to a home-front middle management role | Characterization | same
+  - 871 | Binding Logic | Agents who instead choose to weaponize their knowledge of ponies become VOPS elite | Characterization | same
+  - 1402 | Binding Logic | VOPS members are already indoctrinated to serve the state, having won the domestic rat race or carrying first-generation trauma | Characterization | same
+  - 1402 | Binding Logic | VOPS members see themselves as the only 'adults' able to navigate the world's harsh reality, viewing drones as weak children who must be kept penned for their own good | Characterization | same
+  - 2604 | Garden Notes | VOPS evolved out of the love collectors from the hive wars | History | empty
+  - 772 | Reader Understanding Plan | VOPS avoids wasting high-value jaegers on petty, suicidal military espionage, redirecting Chrysalis's intelligence apparatus entirely toward civilian, corporate, and political sectors | Civilization | unmatched
+  - 780 | Storytelling Plan | Thorax originally distributed naive pamphlets asking ponies for help against Chrysalis after Celestia refused, portraying changelings as atomized drones who don't trust each other and just want friends | History | empty
+  - 780 | Storytelling Plan | VOPS continues Thorax's pamphlet messaging seamlessly as propaganda in the lead-up to the war | History | empty
+  - 780 | Storytelling Plan | This propaganda leads to Luna's false optimism and hold-the-line doctrine, which in turn enables Trimmel's blitzkrieg | History | empty
+  - 1215 | What it is | Trained VOPS infiltrators can accurately detect lies from emotional fluctuations, though interpreting the meaning of the emotion remains subjective | Civilization | same
+  - 2603 | What it is | VOPS administers MEFO bill payouts of love rations | Civilization | same
+- whole: Across VOPS's tracks, three of the five populated subject-wide tracks carry content whose mode diverges from their declared type, while one track (What it is) matches cleanly and the scene-link half of the subject is wholly empty.
+  
+  "What it is" (Civilization) is internally consistent: both its notes (1215, 2603) describe organizational capabilities and functions in Civilization mode, matching the track's own declared mode.
+  
+  "Binding Logic" (Characterization) is mixed. Most of its content (note 1402 entire, and two of note 871's three claims) is genuine Characterization — asserting the psychological truths that sort and bind members (indoctrination via rat-race success or trauma, self-image as hardened adults over childlike drones, and the empathy-versus-weaponization split that determines demotion or elite status) — matching the track's own mode. But one clause of note 871, the bare requirement that infiltrators learn Equestrian, reads as Civilization content (a built training policy) rather than Characterization; no note in the Civilization-declaring "What it is" track states this same requirement, so it sits unmatched.
+  
+  "Garden Notes" (NotesToSelf) holds a single note (2604) whose content — VOPS's origin from the hive wars' love collectors — is History-mode (an organizational origin fact) rather than author's-process commentary. Both History-declaring tracks (Activities, History) are shown with no notes, so this content has no track to land in and is placed empty.
+  
+  "Reader Understanding Plan" (NarrativeArchitecture) holds note 772, which states an organizational policy (redirecting intelligence resources from military espionage to civilian/corporate/political targets) in Civilization mode rather than NarrativeArchitecture mode. The Civilization-declaring "What it is" track has content, but neither of its notes states this redirection policy, so it is unmatched there.
+  
+  "Storytelling Plan" (NarrativeArchitecture) holds note 780, whose three linked claims (Thorax's original pamphlets, VOPS's continuation of them as propaganda, and the causal chain to Luna's doctrine and Trimmel's blitzkrieg) are all History-mode reporting of events rather than NarrativeArchitecture staging. As with note 2604, the only tracks declaring History mode (Activities, History) are empty, so all three claims are placed empty despite the fact that a comparable History-mode claim exists in Garden Notes — because that note does not itself sit in a History-declaring track, it does not supply a "same" match.
+  
+  No content appears twice in two tracks of the same declared mode; every cross-mode claim either matches its counterpart mode's declaring track (Binding Logic's Characterization content, matching itself) or fails to, either because the declaring track's notes don't share the same content (unmatched, twice, both involving the Civilization mode surfacing in NarrativeArchitecture-typed tracks) or because the declaring track holds no notes at all (empty, three times, involving History mode surfacing in NotesToSelf- and NarrativeArchitecture-typed tracks). The scene-link tracks contribute nothing, as all six are shown without notes.

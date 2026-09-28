@@ -7,9 +7,13 @@ using StoryPlanner.VoiceAttribution;
 // they appeared first, and in whose role. Writes a sidecar CSV — never touches the plan.
 //
 //   dotnet run --project tools/StoryPlanner.VoiceAttribution -c Release -- <plan.storyplan> <lineage.db>
-//        [--snapshots <dir>] [--gdoc-snapshots] [--out <attribution.csv>] [--exclude-story Paratext]
+//        [--snapshots <dir | file pattern>]... [--gdoc-snapshots] [--out <attribution.csv>] [--exclude-story Paratext]
 //        [--k 6] [--R 8] [--G 6] [--verbatim-coverage 0.90] [--paste-scale 16] [--max-sources 0] [--min-words 4]
 //        [--exclude-aistudio 22,23,24,25]
+//        [--conversations <v2.storyplan>]                 index that file's ConversationBlocks as a voice source
+//        [--plan-sources <layer>=<dir | file pattern>]... dated plan backups as role-brian span sources
+//        [--last-modified-guard]                          the v2 LastModified check (DateCheck column)
+//            (--snapshots and --plan-sources may repeat)
 //        [--sample <n> [--sample-labels a,b,c] [--sample-flips <m>] [--seed 40] [--sample-out <file.md>]]
 //            (--sample-flips m: append every echo candidate plus m random PlanFirst flips)
 //        [--verdicts <sheet.md>[,<sheet2.md>]]
@@ -20,8 +24,9 @@ using StoryPlanner.VoiceAttribution;
 // Thresholds are provisional until the calibration gate.
 
 var args_ = Environment.GetCommandLineArgs().Skip(1).ToList();
-var flags = new HashSet<string> { "--gdoc-snapshots" };
+var flags = new HashSet<string> { "--gdoc-snapshots", "--last-modified-guard" };
 string? Opt(string name) { int i = args_.IndexOf(name); return i >= 0 && i + 1 < args_.Count ? args_[i + 1] : null; }
+List<string> Opts(string name) => args_.Select((a, i) => (a, i)).Where(t => t.a == name && t.i + 1 < args_.Count).Select(t => args_[t.i + 1]).ToList();
 bool Flag(string name) => args_.Contains(name);
 var positional = new List<string>();
 for (int i = 0; i < args_.Count; i++)
@@ -44,8 +49,16 @@ var labels = new LabelThresholds(
     int.Parse(Opt("--G") ?? "6"),
     double.Parse(Opt("--verbatim-coverage") ?? "0.90", inv),
     Opt("--paste-scale") is string ps ? int.Parse(ps) : null);
-var settings = new Settings(labels, int.Parse(Opt("--max-sources") ?? "0"), int.Parse(Opt("--min-words") ?? "4"));
-var snapshotsDir = Opt("--snapshots");
+var settings = new Settings(labels, int.Parse(Opt("--max-sources") ?? "0"), int.Parse(Opt("--min-words") ?? "4"),
+    LastModifiedGuard: Flag("--last-modified-guard"));
+var snapshotSpecs = Opts("--snapshots");
+var conversationsPath = Opt("--conversations");
+var planSources = Opts("--plan-sources").Select(s =>
+{
+    int eq = s.IndexOf('=');
+    if (eq <= 0) throw new ArgumentException($"--plan-sources expects <layer>=<dir | file pattern>, got \"{s}\"");
+    return (Layer: s[..eq].Trim(), Spec: s[(eq + 1)..].Trim());
+}).ToList();
 var outCsv = Opt("--out") ?? "attribution.csv";
 var excludeStory = Opt("--exclude-story");
 var excludedChats = new HashSet<int>((Opt("--exclude-aistudio") ?? string.Join(",", LineageReader.DefaultExcludedAiStudioChats))
@@ -61,20 +74,37 @@ Log($"  notes {plan.Notes.Count}, subjects {plan.Subjects.Count}, plot points {p
 
 Log($"lineage: {lineagePath}");
 var index = new VoiceIndex(k);
-var snapshots = snapshotsDir is not null || Flag("--gdoc-snapshots") ? new PlanSnapshotIndex(k) : null;
+var snapshots = snapshotSpecs.Count > 0 || Flag("--gdoc-snapshots") ? new PlanSnapshotIndex(k) : null;
 LineageReader.Load(lineagePath, index, snapshots, Flag("--gdoc-snapshots"), excludedChats, Log);
 Log($"  index: {index.SourceCount} sources, {index.ShingleCount:N0} distinct shingles  [{sw.Elapsed:m\\:ss}]");
 
-if (snapshotsDir is not null)
+// Load order is the same-day tie-break (earlier-added wins): lineage, then conversations, then
+// the plan's own backups — so on a shared date an AI source keeps the shingle, never the plan.
+Dictionary<string, ConversationReader.Span>? conversationSpans = null;
+if (conversationsPath is not null)
 {
-    Log($"snapshots: {snapshotsDir}");
-    var loaded = SnapshotReader.Load(snapshotsDir, snapshots!, Log);
+    Log($"conversations: {conversationsPath}");
+    conversationSpans = ConversationReader.Load(conversationsPath, index, Log);
+    Log($"  index: {index.SourceCount} sources, {index.ShingleCount:N0} distinct shingles  [{sw.Elapsed:m\\:ss}]");
+}
+
+foreach (var (layer, spec) in planSources)
+{
+    Log($"plan sources {layer}: {spec}");
+    var loaded = SnapshotReader.LoadAsSources(spec, layer, index, Log);
+    Log($"  {loaded.Count} backups as {layer}/brian sources{(loaded.Count > 0 ? $", {loaded.Min(l => l.Date):yyyy-MM-dd} → {loaded.Max(l => l.Date):yyyy-MM-dd}" : "")}  [{sw.Elapsed:m\\:ss}]");
+}
+
+foreach (var spec in snapshotSpecs)
+{
+    Log($"snapshots: {spec}");
+    var loaded = SnapshotReader.Load(spec, snapshots!, Log);
     Log($"  {loaded.Count} snapshots, {(loaded.Count > 0 ? $"{loaded.Min(l => l.Date):yyyy-MM-dd} → {loaded.Max(l => l.Date):yyyy-MM-dd}" : "")}  [{sw.Elapsed:m\\:ss}]");
 }
 
-using var ctx = new SourceContext(lineagePath);
+using var ctx = new SourceContext(lineagePath, conversationsPath);
 Log("matching…");
-var rows = Attribution.Run(plan, index, snapshots, settings, ctx.Fetch, Log);
+var rows = Attribution.Run(plan, index, snapshots, settings, ctx.Fetch, Log, conversationSpans);
 Log($"  done  [{sw.Elapsed:m\\:ss}]");
 Log("");
 Log(Attribution.Summary(rows, excludeStory));
@@ -82,7 +112,7 @@ Log(Attribution.Summary(rows, excludeStory));
 // The CSV is the evidence set for the analysis, so an excluded story is excluded from it too —
 // not merely hidden in the views. (Brian, 2026-09-02: Paratext is not scene content.)
 var population = excludeStory is null ? rows : rows.Where(r => !r.Story.Contains(excludeStory, StringComparison.OrdinalIgnoreCase)).ToList();
-Outputs.WriteCsv(outCsv, population);
+Outputs.WriteCsv(outCsv, population, plan.StateLabel);
 Log($"wrote {outCsv} ({population.Count} rows{(excludeStory is null ? "" : $"; {rows.Count - population.Count} {excludeStory} rows excluded")})");
 
 if (Opt("--sample") is string sampleN)

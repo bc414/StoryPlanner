@@ -1,0 +1,13 @@
+- claims:
+  - 2663 | Backstory | He consumed Gilded Lily's manosphere propaganda | History | same
+  - 2663 | Backstory | He bullied two gay colts | History | same
+  - 2663 | Backstory | He left for New Mareland | History | same
+  - 2664 | Backstory | He came back to Equestria after being humbled | History | same
+  - 2664 | Backstory | He was on the cloud carrier with Flowing Current, caring for foals | History | same
+  - 2664 | Backstory | He returned to his village and delivered the foal to the stallions he once bullied | History | same
+  - 2664 | Backstory | He was rewelcomed into the community | History | same
+  - 2666 | Backstory | Upon hearing Blueblood's Dotted Line Report, he signed up for army boot camp to protect harmony | History | same
+  - 2666 | Backstory | After being rewelcomed by his village, he vowed to defend Equestria | History | same
+  - 2669 | Character Appearance Plan | He taught Applejack how to fire a machine gun during boot camp, an appearance placed in the Mount Aris prequel | NarrativeArchitecture | same
+  - 2662 | Source Material References | He is a general with no bio in established Equestria canon | Canon | same
+- whole: Across this subject, every note sits in the mode its own track declares: the three Backstory notes (2663, 2664, 2666) each report in-universe facts and are History, matching the History-typed Backstory track; the Character Appearance Plan note (2669) names a specific scene placement for an appearance and is NarrativeArchitecture, matching its track; the Source Material References note (2662) states a constraint drawn from established canon and is Canon, matching its track. No note's content crosses into a mode other than its own track's declared mode, so there is no case here of a track holding content foreign to its type, and no case of the same fact or claim appearing in two different notes or tracks — each fact (the propaganda exposure, the bullying, the departure, the return and caretaking, the reconciliation, the boot-camp enlistment, the vow, the Mount Aris training scene, and the canon-gap status) appears exactly once. All other tracks on this subject — Allegories, Analogies, Character Development, Character Reader Perception Gap Plan, Characterization, Garden Notes, Life Phases, Reader Opinion Plan, Theme Plan, and every scene-link track (Character Actions, Character Development Meaning, Character-Reader Perception Gap, Gap Meaning, Inferred Character Development, Inferred Psychology, Reader Prior Belief Clash, Reader Prior Belief Update, Revelation, Scene Theme Evidence) — are shown with no notes, so none of the mapped content has anywhere to sit doubly, and nothing here is unmatched or absent since every present thing found a home in its own track's mode.

@@ -1,0 +1,41 @@
+- claims:
+  - 1412 | Analogies | Red love trade is modeled on the British East India Company/Opium Wars pattern: Britain bought Chinese tea without reciprocal purchases, drained silver, then industrialized opium exports to addict and incapacitate the Chinese workforce | Analogies | same
+  - 1408 | Causality of Creation | Chrysalis observed Coltbert's parloirs draining bits out of Equestria toward the FJA | History | unmatched
+  - 1408 | Causality of Creation | That observation inspired Chrysalis to set up Skyfall shell companies teaching ponies to industrialize and live big | Civilization | same
+  - 1410 | Causality of Creation | The Stagnation of Harmony suppressed ambition while deportation threat kept ambitious ponies behaving but unfulfilled, the condition the system answered | Civilization | same
+  - 1444 | Causality of Creation | Griffon capitalists are loud, proud, violent, boastful, overt predators | Ontology | unmatched
+  - 1444 | Causality of Creation | Because overt Griffon-style tactics get ponies deported, Chrysalis's shell companies instead teach ambitious ponies Weaponized Harmony (lying, deceit) | Civilization | same
+  - 2542 | Causality of Creation | Gilded Lily and Silver Sterling were told meritocracy was real, worked hard, and failed because it was a lie | History | unmatched
+  - 2542 | Causality of Creation | In designing the comprador economy they reject fair competition and instead want total control and power | Civilization | same
+  - 125 | Historical Events | In 988 Gilded Lily starts a new wave of industrialists via Krystalfels loans, seeking ruthless capital-has-no-country Equestrians to become tycoons | History | same
+  - 1436 | Historical Events | Chrysalis floods the drug market after the Olenian conquest | History | same
+  - 1436 | Historical Events | Rockfeller and other tycoons stockpile red love anticipating Chrysalis tightening supply | History | same
+  - 1436 | Historical Events | Red Love is safer than paper money because it will always hold value | Ontology | unmatched
+  - 2351 | Historical Events | In 1010 they demand gold bits from Equestria's treasury for weapons production and halt when bits run out | History | same
+  - 1437 | Historical Events | In 1011 submarines deploy and trap Equestria, incentivizing collaboration alongside the civilian-invested happy Olenia | History | same
+  - 1437 | Historical Events | Skyfall Marks become useless without imports under blockade, so tycoons holding them want the war to end | History | same
+  - 1437 | Historical Events | If Equestria wins, the red love supply ends and synthetic demand for the Skyfall Mark collapses | History | same
+  - 2138 | Historical Events | In the weeks after the blockade began, machinery gradually fails without replacement parts | History | same
+  - 1411 | Historical Impact | Exported goods were paid in Skyfall Marks while ponies paid bits domestically, draining bits and raw materials out of Equestria in exchange for Skyfall Marks and fueling the Great Leap Forward | History | same
+  - 2280 | Reader Opinion | Tycoons believed themselves free-trade individualists on low-interest Skyfall loans but were actually becoming dependent puppets of Chrysalis's state apparatus, their rugged individualism making them prey to a bigger predator | NarrativeArchitecture | same
+  - 2582 | Reader Opinion | The system inherits the Stagnation of Harmony's structural flaws while inverting its virtues | Ontology | unmatched
+  - 272 | Storytelling Plan | By story's end not everyone must conform; industry and magic need not replace special talents but can enhance them | NarrativeArchitecture | same
+  - 1300 | Storytelling Plan | Manehattan's greedy industrialists are viewed as eccentric poseurs by most rural Equestrians | History | unmatched
+  - 1413 | Storytelling Plan | Red love is marketed under the brand names Failed Tyrants and Olenian Taxes | Civilization | unmatched
+  - 1409 | System Ontology | Companies sell raw materials and commodities to ponies for bits, and tycoons use those bits to service factory loans and fund their lifestyles | Ontology | same
+  - 1409 | System Ontology | If a company exports goods, it is paid in Skyfall Marks | Ontology | same
+  - 1446 | System Ontology | Changelings survive by taking the shape of what's loved, and Chrysalis teaches Equestrian tycoons this same deceit | Ontology | same
+  - 1446 | System Ontology | Tycoons like Rockfeller pass Friendship Seminars by performing sincerity because Canterlot auditors are trained to detect Griffon malice, not Changeling-style deceit and greenwashing | Ontology | same
+  - 1295 | System Ontology | Rockfeller arms bored, propaganda-fed stallions to guard derricks and intimidate Buffalo; their inevitable arrest and forced exile to New Mareland functions as free state-provided transport delivering him an endless supply of disposable, motivated muscle | Ontology | same
+  - 2583 | System Ontology | The compradors replace traditional cutie-mark-derived roles with standardized imported goods, unconditional dignity with transactional hustle, and individuality with uniform corporate aspiration and wealth hoarding | Ontology | same
+  - 2068 | Revelation | Flowing Current states they want to fix the tycoons' machines but aren't permitted to touch their property | PageDesign | same
+  - 2069 | World Inference | The reader should infer the tycoons are collaborators who'd rather leave factories idle pending negotiation with Chrysalis than let workers touch their capital | WorldInference | same
+- whole: Most tracks hold content squarely in their declared mode: Analogies (1412), Historical Impact (1411), the bulk of Historical Events (125, 1436's first two items, 2351, 1437, 2138), the bulk of Causality of Creation (1408's second item, 1410, 1444's second item, 2542's second item), Reader Opinion's note 2280, Storytelling Plan's note 272, all of System Ontology (1409, 1446, 1295, 2583), Revelation (2068), and World Inference (2069).
+  
+  Several tracks also carry material in modes other than their own, in every case unmatched elsewhere on the subject:
+  - Causality of Creation (a Civilization-type track) carries History-mode content twice (part of 1408: Coltbert's parloirs draining bits; part of 2542: the meritocracy lie and failure of Gilded Lily/Silver Sterling) and Ontology-mode content once (part of 1444: the description of Griffon capitalists). None of this matches content in the History tracks (Historical Events, Historical Impact) or in System Ontology, which all hold notes of their own but not this content.
+  - Historical Events (a History-type track) carries one Ontology-mode statement (part of 1436: that Red Love always holds value), which has no match in System Ontology.
+  - Storytelling Plan (a NarrativeArchitecture-type track) carries one History-mode statement (1300: rural Equestrians view Manehattan industrialists as poseurs) and one Civilization-mode statement (1413: red love's marketing names), neither matching content in the History tracks or in Causality of Creation respectively.
+  - Reader Opinion (a NarrativeArchitecture-type track) carries one Ontology-mode statement (2582: the system inherits Stagnation of Harmony's flaws while inverting its virtues), with no match in System Ontology.
+  
+  No instance was found where the same content appears twice across two tracks of the matching mode; every piece of content sitting outside its track's declared mode was unmatched rather than duplicated. Eight tracks hold no notes at all: Allegories, Canon References, Garden Notes, Theme Plan, Demonstration, Reader Prior Belief Clash, Reader Prior Belief Update, and Scene Theme Evidence, covering the Allegories, Canon, NotesToSelf, and (three times over) ThematicEvidence modes, plus PageDesign and WorldInference respectively for the scene-link empties — no off-mode content in this pass landed in any of these modes, so none of the "empty" placement outcome was triggered.

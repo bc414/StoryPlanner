@@ -1,0 +1,40 @@
+- claims:
+  - 1132 | Allegories | maps destigmatizing changeling predation to calling addicts sick not criminal | Allegories | same
+  - 1132 | Allegories | maps harm reduction (safe drug alternative) to Canned Love policy | Allegories | same
+  - 1132 | Allegories | maps systemic Rat-Park-style economic change to the Republic/Harmonic Capitalism | Allegories | same
+  - 1132 | Allegories | states a healthy economy creates healthy souls while an exploitative one creates addicts | ThematicEvidence | 1119
+  - 1117 | Analogies | recounts the real-world Rat Park experiment with isolated vs socially-rich rats and heroin water | Analogies | same
+  - 1117 | Analogies | draws the conclusion that addiction is a symptom of isolation and environment | Analogies | same
+  - 426 | Garden Notes | records author's wish for changelings to read as definitively evil before the POW twist | NotesToSelf | same
+  - 426 | Garden Notes | records author's need to legitimize that evil so Fluttershy's arc lands as tragedy not preachy idealism | NotesToSelf | same
+  - 428 | Reader Understanding Plan | states readers arrive expecting cruel 'bugnazi' changelings | NarrativeArchitecture | same
+  - 427 | Reader Understanding Plan | plans depicting soldiers as smiling, euphoric, chemically convinced rather than a mindless swarm | NarrativeArchitecture | same
+  - 427 | Reader Understanding Plan | frames this as a critique of soldiers who commit atrocities because their system insulates them from victims' humanity | Allegories | unmatched
+  - 429 | Reader Understanding Plan | asserts jaeger-geist conscripts are a dark manifestation of Pinkie's old worldview, fighting with forced euphoria disconnected from material suffering | ThematicEvidence | unmatched
+  - 1406 | Source Material References | frames keeping black chitinous biology while changing silk color as a materialist subversion of the Hasbro pastel-transformation mandate | Canon | same
+  - 720 | Storytelling Plan | plans that donated Pink Love's contrast with synthetic drugs will break POWs' conditioning | NarrativeArchitecture | same
+  - 736 | Storytelling Plan | defines Tier 3 as the maximal synthetic drug mix used for suicide charges from which conscripts aren't expected to return | Civilization | unmatched
+  - 736 | Storytelling Plan | states Tier 3 is given to already injured/broken conscripts or in the Stalliongrad attacks | History | empty
+  - 749 | Storytelling Plan | describes Tzinacatl medicine as making POWs merely functional, not happy, and preventing nervous system collapse | Civilization | unmatched
+  - 749 | Storytelling Plan | plans that denying synthetic highs forces POWs to feel guilt and earn joy only through authentic labor and friendship | NarrativeArchitecture | same
+  - 833 | Storytelling Plan | explains the camp scales because first-rehabbed changelings bootstrap into new harmonist teachers | Civilization | unmatched
+  - 1118 | Storytelling Plan | asserts drugs made conscripts feel alive and powerful in a miserable world | Characterization | empty
+  - 1118 | Storytelling Plan | plans that POWs stop craving Red Love because they get Pink Love naturally and their lives no longer hurt | NarrativeArchitecture | same
+  - 1127 | Storytelling Plan | frames silk-weaving labor as cultural reclamation resurrecting the lost art of Ancient Hive Caretakers | Civilization | unmatched
+  - 1127 | Storytelling Plan | states the woven silk acts as a sponge for ambient healing Grace energy saturating the camp | Ontology | absent
+  - 1242 | Storytelling Plan | recounts Equestria's pre-war textile shortage requiring cotton gin and oil-based polyester for uniforms | History | empty
+  - 1242 | Storytelling Plan | states changeling silk from Camp Fluttershy solves part of the uniform-material problem | Civilization | unmatched
+  - 1400 | Storytelling Plan | asserts drones are broken and subservient | Characterization | empty
+  - 1400 | Storytelling Plan | attributes this to perpetual sensory abuse via unprotected emotion sense when underperforming at the factory | Civilization | unmatched
+  - 1403 | Storytelling Plan | asserts drones feared leaving the hives | Characterization | empty
+  - 1403 | Storytelling Plan | states drones were told the outside world is brutal | Civilization | unmatched
+  - 1404 | Storytelling Plan | states a drone unable to close its emotion sense in skyfall would be in agony | Ontology | absent
+  - 1404 | Storytelling Plan | states drones are barred from spy, merchant, or diplomat roles, which only elites can access | Civilization | unmatched
+  - 1119 | Themes | deploys the healthy-economy/exploitative-economy contrast as evidence that material conditions drive morality | ThematicEvidence | same
+  - 1120 | Themes | deploys the POWs' greater wartime productivity via love and craft over drone/conscript labor as evidence that conscience outperforms extraction | ThematicEvidence | same
+  - 1126 | Themes | deploys drone addiction as evidence that tribal/moral-failing framing masks systemic exploitation | ThematicEvidence | same
+  - 2537 | Themes | deploys unconditional provision at Camp Fluttershy as evidence that dignity precedes cooperation | ThematicEvidence | same
+  - 1116 | What it is | states the changelings are POWs captured and interned at the Star Energy Agricultural Exposition Center | History | empty
+  - 1116 | What it is | describes the facility as a large indoor glass-ceilinged venue built for harvest festivals and agricultural showcases | Civilization | same
+  - 2599 | What it is | describes elders being encouraged to teach old specialized knowledge to new generations in a safe cross-cultural exchange space | Civilization | same
+- whole: Across the subject, the two History-type tracks (Activities, History) and the Characterization-type track (Binding Logic) hold no notes at all, yet content in History mode and Characterization mode recurs throughout other tracks. The Storytelling Plan (NarrativeArchitecture) carries the heaviest cross-mode load: alongside its own narrative-planning material (Pink Love's effect, earned joy through labor, POWs weaning off Red Love), it holds Civilization-mode content describing built systems and artifacts (the drug tier system, the Tzinacatl medicine's function, the bootstrapping of rehabbed teachers, the factory's sensory-abuse enforcement, hive indoctrination, the elite-only access rule, silk solving the uniform shortage, cultural reclamation through weaving), History-mode content reporting discrete facts (Tier 3's use in the Stalliongrad attacks, pre-war textile-industry background), Characterization-mode content asserting drone psychology (feeling alive on drugs, being broken/subservient, fearing to leave the hive), and one Ontology-mode claim about drone emotion-sense biology and one about silk absorbing ambient Grace — none of which has anywhere to land since no Ontology track exists here (all placed absent) and Binding Logic is empty (Characterization content placed empty) and the History tracks are empty (History content placed empty). The Civilization-mode content scattered through Storytelling Plan never restates what the Civilization-typed "What it is" track itself holds (POW camp facility, elder knowledge-exchange), so it is consistently unmatched rather than duplicated. "What it is" itself contains one History-mode fact (the bare capture/internment fact, placed empty) alongside its own Civilization-mode facility description. The Reader Understanding Plan (NarrativeArchitecture) also carries an Allegories-mode claim (soldiers desensitized by their system, unmatched against the Allegories track's drug-crisis mapping) and a ThematicEvidence-mode claim (conscripts as dark mirror of Pinkie, unmatched against the Themes track's four propositions). The one confirmed duplication across tracks is the Allegories note's closing line on healthy versus exploitative economies, which restates, word for word, the Themes track's "Material Conditions drive Morality" note. The Analogies, Themes, Garden Notes, and Source Material References tracks show no content outside their own declared modes.

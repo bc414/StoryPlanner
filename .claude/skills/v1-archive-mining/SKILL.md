@@ -98,4 +98,5 @@ arcs. A session reads subject files only if its plan says so.
 Migrate anything. Propose tracks or display questions. Judge whether an instinct is correct.
 Decide whether a pasted proposal was adopted (that is a reading, made per note, from plain
 neighbours and edits). Write to any `.storyplan`. Run the attribution tool on the v2 working
-plan — that is the lint report, a later activity with the same tool.
+plan — that is the lint report, a separate run with its own sources and rules
+(`docs/v3-framework/voice-attribution-v2/README.md`).

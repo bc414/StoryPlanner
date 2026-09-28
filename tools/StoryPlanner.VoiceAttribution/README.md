@@ -36,6 +36,40 @@ the label rules are `StoryPlanner.Core/VoiceMatch.cs` (fixture-tested in `VoiceM
   noted…") just before the matched passage — the model quoting the author within the same
   snapshot week. A flag, not a verdict.
 
+## The v2 working plan (2026-09-28)
+
+Three source kinds v1 did not need, each opt-in so the v1 evidence set regenerates unchanged
+(checked 2026-09-28: every v1 row identical, the three new columns empty):
+
+- **Conversations** (`--conversations <v2.storyplan>`): the imported Claude / Gemini transcripts
+  as a voice source, since v2 notes may be pasted from them. `user` → brian, `assistant` → model,
+  layer `conv-claude` / `conv-gemini`, id `block:{Id}` (what `get_blocks` takes). Blocks have no
+  timestamps: each is dated by its conversation's `created_at`, with the span to `updated_at`
+  kept (none was recorded for legacy imports and for the Gemini conversations). Block `Summary`
+  is not indexed.
+- **Plan backups as sources** (`--plan-sources <layer>=<dir | pattern>`, repeatable): the v1
+  backups (`v1-plan`) and the app's v2 `Backups/*.bak` (`v2-plan`) as role-brian sources dated
+  by filename, loaded after lineage and conversations so an AI source wins a same-day tie.
+  Earliest-wins then dates each *span*: a v1 sentence carried into an edited v2 note keeps its
+  v1 date against a later Claude quote, where note-level containment (`FirstSnapshot`) is lost
+  at the first cut. Plan credit settles the date and steps aside — label, origin, `Sources` and
+  `MatchedSpans` describe the note against voices only; **`PlanSources`** / **`PlanCoverage`**
+  report the plan's share beside them. The conversation and `UiSettings` tables are never
+  harvested as plan text.
+- **The LastModified check** (`--last-modified-guard`, column **`DateCheck`**): the app stamps
+  a note on every change, so its current text existed by `LastModified`. A model origin dated
+  after that day is the model repeating the plan — `after-edit`, flipped to brian like PlanFirst.
+  An edit inside a multi-day conversation is `ambiguous`; a conversation with no recorded end is
+  `span-unknown`. Both are flagged, never decided; neither is the same day.
+
+Claude's citation phrasings (`ConversationEchoLeadIn`, including the MCP-era "note 2153 …") are
+checked for conversation origins on top of `EchoLeadIn`. State names follow the file: the
+archive's open / flagged / closed, v2's unset / flagged / confirmed (`PlanReader.IsArchive`, the
+app's own filename rule). Flagged notes stay in the CSV — the wall is for LLM readers — and are
+left off the calibration sheet, which with `--sample-flips M` also samples M of each v2
+mechanism (after-edit, ambiguous / span-unknown, conversation-origin model, partly
+plan-credited). The run and its rulings: `docs/v3-framework/voice-attribution-v2/README.md`.
+
 What it does not do: judge registers (fabula / syuzhet / prose / analytical), decide whether a
 pasted proposal was adopted, recognise design patterns, see paraphrase, or resolve ties.
 
@@ -48,6 +82,7 @@ dotnet run --project tools/StoryPlanner.VoiceAttribution -c Release -- <plan.sto
     [--out attribution.csv] [--exclude-story Paratext]
     [--k 6] [--R 8] [--G 6] [--verbatim-coverage 0.90] [--paste-scale 16] [--max-sources 0] [--min-words 4]
     [--exclude-aistudio 22,23,24,25]
+    [--conversations <v2.storyplan>] [--plan-sources <layer>=<dir | pattern>]... [--last-modified-guard]
     [--sample 30 [--sample-labels a,b,c] [--sample-flips 30] [--seed 40] [--sample-out file.md]]
     [--verdicts sheet1.md,sheet2.md]
     [--render <dir> --arcs "1-5,6-9" --subjects 1,2 --subject-types "Deferred for a plot point" --manifest read-manifest.md]

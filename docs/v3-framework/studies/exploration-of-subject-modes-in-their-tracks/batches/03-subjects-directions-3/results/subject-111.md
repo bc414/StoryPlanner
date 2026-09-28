@@ -1,0 +1,27 @@
+- claims:
+  - 2523 | Analogies | Documents that British primogeniture left younger sons to join the East India Company, becoming the wealthy "nabob" class, as real-world inspiration | Analogies | same
+  - 2524 | Backstory | Reports that the entire empire passed to Krista Sterling, leaving nothing to the Gilded and Silver families | History | same
+  - 2513 | Character Appearance Plan | States that they designed the shipping network, vulture capitalism, and shell company architecture | History | unmatched
+  - 2520 | Character Appearance Plan | States that their plans to connect the changeling lands to the global market predate meeting Chrysalis | History | unmatched
+  - 2519 | Characterization | Asserts their transactional worldview holds empathy and commerce as compatible, believing per Skyfall's ideology that trade lifts all boats | Characterization | same
+  - 2519 | Characterization | Asserts they view the miserable Acornage refugees' problem as lack of trade connections, solvable by building infrastructure/markets while profiting | Characterization | same
+  - 2528 | Characterization | Asserts they praise Chrysalis for bringing capital, innovation, and strategy rather than for her unconditional existence | Characterization | same
+  - 2528 | Characterization | Asserts this praise-only-for-utility stems from their upbringing and rugged individualism | Characterization | same
+  - 2509 | Life Phases | Reports she tried to pull herself up by the bootstraps in New Mareland and failed | History | same
+  - 2508 | Life Phases | Reports she retreated to Acornage seething, resigned and resentful, plotting corporate dominance and revenge fantasies without acting | History | same
+  - 2508 | Life Phases | Reports Acornage as the crack in the Stagnation's walled garden allowing trade without competing in the Skyfall/New Mareland rat race after being burned | History | same
+  - 2511 | Life Phases | Reports she is running Krystallfels Handelsgesselschaft, executing a decade of fantasies and building a corporate empire | History | same
+  - 2521 | Life Phases | Reports she continues expanding the corporate empire while bringing industry to the changeling lands | History | same
+  - 2522 | Life Phases | Reports she is expanding the comprador economy in Equestria | History | same
+  - 300 | Reader Opinion Plan | Plans that TLTT reveals Gilded Lily was Applejack's fake mom | NarrativeArchitecture | same
+  - 300 | Reader Opinion Plan | Plans that the sequel reveals she was actually like a parental figure | NarrativeArchitecture | same
+  - 2518 | Reader Opinion Plan | States the reader's prior assumption that they are just pure vulture capitalist tycoons | NarrativeArchitecture | same
+  - 2518 | Reader Opinion Plan | Plans that their time in Acornage and talks with escaped changelings reveal genuine empathy and desire to civilize/bring prosperity alongside seeing a market opportunity | NarrativeArchitecture | same
+  - 2512 | Source Material References | States Silver Sterling is related to Silver Shill from Leap of Faith | Canon | same
+  - 116 | Inferred Psychology | Infers she can't comprehend pink love/empathy as a catalyst for ambition | WorldInference | same
+  - 2479 | Inferred Psychology | Reports that Gilded Lily, in her 40s, has already been through being left behind by her siblings | History | unmatched
+  - 2479 | Inferred Psychology | Infers she is passionate because she is living her revenge now, exceeding her siblings at the head of Chrysalis's company | WorldInference | same
+  - 2546 | Inferred Psychology | Infers they recognize Chrysalis's ambition being failed by a system as mirroring their own past failure | WorldInference | same
+  - 2546 | Inferred Psychology | Infers they see Chrysalis as a kindred spirit to partner with rather than a refugee to save | WorldInference | same
+  - 115 | Revelation | States that Gilded Lily recruited Bright Mac and Pear Butter | History | unmatched
+- whole: Most tracks hold content in the mode they declare: Analogies (2523), Backstory and Life Phases (2524, 2509, 2508, 2511, 2521, 2522) as History, Characterization (2519, 2528), Reader Opinion Plan (300, 2518) as NarrativeArchitecture, Source Material References (2512) as Canon, and most of Inferred Psychology (116, part of 2479, 2546) as WorldInference. Two tracks depart from their declared mode: Character Appearance Plan (type NarrativeArchitecture) holds only History-mode content in both its notes (2513, 2520) — factual reports of what the character built and when their plans predate meeting Chrysalis — with no matching content in the subject's other History tracks (Backstory, Life Phases), so both sit unmatched. Similarly, in the scene-linked Revelation track (type PageDesign), note 115 states a plain historical fact (recruiting Bright Mac and Pear Butter) rather than staging a disclosure, and no History track holds the same fact, so it is unmatched. Within Inferred Psychology (type WorldInference), one clause of note 2479 (that Gilded Lily has already been through being left behind by her siblings) is History-mode rather than inference, and again finds no matching content in Backstory or Life Phases, so it is unmatched — the note's second clause, about her passion being live revenge, does match the track's own WorldInference mode. No note's mode is left "absent" (every mode found outside its track has at least one same-mode track with notes on this subject) and no case of the same content appearing twice across two tracks was found.

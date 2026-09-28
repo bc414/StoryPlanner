@@ -1,0 +1,5 @@
+- claims:
+  - 684 | Backstory | Pharanx received accolades for being a good tank commander from Chrysalis | History | same
+  - 839 | Backstory | Pharanx was given the name/title The Terror of Vaverfront | History | same
+  - 838 | Backstory | Pharanx died in the 2nd Battle of Tall Tale | History | same
+- whole: Only the Backstory track (History mode) carries any notes on this subject; every other track across both the subject-wide and scene-link sections is empty. All three Backstory notes (684, 839, 838) are written as straightforward in-universe historical reporting — a commendation received, a title earned, and a death recorded — each matching the History mode of its own track, with no departure into another mode. Because no other track holds any content, there is no instance of a mode appearing outside its declared track, and no case of the same content recurring across two tracks.

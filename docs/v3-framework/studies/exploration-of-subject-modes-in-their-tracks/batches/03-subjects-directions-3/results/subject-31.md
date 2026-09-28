@@ -1,0 +1,92 @@
+- claims:
+  - 2578 | Analogies | Chrysalis is compared to Oda Nobunaga, Toyotomi Hideyoshi, and Tokugawa Ieyasu combined in one ruler in one generation | Analogies | same
+  - 2578 | Analogies | Oda Nobunaga used Portuguese firearms to conquer rivals, given as historical detail behind the analogy | Analogies | same
+  - 2497 | Backstory | Chrysalis is born into the jaeger grub pool in Vesalipolis | History | same
+  - 2498 | Backstory | The previous queen and jaeger elites of Vesalipolis overextend and suffer a massive defeat to Vraks | History | same
+  - 2498 | Backstory | Chrysalis becomes the new apex by discrediting the remaining older jaegers as stupid | History | same
+  - 2496 | Backstory | Chrysalis steps down from apex/queen and arrives in Acornage | History | same
+  - 2384 | Backstory | Gilded Lily and Silver Sterling teach Chrysalis about bounties and IP | History | same
+  - 2384 | Backstory | Chrysalis accumulates startup capital by taking the biggest unfulfilled bounties on disruptive startups and heavily-secured DRM violators | History | same
+  - 2384 | Backstory | She steals and copies startup blueprints, placing them in an escrow bank to collect payout | History | same
+  - 2499 | Backstory | Chrysalis spends months doing bounty work in Skyfall | History | same
+  - 2500 | Backstory | Chrysalis returns to Acornage with startup capital and asks Gilded Lily and Silver Sterling to run her corporate empire | History | same
+  - 993 | Backstory | Chrysalis reads Coltbert's paper, learns of spell matrix technology from the 2nd Gen Royalists in Pridea, and decides to build a draining-spell matrix to break the Predator's Dilemma | History | same
+  - 805 | Backstory | Chrysalis copies the Aquileia counterrevolution model to inspire the Herzland counterrevolution by turning rugged individualists against peasants | History | same
+  - 930 | Backstory | Chrysalis secures funding from Herzlander nobles for helping overthrow the Griffonian Republic | History | same
+  - 930 | Backstory | She secures labor commitments from Yale scientists for the Love Harvester and Yale linguists for Simplified Herzlander | History | same
+  - 930 | Backstory | She personally goes to Diamond Mountain to buy black market crystals for love harvesters | History | same
+  - 931 | Backstory | Chrysalis creates Krystallfels Handelsgesellschaft to mine crystals from an isolated island near Olenia and the Changeling Lands | History | same
+  - 325 | Backstory | Chrysalis pursues the Canterlot Wedding because the slave trade was slowing under the Storm King's anti-slaver warlord front | History | same
+  - 325 | Backstory | The hives were united with no nobility left to hook to harvesters, yields were dropping from despair, and the hives were headed toward running out of pink love | History | same
+  - 325 | Backstory | Chrysalis achieved her goal of ending the hive wars but must now turn outward to sustain her MEFO-style ponzi scheme | History | same
+  - 325 | Backstory | She has been sinking vast resources into bankrupting the holdout classmates | History | same
+  - 329 | Backstory | Chrysalis gets high and brain-fogged after draining Cadance and Shining Armor's intense love | History | same
+  - 329 | Backstory | She forgets her Machiavellian discipline and reverts to the Predator's Dilemma's baser instincts | History | same
+  - 329 | Backstory | She stops acting like a geopolitical CEO and acts like a starving bug at an all-you-can-eat buffet | History | same
+  - 331 | Backstory | The Canon Order 'Go! Feed!' was a fatal military flaw | History | same
+  - 331 | Backstory | Even some novice, repressed jaegers obeyed the order, including Thorax | History | same
+  - 245 | Backstory | Chrysalis learned from her failure in Stalliongrad | History | same
+  - 245 | Backstory | She refuses to allow a weak government under Eagleclaw, full of industrialists she and Eros once blackmailed, to keep leading the nation | History | same
+  - 245 | Backstory | She fears a communist or popular revolution would overthrow Eagleclaw/nobles/industrialists and ally with the Griffonian Republic | History | same
+  - 245 | Backstory | She would rather have Archon Eros seize iron control of Herzland and go to war with Aquileia and the GR | History | same
+  - 246 | Backstory | Chrysalis dispatches Synovial's attache again and lands the pivotal blow at the Battle of Romau, letting Eros defeat Eagleclaw | History | same
+  - 872 | Character Appearance Plan | Chrysalis is fluent in Equestrian and understands how idiom names work | History | unmatched
+  - 872 | Character Appearance Plan | She deliberately enforces literal/functional translation to engineer sociopathy | Civilization | absent
+  - 1577 | Character Appearance Plan | Chrysalis maintains her moral high ground as protector of global trade by rationalizing that the Statthalters merely control unruly Olenian Vikings | Characterization | unmatched
+  - 2278 | Character Appearance Plan | Chrysalis uses Skyfall's anarcho-capitalist legal vacuum as the vector for her state operations, her shell companies being state-directed operations costumed as individual enterprises | Civilization | absent
+  - 2278 | Character Appearance Plan | This is made explicit in Blueblood's prequel | NotesToSelf | unmatched
+  - 2472 | Character Appearance Plan | Chrysalis keeps a list of long-horizon milestones toward destroying the nepo babies, rooted in Gilded Lily's original pep talk | History | unmatched
+  - 2472 | Character Appearance Plan | She falls behind the schedule | History | unmatched
+  - 2529 | Character Development | She starts out thinking violence and dominance are paramount | NarrativeArchitecture | same
+  - 2530 | Character Development | From Gilded Lily and Silver Sterling she learns personal recognition comes from demonstrating capability that serves the collective project | NarrativeArchitecture | same
+  - 2493 | Character Reader Perception Gap Plan | She earnestly believes her kindergarten design is the fairest transactional system possible, the only framework she knew, and that every changeling will love it | NarrativeArchitecture | same
+  - 2493 | Character Reader Perception Gap Plan | The reader knows the outcome of the kindergarten through Thorax | NarrativeArchitecture | same
+  - 330 | Characterization | She remembers Canterlot Wedding and chastises herself for losing control, without writing it off as incompetence or as a sign her worldview is wrong | Characterization | same
+  - 330 | Characterization | She takes it instead as evidence that magic is fickle | Characterization | same
+  - 2538 | Characterization | She grew up in a communal, impersonal hatchery | History | 2497
+  - 2538 | Characterization | Gilded Lily's transactional parenting was her first and only model, so she views everything as a transaction | Characterization | same
+  - 2538 | Characterization | Her government is the transactional parenting model industrialized | Characterization | same
+  - 2455 | Garden Notes | The original premise had Chrysalis and Coltbert driving history; the rigorous approach going forward has Chrysalis respond to material conditions instead | NotesToSelf | same
+  - 2455 | Garden Notes | She does not have to be written as a Great Mare who did everything; that's her propaganda in TLTT, not what her story depicts | NotesToSelf | same
+  - 2455 | Garden Notes | Things previously credited as Chrysalis's own inventions should instead be developed narratively as arising from things that preceded her, serving the thesis | NotesToSelf | same
+  - 2671 | Garden Notes | Check 'Salvation' and 'Ribbons and Lace' renditions of Rarity for Greek-tragedy elements and dual-voice direct thought to inform Chrysalis's story | NotesToSelf | same
+  - 302 | Reader Opinion Plan | After destroying the Herzlander nobles and installing Eros, Chrysalis thinks she has won, but the sequel reveals her horror at elites' endless demands from a machine of perpetual growth | NarrativeArchitecture | same
+  - 302 | Reader Opinion Plan | She doesn't want to invade Equestria, but stopping conquest risks her elites cannibalizing her, making her a hostage to the meritocracy she built | NarrativeArchitecture | same
+  - 303 | Reader Opinion Plan | The Celestial Party believes Chrysalis's defeat ends the 'anomaly' and views her as a singular Great Mare; Applejack must fight this delusion to argue the system itself failed | NarrativeArchitecture | same
+  - 303 | Reader Opinion Plan | The sequel shows via counterfactuals (Stagnation of Harmony, Herzlander racist bloodlines, Skyfall's black market) that Chrysalis was manufactured by the system | ThematicEvidence | unmatched
+  - 303 | Reader Opinion Plan | The sequel argues Chrysalis/the 'Great Man' is a symptom of collapsing material conditions rather than history's mover, refuting Great Man theory | ThematicEvidence | 2467
+  - 2514 | Reader Opinion Plan | Readers' prior belief in an evil tyrant, then TLTT's propaganda of her as sole genius architect, is revealed by her story to derive from her fake parents and the existing hive-wars system industrialized | NarrativeArchitecture | same
+  - 2534 | Reader Opinion Plan | Whether Gilded Lily and Silver Sterling serve Chrysalis or she serves them should remain intentionally blurry and ambiguous | NarrativeArchitecture | same
+  - 2273 | Theme Plan | State power is morally neutral, depending on whether wielded by a visionary tyrant or a republic | ThematicEvidence | same
+  - 2274 | Theme Plan | Anarcho-capitalism's abolition of regulation is a lie that leaves everyone more vulnerable to state power | ThematicEvidence | same
+  - 2274 | Theme Plan | Chrysalis manipulated Skyfall's money-chasing tycoons because her own goals were non-financial | ThematicEvidence | same
+  - 2275 | Theme Plan | By the Great War she is no longer a top-down dictator; she must authorize war at her elites' demand or risk civil war fracturing her life's work | ThematicEvidence | same
+  - 2275 | Theme Plan | The anti-Great-Mare critique operates within a strong state that grew beyond her control, so the Empire is no longer truly hers | ThematicEvidence | same
+  - 2539 | Theme Plan | Material conditions and the family one grows up in determine the civilization one builds, not personal virtue or vice, and choices are not fixed | ThematicEvidence | same
+  - 994 | Character Actions | Chrysalis reads Coltbert's paper, learns of spell matrix technology, and decides to build a draining-spell matrix to break the Predator's Dilemma | History | 993
+  - 2475 | Character Actions | Chrysalis writes down the milestones as a checklist after the pep talk | PageDesign | same
+  - 2477 | Character Actions | Chrysalis pulls out the original checklist and checks off '30 years you'll own their assets' five years late | PageDesign | same
+  - 2504 | Character Actions | She says she wants to unite and bring peace and prosperity to the hives through industrial technology | PageDesign | same
+  - 2506 | Character Actions | She says griffons are squabbling and greedy while changelings are communal, and she'll provide for every changeling so there's no infighting | PageDesign | same
+  - 2393 | Character-Reader Perception Gap | Chrysalis sees herself as the Great Modernizer uplifting the Hives through science, though her empire is seed-funded by murdering independent Skyfall scientists and engineers | WorldInference | same
+  - 2461 | Character-Reader Perception Gap | Chrysalis sincerely believes life is a constant uphill battle for more, while the reader also knows she'll become the tragic tyrant defeated by Applejack and the Magic of Conscience | WorldInference | same
+  - 2559 | Character-Reader Perception Gap | Chrysalis earnestly believes her kindergarten will nurture drones, though readers can tell it's a twisted version of a garden for play | WorldInference | same
+  - 2469 | Gap Meaning | Having enemies is a powerful motivator for power and change but ultimately falls short against conscience-driven solidarity | ThematicEvidence | same
+  - 2480 | Inferred Character Development | Her apex-jaeger instinct was immediate violent dominance, but here she learns to make dominance strategic and long-horizon | WorldInference | same
+  - 2474 | Inferred Psychology | The jaeger pipeline taught her to treat all information as tactical intelligence, while Sterling parenting taught her that performance against stated goals earns recognition | WorldInference | same
+  - 2476 | Inferred Psychology | There is no celebration; it feels like a pyrrhic victory | WorldInference | same
+  - 2476 | Inferred Psychology | She cannot stop performing against the evaluation criteria Gilded Lily installed, even fourteen years after Gilded Lily's death | WorldInference | same
+  - 2507 | Inferred Psychology | She turns out to be a sincere harmonist who believes in communal changeling cooperation and thinks changelings are better than griffons | WorldInference | same
+  - 2467 | Reader Prior Belief Clash | The Great Mare is a myth; every great historical achievement starts small, built from the ideas of many others | ThematicEvidence | same
+  - 2460 | Reader Prior Belief Update | Readers who think Chrysalis is purely a sociopathic narcissist learn she had a flawed but real semi-parental figure; the tragedy is that the care she got was always transactional dominance | WorldInference | same
+  - 2466 | Reader Prior Belief Update | Readers who think Chrysalis was the sole genius learn her strategy originates from her 'mom' | WorldInference | same
+  - 2505 | Reader Prior Belief Update | Readers who assumed Chrysalis always planned to enslave nobility on love harvesters learn her original goal was peace and prosperity for the hives, and something else (academy bullies, transactional parenting) made her violent | WorldInference | same
+  - 2510 | Reader Prior Belief Update | Readers who think Chrysalis bought her parents as a transaction instead see Chrysalis, Gilded Lily, and Silver Sterling acting like an adopted family who are proud of and want to be part of her vision | WorldInference | same
+  - 332 | Revelation | Chrysalis's order to 'Go! Feed!' caused Thorax, starved of love, to follow it — the only time she ever slipped up | History | 331
+  - 2471 | Revelation | Every historical milestone Chrysalis hit was measured against Gilded Lily's predictions and expectations | History | unmatched
+  - 2151 | Scene Theme Evidence | Chrysalis assumed blockading the ponies' economy would turn them on each other, but recreating Hearth's Warming-myth conditions instead made them grow up and cooperate like Equestria's founding pioneers | ThematicEvidence | same
+  - 2473 | Scene Theme Evidence | As a negative example, transactional parenting leads to unhealthy conquest | ThematicEvidence | same
+  - 2478 | Scene Theme Evidence | The transactional parenting model's final lesson—performance earns recognition—becomes meaningless once the evaluator is gone and the goals are obsolete | ThematicEvidence | same
+- whole: Most of Chrysalis's tracks hold content squarely in their own declared mode: Analogies, nearly all of Backstory (History), Character Development, Character Reader Perception Gap Plan, most of Reader Opinion Plan, Characterization (mostly), Garden Notes (NotesToSelf), Theme Plan (ThematicEvidence), most of Character Actions (PageDesign), Character-Reader Perception Gap, Inferred Character Development, Inferred Psychology and Reader Prior Belief Update (WorldInference), Gap Meaning, Reader Prior Belief Clash and Scene Theme Evidence (ThematicEvidence).
+  
+  Several tracks carry content whose mode is not their own. Character Appearance Plan (declared NarrativeArchitecture) is the most mixed: it carries History-mode fact-reporting (872's fluency claim, 2472's milestone-list and schedule facts, all unmatched against Backstory's History notes), Civilization-mode world-building about in-universe systems (872's translation-enforcement policy, 2278's shell-company/state-operations description, both absent since no track on this subject declares Civilization), Characterization-mode content (1577's moral-high-ground rationalization, unmatched against the Characterization track), and a NotesToSelf-mode cross-reference to another work (2278's "Blueblood's prequel" note, unmatched against Garden Notes). Reader Opinion Plan, otherwise NarrativeArchitecture, also carries ThematicEvidence-mode content in note 303: one counterfactual argument is unmatched, while its "Great Man is a symptom, not history's mover" claim holds the same content as Reader Prior Belief Clash's note 2467. The Characterization track carries one History-mode fact (2538's account of growing up in a communal hatchery), which holds the same content as Backstory's note 2497 about the jaeger grub pool. Two PageDesign tracks each carry a History-mode duplicate of a Backstory fact: Character Actions' note 994 restates the same Coltbert's-paper/spell-matrix decision as Backstory's note 993, and Revelation's note 332 restates the same "Go! Feed!" order-and-consequence as Backstory's note 331; Revelation's other note (2471, about milestones tracking Gilded Lily's expectations) is also History-mode but unmatched. No note was found written outside all twelve modes, and no track was found empty of notes but shown holding content elsewhere in the same mode (Life Phases and Source Material References remain genuinely empty here, and the Character Development Meaning track has no notes).

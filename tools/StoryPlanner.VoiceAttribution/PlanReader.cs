@@ -10,7 +10,8 @@ namespace StoryPlanner.VoiceAttribution;
 /// </summary>
 public sealed class PlanReader
 {
-    public sealed record Note(int Id, string Content, int OwnerType, int OwnerId, int State);
+    /// <param name="LastModified">Stamped by <c>AppDbContext</c> on any change to the row, text or not — so the current text existed by then.</param>
+    public sealed record Note(int Id, string Content, int OwnerType, int OwnerId, int State, DateTime? LastModified = null);
     public sealed record Subject(int Id, string Name, string SubjectType);
     public sealed record Chapter(int Id, string Title, int OrderIndex, int StoryId);
     public sealed record PlotPoint(int Id, string Title, int? ChapterId, int OrderInChapter);
@@ -31,8 +32,11 @@ public sealed class PlanReader
         using var conn = new SqliteConnection(cs);
         conn.Open();
 
-        Notes = Query(conn, "select Id, Content, OwnerType, OwnerId, NoteState from Notes order by Id",
-            r => new Note(r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetInt32(3), r.GetInt32(4)));
+        IsArchive = Path.GetFileNameWithoutExtension(path).Contains("archive", StringComparison.OrdinalIgnoreCase);
+        Notes = Query(conn, "select Id, Content, OwnerType, OwnerId, NoteState, LastModified from Notes order by Id",
+            r => new Note(r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetInt32(3), r.GetInt32(4),
+                !r.IsDBNull(5) && DateTime.TryParse(r.GetString(5), System.Globalization.CultureInfo.InvariantCulture,
+                    System.Globalization.DateTimeStyles.None, out var lm) ? lm : null));
         Subjects = Query(conn, "select s.Id, s.Name, d.SubjectType from Subjects s left join SubjectDefinitions d on d.Id = s.SubjectDefinitionId",
             r => new Subject(r.GetInt32(0), r.GetString(1), r.IsDBNull(2) ? "" : r.GetString(2))).ToDictionary(s => s.Id);
         Chapters = Query(conn, "select Id, Title, OrderIndex, StoryId from Chapters",
@@ -81,5 +85,13 @@ public sealed class PlanReader
         _ => "",
     };
 
+    /// <summary>The app's own rule (<c>App.OnStartup</c>): a file whose name contains "archive" carries v1 semantics.</summary>
+    public bool IsArchive { get; }
+
+    /// <summary>v1 archive state names. State 2 is "closed" there — review closed, disposition not recorded.</summary>
     public static string StateName(int state) => state switch { 0 => "open", 1 => "flagged", 2 => "closed", _ => state.ToString() };
+
+    /// <summary>State names for this file: v1's for the archive, v2's (unset / flagged / confirmed) otherwise. Flagged is 1 in both.</summary>
+    public string StateLabel(int state) => IsArchive ? StateName(state)
+        : state switch { 0 => "unset", 1 => "flagged", 2 => "confirmed", _ => state.ToString() };
 }

@@ -1,0 +1,29 @@
+- claims:
+  - 67 | Backstory | King Gerad Discret declares independence from the Empire and forces the warlords to relocate to Le Grand Foyer at gunpoint | History | same
+  - 67 | Backstory | Minette and her parents are relocated along with the warlords | History | same
+  - 67 | Backstory | Lord Westkeep returns to their quarters at night enraged at being humiliated by drill sergeants | History | same
+  - 67 | Backstory | Minette tries to cheer him up and he leers at her, a 9 year old, waiting for her to be old enough to use as an obedient sex slave | History | same
+  - 68 | Backstory | Minette's parents tell her to stop being cute and helpful because that attracts the predator | History | same
+  - 68 | Backstory | They tell her that her name was supposed to be Souris (Mouse), that Westkeep renamed her as a pet and they had to follow suit to avoid confusing her | History | same
+  - 68 | Backstory | They tell her the older fillies are depressed because their lords abuse them | History | same
+  - 68 | Backstory | Lord Westkeep abused many earth ponies back home and her parents shielded her from it | History | same
+  - 68 | Backstory | She is told to keep her head down, avoid Lord Westkeep, do the bare minimum interaction, and go make clothes for Lady Gisele | History | same
+  - 69 | Backstory | Minette watches Gisele hurt stallion house ponies and tries to fix their clothes | History | same
+  - 69 | Backstory | She otherwise falls into a quiet depression, having learned the reality of her situation and the cruelty of the world | History | same
+  - 65 | Characterization | She has a dove gray coat | Characterization | same
+  - 65 | Characterization | Her coat reflects her original name, Souris (Mouse) | History | 68
+  - 65 | Characterization | She has a scarlet/burgundy mane and tail, with scarlet/burgundy magic | Characterization | same
+  - 65 | Characterization | She grooms her coat to shine sleek and metallic like a needle | Characterization | same
+  - 65 | Characterization | Her cutie mark is a metallic needle with a scarlet spiraling thread | Characterization | same
+  - 66 | Life Phases | Minette is born in 963 ALB | History | same
+  - 66 | Life Phases | Lord Westkeep treats her like a cute kitty | History | same
+  - 66 | Life Phases | He trains her to act high class and subtly insult his rivals during banquets, rewarding her with food and a head pat afterward | History | same
+  - 66 | Life Phases | He is training her to associate obedience with rewards, 'fattening' his investment for later use | Characterization | unmatched
+  - 66 | Life Phases | She's a naive child who doesn't understand why her parents are so scared of the lord | Characterization | unmatched
+  - 665 | Life Phases | Minette and other royalist stallions help the other house ponies demand respect from the warlords, with help from the griffonesses | History | same
+  - 665 | Life Phases | She makes nice clothes for all the house ponies | History | same
+  - 665 | Life Phases | Being dressed like a proper lady/gentlepony gives them the confidence to demand respect and refuse verbal abuse | History | same
+  - 665 | Life Phases | Minette adopts a 'Royalist Swagger', the judgemental smugness of Coltbert and his peers, as social armor against predators, projecting an aura of invincibility | Characterization | unmatched
+  - 665 | Life Phases | Before, the abused house ponies walked slumped, heads down, in rags, which labeled them as prey and enabled the warlords | History | same
+  - 665 | Life Phases | Minette says dignity is a choice you wear | History | same
+- whole: The two History-type tracks, Backstory and Life Phases, are almost entirely filled with content that does the work of History: reporting events, relocations, abuse, training routines, and collective action as established in-universe fact. All of that content is native to its track (same). The Characterization track's single note is likewise mostly native: physical description and grooming habits asserted as identity are Characterization-mode, matching its track. The exceptions run in both directions. One piece of the Characterization note (the claim that her coat "reflects her original name, Souris (Mouse)") is not a psychological assertion but a historical fact about her renaming, and that same fact is independently reported in the Backstory track (note 68), so it sits as History content placed against note 68 rather than as native Characterization. Running the other way, the Life Phases track carries several things that are not historian's fact-reporting but psychologist-style assertions of motive and trait: Westkeep's conditioning strategy ("fattening his investment"), Minette's naivety as a child, and her adoption of "Royalist Swagger" as deliberate social armor. These are Characterization-mode content sitting in a History track, and since the Characterization track's only note addresses appearance rather than these psychological claims, none of them find a match there — they stand unmatched. No content in either History track or the Characterization track draws on any other mode (PageDesign, WorldInference, ThematicEvidence, etc.), and every scene-link track for this subject is empty, so no on-page or thematic content exists anywhere in the plan to cross-reference against the subject-wide notes.

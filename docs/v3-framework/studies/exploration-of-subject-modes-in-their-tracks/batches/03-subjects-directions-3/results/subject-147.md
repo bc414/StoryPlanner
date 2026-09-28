@@ -1,0 +1,37 @@
+- claims:
+  - 790 | Allegories | Old American Diners equated with Stagnation: comforting but excelling at nothing | Allegories | same
+  - 790 | Allegories | McDonald's equated with Rugged Individualism, the Poseur Factory of ruthless extraction and race-to-the-bottom quality | Allegories | same
+  - 790 | Allegories | Specialty Family Restaurants equated with Harmonic Capitalism / high asset specificity | Allegories | same
+  - 790 | Allegories | Raising Cane's/In-N-Out equated with Standardized Excellence (Griffonian Republic), the Honest Factory | Allegories | same
+  - 790 | Allegories | McDonald's runs on 'Disposable Cog' theory: simple system, minimum wage, huge turnover, still functions | Allegories | same
+  - 790 | Allegories | In-N-Out/Cane's run on 'Efficiency Wage Theory': high pay, benefits, promotion from within, low turnover, worker mastery and care | Allegories | same
+  - 790 | Allegories | The single-purpose factory's asset specificity: custom kitchens needing only the equipment for one flow | Allegories | same
+  - 790 | Allegories | The Velocity of Quality: small menu keeps ingredients fresh and turnover fast, generating consumer trust | Allegories | same
+  - 790 | Allegories | Coltbert believes quality requires special talent and ego, and that factories are inherently soulless | Characterization | absent
+  - 790 | Allegories | Kemerskai proves Coltbert wrong: an industrial factory can produce excellent food if it treats workers like citizens | ThematicEvidence | 786
+  - 790 | Allegories | Logistics and solidarity can be as romantic and culturally profound as passion and art | ThematicEvidence | unmatched
+  - 790 | Allegories | Today the artisan chef and the honest specialized factory are the standard, while poseur fast food and legacy diners die out | Allegories | same
+  - 781 | Analogies | English peasant culinary traditions rivaled French ones but were destroyed by early industrialization | Analogies | same
+  - 781 | Analogies | The Enclosure Acts closed common land, forcing peasants into smog-choked cities and severing them from their terroir | Analogies | same
+  - 781 | Analogies | WWII rationing from 1940-1954 caused a generation to grow up on canned/powdered food, losing traditions | Analogies | same
+  - 781 | Analogies | Author's plan to place England's industrialization-lost traditions into the memories of Herzlander refugees on the Long March to Cloudbury | outside: author's design decision for where to locate real-world-inspired lost traditions in the story | absent
+  - 781 | Analogies | List of lost English traditions: meat pies, clothbound cheddar, real cask ale, pottage | Analogies | same
+  - 782 | Analogies | German paradigm of survival engineering: peasants preserving food to survive harsh winters | Analogies | same
+  - 782 | Analogies | German preservation techniques: sauerkraut fermentation, salt/nitrate/smoke-cured sausages, dense mold-resistant rye/pumpernickel sourdough | Analogies | same
+  - 783 | Analogies | Nordic paradigm of extreme cold-weather survival | Analogies | same
+  - 783 | Analogies | Nordic techniques: root cellars, ice fishing, cloudberry foraging, aggressive fermentation | Analogies | same
+  - 785 | Civilizational Impact | The Republic applies industrial processes to lost English/German and Nordic traditions to enhance their original purposes, ensuring caloric security and a cultural melting pot | Civilization | same
+  - 784 | Function | The Cloudbury Meat Pie is a fusion of the lost English Melton Mowbray pie and German sausage engineering | Ontology | same
+  - 784 | Function | It is made in a massive steam-powered cooperative bakery | Ontology | same
+  - 784 | Function | The crust is a structural marvel of boiling water and rendered fat | Ontology | same
+  - 784 | Function | The filling is highly spiced cured meat sealed from air by bone-marrow jelly | Ontology | same
+  - 784 | Function | It is designed for survival (soldier's rucksack, three weeks in a frozen trench) rather than salon dining | Ontology | same
+  - 789 | Function | Union workers manage thousands of oak casks of living ale and racks of fermented vegetables and cured fish | Ontology | same
+  - 789 | Function | Herzlander engineers apply scientific rigor (calibrated humidity and bacterial load) to Nordic fermentation traditions for standardized perfection | Ontology | same
+  - 791 | Invention | The Tragedy of Herzland: pre-Revolution elites enclosed farms, forced peasants into smoggy factory cities, replaced skilled 'Mother Processes' with mass-produced slop | History | same
+  - 792 | Invention | Herzlander Republicans flee to Cloudbury in 981 to found the Griffonian Republic, seeking to reclaim their stolen heritage, not just better government | History | same
+  - 792 | Invention | They revive the Lost Working-Class Masterpieces of English tradition rather than Haute Cuisine, executed via a cooperative high-quality industrialization model | History | same
+  - 787 | Reader Opinion | The reader initially assumes the Griffonian Republic only eats soulless mush | NarrativeArchitecture | same
+  - 788 | Reader Opinion | Rikard Astler demonstrates the Republic's food is as magnificent as Aquileia's, built on standardized excellence philosophy | NarrativeArchitecture | same
+  - 786 | Themes | The Cloudbury Meat Pie is the culinary manifestation of 'The Republic Stands' | ThematicEvidence | same
+- whole: Across the subject, most tracks hold content entirely in their own declared mode: Function holds only Ontology-mode material (technical composition and workings of the meat pie and the fermentation cellars), Civilizational Impact holds only its single Civilization-mode note, Invention holds only History-mode reporting of the Tragedy of Herzland and the Cloudbury Redemption, Reader Opinion holds only NarrativeArchitecture-mode planning of the reader's before/after opinion arc, and Themes holds its single ThematicEvidence-mode note. Two tracks carry material outside their own mode. Analogies, an Analogies-mode track, contains one authorial planning statement (in note 781) about where to place the real-world-inspired lost traditions in the story; no track on this subject declares that kind of authorial-process mode, so it sits without a home. Allegories, itself an Allegories-mode track, carries the heaviest mixture: alongside its many Allegories-mode equivalencies and real-world-truth claims, it holds one statement characterizing Coltbert's belief system, for which no Characterization-type track exists anywhere on this subject, and two ThematicEvidence-mode statements about conscience and industrial excellence — one of which restates the same underlying claim as the Themes track's sole note (that treating workers as citizens lets an industrial factory be excellent, echoing "conscience/cooperation outperforms extraction"), while the other, about logistics and solidarity being as romantic as art, finds no matching content in Themes despite that track holding notes. No content in the Ontology, Civilization, History, or NarrativeArchitecture tracks duplicates across two tracks; the only same-content pairing across tracks is between the Allegories track's Kemerskai claim and the Themes track's note. The empty tracks (Canon References, Garden Notes, Usage under both History and PageDesign, Usage Plan, and every scene-linked track) hold nothing to receive or match any of the above.

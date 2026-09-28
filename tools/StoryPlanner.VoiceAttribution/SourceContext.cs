@@ -3,19 +3,26 @@ using StoryPlanner.Core;
 
 namespace StoryPlanner.VoiceAttribution;
 
-/// <summary>Fetches the text of one lineage source by its prefixed id (cached), for the echo check and the calibration sheet.</summary>
+/// <summary>Fetches the text of one lineage or conversation source by its prefixed id (cached), for the echo check and the calibration sheet.</summary>
 public sealed class SourceContext : IDisposable
 {
     private readonly SqliteConnection _conn;
+    private readonly SqliteConnection? _conversations;
     private readonly Dictionary<(string, string), (string Text, string Prompt)> _cache = new();
 
-    public SourceContext(string lineagePath)
+    /// <param name="conversationsPath">The <c>.storyplan</c> whose ConversationBlocks were indexed; null when they were not.</param>
+    public SourceContext(string lineagePath, string? conversationsPath = null)
     {
         _conn = new SqliteConnection(new SqliteConnectionStringBuilder { DataSource = lineagePath, Mode = SqliteOpenMode.ReadOnly }.ToString());
         _conn.Open();
+        if (conversationsPath is not null)
+        {
+            _conversations = new SqliteConnection(new SqliteConnectionStringBuilder { DataSource = conversationsPath, Mode = SqliteOpenMode.ReadOnly }.ToString());
+            _conversations.Open();
+        }
     }
 
-    public void Dispose() => _conn.Dispose();
+    public void Dispose() { _conn.Dispose(); _conversations?.Dispose(); }
 
     /// <returns>(source text, the Brian prompt that produced it if the source is a model response)</returns>
     public (string Text, string Prompt) Fetch(string id, string role)
@@ -54,6 +61,18 @@ public sealed class SourceContext : IDisposable
                 cmd.CommandText = "select t.Body from NlmTurns t join NlmNotebooks n on n.Slug = t.Slug where n.Id = $n and t.TurnIndex = $t";
                 cmd.Parameters.AddWithValue("$n", nbId); cmd.Parameters.AddWithValue("$t", turn);
                 return ((cmd.ExecuteScalar() as string) ?? "", "");
+            }
+            if (id.StartsWith("block:") && _conversations is not null)
+            {
+                // A model block's prompt is the nearest user block before it in the same conversation.
+                using var cmd = _conversations.CreateCommand();
+                cmd.CommandText = "select b.RawContent, (select p.RawContent from ConversationBlocks p where p.ConversationId = b.ConversationId " +
+                                  "and p.BlockNumber < b.BlockNumber and p.Speaker = 'user' order by p.BlockNumber desc limit 1) " +
+                                  "from ConversationBlocks b where b.Id = $id";
+                cmd.Parameters.AddWithValue("$id", int.Parse(id[6..]));
+                using var r = cmd.ExecuteReader();
+                if (!r.Read()) return ("", "");
+                return (r.GetString(0), role == "model" && !r.IsDBNull(1) ? r.GetString(1) : "");
             }
         }
         catch (Exception e) { return ($"(lookup failed: {e.Message})", ""); }

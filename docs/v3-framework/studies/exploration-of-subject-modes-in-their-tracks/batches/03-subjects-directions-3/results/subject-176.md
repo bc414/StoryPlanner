@@ -1,0 +1,10 @@
+- claims:
+  - 728 | Function | states that the name translates to "lightning essence" | Ontology | same
+  - 725 | Function | describes the drug's effects: eliminates need for sleep, increases aggression and reflex speed | Ontology | same
+  - 725 | Function | states it is used for blitzkrieg or long marches | History | empty
+  - 727 | Function | describes withdrawal symptoms: multi-day coma, nightmares, anhedonia, exhaustion | Ontology | same
+  - 724 | Analogies | draws a real-world equivalence to pervitin/meth | Analogies | same
+  - 726 | Usage Plan | gives Fleur's professional French terms for the substance | NarrativeArchitecture | same
+  - 726 | Usage Plan | gives the Tzinacatl name Huitzil-Pahtli ("Hummingbird Medicine") | NarrativeArchitecture | same
+  - 726 | Usage Plan | gives Fluttershy's nickname "The Jitters" | NarrativeArchitecture | same
+- whole: Almost everything on this subject sits in the mode its own track declares. The Function track (Ontology) holds definitional/mechanical content — the name's meaning, the drug's stimulant effects, and its withdrawal profile — all matching its own Ontology mode. The Analogies track holds a real-world-parallel statement (meth/pervitin) matching its own Analogies mode. The Usage Plan track (NarrativeArchitecture) holds three parallel items about how different characters/cultures name the substance in-text, all matching its own mode of planning how the technology is shown through the story. The one exception is inside note 725, sitting in the Function track: alongside its Ontology-mode description of the drug's effects, it also states a usage fact ("used for blitzkrieg or long marches"), which is History-mode content (reporting how/why it is used) rather than Ontology. No track of History mode (Invention, Usage) holds any notes, so this piece of content has no match anywhere else and is placed as empty. No content in this subject repeats identically across two different tracks; the tracks that share a mode with each other (the two History tracks, and Function's Ontology vs. no other Ontology track) never actually hold overlapping content — they are simply both empty or singly occupied.

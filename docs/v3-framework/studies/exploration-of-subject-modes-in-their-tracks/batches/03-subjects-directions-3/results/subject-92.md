@@ -1,0 +1,8 @@
+- claims:
+  - 840 | World Truth | Thestrals are nocturnal | Ontology | same
+  - 840 | World Truth | Thestrals have echolocation | Ontology | same
+  - 840 | World Truth | These traits arose because thestrals evolved in the dense, light-starved southeast jungles and mountain caves | Ontology | same
+  - 841 | World Truth | Thestrals developed fangs to consume the dense, magically-saturated meat of jungle monsters | Ontology | same
+  - 841 | World Truth | Being omnivores is necessary for thestrals to maintain their big brains | Ontology | same
+  - 841 | World Truth | Equestrian ponies did not need this omnivory/meat-eating because their symbiotic agriculture supplied what their big brains required | Ontology | same
+- whole: Across both the subject-wide and scene-link parts, every track is empty except World Truth (Ontology), which holds the two given notes. Every thing those two notes say — the nocturnal/echolocation traits and their jungle-and-cave evolutionary origin, the fang/meat-eating trait, the omnivore-big-brain link, and the pony/agriculture contrast — is written as god-mode statements of invariant biological fact, matching World Truth's own Ontology mode, so nothing here appears in a mode foreign to its track. Because no other track (Discoveries, Historical Understanding, Analogies, Allegories, Themes, Garden Notes, Source Material References, the two NarrativeArchitecture tracks, or any scene-link track) holds any notes, there is no second location anywhere in the subject where the same content could recur, and so no instance of the same content sitting in two tracks.

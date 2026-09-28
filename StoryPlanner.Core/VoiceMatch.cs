@@ -194,23 +194,33 @@ public sealed class VoiceIndex
         K = k;
     }
 
-    public void Add(VoiceSource source, string text)
+    public void Add(VoiceSource source, string text) => Add(source, new[] { text });
+
+    /// <summary>
+    /// One source made of many separate texts — a plan snapshot's cells. Each text is shingled on
+    /// its own, so no shingle spans the seam between two cells (a note and whatever row the
+    /// database happened to store after it).
+    /// </summary>
+    public void Add(VoiceSource source, IEnumerable<string> texts)
     {
-        var tokens = VoiceText.Tokenize(text);
-        if (tokens.Count < K) return;
-        int idx = _sources.Count;
-        _sources.Add(source);
+        int idx = -1;
         var seen = new HashSet<ulong>();
-        foreach (var h in VoiceText.Shingles(tokens, K))
+        foreach (var text in texts)
         {
-            if (!seen.Add(h)) continue;
-            if (_map.TryGetValue(h, out var e))
+            var tokens = VoiceText.Tokenize(text);
+            if (tokens.Count < K) continue;
+            if (idx < 0) { idx = _sources.Count; _sources.Add(source); }
+            foreach (var h in VoiceText.Shingles(tokens, K))
             {
-                e.SourceCount++;
-                if (Earlier(source, _sources[e.SourceIdx])) e.SourceIdx = idx;
-                _map[h] = e;
+                if (!seen.Add(h)) continue;
+                if (_map.TryGetValue(h, out var e))
+                {
+                    e.SourceCount++;
+                    if (Earlier(source, _sources[e.SourceIdx])) e.SourceIdx = idx;
+                    _map[h] = e;
+                }
+                else _map[h] = new Entry { SourceIdx = idx, SourceCount = 1 };
             }
-            else _map[h] = new Entry { SourceIdx = idx, SourceCount = 1 };
         }
     }
 
@@ -222,7 +232,12 @@ public sealed class VoiceIndex
     }
 
     /// <param name="maxSources">Shingles found in more than this many distinct sources are ignored; 0 = no filter.</param>
-    public VoiceMatchResult Match(string noteText, int maxSources = 0)
+    /// <param name="unmatchedIfCredited">
+    /// Shingles whose earliest source satisfies this count as considered but unmatched. The
+    /// earliest-wins credit is decided first, so a later source never inherits them — used for
+    /// the plan's own backups, which settle a span's date without being anyone's paste.
+    /// </param>
+    public VoiceMatchResult Match(string noteText, int maxSources = 0, Func<VoiceSource, bool>? unmatchedIfCredited = null)
     {
         var tokens = VoiceText.Tokenize(noteText);
         int total = Math.Max(0, tokens.Count - K + 1);
@@ -238,6 +253,7 @@ public sealed class VoiceIndex
             if (_map.TryGetValue(h, out var e))
             {
                 if (maxSources > 0 && e.SourceCount > maxSources) continue;
+                if (unmatchedIfCredited is not null && unmatchedIfCredited(_sources[e.SourceIdx])) { considered++; continue; }
                 considered++; matched++; hitSource[i] = e.SourceIdx;
                 votes[e.SourceIdx] = votes.GetValueOrDefault(e.SourceIdx) + 1;
             }

@@ -1,0 +1,30 @@
+- claims:
+  - 134 | Binding Logic | The organization draws workers and representatives from every farming clan, producing a standardized system with solidarity across all families | Characterization | same
+  - 134 | Binding Logic | SAA represents a rebellion against ancient feuds between families | Characterization | same
+  - 134 | Binding Logic | Standardization was deliberately chosen to dissolve artificial divisions between families | Characterization | same
+  - 135 | Binding Logic | SAA's ethos is to use Equestria's excess to bring life to Griffonia and fund practical education and hospitals with profits | Characterization | same
+  - 154 | History | Pear Butter studies food preservation because of her cutie mark | History | same
+  - 154 | History | That interest leads the family to the canning guild in Manehattan | History | same
+  - 154 | History | Before industrialization, the Manehattan canning guild used heavy tin-plated steel cans sealed with lead-based solder | History | same
+  - 154 | History | Early exports included hard cider, apple sauce, fruit jams, and pickled root vegetables | History | same
+  - 154 | History | The parents want to transition to aluminum cans with pull tabs to reduce dangerous manual labor | History | same
+  - 133 | History | In world year 990, SAA introduces a corporate leaderboard ranking families by monthly tonnage sold | History | same
+  - 133 | History | The leaderboard idea is inspired by Aquileian Royal Fairs and the tableau de chasse | Analogies | empty
+  - 156 | History | SAA needs substantial industrial growth and recruitment of ponies to help solve world hunger | History | same
+  - 155 | Reader Understanding Plan | Hints of the canning company appear throughout the early chapters | NarrativeArchitecture | same
+  - 155 | Reader Understanding Plan | The company is revealed in chapter 7 from Apple Bloom's point of view | NarrativeArchitecture | same
+  - 155 | Reader Understanding Plan | The reader is meant to start out believing the company is soulless and extractive | NarrativeArchitecture | same
+  - 155 | Reader Understanding Plan | The canning operation resembles the dystopian canning line from 'To Where and Back Again' | Canon | empty
+  - 2065 | Themes | Because SAA's founders were shielded from the Predator's Dilemma, they could build a macroeconomic strategy based entirely on trust and solidarity | ThematicEvidence | same
+  - 2065 | Themes | They used their Equestrian privilege to subsidize a foreign democracy | ThematicEvidence | same
+  - 131 | What it is | SAA is Bright Mac and Pear Butter's industrial canning company based in Manehattan | Civilization | same
+  - 131 | What it is | SAA shares the same acronym as Sweet Apple Acres | outside: NotesToSelf | empty
+  - 132 | What it is | SAA buys leftover or third-rate crops from farms across Equestria, cans them into rations, and exports them to Griffonia | Civilization | same
+  - 2063 | Disclosure | Applejack says she always hated the 'soulless' machinery at her parents' factory | PageDesign | same
+  - 2063 | Disclosure | Flowing Current explains the machinery came from the Griffonian Republic or was repaired with GR schematics, unlike the profit-maximizing Skyfall-aligned tycoons | PageDesign | same
+  - 136 | Psychological Inference | Mashing all fruit into the same mush and cans is presented as exactly the point | WorldInference | same
+  - 136 | Psychological Inference | Apples and pears can be mushed together with no judgment or distinction | WorldInference | same
+  - 138 | Reader Prior Belief Clash | The reader's understanding shifts from Applejack's view of the cans as 'soulless mash' to her parents' view of the cans as 'acceptance' | WorldInference | unmatched
+  - 145 | Scene Thematic Evidence | SAA turned a zero-sum game into a positive-sum game | ThematicEvidence | same
+  - 2064 | Scene Thematic Evidence | The same machines can be used for extraction or for cooperation | ThematicEvidence | same
+- whole: Most of this subject's tracks hold content squarely in their declared mode: Binding Logic (Characterization), History (History), Reader Understanding Plan (NarrativeArchitecture) for most of its notes, What it is (Civilization) for most of its notes, Disclosure (PageDesign), Psychological Inference (WorldInference), and Scene Thematic Evidence (ThematicEvidence) all read as intended by their track type. Four places carry content outside their track's declared mode, each landing where no matching content exists elsewhere: the History track's note on the corporate leaderboard (133) includes an aside crediting Aquileian Royal Fairs and the tableau de chasse as inspiration, which functions as Analogies-mode material sitting in a History track — the subject's own Analogies track is empty, so this has no home elsewhere. The Reader Understanding Plan track (NarrativeArchitecture) includes a clause tying the canning line to the canon episode "To Where and Back Again," which functions as Canon-mode content — the Source Material References (Canon) track is empty, so it likewise sits unmatched. The What it is track (Civilization) includes an aside noting SAA shares an acronym with Sweet Apple Acres, which reads as an authorial NotesToSelf remark rather than world-building — the Garden Notes (NotesToSelf) track is empty. Finally, the Reader Prior Belief Clash track (ThematicEvidence) holds a note (138) that simply tracks the reader's shift from one character's view of the cans to another's, which functions as WorldInference-mode content rather than deployment of thematic evidence; the subject has two WorldInference tracks — Psychological Inference, which holds unrelated content, and Reader Prior Belief Update, which is empty — so this note's content is unmatched rather than empty. No content was found duplicated across two different tracks anywhere on this subject; each cross-mode instance found either an empty or a non-matching track rather than a genuine duplicate.

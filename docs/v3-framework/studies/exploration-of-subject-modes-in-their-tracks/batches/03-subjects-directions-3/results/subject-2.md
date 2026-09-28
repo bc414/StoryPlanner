@@ -1,0 +1,71 @@
+- claims:
+  - 48 | Analogies | Celestia's in-story expectations for Twilight are equated to real Hasbro marketing mandates | Analogies | same
+  - 49 | Analogies | Twilight's return-to-form mirrors how Lauren Faust originally wrote her in early seasons | Analogies | same
+  - 50 | Analogies | Early Twilight was a logistical savant who processed anxiety via hyper-detailed checklists and delegation | Characterization | 51
+  - 50 | Analogies | Marketing-mandate degradation turned her OCD into comic relief and outsourced her problem-solving to the Cutie Map, making her a passive reactor | Analogies | same
+  - 63 | Backstory | She earned her cutie mark at the entrance exam by refusing to give up on Spike's egg, grabbing raw sonic-rainboom magic | History | same
+  - 63 | Backstory | Her special talent is defined as 'the ambition to make things happen' (magic) | History | same
+  - 33 | Backstory | Before Ponyville she was 100% pure Red Love/Ambition/Magic/Talent with little Pink Love | History | same
+  - 35 | Backstory | She learned the value of friendship in the Everfree Forest, citing the canon episode Friendship is Magic part 2 | History | same
+  - 39 | Backstory | She studies magic and follows the scientific method | History | same
+  - 39 | Backstory | She had a basement lab, featured in the canon episode Feeling Pinkie Keen | History | same
+  - 39 | Backstory | That lab depiction was really for laughs and mad-scientist absurdity | Canon | unmatched
+  - 39 | Backstory | In that episode she says magic is studied, unlike Pinkie Sense | History | same
+  - 41 | Backstory | She used a mass harvesting spell at the end of Applebuck Season and began a spell matrix for Applejack | History | same
+  - 42 | Backstory | Her haywire plow spell during Winter Wrap Up, done to avoid disappointing Applejack, got her yelled at | History | same
+  - 42 | Backstory | She realized a spell matrix would make Applejack's applebucking (her special talent) obsolete | History | same
+  - 43 | Backstory | She could have outmagicked Flim and Flam but didn't, to avoid insulting the Apple family's hard work | History | same
+  - 43 | Backstory | She learned a lesson from the Winter Wrap Up incident | History | same
+  - 1065 | Backstory | Twilight's grand vision for an all-creature school was cut down by Celestia to one trusted student, running as a shell of itself | History | same
+  - 1065 | Backstory | Twilight trusts Celestia's judgement despite this | History | same
+  - 54 | Backstory | In Ain Trotgourait she learned the 'Predator's Dilemma' is real, seeing destroyed hospitals, poisoned water, starving Zebras | History | same
+  - 58 | Backstory | Celestia yells at Twilight | History | same
+  - 1020 | Backstory | Twilight shuts down the School of Friendship | History | same
+  - 53 | Backstory | Instead of consulting Zebra alchemists/engineers, she single-handedly lifts rubble, purifies water, and heals the sick with top-down Alicorn magic | History | same
+  - 57 | Backstory | Twilight burned out after a year trying to single-handedly fix a too-large, too-ravaged city | History | same
+  - 59 | Backstory | She retreated to her lab to automate water purification using crystal-empire crystals | History | same
+  - 59 | Backstory | She devises a plan for Magical Supply Organization | History | same
+  - 59 | Backstory | Celestia is happy to fund it since it keeps her off the battlefield | History | same
+  - 47 | Character Development | She learns magic is inherent and irreplaceable in every creature | NarrativeArchitecture | same
+  - 47 | Character Development | Once her Applejack-obsolescence guilt is absolved and she accepts she needn't be Celestia, she has a return to form | NarrativeArchitecture | same
+  - 438 | Character Development | Twilight rejects her princess-of-friendship destiny to save Applejack | NarrativeArchitecture | same
+  - 1207 | Character Development | Chapter 22: Celestia's petitions/Nightmare Moon reveal give Twilight understanding but not forgiveness; epistemological gap closes, emotional wound stays open | NarrativeArchitecture | same
+  - 1207 | Character Development | Chapters 24-26: In Griffonia she observes unleashed Ambition without a safety net (Skyfall Resolution, Aquileian ego capitalism, Griffenheim) | NarrativeArchitecture | same
+  - 1207 | Character Development | Chapter 29: On the Eve of the Election she truly forgives Celestia, understanding the weight Celestia carried for 80 years | NarrativeArchitecture | same
+  - 34 | Characterization | Most of her ambition went into pleasing or impressing Celestia | Characterization | same
+  - 44 | Characterization | She doesn't want to replace anypony's special talent with a device after being yelled at | Characterization | same
+  - 51 | Characterization | She is a logistical savant who processes anxiety through checklists and delegation | Characterization | same
+  - 52 | Characterization | She has a Reactive Atlas Complex, feeling like a fake princess unless reactively fixing suffering | Characterization | same
+  - 56 | Characterization | She doesn't want to fight on a front line, only to fix things | Characterization | same
+  - 55 | Characterization | She starts the war traumatized that her magic can't stop world suffering | Characterization | same
+  - 60 | Characterization | She stays off the frontline because she secretly shares Celestia's fear of what mass killing would do to her soul | Characterization | same
+  - 60 | Characterization | She holds the self-belief 'I am a shield and a builder, not a weapon of mass destruction' | Characterization | same
+  - 1199 | Characterization | She always felt stressed meeting Celestia's real or imagined expectations | Characterization | same
+  - 1706 | Characterization | She capped her ambition fearing her magic would replace her friends' special talents and meaning | Characterization | same
+  - 1762 | Characterization | Her trauma stems from Celestia's vague orders creating invisible goalposts she constantly feared missing | Characterization | same
+  - 1762 | Characterization | The war's 'do not fight' order creates a mind-breaking paradox between being a good Princess and letting friends die | Characterization | same
+  - 46 | Garden Notes | Author's original motivation was to avoid a passive captured/tortured Twilight as in EaW canon, having her fight instead | NotesToSelf | same
+  - 322 | Garden Notes | In the author's backing lore, being an alicorn does not imply immortality | Ontology | absent
+  - 322 | Garden Notes | Celestia historically turned love-talented ponies into alicorns to aid chaste family planning for two-mare couples | History | unmatched
+  - 322 | Garden Notes | This solves 'alicorn-gate' and the outliving-friends cynicism idealistically and also subverts chastity/clopfic tropes | NotesToSelf | same
+  - 37 | Life Phases | Twilight became a healthy mix of friendship and magic during Ponyville life (seasons 1-3) | History | same
+  - 36 | Life Phases | Celestia began steering Twilight toward suppressing ambition for bureaucratic friendship | History | same
+  - 45 | Reader Opinion Plan | Readers expect a Princess-of-Friendship who, if not a pushover, would become a cold dictator/supremacist | NarrativeArchitecture | same
+  - 352 | Reader Opinion Plan | Reader learns her spell-matrix genius was sparked by Applebuck Season, suppressed after Winter Wrap Up, and reawakened by 1007 necessity | NarrativeArchitecture | same
+  - 1203 | Reader Opinion Plan | Twilight isn't fighting a villain; she is outgrowing a parent | NarrativeArchitecture | same
+  - 416 | Source Material References | In TLTT Twilight isn't an infinite battery to drain (unlike Pax Chrysalia), just a pony | Canon | same
+  - 547 | Source Material References | Crystal Empire Part 2 Pavlovian-conditioned Twilight to equate leadership with self-immolation, explaining her 1006 burnout | Canon | same
+  - 547 | Source Material References | Celestia's 'self-sacrifice' quote is the birth of the top-down Atlas complex, weaponizing Twilight's friendships | Canon | same
+  - 1196 | Source Material References | Canon's ending of Twilight ruling Equestria is reinterpreted cynically as grooming; the Equestrian Republic is offered as an alternative | Canon | same
+  - 1201 | Source Material References | In the show she 'goes nuclear' whenever she fears failing a mentor or friend, out of fear of disappointing Celestia | Canon | same
+  - 1202 | Source Material References | Celestia saw Twilight's raw ambition and wanted to channel it into harmony as her successor | Canon | same
+  - 1865 | Source Material References | In TLTT Twilight does not get trapped in a cage by Tempest Shadow as in the movie | Canon | same
+  - 1980 | Source Material References | P&K's Twilight stays passive, captured, tortured into a coma, remaining Princess of Friendship | Canon | same
+  - 1980 | Source Material References | TLTT Twilight defies Celestia to go to the front and save Applejack | NarrativeArchitecture | 438
+  - 1980 | Source Material References | TLTT Twilight contributes to magical engineering to share magic with all, returning to being the empiricist scientist | NarrativeArchitecture | 47
+  - 1028 | Character Actions | Twilight watches Zecora stay behind in the ruins of Ain Trotgourait | PageDesign | same
+  - 1018 | Inferred Psychology | Twilight is shattered that her mentor refuses friendship | WorldInference | same
+  - 1019 | Inferred Psychology | She still believes she is the Princess of Friendship and won't abandon Fizzlepop's promised redemption | WorldInference | same
+  - 1029 | Inferred Psychology | She sees what applied Harmony looks like | WorldInference | same
+  - 2247 | Inferred Psychology | She synthesizes Kinship as the grown-up version of Loyalty, from Rainbow Dash's Ahuizotl story applied to herself | WorldInference | same
+- whole: Across the subject, most tracks hold content only in their own declared mode: Backstory and Life Phases stay in History, Characterization stays in Characterization, Character Development and most of Reader Opinion Plan stay in NarrativeArchitecture, most of Analogies stays in Analogies, most of Source Material References stays in Canon, Character Actions stays in PageDesign, and Inferred Psychology stays in WorldInference. A handful of tracks carry stretches in another declared mode. Analogies (note 50) carries a Characterization-mode stretch whose content ("logistical savant... checklists and delegating tasks") is the same content held by a note in the Characterization track (51). Backstory (note 39) carries a Canon-mode stretch (a judgment that the canon lab scene was played for laughs) for which the Canon-typed track (Source Material References) holds notes but none with that same content, so it is unmatched. Garden Notes (note 322) carries two stretches outside its own NotesToSelf mode: one in Ontology (alicorns not implying immortality), for which no track on this subject is typed Ontology, so it is absent; and one in History (Celestia's historical alicorn/family-planning practice), for which the History-typed tracks hold notes but none with that same content, so it is unmatched. Source Material References (note 1980) carries two NarrativeArchitecture-mode stretches describing TLTT's own arc for Twilight (defying Celestia to save Applejack; returning to being an empiricist, magic-sharing scientist), and both of these match content already held in the Character Development track (notes 438 and 47 respectively) — the same content thus sits in two tracks of different declared types. Several tracks on this subject show no notes at all in either part: Allegories, Character Appearance Plan, Character Reader Perception Gap Plan, Theme Plan, Character Development Meaning, Character-Reader Perception Gap, Gap Meaning, Inferred Character Development, Reader Prior Belief Clash, Reader Prior Belief Update, Revelation, and Scene Theme Evidence.

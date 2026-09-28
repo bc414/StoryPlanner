@@ -1,0 +1,30 @@
+- claims:
+  - 1685 | Reader Understanding Plan | The Acornage Changelings chose the word "Love" as the softest, safest term for their draining/sharing request, so it sounded harmless and slipped past Equestrian scrutiny | History | empty
+  - 1685 | Reader Understanding Plan | Chrysalis, during her 1002 ALB infiltration of Canterlot, hijacked this Acornage "Love" terminology to mock Equestrians and exploit Celestia's maternal pacifism while masking a macroeconomic extraction operation | History | empty
+  - 528 | World Truth | Changelings evolved to metabolize interpersonal connection (pink love) to supplement scarce foraging calories | Ontology | same
+  - 528 | World Truth | Pink love can be absorbed latently because friendship energy is directed outward at another | Ontology | same
+  - 528 | World Truth | The capacity to metabolize interpersonal connection carries a side effect of also metabolizing personal ambition (red love) | Ontology | same
+  - 528 | World Truth | Red love, personal or predatory ambition, must be actively drained rather than absorbed latently | Ontology | same
+  - 1208 | World Truth | A latent part of changeling magic is the ability to sense others' emotions | Ontology | same
+  - 1208 | World Truth | This emotion sense is a survival mechanism used to find friendly changelings, form a hive, and share love to stay fed and content | Ontology | same
+  - 1208 | World Truth | Originally the sense served foraging: finding food ("love") and avoiding predators ("hate") by sensing pure predatory intent | Ontology | same
+  - 1208 | World Truth | The emotion sense works like thermal vision but for emotional states | Ontology | same
+  - 1211 | World Truth | Infant changelings have zero control over their emotion sense and must be kept from hateful creatures or be mentally scarred | Ontology | same
+  - 1211 | World Truth | All changeling grubs must learn some level of control to survive around any hateful creature | Ontology | same
+  - 1211 | World Truth | Grubs are usually slowly introduced to malice to get used to it | Civilization | absent
+  - 1211 | World Truth | Even trained changelings still cannot survive industrial-scale combat | Ontology | same
+  - 1212 | World Truth | Changelings have fangs because they are omnivores, since foraging alone is not enough in the frozen north | Ontology | same
+  - 1380 | World Truth | Changelings are pony-sized quadrupeds with hooves, not claws | Ontology | same
+  - 1380 | World Truth | Changelings do not have a biological hive mind the way insects do | Ontology | same
+  - 1382 | World Truth | Draining magic originated as biting | Ontology | same
+  - 1382 | World Truth | A distinct draining spell developed later and must be taught to grubs rather than being innate | Ontology | same
+  - 1386 | World Truth | Changelings can make silk whose properties depend on their mental state | Ontology | same
+  - 1386 | World Truth | Genuine friendship produces colorful artisanal silk while terror produces black and dark-green resinous silk | Ontology | same
+  - 1391 | World Truth | Changelings evolved to have holes because it saves them calories | Ontology | same
+  - 1407 | World Truth | Biology does not change overnight from learning empathy; a changeling remains an apex predator designed for the frozen north | Ontology | same
+  - 1407 | World Truth | What changes instead is their Labor | Civilization | absent
+  - 1688 | World Truth | The changeling love-draining spell is essentially a mechanism to extract and move raw friendship and magic | Ontology | same
+  - 2483 | Demonstration | Chrysalis's emotion sense could not discern that the Acornage changeling wasn't a pony | PageDesign | same
+  - 2483 | Demonstration | Acornage changelings believe themselves to be ponies so thoroughly that they truly are ponies in interiority, making the disguise undetectable by lie-detection training since it isn't actually a lie | Ontology | unmatched
+  - 2483 | Demonstration | When the changeling introduced herself with a pony name, no lies were detected | PageDesign | same
+- whole: Only three tracks on this subject carry content: World Truth (typed Ontology), Reader Understanding Plan (typed NarrativeArchitecture), and the scene-linked Demonstration (typed PageDesign). World Truth is almost entirely written in its own declared mode, Ontology, stating invariant biological and magical rules (metabolism of pink/red love, emotion sense, fangs, silk, holes, draining magic's origin). Two clauses within it, however, describe what changelings' society actually does in response to those rules (slowly introducing grubs to malice; a shift in "Labor" despite unchanged biology) — these read as Civilization content, but no track on the subject is typed Civilization, so they sit absent with no possible match. Reader Understanding Plan, despite being typed NarrativeArchitecture, holds content that instead reads as History: an in-universe narration of the Acornage changelings' strategic word choice and of Chrysalis's later exploitation of it in 1002 ALB. Both History-typed tracks on the subject (Discoveries, Historical Understanding) are empty, so this History content finds no match and registers as empty. The Demonstration note mostly matches its own PageDesign mode, staging Chrysalis's failed detection and the changeling's self-introduction, but one clause within it generalizes into an Ontological claim (genuine self-belief as a pony defeats lie-detection because it isn't a lie) — the World Truth track has notes, but none states this specific rule, so it registers as unmatched rather than absent or empty. No single piece of content is found duplicated across two tracks of its own mode; each instance of a mode appearing outside its track is either absent (no track of that mode exists) or empty/unmatched (a track of that mode exists but holds nothing, or holds nothing matching).

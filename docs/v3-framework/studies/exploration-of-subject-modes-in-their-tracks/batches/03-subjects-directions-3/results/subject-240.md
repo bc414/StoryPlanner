@@ -1,0 +1,19 @@
+- claims:
+  - 1785 | Backstory | Hermann Meyer and Dennis Discret become friends while serving on a privateer crew in Skyfall | History | same
+  - 1782 | Backstory | Hermann Meyer and the Republican Airforce desert during the Long March and fly their planes to Haukland to form a pirate state | History | same
+  - 1782 | Backstory | Meyer raided shipping with his airforce, driving up shipping insurance rates | History | same
+  - 1784 | Backstory | After conquering Vedina, the Griffonian Republic delivers an ultimatum to Haukland to surrender or face invasion | History | same
+  - 1784 | Backstory | Hermann Meyer begins negotiations with the Republic | History | same
+  - 1784 | Backstory | Hermann Meyer is somewhat of a pragmatic coward | Characterization | unmatched
+  - 1784 | Backstory | Dennis Discret seizes the opportunity and takes Hermann Meyer for the Royal Aquileian fleet | History | same
+  - 1784 | Backstory | Dennis wants Meyer to help as deterrence in case Skyfall tries to stop them | History | same
+  - 1786 | Backstory | Hermann Meyer took Dennis Discret's offer and abandoned his country | History | same
+  - 1786 | Backstory | This backfired since his rivals in Haukland ended up joining Skyfall shipping companies | History | same
+  - 1786 | Backstory | Now both navies had naval bomber capabilities | History | same
+  - 1789 | Backstory | Hermann Meyer taught Réni and others how to forge their own artisan enchanted planes, intended as naval bombers against a Skyfall fleet attack | History | same
+  - 1788 | Characterization | Hermann Meyer is not a Herzlander bore, he is eccentric | Characterization | same
+  - 1787 | Theme Plan | Hermann Meyer took the air force to the island of Haukland | History | 1782
+  - 1787 | Theme Plan | In Haukland the pirates get to own their planes | History | unmatched
+  - 1787 | Theme Plan | That's where they figure out they can use traditional griffon artisanship to make enchanted aluminum armor for their planes | History | unmatched
+  - 1787 | Theme Plan | They wouldn't have the chance to do that in a state-owned air force that uses planes off an assembly line | ThematicEvidence | same
+- whole: Most of the subject's content sits where its track's mode would predict: the Backstory notes (History track) report events in History mode, and the single Characterization note stays in Characterization mode. Two departures appear. First, within Backstory note 1784, alongside its History-mode reporting, one clause ("pragmatic coward") asserts a personality trait rather than reporting an event — that is Characterization-mode content sitting in the History-typed Backstory track; the Characterization track does hold a note, but it asserts a different trait (eccentric, not bore), so this content is unmatched rather than mirrored elsewhere. Second, the Theme Plan note (ThematicEvidence track) opens with three History-mode statements before reaching its actual thematic argument: the first restates the fact of Meyer moving the airforce to Haukland, which is the same content already reported in Backstory note 1782; the next two (pirates owning their planes, and figuring out artisan armor-work in Haukland) are also History-mode factual claims, but no Backstory note states these specifics, so they are unmatched. Only the note's closing sentence, arguing that a state-owned assembly-line airforce would not have allowed this innovation, functions as ThematicEvidence and matches its track's declared mode. No content in these notes is written outside the twelve modes. The scene-link section contributes nothing, as every track there is empty.

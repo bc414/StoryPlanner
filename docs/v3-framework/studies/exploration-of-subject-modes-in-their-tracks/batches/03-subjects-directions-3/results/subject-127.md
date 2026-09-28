@@ -1,0 +1,31 @@
+- claims:
+  - 815 | Causality of Creation | Griffon knights cleared sea monsters during Grover III's reign, enabling safe sea trade | History | unmatched
+  - 815 | Causality of Creation | Nova Griffonians settled further north and taught Severyanan ponies how to mine coal | History | 816
+  - 2626 | Causality of Creation | Before industrialization there was no surplus | History | unmatched
+  - 2626 | Causality of Creation | Every new foal in the longhouse is celebrated | History | unmatched
+  - 2626 | Causality of Creation | Severyanans always wanted more children but the land couldn't support more | History | unmatched
+  - 2626 | Causality of Creation | Once industry unlocks food supply via fertilizer and coal heating there is a population boom letting every Severyanan have the kids they wanted | History | 2627
+  - 816 | Historical Events | Nova Griffonians teach Severyanans how to mine and burn coal, dated 870 | History | same
+  - 817 | Historical Events | Grover III's scientists prove the bessemer steelmaking process without griffon magic, but Grover III bans it as blasphemy against Boreas | History | same
+  - 817 | Historical Events | Educated Severyanan Boyars read the papers and industrialize steam engines and railroads | History | same
+  - 2627 | Historical Impact | A golden age with a population boom, dated 870-930 | History | same
+  - 2627 | Historical Impact | The 1st generation of industrializing boyars do everything for their communities and are celebrated | History | same
+  - 2627 | Historical Impact | The 2nd generation still carries on the communal ethos | History | same
+  - 2627 | Historical Impact | These generations have massive families | History | same
+  - 2632 | Historical Impact | Railroads connect all the Severyanan villages | History | same
+  - 2632 | Historical Impact | Culture gradually homogenizes, flattening linguistic diversity and folklore into a uniform Severyanan identity | History | same
+  - 818 | Historical Impact | The 3rd generation of industrial Boyars inherit the coal mines around 930-950 | History | same
+  - 818 | Historical Impact | This generation grew up in steam-heated mansions | History | same
+  - 818 | Historical Impact | They never had to ration firewood or fear the blizzard | History | same
+  - 818 | Historical Impact | Because physical survival was guaranteed by the machine, they never internalized the biological necessity of the Mir, so communal solidarity became to them a quaint outdated tradition rather than a survival tactic | ThematicEvidence | 819
+  - 818 | Historical Impact | They want to be global tycoons | History | same
+  - 818 | Historical Impact | This sets them up as the demographic that Chrysalis exploits with loans | History | same
+  - 818 | Historical Impact | There is a massive workforce that has to compete with Herzlander industry | History | same
+  - 2631 | Historical Impact | Stratification takes place as Herzlander and Skyfall ideology consumes the boyars | History | same
+  - 2631 | Historical Impact | The boyars no longer respect communal folklore | History | same
+  - 2624 | System Ontology | Haber-Bosch nitrogen fertilizer replaces peas and alder groves as the nitrogen source | Ontology | same
+  - 2624 | System Ontology | All the alder groves are clear cut for grain | History | unmatched
+  - 2624 | System Ontology | Generational knowledge of alder grove management for nitrogen becomes obsolete | History | unmatched
+  - 819 | Theme Plan | Material conditions drive morality, not moral preaching or being taught or told | ThematicEvidence | same
+  - 819 | Theme Plan | The rot begins exactly when the existential threat ends | ThematicEvidence | same
+- whole: Most of the subject's tracks hold content that matches their own declared mode: the two Historical Events notes and the four Historical Impact notes are consistently History-mode fact-reporting, and the Theme Plan note is consistently ThematicEvidence. The Causality of Creation track (Civilization mode) is the main departure: nearly all of its content in notes 815 and 2626 is written as History-mode fact-reporting (a historical event of griffon knights and coal-mining instruction; a report of pre-industrial scarcity and the desire for more children; a report of the population boom following industrialization) rather than content that builds things by in-universe agents in response to ontology. Two of these History-mode clauses duplicate content held elsewhere in a History track: the coal-mining-instruction clause in note 815 duplicates note 816 in Historical Events, and the population-boom clause in note 2626 duplicates note 2627 in Historical Impact. The remaining History-mode clauses in Causality of Creation (pre-industrial scarcity, the celebration of foals, the unmet desire for children) have no match among the History tracks and so sit unmatched. The System Ontology track's single note is split: its first clause (fertilizer replacing peas and alder groves) matches its own Ontology mode, but its other two clauses (the clear-cutting of alder groves, the obsolescence of generational alder-grove knowledge) are History-mode fact/effect reporting with no match among the History tracks, so they sit unmatched. Within Historical Impact, one clause of note 818 — the causal claim that guaranteed physical survival kept the third generation from internalizing communal necessity — is written in ThematicEvidence mode rather than History, and it holds the same underlying claim as Theme Plan note 819 (material conditions drive morality; rot begins when the existential threat ends), so the same content sits in both the Historical Impact and Theme Plan tracks. No content anywhere in the subject is written in PageDesign, WorldInference, NarrativeArchitecture, Analogies, Allegories, Canon, or NotesToSelf mode; the tracks declaring those modes (Allegories, Analogies, Canon References, Garden Notes, Reader Opinion, Storytelling Plan, and all six scene-link tracks) hold no notes among those shown.

@@ -1,0 +1,30 @@
+- claims:
+  - 1004|Canon References|States the tech was primarily inspired by Twilight being drained 24/7 in Pax Chrysalia, from EaW's focus tree and Brazen Gauge's adaptation|Canon|same
+  - 1004|Canon References|States it also draws from chapter one of Brazen Gauge's Pax Chrysalia, which features the Love Tax|Canon|same
+  - 990|Civilizational Impact|States the harvester was invented by Chrysalis|History|989
+  - 990|Civilizational Impact|States the purpose was to end the hive wars and unify the hives|Civilization|same
+  - 555|Function|States extracted pink love is visibly dull with fewer active components because the victim's terror at being preyed upon taints it|Ontology|same
+  - 555|Function|States it must be run through a fractional distillation centrifuge to isolate plain calories and concentrate oxytocin for jaeger-geist and endorphins for panzer-haut|Ontology|same
+  - 556|Function|States extracted red love is high-entropy from terror/resistance/coercion and would shatter a delicate spell matrix|Ontology|same
+  - 556|Function|States it must be run through a fractional distillation centrifuge to isolate and concentrate adrenaline and dopamine for blitz-essenz|Ontology|same
+  - 740|Function|States Chrysalis's brutalist centrifuges perform fractional distillation, mechanically stripping impurities (complex emotions, donor context, relationship friction) from raw pink love|Ontology|same
+  - 740|Function|States the centrifuge requires magical dampeners to stabilize the chaotic input of the unwilling, struggling victim|Ontology|same
+  - 996|Function|States it works via a specialized draining crystal mimicking a changeling horn|Ontology|same
+  - 1007|Function|States Red Love is the heavier, denser isotope (raw fuel for physical change) while Pink Love is lighter/ethereal|Ontology|same
+  - 1007|Function|Describes engineers building massive centrifuges that spin chaotic love so dense Red Love is flung outward and siphoned while lighter Pink Love gathers centrally|Ontology|same
+  - 1007|Function|States that because the input is chaotic and the method is brute-force physics, the centrifuge requires immense power, armor plating, and vibration dampeners to avoid tearing itself apart|Ontology|same
+  - 1929|Function|States the love harvester uses a spell matrix/vacuum-sealed distillation drum that separates love into pink (friendship) and red (magic) streams|Ontology|same
+  - 1929|Function|States the love is stored and stabilized in a canister containing a crystal to stabilize it|Ontology|same
+  - 1929|Function|States the crystal uses the power of the magic to self-contain the magic|Ontology|same
+  - 1929|Function|Compares the crystal's self-containment to a self-correcting circuit or a ball settling in a valley|Analogies|empty
+  - 1929|Function|States that when red love spikes, a portion of it is used to stabilize itself|Ontology|same
+  - 989|Invention|States it was invented by Chrysalis in 982|History|same
+  - 999|Invention|States it originally used crystals bought from Diamond Mountain|History|same
+  - 1000|Invention|States crystal sourcing moved to Krystallfels island|History|same
+  - 1001|Invention|States that to meet the scale of the great leap forward and the conquest of Vraks, changeling engineers invented magical dampeners in 985|History|same
+  - 1001|Invention|States the dampeners allow the large brutalist draining spell matrix to take unstable red love as a power source|Ontology|740
+  - 1006|Reader Opinion|States readers may initially assume comical tyranny like a KGB gulag|NarrativeArchitecture|same
+  - 1006|Reader Opinion|States readers learn Chrysalis doesn't do arbitrary cruelty|NarrativeArchitecture|same
+  - 1006|Reader Opinion|States strapping an innocent drone to a harvester would be politically irrational and inefficient, since only arrogant former nobles hold much red love and drones would lose hope too fast|Civilization|unmatched
+  - 1008|Themes|States it is a terrifying, deafening machine symbolizing Chrysalis's industrial tyranny|ThematicEvidence|same
+- whole: Most of the subject's tracks hold content in the mode their type declares: Function notes (555, 556, 740, 996, 1007, 1929) are almost entirely Ontology statements of mechanism and properties; Invention notes (989, 999, 1000) are History facts; Canon References (1004) is Canon; Themes (1008) is ThematicEvidence. Two tracks carry mode-crossing content that lands elsewhere. Civilizational Impact's note 990 opens with a bare History-mode fact ("invented by Chrysalis") that duplicates content already reported in the Invention track's note 989, while the rest of that same note states the invention's purpose in its own Civilization mode. Invention's note 1001 similarly splits: its account of when/why engineers built the dampeners is History, matching its track, but its claim about what the dampeners functionally enable (letting the draining matrix take unstable red love as fuel) is Ontology, and that same functional claim is also held by the Function track's note 740, so the two tracks converge on identical content stated in two different modes. Reader Opinion's note 1006 carries two claims that are proper to its own NarrativeArchitecture mode (the reader's initial gulag-like assumption and its revision), but its closing claim about the political/economic irrationality of targeting innocents is written in Civilization mode; the Civilizational Impact track does hold notes, but none of them state this targeting rationale, so it sits unmatched rather than duplicated. Function's note 1929 also carries one fragment written in Analogies mode (the crystal's self-containment likened to a self-correcting circuit or a ball settling in a valley); since the Analogies track itself holds no notes, this piece of content has no place to be matched and reads as empty. No content in this subject falls outside all twelve modes.

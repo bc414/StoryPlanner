@@ -1,0 +1,87 @@
+- claims:
+  - 16 | Analogies | Washington rallying frightened troops despite lacking tactical genius, as inspiration | Analogies | same
+  - 16 | Analogies | Washington stepping down instead of becoming king, as inspiration | Analogies | same
+  - 25 | Analogies | Pétain named as analogy figure; P&K's Applejack is the Vichy-collaborator version of him | Analogies | same
+  - 25 | Analogies | TLTT's arc is an Anti-Vichy arc keeping true to Pétain's WWI heroic legend | Analogies | same
+  - 26 | Analogies | Applejack's defiance of the White Peace/extradition demand shows moral spine the real Pétain lacked | Analogies | same
+  - 26 | Analogies | Applejack is the Lioness who didn't turn traitor | Analogies | same
+  - 126 | Backstory | Parents relocate permanently to Manehattan to start their canning company | History | same
+  - 126 | Backstory | Big Mac stayed with Granny Smith because he had his cutie mark and knew the city wasn't for him | History | same
+  - 3 | Backstory | Applejack disliked industrializing city life and its posture, preferring the farm's honesty | Characterization | 2
+  - 3 | Backstory | She viewed the SAA leaderboard as a toxic capitalist rat race | Characterization | unmatched
+  - 3 | Backstory | She believes her parents turned farming into a soulless quota system for money | Characterization | unmatched
+  - 3 | Backstory | She left her parents in Manehattan, returned to the farm, and got her cutie mark | History | same
+  - 129 | Backstory | Friends know her parents live in Manehattan but never ask why, respecting her silence | History | same
+  - 30 | Backstory | Applejack leaves Mount Aris | History | same
+  - 30 | Backstory | She thinks the world is cruel and she can't do anything meaningful to fix it | Characterization | 1868
+  - 24 | Backstory | She played a part in breaking Fizzlepop's worldview | History | same
+  - 24 | Backstory | She doesn't realize it, deeming it worthless against the other mindless warlords | Characterization | unmatched
+  - 29 | Backstory | After Blueblood's report, Applejack volunteered for basic training like other ordinary ponies | History | same
+  - 14 | Backstory | Luna asked Applejack to be a general to inspire others, purely as a celebrity/Element of Honesty | History | same
+  - 14 | Backstory | Applejack refused to let Luna make her a general | History | same
+  - 13 | Backstory | Luna approached again and Applejack accepted | History | same
+  - 13 | Backstory | She felt she could make a difference in the world again | Characterization | unmatched
+  - 776 | Backstory | Friendship Shields, needing Pink Love/Trust-Calm, short-circuit and shatter under a cortisol spike from acoustic/kinetic terror | Ontology | absent
+  - 776 | Backstory | Applejack's sector is overrun and her volunteers vaporized/encircled while she held position on Luna's orders | History | same
+  - 776 | Backstory | Applejack barely escapes encirclement, loses her General's star, and flees south toward Tall Tale | History | same
+  - 776 | Backstory | Her Imposter Syndrome is born from realizing her Honesty/Harmony got soldiers killed, not from cowardice | Characterization | unmatched
+  - 1875 | Backstory | The Storm King was a disorganized, performative bully, unlike Trimmel's industrialized Panzer divisions executing Auftragstaktik | History | same
+  - 1875 | Backstory | Her breakdown/'Fake General' feeling stems from her preparation being fundamentally asymmetrical to the industrialized threat | Characterization | 23
+  - 1875 | Backstory | She trained for gritty infantry defense while the Changelings arrived with a macroeconomic war machine | History | same
+  - 1875 | Backstory | Her hard-earned grassroots solidarity was instantly vaporized by Blitz-Essenz and artillery | History | same
+  - 774 | Character Appearance Plan | If defeated by infiltrators she'd have a scapegoat, but a fair conventional defeat forces her to confront her own incompetence | NarrativeArchitecture | same
+  - 774 | Character Appearance Plan | This amplifies her Imposter Syndrome in Chapters 1-3, making her later mastery a hard-earned structural victory rather than mere recovery | NarrativeArchitecture | same
+  - 18 | Character Development | She realizes she'd rather be brutally honest than lie to feel better | NarrativeArchitecture | same
+  - 20 | Character Development | From the start to the town hall she feels like an Imposter losing her soul to industrial methods | NarrativeArchitecture | same
+  - 20 | Character Development | From the town hall to Trimmel she is the Honest Worker accepting Harmonic Capitalism, leading the Bluebell River Spearhead believing in a finite restorative war | NarrativeArchitecture | same
+  - 20 | Character Development | Post-Trimmel she accepts the geopolitical Hard Truth that Equestria needs a permanent armed Republic | NarrativeArchitecture | same
+  - 17 | Character Development | Applejack steps up as a strategic leader trusted for her honesty | NarrativeArchitecture | same
+  - 22 | Character Development | Her arc is stepping into leadership to not be a poseur, then learning from Kemerskai that honesty alone isn't enough | NarrativeArchitecture | same
+  - 31 | Character Development | She goes from hating industry (parents left) to respecting it (earth pony magic proven) to understanding her parents' choice | NarrativeArchitecture | same
+  - 31 | Character Development | She then over-swings to rejecting folklore for science, resenting Celestia for hiding the truth | NarrativeArchitecture | same
+  - 31 | Character Development | By the end, via Sickleclaw, she finds a middle ground valuing simple farming tradition too | NarrativeArchitecture | same
+  - 2017 | Character Development | Kemerskai teaches Applejack realpolitik, illustrated by 'the truth does not speak for itself, you have to roar' | NarrativeArchitecture | same
+  - 2017 | Character Development | Posture is not evil, it's an accelerant like industry and magic that amplifies truth | ThematicEvidence | unmatched
+  - 2372 | Character Development | In Fraternity & Dilemma she sees her parents' equipment, understands why they withheld the truth, and gains closure | NarrativeArchitecture | same
+  - 2 | Characterization | She hates industry because her parents left the farm for it and views industry as dishonest | Characterization | same
+  - 4 | Characterization | She believed training hard and sticking together like the Hippogriffs would hold the line | Characterization | same
+  - 4 | Characterization | At the story's start she feels like a liar for drumming up hope against unwinnable odds | Characterization | same
+  - 23 | Characterization | She is paralyzed by imposter syndrome once industrial war hits, though it isn't truly warranted, due to asymmetric material reality | Characterization | same
+  - 19 | Characterization | She won't make others do what she won't do herself; she must be the tip of the spear to feel honest | Characterization | same
+  - 127 | Characterization | She does not tell her friends the full truth of her cutie mark story, only the simplified version | Characterization | same
+  - 127 | Characterization | The reality is she had already spent years taking trips to Manehattan | History | 123
+  - 127 | Characterization | Her friends never pressed her on it | History | 129
+  - 1868 | Characterization | She leaves Mount Aris feeling emasculated and small, learning the world is cruel and her Earth Pony virtues are insufficient | Characterization | same
+  - 1898 | Characterization | Her psychology is defined by trauma of her parents abandoning honest farm life for industrial SAA; she equates industry with abandonment and erasure of identity | Characterization | same
+  - 2016 | Characterization | Applejack hates poseurs who use performative perfection to sell a lie | Characterization | same
+  - 440 | Garden Notes | The Griffonia parts aren't about Applejack making a wrong decision, but about her understanding Celestia's viewpoint | NotesToSelf | same
+  - 123 | Life Phases | Throughout her childhood the family took frequent trips to Manehattan, with parents often gone for days | History | same
+  - 12 | Life Phases | Applejack mastered the machine gun at boot camp and trained others | History | same
+  - 12 | Life Phases | She fostered genuine solidarity among the Equestrian volunteers | History | same
+  - 10 | Reader Opinion Plan | Reader initially assumes Applejack is a background-pony, fake celebrity-general naive to industrial warfare | NarrativeArchitecture | same
+  - 11 | Reader Opinion Plan | Reader later learns she is familiar with industry, having deliberately rejected her parents' path; her farm life is a deliberate choice | NarrativeArchitecture | same
+  - 78 | Source Material References | TLTT forks P&K: Applejack refuses the Tall Tale retreat order instead of agreeing | Canon | same
+  - 78 | Source Material References | In P&K she became a collaborator, running an apple farm of pony slave labor to protect her family | Canon | same
+  - 78 | Source Material References | That comparison is the nightmare Applejack has in chapters 1 and 2 | NarrativeArchitecture | unmatched
+  - 1972 | Source Material References | P&K Applejack gave up, posing as a collaborator to do less harm while drinking away her guilt | Canon | same
+  - 1972 | Source Material References | TLTT Applejack is the leader of the war and of the reformation from stagnation to liberty | Canon | same
+  - 1972 | Source Material References | Applejack parallels Philippe Pétain, the WWI hero 'Lion of Verdun' turned WWII Vichy collaborator | Analogies | 25
+  - 1972 | Source Material References | Pétain's real path is subverted in TLTT, where Applejack becomes the triumphant defender of harmony and liberty | Analogies | 26
+  - 5 | Theme Plan | Applejack IS the Element of Conscience | ThematicEvidence | same
+  - 6 | Theme Plan | Applejack learns from Fluttershy to be merciful | ThematicEvidence | same
+  - 7 | Theme Plan | Applejack learns to separate the accelerant from the tyrannical users at the town hall | ThematicEvidence | same
+  - 8 | Theme Plan | Applejack steps down from the presidency, refusing to become the next benevolent monarch | ThematicEvidence | same
+  - 9 | Theme Plan | She eventually recognizes the value of the Stagnation of Harmony, integrating it with Aquileian individualism | ThematicEvidence | same
+  - 32 | Theme Plan | The truth hurts | ThematicEvidence | same
+  - 1872 | Character Actions | She volunteers for basic training and masters the machine gun | PageDesign | same
+  - 1869 | Inferred Psychology | She seeks grounding in the dirt, coping with powerlessness through physical labor | WorldInference | same
+  - 1871 | Inferred Psychology | Because she felt useless behind Twilight's shield in 1006, she is highly motivated never to feel useless again | WorldInference | same
+  - 1873 | Inferred Psychology | She believes tactical competence will prevent a repeat of Mount Aris | WorldInference | same
+  - 1874 | Inferred Psychology | Entering 1011 she believes she understands the world's cruelty, now armed and backed by troop solidarity | WorldInference | same
+  - 158 | Revelation | Applejack apologizes for having thought her parents lied about 'feeding the world' for money | PageDesign | same
+  - 2030 | Revelation | Applejack reveals her cutie mark story was a fairy tale version | PageDesign | same
+- whole: Most tracks hold content consistent with their declared mode: Analogies, Theme Plan (ThematicEvidence), the NarrativeArchitecture tracks (Character Appearance Plan, Character Development, Reader Opinion Plan), Garden Notes (NotesToSelf), the scene-link PageDesign tracks (Character Actions, Revelation), and WorldInference (Inferred Psychology) are internally uniform in mode, and most of Characterization and Source Material References (Canon) are as well.
+  
+  The clearest cross-mode traffic runs through the two History tracks. Backstory carries, alongside its History-mode reporting, a run of Characterization-mode passages (in notes 3, 30, 24, 13, 776, 1875) that assert what Applejack believes or feels rather than report an external event. Some of these duplicate content already stated in the Characterization track: the view of industry/farm-honesty in note 3 duplicates note 2, the "world is cruel and she can't fix it" belief in note 30 duplicates note 1868, and the asymmetry-driven imposter-syndrome/"Fake General" explanation in note 1875 duplicates note 23. Others (the SAA-leaderboard judgment and quota-system belief in note 3, not realizing her effect on Fizzlepop in note 24, feeling capable again in note 13, and the Honesty/Harmony-got-soldiers-killed explanation in note 776) are Characterization-mode content for which the Characterization track holds no matching note. Note 776 additionally contains one Ontology-mode passage, the Friendship Shield/Pink-Love mechanic, and no track on this subject declares Ontology at all, so it stands unmatched by absence of any eligible track. In the other direction, the Characterization track's note 127 carries History-mode facts (years of Manehattan trips; friends never pressing her) that duplicate content held in the Life Phases (note 123) and Backstory (note 129) History tracks respectively.
+  
+  Source Material References (Canon) likewise carries, inside note 1972, two Analogies-mode statements about the Pétain parallel that duplicate content already held in the Analogies track (notes 25 and 26), plus one NarrativeArchitecture-mode statement in note 78 (placing the P&K comparison as a nightmare in chapters 1-2) that finds no match among this subject's NarrativeArchitecture tracks despite those tracks holding notes. Character Development similarly carries one ThematicEvidence-mode statement (posture as a neutral accelerant, in note 2017) that the Theme Plan (ThematicEvidence) track, though populated, does not hold in matching form. No note's content falls outside all twelve modes.

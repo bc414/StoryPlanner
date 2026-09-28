@@ -41,6 +41,11 @@ What is here:
   escalation register, and the instructions for resuming each session with Brian. Until that
   pass ends, resumed sessions still write their rows in the resume file's Sessions table.
 
+- `conversation-arc-2026-09-25-to-28.md` — the arc of one design session: the planner's two
+  purposes, the `claude -p` harness and transactions, the archaeology of the v1/v2 loop, the
+  audit of the 2026-09-26 leads campaign, and what compute can and can't do. Brian's words
+  are verbatim; the rest is the session's account.
+
 The paths in these files are as they were written; a path into this folder from a live file
 was edited when the file moved, or removed where it pointed at ideas the method no longer
 keeps, and nothing here was.

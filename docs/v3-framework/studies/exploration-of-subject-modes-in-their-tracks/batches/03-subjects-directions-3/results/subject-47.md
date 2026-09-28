@@ -1,0 +1,15 @@
+- claims:
+  - 682 | Backstory | Thorax was born in Vesalipolis in an industrial hive in the year 987 | History | same
+  - 685 | Backstory | Thorax was thrown off Mount Canterhorn by Le Sort de la Lionne | History | same
+  - 687 | Backstory | Thorax's next assignment is to research the Lioness spell, so he goes to the parloirs in Manehattan | History | same
+  - 687 | Backstory | There he learns empathy and consent | History | same
+  - 687 | Backstory | He no longer wants to be a predator | Characterization | unmatched
+  - 687 | Backstory | He reads the original Coltbert Predator's Dilemma paper | History | same
+  - 687 | Backstory | He learns how the Lioness spell works | History | same
+  - 687 | Backstory | He realizes the blast was a moral judgement on the changeling hierarchy | History | same
+  - 683 | Characterization | He is not a soft bug | Characterization | same
+  - 683 | Characterization | He is a jaeger alongside his "brother" Pharanx | Characterization | same
+  - 683 | Characterization | They were the top of the class of Chrysalis's brand new drone kindergarten | History | unmatched
+  - 686 | Characterization | Since Thorax grew up in the rat race, he became a standard jaeger who underwent the typical cognitive dissonance for his station | Characterization | same
+  - 686 | Characterization | He believed he is objectively superior and deserves his rank over the drones and the right to feast on the wedding's love | Characterization | same
+- whole: Only two tracks on this subject hold any notes: Backstory (History) with notes 682, 685, 687, and Characterization with notes 683, 686. Every other track, both subject-wide and scene-link, is empty. Within these two populated tracks, most content matches its track's declared mode (History facts in Backstory, psychological assertions in Characterization). Each track, however, also contains one thing written in the other's mode: note 687 (Backstory) contains a Characterization-mode claim ("he no longer wants to be a predator"), and note 683 (Characterization) contains a History-mode claim (the drone-kindergarten ranking fact). In neither case does the corresponding same-mode track hold matching content — the Characterization track's actual notes (683, 686) describe Thorax's belief in his own superiority and predatory entitlement, not a rejection of predation, so the Backstory note's Characterization-mode claim is unmatched; and the Backstory track's notes (682, 685, 687) never mention a drone kindergarten ranking, so the Characterization note's History-mode claim is likewise unmatched. No content appears identically duplicated across two tracks; the cross-mode instances each stand alone without a matching counterpart elsewhere on the subject.

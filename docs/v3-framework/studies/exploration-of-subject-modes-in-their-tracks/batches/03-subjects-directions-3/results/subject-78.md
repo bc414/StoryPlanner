@@ -1,0 +1,37 @@
+- claims:
+  - 1155 | Allegories | states the overarching social commentary of griffon magic is the nature of human capital | Allegories | same
+  - 1155 | Allegories | real-world claim that before the modern state's monopoly on violence, capacity for violence was the chief human capital | Analogies | unmatched
+  - 1155 | Allegories | identifies the feudal warlord Honest Racket as this era's in-world instance | Allegories | same
+  - 1155 | Allegories | states that the most powerful griffons were those who forged their own swords and armor | History | empty
+  - 1155 | Allegories | real-world claim that post-Black-Death labor scarcity gave rise to artisan guilds, shifting human capital toward specialized skill granting economic leverage and dignity | Analogies | unmatched
+  - 1155 | Allegories | identifies Grover III's enlightenment and artisan workshops as this era's in-world instance | Allegories | same
+  - 1155 | Allegories | states griffons literally build their own tools which get magical enchantments from their pride | Ontology | 1142
+  - 1155 | Allegories | real-world claim that industrialization removed the need for human skill for prosperity and, after peak oil, turned to exploitation | Analogies | unmatched
+  - 1155 | Allegories | identifies Grover IV's guilded age of bessemer and haber-bosch as this era's in-world instance | Allegories | same
+  - 1155 | Allegories | real-world claim that today you need a bachelor's degree or completed trade-union apprenticeship to have dignity | Analogies | unmatched
+  - 1155 | Allegories | identifies this modern condition with Coltbert's ego capitalism or skyfall cartels | Allegories | same
+  - 1155 | Allegories | claims the unrealized synthesis of Equestrian harmony, GR politics, and Aquileian asset specificity is what the modern era needs for human capital to grant dignity | Allegories | same
+  - 863 | Analogies | documents real-world localization practice for names across the German, French, and English editions | Analogies | same
+  - 1159 | Analogies | documents proprioception and tool-embodiment neuroscience (fencer and driver examples) as the basis for griffon magic | Analogies | same
+  - 1162 | Analogies | states griffons can achieve information-era tolerances and purities by enchanting the machines they build to run industrial processes | Civilization | absent
+  - 1153 | Demonstration Plan | states griffon knights had to forge their own armor and swords | Ontology | 1480
+  - 1153 | Demonstration Plan | explains this is why griffons are canonically greedy, since their magic only works on their own tools | Canon | empty
+  - 1153 | Demonstration Plan | states the magic does not work with division of labor | Ontology | 1142
+  - 1153 | Demonstration Plan | states this is the exact opposite of Equestria's Cutie Mark System from Hearth's Warming Eve | Canon | empty
+  - 1499 | World Truth | states griffons are a hybrid of lions and eagles | Ontology | same
+  - 1142 | World Truth | states griffon magic is inherently tied to individual pride and metallurgy | Ontology | same
+  - 1142 | World Truth | states a knight must forge their own armor to gain extra magical hardness | Ontology | same
+  - 1142 | World Truth | states a griffon's magical energy cannot be pooled, shared, or cast onto another griffon | Ontology | same
+  - 1145 | World Truth | states griffons' evolutionary survival strategy had to be hyper-individualistic | Ontology | same
+  - 1145 | World Truth | states this evolutionary pressure made pride and ego their psychological default | Ontology | same
+  - 862 | World Truth | states Herzlander names are German first names with a surname compound tied to griffon biology | Ontology | same
+  - 862 | World Truth | states a name like Steelbeak is functional determinism, defining the griffon by family ambition | Ontology | same
+  - 1156 | World Truth | states griffons evolved to fly by amplifying wing power while gliding around the Hyperborean Mountains/Griffonstone, their ancestral home | Ontology | same
+  - 1480 | World Truth | states griffon magic can enchant iron to be more durable than steel, active only while the forger themselves uses it | Ontology | same
+  - 1480 | World Truth | states griffon knights had to forge their own armor and swords | Ontology | same
+  - 1337 | Reader Understanding Plan | plans that readers initially believe all griffons are greedy | NarrativeArchitecture | same
+  - 1337 | Reader Understanding Plan | notes this initial belief is the canon FiM depiction | Canon | empty
+  - 1338 | Reader Understanding Plan | plans that Aquileians update the belief to griffons wanting to be better than others / status-seeking | NarrativeArchitecture | same
+  - 1338 | Reader Understanding Plan | states status-seeking manifests as greed/capital in Herzland versus snobbery/branding in Aquileia | Civilization | absent
+  - 1339 | Reader Understanding Plan | plans that readers eventually learn from Sickleclaw that some griffons want peace and to be left alone | NarrativeArchitecture | same
+- whole: Taken together, the World Truth track is uniformly Ontology, matching its declared type throughout (notes 1499, 1142, 1145, 862, 1156, 1480 all "same"). The other tracks each carry material outside their own mode. The Allegories track's single long note (1155) alternates its own Allegories-mode mapping statements (grand thesis, era-to-character identifications, the unresolved-synthesis close) with Analogies-mode real-world historical claims (violence-capital feudalism, artisan guilds, industrialization/peak-oil, modern credentialism); since the Analogies track's own notes (863, 1159, 1162) never state these historical claims, each sits "unmatched." The same note also carries one History-mode clause (about forging correlating with griffon power) that finds no home because both History-type tracks (Discoveries, Historical Understanding) are empty, and one Ontology-mode clause (griffons build their own enchanted tools from pride) that duplicates World Truth's note 1142. The Demonstration Plan note (1153), sitting in a NarrativeArchitecture track, likewise carries an Ontology-mode restatement matching World Truth notes 1480 and 1142, plus two Canon-mode statements (the greed explanation and the Cutie-Mark contrast) that the Source Material References (Canon) track, though present, holds no notes to match, leaving them "empty." The Analogies track's own notes are mostly on-mode (863, 1159), but note 1162 is Civilization-mode content (built industrial machines), and no track of Civilization type exists anywhere on this subject, so it is "absent." The Reader Understanding Plan track mixes its own NarrativeArchitecture-mode belief-evolution notes (1337's initial belief, 1338's update, 1339's Sickleclaw revelation) with a Canon-mode citation ("Canon FiM depiction," unmatched against the empty Canon track) and a Civilization-mode cultural detail (Herzland vs. Aquileia status expression), which is likewise "absent" for lack of any Civilization track. No two tracks other than World Truth and the notes that echo it (1142) hold the same content in common; all scene-link tracks remain without notes.

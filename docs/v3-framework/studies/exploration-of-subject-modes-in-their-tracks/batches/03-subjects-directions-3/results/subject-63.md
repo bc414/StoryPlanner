@@ -1,0 +1,30 @@
+- claims:
+  - 1654 | Activities | The Thestrals were Luna's warriors who hunted the monsters of Equestria | History | same
+  - 823 | Analogies | Temberik as a people is inspired by the Kurdish people | Analogies | same
+  - 823 | Analogies | The word 'Temberik' means 'pony' in Sorani | Analogies | same
+  - 826 | Analogies | Kurds historically lived in a mountainous region between great empires without a unified state | Analogies | same
+  - 826 | Analogies | Kurdish society was organized around the Ashiret tribal confederation | Analogies | same
+  - 829 | Analogies | The Diwan is a gathering place where men and women sit, drink tea, and discuss affairs | Analogies | same
+  - 829 | Analogies | The Diwan is radically democratic compared to the hierarchies of Griffon knights or Celestia's court | Analogies | same
+  - 829 | Analogies | Temberik villages share grain, tools, and labor | Civilization | unmatched
+  - 946 | Analogies | 'No friend but the mountains' (a Kurdish saying) | Analogies | same
+  - 824 | Binding Logic | The Temberik are isolationist and communal, wary of outsiders | Characterization | same
+  - 824 | Binding Logic | Unlike the globally trading Tzinacatl, the Temberik have chosen isolation from Equestria for 1000 years | Characterization | same
+  - 824 | Binding Logic | They are the warriors who self-isolated after Luna's banishment | History | 825
+  - 828 | Binding Logic | They do not want industrialization | Characterization | same
+  - 828 | Binding Logic | They want isolation, their traditions, and to be left alone in peace | Characterization | same
+  - 1657 | Binding Logic | They refuse to modernize economy or tradition because their mythology blames Nightmare Moon's corruption on misbehavior and ambition, so they must stay traditional | Characterization | same
+  - 825 | History | They are the warriors who self-isolated after Luna's banishment | History | same
+  - 1663 | History | The corruption near the Temberik Mountains trapped escaped ambition in bedrock, forming power crystals the Temberik covered to hide Luna's sin, crystallizing over 1000 years | History | same
+  - 1663 | History | That is why the Temberik Mountains have power crystals available to be mined today | History | same
+  - 1663 | History | The Temberik never touch the crystals because their legends say they are a byproduct of Nightmare Moon's transformation | Characterization | unmatched
+  - 827 | History | They reject Chrysalis's bid to mine the crystals for her love harvesters in exchange for material wealth | History | same
+  - 945 | History | The Temberik elders reject Comet Shine's cooperative mining deal proposal | History | same
+  - 822 | Source Material References | Inspired by the 'Meanwhile, in the Mountains...' event from the Lunar Civil War event chain | Canon | same
+  - 830 | Storytelling Plan | If one family's roof collapses, the whole village fixes it | Civilization | unmatched
+  - 830 | Storytelling Plan | This communal practice appeals to Applejack's 'Barn Raising' sensibility | NarrativeArchitecture | same
+  - 832 | Storytelling Plan | The Temberik are Order without Progress, having unity but no ambition beyond survival | ThematicEvidence | empty
+  - 832 | Storytelling Plan | They need Ambition (Red Love) to realize they can be more than survivors hiding in the rocks | NarrativeArchitecture | same
+  - 944 | Storytelling Plan | The Temberik Mountains' crystals are off limits until the events of the war and cooperation | NarrativeArchitecture | same
+  - 821 | What it is | Thestrals who live in the mountains | Civilization | same
+- whole: Most tracks hold content in their declared mode: Activities/History, History, Analogies, Source Material References/Canon, Storytelling Plan's story-order planning lines, and What it is/Civilization all read as their track's mode. Binding Logic (Characterization) is almost entirely Characterization except one clause in note 824 that restates a History-mode fact ("self-isolated after Luna's banishment") which is duplicated verbatim in the History track's note 825 — the same content sitting in two tracks of different declared modes, one matching its track (825) and one not (824). The History track itself carries one Characterization-mode aside (note 1663's claim that the Temberik never touch the crystals because of legend) that is not matched by any content in the Binding Logic track, which holds Characterization notes but not this specific claim, so it is unmatched. The Analogies track carries one Civilization-mode statement (note 829's "villages share grain, tools, and labor") describing an in-universe practice rather than real-world inspiration; the Civilization-declaring track (What it is) holds a note but not this content, so it is unmatched. The Storytelling Plan track (NarrativeArchitecture) carries a Civilization-mode statement (note 830's barn-raising practice), also unmatched against What it is, and a ThematicEvidence-mode statement (note 832's "Order without Progress" framing) for which the Themes track, though it declares ThematicEvidence, holds no notes at all, so that content lands as empty. The Allegories, Garden Notes, Reader Understanding Plan, and Themes tracks hold no notes, and none of the cross-mode content elsewhere resolves into them except the one line noted as empty. All scene-link tracks (Activities/PageDesign, Disclosure/PageDesign, Psychological Inference/WorldInference, Reader Prior Belief Clash/ThematicEvidence, Reader Prior Belief Update/WorldInference, Scene Thematic Evidence/ThematicEvidence) are empty and contribute no claims.

@@ -1,0 +1,4 @@
+- claims:
+  - 1050|Binding Logic|PNdA remain strict adherents to traditional griffon norms|Characterization|same
+  - 1050|Binding Logic|PNdA look down on (disdain) the FJA lifestyle|Characterization|same
+- whole: The subject holds only a single note (1050), sitting in the Binding Logic track (Characterization mode). Both things it says — that PNdA remain strict adherents to traditional griffon norms, and that they look down on the FJA lifestyle — are written in the Characterization mode, matching the track's declared mode, so both are placed as 'same'. Every other track on the subject, in both the subject-wide part and the scene-link part, is shown with no notes at all, so there is no cross-mode content anywhere else on this subject to compare against, and no instance of the same content appearing in two different tracks. The subject as a whole therefore shows no track holding content outside its own declared mode.

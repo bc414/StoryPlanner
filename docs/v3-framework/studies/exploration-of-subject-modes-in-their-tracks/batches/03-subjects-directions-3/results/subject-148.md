@@ -1,0 +1,53 @@
+- claims:
+  - 2277 | Activities | states the drug tribes sold drugs to griffons across 870-930 | History | same
+  - 2177 | Activities | states they are incentivized to skim territorial margins from other tribes, violating flower war rules, to get extra drug material when demand spikes | History | same
+  - 2177 | Activities | describes progressive escalation of this skimming as Chrysalis's price constriction persists | History | same
+  - 2177 | Activities | states they use traditional flower war tactics (blowdarts, echolocation) rather than guns so as not to provoke other tribes | History | same
+  - 413 | Analogies | draws a real-world parallel that drug crises stem from collapse of community, economic hopelessness, and loss of purpose in industrial/rural areas | Analogies | same
+  - 2210 | Binding Logic | states the top of the drug tribes are entrepreneurial Tzinacatl running global drug trade | Characterization | same
+  - 2210 | Binding Logic | states the majority are thestrals who use their own drugs, dream of justice, reject flower war tradition, including returning factory workers | Characterization | same
+  - 2191 | Binding Logic | states post-993 coastal drug-tribe thestrals hold both tribal solidarity and commercial/global-trade aspiration, not purely one or the other | Characterization | same
+  - 2191 | Binding Logic | contrasts drug-tribe thestrals with traditionalists, self-interested thestrals who left for Skyfall/mercenary work, and machinists who joined EEEE! in Manehattan | Characterization | same
+  - 2191 | Binding Logic | states drug tribes value both the Tzinacatl home way of life and global trade participation for foreign goods | Characterization | same
+  - 2191 | Binding Logic | states that since the factories were burned they turned to selling drugs instead, while Aquileian medicinal tribes sell artisan medicine | History | 2155
+  - 2221 | Binding Logic | states they feel modernization was gained then taken away despite living on the coast | Characterization | same
+  - 2221 | Binding Logic | states they reject returning solely to flower wars | Characterization | same
+  - 2221 | Binding Logic | states they stick to subsistence farming and a niche griffon-elite quality market over Chrysalis's mass synthetics, rather than resuming monster hunts | Characterization | same
+  - 2239 | Binding Logic | states their identity is tied to lost modernization and remaining scarce global trade, not the flower war system | Characterization | same
+  - 2239 | Binding Logic | states the factory appealed because it let them make goods rather than only sell drugs | Characterization | same
+  - 2255 | Binding Logic | states they prefer selling drugs globally for foreign currency over investing surplus in flower war participation and training | Characterization | same
+  - 2259 | Binding Logic | states exposure to global culture through their export operation made foreign goods worth organizing economic life around | Characterization | same
+  - 2259 | Binding Logic | states they are communal, not rugged individualist consumers, choosing communal global trade over self-sufficiency | Characterization | same
+  - 2154 | History | states Chrysalis floods the drug market with red love in 986 | History | same
+  - 2153 | History | states the drug tribes became industrialists with Skyfall investors | History | same
+  - 2153 | History | describes ruthless industrialist Tzinacatl refusing Skyfall DRM subscriptions, hiring machinists to repair machines and warriors to repel Skyfall bounty mercenaries | History | same
+  - 2153 | History | describes Skyfall mercenaries as poseurs using organ guns for terror, themselves subscription-trapped, quitting when facing real resistance | History | same
+  - 2153 | History | describes idle fierce Tzinacatl warriors since Coltbert's Aquileian crossbows disrupted their traditions | History | same
+  - 2153 | History | states they take up guns and fight Skyfall mercenaries lethally since no rules bar foreign griffon mercenaries | History | same
+  - 2155 | History | states the rest of the Tzinacatl tribes burn down all the factories in response to the escalation | History | same
+  - 2155 | History | states the machinists flee to Manehattan and join EEEE! | History | same
+  - 2155 | History | states the Tzinacatl managers return to drug dealing | History | same
+  - 1305 | Reader Understanding Plan | plans that readers begin with a 1000-year assumption that thestrals are shady drug dealers arrested by the royal guard | NarrativeArchitecture | same
+  - 1305 | Reader Understanding Plan | notes this prior assumption is based on the Lunar Civil War event chain from EaW | Canon | empty
+  - 1305 | Reader Understanding Plan | plans that this view is later revealed to stem from the 930 banning of industry and outside influences | NarrativeArchitecture | same
+  - 1306 | Reader Understanding Plan | plans depiction of thestral prostitutes for the Skyfall-minded rich that undermines the reader's image, revealing desperation beneath | NarrativeArchitecture | same
+  - 2189 | Storytelling Plan | plans a scene where Applejack gathers cartel leaders who bicker amongst themselves | NarrativeArchitecture | same
+  - 2189 | Storytelling Plan | characterizes the cartel leaders as rugged individualists rather than tribal leaders, likened to the P&K bickering | Characterization | 2210
+  - 2268 | Storytelling Plan | describes them ending up as Big Food via their terroir of magically active plants, industrial+alchemical refinement, and jungle supply-chain management | Civilization | unmatched
+  - 2268 | Storytelling Plan | describes their future business model of buying second-rate Equestrian crops, processing with trace Tzinacatl additives, and reselling | Civilization | unmatched
+  - 415 | Themes | states the thematic proposition that harm reduction (integration), not a war on drugs (extermination), is the solution to an addiction crisis | ThematicEvidence | same
+  - 2193 | Themes | states the thematic proposition that material conditions, not moral preaching, drive morality | ThematicEvidence | same
+  - 2193 | Themes | cites the drug tribes' alliance motivation (a legitimate path to global trade, not niceness) as evidence for that proposition | ThematicEvidence | same
+  - 2199 | Themes | states the thematic proposition that accelerants are neutral tools amplifying the user's morality | ThematicEvidence | same
+  - 2199 | Themes | states that Meadowbrook's Friendship Plants are still commercialized by the drug tribes, cultivated via tribal solidarity | Civilization | 2198
+  - 2199 | Themes | concludes even friendship plants are neutral accelerants | ThematicEvidence | same
+  - 847 | What it is | states they cultivate and harvest aggressive magical plants for stimulants | Civilization | same
+  - 2198 | What it is | states they still cultivate friendship plants and refine them into opioids | Civilization | same
+  - 2198 | What it is | states they have tribal solidarity and are not pure rugged individualists | Characterization | 2259
+  - 2258 | What it is | states they participate in global trade, using local drug surplus to obtain goods unproducible locally | Civilization | same
+  - 2293 | What it is | states some live in the remains of coastal land cleared for factories and factory towns burned down in 993 | History | unmatched
+- whole: Most of this subject's populated tracks hold content in the mode their type declares: Activities and History (History mode) report events and activities consistently in-mode; Analogies documents real-world inspiration in-mode; Binding Logic overwhelmingly asserts Characterization content in-mode; Themes deploys ThematicEvidence in-mode; What it is mostly states Civilization facts in-mode; Reader Understanding Plan mostly plans NarrativeArchitecture in-mode.
+  
+  Departures cluster in a few places. Reader Understanding Plan (NarrativeArchitecture) carries one fragment naming a source event chain ("Lunar Civil War... from EaW") that functions as Canon; since the Canon track (Source Material References) is empty, this sits as absent-match/empty. Storytelling Plan (NarrativeArchitecture) carries one Characterization fragment (leaders as "rugged individualists, not tribal leaders") whose content matches Binding Logic's description of the entrepreneurial top tier (note 2210); it also carries two Civilization-mode statements about a future "Big Food" business model that have no counterpart in What it is, leaving them unmatched there. Binding Logic (Characterization) carries one History-mode fact (turning to drug-selling after the factory burning) that duplicates content already in History (note 2155). Themes (ThematicEvidence) carries one Civilization-mode statement (drug tribes still cultivating and commercializing Meadowbrook's friendship plants) that duplicates What it is (note 2198), alongside its own genuinely evidentiary/thematic sentences. What it is (Civilization) itself carries one Characterization-mode statement (tribal solidarity, not pure rugged individualists) duplicating Binding Logic content (note 2259), and one History-mode statement (living in the burned factory-town remains) that has no counterpart among the populated History-mode notes, so it stands unmatched.
+  
+  Across the subject, the same underlying content thus surfaces twice in two tracks of matching mode in three cases: the post-factory-burning turn to drug dealing (Binding Logic ↔ History), the cultivation/commercialization of friendship plants (Themes ↔ What it is), and the "not pure rugged individualist / communal, tribal-solidarity" characterization of members (What it is ↔ Binding Logic; also echoed once more in Storytelling Plan's leader characterization matched to Binding Logic). The empty tracks (Allegories, Garden Notes, Source Material References, and all scene-link tracks) hold nothing to compare against, so any mode landing there registers as empty or absent.

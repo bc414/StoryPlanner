@@ -1,0 +1,38 @@
+- claims:
+  - 2141|Activities|EEEE! starts retrofitting machinery to produce weapons after Prince Blueblood drops the Dotted Line Report|History|same
+  - 2141|Activities|They spend all their Riks on Griffonian Republic industrial equipment and all bits/francs on premium PNdA parts from Aquileia|History|same
+  - 2141|Activities|By 1011 EEEE!-associated factories make up 20% of Manehattan's industrial base, the remaining 80% owned by compradors on Skyfall subscriptions|History|same
+  - 2141|Activities|When the gold bits run out, EEEE! factories keep making weapons for the Equestrian Army for free|History|same
+  - 2141|Activities|Once the war starts, refugees run the factories at 3 free shifts with insufficient floor space, leading to the referendum|History|same
+  - 2109|Binding Logic|Equality within the org's binding logic equals thestral reforms and integration|Characterization|same
+  - 2110|Binding Logic|Empathy within the org's binding logic equals caring for foals from the New Mareland return trip|Characterization|same
+  - 2111|Binding Logic|Education within the org's binding logic equals the machinist's guild and asset specificity|Characterization|same
+  - 2111|Binding Logic|They teach returning New Marelanders and Tzinacatl refugees to read Griffonian Republic open-source schematics|Civilization|unmatched
+  - 2111|Binding Logic|They are democratizing the means of production|Characterization|same
+  - 2212|Binding Logic|EEEE!'s Tzinacatl members come originally from all the tribes: medicinal, drug, and traditionalist|Characterization|same
+  - 2137|Garden Notes|Reflects that the original EaW EEEE! was a vague activist group later elevated to a union, now redefined as a machinist guild of New Mareland exiles and Tzinacatl workers aiming to retrofit rigged factory machines|NotesToSelf|same
+  - 2067|History|EEEE! started as a scrappy guild of alienated New Mareland returnees jailbreaking obsolete Skyfall machines salvaged from tycoon junkyards|History|same
+  - 2067|History|They repair equipment with Griffonian Republic open-source schematics, operating in the basement of Foyer des Jeunes d'Avant Garde, the first parloir|History|same
+  - 1308|History|In 993, thestrals tired of drugs and stagnation leave the jungle to work in Skyfall cohort-led factories built on credit|History|same
+  - 2108|History|As SAA sent canned mush to Cloudbury, Flowing Current and other machinists scavenged, retrofit, and shipped equipment to Cloudbury for Riks because it felt more fulfilling than working for a tycoon|History|same
+  - 2108|History|The machinists, parloir owners, and workers evolved into EEEE!|History|same
+  - 2357|History|In 1007 they went from a scrappy parloir-basement guild to a cooperative of worker-owned factories|History|same
+  - 2365|Reader Understanding Plan|At first EEEE! looks like Herzlander Imperialism because of their standardized heavy industry|NarrativeArchitecture|same
+  - 2125|Source Material References|In EaW canon, EEEE! was a generic activist group from the thestral-rights event chain, a precursor to the Lunar Civil War|Canon|same
+  - 2126|Source Material References|Canon's Luna Civil War is a mythic/ideological civil war driven by top-down allegiance to Nightmare Moon|Canon|same
+  - 2126|Source Material References|TLTT recontextualizes EEEE! as a machinist's guild arising from material conditions rather than ideology|Canon|same
+  - 2139|What it is|They unbridle and fix discarded Skyfall industrial machinery using Griffonian Republic open-source schematics|Civilization|same
+  - 2140|What it is|Because Equestria's safety net removes risk, EEEE! functions as a low-risk ambition sink|Civilization|same
+  - 2140|What it is|They don't repair and sell machines for profit but out of pride in craft, conscience, and purpose|Civilization|same
+  - 2364|What it is|They use Griffonian Republic standardized schematics and Aquileian PNdA heavy machinery|Civilization|same
+  - 2364|What it is|They look grimy, industrial, and grease-stained|PageDesign|unmatched
+  - 2113|Activities|Tycoons spread propaganda that EEEE! has been sending machines to the Griffonian Republic, branding them foreign actors|PageDesign|same
+  - 2354|Activities|They start unbridling and repairing idle machines, assigning ponies jobs by special talent|PageDesign|same
+  - 2355|Activities|The core Machinists Guild serves as officer corps, rapidly training agrarian refugees to run the newly unbridled GR-retrofitted assembly lines|PageDesign|same
+  - 2352|Disclosure|The stated argument is that idle industrial capacity during wartime is treason|PageDesign|same
+  - 2066|Reader Prior Belief Update|Readers expect a socialist angry-mob-vs-compradors narrative due to HOI4/EaW's ever-present communist ideology|WorldInference|same
+  - 2066|Reader Prior Belief Update|Readers assume tycoons withhold war contribution because they want to collaborate with the enemy|WorldInference|same
+  - 2066|Reader Prior Belief Update|The material reality is that tycoon equipment is failing from the blockade, lack of replacement parts, and Skyfall's planned-obsolescence B2B subscription traps|History|unmatched
+  - 2066|Reader Prior Belief Update|EEEE! is not a labor cartel but a value-adding machinist's guild|Civilization|unmatched
+  - 2133|Reader Prior Belief Update|Readers who expect an angry mob of workers instead find a highly organized guild of engineers|WorldInference|same
+- whole: Across the subject, most tracks hold content squarely in their declared mode: the two History tracks (Activities, History) report only dated or sequenced facts; Binding Logic mostly reports Characterization claims about the org's values (Equality/Empathy/Education) and membership; Garden Notes holds a single NotesToSelf reflection; Reader Understanding Plan and Source Material References hold only NarrativeArchitecture and Canon content respectively; the scene-link Activities and Disclosure tracks hold only PageDesign staging; and most of "What it is" holds Civilization description. Three tracks carry material outside their own mode. Binding Logic (Characterization) contains one Civilization-mode statement (note 2111, on teaching refugees to read GR schematics), which finds no match in the Civilization-declaring "What it is" track, whose own notes describe different activities (unbridling machines, ambition-sink status, schematic/machinery sourcing). "What it is" (Civilization) itself contains one PageDesign-mode statement (note 2364, on the org's grimy visual appearance), which does not match any content in the PageDesign-declaring Activities or Disclosure tracks, whose notes concern propaganda, mobilization, and the treason argument rather than appearance. Reader Prior Belief Update (WorldInference) contains two notes not in its own mode: one History-mode statement (note 2066, on blockaded/obsolete equipment) that finds no match among the History tracks' recorded events, and one Civilization-mode statement (note 2066, "not a labor cartel but a value-adding machinist's guild") that finds no match in "What it is." In every one of these cross-mode instances the content stands alone; no thing written outside its track's mode is echoed with the same content in another track anywhere in the subject, so no case exists here of identical content sitting in two different tracks.

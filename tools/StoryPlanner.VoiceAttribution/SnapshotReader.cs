@@ -5,26 +5,48 @@ using StoryPlanner.Core;
 namespace StoryPlanner.VoiceAttribution;
 
 /// <summary>
-/// Dated v1 planner backups (<c>TheLionessOfTallTale*.db</c>), read schema-agnostically: every
-/// TEXT column of every table is harvested as plan text. The v1 schema drifted weekly and its
-/// note ids never joined to the archive's, so containment of the note's text is the only join.
-/// Tables that hold pasted AI output rather than plan text (<c>GeminiEntries</c>) and EF
-/// bookkeeping are skipped — otherwise a Gemini response stored in the planner would count as
-/// "in the plan before the model said it".
+/// Dated planner backups — v1 (<c>TheLionessOfTallTale*.db</c>) and v2 (the app's
+/// <c>Backups/*.bak</c> VACUUM INTO copies) — read schema-agnostically: every TEXT column of
+/// every table is harvested as plan text. The v1 schema drifted weekly and its note ids never
+/// joined to the archive's, so containment of the note's text is the only join.
+/// Tables that hold AI output or imported transcripts rather than plan text are skipped —
+/// otherwise a Gemini response or a Claude conversation stored in the planner would count as
+/// "in the plan before the model said it". The conversation tables exist only in v2 files.
 /// </summary>
 public static class SnapshotReader
 {
     private static readonly HashSet<string> SkipTables = new(StringComparer.OrdinalIgnoreCase)
     {
         "GeminiEntries", "__EFMigrationsHistory", "__EFMigrationsLock", "sqlite_sequence",
+        "Conversations", "ConversationBlocks", "IgnoredConversations",
+        "ConversationSubjectCoverages", "ConversationSubjectCoverageTracks", "UiSettings",
     };
 
     public sealed record Loaded(string File, DateOnly Date, string DateSource, int Tables, int TextCells);
 
-    public static List<Loaded> Load(string dir, PlanSnapshotIndex snapshots, Action<string> log)
+    /// <summary>A source loaded by <see cref="LoadAsSources"/> — the plan itself, never a voice.</summary>
+    public static bool IsPlanSource(VoiceSource s) => s.Layer.EndsWith("-plan", StringComparison.Ordinal);
+
+    /// <summary>Note-level dating: each backup feeds the plan-snapshot index (FirstSnapshot / PlanFirst).</summary>
+    public static List<Loaded> Load(string spec, PlanSnapshotIndex snapshots, Action<string> log) =>
+        Harvest(spec, log, (name, date, texts) => snapshots.Add(new PlanSnapshotIndex.Snapshot(name, date), texts));
+
+    /// <summary>
+    /// Span-level dating: each backup becomes one role-<c>brian</c> source in the voice index
+    /// (<c>{layer}:{file}</c>), dated by its filename. Earliest-wins then credits every run of
+    /// a note that was in the plan before any captured AI source to the plan — so a v1 sentence
+    /// carried into an edited v2 note keeps its date, where note-level containment would lose it
+    /// at the first cut. Text the plan got from an AI source keeps that source, which is older.
+    /// Load lineage and conversations first: on the same day the earlier-added source wins.
+    /// </summary>
+    public static List<Loaded> LoadAsSources(string spec, string layer, VoiceIndex index, Action<string> log) =>
+        Harvest(spec, log, (name, date, texts) => index.Add(new VoiceSource($"{layer}:{name}", layer, "brian", date), texts));
+
+    /// <param name="spec">A directory (every <c>*.db</c> in it) or a file pattern such as <c>…/Backups/TLTT v2.2*.bak</c>.</param>
+    private static List<Loaded> Harvest(string spec, Action<string> log, Action<string, DateOnly, List<string>> add)
     {
         var loaded = new List<Loaded>();
-        foreach (var file in Directory.GetFiles(dir, "*.db").OrderBy(f => f))
+        foreach (var file in Files(spec))
         {
             var (date, dateSource) = DateOf(file);
             if (date is null) { log($"  SKIP {Path.GetFileName(file)}: no date parseable from filename"); continue; }
@@ -50,11 +72,20 @@ public static class SnapshotReader
                     for (int i = 0; i < textCols.Count; i++)
                         if (!r.IsDBNull(i)) { var v = r.GetString(i); if (v.Length > 0) texts.Add(v); }
             }
-            snapshots.Add(new PlanSnapshotIndex.Snapshot(Path.GetFileName(file), date.Value), texts);
+            add(Path.GetFileName(file), date.Value, texts);
             loaded.Add(new Loaded(Path.GetFileName(file), date.Value, dateSource, tables, texts.Count));
             log($"  {Path.GetFileName(file)} → {date:yyyy-MM-dd} ({dateSource}); {tables} tables, {texts.Count} text cells");
         }
         return loaded;
+    }
+
+    public static IEnumerable<string> Files(string spec)
+    {
+        if (Directory.Exists(spec)) return Directory.GetFiles(spec, "*.db").OrderBy(f => f);
+        var dir = Path.GetDirectoryName(spec);
+        var pattern = Path.GetFileName(spec);
+        if (string.IsNullOrEmpty(dir) || !Directory.Exists(dir)) return Array.Empty<string>();
+        return Directory.GetFiles(dir, pattern).OrderBy(f => f);
     }
 
     private static List<string> Tables(SqliteConnection conn)
@@ -78,7 +109,7 @@ public static class SnapshotReader
         return list;
     }
 
-    /// <summary>The snapshot's date is the <c>yyyy-MM-dd</c> in its filename (Brian standardised the names 2026-09-02); a file without one is skipped and reported.</summary>
+    /// <summary>The snapshot's date is the first <c>yyyy-MM-dd</c> in its filename (Brian standardised the v1 names 2026-09-02; the app stamps its v2 backups <c>yyyy-MM-dd_HH-mm-ss</c>); a file without one is skipped and reported.</summary>
     public static (DateOnly? Date, string Source) DateOf(string file)
     {
         var m = Regex.Match(Path.GetFileNameWithoutExtension(file), @"(\d{4})-(\d{2})-(\d{2})");

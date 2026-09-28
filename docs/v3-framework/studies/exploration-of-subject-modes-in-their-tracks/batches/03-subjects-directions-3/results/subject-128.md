@@ -1,0 +1,16 @@
+- claims:
+  - 1618 | Historical Events | states the true origin of Hearth's Warming Eve was labor strikes that caused a blizzard | History | same
+  - 1618 | Historical Events | explains ponies recite the tale as a reminder that they must always cooperate to survive against monsters | History | same
+  - 1622 | Canon References | names the established canon holiday Hearth's Warming Eve as a basis being built on | Canon | same
+  - 441 | System Ontology | defines 'Survival Harmony' as how ancient Equestria survived | Ontology | same
+  - 884 | System Ontology | states the pegasi had to be militant to move weather while deterring monsters from the village | Ontology | same
+  - 887 | System Ontology | states all villages were self-sustaining with all three tribes, with monsters roaming between them | Ontology | same
+  - 889 | System Ontology | explains Canterlot became the biggest capital due to the crystal mining operation and proximity to the sun | Civilization | empty
+  - 889 | System Ontology | states Cloudsdale originally was Canterlot's pegasus retinue | History | unmatched
+  - 889 | System Ontology | states the pegasi retinue had to defend Canterlot from dragons | Ontology | same
+  - 1310 | System Ontology | states all Equestrian settlements still ran on survival harmony to defend their homes from monsters | Ontology | same
+  - 1318 | System Ontology | states unicorns had to move the sun and moon each day, which exhausted them | Ontology | same
+  - 1318 | System Ontology | states other ponies mined crystals to aid unicorns who used proto-crystal enhancers | Ontology | same
+  - 1616 | System Ontology | states grassroots harmony among the four tribes exists only to defend local settlements from monsters | Ontology | same
+  - 1616 | System Ontology | lays out the division of labor and defense roles among earth ponies, pegasi, unicorns, and thestrals | Ontology | same
+- whole: Across the subject, most tracks hold content matching their declared mode: Canon References holds a Canon-mode note, Historical Events holds History-mode notes, and System Ontology holds mostly Ontology-mode notes describing the working rules and division of labor of Survival Harmony. Several tracks that could bear content (Allegories, Analogies, Causality of Creation, Garden Notes, Historical Impact, Reader Opinion, Storytelling Plan, Theme Plan, and all scene-link tracks) are shown empty. The one departure from mode-track alignment is note 889 in System Ontology: one of its statements (the material/causal reason Canterlot became the biggest capital) is Civilization-mode content, for which the only declaring track, Causality of Creation, is empty, leaving it unmatched by emptiness; another statement in the same note (Cloudsdale's origin as Canterlot's pegasus retinue) is History-mode content, and while Historical Events (a History-mode track) holds notes, none of them state this same fact, so it is unmatched rather than empty. No content is duplicated identically across two tracks anywhere in the subject.

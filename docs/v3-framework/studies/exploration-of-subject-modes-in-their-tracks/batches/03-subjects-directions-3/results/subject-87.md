@@ -1,0 +1,24 @@
+- claims:
+  - 1385 | Allegories | Pink love gives a pony momentary contentment but real friendship is more than that | ThematicEvidence | empty
+  - 1385 | Allegories | The allegory is parasocial relationships and social media scrolling | Allegories | same
+  - 2194 | Allegories | Parasocial relationships with influencers | Allegories | same
+  - 2195 | Allegories | Algorithms feeding infinite addictive content without conscious choice | Allegories | same
+  - 2196 | Allegories | AI companions | Allegories | same
+  - 2197 | Allegories | US Department of War testosterone enhancers override soldier morality and create aggression | Analogies | empty
+  - 743 | Civilizational Impact | Chrysalis invented it so drones could override emotion sense and become gun-carrying conscripts to invade other hives | Civilization | same
+  - 743 | Civilizational Impact | It is designed to make conscripts dependent to ensure absolute loyalty to the supply chain | Civilization | same
+  - 743 | Civilizational Impact | Leaving the army means losing the override and being unable to survive while feeling victims' hate and fear | Civilization | same
+  - 1747 | Civilizational Impact | Chrysalis corrupted the biological coolant and injected it into a soldier as Jaeger Geist, inducing toxic sociopathy or synthetic euphoria to numb the horror of war | Civilization | same
+  - 1747 | Civilizational Impact | It is the ultimate perversion of Meadowbrook's healing magic | Canon | empty
+  - 1393 | Function | Jaeger-geist means Hunter Spirit | Ontology | same
+  - 717 | Function | It disables changeling emotion sense | Ontology | same
+  - 717 | Function | It is made by concentrating and refining active oxytocin from pink love to flood the emotion sense with synthetic good feelings so the hate can't be felt | Ontology | same
+  - 717 | Function | It is called jaeger-geist after the feeling of appreciation an old jaeger got for protecting the hive and bringing home meat | Ontology | same
+  - 717 | Function | The name is a marketing lie: it is synthetic and doesn't make someone a hunter the hive looks up to | Ontology | same
+  - 717 | Function | The withdrawal is a crushing, anhedonic realization that the love of the hive was a chemical lie | Ontology | same
+  - 1395 | Function | Jaeger geist prevents shapeshifting because it removes the emotional understanding of other creatures needed to take their form | Ontology | same
+  - 718 | Usage Plan | Fluttershy calls jaeger geist 'The Earmuffs' | NarrativeArchitecture | same
+  - 1394 | Usage Plan | Jaeger-geist means Hunter spirit | Ontology | 1393
+  - 1394 | Usage Plan | It is a marketing lie because the spirit is synthetic | Ontology | 717
+  - 1396 | Usage Plan | It makes deserting the army impossible because they can't shapeshift to escape the commissar | Civilization | unmatched
+- whole: Most of the subject's tracks stay within their declared mode: Function holds only Ontology-mode definitional/mechanistic content, and most of Allegories holds Allegories-mode statements of real-world parallel truths. But several tracks carry content in modes other than their own. The Allegories track holds one item written in Analogies mode (the testosterone-enhancer note, a documented real-world inspiration rather than a stated "truth represented") and one item written in ThematicEvidence mode (the pink-love/friendship claim used as evidence for a proposition about friendship); both land as "empty" placements because the Analogies and Themes tracks that would declare those modes hold no notes at all. The Civilizational Impact track, otherwise consistent with its own Civilization mode, holds one sentence written in Canon mode (the "perversion of Meadowbrook's healing magic" line, recontextualizing an established canon character's power), which also lands as "empty" since the Canon References track holds no notes. The Usage Plan track, declared as NarrativeArchitecture, holds most of its content in that mode (the "Earmuffs" nickname), but also carries Ontology-mode content: the note giving the name's meaning and calling it a marketing lie duplicates content already held by two separate notes in the Function track (the name-meaning fact matches one note there, and the marketing-lie/synthetic claim matches another), so the same content sits in two tracks — Usage Plan and Function. Usage Plan additionally holds a Civilization-mode claim (that the technology prevents desertion because it blocks shapeshifting), for which the Civilizational Impact track, though populated, holds no note stating that same content, leaving it unmatched.

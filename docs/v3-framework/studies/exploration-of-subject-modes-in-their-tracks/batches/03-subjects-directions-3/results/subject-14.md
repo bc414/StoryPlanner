@@ -1,0 +1,39 @@
+- claims:
+  - 2102 | Backstory | He was bored of the weather factory in Cloudsdale for being too sterile and regulated | History | same
+  - 2102 | Backstory | He encountered Gilded Lily's propaganda about finding your dreams in the factories and becoming a self-made stallion free of harmony's rules | History | same
+  - 2402 | Backstory | He went to work at an industrial power plant in Manehattan for a tycoon | History | same
+  - 2402 | Backstory | The tycoon's first rule was to never touch the Dienst Resonantie Matrix | History | same
+  - 2402 | Backstory | He heard manosphere propaganda from New Mareland telling him to 'be a lion' | History | same
+  - 2402 | Backstory | The propaganda was meant to make obedient factory workers, but he took it as permission to disobey orders and perfect the turbine | History | same
+  - 2402 | Backstory | He unbridled the machine to show off his skill and get a raise, and was fired for it | History | same
+  - 2073 | Backstory | Skyfall issued a bounty to collect the penalty fee for the power plant's DRM violation | History | same
+  - 2073 | Backstory | He beat up other stallions for chasing the bounty purely for money | History | same
+  - 2073 | Backstory | He blew up the power plant himself out of spite | History | same
+  - 2106 | Backstory | He failed the friendship seminar on purpose | History | same
+  - 2106 | Backstory | He was deported to New Mareland | History | same
+  - 2106 | Backstory | His meager bounty only lasted a few weeks | History | same
+  - 2106 | Backstory | He realized New Mareland was a hellscape | History | same
+  - 2106 | Backstory | He took the return trip back, taking care of foals | History | same
+  - 2107 | Backstory | He was too humiliated to return to Cloudsdale and sulked in the Manehattan parloirs | History | same
+  - 2107 | Backstory | The Aquileians and tzinacatl there reaffirmed his genuine asset specificity as a machinist | History | same
+  - 2107 | Backstory | He started running the machinist's guild in the basement of Foyer de la Jeunesse d'Avant-garde | History | same
+  - 209 | Characterization | He should sound like a loudmouth, a brute, a typical New Yorker 'I'm walkin' here!' vibe | Characterization | same
+  - 2103 | Characterization | His cutie mark has to do with making lightning | Characterization | same
+  - 2104 | Characterization | He has no respect for those lacking asset specificity or acting as rent-seekers | Characterization | same
+  - 2104 | Characterization | His core wound is making the power plant more efficient by unbridling it and getting fired for it | History | 2402
+  - 210 | Reader Opinion Plan | The reader should initially view him with a typical New Yorker 'I'm walkin' here!' vibe | NarrativeArchitecture | same
+  - 2101 | Source Material References | His EaW baseline personality is someone susceptible to radicalization | Canon | same
+  - 2100 | Source Material References | His canonical story is that he works at a power plant | Canon | same
+  - 2100 | Source Material References | In EaW, Nightmare Moon contacts him in a dream to cut power, triggering Manehattan's defection in the Equestrian Civil War | Canon | same
+  - 2100 | Source Material References | EEEE's worker solidarity for night-shift thestrals was weaponized by Nightmare Moon for an authoritarian theocratic Luna Empire | Canon | same
+  - 2128 | Source Material References | His advocacy for the Tzinacatl night-shift workers is no longer just generic progressive politics | WorldInference | 2132
+  - 2128 | Source Material References | He was a humiliated, deported 'Poseur' who had just returned from the hellscape of New Mareland | History | 2106
+  - 2128 | Source Material References | The Tzinacatl and Aquileians in the Parloirs were the only ones who treated him with dignity | History | 2107
+  - 2129 | Character Actions | He rails against Skyfall and the tycoons, saying they only know subscription fees while wanting to repair machines and factories to serve Equestria | PageDesign | same
+  - 2132 | Reader Prior Belief Update | Readers may think Flowing Current is just a generic progressive labor leader | WorldInference | same
+  - 2132 | Reader Prior Belief Update | They now learn the full backstory of his radicalization | WorldInference | same
+  - 2112 | Revelation | Celestia says Flowing Current blew up a power plant | PageDesign | same
+  - 2131 | Revelation | After the Tzinacatl describe how other tribes destroyed the factories, Flowing Current reveals he blew up his power plant | PageDesign | same
+- whole: Nearly every track holds content matching its own declared mode: the Backstory notes (2102, 2402, 2073, 2106, 2107) are uniformly History; the Characterization notes (209, 2103, and most of 2104) are Characterization; the Reader Opinion Plan note (210) is NarrativeArchitecture; the Canon-mode content in Source Material References (2101, 2100, and the first clause of 2128) is Canon; the scene-linked Character Actions note (2129) and both Revelation notes (2112, 2131) are PageDesign; and the Reader Prior Belief Update note (2132) is WorldInference. Theme Plan, all Allegories/Analogies, all NarrativeArchitecture planning tracks besides Reader Opinion Plan, Life Phases, Garden Notes, and most of the scene-linked ThematicEvidence/WorldInference tracks are empty or unrepresented.
+  
+  Two tracks carry content in a mode other than their own. The Characterization track, whose declared mode is psychological assertion, holds one piece of History content in note 2104 (the framing of his "core wound" restates the unbridling-and-firing event), which matches the same fact already reported in the Backstory track's note 2402. The Source Material References track (Canon) holds two kinds of content outside Canon: within note 2128, the claim that his advocacy is "no longer just generic progressive politics" functions as WorldInference (a reader-belief update), matching the identical prior-belief/revelation content in the Reader Prior Belief Update track's note 2132; and the same note's account of his humiliation, deportation, and the dignity shown him by the Tzinacatl and Aquileians functions as History, matching facts already reported in the Backstory track's notes 2106 and 2107 respectively. No thing in this subject was found in a mode for which no declaring track exists, nor in a mode whose declaring track is empty, nor unmatched against notes of the same mode elsewhere.

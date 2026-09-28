@@ -1,0 +1,41 @@
+- claims:
+  - 1771 | Analogies | Real-world Bf 109 baseline: can only fire standard machine guns for 15 seconds per sortie | Analogies | same
+  - 1772 | Analogies | Real-world Ju 87 Stuka CAS baseline: only one big anti-tank bomb and 4 small bombs per sortie | Analogies | same
+  - 1773 | Analogies | Av gas runs at 25-30% efficiency due to incomplete combustion and heat loss | Analogies | same
+  - 1773 | Analogies | WW2-era diesel engines ran at 35-40% efficiency | Analogies | same
+  - 1805 | Analogies | WW1 biplanes used Turn and Burn dogfighting doctrine | Analogies | same
+  - 1805 | Analogies | WW2 monoplanes used Boom and Zoom dogfighting doctrine | Analogies | same
+  - 1804 | Canon References | Personal Hearts of Iron IV experience where 1940s-tech fighters built early produce lopsided kill ratios (40 vs 300 losses) inspires the design | Analogies | unmatched
+  - 1776 | Civilizational Impact | The Equestrian Airforce dominates the changeling Luftwaffe due to technological superiority | Civilization | same
+  - 1796 | Civilizational Impact | Wonderbolts Spitfire planes have heavy armor letting them strafe ground targets and tank tops with mach 4 ammo | Ontology | unmatched
+  - 1796 | Civilizational Impact | This capability removes the need for dedicated CAS aircraft | Civilization | same
+  - 1777 | Function | Star Energy hybrid engines use a spell matrix to convert av gas hydrocarbon chains into branched iso-octane, running the engine at 50% efficiency of the av gas | Ontology | same
+  - 1792 | Function | Crystal tips on bullets make the ammo weigh less | Ontology | same
+  - 1794 | Function | Bullets harvest hyper-nitrogen/polynitrogen from clouds and storms, firing at Mach 4 versus standard Mach 2 nitrocellulose rounds | Ontology | same
+  - 1794 | Function | Smoothbore barrels and sabots are used because rifling would overheat at such speeds, and fins stabilize the unspun bullets | Ontology | same
+  - 1798 | Function | The bullets contain white phosphorus sourced from Star Energy in Tall Tale | Ontology | same
+  - 1799 | Function | Wonderbolts ammo composition: brass casing sabot, fins, crystal tip, polynitrogen, white phosphorus | Ontology | same
+  - 1779 | Invention | Airplanes were taboo due to Herzlander Archon dogma holding flight as a privilege of noble knights | History | same
+  - 1778 | Invention | After Wingbardy's independence, Wingbardian industries use their aluminum and rubber to mass produce planes to fight the Empire | History | same
+  - 1778 | Invention | The Imperial Army adopts planes to stay competitive but restricts their use to nobility | History | same
+  - 1781 | Invention | The Republican Revolution opens the aviation industry to all griffons who want to be pilots | History | same
+  - 1780 | Invention | Biplanes were used during the Falcor War | History | same
+  - 1791 | Invention | Aquileian navy ace pilots work with the University of Pridea and Star Energy Corporation to build better, faster, longer-flying plane engines | History | same
+  - 1791 | Invention | They adopt crystal tips on their bullets so the ammo weighs less | History | same
+  - 1795 | Invention | The Wonderbolts, with Aquileian and University of Pridea help, develop ways to harvest hyper-nitrogen/polynitrogen for bullets from clouds and thunderstorms | History | same
+  - 1800 | Invention | Chrysalis's plane manufacturers settle on the Bf 109 fighter and Ju 97 Stuka CAS with Jericho Trumpets for psychological terror | History | same
+  - 1800 | Invention | They use these planes during the invasion of Olenia, where the Olenians surrender quickly | History | same
+  - 1783 | Usage | Hermann Meyer and the Republican Airforce desert during the Long March and fly to Haukland to form a pirate state | History | same
+  - 1783 | Usage | Without state ownership of planes, the ace pilots experiment with building their own planes, forging aluminum frames and using traditional griffon artisan enchantments | History | same
+  - 1801 | Usage Plan | During the Great War, Wonderbolts and Aquileian Aces fire machine guns 50+ seconds and bomb tanks with unicorns, while changelings can only fire 15 seconds and need separate CAS with one big bomb | History | unmatched
+  - 1801 | Usage Plan | The Wonderbolts' supply chain is weak compared to the changelings' mass-produced swarm | Civilization | unmatched
+  - 1801 | Usage Plan | The Wonderbolts look invincible but are unsustainable until love donators appear | NarrativeArchitecture | same
+  - 1802 | Usage Plan | The Aquileian aces built their own planes, making them super lightweight with magical enchantments from forger's pride | History | 1783
+  - 1802 | Usage Plan | The Wonderbolts use their flying instincts in their planes for supreme situational awareness | Civilization | unmatched
+  - 1802 | Usage Plan | The changeling fighter pilots are completely outmatched, relying on equipment reading and rigid formations | Civilization | unmatched
+  - 1802 | Usage Plan | The changeling dive bombers are sitting ducks | Civilization | unmatched
+  - 1803 | Usage Plan | A unicorn can shield the back of the fighter during air-to-air combat | Ontology | unmatched
+  - 1803 | Usage Plan | Once air superiority is won, the fighter dive bombs ground troops with white phosphorus rounds to shred supply trucks while the unicorn bombards tanks and trenches with destructive spells | Ontology | unmatched
+  - 1803 | Usage Plan | No need to allocate space for bomb bays; it is a hybrid fighter+CAS | Civilization | 1796
+  - 1803 | Usage Plan | The Aquileian unicorns used crystal enhancers | History | unmatched
+- whole: Most tracks are internally consistent: Analogies, Function, Invention, and Usage each hold only content in their own declared mode (Analogies, Ontology, History, History respectively), so every thing in them is placed "same." The irregularities cluster in two places. First, the Canon References track holds a single note (1804) whose content is a real-world game-design analogy rather than an in-fiction canon constraint; its mode is Analogies, and since the Analogies track has notes but none carrying the same kill-ratio content, it is unmatched. Second, the Usage Plan track (declared NarrativeArchitecture) carries the heaviest mixture of foreign modes: alongside one thing in its own mode (the "look invincible but unsustainable" arc note, 1801), it holds History-mode combat-statistics and pilot/plane-origin reporting (1801, 1802, 1803's crystal-enhancers line), Ontology-mode capability description of unicorn-fighter combat tactics (1803), and Civilization-mode statements about supply-chain weakness, pilot instinct advantage, changeling vulnerability, and the fighter/CAS hybridization rationale (1801, 1802, 1803). Of these, two find matches: the account of Aquileian aces building their own enchanted planes (1802) restates the History-mode content of Usage note 1783, and the "no need for bomb bays, hybrid fighter+CAS" claim (1803) restates the Civilization-mode content of Civilizational Impact note 1796. The remaining foreign-mode content in Usage Plan — the Great War firing-duration comparison, the supply-chain remark, the situational-awareness and outmatched-pilot claims, the sitting-ducks line, the unicorn-shield and dive-bombing capability descriptions, and the crystal-enhancers usage fact — has no counterpart elsewhere and is unmatched. Within Civilizational Impact, note 1796 itself splits: its "no dedicated CAS needed" clause sits in its own Civilization mode, but its preceding claim about heavy armor enabling strafing is Ontology-mode content with no counterpart in the Function track, so it is unmatched. All notes in Function, Invention, Usage, and Analogies match their tracks' own modes throughout. The Allegories, Garden Notes, Themes, and Reader Opinion tracks, and every scene-link track, hold no notes at all.

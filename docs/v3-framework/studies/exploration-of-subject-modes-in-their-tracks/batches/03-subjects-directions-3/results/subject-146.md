@@ -1,0 +1,85 @@
+- claims:
+  - 2311 | Analogies | describes Pacific Northwest tribal salmon management councils coordinating harvest via negotiable rights to keep population viable | Analogies | same
+  - 2311 | Analogies | maps European settler disruption of salmon management for canning to griffon colonists and later Chrysalis's attempts | Analogies | same
+  - 2312 | Analogies | describes Aboriginal mosaic burning as sophisticated ecological management that looked primitive to settlers, whose disruption caused megafires | Analogies | same
+  - 2312 | Analogies | maps this to how Equestrians and Herzlanders view the Tzinacatl system from outside | Analogies | same
+  - 2318 | Analogies | maps Ho Chi Minh's early universalist communist humanism to what the Coltbert Reforms delivered | Analogies | same
+  - 2318 | Analogies | maps the Viet Minh's shift from universalism to nationalism to the traditionalist confederation | Analogies | same
+  - 2318 | Analogies | maps the South Vietnamese government to a mix of Aquileian and Skyfall compradors | Analogies | same
+  - 2318 | Analogies | maps the Hoa Hao and Cao Dai movements to the chiropterrans | Analogies | same
+  - 2318 | Analogies | notes real Vietnam became semi-authoritarian state capitalism | Analogies | same
+  - 2359 | Analogies | states Aztec councils operated on consensus through deliberation rather than formal voting | Analogies | same
+  - 2358 | Canon References | states P&K's Tzinacatl plot inherits ASOIAF conventions rather than real Mesoamerican politics, and TLTT subverts this with materialist ontology | Canon | same
+  - 2358 | Canon References | identifies the 32-32 tie device as ASOIAF's Great Council mechanism concentrating legitimacy into one pivotal actor | Canon | same
+  - 2358 | Canon References | states real Aztec councils operated on consensus-seeking, not binary counting toward a dramatic tie | Analogies | 2359
+  - 2358 | Canon References | identifies the chaotic shoving assembly as ASOIAF's medieval council archetype of dysfunctional institutions needing an exceptional individual | Canon | same
+  - 2358 | Canon References | argues the Moonspeakers' dysfunctional dramatic texture signals a barely functional institution, serving the narrative need for Flurry's individual qualities to matter | WorldInference | empty
+  - 2360 | Canon References | contrasts P&K's singular tlatoani over all Tzinacatl with TLTT's distributed tlatoani/moonspeaker per tribe with no single speaker for all Tzinacatl | Canon | same
+  - 2360 | Canon References | notes that in real Nahuatl, tlatoani translates to 'one who speaks' | Analogies | unmatched
+  - 2174 | Causality of Creation | states tropical geography enables agriculture so Tzinacatl can live without monster hunting | Civilization | same
+  - 2174 | Causality of Creation | states losing a flower war means loss of hunting privilege, not death, allowing retraining for the next contest | Ontology | unmatched
+  - 2174 | Causality of Creation | states the food supply enables institutional non-lethal competition | Civilization | same
+  - 2568 | Garden Notes | notes the Tzinacatl were designed as a mirror to the changelings, now differing only in food supply reliability rather than stratification | NotesToSelf | same
+  - 2205 | Historical Events | reports the Cocoltic Yaoyotl of 928 against Herzlander/Skyfall imperialists | History | same
+  - 2205 | Historical Events | states the flower war system's foundational rule is non-lethal capture | Ontology | unmatched
+  - 2205 | Historical Events | explains a gun-wielding warrior conducts lethal warfare against a non-lethal institution rather than competing for prestige | History | same
+  - 2205 | Historical Events | reports every Moonspeaker agreed on military coalition action and expulsion | History | same
+  - 2205 | Historical Events | reports expelled Tzinacatl took guns and grievances to Chiropterra, joining earlier expelled thestrals | History | same
+  - 2205 | Historical Events | reports this chaos scares Equestrians and lumps Tzinacatl with Griffons as anti-harmonic | History | same
+  - 2294 | Historical Events | reports 930 Stagnation of Harmony drug bans and the resulting trade shifts, export routes, arrests, and anti-thestral stigma | History | same
+  - 2286 | Historical Events | reports Coltbert's 981 gift of crossbows letting medicinal tribes opt out of flower wars within the rules while undermining their spirit | History | same
+  - 2184 | Historical Events | reports the 993 unanimous Conclave suspension of flower wars and declaration of cocoltic yaoyotl against colonizers | History | same
+  - 2184 | Historical Events | reports the three factions agreeing for the first time since 928 | History | same
+  - 2233 | Historical Events | reports three tiers of displaced 993 factory workers and their destinations | History | same
+  - 2161 | Historical Impact | reports thestrals retreated to the jungle after Luna's banishment due to no monsters and rejection by other tribes | History | same
+  - 2203 | Historical Impact | reports the stable 100-870 flower war period, conclave mediation, Celestia's prohibition on settling the jungle, and trade relations | History | same
+  - 2204 | Historical Impact | reports 870-928 global trade opening, griffon-influenced raiding, and drug tribes eroding rules | History | same
+  - 2204 | Historical Impact | states the conclave severely punishes overhunting/theft violators because they unsustainably remove resources from the closed ecological loop | Ontology | 2297
+  - 2204 | Historical Impact | reports some Tzinacatl leaving to found Chiropterra in North Zebrica | History | same
+  - 2204 | Historical Impact | reports commercial incentives were at personal scale while rank and file still grew plants and hunted sustainably | History | same
+  - 2283 | Historical Impact | reports post-Grover III griffon merchants selling guns to individual Tzinacatl and deepening commercial divergence | History | same
+  - 2292 | Historical Impact | reports Skyfall industrialists building factories and recruiting Tzinacatl from all tribes 986-993 | History | same
+  - 2292 | Historical Impact | reports Tzinacatl managers breaking Skyfall DRM and hiring warriors to defend company towns from mercenaries | History | same
+  - 2292 | Historical Impact | states non-lethal flower war training was co-opted into extractive colonial corporate warfare | History | same
+  - 2217 | Historical Impact | reports all tribes' nominal Conclave membership with shifting attendance and influence 981-1011 | History | same
+  - 2217 | Historical Impact | reports traditionalist Moonspeakers driving the Conclave's agenda | History | same
+  - 2217 | Historical Impact | reports medicinal Moonspeakers only caring about dispute resolution and ecological management | History | same
+  - 2217 | Historical Impact | reports drug/coastal Moonspeakers being sidelined | History | same
+  - 2217 | Historical Impact | states the three factions are demographically equal, so the Conclave lacks consensus, explaining why the Confederation is only traditionalists | History | same
+  - 2167 | Reader Opinion | describes readers' assumption of a Luna-unified diplomatic body versus the reality that the Conclave predates Luna | NarrativeArchitecture | same
+  - 2167 | Reader Opinion | states flower wars were for training young Tzinacatl before real monster hunts with Luna | Civilization | unmatched
+  - 1521 | Reader Opinion | describes readers' initial belief of scoffing/isolation versus the eventual materialist explanation of incompatibility and equal stability of thestral life | NarrativeArchitecture | same
+  - 1521 | Reader Opinion | states the flower wars were the pioneer ambition sink | Ontology | unmatched
+  - 2306 | Reader Opinion | contrasts readers' assumption of an untamed dangerous jungle with the reality of cultural hunting rules and deliberate non-overhunting | NarrativeArchitecture | same
+  - 2307 | Reader Opinion | contrasts readers' assumption of perpetual petty war with the reality of arranged ecological management, noting Chrysalis's clear cutting would have destroyed the equilibrium | NarrativeArchitecture | same
+  - 2315 | Reader Opinion | contrasts readers' assumption of a petty ambition sink with the revealed layer of ecological management functioning as diplomacy rather than top-down control | NarrativeArchitecture | same
+  - 2179 | Storytelling Plan | notes the author/Equestrians call them 'tribes' while Tzinacatl use 'altepetl/altepemeh' meaning city-state | NotesToSelf | unmatched
+  - 2179 | Storytelling Plan | states the tribes are sovereign jungle city-states with elaborate permanent architecture, not primitive | Civilization | unmatched
+  - 2183 | Storytelling Plan | directs that Hearth's Warming Bonds be framed as Nextlahualli debt-payment | NarrativeArchitecture | same
+  - 2206 | Storytelling Plan | plans that detailed Tzinacatl history goes in Mali and Luna's prequel, only surface level in TLTT | NotesToSelf | unmatched
+  - 2281 | Storytelling Plan | states Chrysalis's 986-993 factory wave was a coordinated state operation to extract rubber | History | unmatched
+  - 2281 | Storytelling Plan | claims this was far more effective than the 928 Herzlander individualists who made no dent in the flower war system | History | unmatched
+  - 2281 | Storytelling Plan | claims Coltbert's state-backed operation permanently made a rift in the flower war system | History | unmatched
+  - 2281 | Storytelling Plan | claims Chrysalis's factory wave permanently made a rift between drug tribes and drew workers/mercenaries from all tribes | History | unmatched
+  - 2281 | Storytelling Plan | claims traditional tribes calcified into a confederation to prepare for the next state-directed colonization | History | unmatched
+  - 2281 | Storytelling Plan | gives a synthesized timeline of faction formation from before 870 through 993 | History | unmatched
+  - 2288 | Storytelling Plan | states 928 involved only opportunists passing guns who were expelled | History | 2205
+  - 2288 | Storytelling Plan | states 981 involved coordinated non-lethal crossbows undermining the flower war system | History | 2286
+  - 2288 | Storytelling Plan | states 993 involved lethal guns with coordinated state backing | History | 2292
+  - 2163 | System Ontology | states the Moonspeaker Conclave is a 1000-year old institution governing the flower war system | Ontology | same
+  - 2160 | System Ontology | states the Conclave manages grievances, the flower war schedule, ransom negotiations, and rule violations | Ontology | same
+  - 2308 | System Ontology | states the Conclave manages harvest rates, territorial rights, ecosystem health, records, and mandatory ecological surveys | Ontology | same
+  - 2162 | System Ontology | states tribes cultivate Meadowbrook's pink love plants for warrior medicine | Ontology | same
+  - 2200 | System Ontology | states all tribes, including commercial ones, have moonspeakers in the Conclave | Ontology | same
+  - 2202 | System Ontology | states each tribe has its own language while a protocol language from Luna's monster-hunter era is used at Conclave | Ontology | same
+  - 2202 | System Ontology | notes some tribal languages are Aztec, Mayan, or Incan | Analogies | unmatched
+  - 2209 | System Ontology | states all tribes grow friendship plants for warrior care and handle red love plants for hunt highs | Ontology | same
+  - 2295 | System Ontology | states winning a flower war grants access to overhunted territory, rewarding martial excellence with more hunting access not just prestige | Ontology | same
+  - 2297 | System Ontology | states overhunting violations are punished punitively, met with cocoltic yaoyotl rather than xochiyaoyotl | Ontology | same
+  - 2555 | System Ontology | states thestrals hold specialized roles within their tribes reinforced by cutie marks | Ontology | same
+  - 2166 | Theme Plan | argues the difference between changeling hive wars and Tzinacatl ritual combat stems from caloric security via farming, not moral choice | ThematicEvidence | same
+  - 2168 | Theme Plan | asserts bottom-up power distribution is structurally superior, refuting Great Mare Theory | ThematicEvidence | same
+  - 2168 | Theme Plan | states the Conclave comes from material conditions, predating Luna | History | unmatched
+- whole: Most tracks hold content that matches their declared mode: Analogies notes stay in Analogies mode throughout; System Ontology notes stay in Ontology mode almost entirely; Historical Events and Historical Impact stay in History mode almost entirely; Theme Plan stays mostly in ThematicEvidence mode; Garden Notes stays in NotesToSelf mode.
+  
+  Several tracks carry content in other modes. Canon References holds an Analogies-mode statement (in 2358) that restates the same real-world-Aztec-consensus content held by the Analogies track's 2359, and a second Analogies-mode statement (in 2360, on the Nahuatl etymology of "tlatoani") that has no match elsewhere; it also holds a WorldInference-mode claim (in 2358, about what the Moonspeakers' dysfunction texture leads a reader to infer) for which the subject's only WorldInference-declaring tracks (Reader Prior Belief Update, World Inference) are empty. Causality of Creation holds one Ontology-mode rule statement (in 2174, on losing a flower war) unmatched by the System Ontology track's content. Historical Impact holds one Ontology-mode statement (in 2204, on punishing overhunting) that matches the same rule stated in System Ontology's 2297 — the clearest case of identical content sitting in two tracks of different declared modes. Reader Opinion, though declared NarrativeArchitecture, holds two claims (in 2167 and 1521) that state system purpose/origin facts in Civilization and Ontology mode respectively, neither matched elsewhere. Storytelling Plan, also NarrativeArchitecture, carries the most cross-mode content: substantial History-mode narrative in 2281 (unmatched anywhere) and in 2288, whose three phase-claims each match content already held in History-mode notes (2205, 2286, 2292) — another case of the same content sitting in two differently-typed tracks; it also carries NotesToSelf-mode content (2179's terminology note, 2206's cross-book placement note) and one Civilization-mode claim (2179, on city-state architecture), none matched elsewhere. System Ontology carries one Analogies-mode aside (in 2202, on the real-world language families) unmatched elsewhere. Theme Plan carries one History-mode claim (in 2168, that the Conclave predates Luna) that is unmatched among History-mode tracks, though a NarrativeArchitecture-mode note elsewhere (2167, in Reader Opinion) makes the same statement — that overlap does not count as a match since Reader Opinion is not a History-declaring track.

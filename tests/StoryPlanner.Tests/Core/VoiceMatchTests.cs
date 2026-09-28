@@ -44,6 +44,30 @@ public class VoiceMatchTests
     }
 
     [Fact]
+    public void A_source_of_many_texts_has_no_shingles_across_their_seams()
+    {
+        var idx = new VoiceIndex(6);
+        idx.Add(Model1, new[] { "alpha beta gamma delta epsilon zeta", "eta theta iota kappa lambda mu" });
+        Assert.Equal(1, idx.SourceCount);
+        Assert.NotNull(idx.Match("alpha beta gamma delta epsilon zeta").Origin);
+        Assert.Null(idx.Match("delta epsilon zeta eta theta iota").Origin);
+    }
+
+    [Fact]
+    public void Shingles_credited_to_an_excluded_source_are_unmatched_and_no_later_source_inherits_them()
+    {
+        var plan = new VoiceSource("v1-plan:x.db", "v1-plan", "brian", new DateOnly(2026, 1, 10));
+        var idx = new VoiceIndex(6);
+        idx.Add(plan, Speech);
+        idx.Add(Model2, Speech);   // later: quotes the plan
+        var m = idx.Match(Speech, unmatchedIfCredited: s => s.Layer == "v1-plan");
+        Assert.Null(m.Origin);
+        Assert.Equal(0, m.Matched);
+        Assert.Equal(VoiceLabel.None, VoiceLabel.Of(m, new LabelThresholds()));
+        Assert.Equal("v1-plan:x.db", idx.Match(Speech).Origin!.Id);
+    }
+
+    [Fact]
     public void Nothing_in_the_index_means_none_not_short()
     {
         var idx = new VoiceIndex(6);

@@ -1,0 +1,24 @@
+- claims:
+  - 619 | Backstory | She joined the Storm King early | History | same
+  - 619 | Backstory | She used terrifying bursts of magic as intimidation to keep subordinate warlords in line through fear | History | same
+  - 619 | Backstory | She did this only sparingly because it hurt her and she couldn't let it show | History | same
+  - 623 | Backstory | Her role as the Storm King's 2nd in command was logistical organization | History | same
+  - 623 | Backstory | The Storm King himself supplied the screaming manosphere spirit and propaganda | History | same
+  - 618 | Character Appearance Plan | She works on the spellblast tank turret | History | unmatched
+  - 622 | Character Appearance Plan | The Tzinacatl calcify the stub of her horn so she can fire without recoil, like a reinforced tank barrel | History | unmatched
+  - 620 | Characterization | Fizzlepop's magical artillery gives her migraines from recoil | History | 619
+  - 629 | Characterization | She joined the Storm King early based on his rhetoric of uniting the continent against foreign slavers | Characterization | same
+  - 629 | Characterization | She felt being in charge was the only way to avoid being abused in a zero-sum predator's-dilemma environment | Characterization | same
+  - 630 | Characterization | Fizzlepop isn't evil for the sake of it; she is a brutal pragmatist | Characterization | same
+  - 630 | Characterization | She saw the Statthalter 'merchants' treating Zebrica like a meat market | History | unmatched
+  - 630 | Characterization | She joined the Storm King because his 'Join or Die' horde was the only military force capable of stopping the external slaving fleets | Characterization | same
+  - 624 | Character Actions | Her logistics skills serve well in rebuilding Ain Trotgourait | PageDesign | same
+  - 632 | Character Actions | Fizzlepop says to open up your eyes, see the world from where I stand | PageDesign | same
+  - 628 | Inferred Psychology | Fizzlepop is fighting not out of cruelty but survivalism | WorldInference | same
+  - 628 | Inferred Psychology | Twilight correctly recognizes the broken filly inside the armor | WorldInference | same
+  - 631 | Inferred Psychology | Fizzlepop views Twilight with total contempt | WorldInference | same
+  - 631 | Inferred Psychology | To Fizzlepop, Twilight is just another naive Equus imperialist who doesn't understand the 'civilized' world was eating Zebrica alive | WorldInference | same
+  - 627 | Revelation | In Celestia's post-scarcity society, utility magic is valued while destructive output is useless | Civilization | absent
+  - 627 | Revelation | In Zebrica, the Storm King looked at her 'disability' and saw a walking artillery piece of terror | History | unmatched
+  - 626 | Scene Theme Evidence | Working with Twilight just replaces top-down tyranny with top-down charity, and this approach fails | ThematicEvidence | same
+- whole: Across the subject, most tracks hold content in their own declared mode: Backstory (History) is uniformly History; Character Actions (PageDesign) is uniformly PageDesign; Inferred Psychology (WorldInference) is uniformly WorldInference; Scene Theme Evidence (ThematicEvidence) is ThematicEvidence. The deviations cluster around three points. First, the Characterization track carries two History-mode things alongside its proper Characterization content: note 620 (the migraine/recoil fact) restates the same content as Backstory note 619's "it hurt her" clause, so that fact sits doubled in a Characterization-typed track and a History-typed track; note 630's aside about the Statthalter merchants treating Zebrica as a meat market is likewise History-mode but finds no matching fact in Backstory, leaving it unmatched. Second, the Character Appearance Plan track (typed NarrativeArchitecture) holds two things, 618 and 622, that are both History-mode factual reporting (working the tank turret; the Tzinacatl's horn calcification) rather than appearance-plan content; neither matches anything in the History-typed Backstory track, so both sit unmatched. Third, the Revelation track (typed PageDesign) holds one thing in History mode (the Storm King's view of her as a walking artillery piece), which likewise finds no match in Backstory and is unmatched, and one thing in Civilization mode (the contrast between Celestia's utility-magic economy and Zebrica's valuation of destructive power); since no track on this subject is typed Civilization, that content is absent rather than placed. No content anywhere is found to be genuinely outside all twelve modes. The only case of the same content sitting in two differently-typed tracks is the migraine/pain fact shared between Characterization note 620 and History-typed Backstory note 619.

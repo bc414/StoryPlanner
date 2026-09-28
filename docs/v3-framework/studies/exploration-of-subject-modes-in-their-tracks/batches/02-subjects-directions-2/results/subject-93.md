@@ -1,0 +1,56 @@
+- claims:
+  - 1567 | Allegories | Skyfall stands for dystopian manosphere propaganda and unchecked capitalism in the real world | Allegories | same
+  - 1957 | Allegories | Skyfall's workers represent modern wage slaves caught in remittance traps | Allegories | same
+  - 2388 | Allegories | In a petrostate or VOC-style trade hub, corruption is the city's basic operating system, not a hidden flaw | Allegories | same
+  - 469 | Analogies | Skyfall is inspired by the Dutch Republic, merchants of death | Analogies | same
+  - 469 | Analogies | The Burgundian Inheritance/Spain/Dutch Revolt sequence parallels the 978 Ghishard betrayal and seizing the imperial fleet rather than building ships from scratch | Analogies | same
+  - 469 | Analogies | Just as the Dutch produced gunpowder, Skyfall makes modern armaments | Analogies | same
+  - 475 | Analogies | Skyfall/Chrysalis parallels the British opium wars and protection rackets | Analogies | same
+  - 1956 | Analogies | Passage-for-indenture mirrors indentured servitude in the early thirteen colonies | Analogies | same
+  - 1958 | Analogies | Skyfall is Carthage to Grover III's Rome | Analogies | same
+  - 1958 | Analogies | Skyfall's core values (gold, leverage, mercantilism) are defined in contrast to Grover III's values (honor, imperial service) | Characterization | absent
+  - 1960 | Analogies | The Phoebus Cartel of 1924 is applied across Skyfall's whole economy | Analogies | same
+  - 1960 | Analogies | Skyfall owners chase profit by making goods cheap and using planned obsolescence to build a subscription economy, while the same logic makes capital-equipment suppliers stiff the factories that stiff consumers | Civilization | unmatched
+  - 1960 | Analogies | Skyfall factories constantly break down and require extortionate parts and labor to repair | Ontology | unmatched
+  - 1960 | Analogies | No one in Skyfall questions the inefficiency because everyone is focused only on maximizing extraction from others while minimizing their own exposure | ThematicEvidence | unmatched
+  - 1960 | Analogies | By contrast, Kemerskai builds an industrial powerhouse in Cloudbury on solidarity, outlawing planned obsolescence and cultivating fraternity | Civilization | unmatched
+  - 2343 | Analogies | Skyfall recalls Banana Republics and the United Fruit Company | Analogies | same
+  - 2386 | Analogies | Skyfall's police/gangs resemble the Pinkerton Detective Agency or the private armies of the Dutch VOC | Analogies | same
+  - 1944 | Canon References | In default EaW canon Skyfall becomes a harmonic republic under Genevieve Guildedwing, but TLTT follows the oligarch path where it stays a max-capitalist trade federation | Canon | same
+  - 1968 | Canon References | Named canon figures hold specific Skyfall roles: Whitefeather (cigarettes), Kessler (brain-drain/cars), von Hochskiaue (banking), Bechard (arms/security) | Canon | same
+  - 1953 | Causality of Creation | Iron Chancellor Ghislain Guichard long fantasized about seizing the imperial fleet and letting banks print fiat money backed by shipping and privateering | Civilization | same
+  - 1953 | Causality of Creation | He carried this out in 978, becoming a trade federation | History | 1954
+  - 2396 | Historical Events | In 970, Chrysalis as an infiltrator breaks arrogant, well-defended corporations and investor-funded startups with private defense | History | same
+  - 1954 | Historical Events | In 978, Skyfall declares independence from the Empire and seizes the Imperial fleet | History | same
+  - 1947 | Historical Impact | From 914-970 Skyfall was the premier Imperial port city through which Zebrican wealth flowed into the Herzland's domestic economy | History | same
+  - 1962 | Reader Opinion | Readers initially see Skyfall as pure unchecked ego divorced from asset specificity, with predator instincts but no courage or artisan pride — ultimate poseurs | NarrativeArchitecture | same
+  - 1966 | Reader Opinion | Skyfall embodies the boring, soulless, greedy, capital-accumulating Herzland stereotype | Characterization | absent
+  - 1963 | Reader Opinion | Readers then learn Skyfall has talented artisans who live in penthouses, ignore lower-class suffering, and benefit from sweatshop labor, making it Aquileia's dark mirror | NarrativeArchitecture | same
+  - 1964 | Reader Opinion | The Skyfall resolution concludes that unconditional dignity can break the cycle | ThematicEvidence | 2415
+  - 1086 | Storytelling Plan | Skyfall Trade Federation is neutral in the Great Griffonian War | History | unmatched
+  - 2324 | Storytelling Plan | All of Skyfall hates Krystalfels for its crystal, translator, and drug monopolies | Ontology | unmatched
+  - 2324 | Storytelling Plan | Skyfall turns against Krystalfels and lets Kessler and the Celestial Resistance destroy its assets there | NarrativeArchitecture | same
+  - 2336 | Storytelling Plan | Kessler Jr. and Skyfall are shown that Krystallfels is not a legitimate An-Cap firm but a state-owned shell subsidized by a totalitarian foreign monarch | NarrativeArchitecture | same
+  - 2336 | Storytelling Plan | In Skyfall's ethics, exploiting workers is ordinary business, but using a state treasury to cheat the free market is the ultimate heresy | Ontology | unmatched
+  - 2337 | Storytelling Plan | Chrysalis cuts off Red Love from her conscripts, plunging both Skyfall's tycoons (needing it for 100-hour weeks) and its workers (needing it to endure the slums) into withdrawal | NarrativeArchitecture | same
+  - 463 | System Ontology | The stolen Imperial Fleet guarantees secure shipping, so Skyfall Marks are honored globally | Ontology | same
+  - 464 | System Ontology | The Marks are backed not by gold but by the value of trade and shipping insurance, relying on peaceful trade | Ontology | same
+  - 467 | System Ontology | Bank lending creates the fiat Skyfall Mark, unleashing ambition and making Skyfall a global power | Ontology | same
+  - 1085 | System Ontology | They are merchants of death | Ontology | same
+  - 1955 | System Ontology | Citizenship must be sponsored by a company through debt | Ontology | same
+  - 1959 | System Ontology | Sweatshop workers work 60-80 hour weeks and are replaced if they collapse, drawn from ruined farmers and lied-to immigrants, staying on the myth that saving up leads to becoming a CEO | Ontology | same
+  - 1965 | System Ontology | Rival shipping companies share an interest in the Mark's strength, so instead of open combat they play chicken with ramming and wake-washing | Ontology | same
+  - 1967 | System Ontology | Skyfall is a state built on Credit, Gunpowder, and Water | Ontology | same
+  - 2387 | System Ontology | There is no protective state police, only private corporate security and gangs, which are functionally the same, both serving the highest bidder | Ontology | same
+  - 2387 | System Ontology | Street-level gangs are tolerated by corporate police so long as they pay a cut and confine their terror to the slums | Ontology | same
+  - 2389 | System Ontology | With no centralized IP law, breaching the Dienst Resonantie Matrix instead of buying parts is a legal opportunity-cost calculation, and bounty size reflects the IP owner's market price for enforcement | Ontology | same
+  - 2395 | System Ontology | Compliant corporations hire minimal security, while arrogant, highly profitable corporations hire enough force to break contracts and shrug off bounties | Ontology | same
+  - 2342 | Theme Plan | Skyfall's fatal flaw is failing to recognize Krystallfels as a state actor subsidized by a totalitarian hive's extracted tax base | ThematicEvidence | same
+  - 2342 | Theme Plan | An An-Cap market is defenseless against a sovereign nation playing by mercantilist rules | ThematicEvidence | same
+  - 2413 | Demonstration | Mercenaries weigh Kessler's gold against their withdrawal agony and instantly turn their guns on Kessler and the Trade Council | PageDesign | same
+  - 2415 | Scene Theme Evidence | Unconditional dignity is the only way to break the cycle of extortion and punching down | ThematicEvidence | same
+  - 2416 | Scene Theme Evidence | The Patriotten walk unopposed into corporate penthouses because Equestria weaponized healthcare and empathy as a superior market incentive | ThematicEvidence | same
+  - 2414 | World Inference | In an An-Cap society, loyalty lasts only until a better offer appears | WorldInference | same
+- whole: Nearly every track holds notes squarely in its own declared mode: System Ontology is uniformly Ontology; Allegories and Analogies are uniformly their own modes; Canon References is uniformly Canon; both History tracks (Historical Events, Historical Impact) are uniformly History; Theme Plan is uniformly ThematicEvidence; and the scene-link tracks Demonstration (PageDesign), Scene Theme Evidence (ThematicEvidence), and World Inference (WorldInference) are each internally consistent with their type.
+  
+  The mixing that does occur clusters around a few tracks. Causality of Creation (Civilization) carries one note whose second half is a History-mode statement (Skyfall seizing the fleet in 978) that restates, in the same content, what Historical Events reports directly — the same fact sits in a Civilization-declared track and a History-declared track. Analogies, otherwise pure, contains one note (1960) that drifts through several other modes within a single real-world comparison: a Civilization-mode account of planned-obsolescence economics and of Kemerskai's contrasting solidarity model, an Ontology-mode claim about factories breaking down, and a ThematicEvidence-mode observation about no one noticing the system's inefficiency — none of these match anything held in Causality of Creation, System Ontology, or Theme Plan, so each stands unmatched. Analogies also holds a values-contrast statement (in note 1958) that functions as Characterization rather than Analogies; since no track on this subject declares Characterization, it is absent from the plan as given. The Reader Opinion track (NarrativeArchitecture) is mostly consistent with its own mode, but one note states Skyfall's identity as a Herzland stereotype in Characterization terms (again absent, no Characterization track exists), and another states the story's closing thematic proposition (unconditional dignity breaks the cycle) in ThematicEvidence terms — this is the one clear case of the same content appearing in two tracks of different declared types, matching Scene Theme Evidence's note on the same proposition. Storytelling Plan (NarrativeArchitecture) is largely consistent with its own mode but carries three deviations: a History-mode fact (Skyfall's neutrality in the Great Griffonian War) and two Ontology-mode statements (Skyfall's hatred of Krystalfels's monopolies; the norm that exploiting workers is business but state-subsidized market cheating is heresy) — none of these three find a matching statement elsewhere on the subject, so all are unmatched. Taken together, the deviations run mostly from Analogies and the two NarrativeArchitecture tracks outward into Civilization, Ontology, History, ThematicEvidence, and Characterization, with only one pair of notes (the 978 fleet-seizure fact, and the unconditional-dignity proposition) actually landing the same content twice across differently-typed tracks.

@@ -1,0 +1,27 @@
+- claims:
+  - 470 | Usage Plan | States the Reich uses the same rigid gold standard as Celestia | History | empty
+  - 470 | Usage Plan | Explains that rich nobles' desire to protect wealth from inflation is why the gold standard is used | Civilization | empty
+  - 470 | Usage Plan | Claims the zero-sum dynamic produced by the gold standard fuels a 'predator's dilemma' | ThematicEvidence | empty
+  - 470 | Usage Plan | Defines that under the gold standard, trust is physical and hoarded | Ontology | empty
+  - 470 | Usage Plan | Describes Skyfall banks' lending as the mechanism that creates the fiat Skyfall Marks | Ontology | empty
+  - 470 | Usage Plan | States this fiat creation unleashes ambition and makes Skyfall a global power | Civilization | empty
+  - 470 | Usage Plan | Labels Skyfall's monetary system as 'Ruthless Fiat/bank credit' | Ontology | empty
+  - 470 | Usage Plan | Defines that money represents Leverage in Skyfall's system | Ontology | empty
+  - 470 | Usage Plan | States Skyfall Marks are backed by the Trade Federation's credit, i.e. its power to enforce debts and control trade routes | Ontology | empty
+  - 470 | Usage Plan | Illustrates that acceptance of the currency is compelled by threat of losing protection or being raided | Civilization | empty
+  - 470 | Usage Plan | Defines that under Skyfall's system trust is extorted | Ontology | empty
+  - 470 | Usage Plan | Claims Skyfall's system favors predators | ThematicEvidence | empty
+  - 470 | Usage Plan | Describes banks printing money to lend to tycoons who buy up land and factories | Civilization | empty
+  - 470 | Usage Plan | States this process creates massive inequality | Civilization | empty
+  - 470 | Usage Plan | Labels Skyfall's dynamic as 'ambition without harmony' | ThematicEvidence | empty
+  - 470 | Usage Plan | Labels Coltbert's model as 'harmonic fiat/social credit' | Ontology | empty
+  - 470 | Usage Plan | Defines that money represents future trust in Coltbert's system | Ontology | empty
+  - 470 | Usage Plan | Reports that Coltbert adapted the fiat mechanic of printing money while changing who backs it | History | empty
+  - 470 | Usage Plan | States Coltbert's currency is backed by the royal coffers at 1:1 conversion and the royal advisor's word | Ontology | empty
+  - 470 | Usage Plan | Defines that in Coltbert's system money is command | Ontology | empty
+  - 470 | Usage Plan | Defines that under Coltbert's system trust is commanded, illustrated by the king declaring the paper's worth | Ontology | empty
+  - 470 | Usage Plan | States Kemerskai's Riks are backed by federal law and taxes | Ontology | empty
+  - 470 | Usage Plan | States the 2nd Aquileian Republic's Francs are backed by national production and war bonds | Ontology | empty
+  - 470 | Usage Plan | States Equestria's war bonds are backed by collective labor and the future | Ontology | empty
+  - 470 | Usage Plan | Defines that under these three systems trust is mutual | Ontology | empty
+- whole: The subject has only one populated track, Usage Plan (NarrativeArchitecture, 'how the technology is shown and used throughout the story'), holding a single note (470); every other track on the subject — Function (Ontology), Civilizational Impact (Civilization), Invention and Usage (History), Themes (ThematicEvidence), Allegories, Analogies, Canon References, Garden Notes, Reader Opinion — is empty, as are all scene-link tracks. Note 470's content, however, is written almost entirely outside its track's own NarrativeArchitecture mode: it defines how various currencies work and what backs them and what trust means under each (Ontology), reports who uses which system and how a mechanic was adapted by a historical figure (History), explains why nobles or citizens use a given system and what effect it has on the world, e.g. inequality, ambition, global power (Civilization), and frames some of these mechanics as evidence for thematic propositions like a 'predator's dilemma' or 'ambition without harmony' (ThematicEvidence). No sentence in the note actually stages how the reader experiences or is shown the technology across the story, which is the mode its own track declares. Because the tracks whose type matches each of these modes (Function, Civilizational Impact, Invention, Usage, Themes) exist but hold no notes of their own, none of this content is duplicated in, or contradicted by, another track — every off-mode thing in note 470 lands on 'empty' rather than matching or conflicting with content elsewhere on the subject.

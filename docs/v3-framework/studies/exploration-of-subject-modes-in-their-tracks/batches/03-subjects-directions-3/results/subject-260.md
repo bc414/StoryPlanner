@@ -1,0 +1,30 @@
+- claims:
+  - 2381 | Allegories | Anarcho-capitalism and deregulation are framed as industrial feudalism rather than freedom's evolution | Allegories | same
+  - 2381 | Allegories | Technology is framed as an accelerant, not the root cause, of that feudalism | Allegories | same
+  - 2381 | Allegories | Restrictive tech can be jailbroken/smashed off; the economic system and incentives are the real root problem | Allegories | same
+  - 2374 | Analogies | Digital Rights Management is cited as real-world inspiration | Analogies | same
+  - 2373 | Analogies | John Deere tractors are cited as real-world inspiration | Analogies | same
+  - 2375 | Analogies | Dutch 'dienst' (service/duty) and 'Leendienst' (a squire's feudal duty to a knight) are given as etymological/historical inspiration | Analogies | same
+  - 2375 | Analogies | Skyfall engineers applied the feudal-squire concept to their machines | Civilization | unmatched
+  - 2418 | Analogies | Historically a mechanic could forge a replacement for a broken physical gear | Analogies | same
+  - 2418 | Analogies | Modern manufacturers embed DRM in components so an identical third-party replacement sensor is rejected for lacking a cryptographic signature | Analogies | same
+  - 2419 | Analogies | Watt's ironclad steam-engine patent forced rivals into 18th-century 'jailbreaking' via pirate engines until the patent expired and unleashed innovation | Analogies | same
+  - 2419 | Analogies | IBM bundled mainframe hardware/software/service and voided warranties for third-party parts until antitrust action forced unbundling | Analogies | same
+  - 2377 | Civilizational Impact | When a DRM violation signal is received, Skyfall's goal is not machine retrieval but collecting the contractual penalty via violence | Civilization | same
+  - 2090 | Civilizational Impact | The initial power-crystal scarcity is caused by demand for IP protection serving rent-seeking | Civilization | same
+  - 2394 | Function | The crystal holds the corporation's proprietary vector and checks parts for a matching consent vector to verify compatibility | Ontology | same
+  - 2394 | Function | Detection of an incompatible part causes the system to lock up mechanically | Ontology | same
+  - 2406 | Function | If the crystal is smashed or removed, a one-time message stored as suspended potential energy is released like the griffon-messaging 'fire' | Ontology | same
+  - 2406 | Function | That one-time long-range message is sent to the Skyfall corporate office | Ontology | same
+  - 2406 | Function | The corporation then decides whether to charge a fine for a first violation, hoping to extort future business, or place a black-market bounty on the violator's assets | Civilization | unmatched
+  - 2382 | Garden Notes | The name 'Dienst Resonantie Matrix' was chosen over 'Diagnostische Resonantie Module' because it is not for diagnostics; everyone in Skyfall knows it's for subscription fees | NotesToSelf | same
+  - 2382 | Garden Notes | 'Dienst' as feudal duty is thematically more precise | NotesToSelf | same
+  - 2099 | Invention | Aquileian Royalist researchers developed a long-distance communication spell matrix from griffon-messaging and unicorn-teleportation research | History | same
+  - 2099 | Invention | Skyfall engineers took that concept and corrupted it | History | same
+  - 2380 | Usage | Under Grover III's chivalric code, 'dienst' became the apprenticeship social contract between master artisan and apprentice | History | same
+  - 2378 | Usage Plan | Equestrians colloquially call it 'the dienst' | History | unmatched
+  - 2378 | Usage Plan | 'Dienst-locked' (service-locked) is the term used for bricked machines | History | unmatched
+  - 2378 | Usage Plan | 'Ripping out the Dienst' describes tearing out the oath of fealty to unbridle a machine | History | unmatched
+  - 2398 | Usage Plan | Compradors refuse to let EEEE unbridle their machines for the war effort, fearing Skyfall bounties once Chrysalis takes over | Civilization | unmatched
+  - 2398 | Usage Plan | Their calculation is that sitting still lets them become the new industrialists and resume business with Skyfall after a Chrysalis takeover | Civilization | unmatched
+- whole: Analogies and Allegories hold content squarely in their own declared modes (real-world DRM/John Deere/Watt/IBM parallels; the anti-anarcho-capitalist commentary), with one exception: a clause in note 2375 (engineers applying the feudal-squire concept to their machines) is Civilization-mode content sitting in the Analogies track; the Civilizational Impact track exists with notes (2377, 2090) but none states this, so it is unmatched. Civilizational Impact itself holds only Civilization-mode content matching its track. Function (Ontology) mostly matches its own mode (crystal/consent-vector mechanics, lock-up behavior, the crystal-smash message mechanism), but one clause of note 2406 — the corporation's choice between a fine or a black-market bounty — is Civilization-mode content; again the Civilizational Impact track has notes but none holds this specific content, so it is unmatched. Garden Notes and Invention/Usage each hold content consistent with their declared modes (NotesToSelf naming rationale; History facts of invention and chivalric usage). Usage Plan (declared NarrativeArchitecture) holds no content actually written in narrative-staging terms: note 2378's slang/terminology facts are History-mode content, and note 2398's comprador motivations are Civilization-mode content; for both, the tracks that declare those modes (Invention/Usage for History; Civilizational Impact for Civilization) hold notes but none matching this content, so all of it is unmatched. No note anywhere on this subject is written in WorldInference, PageDesign, or ThematicEvidence mode, and no same content is duplicated across two tracks. Canon References, Reader Opinion, and Themes are shown empty, as are all six scene-link tracks (Reader Prior Belief Clash, Reader Prior Belief Update, Revelation, Scene Theme Evidence, Usage, World Inference).

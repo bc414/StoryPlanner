@@ -1,0 +1,18 @@
+- claims:
+  - 1914 | Civilizational Impact | states the technology was invented to get around the supply-chain bottleneck caused by Diamond Mountain's slave-labor-sourced highest-grade crystals | Civilization | same
+  - 1915 | Civilizational Impact | states that asset specificity and material conditions, not mere goodwill, drove unicorn-griffon collaboration | Civilization | same
+  - 1915 | Civilizational Impact | labels this collaboration a precursor to "ego capitalism" | ThematicEvidence | empty
+  - 1916 | Function | describes the machine as one that stabilizes the magical flow out of lower-grade crystals | Ontology | same
+  - 1916 | Function | states the machine must be operated by the griffon who built it so its metallurgic surfaces don't shatter while funneling the flow | Ontology | same
+  - 1917 | Function | states griffons and unicorns begin bootstrapping the process to scale it up | Civilization | unmatched
+  - 1917 | Function | describes a unicorn with a crystal enhancer using the lithography spell to etch a new spell into a spell matrix, producing T1 | Ontology | same
+  - 1917 | Function | describes manually etching the specific lithography spell to make T1 instead, producing an intermediate item called T2 | Ontology | same
+  - 1917 | Function | describes hooking T2 to a griffon artisan's flow-stabilizer machine, feeding it low-grade crystals, stabilizing the flow, and powering the T2 matrix aimed at a blank crystal to produce T1 copies | Ontology | same
+  - 1917 | Function | states this lets griffons make T1s to sell | Civilization | unmatched
+  - 1917 | Function | states that etching many T1 spell matrices this way becomes repeatable, though still grueling since it still requires a griffon artisan running the machine | Ontology | same
+  - 1941 | Function | states the crystal stabilizer must be operated at vacuum for particle cleanliness and to prevent oxygen from reacting with the punctured crystal and forming slag | Ontology | same
+- whole: The Function track (Ontology-mode) is almost entirely occupied by its own mode: notes 1916, 1917, and 1941 mostly describe mechanism, materials, and operating rules, matching the track's declared mode. But note 1917, in describing the bootstrapped scaling process, also contains two statements in Civilization mode ("griffons and unicorns start bootstrapping to scale up" and "griffons are able to make T1s to sell") — content about in-universe agents' response and its effect on the story world. Neither is matched by the Civilizational Impact track (Civilization mode), which holds notes 1914 and 1915 but on different specific content (the invention's motive, and the drivers of collaboration), so both sit as unmatched.
+  
+  The Civilizational Impact track (Civilization-mode) itself is mostly true to its mode (1914, and the first part of 1915), but the closing phrase of note 1915 — naming the collaboration a "precursor to ego capitalism" — is written in ThematicEvidence mode, deploying the collaboration as evidence toward a thematic proposition about capitalism. The Themes track, which declares ThematicEvidence mode, holds no notes, so this content sits as empty.
+  
+  No content across the subject repeats identically between two tracks; the two Civilization-mode statements found outside the Civilizational Impact track's own mode remain unmatched rather than duplicated, and the one ThematicEvidence-mode statement found outside the Themes track has no track content to match against. All other tracks on this subject (Allegories, Analogies, Canon References, Garden Notes, Invention, Reader Opinion, Usage, Usage Plan, and every scene-link track) are shown with no notes.

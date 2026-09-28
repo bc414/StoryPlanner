@@ -1,0 +1,45 @@
+- claims:
+  - 1726 | Backstory | Seeing the Sonic Rainboom made her mind snap defiantly and refuse the laws of physics | History | same
+  - 1726 | Backstory | Her reality-bending magic is a supreme, localized manifestation of a magic category called Red Love (Ambition) | Ontology | absent
+  - 1734 | Backstory | Her canon 'Asset Specificity' is knowing every pony's favorite cake and insecurities | Canon | 1720
+  - 1734 | Backstory | In the trenches this hyper-empathy becomes a psychological liability | Characterization | unmatched
+  - 1734 | Backstory | Trimmel's artillery erases ponies she knows intimately without caring about their personal details | History | same
+  - 1721 | Backstory | An infiltrator kidnapped a pony Pinkie knew, impersonated them, and Pinkie detected and shot the changeling without a spell | History | same
+  - 1721 | Backstory | The pony is found in a ditch during the retreat and Pinkie is left permanently scarred | History | same
+  - 1731 | Backstory | She retreats to the artillery batteries in Diyarbecolt because indirect fire is impersonal | History | same
+  - 1728 | Character Appearance Plan | Cartoon physics for fun only appear when the audience is already in a healthy state; otherwise only real morale boosts without gags | NarrativeArchitecture | same
+  - 1711 | Character Development | Around the spearhead she embraces a morale role about hope and sticking together, called Resilience, learned from Tally Mark | NarrativeArchitecture | same
+  - 1714 | Character Development | Seeing soldiers keep hope before the spearhead lets her realize hope still has a place and she can spread hope instead of joy | NarrativeArchitecture | same
+  - 1714 | Character Development | Before, she thought all her pre-war cheerful parties were ultimately false hope | Characterization | 1713
+  - 1714 | Character Development | The spearhead is planned as a turning point giving her a reason to raise real, non-false morale | NarrativeArchitecture | same
+  - 1729 | Character Development | Pinkie's magic is governed by her intent | Ontology | absent
+  - 1729 | Character Development | Pre-war Pinkie had a monolithic ambition to make everyone laugh at all times | Characterization | unmatched
+  - 1729 | Character Development | Trench warfare teaches her that context dictates the ambition, since forcing laughter on the suffering is toxic positivity | NarrativeArchitecture | same
+  - 1729 | Character Development | Her ambition shifts from enforcing laughter to fostering what the pony actually needs | NarrativeArchitecture | same
+  - 1730 | Character Development | Her season 1 emotionally intelligent personality is her true self, overridden by the stagnation of harmony into flanderized toxic positivity | Canon | 1720
+  - 1730 | Character Development | Her arc here is a return to and refinement of adult emotional intelligence | NarrativeArchitecture | same
+  - 1727 | Characterization | Her cartoon physics are the magical byproduct of an Earth Pony treating thermodynamics as optional to make someone smile | Characterization | same
+  - 1712 | Characterization | At the start of industrial war she is gray and deflated, believing her talent for laughter is a useless lie | Characterization | same
+  - 1713 | Characterization | She thinks all her pre-war cheerful parties were ultimately false hope | Characterization | same
+  - 1733 | Characterization | Her attempts to project Pink Love fail completely against Jaeger-Geist-saturated conscripts who do not register her empathy | Characterization | same
+  - 1733 | Characterization | The changeling conscripts' Emotion Sense is chemically lobotomized | Ontology | absent
+  - 1720 | Source Material References | Pinkie is the hardest Mane 6 member to write well, easily falling into the Hasbro Mandate of toxic positivity | NotesToSelf | empty
+  - 1720 | Source Material References | The original Faust-era Pinkie canonically knew every pony's name, birthday, flavor and insecurities before the Hasbro Mandate reduced her to toxic HR positivity | Canon | same
+  - 1720 | Source Material References | Learning Resilience lets her tap back into this original trait of understanding insecurities and delivering custom solutions | NarrativeArchitecture | unmatched
+  - 1720 | Source Material References | In A Friend in Deed she correctly diagnoses Cranky Doodle Donkey's anhedonia over Matilda and reconnects them | Canon | same
+  - 1720 | Source Material References | In Griffon the Brush Off she shows empirical understanding of peers' psychological limits, e.g. never pranking Fluttershy | Canon | same
+  - 1720 | Source Material References | In Swarm of the Century she shows she is not blinded by panic or ideology | Canon | same
+  - 1725 | Source Material References | Her party cannon is fueled by explosives from the rock farm's minerals | Canon | same
+  - 1979 | Source Material References | In P&K, Pinkie is a catatonic husk in bed | Canon | same
+  - 1979 | Source Material References | TLTT has Pinkie regain her vigor through an actual purpose, learning to be resilient | NarrativeArchitecture | 1711
+  - 2032 | Source Material References | Her cutie mark story is a fairy tale, while the truth is her parents' joy for rocks went uncompensated by Skyfall merchants | Canon | same
+  - 1033 | Character Actions | She remembers every Zebra's name and greets them to spread smiles | PageDesign | same
+  - 1034 | Scene Theme Evidence | This worked as genuine morale because the hippogriffs secured protection and the zebras are steadily rebuilding | ThematicEvidence | same
+  - 1722 | Inferred Psychology | Pinkie is permanently scarred | History | 1721
+  - 1722 | Inferred Psychology | It forces her to accept that survival sometimes requires lethal force even against something that looks like a friend | WorldInference | same
+  - 1722 | Inferred Psychology | This trauma justifies her later isolation with the Temberik in Diyarbecolt | WorldInference | same
+  - 1722 | Inferred Psychology | She retreats to the artillery lines because artillery is impersonal | History | 1731
+  - 1723 | Revelation | The infiltrator kidnapped and impersonated a pony Pinkie knew, was detected and shot, and the pony was found in a ditch during the retreat | History | 1721
+  - 1724 | Scene Theme Evidence | Naive joy could not stand up to industrial war | ThematicEvidence | same
+  - 1719 | none | Pinkie and Tally Mark bake scones, Pinkie names baking powder as the secret ingredient while Tally Mark says friendship | PageDesign | unmatched
+- whole: Most tracks hold content matching their declared mode, but several carry material in other modes. Backstory (History) contains an Ontology-mode claim about magic taxonomy (Red Love/Ambition) and a Characterization-mode claim (hyper-empathy as a liability), plus a Canon-mode claim (Asset Specificity) that matches Source Material References note 1720. Character Development (NarrativeArchitecture) carries a Characterization-mode claim (pre-war belief that parties were false hope) matching Characterization note 1713, an unmatched Characterization-mode claim (pre-war blunt ambition), an Ontology-mode claim (magic governed by intent), and a Canon-mode claim (season-1 true self vs. stagnation-of-harmony flanderization) matching Source Material References note 1720. The Characterization track itself carries an Ontology-mode claim about changeling Emotion Sense. Source Material References (Canon) carries a NotesToSelf-mode claim about the difficulty of writing Pinkie, which finds no match since Garden Notes (NotesToSelf) is empty, and a NarrativeArchitecture-mode claim about Resilience reactivating an original trait, which is unmatched against Character Development. Inferred Psychology (WorldInference) carries two History-mode claims (permanent scarring; retreating to artillery for its impersonality) that match Backstory notes 1721 and 1731 respectively. Revelation (PageDesign) carries a History-mode claim (the infiltrator incident) matching Backstory note 1721. The unassigned note 1719 carries a PageDesign-mode claim that does not match the content of the other PageDesign-typed notes (1033, 1723). Three Ontology-mode claims (Red Love, Emotion Sense, magic-governed-by-intent) have nowhere to land since no track on this subject is typed Ontology, leaving them absent. Where content doubles across tracks: the Faust-original-Pinkie-vs-toxic-positivity claim sits in Source Material References (1720) and is echoed from Backstory (1734) and Character Development (1730); the false-hope belief sits in Characterization (1713) and is echoed from Character Development (1714); the scarring and artillery-retreat facts sit in Backstory (1721, 1731) and are echoed from Inferred Psychology (1722) and Revelation (1723); and the resilience-through-purpose premise sits in Character Development (1711) and is echoed from Source Material References (1979).

@@ -1,0 +1,18 @@
+- claims:
+  - 1702|Discoveries|Windigos formerly moved the sun and moon, which enabled the beginnings of plant life and then animal life|History|same
+  - 1702|Discoveries|As windigos began crashing due to the emergence of Friendship, the sun and moon's rotation began slowing down|History|same
+  - 1703|Discoveries|Equestrian unicorns had to invent sun- and moon-moving spells to pick up the slack and keep agriculture possible|History|same
+  - 874|Garden Notes|States that in canon, unicorns 'move the sun and the moon'|Canon|empty
+  - 874|Garden Notes|Reasons that letting unicorns subjectively move the sun and moon would be world-breaking, prompting the design choice below|NotesToSelf|same
+  - 874|Garden Notes|States the design answer that the sun and moon only move on a fixed path|Ontology|1701
+  - 874|Garden Notes|States that this fixed-path design leads to fixed climates|Ontology|873
+  - 874|Garden Notes|States that this design explains the canon elements of Winter Wrap Up and the seasons|Canon|empty
+  - 873|World Truth|The world is a zero-obliquity world with no axial tilt|Ontology|same
+  - 873|World Truth|Latitude dictates a perpetual, unchanging biome|Ontology|same
+  - 1700|World Truth|The planetary system is geocentric and at a highly localized scale compared to real life|Ontology|same
+  - 1700|World Truth|The sun and moon are small and low-power compared to the real sun|Ontology|same
+  - 1700|World Truth|The sun and moon sit in the upper atmosphere, which is why they are moveable via magic|Ontology|same
+  - 1701|World Truth|The sun and moon are massive enough that their path through the upper atmosphere is fixed|Ontology|same
+  - 1701|World Truth|Spells only move the sun and moon along their already-set path|Ontology|same
+  - 1704|World Truth|The sun cannot be weaponized to destroy an enemy nation|Ontology|same
+- whole: Two subject-wide tracks carry notes: World Truth (Ontology) and Discoveries (History), plus Garden Notes (NotesToSelf). Every note in World Truth and Discoveries is written in its own track's declared mode, with no drift. Garden Notes, whose declared mode is NotesToSelf, is the one track mixing modes: alongside its NotesToSelf content (the reasoning that subjective sun/moon movement would be world-breaking), its single note also carries Ontology-mode content that restates the same content held in World Truth notes 1701 (fixed path) and 873 (fixed climates via latitude), and it carries Canon-mode content (the canon premise that unicorns move the sun and moon, and the claim that the fixed-path design explains Winter Wrap Up and the seasons) for which the only track of that mode, Source Material References, is empty, leaving that content unmatched-by-emptiness. All scene-link tracks (Demonstration, Reader Prior Belief Clash, Reader Prior Belief Update, Stated Principles, Thematic Proposition Evidence, World Inference) are empty and hold no notes. The remaining subject-wide tracks — Allegories, Analogies, Demonstration Plan, Historical Understanding, Reader Understanding Plan, Source Material References, Themes — are likewise empty.

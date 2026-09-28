@@ -1,0 +1,22 @@
+- claims:
+  - 397 | Backstory | Fluttershy learned The Stare at the end of "Putting Your Hoof Down," when she had just moved to Ponyville and taken on too many animal friends | History | same
+  - 397 | Backstory | The Stare lesson came from Rarity, teaching assertiveness instead of behaving as prey | History | same
+  - 399 | Character Development | Fluttershy's main arc moves from exercising top-down authority like Celestia's to letting the birds and changelings make their own choices, even at risk to them | NarrativeArchitecture | same
+  - 1123 | Characterization | The Stare works through shaming, calling out poseurs and cowards | Ontology | absent
+  - 1123 | Characterization | The Stare works on changelings who don't know better or were coerced or brainwashed | Ontology | absent
+  - 1123 | Characterization | The Stare has no effect on someone who is a predator by true choice | Ontology | absent
+  - 1123 | Characterization | The Stare works on actual animal predators because they run on predatory instinct and sense prey signals | Ontology | absent
+  - 1123 | Characterization | In Stare mode Fluttershy has no fear and becomes the apex, causing predators to back down | Characterization | same
+  - 1123 | Characterization | Changelings who can be cowed by the Stare can be rehabilitated | Ontology | absent
+  - 1123 | Characterization | Statthalters, who take joy in cruelty, can never be rehabilitated | Ontology | absent
+  - 401 | Reader Opinion Plan | Readers may initially assume Fluttershy is naive and unfit for war or the world's ugly realities, especially if they've read The Princess and the Kaiser | NarrativeArchitecture | same
+  - 1981 | Source Material References | Unlike P&K Fluttershy, who retreated to a cave unable to stomach war's horrors, TLTT Fluttershy embodies grace and works with the POWs and the love donator | Canon | same
+  - 393 | Character Actions | Fluttershy is afraid of the front | PageDesign | same
+  - 393 | Character Actions | Celestia asked Fluttershy to bring Twilight back | PageDesign | same
+  - 1130 | Character Actions | Fluttershy tells Rainbow Dash to stop calling the changelings monsters, saying they're hungry | PageDesign | same
+  - 1130 | Character Actions | Rainbow Dash responds that the changelings aren't starving wolves but war criminals | PageDesign | same
+  - 1190 | Revelation | Fluttershy and Discord feel used, just like Twilight | Characterization | unmatched
+  - 394 | Inferred Psychology | Fluttershy views Celestia's request as an order from the monarch | WorldInference | same
+- whole: Most tracks hold content squarely within their declared mode: Backstory and Life Phases (History), Character Development/Reader Opinion Plan (NarrativeArchitecture), Source Material References (Canon), Character Actions and Revelation-as-staged-dialogue portions (PageDesign), and Inferred Psychology (WorldInference) all read as their own mode with no deviation, and none of their content is duplicated in a second track — each fact (the Stare's origin lesson, the arc from authority to autonomy, reader's naive-Fluttershy assumption, the P&K/TLTT contrast, the letter/front-fear scene, the Rainbow Dash exchange, viewing Celestia's request as an order) appears exactly once.
+  
+  Two departures stand out. The Characterization track (note 1123) is mostly written in Ontology mode: it lays down world rules for how The Stare functions (shaming poseurs/cowards, working on coerced or ignorant changelings, failing against true predators-by-choice, working on animal predators via instinct, and which changelings/statthalters can or cannot be rehabilitated). Since no track on this subject is typed Ontology, all of that content is placed as absent; only the single line about Fluttershy herself having no fear and being "the apex" in Stare mode is Characterization proper, matching its track. The Revelation track (note 1190, typed PageDesign) instead states a flat psychological assertion — that Fluttershy and Discord feel used, like Twilight — which reads as Characterization rather than staging; since the subject's Characterization track holds different content (the Stare/fear material above), this is unmatched rather than absent or empty. No content recurs identically across two different tracks anywhere in the subject.

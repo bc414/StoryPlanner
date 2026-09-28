@@ -1,0 +1,42 @@
+- claims:
+  - 1556 | Allegories | Historically men held power because material scarcity required physical strength, and this was legitimate then | Allegories | same
+  - 1556 | Allegories | Today's post-scarcity society values intellectual/emotional labor more, yet institutions still cling to old hierarchical dominance models | Allegories | same
+  - 1561 | Allegories | Framing the rat race as empowerment let the corporate class double the labor pool, suppressing wages and commodifying previously non-commodified life spheres | Allegories | same
+  - 1561 | Allegories | The underlying system didn't change, it just diversified the ruling class while extracting maximum labor from both men and women | Allegories | same
+  - 1562 | Allegories | The manosphere redirects anger sideways and downward at women and marginalized groups instead of upward at the corporate class that outsourced jobs and stagnated wages | Allegories | same
+  - 1562 | Allegories | It sells a false nostalgia that the system isn't broken, women just forgot their place | Allegories | same
+  - 1562 | Allegories | It offers men an aesthetic of dominance to compensate for their lack of real economic power | Allegories | same
+  - 1564 | Allegories | As long as the working class fights a gender war, they cannot form the class solidarity needed to challenge economic elites | Allegories | same
+  - 1565 | Allegories | Queen Velvet's arc names Sheryl Sandberg's Lean In as the real-world text it critiques | Analogies | unmatched
+  - 1565 | Allegories | Lean In's message doesn't fix the rat race, just gives women equal opportunity to exploit, textbook rugged individualism assimilating into the toxic patriarchy | Allegories | same
+  - 1566 | Allegories | Skyfall represents traditional dystopian manosphere propaganda and unchecked capitalism, while Olenia shows manufactured culture war and grievance fueling unchecked exploitation | Allegories | same
+  - 1554 | Analogies | Johan and Velvet form a spiteful truce against the changelings once the threat becomes too big to ignore | History | 1553
+  - 1554 | Analogies | This truce is likened to the Nationalists and Communists forming a united front in China | Analogies | same
+  - 1569 | Binding Logic | The deer are collaborators who bought into the system and punch down | Characterization | same
+  - 1538 | Garden Notes | The love tax aligns with the theme of industrialized, materialist magic | NotesToSelf | same
+  - 1539 | History | Chrysalis and VOPS convinced Johan the bastard son to claim the throne | History | same
+  - 1539 | History | They then killed King Aldar II, who died suddenly and suspiciously | History | same
+  - 1578 | History | In 1007 the Aquileians liberate the islands and surviving Olenian slaves return home | History | same
+  - 1578 | History | The returning slaves bring back firsthand horror stories of the Love Harvesters and Statthalter brutality | History | same
+  - 1553 | History | When the changeling threat becomes too big to ignore, Johan and Velvet form a spiteful truce to present a united front | History | same
+  - 1579 | History | A year later Chrysalis's mechanized Heer rolls into Olenia, finding the populace already psychologically broken by the returned slaves' tales | History | same
+  - 1579 | History | Trimmel and the Bauleiters offer Corporate Middle Management instead of the Zebrican Meatgrinder, and the Olenian bucks and does, including Queen Velvet, accept the collaboration deal instantly | History | same
+  - 1579 | History | The Olenians perceive the corporate rat-race as a profound mercy compared to the island black-sites | History | same
+  - 1570 | Reader Understanding Plan | At first the reader assumes the changelings simply subjugate the deer and extract love taxes | NarrativeArchitecture | same
+  - 1570 | Reader Understanding Plan | Throughout the story the true sinister motives are revealed | NarrativeArchitecture | same
+  - 1570 | Reader Understanding Plan | The deer are collaborators who bought into the system and punch down | Characterization | 1569
+  - 1570 | Reader Understanding Plan | This collaboration yields more harvested extraction than simple concentration camps would, because many deer are part of the system | ThematicEvidence | 1572
+  - 1570 | Reader Understanding Plan | The deer have trouble revolting because they are siloed and need an intervention | NarrativeArchitecture | same
+  - 1540 | Source Material References | King Aldar II died suddenly and suspiciously in EaW lore | Canon | same
+  - 1552 | Themes | Pagala uses the genuine historical injustice of Johan stealing Velvet's throne and enforcing patriarchal laws to sell an illusion of liberation | ThematicEvidence | same
+  - 1560 | Themes | The changelings play both sides of the manufactured culture war | ThematicEvidence | same
+  - 1560 | Themes | Anger is the most profitable commodity | ThematicEvidence | same
+  - 1563 | Themes | If the Olenian bucks and does fight over who holds the whip, they will never unite to burn down the Changeling factory | ThematicEvidence | same
+  - 1571 | Themes | By punching down, the collaborator deer do the Changelings' administrative and psychological work for them | ThematicEvidence | same
+  - 1573 | Themes | Olenia demonstrates what happens when the naive magic-of-friendship cure-all concept is commodified, synthesized, and unregulated | ThematicEvidence | same
+  - 1572 | Themes | You can extract far more from a population that polices itself and competes for the oppressor's favor than from one held strictly at gunpoint | ThematicEvidence | same
+  - 1536 | What it is | They enforce love taxes on their peasants without subjecting themselves to the tax | Civilization | same
+  - 1536 | What it is | The love tax functions like a bureaucratic DMV line: citizens clock in, get drained of joy, get a stamped receipt, and return to the factory | Civilization | same
+  - 1568 | What it is | Olenian middle managers consume red love for a productivity high and refined pink love for an oxytocin high to cope with the cognitive dissonance of their cruelty, skimming beyond their quotas | Civilization | same
+  - 1568 | What it is | This forces escalating cruelty to meet rising quotas and more skimming to treat the dissonance, forming a vicious institutionalized cycle of spiraling cruelty | Civilization | same
+- whole: Across this subject, most tracks hold content squarely in their declared mode: Allegories holds real-world social-commentary claims about patriarchy, corporate feminism, and the manosphere; History holds sequenced factual events (Aldar II's death and Johan's rise, the 1007 island liberation, the 1008 truce and the collaboration deal); Themes holds thematic-evidence claims about manufactured division and self-policing extraction; What it is holds Civilization-mode descriptions of the love-tax mechanism and managerial drug cycle; Binding Logic, Garden Notes, and Source Material References each hold a single note matching their own Characterization, NotesToSelf, and Canon modes respectively. Several notes, however, carry content in a mode other than their track's. The Allegories track carries one Analogies-mode thing (naming Sheryl Sandberg's Lean In as Queen Velvet's real-world source), which finds no matching content in the Analogies track itself (unmatched). The Analogies track carries a History-mode thing (the Johan/Velvet truce against the changelings) that duplicates a note in the History track (1553), so this fact sits in two tracks of different declared modes. The Reader Understanding Plan (NarrativeArchitecture) carries two things outside its own mode: a Characterization-mode statement that the deer are collaborators who punch down, duplicating the Binding Logic track's note (1569); and a ThematicEvidence-mode claim about collaborative populations yielding more extraction than concentration camps, duplicating the Themes track's note (1572). No note in this subject is written outside all twelve modes. Several tracks remain without notes shown here: the History-typed Activities track, the NarrativeArchitecture-typed Storytelling Plan track, and all scene-link tracks (Activities/PageDesign, Disclosure/PageDesign, Psychological Inference/WorldInference, Reader Prior Belief Clash/ThematicEvidence, Reader Prior Belief Update/WorldInference, Scene Thematic Evidence/ThematicEvidence).
