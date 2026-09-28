@@ -1,0 +1,3 @@
+- claims:
+  - VOPS refuses to spend elite jaeger assets on small-scale, self-destructive military spying operations | does not waste high-value jaegers on petty, suicidal military espionage | no: written as an in-universe factual statement about the organization's policy, not as author commentary on reader experience | yes
+- whole: The note states, as in-world fact, that VOPS/Chrysalis forgoes wasteful military espionage and instead channels intelligence work into civilian, corporate, and political targets, implicitly overturning a stock spy-organization trope.

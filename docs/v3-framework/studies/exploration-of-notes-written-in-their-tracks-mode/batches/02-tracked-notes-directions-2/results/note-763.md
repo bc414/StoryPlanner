@@ -1,0 +1,6 @@
+- claims:
+  - She feels irritated/annoyed about the situation | "is miffed" | no: written as informal, subjective close narration of interior mood rather than detached historian fact-reporting | yes
+  - She permits the use of the friendship shields | "allows using the friendship shields" | yes | yes
+  - She overlooks and permits Cadance's covert technology development to continue | "let Cadance's hidden tech development slide" | yes | yes
+  - This tolerance serves to cover up the war and maintain a facade of harmony | "sanitizes the war and preserves the appearance of harmony" | no: written as interpretive analysis of motive/effect rather than plain factual reporting | no
+- whole: The note records that in 1007 Celestia, though displeased, grudgingly permitted the friendship shields' use and Cadance's secret tech work, a leniency framed as covering up the war and preserving harmony's appearance.

@@ -1,0 +1,4 @@
+- claims:
+  - A quoted line of hope that the power will still hold after years is singled out and labeled as illustrating an epistemological gap | "this is the epistemological gap" | no: written as authorial/literary-critical commentary analyzing a quote's meaning rather than an in-universe historian reporting a fact | no
+  - Amethyst Maresbury and the crystal ponies of a thousand years earlier held the belief that the crystal heart was the power source | "believed the crystal heart was the power source" | yes | yes
+- whole: The note juxtaposes an analytical label for a quoted hope with a historian's factual report of a thousand-year-old belief about the crystal heart's role as power source.

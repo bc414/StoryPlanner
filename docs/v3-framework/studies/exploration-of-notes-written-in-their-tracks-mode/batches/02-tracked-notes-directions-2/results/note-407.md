@@ -1,0 +1,4 @@
+- claims:
+  - The technology draws its power from crystals | powered by crystals | yes | yes
+  - The technology's power source later shifts to red love canisters | then red love canisters | yes | yes
+- whole: The note states, as a flat world-building fact, that the technology's power source changes over time from crystals to red love canisters.

@@ -1,0 +1,4 @@
+- claims:
+  - Applejack departs from Mount Aris | "leaves Mount Aris" | yes | yes
+  - She comes away believing the world is cruel and that she is powerless to meaningfully change it | "thinking the world is cruel and she can't do anything meaningful to fix it" | no: written as interior psychological narration exposing her private outlook rather than an external historian's factual report | yes
+- whole: The note records Applejack's departure from Mount Aris and the bleak, defeated outlook she leaves with.

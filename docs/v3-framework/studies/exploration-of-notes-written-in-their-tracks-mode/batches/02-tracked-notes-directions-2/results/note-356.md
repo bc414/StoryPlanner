@@ -1,0 +1,3 @@
+- claims:
+  - Names the 1970s-80s consumer credit boom and the resulting demand spiral as the real-world phenomenon behind the MEFO Bills technology | Consumer credit in the 1970s-80s and the demand spiral | no: written as a bare historical/economic reference label rather than as story material shaped for a reader to infer | yes
+- whole: The note flags a specific historical economic analogy — 1970s-80s consumer credit expansion and its demand-spiral dynamic — as the real-world referent intended for the MEFO Bills technology.

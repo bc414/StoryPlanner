@@ -1,0 +1,3 @@
+- claims:
+  - Identifies the organization as a network of animal operatives engaged in spying | "is an animal spy network" | yes | yes
+- whole: The note gives a brief in-universe definition of the CIA as an animal-based spy network, partially answering what it does and is known for.

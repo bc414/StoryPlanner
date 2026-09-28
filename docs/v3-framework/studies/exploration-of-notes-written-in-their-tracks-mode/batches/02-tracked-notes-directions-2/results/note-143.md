@@ -1,0 +1,2 @@
+- claims:
+- whole: The note contains no text, so it offers no evidence, thematic claim, or answer to the track's question.

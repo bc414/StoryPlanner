@@ -1,0 +1,5 @@
+- claims:
+  - Celestia moves to Equestrianize the crystal ponies, acting through Cadance, timed for when the ponies still have minimal memories | attempts to Equestrianize the crystal ponies through Cadance | yes | yes
+  - The intervention is driven by Celestia's hope that acting early, while memories are minimal, will succeed | hoping an intervention...will work | no: written as access to Celestia's private hope/reasoning, a psychological-motivation account rather than a documented historian fact | yes
+  - The move is meant to avoid a repeat of the chaos associated with Severyana, implying an earlier crisis by that name | avoid the chaos of Severyana | yes | yes
+- whole: The note records Celestia's attempt, via Cadance, to Equestrianize the crystal ponies early to preempt a recurrence of the earlier Severyana chaos.

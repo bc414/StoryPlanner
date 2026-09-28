@@ -1,0 +1,4 @@
+- claims:
+  - Describes modern authoritarian-leftists as admiring the visual style, price-control policies, and violent purges of historical regimes like the USSR | idolize the brutalist aesthetics, price controls, and purges of historical regimes (like the USSR) | yes | yes
+  - States that these same admirers disregard that such regimes arose out of extreme crises of civil war and famine rather than from the ideology's inherent virtues | ignoring that those systems were forged in the apocalyptic fires of civil war and famine | yes | yes
+- whole: The note is a direct piece of authorial social commentary asserting a present-day political critique—that authoritarian-leftists romanticize communist-regime trappings while ignoring the crisis conditions that produced them—as the real-world meaning behind the fantasy technology.

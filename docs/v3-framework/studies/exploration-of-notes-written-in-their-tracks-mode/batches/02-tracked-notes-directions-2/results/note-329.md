@@ -1,0 +1,5 @@
+- claims:
+  - Chrysalis experienced an intoxicating mental fog after feeding on the potent love drained from Cadance and Shining Armor | "got high and brain fog" | no: written as a casual, modern-toned psychological description rather than an in-universe historian's factual account | yes
+  - She lost her calculated cunning and slipped back into primal, predatory instincts | "forgot her own Machiavellian discipline...Predator's Dilemma" | no: written as analytical commentary invoking a named behavioral/game-theory concept, not plain historical reporting | yes
+  - She shifted from acting as a calculating strategic leader to acting as a ravenous creature overwhelmed by sudden abundance | "geopolitical CEO...starving bug...buffet" | no: written as a figurative, modern-day analogy/characterization rather than in-universe historical narration | yes
+- whole: The note informally characterizes a moment when draining an unusually intense love left Chrysalis intoxicated and behaviorally reckless, abandoning her usual calculated control.

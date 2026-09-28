@@ -1,0 +1,6 @@
+- claims:
+  - That Twilight had the magical power to defeat Flim and Flam's contraption effortlessly, with no real contest | "could have easily outmagicked ... wouldn't have even been close" | no: written as a speculative, opinionated assertion about hypothetical ability rather than a reported fact | no
+  - That she refrained from using her magic against the contraption | "But she didn't" | yes | yes
+  - That her reason for holding back was that using magic would insult Applejack and undercut the point that the Apple family's hard work, love and care make their cider best | "huge insult to Applejack ... hard work, love and care are what make Apple family cider the best" | no: written as thematic/moral commentary explaining the story's point rather than historian fact-reporting | no
+  - That Twilight had learned something from the earlier Winter Wrap Up incident | "Twilight learned from the winter wrap up incident" | yes | yes
+- whole: The note explains, partly through thematic commentary rather than plain historical reporting, that before TLTT Twilight withheld her magic against Flim and Flam's contraption out of respect for the Apples, a restraint attributed to a lesson learned from the earlier Winter Wrap Up incident.

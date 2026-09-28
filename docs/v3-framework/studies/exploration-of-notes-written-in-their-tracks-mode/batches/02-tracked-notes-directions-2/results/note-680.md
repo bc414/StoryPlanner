@@ -1,0 +1,3 @@
+- claims:
+  - The character's arc is framed as being centered on making peace with pretentious, industrial-style people comparable to those found in Las Pegasus | reconciling with industrial poseurs like in Las Pegasus | mode: no: written as an abstract thematic summary of the character's arc rather than a reader-experience plan | answers: yes
+- whole: The note gives a bare thematic statement of what Tally Mark's development is about, without laying out any reading-order sequence.

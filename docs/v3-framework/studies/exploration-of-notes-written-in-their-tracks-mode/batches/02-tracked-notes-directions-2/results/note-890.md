@@ -1,0 +1,5 @@
+- claims:
+  - Changeling occupation causes the artificial season system to break down | 'Under changeling occupation, the artificial seasons collapse' | no: written as a plot-event/in-world causal statement rather than a description of reader experience | yes
+  - The season collapse wipes out the rich agricultural yields the technology had produced | 'destroying the rich agricultural yields' | no: written as a cause-and-effect worldbuilding statement rather than reader-experience framing | yes
+  - Those agricultural yields were the reason Equestria had been valuable enough to be targeted for occupation | 'made Equestria a value target in the first place' | no: written as backstory/strategic rationale rather than a description of reader experience | yes
+- whole: The note sketches a wartime plot beat in which the weather-control technology's collapse under enemy occupation strips away the agricultural bounty that had made Equestria worth invading.

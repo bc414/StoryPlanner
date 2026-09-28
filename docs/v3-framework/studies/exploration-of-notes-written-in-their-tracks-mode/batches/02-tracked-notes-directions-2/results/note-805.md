@@ -1,0 +1,5 @@
+- claims:
+  - Chrysalis used the counterrevolution that occurred in Aquileia as a model or template for her own scheme | "copied the counterrevolution in Aquileia" | mode: yes | answers: yes
+  - Her purpose in doing so was to bring about a counterrevolution in Herzland | "to inspire the counterrevolution in Herzland" | mode: yes | answers: yes
+  - The method she used to achieve this was setting the rugged individualists in opposition to the peasants | "by turning the rugged individualists against the peasants" | mode: yes | answers: yes
+- whole: The note reports, as an established historical fact, that Chrysalis modeled a Herzland counterrevolution on Aquileia's by pitting rugged individualists against peasants.

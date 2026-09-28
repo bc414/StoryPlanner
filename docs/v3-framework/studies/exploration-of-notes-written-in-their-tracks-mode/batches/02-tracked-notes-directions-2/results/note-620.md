@@ -1,0 +1,3 @@
+- claims:
+  - States that Fizzlepop's weapon causes her physical pain through recoil-induced migraines | migraines from recoil | mode, no: written as a physical/biographical fact about her equipment's side effect rather than a psychologist's assertion of her inner truth | answers, yes
+- whole: The note records a physical side-effect of Fizzlepop's weaponry as a factual detail rather than as psychological insight into her character.

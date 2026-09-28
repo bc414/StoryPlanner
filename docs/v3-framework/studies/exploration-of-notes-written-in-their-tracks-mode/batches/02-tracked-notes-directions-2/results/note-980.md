@@ -1,0 +1,6 @@
+- claims:
+  - States that the machines are 1940s vacuum-tube devices built to be deliberately wasteful of power | 'intentionally inefficient and power-hungry' | yes | yes
+  - States that operating the machines requires merchants to purchase electricity | 'merchants have to buy electricity' | yes | yes
+  - Poses a rhetorical question about who controls the oil fields, haulers, and power plants and answers it with a single name | 'Who owns the local oil fields...? Gilded Trust.' | no: written as a rhetorical question-and-answer expository hook rather than a plain declarative statement of world rules | no
+  - States that each verified transaction results in the sale of a fraction of a barrel of oil | 'sells a fraction of a barrel of oil' | yes | yes
+- whole: The note explains the technology's built-in inefficiency and ties each transaction to an oil sale, while also flagging who controls the underlying power supply.

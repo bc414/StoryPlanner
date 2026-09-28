@@ -1,0 +1,4 @@
+- claims:
+  - Describes Pear Butter's emotional discomfort during a recurring family event, the Apple Family reunions | Pear Butter wasn't happy at Apple Family reunions | yes | yes
+  - Describes a division in how the extended Apple family received her, with Granny Smith being the exception who loved her while the rest did not | Granny loved her, but the rest of the family didn't | yes | yes
+- whole: The note gives a brief, undated characterization of Pear Butter's strained standing with the Apple family, contrasting Granny's affection for her against the rest of the family's rejection.

@@ -1,0 +1,7 @@
+- claims:
+  - In the deep past, changeling society flourished while living in hive groups | "Pre-historic changelings thrived in hives" | no: written as a historical/lore statement recounting a past era's condition, rather than a stated system rule | yes
+  - A hunter caste called jaegers killed extremely dangerous, manticore-level predators and returned with meat for the group | "jaegers defeated manticore-tier predators and brought back meat" | no: written as a historical narrative recounting a specific group's past actions, rather than a stated rule of mechanics | yes
+  - The hunters derived an exhilarating rush or pleasure from the act of hunting | "enjoying the high of the hunt" | no: written as an experiential/emotional description of the hunters' subjective feeling, rather than a stated system rule | yes
+  - The population's survival through the cold depended on two sustaining factors together: social bonding and meat | "survived the cold on both friendship and meat" | yes | yes
+  - The Harmony mechanism only functioned correctly under the condition that outside food supplies were plentiful | "Harmony worked when external food was abundant" | yes | yes
+- whole: The note sketches the prehistoric functional basis of the changeling hive system—predator-hunting for meat alongside social bonding—and states the resource condition under which the Harmony mechanism operated.

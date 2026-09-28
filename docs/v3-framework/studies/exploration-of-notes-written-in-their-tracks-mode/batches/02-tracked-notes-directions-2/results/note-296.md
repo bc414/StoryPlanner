@@ -1,0 +1,3 @@
+- claims:
+  - The organization collaborated with the University of Pridea on advancing magical engineering | Worked with the University of Pridea to develop more magical engineering | yes | yes
+- whole: The note records a single historical activity — a collaboration with the University of Pridea to advance magical engineering — without specifying when it occurred.

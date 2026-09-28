@@ -1,0 +1,5 @@
+- claims:
+  - The characters learn that the Stagnation began only 80 years earlier rather than in some distant past | "the Stagnation was only recent from 80 years ago" | no: written as a plot-fact/exposition statement about the story world's timeline | no
+  - Celestia's overall arc is reread as it moves from a story about incompetence to a story about ideological terror | "shifts from a story of incompetence to a story of ideological terror" | yes | yes
+  - Her paralysis is not the result of ignorance but of full, deliberate awareness of how the world works | "she remembers exactly how it works" | no: written as a flat character-psychology assertion about her true motivation, not framed as reader perception | yes
+- whole: The note ties a specific in-story revelation (the Stagnation's recency) to the point where the reader's read of Celestia should flip from incompetent to knowingly complicit.

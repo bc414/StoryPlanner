@@ -1,0 +1,4 @@
+- claims:
+  - The technology is embodied in Star Energy's first product, a hybrid tractor that runs on both oil and crystals | Star Energy's debut product is a hybrid tractor that runs on both oil and crystals | no: written as a marketing/product-announcement statement about a company's launch item rather than a neutral god-mode statement of universal rules | yes
+  - The crystal spell matrix transforms (isomerizes) hydrocarbons so that they burn more cleanly | crystal spell matrix isometerizes the hydrocarbons into cleaner combustion | yes | yes
+- whole: The note introduces the spell matrix through a specific commercial product and states, in one line, the mechanism by which the matrix converts hydrocarbons into cleaner combustion.

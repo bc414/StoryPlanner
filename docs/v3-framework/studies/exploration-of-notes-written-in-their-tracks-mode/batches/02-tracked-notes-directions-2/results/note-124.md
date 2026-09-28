@@ -1,0 +1,3 @@
+- claims:
+  - States that the pair hold the role of being Applejack's parents | "Applejack's parents" | yes | yes
+- whole: The note asserts as plain fact that Bright Mac and Pear Butter are Applejack's parents, offering that familial identity as part of who they are.

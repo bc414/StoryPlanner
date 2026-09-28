@@ -1,0 +1,4 @@
+- claims:
+  - States that readers who played the prior game enter the story already believing the character laid waste to a region called Zebrica | "ravaged Zebrica" | yes | yes
+  - States that readers who only know the film version see the character as a stock, exaggerated villain | "cartoon villain" | yes | yes
+- whole: The note lays out two separate prior-audience mental models of the Storm King, split by which prior medium (game vs. film) the reader came from, as the starting point for tracking how opinion of him should shift.

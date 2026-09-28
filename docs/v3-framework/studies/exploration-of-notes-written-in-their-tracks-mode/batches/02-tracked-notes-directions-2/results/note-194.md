@@ -1,0 +1,4 @@
+- claims:
+  - States her tribal origin as the medicinal tribe | "came from the medicinal tribe" | yes | yes
+  - States she works at the Foyer de la Jeunesse d'Avant Garde | "works at the Foyer de la Jeunesse d'Avant Garde" | no: written as a present-tense statement of her current occupation/status rather than a historian's report of a past event | yes
+- whole: The note briefly records the character's tribal origin and her workplace, without dating either to a specific point in her history.

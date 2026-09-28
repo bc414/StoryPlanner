@@ -1,0 +1,5 @@
+- claims:
+  - States that ambition is a necessary driver for society's advancement | Ambition is needed for advancement of society | yes | yes
+  - States that ambition is kept in check through regulation so that harmony is preserved | regulated to maintain harmony | yes | yes
+  - Asserts that harmony and a regulated form of ambition are compatible states, not opposed | Harmony can coexist with regulated ambition | no: written as a general philosophical/thematic assertion reconciling two values, rather than a stated mechanism or rule of the system | yes
+- whole: The note sets out, as a governing ontological premise, that the system requires ambition for societal progress while regulating it so that ambition and harmony remain compatible rather than in conflict.

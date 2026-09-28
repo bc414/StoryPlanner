@@ -1,0 +1,3 @@
+- claims:
+  - The document's persuasive content is that it pushes for emergency powers to be made permanent rather than temporary | advocates for a permanent state of emergency | no: written as a political/ideological summary of the text's thesis, describing what it argues for rather than defining the technology's mechanics or composition | yes
+- whole: The note summarizes the political stance the Manifesto argues for rather than describing the technology's function, mechanism, or material makeup.

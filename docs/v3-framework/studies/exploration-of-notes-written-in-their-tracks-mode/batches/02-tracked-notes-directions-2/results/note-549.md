@@ -1,0 +1,8 @@
+- claims:
+  - Marks this section as covering Luna's prequel-and-sequel appearances | "For her prequel-sequel" | yes | yes
+  - Establishes that Equestria was wild and untamed at the moment of Luna's banishment | "wild, untamed wilderness" | no: written as in-world lore/setting description | yes
+  - Describes Luna's expectation of finding a thriving, ambitious Frontier upon her return | "expects to see the thriving, ambitious Frontier" | no: written as character interiority/psychology | yes
+  - States that instead she wakes up decades into the 'Hasbro Mandate' | "70 years into the \"Hasbro Mandate\"" | no: written as in-world plot/narrative summary | yes
+  - Describes the society she finds as sterilized and infantilized | "sterilized, infantilized society" | no: written as in-world descriptive lore | no
+  - Explains that Luna's depression stems from culture shock at her sister suppressing the nation's pioneer spirit out of fear of Griffon economics, not just guilt | "lobotomized the nation's pioneer spirit" | no: written as thematic/psychological character analysis | no
+- whole: The note sketches the timeline points of Luna's prequel-to-sequel appearances (banishment at 0 ALB, return at 1000 ALB) while mostly explaining, in in-world lore and character-psychology terms, the culture-shock premise behind her post-return depression rather than describing reader-experience staging.

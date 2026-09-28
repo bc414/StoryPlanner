@@ -1,0 +1,5 @@
+- claims:
+  - Names the collapse of community as a common real-world driver of the drug crisis | collapse of community | yes | yes
+  - Names economic hopelessness as a common real-world driver of the drug crisis | economic hopelessness | yes | yes
+  - Names the loss of purpose, especially in industrial and rural areas, as a common real-world driver of the drug crisis | loss of purpose (especially in industrial/rural areas) | yes | yes
+- whole: The note documents the real-world socioeconomic breakdown — community collapse, economic hopelessness, and loss of purpose in industrial/rural regions — that inspires this cartel organization's design.

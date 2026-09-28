@@ -1,0 +1,6 @@
+- claims:
+  - identifies the Inca/South American balsa raft as the historical model for this technology | "Balsa Raft (Inca/South American)" | yes | yes
+  - asserts that these rafts were not weak or flimsy despite how they might appear | "not flimsy rafts" | yes | yes
+  - describes the rafts as massive, unsinkable, built from balsa logs, and able to handle both ocean and rough river travel | "massive, unsinkable vessels made of balsa logs" | yes | yes
+  - explains that the buoyant, lashed-together logs let the raft flex over rapids instead of shattering like a rigid hull would | "flex over rapids where a rigid boat would shatter" | yes | yes
+- whole: The note documents the Inca balsa raft's buoyant, lashed, flexible-log construction as the real-world inspiration for the Tzinacatl rubber rafts' resilience on water.

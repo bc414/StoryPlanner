@@ -1,0 +1,4 @@
+- claims:
+  - States that the society's foundational kinship unit is the nuclear family of husband, wife, and offspring | "Atomic (Nuclear) Family, a husband, a wife, and their cubs" | yes | yes
+  - States that these nuclear families reside independently, apart from parents and grandparents | "live in their own house, separate from parents/grandparents" | yes | yes
+- whole: The note defines the nuclear family as the Griffonian Republic's basic, independently-housed social unit.

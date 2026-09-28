@@ -1,0 +1,4 @@
+- claims:
+  - Temberik Mountains contain crystals, a resource embedded in the setting | "Temberik Mountains have crystals" | no: written as a plain world-fact/lore statement rather than author guidance on reader experience | no
+  - Access to the mountains is barred until the war and the subsequent cooperation occur, marking when that changes | "off limits until the events of the war and cooperation" | no: written as a plot/setting fact about in-world restrictions rather than author commentary on dramatization | yes
+- whole: The note records a world fact about a crystal resource and pins the moment it becomes accessible to the war-and-cooperation events, without framing either point as explicit author guidance on how to dramatize it for the reader.

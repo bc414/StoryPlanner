@@ -1,0 +1,6 @@
+- claims:
+  - The story treats the time-travel episode as not part of its continuity because its premise would contradict the story's own worldbuilding | "treat The Cutie Remark as not applicable because time travel breaks the worldbuilding" | mode: yes | answers: yes
+  - At the end of the Cutie Map story, Starlight is captured by Double Diamond and her friends | "caught at the end of The Cutie Map by Double Diamond and friends" | mode: no: written as in-story plot summary rather than authorial canon-discussion | answers: yes
+  - She is reformed immediately upon capture and taken to Twilight's castle | "rehabilitated on the spot and brought to Twilight's castle" | mode: no: written as in-story plot summary rather than authorial canon-discussion | answers: yes
+  - The story does away with the canon-required season-long revenge storyline | "no Hasbro Mandate requirement of a season-long revenge arc" | mode: yes | answers: yes
+- whole: The note explains that TLTT recontextualizes Starlight's canon introduction by discarding the time-travel episode and the mandated season-long revenge arc, instead having her captured and reformed immediately after the Cutie Map events.

@@ -1,0 +1,7 @@
+- claims:
+  - Unicorn spellcasting success is governed by the caster's belief in their own magic; disbelief causes difficulty casting | "unicorn who doesn't believe in their magic is going to have trouble casting" | yes | yes
+  - Pegasus flight and cloud-moving ability is governed by the pegasus's desire to fly; unwillingness causes struggle with both flight and cloud manipulation | "pegasus who doesn't want to fly will struggle to fly and move the clouds" | yes | yes
+  - The belief/desire-dependent mechanic shown for unicorns and pegasi also governs earth pony magic | "The same principle applies to earth ponies'" | yes | yes
+  - Earth pony magic is characterized as inherently slow-acting | "slow acting magic" | yes | yes
+  - Earth pony crop-magic effectiveness depends on the pony's pride in their crops; without that pride the magic fails and the crops do not grow | "If they don't have pride in their crops, their magic is ineffective, and their crops won't grow" | yes | yes
+- whole: The note lays out, in world-builder voice, an invariant law that all three pony types' magic (unicorn casting, pegasus flight/weather work, earth pony crop magic) depends on the practitioner's belief, desire, or pride, with earth pony magic additionally noted as inherently slow-acting.

@@ -1,0 +1,3 @@
+- claims:
+  - A general belief that people combining ambition with grace deserve advancement over those driven by pure toxic ambition | "healthy balance of ambition and grace instead of pure toxic ambition" | no: written as a general values statement/opinion rather than as talk about the planning project or process | no
+- whole: The note voices a general personal opinion about valuing balanced ambition over toxic ambition, without addressing the planning process or any specific work needed for Queen Velvet.

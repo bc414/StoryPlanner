@@ -1,0 +1,4 @@
+- claims:
+  - States that during Applejack's early years, her family regularly traveled to Manehattan | frequent trips to Manehattan | yes | no
+  - States that as a result her parents were frequently absent for multi-day stretches during that time | often gone for days at a time | yes | yes
+- whole: The note factually records that during Applejack's young childhood, her family's frequent trips to Manehattan left her parents often absent for days at a time.

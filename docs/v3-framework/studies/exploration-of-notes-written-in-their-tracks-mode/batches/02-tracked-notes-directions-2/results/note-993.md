@@ -1,0 +1,6 @@
+- claims:
+  - Chrysalis read a paper written by Coltbert | "read Coltbert's paper" | yes | yes
+  - She learned from it about spell matrix technology being developed by the 2nd Gen Royalists in Pridea | "learned about spell matrix technology" | yes | yes
+  - She decided she wanted to build a spell matrix for the changeling draining spell | "decides she wants to make a spell matrix" | yes | yes
+  - She believed this spell matrix would let her break the Predator's Dilemma | "allow her to break the Predator's Dilemma" | yes | no
+- whole: The note records the discovery that prompts Chrysalis to pursue a spell-matrix version of the draining spell as a way past the Predator's Dilemma.

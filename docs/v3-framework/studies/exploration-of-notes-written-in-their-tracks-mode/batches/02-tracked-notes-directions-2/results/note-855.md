@@ -1,0 +1,3 @@
+- claims:
+  - States that the region has varied weather and climate arising from oceanic wind patterns and diverse ecology | ocean wind dynamics and varying ecology | no: written as an objective world-builder's description of physical geography, not as the in-universe creators' reasoning about their own ontology | yes
+- whole: The note records a physical/environmental fact about Aquileia's climate diversity and its geographic causes, offered as a material condition of the world rather than as the creators' own reasoning for building the system.

@@ -1,0 +1,5 @@
+- claims:
+  - The technology's inner workings are openly visible to whoever uses it | "matrices are transparent" | no: written as a plain descriptive fact about how the fictional magic system works | no
+  - A user of this magic always knows the exact cost because it draws directly on their own inner resource of ambition/love | "know exactly what it costs—it physically drains their own internal energy" | no: written as an in-world causal/mechanical explanation of the spell's cost | no
+  - The system has no concealed or additional costs beyond the visible one, likened explicitly to the absence of hidden subscription fees | "no hidden subscription fees" | yes | yes
+- whole: The note describes the matrices' cost as visibly drawn from the user's own energy and then draws an explicit parallel to the absence of hidden subscription fees, using real-world consumer language to frame the fictional mechanic as a comment on cost transparency versus concealed fees in real technology/services.

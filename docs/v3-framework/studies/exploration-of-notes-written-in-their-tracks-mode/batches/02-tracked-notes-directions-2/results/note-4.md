@@ -1,0 +1,4 @@
+- claims:
+  - She truly believed that if they trained hard and stayed united like the Hippogriffs, they would hold the line | "honestly believed if they trained hard and stuck together...they would hold the line" | yes | yes
+  - She feels like a liar at the story's start, having stirred up hope against odds that felt unwinnable | "she feels like a liar because she drummed up hope against what felt like unwinable odds" | yes | yes
+- whole: The note asserts Applejack's start-of-story inner truth: a genuine belief in training and solidarity now curdled into guilt for having inspired hope she privately doubted.

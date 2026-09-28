@@ -1,0 +1,5 @@
+- claims:
+  - States that the substance Love passes freely through any medium, air included, as a natural property | "Love disperses through any medium, including air" | mode: yes | answers: no
+  - States that controlling the flow of Love, or separating it from something else, requires the process to occur under vacuum conditions | "must be done under vacuum" | mode: yes | answers: yes
+  - States that artisan-made vacuum chambers were created specifically to achieve this control and separation | "Artisan vacuum chambers are invented for this purpose" | mode: no: written as a historical/narrative statement recording an invention event rather than a timeless world-rule | answers: yes
+- whole: The note lays out the physical law that Love disperses through any medium and therefore must be contained under vacuum to be controlled or separated, and names artisan vacuum chambers as the invented means of doing so.

@@ -1,0 +1,5 @@
+- claims:
+  - The organization is characterized as isolationist and communal, wary of outsiders | "isolationist and communal, wary of outsiders" | yes | yes
+  - The Temberik are distinguished from the Tzinacatl by lacking global trade ties and by having been genuinely isolated from Equestria by choice for a thousand years | "the Temberik truly have been isolated from the rest of Equestria by choice for 1000 years" | no: written as comparative historical/world-building exposition rather than a psychological assertion of character | yes
+  - The organization's membership consists of warriors who withdrew from the world following Luna's banishment | "the warriors who self-isolated after Luna's banishment" | no: written as an origin narrative citing a historical trigger event rather than a psychological trait-assertion | yes
+- whole: The note asserts that the Temberik are a warrior order bound by a long-standing, chosen isolation and wariness of outsiders that set them apart from more outward-facing groups like the Tzinacatl, tracing this cohesion back to their withdrawal after Luna's banishment.

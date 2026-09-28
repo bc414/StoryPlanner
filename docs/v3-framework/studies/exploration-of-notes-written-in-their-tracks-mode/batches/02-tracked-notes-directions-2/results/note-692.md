@@ -1,0 +1,3 @@
+- claims:
+  - Second-generation Aquileian Royalists and Skyfall tycoons introduce a culture of ego and selfish performance into Captain Spitfire's cohort | infect Captain Spitfire's cohort with a culture of ego and selfish performance | no: written as an interpretive, judgment-laden characterization (framing the influence as a 'contagion') rather than a plain factual report | yes
+- whole: The note attributes a corrupting shift toward ego and self-serving performance within Captain Spitfire's generation of Wonderbolts to outside social influence, without stating a specific date for the event.

@@ -1,0 +1,3 @@
+- claims:
+  - States that readers initially expect Rainbow Dash's arc to trend toward cynicism, fascist-adjacent leanings, and tribal loyalty, based on genre tropes | begin expecting Rainbow Dash will become cynical, fascist-adjacent and tribal | yes | yes
+- whole: The note sets the trope-based prior assumption readers hold about Rainbow Dash as the starting point the opinion-tracking question calls for.

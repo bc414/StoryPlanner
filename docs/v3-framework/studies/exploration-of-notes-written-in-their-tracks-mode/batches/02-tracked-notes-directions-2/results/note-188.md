@@ -1,0 +1,4 @@
+- claims:
+  - Identifies Friedrich as a conscript who assaulted Hans Kessel and Fluttershy | "A conscript who attacked Hans Kessel and Fluttershy" | no: written as a biographical/backstory statement about who the character is and what he did, rather than as a description of how the reader should experience his appearance | yes
+  - Shows him going through a rehabilitation afterward | "rehabs" | no: written as a compressed plot/arc summary of his subsequent development, rather than as a description of the reader's experience of that appearance | yes
+- whole: The note sketches two successive beats of Friedrich's story arc — his violent introduction attacking Hans Kessel and Fluttershy, then his rehabilitation — as a shorthand summary rather than a reader-experience framing.

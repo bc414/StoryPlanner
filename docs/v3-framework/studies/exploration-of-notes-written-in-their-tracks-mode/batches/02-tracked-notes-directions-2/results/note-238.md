@@ -1,0 +1,4 @@
+- claims:
+  - The ruler Grover V died | "Grover V passed away" | mode: yes | answers: yes
+  - His death set off a civil war between Gabriella Eagleclaw and Archon Eros contesting control of Grover VI's regency | "leading to a civil war between Gabriella Eagleclaw and Archon Eros over who will control Grover VI's regency" | mode: yes | answers: yes
+- whole: The note records the death of Grover V and the ensuing civil war for control of Grover VI's regency as a major event in the system's history.

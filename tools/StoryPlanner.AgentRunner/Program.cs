@@ -106,7 +106,10 @@ switch (verb)
 static async Task<int> RunHost(HostConfig config)
 {
     var harness = await ReadHarnessVersion();
-    var host = new RunnerHost(config, new ProcessChildLauncher(msg => Console.Error.WriteLine("  " + msg)), harness, echo: Console.WriteLine);
+    // The launcher's messages — a failed launch, a child's stderr — go to host-log.txt: the host
+    // runs hidden (HostStart), so its console is read by no one.
+    RunnerHost? host = null;
+    host = new RunnerHost(config, new ProcessChildLauncher(msg => host?.Log(msg)), harness, echo: Console.WriteLine);
     host.Log($"host starting on {config.Url} (harness {harness}; working dir {host.WorkingDir}; launch dir {host.LaunchDir}; ceiling {host.MaxParallel}; cap {host.UtilizationCap}%; idle {host.IdleMinutes} min)");
     var app = RunnerApi.BuildApp(host, config.Url);
     Console.CancelKeyPress += (_, e) => { e.Cancel = true; _ = host.ShutdownAsync(now: true).ContinueWith(_ => app.StopAsync()); };

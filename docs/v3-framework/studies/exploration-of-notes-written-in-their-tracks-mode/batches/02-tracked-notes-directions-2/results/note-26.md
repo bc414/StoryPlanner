@@ -1,0 +1,5 @@
+- claims:
+  - Applejack refuses to accept the 'White Peace' and resists a demand to extradite her, an action taking place within the story's plot | "defies the 'White Peace' and the extradition demand" | no: written as a summary of in-story plot action | no
+  - This act of defiance is offered as proof that she has moral courage that the historical Marshal Pétain lacked | "moral spine that the real Pétain lacked" | yes | yes
+  - Applejack is identified with "the Lioness," a figure who, unlike others, did not turn traitor | "the Lioness who didn't turn traitor" | yes | yes
+- whole: The note uses a moment of Applejack's in-story defiance as the occasion to name two real-world analogues for her — Pétain as a negative foil and "the Lioness" as a loyal parallel.

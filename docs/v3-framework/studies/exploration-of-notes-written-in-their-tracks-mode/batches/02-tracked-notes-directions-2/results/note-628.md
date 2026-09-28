@@ -1,0 +1,4 @@
+- claims:
+  - Fizzlepop's aggression in the fight stems from self-preservation rather than malice | fighting not out of cruelty but survivalism | no: written as a flat assertion of the character's true motivation, i.e. an in-story fact stated as narrative truth, rather than framed as what a reader should infer from visible page details | yes
+  - Twilight perceives, accurately, the vulnerable/damaged person that lies beneath Fizzlepop's hostile armored exterior | correctly recognizes the broken filly inside the armor | no: written as a narrative statement of another character's (Twilight's) accurate perception, stated as story fact rather than as reader-inference design | yes
+- whole: The note states two in-story facts — Fizzlepop's true motive is survival, and Twilight rightly sees the broken filly beneath the armor — both of which bear on Fizzlepop's underlying psychology but are phrased as narrative truths rather than as reader-inference framing.

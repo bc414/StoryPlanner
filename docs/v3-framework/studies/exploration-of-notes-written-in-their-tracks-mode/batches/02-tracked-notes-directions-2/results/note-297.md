@@ -1,0 +1,3 @@
+- claims:
+  - Reports that the organization collaborated with the Crystal Empire to further develop magical engineering and high-quality crystal mining | Worked with the Crystal Empire on further developing magical engineering and high quality crystal mining | yes | yes
+- whole: The note records a single collaborative activity between the organization and the Crystal Empire aimed at advancing magical engineering and crystal mining.

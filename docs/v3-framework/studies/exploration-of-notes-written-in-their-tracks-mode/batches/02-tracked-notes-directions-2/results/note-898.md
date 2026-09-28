@@ -1,0 +1,7 @@
+- claims:
+  - Establishes that her formative environment was a privileged, post-scarcity society rather than one of deprivation or violence | "post-scarcity walled garden" | yes | yes
+  - Attributes her radicalization to cultural dissonance rather than material want | "culture shock, not material starvation" | yes | yes
+  - Describes her leaving Equestria and encountering Skyfall's violent, competitive conditions | "witnesses the brutal, zero-sum meatgrinder of Skyfall" | no: written as narration of a plot event rather than a clinical assertion about her psychology | no
+  - Asserts that this encounter overwhelms her capacity to psychologically integrate the experience | "psychological architecture cannot process the friction" | yes | yes
+  - Explains that her upbringing under a centralized, harmony-based authority leads her to seek a similarly centralized, harmony-based fix for Skyfall's cruelty | "top-down, conflict-free solution" | yes | yes
+- whole: The note grounds Caramel Marks's political radicalization and problem-solving instincts in the psychological mismatch between her sheltered Equestrian upbringing and the harsh reality of Skyfall.

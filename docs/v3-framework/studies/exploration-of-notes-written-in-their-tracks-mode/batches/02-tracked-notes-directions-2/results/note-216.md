@@ -1,0 +1,3 @@
+- claims:
+  - Scootaloo was born in the place called New Mareland in the year 988 | Born in New Mareland in 988 | yes | yes
+- whole: The note records, as a bare historical fact, the birthplace and birth-year of Scootaloo.

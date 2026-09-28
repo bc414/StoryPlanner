@@ -1,0 +1,4 @@
+- claims:
+  - That the word "love" is a demure, innocent translation the Acornage Changelings intentionally adopted for their life forces, used as a tool of assimilation | "intentionally demure and innocent translation...used to assimilate" | no: written as in-world lore/backstory explaining a cultural practice, rather than authorial planning of reader experience | no
+  - That Chrysalis weaponized this same translation as a means of misdirection during the Canterlot Wedding | "Chrysalis weaponized as misdirection during Canterlot Wedding" | no: written as an in-world plot fact about a character's tactic rather than as authorial planning of reader experience | yes
+- whole: The note records the in-world backstory of the changelings' euphemistic term for life force and its dramatic redeployment by Chrysalis at a specific plot point, the Canterlot Wedding.

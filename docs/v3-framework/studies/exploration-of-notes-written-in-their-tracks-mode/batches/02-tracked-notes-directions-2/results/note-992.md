@@ -1,0 +1,5 @@
+- claims:
+  - Resistant enemy elites are physically connected to love harvester devices | hooved up to love harvesters | yes | yes
+  - The harvesting produces red love only while the connected elite continues to feel revenge, making output conditional on that emotional state persisting | generate red love for as long as they seek revenge | yes | yes
+  - The red love collected from these elites is converted into food and combat drugs supplied to conscripts who have not completed jaeger training, thereby sustaining the Great Leap Forward | enables the Great Leap Forward by providing food and combat drugs | yes | yes
+- whole: The note defines a mechanism by which captive elites' sustained revenge is harvested as red love and channeled into feeding and drugging under-trained conscripts to fuel the Great Leap Forward.

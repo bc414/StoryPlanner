@@ -1,0 +1,4 @@
+- claims:
+  - A named military order called "Go! Feed!" is judged to have been a serious, deadly flaw in strategy | "was a fatal military flaw" | no: written as an evaluative/analytical judgment rather than a neutral report of an event | no
+  - Even young, restrained jaegers obey the order, Thorax among them | "novice, repressed jaegers take the order, including Thorax" | yes | no
+- whole: The note offers a historian's critical assessment of a military order and notes that jaegers including Thorax comply with it, without stating any specific event or date in Chrysalis's own personal history.

@@ -1,0 +1,5 @@
+- claims:
+  - The crystal enhancer is activated when a unicorn casts a simple on/off spell that switches on its magic intake | "unicorn uses a simple on/off spell to turn on the crystal enhancer's magic intake" | yes | yes
+  - The magic intake operates in a manner comparable to a circuit breaker | "(like a circuit breaker)" | yes | yes
+  - Switching on the magic intake serves the purpose of charging the crystal enhancer | "to charge the crystal enhancer" | yes | yes
+- whole: The note defines the crystal enhancer's activation mechanism, describing it as a unicorn-triggered on/off spell that opens a circuit-breaker-like magic intake in order to charge the device.

@@ -1,0 +1,5 @@
+- claims:
+  - She becomes paralyzed by a severe imposter syndrome once she confronts the reality of industrial-scale war | "paralyzed by debilitating imposter syndrome once the reality of industrial war hits" | mode: yes | answers: yes
+  - Her imposter syndrome is not actually justified by the facts of her competence or situation | "isn't truly warranted" | mode: yes | answers: yes
+  - She feels this unwarranted insecurity because of the stark material/military imbalance between her side and the changelings | "asymmetric material reality of the changelings' military strength" | mode: yes | answers: yes
+- whole: The note gives a psychologist's diagnosis of Applejack as gripped, at the war's onset, by an unwarranted but powerfully felt imposter syndrome rooted in the changelings' overwhelming material military edge.

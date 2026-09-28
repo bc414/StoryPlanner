@@ -1,0 +1,6 @@
+- claims:
+  - The Empire's monetary system is fixed to a rigid gold standard | "regid gold standard" | yes | yes
+  - This gold standard exists because wealthy nobles want to protect their wealth from being eroded by inflation | "rich nobles don't want their wealth to be inflated away" | yes | yes
+  - The gold standard produces a zero-sum economic dynamic that drives a predator's dilemma among the system's actors | "zero sum game created by the gold standard is what fuels the predator's dilemma" | yes | yes
+  - Trust within the system operates as a physical good that must be hoarded rather than an abstract or transferable quality | "Trust is physical/hoarded" | yes | yes
+- whole: The note sets out the Empire's gold-standard rule, its noble-driven motive, and its resulting zero-sum, trust-as-hoarded-object dynamics as core working mechanics of the civilizational system.

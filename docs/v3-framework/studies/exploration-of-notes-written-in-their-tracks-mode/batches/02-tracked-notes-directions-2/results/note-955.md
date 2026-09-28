@@ -1,0 +1,5 @@
+- claims:
+  - States that the two characters' relationship is limited to friendship and professional collegiality | strictly friends/colleagues | no: written as an informal author's status note rather than a historian's factual account | no
+  - Describes a division of labor where one character does demanding physical/practical work and the other handles technical or intellectual tasks | heavy lifting...nerd stuff | no: written as a casual descriptive aside about character roles, not historian's reporting | no
+  - Notes that romantic attraction has not yet developed between them, only professional admiration for each other's diligence | no spark yet, just mutual respect for work ethic | no: written as an author's forward-looking relationship note rather than a historian's factual record | no
+- whole: The note sketches the current, event-free relationship dynamic and work roles between Henri and Fleur in casual author's-note style, without reporting any dated historical events.

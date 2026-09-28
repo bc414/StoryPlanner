@@ -1,0 +1,6 @@
+- claims:
+  - An event where Aquileian volunteers teach the Wonderbolts to harvest chemicals for munitions, placed as occurring after the defense of Mount Aris | teach the Wonderbolts how to harvest chemicals | mode: yes | answers: yes
+  - An equivalence pairing nitrocellulose with the term smokeless powder | Nitrocellulose = smokeless powder | mode: no: written as a glossary-style definitional equation rather than a historian's factual report | answers: no
+  - A bare naming of TNT as one of the chemicals in question | TNT | mode: no: written as an isolated list label rather than a reported fact | answers: no
+  - A bare naming of nitroglycerin as one of the chemicals in question | Nitroglycerin | mode: no: written as an isolated list label rather than a reported fact | answers: no
+- whole: The note dates a post-Mount-Aris knowledge transfer of munitions chemistry to the Wonderbolts and appends a bare list of the chemicals involved.

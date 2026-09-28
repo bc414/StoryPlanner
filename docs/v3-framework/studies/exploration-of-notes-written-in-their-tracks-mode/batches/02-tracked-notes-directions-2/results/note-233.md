@@ -1,0 +1,4 @@
+- claims:
+  - Readers will initially assume Celestia fits the trope of an overprotective mother figure | "over protective mother" | yes | yes
+  - Readers will read her attempt to "White Peace" the conflict as a parent trying to force the grown child back into a dependent, childlike state | "shove the grown child back into the crib" | yes | yes
+- whole: The note sets up the trope-based prior assumption readers will hold about Celestia, framing her peace-seeking action as regressive overprotection, per the question's instruction to start with tropes.

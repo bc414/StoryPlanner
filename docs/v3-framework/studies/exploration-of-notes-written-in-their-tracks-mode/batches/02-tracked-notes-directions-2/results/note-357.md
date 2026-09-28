@@ -1,0 +1,3 @@
+- claims:
+  - Names a real-world social phenomenon in which workers' output diminishes or is distorted precisely because a performance-management regime is imposed to raise it | the productivity paradox under performance management | mode, no: written as a direct real-world thesis label naming the phenomenon rather than as an in-story description of the technology that would let a reader infer it | answers, yes
+- whole: The note states, as a bare real-world thesis rather than a fictional inference target, the present-day truth about performance-management-driven productivity paradoxes that this technology is meant to allegorize.

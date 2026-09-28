@@ -1,0 +1,5 @@
+- claims:
+  - Labels this era of the in-universe system as its own interwar period and likens the serfs' hardship in it to the Great Depression | "Great Depression" for serfs | yes | yes
+  - Likens the elites' experience of the same era to the Roaring Twenties | "Roaring 20s" for elites | yes | yes
+  - Describes the era's power structure as a partnership between the feudal nobility and industrialists guided by Social Darwinist thinking, evoking the real-world Gilded Age alliance of aristocracy and robber-baron capitalists | "unholy alliance of Feudal Nobles and Social Darwinist Industrialists" | yes | yes
+- whole: The note names the "Grover V" interwar era of the kleptocracy as drawing on real-world analogies of Depression-era suffering for the lower class, Roaring-Twenties excess for elites, and a Gilded Age-style alliance between aristocrats and social-Darwinist industrialists.

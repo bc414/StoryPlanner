@@ -1,0 +1,4 @@
+- claims:
+  - States the current narrative treatment: the two characters operate as a single unit whose perspective is always filtered through Applejack | "everything is told through Applejack's framing" | yes | no
+  - Flags a conditional task: determine whether the pair have independent arcs, and if so, separate their treatment | "if they have independent arcs they can split" | yes | yes
+- whole: The note records the current unified framing of the two characters and raises the open planning question of whether to split them into independent arcs.

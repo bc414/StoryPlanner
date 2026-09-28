@@ -1,0 +1,4 @@
+- claims:
+  - Twilight cast a mass harvesting spell at the close of Applebuck Season | "used a mass harvesting spell at the end of Applebuck Season" | yes | yes
+  - Twilight began work on a spell matrix intended as a gift for Applejack | "started trying to make a spell matrix to give to Applejack" | yes | yes
+- whole: The note reports two consecutive events from Twilight's past, tying one to a specific point (the end of Applebuck Season) and following it with her subsequent effort to build a spell matrix for Applejack.

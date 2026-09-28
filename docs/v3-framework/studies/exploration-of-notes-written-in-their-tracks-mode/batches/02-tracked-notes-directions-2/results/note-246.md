@@ -1,0 +1,4 @@
+- claims:
+  - Chrysalis defeats or removes Synovial's attache a second time | dispatches Synovial's attache once again | yes | yes
+  - Chrysalis strikes the decisive blow at the battle of Romau, enabling Eros's victory over Eagleclaw | lands the pivotal blow in the battle of Romau that allows Eros to defeat Eagleclaw | yes | yes
+- whole: The note reports two factual events in Chrysalis's military history, without dating them within the text itself.

@@ -1,0 +1,3 @@
+- claims:
+  - A late-story revelation shows Twilight demonstrating that any unicorn can learn any spell through practice and self-belief, undercutting the idea that special ability or enhancement is required | eventually Twilight proves any unicorn can cast any spell if they practice and believe in themselves | no: written as a plot/story-fact summary of an in-story event rather than as a description of how the reader is meant to feel | yes
+- whole: The note marks a single late story-order plot beat (Twilight's proof that any unicorn can learn any spell) as the point where the technology's implied uniqueness is undercut, without itself stating the intended reader emotion.

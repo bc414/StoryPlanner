@@ -1,0 +1,4 @@
+- claims:
+  - The Griffonia material is not meant to depict Applejack making a wrong rational choice | not about saying Applejack ever made a wrong rational decision | yes | no
+  - The purpose of the Griffonia material is to let Applejack come to understand Celestia's point of view | letting her understand Celestia's viewpoint | yes | yes
+- whole: The note is the author clarifying, for planning purposes, that Applejack's Griffonia arc is meant to build her understanding of Celestia's perspective rather than to portray her reasoning as flawed.

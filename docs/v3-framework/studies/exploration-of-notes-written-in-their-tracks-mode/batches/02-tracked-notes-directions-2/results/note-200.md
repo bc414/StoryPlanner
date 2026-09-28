@@ -1,0 +1,4 @@
+- claims:
+  - Applejack's radio operates by means of magical spell matrices as its core mechanism | "runs on spell matrices" | yes | yes
+  - Ordinary radios in this world are built from standard WWII-era vacuum tube technology | "standard ww2 vacuum tubes" | yes | yes
+- whole: The note lays out two parallel radio technologies by stating what each is made of and runs on: spell matrices for Applejack's radio versus ordinary WWII vacuum tubes for standard radios.

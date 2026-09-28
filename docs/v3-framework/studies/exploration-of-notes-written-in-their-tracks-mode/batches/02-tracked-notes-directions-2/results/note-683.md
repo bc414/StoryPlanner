@@ -1,0 +1,5 @@
+- claims:
+  - He rejects the assumption that he is gentle or weak, asserting instead a tougher underlying nature | "NOT a soft bug" | yes | yes
+  - He holds the role of a jaeger and shares a fraternal bond with a drone named Pharanx | "a jaeger alongside his \"brother\" Pharanx" | yes | yes
+  - He and Pharanx graduated as the top performers from Chrysalis's newly formed drone training cohort | "top of the class of Chrysalis's brand new drone kindergarden" | no: written as historical/background exposition about their shared past rather than as a direct psychological assertion | yes
+- whole: The note asserts that Thorax's true nature is tough rather than soft, defines him as a jaeger bonded fraternally with Pharanx, and notes their standing as top graduates of Chrysalis's first drone kindergarten.

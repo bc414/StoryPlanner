@@ -1,0 +1,4 @@
+- claims:
+  - Specifies that the scene's opening line/moment is someone calling out the name "Minette!" | Starts with "Minette!" | yes | yes
+  - Specifies a narrative-voice choice: the scene should read as if the filly's perspective is like that of a pokémon | as if she's a pokemon | yes | yes
+- whole: The note jots down two quick craft reminders for writing the scene — its opening line and an odd, distinctive framing for the character's point of view.

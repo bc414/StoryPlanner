@@ -1,0 +1,4 @@
+- claims:
+  - a causal claim that the technology's exclusive use for improving human capital is what causes it to break the economic-predation model | "breaks the economic predation model because it is solely used as human capital improvement" | yes | yes
+  - a categorical distinction classifying the technology as enhancement rather than automation | "It is not automation, it is enhancement" | no: written as a definitional/categorical assertion rather than evidence being deployed toward a thematic proposition | no
+- whole: The note argues, via a causal claim tied to a definitional clarification, that because Star Spade is used only to enhance rather than replace human capital it structurally breaks exploitative economic power models.

@@ -1,0 +1,4 @@
+- claims:
+  - The machine automatically diverts a portion of the copper bits into a sealed internal compartment labeled a processing fee | physically sorts a percentage of the copper bits into a locked internal box as a "processing fee" | yes | yes
+  - Armored trucks belonging to Gilded Trust make a weekly visit to gather the accumulated fee taken from the surrounding economy | Gilded Trust's armored trucks come around once a week to collect his cut of the local economy | no: written as narrative/lore description of an in-world business practice rather than a definition of the technology's own mechanism | no
+- whole: The note defines the machine's built-in fee-skimming mechanism and then describes, in more narrative terms, how the owning organization periodically collects that skimmed cut.

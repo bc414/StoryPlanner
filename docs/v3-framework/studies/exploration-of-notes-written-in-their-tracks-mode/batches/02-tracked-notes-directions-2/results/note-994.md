@@ -1,0 +1,5 @@
+- claims:
+  - Chrysalis physically reads a paper authored by Coltbert | Chrysalis read Coltbert's paper | yes | yes
+  - Chrysalis absorbs information about spell matrix technology under development by the 2nd Gen Royalists in Pridea | learned about spell matrix technology being developed by the 2nd Gen Royalists in Pridea | no: written as expository summary reporting the content of what she has come to know, rather than staging an observable act | no
+  - Chrysalis forms an internal resolve to construct a spell matrix for the changeling draining spell so as to escape the Predator's Dilemma | decides she wants to make a spell matrix ... to break the Predator's Dilemma | no: written as narrated interior decision/motivation rather than a staged, observable action | yes
+- whole: The note reports Chrysalis's reading of a paper and the resulting knowledge and resolve it produces, mixing one staged action with two summarized interior/expository beats.

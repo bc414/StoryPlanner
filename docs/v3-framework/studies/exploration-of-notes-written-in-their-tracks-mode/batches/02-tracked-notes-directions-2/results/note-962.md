@@ -1,0 +1,3 @@
+- claims:
+  - Describes the character's physical appearance as having a blonde toupee and an orange coat | blonde toupee and an orange coat color | no: written as a physical/appearance description rather than a psychological assertion of character truth | yes
+- whole: The note records a brief physical-appearance detail for the character rather than a psychological account of who they are.

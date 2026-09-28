@@ -1,0 +1,6 @@
+- claims:
+  - Names the system's real-world inspiration as the Industrial Revolution/Gilded Age era | Grover IV (Industrial Revolution/Gilded Age) | yes | yes
+  - Gives an in-universe title for this historical phase of the system | The "Rot of Peace." | no: written as an in-universe label/epithet rather than analogy exposition | no
+  - Narrates that, lacking external threats, the ruling class shifted toward individualist ideology and wealth accumulation | With no monsters to fight, the elite turned to Rugged Individualism and accumulation | no: written as in-universe causal narrative describing the setting's history | yes
+  - Describes an in-universe institution (the Imperial Legions, equated with public good) disappearing and being supplanted by private wealth | The "Imperial Legions" (Public Good) vanished, replaced by private wealth | no: written as in-universe lore/narrative describing a structural change | no
+- whole: The note sketches, largely through in-universe narrative and naming, how this system's turn from communal military purpose to private accumulation mirrors the Gilded Age, while only briefly stating the real-world inspiration outright.

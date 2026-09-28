@@ -1,0 +1,3 @@
+- claims:
+  - States the clinical/professional name Fleur uses for the technology | "La Phénylpipéridine" | mode, no: written as a glossary-style terminology entry rather than a description of reader experience | answers, yes
+- whole: The note is a terminology glossary listing the different names various characters and cultures give the technology.

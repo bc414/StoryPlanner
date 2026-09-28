@@ -1,0 +1,7 @@
+- claims:
+  - The system enforces a strict gold standard as its monetary rule | enforces a strict gold standard | yes | yes
+  - The system prohibits debt creation through fractional-reserve banking | no debt creation via fractional banking | yes | yes
+  - The system prohibits profit from interest | no interest profit | yes | yes
+  - The gold standard's effect was to cap the growth of the Equestrian economy | effectively capped the Equestrian economy | yes | yes
+  - The money supply is fixed to metal reserves rather than tied to economic output | tied to metal, not productivity | yes | yes
+- whole: The note lays out the core monetary rules of the Stagnation of Harmony system — gold-backed currency, no fractional banking, no interest — and states the objective economic effect those rules produce.

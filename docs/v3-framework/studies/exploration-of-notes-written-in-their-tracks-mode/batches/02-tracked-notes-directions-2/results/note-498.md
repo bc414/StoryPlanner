@@ -1,0 +1,4 @@
+- claims:
+  - She proposes committing the dragons to the Bluebell River Spearhead, paired with unicorns providing magical shielding | "offers the dragons for the Bluebell River Spearhead with unicorn support for shielding" | yes | yes
+  - The pairing is framed as a way to flatter the elder dragons' pride while benefiting the Equestrian Army's campaign | "sooth the elder dragons' egos and serve the Equestrian Army well" | no: written as strategic rationale/justification explaining the plan's payoff rather than staged observable behavior | no
+- whole: The note stages her offering a combined dragon-unicorn force for the spearhead, then adds an explanatory aside on why the arrangement is strategically and diplomatically advantageous.

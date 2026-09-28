@@ -1,0 +1,4 @@
+- claims:
+  - The crystallers' filtering spell has a 'software' capability that can separate red and pink love | filtering spell...separting red and pink love (software) | no: written as a piece of in-world lore/world-building exposition describing a magical function, rather than as author guidance on how the reader should experience this | yes
+  - Using that spell still depends on a scarce hardware component, mini vacuum-grade valves, controlled by a single Skyfall artisan monopoly | still need mini vacuum-grade valves from a Skyfall artisan monopoly (hardware) | no: written as a world-building/plot-constraint fact about supply and scarcity, not as a statement of intended reader experience | yes
+- whole: The note sketches, in in-world lore terms rather than reader-experience terms, a software/hardware split in how the Luna Nova Rifle's technology works and what limits its use.

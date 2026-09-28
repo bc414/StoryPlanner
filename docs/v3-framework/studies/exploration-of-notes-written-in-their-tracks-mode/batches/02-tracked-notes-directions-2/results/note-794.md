@@ -1,0 +1,3 @@
+- claims:
+  - Identifies a real historical pamphlet, Thomas Paine's Common Sense, and notes that it helped spark the American Revolution | Thomas Paine's Common Sense pamphlet which ignited the American Revolution | yes | yes
+- whole: The note cites Thomas Paine's Common Sense and its role in sparking the American Revolution as the real-world historical inspiration for this technology.

@@ -1,0 +1,4 @@
+- claims:
+  - States that modern authoritarian regimes have moved beyond reliance on overt coercive force as their primary method of control | evolved past simple brute force | yes | yes
+  - States that such regimes instead exploit widespread public indifference as a tool of domination | weaponizes apathy | yes | yes
+- whole: The note names modern authoritarianism's shift from brute-force coercion to the exploitation of public apathy as the real-world inspiration behind the in-universe system.

@@ -1,0 +1,5 @@
+- claims:
+  - Chrysalis speaks a command and Thorax immediately complies with it | "Go! Feed!" and Thorax followed | yes | no
+  - Thorax's compliance is explained as arising from a lifelong deprivation of love | "starved of love all his life" | no: written as narratorial psychological exposition explaining motive rather than staged observable behavior | yes
+  - The moment is framed as the sole exception to Chrysalis's otherwise unbroken self-control | "the only time Chrysalis ever slipped up" | no: written as an authorial evaluative summary judging the scene against her general pattern, not something staged for the reader to observe | yes
+- whole: The note stages a brief command-and-compliance beat between Chrysalis and Thorax while explaining his reaction through his history of love-deprivation and asserting the moment as Chrysalis's one uncharacteristic lapse.

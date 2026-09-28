@@ -1,0 +1,3 @@
+- claims:
+  - States that, during her time as a pegasus, Cadance believed her special talent was being a relationship counselor | Cadance considered her special talent as being a relationship counselor | yes | no
+- whole: The note supplies a single biographical detail about how Cadance, in her earlier life as a pegasus, self-identified her special talent.

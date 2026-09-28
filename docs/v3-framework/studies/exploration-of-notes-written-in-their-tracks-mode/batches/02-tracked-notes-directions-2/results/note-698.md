@@ -1,0 +1,3 @@
+- claims:
+  - Identifies a specific canon source, the Spitfire Research node of the EaW focus tree, as the origin for the organization's secret fighter plane development | Spitfire Research from the EaW focus tree is where the secret fighter plane development comes from | yes | yes
+- whole: The note names a specific established-canon source (a focus-tree research item) that the story's depiction of the organization's secret fighter-plane program draws from.

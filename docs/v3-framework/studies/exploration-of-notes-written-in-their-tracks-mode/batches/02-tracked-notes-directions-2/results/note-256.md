@@ -1,0 +1,9 @@
+- claims:
+  - States his birth date and place | "Born: 9th December 914 in Griffenheim" | yes | yes
+  - Notes that his birth coincided with the Empire being at the height of its power | "born when the Empire was at the height of its power" | yes | no
+  - States that at a young age he joined the priesthood of Boreas | "joined the priesthood of Boreas" | yes | yes
+  - Attributes his joining the priesthood to a sincere, genuine respect for the Gods | "out of genuine respect for the Gods" | no: written as an interior/psychological attribution of sincere motive rather than a verifiable reportable fact | no
+  - Characterizes him as possessing pious devotion and a humble manner | "His pious devotion and humble manner" | no: written as an admiring character portrait rather than neutral factual reporting | no
+  - States that these qualities caused him to rise quickly to the position of Archon | "quickly rise to the position of Archon" | yes | yes
+  - Closes with the vague evaluative remark that all seemed well | "all seemed well" | no: written as foreboding narrative commentary rather than factual reporting | no
+- whole: The note reports Archon Eros's birth and his early rise through the priesthood to the position of Archon, framing it in warm, admiring, and quietly foreboding language rather than strictly neutral historical fact.

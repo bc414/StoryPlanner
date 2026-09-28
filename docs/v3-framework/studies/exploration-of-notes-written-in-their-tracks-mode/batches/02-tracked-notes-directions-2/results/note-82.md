@@ -1,0 +1,4 @@
+- claims:
+  - This scene is the first point where readers learn that Fluttershy stayed behind | "First time readers find out Fluttershy stayed" | yes | yes
+  - This scene is also the first point where readers learn that Twilight's words had their intended effect | "that Twilight's words worked" | yes | yes
+- whole: The note reminds the author that this scene is where two prior story threads (Fluttershy's decision and Twilight's persuasion) are first confirmed to readers, a fact to keep in mind while writing it.

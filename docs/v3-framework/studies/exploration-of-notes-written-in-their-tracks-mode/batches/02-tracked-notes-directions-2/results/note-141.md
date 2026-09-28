@@ -1,0 +1,3 @@
+- claims:
+  - States that a limited/scarce market inevitably produces a predator's dilemma (competitors forced into destructive rivalry over shrinking resources) | "A finite market leads to the predator's dilemma" | no: written as a general aphoristic law of systemic logic (a stated rule of cause and effect), not as an analysis of what a reader would infer from page details | yes
+- whole: The note states, as a bare systemic axiom, the underlying economic logic (scarcity breeds predatory competition) that explains how the ruined-farm/market system operates.

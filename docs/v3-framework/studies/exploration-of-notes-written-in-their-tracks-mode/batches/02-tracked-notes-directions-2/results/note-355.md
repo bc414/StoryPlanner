@@ -1,0 +1,4 @@
+- claims:
+  - Names the real-world economic model built on triggering dopamine-driven engagement as the concept this technology stands in for | the dopamine economy | yes | yes
+  - Names the addictive cycle of engagement and reward that drives social media use as a second concept this technology stands in for | social media attention loop | yes | yes
+- whole: The note directly labels two related real-world phenomena — the dopamine-driven economy and the social media attention loop — as the social commentary this fantasy technology is meant to let readers infer.

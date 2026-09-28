@@ -1,0 +1,16 @@
+- claims:
+  - Categorizes old American diners as a stagnant business model: broad but shallow, comforting, nostalgic, unable to excel at anything | "Old American Diners = Stagnation" | yes | yes
+  - Categorizes McDonald's as a 'Rugged Individualism/Poseur Factory' model built on ruthless extraction, high turnover, low wages, and a race-to-the-bottom on quality for shareholder margins | "McDonald's = Rugged Individualism" | yes | yes
+  - Categorizes specialty family restaurants as 'Harmonic Capitalism' characterized by high asset specificity | "Specialty Family Restaurants = Harmonic Capitalism" | yes | yes
+  - Categorizes Raising Cane's/In-N-Out as 'Standardized Excellence,' the honest factory model | "The Honest Factory" | yes | yes
+  - Explains McDonald's business logic as a 'Disposable Cog' theory: simplify the system enough to run on minimum wage and extreme turnover | "Disposable Cog" theory | yes | yes
+  - Explains that In-N-Out/Raising Cane's use 'Efficiency Wage Theory,' paying above minimum wage, offering full benefits, and promoting from within | "Efficiency Wage Theory" | yes | yes
+  - Argues that good pay and dignity cause low turnover, which lets workers master the menu and genuinely care about their jobs | "Because turnover is low, the workers actually master" | yes | yes
+  - Explains that a single-purpose menu lets the factory's kitchen be custom-built and stripped of unnecessary equipment, only needing fryers and prep stations | "Asset Specificity of the Factory" | yes | yes
+  - Explains that a small, fast-moving menu keeps ingredients fresh and delivery consistent, building strong consumer trust | "The Velocity of Quality" | yes | yes
+  - States that a fictional character, Coltbert, believes quality requires innate special talent and ego, and sees factories as inherently soulless | "Coltbert thinks you can only have quality" | no: written as in-world character belief/exposition | no
+  - States that another fictional character, Kemerskai, disproves Coltbert's belief | "Kemerskai proves Coltbert wrong" | no: written as in-world narrative event | no
+  - Asserts that an industrial factory can produce excellent food if it treats its workers as citizens | "treat the workers like citizens" | yes | yes
+  - Asserts that logistics and solidarity can be as romantic and culturally profound as passion and art | "Logistics and Solidarity can be just as romantic" | yes | yes
+  - Claims that today the artisan chef and the honest specialized factory are now the high standard, while poseur fast food and legacy diners are declining | "Today, the artisan master chef" | yes | yes
+- whole: The note builds a food-industry allegory that maps real fast-food/restaurant business models onto economic philosophies, using a fictional character dispute to argue that dignified, efficiency-wage-driven industrial standardization beats both ego-driven artisanship and exploitative low-wage 'poseur' capitalism.

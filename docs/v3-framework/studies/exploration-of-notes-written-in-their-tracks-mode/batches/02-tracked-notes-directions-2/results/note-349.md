@@ -1,0 +1,4 @@
+- claims:
+  - States that the Aquileians' name for the device, cœur de cristal, translates literally as "crystal heart" | "cœur de cristal which is literally crystal heart" | no: written as an in-world naming/translation fact rather than an author's note on reader experience | yes
+  - States that the word "cœur" in Aquileian/French carries further senses beyond heart — love, empathy, solidarity, courage, and the core of a machine | "not only means love/empathy/solidarity but also courage and the core of a machine" | no: written as etymological/linguistic exposition rather than a plan for how the reader should experience the story world | yes
+- whole: The note glosses the device's in-world name and the layered meanings of \"cœur,\" supplying etymological material that shows how the technology's name doubles as emotional and mechanical symbolism.

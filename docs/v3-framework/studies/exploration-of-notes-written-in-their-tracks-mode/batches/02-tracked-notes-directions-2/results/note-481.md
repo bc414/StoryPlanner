@@ -1,0 +1,7 @@
+- claims:
+  - States that equestrians suppressed language and conduct of sexual "taking" or "owning" because it mirrored griffon serfdom and predatory behavior | "discouraged sexual ambition ... because it resembled griffon serfdom and predatory behavior" | yes | no
+  - Asserts that sex does not destroy communal harmony but instead sustains it | "Sex doesn't kill harmony, it sustains it." | no: written as a direct thesis statement asserting the conclusion outright rather than presenting evidence for it | yes
+  - Claims sex is a healthy equilibrium between friendship and ambition | "Sex is a healthy balance between friendship and ambition." | no: written as a direct definitional assertion of the proposition rather than evidence for it | yes
+  - Adds that this ambition need not be wholly predatory | "It doesn't have to be fully predatory." | no: written as a continued bare assertion rather than supporting evidence | yes
+  - Argues that suppressing sexual ambition strips away part of life's intimacy, connection, and love | "Nurturing away sexual ambition is like taking away a part of life and the intimacy, connection and love" | no: written as an evaluative analogy/argument advocating a judgment rather than neutral evidence | yes
+- whole: The note cites the equestrians' taboo on possessive sexual language as a system fact, then pivots to directly asserting the proposition that balanced, non-predatory sexual ambition sustains rather than threatens harmony and that its suppression costs intimacy and connection.

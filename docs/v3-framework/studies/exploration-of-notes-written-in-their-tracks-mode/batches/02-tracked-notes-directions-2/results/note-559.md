@@ -1,0 +1,4 @@
+- claims:
+  - He uses mercenaries to intimidate or threaten his own workers | "threaten his workers too" | no: written as an in-world factual statement about the character's behavior, not as a plan for reader experience | no
+  - This behavior extends a prior pattern in which he also used mercenaries against the buffalo | "not just the buffalo" | no: written as a comparative aside confirming an existing story fact rather than describing how the reader encounters it | no
+- whole: The note records a plot detail about the character's use of mercenaries against both his workers and the buffalo, without addressing the ordering or structure of his appearances.

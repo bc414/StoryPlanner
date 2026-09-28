@@ -1,0 +1,4 @@
+- claims:
+  - He held that the Empire's collapse was caused by capitalist corruption | "capitalist rot destroyed the Empire" | no: written as a report of his political/ideological belief stated as plain fact, not as a psychologist's analysis of what forms him | yes
+  - He held that this corruption arose from a forsaking of spiritual purity | "because it abandoned spiritual purity" | no: written as a continuation of the same ideological/historical claim rather than psychological insight into his character | yes
+- whole: The note reports, as a stated belief rather than psychological analysis, Archon Eros's ideological view that capitalist corruption—rooted in a loss of spiritual purity—destroyed the Empire, offering this as one piece of who he is at the story's start.

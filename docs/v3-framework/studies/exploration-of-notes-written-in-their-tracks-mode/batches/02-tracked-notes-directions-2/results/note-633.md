@@ -1,0 +1,3 @@
+- claims:
+  - States that the device originated with the engineers of Chrysalis | Invented by Chrysalis's engineers | mode, yes | answers, no
+- whole: The note records the device's origin (its inventors) without addressing the track's questions of usage period, manner of use, or users.

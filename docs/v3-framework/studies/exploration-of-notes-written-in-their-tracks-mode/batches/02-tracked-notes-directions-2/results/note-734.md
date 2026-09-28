@@ -1,0 +1,4 @@
+- claims:
+  - Panzer Haut is produced through an intensive refining process applied to a substance called pink love, in order to extract from it a magical analogue of endorphins | ultra refining pink love to isolate the magical equivalent of endorphins | yes | yes
+  - The extracted magical endorphin-equivalent is administered in very large doses, functioning as a synthetic painkiller | used in extreme quantities as synthetic painkillers | yes | yes
+- whole: The note defines Panzer Haut's material origin and manufacturing process (refined from pink love to isolate a magical endorphin analogue) and states its resulting function as a potent synthetic painkiller.

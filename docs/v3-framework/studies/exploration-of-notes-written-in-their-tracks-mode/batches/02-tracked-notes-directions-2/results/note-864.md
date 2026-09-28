@@ -1,0 +1,4 @@
+- claims:
+  - Henri privately judges German names as aggressive and imperial-sounding | "Henri thinks the German names sound aggressive and imperial" | mode, no: written as a character's internal belief/opinion, not as authorial appearance planning | answers, no
+  - Henri deliberately uses English translations of German names as a deliberate slight to wound their pride | "he uses the English translations as an insult to their pride" | mode, no: written as a description of the character's habitual behavior and its motive, not as planning of his appearances in reading order | answers, no
+- whole: The note explains a psychological motive and a habitual verbal tic of Henri's rather than laying out any plan for when or how he appears across the project's reading order.

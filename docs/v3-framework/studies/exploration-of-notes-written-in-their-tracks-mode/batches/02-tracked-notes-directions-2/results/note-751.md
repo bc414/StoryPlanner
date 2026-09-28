@@ -1,0 +1,4 @@
+- claims:
+  - States that any character, not a restricted few, is able to operate the rifle | Everyone can use a Luna Nova rifle | yes | yes
+  - Identifies the rifle's fuel sources as romantic feeling or the user's personal drive or innate magic | powered by red love or even their own ambition/magic | yes | yes
+- whole: The note sets down, as a plain worldbuilding rule, that the rifle is open to universal use and can be run on either an emotional or a personal/magical energy source.

@@ -1,0 +1,3 @@
+- claims:
+  - States that a particular pie is the food-form embodiment of a national slogan about the republic's endurance | "culinary manifestation of 'The Republic Stands'" | no: written as a direct symbolic/interpretive assertion equating an object with a slogan, rather than as evidence marshaled by a reasoning philosopher toward a conclusion | yes
+- whole: The note asserts a flat symbolic equivalence between a specific food item and the national motto "The Republic Stands," naming that motto as the proposition the food embodies without laying out supporting reasoning.

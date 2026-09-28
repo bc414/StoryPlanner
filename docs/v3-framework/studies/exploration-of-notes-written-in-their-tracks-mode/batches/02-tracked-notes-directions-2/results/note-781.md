@@ -1,0 +1,7 @@
+- claims:
+  - States that English peasant food traditions rivaled French ones but were destroyed once England industrialized first | "destroyed their own food culture" | yes | yes
+  - Explains that the Enclosure Acts converted common land to sheep pasture, driving millions of peasants off their land into smog-choked cities to work in factories and lose their terroir | "Enclosure Acts" and "lost their Terroir" | yes | yes
+  - Describes how WWII-era rationing from 1940 to 1954 raised a generation on canned meat and powdered eggs, so the traditions were lost | "rationed from 1940 to 1954" and "traditions were lost" | yes | yes
+  - Decides to place these lost English traditions into the memories of Herzlander refugees making the Long March to Cloudbury to found the Griffonian Republic | "Herzlander refugees who go on the Long March" | no: written as an authorial worldbuilding decision applying the analogy to the fictional culture, rather than documenting the real-world inspiration itself | yes
+  - Lists specific lost English food traditions: meat pies, clothbound cheddar, real cask ale, and pottage | "meat pies, clothbound cheddar, \"Real cask ale\", pottage" | yes | yes
+- whole: The note documents England's industrialization-driven loss of peasant food traditions (Enclosure Acts, WWII rationing) as real-world inspiration, then decides to lodge those lost traditions in the memories of the Herzlander refugees who found the Griffonian Republic.

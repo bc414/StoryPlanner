@@ -1,0 +1,9 @@
+- claims:
+  - She has a long-standing idolization of the Wonderbolts' image of "awesomeness" | "aesthestic of 'awesomeness'" | mode, yes | answers, yes
+  - She wants fame and has a huge ego | "wants fame and has a huge ego" | mode, yes | answers, yes
+  - Her baseline character instinct is Loyalty | "baseline character instinct is Loyalty" | mode, yes | answers, yes
+  - This loyalty instinct is grounded in a specific episode's plot where she turns down the Shadowbolts' offer of ego and glory to stay with her friends | "rejects the Shadowbolts' offer... stick with her actual friends" | mode, no: written as a summary/citation of a specific episode's plot to justify the prior claim, rather than as the psychologist's own assertion | answers, no
+  - Her ego and loyalty clash with the reality of the Wonderbolts' toxic culture | "clashes with the reality of the Wonderbolts' toxic culture" | mode, yes | answers, yes
+  - This clash is shown across three named episodes | "showcased in Wonderbolts Academy, Rainbow Falls, and Newbie Dash" | mode, no: written as a citation listing source episodes rather than a psychological assertion | answers, no
+  - The corrupted combination of her ego and loyalty produces a heroism complex, traced to her idolizing Reni the ace flyer at Mount Aris | "heroism complex from idolizing Reni the ace flyer at Mount Aris" | mode, yes | answers, yes
+- whole: The note diagnoses Rainbow Dash's founding traits of ego and loyalty, notes their tension with Wonderbolts culture, and asserts their corrupted fusion into a heroism complex, leaning on show episodes as supporting evidence.

@@ -1,0 +1,5 @@
+- claims:
+  - The supply hub is the single critical point the whole system depends on | marked by "bottleneck" | mode: yes | answers: yes
+  - Running out of crystals at the hub would collapse the whole system | marked by "runs out of crystals"..."doomed" | mode: no: written as dramatic stakes/foreshadowing rather than a neutral rule statement | answers: yes
+  - The hub being overrun would collapse the whole system | marked by "is overrun"..."doomed" | mode: no: written as a narrative threat/plot-risk statement rather than a neutral rule statement | answers: no
+- whole: The note flags the supply hub as the system's single point of failure, casting its dependence on crystals and its vulnerability to attack as dramatic stakes rather than plain mechanical definition.

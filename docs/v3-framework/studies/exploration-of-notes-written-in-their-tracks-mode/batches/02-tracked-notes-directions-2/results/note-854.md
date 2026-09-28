@@ -1,0 +1,3 @@
+- claims:
+  - The world has varied weather and climate arising from ocean wind patterns and ecological variety | ocean wind dynamics and varying ecology | no: written as an objective world-building description of the setting's physical geography, not as an in-universe agent's stated reasoning about the system's origin | yes
+- whole: The note sketches a physical/ecological fact about Aquileia's climate as background world detail rather than voicing any creator's rationale for building the system.

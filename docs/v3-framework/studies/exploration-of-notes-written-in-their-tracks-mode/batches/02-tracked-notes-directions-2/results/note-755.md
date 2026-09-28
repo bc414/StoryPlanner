@@ -1,0 +1,7 @@
+- claims:
+  - Fleur watches Twilight do mental math with her horn and from this learns that Equestrian schools do not encourage calculator use in math class | "Fleur learns that Equestrian education does not encourage calculators in school for math, after watching Twilight do math with her horn or mental math" | yes | yes
+  - The author flags an intent to work in a callback to a specific song and raises an open question about whether to use the exact square root for the joke | "(The Failure Song reference! use the exact square root?)" | yes | yes
+  - Twilight's mental-math ability let her become a researcher, while other ponies who lack calculators are left disadvantaged | "everypony else is screwed because they don't use calculators" | no: written as an in-universe expository statement of cause and effect | yes
+  - Fleur regards this state of affairs as ridiculous | "Fleur finds this ridiculous" | yes | yes
+  - A calculator only performs computation and graphing, not the setting up of an equation, so it is worthless without conceptual understanding | "It can only do PEMDAS and graphing" | no: written as a general explanatory/argumentative statement of educational principle | no
+- whole: The note stages a scene where Fleur's observation of Twilight's mental math reveals the system's discouragement of calculator use, mixing a dramatized beat and craft aside with expository lore about the resulting social stratification and a general argument about calculators' limits.

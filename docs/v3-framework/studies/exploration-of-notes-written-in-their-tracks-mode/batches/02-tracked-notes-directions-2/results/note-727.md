@@ -1,0 +1,6 @@
+- claims:
+  - Stopping use of the technology plunges the user into a coma-like unconsciousness lasting several days | comatose for several days | yes | yes
+  - Stopping use of the technology brings on nightmares during that withdrawal period | nightmares | yes | yes
+  - Stopping use of the technology strips the user of the capacity to feel joy | anhedonia (no joy) | yes | yes
+  - Stopping use of the technology leaves the user exhausted | exhaustion | yes | yes
+- whole: The note sets out, as a rule of the fictional world, the cluster of withdrawal symptoms that follow discontinued use of the technology.

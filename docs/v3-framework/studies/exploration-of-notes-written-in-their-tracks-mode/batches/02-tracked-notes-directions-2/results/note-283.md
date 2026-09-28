@@ -1,0 +1,4 @@
+- claims:
+  - Rainbow Dash's core disposition has never been one of tribal loyalty over fairness | Rainbow Dash's baseline character was never tribal | yes | yes
+  - A specific canon episode is cited as evidence, showing her siding with buffalo against her own kind after hearing their case | Over a Barrel, sides with the buffalo against Appleloosa after hearing their side | no: written as an evidentiary citation of canon precedent rather than a psychologist's direct assertion about the character | no
+- whole: The note asserts that Rainbow Dash's underlying character is not tribal and backs this with a canon example of her favoring fairness over faction loyalty.

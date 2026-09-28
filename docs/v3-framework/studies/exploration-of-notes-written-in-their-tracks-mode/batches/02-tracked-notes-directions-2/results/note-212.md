@@ -1,0 +1,3 @@
+- claims:
+  - States that Grover VI's father died when Grover VI was five years old | "He is 5 years old when his father passes away" | yes | yes
+- whole: The note records a single biographical fact about Grover VI: the death of his father when he was five.

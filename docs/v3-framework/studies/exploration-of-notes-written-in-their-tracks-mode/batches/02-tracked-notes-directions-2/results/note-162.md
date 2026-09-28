@@ -1,0 +1,5 @@
+- claims:
+  - States that the Star Spade counts as the clearest evidence that earth pony magic actually exists | "most visible proof that earth pony magic is real" | no: written as an evaluative/explanatory claim about the item's significance, not a historian's report of a discovery event | no
+  - States that unicorns, pegasi, and griffons possess magic that is overtly visible and active | "highly visible, active magic" | no: written as a general descriptive comparison between the world's races, not a historian's dated report | no
+  - Explains that the Star Spade converts hidden earth pony magic into a visible effect that breaks hardpan into soft, diggable loam | "turns latent earth pony magic into a concentrated, visible effect" | no: written as mechanical/functional exposition of how the item works, not as a report of when or how the fact was discovered | no
+- whole: The note explains what the Star Spade is and how it demonstrates earth pony magic by contrast with other races, without stating when any of this was discovered.

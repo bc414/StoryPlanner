@@ -1,0 +1,5 @@
+- claims:
+  - The reader begins with the view that Celestia is outdated and endangered the ponies by sheltering them from a real world driven by ambition | obsolete and put the ponies in danger by shielding them | yes | yes
+  - Through what she observes in Sickleclaw, Applejack comes to realize that Celestia's protectiveness was never a sign of being outdated | Applejack learns that Celestia was never obsolete | no: written as a narrative statement about Applejack's own realization within the story rather than a description of the reader's inference | yes
+  - Certain ponies genuinely need a maternal figure watching over them | Some ponies just need a mother figure | no: written as a general explanatory truism about pony nature rather than as a stated reader inference | yes
+- whole: The note sets up the reader's negative prior view of Celestia as an obsolete, overprotective ruler and then uses Applejack's parallel with Sickleclaw to recast that same protectiveness as necessary maternal care rather than obsolescence.

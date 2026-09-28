@@ -1,0 +1,6 @@
+- claims:
+  - The Crystal Heart needs a unicorn-cast filtering spell that lets only friendship-based emotion through it in order to project the protective shield | "filter emotions so that only friendship went in, to project the shield" | mode: yes | answers: yes
+  - If terror or disharmony reaches the heart instead, the shield it projects becomes unstable | "receives terror or disharmony, the shield becomes unstable" | mode: yes | answers: yes
+  - A unicorn ruling class calling themselves crystallers kept the filtering spell running, while the crystal ponies supplied the love-and-unity fuel the spell needed | "ruling class of unicorns who called themselves 'crystallers'... crystal ponies provided the fuel of love and unity" | mode: yes | answers: yes
+  - Mi Amore founded the Crystal Faire tradition | "Mi Amore established the Crystal Faire tradition" | mode: no: written as a historical/lore record of a founding event rather than a statement of the system's operating rules | answers: no
+- whole: The note lays out the Crystal Heart's shield mechanism as an objective rule with a failure condition and the social roles that operate it, then appends an unrelated historical note about the origin of the Crystal Faire tradition.

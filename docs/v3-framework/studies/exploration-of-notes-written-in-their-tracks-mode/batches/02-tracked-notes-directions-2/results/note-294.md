@@ -1,0 +1,4 @@
+- claims:
+  - A shift in the character's feelings toward Applejack, moving toward liking her | "He grows to like Lioness Applejack" | yes | yes
+  - A statement that the two characters share certain values | "shared values of community, hard work and honesty" | no: written as descriptive backstory/characterization rather than a plan for how the reader experiences a change | no
+- whole: The note plans a single beat of Rasti's arc — warming to Applejack — and grounds it in the shared values the two characters hold.

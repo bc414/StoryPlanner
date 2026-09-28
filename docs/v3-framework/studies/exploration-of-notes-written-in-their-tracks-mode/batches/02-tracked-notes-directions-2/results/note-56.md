@@ -1,0 +1,4 @@
+- claims:
+  - Her reluctance to serve as a front-line combatant is traced to a formative experience of witnessing a warlord's destructive aftermath | doesn't want to fight on a front line after seeing the destruction of a warlord | yes | yes
+  - Her core drive is identified as a wish to repair or set right rather than to engage in combat | She only wants to fix things | yes | yes
+- whole: The note asserts that at the outset of TLTT, Twilight's defining psychology is a war-averse, restorative drive rooted in having seen a warlord's devastation firsthand.

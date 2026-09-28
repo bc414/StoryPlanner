@@ -1,0 +1,4 @@
+- claims:
+  - Before the war she never needed to pause or rest when facing difficulties, as an established fact about her disposition | never had to rest in the face of problems before the war | yes | no
+  - She was able to overcome anything that demanded physical strength, stated as a settled truth about her capability | required brute force, she could surpass | yes | no
+- whole: The note asserts, in the confident diagnostic voice of the track, a pre-war truth about Rainbow Dash's tireless self-sufficiency and physical dominance, without addressing her state at the start of TLTT.

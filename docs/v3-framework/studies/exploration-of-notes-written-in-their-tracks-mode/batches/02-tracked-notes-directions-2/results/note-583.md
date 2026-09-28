@@ -1,0 +1,4 @@
+- claims:
+  - She holds the conviction that she has built a flawless, stagnant harmonious society, labeled 'Stagnation of Harmony' | believes she has achieved the perfect society (Stagnation of Harmony) | yes | yes
+  - She holds the conviction that any threat to that society is merely a misunderstanding or an anomaly rather than a real danger | all threats are just "misunderstandings" or "anomalies" | yes | yes
+- whole: The note asserts, in clinical third-person terms, the core self-deceiving belief that defines Celestia's psychology at the story's opening — that her society is perfected and any sign of trouble is not real threat but mere aberration.

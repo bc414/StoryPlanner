@@ -1,0 +1,4 @@
+- claims:
+  - it rejects a War-on-Drugs, exterminationist response to an addiction crisis as the wrong solution | "isn't a War on Drugs (Extermination)" | no: written as a direct philosophical assertion of a normative judgment, not as evidence witnessed from the organization's conduct | yes
+  - it asserts that harm reduction, understood as integration, is the right solution to an addiction crisis | "but Harm Reduction (Integration)" | no: written as a direct philosophical assertion of a normative judgment, not as evidence witnessed from the organization's conduct | yes
+- whole: The note states outright the thematic proposition (harm reduction/integration over extermination) that the track's evidentiary mode would otherwise expect to be built up from witnessed instances.

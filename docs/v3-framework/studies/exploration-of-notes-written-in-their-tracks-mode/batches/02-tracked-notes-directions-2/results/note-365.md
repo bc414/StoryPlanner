@@ -1,0 +1,6 @@
+- claims:
+  - States that the show's writers designed the cutie map so formulaic episodes could force the mane six to teach friendship and harmony to new one-off strangers | "doyalist reason ... Hasbro ... formulaic episodes" | no: written as a Doylist real-world production explanation of the writers' motive | yes
+  - States that the in-story justification is that harmony's stagnation is being attacked by the Comprador Economy | "watsonian reason ... stagnation of harmony ... Comprador Economy" | no: written as a Watsonian in-universe causal justification introducing new invented lore | no
+  - States that the map missions exist to send the mane six to remind the ponies about harmony | "map missions are for the mane 6 to go and remind" | no: written as a Watsonian in-universe statement of the missions' purpose | yes
+  - States that these missions are an escalated form of friendship seminars used for the worst cases of disharmonic rot | "escalated version of friendship seminars ... disharmonic rot" | no: written as a Watsonian in-universe recontextualization using invented terminology | no
+- whole: The note lays out the author's own Doylist and Watsonian justifications for the cutie map and its missions, framing them as harmony-restoring responses to the invented Comprador Economy threat rather than as direct citations of established franchise canon.

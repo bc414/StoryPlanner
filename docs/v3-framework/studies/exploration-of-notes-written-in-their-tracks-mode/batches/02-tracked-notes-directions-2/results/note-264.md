@@ -1,0 +1,3 @@
+- claims:
+  - Business conglomerates (Skyfall B2B companies) financed mercenary forces specifically to raze Aquileia's standardized university system, with this occurring in the context of a counterrevolution | Skyfall B2B companies pay the mercenaries to destroy Aquileia's standardized universities during the counterrevolution | no: written as a terse planning-note summary of an event (present-tense shorthand naming actors and action) rather than as narrated in-universe historical prose | yes
+- whole: The note records a single funded act of institutional destruction — corporate-backed mercenaries razing the standardized university system — situated within a counterrevolution, as a contributing episode in the system's downfall.

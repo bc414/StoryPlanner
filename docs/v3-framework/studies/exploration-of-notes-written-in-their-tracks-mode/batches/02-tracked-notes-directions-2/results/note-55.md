@@ -1,0 +1,4 @@
+- claims:
+  - She is described as traumatized and utterly grim at the point the war begins | "starts the war traumatized and utterly grim" | yes | yes
+  - Her trauma and grimness are rooted in the realization that her magic cannot stop the world's suffering | "from the fact that her magic can't stop the world's suffering" | yes | yes
+- whole: The note asserts that Twilight enters the war already broken down into trauma and grimness, rooted in her powerlessness to end suffering through magic.

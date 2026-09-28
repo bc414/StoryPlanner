@@ -1,0 +1,5 @@
+- claims:
+  - States that earth ponies possess the ability to grow anything | earth ponies can grow anything | no: written as a bare factual assertion about the world law rather than a description of reader experience | no
+  - Notes that this ability should be scientifically self-evident given that earth-pony magic is described as weathering | which should be obvious scientifically, if their magic is weathering | no: written as an authorial scientific-plausibility rationale checking internal consistency, not as a reader-experience description | no
+  - Flags that the stated ability conflicts with the theories Fleur espouses | contradiction in the theories Fleur espouses | no: written as an authorial consistency note identifying a conflict between a fact and a character's stated theory, not as a reader-experience description | no
+- whole: The note is an internal-consistency check flagging a scientific-plausibility gap and a contradiction with Fleur's theories, rather than describing how the reader's understanding of the world law should unfold in reading order.

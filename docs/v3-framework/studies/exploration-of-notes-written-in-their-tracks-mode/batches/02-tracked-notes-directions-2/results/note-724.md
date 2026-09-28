@@ -1,0 +1,3 @@
+- claims:
+  - Identifies the technology as functionally equivalent to the real-world stimulant drugs pervitin and methamphetamine | "Equivalent to pervitin/meth" | yes | yes
+- whole: The note names pervitin and methamphetamine as the direct real-world drug analogue inspiring this technology's design.

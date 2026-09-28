@@ -1,0 +1,5 @@
+- claims:
+  - Recounts the canon episode plot where Starlight initially believes Sunburst a master wizard but learns he is merely well-read rather than magically powerful | Starlight thinks Sunburst is a master wizard but finds out he just has a lot of books | no: written as a plain summary of canon episode events | no
+  - Offers a speculative interpretation of what the show's creators meant to convey about Sunburst's character | I guess the show intended to portray Sunburst as being book smart | no: written as the author's personal guess/interpretation of canon intent | no
+  - States that in TLTT's setting, where magic functions as materialist science via crystal enhancers, Sunburst was expelled from Celestia's school for showing too much interest in smuggled Aquileian textbooks | expelled from Celestia's school ... smuggled Aquileian textbooks | yes | yes
+- whole: The note first summarizes and speculates about canon's characterization of Sunburst as bookish-but-not-powerful, then recontextualizes that trait into a new TLTT backstory involving expulsion over forbidden foreign textbooks in a materialist-magic world.

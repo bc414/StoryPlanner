@@ -1,0 +1,4 @@
+- claims:
+  - Names a belief the audience is presumed to still hold, that changelings differ fundamentally from ponies in kind | "The reader may still believe" | no: written as an audience-expectation notation naming a presumed prior belief, rather than a philosopher's evidence claim | yes
+  - Reports that the two characters claim ponies can fail at harmony just as changelings can, denying a species-based moral distinction | "assert that ponies are just as capable of not being harmonic as changelings" | yes | yes
+- whole: The note stages a clash by naming the reader's likely assumption of a pony/changeling moral divide and then giving the parents' assertion that ponies are equally capable of disharmony, using that assertion as evidence against a species-based account of morality.

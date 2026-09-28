@@ -1,0 +1,5 @@
+- claims:
+  - Identifies a specific canon storm event, the thunderstorm depicted in the episode Look Before You Sleep, as the referent for this technology | "thunderstorm in Look Before You Sleep" | yes | yes
+  - Places that storm's timing as occurring after the canon Winter Wrap Up event | "comes after Winter Wrap Up" | yes | yes
+  - Recontextualizes the canon storm as serving an agricultural function, a nitrogen fertilizing event | "is the nitrogen fertilizing event" | yes | yes
+- whole: The note ties the weather-management technology to a specific canon storm from Look Before You Sleep, sequences it after Winter Wrap Up, and recontextualizes it as the deliberate nitrogen-fertilizing event for crops.

@@ -1,0 +1,5 @@
+- claims:
+  - Equestrian volunteers were able to power the shields with ease during peacetime training | "easily powered the shields" | yes | yes
+  - The volunteers' underlying Pink Love (Grace/Trust) level was artificially raised by Celestia's thousand-year Stagnation of Harmony | "artificially inflated by Celestia’s 1,000-year Stagnation of Harmony" | no: written as an analytical/mechanical explanation of underlying magical causes rather than a historian's narration of events | no
+  - The shields gave an appearance of invincibility on the proving grounds | "looked invincible on the proving grounds" | yes | no
+- whole: The note records that in peacetime training the army's shields were easy to power and seemed unbeatable, then attributes that ease to an artificially boosted love-magic baseline rather than genuine strength.

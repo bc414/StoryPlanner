@@ -1,0 +1,5 @@
+- claims:
+  - States that Wingbardy's form of government is a constitutional monarchy | "has a constitutional monarchy" | yes | yes
+  - States that this monarchy functions as a venue for the bourgeoisie, nobility, and mafiosos to conspire together | "bourgeoisie, nobility, and mafiosos to collude" | no: written as a satirical class-critique naming real-world political categories rather than a neutral in-universe rule-definition | yes
+  - States that the aim of this collusion is to extract wealth/resources from the commoners and their colonies | "extract the commoners and their colonies" | no: written as polemical economic critique rather than neutral mechanical description | yes
+- whole: The note defines Wingbardy's government as a constitutional monarchy while framing its real, cynical function as a mechanism by which elite classes collude to exploit the common population and colonies.

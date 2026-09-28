@@ -1,0 +1,4 @@
+- claims:
+  - States that the Kurds historically dwelt in mountainous territory situated between major empires without ever forming their own unified state | living in the mountainous region between great empires...without a unified state of their own | yes | yes
+  - States that Kurdish society was structured around the Ashiret, a tribal confederation | organized around the Ashiret (Tribal Confederation) | yes | yes
+- whole: The note documents the historical Kurdish experience of statelessness between empires and their tribal-confederation social structure as the real-world basis for Temberik's design.

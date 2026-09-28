@@ -22,3 +22,4 @@
 - exploration-of-prompts-behind-copied-responses
 - exploration-of-v1-analysis-loop-pattern
 - exploration-of-notes-written-in-their-tracks-mode
+- exploration-of-subject-modes-in-their-tracks

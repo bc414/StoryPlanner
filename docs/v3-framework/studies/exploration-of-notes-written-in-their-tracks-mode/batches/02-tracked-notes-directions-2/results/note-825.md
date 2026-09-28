@@ -1,0 +1,4 @@
+- claims:
+  - identifies the organization's members as warriors | "the warriors" | no: written as a descriptive/definitional identity statement rather than a historian's report of a fact or event | no
+  - reports that the organization withdrew into isolation following the banishment of Luna | "self-isolated after Luna's banishment" | yes | yes
+- whole: The note labels Temberik as warriors and records, as a historical fact, that they self-isolated after Luna's banishment.

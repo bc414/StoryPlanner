@@ -1,0 +1,4 @@
+- claims:
+  - She desires that deer and ponies rise up and fight so she can feed by draining them | "so she can drain them" | yes | yes
+  - She desires that the bauleiters' so-called "clean occupation" collapse | "clean occupation" to fail | yes | yes
+- whole: The note asserts two of Actia Pagala's core desires — provoking conflict to feed on the combatants and wanting the occupiers' pacification effort to fail — as truths about her motivations at the story's start.

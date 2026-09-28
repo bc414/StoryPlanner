@@ -1,0 +1,7 @@
+- claims:
+  - Labels the real-world inspiration as a German cultural paradigm framed around survival-driven engineering | "German paradigm - the engineering of survival" | yes | yes
+  - Explains that German peasants needed food-preservation methods to survive harsh Central European winters | "needed to survive central european winters" | yes | yes
+  - Cites fermentation, as used for sauerkraut, as a preservation/biochemistry technique they used | "sauerkraut (fermentation)" | yes | yes
+  - Cites salting, nitrates, and cold-smoking of sausages as a method for long-term meat preservation | "sausages with salt, nitrates and cold smoke" | yes | yes
+  - Cites dense rye and pumpernickel sourdough breads as slower to mold due to their density and complexity | "rye and pumpernickle sourdoughs that take longer to mold" | yes | yes
+- whole: The note documents German peasant food-preservation practices — fermentation, salt/nitrate/smoke curing, and dense sourdough baking — as historical, survival-driven real-world inspirations for the technology.

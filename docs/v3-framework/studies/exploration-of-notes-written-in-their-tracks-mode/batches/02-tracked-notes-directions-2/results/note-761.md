@@ -1,0 +1,3 @@
+- claims:
+  - Cadance and Shining Armor disclose that the crystal heart is being mass-produced for the army | reveal the crystal heart mass production for the army | no: written as a present-tense scene/plot beat describing an in-story event rather than a historian's retrospective factual account | yes
+- whole: The note records a plot beat where Cadance and Shining Armor announce the crystal heart's mass production for military use, touching on a moment in the technology's production history rather than presenting it in historian's reporting voice.

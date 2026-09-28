@@ -1,0 +1,4 @@
+- claims:
+  - The Senate granted the Nobility, Bourgeoisie and Mafia a legal mechanism to split control of the economy among themselves instead of resorting to civil war | "allowed...to divide the economic pie legally rather than fighting civil wars over it" | yes | yes
+  - This legal division of the economy has the effect of uniting those three factions into a common front opposed to the working class | "presenting a united front against the working class" | yes | yes
+- whole: The note defines the Senate's economic-arbitration function as the system's mechanism for keeping elite factions from warring over resources while binding them together against the working class.

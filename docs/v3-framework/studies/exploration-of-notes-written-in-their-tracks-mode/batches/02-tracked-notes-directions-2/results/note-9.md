@@ -1,0 +1,4 @@
+- claims:
+  - Applejack comes, in time, to see worth in something called the Stagnation of Harmony that she had not valued before | eventually recognizes the value of the Stagnation of Harmony | no: written as a plain narrative statement of a character's eventual realization, not as evidence marshaled toward a stated thesis | yes
+  - She folds that recognized value together with her own Aquileian individualism rather than discarding either | integrates it alongside Aquileian individualism | no: written as a summary of arc-resolution/synthesis, not as argued evidence for a proposition | yes
+- whole: The note sketches, in summary form, a late turn in Applejack's arc where she comes to accept and merge the Stagnation of Harmony with her individualist outlook.

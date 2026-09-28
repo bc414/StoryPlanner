@@ -1,0 +1,3 @@
+- claims:
+  - Flurry Heart's cutie mark is described as a Crystal Heart combined with changeling wings | Crystal Heart with changeling wings | no: written as a plain worldbuilding/design fact about the character rather than a plan for how the reader experiences her appearances | no
+- whole: The note records a static design fact about Flurry Heart's cutie mark rather than laying out any plan for her appearances in reading order.

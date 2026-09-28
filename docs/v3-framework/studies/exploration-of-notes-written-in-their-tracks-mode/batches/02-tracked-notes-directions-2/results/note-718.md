@@ -1,0 +1,3 @@
+- claims:
+  - Fluttershy gives the technology the nickname "The Earmuffs" | calls jaeger geist "The Earmuffs" | no: written as a plain in-story fact reporting a character's speech/naming rather than as authorial guidance on reader experience | yes
+- whole: The note records a character's informal nickname for the technology, implying something about its appearance or reception rather than laying out explicit staging instructions for the reader.

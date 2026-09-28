@@ -1,0 +1,4 @@
+- claims:
+  - A reader coming from the EaW community is expected to arrive already believing Equestria is an industrialized setting | An EaW player comes in thinking Equestria is industrialized | yes | yes
+  - The actual story incorporates the entire canon show wholesale in TLTT, contradicting that industrialized premise | the entire canon show is taken wholesale in TLTT | no: written as a plain statement of the story's canon/world-scope fact rather than as a description of reader experience | yes
+- whole: The note flags a specific reader archetype's mistaken starting assumption about the setting and sets it against the actual canon-wholesale nature of the story world that will overturn it.

@@ -1,0 +1,3 @@
+- claims:
+  - Spell matrices' etched patterns are likened to the real-world printing/etching process of lithography, comparing the fictional technique to etching horn patterns into crystal | like lithography, etching horn patterns into crystal | mode: yes | answers: yes
+- whole: The note draws a single real-world analogy, comparing the etching of spell matrices to the process of lithography.

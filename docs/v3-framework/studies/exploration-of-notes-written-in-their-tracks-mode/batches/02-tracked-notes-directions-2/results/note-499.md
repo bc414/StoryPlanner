@@ -1,0 +1,3 @@
+- claims:
+  - States that dragons, despite being other/monstrous, are capable of functioning as part of a coordinated military force | "Even dragons can be part of combined arms" | no: written as a general thematic-summary assertion rather than a depiction of a specific character's action or existing psychology | no
+- whole: The note asserts a general thesis-like claim about dragons' inclusion in combined-arms tactics rather than presenting Ember's concrete actions or psychology as evidence for the reader to infer the theme.

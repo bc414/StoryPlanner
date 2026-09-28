@@ -1,0 +1,4 @@
+- claims:
+  - The character's manner of speaking is modeled on Donald Trump | Talks like Trump | yes | yes
+  - The character uses mocking nicknames for other characters such as calling one Sleepy and another Radical | Sleepy Celestia, Radical Rarity | no: written as an in-story example of the character's own nickname-calling dialogue rather than as authorial documentation of the real-world inspiration | no
+- whole: The note names Trump as the real-world inspiration for the character's speech and illustrates it with sample derogatory nicknames the character uses in-story.

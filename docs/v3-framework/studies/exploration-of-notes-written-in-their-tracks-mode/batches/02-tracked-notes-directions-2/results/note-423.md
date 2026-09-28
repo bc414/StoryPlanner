@@ -1,0 +1,4 @@
+- claims:
+  - The reader is shown that Scootaloo's inability to fly properly is rooted in a specific cause: malnutrition during her upbringing in New Mareland | "can't fly properly because she grew up malnourished in New Mareland" | yes | yes
+  - The causal explanation for her flight trouble is attributed to material sourced as "TLTT" | "TLTT provides a causal reason" | no: written as an author's internal continuity/citation note identifying the source of the causal material, rather than as a description of what the reader experiences | no
+- whole: The note flags that a specific in-story source (TLTT) supplies a sympathetic, causal backstory for Scootaloo's flight impairment, marking an update to how readers understand that trait.

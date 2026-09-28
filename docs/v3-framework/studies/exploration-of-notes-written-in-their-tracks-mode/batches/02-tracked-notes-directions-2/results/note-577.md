@@ -1,0 +1,7 @@
+- claims:
+  - It flags the in-universe collapse event as drawing on World War I and revolutionary upheaval generally | "(WW1/Revolution)" | yes | yes
+  - It states that the death of the monarch Grover IV is the trigger for the state's collapse | "Grover IV's death triggers the collapse" | no: written as in-universe plot narration | no
+  - It states that the 978 Republican Revolution mirrors the pattern of the liberal revolutions of 1848 and/or 1917 | "mimics the liberal revolutions of 1848 or 1917" | yes | yes
+  - It equates the in-universe 'Textile Barons' faction with real-world industrialists | "(Industrialists)" | yes | yes
+  - It characterizes that faction as betraying the revolution because they valued profit over rights | "preferred profits over rights" | no: written as in-universe character/faction motivation | no
+- whole: The note explains that the Republic's founding crisis and revolution are modeled on the collapse triggered by WWI-era events and on the 1848/1917 liberal revolutions, with industrialists cast as the betraying force.

@@ -1,0 +1,11 @@
+- claims:
+  - Industrialization (Bessemer steel, Haber-Bosch) shifted the basis of wealth and power from finite physical land/castles to potentially infinite capital accumulation | "replaces the finite physical castle with infinite capital accumulation" | yes | yes
+  - Existential risk shifted from battlefield combat to the cutthroat, zero-sum competition of the market under Rugged Individualism | "risk shifts from the battlefield to the cutthroat, zero-sum market" | yes | yes
+  - It describes the Tycoon archetype in named settings (Skyfall, Gilded Age Herzland) enduring financial ruin, assassination, and burnout while building a monopoly | "In Skyfall and the Gilded Age Herzland, the Tycoon risks financial ruin" | no: written as illustrative scene/example description naming specific settings rather than causal ontological explanation | no
+  - Because capital can grow without limit, the Tycoon's ego expands without limit as well | "the Tycoon's ego expands infinitely" | yes | yes
+  - The female griffon's protective role is redefined from guarding a cub to gestating the Sole Heir of a Corporate Empire | "incubating the Sole Heir to a Corporate Empire" | yes | yes
+  - Ordinary inheritance anxiety intensifies into a pathological Dynastic Paranoia | "metastasizes into Dynastic Paranoia" | yes | yes
+  - The female is barred from the boardroom and factory floor specifically to prevent her exposure to other males, not because of physical weakness | "risks exposing her to other males" | yes | yes
+  - The Tycoon fears a rival Tycoon's genetic line infiltrating and contaminating his corporate dynasty | "rival Tycoon's genetics infiltrating his corporate dynasty" | yes | yes
+  - The female is reduced to a Veblen good, a heavily guarded ornamental asset whose sole function is producing the legitimate heir that validates the male's ruthless industrial life | "female becomes a Veblen good" | yes | yes
+- whole: The note traces how industrial-era material conditions of limitless capital and market-based risk transform the Tycoon and female griffon's roles into a dynastic system built around guarding legitimate inheritance.

@@ -1,0 +1,4 @@
+- claims:
+  - Chrysalis assigns Pagala to a fixed post at the Tall Tale front | "puts Pagala at the static Tall Tale front" | no: written as an in-story plot action, one character maneuvering another, rather than an author's note on how the reader should encounter her | yes
+  - That posting is meant to contain her, keeping her from stirring up trouble on the mobile front | "damage control to keep her away from causing chaos on the mobile front" | no: written as an in-world strategic rationale/motivation for the placement, not as authorial planning of the reader's experience | yes
+- whole: The note frames Pagala's fixed placement as an in-story containment tactic by Chrysalis rather than as an author's statement of her reading-order appearance plan.

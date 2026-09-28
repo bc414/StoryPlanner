@@ -1,0 +1,3 @@
+- claims:
+  - A dragon's fire grows stronger in proportion to how much it cares about others, tying emotional bonding directly to physical power output | Caring about others makes the fire stronger | no: written as a direct statement of the thematic proposition itself rather than as evidence marshaled toward one | yes
+- whole: The note baldly asserts the biological rule that care strengthens dragonfire, stating the thematic conclusion outright instead of building evidence toward it.

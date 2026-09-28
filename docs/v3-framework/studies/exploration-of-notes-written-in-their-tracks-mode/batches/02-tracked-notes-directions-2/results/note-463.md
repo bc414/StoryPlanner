@@ -1,0 +1,5 @@
+- claims:
+  - The Federation's fleet originated as an Imperial fleet that was seized/stolen | "stolen Imperial Fleet" | no: written as a narrative/historical background detail about the fleet's origin rather than a stated rule of the system | no
+  - The fleet's presence guarantees that shipping in the system is secure | "guarantees secure shipping" | yes | yes
+  - Because shipping is secure, the Skyfall Marks currency is accepted/honored throughout the wider global economy | "thus the Skyfall Marks are honored across the global economy" | yes | yes
+- whole: The note grounds the Federation's global economic authority in a causal rule: its (stolen) fleet secures trade routes, and that security is what makes its currency universally accepted.

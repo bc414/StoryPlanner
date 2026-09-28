@@ -1,0 +1,3 @@
+- claims:
+  - The character relocates in-world from her prior setting to Canterlot | moved to Canterlot | no: written as a plain in-world plot fact about the character's whereabouts, not as an authorial note on how the reader should encounter or experience her appearances | yes
+- whole: The note records a single plot-level relocation event for Pagala to Canterlot, offered as one point in her sequence of appearances without framing it in terms of reader experience.

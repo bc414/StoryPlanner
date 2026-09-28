@@ -1,0 +1,6 @@
+- claims:
+  - Skyfall's rise to dominance in mass-production wiped out the institutions that had tried to imitate its model | Skyfall destroyed the very institutions that were trying to copy their mass-production model | yes | yes
+  - Of those affected institutions only the University of Pridea survived, and it did so because Dennis Discret betrayed the others | only the University of Pridea remaining due to Dennis Discret's double cross | yes | yes
+  - Aquileia abandons Skyfall's approach and turns to a different model | Aquileia pivots away from Skyfall's model | yes | yes
+  - Aquileia upends the global economy by bringing industrialized griffon and pony magic into it | breaks the game by introducing industrialized griffon and pony magic to the global economy | yes | yes
+- whole: The note reports how Skyfall's destruction of rival imitators, softened only by Pridea's survival through betrayal, becomes the hinge for Aquileia's strategic pivot into industrialized magic as a new economic force.

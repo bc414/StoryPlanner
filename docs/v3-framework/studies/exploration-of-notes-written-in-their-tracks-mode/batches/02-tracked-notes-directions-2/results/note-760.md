@@ -1,0 +1,5 @@
+- claims:
+  - Blueblood presents a report titled the Dotted Line Report to Celestia | delivers the Dotted Line Report to Celestia | yes | yes
+  - Celestia gives official approval for a new army made up only of volunteers | authorizes the creation of a volunteer-only Equestrian Army | yes | yes
+  - Blueblood and Luna hold the rank/position of field marshal | Blueblood and Luna are field marshals | yes | no
+- whole: The note reports, in historian fashion, the founding act of the Equestrian Army in 1007 — Blueblood's report, Celestia's authorization, and the resulting field marshal appointments.

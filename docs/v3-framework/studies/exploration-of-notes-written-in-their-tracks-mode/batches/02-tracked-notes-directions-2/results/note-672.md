@@ -1,0 +1,4 @@
+- claims:
+  - States that in 'No Second Prances', Twilight tried to force Starlight's redemption into a tame, predictable 'reformed villain' mold | "sanitized, docile, predictable" | yes | no
+  - Reasons that Celestia lets Twilight handle Starlight's reform because Starlight's cult hits too close to how Celestia's own system suppresses outward ambition | "too close to home of how Celestia runs her own system" | yes | yes
+- whole: The note recontextualizes Celestia's canon hands-off stance toward Starlight's redemption as a deliberate avoidance rooted in her own system's suppression of ambition.

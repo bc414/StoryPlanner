@@ -1,0 +1,3 @@
+- claims:
+  - States a designed, sustained false belief the reader is meant to hold across most of the narrative, that Harmonic Capitalism's origin is Aquileia, rather than its true origin | "reader is misled to believe...came straight from Aquileia" | yes | yes
+- whole: The note sets the reader's sustained starting misconception about the system's origin as a deliberate, author-planned design point in the project-wide arc of reader opinion.

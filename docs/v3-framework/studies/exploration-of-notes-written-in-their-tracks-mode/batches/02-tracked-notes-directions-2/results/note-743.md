@@ -1,0 +1,6 @@
+- claims:
+  - States that the hive civilization Chrysalis created the technology so drones could shut off their innate ability to sense emotion | 'Chrysalis invented it to allow drones to override their emotion sense' | yes | yes
+  - States that the point of that override was to let drones function as conscripted soldiers who invade rival hives with guns | 'be conscripts to invade other hives with guns' | yes | yes
+  - States that the technology was purposely built to make conscripts dependent on it, so as to guarantee their total loyalty to the military supply chain | 'designed to make the conscripts dependent to ensure absolute loyalty to the supply chain' | yes | yes
+  - States that a conscript who deserts the army loses the override and then cannot survive alone, because without it they feel their victims' hate and fear | 'lose their emotion sense override and can't survive on their own without feeling their victims' hate and fear' | yes | yes
+- whole: The note lays out how Chrysalis engineered the technology to numb drones into obedient, gun-carrying conscripts for hive-invasion and then bound them to the supply chain through a dependency that turns desertion into unbearable exposure to their victims' emotions.

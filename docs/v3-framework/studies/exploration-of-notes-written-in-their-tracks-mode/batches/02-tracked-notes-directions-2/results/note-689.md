@@ -1,0 +1,4 @@
+- claims:
+  - The Wonderbolts served as aerial reconnaissance scouting for monsters during voyages to and from New Mareland | "air recon for scouting monsters for the voyages to and from New Mareland" | mode: yes | answers: yes
+  - Between voyages, the Wonderbolts performed air shows | "in between voyages they performed air shows" | mode: yes | answers: yes
+- whole: The note reports, as settled historical fact, the two activities the Wonderbolts undertook—monster-scouting recon tied to New Mareland voyages and air shows in the intervals between them—without attaching specific dates to either.

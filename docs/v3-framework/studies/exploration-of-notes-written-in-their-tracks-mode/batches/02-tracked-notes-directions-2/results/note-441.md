@@ -1,0 +1,3 @@
+- claims:
+  - Names the system as the means by which ancient Equestria survived, framing it as a civilizational survival mechanism | "is how ancient Equestria survived" | yes | yes
+- whole: The note gives a single sweeping statement of the system's in-world purpose — that it is the mechanism of ancient Equestria's survival — without laying out any of its working rules or mechanics.

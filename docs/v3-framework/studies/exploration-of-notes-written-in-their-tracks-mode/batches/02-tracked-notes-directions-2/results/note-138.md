@@ -1,0 +1,4 @@
+- claims:
+  - States the reader's existing understanding of Applejack's view of the cans | "soulless mash" | no: written as a plain statement of the reader's prior belief, not as evidence marshaled toward a thematic claim | no
+  - States the new belief the reader learns, that Applejack's parents see the same cans as an act of acceptance | "acceptance" | no: written as a plain statement revealing new information, not as philosophical argument | yes
+- whole: The note names the two clashing views of the cans, Applejack's and her parents', without articulating the thematic proposition their contrast is meant to support.

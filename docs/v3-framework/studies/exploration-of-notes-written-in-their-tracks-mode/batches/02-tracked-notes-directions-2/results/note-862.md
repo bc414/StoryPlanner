@@ -1,0 +1,6 @@
+- claims:
+  - Herzlander first names follow ordinary German naming conventions | "typical German first names" | yes | no
+  - Herzlander surnames are compound words drawn from concepts in griffon biology | "surname is a compound related to griffon biology" | yes | yes
+  - The example name 'Steelbeak' is being labeled as an instance of functional/nominative determinism in naming practice | "is functional determinism" | no: written as an authorial/craft observation naming a literary technique rather than stating an in-universe rule | no
+  - A griffon's nature is shaped and defined by the ambition of their family | "defined by their family's ambition" | yes | yes
+- whole: The note explains the two-part Herzlander naming convention (German first name, biology-compound surname) and then asserts that such names deterministically encode a griffon's family ambition into their defined nature.

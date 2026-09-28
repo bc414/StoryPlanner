@@ -1,0 +1,3 @@
+- claims:
+  - She is depicted working on the spellblast tank turret | works on the spellblast tank turret | no: written as an in-story action/scene description rather than authorial planning about reader experience | no
+- whole: The note gives a single in-scene action beat about the character rather than any planning statement about her sequence of appearances.

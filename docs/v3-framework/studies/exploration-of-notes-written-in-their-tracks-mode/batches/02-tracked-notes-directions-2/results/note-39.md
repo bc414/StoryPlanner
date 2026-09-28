@@ -1,0 +1,7 @@
+- claims:
+  - States that Twilight studies magic within the show's canon | "studies magic in canon" | no: written as a meta note comparing the character to her canon portrayal | no
+  - Notes that she also follows the scientific method | "follows the scientific method" | no: written as an analytical note describing her methodology | no
+  - States she had a laboratory in the basement of her library tree home, citing the episode it appeared in | "lab in the basement of her library tree home featured in Feeling Pinkie Keen" | no: written as a note referencing a specific show episode rather than in-world history | yes
+  - Comments that the lab was included mainly for comedic, mad-scientist absurdity rather than as a serious fact | "more for laughs and the absurd element of a mad scientist" | no: written as authorial commentary on the show's comedic intent | no
+  - Cites her line from that episode that magic is something you study rather than something that just happens, unlike Pinkie Sense | "magic is something you study, not just something that happens, like Pinkie Sense" | no: written as a citation of show dialogue used to support characterization | no
+- whole: The note is a writer's research memo drawing on canon episode details to characterize Twilight's scientific approach to magic, yielding only a fragmentary, undated factual detail rather than an in-universe historical account.

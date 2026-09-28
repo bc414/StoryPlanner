@@ -1,0 +1,3 @@
+- claims:
+  - States that an existing canon source (EaW) refers to the Griffonian Empire by the epithet "The Sick Bird of Griffonia" | EaW calls the Griffonian Empire "The Sick Bird of Griffonia" | yes | yes
+- whole: The note records a prior canon epithet for the Griffonian Empire as the established reference point the civilizational system draws on.

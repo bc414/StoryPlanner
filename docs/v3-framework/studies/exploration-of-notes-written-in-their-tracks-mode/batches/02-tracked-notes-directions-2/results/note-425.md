@@ -1,0 +1,3 @@
+- claims:
+  - An item called Wings of Dew grants Scootaloo the ability to fly at will after the war ends | Wings of Dew let Scootaloo fly whenever she wants post war | no: written as a plot/lore fact stating an item's effect on the character, not as authorial commentary on reader experience | yes
+- whole: The note records a post-war plot fact (an item enabling free flight for Scootaloo) as a story-order update relevant to how the reader's view of her capabilities should shift.

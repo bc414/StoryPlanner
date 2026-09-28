@@ -1,0 +1,3 @@
+- claims:
+  - Applejack publicly labels the technology with a mocking name, addressing the audience gathered for the debate | dubs it "Gilded Trust's Gilded Grift" to the debate audience | yes | yes
+- whole: The note stages a single beat in which Applejack brands the technology with a derisive nickname in front of the debate crowd.

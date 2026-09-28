@@ -1,0 +1,6 @@
+- claims:
+  - Artisan seamstressing was a lucrative trade serving Griffonia's wealthy before industrialization | "Artisan seamstresses were big business for the rich" | mode: yes | answers: yes
+  - Mass-produced industrial textiles flooded the existing clothing market catering to nobles and the newly rich | "Industrialized textiles saturated the noble and new money bourgeoisie market" | mode: yes | answers: yes
+  - Textile barons, driven by mounting greed, sought to expand their customer base to everyone | "textile barons wanted to sell clothes to everyone, motivated by further greed" | mode: yes | answers: yes
+  - The barons aimed to overthrow the King and nobility so that they themselves could become the new ruling oligarchs | "overthrow the King and nobles so THEY could be the new oligarchs" | mode: yes | answers: yes
+- whole: The note lays out the economic saturation of the textile market and the resulting greed-fueled ambition of the textile barons to topple the nobility and seize power themselves as the material chain of causes behind the system's creation.

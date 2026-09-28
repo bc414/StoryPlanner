@@ -1,0 +1,5 @@
+- claims:
+  - Identifies the character as standing in for affluent, college-educated young people who adopt radical authoritarian aesthetics | "affluent, college-educated youths adopting radical authoritarian aesthetics" | mode: yes | answers: yes
+  - Explains that this demographic perceives the alienation caused by late-stage capitalism but lacks the resilience or historical grounding to pursue slow, incremental democratic reform | "lack the \"Resilience\" or historical context to engage in the messy, incremental friction of democratic reform" | mode: yes | answers: yes
+  - Explains that, lacking that capacity for reform, this demographic instead turns to the most extreme and violent option because it offers a quick, purified utopian outcome | "reach for the most absolute, violent lever available because it promises an immediate, sterilized utopia" | mode: yes | answers: yes
+- whole: The note frames Caramel Marks as an allegory for affluent, college-educated youth who see capitalism's ills but, lacking resilience for gradual reform, embrace violent authoritarian shortcuts to utopia.

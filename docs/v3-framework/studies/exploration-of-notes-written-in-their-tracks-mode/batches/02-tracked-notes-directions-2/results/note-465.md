@@ -1,0 +1,3 @@
+- claims:
+  - States that a figure named Chrysalis adopted the Skyfall Mark as the reserve currency backing her red love drug trade | 'used the Skyfall Mark as the reserve currency' | mode: yes | answers: no
+- whole: The note records a fact about a criminal figure's later use of the Skyfall Mark in her drug trade rather than addressing the currency's invention.

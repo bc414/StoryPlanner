@@ -1,0 +1,9 @@
+- claims:
+  - Rarity was exposed as a child to simplified stories of seamstresses transforming griffons into princes through beautiful clothing | "kid-friendly stories of glamorous Aquileian seamstresses" | no: written as biographical narration recounting a childhood experience rather than an analytical assertion of psychological cause | no
+  - As a child she failed to grasp the darker sexual and political undertones of those stories | "didn't understand the sexual/political nuance" | yes | no
+  - She internalized only the simple lesson that clothing has the power to heal a person's soul | "Clothing can heal the soul" | yes | yes
+  - The belief is restated as a folksy maxim that a good suit can turn a monster into a gentleman | "A good suit can turn a monster into a gentlecolt" | no: written as a proverb-like generalization rather than a clinical assertion | yes
+  - Her defining trait is identified as Generosity rather than mere Fashion, and this childhood-formed belief is given as the cause of that identity | "why Rarity is Generosity, not just 'Fashion'" | yes | yes
+  - Making someone beautiful is asserted to function in her mind as an act of moral salvation | "an act of moral salvation" | yes | yes
+  - She holds the specific belief that dressing figures like Spike or the Diamond Dogs as gentlemen will make them behave as gentlemen | "they will act like gentlemen" | yes | yes
+- whole: The note traces Rarity's foundational belief that beautifying someone morally transforms them back to a childhood story, using it to explain her core identity as Generosity rather than mere love of fashion.

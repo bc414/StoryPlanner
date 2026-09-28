@@ -1,0 +1,3 @@
+- claims:
+  - States that in the referenced canon episode, Starlight Glimmer learns the importance of asset specificity (being precise about resources/wishes rather than vague) | "the value of asset specificity in the canon episode" | yes | no
+- whole: The note records a canon-episode fact about Starlight Glimmer's lesson in asset specificity as established-canon background, without yet stating how TLTT relates to, expands, or recontextualizes it.

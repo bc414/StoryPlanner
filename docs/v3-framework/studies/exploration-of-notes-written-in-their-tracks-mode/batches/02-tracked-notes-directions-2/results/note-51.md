@@ -1,0 +1,4 @@
+- claims:
+  - She is defined as an exceptionally skilled organizer/planner, a natural at logistics | logistical savant | yes | yes
+  - Her way of coping with anxiety is to produce extremely detailed checklists and hand off tasks to others | processes anxiety by creating hyper-detailed checklists and delegating tasks | yes | yes
+- whole: The note asserts, as established psychological fact, that at the start of TLTT Twilight Sparkle's core identity is a logistics-oriented planner whose anxiety is channeled into checklist-making and delegation.

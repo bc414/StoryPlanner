@@ -1,0 +1,3 @@
+- claims:
+  - States that the in-universe system is a stand-in for the post-1991 Western world | represents the post 1991 West | yes | yes
+- whole: The note names the post-1991 West as the direct real-world analogue for the Stagnation of Harmony system.

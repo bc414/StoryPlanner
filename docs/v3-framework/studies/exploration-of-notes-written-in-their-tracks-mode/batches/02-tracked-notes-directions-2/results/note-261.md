@@ -1,0 +1,3 @@
+- claims:
+  - A counterrevolution led by a figure named Moriset Discret defeats and suppresses the bourgeoisie class within the system | "Moriset Discret's counterrevolution crushes the bourgeoisie" | yes | yes
+- whole: The note records a single major political upheaval, a counterrevolution led by Moriset Discret that defeats the bourgeoisie, as a historical turning point for the system.

@@ -1,0 +1,5 @@
+- claims:
+  - Blueblood decides to give up on holding Vanhoover, treating it as a calculated write-off | "makes the cold, Mudbeak-inspired calculation to write it off Vanhoover" | no: written as a psychological/interpretive characterization of his mindset, comparing his thinking to Mudbeak's, rather than plain factual reporting | yes
+  - Blueblood chooses not to spend his operational reserves attempting to break the encirclement | "does not waste his operational reserves trying to break the encirclement" | yes | yes
+  - Blueblood uses the time Trimmel takes to secure Vanhoover in order to mobilize his own trains | "uses the time Trimmel spends securing Vanhoover to mobilize his trains" | yes | yes
+- whole: The note reports a strategic choice by Blueblood during the Vanhoover crisis in 1011, forgoing relief of the encirclement to instead mobilize his trains while Trimmel is occupied, with an added interpretive note likening his calculating approach to Mudbeak's.

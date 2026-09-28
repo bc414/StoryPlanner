@@ -1,0 +1,4 @@
+- claims:
+  - Applejack poses a question to someone, asking whether the warring parties couldn't simply get along | "You couldn't just be nice to each other?" Applejack asked | yes | yes
+  - An unattributed voice rebuffs her, asserting that creatures simply aren't built that way and citing the changelings as a rhetorical counterexample to prove the point | "That's just not how creatures are, sugarcube. Have you tried asking the changelings to be nice?" | no: written as an unattributed thematic aphorism and rhetorical jab rather than a staged dialogue beat with a speaker attached | yes
+- whole: The note sketches a brief dialogue exchange for the page—Applejack's naive plea for peace answered by a cynical retort invoking the changelings—though the reply lacks a speaker attribution to fully stage it.

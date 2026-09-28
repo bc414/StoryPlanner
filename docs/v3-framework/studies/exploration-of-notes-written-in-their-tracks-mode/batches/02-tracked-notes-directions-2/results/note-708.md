@@ -1,0 +1,3 @@
+- claims:
+  - Once Stalliongrad falls, the group works together with the wider Equestria | After Stalliongrad's fall, they cooperate with the rest of Equestria | no: written as a plain summary of an in-world plot event rather than as guidance for reader experience | yes
+- whole: The note places a single post-Stalliongrad cooperative activity of the organization at a point in the story's chronological order.

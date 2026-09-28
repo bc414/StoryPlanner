@@ -1,0 +1,4 @@
+- claims:
+  - Fleur asserts that Celestia deliberately suppressed people's ambitions as a means of keeping them safe | "nurtured away ambition" ... "to ensure safety" | no: written as a character's in-story spoken claim about the system's motive and method, not as authorial commentary on reader experience | yes
+  - Fleur names the resulting condition a "Walled Garden," a metaphor casting the system's safety as confinement | "creating a 'Walled Garden'" | no: written as a character's figurative label applied within the story, not as planning language about the reader | yes
+- whole: The note records a character's in-story critical characterization of the system's core method and its metaphorical name, offered as diegetic content rather than as explicit authorial planning of reader opinion.

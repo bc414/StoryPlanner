@@ -1,0 +1,5 @@
+- claims:
+  - He divides the world into a binary of Winners (himself/Las Pegasus) and Losers (Rockfeller/Chrysalis), treating every situation as this contest | "battle between 'Winners' ... and 'Losers'" | yes | yes
+  - He habitually uses nicknames for others | "He uses nicknames" | no: written as a bare behavioral/stylistic observation rather than a psychological assertion of underlying character truth | yes
+  - He speaks in absolute, unqualified terms, illustrated by his own boastful phrasing about his oil | "speaks in absolutes (\"We have the best oil, beautiful oil\")" | yes | yes
+- whole: The note sketches Gilded Trust's binary us-versus-them worldview and his absolutist, nickname-laden rhetorical style as core traits at the story's outset.

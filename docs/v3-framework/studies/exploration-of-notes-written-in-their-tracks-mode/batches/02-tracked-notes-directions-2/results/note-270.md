@@ -1,0 +1,6 @@
+- claims:
+  - The armies of this system originally consisted of conscripted serf infantry lines backed by noble knights held for a breakthrough charge | "originally lines of conscripted serfs plus noble knights for a breakthrough" | yes | yes
+  - The armies later evolved into mass-produced musket volley formations under strict discipline comparable to Redcoats | "mass produced musket volleys with strict dicipline like Redcoats" | yes | yes
+  - This serf-to-musket progression is characterized as the traditional method by which an army is raised in this world | "That's the traditional way to raise an army" | yes | yes
+  - The whole progression just described is tagged with the label 'the grand battleplan' | "It's the grand battleplan" | no: written as an authorial label/framing aside rather than a stated rule of the system | no
+- whole: The note traces the historical evolution of the Herzland system's army-raising method from serf-and-knight levies to disciplined musket volleys, framing this as the setting's traditional military model.

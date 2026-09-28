@@ -1,0 +1,3 @@
+- claims:
+  - States that the technology's effect or function is comparable to that of opioids | Equivalent to opioids | yes | yes
+- whole: The note names opioids as the real-world analogy underlying Panzer Haut's design.

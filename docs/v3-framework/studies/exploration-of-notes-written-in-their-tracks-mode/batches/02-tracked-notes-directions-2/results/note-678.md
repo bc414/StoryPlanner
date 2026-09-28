@@ -1,0 +1,3 @@
+- claims:
+  - Her cutie mark takes the form of a tally stick marked with five tally lines across the split | tally stick that has 5 tally marks across the split | no: written as a physical/visual description of a cutie mark design rather than a psychologist's assertion of what makes her who she is | yes
+- whole: The note records a physical detail of the character's cutie mark design rather than offering a psychological characterization.

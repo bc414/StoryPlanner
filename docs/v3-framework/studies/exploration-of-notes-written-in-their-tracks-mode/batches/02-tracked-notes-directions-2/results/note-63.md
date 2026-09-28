@@ -1,0 +1,5 @@
+- claims:
+  - She received her cutie mark during the entrance exam, with the cause given as her refusal to give up on hatching Spike's egg | got her cutie mark during the entrance exam because she wouldn't give up on hatching Spike's egg | yes | yes
+  - She is described as recklessly seizing the magic released by Rainbow Dash's sonic rainboom without understanding what would result, framed with judgment about her recklessness and ignorance rather than plain fact-reporting | recklessly grab the magic ... without knowing the consequences | no: written as dramatized, editorializing narration judging her state of mind, rather than a historian's neutral factual report | yes
+  - Her special talent is defined/labeled as 'having the ambition to make things happen,' categorized as magic | Her special talent is "having the ambition to make things happen" (magic) | yes | no
+- whole: The note recounts, as a historical fact with some dramatized detail, the origin-event of Twilight Sparkle's cutie mark at the entrance exam and names the talent it represents.

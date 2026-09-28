@@ -1,0 +1,4 @@
+- claims:
+  - Rarity treats Spike's romantic feelings toward her as unimportant or not to be taken seriously | doesn't take Spike's crush seriously | no: written as a plain statement of the character's in-story attitude/behavior toward Spike, not as commentary relating that behavior to canon | no
+  - Rarity interprets such situations through an Aquileian framework of negotiation and casual flings rather than through the friendship or romance terms the source material uses | views it through the Aquileian lens of negotiation and flings instead of friendship/romance | yes | yes
+- whole: The note attributes Rarity's dismissive reaction to Spike's crush to a newly introduced Aquileian cultural lens that recontextualizes the canon's friendship/romance framing as negotiation and flings.

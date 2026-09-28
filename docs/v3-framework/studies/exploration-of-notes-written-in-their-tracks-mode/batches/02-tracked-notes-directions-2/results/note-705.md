@@ -1,0 +1,3 @@
+- claims:
+  - Identifies that readers who hold left-wing political sympathies are likely to start out with a positive predisposition toward the Communist Party organization, prior to story events shaping their view | Left wing readers may initially view the communist party favorably | yes | yes
+- whole: The note records a single starting-point assumption about how one segment of the readership (left-leaning readers) is expected to initially feel about the organization, as input to the reader-understanding design.

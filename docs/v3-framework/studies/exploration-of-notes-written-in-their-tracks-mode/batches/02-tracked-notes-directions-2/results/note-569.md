@@ -1,0 +1,5 @@
+- claims:
+  - The system reinterprets Celestia's notion of "dark magic" as simply magic that is industrializable or usable for evil purposes | "dark magic" is just industrializable magic or magic that can be used for evil | yes | yes
+  - Read through the theme of accelerants, this recontextualized scope of "dark magic" is said to expand to cover nearly all magic | which according to the theme of accelerants, means practically all magic | no: written as interpretive/analytical commentary applying the accelerants theme to draw a scope conclusion | yes
+  - The spells being recontextualized as dark magic are identified as the same kind of spells held in the Canterlot Archives as depicted in the episode "It's About Time" | These are the kinds of spells in the Canterlot Archives featured in It's About Time | yes | yes
+- whole: The note recontextualizes Celestia's canon concept of "dark magic" as industrializable or evil-usable magic, broadens that scope via the accelerants theme to nearly all magic, and grounds this in the specific canon of the Canterlot Archives spells from "It's About Time."

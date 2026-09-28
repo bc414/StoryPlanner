@@ -391,6 +391,15 @@ read as a bill.
   that stream until it was interrupted, though the host had answered in seconds. Now
   `HostStart` launches it through the shell, hidden, inheriting nothing; its record is
   `host-log.txt`.
+- **Children died at startup in groups, with nothing to say why** (2026-09-27). With the
+  ceiling raised from 4 to 32 mid-execution, 20 of 28 children launched in one second died
+  together nine seconds later, and later groups of three to five died the same way; a burst of
+  31 minutes afterwards ran clean, so the size of a burst alone was not the cause. The launcher
+  wrote the item to stdin before reading the child's output, so a child already dead broke the
+  write and was recorded -1 with its stderr unread, and its messages went to the host's hidden
+  console. Now the readers start first, a failed stdin write is a log line and the child's own
+  exit code is recorded, and every launcher message and stderr line (`! [<item>] …`) goes to
+  `host-log.txt`. The cause is still to be read there at the next occurrence.
 
 ## Two mechanisms, one line between them
 

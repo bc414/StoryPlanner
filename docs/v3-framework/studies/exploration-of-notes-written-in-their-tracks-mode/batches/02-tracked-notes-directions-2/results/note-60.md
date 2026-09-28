@@ -1,0 +1,7 @@
+- claims:
+  - Twilight's choice to stay off the frontline stems from a hidden fear she shares with Celestia | "secretly shares Celestia's fear" | yes | yes
+  - She is described as understanding the bodily/human cost that industrialized warfare inflicts | "knows the physical toll of industrial war" | yes | yes
+  - She judges herself capable, emotionally, of doing supportive/constructive work like fortification-building | "emotionally equipped to lay bricks" | yes | yes
+  - She is gripped by dread over the spiritual damage she'd suffer from mass-killing starving enemy conscripts, rendered as a vivid imagined scenario rather than a plain clinical claim | "vaporizing thousands of starving Changeling conscripts" | no: written as a dramatized, scene-like imagining of a hypothetical atrocity rather than a psychologist's plain assertion | yes
+  - Her stated reason for staying back is a personal credo framed in her own quoted first-person words rather than the analyst's descriptive voice | "'I am a shield and a builder, not a weapon of mass destruction.'" | no: written as the character's own quoted motto/self-justification rather than the psychologist's own assertion | yes
+- whole: The note asserts that at TLTT's start Twilight's withdrawal from combat is driven by a concealed, Celestia-shared fear of what mass violence would do to her, framed partly through her own self-justifying words.

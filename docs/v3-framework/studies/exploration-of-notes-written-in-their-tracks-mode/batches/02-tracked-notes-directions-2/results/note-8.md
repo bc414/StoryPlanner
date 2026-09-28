@@ -1,0 +1,4 @@
+- claims:
+  - Applejack gives up the presidency before the story called TLTT ends | steps down from the presidency by the end of TLTT | mode: no: written as a plain narrative report of a plot event rather than as philosophical argument | answers: yes
+  - Her stepping down is offered as proof that she avoids turning into the setting's next benevolent-monarch figure | demonstration of not becoming the next benevolent monarch | mode: yes | answers: yes
+- whole: The note cites Applejack's relinquishing of the presidency at the end of TLTT as evidence that she refuses the role of benevolent monarch, using this action to support the theme's case against top-down rule.

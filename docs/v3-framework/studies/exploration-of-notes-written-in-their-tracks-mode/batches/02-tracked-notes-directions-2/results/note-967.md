@@ -1,0 +1,6 @@
+- claims:
+  - He rejected loans that were being offered by Skyfall | "refused to take Skyfall loans" | mode: yes | answers: yes
+  - He regarded that loan offer as tantamount to a foreign griffon invasion, an existential external threat rather than an economic offer | "thinking it's a foreign griffon invasion" | mode: no: written as an interpretive account of his private mindset/misperception rather than a sourced historical fact | answers: no
+  - In place of the loans, he adopted rhetorical and nationalist methods he had picked up from Aquileia, specifically from Moriset Discret, and used them to drive his workers to labor harder | "rhetoric and nationalism learned from Aquileia (Moriset Discret)" | mode: yes | answers: yes
+  - He also led his workers to believe that they could become rich and powerful as he is | "make them think they can be rich and powerful like him" | mode: yes | answers: yes
+- whole: The note recounts an episode where the character spurned outside loans as a perceived foreign threat and instead used imported nationalist rhetoric to drive and motivate his workers with promises of shared wealth.

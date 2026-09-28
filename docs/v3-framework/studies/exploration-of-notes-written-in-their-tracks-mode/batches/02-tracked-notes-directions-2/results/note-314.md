@@ -1,0 +1,3 @@
+- claims:
+  - A character comes to understand that uniting hostile groups requires giving them a common economic aim that honors their inherent nature and culture | Appleack sees that warring tribes can be united | no: written as a character's internal realization/insight rather than as evidence laid out for the reader | yes
+- whole: The note states a character's personal insight that doubles as the scene's thematic proposition about uniting rivals through culturally-attuned shared economic purpose, but frames it as her realization rather than as disclosed evidence.

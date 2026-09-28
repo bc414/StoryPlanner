@@ -1,0 +1,3 @@
+- claims:
+  - The change where Rainbow Dash comes to respect Trimmel must grow out of a pattern already established for her, so it reads as consistent development rather than a sudden reversal of her personality | "should feel earned from the past pattern, not character breaking" | yes | yes
+- whole: The note sets a craft requirement that Dash's shift toward respecting Trimmel must land as an earned, pattern-based progression rather than an out-of-character jump.

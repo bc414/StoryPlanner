@@ -1,0 +1,6 @@
+- claims:
+  - Applejack's parents made a permanent move to Manehattan in order to start up their canning company | "decide to relocate to Manehattan permanently to start their canning company" | mode: yes | answers: yes
+  - Big Mac remained behind on the farm with Granny Smith for the entire period of the move | "stayed on the farm with Granny Smith the whole time" | mode: yes | answers: no
+  - An explanation is offered that Big Mac stayed because he already had his cutie mark and was soft spoken | "because he already had his cutie mark and was soft spoken" | mode: no: written as an interpretive account of his personal motives rather than a plain report of documented fact | answers: no
+  - A claim that Big Mac already knew city life was not for him | "already knew the city was not for him" | mode: no: written as speculative insight into his private state of mind rather than a factual historical record | answers: no
+- whole: The note records the parents' permanent relocation to Manehattan for their canning business and, largely through inferred motive rather than documented fact, accounts for why Big Mac stayed behind on the farm.

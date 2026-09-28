@@ -1,0 +1,5 @@
+- claims:
+  - Identifies Imperial Japan's Army and Navy as being more hostile toward one another than toward any external enemy | Army and Navy hated each other more than the enemy | yes | no
+  - States that military officers frequently killed their own superior officers | Officers often assassinated their superiors | yes | yes
+  - States that officers carried out invasions without official sanction, such as the one in Manchuria, in order to demonstrate their 'Spirit' | unauthorized invasions (Manchuria) to prove their 'Spirit' | yes | yes
+- whole: The note sketches, as real-world historical background, the internecine Army-Navy rivalry and rogue officer conduct of Imperial Japan as the inspiration behind this character.

@@ -1,0 +1,7 @@
+- claims:
+  - The Herzlander Republicans migrate north to found the Griffonian Republic in Cloudbury in 981 | "flee north to Cloudbury in 981 to establish the Griffonian Republic" | yes | yes
+  - The Republicans aim not merely to build a better government but to recover a heritage they regard as having been taken from them | "they want to reclaim their stolen heritage" | yes | yes
+  - Viewing the Aquileians as snobbish, the Republicans reject reviving Haute Cuisine | "not \"Snobs\" like the Aquileians, they don't revive Haute Cuisine" | no: written as an informal, editorializing aside labeling a rival culture rather than neutral historical prose | yes
+  - Instead they revive forgotten working-class dishes drawn from the English culinary tradition | "Lost Working-Class Masterpieces of the English tradition" | yes | yes
+  - They produce these revived dishes through a cooperative, high-quality industrial method likened to a real-world fast-food chain's approach | "In-N-Out\" model of cooperative, high-quality industrialization" | no: written as an authorial analogy invoking a real-world brand name rather than language an in-universe historian would use | yes
+- whole: The note recounts the founding moment of the Griffonian Republic's food culture, tying the invention to the Republicans' identity-driven rejection of elite cuisine in favor of reviving English working-class dishes made via an industrial-cooperative method, blending factual historical narration with informal asides and an anachronistic real-world comparison.

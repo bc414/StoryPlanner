@@ -1,0 +1,3 @@
+- claims:
+  - Asserts a general equivalence claim that ponies and changelings behave the same way | "ponies aren't any different from changelings behaviorally" | no: written as an analytical/thesis assertion comparing two groups, not as staged observable action | no
+- whole: The note states a general thematic claim of behavioral equivalence between ponies and changelings rather than staging any observable action for this scene link.

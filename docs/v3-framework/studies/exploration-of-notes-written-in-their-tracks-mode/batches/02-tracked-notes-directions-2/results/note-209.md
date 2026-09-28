@@ -1,0 +1,3 @@
+- claims:
+  - Describes the character as coming across as loud, aggressive, and blunt like a stereotypical brash New Yorker | "loudmouth, a brute, a typical New Yorker" | no: written as an author's voice/direction note suggesting how the character should sound, not as a psychologist's assertion of his true nature | yes
+- whole: The note offers a quick directive on the character's vocal tone and demeanor, likening him to a brash, blunt New Yorker archetype.

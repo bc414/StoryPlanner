@@ -1,0 +1,4 @@
+- claims:
+  - Chrysalis founds a trading/mining company named Krystallfels Handelsgesellschaft, this following on from an earlier act of hers | "Chrysalis then creates Krystallfels Handelsgesellschaft" | yes | yes
+  - The company's purpose is mining crystals, drawn from a remote island in the sea, and that island's location is fixed relative to Skyfall by Olenia and the Changeling Lands | "for mining crystals from an isolated island in the sea far away from Skyfall by Olenia and the Changeling Lands" | yes | yes
+- whole: The note records, as a single historical fact, Chrysalis's founding of a crystal-mining company on a distant island, placed in sequence after some prior action of hers.

@@ -1,0 +1,4 @@
+- claims:
+  - Describes the organization as cultivating and harvesting aggressive magical plants | 'cultivate and harvest aggressive magical plants' | yes | yes
+  - States the purpose of that harvest is to produce stimulants | 'for stimulants' | yes | yes
+- whole: The note establishes the cartel's core practice as growing and harvesting dangerous magical flora to manufacture stimulant drugs.

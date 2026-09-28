@@ -1,0 +1,5 @@
+- claims:
+  - Establishes that VOPS requires its infiltrators to learn the Equestrian language as part of their role | VOPS infiltrators have to learn Equestrian | no: a procedural/organizational rule stating a training requirement, not a psychological assertion | yes
+  - States that agents who come to recognize ponies' inner lives (friendships, dreams, destinies) and respond with empathy are pushed out of active service into a lesser, home-front managerial role | realize ponies have friends/dreams/destinies...get demoted to a home front middle manager | yes | yes
+  - States that agents who instead turn that same knowledge into a weapon are elevated into the organization's elite ranks | choose to weaponize their knowledge, they become a VOPS elite | yes | yes
+- whole: The note lays out a psychological sorting mechanism in which exposure to Equestrian culture forces VOPS agents to reveal whether they feel empathy or exploit it, with empathy demoting them and weaponization elevating them, defining the trait that binds the organization's inner core together.

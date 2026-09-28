@@ -1,0 +1,5 @@
+- claims:
+  - Love given through conscious, willing donation is inherently low-entropy | "Donated red love is low entropy because it is a conscious act" | yes | yes
+  - Love taken through terror, resistance, and coercion is inherently high-entropy | "Extracted red love is high entropy due to the victim's terror, resistance and coercion" | yes | yes
+  - The high-entropy nature of extracted love is destructive enough to destroy a fragile spell matrix | "would shatter a delicate spell matrix" | yes | yes
+- whole: The note establishes an invariant world rule that the entropy state of red love is determined by consent, making donated love magically stable and extracted love destructively unstable.

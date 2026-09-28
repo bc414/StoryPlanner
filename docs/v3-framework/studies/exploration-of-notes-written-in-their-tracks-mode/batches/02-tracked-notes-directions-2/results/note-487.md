@@ -1,0 +1,4 @@
+- claims:
+  - States that a charged crystal enhancer lets a unicorn cast any spell they already know | "the unicorn can cast any spell they know" | yes | yes
+  - States that the unicorn's horn draws the magic from the crystal enhancer to power the casting | "their horn will take the magic from the crystal enhancer" | yes | yes
+- whole: The note defines the crystal enhancer's core rule: once charged, it lets a unicorn cast any known spell by having their horn draw magic from it.

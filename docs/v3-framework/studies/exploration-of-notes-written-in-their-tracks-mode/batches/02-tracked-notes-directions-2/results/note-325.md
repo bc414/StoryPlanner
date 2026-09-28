@@ -1,0 +1,10 @@
+- claims:
+  - Chrysalis set her sights on the Canterlot Wedding as a target | "Chrysalis went for Canterlot Wedding" | yes | yes
+  - The slave trade had been slowing because the Storm King's unified warlord front turned away outside slavers | "thanks to the Storm King's united warlord front that rejected external slavers" | yes | no
+  - The hives had become unified, leaving no nobility left to feed into harvesters | "the hives were united with no more nobility to hook up to harvesters" | yes | no
+  - Nobility-sourced love yields were falling off as a result of despair | "the nobility yields were dropping off due to despair" | yes | no
+  - The hives were consequently heading toward running out of pink love | "the hives were on a trajectory of running out of pink love" | yes | no
+  - Chrysalis succeeded in her aim of ending the hive wars | "achieved her goal of ending the hive wars" | yes | yes
+  - She now needs to look outward to sustain her MEFO-style Ponzi scheme | "must turn outward to keep her MEFO ponzi scheme afloat" | yes | yes
+  - She has been pouring large resources into an effort to financially ruin the holdout classmates | "sinking vast resources into bankrupting the holdout classmates" | yes | yes
+- whole: The note lays out the economic and political pressures that drove Chrysalis to the Canterlot Wedding and reports what she achieved and has since been doing as a result.

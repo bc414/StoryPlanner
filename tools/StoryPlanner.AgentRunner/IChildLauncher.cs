@@ -37,7 +37,7 @@ public interface IChildLauncher
 /// has been silent for the idle limit has its whole process tree killed. There is no
 /// absolute time limit (decisions.md, "the idle limit is the host's").
 /// </summary>
-public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
+public sealed class ProcessChildLauncher(Action<string> log, string fileName = "claude") : IChildLauncher
 {
     private sealed class Handle(Process p) : IChildHandle
     {
@@ -49,7 +49,7 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
     {
         var psi = new ProcessStartInfo
         {
-            FileName = "claude",
+            FileName = fileName,
             WorkingDirectory = request.LaunchDir,
             UseShellExecute = false,
             RedirectStandardInput = true,
@@ -67,9 +67,9 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
             if (process is null) return -1;
             track(new Handle(process));
 
-            await process.StandardInput.WriteAsync(request.Stdin);
-            process.StandardInput.Close();
-
+            // The readers start before the item is written: a child that dies at startup breaks
+            // the stdin pipe, and its stderr and exit code are what say why (2026-09-27, twenty
+            // children of a burst of thirty launches dead in nine seconds with nothing recorded).
             var lastLine = DateTimeOffset.UtcNow;
             var stdoutTask = Task.Run(async () =>
             {
@@ -88,6 +88,18 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
                 while (await process.StandardError.ReadLineAsync() is { } line)
                     log($"! [{request.Item}] {line}");
             });
+
+            try
+            {
+                await process.StandardInput.WriteAsync(request.Stdin);
+                process.StandardInput.Close();
+            }
+            catch (IOException ex)
+            {
+                // The child closed its stdin, almost always by exiting; the wait below records
+                // its own exit code and the readers its stderr.
+                log($"{request.Item}: the item could not be written to the child's stdin ({ex.GetType().Name}: {ex.Message})");
+            }
 
             var idle = false;
             while (!process.HasExited)
@@ -113,7 +125,7 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
         }
         catch (Exception ex) when (ex is not OperationCanceledException)
         {
-            log($"Failed to start claude for {request.Item}: {ex.Message}");
+            log($"{request.Item}: the launch failed ({ex.GetType().Name}: {ex.Message})");
             return -1;
         }
         finally

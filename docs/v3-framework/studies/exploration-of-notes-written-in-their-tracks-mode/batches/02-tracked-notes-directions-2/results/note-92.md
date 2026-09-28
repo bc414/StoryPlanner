@@ -1,0 +1,7 @@
+- claims:
+  - He read a specific political-philosophy book | "read The Predator's Dilemma" | yes | yes
+  - He came to agree with Coltbert's thesis that resource scarcity must be solved before griffons can act morally | "realized Coltbert is right" | no: written as an interior ideological reflection endorsing a viewpoint, rather than a historian's neutral report of fact | yes
+  - He recognized that in the past he had relied on rhetoric and speeches without securing the logistics needed to back them | "all noise and speeches without the necessary logistics" | no: written as a self-critical interior character assessment rather than a plain factual report | yes
+  - He concluded that supply lines matter more than speeches | "supply lines are more important than speeches" | no: written as an internalized maxim/interior realization rather than a reported historical fact | yes
+  - He changed from being an inspiring orator into a competent administrator who listens to and balances the needs and visions of his supporters in the streets and in parliament | "shifts from an inspiring orator to a competent administrator" | yes | yes
+- whole: The note traces, via the character's inner realizations, Kemerskai's pre-TLTT shift from a rhetoric-driven orator into a pragmatic, logistics-minded administrator after reading a particular book.

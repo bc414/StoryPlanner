@@ -1,0 +1,4 @@
+- claims:
+  - States that magical capacity increases through training in a manner comparable to how a muscle strengthens with use | grow with training, like a muscle | yes | yes
+  - States that magical capacity also increases with ambition | and ambition | yes | yes
+- whole: The note lays down a flat world-rule that magical capacity is not fixed but expands through two factors, training (likened to muscular growth) and ambition.

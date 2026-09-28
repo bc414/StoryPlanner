@@ -1,0 +1,5 @@
+- claims:
+  - A creature's vivid physical coloring (pony coat, griffon plumage, changeling eyes/carapace) is a visible sign that they possess active friendship and magic as a life force | reflects the fact that they have working life forces - friendship and magic | yes | yes
+  - Total drainage of a victim's friendship and magic causes them to turn gray and their mane to deflate | they go gray and their mane deflates | yes | yes
+  - The graying/deflating effect is illustrated by pointing to a specific character's experience in a named episode | just like Pinkie in Party of One | no: written as an in-story example/citation to a particular character and episode rather than a stated universal rule | no
+- whole: The note lays down an ontological rule linking creatures' vivid appearance to possession of magical/friendship life force and describes the graying effect of its total loss, backing the claim with a specific in-show example.

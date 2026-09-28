@@ -1,0 +1,5 @@
+- claims:
+  - Names the civilizational system as standing for the West's failure to adapt to a changing world | West's failure to adapt to a changing world | yes | yes
+  - Attributes that failure to a reliance on past glory | relying on past glory | yes | yes
+  - Attributes that failure to a refusal or blindness to internal decay | ignoring the rot | yes | yes
+- whole: The note states, in plain authorial commentary, that the system allegorizes the West's stagnation through complacent nostalgia and denial of its own decline.

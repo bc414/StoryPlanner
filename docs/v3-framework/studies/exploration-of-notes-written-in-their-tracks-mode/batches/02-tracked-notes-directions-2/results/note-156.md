@@ -1,0 +1,4 @@
+- claims:
+  - The organization requires substantial industrial growth in order to address world hunger | "a lot of industrial growth" | no: written as a present-tense statement of need/goal rather than a reported historical event | no
+  - The organization requires recruiting many ponies in order to address world hunger | "recruitment of ponies" | no: written as a present-tense statement of need/goal rather than a reported historical event | no
+- whole: The note sets out, as a present goal rather than a dated historical event, that the organization needs major industrial expansion and large-scale pony recruitment to solve world hunger.

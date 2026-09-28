@@ -1,0 +1,4 @@
+- claims:
+  - Applejack and Equestrians broadly are designed to start out assuming the Griffonian Republic is evil | "predisposed to think the GR is evil" | yes | yes
+  - The Griffonian Republic's language, Herzlander, is also the military language used by the predatory changelings | "Herzlander, is also the military language of the predatory changelings" | no: written as an in-world lore/worldbuilding fact rather than a statement about reader experience | yes
+- whole: The note specifies one seed of the intended reader/character starting bias against the Griffonian Republic and the in-world lore reason (shared language with the changelings) behind that bias.

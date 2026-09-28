@@ -1,0 +1,4 @@
+- claims:
+  - Denies that the entities called 'Mafia' are merely ordinary street-level criminals | "aren't just street criminals" | yes | no
+  - Classifies 'Mafia' as, in objective fact, Private Protection Syndicates | "Private Protection Syndicates" | yes | yes
+- whole: The note reclassifies 'Mafia' within the system's ontology as functioning protection syndicates rather than mere criminal gangs.

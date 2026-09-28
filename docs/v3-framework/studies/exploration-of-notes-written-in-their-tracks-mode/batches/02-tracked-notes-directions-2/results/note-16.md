@@ -1,0 +1,5 @@
+- claims:
+  - Identifies a specific real-world historical figure as the inspiration being documented | George Washington | mode: yes | answers: yes
+  - Describes that this figure lacked tactical brilliance but personally rode into gunfire to rally frightened soldiers | wasn't a tactical genius, but he rode into the line of fire to rally terrified troops | mode: yes | answers: yes
+  - Describes that this figure relinquished power voluntarily rather than seize a crown | He stepped down instead of becoming king | mode: yes | answers: yes
+- whole: The note documents George Washington as Applejack's real-world inspiration, citing his personal courage under fire despite lacking tactical genius and his voluntary relinquishment of power as the qualities that inform the character.

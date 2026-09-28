@@ -1,0 +1,3 @@
+- claims:
+  - Identifies that in another established work (EaW), this technology exists as a special project that can be researched | "In EaW, it is a researchable special project" | yes | yes
+- whole: The note cites EaW's mechanic of researchable special projects as the established canon underlying the Magical Supply Organization technology.

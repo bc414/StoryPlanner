@@ -1,0 +1,3 @@
+- claims:
+  - Applejack is identified as the embodiment of the Element of Conscience | "Applejack IS the Element of Conscience!" | no: a bare declarative exclamation asserting an identity/thesis, not evidence marshaled toward a conclusion | yes
+- whole: The note plants, as an unargued exclamatory assertion, the core thematic proposition that Applejack embodies conscience, without yet marshaling evidence for it.
