@@ -18,3 +18,20 @@ button { font:inherit; padding:4px 12px; border:1px solid var(--line); backgroun
 table.view { border-collapse:collapse; width:100%; background:var(--panel); border:1px solid var(--line); }
 table.view th, table.view td { text-align:left; padding:5px 8px; border-bottom:1px solid var(--line); vertical-align:top; font-size:13px; }
 table.view th { font-weight:600; color:var(--muted); font-size:12px; }
+button.item-link { border:none; background:none; padding:0; color:#1f5fa8; text-decoration:underline; cursor:pointer; font:inherit; text-align:left; }
+.shell.with-item { margin:0; max-width:none; width:50%; }
+.item-panel { position:fixed; top:0; right:0; width:50%; height:100vh; overflow-y:auto; background:var(--panel); border-left:1px solid var(--line); padding:10px 16px 40px; box-shadow:-4px 0 12px rgba(0,0,0,.06); }
+.item-head { display:flex; gap:10px; align-items:baseline; position:sticky; top:-10px; background:var(--panel); padding:8px 0; border-bottom:1px solid var(--line); }
+.item-head .close { margin-left:auto; }
+.item-cols { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.item-cols section { min-width:0; }
+.md { font-size:13px; overflow-wrap:anywhere; }
+.md h1 { font-size:15px; margin:6px 0; }
+.md ul { padding-left:18px; margin:4px 0; }
+.md li { margin:3px 0; }
+.md p { margin:6px 0; }
+@media (max-width: 900px) {
+  .shell.with-item { width:auto; margin:0 auto; }
+  .item-panel { position:static; width:auto; height:auto; border-left:none; border-top:1px solid var(--line); box-shadow:none; }
+  .item-cols { grid-template-columns:1fr; }
+}

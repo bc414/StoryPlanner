@@ -3,9 +3,10 @@
 @inject NavigationManager Nav
 
 @* The one page: a query string in, or the controls that build one, the canonical string shown
-   back and put in the URL as ?q=, the snapshot note, and the view's table. The batch is re-read
+   back and put in the URL as ?q=, the snapshot note, and the view's table. An item cell opens
+   that item's body and result beside the view, put in the URL as &show=. The batch is re-read
    on every run. Nothing here groups, ranks or suggests. *@
-<div class="shell">
+<div class="shell @(shown is null ? "" : "with-item")">
     <h1>Results query <span class="muted">@batchId</span></h1>
     <p class="muted">@Source.DefinitionPath</p>
 
@@ -64,10 +65,15 @@
         <div class="panel">
             <p class="canon"><code>@result.Query.Print()</code></p>
             <SnapshotNote Expected="result.Query.Answered" Actual="answered" />
-            <ViewTable Caption="@result.Caption" Columns="result.Columns" Rows="result.Rows" />
+            <ViewTable Caption="@result.Caption" Columns="result.Columns" Rows="result.Rows" OnItem="Show" />
         </div>
     }
+    @if (shownError is not null) { <p class="err">@shownError</p> }
 </div>
+@if (shown is not null)
+{
+    <ItemPanel Page="shown" OnClose="Close" />
+}
 
 @code {
     private string batchId = "";
@@ -82,6 +88,8 @@
     private readonly Dictionary<string, string> filters = new(StringComparer.Ordinal);
     private ViewResult? result;
     private string? error;
+    private ItemPage? shown;
+    private string? shownError;
 
     private IReadOnlyList<Column> CurrentColumns => fields.FirstOrDefault(f => f.Key == fieldKey)?.Columns ?? [];
 
@@ -93,9 +101,45 @@
         fields = batch.Fields;
         fieldKey = fields.FirstOrDefault()?.Key ?? "";
         foreach (var f in fields) foreach (var c in f.Columns) filters.TryAdd(c.Id, "");
-        var uri = Nav.ToAbsoluteUri(Nav.Uri);
-        var q = System.Web.HttpUtility.ParseQueryString(uri.Query)["q"];
-        if (!string.IsNullOrWhiteSpace(q)) { queryText = q; RunText(); }
+        var args = System.Web.HttpUtility.ParseQueryString(Nav.ToAbsoluteUri(Nav.Uri).Query);
+        if (!string.IsNullOrWhiteSpace(args["show"])) Open(args["show"]!);
+        if (!string.IsNullOrWhiteSpace(args["q"])) { queryText = args["q"]!; RunText(); }
+    }
+
+    private void Show(string token)
+    {
+        Open(token);
+        SyncUrl();
+    }
+
+    private void Open(string token)
+    {
+        shownError = null;
+        var item = ItemPage.ItemOf(batchId, token);
+        shown = item is null ? null : ItemPage.Load(Source.DefinitionPath, item);
+        if (shown is null) shownError = $"{token} names no item of {batchId}";
+    }
+
+    private void Close()
+    {
+        shown = null;
+        shownError = null;
+        SyncUrl();
+    }
+
+    // Puts the canonical string and the open item in the URL so the page can be linked, but only
+    // when they differ from what is there: a load from such a link runs this during prerender,
+    // where a navigation is a redirect, and rewriting an equal URL would redirect forever.
+    private void SyncUrl()
+    {
+        var current = System.Web.HttpUtility.ParseQueryString(Nav.ToAbsoluteUri(Nav.Uri).Query);
+        var q = result is null ? null : queryText;
+        var show = shown?.Item;
+        if (current["q"] == q && current["show"] == show) return;
+        var parts = new List<string>();
+        if (q is not null) parts.Add("q=" + Uri.EscapeDataString(q));
+        if (show is not null) parts.Add("show=" + Uri.EscapeDataString(show));
+        Nav.NavigateTo("/" + (parts.Count == 0 ? "" : "?" + string.Join("&", parts)), forceLoad: false, replace: true);
     }
 
     private void RunText()
@@ -124,11 +168,7 @@
         if (r is null) { error = e; result = null; return; }
         result = r;
         queryText = r.Query.Print();
-        // Put the canonical string in the URL so the page can be linked, but only when it is
-        // not there already: a load from such a link runs this during prerender, where a
-        // navigation is a redirect, and rewriting an equal URL would redirect forever.
-        var current = System.Web.HttpUtility.ParseQueryString(Nav.ToAbsoluteUri(Nav.Uri).Query)["q"];
-        if (current != queryText) Nav.NavigateTo("/?q=" + Uri.EscapeDataString(queryText), forceLoad: false, replace: true);
+        SyncUrl();
     }
 
     private static string? Blank(string s) => string.IsNullOrWhiteSpace(s) ? null : s.Trim();

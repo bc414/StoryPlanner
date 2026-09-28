@@ -34,6 +34,48 @@ public class ResultsQueryHeadTests : BunitContext
     }
 
     [Fact]
+    public void ViewTable_makes_item_and_cites_cells_open_their_item_only_when_asked()
+    {
+        string? opened = null;
+        var cut = Render<ViewTable>(p => p
+            .Add(c => c.Caption, "1 line(s)")
+            .Add(c => c.Columns, ["item", "goal"])
+            .Add(c => c.Rows, [["note-11", "the reader believes"]])
+            .Add(c => c.OnItem, (string s) => opened = s));
+        var links = cut.FindAll("button.item-link");
+        Assert.Single(links);                                   // the item cell, not the goal cell
+        links[0].Click();
+        Assert.Equal("note-11", opened);
+
+        var cites = Render<ViewTable>(p => p.Add(c => c.Columns, ["cites"]).Add(c => c.Rows, [["x/01-notes/note-11"]]).Add(c => c.OnItem, (string s) => opened = s));
+        cites.Find("button.item-link").Click();
+        Assert.Equal("x/01-notes/note-11", opened);
+
+        var plain = Render<ViewTable>(p => p.Add(c => c.Columns, ["item"]).Add(c => c.Rows, [["note-11"]]));
+        Assert.Empty(plain.FindAll("button.item-link"));        // no callback, no links
+    }
+
+    [Fact]
+    public void ItemPanel_renders_body_and_result_and_says_which_file_is_absent()
+    {
+        var closed = false;
+        var cut = Render<ItemPanel>(p => p
+            .Add(c => c.Page, new ItemPage("note-1", "note-1", "Applejack, Backstory", "# working-plan note 1\nowner: Applejack", "- claims:\n  - History | a fact | text | yes"))
+            .Add(c => c.OnClose, () => closed = true));
+        var cols = cut.FindAll(".item-cols .md");
+        Assert.Equal(2, cols.Count);
+        Assert.Contains("owner: Applejack", cols[0].TextContent);
+        Assert.Contains("History | a fact | text | yes", cols[1].TextContent);
+        cut.Find("button.close").Click();
+        Assert.True(closed);
+
+        var bare = Render<ItemPanel>(p => p.Add(c => c.Page, new ItemPage("note-3", "note-3", "Spike, History", null, null)));
+        Assert.Empty(bare.FindAll(".md"));
+        Assert.Contains("no item file", bare.Markup);
+        Assert.Contains("no successful call", bare.Markup);
+    }
+
+    [Fact]
     public void SnapshotNote_appears_only_when_the_counts_differ()
     {
         var same = Render<SnapshotNote>(p => p.Add(c => c.Expected, 600).Add(c => c.Actual, 600));

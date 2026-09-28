@@ -126,3 +126,7 @@
   reader is to get out of a scene recorded?
 - Do the notes whose claims stay in their track's mode differ from the drifting ones by when they were
   written, or by which subject type they hang off?
+
+## Shortcomings
+
+- directions: directions-1 declares that every track has one of ten types and lists ten modes, but the working plan's track definitions carry twelve: Ontology (world builder in god-mode defining the rules of the universe; the System Ontology, Function and World Truth tracks) and Civilization (world builder building what in-universe agents made in response to their ontology; the Causality of Creation, What it is and Civilizational Impact tracks) are missing. Each item still named its track's real type and mode, so on the 442 notes of those tracks (322 Ontology, 120 Civilization) a reader following the directions faithfully could never answer fits as yes; 760 of the batch's 783 claim lines marked outside all ten come from those notes, and claims there in the track's own mode could only be placed outside or in another of the ten; answered by a new directions version.

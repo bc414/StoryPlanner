@@ -14,6 +14,9 @@ public static class Head
     {
         var builder = WebApplication.CreateBuilder(new WebApplicationOptions { ContentRootPath = AppContext.BaseDirectory, Args = [] });
         builder.WebHost.UseUrls(url);
+        // Outside publish/ the framework script lives only in the static web assets manifest,
+        // which Production never reads: without this a bin/ run serves a page that never connects.
+        builder.WebHost.UseStaticWebAssets();
         builder.Logging.ClearProviders();
         builder.Services.AddRazorComponents().AddInteractiveServerComponents();
         builder.Services.AddSingleton(source);

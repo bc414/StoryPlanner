@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Results query</title>
     <base href="/" />
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="app.css?v=@Stamp" />
     <HeadOutlet @rendermode="InteractiveServer" />
 </head>
 <body>
@@ -13,3 +13,8 @@
     <script src="_framework/blazor.web.js"></script>
 </body>
 </html>
+
+@code {
+    // The build's own time, so a republished page never runs on a browser's cached stylesheet.
+    private static readonly string Stamp = File.GetLastWriteTimeUtc(typeof(App).Assembly.Location).Ticks.ToString(System.Globalization.CultureInfo.InvariantCulture);
+}

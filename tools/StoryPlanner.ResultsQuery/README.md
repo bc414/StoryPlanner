@@ -50,7 +50,7 @@ After a change to this project or to `StoryPlanner.BatchFiles`:
 | `sort` | the values of `--col` sorted, each with its item |
 | `by-story` | lines and items with a line per story, and each story's answered/items |
 | `run "<query string>"` | re-runs a printed query string exactly |
-| `serve [--url http://127.0.0.1:5191]` | a page taking the same queries, re-reading the batch on each |
+| `serve [--url http://127.0.0.1:5191]` | a page taking the same queries, re-reading the batch on each; an `item` or `cites` cell opens that item beside the view, its body as the reader was given it next to its result as the runner rendered it, and `?show=<item>` opens one from a link, with or without a `?q=` |
 
 | option | does |
 |---|---|

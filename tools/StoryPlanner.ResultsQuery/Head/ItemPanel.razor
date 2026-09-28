@@ -1,0 +1,39 @@
+@* One item beside the view: the body the reader was given and the result it wrote, side by side,
+   each rendered from its file as it stands. It shows what is there and says so where a file is
+   absent; it judges nothing. Parameter-driven, no services. *@
+<aside class="item-panel">
+    <div class="item-head">
+        <strong>@Page.Item</strong>
+        <span class="muted">@Page.Description</span>
+        <button class="close" @onclick="OnClose">close</button>
+    </div>
+    <div class="item-cols">
+        <section>
+            <p class="caption">the item, as the reader was given it</p>
+            @if (Page.Body is null)
+            {
+                <p class="muted">no item file: the items folder does not hold @Page.Item (items are uncommitted and regenerable)</p>
+            }
+            else
+            {
+                <div class="md">@MarkdownView.Render(Page.Body)</div>
+            }
+        </section>
+        <section>
+            <p class="caption">the result, as the runner rendered it</p>
+            @if (Page.Result is null)
+            {
+                <p class="muted">no result: @Page.Item has no successful call</p>
+            }
+            else
+            {
+                <div class="md">@MarkdownView.Render(Page.Result)</div>
+            }
+        </section>
+    </div>
+</aside>
+
+@code {
+    [Parameter, EditorRequired] public ItemPage Page { get; set; } = default!;
+    [Parameter] public EventCallback OnClose { get; set; }
+}
