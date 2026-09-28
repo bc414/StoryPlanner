@@ -4,7 +4,7 @@ Enables conducting-a-verification.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the question, what one item is, the itemizer to build or reuse, the model and effort, and what the calibration sample spans; the plan approved registers the study; a repeat under unchanged directions is the whole activity |
+| verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | The question fixed first, traced through the code-sessions archive to Brian's words and its terms checked against the live data, shown to him and never reworded; then Brian and the session fix what one item is, the itemizer to build or reuse, the model and effort, and what the calibration sample spans; the plan approved registers the study; a repeat under unchanged directions is the whole activity |
 | itemize | session | dotnet tool-source | corpus | index items | specified | Build or pick the itemizer tool with tests and run it once into the calibration batch: the index and the item bodies |
 | author-directions | hitl | | question-list items directions | directions | specified | The directions written against real items with Brian: what the call is given, the classes, the criteria, what to produce; a new numbered version each time |
 | assemble-sample-batch | session | runner | directions index | definition calls tally | specified | The calibration batch, kind sample: its definition written under the draft version; dry-run-batch; execute-batch as the hand-off, after which the host calls every sample item and writes the tally; its results are withheld from Brian until he has scored |
@@ -18,7 +18,16 @@ corpus the study's itemizer will read is readable and CORPORA.md says how.
 
 ## verify-plan
 
-The session presents the question the study is of and the shape of every corpus the
+The session first fixes the question the study is of. It traces the question from its
+`raised by` back through the code-sessions archive to Brian's typed words, marks each point
+where the question's wording entered from a session turn rather than from his typing, a
+line he typed that repeats a session's offered wording included, and checks each of the
+question's terms against the live schema and data the study will read. It shows him the
+chain and the check in the chat, for every question, one from his recall included, and
+proposes no rewording: a rewording is his, and goes through write-question as a new entry,
+the old one withdrawn.
+
+Then the session presents the question and the shape of every corpus the
 itemizer will read, as CORPORA.md gives it, and asks Brian, batched four per call, what one
 item is, the itemizer to build or reuse, the model and effort, and what the calibration
 sample should span. It writes the plan naming those and what the verification will not do;

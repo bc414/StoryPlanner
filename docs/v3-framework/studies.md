@@ -21,3 +21,4 @@
 - exploration-of-own-voice-registers-mixed
 - exploration-of-prompts-behind-copied-responses
 - exploration-of-v1-analysis-loop-pattern
+- exploration-of-notes-written-in-their-tracks-mode

@@ -198,6 +198,9 @@
   took up its wording: "Did v2's separation stop the mixing?"
 - question: Do the working plan's notes stay within the cognitive mode their track type
   declares?
+- withdrawn: 2026-09-27 reworded as questions/notes-written-in-their-tracks-mode and split
+  from questions/notes-hold-more-than-one-mode: "Isolated note against its track definition
+  seems to be a different question that is being conflated".
 
 ### questions/goals-no-track-type-names
 
@@ -209,6 +212,8 @@
   part under it, and Brian took up its wording: "Do v2 notes carry goals no track type names?"
   Asked beside questions/humor-warmth-prior-belief-setups.
 - question: Do the working plan's notes carry goals that no track type names?
+- withdrawn: 2026-09-27 reworded as questions/goals-no-track-definition-asks: "the proper
+  thing I think is the track definitions, not the track types."
 
 ### questions/prose-techniques-used
 
@@ -600,3 +605,77 @@
   and their commentaries record it by name.
 - question: Besides humor, warmth, prior-belief setups and theme, what other goals of the same
   order do the v1 archive's notes record?
+
+### questions/notes-written-in-their-tracks-mode
+
+- date: 2026-09-27
+- raised by: the same review. questions/notes-mix-cognitive-modes, raised as "Did v2's
+  separation stop the mixing?", was worded as whether a note stays within the mode its track
+  type declares, which asks whether a note is where it belongs, not whether it mixes; Brian:
+  "Isolated note against its track definition seems to be a different question that is being
+  conflated". Its readers were shown the track's type and mode, and ten of the twelve types.
+  Asked beside questions/notes-hold-more-than-one-mode.
+- question: Is each working-plan note written in the cognitive mode its track declares, and
+  does it answer its track definition's question?
+- suggested test: One item per tracked note, its track definition's display question and its
+  type's mode beside it; each thing the note says placed in a mode and read against both.
+
+### questions/notes-hold-more-than-one-mode
+
+- date: 2026-09-27
+- raised by: the same review. questions/notes-mix-cognitive-modes asks whether a note stays in
+  the mode its track type declares, and its batch counted a note written wholly in another
+  mode together with a note holding several; Brian: "Isolated note against its track
+  definition seems to be a different question that is being conflated". The mixing is his
+  diagnosis of 2026-08-28: "The convos that birth v2 diagnosed that v1's notes had too much
+  cognitive mixing to be effective as notes that inform prose (one day!)", and of v1's links,
+  "a single free form textbox which may have contained a mix of fabula and syuzhet". Asked
+  beside questions/notes-mix-cognitive-modes and questions/subject-modes-in-their-tracks.
+- question: Does a working-plan note hold content written in more than one cognitive mode?
+- suggested test: One item per tracked note, its track not shown; each thing the note says
+  placed in one of the modes the track types declare, or outside all of them.
+
+### questions/subject-modes-in-their-tracks
+
+- date: 2026-09-27
+- raised by: recall, in the same review, after asking whether mixing is seen better across a
+  subject's tracks: "Instead of a note in isolation, because in isolation, what is it mixing
+  with? There's no reference." His first case: "I believe v2 notes have a blurry or improperly
+  defined line between history and characterization, and that is cognitive mixing." and "This
+  means the tracks as designed from the note categorization bootstrapping convo did not hold
+  up to real data in this area." The resolution he has in mind, merging the two into a
+  character condition, is an idea for the planner, which the buildout keeps no record of. On
+  2026-07-30, at the split of History into event and condition tracks, he wrote the line as
+  settled by dates: "before I didn't know if something goes in characterization or history,
+  when it is past characterization. Now I know it can go in characterization and that track
+  is allowed to have dates in it; they are dates that describe characterization, not fabula
+  dates. Fabula dates go in the history track", asking "Does this mean data is actually meant
+  to have some duplication across tracks when warranted?"
+- question: On a working-plan subject, does the content written in each cognitive mode sit in
+  the tracks whose type declares that mode, and where it sits elsewhere, in which tracks?
+- suggested test: One item per subject, its subject-wide notes and its scene-link notes read
+  together grouped by track with each track's definition, plot points left out; each thing a
+  note says placed in a mode, and whether a track of that mode on the subject holds the same
+  content.
+
+### questions/goals-no-track-definition-asks
+
+- date: 2026-09-27
+- raised by: reviewing exploration-of-notes-mix-cognitive-modes, whose directions-1 read
+  questions/goals-no-track-type-names at the level of the twelve track types. Brian: "But for
+  goals in the notes that are unnamed, the proper thing I think is the track definitions, not
+  the track types. There are many track definitions to each track type." The track-type
+  wording came from an assistant: on 2026-08-28 it proposed that humor and emotional warmth
+  sat outside the NarrativeDesign mode, and on 2026-09-13 a session carried that proposal to
+  the track types that replaced ZeroFocalization and NarrativeDesign. The goal is his, from
+  hypothesis 033: "The mechanisms serve something like a 'meaning' or an 'effect', perhaps
+  I'll call it a 'goal' for now until a better term emerges. Evidence for a thematic
+  proposition is one goal." and "Humor, establishing prior beliefs to be shattered later,
+  emotional warmth/feel good sensations, and potentially others form the highest order
+  'goals' of the book."
+- question: Do the working plan's notes carry goals that no track definition's question asks
+  for?
+- suggested test: One item per subject, its subject-wide notes and its scene-link notes read
+  together, plot points left out: "there is very sparse plot point and link data in v2
+  compared to subjects." Beside them, verbatim, the display questions of the track
+  definitions the subject can hold; each goal a note states is read against those questions.

@@ -127,10 +127,7 @@ static async Task<string?> EnsureHost(HostConfig config)
     if (await Ping(config.Url)) return config.Url;
     var exe = Environment.ProcessPath;
     if (exe is null) { Console.Error.WriteLine("cannot locate own executable to start the host"); return null; }
-    // The host's working directory is the CLI's: the page lists the batches beneath it.
-    var psi = new ProcessStartInfo(exe) { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = Directory.GetCurrentDirectory() };
-    psi.ArgumentList.Add("host");
-    try { Process.Start(psi); }
+    try { Process.Start(HostStart.StartInfo(exe, Directory.GetCurrentDirectory())); }
     catch (Exception ex) { Console.Error.WriteLine($"cannot start host: {ex.Message}"); return null; }
     for (var i = 0; i < 60; i++)
     {

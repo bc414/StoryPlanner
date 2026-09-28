@@ -50,12 +50,24 @@ public class PlanNoteItemizerTests
         var first = items[0];
         Assert.Equal($"note-{SyntheticPlan.VisibleNoteId}", first.Id);
         Assert.Contains("owner: Character \"Testcharacter\"", first.Body);
-        Assert.Contains($"track: Backstory — History: {TrackType.History.GetCognitiveMode()}", first.Body);
+        Assert.Contains("track: Backstory — History: written by an in-universe historian reporting facts\n", first.Body);
         Assert.Contains("display question: What is this character's history?", first.Body);
         Assert.Contains("world date: 993", first.Body);
         Assert.Contains($"### note {SyntheticPlan.UnparseableDateNoteId} — Backstory", first.Body);
         // A legacy date that does not convert is carried as its text, never guessed.
         Assert.Contains("world date: unconverted: sometime after the war", items[1].Body);
+    }
+
+    [Fact]
+    public void Every_types_mode_is_carried_as_its_persona_without_label_or_layer()
+    {
+        foreach (var type in Enum.GetValues<TrackType>().Where(t => t != TrackType.Unset))
+        {
+            var persona = PlanNotes.Persona(type);
+            Assert.StartsWith("written by ", persona);
+            Assert.DoesNotContain("Layer", persona);
+            Assert.EndsWith(persona, type.GetCognitiveMode());
+        }
     }
 
     [Fact]

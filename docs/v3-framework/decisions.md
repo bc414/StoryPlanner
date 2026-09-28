@@ -7221,3 +7221,48 @@ rules names the old id in prose.
   the unit named, which leaves the collision with an answered question in the key itself; the query
   key renamed, a new `rq2` form and every existing query rewritten. The not-taken list of
   d-2026-09-27-2 stands as history.
+
+### A study's plan opens by fixing its question: traced through the archive to Brian's words and its terms checked against the live data, shown to him and never reworded
+
+- id: d-2026-09-27-17
+- date: 2026-09-27
+- raised by: the review of exploration-of-notes-mix-cognitive-modes. Both its questions carried a
+  session's framing past Brian's intent: `questions/notes-mix-cognitive-modes` recast "Did v2's
+  separation stop the mixing?" as conformance to a declared mode, and
+  `questions/goals-no-track-type-names` carried an assistant's proposal of 2026-08-28 about the
+  NarrativeDesign mode down to the track types, his typed wording copying the session turn before
+  it. Both entries' `raised by` said the wording was the session's; only the transcript showed what
+  that meant, and the campaign's plan, which had no such step, sent the questions through 2,066
+  calls. Brian: "Should the instructions for starting an exploration begin with treating the
+  question itself with scrutiny and using code sessions to check for session framing drift over my
+  intent? raised by with citations of my words seems positive but not exhaustive." Offered a queue
+  of three starting points: "I don't want to make this too heavy with so many decisions"; the queue
+  became this one decision. Both plan rows already read "fix the question", and neither procedure
+  did anything to fix it. preparing-an-exploration's Never, "Reads a corpus for content beyond
+  sizing it", entered with revision 2's first text on 2026-09-05 and no decision names it; it meets
+  rule 10 and d-2026-09-08-22 where a question's chain lies in the corpus the study reads, as
+  code-sessions does for a study of the transcripts. Offered: the step at both plans; the step at
+  write-question instead; no change. Brian: "Go with A".
+- decision: explore-plan and verify-plan open by fixing the question the study is of, before the
+  scale, the item or the itemizer is asked. The session traces the question from its `raised by`
+  back through the code-sessions archive to Brian's typed words; marks each point where the
+  question's wording entered from a session turn rather than from his typing, a line he typed that
+  repeats a session's offered wording included; and checks each of the question's terms against
+  the live schema and data the study will read. It shows him the chain and the check, and proposes
+  no rewording: a rewording is his, and goes through write-question as a new entry, the old one
+  withdrawn. The trace is shown in the chat and recorded nowhere, its one reader being Brian at the
+  plan; a new entry's `raised by` records why a rewording was made. It is a full trace for every
+  question, a question from his recall included, and the questions already in the list get it when
+  a study of them is planned, with no pass over the list. The step is part of each plan process and
+  has no name of its own. The sizing rule yields for the question's own chain: preparing-an-exploration's
+  Never reads "Reads a corpus for content beyond sizing it and tracing the question's origin";
+  preparing-a-verification's Never, which bars what an itemizer reads, is unchanged. This decision
+  does not change write-question, the question-entry schema, rule 10 or the code-sessions citation
+  rule.
+- not taken: the trace at write-question, which misses the entries already written and checks a
+  question's terms against the schema of the day it was written rather than the day it is studied;
+  no change, `raised by` alone, which is what let both questions reach the batch; `raised by`
+  required to mark adopted wording, and the citation rule extended to typed-but-copied words, each
+  its own decision, which the trace at the plan catches without; the trace recorded in the plan or
+  the registry, with no reader after the plan; a trace scaled by what `raised by` names, a rule
+  deciding when not to look.

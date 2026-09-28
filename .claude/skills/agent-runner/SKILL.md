@@ -34,9 +34,10 @@ AgentRunner.exe tally-batch   <definition.md> [--group-by item|locator|descripti
 **Run the published copy, not `dotnet run`** — the same pattern as the MCP server and the
 app: `dotnet publish tools/StoryPlanner.AgentRunner -c Release -o tools/StoryPlanner.AgentRunner/publish`
 (gitignored). The host holds that exe loaded for as long as it lives, so a republish needs
-`AgentRunner.exe stop` first; `bin/Debug` stays free for `dotnet build`/`dotnet test`
-throughout. An execute returns at once, so a Claude Code session can run it under an
-ordinary tool call. **Every batch verb takes the path of a batch's `definition.md`** and
+`AgentRunner.exe stop` first, and the process may outlive its last answered ping by a few
+seconds, so a publish run straight after `stop` can find the exe still locked; `bin/Debug`
+stays free for `dotnet build`/`dotnet test` throughout. `start` and an execute both return
+at once, so a Claude Code session can run either under an ordinary tool call. **Every batch verb takes the path of a batch's `definition.md`** and
 resolves the batch's other files beside it; the runner holds no root, no folder rule and no
 notion of a study. Where a definition sits and what it says are the `v3-buildout` skill's
 Artifacts row and `schemas/definition-schema.md`, held by DocIntegrity at the write; the
@@ -384,6 +385,12 @@ read as a bill.
   a set no one could name. The flag left the CLI, the execute route and the page; the cut's order
   keeps its purpose and is the same every time. Batches executed under it before that date show
   their answered items out of the cut's order in `state.md`, which is what happened.
+- **`start` held its caller's output open** (2026-09-27). The host was launched with
+  `UseShellExecute = false` and nothing redirected, so it inherited the caller's standard
+  handles and kept them for its whole life; a Claude Code Bash call running `start` waited on
+  that stream until it was interrupted, though the host had answered in seconds. Now
+  `HostStart` launches it through the shell, hidden, inheriting nothing; its record is
+  `host-log.txt`.
 
 ## Two mechanisms, one line between them
 

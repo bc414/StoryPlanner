@@ -187,13 +187,26 @@ public static class PlanNotes
         if (n.TrackId is int t && plan.Tracks.TryGetValue(t, out var track))
         {
             var type = (TrackType)track.TrackType;
-            body.Append("track: ").Append(track.Name).Append(" — ").Append(type).Append(": ").Append(type.GetCognitiveMode()).Append('\n');
+            body.Append("track: ").Append(track.Name).Append(" — ").Append(type).Append(": ").Append(Persona(type)).Append('\n');
             body.Append("display question: ").Append(track.DisplayQuestion.Trim().Length == 0 ? "(none)" : track.DisplayQuestion.Trim()).Append('\n');
         }
         else body.Append("track: none (unassigned)\n");
         if (n.ThemeId is int th)
             body.Append("theme: ").Append(plan.Themes.TryGetValue(th, out var theme) ? $"{theme.Name} — {theme.Proposition.Trim()}" : $"theme {th}").Append('\n');
         if (n.DateText.Length > 0) body.Append("world date: ").Append(n.DateText).Append('\n');
+    }
+
+    /// <summary>
+    /// The mode a type declares, as the persona alone: "written by an in-universe historian
+    /// reporting facts". The app's string opens with a label and, on six types, a layer number
+    /// ("History Notes (Layer 2) - "), a reference the item never explains, so the item leaves it
+    /// out (2026-09-27).
+    /// </summary>
+    public static string Persona(TrackType type)
+    {
+        var mode = type.GetCognitiveMode();
+        var dash = mode.IndexOf(" - ", StringComparison.Ordinal);
+        return dash < 0 ? mode : mode[(dash + 3)..];
     }
 
     static string Content(PlanNote n) => n.Content.Replace("\r\n", "\n").Trim() is { Length: > 0 } c ? c : "(empty)";

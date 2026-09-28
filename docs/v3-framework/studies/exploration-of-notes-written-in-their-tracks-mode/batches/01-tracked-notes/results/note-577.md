@@ -1,0 +1,9 @@
+- claims:
+  - A period called 'The Crisis' is tagged with real-world labels WW1 and Revolution | "The Crisis (WW1/Revolution)" | yes | yes
+  - Grover IV's death is said to trigger the collapse | "Grover IV’s death triggers the collapse" | no, written as in-universe historical narration | no
+  - The 978 Republican Revolution (Kemerskai) is said to mimic the liberal revolutions of 1848 or 1917 | "mimics the liberal revolutions of 1848 or 1917" | yes | yes
+  - The in-universe 'Textile Barons' faction, equated with real-world Industrialists, is said to have betrayed the revolution because they preferred profits over rights | "betrayed by the 'Textile Barons' (Industrialists) who preferred profits over rights" | yes | yes
+- unanswered:
+  - What real-world system inspired the government or monarchy that existed before the Crisis, under Grover IV
+  - What real-world system inspired the structure of the Republic that resulted after the revolution
+- whole: The note documents the real-world historical analogies (WW1, the revolutions of 1848/1917, and industrialist betrayal of liberal movements) behind the in-universe Crisis and 978 Republican Revolution, with a brief in-universe narrative detail woven in.

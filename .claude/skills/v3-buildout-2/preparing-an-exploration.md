@@ -4,7 +4,7 @@ Enables conducting-an-exploration.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| explore-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the question, the scale, one item or slices, the itemizer, the model and effort; the plan approved registers the study; his question written into the list first where it is not there |
+| explore-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | The question fixed first, traced through the code-sessions archive to Brian's words and its terms checked against the live data, shown to him and never reworded; then Brian and the session fix the scale, one item or slices, the itemizer, the model and effort; the plan approved registers the study; his question written into the list first where it is not there |
 | author-exploration-directions | hitl | | question-list corpus directions | directions | specified | The directions written with Brian against the corpora: what one item is, how to read with the question in view, what to produce as entries; a new numbered version each time |
 | assemble-exploration-batch | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer, for a new study, a new directions version or a changed itemizer that stays the study's; dry-run-batch; for slices, execute-batch paused as soon as it starts, its first calls in the cut's order the pilot, whose results Brian reads before the rest run |
 | explore-pilot-item | agent | | directions items | results | specified | A pilot call, one slice read discovery-first under the directions; the only writer of its result |
@@ -16,7 +16,16 @@ study's itemizer will read is readable and CORPORA.md says how.
 
 ## explore-plan
 
-The session presents the question the study is of and the shape of every corpus the
+The session first fixes the question the study is of. It traces the question from its
+`raised by` back through the code-sessions archive to Brian's typed words, marks each point
+where the question's wording entered from a session turn rather than from his typing, a
+line he typed that repeats a session's offered wording included, and checks each of the
+question's terms against the live schema and data the study will read. It shows him the
+chain and the check in the chat, for every question, one from his recall included, and
+proposes no rewording: a rewording is his, and goes through write-question as a new entry,
+the old one withdrawn.
+
+Then the session presents the question and the shape of every corpus the
 itemizer will read, from CORPORA.md, and asks Brian, batched four per call: the scale the
 question calls for, one item that is the whole of what the itemizer cuts, where that or a
 stated narrowing of it fits one call, or slices, as peers, and the itemizer that cuts them;
@@ -62,5 +71,5 @@ read discovery-first with the questions in view; one lead set out in the declare
 
 ## Never
 
-Reads a corpus for content beyond sizing it; names a hypothesis as a target; executes
+Reads a corpus for content beyond sizing it and tracing the question's origin; names a hypothesis as a target; executes
 the rest of a sliced batch before Brian has read the pilot's results; edits a definition.
