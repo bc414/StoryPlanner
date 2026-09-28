@@ -27,7 +27,8 @@ public class PlanNoteItemizerTests
         var selected = PlanNotes.Select(plan, All);
         var noteItems = PlanNotes.NoteItems(plan, selected, new PlanNotes.Context("owner-notes", []));
         var ownerItems = PlanNotes.OwnerItems(plan, selected);
-        foreach (var item in noteItems.Concat(ownerItems))
+        var subjectItems = PlanNotes.SubjectItems(plan, selected);
+        foreach (var item in noteItems.Concat(ownerItems).Concat(subjectItems))
         {
             Assert.DoesNotContain(SyntheticPlan.FlaggedContentEnvelope, item.Body);
             // No heading for either flagged note, in either unit's form ("## note 2", "### note 2 — Backstory").
@@ -98,5 +99,56 @@ public class PlanNoteItemizerTests
             items.Select(i => i.Id).ToArray());
         Assert.Contains("track: none (unassigned)", items[1].Body);
         Assert.Empty(ItemizerOutput.Problems(items));
+    }
+
+    [Fact]
+    public void A_subject_item_holds_its_own_and_its_scene_links_notes_under_every_track_it_can_hold()
+    {
+        using var fixture = SyntheticPlan.Create();
+        fixture.ExternalWrite(ctx => ctx.NoteTrackDefinitions.Add(new NoteTrackDefinition
+        {
+            Id = 50, SubjectDefinitionId = SyntheticPlan.CharacterDefId, OwnerType = OwnerType.Subject,
+            TrackName = "Characterization", DisplayQuestion = "Who is this character?", TrackType = TrackType.Characterization,
+        }));
+        var plan = PlanNotes.Load(fixture.Path);
+        var item = Assert.Single(PlanNotes.SubjectItems(plan, PlanNotes.Select(plan, All)));
+
+        // The subject with no notes has no item; plot-point and chapter notes never reach one.
+        Assert.Equal($"subject-{SyntheticPlan.SubjectId}", item.Id);
+        Assert.Equal("Testcharacter, 2 subject-wide notes, 1 scene-link notes", item.Description);
+        Assert.DoesNotMatch($@"\bnote {SyntheticPlan.PlotPointNoteId}\b", item.Body);
+        Assert.DoesNotMatch($@"\bnote {SyntheticPlan.ChapterNoteId}\b", item.Body);
+
+        var body = item.Body;
+        var wide = body.IndexOf("## Subject-wide notes", StringComparison.Ordinal);
+        var links = body.IndexOf("## Scene-link notes", StringComparison.Ordinal);
+        Assert.True(wide >= 0 && links > wide);
+        // Every track the subject can hold at its owner is shown, an empty one with its question.
+        Assert.Contains("### track: Backstory — History: written by an in-universe historian reporting facts\ndisplay question: What is this character's history?", body);
+        Assert.Contains("### track: Characterization — Characterization: written by a psychologist asserting the truth of what makes a character who they are\ndisplay question: Who is this character?\n\n(no notes)", body);
+        Assert.InRange(body.IndexOf($"#### note {SyntheticPlan.VisibleNoteId}\n", StringComparison.Ordinal), wide, links);
+        Assert.Contains("world date: 993", body);
+        // The link track sits under the scene-link notes with the scene named, not the subject track.
+        var linkNote = body.IndexOf($"#### note {SyntheticPlan.LinkNoteId}\n", StringComparison.Ordinal);
+        Assert.True(linkNote > body.IndexOf("### track: Revelation — WorldInference", links, StringComparison.Ordinal));
+        Assert.Contains($"#### note {SyntheticPlan.LinkNoteId}\nscene: \"Testscene\" ((Unassigned), chapter 1 \"Testchapter\")", body);
+
+        Assert.Contains("a subject holding none of the notes taken has no item", PlanNotes.Narrowing(All, None, "subject"));
+        Assert.Empty(ItemizerOutput.Problems([item]));
+    }
+
+    [Fact]
+    public void A_subject_items_untracked_notes_are_carried_as_unassigned()
+    {
+        using var fixture = SyntheticPlan.Create();
+        fixture.ExternalWrite(ctx => ctx.Notes.Add(new Note
+        {
+            Id = 60, OwnerId = SyntheticPlan.LinkId, OwnerType = OwnerType.PlotPointSubjectLink,
+            NoteState = NoteState.Unset, Content = "An untracked link note.", SortOrder = 2,
+        }));
+        var plan = PlanNotes.Load(fixture.Path);
+        var body = Assert.Single(PlanNotes.SubjectItems(plan, PlanNotes.Select(plan, All))).Body;
+        var links = body.IndexOf("## Scene-link notes", StringComparison.Ordinal);
+        Assert.True(body.IndexOf("### track: none (unassigned)\n\n#### note 60\nscene:", StringComparison.Ordinal) > links);
     }
 }

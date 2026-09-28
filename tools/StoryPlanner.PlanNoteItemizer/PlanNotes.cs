@@ -14,9 +14,9 @@ namespace StoryPlanner.PlanNoteItemizer;
 public static class PlanNotes
 {
     public sealed record PlanNote(int Id, string Content, int OwnerType, int OwnerId, int SortOrder, int? TrackId, int? ThemeId, string DateText);
-    public sealed record Track(int Id, string Name, int TrackType, string DisplayQuestion);
+    public sealed record Track(int Id, string Name, int TrackType, string DisplayQuestion, int SubjectDefinitionId, int OwnerType);
     public sealed record Theme(int Id, string Name, string Proposition);
-    public sealed record Subject(int Id, string Name, string SubjectType);
+    public sealed record Subject(int Id, string Name, string SubjectType, int SubjectDefinitionId);
     public sealed record PlotPoint(int Id, string Title, int? ChapterId);
     public sealed record Chapter(int Id, string Title, int OrderIndex, int StoryId);
     public sealed record Link(int Id, int PlotPointId, int SubjectId);
@@ -67,11 +67,11 @@ public static class PlanNotes
         return new Plan(
             all.Where(n => n.State != Flagged).Select(n => n.Note).ToList(),
             all.Count(n => n.State == Flagged),
-            Query(conn, "select Id, TrackName, TrackType, DisplayQuestion from NoteTrackDefinitions",
-                r => new Track(r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetString(3))).ToDictionary(t => t.Id),
+            Query(conn, "select Id, TrackName, TrackType, DisplayQuestion, SubjectDefinitionId, OwnerType from NoteTrackDefinitions",
+                r => new Track(r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetString(3), r.GetInt32(4), r.GetInt32(5))).ToDictionary(t => t.Id),
             Query(conn, "select Id, Name, Proposition from Themes", r => new Theme(r.GetInt32(0), r.GetString(1), r.GetString(2))).ToDictionary(t => t.Id),
-            Query(conn, "select s.Id, s.Name, coalesce(d.SubjectType, '') from Subjects s left join SubjectDefinitions d on d.Id = s.SubjectDefinitionId",
-                r => new Subject(r.GetInt32(0), r.GetString(1), r.GetString(2))).ToDictionary(s => s.Id),
+            Query(conn, "select s.Id, s.Name, coalesce(d.SubjectType, ''), s.SubjectDefinitionId from Subjects s left join SubjectDefinitions d on d.Id = s.SubjectDefinitionId",
+                r => new Subject(r.GetInt32(0), r.GetString(1), r.GetString(2), r.GetInt32(3))).ToDictionary(s => s.Id),
             Query(conn, "select Id, Title, ChapterId from PlotPoints", r => new PlotPoint(r.GetInt32(0), r.GetString(1), r.IsDBNull(2) ? null : r.GetInt32(2))).ToDictionary(p => p.Id),
             Query(conn, "select Id, Title, OrderIndex, StoryId from Chapters", r => new Chapter(r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetInt32(3))).ToDictionary(c => c.Id),
             Query(conn, "select Id, Title from Stories", r => (r.GetInt32(0), r.GetString(1))).ToDictionary(t => t.Item1, t => t.Item2),
@@ -167,8 +167,79 @@ public static class PlanNotes
         return items;
     }
 
+    public const string SubjectLocatorNotation =
+        "`subject-<id>`: the Subjects row id in the working-plan .storyplan the config names; the item holds that subject's own notes and the notes of the scene links (PlotPointSubjectLinks) whose SubjectId it is";
+
+    /// <summary>
+    /// One item per subject holding at least one selected note, on itself or on one of its scene
+    /// links: the subject-wide notes, then the scene-link notes, each grouped under every track the
+    /// subject can hold at that owner, its type's mode and display question beside it, a track with
+    /// no notes shown empty. The tracks a subject can hold are the definitions scoped to its subject
+    /// definition and the owner type; a note on a track outside that scope is still carried, under
+    /// its own track. Plot-point and chapter notes are never carried.
+    /// </summary>
+    public static IReadOnlyList<ItemizerOutput.Item> SubjectItems(Plan plan, IReadOnlyList<PlanNote> selected)
+    {
+        var own = selected.Where(n => n.OwnerType == OwnerSubject).ToLookup(n => n.OwnerId);
+        var onLinks = selected.Where(n => n.OwnerType == OwnerLink && plan.Links.ContainsKey(n.OwnerId))
+            .ToLookup(n => plan.Links[n.OwnerId].SubjectId);
+        var items = new List<ItemizerOutput.Item>();
+        foreach (var subjectId in own.Select(g => g.Key).Union(onLinks.Select(g => g.Key)).Order())
+        {
+            var defId = plan.Subjects.TryGetValue(subjectId, out var s) ? s.SubjectDefinitionId : (int?)null;
+            var body = new StringBuilder()
+                .Append("# working-plan ").Append(Owner(plan, OwnerSubject, subjectId)).Append("\n\n")
+                .Append("## Subject-wide notes\n\n");
+            TrackGroups(plan, defId, OwnerSubject, own[subjectId].ToList(), body, _ => null);
+            body.Append("## Scene-link notes\n\n");
+            TrackGroups(plan, defId, OwnerLink, onLinks[subjectId].ToList(), body,
+                n => plan.PlotPoints.TryGetValue(plan.Links[n.OwnerId].PlotPointId, out var p)
+                    ? $"scene: \"{p.Title}\" ({PlotPointPlace(plan, p)})"
+                    : $"scene: plot point {plan.Links[n.OwnerId].PlotPointId} (not found)");
+            var id = $"subject-{subjectId}";
+            items.Add(new ItemizerOutput.Item(id, body.ToString().TrimEnd('\n') + "\n", id,
+                $"{OwnerShort(plan, OwnerSubject, subjectId)}, {own[subjectId].Count()} subject-wide notes, {onLinks[subjectId].Count()} scene-link notes"));
+        }
+        return items;
+    }
+
+    static void TrackGroups(Plan plan, int? subjectDefinitionId, int ownerType, IReadOnlyList<PlanNote> notes, StringBuilder body, Func<PlanNote, string?> place)
+    {
+        var holdable = plan.Tracks.Values.Where(t => t.OwnerType == ownerType && t.SubjectDefinitionId == subjectDefinitionId).Select(t => t.Id);
+        var used = notes.Where(n => n.TrackId is int t && plan.Tracks.ContainsKey(t)).Select(n => n.TrackId!.Value);
+        var byTrack = notes.ToLookup(n => n.TrackId is int t && plan.Tracks.ContainsKey(t) ? t : (int?)null);
+        foreach (var track in holdable.Union(used).Select(t => plan.Tracks[t]).OrderBy(t => t.Name, StringComparer.OrdinalIgnoreCase).ThenBy(t => t.Id))
+        {
+            var type = (TrackType)track.TrackType;
+            body.Append("### track: ").Append(track.Name).Append(" — ").Append(type).Append(": ").Append(Persona(type)).Append('\n')
+                .Append("display question: ").Append(track.DisplayQuestion.Trim().Length == 0 ? "(none)" : track.DisplayQuestion.Trim()).Append("\n\n");
+            Notes(plan, byTrack[track.Id], body, place);
+        }
+        if (byTrack[null].Any())
+        {
+            body.Append("### track: none (unassigned)\n\n");
+            Notes(plan, byTrack[null], body, place);
+        }
+        if (!holdable.Any() && notes.Count == 0) body.Append("(no tracks and no notes)\n\n");
+    }
+
+    static void Notes(Plan plan, IEnumerable<PlanNote> notes, StringBuilder body, Func<PlanNote, string?> place)
+    {
+        var list = notes.OrderBy(n => n.OwnerId).ThenBy(n => n.SortOrder).ThenBy(n => n.Id).ToList();
+        if (list.Count == 0) { body.Append("(no notes)\n\n"); return; }
+        foreach (var n in list)
+        {
+            body.Append("#### note ").Append(n.Id).Append('\n');
+            if (place(n) is { } where) body.Append(where).Append('\n');
+            if (n.ThemeId is int th)
+                body.Append("theme: ").Append(plan.Themes.TryGetValue(th, out var theme) ? $"{theme.Name} — {theme.Proposition.Trim()}" : $"theme {th}").Append('\n');
+            if (n.DateText.Length > 0) body.Append("world date: ").Append(n.DateText).Append('\n');
+            body.Append('\n').Append(Content(n)).Append("\n\n");
+        }
+    }
+
     /// <summary>The narrowing line: what the selection takes, and that flagged notes are never carried.</summary>
-    public static string Narrowing(Selection selection, Context context)
+    public static string Narrowing(Selection selection, Context context, string unit = "note")
     {
         var what = selection.Kind switch
         {
@@ -178,6 +249,8 @@ public static class PlanNotes
             "tracks" => $"every note in a track named {string.Join(", ", selection.Tracks)}",
             _ => selection.Kind,
         };
+        if (unit == "subject")
+            return $"{what} owned by a subject or by one of its scene links, except the flagged notes, which are never carried; plot-point and chapter notes are not carried, and a subject holding none of the notes taken has no item";
         var beside = context.Kind == "none" ? "" : " and as context";
         return $"{what}, except the flagged notes, which are never carried, as an item{beside}";
     }
