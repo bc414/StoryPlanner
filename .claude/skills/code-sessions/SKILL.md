@@ -1,6 +1,6 @@
 ---
 name: code-sessions
-description: Query codesessions.db — the sealed Claude Code transcript archive (engineering-process provenance, deliberately NOT in the MCP server). Use when asking how or why a planner feature was built, what was tried and cut, what an old ingest reported, or what an earlier session actually did — the record of *why*, authoritative for *nothing*. Also covers the ingest procedure and the retention decisions behind the archive.
+description: Query codesessions.db — the sealed Claude Code transcript archive (engineering-process provenance, deliberately NOT in the MCP server). Use when asking how or why a planner feature was built, what was tried and cut, what an old ingest reported, or what an earlier session actually did — the record of *why*, authoritative for *nothing*. Also covers rebuilding a family of forked sessions as one context document (tools/StoryPlanner.SessionTree), the ingest procedure, and the retention decisions behind the archive.
 ---
 
 # Code sessions — the sealed-but-greppable engineering archive
@@ -112,7 +112,9 @@ it survives nowhere else on disk). FEATURE-AUDIT and the code establish what is 
 `[Request interrupted by user]` was always kept — it is a text part, not a tool result.
 
 Records keep `Uuid`/`ParentUuid` in timestamp order — a rewound session shows **both branches**;
-the DAG is never linearized into one reconstructed thread. Full fidelity (thinking, tool
+the DAG is never linearized into one reconstructed thread. A **fork** is a different thing: a
+separate session whose history is an imperfect copy of its parent's — see "Rebuilding a fork
+family" below before comparing forks by hand. Full fidelity (thinking, tool
 payloads) exists only in the raw JSONL: the live `~/.claude/projects/` (retention raised to
 3650 days on 2026-08-17) and the one-time snapshot
 `C:\Users\Brian\Documents\ClaudeCode Projects Snapshot 2026-08-17\`.
@@ -231,6 +233,49 @@ FROM Sessions
 WHERE substr(LastSeenUtc,1,10) < (SELECT MAX(substr(LastSeenUtc,1,10)) FROM Sessions)
 ORDER BY LastSeenUtc;
 ```
+
+## Rebuilding a fork family (2026-09-29)
+
+Brian forks sessions to explore more than one line from one conversation. Each fork is its own
+`Sessions` row, holding a copy of the history up to the fork point, so querying a family by
+hand pages the shared opening once per fork. `tools/StoryPlanner.SessionTree` rebuilds the
+family as one Markdown document instead:
+
+```
+dotnet run --project tools/StoryPlanner.SessionTree -- <any-member-id-or-prefix> [--db PATH] [--out FILE]
+```
+
+- **What the output is.**
+  - A member table, a segment outline and warnings.
+  - Then every stretch the forks share, once, and each branch once under the stretch it
+    continues.
+  - Only what was said is kept: Brian's prompts, `Q:`/`Chose:`/`Typed:` blocks, plan text and
+    verdicts, interruptions, the assistant's text, each subagent's prompt and report, and
+    compaction markers.
+  - Tool calls, tool results, thinking and other harness records are left out.
+  - It is a context for a Claude Code session, and the no-Desktop posture holds.
+- **Family.** Every member has the same first record (`Seq = 1`, the same timestamp, role and
+  body), so any member names the whole family, forks of forks included.
+- **The trap, if you compare forks by hand (observed 2026-09-29).** A fork's copy is **not
+  byte-faithful**:
+  - it re-issues every `Uuid`;
+  - it **re-stamps the record it was made at** — one 8,501-char reply sat at three timestamps
+    in three forks;
+  - it can **drop records**, such as one of a set of parallel tool results.
+
+  So neither `Uuid`, nor `Timestamp`, nor the record sequence identifies a shared record. The
+  tool matches forks on the dialogue: an assistant reply by its text, a prompt of Brian's by
+  timestamp and text. When a branch still repeats a sibling's text, the tool says so in a
+  warning.
+- **The disk check.** The tool reads the disk to report two things the archive cannot say
+  about itself:
+  - a member whose transcript on disk holds dialogue newer than the archive's (Claude Code also
+    appends non-dialogue records to a finished transcript, and those do not count);
+  - a fork written since the last ingest run that is not in the archive yet.
+
+  Either one means run the ingest first.
+- **Rewinds inside one session** (Esc-Esc) are out of scope. They are flagged, and printed in
+  timestamp order.
 
 ## Ingest (progressive — run it to catch the archive up)
 

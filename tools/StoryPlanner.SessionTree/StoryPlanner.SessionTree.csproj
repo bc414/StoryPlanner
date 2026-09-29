@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StoryPlanner.SessionTree</RootNamespace>
+        <!-- The session tree (2026-09-29): rebuilds a fork family from codesessions.db as one
+             Markdown document — every stretch shared by forked sessions once, each branch once
+             under the stretch it continues, dialogue only. A simplified context for a later
+             Claude Code session; never surfaced to Desktop (the 2026-08-18 posture). Read-only. -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.7" />
+        <!-- The pin Core carries: 10.0.7 resolves SQLitePCLRaw 2.1.11, whose bundled SQLite has an advisory. -->
+        <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.12" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- The archive's writer: its role vocabulary (CodeSessionExtractor.HarnessRole) is what this reads. -->
+        <ProjectReference Include="..\StoryPlanner.CodeSessions\StoryPlanner.CodeSessions.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -43,6 +43,7 @@
         <ProjectReference Include="..\..\tools\StoryPlanner.V1Itemizer\StoryPlanner.V1Itemizer.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.PlanNoteItemizer\StoryPlanner.PlanNoteItemizer.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.TurnItemizer\StoryPlanner.TurnItemizer.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.SessionTree\StoryPlanner.SessionTree.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.ResultsQuery\StoryPlanner.ResultsQuery.csproj" />
     </ItemGroup>
 
